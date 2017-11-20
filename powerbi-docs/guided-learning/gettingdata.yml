@@ -1,0 +1,67 @@
+documentType: Tutorial
+title: "Получение данных"
+metadata:
+  title: "Получение данных | Microsoft Power BI"
+  description: "Изучение разнообразных способов работы с данными в Power BI."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: modeling
+  nextTutorialTitle: "Моделирование"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Изучение разнообразных способов работы с данными в Power BI.\n"
+  ms.openlocfilehash: b994ce3414ac359333199c2174570ee314193341
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 11/15/2017
+- title: "Обзор Power BI Desktop"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/mdy-eRev6HM?rel=0]
+
+
+    [!INCLUDE [](includes/1-1-overview-of-power-bi-desktop.md)]
+- title: "Начало работы с Power BI Desktop"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/1Bo1BrpR3AY?rel=0]
+
+
+    [!INCLUDE [](includes/0-2-get-started-power-bi-desktop.md)]
+- title: "Подключение к источникам данных в Power BI Desktop"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/S6s0osmRCZ4?rel=0]
+
+
+    [!INCLUDE [](includes/1-2-connect-to-data-sources-in-power-bi-desktop.md)]
+- title: "Очистка и преобразование данных с помощью редактора запросов"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/o-sinon5JYY?rel=0]
+
+
+    [!INCLUDE [](includes/1-3-clean-and-transform-data-with-query-editor.md)]
+- title: "Дополнительные источники данных и преобразования"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/8WsY0R2V_bw?rel=0]
+
+
+    [!INCLUDE [](includes/1-4-advanced-data-sources-and-transformation.md)]
+- title: "Очистка беспорядочно отформатированных данных"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/74KQmzdvFV8?rel=0]
+
+
+    [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
+- content: "Вы завершили раздел **Получение данных** интерактивного курса обучения для Microsoft Power BI.\0"
