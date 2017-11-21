@@ -1,0 +1,17 @@
+- name: Документы
+  href: /
+  topicHref: /
+  items:
+    - name: Power BI
+      tocHref: /power-bi/
+      topicHref: /power-bi/
+      items:
+        - name: Разработчик
+          tocHref: /power-bi/developer/
+          topicHref: /power-bi/developer/
+        - name: Направляемое обучение
+          tocHref: /power-bi/guided-learning/
+          topicHref: /power-bi/guided-learning/
+        - name: Сервер отчетов
+          tocHref: /power-bi/report-server/
+          topicHref: /power-bi/report-server/
