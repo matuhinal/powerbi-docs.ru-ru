@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 11/20/2017
 ms.author: asaxton
-ms.openlocfilehash: 9f592c2a85794f6c7db5de37be2ffc7b276b8f6a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 856377112ccd7cb045ff80d3294ff9b8181122ee
+ms.sourcegitcommit: 97ca2ed578f4f0e11f2d014872fe1b80dfd8a28e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 ---
 # <a name="qa-in-power-bi-embedded"></a>Вопросы и ответы в Power BI Embedded
 Power BI Embedded позволяет встроить функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке и сразу же получать ответы в виде таких визуальных элементов, как диаграммы и графики.

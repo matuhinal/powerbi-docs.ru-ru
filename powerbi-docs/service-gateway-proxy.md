@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 6fb6250f8cd82c7057abe3f9cf9792dc733ea4b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Настройка параметров прокси-сервера для локального шлюза данных
 Рабочие среды могут требовать, чтобы доступ в Интернет осуществлялся через прокси-сервер. Это может помешать локальному шлюзу данных подключаться к службе.
@@ -48,40 +48,6 @@ ms.lasthandoff: 11/15/2017
 Второй служит для фактической службы Windows, которая взаимодействует со службой Power BI и обрабатывает запросы.
 
     C:\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config
-
-### <a name="power-bi-gateway---personal"></a>Шлюз Power BI — персональный
-> [!NOTE]
-> Имеется новая версия личного шлюза для Power BI, которая называется **локальным шлюзом данных (персональный режим)**. В этом разделе статьи описывается предыдущая версия личного шлюза (**Power BI Gateway - Personal**), использование которой будет прекращено и которая перестанет работать после 31 июля 2017 года. Сведения о новой версии личного шлюза, в том числе об установке новой версии, см. в статье [**Локальный шлюз данных (персональный режим)**](service-gateway-personal-mode.md).
-> 
-> 
-
-Личный шлюз можно установить одним из двух способов. Как службу Windows (администратор) или как приложение пользовательского режима. Это определяется во время установки. В результате файлы конфигурации могут находиться в одном из двух расположений в зависимости от способа установки шлюза. Рекомендуется проверить оба этих расположения.
-
-**Конфигурация**
-
-Первый предназначен для экранов конфигурации, используемых непосредственно для настройки шлюза. Если возникают проблемы при настройке шлюза, обратитесь именно к этому файлу.
-
-Для *службы Windows* используются следующие пути:
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\GWConfig.exe.config
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-Для *приложения пользовательского режима* используются следующие пути:
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\GWConfig.exe.config
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-**Служба Windows**
-
-Второй служит для фактической службы Windows, которая взаимодействует со службой Power BI и обрабатывает запросы.
-
-Для *службы Windows* используются следующие пути:
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Gateway\diawp.exe.config
-
-Для *приложения пользовательского режима* используются следующие пути:
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Gateway\diawp.exe.config
 
 ## <a name="configuring-proxy-settings"></a>Настройка параметров прокси-сервера
 По умолчанию для прокси-сервера используется следующая конфигурация:

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Создание и использование параметра What if для визуализации переменных в Power BI Desktop
 Начиная с августа 2017 г. в **Power BI Desktop** можно создать переменные **What if** для отчетов, взаимодействовать с переменной в качестве среза, и, впоследствии, визуализировать различные ключевые значения в отчетах и определять их количество.
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 Параметр **What if** находится на вкладке **Моделирование** в **Power BI Desktop**. После перехода на эту вкладку откроется диалоговое окно, где можно настроить параметр.
 
-### <a name="creating-a-what-if-parameter"></a>Создание параметра What if
+## <a name="creating-a-what-if-parameter"></a>Создание параметра What if
 Чтобы создать параметр **What if**, нажмите кнопку **What if** на вкладке **Моделирование** в **Power BI Desktop**. На следующем рисунке видно, что мы создали параметр с именем *Процент скидки* и задали для него тип *Десятичное число*. Значение*Минимум* равно нулю, *Максимум* — 0,50 (50 %). Мы также настроили *шаг приращения* 0,05 или 5 %. Именно с таким шагом параметр будет корректироваться при взаимодействии в отчете.
 
 ![](media/desktop-what-if/what-if_02.png)

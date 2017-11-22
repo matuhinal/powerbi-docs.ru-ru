@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/01/2017
+ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: ee26744fe74fa536b7310ae0d1fbbc40d51e86a9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81a52b1810b2c35f67420741f3f89585626aa577
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -601,7 +601,6 @@ ms.lasthandoff: 11/13/2017
 
 **7 мая 2015 г.**
 
-* Пакет содержимого **Visual Studio Online** для Power BI теперь можно использовать для анализа командных проектов TFVC и Git. Дополнительные сведения см. в [документации](service-connect-to-visual-studio.md) и в этой [публикации блога](http://blogs.msdn.com/b/powerbi/archive/2015/05/07/gain-understanding-and-insights-into-projects-in-visual-studio-online-with-power-bi.aspx).
 * Благодаря обновлению среда работы получила новый современный дизайн. Вы можете работать в яркой и оригинальной среде, не упуская из виду самое главное: ваши данные и результаты анализа.
 
 **28 апреля 2015 г.**
