@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: efbf5998bfc419dbcf5d7f685da128f26fcd70dd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Учебник. Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 В этом учебном руководстве описаны действия, необходимые для реализации **безопасности на уровне строк** в **табличной модели Analysis Services**, и показано, как использовать эти функции в отчете Power BI. Здесь приведены пошаговые инструкции, которые помогут вам познакомиться с последовательностью необходимых действий на примере набора данных.
@@ -133,7 +133,7 @@ ms.lasthandoff: 11/13/2017
 2. Сеанс создается в момент, когда пользователь (в нашем случае — Jon Doe) обращается к панели мониторинга в службе Power BI. Мы видим, что роль **salesterritoryusers** сразу же применяется для действующего имени пользователя **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**.
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. Используя переданное в запросе действующее имя пользователя, службы Analysis Services преобразуют его в учетные данные moonneo\jondoe при отправке запроса в каталог Active Directory. После того как службы **Analysis Services** получают реальные учетные данные из Active Directory, они применяют права этого пользователя на доступ к соответствующим данным и  возвращают только ту информацию, для работы с которой у него есть разрешения.
+3. Используя переданное в запросе действующее имя пользователя, службы Analysis Services преобразуют его в учетные данные moonneo\jondoe при отправке запроса в каталог Active Directory. После того как службы **Analysis Services** получают реальные учетные данные из Active Directory, они применяют права этого пользователя на доступ к соответствующим данным и возвращают только ту информацию, для работы с которой у него есть разрешения.
 4. Если на панели мониторинга будет выполнено еще какое-то действие (например, Jon Doe перейдет с панели на связанный с ней отчет), в SQL Profiler отразится соответствующий запрос, который направляется в табличную модель Analysis Services в виде запроса DAX.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
