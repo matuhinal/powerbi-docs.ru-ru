@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: asaxton
-ms.openlocfilehash: dafd1d7891410818cc2c23031bf1a5f8c750438e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Регистрация учетной записи отдельного пользователя в Power BI
 Узнайте, как зарегистрироваться в Power BI и приступить к работе с отчетами и визуальными элементами для личных нужд.
@@ -57,7 +57,7 @@ Power BI может выступать в качестве вашего личн
 > 
 > 
 
-## <a name="which-one-do-i-need"></a>Какой именно тип нужен
+## <a name="which-one-do-you-need"></a>Какой именно тип нужен
 Чтобы понять, какой тип вам нужен, следует ознакомиться с возможностями лицензий каждого из типов. Пользователи с бесплатной лицензией получают большинство функциональных возможностей служб, за исключением возможностей предоставления общего доступа и совместной работы. Пользователи Power BI Pro могут использовать все функции службы, но не бесплатно. Если вам не нужно делиться содержимым, то вам вполне может подойти бесплатная лицензия. Дополнительные сведения можно получить на [странице цен на Power BI](https://powerbi.microsoft.com//pricing/).
 
 В оставшейся части статьи описывается регистрация для каждого из этих вариантов.
@@ -93,7 +93,7 @@ Power BI может выступать в качестве вашего личн
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
 
-### <a name="what-if-im-already-part-of-an-existing-organization"></a>Что делать, если я уже работаю в организации
+### <a name="what-if-youre-already-part-of-an-existing-organization"></a>Что делать, если вы уже работаете в организации
 Если ваша учетная запись входит в состав зарегистрированной организации, вам будет предложено выполнить вход с этой учетной записью. Нажмите кнопку **Продолжить** и войдите со своими учетными данными для Office 365.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)
@@ -102,7 +102,7 @@ Power BI может выступать в качестве вашего личн
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup6.png)
 
-## <a name="in-service-power-bi-pro-60-day-trial"></a>Действующая 60-дневная пробная версия Power BI Pro
+## <a name="in-service-power-bi-pro-60-day-trial"></a>Действующая 60-дневная пробная версия Power BI Pro
 Зарегистрировав бесплатную учетную запись, вы можете использовать функции Power BI Pro бесплатно в течение 60 дней. Вы получите доступ ко всем функциональным возможностям учетных записей Pro на период действия пробной версии. В Power BI Pro доступны все функции бесплатной версии Power BI, а также дополнительные возможности общего доступа и совместной работы. Дополнительные сведения см. в разделе [Цены на Power BI](https://powerbi.microsoft.com/pricing). Чтобы ознакомится с 60-дневной бесплатной пробной версией Power BI Pro, выполните вход в службу Power BI и попробуйте одну из следующих функций Power BI.
 
 * [создание рабочей области приложения](service-create-distribute-apps.md);

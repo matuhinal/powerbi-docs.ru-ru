@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a40f1fba503ca9bc76f77381fe977d6944b595a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Начало работы с форматированием цветом и свойствами осей
 В **Power BI** вы можете изменять цвет ряда данных, точек данных и даже фона визуализаций. Вы также можете изменять способ представления осей X и Y, что позволяет полностью контролировать внешний вид панелей мониторинга и отчетов.
@@ -97,6 +97,7 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
+## <a name="next-step"></a>Дальнейшие действия
 Дополнительные сведения см. в следующей статье:  
 
 * [Советы и рекомендации по форматированию цветом в Power BI](service-tips-and-tricks-for-color-formatting.md)  

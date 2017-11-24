@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Формирование и объединение данных в Power BI Desktop
 С помощью **Power BI Desktop** можно подключаться к различным типам источников данных, а затем формировать данные в соответствии с потребностями. *Формирование* данных означает преобразование данных, например переименование столбцов или таблиц, замену текста числами, удаление строк, установку первой строки в качестве заголовков и т. д. *Объединение* данных означает подключение к нескольким источникам данных, формирование их данных в соответствии с потребностями и их последующее объединение в один удобный запрос.
@@ -160,11 +160,11 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>Это подходящий момент, чтобы показать, как важна *последовательность* примененных шагов в редакторе запросов, так как она может влиять на способ формирования данных. Также важно рассмотреть, как один шаг может повлиять на последующий шаг; если удалить шаг из примененных действий, то последующие шаги могут работать не так, как предполагалось, из-за влияния последовательности шагов запроса.
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>При изменении размера (сужении) окна редактора запросов некоторые элементы ленты уплотняются, что обеспечивает оптимальное использование видимого пространства. При увеличении ширины окна редактора запросов элементы ленты расширяются, чтобы оптимально использовать увеличенную площадь ленты.
 
 * Переименуйте столбцы и саму таблицу. Как обычно, существует несколько способов переименования столбца: сначала выберите столбец, а затем выберите команду **Переименовать** на вкладке **Преобразование** ленты или щелкните правой кнопкой мыши и выберите команду **Переименовать...** в появившемся меню. На следующем рисунке оба варианта показаны стрелками; просто выберите один из них.
 

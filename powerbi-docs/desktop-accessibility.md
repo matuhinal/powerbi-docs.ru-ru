@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Специальные возможности в отчетах Power BI Desktop
 **Power BI Desktop** имеет функции, которые позволяют упростить использование отчетов **Power BI Desktop** и работу с ними людям с ограниченными возможностями. Эти функции включают возможность работать с отчетом, используя клавиатуру или средство чтения с экрана, фокусироваться на различных объектах на странице с помощью клавиши TAB и разумное использование меток в визуализации.
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 В списке ниже описано несколько известных проблем и ограничений для специальных возможностей.
 
-* JAWS поддерживается только в отчетах, просматриваемых в **службе Power BI**, включая все внедренные отчеты. Команда **Power BI Desktop** активно работает над поддержкой JAWS в отчетах, просматриваемых в **Power BI Desktop**.
+* JAWS поддерживается в отчетах, просматриваемых в **службе Power BI**, включая все внедренные отчеты. JAWS также поддерживается в **Power BI Desktop**. Но чтобы правильно открыть любой файл **Power BI Desktop**, требуется средство чтения с экрана.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Использование тем отчетов в Power BI Desktop (предварительная версия)](desktop-report-themes.md)

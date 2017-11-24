@@ -196,8 +196,6 @@
           href: service-connect-to-tygraph.md
         - name: UserVoice
           href: service-connect-to-uservoice.md
-        - name: Visual Studio Team Services
-          href: service-connect-to-visual-studio.md
         - name: VMob
           href: service-connect-to-vmob.md
         - name: Webtrends
@@ -402,10 +400,6 @@
           href: power-bi-visualization-export-data.md
         - name: Изменение типа визуализации в отчете Power BI
           href: power-bi-report-change-visualization-type.md
-        - name: Добавление пользовательской визуализации в отчет Power BI
-          href: power-bi-report-add-custom-visual.md
-        - name: Скачивание и использование настраиваемых визуализаций из Магазина Office
-          href: service-custom-visuals-office-store.md
         - name: Начало работы с форматированием цветом и свойствами осей
           href: service-getting-started-with-color-formatting-and-axis-properties.md
         - name: Советы и рекомендации по форматированию цветом в Power BI
@@ -532,6 +526,8 @@
           href: service-gateway-onprem-tshoot.md
         - name: Power BI Gateway — Personal
           href: personal-gateway.md
+        - name: Использование Kerberos для единого входа
+          href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Настройка параметров прокси-сервера
           href: service-gateway-proxy.md
         - name: "Управление источником данных предприятия\_— службы Analysis Services"
@@ -756,8 +752,6 @@
           href: desktop-insights.md
         - name: Закладки в Power BI
           href: desktop-bookmarks.md
-        - name: Добавление пользовательского визуального элемента в отчет (Desktop)
-          href: power-bi-custom-visuals-use.md
         - name: Использование функции "Тема отчета"
           href: desktop-report-themes.md
         - name: Использование функции "Быстрая мера"
@@ -962,8 +956,6 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Анализ пользовательских визуальных элементов для обеспечения безопасности и конфиденциальности
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: Публикация пользовательских визуализаций в Магазине Office
-          href: developer/office-store.md
         - name: Сертификация пользовательской визуализации
           href: power-bi-custom-visuals-certified.md
     - name: Принудительная отправка данных в панель мониторинга

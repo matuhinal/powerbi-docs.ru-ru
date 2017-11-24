@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 16c39e646c487789de62d0c030150475c8bb8292
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Точечные диаграммы с выборкой с высокой плотностью в Power BI
 Начиная с выпуска **Power BI Desktop** за сентябрь 2017 года и обновлений **службы Power BI** доступен новый алгоритм выборки. Он улучшает презентацию данных с высокой плотностью в точечных диаграммах.
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/15/2017
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
-## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Как включить **выборку с высокой плотностью** для точечной диаграммы
+## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Как включить выборку с высокой плотностью для точечной диаграммы
 Чтобы включить **выборку с высокой плотностью**, выберите в точечную диаграмму, а затем перейдите к панели **Форматирование** и разверните карту **Общие**. В нижней части этой карты находится ползунок **Выборка высокой плотности**. Чтобы включить алгоритм, переведите его в положение **Включено**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
