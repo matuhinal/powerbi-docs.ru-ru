@@ -126,11 +126,11 @@ ms.lasthandoff: 11/13/2017
 #### <a name="directquery-dataset--report"></a>Набор данных и отчет DirectQuery
 **Последовательность**
 
-1. Выполните вызов GET https://api.powerbi.com/v1.0/collections/ {ИД_коллекции}/workspaces/{ИД_рабочей_области}/datasets/{ИД_набора_данных}/Default.GetBoundGatewayDataSources и сохраните полученную строку подключения.
+1. Выполните вызов GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources и сохраните полученную строку подключения.
 2. Вызовите API скачивания PBIX-файлов из рабочей области PaaS.
 3. Сохраните PBIX-файл.
 4. Вызовите API импорта PBIX-файлов в рабочей области SaaS.
-5. Обновите строку подключения, выполнив вызов POST https://api.powerbi.com/v1.0/myorg/datasets/ {ИД_набора_данных}/Default.SetAllConnections.
+5. Обновите строку подключения, выполнив вызов POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
 6. Получите идентификаторы шлюза и источника данных, выполнив вызов GET https://api.powerbi.com/v1.0/myorg/datasets/{ИД_набора_данных}/Default.GetBoundGatewayDataSources.
 7. Обновите учетные данные пользователя, выполнив вызов PATCH https://api.powerbi.com/v1.0/myorg/gateways/{ИД_шлюза}/datasources/{ИД_источника_данных}.
 
