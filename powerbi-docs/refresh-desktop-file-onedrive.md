@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 053e12ec2afbf2647569922d0b469ec1a985612b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ff12ba2f0c05be0afe40f24f722f08d664cdd01c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, хранимого в OneDrive или SharePoint Online
 Импорт файлов из OneDrive или SharePoint Online в службу Power BI — это отличный способ синхронизировать данные между **Power BI Desktop** и Power BI.

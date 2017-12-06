@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: bbe163f310eb839a3e815d34c72c981257f5b627
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---oracle"></a>Управление своим источником данных — Oracle
 После установки локального шлюза данных необходимо добавить источники, которые можно будет с ним использовать. В этой статье будут рассмотрены способы работы со шлюзами и источниками данных. Источник данных Oracle можно использовать как для запланированного обновления, так и в режиме DirectQuery.
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/15/2017
 
 * [32-разрядная версия Oracle Data Access Components (ODAC) с Oracle Developer Tools для Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
-Для **64-разрядной** версии Power BI Desktop или локального шлюза данных перейдите по следующей ссылке, чтобы скачать и установить **64-разрядный** клиент Oracle:
+Если вы используете **64-разрядную** версию Power BI Desktop или локальный шлюз данных, перейдите по следующей ссылке, чтобы скачать и установить **64-разрядный** клиент Oracle:
 
 * [64-разрядная версия ODAC 12.2c, выпуск 1 (12.2.0.1.0) для 64-разрядных версий Windows](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
@@ -142,7 +142,7 @@ CONTOSO =
 После создания источника данных он будет доступен для использования с подключениями DirectQuery или через функцию запланированного обновления.
 
 > [!WARNING]
-> Имена сервера и базы данных в Power BI Desktop и источнике данных в локальном шлюзе данных должны совпадать.
+> Имена сервера и базы данных в Power BI Desktop и источнике данных в конфигурации локального шлюза должны совпадать.
 > 
 > 
 
@@ -180,7 +180,7 @@ CONTOSO =
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Локальный шлюз данных](service-gateway-onprem.md)  
-[Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
+[Локальный шлюз данных: подробный обзор](service-gateway-onprem-indepth.md)  
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 

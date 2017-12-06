@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ed0d4087912d1f4f6f1b4f6690c3cacd478beae3
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 4c1ddee96d82af446256d812f5b982a1802a6c30
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Основные сведения о DAX в Power BI Desktop
 Это руководство предназначено для пользователей, не знакомых с Power BI Desktop. Оно предоставляет краткие и простые вводные сведения о том, как можно использовать язык выражений анализа данных (DAX) для решения ряда задач анализа данных и основных вычислений. Здесь будут предоставлены некоторые концептуальные сведения, ряд задач, которые вы можете выполнить, и несколько контрольных вопросов для проверки, что вы узнали. После изучения этой статьи вы должны хорошо понимать наиболее важные основные понятия в DAX.

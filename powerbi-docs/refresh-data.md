@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Обновление данных в Power BI
 Часто для принятия правильных решений крайне важно располагать актуальными данными. Возможно, вы уже использовали функцию «Получить данные» в Power BI для подключения к данным и их передачи, создали несколько отчетов и панель мониторинга. Теперь необходимо убедиться, что вы используете наиболее актуальные и ценные данные.
@@ -243,7 +243,7 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
-Дополнительные сведения см. в разделах [Данные Excel в Power BI](service-excel-workbook-files.md), [Личный шлюз Power BI](personal-gateway.md), [Локальный шлюз данных](service-gateway-onprem.md) и [Обновление набора данных, созданного из книги Excel на локальном диске](refresh-excel-file-local-drive.md).
+Дополнительные сведения см. в разделах о [данных Excel в Power BI](service-excel-workbook-files.md), [Power BI Gateway — Personal](personal-gateway.md), [локальном шлюзе данных](service-gateway-onprem.md) и [обновлении набора данных, созданного из книги Excel на локальном диске](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Файл Power BI Desktop с данными из канала OData
 В этом случае вы используете команду «Получить данные» в Power BI Desktop для подключения и импорта данных переписи из канала OData.  Вы создаете несколько отчетов в Power BI Desktop, присваиваете файлу имя WACensus и сохраняете его в общей папке вашей компании. Затем вы публикуете файл в службе Power BI.

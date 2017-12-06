@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 04c6ecbc1a7802720430c1ee29ec0410abfa54b0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d65bdf17997809cd4bcaa2718da42ba41398bcf4
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Управление источником данных SAP HANA
 После установки локального шлюза данных необходимо добавить источники, которые можно будет с ним использовать. В этой статье будут рассмотрены способы работы со шлюзами и источниками данных. Источник данных SAP HANA можно использовать как для запланированного обновления, так и для DirectQuery.
@@ -120,7 +120,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Локальный шлюз данных](service-gateway-onprem.md)  
-[Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
+[Локальный шлюз данных: подробный обзор](service-gateway-onprem-indepth.md)  
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

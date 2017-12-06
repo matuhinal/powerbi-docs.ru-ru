@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 644078dc61a69cf27cb93b29409546d61e1706f2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---sql-server"></a>Управление своим источником данных — SQL Server
 После установки локального шлюза данных можно добавить источники, которые можно будет использовать с ним. В этой статье будут рассмотрены способы работы со шлюзами и источниками данных. Источник данных SQL Server можно использовать как для запланированного обновления, так и для DirectQuery.
@@ -107,7 +107,7 @@ ms.lasthandoff: 11/15/2017
 После создания источника данных он будет доступен для использования с подключениями DirectQuery или через функцию запланированного обновления.
 
 > [!NOTE]
-> Имена сервера и базы данных в Power BI Desktop и источнике данных в локальном шлюзе данных должны совпадать.
+> Имена сервера и базы данных в Power BI Desktop и источнике данных в конфигурации локального шлюза должны совпадать.
 > 
 > 
 
@@ -127,7 +127,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Локальный шлюз данных](service-gateway-onprem.md)  
-* [Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
+* [Локальный шлюз данных: подробный обзор](service-gateway-onprem-indepth.md)  
 * [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)
 * [Использование Kerberos для единого входа из Power BI в локальные источники данных](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

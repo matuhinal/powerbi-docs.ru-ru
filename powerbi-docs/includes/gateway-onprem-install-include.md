@@ -20,7 +20,7 @@
 * Можно установить несколько локальных шлюзов данных на разных компьютерах и управлять ими с помощью одного интерфейса управления шлюзами Power BI (за исключением шлюза в персональном режиме, см. пункт ниже).
 * У каждого пользователя Power BI может быть только один шлюз, работающий в персональном режиме. Если для пользователя установить еще один шлюз в персональном режиме, даже на другом компьютере, последняя установленная версия заменит предыдущую.
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 Вот несколько моментов, которые следует учесть, прежде чем устанавливать шлюз.
 
@@ -29,11 +29,11 @@
 
 После установки шлюза потребуется выполнить вход с рабочей или учебной учетной записью.
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 После входа вам будет предложено настроить новый шлюз либо выполнить миграцию, восстановление или перенос существующего.
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>Настройка нового шлюза
 1. Введите **имя** шлюза.
@@ -45,7 +45,7 @@
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>Миграция, восстановление и перенос существующего шлюза
 Выберите шлюз, который хотите восстановить, и укажите ключ восстановления, который использовали при его создании.

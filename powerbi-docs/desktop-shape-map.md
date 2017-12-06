@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 772b1959433b3ba8a4d76ac04103f5a479546d0d
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 70cb015b0f5c4aa952c33c6dd94da5292f9678d7
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Карты фигур в Power BI Desktop (предварительная версия)
 В Power BI Desktop с помощью визуального элемента **Карта фигур** можно проводить относительное сравнение регионов на карте, применяя к ним разные цвета. В отличие от визуального элемента **Карта**, элемент **Карта фигур** не демонстрирует географическое расположение точек данных на карте: его основная задача — помочь сравнить регионы карты, окрасив их в разные цвета.
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/17/2017
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
-Включив эту функцию, щелкните элемент **Карта фигур** в области **Визуализации**.
+Один раз **карта фигур** — включено, щелкните **карта фигур** управления из **визуализации** области.
 
 ![](media/desktop-shape-map/shape-map_2.png)
 

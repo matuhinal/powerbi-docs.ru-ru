@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 98e20a1dc9b14fca5f9262c95ea81f9f9b5da160
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8a558019eaf01af066fe5669bcbd82bd4e0c5229
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Использование диаграмм ленты в Power BI
 Вы можете использовать **диаграммы ленты** в **Power BI** для визуализации данных и быстрого определения категории данных с наивысшим рангом (максимальным значением). Диаграммы ленты лучше всего подходят для отображения изменений ранга. Наивысший ранг (значение) за каждый период времени всегда отображается в верхней части диаграммы. Диаграммы ленты станут доступны в **Power BI Desktop** начиная с выпуска за сентябрь 2017 г. и в последующих обновлениях **службы Power BI**.

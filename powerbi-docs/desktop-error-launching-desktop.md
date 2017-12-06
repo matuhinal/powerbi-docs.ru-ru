@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 80593c13adb54950efbf5ff6e12a962b557fe7a0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cbc9c474056370ecde5c818d31a3a344b9b8fb8a
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Устранение проблем в случае, если Power BI Desktop не запускается
 В **Power BI Desktop** пользователям, установившим и использующим предыдущие версии **локального шлюза данных Power BI**, может быть запрещен запуск Power BI Desktop из-за ограничений политики администрирования, которую локальный шлюз Power BI налагает на именованные каналы на локальном компьютере. 
 
-## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Устранение проблем с локальным шлюзом данных и **Power BI Desktop**
+## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Устранение проблем с локальным шлюзом данных и Power BI Desktop
 Существует три варианта устранения проблемы, связанной с локальным шлюзом данных, и обеспечения запуска Power BI Desktop:
 
 ### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>Решение 1. Установите последнюю версию локального шлюза данных Power BI
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/13/2017
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Решение 3. Запустите Power BI Desktop с правами администратора
 Кроме того, вы можете запустить Power BI Desktop от имени администратора, что также позволит успешно запустить Power BI Desktop. По-прежнему рекомендуется установить последнюю версию локального шлюза данных Power BI, как описано ранее в этой статье.
 
-## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Справка по другим проблемам при запуске **Power BI Desktop**
+## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Справка по другим проблемам при запуске Power BI Desktop
 Мы стараемся описать как можно больше проблем, связанных с использованием **Power BI Desktop**. Мы регулярно просматриваем описание проблем, которые возникают у многих наших клиентов, и включаем их в наши статьи.
 
 Если проблема с запуском **Power BI Desktop** не связана с локальным шлюзом данных или если предыдущие решения не помогли, вы можете обратиться в службу поддержки [Power BI](https://support.powerbi.com) (https://support.powerbi.com). Вам помогут определить и устранить проблему.

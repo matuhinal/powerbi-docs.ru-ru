@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 4693349715e7a38ae936318e9a8750e0b2f3fab0
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
 Локальный шлюз данных служит мостом, обеспечивая быструю и безопасную передачу информации между локальной системой (данными, которые не находятся в облаке) и службами Power BI, Microsoft Flow, Logic Apps и PowerApps.
@@ -93,7 +93,7 @@ ms.lasthandoff: 11/17/2017
 ## <a name="troubleshooting"></a>Устранение неполадок
 Если при установке и настройке шлюза возникают проблемы, см. статью [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md). Если у вас проблемы с брандмауэром, см. раздел статьи об устранении неполадок, посвященный [брандмауэру или прокси-серверу](service-gateway-onprem-tshoot.md#firewall-or-proxy).
 
-Если вы считаете, что для шлюза имеются проблемы с прокси-сервером, см. статью [Настройка параметров прокси-сервера для шлюзов Power BI](service-gateway-proxy.md).
+Если для шлюза возникли проблемы с прокси-сервером, см. статью о [настройке параметров прокси-сервера для шлюзов Power BI](service-gateway-proxy.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Управление своим источником данных — службы Analysis Services](service-gateway-enterprise-manage-ssas.md)  
@@ -102,7 +102,7 @@ ms.lasthandoff: 11/17/2017
 [Управление своим источником данных — Oracle](service-gateway-onprem-manage-oracle.md)  
 [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
-[Локальный шлюз данных (персональный режим) — новая версия личного шлюза](service-gateway-personal-mode.md)
-[Настройка параметров прокси-сервера для локального шлюза данных](service-gateway-proxy.md)  
+[Локальный шлюз данных (персональный режим) — новая версия личного шлюза](service-gateway-personal-mode.md);
+[Настройка параметров прокси-сервера для локального шлюза данных](service-gateway-proxy.md).  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

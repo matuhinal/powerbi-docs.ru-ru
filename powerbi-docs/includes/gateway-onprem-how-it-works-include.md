@@ -1,5 +1,5 @@
 ## <a name="how-the-gateway-works"></a>Принципы работы шлюзов
-![on-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
+![On-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
 
 Давайте сначала посмотрим, что происходит, когда пользователь взаимодействует с элементом, подключенным к локальному источнику данных. 
 

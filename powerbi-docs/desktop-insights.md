@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: d4b1d1866fc56d48960539a420819d99afc13eb1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e32cf08625d6d36013175ad9533eac8791e76814
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Использование аналитики в Power BI Desktop (предварительная версия)
 Вы можете запросить в **Power BI Desktop** объяснение роста или снижения показателей на диаграммах и быстро выполнить автоматический информативный анализ своих данных. Просто щелкните правой кнопкой мыши точку данных и выберите **Анализ > Объяснить снижение** (или "Объяснить рост", если предыдущая строка на диаграмме меньше), и вы получите ценную информацию в удобном окне.

@@ -950,6 +950,10 @@
           href: developer/migrate-tool.md
         - name: Фрагменты кода миграции
           href: developer/migrate-code-snippets.md
+        - name: Устранение неполадок внедренного приложения
+          href: developer/embedded-troubleshoot.md
+        - name: ВОПРОСЫ И ОТВЕТЫ
+          href: developer/embedded-faq.md
     - name: Создание настраиваемого визуального элемента
       items:
         - name: Создание пользовательской визуализации с помощью средств разработчика

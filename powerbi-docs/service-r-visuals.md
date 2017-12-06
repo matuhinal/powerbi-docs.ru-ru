@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9aa91a3d456f55a537733d765981335e1720b274
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8effa6d02c85ec67890b9fd438ce35fd2507af9a
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Создание визуальных элементов R в службе Power BI
 В службе Power BI можно просматривать визуальные элементы, созданные с использованием R-скриптов, и взаимодействовать с ними. Такие элементы, часто называемые *визуальными элементами R*, могут использоваться для расширенного форматирования и анализа данных, например прогнозирования, с помощью передовых средств аналитики и визуализации языка R.

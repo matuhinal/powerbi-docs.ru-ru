@@ -1,6 +1,6 @@
 ---
 title: "Управление источником данных — импорт или запланированное обновление"
-description: "Сведения об управлении локальным шлюзом данных и источниками данных, которые к нему относятся. Эта статья посвящена источникам данных, которые можно использовать для импорта или запланированного обновления."
+description: "Сведения об управлении локальным шлюзом данных и источниками, которые к нему относятся. Эта статья посвящена источникам данных, которые можно использовать для импорта или запланированного обновления."
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: davidi
-ms.openlocfilehash: c41035db173c937caedab92b65eeb66dbcfafdb9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 844f887a32dcd9f0749c769ee92d92fe6c81316c
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Управление источником данных — импорт или запланированное обновление
 После установки локального шлюза данных необходимо добавить источники, которые можно будет с ним использовать. В этой статье будут рассмотрены способы работы со шлюзами и источниками данных, которые используются для запланированного обновления, в сравнении с DirectQuery и активными подключениями.
@@ -123,7 +123,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Локальный шлюз данных](service-gateway-onprem.md)  
-[Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
+[Локальный шлюз данных: подробный обзор](service-gateway-onprem-indepth.md)  
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

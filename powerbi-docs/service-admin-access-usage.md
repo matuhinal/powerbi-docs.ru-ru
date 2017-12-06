@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: ceb39db7a69335e059d958a29fecfa9849fe2ae8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 55caee3b289f187d6b955c216098313b483956f5
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
 Если вы — администратор клиента и хотите узнать, кто выполнил вход в Power BI, можно использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить сведения.
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/13/2017
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Выполните фильтрацию приложения по **Microsoft Power BI** или **Power BI Gateway** и выберите **Применить**.
    
-    **Microsoft Power BI** предназначен для действий входа, связанных со службой, тогда как **Power BI Gateway** — это конкретные события входа для локального шлюза данных.
+    Параметр **Microsoft Power BI** предназначен для действий входа, связанных со службой, тогда как **Power BI Gateway** — для конкретных событий входа для локального шлюза данных.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 11/13/2017
 Вы можете использовать PowerShell для экспорта данных входа. [Пример](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) можно найти в документации по Azure AD.
 
 > [!NOTE]
-> Чтобы пример PowerShell работал, обязательно следуйте инструкциям статьи [Предварительные требования для доступа к API отчетов Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
+> Чтобы пример PowerShell работал, обязательно обеспечьте соответствие [предварительным требованиям для доступа к API отчетов Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
 > 
 > 
 

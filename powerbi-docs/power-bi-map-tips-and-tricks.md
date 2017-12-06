@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/05/2017
 ms.author: mihart
-ms.openlocfilehash: 901193f396e38a7bce640db36a13dc0e7b998de6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Советы и рекомендации для визуализаций карт Power BI
 Power BI интегрируется с Картами Bing для предоставления стандартных картографических координат (этот процесс называется геокодированием) для создания карт. Совместно эти технологии используют алгоритмы для определения надлежащего расположения, но иногда это просто вариант высокой вероятности. Если Power BI не удается самостоятельно создать визуализацию, используются Карты Bing.  
@@ -76,7 +76,7 @@ Power BI использует [службу неструктурированно
 
 ![Широта и долгота](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
-## <a name="use-geo-hierarchies-so-you-can-drilldown-to-different-levels-of-location"></a>Используйте иерархии геообъектов, чтобы можно было детализировать расположение на различных уровнях
+## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>Используйте иерархии геообъектов, чтобы можно было детализировать расположение на различных уровнях
 Если в наборе уже есть данные расположения различных уровней, вы и ваши коллеги можете использовать Power BI для создания *иерархий геообъектов*. Для этого перетащите несколько полей в контейнер **Расположение**. Эти совместно используемые поля образуют иерархию геообъектов. В примере ниже мы добавили поля для следующих геообъектов: страна или регион, штат и город. В Power BI вы и ваши коллеги сможете изменять уровень детализации с помощью этой иерархии геообъектов.
 
   ![Поле расположения](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)

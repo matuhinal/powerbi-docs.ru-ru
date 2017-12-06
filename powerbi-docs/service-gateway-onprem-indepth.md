@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: c030f1b18b654be6bba6a7bf2d10af322567c4d1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Локальный шлюз данных во всех подробностях
 Пользователи организации могут обращаться к вашим локальным данным (для доступа к которым они уже прошли проверку подлинности), однако для подключения этих пользователей к локальным источникам данных необходимо установить и настроить локальный шлюз данных. Этот шлюз обеспечивает быстрый и безопасный двусторонний обмен информацией между пользователем в облачной среде и локальным источником данных.

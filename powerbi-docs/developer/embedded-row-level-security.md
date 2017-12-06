@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: asaxton
-ms.openlocfilehash: 1f59bd4e0178b1fe1b67f57b085de69da1b06951
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Использование безопасности на уровне строк во встроенном содержимом Power BI
 Безопасность на уровне строк (RLS) может использоваться для ограничения доступа пользователей к данным внутри отчета или набора данных, позволяя нескольким различным пользователям использовать один и тот же отчет при просмотре различных данных. Безопасность на уровне строк может использоваться при внедрении отчетов из Power BI.

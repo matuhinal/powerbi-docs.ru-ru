@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 В этой статье описаны распространенные проблемы, которые могут возникнуть при работе с **локальным шлюзом данных**.
@@ -114,7 +114,7 @@ ms.lasthandoff: 11/22/2017
 
 В разделе **Показать подробные сведения**появится код ошибки **DM_GWPipeline_UnknownError**.
 
-Для получения дополнительных сведений можно выбрать "Журналы событий" > **Журналы приложений и служб** > **Служба локального шлюза данных**.
+Для получения дополнительных сведений можно выбрать "Журналы событий" > **Журналы приложений и служб** > **On-premises data gateway Service (Служба локального шлюза данных)**.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Ошибка: возникла ошибка при попытке подключения к <server>. Подробные сведения: "Выполнено подключение к шлюзу данных, но шлюз не может получить доступ к локальному источнику данных".
 Не удалось подключиться к указанному источнику данных. Не забудьте проверить сведения, указанные для этого источника данных.
@@ -170,12 +170,11 @@ ms.lasthandoff: 11/22/2017
 2. Ваша учетная запись не указана на вкладке **Пользователи** источника данных в конфигурации шлюза. Необходимо, чтобы администратор шлюза добавил вашу учетную запись в этот список.
 3. Файл Power BI Desktop содержит несколько источников данных, но шлюз настроен не для всех. Необходимо определить для каждого источника данных шлюз, чтобы он отображался в запланированном обновлении.
 
-
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Ошибка: превышен допустимый объем полученных несжатых данных в клиенте шлюза.
 Точное ограничение составляет 10 ГБ несжатых данных для каждой таблицы. Есть несколько эффективных вариантов оптимизации и предотвращения этой проблемы. В частности, для этого можно уменьшить использование часто повторяющихся значений длинных строк, а вместо них применять нормализованный ключ или удалять неиспользуемые столбцы.
 
 ## <a name="reports"></a>Отчеты
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Отчету не удалось получить доступ к источнику данных, так как у вас нет доступа к нашему источнику данных в локальном шлюзе данных.
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Не удалось установить подключение отчета к источнику данных, так как у вас нет доступа к нашему источнику данных в локальном шлюзе данных.
 Это обычно происходит из-за одной из следующих проблем.
 
 1. Сведения об источнике данных не совпадают со сведениями в базовом наборе данных. Имена сервера и базы данных в источнике данных, заданном для локального шлюза, должны совпадать с тем, что вы указали в Power BI Desktop. Если вы используете IP-адрес в Power BI Desktop, источник данных локального шлюза должен также использовать IP-адрес.
@@ -370,9 +369,9 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 См. дополнительные сведения об [устранении неполадок в сценариях обновления](refresh-troubleshooting-refresh-scenarios.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Настройка параметров прокси-сервера для локального шлюза данных](service-gateway-proxy.md)  
+[Настройка параметров прокси-сервера для шлюзов Power BI](service-gateway-proxy.md)  
 [Локальный шлюз данных](service-gateway-onprem.md)  
-[Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
+[Локальный шлюз данных: подробный обзор](service-gateway-onprem-indepth.md)  
 [Управление своим источником данных — службы Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Управление своим источником данных — SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Управление своим источником данных — SQL Server](service-gateway-enterprise-manage-sql.md)  
