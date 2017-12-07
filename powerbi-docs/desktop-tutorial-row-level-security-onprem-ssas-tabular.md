@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 9321572b41a3719f218030565d159e4dc8105863
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Учебник. Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 В этом учебном руководстве описаны действия, необходимые для реализации **безопасности на уровне строк** в **табличной модели Analysis Services**, и показано, как использовать эти функции в отчете Power BI. Здесь приведены пошаговые инструкции, которые помогут вам познакомиться с последовательностью необходимых действий на примере набора данных.
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/17/2017
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    Мы вернемся к этим пользователям при выполнении следующих задач.
-4. Теперь нам нужно создать *внутреннее соединение* с таблицей **DimSalesTerritory**, которое будет отражать связь между сведениями о регионе и пользователем. Ниже приведен код, который создает такое *внутреннее соединение*, а на изображении ниже показано, как таблица выглядит после его успешного создания.
+4. Теперь нам нужно создать *внутреннее соединение* с таблицей **DimSalesTerritory**, которое будет отражать связь между сведениями о регионе и пользователем. Ниже приведен код, который создает такое *внутреннее соединение**,* а на изображении ниже показано, как таблица выглядит после его успешного создания.
    
        **select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeKey, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryKey]**
    
@@ -84,7 +84,7 @@ ms.lasthandoff: 11/17/2017
 9. Она указывает, что все столбцы возвращают логическое значение false, поэтому столбцы таблицы **DimUserSecurity** не используются в запросе.
 10. Теперь нужно обработать и развернуть модель. Сведения о том, как это сделать, см. в [этой статье](https://msdn.microsoft.com/library/hh231693.aspx).
 
-## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Задача 3. Добавление источников данных на локальном шлюзе
+## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Задача 3. Добавление источников данных в локальном шлюзе
 1. После того как табличная модель развернута и готова к работе, необходимо добавить подключение к источнику данных на сервер табличного экземпляра Analysis Services на портале Power BI.
 2. Чтобы **служба Power BI** могла обращаться к локальной службе аналитики, в вашей среде должен быть установлен и настроен **[локальный шлюз данных](service-gateway-onprem.md)**.
 3. Настроив шлюз должным образом, необходимо создать подключение к источнику данных для экземпляра табличной модели **Analysis Services**. В этой статье описывается [добавление источника данных на портале Power BI](service-gateway-enterprise-manage-ssas.md).
@@ -133,7 +133,7 @@ ms.lasthandoff: 11/17/2017
 2. Сеанс создается в момент, когда пользователь (в нашем случае — Jon Doe) обращается к панели мониторинга в службе Power BI. Мы видим, что роль **salesterritoryusers** сразу же применяется для действующего имени пользователя **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**.
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. Используя переданное в запросе действующее имя пользователя, службы Analysis Services преобразуют его в учетные данные moonneo\jondoe при отправке запроса в каталог Active Directory. После того как службы **Analysis Services** получают реальные учетные данные из Active Directory, они применяют права этого пользователя на доступ к соответствующим данным и возвращают только ту информацию, для работы с которой у него есть разрешения.
+3. Используя переданное в запросе действующее имя пользователя, службы Analysis Services преобразуют его в учетные данные moonneo\jondoe при отправке запроса в каталог Active Directory. После того как службы **Analysis Services** получают реальные учетные данные из Active Directory, они применяют права этого пользователя на доступ к соответствующим данным и возвращают только ту информацию, для работы с которой у него есть разрешения**.**
 4. Если на панели мониторинга будет выполнено еще какое-то действие (например, Jon Doe перейдет с панели на связанный с ней отчет), в SQL Profiler отразится соответствующий запрос, который направляется в табличную модель Analysis Services в виде запроса DAX.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
