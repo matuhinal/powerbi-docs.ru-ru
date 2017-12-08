@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: Оптимизация данных для быстрого анализа данных в Power BI
           href: service-insights-optimize.md
-        - name: Отображение плитки панели мониторинга в полноэкранном режиме (ТВ-режим)
-          href: service-tile-fullscreen-mode.md
         - name: Основные панели мониторинга в Power BI
           href: service-dashboard-featured.md
         - name: Создание представления панели мониторинга для телефонов
