@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: Использование среза числового диапазона
           href: desktop-slicer-numeric-range.md
-        - name: Использование среза относительных дат
-          href: desktop-slicer-filter-date-range.md
+        - name: 'Создание адаптивного визуального элемента "Срез", размер которого можно изменять'
+          href: power-bi-slicer-filter-responsive.md
         - name: Создание настраиваемых карт ответов Power BI для Cortana
           href: service-cortana-answer-cards.md
         - name: Безопасность на уровне строк
