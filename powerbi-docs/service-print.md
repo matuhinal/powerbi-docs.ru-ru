@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f505b27043e357b5cf1c01a0779634a948905dfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d8dc99fec9851dc6f5d3786d2fc1d615e4ee22b4
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="printing-from-power-bi-service"></a>Печать из службы Power BI
 Печать всей панели мониторинга, плитки на панели мониторинга, страницы отчета или визуального элемента отчета из службы Power BI. Отчеты можно распечатывать только постранично, весь отчет сразу распечатать нельзя.
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/13/2017
 1. [Откройте плитку в режиме фокусировки](service-focus-mode.md), нажав кнопку с многоточием и выбрав значок фокусировки ![](media/service-print/power-bi-focus-icon.png).
    
     ![](media/service-print/menu-options.png)
-2. Откройте плитку в [полноэкранном режиме](service-tile-fullscreen-mode.md), щелкнув соответствующий значок ![](media/service-print/power-bi-full-screen-icon.png) в верхней области навигации.
+2. Откройте плитку в [полноэкранном режиме](service-fullscreen-mode.md), щелкнув соответствующий значок ![](media/service-print/power-bi-full-screen-icon.png) в верхней области навигации.
 3. Наведите указатель мыши на плитку, чтобы открыть меню "Параметры".
    
     ![](media/service-print/menu-options-new.png)
