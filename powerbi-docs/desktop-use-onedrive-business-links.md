@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Использование ссылок OneDrive для бизнеса в Power BI Desktop
 Многие пользователи хранят книги Excel на диске OneDrive для бизнеса, который отлично подходит для использования с Power BI Desktop. Благодаря **Power BI Desktop** вы можете использовать веб-ссылки на файлы **Excel**, хранящиеся в **OneDrive для бизнеса**, для создания отчетов и визуальных элементов. Можно использовать учетную запись группы **OneDrive для бизнеса** или индивидуальную учетную запись **OneDrive для бизнеса**.
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/15/2017
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. В **Excel** выберите **Файл > Сведения**, а затем выберите ссылку под кнопкой **Защитить книгу**. Выберите **Копировать ссылку в буфер обмена**.
+2. В **Excel** выберите **Файл > Сведения**, а затем выберите ссылку под кнопкой **Защитить книгу**. Выберите **Копировать ссылку в буфер обмена** (в вашей версии это может быть действие **Копировать путь в буфер обмена**).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

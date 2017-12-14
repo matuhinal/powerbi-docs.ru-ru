@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Создание клиента Azure Active Directory для использования с Power BI
 Узнайте, как создать клиент Azure Active Directory (Azure AD) для использования с пользовательским приложением с помощью интерфейсов REST API для Power BI.
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/13/2017
 Возможно, у вашей организации уже есть клиент Azure AD, который можно использовать для приложения. Вы можете использовать этот клиент для потребностей приложения или создать клиент специально для вашего приложения. В этой статье рассматривается, как создать клиент.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Создание клиента Azure Active Directory
-Для интеграции Power BI в пользовательское приложение необходимо определить приложение в Azure AD. Для этого нужен каталог в Azure AD. Это и есть ваш клиент. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Office 365, его необходимо создать. Его также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации. Так вы можете хранить все данные по отдельности.
+Для интеграции Power BI в пользовательское приложение необходимо определить приложение в Azure AD. Для этого нужен каталог в Azure AD. Это и есть ваш клиент. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Office 365, [его необходимо создать](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Его также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации. Так вы можете хранить все данные по отдельности.
 
 Или можно просто создать клиент для тестирования.
 

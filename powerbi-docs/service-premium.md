@@ -1,5 +1,5 @@
 ---
-title: "Что такое содержимое Power BI Pro?"
+title: "Что такое Power BI Premium?"
 description: "Решение Power BI Premium предоставляет выделенную емкость для вашей организации или команды, обеспечивая более стабильную производительность при работе большими объемами данных. При этом вам не нужно приобретать лицензии для каждого пользователя."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Что такое Power BI Premium?
 Power BI Premium предоставляет выделенные ресурсы для выполнения службы Power BI для вашей организации или команды, обеспечивая более стабильную производительность при работе большими объемами данных. Power BI Premium также обеспечивает широкое распространение содержимого без необходимости приобретать лицензии для каждого пользователя, просматривающего это содержимое.
@@ -69,9 +69,13 @@ Power BI Premium предоставляется в виде узлов с раз
 
 * Узлы P можно использовать для внедренных развертываний или развертывания служб.
 * Узлы EM можно использовать только внедренных развертываний.
+* EM1 и EM2 
+* Ссылки в этой таблице работают только для глобальных администраторов Office 365. Для остальных пользователей будет отображаться ошибка 404. 
 
 | Узел емкости | Общее число ядер<br/>*(серверная часть и интерфейс)* | Внутренние ядра | Интерфейсные ядра | Ограничения для подключений DirectQuery и активных подключений | Максимальное число страниц, отображаемых в часы максимальной нагрузки | Доступность |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 виртуальное ядро |5 ядер, 2,5 ГБ ОЗУ |0,5 ядра |3,75 в секунду |150–300 |Доступность |
+| [EM2 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 виртуальных ядра |1 ядро, 5 ГБ ОЗУ |1 ядро |7,5 в секунду |301–600 |Доступность |
 | [EM3 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 виртуальных ядра |2 ядра, 10 ГБ ОЗУ |2 ядра | |601–1200 |Доступность |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 виртуальных ядер |4 ядра, 25 ГБ ОЗУ |4 ядра |30 в секунду |1201–2400 |Доступно (вариант [ежемесячной подписки](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) также доступен) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 виртуальных ядер |8 ядер, 50 ГБ ОЗУ |8 ядер |60 в секунду |2401–4800 |Доступность |

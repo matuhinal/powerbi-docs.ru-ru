@@ -7,7 +7,7 @@
 ## <a name="an-overview-of-power-bi-desktop"></a>Обзор Power BI Desktop
 Power BI Desktop — это инструмент, который позволяет подключиться к вашим данным, очистить и визуализировать их. С помощью Power BI Desktop можно подключаться к данным, а затем моделировать и визуализировать их разными способами. Большинство пользователей, которые работают над проектами бизнес-аналитики, будут проводить большую часть своего времени, работая с Power BI Desktop.
 
-Вы можете скачать Power BI Desktop [в Интернете](http://go.microsoft.com/fwlink/?LinkID=521662) или в службе Power BI. Просто нажмите кнопку со стрелкой вниз в верхней правой части Power BI, а затем выберите Power BI Desktop.
+Вы можете скачать Power BI Desktop [из Интернета](http://go.microsoft.com/fwlink/?LinkID=521662). Также можно установить **Power BI Desktop** как приложение из [**Магазина Windows**](http://aka.ms/pbidesktopstore) или скачать приложение из службы Power BI. Чтобы скачать **Power BI Desktop** из службы, нажмите кнопку со стрелкой вниз в верхней правой части Power BI, а затем выберите Power BI Desktop.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 

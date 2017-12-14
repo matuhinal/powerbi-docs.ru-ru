@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Просмотр данных"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Узнайте, как находить данные в Power BI, подключаться к ним и взаимодействовать с ними.\n"
-  ms.openlocfilehash: 04fc3f0a47ab4194031b6e2bb65eacc0ac89d5f5
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "Добро пожаловать в руководство по **просмотру данных**. Вы узнаете, как находить данные в Power BI, подключаться к ним и взаимодействовать с ними.\n"
 - title: "Общие сведения о службе Power BI"
   durationInMinutes: 2
   content: >
@@ -92,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Вы завершили раздел **Просмотр данных** интерактивного курса обучения для Microsoft Power BI.\0"
+- content: "После изучения раздела **Просмотр данных** интерактивного руководства вы можете работать со всеми типами данных. В следующем руководстве объясняется, как использовать такой распространенный источник данных, как Excel.\0"

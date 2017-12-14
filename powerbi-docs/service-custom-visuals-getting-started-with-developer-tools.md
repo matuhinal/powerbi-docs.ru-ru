@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Создание пользовательского визуального элемента с помощью средств разработчика
 Пользовательские визуальные элементы отвечают потребностям пользователей, а также соответствуют дизайну вашего приложения. Узнайте, как создать пользовательский визуальный элемент с помощью средств разработчика для Power BI.
@@ -347,8 +347,8 @@ pbiviz update 1.2.0
 ## <a name="debugging"></a>Отладка
 Советы по отладке настраиваемого визуального элемента см. в [руководстве по отладке](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md).
 
-## <a name="submit-your-visual-to-the-office-store"></a>Отправка визуализации в Магазин Office
-Ваши визуализации могут быть опубликованы в Магазине Office. Дополнительные сведения см. в статье [Публикация пользовательских визуализаций в Магазине Office](developer/office-store.md).
+## <a name="submit-your-visual-to-appsource"></a>Публикация визуальных элементов в AppSource
+Вы можете показать свои визуальные элементы другим пользователям, отправив их в AppSource. Дополнительные сведения см. в статье [Публикация пользовательских визуализаций в Магазине Office](developer/office-store.md).
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 **Команда pbiviz не найдена (или похожие ошибки)**

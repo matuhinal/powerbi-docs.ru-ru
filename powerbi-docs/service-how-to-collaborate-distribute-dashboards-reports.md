@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам в Power BI?
 Панели мониторинга и отчеты создаете вы. Их также можно создавать совместно с сотрудниками. Затем возникает необходимость предоставить к ним доступ другим пользователям. Какой же лучший способ распространить их?
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/15/2017
 
 ![Значок "Публикация приложения"](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-В службе Power BI ([https://powerbi.com](https://powerbi.com)) приложения легко обнаруживать и устанавливать. Вы можете отправить бизнес-пользователям прямую ссылку на приложение, или они могут найти его в AppSource. С разрешения администратора Power BI его можно установить автоматически в учетных записях Power BI коллег. Дополнительные сведения о [публикации приложений](service-create-distribute-apps.md#publish-your-app). 
+В службе Power BI ([https://powerbi.com](https://powerbi.com)) приложения легко обнаруживать и устанавливать. Вы можете отправить бизнес-пользователям прямую ссылку на приложение, или они могут найти его в AppSource. Дополнительные сведения о [публикации приложений](service-create-distribute-apps.md#publish-your-app). 
 
 После установки приложения они смогут просматривать его в браузере или на мобильном устройстве.
 

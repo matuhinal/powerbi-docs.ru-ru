@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Краткое руководство по созданию отчета Power BI для сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
 
 ![Отчет Power BI на веб-портале](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-Если вы уже создавали отчеты Power BI в приложении Power BI Desktop, то вы готовы к созданию отчетов Power BI для сервера отчетов Power BI. Если же нет, ниже описаны четыре шага, с помощью которых можно быстро приступить к работе.
+Ниже описаны четыре шага, с помощью которых можно приступить к работе.
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>Шаг 1. Установка Power BI Desktop (сервер отчетов)
-Возможно, вы уже устанавливали Power BI Desktop для создания отчетов для службы Power BI. Рекомендуется установить версию Power BI Desktop, оптимизированную для сервера отчетов Power BI, так как это обеспечит постоянную синхронизацию сервера с приложением. Обе версии Power BI Desktop можно установить на одном компьютере.
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Шаг 1. Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 
-1. На веб-портале сервера отчетов Power BI выберите **Создать** > **Отчет Power BI**.
-   
-    ![Создание отчета Power BI](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    Если у вас нет доступа к веб-порталу сервера отчетов Power BI, перейдите в Центр загрузки Майкрософт и скачайте [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581) (Оптимизировано для сервера отчетов Power BI — общедоступная версия за июнь 2017 г.).
+Если вы уже создавали отчеты Power BI в приложении Power BI Desktop, то вы практически готовы создавать отчеты Power BI для сервера отчетов Power BI. Рекомендуется установить версию Power BI Desktop, оптимизированную для сервера отчетов Power BI, так как это обеспечит постоянную синхронизацию сервера с приложением. Обе версии Power BI Desktop можно установить на одном компьютере.
+
+1. На веб-портале сервера отчетов последовательно выберите **Загрузка** > **Power BI Desktop**.
+
+    ![Скачивание Power BI Desktop из веб-портала](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (октябрь 2017 г.), оптимизированному для решения "Сервер отчетов Power BI", в Центре загрузки Майкрософт.
+
+2. На странице Центра загрузки нажмите кнопку **Скачать**.
+
+3. В зависимости от компьютера выберите файл:
+
+    - **PBIDesktopRS.msi** (32-разрядная версия);
+
+    - **PBIDesktopRS_x64.msi** (64-разрядная версия).
+
+4. Когда вы скачаете установщик, запустите мастер установки Power BI Desktop (октябрь 2017 г.).
+
 2. На завершающем этапе процесса установки выберите параметр **Start Power BI Desktop now** (Запустить Power BI Desktop).
    
-    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка вы видите Power BI Desktop (сервер отчетов), вы установили правильную версию.
+    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка вы видите Power BI Desktop (октябрь 2017 г.), вы установили правильную версию.
+
+    ![Версия Power BI Desktop (октябрь 2017 г.)](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. Если вы не знакомы с Power BI Desktop, просмотрите видеоролики на экране приветствия.
    
     ![Начальный экран Power BI Desktop](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)

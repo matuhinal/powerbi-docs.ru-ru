@@ -15,19 +15,25 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 5dabaa09923203c31572b413f8674b76028b7483
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 
 Power BI интегрируется с Azure Active Directory "бизнес — бизнес" (Azure AD B2B), чтобы обеспечить безопасное распространение содержимого Power BI для гостевых пользователей за пределами организации и сохранить контроль над внутренними данными.
 
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
+
+> [!NOTE]
+> Этот компонент сейчас не доступен в мобильной версии Power BI. 
+> 
+> 
+
 
 ## <a name="invite-guest-users"></a>Приглашение гостевых пользователей
 
