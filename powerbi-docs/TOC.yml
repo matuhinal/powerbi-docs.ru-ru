@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: Фильтрация отчета с помощью параметров строки запроса в URL-адресе
           href: service-url-filters.md
+        - name: Рекомендации по созданию быстрых и надежных отчетов в Power BI
+          href: power-bi-reports-performance.md
     - name: Визуализации
       items:
         - name: Визуализации в Power BI
@@ -746,6 +748,8 @@
       items:
         - name: Представление отчетов в Power BI Desktop
           href: desktop-report-view.md
+        - name: Обработчик "Вопросы и ответы" в Power BI Desktop
+          href: desktop-qna-in-reports.md
         - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
           href: desktop-analytics-pane.md
         - name: Использование ключевых данных в Power BI Desktop

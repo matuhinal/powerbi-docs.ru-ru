@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ закупок" для Power BI: обзор
 В этом примере панели мониторинга предприятия и базовом отчете анализируются расходы производственной компании на поставщиков по категории и расположению. В данном примере мы исследуем следующие области:
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/13/2017
 
 Хотите попробовать? В [службе Power BI](https://powerbi.com) последовательно выберите **Получить данные > Примеры > Анализ закупок — пример > Подключить** для получения собственной копии примера.
 
-Вы также можете [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529784).
+[!Note] Вы также можете [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529784). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные выберите элементы **Power Pivot > Управление**.
 
 ## <a name="spending-trends"></a>Тенденции затрат
 Давайте сначала рассмотрим тенденции затрат по категории и расположению.  

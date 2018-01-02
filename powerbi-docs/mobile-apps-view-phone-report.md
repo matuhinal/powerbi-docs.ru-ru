@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/06/2017
 ms.author: maggies
-ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Просмотр отчетов Power BI, оптимизированных для телефона
 При создании отчетов Power BI в Power BI Desktop вы также можете создать версию этого [отчета, оптимизированную для просмотра в приложении Power BI на телефоне](desktop-create-phone-report.md).
@@ -39,8 +39,8 @@ ms.lasthandoff: 11/13/2017
 * [Отчеты на устройствах iPhone](mobile-reports-in-the-mobile-apps.md). 
 * [Отчеты на устройствах Android](mobile-reports-in-the-mobile-apps.md).
 
-## <a name="filter-the-report-page-on-an-iphone"></a>Фильтрация страницы отчета на устройстве iPhone
-Если в оптимизированном для телефона отчете заданы какие-либо фильтры, вы сможете их использовать при просмотре такого отчета на устройстве iPhone. 
+## <a name="filter-the-report-page-on-a-phone"></a>Фильтрация страницы отчета на телефоне
+Если в оптимизированном для телефона отчете заданы фильтры, вы сможете их использовать при просмотре такого отчета на телефоне. 
 
 1. Коснитесь значка фильтра ![Значок фильтра на телефоне](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) в нижней части страницы. 
 2. Для просмотра необходимых результатов используйте основные или дополнительные фильтры.

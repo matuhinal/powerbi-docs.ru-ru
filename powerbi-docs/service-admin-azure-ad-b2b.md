@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 
@@ -30,10 +30,7 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
-> Этот компонент сейчас не доступен в мобильной версии Power BI. 
-> 
-> 
-
+> Этот компонент сейчас недоступен в мобильных приложениях Power BI. На мобильных устройствах содержимое Power BI можно просматривать, используя Azure AD B2B в браузере. 
 
 ## <a name="invite-guest-users"></a>Приглашение гостевых пользователей
 
@@ -99,6 +96,12 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 Гостевому пользователю уже назначена лицензия Power BI Pro в клиенте.
 
 ![Применение лицензии гостевого пользователя](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>Ограничения
+
+* Внешние гостевые пользователи B2B могут только использовать содержимое. Они имеют право просматривать приложения, панели мониторинга, отчеты, экспортировать данные и создавать подписки на панели мониторинга и отчеты по электронной почте. Они не могут использовать рабочие области и публиковать собственное содержимое.
+* Этот компонент сейчас недоступен в мобильных приложениях Power BI. На мобильных устройствах содержимое Power BI можно просматривать, используя Azure AD B2B в браузере.
+* Функция гостевых пользователей в Power BI в независимых облаках (для государственных организаций) не поддерживается.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

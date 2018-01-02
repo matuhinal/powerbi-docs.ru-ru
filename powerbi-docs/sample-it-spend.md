@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f6c1b564bfab99deb35c919de4eb0c365d62c8e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ebf10d6045bc1d0d0c260dffa7fbc68cfbc4528b
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ расходов на ИТ" для Power BI: обзор
 [Пакет содержимого](service-organizational-content-pack-introduction.md) "Анализ расходов ИТ-отдела" (информационная панель, отчет и набор данных) позволяет проанализировать запланированные и фактические затраты на ИТ-отдел. Это сравнение помогает понять, насколько хорошо компания составила годовой план, и позволяет исследовать области со значительными отклонениями от плана. Компания в этом образце ежегодно проходит цикл планирования, а затем ежеквартально создает новый текущий прогноз, помогающий анализировать изменения в расходах ИТ-отдела за последний финансовый год.
 
 Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные из obviEnce (<http://obvience.com/>), которые были обезличены.
 
-* [получить пакет содержимого "Анализ расходов на ИТ"](sample-tutorial-connect-to-the-samples.md)
-* [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529783).
+>[!Note] 
+Вы можете [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529783). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, выберите элементы **Power Pivot > Управление**.
 
 ![](media/sample-it-spend/it1.png)
 

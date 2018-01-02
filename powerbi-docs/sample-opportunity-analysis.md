@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ возможностей" для Power BI: обзор
 **Отслеживание возможных сделок — пример** содержит панель мониторинга (и связанный с ней отчет) для компании-разработчика программного обеспечения, использующей 2 канала продаж: *прямой* и *партнерский*. Менеджер по продажам создала эту панель мониторинга для отслеживания возможных сделок и дохода по регионам, величине сделок и каналам.
@@ -38,7 +38,8 @@ ms.lasthandoff: 11/13/2017
 
 Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные из obviEnce ([www.obvience.com)](http://www.obvience.com/), которые были обезличены.
 
-Вы также можете [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529782).  
+>[!Note] 
+Вы также можете [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529782). Книга содержит листы Power View, которые можно просматривать и изменять.  Чтобы просмотреть необработанные данные выберите элементы **Power Pivot > Управление**. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 
