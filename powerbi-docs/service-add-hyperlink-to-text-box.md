@@ -1,6 +1,6 @@
 ---
 title: "Добавление гиперссылки в текстовое поле в отчете"
-description: "Добавление гиперссылки в текстовое поле в Power BI"
+description: "Добавление гиперссылки в текстовое поле в службу Power BI и Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 846e6625345bbecb2611615f929f0b55338830e2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Добавление гиперссылки в текстовое поле в отчете
-Текстовые поля можно добавлять в отчеты, закреплять на информационных панелях из отчетов и добавлять непосредственно на информационные панели. Гиперссылки можно добавить в текстовое поле, независимо от того, где оно находится. **В этой статье рассматриваются текстовые поля в отчетах.**
+Текстовые поля можно добавлять в отчеты, закреплять на информационных панелях из отчетов и добавлять непосредственно на информационные панели. Гиперссылки можно добавить в текстовое поле, независимо от того, где оно находится. **В этом разделе описываются текстовые поля в отчетах в службе Power BI (не Power BI Desktop).**
 
 > **ПРИМЕЧАНИЕ**. Сведения о гиперссылках в таблицах и матрицах Power BI см. в статье [Гиперссылки в таблицах](power-bi-hyperlinks-in-tables.md). Сведения о добавлении текстовых полей на **панель мониторинга** см. в статье [Добавление плитки прямо с панели мониторинга](service-dashboard-add-widget.md). 
 > 
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/13/2017
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
-   * В текстовом поле выберите гиперссылку для отображения URL-адреса.
+   * Поместите курсор в область выделенного текста, чтобы отобразить URL-адрес.  
      
       ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Выберите URL-адрес, чтобы открыть страницу в новом окне браузера.

@@ -1,6 +1,6 @@
 ---
 title: "Перемещение визуализации, изменение ее размеров и открытие в новом окне"
-description: "Перемещение и изменение размеров визуализации в отчете Power BI"
+description: "Перемещение и изменение размера визуализации в отчете в службе Power BI и Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6d2f6c013399c7777b1e866c75b3023e4e20a2b7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c5226c791a97c87c4c4759052149d8744f94d0ac
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="move-and-resize-a-visualization-in-a-report"></a>Перемещение и изменение размеров визуализации в отчете
+# <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Перемещение визуализации и изменение ее размера в отчете в службе Power BI и Power BI Desktop
+Только автор и владельцы отчета могут перемещать визуализации и изменять их размер. В службе Power BI (app.powerbi.com) это означает возможность открыть отчет в [режиме правки](service-reading-view-and-editing-view.md).
+
 ## <a name="open-the-report"></a>Открытие отчета
-В Power BI откройте отчет в [режиме редактирования](service-reading-view-and-editing-view.md) и [создайте визуализацию](power-bi-report-add-visualizations-i.md), если в отчете еще нет этого элемента.
+В Power BI откройте отчет, содержащий хотя бы одну визуализацию, или [создайте новую визуализацию](power-bi-report-add-visualizations-i.md). 
 
 ## <a name="move-the-visualization"></a>Перемещение визуализации
-* Выберите (левой кнопкой мыши) любую область визуализации и перетащите ее в новое место. 
+* Выберите (левой кнопкой мыши) любую область визуализации и перетащите ее в новое место.
 
 ## <a name="resize-the-visualization"></a>Изменение размера визуализации
 * Выберите визуализацию, чтобы появились ее границы, а затем щелкните и перетащите маркеры темной рамки, чтобы изменить размер.  
@@ -39,13 +41,10 @@ ms.lasthandoff: 11/15/2017
   ![](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Изменение размера визуализации на панели мониторинга](service-dashboard-edit-tile.md)
+[Изменение размера визуализации на панели мониторинга](service-dashboard-edit-tile.md)  
 
-[Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](service-focus-mode.md)
-
-[Визуализации в отчетах Power BI](power-bi-report-visualizations.md)
+[Визуализации в отчетах Power BI](power-bi-report-visualizations.md)  
 
 [Power BI — основные понятия](service-basic-concepts.md)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

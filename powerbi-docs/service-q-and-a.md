@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Вопросы и ответы в Power BI
 Иногда самый быстрый способ получить ответ по данным — задать вопрос, используя естественный язык. Например, «каков объем продаж за прошлый год».  Функцию "Вопросы и ответы" можно использовать для исследования данных с помощью интуитивно понятных возможностей, основанных на естественном языке, получая ответы в виде диаграмм и графиков. Компонент "Вопросы и ответы" отличается от подсистемы поиска: он выдает результаты только о данных в Power BI.
 
 > [!NOTE]
-> Компонент "Вопросы и ответы" также доступен в [приложении Microsoft Power BI для iOS на устройствах iPad, iPhone и iPod Touch](mobile-apps-ios-qna.md).
+> Функция "Вопросы и ответы" также доступна в [приложении Microsoft Power BI для iOS на устройствах iPad, iPhone и iPod Touch](mobile-apps-ios-qna.md), а также в [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA).
 > 
 > 
 
@@ -51,11 +51,6 @@ ms.lasthandoff: 11/15/2017
 [Руководство по использованию функции "Вопросы и ответы" Power BI с примером розничных продаж](power-bi-visualization-introduction-to-q-and-a.md). Работа с функцией в рамках реалистичного отраслевого руководства.
 
 [Оптимизация данных для работы с функцией "Вопросы и ответы"](service-prepare-data-for-q-and-a.md). Вы создаете наборы и модели данных?  Тогда этот раздел для вас.
-
-## <a name="next-steps"></a>Дальнейшие действия
-[Power BI — основные понятия](service-basic-concepts.md)
-
-[Приступая к работе с Power BI](service-get-started.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

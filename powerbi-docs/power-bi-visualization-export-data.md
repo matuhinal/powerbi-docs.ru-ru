@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Экспорт данных из визуализаций
 Чтобы просмотреть данные, которые используются для создания визуализации, [откройте их в Power BI](service-reports-show-data.md) или экспортируйте в Excel в виде файла с расширением XLSX или CSV.   
@@ -84,7 +84,7 @@ ms.lasthandoff: 11/15/2017
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
-* Максимальное количество строк, которые можно экспортировать из **Power BI Desktop** в CSV-файл, — 30 000.
+* Максимальное число строк, которые можно экспортировать из **Power BI Desktop** и **службы Power BI** в CSV-файл, — 30 000.
 * Максимальное число строк, которые можно экспортировать в XLSX-файл, — 150 000 (для пользователей версии Pro) и 30 000 (для пользователей бесплатной версии) в **службе Power BI**.
 * При использовании DirectQuery максимальный объем данных, который можно экспортировать, составляет 16 МБ. Это может привести к экспорту меньшего числа строк, чем максимальное, особенно если таблица содержит много столбцов либо данные, трудно поддающиеся сжатию, или есть другие факторы, увеличивающие размер файла и уменьшающие число экспортируемых строк.
 * Power BI поддерживает только экспорт в визуальные элементы, которые используют основные статистические функции. Экспорт не доступен для визуальных элементов, которые используют меры модели или отчетов.

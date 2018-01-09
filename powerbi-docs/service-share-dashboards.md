@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Предоставление общего доступа коллегам и другим пользователям к панелям мониторинга Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. Power BI предлагает [несколько способов совместной работы с панелями мониторинга и их распространения](service-how-to-collaborate-distribute-dashboards-reports.md). Одним из них является предоставление общего доступа.
@@ -122,7 +122,11 @@ ms.lasthandoff: 12/12/2017
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Получатели моей панели мониторинга видят значок блокировки на плитке или сообщение "Требуется разрешение"
 
-Если пользователи, которым вы предоставляете доступ, при попытке просмотра отчета видят плитку блокировки на панели мониторинга или сообщение "Требуется разрешение", необходимо предоставить им разрешение к базовому набору данных. Вот как это сделать.
+Пользователи, которым вы предоставляете доступ, при попытке просмотра отчета могут увидеть плитку блокировки на панели мониторинга или сообщение "Требуется разрешение".
+
+![Плитка блокировки Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+В таком случае, чтобы обеспечить пользовательский доступ к набору данных, вам нужно предоставить соответствующее разрешение. Вот как это сделать.
 
 1. Откройте вкладку **Наборы данных** в списке содержимого.
 

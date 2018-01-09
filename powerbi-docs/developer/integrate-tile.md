@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 8527ffb7d9e16bcf55216bc6e0bcd60feec12e16
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Интеграция плитки в приложение (данные принадлежат пользователю)
 Узнайте, как интегрировать (внедрить) плитку в веб-приложение с помощью вызовов REST API и API JavaScript для Power BI для вашей организации.
@@ -236,9 +236,11 @@ https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupI
 ```
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Пример приложения для проверки можно найти на сайте GitHub. Дополнительные сведения см. на странице [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app).
+[Внедрение плиток](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Tile-Embed). Вики-сайт для Power BI и JavaScript.
 
-Чтобы больше узнать об API JavaScript, ознакомьтесь с документацией по [API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+[API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+
+Пример [интеграции плитки в веб приложение](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) на сайте GitHub.
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

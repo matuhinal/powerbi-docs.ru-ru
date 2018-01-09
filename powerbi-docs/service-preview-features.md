@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/02/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7038587e567b2d8377f1ef77583f7baa9695fa58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6f63dd502e84433c8ecc40e28d0f518845546f90
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Испытайте предварительные версии функций Power BI
 ## <a name="what-are-preview-features"></a>Что собой представляют *предварительные версии функций*?
@@ -33,22 +33,16 @@ ms.lasthandoff: 11/13/2017
 > 
 > 
 
-## <a name="current-previews-available"></a>Текущие доступные предварительные версии
-**Карты ArcGIS для Power BI (предварительная версия).** Сочетание карт ArcGIS и Power BI — это больше, чем простое отображение точек на карте.
-Дополнительные сведения см. в статье [Руководство. Карты ArcGIS в Power BI (предварительная версия)](power-bi-visualization-arcgis.md).
-
-## <a name="turn-the-arcgis-preview-feature-on-and-off"></a>Включение (и отключение) предварительной версии функции ArcGIS
+## <a name="find-previews-and-turn-them-on-and-off"></a>Поиск предварительных версий, их включение и отключение
 1. Откройте меню "Параметры", щелкнув значок шестеренки в правом верхнем углу окна Power BI и выбрав пункт **Параметры**.
    
    ![](media/service-preview-features/power-bi-settings.png).
-2. Откройте вкладку **Общие** и выберите **Предварительная версия функций**.
+2. Откройте вкладку **Общие**. При наличии предварительной версии вы увидите параметр **Предварительные версии функций** или сами функции, перечисленные в левой части экрана.  В этом примере перечислены предварительные версии функций, доступные для ArcGIS Maps. 
    
    ![](media/service-preview-features/power-bi-preview-arcgis.png)
-3. Установите переключатель в положение **Вкл.**, чтобы опробовать новые возможности. Щелкните **Применить**.
-4. Чтобы отключить предварительные версии функций, выполните шаги 1 и 2 выше, а на шаге 3 выберите **Откл.** > **Применить**.
+3. Переместите переключатель в положение **Вкл.** или установите соответствующий флажок, чтобы ознакомиться с новыми возможностями. Затем нажмите кнопку **Применить**.
+4. Чтобы отключить предварительные версии функций, выполните шаги 1–3 выше, на шаге 3 выберите **Выкл.** или снимите флажок и щелкните **Применить**.
 
-## <a name="next-steps"></a>Дальнейшие действия
-[Новый интерфейс навигации по Power BI](service-the-new-power-bi-experience.md)
 
 Возникли вопросы или хотите оставить отзыв? [Посетите форум сообщества Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
 

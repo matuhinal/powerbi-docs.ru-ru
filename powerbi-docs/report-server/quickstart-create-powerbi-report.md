@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Краткое руководство по созданию отчета Power BI для сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -112,6 +112,7 @@ ms.lasthandoff: 12/06/2017
 * визуальные элементы R;
 * карты ArcGIS;
 * строки навигации;
+* Функции предварительной версии Power BI Desktop
 
 ### <a name="in-the-power-bi-mobile-apps"></a>В мобильных приложениях Power BI
 Отчеты на сервере отчетов Power BI поддерживают все функциональные возможности, доступные в [мобильных приложениях Power BI](../mobile-apps-for-mobile-devices.md), в том числе:

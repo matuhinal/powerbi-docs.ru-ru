@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Просмотр локальных отчетов на сервере отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 Область применения:
@@ -63,7 +63,14 @@ ms.lasthandoff: 11/13/2017
 3. Выберите **Подключение к серверу**.
    
     ![Подключение к серверу](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. Введите адрес сервера, имя пользователя и пароль. Используйте следующий формат для адреса сервера:
+
+     Мобильному приложению необходимо обеспечить доступ к серверу. Это можно сделать несколькими способами:
+
+    - Проще всего использовать ту же сеть или VPN.
+    - Можно использовать прокси веб-приложения для подключения вне организации. См. дополнительные сведения о [подключении к Reporting Services с помощью OAuth](mobile-oauth-ssrs.md). 
+    - Откройте подключение (порт) в брандмауэре.
+
+1. Введите адрес сервера, имя пользователя и пароль. Используйте следующий формат для адреса сервера:
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ ms.lasthandoff: 11/13/2017
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > В начале строки подключения укажите префикс **http** или **https**.
-   > 
-   > 
+   В начале строки подключения укажите префикс **http** или **https**.
    
     ![Диалоговое окно "Подключение к серверу"](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (Необязательно.) В разделе **Дополнительные параметры** при желании можно присвоить серверу понятное имя.
@@ -100,7 +104,7 @@ ms.lasthandoff: 11/13/2017
 
 * Выберите **Избранное**.
   
-   !["Избранное" на панели навигации слева](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   !["Избранное" на панели навигации слева](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Ваши избранные ключевые показатели эффективности и отчеты находятся на этой странице веб-портала вместе с панелями мониторинга Power BI в службе Power BI:
   

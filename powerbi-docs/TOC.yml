@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: Учебник. Каскадные диаграммы в Power BI
           href: power-bi-visualization-waterfall-charts.md
-        - name: Создание плитки с большим числом для информационной панели Power BI с помощью вопроса
-          href: power-bi-visualization-big-number.md
-        - name: Создание плитки с большим числом из отчета Power BI
-          href: power-bi-visualization-big-number-report.md
+        - name: "Руководство. Карточки (большие плитки с числами) в Power\_BI"
+          href: power-bi-visualization-card.md
         - name: Создание расширенных аналитических инструментов и визуализаций с помощью R-скриптов в Power BI
           href: service-r-visuals.md
     - name: Данные из файлов
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: Интеграция содержимого в ваше приложение (данные принадлежат приложению)
           href: developer/embed-sample-for-customers.md
+        - name: Внедрение пользовательских макетов в приложение
+          href: developer/embedded-custom-layout.md
         - name: Создание клиента Azure Active Directory
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Регистрация приложения

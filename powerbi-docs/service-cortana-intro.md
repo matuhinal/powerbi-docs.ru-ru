@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Быстрый поиск и просмотр данных Power BI с помощью Кортаны для Power BI
 Используйте Кортану на устройствах с Windows 10, чтобы мгновенно получать ответы на вопросы вашей организации. Благодаря интеграции с Power BI Кортана может получать важные сведения непосредственно из панелей мониторинга и отчетов Power BI. Для работы вам нужна версия Windows 10 (ноябрь 2015 г.) или более поздняя, Кортана, Power BI и доступ минимум к одному набору данных.
@@ -85,13 +85,19 @@ Power BI может быть одним из мест для поиска отв
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Как только Кортана будет готова к работе, введите свой вопрос в ее строке поиска или произнесите его вслух. В Кортане отобразятся доступные результаты. Если в Power BI есть панель мониторинга, соответствующая вашему запросу, она появится в разделе **Лучшее соответствие** или **Power BI**.
    
-     ![Панель мониторинга Power BI в результатах поиска Кортаны](media/service-cortana-intro/power-bi-cortana-searching2.png "Панель мониторинга Power BI в результатах поиска Кортаны")
+     ![Панель мониторинга Power BI в результатах поиска Кортаны](media/service-cortana-intro/power-bi-cortana-search-hr.png "Панель мониторинга Power BI в результатах поиска Кортаны")
    
    > [!NOTE]
    > Сейчас функция поддерживается только на английском языке.
    > 
    > 
-3. Откройте панель мониторинга в Power BI, выбрав ее имя. 
+3. Выберите панель мониторинга, чтобы открыть ее в Cortana.
+
+    ![Выбор панели мониторинга Power BI](media/service-cortana-intro/power-bi-cortana-dashboard.png "Select the Power BI dashboard")
+
+    Можно изменить макет, [изменив *представление телефона* панели мониторинга](service-create-dashboard-mobile-phone-view.md). 
+
+1. В Cortana панель мониторинга также можно открыть в службе Power BI или Power BI Mobile. Чтобы открыть панель мониторинга в службе Power BI, выберите **Открыть в Интернете**. 
    
    ![Открытие панели мониторинга из Кортаны](media/service-cortana-intro/power-bi-dashboard-opens.png "Открытие панели мониторинга из Кортаны")   
 4. Теперь давайте воспользуемся Кортаной для поиска отчета. См. сведения об [отчетах, содержащих страницу с картой ответа Кортаны](service-cortana-answer-cards.md). В этом примере в отчете с именем "Cortana-New-Stores" есть страница ответов Кортаны с именем "cortana stores" (хранилища кортаны).  

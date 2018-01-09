@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Точечные и пузырьковые диаграммы в Power BI (руководство)
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. Точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно в зависимости от данных.
@@ -47,25 +47,30 @@ ms.lasthandoff: 11/13/2017
 * для использования с квадрантами.
 
 ## <a name="create-a-scatter-chart"></a>Создание точечной диаграммы
+Просмотрите это видео, в котором Уилл создает точечную диаграмму, а затем выполните следующие действия, чтобы создать ее.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Откройте пример "Анализ розничной торговли" в [режиме редактирования](service-interact-with-a-report-in-editing-view.md) и [добавьте новую страницу отчета](power-bi-report-add-page.md).
-2. В области "Поля" выберите пункты **Sales** > **Sales Per Sq Ft** (Продажи > Продажи на кв. фут) и **Sales** > **Total Sales Variance %** (Продажи > Суммарное отклонение продаж в процентах).
-3. В области "Поля" выберите **District > District** (Округ > Округ).
+
+Здесь используется пример "Анализ розничной торговли". Чтобы продолжить работу, [скачайте пример](sample-datasets.md) для службы Power BI (app.powerbi.com) или Power BI Desktop.   
+
+1. Откройте [пустую страницу отчета](power-bi-report-add-page.md) и выберите поля **Продажи**\>**Продажи на квадратный метр** и **Продажи** > **Общий процент расхождения продаж**. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](service-interact-with-a-report-in-editing-view.md).
+ 
+2. В области "Поля" выберите **District > District** (Округ > Округ).
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Преобразуйте данные в точечную диаграмму. На панели «Визуализации» щелкните значок точечной диаграммы.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Перетащите поле **District** (Округ) из раздела **Сведения** в раздел **Условные обозначения**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 Мы получили точечную диаграмму, которая содержит общий процент расхождения продаж по оси Y, а продажи на кв. фут — вдоль оси X.  Цвета точек данных указывают на регионы.  Теперь добавим третье измерение.
 
 ## <a name="create-a-bubble-chart"></a>Создание пузырьковой диаграммы
 1. В области "Поля" перетащите **Sales** > **This Year Sales** > **Value** (Продажи > Продажи за этот год > Значение) в область **Размер**. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Наведите указатель мыши на пузырек.  Размер пузырька отражает значение параметра **Продажи за этот год**.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)

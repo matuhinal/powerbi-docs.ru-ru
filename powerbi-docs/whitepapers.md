@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: asaxton
-ms.openlocfilehash: e6821e20dbbb9b69ec4afa9ef48e1fb78bb8b3f5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -37,9 +37,9 @@ ms.lasthandoff: 11/15/2017
 | [Углубленная аналитика с Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Описание возможностей углубленной аналитики в Power BI, включая прогнозную аналитику, пользовательские визуализации, интеграцию с R и выражения анализа данных. |
 | [Двунаправленная фильтрация](desktop-bidirectional-filtering.md) |Объясняются принципы работы двунаправленной перекрестной фильтрации в Power BI Desktop (техническая документация также описывает службы SQL Server Analysis Services 2016, так как особенности их работы аналогичны). |
 | [DirectQuery в службах SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |После доработки функция DirectQuery для SQL Server 2016 стала значительно быстрее и производительнее. Тем не менее, она также стала сложнее для понимания и реализации. |
-| [Управление](service-admin-governance.md) |Платформа для повышения окупаемости инвестиций, связанных с Power BI. |
+| [Управление](service-admin-governance.md) |Платформа для повышения окупаемости инвестиций, связанных с Power BI. |
 | [Безопасность](service-admin-power-bi-security.md) |Подробные сведения о безопасности в Power BI. |
 | [Безопасность табличной семантической модели бизнес-аналитики](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |В этом документе рассматривается модель безопасности табличной семантики бизнес-аналитики и Power BI. Вы научитесь создавать роли, реализовывать динамическую безопасность, настраивать параметры олицетворения, управлять ролями и выбирать подходящий метод подключения к моделям в контексте безопасности вашей сети. |
 | [Руководство по планированию ресурсов для Сервера отчетов Power BI](report-server/capacity-planning.md) |В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. |
-
+|[Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) | Техническая статья с рекомендациями и руководством по планированию, развертыванию и операционализации Power BI Premium. 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

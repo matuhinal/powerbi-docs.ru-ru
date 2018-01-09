@@ -1,6 +1,6 @@
 ---
-title: "Изменение типа визуализации в отчете Power BI"
-description: "Изменение типа визуализации в отчете Power BI"
+title: "Изменение типа визуализации в отчете"
+description: "Изменение типа визуализации отчета в службе Power BI и Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Изменение типа визуализации в отчете Power BI
-Попробуйте использовать различные типы визуализаций в Power BI, чтобы определить, какой из них лучше всего иллюстрирует ваши данные. 
+Попробуйте использовать различные типы визуализаций в службе Power BI и Power BI Desktop, чтобы определить, какой из них лучше всего иллюстрирует ваши данные. 
 
-1. Откройте [отчет в режиме правки](service-reading-view-and-editing-view.md) и [создайте визуализацию](power-bi-report-add-visualizations-i.md), если в отчете еще нет этого компонента.
+1. Откройте отчет, который содержит хотя бы одну визуализацию.   
 2. На панели "Визуализации" выберите тип новой визуализации.  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)

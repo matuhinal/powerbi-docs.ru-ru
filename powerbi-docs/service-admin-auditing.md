@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Применение функции аудита в своей организации
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Узнайте, как использовать функцию аудита в Power BI для отслеживания и анализа выполненных действий. Вы можете воспользоваться инструментами Центра безопасности и соответствия требованиям или использовать PowerShell.
+Узнайте, как использовать функцию аудита в Power BI для отслеживания и анализа выполненных действий. Вы можете использовать PowerShell или средства Центра безопасности и соответствия требованиям.
 
 Сведения о том, кто выполняет действия в клиенте Power BI, что это за действия и какие элементы они затрагивают, могут быть важными для выполнения требований в организации, например для соблюдения нормативных требований или для управления записями.
 
@@ -35,6 +35,16 @@ ms.lasthandoff: 11/29/2017
 
 > [!NOTE]
 > Функция аудита в Power BI доступна в режиме предварительной версии во всех регионах.
+
+## <a name="requirements"></a>Требования
+Чтобы получить доступ к журналам аудита, вы должны удовлетворить следующие требования:
+
+- Для доступа к разделу аудита Центра безопасности и соответствия требованиям Microsoft Office 365 требуется лицензия Exchange Online (включена в подписки Office 365 корпоративный E3 и E5).
+- Вы должны быть глобальным администратором или администратором Exchange, который предоставляет доступ к журналу аудита. 
+
+  Ролями администратора Exchange можно управлять в Центре администрирования Exchange. Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+
+- Если у вас есть доступ к журналу аудита, но вы не являетесь глобальным администратором или администратором службы Power BI, вы не сможете получить доступ к порталу администрирования Power BI. В таком случае вам нужно получить прямую ссылку на Центр безопасности и соответствия требованиям Office 365.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Включение функции аудита на портале администрирования Power BI
 
@@ -46,7 +56,7 @@ ms.lasthandoff: 11/29/2017
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. Выберите пункт **Параметры клиента**.
+3. Выберите **Параметры клиента**.
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
 
@@ -69,9 +79,9 @@ ms.lasthandoff: 11/29/2017
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. Выберите пункт **Журналы аудита**.
-4. 
-5. Нажмите кнопку **Перейти в Центр администрирования Office 365**.
+3. Выберите **Журналы аудита**.
+ 
+4. Нажмите кнопку **Перейти в Центр администрирования Office 365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

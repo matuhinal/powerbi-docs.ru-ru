@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: d1960ea42bee8b00cc6dd095e94ebf6f6303bce8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
 Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. Хотя плитки информационной панели нельзя создавать и закреплять в Power BI Mobile, их можно [просматривать и предоставлять для общего доступа](mobile-tiles-in-the-mobile-apps.md). В Power BI Mobile можно [добавлять фотографии на информационную панель с помощью приложений для iPhone](mobile-iphone-app-get-started.md).
@@ -100,9 +100,7 @@ ms.lasthandoff: 11/13/2017
 * Если исходная визуализация, использованная для создания плитки, изменяется, сама плитка не изменяется.  Например, если вы закрепили график из отчета, а затем изменили график на гистограмму, плитка панели мониторинга продолжает отображать график. Данные обновляются, а тип визуализации — нет.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Создание плитки с большими числами из отчета](power-bi-visualization-big-number-report.md)
-
-[Создание плитки с большими числами с помощью функции "Вопросы и ответы"](power-bi-visualization-big-number.md)
+[Визуализация карточек](power-bi-visualization-card.md)
 
 [Панели мониторинга в Power BI](service-dashboards.md)  
 

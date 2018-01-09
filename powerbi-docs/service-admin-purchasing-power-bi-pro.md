@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Приобретение Power BI Pro
 Служба Power BI Pro предназначена для пользователей, которые публикуют отчеты, вместе используют панели мониторинга, совместно работают с коллегами в рабочих областях и принимают участие в других похожих действиях, например имеют возможность:
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/15/2017
 
 ИТ-администраторы имеют несколько вариантов использования Power BI Pro в организации. Вы можете приобрести Power BI Pro в Центре администрирования Office 365 либо через представителя или партнера корпорации Майкрософт. В этой статье рассматриваются два варианта работы со службой Power BI Pro в пробном режиме, а также порядок ее приобретения для организации.
 
-Дополнительные сведения о Power BI Premium и Power BI Pro как части предложения Premium см. в статье [Что такое Power BI Premium?](service-premium.md)
+См. дополнительные сведения о [Power BI Premium](service-premium.md) и Power BI Pro как части предложения Premium.
 
 ## <a name="pricing"></a>Цены
 Последнюю информацию о ценах на Power BI Pro и таблицу с входящими функциями см. в разделе [Цены на Power BI](https://powerbi.microsoft.com/pricing/).
@@ -118,6 +118,11 @@ ms.lasthandoff: 11/15/2017
 Чтобы при работе со службой убедиться в том, что у вас учетная запись Pro, нажмите на значок **шестеренки** и выберите **Управление личным хранилищем**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>Льготный период
+Когда срок действия лицензии Power BI Pro истечет, вы сможете воспользоваться 30-дневным льготным периодом. 
+
+У подписки Power BI Pro такой же жизненный цикл, как и у подписки Office 365. См. дополнительные сведения о [работе с данными и доступе после истечения срока действия подписки Office 365 для бизнеса](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Самостоятельная регистрация в Power BI](service-self-service-signup-for-power-bi.md)  
