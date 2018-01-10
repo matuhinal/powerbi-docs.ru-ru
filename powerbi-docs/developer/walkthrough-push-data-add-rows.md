@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Шаг 5. Добавление строк в таблицу Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
-На **шаге 4** ([Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)) руководства по принудительной отправке данных в набор данных вы использовали операцию [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx) и пакет Newtonsoft.Json, чтобы получить идентификатор набора данных. На этом шаге будет использоваться идентификатор набора данных с операцией [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx) для добавления строк в набор данных **Power BI**. Примеры использования REST API Power BI см. в документации [Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY).
+На **шаге 4** ([Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)) руководства по принудительной отправке данных в набор данных вы использовали операцию [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx) и пакет Newtonsoft.Json, чтобы получить идентификатор набора данных. На этом шаге будет использоваться идентификатор набора данных с операцией [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx) для добавления строк в набор данных **Power BI**. 
 
 При вызове операции [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx) строки добавляются в набор данных.
 
@@ -319,6 +319,5 @@ ms.lasthandoff: 11/15/2017
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 [Справочник по REST API Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

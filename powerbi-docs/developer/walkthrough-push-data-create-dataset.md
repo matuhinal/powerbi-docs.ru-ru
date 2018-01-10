@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Шаг 3. Создание набора данных в Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 
 Для проверки подлинности в ходе операции REST Power BI добавьте в заголовок запроса маркер, полученный на шаге [Получение маркера доступа для проверки подлинности](walkthrough-push-data-get-token.md).
 
-При вызове операции [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx) создается новый набор данных. Примеры использования REST API Power BI см. в документации [Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY).
+При вызове операции [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx) создается новый набор данных. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -239,7 +239,6 @@ ms.lasthandoff: 11/15/2017
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 [Справочник по REST API Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

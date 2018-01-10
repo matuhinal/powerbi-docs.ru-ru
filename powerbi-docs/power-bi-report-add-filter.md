@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Добавление фильтра в отчет в Power BI (в режиме правки)
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Какая разница между фильтрами в режиме правки и фильтрами в режиме чтения
-Существует два режима взаимодействия с отчетами: [режим чтения](service-interact-with-a-report-in-reading-view.md) и [режим правки](service-interact-with-a-report-in-editing-view.md).  Доступные возможности фильтрации зависят от используемого в настоящий момент режима.
+Существует два режима взаимодействия с отчетами: [режим чтения](service-reading-view-and-editing-view.md) и [режим правки](service-interact-with-a-report-in-editing-view.md).  Доступные возможности фильтрации зависят от используемого в настоящий момент режима.
 
 * В режиме правки можно добавлять фильтры страниц, отчетов и визуализаций. При сохранении отчета фильтры сохраняются вместе с ним. Пользователи, просматривающие отчет в режиме чтения, могут работать с добавленными фильтрами, но не могут сохранять свои изменения.
 * В режиме чтения можно взаимодействовать с уже существующими в отчете фильтрами страниц, отчетов и визуальных элементов, но сохранять изменения фильтров нельзя.
 
 > [!NOTE]
-> В этой статье описывается создание фильтров в отчете в **режиме правки**.  Дополнительные сведения о фильтрах в режиме чтения см. в статье [Взаимодействие с отчетом в режиме чтения в Power BI](service-interact-with-a-report-in-reading-view.md).
+> В этой статье описывается создание фильтров в отчете в **режиме правки**.  Дополнительные сведения о фильтрах в режиме чтения см. в статье [Взаимодействие с отчетом в режиме чтения в Power BI](service-reading-view-and-editing-view.md).
 > 
 > 
 
@@ -146,7 +146,7 @@ ms.lasthandoff: 11/13/2017
 
   [Фильтры и выделение в отчетах](power-bi-reports-filters-and-highlighting.md)
 
-[Взаимодействие с отчетом в режиме чтения в Power BI](service-interact-with-a-report-in-reading-view.md)
+[Взаимодействие с отчетом в режиме чтения в Power BI](service-reading-view-and-editing-view.md)
 
 [Взаимодействие с визуализациями в отчете Power BI](service-reports-visual-interactions.md)
 

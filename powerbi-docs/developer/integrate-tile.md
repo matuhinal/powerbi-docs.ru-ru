@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Интеграция плитки в приложение (данные принадлежат пользователю)
 Узнайте, как интегрировать (внедрить) плитку в веб-приложение с помощью вызовов REST API и API JavaScript для Power BI для вашей организации.
@@ -56,7 +56,7 @@ ms.lasthandoff: 12/20/2017
 Перед получением плитки необходимо получить идентификатор панели мониторинга. Сведения о способах получения панели мониторинга см. в статье [Интеграция информационной панели в приложение](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Получение плиток с помощью маркера доступа
-После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение плиток](https://msdn.microsoft.com/library/mt465741.aspx). Операция [Получение плиток](https://msdn.microsoft.com/library/mt465741.aspx) возвращает список плиток. Можно получить одну плитку в списке плиток. Ниже приведен полный метод C# для получения плитки. Примеры использования REST API Power BI см. в документации [Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY).
+После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение плиток](https://msdn.microsoft.com/library/mt465741.aspx). Операция [Получение плиток](https://msdn.microsoft.com/library/mt465741.aspx) возвращает список плиток. Можно получить одну плитку в списке плиток. Ниже приведен полный метод C# для получения плитки. 
 
 Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
 

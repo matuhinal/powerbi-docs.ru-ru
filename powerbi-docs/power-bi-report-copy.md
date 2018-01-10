@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8425b631bb64911081861dc4a21de04b698f0f67
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 8c108d1564a6de89d2a53134e0bbca3617ebfc92
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Создание нового отчета из существующего отчета
 Возможно, у вас есть отчет, который уже подключается к набору данных, и в нем есть визуальные элементы, которые вы хотите использовать снова или изменить.  В этом случае вы можете просто скопировать существующий отчет в качестве основы для нового.  Для этого выполните указанные ниже действия.
 
-1. [Открыть отчет](service-report-open-in-reading-view.md).
+1. [Открыть отчет](service-report-open.md).
 2. В меню **Файл** выберите пункт **Сохранить как**.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)

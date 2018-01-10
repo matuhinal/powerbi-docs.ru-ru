@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Отображение информационных панелей Power BI, к которым мне предоставлен доступ
 ## <a name="shared-with-me"></a>Панель "Мне предоставлен доступ"
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/13/2017
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-В зависимости от предоставленных разрешений у вас будет много возможностей взаимодействия с информационной панелью и базовым отчетом, таких как создание копий информационной панели, работа с отчетом [в режиме чтения](service-interact-with-a-report-in-reading-view.md) и повторное предоставление общего доступа другим коллегам.
+В зависимости от предоставленных разрешений у вас будет много возможностей взаимодействия с информационной панелью и базовым отчетом, таких как создание копий информационной панели, работа с отчетом [в режиме чтения](service-reading-view-and-editing-view.md) и повторное предоставление общего доступа другим коллегам.
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Действия, доступные на экране **Мне предоставлен доступ**
 * Выбор значка звездочки для [добавления информационной панели в избранное](service-dashboard-favorite.md).

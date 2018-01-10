@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Что могут разработчики сделать с помощью Power BI
 Power BI предлагает целый ряд параметров для разработчиков, начиная от параметров внедрения и заканчивая настраиваемыми визуальными элементами и наборами данных потоковой передачи.
@@ -51,7 +51,6 @@ Power BI предлагает целый ряд параметров для ра
 [Публикация пользовательских визуализаций в Магазине Office](office-store.md)  
 [Репозиторий Git настраиваемых визуальных элементов](https://github.com/Microsoft/PowerBI-visuals)  
 [Пример внедрения JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Справочник по API Power BI на Apiary](http://docs.powerbi.apiary.io/#)  
 [Техническая документация по Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

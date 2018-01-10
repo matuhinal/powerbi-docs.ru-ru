@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Использование безопасности на уровне строк во встроенном содержимом Power BI
 Безопасность на уровне строк (RLS) можно использовать для ограничения пользовательского доступа к данным на панели мониторинга и плитках, а также в отчетах и наборах данных. С одними и теми же артефактами могут работать разные пользователи, видя при этом разные данные. Внедрение поддерживает функцию RLS.
@@ -91,7 +91,7 @@ API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) прини
 * **roles (обязательно).** Строка, содержащая роли для выбора при применении правил безопасности на уровне строк. При передаче нескольких ролей их нужно передавать в виде строкового массива.
 * **dataset (обязательно).** Это набор данных, предназначенный для внедряемого артефакта. 
 
-Вы можете создать маркер внедрения с помощью метода **GenerateTokenInGroup** в **PowerBIClient.Reports**. Сейчас поддерживаются только отчеты.
+Вы можете создать маркер внедрения с помощью метода **GenerateTokenInGroup** в **PowerBIClient.Reports**. 
 
 Например, можно изменить пример [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data). *Строки 76 и 77 Home\HomeController.cs* можно обновить с:
 

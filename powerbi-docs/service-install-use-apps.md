@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
 *Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации могут создавать и распространять приложения с важной бизнес-информацией. [Внешние службы](service-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
@@ -63,7 +63,7 @@ ms.lasthandoff: 12/06/2017
 3. Выберите **Получить**, чтобы добавить его на страницу "Приложения". 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Взаимодействие с панелями мониторинга и отчетами в приложении
-Теперь вы можете просмотреть данные информационных панелей и отчетов в приложении. Вам доступны все стандартные возможности взаимодействия Power BI, такие как фильтрация, выделение, сортировка и детализация. Ознакомьтесь со [сведениями о взаимодействии с отчетами в Power BI](service-interact-with-a-report-in-reading-view.md). 
+Теперь вы можете просмотреть данные информационных панелей и отчетов в приложении. Вам доступны все стандартные возможности взаимодействия Power BI, такие как фильтрация, выделение, сортировка и детализация. Ознакомьтесь со [сведениями о взаимодействии с отчетами в Power BI](service-reading-view-and-editing-view.md). 
 
 Вы не можете сохранять внесенные изменения, но данные из таблицы или других визуальных элементов в отчете всегда можно [экспортировать в Excel](power-bi-visualization-export-data.md).
 

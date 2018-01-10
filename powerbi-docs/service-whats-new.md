@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -589,10 +589,6 @@ ms.lasthandoff: 12/08/2017
 
 * Быстрый анализ данных учетной записи QuickBooks Online стал возможен благодаря нашему [пакету содержимого](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx). Дополнительные сведения о подключении и начале работы см. в [документации](service-connect-to-quickbooks-online.md) пакета содержимого QuickBooks Online для Power BI.
 
-**19 мая 2015 г.**
-
-* Благодаря этому обновлению вы можете подключаться к [Twilio с помощью нашего пакета содержимого](service-connect-to-twilio.md).
-* В API Power BI добавлены новые возможности. Теперь вы можете [составить список всех таблиц](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables) и [обновить существующую схему таблиц](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema).
 
 **13 мая 2015 г.**
 

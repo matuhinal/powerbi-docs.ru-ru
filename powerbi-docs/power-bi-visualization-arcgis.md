@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: 83d569c071d70576856ff301c8e0967ef607d512
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a1f424229a05b7f4b5507100287719f8d4cac005
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop
 Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).
@@ -33,8 +33,7 @@ ms.lasthandoff: 11/15/2017
 
 > [!TIP]
 > GIS — это наука о географической информации.
-> 
-> 
+
 
 В приведенном ниже примере на темно-сером холсте показана тепловая карта значений региональных продаж на фоне демографического слоя с наложением значений медианного совокупного чистого дохода за 2016 г. Как будет видно далее, карты ArcGIS предлагают практически безграничные возможности сопоставления, демографические данные и еще более привлекательную визуализацию карт, чтобы лучше всего представить данные.
 

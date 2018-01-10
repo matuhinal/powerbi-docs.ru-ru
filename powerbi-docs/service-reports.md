@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Отчеты в Power BI
 ## <a name="what-is-a-power-bi-report"></a>Что такое отчет Power BI?
@@ -71,7 +71,7 @@ ms.lasthandoff: 11/15/2017
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>Если вы хотите получать и использовать отчеты
 * Начните со [службы Power BI](service-basic-concepts.md), чтобы узнать, где находятся отчеты и средства создания отчетности.
-* Узнайте, как [открыть отчет](service-report-open-in-reading-view.md), а также узнайте обо всех действиях, доступных в [режиме чтения](service-dashboard-tiles.md).
+* Узнайте, как [открыть отчет](service-report-open.md), а также узнайте обо всех действиях, доступных в [режиме чтения](service-reading-view-and-editing-view.md).
 * Ознакомьтесь с обзорными сведениями об использовании на примере одного из наших [отчетов](sample-tutorial-connect-to-the-samples.md).  
 * Отчет больше не нужен? Вы можете [удалить его](service-delete.md).
 * Чтобы определить, какой набор данных используется в отчете и какие информационные панели содержат плитки, закрепленные из отчета, [просмотрите связанное содержимое](service-related-content.md).

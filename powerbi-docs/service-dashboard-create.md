@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Создание панели мониторинга Power BI из отчета
 Вы прочитали раздел [Панели мониторинга в Power BI](service-dashboards.md) и хотите создать свои собственные информационные панели. Существует много разных способов создавать панели мониторинга, среди которых: создание из отчета, с нуля, из набора данных, с помощью дублирования существующей панели мониторинга и многое другое.  В этом разделе и видео показано, как создать панель с помощью закрепления визуализаций из существующего отчета.
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/15/2017
 1. В той же рабочей области откройте вкладку **Отчеты**. Только что импортированный отчет будет отмечен желтой звездочкой. Щелкните имя отчета, чтобы открыть его.
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. Отчет открывается в [режиме чтения](service-interact-with-a-report-in-reading-view.md). В нижней части отчета расположены две вкладки: Discount Analysis (Анализ скидок) и Spend Overview (Обзор затрат). Каждая вкладка представляет страницу отчета.
+2. Отчет открывается в [режиме чтения](service-reading-view-and-editing-view.md). В нижней части отчета расположены две вкладки: Discount Analysis (Анализ скидок) и Spend Overview (Обзор затрат). Каждая вкладка представляет страницу отчета.
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. Наведите указатель мыши на визуализацию, чтобы отобразить доступные параметры. Чтобы добавить визуализацию на панель мониторинга, щелкните значок булавки ![](media/service-dashboard-create/power-bi-pin-icon.png).

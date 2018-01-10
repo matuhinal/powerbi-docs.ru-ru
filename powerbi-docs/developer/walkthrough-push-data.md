@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 API Power BI позволяет принудительно отправлять данные в набор данных Power BI. Например, вам нужно расширить существующий бизнес-процесс для отправки ключевых данных в набор данных. В этом случае необходимо отправить набор данных "Продажи и маркетинг", содержащий таблицу "Продукт".
@@ -38,7 +38,7 @@ API Power BI позволяет принудительно отправлять
 В следующем разделе приводятся общие сведения об операциях API Power BI для отправки данных.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Операции API Power BI для отправки данных
-REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, плитки на панели мониторинга обновляются автоматически обновленными данными. Для отправки данных используйте операцию [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx) вместе с операцией [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx). Чтобы найти набор данных, используйте операцию [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx). С помощью каждой из этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получение групп](https://msdn.microsoft.com/library/mt243842.aspx). Примеры использования REST API Power BI см. в документации [Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY).
+REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, плитки на панели мониторинга обновляются автоматически обновленными данными. Для отправки данных используйте операцию [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx) вместе с операцией [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx). Чтобы найти набор данных, используйте операцию [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx). С помощью каждой из этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получение групп](https://msdn.microsoft.com/library/mt243842.aspx).
 
 Ниже перечислены операции по отправке данных в набор данных.
 
@@ -126,6 +126,5 @@ REST API Power BI позволяет принудительно отправля
 [Получение групп](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Общие сведения о JSON](http://json.org/)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
-[Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

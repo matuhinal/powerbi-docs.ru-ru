@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Интеграция отчета в приложение для организации
 Узнайте, как интегрировать (внедрить) отчет в веб-приложение с помощью вызовов REST API и API JavaScript для Power BI для вашей организации.
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/13/2017
 Для получения отчета **Power BI** используется операция [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx), возвращающая список отчетов **Power BI**. В списке отчетов можно получить идентификатор отчета.
 
 ### <a name="get-reports-using-an-access-token"></a>Получение отчетов с помощью маркера доступа
-После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx). Операция [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx) возвращает список отчетов. Можно получить один отчет в списке отчетов. Ниже приведен полный метод C# для получения отчета. Примеры использования REST API Power BI см. в документации [Power BI REST API on APIARY](http://docs.powerbi.apiary.io/) (Справочник по REST API Power BI на APIARY).
+После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx). Операция [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx) возвращает список отчетов. Можно получить один отчет в списке отчетов. Ниже приведен полный метод C# для получения отчета. 
 
 Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
 
