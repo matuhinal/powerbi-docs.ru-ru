@@ -350,14 +350,10 @@
           href: service-analyze-in-excel.md
         - name: Изменение способа взаимодействия визуальных элементов в отчете
           href: service-reports-visual-interactions.md
-        - name: Открытие отчета Power BI в режиме чтения
-          href: service-report-open-in-reading-view.md
-        - name: Переход из режима чтения в режим правки в Power BI
+        - name: Открытие отчета Power BI в режиме чтения или правки
           href: service-reading-view-and-editing-view.md
         - name: Взаимодействие с отчетом в режиме редактирования в Power BI
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Взаимодействие с отчетом в режиме чтения в Power BI
-          href: service-interact-with-a-report-in-reading-view.md
         - name: Советы и рекомендации по созданию отчетов в службе Power BI
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Панель аналитики
@@ -1006,8 +1002,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Ресурсы
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: Демонстрация внедрения JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Примеры
@@ -1052,6 +1046,8 @@
           href: report-server/data-sources.md
         - name: подключение к источникам данных.
           href: report-server/connect-data-sources.md
+        - name: 'Доступ к общим наборам данных как к каналам OData '
+          href: report-server/access-dataset-odata.md
         - name: Настройка запланированного обновления
           href: report-server/configure-scheduled-refresh.md
         - name: Добавление комментариев к отчету
