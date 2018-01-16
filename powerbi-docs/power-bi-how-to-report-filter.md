@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ознакомление с панелью "Фильтры" отчета
 Эта статья содержит подробную информацию о панели "Фильтры" отчета. Вы узнаете, как выглядит панель отчетов Power BI в режиме правки и режиме чтения.
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/15/2017
 Так как в Power BI есть много разных способов фильтрации данных, мы рекомендуем сначала ознакомиться со статьей [О фильтрах и выделении](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-filters"></a>Работа с фильтрами
-Отчеты можно открывать в [режиме правки](service-interact-with-a-report-in-editing-view.md) или в [режиме чтения](service-interact-with-a-report-in-reading-view.md). В режиме правки владельцы отчета могут [добавлять фильтры в отчет](power-bi-report-add-filter.md); эти фильтры сохраняются вместе с отчетом. Пользователи, просматривающие отчет в режиме чтения, могут взаимодействовать с фильтрами, но не могут сохранять внесенные в отчет изменения.
+Отчеты можно открывать в [режиме правки или чтения](service-reading-view-and-editing-view.md). В режиме правки владельцы отчета могут [добавлять фильтры в отчет](power-bi-report-add-filter.md); эти фильтры сохраняются вместе с отчетом. Пользователи, просматривающие отчет в режиме чтения, могут взаимодействовать с фильтрами, но не могут сохранять внесенные в отчет изменения.
 
 ## <a name="filters-in-reading-view"></a>Фильтры в режиме чтения
 Когда отчет открыт в режиме чтения, панель "Фильтры" отображается на холсте отчета справа. Если область не отображается, разверните ее, щелкнув стрелку в правом верхнем углу.
@@ -122,7 +122,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Фильтры и выделение в отчетах](power-bi-reports-filters-and-highlighting.md)  
-[Взаимодействие с отчетом в режиме чтения в Power BI](service-interact-with-a-report-in-reading-view.md)  
+[Взаимодействие с отчетом в режиме чтения в Power BI](service-reading-view-and-editing-view.md)  
 [Создание фильтров в режиме правки отчета](power-bi-report-add-filter.md)  
 [Взаимодействие с визуализациями в отчете Power BI](service-reports-visual-interactions.md)
 

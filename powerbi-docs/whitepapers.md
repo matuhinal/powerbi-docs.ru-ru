@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -41,5 +41,6 @@ ms.lasthandoff: 12/14/2017
 | [Безопасность](service-admin-power-bi-security.md) |Подробные сведения о безопасности в Power BI. |
 | [Безопасность табличной семантической модели бизнес-аналитики](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |В этом документе рассматривается модель безопасности табличной семантики бизнес-аналитики и Power BI. Вы научитесь создавать роли, реализовывать динамическую безопасность, настраивать параметры олицетворения, управлять ролями и выбирать подходящий метод подключения к моделям в контексте безопасности вашей сети. |
 | [Руководство по планированию ресурсов для Сервера отчетов Power BI](report-server/capacity-planning.md) |В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. |
-|[Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) | Техническая статья с рекомендациями и руководством по планированию, развертыванию и операционализации Power BI Premium. 
+| [Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Этот документ содержит инструкции и рекомендации по планированию и развертыванию емкости Premium для четко определенных рабочих нагрузок.|
+
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

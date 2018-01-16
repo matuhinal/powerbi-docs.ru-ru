@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Этот раздел посвящен *использованию* карты ArcGIS в службе Power BI Desktop или версии службы для мобильных устройств. Как только автор предоставит вам общий доступ к карте ArcGIS, у вас появится множество возможностей взаимодействия с ней.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании ESRI](power-bi-visualization-arcgis.md).
@@ -62,7 +62,7 @@ ms.lasthandoff: 11/13/2017
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Взаимодействие с картой ArcGIS
-Набор доступных функций зависит от вашей роли: *автор* (вы создали карту) или *потребитель* (вам предоставили общий доступ к карте ArcGIS). При взаимодействии с картой ArcGIS в качестве потребителя (т. е. в [режиме чтения](service-interact-with-a-report-in-reading-view.md)) для пользователя доступны следующие действия.
+Набор доступных функций зависит от вашей роли: *автор* (вы создали карту) или *потребитель* (вам предоставили общий доступ к карте ArcGIS). При взаимодействии с картой ArcGIS в качестве потребителя (т. е. в [режиме чтения](service-reading-view-and-editing-view.md)) для пользователя доступны описанные ниже действия.
 
 * Как и для других типов визуализации, вы можете [закреплять на панелях мониторинга](service-dashboard-pin-tile-from-report.md), [просматривать](service-reports-show-data.md) и (или) [экспортировать базовые данные](power-bi-visualization-export-data.md), а также использовать [режим фокусировки](service-focus-mode.md) и [полноэкранный режим](service-fullscreen-mode.md).    
 * Разверните область **Фильтры**, чтобы применять фильтры при работе с картой. При закрытии отчета примененные фильтры не сохраняются.    

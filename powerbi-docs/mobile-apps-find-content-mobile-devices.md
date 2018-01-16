@@ -1,6 +1,6 @@
 ---
 title: "Поиск панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI"
-description: "См. сведения о расположении информационных панелей и отчетов в мобильных приложениях Power BI в зависимости от источника данных."
+description: "См. сведения о расположении панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI в зависимости от источника данных."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Поиск панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI
 Область применения:
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/13/2017
 ## <a name="3-apps"></a>3. Приложения
 Приложение представляет собой набор панелей мониторинга и отчетов, специально созданных вашей организацией для предоставления ключевых показателей, чтобы можно было быстрее и проще принимать решения, основанные на данных. Поиск и установка приложений в службе Power BI ([https://powerbi.com](https://powerbi.com)) не составляет трудностей. После установки эти приложения можно просмотреть на любом устройстве. 
 
-![Новые параметры навигации в Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Новые параметры навигации в Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Пользователи автоматически получают все обновления, выпущенные создателем. Кроме того, создатель контролирует частоту обновления данных, так что вы всегда будете знать об изменениях.
 

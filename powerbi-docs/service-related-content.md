@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Просмотр связанного содержимого в службе Power BI
 В области **Связанное содержимое** вы можете видеть, как связано между собой содержимое службы Power BI: панели мониторинга, отчеты и наборы данных.  Здесь вы можете также выполнять такие общие задачи, как обновление и переименование данных, создание аналитики и многое другое. Выберите связанный отчет или панель мониторинга. Эти элементы откроются в рабочей области Power BI.   
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/15/2017
 <br>
 **Способ 2**
 
-Откройте отчет в [режиме чтения](service-interact-with-a-report-in-reading-view.md) и выберите ![](media/service-related-content/power-bi-view-related-new.png) в верхней строке меню.
+Откройте отчет в [режиме чтения](service-reading-view-and-editing-view.md) и выберите ![](media/service-related-content/power-bi-view-related-new.png) в верхней строке меню.
 
 Откроется область **Связанное содержимое**. На ней отображается связанный набор данных и все панели мониторинга, которые содержат по крайней мере одну закрепленную плитку, связанную с отчетом. С этим отчетом связаны визуализации, прикрепленные к двум разным панелям мониторинга.
 
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="limitations-and-troubleshooting"></a>Ограничения и устранение неполадок
 * Из-за ограничений браузера вы можете не видеть параметр **Просмотреть похожие**. При этом будет отображаться соответствующий значок — ![](media/service-related-content/power-bi-view-related-icon-new.png). Щелкните значок, чтобы открыть область **Связанное содержимое**.
-* Чтобы открыть связанное содержимое для отчета, необходимо находиться в [режиме чтения](service-interact-with-a-report-in-reading-view.md).
+* Чтобы открыть связанное содержимое для отчета, необходимо находиться в [режиме чтения](service-reading-view-and-editing-view.md).
 * Связанное содержимое недоступно в Power BI Desktop.
 * Функция связанного содержимого не поддерживается для наборов данных для потоковой передачи.
 
