@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Удаление содержимого в службе Power BI
 В этой статье показано, как удалять панели мониторинга, отчеты, книги, наборы данных, приложения, визуализации и рабочие области в службе Power BI.
@@ -141,7 +141,7 @@ ms.lasthandoff: 12/21/2017
 В этой статье описаны способы удаления стандартных блоков службы Power BI. Но в Power BI можно удалить и другие элементы:  
 
 * [Удаление основной информационной панели](service-dashboard-featured.md#change-the-featured-dashboard)
-* [Удаление информационной панели из избранного](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [Удаление информационной панели из избранного](service-dashboard-favorite.md)
 * [Удаление страницы из отчета Power BI](service-delete.md)
 * [Изменение и удаление плитки на информационной панели](service-dashboard-edit-tile.md)
 * [Удаление визуализации в Power BI](service-delete.md)
