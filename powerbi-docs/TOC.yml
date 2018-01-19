@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Задать вопросы о данных
       items:
-        - name: Вопросы и ответы в Power BI
-          href: service-q-and-a.md
-        - name: Работа с функцией "Вопросы и ответы" Power BI
-          href: service-how-to-q-and-a.md
-        - name: Учебник. Приступая к работе с компонентом "Вопросы и ответы" Power BI
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Использование вопросов и ответов с данными шлюза Power BI Gateway — Enterprise (предварительная версия)
-          href: service-q-and-a-direct-query.md
-        - name: Настройка данных для работы с функцией "Вопросы и ответы" в Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Общие сведения о Cortana для Power BI
-          href: service-cortana-intro.md
-        - name: Включение Cortana для Power BI
-          href: service-cortana-enable.md
-        - name: Создание избранных вопросов для функции вопросов и ответов Power BI
-          href: service-q-and-a-create-featured-questions.md
-        - name: Советы и рекомендации по формулировке вопросов в функции "Вопросы и ответы" в Power BI
-          href: service-q-and-a-tips.md
-        - name: Устранение неполадок Cortana
-          href: service-cortana-troubleshoot.md
+        - name: Overview
+          items:
+            - name: Вопросы и ответы в Power BI
+              href: power-bi-q-and-a.md
+            - name: Общие сведения о Cortana для Power BI
+              href: service-cortana-intro.md
+        - name: Краткое руководство
+          items:
+            - name: "Вопросы и ответы по началу работы с Power\_BI"
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Учебники
+          items:
+            - name: Раздел вопросов и ответов поможет вам создать визуализации и отчеты
+              href: power-bi-tutorial-q-and-a.md
+        - name: Инструкции
+          items:
+            - name: Использование вопросов и ответов с данными шлюза Power BI Gateway — Enterprise (предварительная версия)
+              href: service-q-and-a-direct-query.md
+            - name: Настройка данных для работы с функцией "Вопросы и ответы" в Power BI
+              href: service-prepare-data-for-q-and-a.md
+            - name: Включение Cortana для Power BI
+              href: service-cortana-enable.md
+            - name: Создание избранных вопросов для функции вопросов и ответов Power BI
+              href: service-q-and-a-create-featured-questions.md
+        - name: Ресурсы
+          items:
+            - name: Советы и рекомендации по формулировке вопросов в функции "Вопросы и ответы" в Power BI
+              href: service-q-and-a-tips.md
+            - name: Устранение неполадок Cortana
+              href: service-cortana-troubleshoot.md
     - name: Совместное использование работы
       items:
         - name: 'Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?'
