@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 48ba3e679214283875abe27d06032fee20598347
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: 2a65b8b895d6461efa29290dbd9d09639358678d
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -32,10 +32,9 @@ ms.lasthandoff: 12/12/2017
 Вы всегда можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Ежемесячные версии одинаковы, независимо от способа установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 
+## <a name="december-2017-update-2534954481-"></a>Обновление за декабрь 2017 года (2.53.4954.481)
 
-## <a name="november-2017-update-2524921202"></a>Обновление за ноябрь 2017 года (2.52.4921.202)
-
-В ноябре выпущено множество обновлений **Power BI Desktop**. 
+Декабрь принес мешок обновлений для **Power BI Desktop**, полный подарков для детей и взрослых, которые хорошо себя ведут и занимаются бизнес-аналитикой.
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -46,7 +45,62 @@ ms.lasthandoff: 12/12/2017
 
 Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
 
-Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
+В декабре для **Power BI Desktop** появились такие обновления.
+
+### <a name="reporting"></a>Отчеты
+
+-   Обработчик "Вопросы и ответы" для создания отчетов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
+-   Перекрестное выделение закладок [[видео]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
+-   Больше гибкости для закладок [[видео]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[блог] ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   Панель свойств поля и описания поля [[видео]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
+-   Точечная диаграмма, созданная с помощью группирования осей x и y [[видео]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
+-   Высокая плотность выборки для карт на основе широты и долготы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
+-   Адаптивные срезы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
+-   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+
+
+### <a name="analytics"></a>Аналитика
+
+-   Детализирующие фильтры для других визуальных элементов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
+
+
+### <a name="data-connectivity"></a>Подключение к данным
+
+-   Соединитель Adobe Analytics [[видео]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
+-   Соединитель HDInsight для интерактивных запросов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
+-   Соединитель Data.World [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
+-   Улучшения для соединителя SAP BW: [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   Соединитель IBM Netezza теперь общедоступен: [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
+
+
+
+> [!NOTE]
+> Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
+
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+
+Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
+
+## <a name="november-2017-update-2524921202"></a>Обновление за ноябрь 2017 года (2.52.4921.202)
+
+В ноябре мы собрали настоящий урожай обновлений для **Power BI Desktop**. 
+
+Ссылки рядом с каждым обновлением обозначают следующее.
+
+-   Фрагменты **[видео]** воспроизводятся на новой вкладке браузера, когда речь идет о функции.
+-   К некоторым функциям прилагаются **[статьи]**, содержащие дополнительные сведения.
+-   Большинство функций рассматриваются в ежемесячных публикациях об обновлениях в **[блоге]**.
+-   Кроме того, названия некоторых функций говорят сами за себя, поэтому для них не требуются отдельные статьи или видео.
+
+Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
+
+В ноябре для **Power BI Desktop** появились следующие обновления.
 
 ### <a name="reporting"></a>Отчеты
 

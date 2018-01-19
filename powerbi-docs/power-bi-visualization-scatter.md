@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Точечные и пузырьковые диаграммы в Power BI (руководство)
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. Точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно в зависимости от данных.
@@ -75,6 +75,14 @@ ms.lasthandoff: 01/03/2018
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. При необходимости [отформатируйте цвета визуализации, метки, заголовки, фон и другие параметры](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+## <a name="accessibility"></a>Специальные возможности
+
+Теперь вы можете использовать различные *фигуры меток*, чтобы облегчить людям с ограниченными возможностями работу с точечными и пузырьковыми диаграммами. 
+
+Для этого выберите раздел **Формат** в области **Визуализации**, разверните раздел **Фигуры** и выберите фигуру метки, которая вам нужна.
+
+![Фигура метки](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Точечная диаграмма содержит только одну точку данных**

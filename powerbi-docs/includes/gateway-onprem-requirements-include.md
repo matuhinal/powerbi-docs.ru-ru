@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>Требования
 **Минимальные требования**
 
-* .Net Framework 4.5
+* .NET Framework 4.6
 * 64-разрядная версия Windows 7, Windows Server 2008 R2 (и более новые версии)
 
 **Рекомендуемые требования**

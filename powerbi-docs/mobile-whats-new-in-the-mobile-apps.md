@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -31,6 +31,11 @@ ms.lasthandoff: 01/05/2018
 * [Новые возможности службы Power BI](service-whats-new.md)  
 
 ## <a name="december-2017"></a>Декабрь 2017 г.
+
+### <a name="improved-security-management"></a>Улучшенное управление безопасностью 
+
+Мы добавили поддержку условного доступа и управления мобильными устройствами Microsoft Intune (MDM) на устройствах Android для еще более эффективной защиты данных вашей организации. Эти функции уже доступны на iOS.
+
 ### <a name="improved-permission-management"></a>Улучшено управление разрешениями
 
 Мы внесли изменения, которые обеспечивают более точное управление пользовательскими разрешениями для наборов данных, панелей мониторинга и отчетов.

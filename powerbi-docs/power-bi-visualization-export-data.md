@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>Экспорт данных из визуализаций
 Чтобы просмотреть данные, которые используются для создания визуализации, [откройте их в Power BI](service-reports-show-data.md) или экспортируйте в Excel в виде файла с расширением XLSX или CSV.   
@@ -46,7 +46,7 @@ ms.lasthandoff: 12/20/2017
 ## <a name="from-a-visualization-in-a-report"></a>Экспорт из визуализации в отчете
 Для начала откройте [отчет по примеру анализа закупок](sample-procurement.md) в [представлении редактирования](service-reading-view-and-editing-view.md). [Добавьте новую пустую страницу отчета](power-bi-report-add-page.md). Затем выполните следующие действия, чтобы добавить агрегирование и фильтры уровня визуализации.
 
-1. Создайте гистограмму.  В области "Поля" выберите **Location > City** (Расположение > Город) и **Invoice > Discount Percent** (Счет > Процент скидки).   
+1. Создайте гистограмму.  В области "Поля" выберите **Location > City** (Расположение > Город) и **Invoice > Discount Percent** (Счет > Процент скидки).  Возможно, нужно будет переместить **Процент скидки** в область "Значение". 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. Измените тип агрегации для **процента скидки** с **количества** на **среднее значение**. В области значений щелкните стрелку справа от параметра **Discount Percent** (Процент скидки) (он может называться **Count of Discount Percent** (Число процента скидки)) и выберите значение **Average** (Среднее значение).

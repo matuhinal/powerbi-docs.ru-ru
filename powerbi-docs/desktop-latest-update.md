@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: 4fd120b3c44c7a748bdfd42378c3c3aa43e2ad7d
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop
 
-## <a name="december-2017-update-2534954481-"></a>Обновление за декабрь 2017 года (2.53.4954.481)
+## <a name="january-2018-update-2544970761-"></a>Обновление за январь 2018 г. (2.54.4970.761)
 
 Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Ежемесячные версии одинаковы, независимо от способа установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
-Декабрь принес мешок обновлений для **Power BI Desktop**, полный подарков, которые порадуют умных детей и взрослых, склонных к бизнес-аналитике. Обещаем, что уголь не получит никто.
+Мы встречаем новый год с коллекцией обновлений для **Power BI Desktop**, и наше новогоднее желание — продолжить их регулярный выпуск.
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -44,39 +44,33 @@ ms.lasthandoff: 12/12/2017
 
 ### <a name="reporting"></a>Отчеты
 
--   Обработчик "Вопросы и ответы" для создания отчетов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
--   Перекрестное выделение закладок [[видео]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
--   Больше гибкости для закладок [[видео]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[блог] ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
--   Панель свойств поля и описания поля [[видео]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
--   Точечная диаграмма, созданная с помощью группирования осей x и y [[видео]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
--   Высокая плотность выборки для карт на основе широты и долготы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
--   Адаптивные срезы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   Отображение и скрытие страниц [[видео]](https://youtu.be/W8Pp5wuCXJw?t=20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages) 
+-   Управление цветом фона меток данных в визуализациях с декартовыми координатами и сопоставлениями [[видео]](https://youtu.be/W8Pp5wuCXJw?t=3m13s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground) 
+-   Увеличение размера области, используемой для меток осей на диаграммах [[видео]](https://youtu.be/W8Pp5wuCXJw?t=5m10s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize) 
+-   Управление отступами столбцов [[видео]](https://youtu.be/W8Pp5wuCXJw?t=6m40s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding) 
+-   Отображение дат в виде иерархии (предварительная версия) [[видео]](https://youtu.be/W8Pp5wuCXJw?t=7m41s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
+-   Добавление даты привязки для среза относительных дат [[видео]](https://youtu.be/W8Pp5wuCXJw?t=9m22s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
+-   Выбор первых N-элементов в вопросах и ответах [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
+-   Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>Аналитика
 
--   Детализирующие фильтры для других визуальных элементов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
-
+-   Быстрая мера коэффициента корреляции [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
--   Соединитель Adobe Analytics [[видео]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
--   Соединитель HDInsight для интерактивных запросов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
--   Соединитель Data.World [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
--   Улучшения для соединителя SAP BW: [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
--   Соединитель IBM Netezza теперь общедоступен: [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
-
+-   Поддержка проверки подлинности Azure Active Directory для базы данных SQL Azure и соединителей хранилища данных [[видео]](https://youtu.be/W8Pp5wuCXJw?t=21m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
 
 
 > [!NOTE]
 > Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
 
-Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
 
 Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
