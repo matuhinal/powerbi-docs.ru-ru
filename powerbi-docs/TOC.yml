@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: 'Локальный шлюз данных: подробный обзор'
           href: service-gateway-onprem-indepth.md
+        - name: Кластеры с высоким уровнем доступности для локальных шлюзов данных
+          href: service-gateway-high-availability-clusters.md
         - name: Вопросы и ответы о локальном шлюзе данных
           href: service-gateway-onprem-faq.md
         - name: Локальный шлюз данных (персональный режим)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: Использование параметров What if
           href: desktop-what-if.md
+        - name: Использование детализации
+          href: desktop-drillthrough.md
+        - name: Использование среза и фильтра относительных дат
+          href: desktop-slicer-filter-date-range.md
         - name: Специальные возможности в отчетах Power BI
           href: desktop-accessibility.md
         - name: Использование группирования и разделения на ячейки
