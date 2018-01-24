@@ -34,7 +34,7 @@ ms.lasthandoff: 12/06/2017
 * Узнайте, [как создавать впечатляющие отчеты](https://www.youtube.com/watch?v=ByIUx-HmQbw) с помощью Power BI Desktop.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>
-*Получите представление о том, как [импортировать, обрабатывать и преобразовывать данные с помощью редактора запросов](https://www.youtube.com/watch?v=ByIUx-HmQbw) в Power BI Desktop.
+* Получите представление о том, как [импортировать, обрабатывать и преобразовывать данные с помощью редактора запросов](https://www.youtube.com/watch?v=ByIUx-HmQbw) в Power BI Desktop.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
 
