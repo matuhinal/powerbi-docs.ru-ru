@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Создание и публикация пакета содержимого организации (руководство)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Совместное использование информационной панели с коллегами и другими пользователями
+        - name: Совместное использование информационных панелей и отчетов
           href: service-share-dashboards.md
-        - name: Совместное использование отчета с коллегами
+        - name: Поделиться отфильтрованным отчетом
           href: service-share-reports.md
         - name: Публикация из Power BI в Интернет
           href: service-publish-to-web.md
