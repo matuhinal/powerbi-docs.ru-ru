@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: fb2ebb35dd8a43d477bb300b7f601dd358339450
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Подключение к Marketo с помощью Power BI
 Пакет содержимого Power BI для Marketo позволяет получить подробные сведения об учетной записи Marketo с данными о потенциальных клиентах и их действиях. При создании этого подключения вы извлечете данные и автоматически получите панель мониторинга и связанные отчеты на основе этих данных.
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/15/2017
 
 **Дальнейшие действия**
 
-* Попробуйте [задать вопрос в поле "Вопросы и ответы"](service-q-and-a.md) в верхней части информационной панели.
+* Попробуйте [задать вопрос в поле "Вопросы и ответы"](power-bi-q-and-a.md) в верхней части информационной панели.
 * [Измените плитки](service-dashboard-edit-tile.md) на информационной панели.
 * [Выберите плитку](service-dashboard-tiles.md), чтобы открыть соответствующий отчет.
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.

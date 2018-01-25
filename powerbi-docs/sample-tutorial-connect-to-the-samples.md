@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 6d043f21635308def7b119c072a7f99c118e901d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d92edce9ae1332c4a0c73be5db93201c9b87dc86
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="the-power-bi-samples-a-tutorial"></a>Руководство по использованию примеров Power BI
 <!-- Shared newnav Include -->
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/15/2017
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Если плитка была создана с помощью функции [Вопросы и ответы](service-q-and-a.md) Power BI, вместо отчета откроется страница вопросов и ответов.
+   > Если плитка была создана с помощью функции [Вопросы и ответы](power-bi-q-and-a.md) Power BI, вместо отчета откроется страница вопросов и ответов.
    > 
    > 
 4. Вернитесь на вкладку **Наборы данных**. Набор данных можно изучить несколькими способами.  Вы не сможете открыть его и просмотреть все строки и столбцы (как это можно сделать в Power BI Desktop или Excel).  Когда пользователи предоставляют коллегам общий доступ к пакету содержимого, обычно они хотят поделиться аналитическими сведениями, а не предоставить прямой доступ к данным. Но это не означает, что вы не можете просматривать этот набор данных.  

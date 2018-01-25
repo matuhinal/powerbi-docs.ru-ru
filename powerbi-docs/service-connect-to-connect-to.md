@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: c53c7f5e0748e186c68bcc2642b381cf17c423eb
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b97dd32a3b6b075509c15dd1c1df5009c99e5f0b
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Подключение к comScore Digital Analytix с помощью Power BI
 Визуальное представление и исследование данных comScore Digital Analytix в Power BI с помощью пакета содержимого для Power BI. Данные автоматически обновляются раз в день.
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/15/2017
 
 **Дальнейшие действия**
 
-* Попробуйте [задать вопрос в поле "Вопросы и ответы"](service-q-and-a.md) в верхней части информационной панели.
+* Попробуйте [задать вопрос в поле "Вопросы и ответы"](power-bi-q-and-a.md) в верхней части информационной панели.
 * [Измените плитки](service-dashboard-edit-tile.md) на информационной панели.
 * [Выберите плитку](service-dashboard-tiles.md), чтобы открыть соответствующий отчет.
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.

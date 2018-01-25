@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: aeb22c23b0ef22afd44592c1ceb90537878042d9
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Изменение порядка сортировки диаграммы в отчете Power BI
 В отчете Power BI можно сортировать большую часть визуализаций в алфавитном порядке по названиям категорий в диаграмме или числовым значениям в каждой категории. Например, эта диаграмма отсортирована по названию магазина.
@@ -32,11 +32,12 @@ ms.lasthandoff: 12/21/2017
 
 1. Щелкните многоточие (…) и выберите **Sort by Sales Per Sq Ft** (Сортировать по продажам на квадратный метр).
 2. При необходимости выберите значок сортировки ![](media/power-bi-report-change-sort/sorticon.png), чтобы изменить порядок сортировки на **По убыванию**.
-   
+
    ![](media/power-bi-report-change-sort/sortby.gif)
-   
+
    **Примечание**. Отсортировать можно лишь некоторые визуальные элементы.  Например, нельзя отсортировать следующие визуальные элементы: диаграмма-дерево, карта, картограмма, точечная диаграмма, индикаторная диаграмма, карточка, многострочная карточка, каскадная диаграмма.
 
+<a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Сортировка с использованием других условий
 Иногда необходимо отсортировать визуальный элемент с помощью другого поля или условия.  Например, можно сортировать по месяцу (а не по алфавиту) или по всем числам, а не только цифрам (например, 0, 1, 9, 20, а не 0, 1, 20, 9).  
 
@@ -52,4 +53,3 @@ ms.lasthandoff: 12/21/2017
 [Power BI — основные понятия](service-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

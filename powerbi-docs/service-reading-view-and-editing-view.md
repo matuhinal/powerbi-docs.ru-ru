@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Режимы чтения и правки в отчетах службы Power BI
 В службе Power BI (не в Power BI Desktop) есть два режима для просмотра и взаимодействия с отчетами: чтения и правки. Режим чтения доступен для всех и специально разработан для *пользователей* данных, а режим правки доступен только *авторам* и владельцам отчетов. 
@@ -56,7 +56,7 @@ ms.lasthandoff: 01/09/2018
 | [Параметры **просмотра** отчетов](power-bi-report-display-settings.md) | Да, за некоторыми исключениями. | Да, все, включая линии сетки, привязку и блокировку. |
 | [Создание расписания обновления](refresh-data.md) | Нет  | Да |
 | [Подписка для получения отчета](service-report-subscribe.md) | Да | Нет |
-| [Функция "Вопросы и ответы" — возможность задавать вопросы в отчетах](service-q-and-a.md) | Нет  | Да |
+| [Функция "Вопросы и ответы" — возможность задавать вопросы в отчетах](power-bi-q-and-a.md) | Нет  | Да |
 | [Просмотр метрик использования](service-usage-metrics.md) | Да, на холсте отчета. | Да, в списке отчетов (в представлении содержимого). |
 | [Просмотр связанных данных](service-related-content.md) | Да, на холсте отчета. | Да, в списке отчетов (в представлении содержимого). |
 | [Сохранение отчета](service-report-save.md) | Да, но только с помощью параметра **Сохранить как**. | Да |

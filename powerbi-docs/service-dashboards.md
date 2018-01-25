@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Панели мониторинга в службе Power BI
 
@@ -82,7 +82,7 @@ ms.lasthandoff: 11/17/2017
 * Узнайте, что такое [плитки панели мониторинга](service-dashboard-tiles.md) и что произойдет, если выбрать одну из них.
 * Не нравится внешний вид панели мониторинга?  Вы можете [изменять размер ее плиток, а также перемещать и переименовывать их](service-dashboard-edit-tile.md).
 * Хотите отслеживать отдельную плитку панели мониторинга и получать сообщения электронной почты при достижении определенного порога? [Создавайте оповещения, связанные с плитками](service-set-data-alerts.md).
-* Не стесняйтесь задавать вопросы о панели мониторинга. Узнайте, как использовать функцию ["Вопросы и ответы" Power BI](service-how-to-q-and-a.md), задавайте вопросы о своих данных и получайте ответы в виде визуализации.
+* Не стесняйтесь задавать вопросы о панели мониторинга. Узнайте, как использовать функцию ["Вопросы и ответы" Power BI](power-bi-tutorial-q-and-a.md), задавайте вопросы о своих данных и получайте ответы в виде визуализации.
 
 > [!TIP]
 > Если здесь вы не нашли ответ на интересующий вас вопрос, используйте оглавление, расположенное слева.

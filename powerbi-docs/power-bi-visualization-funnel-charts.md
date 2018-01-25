@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/29/2018
 ms.author: mihart
-ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 5447b23f7d7dd50bf0d9f9e0cfcc84ea9ad0cc8a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Воронкообразные диаграммы (руководство)
 Воронкообразная диаграмма позволяет визуализировать линейный процесс, который имеет последовательные связанные этапы. Например, воронка продаж, которая отслеживает клиентов по этапам: "Интерес" \> "Соответствующий интерес" \> "Потенциальный клиент" \> "Контракт" \> "Закрыто".  Форма воронки визуально передает состояние отслеживаемого процесса.
@@ -54,7 +54,7 @@ ms.lasthandoff: 01/03/2018
 ## <a name="create-a-basic-funnel-chart"></a>Создание простой воронкообразной диаграммы
 Посмотрите это видео, чтобы увидеть, как Уилл создает воронкообразную диаграмму на основе примера "Продажи и маркетинг".
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/maTzOJSRB3g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Создайте собственную воронкообразную диаграмму, показывающую количество возможных сделок на этапах продаж.
