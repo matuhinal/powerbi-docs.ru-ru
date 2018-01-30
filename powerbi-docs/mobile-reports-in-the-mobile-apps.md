@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Область применения:
@@ -50,7 +50,7 @@ ms.lasthandoff: 11/15/2017
   ![Мобильный отчет в альбомном режиме](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Просмотр отчетов, оптимизированных для телефона
-Можно создать макет отчета Power BI, оптимизированный для телефонов. В списке оптимизированный отчет отмечен специальным значком ![Значок "Мобильный отчет"](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Можно создать макет отчета Power BI, оптимизированный для телефонов. Для страниц отчетов, оптимизированных для телефонов, добавлены новые возможности. Например, можно детализировать и сортировать визуальные элементы в режиме фокусировки и получать доступ к [фильтрам, который добавил на страницу отчета автор отчета](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). В списке оптимизированный отчет отмечен специальным значком ![Значок отчета для телефона](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Открытие мобильного отчета](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 11/15/2017
 
 ![Отчет в книжной ориентации](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Отчет может содержать ряд страниц, не оптимизированных для телефонов. В таком случае представление для каждой страницы будет переключаться с книжной в альбомную ориентацию.
+ Отчет может содержать ряд страниц, не оптимизированных для телефонов. В таком случае представление для каждой страницы будет переключаться с книжной в альбомную ориентацию.
 
 Узнайте больше об [отчетах, оптимизированных для представления телефона](mobile-apps-view-phone-report.md).
 

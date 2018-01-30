@@ -15,31 +15,36 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: c29ea77eab09657b5c21fe97322464523b0621dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4ef3991fc285adc84cdcb5efca00c2f9486e9825
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi-videos"></a>Видео о службе Power BI
 У нас есть канал YouTube для Power BI! Вы можете посетить [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видеороликов, посвященных анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
 
-* В этом видео приведено несколько советов по оптимизации данных для Power BI. Узнайте, как лучше всего форматировать ваши данные перед их отправкой в службу.
+Вот несколько видео из этого списка воспроизведения, которые помогут вам начать работу.
+
+* Обзор службы Power BI и Power BI Desktop
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
-* Передача файлов с локального компьютера в Power BI осуществляется легко и быстро. Здесь вы можете узнать об этом подробнее!
+* Совместная работа и совместное использование
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ETj-z3NyY_o" frameborder="0" allowfullscreen></iframe>
-* OneDrive — это отличный способ подключения к данным и поддержания их в актуальном состоянии.
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5DABLeJzQYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+* Общие Power BI для мобильных устройств
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/6cOjiV_klrs" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+* Power BI для разработчиков
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Ознакомьтесь с нашими новыми загрузками
-* [Логика операций со временем](https://youtu.be/MNAaHw4PxzE)
-* [Группирование данных и их разделение](https://youtu.be/51n2itS7K5I)
-* [SAP HANA](https://youtu.be/FOjJLvsIACc)
+* [Date slicer](https://youtu.be/V7i82ZZm0vw) (Срез дат)
+* [Custom Visuals store](https://youtu.be/d-rXAJ3_uAo) (Магазин пользовательских визуализаций)
+* [Alerts in the Power BI service](https://youtu.be/JbL2-HJ8clE) (Оповещения в службе Power BI)
 
 ## <a name="more-videos"></a>Другие видео
 Предлагаем вам следующую подборку видеоматериалов.

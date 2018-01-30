@@ -1,5 +1,5 @@
 ---
-title: "Экспорт отчета службы Power BI для использования в приложении Power BI Desktop (предварительная версия)"
+title: "Как экспортировать отчет службы Power BI в приложение Power BI Desktop (предварительная версия)"
 description: "Скачивание отчета из службы Power BI в файл Power BI Desktop"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 30975e9192633043aed7e4196820ef34044b8fcb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Экспорт отчета службы Power BI для использования в приложении Power BI Desktop (предварительная версия)
-В Power BI Desktop можно экспортировать отчет в службу Power BI, сохранив отчет и выбрав **Опубликовать**. Процедуру экспорта отчета также называют *скачиванием*. Отчет можно экспортировать и в обратном направлении. Кроме того, отчет можно скачать из службы Power BI и использовать в приложении Power BI Desktop. Файлы, экспортируемые в обоих направлениях, имеют расширение *PBIX*.
+В Power BI Desktop можно экспортировать отчет в службу Power BI, сохранив отчет и выбрав **Опубликовать**. Процедуру экспорта отчета также называют *скачиванием*. Отчет можно экспортировать и в обратном направлении. Кроме того, отчет можно скачать из службы Power BI и использовать в приложении Power BI Desktop. Файлы, экспортируемые в двух направлениях, имеют расширение *PBIX*.
 
 Существует ряд ограничений и рекомендации, которые мы рассмотри далее в этой статье.
 
@@ -45,14 +45,15 @@ ms.lasthandoff: 11/13/2017
     ![](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Теперь вы можете открыть PBIX-файл в службе Power BI (app.powerbi.com) или в приложении Power BI Desktop.     
-4. Чтобы сразу открыть отчет в Power BI Desktop, щелкните **Открыть**.  [Установите Power BI Desktop](desktop-get-the-desktop.md), если вы это еще не сделали.
+4. Чтобы сразу открыть отчет в Power BI Desktop, щелкните **Открыть**. Чтобы сохранить файл в конкретном месте, выберите **Сохранить > Сохранить как**. [Установите Power BI Desktop](desktop-get-the-desktop.md), если вы это еще не сделали.
    
     Когда вы откроете отчет в приложении Power BI Desktop, возможно, отобразится сообщение с предупреждением, что некоторые функции отчета, доступные в службе Power BI, могут быть недоступными в Power BI Desktop.
    
     ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
-5. Чтобы открыть отчет в службе Power BI, щелкните **Сохранить**, а затем — **Получить данные**, чтобы перейти в расположение, где сохранен PBIX- файл.
+
+5. Редактор отчетов в приложении Power BI Desktop очень похож на редактор отчетов в службе Power BI.  
    
-    ![](media/service-export-to-pbix/power-bi-get-data.png)
+    ![](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 Во время скачивания (экспорта) *PBIX*-файла из службы Power BI следует учесть несколько важных рекомендаций и ограничений.

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Этот раздел посвящен *использованию* карты ArcGIS в службе Power BI Desktop или версии службы для мобильных устройств. Как только автор предоставит вам общий доступ к карте ArcGIS, у вас появится множество возможностей взаимодействия с ней.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании ESRI](power-bi-visualization-arcgis.md).
@@ -31,7 +31,6 @@ ms.lasthandoff: 01/09/2018
 
 > [!TIP]
 > GIS — это наука о географической информации.
-> 
 > 
 
 Для этого примера используется карта ArcGIS, созданная в [руководстве по использованию карт ArcGIS компании ESRI](power-bi-visualization-arcgis.md). В ней представлены данные продаж по городам за предыдущий год. За основу взята базовая карта улиц, используются пузырьковые символы со значениями размера и ссылочный слой среднего дохода на семью. Предусмотрена возможность трех закреплений и одного расчета области для поездки на автомобиле за определенный период (фиолетовый участок).
@@ -99,7 +98,7 @@ ms.lasthandoff: 01/09/2018
 <td>Да</td>
 </tr>
 <tr>
-<td>Служба Power BI (PowerBI.com)</td>
+<td>Служба Power BI (app.powerbi.com)</td>
 <td>Да</td>
 </tr>
 <tr>

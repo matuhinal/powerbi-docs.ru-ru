@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
 Постепенно мы будем добавлять новые визуализации, следите за обновлениями!
 
-Перейдите в [Магазин Office](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), где находится постоянно пополняющийся список визуальных элементов, которые можно скачать и использовать в своих панелях мониторинга и отчетах. Чувствуете творческий порыв? [Узнайте, как создавать свои собственные визуальные элементы и добавлять их на веб-сайт сообщества](developer/office-store.md).  
+Перейдите в [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), где находится постоянно пополняющийся список [ пользовательских визуальных элементов](power-bi-custom-visuals.md), которые можно скачать и использовать в своих панелях мониторинга и отчетах. Чувствуете творческий порыв? [Узнайте, как создавать свои собственные визуальные элементы и добавлять их на сайт сообщества](developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Список визуализаций, доступных в Power BI
 Все эти представления могут быть добавлены в отчеты Power BI, указанные в вопросах и ответах, и закреплены на панелях мониторинга.
@@ -88,7 +88,7 @@ ms.lasthandoff: 01/03/2018
 
 Дополнительные сведения см. в разделе [Tutorial: Gauge Charts in Power BI](power-bi-visualization-radial-gauge-charts.md) (Учебник: индикаторные диаграммы в Power BI).
 
-### <a name="kpis"></a>ключевые показатели эффективности;
+### <a name="kpis"></a>Ключевые показатели эффективности
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
