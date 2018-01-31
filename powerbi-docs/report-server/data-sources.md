@@ -3,7 +3,7 @@ title: "Источники данных отчетов Power BI в решени�
 description: "Отчеты Power BI можно подключать к различным источникам данных. В зависимости от способа использования данных доступны различные источники данных."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: dfdb0aebfd86854e756003d188a5b92fd8370fc1
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: caa45aab2c31974abb041a82eb2216ebee2eb148
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к различным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
