@@ -3,7 +3,7 @@ title: "Устранение неполадок внедренного прил�
 description: "В этой статье описаны распространенные проблемы, которые могут возникнуть при внедрении содержимого из Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 1/17/2018
-ms.author: asaxton
-ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.author: maghan
+ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Устранение неполадок внедренного приложения
 

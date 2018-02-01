@@ -3,7 +3,7 @@ title: "Доступ к общим наборам данных в решении
 description: "Отчеты Power BI можно подключать к различным источникам данных. В зависимости от способа использования данных доступны различные источники данных."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/05/2018
 ms.author: maghan
-ms.openlocfilehash: c3a9cbd22f2304d19ae876962d0bf798fbd41183
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 00a58e72e932398453f1a674be82a67c1054f98a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Доступ к общим наборам данных в решении "Сервер отчетов Power BI" через веб-каналы OData
 Вы можете получить доступ к общим наборам данных из Power BI Desktop, используя веб-канал OData.

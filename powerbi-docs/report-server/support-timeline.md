@@ -3,7 +3,7 @@ title: "Сроки предоставления поддержки для сер
 description: "Список версий и доступность сервера отчетов Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/04/2017
 ms.author: maghan
-ms.openlocfilehash: af1776e2f14f678569ae55d8bc05c7197475497f
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: d5696e76f12af65627fe8166d330b0b7f444f4d2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Сроки предоставления поддержки для сервера отчетов Power BI
 Выпуск сервера отчетов Power BI ожидается несколько раз в год. Критические обновления и обновления для системы безопасности будут предоставляться до следующего выпуска общедоступной версии. После следующего выпуска предыдущая версия будет и дальше получать обновления для системы безопасности на протяжении времени существования выпуска (12 месяцев).

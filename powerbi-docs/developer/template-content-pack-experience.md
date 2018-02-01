@@ -3,7 +3,7 @@ title: "Возможности пакетов содержимого шабло�
 description: "Возможности шаблонного пакета содержимого"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: bf7dbb16a1b84ab4045a1de4d80199c8d27e682a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: fb1aaded94ce5411cf26257a1e561125cec9a347
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Возможности пакетов содержимого шаблонов в Power BI
 В этом разделе описываются типичные возможности для пользователя, подключающегося к [пакету содержимого](../service-connect-to-services.md) независимого поставщика программного обеспечения. 

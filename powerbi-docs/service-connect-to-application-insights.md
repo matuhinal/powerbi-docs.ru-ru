@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: fe4b35a6132a1d36f48e54e1c779454009402340
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: 0ec1ca9bccabd923b67fc1f49da4b7321ba11141
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Подключение к Application Insights с помощью Power BI
 Используйте Power BI для создания эффективных пользовательских панелей мониторинга на базе телеметрии [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Взгляните на данные телеметрии вашего приложения под новым углом. Сочетайте метрики из нескольких приложений или служб компонентов на одной информационной панели. Этот первый выпуск пакета содержимого Power BI для Application Insights включает в себя мини-приложения для распространенных метрик использования, например активных пользователей, просмотра страниц, сеансов, версии браузера и ОС, а также географического распределения пользователей на карте.
@@ -61,22 +61,24 @@ ms.lasthandoff: 01/19/2018
 ## <a name="whats-included"></a>Содержимое
 Пакет содержимого Application Insights включает следующие таблицы и метрики:  
 
-    - ApplicationDetails;  
-    - UniqueUsersLast7Days;   
-    - UniqueUsersLast30Days;   
-    - UniqueUsersDailyLast30Days;  
-    - UniqueUsersByCountryLast7Days;  
-    - UniqueUsersByCountryLast30Days;   
-    - PageViewsDailyLast30Days;   
-    - SessionsLast7Days;   
-    - SessionsLast30Days;  
-    - PageViewsByBrowserVersionDailyLast30Days;   
-    - UniqueUsersByOperatingSystemLast7Days;   
-    - UniqueUsersByOperatingSystemLast30Days;    
-    - SessionsDailyLast30Days;   
-    - SessionsByCountryLast7Days;   
-    - SessionsByCountryLast30Days;   
-    - PageViewsByCountryDailyLast30Days.   
+     ´´´
+    - ApplicationDetails  
+    - UniqueUsersLast7Days   
+    - UniqueUsersLast30Days   
+    - UniqueUsersDailyLast30Days  
+    - UniqueUsersByCountryLast7Days  
+    - UniqueUsersByCountryLast30Days   
+    - PageViewsDailyLast30Days   
+    - SessionsLast7Days   
+    - SessionsLast30Days  
+    - PageViewsByBrowserVersionDailyLast30Days   
+    - UniqueUsersByOperatingSystemLast7Days   
+    - UniqueUsersByOperatingSystemLast30Days    
+    - SessionsDailyLast30Days   
+    - SessionsByCountryLast7Days   
+    - SessionsByCountryLast30Days   
+    - PageViewsByCountryDailyLast30Days  
+   ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 

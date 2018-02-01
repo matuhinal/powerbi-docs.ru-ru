@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 719bc102efe27261d69da80917655c6043058d92
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 47abc345d773fe9274a1dc814b7799a956e909fc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Устранение проблем импорта файлов Access и XLS в Power BI Desktop
 В **Power BI Desktop** как **базы данных Access**, так и **книги Excel** предыдущих версий (XLS-файлы типа Excel 2007–2003) используют *ядро СУБД Access*. Правильная работа ядра СУБД Access может нарушаться в трех распространенных случаях.
