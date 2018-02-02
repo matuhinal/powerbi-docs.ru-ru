@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 6fb91243415063f3a9fafc197e14ebb39bc3cc0b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad803107e158ac22068422d49ed3fff840fd0c5f
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Подключение к многомерным моделям SSAS в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к **многомерным моделям SSAS**, которые обычно называются **SSAS MD**.
@@ -85,7 +85,7 @@ Power BI также может выводить изображения при н
 На использование **SSAS MD**налагаются некоторые ограничения.
 
 * Для правильной работы соединителя SSAS MD Power BI Desktop на серверах должны работать службы Analysis Services SQL Server 2012 с пакетом обновления 1 (SP1) и накопительным пакетом обновления 4 (CU4) или более поздней версии
-* Из Power BI недоступны *действия* и *именованные наборы* , но вы можете подключаться к кубам, которые их содержат, и создавать визуальные элементы и отчеты. ****
+* Из Power BI недоступны *действия* и *именованные наборы* , но вы можете подключаться к кубам, которые их содержат, и создавать визуальные элементы**и**отчеты.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Поддерживаемые возможности для работы с многомерными моделями SSAS в Power BI Desktop
 В Power BI Desktop поддерживаются перечисленные ниже возможности для работы с многомерными моделями SSAS.
