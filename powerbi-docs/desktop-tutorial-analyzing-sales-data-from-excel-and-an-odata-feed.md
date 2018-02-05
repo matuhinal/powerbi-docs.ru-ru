@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Учебник. Анализ данных о продажах из Excel и веб-канала OData
 С помощью **Power BI Desktop** можно подключаться к различным источникам данных, объединять и обрабатывать их способами, которые упрощают создание интересных, привлекательных объектов анализа данных и визуализаций. В этом учебнике вы узнаете, как объединить данные из двух источников данных. 
@@ -140,7 +140,7 @@ Power BI Desktop позволяет создавать вычисления на
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>Шаг 5. Установка типа данных поля LineTotal
 1. Щелкните правой кнопкой мыши столбец **LineTotal** .
-2. Выберите команду **Изменить тип** и выберите **"Десятичное число".
+2. Выберите команду **Изменить тип** и выберите **Десятичное число**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Power BI Desktop позволяет взаимодействовать с виз
 * [Посмотрите видеоматериалы по Power BI Desktop.](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Посетите форум Power BI.](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Прочитайте блог, посвященный Power BI.](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Настройка заголовков визуализаций, условных обозначений и фона (руководство)
 В этом руководстве описано несколько способов настройки визуализации.   Есть множество возможностей для настройки визуализации. Проще всего изучить их, используя панель форматирования (выберите значок валика).  Из этой статьи вы узнаете, как приступить к работе и настроить заголовок визуализации, условные обозначения и фон.  
@@ -33,9 +33,12 @@ ms.lasthandoff: 11/15/2017
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Предварительные требования
+- Служба Power BI или Power BI Desktop
+- Анализ розничной торговли — образец
 
 ## <a name="customize-visualization-titles-in-reports"></a>Настройка заголовка визуализации в отчете
-Чтобы продолжить, войдите в app.powerbi и откройте отчет [Анализ розничной торговли — пример](sample-datasets.md) в [режиме правки](service-interact-with-a-report-in-editing-view.md).
+Чтобы продолжить, войдите в службу Power BI (app.powerbi.com) и откройте отчет [Анализ розничной торговли — пример](sample-datasets.md) в [режиме правки](service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
 > При закреплении визуализации на информационной панели она становится плиткой.  Для самой плитки можно настроить [подпись, подзаголовок, гиперссылку, а также изменить ее размер](service-dashboard-edit-tile.md).
@@ -120,7 +123,6 @@ ms.lasthandoff: 11/15/2017
 | каскадная диаграмма |да |да |да |
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).  
 [Настройка осей X и Y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Настройка цветов и свойств оси](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI — основные понятия](service-basic-concepts.md)  

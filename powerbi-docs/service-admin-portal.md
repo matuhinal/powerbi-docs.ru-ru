@@ -3,7 +3,7 @@ title: "Портал администрирования Power BI"
 description: "Портал администрирования служит для управления клиентами Power BI в организации. Он включает такие элементы, как метрики использования, доступ к Центру администрирования Office 365 и настройки."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.date: 01/02/2018
+ms.author: maghan
+ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-admin-portal"></a>Портал администрирования Power BI
 
@@ -209,6 +209,16 @@ ms.lasthandoff: 12/18/2017
 ### <a name="user-arcgis-maps-for-power-bi-preview"></a>Параметр User ArcGIS Maps for Power BI (Preview) (Использовать карты ArcGIS для Power BI (предварительная версия))
 
 Пользователи в организации могут использовать визуализацию карт ArcGIS для Power BI (предварительная версия) от Esri. [Дополнительные сведения](power-bi-visualization-arcgis.md)
+
+
+## <a name="custom-visuals-settings"></a>Параметры настраиваемых визуальных элементов
+### <a name="enable-custom-visuals-for-the-entire-organization"></a>Включение настраиваемых визуальных элементов для всей организации
+Пользователи в организации могут взаимодействовать с настраиваемыми визуальными элементами. [Дополнительные сведения](power-bi-custom-visuals.md)
+
+![Параметры настраиваемых визуальных элементов](media/service-admin-portal/powerbi-admin-custom-visuals.png)
+
+> [!NOTE]
+> Этот параметр применяется ко всей организации и не ограничивается определенными группами.
 
 ## <a name="r-visuals-settings"></a>Вкладка "Параметры визуальных элементов R"
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -47,13 +47,15 @@ ms.lasthandoff: 12/18/2017
 
 >[Посетите предстоящие вебинары сообщества Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [Improving Profitability in Healthcare - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Повышение рентабельности в здравоохранении —12.12.17 г.)
+Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
 
 ## <a name="on-demand-webinars"></a>Вебинары по запросу
 
 Записанные сеансы доступны в любое время.
 
 >[Просмотрите библиотеку вебинаров Power BI по запросу от экспертов нашего сообщества](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [Improving Profitability in Healthcare](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Повышение рентабельности в здравоохранении)
 
 - [How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website) (Как реализовать успешную стратегию управления данными, которая поможет обеспечить безопасность в организации)
 

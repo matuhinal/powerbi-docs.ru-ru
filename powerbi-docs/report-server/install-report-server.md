@@ -3,7 +3,7 @@ title: "Установка сервера отчетов Power BI"
 description: "Узнайте, как установить сервер отчетов Power BI. "
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 93a91ae70a43281f9a30292adb8bcdffb3033223
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -29,7 +29,9 @@ ms.lasthandoff: 01/06/2018
 
  **Скачать** ![скачать](media/install-report-server/download.png "скачать")
 
-Чтобы скачать сервер отчетов Power BI, перейдите к разделу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/). Чтобы скачать версию Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите в [Центр загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=837581).
+Чтобы скачать сервер отчетов Power BI, перейдите к разделу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/). 
+
+Вы также можете перейти непосредственно в Центр загрузки Майкрософт, чтобы скачать приложение [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (оптимизировано для решения "Сервер отчетов Power BI" в октябре 2017 г.).
 
 ![Совет](media/install-report-server/fyi-tip.png "Совет"). См. [заметки о текущем выпуске сервера отчетов Power BI](release-notes.md).
 

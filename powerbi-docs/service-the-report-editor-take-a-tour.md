@@ -1,5 +1,5 @@
 ---
-title: "Знакомство с редактором отчетов"
+title: "Краткое руководство. Знакомство с редактором отчетов"
 description: "Знакомство с редактором отчетов"
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Знакомство с редактором отчетов
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Изменение отчетов в службе Power BI и Power BI Desktop
 Редакторы отчетов в службе Power BI и Power BI Desktop очень похожи. Видео описывает использование редактора отчетов в службе Power BI, а статья — использование в службе Power BI Desktop. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Разница между *авторами* отчетов и пользователями, которые их *используют*
+Создавать и изменять отчеты могут только их владельцы (то есть *авторы*). Если вы *используете* отчет, к которому вам предоставлен общий доступ, вы можете открыть его и работать с ним в службе Power BI только в [режиме чтения](service-reading-view-and-editing-view.md). Но у вас не будет доступа ко всем функциям, доступным автору отчета.  
+
+Дополнительные сведения о режиме чтения см. в статье [Режимы чтения и правки в отчетах службы Power BI](service-reading-view-and-editing-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-В службе Power BI *редактор отчетов* доступен только в [режиме правки](service-reading-view-and-editing-view.md). Чтобы открыть отчет в режиме правки, необходимо быть его владельцем.
+В службе Power BI *редактор отчетов* доступен только в [режиме правки](service-reading-view-and-editing-view.md). Чтобы открыть отчет в режиме правки, необходимо быть его владельцем или автором.
 
 Редактор отчетов Power BI состоит из 3 разделов:  
 
@@ -87,7 +93,9 @@ ms.lasthandoff: 11/13/2017
 
 - - -
 ## <a name="the-filters-pane"></a>Панель "Фильтры"
-Эта панель используется для просмотра, создания и настройки фильтров уровня страницы, отчета, подробных сведений и визуального элемента.
+Используйте панель "Фильтры", чтобы просматривать, создавать и настраивать сохраняемые фильтры в отчетах на уровне страницы, отчета, подробных сведений и визуального элемента. Вы также можете применять специальную фильтрацию к страницам отчетов и визуализациям путем выбора элементов визуализации или с помощью срезов. Но если для этого использовать панель "Фильтры", состояние фильтрации сохранится вместе с отчетом. 
+
+На панели "Фильтры" есть другая эффективная функция — фильтрация по полю, ***которое не используется ни в одном визуальном элементе в отчете***. Я объясню. Когда вы создаете страницу отчета, Power BI автоматически добавляет все поля, используемые в визуализациях, в область фильтров визуальных элементов на панели "Фильтры".  Но если нужно создать фильтр визуального элемента, страницы, подробных сведений или отчета с помощью поля, которое сейчас не используется в визуализации, просто перетащите его в один из контейнеров фильтров.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ ms.lasthandoff: 11/13/2017
 ## <a name="next-steps"></a>Дальнейшие действия:
 [Создание отчета](service-report-create-new.md)
 
-[Изменение отчета](service-interact-with-a-report-in-editing-view.md)
-
-Дополнительные сведения об [отчетах в Power BI](service-reports.md)
-
-[Приступая к работе с Power BI](service-get-started.md)
+Дополнительные сведения об отчетах в [службе Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) и [Power BI Mobile](mobile-apps-view-phone-report.md).
 
 [Power BI — основные понятия](service-basic-concepts.md)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Экспорт отчетов из Power BI в PowerPoint (предварительная версия)
 Служба Power BI позволяет опубликовать отчет в программе **Microsoft PowerPoint** и без труда создать на его основе набор слайдов. При **экспорте в PowerPoint** происходит следующее:
@@ -89,7 +89,9 @@ ms.lasthandoff: 01/23/2018
 * Страницы в PowerPoint всегда создаются в стандартном размере 16:9 независимо от размеров или параметров исходной страницы в отчете Power BI.
 * Отчеты, принадлежащие пользователям вне домена клиента Power BI (например, отчет, принадлежащий пользователю не из вашей организации, к которому он предоставил вам доступ), нельзя опубликовать в PowerPoint.
 * Если вы совместно используете панель мониторинга с кем-либо не из вашей организации (то есть этот пользователь находится вне клиента Power BI), этот пользователь не сможет экспортировать отчеты, связанные с общей панелью мониторинга, в PowerPoint. Например, если вы aaron@contoso.com, вы сможете предоставить общий доступ david@cohowinery.com. Но david@cohowinery.com не может экспортировать связанные отчеты в PowerPoint.
-* Как упоминалось ранее, каждая страница отчета экспортируется в виде одного изображения в файл PowerPoint. 
+* Как упоминалось ранее, каждая страница отчета экспортируется в виде одного изображения в файл PowerPoint.
+* Служба Power BI использует параметр языка Power BI в качестве языка для экспорта в PowerPoint. Чтобы просмотреть или настроить параметры языка, выберите значок ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Параметры > Общие > Язык**.
+* Время **загрузки** на слайде-обложке экспортированного файла PowerPoint совпадает с часовым поясом вашего компьютера во время экспорта.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Анализ в Excel](service-analyze-in-excel.md)

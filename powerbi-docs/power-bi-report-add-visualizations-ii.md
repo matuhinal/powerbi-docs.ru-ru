@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Часть 2. Добавление визуализаций в отчет Power BI (Руководство)
 В [части 1](power-bi-report-add-visualizations-ii.md) вы создали базовую визуализацию, установив флажки рядом с именами полей.  Во второй части вы узнаете, как использовать функцию перетаскивания и полностью реализовать возможности панелей **Поля** и **Визуализации** для создания и изменения визуализаций.
+
+### <a name="prerequisites"></a>Предварительные требования
+- [Часть 1](power-bi-report-add-visualizations-ii.md)
+- Служба Power BI — визуализации, которые можно добавлять в отчеты с помощью службы Power BI или Power BI Desktop. В этом руководстве используется служба Power BI. 
+- Анализ розничной торговли — образец
 
 ## <a name="create-a-new-visualization"></a>Создание новой визуализации
 В этом руководстве мы подробно рассмотрим набор данных по анализу розничной торговли и создадим несколько ключевых визуализаций.
@@ -64,7 +69,6 @@ ms.lasthandoff: 11/13/2017
 ## <a name="next-steps"></a>Дальнейшие действия
 * Дополнительные сведения о панели "Поля" см. в статье [Обзор редактора отчетов](service-the-report-editor-take-a-tour.md).   
 * Дополнительные сведения о фильтрации и выделении визуализаций см. в статье [Фильтры и выделение в отчетах Power BI](power-bi-reports-filters-and-highlighting.md).  
-* Дополнительные сведения об использовании и изменении статистических выражений см. в статье [Статистические выражения в отчетах](service-aggregates.md).  
 * Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).  
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

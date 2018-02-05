@@ -17,8 +17,8 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/24/2018
@@ -34,7 +34,7 @@ ms.lasthandoff: 01/24/2018
 
 ![](media/sample-human-resources/hr1.png)
 
-Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные из obviEnce ([www.obvience.com)](http://www.obvience.com/), которые были обезличены.
+Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные из obviEnce ([www.obvience.com)](http://www.obvience.com/), которые были обезличены. Данные доступны в нескольких форматах: приложение или пакет содержимого, книга Excel или PBIX-файл (Power BI Desktop). Дополнительные сведения см. в статье [Примеры наборов данных](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 01/24/2018
    
    ![Звездочка](media/sample-human-resources/human-resources-sample-asterisk.png)
   
-### <a name="get-the-pbix-file-for-this-sample"></a>Получить PBIX-файла для этого примера
+### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
 Также вы можете загрузить пример в виде PBIX-файла, который предназначен для работы с Power BI Desktop. 
 

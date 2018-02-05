@@ -1,5 +1,5 @@
 ---
-title: "Создание нового отчета из набора данных "
+title: "Руководство. Создание отчета из набора данных "
 description: "Создание отчета Power BI из набора данных."
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Создание отчета Power BI путем импорта набора данных
 Вы ознакомились со статьей [Отчеты в Power BI](service-reports.md) и хотите создать свои собственные отчеты. Существует много различных способов создания отчета. В этом разделе мы создадим очень простой из набора данных Excel. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами в разделе **Дальнейшие действия** ниже.  
 
 > **Совет.** Сведения о создании отчета из имеющегося отчета см. [здесь](power-bi-report-copy.md).
 > 
-> 
+### <a name="prerequisites"></a>Предварительные требования
+- Служба Power BI (для создания отчетов с помощью Power BI Desktop). См. статью [Представление отчетов в Power BI Desktop](desktop-report-view.md)   
+- Набор данных "Анализ розничной торговли — пример"
 
 ## <a name="import-the-dataset"></a>Импорт набора данных
 Чтобы создать отчет таким способом, сначала вам потребуется набор данных и пустой холст отчета. Для дальнейшей работы [скачайте набор данных Excel "Анализ розничной торговли — пример"](http://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса (предпочтительный вариант) или в локальной среде.
@@ -36,7 +38,7 @@ ms.lasthandoff: 11/13/2017
 1. Мы создадим отчет в рабочей области службы Power BI, поэтому создайте рабочую область или выберите существующую.
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. В нижней части левой навигационной панели выберите **Получить данные**.
+2. В нижней части панели навигации слева выберите **Получить данные**.
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. Выберите **Файлы** и перейдите к расположению, в котором вы сохранили пример анализа розничной торговли.
@@ -83,7 +85,7 @@ ms.lasthandoff: 11/13/2017
 4. Выберите **Время** > **Период**, чтобы добавить время в качестве **оси**.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Чтобы отсортировать визуальные элементы, нажмите кнопку с многоточием и выберите **Сортировать по периоду**.
+5. Чтобы отсортировать визуальные элементы по времени, нажмите кнопку с многоточием и выберите **Sort by Period** (Сортировать по периоду).
 6. Теперь добавим срез. Щелкните пустую область на холсте и выберите шаблон "Срез" ![](media/service-report-create-new/power-bi-slicer-icon.png). После этого на холсте появится пустой срез.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ ms.lasthandoff: 11/13/2017
 8. Срез позволяет находить шаблоны и аналитические сведения по округу.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. При желании добавьте другие визуализации.
+
+Продолжайте анализировать данные и добавлять визуализации. Если вы найдете особенно интересную информацию, [закрепите ее на панели мониторинга](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Create a copy of a report](power-bi-report-copy.md) (Создание копии отчета)
-* [Сохранение отчета в Power BI](service-report-save.md)    
 * [Добавление страницы в отчет Power BI](power-bi-report-add-page.md)  
-* [Закрепление плитки на панели мониторинга Power BI из отчета](service-dashboard-pin-tile-from-report.md)    
+* [Закрепление плитки на панели мониторинга Power BI из отчета](service-dashboard-pin-tile-from-report.md)   
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

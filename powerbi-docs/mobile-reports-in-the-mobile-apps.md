@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Область применения:
@@ -63,7 +63,7 @@ ms.lasthandoff: 01/24/2018
 Узнайте больше об [отчетах, оптимизированных для представления телефона](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Использование срезов для фильтрации данных на странице отчета
-При создании отчета в службе Power BI [(https://powerbi.com)](https://powerbi.com), обратите внимание, что на телефоне нет области "Фильтры". Но [на странице отчета отображаются срезы](power-bi-visualization-slicers.md). Добавьте в отчет срезы, чтобы вы и ваши коллеги могли использовать их для фильтрации данных страницы на телефоне.
+При создании отчетов в приложении Power BI Desktop или службе Power BI попробуйте [добавить на страницу отчета срезы](power-bi-visualization-slicers.md). Вы и ваши коллеги можете использовать их для фильтрации данных страницы в браузере и в мобильных приложениях. При просмотре отчета на телефоне вы можете видеть срезы и взаимодействовать с ними в альбомной ориентации, а также на странице, оптимизированной для книжной ориентации телефона.
 
 * Когда вы выбираете значение в срезе на странице отчета, фильтруются и другие визуальные элементы.
   

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow и Power BI
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 11/17/2017
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Создание последовательности, которая активируется оповещением о данных Power BI
-В этом руководстве показано, как создать две разные последовательности — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](service-set-data-alerts.md) и [зарегистрируйтесь в Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (это бесплатно).
+
+### <a name="prerequisites"></a>Предварительные требования
+В этом руководстве показано, как создать две разные последовательности — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](service-set-data-alerts.md), создайте бесплатную учетную запись Slack и [зарегистрируйтесь в Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (это бесплатно).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Создание последовательности, использующей Power BI, на основе шаблона
 В этой задаче мы создадим на основе шаблона простую последовательность, которая активируется с помощью оповещения о данных (уведомления) Power BI.
@@ -47,39 +49,40 @@ ms.lasthandoff: 11/17/2017
 3. Выберите **Создать из шаблона**.
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. С помощью поля поиска найдите шаблоны Power BI и выберите **Post a message to a Slack channel when a Power BI data alert is triggered** (Отправка сообщения в канал Slack при срабатывании оповещения о данных Power BI).
+4. С помощью поля поиска найдите шаблоны Power BI и выберите **Отправка электронного письма кому угодно при активации оповещения о данных Power BI > Продолжить**.
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. Выберите **Использовать этот шаблон**.
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. Если появится соответствующий запрос, подключитесь к Slack и Power BI: щелкните **Вход** и следуйте подсказкам. Зеленый флажок показывает, что вход выполнен.  После подтверждения подключений выберите **Продолжить**.
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>Создание последовательности
-Этот шаблон содержит один триггер (оповещение о данных Power BI для новых олимпийских медалей в сборной Ирландии) и одно действие (публикация сообщения в Slack). При выборе поля в Microsoft Flow отобразится динамическое содержимое, которое можно использовать.  В этом примере мы включили в текст сообщения значение и URL-адрес плитки.
+Этот шаблон содержит один триггер (оповещение о данных Power BI для новых олимпийских медалей сборной Ирландии) и одно действие (отправка сообщения электронной почты). При выборе поля в Microsoft Flow отобразится динамическое содержимое, которое можно использовать.  В этом примере мы включили в текст сообщения значение и URL-адрес плитки.
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. В раскрывающемся списке триггера выберите оповещение о данных Power BI. Выберите **New medal for Ireland** (Новая медаль для Ирландии). Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](service-set-data-alerts.md).
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Для публикации в Slack введите имя канала и текст сообщения (также можно выбрать сообщение по умолчанию, которое создается в Microsoft Flow). Обратите внимание на динамическое содержимое, которое включено в текст сообщения.
+2. Введите один или несколько допустимых адресов электронной почты, а затем выберите **Изменить** (см. ниже) или **Добавить динамическое содержимое**. 
    
-   > [!NOTE]
-   > Укажите @ в начале имени канала.  Например, если канал Slack называется channelA, в приложении Flow введите @channelA.
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. Когда все будет готово, выберите **Создать поток** или **Сохранить поток**.  Последовательность будет создана и проанализирована.  При обнаружении ошибок в Microsoft Flow появятся соответствующие сообщения.
-4. Если будут обнаружены ошибки, выберите **Изменить поток** для их исправления. В противном случае выберите **Готово**, чтобы выполнить новую последовательность.
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Flow создаст заголовок и сообщение, которые можно сохранить или изменить. Вы можете использовать все значения, заданные при создании оповещения в Power BI: просто поместите курсор и выберите нужный элемент в серой выделенной области. 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  Например, если в Power BI вы создали заголовок оповещения **We won another medal** (Мы получили еще одну медаль), можно выбрать **Заголовок оповещения**, чтобы добавить этот текст в поле темы своего сообщения электронной почты.
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    Вы также можете использовать текст сообщения по умолчанию или создать собственный. В примере выше приводится несколько изменений в сообщении.
+
+1. Когда все будет готово, выберите **Создать поток** или **Сохранить поток**.  Последовательность будет создана и проанализирована.  При обнаружении ошибок в Microsoft Flow появятся соответствующие сообщения.
+2. Если будут обнаружены ошибки, выберите **Изменить поток** для их исправления. В противном случае выберите **Готово**, чтобы выполнить новую последовательность.
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. Откройте учетную запись Slack, чтобы просмотреть сообщение.  
+5. Когда оповещение о данных активируется, на указанные вами адреса будут отправлены сообщения электронной почты.  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Создание последовательности, использующей Power BI, с нуля
 В этой задаче мы создадим с нуля простую последовательность, которая активируется с помощью оповещения о данных (уведомления) Power BI.
@@ -88,12 +91,12 @@ ms.lasthandoff: 11/17/2017
 2. Выберите **Мои потоки** > **Создать с нуля**.
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. При помощи поля поиска найдите триггер Power BI и выберите **Активировать поток по оповещению на основе данных Power BI**.
+3. С помощью поля поиска найдите триггер Power BI и выберите **Power BI — When a data driven alert is triggered** (Power BI — при активации оповещения о данных).
 
 ### <a name="build-your-flow"></a>Создание последовательности
 1. В раскрывающемся списке выберите имя оповещения.  Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. Выберите **Новый шаг** > **Добавить действие**.
    
    ![](media/service-flow-integration/power-bi-new-step.png)
