@@ -130,7 +130,7 @@ ms.lasthandoff: 01/30/2018
 2. Вызовите API скачивания PBIX-файлов из рабочей области PaaS.
 3. Сохраните PBIX-файл.
 4. Вызовите API импорта PBIX-файлов в рабочей области SaaS.
-5. Обновите строку подключения, выполнив вызов POST https://api.powerbi.com/v1.0/myorg/datasets/ {ИД_набора_данных}/Default.SetAllConnections.
+5. Обновите строку подключения, выполнив вызов POST https://api.powerbi.com/v1.0/myorg/datasets/{ИД_набора_данных}/Default.SetAllConnections
 6. Получите идентификаторы шлюза и источника данных, выполнив вызов GET https://api.powerbi.com/v1.0/myorg/datasets/{ИД_набора_данных}/Default.GetBoundGatewayDataSources.
 7. Обновите учетные данные пользователя, выполнив вызов PATCH https://api.powerbi.com/v1.0/myorg/gateways/{ИД_шлюза}/datasources/{ИД_источника_данных}.
 
