@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Поиск Azure
           href: service-connect-to-azure-search.md
-        - name: Центр безопасности Azure
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: Идентификатор цепи
@@ -980,8 +978,6 @@
       items:
         - name: Создание пользовательской визуализации с помощью средств разработчика
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Анализ пользовательских визуальных элементов для обеспечения безопасности и конфиденциальности
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: Сертификация пользовательской визуализации
           href: power-bi-custom-visuals-certified.md
     - name: Принудительная отправка данных в панель мониторинга
