@@ -852,51 +852,51 @@
       items:
         - name: Приложения Power BI для мобильных устройств
           href: mobile-apps-for-mobile-devices.md
-        - name: Поиск информационных панелей и отчетов на мобильном устройстве
+        - name: 'Расположение панелей мониторинга, отчетов и приложений на мобильном устройстве'
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Новые возможности мобильных приложений для Power BI
+        - name: Что нового в мобильных приложениях
           href: mobile-whats-new-in-the-mobile-apps.md
     - name: Все мобильные приложения
       items:
         - name: Приложения Power BI для iOS
           href: mobile-ios-ipad-iphone-apps.md
-        - name: Просмотр локальных отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
+        - name: Просмотр локальных отчетов и КПЭ в мобильных приложениях
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: Панели мониторинга для мобильных приложений Power BI
+        - name: Панели мониторинга в мобильных приложениях
           href: mobile-apps-view-dashboard.md
-        - name: Отчеты в мобильных приложениях Power BI
+        - name: Отчеты в мобильных приложениях
           href: mobile-reports-in-the-mobile-apps.md
         - name: Работа с плитками в мобильных приложениях
           href: mobile-tiles-in-the-mobile-apps.md
         - name: "Общий доступ к панели мониторинга из мобильного приложения Power\_BI"
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Избранные элементы в мобильных приложениях Power BI
+        - name: Избранное в мобильных приложениях
           href: mobile-apps-favorites.md
-        - name: Получение данных Power BI из реального мира с помощью мобильных приложений
+        - name: "Получение данных из реального мира в Power\_BI с помощью мобильных приложений"
           href: mobile-apps-data-in-real-world-context.md
-        - name: Сканирование QR-кода Power BI с помощью телефона
+        - name: Сканирование QR-кода с телефона
           href: mobile-apps-qr-code.md
-        - name: Получение уведомлений в мобильных приложениях Power BI
+        - name: Получение уведомлений в мобильных приложениях
           href: mobile-apps-notification-center.md
-        - name: 'Добавление заметок к плиткам, отчетам и визуальным элементам и их совместное использование в мобильных приложениях'
+        - name: Добавление заметок и предоставление доступа в мобильных приложениях
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: Настройка оповещений о данных в мобильных приложениях Power BI
+        - name: Настройка оповещений о данных в мобильных приложениях
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: "Фильтрация отчета по расположению в мобильных приложениях Power\_BI"
+        - name: Фильтрация отчета по расположению в мобильных приложениях
           href: mobile-apps-geographic-filtering.md
         - name: Вопросы о данных в мобильных приложениях iOS (руководство)
           href: mobile-apps-ios-qna.md
         - name: Создание прямых ссылок на определенные расположения
           href: mobile-apps-deep-link-specific-location.md
-        - name: "Просмотр данных в автономном режиме в мобильных приложениях Power\_BI"
+        - name: Просмотр данных в автономном режиме в мобильных приложениях
           href: mobile-apps-offline-data.md
-        - name: "Просмотр отчетов Power\_BI, оптимизированных для телефона, и взаимодействие с ними"
+        - name: "Просмотр и обработка отчетов Power\_BI, оптимизированных для телефона"
           href: mobile-apps-view-phone-report.md
         - name: Настройка мобильных приложений в Intune
           href: service-admin-mobile-intune.md
         - name: Подключение к Reporting Services с помощью OAuth
           href: mobile-oauth-ssrs.md
-        - name: "Поддерживаемые языки в мобильных приложениях Power\_BI"
+        - name: Поддерживаемые языки в мобильных приложениях
           href: mobile-apps-supported-languages.md
     - name: Приложение для iPad (Power BI для iOS)
       items:
@@ -908,7 +908,7 @@
           href: mobile-iphone-app-get-started.md
         - name: Приложение Power BI для Apple Watch
           href: mobile-apple-watch.md
-        - name: Сканирование штрихкода из приложения Power BI на iPhone
+        - name: "Сканирование штрихкода из мобильного приложения на\_iPhone"
           href: mobile-apps-scan-barcode-iphone.md
     - name: Приложение Power BI для телефонов Android
       items:
@@ -924,7 +924,7 @@
       items:
         - name: Начало работы с мобильным приложением Power BI для Windows 10
           href: mobile-windows-10-phone-app-get-started.md
-        - name: "Просмотр ключевых показателей эффективности и мобильных отчетов Reporting Services в мобильном приложении Power BI для Windows\_10"
+        - name: "Просмотр КПЭ и мобильных отчетов Reporting\_Services в мобильном приложении для Windows\_10"
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: Закрепление плитки или информационной панели Power BI на начальном экране
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
