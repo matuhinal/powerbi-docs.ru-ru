@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -98,12 +98,6 @@ ms.lasthandoff: 01/30/2018
 
 2. Предоставьте доступ к панели мониторинга пользователям, которым требуется доступ к отчету. Дополнительные сведения см. в статье [Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md).
 
-## <a name="allowing-free-users-access-to-reports"></a>Разрешение доступа к отчетам пользователям категории Free
-
-Пользователи категории Free могут просматривать отчеты, которые внедряются в веб-часть Power BI для SharePoint Online. Предоставить доступ таким пользователям можно так же, как и пользователям категории Pro (см. инструкции по [предоставлению доступа к отчетам](#granting-access-to-reports) выше). Рабочая область с расположенным отчетом также должна выполняться в емкости Power BI Premium. 
-
-Например, если у вас есть отчет в рабочей области приложения, вам нужно будет назначить эту рабочую область приложения емкости Power BI Premium. Также вы можете добавить пользователя категории Free в список членов этой рабочей области приложения.
-
 ## <a name="web-part-settings"></a>Настройки веб-части
 
 Ниже приведено описание параметров, которые можно изменять в веб-части Power BI для SharePoint Online.
@@ -160,5 +154,5 @@ ms.lasthandoff: 01/30/2018
 [Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md)  
 [Что такое Power BI Premium?](service-premium.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/) 
 

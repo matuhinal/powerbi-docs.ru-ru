@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 02/06/2018
 ms.author: yshoukry
-ms.openlocfilehash: 9a00183a81e549f873fab53807072b1beeaec7c2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e71b8d16407dccd559037cfe0aecd8079f62175e
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Подключение к журналам аудита Azure с помощью Power BI
 Пакет контента "Журналы аудита Azure" для Power BI позволяет анализировать и визуализировать информацию, хранящуюся в журналах аудита. Power BI извлекает данные, создает стандартную панель мониторинга и строит на основе этих данных отчеты.
@@ -59,7 +59,7 @@ ms.lasthandoff: 01/19/2018
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.
 
 ## <a name="system-requirements"></a>Требования к системе
-Для пакета содержимого журналов аудита требуется доступ к журналам аудита на портале Azure. Дополнительные сведения см. [здесь](https://azure.microsoft.com/en-us/documentation/articles/insights-debugging-with-events/).
+Для пакета содержимого журналов аудита требуется доступ к журналам аудита на портале Azure. Дополнительные сведения см. [здесь](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
 
 <a name="FindingParams"></a>
 

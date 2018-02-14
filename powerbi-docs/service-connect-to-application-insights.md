@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 0ec1ca9bccabd923b67fc1f49da4b7321ba11141
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: 0bbbbccefedd437204e1981cb1cc88493373330b
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Подключение к Application Insights с помощью Power BI
 Используйте Power BI для создания эффективных пользовательских панелей мониторинга на базе телеметрии [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Взгляните на данные телеметрии вашего приложения под новым углом. Сочетайте метрики из нескольких приложений или служб компонентов на одной информационной панели. Этот первый выпуск пакета содержимого Power BI для Application Insights включает в себя мини-приложения для распространенных метрик использования, например активных пользователей, просмотра страниц, сеансов, версии браузера и ОС, а также географического распределения пользователей на карте.
@@ -61,7 +61,7 @@ ms.lasthandoff: 01/24/2018
 ## <a name="whats-included"></a>Содержимое
 Пакет содержимого Application Insights включает следующие таблицы и метрики:  
 
-     ´´´
+    ´´´
     - ApplicationDetails  
     - UniqueUsersLast7Days   
     - UniqueUsersLast30Days   
@@ -78,7 +78,7 @@ ms.lasthandoff: 01/24/2018
     - SessionsByCountryLast7Days   
     - SessionsByCountryLast30Days   
     - PageViewsByCountryDailyLast30Days  
-   ´´´ 
+        ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 

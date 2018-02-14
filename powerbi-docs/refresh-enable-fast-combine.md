@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Отключение параметра конфиденциальности в личном шлюзе Power BI
 > [!NOTE]
@@ -45,7 +45,7 @@ ms.lasthandoff: 12/22/2017
 > 
 
 ## <a name="what-is-fast-combine"></a>Чтобы такое быстрое объединение?
-Дополнительные сведения об уровнях конфиденциальности и быстром объединении см. в статье [Уровни конфиденциальности](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). По умолчанию установлен частный уровень, что может привести к упомянутой выше ошибке. Это вызвано тем, что частный уровень изолирует источник данных от других источников. Примером того, где это могло бы вызвать проблему, является параметризованный запрос, получающий входные данные из другого источника данных.
+Дополнительные сведения об уровнях конфиденциальности и быстром объединении см. в статье [Уровни конфиденциальности](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). По умолчанию установлен частный уровень, что может привести к упомянутой выше ошибке. Это вызвано тем, что частный уровень изолирует источник данных от других источников. Примером того, где это могло бы вызвать проблему, является параметризованный запрос, получающий входные данные из другого источника данных.
 
 Включение быстрого объединения игнорирует частный уровень конфиденциальности и разрешает выполнение.
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 12/22/2017
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Локальный шлюз данных (персональный режим) — новая версия личного шлюза](service-gateway-personal-mode.md)
-[Уровни конфиденциальности](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[Уровни конфиденциальности](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 
