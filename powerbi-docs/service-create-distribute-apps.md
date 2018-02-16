@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Создание и публикация приложений с информационными панелями и отчетами в Power BI
 
@@ -64,6 +64,8 @@ ms.lasthandoff: 01/25/2018
 
 * [Подключайтесь к таким службам](service-connect-to-services.md), как Microsoft Dynamics CRM, Salesforce или Google Analytics.
 * [Получайте данные](service-get-data-from-files.md) из файлов Excel, Power BI Desktop (PBIX) и CSV-файлов.
+
+При просмотре содержимого в рабочей области приложения владелец указан как имя рабочей области приложения.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Добавление изображения в приложение (необязательно)
 По умолчанию служба Power BI создает небольшой цветной кружок с кратким названием приложения. Но вы можете добавить изображение. Чтобы добавить изображение, требуется лицензия Exchange Online.

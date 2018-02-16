@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2a65b8b895d6461efa29290dbd9d09639358678d
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 71a86c29c1ac690233016d91c4a66111978d47ba
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -30,6 +30,56 @@ ms.lasthandoff: 01/12/2018
 В следующих разделах описываются обновления для **Power BI Desktop** за предыдущие месяцы.
 
 Вы всегда можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Ежемесячные версии одинаковы, независимо от способа установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+
+
+## <a name="january-2018-update-2544970761"></a>Обновление за январь 2018 г. (2.54.4970.761)
+
+Мы начинаем новый год с коллекцией обновлений для **Power BI Desktop**, и наше новогоднее желание — продолжать их регулярно выпускать.
+
+Ссылки рядом с каждым обновлением обозначают следующее.
+
+* Фрагменты **[видео]** воспроизводятся на новой вкладке браузера, когда речь идет о функции.
+* К некоторым функциям прилагаются **[статьи]**, содержащие дополнительные сведения.
+* Большинство функций рассматриваются в ежемесячных публикациях об обновлениях в **[блоге]**.
+-   Кроме того, названия некоторых функций говорят сами за себя, поэтому для них не требуются отдельные статьи или видео.
+
+Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
+
+В январе для приложения **Power BI Desktop** появились такие обновления:
+
+### <a name="reporting"></a>Отчеты
+
+-   Отображение и скрытие страниц [[видео]](https://youtu.be/W8Pp5wuCXJw?t=20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages) 
+-   Управление цветом фона меток данных в визуализациях с декартовыми координатами и сопоставлениями [[видео]](https://youtu.be/W8Pp5wuCXJw?t=3m13s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground) 
+-   Увеличение размера области, используемой для меток осей на диаграммах [[видео]](https://youtu.be/W8Pp5wuCXJw?t=5m10s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize) 
+-   Управление отступами столбцов [[видео]](https://youtu.be/W8Pp5wuCXJw?t=6m40s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding) 
+-   Отображение дат в виде иерархии (предварительная версия) [[видео]](https://youtu.be/W8Pp5wuCXJw?t=7m41s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
+-   Добавление даты привязки для среза относительных дат [[видео]](https://youtu.be/W8Pp5wuCXJw?t=9m22s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
+-   Выбор первых N-элементов в вопросах и ответах [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
+-   Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+
+### <a name="analytics"></a>Аналитика
+
+-   Быстрая мера коэффициента корреляции [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
+
+
+### <a name="data-connectivity"></a>Подключение к данным
+
+-   Поддержка проверки подлинности Azure Active Directory для базы данных SQL Azure и соединителей хранилища данных [[видео]](https://youtu.be/W8Pp5wuCXJw?t=21m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
+
+
+> [!NOTE]
+> Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
+
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+
+Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
 
 
 ## <a name="december-2017-update-2534954481-"></a>Обновление за декабрь 2017 года (2.53.4954.481)

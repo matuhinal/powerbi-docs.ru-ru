@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -35,6 +35,23 @@ ms.lasthandoff: 01/19/2018
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>Январь 2018 г.:
+*   предоставление общего доступа к отчетам Power BI и добавление их в "Избранное";
+*   поддержка единого входа OAuth2 и DirectQuery для службы "База данных Azure SQL" и хранилища данных;
+*   аудит в пределах региона — теперь журналы аудита будут храниться в том же регионе Office 365, что и их клиент;
+*   общедоступная версия [веб-части отчетов Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698) в SharePoint Online;
+*   административный контроль для отключения просмотра пользовательских визуальных элементов для всех пользователей в клиенте;
+*   поддержка запланированного обновления Azure Analysis Services (AAS).
+
+## <a name="previous-months-2017"></a>Предыдущие месяцы (2017 г.)
+## <a name="october-and-november-2017"></a>Октябрь и ноябрь 2017 г.:
+*   выборочная публикация содержимого при помощи [приложений Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps);
+*   распределение внешних пользователей с использованием [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/);
+* рекомендации по приложениям на основе средств искусственного интеллекта;
+* обновление пользовательского интерфейса на плитке панели мониторинга;
+* поддержка подписки по электронной почте для приложений; 
+* повышение точности административного контроля для [публикации в Интернете](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
+
 ## <a name="september-2017"></a>Сентябрь 2017 г.
 * Предоставление общего доступа к панелям мониторинга для пользователей бесплатной службы категории "Премиум".
 * Выделение емкости в соответствии с бизнес-требованиями при помощи пулов виртуальных ядер.
@@ -42,7 +59,6 @@ ms.lasthandoff: 01/19/2018
 * [Блокирование PubNub](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) для простой отправки данных в интерфейсы API REST.
 * Повышение производительности загрузки для [метрик использования](service-usage-metrics.md).
 
-## <a name="previous-months-2017"></a>Предыдущие месяцы (2017 г.)
 ### <a name="august-2017"></a>Август 2017 г.
 * Изучение целевой аудитории с помощью [метрик использования по отдельным пользователям](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Сведения о начале работы с приложениями [службы Power BI](service-connect-to-services.md) для веб-служб.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Что такое Power BI Premium?
 Power BI Premium предоставляет выделенные ресурсы для выполнения службы Power BI для вашей организации или команды, обеспечивая более стабильную производительность при работе большими объемами данных. Power BI Premium также обеспечивает широкое распространение содержимого без необходимости приобретать лицензии для каждого пользователя, просматривающего это содержимое.
@@ -46,7 +46,7 @@ Power BI Premium предоставляет выделенные ресурсы 
 | Внедренные API и элементы управления |![](media/service-premium/not-available.png "Недоступно") |![](media/service-premium/available.png "Доступно")<sup>2</sup> |
 | **Локальная публикация отчетов Power BI** |![](media/service-premium/not-available.png "Недоступно") |![](media/service-premium/available.png "Доступно") |
 
-*<sup>1</sup> Возможности пользователей с бесплатными лицензиями в приложениях включают в себя просмотр содержимого в браузерах и на мобильных устройствах, использование вопросов и ответов, краткую аналитику, Cortana, экспорт в CSV-файл, Excel и PowerPoint.*  
+*<sup>1</sup> Пользователи с бесплатными лицензиями в приложениях могут просматривать содержимое в браузерах и на мобильных устройствах, использовать функцию вопросов и ответов, краткую аналитику, Кортану, а также функцию экспорта в CSV-файл, Excel и PowerPoint. Лицензия Pro требуется для других действий, которых нет в списке, например для создания отчетов по общим наборам данных и анализа в Excel. Ознакомьтесь с [характеристиками бесплатной версии Power BI и Power BI Pro](service-free-vs-pro.md).*  
 *<sup>2</sup> После выпуска общедоступной версии Power BI Premium улучшения будут расширены.*
 
 ### <a name="premium-capacity"></a>Емкость Premium

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -29,6 +29,24 @@ ms.lasthandoff: 01/17/2018
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](desktop-latest-update.md)  
 * [Новые возможности службы Power BI](service-whats-new.md)  
+
+## <a name="january-2018"></a>Январь 2018 г.
+
+### <a name="report-favorites"></a>Отчеты в избранном
+
+Отметьте отчеты как избранные, чтобы они отображались на странице **Избранное**. Дополнительные сведения об избранном в мобильных приложениях Power BI см. [здесь](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Просмотр общих отчетов
+
+Когда пользователь предоставляет вам доступ к отчету, он теперь отображается в списке на странице **Мне предоставлен доступ** и на панелях мониторинга.
+
+### <a name="improved-hyperlink-support"></a>Усовершенствованная поддержка гиперссылок
+
+Теперь можно открыть пользовательский визуальный элемент, коснувшись соответствующей ссылки в браузере мобильных устройств.
+
+### <a name="intune-integration-android"></a>Интеграция Intune (Android)
+
+Поддержка условного доступа с помощью управления мобильными устройствами Intune.
 
 ## <a name="december-2017"></a>Декабрь 2017 г.
 
