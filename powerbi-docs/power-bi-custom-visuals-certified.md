@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 34733c469b584fe94a55c0521e889cd39fca6ed8
-ms.sourcegitcommit: 8d1aa392600f2a8dd81859687fed0d0080de4b6e
+ms.openlocfilehash: e73d0378e9e94bc8fc10402e3e7f4a524f93e5fb
+ms.sourcegitcommit: 433a5625f1d4557c09a7a7382416e2bbdb40c797
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -98,6 +98,7 @@ ms.lasthandoff: 02/13/2018
 | [Прогнозирование с помощью ARIMA](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [Воронка с источником от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Видео](https://youtu.be/R_EcimsLI8U) |
 | [Диаграмма Ганта](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Видео](https://youtu.be/qJ7s_KrGiUU) |
+| [Ганта диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Видео](https://youtu.be/vJLV9JRCpI8) |
 | [Гистограммы "Земной шар"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Иерархическая диаграмма от Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Видео](https://youtu.be/0ZGzJaq_KT4) |
 | [Гистограмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
