@@ -3,7 +3,7 @@ title: "Подключение к Marketo с помощью Power BI"
 description: "Marketo для Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Подключение к Marketo с помощью Power BI
 Пакет содержимого Power BI для Marketo позволяет получить подробные сведения об учетной записи Marketo с данными о потенциальных клиентах и их действиях. При создании этого подключения вы извлечете данные и автоматически получите панель мониторинга и связанные отчеты на основе этих данных.
@@ -47,7 +47,7 @@ ms.lasthandoff: 01/19/2018
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   Это предоставляет пакету содержимого *Marketo для Power BI* доступ к вашим данным [аналитики Marketo](https://powerbi.microsoft.com/integrations/marketo) и позволяет анализировать их в Power BI. Данные обновляются раз в день.
+   Это предоставляет пакету содержимого *Marketo для Power BI* доступ к вашим данным [аналитики Marketo](https://powerbi.microsoft.com/integrations/marketo), позволяя анализировать их в Power BI. Данные обновляются раз в день.
 6. После подключения к учетной записи Marketo загружается панель мониторинга со всеми данными:
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)

@@ -3,7 +3,7 @@ title: "Пакет содержимого аудита базы данных SQL
 description: "Пакет содержимого аудита базы данных SQL для Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: yshoukry
-ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 70b8eea066b7d3b37b1508c83082cbc82e0949aa
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Пакет содержимого аудита базы данных SQL для Power BI
 Пакет содержимого [аудита базы данных SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) Azure для Power BI помогает поддерживать соответствие нормативным требованиям, лучше понимать происходящее в базах данных, а также выявлять расхождения и аномалии, которые могут указывать на проблемы в бизнесе или потенциальные нарушения безопасности. 
@@ -59,7 +59,7 @@ ms.lasthandoff: 01/19/2018
    - Введите дату окончания нужных вам журналов аудита. Введите "\*" для загрузки журналов аудита без верхнего предела времени.
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. В качестве метода аутентификации выберите **Ключ**, введите **ключ учетной записи** \> **Вход**.
+5. В качестве метода аутентификации выберите **Ключ**, введите **ключ учетной записи** \> **Войти**.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. После импорта данных в Power BI в области навигации слева появятся новая панель мониторинга, отчет и набор данных. Новые элементы отмечены желтой звездочкой \*.

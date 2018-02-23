@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: e73d0378e9e94bc8fc10402e3e7f4a524f93e5fb
-ms.sourcegitcommit: 433a5625f1d4557c09a7a7382416e2bbdb40c797
+ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
+ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 02/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -63,6 +63,7 @@ ms.lasthandoff: 02/14/2018
 | [Календарь Beyondsoft](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Петлеобразная диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Видео](https://youtu.be/So5xKMSpVJI) |
 | [Диаграмма "Ящик с усами"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [Диаграмма "ящик с усами" от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351) | [Видео](https://youtu.be/JoHaFLfhXdo) |
 | [Клетчатая диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [Видео](https://youtu.be/hA3DOsvn2xY) |
 | [Пузырьковая диаграмма от Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
 | [Диаграмма с маркерами](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [Видео](https://youtu.be/AOlsFYkfkcw) |
@@ -102,10 +103,12 @@ ms.lasthandoff: 02/14/2018
 | [Гистограммы "Земной шар"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Иерархическая диаграмма от Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Видео](https://youtu.be/0ZGzJaq_KT4) |
 | [Гистограмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [Гистограмма с точками от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Видео](https://youtu.be/-ILF--wExrw) |
 | [Горизонтальная воронка от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [Видео](https://youtu.be/SudZei68PPo) |
 | [Изображение от CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
 | [Сетка изображения](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [Конструктор инфографики](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [Диаграмма с ключевыми показателями эффективности от Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [Индикатор ключевого показателя эффективности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [Область КПЭ от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Видео](https://youtu.be/cudG4gsZ2V8) |
 | [Линейный датчик от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Видео](https://youtu.be/7_jFaM30dkc) |
