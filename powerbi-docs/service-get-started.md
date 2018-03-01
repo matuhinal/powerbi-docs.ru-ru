@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: ee7375c28b3c13b53eba52f0bf76754529c9b4f5
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Get started
+ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Начало работы со службой Power BI (app.powerbi.com)
 В этом руководстве содержатся сведения, которые помогут вам приступить к работе со ***службой Power BI***. Чтобы иметь представление о соответствии службы Power BI другим предложениям Power BI, мы советуем ознакомиться со статьей [Интерактивное обучение Power BI](guided-learning/gettingstarted.yml#step-1).

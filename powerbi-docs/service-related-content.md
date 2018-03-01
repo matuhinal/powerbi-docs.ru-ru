@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Get started
+ms.openlocfilehash: ca03513bd79925c9ed927945b54d545450bff35b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Просмотр связанного содержимого в службе Power BI
 В области **Связанное содержимое** вы можете видеть, как связано между собой содержимое службы Power BI: панели мониторинга, отчеты и наборы данных.  Здесь вы можете также выполнять такие общие задачи, как обновление и переименование данных, создание аналитики и многое другое. Выберите связанный отчет или панель мониторинга. Эти элементы откроются в рабочей области Power BI.   
