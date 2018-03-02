@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: badd7a9c41199bf1486e83d29b37bb385f32b8ea
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Образец "Продажи и маркетинг" для Power BI: обзор
 
@@ -36,7 +37,7 @@ ms.lasthandoff: 01/24/2018
 
 ## <a name="prerequisites"></a>Предварительные требования
 
- Прежде чем использовать пример, необходимо загрузить его как пакет содержимого, PBIX-файл или книгу Excel.
+ Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [PBIX-файл](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529785).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Получение пакета содержимого для этого примера
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ розничной торговли" для Power BI: обзор
 
@@ -31,7 +32,7 @@ ms.lasthandoff: 01/24/2018
 
 ## <a name="prerequisites"></a>Предварительные требования
 
- Прежде чем использовать пример, необходимо загрузить его как пакет содержимого, PBIX-файл или книгу Excel.
+ Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [PBIX-файл](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Получение пакета содержимого для этого примера
 
@@ -166,7 +167,8 @@ ms.lasthandoff: 01/24/2018
 Мы надеемся, что в этом обзоре вы узнали, каким образом с помощью панелей мониторинга, вопросов и ответов и отчетов можно получить представление о данных о розничных продажах. Теперь ваша очередь — выполните подключение к собственным данным. С помощью Power BI можно подключаться ко многим типам источников данных. Узнайте больше о [начале работы с Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Скачайте пример пакета содержимого "Анализ розничной торговли"](sample-tutorial-connect-to-the-samples.md)    
+* [Скачайте пример пакета содержимого "Анализ розничной торговли"](sample-tutorial-connect-to-the-samples.md)
+* [Скачайте ZIP-файл и все примеры файлов](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Скачайте книгу Excel для этого примера Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Получение данных (для Power BI)](service-get-data.md)    
 * [Power BI — основные понятия](service-basic-concepts.md)    
