@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
-ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
+LocalizationGroup: Create reports
+ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Создание отчетов, оптимизированных для мобильных приложений Power BI
 [Создавая отчет в Power BI Desktop](desktop-report-view.md), вы можете сделать его удобным для использования в мобильных приложениях на телефонах, выполнив специальную мобильную версию отчета. Чтобы адаптировать отчет для телефона, следует упорядочить визуальные элементы и изменить их размеры, возможно, не включая их все для обеспечения оптимальной производительности. Кроме того, вы можете создавать [*адаптивные* визуальные элементы](#optimize-a-visual-for-any-size) и [адаптивные срезы](#enhance-slicers-to-to-work-well-in-phone-reports), легко изменяющие размер при просмотре на телефоне. Если в отчет добавлены фильтры, в мобильном отчете эти фильтры будут отображаться автоматически. Пользователи будут видеть их и смогут с их помощью фильтровать данные в отчете.

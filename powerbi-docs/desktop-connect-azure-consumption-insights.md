@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3f0bca9114b163531adcd1a1921b8617a5f2eb75
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Подключение к Azure Consumption Insights в Power BI Desktop (бета-версия)
 С помощью соединителя **Azure Consumption Insights** можно использовать **Power BI Desktop** для подключения к Azure и получения подробных данных и сведений об использовании служб Azure в организации. Можно также создавать меры, настраиваемые столбцы и визуальные элементы для формирования отчетов об использовании Azure в организации и предоставления доступа к ним. Этот выпуск соединителя **Azure Consumption Insights** является бета-версией, которая может быть изменена.
@@ -160,7 +161,7 @@ Azure также включает коллекцию примеров польз
 | ConsumedServiceId |consumedServiceId | |Да |
 | Cost |cost |ExtendedCost |Нет |
 | Cost Center |costCenter |Cost Center |Нет |
-| Даты |date |Даты |Нет |
+| Дата |date |Дата |Нет |
 | День | |День |Нет |
 | DepartmentName |departmentName |Department Name |Нет |
 | DepartmentID |departmentId | |Да |
@@ -174,7 +175,7 @@ Azure также включает коллекцию примеров польз
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |Нет |
 | MeterId |meterId |Meter ID |Нет |
 | Месяц | |Месяц |Нет |
-| Product |product |Product |Нет |
+| Продукт |product |Продукт |Нет |
 | ProductId |productId | |Да |
 | Resource Group |resourceGroup |Resource Group |Нет |
 | Resource Location |resourceLocation |Resource Location |Нет |
@@ -192,7 +193,7 @@ Azure также включает коллекцию примеров польз
 | Теги |tags |Теги |Нет |
 | TagsId | | |Да |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |Нет |
-| Year (Год) | |Year (Год) |Нет |
+| Год | |Год |Нет |
 | SubscriptionId |subscriptionId |SubscriptionId |Да |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |Нет |
 

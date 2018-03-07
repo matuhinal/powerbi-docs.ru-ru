@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: 55a05510af5f368d4c978d336e0869705d611eff
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Share your work
+ms.openlocfilehash: 4e8750078e36dad3c3b9b784ad88d12ac3b6fd7d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Предоставление общего доступа коллегам и другим пользователям к панелям мониторинга и отчетам Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. В Power BI также доступны [другие способы совместной работы с панелями мониторинга и отчетами и их распространения](service-how-to-collaborate-distribute-dashboards-reports.md).

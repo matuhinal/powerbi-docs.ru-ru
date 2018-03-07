@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5626c022449f40c40611cde2831aa5d373043089
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 30be54ccbc6f0ccdc322070d59ccb44de6460b78
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="conditional-formatting-in-tables"></a>Условное форматирование в таблицах
 С помощью условного форматирования в таблицах можно задать настраиваемые цвета фона ячеек на основе значений ячеек, в том числе градиент цветов. Чтобы получить доступ к условному форматированию, в Power BI Desktop на панели **Визуализации** в разделе **Поля** в области **Значения** щелкните стрелку вниз рядом со значением, которое нужно отформатировать (или щелкните поле правой кнопкой мыши). Условное форматирование можно изменять только для полей из области **Значения** в разделе **Поля**.

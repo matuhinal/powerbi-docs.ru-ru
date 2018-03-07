@@ -7,6 +7,7 @@
 | Папка |Нет |Да |
 | IBM DB2 |Нет |Да |
 | База данных IBM Informix |Нет |Да |
+| IBM Netezza |Да |Да |
 | Impala |Да |Да |
 | MySQL |Нет |Да |
 | OData |Нет |Да |

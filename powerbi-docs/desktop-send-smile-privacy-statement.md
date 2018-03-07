@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Заявление о конфиденциальности, действующее при отправке смайлика Power BI Desktop
 В корпорации Майкрософт прилагаются большие усилия для защиты конфиденциальности. Для этого разрабатываются продукты, которые обеспечивают высокую производительность, эффективность и удобство работы. Настоящее заявление о конфиденциальности объясняет методы сбора и использования отзывов *Отправить смайлик* в Microsoft Power BI Desktop. Оно не применяется к другим подключенным или не подключенным к сети сайтам, продуктам или услугам Майкрософт.

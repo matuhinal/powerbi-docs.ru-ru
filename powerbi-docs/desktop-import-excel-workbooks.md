@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ea68f787fc59b2f672767fcf49c30761ee4db8cb
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 316272f77b55fa7a803bffb596b7bad6da93cced
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Импорт книг Excel в Power BI Desktop
 **Power BI Desktop**позволяет легко импортировать книги Excel, содержащие запросы Power Query, модели Power Pivot и листы Power View, в Power BI Desktop. Отчеты и визуализации создаются на основе книги Excel автоматически; после импорта отчеты можно улучшить и доработать с помощью Power BI Desktop, используя уже доступные возможности, а также новые функции, добавляемые в каждое ежемесячное обновление Power BI Desktop.

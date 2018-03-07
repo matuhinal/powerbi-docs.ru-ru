@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: a1affeff46b67d89939b41ca76b4693cbc4ede33
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="change-the-size-of-a-report-page-tutorial"></a>Изменение размера страницы отчета (руководство)
 В [предыдущей статье и видео](power-bi-report-display-settings.md) вы узнали о двух разных способах управления отображением страницы в отчетах Power BI: **вид** и **размер страницы**. Представление страницы и размер страницы доступны как в службе Power BI, так и в Power BI Desktop. Выглядят и действуют обе версии почти одинаково, но в этом руководстве мы используем только службу Power BI.

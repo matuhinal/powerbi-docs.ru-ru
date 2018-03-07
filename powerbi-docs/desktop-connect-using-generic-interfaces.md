@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: b3ee7bacdb342b609d504771f4b8d57819958197
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Connect to data
+ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Подключение к данным с помощью универсальных интерфейсов в Power BI Desktop
 В **Power BI Desktop** можно подключаться к множеству различных источников данных, используя встроенные соединители, которые отображаются в окне **Получение данных**, — от **баз данных Access** до ресурсов **Zendesk**. Вы также можете подключаться к *другим* источникам данных различных типов с помощью универсальных интерфейсов (например, **ODBC** или **REST API**), встроенных в **Power BI Desktop**. Это дополнительно расширяет возможности подключения.

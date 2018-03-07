@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+LocalizationGroup: Create reports
+ms.openlocfilehash: 1fcdd2d8b1eff61e3e53ca919e082afb4ec8e835
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Добавление столбца из примера в Power BI Desktop
 Начиная с выпуска **Power BI Desktop**, вышедшего в апреле 2017 г., вы можете добавлять в свою модель новые столбцы данных с помощью **редактора запросов**. Вам нужно просто задать для нового столбца один или несколько примеров значений. Можно создать пример нового столбца, указав используемый столбец или входные данные на основе всех (или только выделенных) столбцов в конкретной таблице.
@@ -120,7 +121,7 @@ ms.lasthandoff: 11/22/2017
   * Квартал года
   * Неделя месяца
   * Неделя года
-  * Year (Год)
+  * Год
   * Возраст
   * Начало года
   * Конец года

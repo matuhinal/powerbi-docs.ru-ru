@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: bc8cddede36bfa511f7044550e4b0dae4e463d92
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 2e1f0d3fad5c556030ed5351793a95a86cfea977
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Подключение к Google Analytics с помощью Power BI
 Подключение к Google Analytics через Power BI начинается с подключения к учетной записи Google Analytics. Вы получите панель мониторинга Power BI с отчетами, с помощью которых можно получить представление о трафике сайта и измерениях пользователей. Вы можете взаимодействовать с панелью мониторинга и отчетами, но не сохранять изменения. Данные автоматически обновляются раз в день.

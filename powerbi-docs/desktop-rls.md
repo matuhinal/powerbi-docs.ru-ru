@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maghan
-ms.openlocfilehash: fccb2094158ed2dffaa0a80cc5609dfbf382be30
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Create reports
+ms.openlocfilehash: febe8cafb7be578be0dcf23a151f28deb544a4c8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Безопасность на уровне строк (RLS) в Power BI Desktop
 Функции безопасности на уровне строк (RLS) в Power BI Desktop позволяют ограничивать доступ к данным для определенных пользователей. Фильтры ограничивают доступ к данным на уровне строк. Задавать фильтры можно с помощью ролей.

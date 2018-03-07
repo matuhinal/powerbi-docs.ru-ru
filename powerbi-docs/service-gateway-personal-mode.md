@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
-ms.openlocfilehash: e3072e4a99c04e977579274c6d95f5bb1007e870
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Локальный шлюз данных (персональный режим)
 Вы можете использовать локальные источники данных и создавать отчеты и панели мониторинга Power BI с помощью шлюза. **Шлюз** — это программное обеспечение, облегчающее доступ к данным, которые хранятся в частной локальной сети для последующего использования их в веб-службах, таких как **Power BI**. **Локальный шлюз данных (персональный режим)** — это недавно выпущенное обновление для шлюза Power BI, которое позволяет пользователям установить шлюз на своем компьютере и получить доступ к локальным данным.

@@ -13,11 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 11bba0ec026650e59b8757b207f5f6d596499f0a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Быстрый поиск и просмотр данных Power BI с помощью Кортаны для Power BI
 Используйте Кортану на устройствах с Windows 10, чтобы мгновенно получать ответы на вопросы вашей организации. Благодаря интеграции с Power BI Кортана может получать важные сведения непосредственно из панелей мониторинга и отчетов Power BI. Для работы вам нужна версия Windows 10 (ноябрь 2015 г.) или более поздняя, Кортана, Power BI и доступ минимум к одному набору данных.

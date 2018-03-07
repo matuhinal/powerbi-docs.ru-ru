@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 97f28a845be24baa7633f0cf4fcac29d4d1e74e9
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 2ac008a1b71a4e4df4e6515c85ec11e95dac7205
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Настройка мобильных приложений в Microsoft Intune
 Microsoft Intune позволяет организациям управлять устройствами и приложениями. Мобильные приложения Power BI для iOS и Android интегрируются с Intune, позволяя управлять приложениями на устройствах и вести контроль безопасности. В политиках конфигурации можно управлять такими элементами, как требование ПИН-кода доступа, управление способом обработки данных в приложении и даже шифрование данных приложения, если приложение не используется.

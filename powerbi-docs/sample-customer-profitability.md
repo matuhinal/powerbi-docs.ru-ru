@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 2ce970ee31b06447055d059ed9b604c169713030
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: обзор
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Обзор примера "Рентабельность клиента"
 Пакет содержимого "Рентабельность клиента — пример" содержит панель мониторинга, отчет и набор данных для компании, производящей маркетинговые материалы. Эта панель мониторинга была создана финансовым директором для просмотра основных метрик о пяти руководителях подразделения, продуктах, клиентах и валовой прибыли. Здесь можно легко увидеть факторы, влияющие на прибыль.
 
-<<<<<<< HEAD ![](media/sample-customer-profitability/power-bi-dash.png)
+![](media/sample-customer-profitability/power-bi-dash.png)
 
 Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные из obviEnce ([www.obvience.com](http://www.obvience.com/)), которые были обезличены. Данные доступны в нескольких форматах: приложение или пакет содержимого, книга Excel или PBIX-файл (Power BI Desktop). См. статью [Примеры данных, доступные для использования в службе Power BI](sample-datasets.md).
 
@@ -58,14 +58,7 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>При необходимости вы также можете просмотреть источник данных для этого примера, который доступен в виде[книги Excel](http://go.microsoft.com/fwlink/?LinkId=529781). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные выберите элементы **Power Pivot > Управление**.
-=======
-
-Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные из obviEnce ([www.obvience.com](http://www.obvience.com/)), которые были обезличены. Данные доступны в нескольких форматах: приложение или пакет содержимого, книга Excel или PBIX-файл (Power BI Desktop). См. статью [Примеры данных, доступные для использования в службе Power BI](sample-datasets.md).
-
-### <a name="prerequisites"></a>Предварительные требования
-Хотите попробовать? В [службе Power BI](https://powerbi.com) последовательно выберите **Получить данные > Примеры > Рентабельность клиента > Подключить**, чтобы получить собственную копию примера.
->>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+При необходимости вы также можете просмотреть источник данных для этого примера, который доступен в виде[книги Excel](http://go.microsoft.com/fwlink/?LinkId=529781). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные выберите элементы **Power Pivot > Управление**.
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Какие данные отображаются на информационной панели?

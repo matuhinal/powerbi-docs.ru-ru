@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4d7a000095fb954c6b186ab4b2dccab790cd2073
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Model your data
+ms.openlocfilehash: cd0f89766a07d468942735d5da0d99e5c6d1c87f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Создание связей и управление ими в Power BI Desktop
 При импорте нескольких таблиц вам, скорее всего, потребуется провести анализ данных из них всех. Связи между этими таблицами необходимы, чтобы точно вычислить результаты и отобразить правильные сведения в отчетах. Power BI Desktop значительно упрощает создание таких связей. Фактически в большинстве случаев вам не нужно ничего делать — функция автообнаружения сделает все автоматически. Однако в некоторых случаях может потребоваться создать связи вручную или внести некоторые изменения в полученные связи. В любом случае очень важно понимать связи в Power BI Desktop, а также способы их создания и изменения.

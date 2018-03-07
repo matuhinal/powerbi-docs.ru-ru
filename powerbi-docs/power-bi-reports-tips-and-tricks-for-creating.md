@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 2d82cee4a825be9c38b3545210e182924147c0f3
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Reports
+ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Советы по созданию потрясающих отчетов
 Создание отчетов и работа с ними в службе Power BI и Power BI Desktop очень похожи, поэтому большинство из этих ссылок применимы для обоих вариантов.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 513cef9f82e40fba781446aeb9f469e57ae8d042
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Использование среза и фильтра относительных дат в Power BI Desktop
 **Срез относительных дат** или **фильтр относительных дат** позволяют применять фильтры с учетом времени для любого столбца даты в модели данных. Например, вы можете использовать **срез относительных дат**, чтобы отобразились только данные по продажам за последние 30 дней (или месяц, календарный месяц и т. д). А когда вы обновляете данные, период относительного времени автоматически применяет ограничение относительной даты.

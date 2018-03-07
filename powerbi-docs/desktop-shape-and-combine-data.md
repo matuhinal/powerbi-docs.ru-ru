@@ -1,7 +1,28 @@
--- title: Формирование и объединение данных в Power BI Desktop description: Формирование и объединение данных в Power BI Desktop services: powerbi documentationcenter: '' author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
-
-ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
-
+---
+title: "Формирование и объединение данных в Power BI Desktop"
+description: "Формирование и объединение данных в Power BI Desktop"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 01/30/2018
+ms.author: davidi
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Формирование и объединение данных в Power BI Desktop
 С помощью **Power BI Desktop** можно подключаться к различным типам источников данных, а затем формировать данные в соответствии с потребностями. *Формирование* данных означает преобразование данных, например переименование столбцов или таблиц, замену текста числами, удаление строк, установку первой строки в качестве заголовков и т. д. *Объединение* данных означает подключение к нескольким источникам данных, формирование их данных в соответствии с потребностями и их последующее объединение в один удобный запрос.

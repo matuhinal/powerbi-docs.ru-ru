@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Добавление гиперссылки в текстовое поле в отчете
 Текстовые поля можно добавлять в отчеты, закреплять на информационных панелях из отчетов и добавлять непосредственно на информационные панели. Гиперссылки можно добавить в текстовое поле, независимо от того, где оно находится. **В этом разделе описываются текстовые поля в отчетах в службе Power BI (не Power BI Desktop).**

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Create reports
+ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Использование визуального элемента "Матрица" в Power BI Desktop
 Визуальный элемент **Матрица** позволяет создавать визуальные элементы матрицы (которые иногда также называют *таблицами*) в отчетах **Power BI Desktop** и перекрестно выделять элементы внутри матрицы с помощью других визуальных элементов. Кроме того, можно перекрестно выделять строки, столбцы и даже отдельные ячейки. Для более эффективного использования пространства макета в визуальном элементе "Матрица" поддерживается ступенчатый макет.

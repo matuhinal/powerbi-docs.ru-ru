@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4e60e63791b1e839eb12c05dd089c5b24c0d63a6
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Учебник. Анализ Facebook с помощью Power BI Desktop
 В этом учебнике вы узнаете, как импортировать и визуализировать данные из **Facebook**. Вы также узнаете, как подключаться к определенной странице Facebook (странице Power BI), преобразовывать данные и создавать визуализации.

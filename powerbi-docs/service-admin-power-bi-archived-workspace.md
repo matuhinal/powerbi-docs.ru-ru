@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 7698a1207f19382430fb8e225543b32b6aebcd49
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 34625c6c093e6ad4255b6e9e153c84d4cb3881d4
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Архивная рабочая область Power BI
 Любой пользователь может за считанные минуты зарегистрироваться в Power BI и начать пользоваться этой службой.  Позже ИТ-отдел организации может взять на себя управление пользователями организации, зарегистрированными в службе Power BI.  В этом случае организация выиграет от централизованного управления пользователями и разрешениями, а каждый пользователь получит удобную возможность входить с использованием того же имени пользователя и пароля, которые используются для других служб в организации. 

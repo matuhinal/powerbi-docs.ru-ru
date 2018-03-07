@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: ec039ab195e2112654ac7f3057d54ecb60c21058
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: ec266cd2631797a1bbbef686824f78b0f1e3e14a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Бесплатная версия Power BI в вашей организации
 В этой статье рассматриваются возможности использования бесплатной версии Power BI в организации. Когда речь идет об организации, имеется в виду клиент, с которым связан набор пользователей и служб. Администратор может назначать пользователям лицензии, а также разрешать им регистрироваться в индивидуальном режиме. Мы рассмотрим лицензию на бесплатную версию Power BI, а также управление индивидуальной регистрацией.

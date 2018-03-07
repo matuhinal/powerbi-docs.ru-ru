@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Подключение к Marketo с помощью Power BI
 Пакет содержимого Power BI для Marketo позволяет получить подробные сведения об учетной записи Marketo с данными о потенциальных клиентах и их действиях. При создании этого подключения вы извлечете данные и автоматически получите панель мониторинга и связанные отчеты на основе этих данных.
@@ -78,7 +79,7 @@ ms.lasthandoff: 02/19/2018
 
 **Сведения об ограничениях API**
 
-Для импорта данных из Marketo используется API Marketo. К каждому клиенту Marketo применяется общее ограничение в 10 000 вызовов API в день, которые являются общими для всех приложений, использующих API-интерфейсы Marketo. Вы можете использовать API для других средств интеграции, а также для интеграции Power BI. Подробнее об интерфейсах API: <http://developers.marketo.com/documentation/rest/>.
+Для импорта данных из Marketo используется API Marketo. К каждому клиенту Marketo применяется общее ограничение в 10 000 вызовов API в день, которые являются общими для всех приложений, использующих API-интерфейсы Marketo. Вы можете использовать API для других средств интеграции, а также для интеграции Power BI. Дополнительные сведения об интерфейсах API см.: <http://developers.marketo.com/documentation/rest/>.
 
 Количество вызовов API, выполняемых Power BI к Marketo, зависит от объема данных в вашей учетной записи Marketo. Power BI импортирует всех лидов и все действия за последний год. Ниже приведен пример данных из Marketo и число вызовов API, используемых Power BI при импорте.  
 

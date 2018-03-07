@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
-ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Уровни конфиденциальности Power BI Desktop
 В **Power BI Desktop** уровни конфиденциальности служат для указания уровня изоляции, определяющего степень изолированности одного источника данных от других. Хотя строгий уровень изоляции блокирует обмен данными между источниками данных, он может сократить доступную функциональность и снизить производительность.
