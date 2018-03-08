@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 3b05064265e951e64d1f34d801555e837fc4d8fb
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 059f842dae35fa7a46094d0ade990df7514908d6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Подключение к Microsoft Dynamics Marketing с помощью Power BI
 Пакет содержимого Microsoft Dynamics Marketing для Power BI позволяет легко получать доступ к данным Dynamics Marketing и анализировать их. Пакет содержимого использует описательные модели на основе веб-канала OData, содержащие все необходимые сущности и измерения, такие как программы, кампании, маркетинговые контакты и компании, интересы, взаимодействия с интересами, оценки интересов, маркетинговые веб-сайты и сообщения электронной почты, наблюдения поведения, бюджеты, финансовые операции, ключевые показатели эффективности и многое другое. 
@@ -72,7 +73,7 @@ ms.lasthandoff: 02/19/2018
 
 Если у вас по-прежнему возникают проблемы, создайте запрос в службу поддержки, чтобы связаться с группой Power BI:
 
-* В приложении Power BI щелкните вопросительный знак \> и выберите **Обратиться в службу поддержки**.
+* В приложении Power BI щелкните вопросительный знак и выберите **Обратиться в службу поддержки**.
 * На сайте службы поддержки Power BI (где вы читаете эту статью) выберите **Обратиться в службу поддержки** в правой части страницы.
 
 ## <a name="next-steps"></a>Дальнейшие действия
