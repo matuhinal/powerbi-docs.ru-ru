@@ -52,7 +52,7 @@ ms.lasthandoff: 02/28/2018
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ закупок — пример**, затем выберите **Подключиться**.  
   
-   ![Получить данные](media/sample-procurement/procurement1a.png)
+   ![Получение данных](media/sample-procurement/procurement1a.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    

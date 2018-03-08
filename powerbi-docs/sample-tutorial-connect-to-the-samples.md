@@ -43,7 +43,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="samples-and-power-bi-service"></a>Примеры и служба Power BI
 
 1. Откройте службу Power BI и выполните вход в нее (app.powerbi.com).
-2. Нажмите кнопку **Получить данные** в нижней части левой панели навигации. Если команда **Получить данные** отсутствует, разверните панель навигации, выбрав ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
+2. Выберите **Получить данные** в нижней части левой панели навигации. Если команда **Получить данные** отсутствует, разверните панель навигации, выбрав ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
    
    ![](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
 5. Выберите **Образцы**.  
