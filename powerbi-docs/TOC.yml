@@ -664,11 +664,13 @@
           href: desktop-ssas-multidimensional.md
         - name: Подключение к CSV-файлам в Power BI Desktop
           href: desktop-connect-csv.md
-        - name: Подключение к базе данных Impala в Power BI Desktop (предварительная версия)
+        - name: "Подключение к Adobe Analytics в Power\_BI Desktop (предварительная версия)"
+          href: desktop-connect-csv.md
+        - name: Подключение к базе данных Impala в Power BI Desktop
           href: desktop-connect-impala.md
         - name: Подключение к веб-каналу OData в Power BI Desktop
           href: desktop-connect-odata.md
-        - name: Подключение к базе данных Amazon Redshift в Power BI Desktop (предварительная версия)
+        - name: Подключение к базе данных Amazon Redshift в Power BI Desktop
           href: desktop-connect-redshift.md
         - name: Подключение к веб-странице из Power BI Desktop
           href: desktop-connect-to-web.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Закладки в Power BI
           href: desktop-bookmarks.md
+        - name: Создание подсказок для пользовательских отчетов (предварительная версия)
+          href: desktop-tooltips.md
         - name: Использование функции "Тема отчета"
           href: desktop-report-themes.md
         - name: Использование функции "Быстрая мера"
