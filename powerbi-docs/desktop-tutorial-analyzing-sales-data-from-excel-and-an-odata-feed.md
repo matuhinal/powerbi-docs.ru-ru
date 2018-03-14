@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Учебник. Анализ данных о продажах из Excel и веб-канала OData
 С помощью **Power BI Desktop** можно подключаться к различным источникам данных, объединять и обрабатывать их способами, которые упрощают создание интересных, привлекательных объектов анализа данных и визуализаций. В этом учебнике вы узнаете, как объединить данные из двух источников данных. 
@@ -34,7 +35,7 @@ ms.lasthandoff: 01/30/2018
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-Чтобы выполнять действия, описанные в этом учебнике, потребуется книга Products, которую можно скачать**:**[ щелкните ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[здесь](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ для загрузки](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[.](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+Чтобы выполнять действия, описанные в этом учебнике, потребуется книга Products, которую можно скачать здесь: **[Нажмите здесь, чтобы скачать Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
 
 В диалоговом окне **Сохранение документа** присвойте файлу имя **Products.xlsx**.
 
@@ -82,7 +83,7 @@ ms.lasthandoff: 01/30/2018
 | Изменение типа данных |Измененный тип |Table.TransformColumnTypes(\#"Удалены другие столбцы",{{"UnitsInStock", Int64.Type}}) |
 
 ## <a name="task-2-import-order-data-from-an-odata-feed"></a>Задача 2. Импорт данных о заказах из веб-канала OData
-В этой задаче предстоит внести в данные о заказах. Этот шаг представляет подключение к системе продаж. Данные импортируются в Power BI Desktop из примера веб-канала OData для Northwind по следующему URL-адресу, который можно скопировать (и затем вставить) в следующие действия: <http://services.odata.org/V3/Northwind/Northwind.svc/>. 
+В этой задаче предстоит внести в данные о заказах. Этот шаг представляет подключение к системе продаж. Данные импортируются в Power BI Desktop BI из примера веб-канала OData для Northwind по следующему URL-адресу, который можно скопировать (и затем вставить) в следующие действия: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
 
 ### <a name="step-1-connect-to-an-odata-feed"></a>Шаг 1. Подключение к веб-каналу OData
 1. На вкладке **Главная** ленты в редакторе запросов выберите **Получение данных**.

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Использование просмотра данных и записей в Power BI Desktop
 В **Power BI Desktop** можно детализировать данные любого визуального элемента и отобразить текстовое представление данных или отдельных элементов данных выбранного визуального элемента. Иногда эти возможности называют *переходами*, *детализацией* или *детализацией данных*.
@@ -69,6 +70,9 @@ ms.lasthandoff: 01/25/2018
 Если выбран **просмотр записей**, **Power BI Desktop** переводит фокус на отдельный элемент данных и выделяет место на холсте для отображения данных этого элемента, как показано на следующем рисунке.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> Вы не можете сохранить в отчете изменения из данных, просматриваемых (или изменяемых пользователями) в представлении **Просмотр записей**.
 
 Чтобы вернуться к отчету, нажмите кнопку **Назад к отчету** в левом верхнем углу холста.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -39,6 +39,10 @@ ms.lasthandoff: 02/09/2018
 <br>Автор: Миранда Ли (Miranda Li)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**Принципы навигации по панели мониторинга Power BI за 20 минут**
+<br>Автор: Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI).
 <br>Авторы: Карлос Отеро (Carlos Otero) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ ms.lasthandoff: 02/09/2018
 
 Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
 
-**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Серия вебинаров по Office 365 для специалистов в сфере финансов. Серия 2. Автоматическое создание отчетов о регулярных платежах и обеспечение самостоятельной аналитики)
-<br>Авторы: Марк Траверсо (Mark Traverso) и Мигель Мартинес (Miguel Martinez)
-<br>*15 февраля, 12:00 по тихоокеанскому времени, 15:00 по восточному поясному времени*
+**Серия вебинаров по платформе внедрения Power BI. Часть 1 — внедрение. Внедрение управляемых данными региональных параметров**
+<br>Автор: Ману Канварпал (Manu Kanwarpal)
+<br>*8 марта, 9:00 по тихоокеанскому времени, 24:00 по восточному поясному времени*
 
-Получите полезные советы и рекомендации по повышению эффективности повседневной работы с помощью Office 365.
+Переключите образ мышления вашей организации на язык и региональные параметры, управляемые данными, и зарегистрируйтесь на ряд веб-семинаров, обеспечивающих платформу внедрения Power BI от корпорации Майкрософт. Самостоятельное внедрение бизнес-аналитики (BI) является сложной задачей, и получение инструментов — только первый шаг на этом пути. Для успешного внедрения требуются изменения в людях, процессах и технологиях.
+Этот вебинар является первым в серии из 5 частей и раскрывает потенциал Power BI для вашей организации.
 
-[Зарегистрироваться и посмотреть 15 февраля](https://aka.ms/Office365FinanceProsPBI)
-
-**Selling BI Solutions with Microsoft** (Продажа решений для бизнес-аналитики в сотрудничестве с корпорацией Майкрософт)
-<br>Автор: Тамер Фараг (Tamer Farag)
-<br>*15 февраля, 8:00 по тихоокеанскому времени, 11:00 по восточному поясному времени*
-
-Из этого вебинара вы узнаете о том, как эффективно сотрудничать с корпорацией Майкрософт, чтобы воспользоваться возможностями рынка бизнес-аналитики. Вашему вниманию будет представлен обзор новейших учебных ресурсов, маркетинговых материалов, программ поощрения и предложений для расширения и развития навыков. Кроме того, вы узнаете, как демонстрировать свои предложения и решения на сайте PowerBI.com и AppSource.com, чтобы представить их клиентам и продавцам Майкрософт.
-
-[Зарегистрироваться и посмотреть 15 февраля](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
-
-**Принципы навигации по панели мониторинга Power BI за 20 минут**
-<br>Автор: Мигель Мартинес (Miguel Martinez)
-<br>*21 февраля, 10:00 по тихоокеанскому времени (PST), 13:00 по восточному поясному времени (EST)*
-
-Вы когда-нибудь открывали панель мониторинга Power BI и не знали, что делать дальше?  Как находить данные, которые важны для вас? Вы не пользуетесь фильтрами и срезами в страхе "сломать что-то"?  Не бойтесь! Присоединяйтесь, и вы научитесь навигации по панели мониторинга Power BI. Вы узнаете об основных функциях, которые используют другие менеджеры для детализации нужных данных, когда это требуется.
-
-[Зарегистрироваться и посмотреть 21 февраля](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**Visualize public or private datasets with the new Power BI and data.world connector** (Визуализация общедоступных или частных наборов данных с помощью нового соединителя data.world для Power BI)
-<br>*22 февраля, 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
-
-В сотрудничестве с data.world корпорация Майкрософт выпустила новый соединитель данных, который позволяет импортировать наборы данных из data.world в Power BI Desktop. Присоединяйтесь, чтобы узнать о преимуществах этого отличного нового соединителя и воспользоваться возможностями сообщества data.world для взаимодействия и совместной работы с другими пользователями над вашим данными.
-
-[Зарегистрироваться и посмотреть 22 февраля](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[Зарегистрироваться для просмотра 8 марта](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[Посетите предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,7 +92,15 @@ ms.lasthandoff: 02/09/2018
 <br>Авторы: Джон Томпсон (Jon Thompson) из Blue Margin и Джим Пастор (Jim Pastor) из Elgin Fastener Group
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**Visualize public or private datasets with the new Power BI and data.world connector** (Визуализация общедоступных или частных наборов данных с помощью нового соединителя data.world для Power BI)
+<br>Авторы: Патрик МакГарри (Patrick McGarry) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>Дополнительные разделы ###
+
+**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Серия вебинаров по Office 365 для специалистов в сфере финансов. Серия 2. Автоматическое создание отчетов о регулярных платежах и обеспечение самостоятельной аналитики)
+<br>Авторы: Марк Траверсо (Mark Traverso) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://aka.ms/Office365FinanceProsPBI)
 
 **How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure** (Как реализовать успешную стратегию управления данными, которая поможет обеспечить безопасность в организации)
 <br>Автор: Аджай Анандан (Ajay Anandan)

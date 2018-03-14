@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/07/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 1d9c183a7fab95caa44221bd2d252ab92889b3f4
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Открытие отчета в службе Power BI (app.powerbi.com)
 Отчеты доступны в службе Power BI, Power BI Desktop, Power BI Mobile и даже Power BI Embedded. Из этой статьи вы узнаете, как открывать отчеты в ***службе Power BI***.
@@ -32,11 +32,11 @@ ms.lasthandoff: 01/09/2018
 
 1. Войдите в рабочую область и выберите вкладку **Отчеты**, чтобы просмотреть все доступные в ней отчеты.  
    
-   ![](media/service-report-open/power-bi-open-report.png)
-1. Щелкните имя отчета, чтобы открыть его в режиме чтения.  
+   ![Вкладка "Отчеты" рабочей области](media/service-report-open/power-bi-open-report.png)
+2. Щелкните имя отчета, чтобы открыть его в режиме чтения.  
    
-    ![](media/service-report-open/power-bi-reading-view.png)
-1. В режиме чтения [доступно очень много действий](service-reading-view-and-editing-view.md).  Этот пример отчета состоит из нескольких страниц, поэтому для его изучения следует выбирать вкладки в нижней части холста отчета. 
+    ![отчет в режиме чтения](media/service-report-open/power-bi-reading-view.png)
+3. В режиме чтения [доступно очень много действий](service-reading-view-and-editing-view.md).  Этот пример отчета состоит из нескольких страниц, поэтому для его изучения следует выбирать вкладки в нижней части холста отчета. 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Открытие отчета с панели мониторинга
 Отчеты можно открывать разными способами. Например, перейдите на информационную панель и выберите плитку, созданную из отчета.  После этого откроется отчет в режиме чтения. Чтобы продолжить работу, откройте [панель мониторинга "Продажи и маркетинг — пример"](sample-datasets.md).
@@ -47,34 +47,34 @@ ms.lasthandoff: 01/09/2018
 
 2.  В этом примере мы выбрали плитку гистограммы Total Units YTD... (Всего единиц с начала года...).
 
-    ![](media/service-report-open/power-bi-dashboard.png)
+    ![панель мониторинга с выбранной плиткой](media/service-report-open/power-bi-dashboard.png)
 
 3.  Соответствующий отчет открывается в режиме чтения. Обратите внимание, что у нас открыта страница YTD Category (Категория с начала года). Это страница отчета с гистограммой, которую мы выбрали на панели мониторинга.
 
-    ![](media/service-report-open/power-bi-report.png)
+    ![отчет, открытый в режиме чтения](media/service-report-open/power-bi-report.png)
 
 4. Продолжайте работу в режиме чтения или выберите пункт **Изменить отчет**, чтобы открыть его в режиме правки. Не забывайте, что для открытия отчета в режиме правки нужны разрешения на редактирование этого отчета.
 
-    ![](media/service-report-open/power-bi-edit-report.png)
+    ![Редактор отчетов со значком редактирования отчета](media/service-report-open/power-bi-edit-report.png)
 
 ## <a name="create-a-brand-new-report-from-a-dataset"></a>Создание нового отчета из набора данных
 Кроме того, открыть отчет можно из набора данных. При запуске из набора данных холст отчета будет пустым. Такой метод рекомендуется для *авторов*, которым нужно создать отчет на основе их собственного набора данных. Как и в примере выше, чтобы продолжить, загрузите [пример приложения для продаж и маркетинга](sample-datasets.md).
 
 1. Запустите рабочую область с набором данных, который вы будете использовать как основу для отчета.
 
-   ![](media/service-report-open/power-bi-workspace.png)
+   ![левая панель навигации, отображающая рабочие области приложений](media/service-report-open/power-bi-workspace.png)
 
 2. Выберите вкладку **Наборы данных**, чтобы открыть список всех наборов данных в этой рабочей области. Этот список просмотра содержимого называется **Наборы данных**.
    
-   ![](media/service-report-open/power-bi-dataset.png)
+   ![список наборов данных](media/service-report-open/power-bi-dataset.png)
 
 1. Найдите набор данных и щелкните значок **Создать отчет**, чтобы открыть набор данных в режиме правки. Если у вас нет разрешений на редактирование для набора данных, вы не сможете открыть его. 
    
-    ![](media/service-report-open/power-bi-create-report.png)
+    ![набор данных со значком "Создать отчет"](media/service-report-open/power-bi-create-report.png)
 
 3. Набор данных откроется в редакторе отчетов. Справа отобразятся поля данных, готовые к изучению и созданию визуализаций. 
 
-   ![](media/service-report-open/power-bi-blank-canvas.png)
+   ![Холст отчетов](media/service-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Другие способы открытия отчета
 Когда вы освоитесь с навигацией в службе Power BI, вы сможете выбрать для себя наиболее удобные рабочие процессы. Другие способы доступа к отчетам:

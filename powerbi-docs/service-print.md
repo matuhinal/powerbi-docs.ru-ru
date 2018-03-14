@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Печать из службы Power BI
 Печать всей панели мониторинга, плитки на панели мониторинга, страницы отчета или визуального элемента отчета из службы Power BI. Отчеты можно распечатывать только постранично, весь отчет сразу распечатать нельзя.
@@ -41,25 +41,24 @@ ms.lasthandoff: 02/24/2018
 1. Откройте панель мониторинга, которую хотите напечатать.
 2. В правом верхнем углу щелкните многоточие (...) и выберите **Печать панели мониторинга**.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Параметр "Печать панели мониторинга"](media/service-print/pbi_print_dash_ellipses.png)
 3. Откроется окно печати для браузера. Выберите параметры и место назначения печати и нажмите **Печать**.
    
    > [!NOTE]
    > Внешний вид диалогового окна печати зависит от вашего браузера.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![диалоговое окно печати](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Печать плитки на панели мониторинга
-1. [Откройте плитку в режиме фокусировки](service-focus-mode.md), нажав кнопку с многоточием и выбрав значок фокусировки ![](media/service-print/power-bi-focus-icon.png).
+1. [Откройте плитку в режиме фокусировки](service-focus-mode.md), нажав кнопку с многоточием и выбрав значок фокусировки ![значок фокусировки](media/service-print/power-bi-focus-icon.png).
    
-    ![](media/service-print/menu-options.png)
-2. Откройте плитку в [полноэкранном режиме](service-fullscreen-mode.md), щелкнув соответствующий значок ![](media/service-print/power-bi-full-screen-icon.png) в верхней области навигации.
+    ![меню с многоточием](media/service-print/menu-options.png)
+2. Откройте плитку в [полноэкранном режиме](service-fullscreen-mode.md), щелкнув соответствующий значок ![значок полноэкранного режима](media/service-print/power-bi-full-screen-icon.png) в верхней области навигации.
 3. Наведите указатель мыши на плитку, чтобы открыть меню "Параметры".
    
-    ![](media/service-print/menu-options-new.png)
-4. Выберите значок "Печать" ![](media/service-print/print-icon.png).     
+    ![меню параметров в полноэкранном режиме](media/service-print/menu-options-new.png)
+4. Щелкните значок печати  ![значок печати](media/service-print/print-icon.png) .     
    
    > [!NOTE]
    > Внешний вид диалогового окна печати зависит от вашего браузера.
@@ -72,7 +71,7 @@ ms.lasthandoff: 02/24/2018
 1. Откройте отчет в режиме чтения или редактирования.
 2. Чтобы напечатать текущую страницу отчета, выберите **Файл** > **Печать**.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Меню "Файл" Power BI](media/service-print/power-bi-print.png)
 3. Откроется окно печати для браузера.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ ms.lasthandoff: 02/24/2018
    > 
 
 ## <a name="print-a-report-visual"></a>Печать визуального элемента отчета
-1. [Откройте визуальный элемент в режиме фокусировки](service-focus-mode.md), наведя указатель на плитку и выбрав значок фокусировки ![](media/service-print/power-bi-focus-icon.png) в правом верхнем углу.
+1. [Откройте визуальный элемент в режиме фокусировки](service-focus-mode.md), наведя указатель на плитку и выбрав значок фокусировки ![значок фокусировки](media/service-print/power-bi-focus-icon.png) в правом верхнем углу.
 2. Выполните шаги 2–3 в разделе *Печать страницы отчета* выше.
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок

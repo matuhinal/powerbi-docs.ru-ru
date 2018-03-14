@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Приобретение Power BI Pro
 Служба Power BI Pro предназначена для пользователей, которые публикуют отчеты, вместе используют панели мониторинга, совместно работают с коллегами в рабочих областях и принимают участие в других похожих действиях, например имеют возможность:
@@ -63,7 +64,7 @@ ms.lasthandoff: 01/30/2018
 > В связи с выпуском Power BI Premium и изменениями бесплатной версии Power BI от 1 июня 2017 года вы сможете приобрести расширенную пробную версию Power BI Pro. Дополнительные сведения см. в статье [Активация расширенной пробной версии Power BI Pro](service-extended-pro-trial.md).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Внешний вид и интерфейс службы
-Чтобы при работе со службой убедиться в том, что у вас пробная учетная запись Pro, нажмите на значок **шестеренки* и выберите **Управление личным хранилищем**.
+Чтобы при работе со службой проверить, имеется ли у вас пробная учетная запись Pro, нажмите на значок **шестеренки** и выберите **Manage personal storage** (Управление личным хранилищем).
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

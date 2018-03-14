@@ -19,10 +19,10 @@ ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 2936ac75684e4efe1870c556b27fcbdbc77d17ec
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Оптимизация данных для быстрого анализа данных в Power BI
 Хотите улучшить результаты быстрого анализа данных?  Если вы являетесь владельцем набора данных, попробуйте один из следующих способов:

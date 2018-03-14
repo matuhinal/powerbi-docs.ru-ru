@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Включение функции вопросов и ответов для активных подключений
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Что такое локальный шлюз данных?  Что такое активное подключение?
@@ -44,15 +45,15 @@ ms.lasthandoff: 01/19/2018
 ## <a name="enable-qa"></a>Включить вопросы и ответы
 Настроив шлюз данных, подключитесь к данным из Power BI.  Создайте панель мониторинга на основе локальных данных или отправьте PBIX-файл, использующий локальные данные.  Кроме того, локальные данные можно использовать в панелях мониторинга, отчетах и наборах данных, к которым вам предоставили доступ.
 
-1. В правом верхнем углу экрана Power BI щелкните значок шестеренки ![](media/service-q-and-a-direct-query/power-bi-cog.png) и выберите **Параметры**.
+1. В правом верхнем углу экрана Power BI щелкните значок шестеренки ![значок шестеренки](media/service-q-and-a-direct-query/power-bi-cog.png) и выберите пункт **Settings** (Параметры).
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Меню параметров](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Выберите **наборы данных** и укажите, какой набор данных необходимо включить для функции вопросов и ответов.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Экран наборов данных в меню "Параметры"](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Разверните пункт **Вопросы и ответы и Cortana**, установите флажок **Включить вопросы и ответы для этого набора данных** и выберите **Применить**.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Развернутая область вопросов и ответов](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Какие данные кэшируются и каким образом осуществляется защита конфиденциальности?
 При включении функции вопросов и ответов для локальных данных подмножество ваших данных кэшируется в службе. Это обеспечивает адекватную скорость работы функции вопросов и ответов. Служба Power BI исключает значения, длина которых превышает 24 символа. Кэш удаляется в течение нескольких часов после отключения функции вопросов и ответов, когда вы снимаете флажок **Разрешить доступ к разделу "Вопросы и ответы" для этого набора данных** или удаляете свой набор данных.

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Оповещения о данных в службе Power BI
 Вы можете настроить оповещения, уведомляющие вас о том, что данные в панелях мониторинга выходят за пределы заданного порога. 
@@ -31,7 +32,7 @@ ms.lasthandoff: 12/21/2017
 
 Видеть настроенные вами оповещения можете только вы (даже если доступ к панели мониторинга предоставлен другим пользователям). Оповещения о данных полностью синхронизированы на всех платформах. Их можно настроить и просматривать [в мобильных приложениях Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) и службе Power BI. Они недоступны для Power BI Desktop. Оповещения можно даже [автоматизировать и интегрировать с Microsoft Flow](https://flow.microsoft.com) - [попробовать](service-flow-integration.md).
 
-![](media/service-set-data-alerts/powerbi-alert-types-new.png)
+![плитки](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
 > Уведомления на основе данных содержат сведения о данных. Если вы просматриваете данные Power BI на мобильном устройстве и это устройство украдено, рекомендуем отключить все правила генерации оповещений на основе данных с помощью службы Power BI.
@@ -47,15 +48,15 @@ ms.lasthandoff: 12/21/2017
 
 1. Перейдите на панель мониторинга. Щелкните многоточие на плитке панели мониторинга с датчиком, ключевым показателем эффективности или карточкой.
    
-   ![](media/service-set-data-alerts/powerbi-card.png)
-2. Выберите значок звонка ![](media/service-set-data-alerts/power-bi-bell-icon.png), чтобы добавить одно или несколько оповещений для показателя **Total stores** (Всего магазинов).
+   ![плитка "Всего магазинов"](media/service-set-data-alerts/powerbi-card.png)
+2. Выберите значок колокольчика ![значок оповещения](media/service-set-data-alerts/power-bi-bell-icon.png), чтобы добавить одно или несколько оповещений для показателя **Total stores** (Всего магазинов).
    
 1. Для начала щелкните **+Добавить правило оповещения**, переместите переключатель в положение **Вкл.** и укажите название оповещения. Заголовки позволяют легко распознать оповещения.
    
-   ![](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Окно управления оповещениями](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Прокрутите содержимое вниз и введите параметры оповещения.  В этом примере мы создадим оповещение, которое уведомляет нас один раз в сутки о превышении общим количеством магазинов порога в 100 штук. Оповещения будут появляться в Центре уведомлений. Кроме того, служба Power BI будет отправлять нам сообщения электронной почты.
    
-   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
+   ![Окно управления оповещениями, установка порогового значения](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Нажмите кнопку **Сохранить**.
 
 ## <a name="receiving-alerts"></a>Получение оповещений
@@ -65,13 +66,13 @@ ms.lasthandoff: 12/21/2017
 
 1. Если вы включили отправку оповещений на электронную почту, в ваш ящик придет примерно такое сообщение:
    
-   ![](media/service-set-data-alerts/powerbi-alerts-email.png)
+   ![Оповещение по электронной почте](media/service-set-data-alerts/powerbi-alerts-email.png)
 2. Power BI добавляет сообщение в ваш **Центр уведомлений**, а также значок нового оповещения на соответствующую плитку.
    
-   ![](media/service-set-data-alerts/powerbi-alert-notifications.png)
+   ![Значок уведомления в службе Power BI](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. Чтобы просмотреть подробные сведения об оповещении, откройте свой Центр уведомлений.
    
-    ![](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![чтение оповещения](media/service-set-data-alerts/powerbi-alert-notfication.png)
    
    > [!NOTE]
    > Оповещения отправляются только при обновлении данных. При обновлении данных Power BI проверяет, настроены ли для них оповещения. Если значение достигает заданного порога, оповещение срабатывает.
@@ -82,23 +83,23 @@ ms.lasthandoff: 12/21/2017
 Управлять оповещениями можно разными способами: непосредственно на плитке панели мониторинга, в меню параметров Power BI, а также на соответствующих плитках в [мобильном приложении Power BI для iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) или [мобильном приложении Power BI для Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Непосредственно с плитки
-1. Если вам нужно изменить или удалить оповещение для плитки, откройте окно **Управление оповещениями**, выбрав значок звонка ![](media/service-set-data-alerts/power-bi-bell-icon.png). Отобразятся все оповещения, заданные вами для этой плитки.
+1. Если нужно изменить или удалить оповещение для плитки, снова откройте окно **Manage alerts** (Управление оповещениями), выбрав значок колокольчика ![значок оповещения](media/service-set-data-alerts/power-bi-bell-icon.png). Отобразятся все оповещения, заданные вами для этой плитки.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts.png).
+    ![Окно управления оповещениями](media/service-set-data-alerts/powerbi-see-alerts.png).
 2. Чтобы изменить оповещение, нажмите на стрелку рядом с его названием.
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
+    ![стрелка рядом с именем оповещения](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
 3. Чтобы удалить оповещение, выберите значок корзины справа от его названия.
    
-      ![](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
+      ![выбранный значок корзины](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>Меню параметров Power BI
 1. Выберите значок шестеренки в строке меню Power BI.
    
-    ![](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![значок шестеренки](media/service-set-data-alerts/powerbi-gear-icon.png).
 2. В разделе **Параметры** выберите **Оповещения**.
    
-    ![](media/service-set-data-alerts/powerbi-alert-settings.png)
+    ![Вкладка оповещений в окне параметров](media/service-set-data-alerts/powerbi-alert-settings.png)
 3. Здесь можно включать, отключать и удалять оповещения, а также открывать окно **Управление оповещениями** для внесения изменений.
 
 ## <a name="tips-and-troubleshooting"></a>Советы и устранение неполадок

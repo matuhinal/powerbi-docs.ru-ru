@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ea4dfaf8678e19894c1947282197d7e14cfaa944
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Удаление содержимого в службе Power BI
 В этой статье показано, как удалять панели мониторинга, отчеты, книги, наборы данных, приложения, визуализации и рабочие области в службе Power BI.
@@ -36,21 +36,21 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="to-delete-a-dashboard"></a>Удаление информационной панели
 1. В рабочей области перейдите на вкладку **Информационные панели**.
-2. Найдите информационную панель, которую необходимо удалить, и щелкните значок удаления ![](media/service-delete/power-bi-delete-icon.png).
+2. Найдите информационную панель, которую необходимо удалить, и щелкните значок удаления ![значок удаления](media/service-delete/power-bi-delete-icon.png).
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![видео](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Удаление отчета
 При удалении отчета не происходит удаление набора данных, являющегося его основой.  Все визуализации, закрепленные из отчета, не затрагиваются — они остаются на информационной панели до тех пор, пока не вы не удалите их по отдельности.
 
 ### <a name="to-delete-a-report"></a>Удаление отчета
 1. В рабочей области перейдите на вкладку **Отчеты**.
-2. Найдите отчет, который необходимо удалить, и щелкните значок удаления ![](media/service-delete/power-bi-delete-icon.png).   
+2. Найдите отчет, который необходимо удалить, и щелкните значок удаления   ![значок удаления](media/service-delete/power-bi-delete-icon.png).   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![вкладка "Отчеты" рабочей области](media/service-delete/power-bi-delete-reportnew.png)
 3. Подтвердите удаление.
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![Диалоговое окно удаления отчета](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > Если отчет является частью [пакета содержимого](service-organizational-content-pack-introduction.md), его нельзя удалить с помощью этого способа.  Дополнительные сведения см. в статье [Удаление подключения к пакету содержимого организации в Power BI](service-organizational-content-pack-disconnect.md).
@@ -64,12 +64,12 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="to-delete-a-workbook"></a>Удаление книги
 1. В рабочей области перейдите на вкладку **Книги**.
-2. Найдите книгу, которую необходимо удалить, и щелкните значок удаления ![](media/service-delete/power-bi-delete-report2.png).
+2. Найдите книгу, которую необходимо удалить, и щелкните значок удаления ![значок удаления](media/service-delete/power-bi-delete-report2.png) .
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![Вкладка "Книги"](media/service-delete/power-bi-delete-workbooknew.png)
 3. Подтвердите удаление.
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![Диалоговое окно удаления книги](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Удаление набора данных
 Наборы данных можно удалить. Но при удалении набора данных также удаляются все плитки отчетов и панелей мониторинга, содержащие данные из этого набора данных.
@@ -80,13 +80,13 @@ ms.lasthandoff: 02/24/2018
 1. В рабочей области перейдите на вкладку **Наборы данных**.
 2. Найдите набор данных, который необходимо удалить, и щелкните многоточие (...).  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![вкладка "Наборы данных"](media/service-delete/power-bi-delete-datasetnew.png)
 3. В раскрывающемся списке выберите **Удалить**.
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![меню с многоточием](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Подтвердите удаление.
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![Диалоговое окно удаления панели мониторинга](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Удаление рабочей области приложения
 > [!WARNING]
@@ -99,13 +99,13 @@ ms.lasthandoff: 02/24/2018
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Удаление рабочей области приложения (администратор)
 1. На левой панели навигации выберите **Рабочие области**.
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![Рабочие области приложений](media/service-delete/power-bi-delete-workspace.png)
 2. Щелкните многоточие (...) справа от рабочей области, которую необходимо удалить, и выберите **Edit workspace** (Изменить рабочую область).
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![меню с многоточием > Изменить рабочую область](media/service-delete/power-bi-edit-workspace.png)
 3. В окне **Edit workspace** (Изменить рабочую область) выберите **Удалить рабочую область** > **Удалить**.
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![удаление рабочей области](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>Удаление рабочей области приложения из списка
 Если вы больше не хотите входить в рабочую область приложения, из нее можно ***выйти***, после чего она будет удалена из списка. Выход из рабочей области не влияет на других ее участников.  
@@ -118,7 +118,7 @@ ms.lasthandoff: 02/24/2018
 1. Войдите в рабочую область, которую требуется удалить.
 2. В правом верхнем углу щелкните многоточие (...) и выберите **Leave workspace** (Выйти из рабочей области) > **Выйти**.
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![выход из рабочей области](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > Параметры, доступные в раскрывающемся списке, зависят от того, являетесь ли вы администратором или участником рабочей области приложения.
@@ -134,7 +134,7 @@ ms.lasthandoff: 02/24/2018
 1. На левой панели навигации выберите **Приложения**, чтобы открыть страницу со списком приложений.
 2. Наведите указатель мыши на название приложения, которое необходимо удалить, и щелкните значок удаления ![](media/service-delete/power-bi-delete-report2.png).
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![выбор страницы "Приложения"](media/service-delete/power-bi-delete-app.png)
 
    Если вы случайно удалили приложение, его можно восстановить несколькими способами.  Например, вы можете попросить автора приложения повторно отправить его вам, найти письмо со ссылкой на это приложение, проверить наличие уведомления для приложения в [центре уведомлений](service-notification-center.md) или проверить [AppSource](service-install-use-apps.md) организации.
 

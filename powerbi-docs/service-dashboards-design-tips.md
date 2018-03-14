@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Советы по созданию эффективной панели мониторинга Power BI
 Создав панель мониторинга и добавив некоторые плитки, подумаем о том, как сделать панель мониторинга не просто привлекательной, но и функциональной. Как правило, это означает вывод наиболее важных сведений на передний план в четком и лаконичном представлении.
@@ -50,7 +51,7 @@ ms.lasthandoff: 01/03/2018
 
 ### <a name="make-the-most-important-information-biggest"></a>Выделите наиболее важные сведения.
 Если весь текст и визуализации на панели мониторинга имеют один и тот же размер, читателям будет сложно определить, что является самым важным. Например, визуализация карточки — это отличный способ отображения важных чисел:  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![Визуализация в виде карточки](media/service-dashboards-design-tips/pbi_card.png)
 
 Но не забудьте предоставить контекст.  
 

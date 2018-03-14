@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Навигация: поиск, обнаружение и сортировка содержимого в службе Power BI
 Есть множество способов навигации по содержимому в службе Power BI. Содержимое в рабочих областях распределяется по типу: панели мониторинга, отчеты, книги и наборы данных.  Кроме того, содержимое упорядочено по принципу использования: избранное, недавно просмотренное, основное, приложения и содержимое, к которому предоставлен общий доступ. Различные подходы к упорядочению содержимого позволяют быстро находить нужные данные в службе Power BI.  
@@ -34,26 +34,26 @@ ms.lasthandoff: 02/24/2018
 
 В службе Power BI содержимое разделено по типам: панели мониторинга, отчеты, книги и наборы данных. При выборе рабочей области вы увидите, как оно упорядочено. В этом примере рабочая область с названием Sales and marketing app sample (Пример приложения для продаж и маркетинга) содержит 2 панели мониторинга, 6 отчетов, 1 книгу и 5 наборов данных.
 
-![](media/service-navigation-search-filter-sort/workspaces.gif)
+![видео](media/service-navigation-search-filter-sort/workspaces.gif)
 
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Поиск и сортировка содержимого в рабочих областях
 В рабочей области находятся четыре вкладки содержимого: "Информационные панели", "Отчеты", "Книги" и "Наборы данных".  Каждая из этих вкладок содержит поле поиска и кнопку сортировки.  Если вы только начали работать со службой Power BI, это может вам не пригодиться, так как на вкладке будет расположен один или два элемента.  Но со временем список содержимого может стать значительно большим.  Элементы поиска и сортировки значительно упростят поиск необходимого содержимого.
 
-![](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
+![вкладка панелей мониторинга](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 
 * Введите условие поиска, чтобы найти соответствия, которые отобразятся в следующем окне:
   
-   ![](media/service-navigation-search-filter-sort/power-bi-search2.png)
+   ![ввод условия поиска](media/service-navigation-search-filter-sort/power-bi-search2.png)
 * Нажмите кнопку сортировки, чтобы отобразить варианты для текущей страницы. Эти варианты можно отсортировать по имени и владельцу.
   
-   ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
+   ![меню сортировки](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
 ## <a name="navigation-using-the-left-navbar"></a>Навигация с помощью панели навигации слева
-На панели навигации слева представлено классифицированное содержимое. Это обеспечивает простой и быстрый поиск нужных данных.  
+В левой панели навигации представлено классифицированное содержимое. Это обеспечивает простой и быстрый поиск нужных данных.  
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+![левая панель навигации](media/service-navigation-search-filter-sort/power-bi-newnav.png)
 
 
 
@@ -61,7 +61,7 @@ ________________________________________
 
 Кроме того, можно отметить содержимое как [избранное](service-dashboard-favorite.md) и [основное](service-dashboard-featured.md). Чтобы упорядочить содержимое, одну из панелей мониторинга, которую вы просматриваете чаще всего, можно сделать *основной*. При каждом открытии службы Power BI сначала будет отображаться эта информационная панель. У вас есть часто используемые информационные панели и приложения? Если вы настроите их как избранные, они всегда будут отображаться на панели навигации слева.
 
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
+![Всплывающий элемент "Избранное"](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок

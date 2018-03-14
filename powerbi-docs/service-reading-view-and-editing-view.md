@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Режимы чтения и правки в отчетах службы Power BI
 В службе Power BI (не в Power BI Desktop) есть два режима для просмотра и взаимодействия с отчетами: чтения и правки. Режим чтения доступен для всех и специально разработан для *пользователей* данных, а режим правки доступен только *авторам* и владельцам отчетов. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![изображение: создатели отчетов и те, кто их использует](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Режим чтения отчетов
 
@@ -83,17 +84,17 @@ ms.lasthandoff: 01/19/2018
 
 1. По умолчанию отчет, как правило, открывается в режиме чтения. Вы можете узнать, что находитесь в режиме чтения, если видите параметр **Изменить отчет**. Если параметр **Изменить отчет** неактивен, у вас нет разрешений открывать отчет в режиме правки.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Параметр "Изменить отчет" неактивен](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Если параметр **Изменить отчет** активен, выберите его, чтобы открыть отчет в режиме правки. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Параметр "Изменить отчет"](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    Теперь отчет используется в режиме правки с теми же [параметрами отображения](power-bi-report-display-settings.md), с которыми вы работали в режиме чтения.
 
 2. Чтобы вернуться в режим чтения, щелкните **Режим чтения** на панели навигации вверху.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Параметр "Режим чтения"](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Изменение и удаление плитки на информационной панели
 
@@ -54,23 +55,23 @@ ms.lasthandoff: 01/23/2018
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Создание визуализации и закрепление ее на панели мониторинга
 1. На панели мониторинга "Анализ расходов на ИТ" выберите плитку "Сумма", чтобы открыть отчет.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Плитка "Сумма"](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Перейдите в режиме редактирования отчета, выбрав пункт **Изменить отчет** в строке меню сверху.
 
 3. Добавьте новую страницу отчета, выбрав значок "+" (плюс) в нижней части отчета.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![значок плюса](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. На панели "Поля" выберите **Факт > Сумма** и **Область деятельности > Область деятельности**.
  
 5. На панели "Визуализации" выберите значок кольцевой диаграммы, чтобы преобразовать визуализацию в кольцевую диаграмму.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Панель визуализаций](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Выберите значок булавки и закрепите кольцевую диаграмму на примере панели мониторинга "Анализ расходов на ИТ".
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![наведение указателя мыши на плитку](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Когда появится сообщение об успешном выполнении, щелкните **Перейти к панели мониторинга**. Вам будет предложено сохранить изменения. Нажмите кнопку **Сохранить**.
 
@@ -86,24 +87,23 @@ ms.lasthandoff: 01/23/2018
 ## <a name="resize-the-tile"></a>Изменение размера плитки
 Плитки могут быть самых разных размеров — от 1x1 единиц для 5x5. Щелкните и перетащите маркер (в правом нижнем углу), чтобы изменить размер плитки.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![видео](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>Меню многоточия (...)
 
 1. Щелкните многоточие (...) в правом верхнем углу плитки. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![плитка с многоточием](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Наведите указатель мыши на плитку "Учетная запись" и щелкните многоточие, чтобы отобразить варианты действий. Доступные возможности зависят от типа плитки.  Например, варианты для активной плитки отличаются от тех, что доступны для стандартной плитки визуализации. Если панель мониторинга предоставлена вам другим лицом (то есть вы не являетесь владельцем), вариантов будет меньше.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![меню параметров с многоточием](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. Выберите **Изменить сведения**, чтобы открыть окно "Сведения о плитке". 
 
     Измените заголовок плитки и поведение по умолчанию.  Например, можно сделать так, чтобы при выборе плитки *потребитель* попадал не в отчет, для которого была создана эта плитка, а на новую панель мониторинга.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ ms.lasthandoff: 01/23/2018
 ### <a name="rename-the-tile"></a>Переименование плитки
 В верхней части окна "Сведения о плитке"в поле **Заголовок** введите **Потраченная сумма**.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Окно сведений о плитке](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ ms.lasthandoff: 01/23/2018
 
 2. Щелкните **Установить ссылку на панель мониторинга или отчет в текущей рабочей области**, а затем выберите нужный вариант в раскрывающемся меню.  В этом примере выбран пример панели мониторинга "Управление персоналом". Если у вас еще нет этого примера в рабочей области, добавьте его и вернитесь к этому шагу позже, или же просто выберите здесь другую панель мониторинга. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Диалоговое окно "Функции"](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Нажмите кнопку **Применить**.
 
 4. Для плитки отобразится новый заголовок.  И теперь, когда вы выбираете эту плитку, Power BI открывает панель мониторинга "Управление персоналом". 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![заголовок плитки](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Закрепление плитки на другой информационной панели
-1. В меню, которое открывается при нажатии многоточия, выберите действие **Закрепить плитку**![](media/service-dashboard-edit-tile/pinnooutline.png).
+1. В меню, которое открывается при нажатии многоточия, выберите действие **Закрепить плитку** ![значок закрепления](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Вы можете выбрать, где закрепить копию выбранной плитку: на существующей или на новой панели мониторинга. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Выберите **Закрепить**.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Удаление плитки
-1. Чтобы полностью удалить плитку из панели мониторинга, выберите действие **Удалить плитку**![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) в раскрывающемся меню с многоточием. 
+1. Чтобы полностью удалить плитку из панели мониторинга, выберите действие **Удалить плитку** ![значок удаления](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) в раскрывающемся меню с многоточием. 
 
 2. При удалении плитки базовая визуализация не удаляется. Откройте базовый отчет, щелкнув плитку "Сумма". Откройте последнюю страницу отчета, чтобы убедиться, что базовая визуализация сохранилась в отчете. 
 

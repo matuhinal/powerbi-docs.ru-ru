@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 527978a3559abdc7c46b08569af40b769e9054e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow и Power BI
 
@@ -46,44 +46,44 @@ ms.lasthandoff: 02/24/2018
 1. Войдите в Microsoft Flow (flow.microsoft.com).
 2. Выберите **Мои потоки**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Строка меню "Последовательности"](media/service-flow-integration/power-bi-my-flows.png)
 3. Выберите **Создать из шаблона**.
    
-    ![](media/service-flow-integration/power-bi-template.png)
+    ![Строка меню "Мои последовательности"](media/service-flow-integration/power-bi-template.png)
 4. С помощью поля поиска найдите шаблоны Power BI и выберите **Отправка электронного письма кому угодно при активации оповещения о данных Power BI > Продолжить**.
    
-    ![](media/service-flow-integration/power-bi-flow-alert.png)
+    ![результаты поиска](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>Создание последовательности
 Этот шаблон содержит один триггер (оповещение о данных Power BI для новых олимпийских медалей сборной Ирландии) и одно действие (отправка сообщения электронной почты). При выборе поля в Microsoft Flow отобразится динамическое содержимое, которое можно использовать.  В этом примере мы включили в текст сообщения значение и URL-адрес плитки.
 
-![](media/service-flow-integration/power-bi-template1.png)
+![шаблон последовательности](media/service-flow-integration/power-bi-template1.png)
 
 1. В раскрывающемся списке триггера выберите оповещение о данных Power BI. Выберите **New medal for Ireland** (Новая медаль для Ирландии). Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](service-set-data-alerts.md).
    
-   ![](media/service-flow-integration/power-bi-trigger-flow.png)
+   ![раскрывающийся список оповещений](media/service-flow-integration/power-bi-trigger-flow.png)
 2. Введите один или несколько допустимых адресов электронной почты, а затем выберите **Изменить** (см. ниже) или **Добавить динамическое содержимое**. 
    
-   ![](media/service-flow-integration/power-bi-flow-email.png)
+   ![Экран отправки электронных сообщений](media/service-flow-integration/power-bi-flow-email.png)
 
 3. Flow создаст заголовок и сообщение, которые можно сохранить или изменить. Вы можете использовать все значения, заданные при создании оповещения в Power BI: просто поместите курсор и выберите нужный элемент в серой выделенной области. 
 
-   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+   ![Экран отправки электронных сообщений](media/service-flow-integration/power-bi-flow-email-default.png)
 
 1.  Например, если в Power BI вы создали заголовок оповещения **We won another medal** (Мы получили еще одну медаль), можно выбрать **Заголовок оповещения**, чтобы добавить этот текст в поле темы своего сообщения электронной почты.
 
-    ![](media/service-flow-integration/power-bi-flow-message.png)
+    ![создание текста электронного сообщения](media/service-flow-integration/power-bi-flow-message.png)
 
     Вы также можете использовать текст сообщения по умолчанию или создать собственный. В примере выше приводится несколько изменений в сообщении.
 
 1. Когда все будет готово, выберите **Создать поток** или **Сохранить поток**.  Последовательность будет создана и проанализирована.  При обнаружении ошибок в Microsoft Flow появятся соответствующие сообщения.
 2. Если будут обнаружены ошибки, выберите **Изменить поток** для их исправления. В противном случае выберите **Готово**, чтобы выполнить новую последовательность.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![сообщение об успехе](media/service-flow-integration/power-bi-flow-running.png)
 5. Когда оповещение о данных активируется, на указанные вами адреса будут отправлены сообщения электронной почты.  
    
-   ![](media/service-flow-integration/power-bi-flow-email2.png)
+   ![оповещение по электронной почте](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Создание последовательности, использующей Power BI, с нуля
 В этой задаче мы создадим с нуля простую последовательность, которая активируется с помощью оповещения о данных (уведомления) Power BI.
@@ -91,28 +91,28 @@ ms.lasthandoff: 02/24/2018
 1. Войдите в Microsoft Flow.
 2. Выберите **Мои потоки** > **Создать с нуля**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Верхняя строка меню "Последовательность"](media/service-flow-integration/power-bi-my-flows.png)
 3. С помощью поля поиска найдите триггер Power BI и выберите **Power BI — When a data driven alert is triggered** (Power BI — при активации оповещения о данных).
 
 ### <a name="build-your-flow"></a>Создание последовательности
 1. В раскрывающемся списке выберите имя оповещения.  Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores2.png)
+    ![выбор имени оповещения](media/service-flow-integration/power-bi-totalstores2.png)
 2. Выберите **Новый шаг** > **Добавить действие**.
    
-   ![](media/service-flow-integration/power-bi-new-step.png)
+   ![добавление нового шага](media/service-flow-integration/power-bi-new-step.png)
 3. С помощью поиска найдите **Outlook** и выберите **Создать событие**.
    
-   ![](media/service-flow-integration/power-bi-create-event.png)
+   ![создание последовательности](media/service-flow-integration/power-bi-create-event.png)
 4. Заполните поля в событии. При выборе поля в Microsoft Flow отобразится динамическое содержимое, которое можно использовать.
    
-   ![](media/service-flow-integration/power-bi-flow-event.png)
+   ![продолжение создания последовательности](media/service-flow-integration/power-bi-flow-event.png)
 5. Когда все будет готово, выберите **Create flow**.  Microsoft Flow сохранит и проанализирует последовательность. Если ошибок нет, выберите **Готово**, чтобы выполнить последовательность.  Новая последовательность будет добавлена на страницу **Мои потоки**.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![Завершение последовательности](media/service-flow-integration/power-bi-flow-running.png)
 6. Если последовательность активируется с помощью оповещения о данных Power BI, вы получите в Outlook примерно следующее уведомление о событии:
    
-    ![](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Последовательность запускает уведомления Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Get started with Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/) (Приступая к работе с Microsoft Flow)

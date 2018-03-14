@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
 Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. Хотя плитки информационной панели нельзя создавать и закреплять в Power BI Mobile, их можно [просматривать и предоставлять для общего доступа](mobile-tiles-in-the-mobile-apps.md). В Power BI Mobile можно [добавлять фотографии на информационную панель с помощью приложений для iPhone](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Плитки панели мониторинга
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Панель мониторинга Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Плитка представляет собой моментальный снимок данных, закрепленный на панели мониторинга. Плитку можно создать на основе отчета, набора данных, информационной панели, поля вопросов и ответов, Excel, а также служб SQL Server Reporting Services (SSRS) и многого другого.  На предыдущем снимке экрана показано множество различных плиток, закрепленных на информационной панели.
 
@@ -53,34 +54,34 @@ ms.lasthandoff: 01/03/2018
 
 Автономные плитки для изображений, текстовых полей, видео, потоковой передачи данных и веб-содержимого можно создать непосредственно на панели мониторинга с помощью команды [Добавить плитку](service-dashboard-add-widget.md).
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Значок добавления плитки](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Взаимодействие с плитками на информационной панели
 ### <a name="move-and-resize-a-tile"></a>Перемещение и изменение размеров плитки
-Захватите плитку и [переместите ее на информационной панели](service-dashboard-edit-tile.md). Наведите указатель мыши на маркер ![](media/service-dashboard-tiles/resize-handle.jpg) и выберите его для изменения размеров плитки.
+Захватите плитку и [переместите ее на информационной панели](service-dashboard-edit-tile.md). Наведите указатель мыши на маркер ![маркер](media/service-dashboard-tiles/resize-handle.jpg) и выберите его для изменения размеров плитки.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Изменение ее внешнего вида и поведения плитки
 1. Наведите указатель на плитку , чтобы отобразить многоточие.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![плитка с многоточием](media/service-dashboard-tiles/ellipses_new.png)
 2. Выберите многоточие, чтобы открыть меню действий плитки.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![значок многоточия](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Здесь можно выполнять следующие действия:
    
-   * [открыть отчет, который использовался для создания этой плитки ](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg);  
+   * [открыть отчет, который использовался для создания этой плитки ](service-reports.md) ![значок отчета](media/service-dashboard-tiles/chart-icon.jpg);  
    
-   * [открыть лист, который использовался для создания этой плитки ](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png);  
+   * [открыть лист, который использовался для создания этой плитки ](service-reports.md) ![значок листа](media/service-dashboard-tiles/power-bi-open-worksheet.png);  
      
-     * [просматривать плитку в режиме фокусировки ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg);  
-     * [экспортировать данные, используемые на плитке](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png);
-     * [изменять заголовок и подзаголовок, добавлять гиперссылку, отображать время последнего обновления](service-dashboard-edit-tile.md)![](media/service-dashboard-tiles/pencil-icon.jpg);
-     * [выполнять анализ ](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png);
-     * [закреплять плитку на другой информационной панели](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg);
-   * [удалять плитку](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png).
+     * [просматривать плитку в режиме фокусировки ](service-focus-mode.md) ![значок фокусировки](media/service-dashboard-tiles/fullscreen-icon.jpg);  
+     * [экспортировать данные, используемые на плитке](power-bi-visualization-export-data.md) ![значок экспорта данных](media/service-dashboard-tiles/export-icon.png);
+     * [изменять заголовок и подзаголовок, добавлять гиперссылку, отображать время последнего обновления](service-dashboard-edit-tile.md) ![значок редактирования](media/service-dashboard-tiles/pencil-icon.jpg);
+     * [запускать аналитику ](service-insights.md) ![значок аналитики](media/service-dashboard-tiles/power-bi-insights.png);
+     * [закреплять плитку на другой панели мониторинга ](service-pin-tile-to-another-dashboard.md)
+       ![значок закрепления](media/service-dashboard-tiles/pin-icon.jpg);
+     * [удалять плитку](service-dashboard-edit-tile.md)
+     ![значок удаления](media/service-dashboard-tiles/trash-icon.png).
 3. Чтобы закрыть меню действий, выберите пустую область на холсте.
 
 ### <a name="select-click-a-tile"></a>Выбор плитки

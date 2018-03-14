@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Устранение неполадок Кортаны для Power BI
 Эта статья входит в серию статей. Мы рекомендуем вам ознакомиться с тремя следующими статьями, если вы этого еще не сделали.
@@ -95,7 +96,7 @@ ms.lasthandoff: 12/21/2017
    В результате мы убедились, что Кортана **включена** в Power BI. Это указывает на проблему со стороны Windows, настроек языка Кортаны или на превышение максимального количества наборов данных (более 100).
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Не удается получить ответы из панели мониторинга?
-Ищете панель мониторинга, к которой вам предоставлен общий доступ?  В Power BI щелкните **Мне предоставлен доступ** и найдите имя панели мониторинга.  Затем введите это имя в поле *Utterances** (Реплика).
+Ищете панель мониторинга, к которой вам предоставлен общий доступ?  В Power BI щелкните **Мне предоставлен доступ** и найдите имя панели мониторинга.  Затем введите это имя в поле **Utterances** (Реплика).
 
 ![Окно "Мне предоставлен доступ" в Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

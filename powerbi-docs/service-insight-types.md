@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: c295eea46e6e8d182147f877548a385ce4602bad
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Типы аналитики, поддерживаемые в Power BI
 ## <a name="how-does-insights-work"></a>Как выполняется аналитика?
@@ -35,47 +36,47 @@ Power BI быстро ищет различные подмножества на�
 ## <a name="category-outliers-topbottom"></a>Провалы или всплески значений
 Выделяет случаи, когда при измерении по модели значения одного или двух членов измерения намного превышают значения остальных  
 
-![](media/service-insight-types/pbi_auto_insight_types_category_outliers.png)
+![Пример выбросов по категориям](media/service-insight-types/pbi_auto_insight_types_category_outliers.png)
 
 ## <a name="change-points-in-a-time-series"></a>Точки изменений во временных рядах
 Выделяет существенные изменения в тенденциях, наблюдаемых во временном ряде данных.
 
-![](media/service-insight-types/pbi_auto_insight_types_changepoint.png)
+![Пример точек изменений во временных рядах](media/service-insight-types/pbi_auto_insight_types_changepoint.png)
 
 ## <a name="correlation"></a>Корреляция
 Выявляет случаи корреляции  между несколькими показателями, нанесенными на график в зависимости от какого-либо измерения в наборе данных.
 
-![](media/service-insight-types/pbi_auto_insight_types_correlation.png)
+![Пример корреляции](media/service-insight-types/pbi_auto_insight_types_correlation.png)
 
 ## <a name="low-variance"></a>Низкая вариативность
 Выявляет случаи, когда точки данных близки к среднему значению.
 
-![](media/service-insight-types/power-bi-low-variance.png)
+![Пример низкой вариативности](media/service-insight-types/power-bi-low-variance.png)
 
 ## <a name="majority-major-factors"></a>Большинство (основные факторы)
 Находит случаи, когда большую часть общего значения можно свести к одному фактору, выполнив детализацию по другому параметру.  
 
-![](media/service-insight-types/pbi_auto_insight_types_majority.png)
+![Пример основных факторов](media/service-insight-types/pbi_auto_insight_types_majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>Общие тенденции во временных рядах
 Определяет восходящие и нисходящие тенденция в данных временных рядов.
 
-![](media/service-insight-types/pbi_auto_insight_types_trend.png)
+![Пример общих тенденций во временных рядах](media/service-insight-types/pbi_auto_insight_types_trend.png)
 
 ## <a name="seasonality-in-time-series"></a>Сезонность во временных рядах
 Находит повторяющийся рисунок в данных временных рядов, такие как недельная, месячная или годовая сезонность.
 
-![](media/service-insight-types/pbi_auto_insight_types_seasonality_new.png)
+![Пример сезонности](media/service-insight-types/pbi_auto_insight_types_seasonality_new.png)
 
 ## <a name="steady-share"></a>Постоянная доля
 Выделяет случаи иерархической корреляции между долей дочернего значения и суммарным значением родительского элемента в непрерывной переменной.
 
-![](media/service-insight-types/pbi_auto_insight_types_steadyshare.png)
+![Пример постоянной доли](media/service-insight-types/pbi_auto_insight_types_steadyshare.png)
 
 ## <a name="time-series-outliers"></a>Выбросы временных рядов
 Определяет, есть ли во временном ряде значения даты или времени, которые существенно отличаются от остальных значений даты и времени.
 
-![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
+![Пример выбросов временных рядов](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Аналитика Power BI](service-insights.md)

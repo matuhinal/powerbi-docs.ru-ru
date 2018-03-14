@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Избранные панели мониторинга, отчеты и приложения в службе Power BI
 Добавив содержимое в *Избранное*, вы сможете открывать его из всех своих рабочих областей.  Избранными обычно являются те элементы, которые вы просматриваете чаще всего.
@@ -42,31 +42,31 @@ ms.lasthandoff: 02/24/2018
 
 
 1. Откройте часто используемую панель мониторинга или отчет. Вы можете добавлять в *избранное* даже содержимое, предоставленное вам другими пользователями.
-2. В правом верхнем углу экрана службы Power BI выберите **Добавить в избранное** или значок звездочки ![](media/service-dashboard-favorite/power-bi-favorite-icon.png).
+2. В правом верхнем углу экрана службы Power BI выберите **Favorite** (Избранное) или нажмите значок звездочки ![значок звездочки](media/service-dashboard-favorite/power-bi-favorite-icon.png).
    
-   ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
+   ![Значок избранного](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
    Вы также можете добавить в избранное панель мониторинга или отчет на вкладке представления содержимого **Панели мониторинга** или **Отчеты** в вашей рабочей области.
    
-   ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
+   ![Вкладка панели мониторинга с желтой звездочкой](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Добавление приложения в *избранное*
 
 1. В левой области навигации выберите **Приложения**.
 
-  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![панель мониторинга](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
-2. Наведите указатель на приложение для показа дополнительных сведений.  Нажмите на значок звездочки ![](media/service-dashboard-favorite/power-bi-favorite-icon.png), чтобы сделать приложение избранным.
+2. Наведите указатель на приложение для показа дополнительных сведений.  Выберите значок звездочки, ![значок звездочки](media/service-dashboard-favorite/power-bi-favorite-icon.png)  чтобы добавить приложение в избранное.
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+   ![наведение указателя мыши на приложение](media/service-dashboard-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Работа с *избранным*
 1. Чтобы получить доступ к избранным панелям мониторинга, в любой рабочей области выберите стрелку справа от **Избранное**.  Отсюда вы можете выбрать избранный компонент и открыть его. Перечислены только пять избранных панелей мониторинга (в алфавитном порядке). Если у вас больше пяти избранных компонентов, выберите **Показать все**, чтобы открыть экран "Избранное" (см. пункт 2 ниже). 
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. Чтобы увидеть **все** содержимое, добавленное в избранное, в левой области навигации выберите **Избранное** или нажмите на значок ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
+   ![Всплывающий элемент "Избранное"](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
+2. Чтобы увидеть **все** содержимое, добавленное в избранное, в левой панели навигации выберите **Favorites** (Избранное) или нажмите значок добавления в избранное ![значок звездочки](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
    
-    ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
+    ![окно "Избранное"](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
    Здесь вы можете открыть содержимое, определить его владельцев и даже поделиться им с коллегами.
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 02/24/2018
 
 1. В области навигации слева выберите **Избранное**, чтобы открыть экран **Избранное**.
    
-   ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
+   ![Экран "Избранное"](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
 2. Нажмите на желтую звездочку рядом с содержимым, чтобы удалить его из избранного.
 
 > **Примечание**. Вы также можете удалить из избранного панель мониторинга, отчет или само приложение. Просто откройте содержимое и отмените выбор желтой звездочки.   

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Закрепление плитки на панели мониторинга Power BI из книги Excel
 Прежде чем можно будет закрепить плитку из книги Excel, эту книгу необходимо подключить к службе Power BI (app.powerbi.com). При подключении книги ее связанная доступная только для чтения версия добавляется в службу Power BI, что дает возможность закреплять диапазоны ячеек на панелях мониторинга. На панели мониторинга можно закрепить даже целый лист.  
@@ -42,35 +43,35 @@ ms.lasthandoff: 01/24/2018
 1. Отправьте книгу в OneDrive для бизнеса.
 2. В Power BI [подключитесь к этой книге](service-excel-workbook-files.md). Для этого выберите **Получить данные > Файлы > OneDrive для бизнеса** и перейдите в расположение, где сохранен файл Excel. Выберите файл и щелкните **Подключение > Подключиться**.
 
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+   ![Диалоговое окно "OneDrive для бизнеса"](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
-3. В Power BI книги добавляются на вкладку **Книги** рабочей области.  Значок ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) показывает, что это книга Excel, а желтая звездочка означает, что книга новая.
+3. В Power BI книги добавляются на вкладку **Книги** рабочей области.  Значок ![значок книги](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) показывает, что это книга Excel, а желтая звездочка означает, что книга новая.
    
     
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+   ![вкладка "Книги"](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Откройте книгу в Power BI, выбрав ее имя.
 
     Изменения, внесенные в книгу в Power BI, не сохраняются и не влияют на исходную книгу, которая находится в OneDrive для бизнеса. Изменения, внесенные в Power BI в результате сортировки, фильтрования или изменения значений, нельзя сохранить или закрепить. Если необходимо внести изменения, которые будут сохранены, выберите **Изменить** в правом верхнем углу, чтобы открыть книгу для редактирования в Excel Online или Excel. После изменений, внесенных таким образом, пройдет несколько минут, прежде чем обновятся плитки на панелях мониторинга.
    
    
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+   ![Excel Online в Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Закрепление диапазона ячеек на панели мониторинга
 Новую [плитку информационной панели](service-dashboard-tiles.md) можно добавить в том числе и из книги Excel в Power BI. Диапазоны можно закреплять из книг Excel, сохраненных в OneDrive для бизнеса или в другой библиотеке документов с общим доступом для группы пользователей. Диапазоны могут содержать данные, диаграммы, таблицы, сводные таблицы, сводные диаграммы и других компоненты Excel.
 
 1. Выделите ячейки, которые нужно закрепить на панели мониторинга.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. Щелкните значок закрепления ![](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png). 
+    ![выделение ячеек в книге Excel](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
+2. Выберите значок закрепления ![значок закрепления](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) . 
 3. Закрепите плитку на существующей или новой панели мониторинга. 
    
    * Существующая информационная панель: выберите имя панели в раскрывающемся списке.
    * Новая информационная панель: введите имя новой панели.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Выберите **Закрепить**. Сообщение об успешном выполнении (рядом с правым верхним углом экрана) позволяет узнать, что выбранный диапазон данных был добавлен на панель мониторинга в качестве плитки. 
    
-    ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
+    ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Выберите **Перейти к панели мониторинга**. Здесь можно [переименовать, изменить размер, связать и переместить](service-dashboard-edit-tile.md) закрепленную визуализацию. По умолчанию при выборе закрепленной плитки книга открывается в Power BI.
 
 ## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Закрепление всей таблицы или сводной таблицы на панели мониторинга
@@ -78,14 +79,14 @@ ms.lasthandoff: 01/24/2018
 
 Чтобы закрепить таблицу, выделите весь ее диапазон, включая заголовки.  Чтобы закрепить сводную таблицу, необходимо захватить все видимые части таблицы, включая фильтры, если они используются.
 
- ![](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
+ ![выбор ячеек](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
 
 На плитке, созданной из таблицы или сводной таблицы, отображается вся таблица.  Строки или столбцы, добавленные в исходную книгу, удаленные из нее или отфильтрованные, также добавляются, удаляются и фильтруются в плитке.
 
 ## <a name="view-the-workbook-linked-to-the-tile"></a>Просмотр книги, связанной с плиткой
 Щелчок по плитке открывает связанную с ней книгу в Power BI. Поскольку файл книги находится в приложении OneDrive для бизнеса ее владельца, для просмотра соответствующей книги также требуется разрешение на ее чтение. Если у вас его нет, появится сообщение об ошибке.  
 
- ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+ ![видео](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 Не поддерживаются следующие функции: Power BI использует службы Excel для извлечения плиток книги. Таким образом, из-за того, что некоторые функции Excel не поддерживаются в REST API служб Excel, эти функции не будут отображаться на плитках в Power BI. К таким функциям относятся, например, спарклайны, условное форматирование набора значков и срезы времени. Полный список неподдерживаемых функций см. в статье [Неподдерживаемые компоненты API REST служб Excel](http://msdn.microsoft.com/library/office/ff394477.aspx).

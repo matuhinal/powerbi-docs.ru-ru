@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: eb6c5c5c6ff010e8ed117c643e9763acfa73cfee
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Создание панели мониторинга Power BI из отчета
 Вы прочитали раздел [Панели мониторинга в Power BI](service-dashboards.md) и хотите создать свои собственные информационные панели. Существует много разных способов создавать панели мониторинга, среди которых: создание из отчета, с нуля, из набора данных, с помощью дублирования существующей панели мониторинга и многое другое.  
@@ -36,7 +36,7 @@ ms.lasthandoff: 01/29/2018
 >
 > 
 
-![](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![панель мониторинга](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Создание информационной панели путем закрепления визуальных элементов и изображений из отчета (видео)
 Посмотрите, как Аманда создает новую панель мониторинга с помощью закрепления визуализаций из отчета. Затем попробуйте сделать это самостоятельно, используя пример анализа закупок и выполняя действия из видео.
@@ -54,62 +54,62 @@ ms.lasthandoff: 01/29/2018
 3. Выберите **Моя рабочая область**.
 4. На левой панели навигации выберите **Получить данные**.
 
-    ![](media/service-dashboard-create/power-bi-get-data3.png)
+    ![левая панель навигации](media/service-dashboard-create/power-bi-get-data3.png)
 5. Выберите **Файлы**.
 
-   ![](media/service-dashboard-create/power-bi-select-files.png)
+   ![Получение файлов](media/service-dashboard-create/power-bi-select-files.png)
 6. Перейдите к расположению, в котором вы сохранили файл Excel с примером анализа закупок. Выберите файл и щелкните **Подключить**.
 
-   ![](media/service-dashboard-create/power-bi-connectnew.png)
+   ![подключение к файлам](media/service-dashboard-create/power-bi-connectnew.png)
 7. Для этого упражнения выберите **Импорт**.
 
-    ![](media/service-dashboard-create/power-bi-import.png)
+    ![Окно "OneDrive для бизнеса"](media/service-dashboard-create/power-bi-import.png)
 8. Когда появится сообщение об успешном выполнении, щелкните **x**, чтобы закрыть его.
 
-   ![](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![сообщение об успехе](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 ### <a name="open-the-report-and-pin-some-tiles-to-a-dashboard"></a>Открытие отчета и закрепление некоторых плиток на панели мониторинга
 1. В той же рабочей области откройте вкладку **Отчеты**. Только что импортированный отчет будет отмечен желтой звездочкой. Щелкните имя отчета, чтобы открыть его.
 
-    ![](media/service-dashboard-create/power-bi-reports.png)
+    ![вкладка отчетов](media/service-dashboard-create/power-bi-reports.png)
 2. Отчет открывается в [режиме чтения](service-reading-view-and-editing-view.md). В нижней части отчета расположены две вкладки: Discount Analysis (Анализ скидок) и Spend Overview (Обзор затрат). Каждая вкладка представляет страницу отчета.
     Выберите пункт **Изменить отчет**, чтобы открыть отчет в режиме правки.
 
-    ![](media/service-dashboard-create/power-bi-reading-view.png)
+    ![отчет в режиме чтения](media/service-dashboard-create/power-bi-reading-view.png)
 3. Наведите указатель мыши на визуализацию, чтобы отобразить доступные параметры. Чтобы добавить визуализацию на панель мониторинга, щелкните значок булавки ![](media/service-dashboard-create/power-bi-pin-icon.png).
 
-    ![](media/service-dashboard-create/power-bi-hover.png)
+    ![наведение указателя мыши на плитку](media/service-dashboard-create/power-bi-hover.png)
 4. Так как мы создаем новую панель, выберите параметр **Новая панель мониторинга** и присвойте панели имя.
 
-   ![](media/service-dashboard-create/power-bi-pin-tile.png)
+   ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-create/power-bi-pin-tile.png)
 5. Когда вы выберете параметр **Закрепить**, Power BI создаст панель мониторинга в текущей рабочей области. Когда появится сообщение **Закрепление на панели мониторинга**, выберите **Перейти к панели мониторинга**. Если будет предложено сохранить отчет, выберите **Сохранить**.
 
-     ![](media/service-dashboard-create/power-bi-pin-success.png)
+     ![сообщение об успехе](media/service-dashboard-create/power-bi-pin-success.png)
 6. Power BI откроет новую панель мониторинга, и вы увидите одну плитку. Это визуализация, которую вы только что закрепили.
 
-   ![](media/service-dashboard-create/power-bi-pinned.png)
+   ![Панель мониторинга с одной плиткой](media/service-dashboard-create/power-bi-pinned.png)
 7. Чтобы вернуться к отчету, щелкните плитку. Закрепите еще несколько плиток на новой панели мониторинга. В этот раз, когда отобразится окно **Закрепление на панели мониторинга**, выберите вариант **Существующая панель мониторинга**.  
 
-   ![](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>Закрепление целой страницы отчета на панели мониторинга
 Чтобы не закреплять по одному визуальному элементу, вы можете [закрепить целую страницу отчета в виде *живой плитки*](service-dashboard-pin-live-tile-from-report.md). Попробуем.
 
 1. В редакторе отчетов выберите вкладку **Spend Overview** (Обзор затрат), чтобы открыть вторую страницу отчета.
 
-   ![](media/service-dashboard-create/power-bi-page-tab.png)
+   ![вкладка отчетов](media/service-dashboard-create/power-bi-page-tab.png)
 
 2. Вам нужно, чтобы все эти визуальные элементы отображались на панели мониторинга.  В правом верхнем углу строки меню выберите **Закрепление живой плитки**. На панели мониторинга динамические плитки страниц будут обновляться каждый раз при обновлении страницы.
 
-   ![](media/service-dashboard-create/power-bi-pin-live.png)
+   ![верхний правый угол редактора отчетов](media/service-dashboard-create/power-bi-pin-live.png)
 
 3. Когда отобразится окно **Закрепление на панели мониторинга**, выберите вариант **Существующая панель мониторинга**.
 
-   ![](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. Когда появится сообщение об успешном выполнении, щелкните **Перейти к панели мониторинга**. Вы увидите плитки, закрепленные из отчета. В приведенном ниже примере мы закрепили две плитки с первой страницы отчета и одну живую плитку, которая представляет собой вторую страницу отчета.
 
-   ![](media/service-dashboard-create/power-bi-dashboard.png)
+   ![панель мониторинга](media/service-dashboard-create/power-bi-dashboard.png)
 
 Поздравляем с созданием первой панели мониторинга! Теперь, когда у вас есть панель мониторинга, вы можете выполнять разные операции.  Попробуйте выполнить одно из предложенных ниже **действий** или запустите воспроизведение и продолжайте самостоятельное изучение материала.   
 

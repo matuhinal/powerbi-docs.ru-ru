@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Закрепление плитки на панели мониторинга Power BI из отчета
 ## <a name="pinning-tiles-from-a-report"></a>Закрепление плиток из отчета
@@ -45,7 +46,7 @@ ms.lasthandoff: 12/21/2017
 
 1. Наведите указатель мыши на визуализацию, которую требуется закрепить, и выберите значок булавки ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png). Power BI открывает экран **Закрепить на информационной панели** .
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Определите, требуется ли закрепить плитку на существующей или новой панели мониторинга.
    
    * Существующая информационная панель: выберите имя панели в раскрывающемся списке. Панели мониторинга, к которым был предоставлен доступ, не появятся в раскрывающемся списке.
@@ -55,7 +56,7 @@ ms.lasthandoff: 12/21/2017
    
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) позволяет узнать, что визуализация была добавлена на панель мониторинга в качестве плитки.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![сообщение об успехе](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. На панели навигации выберите информационную панель с новой плиткой. Выберите плитку, чтобы вернуться в отчет. Или [измените отображение и поведение плитки](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Закрепление целой страницы отчета

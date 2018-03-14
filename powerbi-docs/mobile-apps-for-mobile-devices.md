@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>Используйте Power BI где угодно в мобильных приложениях для мобильного устройства
 Вы можете просматривать панели мониторинга Power BI и отчеты в службе Power BI ([https://powerbi.com](https://powerbi.com)), а также локальные отчеты Power BI на [сервере отчетов Power BI](report-server/get-started.md). Теперь с помощью мобильных приложений Power BI вы можете подключаться к данным в локальной или облачной среде. Попробуйте просмотреть свои панели мониторинга Power BI и поработать с ними на мобильном устройстве, будь то устройство на платформе iOS (iPad, iPhone, iPod Touch или Apple Watch), телефон или планшет под управлением Android или устройство с Windows 10.
@@ -51,4 +51,5 @@ Microsoft Intune позволяет управлять такими элемен
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Сравнение бесплатной версии Power BI с лицензиями Pro](service-free-vs-pro.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+
 

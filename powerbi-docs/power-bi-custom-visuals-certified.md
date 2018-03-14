@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -50,7 +50,9 @@ ms.lasthandoff: 02/21/2018
    * Заголовок: запрос сертификации визуального элемента    
    * Ссылка на репозиторий GitHub, где размещается исходный код визуального элемента.    
    * Подтверждение соблюдения требований (см. выше).    
-   * Подтверждение прохождения проверки кода и безопасности    2. Группа пользовательских визуальных элементов корпорации Майкрософт уведомит вас о получении сертификации для пользовательского визуального элемента и добавлении его в список сертифицированных пользовательских визуальных элементов (см. ниже) или об отклонении запроса сертификации с отчетом о проблемах, которые должны быть исправлены. Разработчик несет ответственность за обеспечение открытого канала взаимодействия с корпорацией Майкрософт и за обновление визуальных элементов, включенных в список сертифицированных, если это необходимо.
+   * Подтверждение прохождения проверки кода и безопасности.    
+
+2. Группа пользовательских визуальных элементов корпорации Майкрософт уведомит вас о получении сертификации для пользовательского визуального элемента и добавлении его в список сертифицированных пользовательских визуальных элементов (см. ниже) или об отклонении запроса сертификации с отчетом о проблемах, которые должны быть исправлены. Разработчик несет ответственность за обеспечение открытого канала взаимодействия с корпорацией Майкрософт и за обновление визуальных элементов, включенных в список сертифицированных, если это необходимо.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Удаление сертифицированных пользовательских визуальных элементов Power BI
 Корпорация Майкрософт по своему усмотрению может удалять визуальные элементы из списка сертифицированных.  
@@ -117,6 +119,7 @@ ms.lasthandoff: 02/21/2018
 | [Ось воспроизведения (динамический срез)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Ключевой показатель эффективности производительности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Видео](https://youtu.be/IvfIP3E6-1Q) |
 | [Матрица КПЭ производительности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Видео](https://youtu.be/1enze8pcGzY) |
+| [Диаграмма с квадрантами от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Видео](https://youtu.be/ppBnyhqWNC0) |
 | [Лепестковая диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Кольцевая диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Видео](https://youtu.be/pDToHDFHnq8) |
 | [Поворотная диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Видео](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ ms.lasthandoff: 02/21/2018
 | [Диаграмма "Солнечные лучи"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Диаграмма "Тепловая карта"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [Тахометр](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Видео](https://youtu.be/C3OXdETbS9o) |
+| [Фильтрация текста](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Текстовая оболочка от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Термометр](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [Диаграмма декомпозиции временных рядов](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a3df29b478675eeeec876863299c0a33073fb381
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Закрепление плитки на информационной панели из подсистемы вопросов и ответов
 ## <a name="how-to-pin-a-tile-from-qa"></a>Закрепление плитки из вопросов и ответов
@@ -34,16 +35,16 @@ ms.lasthandoff: 01/19/2018
 
 1. Откройте [информационную панель](service-dashboards.md), на которой закреплена по крайней мере одна плитка из отчета. При вводе вопроса служба Power BI ищет ответ в любом наборе данных, имеющем плитку на этой информационной панели.  Дополнительные сведения см. в статье [Источники данных для службы Power BI](service-get-data.md).
 2. Начните вводить вопрос о данных в поле вопроса в верхней части информационной панели.  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
+   ![Окно вопросов и ответов](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Например, когда вы вводите "last year sales by month and territory" (выручка за прошлый год по месяцам и территориям)...  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
+   ![ввод вопроса](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    в поле вопроса отображаются рекомендации.
 4. Чтобы добавить диаграмму на панель мониторинга как плитку, щелкните значок закрепления ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) справа вверху на холсте. Если доступ к панели мониторинга вам предоставил другой пользователь, вы не сможете закрепить на ней визуализацию.
 
 5. Закрепите плитку на существующей или новой панели мониторинга.
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+   ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
 
    * Существующая информационная панель: выберите имя панели в раскрывающемся списке. Вы сможете выбрать только те панели мониторинга, которые доступны в текущей рабочей области.
    * "Новая информационная панель". Введите имя новой информационной панели, и она будет добавлена в текущую рабочую область.
@@ -52,15 +53,15 @@ ms.lasthandoff: 01/19/2018
 
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) позволяет узнать, что визуализация была добавлена на панель мониторинга в качестве плитки.  
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![Закреплено на панели мониторинга](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. Выберите **Перейти на информационную панель**, чтобы просмотреть новую плитку. Здесь вы можете [изменить имя или размер, добавить гиперссылку и переместить плитку, а также выполнить другие действия](service-dashboard-edit-tile.md) на панели мониторинга.
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
+   ![Панель мониторинга с плитками](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 * При вводе вопроса подсистема вопросов и ответов немедленно начинает поиск лучшего ответа по всем наборам данных, связанным с текущей панелью мониторинга.  Текущей считается панель мониторинга, указанная на верхней панели навигации. Например, этот вопрос можно задать на информационной панели **Анализ розничной торговли — пример**, которая является частью рабочей области приложения **mihart**.
 
-  ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![строки навигации](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Как подсистема вопросов и ответов узнает, какие наборы данных использовать**?  Функция "Вопросы и ответы" имеет доступ ко всем наборам данных, у которых хотя бы одна визуализация прикреплена к этой панели мониторинга.
 
 * **Не видите поле вопроса**? Обратитесь за помощью к администратору. Администратор может отключить функцию "Вопросы и ответы".

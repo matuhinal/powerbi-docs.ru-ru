@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="power-bi-notifications"></a>Уведомления в Power BI
 Центр уведомлений — это канал непрерывной передачи информации, связанной с работой Power BI. С его помощью можно просматривать сообщения о новых панелях мониторинга, к которым вам предоставлен доступ, об изменениях в вашем групповом пространстве, сведения о мероприятиях и встречах, связанных с Power BI, настроенные оповещения и многое другое. [Оповещения можно настраивать в службе Power BI](service-set-data-alerts.md) и мобильных приложениях Power BI.
@@ -34,13 +35,13 @@ ms.lasthandoff: 01/03/2018
 
 1. При входе в Power BI новые уведомления, отправленные вам в ходе автономной работы, добавляются в ваш веб-канал. При наличии новых уведомлений в Power BI отображается желтый пузырек с количеством новых сообщений.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![значок нового уведомления](media/service-notification-center/power-bi-new-notification.png)
 2. В строке меню Power BI выберите значок уведомлений.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![Верхняя строка меню с выбранным значком уведомлений](media/service-notification-center/power-bi-notifications-icon.png)
 3. Новые уведомления отображаются вверху списка, а непрочитанные сообщения выделяются. Уведомления хранятся в течение 90 дней, если вы их не удалите раньше или их количество не достигнет максимума (100 штук).
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![Центр уведомлений](media/service-notification-center/power-bi-notifications.png)
 4. Чтобы закрыть уведомление, нажмите значок "X".
 
 ### <a name="next-steps"></a>Дальнейшие действия

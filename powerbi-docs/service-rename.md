@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Переименование содержимого в службе Power BI
 В этой статье показано, как изменить имя информационной панели, отчета, страницы отчета, книги, набора данных, приложения и рабочей области в службе Power BI.
@@ -41,20 +41,20 @@ ms.lasthandoff: 02/24/2018
 | Содержимое на панели **Мне предоставлен доступ** |Нет |Нет |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Переименование информационной панели, отчета или книги
-1. Запустите рабочую область и выберите вкладку **Информационные панели**, **Отчеты** или **Книги**. Наведите указатель мыши на элемент, имя которого необходимо изменить, и щелкните значок шестеренки ![](media/service-rename/powerbi-cog-icon.png). Если значок шестеренки не отображается, у вас нет разрешений переименовывать.
+1. Запустите рабочую область и выберите вкладку **Информационные панели**, **Отчеты** или **Книги**. Наведите указатель мыши на элемент, имя которого необходимо изменить, и щелкните значок шестеренки ![значок шестеренки](media/service-rename/powerbi-cog-icon.png). Если значок шестеренки не отображается, у вас нет разрешений переименовывать.
    
-   ![](media/service-rename/power-bi-workspace-dashboards.png)
+   ![рабочая область службы Power BI](media/service-rename/power-bi-workspace-dashboards.png)
 2. На странице "Параметры" введите новое имя и щелкните **Сохранить**.
    
-   ![](media/service-rename/power-bi-rename-dashboard2.png)
+   ![окно "Параметры" для набора данных](media/service-rename/power-bi-rename-dashboard2.png)
 
 ## <a name="rename-a-dataset"></a>Переименование набора данных
 1. Запустите рабочую область и выберите вкладку **Наборы данных**.
    
-   ![](media/service-rename/power-bi-ellipses.png)
+   ![вкладка "Наборы данных" рабочей области](media/service-rename/power-bi-ellipses.png)
 2. Наведите указатель мыши на элемент, имя которого необходимо изменить, щелкните многоточие (...) и выберите **Переименовать**.  
    
-      ![](media/service-rename/power-bi-rename-datasets.png)
+      ![выбор команды "Переименовать"](media/service-rename/power-bi-rename-datasets.png)
    
    > [!NOTE]
    > Параметры в раскрывающемся списке могут отличаться.
@@ -62,7 +62,7 @@ ms.lasthandoff: 02/24/2018
    > 
 3. На странице "Параметры" введите новое имя и щелкните **Сохранить**.
    
-     ![](media/service-rename/power-bi-rename.png)
+     ![область переименования](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>Переименование рабочей области приложения
 Любой пользователь с правами администратора может изменить имя рабочей области приложения.
@@ -70,10 +70,10 @@ ms.lasthandoff: 02/24/2018
 1. Войдите в рабочую область, имя которой требуется изменить.
 2. В правом верхнем углу щелкните многоточие (...) и выберите **Edit workspace** (Изменить рабочую область). Если этот параметр не отображается, у вас нет разрешений переименовывать эту рабочую область. 
    
-    ![](media/service-rename/power-bi-edit-workspace.png)
+    ![выбор пункта "Изменить рабочую область"](media/service-rename/power-bi-edit-workspace.png)
 3. Введите новое имя рабочей области и щелкните **Сохранить**.
    
-   ![](media/service-rename/power-bi-workspace-rename.png)
+   ![Область "Изменение рабочей области"](media/service-rename/power-bi-workspace-rename.png)
 
 ## <a name="rename-a-page-in-a-report"></a>Переименование страницы в отчете
 Не нравится имя страницы в отчете Power BI?  Новое имя назначить очень просто. Имена страниц можно изменять в [режиме правки отчета](service-interact-with-a-report-in-editing-view.md).
@@ -81,14 +81,14 @@ ms.lasthandoff: 02/24/2018
 1. Откройте отчет в [режиме редактирования](service-reading-view-and-editing-view.md).
 2. Найдите вкладки страницы отчета в нижней части окна Power BI.
    
-    ![](media/service-rename/report-page-tabs-new.png)
+    ![отчет с выделенными вкладками](media/service-rename/report-page-tabs-new.png)
 3. Откройте страницу отчета, которую нужно переименовать. Для этого перейдите на соответствующую вкладку.
 4. Дважды щелкните имя вкладки, чтобы выделить его.  
    
-    ![](media/service-rename/hilite-tab.png)
+    ![имя вкладки крупным планом](media/service-rename/hilite-tab.png)
 5. Введите новое имя страницы отчета и нажмите клавишу ВВОД.
    
-    ![](media/service-rename/new-name.png)
+    ![ввод нового имени страницы](media/service-rename/new-name.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 * Если к элементу, который нужно переименовать, вам предоставили доступ или он входит в пакет содержимого, значок шестеренки отображаться не будет, и у вас не будет доступа к странице "Параметры".

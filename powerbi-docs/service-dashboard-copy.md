@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Создание копии панели мониторинга в службе Power BI
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![панель мониторинга](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Копия панели мониторинга может потребоваться для самых разных целей. Может быть, вы хотите внести изменения и проверить ее производительность по сравнению с исходной панелью или создать немного отличающиеся версии, чтобы предоставить их коллегам и участникам команды, а также распределить в регионах. Возможно, коллега восхищается дизайном вашей информационной панели и хочет использовать его, чтобы составлять отчеты для руководства. Или, например, у вас есть новая база данных с одинаковой структурой и типами данных и вы хотите повторно использовать уже созданную информационную панель. Это тоже можно сделать, но для этого потребуется немного поработать в Power BI Desktop. 
 
@@ -36,13 +37,13 @@ ms.lasthandoff: 01/23/2018
 1. Откройте информационную панель.
 2. В правом верхнем углу щелкните многоточие (...) и выберите **Дублировать информационную панель**.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![меню с многоточием](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Присвойте информационной панели имя и выберите **Duplicate** (Дублировать). 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Диалоговое окно дублирования панели мониторинга](media/service-dashboard-copy/power-bi-name.png)
 4. Новая панель мониторинга сохранится в той же рабочей области, что и исходная. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![вкладка панелей мониторинга](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Откройте новую панель мониторинга и внесите необходимые изменения. Ниже описаны примеры дальнейших действий.    
     а. [Переместите, переименуйте, измените размер плитки или даже удалите ее](service-dashboard-edit-tile.md).  

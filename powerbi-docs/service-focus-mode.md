@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ ms.lasthandoff: 02/24/2018
 > Режим фокусировки отличается от [полноэкранного режима](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Режим фокусировки для плиток панели мониторинга
-1. Наведите указатель мыши на визуализацию плитки, щелкните многоточие (…) и выберите пункт **Открыть в режиме фокусировки** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png).  
+1. Наведите указатель мыши на визуализацию, щелкните многоточие (…) и выберите пункт **Open in focus mode** (Открыть в режиме фокусировки). 
+
+    ![меню с многоточием для плитки](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. Плитка откроется и заполнит весь холст. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![плитка заполняет холст отчета](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Разверните панель фильтров для просмотра всех фильтров, примененных к данному визуальному элементу.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![режим фокусировки с панелью "Фильтры"](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. Для более глубокого изучения измените фильтры и в случае, если обнаружите что-нибудь интересное, прикрепите визуальный элемент к панели мониторинга.
 
 5. Выйдите из режима фокусировки и вернитесь на панель мониторинга, выбрав значок **< Выйти из режима фокусировки** (в левом верхнем углу визуального элемента).
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![выход из режима фокусировки](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Режим фокусировки для визуализаций отчета
 
-1. Наведите указатель мыши на визуализацию отчета и выберите значок **режима фокусировки** ![](media/service-focus-mode/pbi_popout.jpg).  
+1. Наведите указатель мыши на визуализацию отчета и выберите значок **режима фокусировки** ![значок режима фокусировки](media/service-focus-mode/pbi_popout.jpg).  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![значок фокусировки на плитке](media/service-focus-mode/power-bi-hover-focus.png)
 2. Визуализация откроется и заполнит весь холст. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![визуальный элемент в режиме фокусировки](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Разверните панель фильтров для просмотра всех фильтров, примененных к данному визуальному элементу.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![режим фокусировки с экраном "Фильтры"](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. Для более глубокого изучения измените фильтры и в случае, если обнаружите что-нибудь интересное, прикрепите визуальный элемент к панели мониторинга.   
 5. Выйдите из режима фокусировки и вернитесь в отчет, выбрав значок **Назад к отчету** (в левом верхнем углу визуального элемента). 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![выход из режима фокусировки](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Переход из режима фокусировки в полноэкранный режим
 Из режима фокусировки плитку или визуальный элемент можно развернуть для [просмотра в полноэкранном режиме (режиме ТВ)](service-fullscreen-mode.md). В полноэкранном режиме данные можно просматривать, не отвлекаясь на меню и кнопки навигации.

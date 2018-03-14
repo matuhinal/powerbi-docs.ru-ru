@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 Когда вы открываете отчет в службе Power BI, можно заметить, что каждая страница отчета имеет собственный уникальный URL-адрес. Для фильтрации этой страницы отчета можно использовать область "Фильтры" на холсте отчета.  Также для фильтрации отчета можно добавить параметры строки запроса в URL-адрес. Возможно, у вас есть отчет, который вы хотите показать коллегам и который для этого необходимо предварительно отфильтровать. Это можно сделать, добавив параметры фильтрации к присваиваемому по умолчанию URL-адресу отчета для отправки по электронной почте.
 
-![](media/service-url-filters/power-bi-report2.png)
+![Отчет Power BI в службе](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ ms.lasthandoff: 01/09/2018
 
 URL?filter=***Таблица***/***Поле*** eq '***значение***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![URL-адрес с фильтром](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * Имена переменных **Таблица** и **Поле** чувствительны к регистру, а **значение** — нет.
 * Поля отчета, которые являются скрытыми для просмотра, также можно отфильтровать.
@@ -49,7 +50,7 @@ URL?filter=***Таблица***/***Поле*** eq '***значение***'
 ## <a name="filter-on-a-field"></a>Фильтрация по полю
 Предположим, URL-адрес нашего отчета выглядит так:
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![начало URL-адреса](media/service-url-filters/power-bi-filter-urls6.png)
 
 Как видно на визуализации карты (см. выше) у нас есть магазины в Северной Каролине.
 
@@ -61,7 +62,7 @@ URL?filter=***Таблица***/***Поле*** eq '***значение***'
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![URL-адрес с фильтром](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC* — это значение, которое хранится в поле **Territory** в таблице **Store**.

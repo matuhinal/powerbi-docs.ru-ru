@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Отчеты в Power BI
 ## <a name="what-is-a-power-bi-report"></a>Что такое отчет Power BI?
 ***Отчет*** Power BI — это разностороннее представление набора данных с визуализациями, которые отображают различные результаты и сведения, полученные из этого набора данных.  В отчете может быть одна визуализация или несколько страниц, заполненных визуализациями. В зависимости от вашей должности вы можете *создавать* или *использовать* отчеты.
 
-![](media/service-reports/reportview.png)
+![страница отчета](media/service-reports/reportview.png)
 
 Этот отчет содержит 3 страницы (или вкладки). В данный момент просматривается страница Store Sales Overview (Обзор продаж магазинов). На этой странице отображается 6 различных визуализаций и заголовок. Визуализации можно *закреплять* на информационных панелях. При выборе закрепленной визуализации открывается отчет, из которого она была закреплена.
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Рекомендации по проектированию отчетов и визуализаций
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Power BI содержит инструменты, которые помогаю
 
 Вы создаете не произведение искусства, а функциональный отчет. Выберите такой цвет, который повысит читаемость и наглядность включенных в отчет данных.  
 
-Исследование восприятия цветов и визуализаций, используемых на веб-страницах, показало, что высокий контраст между цветами ускоряет обработку информации (См. *The effect of text and background colour on visual search of Web pages** (Влияние цвета текста и фона на просмотр веб-страниц) и **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics* (Оценка восприятия визуальной сложности и эстетики веб-страниц пользователями).)
+Исследование восприятия цветов и визуализаций, используемых на веб-страницах, показало, что высокий контраст между цветами ускоряет обработку информации (см. статьи "The effect of text and background colour on visual search of Web pages" (Влияние цвета текста и фона на просмотр веб-страниц) и **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics** (Оценка восприятия визуальной сложности и эстетики веб-страниц пользователями)).
 
 Мы применили некоторые рекомендации в отношении цвета к нашему примеру (см. рис. 20 и 21 ниже). Самое заметное изменение — использование черного цвета фона.  Желтый был слишком ярким и чрезмерно нагружал зрение.  Кроме того, на диаграмме с числом спортсменов по годам и классам желтый фон делал невидимыми желтые сегменты колонок.  Черный (или белый) фон обеспечит максимальную контрастность, позволяя сфокусироваться на визуализациях.
 

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Автоматическое создание аналитических сведений с помощью Power BI
 Вы получили новый набор данных и не знаете, с чего начать?  Вам нужно быстро создать панель мониторинга?  Хотите найти полезные данные, которые вы могли пропустить?
@@ -45,43 +46,42 @@ ms.lasthandoff: 01/09/2018
 
 1. На вкладке **Наборы данных** щелкните многоточие (…) и выберите **Получить аналитику**.
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![вкладка "Наборы данных"](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![меню с многоточием](media/service-insights/power-bi-tab.png)
 2. Для поиска тенденций в наборе данных Power BI использует [различные алгоритмы](service-insight-types.md).
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![Диалоговое окно поиска ценных сведений](media/service-insights/pbi_autoinsightssearching.png)
 3. Анализ занимает несколько секунд.  Нажмите кнопку **Просмотреть аналитику**, чтобы отобразить визуализации.
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![сообщение об успехе](media/service-insights/pbi_autoinsightsuccess.png)
    
    > **Примечание.** Для некоторых данных аналитические сведения не формируются, так как информация не является статистически значимой.  Дополнительные сведения см. в статье [Оптимизация данных для быстрого анализа данных в Power BI](service-insights-optimize.md).
    > 
    > 
 1. Визуализация отображается на специальном холсте **краткой аналитики**, который может вмещать до 32 отдельных карт анализа. Каждая карта имеет диаграмму или график, а также краткое описание.
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![Холст краткой аналитики](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Работа с карточками аналитики
-  ![](media/service-insights/pbi_hover.png)
+  ![значок закрепления](media/service-insights/pbi_hover.png)
 
 1. Наведите указатель мыши на карту и выберите значок булавки, чтобы добавить визуализацию на панель мониторинга.
 2. Наведите указатель мыши на карточку, щелкните многоточие (…) и выберите пункт **Просмотреть аналитические сведения**. Откроется представление аналитики в полноэкранном режиме.
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![Аналитика в полноэкранном режиме](media/service-insights/power-bi-insight-focus.png)
 3. В режиме фокусировки можно выполнять следующие задачи.
    
    * Фильтровать визуализации.  Чтобы отобразить фильтры, в правом верхнем углу экрана выберите стрелку для развертывания панели "Фильтры".
+        ![Развернутое меню "Фильтры" аналитики](media/service-insights/power-bi-insights-filter-new.png)
+   * Закрепите карточку анализа на панели мониторинга, выбрав значок закрепления ![значок закрепления](media/service-insights/power-bi-pin-icon.png) или **визуальный элемент закрепления**.
+   * Запустите аналитику для самой карточки. Часто это называют **аналитикой с заданной областью**. В правом верхнем углу щелкните значок лампочки ![значок получения аналитики](media/service-insights/power-bi-bulb-icon.png) или нажмите **Get insights** (Получить аналитику).
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * Закрепите карту анализа на информационной панели, выбрав значок закрепления ![](media/service-insights/power-bi-pin-icon.png) или **Закрепить визуальный элемент**.
-   * Запустите аналитику для самой карточки. Часто это называют **аналитикой с заданной областью**. В правом верхнем углу щелкните значок лампочки ![](media/service-insights/power-bi-bulb-icon.png) или **Получить аналитику**.
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![строка меню со значком получения аналитики](media/service-insights/pbi-autoinsights-tile.png)
      
      Результаты аналитики отображаются слева, а справа отображаются новые карточки, основанные только на данных этой аналитики.
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![аналитика на данных аналитики](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Чтобы вернуться к первоначальному холсту аналитики, щелкните в верхнем левом углу **Выйти из режима фокусировки**.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Запуск аналитики для плитки панели мониторинга
@@ -90,7 +90,7 @@ ms.lasthandoff: 01/09/2018
 1. Откройте панель мониторинга.
 2. Наведите указатель мыши на плитку. Щелкните многоточие (…) и выберите пункт **Просмотреть аналитические сведения**. Плитка откроется в [режиме фокусировки](service-focus-mode.md) с карточками аналитики, которые отображаются с правой стороны.    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![Режим фокусировки](media/service-insights/pbi-insights-tile.png)    
 4. Вас заинтересовали эти сведения? Выберите карту анализа, чтобы ознакомиться с ними детально. Данные выбранного анализа отображаются слева, а справа отображаются новые карты анализа, основанные только на данных этого анализа.    
 6. Продолжайте анализировать данные, а при нахождении интересных сведений закрепите их на панели мониторинга, выбрав **Закрепить визуальный элемент** в правом верхнем углу.
 
