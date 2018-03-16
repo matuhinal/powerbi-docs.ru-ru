@@ -862,6 +862,8 @@
       items:
         - name: Приложения Power BI для iOS
           href: mobile-ios-ipad-iphone-apps.md
+        - name: Power BI для смешанной реальности
+          href: mobile-mixed-reality-app.md
         - name: Просмотр локальных отчетов и КПЭ в мобильных приложениях
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: Панели мониторинга в мобильных приложениях
