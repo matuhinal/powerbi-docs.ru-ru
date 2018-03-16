@@ -75,8 +75,8 @@ Power BI Premium предоставляется в виде узлов с раз
 
 | Узел емкости | Общее число ядер<br/>*(серверная часть и интерфейс)* | Внутренние ядра | Интерфейсные ядра | Ограничения для подключений DirectQuery и активных подключений | Максимальное число страниц, отображаемых в часы максимальной нагрузки | Доступность |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 виртуальное ядро |5 ядер, 2,5 ГБ ОЗУ |0,5 ядра |3,75 в секунду |150–300 |Доступность |
-| [EM2 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 виртуальных ядра |1 ядро, 5 ГБ ОЗУ |1 ядро |7,5 в секунду |301–600 |Доступность |
+| [EM1 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 виртуальное ядро |5 ядер, 2,5 ГБ ОЗУ |0,5 ядра |3,75 в секунду |150–300 |Доступно |
+| [EM2 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 виртуальных ядра |1 ядро, 5 ГБ ОЗУ |1 ядро |7,5 в секунду |301–600 |Доступно |
 | [EM3 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 виртуальных ядра |2 ядра, 10 ГБ ОЗУ |2 ядра | |601–1200 |Доступность |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 виртуальных ядер |4 ядра, 25 ГБ ОЗУ |4 ядра |30 в секунду |1201–2400 |Доступно (вариант [ежемесячной подписки](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) также доступен) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 виртуальных ядер |8 ядер, 50 ГБ ОЗУ |8 ядер |60 в секунду |2401–4800 |Доступность |
