@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Начало работы с мобильным приложением Power BI на iPad
 Приложение Microsoft Power BI для iOS на устройствах iPhone позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -31,7 +31,7 @@ ms.lasthandoff: 01/29/2018
 Создавайте отчеты Power BI в службе Power BI Desktop с последующей публикацией.
 
 * [Публикуйте их в службе Power BI](service-get-started.md) и создавайте панели мониторинга.
-* [Публикуйте их локально на сервере отчетов Power BI](report-server/quickstart-create-powerbi-report.md).
+* [Публикуйте их локально на Сервере отчетов Power BI](report-server/quickstart-create-powerbi-report.md).
 
 Затем в приложении Power BI для iPad работайте с панелями мониторинга и отчетами как в локальной, так и облачной среде.
 
@@ -138,4 +138,5 @@ Microsoft Intune позволяет управлять такими элемен
 ### <a name="see-also"></a>См. также:
 * [Приступая к работе с Power BI](service-get-started.md)  
 * У вас появились вопросы? Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
+
 

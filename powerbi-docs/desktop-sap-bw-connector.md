@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к данным **SAP BusinessWarehouse (BW)**.
@@ -33,12 +33,16 @@ ms.lasthandoff: 02/24/2018
 1. Установите библиотеку **SAP NetWeaver** на локальном компьютере. Библиотеку **SAP NetWeaver** можно получить у администратора SAP или непосредственно в [Центре скачивания программного обеспечения SAP](https://support.sap.com/swdc). В связи с частым изменением структуры **Центра скачивания программного обеспечения SAP** более конкретные рекомендации по навигации по этому сайту недоступны. Кроме того, библиотека **SAP NetWeaver** обычно входит в пакет установки клиентских средств SAP Client Tools.
    
    Чтобы получить ссылку на скачивание последней версии, введите в строку поиска запрос *SAP Note #1025361* (мы не гарантируем, что это точно поможет ее найти). Убедитесь, что архитектура библиотеки **SAP NetWeaver** (32-или 64-разрядная) соответствует архитектуре установленной у вас версии **Power BI Desktop**, а затем установите все файлы из **пакета SDK для RFC SAP NetWeaver** согласно примечаниям SAP.
-2. В диалоговом окне **Получение данных** в категории **База данных** будет указан **сервер SAP Business Warehouse**.
+2. В диалоговом окне **Получение данных** в категории **База данных** будет указан **Сервер приложений SAP Business Warehouse Application Server** и **Сервер сообщений SAP Business Warehouse**.
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Возможности соединителя SAP BW
-**Соединитель SAP BW** (предварительная версия) в Power BI Desktop позволяет пользователям импортировать данные из кубов **сервера SAP Business Warehouse**. Вы также можете использовать DirectQuery с **соединителем SAP BW**. Чтобы установить подключение, необходимо указать *сервер*, *номер системы* и *идентификатор клиента*.
+**Соединители SAP BW** в Power BI Desktop позволяют импортировать данные из кубов **сервера SAP Business Warehouse** или использовать DirectQuery с **соединителем SAP BW**. 
+
+Дополнительные сведения о **соединителе SAP BW** и его использовании с DirectQuery см. в статье [DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
+
+Чтобы установить подключение, нужно указать *сервер*, *номер системы* и *идентификатор клиента*.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ ms.lasthandoff: 02/24/2018
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>Дальнейшие действия
+Дополнительные сведения о SAP HANA и DirectQuery см. в следующих статьях:
+
+* [DirectQuery и SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI и DirectQuery](desktop-directquery-about.md)
+* [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 173093cd7b8601357c893e2299031f331c440a75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Начало работы с мобильным приложением Power BI на телефонах с Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/13/2017
 Создавайте отчеты Power BI в службе Power BI Desktop с последующей публикацией.
 
 * [Публикуйте их в службе Power BI](service-get-started.md) и создавайте панели мониторинга.
-* [Публикуйте их локально на сервере отчетов Power BI](report-server/quickstart-create-powerbi-report.md).
+* [Публикуйте их локально на Сервере отчетов Power BI](report-server/quickstart-create-powerbi-report.md).
 
 Затем в приложении Power BI для устройств Android работайте с панелями мониторинга и отчетами как локально, так и в облаке.
 
@@ -142,4 +142,5 @@ Microsoft Intune позволяет управлять такими элемен
 * [Скачивание приложения Android](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина приложений Android.
 * [Приступая к работе с Power BI](service-get-started.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+
 

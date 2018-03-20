@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 
@@ -31,7 +31,14 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> Вам нужно **включить** функцию [Параметры экспорта и совместного доступа](service-admin-portal.md#export-and-sharing-settings) в параметрах клиента на портале администрирования Power BI, прежде чем приглашать гостевых пользователей.
+
+> [!NOTE]
 > Этот компонент сейчас недоступен в мобильных приложениях Power BI. На мобильных устройствах содержимое Power BI можно просматривать, используя Azure AD B2B в браузере. 
+
+## <a name="who-can-you-invite"></a>Кого вы можете пригласить?
+
+Вы можете приглашать гостей, использующих любой адрес электронной почты, включая личные учетные записи, такие как gmail.com, outlook.com или hotmail.com. В Azure B2B их называют "социальными идентификаторами". Дополнительные сведения см. в статье [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Приглашение гостевых пользователей
 
@@ -63,8 +70,9 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 
 ### <a name="ad-hoc-invites"></a>Специализированные приглашения
 
-Чтобы отправить приглашение в любое время, добавьте внешнего пользователя в список доступа к приложению при его публикации.
+Чтобы пригласить кого-то в любое время, добавьте этого внешнего пользователя в свою панель мониторинга или свой отчет через общий пользовательский интерфейс либо в свое приложение с помощью страницы доступа.
 
+Ниже приведен пример того, что нужно сделать, чтобы пригласить внешнего пользователя для работы с приложением.
 ![Внешний пользователь добавлен в список доступа приложения](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 Гостевой пользователь получит электронное сообщение о предоставлении общего доступа к приложению.
@@ -98,8 +106,9 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 
 ![Применение лицензии гостевого пользователя](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>Ограничения
+## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
+* При приглашении гостей, использующих личные учетные записи электронной почты, такие как gmail.com, outlook.com или hotmail.com, можно руководствоваться этим [внедренным видеороликом](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience), где показан пример регистрации пользователя.
 * Внешние гостевые пользователи B2B могут только использовать содержимое. Они имеют право просматривать приложения, панели мониторинга, отчеты, экспортировать данные и создавать подписки на панели мониторинга и отчеты по электронной почте. Они не могут использовать рабочие области и публиковать собственное содержимое.
 * Этот компонент сейчас недоступен в мобильных приложениях Power BI. На мобильных устройствах содержимое Power BI можно просматривать, используя Azure AD B2B в браузере.
 * Функция гостевых пользователей в Power BI в независимых облаках (для государственных организаций) не поддерживается.
