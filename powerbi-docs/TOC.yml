@@ -1042,8 +1042,6 @@
           href: report-server/get-started.md
         - name: Что нового
           href: report-server/whats-new.md
-        - name: Заметки о выпуске
-          href: report-server/release-notes.md
         - name: Журнал изменений
           href: report-server/changelog.md
         - name: Сроки предоставления поддержки
