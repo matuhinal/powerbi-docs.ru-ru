@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Источники данных, поддерживаемые DirectQuery в Power BI
 **Power BI Desktop** и **служба Power BI** имеют много источников данных, к которым можно подключиться и получить доступ. В этой статье описывается, какие источники данных для Power BI поддерживают метод подключения **DirectQuery**. Дополнительные сведения о DirectQuery см. в статье [**Power BI и DirectQuery**](desktop-directquery-about.md).
@@ -37,7 +37,8 @@ ms.lasthandoff: 02/24/2018
 * IBM Netezza (бета-версия)
 * Impala (версии 2.x)
 * База данных Oracle (версии 12 и более поздней)
-* SAP Business Warehouse (бета-версия)
+* Сервер приложений SAP Business Warehouse
+* Сервер сообщений SAP Business Warehouse (бета-версия)
 * SAP HANA
 * Snowflake
 * Spark (бета-версия) (версии 0.9 и более поздней)
@@ -52,7 +53,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="on-premises-gateway-requirements"></a>Требования для локального шлюза
 В следующей таблице указано, необходим ли **локальный шлюз данных** для подключения к определенному источнику данных после публикации отчета в **службе Power BI**.
 
-| источник | Требуется шлюз? |
+| Источник | Требуется шлюз? |
 | --- | --- |
 | SQL Server |Да |
 | База данных SQL Azure |Нет |
@@ -62,11 +63,14 @@ ms.lasthandoff: 02/24/2018
 | База данных Teradata |Да |
 | Amazon Redshift |Нет |
 | Impala (версии 2.x) |Да |
-| Snowflake (предварительная версия) |Пока не поддерживается в **службе Power BI** |
+| Snowflake |Да |
 | Spark (бета-версия) версии 0.9 и более поздней |Пока не поддерживается в **службе Power BI** |
-| Azure HDInsight Spark (бета-версия) |Пока не поддерживается в **службе Power BI** |
-| IBM Netezza (бета-версия) |Пока не поддерживается в **службе Power BI** |
-| SAP Business Warehouse (бета-версия) |Пока не поддерживается в **службе Power BI** |
+| Azure HDInsight Spark (бета-версия) |Нет |
+| IBM Netezza |Да |
+| Сервер приложений SAP Business Warehouse |Да |
+| Сервер сообщений SAP Business Warehouse |Пока не поддерживается в **службе Power BI** |
+| Google BigQuery |Нет |
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о DirectQuery см. в следующих статьях:

@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Навигация в службе Power BI
 ## <a name="the-left-navigation-pane"></a>Левая область навигации
 
-![](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+![левая панель навигации](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
 
 **Краткий справочник**
 
@@ -64,61 +64,61 @@ ms.lasthandoff: 02/24/2018
 
 В бесплатной версии Power BI отображается только одна рабочая область — **Моя рабочая область**.
 
-![](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+![короткое видео рабочей области](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
 
 ### <a name="favorite-dashboards-reports-and-apps"></a>Избранные панели мониторинга, отчеты и приложения
 **Избранное** позволяет быстро открывать самое важное для вас содержимое.  
 
 1. Откройте панель мониторинга или отчет и щелкните **Добавить в избранное** в правом верхнем углу.
    
-   ![](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
+   ![добавление в избранное](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
    Элемент **Добавить в избранное** изменится на **Удалить из избранного**, и значок звездочки станет желтым.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
+   ![удаление из избранного](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
 2. Чтобы сделать избранным приложение, в области навигации слева выберите **Приложения**, наведите на приложение указатель и нажмите на значок звездочки.
 
 2. Чтобы увидеть список всего содержимого, добавленного в избранное, в левой области навигации выберите стрелку справа от пункта **Избранное**. Так как область навигации слева — это фиксированный элемент службы Power BI, список избранного доступен вам из любого раздела программы.
    
-    ![](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![всплывающий элемент "Избранное"](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
    
     Он позволяет выбрать и открыть нужную информационную панель, отчет или приложение.
 
 3. Чтобы открыть панель **Favorites** (Избранное), в левой области навигации выберите **Избранное** или щелкните значок "Избранное" ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
+   ![открытие экрана "Избранное"](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
    
    В ней вы можете искать и открывать содержимое, удалять его из избранного или делиться им с коллегами.
 
 1. Отметить панель мониторинга или отчет как избранное также можно на вкладке **Панели мониторинга** или **Отчеты** в рабочей области.  Просто откройте рабочую область, чтобы отобразить представление содержимого, и нажмите на значок звездочки слева от имени.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![пометка как избранного](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
 
 См. статью [Избранное](service-dashboard-favorite.md) для получения дополнительных сведений.
 
 ### <a name="recents"></a>Панель Recents (Последнее)
 Панель **Последнее** позволяет быстро перейти к недавно использованному содержимому. Она содержит материалы со всех рабочих областей.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+  ![Панель "Последнее"](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
 Так же, как и с "Избранным", вы можете быстро открывать последние элементы откуда угодно в службе Power BI, нажав на стрелку рядом с меню **Последнее** в области навигации слева.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+  ![Всплывающий элемент "Последнее"](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
 
 Дополнительные сведения см. в статье [Недавно просмотренное содержимое в службе Power BI](service-recent.md).
 
 ### <a name="apps"></a>Приложения
 Приложение — это набор панелей мониторинга и отчетов, предоставляющих все ключевые метрики в одном решении. У вас могут быть приложения для использования в пределах организации, а также такие [приложения для внешних служб](service-connect-to-services.md), как Google Analytics и Microsoft Dynamics CRM. 
 
-![](media/service-the-new-power-bi-experience/power-bi-apps.png)
+![Панель "Приложения"](media/service-the-new-power-bi-experience/power-bi-apps.png)
 
 Дополнительные сведения см. в разделе **Рабочие области приложений** (ниже) и в статье [Что из себя представляют приложения в Power BI?](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Панель "Мне предоставлен доступ"
-На панели **Мне предоставлен доступ** находится все содержимое, которым с вами поделились коллеги.  Отфильтруйте данные по владельцу панели мониторинга, воспользуйтесь соответствующим полем поиска для поиска нужных данных и отсортируйте элементы по дате.  Общее содержимое, которое вы часто просматриваете, можно с легкостью добавить в избранное прямо из представления **Мне предоставлен доступ**.
+На панели **Мне предоставлен доступ** находится все содержимое, которым с вами поделились коллеги.  Отфильтруйте данные по владельцу панели мониторинга, воспользуйтесь полем поиска для обнаружения нужных данных и отсортируйте элементы по дате.  Общее содержимое, которое вы часто просматриваете, можно с легкостью добавить в избранное прямо из представления **Мне предоставлен доступ**.
 
-![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
+![Панель "Мне предоставлен доступ"](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
 Дополнительные сведения см. в статье [Отображение информационных панелей Power BI, к которым мне предоставлен доступ](service-shared-with-me.md).
 
@@ -130,29 +130,29 @@ ms.lasthandoff: 02/24/2018
 #### <a name="my-workspace"></a>Моя рабочая область
 В разделе **Моя рабочая область** хранится все содержимое пользователя. Это своего рода личная песочница или рабочая область для хранения личного содержимого. Вы можете совместно использовать содержимое из своей рабочей области с коллегами. В разделе "Моя рабочая область" содержимое распределяется по 4 вкладкам: "Информационные панели", "Отчеты", "Книги" и "Наборы данных".
 
-![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
+![Экран "Моя рабочая область"](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>Рабочие области приложений
-Приложения и рабочие области приложений — это компоненты службы Power BI Pro. Рабочие области приложений используются при создании информационных панелей и отчетов для других пользователей. Рабочая область приложения — это место создания приложения. Поэтому чтобы создать приложение, сначала нужно создать рабочую область. Рабочие области приложений — это усовершенствованные рабочие области групп. Они представляют промежуточную область и контейнеры для хранения содержимого приложения.  Вы, ваши коллеги и даже целая организация можете совместно работать над информационными панелями, отчетами и другим содержимым, ориентированным на более широкую аудиторию.
+Приложения и рабочие области приложений — это компоненты службы Power BI Pro. Рабочие области приложений используются при создании информационных панелей и отчетов для других пользователей. Рабочая область приложения — это место создания приложения. Поэтому чтобы создать приложение, сначала нужно создать рабочую область. Рабочие области приложений — это усовершенствованные рабочие области групп. Они представляют собой промежуточную область и контейнеры для хранения содержимого приложения.  Вы, ваши коллеги и даже целая организация можете совместно работать над информационными панелями, отчетами и другим содержимым, ориентированным на более широкую аудиторию.
 
 Дополнительные сведения см. в статье [Создание и распространение приложения в Power BI](service-create-distribute-apps.md#app-workspaces).
 
 Как и в разделе **Моя рабочая область**, содержимое распределяется по 4 вкладкам: "Информационные панели", "Отчеты", "Книги" и "Наборы данных".
 
-![](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
+![Рабочая область приложения](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
 
 Для переключения между рабочими областями выберите **Рабочие области** в области навигации слева.
 
-![](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
+![Выбор рабочей области](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Поиск и сортировка содержимого
 Представление содержимого упрощает его поиск, фильтрацию и сортировку. Чтобы найти панель мониторинга, отчет или книгу, введите строку в области поиска. Power BI отфильтрует данные и покажет только содержимое, которое содержит строку поиска как часть названия.
 
-![](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+![поиск панели мониторинга](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
 
 Вы также можете сортировать содержимое по имени или владельцу.  
 
-![](media/service-the-new-power-bi-experience/power-bi-sort.png)
+![сортировка содержимого](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Дополнительные сведения см. в статье [Поиск и сортировка содержимого в Power BI](service-navigation-search-filter-sort.md).
 

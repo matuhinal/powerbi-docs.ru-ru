@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Подключение к данным в Power BI Desktop
 Power BI Desktop позволяет легко подключаться к постоянно растущему миру данных. Если у вас нет Power BI Desktop, его можно загрузить и установить [отсюда](http://go.microsoft.com/fwlink/?LinkID=521662).
@@ -80,7 +80,7 @@ Power BI Desktop предоставляет широкие возможност�
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)   
 
-Хотите оставить отзыв? Прекрасно! Используйте пункт меню **Отправить отзыв** в Power BI Desktop. Мы будем рады вашим отзывам.
+Хотите оставить отзыв? Прекрасно! Используйте пункт меню **Отправить идею** в Power BI Desktop или посетите раздел [Отзывы сообщества](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Мы будем рады вашим отзывам.
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

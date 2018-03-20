@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c048a83dad3ea800f50b08bd15c0cec18d6d86cf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Использование SAP HANA в Power BI Desktop
 Теперь с помощью Power BI Desktop вы можете получить доступ к базе данных **SAP HANA** . Для использования **SAP HANA**на локальном клиентском компьютере нужно установить драйвер ODBC SAP HANA, чтобы подключение к данным **SAP HANA** в Power BI Desktop работало правильно. Драйвер ODBC SAP HANA можно скачать в [Центре скачивания программного обеспечения SAP](https://support.sap.com/swdc). В нем следует найти клиент SAP HANA CLIENT для компьютеров Windows. В связи с частым изменением структуры **Центра скачивания программного обеспечения SAP** более конкретные рекомендации по навигации по этому сайту недоступны.
@@ -35,7 +35,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-sap-hana/sap-hana-2.png)
 
-В этом выпуске **SAP HANA** в режиме [DirectQuery](desktop-use-directquery.md) поддерживается в Power BI Desktop и службе Power BI, и вы можете публиковать и отправлять отчеты, использующие **SAP HANA** в режиме DirectQuery, в службу Power BI. Когда **SAP HANA** не используется в режиме DirectQuery, вы также можете публиковать и отправлять отчеты в службу Power BI.
+В этом выпуске **SAP HANA** в режиме [DirectQuery](desktop-directquery-sap-hana.md) поддерживается в Power BI Desktop и службе Power BI, и вы можете публиковать и отправлять отчеты, использующие **SAP HANA** в режиме DirectQuery, в службу Power BI. Когда **SAP HANA** не используется в режиме DirectQuery, вы также можете публиковать и отправлять отчеты в службу Power BI.
 
 ### <a name="supported-features-for-sap-hana"></a>Поддерживаемые компоненты SAP HANA
 Этот выпуск содержит множество возможностей для работы с **SAP HANA**, перечисленных в списке ниже.
@@ -55,4 +55,12 @@ ms.lasthandoff: 02/24/2018
 * SMALLDECIMAL не поддерживается
 * VARBINARY не поддерживается
 * Допустимый диапазон дат — с 30.12.1899 до 31.12.9999.
+
+
+## <a name="next-steps"></a>Дальнейшие действия
+Дополнительные сведения о DirectQuery см. в следующих статьях:
+
+* [DirectQuery и SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI и DirectQuery](desktop-directquery-about.md)
+* [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)
 

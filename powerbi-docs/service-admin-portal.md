@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/23/2018
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Портал администрирования Power BI
 
@@ -142,9 +142,13 @@ ms.lasthandoff: 02/24/2018
 
 Пользователи в вашей организации могут предоставлять внешним пользователям общий доступ к информационным панелям.
 
+![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+
+Так выглядит сообщение, отображаемое при предоставлении общего доступа внешнему пользователю.
+
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Публикация в Интернете
+### <a name="publish-to-web"></a>Опубликовать в Интернете
 
 Пользователи в организации могут публиковать отчеты в Интернете. [Дополнительные сведения](service-publish-to-web.md)
 

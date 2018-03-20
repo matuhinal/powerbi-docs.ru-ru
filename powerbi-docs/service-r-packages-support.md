@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Пакеты R в службе Power BI
 Вы можете использовать эффективный [язык программирования R](https://www.r-project.org/) для создания визуальных элементов в службе Power BI. Большинство пакетов R поддерживаются в службе Power BI (кроме того, они поддерживаются постоянно), а некоторые из них не поддерживаются.
@@ -36,12 +36,12 @@ ms.lasthandoff: 02/24/2018
 Для пакетов R существуют определенные требования и ограничения.
 
 * Служба Power BI преимущественно поддерживает пакеты R с лицензиями на свободное ПО и ПО с открытым исходным кодом, включая GPL-2, GPL-3, MIT+ и т. д.
-* Служба Power BI поддерживает пакеты, опубликованные в CRAN. Служба не поддерживает закрытые или пользовательские пакеты R. Мы рекомендуем пользователям сделать свои закрытые пакеты доступными в CRAN, прежде чем запрашивать доступность пакета в службе Power BI.
-* Для **Power BI Desktop** доступны два варианта использования пакетов R.
+* Служба Power BI поддерживает пакеты, опубликованные в CRAN. Служба не поддерживает закрытые или пользовательские пакеты R. Пользователям рекомендуется сделать свои закрытые пакеты доступными в CRAN, прежде чем запрашивать доступность пакета в службе Power BI.
+* Для **Power BI Desktop** доступны два варианта пакетов R:
   
   * Для визуальных элементов R можно установить любой пакет, включая пользовательские пакеты R.
   * Для пользовательских визуальных элементов R поддерживаются только открытые пакеты CRAN для автоматической установки пакетов.
-* Из соображений конфиденциальности и безопасности пакеты R, которые передают запросы клиент-сервера в службу через Интернет (например RgoogleMaps), сейчас не поддерживаются. Возможность подключения для таких попыток заблокирована. Список поддерживаемых и неподдерживаемых пакетов R приведен в разделе ниже.
+* Из соображений конфиденциальности и безопасности пакеты R, которые передают запросы клиент-сервера в службу через Интернет (например RgoogleMaps), не поддерживаются. Возможность подключения для таких попыток заблокирована. Список поддерживаемых и неподдерживаемых пакетов R приведен в разделе ниже.
 * При утверждении нового пакета R для включения используется дерево зависимостей. При этом некоторые необходимые для установки службы зависимости не поддерживаются.
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Поддерживаемые пакеты R в Power BI
@@ -116,7 +116,7 @@ ms.lasthandoff: 02/24/2018
 | cubature |1.1–2 |https://cran.r-project.org/web/packages/cubature/index.html |
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
-| Data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
+| data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
 | date |1.2–34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9–7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2–37 |https://cran.r-project.org/web/packages/deal/index.html |
@@ -202,7 +202,7 @@ ms.lasthandoff: 02/24/2018
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1–25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
-| Highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
+| highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17–3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3–7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
 | ifultools |2.0–1 |https://cran.r-project.org/web/packages/ifultools/index.html |
@@ -296,7 +296,7 @@ ms.lasthandoff: 02/24/2018
 | pcaPP |1.9–60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
 | PerformanceAnalytics |1.4.3541 |https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html |
-| Plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
+| plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
 | plotmo |3.1.4 |https://cran.r-project.org/web/packages/plotmo/index.html |
 | plotrix |3.6–1 |https://cran.r-project.org/web/packages/plotrix/index.html |
 | pls |2.5–0 |https://cran.r-project.org/web/packages/pls/index.html |
@@ -325,7 +325,7 @@ ms.lasthandoff: 02/24/2018
 | Rcpp |0.12.3 |https://cran.r-project.org/web/packages/Rcpp/index.html |
 | RcppArmadillo |0.6.600.4.0 |https://cran.r-project.org/web/packages/RcppArmadillo/index.html |
 | RcppEigen |0.3.2.8.1 |https://cran.r-project.org/web/packages/RcppEigen/index.html |
-| redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
+| Redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
 | registry |0.3 |https://cran.r-project.org/web/packages/registry/index.html |
 | relimp |1.0–5 |https://cran.r-project.org/web/packages/relimp/index.html |
 | reshape |0.8.5 |https://cran.r-project.org/web/packages/reshape/index.html |

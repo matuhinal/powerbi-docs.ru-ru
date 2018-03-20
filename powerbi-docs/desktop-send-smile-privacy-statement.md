@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Заявление о конфиденциальности, действующее при отправке смайлика Power BI Desktop
+
+Начиная с версии **Power BI Desktop** за март 2018 г. функция отчетов об ошибках использует платформу отчетов об ошибках Windows вместо функций *Отправить смайлик* или *Отправить нахмуренный смайлик*. Дополнительные сведения о платформе отчетов об ошибках Windows см. в [блоге о конфиденциальности Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Версии Power BI Desktop, выпущенные до марта 2018 г.
+
 В корпорации Майкрософт прилагаются большие усилия для защиты конфиденциальности. Для этого разрабатываются продукты, которые обеспечивают высокую производительность, эффективность и удобство работы. Настоящее заявление о конфиденциальности объясняет методы сбора и использования отзывов *Отправить смайлик* в Microsoft Power BI Desktop. Оно не применяется к другим подключенным или не подключенным к сети сайтам, продуктам или услугам Майкрософт.
 
 За исключением случаев, перечисленных в данном заявлении, функция *Отправить смайлик* не отправляет личные сведения в корпорацию Майкрософт. Сведения, которые отправляются в корпорацию Майкрософт, не передаются за пределы корпорации Майкрософт и подконтрольных ей дочерних подразделений и аффилированных лиц без вашего разрешения.

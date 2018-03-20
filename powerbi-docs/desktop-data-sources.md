@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 Power BI Desktop позволяет подключаться к данным из многих разных источников. Полный список доступных источников данных представлен в нижней части этой страницы.
@@ -78,13 +78,14 @@ Power BI Desktop позволяет подключаться к данным и�
 * База данных Oracle
 * База данных IBM DB2
 * база данных IBM Informix (бета-версия);
-* IBM Netezza (бета-версия)
+* IBM Netezza
 * База данных MySQL
 * База данных PostgreSQL
 * База данных Sybase
 * База данных Teradata
 * База данных SAP HANA
-* сервер SAP Business Warehouse;
+* Сервер приложений SAP Business Warehouse
+* Сервер сообщений SAP Business Warehouse (бета-версия)
 * Amazon Redshift
 * Impala
 * Google BigQuery (бета-версия)
@@ -103,13 +104,14 @@ Power BI Desktop позволяет подключаться к данным и�
 
 * База данных SQL Azure
 * Хранилище данных SQL Azure
-* База данных служб Analysis Services Azure (бета-версия)
+* База данных Azure Analysis Services
 * Хранилище BLOB-объектов Azure
 * Хранилище таблиц Azure
 * Azure Cosmos DB (бета-версия)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (бета-версия)
+* HDInsight Interactive Query (бета-версия)
 
 На следующем рисунке показано окно **Получить данные** для категории **Azure**.
 
@@ -121,6 +123,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Список SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (в сети);
+* Dynamics NAV (бета-версия)
 * Dynamics 365 for Financials (бета-версия)
 * Common Data Service (бета-версия);
 * Microsoft Azure Consumption Insights (бета-версия);
@@ -128,23 +131,24 @@ Power BI Desktop позволяет подключаться к данным и�
 * Объекты SalesForce
 * Отчеты SalesForce
 * Google Analytics
+* Adobe Analytics
 * appFigures (бета-версия)
 * comScore Digital Analytix (бета-версия)
 * Dynamics 365 для Customer Insights (бета-версия)
+* Data.World — получение набора данных (бета-версия)
 * Facebook
 * GitHub (бета-версия)
-* Kusto (бета-версия)
 * MailChimp (бета-версия)
+* Merketo (бета-версия)
 * Mixpanel (бета-версия)
-* Planview Enterprise (бета-версия)
-* Projectplace (бета-версия)
+* Planview Enterprise One — PRM (бета-версия)
+* Planview Projectplace (бета-версия)
 * QuickBooks Online (бета-версия)
 * Smartsheet (бета-версия)
 * SparkPost (бета-версия)
-* SQL Sentry (бета-версия)
 * Stripe (бета-версия)
 * SweetIQ (бета-версия)
-* Troux (бета-версия)
+* Planview Enterprise One — CMT (бета-версия)
 * Twilio (бета-версия)
 * tyGraph (бета-версия)
 * Webtrends (бета-версия)
@@ -157,6 +161,7 @@ Power BI Desktop позволяет подключаться к данным и�
 Категория **Другие** предоставляет следующие подключения к данным:
 
 * Vertica (бета-версия);
+* Kusto (бета-версия)
 * Веб-приложение
 * Список SharePoint
 * Веб-канал OData
@@ -203,4 +208,3 @@ Power BI Desktop предоставляет широкие возможност�
 * [Типы данных в Power BI Desktop](desktop-data-types.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)    
-

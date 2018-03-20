@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ea2e521350b6036b8d2e9b852eb47c546dd818f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 Вы можете установить эффективное подключение с единым входом, включив обновление отчетов и панели мониторинга Power BI с помощью данных из локальной среды. Для этого настройте локальный шлюз данных с Kerberos. Локальный шлюз данных упрощает единый вход (SSO) с помощью функции DirectQuery, которая используется для подключения к локальным источникам данных.
@@ -64,9 +64,13 @@ ms.lasthandoff: 02/24/2018
 
 
 > [!NOTE]
-> Для использования в SAP HANA единого входа система SAP должна соответствовать следующим особым требованиям к конфигурации HANA.
->    1. Сервер SAP HANA должен работать под управлением версии 2.00.022* или более поздней. 
->    2. На компьютере шлюза установите последнюю версию драйвера ODBC для HANA от SAP.  Минимальная версия драйвера ODBC для HANA — 2.00.020.00, выпущенная в августе 2017 г.
+> Для использования в SAP HANA единого входа система SAP должна соответствовать следующим особым требованиям к конфигурации SAP HANA:
+> 1. Убедитесь, что для сервера SAP HANA используется минимально допустимая версия, которая зависит от уровня платформы сервера SAP HANA:
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+>
+> 2. На компьютере шлюза установите последнюю версию драйвера ODBC для HANA от SAP.  Минимальная версия драйвера ODBC для HANA — 2.00.020.00, выпущенная в августе 2017 г.
 >
 > Возможно, вам помогут следующие ссылки на исправления и обновления от SAP. Учтите, что для входа на следующие ресурсы нужно использовать учетную запись поддержки SAP и что SAP может изменить или обновить эти ссылки.
 > 

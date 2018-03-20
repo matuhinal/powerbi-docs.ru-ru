@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Шлюз Power BI — персональный
 > [!NOTE]
@@ -90,7 +90,7 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="download-and-install-a-gateway"></a>Скачивание и установка шлюза
 > [!NOTE]
-> Реализована новая версия личного шлюза для Power BI, которая называется **локальным шлюзом данных (персональный режим)**. В этой статье описывается предыдущая версия личного шлюза (**Power BI Gateway - Personal**), использование которой будет прекращено и которая перестанет работать после 31 июля 2017 года. Сведения о новой версии личного шлюза, в том числе об установке новой версии, см. в статье [**Локальный шлюз данных (персональный режим)**](service-gateway-personal-mode.md).
+> Имеется новая версия личного шлюза для Power BI, которая называется **локальным шлюзом данных (персональный режим)**. В этой статье описывается предыдущая версия личного шлюза (**Power BI Gateway - Personal**), использование которой будет прекращено и которая перестанет работать после 31 июля 2017 года. Сведения о новой версии личного шлюза, в том числе об установке новой версии, см. в статье [**Локальный шлюз данных (персональный режим)**](service-gateway-personal-mode.md).
 > 
 > 
 

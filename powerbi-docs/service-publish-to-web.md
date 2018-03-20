@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -136,7 +136,7 @@ ms.lasthandoff: 02/24/2018
 Функция **Опубликовать в Интернете** поддерживается большинством источников данных и отчетов в службе Power BI. Но следующие компоненты в настоящее время не поддерживаются или недоступны для использования с этой функцией.
 
 1. Отчеты, использующие функции безопасности на уровне строк.
-2. Отчеты, использующие любой источник данных динамического подключения, включая табличные отчеты Analysis Services, размещенные в многомерных службах Analysis Service, в службах Azure Analysis Services и в службах Power BI.
+2. Отчеты, использующие любой источник данных динамического подключения, включая локальные многомерные службы Analysis Service, размещенные в табличной модели Analysis Services, службы Azure Analysis Services и службу Power BI.
 3. Отчеты, к которым вам предоставлен доступ непосредственно или через пакет содержимого организации.
 4. Отчеты в группе, в которой вы не являетесь участником с правами редактирования.
 5. В настоящее время в отчетах для функции "Опубликовать в Интернете" не поддерживаются визуальные элементы R.
