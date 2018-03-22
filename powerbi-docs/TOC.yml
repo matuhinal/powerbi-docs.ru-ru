@@ -698,8 +698,6 @@
           href: desktop-assume-referential-integrity.md
         - name: Руководство. Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: DirectQuery для баз данных Oracle и Teradata
-          href: desktop-directquery-for-oracle-teradata.md
         - name: Использование соединителя SAP BW в Power BI Desktop (предварительная версия)
           href: desktop-sap-bw-connector.md
         - name: Использование ссылок OneDrive для бизнеса в Power BI Desktop
