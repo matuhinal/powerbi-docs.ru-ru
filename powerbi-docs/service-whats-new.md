@@ -1,28 +1,29 @@
 ---
-title: "Новые возможности службы Power BI"
-description: "Новые возможности службы Power BI"
+title: Новые возможности службы Power BI
+description: Новые возможности службы Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -36,7 +37,17 @@ ms.lasthandoff: 02/27/2018
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>Январь 2018 г.:
+## <a name="march-2018"></a>Март 2018 г.
+* [Сохраняемые фильтры](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) в службе Power BI.
+* Предоставление пользователям общего доступа к содержимому с помощью их личных учетных записей электронной почты. Интеграция с [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
+
+## <a name="previous-months-2018"></a>Предыдущие месяцы (2018 г.)
+### <a name="february-2018"></a>Февраль 2018 г.
+* Автоматическая установка [приложений Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) для конечных пользователей.
+* Емкости P4 и P5 в Power BI Premium.
+* Предварительная версия [пользовательских визуальных элементов организации](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization).
+
+### <a name="january-2018"></a>Январь 2018 г.:
 *   предоставление общего доступа к отчетам Power BI и добавление их в "Избранное";
 *   поддержка единого входа OAuth2 и DirectQuery для службы "База данных Azure SQL" и хранилища данных;
 *   аудит в пределах региона — теперь журналы аудита будут храниться в том же регионе Office 365, что и их клиент;
