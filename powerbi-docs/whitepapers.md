@@ -1,27 +1,27 @@
 ---
-title: "Техническая документация по Power BI"
-description: "Техническая документация описывает Power BI на более глубоком уровне."
+title: Техническая документация по Power BI
+description: Техническая документация описывает Power BI на более глубоком уровне.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -42,5 +42,6 @@ ms.lasthandoff: 01/30/2018
 | [Безопасность табличной семантической модели бизнес-аналитики](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |В этом документе рассматривается модель безопасности табличной семантики бизнес-аналитики и Power BI. Вы научитесь создавать роли, реализовывать динамическую безопасность, настраивать параметры олицетворения, управлять ролями и выбирать подходящий метод подключения к моделям в контексте безопасности вашей сети. |
 | [Руководство по планированию ресурсов для Сервера отчетов Power BI](report-server/capacity-planning.md) |В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. |
 | [Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Этот документ содержит инструкции и рекомендации по планированию и развертыванию емкости Premium для четко определенных рабочих нагрузок.|
+| [Power BI и SAP BW](https://aka.ms/powerbiandsapbw)| Этот документ описывает, какую выгоду клиенты SAP могут извлечь, подключив Power BI к имеющимся у них системам SAP Business Warehouse (BW).|
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

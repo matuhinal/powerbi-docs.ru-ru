@@ -1,16 +1,16 @@
 ---
-title: "Сертифицированные пользовательские визуализации Power BI"
-description: "Требования к пользовательскому визуальному элементу для сертификации и процедура его отправки. А также список уже сертифицированных пользовательских визуальных элементов."
+title: Сертифицированные пользовательские визуализации Power BI
+description: Требования к пользовательскому визуальному элементу для сертификации и процедура его отправки. А также список уже сертифицированных пользовательских визуальных элементов.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -60,7 +60,6 @@ ms.lasthandoff: 02/28/2018
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Список пользовательских визуальных элементов, которые прошли сертификацию
 | Ссылка на AppSource | Ссылка на видео |
 | --- | --- |
-| [Правила взаимосвязей](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
 | [Круговая диаграмма с индивидуальным радиусом срезов](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Календарь Beyondsoft](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Петлеобразная диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Видео](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ ms.lasthandoff: 02/28/2018
 | [Хордовая диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [Видео](https://youtu.be/AQvd2FhRyCI) |
 | [Круговой датчик от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [Видео](https://youtu.be/9NHXALkBXuY) |
 | [Таблица кластеров](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [Кластеризация](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
-| [Кластеризация с использованием выбросов](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
-| [Диаграмма корреляции](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
 | [Цилиндрический датчик от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [Видео](https://youtu.be/DgdoWi7Gcxo) |
-| [Схема дерева решений](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
 | [Датчик с циферблатом](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
 | [Точечная диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
 | [Точечная диаграмма от OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [Видео](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ ms.lasthandoff: 02/28/2018
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Вафельная диаграмма Enlighten](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [График с направленной силой](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Видео](https://youtu.be/YsTa7uyJ4sg) |
-| [Диаграмма прогнозирования TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
-| [Прогнозирование с помощью ARIMA](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [Воронка с источником от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Видео](https://youtu.be/R_EcimsLI8U) |
 | [Диаграмма Ганта](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Видео](https://youtu.be/qJ7s_KrGiUU) |
 | [Ганта диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Видео](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ ms.lasthandoff: 02/28/2018
 | [Ось воспроизведения (динамический срез)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Ключевой показатель эффективности производительности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Видео](https://youtu.be/IvfIP3E6-1Q) |
 | [Матрица КПЭ производительности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Видео](https://youtu.be/1enze8pcGzY) |
+| [Диаграмма "Пульс"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [Видео](https://youtu.be/DQWdcQtjDVw) |
 | [Диаграмма с квадрантами от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Видео](https://youtu.be/ppBnyhqWNC0) |
 | [Лепестковая диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Кольцевая диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Видео](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ ms.lasthandoff: 02/28/2018
 | [Полоса прокрутки](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Смарт-фильтр от OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [Видео](https://youtu.be/gcJsDDRQq28) |
 | [Спарклайн от OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [Видео](https://youtu.be/0m3Vnvso9tY) |
-| [Сплайн-диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
 | [График потока](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Диаграмма "Солнечные лучи"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Диаграмма "Тепловая карта"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
@@ -135,8 +128,6 @@ ms.lasthandoff: 02/28/2018
 | [Фильтрация текста](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Текстовая оболочка от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Термометр](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
-| [Диаграмма декомпозиции временных рядов](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
-| [Диаграмма прогнозирования временных рядов](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
 | [Срез временной шкалы](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Видео](https://youtu.be/ozMtZ4_NZ10) |
 | [Диаграмма-торнадо](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Видео](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Диаграмма продаж от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Видео](https://youtu.be/xhTR6y6J9Ko) |

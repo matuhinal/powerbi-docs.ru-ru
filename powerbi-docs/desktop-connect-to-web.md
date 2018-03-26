@@ -1,15 +1,15 @@
 ---
-title: "Подключение к веб-странице из Power BI Desktop"
-description: "Простое и удобное подключение к данным на веб-страницах из приложения Power BI Desktop"
+title: Подключение к веб-странице из Power BI Desktop
+description: Простое и удобное подключение к данным на веб-страницах из приложения Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Подключение к веб-странице из Power BI Desktop
 Вы можете подключиться к веб-странице и импортировать информацию с нее в приложение Power BI Desktop, а затем использовать ее в визуальных элементах и моделях данных.
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 
 На этом процедура подключения к веб-странице и переноса данных с нее в Power BI Desktop завершена.
 
-После этого вы сможете перетаскивать поля на холст ответа и создавать элементы визуализации. Вы также можете работать с данными на веб-странице, как и с любыми другими сведениями: менять их формат, создавать связи между ними и другими источниками модели, а также выполнять любые другие действия для создания отчетов Power BI.
+После этого вы сможете перетаскивать поля на холст ответа и создавать элементы визуализации. Вы также можете использовать данные на веб-странице, как и любые другие сведения: менять их формат, создавать связи между ними и другими источниками модели, а также выполнять любые другие действия для создания отчетов Power BI.
 
 Более подробно подключение к веб-страницам рассматривается в [руководстве по началу работы с Power BI Desktop](desktop-getting-started.md).
 

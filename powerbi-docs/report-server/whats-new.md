@@ -1,34 +1,32 @@
 ---
-title: "Новые возможности сервера отчетов Power BI"
-description: "Узнайте о новых возможностях сервера отчетов Power BI. Здесь приводятся сведения об основных функциях. Материалы обновляются по мере выпуска новых элементов."
+title: Новые возможности сервера отчетов Power BI
+description: Узнайте о новых возможностях сервера отчетов Power BI. Здесь приводятся сведения об основных функциях. Материалы обновляются по мере выпуска новых элементов.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/31/2017
-ms.author: maghan
-ms.openlocfilehash: 2ac4efa4e1eff5099fa3732b0fa753b04941979e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 Узнайте о новых возможностях сервера отчетов Power BI. Здесь приводятся сведения об основных функциях. Материалы обновляются по мере выпуска новых элементов.
 
 Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
-
-![Совет](media/whats-new/fyi-tip.png "Совет"). См. [заметки о текущем выпуске сервера отчетов Power BI](release-notes.md).
 
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
 
@@ -37,6 +35,103 @@ ms.lasthandoff: 01/30/2018
 * [Новые возможности мобильных приложений для Power BI](../mobile-whats-new-in-the-mobile-apps.md)
 * [Блог команды Power BI](https://powerbi.microsoft.com/blog/)
 
+## <a name="march-2018-release"></a>Выпуск за март 2018 г.
+
+В выпуске Power BI Desktop за март 2018 г. появилось множество новых функций, оптимизированных для Сервера отчетов Power BI. Они приведены ниже с группированием по областям: 
+- [Визуальные элементы](#visuals-updates)
+- [Отчеты](#reporting)
+- [Аналитика](#analytics)
+- [Производительность](#performance)
+- [Сервер отчетов](#report-server)
+- [Другие](#other-improvements)
+
+### <a name="highlights-of-this-release"></a>Краткое описание этого выпуска
+
+Из всего длинного списка новых возможностей приведенные ниже нам кажутся наиболее интересными.
+
+#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Условное форматирование на основе правил для визуальных элементов таблицы и матрицы](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+ 
+Вы можете создать правила, чтобы условно задать цвет фона или шрифта в столбце, основываясь на определенной бизнес-логике в таблице или матрице.
+
+#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Отображение и скрытие страниц](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+
+Предположим, что вы хотите, чтобы читатели имели доступ к отчету, хотя еще не закончили работу с некоторыми страницами. Теперь их можно скрыть, пока они не будут готовы. Кроме того, можно скрыть страницы при нормальной навигации, при этом читатели смогут перейти на такую страницу с помощью закладок или детализации.
+
+#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Использование закладок](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+
+Вы можете использовать закладки, чтобы упорядочить данные в отчете.
+
+- [Перекрестное выделение для закладок](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): закладки сохраняют и отображают состояние перекрестного выделения страницы отчета во время создания закладки.
+- [Повышенная гибкость при работе с закладками](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): закладки отражают свойства, заданные вами в отчете, и затрагивают только указанные визуальные элементы.
+
+#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Множественный выбор точек данных на нескольких диаграммах](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+
+Вы можете выбрать несколько точек данных на нескольких диаграммах и применить перекрестную фильтрацию ко всей странице.
+
+#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Синхронизация срезов на нескольких страницах отчета](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+
+Срез может применяться к одной или нескольким страницам в отчете.
+
+#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Быстрые меры](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+Вы можете создавать меры на основе существующих мер и числовых столбцов в таблице.
+
+#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Детализирующие фильтры для других визуализаций](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+
+При детализации по заданной категории в одном визуальном элементе можно настроить его для фильтрации всех визуальных элементов на странице по этой же категории.
+
+### <a name="visuals-updates"></a>Обновления визуальных элементов
+
+- [Выравнивание ячеек для визуальных элементов таблицы и матрицы](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment)
+- [Отображение единиц измерения и управление точностью для столбцов таблицы и матрицы](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits)
+- [Метки данных переполнения для линейчатых диаграмм и гистограмм](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow)
+- [Управление цветом фона меток данных в визуализациях с декартовыми координатами и сопоставлениями](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground)
+- [Управление отступами столбцов](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding)
+- [Увеличение размера области, используемой для меток осей на диаграммах](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize)
+- [Точечная диаграмма, созданная с помощью группирования осей X и Y](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart)
+- [Высокая плотность выборки для карт на основе широты и долготы](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps)
+- [Адаптивные срезы](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
+- [Добавление даты привязки для среза относительных дат](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
+
+### <a name="reporting"></a>Отчеты
+
+- [Отключение заголовка визуального элемента в режиме чтения для отчета](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
+- [Параметры отчета для медленных источников данных](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
+- [Улучшенное размещение визуальных элементов по умолчанию](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement)
+- [Упорядочение визуальных элементов контроля через область выделения](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane)
+- [Блокировка объектов в отчете](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock)
+- [Поиск по панели форматирования и аналитики](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
+- [Панель свойств поля и описания поля](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
+
+### <a name="analytics"></a>Аналитика
+
+- [UTCNOW() и UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
+- [Пометка таблицы настраиваемой даты](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+- [Детализирующие фильтры для других визуальных элементов](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+- [Форматирование на уровне ячейки для многомерных моделей AS для многострочной карточки](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
+ 
+### <a name="performance"></a>Производительность
+
+- [Улучшения эффективности фильтрации](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
+- [Улучшения эффективности DirectQuery](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
+- [Повышение производительности при сохранении и открытии](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf)
+- [Улучшения функции "Показать элементы без данных"](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData)
+ 
+### <a name="report-server"></a>Сервер отчетов 
+
+#### <a name="export-to-accessible-pdf"></a>Экспорт в доступный PDF
+
+При экспорте отчета с разбивкой на страницы (язык определения отчетов) в формат PDF теперь можно получить доступный/помеченный тегами PDF-файл. Он больше по размеру, но упрощает чтение и навигацию для средств чтения с экрана и других специальных возможностей. Чтобы включить доступный PDF, задайте для параметра **AccessiblePDF** в сведениях об устройстве значение **True**. См. разделы [Параметры сведений об устройстве для PDF](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) и [Изменение параметров сведений об устройстве ](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
+
+
+### <a name="other-improvements"></a>Другие усовершенствования
+
+- [Усовершенствования функции "Добавить столбец из примеров"](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples)
+- [Быстрая ссылка "Консультационные услуги"](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#consultingServices)
+- [Улучшенное ведение отчетов об ошибках](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors)
+- [Просмотр возникших ранее ошибок](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors)
+
+ 
 ## <a name="october-2017-release"></a>Выпуск за октябрь 2017 г.
 ### <a name="power-bi-report-data-sources"></a>Источники данных отчетов Power BI
 Отчеты Power BI в решении "Сервер отчетов Power BI" можно подключать к разным источникам данных. Вы можете импортировать данные и планировать их обновление или запрашивать данные напрямую, используя DirectQuery или активное подключение к SQL Server Analysis Services. Список источников данных, поддерживающих запланированное обновление и DirectQuery см. в статье об источниках данных для отчетов Power BI в решении "Сервер отчетов Power BI".
@@ -111,7 +206,6 @@ Excel и Power BI включают ряд средств, уникальных �
 * Оптимизированные возможности совместной работы в отчетах с комментариями
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Заметки о выпуске сервера отчетов Power BI](release-notes.md)  
 [Руководство пользователя](user-handbook-overview.md)  
 [Руководство администратора](admin-handbook-overview.md)  
 [Краткое руководство по установке сервера отчетов Power BI](quickstart-install-report-server.md)  

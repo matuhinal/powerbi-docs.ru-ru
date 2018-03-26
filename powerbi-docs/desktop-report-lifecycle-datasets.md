@@ -1,15 +1,15 @@
 ---
-title: "Подключение к наборам данных в службе Power BI из приложения Power BI Desktop"
-description: "Использование общего набора данных для нескольких отчетов Power BI Desktop, а также управление жизненным циклом отчета"
+title: Подключение к наборам данных в службе Power BI из приложения Power BI Desktop
+description: Использование общего набора данных для нескольких отчетов Power BI Desktop, а также управление жизненным циклом отчета
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Подключение к наборам данных в службе Power BI из приложения Power BI Desktop
 Вы можете устанавливать динамическое подключение к общему набору данных в службе Power BI и создавать различные отчеты из одного набора данных. Это означает, что вы можете создать идеальную модель данных в Power BI Desktop и опубликовать ее в службе Power BI. После этого вы и другие пользователи сможете создавать несколько разных отчетов (в отдельных PBIX-файлах) на основе одной и той же общей модели. Это называется **динамическим подключением в службе Power BI**.
@@ -59,7 +59,7 @@ ms.lasthandoff: 03/09/2018
 Теперь когда мы знаем, насколько полезно **динамическое подключение к службе Power BI**, и как его можно использовать для управления жизненным циклом отчета, рассмотрим пошаговое руководство, которое поможет нам извлечь прекрасный отчет Анны (и набор данных) в общий набор данных, который смогут использовать коллеги в ее рабочей области в Power BI.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Публикация отчета Power BI и набора данных
-Первым шагом в управлении жизненным циклом отчета с помощью **динамического подключения в службе Power BI** будет получение отчета (и набора данных), который хотят использовать коллеги. Поэтому Анна сначала должна **опубликовать** свой отчет из **Power BI Destkop**. Для этого она должна выбрать команду **Опубликовать** на вкладке ленты **Главная** в Power BI Desktop.
+Первым шагом в управлении жизненным циклом отчета с помощью **динамического подключения в службе Power BI** будет получение отчета (и набора данных), который хотят использовать коллеги. Поэтому Анна сначала должна **опубликовать** свой отчет из **Power BI Desktop**. Для этого она должна выбрать команду **Опубликовать** на вкладке ленты **Главная** в Power BI Desktop.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 

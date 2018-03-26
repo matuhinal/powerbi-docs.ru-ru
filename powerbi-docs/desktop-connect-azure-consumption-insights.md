@@ -1,15 +1,15 @@
 ---
-title: "Подключение к данным Azure Consumption Insights в Power BI Desktop (бета-версия)"
-description: "Легко подключайтесь к Azure и получайте сведения о потреблении и использовании с помощью Power BI Desktop"
+title: Подключение к данным Azure Consumption Insights в Power BI Desktop (бета-версия)
+description: Легко подключайтесь к Azure и получайте сведения о потреблении и использовании с помощью Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Подключение к Azure Consumption Insights в Power BI Desktop (бета-версия)
 С помощью соединителя **Azure Consumption Insights** можно использовать **Power BI Desktop** для подключения к Azure и получения подробных данных и сведений об использовании служб Azure в организации. Можно также создавать меры, настраиваемые столбцы и визуальные элементы для формирования отчетов об использовании Azure в организации и предоставления доступа к ним. Этот выпуск соединителя **Azure Consumption Insights** является бета-версией, которая может быть изменена.
@@ -42,11 +42,11 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* Номер регистрации можно найти на портале [Azure Enterprise Portal](https://ea.azure.com) в расположении, которое показано на рисунке ниже.
+* Номер регистрации можно найти на портале [Azure Enterprise Portal](https://ea.azure.com) в расположении, которое показано на следующем рисунке:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
-  Эта версия соединителя поддерживает только корпоративные регистрации с портала https://ea.azure.com. Регистрации из Китая сейчас не поддерживаются.
+  Эта версия соединителя поддерживает только корпоративные регистрации с https://ea.azure.com. Регистрации из Китая сейчас не поддерживаются.
 
 Теперь введите свой *ключ доступа* для подключения.
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> Таблицы *"Сводка" и *Прайс-лист* доступны только для уровня регистрации ключа API. По умолчанию таблицы *Использование* и *Прайс-лист* содержат данные за текущий месяц. Данные в таблицах *Сводка* и *MarketPlace* не ограничены текущим месяцем.
+> Таблицы *Сводка* и *Прайс-лист* доступны только для уровня регистрации ключа API. По умолчанию таблицы *Использование* и *Прайс-лист* содержат данные за текущий месяц. Данные в таблицах *Сводка* и *MarketPlace* не ограничены текущим месяцем.
 > 
 > 
 
@@ -84,16 +84,16 @@ Azure также включает коллекцию примеров польз
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Откроется коллекция примеров, как показано на следующем рисунке.
+Открывается коллекция примеров, как показано на следующем рисунке:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 При работе с отчетами и создании запросов используйте следующие параметры:
 
-* Чтобы определить число месяцев начиная с текущей даты, используйте параметр *noOfMonths*.
+* Чтобы определить число месяцев начиная с текущей даты, используйте параметр *numberOfMonth*.
   * Чтобы указать число месяцев с текущей даты, данные которых требуется импортировать, используйте значение от 1 до 36. Рекомендуем выбирать не более 12 месяцев данных, чтобы не превысить пороговые значения ограничений импорта и допустимого объема данных для запросов в Power BI.
 * Чтобы определить число месяцев в окне времени журнала, используйте параметры *startBillingDataWindow* и *endBillingDataWindow*.
-* *Не* используйте параметр *noOfMonths* вместе с параметрами *startBillingDataWindow* и *endBillingDataWindow*.
+* *Не* используйте параметр *numberOfMonth* вместе с параметрами *startBillingDataWindow* и *endBillingDataWindow*.
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Миграция из соединителя Azure Enterprise
 Некоторые пользователи создавали визуальные элементы с помощью *соединителя Azure Enterprise (бета-версия)*, который рано или поздно перестанет поддерживаться и будет заменен соединителем **Azure Consumption Insights**. Соединитель **Azure Consumption Insights** содержит следующие функции и усовершенствования:

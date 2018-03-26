@@ -1,48 +1,45 @@
 ---
-title: "Краткое руководство по установке сервера отчетов Power BI"
-description: "Сама по себе установка сервера отчетов Power BI выполняется очень быстро. Скачивание и установка с последующей настройкой занимают всего нескольких минут."
+title: Краткое руководство по установке сервера отчетов Power BI
+description: Сама по себе установка сервера отчетов Power BI выполняется очень быстро. Скачивание и установка с последующей настройкой занимают всего нескольких минут.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Краткое руководство по установке сервера отчетов Power BI
 Сама по себе установка сервера отчетов Power BI выполняется очень быстро. Скачивание и установка с последующей настройкой занимают всего нескольких минут.
 
 Это — краткое писание процедуры быстрой установки сервера отчетов в ситуации, когда вам нужно просто запустить новый сервер. См. дополнительные сведения об [установке сервера отчетов Power BI](install-report-server.md).
 
- **Скачать** ![скачать](media/quickstart-install-report-server/download.png "скачать")
-
-Чтобы скачать сервер отчетов Power BI, перейдите к разделу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/). 
-
-Вы также можете перейти непосредственно в Центр загрузки Майкрософт, чтобы скачать приложение [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (оптимизировано для решения "Сервер отчетов Power BI" в октябре 2017 г.).
-
-![Совет](media/quickstart-install-report-server/fyi-tip.png "Совет"). См. [заметки о текущем выпуске сервера отчетов Power BI](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Видео: установка Сервера отчетов Power BI
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Подготовка
-Прежде чем устанавливать сервер отчетов Power BI, рекомендуем ознакомиться с [требованиями к оборудованию и программному обеспечению для установки сервера отчетов Power BI](system-requirements.md).
+Прежде чем устанавливать Сервер отчетов Power BI, рекомендуем ознакомиться с [требованиями к оборудованию и программному обеспечению для установки Сервера отчетов Power BI](system-requirements.md).
 
 ## <a name="step-1-download"></a>Шаг 1. Скачивание
-Скачайте файлы установки для сервера отчетов Power BI в локальное расположение. Чтобы скачать сервер отчетов Power BI, перейдите в [центр загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=839351).
+
+Чтобы скачать Сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для Сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/) и выберите **Download free trial** (Скачать бесплатную пробную версию).
+
+Следуйте приведенным инструкциям, чтобы скачать файлы установки для Сервера отчетов Power BI в локальное расположение. 
 
 ![Скачивание сервера отчетов Power BI](media/quickstart-install-report-server/download-pbireportserver.png)
 

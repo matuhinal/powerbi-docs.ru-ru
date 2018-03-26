@@ -1,33 +1,33 @@
 ---
-title: "Получение реальных данных с помощью мобильных приложений Power BI"
-description: "Мобильные приложения Power BI могут связывать объекты физического мира непосредственно с соответствующей информацией BI без дополнительного поиска."
+title: Получение реальных данных с помощью мобильных приложений Power BI
+description: Мобильные приложения Power BI могут связывать объекты физического мира непосредственно с соответствующей информацией BI без дополнительного поиска.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 670d83e41476bf3d38a0f98908e20e7d35f9e22d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Получение данных из реального мира с помощью мобильных приложений Power BI
 Мобильные приложения Power BI могут связывать объекты физического мира непосредственно с соответствующей информацией BI несколькими способами. 
 
 ## <a name="qr-codes-for-tiles"></a>QR-коды для плиток
-Создайте QR-код для плитки панели мониторинга и поместите его куда-нибудь. Когда ваши коллеги отсканируют его с помощью iPhone или телефона с Android, они увидят связанную с ним плитку (на iPhone эта плитка отобразится в режиме дополненной реальности).
+Создайте QR-код для отчета или плитки на панели мониторинга и поместите его в нужное вам место. Когда ваши коллеги отсканируют его с помощью iPhone, телефона Android или приложения Power BI для смешанной реальности, они увидят связанную с ним плитку. На iPhone эта плитка отображается в режиме дополненной реальности.
 
 ![QR-код](media/mobile-apps-data-in-real-world-context/power-bi-ios-qr-ar-scanner-small.png)
 
@@ -35,6 +35,7 @@ ms.lasthandoff: 11/13/2017
 
 * [Создание QR-кода для плитки в Power BI](service-create-qr-code-for-tile.md)
 * [Сканирование QR-кода Power BI на мобильном устройстве](mobile-apps-qr-code.md)
+* [Сканирование QR-кода с помощью приложения Power BI для смешанной реальности](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)
 
 ## <a name="qr-codes-for-reports"></a>QR-коды для отчетов
 Вы можете создать QR-код для отчета.  Отсканировав его с помощью устройства iPhone (поддержка для телефонов с Android будет добавлена в ближайшем будущем), ваши коллеги смогут увидеть связанный с этим кодом отчет. 

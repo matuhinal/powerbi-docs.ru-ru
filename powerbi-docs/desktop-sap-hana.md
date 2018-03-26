@@ -1,15 +1,15 @@
 ---
-title: "Использование SAP HANA в Power BI Desktop"
-description: "Использование SAP HANA в Power BI Desktop"
+title: Использование SAP HANA в Power BI Desktop
+description: Использование SAP HANA в Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c8f3bfc64c6ab895d62749d4d4bc0d2d70d0a9b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Использование SAP HANA в Power BI Desktop
 Теперь с помощью Power BI Desktop вы можете получить доступ к базе данных **SAP HANA** . Для использования **SAP HANA**на локальном клиентском компьютере нужно установить драйвер ODBC SAP HANA, чтобы подключение к данным **SAP HANA** в Power BI Desktop работало правильно. Драйвер ODBC SAP HANA можно скачать в [Центре скачивания программного обеспечения SAP](https://support.sap.com/swdc). В нем следует найти клиент SAP HANA CLIENT для компьютеров Windows. В связи с частым изменением структуры **Центра скачивания программного обеспечения SAP** более конкретные рекомендации по навигации по этому сайту недоступны.
 
-Для подключения к базе данных **SAP HANA** последовательно выберите пункты **Получить данные > База данных > База данных SAP HANA**, как показано на следующем рисунке.
+Для подключения к базе данных **SAP HANA** последовательно выберите пункты **Получить данные > База данных > База данных SAP HANA**, как показано на следующем рисунке:
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
@@ -42,8 +42,8 @@ ms.lasthandoff: 03/08/2018
 
 * Для удобства пользователей соединитель Power BI для **SAP HANA** использует драйвер SAP ODBC.
 * **SAP HANA** поддерживает DirectQuery и функцию импорта
-* Power BI поддерживает информационные модели HANA (например, представления аналитики и вычислений) и отличается оптимизированной навигацией
-* **SAP HANA** позволяет использовать функцию прямого SQL для подключения к строкам и столбцам таблиц
+* Power BI поддерживает информационные модели HANA (например, представления аналитики и вычислений) и отличается оптимизированной навигацией.
+* **SAP HANA** позволяет использовать функцию прямого SQL для подключения к строкам и столбцам таблиц.
 * Включает оптимизированную навигацию для моделей HANA
 * Power BI поддерживает переменные и входные параметры **SAP HANA**
 

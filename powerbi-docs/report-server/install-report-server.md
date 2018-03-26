@@ -1,27 +1,27 @@
 ---
-title: "Установка сервера отчетов Power BI"
-description: "Узнайте, как установить сервер отчетов Power BI. "
+title: Установка сервера отчетов Power BI
+description: Узнайте, как установить сервер отчетов Power BI.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -29,18 +29,17 @@ ms.lasthandoff: 01/30/2018
 
  **Скачать** ![скачать](media/install-report-server/download.png "скачать")
 
-Чтобы скачать сервер отчетов Power BI, перейдите к разделу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/). 
+Чтобы скачать Сервер отчетов Power BI, перейдите к разделу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/) и выберите **Download free trial** (Скачать бесплатную пробную версию). 
 
-Вы также можете перейти непосредственно в Центр загрузки Майкрософт, чтобы скачать приложение [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (оптимизировано для решения "Сервер отчетов Power BI" в октябре 2017 г.).
-
-![Совет](media/install-report-server/fyi-tip.png "Совет"). См. [заметки о текущем выпуске сервера отчетов Power BI](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Видео: установка Сервера отчетов Power BI
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Подготовка
-Прежде чем устанавливать сервер отчетов Power BI, рекомендуем ознакомиться с [требованиями к оборудованию и программному обеспечению для установки сервера отчетов Power BI](system-requirements.md).
+Прежде чем устанавливать Сервер отчетов Power BI, рекомендуем ознакомиться с [требованиями к оборудованию и программному обеспечению для установки Сервера отчетов Power BI](system-requirements.md).
 
 ### <a name="power-bi-report-server-product-key"></a>Ключ продукта сервера отчетов Power BI
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 Если вы приобрели Power BI Premium, то на вкладке **Параметры Premium** портала администрирования Power BI сможете получить ключ продукта для сервера отчетов Power BI. Это будет доступно только глобальным администраторам или пользователям, которым назначена роль администратора службы Power BI.
 
@@ -54,12 +53,9 @@ ms.lasthandoff: 01/30/2018
 Если вы заключили соглашение SQL Server Enterprise SA, то можете получить ключ продукта на веб-сайте [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
 
 ## <a name="install-your-report-server"></a>Установка сервера отчетов
-Сама по себе установка сервера отчетов Power BI выполняется очень легко. Чтобы установить его, нужно выполнить совсем немного действий.
+Сама по себе установка Сервера отчетов Power BI выполняется очень легко. Чтобы установить его, нужно выполнить совсем немного действий.
 
-> [!NOTE]
-> Для установки вам не требуется ядро СУБД SQL Server. После установки нужно будет настроить службы отчетов Reporting Services.
-> 
-> 
+Для установки вам не требуется ядро СУБД SQL Server. После установки нужно будет настроить службы отчетов Reporting Services.
 
 1. Найдите папку с файлом PowerBIReportServer.exe и запустите установщик.
 2. Выберите **Install Power BI Report Server** (Установить сервер отчетов Power BI).
@@ -84,15 +80,14 @@ ms.lasthandoff: 01/30/2018
    
     ![Указание пути установки](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > Путь по умолчанию: C:\Program Files\Microsoft Power BI Report Server.
-   > 
-   > 
-7. После успешной установки нажмите кнопку **Настроить сервер отчетов**, чтобы запустить диспетчер конфигурации служб Reporting Services.
+    Путь по умолчанию: C:\Program Files\Microsoft Power BI Report Server.
+
+1. После успешной установки нажмите кнопку **Настроить сервер отчетов**, чтобы запустить диспетчер конфигурации служб Reporting Services.
    
     ![Настройка сервера отчетов](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>Настройка сервера отчетов
+## <a name="configuring-your-report-server"></a>Настройка сервера отчетов
+
 После того как вы нажмете кнопку **Настроить сервер отчетов** в программе установки, откроется диспетчер конфигурации служб Reporting Services. Дополнительные сведения см. в статье о [диспетчере конфигурации служб Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
 Для завершения начальной настройки служб Reporting Services необходимо [создать базу данных сервера отчетов](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Для выполнения этого шага требуется сервер базы данных SQL Server.

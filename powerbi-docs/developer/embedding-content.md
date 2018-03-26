@@ -1,27 +1,27 @@
 ---
-title: "Как внедрять панели мониторинга, отчеты и плитки Power BI"
-description: "Узнайте, какие действия необходимо выполнить для внедрения содержимого Power BI в приложение."
+title: Как внедрять панели мониторинга, отчеты и плитки Power BI
+description: Узнайте, какие действия необходимо выполнить для внедрения содержимого Power BI в приложение.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Внедрение панелей мониторинга, отчетов и плиток Power BI
 
@@ -88,6 +88,10 @@ ms.lasthandoff: 01/30/2018
 Если вы внедряете панели мониторинга и отчеты для клиентов, эти компоненты должны быть размещены в рабочей области приложения. *Главная* учетная запись, которая упоминалась выше, должна быть учетной записью администратора рабочей области приложения.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Пользователь без прав администратора может создать не более 250 рабочих областей приложения. Чтобы создать дополнительные рабочие области приложения, нужна учетная запись администратора клиента.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Создание и передача отчетов
 

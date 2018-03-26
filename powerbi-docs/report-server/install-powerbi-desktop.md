@@ -1,35 +1,34 @@
 ---
-title: "Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI"
-description: "Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI"
+title: Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
+description: Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/15/2017
+ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI.
 
 Чтобы создавать отчеты Power BI для решения "Сервер отчетов Power BI", скачайте и установите приложение Power BI Desktop, оптимизированное для этого решения. Этот выпуск отличается от выпуска Power BI Desktop, который используется в службе Power BI. Например, версия Power BI Desktop для службы Power BI включает функции предварительной версии, которые станут общедоступными после выпуска в версии Сервера отчетов Power BI. Использование этого выпуска позволяет обеспечить взаимодействие между сервером отчетов и известной версией отчетов и модели. 
 
-> [!NOTE]
-> Power BI Desktop и приложение Power BI Desktop, оптимизированное для решения "Сервер отчетов Power BI", можно устанавливать параллельно на одном компьютере.
+Мы рады сообщить, что Power BI Desktop и приложение Power BI Desktop, оптимизированное для Сервера отчетов Power BI, можно устанавливать параллельно на одном компьютере.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Загрузка и установка Power BI Desktop
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 12/19/2017
 
     ![Скачивание Power BI Desktop из веб-портала](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (октябрь 2017 г.), оптимизированному для решения "Сервер отчетов Power BI", в Центре загрузки Майкрософт.
+    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (март 2018 г.), оптимизированному для Сервера отчетов Power BI, в Центре загрузки Майкрософт.
 
 2. На странице Центра загрузки нажмите кнопку **Скачать**.
 
@@ -71,7 +70,7 @@ ms.lasthandoff: 12/19/2017
 При редактировании отчета Power BI на сервере отчетов Power BI или создании отчета Power BI на веб-портале всегда будет открываться правильная версия Power BI Desktop.
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
-Отчеты на сервере отчетов Power BI и в службе Power BI (http://powerbi.com) действуют почти так же, но некоторые функции все же отличаются.
+Отчеты на Сервере отчетов Power BI и в службе Power BI (http://powerbi.com) работают почти одинаково, но некоторые функции все же различаются).
 
 ### <a name="in-a-browser"></a>В браузере
 Отчеты на сервере отчетов Power BI поддерживают все визуализации, в том числе:
@@ -99,6 +98,13 @@ ms.lasthandoff: 12/19/2017
 * Пользовательские визуальные элементы
 * строки навигации;
 * географическую фильтрацию и штрихкоды.
+
+## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop для более ранних версий Сервера отчетов Power BI
+
+Если вы используете более раннюю версию сервера отчетов, нужна подходящая версия Power BI Desktop. Ниже приведены две предыдущие версии.
+
+- Microsoft Power BI Desktop ([оптимизировано для Сервера отчетов Power BI, октябрь 2017 г.](https://www.microsoft.com/download/details.aspx?id=56136))
+- Microsoft Power BI Desktop ([оптимизировано для Сервера отчетов Power BI, июнь 2017 г.](https://www.microsoft.com/download/details.aspx?id=55330))
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Теперь, когда приложение Power BI Desktop установлено, можно приступить к созданию отчетов Power BI.

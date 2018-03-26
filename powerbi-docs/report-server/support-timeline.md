@@ -1,27 +1,27 @@
 ---
-title: "Сроки предоставления поддержки для сервера отчетов Power BI"
-description: "Список версий и доступность сервера отчетов Power BI."
+title: Сроки предоставления поддержки для сервера отчетов Power BI
+description: Список версий и доступность сервера отчетов Power BI.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
-ms.author: maghan
-ms.openlocfilehash: d5696e76f12af65627fe8166d330b0b7f444f4d2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Сроки предоставления поддержки для сервера отчетов Power BI
 Выпуск сервера отчетов Power BI ожидается несколько раз в год. Критические обновления и обновления для системы безопасности будут предоставляться до следующего выпуска общедоступной версии. После следующего выпуска предыдущая версия будет и дальше получать обновления для системы безопасности на протяжении времени существования выпуска (12 месяцев).
@@ -31,21 +31,19 @@ ms.lasthandoff: 01/30/2018
 * Этап предоставления обновлений системы безопасности и критических обновлений: при запуске последней текущей версии сервера отчетов Power BI вы получите обновления системы безопасности и критические обновления.
 * Этап предоставления (только) обновлений системы безопасности: после выпуска новой версии поддержка предыдущих версий сводится к предоставлению обновлений системы безопасности на протяжении двенадцатимесячного цикла поддержки продуктов Майкрософт (как показано на рис. 1).
 
-    ![Диаграмма, иллюстрирующая период поддержки](media/support-timeline/report-server-support-timeline.png)
+    ![Диаграмма, иллюстрирующая период поддержки](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>История изменений
 | **Версия** | **Период доступности** | **Дата окончания поддержки** |
 | --- | --- | --- |
-| Октябрь 2017 г. |31 октября 2017 г. |31 октября 2018 г. |
 | Июнь 2017 г. |12 июня 2017 г. |12 июня 2018 г. |
+| Октябрь 2017 г. |31 октября 2017 г. |31 октября 2018 г. |
+| Март 2018 г. | 19 марта 2018 г. | 19 марта 2019 г. |
 
 Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
-См. [заметки о текущем выпуске решения "Сервер отчетов Power BI"](release-notes.md).
-
 ## <a name="next-steps"></a>Дальнейшие действия
 [Новые возможности сервера отчетов Power BI](whats-new.md)  
-[Заметки о выпуске сервера отчетов Power BI](release-notes.md)  
 [Руководство пользователя](user-handbook-overview.md)  
 [Руководство администратора](admin-handbook-overview.md)  
 [Краткое руководство по установке сервера отчетов Power BI](quickstart-install-report-server.md)  

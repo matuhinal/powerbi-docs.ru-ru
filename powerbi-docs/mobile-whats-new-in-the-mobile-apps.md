@@ -1,27 +1,27 @@
 ---
-title: "Новые возможности мобильных приложений для Power BI"
-description: "Новые возможности мобильных приложений для Power BI"
+title: Новые возможности мобильных приложений для Power BI
+description: Новые возможности мобильных приложений для Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -30,11 +30,21 @@ ms.lasthandoff: 02/27/2018
 * [Новые возможности Power BI Desktop](desktop-latest-update.md)  
 * [Новые возможности службы Power BI](service-whats-new.md)  
 
+## <a name="march-2018"></a>Март 2018 г.
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Приложение Power BI для смешанной реальности (предварительная версия)
+
+Результатом нашего стремления сделать данные ближе к вам стало создание приложения Power BI для смешанной реальности. Вы можете просматривать панели мониторинга и отчеты, погрузившись в виртуальный мир, либо размещать и просматривать их в нужных местах с учетом контекста вашей среды. Дополнительные сведения о новом [приложении Power BI для смешанной реальности](mobile-mixed-reality-app.md).
+
 ## <a name="february-2018"></a>Февраль 2018 г.
 
 ### <a name="share-reports"></a>Публикация отчетов
 
 Теперь вы можете предоставлять общий доступ к отчетам непосредственно из мобильных приложений. См. дополнительные сведения о [предоставлении общего доступа к панелям мониторинга и отчетам из мобильных приложений](mobile-share-dashboard-from-the-mobile-apps.md).
+
+### <a name="improved-tooltips"></a>Улучшенные подсказки
+
+Теперь, нажимая и удерживая визуальный элемент отчета для доступа к подсказкам, вы можете выполнить жест перетаскивания по визуальному элементу, чтобы просмотреть подробные сведения о каждой из встречаемых точек данных.
 
 ## <a name="january-2018"></a>Январь 2018 г.:
 
@@ -162,7 +172,7 @@ ms.lasthandoff: 02/27/2018
 #### <a name="ios-devices"></a>Устройства iOS
 **Задавайте вопросы о данных с помощью предварительной версии функции вопросов и ответов** 
 
-С помощью предварительной версии функции вопросов и ответов вы можете задавать вопросы о данных своими словами, а Power BI предоставит вам ответы. Возможность "Вопросы и ответы" уже доступна в службе Power BI. Просто перейдите по следующему адресу: http://powerbi.com. Она также [доступна в мобильном приложении на устройстве iPhone или iPad](mobile-apps-ios-qna.md).
+С помощью предварительной версии функции вопросов и ответов вы можете задавать вопросы о данных своими словами, а Power BI предоставит вам ответы. Возможность "Вопросы и ответы" уже доступна в службе Power BI по адресу http://powerbi.com. Она также [доступна в мобильном приложении на устройстве iPhone или iPad](mobile-apps-ios-qna.md).
 
 **Подключение к нескольким серверам SSRS** 
 

@@ -1,15 +1,15 @@
 ---
-title: "Создание адаптивного визуального элемента \"Срез\" в Power BI"
-description: "Узнайте, как создать адаптивный визуальный элемент \"Срез\", размер которого можно изменять, чтобы он поместился в отчет"
+title: Создание адаптивного визуального элемента "Срез" в Power BI
+description: Узнайте, как создать адаптивный визуальный элемент "Срез", размер которого можно изменять, чтобы он поместился в отчет
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Создание адаптивного визуального элемента "Срез" в Power BI (предварительная версия)
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>Как сделать адаптивным срез времени или диапазона
 
-Необходимо выполнить те же действия, чтобы сделать адаптивной плитку или срез диапазона. После установки для параметра **Адаптивный** значения **Вкл.** вы увидите несколько изменений.
+Нужно выполнить те же действия, чтобы сделать адаптивным срез времени или диапазона. После установки для параметра **Адаптивный** значения **Вкл.** вы увидите несколько изменений.
 
 - Визуальные элементы оптимизируют порядок полей ввода в зависимости от размера, разрешенного на холсте. 
 - Отображение элемента данных оптимизировано, чтобы срез был как можно более удобным в зависимости от размера, разрешенного на холсте. 

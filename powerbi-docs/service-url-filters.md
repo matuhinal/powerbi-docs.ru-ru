@@ -1,29 +1,29 @@
 ---
-title: "Добавление параметров отчета Power BI с помощью URL-адреса"
-description: "Фильтрация отчета с помощью параметров строки запроса в URL-адресе, включая фильтрацию по нескольким полям."
+title: Добавление параметров отчета Power BI с помощью URL-адреса
+description: Фильтрация отчета с помощью параметров строки запроса в URL-адресе, включая фильтрацию по нескольким полям.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 72afa61316800e9636d7b1a1536ff9c43b66c453
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 Когда вы открываете отчет в службе Power BI, можно заметить, что каждая страница отчета имеет собственный уникальный URL-адрес. Для фильтрации этой страницы отчета можно использовать область "Фильтры" на холсте отчета.  Также для фильтрации отчета можно добавить параметры строки запроса в URL-адрес. Возможно, у вас есть отчет, который вы хотите показать коллегам и который для этого необходимо предварительно отфильтровать. Это можно сделать, добавив параметры фильтрации к присваиваемому по умолчанию URL-адресу отчета для отправки по электронной почте.
