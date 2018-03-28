@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/19/2018
+ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Краткое руководство по созданию отчета Power BI для сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -54,7 +54,7 @@ ms.lasthandoff: 03/21/2018
    
     После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка отображается Power BI Desktop (март 2018 г.), вы установили правильную версию.
 
-    ![Версия Power BI Desktop (март 2018 г.)](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Версия Power BI Desktop (март 2018 г.)](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 3. Если вы не знакомы с Power BI Desktop, просмотрите видеоролики на экране приветствия.
    

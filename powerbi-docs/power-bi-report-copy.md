@@ -1,28 +1,28 @@
 ---
-title: "Копирование отчета Power BI"
-description: "Создание отчета Power BI из другого отчета."
+title: Копирование отчета Power BI
+description: Создание отчета Power BI из другого отчета.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 63d545f24db126566d5c7f9c485e9cc4fd0e079e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Создание нового отчета из существующего отчета
 Возможно, у вас есть отчет, который уже подключается к набору данных, и в нем есть визуальные элементы, которые вы хотите использовать снова или изменить.  В этом случае вы можете просто скопировать существующий отчет в качестве основы для нового.  Для этого выполните указанные ниже действия.
