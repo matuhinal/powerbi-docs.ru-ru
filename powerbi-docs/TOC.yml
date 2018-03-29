@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: Подключение к CSV-файлам в Power BI Desktop
           href: desktop-connect-csv.md
-        - name: "Подключение к Adobe Analytics в Power\_BI Desktop (предварительная версия)"
-          href: desktop-connect-csv.md
+        - name: "Подключение к Adobe Analytics в Power\_BI Desktop"
+          href: desktop-connect-adobe-analytics.md
         - name: Подключение к базе данных Impala в Power BI Desktop
           href: desktop-connect-impala.md
         - name: Подключение к веб-каналу OData в Power BI Desktop
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: Интеграция содержимого в ваше приложение (данные принадлежат приложению)
           href: developer/embed-sample-for-customers.md
+        - name: "Внедрение содержимого Power\_BI в приложение для клиентов для использования в национальных облаках"
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Внедрение пользовательских макетов в приложение
           href: developer/embedded-custom-layout.md
         - name: Создание клиента Azure Active Directory
