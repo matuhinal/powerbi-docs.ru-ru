@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
+backup: ''
 editor: ''
 tags: ''
 qualityfocus: no
@@ -15,22 +15,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
 
-* [Новые возможности Power BI Desktop](desktop-latest-update.md)  
-* [Новые возможности мобильных приложений для Power BI](mobile-whats-new-in-the-mobile-apps.md)  
-* [Блог команды Power BI](https://powerbi.microsoft.com/blog/)
+- [Новые возможности Power BI Desktop](desktop-latest-update.md)  
+- [Новые возможности мобильных приложений для Power BI](mobile-whats-new-in-the-mobile-apps.md)  
+- [Блог команды Power BI](https://powerbi.microsoft.com/blog/)
+- [Заметки о выпуске бизнес-приложения (весна 2018)](https://aka.ms/bagspring2018releasenotes_internal) от Dynamics 365: самые последние обновления для наших бизнес-приложений, а также новые возможности для создания приложений и расширений на базе нашей платформы. 
 
 Для изучения новых возможностей и функций можно также использовать каналы YouTube.
 
