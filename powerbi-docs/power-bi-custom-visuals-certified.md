@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 49849853d40bca9e2a2c4cb8084018f20ecaeabf
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -86,6 +86,7 @@ ms.lasthandoff: 03/21/2018
 | [Детализированная гистограмма временных данных](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [Видео](https://youtu.be/T_mRou18vx0) |
 | [Детализированная кольцевая диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | [Видео](https://youtu.be/AUVFrSHmPeo) |
 | [Dual KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
+| [Динамическая подсказка от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380983) | [Видео](https://youtu.be/Z-tl97BpEr0) |
 | [Расширенная точечная диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | [Видео](https://youtu.be/xCfM0cjM4do) |
 | [Enlighten Aquarium](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) | |
 | [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |

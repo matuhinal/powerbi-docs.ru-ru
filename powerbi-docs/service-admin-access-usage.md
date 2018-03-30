@@ -1,15 +1,15 @@
 ---
-title: "Поиск пользователей Power BI, выполнивших вход"
-description: "Если вы — администратор клиента и хотите узнать, кто выполнил вход в Power BI, можно использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить сведения."
+title: Поиск пользователей Power BI, выполнивших вход
+description: Если вы — администратор клиента и хотите узнать, кто выполнил вход в Power BI, можно использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить сведения.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 7730f7b407eee9c474d04d64cd5748b33b9181ff
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78deaa2e98060e86756876e3d736fe973a5f5905
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
 Если вы — администратор клиента и хотите узнать, кто выполнил вход в Power BI, можно использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить сведения.
@@ -52,7 +52,7 @@ ms.lasthandoff: 02/24/2018
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Выполните фильтрацию приложения по **Microsoft Power BI** или **Power BI Gateway** и выберите **Применить**.
    
-    Параметр **Microsoft Power BI** предназначен для действий входа, связанных со службой, тогда как **Power BI Gateway** — для конкретных событий входа для локального шлюза данных.
+    Параметр **Microsoft Power BI** предназначен для действий входа, связанных со службой, тогда как **Power BI Gateway** — для конкретных событий входа для локального шлюза данных.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 

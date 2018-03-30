@@ -1,15 +1,15 @@
 ---
-title: "Обновление данных в Power BI"
-description: "Обновление данных в Power BI"
+title: Обновление данных в Power BI
+description: Обновление данных в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Обновление данных в Power BI
 Часто для принятия правильных решений крайне важно располагать актуальными данными. Возможно, вы уже использовали функцию «Получить данные» в Power BI для подключения к данным и их передачи, создали несколько отчетов и панель мониторинга. Теперь необходимо убедиться, что вы используете наиболее актуальные и ценные данные.
@@ -162,7 +162,7 @@ ms.lasthandoff: 02/24/2018
 Дополнительные сведения см. в разделе [Знакомство с пакетами содержимого организации](service-organizational-content-pack-introduction.md).
 
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Активные подключения и подключения DirectQuery к локальным источникам данных
-С помощью локального шлюза данных можно выполнять запросы Power BI к локальным источникам данных. При взаимодействии с визуализацией запросы из Power BI отправляются непосредственно в базу данных. После этого возвращается обновленные данные, и обновляются визуализации. Поскольку имеется прямое соединение между Power BI и базой данных, настраивать расписание обновления не требуется.
+С помощью локального шлюза данных можно выполнять запросы Power BI к локальным источникам данных. При взаимодействии с визуализацией запросы из Power BI отправляются непосредственно в базу данных. После этого возвращается обновленные данные, и обновляются визуализации. Поскольку имеется прямое соединение между Power BI и базой данных, настраивать расписание обновления не требуется.
 
 При динамическом подключении к источнику данных SQL Server Analysis Services (SSAS) (не в режиме DirectQuery) данные о подключении могут храниться в кэше даже после загрузки отчета. Это повышает производительность загрузки для отчета. Вы можете запросить последние данные из источника данных SSAS с помощью кнопки **Обновить**. Владельцы источников данных SSAS могут запланировать для набора данных частоту обновления кэша, чтобы обновлять отчеты по мере необходимости. 
 

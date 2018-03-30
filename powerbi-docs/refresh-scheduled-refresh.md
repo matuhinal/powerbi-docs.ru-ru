@@ -1,14 +1,14 @@
 ---
-title: "Настройка запланированного обновления"
-description: "Здесь описано, как выбрать шлюз и настроить запланированное обновление."
+title: Настройка запланированного обновления
+description: Здесь описано, как выбрать шлюз и настроить запланированное обновление.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Настройка запланированного обновления
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 
 Если ваш набор данных поддерживает запланированное обновление с использованием команд "Обновить сейчас" и "Расписание обновлений", существует ряд требований и параметров, важных для успешного обновления. Это **подключение к шлюзу**, **учетные данные источника данных** и **расписание обновления**. Давайте рассмотрим каждый элемент более подробно.
 
-Далее описываются параметры, доступные для шлюза [Power BI Gateway — Personal](personal-gateway.md) и [локального шлюза данных](service-gateway-onprem.md).
+Далее описываются параметры, доступные для шлюза [Power BI Gateway — Personal](personal-gateway.md) и [локального шлюза данных](service-gateway-onprem.md).
 
 Чтобы перейти к экрану расписания обновления, можно выполнить следующее.
 

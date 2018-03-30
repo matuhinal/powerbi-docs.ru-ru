@@ -1,15 +1,15 @@
 ---
-title: "Устранение неполадок с Power BI Gateway - Personal"
-description: "Устранение неполадок с Power BI Gateway - Personal"
+title: Устранение неполадок с Power BI Gateway - Personal
+description: Устранение неполадок с Power BI Gateway - Personal
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b94bb40de33ced9b7b7fee811aeff5c18ee43cae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1063f8a34041e4c27b481085608d69c3eb32558a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Устранение неполадок с Power BI Gateway - Personal
 Ниже рассмотрено несколько распространенных проблем, которые могут возникнуть при использовании шлюза Power BI Gateway - Personal.

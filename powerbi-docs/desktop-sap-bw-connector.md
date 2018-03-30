@@ -1,15 +1,15 @@
 ---
-title: "Использование соединителя SAP BW в Power BI Desktop"
-description: "Использование соединителя SAP BW в Power BI Desktop"
+title: Использование соединителя SAP BW в Power BI Desktop
+description: Использование соединителя SAP BW в Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к данным **SAP BusinessWarehouse (BW)**.
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/08/2018
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Возможности соединителя SAP BW
-**Соединители SAP BW** в Power BI Desktop позволяют импортировать данные из кубов **сервера SAP Business Warehouse** или использовать DirectQuery с **соединителем SAP BW**. 
+**Соединители SAP BW** в Power BI Desktop позволяют импортировать данные из кубов **сервера SAP Business Warehouse** или использовать DirectQuery. 
 
 Дополнительные сведения о **соединителе SAP BW** и его использовании с DirectQuery см. в статье [DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/08/2018
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-Если указана инструкция многомерных выражений, появится окно **Навигатор**, в котором отображается список кубов, доступных на сервере, а также параметр для детализации и выбора элементов из доступных кубов, включая измерения и меры. Power BI предоставляет запросы и кубы, предоставляемые [OLAP BAPI интерфейса открытого анализа BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
+Если указана инструкция многомерных выражений, появится окно **Навигатор**, в котором отображается список кубов, доступных на сервере, с возможностью детализации и выбора элементов из доступных кубов, включая измерения и меры. Power BI предоставляет запросы и кубы, предоставляемые [OLAP BAPI интерфейса открытого анализа BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
 
 После выбора одного или нескольких элементов на сервере создается выходная таблица для предварительного просмотра, которая определяется выбранными элементами.
 
