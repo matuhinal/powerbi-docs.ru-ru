@@ -1,15 +1,15 @@
 ---
-title: "Управление емкостью в Power BI Premium и Power BI Embedded"
-description: "Узнайте, как управлять Power BI Premium и разрешить доступ к содержимому для всей организации."
+title: Управление емкостью в Power BI Premium и Power BI Embedded
+description: Узнайте, как управлять Power BI Premium и разрешить доступ к содержимому для всей организации.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Управление емкостью в Power BI Premium и Power BI Embedded
 Узнайте, как управлять емкостью Power BI Premium и Power BI Embedded, а именно выделенными ресурсами для вашего содержимого.
@@ -47,6 +47,10 @@ ms.lasthandoff: 03/15/2018
 * **Power BI Embedded:** [создание емкости Power BI Embedded на портале Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 При покупке SKU определенного уровня Power BI Premium ваш клиент получает соответствующее количество виртуальных ядер, которые будут использоваться в работающей емкости. Например, при покупке SKU Power BI Premium уровня P3, клиент получает 32 виртуальных ядра.
+
+> [!NOTE]
+> После окончания срока действия подписки у вас будет 30 дней полного доступа, но по окончании этого периода ваше содержимое будет размещено в общей емкости. Модели, размер которых превышает 1 ГБ, не поддерживаются в обычной общей лицензии.
+>
 
 ## <a name="capacity-admins"></a>Администраторы емкости
 > [!NOTE]
