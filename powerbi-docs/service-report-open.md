@@ -1,15 +1,15 @@
 ---
-title: "Открытие отчета в режиме чтения или правки в службе Power BI"
-description: "Открытие отчета Power BI в режиме чтения или правки"
+title: Открытие отчета в режиме чтения или правки в службе Power BI
+description: Открытие отчета Power BI в режиме чтения или правки
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
