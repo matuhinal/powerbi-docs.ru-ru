@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к различным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
@@ -81,10 +81,10 @@ ms.lasthandoff: 03/22/2018
 | База данных Sybase |Да |Да |Нет |
 | База данных Teradata |Да |Да |Да |
 | Text/CSV. |Да |Да |Нет |
-| Веб-приложение |Да |Да |Нет |
+| Интернет |Да |Да |Нет |
 | XML |Да |Да |Нет |
 | appFigures (бета-версия) |Да |Нет |Нет |
-| База данных служб Analysis Services Azure (бета-версия) |Да |Нет |Нет |
+| База данных Azure Analysis Services |Да |Нет |Да |
 | Azure Cosmos DB (бета-версия) |Да |Нет |Нет |
 | Azure HDInsight Spark (бета-версия) |Да |Нет |Нет |
 | Common Data Service (бета-версия); |Да |Нет |Нет |
@@ -129,7 +129,7 @@ ms.lasthandoff: 03/22/2018
 | --- | --- | --- | --- | --- |
 | База данных SQL Server |Нет |Нет |Да |Да |
 | Службы SQL Server Analysis Services |Нет |Нет |Да |Да |
-| Веб-приложение |Да |Нет |Да |Да |
+| Интернет |Да |Нет |Да |Да |
 | База данных SQL Azure |Нет |Нет |Да |Нет |
 | Хранилище данных SQL Azure |Нет |Нет |Да |Нет |
 | Active Directory |Нет |Нет |Да |Да |

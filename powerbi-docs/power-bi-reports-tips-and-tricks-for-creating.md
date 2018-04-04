@@ -1,15 +1,15 @@
 ---
-title: "Советы по созданию потрясающих отчетов"
-description: "Советы и рекомендации по созданию отчетов в службе Power BI"
+title: Советы по созданию потрясающих отчетов
+description: Советы и рекомендации по созданию отчетов в службе Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Советы по созданию потрясающих отчетов
 Создание отчетов и работа с ними в службе Power BI и Power BI Desktop очень похожи, поэтому большинство из этих ссылок применимы для обоих вариантов.
@@ -45,7 +45,7 @@ ms.lasthandoff: 02/24/2018
 * [Прочтите блог](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [Посмотрите вебинар](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия 
 [Power BI — основные понятия](service-basic-concepts.md)
 
 [Отчеты в Power BI](service-reports.md)

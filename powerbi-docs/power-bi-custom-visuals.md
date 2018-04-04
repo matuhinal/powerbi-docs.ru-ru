@@ -1,15 +1,15 @@
 ---
-title: "Пользовательские визуализации в Power BI"
-description: "Пользовательские визуализации в Power BI"
+title: Пользовательские визуализации в Power BI
+description: Пользовательские визуализации в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e5459492879cccbd2f18c572140eabfd0ab0f1c
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Пользовательские визуальные элементы в Power BI
 При создании или редактировании отчета Power BI доступно множество различных визуальных элементов. Эти визуальные элементы отображаются в области **Визуализации**. Когда вы скачиваете Power BI Desktop или открываете службу Power BI (app.powerbi.com), этот предварительно упакованный набор визуальных элементов поставляется в комплекте.
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 > 
 > 
 
-## <a name="organization-visuals-preview"></a>Визуальные элементы организации (предварительная версия)
+## <a name="organization-visuals"></a>визуальные элементы организации;
 
 Администраторы Power BI могут развернуть пользовательские визуальные элементы в своей организации, чтобы авторы отчетов могли легко найти и работать с ними, если администратор утвердил их для использования в организации. Таким образом, администратор может выбирать, какие пользовательские визуальные элементы будут развернуты в организации. Кроме того, упрощено управление (например, обновление версии, включение и отключение) этими элементами. Авторам отчетов предоставляется простой способ поиска уникальных для организации визуальных элементов и полная поддержка в их обновлении.
 

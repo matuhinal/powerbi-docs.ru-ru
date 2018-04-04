@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/14/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 786e9adf9698b0d878043c684dc3b65a49bc760a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 7128c36d8d6c592d8f49797adf5be4927b240e3c
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -298,7 +298,7 @@ ms.lasthandoff: 03/15/2018
 
 ### <a name="other"></a>Другие возможности:
 
--   Установка **Power BI Desktop** из Магазина Windows [[видео]](https://youtu.be/jksjtR8GnBE?t=27m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[статья]](desktop-get-the-desktop.md#install-as-an-app-from-the-windows-store)
+-   Установка **Power BI Desktop** из Магазина Windows [[видео]](https://youtu.be/jksjtR8GnBE?t=27m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[статья]](desktop-get-the-desktop.md#install-as-an-app-from-the-microsoft-store)
 -   Улучшенный доступ к справке [[видео]](https://youtu.be/jksjtR8GnBE?t=28m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#help)
 
 

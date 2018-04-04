@@ -1,28 +1,28 @@
 ---
-title: "Образец \"Анализ розничной торговли\" для Power BI: обзор"
-description: "Образец \"Анализ розничной торговли\" для Power BI: обзор"
+title: 'Образец "Анализ розничной торговли" для Power BI: обзор'
+description: 'Образец "Анализ розничной торговли" для Power BI: обзор'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: dda92ff8280295e6112cf2ab6a51f4606e5c474d
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ розничной торговли" для Power BI: обзор
 
@@ -45,11 +45,11 @@ ms.lasthandoff: 02/28/2018
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ розничной торговли — пример**, затем выберите **Подключиться**.  
   
-   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail16.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail16.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    
-   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail17.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
@@ -163,7 +163,7 @@ ms.lasthandoff: 02/28/2018
 
 В такой безопасной среде можно работать. Отказаться от сохранения изменений можно в любой момент. Однако если изменения сохраняются, всегда можно выбрать функцию "Получить данные" для получения новой копии этого образца.
 
-## <a name="connect-to-your-data"></a>Подключайтесь к своим данным
+## <a name="connect-to-your-data"></a>Подключение к данным
 Мы надеемся, что в этом обзоре вы узнали, каким образом с помощью панелей мониторинга, вопросов и ответов и отчетов можно получить представление о данных о розничных продажах. Теперь ваша очередь — выполните подключение к собственным данным. С помощью Power BI можно подключаться ко многим типам источников данных. Узнайте больше о [начале работы с Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
