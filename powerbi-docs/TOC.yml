@@ -210,7 +210,7 @@
           href: service-connect-to-ziosk.md
         - name: Zuora
           href: service-connect-to-zuora.md
-    - name: Панели мониторинга
+    - name: Информационные панели
       items:
         - name: Панели мониторинга в Power BI
           href: service-dashboards.md
@@ -232,7 +232,7 @@
           href: service-dashboard-pin-tile-from-q-and-a.md
         - name: Закрепление целой страницы отчета на информационной панели
           href: service-dashboard-pin-live-tile-from-report.md
-        - name: Панель "Мне предоставлен доступ"
+        - name: Предоставленное мне
           href: service-shared-with-me.md
         - name: Метрики использования для панелей мониторинга
           href: service-usage-metrics.md
@@ -264,7 +264,7 @@
           href: service-data-classification.md
     - name: Задать вопросы о данных
       items:
-        - name: Overview
+        - name: Обзор
           items:
             - name: Вопросы и ответы в Power BI
               href: power-bi-q-and-a.md
@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Использование карт фигур в Power BI Desktop (предварительная версия)
           href: desktop-shape-map.md
-        - name: Объединение двоичных значений
+        - name: Объединение двоичных файлов
           href: desktop-combine-binaries.md
     - name: Моделирование данных
       items:
@@ -938,7 +938,7 @@
           href: mobile-windows-10-app-presentation-mode.md
 - name: Разработчик Power BI
   items:
-    - name: Overview
+    - name: Обзор
       items:
         - name: Что могут разработчики сделать с помощью Power BI
           href: developer/what-can-you-do.md
@@ -1040,7 +1040,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
 - name: Power BI Report Server
   items:
-    - name: Overview
+    - name: Обзор
       items:
         - name: Начало работы
           href: report-server/get-started.md
@@ -1052,7 +1052,7 @@
           href: report-server/support-timeline.md
     - name: Руководство пользователя
       items:
-        - name: Overview
+        - name: Обзор
           href: report-server/user-handbook-overview.md
         - name: Переход по содержимому
           href: report-server/getting-around.md
@@ -1088,7 +1088,7 @@
           href: report-server/scheduled-refresh-troubleshoot.md
     - name: Руководство администратора
       items:
-        - name: Overview
+        - name: Обзор
           href: report-server/admin-handbook-overview.md
         - name: Требования к оборудованию и программному обеспечению
           href: report-server/system-requirements.md
@@ -1114,7 +1114,7 @@
           href: report-server/excel-oos.md
     - name: Руководство разработчика
       items:
-        - name: Overview
+        - name: Обзор
           href: report-server/developer-handbook-overview.md
         - name: Управление средством просмотра отчетов
           href: 'https://go.microsoft.com/fwlink/?linkid=848724'
