@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Сертификация пользовательской визуализации
           href: power-bi-custom-visuals-certified.md
+        - name: Публикация настраиваемых визуальных элементов в AppSource
+          href: developer/office-store.md
     - name: Принудительная отправка данных в панель мониторинга
       items:
         - name: Принудительная отправка данных в панель мониторинга
