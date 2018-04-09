@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Срезы в Power BI Desktop
           href: desktop-slicers.md
+        - name: Использование кнопок в Power BI
+          href: desktop-buttons.md
         - name: Закладки в Power BI
           href: desktop-bookmarks.md
         - name: Создание подсказок для пользовательских отчетов (предварительная версия)
