@@ -1,28 +1,28 @@
 ---
-title: "Устранение неполадок локального шлюза данных"
-description: "В этой статье рассказывается, как устранять неполадки с локальным шлюзом данных. Здесь описаны обходные решения для известных проблем, а также соответствующие инструменты."
+title: Устранение неполадок локального шлюза данных
+description: В этой статье объясняется, как устранять неполадки с локальным шлюзом данных. Здесь описаны обходные решения для известных проблем, а также соответствующие инструменты.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 В этой статье описаны распространенные проблемы, которые могут возникнуть при работе с **локальным шлюзом данных**.
@@ -56,7 +56,7 @@ ms.lasthandoff: 02/24/2018
 После завершения настройки конфигурации служба Power BI будет вызвана снова, чтобы проверить шлюз. Служба Power BI не объявляет шлюз *активным*. Обеспечить подключение может перезапуск службы Windows. Вы можете собирать и просматривать журналы указанным ниже образом для получения более полной картины.
 
 ### <a name="script-error-during-sign-into-power-bi"></a>Ошибка сценария при входе в Power BI
-При входе в Power BI может отобразиться сообщение об ошибке в сценарии, которая возникла при настройке локального шлюза данных. Установка следующих обновлений безопасности поможет решить данную проблему. Это можно сделать с помощью Центра обновления Windows.
+При входе в Power BI может отобразиться сообщение об ошибке в скрипте, которая возникла при настройке локального шлюза данных. Установка следующих обновлений безопасности поможет решить данную проблему. Это можно сделать с помощью Центра обновления Windows.
 
 [MS16-051: обновление для системы безопасности Internet Explorer: 10 мая 2016 г. (3154070 КБ)](https://support.microsoft.com/kb/3154070)
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 02/24/2018
 1. Удалите шлюз.
 2. Удалите следующую папку:
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Установите шлюз снова.
 4. При необходимости восстановите существующий шлюз с помощью ключа восстановления.
 
@@ -115,7 +115,7 @@ ms.lasthandoff: 02/24/2018
 
 В разделе **Показать подробные сведения**появится код ошибки **DM_GWPipeline_UnknownError**.
 
-Для получения дополнительных сведений можно выбрать "Журналы событий" > **Журналы приложений и служб** > **On-premises data gateway Service (Служба локального шлюза данных)**.
+Чтобы получить дополнительные сведения, выберите "Журналы событий" > **Журналы приложений и служб** > **Служба локального шлюза данных**.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Ошибка: возникла ошибка при попытке подключения к <server>. Подробные сведения: "Выполнено подключение к шлюзу данных, но шлюз не может получить доступ к локальному источнику данных".
 Не удалось подключиться к указанному источнику данных. Не забудьте проверить сведения, указанные для этого источника данных.
@@ -175,10 +175,10 @@ ms.lasthandoff: 02/24/2018
 Точное ограничение составляет 10 ГБ несжатых данных для каждой таблицы. Есть несколько эффективных вариантов оптимизации и предотвращения этой проблемы. В частности, для этого можно уменьшить использование часто повторяющихся значений длинных строк, а вместо них применять нормализованный ключ или удалять неиспользуемые столбцы.
 
 ## <a name="reports"></a>Отчеты
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Не удалось установить подключение отчета к источнику данных, так как у вас нет доступа к нашему источнику данных в локальном шлюзе данных.
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Отчету не удалось получить доступ к источнику данных, так как у вас нет доступа к нашему источнику данных в локальном шлюзе данных.
 Это обычно происходит из-за одной из следующих проблем.
 
-1. Сведения об источнике данных не совпадают со сведениями в базовом наборе данных. Имена сервера и базы данных в источнике данных, заданном для локального шлюза, должны совпадать с тем, что вы указали в Power BI Desktop. Если вы используете IP-адрес в Power BI Desktop, источник данных локального шлюза должен также использовать IP-адрес.
+1. Сведения об источнике данных не совпадают со сведениями в базовом наборе данных. Имена сервера и базы данных в источнике данных, заданном для локального шлюза, должны совпадать с теми, что вы указали в Power BI Desktop. Если вы используете IP-адрес в Power BI Desktop, источник данных локального шлюза должен также использовать IP-адрес.
 2. В шлюзах вашей организации нет ни одного доступного источника данных. Вы можете настроить источник данных в новом или существующем локальном шлюзе.
 
 ### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Ошибка: ошибка доступа к источнику данных Обратитесь к администратору шлюза.
@@ -193,7 +193,7 @@ ms.lasthandoff: 02/24/2018
 
 Вы также можете посмотреть, что именно Power BI получает из каталога Azure Active Directory.
 
-1. Откройте страницу [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Перейдите к [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
 2. Выберите **Войти** в правом верхнем углу.
 3. Выполните следующий запрос: Вы увидите должно большой ответ в формате JSON.
    
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-В файле *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* измените значение параметра `TraceVerbosity` с `4` на `5`. По умолчанию этот файл находится в каталоге *C:\Program Files\On-premises data gateway*. С изменением этого параметра в журнале шлюза будут регистрироваться подробные данные. Это касается и записей, содержащих сведения о продолжительности.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+В файле *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* измените значение параметра `TracingVerbosity` с `4` на `5`. По умолчанию этот файл находится в каталоге *C:\Program Files\On-premises data gateway*. С изменением этого параметра в журнале шлюза будут регистрироваться подробные данные. Это касается и записей, содержащих сведения о продолжительности. Можно также включить ведение подробных записей, щелкнув переключатель "Дополнительное ведение журнала" в приложении локального шлюза.
+
+   ![Дополнительное ведение журнала](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> Если задать для параметра TraceVerbosity значение `5`, можно существенно увеличить размер журнала в зависимости от использования шлюза. Проверив журналы, установите для параметра TraceVerbosity значение `4`. Не рекомендуется включать эту функцию на продолжительное время.
+> Если задать для параметра TracingVerbosity значение `5`, размер журнала может существенно увеличиться в зависимости от использования шлюза. Проверив журналы, установите для параметра TraceVerbosity значение `4`. Не рекомендуется включать эту функцию на продолжительное время.
 > 
 > 
 
@@ -352,6 +354,72 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Если основной сервер базы данных и локальный шлюз данных неправильно настроены для [ограниченного делегирования Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), включите [подробное ведение журнала](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) на шлюзе и проанализируйте ошибки или трассировки в файлах журналов шлюза, чтобы начать устранение неполадок.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+Значение ImpersonationLevel связано с настройкой имени субъекта-службы или параметрами локальной политики.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Решение**
+
+Чтобы устранить проблему, выполните следующие действия:
+1. Настройте имя субъекта-службы для локального шлюза.
+2. Настройте ограниченное делегирование в Active Directory (AD).
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException. Failed to create windows identity for user userid (Не удалось создать удостоверение Windows для идентификатора пользователя)
+
+Исключение FailedToImpersonateUserException может возникнуть, если не удалось олицетворить другого пользователя. Это также может произойти, если вы пытаетесь олицетворить учетную запись из другого домена, отличного от того, в котором включена служба шлюза (ограничение).
+
+**Решение**
+* Проверьте правильность конфигурации согласно инструкциям в предыдущем разделе ImpersonationLevel.
+* Убедитесь, что идентификатор пользователя, который используется для олицетворения, представляет действительную учетную запись AD.
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Общая ошибка. Ошибка (1033) при анализе протокола
+
+Ошибка 1033 может произойти, если внешний идентификатор, настроенный в SAP HANA, не соответствует имени пользователя при олицетворении с помощью имени участника-пользователя (alias@domain.com). В верхней части журналов ошибок будет отображаться сообщение Original UPN 'alias@domain.com' replaced with a new UPN 'alias@domain.com' (Исходное имя участника-пользователя alias@domain.com заменено новым alias@domain.com), как показано ниже.
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Решение**
+* Для SAP HANA требуется, чтобы олицетворенный пользователь применил атрибут sAMAccountName в AD (псевдоним пользователя). В противном случае появится ошибка 1033.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* В журналах будет отображаться не имя участника-пользователя, а sAMAccountName (псевдоним), после которого указан домен (alias@doimain.com).
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG] [LIBODBCHDB DLL] [HDBODBC] Ошибка связи. -10709 Не удалось установить подключение (RTE:[-1] Ошибка Kerberos. Major: "Общий сбой [851968]", minor: "В пакете безопасности отсутствуют учетные данные"
+
+Сообщение о сбое подключения -10709 появится, если делегирование неправильно настроено в AD.
+
+**Решение**
+* Убедитесь, что вы указали сервер SAP HANA на вкладке делегирования в AD для учетной записи службы шлюза.
+
+   ![Вкладка делегирования](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 [Управление своим источником данных — SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

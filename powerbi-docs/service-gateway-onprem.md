@@ -1,36 +1,36 @@
 ---
-title: "Локальный шлюз данных"
-description: "Это обзор локального шлюза данных для Power BI. С его помощью можно работать с источниками данных DirectQuery. Кроме того, этот шлюз можно использовать для обновления облачных наборов данных с локальными данными."
+title: Локальный шлюз данных
+description: Это обзор локального шлюза данных для Power BI. С его помощью можно работать с источниками данных DirectQuery. Кроме того, этот шлюз можно использовать для обновления облачных наборов данных с локальными данными.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
-Локальный шлюз данных служит мостом, обеспечивая быструю и безопасную передачу информации между локальной системой (данными, которые не находятся в облаке) и службами Power BI, Microsoft Flow, Logic Apps и PowerApps.
+Локальный шлюз данных служит мостом, обеспечивая быструю и безопасную передачу данных между локальной системой (данными, которые не находятся в облаке) и службами Power BI, Microsoft Flow, Logic Apps и PowerApps.
 
 Один шлюз можно использовать для работы с разными службами одновременно. Если вы используете и Power BI, и PowerApps, с помощью одного шлюза можно работать с обеими этими службами. Достаточно просто войти с нужной учетной записью.
 
 > [!NOTE]
-> Локальный шлюз данных реализует сжатие данных и шифрование при транспортировке во всех режимах.
+> Локальный шлюз данных реализует сжатие данных и шифрование транспорта во всех режимах.
 > 
 > 
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 02/24/2018
 <!-- Shared Install steps Include -->
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
-## <a name="download-and-install-the-on-premises-data-gateway"></a>Скачивание и установка локального шлюза данных
+## <a name="download-and-install-the-on-premises-data-gateway"></a>Скачать и установить локальный шлюз данных
 Чтобы скачать шлюз, выберите **Шлюз данных** в меню "Загрузки". Скачайте [локальный шлюз данных](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
@@ -91,8 +91,13 @@ ms.lasthandoff: 02/24/2018
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
+## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
+* [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) сейчас не поддерживается.
+* [Веб-доступ](https://products.office.com/en-us/access) сейчас не поддерживается.
+
 ## <a name="troubleshooting"></a>Устранение неполадок
-Если при установке и настройке шлюза возникают проблемы, см. статью [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md). Если у вас проблемы с брандмауэром, см. раздел статьи об устранении неполадок, посвященный [брандмауэру или прокси-серверу](service-gateway-onprem-tshoot.md#firewall-or-proxy).
+Если при установке и настройке шлюза возникают проблемы, см. статью [Устранение неполадок с локальным шлюзом данных](service-gateway-onprem-tshoot.md). Если у вас проблемы с брандмауэром, см. раздел статьи об устранении неполадок, посвященный [брандмауэру или прокси-серверу](service-gateway-onprem-tshoot.md#firewall-or-proxy).
 
 Если для шлюза возникли проблемы с прокси-сервером, см. статью о [настройке параметров прокси-сервера для шлюзов Power BI](service-gateway-proxy.md).
 
@@ -103,7 +108,7 @@ ms.lasthandoff: 02/24/2018
 [Управление своим источником данных — Oracle](service-gateway-onprem-manage-oracle.md)  
 [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
-[Локальный шлюз данных (персональный режим) — новая версия личного шлюза](service-gateway-personal-mode.md);
-[Настройка параметров прокси-сервера для локального шлюза данных](service-gateway-proxy.md).  
+[Локальный шлюз данных (персональный режим) — новая версия личного шлюза](service-gateway-personal-mode.md)
+[Настройка параметров прокси-сервера для локального шлюза данных](service-gateway-proxy.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

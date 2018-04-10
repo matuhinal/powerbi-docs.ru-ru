@@ -1,15 +1,15 @@
 ---
-title: "Вопросы и ответы о локальном шлюзе данных"
-description: "Это вопросы и ответы о локальном шлюзе данных. В этом разделе собраны все часто задаваемые вопросы о шлюзах."
+title: Вопросы и ответы о локальном шлюзе данных
+description: Это вопросы и ответы о локальном шлюзе данных. В этом разделе собраны все часто задаваемые вопросы о шлюзах.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>Вопросы и ответы о локальном шлюзе данных
 <!-- Shared FAQ shared Include -->
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 **Ответ.** Нет. В настоящее время это не поддерживается.
 
 **Вопрос.** Можно ли использовать шлюз для подключения к экземпляру многомерного OLAP?  
-**Ответ.** Да. Локальный шлюз данных поддерживает активные подключения как к табличным, так и к многомерным моделям Analysis Services.
+**Ответ.** Да. Локальный шлюз данных поддерживает активные подключения к табличным и многомерным моделям Analysis Services.
 
 **Вопрос.** Что, если я установлю шлюз на компьютер в домене, отличном от домена моего локального сервера, который использует проверку подлинности Windows?  
 **Ответ.** Здесь ничего нельзя гарантировать. Все зависит от отношений доверия между двумя доменами. Если два разных домена созданы в модели доверенных доменов, то шлюз может подключиться к серверу служб Analysis Services и разрешить доверенное имя пользователя. В противном случае может возникнуть ошибка входа.

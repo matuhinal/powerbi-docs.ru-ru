@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 
@@ -31,6 +31,12 @@ ms.lasthandoff: 03/20/2018
 
 ## <a name="march-2018"></a>Март 2018 г.
 - **Сервер отчетов Power BI**
+    - *Версия 1.2.6660.39920 (сборка 15.0.2.389), дата выпуска: 28 марта 2018 г.*
+        - Исправленные ошибки
+            - В отчетах Power BI (PBIX-файлы) исправлена проблема с экспортом данных из визуальных элементов Power BI.
+            - В отчетах Power BI (PBIX-файлы) исправлена проблема с фильтрами URL-адресов.
+            - В отчетах с разбиением на страницы (RDL-файлы) исправлена проблема с неправильным отображением в IE11 после обновления до мартовского выпуска Сервера отчетов Microsoft Power BI.
+
     - *Версия 1.2.6648.38132 (сборка 15.0.2.378), дата выпуска: 19 марта 2018 г.*
         - Обновления для системы безопасности
         - Улучшение специальных возможностей

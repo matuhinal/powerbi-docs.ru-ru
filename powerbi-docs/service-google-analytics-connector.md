@@ -1,15 +1,15 @@
 ---
-title: "Сторонняя служба: соединитель Google Analytics для Power BI Desktop"
-description: "Сторонняя служба: соединитель Google Analytics для Power BI Desktop"
+title: 'Сторонняя служба: соединитель Google Analytics для Power BI Desktop'
+description: 'Сторонняя служба: соединитель Google Analytics для Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e05f64b52c34b3f038994e9cac8a9b7e6aebc7ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdd48073d80176eff1576633c2e9f15bdd430a60
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Соединитель Google Analytics для Power BI Desktop
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 Подключиться к данным Google Analytics можно при помощи соединителя **Google Analytics**. Чтобы подключиться, выполните следующие действия.
 
 1. В **Power BI Desktop** выберите **Получить данные** на вкладке ленты **Главная**.
-2. В окне **Получение данных** в списке категорий в левой области выберите **Прочее** .
+2. В окне **Получение данных** в списке категорий в области слева выберите **Веб-службы**.
 3. В списке в области справа выберите **Google Analytics** .
 4. В нижней части окна выберите **Подключить**.  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)

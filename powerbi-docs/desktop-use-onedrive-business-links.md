@@ -1,15 +1,15 @@
 ---
-title: "Использование ссылок OneDrive для бизнеса в Power BI Desktop"
-description: "Использование ссылок OneDrive для бизнеса в Power BI Desktop"
+title: Использование ссылок OneDrive для бизнеса в Power BI Desktop
+description: Использование ссылок OneDrive для бизнеса в Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Использование ссылок OneDrive для бизнеса в Power BI Desktop
 Многие пользователи хранят книги Excel на диске OneDrive для бизнеса, который отлично подходит для использования с Power BI Desktop. Благодаря **Power BI Desktop** вы можете использовать веб-ссылки на файлы **Excel**, хранящиеся в **OneDrive для бизнеса**, для создания отчетов и визуальных элементов. Можно использовать учетную запись группы **OneDrive для бизнеса** или индивидуальную учетную запись **OneDrive для бизнеса**.
@@ -59,7 +59,7 @@ ms.lasthandoff: 02/24/2018
 Откроется область **Навигатор**, где в списке таблиц, листов и диапазонов, обнаруженных в книге Excel, можно выбрать нужные данные. Из этого окна файл OneDrive для бизнеса можно использовать так же, как любой другой файл Excel, создавать отчеты и использовать его в наборах данных, как и любой другой источник данных.
 
 > [!NOTE]
-> Вы можете использовать файл **OneDrive для бизнеса** в качестве источника данных в службе Power BI с включенным для этого файла параметром **обновления службы**. Для этого нужно выбрать **OAuth2** в качестве **метода проверки подлинности** при настройке параметров обновления. В противном случае при попытке подключения или обновления может возникнуть ошибка (например, *ошибка обновления учетных данных источника данных*). Выбрав **OAuth2** как метод аутентификации, вы устраните эту проблему с учетными данными.
+> Вы можете использовать файл **OneDrive для бизнеса** в качестве источника данных в службе Power BI с включенным для этого файла параметром **обновления службы**. Для этого нужно выбрать **OAuth2** в качестве **метода аутентификации** при настройке параметров обновления. В противном случае при попытке подключения или обновления может возникнуть ошибка (например, *ошибка обновления учетных данных источника данных*). Выбрав **OAuth2** как метод аутентификации, вы устраните эту проблему с учетными данными.
 > 
 > 
 

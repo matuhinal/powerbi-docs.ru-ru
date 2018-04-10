@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Приобретение Power BI Pro
 
@@ -70,6 +70,10 @@ Power BI Pro позволяет публиковать отчеты, совме�
 ## <a name="pricing"></a>Цены
 
 Сведения об актуальных ценах см. в разделе [Цены на Power BI](https://powerbi.microsoft.com/en-us/pricing/).
+
+> [!NOTE]
+> После истечения срока действия подписки пользователям с лицензиями Pro будет предоставлен полный доступ на 30 дней. В этом случае на портале администрирования подписка будет отображаться как устаревшая.
+>
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Самостоятельная регистрация в Power BI](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

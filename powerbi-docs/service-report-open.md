@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Открытие отчета в службе Power BI (app.powerbi.com)
 Отчеты доступны в службе Power BI, Power BI Desktop, Power BI Mobile и даже Power BI Embedded. Из этой статьи вы узнаете, как открывать отчеты в ***службе Power BI***.
@@ -78,7 +78,7 @@ ms.lasthandoff: 03/09/2018
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Другие способы открытия отчета
 Когда вы освоитесь с навигацией в службе Power BI, вы сможете выбрать для себя наиболее удобные рабочие процессы. Другие способы доступа к отчетам:
-- с панели навигации слева с помощью панелей **Избранное**, **Последние**, **Приложения* и **Мне предоставлен доступ**; 
+- на панели навигации слева с помощью элементов **Избранное**, **Последние**, **Приложения** и **Мне предоставлен доступ**; 
 - при помощи параметра [Просмотреть похожие](service-related-content.md);
 - при помощи электронной почты, когда кто-нибудь [предоставляет вам доступ](service-share-reports.md) или вы [настраиваете оповещение](service-set-data-alerts.md);    
 - из вашего [центра уведомлений](service-notification-center.md);    
