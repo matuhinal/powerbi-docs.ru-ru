@@ -1,28 +1,28 @@
 ---
-title: "Как купить Power BI Premium"
-description: "Узнайте, как управлять Power BI Premium и разрешить доступ к содержимому для всей организации."
+title: Как купить Power BI Premium
+description: Узнайте, как управлять Power BI Premium и разрешить доступ к содержимому для всей организации.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: d80954599b866ff2f1d03d34a7e8e021d1be215b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 Узнайте, как приобрести емкость Power BI Premium для организации.
@@ -50,7 +50,7 @@ ms.lasthandoff: 02/24/2018
 
 Для приобретения емкости Premium необходимо будет сделать следующее.
 
-1. В службе Power BI выберите **средство выбора приложений Office 365** > **Администратор**. Кроме того, можно перейти в Центр администрирования Office 365. Для этого следует перейти по адресу https://portal.office.com и выбрать **Администратор**.
+1. В службе Power BI выберите **средство выбора приложений Office 365** > **Администратор**. Кроме того, можно перейти в Центр администрирования Office 365. Для этого перейдите в https://portal.office.com и выберите **Администратор**.
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. Выберите **Выставление счетов** > **Приобрести службы**.
