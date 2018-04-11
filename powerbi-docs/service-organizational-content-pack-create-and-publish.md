@@ -1,15 +1,15 @@
 ---
-title: "Создание и публикация пакета содержимого организации — Power BI"
-description: "В этом руководстве вы создадите пакет содержимого организации, предоставите доступ к нему только определенной группе и опубликуете его в библиотеке пакетов содержимого в Power BI в своей организации."
+title: Создание и публикация пакета содержимого организации — Power BI
+description: В этом руководстве вы создадите пакет содержимого организации, предоставите доступ к нему только определенной группе и опубликуете его в библиотеке пакетов содержимого в Power BI в своей организации.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

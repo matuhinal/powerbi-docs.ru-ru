@@ -1,13 +1,13 @@
 ---
-title: "Как совместно работать и предоставлять общий доступ в Power BI?"
-description: "В Power BI реализовано несколько способов организации совместной работы над панелями мониторинга, отчетами, плитками и приложениями, а также предоставления к ним общего доступа. Каждый имеет свои преимущества."
+title: Как совместно работать и предоставлять общий доступ в Power BI?
+description: В Power BI реализовано несколько способов организации совместной работы над панелями мониторинга, отчетами, плитками и приложениями, а также предоставления к ним общего доступа. Каждый имеет свои преимущества.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

@@ -1,16 +1,16 @@
 ---
-title: "Как создавать популярные вопросы для функции \"Вопросы и ответы\" в Power BI"
-description: "Документация о создании избранных вопросов для функции вопросов и ответов Power BI"
+title: Как создавать популярные вопросы для функции "Вопросы и ответы" в Power BI
+description: Документация о создании избранных вопросов для функции вопросов и ответов Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

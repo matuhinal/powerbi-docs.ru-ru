@@ -1,12 +1,12 @@
 ---
-title: "Установка и использование приложений с информационными панелями и отчетами в Power BI"
-description: "Приложения в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении."
+title: Установка и использование приложений с информационными панелями и отчетами в Power BI
+description: Приложения в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

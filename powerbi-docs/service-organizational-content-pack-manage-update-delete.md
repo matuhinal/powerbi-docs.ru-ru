@@ -1,15 +1,15 @@
 ---
-title: "Пакеты содержимого организации: управление и обновление"
-description: "Сведения об управлении пакетами содержимого организации, их обновлении и удалении в Power BI"
+title: 'Пакеты содержимого организации: управление и обновление'
+description: Сведения об управлении пакетами содержимого организации, их обновлении и удалении в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

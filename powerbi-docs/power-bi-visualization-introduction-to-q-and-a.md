@@ -1,15 +1,15 @@
 ---
-title: "Краткое руководство. Начало работы с функцией \"Вопросы и ответы\" в Power BI"
-description: "Краткое руководство. Начало работы с компонентом \"Вопросы и ответы\" в Power BI с примером \"Анализ розничной торговли\""
+title: Краткое руководство. Начало работы с функцией "Вопросы и ответы" в Power BI
+description: Краткое руководство. Начало работы с компонентом "Вопросы и ответы" в Power BI с примером "Анализ розничной торговли"
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

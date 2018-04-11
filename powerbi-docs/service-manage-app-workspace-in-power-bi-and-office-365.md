@@ -1,15 +1,15 @@
 ---
-title: "Управление рабочей областью приложения в Power BI и Office 365"
-description: "Рабочие области приложений в Power BI обеспечивают широкие возможности для совместной работы на основе групп Office 365. Вы можете управлять рабочими областями приложений в Power BI и в Office 365."
+title: Управление рабочей областью приложения в Power BI и Office 365
+description: Рабочие области приложений в Power BI обеспечивают широкие возможности для совместной работы на основе групп Office 365. Вы можете управлять рабочими областями приложений в Power BI и в Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

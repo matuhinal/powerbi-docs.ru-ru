@@ -1,15 +1,15 @@
 ---
-title: "Поиск пакетов содержимого организации и подключение к ним — Power BI"
-description: "Поиск и открытие пакета содержимого организации в Power BI"
+title: Поиск пакетов содержимого организации и подключение к ним — Power BI
+description: Поиск и открытие пакета содержимого организации в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

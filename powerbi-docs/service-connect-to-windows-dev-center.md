@@ -1,15 +1,15 @@
 ---
-title: "Подключение к Центру разработки для Windows с помощью Power BI"
-description: "Windows Dev Center для Power BI"
+title: Подключение к Центру разработки для Windows с помощью Power BI
+description: Windows Dev Center для Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

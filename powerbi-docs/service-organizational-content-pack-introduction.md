@@ -1,15 +1,15 @@
 ---
-title: "Знакомство с пакетами содержимого организации в Power BI"
-description: "Узнайте об упаковке информационных панелей, отчетов, книг Excel и наборов данных в пакетах содержимого организации, а также о предоставлении общего доступа к ним своим коллегам."
+title: Знакомство с пакетами содержимого организации в Power BI
+description: Узнайте об упаковке информационных панелей, отчетов, книг Excel и наборов данных в пакетах содержимого организации, а также о предоставлении общего доступа к ним своим коллегам.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

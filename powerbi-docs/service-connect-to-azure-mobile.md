@@ -1,15 +1,15 @@
 ---
-title: "Подключение к платформе \"Службы мобильного взаимодействия\" с помощью Power BI"
-description: "Службы мобильного взаимодействия Azure для Power BI"
+title: Подключение к платформе "Службы мобильного взаимодействия" с помощью Power BI
+description: Службы мобильного взаимодействия Azure для Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

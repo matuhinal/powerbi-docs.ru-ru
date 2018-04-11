@@ -1,15 +1,15 @@
 ---
-title: "Подключение к Application Insights с помощью Power BI"
-description: "Application Insights для Power BI"
+title: Подключение к Application Insights с помощью Power BI
+description: Application Insights для Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

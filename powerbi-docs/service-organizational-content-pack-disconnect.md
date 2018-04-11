@@ -1,15 +1,15 @@
 ---
-title: "Отключение от пакета содержимого организации в Power BI"
-description: "Узнайте, как удалить подключение к пакету содержимого для организации, удалив его набор данных в Power BI."
+title: Отключение от пакета содержимого организации в Power BI
+description: Узнайте, как удалить подключение к пакету содержимого для организации, удалив его набор данных в Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

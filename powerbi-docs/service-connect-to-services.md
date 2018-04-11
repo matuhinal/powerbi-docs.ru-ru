@@ -1,15 +1,15 @@
 ---
-title: "Подключение к используемым службам с помощью Power BI"
-description: "Подключайтесь к различным службам, используемым для обеспечения работы вашей организации, таким как Salesforce, Microsoft Dynamics CRM и Google Analytics."
+title: Подключение к используемым службам с помощью Power BI
+description: Подключайтесь к различным службам, используемым для обеспечения работы вашей организации, таким как Salesforce, Microsoft Dynamics CRM и Google Analytics.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Доступ и копирование пакетов содержимого организации"
-description: "Узнайте о создании копий пакетов содержимого организации и устранении неполадок в них в Power BI"
+title: Доступ и копирование пакетов содержимого организации
+description: Узнайте о создании копий пакетов содержимого организации и устранении неполадок в них в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

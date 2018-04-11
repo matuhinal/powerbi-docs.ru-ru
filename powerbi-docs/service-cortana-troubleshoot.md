@@ -1,16 +1,16 @@
 ---
-title: "Устранение неполадок Кортаны для Power BI"
-description: "Если возникли проблемы при использовании Кортаны в Power BI, воспользуйтесь следующими советами."
+title: Устранение неполадок Кортаны для Power BI
+description: Если возникли проблемы при использовании Кортаны в Power BI, воспользуйтесь следующими советами.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

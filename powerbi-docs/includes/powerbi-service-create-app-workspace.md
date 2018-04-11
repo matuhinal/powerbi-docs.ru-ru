@@ -34,5 +34,5 @@
 
 После этого служба Power BI создаст рабочую область и откроет ее. Она отображается в списке рабочих областей, в которые вы входите. Администратор может щелкнуть многоточие (…), чтобы вернуться и внести изменения в рабочую область, например добавить новых участников или изменить разрешения.
 
-![Изменение рабочей области](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Изменить рабочую область](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
 

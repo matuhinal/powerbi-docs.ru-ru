@@ -1,15 +1,15 @@
 ---
-title: "Общие сведения о функции \"Вопросы и ответы\" в службе Power BI и Desktop"
-description: "Раздел документации по запросам функции \"Вопросы и ответы\" Power BI на естественном языке."
+title: Общие сведения о функции "Вопросы и ответы" в службе Power BI и Desktop
+description: Раздел документации по запросам функции "Вопросы и ответы" Power BI на естественном языке.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

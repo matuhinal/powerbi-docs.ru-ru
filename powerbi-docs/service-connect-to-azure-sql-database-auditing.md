@@ -1,15 +1,15 @@
 ---
-title: "Пакет содержимого аудита базы данных SQL"
-description: "Пакет содержимого аудита базы данных SQL для Power BI"
+title: Пакет содержимого аудита базы данных SQL
+description: Пакет содержимого аудита базы данных SQL для Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

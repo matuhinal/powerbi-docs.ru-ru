@@ -1,11 +1,11 @@
 ---
-title: "Активация Cortana для Power BI"
-description: "Использование Cortana с Power BI позволяет получать ответы от данных. Активируйте Кортану для каждого набора данных Power BI, а затем предоставьте ей доступ к наборам данных с устройств Windows."
+title: Активация Cortana для Power BI
+description: Использование Cortana с Power BI позволяет получать ответы от данных. Активируйте Кортану для каждого набора данных Power BI, а затем предоставьте ей доступ к наборам данных с устройств Windows.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

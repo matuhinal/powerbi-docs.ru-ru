@@ -1,12 +1,12 @@
 ---
-title: "Руководство. Использование функции \"Вопросы и ответы\" на панели мониторинга или в отчете"
-description: "Руководство по применению функции \"Вопросы и ответы\" Power BI для создания визуализаций на панелях мониторинга и в отчетах."
+title: Руководство. Использование функции "Вопросы и ответы" на панели мониторинга или в отчете
+description: Руководство по применению функции "Вопросы и ответы" Power BI для создания визуализаций на панелях мониторинга и в отчетах.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

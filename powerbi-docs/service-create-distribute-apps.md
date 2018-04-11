@@ -1,14 +1,14 @@
 ---
-title: "Создание и публикация приложений с информационными панелями и отчетами в Power BI"
-description: "Узнайте, как создать и опубликовать приложения, которые являются коллекциями информационных панелей и отчетов, предназначенных для предоставления основных метрик для организации."
+title: Создание и публикация приложений с информационными панелями и отчетами в Power BI
+description: Узнайте, как создать и опубликовать приложения, которые являются коллекциями информационных панелей и отчетов, предназначенных для предоставления основных метрик для организации.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Экспорт отчетов из Power BI в PowerPoint (предварительная версия)"
-description: "Узнайте, как экспортировать отчет из Power BI в PowerPoint."
+title: Экспорт отчетов из Power BI в PowerPoint (предварительная версия)
+description: Узнайте, как экспортировать отчет из Power BI в PowerPoint.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

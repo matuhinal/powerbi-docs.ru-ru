@@ -1,15 +1,15 @@
 ---
-title: "Как настроить данные Excel для работы с функцией \"Вопросы и ответы\" в Power BI"
-description: "Как настроить данные для работы с компонентом \"Вопросы и ответы\" в Power BI"
+title: Как настроить данные Excel для работы с функцией "Вопросы и ответы" в Power BI
+description: Как настроить данные для работы с компонентом "Вопросы и ответы" в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

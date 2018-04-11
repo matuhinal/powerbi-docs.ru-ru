@@ -1,11 +1,11 @@
 ---
-title: "Быстрый поиск и просмотр отчетов и панелей мониторинга Power BI с помощью Кортаны"
-description: "Использование Cortana с Power BI позволяет получать ответы от данных. Сейчас Кортана поддерживает отчеты и панели мониторинга."
+title: Быстрый поиск и просмотр отчетов и панелей мониторинга Power BI с помощью Кортаны
+description: Использование Cortana с Power BI позволяет получать ответы от данных. Сейчас Кортана поддерживает отчеты и панели мониторинга.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

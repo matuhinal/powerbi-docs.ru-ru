@@ -1,15 +1,15 @@
 ---
-title: "Совместная работа в рабочей области приложения Power BI"
-description: "Узнайте, как совместно работать с файлами Power BI Desktop в рабочей области приложения, используя такие возможности службы Office 365, как предоставление общего доступа к файлам в OneDrive для бизнеса, общение в Exchange, календарь и задачи."
+title: Совместная работа в рабочей области приложения Power BI
+description: Узнайте, как совместно работать с файлами Power BI Desktop в рабочей области приложения, используя такие возможности службы Office 365, как предоставление общего доступа к файлам в OneDrive для бизнеса, общение в Exchange, календарь и задачи.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
