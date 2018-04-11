@@ -1,15 +1,15 @@
 ---
-title: "Подключение к Microsoft Dynamics Marketing с помощью Power BI"
-description: "Microsoft Dynamics Marketing для Power BI"
+title: Подключение к Microsoft Dynamics Marketing с помощью Power BI
+description: Microsoft Dynamics Marketing для Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -73,7 +73,7 @@ ms.lasthandoff: 02/24/2018
 
 Если у вас по-прежнему возникают проблемы, создайте запрос в службу поддержки, чтобы связаться с группой Power BI:
 
-* В приложении Power BI щелкните вопросительный знак и выберите **Обратиться в службу поддержки**.
+* В приложении Power BI щелкните вопросительный знак \> и выберите **Обратиться в службу поддержки**.
 * На сайте службы поддержки Power BI (где вы читаете эту статью) выберите **Обратиться в службу поддержки** в правой части страницы.
 
 ## <a name="next-steps"></a>Дальнейшие действия

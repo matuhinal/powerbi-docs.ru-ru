@@ -1,28 +1,28 @@
 ---
-title: "Шлюз Power BI — персональный"
-description: "Шлюз Power BI — персональный"
+title: Шлюз Power BI — персональный
+description: Шлюз Power BI — персональный
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 8d047e814eaa7c84ee7e1be20d1f4722c6cb1e56
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Шлюз Power BI — персональный
 > [!NOTE]
@@ -67,7 +67,7 @@ ms.lasthandoff: 03/12/2018
 
 Функции "ОБНОВИТЬ СЕЙЧАС" и "РАСПИСАНИЕ ОБНОВЛЕНИЙ" поддерживаются без шлюза для наборов данных, отправленных из следующих источников.
 
-* Пакеты содержимого из подключенных к сети источников данных (пакеты содержимого или службы). По умолчанию наборы данных из пакетов содержимого автоматически обновляются раз в день. Однако можно также выполнить обновление вручную или настроить расписание обновления.
+* Пакеты содержимого из подключенных к сети источников данных (пакеты содержимого или \\службы). По умолчанию наборы данных из пакетов содержимого автоматически обновляются раз в день. Однако можно также выполнить обновление вручную или настроить расписание обновления.
 * Книги Microsoft Excel 2013 (или более поздние версии), где Power Query или Power Pivot используются для подключения и запроса данных из сетевого источника данных.
 * Файлы Microsoft Power BI Desktop, где функция "Получить данные" используется для подключения и запроса данных из сетевого источника данных.
 
