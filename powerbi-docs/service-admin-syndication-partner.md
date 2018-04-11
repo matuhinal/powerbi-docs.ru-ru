@@ -1,28 +1,28 @@
 ---
-title: "Невозможно добавить Power BI к партнеру по распространению Office 365"
-description: "Невозможно добавить Power BI к партнеру по распространению подписок на Office 365. Модель распространения подписок — это модель приобретения, используемая для Office 365."
+title: Невозможно добавить Power BI к партнеру по распространению Office 365
+description: Невозможно добавить Power BI к партнеру по распространению подписок на Office 365. Модель распространения подписок — это модель приобретения, используемая для Office 365.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: de0be16e1ba185b18f7a0802da916962db72886d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ace24b392668b5459d21a451319fd54eb6430371
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Невозможно добавить Power BI к партнерской подписке на Office 365
 Office 365 позволяет компаниям перепродавать пакеты Office 365, интегрированные в их собственные решения. В этом случае такие компании и решения являются единой точкой контакта по вопросам приобретения, выставления счетов и поддержки.

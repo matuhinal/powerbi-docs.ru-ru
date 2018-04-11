@@ -1,28 +1,28 @@
 ---
-title: "Закрытие учетной записи Power BI"
-description: "Закрытие учетной записи Power BI"
+title: Закрытие учетной записи Power BI
+description: Закрытие учетной записи Power BI
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 11287df09e14793b7c6652b7959d5c0a0499b3fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d74aed9f3d2f21459853781089b4c32bcdf51b2c
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Закрытие учетной записи Power BI
 Если вы больше не планируете пользоваться Power BI, закройте свою учетную запись.  Закрыв учетную запись, вы больше не сможете войти в Power BI.  Кроме того, все данные клиента, загруженные или созданные в Power BI, будут удалены в соответствии с политикой хранения, изложенной в условиях предоставления услуг Power BI.

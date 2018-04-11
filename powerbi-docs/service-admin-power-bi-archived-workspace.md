@@ -1,28 +1,28 @@
 ---
-title: "Архивная рабочая область Power BI"
-description: "Архивная рабочая область Power BI после управления клиентом Office 365"
+title: Архивная рабочая область Power BI
+description: Архивная рабочая область Power BI после управления клиентом Office 365
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 34625c6c093e6ad4255b6e9e153c84d4cb3881d4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 254857072df2b06fbdeb2af0a53d262e98f8f254
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Архивная рабочая область Power BI
 Любой пользователь может за считанные минуты зарегистрироваться в Power BI и начать пользоваться этой службой.  Позже ИТ-отдел организации может взять на себя управление пользователями организации, зарегистрированными в службе Power BI.  В этом случае организация выиграет от централизованного управления пользователями и разрешениями, а каждый пользователь получит удобную возможность входить с использованием того же имени пользователя и пароля, которые используются для других служб в организации. 
