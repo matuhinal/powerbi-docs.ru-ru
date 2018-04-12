@@ -28,9 +28,9 @@ ms.lasthandoff: 04/08/2018
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Запись дополнительных диагностических сведений для Power BI
 Эти инструкции предоставляют два возможных варианта ручного сбора дополнительных диагностических сведений из веб-клиента Power BI.  Необходимо следовать только одному из этих вариантов.
 
-## <a name="network-capture---edge--internet-explorer"></a>Сбор по сети — Edge и Internet Explorer
-1. Откройте [Power BI](https://app.powerbi.com) в браузере Edge или Internet Explorer.
-2. Запустите средства разработчика Edge, нажав клавиши F12.
+## <a name="network-capture---edge--internet-explorer"></a>Сбор по сети — Microsoft Edge и Internet Explorer
+1. Откройте [Power BI](https://app.powerbi.com) в браузере Microsoft Edge или Internet Explorer.
+2. Запустите средства разработчика Microsoft Edge, нажав клавиши F12.
 3. Откроется окно средств разработчика: 
    
    ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
