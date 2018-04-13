@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 7e75eacac61779a1ecd714d009a61fe4306e2885
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -129,7 +129,7 @@ ms.lasthandoff: 04/03/2018
 | [Тахометр](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Видео](https://youtu.be/C3OXdETbS9o) |
 | [Фильтрация текста](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Текстовая оболочка от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
-| [Термометр](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
+| [Thermometer от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [Видео](https://youtu.be/SPX9mgrAdBc) |
 | [Срез временной шкалы](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Видео](https://youtu.be/ozMtZ4_NZ10) |
 | [Диаграмма-торнадо](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Видео](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Диаграмма продаж от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Видео](https://youtu.be/xhTR6y6J9Ko) |

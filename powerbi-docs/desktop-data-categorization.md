@@ -1,15 +1,15 @@
 ---
-title: "Категоризация данных в Power BI Desktop"
-description: "Категоризация данных в Power BI Desktop"
+title: Категоризация данных в Power BI Desktop
+description: Категоризация данных в Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 00b70b6e56d11d0d7dda959f1983cc4631f53ff9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Категоризация данных в Power BI Desktop
 В **Power BI Desktop** можно указать категорию данных для столбца, чтобы сообщить Power BI Desktop, как следует интерпретировать его значения во время визуализации.
@@ -40,7 +40,7 @@ ms.lasthandoff: 02/24/2018
 **Указание категории данных**
 
 1. В представлении отчета или данных в списке **Поля** выберите поле, которое следует отсортировать с использованием другой классификации.
-2. На вкладке **Работа с данными — моделирование** ленты щелкните раскрывающийся список **Категория данных:** .  Здесь приведен перечень категорий данных, которые можно выбрать для столбца.  Некоторые параметры могут быть недоступны, если они не подходят для текущего типа данных столбца.  Например, если столбец имеет двоичный тип данных, Power BI Desktop не позволит выбрать категории географических данных. 
+2. На вкладке **Моделирование** в ленте щелкните раскрывающийся список **Категория данных:**.  Здесь приведен перечень категорий данных, которые можно выбрать для столбца.  Некоторые параметры могут быть недоступны, если они не подходят для текущего типа данных столбца.  Например, если столбец имеет двоичный тип данных, Power BI Desktop не позволит выбрать категории географических данных. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

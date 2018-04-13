@@ -1,15 +1,15 @@
 ---
-title: "Использование вычисляемых таблиц в Power BI Desktop"
-description: "Вычисляемые таблицы в Power BI Desktop"
+title: Использование вычисляемых таблиц в Power BI Desktop
+description: Вычисляемые таблицы в Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Использование вычисляемых таблиц в Power BI Desktop
 Вычисляемые таблицы позволяют добавить в модель новую таблицу. Однако вместо запроса и загрузки значений в столбцы новой таблицы из источника данных вы создаете формулу на языке DAX, которая определяет значения таблицы. В Power BI Desktop вычисляемые таблицы создаются с помощью функции "Создать таблицу" в представлении отчетов или в представлении данных.
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/24/2018
 Вычисляемые таблицы вычисляют результаты с помощью языка [выражений анализа данных](https://msdn.microsoft.com/library/gg413422.aspx) (DAX) — это язык формул, предназначенный для работы с реляционными данными, как в Power BI Desktop. DAX включает библиотеку из более чем 200 функций, операторов и конструкций, предоставляя огромную гибкость при создании формул, чтобы вычислять результаты практически для любого необходимого анализа данных.
 
 ## <a name="lets-look-at-an-example"></a>Давайте рассмотрим пример.
-У Джеффа, менеджера по управлению проектами в компании Contoso, есть таблица с сотрудниками на северо-западе и таблица с сотрудниками на юго-западе. Он хочет объединить эти таблицы в одну.
+У Джеффа, руководителя проектов в компании Contoso, есть таблица с сотрудниками на северо-западе и таблица с сотрудниками на юго-западе. Он хочет объединить эти таблицы в одну.
 
 **NorthwestEmployees**
 
@@ -71,7 +71,15 @@ ms.lasthandoff: 02/24/2018
 
 Вычисляемые таблицы, созданные с помощью DAX, можно использовать для решения многих аналитических задач. Здесь представлены только краткие сведения о вычисляемых таблицах. Вот некоторые распространенные функции DAX, которые могут вам пригодиться при работе с вычисляемыми таблицами:
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 Описание этих и других функций DAX для работы с таблицами см. в [справочнике по функциям DAX](https://msdn.microsoft.com/ee634396.aspx).
 
