@@ -1,32 +1,32 @@
 ---
-title: "Добавление гиперссылки в текстовое поле в отчете"
-description: "Добавление гиперссылки в текстовое поле в службу Power BI и Power BI Desktop"
+title: Добавление гиперссылки в текстовое поле в отчете
+description: Добавление гиперссылки в текстовое поле в службу Power BI и Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Добавление гиперссылки в текстовое поле в отчете
-Текстовые поля можно добавлять в отчеты, закреплять на информационных панелях из отчетов и добавлять непосредственно на информационные панели. Гиперссылки можно добавить в текстовое поле, независимо от того, где оно находится. **В этом разделе описываются текстовые поля в отчетах в службе Power BI (не Power BI Desktop).**
+Текстовые поля можно добавлять в отчеты, закреплять на информационных панелях из отчетов и добавлять непосредственно на информационные панели. Гиперссылки можно добавить в текстовое поле, независимо от того, где оно находится.  
 
 > **ПРИМЕЧАНИЕ**. Сведения о гиперссылках в таблицах и матрицах Power BI см. в статье [Гиперссылки в таблицах](power-bi-hyperlinks-in-tables.md). Сведения о добавлении текстовых полей на **панель мониторинга** см. в статье [Добавление плитки прямо с панели мониторинга](service-dashboard-add-widget.md). 
 > 
@@ -61,8 +61,6 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Текстовые поля в отчетах Power BI](power-bi-reports-add-text-and-shapes.md)
-
-[Добавление текстового поля на панель мониторинга](service-dashboard-add-widget.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

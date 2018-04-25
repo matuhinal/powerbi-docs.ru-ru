@@ -1,29 +1,29 @@
 ---
-title: "Визуальные элементы КПЭ (руководство)"
-description: "Создание КПЭ в службе Power BI и Power BI Desktop"
+title: Визуальные элементы КПЭ (руководство)
+description: Создание КПЭ в службе Power BI и Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6EpqaO0
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="kpi-visuals-tutorial"></a>Визуальные элементы КПЭ (руководство)
 Ключевое показатель эффективности (КПЭ) — наглядный индикатор, который позволяет оценить достижение определенной измеримой цели. Дополнительные сведения о ключевых показателях эффективности см. в сети [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -76,11 +76,8 @@ ms.lasthandoff: 02/24/2018
 * Если ключевой показатель эффективности выглядит, как приведенный выше, возможно, требуется отсортировать данные по месяцам. Так как для ключевых показателей эффективности нет возможности сортировки, вам потребуется отсортировать данные по месяцам *перед* тем, как преобразовать визуализацию в ключевой показатель эффективности.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Отчеты в Power BI](service-reports.md)
 
 [Визуализации в отчетах Power BI](power-bi-report-visualizations.md)
-
-[Power BI — основные понятия](service-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

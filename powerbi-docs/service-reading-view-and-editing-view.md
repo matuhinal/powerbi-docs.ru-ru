@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Режимы чтения и правки в отчетах службы Power BI
 В службе Power BI (не в Power BI Desktop) есть два режима для просмотра и взаимодействия с отчетами: чтения и правки. Режим чтения доступен для всех и специально разработан для *пользователей* данных, а режим правки доступен только *авторам* и владельцам отчетов.
@@ -48,7 +48,6 @@ ms.lasthandoff: 03/15/2018
 |Задача  | Режим чтения  | Режим правки |
 |-------------------------|-------|-------|
 |**Отчеты в целом**  |
-||||
 | [Создание или изменение отчетов](service-report-create-new.md) | Нет  | Да |
 | [Совместное использование отчетов с сотрудниками](service-share-reports.md)| Да | Да, а также управление разрешениями, включая предоставление другим пользователям разрешений *владельца*. |
 | [Создание постоянных (неизменных) детализированных фильтров, фильтров на уровне визуальных элементов, страниц и отчетов на панели "Фильтры"](power-bi-report-add-filter.md) | Нет  | Да |
@@ -63,12 +62,10 @@ ms.lasthandoff: 03/15/2018
 | [Сохранение отчета](service-report-save.md) | Да, но только с помощью параметра **Сохранить как**. | Да |
 | [Удаление отчета](service-delete.md) | Нет  | Да |
 |**Страницы отчета** |
-||||
 | [Добавление или переименование страницы отчета](power-bi-report-add-page.md)  | Нет  | Да  |
 | [Дублирование страницы отчета](power-bi-report-copy-paste-page.md) | Нет  | Да |
 | [Удаление страницы отчета](service-delete.md) | нет | да |
 |**Работа с визуализациями в отчетах**|
-||||
 | [Добавление визуализаций в отчет](power-bi-report-add-visualizations-i.md) | Нет  | Да |
 | [Добавление текстовых полей и фигур в отчет](power-bi-reports-add-text-and-shapes.md) | Нет  | Да |
 | [Используйте панель "Форматирование" в отчете](service-the-report-editor-take-a-tour.md) | Нет | Да |

@@ -1,16 +1,16 @@
 ---
-title: "Как закрепить плитки на панели мониторинга Power BI из книги Excel"
-description: "Закрепление плитки на панели мониторинга Power BI из книги Excel в OneDrive для бизнеса. Закрепление диапазонов, диаграмм, таблиц"
+title: Как закрепить плитки на панели мониторинга Power BI из книги Excel
+description: Закрепление плитки на панели мониторинга Power BI из книги Excel в OneDrive для бизнеса. Закрепление диапазонов, диаграмм, таблиц
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Закрепление плитки на панели мониторинга Power BI из книги Excel
 Прежде чем можно будет закрепить плитку из книги Excel, эту книгу необходимо подключить к службе Power BI (app.powerbi.com). При подключении книги ее связанная доступная только для чтения версия добавляется в службу Power BI, что дает возможность закреплять диапазоны ячеек на панелях мониторинга. На панели мониторинга можно закрепить даже целый лист.  
@@ -41,20 +41,19 @@ ms.lasthandoff: 03/09/2018
 Книгу нельзя редактировать в Power BI. Но если вы хотите внести изменения, на вкладке **Книги** рабочей области щелкните значок с изображением карандаша, а затем отредактируйте книгу в Excel Online или откройте ее в Excel на своем компьютере. Любые внесенные изменения сохраняются в книге в OneDrive.
 
 1. Отправьте книгу в OneDrive для бизнеса.
+
 2. В Power BI [подключитесь к этой книге](service-excel-workbook-files.md). Для этого выберите **Получить данные > Файлы > OneDrive для бизнеса** и перейдите в расположение, где сохранен файл Excel. Выберите файл и щелкните **Подключение > Подключиться**.
 
-   ![Диалоговое окно "OneDrive для бизнеса"](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![Диалоговое окно "OneDrive для бизнеса"](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. В Power BI книги добавляются на вкладку **Книги** рабочей области.  Значок ![значок книги](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) показывает, что это книга Excel, а желтая звездочка означает, что книга новая.
-   
     
-   ![вкладка "Книги"](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![вкладка "Книги"](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Откройте книгу в Power BI, выбрав ее имя.
 
     Изменения, внесенные в книгу в Power BI, не сохраняются и не влияют на исходную книгу, которая находится в OneDrive для бизнеса. Изменения, внесенные в Power BI в результате сортировки, фильтрования или изменения значений, нельзя сохранить или закрепить. Если необходимо внести изменения, которые будут сохранены, выберите **Изменить** в правом верхнем углу, чтобы открыть книгу для редактирования в Excel Online или Excel. После изменений, внесенных таким образом, пройдет несколько минут, прежде чем обновятся плитки на панелях мониторинга.
    
-   
-   ![Excel Online в Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Excel Online в Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Закрепление диапазона ячеек на панели мониторинга
 Новую [плитку информационной панели](service-dashboard-tiles.md) можно добавить в том числе и из книги Excel в Power BI. Диапазоны можно закреплять из книг Excel, сохраненных в OneDrive для бизнеса или в другой библиотеке документов с общим доступом для группы пользователей. Диапазоны могут содержать данные, диаграммы, таблицы, сводные таблицы, сводные диаграммы и других компоненты Excel.
