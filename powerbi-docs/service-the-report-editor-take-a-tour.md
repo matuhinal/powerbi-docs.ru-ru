@@ -1,29 +1,29 @@
 ---
-title: "Краткое руководство. Знакомство с редактором отчетов"
-description: "Знакомство с редактором отчетов"
+title: Краткое руководство. Знакомство с редактором отчетов
+description: Знакомство с редактором отчетов
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Знакомство с редактором отчетов
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Изменение отчетов в службе Power BI и Power BI Desktop
@@ -56,7 +56,6 @@ ms.lasthandoff: 03/09/2018
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>Верхняя часть панели визуализации определяет тип используемого визуального элемента. В нашем примере используется гистограмма с группировкой.<br><br></li> <li>В нижней части области визуализации (может потребоваться прокрутить вниз) отображаются поля, используемые в визуальном элементе. На этой диаграмме используются параметры FiscalMonth, DistrictManager и Total Sales Variance (Суммарное отклонение продаж). <br><br></li><li>На панели "Фильтры" (может потребоваться прокрутить вниз) отображаются все фильтры, которые были применены. <br><br></li><li>На панели "Поля" указаны доступные таблицы и (при развертывании узла имени таблицы) поля, из которых состоит таблица. Желтый цвет шрифта означает, что в визуализации используется по крайней мере одно поле из таблицы.<br><br></li><li>![значок с изображением валика](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Чтобы отобразить панель форматирования для выбранной визуализации, щелкните значок с изображением валика.<br><br></li><li>![значок лупы](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Чтобы отобразить панель аналитики, щелкните значок лупы.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>Панель "Визуализации" (сверху вниз)
 ![верхняя часть панели визуализации](media/service-the-report-editor-take-a-tour/selectviz.png)
