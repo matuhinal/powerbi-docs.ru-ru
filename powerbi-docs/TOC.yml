@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Устранение неполадок
       items:
-        - name: "Решение проблем с импортом баз данных Access и электронных таблиц Excel в Power\_BI Desktop и Power Query"
-          href: desktop-access-database-errors.md
+        - name: Устранение проблем при входе в Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Устранение неполадок при запуске Power BI Desktop
           href: desktop-error-launching-desktop.md
+        - name: "Решение проблем с импортом баз данных Access и электронных таблиц Excel в Power\_BI Desktop и Power Query"
+          href: desktop-access-database-errors.md
 - name: Мобильные приложения Power BI
   items:
     - name: Начало работы
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: Работа с КПЭ
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Поддерживаемые источники данных
+        - name: Источники данных для отчета Power BI (.pbix)
           href: report-server/data-sources.md
-        - name: подключение к источникам данных.
+        - name: Источники данных для отчета с разбивкой на страницы (.rdl)
           href: report-server/connect-data-sources.md
         - name: 'Доступ к общим наборам данных как к каналам OData '
           href: report-server/access-dataset-odata.md
