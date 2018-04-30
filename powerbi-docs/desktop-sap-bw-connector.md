@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: d644f13f6c9b8ada62a0862fdcf92518512828f7
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
-С помощью Power BI Desktop вы можете получить доступ к данным **SAP BusinessWarehouse (BW)**.
+С помощью Power BI Desktop вы можете получить доступ к данным **SAP Business Warehouse (BW)**.
+
+Сведения о том, какие преимущества могут получить клиенты SAP, подключив Power BI к своим системам SAP Business Warehouse (BW), см. в [этом документе](https://aka.ms/powerbiandsapbw).
 
 ## <a name="installation-of-sap-bw-connector"></a>Установка соединителя SAP BW
 Чтобы использовать **соединитель SAP BW**, выполните следующие действия по установке.
@@ -115,3 +117,4 @@ ms.lasthandoff: 03/22/2018
 * [DirectQuery и SAP HANA](desktop-directquery-sap-hana.md)
 * [Power BI и DirectQuery](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)
+* [Технический документ о Power BI и SAP BW](https://aka.ms/powerbiandsapbw)

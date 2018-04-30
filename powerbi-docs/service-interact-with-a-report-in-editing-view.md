@@ -1,31 +1,33 @@
 ---
-title: "Взаимодействие с отчетом в режиме правки (руководство)"
-description: "Взаимодействие с отчетом в режиме правки отчетов в службе Power BI"
+title: Взаимодействие с отчетом в режиме правки (руководство)
+description: Взаимодействие с отчетом в режиме правки отчетов в службе Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Взаимодействие с отчетом в режиме правки в службе Power BI
-Отчеты можно редактировать в службе Power BI и приложении Power BI Desktop (при наличии разрешений владельца). В отличие от приложения Power BI Desktop, в службе Power BI предусмотрены два режима для взаимодействия с отчетами: [режим чтения](service-reading-view-and-editing-view.md) для *пользователей* отчетов и режим правки для их владельцев и создателей. В этом руководстве рассматривается режим правки в службе Power BI. 
+Отчеты можно создавать и редактировать в службе Power BI и приложении Power BI Desktop. В службе Power BI отчеты можно создавать и редактировать в **представлении правки**. В Power BI Desktop отчеты можно создавать и редактировать в [**представлении отчета**](desktop-report-view.md). В этой статье рассматривается режим правки в службе Power BI. 
+
+В службе Power BI предусмотрены два режима для взаимодействия с отчетами: [режим чтения](service-reading-view-and-editing-view.md) для *пользователей* отчетов и режим правки для их владельцев и создателей.  Для совместного использования отчетов, как и для редактирования отчетов, созданных другими пользователями, требуется лицензия Power BI Pro. Если вы используете Power BI бесплатно, вы по-прежнему сможете создавать отчеты, но вы не сможете [предоставить к ним общий доступ](service-share-reports.md).    
 
 Режим правки предоставляет гибкие возможности и функции как для просмотра, так и для разработки отчетов. В дополнение ко всем функциям [режима просмотра](service-reading-view-and-editing-view.md) доступно много других возможностей. Режим правки доступен только для пользователей, создавших отчет, или их коллег, которые [совместно владеют отчетом как участник или администратор рабочей области приложения](service-create-distribute-apps.md).
 
@@ -42,6 +44,9 @@ ms.lasthandoff: 03/09/2018
 * Отображение данных, используемых для создания визуальных элементов 
 * Настройка детализации
 * Дублирование страницы отчета
+
+## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
+Для совместного использования отчетов, как и для редактирования отчетов, созданных другими пользователями, требуется лицензия Power BI Pro.  Если вы используете Power BI бесплатно, вы по-прежнему сможете создавать отчеты, но вы не сможете [предоставить к ним общий доступ](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

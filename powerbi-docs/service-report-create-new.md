@@ -1,36 +1,36 @@
 ---
-title: "Руководство. Создание отчета из набора данных "
-description: "Создание отчета Power BI из набора данных."
+title: 'Руководство. Создание отчета из набора данных '
+description: Создание отчета Power BI из набора данных.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Создание отчета Power BI путем импорта набора данных
-Вы ознакомились со статьей [Отчеты в Power BI](service-reports.md) и хотите создать свои собственные отчеты. Существует много различных способов создания отчета. В этом разделе мы создадим очень простой из набора данных Excel. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами в разделе **Дальнейшие действия** ниже.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
+Вы ознакомились со статьей [Отчеты в Power BI](service-reports.md) и хотите создать свои собственные отчеты. Существует много различных способов создания отчетов. В этой статье мы создадим простой отчет из набора данных Excel, воспользовавшись службой Power BI. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами в разделе **Дальнейшие действия** ниже.  
 
 > **Совет.** Сведения о создании отчета из имеющегося отчета см. [здесь](power-bi-report-copy.md).
 > 
 ### <a name="prerequisites"></a>Предварительные требования
-- Служба Power BI (для создания отчетов с помощью Power BI Desktop). См. статью [Представление отчетов в Power BI Desktop](desktop-report-view.md)   
+- Служба Power BI (сведения о создании отчетов с помощью приложения Power BI Desktop см. в статье [Представление отчетов в Power BI Desktop](desktop-report-view.md)).  
 - Набор данных "Анализ розничной торговли — пример"
 
 ## <a name="import-the-dataset"></a>Импорт набора данных

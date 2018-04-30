@@ -1,32 +1,32 @@
 ---
-title: "Текстовые поля и фигуры в отчетах Power BI"
-description: "Документация о добавлении и создании текстовых полей и фигур в отчетах Microsoft Power BI."
+title: Текстовые поля и фигуры в отчетах Power BI
+description: Документация о добавлении и создании текстовых полей и фигур в отчетах Microsoft Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: _3q6VEBhGew
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Статическое содержимое в отчетах Power BI
-Текстовые поля и фигуры можно добавлять в отчеты как с помощью службы Power BI, так и Power BI Desktop. В обоих случаях требуются разрешения на изменение отчета. Если доступ к отчету вам предоставил другой пользователь, у вас не будет доступа к режиму правки. 
+Текстовые поля и фигуры можно добавлять в отчеты как с помощью службы Power BI, так и Power BI Desktop. В обоих случаях требуются разрешения на изменение отчета. Если доступ к отчету в службе Power BI вам предоставил другой пользователь, у вас не будет прав на редактирование. 
 
 Посмотрите видео о том, как с помощью Power BI Desktop [добавить статические изображения в отчет](guided-learning/visualizations.yml#step-11). Затем сделайте это самостоятельно только уже в службе Power BI, следуя приведенным ниже инструкциям.
 > 

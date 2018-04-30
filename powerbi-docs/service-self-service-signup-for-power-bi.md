@@ -1,13 +1,13 @@
 ---
-title: "Регистрация учетной записи отдельного пользователя в Power BI"
-description: "Узнайте, как зарегистрироваться в Power BI и приступить к работе с отчетами и визуальными элементами для личных нужд."
+title: Регистрация учетной записи отдельного пользователя в Power BI
+description: Узнайте, как зарегистрироваться в Power BI и приступить к работе с отчетами и визуальными элементами для личных нужд.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/02/2017
 ms.service: powerbi
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Регистрация учетной записи отдельного пользователя в Power BI
 Узнайте, как зарегистрироваться в Power BI и приступить к работе с отчетами и визуальными элементами для личных нужд.
@@ -68,7 +68,7 @@ Power BI может выступать в качестве вашего личн
 Самый быстрый способ зарегистрироваться в службе Power BI — создать бесплатную учетную запись. За ее использование не взимается никакой платы, и вы получаете возможность ознакомиться с различными функциями службы.
 
 > [!NOTE]
-> Если вы получаете сообщение, что мы вас уже знаем, попробуйте перейти по адресу https://app.powerbi.com и выполнить вход.
+> Если появится сообщение, что мы вас уже знаем, попробуйте перейти по адресу https://app.powerbi.com и войти в систему.
 > 
 > 
 
@@ -88,7 +88,7 @@ Power BI может выступать в качестве вашего личн
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Перейдите по ссылке в нем, чтобы подтвердить свой адрес электронной почты. В результате вы вернетесь на страницу регистрации. Вам может потребоваться указать дополнительные сведения о себе.
-7. Вы перейдете по адресу https://app.powerbi.com, где сможете приступить к работе со службой Power BI в качестве бесплатного пользователя.
+7. Вы перейдете в https://app.powerbi.com, где сможете приступить к работе со службой Power BI в качестве бесплатного пользователя.
 
 ### <a name="what-this-looks-like-within-the-service"></a>Внешний вид и интерфейс службы
 Чтобы при работе со службой убедиться в том, что у вас бесплатная учетная запись, нажмите на значок **шестеренки** и выберите **Управление личным хранилищем**.

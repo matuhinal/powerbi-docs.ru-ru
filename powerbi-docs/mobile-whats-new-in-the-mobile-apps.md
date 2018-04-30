@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -29,6 +29,17 @@ ms.lasthandoff: 03/28/2018
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](desktop-latest-update.md)  
 * [Новые возможности службы Power BI](service-whats-new.md)  
+
+## <a name="april-2018"></a>Апрель 2018 г.
+
+### <a name="mobile-drill-down-and-drill-up"></a>Масштабирование содержимого на мобильных устройствах
+
+Теперь вы можете масштабировать содержимое, чтобы ознакомиться с визуальными элементами отчета на мобильном устройстве. Для доступа к этой новой функции коснитесь с задержкой визуального элемента отчета, чтобы открыть меню всплывающих подсказок, а затем нажмите кнопку детализации для изучения данных.
+
+### <a name="persistent-filters"></a>Постоянные фильтры
+
+Мы недавно обновили срезы и фильтры отчетов, чтобы они автоматически сохранялись из Power BI в Интернете в мобильное приложение Power BI. Теперь фильтры и срезы, заданные в мобильном приложении, будут автоматически сохраняться в Power BI в Интернете.
+
 
 ## <a name="march-2018"></a>Март 2018 г.
 

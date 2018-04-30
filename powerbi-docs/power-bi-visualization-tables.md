@@ -1,29 +1,29 @@
 ---
-title: "Руководство. Визуализации таблиц в отчетах и на панелях мониторинга Power BI"
-description: "Руководство по работе с визуализациями таблиц в отчетах и на панелях мониторинга Power BI, включая способы изменения ширины столбцов."
+title: Визуализации таблиц в отчетах и на панелях мониторинга Power BI (руководство)
+description: Руководство по работе с визуализациями таблиц в отчетах и на панелях мониторинга Power BI, включая способы изменения ширины столбцов.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Работа с таблицами в отчетах и на информационных панелях Power BI (руководство)
 Таблица — это сетка, содержащая связанные данные в логически упорядоченных строках и столбцах. Она также может содержать заголовки и строку с итогами. Таблицы хорошо подходят для количественного сравнения, где можно посмотреть разные значения одной категории. Например, в этой таблице показаны 5 разных мер **категории**.
@@ -69,15 +69,21 @@ ms.lasthandoff: 02/24/2018
 
 * Попробуйте отформатировать сетку таблицы. Здесь мы добавили синюю вертикальную сетку, пространство для строк и немного увеличили размер контура и текста.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * Для заголовков столбцов мы изменили цвет фона, добавили контур и увеличили размер шрифта. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* Вот так выглядит наша окончательная таблица после применения дополнительных параметров форматирования: Так как параметров форматирования очень много, лучше всего начать с простой таблицы. Откройте панель форматирования ![](media/power-bi-visualization-tables/power-bi-format.png) и изучите ее. 
+
+* Кроме того, вы можете применять форматирование к отдельным столбцам и заголовкам столбцов. Начните, развернув элемент **Форматирование поля** и выбрав столбец для форматирования в раскрывающемся списке. В зависимости от значения столбца, элемент "Поле форматирования" позволяет вам настраивать отображаемые единицы, цвет шрифта, число десятичных разрядов, фон, выравнивание и многое другое. Изменив параметры, решите, следует ли применять эти же параметры к заголовку и строке итогов.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* Вот так выглядит наша окончательная таблица после применения дополнительных параметров форматирования: Так как параметров форматирования очень много, лучше всего начать с со стандартного форматирования. Откройте панель форматирования ![](media/power-bi-visualization-tables/power-bi-format.png) и изучите ее. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

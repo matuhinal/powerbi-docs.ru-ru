@@ -1,6 +1,6 @@
 ---
-title: Копирование отчета Power BI
-description: Создание отчета Power BI из другого отчета.
+title: Копирование отчета в службе Power BI
+description: Создание отчета Power BI из другого отчета в службе Power BI.
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>Создание нового отчета из существующего отчета
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Создание отчета из существующего (копирование отчета)
 Возможно, у вас есть отчет, который уже подключается к набору данных, и в нем есть визуальные элементы, которые вы хотите использовать снова или изменить.  В этом случае вы можете просто скопировать существующий отчет в качестве основы для нового.  Для этого выполните указанные ниже действия.
 
 1. [Открыть отчет](service-report-open.md).
@@ -47,3 +47,5 @@ ms.lasthandoff: 03/28/2018
 [Создание новых визуализаций](power-bi-report-add-visualizations-ii.md)
 
 [Удаление ненужных визуализаций](service-delete.md)
+
+[Представление отчетов в Power BI Desktop](desktop-report-view.md)

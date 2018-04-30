@@ -1,31 +1,49 @@
 ---
-title: "Вебинары о Power BI"
-description: "Вебинары о Power BI"
+title: Вебинары о Power BI
+description: Вебинары о Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/20/2018
 ms.author: maikelson
-ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
 Зарегистрируйтесь для просмотра предстоящих вебинаров или просмотра по запросу записанных сеансов.
+
+## <a name="upcoming-webinars"></a>Предстоящие вебинары
+
+Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
+
+**[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Серия вебинаров о внедрении платформы Power BI)
+<br>Авторы: Ману Канварпал (Manu Kanwarpal) и Пол Хенвуд (Paul Henwood)
+<br>*Март, апрель и май, 2018 г., 9:00 по тихоокеанскому времени, 24:00 по восточному поясному*
+
+Планируйте эффективное развертывание Power BI для своей организации и изучите нюансы эффективного управления приложениями по модели "программное обеспечение как услуга" (SaaS). Этот вебинар состоит из 5 частей и раскрывает потенциал Power BI для вашей организации.
+
+[Зарегистрироваться, чтобы посмотреть вебинар 1 мая. Part 5 — Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Часть 5. Развертывание: успешное развертывание Power BI)
+<br>[Зарегистрироваться и начать просмотр. Part 4 — Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Часть 4. Безопасность: защита данных с помощью Power BI)
+<br>[Зарегистрироваться и начать просмотр. Part 3 — Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Часть 3. Управление услугами: сведения об управлении услугами Power BI)
+<br>[Зарегистрироваться и начать просмотр. Part 2 — Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Часть 2. Система управления: управление использованием Power BI)
+<br>[Зарегистрироваться и начать просмотр. Part 1 — Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Часть 1. Реализация: реализация культуры принятия решений на основе данных)
+
+>[Посетите предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="featured-webinars"></a>Популярные вебинары
 
@@ -35,34 +53,23 @@ ms.lasthandoff: 03/02/2018
 <br>Автор: Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**Привлекательный дизайн — семь советов по улучшению визуализации**
-<br>Автор: Миранда Ли (Miranda Li)
-<br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
+**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Рекомендации по использованию Power BI: советы и инструменты от владельцев PowerBI.Tips)
+<br>Авторы: Майк Карло (Mike Carlo) и Сет Бауэр (Seth Bauer)
+<br>[Смотреть сейчас](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **Принципы навигации по панели мониторинга Power BI за 20 минут**
 <br>Автор: Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Simply Compelling — Tips for Better Visualization Design** (Привлекательный дизайн — советы по улучшению визуализации)
+<br>Автор: Миранда Ли (Miranda Li)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
 **Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI).
 <br>Авторы: Карлос Отеро (Carlos Otero) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 >[Просмотрите библиотеку вебинаров Power BI по запросу от экспертов нашего сообщества](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-## <a name="upcoming-webinars"></a>Предстоящие вебинары
-
-Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
-
-**Серия вебинаров по платформе внедрения Power BI. Часть 1 — внедрение. Внедрение управляемых данными региональных параметров**
-<br>Автор: Ману Канварпал (Manu Kanwarpal)
-<br>*8 марта, 9:00 по тихоокеанскому времени, 24:00 по восточному поясному времени*
-
-Переключите образ мышления вашей организации на язык и региональные параметры, управляемые данными, и зарегистрируйтесь на ряд веб-семинаров, обеспечивающих платформу внедрения Power BI от корпорации Майкрософт. Самостоятельное внедрение бизнес-аналитики (BI) является сложной задачей, и получение инструментов — только первый шаг на этом пути. Для успешного внедрения требуются изменения в людях, процессах и технологиях.
-Этот вебинар является первым в серии из 5 частей и раскрывает потенциал Power BI для вашей организации.
-
-[Зарегистрироваться для просмотра 8 марта](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
-
->[Посетите предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="on-demand-webinars"></a>Вебинары по запросу
 
@@ -84,7 +91,7 @@ ms.lasthandoff: 03/02/2018
 <br>Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
-**Applied Intelligence for Sales & Service** (Применяемая аналитика в сфере продаж и обслуживания).
+**Applied Intelligence for Sales & Services** (Применяемая аналитика в сфере продаж и обслуживания)
 <br>Автор: Эд Бобрин (Ed Bobrin) из Avanade
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
@@ -96,27 +103,50 @@ ms.lasthandoff: 03/02/2018
 <br>Авторы: Патрик МакГарри (Patrick McGarry) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
-### <a name="advanced-topics"></a>Дополнительные разделы ###
+### <a name="community"></a>Сообщество ###
 
-**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Серия вебинаров по Office 365 для специалистов в сфере финансов. Серия 2. Автоматическое создание отчетов о регулярных платежах и обеспечение самостоятельной аналитики)
-<br>Авторы: Марк Траверсо (Mark Traverso) и Мигель Мартинес (Miguel Martinez)
-<br>[Зарегистрироваться и начать просмотр](https://aka.ms/Office365FinanceProsPBI)
+**Storytelling with your data and Power BI** (Сведения о данных и Power BI)
+<br>Автор: Тристан Малерб (Tristan Malherbe)
+<br>[Смотреть сейчас](https://www.youtube.com/watch?v=egk0suekwHo)
 
-**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure** (Как реализовать успешную стратегию управления данными, которая поможет обеспечить безопасность в организации)
-<br>Автор: Аджай Анандан (Ajay Anandan)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+**Practical DAX for Power BI** (Практическое использование DAX для Power BI)
+<br>Автор: Фил Симарк (Phil Seamark)
+<br>[Смотреть сейчас](https://www.youtube.com/watch?v=1fGfqzS37qs)
+
+**Developing with Power BI Embedding – The April 2018 Update** (Разработка с внедрением Power BI (обновление за апрель 2018 года))
+<br>Автор: Тед Паттисон (Ted Pattison)
+<br>[Смотреть сейчас](https://www.youtube.com/watch?v=swnGlrRy588)
 
 **Power BI security deep dive** (Подробный обзор безопасности в Power BI)
 <br>Автор: Каспер де Йонге (Kasper de Jonge)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Accelerating modern BI adoption with Power BI Premium** (Ускорение перехода на современную бизнес-аналитику с Power BI Premium)
-<br>Авторы: Сируи Сан (Sirui Sun) и Мигель Мартинес (Miguel Martinez)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
 **Спросите у партнера: разработка пользовательских визуальных элементов для Power BI**
 <br>Автор: Тед Паттисон (Ted Pattison)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+
+### <a name="advanced-topics"></a>Дополнительные разделы ###
+
+**Advanced Analytics with Excel and Power BI** (Углубленная аналитика с Excel и Power BI)
+<br>Авторы: Нагасаикиран Камбхампати (Nagasaikiran Kambhampati) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться для просмотра](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
+<br>[Загрузить начальный набор расширенной аналитики](https://aka.ms/pbiaawebinar)
+
+**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Серия вебинаров по Office 365 для специалистов в сфере финансов. Серия 2. Автоматическое создание отчетов о регулярных платежах и обеспечение самостоятельной аналитики)
+<br>Авторы: Марк Траверсо (Mark Traverso) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://aka.ms/Office365FinanceProsPBI)
+
+**Be a Full Stack Power BI Jedi – A walkthrough of Power BI most advanced features through Star Wars data** (Комплексное использование Power BI: обзор дополнительных возможностей Power BI на примере данных Star Wars)
+<br>Автор: Гил Равив (Gil Raviv)
+<br>[Смотреть сейчас](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
+
+**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure** (Как реализовать успешную стратегию управления данными, которая поможет обеспечить безопасность в организации)
+<br>Автор: Аджай Анандан (Ajay Anandan)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+
+**Accelerating modern BI adoption with Power BI Premium** (Ускорение перехода на современную бизнес-аналитику с Power BI Premium)
+<br>Авторы: Сируи Сан (Sirui Sun) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
 
 **Новые и интересные возможности Сервера отчетов Power BI**
 <br>Авторы: Риккардо Мути (Riccardo Muti), Крис Финлан (Chris Finlan) и Чинмей Джоши (Chinmay Joshi)

@@ -1,15 +1,15 @@
 ---
-title: "Как перенести содержимое коллекции рабочих областей Power BI в Power BI"
-description: "Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций."
+title: Как перенести содержимое коллекции рабочих областей Power BI в Power BI
+description: Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded
 Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций.
@@ -58,8 +58,7 @@ ms.lasthandoff: 03/08/2018
 
 > [!NOTE]
 > Этим учетным записям потребуются лицензии Power BI Pro, чтобы использовать рабочие области приложений.
-> 
-> 
+>
 
 1. Учетная запись администратора клиента.
    
@@ -71,10 +70,13 @@ ms.lasthandoff: 03/08/2018
    
     Учетные данные этой учетной записи хранятся в серверной части приложений. Эта учетная запись используется для получения токена Azure AD, используемого в интерфейсах REST API Power BI, и создания токена внедрения приложения. Эта учетная запись также должна быть учетной записью администратора рабочих областей приложений, созданных для внедрения.
    
-   > [!NOTE]
-   > Это обычная корпоративная учетная запись пользователя, которая будет использоваться для внедрения.
-   > 
-   > 
+> [!NOTE]
+> Это обычная корпоративная учетная запись пользователя, которая будет использоваться для внедрения.
+>
+
+> [!NOTE]
+> Если для вашего приложения требуется аутентификация только по токену, полученному от приложения, [свяжитесь с нами](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement).
+>
 
 ## <a name="app-registration-and-permissions"></a>Регистрация приложения и разрешения
 Приложение необходимо зарегистрировать в Azure AD и предоставить ему определенные разрешения.
@@ -126,13 +128,13 @@ ms.lasthandoff: 03/08/2018
 #### <a name="directquery-dataset--report"></a>Набор данных и отчет DirectQuery
 **Последовательность**
 
-1. Выполните вызов GET https://api.powerbi.com/v1.0/collections/ {ИД_коллекции}/workspaces/{ИД_рабочей_области}/datasets/{ИД_набора_данных}/Default.GetBoundGatewayDataSources и сохраните полученную строку подключения.
+1. Вызовите GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources и сохраните полученную строку подключения.
 2. Вызовите API скачивания PBIX-файлов из рабочей области PaaS.
 3. Сохраните PBIX-файл.
 4. Вызовите API импорта PBIX-файлов в рабочей области SaaS.
-5. Обновите строку подключения, выполнив вызов POST https://api.powerbi.com/v1.0/myorg/datasets/ {ИД_набора_данных}/Default.SetAllConnections.
-6. Получите идентификаторы шлюза и источника данных, выполнив вызов GET https://api.powerbi.com/v1.0/myorg/datasets/{ИД_набора_данных}/Default.GetBoundGatewayDataSources.
-7. Обновите учетные данные пользователя, выполнив вызов PATCH https://api.powerbi.com/v1.0/myorg/gateways/{ИД_шлюза}/datasources/{ИД_источника_данных}.
+5. Обновите строку подключения, вызвав POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections.
+6. Получите идентификаторы GW и источника данных, вызвав GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources.
+7. Обновите учетные данные пользователя, вызвав PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}.
 
 #### <a name="old-dataset--reports"></a>Устаревшие наборы данных и отчеты
 Это наборы данных и отчеты, созданные до октября 2016 года. API скачивания PBIX-файлов не поддерживает PBIX-файлы, которые были переданы до октября 2016 года.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/16/2018
+ms.date: 04/11/2018
 ms.author: maghan
-ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
-ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
+ms.openlocfilehash: 049ffb993e749e9cb251130438e351d8adbe3bdf
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -30,18 +30,18 @@ ms.lasthandoff: 03/17/2018
 | Техническая документация | Описание |
 | --- | --- |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Описание Power BI Premium с момента выпуска и стратегии развития этого предложения. |
-| [Planning a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) (Планирование развертывания Power BI Enterprise) |Этот технический документ содержит структурированные рекомендации для эффективного и безопасного развертывания Power BI в организации. |
+| [Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Этот документ содержит инструкции и рекомендации по планированию и развертыванию емкости Premium для четко определенных рабочих нагрузок.|
 | [How to plan capacity for embedded analytics with Power BI Premium](https://aka.ms/pbiewhitepaper) (Как планировать емкость для внедренной аналитики с помощью Power BI Premium) |В этом документе содержатся рекомендации для разработчиков приложений и независимых поставщиков программного обеспечения, которые помогут определить оптимальную емкость для их бизнеса. |
-|[Distribute Power BI content to external guest users using Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper) (Распространение содержимого Power BI для внешних пользователей-гостей с помощью Azure Active Directory B2B)|В этом документе описывается, как распространять содержимое для пользователей вне организации при помощи интеграции с Azure Active Directory "бизнес — бизнес" (AAD B2B).|
+| [Planning a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) (Планирование развертывания Power BI Enterprise) |Этот технический документ содержит структурированные рекомендации для эффективного и безопасного развертывания Power BI в организации. |
+| [Руководство по планированию ресурсов для Сервера отчетов Power BI](report-server/capacity-planning.md) |В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. |
+| [Безопасность](service-admin-power-bi-security.md) |Подробные сведения о безопасности в Power BI. |
+| [Power BI и GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI может играть важную роль при обеспечении соответствия с требованиями GDPR. В этом документе описываются требования GDPR и обеспечение их соответствия с помощью Power BI. Хотя обеспечение соответствия требованиям GDPR необходимо в определенных ситуациях, описанных в этом документе, это не просто ознакомительное упражнение. Это способ усилить защиту данных и включить расширенные возможности обеспечения конфиденциальности.|
+| [Distribute Power BI content to external guest users using Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper) (Распространение содержимого Power BI для внешних пользователей-гостей с помощью Azure Active Directory B2B)|В этом документе описывается, как распространять содержимое для пользователей вне организации при помощи интеграции с Azure Active Directory "бизнес — бизнес" (AAD B2B).|
 | [Рекомендации по проектированию отчетов и визуальных элементов](power-bi-visualization-best-practices.md) |Рекомендации по проектированию отчетов в Power BI. |
 | [Углубленная аналитика с Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Описание возможностей углубленной аналитики в Power BI, включая прогнозную аналитику, пользовательские визуализации, интеграцию с R и выражения анализа данных. |
 | [Двунаправленная фильтрация](desktop-bidirectional-filtering.md) |Объясняются принципы работы двунаправленной перекрестной фильтрации в Power BI Desktop (техническая документация также описывает службы SQL Server Analysis Services 2016, так как особенности их работы аналогичны). |
 | [DirectQuery в службах SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |После доработки функция DirectQuery для SQL Server 2016 стала значительно быстрее и производительнее. Тем не менее, она также стала сложнее для понимания и реализации. |
-| [Управление](service-admin-governance.md) |Платформа для повышения окупаемости инвестиций, связанных с Power BI. |
-| [Безопасность](service-admin-power-bi-security.md) |Подробные сведения о безопасности в Power BI. |
 | [Безопасность табличной семантической модели бизнес-аналитики](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |В этом документе рассматривается модель безопасности табличной семантики бизнес-аналитики и Power BI. Вы научитесь создавать роли, реализовывать динамическую безопасность, настраивать параметры олицетворения, управлять ролями и выбирать подходящий метод подключения к моделям в контексте безопасности вашей сети. |
-| [Руководство по планированию ресурсов для Сервера отчетов Power BI](report-server/capacity-planning.md) |В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. |
-| [Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Этот документ содержит инструкции и рекомендации по планированию и развертыванию емкости Premium для четко определенных рабочих нагрузок.|
 | [Power BI и SAP BW](https://aka.ms/powerbiandsapbw)| Этот документ описывает, какую выгоду клиенты SAP могут извлечь, подключив Power BI к имеющимся у них системам SAP Business Warehouse (BW).|
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

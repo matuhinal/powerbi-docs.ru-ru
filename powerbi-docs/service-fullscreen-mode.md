@@ -1,35 +1,39 @@
 ---
-title: "Отображение панелей мониторинга, плиток на ней, страниц и визуализаций отчетов в полноэкранном режиме"
-description: "Отображение панели мониторинга, плиток на ней, визуализаций и страниц отчетов в полноэкранном режиме (*режиме ТВ*)."
+title: Отображение панелей мониторинга, плиток на ней, страниц отчетов и визуализаций в полноэкранном режиме
+description: Отображение панели мониторинга, плиток на ней, визуализаций и страниц отчетов в полноэкранном режиме (*режиме ТВ*).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Полноэкранный режим в Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>Полноэкранный режим в Power BI
 ## <a name="what-is-full-screen-mode"></a>Что такое полноэкранный режим?
 ![полноэкранный режим отображения панели мониторинга: до и после применения](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Отображайте содержимое (панели мониторинга, страницы отчетов, плитки и визуализации) так, чтобы не отвлекаться на меню и панели навигации.  Так вы можете быстро просматривать все содержимое целиком. Иногда это также называется ТВ-режимом. Функциональные возможности, доступные в полноэкранном режиме, зависят от содержимого.  
+Отображайте содержимое Power BI (панели мониторинга, страницы отчетов, плитки и визуализации) так, чтобы не отвлекаться на меню и панели навигации.  Так вы можете быстро просматривать все содержимое сразу. Иногда это также называется ТВ-режимом. Функциональные возможности, доступные в полноэкранном режиме, зависят от содержимого. 
+
+Если вы используете Power BI для мобильных устройств, [в мобильных приложениях для Windows 10 доступен полноэкранный режим](mobile-windows-10-app-presentation-mode.md). В Power BI Desktop нет полноэкранного режима для отчетов или визуализаций, но есть параметр "По размеру страницы" для [представления связей](desktop-report-view.md) и [визуальных элементов отчета в режиме фокусировки](service-focus-mode.md).
+
+ 
 
 Некоторые варианты применения полноэкранного режима:
 
@@ -70,7 +74,7 @@ ms.lasthandoff: 03/09/2018
     ![По размеру экрана](media/service-fullscreen-mode/power-bi-fit-screen.png)
    
     ![Значок "По ширине"](media/service-fullscreen-mode/power-bi-fit-width.png)       
-    Иногда полосы прокрутки не мешают, но нужно, чтобы панель мониторинга занимала всю ширину доступного пространства. Для этого нажмите кнопку **По ширине**.    
+    Иногда полосы прокрутки не мешают, но нужно, чтобы панель мониторинга занимала всю ширину доступного пространства. Нажмите кнопку **По ширине**.    
    
     ![Значок "По размеру экрана"](media/service-fullscreen-mode/power-bi-fit-to-width-new.png)
    
@@ -84,7 +88,7 @@ ms.lasthandoff: 03/09/2018
 1. Чтобы плитки панелей мониторинга и визуализации отчетов отображались в полноэкранном режиме, начните работу с ними в [режиме фокусировки](service-focus-mode.md). 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
-2. Затем выберите значок "Во весь экран" ![значок "Во весь экран"](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  для этой плитки или визуального элемента. Плитка или визуальный элемент отобразятся в полноэкранном режиме без меню или панелей навигации.
+2. Затем выберите значок "Во весь экран" ![значок "Во весь экран"](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  для этой плитки или визуального элемента. Плитка или визуальный элемент отобразятся в полноэкранном режиме без меню и панелей навигации.
    
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 

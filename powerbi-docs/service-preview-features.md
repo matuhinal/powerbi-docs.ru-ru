@@ -1,36 +1,36 @@
 ---
-title: "Включение предварительных версий функций Power BI"
-description: "Информация о включении (и отключении) предварительных версий функций Power BI."
+title: Включение предварительных версий функций Power BI
+description: Информация о включении (и отключении) предварительных версий функций Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>Испытайте предварительные версии функций Power BI
+# <a name="opt-in-for-power-bi-service-preview-features"></a>Включение предварительных версий функций Power BI
 ## <a name="what-are-preview-features"></a>Что собой представляют *предварительные версии функций*?
-В рамках улучшения Power BI ряд новых функциональных возможностей будет выпущен в качестве *предварительных версий*. Чтобы опробовать предварительные версии функций, вы можете включать и отключать их.
+В рамках улучшения службы Power BI мы выпускаем некоторые новые функции в виде *предварительных версий*. Чтобы опробовать предварительные версии функций, вы можете включать и отключать их.
 
 > [!TIP]
-> Возникли вопросы или хотите оставить отзыв? [Посетите форум сообщества Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
+> Предварительные версии функций также доступны для приложения Power BI Desktop. Дополнительные сведения см. на [форуме сообщества Power BI Desktop](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer).
 > 
 > 
 

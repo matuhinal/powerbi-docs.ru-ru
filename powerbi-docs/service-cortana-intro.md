@@ -1,5 +1,5 @@
 ---
-title: Быстрый поиск и просмотр отчетов и панелей мониторинга Power BI с помощью Кортаны
+title: Быстрый поиск и просмотр отчетов и панелей мониторинга с помощью Кортаны
 description: Использование Cortana с Power BI позволяет получать ответы от данных. Сейчас Кортана поддерживает отчеты и панели мониторинга.
 services: powerbi
 documentationcenter: ''
@@ -14,11 +14,11 @@ ms.workload: powerbi
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 11bba0ec026650e59b8757b207f5f6d596499f0a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 46be9e170b0bdfb1aa18cfcdb126a16b78c9aa9d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Быстрый поиск и просмотр данных Power BI с помощью Кортаны для Power BI
 Используйте Кортану на устройствах с Windows 10, чтобы мгновенно получать ответы на вопросы вашей организации. Благодаря интеграции с Power BI Кортана может получать важные сведения непосредственно из панелей мониторинга и отчетов Power BI. Для работы вам нужна версия Windows 10 (ноябрь 2015 г.) или более поздняя, Кортана, Power BI и доступ минимум к одному набору данных.
