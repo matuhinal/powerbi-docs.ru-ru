@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
 Локальный шлюз данных служит мостом, обеспечивая быструю и безопасную передачу данных между локальной системой (данными, которые не находятся в облаке) и службами Power BI, Microsoft Flow, Logic Apps и PowerApps.
@@ -95,6 +95,11 @@ ms.lasthandoff: 04/08/2018
 * [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
 ) сейчас не поддерживается.
 * [Веб-доступ](https://products.office.com/en-us/access) сейчас не поддерживается.
+
+## <a name="tenant-level-administration"></a>Администрирование уровня клиента 
+
+Сейчас нет единого места, где администраторы клиентов могут управлять всеми шлюзами, которые установили и настроили другие пользователи.  Если вы являетесь администратором клиента, попросите пользователей в вашей организации добавлять вас в качестве администратора для каждого шлюза, который они устанавливают. Это позволяет управлять всеми шлюзами в вашей организации на странице настройки шлюза или посредством [команд PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
+
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 Если при установке и настройке шлюза возникают проблемы, см. статью [Устранение неполадок с локальным шлюзом данных](service-gateway-onprem-tshoot.md). Если у вас проблемы с брандмауэром, см. раздел статьи об устранении неполадок, посвященный [брандмауэру или прокси-серверу](service-gateway-onprem-tshoot.md#firewall-or-proxy).
