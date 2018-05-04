@@ -1,158 +1,159 @@
 ### YamlMime:Tutorial
-title: "Визуализации"
+title: Визуализации
 metadata:
-  title: "Визуализации | Microsoft Power BI"
-  description: "Визуализации позволяют обновить данные и получить аналитику, что возможно только для передовых визуальных представлений. Это показано в данном разделе."
+  title: Визуализации | Microsoft Power BI
+  description: Визуализации позволяют обновить данные и получить аналитику, что возможно только для передовых визуальных представлений. Это показано в данном разделе.
   audience: Business User
   level: Beginner
-  nextTutorialHref: exploringdata
-  nextTutorialTitle: "Просмотр данных"
+  nextTutorialHref: exploringdata.yml
+  nextTutorialTitle: Просмотр данных
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 8ce82b4d86d6e6eb8affbe567cc606fe2cc37732
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Визуализации позволяют обновить данные и получить аналитику, что возможно только для передовых визуальных представлений. В этом разделе интерактивного курса обучения **Power BI** объясняется, как начать их использовать.\n"
-- title: "Общие сведения о визуальных элементах в Power BI"
+  content: >
+    Визуализации позволяют обновить данные и получить аналитику, что возможно только для передовых визуальных представлений. В этом разделе интерактивного курса обучения **Power BI** объясняется, как начать их использовать.
+- title: Общие сведения о визуальных элементах в Power BI
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/SYk_gWrtKvM?rel=0]
 
 
     [!INCLUDE [](includes/3-1-intro-visualizations.md)]
-- title: "Создание и настройка простых визуализаций"
+- title: Создание и настройка простых визуализаций
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/IkJda4O7oGs?rel=0]
 
 
     [!INCLUDE [](includes/3-2-create-customize-simple-visualizations.md)]
-- title: "Смешанные диаграммы"
+- title: Смешанные диаграммы
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/lnv66cTZ5ho?rel=0]
 
 
     [!INCLUDE [](includes/3-3-create-combination-charts.md)]
-- title: "Срезы"
+- title: Срезы
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/zHUjz_0iZf0?rel=0]
 
 
     [!INCLUDE [](includes/3-4-create-slicers.md)]
-- title: "Визуализации карт"
+- title: Визуализации карт
   durationInMinutes: 11
   content: >
     > [!Video https://www.youtube.com/embed/ajTPGNpthcg?rel=0]
 
 
     [!INCLUDE [](includes/3-5-create-map-visualizations.md)]
-- title: "Матрицы и таблицы"
+- title: Матрицы и таблицы
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/9xkErXYZQkU?rel=0]
 
 
     [!INCLUDE [](includes/3-6-create-tables-matrixes.md)]
-- title: "Точечные диаграммы"
+- title: Точечные диаграммы
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/xLQ_ZVScI60?rel=0]
 
 
     [!INCLUDE [](includes/3-7-create-scatter-charts.md)]
-- title: "Каскадная и воронкообразная диаграммы"
+- title: Каскадная и воронкообразная диаграммы
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/maTzOJSRB3g?rel=0]
 
 
     [!INCLUDE [](includes/3-8-create-waterfall-funnel-charts.md)]
-- title: "Датчики и карточки с одним числом"
+- title: Датчики и карточки с одним числом
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/xmja6EpqaO0?rel=0]
 
 
     [!INCLUDE [](includes/3-9-create-gauges-cards.md)]
-- title: "Изменение цветов на диаграммах и визуальных элементах"
+- title: Изменение цветов на диаграммах и визуальных элементах
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/oNME83EAvLw?rel=0]
 
 
     [!INCLUDE [](includes/3-9a-modifying-colors.md)]
-- title: "Фигуры, текстовые поля и изображения"
+- title: Фигуры, текстовые поля и изображения
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/_3q6VEBhGew?rel=0]
 
 
     [!INCLUDE [](includes/3-10-create-shapes-images.md)]
-- title: "Форматирование и макет страницы"
+- title: Форматирование и макет страницы
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/5tg-OXzxe2g?rel=0]
 
 
     [!INCLUDE [](includes/3-11-page-layout-formatting.md)]
-- title: "Групповые взаимодействия между визуализациями"
+- title: Групповые взаимодействия между визуализациями
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/N_xYsCbyHPw?rel=0]
 
 
     [!INCLUDE [](includes/3-11a-create-interaction-between-visualizations.md)]
-- title: "Дублирование страницы отчета"
+- title: Дублирование страницы отчета
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/UOKbxTXZrWw?rel=0]
 
 
     [!INCLUDE [](includes/3-11b-duplicate-page.md)]
-- title: "Просмотр категорий без данных"
+- title: Просмотр категорий без данных
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/rsUMVJAIH00?rel=0]
 
 
     [!INCLUDE [](includes/3-11c-display-empty-categories.md)]
-- title: "Параметры формирования сводных данных и категорий"
+- title: Параметры формирования сводных данных и категорий
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/Co2z9b-s_yM?rel=0]
 
 
     [!INCLUDE [](includes/3-11d-customize-summarization-categorization.md)]
-- title: "Z-порядок"
+- title: Z-порядок
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/MkiiNFI2Ve0?rel=0]
 
 
     [!INCLUDE [](includes/3-11f-arrange-visual-zorder.md)]
-- title: "Иерархии и детализация визуальных элементов"
+- title: Иерархии и детализация визуальных элементов
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/q8WDUAiTGeU?rel=0]
 
 
     [!INCLUDE [](includes/3-11g-visual-hierarchies-drilling.md)]
-- title: "Интеграция R в Power BI Desktop"
+- title: Интеграция R в Power BI Desktop
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/pV78e9aYHXk?rel=0]
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Отличная работа. Вы завершили раздел **Визуализации** **интерактивного курса обучения**. Теперь вы можете перейти к следующему руководству — **Просмотр данных**.\0"
+- content: Отличная работа. Вы завершили раздел **Визуализации** **интерактивного курса обучения**. Теперь вы можете перейти к следующему руководству — **Просмотр данных**.

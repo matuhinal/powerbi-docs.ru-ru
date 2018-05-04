@@ -1,74 +1,75 @@
 ### YamlMime:Tutorial
-title: "Моделирование"
+title: Моделирование
 metadata:
-  title: "Моделирование | Microsoft Power BI"
-  description: "Подключайтесь к нескольким источникам данных и объединяйте их для создания уникальной модели данных, соответствующей вашим требованиям."
+  title: Моделирование | Microsoft Power BI
+  description: Подключайтесь к нескольким источникам данных и объединяйте их для создания уникальной модели данных, соответствующей вашим требованиям.
   audience: Business User
   level: Beginner
-  nextTutorialHref: visualizations
-  nextTutorialTitle: "Визуализации"
+  nextTutorialHref: visualizations.yml
+  nextTutorialTitle: Визуализации
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 5b09b8365e59d8d89b30e4a01237f7d53559896f
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 302dcaa8f76b9cd767ec7c3349abaea3cb0f8548
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "**Моделирование ** в **Power BI** позволяет подключаться к нескольким источникам данных и объединять их для создания уникальной модели данных, соответствующей вашим требованиям.\n"
-- title: "Общие сведения о моделировании данных"
+  content: >
+    **Моделирование ** в **Power BI** позволяет подключаться к нескольким источникам данных и объединять их для создания уникальной модели данных, соответствующей вашим требованиям.
+- title: Общие сведения о моделировании данных
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/VM1K15aEnm4?rel=0]
 
 
     [!INCLUDE [](includes/2-1-intro-modeling-data.md)]
-- title: "Управление связями данных"
+- title: Управление связями данных
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/MqNX5olPGGI?rel=0]
 
 
     [!INCLUDE [](includes/2-2-manage-data-relationships.md)]
-- title: "Создание вычисляемых столбцов"
+- title: Создание вычисляемых столбцов
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/GarBXef0Vew?rel=0]
 
 
     [!INCLUDE [](includes/2-3-create-calculated-columns.md)]
-- title: "Оптимизация моделей данных"
+- title: Оптимизация моделей данных
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/tDcrfnjjlgk?rel=0]
 
 
     [!INCLUDE [](includes/2-4-optimize-data-models.md)]
-- title: "Создание вычисляемых мер"
+- title: Создание вычисляемых мер
   durationInMinutes: 14
   content: >
     > [!Video https://www.youtube.com/embed/yn2bXVQJLx8?rel=0]
 
 
     [!INCLUDE [](includes/2-5-create-calculated-measures.md)]
-- title: "Создание вычисляемых таблиц"
+- title: Создание вычисляемых таблиц
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/aKX1E3krl4I?rel=0]
 
 
     [!INCLUDE [](includes/2-6-create-calculated-tables.md)]
-- title: "Изучение данных на основе времени"
+- title: Изучение данных на основе времени
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/MNAaHw4PxzE?rel=0]
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Вы сегодня в ударе. Продолжайте изучать Power BI! Вы завершили раздел **Моделирование** интерактивного курса обучения для Microsoft Power BI. Следующая тема — визуализации.\0"
+- content: Вы сегодня в ударе. Продолжайте изучать Power BI! Вы завершили раздел **Моделирование** интерактивного курса обучения для Microsoft Power BI. Следующая тема — визуализации.
