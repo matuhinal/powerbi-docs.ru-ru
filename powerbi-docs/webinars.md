@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/20/2018
+ms.date: 04/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -42,6 +42,14 @@ ms.lasthandoff: 04/23/2018
 <br>[Зарегистрироваться и начать просмотр. Part 3 — Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Часть 3. Управление услугами: сведения об управлении услугами Power BI)
 <br>[Зарегистрироваться и начать просмотр. Part 2 — Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Часть 2. Система управления: управление использованием Power BI)
 <br>[Зарегистрироваться и начать просмотр. Part 1 — Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Часть 1. Реализация: реализация культуры принятия решений на основе данных)
+
+**Дополнительные сведения о Power BI Embedded за 20 минут**
+<br>Авторы: Меган Ассарейн (Megan Asarrane) и Колин Мерфи (Colin Murphy)
+<br>*23 марта 2018, 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
+
+Этот вебинар содержит вводные сведения о Power BI Embedded. Пройдя его, пользователи смогут понять, что собой представляет Power BI Embedded, какие дальнейшие действия предпринять для начала работы с продуктом и где найти справку и вспомогательные ресурсы.
+
+[Зарегистрироваться для просмотра 23 мая](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
 
 >[Посетите предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -132,8 +140,9 @@ ms.lasthandoff: 04/23/2018
 <br>[Зарегистрироваться для просмотра](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Загрузить начальный набор расширенной аналитики](https://aka.ms/pbiaawebinar)
 
-**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Серия вебинаров по Office 365 для специалистов в сфере финансов. Серия 2. Автоматическое создание отчетов о регулярных платежах и обеспечение самостоятельной аналитики)
-<br>Авторы: Марк Траверсо (Mark Traverso) и Мигель Мартинес (Miguel Martinez)
+**Серия вебинаров по Office 365 для финансовых специалистов**
+<br>Авторы: Марк Траверсо (Mark Traverso), Карлос Отейро (Carlos Otero), Джонни Томас (Johnnie Thomas), Аманда Кофски (Amanda Cofsky) и Мигель Мартинес (Miguel Martinez)
+<br>Получите полезные советы и рекомендации по повышению эффективности повседневной работы с помощью Office 365.
 <br>[Зарегистрироваться и начать просмотр](https://aka.ms/Office365FinanceProsPBI)
 
 **Be a Full Stack Power BI Jedi – A walkthrough of Power BI most advanced features through Star Wars data** (Комплексное использование Power BI: обзор дополнительных возможностей Power BI на примере данных Star Wars)
