@@ -1,6 +1,6 @@
 ---
 title: Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
-description: Отчеты Power BI можно подключать к различным источникам данных. В зависимости от способа использования данных доступны различные источники данных.
+description: Отчеты Power BI (PBIX) можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
-Отчеты Power BI можно подключать к различным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Источники данных для отчетов Power BI (PBIX) в решении "Сервер отчетов Power BI"
+Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
 
-Эти источники данных относятся к отчетам Power BI, которые используются в решении "Сервер отчетов Power BI" Сведения об источниках данных, которые поддерживаются для отчетов с разбивкой на страницы, см. в разделе [Источники данных, поддерживаемые службами Reporting Services (SSRS)](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Эти источники данных относятся к отчетам Power BI, которые используются в решении "Сервер отчетов Power BI" Сведения об источниках данных, которые поддерживаются для отчетов с разбивкой на страницы (RDL), см. в разделе [Источники данных, поддерживаемые службами Reporting Services (SSRS)](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
-> Для настройки запланированного обновления должны поддерживаться все источники данных в отчете Power BI Desktop.
-> 
-> 
+> Для настройки запланированного обновления в отчете Power BI Desktop должны поддерживаться все источники данных.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Список поддерживаемых источников данных
 
@@ -216,7 +215,7 @@ ms.lasthandoff: 04/03/2018
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Теперь, когда источник данных выбран, воспользуйтесь содержащимися в нем данными, чтобы [создать отчет](quickstart-create-powerbi-report.md).
+Подключившись к источнику данных, воспользуйтесь содержащимися в нем данными, чтобы [создать отчет Power BI](quickstart-create-powerbi-report.md).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

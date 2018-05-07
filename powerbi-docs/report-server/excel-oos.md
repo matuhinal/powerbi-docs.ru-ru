@@ -1,39 +1,32 @@
 ---
-title: "Настройка сервера отчетов для размещения книг Excel с использованием Office Online Server (OOS)"
-description: "С помощью решения \"Сервер отчетов Power BI\" бизнес-пользователи теперь могут просматривать книги Excel, а не только отчеты Power BI на веб-портале."
+title: Размещение книг Excel с помощью решения Office Online Server (OOS) в решении "Сервер отчетов Microsoft Power BI"
+description: Кроме просмотра отчетов Power BI на веб-портале в решении "Сервер отчетов Microsoft Power BI" можно размещать книги Excel с помощью Office Online Server (OOS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Настройка сервера отчетов для размещения книг Excel с использованием Office Online Server (OOS)
-С помощью решения "Сервер отчетов Power BI" бизнес-пользователи теперь могут просматривать книги Excel, а не только отчеты Power BI на веб-портале. Это решение позволяет централизованно публиковать и просматривать данные самостоятельной бизнес-аналитики Майкрософт.
+Кроме просмотра отчетов Power BI на веб-портале в решении "Сервер отчетов Microsoft Power BI" можно размещать книги Excel с помощью [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Сервер отчетов можно использовать как единое расположение для публикации и просмотра самостоятельного содержимого Microsoft BI.
 
-> [!NOTE]
-> Это предварительная версия функции, включенная в предварительный выпуск за август 2017 г. Дополнительные сведения см. в статье [Новые возможности сервера отчетов Power BI](whats-new.md).
-> 
-> 
-
-![Просмотр отчетов Excel на веб-портале сервера отчетов.](media/excel-oos/excel-in-pbirs.png)
-
-Это возможно при использовании [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS).
+![Просмотр отчетов Excel на веб-портале сервера отчетов](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Подготовка сервера к работе с Office Online Server
 Выполните описанные ниже процедуры на сервере, где будет выполняться Office Online Server. Это должен быть сервер Windows Server 2012 R2 или Windows Server 2016. Для работы Windows Server 2016 требуется выпуск Office Online Server за апрель 2017 г. или более поздняя версия.

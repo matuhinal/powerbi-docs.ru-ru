@@ -1,28 +1,28 @@
 ---
-title: "Общие сведения о Power BI для клиентов из государственных организаций США"
-description: "Ознакомьтесь с возможностями и ограничениями службы Power BI для государственных организаций США"
+title: Общие сведения о Power BI для клиентов из государственных организаций США
+description: Ознакомьтесь с возможностями и ограничениями службы Power BI для государственных организаций США
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b3682deb1897647a7de6f32dc87a4d7ed8bc2c9f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -61,6 +61,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="limitations-of-power-bi-us-government"></a>Ограничения Power BI для государственных организаций США
 Некоторые функции, доступные в коммерческой версии **службы Power BI**, *отсутствуют* в версии **службы Power BI** для государственных организаций США. Команда разработчиков Power BI прилагает все усилия, чтобы сделать эти функции доступными для клиентов из государственных организаций США. Когда они станут доступными, эта статья будет обновлена.
 
+* **Внедрить в SharePoint Online**. Вы не можете внедрять содержимого в SharePoint Online с помощью веб-части Power BI.
 * Служба **Power BI для государственных организаций США** доступна только в рамках лицензии **Pro**. Все ссылки на лицензии Power BI (бесплатные) на портале администрирования (или как пользователи) выполняются в коммерческой облачной службе Power BI.
 * **Аудит.** Аудит недоступен в Центре безопасности и соответствия требованиям на портале Office 365.
 * **Содержимое Power BI в Cortana**. Результаты из Power BI не будут отображаться в результатах поиска Cortana. Это относится к результатам поиска по содержимому Power BI (панели мониторинга, отчеты, приложения), а также к оптимизированным страницам Cortana с отчетами по отдельным ключевым словам.

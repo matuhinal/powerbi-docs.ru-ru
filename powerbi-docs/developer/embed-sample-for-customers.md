@@ -1,15 +1,15 @@
 ---
-title: "Внедрение содержимого Power BI в приложение для клиентов"
-description: "Узнайте, как выполнить интеграцию (внедрение) панели мониторинга, плитки или отчета в веб-приложение с помощью интерфейсов API Power BI для клиентов."
+title: Внедрение содержимого Power BI в приложение для клиентов
+description: Узнайте, как выполнить интеграцию (внедрение) панели мониторинга, плитки или отчета в веб-приложение с помощью интерфейсов API Power BI для клиентов.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Внедрение панели мониторинга, плитки или отчета Power BI в приложение
 Узнайте, как интегрировать (внедрить) панель мониторинга, плитку или отчет в веб-приложение с помощью пакета SDK для .NET в Power BI и API JavaScript для Power BI для клиентов. Как правило, это сценарий ISV.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 Необходимо, чтобы создаваемый токен внедрения можно было использовать из API JavaScript. Токен внедрения будет связан только с внедряемым элементом. Это означает, что при каждом внедрении части содержимого Power BI нужно создавать отдельный токен внедрения. Дополнительные сведения, включая информацию о том, какой уровень **accessLevel** нужно использовать, см. в статье [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) (Интерфейс API GenerateToken).
 
 > [!IMPORTANT]
-> Так как токены внедрения предназначены только для тестирования при разработке, количество таких токенов, создаваемых основной учетной записью Power BI, ограничено. Для сценариев внедрения в рабочей среде [необходимо приобрести емкость](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). В этом случае количество создаваемых токенов внедрения не ограничено.
+> Так как токены внедрения предназначены только для тестирования при разработке, количество таких токенов, создаваемых основной учетной записью Power BI, ограничено. Для сценариев внедрения в рабочей среде [необходимо приобрести емкость](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). В этом случае количество создаваемых токенов внедрения не ограничено. Выберите [Получить доступные функции](https://msdn.microsoft.com/en-us/library/mt846473.aspx), чтобы проверить использованное число свободных токенов внедрения.
 
 Пример можно найти в файле **Controllers\HomeController.cs** [примера внедрения для организации](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
