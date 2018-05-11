@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Использование тем отчетов в Power BI Desktop (предварительная версия)
 С помощью **тем отчета** ко всему отчету можно применить требуемую цветовую схему, например корпоративные цвета, цвета времен года или другие цветовые схемы. При применении **тем отчета** для всех визуальных элементов в отчете используются цвета из выбранной схемы (c некоторыми исключениями, описанными далее в этой статье).
@@ -184,7 +184,7 @@ Power BI Desktop сообщит об успешной загрузке файл�
 | areaChart |
 | barChart |
 | basicShape |
-| карта |
+| карточка |
 | clusteredBarChart |
 | clusteredColumnChart |
 | columnChart |

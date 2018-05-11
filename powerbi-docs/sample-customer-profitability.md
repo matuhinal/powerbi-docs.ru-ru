@@ -1,5 +1,5 @@
 ---
-title: 'Руководство. Пример "Рентабельность клиента" для Power BI: обзор'
+title: 'Пример "Рентабельность клиента" для Power BI: обзор'
 description: 'Пример "Рентабельность клиента" для Power BI: обзор'
 services: powerbi
 documentationcenter: ''
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 63cb0e8c3072c7e748e1829a46c01340b9ceea61
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: обзор
 
@@ -187,7 +187,7 @@ ms.lasthandoff: 04/18/2018
 2. Не выбирая визуализации на странице отчета, разверните область фильтров справа, если она еще не развернута. В области "Фильтры" должны отобразиться только фильтры уровня страницы.  
 
    ![Фильтры уровня страницы](media/sample-customer-profitability/power-bi-filters.png)
-3. Найдите фильтр для **отрасли** и щелкните стрелку, чтобы развернуть список. Теперь добавим фильтр страницы для сбыта. Сначала очистите все выделения, сняв флажок **Выделить все**. Затем установите только флажок **Распределение**.  
+3. Найдите фильтр для **отрасли** и щелкните стрелку, чтобы развернуть список. Теперь добавим фильтр страницы для отрасли распространения. Сначала очистите все выделения, сняв флажок **Выделить все**. Затем установите только флажок **Распределение**.  
 
    ![Фильтры для сбыта](media/sample-customer-profitability/customer7.png)
 4. На диаграмме с областями Gross margin by Month and Executive Name (Валовая прибыль по месяцу и имени руководителя) видно, что клиенты из данной отрасли есть только у Valery и Tina, а Valery работает с этой отраслью только с июня по ноябрь.   
