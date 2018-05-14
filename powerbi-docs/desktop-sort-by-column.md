@@ -1,13 +1,13 @@
 ---
-title: "Сортировка по столбцу в Power BI Desktop"
-description: "Сортировка по столбцу в Power BI Desktop"
+title: Сортировка по столбцу в Power BI Desktop
+description: Сортировка по столбцу в Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 05/01/2017
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: cb23034c207bd272f716e8074bb3702ea30e893a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: acd621a1763e29fc66a017294cc4d63008900a4f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Сортировка по столбцу в Power BI Desktop
 В **Power BI Desktop** и **службе Power BI** можно изменять вид визуального элемента, выполнив сортировку по разным полям данных. Изменив порядок сортировки визуального элемента, вы можете выделить информацию, которую необходимо передать, и убедиться, что визуальный элемент отражает сведения о тенденции или об акценте, на которые нужно обратить внимание.
