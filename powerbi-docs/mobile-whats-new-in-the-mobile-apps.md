@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -271,7 +271,7 @@ ms.lasthandoff: 04/26/2018
 #### <a name="android-devices"></a>Устройства Android
 **Предварительная версия: управление мобильным приложением Intune.** Поддержка Power BI для Microsoft Intune Mobile Application Manager (MAM) теперь доступна в предварительной версии для пользователей Power BI Pro на устройствах Android. 
 
-**Избранное.** Отмечайте тегами избранные панели мониторинга на устройстве Android и просматривайте все [избранные панели мониторинга Power BI, а также мобильные отчеты и ключевые показатели эффективности Reporting Services](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) в одном удобном расположении. 
+**Избранное.** Отмечайте тегами избранные панели мониторинга на устройстве Android и просматривайте все [избранные панели мониторинга Power BI, а также мобильные отчеты и ключевые показатели эффективности Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) в одном удобном расположении. 
 
 #### <a name="ios-devices"></a>Устройства iOS
 **Ссылки.** Отныне URL-адреса на плитках и в визуализациях активны и открываются в браузере.

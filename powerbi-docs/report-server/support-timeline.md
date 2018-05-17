@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Сроки предоставления поддержки для сервера отчетов Power BI
 Выпуск сервера отчетов Power BI ожидается несколько раз в год. Критические обновления и обновления для системы безопасности будут предоставляться до следующего выпуска общедоступной версии. После следующего выпуска предыдущая версия будет и дальше получать обновления для системы безопасности на протяжении времени существования выпуска (12 месяцев).
@@ -46,7 +46,7 @@ ms.lasthandoff: 03/20/2018
 [Новые возможности сервера отчетов Power BI](whats-new.md)  
 [Руководство пользователя](user-handbook-overview.md)  
 [Руководство администратора](admin-handbook-overview.md)  
-[Краткое руководство по установке сервера отчетов Power BI](quickstart-install-report-server.md)  
+[Установка сервера отчетов Power BI](install-report-server.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

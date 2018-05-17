@@ -1,13 +1,13 @@
 ---
-title: "Руководство. Использование примеров Power BI"
-description: "Учебник. Использование образцов Power BI"
+title: Работа с образцами Power BI
+description: Работа с образцами Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 03/08/2017
 ms.service: powerbi
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8255b14fea75f3a2f83629a6beb8fe3281d012e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3a9cf39d3601a3f1c6b35d20726144cb404bdbe2
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="the-power-bi-samples-a-tutorial"></a>Руководство по использованию примеров Power BI
+# <a name="the-power-bi-samples"></a>Образцы Power BI
 
 Мы рекомендуем для начала ознакомиться с [образцами наборов данных для Power BI](sample-datasets.md). В ней содержатся сведения о примерах, их получении, сохранении и использовании, а также описание каждого примера. После ознакомления с общими сведениями мы приступим к изучению этого руководства.   
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="samples-and-power-bi-service"></a>Примеры и служба Power BI
 
 1. Откройте службу Power BI и выполните вход в нее (app.powerbi.com).
-2. Выберите **Получить данные** в нижней части левой панели навигации. Если команда **Получить данные** отсутствует, разверните панель навигации, выбрав ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
+2. Нажмите кнопку **Получить данные** в нижней части левой панели навигации. Если команда **Получить данные** отсутствует, разверните панель навигации, выбрав ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
    
    ![](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
 5. Выберите **Образцы**.  

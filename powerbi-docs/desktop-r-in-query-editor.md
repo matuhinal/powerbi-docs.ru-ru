@@ -1,28 +1,28 @@
 ---
-title: "Использование языка R в редакторе запросов Power BI"
-description: "Используйте язык R в редакторе запросов Power BI Desktop для расширенной аналитики"
+title: Использование языка R в редакторе запросов Power BI
+description: Используйте язык R в редакторе запросов Power BI Desktop для расширенной аналитики
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 6f5121de914938c78d4eef8a180cabad5e50236d
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="using-r-in-query-editor"></a>Использование языка R в редакторе запросов
 В **редакторе запросов** Power BI Desktop можно использовать язык программирования **R**, который широко применяют специалисты по статистике, аналитики и специалисты по обработке данных. Интеграция языка R в **редактор запросов** позволяет выполнять очистку данных с помощью R, а также формирование и анализ данных в наборах данных, в частности заполнение отсутствующих данных, прогнозирование и кластеризацию. **R** — эффективный язык, который можно использовать в **редакторе запросов** для подготовки модели данных и создания отчетов.

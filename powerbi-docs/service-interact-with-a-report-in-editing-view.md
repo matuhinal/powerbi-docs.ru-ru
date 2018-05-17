@@ -1,5 +1,5 @@
 ---
-title: Взаимодействие с отчетом в режиме правки (руководство)
+title: Взаимодействие с отчетом в режиме правки
 description: Взаимодействие с отчетом в режиме правки отчетов в службе Power BI
 services: powerbi
 documentationcenter: ''
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 6b4fcd59b16e9fd7ef0dcddfc44a93bb842a32f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Взаимодействие с отчетом в режиме правки в службе Power BI
 Отчеты можно создавать и редактировать в службе Power BI и приложении Power BI Desktop. В службе Power BI отчеты можно создавать и редактировать в **представлении правки**. В Power BI Desktop отчеты можно создавать и редактировать в [**представлении отчета**](desktop-report-view.md). В этой статье рассматривается режим правки в службе Power BI. 

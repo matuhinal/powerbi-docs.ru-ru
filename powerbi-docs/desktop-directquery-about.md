@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: bad0a8cb7f0f6eab7414d06ee5545e9499ccdc95
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Использование DirectQuery в Power BI
 При использовании **Power BI Desktop** или **службы Power BI** вы можете подключиться к различным типам источников данных разными способами. Вы можете либо *импортировать* данные в Power BI, что является наиболее распространенным способом получения данных, либо подключиться непосредственно к данным в исходном репозитории источника, который известен как **DirectQuery**. В этой статье описывается **DirectQuery** и его возможности, включая следующие темы:

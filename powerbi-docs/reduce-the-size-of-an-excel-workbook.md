@@ -1,28 +1,28 @@
 ---
-title: "Уменьшение размера книги Excel для ее просмотра в Power BI"
-description: "Уменьшение размера книги Excel для ее просмотра в Power BI"
+title: Уменьшение размера книги Excel для ее просмотра в Power BI
+description: Уменьшение размера книги Excel для ее просмотра в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ff05fb9a80e9e4efff066eb71173db78a856bf2c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 479d431af4a7e904b138de1eb4fdf097bdbd68e9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Уменьшение размера книги Excel для ее просмотра в Power BI
 Вы можете передать в Power BI любую книгу Excel размером менее 1 ГБ. Книга Excel может состоять из двух частей: модели данных и оставшейся части отчета — основного содержимого листа. Если отчет удовлетворяет следующим ограничениям размера, можно сохранить его в **OneDrive для бизнеса**, подключиться к нему из Power BI и просмотреть его в Excel Online:

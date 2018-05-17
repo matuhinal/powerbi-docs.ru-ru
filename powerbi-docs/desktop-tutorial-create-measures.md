@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 99b02d0225dec670b3f4600e2436e9094a97b91f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Учебник. Создание собственных мер в Power BI Desktop
 Некоторые эффективные решения для анализа данных в Power BI Desktop можно создать, используя меры. Меры полезны тем, что они выполняют вычисления с вашими данными, когда вы работаете с отчетами. В этом руководстве объясняется, что такое меры, и как создать несколько собственных базовых мер в Power BI Desktop.

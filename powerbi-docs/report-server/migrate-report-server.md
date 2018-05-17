@@ -1,15 +1,15 @@
 ---
-title: "Миграция установки сервера отчетов"
-description: "Узнайте, как перенести существующий экземпляр SQL Server Reporting Services на экземпляр сервера отчетов Power BI."
+title: Миграция установки сервера отчетов
+description: Узнайте, как перенести существующий экземпляр SQL Server Reporting Services на экземпляр сервера отчетов Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>Миграция установки сервера отчетов
 Узнайте, как перенести существующий экземпляр SQL Server Reporting Services (SSRS) на экземпляр сервера отчетов Power BI.
@@ -107,7 +107,7 @@ rs.exe
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Руководство администратора](admin-handbook-overview.md)  
-[Краткое руководство по установке сервера отчетов Power BI](quickstart-install-report-server.md)  
+[Установка сервера отчетов Power BI](install-report-server.md)  
 [Script with the rs.exe Utility and the Web Service](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service) (Скрипт, содержащий служебную программу rs.exe и веб-службу)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

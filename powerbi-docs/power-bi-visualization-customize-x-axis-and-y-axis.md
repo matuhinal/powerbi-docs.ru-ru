@@ -1,14 +1,14 @@
 ---
-title: "Настройка свойств оси X и оси Y (руководство)"
-description: "Учебник. Настройка свойств оси X и оси Y"
+title: Настройка свойств осей X и Y
+description: Настройка свойств осей X и Y
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
+backup: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/16/2017
 ms.service: powerbi
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: be31751c8ca6efb4e7b2dbcbd0215a1c7d002df5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>Настройка свойств оси X и оси Y (руководство)
+# <a name="customize-x-axis-and-y-axis-properties"></a>Настройка свойств осей X и Y
 В этом руководстве вы узнаете о различных способах настройки оси X и оси Y визуальных элементов. Не все визуальные элементы имеют оси, и не все они могут быть настроены. Например, круговые диаграммы не имеют осей. Варианты настройки отличаются в зависимости от визуальных элементов. Этих вариантов слишком много, чтобы описать их в одной статье. Поэтому мы рассмотрим некоторые наиболее часто используемые варианты настройки осей, чтобы вы могли уверенно использовать вкладку форматирования визуальных элементов на холсте отчетов Power BI.  
 
 > [!NOTE]

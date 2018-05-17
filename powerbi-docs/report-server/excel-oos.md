@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 06783c6e5eabd04a1adc955e5f43521337b748eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Настройка сервера отчетов для размещения книг Excel с использованием Office Online Server (OOS)
 Кроме просмотра отчетов Power BI на веб-портале в решении "Сервер отчетов Microsoft Power BI" можно размещать книги Excel с помощью [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Сервер отчетов можно использовать как единое расположение для публикации и просмотра самостоятельного содержимого Microsoft BI.
@@ -176,7 +176,7 @@ URL-адрес обнаружения Office Online Server отображает�
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Руководство администратора](admin-handbook-overview.md)  
-[Краткое руководство по установке сервера отчетов Power BI](quickstart-install-report-server.md)  
+[Установка сервера отчетов Power BI](install-report-server.md)  
 [Install Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder) (Установка построителя отчетов)  
 [Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
 

@@ -1,6 +1,6 @@
 ---
-title: Краткое руководство. Начало работы с функцией "Вопросы и ответы" в Power BI
-description: Краткое руководство. Начало работы с компонентом "Вопросы и ответы" в Power BI с примером "Анализ розничной торговли"
+title: Вопросы и ответы по началу работы с Power BI
+description: Начало работы с компонентом "Вопросы и ответы" Power BI с примером анализа розничной торговли
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Начало работы с функцией "Вопросы и ответы" в Power BI (краткое руководство)
+# <a name="get-started-with-power-bi-qa"></a>Вопросы и ответы по началу работы с Power BI
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Использование функции "Вопросы и ответы" в Power BI с примером "Анализ розничной торговли"
 Иногда самый быстрый способ получить ответ по данным — задать вопрос, используя естественный язык.  В этом кратком руководстве мы рассмотрим два разных способа создания одной визуализации: ее встраивание в отчет и ввод вопроса в функции "Вопросы и ответы". Мы будем использовать службу Power BI, но этот процесс применим и для Power BI Desktop.
 

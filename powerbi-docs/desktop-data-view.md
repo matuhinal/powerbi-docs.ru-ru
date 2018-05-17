@@ -1,28 +1,28 @@
 ---
-title: "Представление данных в Power BI Desktop"
-description: "Представление данных в Power BI Desktop"
+title: Представление данных в Power BI Desktop
+description: Представление данных в Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: dba33cd5476b26d7c81238bf4eedc366deb65191
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 35bbefc0378ab6eec745737d5a13b215aa955830
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Представление данных в Power BI Desktop
 **Представление данных** позволяет проверять, изучать и анализировать данные в модели Power BI Desktop. Оно отличается от просмотра таблиц, столбцов и данных в **редакторе запросов**. В представлении данных вы видите данные уже *после* их загрузки в модель.

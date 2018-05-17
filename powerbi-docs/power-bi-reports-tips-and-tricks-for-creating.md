@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop, службе Power BI *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query.
@@ -166,7 +166,7 @@ Power BI интегрируется с Bing для предоставления 
 ### <a name="using-dax-for-the-first-time"></a>Использование DAX впервые
 DAX — это язык формулы вычислений в Power BI Desktop.  Он оптимизирован для бизнес-аналитики.  Он несколько отличается от привычного вам, если ранее в качестве языка запросов вы использовали только SQL. Существует множество хороших ресурсов (в Интернете и не только), позволяющих изучить DAX.
 
-[Краткое руководство. Основы DAX в Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Основные сведения о DAX в Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
 [Руководство по выражениям анализа данных (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
@@ -229,7 +229,7 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 * *Advanced Presentations Design* (Создание расширенных презентаций), автор Эндрю Абела (Andrew Abela)   
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 
 [Отчеты в Power BI](service-reports.md)
 

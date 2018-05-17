@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 899cef8c4e441c49f40acc7873348fe80a7b5f9d
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 6920e31c1f72bf51eeefb7b515f8e54c8fafbfd9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Руководство по развертыванию шлюза данных для Power BI
+
 Эта статья содержит руководство и рекомендации по развертыванию шлюза данных в сетевой среде. **Шлюз** — это программное обеспечение, облегчающее доступ к данным в частной локальной сети для последующего использования в облачной службе, такой как Power BI. В этой статье описывается развертывание и приводятся рекомендации по настройке **локального шлюза данных**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)

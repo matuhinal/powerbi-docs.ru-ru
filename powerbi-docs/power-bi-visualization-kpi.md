@@ -1,5 +1,5 @@
 ---
-title: Визуальные элементы КПЭ (руководство)
+title: Визуальные элементы КПЭ
 description: Создание КПЭ в службе Power BI и Power BI Desktop
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 92fafc120e34fc3f11d203ca784189f037ad5a7f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="kpi-visuals-tutorial"></a>Визуальные элементы КПЭ (руководство)
+# <a name="kpi-visuals"></a>Визуальные элементы КПЭ
 Ключевое показатель эффективности (КПЭ) — наглядный индикатор, который позволяет оценить достижение определенной измеримой цели. Дополнительные сведения о ключевых показателях эффективности см. в сети [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
 
 ## <a name="when-to-use-a-kpi"></a>В каких случаях следует использовать КПЭ

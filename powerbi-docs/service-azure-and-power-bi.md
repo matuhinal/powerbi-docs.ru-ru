@@ -1,28 +1,28 @@
 ---
-title: "Azure и Power BI"
-description: "Azure и Power BI"
+title: Azure и Power BI
+description: Azure и Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f07abb6b878ba96c1e5a84168ded6e466c8fb18e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9e4685174c5489b898777383925d601dd44fea39
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="azure-and-power-bi"></a>Azure и Power BI
 Благодаря службам **Azure** и **Power BI**усилия по обработке данных могут дать результаты в виде аналитических материалов и отчетов, которые обеспечат ценные сведения о бизнесе в режиме реального времени. Независимо от того, выполняется ли обработка данных в облачной или локальной среде, является ли она простой или сложной, с одним источником или высокой степенью масштабируемости, в хранилищах или в режиме реального времени, Azure и Power BI обеспечивают встроенные возможности подключения и интеграции, которые позволяют эффективно реализовать задачи, связанные с бизнес-аналитикой.
