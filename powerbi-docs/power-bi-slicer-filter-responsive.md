@@ -15,52 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/04/2018
+ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ac30f03bc9f221097eeaa1c203bd19daa473cfa4
-ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
+ms.openlocfilehash: f70ebae419c83e359f950d7b1180809d3e25b59e
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Создание адаптивного визуального элемента "Срез" в Power BI
+# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Создание адаптивного визуального элемента "Срез" в Power BI (предварительная версия)
 
 Адаптивные срезы изменяют размер, чтобы помещаться в любое пространство в отчете. Вы можете менять размеры и формы адаптивных срезов, например с горизонтального элемента на квадратный, с квадратного на вертикальный. Значения в срезе отобразятся в новом порядке в соответствии с изменениями. В Power BI Desktop и в службе Power BI можно делать адаптивными горизонтальные срезы и среды даты и диапазона. В срезах даты и диапазона также улучшена область сенсорного ввода, что позволяет легко изменять их. Вы можете как угодно уменьшать и увеличивать размер адаптивных срезов. Они также автоматически изменяют размер, чтобы помещаться в отчетах в службе Power BI и в мобильных приложениях Power BI. 
 
-![Адаптивные срезы могут принимать любую форму](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
+![Адаптивные срезы могут принимать любую форму](media/power-bi-slicer-filter-responsive/responsive-slicer-gif.gif)
 
 ## <a name="create-a-slicer"></a>Создание среза
 
 Чтобы создать динамический срез, сначала нужно создать базовый срез. 
 
-1. Выберите значок **среза** ![Значок среза](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) в области **Визуализации**.
+1. Выберите значок **среза** ![Значок среза](media/power-bi-slicer-filter-responsive/power-bi-slicer-icon.png) в области **Визуализации**.
 2. Перетащите поле, по которому нужно выполнить фильтрацию, в область **Поле**.
 
-    ![Добавление поля в срез](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
+    ![Добавление поля в срез](media/power-bi-slicer-filter-responsive/power-bi-slicer-field.png)
 
 ## <a name="convert-to-a-horizontal-slicer"></a>Преобразование в горизонтальной срез
 
 1. Выберите срез, а затем в области **Визуализации** выберите раздел **Формат**.
 2. Разверните раздел **Общие**, затем для параметра **Ориентация** выберите значение **Горизонтальная**.
 
-    ![Выбор горизонтальной ориентации](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
+    ![Выбор горизонтальной ориентации](media/power-bi-slicer-filter-responsive/power-bi-slicer-horizontal.png) 
 
 1.  Возможно, потребуется расширить срез, чтобы показать дополнительные значения.
 
-     ![Расширение среза](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-3-wider.png)
+     ![Расширение среза](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-horizontal.png)
 
 ## <a name="make-it-responsive-and-experiment-with-it"></a>Как делать срез адаптивным и экспериментировать с ним
 
 Это легко. 
 
-1. Прямо под параметром **Ориентация** в разделе **Общие** вкладки **Формат** укажите для параметра **Адаптивный** значение **Вкл**.  
+1. Прямо под параметром **Ориентация** в разделе **Общие** вкладки **Формат** укажите для параметра **Адаптивный (предварительная версия)** значение **Вкл.**  
 
-    ![Теперь это адаптивный срез](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
+    ![Теперь это адаптивный срез](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-responsive.png)
 
 1. Теперь вы можете экспериментировать со срезом. Перетащите углы, чтобы укоротить его, сделать выше, расширить или сузить. Если сделать его очень маленьким, он станет просто значком фильтра.
 
-    ![Очень маленький адаптивный срез превратился в значок фильтра](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-5-mini-icon.png)
+    ![Очень маленький адаптивный срез превратился в значок фильтра](media/power-bi-slicer-filter-responsive/power-bi-slicer-small-filter-icon.png)
 
 ## <a name="add-it-to-a-phone-report-layout"></a>Добавление в макет отчета для телефона
 
@@ -68,11 +68,11 @@ ms.lasthandoff: 05/12/2018
 
 1. В меню **Представление** выберите значок **Макет телефона**.
 
-     ![Значок "Макет телефона", меню "Представление"](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
+     ![Значок "Макет телефона", меню "Представление"](media/power-bi-slicer-filter-responsive/power-bi-phone-layout-menu.png)
     
 1. Перетащите в сетку все визуальные элементы, которые нужно отобразить в отчете на телефоне. Если вы перетаскиваете адаптивный срез, измените его размер до нужного. В нашем случае это значок фильтра.
 
-    ![Добавление среза в макет отчета для телефона](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-7-phone-slicer-icon.png)
+    ![Добавление среза в макет отчета для телефона](media/power-bi-slicer-filter-responsive/power-bi-slicer-phone-layout.png)
 
 Подробнее о создании [отчетов, оптимизированных для мобильных приложений Power BI](desktop-create-phone-report.md).
 
