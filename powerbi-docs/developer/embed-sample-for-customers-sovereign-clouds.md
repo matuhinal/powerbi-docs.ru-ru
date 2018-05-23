@@ -1,27 +1,19 @@
 ---
 title: Внедрение содержимого Power BI в приложение для клиентов для использования в национальных облаках
 description: Узнайте, как выполнить интеграцию (внедрение) панели мониторинга, плитки или отчета в веб-приложение с помощью интерфейсов API Power BI для клиентов.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
-ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
+ms.openlocfilehash: 59f045d142fdf5ba22f9d240913687a9306e6b43
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Внедрение панели мониторинга, плитки или отчета Power BI в приложение для национальных облаков
 Узнайте, как интегрировать (внедрить) панель мониторинга, плитку или отчет в веб-приложение с помощью пакета SDK для .NET в Power BI и API JavaScript для Power BI для клиентов. Как правило, это сценарий ISV.

@@ -1,28 +1,20 @@
 ---
 title: DirectQuery для SAP HANA в Power BI
 description: Аспекты использования DirectQuery с SAP HANA
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: c7978ee67d54aa919abaf0b40a80f1841ac7bf35
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery и SAP HANA
 Вы можете подключиться к источникам данных **SAP HANA** напрямую с помощью **DirectQuery**. К SAP HANA можно подключиться двумя способами:
@@ -135,7 +127,7 @@ ms.lasthandoff: 03/22/2018
 
 * **Иерархии дочерних элементов родительских элементов.** Иерархии дочерних элементов родительских элементов не отображаются в Power BI.
 Это связано с тем, что Power BI обращается к SAP HANA с помощью интерфейса SQL, а к иерархиям родителей-потомков невозможно получить полный доступ через SQL.
-* **Другие метаданные иерархии.**  Базовая структура иерархий отображается в Power BI, но некоторые метаданные иерархии (например, метаданные, управляющие поведением неоднородных иерархий) не будут работать.
+* **Другие метаданные иерархии. ** Базовая структура иерархий отображается в Power BI, но некоторые метаданные иерархии (например, метаданные, управляющие поведением неоднородных иерархий) не будут работать.
 Это ограничение также связано с интерфейсом SQL.
 * **Подключение с помощью SSL.** Нельзя подключиться к экземплярам SAP HANA, настроенным для использования протокола SSL.
 * **Поддержка для представлений атрибутов**. Power BI может подключаться к представлениям аналитики и вычислений, но не может подключаться напрямую к представлениям атрибутов.

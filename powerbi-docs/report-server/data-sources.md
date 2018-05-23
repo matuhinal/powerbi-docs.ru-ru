@@ -1,29 +1,21 @@
 ---
 title: Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
-description: Отчеты Power BI (PBIX) можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных.
-services: powerbi
-documentationcenter: ''
+description: Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных.
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/23/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Источники данных для отчетов Power BI (PBIX) в решении "Сервер отчетов Power BI"
+# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
 
 Эти источники данных относятся к отчетам Power BI, которые используются в решении "Сервер отчетов Power BI" Сведения об источниках данных, которые поддерживаются для отчетов с разбивкой на страницы (RDL), см. в разделе [Источники данных, поддерживаемые службами Reporting Services (SSRS)](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
@@ -70,7 +62,7 @@ ms.lasthandoff: 04/26/2018
 | Служба Power BI |Нет |Нет |Нет |
 | Сценарий R |Да |Нет |Нет |
 | Объекты SalesForce |Да |Нет |Нет |
-| Отчеты SalesForce |Да |Нет |Нет |
+| Отчеты Salesforce |Да |Нет |Нет |
 | сервер SAP Business Warehouse; |Да |Да |Да |
 | База данных SAP HANA |Да |Да |Да |
 | Папка SharePoint (локальная) |Да |Да |Нет |
@@ -101,7 +93,7 @@ ms.lasthandoff: 04/26/2018
 | Planview Enterprise (бета-версия) |Да |Нет |Нет |
 | Projectplace (бета-версия) |Да |Нет |Нет |
 | QuickBooks Online (бета-версия) |Да |Нет |Нет |
-| Smartsheet (бета-версия) |Да |Нет |Нет |
+| Smartsheet |Да |Нет |Нет |
 | Spark (бета-версия) |Да |Нет |Нет |
 | SparkPost (бета-версия) |Да |Нет |Нет |
 | SQL Sentry (бета-версия) |Да |Нет |Нет |
@@ -156,7 +148,7 @@ ms.lasthandoff: 04/26/2018
 | Служба Power BI |Нет |Нет |Нет |Нет |
 | Сценарий R |Нет |Нет |Нет |Нет |
 | Объекты SalesForce |Нет |Нет |Нет |Нет |
-| Отчеты SalesForce |Нет |Нет |Нет |Нет |
+| Отчеты Salesforce |Нет |Нет |Нет |Нет |
 | сервер SAP Business Warehouse; |Нет |Нет |Да |Нет |
 | База данных SAP HANA |Нет |Нет |Да |Да |
 | Папка SharePoint (локальная) |Да |Нет |Нет |Да |
@@ -184,7 +176,7 @@ ms.lasthandoff: 04/26/2018
 | Planview Enterprise (бета-версия) |Нет |Нет |Нет |Нет |
 | Projectplace (бета-версия) |Нет |Нет |Нет |Нет |
 | QuickBooks Online (бета-версия) |Нет |Нет |Нет |Нет |
-| Smartsheet (бета-версия) |Нет |Нет |Нет |Нет |
+| Smartsheet |Нет |Нет |Нет |Нет |
 | Spark (бета-версия) |Нет |Нет |Нет |Нет |
 | SparkPost (бета-версия) |Нет |Нет |Нет |Нет |
 | SQL Sentry (бета-версия) |Нет |Нет |Нет |Нет |

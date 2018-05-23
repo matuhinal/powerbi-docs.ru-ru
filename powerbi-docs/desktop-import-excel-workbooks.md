@@ -1,28 +1,20 @@
 ---
 title: Импорт книг Excel в Power BI Desktop
 description: Импорт книг Excel в Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e8937efdc646d38942ffc7f0b216103fdcf053cb
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 073301b1fe204d66eb91c4ea50216afc5464df64
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Импорт книг Excel в Power BI Desktop
 **Power BI Desktop** позволяет легко импортировать книги Excel, содержащие запросы Power Query, модели Power Pivot и листы Power View, в Power BI Desktop. Отчеты и визуализации создаются на основе книги Excel автоматически; после импорта отчеты можно улучшить и доработать с помощью Power BI Desktop, используя уже доступные возможности, а также новые функции, добавляемые в каждое ежемесячное обновление Power BI Desktop.
@@ -73,6 +65,6 @@ Power BI Desktop может импортировать следующие эле
 * **Иерархии:** в настоящее время Power BI Desktop не поддерживает этот тип объектов модели данных. Таким образом, иерархии при импорте книги Excel в Power BI Desktop пропускаются.
 * **Столбцы двоичных данных:** в настоящее время Power BI Desktop не поддерживает этот тип объектов модели данных. Столбцы двоичных данных удаляются из итоговой таблицы в Power BI Desktop.
 * **Неподдерживаемые элементы Power View.** Некоторые функции Power View, такие как темы и определенные виды визуализаций (точечная диаграмма с осью воспроизведения, детализация поведений и т. д), недоступны в Power BI Desktop. При попытке импорта таких объектов в соответствующих им местах отчета Power BI Desktop появляются сообщения о *неподдерживаемых визуализациях* — их можно удалить или перенастроить.
-* **Именованные диапазоны с использованием функции** ***Из таблицы*** **в Power Query или**  ***Excel.CurrentWorkbook*** **в M:** импорт данных такого именованного диапазона в Power BI Desktop сейчас не поддерживается, но будет реализован в будущем. В настоящее время именованные диапазоны загружаются в Power BI Desktop в форме подключения к внешней книге Excel.
+* **Именованные диапазоны с использованием функции** ***Из таблицы*** **в Power Query или ** ***Excel.CurrentWorkbook*** **в M:** импорт данных такого именованного диапазона в Power BI Desktop сейчас не поддерживается, но будет реализован в будущем. В настоящее время именованные диапазоны загружаются в Power BI Desktop в форме подключения к внешней книге Excel.
 * **Подключение PowerPivot к SSRS:** внешние подключения PowerPivot к службам SQL Server Reporting Services (SSRS) не поддерживаются, поскольку этот источник данных в Power BI Desktop пока не доступен.
 

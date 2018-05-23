@@ -1,27 +1,19 @@
 ---
-title: "Добавление строк в таблицу"
-description: "Пошаговое руководство по отправке данных — добавление строк в таблицу Power BI"
-services: powerbi
-documentationcenter: 
+title: Добавление строк в таблицу
+description: Пошаговое руководство по отправке данных — добавление строк в таблицу Power BI
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 643ac2c333aa1ab2bf05ceca60f218e975d786db
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Шаг 5. Добавление строк в таблицу Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).

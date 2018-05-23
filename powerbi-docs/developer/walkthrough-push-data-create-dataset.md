@@ -1,34 +1,26 @@
 ---
-title: "Создание набора данных"
-description: "Пошаговое руководство — принудительная отправка данных в набор данных — создание набора данных в Power BI"
-services: powerbi
-documentationcenter: 
+title: Создание набора данных
+description: Пошаговое руководство — принудительная отправка данных в набор данных — создание набора данных в Power BI
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Шаг 3. Создание набора данных в Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
 На **шаге 2** ([Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)) руководства по отправке данных в набор данных вы получили маркер для проверки подлинности в **Azure AD**. На этом шаге вы будете использовать этот маркер для вызова операции [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx).
 
-Чтобы вызвать ресурс REST, используйте URL-адрес, который указывает на ресурс, а затем отправьте строку JavaScript Object Notation (JSON), которая описывает набор данных, в ресурс службы Power BI. Ресурс REST определяет часть службы Power BI, с которой вы будете работать. Для принудительной отправки данных в набор данных в качестве целевого ресурса используется **набор данных**. URL-адрес, который определяет набор данных, — https://api.PowerBI.com/v1.0/myorg/datasets. При отправке данных в составе группы URL-адрес — https://api.PowerBI.com/v1.0/myorg/groups/{идентификатор_группы}/datasets.
+Чтобы вызвать ресурс REST, используйте URL-адрес, который указывает на ресурс, а затем отправьте строку JavaScript Object Notation (JSON), которая описывает набор данных, в ресурс службы Power BI. Ресурс REST определяет часть службы Power BI, с которой вы будете работать. Для принудительной отправки данных в набор данных в качестве целевого ресурса используется **набор данных**. URL-адрес, определяющий набор данных, — https://api.PowerBI.com/v1.0/myorg/datasets. Если данные отправляются в рамках группы, используется следующий URL-адрес: https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Для проверки подлинности в ходе операции REST Power BI добавьте в заголовок запроса маркер, полученный на шаге [Получение маркера доступа для проверки подлинности](walkthrough-push-data-get-token.md).
 

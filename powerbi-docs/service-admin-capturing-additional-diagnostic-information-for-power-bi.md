@@ -1,36 +1,28 @@
 ---
 title: Запись дополнительных диагностических сведений
 description: Запись дополнительных диагностических сведений
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9aef989b4b61ce8c9d11fd4275d68c867791f644
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 76860e740d43a1907692a7cd4fed1a6df68c93d4
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Запись дополнительных диагностических сведений
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Запись дополнительных диагностических сведений для Power BI
 Эти инструкции предоставляют два возможных варианта ручного сбора дополнительных диагностических сведений из веб-клиента Power BI.  Необходимо следовать только одному из этих вариантов.
 
-## <a name="network-capture---edge--internet-explorer"></a>Сбор по сети — Microsoft Edge и Internet Explorer
+## <a name="network-capture---edge--internet-explorer"></a>Сбор по сети — Edge и Internet Explorer
 1. Откройте [Power BI](https://app.powerbi.com) в браузере Microsoft Edge или Internet Explorer.
-2. Запустите средства разработчика Microsoft Edge, нажав клавиши F12.
+2. Запустите средства разработчика Edge, нажав клавиши F12.
 3. Откроется окно средств разработчика: 
    
    ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)

@@ -1,28 +1,20 @@
 ---
 title: Подключение к данным Azure Consumption Insights в Power BI Desktop (бета-версия)
 description: Легко подключайтесь к Azure и получайте сведения о потреблении и использовании с помощью Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Подключение к Azure Consumption Insights в Power BI Desktop (бета-версия)
 С помощью соединителя **Azure Consumption Insights** можно использовать **Power BI Desktop** для подключения к Azure и получения подробных данных и сведений об использовании служб Azure в организации. Можно также создавать меры, настраиваемые столбцы и визуальные элементы для формирования отчетов об использовании Azure в организации и предоставления доступа к ним. Этот выпуск соединителя **Azure Consumption Insights** является бета-версией, которая может быть изменена.
@@ -151,7 +143,7 @@ Azure также включает коллекцию примеров польз
 
 | Соединитель ACI/Имя столбца пакета содержимого | Имя столбца API ACI | Имя столбца EA | Устаревший/представлен для обеспечения обратной совместимости |
 | --- | --- | --- | --- |
-| AccountName |accountName |Account Name |Нет |
+| AccountName |accountName |Имя учетной записи |Нет |
 | AccountId |accountId | |Да |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |Нет |
 | AdditionalInfo |additionalInfo |AdditionalInfo |Нет |
@@ -159,25 +151,25 @@ Azure также включает коллекцию примеров польз
 | Consumed Quantity |consumedQuantity |Consumed Quantity |Нет |
 | Consumed Service |consumedService |Consumed Service |Нет |
 | ConsumedServiceId |consumedServiceId | |Да |
-| Cost |cost |ExtendedCost |Нет |
+| Cost |cost |Расширенные затраты |Нет |
 | Cost Center |costCenter |Cost Center |Нет |
-| Дата |date |Дата |Нет |
+| Дата |дата |Дата |Нет |
 | День | |День |Нет |
-| DepartmentName |departmentName |Department Name |Нет |
+| DepartmentName |departmentName |Название отдела |Нет |
 | DepartmentID |departmentId | |Да |
 | Instance ID | | |Да |
 | InstanceId |instanceId |Instance ID |Нет |
 | Расположение | | |Да |
 | Meter Category |meterCategory |Meter Category |Нет |
 | Meter ID | | |Да |
-| Meter Name |meterName |Meter Name |Нет |
+| Название индикатора |meterName |Название индикатора |Нет |
 | Meter Region |meterRegion |Meter Region |Нет |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |Нет |
 | MeterId |meterId |Meter ID |Нет |
 | Месяц | |Месяц |Нет |
 | Продукт |product |Продукт |Нет |
 | ProductId |productId | |Да |
-| Resource Group |resourceGroup |Resource Group |Нет |
+| Группа ресурсов |resourceGroup |Группа ресурсов |Нет |
 | Resource Location |resourceLocation |Resource Location |Нет |
 | ResourceGroupId | | |Да |
 | ResourceLocationId |resourceLocationId | |Да |
@@ -189,7 +181,7 @@ Azure также включает коллекцию примеров польз
 | ServiceInfo2Id | | |Да |
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |Нет |
 | StoreServiceIdentifierId | | |Да |
-| Subscription Name |subscriptionName |Subscription Name |Нет |
+| Название подписки |subscriptionName |Название подписки |Нет |
 | Теги |tags |Теги |Нет |
 | TagsId | | |Да |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |Нет |

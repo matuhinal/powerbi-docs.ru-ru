@@ -1,28 +1,20 @@
 ---
 title: Основные сведения о DAX в Power BI Desktop
 description: Основные сведения о DAX в Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 86f229ecf60a1e1ef89213eed83521a8fadd64a2
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Основные сведения о DAX в Power BI Desktop
 Это руководство предназначено для пользователей, не знакомых с Power BI Desktop. Оно предоставляет краткие и простые вводные сведения о том, как можно использовать язык выражений анализа данных (DAX) для решения ряда задач анализа данных и основных вычислений. Здесь будут предоставлены некоторые концептуальные сведения, ряд задач, которые вы можете выполнить, и несколько контрольных вопросов для проверки, что вы узнали. После изучения этой статьи вы должны хорошо понимать наиболее важные основные понятия в DAX.
@@ -43,7 +35,7 @@ DAX — это коллекция функций, операторов и кон
 Лучший способ изучения DAX — создать некоторые простые формулы, использовать их с некоторыми реальными данными и его фактическими данными и посмотреть результаты. В примерах и задачах здесь используется файл Contoso Sales for Power BI Desktop. Это тот же файл примера, который используется в статье [Учебник. Создание собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md). Скачать этот файл можно [здесь](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
 
 ## <a name="lets-begin"></a>Давайте начнем!
-Мы будем строить наше объяснение DAX вокруг трех фундаментальных понятий: *синтаксиса*, *функций*и *контекста*. Конечно, в DAX есть и другие важные понятия, но, разобравшись в этих трех основных понятиях, вы получите наилучшую основу для построения навыков работы с DAX.
+Мы будем строить наше объяснение DAX вокруг трех фундаментальных понятий: *синтаксиса*, *функций* и *контекста* . Конечно, в DAX есть и другие важные понятия, но, разобравшись в этих трех основных понятиях, вы получите наилучшую основу для построения навыков работы с DAX.
 
 ### <a name="syntax"></a>Синтаксис
 Прежде чем создавать собственные формулы, давайте рассмотрим синтаксис формул DAX. Синтаксис включает различные элементы, которые составляют формулу, или проще говоря, это способ записи формулы. Например, рассмотрим простую формулу DAX для меры.

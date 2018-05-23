@@ -1,27 +1,19 @@
 ---
-title: "Видео о службе Power BI"
-description: "Видео о службе Power BI и ссылка на канал YouTube."
-services: powerbi
-documentationcenter: 
+title: Видео о службе Power BI
+description: Видео о службе Power BI и ссылка на канал YouTube.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 4ef3991fc285adc84cdcb5efca00c2f9486e9825
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: f9aa2a0d18e53c661b4639001bacdef6a508a7a4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-videos"></a>Видео о службе Power BI
 У нас есть канал YouTube для Power BI! Вы можете посетить [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видеороликов, посвященных анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -38,7 +30,7 @@ ms.lasthandoff: 01/23/2018
   
   <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-* Power BI для разработчиков
+* Power BI для разработчиков
   <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Ознакомьтесь с нашими новыми загрузками
