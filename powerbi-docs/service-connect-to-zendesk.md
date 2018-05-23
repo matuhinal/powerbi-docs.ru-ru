@@ -1,28 +1,20 @@
 ---
 title: Подключение к Zendesk с помощью Power BI
 description: Zendesk для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52adef9d30ec269e6e3a954632a54814b241623d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Подключение к Zendesk с помощью Power BI
 Пакет содержимого Zendesk включает панель мониторинга Power BI с отчетами, с помощью которых можно получить представление об объемах заявок и производительности операторов. Используйте стандартные панели мониторинга и отчеты или настройте их так, чтобы выделить информацию, которая наиболее важна для вас.  Данные автоматически обновляются раз в день. 
@@ -42,7 +34,7 @@ ms.lasthandoff: 02/24/2018
 3. Выберите **Zendesk** \> **Получить**.
    
    ![](media/service-connect-to-zendesk/zendesk.png)
-4. Укажите URL-адрес, связанный с вашей учетной записью. Он будет представлен в формате **https://company.zendesk.com**; сведения о том, как [найти эти параметры](#FindingParams), см. ниже.
+4. Укажите URL-адрес, связанный с вашей учетной записью. Он будет в формате **https://company.zendesk.com**. Сведения о том, как [найти эти параметры](#FindingParams), см. ниже.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 5. При появлении запроса введите учетные данные Zendesk.  Выберите механизм проверки подлинности **oAuth 2** и нажмите **Войти**. Следуйте инструкциям проверки подлинности Zendesk. (Если вы уже выполнил вход в Zendesk в браузере, учетные данные могут не запрашиваться.)

@@ -1,31 +1,23 @@
 ---
 title: Подключение к Microsoft Dynamics с помощью Power BI
 description: Microsoft Dynamics CRM для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7bfb936bdff4ba7ddd5097c3f59003d48c70347
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Подключение к Microsoft Dynamics CRM с помощью Power BI
-Microsoft Dynamics CRM Online для Power BI позволяет легко обращаться к данным и анализировать их. Power BI использует канал OData для создания описательной модели с необходимыми сущностями и мерами, такими как учетные записи, действия, возможности, продукты, интересы, пользователи и т. д. Установив приложение, вы можете просматривать панели мониторинга и отчеты в службе Power BI ([https://powerbi.com](https://powerbi.com)) и мобильных приложениях Power BI. 
+Microsoft Dynamics CRM Online для Power BI позволяет легко обращаться к данным и анализировать их. Power BI использует канал OData для создания описательной модели с необходимыми сущностями и мерами, такими как учетные записи, действия, возможности, продукты, интересы, пользователи и т. д. Установив приложение, вы можете просматривать отчеты и панели мониторинга в службе Power BI ([https://powerbi.com](https://powerbi.com)) и мобильных приложениях Power BI. 
 
 Подключитесь к Dynamics CRM Online [Sales Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-sales-manager) или [Service Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-customer-service). См. дополнительные сведения об [интеграции Dynamics CRM Online с Power BI](https://powerbi.microsoft.com/integrations/microsoft-dynamicscrm).
 
@@ -61,10 +53,10 @@ Microsoft Dynamics CRM Online для Power BI позволяет легко об
 
 <a name="Sales"></a>
 
-### <a name="sales-manager"></a>Sales Manager
+### <a name="sales-manager"></a>Менеджер по продажам
 Панель мониторинга и отчеты содержат следующие ключевые метрики:  
 
-* Won Revenue (полученная выручка)   
+* Полученный доход   
 * Win Rate (коэффициент заключения сделок)   
 * Open Revenue (потенциальная выручка)   
 * Lost Revenue (потерянная выручка)   

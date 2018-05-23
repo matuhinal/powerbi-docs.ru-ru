@@ -1,28 +1,20 @@
 ---
 title: Подключение к Lithium с помощью Power BI
 description: Lithium для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 501395503ef3c4b3bde8e6d7f0ae732af5a4cc6a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d41ce3ff0c73675793e872170914b96a1d73d14
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Подключение к Lithium с помощью Power BI
 Lithium помогает строить доверительные отношения между лучшими торговыми марками и клиентами, находить ответы и обмениваться опытом. Подключив пакет содержимого Lithium для Power BI, вы сможете оценивать основные метрики, связанные с интернет-сообществом, для повышения объемов продаж, снижения затрат на обслуживание и повышения уровня доверия со стороны клиентов. 
@@ -42,7 +34,7 @@ Lithium помогает строить доверительные отноше�
 3. Выберите **Lithium** \> **Получить**.
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. Укажите URL-адрес вашего сообщества Lithium. Он имеет формат *https://community.yoursite.com*.
+4. Укажите URL-адрес вашего сообщества Lithium. Он будет иметь формат *https://community.yoursite.com*.
    
    ![](media/service-connect-to-lithium/params.png)
 5. При появлении запроса введите учетные данные Lithium. Выберите **oAuth 2** в качестве механизма проверки подлинности, нажмите кнопку **Вход** и выполните процедуру проверки подлинности Lithium.

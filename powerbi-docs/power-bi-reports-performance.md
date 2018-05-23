@@ -1,28 +1,20 @@
 ---
-title: "Рекомендации по производительности Power BI"
-description: "В этой статье представлены рекомендации по созданию быстрых и надежных отчетов в Power BI"
-services: powerbi
-documentationcenter: 
+title: Рекомендации по производительности Power BI
+description: В этой статье представлены рекомендации по созданию быстрых и надежных отчетов в Power BI
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Рекомендации по производительности Power BI 
 В этой статье приводятся рекомендации по созданию быстрых и надежных отчетов в Power BI.  
@@ -96,8 +88,14 @@ ms.lasthandoff: 03/12/2018
 ## <a name="understand-custom-visual-performance"></a>Сведения о производительности настраиваемых визуальных элементов 
 Обязательно проверьте настраиваемые визуальные элементы в работе, чтобы обеспечить высокую производительность. Плохо оптимизированные настраиваемые визуальные элементы могут отрицательно повлиять на производительность всего отчета. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Подробный обзор производительности запросов с помощью SQL Server Profiler и Power BI Desktop 
-Если нужно более подробно узнать, какие визуальные элементы требуют больше всего времени и ресурсов, вы можете подключить SQL Server Profiler к Power BI Desktop, чтобы получить полное представление о производительности запросов. Следуйте этим инструкциям: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Подробный обзор производительности запросов с помощью SQL Server Profiler и Power BI Desktop
+
+Если нужно более подробно узнать, какие визуальные элементы требуют больше всего времени и ресурсов, вы можете подключить SQL Server Profiler к Power BI Desktop, чтобы получить полное представление о производительности запросов.
+
+> [!NOTE]
+> Power BI Desktop поддерживает подключение к порту диагностики. Этот порт обеспечивает подключение других инструментов для выполнения трассировки в целях диагностики. *Внесение в модель изменений не поддерживается! Изменения модели могут привести к повреждению и потере данных.*
+
+Следуйте этим инструкциям:
   
 1. **Установите SQL Server Profiler и запустите Power BI Desktop.** 
 

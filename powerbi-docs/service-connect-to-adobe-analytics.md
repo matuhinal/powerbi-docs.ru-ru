@@ -1,28 +1,20 @@
 ---
 title: Подключение к Adobe Analytics с помощью Power BI
 description: Подключитесь к Adobe Analytics из Power BI, чтобы получить приложение, в котором отображаются данные вашей учетной записи на панели мониторинга и в отчетах.
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452f970efda4c49e197ed578f5c5b05917aa43e7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Подключение к Adobe Analytics с помощью Power BI
 Подключение к Adobe Analytics через Power BI начинается с подключения к учетной записи Adobe Analytics Marketing Cloud. Вы получите приложение с панелью мониторинга и набором отчетов Power BI, с помощью которых можно получить представление о трафике сайта и измерениях пользователей. Данные автоматически обновляются раз в день. Вы можете взаимодействовать с панелью мониторинга и отчетами, но не сохранять изменения.
@@ -98,7 +90,7 @@ Power BI использует API отчетов Adobe Analytics для опре
 ## <a name="troubleshooting"></a>Устранение неполадок
 Если после предоставления учетных данных отображается ошибка, указывающая, что у вас нет разрешений, обратитесь к своему администратору и проверьте наличие доступа к API Adobe Analytics. Также убедитесь, что предоставленный идентификатор Adobe связан с вашей организацией Marketing Cloud (связанной с компанией Adobe Analytics).
 
-Если вы успешно прошли экран ввода учетных данных до того, как произошла ошибка, завершение обработки отчетов может выполняться слишком долго. Распространенное сообщение об ошибке имеет такой вид: *"Не удалось получить данные из отчета Adobe Analytics. Содержимое включало &quot;referrer, page&quot;, приблизительная продолжительность xx с."* Ознакомьтесь с разделом "Содержимое" и сравните размер с размером экземпляра Adobe. К сожалению, сейчас нет способа обойти это время ожидания. Но мы готовим к выпуску обновления, которые позволят улучшить поддержку крупных экземпляров. Оставьте отзыв для группы разработчиков Power BI на веб-сайте https://ideas.powerbi.com.
+Если вы успешно прошли экран ввода учетных данных до того, как произошла ошибка, завершение обработки отчетов может выполняться слишком долго. Распространенное сообщение об ошибке имеет такой вид: *"Не удалось получить данные из отчета Adobe Analytics. Содержимое включало &quot;referrer, page&quot;, приблизительная продолжительность xx с."* Ознакомьтесь с разделом "Содержимое" и сравните размер с размером экземпляра Adobe. К сожалению, сейчас нет способа обойти это время ожидания. Однако мы рассматриваем возможность выпуска обновлений для улучшения поддержки крупных экземпляров. Оставьте отзыв для группы разработчиков Power BI на сайте https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Что из себя представляют приложения в Power BI?](service-install-use-apps.md)

@@ -1,34 +1,31 @@
 ---
 title: Общие сведения о функции "Вопросы и ответы" в службе Power BI и Desktop
 description: Раздел документации по запросам функции "Вопросы и ответы" Power BI на естественном языке.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>"Вопросы и ответы" в службе Power BI и Power BI Desktop
 ## <a name="what-is-qa"></a>Что такое вопросы и ответы?
 Иногда самый быстрый способ получить ответ по данным — задать вопрос, используя естественный язык. Например, «каков объем продаж за прошлый год».  Функцию "Вопросы и ответы" можно использовать для исследования данных с помощью интуитивно понятных возможностей, основанных на естественном языке, получая ответы в виде диаграмм и графиков. Компонент "Вопросы и ответы" отличается от подсистемы поиска: он выдает результаты только о данных в Power BI.
 
 Эта статья содержит общие сведения о функции "Вопросы и ответы" на разных платформах. Ссылки ниже позволяют узнать, как эта функция работает в службе Power BI (панели мониторинга и отчеты), Power BI Desktop (отчеты), Power BI Embedded и Power BI Mobile.  
+
+> [!NOTE]
+> **"Вопросы и ответы" в Power BI** поддерживают взаимодействие на естественном языке, только если используется английский. Вы также можете попробовать функцию ответов на вопросы на испанском языке, доступную в предварительной версии. В **Power BI Desktop** перейдите в раздел **Файл**, **Параметры и настройки**, **Параметры** и найдите вкладку **Предварительная версия функций**. Установите флажок **Поддержка испанского языка для модуля "Вопросы и ответы"**.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

@@ -1,28 +1,20 @@
 ---
 title: Подключение к tyGraph с помощью Power BI
 description: tyGraph для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff0a65d32a95a6926e2c808af119e31effd7e05
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Подключение к tyGraph с помощью Power BI
 Визуализация и исследование данных tyGraph в Power BI с помощью пакета контента Power BI. Начните с подключения к учетной записи tyGraph и загрузки панели мониторинга, отчетов и набора данных. Готовый контент содержит такую информацию, как мера активного участия (оценка MAE) и ведущие участники. Дополнительная настройка контента позволяет выделить наиболее важную для вас информацию.  Данные обновляются автоматически по назначенному вами расписанию.
@@ -45,7 +37,7 @@ ms.lasthandoff: 02/24/2018
 5. Укажите ключ tyGraph для подключения. Дополнительные сведения о том, как найти это значение, см. ниже.
    
     **Если вы являетесь проверенным администратором Yammer**  
-    Ваш ключ API отправляется вам по электронной почте после успешного создания учетной записи tyGraph. Если вы не может найти ключ, можно запросить новый, отправив сообщение электронной почты по адресу support@unlimitedviz.com. Если у вас еще нет учетной записи tyGraph, воспользуйтесь пробной версией на сайте [http://www.tygraph.com/](http://www.tygraph.com/). 
+    Ваш ключ API отправляется вам по электронной почте после успешного создания учетной записи tyGraph. Если вы не может найти ключ, можно запросить новый, отправив сообщение электронной почты по адресу support@unlimitedviz.com. Если у вас еще нет учетной записи tyGraph, вы можете начать пробный период на сайте [http://www.tygraph.com/](http://www.tygraph.com/). 
    
     **Если вы не являетесь проверенным администратором Yammer**
    

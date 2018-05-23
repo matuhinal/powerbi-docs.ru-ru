@@ -1,29 +1,21 @@
 ---
 title: Внедрение с помощью веб-части отчетов в SharePoint Online
 description: С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 11/19/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -143,6 +135,8 @@ ms.lasthandoff: 03/08/2018
   1. Выйдите из SharePoint и войдите в службу снова. Перед повторным входом закройте все окна браузера.
 
   2. Если учетной записи пользователя требуется Многофакторная идентификация (MFA), выполните вход в SharePoint с устройства, поддерживающего Многофакторную идентификацию (мобильное приложение, смарт-карта и т. д.)
+  
+  3. Гостевые учетные записи B2B Azure не поддерживаются. Пользователи увидят логотип Power BI, показывающий, что часть загружается, но отчет не отобразится.
 
 * Power BI не поддерживает те же языки с локализацией, что и SharePoint Online. В результате во внедренном отчете требуемая локализация может не отображаться.
 

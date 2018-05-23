@@ -1,28 +1,20 @@
 ---
 title: Подключение к Marketo с помощью Power BI
 description: Marketo для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Подключение к Marketo с помощью Power BI
 Пакет содержимого Power BI для Marketo позволяет получить подробные сведения об учетной записи Marketo с данными о потенциальных клиентах и их действиях. При создании этого подключения вы извлечете данные и автоматически получите панель мониторинга и связанные отчеты на основе этих данных.
@@ -43,8 +35,8 @@ ms.lasthandoff: 02/24/2018
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   Подробнее о конечной точке REST Marketo: [http://developers.marketo.com/documentation/rest/endpoint-url/](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. Используя **обычную** проверку подлинности, введите идентификатор клиента как **имя пользователя** и секрет клиента как **пароль**. Идентификатор и секрет клиента предоставляются Marketo или администратором Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+   Дополнительные сведения о конечной точке REST Marketo: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
+5. Используя **обычную** проверку подлинности, введите идентификатор клиента как **имя пользователя** и секрет клиента как **пароль**. Идентификатор и секрет клиента можно узнать в Marketo или у вашего администратора Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

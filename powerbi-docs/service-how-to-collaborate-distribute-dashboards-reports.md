@@ -1,28 +1,20 @@
 ---
 title: Как совместно работать и предоставлять общий доступ в Power BI?
 description: В Power BI реализовано несколько способов организации совместной работы над панелями мониторинга, отчетами, плитками и приложениями, а также предоставления к ним общего доступа. Каждый имеет свои преимущества.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 02/28/2017
+ms.reviewer: lukaszp
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: adcba818f60a66ecc4be5827e1ce7688618d0c72
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Как совместно работать и предоставлять общий доступ в Power BI?
 
@@ -56,7 +48,7 @@ ms.lasthandoff: 02/24/2018
 
 ![Значок "Публикация приложения"](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-В службе Power BI ([https://powerbi.com](https://powerbi.com)) приложения легко обнаруживать и устанавливать. Вы можете отправить бизнес-пользователям прямую ссылку на приложение, или они могут найти его в AppSource. С разрешения администратора Power BI его можно установить автоматически в учетных записях Power BI коллег. Дополнительные сведения о [публикации приложений](service-create-distribute-apps.md#publish-your-app). 
+Служба Power BI ([https://powerbi.com](https://powerbi.com)) позволяет легко находить и устанавливать приложения. Вы можете отправить бизнес-пользователям прямую ссылку на приложение, или они могут найти его в AppSource. С разрешения администратора Power BI его можно установить автоматически в учетных записях Power BI коллег. Дополнительные сведения о [публикации приложений](service-create-distribute-apps.md#publish-your-app). 
 
 После установки приложения они смогут просматривать его в браузере или на мобильном устройстве.
 

@@ -1,28 +1,20 @@
 ---
 title: Подключение к SQL Sentry с помощью Power BI
 description: SQL Sentry для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Подключение к SQL Sentry с помощью Power BI
 С помощью Power BI легко проанализировать данные производительности, собранные SQL Sentry. Power BI извлекает данные, а затем создает панель мониторинга по умолчанию и связанные отчеты на основе этих данных.
@@ -30,7 +22,7 @@ ms.lasthandoff: 02/24/2018
 Подключите [пакет содержимого SQL Sentry](https://app.powerbi.com/groups/me/getdata/services/sql-sentry) для Power BI.
 
 >[!NOTE]
->Для подключения требуется доступ к учетной записи SQL Sentry, которую вы используете для подключения к сайту http://cloud.sqlsentry.com, и идентификатор базы данных, которую вы будете отслеживать.  См. инструкции по поиску ИД базы данных ниже.
+>Для подключения требуется доступ к учетной записи SQL Sentry, которую вы используете для подключения к http://cloud.sqlsentry.com, и идентификатор базы данных, которую вы будете отслеживать.  См. инструкции по поиску ИД базы данных ниже.
 
 ## <a name="how-to-connect"></a>Способы подключения
 1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.

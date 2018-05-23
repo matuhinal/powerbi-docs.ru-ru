@@ -1,28 +1,20 @@
 ---
 title: Использование детализации в Power BI Desktop
 description: Узнайте, как детализировать данные на новой странице отчета в Power BI Desktop.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Использование детализации в Power BI Desktop
 С помощью функции **детализации** в **Power BI Desktop** вы можете создать страницу отчета, посвященную определенной сущности, такой как поставщик, клиент или производитель. При использовании такой страницы пользователи могут щелкнуть правой кнопкой мыши точку данных на других страницах отчета и перейти для детализации на страницу определенной сущности, чтобы получить подробные сведения, отфильтрованные с учетом контекста.
@@ -71,6 +63,14 @@ ms.lasthandoff: 05/09/2018
 ![временные фильтры, выделенные курсивом](media/desktop-drillthrough/drillthrough_07.png)
 
 Имейте в виду, что так же можно было бы поступить и со страницами подсказок, но они будут работать неправильно, поэтому делать это не рекомендуется.
+
+## <a name="add-a-measure-to-drillthrough"></a>Добавление меры в детализацию
+
+Помимо передачи всех фильтров в окно детализации, вы можете добавить в область детализации меру (или суммированный числовой столбец). Просто перетащите поле детализации в карточку "Детализация". 
+
+![Добавление меры в детализацию](media/desktop-drillthrough/drillthrough_08.png)
+
+После добавления меры (или суммированного числового столбца) вы сможете перейти к странице при использовании поля в области *Значение* визуализации.
 
 Это все, что нужно знать о **детализации** в отчетах. Это отличный способ получить развернутое представление со сведениями о сущности, выбранной для фильтра детализации.
 

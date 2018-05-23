@@ -1,28 +1,20 @@
 ---
 title: Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 description: Power BI интегрируется с Azure Active Directory "бизнес — бизнес" (Azure AD B2B), чтобы обеспечить безопасное распространение содержимого Power BI для гостевых пользователей за пределами организации.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 16820050ad879b128482af5754bc53973449f982
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 
@@ -62,7 +54,7 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 
 4. Выберите **Пригласить**.
 
-Чтобы пригласить несколько гостевых пользователей, воспользуйтесь PowerShell. Дополнительные сведения см. в статье [Примеры кода и команд PowerShell для службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples).
+Чтобы пригласить несколько гостевых пользователей, воспользуйтесь PowerShell. Дополнительные сведения см. в статье [Примеры кода и команд PowerShell для службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/code-samples).
 
 В полученном электронном письме с приглашением гостевому пользователю нужно выбрать **Get Started** (Приступить к работе). Затем гостевой пользователь добавляется к клиенту.
 
@@ -111,7 +103,7 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 * При приглашении гостей, использующих личные учетные записи электронной почты, такие как gmail.com, outlook.com или hotmail.com, можно руководствоваться этим [внедренным видеороликом](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience), где показан пример регистрации пользователя.
 * Внешние гостевые пользователи B2B могут только использовать содержимое. Они имеют право просматривать приложения, панели мониторинга, отчеты, экспортировать данные и создавать подписки на панели мониторинга и отчеты по электронной почте. Они не могут использовать рабочие области и публиковать собственное содержимое.
 * Этот компонент сейчас недоступен в мобильных приложениях Power BI. На мобильных устройствах содержимое Power BI можно просматривать, используя Azure AD B2B в браузере.
-* Функция гостевых пользователей в Power BI в независимых облаках (для государственных организаций) не поддерживается.
+* Этот компонент сейчас недоступен в веб-части отчетов SharePoint Online в Power BI.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

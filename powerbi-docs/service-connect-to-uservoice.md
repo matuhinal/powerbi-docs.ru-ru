@@ -1,28 +1,20 @@
 ---
 title: Подключение к UserVoice с помощью Power BI
 description: UserVoice для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Подключение к UserVoice с помощью Power BI
 Отслеживание и исследование данных UserVoice упрощается благодаря Power BI и пакету контента UserVoice. Power BI извлекает данные, включая заявки, предложения и оценки удовлетворенности, а затем создает на основе этих данных готовые панели мониторинга и отчеты.
@@ -70,7 +62,7 @@ ms.lasthandoff: 02/24/2018
 
 Если данная ошибка возникает после ввода URL-адреса UserVoice, убедитесь, что выполнены следующие требования:
 
-* URL-адрес точно соответствует шаблону https://fabrikam.uservoice.com, где "fabrikam" заменено правильным префиксом URL-адреса UserVoice.
+* URL-адрес точно соответствует шаблону "https://fabrikam.uservoice.com", где fabrikam — это корректно указанный префикс вашего URL-адреса UserVoice.
 * Убедитесь, что используются только буквы нижнего регистра.
 * Убедитесь, что для URL-адреса указан протокол HTTP**S**.
 * Убедитесь, что в конце URL-адреса отсутствует завершающая косая черта.
@@ -81,7 +73,7 @@ ms.lasthandoff: 02/24/2018
 
 "**Упс! Что-то пошло не так**"
 
-Если указанное сообщение об ошибке появляется во время загрузки данных, убедитесь, что не превышена месячная квота использования API для вашей учетной записи UserVoice. Если все в порядке, попытайтесь выполнить подключение еще раз. Если проблема повторится, обратитесь в службу поддержки Power BI по адресу [https://community.powerbi.com](https://community.powerbi.com/).
+Если указанное сообщение об ошибке появляется во время загрузки данных, убедитесь, что не превышена месячная квота использования API для вашей учетной записи UserVoice. Если все в порядке, попытайтесь выполнить подключение еще раз. Если проблема повторится, обратитесь в службу поддержки Power BI по адресу [https://community.powerbi.com](https://community.powerbi.com/).
 
 **Другое**  
 

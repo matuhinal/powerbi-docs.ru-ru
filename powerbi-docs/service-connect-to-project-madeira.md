@@ -1,28 +1,20 @@
 ---
 title: Подключение к Project Madeira с помощью Power BI
 description: Project Madeira для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Подключение к Project Madeira с помощью Power BI
 Power BI и пакет содержимого Project Madeira значительно упрощают получение аналитических сведений из данных Project "Madeira". Power BI извлекает данные (по продажам и финансовые), затем создает стандартную панель мониторинга и формирует на основе этих данных отчеты.
@@ -40,7 +32,7 @@ Power BI и пакет содержимого Project Madeira значитель
     ![](media/service-connect-to-project-madeira/services.png)
 3. Выберите **Project "Madeira"**, а затем **Получить**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. В ответ на соответствующий запрос введите URL-адрес Project "Madeira". URL-адрес должен точно соответствовать шаблону https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') и использовать название вашей организации для Project "Madeira". Обратите внимание, что косая черта в конце отсутствует, а подключение выполняется по протоколу HTTPS. Дополнительные сведения о поиске [этого URL-адреса](#FindingParams) см. ниже.  
+4. В ответ на соответствующий запрос введите URL-адрес Project "Madeira". URL-адрес должен точно соответствовать шаблону https://mycronusus.projectmadeira.com:7048/NAV/OData/Company(('CRONUS%20US') и использовать название вашей организации для Project Madeira. Обратите внимание, что косая черта в конце отсутствует, а подключение выполняется по протоколу HTTPS. Дополнительные сведения о поиске [этого URL-адреса](#FindingParams) см. ниже.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. При появлении запроса выберите основной метод проверки подлинности, введите адрес электронной почты Project "Madeira" в качестве имени пользователя и ключ доступа к веб-службе для учетной записи Project "Madeira" в качестве пароля. Если вы уже выполнил вход в Project "Madeira" в браузере, возможно, учетные данные не будут запрошены. Подробнее о создании этого ключа доступа см. [ниже](#FindingParams).  
