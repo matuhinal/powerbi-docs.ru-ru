@@ -1,28 +1,20 @@
 ---
 title: Управление емкостью в Power BI Premium и Power BI Embedded
 description: Узнайте, как управлять Power BI Premium и разрешить доступ к содержимому для всей организации.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: d1535dcdd818c3c49c71df9b1b08f115f6091cfc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Управление емкостью в Power BI Premium и Power BI Embedded
 Узнайте, как управлять емкостью Power BI Premium и Power BI Embedded, а именно выделенными ресурсами для вашего содержимого.

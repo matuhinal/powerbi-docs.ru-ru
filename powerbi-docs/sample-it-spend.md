@@ -1,28 +1,20 @@
 ---
-title: "Образец \"Анализ расходов на ИТ\" для Power BI: обзор"
-description: "Образец \"Анализ расходов на ИТ\" для Power BI: обзор"
-services: powerbi
-documentationcenter: 
+title: 'Образец "Анализ расходов на ИТ" для Power BI: обзор'
+description: 'Образец "Анализ расходов на ИТ" для Power BI: обзор'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 904f35ad2ec1cda07393877174ebec5781972b10
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 206d9866b9bb4e47fea5dba58afbc8cdcf28b675
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ расходов на ИТ" для Power BI: обзор
 
@@ -48,7 +40,7 @@ ms.lasthandoff: 02/28/2018
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ расходов ИТ-отдела — пример**, затем выберите **Подключиться**.  
   
-   ![Получение данных](media/sample-it-spend/it-connect.png)
+   ![Получить данные](media/sample-it-spend/it-connect.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    

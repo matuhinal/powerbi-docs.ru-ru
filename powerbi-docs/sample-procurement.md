@@ -1,28 +1,20 @@
 ---
-title: "Знакомство с примером \"Анализ закупок\""
-description: "Образец \"Анализ закупок\" для Power BI: обзор"
-services: powerbi
-documentationcenter: 
+title: Знакомство с примером "Анализ закупок"
+description: 'Образец "Анализ закупок" для Power BI: обзор'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 3bca6f79b3a1b92243948fb64660e8946aedca7c
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: a238e491da93b144edd076360e85c312e3a8765c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ закупок" для Power BI: обзор
 
@@ -52,7 +44,7 @@ ms.lasthandoff: 02/28/2018
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ закупок — пример**, затем выберите **Подключиться**.  
   
-   ![Получение данных](media/sample-procurement/procurement1a.png)
+   ![Получить данные](media/sample-procurement/procurement1a.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    

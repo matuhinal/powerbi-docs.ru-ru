@@ -1,28 +1,20 @@
 ---
 title: Подключение к Salesforce с помощью Power BI
 description: SalesForce для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Подключение к Salesforce с помощью Power BI
 С помощью Power BI вы легко можете подключаться к учетной записи Salesforce.com. После создания этого подключения извлекаются ваши данные, на основе которых автоматически создается панель мониторинга и связанные отчеты.
@@ -42,7 +34,7 @@ ms.lasthandoff: 04/18/2018
 4. Выберите **Вход** для запуска процедуры входа в систему.
    
     ![](media/service-connect-to-salesforce/dialog.png)
-5. При появлении запроса введите учетные данные Salesforce. Щелкните **Разрешить**, чтобы служба Power BI получила доступ к базовым сведениям и данным Salesforce.
+5. При появлении запроса введите учетные данные Salesforce. Щелкните **Разрешить** , чтобы служба Power BI получила доступ к базовым сведениям и данным Salesforce.
    
    ![](media/service-connect-to-salesforce/sf_authorize.png)
 6. Выберите данные, которые вы хотите импортировать в Power BI, из раскрывающегося списка.
@@ -59,7 +51,7 @@ ms.lasthandoff: 04/18/2018
      ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      Если вы не видите все отчеты, добавьте или создайте их в вашей учетной записи Salesforce и повторите попытку подключения.
-7. Нажмите кнопку **Подключить**, чтобы начать импорт. Во время операции появится уведомление о том, что выполняется импорт. После завершения импорта вы увидите панель мониторинга, отчет и набор данных Salesforce на панели навигации слева.
+7. Нажмите кнопку **Подключить** , чтобы начать импорт. Во время операции появится уведомление о том, что выполняется импорт. После завершения импорта вы увидите панель мониторинга, отчет и набор данных Salesforce на панели навигации слева.
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

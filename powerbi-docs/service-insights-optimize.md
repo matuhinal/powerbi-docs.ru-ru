@@ -1,28 +1,20 @@
 ---
-title: "Оптимизация данных для быстрого анализа данных в Power BI"
-description: "Оптимизация данных для быстрого анализа данных в Power BI Если Power BI не находит результаты анализа, можно сделать следующее:"
-services: powerbi
-documentationcenter: 
+title: Оптимизация данных для быстрого анализа данных в Power BI
+description: 'Оптимизация данных для быстрого анализа данных в Power BI Если Power BI не находит результаты анализа, можно сделать следующее:'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2936ac75684e4efe1870c556b27fcbdbc77d17ec
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Оптимизация данных для быстрого анализа данных в Power BI
 Хотите улучшить результаты быстрого анализа данных?  Если вы являетесь владельцем набора данных, попробуйте один из следующих способов:

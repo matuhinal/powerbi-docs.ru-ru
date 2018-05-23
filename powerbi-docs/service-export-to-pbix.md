@@ -1,28 +1,20 @@
 ---
-title: "Как экспортировать отчет службы Power BI в приложение Power BI Desktop (предварительная версия)"
-description: "Скачивание отчета из службы Power BI в файл Power BI Desktop"
-services: powerbi
-documentationcenter: 
+title: Как экспортировать отчет службы Power BI в приложение Power BI Desktop (предварительная версия)
+description: Скачивание отчета из службы Power BI в файл Power BI Desktop
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Экспорт отчета службы Power BI для использования в приложении Power BI Desktop (предварительная версия)
 В Power BI Desktop можно экспортировать отчет в службу Power BI, сохранив отчет и выбрав **Опубликовать**. Процедуру экспорта отчета также называют *скачиванием*. Отчет можно экспортировать и в обратном направлении. Кроме того, отчет можно скачать из службы Power BI и использовать в приложении Power BI Desktop. Файлы, экспортируемые в двух направлениях, имеют расширение *PBIX*.
@@ -38,7 +30,7 @@ ms.lasthandoff: 03/09/2018
 2. В строке меню выберите **Файл > Скачать отчет**.
    
    > [!NOTE]
-   > Отчет должен быть [создан в Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) и изменен после 23 ноября 2016 г. Только такие отчеты доступны для скачивания. В противном случае команда *Скачать отчет* в меню службы Power BI будет неактивна.
+   > Отчет должен быть [создан в Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) и изменен после 23 ноября 2016 г. Только такие отчеты доступны для скачивания. В противном случае команда *Скачать отчет* в меню службы Power BI будет неактивна.
    > 
    > 
 3. Во время создания PBIX-файла отображается баннер состояния, показывающий ход выполнения. Когда PBIX-файл будет готов, вам будет предложено открыть или сохранить его. Имя файла будет соответствовать названию отчета.

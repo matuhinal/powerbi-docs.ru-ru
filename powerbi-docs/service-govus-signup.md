@@ -1,28 +1,20 @@
 ---
 title: Регистрация в Power BI для клиентов из государственных организаций США
 description: Узнайте, как зарегистрировать государственную организацию США в Power BI для использования соответствующей версии службы Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Регистрация государственных организаций США в службе Power BI
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -130,7 +122,7 @@ ms.lasthandoff: 04/26/2018
 Служба Power BI предоставляет широкие возможности. Дополнительные сведения и руководства, включая статью с инструкциями по регистрации в службе, см. по следующим ссылкам:
 
 * [Общие сведения о службе Power BI для государственных организаций США](service-govus-overview.md)
-* [Интерактивное обучение работе с Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Интерактивное обучение работе с Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Приступая к работе со службой Power BI](service-get-started.md)
 * [Начало работы с Power BI Desktop](desktop-getting-started.md)
 

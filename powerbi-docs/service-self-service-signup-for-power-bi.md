@@ -1,28 +1,20 @@
 ---
 title: Регистрация учетной записи отдельного пользователя в Power BI
 description: Узнайте, как зарегистрироваться в Power BI и приступить к работе с отчетами и визуальными элементами для личных нужд.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/02/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Регистрация учетной записи отдельного пользователя в Power BI
 Узнайте, как зарегистрироваться в Power BI и приступить к работе с отчетами и визуальными элементами для личных нужд.

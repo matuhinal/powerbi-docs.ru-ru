@@ -1,28 +1,20 @@
 ---
 title: Использование страниц подсказок для отчетов в Power BI
 description: Страницы подсказок в Power BI Desktop позволяют создавать полнофункциональные подсказки, отображаемые при наведении указателя мыши, для визуальных элементов в отчетах.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Создание подсказок на основе страниц отчетов в Power BI Desktop (предварительная версия)
 Вы можете создать визуально насыщенные **подсказки отчетов**, отображаемые при наведении указателя на визуальные элементы, основываясь на создаваемых в **Power BI Desktop** страницах отчетов. Благодаря этому настраиваемые подсказки могут включать визуальные элементы, изображения и любую другую коллекцию элементов, созданные на странице отчета. 

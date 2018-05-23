@@ -4,13 +4,13 @@
 
 Это последняя часть курса (и его последний раздел, если вы не планируете разбираться с выражениями DAX). Поэтому если вы прошли все эти разделы по порядку, то можете вполне заслуженно похвалить себя. Отличная работа! Теперь вы хорошо разбираетесь во всех **важных понятиях**:
 
-* что такое [Power BI](../gettingstarted.yml#step-1);
-* [стандартные блоки](../gettingstarted.yml#step-3) Power BI;
-* [получение](../gettingdata.yml#step-3) и [моделирование](../modeling.yml#step-1) данных.
-* [Визуализации](../visualizations.yml#step-1)
-* [просмотр данных](../exploringdata.yml#step-1) в службе Power BI;
-* совместное использование [Excel и Power BI](../powerbiandexcel.yml#step-1);
-* [публикация и совместное использование](../publishingandsharing.yml#step-1) своей работы.
+* что такое [Power BI](../gettingstarted.yml?tutorial-step=1);
+* [стандартные блоки](../gettingstarted.yml?tutorial-step=3) Power BI;
+* [получение](../gettingdata.yml?tutorial-step=3) и [моделирование](../modeling.yml?tutorial-step=1) данных.
+* [Визуализации](../visualizations.yml?tutorial-step=1)
+* [просмотр данных](../exploringdata.yml?tutorial-step=1) в службе Power BI;
+* совместное использование [Excel и Power BI](../powerbiandexcel.yml?tutorial-step=1);
+* [публикация и совместное использование](../publishingandsharing.yml?tutorial-step=1) своей работы.
 
 Это большой объем знаний, и теперь, когда вы их изучили, пора эти знания применить на практике. Ниже приведено несколько **ссылок для скачивания файлов** или **подключения браузера к службе Power BI**.
 

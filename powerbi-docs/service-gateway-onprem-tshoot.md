@@ -1,28 +1,20 @@
 ---
 title: Устранение неполадок локального шлюза данных
 description: В этой статье объясняется, как устранять неполадки с локальным шлюзом данных. Здесь описаны обходные решения для известных проблем, а также соответствующие инструменты.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 094a43925c184c6cbce8b023ba4aae655f379dd9
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: a12ad01ad5e387b9ffe855ce15e8164656bfbf33
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 В этой статье описаны распространенные проблемы, которые могут возникнуть при работе с **локальным шлюзом данных**.

@@ -1,29 +1,21 @@
 ---
-title: "Автоматическое создание аналитических сведений с помощью Power BI"
-description: "Узнайте, как получить полезные сведения о наборах данных и плитках панели мониторинга."
-services: powerbi
-documentationcenter: 
+title: Автоматическое создание аналитических сведений с помощью Power BI
+description: Узнайте, как получить полезные сведения о наборах данных и плитках панели мониторинга.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Автоматическое создание аналитических сведений с помощью Power BI
 Вы получили новый набор данных и не знаете, с чего начать?  Вам нужно быстро создать панель мониторинга?  Хотите найти полезные данные, которые вы могли пропустить?

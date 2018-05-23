@@ -1,28 +1,20 @@
 ---
-title: "Создание отчетов, оптимизированных для мобильных приложений Power BI"
-description: "Узнайте, как оптимизировать страницы отчетов в Power BI Desktop для мобильных приложений Power BI."
-services: powerbi
-documentationcenter: 
+title: Создание отчетов, оптимизированных для мобильных приложений Power BI
+description: Узнайте, как оптимизировать страницы отчетов в Power BI Desktop для мобильных приложений Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Создание отчетов, оптимизированных для мобильных приложений Power BI
 [Создавая отчет в Power BI Desktop](desktop-report-view.md), вы можете сделать его удобным для использования в мобильных приложениях на телефонах, выполнив специальную мобильную версию отчета. Чтобы адаптировать отчет для телефона, следует упорядочить визуальные элементы и изменить их размеры, возможно, не включая их все для обеспечения оптимальной производительности. Кроме того, вы можете создавать [*адаптивные* визуальные элементы](#optimize-a-visual-for-any-size) и [адаптивные срезы](#enhance-slicers-to-to-work-well-in-phone-reports), легко изменяющие размер при просмотре на телефоне. Если в отчет добавлены фильтры, в мобильном отчете эти фильтры будут отображаться автоматически. Пользователи будут видеть их и смогут с их помощью фильтровать данные в отчете.

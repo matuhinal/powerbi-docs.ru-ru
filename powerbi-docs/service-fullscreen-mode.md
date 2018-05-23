@@ -1,29 +1,21 @@
 ---
 title: Отображение панелей мониторинга, плиток на ней, страниц отчетов и визуализаций в полноэкранном режиме
 description: Отображение панели мониторинга, плиток на ней, визуализаций и страниц отчетов в полноэкранном режиме (*режиме ТВ*).
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Полноэкранный режим в Power BI
 ## <a name="what-is-full-screen-mode"></a>Что такое полноэкранный режим?
@@ -74,7 +66,7 @@ ms.lasthandoff: 04/18/2018
     ![По размеру экрана](media/service-fullscreen-mode/power-bi-fit-screen.png)
    
     ![Значок "По ширине"](media/service-fullscreen-mode/power-bi-fit-width.png)       
-    Иногда полосы прокрутки не мешают, но нужно, чтобы панель мониторинга занимала всю ширину доступного пространства. Нажмите кнопку **По ширине**.    
+    Иногда полосы прокрутки не мешают, но нужно, чтобы панель мониторинга занимала всю ширину доступного пространства. Для этого нажмите кнопку **По ширине**.    
    
     ![Значок "По размеру экрана"](media/service-fullscreen-mode/power-bi-fit-to-width-new.png)
    
@@ -88,7 +80,7 @@ ms.lasthandoff: 04/18/2018
 1. Чтобы плитки панелей мониторинга и визуализации отчетов отображались в полноэкранном режиме, начните работу с ними в [режиме фокусировки](service-focus-mode.md). 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
-2. Затем выберите значок "Во весь экран" ![значок "Во весь экран"](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  для этой плитки или визуального элемента. Плитка или визуальный элемент отобразятся в полноэкранном режиме без меню и панелей навигации.
+2. Затем выберите значок "Во весь экран" ![значок "Во весь экран"](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  для этой плитки или визуального элемента. Плитка или визуальный элемент отобразятся в полноэкранном режиме без меню или панелей навигации.
    
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 

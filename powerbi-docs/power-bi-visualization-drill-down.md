@@ -1,29 +1,21 @@
 ---
-title: "Детализация в визуализации в Power BI"
-description: "В этом документе демонстрируется детализация в визуализации в службе Microsoft Power BI и Power BI Desktop."
-services: powerbi
-documentationcenter: 
+title: Детализация в визуализации в Power BI
+description: В этом документе демонстрируется детализация в визуализации в службе Microsoft Power BI и Power BI Desktop.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Детализация в визуализации в Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>Детализация с использованием иерархии
@@ -35,7 +27,7 @@ ms.lasthandoff: 02/28/2018
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon4.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
-Даты — это уникальный тип иерархии. При добавлении поля даты в визуализацию Power BI автоматически добавляет иерархию времени, которая включает в себя год, квартал, месяц и день. Дополнительные сведения см. в статье [Поведение иерархий и детализации визуальных элементов](guided-learning/visualizations.yml#step-18) или посмотрите видеоролик ниже.
+Даты — это уникальный тип иерархии. При добавлении поля даты в визуализацию Power BI автоматически добавляет иерархию времени, которая включает в себя год, квартал, месяц и день. Дополнительные сведения см. в статье [Поведение иерархий и детализации визуальных элементов](guided-learning/visualizations.yml?tutorial-step=18) или посмотрите видеоролик ниже.
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -147,7 +139,7 @@ Power BI позволяет разворачивать данные по одн�
 Помимо визуализации, иерархия также отражается в данных, отображаемых для каждого отчета. В следующей таблице показаны результаты команды **Show Data** (Просмотр данных) в отчете с детализацией от одной территории или от всех территорий. По мере детализации можно видеть, как отчет для одной территории становится все более конкретным, а в отчете для всех территорий отображается все больше данных.
 
 
-| Режим развертывания|Territory|Город|Почтовый индекс|Имя|
+| Режим развертывания|Территория|Город|Почтовый индекс|Имя|
 | ---|:---:|:---:|:---:|---|
 |Однонаправленная|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |Все|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|

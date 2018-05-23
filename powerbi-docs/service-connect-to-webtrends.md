@@ -1,28 +1,20 @@
 ---
 title: Подключение к Webtrends с помощью Power BI
 description: Webtrends для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Подключение к Webtrends с помощью Power BI
 Пакет контента Webtrends для Power BI включает множество готовых метрик, в том числе общее число просмотров страницы и посещений по источнику трафика. Визуализация ваших данных Webtrends в Power BI начинается с подключения к вашей учетной записи Webtrends. Используйте стандартные панели мониторинга и отчеты или настройте их так, чтобы выделить информацию, которая наиболее важна для вас.  Данные автоматически обновляются раз в день.
@@ -102,7 +94,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>Устранение неполадок
-Вы можете столкнуться с ошибкой во время загрузки пакета содержимого после ввода своих учетных данных. Если во время загрузки отображается сообщение "Ошибка", просмотрите представленные ниже предложения по устранению неполадок. Если проблемы продолжают возникать, отправьте запрос в службу поддержки по адресу https://support.powerbi.com.
+Вы можете столкнуться с ошибкой во время загрузки пакета содержимого после ввода своих учетных данных. Если во время загрузки отображается сообщение "Ошибка", просмотрите представленные ниже предложения по устранению неполадок. Если проблемы продолжают возникать, отправьте запрос в службу поддержки по адресу https://support.powerbi.com
 
 1. Используется правильный идентификатор профиля (дополнительные сведения см. в. разделе [Поиск параметров](#FindingParams)).
 2. Пользователь имеет доступ к отчетам, перечисленным в разделе ["Содержимое"](#Included).

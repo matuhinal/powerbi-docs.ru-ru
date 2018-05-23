@@ -1,28 +1,20 @@
 ---
-title: "Как закрепить плитку на панели мониторинга из функции \"Вопросы и ответы\""
-description: "Документация по закреплению результатов работы подсистемы вопросов и ответов в качестве плитки на панели мониторинга Power BI"
-services: powerbi
-documentationcenter: 
+title: Как закрепить плитку на панели мониторинга из функции "Вопросы и ответы"
+description: Документация по закреплению результатов работы подсистемы вопросов и ответов в качестве плитки на панели мониторинга Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Закрепление плитки на информационной панели из подсистемы вопросов и ответов
 ## <a name="how-to-pin-a-tile-from-qa"></a>Закрепление плитки из вопросов и ответов
@@ -53,7 +45,7 @@ ms.lasthandoff: 03/09/2018
 
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) позволяет узнать, что визуализация была добавлена на панель мониторинга в качестве плитки.  
 
-   ![Закреплено на панели мониторинга](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![Закреплено на информационной панели](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. Выберите **Перейти на информационную панель**, чтобы просмотреть новую плитку. Здесь вы можете [изменить имя или размер, добавить гиперссылку и переместить плитку, а также выполнить другие действия](service-dashboard-edit-tile.md) на панели мониторинга.
 
    ![Панель мониторинга с плитками](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)

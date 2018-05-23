@@ -1,28 +1,20 @@
 ---
 title: Использование кнопок в Power BI
 description: Кнопки в Power BI Desktop позволяют вам создавать отчеты и панели мониторинга, которые работают как приложения и дают больше возможностей для взаимодействия пользователям
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7858c76703feb53ebb74bec998ecbebcba3994cc
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: a56108668bea3e5210c4429825045ebb23faf72c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="using-buttons-in-power-bi"></a>Использование кнопок в Power BI
 **Кнопки** в Power BI позволяют создавать отчеты и панели мониторинга, которые работают как приложения. С их помощью вы можете создать удобную среду, где пользователи могут эффективно взаимодействовать мышью с элементами Power BI. Добавив кнопки в отчеты **Power BI Desktop**, предоставьте к ним общий доступ или опубликуйте их в службе Power BI и создайте панели мониторинга, чтобы пользователи могли работать с отчетами, как с обычными приложениями.

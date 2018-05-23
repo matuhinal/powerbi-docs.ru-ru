@@ -1,28 +1,20 @@
 ---
 title: Совместная работа в рабочей области приложения Power BI
 description: Узнайте, как совместно работать с файлами Power BI Desktop в рабочей области приложения, используя такие возможности службы Office 365, как предоставление общего доступа к файлам в OneDrive для бизнеса, общение в Exchange, календарь и задачи.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Совместная работа в рабочей области приложения Power BI
 Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Ведь эти рабочие области предназначены для совместной работы. Поработав со своими коллегами над информационными панелями и отчетами, упакуйте их в виде приложения и распространите. Дополнительные сведения о создании приложений и рабочих областей приложений в Power BI см. в [этой статье](service-create-distribute-apps.md). 

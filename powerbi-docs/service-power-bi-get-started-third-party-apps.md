@@ -1,28 +1,20 @@
 ---
-title: "Начало работы со сторонними приложениями в Power BI"
-description: "Начало работы со сторонними приложениями в Power BI"
-services: powerbi
-documentationcenter: 
+title: Начало работы со сторонними приложениями в Power BI
+description: Начало работы со сторонними приложениями в Power BI
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d1204c15e7f9cc0dae7685eae959ef2018b634a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-third-party-apps"></a>Начало работы со сторонними приложениями
 В Power BI можно использовать приложения, разработанные не корпорацией Майкрософт, а сторонними компаниями и программистами. Например, с помощью такого приложения можно интегрировать плитки Power BI в пользовательское веб-приложение. При использовании стороннего приложения вам будет предложено предоставить ему определенные разрешения на доступ к вашей учетной записи и ресурсам Power BI. Разрешения следует предоставлять только известным и надежным приложениям. Вы можете в любой момент отозвать у приложения предоставленные ему разрешения. См. раздел [Отзыв разрешений для стороннего приложения](#revoke).

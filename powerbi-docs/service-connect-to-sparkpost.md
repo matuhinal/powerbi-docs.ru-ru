@@ -1,28 +1,20 @@
 ---
 title: Подключение к SparkPost с помощью Power BI
 description: SparkPost для Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0d477906b64c2d106a08a284bda9a4898f4a5298
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Подключение к SparkPost с помощью Power BI
 Пакет содержимого Power BI для SparkPost позволяет извлекать ценные наборы данных из вашей учетной записи SparkPost в виде одной удобной информационной панели. С помощью пакета содержимого SparkPost можно визуализировать всю вашу статистику по электронной почте, включая домены, кампании и взаимодействие с поставщиком услуг Интернета.

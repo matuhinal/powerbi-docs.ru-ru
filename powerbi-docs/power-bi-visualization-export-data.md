@@ -1,29 +1,21 @@
 ---
-title: "Экспорт данных из визуализации Power BI"
-description: "Экспортируйте данные из визуализаций отчетов и панелей мониторинга и просматривайте их в Excel."
-services: powerbi
-documentationcenter: 
+title: Экспорт данных из визуализации Power BI
+description: Экспортируйте данные из визуализаций отчетов и панелей мониторинга и просматривайте их в Excel.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: jtlLGRKBvXY
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b5e5463f19c95106a026770ad987f013f472e541
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="export-data-from-visualizations"></a>Экспорт данных из визуализаций
 Чтобы просмотреть данные, которые используются для создания визуализации, [откройте их в Power BI](service-reports-show-data.md) или экспортируйте в Excel в виде файла с расширением XLSX или CSV.   
