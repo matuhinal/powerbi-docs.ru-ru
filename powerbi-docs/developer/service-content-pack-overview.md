@@ -1,27 +1,19 @@
 ---
-title: "Общие сведения о программе для пакетов содержимого службы Power BI"
-description: "Программа сертификации для пакетов содержимого"
-services: powerbi
-documentationcenter: 
+title: Общие сведения о программе для пакетов содержимого службы Power BI
+description: Программа сертификации для пакетов содержимого
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Общие сведения о программе для пакетов содержимого службы Power BI
 Пакет содержимого — это набор готового содержимого, позволяющий пользователям мгновенно получить ценные сведения из источника. Пакет содержимого обычно ориентирован на конкретный бизнес-сценарий, предоставляя аналитические сведения для роли, домена или рабочего процесса.
@@ -85,7 +77,7 @@ ms.lasthandoff: 03/09/2018
 Отправляйте нам свои вопросы по адресу [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Поддержка
-Для получения поддержки во время разработки используйте [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Эта служба активно отслеживается и контролируется. Сообщения об инцидентах быстро передаются в соответствующую группу.
+Для поддержки во время разработки используйте [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Эта служба активно отслеживается и контролируется. Сообщения об инцидентах быстро передаются в соответствующую группу.
 
 ## <a name="next-step"></a>Дальнейшие действия
 [Создание](template-content-pack-authoring.md)

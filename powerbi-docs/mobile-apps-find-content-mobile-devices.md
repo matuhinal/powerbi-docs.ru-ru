@@ -1,27 +1,19 @@
 ---
-title: "Поиск панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI"
-description: "См. сведения о расположении панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI в зависимости от источника данных."
-services: powerbi
-documentationcenter: 
+title: Поиск панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI
+description: См. сведения о расположении панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI в зависимости от источника данных.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Поиск панелей мониторинга, отчетов и приложений в мобильных приложениях Power BI
 Область применения:
@@ -74,7 +66,7 @@ ms.lasthandoff: 02/09/2018
 ![Панель Power BI "Мне предоставлен доступ"](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5. Рабочие области
-*Рабочие области приложений* — это промежуточные среды в службе Power BI ([https://powerbi.com](https://powerbi.com)), где вы можете совместно работать с коллегами над созданием коллекций информационных панелей и отчетов. Затем эти коллекции можно распространять в виде *приложений*. 
+*Рабочие области приложений* — это промежуточные среды в службе Power BI ([https://powerbi.com](https://powerbi.com)), где вы можете совместно работать с коллегами над созданием коллекций панелей мониторинга и отчетов. Затем эти коллекции можно распространять в виде *приложений*. 
 
 В мобильных приложениях вы можете просматривать содержимое и взаимодействовать с ним в любой рабочей области, в которой вы являетесь участником или администратором. Вы не можете публиковать приложения из рабочих областей в мобильных приложениях.
 

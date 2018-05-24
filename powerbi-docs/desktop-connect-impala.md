@@ -1,28 +1,20 @@
 ---
 title: Подключение к базе данных Impala в Power BI Desktop
 description: Простое и удобное подключение к базе данных Impala в Power BI Desktop и ее использование
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Подключение к базе данных Impala в Power BI Desktop
 В Power BI Desktop вы можете подключиться к базе данных **Impala** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
@@ -36,7 +28,7 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-При появлении запроса введите имя пользователя и пароль или подключитесь анонимно (поддерживаются оба варианта).
+При появлении запроса введите учетные данные или подключитесь анонимно. Соединитель Impala поддерживает анонимную проверку подлинности, базовую проверку подлинности (имя пользователя + пароль) и проверку подлинности Windows.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,7 +44,7 @@ ms.lasthandoff: 04/26/2018
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 Существуют определенные ограничения и рекомендации, которые следует учитывать в соединителе **Impala**.
 
-* Будущие планы включают поддержку обновлений с использованием **Power BI Gateway**.
+* Соединитель Impala поддерживается в локальном шлюзе данных с помощью любого из трех механизмов проверки подлинности.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.

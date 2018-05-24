@@ -846,7 +846,9 @@
           items:
             - name: Приступая к работе с Power BI для приложения Android
               href: mobile-android-app-get-started.md
-            - name: Исправление ошибки "корпоративный SSL-сертификат не является доверенным"
+            - name: Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным)
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Исправление ошибки "Need to update Android System Webview" (Необходимо обновить компонент Android System Webview)
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:

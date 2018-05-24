@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 Когда вы открываете отчет в службе Power BI, можно заметить, что каждая страница отчета имеет собственный уникальный URL-адрес. Для фильтрации этой страницы отчета можно использовать область "Фильтры" на холсте отчета.  Также для фильтрации отчета можно добавить параметры строки запроса в URL-адрес. Возможно, у вас есть отчет, который вы хотите показать коллегам и который для этого необходимо предварительно отфильтровать. Это можно сделать, добавив параметры фильтрации к присваиваемому по умолчанию URL-адресу отчета для отправки по электронной почте.
@@ -97,9 +97,10 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 Тем не менее бывают ситуации, когда вам нужно увидеть разные результаты: отфильтрованные данные на панели мониторинга и неотфильтрованные в отчете.
 
-## <a name="limitations-and-troubleshooting"></a>Ограничения и устранение неполадок
+## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 Есть несколько моментов, которые следует учитывать при использовании параметров строки запроса.
 
+* Сервер отчетов Power BI позволяет вам [передавать параметры отчета](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), включая их в его URL-адрес. Эти параметры URL-адреса не имеют никаких префиксов, так как они передаются непосредственно в подсистему обработки отчетов. 
 * Фильтрация строки запроса не поддерживается при [веб-публикации](service-publish-to-web.md) и в Power BI Embedded.   
 * Тип поля должен быть числовым или строковым.
 * Имена таблицы и поля не должны содержать пробелов.

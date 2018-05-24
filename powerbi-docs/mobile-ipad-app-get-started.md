@@ -1,27 +1,19 @@
 ---
-title: "Начало работы с мобильным приложением Power BI на iPad"
-description: "Microsoft Power BI для приложений iOS теперь доступно для мобильных устройств iPad. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде."
-services: powerbi
-documentationcenter: 
+title: Начало работы с мобильным приложением Power BI на iPad
+description: Microsoft Power BI для приложений iOS теперь доступно для мобильных устройств iPad. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Начало работы с мобильным приложением Power BI на iPad
 Приложение Microsoft Power BI для iOS на устройствах iPhone позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -67,7 +59,7 @@ ms.lasthandoff: 03/08/2018
 1. Коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) в левом верхнем углу экрана, а затем коснитесь значка "Параметры" ![Значок "Параметры"](media/mobile-ipad-app-get-started/power-bi-ios-settings-gear.png).
 2. Коснитесь **Примеры для Power BI**, выберите роль и ознакомьтесь с панелью мониторинга для этой роли.  
    
-   ![Примеры Power BI](media/mobile-ipad-app-get-started/pbi_ipad_samples2.png)
+   ![Примеры Power BI](media/mobile-ipad-app-get-started/pbi_ipad_samples2.png)
    
    > [!NOTE]
    > В примерах доступны не все функции. Например, нельзя просматривать образцы отчетов, которые лежат в основе панелей мониторинга. 

@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Краткое руководство. Навигация в службе Power BI
 
@@ -125,6 +125,19 @@ ms.lasthandoff: 05/17/2018
 ![сортировка содержимого](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Дополнительные сведения см. в статье [Поиск и сортировка содержимого в Power BI](service-navigation-search-filter-sort.md).
+
+## <a name="clean-up-resources"></a>Очистка ресурсов
+Завершив работу с этим кратким руководством, вы можете при желании удалить примеры панели мониторинга, отчета и набора данных "Анализ розничной торговли".
+
+1. Откройте службу Power BI (app.powerbi.com) и войдите в нее.    
+2. В панели навигации слева выберите **"Рабочие области" > "Моя рабочая область"**.  
+    Видите желтую звездочку? Она показывает, что область является избранной.    
+3. На вкладке **Панели мониторинга** щелкните значок **Удалить** в форме корзины напротив панели "Анализ розничной торговли".    
+
+    ![Удаление панели мониторинга](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Выберите вкладку **Отчеты** и повторите действия по удалению для отчета "Анализ розничной торговли".
+1. Выберите вкладку **Наборы данных** и повторите действия по удалению для набора данных "Анализ розничной торговли".
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
