@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/21/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 39cd9c92128ca352c713bc2e37624356fea412e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0b7f28fd2c20634836ed3bf75b8e6bce93890690
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Образец "Продажи и маркетинг" для Power BI: обзор
 
@@ -23,13 +23,13 @@ ms.lasthandoff: 05/17/2018
 
 У VanArsdel много конкурентов, однако компания является лидером рынка в отрасли. Руководитель отдела маркетинга хочет увеличить долю рынка и найти новые возможности для получения прибыли. Но по некоторым причинам доля компании на рынке начала уменьшаться. Значительное снижение наблюдалось в июне.
 
-Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные с сайта Obvience (www.obvience.com), которые были обезличены.
+Этот образец входит в серию, демонстрирующую, как можно использовать Power BI с бизнес-данными, отчетами и информационными панелями. Это реальные данные из obviEnce (www.obvience.com), которые были анонимизированы.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
 ## <a name="prerequisites"></a>Предварительные требования
 
- Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [PBIX-файл](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529785).
+ Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [PBIX-файл](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529785).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Получение пакета содержимого для этого примера
 

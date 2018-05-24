@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/20/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Моделирование языка и лингвистическая схема 
 Эффективный обработчик позволяет задавать вопросы о данных с помощью обычных фраз и естественного языка. Еще больше впечатляет, когда от данных поступает ответ. Именно эту возможность предоставляет функция "Вопросы и ответы" в Power BI. Когда вы задаете вопрос функции "Вопросы и ответы" в Power BI, она пытается дать максимально правильный ответ. 
@@ -53,10 +53,7 @@ ms.lasthandoff: 05/17/2018
 
     ![Каким образом вы хотите открыть этот файл?](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
-4. В Visual Studio Code установите расширение "YAML Support by Red Hat".
-
-   
-
+4. В Visual Studio Code установите расширение "YAML Support by Red Hat".    
     а. Перейдите на вкладку **Расширения** (первая слева) или нажмите клавиши CTRL+SHIFT+X.    
     ![значок расширений](media/power-bi-q-and-a-linguistic-schema/power-bi-extensions.png)    
     б. Выполните поиск по запросу "yaml" и выберите в списке элемент **YAML Support by Red Hat**.    

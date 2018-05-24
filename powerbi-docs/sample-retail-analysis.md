@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: ff5da3623d572b8ecb3edc8c5eb40d866e6961d5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bd8af06085983fbc9a6353fa2707d4d26a4e5413
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ розничной торговли" для Power BI: обзор
 
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/17/2018
 
 ## <a name="prerequisites"></a>Предварительные требования
 
- Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [PBIX-файл](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
+ Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [PBIX-файл](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Получение пакета содержимого для этого примера
 
@@ -37,11 +37,11 @@ ms.lasthandoff: 05/17/2018
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ розничной торговли — пример**, затем выберите **Подключиться**.  
   
-   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail16.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail16.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    
-   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail17.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
@@ -155,7 +155,7 @@ ms.lasthandoff: 05/17/2018
 
 В такой безопасной среде можно работать. Отказаться от сохранения изменений можно в любой момент. Однако если изменения сохраняются, всегда можно выбрать функцию "Получить данные" для получения новой копии этого образца.
 
-## <a name="connect-to-your-data"></a>Подключение к данным
+## <a name="connect-to-your-data"></a>Подключайтесь к своим данным
 Мы надеемся, что в этом обзоре вы узнали, каким образом с помощью панелей мониторинга, вопросов и ответов и отчетов можно получить представление о данных о розничных продажах. Теперь ваша очередь — выполните подключение к собственным данным. С помощью Power BI можно подключаться ко многим типам источников данных. Узнайте больше о [начале работы с Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
