@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Подписка на отчет или панель мониторинга
                   href: service-report-subscribe.md
+                - name: Множество способов открытия отчета
+                  href: service-report-open.md
                 - name: Переименование содержимого Power BI
                   href: service-rename.md
                 - name: Отображение панелей мониторинга и отчетов в полноэкранном режиме (ТВ-режим)
