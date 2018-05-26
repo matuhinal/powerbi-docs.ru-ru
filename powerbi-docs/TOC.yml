@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: Поддержка браузеров
           href: report-server/browser-support.md
-        - name: Сервер отчетов для администраторов
+        - name: Обзор функций администратора
           href: report-server/admin-handbook-overview.md
         - name: Основные сведения о сервере отчетов
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: "Настройка Kerberos для использования отчетов Power\_BI"
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: Удаленная настройка доступа для мобильного приложения
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: Размещение книг Excel
               href: report-server/excel-oos.md
     - name: Справка
