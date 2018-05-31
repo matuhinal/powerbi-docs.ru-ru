@@ -1,29 +1,20 @@
 ---
 title: Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 description: Вы можете задать вопросы о тестовых данных в свободной текстовой форме с помощью виртуального аналитика "Вопросы и ответы" в мобильном приложении Power BI на устройстве iOS.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 85487567d428618034f6f026324846fbfbd87baf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812180"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295015"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 
@@ -70,21 +61,21 @@ ms.locfileid: "33812180"
 
 4. Выберите пример **Анализ розничной торговли**.
  
-    ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/power-bi-rs.png)
+    ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/power-bi-rs.png)
  
 8. Нажмите кнопку **Подключиться**.  
   
-   ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/retail16.png)
+   ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/retail16.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область.
    
-   ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
+   ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
 **Получение примера "Анализ возможных сделок"**.
 
 - Выполните те же действия, что описаны выше для анализа розничной торговли, но на шаге 4 выберите пример **Анализ возможных сделок**.
 
-    ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/power-bi-oa.png)
+    ![Анализ розничной торговли — пример](media/mobile-apps-ios-qna/power-bi-oa.png)
   
 Теперь все готово для просмотра примеров на устройстве iOS.
 

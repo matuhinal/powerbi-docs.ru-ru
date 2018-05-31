@@ -1,29 +1,20 @@
 ---
 title: Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 description: Мобильное приложение Android для Microsoft теперь доступно для мобильных устройств. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/18/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: 16d3755af688a3bfb99964957f284fde3c658328
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33946039"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297453"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 

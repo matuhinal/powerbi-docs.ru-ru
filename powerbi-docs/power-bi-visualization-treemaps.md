@@ -1,30 +1,22 @@
 ---
 title: Древовидные диаграммы в Power BI
 description: Древовидные диаграммы в Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5c9ce6b7b25170e87ea3474519036e854b15e940
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813215"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295360"
 ---
 # <a name="treemaps-in-power-bi"></a>Древовидные диаграммы в Power BI
 Диаграмма дерево отображает иерархические данные в виде набора вложенных прямоугольников.  Каждый уровень иерархии представлен цветным прямоугольником (часто называемом ветвью), который содержит другие прямоугольники (листья).  Пространство внутри каждого прямоугольника выделяется на основе измеряемого количественного значения. Прямоугольники упорядочиваются по размеру: от верхнего левого (самый большой) до нижнего правого (самый маленький).
@@ -45,7 +37,7 @@ ms.locfileid: "33813215"
 
 ### <a name="prerequisites"></a>Предварительные требования
  - Служба Power BI или Power BI Desktop
- - Анализ розничной торговли — образец
+ - Анализ розничной торговли — пример
 
 ## <a name="create-a-basic-treemap"></a>Создание простой диаграммы дерева
 Хотите сначала посмотреть демонстрацию создания диаграммы дерева?  Перейдите к отметке 2:10 в этом видео, чтобы посмотреть, как Аманда создает диаграмму дерева.

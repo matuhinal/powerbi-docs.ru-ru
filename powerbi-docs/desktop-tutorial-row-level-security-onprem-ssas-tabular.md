@@ -1,22 +1,29 @@
 ---
 title: Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services в Power BI
 description: Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
+services: powerbi
+documentationcenter: ''
 author: selvarms
 manager: amitaro
-ms.reviewer: davidi
+backup: davidi
 editor: davidi
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: tutorial
-ms.date: 10/21/2017
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.openlocfilehash: 85b76c5defe2fe20b5e90fbc7a8b094e28c40481
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2018
-ms.locfileid: "34456141"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810858"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 В этом учебном руководстве описаны действия, необходимые для реализации **безопасности на уровне строк** в **табличной модели Analysis Services**, и показано, как использовать эти функции в отчете Power BI. Здесь приведены пошаговые инструкции, которые помогут вам познакомиться с последовательностью необходимых действий на примере набора данных.
