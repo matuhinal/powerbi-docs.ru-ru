@@ -1,28 +1,21 @@
 ---
 title: Сертифицированные пользовательские визуализации Power BI
 description: Требования к пользовательскому визуальному элементу для сертификации и процедура его отправки. А также список уже сертифицированных пользовательских визуальных элементов.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297016"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -105,11 +98,13 @@ ms.lasthandoff: 04/05/2018
 | [Сетка изображения](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [Конструктор инфографики](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [Диаграмма с ключевыми показателями эффективности от Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
+| [Столбец КПЭ от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Видео](https://youtu.be/rU0xoOlIq1U) |
 | [Индикатор ключевого показателя эффективности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [Область КПЭ от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Видео](https://youtu.be/cudG4gsZ2V8) |
 | [Линейный датчик от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Видео](https://youtu.be/7_jFaM30dkc) |
 | [Линейно-точечная диаграмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
 | [Диаграмма Mekko](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [Видео](https://youtu.be/90FLCKpgicA) |
+| [Обзор от CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) | |
 | [Ось воспроизведения (динамический срез)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Ключевой показатель эффективности производительности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Видео](https://youtu.be/IvfIP3E6-1Q) |
 | [Матрица КПЭ производительности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Видео](https://youtu.be/1enze8pcGzY) |

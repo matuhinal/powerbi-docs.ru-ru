@@ -1,31 +1,24 @@
 ---
-title: Срезы в Power BI (руководство)
-description: 'Учебник: срезы в Power BI'
-services: powerbi
-documentationcenter: ''
+title: Срезы в Power BI
+description: Срезы в Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297361"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Срезы в Power BI (руководство)
+# <a name="slicers-in-power-bi"></a>Срезы в Power BI
 Вам необходимо, чтобы ваши читатели отчетов могли просматривать общие показатели продаж и производительности по отдельному региональному менеджеру и в разные временные рамки. Вы можете создать отдельные страницы отчета, сравнительные диаграммы или воспользоваться срезом. Срез — это альтернативный вариант фильтрации, который сужает часть набора данных, отображаемую в других визуализациях в отчете. 
 
 В этом руководстве используется бесплатный [пример анализа розничной торговли](sample-retail-analysis.md), позволяющий ознакомиться с созданием, форматированием и использованием среза списка и диапазона дат. Надеемся, что этот материал о форматировании и использовании срезов вам понравится. 

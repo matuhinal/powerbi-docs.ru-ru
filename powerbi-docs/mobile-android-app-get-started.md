@@ -1,29 +1,31 @@
 ---
-title: "Начало работы с мобильным приложением Power BI на телефонах с Android"
-description: "Мобильное приложение Android для Microsoft теперь доступно для мобильных устройств. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде."
+title: Начало работы с мобильным приложением Power BI на устройствах под управлением Android
+description: Мобильное приложение Android для Microsoft теперь доступно для мобильных устройств. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/18/2016
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 16d3755af688a3bfb99964957f284fde3c658328
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33946039"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Начало работы с мобильным приложением Power BI на телефонах с Android
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
 
 ![Панель мониторинга в приложении Power BI для Android](media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -33,34 +35,37 @@ ms.lasthandoff: 03/08/2018
 * [Публикуйте их в службе Power BI](service-get-started.md) и создавайте панели мониторинга.
 * [Публикуйте их локально на Сервере отчетов Power BI](report-server/quickstart-create-powerbi-report.md).
 
-Затем в приложении Power BI для устройств Android работайте с панелями мониторинга и отчетами как локально, так и в облаке.
+Затем в приложении Power BI для Android работайте с панелями мониторинга и отчетами как локально, так и в облаке.
 
 Узнайте о [новых возможностях мобильных приложений Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
-## <a name="first-things-first"></a>Начните с главного
-* **Получите приложение**. [Скачайте приложение Android для Power BI](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина Google Play.
+## <a name="prerequisites"></a>Предварительные требования
+
+### <a name="get-the-app"></a>Получение приложения
+
+[Скачайте приложение Power BI для Android](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина Google Play.
   
-  Power BI можно запустить на ряде различных телефонов Android. Телефон должен работать под управлением ОС Android, начиная с версии 5.0. Чтобы проверить версию ОС на телефоне, выберите **Параметры** > **Об устройстве** > **Версия Android**. 
-* **Приступайте к работе, открыв приложение**. После открытия приложения даже без регистрации или входа можно просматривать страницы входа, чтобы быстро получить представление о том, что можно делать в приложении Power BI на телефоне Android. Коснитесь пункта **Пропустить**, чтобы просмотреть и изучить примеры и получить практический опыт работы с приложением. [К примерам можно вернуться](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) в любой момент с домашней страницы панелей мониторинга.
-* Узнайте о [новых возможностях мобильных приложений Power BI](mobile-whats-new-in-the-mobile-apps.md).
+Power BI можно запускать на разных устройствах Android под управлением операционной системы Android 5.0 или более поздней версии. Чтобы проверить версию ОС на устройстве, выберите **Settings** > **About device** > **Android version** (Параметры > Об устройстве > Версия Android). 
+
+**Приступайте к работе, открыв приложение**    
+Даже без регистрации или входа вы сможете просматривать в открытом приложении начальные страницы, которые дают некоторое представление о возможностях этого приложения Power BI на устройстве Android. Коснитесь пункта **Пропустить**, чтобы просмотреть и изучить примеры и получить практический опыт работы с приложением. [К примерам можно вернуться](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) в любой момент с домашней страницы панелей мониторинга.
+
+Узнайте о [новых возможностях мобильных приложений Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Регистрация в службе Power BI в Интернете
-Если вы еще не зарегистрировались, перейдите в [службу Power BI (http://powerbi.com/)](http://powerbi.com/), чтобы зарегистрировать собственную учетную запись для создания и хранения информационных панелей и отчетов, а также консолидации ваших данных. Затем войдите в Power BI с вашего телефона Android, чтобы просматривать свои панели мониторинга из любого места.
+Если вы еще не зарегистрировались, перейдите в [службу Power BI (http://powerbi.com/)](http://powerbi.com/), чтобы зарегистрировать собственную учетную запись для создания и хранения информационных панелей и отчетов, а также консолидации ваших данных. Затем войдите в Power BI с вашего устройства Android, чтобы просматривать свои панели мониторинга из любого места.
 
 1. В службе Power BI коснитесь кнопки [Зарегистрироваться](http://go.microsoft.com/fwlink/?LinkID=513879), чтобы создать учетную запись Power BI.
 2. Начните [создавать собственные информационные панели и отчеты](service-get-started.md).
 
-## <a name="get-started-with-the-power-bi-app-on-your-phone"></a>Начало работы с приложением Power BI на телефоне
-1. На телефоне Android на начальном экране откройте приложение Power BI для Android.
+## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Начало работы с приложением Power BI на мобильном устройстве
+1. На устройстве Android откройте приложение Power BI для Android с помощью значка на стартовом экране.
    
    ![Значок Power BI](media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. Чтобы просмотреть панели мониторинга и отчеты Power BI, нажмите **Power BI**.  
    
-   > [!IMPORTANT]
-   > Если вы получите сообщение о том, что не удалось войти в Power BI, см. статью [Исправление ошибки "корпоративный SSL-сертификат не является доверенным"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md).
-   > 
-   > 
-   
+   Если вы получите сообщение о том, что не удалось войти в Power BI, см. статью [Исправление ошибки "корпоративный SSL-сертификат не является доверенным"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md).
+
    Чтобы просмотреть мобильные отчеты и ключевые показатели эффективности служб Reporting Services и сервера отчетов Power BI, выберите **Сервер отчетов**.
    
    ![Вход в Power BI](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
@@ -130,7 +135,7 @@ Microsoft Intune позволяет управлять такими элемен
 * Просмотр [приложений](service-install-use-apps.md).
 * [Добавление заметок и совместное использование плиток](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [Совместное использование информационных панелей](mobile-share-dashboard-from-the-mobile-apps.md).
-* Открытие панели мониторинга или отчета с помощью [сканирования QR-кода Power BI](mobile-apps-qr-code.md). 
+* [Сканирование QR-кода Power BI](mobile-apps-qr-code.md) с телефона Android позволяет открыть определенную панель мониторинга или отчет. 
 * Просмотр [уведомлений об изменениях в вашей учетной записи Power BI](mobile-apps-notification-center.md), например о панелях мониторинга, к которым ваши коллеги предоставили вам доступ.
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Отчеты и ключевые показатели эффективности на веб-портале сервера отчетов Power BI и служб Reporting Services

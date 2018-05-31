@@ -1,27 +1,20 @@
 ---
 title: Вебинары о Power BI
 description: Вебинары о Power BI
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299293"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -31,17 +24,13 @@ ms.lasthandoff: 04/27/2018
 
 Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
 
-**[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Серия вебинаров о внедрении платформы Power BI)
-<br>Авторы: Ману Канварпал (Manu Kanwarpal) и Пол Хенвуд (Paul Henwood)
-<br>*Март, апрель и май, 2018 г., 9:00 по тихоокеанскому времени, 24:00 по восточному поясному*
+**Визуализируйте аналитические сведения с помощью Power BI и Visio**
+<br>(Шакун Гровер ( Shakun Grover))
+<br>*22 мая 2018, 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
 
-Планируйте эффективное развертывание Power BI для своей организации и изучите нюансы эффективного управления приложениями по модели "программное обеспечение как услуга" (SaaS). Этот вебинар состоит из 5 частей и раскрывает потенциал Power BI для вашей организации.
+Примите участие в этом вебинаре, чтобы узнать, как объединять панели мониторинга Power BI и схемы Microsoft Visio для визуализации аналитических сведений. Visio и Power BI являются удобными средствами, которые естественным образом дополняют друг друга. Visio позволяет создавать наглядные схемы, например взаимосвязанных рабочих процессов и реальных макетов. Power BI позволяет создавать интуитивно понятные панели мониторинга с помощью диаграмм и карт для измерения ключевых показателей эффективности и отслеживания целей.
 
-[Зарегистрироваться, чтобы посмотреть вебинар 1 мая. Part 5 — Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Часть 5. Развертывание: успешное развертывание Power BI)
-<br>[Зарегистрироваться и начать просмотр. Part 4 — Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Часть 4. Безопасность: защита данных с помощью Power BI)
-<br>[Зарегистрироваться и начать просмотр. Part 3 — Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Часть 3. Управление услугами: сведения об управлении услугами Power BI)
-<br>[Зарегистрироваться и начать просмотр. Part 2 — Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Часть 2. Система управления: управление использованием Power BI)
-<br>[Зарегистрироваться и начать просмотр. Part 1 — Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Часть 1. Реализация: реализация культуры принятия решений на основе данных)
+[Зарегистрироваться для просмотра 22 мая](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Дополнительные сведения о Power BI Embedded за 20 минут**
 <br>Авторы: Меган Ассарейн (Megan Asarrane) и Колин Мерфи (Colin Murphy)
@@ -88,6 +77,10 @@ ms.lasthandoff: 04/27/2018
 **How to Design Visually Stunning Power BI Reports** (Как создать визуально привлекательные отчеты в Power BI)
 <br>Автор: Чарльз Стерлинг (Charles Sterling)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Выходя за возможности электронных таблиц**
+<br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **Transforming A Report From Good to GREAT!** (Преобразование отчета из хорошего в отличный!)
 <br>Автор: Райд Хейвенс (Reid Havens)
@@ -139,6 +132,14 @@ ms.lasthandoff: 04/27/2018
 <br>Авторы: Нагасаикиран Камбхампати (Nagasaikiran Kambhampati) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться для просмотра](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Загрузить начальный набор расширенной аналитики](https://aka.ms/pbiaawebinar)
+
+**[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Серия вебинаров о внедрении платформы Power BI)
+<br>Авторы: Ману Канварпал (Manu Kanwarpal) и Пол Хенвуд (Paul Henwood)
+<br>[Зарегистрироваться и начать просмотр. Part 1 — Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Часть 1. Реализация: реализация культуры принятия решений на основе данных)
+<br>[Зарегистрироваться и начать просмотр. Part 2 — Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Часть 2. Система управления: управление использованием Power BI)
+<br>[Зарегистрироваться и начать просмотр. Part 3 — Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Часть 3. Управление услугами: сведения об управлении услугами Power BI)
+<br>[Зарегистрироваться и начать просмотр. Part 4 — Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Часть 4. Безопасность: защита данных с помощью Power BI)
+<br>[Зарегистрироваться, чтобы посмотреть сейчас. Part 5 — Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Часть 5. Развертывание. Успешное развертывание Power BI)
 
 **Серия вебинаров по Office 365 для финансовых специалистов**
 <br>Авторы: Марк Траверсо (Mark Traverso), Карлос Отейро (Carlos Otero), Джонни Томас (Johnnie Thomas), Аманда Кофски (Amanda Cofsky) и Мигель Мартинес (Miguel Martinez)

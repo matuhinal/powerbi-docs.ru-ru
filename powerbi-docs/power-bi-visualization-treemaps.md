@@ -1,16 +1,16 @@
 ---
-title: "Диаграммы дерева в Power BI (руководство)"
-description: "Учебник. Древовидные диаграммы в Power BI"
+title: Древовидные диаграммы в Power BI
+description: Древовидные диаграммы в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c9ce6b7b25170e87ea3474519036e854b15e940
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813215"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Диаграммы дерева в Power BI (руководство)
+# <a name="treemaps-in-power-bi"></a>Древовидные диаграммы в Power BI
 Диаграмма дерево отображает иерархические данные в виде набора вложенных прямоугольников.  Каждый уровень иерархии представлен цветным прямоугольником (часто называемом ветвью), который содержит другие прямоугольники (листья).  Пространство внутри каждого прямоугольника выделяется на основе измеряемого количественного значения. Прямоугольники упорядочиваются по размеру: от верхнего левого (самый большой) до нижнего правого (самый маленький).
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
@@ -87,7 +88,7 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Закрепление плитки на панели мониторинга Power BI из отчета](service-dashboard-pin-tile-from-report.md)  
-[Power BI — основные понятия](service-basic-concepts.md)  
+[Power BI — основные понятия](service-basic-concepts.md)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)  
 

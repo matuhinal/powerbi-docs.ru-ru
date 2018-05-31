@@ -1,29 +1,22 @@
 ---
-title: "Краткое руководство по созданию отчета c разбивкой на страницы Power BI для сервера отчетов Power BI"
-description: "Узнайте, как создать отчет c разбивкой на страницы Power BI для сервера отчетов Power BI за несколько простых шагов."
-services: powerbi
-documentationcenter: 
+title: Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
+description: Узнайте, как создать отчет c разбивкой на страницы Power BI для сервера отчетов Power BI за несколько простых шагов.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294923"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Краткое руководство по созданию отчета c разбивкой на страницы Power BI для сервера отчетов Power BI
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 Как и предполагает название, отчеты c разбивкой на страницы могут выполняться на большом количестве страниц. Они поддерживают точную настройку и создаются в фиксированном формате. Отчеты с разбивкой на страницы это RDL-файлы.
 
 Отчеты c разбивкой на страницы можно хранить на веб-портале сервера отчетов Power BI веб-портале и там же управлять ими, так же как и на веб-портале служб SQL Server Reporting Services (SSRS). Вы можете создавать и редактировать отчеты в построителе или конструкторе отчетов в SQL Server Data Tools (SSDT), а затем публиковать их на любом веб-портале. Затем сообщите читателям в вашей организации, что отчеты можно просматривать в браузере или в мобильном приложении Power BI на мобильных устройствах.

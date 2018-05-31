@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813376"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Рекомендации по проектированию отчетов и визуализаций
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Power BI предлагает множество встроенных шабл�
 
 Подробнее:
 
-* [Руководство. Комбинированная диаграмма в Power BI](power-bi-visualization-combo-chart.md)
+* [Комбинированная диаграмма в Power BI](power-bi-visualization-combo-chart.md)
 * [The danger of dual-scaled Axes in visuals](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf) (Риски использования в визуализациях осей с двойными диапазонами)
 
 ### <a name="scatter-chart"></a>Точечная диаграмма
@@ -810,7 +811,7 @@ Power BI предлагает множество встроенных шабл�
 
 Для получения дополнительной информации см.
 
-* [Руководство. Диаграммы "Радиальный датчик" в Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [Диаграммы "Радиальный датчик" в Power BI](power-bi-visualization-radial-gauge-charts.md)
 * [КПЭ в Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Заключение
