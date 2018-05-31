@@ -1,21 +1,29 @@
 ---
 title: Предыдущие ежемесячные обновления для Power BI Desktop
 description: Обновления компонентов для предыдущих версий Power BI Desktop.
+services: powerbi
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: identified
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: get-started-article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 11e1b210d6d90f0f813f378775daac36e53dbaf0
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34291173"
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33917189"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -52,7 +60,7 @@ ms.locfileid: "34291173"
 * Обновление лингвистической схемы [[видео]](https://youtu.be/W_Nb73Od_AI?t=22m) [[статья]](power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Новая функция DAX: COMBINEVALUES() [[видео]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настройка визуальных элементов
 
 * Общедоступные версии организационных визуализаций [[видео]](https://youtu.be/W_Nb73Od_AI?t=26m11s) [[статья]](power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
 * Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/W_Nb73Od_AI?t=28m8s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
@@ -92,7 +100,7 @@ ms.locfileid: "34291173"
 * Отключение заголовка визуального элемента в режиме чтения для отчета [[видео]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * Улучшенное размещение визуальных элементов по умолчанию [[видео]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настройка визуальных элементов
 
 * Множество новых пользовательских визуальных элементов [[видео]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[статья]](power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
@@ -105,7 +113,7 @@ ms.locfileid: "34291173"
 * Функция SAP BW DirectQuery реализована в общедоступной версии [[видео]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * Соединитель Azure Analysis Services реализован в общедоступной версии [[видео]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 * Улучшенные отчеты об ошибках [[видео]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[статья]](desktop-directquery-about.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Просмотр возникших ранее ошибок [[видео]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -151,7 +159,7 @@ ms.locfileid: "34291173"
 * Поиск по панелям форматирования и аналитики [[видео]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[статья]](desktop-analytics-pane.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настройка визуальных элементов
 
 * Пользовательские визуальные элементы организации (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[статья]](power-bi-custom-visuals-organization.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
@@ -165,7 +173,7 @@ ms.locfileid: "34291173"
 
 * Усовершенствования для DirectQuery в SAP HANA (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[статья]](desktop-directquery-sap-hana.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 * Повышение производительности DirectQuery [[видео]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[статья]](desktop-directquery-about.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Повышение производительности при сохранении и открытии [[видео]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -331,7 +339,7 @@ ms.locfileid: "34291173"
 -   Соединитель Impala: поддержка проверки подлинности Windows [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 -   Редактирование запросов: улучшение добавления столбца из примера [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

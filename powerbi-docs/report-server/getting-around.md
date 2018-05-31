@@ -1,20 +1,28 @@
 ---
 title: Управление содержимым на веб-портале Сервера отчетов Power BI
 description: См. дополнительные сведения об управлении содержимым на веб-портале Сервера отчетов Power BI.
+services: powerbi
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293245"
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33892515"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Управление содержимым на веб-портале 
 Веб-портал сервера отчетов Power BI — это локальное расположение для просмотра и хранения отчетов Power BI, мобильных отчетов, отчетов с разбивкой на страницы, ключевых показателей эффективности, а также управления ими.
