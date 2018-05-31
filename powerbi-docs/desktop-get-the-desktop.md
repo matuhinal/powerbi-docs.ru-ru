@@ -1,28 +1,21 @@
 ---
 title: Получение Power BI Desktop
 description: Загрузка и установка Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/15/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34286642"
 ---
 # <a name="get-power-bi-desktop"></a>Получение Power BI Desktop
 **Power BI Desktop** дает возможность создавать расширенные запросы, модели и отчеты, визуализирующие данные. С помощью **Power BI Desktop** можно создавать модели данных, отчеты и совместно использовать данные, публикуя их в службе Power BI.  **Power BI Desktop** можно скачать бесплатно.
@@ -82,7 +75,7 @@ ms.lasthandoff: 04/03/2018
 > Установка скачанной версии **Power BI Desktop** (пакет MSI) и версии из **Microsoft Store** на одном и том же компьютере (так называемая *параллельная* установка) не поддерживается. Вам нужно вручную удалить приложение **Power BI Desktop**, прежде чем скачивать его из **Microsoft Store**.
 > 
 > [!NOTE]
-> Версия сервера отчетов Power BI для **Power BI Desktop** отличается от версий, описанных в этой статье, и устанавливается отдельно от них. Сведения о версии сервера отчетов для **Power BI Desktop** см. в статье [Краткое руководство по созданию отчета Power BI для сервера отчетов Power BI](report-server/quickstart-create-powerbi-report.md).
+> Версия сервера отчетов Power BI для **Power BI Desktop** отличается от версий, описанных в этой статье, и устанавливается отдельно от них. Сведения о версии сервера отчетов для **Power BI Desktop** см. в руководстве по [созданию отчета Power BI для сервера отчетов Power BI](report-server/quickstart-create-powerbi-report.md).
 > 
 > 
 

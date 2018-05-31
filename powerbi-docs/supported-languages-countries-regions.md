@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871485"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Поддерживаемые языки и страны (регионы) для Power BI
 
@@ -61,7 +62,7 @@ ms.lasthandoff: 04/18/2018
 * Корейский — 한국어
 * Латышский — latviešu
 * Литовский — lietuvių
-* Малайский — Bahasa Melayu
+* Малайский —  Bahasa Melayu
 * Норвежский (букмол) — norsk (bokmål)
 * Польский — Polski
 * Португальский (Бразилия) — Português
@@ -165,6 +166,11 @@ Power BI определяет ваш язык на основе параметр
 - Способ сравнения и сортировки строк. Например, так как в турецком есть две буквы i, используемые в зависимости от параметров сортировки в базе данных, эти буквы могут оказаться в разной последовательности при сортировке. 
 - Язык, используемый в Power BI Desktop при создании таблиц со скрытыми датами из полей дат. Например, поля могут называться Month/Monat/Mois и т. д.
 
+> [!NOTE]
+> Модель Power BI сейчас время использует языковой стандарт, в котором не учитывается регистр (или тип японской азбуки), следовательно, ABC и abc будут рассматриваться как эквивалент. Если в базу данных загружается ABC, другие строки, которые отличаются только регистром (например, Abc), не будут загружаться как отдельное значение.
+> 
+>
+
 Вот как можно выбрать язык модели:
 
 1. В Power BI Desktop последовательно выберите **Файл** > **Параметры и настройки** > **Параметры**.
@@ -173,6 +179,10 @@ Power BI определяет ваш язык на основе параметр
 
     ![Выбор языка модели в Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Язык созданной модели Power BI изменить нельзя.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Локализация справочной документации на другие языки
 Справка локализована на 10 языков: 
