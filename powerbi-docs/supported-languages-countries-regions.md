@@ -1,29 +1,21 @@
 ---
 title: Поддерживаемые языки и страны (регионы) для Power BI
 description: См. список поддерживаемых языков и стран (регионов) для служб Power BI и Power BI Desktop, а также документации по Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33871485"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34256709"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Поддерживаемые языки и страны (регионы) для Power BI
 
@@ -62,7 +54,7 @@ ms.locfileid: "33871485"
 * Корейский — 한국어
 * Латышский — latviešu
 * Литовский — lietuvių
-* Малайский —  Bahasa Melayu
+* Малайский — Bahasa Melayu
 * Норвежский (букмол) — norsk (bokmål)
 * Польский — Polski
 * Португальский (Бразилия) — Português

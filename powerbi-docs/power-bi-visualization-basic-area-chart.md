@@ -1,29 +1,21 @@
 ---
 title: Простые диаграммы с областями
 description: Простые диаграммы с областями
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 62d518b923d541ee937f485da946ae08b20fa386
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 23262d16993043bff90b50ccd55dc7903c5fc23b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33811812"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34291749"
 ---
 # <a name="basic-area-chart"></a>Простые диаграммы с областями
 Простая диаграмма с областями (или многоуровневая диаграмма с областями) основана на графике. Область между осью и линией заполняется цветами, чтобы указать объем. 
@@ -40,7 +32,7 @@ ms.locfileid: "33811812"
 
 ### <a name="prerequisites"></a>Предварительные требования
  - Служба Power BI
- - Анализ розничной торговли — образец
+ - Анализ розничной торговли — пример
 
 Для выполнения этой процедуры войдите в службу Power BI и выберите **Получить данные\> Примеры \> Анализ розничной торговли — пример > Подключиться**. Затем выберите **Перейти к информационной панели**. 
 
@@ -52,15 +44,15 @@ ms.locfileid: "33811812"
 3. Добавьте новую страницу отчета, выбрав желтый значок "плюс" (+) в нижней части отчета.
 4. Создайте диаграмму с областями, отображающую продажи за этот год и продажи за прошлый год по месяцам.
    
-   а) В области "Поля" выберите **Sales \> Last Year Sales** (Продажи > Продажи за прошлый год) и **This Year Sales > Value** (Продажи за этот год > Значение).
+   а. В области "Поля" выберите **Sales \> Last Year Sales** (Продажи > Продажи за прошлый год) и **This Year Sales > Value** (Продажи за этот год > Значение).
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
-   б)  Преобразуйте диаграмму в диаграмму с областями, выбрав соответствующий значок диаграммы с областями на панели "Визуализации".
+   б.  Преобразуйте диаграмму в диаграмму с областями, выбрав соответствующий значок диаграммы с областями на панели "Визуализации".
 
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   в)  Выберите **Time \> Month** (Время > Месяц), чтобы добавить время в качестве **оси**.   
+   в.  Выберите **Time \> Month** (Время > Месяц), чтобы добавить время в качестве **оси**.   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    г.  Чтобы отобразить диаграмму по месяцам, нажмите кнопку с многоточием (в правом верхнем углу визуального элемента) и выберите **Сортировать по месяцам**.

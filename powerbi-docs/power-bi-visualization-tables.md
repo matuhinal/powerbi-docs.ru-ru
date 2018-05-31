@@ -1,22 +1,30 @@
 ---
 title: Визуализации таблиц в отчетах и на панелях мониторинга Power BI
 description: Руководство по работе с визуализациями таблиц в отчетах и на панелях мониторинга Power BI, включая способы изменения ширины столбцов.
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0f7084cf2e0ad4db88ad99bd969ada20ba40aa57
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293267"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812640"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Работа с таблицами в отчетах и на информационных панелях Power BI
 Таблица — это сетка, содержащая связанные данные в логически упорядоченных строках и столбцах. Она также может содержать заголовки и строку с итогами. Таблицы хорошо подходят для количественного сравнения, где можно посмотреть разные значения одной категории. Например, в этой таблице показаны 5 разных мер **категории**.
@@ -36,7 +44,7 @@ ms.locfileid: "34293267"
 > 
 ## <a name="prerequisites"></a>Предварительные требования
  - Служба Power BI или Power BI Desktop
- - Анализ розничной торговли — пример
+ - Анализ розничной торговли — образец
 
 
 ## <a name="create-a-table"></a>Создание таблицы

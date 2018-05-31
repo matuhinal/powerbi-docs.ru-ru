@@ -1,29 +1,21 @@
 ---
 title: Источники данных в Power BI Desktop
 description: Источники данных в Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 04/29/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1558f78f8f496814ac7745afe9b86f327ef7772b
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33923461"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34286872"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 Power BI Desktop позволяет подключаться к данным из многих разных источников. Полный список доступных источников данных представлен в нижней части этой страницы.
@@ -47,7 +39,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Все
 * Файл
 * База данных
-* Power BI
+* Power BI
 * Azure
 * Интернет-службы
 * Другие
@@ -170,7 +162,7 @@ Power BI Desktop позволяет подключаться к данным и�
 Категория **Другие** предоставляет следующие подключения к данным:
 
 * Vertica (бета-версия);
-* Веб-приложение
+* Интернет
 * Список SharePoint
 * Веб-канал OData
 * Active Directory
