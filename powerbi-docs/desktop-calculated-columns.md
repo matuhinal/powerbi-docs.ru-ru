@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810927"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Использование вычисляемых столбцов в Power BI Desktop
 С помощью вычисляемых столбцов можно добавлять новые данные в таблицу уже в модели. Однако вместо запроса и загрузки значений в новый столбец из источника данных вы создаете формулу на языке DAX, которая определяет значения столбца. В Power BI Desktop вычисляемые столбцы создаются с помощью функции "Создать столбец" в представлении отчетов.
@@ -59,7 +60,7 @@ ms.lasthandoff: 04/26/2018
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>Дополнительные сведения
-Здесь представлены только краткие сведения о вычисляемых столбцах. Рекомендуется прочесть учебник [Создание вычисляемых столбцов в Power BI Desktop](desktop-tutorial-create-calculated-columns.md), где можно загрузить образец файла и получить пошаговые уроки по созданию дополнительных столбцов. 
+Здесь представлены только краткие сведения о вычисляемых столбцах. Скачать пример файла и получить инструкции по созданию дополнительных столбцов см. в руководство по [созданию вычисляемых столбцов в Power BI Desktop](desktop-tutorial-create-calculated-columns.md). 
 
 Дополнительные сведения о DAX см. в статье [Основные сведения о DAX в Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
 

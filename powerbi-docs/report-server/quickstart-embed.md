@@ -1,108 +1,107 @@
 ---
-title: "Внедрение отчета с использованием iFrame"
-description: "Сама по себе установка сервера отчетов Power BI выполняется очень быстро. Скачивание и установка с последующей настройкой занимают всего нескольких минут."
-services: powerbi
-documentationcenter: 
+title: Внедрение отчета с использованием iFrame
+description: Внедрение отчета решения "Сервер отчетов Power BI" в iFrame сервера SharePoint Server
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293704"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>Краткое руководство по внедрению отчета Power BI с использованием параметров iFrame и URL-адреса
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Краткое руководство по внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
 
-Вы можете внедрить любой отчет, используя iFrame в приложении. 
+Из этого краткого руководства вы узнаете, как внедрить отчет решения "Сервер отчетов Power BI" с помощью iFrame на страницу SharePoint. Если вы используете SharePoint Online, решение "Сервер отчетов Power BI" должно быть общедоступным. В SharePoint Online веб-часть Power BI, которая работает со службой Power BI, не совместима с решением "Сервер отчетов Power BI". 
 
-## <a name="url-parameter"></a>Параметр URL-адреса
+![Пример iFrame](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>Предварительные требования
+* Требуется установленное и настроенное решение [Сервер отчетов Power BI](https://powerbi.microsoft.com/en-us/report-server/).
+* Должен быть установлено [приложение Power BI Desktop, оптимизированное для решения "Сервер отчетов Power BI"](install-powerbi-desktop.md).
+* Требуется установленная и настроенная среда [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install).
 
-В любой URL-адрес отчета можно добавить параметр строки запроса `?rs:Embed=true`.
+## <a name="creating-the-power-bi-report-server-report-url"></a>Создание URL-адреса для отчета решения "Сервер отчетов Power BI"
 
-Например:
+1. Скачайте из GitHub пример [Демонстрационный блог](https://github.com/Microsoft/powerbi-desktop-samples).
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![Скачивание примера PBIX-файла](media/quickstart-embed/quickstart_embed_14.png)
 
-Это будет работать со всеми типами отчетов в пределах сервера отчетов Power BI.
+2. Отройте пример PBIX-файла, размещенный на GitHub в разделе **приложения Power BI Desktop, оптимизированного для решения "Сервер отчетов Power BI"**.
 
-## <a name="iframe"></a>iFrame
+    ![Средство сервера отчетов для Power BI Desktop](media/quickstart-embed/quickstart_embed_02.png)
 
-Получив URL-адрес, можно создать iFrame на веб-странице для размещения отчета.
+3. Сохраните отчет в решении **Сервер отчетов Power BI**. 
 
-Например:
+    ![Сохранение в решении "Сервер отчетов Power BI"](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. Просмотрите отчет на **веб-портале**.
 
-## <a name="url-filter"></a>Фильтр URL-адресов
+    ![Веб-портал](media/quickstart-embed/quickstart_embed_04.png)
 
-Вы можете добавить параметр строки запроса к URL-адресу для фильтрации данных, которые возвращаются в отчете Power BI.
+### <a name="capturing-the-url-parameter"></a>Запись параметра URL-адреса
 
-Синтаксис прост: начните с URL-адреса отчета, добавьте знак вопроса, а затем синтаксис этого фильтра.
+Получив URL-адрес, вы можете создать iFrame для размещения отчета на веб-странице SharePoint. Вы можете добавить параметр строки запроса `?rs:embed=true` к любому URL-адресу отчета решения "Сервер отчетов Power BI", чтобы внедрить этот отчет в iFrame. 
 
-URL?filter=***Таблица***/***Поле*** eq '***значение***'
+   Например:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Внедрение отчета решения "Сервер отчетов Power BI" в SharePoint iFrame
 
-Придерживайтесь следующих рекомендаций:
+1. Перейдите к странице **Содержимое сайта** в SharePoint.
 
-- Имена переменных **Таблица** и **Поле** чувствительны к регистру, а **значение** — нет.
-- Отчет можно отфильтровать по полям, скрытым для просмотра.
-- **Значение** должно быть заключено в одинарные кавычки.
-- Тип поля должен быть строкой.
-- Имена таблицы и поля не должны содержать пробелов.
+    ![Страница "Содержимое сайта"](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>Пример: фильтрация по полю
+2. Выберите страницу, на которую нужно добавить отчет.
 
-Например, [Анализ розничной торговли — образец](../sample-datasets.md). Этот URL-адрес отчета на сервере отчетов в папке power-bi:
+    ![Приложение страницы "Содержимое сайта"](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. Щелкните значок шестеренки в верхней правой части страницы и выберите **Изменить страницу**.
 
-На визуализации карты в примере "Анализ розничной торговли" показаны магазины в Северной Каролине и других штатах.
+    ![Действие "Изменить страницу"](media/quickstart-embed/quickstart_embed_07.png)
 
-![Визуализация карты примера "Анализ розничной торговли"](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. Выберите **Добавить веб-часть**.
 
-*NC* — это значение для штата Северная Каролина, которое хранится в поле **Territory** в таблице **Store**. Чтобы отфильтровать отчет для отображения данных, связанных только с магазинами в Северной Каролине, добавьте следующий текст в URL-адрес:
+    ![Добавление веб-части](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. В разделе **Категории** выберите **Среда и контент**, затем в разделе **Части** выберите **Редактор содержимого** и щелкните **Добавить**.
 
-Теперь, когда отчет отфильтрован по Северной Каролине, все визуализации на странице отчета показывают данные только по Северной Каролине.
+    ![Выбор веб-части редактора содержимого](media/quickstart-embed/quickstart_embed_09.png) и ![нажатие кнопки "Добавить"](media/quickstart-embed/quickstart_embed_091.png)
 
-![Отфильтрованная визуализация примера "Анализ розничной торговли"](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. Выберите **Click here to add new content** (Щелкните здесь, чтобы добавить новое содержимое).
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>Создание формулы DAX для фильтрации по нескольким значениям
+    ![Добавление содержимого](media/quickstart-embed/quickstart_embed_10.png)
 
-Еще один способ фильтрации по нескольким полям заключается в следующем: можно создать вычисляемый столбец в Power BI Desktop, который сцепляет два поля в одно значение. Затем можно выполнить фильтрацию по этому значению.
+7. На ленте выберите вкладку **Форматирование текста**, а затем щелкните **Изменить источник**.
 
-Например, образец "Анализ розничной торговли" содержит два поля: Territory и Chain. В Power BI Desktop можно [создать вычисляемый столбец](../desktop-tutorial-create-calculated-columns.md) (поле), который называется TerritoryChain. Помните, что имя **поля** не может содержать пробелы. Вот формула DAX для этого столбца:
+     ![Изменение источника](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & " - " & [Chain]
+8. В окне изменения источника вставьте код для iFrame и нажмите кнопку "ОК".
 
-Опубликуйте отчет на Сервере отчетов Power BI, а затем используйте строку запроса в URL-адресе для фильтрации и отображения данных, связанных только с магазинами Lindseys в Северной Каролине.
+    ![Код iFrame](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     Например:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. На ленте выберите вкладку **Страница**, затем щелкните **Остановить изменение**.
+
+    ![Кнопка "Остановить изменение"](media/quickstart-embed/quickstart_embed_13.png)
+
+10. Теперь вы увидите отчет на странице.
+
+    ![Пример iFrame](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Краткое руководство по созданию отчета Power BI для сервера отчетов Power BI](quickstart-create-powerbi-report.md)  
 [Краткое руководство по созданию отчета c разбивкой на страницы Power BI для сервера отчетов Power BI](quickstart-create-paginated-report.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/) 

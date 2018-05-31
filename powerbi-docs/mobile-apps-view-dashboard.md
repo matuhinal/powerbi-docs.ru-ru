@@ -1,27 +1,20 @@
 ---
-title: "Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI"
-description: "Создавайте панели мониторинга и отчеты или подключайтесь к ним в службе Power BI. После этого вы сможете просматривать их в мобильных приложениях Power BI."
-services: powerbi
-documentationcenter: 
+title: Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
+description: Создавайте панели мониторинга и отчеты или подключайтесь к ним в службе Power BI. После этого вы сможете просматривать их в мобильных приложениях Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295883"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 Область применения:
@@ -37,8 +30,8 @@ ms.lasthandoff: 01/17/2018
 
 Чтобы просматривать панели мониторинга и отчеты на мобильном устройстве, необходимо создать их или подключиться к ним в веб-браузере. 
 
-1. Зайдите в службу Power BI ([https://www.powerbi.com](https://www.powerbi.com)) и [зарегистрируйте учетную запись](service-self-service-signup-for-power-bi.md).
-2. [Создайте собственные панели мониторинга и отчет Power BI](service-get-started.md) или подключитесь к существующим [приложениям Power BI](service-connect-to-services.md) для различных служб, таких как [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) и [Adobe Analyics](service-connect-to-adobe-analytics.md).
+1. Перейдите к службе Power BI ([https://www.powerbi.com](https://www.powerbi.com)) и [зарегистрируйте учетную запись](service-self-service-signup-for-power-bi.md).
+2. [Создайте собственные панели мониторинга и отчет Power BI](service-get-started.md) или подключитесь к существующим [приложениям Power BI](service-connect-to-services.md) для разных служб, включая [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) и [Adobe Analytics](service-connect-to-adobe-analytics.md).
 
 Вот панель мониторинга Power BI в службе Power BI:
 
@@ -115,31 +108,21 @@ ms.lasthandoff: 01/17/2018
    
    ![Домашняя страница панели мониторинга](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     Желтые звездочки ![Звездочка избранного](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
+    Желтые звездочки ![Звездочка избранного](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
 
-     -     Нотация под названием панели мониторинга (в этом примере — MBI) ![Классификация данных](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](service-data-classification.md).
-
+    Нотация под названием панели мониторинга (в этом примере — MBI) ![Классификация данных](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](service-data-classification.md).
 
     Панели мониторинга Power BI на устройстве Android выглядят немного иначе. Все плитки отображаются с той же шириной, но идут одна за другой сверху вниз.
 
     ![Книжная ориентация панели мониторинга](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     Чтобы увидеть их на телефоне в альбомной ориентации, просто поверните его набок.
-
-    > [AZURE.TIP] Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
+    Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
 
 1. На панели мониторинга вы можете коснуться вертикального многоточия (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
    ![Меню со значком многоточия](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Проведите по экрану вверх, чтобы увидеть [все плитки на информационной панели](mobile-tiles-in-the-mobile-apps.md). 
 3. Для возврата на домашнюю страницу панелей мониторинга коснитесь названия панели, чтобы открыть путь навигации, а затем выберите **Моя рабочая область**.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Просмотр панелей мониторинга в альбомном режиме на телефонах Android
-Вы также можете расположить информационные панели в альбомном режиме, просто повернув телефон. Макет панели мониторинга изменится — вместо ряда плиток появится представление всей панели &#151; мониторинга, где все плитки будут расположены так же, как в службе Power BI.
-
-![Альбомная ориентация панели мониторинга](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-Для увеличения и уменьшения масштаба различных областей панели мониторинга или панорамирования можно использовать жест сжатия или разведения двумя пальцами. Чтобы открыть плитку в режиме фокусировки и работать с данными, также можно [коснуться плитки](mobile-tiles-in-the-mobile-apps.md).
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Просмотр панелей мониторинга на планшете с Android
 1. Откройте приложение Power BI на планшете с Android и выполните вход.

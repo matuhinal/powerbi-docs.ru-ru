@@ -1,16 +1,16 @@
 ---
-title: "Точечные диаграммы в Power BI (руководство)"
-description: "Учебник: точечные диаграммы в Power BI"
+title: Точечные диаграммы в Power BI
+description: Точечные диаграммы в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: PVcfPoVE3Ys
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: a3befe1e32aa86113433a4f891ddd46a253c8062
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813123"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Точечные и пузырьковые диаграммы в Power BI (руководство)
+# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. Точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно в зависимости от данных.
 
 В пузырьковой диаграмме точки данных заменяются пузырьками, *размер* которых представляет собой дополнительное измерение данных.
@@ -123,7 +124,7 @@ ms.lasthandoff: 03/02/2018
 Для создания нового поля [используйте редактор запросов Power BI Desktop, чтобы добавить столбец индекса](desktop-add-custom-column.md) в свой набор данных.  Затем добавьте этот столбец в область **Сведения** визуализации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
- [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+ [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Бесплатная пробная версия](https://powerbi.com/)  
 

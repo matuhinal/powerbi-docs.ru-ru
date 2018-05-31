@@ -1,31 +1,24 @@
 ---
-title: "Приступая к форматированию визуализаций в Power BI (руководство)"
-description: "Учебник. Настройка заголовка, фона и условных обозначений визуализации"
-services: powerbi
-documentationcenter: 
+title: Форматирование визуализаций в Power BI
+description: Настройка заголовка, фона и условных обозначений визуализации
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
-qualityfocus: monitoring
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297108"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Настройка заголовков визуализаций, условных обозначений и фона (руководство)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Настройка заголовков визуализаций, условных обозначений и фона
 В этом руководстве описано несколько способов настройки визуализации.   Есть множество возможностей для настройки визуализации. Проще всего изучить их, используя панель форматирования (выберите значок валика).  Из этой статьи вы узнаете, как приступить к работе и настроить заголовок визуализации, условные обозначения и фон.  
 
 Не все визуализации можно настраивать ([см. полный список](#list)).  
@@ -36,7 +29,7 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="prerequisites"></a>Предварительные требования
 - Служба Power BI или Power BI Desktop
-- Анализ розничной торговли — образец
+- Анализ розничной торговли — пример
 
 ## <a name="customize-visualization-titles-in-reports"></a>Настройка заголовка визуализации в отчете
 Чтобы продолжить, войдите в службу Power BI (app.powerbi.com) и откройте отчет [Анализ розничной торговли — пример](sample-datasets.md) в [режиме правки](service-interact-with-a-report-in-editing-view.md).

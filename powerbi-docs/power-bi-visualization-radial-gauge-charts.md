@@ -1,16 +1,16 @@
 ---
-title: "Руководство. Диаграммы \"Радиальный датчик\" в Power BI"
-description: "Учебник. Диаграммы \"Радиальный датчик\" в Power BI"
+title: Диаграммы "Радиальный датчик" в Power BI
+description: Диаграммы "Радиальный датчик" в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6Epqa
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813054"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Диаграммы "Радиальный датчик" в Power BI (руководство)
+# <a name="radial-gauge-charts-in-power-bi"></a>Диаграммы "Радиальный датчик" в Power BI
 Диаграмма "Радиальный датчик" имеет дугу и отображает одно значение, которое отражает ход достижения цели или значение ключевого показателя эффективности.  Цель, или целевое значение, представляется линией. Текущий прогресс в достижении цели представляется областью с заливкой.  Значение, которое представляет текущий прогресс, отображается полужирным шрифтом внутри дуги. Все возможные значения равномерно распределены по дуге, от минимального (крайнее левое значение) до максимального (крайнее правое значение).
 
 В следующем примере мы будем продавцом автомобилей, отслеживающим среднемесячный объем продаж нашей команды. Наша цель — 140. Это значение представляется линией черного цвета.  Минимальное значение среднемесячных продаж — 0, а максимальное — 200.  Область с синей заливкой показывает, что средний объем продаж за этот месяц составляет примерно 120. К счастью, еще есть неделя до достижения нашей цели.
@@ -118,7 +119,7 @@ ms.lasthandoff: 02/24/2018
 6. При желании продолжите форматирование диаграммы датчика.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Добавление визуализации в отчет](power-bi-report-add-visualizations-i.md)
 

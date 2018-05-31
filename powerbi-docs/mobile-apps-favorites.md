@@ -1,27 +1,28 @@
 ---
-title: "Избранное в мобильных приложениях Power BI"
-description: "Узнайте о том, как добавлять в избранное и просматривать приложения, отчеты и панели мониторинга Power BI, а также ключевые показатели эффективности и отчеты решения \"Сервер отчетов Power BI\" и служб Reporting Services в мобильных приложениях."
+title: Избранное в мобильных приложениях Power BI
+description: Узнайте о том, как добавлять в избранное и просматривать приложения, отчеты и панели мониторинга Power BI, а также ключевые показатели эффективности и отчеты решения "Сервер отчетов Power BI" и служб Reporting Services в мобильных приложениях.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812157"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Добавление элементов в избранное и их просмотр в мобильных приложениях Power BI
 Область применения:
@@ -80,7 +81,7 @@ ms.lasthandoff: 02/11/2018
     ![Звездочка избранного в Android](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Добавление отчетов и ключевых показателей эффективности сервера отчетов Power BI и служб Reporting Services в "Избранное"
-Хотя избранные отчеты и ключевые показатели эффективности сервера отчетов Power BI и служб Reporting Services можно просматривать в мобильных приложениях Power BI, вы не может добавить их в "Избранное" в мобильных приложениях. Вы [можете отметить их как "Избранное" на веб-портале](report-server/getting-around.md#tag-your-favorite-reports-and-kpis). 
+Хотя избранные отчеты и ключевые показатели эффективности сервера отчетов Power BI и служб Reporting Services можно просматривать в мобильных приложениях Power BI, вы не может добавить их в "Избранное" в мобильных приложениях. Вы [можете отметить их как "Избранное" на веб-портале](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Избранные панели мониторинга в Power BI](service-dashboard-favorite.md) 

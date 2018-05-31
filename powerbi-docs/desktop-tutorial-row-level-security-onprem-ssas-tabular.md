@@ -1,30 +1,24 @@
 ---
-title: Руководство. Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services в Power BI
-description: Учебник. Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
-services: powerbi
-documentationcenter: ''
+title: Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services в Power BI
+description: Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456141"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Учебник. Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 В этом учебном руководстве описаны действия, необходимые для реализации **безопасности на уровне строк** в **табличной модели Analysis Services**, и показано, как использовать эти функции в отчете Power BI. Здесь приведены пошаговые инструкции, которые помогут вам познакомиться с последовательностью необходимых действий на примере набора данных.
 
 Ниже перечислены действия, подробно описанные в этом руководстве, чтобы вы могли понять, как реализовать функции безопасности на уровне строк в табличной модели Analysis Services.
@@ -54,7 +48,7 @@ ms.lasthandoff: 03/22/2018
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    Мы вернемся к этим пользователям при выполнении следующих задач.
-4. Теперь нам нужно создать *внутреннее соединение* с таблицей **DimSalesTerritory**, которое будет отражать связь между сведениями о регионе и пользователем. Ниже приведен код, который создает такое *внутреннее соединение*, а на изображении ниже показано, как таблица выглядит после его успешного создания**.
+4. Теперь нам нужно создать *внутреннее соединение* с таблицей **DimSalesTerritory**, которое будет отражать связь между сведениями о регионе и пользователем. следующий код выполняет *внутреннее соединение*, а последующее изображение показывает, как выглядит таблица, как только *внутреннее соединение* будет успешным.
    
        select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
    
@@ -135,7 +129,7 @@ ms.lasthandoff: 03/22/2018
 2. Сеанс создается в момент, когда пользователь (в нашем случае — Jon Doe) обращается к панели мониторинга в службе Power BI. Мы видим, что роль **salesterritoryusers** сразу же применяется для действующего имени пользователя **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**.
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. Используя переданное в запросе действующее имя пользователя, службы Analysis Services преобразуют его в учетные данные moonneo\jondoe при отправке запроса в каталог Active Directory. После того как службы **Analysis Services** получают реальные учетные данные из Active Directory, они применяют права и разрешения этого пользователя на доступ к соответствующим данным и возвращают только ту информацию, для работы с которой у него есть разрешение**.**
+3. Используя переданное в запросе действующее имя пользователя, службы Analysis Services преобразуют его в учетные данные moonneo\jondoe при отправке запроса в каталог Active Directory. После того как службы **Analysis Services** получают реальные учетные данные из Active Directory, они применяют права и разрешения этого пользователя на доступ к соответствующим данным и возвращают только ту информацию, для работы с которой у него есть разрешение **.**
 4. Если на панели мониторинга будет выполнено еще какое-то действие (например, Jon Doe перейдет с панели на связанный с ней отчет), в SQL Profiler отразится соответствующий запрос, который направляется в табличную модель Analysis Services в виде запроса DAX.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)

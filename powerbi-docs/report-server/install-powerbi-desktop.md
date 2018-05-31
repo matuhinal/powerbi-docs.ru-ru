@@ -1,27 +1,20 @@
 ---
 title: Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 description: Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310413"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI.
@@ -109,10 +102,10 @@ ms.lasthandoff: 03/28/2018
 ## <a name="next-steps"></a>Дальнейшие действия
 Теперь, когда приложение Power BI Desktop установлено, можно приступить к созданию отчетов Power BI.
 
-[Краткое руководство по созданию отчета Power BI для сервера отчетов Power BI](quickstart-create-powerbi-report.md)  
+[Создание отчета Power BI для Сервера отчетов Power BI](quickstart-create-powerbi-report.md)  
 [Начало работы с Power BI Desktop](../desktop-getting-started.md)  
-Интерактивное обучение. [Начало работы с Power BI Desktop](../guided-learning/gettingdata.yml#step-2)  
-[Общие сведения о руководстве для пользователя сервера отчетов Power BI](user-handbook-overview.md)
+Интерактивное обучение: [Начало работы с Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+[Обзор руководства пользователя, сервер отчетов Power BI](user-handbook-overview.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813261"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 Узнайте о новых возможностях сервера отчетов Power BI. Здесь приводятся сведения об основных функциях. Материалы обновляются по мере выпуска новых элементов.
 
 Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
-Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
+Ознакомьтесь со следующими источниками, чтобы узнавать о новых возможностях сервера отчетов Power BI.
+
+* [Блог Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Блог команды разработчиков SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Канал YouTube Guy in a Cube](https://aka.ms/guyinacube)
+
+См. дополнительные сведения о новых функциях и возможностях Power BI:
 
 * [Новые возможности службы Power BI](../service-whats-new.md)
 * [Новые возможности Power BI Desktop](../desktop-latest-update.md)
 * [Новые возможности мобильных приложений для Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Блог команды Power BI](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Выпуск за март 2018 г.
 
@@ -208,7 +214,7 @@ Excel и Power BI включают ряд средств, уникальных �
 ## <a name="next-steps"></a>Дальнейшие действия
 [Руководство пользователя](user-handbook-overview.md)  
 [Руководство администратора](admin-handbook-overview.md)  
-[Краткое руководство по установке сервера отчетов Power BI](quickstart-install-report-server.md)  
+[Установка сервера отчетов Power BI](install-report-server.md)  
 [Install Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder) (Установка построителя отчетов)  
 [Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
 

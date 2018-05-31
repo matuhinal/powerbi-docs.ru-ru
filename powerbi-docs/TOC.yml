@@ -898,32 +898,14 @@
       items:
         - name: Что можно сделать с помощью API Power BI?
           href: developer/overview-of-power-bi-rest-api.md
-        - name: ВОПРОСЫ И ОТВЕТЫ
-          href: developer/embedded-faq.md
         - name: Разрешения Power BI
           href: developer/power-bi-permissions.md
         - name: Безопасность на уровне строк (RLS)
           href: developer/embedded-row-level-security.md
-        - name: Внедрение функции "Вопросы и ответы"
-          href: developer/qanda.md
+        - name: ВОПРОСЫ И ОТВЕТЫ
+          href: developer/embedded-faq.md
     - name: Практическое руководство
       items:
-        - name: Как встраивать пользовательское содержимое
-          href: developer/embedding-content.md
-        - name: Принудительная отправка данных в панель мониторинга
-          href: developer/walkthrough-push-data.md
-        - name: Перенос Power BI Embedded
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Интеграция панели мониторинга в приложение (пользователь является владельцем данных)
-          href: developer/integrate-dashboard.md
-        - name: Интеграция плитки Power BI в приложение (данные принадлежат пользователю)
-          href: developer/integrate-tile.md
-        - name: Интеграция отчета Power BI в приложение (данные принадлежат пользователю)
-          href: developer/integrate-report.md
-        - name: Интеграция содержимого в приложение (данные принадлежат приложению)
-          href: developer/embed-sample-for-customers.md
-        - name: Интеграция содержимого в приложение для национальных облаков (данные принадлежат приложению)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Создание настраиваемого визуального элемента
           items:
             - name: Создание пользовательской визуализации с помощью средств разработчика
@@ -938,6 +920,18 @@
           items:
             - name: Внедрение в Power BI
               href: developer/embedding.md
+            - name: Как встраивать пользовательское содержимое
+              href: developer/embedding-content.md
+            - name: Интеграция панели мониторинга в приложение (пользователь является владельцем данных)
+              href: developer/integrate-dashboard.md
+            - name: Интеграция плитки Power BI в приложение (данные принадлежат пользователю)
+              href: developer/integrate-tile.md
+            - name: Интеграция отчета Power BI в приложение (данные принадлежат пользователю)
+              href: developer/integrate-report.md
+            - name: Интеграция содержимого в приложение (данные принадлежат приложению)
+              href: developer/embed-sample-for-customers.md
+            - name: Интеграция содержимого в приложение для национальных облаков (данные принадлежат приложению)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Внедрение пользовательских макетов в приложение
               href: developer/embedded-custom-layout.md
             - name: Создание клиента Azure Active Directory
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Аутентификация в службе Power BI
               href: developer/get-azuread-access-token.md
+            - name: Внедрение функции "Вопросы и ответы"
+              href: developer/qanda.md
+            - name: Перенос Power BI Embedded
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Встроенный инструмент миграции Power BI
               href: developer/migrate-tool.md
             - name: Фрагменты кода миграции
               href: developer/migrate-code-snippets.md
             - name: Устранение неполадок внедренного приложения
               href: developer/embedded-troubleshoot.md
-        - name: Принудительная отправка данных в панель мониторинга
+        - name: Принудительная отправка данных
           items:
+            - name: Принудительная отправка данных в панель мониторинга
+              href: developer/walkthrough-push-data.md
             - name: Регистрация приложения в Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Получение токена доступа для проверки подлинности
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Ресурсы
       items:
+        - name: Средство подключения для внедрения
+          href: 'https://aka.ms/embedsetup'
         - name: Пример площадки JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Примеры

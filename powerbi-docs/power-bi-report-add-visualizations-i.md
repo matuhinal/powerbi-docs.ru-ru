@@ -1,31 +1,24 @@
 ---
-title: Часть I. Добавление визуализаций в отчет Power BI (Руководство)
-description: Учебник. Часть I. Добавление визуализаций в отчет Power BI
-services: powerbi
-documentationcenter: ''
+title: Часть 1. Добавление визуализаций в отчет Power BI
+description: Часть 1. Добавление визуализаций в отчет Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293773"
 ---
-# <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>Часть I. Добавление визуализаций в отчет Power BI (Руководство)
+# <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Часть 1. Добавление визуализаций в отчет Power BI
 В этой статье приводятся краткие сведения о создании визуализаций в отчетах с помощью службы Power BI и приложения Power BI Desktop.  Для получения более подробной информации [см. "Часть II"](power-bi-report-add-visualizations-ii.md). В этом видео Аманда покажет вам несколько разных способов создания, изменения и форматирования визуальных элементов на холсте отчетов. Теперь попробуйте сделать это сами, использовав раздел [Продажи и маркетинг — пример](sample-datasets.md) для создания собственного отчета.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
@@ -39,7 +32,7 @@ ms.lasthandoff: 04/16/2018
 3. [Добавьте пустую страницу в отчет](power-bi-report-add-page.md).
 
 ## <a name="add-visualizations-to-the-report"></a>Добавление визуализаций к отчету
-1. Создайте визуализацию, выбрав поле на панели **Поля**.  
+1. Создайте визуализацию, выбрав поле на панели **Поля** .  
    
    **Начните с числового поля**, такого как "Продажи" > "Выручка от продаж". Power BI создаст гистограмму с одним столбцом.
    

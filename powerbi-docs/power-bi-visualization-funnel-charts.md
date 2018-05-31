@@ -1,16 +1,16 @@
 ---
-title: "Воронкообразные диаграммы (руководство)"
-description: "Учебник. Воронкообразные диаграммы в Power BI"
+title: Воронкообразные диаграммы
+description: Воронкообразные диаграммы в Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: maTzOJSRB3g
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34be2f0ed53cdb8b45e60174d09e7da2da1fcce2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdac4e594eab4887fc6e72d8870090be4ddd86a7
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812755"
 ---
-# <a name="funnel-charts-tutorial"></a>Воронкообразные диаграммы (руководство)
+# <a name="funnel-charts"></a>Воронкообразные диаграммы
 Воронкообразная диаграмма позволяет визуализировать линейный процесс, который имеет последовательные связанные этапы. Например, воронка продаж, которая отслеживает клиентов по этапам: "Интерес" \> "Соответствующий интерес" \> "Потенциальный клиент" \> "Контракт" \> "Закрыто".  Форма воронки визуально передает состояние отслеживаемого процесса.
 
 Каждый этап воронки представляет долю от общего количества. Таким образом, в большинстве случаев воронкообразная диаграмма имеет форму воронки: первый этап самый большой, а каждый следующий этап меньше предыдущего.  Грушевидная воронка также удобна: она позволяет определить проблему в процессе.  Но, как правило, первый этап, этап "вхождения", является самым крупным.
@@ -100,7 +101,7 @@ ms.lasthandoff: 02/24/2018
 2. Не забудьте добавить "как воронка", чтобы указать Power BI предпочтительный тип визуализации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Закрепление визуализации на панели мониторинга](service-dashboard-pin-tile-from-report.md)
 
