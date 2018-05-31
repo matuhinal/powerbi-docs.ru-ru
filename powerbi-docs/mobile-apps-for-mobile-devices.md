@@ -1,31 +1,21 @@
 ---
 title: Что такое мобильные приложения Power BI?
 description: Мобильные приложения Power BI предоставляют вам доступ к данным в локальной или облачной среде. Просматривайте панели мониторинга и отчеты на мобильном устройстве.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 01/06/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-mobile
 ms.topic: overview
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 04/26/2018
 ms.author: maggies
-ms.component: powerbi-mobile
 ms.custom: ''
-ms.reviewer: ''
-ms.openlocfilehash: 254e04eed9dc2fd32fbfeb51f147701d7c47d3f2
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812204"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294716"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Что такое мобильные приложения Power BI?
 Power BI предоставляет ряд мобильных приложений для мобильных устройств под управлением iOS, Android и Windows 10. В мобильных приложениях вы можете подключаться к облачным и локальным источникам данных и взаимодействовать с ними. 

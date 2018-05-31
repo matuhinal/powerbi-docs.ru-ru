@@ -1,22 +1,22 @@
 ---
 title: Что могут разработчики сделать с помощью Power BI
 description: Power BI предлагает целый ряд параметров для разработчиков, начиная от параметров внедрения и заканчивая настраиваемыми визуальными элементами и наборами данных потоковой передачи.
-services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/03/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 473052ee652c1fd6e68294efdbd7334cbb2df714
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: ee9f5b2e89a1746267090da3485076d67a99d6f9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810973"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290575"
 ---
-# <a name="what-can-developers-do-with-power-bi"></a>Какие возможности Power BI предоставляет разработчикам?
+# <a name="what-can-developers-do-with-power-bi"></a>Что могут разработчики сделать с помощью Power BI
 
 Разработчики могут включить содержимое Power BI в приложения разными способами. Эти параметры включают **внедрение с помощью Power BI**, **пользовательские визуальные элементы** и **принудительную отправку данных в Power BI**.
 

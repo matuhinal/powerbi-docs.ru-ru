@@ -1,30 +1,22 @@
 ---
 title: Диаграммы "Радиальный датчик" в Power BI
 description: Диаграммы "Радиальный датчик" в Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: xmja6Epqa
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 7417b324a74dcc4aecd599c73fed0298de3e6a89
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813054"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292531"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Диаграммы "Радиальный датчик" в Power BI
 Диаграмма "Радиальный датчик" имеет дугу и отображает одно значение, которое отражает ход достижения цели или значение ключевого показателя эффективности.  Цель, или целевое значение, представляется линией. Текущий прогресс в достижении цели представляется областью с заливкой.  Значение, которое представляет текущий прогресс, отображается полужирным шрифтом внутри дуги. Все возможные значения равномерно распределены по дуге, от минимального (крайнее левое значение) до максимального (крайнее правое значение).

@@ -1,29 +1,21 @@
 ---
 title: Что такое Power BI Desktop?
 description: Узнайте, что такое Power BI Desktop и как начать работу с этим приложением
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-desktop
 ms.topic: overview
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f59fb625f0fd47755d172b9bcd39ca6e153c8845
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: be29d5879ef62ab3d7fcef271e61337a0d2fb050
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810996"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289195"
 ---
 # <a name="what-is-power-bi-desktop"></a>Что такое Power BI Desktop?
 
@@ -33,7 +25,7 @@ ms.locfileid: "33810996"
 
 Вот самые распространенные варианты применения **Power BI Desktop**:
 
-* подключение к данным;
+* Подключение к данным
 * преобразование и очистка данных для создания модели данных;
 * создание визуальных элементов, таких как диаграммы и графики, которые наглядно отображают данные;
 * создание отчетов, которые представляют собой коллекции визуальных элементов на одной или нескольких страницах отчета;
@@ -78,7 +70,7 @@ ms.locfileid: "33810996"
 
 ![Панель "Визуализации" в Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_05.png)
 
-## <a name="create-reports"></a>Создание отчетов
+## <a name="create-reports"></a>Создавать отчеты
 
 Чаще всего создаются коллекции визуальных элементов, отображающих разные аспекты данных, на основе которых создавалась модель в Power BI Desktop. Коллекция визуальных элементов, сохраненная в одном файле Power BI Desktop, называется *отчетом*. Отчет может состоять из одной или нескольких страниц, так же как файл Excel включает один или несколько листов. На следующем рисунке вы видите первую страницу отчета Power BI Desktop с именем Overview (Обзор), которое отображается на вкладке в нижней части изображения. В этом отчете десять страниц.
 

@@ -1,30 +1,22 @@
 ---
 title: Картограммы (хороплеты) в Power BI
 description: Документация по созданию картограмм (хороплеты) в Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812318"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293060"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Картограммы (хороплеты) в Power BI
 Картограмма с помощью заливки, оттенков или шаблонов показывает, как изменяется исследуемое значение по географическим регионам.  Картограмма позволяет быстро отобразить относительные различия с помощью заливки, которая изменяется от светлой (меньше, встречается с меньшей частотой) до темной (больше, встречается с большей частотой).    
@@ -53,7 +45,7 @@ Power BI интегрируется с Bing для предоставления 
 
 ### <a name="prerequisites"></a>Предварительные требования
 - Служба Power BI или Power BI Desktop
-- Продажи и маркетинг — пример
+- Продажи и маркетинг — пример
 
 Для работы в этом руководстве используется служба Power BI, а не Power BI Desktop.
 
