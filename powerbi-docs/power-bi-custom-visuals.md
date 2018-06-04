@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721462"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Пользовательские визуальные элементы в Power BI
 При создании или редактировании отчета Power BI доступно множество различных визуальных элементов. Эти визуальные элементы отображаются в области **Визуализации**. Когда вы скачиваете Power BI Desktop или открываете службу Power BI (app.powerbi.com), этот предварительно упакованный набор визуальных элементов поставляется в комплекте.
@@ -53,10 +54,10 @@ ms.lasthandoff: 05/17/2018
 
 ### <a name="certified-visuals"></a>Сертифицированные визуальные элементы
 
-Сертифицированные визуальные элементы Power BI — это визуальные элементы из Marketplace, которые прошли дополнительную тщательную проверку качества. Все они поддерживаются в дополнительных сценариях, таких как [подписка по электронной почте](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe) и [экспорт в PowerPoint](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint).
-Просмотреть список сертифицированных пользовательских визуальных элементов или отправить свои визуальные элементы можно [здесь](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified).
+Сертифицированные визуальные элементы Power BI — это визуальные элементы из Marketplace, которые прошли дополнительную тщательную проверку качества. Все они поддерживаются в дополнительных сценариях, таких как [подписка по электронной почте](https://docs.microsoft.com/power-bi/service-report-subscribe) и [экспорт в PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
+Просмотреть список сертифицированных пользовательских визуальных элементов или отправить свои визуальные элементы можно [здесь](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в AppSource? См. статью о [начале работы с использованием средств для разработчиков](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools) и узнайте, как [публиковать настраиваемые визуальные элементы в AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в AppSource? См. статью о [начале работы с использованием средств для разработчиков](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools) и узнайте, как [публиковать настраиваемые визуальные элементы в AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>Импорт пользовательских визуальных элементов из файла
 

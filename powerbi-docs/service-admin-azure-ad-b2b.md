@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722231"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 
@@ -30,7 +31,7 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 
 ## <a name="who-can-you-invite"></a>Кого вы можете пригласить?
 
-Вы можете приглашать гостей, использующих любой адрес электронной почты, включая личные учетные записи, такие как gmail.com, outlook.com или hotmail.com. В Azure B2B их называют "социальными идентификаторами". Дополнительные сведения см. в статье [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Вы можете приглашать гостей, использующих любой адрес электронной почты, включая личные учетные записи, такие как gmail.com, outlook.com или hotmail.com. В Azure B2B их называют "социальными идентификаторами". Дополнительные сведения см. в статье [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Приглашение гостевых пользователей
 
@@ -100,7 +101,7 @@ Power BI интегрируется с Azure Active Directory "бизнес — 
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
-* При приглашении гостей, использующих личные учетные записи электронной почты, такие как gmail.com, outlook.com или hotmail.com, можно руководствоваться этим [внедренным видеороликом](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience), где показан пример регистрации пользователя.
+* При приглашении гостей, использующих личные учетные записи электронной почты, такие как gmail.com, outlook.com или hotmail.com, можно руководствоваться этим [внедренным видеороликом](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience), где показан пример регистрации пользователя.
 * Внешние гостевые пользователи B2B могут только использовать содержимое. Они имеют право просматривать приложения, панели мониторинга, отчеты, экспортировать данные и создавать подписки на панели мониторинга и отчеты по электронной почте. Они не могут использовать рабочие области и публиковать собственное содержимое.
 * Этот компонент сейчас недоступен в мобильных приложениях Power BI. На мобильных устройствах содержимое Power BI можно просматривать, используя Azure AD B2B в браузере.
 * Этот компонент сейчас недоступен в веб-части отчетов SharePoint Online в Power BI.
