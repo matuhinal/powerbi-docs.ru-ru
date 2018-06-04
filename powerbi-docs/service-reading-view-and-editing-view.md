@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251674"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Режимы чтения и правки в отчетах службы Power BI
 В службе Power BI (не в Power BI Desktop) есть два режима для просмотра и взаимодействия с отчетами: чтения и правки. Режим чтения доступен для всех и специально разработан для *пользователей* данных, а режим правки доступен только *авторам* и владельцам отчетов.

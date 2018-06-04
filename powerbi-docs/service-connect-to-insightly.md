@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244463"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Подключение к Insightly с помощью Power BI
 Вы можете визуализировать и совместно использовать данные Insightly CRM в Power BI с помощью пакета содержимого Insightly. Подключитесь к Power BI с помощью ключа API Insightly для просмотра и создания отчетов и информационных панелей из данных CRM. С помощью Power BI можно анализировать данные новыми способами, создавать эффективные графики и диаграммы, а также отображать контакты, интересы и организации на карте.

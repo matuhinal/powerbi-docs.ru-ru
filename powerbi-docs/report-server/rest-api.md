@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721761"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Разработка с помощью интерфейсов REST API для решения "Сервер отчетов Power BI"
 Решение "Сервер отчетов Power BI" поддерживает интерфейсы REST API. Интерфейсы REST API — это конечные точки служб, которые поддерживают набор операций HTTP (методов) и предоставляют ресурсам на сервере отчетов доступ на создание, получение, обновление или удаление.
 
 REST API обеспечивает программный доступ к объектам в каталоге решения "Сервер отчетов Power BI". Такими объектами могут быть папки, отчеты, ключевые показатели эффективности, источники данных, наборы данных, планы обновления, подписки и др. С помощью REST API вы можете, например, перемещаться по иерархии папок, обнаруживать содержимое папки или скачивать определение отчета. Вы также можете создавать, обновлять и удалять объекты. Примеры операций с объектами: отправка отчета, выполнение плана обновления, удаление папки и т. д.
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>Компоненты запросов и ответов REST API
 Пару "запрос — ответ" REST API можно разделить на пять компонентов:
