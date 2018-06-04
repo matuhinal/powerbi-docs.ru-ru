@@ -12,10 +12,11 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 ms.openlocfilehash: 2a5e654062c056308431b2a94f7e2da4e3d46d17
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240890"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Этот раздел посвящен *использованию* карты ArcGIS в службе Power BI Desktop или версии службы для мобильных устройств. Как только автор предоставит вам общий доступ к карте ArcGIS, у вас появится множество возможностей взаимодействия с ней.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании ESRI](power-bi-visualization-arcgis.md).
