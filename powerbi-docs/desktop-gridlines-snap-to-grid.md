@@ -11,10 +11,11 @@ ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7477fc19dda5aeb7729fbbde319faa0d930db179
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289839"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Использование линий сетки и привязки к сетке в отчетах Power BI Desktop
 На холсте отчетов **Power BI Desktop** отображаются линии сетки, которые позволяют аккуратно выравнивать визуальные элементы на странице отчета и привязывать их к сетке. Благодаря этим возможностям объекты в отчете будут выровнены и расположены с равными интервалами.

@@ -1,22 +1,21 @@
 ---
 title: Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 description: В этой статье сравниваются возможности решения "Сервер отчетов Power BI" и службы Power BI.
-services: powerbi
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.component: powerbi-report-server
 ms.date: 05/07/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: d0a3e2870edc8b18cb982c33582c7578aa67f2c3
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813905"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296794"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -33,7 +32,7 @@ ms.locfileid: "33813905"
 | Создание отчетов Power BI в браузере | Нет | Да |  
 | Требуется шлюз | Нет | Да для локальных источников данных |  
 | Потоковая передача в реальном времени | Нет | Да | [Потоковая передача в реальном времени в Power BI](../service-real-time-streaming.md)
-| Информационные панели | Нет | Да | [Панели мониторинга в службе Power BI](../service-dashboards.md) 
+| Панели мониторинга | Нет | Да | [Панели мониторинга в службе Power BI](../service-dashboards.md) 
 | Распределение групп отчетов с помощью приложений | Нет | Да | [Создание и публикация приложений с панелями мониторинга и отчетами](../service-create-distribute-apps.md) 
 | Пакеты содержимого | Нет | Да | [Знакомство с пакетами содержимого организации](../service-organizational-content-pack-introduction.md) 
 | Подключение к службам, таким как Salesforce | Нет | Да | [Подключение к используемым службам](../service-connect-to-services.md) с помощью службы Power BI
@@ -51,7 +50,7 @@ ms.locfileid: "33813905"
 | Расширенные возможности совместной работы Office 365 | Нет | Да | [Совместная работа в рабочей области приложений](../service-collaborate-power-bi-workspace.md) с Office 365 
 | визуальные элементы R; | Нет | Да | [Создание визуальных элементов R](../service-r-visuals.md) в службе Power BI  
 | Возможности предварительной версии | Нет | Да | [Включение предварительных версий функций Power BI](../service-preview-features.md) 
-| Настройка визуальных элементов | Да | Да | [Пользовательские визуальные элементы в Power BI](../power-bi-custom-visuals.md) 
+| Пользовательские визуальные элементы | Да | Да | [Пользовательские визуальные элементы в Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Версия, оптимизированная для сервера отчетов, доступна для скачивания вместе с сервером отчетов | Версия, оптимизированная для службы Power BI, доступна в Windows Store | [Power BI Desktop для сервера отчетов](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop для службы Power BI](http://aka.ms/pbidesktopstore)
 
 ## <a name="next-steps"></a>Дальнейшие действия

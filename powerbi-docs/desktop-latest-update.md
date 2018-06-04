@@ -1,29 +1,21 @@
 ---
 title: Новые возможности в последнем обновлении Power BI Desktop
 description: Новые возможности в последнем обновлении Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/31/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: faf1b8d4d0db1dff407611b28ed910bfb0717f30
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 5a677164f068ba4ad4796b2db42b7b052233d3da
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33923343"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285699"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop
 
@@ -53,7 +45,7 @@ ms.locfileid: "33923343"
 * Параметры метки данных для воронкообразной диаграммы [[видео]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Установка нулевой толщины обводки [[видео]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Аналитика
+### <a name="analytics"></a>Analytics
 
 * Детализация мер [[видео]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[статья]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
@@ -61,7 +53,7 @@ ms.locfileid: "33923343"
 
 * Добавочное обновление (предварительная версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[статья]](service-premium-incremental-refresh.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>Настройка визуальных элементов
+### <a name="custom-visuals"></a>Пользовательские визуальные элементы
 
 * Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 

@@ -11,10 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245461"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Совместная работа в рабочей области приложения Power BI
 Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Ведь эти рабочие области предназначены для совместной работы. Поработав со своими коллегами над информационными панелями и отчетами, упакуйте их в виде приложения и распространите. Дополнительные сведения о создании приложений и рабочих областей приложений в Power BI см. в [этой статье](service-create-distribute-apps.md). 

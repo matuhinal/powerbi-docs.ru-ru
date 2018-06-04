@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34445010"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Руководство. Изучение веб-портала Сервера отчетов Power BI на виртуальной машине
@@ -92,7 +92,7 @@ ms.locfileid: "34445010"
 
 ![Запуск виртуальной машины для Сервера отчетов Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
 
-|Числовые  |Назначение элемента  |
+|Число  |Назначение элемента  |
 |---------|---------|
 |![Номер 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Запуск SQL Server Data Tools для создания отчета с разбивкой на страницы (RDL) |
 |![Номер 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Примеры отчетов Power BI (PBIX)  |
@@ -104,7 +104,7 @@ ms.locfileid: "34445010"
 
 ![Веб-портал сервера отчетов Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Числовые  |Назначение элемента  |
+|Число  |Назначение элемента  |
 |---------|---------|
 |![Номер 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Ключевые показатели эффективности, созданные на веб-портале |
 |![Номер 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Отчеты Power BI (PBIX)  |

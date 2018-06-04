@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290759"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Специальные возможности в отчетах Power BI Desktop
 **Power BI Desktop** имеет функции, которые позволяют упростить использование отчетов **Power BI Desktop** и работу с ними людям с ограниченными возможностями. Эти функции включают возможность работать с отчетом, используя клавиатуру или средство чтения с экрана, фокусироваться на различных объектах на странице с помощью клавиши TAB и разумное использование меток в визуализации.

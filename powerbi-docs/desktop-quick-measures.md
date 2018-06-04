@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: f8eb978aaacd345a29f2d9e2395fad419a651be0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289770"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Использование быстрых мер для простого выполнения стандартных и мощных вычислений
 Чтобы оперативно и без труда выполнять стандартные и мощные вычисления, используйте **быстрые меры**. Средство **Быстрые меры** запускает набор команд DAX в фоновом режиме (вам не нужно писать DAX-код — все выполняется автоматически) на основе данных, которые вы вводите в диалоговое окно, а затем представляет результаты для использования в отчете. Самое главное, вы можете просмотреть, как быстрые меры выполняют DAX-команды, а также ознакомиться с библиотекой DAX или расширить свои знания о ней.

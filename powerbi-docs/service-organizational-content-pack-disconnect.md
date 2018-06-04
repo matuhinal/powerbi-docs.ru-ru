@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247649"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Удаление подключения к пакету содержимого организации в Power BI
 Ваш коллега создал содержимое пакета, а вы нашли его в AppSource и добавили в рабочую область Power BI. Однако он вам больше не нужен.  Как его удалить?

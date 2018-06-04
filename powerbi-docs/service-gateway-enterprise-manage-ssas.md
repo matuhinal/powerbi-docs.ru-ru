@@ -11,10 +11,11 @@ ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297154"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Управление своим источником данных — службы Analysis Services
 После установки локального шлюза данных необходимо добавить источники, которые можно будет с ним использовать. В этой статье будут рассмотрены способы работы со шлюзами и источниками данных. Источник данных служб Analysis Services можно использовать как для запланированного обновления, так и для активных подключений.

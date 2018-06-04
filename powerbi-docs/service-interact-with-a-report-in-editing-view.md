@@ -11,10 +11,11 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240437"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Взаимодействие с отчетом в режиме правки в службе Power BI
 Отчеты можно создавать и редактировать в службе Power BI и приложении Power BI Desktop. В службе Power BI отчеты можно создавать и редактировать в **представлении правки**. В Power BI Desktop отчеты можно создавать и редактировать в [**представлении отчета**](desktop-report-view.md). В этой статье рассматривается режим правки в службе Power BI. 

@@ -12,10 +12,11 @@ ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471601"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Краткое руководство. Навигация в службе Power BI
 
@@ -127,7 +128,7 @@ ms.lasthandoff: 05/24/2018
 Дополнительные сведения см. в статье [Поиск и сортировка содержимого в Power BI](service-navigation-search-filter-sort.md).
 
 ## <a name="clean-up-resources"></a>Очистка ресурсов
-Завершив работу с этим кратким руководством, вы можете при желании удалить примеры панели мониторинга, отчета и набора данных "Анализ розничной торговли".
+Завершив работу с этим кратким руководством, вы можете при необходимости удалить примеры панели мониторинга, отчета и набора данных "Анализ розничной торговли".
 
 1. Откройте службу Power BI (app.powerbi.com) и войдите в нее.    
 2. В панели навигации слева выберите **"Рабочие области" > "Моя рабочая область"**.  

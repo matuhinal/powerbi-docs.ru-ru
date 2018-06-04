@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34256755"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark на HDInsight с поддержкой DirectQuery
 Служба Spark на Azure HDInsight с поддержкой DirectQuery позволяет создавать динамические отчеты на основе уже имеющихся данных и метрик из кластера Spark. При использовании технологии DirectQuery запросы, формируемые при просмотре данных в представлении отчетов, отправляются обратно в кластер Azure HDInsight Spark. Этот тип взаимодействия рекомендуется пользователям, знакомым с сущностями, к которым они подключаются.

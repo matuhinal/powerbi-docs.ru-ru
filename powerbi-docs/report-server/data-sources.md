@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310459"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
@@ -68,7 +69,7 @@ ms.lasthandoff: 05/19/2018
 | Папка SharePoint (локальная) |Да |Да |Нет |
 | Список SharePoint (локальный) |Да |Да |Нет |
 | Список SharePoint Online |Да |Нет |Нет |
-| Snowflake |Да |Нет |Нет |
+| Снежинка |Да |Нет |Нет |
 | База данных Sybase |Да |Да |Нет |
 | База данных Teradata |Да |Да |Да |
 | Text/CSV. |Да |Да |Нет |
@@ -154,7 +155,7 @@ ms.lasthandoff: 05/19/2018
 | Папка SharePoint (локальная) |Да |Нет |Нет |Да |
 | Список SharePoint (локальный) |Да |Нет |Нет |Да |
 | Список SharePoint Online |Нет |Нет |Нет |Нет |
-| Snowflake |Нет |Нет |Нет |Нет |
+| Снежинка |Нет |Нет |Нет |Нет |
 | База данных Sybase |Нет |Нет |Да |Да |
 | База данных Teradata |Нет |Нет |Да |Да |
 | appFigures (бета-версия) |Нет |Нет |Нет |Нет |

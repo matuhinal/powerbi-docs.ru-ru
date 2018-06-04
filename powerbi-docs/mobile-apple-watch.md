@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: 495b47319b8ac69ddae1d727ae9471d24fa37c6c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294258"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Просмотр данных в мобильном приложении Power BI на устройстве Apple Watch
 С помощью приложения Power BI для Apple Watch можно просматривать ключевые показатели эффективности и плитки типа "карточка" на информационных панелях Power BI прямо на своих часах. Ключевые показатели эффективности и плитки типа "карточка" лучше всего подходят для измерения пульса на небольшом экране. Панель мониторинга можно обновить непосредственно на устройстве iPhone или в часах Apple Watch.

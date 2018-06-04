@@ -11,10 +11,11 @@ ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310183"
 ---
 # <a name="hyperlinks-in-tables"></a>Гиперссылки в таблицах
 В этой статье объясняется, как использовать Power BI Desktop для создания гиперссылок. Используйте Power BI Desktop или службу Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы. 

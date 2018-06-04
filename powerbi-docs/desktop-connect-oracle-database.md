@@ -11,10 +11,11 @@ ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a56097c02c9f3af63151d0a38e14fdc580e4ee9e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291012"
 ---
 # <a name="connect-to-an-oracle-database"></a>Подключение к базе данных Oracle
 Для подключения к базе данных Oracle с помощью **Power BI Desktop** необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили — **32-разрядную** или **64-разрядную**.

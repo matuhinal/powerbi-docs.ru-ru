@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244256"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Подключение к Application Insights с помощью Power BI
 Используйте Power BI для создания эффективных пользовательских панелей мониторинга на базе телеметрии [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Взгляните на данные телеметрии вашего приложения под новым углом. Сочетайте метрики из нескольких приложений или служб компонентов на одной информационной панели. Этот первый выпуск пакета содержимого Power BI для Application Insights включает в себя мини-приложения для распространенных метрик использования, например активных пользователей, просмотра страниц, сеансов, версии браузера и ОС, а также географического распределения пользователей на карте.

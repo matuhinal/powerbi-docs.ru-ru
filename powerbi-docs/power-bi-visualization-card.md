@@ -11,10 +11,11 @@ ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: ebf66b041a65c3b9f1e7c8a3a69ac4121970a5bd
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294762"
 ---
 # <a name="card-visualizations"></a>Визуализации в виде карточек
 Иногда на панели мониторинга или в отчете Power BI очень важно отслеживать одно число, например показатель общего объема продаж, долю на рынке в годовом исчислении или общее число возможных сделок. Такой тип визуализации называется *карточкой*. Как и практически все собственные визуализации Power BI, карточки можно создавать при помощи редактора отчетов или функции вопросов и ответов.

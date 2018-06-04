@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286389"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Общие сведения о запросах в Power BI Desktop
 С помощью **Power BI Desktop** вы можете подключаться к миру данных, создавать привлекательные и фундаментальные отчеты и совместно использовать свою работу с другими пользователями, которые затем могут использовать ее для расширения своих возможностей по бизнес-аналитике.

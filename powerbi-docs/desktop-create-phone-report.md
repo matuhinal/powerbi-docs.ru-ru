@@ -7,36 +7,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/08/2017
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721071"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Создание отчетов, оптимизированных для мобильных приложений Power BI
 [Создавая отчет в Power BI Desktop](desktop-report-view.md), вы можете сделать его удобным для использования в мобильных приложениях на телефонах, выполнив специальную мобильную версию отчета. Чтобы адаптировать отчет для телефона, следует упорядочить визуальные элементы и изменить их размеры, возможно, не включая их все для обеспечения оптимальной производительности. Кроме того, вы можете создавать [*адаптивные* визуальные элементы](#optimize-a-visual-for-any-size) и [адаптивные срезы](#enhance-slicers-to-to-work-well-in-phone-reports), легко изменяющие размер при просмотре на телефоне. Если в отчет добавлены фильтры, в мобильном отчете эти фильтры будут отображаться автоматически. Пользователи будут видеть их и смогут с их помощью фильтровать данные в отчете.
 
-![Оптимизированный отчет на телефоне](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
+![Оптимизированный отчет на телефоне](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
 ## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>Макет страницы мобильного отчета в Power BI Desktop
 После [создания отчета в Power BI Desktop](desktop-report-view.md) вы можете оптимизировать его для использования на телефоне.
 
 1. В Power BI Desktop на панели навигации слева выберите **Report View**.
    
-    ![Значок представления отчетов](media/desktop-create-phone-report/pbi_reportviewinpbidesigner_changeview.png)
+    ![Значок представления отчетов](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
 2. На вкладке **Представление** выберите значок **Макет телефона**.  
    
-    ![Значок "Макет телефона"](media/desktop-create-phone-report/power-bi-phone-layout-icon.png)
+    ![Значок "Макет телефона"](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
     Появится пустой холст телефона. Все визуальные элементы на исходной странице отчета перечислены на панели "Визуализации" справа.
 3. Чтобы добавить визуальный элемент на макет телефона, перетащите его с панели "Визуализации" на холст телефона.
    
     В мобильных отчетах используется макет сетки. При перетаскивании визуальных элементов на холст телефона они прикрепляются к этой сетке.
    
-    ![Перетаскивание визуального элемента](media/desktop-create-phone-report/02_dragging_and_droping_a_vis.gif)
+    ![Перетаскивание визуального элемента](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     Вы можете добавить визуальные элементы с главной страницы отчета (все или некоторые) на страницу мобильного отчета. Один визуальный элемент можно добавить только один раз.
 4. Вы можете изменять размер визуальных элементов в сетке точно так же, как вы изменяете размеры плиток на панелях мониторинга и мобильных панелях мониторинга.
@@ -46,14 +47,14 @@ ms.lasthandoff: 05/17/2018
    > 
    > 
    
-   ![Изменение размера визуального элемента](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
+   ![Изменение размера визуального элемента](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Оптимизация визуальных элементов для любого размера
 На панели мониторинга или в отчете можно настроить *адаптивность* визуальных элементов, чтобы они динамически изменялись, отображая как можно больше данных независимо от размера экрана. 
 
 При изменении размера визуального элемента Power BI определяет приоритеты в представлении данных — например, автоматически удаляет отступы и перемещает условные обозначения наверх, чтобы даже при уменьшении визуальный элемент оставался информативным.
 
-![Изменение размера адаптивного визуального элемента](media/desktop-create-phone-report/power-bi-responsive-visual.gif)
+![Изменение размера адаптивного визуального элемента](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
 Вы можете выбрать, следует ли включать адаптивность для каждого визуального элемента. Узнайте подробнее об [оптимизации визуальных элементов](desktop-create-responsive-visuals.md).
 
@@ -69,7 +70,7 @@ ms.lasthandoff: 05/17/2018
   
    Таким образом визуальный элемент можно удалить только с холста макета для телефона. Это не повлияет на сам визуальный элемент и исходный отчет.
   
-   ![Удаление визуального элемента](media/desktop-create-phone-report/05_removing_a_vis.gif)
+   ![Удаление визуального элемента](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
 ## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Улучшение срезов для оптимизации мобильных отчетов
 Срезы помогают фильтровать данные отчета на холсте. Когда вы создаете срезы в обычном режиме создания отчетов, вы можете изменить некоторые параметры среза, чтобы сделать его более удобным для использования в мобильных отчетах.
@@ -80,7 +81,7 @@ ms.lasthandoff: 05/17/2018
 
 Если вы сделали срез адаптивным, в зависимости от его размеров и фигуры отображается разное количество параметров. Он может быть высоким, коротким, широким или узким. Если сделать его очень маленьким, он станет просто значком фильтра на странице отчета. 
 
-![Адаптивный срез Power BI](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+![Адаптивный срез Power BI](media/desktop-create-phone-report/desktop-create-phone-report-8.png)
 
 Дополнительные сведения о [создании адаптивных срезов](power-bi-slicer-filter-responsive.md).
 
@@ -98,7 +99,7 @@ Power BI автоматически обнаруживает в мобильны
 
 Если вы оптимизируете только некоторые страницы, читатели увидят сообщение в книжной ориентации, которое уведомляет, что отчет доступен в альбомной.
 
-![Неоптимизированная страница на телефоне](media/desktop-create-phone-report/06-power-bi-phone-report-page-not-optimized.png)
+![Неоптимизированная страница на телефоне](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
 Чтобы просмотреть страницу в альбомной ориентации, читателю достаточно повернуть экран своего телефона. См. дополнительные сведения о [взаимодействии с отчетами Power BI, оптимизированными для просмотра на телефоне](mobile-apps-view-phone-report.md).
 

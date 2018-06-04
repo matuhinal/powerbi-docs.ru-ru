@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
 ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290276"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Интеграция панели мониторинга в приложение для организации
 Узнайте, как интегрировать (внедрить) панель мониторинга в веб-приложение с помощью вызовов REST API и API JavaScript для Power BI для вашей организации.

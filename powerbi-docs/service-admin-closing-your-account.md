@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296142"
 ---
 # <a name="closing-your-power-bi-account"></a>Закрытие учетной записи Power BI
 Если вы больше не планируете пользоваться Power BI, закройте свою учетную запись.  Закрыв учетную запись, вы больше не сможете войти в Power BI.  Кроме того, все данные клиента, загруженные или созданные в Power BI, будут удалены в соответствии с политикой хранения, изложенной в условиях предоставления услуг Power BI.

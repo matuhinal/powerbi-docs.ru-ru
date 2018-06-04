@@ -10,17 +10,18 @@ ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
 ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290782"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Возможности пакетов содержимого шаблонов в Power BI
 В этом разделе описываются типичные возможности для пользователя, подключающегося к [пакету содержимого](../service-connect-to-services.md) независимого поставщика программного обеспечения. 
 
 Попробуйте самостоятельно подключиться к выпущенному пакету содержимого на странице https://app.powerbi.com/getdata/services (например, к [пакету содержимого GitHub](https://app.powerbi.com/getdata/services/github), описанному ниже).
 
-## <a name="connect"></a>Подключите
+## <a name="connect"></a>Подключиться
 Вначале пользователь просматривает коллекцию пакетов содержимого и выбирает нужный пакет. Запись пакета содержимого включает имя, значок и описание, предоставляющее дополнительные сведения для пользователя.
 
 ![подключение](media/template-content-pack-experience/github_data.png)

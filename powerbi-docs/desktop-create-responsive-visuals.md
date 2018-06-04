@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290529"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Оптимизация визуальных элементов Power BI для любого размера
 По умолчанию при создании отчета визуальные элементы являются *адаптивными*. Так они могут динамически изменяться, отображая как можно больше данных независимо от размера экрана. В более старых отчетах также можно настроить динамическое изменение размера визуальных элементов.

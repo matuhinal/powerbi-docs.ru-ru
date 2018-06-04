@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722208"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
 Если вы — администратор клиента и хотите узнать, кто выполнил вход в Power BI, можно использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить сведения.
@@ -60,7 +61,7 @@ ms.lasthandoff: 05/17/2018
 Вы можете использовать PowerShell для экспорта данных входа. [Пример](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) можно найти в документации по Azure AD.
 
 > [!NOTE]
-> Чтобы пример PowerShell работал, обязательно обеспечьте соответствие [предварительным требованиям для доступа к API отчетов Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
+> Чтобы пример PowerShell работал, обязательно обеспечьте соответствие [предварительным требованиям для доступа к API отчетов Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites).
 > 
 > 
 

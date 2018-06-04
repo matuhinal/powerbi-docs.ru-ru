@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 30f39cd2b79792e9d4d3c41a1d60a8ddce6802f6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290506"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Добавление пользовательского столбца в Power BI Desktop
 Вы можете легко добавить новый пользовательский столбец данных в модель с помощью **редактора запросов** в **Power BI Desktop**. Вы можете создать и переименовать пользовательский столбец с помощью кнопок для создания [формул M](https://msdn.microsoft.com/library/mt270235.aspx), определяющих пользовательский столбец. Для формулы M доступен [полный набор справочных материалов по функциям](https://msdn.microsoft.com/library/mt779182.aspx). 

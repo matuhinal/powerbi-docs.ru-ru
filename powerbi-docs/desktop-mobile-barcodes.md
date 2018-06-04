@@ -10,10 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286918"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Добавление тегов для штрихкодов в Power BI Desktop для мобильных приложений
 В Power BI Desktop можно [задавать категории данных](desktop-data-categorization.md) в столбцах, чтобы приложение Power BI Desktop понимало, как интерпретировать соответствующие значения в визуальных элементах отчета. Столбцу также можно присвоить категорию **Штрихкод**. [Отсканировав штрихкод изделия в приложении Power BI](mobile-apps-scan-barcode-iphone.md) на устройстве iPhone, вы сможете увидеть все отчеты, в которых есть этот штрихкод. При открытии отчета в мобильном приложении Power BI автоматически фильтрует данные в нем в соответствии с указанным штрихкодом.

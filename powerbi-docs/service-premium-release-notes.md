@@ -11,10 +11,11 @@ ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298327"
 ---
 # <a name="power-bi-premium-release-notes"></a>Заметки о выпуске Power BI Premium
 Это заметки о выпуске Power BI Premium. Выделенная емкость обеспечивает вашей организации или команде более предсказуемую производительность, возможность обрабатывать большие объемы данных и распространять содержимое, не требуя приобретения лицензий на просмотр для каждого пользователя.

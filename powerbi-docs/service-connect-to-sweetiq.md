@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6592405de2d76c14334c8c31e4af84cd5a090ed9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247557"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Подключение к SweetIQ с помощью Power BI
 Пакет контента Power BI извлекает данные из учетной записи SweetIQ и создает набор готового содержимого, что позволяет легко изучать данные. Воспользуйтесь пакетом контента SweetIQ, чтобы проанализировать данные о местоположениях, списках, оценках и проверках. Данные обновляются ежедневно, так что вам всегда доступны последние сведения.

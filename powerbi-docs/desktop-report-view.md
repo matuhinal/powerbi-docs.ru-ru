@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 5026de163aa870c042fe4c3a13b6ff3fbf8849f0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290805"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Представление отчетов в Power BI Desktop
 Если вы работали с Power BI, вы знаете, как просто можно создавать отчеты, предоставляющие динамические сведения о ваших данных. В Power BI Desktop также реализованы дополнительные возможности. С помощью Power BI Desktop можно создавать сложные запросы, объединять данные из нескольких источников, создавать связи между таблицами и многое другое.
