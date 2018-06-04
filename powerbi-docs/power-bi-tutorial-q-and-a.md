@@ -10,10 +10,11 @@ ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239495"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Руководство по использованию функции "Вопросы и ответы" для создания визуализаций и отчетов
 В [этом обзоре](power-bi-q-and-a.md) представлено описание функции "Вопросы и ответы" Power BI с двух сторон: *потребители* используют панели мониторинга и отчеты, которые им предоставлены, а *создатели* управляют отчетами и наборами данных. Первая часть этого руководства предназначена главным образом для тех, кто использует панели мониторинга через службу Power BI. Вторая часть будет полезна тем, кто создает отчеты через в Power BI или Power BI Desktop. Особенности применения функции "Вопросы ответы" совместно с [Power BI Mobile](mobile-apps-ios-qna.md) и [Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях.
