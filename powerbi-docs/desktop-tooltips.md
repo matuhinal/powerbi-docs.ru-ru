@@ -11,10 +11,11 @@ ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34232115"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Создание подсказок на основе страниц отчетов в Power BI Desktop (предварительная версия)
 Вы можете создать визуально насыщенные **подсказки отчетов**, отображаемые при наведении указателя на визуальные элементы, основываясь на создаваемых в **Power BI Desktop** страницах отчетов. Благодаря этому настраиваемые подсказки могут включать визуальные элементы, изображения и любую другую коллекцию элементов, созданные на странице отчета. 
