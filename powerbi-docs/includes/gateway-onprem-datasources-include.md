@@ -18,7 +18,7 @@
 | SAP BW |Да |Да |
 | SAP HANA |Да |Да |
 | Список SharePoint (локальный) |Нет |Да |
-| Snowflake |Да |Да |
+| Снежинка |Да |Да |
 | SQL Server |Да |Да |
 | Sybase |Нет |Да |
 | Teradata |Да |Да |
