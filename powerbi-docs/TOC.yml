@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Единый центр уведомлений Power BI
                   href: service-notification-center.md
+                - name: Темы панели мониторинга
+                  href: service-dashboard-themes.md
             - name: Отчеты
               items:
                 - name: Изменение порядка сортировки диаграммы в отчете Power BI
@@ -242,7 +244,7 @@
                   href: power-bi-visualization-export-data.md
                 - name: Использование фильтров отчетов
                   href: power-bi-how-to-report-filter.md
-            - name: Опубликовать
+            - name: Публикация
               items:
                 - name: Издатель Power BI для Excel
                   href: publisher-for-excel.md
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: Подключение к данным с помощью универсальных интерфейсов
               href: desktop-connect-using-generic-interfaces.md
+            - name: Подключение к Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
             - name: Подключение к базе данных Oracle
               href: desktop-connect-oracle-database.md
             - name: Выполнение сценариев R в Power BI Desktop
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: "Функция \"Предполагать целостность данных\" в Power\_BI Desktop"
               href: desktop-assume-referential-integrity.md
-            - name: DirectQuery для баз данных Oracle и Teradata
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Использование соединителя SAP BW в Power BI Desktop (предварительная версия)
               href: desktop-sap-bw-connector.md
             - name: Использование ссылок OneDrive для бизнеса в Power BI Desktop
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Специальные возможности в отчетах Power BI
           href: desktop-accessibility.md
+        - name: "Управление формой для входа в Power\_BI Desktop"
+          href: desktop-admin-sign-in-form.md
 - name: Мобильные приложения Power BI
   items:
     - name: Обзор

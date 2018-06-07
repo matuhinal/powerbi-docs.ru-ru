@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481792"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Настройка Kerberos для использования отчетов Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ ms.lasthandoff: 05/17/2018
 Хотя эта конфигурация должна работать в большинстве случаев при использовании Kerberos, в зависимости от вашей среды может понадобиться другая конфигурация. Если отчет по-прежнему не будет загружаться, обратитесь к администратору домена, чтобы выяснить причину, или обратитесь в службу поддержки.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Руководство администратора](admin-handbook-overview.md)  
+[Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561800"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Изменение порядка сортировки диаграммы в отчете Power BI
 В отчете Power BI можно сортировать большую часть визуализаций в алфавитном порядке по названиям категорий в диаграмме или числовым значениям в каждой категории. Например, эта диаграмма отсортирована по названию магазина.
@@ -29,6 +30,13 @@ ms.lasthandoff: 05/17/2018
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **Примечание**. Отсортировать можно лишь некоторые визуальные элементы.  Например, нельзя отсортировать следующие визуальные элементы: диаграмма-дерево, карта, картограмма, точечная диаграмма, индикаторная диаграмма, карточка, многострочная карточка, каскадная диаграмма.
+
+## <a name="saving-changes-you-make-to-sort-order"></a>Сохранение изменений, внесенных в порядок сортировки
+В отчетах Power BI сохраняются фильтры, срезы, параметры сортировки и другие изменения, внесенные в представление данных. Поэтому если вы вернетесь к отчету позже, настройки представления сохранятся.  Чтобы восстановить параметры, настроенные автором отчета, в верхней строке меню выберите команду **Вернуться к значениям по умолчанию**. 
+
+![сохранение сортировки](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+Если кнопка **Вернуться к значениям по умолчанию** неактивна, значит, автор отчета отключил возможность сохранять изменения.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Сортировка с использованием других условий

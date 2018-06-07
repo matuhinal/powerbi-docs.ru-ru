@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689790"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded
 Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций.
@@ -26,9 +27,14 @@ ms.lasthandoff: 05/17/2018
 > [!IMPORTANT]
 > Процесс миграции зависит от Power BI Embedded. Но при использовании **токена внедрения** эта зависимость устраняется для пользователей вашего приложения. Чтобы просмотреть содержимое приложения, пользователям не нужно регистрироваться в службе Power BI. Этот способ внедрения можно использовать для обслуживания пользователей, не использующих Power BI Embedded.
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+Перед тем как приступать к миграции в новую службу Power BI Embedded, можно быстро ознакомиться с пошаговым руководством, которое поможет вам настроить новую среду Power BI Embedded с помощью [средства подготовки](https://aka.ms/embedsetup).
+
+Выберите подходящее решение:
+* **Внедрение для клиентов**, если [данные должны принадлежать приложению](https://aka.ms/embedsetup/AppOwnsData). [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. 
+* **Внедрение для организации**, если [данные должны принадлежать пользователям](https://aka.ms/embedsetup/UserOwnsData). [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI.
 
 ## <a name="prepare-for-the-migration"></a>Подготовка к переносу
 Перед переносом содержимого из коллекции рабочих областей Power BI в Power BI Embedded нужно выполнить несколько действий. Вам потребуется клиент, а также пользователь с лицензией Power BI Pro.
@@ -63,10 +69,6 @@ ms.lasthandoff: 05/17/2018
    
 > [!NOTE]
 > Это обычная корпоративная учетная запись пользователя, которая будет использоваться для внедрения.
->
-
-> [!NOTE]
-> Если для вашего приложения требуется аутентификация только по токену, полученному от приложения, [свяжитесь с нами](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement).
 >
 
 ## <a name="app-registration-and-permissions"></a>Регистрация приложения и разрешения
