@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34310413"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481838"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI.
@@ -103,9 +103,7 @@ ms.locfileid: "34310413"
 Теперь, когда приложение Power BI Desktop установлено, можно приступить к созданию отчетов Power BI.
 
 [Создание отчета Power BI для Сервера отчетов Power BI](quickstart-create-powerbi-report.md)  
-[Начало работы с Power BI Desktop](../desktop-getting-started.md)  
-Интерактивное обучение: [Начало работы с Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
-[Обзор руководства пользователя, сервер отчетов Power BI](user-handbook-overview.md)
+[Что такое Сервер отчетов Power BI?](get-started.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

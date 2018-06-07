@@ -1,30 +1,22 @@
 ---
 title: Комбинированная диаграмма в Power BI
 description: Это руководство по комбинированным диаграммам описывает, как их применять и создавать в службе Power BI и версии Desktop.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/21/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52c571d83ab6a77825945df71d3da29fd5f96d5e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812824"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584284"
 ---
 # <a name="combo-chart-in-power-bi"></a>Комбинированная диаграмма в Power BI
 В Power BI комбинированная диаграмма представляет собой визуализацию, сочетающую график и гистограмму. Объединение двух диаграмм в одну позволяет быстрее сравнивать данные.
@@ -113,6 +105,7 @@ ms.locfileid: "33812824"
 
 * [Добавьте комбинированную диаграмму как плитку панели мониторинга](service-dashboard-tiles.md).
 * [Сохраните отчет](service-report-save.md).
+* [Как сделать отчет более доступным для людей с ограниченными возможностями](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Перекрестное выделение и перекрестная фильтрация
 

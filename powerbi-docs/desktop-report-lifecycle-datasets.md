@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721117"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Подключение к наборам данных в службе Power BI из приложения Power BI Desktop
 Вы можете устанавливать динамическое подключение к общему набору данных в службе Power BI и создавать различные отчеты из одного набора данных. Это означает, что вы можете создать идеальную модель данных в Power BI Desktop и опубликовать ее в службе Power BI. После этого вы и другие пользователи сможете создавать несколько разных отчетов (в отдельных PBIX-файлах) на основе одной и той же общей модели. Это называется **динамическим подключением в службе Power BI**.
@@ -35,6 +36,8 @@ ms.lasthandoff: 05/17/2018
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Подключение к набору данных службы Power BI с помощью динамического подключения
 Когда Анна создаст отчет (и создает набор данных, на котором он основан) и опубликует его в **службе Power BI**, он отобразится в рабочей области ее команды в службе Power BI. Теперь все пользователи ее рабочей области смогут просматривать и использовать этот отчет.
+
+Дополнительные сведения о рабочих областях см. в статье [Рабочие области приложений](service-create-distribute-apps.md#app-workspaces).
 
 Другие участники этой рабочей области теперь смогут установить динамическое подключение к общей модели данных Анны, используя функцию **динамического подключения в службе Power BI**, и создавать собственные уникальные отчеты на основе *ее исходного набора данных*.
 

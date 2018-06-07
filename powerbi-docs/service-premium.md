@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: aa16cdb9391a406b2e093f551b86dda51ee1dcfa
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722800"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Что такое Power BI Premium?
 Power BI Premium предоставляет выделенные ресурсы для выполнения службы Power BI для вашей организации или команды, обеспечивая более стабильную производительность при работе большими объемами данных. Power BI Premium также обеспечивает широкое распространение содержимого без необходимости приобретать лицензии для каждого пользователя, просматривающего это содержимое.
@@ -58,7 +59,7 @@ Power BI Premium предоставляет выделенные ресурсы 
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Узлы емкости Premium
-Power BI Premium предоставляется в виде узлов с разной емкостью виртуальных ядер. Дополнительные сведения о конкретных номерах SKU предложений и затратах см. на странице [цен на Power BI](https://powerbi.microsoft.com/pricing/). Кроме того, доступен [калькулятор затрат](https://powerbi.microsoft.com/calculator/). Сведения о планирования емкости для внедренной аналитики см. в [техническом документе по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy).
+Power BI Premium предоставляется в виде узлов с разной емкостью виртуальных ядер. Дополнительные сведения о конкретных номерах SKU предложений и затратах см. на странице [цен на Power BI](https://powerbi.microsoft.com/pricing/). Кроме того, доступен [калькулятор затрат](https://powerbi.microsoft.com/calculator/). Сведения о планирования емкости для внедренной аналитики см. в [техническом документе по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy).
 
 * Узлы P можно использовать для внедренных развертываний или развертывания служб.
 * Узлы EM можно использовать только внедренных развертываний.

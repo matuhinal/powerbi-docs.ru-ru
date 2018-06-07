@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289747"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721025"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -102,6 +102,9 @@ Power BI Embedded — это набор интерфейсов API, позвол
 Аутентификацию и авторизацию пользователей приложения реализует независимый поставщик ПО. Он может реализовать собственную модель аутентификации для своих приложений.
 
 Если у вас уже есть клиент Azure AD, вы можете использовать существующий каталог или создать новый клиент Azure AD, чтобы обеспечить безопасность содержимого приложения.
+
+Чтобы получить токен Azure AD, можно использовать одну из библиотек проверки подлинности Azure Active Directory. Клиентские библиотеки доступны для различных платформ.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Чем Power BI Embedded отличается от других служб Azure?
 
@@ -205,6 +208,31 @@ Power BI Embedded — это набор интерфейсов API, позвол
 * поддержка всех источников данных Power BI, а не только двух стандартных источников для **коллекции рабочих областей Power BI**; 
 * поддержка в решении **Power BI Embedded** таких функций, как вопросы и ответы, обновление, закладки, внедрение панелей мониторинга и плиток, пользовательские меню и т. д.;
 * модель выставления счетов по емкости.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Средство подключения для внедрения
+
+### <a name="what-is-the-onboarding-experience-tool"></a>Что такое средство подключения для внедрения?
+
+[Средство подключения для внедрения](https://aka.ms/embedsetup) позволяет быстро приступить к работе и скачать образец приложения, чтобы начать внедрение в Power BI.
+
+### <a name="which-solution-should-i-choose"></a>Какое решение выбрать?
+
+* [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. Запустите решение [Внедрение для клиентов](https://aka.ms/embedsetup/AppOwnsData).
+* [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI. Запустите решение [Внедрение для организации](https://aka.ms/embedsetup/UserOwnsData).
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Образец приложения скачан. Какое решение выбрать?
+
+Если вы работаете с решением **Внедрение для клиентов**, сохраните и распакуйте файл *PowerBI-Developer-Samples.zip*. Затем откройте папку *PowerBI-Developer-Samples-master\App Owns Data* и запустите файл *PowerBIEmbedded_AppOwnsData.sln*.
+
+Если вы работаете с решением **Внедрение для организации**, сохраните и распакуйте файл *PowerBI-Developer-Samples.zip*. Затем откройте папку *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* и запустите файл *pbi-saas-embed-report.sln*.
+
+### <a name="how-can-i-edit-my-registered-application"></a>Как изменить зарегистрированное приложение?
+
+Узнать, как изменять зарегистрированные в Azure AD приложения, можно [здесь](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application).
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Как изменить профиль пользователя или данные Power BI?
+
+Узнать, как изменить данные Power BI, можно [здесь](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 См. дополнительные сведения об [устранении неполадок с внедренным приложением](embedded-troubleshoot.md).
 

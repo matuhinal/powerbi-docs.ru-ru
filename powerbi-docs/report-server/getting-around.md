@@ -1,28 +1,20 @@
 ---
 title: Управление содержимым на веб-портале Сервера отчетов Power BI
 description: См. дополнительные сведения об управлении содержимым на веб-портале Сервера отчетов Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/07/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33892515"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721715"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Управление содержимым на веб-портале 
 Веб-портал сервера отчетов Power BI — это локальное расположение для просмотра и хранения отчетов Power BI, мобильных отчетов, отчетов с разбивкой на страницы, ключевых показателей эффективности, а также управления ими.
@@ -75,9 +67,7 @@ ms.locfileid: "33892515"
 См. дополнительные сведения о [работе с подписками на веб-портале](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Руководство пользователя](user-handbook-overview.md)  
-[Отчеты с разбивкой на страницы](quickstart-create-paginated-report.md)  
-[Отчеты Power BI](quickstart-create-powerbi-report.md)
+[Что такое Сервер отчетов Power BI?](get-started.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

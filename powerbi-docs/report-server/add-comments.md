@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721968"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Добавление комментариев к отчету на сервере отчетов
 Вы можете добавлять комментарии к отчетам, в том числе к отчетам Power BI, на веб-портале сервера отчетов. Комментарии связаны с отчетом, и любой пользователь с соответствующими разрешениями может их просматривать. Дополнительные сведения см. в разделе [Разрешения](#permissions) ниже.
@@ -44,7 +45,7 @@ ms.lasthandoff: 05/17/2018
 * можете просматривать все комментарии, публиковать, изменять и удалять свои собственные, а также удалять комментарии других пользователей.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Руководство для пользователя сервера отчетов Power BI](user-handbook-overview.md)  
+* [Что такое Сервер отчетов Power BI?](get-started.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

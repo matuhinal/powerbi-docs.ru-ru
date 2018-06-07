@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561455"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>О фильтрах и выделении в отчетах Power BI
 ***Фильтры*** удаляют все данные, кроме необходимых.  ***Выделение*** не является фильтрацией, так как оно не удаляет данные, а выделяет подмножество отображаемых данных. Невыделенные данные остаются видимыми и имеют серый цвет.
@@ -77,7 +78,7 @@ ms.lasthandoff: 05/17/2018
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-При выходе из отчета ваши изменения сохраняются. Чтобы отменить фильтрацию, выберите **Вернуться к значениям по умолчанию** в верхней строке меню.
+При выходе из отчета ваши изменения сохраняются. Чтобы отменить настройки фильтрации и вернуться к настройкам фильтрации, срезов, детализации и сортировки по умолчанию, заданным автором отчета, в верхней строке меню выберите **Вернуться к значениям по умолчанию**.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

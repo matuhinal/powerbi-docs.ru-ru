@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720818"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -74,7 +75,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 Для дальнейшего анализа может потребоваться захватить трафик с помощью Fiddler. Ошибка 403 может возникнуть по нескольким причинам.
 
-* Пользователь превысил количество внедренных токенов, которое может быть создано в общей емкости. Для создания внедренных токенов необходимо приобрести емкости Azure и назначить рабочую область этой емкости. См. раздел [Создание емкости Power BI Embedded на портале Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
+* Пользователь превысил количество внедренных токенов, которое может быть создано в общей емкости. Для создания внедренных токенов необходимо приобрести емкости Azure и назначить рабочую область этой емкости. См. раздел [Создание емкости Power BI Embedded на портале Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Истек срок действия токена аутентификации Azure AD.
 * Пользователь, прошедший аутентификацию, не входит в группу (рабочую область приложения).
 * У пользователя, прошедшего аутентификацию, нет прав администратора в группе (рабочей области приложения).
@@ -132,6 +133,53 @@ public static string GetExceptionText(this HttpOperationException exc)
 **Отчет или панель мониторинга медленно работает**
 
 Откройте файл в Power BI Desktop или в PowerBI.com и убедитесь, что производительность приемлема, чтобы исключить проблемы с приложением или интерфейсами API для внедрения.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Средство подключения для внедрения
+
+Воспользуйтесь [средством подключения для внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения. Затем можно сравнить свое приложение с образцом.
+
+### <a name="prerequisites"></a>Предварительные требования
+
+Перед использованием средства подключения для внедрения проверьте, есть ли все необходимые компоненты. Вам потребуются учетная запись **Power BI Pro** и подписка **Microsoft Azure**.
+
+* Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/en-us/pricing/).
+* Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+* Вам потребуется собственная установка [клиента Azure Active Directory ](create-an-azure-active-directory-tenant.md).
+* Также нужно установить [Visual Studio](https://www.visualstudio.com/) 2013 или более поздней версии.
+
+### <a name="common-issues"></a>Распространенные проблемы
+
+Ниже перечислены некоторые распространенные проблемы, которые могут возникнуть при тестировании с помощью средства подключения для внедрения.
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>Использование образца приложения "Внедрение для клиентов"
+
+Если вы работаете с решением **Внедрение для клиентов**, сохраните и распакуйте файл *PowerBI-Developer-Samples.zip*. Затем откройте папку *PowerBI-Developer-Samples-master\App Owns Data* и запустите файл *PowerBIEmbedded_AppOwnsData.sln*.
+
+При выборе варианта **Предоставление разрешений** (этап "Предоставление разрешений"), возникает следующая ошибка:
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+Нужно закрыть всплывающее окно, подождать несколько секунд и повторить попытку. Это действие может потребоваться выполнить несколько раз. Проблема возникает из-за того, что с момента завершения регистрации приложения до момента, когда оно становится доступным для внешних интерфейсов API, проходит некоторое время.
+
+При запуске образца приложения появляется следующее сообщение об ошибке:
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+Эта ошибка возникает по той причине, что единственным значением, которое не вносится в образец приложения, является ваш пароль пользователя. Откройте файл Web.config в решении и заполните поле pbiPassword своим паролем.
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Использование образца приложения "Внедрение для организации"
+
+Если вы работаете с решением **Внедрение для организации**, сохраните и распакуйте файл *PowerBI-Developer-Samples.zip*. Затем откройте папку *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* и запустите файл *pbi-saas-embed-report.sln*.
+
+При запуске образца приложения **Внедрение для организации** возникает следующая ошибка:
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+Причина в том, что URL-адрес перенаправления, указанный для приложения веб-сервера, отличается от URL-адреса образца. Чтобы зарегистрировать образец приложения, используйте *http://localhost:13526/* в качестве URL-адреса перенаправления.
+
+Если необходимо изменить зарегистрированное приложение, узнайте, как изменить [зарегистрированное в Azure AD приложение](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), чтобы оно могло предоставлять доступ к веб-интерфейсам API.
+
+Если необходимо изменить профиль пользователя или данные Power BI, ознакомьтесь с [соответствующей процедурой](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 Дополнительные сведения см. в разделе с [вопросами и ответами о Power BI Embedded](embedded-faq.md).
 

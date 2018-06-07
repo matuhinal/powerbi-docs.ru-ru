@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481755"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
 В этой статье изложены минимальные требования к оборудованию и программному обеспечению для установки и запуска сервера отчетов Power BI.
@@ -66,8 +67,8 @@ ms.lasthandoff: 05/17/2018
 | 2016 и более поздние версии |SKU категории "стандартный" или старшая версия |
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Руководство пользователя](user-handbook-overview.md)  
-[Руководство администратора](admin-handbook-overview.md)  
+[Что такое Сервер отчетов Power BI?](get-started.md)  
+[Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Install Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder) (Установка построителя отчетов)  
 [Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))

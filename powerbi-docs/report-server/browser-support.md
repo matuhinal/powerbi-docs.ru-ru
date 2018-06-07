@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b340ba2f2798c518d1705c03f7ec526a43bc019d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721784"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Поддержка браузера для сервера отчетов Power BI
 Узнайте о том, какие версии браузера поддерживаются для просмотра и администрирования сервера отчетов Power BI и элементов управления средства просмотра отчетов.
@@ -111,7 +112,7 @@ Your browser does not support scripts or has been configured to not allow script
   **(+)** — последняя общедоступная версия
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Руководство администратора](admin-handbook-overview.md)  
+[Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Install Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder) (Установка построителя отчетов)  
 [Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))

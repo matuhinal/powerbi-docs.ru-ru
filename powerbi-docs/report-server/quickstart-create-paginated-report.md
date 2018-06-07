@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294923"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721830"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 Как и предполагает название, отчеты c разбивкой на страницы могут выполняться на большом количестве страниц. Они поддерживают точную настройку и создаются в фиксированном формате. Отчеты с разбивкой на страницы это RDL-файлы.
@@ -94,7 +94,7 @@ ms.locfileid: "34294923"
 Есть много отличных ресурсов, которые помогут вам создавать отчеты в построителе и в конструкторе отчетов в SQL Server Data Tools. Стоит начать с руководств по построителю отчетов.
 
 * [Руководства по построителю отчетов](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Руководство для пользователя сервера отчетов Power BI](user-handbook-overview.md)  
+* [Что такое Сервер отчетов Power BI?](get-started.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

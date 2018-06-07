@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722665"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Настройка параметров прокси-сервера для локального шлюза данных
 Рабочие среды могут требовать, чтобы доступ в Интернет осуществлялся через прокси-сервер. Это может помешать локальному шлюзу данных подключаться к службе.
@@ -50,6 +51,19 @@ ms.lasthandoff: 05/17/2018
     </system.net>
 
 В конфигурации по умолчанию применяется аутентификация Windows. Если прокси-сервер использует другую форму проверки подлинности, необходимо изменить параметры. Если вы не уверены, что именно следует сделать, обратитесь к администратору сети.
+
+Помимо использования учетных данных по умолчанию, можно добавить элемент <proxy>, чтобы более детально определить параметры прокси-сервера. Например, можно указать, что локальный шлюз данных всегда должен использовать прокси-сервер даже для локальных ресурсов, присвоив параметру bypassonlocal значение false. Это может помочь при устранении неполадок, если нужно отслеживать все запросы по протоколу HTTPS от локального шлюза данных в файлах журнала прокси-сервера. В соответствии с приведенным ниже образцом конфигурации все запросы должны передаваться через определенный прокси-сервер с IP-адресом 192.168.1.10.
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 Дополнительные сведения о настройке элементов прокси-сервера в файлах конфигурации .NET см. в статье об [элементе defaultProxy (параметры сети)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 

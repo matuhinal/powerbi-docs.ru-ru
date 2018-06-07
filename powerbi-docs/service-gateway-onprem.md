@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722823"
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
 
@@ -93,6 +94,11 @@ ms.lasthandoff: 05/17/2018
 
 Сейчас нет единого места, где администраторы клиентов могут управлять всеми шлюзами, которые установили и настроили другие пользователи.  Если вы являетесь администратором клиента, попросите пользователей в вашей организации добавлять вас в качестве администратора для каждого шлюза, который они устанавливают. Это позволяет управлять всеми шлюзами в вашей организации на странице настройки шлюза или посредством [команд PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
+## <a name="enabling-outbound-azure-connections"></a>Включение исходящих подключений Azure 
+Локальный шлюз данных использует служебную шину Azure для подключения к облаку и устанавливает надлежащие исходящие подключения к соответствующему региону Azure. По умолчанию это расположение вашего клиента Power BI. См. статью [Где расположен мой клиент Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Если брандмауэр блокирует исходящие подключения, необходимо настроить его так, чтобы разрешить исходящие подключения от локального шлюза данных к соответствующему региону Azure. Подробные сведения о диапазонах IP-адресов каждого центра данных Azure см. на странице [Диапазоны IP-адресов центров данных Microsoft Azure](https://www.microsoft.com/en-us/download/details.aspx?id=41653).
+> [!NOTE]
+> Диапазоны IP-адресов могут со временем меняться, поэтому необходимо регулярно скачивать актуальные сведения. 
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 Если при установке и настройке шлюза возникают проблемы, см. статью [Устранение неполадок с локальным шлюзом данных](service-gateway-onprem-tshoot.md). Если у вас проблемы с брандмауэром, см. раздел статьи об устранении неполадок, посвященный [брандмауэру или прокси-серверу](service-gateway-onprem-tshoot.md#firewall-or-proxy).

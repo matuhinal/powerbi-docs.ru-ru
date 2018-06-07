@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295429"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481969"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 Узнайте о новых возможностях сервера отчетов Power BI. Здесь приводятся сведения об основных функциях. Материалы обновляются по мере выпуска новых элементов.
@@ -32,6 +32,12 @@ ms.locfileid: "34295429"
 * [Новые возможности службы Power BI](../service-whats-new.md)
 * [Новые возможности Power BI Desktop](../desktop-latest-update.md)
 * [Новые возможности мобильных приложений для Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>Май 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Удаленная настройка доступа мобильных приложений Power BI для iOS к серверам отчетов
+
+ИТ-администратор теперь может удаленно настраивать доступ мобильных приложений Power BI для iOS к серверу отчетов с помощью средства MDM. Подробные сведения см. в статье [Удаленная настройка доступа мобильных приложений Power BI для iOS к серверу отчетов](configure-powerbi-mobile-apps-remote.md).
 
 ## <a name="march-2018-release"></a>Выпуск за март 2018 г.
 
@@ -101,7 +107,7 @@ ms.locfileid: "34295429"
 - [Поиск по панели форматирования и аналитики](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Панель свойств поля и описания поля](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Аналитика
+### <a name="analytics"></a>Analytics
 
 - [UTCNOW() и UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Пометка таблицы настраиваемой даты](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -204,8 +210,8 @@ Excel и Power BI включают ряд средств, уникальных �
 * Оптимизированные возможности совместной работы в отчетах с комментариями
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Руководство пользователя](user-handbook-overview.md)  
-[Руководство администратора](admin-handbook-overview.md)  
+[Что такое Сервер отчетов Power BI?](get-started.md) 
+[Руководство для администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Install Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder) (Установка построителя отчетов)  
 [Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))

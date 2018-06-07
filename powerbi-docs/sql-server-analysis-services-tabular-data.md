@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722961"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Динамические данные служб SQL Server Analysis в Power BI
 В Power BI существует два способа подключения к серверу динамических данных SQL Server Analysis Services. Вы можете подключиться к серверу SQL Server Analysis Services на вкладке **Получение данных** или подключиться к [файлу Power BI Desktop](service-desktop-files.md) или [книге Excel](service-excel-workbook-files.md), которые уже подключены к серверу служб Analysis Services. Как правило, корпорация Майкрософт настоятельно рекомендует использовать Power BI Desktop, так как это приложение располагает полным набором инструментов и возможностью хранения резервной копии файла Power BI Desktop на локальном компьютере.
@@ -44,9 +45,12 @@ ms.lasthandoff: 05/22/2018
 ## <a name="dashboard-tiles"></a>Плитки панели мониторинга
 Если закрепить визуальные элементы из отчета на панели мониторинга, закрепленные плитки будут автоматически обновляться каждые 10 минут. При обновлении данных на локальном сервере данных Analysis Services плитки автоматически обновляются через 10 минут.
 
+## <a name="common-issues"></a>Распространенные проблемы
+
+* Ошибка "Не удалось загрузить схему модели". Эта ошибка происходит, когда пользователь, подключающийся к службам SQL Server Analysis Services, не имеет доступа к базе данных, кубу и модели SQL Server Analysis Services.
+
 ## <a name="next-steps"></a>Дальнейшие действия
 [Локальный шлюз данных](service-gateway-onprem.md)  
 [Управление источниками данных служб Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

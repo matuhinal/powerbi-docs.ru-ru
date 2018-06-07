@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722550"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Экспорт отчета службы Power BI для использования в приложении Power BI Desktop (предварительная версия)
 В Power BI Desktop можно экспортировать отчет в службу Power BI, сохранив отчет и выбрав **Опубликовать**. Процедуру экспорта отчета также называют *скачиванием*. Отчет можно экспортировать и в обратном направлении. Кроме того, отчет можно скачать из службы Power BI и использовать в приложении Power BI Desktop. Файлы, экспортируемые в двух направлениях, имеют расширение *PBIX*.
@@ -57,6 +58,7 @@ ms.lasthandoff: 05/19/2018
 * Эта функция не будет работать с отчетами, которые изначально были созданы в **службе Power BI**, включая пакеты содержимого.
 * Скачанные файлы всегда нужно открывать в последней версии **Power BI Desktop**. Скачанные файлы *.pbix* могут не открываться в более ранних версиях **Power BI Desktop**.
 * Если администратор отключил возможность экспорта данных, эта функция будет недоступна в **службе Power BI**.
+* Набор данных с добавочным обновлением невозможно скачать в файл *PBIX*.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Просмотрите короткий видеоролик от **Guy in a Cube** об этой функции.

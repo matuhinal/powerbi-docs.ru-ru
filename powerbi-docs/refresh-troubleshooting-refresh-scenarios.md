@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721577"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Устранение неполадок в сценариях обновления 
 Здесь можно найти сведения о различных сценариях, с которыми вы можете столкнуться при обновлении данных в службе Power BI.
@@ -56,6 +57,14 @@ ms.lasthandoff: 05/17/2018
 
 ## <a name="scheduled-refresh-timeout"></a>Время ожидания запланированного обновления
 Время ожидания запланированного обновления импортированных наборов данных составляет два часа. Это время ожидания увеличивается до пяти часов для наборов данных в рабочих областях **Premium**. Если вы сталкиваетесь с этим ограничением, вы можете уменьшить размер или сложность набора данных либо попробовать разбить набор данных на более мелкие части.
+
+## <a name="access-to-the-resource-is-forbidden"></a>Доступ к ресурсу запрещен  
+Эта ошибка может возникать из-за кэшированных учетных данных с истекшим сроком действия. Очистите кэш веб-браузера, выполнив вход в Power BI и перейдя на страницу https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Учетные данные будут принудительно обновлены. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Сбой обновления данных из-за смены пароля или учетных данных с истекшим сроком действия 
+Обновление данных может также завершиться сбоем из-за кэшированных учетных данных с истекшим сроком действия. Очистите кэш веб-браузера, выполнив вход в Power BI и перейдя на страницу https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Учетные данные будут принудительно обновлены.
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Обновление данных](refresh-data.md)  

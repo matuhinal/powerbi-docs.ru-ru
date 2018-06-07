@@ -8,15 +8,15 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b9c67b1c493d885b0a1b1a21e27c652afaaa513e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296993"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584123"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. Точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно в зависимости от данных.
@@ -81,7 +81,7 @@ ms.locfileid: "34296993"
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. Чтобы установить число точек данных, отображаемых в пузырьковой диаграмме, откройте раздел **Format** (Формат) в панели **Visualizations** (Визуализации), разверните карточку **General** (Общие) и установите значение **Data Volume** (Объем данных). В качестве максимального объема данных можно установить любое число вплоть до 10 000 (по умолчанию — 3500).
+3. Чтобы установить число точек данных, отображаемых в пузырьковой диаграмме, откройте раздел **Format** (Формат) в панели **Visualizations** (Визуализации), разверните карточку **General** (Общие) и установите значение **Data Volume** (Объем данных). В качестве максимального объема данных можно установить любое число вплоть до 10 000. При использовании больших значений рекомендуется предварительно провести тестирование, чтобы обеспечить достаточную производительность. 
 
     ![Объем данных](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 

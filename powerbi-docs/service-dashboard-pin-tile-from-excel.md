@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584077"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Закрепление плитки на панели мониторинга Power BI из книги Excel
 Прежде чем можно будет закрепить плитку из книги Excel, эту книгу необходимо подключить к службе Power BI (app.powerbi.com). При подключении книги ее связанная доступная только для чтения версия добавляется в службу Power BI, что дает возможность закреплять диапазоны ячеек на панелях мониторинга. На панели мониторинга можно закрепить даже целый лист.  
@@ -65,7 +66,7 @@ ms.lasthandoff: 05/17/2018
     ![Диалоговое окно закрепления на панели мониторинга](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Выберите **Перейти к панели мониторинга**. Здесь можно [переименовать, изменить размер, связать и переместить](service-dashboard-edit-tile.md) закрепленную визуализацию. По умолчанию при выборе закрепленной плитки книга открывается в Power BI.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Закрепление всей таблицы или сводной таблицы на панели мониторинга
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Закрепление всей таблицы или сводной таблицы на панели мониторинга
 Выполните указанные выше действия, но вместо диапазона ячеек выберите всю таблицу или сводную таблицу.
 
 Чтобы закрепить таблицу, выделите весь ее диапазон, включая заголовки.  Чтобы закрепить сводную таблицу, необходимо захватить все видимые части таблицы, включая фильтры, если они используются.

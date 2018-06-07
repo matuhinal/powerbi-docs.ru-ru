@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721393"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ознакомление с панелью "Фильтры" отчета
 Эта статья содержит подробную информацию о панели "Фильтры" отчета. Вы увидите панель в [режиме правки и режиме чтения службы Power BI](service-reading-view-and-editing-view.md) и в [представлении "Отчет Power BI Desktop"](desktop-report-view.md).
@@ -22,7 +23,7 @@ ms.lasthandoff: 05/17/2018
 Так как в Power BI есть много разных способов фильтрации данных, мы рекомендуем сначала ознакомиться со статьей [О фильтрах и выделении](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-the-report-filters-pane"></a>Работа с панелью "Фильтры" отчета
-В Power BI Desktop отчеты открываются в режиме отчета. В службе Power BI отчеты можно открывать в [режиме правки или чтения](service-reading-view-and-editing-view.md). В режиме правки или отчета в классической версии владельцы отчета могут [добавлять фильтры в отчет](power-bi-report-add-filter.md); эти фильтры сохраняются вместе с отчетом. Пользователи, просматривающие отчет в режиме чтения, могут взаимодействовать с фильтрами, но не могут добавлять в отчет новые фильтры.
+В Power BI Desktop отчеты открываются в режиме отчета. В службе Power BI отчеты можно открывать в [режиме правки или чтения](service-reading-view-and-editing-view.md). В режиме правки или отчета в классической версии владельцы отчета могут [добавлять фильтры в отчет](power-bi-report-add-filter.md); эти фильтры сохраняются вместе с отчетом. Пользователи, просматривающие отчет в режиме чтения, могут взаимодействовать с фильтрами и сохранять изменения, но не могут добавлять в отчет новые фильтры.
 
 В службе Power BI отчеты сохраняют все изменения, вносимые на панели "Фильтры", и эти изменения в мобильную версию отчета. Чтобы восстановить для панели фильтров заданные создателем значения по умолчанию, выберите **Вернуться к значениям по умолчанию** в верхней строке меню.     
 
