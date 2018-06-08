@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286159"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799586"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Подключение к многомерным моделям SSAS в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к **многомерным моделям SSAS**, которые обычно называются **SSAS MD**.
@@ -98,3 +98,7 @@ Power BI также может выводить изображения при н
   * URL-адреса изображений;
   * безопасность измерения.
 
+## <a name="troubleshooting"></a>Устранение неполадок 
+Ниже перечислены все известные проблемы при подключении к службам SQL Server Analysis Services (SSAS). 
+
+* **Ошибка. Не удалось загрузить схему модели**. Эта ошибка обычно возникает, когда у подключающегося к службам Analysis Services пользователя нет доступа к кубу или базе данных.

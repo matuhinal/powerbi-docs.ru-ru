@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723007"
+ms.locfileid: "34755077"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 В этой статье описаны распространенные проблемы, которые могут возникнуть при работе с **локальным шлюзом данных**.
@@ -149,6 +149,9 @@ ms.locfileid: "34723007"
 **Источники данных шлюза данных в интерфейсе "Получить данные" для служб Analysis Services недоступны из службы Power BI**
 
 Убедитесь, что ваша учетная запись указана на вкладке **Пользователи** источника данных в конфигурации шлюза. Если у вас нет доступа к шлюзу, свяжитесь с его администратором и попросите его проверить это для вас. Только учетным записям в списке **Пользователи** доступен источник данных, указанный в списке служб Analysis Services.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Ошибка. Не установлен или не настроен шлюз для источников данных в этом наборе
+Обязательно добавьте в шлюз источники данных, как описано в разделе [Добавление источника данных](service-gateway-manage.md#add-a-data-source). Если шлюз не отображается в разделе **Управление шлюзами** на портале администрирования, попробуйте очистить кэш браузера или выйти из службы, а затем войти в нее заново.
 
 ## <a name="datasets"></a>Наборы данных
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Ошибка. Недостаточно места для этой строки.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297683"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799425"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Область применения:
@@ -81,25 +81,30 @@ ms.locfileid: "34297683"
    ![Сортировка визуального элемента](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Чтобы изменить порядок сортировки, снова коснитесь многоточия (**...**), а затем еще раз коснитесь того же имени поля.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Детализация данных на iPad или планшете
-Эта возможность позволяет детализировать визуальный элемент на iPad или планшете для просмотра значений, которые составляют его определенную часть. Детализацию можно [добавить в визуальный элемент](power-bi-visualization-drill-down.md) в службе Power BI Desktop или Power BI. 
+## <a name="drill-down-and-up-in-a-visual"></a>Увеличение и уменьшение детализации визуального элемента
+Если автор отчета добавил в визуальный элемент возможность детализации, вы можете подробно просматривать значения в какой-то части этого элемента. Детализацию можно [добавить в визуальный элемент](power-bi-visualization-drill-down.md) в службе Power BI Desktop или Power BI. 
 
-> [!NOTE]
-> Сейчас функция детализации карт на устройствах iPad и планшетных ПК не работает.
-> 
-> 
+* Коснитесь точки данных в визуальном элементе, чтобы отобразить всплывающую подсказку. Если в визуальном элементе доступна детализация, в нижней части подсказки будут стрелки. 
+  
+  ![Детализация в визуальном элементе](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Коснитесь визуального элемента. Если в верхних углах есть стрелки вверх и вниз, ![Значки детализации](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)вы можете выполнить детализацию. Для увеличения детализации на одно значение коснитесь стрелки в правом верхнем углу и коснитесь значения в визуальном элементе &#151. В данном случае это темно-синий пузырек FD-04.
+* Чтобы уменьшить детализацию, коснитесь в подсказке стрелки вверх.
   
-  ![Детализация в визуальном элементе](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Чтобы детализировать резервное копирование, коснитесь стрелки вверх в левом верхнем углу экрана.
-  
-  ![Уменьшение детализации](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Уменьшение детализации](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Возврат на страницу "Моя рабочая область"
-* Коснитесь стрелки рядом с именем отчета и выберите **Моя рабочая область**.
-  
-  ![Возврат](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* Вы также можете детализировать все точки данных в визуальном элементе. Откройте его в режиме фокусировки и коснитесь значка обзора. Вы сможете выбрать показ всего следующего уровня либо развернуть текущий и следующий уровни.
+
+   ![Полная детализация в Power BI](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Детализация с переходом между страницами
+
+*Детализация* позволяет вам коснуться определенной части визуального элемента в Power BI и перейти на другую страницу отчета, отфильтрованную по выбранному значению. Автор отчета может задавать различные варианты детализации с переходом на разные страницы. В этом случае вы выбираете из них тот, который вам интересен. В следующем примере при касании значения в датчике можно выбрать детализацию **расходов по бизнес-сфере** или **планирования по бизнес-сфере**.
+
+![Детализация отчета в Power BI Mobile](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Чтобы вернуться в детализации на предыдущую страницу отчета, нажмите кнопку "Назад".
+
+Читайте, как [добавить детализацию в Power BI Desktop](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Просмотр отчетов Power BI, оптимизированных для телефона, и взаимодействие с ними](mobile-apps-view-phone-report.md)

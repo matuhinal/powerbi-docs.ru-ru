@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294693"
+ms.locfileid: "34755330"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Создание пользовательской страницы ответов для Кортаны в службе Power BI или Power BI Desktop
 Используйте все возможности Power BI для создания специальных страниц отчета — *страниц ответов Кортаны* (иногда их называют *картами ответов Кортаны*), предназначенных для поиска ответов на вопросы Кортаны.
@@ -46,6 +46,12 @@ ms.locfileid: "34294693"
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. Создание визуального элемента или набор визуальных элементов, которые должны отображаться в Cortana, в ответ на определенный вопрос (или набор вопросов).
+
+> [!NOTE]
+> Страницы ответов Кортаны сейчас не поддерживают показ статических изображений. Вы можете включать визуальные элементы таблиц или матриц изображения, извлекаемые динамически по URL-адресу в данных. 
+> 
+> 
+
 4. Убедитесь, что все визуальные элементы входят в пределы страницы. При необходимости измените параметры отображения, метки данных, цвета и фон.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

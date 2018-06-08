@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799494"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Использование табличных данных служб Analysis Services в Power BI Desktop
 Power BI Desktop предоставляет два способа подключения и получения данных из табличных моделей служб SQL Server Analysis Services: просмотр в режиме интерактивного подключения и выбор элементов и их импорт в Power BI Desktop.
@@ -84,4 +85,10 @@ Power BI Desktop предоставляет два способа подключ
 2. Введите имя нового сервера.
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>Устранение неполадок 
+Ниже перечислены все известные проблемы при подключении к службам SQL Server Analysis Services (SSAS) или Azure Analysis Services. 
+
+* **Ошибка. Не удалось загрузить схему модели**. Эта ошибка обычно возникает, когда у подключающегося к службам Analysis Services пользователя нет доступа к модели или базе данных.
 
