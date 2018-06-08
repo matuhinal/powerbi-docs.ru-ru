@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721025"
+ms.locfileid: "34754939"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -103,8 +103,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 
 Если у вас уже есть клиент Azure AD, вы можете использовать существующий каталог или создать новый клиент Azure AD, чтобы обеспечить безопасность содержимого приложения.
 
-Чтобы получить токен Azure AD, можно использовать одну из библиотек проверки подлинности Azure Active Directory. Клиентские библиотеки доступны для различных платформ.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+Чтобы получить токен Azure AD, можно использовать одну из библиотек проверки подлинности Azure Active Directory — https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Клиентские библиотеки доступны для различных платформ.
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Чем Power BI Embedded отличается от других служб Azure?
 

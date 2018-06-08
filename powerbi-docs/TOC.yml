@@ -94,10 +94,6 @@
                   href: service-focus-mode.md
                 - name: 'Печать панели мониторинга, плитки или страницы отчета'
                   href: service-print.md
-                - name: Подписка на отчет или панель мониторинга
-                  href: service-report-subscribe.md
-                - name: Множество способов открытия отчета
-                  href: service-report-open.md
                 - name: Переименование содержимого Power BI
                   href: service-rename.md
                 - name: Отображение панелей мониторинга и отчетов в полноэкранном режиме (ТВ-режим)
@@ -238,12 +234,16 @@
                   href: service-dashboard-themes.md
             - name: Отчеты
               items:
+                - name: Множество способов открытия отчета
+                  href: service-report-open.md
                 - name: Изменение порядка сортировки диаграммы в отчете Power BI
                   href: power-bi-report-change-sort.md
                 - name: Экспорт данных из визуализации
                   href: power-bi-visualization-export-data.md
                 - name: Использование фильтров отчетов
                   href: power-bi-how-to-report-filter.md
+                - name: Подписка на отчет или панель мониторинга
+                  href: service-report-subscribe.md
             - name: Публикация
               items:
                 - name: Издатель Power BI для Excel
@@ -252,22 +252,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Работа в Power BI
           items:
-            - name: Быстрое превращение книги Excel в красивый отчет
-              href: service-from-excel-to-stunning-report.md
-            - name: Раздел вопросов и ответов поможет вам создать визуализации и отчеты
-              href: power-bi-tutorial-q-and-a.md
-            - name: Получение данных из файлов книг Excel
-              href: service-excel-workbook-files.md
-            - name: Создание нового отчета из набора данных
-              href: service-report-create-new.md
-            - name: Взаимодействие с отчетом в режиме редактирования в Power BI
-              href: service-interact-with-a-report-in-editing-view.md
-            - name: 'Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?'
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Создание и распространение приложений с информационными панелями и отчетами
-              href: service-create-distribute-apps.md
-            - name: Настройка запланированного обновления
-              href: refresh-scheduled-refresh.md
             - name: Панели мониторинга
               items:
                 - name: Создание панели мониторинга из отчета
@@ -304,6 +288,8 @@
                   href: service-data-classification.md
             - name: Задать вопросы о данных
               items:
+                - name: Раздел вопросов и ответов поможет вам создать визуализации и отчеты
+                  href: power-bi-tutorial-q-and-a.md
                 - name: Использование вопросов и ответов с данными шлюза Power BI Gateway — Enterprise (предварительная версия)
                   href: service-q-and-a-direct-query.md
                 - name: Настройка данных для работы с функцией "Вопросы и ответы" в Power BI
@@ -318,6 +304,10 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Совместное использование работы
               items:
+                - name: 'Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?'
+                  href: service-how-to-collaborate-distribute-dashboards-reports.md
+                - name: Создание и распространение приложений с информационными панелями и отчетами
+                  href: service-create-distribute-apps.md
                 - name: Поделиться отфильтрованным отчетом
                   href: service-share-reports.md
                 - name: Публикация из Power BI в Интернет
@@ -354,6 +344,10 @@
                   href: power-bi-report-add-filter.md
                 - name: Сохранение отчета в Power BI
                   href: service-report-save.md
+                - name: Создание нового отчета из набора данных
+                  href: service-report-create-new.md
+                - name: Взаимодействие с отчетом в режиме редактирования в Power BI
+                  href: service-interact-with-a-report-in-editing-view.md
                 - name: Анализ в Excel
                   href: service-analyze-in-excel.md
                 - name: Изменение способа взаимодействия визуальных элементов в отчете
@@ -382,6 +376,10 @@
                   href: power-bi-visualizations-arcgis.md
             - name: Данные из файлов
               items:
+                - name: Быстрое превращение книги Excel в красивый отчет
+                  href: service-from-excel-to-stunning-report.md
+                - name: Получение данных из файлов книг Excel
+                  href: service-excel-workbook-files.md
                 - name: Получение данных из файлов Power BI Desktop
                   href: service-desktop-files.md
                 - name: Получение данных из файлов с разделителями-запятыми (CSV-файлов)
@@ -406,6 +404,8 @@
                   href: service-azure-and-power-bi.md
             - name: Обновление данных
               items:
+                - name: Настройка запланированного обновления
+                  href: refresh-scheduled-refresh.md
                 - name: 'Обновление набора данных, созданного из файла Power BI Desktop в OneDrive (на локальном диске)'
                   href: refresh-desktop-file-local-drive.md
                 - name: 'Обновление набора данных, созданного из файла Power BI Desktop в OneDrive (в облаке)'
@@ -796,7 +796,7 @@
   items:
     - name: Обзор
       items:
-        - name: Что такое мобильные приложения Power BI?
+        - name: Что такое мобильные приложения?
           href: mobile-apps-for-mobile-devices.md
     - name: Краткие руководства
       items:
@@ -808,20 +808,20 @@
           href: tutorial-mobile-apps-ios-qna.md
     - name: Основные понятия
       items:
-        - name: Новые возможности мобильных приложений для Power BI
+        - name: Что нового в мобильных приложениях
           href: mobile-whats-new-in-the-mobile-apps.md
-        - name: Получение данных Power BI из реального мира с помощью мобильных приложений
+        - name: Получение реальных данных с помощью мобильных приложений
           href: mobile-apps-data-in-real-world-context.md
-        - name: "Просмотр данных в автономном режиме в мобильных приложениях Power\_BI"
+        - name: Просмотр данных в автономном режиме в мобильных приложениях
           href: mobile-apps-offline-data.md
+        - name: Приложение Power BI для смешанной реальности (предварительная версия)
+          href: mobile-mixed-reality-app.md
     - name: Практическое руководство
       items:
         - name: Все мобильные приложения
           items:
             - name: Просмотр локальных отчетов в мобильных приложениях
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Приложение Power BI для смешанной реальности (предварительная версия)
-              href: mobile-mixed-reality-app.md
             - name: "Общий доступ к панели мониторинга из мобильного приложения Power\_BI"
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Работа с плитками в мобильных приложениях
@@ -850,7 +850,7 @@
               href: service-admin-mobile-intune.md
         - name: Устройства Android
           items:
-            - name: Приступая к работе с Power BI для приложения Android
+            - name: Приступая к работе с приложением Android
               href: mobile-android-app-get-started.md
             - name: Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным)
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
@@ -858,7 +858,7 @@
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
-            - name: Начало работы с приложением Power BI для iOS
+            - name: Начало работы с приложением для iOS
               href: mobile-iphone-app-get-started.md
             - name: Начало работы с приложением iPad
               href: mobile-ipad-app-get-started.md
@@ -866,27 +866,27 @@
               href: mobile-apps-ios-qna.md
             - name: Приложение Power BI для Apple Watch
               href: mobile-apple-watch.md
-            - name: Сканирование штрихкода из приложения Power BI на iPhone
+            - name: Сканирование штрихкода из приложения на iPhone
               href: mobile-apps-scan-barcode-iphone.md
             - name: Приложения Power BI для iOS
               href: mobile-ios-ipad-iphone-apps.md
         - name: iOS и Android
           items:
-            - name: 'Добавление заметок к плиткам, отчетам и визуальным элементам и их совместное использование в мобильных приложениях'
+            - name: Добавление заметок и предоставление доступа в мобильных приложениях
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: Приложение Power BI для устройств Windows 10
           items:
-            - name: Начало работы с мобильным приложением Power BI для Windows 10
+            - name: "Начало работы с мобильным приложением для Windows\_10"
               href: mobile-windows-10-phone-app-get-started.md
             - name: Закрепление панели мониторинга на начальном экране
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: "Просмотр ключевых показателей эффективности и мобильных отчетов Reporting Services в мобильном приложении Power BI для Windows\_10"
+            - name: "Просмотр КПЭ и мобильных отчетов Reporting Services в приложении для Windows\_10"
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Просмотр данных Power BI в Surface Hub
               href: mobile-windows-10-app-presentation-mode.md
     - name: Ресурсы
       items:
-        - name: "Поддерживаемые языки в мобильных приложениях Power\_BI"
+        - name: Поддерживаемые языки в мобильных приложениях
           href: mobile-apps-supported-languages.md
 - name: "Power\_BI для разработчиков"
   items:
@@ -914,8 +914,6 @@
           items:
             - name: Создание пользовательской визуализации с помощью средств разработчика
               href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Анализ пользовательских визуальных элементов для обеспечения безопасности и конфиденциальности
-              href: service-custom-visuals-review-for-security-and-privacy.md
             - name: Сертификация пользовательской визуализации
               href: power-bi-custom-visuals-certified.md
             - name: Публикация настраиваемых визуальных элементов в AppSource
@@ -983,7 +981,7 @@
     - name: Справка
       items:
         - name: REST API
-          href: developer/rest-api-reference.md
+          href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: 'Git-репозиторий Power BI C#'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: Загрузка SDK .NET

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482183"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799632"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -25,9 +25,26 @@ ms.locfileid: "34482183"
 
 ## <a name="may-2018"></a>Май 2018
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Удаленная настройка доступа мобильных приложений Power BI для iOS к серверам отчетов
+### <a name="mobile-drill-through-all-mobile-apps"></a>Детализация в мобильной версии: все мобильные приложения
+
+В мобильных приложениях добавлена возможность детализации с переходом от выбранной точки данных к другой странице отчета, если автор отчета определил это действие. 
+
+### <a name="back-button-all-mobile-apps"></a>Кнопка "Назад": все мобильные приложения
+
+Теперь, когда вы переходите по отчету, пролистывая его страницы, выбирая страницу отчета на панели действий или используя детализацию, можно нажать кнопку "Назад", чтобы вернуться к предыдущей просмотренной странице. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Темы панели мониторинга: все мобильные приложения
+
+Когда авторы отчетов настраивают темы панелей мониторинга в службе Power BI, внешний вид этих панелей меняется и в мобильном приложении. Но фоновые изображения не будут отображаться.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: удаленная настройка доступа мобильных приложений Power BI для iOS к серверу отчетов
 
 ИТ-администратор теперь может настраивать доступ мобильных приложений Power BI для iOS к серверу отчетов с помощью средства MDM. Подробные сведения см. в статье [Удаленная настройка доступа мобильных приложений Power BI для iOS к серверу отчетов](report-server/configure-powerbi-mobile-apps-remote.md).
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Приложение Power BI для смешанной реальности (предварительная версия)
+
+Приложение Power BI для смешанной реальности теперь доступно в Microsoft Store. Вы можете просматривать панели мониторинга и отчеты, погрузившись в виртуальный мир, либо размещать и просматривать их в нужных местах с учетом контекста вашей среды. Дополнительные сведения см. в новом видео [Power BI for HoloLens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Power BI для HoloLens) или статье о новом [приложении Power BI для смешанной реальности](mobile-mixed-reality-app.md).
+
 
 ## <a name="april-2018"></a>Апрель 2018 г.
 
