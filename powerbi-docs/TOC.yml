@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: Управление источником корпоративных данных — импорт или запланированное обновление
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: Объединение локальных и облачных источников данных
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: Использование Kerberos для единого входа
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Настройка параметров прокси-сервера
