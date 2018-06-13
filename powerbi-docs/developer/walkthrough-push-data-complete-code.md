@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289931"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813096"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Полный листинг кода для отправки данных в набор данных
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
@@ -228,7 +228,7 @@ ms.locfileid: "34289931"
 [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)  
 [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)  
 [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)  
-[Справочник по REST API Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 
 
