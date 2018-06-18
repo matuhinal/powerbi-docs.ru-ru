@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288321"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813786"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Интеграция плитки в приложение (данные принадлежат пользователю)
 Узнайте, как интегрировать (внедрить) плитку в веб-приложение с помощью вызовов REST API и API JavaScript для Power BI для вашей организации.
@@ -28,7 +28,7 @@ ms.locfileid: "34288321"
 > 
 > 
 
-Для интеграции плитки в веб-приложение используется REST API **Power BI** или пакет SDK для C# в Power BI и **маркер доступа** проверки подлинности Azure Active Directory (AD) для получения плитки. Затем вы загружаете плитку, используя тот же маркер доступа. API **Power BI** обеспечивает программный доступ к определенным ресурсам **Power BI**. Дополнительные сведения см. в [обзоре интерфейса REST API Power BI](https://msdn.microsoft.com/library/dn877544.aspx) и документации по [API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Для интеграции плитки в веб-приложение используется REST API **Power BI** или пакет SDK для C# в Power BI и **маркер доступа** проверки подлинности Azure Active Directory (AD) для получения плитки. Затем вы загружаете плитку, используя тот же маркер доступа. API **Power BI** обеспечивает программный доступ к определенным ресурсам **Power BI**. Дополнительные сведения см. в документации по [интерфейсу REST API для Power BI](https://docs.microsoft.com/rest/api/power-bi/) и [интерфейсу API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Скачивание примера
 В этой статье показан код, используемый при [интеграции плитки в веб-приложение ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) на сайте GitHub. Для работы с этим пошаговым руководством можно загрузить пример кода.
@@ -44,12 +44,12 @@ ms.locfileid: "34288321"
 Перед выполнением вызовов в REST API Power BI в приложении потребуется получить **маркер доступа** из Azure AD. Дополнительные сведения см. в статье [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI).
 
 ## <a name="step-3---get-a-tile"></a>Шаг 3. Получение плитки
-Для получения плитки **Power BI** используется операция [Получение плиток](https://msdn.microsoft.com/library/mt465741.aspx), возвращающая список плиток **Power BI** для определенной панели мониторинга. В списке плиток можно получить идентификатор плитки и внедрить URL-адрес.
+Для получения плитки **Power BI** используется операция [Получение плиток](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles), возвращающая список плиток **Power BI** для определенной панели мониторинга. В списке плиток можно получить идентификатор плитки и внедрить URL-адрес.
 
 Перед получением плитки необходимо получить идентификатор панели мониторинга. Сведения о способах получения панели мониторинга см. в статье [Интеграция информационной панели в приложение](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Получение плиток с помощью маркера доступа
-После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение плиток](https://msdn.microsoft.com/library/mt465741.aspx). Операция [Получение плиток](https://msdn.microsoft.com/library/mt465741.aspx) возвращает список плиток. Можно получить одну плитку в списке плиток. Ниже приведен полный метод C# для получения плитки. 
+После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение плиток](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). Операция [Получение плиток](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) возвращает список плиток. Можно получить одну плитку в списке плиток. Ниже приведен полный метод C# для получения плитки. 
 
 Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
 
@@ -216,7 +216,7 @@ function updateEmbedTile() {
 ![Внедренная в веб-приложение плитка](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Работа с группами (рабочими областями приложений)
-Чтобы внедрить плитку из группы (рабочей области приложения), необходимо получить список всех доступных плиток в группе, используя следующий вызов интерфейса REST API. Дополнительные сведения о вызове интерфейса REST API см. в статье [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Получение плиток). Для получения результатов запроса требуются разрешения в группе.
+Чтобы внедрить плитку из группы (рабочей области приложения), необходимо получить список всех доступных плиток в группе, используя следующий вызов интерфейса REST API. Дополнительные сведения о вызове интерфейса REST API см. в статье [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Получение плиток). Для получения результатов запроса требуются разрешения в группе.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

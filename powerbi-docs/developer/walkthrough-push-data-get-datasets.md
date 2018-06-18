@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287631"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813251"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Шаг 4. Получение набора данных для добавления строк в таблицу Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
-На **шаге 3** ([Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)) руководства по принудительной отправке данных в набор данных вы вызвали операцию [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx), чтобы создать набор данных в Power BI. На этом шаге вы будете использовать операцию [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx) и Newtonsoft.Json, чтобы получить идентификатор набора данных. Идентификатор набора данных потребуется на шаге 4 для добавления строк в набор данных. 
+На **шаге 3** ([Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)) руководства по принудительной отправке данных в набор данных вы вызвали операцию [Создание набора данных](https://docs.microsoft.com/rest/api/power-bi/datasets), чтобы создать набор данных в Power BI. На этом шаге вы будете использовать операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/getdatasets) и Newtonsoft.Json, чтобы получить идентификатор набора данных. Идентификатор набора данных потребуется на шаге 4 для добавления строк в набор данных. 
 
-Чтобы принудительно отправить данные в набор данных Power BI, необходимо сослаться на таблицу в наборе данных. Для этого сначала потребуется получить **идентификатор набора данных**. Получение **идентификатора набора данных** выполняется с помощью операции [Получение набора данных](https://msdn.microsoft.com/library/mt203567.aspx). Операция **Получение набора данных** возвращает строку JSON, содержащую список всех наборов данных в Power BI. Для десериализации строки JSON рекомендуется использовать [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Чтобы принудительно отправить данные в набор данных Power BI, необходимо сослаться на таблицу в наборе данных. Для этого сначала потребуется получить **идентификатор набора данных**. Получение **идентификатора набора данных** выполняется с помощью операции [Получение набора данных по идентификатору](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid). Операция **Получение набора данных по идентификатору** возвращает строку JSON, содержащую список всех наборов данных в Power BI. Для десериализации строки JSON рекомендуется использовать [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
 Вот как получить набор данных.
 
@@ -267,10 +267,10 @@ ms.locfileid: "34287631"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx)  
+[Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
-[Справочник по REST API Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

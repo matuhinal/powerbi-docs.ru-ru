@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287792"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813763"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Вопросы и ответы в Power BI Embedded
 Power BI Embedded позволяет встроить функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке и сразу же получать ответы в виде таких визуальных элементов, как диаграммы и графики.
@@ -93,7 +93,7 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Токен внедрения
-Создайте токен внедрения набора данных для запуска функции "Вопросы и ответы". Дополнительные сведения см. в инструкциях по [созданию токена для функции "Вопросы и ответы"](https://msdn.microsoft.com/library/mt784614.aspx#qanda).
+Создайте токен внедрения набора данных для запуска функции "Вопросы и ответы". Дополнительные сведения см. в статье [Создание токена](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Чтобы попробовать внедрить компонент "Вопросы и ответы", воспользуйтесь [примером внедрения на JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).

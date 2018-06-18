@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799586"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813349"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Подключение к многомерным моделям SSAS в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к **многомерным моделям SSAS**, которые обычно называются **SSAS MD**.
@@ -75,11 +75,12 @@ Power BI также может выводить изображения при н
 ### <a name="security"></a>Безопасность
 В многомерных моделях безопасность на уровне измерений и ячеек реализована с помощью *ролей*. При подключении к кубу с помощью Power BI выполняется проверка подлинности и наличия необходимых разрешений. Когда для пользователя действует *безопасность измерения* , элементы соответствующего измерения не видны ему в Power BI. Однако когда для пользователя определено разрешение *безопасности ячейки* , в соответствии с которым ограничен доступ к определенным ячейкам, этот пользователь не может подключиться к кубу с помощью Power BI.
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Ограничения многомерных моделей SSAS в Power BI Desktop
+## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 На использование **SSAS MD**налагаются некоторые ограничения.
 
 * Для правильной работы соединителя SSAS MD Power BI Desktop на серверах должны работать службы Analysis Services SQL Server 2012 с пакетом обновления 1 (SP1) и накопительным пакетом обновления 4 (CU4) или более поздней версии
 * Из Power BI недоступны *действия* и *именованные наборы* *,* но вы можете подключаться к кубам, которые их содержат, и создавать визуальные элементы и отчеты *.*
+* Может возникнуть проблема, которая заключается в том, что в Power BI отображаются метаданные для модели SQL Server Analysis Services, но данные из этой модели извлечь невозможно. Это может происходить, когда в системе установлена 32-разрядная версия поставщика MSOLAP, но нет 64-разрядной версии. Установка 64-разрядной версии поможет решить данную проблему.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Поддерживаемые возможности для работы с многомерными моделями SSAS в Power BI Desktop
 В Power BI Desktop поддерживаются перечисленные ниже возможности для работы с многомерными моделями SSAS.

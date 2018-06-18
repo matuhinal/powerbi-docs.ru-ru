@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3a27a3c39f1ddcee6a882184f511874313d77c9a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291196"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813142"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Подключение к Amazon Redshift в Power BI Desktop
 В **Power BI Desktop** вы можете подключиться к базе данных **Amazon Redshift** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
@@ -29,7 +29,7 @@ ms.locfileid: "34291196"
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
-При появлении запроса укажите имя пользователя и пароль.
+При появлении запроса укажите имя пользователя и пароль. Во избежание ошибок следует использовать имя сервера, которое в точности соответствует SSL-сертификату. 
 
 ![](media/desktop-connect-redshift/connect_redshift_5.png)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290276"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812958"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Интеграция панели мониторинга в приложение для организации
 Узнайте, как интегрировать (внедрить) панель мониторинга в веб-приложение с помощью вызовов REST API и API JavaScript для Power BI для вашей организации.
@@ -28,7 +28,7 @@ ms.locfileid: "34290276"
 > 
 > 
 
-Для интеграции панели мониторинга в веб-приложение используется REST API **Power BI** или пакет SDK для C# в Power BI и **маркер доступа** проверки подлинности Azure Active Directory (AD) для получения панели мониторинга. Затем вы загружаете панель мониторинга, используя тот же маркер доступа. API **Power BI** обеспечивает программный доступ к определенным ресурсам **Power BI**. Дополнительные сведения см. в [обзоре интерфейса REST API Power BI](https://msdn.microsoft.com/library/dn877544.aspx) и документации по [API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Для интеграции панели мониторинга в веб-приложение используется REST API **Power BI** или пакет SDK для C# в Power BI и **маркер доступа** проверки подлинности Azure Active Directory (AD) для получения панели мониторинга. Затем вы загружаете панель мониторинга, используя тот же маркер доступа. API **Power BI** обеспечивает программный доступ к определенным ресурсам **Power BI**. Дополнительные сведения см. в документации по [интерфейсу REST API для Power BI](https://docs.microsoft.com/rest/api/power-bi/) и [интерфейсу API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Скачивание примера
 В этой статье показан код, используемый при [интеграции панели мониторинга в веб-приложение ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) на сайте GitHub. Для работы с этим пошаговым руководством можно загрузить пример кода.
@@ -44,12 +44,12 @@ ms.locfileid: "34290276"
 Перед выполнением вызовов в REST API Power BI в приложении потребуется получить **маркер доступа** из Azure AD. Дополнительные сведения см. в статье [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI).
 
 ## <a name="step-3---get-a-dashboard"></a>Шаг 3. Получение панели мониторинга
-Для получения панели мониторинга **Power BI** используется операция [Получение панелей мониторинга](https://msdn.microsoft.com/library/mt465739.aspx), возвращающая список панелей мониторинга **Power BI**. В списке панелей мониторинга можно получить идентификатор панели мониторинга.
+Для получения панели мониторинга **Power BI** используется операция [Получение панелей мониторинга](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards), возвращающая список панелей мониторинга **Power BI**. В списке панелей мониторинга можно получить идентификатор панели мониторинга.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Получение панели мониторинга с помощью маркера доступа
-После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение панелей мониторинга](https://msdn.microsoft.com/library/mt465739.aspx). Операция [Получение панелей мониторинга](https://msdn.microsoft.com/library/mt465739.aspx) возвращает список панелей мониторинга. В списке панелей мониторинга можно получить одну панель мониторинга. Ниже приведен полный метод C# для получения панели мониторинга. 
+После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение панелей мониторинга](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Операция [Получение панелей мониторинга](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) возвращает список панелей мониторинга. В списке панелей мониторинга можно получить одну панель мониторинга. Ниже приведен полный метод C# для получения панели мониторинга. 
 
 Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Работа с группами (рабочими областями приложений)
-Чтобы внедрить панель мониторинга из группы (рабочей области приложения), необходимо получить список всех доступных панелей мониторинга в группе, используя указанный ниже вызов интерфейса REST API. Дополнительные сведения о вызове интерфейса REST API см. в статье [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Получение информационных панелей). Для получения результатов запроса требуются разрешения в группе.
+Чтобы внедрить панель мониторинга из группы (рабочей области приложения), необходимо получить список всех доступных панелей мониторинга в группе, используя указанный ниже вызов интерфейса REST API. Дополнительные сведения о вызове интерфейса REST API см. в статье [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) (Получение информационных панелей). Для получения результатов запроса требуются разрешения в группе.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

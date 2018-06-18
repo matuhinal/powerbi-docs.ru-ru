@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813373"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Интеграция отчета в приложение для организации
 Узнайте, как интегрировать (внедрить) отчет в веб-приложение с помощью вызовов REST API и API JavaScript для Power BI для вашей организации.
@@ -27,10 +28,14 @@ ms.lasthandoff: 05/17/2018
 > 
 > 
 
-Для интеграции отчета в веб-приложение используется REST API **Power BI** или пакет SDK для C# в Power BI и **маркер доступа** проверки подлинности Azure Active Directory (AD) для получения отчета. Затем вы загружаете отчет, используя тот же маркер доступа. API **Power BI** обеспечивает программный доступ к определенным ресурсам **Power BI**. Дополнительные сведения см. в [обзоре интерфейса REST API Power BI](https://msdn.microsoft.com/library/dn877544.aspx) и документации по [API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Для интеграции отчета в веб-приложение используется REST API **Power BI** или пакет SDK для C# в Power BI и **маркер доступа** проверки подлинности Azure Active Directory (AD) для получения отчета. Затем вы загружаете отчет, используя тот же маркер доступа. API **Power BI** обеспечивает программный доступ к определенным ресурсам **Power BI**. Дополнительные сведения см. в документации по [интерфейсу REST API для Power BI](https://docs.microsoft.com/rest/api/power-bi/) и [интерфейсу API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Скачивание примера
 В этой статье показан код, используемый при [интеграции отчета в веб-приложение ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) на сайте GitHub. Для работы с этим пошаговым руководством можно загрузить пример кода.
+
+Вы также можете воспользоваться [средством подключения для внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро скачать образец приложения и приступить к работе.
+
+Если вы решили настроить среду вручную, см. инструкции ниже.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Шаг 1. Регистрация приложения в Azure AD
 Необходимо зарегистрировать приложение в Azure AD, чтобы осуществлять вызовы REST API. Дополнительные сведения см. в статье [Регистрация приложения Azure AD для внедрения содержимого Power BI](register-app.md).
@@ -43,10 +48,10 @@ ms.lasthandoff: 05/17/2018
 Перед выполнением вызовов в REST API Power BI в приложении потребуется получить **маркер доступа** из Azure AD. Дополнительные сведения см. в статье [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI).
 
 ## <a name="step-3---get-a-report"></a>Шаг 3. Получение отчета
-Для получения отчета **Power BI** используется операция [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx), возвращающая список отчетов **Power BI**. В списке отчетов можно получить идентификатор отчета.
+Для получения отчета **Power BI** используется операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports), возвращающая список отчетов **Power BI**. В списке отчетов можно получить идентификатор отчета.
 
 ### <a name="get-reports-using-an-access-token"></a>Получение отчетов с помощью маркера доступа
-После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx). Операция [Получение отчетов](https://msdn.microsoft.com/library/mt634543.aspx) возвращает список отчетов. Можно получить один отчет в списке отчетов. Ниже приведен полный метод C# для получения отчета. 
+После получения **маркера доступа** на [шаге 2](#step-2-get-an-access-token-from-azure-ad) можно вызвать операцию [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). Операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов. Ниже приведен полный метод C# для получения отчета. 
 
 Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
 
@@ -213,7 +218,7 @@ function updateEmbedReport() {
 ![Пример внедренного отчета](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Работа с группами (рабочими областями приложений)
-Чтобы внедрить отчет из группы (рабочей области приложения), необходимо получить список всех доступных отчетов в группе, используя следующий вызов интерфейса REST API. Дополнительные сведения о вызове интерфейса REST API см. в статье [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Получение отчетов). Для получения результатов запроса требуются разрешения в группе.
+Чтобы внедрить отчет из группы (рабочей области приложения), необходимо получить список всех доступных отчетов в группе, используя следующий вызов интерфейса REST API. Дополнительные сведения о вызове интерфейса REST API см. в статье [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) (Получение отчетов). Для получения результатов запроса требуются разрешения в группе.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289471"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813119"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 API Power BI позволяет принудительно отправлять данные в набор данных Power BI. Например, вам нужно расширить существующий бизнес-процесс для отправки ключевых данных в набор данных. В этом случае необходимо отправить набор данных "Продажи и маркетинг", содержащий таблицу "Продукт".
@@ -31,14 +31,14 @@ API Power BI позволяет принудительно отправлять
 В следующем разделе приводятся общие сведения об операциях API Power BI для отправки данных.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Операции API Power BI для отправки данных
-REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, плитки на панели мониторинга обновляются автоматически обновленными данными. Для отправки данных используйте операцию [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx) вместе с операцией [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx). Чтобы найти набор данных, используйте операцию [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx). С помощью каждой из этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получение групп](https://msdn.microsoft.com/library/mt243842.aspx).
+REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, плитки на панели мониторинга обновляются автоматически обновленными данными. Для отправки данных используйте операцию [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) вместе с операцией [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Чтобы найти набор данных, используйте операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). С помощью каждой из этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получение групп](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups).
 
 Ниже перечислены операции по отправке данных в набор данных.
 
-* [Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx)
-* [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx)
-* [Получение групп](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [Отправка строк](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Получение групп](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 Набор данных в Power BI создается путем передачи строки JavaScript Object Notation (JSON) в службу Power BI. Дополнительную информацию о JSON см. в статье [Введение в JSON](http://json.org/).
 
@@ -113,10 +113,6 @@ REST API Power BI позволяет принудительно отправля
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Регистрация бесплатной учетной записи Power BI с пользовательским клиентом каталога Azure Active Directory](create-an-azure-active-directory-tenant.md)  
-[Создание набора данных](https://msdn.microsoft.com/library/mt203562.aspx)  
-[Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx)  
-[Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx)  
-[Получение групп](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Общие сведения о JSON](http://json.org/)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

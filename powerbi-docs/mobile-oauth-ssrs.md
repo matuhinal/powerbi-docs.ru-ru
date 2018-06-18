@@ -1,26 +1,27 @@
 ---
-title: Подключение к Reporting Services с помощью OAuth
-description: Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к Reporting Services 2016 или более поздней версии.
+title: Использование OAuth для подключения к серверу отчетов Power BI и SSRS
+description: Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к SQL Server Reporting Services 2016 или более поздней версии.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852217"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>Подключение к Reporting Services с помощью OAuth
-Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к Reporting Services 2016 или более поздней версии.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
+Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к серверу отчетов Power BI и SQL Server Reporting Services 2016 или более поздней версии.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-Раньше мобильное приложение Power BI поддерживало только обычную проверку подлинности по протоколу HTTPS для служб Reporting Services, чтобы отображать мобильные отчеты или ключевые показатели эффективности. Многие организации не допускают такой конфигурации из соображений безопасности. Теперь, после обновления мобильного приложения Power BI, можно использовать OAuth для подключения к службам Reporting Services. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения, чтобы разрешить такой тип проверки подлинности.
+С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения (WAP), чтобы обеспечить такой тип проверки подлинности. Обратите внимание на то, что такая конфигурация не поддерживает просмотр отчетов Power BI в мобильных приложениях Power BI. Однако их можно просматривать в браузере на мобильном устройстве. Для просмотра отчетов Power BI в мобильном приложении необходимо использовать проверку подлинности Windows.
 
 ## <a name="requirements"></a>Требования
 ОС Windows Server 2016 является обязательным компонентом для прокси-службы веб-приложения (WAP) и серверов службы федерации Active Directory (AD FS). Домен функционального уровня Windows 2016 не требуется.
@@ -202,7 +203,8 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 Вы можете включить многофакторную проверку подлинности, чтобы повысить уровень безопасности среды. Дополнительные сведения см. в статье о [настройке AD FS 2016 и Многофакторной идентификации Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Устранение неполадок
-**Появилась ошибка "Failed to login to SSRS server. Please verify server configuration" (Не удалось войти на сервер SSRS. Проверьте конфигурацию сервера).**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Появилась ошибка "Failed to login to SSRS server. Please verify server configuration" (Не удалось войти на сервер SSRS. Проверьте конфигурацию сервера).
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

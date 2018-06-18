@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b454673944d8006effc045592f28eb35681564d1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34246430"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852194"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Создание и публикация пакета содержимого организации в Power BI (руководство)
 > [!NOTE]
-> Слышали о новых *приложениях*? Приложения — это новый способ предоставления содержимого для большого количества пользователей в Power BI. Мы советуем использовать их вместо пакетов содержимого организации или рабочих областей с доступом только для чтения. Дополнительные сведения о приложениях см. [здесь](service-install-use-apps.md).
+> Слышали о новых *приложениях*? Приложения — это новый способ предоставления содержимого для большого количества пользователей в Power BI. В ближайшее время мы планируем отказаться от пакетов содержимого организации, поэтому вместо них советуем создавать приложения. Дополнительные сведения о приложениях см. [здесь](service-install-use-apps.md).
 > 
 > 
 

@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297016"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813602"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -90,6 +90,7 @@ ms.locfileid: "34297016"
 | [Диаграмма Ганта](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Видео](https://youtu.be/qJ7s_KrGiUU) |
 | [Ганта диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Видео](https://youtu.be/vJLV9JRCpI8) |
 | [Гистограммы "Земной шар"](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [Сетка от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) | [Видео](https://youtu.be/VOPoDJgZfOY) |
 | [Иерархическая диаграмма от Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Видео](https://youtu.be/0ZGzJaq_KT4) |
 | [Гистограмма](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
 | [Гистограмма с точками от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Видео](https://youtu.be/-ILF--wExrw) |

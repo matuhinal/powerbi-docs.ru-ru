@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287700"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301764"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Подключение к базе данных Impala в Power BI Desktop
 В Power BI Desktop вы можете подключиться к базе данных **Impala** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
@@ -29,7 +29,7 @@ ms.locfileid: "34287700"
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-При появлении запроса введите учетные данные или подключитесь анонимно. Соединитель Impala поддерживает анонимную проверку подлинности, базовую проверку подлинности (имя пользователя + пароль) и проверку подлинности Windows.
+При появлении запроса введите учетные данные или подключитесь анонимно. Соединитель Impala поддерживает анонимную проверку подлинности, обычную проверку подлинности (имя пользователя и пароль) и проверку подлинности Windows.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722698"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813648"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -92,6 +92,11 @@ ms.locfileid: "34722698"
 | URL-адрес коммерческой версии | URL-адрес версии для государственных организаций США |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+
+**Вопрос**. Моя учетная запись подготовлена в нескольких национальных облаках. Как при использовании **Power BI Desktop** выбрать облако для подключения?
+
+**Ответ**. Начиная с выпуска **Power BI Desktop** за июль 2018 г. вы можете выбрать облако, которое хотите использовать, при входе в приложение **Power BI Desktop**.
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Служба Power BI предоставляет широкие возможности. Дополнительные сведения и руководства, включая статью с инструкциями по регистрации в службе, см. по следующим ссылкам:

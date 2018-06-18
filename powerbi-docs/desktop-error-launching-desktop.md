@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286556"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813464"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Устранение проблем в случае, если Power BI Desktop не запускается
 В **Power BI Desktop** пользователям, установившим и использующим предыдущие версии **локального шлюза данных Power BI**, может быть запрещен запуск Power BI Desktop из-за ограничений политики администрирования, которую локальный шлюз Power BI налагает на именованные каналы на локальном компьютере. 
@@ -33,6 +33,13 @@ ms.locfileid: "34286556"
 Кроме того, вы можете запустить Power BI Desktop от имени администратора, что также позволит успешно запустить Power BI Desktop. По-прежнему рекомендуется установить последнюю версию локального шлюза данных Power BI, как было описано ранее.
 
 Важно отметить, что приложение Power BI Desktop разработано как многопроцессная архитектура, и некоторые из этих процессов обмениваются данными с помощью именованных каналов Windows. При этом некоторые процессы могут мешать использованию именованных каналов. Чаще всего это происходит в рамках обеспечения безопасности, например, когда антивирусная программа или брандмауэр могут блокировать каналы или перенаправлять трафик в определенный порт. Эту проблему может решить запуск Power BI Desktop с правами администратора. Если такой запуск невозможен, обратитесь к администратору, чтобы узнать о применяемых правилах безопасности, которые блокируют правильный обмен данными для именованных каналов, и включить и Power BI Desktop и соответствующие подпроцессы в список разрешенных.
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>Устранение проблем при подключении к SQL Server
+Если при подключении к базе данных SQL Server появляется сообщение об ошибке наподобие приведенного ниже, проблему часто можно решить, запустив приложение **Power BI Desktop** от имени администратора, а затем установив подключение к SQL Server.
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+После запуска приложения от имени администратора и установки подключения необходимые библиотеки DLL регистрируются правильно. После этого запускать приложение Power BI Desktop от имени администратора не требуется.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Справка по другим проблемам при запуске Power BI Desktop
 Мы стараемся описать как можно больше проблем, связанных с использованием **Power BI Desktop**. Мы регулярно просматриваем описание проблем, которые возникают у многих наших клиентов, и включаем их в наши статьи.

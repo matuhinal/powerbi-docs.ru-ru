@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689879"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852309"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Управление пакетами содержимого организации, их обновление и удаление
 > [!NOTE]
-> Слышали о новых *приложениях*? Приложения — это новый способ предоставления содержимого для большого количества пользователей в Power BI. Мы советуем использовать их вместо пакетов содержимого организации или рабочих областей с доступом только для чтения. Дополнительные сведения о приложениях см. [здесь](service-install-use-apps.md).
+> Слышали о новых *приложениях*? Приложения — это новый способ предоставления содержимого для большого количества пользователей в Power BI. В ближайшее время мы планируем отказаться от пакетов содержимого организации, поэтому вместо них советуем создавать приложения. Дополнительные сведения о приложениях см. [здесь](service-install-use-apps.md).
 > 
 > 
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34456003"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813188"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Руководство по анализу данных с веб-страницы с помощью Power BI Desktop
 
@@ -31,6 +31,8 @@ ms.locfileid: "34456003"
 Данные о победителях Чемпионата Европы по футболу УЕФА можно найти в таблице результатов на странице Википедии по адресу http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
 ![Таблица результатов в Википедии](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+
+Обратите внимание на то, что веб-подключения устанавливаются только с помощью обычной проверки подлинности. Веб-сайты, требующие проверки подлинности, могут работать неправильно с веб-соединителем.
 
 Чтобы импортировать данные, выполните следующие действия:
 

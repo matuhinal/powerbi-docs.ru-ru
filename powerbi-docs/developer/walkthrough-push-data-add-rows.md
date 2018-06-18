@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287539"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812544"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Шаг 5. Добавление строк в таблицу Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
-На **шаге 4** ([Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)) руководства по принудительной отправке данных в набор данных вы использовали операцию [Получение наборов данных](https://msdn.microsoft.com/library/mt203567.aspx) и пакет Newtonsoft.Json, чтобы получить идентификатор набора данных. На этом шаге будет использоваться идентификатор набора данных с операцией [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx) для добавления строк в набор данных **Power BI**. 
+На **шаге 4** ([Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)) руководства по принудительной отправке данных в набор данных вы использовали операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) и пакет Newtonsoft.Json, чтобы получить идентификатор набора данных. На этом шаге используется идентификатор набора данных с операцией [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) для добавления строк в набор данных **Power BI**. 
 
-При вызове операции [Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx) строки добавляются в набор данных.
+При вызове операции [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) строки добавляются в набор данных.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ ms.locfileid: "34287539"
     }
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Добавление строк](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
-[Справочник по REST API Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 
