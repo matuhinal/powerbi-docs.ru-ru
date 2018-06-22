@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288574"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>Использование DirectQuery и SAP Business Warehouse (BW)
 Вы можете подключиться к источникам данных **SAP Business Warehouse (BW)** напрямую с помощью **DirectQuery**. Учитывая OLAP и многомерный характер SAP BW, существует множество важных различий между использованием DirectQuery с SAP BW и реляционными источниками, например SQL Server. Эти различия можно обобщить следующим образом:

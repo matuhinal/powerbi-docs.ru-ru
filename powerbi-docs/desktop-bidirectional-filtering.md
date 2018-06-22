@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289011"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Двунаправленная перекрестная фильтрация при работе с DirectQuery в Power BI Desktop
 

@@ -15,6 +15,7 @@ ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34226720"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Устранение неполадок со входом в Power BI Desktop
 Иногда при попытках входа в **Power BI Desktop** вы можете столкнуться с ошибками. Подобные проблемы при входе могут возникнуть по двум основным причинам: **ошибки аутентификации прокси-сервера** и **ошибки перенаправления URL-адресов без HTTPS**. 

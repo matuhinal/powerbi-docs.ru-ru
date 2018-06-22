@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296234"
 ---
 # <a name="power-bi-security"></a>Безопасность Power BI
 Чтобы получить подробное описание системы безопасности в Power BI, [скачайте технический документ по безопасности Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
