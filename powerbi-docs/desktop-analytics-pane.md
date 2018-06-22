@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34287677"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Использование панели "Аналитика" в Power BI Desktop
 Панель **Аналитика** в **Power BI Desktop** позволяет добавлять динамические *строки ссылок* для визуальных элементов, чтобы сосредоточиться на важных трендах и сведениях. Панель **Аналитика** находится в области **Визуализации** Power BI Desktop.
