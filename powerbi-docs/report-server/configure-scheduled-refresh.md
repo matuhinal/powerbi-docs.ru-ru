@@ -14,6 +14,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296275"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Как настроить запланированное обновление отчета Power BI
 Для обновления данных в отчете Power BI необходимо создать расписание обновления. Это можно сделать в области *Управление* отчета Power BI.
