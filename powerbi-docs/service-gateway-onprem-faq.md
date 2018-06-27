@@ -11,10 +11,10 @@ ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34299638"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Вопросы и ответы о локальном шлюзе данных
@@ -50,7 +50,7 @@ ms.locfileid: "34299638"
 **Вопрос.** Можно ли просмотреть сведения об использовании и статистическую информацию о шлюзах организации?  
 **Ответ.** Нет. Поддержку такой возможности планируется добавить, но конкретных сроков пока нет.
 
-## <a name="power-bi"></a>Power BI
+## <a name="power-bi"></a>Приложение
 **Вопрос.** Нужно ли обновлять личный шлюз?
 **Ответ.** Нет, вы можете продолжать использовать личный шлюз для работы с Power BI.
 
