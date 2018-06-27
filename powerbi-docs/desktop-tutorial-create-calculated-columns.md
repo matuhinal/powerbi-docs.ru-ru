@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d8d11d3f8cf61d01fb3c81519a2b11e729b8671c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34456233"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Учебник. Создание вычисляемых столбцов в Power BI Desktop
@@ -38,7 +38,7 @@ ms.locfileid: "34456233"
 
 1.  Выберите **Дополнительные параметры** (...) или щелкните правой кнопкой мыши таблицу **ProductSubcategory** в списке "Поля", а затем выберите **Создать столбец**. Это создаст столбец в таблице ProductSubcategory.
     
-    ![Новый столбец](media/desktop-tutorial-create-calculated-columns/create2.png)
+    ![Создать столбец](media/desktop-tutorial-create-calculated-columns/create2.png)
     
     В верхней части холста отчета появится строка формул, в которой можно присвоить столбцу имя и ввести формулу DAX.
     

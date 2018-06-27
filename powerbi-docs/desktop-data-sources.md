@@ -11,10 +11,10 @@ ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34286872"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
@@ -39,7 +39,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Все
 * Файл
 * База данных
-* Power BI
+* Приложение
 * Azure
 * Интернет-службы
 * Другие
@@ -102,7 +102,7 @@ Power BI Desktop позволяет подключаться к данным и�
 Категория **Azure** предоставляет следующие подключения к данным:
 
 * База данных SQL Azure
-* Хранилище данных SQL Azure
+* Хранилище данных SQL Azure
 * База данных Azure Analysis Services
 * Хранилище BLOB-объектов Azure
 * Хранилище таблиц Azure

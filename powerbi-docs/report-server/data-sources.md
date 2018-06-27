@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310459"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
@@ -32,9 +32,9 @@ ms.locfileid: "34310459"
 | **Источник данных** | **Кэшированные данные** | **Запланированное обновление** | **Активный запрос или запрос DirectQuery** |
 | --- | --- | --- | --- |
 | База данных SQL Server |Да |Да |Да |
-| Службы SQL Server Analysis Services |Да |Да |Да |
-| База данных SQL Azure |Да |Да |Да |
-| Хранилище данных SQL Azure |Да |Да |Да |
+| Службы SQL Server Analysis Services |Да |Да |Да |
+| База данных SQL Azure |Да |Да |Да |
+| Хранилище данных SQL Azure |Да |Да |Да |
 | Excel |Да |Да |Нет |
 | База данных Access |Да |Да |Нет |
 | Active Directory |Да |Да |Нет |
@@ -120,7 +120,7 @@ ms.locfileid: "34310459"
 | **Источник данных** | **Анонимная проверка подлинности** | **Проверка подлинности с использованием ключа** | **Имя пользователя и пароль** | **Проверка подлинности Windows** |
 | --- | --- | --- | --- | --- |
 | База данных SQL Server |Нет |Нет |Да |Да |
-| Службы SQL Server Analysis Services |Нет |Нет |Да |Да |
+| Службы SQL Server Analysis Services |Нет |Нет |Да |Да |
 | Интернет |Да |Нет |Да |Да |
 | База данных SQL Azure |Нет |Нет |Да |Нет |
 | Хранилище данных SQL Azure |Нет |Нет |Да |Нет |
@@ -198,7 +198,7 @@ ms.locfileid: "34310459"
 | **Источник данных** | **Анонимная проверка подлинности** | **Проверка подлинности с использованием ключа** | **Имя пользователя и пароль** | **Проверка подлинности Windows** | **Интегрированная проверка подлинности Windows** |
 | --- | --- | --- | --- | --- | --- |
 | База данных SQL Server |Нет |Нет |Да |Да |Да |
-| Службы SQL Server Analysis Services |Нет |Нет |Да |Да |Да |
+| Службы SQL Server Analysis Services |Нет |Нет |Да |Да |Да |
 | База данных SQL Azure |Нет |Нет |Да |Нет |Нет |
 | Хранилище данных SQL Azure |Нет |Нет |Да |Нет |Нет |
 | База данных Oracle |Нет |Нет |Да |Да |Да |
