@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 280b76bd7a950f9f66834b4707c1144485008a3c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: adb5d744a8eb99fce056a07ddb97b6cd7a82a8b4
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250604"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964867"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Устранение неполадок Кортаны для Power BI
 Эта статья входит в серию статей. Мы рекомендуем вам ознакомиться с тремя следующими статьями, если вы этого еще не сделали.
@@ -30,7 +30,7 @@ ms.locfileid: "34250604"
 Если у вас по-прежнему возникают проблемы с интеграцией Кортаны и Power BI, эта статья именно для вас. Выполните следующие действия, чтобы определить и устранить проблему.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Почему Кортана не находит ответы из моих отчетов и панелей мониторинга Power BI?
-1. У вас есть учетная запись в Power BI?  В противном случае получите [подписку, она бесплатная](service-self-service-signup-for-power-bi.md).
+1. У вас есть учетная запись в Power BI?  Если нет, [зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/get-started/).
 2. Кортана работает?  Виден ли значок Кортаны на панели задач?
 
     ![](media/service-cortana-troubleshoot/power-bi-cortana-icon.png)

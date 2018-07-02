@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584123"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964775"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. Точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно в зависимости от данных.
@@ -116,9 +116,9 @@ ms.locfileid: "34584123"
 Для создания нового поля [используйте редактор запросов Power BI Desktop, чтобы добавить столбец индекса](desktop-add-custom-column.md) в свой набор данных.  Затем добавьте этот столбец в область **Сведения** визуализации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
- [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Бесплатная пробная версия](https://powerbi.com/)  
+[Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/get-started/)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

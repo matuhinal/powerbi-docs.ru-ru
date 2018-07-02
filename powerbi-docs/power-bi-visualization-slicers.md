@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721508"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964798"
 ---
 # <a name="slicers-in-power-bi"></a>Срезы в Power BI
 Вам необходимо, чтобы ваши читатели отчетов могли просматривать общие показатели продаж и производительности по отдельному региональному менеджеру и в разные временные рамки. Вы можете создать отдельные страницы отчета, сравнительные диаграммы или воспользоваться срезом. Срез — это альтернативный вариант фильтрации, который сужает часть набора данных, отображаемую в других визуализациях в отчете. 
@@ -183,7 +183,7 @@ ms.locfileid: "34721508"
 - **Граница**: добавляет рамку в 1 пиксель вокруг среза и задает ее цвет. (Эта рамка среза задается независимо от общих параметров контура.) 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Бесплатная пробная версия](https://powerbi.com/)
+[Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/get-started/)
 
 У вас есть идеи по улучшению Power BI? [Отправьте идею](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 
