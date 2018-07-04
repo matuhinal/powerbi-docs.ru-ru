@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584215"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600927"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Режим детализации в визуализации в Power BI
 
@@ -179,11 +179,11 @@ Power BI позволяет разворачивать данные по одн�
 
 Несмотря на то, что поле данных оси — **Month** (Месяц), в колодце **Ось** создается также категория **Year** (Год). Это происходит потому, что Power BI обеспечивает полную структуру DateTime для всех считываемых значений. На верхнем уровне иерархии отображаются данные за год.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
 
 Включите режим повышения степени детализации и щелкните столбец на диаграмме, чтобы перейти на один уровень иерархии вниз. Вы увидите три столбца для данных по доступным кварталам. Затем в верхнем левом значке выберите пункт **Expand all down one level of the hierarchy** (Развернуть все на один уровень иерархии вниз). Затем повторите это действие еще раз, чтобы дойти до самого нижнего уровня иерархии, на котором показываются результаты для каждого месяца.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
 
 Помимо визуализации, иерархия также отражается в данных, отображаемых для каждого отчета. В следующей таблице показаны результаты команды **Show Data** (Просмотр данных) в отчете с детализацией от одного месяца или всех месяцев. 
 
@@ -192,8 +192,8 @@ Power BI позволяет разворачивать данные по одн�
 
 |Режим развертывания|Год|Квартал|Месяц|День|
 | ---|:---:|:---:|:---:|---|
-|Однонаправленная|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|Все|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|Однонаправленная|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|Все|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Данные иерархических категорий
@@ -201,20 +201,20 @@ Power BI позволяет разворачивать данные по одн�
 
 В данном примере используйте [пример анализа розничной торговли](sample-datasets.md). Создайте визуализацию в виде гистограммы с накоплением для просмотра **общего количества единиц за этот год** (значения) по **территории**, **городу**, **почтовому индексу** и **названию** (группа).  
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
 
 При включенном режиме повышения уровня детализации в верхнем левом значке три раза выберите пункт **Expand all down one level of the hierarchy** (Развернуть все на один уровень иерархии вниз).
 Вы должны оказаться на самом низком уровне иерархии, на котором отображаются результаты для территории, города и почтового индекса.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
 
 Помимо визуализации, иерархия также отражается в данных, отображаемых для каждого отчета. В следующей таблице показаны результаты команды **Show Data** (Просмотр данных) в отчете с детализацией от одной территории или от всех территорий. По мере детализации можно видеть, как отчет для одной территории становится все более конкретным, а в отчете для всех территорий отображается все больше данных.
 
 
 | Режим развертывания|Территория|Город|Почтовый индекс|Имя|
 | ---|:---:|:---:|:---:|---|
-|Однонаправленная|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Все|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Однонаправленная|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Все|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
