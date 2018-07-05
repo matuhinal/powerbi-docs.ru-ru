@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287677"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136601"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Использование панели "Аналитика" в Power BI Desktop
 Панель **Аналитика** в **Power BI Desktop** позволяет добавлять динамические *строки ссылок* для визуальных элементов, чтобы сосредоточиться на важных трендах и сведениях. Панель **Аналитика** находится в области **Визуализации** Power BI Desktop.
@@ -114,7 +114,7 @@ Power BI Desktop предоставляет широкие возможност�
 
 * [Новые возможности Power BI Desktop](desktop-latest-update.md)
 * [Скачивание Power BI Desktop](desktop-get-the-desktop.md)
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
 * [Типы данных в Power BI Desktop](desktop-data-types.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)

@@ -2,12 +2,12 @@
 title: Интерактивное обучение работе с Microsoft Power BI
 description: Начните обучение с этой последовательной серии курсов. Они помогут получить представление о широких функциональных возможностях Microsoft Power BI.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310160"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600683"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -48,7 +48,7 @@ ms.locfileid: "34310160"
                                 <span style="margin-left: 32px; align-self: center;">9 мин.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">Обзор предыдущего раздела и описание дальнейших действий</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">Повторение и дальнейшие действия</a>
                                 <span style="margin-left: 32px; align-self: center;">5 мин.</span>
                               </li>
                           </ul>
