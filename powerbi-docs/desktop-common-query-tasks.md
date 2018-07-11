@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137498"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877338"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Общие задачи с запросами в Power BI Desktop
 При работе в окне **Редактор запросов** Power BI Desktop можно воспользоваться рядом стандартных задач. В этом документе показаны эти распространенные задачи и приведены ссылки для получения дополнительных сведений. 
@@ -38,7 +38,7 @@ ms.locfileid: "37137498"
 Распространенные задачи запросов начинаются с шагов, необходимых для подключения к этим источникам данных.
 
 ## <a name="connect-to-data"></a>Подключение к данным
-Для подключения к данным в Power BI Desktop нажмите кнопку **Получить данные** на вкладке ленты **Главная**. В Power BI Desktop откроется меню с наиболее распространенными источниками данных. Чтобы открыть полный список источников данных, к которым может подключаться Power BI Desktop, нажмите кнопку **Еще...** внизу меню. Дополнительные сведения см. в разделе [Источники данных в Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+Для подключения к данным в Power BI Desktop нажмите кнопку **Получить данные** на вкладке ленты **Главная**. В Power BI Desktop откроется меню с наиболее распространенными источниками данных. Чтобы открыть полный список источников данных, к которым может подключаться Power BI Desktop, нажмите кнопку **Еще...** внизу меню. Дополнительные сведения см. в разделе [Источники данных в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ ms.locfileid: "37137498"
 
 Другие подключения к данным выполняются аналогично. Если для подключения к данным требуется аутентификация, в Power BI Desktop отобразится запрос на ввод соответствующих учетных данных.
 
-Пошаговую демонстрацию подключения к данным в Power BI Desktop см. в разделе [Подключение к данным в Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
+Пошаговую демонстрацию подключения к данным в Power BI Desktop см. в разделе [Подключение к данным в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Формирование и объединение данных.
-С помощью редактора запросов легко формировать и комбинировать данные. В этом разделе приводится несколько примеров формирования данных. Полную демонстрацию формирования и объединения данных с помощью Power BI Desktop см. в статье **[Формирование и объединение данных с Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
+С помощью редактора запросов легко формировать и комбинировать данные. В этом разделе приводится несколько примеров формирования данных. Полную демонстрацию формирования и объединения данных с помощью Power BI Desktop см. в статье **[Формирование и объединение данных с Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
 
 В предыдущем разделе мы подключались к двум наборам данных: книге Excel и веб-ресурсу. После загрузки данных в редакторе запросов отображаются следующие сведения с выбранным на веб-странице запросом (из доступных запросов, перечисленных в области **Запросы** в левой части окна "Редактор запросов").
 

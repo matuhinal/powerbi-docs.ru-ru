@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290966"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600758"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Карты фигур в Power BI Desktop (предварительная версия)
 В Power BI Desktop с помощью визуального элемента **Карта фигур** можно проводить относительное сравнение регионов на карте, применяя к ним разные цвета. В отличие от визуального элемента **Карта**, элемент **Карта фигур** не демонстрирует географическое расположение точек данных на карте: его основная задача — помочь сравнить регионы карты, окрасив их в разные цвета.
@@ -40,23 +40,23 @@ Power BI Desktop создаст пустой холст для визуальн�
 Чтобы создать **карту фигур**, выполните указанные ниже действия.
 
 1. В области **Поля** перетащите поле данных с названиями (в том числе сокращенными) регионов в контейнер **Расположение**, а поле меры данных — в контейнер **Насыщенность цвета** (карта пока не отображается).
-   
+
    > [!NOTE]
-> Сведения о том, как быстро загрузить данные карт, чтобы проверить элемент **Карта фигур** в действии, см. в разделе **Получение карт** ниже.
+   > Сведения о том, как быстро загрузить данные карт, чтобы проверить элемент **Карта фигур** в действии, см. в разделе **Получение карт** ниже.
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. В области параметров **Формат** разверните раздел **Фигура** и выберите вариант из раскрывающегося списка **Стандартные карты**, чтобы отобразить данные. На этом этапе появится изображение карты, как показано на рисунке ниже.
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> В разделе **Ключи регионов** в конце этой статьи перечислены таблицы с ключами регионов карт, которые можно использовать для проверки визуального элемента **Карта фигур**.
+   > В разделе **Ключи регионов** в конце этой статьи перечислены таблицы с ключами регионов карт, которые можно использовать для проверки визуального элемента **Карта фигур**.
    > 
    > 
 3. После этого в области параметров **Формат** вы можете настраивать параметры проекции и масштабирования карты, а также цвета точек данных. Кроме того, можно менять настройки масштаба. В частности, здесь можно настраивать цвета, задавать минимальные и максимальные значения и т. д.
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. Вы также можете добавить столбец категории данных в контейнер **Условные обозначения** и распределить регионы карты по категориям.
 
@@ -114,6 +114,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 Для тестирования **карты фигур** в этой предварительной версии используйте приведенные ниже **ключи регионов**.
 
 ### <a name="australia-states"></a>Australia: States
+
 | id | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
@@ -126,6 +127,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
 ### <a name="austria-states"></a>Austria: States
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
@@ -139,6 +141,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brazil: States
+
 | id |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Litigated Zone 4 |
 
 ### <a name="canada-provinces"></a>Canada: Provinces
+
 | id | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>France: Regions
+
 | id | name | name-en |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
@@ -217,6 +222,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Aquitaine |Aquitaine |Aquitaine |
 
 ### <a name="germany-states"></a>Germany: States
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
@@ -237,6 +243,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
 ### <a name="ireland-counties"></a>Ireland: Counties
+
 | id |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Carlow |
 
 ### <a name="italy-regions"></a>Italy: Regions
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
@@ -291,6 +299,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
 ### <a name="mexico-states"></a>Mexico: States
+
 | id | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
@@ -327,6 +336,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
 ### <a name="netherlands-provinces"></a>Netherlands: Provinces
+
 | id | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
@@ -343,6 +353,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
 ### <a name="uk-countries"></a>UK: Countries
+
 | id | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
@@ -351,6 +362,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | gb-eng |GB-ENG |England |
 
 ### <a name="usa-states"></a>USA: States
+
 | id | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

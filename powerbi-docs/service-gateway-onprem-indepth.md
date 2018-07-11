@@ -11,11 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298580"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38921514"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Локальный шлюз данных во всех подробностях
 Пользователи организации могут обращаться к вашим локальным данным (для доступа к которым они уже прошли проверку подлинности). Но для подключения этих пользователей к локальным источникам данных необходимо установить и настроить локальный шлюз данных. Этот шлюз обеспечивает быстрый и безопасный двусторонний обмен информацией между пользователем в облачной среде и локальным источником данных.
