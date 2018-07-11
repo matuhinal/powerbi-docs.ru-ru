@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 7feb562c5d2d96c4d726b93393a0b4a26c658415
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301764"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134761"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Подключение к базе данных Impala в Power BI Desktop
 В Power BI Desktop вы можете подключиться к базе данных **Impala** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
@@ -50,7 +50,7 @@ ms.locfileid: "35301764"
 ## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241954"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965212"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью приложения в Power BI и Office 365
 Автор или администратор [рабочей области приложения в Power BI](service-install-use-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365. 
@@ -33,7 +33,7 @@ ms.locfileid: "34241954"
 * просматривать адрес электронной почты группы;
 * удалять группу.
 
-Лицензия [Power BI Pro](service-free-vs-pro.md) необходима для администратора или участника рабочей области приложения. Вашим пользователям приложения также требуется лицензия Power BI Pro, если только рабочая область приложения не хранится емкости Power BI Premium. В этом случае бизнес-пользователи смогут обращаться к вашему приложению с помощью бесплатной лицензии Power BI. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium.md)
+Лицензия [Power BI Pro](service-free-vs-pro.md) необходима для администратора или участника рабочей области приложения. Вашим пользователям приложения также требуется лицензия Power BI Pro, если только рабочая область приложения не хранится емкости Power BI Premium. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium.md)
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Изменение рабочей области приложения в Power BI
 1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие (**…**) рядом с именем рабочей области, а затем выберите **Изменить рабочую область**. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250322"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926658"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Невозможно добавить Power BI к партнерской подписке на Office 365
 Office 365 позволяет компаниям перепродавать пакеты Office 365, интегрированные в их собственные решения. В этом случае такие компании и решения являются единой точкой контакта по вопросам приобретения, выставления счетов и поддержки.
@@ -33,7 +33,7 @@ Office 365 позволяет компаниям перепродавать па
 
 [Power BI (бесплатная версия)](#power-bi-free)
 
-[Power BI Pro и Premium](#power-bi-pro)
+[Power BI Pro и Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (бесплатная)
 Если вам достаточно бесплатной версии, зарегистрируйтесь в бесплатной службе Power BI. По умолчанию индивидуальная регистрация (специализированная подписка) не поддерживается. При попытке регистрации в Power BI вы получите сообщение о том, что ваш ИТ-отдел отключил регистрацию в службе Microsoft Power BI.

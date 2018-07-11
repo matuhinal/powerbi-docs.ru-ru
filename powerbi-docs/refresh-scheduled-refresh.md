@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248142"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145463"
 ---
 # <a name="configuring-scheduled-refresh"></a>Настройка запланированного обновления
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248142"
 
 Если ваш набор данных поддерживает запланированное обновление с использованием команд "Обновить сейчас" и "Расписание обновлений", существует ряд требований и параметров, важных для успешного обновления. Это **подключение к шлюзу**, **учетные данные источника данных** и **расписание обновления**. Давайте рассмотрим каждый элемент более подробно.
 
-Далее описываются параметры, доступные для шлюза [Power BI Gateway — Personal](personal-gateway.md) и [локального шлюза данных](service-gateway-onprem.md).
+Далее описываются параметры, доступные для шлюза [Power BI Gateway — Personal](service-gateway-personal-mode.md) и [локального шлюза данных](service-gateway-onprem.md).
 
 Чтобы перейти к экрану расписания обновления, можно выполнить следующее.
 
@@ -123,7 +123,7 @@ ms.locfileid: "34248142"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Обновление данных в Power BI](refresh-data.md)  
-[Шлюз Power BI Gateway — Personal](personal-gateway.md)  
+[Шлюз Power BI Gateway — Personal](service-gateway-personal-mode.md)  
 [Локальный шлюз данных](service-gateway-onprem.md)  
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 [Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  

@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>Локальный шлюз данных
+
 | **Источник данных** |
 | --- |
 | Табличная модель Analysis Services |

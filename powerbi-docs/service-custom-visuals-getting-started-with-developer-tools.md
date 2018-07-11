@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296316"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600386"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Создание пользовательского визуального элемента с помощью средств разработчика
 Пользовательские визуальные элементы отвечают потребностям пользователей, а также соответствуют дизайну вашего приложения. Узнайте, как создать пользовательский визуальный элемент с помощью средств разработчика для Power BI.
@@ -32,14 +32,14 @@ ms.locfileid: "34296316"
 
 1. Скачайте и установите [NodeJS](https://nodejs.org). Требуется версия 4.0 или более поздняя, однако рекомендуется использовать версию 5.0 или более позднюю.
 2. Установите программы командной строки. Выполните следующую команду в командной строке.
-   
+
         npm install -g powerbi-visuals-tools
 3. В установке средств можно убедиться, выполнив следующую команду без параметров.
-   
+
         pbiviz
-   
+
     Будут выведены данные справки.
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ ms.locfileid: "34296316"
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ ms.locfileid: "34296316"
 Чтобы *установить* сертификат, выполните следующую команду.
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > Вы увидите сообщение, предлагающее использовать вновь созданную парольную фразу для установки сертификата PFX.
 > 
@@ -112,20 +112,20 @@ ms.locfileid: "34296316"
 **ОС Windows**
 
 1. Выберите команду **Установить сертификат**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. Установите переключатель **Текущий пользователь**, а затем нажмите кнопку **Далее**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. Установите переключатель **Place all certificate in the following store** (Разместить все сертификаты в следующем хранилище) и щелкните **Обзор...**.
 4. Выберите **доверенных корневых центров сертификации**, а затем нажмите кнопку **ОК**. Нажмите кнопку **Далее**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. Нажмите кнопку **Завершить**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. Нажмите кнопку **Да** в диалоговом окне предупреждения системы безопасности.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. Закройте все открытые браузеры.
 
@@ -137,13 +137,13 @@ ms.locfileid: "34296316"
 **OSX**
 
 1. Если в верхнем левом углу установлена блокировка, снимите ее. Найдите *localhost* и дважды щелкните сертификат.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. Выберите пункт **Always Trust** (Всегда доверять) и закройте окно.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. Введите имя пользователя и пароль. Нажмите кнопку **Обновить параметры**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. Закройте все открытые браузеры.
 
@@ -157,15 +157,15 @@ ms.locfileid: "34296316"
 
 1. Зайдите на сайт [app.powerbi.com](https://app.powerbi.com).
 2. Нажмите **значок шестеренки**, а затем выберите пункт **Параметры**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. Выберите пункт **Разработчик**, а затем установите флажок **Включить тестирование для визуального элемента разработчика**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. На панели **Визуализации** выберите **визуальный элемент разработчика**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > Для этого требуется запустить `pbiviz start` в папке визуального элемента на компьютере разработчика. Дополнительные сведения см. в этой статье в разделе [Создание визуального элемента](#create-a-new-visual).
    > 
@@ -196,11 +196,11 @@ pbiviz new My Visual name
 1. Откройте командную строку.
 2. Измените каталог на папку визуального элемента. Эта папка содержит файл `pbiviz.json`.
 3. Выполните следующую команду.
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 Если указывается неверный путь, отобразится ошибка наподобие следующей:
@@ -249,7 +249,7 @@ pbiviz new My Visual name
 1. Откройте командную строку.
 2. Измените каталог на папку визуального элемента. Эта папка содержит файл `pbiviz.json`.
 3. Выполните следующую команду.
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ pbiviz update 1.2.0
 Проект визуального элемента — это папка, которая создается при выполнении команды `pbiviz new`. 
 
 ### <a name="file-structure"></a>Структура файла
+
 | Элемент | Описание |
 | --- | --- |
 | assets/ |Используется для хранения ресурсов визуального элемента (значок, снимки экрана и т. д.). |

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 8931bc773f0543cc8687c1a8f9f63681109247e2
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964775"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600211"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. Точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно в зависимости от данных.
@@ -57,9 +57,9 @@ ms.locfileid: "36964775"
    - **Sales** > **Total Sales Variance %** (Продажи > Суммарное отклонение продаж, %)
    - **District** > **District** (Округ > Округ)
 
-    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
-    Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](service-interact-with-a-report-in-editing-view.md).
+     Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](service-interact-with-a-report-in-editing-view.md).
 
 3. Преобразуйте данные в точечную диаграмму. На панели «Визуализации» щелкните значок точечной диаграммы.
 

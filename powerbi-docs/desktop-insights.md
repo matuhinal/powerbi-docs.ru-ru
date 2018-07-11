@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286090"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134692"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Использование аналитики в Power BI Desktop (предварительная версия)
 Вы можете запросить в **Power BI Desktop** объяснение роста или снижения показателей на диаграммах и быстро выполнить автоматический информативный анализ своих данных. Просто щелкните правой кнопкой мыши точку данных и выберите **Анализ > Объяснить снижение** (или "Объяснить рост", если предыдущая строка на диаграмме меньше), и вы получите ценную информацию в удобном окне.
@@ -72,7 +72,7 @@ ms.locfileid: "34286090"
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о **Power BI Desktop** и инструкции по началу работы см. в следующих статьях.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)

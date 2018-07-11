@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6f80c1cc5d0b97318fe9e9b0653d166d571d1310
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290667"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137498"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Общие задачи с запросами в Power BI Desktop
 При работе в окне **Редактор запросов** Power BI Desktop можно воспользоваться рядом стандартных задач. В этом документе показаны эти распространенные задачи и приведены ссылки для получения дополнительных сведений. 
@@ -218,7 +218,7 @@ Power BI Desktop предоставляет широкий набор катег
 ## <a name="next-steps"></a>Дальнейшие действия
 Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)

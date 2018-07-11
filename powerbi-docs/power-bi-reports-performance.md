@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310551"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598893"
 ---
 # <a name="power-bi-performance-best-practices"></a>Рекомендации по производительности Power BI 
 В этой статье приводятся рекомендации по созданию быстрых и надежных отчетов в Power BI.  
@@ -115,7 +115,7 @@ ms.locfileid: "34310551"
    [msmdsrv.exe] 
 
    Найдите порт, используемый файлом msmdsrv.exe, и запишите его для дальнейшего использования. В этом случае можно использовать порт 55786. 
-3.  **Подключите SQL Server Profiler к Power BI Desktop.** 
+3. **Подключите SQL Server Profiler к Power BI Desktop.** 
 
    - Запустите SQL Server Profiler из меню **Пуск**. 
    - Последовательно выберите **Файл** > **Создать трассировку**. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 966d25ce2cddbba4623774c9bcfc6a0a9f0af904
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310275"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137153"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Часто задаваемые вопросы о Power BI в облаке для пользователей из Германии
 **Служба Power BI** имеет версию, доступную для пользователей из ЕС и ЕАСТ, так называемую Microsoft Cloud Deutschland (MCD). Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из ЕС и ЕАСТ и отличается от коммерческой версии **службы Power BI** и службы Power BI для клиентов из государственных организаций.
@@ -73,5 +73,5 @@ ms.locfileid: "34310275"
 
 * [Интерактивное обучение работе с Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Приступая к работе со службой Power BI](service-get-started.md)
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 

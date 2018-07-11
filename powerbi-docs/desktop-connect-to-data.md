@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4b1077b62baeee2412620e6ee2aa6aabc6838863
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285561"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136394"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Подключение к данным в Power BI Desktop
 Power BI Desktop позволяет легко подключаться к постоянно растущему миру данных. Если у вас нет Power BI Desktop, его можно загрузить и установить [отсюда](http://go.microsoft.com/fwlink/?LinkID=521662).
@@ -67,7 +67,7 @@ Power BI Desktop позволяет легко подключаться к по�
 ### <a name="next-steps"></a>Дальнейшие действия
 Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)

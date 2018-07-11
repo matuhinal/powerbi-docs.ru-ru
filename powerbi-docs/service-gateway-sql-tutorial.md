@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298971"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926520"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Руководство. Подключение к локальным данным в SQL Server
 
@@ -128,7 +128,7 @@ ms.locfileid: "34298971"
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>Добавление SQL Server в качестве источника данных шлюза
 
-В Power BI Desktop вы подключаетесь напрямую к SQL Server, но службе Power BI для нормальной работы необходим шлюз, выполняющий роль моста. Добавьте экземпляр SQL Server в качестве источника данных для шлюза, который вы создали в предыдущей статье (она указана в разделе [Предварительные требования](#prereqisites)). 
+В Power BI Desktop вы подключаетесь напрямую к SQL Server, но службе Power BI для нормальной работы необходим шлюз, выполняющий роль моста. Добавьте экземпляр SQL Server в качестве источника данных для шлюза, который вы создали в предыдущей статье (она указана в разделе [Предварительные требования](#prerequisites)). 
 
 1. В службе Power BI в правом верхнем углу экрана щелкните значок шестеренки ![Значок параметров](media/service-gateway-sql-tutorial/icon-gear.png) > **Управление шлюзами**.
 
@@ -142,15 +142,17 @@ ms.locfileid: "34298971"
 
     ![Ввод параметров источника данных](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | Параметр | Значение |
-    | ---    | ---   |
-    | **Имя источника данных**       | test-sql-source      |
-    | **Тип источника данных**       | SQL Server      |
-    | **Сервер**       |  Имя экземпляра SQL Server (тот же, который вы указали в Power BI Desktop)    |
-    | **База данных**       | TestGatewayDocs      |
-    | **Метод аутентификации**       | Windows      |
-    | **Имя пользователя**        |  Учетная запись для подключения к SQL Server, например michael@contoso.com     |
-    | **Пароль**       |  Пароль для учетной записи, которая используется для подключения к SQL Server    |
+
+   |          Параметр           |                                               Значение                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **Имя источника данных**    |                                          test-sql-source                                           |
+   |   **Тип источника данных**    |                                             SQL Server                                             |
+   |        **Сервер**         | Имя экземпляра SQL Server (тот же, который вы указали в Power BI Desktop) |
+   |       **База данных**        |                                          TestGatewayDocs                                           |
+   | **Метод аутентификации** |                                              Windows                                               |
+   |       **Имя пользователя**        |             Учетная запись для подключения к SQL Server, например michael@contoso.com             |
+   |       **Пароль**        |                   Пароль для учетной записи, которая используется для подключения к SQL Server                    |
+
 
 4. Нажмите кнопку **Добавить**. При успешном завершении процесса вы увидите сообщение *Соединение установлено успешно*.
 

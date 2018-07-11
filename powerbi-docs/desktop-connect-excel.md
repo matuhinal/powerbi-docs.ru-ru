@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb35e8762b4cbe79e8efe2aede15bcac66f2ac8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 699df2cf1cfcfde25eaadcec2946e9be922c56d9
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289793"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136095"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Подключение к данным Excel в Power BI Desktop
 Процедура подключения к книгам Excel из приложения Power BI Desktop довольно проста и подробно описана в этой статье.
@@ -48,7 +48,7 @@ Power BI Desktop отобразит таблицы и другие элемен�
 ### <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к CSV-файлам в Power BI Desktop](desktop-connect-csv.md)   

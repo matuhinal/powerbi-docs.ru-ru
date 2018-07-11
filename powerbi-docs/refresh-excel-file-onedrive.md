@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239137"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092214"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, созданного из книги Excel в OneDrive или SharePoint Online
 Можно импортировать книги Excel, которые хранятся на локальном компьютере или в облаке, например в OneDrive для бизнеса или SharePoint Online. Мы рассмотрим преимущества использования облачного хранилища для файлов Excel. Дополнительные сведения об импорте файлов Excel в Power BI см. в разделе [Получение данных из файлов книг Excel](service-excel-workbook-files.md).
@@ -45,7 +45,7 @@ ms.locfileid: "34239137"
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive или OneDrive для бизнеса. В чем разница?
 При наличии личного OneDrive и OneDrive для бизнеса рекомендуется хранить все файлы, которые нужно импортировать в Power BI, в OneDrive для бизнеса. И вот почему. Скорее всего, для доступа к этим хранилищам вы используете две учетные записи.
 
-Подключение к OneDrive для бизнеса в Power BI обычно выполняется автоматически, поскольку чаще всего для входа в Power BI и в OneDrive для бизнеса используется одна и та же учетная запись. Однако в личное хранилище OneDrive вы, скорее всего, входите с помощью другой [учетной записи Майкрософт](http://www.microsoft.com/account/default.aspx).
+Подключение к OneDrive для бизнеса в Power BI обычно выполняется автоматически, поскольку чаще всего для входа в Power BI и в OneDrive для бизнеса используется одна и та же учетная запись. Однако в личное хранилище OneDrive вы, скорее всего, входите с помощью другой [учетной записи Майкрософт](https://account.microsoft.com).
 
 При выполнении входа с использованием учетной записи Майкрософт обязательно установите флажок "Оставаться в системе". После этого Power BI сможет синхронизировать все обновления, внесенные в файл в Power BI Desktop, с наборами данных в Power BI.  
     ![](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4be27c91d0616d4611eb07dab5d68c39ed0ab6d2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dad723d7b65836770fb866ddeed80d069a9658a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287746"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137107"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Подключение к данным с помощью универсальных интерфейсов в Power BI Desktop
 В **Power BI Desktop** можно подключаться к множеству различных источников данных, используя встроенные соединители, которые отображаются в окне **Получение данных**, — от **баз данных Access** до ресурсов **Zendesk**. Вы также можете подключаться к *другим* источникам данных различных типов с помощью универсальных интерфейсов (например, **ODBC** или **REST API**), встроенных в **Power BI Desktop**. Это дополнительно расширяет возможности подключения.
@@ -109,7 +109,7 @@ ms.locfileid: "34287746"
 ## <a name="next-steps"></a>Дальнейшие действия
 В **Power BI Desktop** можно подключаться к источникам данных самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   

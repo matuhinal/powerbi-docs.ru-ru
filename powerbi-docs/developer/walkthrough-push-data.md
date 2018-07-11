@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813119"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598556"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 API Power BI позволяет принудительно отправлять данные в набор данных Power BI. Например, вам нужно расширить существующий бизнес-процесс для отправки ключевых данных в набор данных. В этом случае необходимо отправить набор данных "Продажи и маркетинг", содержащий таблицу "Продукт".
@@ -98,6 +98,7 @@ REST API Power BI позволяет принудительно отправля
 Для схемы таблицы Power BI можно использовать следующие типы данных.
 
 ## <a name="power-bi-table-data-types"></a>Типы данных таблицы Power BI
+
 | **Тип данных** | **Ограничения** |
 | --- | --- |
 | Int64 |Int64.MaxValue и Int64.MinValue не допускаются. |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 336ae9cd9ac2940b244df88aaf5a8fff7bd3a55e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241849"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600419"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Подключение к платформе "Службы мобильного взаимодействия" с помощью Power BI
 Пакет содержимого Служб мобильного взаимодействия Azure для Power BI позволяет быстро анализировать данные приложений.
@@ -42,7 +42,7 @@ ms.locfileid: "34241849"
    
     ![](media/service-connect-to-azure-mobile/dashboard.png)
 
- **Дальнейшие действия**
+## <a name="what-now"></a>Дальнейшие действия
 
 * Попробуйте [задать вопрос в поле "Вопросы и ответы"](power-bi-q-and-a.md) в верхней части информационной панели.
 * [Измените плитки](service-dashboard-edit-tile.md) на информационной панели.

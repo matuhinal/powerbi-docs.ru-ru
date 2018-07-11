@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481755"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780601"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
 В этой статье изложены минимальные требования к оборудованию и программному обеспечению для установки и запуска сервера отчетов Power BI.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Требования к процессору, памяти и операционной системе
+
 | Компонент | Требование |
 | --- | --- |
 | .NET Framework |4.6<br><br>Можно вручную установить платформу .NET Framework со страницы [Платформа .NET Framework Microsoft 4.6 (веб-установщик) для Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Дополнительные сведения, рекомендации и инструкции по .NET Framework 4.6 см. в [руководстве по развертыванию .NET Framework для разработчиков](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Перед установкой .NET Framework 4.6 для Windows 8.1 и Windows Server 2012 R2 требуется установить обновление [KB2919355](http://support.microsoft.com/kb/2919355). |
@@ -41,8 +42,6 @@ ms.locfileid: "34481755"
 * SQL Server 2016;
 * SQL Server 2014;
 * SQL Server 2012;
-* SQL Server 2008 R2;
-* SQL Server 2008.
 
 Для создания базы данных сервера отчетов на удаленном компьютере необходимо настроить подключение для использования учетной записи пользователя домена или учетную запись службы с сетевым доступом. Если вы решите использовать удаленный экземпляр SQL Server, хорошо подумайте, какие учетные данные сервера отчетов следует использовать для подключения к экземпляру SQL Server. Дополнительные сведения см. в статье [Настройка соединения с базой данных сервера отчетов (собственный режим)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 

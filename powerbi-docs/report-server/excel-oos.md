@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481907"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092674"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Настройка сервера отчетов для размещения книг Excel с использованием Office Online Server (OOS)
 Кроме просмотра отчетов Power BI на веб-портале в решении "Сервер отчетов Microsoft Power BI" можно размещать книги Excel с помощью [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Сервер отчетов можно использовать как единое расположение для публикации и просмотра самостоятельного содержимого Microsoft BI.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Параметры**
 
-* **— InternalURL** — полное доменное имя (FQDN) сервера, на котором выполняется Office Online Server, например http://servername.contoso.com.
+* **— InternalURL** — полное доменное имя (FQDN) сервера, на котором выполняется Office Online Server, например `http://servername.contoso.com`.
 * **— ExternalURL** — полное доменное имя, по которому можно осуществлять доступ через Интернет.
 * **— CertificateName** — понятное имя сертификата.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Параметры**
 
-* **— InternalURL** — имя сервера, на котором выполняется Office Online Server, например http://servername.
+* **— InternalURL** — имя сервера, на котором выполняется Office Online Server, например `http://servername`.
 * **— AllowHttp** — параметр, который отвечает за настройку фермы для использования протокола HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Проверка созданной фермы Office Online Server

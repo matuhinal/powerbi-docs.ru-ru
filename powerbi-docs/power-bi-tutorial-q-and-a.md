@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239495"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599237"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Руководство по использованию функции "Вопросы и ответы" для создания визуализаций и отчетов
 В [этом обзоре](power-bi-q-and-a.md) представлено описание функции "Вопросы и ответы" Power BI с двух сторон: *потребители* используют панели мониторинга и отчеты, которые им предоставлены, а *создатели* управляют отчетами и наборами данных. Первая часть этого руководства предназначена главным образом для тех, кто использует панели мониторинга через службу Power BI. Вторая часть будет полезна тем, кто создает отчеты через в Power BI или Power BI Desktop. Особенности применения функции "Вопросы ответы" совместно с [Power BI Mobile](mobile-apps-ios-qna.md) и [Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях.
@@ -90,9 +90,9 @@ ms.locfileid: "34239495"
 
 6. Создав визуализацию, вы можете использовать с ее. При этом не имеет значения, как именно вы ее создали, — возможности взаимодействия и форматирования будут одинаковыми.
 
-  ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
-  Если вы создали визуализацию в службе Power BI, ее даже можно [закрепить на панели мониторинга](service-dashboard-pin-tile-from-q-and-a.md).
+   Если вы создали визуализацию в службе Power BI, ее даже можно [закрепить на панели мониторинга](service-dashboard-pin-tile-from-q-and-a.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Назначьте визуализацию, которая будет использоваться функцией вопросов и ответов.
 Функция "Вопросы и ответы" позволяет не только подобрать правильные данные, но и сообщить Power BI о том, как лучше всего их отобразить. Просто добавьте в конец своего вопроса текст "как <visualization type>".  Например, "показать объем запасов по заводу как карту" и "показать всего на складе как карточку".  Попробуйте сами.

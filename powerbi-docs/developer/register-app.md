@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813303"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599496"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Регистрация приложения Azure AD для внедрения содержимого Power BI
 Узнайте, как зарегистрировать приложение в Azure Active Directory (Azure AD) для использования внедренного содержимого Power BI.
@@ -54,9 +54,8 @@ ms.locfileid: "34813303"
     Затем вам будет предоставлен **идентификатор клиента**. Если вы выбрали **Server-side Web app** (Серверное веб-приложение), то вы получите **секрет клиента**. При необходимости **идентификатор клиента** можно будет получить на портале Azure позднее. Если **секрет клиента** потерян, необходимо создать новый на портале Azure.
 
 8. Вам нужно перейти в Azure, чтобы выбрать пункт **Предоставить разрешения**.
-> [!Note]
-    > Для этого у вас должны быть права глобального администратора в клиенте Azure.
->
+   > [!Note]
+   > Для этого у вас должны быть права глобального администратора в клиенте Azure.
 
 * Перейдите к Azure.
 * Найдите и выберите пункт **Регистрация приложений**.
@@ -83,8 +82,8 @@ ms.locfileid: "34813303"
     ![](media/register-app/azuread-new-app-registration.png)
 5. Следуя инструкциям на экране, создайте приложение.
    
-   * Для веб-приложений укажите URL-адрес входа, который является базовым URL-адресом приложения, используемым пользователями для входа, например http://localhost:13526.
-   * Для собственных приложений укажите универсальный код ресурса (URI) перенаправления, который Azure AD использует для возвращения ответов для токенов. Введите значение, относящимся к вашему приложению, например http://myapplication/redirect.
+   * Для веб-приложений укажите URL-адрес входа, который является базовым URL-адресом приложения, используемым пользователями для входа, например `http://localhost:13526`.
+   * Для собственных приложений укажите универсальный код ресурса (URI) перенаправления, который Azure AD использует для возвращения ответов для токенов. Введите значение, относящимся к вашему приложению, например `http://myapplication/redirect`.
 
 Дополнительные сведения о регистрации приложений в Azure Active Directory см. в разделе [Интеграция приложений с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications).
 
@@ -161,44 +160,44 @@ ms.locfileid: "34813303"
    * Значение **AllPrincipals** может использовать только администратор клиента для предоставления разрешений от имени всех пользователей в клиенте.
    * Значение **Principal** используется для предоставления разрешений от имени определенного пользователя. В этом случае в текст запроса следует добавить дополнительное свойство: *principalId={User_ObjectId}*.
     
-    Действие *Предоставить разрешения* требуется для того, чтобы в главную учетную запись не отправлялись запросы на продолжение из Azure AD, что невозможно при неинтерактивном входе в систему.
+     Действие *Предоставить разрешения* требуется для того, чтобы в главную учетную запись не отправлялись запросы на продолжение из Azure AD, что невозможно при неинтерактивном входе в систему.
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  Предоставление разрешений на использование приложения службе Azure Active Directory (AAD)
+5. Предоставление разрешений на использование приложения службе Azure Active Directory (AAD)
    
-    Значением **consentType** может быть **AllPrincipals** или **Principal**.
+   Значением **consentType** может быть **AllPrincipals** или **Principal**.
 
-    * Значение **AllPrincipals** может использовать только администратор клиента для предоставления разрешений от имени всех пользователей в клиенте.
-    * Значение **Principal** используется для предоставления разрешений от имени определенного пользователя. В этом случае в текст запроса следует добавить дополнительное свойство: *principalId={User_ObjectId}*.
+   * Значение **AllPrincipals** может использовать только администратор клиента для предоставления разрешений от имени всех пользователей в клиенте.
+   * Значение **Principal** используется для предоставления разрешений от имени определенного пользователя. В этом случае в текст запроса следует добавить дополнительное свойство: *principalId={User_ObjectId}*.
     
-    Действие *Предоставить разрешения* требуется для того, чтобы в главную учетную запись не отправлялись запросы на продолжение из Azure AD, что невозможно при неинтерактивном входе в систему.
+   Действие *Предоставить разрешения* требуется для того, чтобы в главную учетную запись не отправлялись запросы на продолжение из Azure AD, что невозможно при неинтерактивном входе в систему.
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>Дальнейшие действия
 После регистрации вашего приложения в Azure AD необходимо выполнить проверку подлинности для пользователей в приложении. Дополнительные сведения см. в статье [Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI](get-azuread-access-token.md).

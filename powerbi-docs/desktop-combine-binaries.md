@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 7a0a4f6296df351272a69ca30c8a8c08e1f9bcbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5d889787b6ae7e6331522bbef1a6f1c748d4533d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287861"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136348"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Объединение файлов (двоичных) в Power BI Desktop
 Один из самых эффективных способов импортировать данные в **Power BI Desktop** — это объединить нескольких файлов с одинаковыми схемами в одну логическую таблицу. В выпуске **Power BI Desktop** за ноябрь 2016 г. (и последующих выпусках) этот популярный способ стал еще более удобным и функциональным. В этой статье описывается, как его использовать.
@@ -58,7 +58,7 @@ ms.locfileid: "34287861"
 ## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к CSV-файлам в Power BI Desktop](desktop-connect-csv.md)   

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52ef5b568e63d759b38ee8210873783b6c205a2a
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471946"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965534"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 Когда вы открываете отчет в службе Power BI, можно заметить, что каждая страница отчета имеет собственный уникальный URL-адрес. Для фильтрации этой страницы отчета можно использовать область "Фильтры" на холсте отчета.  Также для фильтрации отчета можно добавить параметры строки запроса в URL-адрес. Возможно, у вас есть отчет, который вы хотите показать коллегам и который для этого необходимо предварительно отфильтровать. Это можно сделать, добавив параметры фильтрации к присваиваемому по умолчанию URL-адресу отчета для отправки по электронной почте.
@@ -108,7 +108,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Закрепление визуализации на панели мониторинга](service-dashboard-pin-tile-from-report.md)  
-[Бесплатная пробная версия](https://powerbi.com/)
+[Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/get-started/)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

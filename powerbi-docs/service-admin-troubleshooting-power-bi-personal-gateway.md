@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247271"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145417"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Устранение неполадок с Power BI Gateway - Personal
 Ниже рассмотрено несколько распространенных проблем, которые могут возникнуть при использовании шлюза Power BI Gateway - Personal.
@@ -146,7 +146,7 @@ Power BI в настоящее время не поддерживает пров
 ## <a name="next-steps"></a>Дальнейшие действия
 [Настройка параметров прокси-сервера для локального шлюза данных](service-gateway-proxy.md)  
 [Обновление данных](refresh-data.md)  
-[Шлюз Power BI Gateway — Personal](personal-gateway.md)  
+[Шлюз Power BI Gateway — Personal](service-gateway-personal-mode.md)  
 [Устранение неполадок с плитками](refresh-troubleshooting-tile-errors.md)  
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

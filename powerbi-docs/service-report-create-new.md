@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246164"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599535"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
 Вы ознакомились со статьей [Отчеты в Power BI](service-reports.md) и хотите создать свои собственные отчеты. Существует много различных способов создания отчетов. В этой статье мы создадим простой отчет из набора данных Excel, воспользовавшись службой Power BI. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами в разделе **Дальнейшие действия** ниже.  
 
 > **Совет.** Сведения о создании отчета из имеющегося отчета см. [здесь](power-bi-report-copy.md).
 > 
-### <a name="prerequisites"></a>Предварительные требования
-- Служба Power BI (сведения о создании отчетов с помощью приложения Power BI Desktop см. в статье [Представление отчетов в Power BI Desktop](desktop-report-view.md)).  
-- Набор данных "Анализ розничной торговли — пример"
+> ### <a name="prerequisites"></a>Предварительные требования
+> - Служба Power BI (сведения о создании отчетов с помощью приложения Power BI Desktop см. в статье [Представление отчетов в Power BI Desktop](desktop-report-view.md)).  
+> - Набор данных "Анализ розничной торговли — пример"
 
 ## <a name="import-the-dataset"></a>Импорт набора данных
 Чтобы создать отчет таким способом, сначала вам потребуется набор данных и пустой холст отчета. Для дальнейшей работы [скачайте набор данных Excel "Анализ розничной торговли — пример"](http://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса (предпочтительный вариант) или в локальной среде.

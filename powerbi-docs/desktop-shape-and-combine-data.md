@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6c1bb67b0c7fb8d3e3344cbb48f7fcf52dac64ed
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288758"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137314"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Руководство. Формирование и объединение данных в Power BI Desktop
 
@@ -233,7 +233,7 @@ ms.locfileid: "34288758"
 ## <a name="next-steps"></a>Дальнейшие действия
 Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)

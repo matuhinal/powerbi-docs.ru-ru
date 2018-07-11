@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812429"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092536"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Шаг 3. Создание набора данных в Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
@@ -228,8 +228,8 @@ ms.locfileid: "34812429"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)  
 [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)  
-[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  

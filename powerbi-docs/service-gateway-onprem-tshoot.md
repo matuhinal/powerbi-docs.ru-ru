@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755077"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926612"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 В этой статье описаны распространенные проблемы, которые могут возникнуть при работе с **локальным шлюзом данных**.
@@ -31,10 +31,10 @@ ms.locfileid: "34755077"
 Шлюз работает как служба Windows. Его можно запустить и остановить несколькими способами. Например, вы можете открыть окно командной строки с более высоким уровнем разрешений на компьютере, на котором запущен шлюз, а затем выполнить нужную команду из указанных ниже.
 
 * Чтобы остановить службу, выполните следующую команду.
-  
+
     "   net stop PBIEgwService   "
 * Чтобы запустить службу, выполните следующую команду.
-  
+
     "   net start PBIEgwService   "
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Ошибка: не удалось создать шлюз. Повторите попытку.
@@ -70,7 +70,7 @@ ms.locfileid: "34755077"
 
 1. Удалите шлюз.
 2. Удалите следующую папку:
-   
+
         c:\Program Files\On-premises data gateway
 3. Установите шлюз снова.
 4. При необходимости восстановите существующий шлюз с помощью ключа восстановления.
@@ -129,11 +129,11 @@ ms.locfileid: "34755077"
 
 1. Подключитесь к компьютеру со службами Analysis Services из приложения SQL Server Management Studio. В дополнительных свойствах соединения укажите параметр EffectiveUserName для соответствующего пользователя и посмотрите, повторится ли ошибка.
 2. Проверить, указан ли этот атрибут, можно с помощью программы dsacls для Active Directory. Как правило, она есть на контроллере домена. Вам потребуется передать этой программе различающееся имя домена для учетной записи.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     Результаты должны содержать что-то наподобие этого:
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ ms.locfileid: "34755077"
 
 1. Найдите действующее имя пользователя в [журналах шлюза](#logs).
 2. Обнаружив значение, которое передается, проверьте его правильность. Если это ваш пользователь вы можете уточнить его имя участника-пользователя с помощью следующей команды в командной строке: Имя участника-пользователя выглядит как адрес электронной почты.
-   
+
         whoami /upn
 
 Вы также можете посмотреть, что именно Power BI получает из каталога Azure Active Directory.
 
-1. Перейдите к [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Перейдите к [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
 2. Выберите **Войти** в правом верхнем углу.
 3. Выполните следующий запрос: Вы увидите должно большой ответ в формате JSON.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. Найдите атрибут **userPrincipalName**.
 
@@ -206,7 +206,7 @@ ms.locfileid: "34755077"
 1. Нажмите кнопку **?** в правом верхнем углу окна службы Power BI.
 2. Выберите **О Power BI**.
 3. Регион, в котором хранятся ваши данные, будет указан в строке **Ваши данные сохранены в**.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Если это все равно не помогает, вы можете попытаться выполнить сетевую трассировку с помощью такого инструмента, как [fiddler](#fiddler) или netsh, хотя это уже более сложные способы сбора информации, и вам может потребоваться помощью в анализе полученных данных. Вы можете обратиться за помощью в [службу поддержки](https://support.microsoft.com).
@@ -329,6 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Типы действий
+
 | Тип действия | Описание |
 | --- | --- |
 | MGEQ |Запросы, выполняемые через ADO.NET. К этому типу действий относятся источники данных DirectQuery. |
@@ -342,9 +343,9 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 2. Найдите запрос по [типу действия](#activities). Например, MGEQ.
 3. Запишите второй GUID, так как он является идентификатором запроса.
 4. Продолжите поиск MGEQ, пока не найдете запись FireActivityCompletedSuccessfullyEvent со сведениями о продолжительности. Можете проверить запись на наличие аналогичного идентификатора запроса. Продолжительность будет отображена в миллисекундах.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent считается подробной записью. Эта запись не будет зарегистрирована, если TraceVerbosity не находится на уровне 5.
    > 
@@ -423,12 +424,12 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 При использовании шлюза для запланированного обновления **журнал обновлений** может помочь выявить возникшие ошибки, а также предоставляет полезные данные, если понадобится создать запрос на техническую поддержку. Можно просматривать как запланированные обновления, так и обновления по запросу. Ниже описано, как можно открыть **журнал обновления**.
 
 1. В области навигации Power BI в разделе **Наборы данных** выберите набор данных, затем &gt; меню "Открыть" &gt; **Запланировать обновление**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. В **Параметры для...** &gt; **Запланировать обновление** выберите **Журнал обновления**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 См. дополнительные сведения об [устранении неполадок в сценариях обновления](refresh-troubleshooting-refresh-scenarios.md).

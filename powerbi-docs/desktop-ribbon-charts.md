@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285538"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136762"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Использование ленточных диаграмм в Power BI
 **Ленточные диаграммы** в Power BI позволяют визуализировать данные и быстро определять категории данных с наивысшим рангом (максимальным значением). Ленточные диаграммы лучше всего подходят для отображения изменений ранга. Наивысший ранг (значение) за каждый период времени всегда отображается в верхней части диаграммы. Ленточные диаграммы доступны в **Power BI Desktop** начиная с выпуска за сентябрь 2017 г. и в последующих обновлениях **службы Power BI**.
@@ -44,7 +44,7 @@ ms.locfileid: "34285538"
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о **Power BI Desktop** и инструкции по началу работы см. в следующих статьях.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)

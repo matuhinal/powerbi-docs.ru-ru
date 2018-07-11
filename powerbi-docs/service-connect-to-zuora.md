@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 57e1e8ce015db9b5f88f7b685c80092023540a6f
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251940"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599142"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Подключение к Zuora с помощью Power BI
 Zuora для Power BI позволяет визуализировать важные данные о доходах, выставлении счетов и подписках. Используйте панель мониторинга и отчеты по умолчанию для анализа тенденций использования, отслеживания отчетов и выплат, а также мониторинга постоянных доходов или их настройки в соответствии с уникальными требованиями к панели мониторинга и отчетам.
@@ -32,7 +32,7 @@ Zuora для Power BI позволяет визуализировать важн
 3. Выберите **Zuora** \> **Подключить**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Укажите URL-адрес Zuora. Обычно это "https://www.zuora.com". Сведения о том, как [найти эти параметры](#FindingParams), см. ниже.
+4. Укажите URL-адрес Zuora. Обычно это "<https://www.zuora.com>". Сведения о том, как [найти эти параметры](#FindingParams), см. ниже.
 
    ![](media/service-connect-to-zuora/params.png)
 5. В качестве значения параметра **Проверка подлинности**выберите **Обычная** , укажите имя пользователя и пароль (регистр учитывается), а затем щелкните **Вход**.

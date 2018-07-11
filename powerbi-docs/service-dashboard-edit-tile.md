@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248349"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598985"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Изменение и удаление плитки на информационной панели
 
@@ -35,12 +35,12 @@ ms.locfileid: "34248349"
 * [Закрепление плитки на другой информационной панели](#different)
 * [Удаление плитки](#delete)
   
- > [!TIP]
- > Чтобы изменить визуализацию на самой плитке, удалите ее и добавьте новую [плитку панели мониторинга](service-dashboard-tiles.md).
- > 
+  > [!TIP]
+  > Чтобы изменить визуализацию на самой плитке, удалите ее и добавьте новую [плитку панели мониторинга](service-dashboard-tiles.md).
 
- ### <a name="prerequisites"></a>Предварительные требования
- 1. Чтобы перейти к выполнению руководства, откройте службу Power BI (не Power BI Desktop) и [скачайте пример "Анализ расходов на ИТ"](sample-it-spend.md). Когда появится сообщение об успешном выполнении, щелкните **Перейти к панели мониторинга**.
+  
+## <a name="prerequisites"></a>Предварительные требования
+Чтобы перейти к выполнению руководства, откройте службу Power BI (не Power BI Desktop) и [скачайте пример "Анализ расходов на ИТ"](sample-it-spend.md). Когда появится сообщение об успешном выполнении, щелкните **Перейти к панели мониторинга**.
 
 - - -
 <a name="create"></a>

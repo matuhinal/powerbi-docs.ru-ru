@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f54aa5a67739a3ad6f9ea0a42f8a2b872e51d52d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: da688638170db8a296c680bc88c1030924078967
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34230929"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134554"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Подключение к Adobe Analytics в Power BI Desktop 
 В **Power BI Desktop** вы можете подключиться к **Adobe Analytics** и использовать его так же, как и любой другой источник данных в Power BI Desktop. 
@@ -43,7 +43,7 @@ ms.locfileid: "34230929"
 ## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
-* [Начало работы с Power BI Desktop](desktop-getting-started.md)
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   

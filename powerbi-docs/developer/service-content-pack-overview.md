@@ -1,20 +1,20 @@
 ---
 title: Общие сведения о программе для пакетов содержимого службы Power BI
 description: Программа сертификации для пакетов содержимого
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/20/2018
-ms.author: maghan
-ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.author: maggies
+ms.openlocfilehash: 6697c820ff5aac30f12794cd28ca403faec4761f
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290644"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290928"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Общие сведения о программе для пакетов содержимого службы Power BI
 Пакет содержимого — это набор готового содержимого, позволяющий пользователям мгновенно получить ценные сведения из источника. Пакет содержимого обычно ориентирован на конкретный бизнес-сценарий, предоставляя аналитические сведения для роли, домена или рабочего процесса.
