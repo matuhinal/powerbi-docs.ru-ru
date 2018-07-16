@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4641fc0c36ad7fb64cc5da08ee8eda180f4ccc31
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240496"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137406"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Подключение к Planview Enterprise с помощью Power BI
 С помощью пакета содержимого Planview Enterprise вы можете визуализировать данные о ресурсах и управлении работой совершенно новыми способами непосредственно в Power BI. Используйте учетные данные Planview Enterprise для интерактивного просмотра инвестиционных расходов на портфель, определить состояние работ и соответствие бюджету, а также узнать, насколько хорошо проекты соответствуют стратегическим целям вашей компании. Также можно расширить готовую информационную панель и отчеты, чтобы получить именно те ценные сведения, которые необходимы вам.
@@ -52,10 +52,10 @@ ms.locfileid: "34240496"
 ## <a name="system-requirements"></a>Требования к системе
 Для импорта данных Planview Enterprise в Power BI вы должны быть пользователем Planview Enterprise, а для вашей роли должна быть включена функция просмотра портала отчетов Reporting Portal Viewer. Дополнительные требования см. в разделе ниже.
 
-Эта процедура предполагает, что вы уже выполнили вход на домашнюю страницу Microsoft Power BI с помощью учетной записи Power BI. Если у вас нет учетной записи Power BI, создайте новую бесплатную учетную запись Power BI на домашней странице Power BI, а затем нажмите кнопку "Получить данные".
+Эта процедура предполагает, что вы уже выполнили вход на домашнюю страницу Microsoft Power BI с помощью учетной записи Power BI. Если у вас нет учетной записи Power BI, перейдите на сайт [powerbi.com](https://powerbi.microsoft.com/get-started/) и в разделе **Power BI — совместная работа и общий доступ в облаке** нажмите кнопку **Попробовать бесплатно**. Затем нажмите кнопку **Получить данные**.
 
 ## <a name="next-steps"></a>Дальнейшие действия:
 
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
 [Получение данных для Power BI](service-get-data.md)

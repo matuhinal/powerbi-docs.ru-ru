@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd129d898f7ac958a3441754e87366aa1a9dddca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4a7e8d0ad254f2b5130026d793629a0cf4cf3be
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34238254"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137291"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Подключение к GitHub с помощью Power BI
 Пакет контента GitHub для Power BI позволяет анализировать данные в репозитории GitHub, используя информацию о вкладах пользователей, проблемах, запросах получения и активных пользователях.
@@ -97,5 +97,5 @@ ms.locfileid: "34238254"
 3. Вернувшись в Power BI, попытайтесь подключиться к GitHub. В диалоговом окне настройки GitHub укажите название репозитория и имя его владельца.  
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Приступая к работе с Power BI](service-get-started.md)
+* [Что такое Power BI?](power-bi-overview.md)
 * [Получение данных](service-get-data.md)

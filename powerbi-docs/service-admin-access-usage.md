@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722208"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926543"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
 Если вы — администратор клиента и хотите узнать, кто выполнил вход в Power BI, можно использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить сведения.
@@ -25,9 +25,7 @@ ms.locfileid: "34722208"
 Вы можете получить доступ к отчету о действиях на [новом](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) и [классическом](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) порталах Azure Active Directory (Azure AD). Хотя в приведенном выше видео используется классический портал в качестве примера, в этой статье рассматривается новый портал.
 
 > [!NOTE]
-> Данный отчет о действиях включает пользователей бесплатной версии Power BI и версии Pro, но не определяет их по приобретенной лицензии.
-> 
-> 
+> Этот отчет о действиях не идентифицирует тип лицензии каждого пользователя.
 
 ## <a name="requirements"></a>Требования
 Ниже приведены требования для просмотра отчета о действиях входа.
@@ -70,7 +68,7 @@ ms.locfileid: "34722208"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Отчеты о действиях входа на портале Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Просмотр или скачивание отчета](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[Просмотр или скачивание отчета](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [Сценарий PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Политики хранения отчетов Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [Применение функции аудита в своей организации](service-admin-auditing.md)  

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/05/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295130"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135796"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне и получать доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -121,6 +121,6 @@ ms.locfileid: "34295130"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Скачайте приложение Power BI](http://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.  
-* [Приступая к работе с Power BI](service-get-started.md)
+* [Что такое Power BI?](power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

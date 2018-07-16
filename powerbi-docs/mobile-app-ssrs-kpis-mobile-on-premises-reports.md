@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482252"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599031"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Просмотр локальных отчетов на сервере отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 
@@ -103,6 +103,9 @@ ms.locfileid: "34482252"
 Отчеты Power BI, мобильные отчеты Reporting Services и ключевые показатели эффективности отображаются в тех же папках, в которых они расположены на веб-портале служб Reporting Services. 
 
 * Коснитесь отчета Power BI ![Значок отчета Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). Он открывается в альбомной ориентации и доступен для работы в приложении Power BI.
+
+    > [!NOTE]
+  > Детализация углублением и обобщением в настоящий момент не включена в отчетах Power BI на сервере отчетов Power BI.
   
     ![Отчет Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * В Power BI Desktop владельцы отчета могут [оптимизировать отчет](desktop-create-phone-report.md) для мобильных приложений Power BI. На мобильных телефонах в оптимизированных отчетах есть специальный значок ![Оптимизированный значок отчета Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) и макет.
@@ -129,6 +132,6 @@ ms.locfileid: "34482252"
 3. Коснитесь пункта **Удалить сервер**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Приступая к работе с Power BI](service-get-started.md)  
+* [Что такое Power BI?](power-bi-overview.md)  
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

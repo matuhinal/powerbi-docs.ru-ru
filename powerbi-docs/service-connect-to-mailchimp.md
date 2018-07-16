@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6a62b97a4c7d75644bd3a824118414509ef8438f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f54841b77d79854334ddb6d93ccdc9b5926201ac
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241189"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136717"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Подключение к MailChimp с помощью Power BI
 Пакет содержимого для Power BI извлекает данные из вашей учетной записи MailChimp и создает панель мониторинга, набор отчетов и набор данных, которые позволяют анализировать ваши данные. Используйте аналитику для создания [панелей мониторинга MailChimp](https://powerbi.microsoft.com/integrations/mailchimp), чтобы быстро определить тенденции по кампаниям, отчетам и отдельным подписчикам. Данные обновляются ежедневно, так что вам всегда доступны последние сведения.
@@ -51,7 +51,7 @@ ms.locfileid: "34241189"
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 

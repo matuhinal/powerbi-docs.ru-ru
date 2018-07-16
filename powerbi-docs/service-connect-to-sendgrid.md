@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a0ae99e2dfad889840cc29ca4fa9f0f29397bf04
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247833"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135382"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>Подключение к SendGrid с помощью Power BI
 Пакет контента Power BI для SendGrid позволяет извлекать информацию и статистику из вашей учетной записи SendGrid. С помощью пакета контента SendGrid можно визуализировать статистику SendGrid на панели мониторинга.
@@ -56,7 +56,7 @@ ms.locfileid: "34247833"
 * Статистика по электронной почте по устройствам, клиентам, браузерам
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
 [Получение данных](service-get-data.md)
 

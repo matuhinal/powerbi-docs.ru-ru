@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5e12e32d947779f4ebc5bc2d238125c7359c08fe
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7a10429561efed82d9481b2899a997cc89737d55
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242302"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135566"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Подключение к Mandrill с помощью Power BI
 Пакет содержимого для Power BI извлекает данные из вашей учетной записи Mandrill и создает панель мониторинга, набор отчетов и набор данных, которые позволяют анализировать ваши данные. Решения аналитики Mandrill позволяют быстро анализировать кампании рассылки или маркетинговые кампании. Данные обновляются ежедневно, так что вам всегда доступны последние сведения.
@@ -47,7 +47,7 @@ ms.locfileid: "34242302"
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 

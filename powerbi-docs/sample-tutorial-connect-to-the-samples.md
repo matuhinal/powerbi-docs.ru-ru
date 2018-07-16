@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: f6e4be87b86d7a73abf364d1b526c1f6d549934c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471739"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944613"
 ---
 # <a name="the-power-bi-samples"></a>Образцы Power BI
 
@@ -36,29 +36,29 @@ ms.locfileid: "34471739"
 ## <a name="samples-and-power-bi-service"></a>Примеры и служба Power BI
 
 1. Откройте службу Power BI и выполните вход в нее (app.powerbi.com).
-2. Нажмите кнопку **Получить данные** в нижней части левой панели навигации. Если команда **Получить данные** отсутствует, разверните панель навигации, выбрав ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
+2. Нажмите кнопку **Получить данные** в нижней части левой панели навигации. Если команда **Получить данные** отсутствует, разверните панель навигации, выбрав ![значок "гамбургер"](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
+   ![значок получения данных](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
 5. Выберите **Образцы**.  
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
+   ![Кнопка "Образцы"](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
 6. Выберите *Анализ розничной торговли — пример* и нажмите кнопку **Подключить**.   
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
+   ![желтая кнопка подключения](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>Что конкретно импортируется?
 После нажатия кнопки **Подключить** служба Power BI фактически переносит копию пакета содержимого и сохраняет ее в облаке. Пользователь, создавший пакет содержимого, добавил в него набор данных, отчет и информационную панель. Именно это вы и получаете, нажав кнопку **Подключить**. 
 
 1. Power BI создает информационную панель и добавляет ее на вкладку **Информационные панели**. Новая информационная панель отмечается желтой звездочкой.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
+   ![сообщение об успехе](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
 2. Откройте вкладку **Отчеты**.  Здесь вы увидите новый отчет с именем *Анализ розничной торговли — пример*.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
+   ![красная рамка вокруг примера "Анализ розничной торговли" и желтая звездочка](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
    
    Затем перейдите на вкладку **Наборы данных**.  Там также появится новый набор данных.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
+   ![красная рамка вокруг примера "Анализ розничной торговли"](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
 ## <a name="explore-your-new-content"></a>Изучение нового содержимого
 Теперь самостоятельно изучите информационную панель, набор данных и отчет. Существует много различных способов перехода к информационным панелям, отчетам и наборам данных. Один из них описан ниже.  
@@ -70,13 +70,13 @@ ms.locfileid: "34471739"
 
 1. Вернитесь на вкладку **Информационные панели** и выберите информационную панель *Анализ розничной торговли — пример*.    
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
+   ![Выбрана вкладка "Панель мониторинга"](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
 2. После этого откроется информационная панель.  Она состоит из ряда плиток визуализаций.
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
+   ![панель мониторинга с выделенным визуальным элементом](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
 3. Выберите одну из плиток, чтобы открыть соответствующий отчет.  В этом примере мы выбрали диаграмму с областями (на предыдущем рисунке она выделена розовым цветом). После этого на странице, на которой содержится эта диаграмма с областями, откроется отчет.
    
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
+    ![страница отчета с выбранными совпадающими визуальными элементами](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
    > Если плитка была создана с помощью функции [Вопросы и ответы](power-bi-q-and-a.md) Power BI, вместо отчета откроется страница вопросов и ответов. Если плитка [закреплена из Excel](service-dashboard-pin-tile-from-excel.md), Excel Online откроется в службе Power BI.
@@ -84,44 +84,44 @@ ms.locfileid: "34471739"
    > 
 1. Вернитесь на вкладку **Наборы данных**. Набор данных можно изучить несколькими способами.  Вы не сможете открыть его и просмотреть все строки и столбцы (как это можно сделать в Power BI Desktop или Excel).  Когда пользователи предоставляют коллегам общий доступ к пакету содержимого, обычно они хотят поделиться аналитическими сведениями, а не предоставить прямой доступ к данным. Но это не означает, что вы не можете просматривать этот набор данных.  
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
+   ![вкладка "Наборы данных"](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
-   * Один из способов изучения набора данных заключается в создании собственных визуализаций и отчетов с нуля.  Щелкните значок диаграммы ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png), чтобы открыть набор данных в режиме правки отчета.
+   * Один из способов изучения набора данных заключается в создании собственных визуализаций и отчетов с нуля.  Щелкните значок диаграммы ![значок отчета](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) чтобы открыть набор данных в режиме правки отчета.
      
-       ![](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
+       ![новый отчет](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
    * Другой способ заключается в выполнении [быстрого анализа](service-insights.md). Щелкните многоточие (...) и выберите **Получить аналитику**. После сбора информации выберите **Просмотреть аналитику**.
      
-       ![](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
+       ![Отчет по аналитике](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
 ## <a name="samples-and-power-bi-desktop"></a>Примеры и Power BI Desktop 
 При первом открытии PBIX-файл примера отображается в представлении отчетов, в котором можно просматривать, создавать и изменять любое количество страниц отчета с визуализациями. Представление отчетов во многом похоже на режим правки отчета в службе Power BI. Вы можете перемещать визуализации, копировать, вставлять, объединять элементы и т. д.
 
 Разница состоит в том, что при использовании Power BI Desktop вы можете работать с запросами и моделями данных, чтобы извлекать самые полезные сведения для отчетов. Затем вы можете сохранить файл Power BI Desktop где угодно — как на локальном диске, так и в облаке.
 
-1. Откройте [PBIX-файл с примером "Анализ розничной торговли"](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix) в Power BI Desktop. 
+1. Откройте [PBIX-файл с примером "Анализ розничной торговли"](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) в Power BI Desktop. 
 
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
+    ![Пример, открытый в представлении отчетов Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
 1. Файл откроется в представлении отчета. Обратите внимание на 4 вкладки в нижней части редактора отчетов. Это означает, что в этом отчете 4 страницы и что сейчас выбрана страница "Новые магазины". 
 
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+    ![крупный план вкладок в нижней части окна: выделена вкладка "Новые магазины"](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
 3. Подробный обзор редактора отчетов см. в статье [Знакомство с редактором отчетов](service-the-report-editor-take-a-tour.md).
 
 ## <a name="what-exactly-was-imported"></a>Что конкретно импортируется?
 Когда вы открываете PBIX-файл примера в Power BI Desktop, приложение фактически переносит копию данных и сохраняет ее в облаке. В Power BI Desktop вы имеет доступ к отчету ***и базовому набору данных***. При загрузке данных Power BI Desktop автоматически попытается найти и создать связи.  
 
-1. Переключитесь в [представление данных](desktop-data-view.md), выбрав значок таблицы ![](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png).
+1. Переключитесь в [представление данных](desktop-data-view.md), выбрав значок таблицы ![значок таблицы](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png).
  
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
+    ![Представление "Данные" в Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
 
     Представление данных позволяет проверять, изучать и анализировать данные в модели Power BI Desktop. Оно отличается от просмотра таблиц, столбцов и данных в редакторе запросов. В представлении данных вы видите данные уже после их загрузки в модель.
 
     При моделировании данных иногда требуется просмотреть фактическое содержимое столбца или таблицы без создания визуального элемента на холсте отчета и часто это требуется сделать на уровне строк. Это особенно характерно для тех случаев, когда вы создаете меры и вычисляемые столбцы или хотите определить тип данных или категорию данных.
 
-1. Переключитесь в [представление связей](desktop-relationship-view.md), выбрав значок ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
+1. Переключитесь в режим [представления связей](desktop-relationship-view.md), выбрав значок ![значок, который выглядит как три соединенных поля](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
  
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
+    ![представление связей в Power BI Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
 
     В представлении связей показаны все таблицы, столбцы и связи в модели. Здесь вы можете просматривать, изменять и создавать связи.
 

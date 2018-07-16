@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b6ef85549b729b1a91aa4a9a5f4686dcbbabaeb1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471992"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067108"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Примеры данных, доступные для использования в службе Power BI
 Предположим, что вы не знакомы с Power BI и хотите оценить эту службу, но у вас нет данных.  Или, например, у вас есть набор данных, но так как вы не знаете принципов работы Power BI (пока еще), вы боитесь повредить его.
@@ -173,18 +173,18 @@ ObviEnce является независимым поставщиком прог
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Примеры Power BI в виде PBIX-файлов
 Каждый из примеров пакетов содержимого также доступен в виде PBIX-файла. PBIX-файлы предназначены для использования со службой Power BI Desktop.  
 
-1. Скачайте файлы по отдельности, используя ссылки ниже.
+1. Скачайте файлы по отдельности, используя ссылки ниже. При выборе этих ссылок файлы автоматически сохраняются в папку "Загрузки". 
 
-   * [Анализ розничной торговли — пример](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)
-   * [Анализ качества поставщика — пример](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
-   * [Управление персоналом — пример](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)
-   * [Рентабельность клиента — пример](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
-   * [Отслеживание возможных сделок — пример](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)
-   * [Анализ расходов ИТ-отдела — пример](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT-Spend-Analysis-Sample-PBIX.pbix)
-   * [Анализ закупок — пример](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix)
-   * [Продажи и маркетинг — пример](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix)
-2. Сохраните скачанный файл.
-3. В Power BI Desktop щелкните **Файл > Открыть** и перейдите к расположению, куда был сохранен пример PBIX-файла.
+   * [Анализ розничной торговли — пример (PBIX-файл)](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Анализ качества поставщика — пример (PBIX-файл)](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+   * [Управление персоналом — пример (PBIX-файл)](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Рентабельность клиента — пример (PBIX-файл)](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Отслеживание возможных сделок — пример (PBIX-файл)](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [Анализ расходов на ИТ — пример (PBIX-файл)](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Анализ закупок — пример (PBIX-файл)](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Продажи и маркетинг — пример (PBIX-файл)](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+1. В Power BI Desktop щелкните **Файл > Открыть** и перейдите к расположению, куда был сохранен пример PBIX-файла.
 
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. Чтобы открыть этот файл в Power BI Desktop, выберите его.

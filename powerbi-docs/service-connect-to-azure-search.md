@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1d67b100620d4517e657f92acb37e370f2bb540e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09171c02dcbf5af50553c6e82f46f7f81b15a4cc
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480964"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136210"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Подключение к службе "Поиск Azure" с помощью Power BI
 Аналитика трафика службы поиска Azure позволяет отслеживать трафик и получать по нему подробные сведения в службе поиска Azure. Пакет содержимого службы поиска Azure для Power BI предоставляет подробные сведения по данным службы поиска, включая поиск, индексацию, статистику служб и задержки за последние 30 дней. Дополнительные сведения см. в [записи блога Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -56,7 +56,7 @@ ms.locfileid: "34480964"
 Убедитесь, что имя учетной записи хранения правильно указано вместе с полным ключом доступа. Имя учетной записи хранения должно соответствовать учетной записи, настроенной в аналитике трафика службы поиска Azure.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 

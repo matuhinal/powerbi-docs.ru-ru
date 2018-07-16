@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250833"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092168"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Подключение к UserVoice с помощью Power BI
 Отслеживание и исследование данных UserVoice упрощается благодаря Power BI и пакету контента UserVoice. Power BI извлекает данные, включая заявки, предложения и оценки удовлетворенности, а затем создает на основе этих данных готовые панели мониторинга и отчеты.
@@ -35,7 +35,7 @@ ms.locfileid: "34250833"
 3. Выберите **UserVoice**, а затем **Получить**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. В ответ на соответствующий запрос введите URL-адрес UserVoice. URL-адрес должен точно соответствовать шаблону https://fabrikam.uservoice.com, где "fabrikam" нужно заменить названием продукта или услуги.
+4. В ответ на соответствующий запрос введите URL-адрес UserVoice. URL-адрес должен точно соответствовать шаблону `https://fabrikam.uservoice.com`, где "fabrikam" нужно заменить названием продукта или услуги.
    
    >[!NOTE]
    >Обратите внимание, что косая черта в конце отсутствует, а подключение выполняется по протоколу HTTP**s**.
@@ -63,7 +63,7 @@ ms.locfileid: "34250833"
 
 Если данная ошибка возникает после ввода URL-адреса UserVoice, убедитесь, что выполнены следующие требования:
 
-* URL-адрес точно соответствует шаблону "https://fabrikam.uservoice.com", где fabrikam — это корректно указанный префикс вашего URL-адреса UserVoice.
+* URL-адрес точно соответствует шаблону "`https://fabrikam.uservoice.com`", где fabrikam — это корректно указанный префикс вашего URL-адреса UserVoice.
 * Убедитесь, что используются только буквы нижнего регистра.
 * Убедитесь, что для URL-адреса указан протокол HTTP**S**.
 * Убедитесь, что в конце URL-адреса отсутствует завершающая косая черта.

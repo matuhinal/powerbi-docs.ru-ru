@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245612"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599791"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Подключение к Project Madeira с помощью Power BI
 Power BI и пакет содержимого Project Madeira значительно упрощают получение аналитических сведений из данных Project "Madeira". Power BI извлекает данные (по продажам и финансовые), затем создает стандартную панель мониторинга и формирует на основе этих данных отчеты.
@@ -33,7 +33,7 @@ Power BI и пакет содержимого Project Madeira значитель
     ![](media/service-connect-to-project-madeira/services.png)
 3. Выберите **Project "Madeira"**, а затем **Получить**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. В ответ на соответствующий запрос введите URL-адрес Project "Madeira". URL-адрес должен точно соответствовать шаблону https://mycronusus.projectmadeira.com:7048/NAV/OData/Company(('CRONUS%20US') и использовать название вашей организации для Project Madeira. Обратите внимание, что косая черта в конце отсутствует, а подключение выполняется по протоколу HTTPS. Дополнительные сведения о поиске [этого URL-адреса](#FindingParams) см. ниже.  
+4. В ответ на соответствующий запрос введите URL-адрес Project "Madeira". URL-адрес должен точно соответствовать шаблону <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US> и использовать название вашей организации для Project "Madeira". Обратите внимание, что косая черта в конце отсутствует, а подключение выполняется по протоколу HTTPS. Дополнительные сведения о поиске [этого URL-адреса](#FindingParams) см. ниже.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. При появлении запроса выберите основной метод проверки подлинности, введите адрес электронной почты Project "Madeira" в качестве имени пользователя и ключ доступа к веб-службе для учетной записи Project "Madeira" в качестве пароля. Если вы уже выполнил вход в Project "Madeira" в браузере, возможно, учетные данные не будут запрошены. Подробнее о создании этого ключа доступа см. [ниже](#FindingParams).  
@@ -93,10 +93,10 @@ Power BI и пакет содержимого Project Madeira значитель
 
 Если эта ошибка возникает после ввода URL-адреса Project "Madeira", убедитесь, что выполнены следующие требования:  
 
-   - URL-адрес в точности соответствует этому шаблону: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*').  
-   - Удален весь текст после названия организации в скобках.  
-   - Убедитесь, что в конце URL-адреса отсутствует завершающая косая черта.  
-   - URL-адрес использует безопасное подключение (URL-адрес начинается с HTTPS).  
+- URL-адрес в точности соответствует этому шаблону: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>').  
+- Удален весь текст после названия организации в скобках.  
+- Убедитесь, что в конце URL-адреса отсутствует завершающая косая черта.  
+- URL-адрес использует безопасное подключение (URL-адрес начинается с HTTPS).  
 
 **"Сбой при входе"** Если при входе панель мониторинга с использованием учетных данных Project "Madeira" возникает ошибка "Сбой при входе", это может быть вызвано одной из следующих проблем:  
 
@@ -104,16 +104,16 @@ Power BI и пакет содержимого Project Madeira значитель
    - У экземпляра Project "Madeira", к которому вы пытаетесь подключиться, нет действительного SSL-сертификата. В этом случае вы увидите более подробное сообщение об ошибке (о том, что не удается установить отношение доверия SSL). Обратите внимание на то, что самозаверяющие сертификаты не поддерживаются.  
 
 **"Ошибка"** Если при переходе с диалогового окна проверки подлинности отображается диалоговое окно "Ошибка", чаще всего, это вызвано проблемой с подключением к данным для пакета содержимого. Убедитесь, что URL-адрес соответствует приведенному выше шаблону:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 Распространенная ошибка заключается в том, чтобы указать полный URL-адрес для конкретной веб-службы:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 Возможно, вы также забыли указать название организации:   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 

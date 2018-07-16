@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297729"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135451"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
 Можно создать и использовать универсальный код ресурса (URI), ведущий к определенному расположению (*прямая ссылка*) в мобильных приложениях Power BI на всех мобильных платформах: iOS, Windows 10 и устройствах Android.
@@ -103,5 +103,5 @@ https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&co
 * [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](http://community.powerbi.com/).
-* [Приступая к работе с Power BI](service-get-started.md)
+* [Что такое Power BI?](power-bi-overview.md)
 

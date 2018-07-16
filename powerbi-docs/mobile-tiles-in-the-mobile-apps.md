@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297660"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598648"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Область применения:
@@ -40,7 +40,7 @@ ms.locfileid: "34297660"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Например, на этом графике выбранные значения соответствуют показателям **продаж за текущий** и **прошлый годы** в **августе**.*  
+   <em>Например, на этом графике выбранные значения соответствуют показателям **продаж за текущий</em>* и **прошлый годы** в **августе**.*  
    
    Коснитесь сегмента круговой диаграммы, чтобы отобразить его значения над диаграммой.  
    
@@ -107,7 +107,7 @@ ms.locfileid: "34297660"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *На этой линейчатой диаграмме значения столбца **Decor** (Декор) показаны над диаграммой.*
+   <em>На этой линейчатой диаграмме значения столбца **Decor</em>* (Декор) показаны над диаграммой.*
    
    Коснитесь значка **Во весь экран** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png), чтобы открыть плитку в полноэкранном режиме без панели навигации и меню.
    
@@ -126,6 +126,6 @@ ms.locfileid: "34297660"
 4. Коснитесь черной стрелки или черной кнопки, чтобы закрыть плитку и вернуться на панель мониторинга.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Приступая к работе с Power BI](service-get-started.md)
+* [Что такое Power BI?](power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

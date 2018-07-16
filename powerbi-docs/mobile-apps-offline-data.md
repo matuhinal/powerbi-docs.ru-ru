@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292853"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136486"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Просмотр данных в автономном режиме в мобильных приложениях Power BI
 Область применения:
@@ -55,7 +55,8 @@ ms.locfileid: "34292853"
 * Power BI хранит в автономном кэше до 250 МБ данных.
 * Для работы с плитками определенных видов (например, картами Bing и некоторыми пользовательскими плитками) необходимо активное соединение с сервером, поэтому в автономном режиме они недоступны.
 * В автономном режиме Power BI недоступны целые книги Excel.
-* Мобильные отчеты и ключевые показатели эффективности Reporting Services можно просматривать в автономном режиме, если вы уже просматривали их с подключением к сети. Они не обновляются в фоновом режиме. Обновление происходит каждый раз при открытии. 
+* Мобильные отчеты и ключевые показатели эффективности Reporting Services можно просматривать в автономном режиме, если вы уже просматривали их с подключением к сети. Они не обновляются в фоновом режиме. Обновление происходит каждый раз при открытии.
+* В мобильных приложениях Power BI вы не можете просматривать файлы Power BI Desktop (PBIX), сохраненные на сервере отчетов Power BI. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за функции, которые хотели бы увидеть в мобильных приложениях Power BI. 
@@ -63,5 +64,5 @@ ms.locfileid: "34292853"
 * [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](http://community.powerbi.com/).
-* [Приступая к работе с Power BI](service-get-started.md)
+* [Что такое Power BI?](power-bi-overview.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722458"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136785"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Подключение к Salesforce с помощью Power BI
 С помощью Power BI вы легко можете подключаться к учетной записи Salesforce.com. После создания этого подключения извлекаются ваши данные, на основе которых автоматически создается панель мониторинга и связанные отчеты.
@@ -82,7 +82,7 @@ ms.locfileid: "34722458"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
 [Получение данных](service-get-data.md)
 

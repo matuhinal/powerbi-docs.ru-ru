@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34471900"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945211"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Моделирование языка и лингвистическая схема 
 Эффективный обработчик позволяет задавать вопросы о данных с помощью обычных фраз и естественного языка. Еще больше впечатляет, когда от данных поступает ответ. Именно эту возможность предоставляет функция "Вопросы и ответы" в Power BI. Когда вы задаете вопрос функции "Вопросы и ответы" в Power BI, она пытается дать максимально правильный ответ. 
@@ -340,7 +340,7 @@ Binding: {Table: Customers}
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 Если в файл .lsdl.yaml внесены изменения, не соответствующие формату лингвистической схемы, выявленные в результате проверки проблемы будут подчеркнуты волнистой линией: 
 
-    ![yaml file showing errors](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
+![yaml-файл с ошибками](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

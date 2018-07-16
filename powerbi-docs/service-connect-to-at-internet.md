@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242220"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136371"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Подключение к AT Internet Bridge с помощью Power BI
 AT Internet помогает извлекать пользу из данных с помощью унифицированной платформы цифровой аналитики — Analytics Suite. Пакет содержимого AT Internet Bridge для Power BI содержит данные, связанные с посещениями, источниками, локализацией и устройствами для вашего сайта.
@@ -59,7 +59,7 @@ AT Internet помогает извлекать пользу из данных �
     - "Глобальные посещения".  
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 

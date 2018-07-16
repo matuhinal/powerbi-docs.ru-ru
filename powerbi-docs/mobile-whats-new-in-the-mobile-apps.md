@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799632"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864406"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -22,6 +22,16 @@ ms.locfileid: "34799632"
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](desktop-latest-update.md)  
 * [Новые возможности службы Power BI](service-whats-new.md)  
+
+## <a name="june-2018"></a>Июнь 2018
+
+### <a name="full-canvas-reports"></a>Отчеты с холстом в полноэкранном режиме
+
+Верхняя и нижняя панели действий теперь исчезают вскоре после загрузки отчета, поэтому вы можете увидеть больше данных в отчете.
+
+### <a name="increased-phone-report-canvas-size"></a>Расширенный размер холста отчетов для телефонов
+
+Мы увеличили размер холста отчетов для телефонов, на котором теперь достаточно места для большего числа визуальных элементов.
 
 ## <a name="may-2018"></a>Май 2018
 

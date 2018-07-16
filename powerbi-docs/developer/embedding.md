@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561754"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944107"
 ---
 # <a name="embedding-with-power-bi"></a>Внедрение в Power BI
 Power BI предоставляет интерфейсы API для внедрения панелей мониторинга и отчетов в приложения. Интерфейсы API Power BI предоставляют сопоставимые возможности и уровень доступа к последним функциям Power BI (включая панели мониторинга, шлюзы и рабочие области приложений) для внедрения содержимого.
@@ -29,7 +29,7 @@ Power BI предоставляет интерфейсы API для внедре
 ## <a name="embedding-for-your-organization"></a>Внедрение для организации
 Внедрение для организации позволяет расширить возможности службы Power BI. Чтобы пользователи вашего приложения могли просмотреть свое содержимое, им нужно войти в службу Power BI. Когда сотрудник организации войдет в приложение, он получит доступ только к своим панелям мониторинга и отчетам или предоставленным ему в службе Power BI. 
 
-*Примеры внедрения для организации включают интеграцию внутреннего веб-приложения, веб-части SharePoint Online и Microsoft Teams.*
+*Примеры внедрения для организации включают интеграцию внутреннего веб-приложения, веб-части SharePoint Online и [Microsoft Teams (у вас должны быть права администратора)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 Сведения о внедрении для организации см. в следующих статьях:
 

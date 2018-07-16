@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813602"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600365"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
@@ -39,7 +39,7 @@ ms.locfileid: "34813602"
 Чтобы отправить пользовательский визуальный элемент для сертификации, сделайте следующее.
 
 1. Отправьте сообщение электронной почты в службу поддержки пользовательских визуальных элементов Power BI (pbicvsupport@microsoft.com). В сообщение электронной почты включите следующие сведения.    
-   
+
    * Заголовок: запрос сертификации визуального элемента    
    * Ссылка на репозиторий GitHub, где размещается исходный код визуального элемента.    
    * Подтверждение соблюдения требований (см. выше).    
@@ -51,6 +51,7 @@ ms.locfileid: "34813602"
 Корпорация Майкрософт по своему усмотрению может удалять визуальные элементы из списка сертифицированных.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Список пользовательских визуальных элементов, которые прошли сертификацию
+
 | Ссылка на AppSource | Ссылка на видео |
 | --- | --- |
 | [Круговая диаграмма с индивидуальным радиусом срезов](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ ms.locfileid: "34813602"
 | [Конструктор инфографики](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [Диаграмма с ключевыми показателями эффективности от Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [Столбец КПЭ от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Видео](https://youtu.be/rU0xoOlIq1U) |
+| [Сетка ключевых показателей эффективности от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [Видео](https://youtu.be/dM4PvZh71V0) |
 | [Индикатор ключевого показателя эффективности](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [Область КПЭ от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Видео](https://youtu.be/cudG4gsZ2V8) |
 | [Линейный датчик от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Видео](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ ms.locfileid: "34813602"
 | [Фильтрация текста](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Текстовая оболочка от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [Видео](https://youtu.be/SPX9mgrAdBc) |
+| [Срез Time Brush](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [Срез временной шкалы](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Видео](https://youtu.be/ozMtZ4_NZ10) |
+| [Временная шкала от CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [Видео](https://youtu.be/szNi9YgXFJc) |
 | [Диаграмма-торнадо](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Видео](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Диаграмма продаж от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Видео](https://youtu.be/xhTR6y6J9Ko) |
 | [Диаграмма отклонений Ultimate](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Видео](https://youtu.be/pDYF8iZxERs) |

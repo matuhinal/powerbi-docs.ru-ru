@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252469"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135267"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Подключение к Marketo с помощью Power BI
 Пакет содержимого Power BI для Marketo позволяет получить подробные сведения об учетной записи Marketo с данными о потенциальных клиентах и их действиях. При создании этого подключения вы извлечете данные и автоматически получите панель мониторинга и связанные отчеты на основе этих данных.
@@ -86,7 +86,7 @@ ms.locfileid: "34252469"
 | **Всего вызовов API** | |**2200** |
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
 [Получение данных для Power BI](service-get-data.md)
 

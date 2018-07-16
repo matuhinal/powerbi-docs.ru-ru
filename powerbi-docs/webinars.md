@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299293"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137656"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,25 +22,9 @@ ms.locfileid: "34299293"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
+Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
 
-**Визуализируйте аналитические сведения с помощью Power BI и Visio**
-<br>(Шакун Гровер ( Shakun Grover))
-<br>*22 мая 2018, 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
-
-Примите участие в этом вебинаре, чтобы узнать, как объединять панели мониторинга Power BI и схемы Microsoft Visio для визуализации аналитических сведений. Visio и Power BI являются удобными средствами, которые естественным образом дополняют друг друга. Visio позволяет создавать наглядные схемы, например взаимосвязанных рабочих процессов и реальных макетов. Power BI позволяет создавать интуитивно понятные панели мониторинга с помощью диаграмм и карт для измерения ключевых показателей эффективности и отслеживания целей.
-
-[Зарегистрироваться для просмотра 22 мая](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**Дополнительные сведения о Power BI Embedded за 20 минут**
-<br>Авторы: Меган Ассарейн (Megan Asarrane) и Колин Мерфи (Colin Murphy)
-<br>*23 марта 2018, 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
-
-Этот вебинар содержит вводные сведения о Power BI Embedded. Пройдя его, пользователи смогут понять, что собой представляет Power BI Embedded, какие дальнейшие действия предпринять для начала работы с продуктом и где найти справку и вспомогательные ресурсы.
-
-[Зарегистрироваться для просмотра 23 мая](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Посетите предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Посетите предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Популярные вебинары
 
@@ -78,15 +62,27 @@ ms.locfileid: "34299293"
 <br>Автор: Чарльз Стерлинг (Charles Sterling)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**Дополнительные сведения о Power BI Embedded за 20 минут**
+<br>Авторы: Меган Ассарейн (Megan Asarrane) и Колин Мерфи (Colin Murphy)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **Выходя за возможности электронных таблиц**
 <br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**Визуализируйте аналитические сведения с помощью Power BI и Visio**
+<br>(Шакун Гровер ( Shakun Grover))
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Transforming A Report From Good to GREAT!** (Преобразование отчета из хорошего в отличный!)
 <br>Автор: Райд Хейвенс (Reid Havens)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Партнеры ###
+
+**Повышение эффективности бизнес-аналитики с помощью аналитики расположений**
+<br>Scott Ball (Скотт Болл) и Enrique Plaza (Энрике Плаза), корпорация Майкрософт
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **Improving Profitability in Healthcare** (Повышение рентабельности в здравоохранении)
 <br>Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT
@@ -172,7 +168,7 @@ ms.locfileid: "34299293"
 
 - [Сеансы Microsoft Data Insights Summit 2017 по требованию](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Приступая к работе с Power BI](service-get-started.md)
+- [Что такое Power BI?](power-bi-overview.md)
 
 - Подпишитесь на страницу [@MSPowerBI в Twitter](https://twitter.com/mspowerbi)
 

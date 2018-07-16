@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254862"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092352"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -135,7 +135,8 @@ ms.locfileid: "34254862"
 5. В настоящее время в отчетах для функции "Опубликовать в Интернете" не поддерживаются визуальные элементы R.
 6. Экспорт данных из визуальных элементов в отчете, опубликованном в Интернете
 7. Визуальные элементы ArcGIS Maps for Power BI (предварительная версия)
-8. [Конфиденциальная или частная информация](#publish-to-web-from-power-bi)
+8. Отчеты, содержащие меры уровня отчета DAX
+9. [Конфиденциальная или частная информация](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Настройка клиента
 

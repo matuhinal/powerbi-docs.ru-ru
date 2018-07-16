@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2250e3739904e6cc1e36c03df45cc765d3d9b591
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243031"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135244"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Подключение к Webtrends с помощью Power BI
 Пакет контента Webtrends для Power BI включает множество готовых метрик, в том числе общее число просмотров страницы и посещений по источнику трафика. Визуализация ваших данных Webtrends в Power BI начинается с подключения к вашей учетной записи Webtrends. Используйте стандартные панели мониторинга и отчеты или настройте их так, чтобы выделить информацию, которая наиболее важна для вас.  Данные автоматически обновляются раз в день.
@@ -101,7 +101,7 @@ ms.locfileid: "34243031"
 2. Пользователь имеет доступ к отчетам, перечисленным в разделе ["Содержимое"](#Included).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 

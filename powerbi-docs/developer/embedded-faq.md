@@ -3,18 +3,18 @@ title: Часто задаваемые вопросы о Power BI Embedded
 description: Просмотрите список часто задаваемых вопросов о Power BI Embedded и ознакомьтесь с ответами.
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812751"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599957"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -76,7 +76,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Купить     |Портал Azure |Office |Office |
-|Варианты использования |* Внедрение содержимого в разработанное приложение |* Внедрение содержимого в разработанное приложение<br>* Предоставление общего доступа к содержимому пользователям Power BI (бесплатная версия) за пределами PowerBI.com и внедрение содержимого в другие приложения SaaS (SharePoint, Teams) |* Внедрение содержимого в разработанное приложение<br>* Предоставление общего доступа к содержимому пользователям Power BI (бесплатная версия) за пределами PowerBI.com и внедрение содержимого в другие приложения SaaS (SharePoint, Teams)<br>* Предоставление общего доступа к содержимому пользователям Power BI (бесплатная версия) через PowerBI.com  |
+|Варианты использования |* Внедрение содержимого в разработанное приложение |* Внедрение содержимого в разработанное приложение<br>* Предоставление общего доступа к содержимому пользователям Power BI (бесплатная версия) за пределами PowerBI.com и внедрение содержимого в другие приложения SaaS (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* Внедрение содержимого в разработанное приложение<br>* Предоставление общего доступа к содержимому пользователям Power BI (бесплатная версия) за пределами PowerBI.com и внедрение содержимого в другие приложения SaaS (SharePoint, Teams)<br>* Предоставление общего доступа к содержимому пользователям Power BI (бесплатная версия) через PowerBI.com  |
 |Выставление счетов |Каждый час |Ежемесячно |Ежемесячно |
 |Обязательство  |Никаких обязательств |Ежегодно  |Ежемесячно или ежегодно |
 |Отличия |Полная гибкость — масштабируемость, приостановление и возобновление использования ресурсов на портале Azure или с помощью API  |Можно использовать для внедрения содержимого в SharePoint Online и Microsoft Teams |Объединение возможности внедрения в приложение и использования службы Power BI в одной емкости |
@@ -95,6 +95,58 @@ Power BI Embedded — это набор интерфейсов API, позвол
 
 Автоматическое масштабирование сейчас не поддерживается, но все интерфейсы API доступны для масштабирования.
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Почему создание, масштабирование и возобновление емкости приводит к переводу емкости в приостановленное состояние?
+
+Подготовка емкости (при масштабировании, возобновлении, создании) может завершиться сбоем. Вызывающий объект вызова подготовки должен проверять состояние подготовки емкости с помощью API получения сведений: [Емкость -> Получить сведения](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Почему можно создать PBIE только в определенном регионе?
+
+Емкости PBIE можно создавать только для региона вашего клиента PBI.
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Как узнать свой регион клиента PBI?
+
+Чтобы узнать регион клиента PBI, можно использовать портал PBI.
+
+https://app.powerbi.com/ > ? > О Power BI
+
+![О Power BI](media/embedded-faq/about-01.png)
+![Регион клиента](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Какие действия поддерживаются для канала взаимодействующих последовательных процессов (CSP)?
+
+* Вы можете создать PBIE для вашего клиента с типом подписки CSP.
+* Пользователь с партнерской учетной записью может войти в клиент заказчика и приобрести PBIE для этого клиента, указав пользователя клиента заказчика в качестве администратора емкости Power BI.
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>Почему я получаю сообщение о неподдерживаемой учетной записи?
+
+Регистрация в Power BI подразумевает использование корпоративной учетной записи. Регистрация в Power BI с помощью учетной записи Майкрософт не поддерживается.
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Можно ли использовать API для создания емкостей Azure и управления ими?
+
+Да, существуют командлеты PowerShell и API-интерфейсы ARM, которые можно использовать для создания ресурсов PBIE и управления ими.
+
+* REST API — https://docs.microsoft.com/rest/api/power-bi-embedded/
+* Командлеты PowerShell — https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Что такое роль выделенной емкости PBI Embedded в решении PBI Embedded?
+
+Чтобы [перенести решение в рабочую среду](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), необходимо, чтобы содержимое Power BI (рабочая область приложения, которую вы используете в приложении) было назначено выделенной емкости.
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>В каких регионах Azure доступен компонент PBI Embedded?
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) — см. раздел "Менеджер по наличию продуктов"
+
+Доступные регионы (16 — те же регионы, что и для Power BI)
+* США (6) — восточная часть США, восточная часть США 2, центрально-северная часть США, центрально-южная часть США, западная часть США, западная часть США 2
+* Европа (2) — северная Европа, западная Европа
+* Азиатско-Тихоокеанский регион (2) — юго-восточная Азия, восточная Азия
+* Бразилия (1) — южная часть Бразилии
+* Япония (1) — восточная Япония
+* Австралия (1) — юго-восточная часть Австралии
+* Индия (1) — западная Индия
+* Канада (1) — центральная Канада
+* Великобритания (1) — южная часть Соединенного Королевства
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Какая модель аутентификации используется в Power BI Embedded?
 
 В Power BI Embedded будет по-прежнему использоваться Azure AD для аутентификации главного пользователя (назначенный пользователь с лицензией Power BI Pro) при проверке подлинности приложения в Power BI.
@@ -104,6 +156,17 @@ Power BI Embedded — это набор интерфейсов API, позвол
 Если у вас уже есть клиент Azure AD, вы можете использовать существующий каталог или создать новый клиент Azure AD, чтобы обеспечить безопасность содержимого приложения.
 
 Чтобы получить токен Azure AD, можно использовать одну из библиотек проверки подлинности Azure Active Directory — https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Клиентские библиотеки доступны для различных платформ.
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Мое приложение уже использует AAD для проверки подлинности пользователей. Как можно использовать это удостоверение при проверке подлинности в Power BI в сценарии "Данные, принадлежащие пользователю"? 
+
+Это стандартный поток OAuth "от имени" (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). Для приложения необходимо настроить требование разрешений в службе PowerBI (с обязательными областями). Получив маркер пользователя в приложении, можно просто вызвать AcquireTokenAsync API ADAL, используя маркер доступа пользователя и указав URL-адрес ресурса PowerBI в качестве идентификатора ресурса. Фрагмент кода, показывающий, как это можно сделать, см. ниже:
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Чем Power BI Embedded отличается от других служб Azure?
 
@@ -181,8 +244,8 @@ Power BI Embedded — это набор интерфейсов API, позвол
 
 3. Когда вы будете готовы перейти в рабочую среду, приобретите выделенную емкость **Power BI Embedded** и назначьте ей определенное содержимое (рабочую область) Power BI.
 
->[!Note]
-Вы можете продолжать работу с **коллекцией рабочих областей Power BI** параллельно с созданием решения **Power BI Embedded**. Когда вы будете полностью готовы, перенесите данные клиента в новое решение **Power BI Embedded** и прекратите использовать решение **Коллекция рабочих областей Power BI**.
+> [!Note]
+> Вы можете продолжать работу с **коллекцией рабочих областей Power BI** параллельно с созданием решения **Power BI Embedded**. Когда вы будете полностью готовы, перенесите данные клиента в новое решение **Power BI Embedded** и прекратите использовать решение **Коллекция рабочих областей Power BI**.
 
 Дополнительные сведения см. в статье [о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded).
 

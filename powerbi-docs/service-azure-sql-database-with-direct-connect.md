@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242256"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135911"
 ---
 # <a name="azure-sql-database-with-directquery"></a>База данных SQL Azure с DirectQuery
 Узнайте, как можно подключиться непосредственно к базе данных SQL Azure и создавать отчеты, в которых используются реальные данные. Можно хранить данные в источнике, а не в Power BI.
@@ -31,7 +31,11 @@ ms.locfileid: "34242256"
 * Функция вопросов и ответов для наборов данных DirectQuery недоступна.
 * Изменения схемы не извлекаются автоматически.
 
-Эти ограничения и примечания могут быть изменены по мере улучшения службы. Ниже описаны инструкции по подключению. 
+Эти ограничения и примечания могут быть изменены по мере улучшения службы. Ниже описаны инструкции по подключению.
+
+> [!Important]
+> Мы улучшили параметры подключения к базе данных SQL Azure.  Для наиболее эффективного подключения к источнику данных базы данных SQL Azure используйте Power BI Desktop.  После создания модели и отчета их можно опубликовать в службе Power BI.  Прямое подключение к базе данных SQL Azure в службе Power BI теперь признано нерекомендуемым.
+>
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop и DirectQuery
 Чтобы подключиться к базе данных SQL Azure с помощью DirectQuery, необходимо использовать Power BI Desktop. Такой подход обеспечивает дополнительные возможности и гибкость работы. Отчеты, созданные с помощью Power BI Desktop, затем можно опубликовать в службе Power BI. См. дополнительные сведения о подключении к [базе данных SQL Azure с помощью DirectQuery](desktop-use-directquery.md) в Power BI Desktop. 
@@ -57,6 +61,6 @@ ms.locfileid: "34242256"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Использование DirectQuery в Power BI Desktop](desktop-use-directquery.md)  
-[Приступая к работе с Power BI](service-get-started.md)  
+[Что такое Power BI?](power-bi-overview.md)  
 [Получение данных для Power BI](service-get-data.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

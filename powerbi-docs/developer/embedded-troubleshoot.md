@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813165"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926566"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -96,6 +96,44 @@ public static string GetExceptionText(this HttpOperationException exc)
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>Проверка подлинности
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Сбой проверки подлинности с ошибкой AADSTS70002 или AADSTS50053
+
+**(AADSTS70002: ошибка при проверке учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)**
+
+Если вы работаете с Power BI Embedded, используете прямую проверку подлинности Azure AD Direct и при входе получаете такие сообщения, как ***error:unauthorized_client,error_description:AADSTS70002: ошибка при проверке учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, это происходит из-за отключения функции прямой проверки подлинности 14.06.2018.
+
+Мы рекомендуем использовать поддержку [условного доступа Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) для запрета устаревших механизмов проверки подлинности или [сквозную проверку подлинности Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
+
+Тем не менее есть возможность снова включить эту функцию с помощью [политики Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которую можно привязать к организации или [субъекту-службе](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+
+**_Эту функцию рекомендуется включать только для отдельных приложений и только при необходимости в качестве обходного решения._**
+
+Чтобы создать эту политику, вы должны быть **глобальным администратором** для каталога, в котором создается и назначается политика. Ниже приведен пример сценария для создания политики и ее назначения пакету обновления для этого приложения:
+
+1. Установите [модуль PowerShell предварительной версии Azure AD](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+
+2. Выполните следующие команды PowerShell, строку за строкой (убедившись, что переменная $sp не имеет более одного приложения в качестве результата).
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+Назначив политику, подождите около 15–20 секунд для распространения перед тестированием.
+
 **Сбой GenerateToken при предоставлении действующего удостоверения**
 
 Сбой GenerateToken с предоставленным действующим удостоверением может произойти по нескольким причинам:
@@ -113,6 +151,30 @@ public static string GetExceptionText(this HttpOperationException exc)
 * Если IsEffectiveIdentityRolesRequired имеет значение true, нужно указать роль.
 * DatasetId является обязательным для любого свойства EffectiveIdentity.
 * У пользователя Analysis Services должны быть права администратора шлюза.
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: предоставление требует разрешения администратора
+
+**_Признаки:_**</br>
+Если пользователь без прав администратора пытается первый раз войти в приложение и дать согласие, выводится следующая ошибка:
+* ConsentTest необходимо разрешение на доступ к ресурсам в вашей организации, которое может предоставить только администратор. Попросите администратора предоставить разрешение этому приложению, прежде чем его использовать.
+* AADSTS90094: предоставление требует разрешения администратора.
+
+    ![Проверка согласия](media/embedded-troubleshoot/consent-test-01.png)
+
+Пользователь с правами администратора может войти в систему и успешно предоставить разрешение.
+
+**_Основная причина:_**</br>
+Согласие пользователя отключено для клиента.
+
+**_Возможно несколько вариантов исправления:_**
+
+*Включение согласия пользователя для всего клиента (все пользователи, все приложения)*
+1. На портале Azure выберите Azure Active Directory => "Пользователи и группы" => "Параметры пользователя".
+2. Включите параметр "Пользователи могут разрешать приложениям доступ к корпоративным данным от своего имени", а затем сохраните изменения.
+
+    ![Исправление проверки согласия](media/embedded-troubleshoot/consent-test-02.png)
+
+*Предоставление разрешений администратором* Предоставьте разрешения для приложения от имени администратора — для всего клиента или для конкретного пользователя.
 
 ## <a name="data-sources"></a>Источники данных
 
@@ -175,7 +237,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-Причина в том, что URL-адрес перенаправления, указанный для приложения веб-сервера, отличается от URL-адреса образца. Чтобы зарегистрировать образец приложения, используйте *http://localhost:13526/* в качестве URL-адреса перенаправления.
+Причина в том, что URL-адрес перенаправления, указанный для приложения веб-сервера, отличается от URL-адреса образца. Чтобы зарегистрировать образец приложения, используйте `http://localhost:13526/` в качестве URL-адреса перенаправления.
 
 Если необходимо изменить зарегистрированное приложение, узнайте, как изменить [зарегистрированное в Azure AD приложение](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), чтобы оно могло предоставлять доступ к веб-интерфейсам API.
 

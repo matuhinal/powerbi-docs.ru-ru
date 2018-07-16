@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689721"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137645"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Оповещения о данных в службе Power BI
 Вы можете настроить оповещения, уведомляющие вас о том, что данные в панелях мониторинга выходят за пределы заданного порога. 
@@ -104,6 +104,6 @@ ms.locfileid: "34689721"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Microsoft Flow и Power BI](service-flow-integration.md)    
 [Настройка оповещений о данных в мобильных приложениях Power BI](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Приступая к работе с Power BI](service-get-started.md)    
+[Что такое Power BI?](power-bi-overview.md)    
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

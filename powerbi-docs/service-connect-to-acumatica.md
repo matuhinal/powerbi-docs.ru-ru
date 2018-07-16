@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243852"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092651"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Подключение к Acumatica с помощью Power BI
 Пакет содержимого Acumatica для Power BI позволяет быстро анализировать данные возможностей. Power BI извлекает данные, включая возможности, учетные записи и клиентов, затем создает стандартную панель мониторинга и связанные отчеты, основанные на этих данных.
@@ -66,7 +66,7 @@ ms.locfileid: "34243852"
 
     https://[sitedomain]/odata/[companyname]
 
-Если вы выполнили вход в систему Acumatica, домен сайта приложения можно найти в адресной строке браузера. В примере ниже домен сайта — "https://pbi.acumatica.com", поэтому следует предоставить конечную точку OData "https://pbi.acumatica.com/odata".
+Если вы выполнили вход в систему Acumatica, домен сайта приложения можно найти в адресной строке браузера. В примере ниже домен сайта — `https://pbi.acumatica.com`, поэтому следует предоставить конечную точку OData `https://pbi.acumatica.com/odata`.
 
  ![](media/service-connect-to-acumatica/url.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0cc0125f35dc90a03eeaeed0d5e69c0a5c3115ae
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241166"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136003"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Подключение к Circuit ID с помощью Power BI
 Анализ данных взаимодействия из Circuit ID упрощается благодаря Power BI. Power BI извлекает данные, а затем создает панель мониторинга по умолчанию и связанные отчеты на основе этих данных. После подключения вы можете исследовать данные и настраивать панель мониторинга в соответствии с вашими потребностями. Данные автоматически обновляются каждый день.
@@ -47,7 +47,7 @@ ms.locfileid: "34241166"
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
 [Получение данных для Power BI](service-get-data.md)
 

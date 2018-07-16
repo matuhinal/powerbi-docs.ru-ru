@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c0090cb81ebaebc6b4cec70163374be4f1f37980
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456118"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135819"
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Служба Power BI для Office 365 снята с учета
 Power BI для Office 365 (предыдущая версия Power BI) заменена на текущую версию службы [Power BI](https://powerbi.microsoft.com). Пользователи, использовавшие **Power BI для Office 365**, могут пользоваться текущей версией Power BI. [Дополнительные сведения о Power BI](service-get-started.md).
@@ -28,8 +28,8 @@ Power BI для Office 365 (предыдущая версия Power BI) зам
 Дополнительные сведения см. в разделе [Портал администрирования Power BI](service-admin-portal.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Начало работы с Power BI Desktop](desktop-getting-started.md)
+[Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 
 [Администрирование Power BI в организации](service-admin-administering-power-bi-in-your-organization.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243898"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136578"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Пакет содержимого аудита базы данных SQL для Power BI
 Пакет содержимого [аудита базы данных SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) Azure для Power BI помогает поддерживать соответствие нормативным требованиям, лучше понимать происходящее в базах данных, а также выявлять расхождения и аномалии, которые могут указывать на проблемы в бизнесе или потенциальные нарушения безопасности. 
@@ -68,5 +68,5 @@ ms.locfileid: "34243898"
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Data sources for the Power BI service](service-get-data.md) (Источники данных для службы PowerBI)
-[Приступая к работе с Power BI](service-get-started.md)
+[Получение данных для Power BI](service-get-data.md)
+[Что такое Power BI?](power-bi-overview.md)

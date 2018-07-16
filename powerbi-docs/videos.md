@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471808"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136256"
 ---
 # <a name="power-bi-videos"></a>Видео о службе Power BI
 У нас есть канал YouTube для Power BI! Вы можете посетить [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видеороликов, посвященных анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -46,7 +46,7 @@ ms.locfileid: "34471808"
 * [Канал Guy in a Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) — новые видео о функциях и возможностях Power BI.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

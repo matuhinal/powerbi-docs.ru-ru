@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301856"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137475"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -31,11 +31,19 @@ ms.locfileid: "35301856"
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>Апрель 2018 г.
+## <a name="may-2018"></a>Май 2018
+* [Панели мониторинга темы](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) в службе Power BI.
+* [Добавочное обновление](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) с уровнем Premium.
+* Рабочий процесс запроса доступа для [приложений Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+* Получение обновлений данных, которые упрощают для пользователей поиск [приложений Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+* Параметры для включения и отключения [сохраняемых фильтров](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) в службе Power BI.
+* Рабочий процесс создания приглашения Azure B2B для отчетов.
+
+## <a name="previous-months-2018"></a>Предыдущие месяцы (2018 г.)
+### <a name="april-2018"></a>Апрель 2018 г.
 * [Технический документ по соблюдению Общего регламента по защите данных в Power BI](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * [Журналы аудита](https://docs.microsoft.com/power-bi/service-admin-auditing) службы Power BI включены по умолчанию для клиента Office 365.
 
-## <a name="previous-months-2018"></a>Предыдущие месяцы (2018 г.)
 ### <a name="march-2018"></a>Март 2018 г.
 * [Сохраняемые фильтры](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) в службе Power BI.
 * Предоставление пользователям общего доступа к содержимому с помощью их личных учетных записей электронной почты. Интеграция с [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
@@ -63,7 +71,7 @@ ms.locfileid: "35301856"
 * повышение точности административного контроля для [публикации в Интернете](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
 
 ## <a name="september-2017"></a>Сентябрь 2017 г.
-* Предоставление общего доступа к панелям мониторинга для пользователей бесплатной службы категории "Премиум".
+* В емкости Premium можно предоставлять общий доступ к панелям мониторинга для пользователей, у которых нет лицензии Power BI Pro.
 * Выделение емкости в соответствии с бизнес-требованиями при помощи пулов виртуальных ядер.
 * Мгновенное увеличение или уменьшение масштаба одним щелчком мыши.
 * [Блокирование PubNub](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) для простой отправки данных в интерфейсы API REST.
@@ -222,7 +230,7 @@ ms.locfileid: "35301856"
 
 ***Анализ в Excel***
 
-* [Анализ в Excel](service-analyze-in-excel.md) доступен для всех пользователей: возможность получения доступа к моделям данных Power BI в Excel была расширена для всех пользователей (бесплатная версия и версия Pro).
+* [Анализ в Excel](service-analyze-in-excel.md) доступен для всех пользователей: возможность получения доступа к моделям данных Power BI в Excel была расширена для всех пользователей, независимо от типа назначенной лицензии.
 * Улучшена среда работы пользователей с несколькими учетными записями. Стало проще выполнять вход при наличии нескольких учетных записей пользователя Power BI.
 
 Подробности см. в [блоге рабочей группы Power BI](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/).
@@ -567,7 +575,7 @@ ms.locfileid: "35301856"
 
 **24 июля 2015 г.**
 
-* Мы рады сообщить о выпуске коммерческой версии Power BI. Вы можете продолжать использовать бесплатную версию Power BI или зарегистрироваться для работы с [Power BI Pro](service-self-service-signup-for-power-bi.md). В рамках коммерческого выпуска предлагаются новые функции.
+* Мы рады сообщить о выпуске коммерческой версии Power BI. Зарегистрируйтесь для получения [Power BI Pro](service-self-service-signup-for-power-bi.md). В рамках коммерческого выпуска предлагаются новые функции.
 * Новая среда создания визуализаций и отчетов: новый холст отчета включает расширенный набор визуализаций, дополнительный контроль над форматированием заголовков, условных обозначений, осей, цветов, фона и пр.
 * [Группы Power BI](service-create-distribute-apps.md): группы обеспечивают широкие возможности для совместной работы, основанные на группах Office 365.
 * [Пакеты содержимого организации](service-organizational-content-pack-introduction.md): Power BI значительно упрощает создание панелей мониторинга и отчетов, и пользователи теперь могут публиковать это содержимое в коллекции содержимого организации.
@@ -661,7 +669,7 @@ ms.locfileid: "35301856"
 * Повышена надежность обновления из OneDrive.  Разрешены некоторые ситуации, когда книги не обновлялись из OneDrive.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)  
+[Что такое Power BI?](power-bi-overview.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

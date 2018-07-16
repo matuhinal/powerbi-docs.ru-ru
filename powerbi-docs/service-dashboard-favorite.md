@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7fe40fa3ea4a80198c3b06d2594c7ad0837ee923
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250682"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136187"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Избранные панели мониторинга, отчеты и приложения в службе Power BI
 Добавив содержимое в *Избранное*, вы сможете открывать его из всех своих рабочих областей.  Избранными обычно являются те элементы, которые вы просматриваете чаще всего.
@@ -76,9 +76,9 @@ ms.locfileid: "34250682"
 > 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](service-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

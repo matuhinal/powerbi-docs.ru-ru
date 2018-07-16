@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722366"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137452"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Хранилище данных SQL Azure с DirectQuery
 Хранилище данных SQL Azure с DirectQuery позволяет создавать динамические отчеты на основе данных и метрик, которые уже присутствуют в хранилище данных SQL Azure. Если используется DirectQuery, при просмотре данных запросы отправляются обратно в хранилище данных SQL Azure в режиме реального времени. В сочетании с масштабированием хранилища данных SQL это позволяет пользователям за считанные минуты создавать динамические отчеты из терабайтов данных. Кроме того, добавление кнопки **Открыть в Power BI** позволяет пользователям напрямую подключать Power BI к хранилищу данных SQL без необходимости задавать информацию вручную.
@@ -32,6 +32,11 @@ ms.locfileid: "34722366"
 Эти ограничения и примечания могут быть изменены по мере улучшения службы. Ниже приведены инструкции по подключению.
 
 ## <a name="using-the-open-in-power-bi-button"></a>Использование кнопки "Открыть в Power BI"
+
+> [!Important]
+> Мы улучшили параметры подключения к хранилищу данных SQL Azure.  Для наиболее эффективного подключения к источнику данных хранилища данных SQL Azure используйте Power BI Desktop.  После создания модели и отчета их можно опубликовать в службе Power BI.  Прямое подключение к хранилищу данных SQL Azure в службе Power BI теперь признано нерекомендуемым.
+>
+
 Самый простой способ перемещения между хранилищем данных SQL и Power BI — с помощью кнопки **Открыть в Power BI** на портале предварительной версии Azure. Эта кнопка позволяет легко начать создание новых панелей мониторинга в Power BI.
 
 1. Чтобы приступить к работе, перейдите в экземпляр хранилища данных SQL на портале предварительной версии Azure. Обратите внимание, что сейчас хранилище данных SQL присутствует на портале предварительной версии Azure в единственном экземпляре.
@@ -82,7 +87,7 @@ ms.locfileid: "34722366"
 >
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приступая к работе с Power BI](service-get-started.md)  
+[Что такое Power BI?](power-bi-overview.md)  
 [Получение данных для Power BI](service-get-data.md)  
 [Хранилище данных SQL Azure](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 
