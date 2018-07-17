@@ -896,8 +896,10 @@
           href: developer/what-can-you-do.md
     - name: Учебники
       items:
-        - name: Встроенное содержимое для клиентов
+        - name: Внедренное содержимое для клиентов
           href: developer/embed-sample-for-customers.md
+        - name: Внедренное содержимое для организации
+          href: developer/embed-sample-for-your-organization.md
     - name: Основные понятия
       items:
         - name: Работа с REST API Power BI
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: Как встраивать пользовательское содержимое
               href: developer/embedding-content.md
-            - name: Интеграция панели мониторинга в приложение (пользователь является владельцем данных)
-              href: developer/integrate-dashboard.md
-            - name: Интеграция плитки Power BI в приложение (данные принадлежат пользователю)
-              href: developer/integrate-tile.md
-            - name: Интеграция отчета Power BI в приложение (данные принадлежат пользователю)
-              href: developer/integrate-report.md
+            - name: Как внедрять содержимое из приложения
+              href: developer/embed-from-apps.md
             - name: Интеграция содержимого в приложение для национальных облаков (данные принадлежат приложению)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Внедрение пользовательских макетов в приложение

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926566"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877031"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -102,13 +102,11 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 **(AADSTS70002: ошибка при проверке учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)**
 
-Если вы работаете с Power BI Embedded, используете прямую проверку подлинности Azure AD Direct и при входе получаете такие сообщения, как ***error:unauthorized_client,error_description:AADSTS70002: ошибка при проверке учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, это происходит из-за отключения функции прямой проверки подлинности 14.06.2018.
+Если вы работаете с Power BI Embedded, используете прямую проверку подлинности Azure AD Direct и при входе получаете такие сообщения, как ***error:unauthorized_client,error_description:AADSTS70002: ошибка при проверке учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, что происходит из-за отключения функции прямой проверки подлинности 14.06.2018 по умолчанию.
 
-Мы рекомендуем использовать поддержку [условного доступа Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) для запрета устаревших механизмов проверки подлинности или [сквозную проверку подлинности Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
+Вы можете снова включить эту функцию с помощью [политики Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которую можно связать с организацией или [субъектом-службой](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
-Тем не менее есть возможность снова включить эту функцию с помощью [политики Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которую можно привязать к организации или [субъекту-службе](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
-
-**_Эту функцию рекомендуется включать только для отдельных приложений и только при необходимости в качестве обходного решения._**
+Эту функцию рекомендуется включать только для отдельных приложений.
 
 Чтобы создать эту политику, вы должны быть **глобальным администратором** для каталога, в котором создается и назначается политика. Ниже приведен пример сценария для создания политики и ее назначения пакету обновления для этого приложения:
 
