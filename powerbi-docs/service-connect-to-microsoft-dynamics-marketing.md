@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242197"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137034"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Подключение к Microsoft Dynamics Marketing с помощью Power BI
 Пакет содержимого Microsoft Dynamics Marketing для Power BI позволяет легко получать доступ к данным Dynamics Marketing и анализировать их. Пакет содержимого использует описательные модели на основе веб-канала OData, содержащие все необходимые сущности и измерения, такие как программы, кампании, маркетинговые контакты и компании, интересы, взаимодействия с интересами, оценки интересов, маркетинговые веб-сайты и сообщения электронной почты, наблюдения поведения, бюджеты, финансовые операции, ключевые показатели эффективности и многое другое. 
@@ -72,5 +72,5 @@ ms.locfileid: "34242197"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Получение данных для Power BI](service-get-data.md)
 
-[Приступая к работе с Power BI](service-get-started.md)
+[Что такое Power BI?](power-bi-overview.md)
 

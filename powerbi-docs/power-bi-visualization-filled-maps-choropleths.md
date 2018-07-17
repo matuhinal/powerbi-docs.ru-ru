@@ -8,28 +8,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f056ccb9e8fca4122aa4417a50f1fbd6993a9c2a
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293060"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944590"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Картограммы (хороплеты) в Power BI
 Картограмма с помощью заливки, оттенков или шаблонов показывает, как изменяется исследуемое значение по географическим регионам.  Картограмма позволяет быстро отобразить относительные различия с помощью заливки, которая изменяется от светлой (меньше, встречается с меньшей частотой) до темной (больше, встречается с большей частотой).    
 
-![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![Карта США](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Какие данные отправляются в Bing
 Power BI интегрируется с Bing для предоставления картографических координат по умолчанию (этот процесс называется геокодированием). При создании визуализации карты в службе Power BI или Power BI Desktop данные в контейнерах **Расположение**, **Широта** и **Долгота**, используемых для создания визуального элемента, отправляются в Bing.
 
 Вам или администратору может потребоваться обновить брандмауэр, чтобы разрешить доступ к URL-адресам, которые Bing использует для геокодирования.  Ниже приведены эти URL-адреса:
-* https://dev.virtualearth.net/REST/V1/Locations
-* https://platform.bing.com/geo/spatial/v1/public/Geodata
-* https://www.bing.com/api/maps/mapcontrol
+    * https://dev.virtualearth.net/REST/V1/Locations
+    * https://platform.bing.com/geo/spatial/v1/public/Geodata
+    * https://www.bing.com/api/maps/mapcontrol
 
 Дополнительные сведения о данных, отправляемых в Bing, а также подсказки по геокодированию см. в статье [Советы и рекомендации для визуализаций карт Power BI](power-bi-map-tips-and-tricks.md).
 
@@ -58,30 +58,30 @@ Power BI интегрируется с Bing для предоставления 
 1. Для создания собственной картограммы [скачайте пример "Продажи и маркетинг"](sample-datasets.md), выполнив вход в Power BI и выбрав **Получение данных \> Примеры \> Sales and Marketing (Продажи и маркетинг) \> Подключиться**.
 2. Когда появится сообщение об успешном выполнении, щелкните **Просмотреть набор данных**.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
+   ![Сообщение об успешном выполнении](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. В Power BI откроется пустой холст отчета в [режиме редактирования](service-interact-with-a-report-in-editing-view.md).
 
-    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
+    ![Создать отчет](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. На панели "Поля" выберите поле **Geo** (Геообъект) и **Состояние**.    
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
+   ![желтый флажок рядом со штатом](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Преобразуйте диаграмму](power-bi-report-change-visualization-type.md) в картограмму. Обратите внимание, что теперь поле **State** находится в разделе **Расположение**. Для создания картограммы служба "Карты Bing" использует поле в разделе **Расположение**.  Расположениями могут быть: страны, округа, области, города, почтовые индексы и т. д. Служба "Карты Bing" предоставляет фигуры заполнения карт для работы с расположениями по всему миру. Без допустимых данных в разделе "Расположение" Power BI не может создать картограмму.  
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
+   ![шаблоны с выделенным значком для заполненной картограммы](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Выполните фильтрацию карты, чтобы отображалась только континентальная часть США.
 
    а.  В нижней части области визуализаций найдите область **Фильтры** .
 
    б.  Наведите указатель мыши на значение **State** (Штат) и щелкните значок развертывания.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
+   ![Фильтры уровня визуальных элементов: показано State(All)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    в.  Установите флажок рядом с **Все** и снимите флажок рядом с **AK**(Аляска).
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
+   ![Раскрывающийся список штатов: All и AK не выбраны](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Выберите **SalesFact** \> **Sentiment** (Тональность), чтобы добавить этот элемент в область **Насыщенность цвета**. Поле в области **Насыщенность цвета** управляет заливкой карты.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
+   ![Тональность в области поля "Насыщенность цвета"](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
 8. Для картограммы используется зеленый цвет заливки: светло-зеленый представляет слабо-позитивное настроение, а темно-зеленый — крайне позитивное.  На рисунке выделен штат Вайоминг (WY). Видно, что настроение потребителей в нем очень хорошее — 74.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img007.png)
+   ![черное диалоговое окно: отображается штат и тональность](media/power-bi-visualization-filled-maps-choropleths/img007.png)
 9. [Сохраните отчет](service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Выделение и перекрестная фильтрация
@@ -92,13 +92,13 @@ Power BI интегрируется с Bing для предоставления 
 Чтобы продолжить, скопируйте и вставьте картограмму на страницу **мнений** в отчете *Продажи и маркетинг*.
 
 1. Выберите штат на картограмме.  Это приведет к выделению других визуализаций на странице. Например, при выборе штата **Техас** будет показано, что настроение в нем 74, Техас входит в центральный округ\# №23 и что основная часть продаж приходится на сегменты Moderation (Умеренность) и Convenience (Удобство).   
-   ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
+   ![Выбран Техас](media/power-bi-visualization-filled-maps-choropleths/img008.png)
 2. На графике попробуйте переключиться между **Нет** и **Да**. На картограмме будут показано настроение потребителей для продукции VanArsdel и конкурента VanArsdel.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
+   ![видео, демонстрирующее переключение](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 Данные карты могут быть неоднозначными.  Например, город с названием Париж есть во Франции и в Техасе. Географические данные, вероятно, хранятся в отдельных столбцах — столбец для названий городов, столбец для названий штатов или областей и т. д., — поэтому служба "Карты Bing" не может определить, о каком Париже идет речь. Если набор данных содержит сведения о широте и долготе, в Power BI можно воспользоваться специальными полями, которые помогают сделать данные карты однозначными. Просто перетащите поле, содержащее сведения о широте, в область "Визуализации" \> "Широта".  Сделайте то же самое для сведений о долготе.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![Панели "Поля" и "Визуализации".](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 При наличии разрешений для изменения набора данных в Power BI Desktop просмотрите это видео, чтобы понять, как устранить неоднозначность карты.
 
