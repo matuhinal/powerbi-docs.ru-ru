@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 7fb13b86e3f384c0c923a96e07631498edf84ee4
+ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925008"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39088892"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Регистрация приложения Azure AD для внедрения содержимого Power BI
 Узнайте, как зарегистрировать приложение в Azure Active Directory (Azure AD) для использования внедренного содержимого Power BI.
@@ -23,7 +23,6 @@ ms.locfileid: "38925008"
 
 > [!IMPORTANT]
 > Для регистрации приложения Power BI вам потребуется [клиент Azure Active Directory и пользователь организации](create-an-azure-active-directory-tenant.md). Если вы еще не зарегистрировались в Power BI как пользователь в клиенте, регистрация приложения не завершится успешно.
-> 
 
 Существует два способа регистрации приложения. Это можно сделать с помощью [средства регистрации приложений Power BI](https://dev.powerbi.com/apps/) или портала Azure. Средство регистрации приложений Power BI — это наиболее простой вариант, поскольку в нем всего лишь несколько полей для заполнения. Если вы хотите внести изменения в приложение, используйте портал Azure.
 
@@ -174,7 +173,6 @@ ms.locfileid: "38925008"
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
-
 5. Предоставление разрешений на использование приложения службе Azure Active Directory (AAD)
    
    Значением **consentType** может быть **AllPrincipals** или **Principal**.
