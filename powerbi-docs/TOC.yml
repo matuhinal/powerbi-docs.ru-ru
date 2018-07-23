@@ -322,6 +322,10 @@
                   href: service-collaborate-power-bi-workspace.md
                 - name: Управление группой в Power BI и Office 365
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
+                - name: 'Совместное использование панели мониторинга, ссылающейся на книгу Excel в OneDrive для бизнеса'
+                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: Пакеты содержимого
+              items:
                 - name: 'Управление пакетами содержимого организации, их обновление и удаление'
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Пакеты содержимого организации: копирование, обновление и получение доступа'
@@ -332,8 +336,16 @@
                   href: service-organizational-content-pack-create-and-publish.md
                 - name: Удаление подключения к пакету содержимого организации
                   href: service-organizational-content-pack-disconnect.md
-                - name: 'Совместное использование панели мониторинга, ссылающейся на книгу Excel в OneDrive для бизнеса'
-                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+                - name: Сертификация
+                  items:
+                    - name: Программа сертификации для пакетов содержимого
+                      href: service-content-pack-overview.md
+                    - name: Создание пакета содержимого шаблона
+                      href: template-content-pack-authoring.md
+                    - name: Тестирование пакета содержимого шаблона
+                      href: template-content-pack-testing.md
+                    - name: Возможности пакета содержимого шаблона
+                      href: template-content-pack-experience.md
             - name: Отчеты
               items:
                 - name: Создание нового отчета из существующего отчета
@@ -890,58 +902,34 @@
           href: mobile-apps-supported-languages.md
 - name: "Power\_BI для разработчиков"
   items:
-    - name: Обзор
+    - name: Встроенная аналитика
       items:
-        - name: Что могут разработчики сделать с помощью Power BI
-          href: developer/what-can-you-do.md
-    - name: Учебники
-      items:
-        - name: Внедренное содержимое для клиентов
-          href: developer/embed-sample-for-customers.md
-        - name: Внедренное содержимое для организации
-          href: developer/embed-sample-for-your-organization.md
-    - name: Основные понятия
-      items:
-        - name: Работа с REST API Power BI
-          items:
-            - name: Что можно сделать с помощью API Power BI?
-              href: developer/overview-of-power-bi-rest-api.md
-            - name: Ограничения REST API Power BI
-              href: developer/api-rest-api-limitations.md
-            - name: Свойства набора данных
-              href: developer/api-dataset-properties.md
-            - name: Управление версиями в модели данных
-              href: developer/api-data-model-versioning.md
-        - name: Создание пользовательской визуализации с помощью средств разработчика
-          href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Разрешения Power BI
-          href: developer/power-bi-permissions.md
-        - name: Безопасность на уровне строк (RLS)
-          href: developer/embedded-row-level-security.md
-        - name: ВОПРОСЫ И ОТВЕТЫ
-          href: developer/embedded-faq.md
-    - name: Практическое руководство
-      items:
-        - name: Создание настраиваемого визуального элемента
-          items:
-            - name: Создание пользовательской визуализации с помощью средств разработчика
-              href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Сертификация пользовательской визуализации
-              href: power-bi-custom-visuals-certified.md
-            - name: Публикация настраиваемых визуальных элементов в AppSource
-              href: developer/office-store.md
-        - name: Внедрение
+        - name: Обзор
           items:
             - name: Внедрение в Power BI
               href: developer/embedding.md
+        - name: Учебники
+          items:
+            - name: Встроенное содержимое для клиентов
+              href: developer/embed-sample-for-customers.md
+            - name: Внедренное содержимое для организации
+              href: developer/embed-sample-for-your-organization.md
+        - name: Основные понятия
+          items:
+            - name: Безопасность на уровне строк (RLS)
+              href: developer/embedded-row-level-security.md
+            - name: ВОПРОСЫ И ОТВЕТЫ
+              href: developer/embedded-faq.md
+            - name: Разрешения Power BI
+              href: developer/power-bi-permissions.md
+        - name: Практическое руководство
+          items:
             - name: Как встраивать пользовательское содержимое
               href: developer/embedding-content.md
             - name: Как внедрять содержимое из приложения
               href: developer/embed-from-apps.md
             - name: Интеграция содержимого в приложение для национальных облаков (данные принадлежат приложению)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
-            - name: Внедрение пользовательских макетов в приложение
-              href: developer/embedded-custom-layout.md
             - name: Создание клиента Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Регистрация приложения
@@ -952,15 +940,103 @@
               href: developer/qanda.md
             - name: Перенос Power BI Embedded
               href: developer/migrate-from-powerbi-embedded.md
-            - name: Встроенный инструмент миграции Power BI
-              href: developer/migrate-tool.md
-            - name: Фрагменты кода миграции
-              href: developer/migrate-code-snippets.md
             - name: Устранение неполадок внедренного приложения
               href: developer/embedded-troubleshoot.md
-        - name: Принудительная отправка данных
+        - name: Справка
           items:
-            - name: Принудительная отправка данных в панель мониторинга
+            - name: Загрузка SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Внедрение пользовательских макетов в приложение
+              href: developer/embedded-custom-layout.md
+            - name: Фрагменты кода миграции
+              href: developer/migrate-code-snippets.md
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Средство подключения для внедрения
+              href: 'https://aka.ms/embedsetup'
+            - name: Пример площадки JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: "Вики-сайт по JavaScript для Power\_BI"
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: Git-репозиторий JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Git-репозиторий Power BI C#'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Примеры
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Встроенный инструмент миграции Power BI
+              href: developer/migrate-tool.md
+            - name: Сообщество Power BI
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Разработка настраиваемых визуальных элементов
+      items:
+        - name: Обзор
+          items:
+            - name: "Добавление настраиваемых визуальных элементов в Power\_BI"
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
+        - name: Учебники
+          items:
+            - name: "Разработка настраиваемого визуального элемента Power\_BI"
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/step-by-step-lab/developing-a-power-bi-custom-visual/'
+        - name: Основные понятия
+          items:
+            - name: Функциональные возможности
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/capabilities/'
+            - name: Сопоставления представлений данных
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/dataviewmappings/'
+            - name: Объекты и свойства
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/objects-and-properties/'
+            - name: Режим расширенного редактирования
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/advanced-edit-mode/'
+            - name: "Руководство по миграции на версионный\_API"
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/migrating-to-versioned-api-guide/'
+        - name: Практическое руководство
+          items:
+            - name: Сертификация пользовательской визуализации
+              href: power-bi-custom-visuals-certified.md
+            - name: Публикация настраиваемых визуальных элементов в AppSource
+              href: developer/office-store.md
+        - name: Справка
+          items:
+            - name: API-интерфейсы
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Создание пользовательской визуализации с помощью средств разработчика
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Примеры
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Git-репозиторий пользовательских визуальных элементов
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: Автоматизация
+      items:
+        - name: Обзор
+          items:
+            - name: Что можно сделать с помощью API Power BI?
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: Учебники
+          items: null
+        - name: Основные понятия
+          items:
+            - name: Политика автоматического хранения данных в режиме реального времени
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: Принудительная отправка данных
+              items:
+                - name: Ограничения REST API Power BI
+                  href: developer/api-rest-api-limitations.md
+                - name: Свойства набора данных
+                  href: developer/api-dataset-properties.md
+                - name: Управление версиями в модели данных
+                  href: developer/api-data-model-versioning.md
+        - name: Практическое руководство
+          items:
+            - name: Принудительная отправка данных в набор данных
               href: developer/walkthrough-push-data.md
             - name: Регистрация приложения в Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
@@ -972,44 +1048,22 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: Добавление строк в таблицу
               href: developer/walkthrough-push-data-add-rows.md
+        - name: Справка
+          items:
+            - name: REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Справочник по REST API Power BI
+              href: developer/rest-api-reference.md
             - name: Полный листинг кода
               href: developer/walkthrough-push-data-complete-code.md
-            - name: Политика автоматического хранения данных в режиме реального времени
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-        - name: Сертификация пакета содержимого
+        - name: Ресурсы
           items:
-            - name: Программа сертификации для пакетов содержимого
-              href: developer/service-content-pack-overview.md
-            - name: Создание пакета содержимого шаблона
-              href: developer/template-content-pack-authoring.md
-            - name: Тестирование пакета содержимого шаблона
-              href: developer/template-content-pack-testing.md
-            - name: Возможности пакета содержимого шаблона
-              href: developer/template-content-pack-experience.md
-    - name: Справка
-      items:
-        - name: REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi/'
-        - name: 'Git-репозиторий Power BI C#'
-          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: Загрузка SDK .NET
-          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: Git-репозиторий JavaScript
-          href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: Git-репозиторий пользовательских визуальных элементов
-          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: Ресурсы
-      items:
-        - name: Средство подключения для внедрения
-          href: 'https://aka.ms/embedsetup'
-        - name: Пример площадки JavaScript
-          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Примеры
-          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Сообщество Power BI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: Stack Overflow
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Git-репозиторий Power BI C#'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Загрузка SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Report Server
   items:
     - name: Обзор
