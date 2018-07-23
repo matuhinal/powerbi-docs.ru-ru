@@ -1021,7 +1021,9 @@
             - name: Что можно сделать с помощью API Power BI?
               href: developer/overview-of-power-bi-rest-api.md
         - name: Учебники
-          items: null
+          items:
+            - name: Принудительная отправка данных в набор данных
+              href: developer/walkthrough-push-data.md
         - name: Основные понятия
           items:
             - name: Политика автоматического хранения данных в режиме реального времени
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: Практическое руководство
           items:
-            - name: Принудительная отправка данных в набор данных
-              href: developer/walkthrough-push-data.md
             - name: Регистрация приложения в Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Получение токена доступа для проверки подлинности
