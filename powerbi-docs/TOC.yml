@@ -530,6 +530,12 @@
       items:
         - name: Новые возможности в последнем обновлении Power BI Desktop
           href: desktop-latest-update.md
+        - name: "Составные модели в Power\_BI Desktop (предварительная версия)"
+          href: desktop-composite-models.md
+        - name: "Связи \"многие ко многим\" в Power\_BI Desktop (предварительная версия)"
+          href: desktop-many-to-many-relationships.md
+        - name: "Режим хранения в Power\_BI Desktop (предварительная версия)"
+          href: desktop-storage-mode.md
         - name: Двунаправленная перекрестная фильтрация в Power BI Desktop (предварительная версия)
           href: desktop-bidirectional-filtering.md
         - name: Power BI и DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Создавать отчеты
           items:
+            - name: Визуальные элементы для отчетов
+              href: desktop-visual-elements-for-reports.md
             - name: Обработчик "Вопросы и ответы" в Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: Добавочное обновление
               href: service-premium-incremental-refresh.md
+            - name: Поддержка нескольких регионов (предварительная версия)
+              href: service-admin-premium-multi-geo.md
             - name: Вопросы и ответы по Power BI Premium
               href: service-premium-faq.md
             - name: Заметки о выпуске Power BI Premium
