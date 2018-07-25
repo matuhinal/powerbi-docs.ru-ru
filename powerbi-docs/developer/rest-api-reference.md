@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96675f8e96eef84a10684487f652c872405bf037
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812360"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157155"
 ---
 # <a name="power-bi-rest-api-reference"></a>Справочник по REST API Power BI
 Power BI — это облачная служба, которую можно использовать для сборки пользовательских приложений информационной панели. REST API Power BI — это API на основе REST, который предоставляет программный доступ к таким ресурсам **информационной панели** , как **наборы данных**, **таблицы**и **строки** в Power BI.
@@ -31,4 +31,3 @@ Power BI — это облачная служба, которую можно и�
 Дополнительные сведения о REST API для Power BI см. в документации по [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
-
