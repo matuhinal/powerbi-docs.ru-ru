@@ -10,7 +10,7 @@
 
 Помните, что каждый раз, когда вы ссылаетесь на переменную в выражении DAX, Power BI приходится повторно вычислять ее значение в соответствии с определением. По этой причине рекомендуется не повторять переменные в функции.
 
-> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

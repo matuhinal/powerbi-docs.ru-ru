@@ -89,7 +89,7 @@ DAX использует функции **MAX** и **MIN** как для *ста
 
 Несмотря на то что эти функции полезны для вычисления и извлечения информации из значений *дат*, они не используются в алгоритмах операций со временем, которые работают на основе таблицы дат.
 
-> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

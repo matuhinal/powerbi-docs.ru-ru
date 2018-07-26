@@ -34,7 +34,7 @@ DAX позволяет создавать абсолютно новые вычи
 
 С помощью функций DAX можно также создать полностью вычисляемые таблицы. Для вычисляемых таблиц, созданных с помощью DAX, необходимы **ИМЯ** и **ТАБЛИЧНАЯ** функция. Вычисляемые таблицы можно использовать как и любую другую таблицу, включая создание связей.
 
-> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

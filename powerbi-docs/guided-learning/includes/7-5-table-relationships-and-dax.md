@@ -15,7 +15,7 @@
 
 Реляционные функции можно использовать для создания выражений, содержащих значения из нескольких таблиц. DAX возвращает результат работы этих функций независимо от длины цепочки связей.
 
-> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
