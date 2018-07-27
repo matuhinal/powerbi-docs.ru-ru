@@ -10,10 +10,10 @@ ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
 ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 07/27/2018
 ms.locfileid: "34295774"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Краткое руководство. Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
@@ -62,7 +62,7 @@ Power BI работает на устройствах Android под управ�
 
 4. Выберите пример **Анализ розничной торговли**.
  
-    ![Анализ розничной торговли — пример](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Анализ розничной торговли (пример)](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Нажмите кнопку **Подключиться**.  
   
