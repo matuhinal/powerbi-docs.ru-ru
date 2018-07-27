@@ -804,6 +804,8 @@
           href: desktop-data-types.md
         - name: Уровни конфиденциальности Power BI Desktop
           href: desktop-privacy-levels.md
+        - name: "Расширение соединителей в Power\_BI"
+          href: desktop-connector-extensibility.md
     - name: Ресурсы
       items:
         - name: Видеоматериалы по Power BI Desktop
