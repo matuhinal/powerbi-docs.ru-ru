@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
               href: desktop-analytics-pane.md
-            - name: Использование ключевых данных в Power BI Desktop
+            - name: Объяснение отклонений при помощи аналитических данных
               href: desktop-insights.md
+            - name: Сравнение распределений при помощи аналитических данных
+              href: desktop-insights-find-where-different.md
             - name: Закладки в Power BI
               href: desktop-bookmarks.md
             - name: Использование функции "Тема отчета"
