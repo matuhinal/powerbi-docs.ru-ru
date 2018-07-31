@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ba6b8cb1ade1337a29e758a16db285dbea7c41db
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136532"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280186"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -86,7 +86,7 @@ Power BI можно запускать на разных устройствах 
     По умолчанию поиск выполняется по всем панелям мониторинга и отчетам, но также можно выполнить поиск только по одному из них.
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Поиск содержимого в мобильных приложениях Power BI
-В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-find-content-mobile-devices.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
+В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-quickstart-view-dashboard-report.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
 
 ![Панель навигации слева](media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 

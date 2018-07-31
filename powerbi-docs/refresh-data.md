@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599755"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329691"
 ---
 # <a name="data-refresh-in-power-bi"></a>Обновление данных в Power BI
 Часто для принятия правильных решений крайне важно располагать актуальными данными. Возможно, вы уже использовали функцию «Получить данные» в Power BI для подключения к данным и их передачи, создали несколько отчетов и панель мониторинга. Теперь необходимо убедиться, что вы используете наиболее актуальные и ценные данные.

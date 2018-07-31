@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136569"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280255"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone, iPad или iPod Touch позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -73,11 +73,11 @@ Power BI можно запускать в приложении для iOS на i
    ![Примеры для Reporting Services в мобильном приложении Power BI](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Поиск содержимого в мобильных приложениях Power BI
-В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-find-content-mobile-devices.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
+В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-quickstart-view-dashboard-report.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
 
 ![Панель навигации слева](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-find-content-mobile-devices.md), чтобы узнать больше.
+Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-quickstart-view-dashboard-report.md), чтобы узнать больше.
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Просмотр избранных панелей мониторинга, ключевых показателей эффективности и отчетов
 В мобильных приложениях на странице "Избранное" отображаются все избранные панели мониторинга Power BI, а также ключевые показатели эффективности и отчеты сервера отчетов Power BI и служб Reporting Services. Когда в мобильном приложении Power BI вы добавляете панель мониторинга в *избранное*, панель становится доступной на всех ваших устройствах, а также в службе Power BI в браузере. 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 3f29bd899c62adbe2de1fdedd25b60cb104c71e0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f7266691573c0d02bafa7120b5d4a28ff0c03076
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287838"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327668"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Краткое руководство. Подключение к данным в Power BI Desktop
 
 В этом кратком руководстве описано, как подключиться к данным с помощью **Power BI Desktop**, что является первым шагом в создании моделей данных и отчетов.
 
-![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 Если вы не зарегистрированы в Power BI, перед началом работы [пройдите бесплатную регистрацию](https://app.powerbi.com/signupredirect?pbi_source=web).
 

@@ -56,7 +56,7 @@ ms.locfileid: "39210314"
 * Отключение меток данных на комбинированной диаграмме для отдельных рядов: [[видео]](https://youtu.be/Mtig3rmIUe0?t=34m19s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels). 
 * Улучшение процесса сортировки: [[видео]](https://youtu.be/Mtig3rmIUe0?t=35m44s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting). 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Аналитические сведения о факторах распределения: [[видео]](https://youtu.be/Mtig3rmIUe0?t=37m), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor). 
 

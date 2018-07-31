@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daedbb480f09dbd8fc71044d78a532a1ea96b1ac
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e93c11b86ebc664af7350b217c2a6dd2853c2858
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286757"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327713"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Создание и использование параметра What if для визуализации переменных в Power BI Desktop
 Начиная с августа 2017 г. в **Power BI Desktop** можно создать переменные **What if** для отчетов, взаимодействовать с переменной в качестве среза, и, впоследствии, визуализировать различные ключевые значения в отчетах и определять их количество.

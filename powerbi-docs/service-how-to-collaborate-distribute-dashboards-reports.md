@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249512"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280462"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Как совместно работать и предоставлять общий доступ в Power BI?
 
@@ -75,7 +75,7 @@ ms.locfileid: "34249512"
 
 См. дополнительные сведения в статье [Добавление заметок и совместное использование плиток, отчетов или визуальных элементов в мобильных приложениях iOS](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 
-Вы также можете [предоставить общий доступ к моментальному снимку плитки](mobile-share-tile-windows-10-phone-app.md) из приложения Power BI для устройств Windows 10.
+Вы также можете [предоставить общий доступ к моментальному снимку плитки](mobile-windows-10-phone-app-get-started.md) из приложения Power BI для устройств Windows 10.
 
 ## <a name="publish-to-the-web"></a>Публикация в Интернете
 Вы можете публиковать отчеты Power BI в Интернете, внедряя интерактивные визуализации в записи блога, веб-сайты, социальные сети и другие средства коммуникации в сети на любом устройстве. Любой пользователь в Интернете может просматривать ваши отчеты; вы не можете выбирать, кто может просматривать уже опубликованный отчет. Пользователям не нужна лицензия Power BI. Функция публикации в Интернете доступна только для отчетов с возможностью редактирования. Отчеты, к которым вам предоставили доступ или которые находятся в приложении, публиковать нельзя. Дополнительные сведения о [публикации в Интернете](service-publish-to-web.md).

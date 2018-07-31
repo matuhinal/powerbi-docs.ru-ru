@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182732"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280784"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -185,7 +185,7 @@ ms.locfileid: "39182732"
 
 **Новое меню "Приложения"**. "Приложения" — это коллекция панелей мониторинга и отчетов, созданная вашей организацией для предоставления ключевых метрик. С их помощью вы можете быстро принимать основанные на данных решения.
 
-См. дополнительные сведения о [способе организации содержимого в Power BI](mobile-apps-find-content-mobile-devices.md).
+См. дополнительные сведения о [способе организации содержимого в Power BI](mobile-apps-quickstart-view-dashboard-report.md).
 
 #### <a name="ios-and-android-devices"></a>Устройства с iOS и Android
 **Предварительная версия сервера отчетов Power BI** Создавайте и публикуйте отчеты Power BI локально. Затем [просматривайте и работайте с ними на мобильных устройствах iOS или Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md). 
@@ -241,7 +241,7 @@ ms.locfileid: "39182732"
 Теперь одновременно можно устанавливать до 5 подключений к серверам SQL Server Reporting Services (SSRS).
 
 #### <a name="android-tablets"></a>Планшеты Android
-**Мобильное приложение Power BI** для планшетов с Android теперь доступно повсеместно. Начните использовать [Power BI на планшете Android](mobile-android-tablet-app-get-started.md).
+**Мобильное приложение Power BI** для планшетов с Android теперь доступно повсеместно. Начните использовать [Power BI на планшете Android](mobile-android-app-get-started.md).
 
 #### <a name="ios-and-android-devices"></a>Устройства с iOS и Android
 **Новое меню для плиток информационной панели.** Вы можете перейти в базовый отчет, расширять плитки или управлять оповещениями напрямую из меню на плитке информационной панели. 
@@ -304,7 +304,7 @@ ms.locfileid: "39182732"
 #### <a name="android-tablets"></a>Планшеты Android
 **Мобильное приложение Power BI для планшетов Android**. Предварительную версию можно найти здесь.
 
-* Запустите [приложение Power BI на планшете Android](mobile-android-tablet-app-get-started.md).
+* Запустите [приложение Power BI на планшете Android](mobile-android-app-get-started.md).
 * Просматривайте [мобильные отчеты и ключевые показатели эффективности Reporting Services на планшете Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 #### <a name="android-devices"></a>Устройства Android
@@ -498,7 +498,7 @@ ms.locfileid: "39182732"
 
 **Плитки и мини-приложения R**. Вы можете просматривать эти новые типы плиток на информационных панелях на мобильном устройстве.
 
-**Информационные панели Bing**. В службе Power BI вы теперь можете создавать [информационные панели с результатами поиска Bing](service-connect-to-bing.md) и просматривать их на мобильном устройстве.
+**Информационные панели Bing**. В службе Power BI вы теперь можете создавать [информационные панели с результатами поиска Bing](service-connect-to-services.md) и просматривать их на мобильном устройстве.
 
 **Страницы отчетов, закрепленные в качестве плиток на информационных панелях.** Теперь, когда вы можете закрепить всю страницу отчетов на информационной панели, вы можете просматривать страницы отчетов в приложении Power BI на телефоне iPhone или Android.
 

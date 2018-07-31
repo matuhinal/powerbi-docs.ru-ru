@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fb3e6163d63cdf3f40d0400f246095550fc9032
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286573"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328151"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Выборка линий с высокой плотностью в Power BI
 Начиная с выпуска **Power BI Desktop** за июнь 2017 года и обновлений **службы Power BI** доступен новый алгоритм выборки, который улучшает визуальные элементы, использующие выборку данных высокой плотности. Например, можно создать график результатов продаж розничных магазинов, выписывающих более десяти тысяч товарных чеков ежегодно. Для графика таких сведений о продажах выполняется выборка (выбор информативного представления данных, чтобы показать, как изменяются продажи со временем) из данных для каждого магазина, что позволяет создать смешанный график, который представляет базовые данные. Это распространенный подход к визуализации данных с высокой плотностью. В Power BI Desktop улучшена выборка данных с высокой плотностью. Этому и посвящена статья.

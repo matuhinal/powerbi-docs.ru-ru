@@ -96,7 +96,7 @@ ms.locfileid: "39210383"
 * Параметры метки данных для воронкообразной диаграммы [[видео]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Установка нулевой толщины обводки [[видео]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Детализация мер [[видео]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[статья]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
@@ -151,7 +151,7 @@ ms.locfileid: "39210383"
 * Улучшенный режим сортировки по умолчанию для визуализаций [[видео]](https://youtu.be/W_Nb73Od_AI?t=19m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * Общедоступная версия числового среза [[видео]](https://youtu.be/W_Nb73Od_AI?t=21m13s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Обновление лингвистической схемы [[видео]](https://youtu.be/W_Nb73Od_AI?t=22m) [[статья]](power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Новая функция DAX: COMBINEVALUES() [[видео]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -260,7 +260,7 @@ ms.locfileid: "39210383"
 * Пользовательские визуальные элементы организации (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[статья]](power-bi-custom-visuals-organization.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Настройка пользовательской таблицы данных [[видео]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[статья]](desktop-date-tables.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * Быстрые меры реализованы в общедоступной версии [[видео]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[статья]](desktop-quick-measures.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -319,7 +319,7 @@ ms.locfileid: "39210383"
 -   Выбор первых N-элементов в вопросах и ответах [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Быстрая мера коэффициента корреляции [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -370,7 +370,7 @@ ms.locfileid: "39210383"
 -   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Детализирующие фильтры для других визуальных элементов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
@@ -425,7 +425,7 @@ ms.locfileid: "39210383"
 -   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Форматирование на уровне ячейки для многомерных моделей AS для многострочной карточки [[видео]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 

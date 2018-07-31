@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295268"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279856"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Добавление заметок к плиткам, отчетам и визуальным элементам и их совместное использование в мобильных приложениях Power BI
 Область применения:
@@ -31,7 +31,7 @@ ms.locfileid: "34295268"
 
 Письмо с моментальным снимком плитки, отчета или визуализации также содержит ссылку на фактический объект в службе Power BI ([https://powerbi.com](https://powerbi.com)). Если у вас и этих пользователей есть лицензии Power BI Pro либо же содержимое находится в [емкости Premium](service-premium.md) и вы поделились с ними элементом, получатели смогут щелкнуть ссылку и перейти непосредственно к соответствующей плитке, отчету или визуализации. 
 
-Вы также можете [поделиться плиткой в мобильном приложении Power BI для устройств с Windows 10](mobile-share-tile-windows-10-phone-app.md), не добавляя к ней заметки.
+Вы также можете [поделиться плиткой в мобильном приложении Power BI для устройств с Windows 10](mobile-windows-10-phone-app-get-started.md), не добавляя к ней заметки.
 
 ## <a name="open-a-tile-for-annotating"></a>Как открыть плитку для добавления заметок
 1. Коснитесь плитки, чтобы открыть ее в режиме фокусировки.

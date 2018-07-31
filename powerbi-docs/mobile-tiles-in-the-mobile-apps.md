@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598648"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280140"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Область применения:
@@ -92,7 +92,7 @@ ms.locfileid: "37598648"
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [Совместно использовать моментальный снимок плитки](mobile-share-tile-windows-10-phone-app.md).
+    [Совместно использовать моментальный снимок плитки](mobile-windows-10-phone-app-get-started.md).
    
     Коснуться значка **Открыть отчет** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) для [просмотра базового отчета](mobile-reports-in-the-mobile-apps.md).
    
@@ -120,7 +120,7 @@ ms.locfileid: "37598648"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   Коснитесь значка "Поделиться снимком" ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), чтобы [поделиться плиткой](mobile-share-tile-windows-10-phone-app.md) с другими пользователями.   
+   Коснитесь значка "Поделиться снимком" ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), чтобы [поделиться плиткой](mobile-windows-10-phone-app-get-started.md) с другими пользователями.   
    
    Коснитесь значка "Открыть отчет" ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), чтобы [просмотреть отчет](mobile-reports-in-the-mobile-apps.md), на котором основана плитка. 
 4. Коснитесь черной стрелки или черной кнопки, чтобы закрыть плитку и вернуться на панель мониторинга.

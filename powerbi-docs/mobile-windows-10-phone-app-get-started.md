@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d445264e22520efe81af94e1e4c4261d15eed04b
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135796"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280071"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне и получать доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -87,7 +87,7 @@ ms.locfileid: "37135796"
    ![Релевантные результаты поиска](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Поиск содержимого в мобильных приложениях Power BI
-В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-find-content-mobile-devices.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
+В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-quickstart-view-dashboard-report.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
 
 ![Панель навигации слева в Power BI](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
@@ -111,7 +111,7 @@ ms.locfileid: "37135796"
 * Просмотр [приложений](service-install-use-apps.md).
 * Просмотр своих [информационных панелей](mobile-apps-view-dashboard.md).
 * [Закрепление плиток и информационных панелей Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) на начальном экране устройства в виде живых плиток.
-* [Совместное использование плиток](mobile-share-tile-windows-10-phone-app.md).
+* [Совместное использование плиток](mobile-windows-10-phone-app-get-started.md).
 * [Совместное использование информационных панелей](mobile-share-dashboard-from-the-mobile-apps.md).
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Мобильные отчеты и ключевые показатели эффективности Reporting Services
