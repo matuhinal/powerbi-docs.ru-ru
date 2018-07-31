@@ -49,9 +49,9 @@ ms.locfileid: "34296794"
 | Полноэкранный режим | Нет | Да | [Полноэкранный режим](../service-fullscreen-mode.md) в службе Power BI 
 | Расширенные возможности совместной работы Office 365 | Нет | Да | [Совместная работа в рабочей области приложений](../service-collaborate-power-bi-workspace.md) с Office 365 
 | визуальные элементы R; | Нет | Да | [Создание визуальных элементов R](../service-r-visuals.md) в службе Power BI  
-| Возможности предварительной версии | Нет | Да | [Включение предварительных версий функций Power BI](../service-preview-features.md) 
+| Предварительная версия функций | Нет | Да | [Включение предварительных версий функций Power BI](../service-preview-features.md) 
 | Пользовательские визуальные элементы | Да | Да | [Пользовательские визуальные элементы в Power BI](../power-bi-custom-visuals.md) 
-| Power BI Desktop | Версия, оптимизированная для сервера отчетов, доступна для скачивания вместе с сервером отчетов | Версия, оптимизированная для службы Power BI, доступна в Windows Store | [Power BI Desktop для сервера отчетов](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop для службы Power BI](http://aka.ms/pbidesktopstore)
+| Power BI Desktop | Версия, оптимизированная для сервера отчетов, доступна для скачивания вместе с сервером отчетов | Версия, оптимизированная для службы Power BI, доступна в Windows Store | [Power BI Desktop для сервера отчетов](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop для службы Power BI](http://aka.ms/pbidesktopstore)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Установка сервера отчетов Power BI](install-report-server.md)  

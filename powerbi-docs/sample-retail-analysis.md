@@ -39,11 +39,11 @@ ms.locfileid: "36944544"
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ розничной торговли — пример**, затем выберите **Подключиться**.  
   
-   ![Анализ розничной торговли (пример)](media/sample-retail-analysis/retail16.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail16.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    
-   ![Анализ розничной торговли (пример)](media/sample-retail-analysis/retail17.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 

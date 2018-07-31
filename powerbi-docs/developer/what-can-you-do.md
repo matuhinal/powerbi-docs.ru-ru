@@ -3,18 +3,18 @@ title: Что могут разработчики сделать с помощь
 description: Power BI предлагает целый ряд параметров для разработчиков, начиная от параметров внедрения и заканчивая настраиваемыми визуальными элементами и наборами данных потоковой передачи.
 author: markingmyname
 ms.author: maghan
-ms.date: 05/03/2018
+ms.date: 05/25/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ee9f5b2e89a1746267090da3485076d67a99d6f9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07fb8d365a6fe4a874b057a71a90a99fc8a9e5fa
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290575"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564703"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Что могут разработчики сделать с помощью Power BI
 
@@ -23,7 +23,13 @@ ms.locfileid: "34290575"
 ## <a name="embedding"></a>Внедрение
 Возможности службы Power BI (SaaS) и Power BI Embedded в Azure (PaaS) предоставляют единый API для внедрения информационных панелей и отчетов. Это означает, что у вас будет одинаковый набор возможностей и доступ к последним функциям Power BI, например информационным панелям, шлюзам и рабочим областям приложений, которые можно использовать при внедрении содержимого.
 
-![Пример PBIE](media/what-can-you-do/what-can-you-do-01.png)
+Воспользуйтесь [средством подключения для внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения и приступить к работе.
+
+Выберите подходящее решение:
+* [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. Запустите решение [Внедрение для клиентов](https://aka.ms/embedsetup/AppOwnsData).
+* [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI. Запустите решение [Внедрение для организации](https://aka.ms/embedsetup/UserOwnsData).
+
+![Пример PBIE](media/what-can-you-do/what-can-you-do-02.png)
 
 ## <a name="develop-custom-visuals"></a>Разработка пользовательских визуальных элементов
 Настраиваемые визуальные элементы позволяют создавать собственные визуальные элементы, которые можно использовать в отчетах Power BI. Пользовательские визуальные элементы написаны на языке TypeScript, который является надмножеством JavaScript. TypeScript поддерживает некоторые дополнительные возможности и ранний доступ к функциям ES6 и ES7. Стиль визуального элемента обрабатывается с помощью каскадных таблиц стилей (CSS). Для удобства предварительный компилятор Less используется для поддержки некоторых дополнительных функций, таких как вложения, переменные, примеси, условия, циклы и т. д. Если в любой из этих функций нет необходимости, можно просто записать обычные CSS в файле Less.

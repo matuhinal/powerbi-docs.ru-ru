@@ -107,7 +107,7 @@ ms.locfileid: "34481969"
 - [Поиск по панели форматирования и аналитики](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Панель свойств поля и описания поля](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 - [UTCNOW() и UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Пометка таблицы настраиваемой даты](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
