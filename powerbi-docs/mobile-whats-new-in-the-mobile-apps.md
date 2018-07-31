@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864406"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182732"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -22,6 +22,19 @@ ms.locfileid: "37864406"
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](desktop-latest-update.md)  
 * [Новые возможности службы Power BI](service-whats-new.md)  
+
+## <a name="july-2018"></a>Июль 2018 г.
+
+### <a name="ios-and-android-only"></a>Только iOS и Android
+
+**Общие фильтры**
+
+Теперь вы можете получать отчеты с фильтрами и срезами, к которым предоставлен общий доступ.
+
+**Поддержка фоновых изображений**
+
+При просмотре отчета в альбомном режиме на мобильном устройстве вы увидите те же фоновые изображения, что и в Power BI в браузере.
+
 
 ## <a name="june-2018"></a>Июнь 2018
 

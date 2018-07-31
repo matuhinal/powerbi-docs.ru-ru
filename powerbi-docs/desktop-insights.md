@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 8f69eec2ce7273898698fb086f372daa2201eed8
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134692"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210268"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Использование аналитики в Power BI Desktop (предварительная версия)
-Вы можете запросить в **Power BI Desktop** объяснение роста или снижения показателей на диаграммах и быстро выполнить автоматический информативный анализ своих данных. Просто щелкните правой кнопкой мыши точку данных и выберите **Анализ > Объяснить снижение** (или "Объяснить рост", если предыдущая строка на диаграмме меньше), и вы получите ценную информацию в удобном окне.
+Вы можете запросить в **Power BI Desktop** объяснение роста или снижения показателей на диаграммах, просмотреть на них факторы распределения, а также быстро выполнить автоматический информативный анализ своих данных. Просто щелкните правой кнопкой мыши точку данных и выберите **Анализ > Объяснить снижение** (или "Объяснить рост", если предыдущая строка на диаграмме меньше), либо **Анализ > Найти, в чем отличие распределения**, и вы получите ценную информацию в удобном окне.
 
 ![](media/desktop-insights/insights_01.png)
 
