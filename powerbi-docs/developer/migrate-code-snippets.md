@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: ea323419e38aab7360bb817a56ae4c7c662998ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ba3829d54572c9d8166342d381f3850f0fc8a909
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34689856"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388739"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Фрагменты кода для переноса содержимого из коллекции рабочих областей Power BI
 Здесь приведены некоторые фрагменты кода с базовыми операциями, необходимыми для переноса содержимого. Сведения о связанных потоках для некоторых типов отчетов см. в разделе [Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).

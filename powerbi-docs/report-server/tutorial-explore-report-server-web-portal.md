@@ -157,7 +157,7 @@ ms.locfileid: "37092053"
 
      В Power BI Desktop откроется отчет. На верхней панели отображается имя "Power BI Desktop (март 2018 г.)". Это версия, оптимизированная для Сервера отчетов Power BI.
 
-    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
 
      Используйте версию Power BI Desktop, установленную в виртуальной машине. Невозможно перейти в другой домен для отправки отчета.
 

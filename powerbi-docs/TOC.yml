@@ -246,9 +246,9 @@
                   href: power-bi-how-to-report-filter.md
                 - name: Подписка на отчет или панель мониторинга
                   href: service-report-subscribe.md
-            - name: Публикация
+            - name: Опубликовать
               items:
-                - name: Издатель Power BI для Excel
+                - name: "Издатель Power\_BI для Excel"
                   href: publisher-for-excel.md
                 - name: Публикация в PowerPoint
                   href: service-publish-to-powerpoint.md
@@ -476,7 +476,7 @@
           href: supported-languages-countries-regions.md
         - name: Технические документы
           href: whitepapers.md
-- name: Power BI Desktop
+- name: "Power\_BI Desktop"
   items:
     - name: Обзор
       items:
@@ -918,14 +918,18 @@
       items:
         - name: Обзор
           items:
-            - name: Внедрение в Power BI
+            - name: "Что такое внедрение с Power\_BI"
               href: developer/embedding.md
+            - name: "Что такое Power\_BI Embedded в\_Azure"
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: Учебники
           items:
             - name: Встроенное содержимое для клиентов
               href: developer/embed-sample-for-customers.md
             - name: Внедренное содержимое для организации
               href: developer/embed-sample-for-your-organization.md
+            - name: Интеграция контента в приложение национального облака
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Основные понятия
           items:
             - name: Безопасность на уровне строк (RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: Практическое руководство
           items:
-            - name: Как встраивать пользовательское содержимое
-              href: developer/embedding-content.md
             - name: Как внедрять содержимое из приложения
               href: developer/embed-from-apps.md
-            - name: Интеграция содержимого в приложение для национальных облаков (данные принадлежат приложению)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Создание клиента Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Регистрация приложения
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: Внедрение функции "Вопросы и ответы"
               href: developer/qanda.md
-            - name: Перенос Power BI Embedded
-              href: developer/migrate-from-powerbi-embedded.md
             - name: Устранение неполадок внедренного приложения
               href: developer/embedded-troubleshoot.md
+            - name: "Управление емкостями в\_Azure"
+              items:
+                - name: "Создание емкости в\_Azure"
+                  href: developer/azure-pbie-create-capacity.md
+                - name: "Масштабирование емкости в\_Azure"
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: "Приостановка и запуск емкости в\_Azure"
+                  href: developer/azure-pbie-pause-start.md
+            - name: Миграция из коллекций рабочих областей
+              items:
+                - name: "Миграция из коллекций рабочих областей Power\_BI"
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Средство миграции
+                  href: developer/migrate-tool.md
+                - name: Фрагменты кода миграции
+                  href: developer/migrate-code-snippets.md
         - name: Справка
           items:
+            - name: API-интерфейсы
+              items:
+                - name: "REST\_API для управления ресурсами\_Azure"
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: "REST\_API в Power\_BI"
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: Загрузка SDK .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Внедрение пользовательских макетов в приложение
               href: developer/embedded-custom-layout.md
-            - name: Фрагменты кода миграции
-              href: developer/migrate-code-snippets.md
         - name: Ресурсы
           items:
             - name: Центр разработки
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Примеры
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Встроенный инструмент миграции Power BI
-              href: developer/migrate-tool.md
             - name: Сообщество Power BI
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
@@ -1064,8 +1080,6 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Справочник по REST API Power BI
-              href: developer/rest-api-reference.md
             - name: Полный листинг кода
               href: developer/walkthrough-push-data-complete-code.md
         - name: Ресурсы
