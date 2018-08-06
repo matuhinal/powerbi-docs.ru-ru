@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2eb69896de8226fdf0033f980a8b4b5164c68c3d
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280163"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388854"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Составные модели в Power BI Desktop (предварительная версия)
 
@@ -33,7 +33,7 @@ ms.locfileid: "39280163"
 
 * **Составные модели** подробно описаны в этой статье.
 * **Связи "многие ко многим"** описаны в отдельной статье [Связи "многие ко многим" в Power BI Desktop (предварительная версия)](desktop-many-to-many-relationships.md).
-* **Режим хранения** описан в отдельной статье о [режиме хранения в Power BI Desktop (предварительная версия)](desktop-storage-mode.md).
+* **Режим хранения** описан в отдельной статье [Режим хранения в Power BI Desktop (предварительная версия)](desktop-storage-mode.md).
 
 ## <a name="enabling-the-composite-models-preview-feature"></a>Включение предварительной версии функции составных моделей
 
