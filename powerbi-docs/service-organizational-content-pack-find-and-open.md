@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20352a729b43e15fd1cd67cb5d52c321c3d150d4
-ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
+ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34852263"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280232"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Поиск пакета содержимого организации и подключение к нему
 > [!NOTE]
@@ -36,7 +36,7 @@ ms.locfileid: "34852263"
 3. Выберите пакет содержимого для отображения дополнительных сведений.
 
 ## <a name="connect-to-an-organizational-content-pack"></a>Подключение к пакету содержимого организации
-* Выберите **Get it now** (Получить сейчас), чтобы подключиться к пакету содержимого и добавить его в активную рабочую область. Новые информационные панели, отчеты, книги Excel и наборы данных помечаются желтой звездочкой.
+* Выберите **Получить сейчас**, чтобы подключиться к пакету содержимого и добавить его в активную рабочую область. Новые информационные панели, отчеты, книги Excel и наборы данных помечаются желтой звездочкой.
 
 Если в пакет содержимого входит книга Excel, может появиться предупреждение о том, что у вас нет разрешений на просмотр этой книги. Если это так, попросите владельца пакета содержимого [предоставить вам книгу для общего доступа в OneDrive для бизнеса](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 

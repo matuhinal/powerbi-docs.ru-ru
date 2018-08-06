@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: f104d2e9e27cfb9af72813053c0d8cb14aaf2635
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032078"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359663"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -63,29 +63,32 @@ Power BI Embedded — это набор интерфейсов API, позвол
 
 Ниже приведен неполный список различий между функциями, используемыми в решениях.
 
-|Избранное  |Power BI Embedded<br>(Номера SKU A) |Емкость Power BI Premium<br>(Номера SKU EM)  | 
-|---------|---------|---------|
-|Внедрение артефактов из рабочих областей приложения Power BI     |Емкость Azure |Емкость Office 365 |
-|Для использования отчетов требуется лицензия Power BI |Нет  |Да |
-|Использование отчетов Power BI во внедренном приложении |Да  |Да |
-|Использование отчетов Power BI в SharePoint |Нет |Да |
-|Использование отчетов Power BI в Teams |Нет |Да |
+| Избранное | Power BI Embedded | Емкость Power BI Premium | Емкость Power BI Premium |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (Номера SKU A) | (Номера SKU EM) | (Номера SKU P) |
+| Внедрение артефактов из рабочих областей приложения Power BI | Емкость Azure | Емкость Office 365 | Емкость Office 365 |
+| Использование отчетов Power BI во внедренном приложении | Да | Да | Да |
+| Использование отчетов Power BI в SharePoint | Нет | Да | Да |
+| Использование отчетов Power BI в Dynamics | Нет | Да | Да |
+| Использование отчетов Power BI в Teams | Нет | Да | Да |
+| Доступ к содержимому с бесплатной лицензией Power BI на Powerbi.com и в Power BI Mobile | Нет | Нет | Да |
+| Доступ к содержимому с бесплатной лицензией Power BI в приложениях MS Office | Нет | Да | Да |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Сейчас в Power BI предлагается три типа номеров SKU для внедрения: SKU A, SKU EM и SKU P. Какой из них следует приобрести в моем случае?
 
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Купить     |Портал Azure |Office |Office |
-|Варианты использования |* Внедрение содержимого в разработанное приложение |* Внедрение содержимого в разработанное приложение<br>* Внедрение содержимого в другие приложения SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Внедрение содержимого в разработанное приложение<br>* Внедрение содержимого в другие приложения SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Варианты использования |* Внедрение содержимого в разработанное приложение |* Внедрение содержимого в разработанное приложение<br>* Внедрение содержимого в другие приложения MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)). |* Внедрение содержимого в разработанное приложение<br>* Внедрение содержимого в другие приложения MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)).<br>* Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Выставление счетов |Каждый час |Ежемесячно |Ежемесячно |
 |Обязательство  |Никаких обязательств |Ежегодно  |Ежемесячно или ежегодно |
 |Отличия |Полная гибкость — масштабируемость, приостановление и возобновление использования ресурсов на портале Azure или с помощью API  |Можно использовать для внедрения содержимого в SharePoint Online и Microsoft Teams |Объединение возможности внедрения в приложение и использования службы Power BI в одной емкости |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Что необходимо для создания емкости PBIE в Azure?
 
-- Необходим вход в каталог организации (учетные записи MSA не поддерживаются).
-- Необходим клиент Power BI, т. е. как минимум один пользователь в вашем каталоге должен зарегистрироваться в Power BI. 
-- Необходимо иметь подписку Azure в каталоге организации.
+* Необходим вход в каталог организации (учетные записи MSA не поддерживаются).
+* Необходим клиент Power BI, т. е. как минимум один пользователь в вашем каталоге должен зарегистрироваться в Power BI. 
+* Необходимо иметь подписку Azure в каталоге организации.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Как отслеживать использование емкости?
 
@@ -180,7 +183,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-deploy-regions-are-supported"></a>Какие регионы развертывания поддерживаются?
 
-Восточная часть США 2, восточная Япония, западная Европа, западная Индия, западная часть США, западная часть США 2, северная Европа, северо-центральный регион США, центральная Канада, юго-восточная Австралия, юго-восточная Азия, юго-центральный регион США, южная Бразилия и южная часть Соединенного Королевства.
+Восточная часть США 2, восточная Япония, Западная Европа, западная Индия, западная часть США, западная часть США 2, северная Европа, центрально-северная часть США, центральная Канада, юго-восточная Австралия, Юго-Восточная Азия, центрально-южная часть США, южная Бразилия и южная часть Соединенного Королевства.
 
 ### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Какой тип данных пакета содержимого можно внедрять?
 
@@ -260,7 +263,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>В каких регионах можно создать коллекцию рабочих областей Power BI?
 
-Это решение доступно в следующих регионах: восточная часть США 2, восточная Япония, западная Европа, западная Индия, западная часть США, северная Европа, северо-центральный регион США, центральная Канада, юго-восточная Австралия, юго-восточная Азия, юго-центральный регион США, южная Бразилия и южная часть Соединенного Королевства.
+Это решение доступно в следующих регионах: восточная часть США 2, восточная Япония, Западная Европа, западная Индия, западная часть США, северная Европа, центрально-северная часть США, центральная Канада, юго-восточная Австралия, Юго-Восточная Азия, центрально-южная часть США, южная Бразилия и южная часть Соединенного Королевства.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Зачем мне переносить содержимое из коллекции рабочих областей Power BI в Power BI Embedded?
 

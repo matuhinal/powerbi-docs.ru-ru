@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 828c5e8afc28b496b1920468097ce629fe646e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564657"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Как найти ключ продукта сервера отчетов
 Узнайте, как найти ключ продукта сервера отчетов Power BI для установки сервера в рабочей среде.
@@ -33,8 +34,8 @@ ms.lasthandoff: 05/17/2018
 
 ![Ключ продукта сервера отчетов Power BI](media/find-product-key/pbirs-product-key-dialog.png)
 
-## <a name="purchased-software-assurance-agreeemnt"></a>Заключено соглашение Software Assurance
-Если вы заключили соглашение SQL Server Enterprise SA, вы можете получить ключ продукта на веб-сайте [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/). Возможно, ключ находится в последнем пакете обновления для последней версии SQL Server. Если его там нет, посмотрите в выпуске RTM последней версии SQL Server.
+## <a name="purchased-software-assurance-agreement"></a>Заключено соглашение Software Assurance
+Если вы заключили соглашение SQL Server Enterprise SA, то можете получить ключ продукта на веб-сайте [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/). Возможно, ключ находится в последнем пакете обновления для последней версии SQL Server. Если его там нет, посмотрите в выпуске RTM последней версии SQL Server.
 
 > [!NOTE]
 > Просмотрите раздел "Загрузка", а не раздел "Ключи".

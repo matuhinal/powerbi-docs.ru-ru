@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600264"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280416"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Работа с таблицами в отчетах и на информационных панелях Power BI
 Таблица — это сетка, содержащая связанные данные в логически упорядоченных строках и столбцах. Она также может содержать заголовки и строку с итогами. Таблицы хорошо подходят для количественного сравнения, где можно посмотреть разные значения одной категории. Например, в этой таблице показаны 5 разных мер **категории**.

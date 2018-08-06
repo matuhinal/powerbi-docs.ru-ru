@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813740"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280347"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Представление данных в Power BI Desktop
 **Представление данных** позволяет проверять, изучать и анализировать данные в модели **Power BI Desktop**. Оно отличается от просмотра таблиц, столбцов и данных в **редакторе запросов**. В представлении данных вы видите данные уже *после* их загрузки в модель.
@@ -46,4 +46,5 @@ ms.locfileid: "34813740"
 
 Можно отфильтровывать отдельные значения или использовать расширенную фильтрацию на основе данных в столбце. 
 
-
+> [!NOTE]
+> Если вы создаете модель Power BI с языком и региональными параметрами, отличными от текущего пользовательского интерфейса (например, модель создана на английском [США] и вы просматриваете ее на испанском языке), поле поиска будет отображаться в пользовательском интерфейсе представления данных только для текстовых полей.

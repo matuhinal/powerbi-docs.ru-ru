@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900061"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280209"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к данным **SAP Business Warehouse (BW)**.
 
-Сведения о том, какие преимущества могут получить клиенты SAP, подключив Power BI к своим системам SAP Business Warehouse (BW), см. в [этом документе](https://aka.ms/powerbiandsapbw).
+Сведения о том, какие преимущества могут получить клиенты SAP, подключив Power BI к своим системам SAP Business Warehouse (BW), см. в [этом документе](https://aka.ms/powerbiandsapbw). Сведения об использовании DirectQuery с SAP BW см. в статье [DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
 Начиная с выпуска **Power BI Desktop** за июнь 2018 года вы можете использовать соединитель SAP BW, в котором реализованы значительные улучшения в плане производительности и возможностей. Эта обновленная версия SAP BW была разработана корпорацией Майкрософт и называется **реализация 2.0**. Вы можете выбрать **соединитель SAP BW** версии 1 (v1) или **реализацию 2.0 соединителя SAP**. В следующих разделах по очереди описывается установка каждой версии. При подключении к SAP BW из Power BI Desktop можно выбрать один из соединителей.
 
@@ -38,9 +38,9 @@ ms.locfileid: "37900061"
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Установка реализации 2.0 соединителя SAP
 
-Для **реализации 2.0** соединителя SAP требуется SAP .NET Connector 3.0. [SAP .NET Connector 3.0 можно скачать](https://go.microsoft.com/fwlink/?linkid=872300) с веб-сайта SAP по следующей ссылке:
+Для **реализации 2.0** соединителя SAP требуется SAP .NET Connector 3.0. [SAP .NET Connector 3.0 можно скачать](https://support.sap.com/en/product/connectors/msnet.html) с веб-сайта SAP по следующей ссылке:
 
-* [SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 Для скачивания требуются действительные учетные данные S-пользователя. Клиентам рекомендуется обратиться в свой отдел SAP Basis за получением SAP .NET Connector 3.0. 
 
@@ -207,6 +207,7 @@ ms.locfileid: "37900061"
 Дополнительные сведения о SAP и DirectQuery см. в следующих статьях:
 
 * [DirectQuery и SAP HANA](desktop-directquery-sap-hana.md)
+* [Использование DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [Power BI и DirectQuery](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)
 * [Технический документ о Power BI и SAP BW](https://aka.ms/powerbiandsapbw)

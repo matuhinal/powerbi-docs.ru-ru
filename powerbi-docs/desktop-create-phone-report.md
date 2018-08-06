@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721071"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280669"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Создание отчетов, оптимизированных для мобильных приложений Power BI
 [Создавая отчет в Power BI Desktop](desktop-report-view.md), вы можете сделать его удобным для использования в мобильных приложениях на телефонах, выполнив специальную мобильную версию отчета. Чтобы адаптировать отчет для телефона, следует упорядочить визуальные элементы и изменить их размеры, возможно, не включая их все для обеспечения оптимальной производительности. Кроме того, вы можете создавать [*адаптивные* визуальные элементы](#optimize-a-visual-for-any-size) и [адаптивные срезы](#enhance-slicers-to-to-work-well-in-phone-reports), легко изменяющие размер при просмотре на телефоне. Если в отчет добавлены фильтры, в мобильном отчете эти фильтры будут отображаться автоматически. Пользователи будут видеть их и смогут с их помощью фильтровать данные в отчете.
@@ -72,7 +72,7 @@ ms.locfileid: "34721071"
   
    ![Удаление визуального элемента](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Улучшение срезов для оптимизации мобильных отчетов
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Улучшение срезов для оптимизации мобильных отчетов
 Срезы помогают фильтровать данные отчета на холсте. Когда вы создаете срезы в обычном режиме создания отчетов, вы можете изменить некоторые параметры среза, чтобы сделать его более удобным для использования в мобильных отчетах.
 
 * Вы можете указать количество элементов, которые могут выбирать читатели отчета.
