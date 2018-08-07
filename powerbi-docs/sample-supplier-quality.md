@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 9bc549c2579b4ab8c399bacde7a915033fb2ae14
-ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
+ms.openlocfilehash: 3d89b34199decf6b27bda49bfac085688dd2e14b
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37067131"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582686"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ качества поставщика: обзор"
 
@@ -33,7 +33,7 @@ ms.locfileid: "37067131"
 
 ## <a name="prerequisites"></a>Предварительные требования
 
- Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), [PBIX-файл](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
+ Прежде чем использовать пример, необходимо скачать его как [пакет содержимого](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), [PBIX-файл](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) или [книгу Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Получение пакета содержимого для этого примера
 
@@ -56,7 +56,7 @@ ms.locfileid: "37067131"
 
 Также вы можете загрузить пример в виде PBIX-файла, который предназначен для работы с Power BI Desktop. 
 
- * [Анализ качества поставщика — пример (PBIX-файл)](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+ * [Анализ качества поставщика — пример (PBIX-файл)](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 Вы также можете [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529779). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные выберите элементы **Power Pivot > Управление**.
