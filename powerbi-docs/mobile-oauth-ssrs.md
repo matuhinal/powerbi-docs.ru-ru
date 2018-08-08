@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852217"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415353"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к серверу отчетов Power BI и SQL Server Reporting Services 2016 или более поздней версии.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения (WAP), чтобы обеспечить такой тип проверки подлинности. Обратите внимание на то, что такая конфигурация не поддерживает просмотр отчетов Power BI в мобильных приложениях Power BI. Однако их можно просматривать в браузере на мобильном устройстве. Для просмотра отчетов Power BI в мобильном приложении необходимо использовать проверку подлинности Windows.
+С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения (WAP), чтобы обеспечить такой тип проверки подлинности. Обратите внимание, что просмотр отчетов Power BI, размещенных на Сервере отчетов Power BI, с использованием WAP для проверки подлинности сейчас официально не поддерживается.
 
 ## <a name="requirements"></a>Требования
 ОС Windows Server 2016 является обязательным компонентом для прокси-службы веб-приложения (WAP) и серверов службы федерации Active Directory (AD FS). Домен функционального уровня Windows 2016 не требуется.

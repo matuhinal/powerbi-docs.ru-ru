@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 447c777191e3da0a0d255a4eb7a6a0886fb278a5
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359893"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388601"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Регистрация приложения Azure AD для внедрения содержимого Power BI
 Узнайте, как зарегистрировать приложение в Azure Active Directory (Azure AD) для использования внедренного содержимого Power BI.
@@ -167,15 +167,17 @@ ms.locfileid: "39359893"
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
-    Используемый идентификатор ресурса *c78b2585-1df6-41de-95f7-dc5aeb7dc98e* не является универсальным, а зависит от клиента. Это значение — идентификатор объекта приложения "Служба Power BI" в клиенте AAD.
+    Используемый **идентификатор ресурса** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* не является универсальным, а зависит от клиента. Это значение — идентификатор объекта приложения "Служба Power BI" в клиенте AAD.
 
-    Пользователь может быстро получить это значение на портале Azure: а. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps б. Поиск "Служба Power BI" в окне поиска
+    Пользователь может быстро получить это значение на портале Azure:
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. Поиск "Служба Power BI" в окне поиска
 
 5. Предоставление разрешений на использование приложения службе Azure Active Directory (AAD)
    

@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f104d2e9e27cfb9af72813053c0d8cb14aaf2635
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359663"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415399"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
 * Если у вас возникли другие вопросы, [задайте их участникам сообщества Power BI](http://community.powerbi.com/).
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
 
-## <a name="general"></a>Общие
+## <a name="general"></a>Общий
 
 ### <a name="what-is-power-bi-embedded"></a>Что такое Power BI Embedded?
 
@@ -216,6 +216,8 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 Лицензия Power BI Pro требуется любому аналитику, который должен добавлять отчеты в рабочую область Power BI, любому разработчику, который должен использовать интерфейсы REST API, любому администратору клиента, который должен управлять клиентом Power BI и емкостью.
 
 Так как Power BI Embedded позволяет использовать портал Power BI для управления и проверки внедренного содержимого, лицензия Power BI Pro требуется для аутентификации приложения на сайте PowerBI.com, чтобы получить доступ к отчетам в нужных репозиториях.
+
+Однако для [создания или изменения внедренных отчетов](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) внутри собственного приложения конечному пользователю не требуется лицензия Pro, как ему вообще необязательно быть пользователем Power BI.
 
 ### <a name="can-i-get-started-for-free"></a>Можно ли начать работу бесплатно?
 

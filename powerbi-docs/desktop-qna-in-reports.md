@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329645"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475736"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Использование обработчика "Вопросы и ответы" в Power BI Desktop для запросов на естественном языке
 Эффективный обработчик позволяет задавать вопросы о данных с помощью обычных фраз и естественного языка. Еще больше впечатляет, когда от данных поступает ответ. Именно эту возможность предоставляет обработчик "Вопросы и ответы" в **Power BI Desktop**.
@@ -24,6 +24,11 @@ ms.locfileid: "39329645"
 
 > [!NOTE]
 > Функция "Вопросы и ответы" доступна только при работе с моделью, содержащей **импортированные** данные. Динамические подключения к моделям SQL Server Analysis Services и DirectQuery не поддерживаются.
+>
+>
+
+> [!NOTE]
+> Функция вопросов и ответов требует указанное ниже обновление среды выполнения C, если вы используете версию Windows младше Windows 10. Можно попытаться установить важные обновления из Центра обновления Windows или вручную установить необходимый компонент от корпорации Майкрософт (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 
