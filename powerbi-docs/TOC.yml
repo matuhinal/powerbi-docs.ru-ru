@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: Поиск пакета содержимого организации и подключение к нему
                   href: service-organizational-content-pack-find-and-open.md
-                - name: Совместное использование информационных панелей и отчетов
-                  href: service-share-dashboards.md
                 - name: "Вопросы и ответы по началу работы с Power\_BI"
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Подключение к службам
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Совместное использование работы
               items:
-                - name: 'Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?'
+                - name: Как совместно работать и предоставлять общий доступ?
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: Создание и распространение приложений с информационными панелями и отчетами
+                - name: Совместное использование информационных панелей и отчетов
+                  href: service-share-dashboards.md
+                - name: Создание рабочих областей приложений
+                  href: service-create-workspaces.md
+                - name: Создание рабочих областей (предварительная версия)
+                  href: service-create-the-new-workspaces.md
+                - name: Публикация приложений с панелями мониторинга и отчетами
                   href: service-create-distribute-apps.md
                 - name: Поделиться отфильтрованным отчетом
                   href: service-share-reports.md
