@@ -2,7 +2,7 @@
   items:
     - name: Обзор
       items:
-        - name: "Что такое Power\_BI?"
+        - name: Что такое Power BI?
           href: power-bi-overview.md
     - name: Краткие руководства
       items:
@@ -138,7 +138,7 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Поиск Azure
                   href: service-connect-to-azure-search.md
-                - name: "Circuit\_ID"
+                - name: Идентификатор цепи
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
                   href: service-connect-to-clickdimensions.md
@@ -224,7 +224,7 @@
                   href: service-connect-to-ziosk.md
                 - name: Zuora
                   href: service-connect-to-zuora.md
-            - name: Панели мониторинга
+            - name: Информационные панели
               items:
                 - name: Основные панели мониторинга в Power BI
                   href: service-dashboard-featured.md
@@ -246,13 +246,13 @@
                   href: service-report-subscribe.md
             - name: Опубликовать
               items:
-                - name: "Издатель Power\_BI для Excel"
+                - name: Издатель Power BI для Excel
                   href: publisher-for-excel.md
                 - name: Публикация в PowerPoint
                   href: service-publish-to-powerpoint.md
         - name: Работа в Power BI
           items:
-            - name: Панели мониторинга
+            - name: Информационные панели
               items:
                 - name: Создание панели мониторинга из отчета
                   href: service-dashboard-create.md
@@ -270,7 +270,7 @@
                   href: service-dashboard-pin-live-tile-from-report.md
                 - name: Метрики использования для панелей мониторинга
                   href: service-usage-metrics.md
-                - name: 'Добавление изображения, текстового поля, видео или веб-содержимого на панель мониторинга'
+                - name: 'Добавление изображения, текстового поля, видео или веб-кода на панель мониторинга'
                   href: service-dashboard-add-widget.md
                 - name: "Изменение плитки\_— изменение размера, перемещение, переименование, закрепление, удаление, добавление гиперссылки"
                   href: service-dashboard-edit-tile.md
@@ -342,7 +342,7 @@
                   href: service-organizational-content-pack-disconnect.md
                 - name: Сертификация
                   items:
-                    - name: Программа сертификации для пакетов содержимого
+                    - name: Программа сертификации пакета содержимого
                       href: service-content-pack-overview.md
                     - name: Создание пакета содержимого шаблона
                       href: template-content-pack-authoring.md
@@ -418,7 +418,7 @@
                   href: service-azure-sql-database-with-direct-connect.md
                 - name: Spark на HDInsight с поддержкой DirectQuery
                   href: spark-on-hdinsight-with-direct-connect.md
-                - name: Динамические данные служб SQL Server Analysis в Power BI
+                - name: Динамические данные служб SQL Server Analysis Services в Power BI
                   href: sql-server-analysis-services-tabular-data.md
                 - name: Azure и Power BI
                   href: service-azure-and-power-bi.md
@@ -436,7 +436,7 @@
                   href: refresh-excel-file-onedrive.md
                 - name: 'Обновление набора данных, созданного из файла данных с разделителями-запятыми (CSV) в OneDrive'
                   href: refresh-csv-file-onedrive.md
-                - name: 'Устранение неполадок в сценариях обновления '
+                - name: Устранение неполадок в сценариях обновления
                   href: refresh-troubleshooting-refresh-scenarios.md
             - name: Устранение неполадок
               items:
@@ -462,7 +462,7 @@
                   href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
                 - name: Устранение неполадок с запланированным обновлением для баз данных SQL Azure
                   href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-                - name: Ошибка. Не удалось найти данные в книге Excel.
+                - name: Ошибка. Не удалось найти данные в книге Excel
                   href: service-admin-troubleshoot-excel-workbook-data.md
                 - name: Устранение неполадок с плитками
                   href: refresh-troubleshooting-tile-errors.md
@@ -480,7 +480,7 @@
           href: supported-languages-countries-regions.md
         - name: Технические документы
           href: whitepapers.md
-- name: "Power\_BI Desktop"
+- name: Power BI Desktop
   items:
     - name: Обзор
       items:
@@ -602,7 +602,7 @@
               href: desktop-connect-using-generic-interfaces.md
             - name: Подключение к Adobe Analytics
               href: desktop-connect-adobe-analytics.md
-            - name: Подключение к базе данных Oracle
+            - name: Соединение с базой данных Oracle
               href: desktop-connect-oracle-database.md
             - name: Выполнение сценариев R в Power BI Desktop
               href: desktop-r-scripts.md
@@ -682,6 +682,8 @@
           items:
             - name: Визуальные элементы для отчетов
               href: desktop-visual-elements-for-reports.md
+            - name: Экспорт в PDF и печать отчетов
+              href: desktop-export-to-pdf.md
             - name: Обработчик "Вопросы и ответы" в Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
@@ -748,7 +750,7 @@
           items:
             - name: Рекомендации по работе с визуализациями
               href: power-bi-visualization-best-practices.md
-            - name: 'Просмотр данных, используемых для создания визуальных элементов'
+            - name: 'Просмотр данных, использовавшихся для создания визуализации'
               href: service-reports-show-data.md
             - name: Изменение типа визуализации в отчете Power BI
               href: power-bi-report-change-visualization-type.md
@@ -816,7 +818,7 @@
       items:
         - name: Видеоматериалы по Power BI Desktop
           href: desktop-videos.md
-        - name: Предыдущие ежемесячные обновления для Power BI Desktop
+        - name: Предыдущие ежемесячные обновления Power BI Desktop
           href: desktop-latest-update-archive.md
         - name: 'Заявление о конфиденциальности, действующее при отправке смайлика Power BI Desktop'
           href: desktop-send-smile-privacy-statement.md
@@ -868,7 +870,7 @@
               href: mobile-apps-deep-link-specific-location.md
             - name: "Фильтрация отчета по расположению в мобильных приложениях Power\_BI"
               href: mobile-apps-geographic-filtering.md
-            - name: Сканирование QR-кода Power BI с помощью телефона
+            - name: Сканирование QR-кода Power BI с телефона
               href: mobile-apps-qr-code.md
             - name: Панели мониторинга для мобильных приложений Power BI
               href: mobile-apps-view-dashboard.md
@@ -1232,7 +1234,7 @@
           href: service-gateway-mashup-on-premises-cloud.md
         - name: Использование Kerberos для единого входа
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
-        - name: Настройка параметров прокси-сервера
+        - name: Параметры настройки прокси-сервера
           href: service-gateway-proxy.md
         - name: Кластеры с высоким уровнем доступности для локальных шлюзов данных
           href: service-gateway-high-availability-clusters.md
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: Локальный шлюз данных (персональный режим)
           href: service-gateway-personal-mode.md
+        - name: Настраиваемые соединители
+          href: service-gateway-custom-connectors.md
         - name: Устранение неполадок локального шлюза данных
           href: service-gateway-onprem-tshoot.md
 - name: Администрирование
@@ -1308,7 +1312,7 @@
           href: service-admin-power-bi-expressroute.md
         - name: Использование службы Azure AD B2B
           href: service-admin-azure-ad-b2b.md
-        - name: Безопасность на уровне строк в Power BI
+        - name: Безопасность на уровне строк при использовании Power BI
           href: service-admin-rls.md
         - name: Архивная рабочая область Power BI
           href: service-admin-power-bi-archived-workspace.md
