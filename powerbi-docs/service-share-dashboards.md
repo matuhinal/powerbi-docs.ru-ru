@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299063"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624399"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Предоставление общего доступа коллегам и другим пользователям к панелям мониторинга и отчетам Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. В Power BI также доступны [другие способы совместной работы с панелями мониторинга и отчетами и их распространения](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -91,6 +91,8 @@ ms.locfileid: "34299063"
 
 4. В диалоговом окне **Удаление доступа** укажите, хотите ли вы также удалить доступ к связанному содержимому, например к отчетам и наборам данных. Если удалить элементы со значком предупреждения ![Значок предупреждения Power BI](media/service-share-dashboards/power-bi-warning-icon.png), следует удалить также связанное содержимое, так как оно не будет отображаться правильно.
 
+    ![Диалоговое окно с предупреждением о совместном использовании Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Совместное использование панели мониторинга или отчета с пользователями за пределами вашей организации
 Когда вы предоставляете общий доступ пользователям за пределами вашей организации, они получают электронное сообщение со ссылкой на панель мониторинга или отчет. Чтобы просмотреть их, пользователи должны войти в Power BI. Если у пользователей нет лицензии Power BI Pro, они могут зарегистрироваться для ее получения, перейдя по ссылке.
 
@@ -145,6 +147,8 @@ ms.locfileid: "34299063"
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Не удается предоставить общий доступ к панели мониторинга или отчету
 
 Чтобы предоставить общий доступ к панели мониторинга или отчету, требуется разрешение на повторное предоставление доступа к базовому содержимому, ко всем связанным отчетам и наборам данных. Если появится сообщение о том, что вы не можете предоставить общий доступ, обратитесь к автору отчета, чтобы он разрешил вам предоставлять доступ к этим отчетам и наборам данных.
+
+![Сообщение "Не удалось предоставить общий доступ"](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

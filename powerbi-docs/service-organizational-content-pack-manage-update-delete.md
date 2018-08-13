@@ -3,24 +3,23 @@ title: 'Пакеты содержимого организации: управл
 description: Сведения об управлении пакетами содержимого организации, их обновлении и удалении в Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182801"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624328"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Управление пакетами содержимого организации, их обновление и удаление
 > [!NOTE]
-> Слышали о новых *приложениях*? Приложения — это новый способ предоставления содержимого для большого количества пользователей в Power BI. В ближайшее время мы планируем отказаться от пакетов содержимого организации, поэтому вместо них советуем создавать приложения. Дополнительные сведения о приложениях см. [здесь](service-install-use-apps.md).
-> 
+> Нельзя создавать пакеты содержимого организации или устанавливать их в предварительной версии нового интерфейса рабочей области. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. Узнайте [больше о новом интерфейсе рабочей области](service-create-the-new-workspaces.md).
 > 
 
 Вы можете упаковать панели мониторинга, отчеты, книги Excel и наборы данных и поделиться ими со своими коллегами как [пакетами содержимого организации](service-organizational-content-pack-introduction.md). Ваши коллеги могут использовать их как есть или создать собственные копии.

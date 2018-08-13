@@ -3,22 +3,25 @@ title: Управление рабочей областью приложения
 description: Рабочие области приложений в Power BI обеспечивают широкие возможности для совместной работы на основе групп Office 365. Вы можете управлять рабочими областями приложений в Power BI и в Office 365.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukasz
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965212"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624351"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью приложения в Power BI и Office 365
 Автор или администратор [рабочей области приложения в Power BI](service-install-use-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365. 
+
+> [!NOTE]
+> В предварительной версии нового интерфейса рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Вы не будете автоматически создавать группу Office 365 каждый раз при создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей (предварительная версия)](service-create-the-new-workspaces.md)
 
 **В Power BI** можно выполнять следующие задачи:
 
@@ -38,7 +41,7 @@ ms.locfileid: "36965212"
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Изменение рабочей области приложения в Power BI
 1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие (**…**) рядом с именем рабочей области, а затем выберите **Изменить рабочую область**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Изменение рабочих областей в Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    > [!NOTE]
    > Кнопка **Edit workspace** (Изменить рабочую область) отображается только для администраторов рабочих областей.
@@ -46,34 +49,34 @@ ms.locfileid: "36965212"
    > 
 2. Здесь можно переименовать, добавить или удалить участников, а также переименовать или удалить рабочую область приложения. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
+   ![Диалоговое окно "Изменение рабочей области"](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 3. Выберите **Сохранить** или **Отменить**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Изменение свойств рабочей области приложения Power BI в Office 365
 1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие (**…**) рядом с именем рабочей области и выберите **Участники**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Изменение рабочих областей в Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Откроется представление Outlook для группы Office 365 для рабочей области приложения.
    
    Возможно, вам потребуется войти в свою корпоративную учетную запись.
 2. Щелкните многоточие (**…**) рядом с именем участника, чтобы сделать его администратором, или удалите участника из рабочей области приложения. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Изменение группы в Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ## <a name="add-an-image-and-set-other-workspace-properties-in-the-office-365-group"></a>Добавление изображения и задание других свойств рабочей области в группе Office 365
-При распространении приложения из рабочей области приложения изображение, которое вы добавите, будет изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в приложение](service-create-distribute-apps.md#add-an-image-to-your-app-optional) статьи [Создание и распространение приложения в Power BI](service-create-distribute-apps.md).
+При распространении приложения из рабочей области приложения изображение, которое вы добавите, будет изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в приложение](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) статьи [Создание новых рабочих областей](service-create-workspaces.md).
 
 1. В представлении Outlook для Office 365 для рабочей области приложения выберите значок с ее изображением, чтобы изменить свойства рабочей области.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
+   ![Значок "Изменить группу"](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 2. Здесь можно изменить имя, описание и языка, добавить изображение и задать другие свойства.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
+   ![Диалоговое окно "Изменить группу"](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 3. Выберите **Сохранить** или **Отменить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Что из себя представляют приложения в Power BI?](service-install-use-apps.md)
-* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md)
+* [Публикация приложений с панелями мониторинга и отчетами в Power BI](service-create-distribute-apps.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

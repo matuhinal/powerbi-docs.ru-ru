@@ -3,24 +3,25 @@ title: Совместная работа в рабочей области при
 description: Узнайте, как совместно работать с файлами Power BI Desktop в рабочей области приложения, используя такие возможности службы Office 365, как предоставление общего доступа к файлам в OneDrive для бизнеса, общение в Exchange, календарь и задачи.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245461"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623937"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Совместная работа в рабочей области приложения Power BI
-Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Ведь эти рабочие области предназначены для совместной работы. Поработав со своими коллегами над информационными панелями и отчетами, упакуйте их в виде приложения и распространите. Дополнительные сведения о создании приложений и рабочих областей приложений в Power BI см. в [этой статье](service-create-distribute-apps.md). 
+Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Совместная работа не ограничивается рабочими областями в Power BI. В Office 365 доступны и другие службы групп, включая решения по совместному использованию файлов в OneDrive для бизнеса, общению в Exchange, а также общий календарь, задачи и т. д. Узнайте подробнее о [группах в Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
-Совместная работа не ограничивается рабочими областями в Power BI. В Office 365 доступны и другие службы групп, включая решения по совместному использованию файлов в OneDrive для бизнеса, общению в Exchange, а также общий календарь, задачи и т. д. Узнайте подробнее о [группах в Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
+> [!NOTE]
+> В предварительной версии нового интерфейса рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Вы не будете автоматически создавать группу Office 365 каждый раз при создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей (предварительная версия)](service-create-the-new-workspaces.md)
 
 Рабочие области приложений доступны только в [Power BI Pro](service-free-vs-pro.md).
 
