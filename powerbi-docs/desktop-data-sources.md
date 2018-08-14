@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328403"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657881"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 Power BI Desktop позволяет подключаться к данным из многих разных источников. Полный список доступных источников данных представлен в нижней части этой страницы.
@@ -93,7 +93,6 @@ Power BI Desktop позволяет подключаться к данным и�
 Категория **Power BI** предоставляет следующие подключения к данным:
 
 * Наборы данных Power BI
-* Пулы данных Power BI (бета-версия)
 
 На следующем рисунке показано окно **Получение данных** для **Power BI**.
 
@@ -168,7 +167,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Active Directory
 * Microsoft Exchange
 * Файл Hadoop (HDFS)
-* Spark (бета-версия)
+* Spark;
 * Сценарий R
 * ODBC
 * OLE DB
