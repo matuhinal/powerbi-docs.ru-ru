@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210383"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658157"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -34,10 +34,66 @@ ms.locfileid: "39210383"
 
 В следующих разделах описываются обновления для **Power BI Desktop** за предыдущие месяцы.
 
+## <a name="july-2018-update-26051693201"></a>Обновление за июль 2018 г. (2.60.5169.3201)
+
+Крупные обновления в июле достойны восхищения благодаря долгожданным функциям по работе с данным и отчетами. Эти функции открывают новый высочайший уровень визуализации, благодаря использованию ярких и красочных эффектов.
+
+Ниже перечислены обновления, добавленные в **Power BI Desktop** в июле.
+
+### <a name="modeling"></a>Моделирование
+
+* Составные модели (предварительная версия): [[видео]](https://youtu.be/Mtig3rmIUe0?t=15s), [[статья]](desktop-composite-models.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels).
+* Связи "многие ко многим" (предварительная версия) (относится к составным моделям): [[видео]](https://youtu.be/Mtig3rmIUe0?t=4m53s), [[статья]](desktop-many-to-many-relationships.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels).
+* Режим хранения (предварительная версия) (относится к составным моделям): [[видео]](https://youtu.be/Mtig3rmIUe0?t=15s), [[статья]](desktop-storage-mode.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels).
+
+
+### <a name="reporting"></a>Отчеты
+
+* Новый визуальный заголовок с дополнительной гибкостью и форматированием: [[видео]](https://youtu.be/Mtig3rmIUe0?t=8m26s), [[статья]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader). 
+* Форматирование фонового рисунка: [[видео]](https://youtu.be/Mtig3rmIUe0?t=14m19s), [[статья]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper). 
+* Обновление тематического оформления — дополнительная визуализация и управление страницами (предварительная версия): [[видео]](https://youtu.be/Mtig3rmIUe0?t=19m14s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme). 
+* Всплывающие подсказки для таблицы и матрицы: [[видео]](https://youtu.be/Mtig3rmIUe0?t=22m53s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips). 
+* Отключение всплывающих подсказок для визуальных элементов: [[видео]](https://youtu.be/Mtig3rmIUe0?t=22m53s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips). 
+* Специальные возможности для срезов: [[видео]](https://youtu.be/Mtig3rmIUe0?t=27m29s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility). 
+* Улучшения области форматирования: [[видео]](https://youtu.be/Mtig3rmIUe0?t=30m18s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane). 
+* Поддержка пошаговых линий для линейных и комбинированных диаграмм: [[видео]](https://youtu.be/Mtig3rmIUe0?t=32m46s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine). 
+* Отключение меток данных на комбинированной диаграмме для отдельных рядов: [[видео]](https://youtu.be/Mtig3rmIUe0?t=34m19s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels). 
+* Улучшение процесса сортировки: [[видео]](https://youtu.be/Mtig3rmIUe0?t=35m44s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting). 
+
+### <a name="analytics"></a>Аналитика
+
+* Аналитические сведения о факторах распределения: [[видео]](https://youtu.be/Mtig3rmIUe0?t=37m), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor). 
+
+### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
+
+* Сертифицированная категория Power BI: [[видео]](https://youtu.be/Mtig3rmIUe0?t=41m13s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals). 
+* Отключение определенных визуальных элементов организации: [[видео]](https://youtu.be/Mtig3rmIUe0?t=42m32s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals). 
+* Четыре новых настраиваемых визуальных элемента: [[видео]](https://youtu.be/Mtig3rmIUe0?t=44m), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio). 
+
+### <a name="data-connectivity"></a>Подключение к данным
+
+* Соединитель IBM DB2 DirectQuery (предварительная версия): [[видео]](https://youtu.be/Mtig3rmIUe0?t=54m25s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2). 
+* Улучшения соединителя Web By Example: [[видео]](https://youtu.be/Mtig3rmIUe0?t=54m53s), [[статья]](desktop-connect-to-web-by-example.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample). 
+* SAP HANA — значения по умолчанию для переменных при работе с входными данными переменных: [[видео]](https://youtu.be/Mtig3rmIUe0?t=56m19s), [[статья]](desktop-sap-hana.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA). 
+
+
+> [!NOTE]
+> Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
+
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+
+
+Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2018-update-2595135101"></a>Обновление за июнь 2018 г. (2.59.5135.101)
 
-В обновлениях за этот месяц мы представили новые функции и улучшения, которые делают отчеты еще эффективнее, а аналитические данные в них — еще содержательнее.
+В обновлениях за июнь мы представили новые функции и улучшения, которые делают отчеты еще эффективнее, а аналитические данные в них — еще содержательнее.
 
 В июне для приложения **Power BI Desktop** появились такие обновления:
 
@@ -49,7 +105,7 @@ ms.locfileid: "39210383"
 * Форматирование меток данных по отдельности для каждой меры в комбинированной диаграмме [[видео]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
 * Более длинные отчеты для телефонов [[видео]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
 * Новые пользовательские визуальные элементы [[видео]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
@@ -104,7 +160,7 @@ ms.locfileid: "39210383"
 
 * Добавочное обновление (предварительная версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[статья]](service-premium-incremental-refresh.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
 * Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
@@ -156,7 +212,7 @@ ms.locfileid: "39210383"
 * Обновление лингвистической схемы [[видео]](https://youtu.be/W_Nb73Od_AI?t=22m) [[статья]](power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Новая функция DAX: COMBINEVALUES() [[видео]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
 * Общедоступные версии организационных визуализаций [[видео]](https://youtu.be/W_Nb73Od_AI?t=26m11s) [[статья]](power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
 * Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/W_Nb73Od_AI?t=28m8s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
@@ -196,7 +252,7 @@ ms.locfileid: "39210383"
 * Отключение заголовка визуального элемента в режиме чтения для отчета [[видео]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * Улучшенное размещение визуальных элементов по умолчанию [[видео]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
 * Множество новых пользовательских визуальных элементов [[видео]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[статья]](power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
@@ -255,7 +311,7 @@ ms.locfileid: "39210383"
 * Поиск по панелям форматирования и аналитики [[видео]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[статья]](desktop-analytics-pane.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
 * Пользовательские визуальные элементы организации (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[статья]](power-bi-custom-visuals-organization.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 

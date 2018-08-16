@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217635"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657904"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Усовершенствование отчетов Power BI с помощью визуальных элементов
 
@@ -59,6 +59,9 @@ ms.locfileid: "39217635"
 ![При установке уровня прозрачности более 50 % появляется пунктирная граница](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 Важно отметить, что пунктирная граница отображается *только* при редактировании отчета и *не* видна пользователям, которые просматривают опубликованный отчет, например при просмотре в **службе Power BI**.
+
+> [!NOTE]
+> Если вы используете темный фоновый рисунок и белый или очень светлый цвет текста, помните, что функция **Экспорт в PDF** не выполняется для фонового рисунка, поэтому после экспорта такой текст не будет видно. Дополнительные сведения о функции **Экспорт в PDF** см. в [соответствующем разделе](desktop-export-to-pdf.md).
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Использование улучшенных заголовков визуальных элементов в отчетах Power BI
