@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244256"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257141"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Подключение к Application Insights с помощью Power BI
 Используйте Power BI для создания эффективных пользовательских панелей мониторинга на базе телеметрии [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Взгляните на данные телеметрии вашего приложения под новым углом. Сочетайте метрики из нескольких приложений или служб компонентов на одной информационной панели. Этот первый выпуск пакета содержимого Power BI для Application Insights включает в себя мини-приложения для распространенных метрик использования, например активных пользователей, просмотра страниц, сеансов, версии браузера и ОС, а также географического распределения пользователей на карте.
@@ -23,7 +23,7 @@ ms.locfileid: "34244256"
 Подключите [пакет содержимого Application Insights для Power BI](https://app.powerbi.com/getdata/services/application-insights).
 
 >[!NOTE]
->Для подключения требуется доступ к колонке общих сведений Application Insights в вашем приложении портала предварительной версии Azure. Дополнительные сведения о требованиях см. ниже.
+>Сейчас этот метод интеграции является **устаревшим**. Дополнительные сведения о предпочтительном методе подключения Application Insights к Power BI см. в разделе об [экспорте запроса аналитики](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries).
 
 ## <a name="how-to-connect"></a>Способы подключения
 1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.

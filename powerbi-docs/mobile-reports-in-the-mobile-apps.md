@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799425"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257023"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Область применения:
@@ -84,7 +84,7 @@ ms.locfileid: "34799425"
 ## <a name="drill-down-and-up-in-a-visual"></a>Увеличение и уменьшение детализации визуального элемента
 Если автор отчета добавил в визуальный элемент возможность детализации, вы можете подробно просматривать значения в какой-то части этого элемента. Детализацию можно [добавить в визуальный элемент](power-bi-visualization-drill-down.md) в службе Power BI Desktop или Power BI. 
 
-* Коснитесь точки данных в визуальном элементе, чтобы отобразить всплывающую подсказку. Если в визуальном элементе доступна детализация, в нижней части подсказки будут стрелки. 
+* Коснитесь и удерживайте определенный столбик или точку в визуальном элементе, чтобы отобразить всплывающую подсказку. Если в визуальном элементе доступна детализация, в нижней части подсказки будут стрелки. 
   
   ![Детализация в визуальном элементе](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

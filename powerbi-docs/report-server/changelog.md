@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482137"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256422"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 
@@ -22,6 +22,18 @@ ms.locfileid: "34482137"
 
 Дополнительные сведения о новых возможностях см. в статье [Новые возможности сервера отчетов Power BI](whats-new.md). 
 
+## <a name="august-2018"></a>Август 2018 г.
+- **Сервер отчетов Power BI**
+    - *Версия 1.3.6801.38816 (сборка 15.0.2.540), дата выпуска: 15 августа 2018 г.*
+        - Функции
+            - Теперь для отчетов Power BI доступна поддержка прямых запросов SSO для SAP HANA с Kerberos.
+            - В состав выпуска входит API настраиваемых визуальных элементов версии 1.13.0.
+            - Для настраиваемых визуальных элементов будет использоваться предыдущая версия, совместимая с текущей версией API сервера (если таковая доступна).
+
+- **Power BI Desktop (оптимизировано для решения "Сервер отчетов Power BI")**.
+    - *Версия: 2.61.5192.64 (август 2018 г.), дата выпуска: 15 августа 2018 г.*
+        - Содержит изменения, необходимые для подключения к серверу отчетов Power BI (август 2018 г.).         
+        
 ## <a name="march-2018"></a>Март 2018 г.
 - **Сервер отчетов Power BI**
     - *Версия 1.2.6690.34729 (сборка 15.0.2.402), дата выпуска: 27 апреля 2018 г.*

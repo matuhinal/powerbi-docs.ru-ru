@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600386"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256859"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Создание пользовательского визуального элемента с помощью средств разработчика
 Пользовательские визуальные элементы отвечают потребностям пользователей, а также соответствуют дизайну вашего приложения. Узнайте, как создать пользовательский визуальный элемент с помощью средств разработчика для Power BI.
@@ -178,10 +178,10 @@ ms.locfileid: "37600386"
 Проект визуального элемента можно создать, выполнив следующую команду.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-*My Visual Name* можно заменить требуемым именем для визуального элемента. Позже его можно изменить, изменив поля `name` и `displayName` в созданном файле `pbiviz.json`.
+*MyVisualName* можно заменить требуемым именем для визуального элемента. Позже его можно изменить, изменив поля `name` и `displayName` в созданном файле `pbiviz.json`.
 
 Эта команда создаст папку в каталоге, в котором выполнялась команда. Она создаст базовый шаблон для визуального элемента. После выполнения команды вы можете открыть каталог и использовать редактор для начала работы с новым визуальным элементом.
 

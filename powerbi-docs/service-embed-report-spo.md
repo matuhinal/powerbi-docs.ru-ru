@@ -2,21 +2,21 @@
 title: Внедрение с помощью веб-части отчетов в SharePoint Online
 description: С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032055"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257149"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -28,6 +28,7 @@ ms.locfileid: "39032055"
 
 Чтобы отчеты, **внедренные в SharePoint Online**, работали, необходимо соблюсти несколько требований.
 
+* Требуется лицензия Power BI Pro или [емкость Power BI Premium (номер SKU EM или P)](service-premium.md#premium-capacity-nodes) с лицензией Power BI.
 * Для веб-части Power BI для SharePoint Online требуются [современные страницы](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
 
 ## <a name="embed-your-report"></a>Внедрение отчета
@@ -49,7 +50,7 @@ ms.locfileid: "39032055"
     ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
    > [!NOTE]
-   > Вы также можете использовать URL-адрес, который отображается в адресной строке веб-браузера при просмотре отчета. Этот URL-адрес будет содержать страницу отчета, которую вы сейчас просматриваете. Если вы хотите использовать другую страницу, удалите раздел report из URL-адреса.
+   > Вы также можете использовать URL-адрес, который отображается в адресной строке веб-браузера при просмотре отчета. Этот URL-адрес содержит страницу отчета, которую вы сейчас просматриваете. Если вы хотите использовать другую страницу, удалите раздел report из URL-адреса.
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Добавление отчета Power BI на страницу SharePoint Online
 
@@ -69,7 +70,7 @@ ms.locfileid: "39032055"
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. Вставьте URL-адрес отчета в область свойств. Это URL-адрес, скопированный на предыдущих этапах. Отчет загрузится автоматически.
+4. Вставьте URL-адрес отчета в область свойств. Это URL-адрес, скопированный на предыдущих этапах. Отчет загружается автоматически.
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -110,7 +111,7 @@ ms.locfileid: "39032055"
 Если среда Power BI требует входа с помощью многофакторной идентификации, может появиться запрос на вход с помощью устройства безопасности для проверки вашего удостоверения. Это происходит, если вы не вошли в SharePoint Online с помощью многофакторной идентификации, но среда Power BI требует, чтобы учетная запись была проверена устройством безопасности.
 
 > [!NOTE]
-> Многофакторная идентификация еще не поддерживается в Azure Active Directory 2.0. Пользователи будут получать сообщение об *ошибке*. Если пользователь повторно войдет в SharePoint Online с помощью своего устройства безопасности, он сможет просматривать отчет.
+> Многофакторная идентификация еще не поддерживается в Azure Active Directory 2.0. Пользователи получат сообщение об *ошибке*. Если пользователь повторно войдет в SharePoint Online с помощью своего устройства безопасности, он сможет просматривать отчет.
 
 ## <a name="reports-that-do-not-load"></a>Отчеты, которые не загружаются
 
@@ -135,9 +136,9 @@ ms.locfileid: "39032055"
   
   1. Выйдите из SharePoint и войдите в службу снова. Перед повторным входом закройте все окна браузера.
 
-  2. Если учетной записи пользователя требуется Многофакторная идентификация (MFA), выполните вход в SharePoint с устройства, поддерживающего Многофакторную идентификацию (мобильное приложение, смарт-карта и т. д.)
+  2. Если учетной записи пользователя требуется многофакторная идентификация (MFA), выполните вход в SharePoint с устройства, поддерживающего многофакторную идентификацию (мобильное приложение, смарт-карта и т. д.)
   
-  3. Гостевые учетные записи B2B Azure не поддерживаются. Пользователи увидят логотип Power BI, показывающий, что часть загружается, но отчет не отобразится.
+  3. Гостевые учетные записи B2B Azure не поддерживаются. Пользователи видят логотип Power BI, показывающий, что часть загружается, но отчет не отображается.
 
 * Power BI не поддерживает те же языки с локализацией, что и SharePoint Online. В результате во внедренном отчете требуемая локализация может не отображаться.
 
