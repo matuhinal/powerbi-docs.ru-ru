@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280140"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151959"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Область применения:
@@ -28,10 +28,6 @@ ms.locfileid: "39280140"
 Затем в мобильных приложениях Power BI вы открываете эти плитки в режиме фокусировки и работаете с ними. Можно открывать плитки с разнообразными визуальными элементами, включая плитки на основе Bing и R.
 
 ## <a name="tiles-in-the-ios-apps"></a>Плитки в приложениях для iOS
-> [!NOTE]
-> Вы также можете [создавать плитки изображений в приложении iPhone](mobile-iphone-app-get-started.md) и сохранять их на панели мониторинга.
-> 
-> 
 
 1. Откройте [информационную панель в мобильном приложении для iOS](mobile-apps-view-dashboard.md).
 2. Коснитесь плитки. Она откроется в режиме фокусировки, в котором проще просматривать и изучать представленные на ней данные. В режиме фокусировки можно выполнять следующие задачи.
@@ -40,7 +36,7 @@ ms.locfileid: "39280140"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Например, на этом графике выбранные значения соответствуют показателям **продаж за текущий</em>* и **прошлый годы** в **августе**.*  
+   *Например, на этом графике выбранные значения соответствуют показателям **продаж за текущий** и **прошлый годы** в **августе**.*  
    
    Коснитесь сегмента круговой диаграммы, чтобы отобразить его значения над диаграммой.  
    
@@ -107,7 +103,7 @@ ms.locfileid: "39280140"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>На этой линейчатой диаграмме значения столбца **Decor</em>* (Декор) показаны над диаграммой.*
+   *На этой линейчатой диаграмме значения столбца **Decor** (Декор) показаны над диаграммой.*
    
    Коснитесь значка **Во весь экран** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png), чтобы открыть плитку в полноэкранном режиме без панели навигации и меню.
    
