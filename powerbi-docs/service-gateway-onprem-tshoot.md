@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658019"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151913"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 
@@ -279,7 +279,7 @@ ms.locfileid: "39658019"
 | # of Mashup open connection failed / sec |Количество выполненных в секунду действий открытых подключений гибридных приложений, завершившихся с ошибкой. |
 | # of Mashup queries executed / sec |Количество запросов гибридных приложений, выполненных в секунду (завершившихся успешно или с ошибкой). |
 | # of Mashup queries failed / sec |Количество выполненных в секунду запросов гибридных приложений, завершившихся с ошибкой. |
-| # of multiple result sets of OLEDB queries failed / sec |Количество выполненных в секунду запросов нескольких результирующих наборов OLEDB, завершившихся с ошибкой. |
+| # of OLEDB multiple result set queries failed / sec |Количество выполненных в секунду запросов нескольких результирующих наборов OLEDB, завершившихся с ошибкой. |
 | # of OLEDB multiple result sets of queries executed / sec |Количество запросов нескольких результирующих наборов OLEDB, выполненных в секунду (завершившихся успешно или с ошибкой). |
 | # of OLEDB open connection executed / sec |Количество действий открытых подключений OLEDB, выполненных в секунду (завершившихся успешно или с ошибкой). |
 | # of OLEDB open connection failed / sec |Количество выполненных в секунду действий открытых подключений OLEDB, завершившихся с ошибкой. |
