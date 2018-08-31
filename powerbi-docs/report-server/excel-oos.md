@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257919"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703013"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Настройка сервера отчетов для размещения книг Excel с использованием Office Online Server (OOS)
 
@@ -37,7 +37,7 @@ ms.locfileid: "40257919"
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ ms.locfileid: "40257919"
 1. Скачайте Office Online Server с веб-сайта [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). Файлы для скачивания находятся в разделе продуктов Office на портале VLSC. Разработчики могут скачать OOS на сайте MSDN для подписчиков.
 2. Запустите Setup.exe.
 3. На странице **Условия лицензионного соглашения на использование программного обеспечения корпорации Майкрософт** выберите **Я принимаю условия этого соглашения** и нажмите кнопку **Продолжить**.
-4. На странице **Выбор расположения файлов** выберите папку для установки файлов Office Online Server (например, *C:\Program Files\Microsoft Office Web Apps*) и нажмите кнопку **Установить**. Если указанная папка не существует, она будет создана автоматически.
+4. На странице **Выбор расположения файлов** выберите папку, в которую вы хотите установить файлы Office Online Server (например, C:\Program Files\Microsoft Office Web Apps*), а затем выберите **Установить сейчас**. Если указанная папка не существует, она будет создана автоматически.
 
-    **_Рекомендуем установить Office Online Server на системном диске._**
+    Рекомендуем установить Office Online Server на системном диске.
 
 5. Когда установка Office Online Server будет завершена, нажмите кнопку **Закрыть**.
 
