@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137034"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695117"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Подключение к Microsoft Dynamics Marketing с помощью Power BI
 Пакет содержимого Microsoft Dynamics Marketing для Power BI позволяет легко получать доступ к данным Dynamics Marketing и анализировать их. Пакет содержимого использует описательные модели на основе веб-канала OData, содержащие все необходимые сущности и измерения, такие как программы, кампании, маркетинговые контакты и компании, интересы, взаимодействия с интересами, оценки интересов, маркетинговые веб-сайты и сообщения электронной почты, наблюдения поведения, бюджеты, финансовые операции, ключевые показатели эффективности и многое другое. 
@@ -35,7 +35,7 @@ ms.locfileid: "37137034"
 3. Выберите **Microsoft Dynamics Marketing** \> **Получить**.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Укажите URL-адрес OData, связанный с вашей учетной записью.  Он использует формат "https:// [имя\_экземпляра].marketing.dynamics.com/analytics".
+4. Укажите URL-адрес OData, связанный с вашей учетной записью.  Он должен иметь вид "`https://[instance\_name].marketing.dynamics.com/analytics.`".
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. При появлении запроса укажите учетные данные (этот шаг можно пропустить, если вы уже выполнили вход в браузере). В качестве метода проверки подлинности введите **oAuth2** и нажмите кнопку **Вход**:
@@ -54,7 +54,7 @@ ms.locfileid: "37137034"
 
 ## <a name="system-requirements"></a>Требования к системе
 * Вам необходимо указать допустимый URL-адрес OData для экземпляра Dynamics Marketing (пакет содержимого не будет работать с локальной версией CRM-системы).  
-* Администратор должен включить конечную точку OData в настройках сайта. Чтобы найти адрес конечной точки OData, перейдите в меню **Главная \> Параметры \> Параметры сайта** в разделе **Служба данных организации**.  URL-адрес OData использует формат следующий: https://[имя\_экземпляра].marketing.dynamics.com/analytics.  
+* Администратор должен включить конечную точку OData в настройках сайта. Чтобы найти адрес конечной точки OData, перейдите в меню **Главная \> Параметры \> Параметры сайта** в разделе **Служба данных организации**.  URL-адрес OData использует формат следующий: https:// [имя\_экземпляра].marketing.dynamics.com/analytics.  
 * Для доступа к Microsoft Dynamics Marketing необходимо применять ту же учетную запись или удостоверение пользователя, с помощью которых вы зарегистрировались для использования службы Power BI. При входе в Microsoft Dynamics Marketing вы автоматически входите с удостоверением, используемым для Power BI. Если вы хотите войти в Microsoft Dynamics Marketing под другой учетной записью, зарегистрируйте как пользователь Power BI, указав другую учетную запись. Мы надеемся устранить эту проблему в будущей версии.   
 
 ## <a name="troubleshooting"></a>Устранение неполадок
