@@ -2,20 +2,20 @@
 title: Плитки информационной панели в службе Power BI
 description: Все о плитках панелей мониторинга в Power BI. Это плитки, созданные в SQL Server Reporting Services (SSRS).
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249075"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241598"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
 Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. Хотя плитки информационной панели нельзя создавать и закреплять в Power BI Mobile, их можно [просматривать и предоставлять для общего доступа](mobile-tiles-in-the-mobile-apps.md). В Power BI Mobile можно [добавлять фотографии на информационную панель с помощью приложений для iPhone](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ ms.locfileid: "34249075"
    
    * [открыть лист, который использовался для создания этой плитки ](service-reports.md) ![значок листа](media/service-dashboard-tiles/power-bi-open-worksheet.png);  
      
-     * [просматривать плитку в режиме фокусировки ](service-focus-mode.md) ![значок фокусировки](media/service-dashboard-tiles/fullscreen-icon.jpg);  
+    * [просматривать плитку в режиме фокусировки ](service-focus-mode.md) ![значок фокусировки](media/service-dashboard-tiles/fullscreen-icon.jpg);  
      * [экспортировать данные, используемые на плитке](power-bi-visualization-export-data.md) ![значок экспорта данных](media/service-dashboard-tiles/export-icon.png);
-     * [изменять заголовок и подзаголовок, добавлять гиперссылку, отображать время последнего обновления](service-dashboard-edit-tile.md) ![значок редактирования](media/service-dashboard-tiles/pencil-icon.jpg);
+     * =[изменить заголовок и подзаголовок, добавить гиперссылку](service-dashboard-edit-tile.md) ![значок редактирования](media/service-dashboard-tiles/pencil-icon.jpg);
      * [запускать аналитику ](service-insights.md) ![значок аналитики](media/service-dashboard-tiles/power-bi-insights.png);
      * [закреплять плитку на другой панели мониторинга ](service-pin-tile-to-another-dashboard.md)
        ![значок закрепления](media/service-dashboard-tiles/pin-icon.jpg);

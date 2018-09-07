@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256422"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380320"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 
@@ -24,6 +24,15 @@ ms.locfileid: "40256422"
 
 ## <a name="august-2018"></a>Август 2018 г.
 - **Сервер отчетов Power BI**
+    - *Версия 1.3.6816.37243 (сборка 15.0.2.557), дата выпуска: 30 августа 2018 г.*
+        - Исправленные ошибки
+            - Устранена проблема, при которой во время обновления сервера с более ранних версий сервера отчетов PBI перенаправление привязки не обновлялось и клиенты видели такое сообщение:      
+            *`
+            Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
+             `*
+             
+            - Исправлена ошибка прозрачности метки данных.
+            
     - *Версия 1.3.6801.38816 (сборка 15.0.2.540), дата выпуска: 15 августа 2018 г.*
         - Функции
             - Теперь для отчетов Power BI доступна поддержка прямых запросов SSO для SAP HANA с Kerberos.

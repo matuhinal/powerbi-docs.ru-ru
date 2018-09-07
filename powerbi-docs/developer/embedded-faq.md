@@ -2,30 +2,30 @@
 title: Часто задаваемые вопросы о Power BI Embedded
 description: Просмотрите список часто задаваемых вопросов о Power BI Embedded и ознакомьтесь с ответами.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415399"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241529"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
 * Если у вас возникли другие вопросы, [задайте их участникам сообщества Power BI](http://community.powerbi.com/).
-* Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
+* Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="general"></a>Общий
 
 ### <a name="what-is-power-bi-embedded"></a>Что такое Power BI Embedded?
 
-Microsoft Power BI Embedded позволяет разработчикам приложений внедрять впечатляющие полностью интерактивные отчеты, панели мониторинга и плитки в приложения, не тратя время и деньги на создание собственных визуализаций данных и элементов управления с нуля.
+Microsoft Power BI Embedded (PBIE) позволяет разработчикам приложений внедрять впечатляющие, полностью интерактивные отчеты в приложения, не тратя время и деньги на создание собственных визуализаций данных и элементов управления с нуля.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Какова целевая аудитория службы Power BI Embedded?
 
@@ -70,7 +70,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 | Использование отчетов Power BI во внедренном приложении | Да | Да | Да |
 | Использование отчетов Power BI в SharePoint | Нет | Да | Да |
 | Использование отчетов Power BI в Dynamics | Нет | Да | Да |
-| Использование отчетов Power BI в Teams | Нет | Да | Да |
+| Использование отчетов Power BI в Teams (за исключением мобильного приложения) | Нет | Да | Да |
 | Доступ к содержимому с бесплатной лицензией Power BI на Powerbi.com и в Power BI Mobile | Нет | Нет | Да |
 | Доступ к содержимому с бесплатной лицензией Power BI в приложениях MS Office | Нет | Да | Да |
 
@@ -78,13 +78,13 @@ Power BI Embedded — это набор интерфейсов API, позвол
 
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
-|Купить     |Портал Azure |Office |Office |
-|Варианты использования |* Внедрение содержимого в разработанное приложение |* Внедрение содержимого в разработанное приложение<br>* Внедрение содержимого в другие приложения MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)). |* Внедрение содержимого в разработанное приложение<br>* Внедрение содержимого в другие приложения MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)).<br>* Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Купить  |Портал Azure |Office |Office |
+|Варианты использования | Внедрение содержимого в собственное приложение | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Выставление счетов |Каждый час |Ежемесячно |Ежемесячно |
 |Обязательство  |Никаких обязательств |Ежегодно  |Ежемесячно или ежегодно |
-|Отличия |Полная гибкость — масштабируемость, приостановление и возобновление использования ресурсов на портале Azure или с помощью API  |Можно использовать для внедрения содержимого в SharePoint Online и Microsoft Teams |Объединение возможности внедрения в приложение и использования службы Power BI в одной емкости |
+|Отличия |Полная гибкость — масштабируемость, приостановление и возобновление использования ресурсов на портале Azure или с помощью API  |Можно использовать для внедрения содержимого в SharePoint Online и Microsoft Teams (за исключением мобильного приложения) |Объединение возможности внедрения в приложение и использования службы Power BI в одной емкости |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Что необходимо для создания емкости PBIE в Azure?
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Что необходимо для создания емкости PBIE в Azure? 
 
 * Необходим вход в каталог организации (учетные записи MSA не поддерживаются).
 * Необходим клиент Power BI, т. е. как минимум один пользователь в вашем каталоге должен зарегистрироваться в Power BI. 
@@ -126,14 +126,14 @@ https://app.powerbi.com/ > ? > О Power BI
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Можно ли использовать API для создания емкостей Azure и управления ими?
 
-Да, существуют командлеты PowerShell и API-интерфейсы ARM, которые можно использовать для создания ресурсов PBIE и управления ими.
+Да, существуют командлеты PowerShell и API-интерфейсы Azure Resource Manager (ARM), которые можно использовать для создания ресурсов PBIE и управления ими.
 
 * REST API — https://docs.microsoft.com/rest/api/power-bi-embedded/
 * Командлеты PowerShell — https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Что такое роль выделенной емкости PBI Embedded в решении PBI Embedded?
 
-Чтобы [перенести решение в рабочую среду](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), необходимо, чтобы содержимое Power BI (рабочая область приложения, которую вы используете в приложении) было назначено выделенной емкости.
+Чтобы [перенести решение в рабочую среду](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), необходимо, чтобы содержимое Power BI (рабочая область приложения, которую вы используете в приложении) было назначено емкости Power BI Embedded (A SKU).
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>В каких регионах Azure доступен компонент PBI Embedded?
 
@@ -239,7 +239,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Что такое коллекция рабочих областей Power BI?
 
-**Коллекция рабочих областей Power BI** (**Power BI Embedded** версии 1) — это решение на основе ресурса Azure **Коллекция рабочих областей Power BI**. Это решение позволяет создавать приложения **Power BI Embedded** для предоставления клиентам содержимого Power BI, размещенного в решении **Коллекция рабочих областей Power BI** с помощью специальных интерфейсов API и ключей рабочей области для аутентификации приложения в Power BI.
+**Коллекция рабочих областей Power BI** (**Power BI Embedded** версии 1) — это решение на основе ресурса Azure **Коллекция рабочих областей Power BI**. Это решение позволяет создавать приложения **Power BI Embedded** для предоставления клиентам содержимого Power BI, размещенного в решении **Коллекция рабочих областей Power BI** с помощью специальных интерфейсов API и ключей рабочей области для проверки подлинности приложения в Power BI.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Можно ли перенести содержимое из коллекции рабочих областей Power BI в Power BI Embedded?
 
@@ -273,7 +273,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 Вот лишь некоторые из них:
 * поддержка всех источников данных Power BI, а не только двух стандартных источников для **коллекции рабочих областей Power BI**; 
-* поддержка в решении **Power BI Embedded** таких функций, как вопросы и ответы, обновление, закладки, внедрение панелей мониторинга и плиток, пользовательские меню и т. д.;
+* Новые функции, такие как вопросы и ответы, обновление, закладки, внедрение информационных панелей и плиток, а также пользовательские меню поддерживаются только в решении **Power BI Embedded**.
 * модель выставления счетов по емкости.
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Средство подключения для внедрения
