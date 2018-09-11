@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256932"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343330"
 ---
 # <a name="power-bi-performance-best-practices"></a>Рекомендации по производительности Power BI 
 В этой статье приводятся рекомендации по созданию быстрых и надежных отчетов в Power BI.  
@@ -59,7 +59,7 @@ ms.locfileid: "40256932"
 - По возможности принудительно отправляйте вычисляемые столбцы и меры в источник. Чем ближе они к источнику, тем выше производительность. 
 - Оптимизируйте. Анализируйте планы выполнения для запросов, добавляйте индексы для часто фильтруемых столбцов и т. д. 
 
-### <a name="modelling-guidance"></a>Рекомендации по моделированию 
+### <a name="modeling-guidance"></a>Руководство по моделированию 
 - Для начала используйте Power BI Desktop. 
 - Избегайте сложных запросов в редакторе запросов. 
 - Не используйте фильтрацию относительных дат в редакторе запросов.  
@@ -110,7 +110,7 @@ ms.locfileid: "40256932"
 
    В результате вы получите список приложений и открытых для них портов, например:  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
