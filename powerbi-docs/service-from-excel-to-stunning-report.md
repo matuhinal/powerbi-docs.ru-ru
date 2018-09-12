@@ -2,20 +2,20 @@
 title: Быстрое превращение книги Excel в красивый отчет
 description: Быстрое превращение книги Excel в красивый отчет
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247179"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044424"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Быстрое превращение книги Excel в красивый отчет
 Ваш руководитель требует отчет по последним результатам продаж и ваши впечатления о последней кампании к концу дня. При этом последние данные хранятся в различных сторонних системах и в файлах на вашем ноутбуке. Раньше создание визуальных элементов и форматирование отчета занимало несколько часов. Вы начинаете нервничать.
@@ -34,7 +34,7 @@ ms.locfileid: "34247179"
 ![данные, представленные в виде таблицы](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>Отправка файла Excel в Power BI
-Power BI подключается к нескольким источникам данных, включая файлы Excel на вашем компьютере. Чтобы начать работу, войдите в Power BI. Если вы еще не зарегистрировались, [это можно сделать бесплатно](https://powerbi.com).
+Power BI подключается к нескольким источникам данных, включая файлы Excel на вашем компьютере. Чтобы начать работу, войдите в службу Power BI. Если вы еще не зарегистрировались, [это можно сделать бесплатно](https://powerbi.com).
 
 Создайте новую панель мониторинга. Откройте **Моя рабочая область** и выберите значок **+ Create** (+ Создать).
 

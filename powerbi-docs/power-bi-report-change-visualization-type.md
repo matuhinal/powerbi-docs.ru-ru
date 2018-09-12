@@ -2,35 +2,32 @@
 title: Изменение типа визуализации в отчете
 description: Изменение типа визуализации отчета в службе Power BI и Power BI Desktop
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2017
+ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 126a805f49e98f34cb9cfdcbb7ce7e886f67ce76
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 115e9a21a994899f0838f19b8b0fcbda5f5c6e46
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292002"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044171"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Изменение типа визуализации в отчете Power BI
 Попробуйте использовать различные типы визуализаций в службе Power BI и Power BI Desktop, чтобы определить, какой из них лучше всего иллюстрирует ваши данные. 
 
 1. Откройте отчет, который содержит хотя бы одну визуализацию.   
-2. На панели "Визуализации" выберите тип новой визуализации.  
+2. Выберите визуализацию, чтобы сделать ее активной. Активная визуализация имеет маркеры и границу.    
+3. На панели "Визуализации" выберите тип новой визуализации. 
    
-   ![](media/power-bi-report-change-visualization-type/changeviz.gif)
+   ![](media/power-bi-report-change-visualization-type/changeviz.gif).
+4. [Закрепите визуализацию](service-dashboard-pin-tile-from-report.md) в виде плитки на панели мониторинга (необязательно). 
 
-> [!NOTE]
-> Вы можете [закрепить визуализацию](service-dashboard-pin-tile-from-report.md) в качестве плитки на информационной панели.
-> 
-> 
-
-Если вы изменили тип визуализации в отчете после ее закрепления на информационной панели, плитка не обновится автоматически. Таким образом, если вы закрепили визуализацию в качестве графика, а затем в отчете изменили ее на линейчатую диаграмму, уже закрепленная версия этих данных останется графиком. Закрепите линейчатую диаграмму, чтобы она также отображалась на информационной панели.
+Если вы изменили тип визуализации в отчете после ее закрепления на панели мониторинга, плитка не обновится автоматически. Таким образом, если вы закрепили визуализацию в качестве графика, а затем в отчете изменили ее на линейчатую диаграмму, уже закрепленная версия этих данных останется графиком. Закрепите линейчатую диаграмму, чтобы она также отображалась на информационной панели.
 
 ### <a name="next-steps"></a>Дальнейшие действия
 Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).

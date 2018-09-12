@@ -2,29 +2,29 @@
 title: Отображение панелей мониторинга, плиток на ней, страниц отчетов и визуализаций в полноэкранном режиме
 description: Отображение панели мониторинга, плиток на ней, визуализаций и страниц отчетов в полноэкранном режиме (*режиме ТВ*).
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244118"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044332"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Полноэкранный режим в Power BI
 ## <a name="what-is-full-screen-mode"></a>Что такое полноэкранный режим?
 ![полноэкранный режим отображения панели мониторинга: до и после применения](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Отображайте содержимое Power BI (панели мониторинга, страницы отчетов, плитки и визуализации) так, чтобы не отвлекаться на меню и панели навигации.  Так вы можете быстро просматривать все содержимое сразу. Иногда это также называется ТВ-режимом. Функциональные возможности, доступные в полноэкранном режиме, зависят от содержимого. 
+Отображайте содержимое Power BI (панели мониторинга, страницы отчетов, плитки и визуализации) так, чтобы не отвлекаться на меню и панели навигации.  Так вы можете быстро просматривать все содержимое сразу. Иногда это также называется режимом ТВ. Функциональные возможности, доступные в полноэкранном режиме, зависят от содержимого. 
 
-Если вы используете Power BI для мобильных устройств, [в мобильных приложениях для Windows 10 доступен полноэкранный режим](mobile-windows-10-app-presentation-mode.md). В Power BI Desktop нет полноэкранного режима для отчетов или визуализаций, но есть параметр "По размеру страницы" для [представления связей](desktop-report-view.md) и [визуальных элементов отчета в режиме фокусировки](service-focus-mode.md).
+Если вы используете Power BI для мобильных устройств, [в мобильных приложениях для Windows 10 доступен полноэкранный режим](mobile-windows-10-app-presentation-mode.md). В Power BI Desktop нет полноэкранного режима для отчетов или визуализаций, но есть параметр "По размеру страницы" для [представлений отношений и отчетов](desktop-report-view.md), а также [визуальных элементов отчета в режиме фокусировки](service-focus-mode.md).
 
  
 

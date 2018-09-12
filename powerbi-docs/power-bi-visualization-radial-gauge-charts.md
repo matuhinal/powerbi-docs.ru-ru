@@ -2,21 +2,21 @@
 title: Диаграммы "Радиальный датчик" в Power BI
 description: Диаграммы "Радиальный датчик" в Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7417b324a74dcc4aecd599c73fed0298de3e6a89
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8cb3dba371b555dc7d9a7bc6d1e27aac82a57fef
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292531"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168004"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Диаграммы "Радиальный датчик" в Power BI
 Диаграмма "Радиальный датчик" имеет дугу и отображает одно значение, которое отражает ход достижения цели или значение ключевого показателя эффективности.  Цель, или целевое значение, представляется линией. Текущий прогресс в достижении цели представляется областью с заливкой.  Значение, которое представляет текущий прогресс, отображается полужирным шрифтом внутри дуги. Все возможные значения равномерно распределены по дуге, от минимального (крайнее левое значение) до максимального (крайнее правое значение).
@@ -56,22 +56,22 @@ ms.locfileid: "34292531"
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Шаг 2. Создание датчика для отслеживания валовых продаж
 1. В списке **Поля** выберите **Gross Sales**(Валовая выручка).
    
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
-2. Измените метод агрегирования данных на **Среднее**.
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gross-sales.png)
+2. Измените метод агрегирования данных на **Среднее**. В поле **Значение** выберите раскрывающийся список и щелкните **Среднее**.
    
    ![](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
 3. Щелкните значок датчика ![](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) для преобразования гистограммы в датчик.
    
-   По умолчанию Power BI создает диаграмму датчика, где текущее значение (в данном случае среднее от валовой выручки) считается от средней точки датчика. Поскольку средняя валовая выручка составляет 182,76 тыс. долларов США, начальное значение (минимум) равно нулю, а конечное (максимум) — текущее значение, умноженное на два.
+   По умолчанию Power BI создает диаграмму датчика, где текущее значение (в этом случае среднее от валовой выручки) считается от средней точки датчика. Так как средняя валовая выручка составляет 184,21 тыс. долларов США, начальное значение (минимум) равно нулю, а конечное (максимум) — текущее значение, умноженное на два.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-184.png)
 
 ### <a name="step-3-set-a-target-value"></a>Шаг 3. Настройка целевого значения
 1. Перетащите показатель **COGS** (себестоимость реализованной продукции) в поле **Целевое значение** .
 2. Измените метод агрегирования данных на **Среднее**.
-   Power BI добавит линию для представления нашего целевого значения — **145,48 тыс. долларов США**. Обратите внимание, что мы превзошли нашу цель.
+   Power BI добавит линию для представления нашего целевого значения **146 тыс. долларов США**. Обратите внимание, что мы превзошли нашу цель.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-cogs.png)
    
    > [!NOTE]
    > Целевое значение можно ввести и вручную.  См. раздел ”Использование параметров форматирования для ручной настройки минимального, максимального и целевого значения” ниже.
@@ -98,7 +98,7 @@ ms.locfileid: "34292531"
 1. Удалите поле **Max of Gross Sales** (Максимальная валовая выручка) из списка **Максимальное значение** .
 2. Откройте панель форматирования, щелкнув значок валика.
    
-   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-max.png)
 3. Разверните **ось датчика** и введите **минимальное** и **максимальное**значения.
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
@@ -112,8 +112,6 @@ ms.locfileid: "34292531"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Добавление визуализации в отчет](power-bi-report-add-visualizations-i.md)
 
 [Закрепление визуализации на панели мониторинга](service-dashboard-pin-tile-from-report.md)
 
