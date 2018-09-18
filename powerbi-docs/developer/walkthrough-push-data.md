@@ -2,26 +2,28 @@
 title: Принудительная отправка данных в набор данных
 description: Принудительная отправка данных набор данных Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598556"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974191"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
+
 API Power BI позволяет принудительно отправлять данные в набор данных Power BI. Например, вам нужно расширить существующий бизнес-процесс для отправки ключевых данных в набор данных. В этом случае необходимо отправить набор данных "Продажи и маркетинг", содержащий таблицу "Продукт".
 
 Для принудительной передачи данных в набор данных требуется Azure Active Directory (Azure AD) и [учетная запись Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Принудительная отправка данных в набор данных
+
 * Шаг 1. [Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 * Шаг 2. [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)
 * Шаг 3. [Создание набора данных в Power BI](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ API Power BI позволяет принудительно отправлять
 В следующем разделе приводятся общие сведения об операциях API Power BI для отправки данных.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Операции API Power BI для отправки данных
+
 REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, плитки на панели мониторинга обновляются автоматически обновленными данными. Для отправки данных используйте операцию [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) вместе с операцией [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Чтобы найти набор данных, используйте операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). С помощью каждой из этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получение групп](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups).
 
 Ниже перечислены операции по отправке данных в набор данных.
@@ -108,13 +111,14 @@ REST API Power BI позволяет принудительно отправля
 | String |В настоящее время вмещает до 128 000 знаков. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Дополнительные сведения о принудительной отправке данных в Power BI
+
 Чтобы приступить к отправке данных в набор данных, см. сведения в левой области навигации — [Шаг 1. Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md).
 
 [Дальнейшие действия >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Регистрация бесплатной учетной записи Power BI с пользовательским клиентом каталога Azure Active Directory](create-an-azure-active-directory-tenant.md)  
 [Общие сведения о JSON](http://json.org/)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-
