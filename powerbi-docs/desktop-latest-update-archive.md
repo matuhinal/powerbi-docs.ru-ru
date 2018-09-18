@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: e7eadadede8f342b25ea59dcd2053f53d654ffff
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512255"
+ms.locfileid: "44728325"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -137,7 +137,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2018-update-2595135101"></a>Обновление за июнь 2018 г. (2.59.5135.101)
 
@@ -184,7 +184,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="may-2018-update-2585103281"></a>Обновление за май 2018 г. (2.58.5103.281)
 
@@ -238,7 +238,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="april-2018-update-2575068501"></a>Обновление за апрель 2018 г. (2.57.5068.501)
@@ -284,7 +284,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -330,7 +330,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -352,7 +352,7 @@ ms.locfileid: "44512255"
 ### <a name="reporting"></a>Отчеты
 
 * Множественный выбор точек данных на нескольких страницах [[видео]](https://youtu.be/KeVB5RwMzJo?t=23s) [[статья]](desktop-multi-select.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* Синхронизация срезов на нескольких страницах отчета [[видео]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[статья]](desktop-slicers.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Синхронизация срезов на нескольких страницах отчета [[видео]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[статья]](visuals/desktop-slicers.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
 * Усовершенствование среза с числовым диапазоном — привязка к целым числам (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[статья]](desktop-slicer-numeric-range.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
 * Ускорение геокодирования для карт Bing (предварительная веб-версия) — почти в 6 раз быстрее [[видео]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
 * Метки данных переполнения для линейчатых диаграмм и гистограмм[[видео]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
@@ -394,7 +394,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2018-update-2544970761"></a>Обновление за январь 2018 г. (2.54.4970.761)
@@ -443,7 +443,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -499,7 +499,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="november-2017-update-2524921202"></a>Обновление за ноябрь 2017 года (2.52.4921.202)
@@ -555,7 +555,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -613,7 +613,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="september-2017-update-2504859502"></a>Обновление за сентябрь 2017 г (2.50.4859.502)
@@ -623,7 +623,7 @@ ms.locfileid: "44512255"
 ### <a name="report-view"></a>Представление отчетов
 
 -   Детализация с переходом на другую страницу отчета [[видео]](https://youtu.be/moTQJlnClJw?t=19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[статья]](desktop-drillthrough.md)
--   Диаграмма ленты [[видео]](https://youtu.be/moTQJlnClJw?t=8m57s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[статья]](desktop-ribbon-charts.md)
+-   Диаграмма ленты [[видео]](https://youtu.be/moTQJlnClJw?t=8m57s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[статья]](visuals/desktop-ribbon-charts.md)
 -   Аналитика: элементы "Объяснить рост" и "Объяснить снижение" [[видео]](https://youtu.be/moTQJlnClJw?t=13m37s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[статья]](desktop-insights.md)
 -   Обновление предварительной версии элемента "Темы": элементы управления стилем диаграммы [[видео]](https://youtu.be/moTQJlnClJw?t=19m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[статья]](desktop-report-themes.md)
 -   Улучшения элемента "Специальные возможности" [[видео]](https://youtu.be/moTQJlnClJw?t=27m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[статья]](desktop-accessibility.md)
@@ -653,7 +653,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="august-2017-update-2494831222"></a>Обновление за август 2017 г. (2.49.4831.222)
@@ -698,7 +698,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="july-2017-update-2484792321"></a>Обновление за июль 2017 г. (2.48.4792.321)
@@ -748,7 +748,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="june-2017-update-2474766542"></a>Обновление за июнь 2017 г. (2.47.4766.542)
@@ -762,7 +762,7 @@ ms.locfileid: "44512255"
 -   Параметр семейства шрифтов для визуальных элементов: [[видео]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
 -   Горизонтальный срез изображения: [[видео]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
 -   Обновления форматирования комбинированной диаграммы: [[видео]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   Улучшения карт Bing: [[видео]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[статья]](power-bi-map-tips-and-tricks.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   Улучшения карт Bing: [[видео]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[статья]](visuals/power-bi-map-tips-and-tricks.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
 -   Выборка линий с высокой плотностью: [[видео]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[статья]](desktop-high-density-sampling.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
 -   Отчеты со специальными возможностями: [[видео]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
@@ -793,7 +793,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -840,7 +840,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -852,7 +852,7 @@ ms.locfileid: "44512255"
 ### <a name="report-view"></a>Представление отчетов
 
 -   Переименование заголовков осей [[видео]](https://youtu.be/AWMaIaI8G2Y?t=25s)[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
--   Улучшения визуальных эффектов матрицы: сортировка и изменение размеров столбцов, а также перенос по словам (предварительная версия) [[видео]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[статья]](desktop-matrix-visual.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+-   Улучшения визуальных эффектов матрицы: сортировка и изменение размеров столбцов, а также перенос по словам (предварительная версия) [[видео]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[статья]](visuals/desktop-matrix-visual.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>Аналитика
 
@@ -885,7 +885,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="march-2017-update-2444675422"></a>Обновление за март 2017 г. (2.44.4675.422)
@@ -894,7 +894,7 @@ ms.locfileid: "44512255"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Новый визуальный элемент с матрицей (предварительная версия): [[видео]](https://youtu.be/CaRTON3lJqw?t=18s) [[статья]](desktop-matrix-visual.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   Новый визуальный элемент с матрицей (предварительная версия): [[видео]](https://youtu.be/CaRTON3lJqw?t=18s) [[статья]](visuals/desktop-matrix-visual.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
 -   Срез числового диапазона (предварительная версия):[[видео]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[статья]](desktop-slicer-numeric-range.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
 -   Процентная доля в виде меток данных на визуальных элементах круговой и кольцевой диаграмм: [[видео]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
 -   Перекрестное выделение при использовании нескольких рядов данных: [[видео]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
@@ -928,7 +928,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -976,7 +976,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2017-update-2424611482"></a>Обновление за январь 2017 г.(2.42.4611.482)
@@ -1012,7 +1012,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1065,7 +1065,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="october-2016-update-2404554361"></a>Обновление за октябрь 2016 г. (2.40.4554.361)
@@ -1118,7 +1118,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="september-2016-update-2394526362"></a>Обновление за сентябрь 2016 г. (2.39.4526.362)
@@ -1176,7 +1176,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1237,7 +1237,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="july-2016-update-2374464321"></a>Обновление за июль 2016 г. (2.37.4464.321)
@@ -1249,7 +1249,7 @@ ms.locfileid: "44512255"
 ### <a name="report-view"></a>Представление отчетов
 
 -   Готовые стили таблиц: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/), [[видео]](https://youtu.be/g8ccfjffWmw?t=1m25s).
--   Обновление карт фигур — использование пользовательских карт: [[статья]](desktop-shape-map.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/), [[видео]](https://youtu.be/g8ccfjffWmw?t=2m21s).
+-   Обновление карт фигур — использование пользовательских карт: [[статья]](visuals/desktop-shape-map.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/), [[видео]](https://youtu.be/g8ccfjffWmw?t=2m21s).
 
 ### <a name="data-connectors"></a>Соединители данных
 
@@ -1280,7 +1280,7 @@ ms.locfileid: "44512255"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2016-update-2364434362"></a>Обновление за июнь 2016 г. (2.36.4434.362)
 
@@ -1290,7 +1290,7 @@ ms.locfileid: "44512255"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Новый визуальный элемент: карты фигур [[видео]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[статья]](desktop-shape-map.md)
+-   Новый визуальный элемент: карты фигур [[видео]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[статья]](visuals/desktop-shape-map.md)
 -   Срезы с возможностью поиска [[видео]](https://youtu.be/sZsL2l6oS4A?t=6m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Настраиваемые метки графиков [[видео]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Новые точки входа [[видео]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -1334,7 +1334,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1390,7 +1390,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="april-2016-update-2344372322"></a>Обновление за апрель 2016 года (2.34.4372.322)
 
@@ -1439,7 +1439,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="march-2016-update-2334337281"></a>Обновление за март 2016 г. (2.33.4337.281)
@@ -1491,7 +1491,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1549,7 +1549,7 @@ ms.locfileid: "44512255"
 
 
 > [!NOTE]
-> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2016-update-2314280361"></a>Обновление за январь 2016 г. (2.31.4280.361)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44513330"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974214"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Агрегаты в Power BI Desktop (предварительная версия)
 
@@ -243,7 +243,7 @@ ms.locfileid: "44513330"
 
 В следующей таблице показаны записи, заданные в диалоговом окне **Управление агрегированием** для таблицы **Sales Agg**. Записи GroupBy, где **Date** является таблицей сведений, обязательны для обращения к агрегатам для запросов, которые группируются по атрибутам даты. Как показано в предыдущем примере, записи GroupBy для CustomerKey и ProductSubcategoryKey не влияют на обращения к агрегатам из-за наличия связей (опять же за исключением DISTINCTCOUNT).
 
-![Таблица агрегатов Sales Agg](media/desktop-aggregations/aggregations-table_03.jpg)
+![Таблица агрегатов Sales Agg](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > Примечание. Эта модель требует, чтобы таблица **Date** была в режиме DirectQuery для заполнения полей диалогового окна "Управление агрегатами", так как это таблица сведений. Это ограничение предварительной версии, которое мы собираемся устранить при выпуске общедоступной версии.
 
