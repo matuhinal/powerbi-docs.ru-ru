@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657950"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512186"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Использование тем отчетов в Power BI Desktop
 С помощью **тем отчета** ко всему отчету можно применить требуемую цветовую схему, например корпоративные цвета, цвета времен года или другие цветовые схемы. При применении **тем отчета** для всех визуальных элементов в отчете используются цвета из выбранной схемы (c некоторыми исключениями, описанными далее в этой статье).
@@ -36,7 +36,17 @@ ms.locfileid: "39657950"
 Мы всегда рекомендуем выполнять обновление до последней версии **Power BI Desktop**. Это можно сделать с помощью ссылки [Получить Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Как работают темы отчета
-Чтобы применить тему к отчету Power BI Desktop, на вкладке **Переключить тему** нажмите кнопку **Переключить тему**, а затем в раскрывающемся списке выберите пункт **Импортировать тему**.
+Чтобы применить тему для отчета Power BI Desktop, можно выбрать одну из доступных встроенных тем отчетов или импортировать пользовательскую тему.
+
+Чтобы выбрать тему из доступных встроенных тем, нажмите кнопку **Переключить тему** на ленте **Главная**, а затем выберите одну из появившихся в раскрывающемся меню тем.
+
+![выбор темы отчета](media/desktop-report-themes/report-themes_2a.png)
+
+Тема отчета будет применена к отчету.
+
+### <a name="importing-report-themes"></a>Импорт тем отчетов
+
+Чтобы применить пользовательскую тему к отчету, нажмите кнопку **Переключить тему** на ленте **Главная**, а затем в раскрывающемся списке выберите пункт **Импортировать тему**.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 
