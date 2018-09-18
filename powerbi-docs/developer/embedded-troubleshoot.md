@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241575"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558592"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -105,13 +105,13 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 Если вы работаете с Power BI Embedded, используете прямую проверку подлинности Azure AD Direct и при входе получаете такие сообщения, как ***error:unauthorized_client,error_description:AADSTS70002: ошибка при проверке учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, что происходит из-за отключения функции прямой проверки подлинности 14.06.2018 по умолчанию.
 
-Вы можете снова включить эту функцию с помощью [политики Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которую можно связать с организацией или [субъектом-службой](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Вы можете снова включить эту функцию с помощью [политики Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которую можно связать с организацией или [субъектом-службой](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Эту функцию рекомендуется включать только для отдельных приложений.
 
 Чтобы создать эту политику, вы должны быть **глобальным администратором** для каталога, в котором создается и назначается политика. Ниже приведен пример сценария для создания политики и ее назначения пакету обновления для этого приложения:
 
-1. Установите [модуль PowerShell предварительной версии Azure AD](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Установите [модуль PowerShell предварительной версии Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Выполните следующие команды PowerShell, строку за строкой (убедившись, что для переменной $sp не выводится несколько приложений в качестве результата).
 
@@ -274,7 +274,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Если необходимо изменить зарегистрированное приложение, узнайте, как изменить [зарегистрированное в Azure AD приложение](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), чтобы оно могло предоставлять доступ к веб-интерфейсам API.
 
-Если необходимо изменить профиль пользователя или данные Power BI, ознакомьтесь с [соответствующей процедурой](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
+Если необходимо изменить профиль пользователя или данные Power BI, ознакомьтесь с [соответствующей процедурой](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
 Дополнительные сведения см. в разделе с [вопросами и ответами о Power BI Embedded](embedded-faq.md).
 

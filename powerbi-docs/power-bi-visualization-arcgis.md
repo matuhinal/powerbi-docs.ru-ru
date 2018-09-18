@@ -2,28 +2,28 @@
 title: Создание карт ArcGIS от ESRI в службе Power BI
 description: 'Создание карт ArcGIS от ESRI в службе Power BI '
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168073"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728256"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop
-Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).
+Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](visuals/power-bi-visualizations-arcgis.md).
 
 Сочетание карт ArcGIS и Power BI — это больше, чем просто отображение точек на карте. Прекрасные информативные визуализации для карт можно создать, используя базовые карты, типы расположения, темы, стили символов и ссылочные слои. Сочетание официальных слоев данных на карте с пространственным анализом помогает лучше понять данные в визуализации.
 
- На мобильном устройстве нельзя создавать карты ArcGIS, но можно просматривать их и взаимодействовать с ними. См. статью о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).
+ На мобильном устройстве нельзя создавать карты ArcGIS, но можно просматривать их и взаимодействовать с ними. См. статью о [взаимодействии с картами ArcGIS](visuals/power-bi-visualizations-arcgis.md).
 
 > [!TIP]
 > GIS — это наука о географической информации.
@@ -329,7 +329,7 @@ ArcGIS Online дает возможность организациям публ
 
 **Поддерживают ли карты ArcGIS для Power BI файлы фигур ESRI?**
 
-Карты ArcGIS для Power BI автоматически определяют стандартные границы стран, регионов, штатов и провинций, а также почтовые индексы. Если нужно создать собственные фигуры, это можно сделать с помощью [карт фигур для Power BI Desktop (предварительная версия)](desktop-shape-map.md).
+Карты ArcGIS для Power BI автоматически определяют стандартные границы стран, регионов, штатов и провинций, а также почтовые индексы. Если нужно создать собственные фигуры, это можно сделать с помощью [карт фигур для Power BI Desktop (предварительная версия)](visuals/desktop-shape-map.md).
 
 **Можно ли просматривать карты ArcGIS автономно?**
 
@@ -340,7 +340,7 @@ ArcGIS Online дает возможность организациям публ
 Эта возможность пока недоступна. [Голосуйте за эту идею](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases), и мы отправим вам на почту сообщение, когда начнем работу над этой функцией.  
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Взаимодействие с картой ArcGIS, к которой вам предоставлен общий доступ](power-bi-visualizations-arcgis.md)
+[Взаимодействие с картой ArcGIS, к которой вам предоставлен общий доступ](visuals/power-bi-visualizations-arcgis.md)
 
 [Запись блога о доступных картах ArcGIS для Power BI](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

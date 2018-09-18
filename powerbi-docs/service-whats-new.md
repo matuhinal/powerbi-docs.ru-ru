@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044355"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728210"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
 
 - [Новые возможности Power BI Desktop](desktop-latest-update.md)  
-- [Новые возможности мобильных приложений для Power BI](mobile-whats-new-in-the-mobile-apps.md)  
+- [Новые возможности мобильных приложений для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Блог команды Power BI](https://powerbi.microsoft.com/blog/)
 - [Заметки о выпуске бизнес-приложения (весна 2018)](http://aka.ms/businessappsreleasenotes) от Dynamics 365: самые последние обновления для наших бизнес-приложений, а также новые возможности для создания приложений и расширений на базе нашей платформы. 
 

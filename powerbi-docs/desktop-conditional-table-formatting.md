@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657812"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728095"
 ---
 # <a name="conditional-formatting-in-tables"></a>Условное форматирование в таблицах 
 С помощью условного форматирования в таблицах можно задать настраиваемые цвета ячеек на основе значений ячеек либо на основе других значений или полей, в том числе использовать градиент цветов. Значения ячеек также могут отображаться с гистограммами. 
@@ -133,5 +133,5 @@ ms.locfileid: "39657812"
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения см. в следующей статье:  
 
-* [Советы и рекомендации по форматированию цветом в Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Советы и рекомендации по форматированию цветом в Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

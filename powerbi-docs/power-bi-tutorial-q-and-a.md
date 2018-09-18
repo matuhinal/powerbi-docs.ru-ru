@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599237"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727956"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Руководство по использованию функции "Вопросы и ответы" для создания визуализаций и отчетов
-В [этом обзоре](power-bi-q-and-a.md) представлено описание функции "Вопросы и ответы" Power BI с двух сторон: *потребители* используют панели мониторинга и отчеты, которые им предоставлены, а *создатели* управляют отчетами и наборами данных. Первая часть этого руководства предназначена главным образом для тех, кто использует панели мониторинга через службу Power BI. Вторая часть будет полезна тем, кто создает отчеты через в Power BI или Power BI Desktop. Особенности применения функции "Вопросы ответы" совместно с [Power BI Mobile](mobile-apps-ios-qna.md) и [Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях.
+В [этом обзоре](power-bi-q-and-a.md) представлено описание функции "Вопросы и ответы" Power BI с двух сторон: *потребители* используют панели мониторинга и отчеты, которые им предоставлены, а *создатели* управляют отчетами и наборами данных. Первая часть этого руководства предназначена главным образом для тех, кто использует панели мониторинга через службу Power BI. Вторая часть будет полезна тем, кто создает отчеты через в Power BI или Power BI Desktop. Особенности применения функции "Вопросы ответы" совместно с [Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) и [Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях.
 
 Функция "Вопросы и ответы" интерактивна и даже интересна, и очень часто один вопрос приводит к многим другим, так как визуализации раскрывают новые пути для поиска. В следующем видео Аманда показывает, как с помощью функции "Вопросы и ответы" создавать визуализации, анализировать их и закреплять на панели мониторинга.
 
@@ -44,7 +44,7 @@ ms.locfileid: "37599237"
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. По мере ввода вопроса функция "Вопросы и ответы" выбирает для отображения ответа наиболее подходящую [визуализацию](power-bi-visualization-types-for-reports-and-q-and-a.md), которая динамически меняется в зависимости от вопроса.
+3. По мере ввода вопроса функция "Вопросы и ответы" выбирает для отображения ответа наиболее подходящую [визуализацию](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md), которая динамически меняется в зависимости от вопроса.
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "37599237"
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. По мере ввода вопроса функция "Вопросы и ответы" выбирает для отображения ответа наиболее подходящую [визуализацию](power-bi-visualization-types-for-reports-and-q-and-a.md), которая динамически меняется в зависимости от вопроса.
+4. По мере ввода вопроса функция "Вопросы и ответы" выбирает для отображения ответа наиболее подходящую [визуализацию](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md), которая динамически меняется в зависимости от вопроса.
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

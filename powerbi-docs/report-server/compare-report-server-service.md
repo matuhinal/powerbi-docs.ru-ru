@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34296794"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727267"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -40,7 +40,7 @@ ms.locfileid: "34296794"
 | Краткая аналитика | Нет | Да | [Автоматическое создание аналитических сведений с помощью Power BI](../service-insights.md) 
 | Анализ в Excel | Нет | Да | [Анализ в Excel](../service-analyze-in-excel.md) 
 | Отчеты с разбивкой на страницы | Да | Нет | Отчеты с разбивкой на страницы не будут доступны в службе Power BI, но вы можете [прикрепить элементы этих отчетов к панелям мониторинга Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
-| Мобильные приложения Power BI | Да | Да | [Обзор мобильных приложений Power BI](../mobile-apps-for-mobile-devices.md) 
+| Мобильные приложения Power BI | Да | Да | [Обзор мобильных приложений Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Карты ArcGIS | Нет | Да | [Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](../power-bi-visualization-arcgis.md)
 | Подписки по электронной почте на отчеты Power BI | Нет | Да | [Подписка на отчеты или панели мониторинга](../service-report-subscribe.md) в службе Power BI 
 | Подписки по электронной почте на отчеты с разбивкой на страницы | Да | Нет | [Доставка электронной почты в Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
@@ -48,9 +48,9 @@ ms.locfileid: "34296794"
 | Безопасность на уровне строк | Только через источник данных в режиме DirectQuery | Доступно в режимах DirectQuery (источник данных) и импорта | [Безопасность на уровне строк (RLS)](../service-admin-rls.md) в Power BI 
 | Полноэкранный режим | Нет | Да | [Полноэкранный режим](../service-fullscreen-mode.md) в службе Power BI 
 | Расширенные возможности совместной работы Office 365 | Нет | Да | [Совместная работа в рабочей области приложений](../service-collaborate-power-bi-workspace.md) с Office 365 
-| визуальные элементы R; | Нет | Да | [Создание визуальных элементов R](../service-r-visuals.md) в службе Power BI  
-| Предварительная версия функций | Нет | Да | [Включение предварительных версий функций Power BI](../service-preview-features.md) 
-| Пользовательские визуальные элементы | Да | Да | [Пользовательские визуальные элементы в Power BI](../power-bi-custom-visuals.md) 
+| визуальные элементы R; | Нет | Да | [Создание визуальных элементов R](../visuals/service-r-visuals.md) в службе Power BI  
+| Функции предварительной версии | Нет | Да | [Включение предварительных версий функций Power BI](../service-preview-features.md) 
+| Настраиваемые визуальные элементы | Да | Да | [Пользовательские визуальные элементы в Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Версия, оптимизированная для сервера отчетов, доступна для скачивания вместе с сервером отчетов | Версия, оптимизированная для службы Power BI, доступна в Windows Store | [Power BI Desktop для сервера отчетов](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop для службы Power BI](http://aka.ms/pbidesktopstore)
 
 ## <a name="next-steps"></a>Дальнейшие действия

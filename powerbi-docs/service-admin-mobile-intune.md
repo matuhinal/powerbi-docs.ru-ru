@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250552"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728003"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Настройка мобильных приложений в Microsoft Intune
 Microsoft Intune позволяет организациям управлять устройствами и приложениями. Мобильные приложения Power BI для iOS и Android интегрируются с Intune, позволяя управлять приложениями на устройствах и вести контроль безопасности. В политиках конфигурации можно управлять такими элементами, как требование ПИН-кода доступа, управление способом обработки данных в приложении и даже шифрование данных приложения, если приложение не используется.
@@ -163,7 +163,7 @@ URL-адрес приложения для iOS необходимо получи
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Настройка и развертывание политик управления мобильными приложениями в консоли Microsoft Intune](https://technet.microsoft.com/library/dn878026.aspx)  
-[Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)  
+[Приложения Power BI для мобильных устройств](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280669"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726462"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Создание отчетов, оптимизированных для мобильных приложений Power BI
 [Создавая отчет в Power BI Desktop](desktop-report-view.md), вы можете сделать его удобным для использования в мобильных приложениях на телефонах, выполнив специальную мобильную версию отчета. Чтобы адаптировать отчет для телефона, следует упорядочить визуальные элементы и изменить их размеры, возможно, не включая их все для обеспечения оптимальной производительности. Кроме того, вы можете создавать [*адаптивные* визуальные элементы](#optimize-a-visual-for-any-size) и [адаптивные срезы](#enhance-slicers-to-to-work-well-in-phone-reports), легко изменяющие размер при просмотре на телефоне. Если в отчет добавлены фильтры, в мобильном отчете эти фильтры будут отображаться автоматически. Пользователи будут видеть их и смогут с их помощью фильтровать данные в отчете.
@@ -56,7 +56,7 @@ ms.locfileid: "39280669"
 
 ![Изменение размера адаптивного визуального элемента](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Вы можете выбрать, следует ли включать адаптивность для каждого визуального элемента. Узнайте подробнее об [оптимизации визуальных элементов](desktop-create-responsive-visuals.md).
+Вы можете выбрать, следует ли включать адаптивность для каждого визуального элемента. Узнайте подробнее об [оптимизации визуальных элементов](visuals/desktop-create-responsive-visuals.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Рекомендации по созданию макетов для мобильных отчетов
 * Если нужно оптимизировать отчет на нескольких страницах, вы можете оптимизировать все страницы или только некоторые из них. 
@@ -101,11 +101,11 @@ Power BI автоматически обнаруживает в мобильны
 
 ![Неоптимизированная страница на телефоне](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Чтобы просмотреть страницу в альбомной ориентации, читателю достаточно повернуть экран своего телефона. См. дополнительные сведения о [взаимодействии с отчетами Power BI, оптимизированными для просмотра на телефоне](mobile-apps-view-phone-report.md).
+Чтобы просмотреть страницу в альбомной ориентации, читателю достаточно повернуть экран своего телефона. См. дополнительные сведения о [взаимодействии с отчетами Power BI, оптимизированными для просмотра на телефоне](consumer/mobile/mobile-apps-view-phone-report.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание представления панели мониторинга для телефонов в Power BI](service-create-dashboard-mobile-phone-view.md)
-* [Просмотр отчетов Power BI, оптимизированных для телефона](mobile-apps-view-phone-report.md)
-* [Оптимизация визуальных элементов для любого размера](desktop-create-responsive-visuals.md)
+* [Просмотр отчетов Power BI, оптимизированных для телефона](consumer/mobile/mobile-apps-view-phone-report.md)
+* [Оптимизация визуальных элементов для любого размера](visuals/desktop-create-responsive-visuals.md)
 * Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

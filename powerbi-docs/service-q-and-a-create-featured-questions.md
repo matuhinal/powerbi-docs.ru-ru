@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242394"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726324"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Создание избранных вопросов для функции вопросов и ответов Power BI
 Если у вас есть набор данных, вы можете добавить для него собственные избранные вопросы.  Функция "Вопросы и ответы" в Power BI покажет эти вопросы вашим коллегам, (*использующим*) набор данных.  Избранные вопросы дают вашим коллегам представление о типах вопросов, которые можно задавать о наборе данных. Вы сами определяете избранные вопросы — добавьте популярные вопросы, вопросы, дающие интересный результат, или вопросы, которые трудно выразить.
@@ -26,7 +26,7 @@ ms.locfileid: "34242394"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Избранные вопросы функции "Вопросы и ответы" также доступны в [приложении Microsoft Power BI для iOS на устройствах iPad, iPhone и iPod Touch](mobile-apps-ios-qna.md), а также в предварительной версии этой функции в Power BI Desktop. При этом создавать вопросы можно только в службе Power BI (app.powerbi.com).
+> Избранные вопросы функции "Вопросы и ответы" также доступны в [приложении Microsoft Power BI для iOS на устройствах iPad, iPhone и iPod Touch](consumer/mobile/mobile-apps-ios-qna.md), а также в предварительной версии этой функции в Power BI Desktop. При этом создавать вопросы можно только в службе Power BI (app.powerbi.com).
 > 
 
 В статье используется пример [Анализ розничной торговли](sample-datasets.md).

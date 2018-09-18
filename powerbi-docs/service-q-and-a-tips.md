@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256292"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725956"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Советы по запросам в функцию "Вопросы и ответы" в Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Слова и термины, распознаваемые функцией "Вопросы и ответы"
@@ -24,7 +24,7 @@ ms.locfileid: "40256292"
 В приведенном ниже списке используется настоящее время, однако в большинстве случаев распознаются все временные формы. Например, слово is включает формы are, was, were, will be, have, has, had, will have, has got, do, does, did.  А слово sort включает формы sorted и sorting.  Кроме того, Power BI распознает и использует формы слова в единственном и множественном числах. Например, Power BI распознает слова year и years.
 
 > [!NOTE]
-> Компонент "Вопросы и ответы" также доступен в [приложении Microsoft Power BI для iOS на устройствах iPad, iPhone и iPod Touch](mobile-apps-ios-qna.md).
+> Компонент "Вопросы и ответы" также доступен в [приложении Microsoft Power BI для iOS на устройствах iPad, iPhone и iPod Touch](consumer/mobile/mobile-apps-ios-qna.md).
 > 
 > 
 

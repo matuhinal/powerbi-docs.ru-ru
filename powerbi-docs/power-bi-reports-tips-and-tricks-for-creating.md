@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254885"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726807"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop, службе Power BI *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query.
 
-## <a name="power-bi-desktop"></a>Power BI Desktop
+## <a name="power-bi-desktop"></a>Power BI Desktop
 
 ### <a name="learning-to-use-the-query-editor"></a>Обучение работе с редактором запросов
 Редактор запросов в Power BI Desktop предоставляет практически те же возможности, что и надстройка Power Query в Excel 2013. Несмотря на наличие нескольких полезных статей в разделе поддержки Power BI, перед началом работы имеет смысл изучить документацию по Power Query на сайте support.office.com.
@@ -167,7 +167,7 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Служба Power BI *и* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>Ознакомьтесь с техническим документом [Principles for Designing Power BI reports](power-bi-visualization-best-practices.md) (Принципы проектирования отчетов в Power BI).
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Ознакомьтесь с техническим документом [Principles for Designing Power BI reports](visuals/power-bi-visualization-best-practices.md) (Принципы проектирования отчетов в Power BI).
 Этот документ содержит рекомендации по проектированию отчетов в Power BI. В нем рассматриваются принципы проектирования, начиная с этапа планирования, которые можно применять для создания отчетов, а также входящих в них страниц и отдельных визуальных элементов. Многие из этих рекомендаций можно использовать и при проектировании панели мониторинга.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Прочтите и (или) посмотрите, как создавать визуально привлекательные отчеты (и панели мониторинга) в Power BI.
@@ -209,7 +209,7 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 * Обратите внимание на то, как [сортируются диаграммы](power-bi-report-change-sort.md).  Чтобы привлечь внимание к самым высоким или самым низким значениям, выполните сортировку по показателю.  Чтобы помочь пользователям быстро находить определенную категорию среди многих других категорий, выполните сортировку по оси.  
 * Круговые диаграммы наиболее эффективны, когда в них меньше восьми категорий. Поскольку на круговой диаграмме нет возможности сравнивать значения рядом друг с другом, для сравнения данных лучше использовать линейчатую диаграмму или гистограмму. Круговые диаграммы могут быть удобны для просмотра отношения частей к целому, а не для сравнения частей. Индикаторные диаграммы хорошо подходят для отображения текущего состояния в контексте цели.    
 
-Дополнительные рекомендации, относящиеся к визуализациям, см. в разделе [Типы визуализации в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Дополнительные рекомендации, относящиеся к визуализациям, см. в разделе [Типы визуализации в Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>Дополнительные рекомендации по созданию информационных панелей
 Некоторые из наших любимых книг включают:

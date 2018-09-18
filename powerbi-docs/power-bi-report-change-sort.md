@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 89891ead8eda1b8de4c7be943af2a9e9e98314c5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561800"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726094"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Изменение порядка сортировки диаграммы в отчете Power BI
 В отчете Power BI можно сортировать большую часть визуализаций в алфавитном порядке по названиям категорий в диаграмме или числовым значениям в каждой категории. Например, эта диаграмма отсортирована по названию магазина.
@@ -49,7 +49,7 @@ ms.locfileid: "34561800"
 * В Excel убедитесь, что числовые столбцы помечены как "целое число" или "десятичное число", а не как "текст".
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).
+Подробнее о [визуализациях в отчетах Power BI](visuals/power-bi-report-visualizations.md).
 
 [Power BI — основные понятия](service-basic-concepts.md)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: d9b0cc26a3662b49cd7ed14a3a645ddf2a4536bc
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 648938006cd15e2bb92b305aa9a2af24d028cead
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40258025"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726945"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "40258025"
 
 * [Новые возможности службы Power BI](../service-whats-new.md)
 * [Новые возможности Power BI Desktop](../desktop-latest-update.md)
-* [Новые возможности мобильных приложений для Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+* [Новые возможности мобильных приложений для Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="august-2018"></a>Август 2018 г.
 

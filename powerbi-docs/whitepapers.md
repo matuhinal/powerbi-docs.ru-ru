@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445125"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727198"
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "34445125"
 | [Power BI и GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI может играть важную роль при обеспечении соответствия с требованиями GDPR. В этом документе описываются требования GDPR и обеспечение их соответствия с помощью Power BI. Хотя обеспечение соответствия требованиям GDPR необходимо в определенных ситуациях, описанных в этом документе, это не просто ознакомительное упражнение. Это способ усилить защиту данных и включить расширенные возможности обеспечения конфиденциальности.|
 | [Distribute Power BI content to external guest users using Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper) (Распространение содержимого Power BI для внешних пользователей-гостей с помощью Azure Active Directory B2B)|В этом документе описывается, как распространять содержимое для пользователей вне организации при помощи интеграции с Azure Active Directory "бизнес — бизнес" (AAD B2B).|
 | [Углубленная аналитика с Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Описание возможностей углубленной аналитики в Power BI, включая прогнозную аналитику, пользовательские визуализации, интеграцию с R и выражения анализа данных. |
-| [Рекомендации по проектированию отчетов и визуальных элементов](power-bi-visualization-best-practices.md) |Рекомендации по проектированию отчетов в Power BI. |
+| [Рекомендации по проектированию отчетов и визуальных элементов](visuals/power-bi-visualization-best-practices.md) |Рекомендации по проектированию отчетов в Power BI. |
 | [Двунаправленная фильтрация](desktop-bidirectional-filtering.md) |Объясняются принципы работы двунаправленной перекрестной фильтрации в Power BI Desktop (техническая документация также описывает службы SQL Server Analysis Services 2016, так как особенности их работы аналогичны). |
 | [DirectQuery в службах SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |После доработки функция DirectQuery для SQL Server 2016 стала значительно быстрее и производительнее. Тем не менее, она также стала сложнее для понимания и реализации. |
 | [Power BI и SAP BW](https://aka.ms/powerbiandsapbw)| Этот документ описывает, какую выгоду клиенты SAP могут извлечь, подключив Power BI к имеющимся у них системам SAP Business Warehouse (BW).|

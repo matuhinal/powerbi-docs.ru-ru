@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241598"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726140"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
-Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. Хотя плитки информационной панели нельзя создавать и закреплять в Power BI Mobile, их можно [просматривать и предоставлять для общего доступа](mobile-tiles-in-the-mobile-apps.md). В Power BI Mobile можно [добавлять фотографии на информационную панель с помощью приложений для iPhone](mobile-iphone-app-get-started.md).
+Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. Хотя плитки информационной панели нельзя создавать и закреплять в Power BI Mobile, их можно [просматривать и предоставлять для общего доступа](consumer/mobile/mobile-tiles-in-the-mobile-apps.md). В Power BI Mobile можно [добавлять фотографии на информационную панель с помощью приложений для iPhone](consumer/mobile/mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Плитки панели мониторинга
 ![Панель мониторинга Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ ms.locfileid: "43241598"
 * Если исходная визуализация, использованная для создания плитки, изменяется, сама плитка не изменяется.  Например, если вы закрепили график из отчета, а затем изменили график на гистограмму, плитка панели мониторинга продолжает отображать график. Данные обновляются, а тип визуализации — нет.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Визуализация карточек](power-bi-visualization-card.md)
+[Визуализация карточек](visuals/power-bi-visualization-card.md)
 
 [Панели мониторинга в Power BI](service-dashboards.md)  
 

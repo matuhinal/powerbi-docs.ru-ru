@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241529"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558583"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -79,7 +79,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Купить  |Портал Azure |Office |Office |
-|Варианты использования | Внедрение содержимого в собственное приложение | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Варианты использования | Внедрение содержимого в собственное приложение | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Выставление счетов |Каждый час |Ежемесячно |Ежемесячно |
 |Обязательство  |Никаких обязательств |Ежегодно  |Ежемесячно или ежегодно |
 |Отличия |Полная гибкость — масштабируемость, приостановление и возобновление использования ресурсов на портале Azure или с помощью API  |Можно использовать для внедрения содержимого в SharePoint Online и Microsoft Teams (за исключением мобильного приложения) |Объединение возможности внедрения в приложение и использования службы Power BI в одной емкости |
@@ -133,7 +133,7 @@ https://app.powerbi.com/ > ? > О Power BI
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Что такое роль выделенной емкости PBI Embedded в решении PBI Embedded?
 
-Чтобы [перенести решение в рабочую среду](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), необходимо, чтобы содержимое Power BI (рабочая область приложения, которую вы используете в приложении) было назначено емкости Power BI Embedded (A SKU).
+Чтобы [перенести решение в рабочую среду](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), необходимо, чтобы содержимое Power BI (рабочая область приложения, которую вы используете в приложении) было назначено емкости Power BI Embedded (A SKU).
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>В каких регионах Azure доступен компонент PBI Embedded?
 
@@ -158,11 +158,11 @@ https://app.powerbi.com/ > ? > О Power BI
 
 Если у вас уже есть клиент Azure AD, вы можете использовать существующий каталог или создать новый клиент Azure AD, чтобы обеспечить безопасность содержимого приложения.
 
-Чтобы получить токен Azure AD, можно использовать одну из библиотек проверки подлинности Azure Active Directory — https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Клиентские библиотеки доступны для различных платформ.
+Чтобы получить токен Azure AD, можно использовать одну из библиотек проверки подлинности Azure Active Directory — https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries. Клиентские библиотеки доступны для различных платформ.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Мое приложение уже использует AAD для проверки подлинности пользователей. Как можно использовать это удостоверение при проверке подлинности в Power BI в сценарии "Данные, принадлежащие пользователю"? 
 
-Это стандартный поток OAuth "от имени" (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). Для приложения необходимо настроить требование разрешений в службе PowerBI (с обязательными областями). Получив маркер пользователя в приложении, можно просто вызвать AcquireTokenAsync API ADAL, используя маркер доступа пользователя и указав URL-адрес ресурса PowerBI в качестве идентификатора ресурса. Фрагмент кода, показывающий, как это можно сделать, см. ниже:
+Это стандартный поток OAuth "от имени" (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). Для приложения необходимо настроить требование разрешений в службе PowerBI (с обязательными областями). Получив маркер пользователя в приложении, можно просто вызвать AcquireTokenAsync API ADAL, используя маркер доступа пользователя и указав URL-адрес ресурса PowerBI в качестве идентификатора ресурса. Фрагмент кода, показывающий, как это можно сделать, см. ниже:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -299,7 +299,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Как изменить профиль пользователя или данные Power BI?
 
-Узнать, как изменить данные Power BI, можно [здесь](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
+Узнать, как изменить данные Power BI, можно [здесь](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
 См. дополнительные сведения об [устранении неполадок с внедренным приложением](embedded-troubleshoot.md).
 

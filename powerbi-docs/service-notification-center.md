@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249946"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727175"
 ---
 # <a name="power-bi-notifications"></a>Уведомления в Power BI
 Центр уведомлений — это канал непрерывной передачи информации, связанной с работой Power BI. С его помощью можно просматривать сообщения о новых панелях мониторинга, к которым вам предоставлен доступ, об изменениях в вашем групповом пространстве, сведения о мероприятиях и встречах, связанных с Power BI, настроенные оповещения и многое другое. [Оповещения можно настраивать в службе Power BI](service-set-data-alerts.md) и мобильных приложениях Power BI.
@@ -40,7 +40,7 @@ ms.locfileid: "34249946"
 ### <a name="next-steps"></a>Дальнейшие действия
 * [Оповещения о данных в службе Power BI](service-set-data-alerts.md)
 * [Create a Microsoft Flow that is triggered by a Power BI data alert](service-flow-integration.md) (Создание последовательности Microsoft Flow, которая активируется оповещением о данных Power BI)
-* [Настройка оповещений о данных в приложении Power BI для iOS на устройствах iPhone и iPad](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Настройка оповещений о данных в приложении Power BI для iOS на устройствах iPhone и iPad](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

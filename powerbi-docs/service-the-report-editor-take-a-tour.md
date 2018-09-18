@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299477"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726646"
 ---
 # <a name="the-report-editortake-a-tour"></a>Знакомство с редактором отчетов
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Изменение отчетов в службе Power BI и Power BI Desktop
@@ -65,7 +65,7 @@ ms.locfileid: "34299477"
 
 ![Удаление StoreType из легенды](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-Дополнительные сведения см. в разделе [Добавление визуализаций в отчет Power BI](power-bi-report-add-visualizations-i.md).
+Дополнительные сведения см. в разделе [Добавление визуализаций в отчет Power BI](visuals/power-bi-report-add-visualizations-i.md).
 
 ### <a name="format-your-visuals"></a>Форматирование визуальных элементов
 Отобразите область форматирования, щелкнув значок валика. Доступный параметр зависит от типа выбранной визуализации.
@@ -74,9 +74,9 @@ ms.locfileid: "34299477"
 
 Возможности форматирования практически безграничны.  Чтобы узнать больше об этих возможностях и самостоятельно их изучить, ознакомьтесь с этими статьями:
 
-* [Настройка заголовка, фона и условных обозначений визуализации](power-bi-visualization-customize-title-background-and-legend.md)
-* [Форматирование цветом](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [Настройка свойств осей X и Y](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [Настройка заголовка, фона и условных обозначений визуализации](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Форматирование цветом](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [Настройка свойств осей X и Y](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Добавление аналитики в визуализации
 Чтобы отобразить панель "Аналитика", щелкните значок лупы. Доступный параметр зависит от типа выбранной визуализации.
@@ -126,7 +126,7 @@ ms.locfileid: "34299477"
 ## <a name="next-steps"></a>Дальнейшие действия:
 [Создание отчета](service-report-create-new.md)
 
-Дополнительные сведения об отчетах в [службе Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) и [Power BI Mobile](mobile-apps-view-phone-report.md).
+Дополнительные сведения об отчетах в [службе Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) и [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
 
 [Power BI — основные понятия](service-basic-concepts.md)
 

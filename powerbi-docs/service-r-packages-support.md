@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256177"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727037"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Пакеты R в службе Power BI
 Вы можете использовать эффективный [язык программирования R](https://www.r-project.org/) для создания визуальных элементов в службе Power BI. Большинство пакетов R поддерживаются в службе Power BI (кроме того, они поддерживаются постоянно), а некоторые из них не поддерживаются.
 
-В следующих разделах приводятся поддерживаемые и неподдерживаемые пакеты R в Power BI, которые перечислены в алфавитном порядке в таблице. Дополнительные сведения об R в Power BI см. в статье [Создание визуальных элементов R в службе Power BI](service-r-visuals.md).
+В следующих разделах приводятся поддерживаемые и неподдерживаемые пакеты R в Power BI, которые перечислены в алфавитном порядке в таблице. Дополнительные сведения об R в Power BI см. в статье [Создание визуальных элементов R в службе Power BI](visuals/service-r-visuals.md).
 
 ## <a name="request-support-for-a-new-r-package"></a>Запрос поддержки для нового пакета R
 Пакеты, поддерживаемые R для использования в **службе Power BI**, перечислены в разделе **Поддерживаемые пакеты**. Чтобы запросить поддержку для пакета R, который отсутствует в списке, можно отправить запрос в сообщении электронной почты [команде, обрабатывающей отзывы по использованию R в Power BI](mailto:rinpbifb@microsoft.com).
@@ -940,7 +940,7 @@ ms.locfileid: "39256177"
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения об R в Power BI см. в следующих статьях:
 
-* [Создание визуальных элементов R в службе Power BI](service-r-visuals.md)
+* [Создание визуальных элементов R в службе Power BI](visuals/service-r-visuals.md)
 * [Создание визуальных элементов Power BI с помощью R](desktop-r-visuals.md)
 * [Выполнение сценариев R в Power BI Desktop](desktop-r-scripts.md)
 * [Использование языка R в редакторе запросов](desktop-r-in-query-editor.md)

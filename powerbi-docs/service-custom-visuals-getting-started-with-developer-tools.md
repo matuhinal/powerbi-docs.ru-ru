@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256859"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726692"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Создание пользовательского визуального элемента с помощью средств разработчика
 Пользовательские визуальные элементы отвечают потребностям пользователей, а также соответствуют дизайну вашего приложения. Узнайте, как создать пользовательский визуальный элемент с помощью средств разработчика для Power BI.
@@ -388,7 +388,7 @@ pbiviz update 1.2.0
 Дополнительные сведения см. в разделе [Запуск визуального элемента](#running-your-visual) или [Установка сертификата сервера](#ssl-setup).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Визуализации в Power BI](power-bi-report-visualizations.md)  
+[Визуализации в Power BI](visuals/power-bi-report-visualizations.md)  
 [Пользовательские визуализации в Power BI](power-bi-custom-visuals.md)  
 [Публикация пользовательских визуализаций в Магазине Office](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

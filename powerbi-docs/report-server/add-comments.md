@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721968"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727980"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Добавление комментариев к отчету на сервере отчетов
 Вы можете добавлять комментарии к отчетам, в том числе к отчетам Power BI, на веб-портале сервера отчетов. Комментарии связаны с отчетом, и любой пользователь с соответствующими разрешениями может их просматривать. Дополнительные сведения см. в разделе [Разрешения](#permissions) ниже.
@@ -33,7 +33,7 @@ ms.locfileid: "34721968"
     Комментарий отображается на панели на веб-портале вместе с предыдущими комментариями. Они не отображаются в отчете в мобильных приложениях Power BI.
    
    > [!TIP]
-   > Знаете ли вы? Вы можете [добавлять комментарии к отчетам Power BI в мобильных приложениях Power BI](../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md), а также использовать отчеты с комментариями совместно с другими пользователями.
+   > Знаете ли вы? Вы можете [добавлять комментарии к отчетам Power BI в мобильных приложениях Power BI](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md), а также использовать отчеты с комментариями совместно с другими пользователями.
    > 
    > 
 

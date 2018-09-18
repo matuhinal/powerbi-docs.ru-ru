@@ -2,21 +2,21 @@
 title: Экспорт данных из визуализации Power BI
 description: Экспортируйте данные из визуализаций отчетов и панелей мониторинга и просматривайте их в Excel.
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 55fe4a2e8b3121431567309e935e9fa4a15cd31b
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 7bf7742726a66fe5933bb180471af4d766457255
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168050"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727083"
 ---
 # <a name="export-data-from-visualizations"></a>Экспорт данных из визуализаций
 Чтобы просмотреть данные, которые используются для создания визуализации, [откройте их в Power BI](service-reports-show-data.md) или экспортируйте в Excel в виде файла с расширением XLSX или CSV.   
@@ -78,7 +78,7 @@ ms.locfileid: "44168050"
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="export-underlying-data-details"></a>Сведения об экспорте базовых данных
-Данные, отображаемые при выборе варианта **Базовые данные**, могут различаться. Для понимания этих сведений может потребоваться помощь администратора или ИТ-отдела. В Power BI Desktop или в службе Power BI в представлении отчетов *мера* отображается в списке полей со значком калькулятора ![отображение значка](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). Меры создаются в Power BI Desktop, а не в службе Power BI.
+Данные, отображаемые при выборе варианта **Базовые данные**, могут различаться. Для понимания этих сведений может потребоваться помощь администратора или ИТ-отдела. В Power BI Desktop или в службе в представлении отчетов *мера* отображается в списке полей со значком калькулятора ![отображение значка](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). Меры создаются в Power BI Desktop, а не в службе Power BI.
 
 
 | Визуальный элемент содержит |                                                                              Что вы видите при экспорте                                                                              |

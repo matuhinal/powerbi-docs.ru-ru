@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 804794f53eb062d5c9cb286be46c0459d5435d28
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280485"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727948"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Добавление тегов для штрихкодов в Power BI Desktop для мобильных приложений
-В Power BI Desktop можно [задавать категории данных](desktop-data-categorization.md) в столбцах, чтобы приложение Power BI Desktop понимало, как интерпретировать соответствующие значения в визуальных элементах отчета. Столбцу также можно присвоить категорию **Штрихкод**. [Отсканировав штрихкод изделия в приложении Power BI](mobile-apps-scan-barcode-iphone.md) на устройстве iPhone, вы сможете увидеть все отчеты, в которых есть этот штрихкод. При открытии отчета в мобильном приложении Power BI автоматически фильтрует данные в нем в соответствии с указанным штрихкодом.
+В Power BI Desktop можно [задавать категории данных](desktop-data-categorization.md) в столбцах, чтобы приложение Power BI Desktop понимало, как интерпретировать соответствующие значения в визуальных элементах отчета. Столбцу также можно присвоить категорию **Штрихкод**. [Отсканировав штрихкод изделия в приложении Power BI](consumer/mobile/mobile-apps-scan-barcode-iphone.md) на устройстве iPhone, вы сможете увидеть все отчеты, в которых есть этот штрихкод. При открытии отчета в мобильном приложении Power BI автоматически фильтрует данные в нем в соответствии с указанным штрихкодом.
 
 1. В Power BI Desktop перейдите в представление данных.
 2. Выберите столбец с данными штрихкодов. Список [поддерживаемых форматов штрихкодов](#supported-barcode-formats) приведен ниже.
@@ -27,7 +27,7 @@ ms.locfileid: "39280485"
 4. В представлении отчета добавьте это поле в визуальные элементы, которые должны фильтроваться по штрихкоду.
 5. Сохраните отчет и опубликуйте его в службе Power BI.
 
-Теперь откройте сканер в [приложении Power BI для iPhone](mobile-iphone-app-get-started.md) и отсканируйте штрихкод, и вы увидите данный отчет в списке отчетов. При открытии отчета его визуальные элементы будут отфильтрованы по штрихкоду изделия, который вы отсканировали.
+Теперь откройте сканер в [приложении Power BI для iPhone](consumer/mobile/mobile-iphone-app-get-started.md) и отсканируйте штрихкод, и вы увидите данный отчет в списке отчетов. При открытии отчета его визуальные элементы будут отфильтрованы по штрихкоду изделия, который вы отсканировали.
 
 ## <a name="supported-barcode-formats"></a>Поддерживаемые форматы штрихкодов
 Ниже перечислены штрихкоды, которые распознает приложение Power BI, если они помечены в отчете соответствующим образом. 
@@ -44,8 +44,8 @@ ms.locfileid: "39280485"
 * ITF14Code 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Сканирование штрихкода из приложения Power BI на iPhone](mobile-apps-scan-barcode-iphone.md)
-* [Проблемы при сканировании штрихкодов на iPhone](mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
+* [Сканирование штрихкода из приложения Power BI на iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
+* [Проблемы при сканировании штрихкодов на iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Категоризация данных в Power BI Desktop](desktop-data-categorization.md)  
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

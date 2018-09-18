@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300122"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726922"
 ---
 # <a name="power-bi-admin-portal"></a>Портал администрирования Power BI
 
@@ -244,7 +244,7 @@ ms.locfileid: "43300122"
 
 ### <a name="interact-with-and-share-r-visuals"></a>Взаимодействие с визуальными элементами R и их публикация
 
-Пользователи в организации могут взаимодействовать с визуальными элементами, созданными при помощи R-скриптов, и делиться ими. [Дополнительные сведения](service-r-visuals.md)
+Пользователи в организации могут взаимодействовать с визуальными элементами, созданными при помощи R-скриптов, и делиться ими. [Дополнительные сведения](visuals/service-r-visuals.md)
 
 > [!NOTE]
 > Этот параметр применяется ко всей организации и не ограничивается определенными группами.
