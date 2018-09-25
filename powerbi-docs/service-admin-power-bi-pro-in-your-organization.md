@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8cf0a4de37f1bdc6e90a05799caebd2ce0e77046
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280738"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548311"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>Power BI Pro в вашей организации
 
@@ -35,7 +35,7 @@ Power BI Pro представляет собой платную лицензию
 
 Зарегистрировав бесплатную учетную запись, вы можете использовать функции Power BI Pro бесплатно в течение 60 дней. Вы получите доступ ко всем функциональным возможностям учетных записей Pro на период действия пробной версии. В Power BI Pro доступны все функции бесплатной версии Power BI, а также дополнительные возможности общего доступа и совместной работы. Дополнительные сведения см. в разделе [Цены на Power BI](https://powerbi.microsoft.com/en-us/pricing/). Чтобы ознакомиться с 60-дневной бесплатной пробной версией Power BI Pro, выполните вход в службу Power BI и попробуйте одну из указанных ниже функций Power BI.
 
-* [Создание рабочей области](service-create-distribute-apps.md)
+* [Создание рабочей области](consumer/end-user-create-apps.md)
 * [предоставление общего доступа к панелям мониторинга](service-share-dashboards.md).
 
 При выборе любой из этих функций вам будет предложено запустить бесплатную пробную версию. Вы также можете перейти в указанную пробную версию, щелкнув значок шестеренки и выбрав "Управление личным хранилищем". Затем выберите "Попробовать версию Pro бесплатно" справа.

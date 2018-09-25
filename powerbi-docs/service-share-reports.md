@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257236"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545650"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Предоставление общего доступа коллегам к отфильтрованному отчету Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. В Power BI также доступны [другие способы совместной работы с отчетами и их распространения](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -28,7 +28,7 @@ ms.locfileid: "34257236"
 ## <a name="filter-and-share-a-report"></a>Фильтрация и предоставление общего доступа
 Что делать, если необходимо совместно использовать отфильтрованную версию отчета? Это может быть отчет, который отображает данные только по определенному городу, продавцу или году. Для этого необходимо создать пользовательский URL-адрес.
 
-1. Откройте отчет в [режиме редактирования](service-reading-view-and-editing-view.md), примените фильтр и сохраните отчет.
+1. Откройте отчет в [режиме редактирования](consumer/end-user-reading-view.md), примените фильтр и сохраните отчет.
    
    В этом примере мы применяем фильтр к набору данных [Анализ розничной торговли — пример](sample-tutorial-connect-to-the-samples.md), чтобы отобразить только значения, у которых в поле **Территория** указано значение **NC**.
    

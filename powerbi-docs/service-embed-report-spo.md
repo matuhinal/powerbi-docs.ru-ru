@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257149"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549898"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -85,7 +85,7 @@ ms.locfileid: "40257149"
 > [!IMPORTANT]
 > Обязательно проверьте, кто может просматривать отчет в службе Power BI, и предоставьте доступ пользователям, которых нет в списке.
 
-Доступ к отчету в службе Power BI можно предоставить двумя способами. Если вы используете группу Office 365 для создания сайта группы SharePoint Online, укажите пользователя как участника **рабочей области приложения в службе Power BI** и на **странице SharePoint**. Теперь эти пользователи могут просматривать содержимое этой группы. Дополнительные сведения см. в статье [Создание и распространение приложения в Power BI](service-create-distribute-apps.md).
+Доступ к отчету в службе Power BI можно предоставить двумя способами. Если вы используете группу Office 365 для создания сайта группы SharePoint Online, укажите пользователя как участника **рабочей области приложения в службе Power BI** и на **странице SharePoint**. Теперь эти пользователи могут просматривать содержимое этой группы. Дополнительные сведения см. в статье [Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md).
 
 Также пользователям можно предоставить доступ к отчету, выполнив следующие действия.
 
@@ -142,7 +142,7 @@ ms.locfileid: "40257149"
 
 * Power BI не поддерживает те же языки с локализацией, что и SharePoint Online. В результате во внедренном отчете требуемая локализация может не отображаться.
 
-* При использовании Internet Explorer 10 могут возникнуть проблемы. См. сведения о [поддерживаемых браузерах для Power BI](service-browser-support.md) и [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
+* При использовании Internet Explorer 10 могут возникнуть проблемы. См. сведения о [поддерживаемых браузерах для Power BI](consumer/end-user-browsers.md) и [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
 * Веб-часть Power BI недоступна в [национальных облаках](https://powerbi.microsoft.com/en-us/clouds/).
 
@@ -151,7 +151,7 @@ ms.locfileid: "40257149"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Allow or prevent creation of modern site pages by end users](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) (Разрешение или запрет создания современных страниц сайта конечными пользователями)  
-[Создание и распространение приложения в Power BI](service-create-distribute-apps.md)  
+[Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md)  
 [Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md)  
 [Что такое Power BI Premium?](service-premium.md)  
 

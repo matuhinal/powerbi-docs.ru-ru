@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247764"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546968"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Оптимизация данных для быстрого анализа данных в Power BI
 Хотите улучшить результаты быстрого анализа данных?  Если вы являетесь владельцем набора данных, попробуйте один из следующих способов:
@@ -26,7 +26,7 @@ ms.locfileid: "34247764"
 * Вы получаете сообщение об ошибке, в котором говорится, что ваши данные не являются статистически значимыми?  Такое может произойти, если модель слишком простая, не содержит достаточно данных либо в ней нет столбцов с датами или числами. Для формирования аналитических данных набор данных должен содержать хотя бы одно измерение и хотя бы одну меру.
 
 ### <a name="next-steps"></a>Дальнейшие действия
-[Быстрый анализ данных Power BI](service-insights.md)
+[Быстрый анализ данных Power BI](consumer/end-user-insights.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

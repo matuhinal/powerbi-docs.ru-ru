@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937269"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547069"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Подключение к Microsoft Dynamics CRM с помощью Power BI
 Microsoft Dynamics CRM Online для Power BI позволяет легко обращаться к данным и анализировать их. Power BI использует канал OData для создания описательной модели с необходимыми сущностями и мерами, такими как учетные записи, действия, возможности, продукты, интересы, пользователи и т. д. Установив приложение, вы можете просматривать отчеты и панели мониторинга в службе Power BI ([https://powerbi.com](https://powerbi.com)) и мобильных приложениях Power BI. 
@@ -154,7 +154,7 @@ Power BI поддерживает только конечные точки Dynam
 Если появится сообщение об ошибке "Data refresh failed as query exceeded the maximum limit of 100000 records" (Не удалось обновить данные, так как запрос превышает ограничение в 100 000 записей), попробуйте подключиться напрямую из Power BI Desktop или с помощью шаблона решения CRM.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что из себя представляют приложения в Power BI?](service-install-use-apps.md)
+* [Что из себя представляют приложения в Power BI?](consumer/end-user-apps.md)
 * [Получение данных в Power BI](service-get-data.md)
 * Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

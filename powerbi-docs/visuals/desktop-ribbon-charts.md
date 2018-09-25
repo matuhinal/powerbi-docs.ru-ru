@@ -1,21 +1,21 @@
 ---
 title: Использование ленточных диаграмм в Power BI
 description: Создание и использование ленточных диаграмм в службе Power BI и Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d7dbf878c32ee29ea490e10f27f1bda49f20b08
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e7bd79b8d93bba4395922fb39faaf423109f7b02
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737068"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566126"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Использование ленточных диаграмм в Power BI
 **Ленточные диаграммы** в Power BI позволяют визуализировать данные и быстро определять категории данных с наивысшим рангом (максимальным значением). Ленточные диаграммы лучше всего подходят для отображения изменений ранга. Наивысший ранг (значение) за каждый период времени всегда отображается в верхней части диаграммы. Ленточные диаграммы доступны в **Power BI Desktop** начиная с выпуска за сентябрь 2017 г. и в последующих обновлениях **службы Power BI**.

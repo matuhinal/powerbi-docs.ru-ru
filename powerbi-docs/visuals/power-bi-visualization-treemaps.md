@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744025"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548081"
 ---
 # <a name="treemaps-in-power-bi"></a>Древовидные диаграммы в Power BI
 Диаграмма дерево отображает иерархические данные в виде набора вложенных прямоугольников.  Каждый уровень иерархии представлен цветным прямоугольником (часто называемом ветвью), который содержит другие прямоугольники (листья).  Пространство внутри каждого прямоугольника выделяется на основе измеряемого количественного значения. Прямоугольники упорядочиваются по размеру: от верхнего левого (самый большой) до нижнего правого (самый маленький).
@@ -62,7 +62,7 @@ ms.locfileid: "44744025"
    > 
 5. Наведите указатель на заголовок **Chain** (Сеть магазинов), чтобы увидеть подсказку для этой части области **Category**(Категория).  Например, при наведении указателя на **Lindseys** в категории **040-Juniors** в прямоугольнике отображается всплывающая подсказка для части Lindsey категории одежды для подростков.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Добавьте диаграмму дерева как плитку на панель мониторинга (закрепите визуальный элемент)](../service-dashboard-tiles.md). 
+6. [Добавьте диаграмму дерева как плитку на панель мониторинга (закрепите визуальный элемент)](../consumer/end-user-tiles.md). 
 7. [Сохраните отчет](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Выделение и перекрестная фильтрация
@@ -76,11 +76,11 @@ ms.locfileid: "44744025"
 2. В круговой диаграмме **Last Year Sales by Chain** (Продажи за прошлый год по сети магазинов) выберите сектор **Fashions Direct**, чтобы перекрестно фильтровать диаграмму в виде дерева.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. Сведения о том, как настроить параметры перекрестного выделения и фильтрации диаграмм, см. в статье [Visualization interactions in a Power BI report](../service-reports-visual-interactions.md) (Взаимодействия визуализаций в отчете Power BI).
+3. Сведения о том, как настроить параметры перекрестного выделения и фильтрации диаграмм, см. в статье [Visualization interactions in a Power BI report](../consumer/end-user-interactions.md) (Взаимодействия визуализаций в отчете Power BI).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Закрепление плитки на панели мониторинга Power BI из отчета](../service-dashboard-pin-tile-from-report.md)  
-[Power BI — основные понятия](../service-basic-concepts.md)  
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)  
 

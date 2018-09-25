@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 929af9c8ff3322fc792f2890b6914148725bf694
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ec2520ad72889ae3e8f4955ea93c4bf7727daa18
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737317"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544379"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Перемещение визуализации и изменение ее размера в отчете в службе Power BI и Power BI Desktop
-Только автор и владельцы отчета могут перемещать визуализации и изменять их размер. В службе Power BI (app.powerbi.com) это означает возможность открыть отчет в [режиме правки](../service-reading-view-and-editing-view.md).
+Только автор и владельцы отчета могут перемещать визуализации и изменять их размер. В службе Power BI (app.powerbi.com) это означает возможность открыть отчет в [режиме правки](../consumer/end-user-reading-view.md).
 
 ## <a name="open-the-report"></a>Открытие отчета
 В Power BI откройте отчет, содержащий хотя бы одну визуализацию, или [создайте новую визуализацию](power-bi-report-add-visualizations-i.md). 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330496"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546761"
 ---
 # <a name="using-buttons-in-power-bi"></a>Использование кнопок в Power BI
 **Кнопки** в Power BI позволяют создавать отчеты и панели мониторинга, которые работают как приложения. С их помощью вы можете создать удобную среду, где пользователи могут эффективно взаимодействовать мышью с элементами Power BI. Добавив кнопки в отчеты **Power BI Desktop**, предоставьте к ним общий доступ или опубликуйте их в службе Power BI и создайте панели мониторинга, чтобы пользователи могли работать с отчетами, как с обычными приложениями.
@@ -75,6 +75,6 @@ ms.locfileid: "39330496"
 Дополнительные сведения о похожих функциях и о взаимодействии с кнопками см. в следующих статьях.
 
 * [Использование детализации в Power BI Desktop](desktop-drillthrough.md)
-* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](service-focus-mode.md)
+* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](consumer/end-user-focus.md)
 * [Использование закладок для обмена аналитическими сведениями и создания историй в Power BI](desktop-bookmarks.md)
 

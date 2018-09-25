@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 668db107087420ceeabbe68325ee6c67dc69e524
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722961"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547207"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Динамические данные служб SQL Server Analysis в Power BI
 В Power BI существует два способа подключения к серверу динамических данных SQL Server Analysis Services. Вы можете подключиться к серверу SQL Server Analysis Services на вкладке **Получение данных** или подключиться к [файлу Power BI Desktop](service-desktop-files.md) или [книге Excel](service-excel-workbook-files.md), которые уже подключены к серверу служб Analysis Services. Как правило, корпорация Майкрософт настоятельно рекомендует использовать Power BI Desktop, так как это приложение располагает полным набором инструментов и возможностью хранения резервной копии файла Power BI Desktop на локальном компьютере.
@@ -23,7 +23,7 @@ ms.locfileid: "34722961"
  >[!IMPORTANT]
  >* Для динамического подключения к серверу Analysis Services администратор должен установить и настроить локальный шлюз данных. Дополнительную информацию см. в разделе [Локальный шлюз данных](service-gateway-onprem.md).
  >* При использовании шлюза данные размещены локально.  Отчеты, созданные на их основе, сохраняются в службе Power BI. 
- >* [Вопросы и ответы на естественном языке](service-q-and-a-direct-query.md) — предварительная версия функции для интерактивных подключений к Analysis Services.
+ >* [Вопросы и ответы на естественном языке](consumer/end-user-q-and-a-direct-query.md) — предварительная версия функции для интерактивных подключений к Analysis Services.
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>Подключение к модели на вкладке "Получение данных"
 1. В разделе **Моя рабочая область** щелкните **Получить данные**. Можно также перейти в рабочую область группы, если она доступна.

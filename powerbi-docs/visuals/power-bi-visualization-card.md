@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737014"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548334"
 ---
 # <a name="card-visualizations"></a>Визуализации в виде карточек
 Иногда на панели мониторинга или в отчете Power BI очень важно отслеживать одно число, например показатель общего объема продаж, долю на рынке в годовом исчислении или общее число возможных сделок. Такой тип визуализации называется *карточкой*. Как и практически все собственные визуализации Power BI, карточки можно создавать при помощи редактора отчетов или функции вопросов и ответов.
@@ -51,13 +51,13 @@ ms.locfileid: "44737014"
 ## <a name="create-a-card-from-the-qa-question-box"></a>Создание карточки в поле вопроса функции "Вопросы и ответы"
 Поле вопроса функции "Вопросы и ответы" — самый простой способ создания карточки. Поле вопроса функции "Вопросы и ответы" доступно в службе Power BI (app.powerbi.com) на панели мониторинга или в отчете. Ниже приведены инструкции по созданию карточки на панели мониторинга в службе Power BI. Чтобы создать карточку при помощи функции "Вопросы и ответы" в Power BI Desktop, [следуйте этим инструкциям](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) для предварительной версии функции "Вопросы и ответы" в отчетах Desktop.
 
-1. Создайте [панель мониторинга](../service-dashboards.md) и [получите данные](../service-get-data.md). Здесь используется пример [Анализ возможностей](../sample-opportunity-analysis.md).
+1. Создайте [панель мониторинга](../consumer/end-user-dashboards.md) и [получите данные](../service-get-data.md). Здесь используется пример [Анализ возможностей](../sample-opportunity-analysis.md).
 
 1. В верхней части информационной панели начните вводить вопрос о данных в поле вопроса. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**СОВЕТ.** В отчете службы Power BI в [режиме правки](../service-reading-view-and-editing-view.md) выберите **Задать вопрос** в строке меню сверху. В отчете Power BI Desktop дважды щелкните пустую область, чтобы открыть поле вопроса.
+>**СОВЕТ.** В отчете службы Power BI в [режиме правки](../consumer/end-user-reading-view.md) выберите **Задать вопрос** в строке меню сверху. В отчете Power BI Desktop дважды щелкните пустую область, чтобы открыть поле вопроса.
 
 3. Например, введите "количество возможных сделок".
 
@@ -105,10 +105,10 @@ ms.locfileid: "44737014"
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Плитки панели мониторинга в Power BI](../service-dashboard-tiles.md)
+[Плитки панели мониторинга в Power BI](../consumer/end-user-tiles.md)
 
-[Панели мониторинга в Power BI](../service-dashboards.md)
+[Панели мониторинга в Power BI](../consumer/end-user-dashboards.md)
 
-[Power BI — основные понятия](../service-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

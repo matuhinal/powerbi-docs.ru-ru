@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310114"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548118"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Учебник. Подключение к примеру в GitHub с помощью Power BI
 В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключившись к общедоступному *репозиторию* содержимого Power BI, можно узнать, сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; а также получить ответы на другие вопросы. 
@@ -125,6 +125,6 @@ ms.locfileid: "34310114"
 В этом учебнике вы подключились к общедоступному репозиторию GitHub и получили данные, которые служба Power BI отформатировала в панели мониторинга и отчете. Вы получили ответы на некоторые вопросы, изучив панель мониторинга и отчет. Теперь вы можете узнать, как подключаться к другим службами, таким как Salesforce, Microsoft Dynamics и Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Подключение к используемым веб-службам](./service-connect-to-services.md)
+> [Подключение к используемым веб-службам](consumer/end-user-connect-to-services.md)
 
 

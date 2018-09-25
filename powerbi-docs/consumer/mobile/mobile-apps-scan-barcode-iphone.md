@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736780"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543320"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Сканирование штрихкода с помощью устройства iPhone из приложения Power BI
 Вы можете сканировать штрихкоды в реальном мире и сразу же переходить непосредственно к отфильтрованной соответствующим образом информации в мобильном приложении Power BI.
@@ -67,6 +67,6 @@ ms.locfileid: "44736780"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Добавление тегов для поля со штрихкодом в Power BI Desktop](../../desktop-mobile-barcodes.md)
-* [Плитки панели мониторинга в Power BI](../../service-dashboard-tiles.md)
-* [Панели мониторинга в Power BI](../../service-dashboards.md)
+* [Плитки панели мониторинга в Power BI](../end-user-tiles.md)
+* [Панели мониторинга в Power BI](../end-user-dashboards.md)
 

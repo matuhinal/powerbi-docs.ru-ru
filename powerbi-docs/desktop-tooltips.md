@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512163"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547147"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Создание подсказок на основе страниц отчетов в Power BI Desktop
 Вы можете создать визуально насыщенные **подсказки отчетов**, отображаемые при наведении указателя на визуальные элементы, основываясь на создаваемых в **Power BI Desktop** страницах отчетов. Благодаря этому настраиваемые подсказки могут включать визуальные элементы, изображения и любую другую коллекцию элементов, созданные на странице отчета. 
@@ -136,5 +136,5 @@ ms.locfileid: "44512163"
 Дополнительные сведения о похожих функциях или функциях, которые взаимодействуют с подсказками отчета, см. в следующих статьях:
 
 * [Использование детализации в Power BI Desktop](desktop-drillthrough.md)
-* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](service-focus-mode.md)
+* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](consumer/end-user-focus.md)
 

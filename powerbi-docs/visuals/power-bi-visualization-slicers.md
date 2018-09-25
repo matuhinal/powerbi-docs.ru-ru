@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737515"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565091"
 ---
 # <a name="slicers-in-power-bi"></a>Срезы в Power BI
 Вам необходимо, чтобы ваши читатели отчетов могли просматривать общие показатели продаж и производительности по отдельному региональному менеджеру и в разные временные рамки. Вы можете создать отдельные страницы отчета, сравнительные диаграммы или воспользоваться срезом. Срез — это альтернативный вариант фильтрации, который сужает часть набора данных, отображаемую в других визуализациях в отчете. 
@@ -98,7 +98,7 @@ ms.locfileid: "44737515"
 2. Щелкните значок **None** (Ни одного) над диаграммой **Total Sales Variance by FiscalMonth and District Manager** (Разница в общем объеме продаж по отчетным месяцам и региональным менеджерам), чтобы отменить фильтрацию. 
 3. Выберите срез **Месяц** и снова щелкните значок **None** (Ни одного) над диаграммой **Total Sales Variance by FiscalMonth and District Manager** (Разница в общем объеме продаж по отчетным месяцам и региональным менеджерам), чтобы отменить фильтрацию. После выбора диапазонов имен и дат в срезах, диаграмма Total Sales Variance by FiscalMonth and District Manager (Разница в общем объеме продаж по отчетным месяцам и региональным менеджерам) не изменяется. 
 
-Дополнительные сведения об изменении взаимодействий см. в разделе [Взаимодействия с визуализациями в отчете Power BI](../service-reports-visual-interactions.md).
+Дополнительные сведения об изменении взаимодействий см. в разделе [Взаимодействия с визуализациями в отчете Power BI](../consumer/end-user-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Синхронизация и использование срезов на других страницах
 Начиная с обновления Power BI за февраль 2018 г., можно синхронизировать срез и использовать его на отдельных или всех страницах в отчете. 
@@ -193,5 +193,5 @@ ms.locfileid: "44737515"
 
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI — основные понятия](../service-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 

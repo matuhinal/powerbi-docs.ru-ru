@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d09f9d9d0de8608a39111f24e6f605c3fbce55fb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736996"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545042"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Кольцевые диаграммы в Power BI
 Кольцевая диаграмма похожа на круговую диаграмму в том, что она показывает отношение между целым и частями. Единственное отличие в том, что центр диаграммы пуст и в него можно добавить подпись или значок.
@@ -43,13 +43,13 @@ ms.locfileid: "44736996"
 * Кольцевые диаграммы лучше подходят для сравнения определенной части с целым, а не отдельных частей друг с другом. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Отчеты в Power BI](../service-reports.md)
+[Отчеты в Power BI](../consumer/end-user-reports.md)
 
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Визуализации в отчетах Power BI](power-bi-report-visualizations.md)
 
-[Power BI — основные понятия](../service-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

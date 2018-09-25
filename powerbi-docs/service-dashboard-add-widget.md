@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247718"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545873"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Добавление изображения, текста, видео и другого содержимого на информационную панель
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ ms.locfileid: "34247718"
 * Если вы хотите внедрить часть содержимого с веб-сайта, однако этот сайт не предоставляет код внедрения, который можно было бы скопировать, обратитесь к embed.ly для создания кода внедрения.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Плитки панели мониторинга в Power BI](service-dashboard-tiles.md)
+[Плитки панели мониторинга в Power BI](consumer/end-user-tiles.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
 

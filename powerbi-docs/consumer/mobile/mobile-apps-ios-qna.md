@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737083"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548127"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 
@@ -137,11 +137,11 @@ ms.locfileid: "44737083"
 Вы можете улучшить результаты, которые получаете вы или ваши клиенты при использовании виртуального аналитика "Вопросы и ответы" с набором данных. Для этого нужно задать более точный вопрос или усовершенствовать набор данных.
 
 ### <a name="how-to-ask-questions"></a>Как задавать вопросы
-* Следуйте этим [рекомендациям по отправке вопросов с помощью функции "Вопросы и ответы"](../../service-q-and-a-tips.md) в службе Power BI или виртуального аналитика "Вопросы и ответы" в мобильном приложении iOS.
+* Следуйте этим [рекомендациям по отправке вопросов с помощью функции "Вопросы и ответы"](../end-user-q-and-a-tips.md) в службе Power BI или виртуального аналитика "Вопросы и ответы" в мобильном приложении iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Как улучшить набор данных
 * Усовершенствуйте набор данных в Power BI Desktop или в службе Power BI, чтобы [ваши данные правильно работали с функцией "Вопросы и ответы" и виртуальным аналитиком "Вопросы и ответы"](../../service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Вопросы и ответы в Power BI](../../power-bi-q-and-a.md)
+* [Вопросы и ответы в Power BI](../end-user-q-and-a.md)
 * У вас появились вопросы? См. [раздел мобильных приложений в сообществе Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

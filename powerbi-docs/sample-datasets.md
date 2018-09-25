@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582507"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546494"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Примеры данных, доступные для использования в службе Power BI
 Предположим, что вы не знакомы с Power BI и хотите оценить эту службу, но у вас нет данных.  Или, например, у вас есть набор данных, но так как вы не знаете принципов работы Power BI (пока еще), вы боитесь повредить его.
@@ -191,7 +191,7 @@ ObviEnce является независимым поставщиком прог
 4. Чтобы открыть этот файл в Power BI Desktop, выберите его.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
 [Учебник. Скачивание и начало использования примеров для Power BI](sample-tutorial-connect-to-the-samples.md)
 

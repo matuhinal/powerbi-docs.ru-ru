@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944613"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543803"
 ---
 # <a name="the-power-bi-samples"></a>Образцы Power BI
 
@@ -79,7 +79,7 @@ ms.locfileid: "36944613"
     ![страница отчета с выбранными совпадающими визуальными элементами](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Если плитка была создана с помощью функции [Вопросы и ответы](power-bi-q-and-a.md) Power BI, вместо отчета откроется страница вопросов и ответов. Если плитка [закреплена из Excel](service-dashboard-pin-tile-from-excel.md), Excel Online откроется в службе Power BI.
+   > Если плитка была создана с помощью функции [Вопросы и ответы](consumer/end-user-q-and-a.md) Power BI, вместо отчета откроется страница вопросов и ответов. Если плитка [закреплена из Excel](service-dashboard-pin-tile-from-excel.md), Excel Online откроется в службе Power BI.
    > 
    > 
 1. Вернитесь на вкладку **Наборы данных**. Набор данных можно изучить несколькими способами.  Вы не сможете открыть его и просмотреть все строки и столбцы (как это можно сделать в Power BI Desktop или Excel).  Когда пользователи предоставляют коллегам общий доступ к пакету содержимого, обычно они хотят поделиться аналитическими сведениями, а не предоставить прямой доступ к данным. Но это не означает, что вы не можете просматривать этот набор данных.  
@@ -89,7 +89,7 @@ ms.locfileid: "36944613"
    * Один из способов изучения набора данных заключается в создании собственных визуализаций и отчетов с нуля.  Щелкните значок диаграммы ![значок отчета](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) чтобы открыть набор данных в режиме правки отчета.
      
        ![новый отчет](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Другой способ заключается в выполнении [быстрого анализа](service-insights.md). Щелкните многоточие (...) и выберите **Получить аналитику**. После сбора информации выберите **Просмотреть аналитику**.
+   * Другой способ заключается в выполнении [быстрого анализа](consumer/end-user-insights.md). Щелкните многоточие (...) и выберите **Получить аналитику**. После сбора информации выберите **Просмотреть аналитику**.
      
        ![Отчет по аналитике](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "36944613"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
 [Примеры для службы Power BI](sample-datasets.md)
 

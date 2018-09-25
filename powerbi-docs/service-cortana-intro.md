@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d11fd66e8b0aff15648aba6d3e397cd7fdb9bb3
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a0692d74f42b48bc68d670ad2e6c6a33dca0729d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/04/2018
-ms.locfileid: "34251651"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550105"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Быстрый поиск и просмотр данных Power BI с помощью Кортаны для Power BI
 Используйте Кортану на устройствах с Windows 10, чтобы мгновенно получать ответы на вопросы вашей организации. Благодаря интеграции с Power BI Кортана может получать важные сведения непосредственно из панелей мониторинга и отчетов Power BI. Для работы вам нужна версия Windows 10 (ноябрь 2015 г.) или более поздняя, Кортана, Power BI и доступ минимум к одному набору данных.
@@ -67,7 +67,7 @@ Power BI может быть одним из мест для поиска отв
 ### <a name="cortana-and-reports"></a>Кортана и отчеты
  Кортана может находить ответы в отчетах со [страницами, разработанными специально для отображения в Кортане](service-cortana-answer-cards.md). Просто задайте вопрос, используя заголовок или ключевые слова, которые есть на одной из этих специальных страниц отчета.  
 
-Это решение основывается на функции [вопросов и ответов Microsoft Power BI](power-bi-q-and-a.md).
+Это решение основывается на функции [вопросов и ответов Microsoft Power BI](consumer/end-user-q-and-a.md).
 
 Если вы задаете вопрос в Кортане, ответы Power BI поступают со страниц отчетов, предназначенных специально для Кортаны. Кортана определяет возможные ответы в режиме реального времени непосредственно на основе *карт ответов*, уже созданных в Power BI.  Чтобы глубже изучить ответ, просто откройте полученный результат в Power BI.
 

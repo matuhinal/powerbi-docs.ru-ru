@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: eaf70dab21bd35947582e343567bb1457b99cabc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624259"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547989"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Создание и публикация пакета содержимого организации в Power BI (руководство)
 
@@ -92,7 +92,7 @@ ms.locfileid: "39624259"
 ### <a name="next-steps"></a>Дальнейшие действия
 * [Знакомство с пакетами содержимого организации](service-organizational-content-pack-introduction.md)  
 * [Управление пакетами содержимого организации, их обновление и удаление в Power BI](service-organizational-content-pack-manage-update-delete.md)  
-* [Создание группы в Power BI](service-create-distribute-apps.md)  
+* [Создание группы в Power BI](consumer/end-user-create-apps.md)  
 * [Что такое OneDrive для бизнеса?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599601"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548058"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Закрепление плитки на панели мониторинга Power BI из книги Excel
 Прежде чем можно будет закрепить плитку из книги Excel, эту книгу необходимо подключить к службе Power BI (app.powerbi.com). При подключении книги ее связанная доступная только для чтения версия добавляется в службу Power BI, что дает возможность закреплять диапазоны ячеек на панелях мониторинга. На панели мониторинга можно закрепить даже целый лист.  
@@ -49,7 +49,7 @@ ms.locfileid: "37599601"
     ![Excel Online в Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Закрепление диапазона ячеек на панели мониторинга
-Новую [плитку информационной панели](service-dashboard-tiles.md) можно добавить в том числе и из книги Excel в Power BI. Диапазоны можно закреплять из книг Excel, сохраненных в OneDrive для бизнеса или в другой библиотеке документов с общим доступом для группы пользователей. Диапазоны могут содержать данные, диаграммы, таблицы, сводные таблицы, сводные диаграммы и других компоненты Excel.
+Новую [плитку информационной панели](consumer/end-user-tiles.md) можно добавить в том числе и из книги Excel в Power BI. Диапазоны можно закреплять из книг Excel, сохраненных в OneDrive для бизнеса или в другой библиотеке документов с общим доступом для группы пользователей. Диапазоны могут содержать данные, диаграммы, таблицы, сводные таблицы, сводные диаграммы и других компоненты Excel.
 
 1. Выделите ячейки, которые нужно закрепить на панели мониторинга.
    

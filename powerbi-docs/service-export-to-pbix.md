@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722550"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547041"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Экспорт отчета службы Power BI для использования в приложении Power BI Desktop (предварительная версия)
 В Power BI Desktop можно экспортировать отчет в службу Power BI, сохранив отчет и выбрав **Опубликовать**. Процедуру экспорта отчета также называют *скачиванием*. Отчет можно экспортировать и в обратном направлении. Кроме того, отчет можно скачать из службы Power BI и использовать в приложении Power BI Desktop. Файлы, экспортируемые в двух направлениях, имеют расширение *PBIX*.
@@ -27,7 +27,7 @@ ms.locfileid: "34722550"
 ## <a name="download-the-report-as-a-pbix"></a>Загрузка отчета в формате PBIX
 Чтобы скачать PBIX-файл, сделайте следующее:
 
-1. В **службе Power BI** откройте отчет, который нужно скачать, в [режиме редактирования](service-reading-view-and-editing-view.md).
+1. В **службе Power BI** откройте отчет, который нужно скачать, в [режиме редактирования](consumer/end-user-reading-view.md).
 2. В строке меню выберите **Файл > Скачать отчет**.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ ms.locfileid: "34722550"
 
 Кроме того, здесь приведен ряд дополнительных статей, которые помогут вам научиться использовать **службу Power BI**:
 
-* [Отчеты в Power BI](service-reports.md)
-* [Power BI — основные понятия](service-basic-concepts.md)
+* [Отчеты в Power BI](consumer/end-user-reports.md)
+* [Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
 После установки **Power BI Desktop** ознакомьтесь со статьями, которые помогут вам быстро приступить к использованию этого приложения:
 

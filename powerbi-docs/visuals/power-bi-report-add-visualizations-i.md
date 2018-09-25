@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8095db86b8954b3f91a83f2e83c0108d1676cf76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744331"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545275"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Часть 1. Добавление визуализаций в отчет Power BI
 В этой статье приводятся краткие сведения о создании визуализаций в отчетах с помощью службы Power BI и приложения Power BI Desktop.  Для получения более подробной информации [см. "Часть II"](power-bi-report-add-visualizations-ii.md). В этом видео Аманда покажет вам несколько разных способов создания, изменения и форматирования визуальных элементов на холсте отчетов. Теперь попробуйте сделать это сами, использовав раздел [Продажи и маркетинг — пример](../sample-datasets.md) для создания собственного отчета.
@@ -25,7 +25,7 @@ ms.locfileid: "44744331"
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>Открытие отчета и добавление новой страницы
-1. Откройте [отчет в режиме правки](../service-reading-view-and-editing-view.md). В этом руководстве используется [образец "Продажи и маркетинг"](../sample-datasets.md).
+1. Откройте [отчет в режиме правки](../consumer/end-user-reading-view.md). В этом руководстве используется [образец "Продажи и маркетинг"](../sample-datasets.md).
 2. Если панель "Поля" не отображается, щелкните значок со стрелкой, чтобы ее открыть. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
@@ -59,7 +59,7 @@ ms.locfileid: "44744331"
 ## <a name="next-steps"></a>Дальнейшие действия
  Перейти к статье [Часть 2. Добавление визуализаций в отчет Power BI](power-bi-report-add-visualizations-ii.md).
    
-   [Взаимодействовать с визуализациями](../service-reading-view-and-editing-view.md) в отчете.
+   [Взаимодействовать с визуализациями](../consumer/end-user-reading-view.md) в отчете.
    
    [Выполнять дополнительные действия с визуализациями](power-bi-report-visualizations.md).
    

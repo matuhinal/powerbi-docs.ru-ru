@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623937"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543956"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Совместная работа в рабочей области приложения Power BI
 Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Совместная работа не ограничивается рабочими областями в Power BI. В Office 365 доступны и другие службы групп, включая решения по совместному использованию файлов в OneDrive для бизнеса, общению в Exchange, а также общий календарь, задачи и т. д. Узнайте подробнее о [группах в Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -38,7 +38,7 @@ ms.locfileid: "39623937"
    
     ![Вкладка "Отчеты"](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    Это будет такой же отчет, как и любой другой отчет в Power BI. Вы и другие участники рабочей области приложения можете [изменять отчет](service-reports.md) и сохранять плитки на информационной панели по своему выбору.
+    Это будет такой же отчет, как и любой другой отчет в Power BI. Вы и другие участники рабочей области приложения можете [изменять отчет](consumer/end-user-reports.md) и сохранять плитки на информационной панели по своему выбору.
 
 ## <a name="collaborate-in-office-365"></a>Совместная работа в Office 365
 Совместная работа в Office 365 начинается в рабочей области приложения в Power BI.
@@ -77,7 +77,7 @@ ms.locfileid: "39623937"
 Владелец или администратор рабочей области приложения может добавлять или удалять участников рабочей области. Дополнительные сведения см. в статье [Управление группой в Power BI и Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md)
+* [Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 * Хотите оставить отзыв? Посетите [форум идей по улучшению Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
 

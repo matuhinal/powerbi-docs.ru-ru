@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e49b5ddab09c32662beb04ce70e5dc7606d92f59
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737335"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545952"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Настройка свойств осей X и Y
 В этом руководстве вы узнаете о различных способах настройки оси X и оси Y визуальных элементов. Не все визуальные элементы имеют оси, и не все они могут быть настроены. Например, круговые диаграммы не имеют осей. Варианты настройки отличаются в зависимости от визуальных элементов. Этих вариантов слишком много, чтобы описать их в одной статье. Поэтому мы рассмотрим некоторые наиболее часто используемые варианты настройки осей, чтобы вы могли уверенно использовать вкладку форматирования визуальных элементов на холсте отчетов Power BI.  
@@ -86,7 +86,7 @@ ms.locfileid: "44737335"
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../power-bi-report-change-sort.md#other)
+> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 > 1. В январе процент валовой прибыли составил 35 %, в апреле вырос до 45 %, в июле упал, а в августе снова подскочил. Похожа ли эта картина на данные за предыдущий год?
 > 2. Добавьте к графику показатели **This Year Sales (Выручка за этот год) > Значение** и **Last Year Sales** (Выручка за прошлый год). Масштаб показателя **Процент валовой прибыли за прошлый год** (синяя линия, которая проходит по линии сетки 0% прибыли) намного меньше, чем масштаб показателя **Продажи**, что усложняет сравнение. К тому же проценты меток оси Y выглядят странно.      
 
@@ -137,6 +137,6 @@ ms.locfileid: "44737335"
 
 [Настройка цветов и свойств оси](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-[Power BI — основные понятия](../service-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

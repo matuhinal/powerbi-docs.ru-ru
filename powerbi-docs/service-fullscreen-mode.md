@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727589"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545804"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Полноэкранный режим в Power BI
 ## <a name="what-is-full-screen-mode"></a>Что такое полноэкранный режим?
@@ -24,7 +24,7 @@ ms.locfileid: "44727589"
 
 Отображайте содержимое Power BI (панели мониторинга, страницы отчетов, плитки и визуализации) так, чтобы не отвлекаться на меню и панели навигации.  Так вы можете быстро просматривать все содержимое сразу. Иногда это также называется режимом ТВ. Функциональные возможности, доступные в полноэкранном режиме, зависят от содержимого. 
 
-Если вы используете Power BI для мобильных устройств, [в мобильных приложениях для Windows 10 доступен полноэкранный режим](consumer/mobile/mobile-windows-10-app-presentation-mode.md). В Power BI Desktop нет полноэкранного режима для отчетов или визуализаций, но есть параметр "По размеру страницы" для [представлений отношений и отчетов](desktop-report-view.md), а также [визуальных элементов отчета в режиме фокусировки](service-focus-mode.md).
+Если вы используете Power BI для мобильных устройств, [в мобильных приложениях для Windows 10 доступен полноэкранный режим](consumer/mobile/mobile-windows-10-app-presentation-mode.md). В Power BI Desktop нет полноэкранного режима для отчетов или визуализаций, но есть параметр "По размеру страницы" для [представлений отношений и отчетов](desktop-report-view.md), а также [визуальных элементов отчета в режиме фокусировки](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ ms.locfileid: "44727589"
 * просмотр на небольшом экране;
 * просмотр в режиме блокировки — вы можете коснуться экрана или наводить указатель мыши на плитки без открытия базового отчета или панели мониторинга.
 
-> **ПРИМЕЧАНИЕ.** Полноэкранный режим отличается от режима [фокусировки (в новом окне)](service-focus-mode.md).
+> **ПРИМЕЧАНИЕ.** Полноэкранный режим отличается от режима [фокусировки (в новом окне)](consumer/end-user-focus.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ ms.locfileid: "44727589"
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Визуализации и плитки панелей мониторинга в полноэкранном режиме
-1. Чтобы плитки панелей мониторинга и визуализации отчетов отображались в полноэкранном режиме, начните работу с ними в [режиме фокусировки](service-focus-mode.md). 
+1. Чтобы плитки панелей мониторинга и визуализации отчетов отображались в полноэкранном режиме, начните работу с ними в [режиме фокусировки](consumer/end-user-focus.md). 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Затем выберите значок "Во весь экран" ![значок "Во весь экран"](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  для этой плитки или визуального элемента. Плитка или визуальный элемент отобразятся в полноэкранном режиме без меню или панелей навигации.
@@ -86,8 +86,8 @@ ms.locfileid: "44727589"
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Панели мониторинга в Power BI](service-dashboards.md)  
-[Режим фокусировки](service-focus-mode.md)    
+[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)  
+[Режим фокусировки](consumer/end-user-focus.md)    
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

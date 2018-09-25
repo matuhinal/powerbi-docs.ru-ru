@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 1f9be0fa1953ceb86e00bbc85c13813858faa4b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624328"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547322"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Управление пакетами содержимого организации, их обновление и удаление
 > [!NOTE]
@@ -86,6 +86,6 @@ ms.locfileid: "39624328"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Знакомство с пакетами содержимого организации](service-organizational-content-pack-introduction.md)
-* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md) 
+* [Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md) 
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944544"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550082"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ розничной торговли" для Power BI: обзор
 
@@ -39,11 +39,11 @@ ms.locfileid: "36944544"
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ розничной торговли — пример**, затем выберите **Подключиться**.  
   
-   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail16.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail16.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    
-   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail17.png)
+   ![Анализ розничной торговли — пример](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
@@ -165,5 +165,5 @@ ms.locfileid: "36944544"
 * [Скачайте ZIP-файл и все примеры файлов](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Скачайте книгу Excel для этого примера Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Получение данных (для Power BI)](service-get-data.md)    
-* [Power BI — основные понятия](service-basic-concepts.md)    
+* [Power BI — основные понятия](consumer/end-user-basic-concepts.md)    
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

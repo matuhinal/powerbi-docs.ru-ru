@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598985"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546103"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Изменение и удаление плитки на информационной панели
 
@@ -36,7 +36,7 @@ ms.locfileid: "37598985"
 * [Удаление плитки](#delete)
   
   > [!TIP]
-  > Чтобы изменить визуализацию на самой плитке, удалите ее и добавьте новую [плитку панели мониторинга](service-dashboard-tiles.md).
+  > Чтобы изменить визуализацию на самой плитке, удалите ее и добавьте новую [плитку панели мониторинга](consumer/end-user-tiles.md).
 
   
 ## <a name="prerequisites"></a>Предварительные требования
@@ -142,11 +142,11 @@ ms.locfileid: "37598985"
 
 - - -
 ## <a name="next-steps"></a>Дальнейшие действия
-[Плитки панели мониторинга в Power BI](service-dashboard-tiles.md)
+[Плитки панели мониторинга в Power BI](consumer/end-user-tiles.md)
 
-[Панели мониторинга в Power BI](service-dashboards.md)
+[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

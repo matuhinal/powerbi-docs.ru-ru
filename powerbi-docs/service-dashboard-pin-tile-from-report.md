@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240217"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550059"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Закрепление плитки на панели мониторинга Power BI из отчета
 ## <a name="pinning-tiles-from-a-report"></a>Закрепление плиток из отчета
-Новую [плитку панели мониторинга](service-dashboard-tiles.md) можно в том числе добавить из [отчета Power BI](service-reports.md). Фактически из отчета можно добавить много новых плиток.  Каждая из этих плиток содержит обратную ссылку на отчет.
+Новую [плитку панели мониторинга](consumer/end-user-tiles.md) можно в том числе добавить из [отчета Power BI](consumer/end-user-reports.md). Фактически из отчета можно добавить много новых плиток.  Каждая из этих плиток содержит обратную ссылку на отчет.
 
 Кроме того, все страницы отчета могут быть прикреплены к панели мониторинга.  Этот процесс также называется закреплением *живой* плитки.  Плитка называется *живой*, так как вы можете взаимодействовать с ней на панели мониторинга, и, в отличие от отдельных плиток визуализации, вносимые в отчет изменения синхронизируются с панелью мониторинга. Дополнительные сведения об этом см. ниже.
 
@@ -58,15 +58,15 @@ ms.locfileid: "34240217"
 Дополнительные сведения см. в статье [Закрепление целой страницы отчета](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Панели мониторинга в Power BI](service-dashboards.md)
+[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)
 
-[Плитки панели мониторинга в Power BI](service-dashboard-tiles.md)
+[Плитки панели мониторинга в Power BI](consumer/end-user-tiles.md)
 
-[Отчеты в Power BI](service-reports.md)
+[Отчеты в Power BI](consumer/end-user-reports.md)
 
 [Обновление данных в Power BI](refresh-data.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

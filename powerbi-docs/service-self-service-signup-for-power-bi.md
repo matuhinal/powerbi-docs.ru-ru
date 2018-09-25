@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558523"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549990"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Регистрация учетной записи отдельного пользователя в Power BI
 Узнайте, как зарегистрироваться в Power BI и приступить к работе с отчетами и визуальными элементами для личных нужд.
@@ -99,7 +99,7 @@ Power BI может выступать в качестве вашего личн
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Действующая 60-дневная пробная версия Power BI Pro
 Зарегистрировав бесплатную учетную запись, вы можете использовать функции Power BI Pro бесплатно в течение 60 дней. Вы получите доступ ко всем функциональным возможностям учетных записей Pro на период действия пробной версии. В Power BI Pro доступны все функции бесплатной версии Power BI, а также дополнительные возможности общего доступа и совместной работы. Дополнительные сведения см. в разделе [Цены на Power BI](https://powerbi.microsoft.com/pricing). Чтобы ознакомится с 60-дневной бесплатной пробной версией Power BI Pro, выполните вход в службу Power BI и попробуйте одну из следующих функций Power BI.
 
-* [создание рабочей области приложения](service-create-distribute-apps.md);
+* [создание рабочей области приложения](consumer/end-user-create-apps.md);
 * [предоставление общего доступа к панелям мониторинга](service-share-dashboards.md).
 
 При выборе любой из этих функций вам будет предложено запустить бесплатную пробную версию. Вы также можете перейти в пробный режим Pro, щелкнув значок шестеренки и выбрав **Управление личным хранилищем**. Затем выберите **Попробовать версию Pro бесплатно** справа.

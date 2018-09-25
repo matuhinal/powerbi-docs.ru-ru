@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624351"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547575"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью приложения в Power BI и Office 365
-Автор или администратор [рабочей области приложения в Power BI](service-install-use-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365. 
+Автор или администратор [рабочей области приложения в Power BI](consumer/end-user-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365. 
 
 > [!NOTE]
 > В предварительной версии нового интерфейса рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Вы не будете автоматически создавать группу Office 365 каждый раз при создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей (предварительная версия)](service-create-the-new-workspaces.md)
@@ -76,7 +76,7 @@ ms.locfileid: "39624351"
 3. Выберите **Сохранить** или **Отменить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что из себя представляют приложения в Power BI?](service-install-use-apps.md)
-* [Публикация приложений с панелями мониторинга и отчетами в Power BI](service-create-distribute-apps.md)
+* [Что из себя представляют приложения в Power BI?](consumer/end-user-apps.md)
+* [Публикация приложений с панелями мониторинга и отчетами в Power BI](consumer/end-user-create-apps.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

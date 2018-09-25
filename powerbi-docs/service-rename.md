@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252147"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545735"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Переименование содержимого в службе Power BI
 В этой статье показано, как изменить имя информационной панели, отчета, страницы отчета, книги, набора данных, приложения и рабочей области в службе Power BI.
@@ -71,7 +71,7 @@ ms.locfileid: "34252147"
 ## <a name="rename-a-page-in-a-report"></a>Переименование страницы в отчете
 Не нравится имя страницы в отчете Power BI?  Новое имя назначить очень просто. Имена страниц можно изменять в [режиме правки отчета](service-interact-with-a-report-in-editing-view.md).
 
-1. Откройте отчет в [режиме редактирования](service-reading-view-and-editing-view.md).
+1. Откройте отчет в [режиме редактирования](consumer/end-user-reading-view.md).
 2. Найдите вкладки страницы отчета в нижней части окна Power BI.
    
     ![отчет с выделенными вкладками](media/service-rename/report-page-tabs-new.png)

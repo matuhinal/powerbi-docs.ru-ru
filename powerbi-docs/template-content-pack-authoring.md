@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157576"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545929"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Создание пакетов содержимого шаблонов в Power BI
 При создании пакета содержимого шаблонов используются Power BI Desktop и PowerBI.com. Пакет содержимого включает четыре компонента:
@@ -22,7 +22,7 @@ ms.locfileid: "39157576"
 * Запросы позволяют [подключать](desktop-connect-to-data.md) и [преобразовывать](desktop-query-overview.md) данные, а также определять [параметры](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).  
 * Модель данных для создания [отношений](desktop-create-and-manage-relationships.md), [мер](desktop-measures.md) и доработок в вопросах и ответах.  
 * [Страницы](desktop-report-view.md) отчета включают визуальные элементы и фильтры для анализа данных.  
-* [Панели мониторинга](service-dashboards.md) и [плитки](service-dashboard-create.md) содержат обзор результатов анализа.  
+* [Панели мониторинга](consumer/end-user-dashboards.md) и [плитки](service-dashboard-create.md) содержат обзор результатов анализа.  
 
 Каждый из этих элементов может быть вам знаком как существующая функция Power BI. При создании пакета содержимого необходимо учитывать дополнительные параметры по каждому аспекту. Дополнительные сведения см. в следующем разделе.
 

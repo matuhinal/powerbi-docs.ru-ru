@@ -1,21 +1,21 @@
 ---
 title: Использование карт фигур в Power BI Desktop (предварительная версия)
 description: С помощью карт фигур в Power BI Desktop можно проводить относительные сравнения разных регионов.
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: deb2d7c7ac7a43c625d5c5a15221d55cc38b11b6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737958"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566040"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Карты фигур в Power BI Desktop (предварительная версия)
 В Power BI Desktop с помощью визуального элемента **Карта фигур** можно проводить относительное сравнение регионов на карте, применяя к ним разные цвета. В отличие от визуального элемента **Карта**, элемент **Карта фигур** не демонстрирует географическое расположение точек данных на карте: его основная задача — помочь сравнить регионы карты, окрасив их в разные цвета.

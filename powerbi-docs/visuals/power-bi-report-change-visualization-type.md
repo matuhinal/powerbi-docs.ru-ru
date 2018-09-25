@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b1699d32bf96efa6a40baaac202b5f9db9ee3f8b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2b1e5c28bd705e064dc4e0e3283eb3941452647b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736939"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547040"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Изменение типа визуализации в отчете Power BI
 Попробуйте использовать различные типы визуализаций в службе Power BI и Power BI Desktop, чтобы определить, какой из них лучше всего иллюстрирует ваши данные. 
@@ -32,7 +32,7 @@ ms.locfileid: "44736939"
 ### <a name="next-steps"></a>Дальнейшие действия
 Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).
 
-[Power BI — основные понятия](../service-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

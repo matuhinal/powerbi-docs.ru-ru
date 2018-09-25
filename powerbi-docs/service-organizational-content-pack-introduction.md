@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624305"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547644"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Знакомство с пакетами содержимого организации в Power BI
 > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "39624305"
 
 * Чтобы просмотреть AppSource, последовательно выберите **Получение данных** > **Моя организация** > **Получение**.
 
-См. дополнительные сведения о [поиске и открытии пакетов содержимого организации](service-organizational-content-pack-find-and-open.md).
+См. дополнительные сведения о [поиске и открытии пакетов содержимого организации](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Жизненный цикл пакета содержимого организации
 Любой пользователь Power BI Pro может создавать, публиковать пакеты содержимого организации и осуществлять доступ к ним. Только создатель пакета содержимого может изменить книгу или набор данных, запланировать их обновление, а также удалить их.
@@ -52,7 +52,7 @@ ms.locfileid: "39624305"
 1. В Power BI Pro Наталья создает пакет содержимого и публикует его в маркетинговой группе рассылки. Параметры обновления наследуются вместе с набором данных и могут быть изменены только Натальей.
    
    > [!NOTE]
-   > Если Наталья создает пакет содержимого в [рабочей области приложения Power BI](service-create-distribute-apps.md), к которой она принадлежит, то даже если она покинет рабочую область, остальные участники рабочей области Power BI могут стать владельцами пакета.
+   > Если Наталья создает пакет содержимого в [рабочей области приложения Power BI](consumer/end-user-create-apps.md), к которой она принадлежит, то даже если она покинет рабочую область, остальные участники рабочей области Power BI могут стать владельцами пакета.
    > 
    > 
 2. Наталья отправляет в группу рассылки письмо, в котором сообщает о новом пакете содержимого.
@@ -76,7 +76,7 @@ ms.locfileid: "39624305"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание и публикация пакета содержимого организации](service-organizational-content-pack-create-and-publish.md)
-* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md) 
-* [Power BI — основные понятия](service-basic-concepts.md)
+* [Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md) 
+* [Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

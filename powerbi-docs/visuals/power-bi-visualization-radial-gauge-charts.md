@@ -2,7 +2,7 @@
 title: Диаграммы "Радиальный датчик" в Power BI
 description: Диаграммы "Радиальный датчик" в Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097c7111e630b4c0c80e71d812be73cc232ea6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737029"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565571"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Диаграммы "Радиальный датчик" в Power BI
 Диаграмма "Радиальный датчик" имеет дугу и отображает одно значение, которое отражает ход достижения цели или значение ключевого показателя эффективности.  Цель, или целевое значение, представляется линией. Текущий прогресс в достижении цели представляется областью с заливкой.  Значение, которое представляет текущий прогресс, отображается полужирным шрифтом внутри дуги. Все возможные значения равномерно распределены по дуге, от минимального (крайнее левое значение) до максимального (крайнее правое значение).
@@ -92,7 +92,7 @@ ms.locfileid: "44737029"
 
 ### <a name="step-5-save-your-report"></a>Шаг 5. Сохранение отчета
 1. [Сохраните отчет](../service-report-save.md).
-2. [Добавьте диаграмму датчика как плитку на панель мониторинга](../service-dashboard-tiles.md). 
+2. [Добавьте диаграмму датчика как плитку на панель мониторинга](../consumer/end-user-tiles.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Использование параметров форматирования для ручной настройки минимального, максимального и целевого значения.
 1. Удалите поле **Max of Gross Sales** (Максимальная валовая выручка) из списка **Максимальное значение** .
@@ -117,7 +117,7 @@ ms.locfileid: "44737029"
 
 [Закрепление визуализации на панели мониторинга](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI — основные понятия](../service-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

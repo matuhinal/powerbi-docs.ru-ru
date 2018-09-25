@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726876"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546264"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Получение *сертификации* для пользовательского визуального элемента
 ## <a name="what-is-meant-by-certified"></a>Что подразумевается под *сертификацией*
-*Сертифицированным* является пользовательский визуальный элемент, который соответствует набору требований к коду и прошел строгие тесты безопасности.  После сертификации настраиваемый визуальный элемент можно [экспортировать в PowerPoint](service-publish-to-powerpoint.md) и отображать в электронных сообщениях, получаемых пользователем при [подписке на страницы отчетов](service-report-subscribe.md). Разумеется, вы также можете использовать его как [стандартную настраиваемую визуализацию](power-bi-custom-visuals.md), добавлять его в службу Power BI и отчеты Power BI Desktop, просматривать в Power BI Mobile и внедрять в свои материалы.
+*Сертифицированным* является пользовательский визуальный элемент, который соответствует набору требований к коду и прошел строгие тесты безопасности.  После сертификации настраиваемый визуальный элемент можно [экспортировать в PowerPoint](consumer/end-user-powerpoint.md) и отображать в электронных сообщениях, получаемых пользователем при [подписке на страницы отчетов](consumer/end-user-subscribe.md). Разумеется, вы также можете использовать его как [стандартную настраиваемую визуализацию](power-bi-custom-visuals.md), добавлять его в службу Power BI и отчеты Power BI Desktop, просматривать в Power BI Mobile и внедрять в свои материалы.
 
 Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в [Microsoft AppSource](https://appsource.microsoft.com)? Чтобы узнать, как это сделать, см. статью о [начале работы со средствами для разработчиков](service-custom-visuals-getting-started-with-developer-tools.md).
 

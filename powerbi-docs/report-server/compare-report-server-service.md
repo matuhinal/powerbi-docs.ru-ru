@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727267"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548495"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -32,24 +32,24 @@ ms.locfileid: "44727267"
 | Создание отчетов Power BI в браузере | Нет | Да |  
 | Требуется шлюз | Нет | Да для локальных источников данных |  
 | Потоковая передача в реальном времени | Нет | Да | [Потоковая передача в реальном времени в Power BI](../service-real-time-streaming.md)
-| Панели мониторинга | Нет | Да | [Панели мониторинга в службе Power BI](../service-dashboards.md) 
-| Распределение групп отчетов с помощью приложений | Нет | Да | [Создание и публикация приложений с панелями мониторинга и отчетами](../service-create-distribute-apps.md) 
+| Панели мониторинга | Нет | Да | [Панели мониторинга в службе Power BI](../consumer/end-user-dashboards.md) 
+| Распределение групп отчетов с помощью приложений | Нет | Да | [Создание и публикация приложений с панелями мониторинга и отчетами](../consumer/end-user-create-apps.md) 
 | Пакеты содержимого | Нет | Да | [Знакомство с пакетами содержимого организации](../service-organizational-content-pack-introduction.md) 
-| Подключение к службам, таким как Salesforce | Нет | Да | [Подключение к используемым службам](../service-connect-to-services.md) с помощью службы Power BI
-| Вопросы и ответы | Нет | Да | ["Вопросы и ответы" в службе Power BI и Power BI Desktop](../power-bi-q-and-a.md) 
-| Краткая аналитика | Нет | Да | [Автоматическое создание аналитических сведений с помощью Power BI](../service-insights.md) 
+| Подключение к службам, таким как Salesforce | Нет | Да | [Подключение к используемым службам](../consumer/end-user-connect-to-services.md) с помощью службы Power BI
+| Вопросы и ответы | Нет | Да | ["Вопросы и ответы" в службе Power BI и Power BI Desktop](../consumer/end-user-q-and-a.md) 
+| Краткая аналитика | Нет | Да | [Автоматическое создание аналитических сведений с помощью Power BI](../consumer/end-user-insights.md) 
 | Анализ в Excel | Нет | Да | [Анализ в Excel](../service-analyze-in-excel.md) 
 | Отчеты с разбивкой на страницы | Да | Нет | Отчеты с разбивкой на страницы не будут доступны в службе Power BI, но вы можете [прикрепить элементы этих отчетов к панелям мониторинга Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
 | Мобильные приложения Power BI | Да | Да | [Обзор мобильных приложений Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Карты ArcGIS | Нет | Да | [Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](../power-bi-visualization-arcgis.md)
-| Подписки по электронной почте на отчеты Power BI | Нет | Да | [Подписка на отчеты или панели мониторинга](../service-report-subscribe.md) в службе Power BI 
+| Подписки по электронной почте на отчеты Power BI | Нет | Да | [Подписка на отчеты или панели мониторинга](../consumer/end-user-subscribe.md) в службе Power BI 
 | Подписки по электронной почте на отчеты с разбивкой на страницы | Да | Нет | [Доставка электронной почты в Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Оповещения о данных | Нет | Да | [Оповещения о данных](../service-set-data-alerts.md) в службе Power BI
 | Безопасность на уровне строк | Только через источник данных в режиме DirectQuery | Доступно в режимах DirectQuery (источник данных) и импорта | [Безопасность на уровне строк (RLS)](../service-admin-rls.md) в Power BI 
 | Полноэкранный режим | Нет | Да | [Полноэкранный режим](../service-fullscreen-mode.md) в службе Power BI 
 | Расширенные возможности совместной работы Office 365 | Нет | Да | [Совместная работа в рабочей области приложений](../service-collaborate-power-bi-workspace.md) с Office 365 
 | визуальные элементы R; | Нет | Да | [Создание визуальных элементов R](../visuals/service-r-visuals.md) в службе Power BI  
-| Функции предварительной версии | Нет | Да | [Включение предварительных версий функций Power BI](../service-preview-features.md) 
+| Функции предварительной версии | Нет | Да | [Включение предварительных версий функций Power BI](../consumer/end-user-preview-features.md) 
 | Настраиваемые визуальные элементы | Да | Да | [Пользовательские визуальные элементы в Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Версия, оптимизированная для сервера отчетов, доступна для скачивания вместе с сервером отчетов | Версия, оптимизированная для службы Power BI, доступна в Windows Store | [Power BI Desktop для сервера отчетов](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop для службы Power BI](http://aka.ms/pbidesktopstore)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737428"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550036"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -119,11 +119,11 @@ Microsoft Intune позволяет управлять такими элемен
 Ниже перечислены дополнительные возможности, доступные при работе с панелями мониторинга и отчетами в приложении Power BI на устройствах Android, а также при работе с отчетами и ключевыми показателями эффективности на веб-портале сервера отчетов Power BI и служб Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Панели мониторинга и отчеты Power BI
-* Просмотр [приложений](../../service-install-use-apps.md).
+* Просмотр [приложений](../end-user-apps.md).
 * Просмотр своих [информационных панелей](../../mobile-apps-view-dashboard.md).
 * Просмотр [плиток на информационных панелях](../../mobile-tiles-in-the-mobile-apps.md).
 * Открытие [отчетов Power BI](../../mobile-reports-in-the-mobile-apps.md).
-* Просмотр [приложений](../../service-install-use-apps.md).
+* Просмотр [приложений](../end-user-apps.md).
 * [Добавление заметок и совместное использование плиток](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [Совместное использование информационных панелей](../../mobile-share-dashboard-from-the-mobile-apps.md).
 * [Сканирование QR-кода Power BI](../../mobile-apps-qr-code.md) с телефона Android позволяет открыть определенную панель мониторинга или отчет. 

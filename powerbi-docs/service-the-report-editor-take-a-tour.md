@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726646"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546080"
 ---
 # <a name="the-report-editortake-a-tour"></a>Знакомство с редактором отчетов
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Изменение отчетов в службе Power BI и Power BI Desktop
 Редакторы отчетов в службе Power BI и Power BI Desktop очень похожи. Видео описывает использование редактора отчетов в службе Power BI, а статья — использование в службе Power BI Desktop. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Разница между *авторами* отчетов и пользователями, которые их *используют*
-Создавать и изменять отчеты могут только их владельцы (то есть *авторы*). Если вы *используете* отчет, к которому вам предоставлен общий доступ, вы можете открыть его и работать с ним в службе Power BI только в [режиме чтения](service-reading-view-and-editing-view.md). Но у вас не будет доступа ко всем функциям, доступным автору отчета.  
+Создавать и изменять отчеты могут только их владельцы (то есть *авторы*). Если вы *используете* отчет, к которому вам предоставлен общий доступ, вы можете открыть его и работать с ним в службе Power BI только в [режиме чтения](consumer/end-user-reading-view.md). Но у вас не будет доступа ко всем функциям, доступным автору отчета.  
 
-Дополнительные сведения о режиме чтения см. в статье [Режимы чтения и правки в отчетах службы Power BI](service-reading-view-and-editing-view.md). 
+Дополнительные сведения о режиме чтения см. в статье [Режимы чтения и правки в отчетах службы Power BI](consumer/end-user-reading-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-В службе Power BI *редактор отчетов* доступен только в [режиме правки](service-reading-view-and-editing-view.md). Чтобы открыть отчет в режиме правки, необходимо быть его владельцем или автором.
+В службе Power BI *редактор отчетов* доступен только в [режиме правки](consumer/end-user-reading-view.md). Чтобы открыть отчет в режиме правки, необходимо быть его владельцем или автором.
 
 Редактор отчетов Power BI состоит из 3 разделов:  
 
@@ -126,9 +126,9 @@ ms.locfileid: "44726646"
 ## <a name="next-steps"></a>Дальнейшие действия:
 [Создание отчета](service-report-create-new.md)
 
-Дополнительные сведения об отчетах в [службе Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) и [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
+Дополнительные сведения об отчетах в [службе Power BI](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md) и [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

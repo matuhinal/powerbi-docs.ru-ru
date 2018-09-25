@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726324"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548242"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Создание избранных вопросов для функции вопросов и ответов Power BI
 Если у вас есть набор данных, вы можете добавить для него собственные избранные вопросы.  Функция "Вопросы и ответы" в Power BI покажет эти вопросы вашим коллегам, (*использующим*) набор данных.  Избранные вопросы дают вашим коллегам представление о типах вопросов, которые можно задавать о наборе данных. Вы сами определяете избранные вопросы — добавьте популярные вопросы, вопросы, дающие интересный результат, или вопросы, которые трудно выразить.
@@ -47,8 +47,8 @@ ms.locfileid: "44726324"
    ![визуализация карты](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Дальнейшие действия
-[Вопросы и ответы в Power BI](power-bi-q-and-a.md)  
+[Вопросы и ответы в Power BI](consumer/end-user-q-and-a.md)  
 [Учебник. Использование компонента "Вопросы и ответы" Power BI с примером анализа розничной торговли](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI — основные понятия](service-basic-concepts.md)  
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

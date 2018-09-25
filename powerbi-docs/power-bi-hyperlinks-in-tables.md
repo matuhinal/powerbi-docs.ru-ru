@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 869eb25b17233d6c926f759c09923f528a4eb72e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727566"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545207"
 ---
 # <a name="hyperlinks-in-tables"></a>Гиперссылки в таблицах
 В этой статье объясняется, как использовать Power BI Desktop для создания гиперссылок. Используйте Power BI Desktop или службу Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы. 
@@ -89,7 +89,7 @@ ms.locfileid: "44727566"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Визуализации в отчетах Power BI](visuals/power-bi-report-visualizations.md)
 
-[Power BI — основные понятия](service-basic-concepts.md)
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

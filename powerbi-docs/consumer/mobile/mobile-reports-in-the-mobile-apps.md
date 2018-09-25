@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742962"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547253"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Область применения:
@@ -82,7 +82,7 @@ ms.locfileid: "44742962"
 * Чтобы изменить порядок сортировки, снова коснитесь многоточия (**...**), а затем еще раз коснитесь того же имени поля.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>Увеличение и уменьшение детализации визуального элемента
-Если автор отчета добавил в визуальный элемент возможность детализации, вы можете подробно просматривать значения в какой-то части этого элемента. Детализацию можно [добавить в визуальный элемент](../../power-bi-visualization-drill-down.md) в службе Power BI Desktop или Power BI. 
+Если автор отчета добавил в визуальный элемент возможность детализации, вы можете подробно просматривать значения в какой-то части этого элемента. Детализацию можно [добавить в визуальный элемент](../end-user-drill.md) в службе Power BI Desktop или Power BI. 
 
 * Коснитесь и удерживайте определенный столбик или точку в визуальном элементе, чтобы отобразить всплывающую подсказку. Если в визуальном элементе доступна детализация, в нижней части подсказки будут стрелки. 
   

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737122"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549807"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Область применения:
@@ -23,7 +23,7 @@ ms.locfileid: "44737122"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
-Плитки представляют собой динамические моментальные снимки данных, закрепленные на информационной панели. Их значения изменяются по мере изменения данных. **Вы [добавляете плитки на информационные панели в службе Power BI](../../service-dashboard-tiles.md).** 
+Плитки представляют собой динамические моментальные снимки данных, закрепленные на информационной панели. Их значения изменяются по мере изменения данных. **Вы [добавляете плитки на информационные панели в службе Power BI](../end-user-tiles.md).** 
 
 Затем в мобильных приложениях Power BI вы открываете эти плитки в режиме фокусировки и работаете с ними. Можно открывать плитки с разнообразными визуальными элементами, включая плитки на основе Bing и R.
 

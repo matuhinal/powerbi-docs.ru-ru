@@ -2,7 +2,7 @@
 title: Каскадные диаграммы в Power BI
 description: Каскадные диаграммы в Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736795"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565827"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Каскадные диаграммы в Power BI
 Каскадные диаграммы показывают промежуточный итог по мере сложения или вычитания значений. Это удобно для понимания того, как ряд положительных и отрицательных изменений влияет на начальное значение (например, на чистую прибыль).
@@ -74,13 +74,13 @@ ms.locfileid: "44736795"
 Вы можете выделить столбец в каскадной диаграмме для перекрестной фильтрации других визуализаций на странице отчета (и наоборот). При этом столбец итогов не запускает выделение и не реагирует на перекрестную фильтрацию.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Отчеты в Power BI](../service-reports.md)
+[Отчеты в Power BI](../consumer/end-user-reports.md)
 
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Визуализации в отчетах Power BI](power-bi-report-visualizations.md)
 
-[Power BI — основные понятия](../service-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728210"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548955"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -89,13 +89,13 @@ ms.locfileid: "44728210"
 
 ### <a name="august-2017"></a>Август 2017 г.
 * Изучение целевой аудитории с помощью [метрик использования по отдельным пользователям](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
-* Сведения о начале работы с приложениями [службы Power BI](service-connect-to-services.md) для веб-служб.
+* Сведения о начале работы с приложениями [службы Power BI](consumer/end-user-connect-to-services.md) для веб-служб.
 * Подключение к IBM Netezza при помощи локального шлюза в режимах импорта и подключения DirectQuery.
 * [Динамическая безопасность на уровне строк](developer/embedded-row-level-security.md) теперь поддерживается для Power BI Embedded.
 * Теперь для API пользовательских визуальных элементов выпуска 1.7. добавлен расширенный [API фильтрации](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md).
 
 ### <a name="july-2017"></a>Июль 2017 г.
-* Поддержка [подписки на рассылку по электронной почте](service-report-subscribe.md) на панелях мониторинга.
+* Поддержка [подписки на рассылку по электронной почте](consumer/end-user-subscribe.md) на панелях мониторинга.
 * Инспектор производительности, который позволяет определять и изучать причины медленной загрузки панелей мониторинга.
 * Теперь для локального шлюза данных поддерживаются Snowflake и SAP BusinessWarehouse DirectQuery.
 * Новые [API для управления обновлением данных](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) в службе Power BI.
@@ -206,12 +206,12 @@ ms.locfileid: "44728210"
 
 Подробности см. в [блоге рабочей группы Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/).
 
-* [Поддержка вопросов и ответов Power BI для табличных моделей SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): мы рады объявить об улучшениях в интерфейсе работы с вопросами и ответами в Power BI и о запуске общедоступной предварительной версии этой функции для источников данных, подключаемых через корпоративный шлюз (для начала добавлена поддержка табличных моделей SQL Server 2016 Analysis Services). Подробности см. в [записи блога](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/).
+* [Поддержка вопросов и ответов Power BI для табличных моделей SQL Server 2016 Analysis Services](consumer/end-user-q-and-a-direct-query.md): мы рады объявить об улучшениях в интерфейсе работы с вопросами и ответами в Power BI и о запуске общедоступной предварительной версии этой функции для источников данных, подключаемых через корпоративный шлюз (для начала добавлена поддержка табличных моделей SQL Server 2016 Analysis Services). Подробности см. в [записи блога](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/).
 * [Поддержка локальных файлов для отчетов Excel](service-excel-workbook-files.md#local-excel-workbooks): теперь вы можете добавлять файлы Excel с локального диска и из других хранилищ и работать с отчетами Excel так же, как и в Excel Online, но с расширенными функциями и возможностями Power BI. Подробности см. в [этой записи блога](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/).
 
 **28 апреля 2016 г.**
 
-* [Краткая аналитика для плиток панели мониторинга](service-insights.md): при просмотре плитки в режиме фокусировки щелкните "Получить аналитику", чтобы автоматически и за считанные секунды проанализировать плитку и связанные с ней данные на наличие закономерностей, случайных значений, трендов, сезонных колебаний, ключевых точек в трендах и других важных факторов.
+* [Краткая аналитика для плиток панели мониторинга](consumer/end-user-insights.md): при просмотре плитки в режиме фокусировки щелкните "Получить аналитику", чтобы автоматически и за считанные секунды проанализировать плитку и связанные с ней данные на наличие закономерностей, случайных значений, трендов, сезонных колебаний, ключевых точек в трендах и других важных факторов.
 
 Подробности см. в [блоге рабочей группы Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/).
 
@@ -437,7 +437,7 @@ ms.locfileid: "44728210"
 
 **3 декабря 2015 г.**
 
-* Автоматическое обнаружение трендов и выявление закономерностей в наборе данных с помощью быстрого анализа данных: [видео](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) или [статья](service-insights.md)
+* Автоматическое обнаружение трендов и выявление закономерностей в наборе данных с помощью быстрого анализа данных: [видео](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) или [статья](consumer/end-user-insights.md)
 * [Визуализация данных VMob в Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Интеграция Power BI с Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Предварительная версия корпоративного шлюза Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
@@ -587,7 +587,7 @@ ms.locfileid: "44728210"
 
 * Мы рады сообщить о выпуске коммерческой версии Power BI. Зарегистрируйтесь для получения [Power BI Pro](service-self-service-signup-for-power-bi.md). В рамках коммерческого выпуска предлагаются новые функции.
 * Новая среда создания визуализаций и отчетов: новый холст отчета включает расширенный набор визуализаций, дополнительный контроль над форматированием заголовков, условных обозначений, осей, цветов, фона и пр.
-* [Группы Power BI](service-create-distribute-apps.md): группы обеспечивают широкие возможности для совместной работы, основанные на группах Office 365.
+* [Группы Power BI](consumer/end-user-create-apps.md): группы обеспечивают широкие возможности для совместной работы, основанные на группах Office 365.
 * [Пакеты содержимого организации](service-organizational-content-pack-introduction.md): Power BI значительно упрощает создание панелей мониторинга и отчетов, и пользователи теперь могут публиковать это содержимое в коллекции содержимого организации.
 * [Перенос файлов Excel полностью](service-excel-workbook-files.md): любую книгу Excel, хранящуюся в среде OneDrive для бизнеса, можно перенести в Power BI и просмотреть ее целиком точно так же, как она отображается в Excel Online.
 * [Перенос CSV-файлов](service-get-data-from-files.md): как и файлы Excel или Power BI Desktop, текстовые CSV-файлы можно использовать в качестве наборов данных для панелей мониторинга и отчетов Power BI.

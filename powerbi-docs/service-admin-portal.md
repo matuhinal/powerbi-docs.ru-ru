@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726922"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546126"
 ---
 # <a name="power-bi-admin-portal"></a>Портал администрирования Power BI
 
@@ -161,7 +161,7 @@ ms.locfileid: "44726922"
 
 ### <a name="export-data"></a>Экспортировать данные
 
-Пользователи в организации могут экспортировать данные с плитки или из визуализации. [Дополнительные сведения](power-bi-visualization-export-data.md)
+Пользователи в организации могут экспортировать данные с плитки или из визуализации. [Дополнительные сведения](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ ms.locfileid: "44726922"
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Экспортировать отчеты в виде презентаций PowerPoint
 
-Пользователи в организации могут экспортировать отчеты Power BI как файлы PowerPoint. [Дополнительные сведения](service-publish-to-powerpoint.md)
+Пользователи в организации могут экспортировать отчеты Power BI как файлы PowerPoint. [Дополнительные сведения](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Параметр "Печать панелей мониторинга и отчетов"
 
-Пользователи в организации могут распечатывать информационные панели и отчеты. [Дополнительные сведения](service-print.md)
+Пользователи в организации могут распечатывать информационные панели и отчеты. [Дополнительные сведения](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ ms.locfileid: "44726922"
 > [!NOTE]
 > Помните, что может пройти некоторое время, прежде чем изменения параметров клиента вступят в силу.
 
-Перейдите сюда, чтобы получить дополнительные сведения о [принудительной отправке приложений](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+Перейдите сюда, чтобы получить дополнительные сведения о [принудительной отправке приложений](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Вкладка "Параметры интеграции"
 

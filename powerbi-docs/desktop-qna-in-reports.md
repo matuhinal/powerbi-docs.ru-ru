@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475736"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546956"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Использование обработчика "Вопросы и ответы" в Power BI Desktop для запросов на естественном языке
 Эффективный обработчик позволяет задавать вопросы о данных с помощью обычных фраз и естественного языка. Еще больше впечатляет, когда от данных поступает ответ. Именно эту возможность предоставляет обработчик "Вопросы и ответы" в **Power BI Desktop**.
@@ -198,5 +198,5 @@ ms.locfileid: "39475736"
 Дополнительные сведения о функциях Power BI Desktop см. в следующих статьях:
 
 * [Использование детализации в Power BI Desktop](desktop-drillthrough.md)
-* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](service-focus-mode.md)
+* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](consumer/end-user-focus.md)
 
