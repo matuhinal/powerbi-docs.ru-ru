@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744457"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549852"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Картограммы (хороплеты) в Power BI
 Картограмма с помощью заливки, оттенков или шаблонов показывает, как изменяется исследуемое значение по географическим регионам.  Картограмма позволяет быстро отобразить относительные различия с помощью заливки, которая изменяется от светлой (меньше, встречается с меньшей частотой) до темной (больше, встречается с большей частотой).    
@@ -109,7 +109,7 @@ Power BI интегрируется с Bing для предоставления 
 Дополнительные сведения о визуализации карт см. в разделе [Tips and tricks for map visualizations](power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Плитки панели мониторинга в Power BI](../service-dashboard-tiles.md)    
+[Плитки панели мониторинга в Power BI](../consumer/end-user-tiles.md)    
  [Добавление визуализации в отчет](power-bi-report-add-visualizations-i.md)  
  [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Изменение типа визуализации в отчете Power BI](power-bi-report-change-visualization-type.md)      
