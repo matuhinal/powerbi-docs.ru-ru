@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566333"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187244"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Оптимизация визуальных элементов Power BI для любого размера
 По умолчанию при создании отчета визуальные элементы являются *адаптивными*. Так они могут динамически изменяться, отображая как можно больше данных независимо от размера экрана. В более старых отчетах также можно настроить динамическое изменение размера визуальных элементов.
 
 При изменении размера визуального элемента Power BI определяет приоритеты в представлении данных — например, автоматически удаляет отступы и перемещает условные обозначения наверх, чтобы даже при уменьшении визуальный элемент оставался информативным. Адаптивность особенно важна для визуальных элементов, используемых в мобильном приложении Power BI на телефонах.
 
-![Изменение размера адаптивного визуального элемента](./media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
+![Изменение размера адаптивного визуального элемента](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
 Любой визуальный элемент с осями X и Y или срезами может изменяться адаптивно.
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Включение адаптивности в Power BI Desktop
 1. В старом отчете в Power BI Desktop на вкладке **Представление** выберите **Макет рабочего стола**.
    
-    ![Значок "Макет рабочего стола"](./media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
+    ![Значок "Макет рабочего стола"](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. Выберите визуальный элемент, а затем в области **Визуализации** выберите раздел **Формат**.
 3. Разверните раздел **Общие** и установите переключатель **Адаптивность (предварительная версия)** в положение **Вкл.**
    
-    ![Параметр "Адаптивность" включен](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![Параметр "Адаптивность" включен](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      Теперь, когда вы добавите этот визуальный элемент в [отчет, оптимизированный для телефона](../desktop-create-phone-report.md), его размер будет плавно изменяться.
 
@@ -44,7 +44,7 @@ ms.locfileid: "46566333"
 2. Выберите визуальный элемент, а затем в области **Визуализации** выберите раздел **Формат**.
 3. Разверните раздел **Общие** и установите переключатель **Адаптивность (предварительная версия)** в положение **Вкл.**
    
-    ![Параметр "Адаптивность" включен](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![Параметр "Адаптивность" включен](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      Когда вы [создадите добавите представление для телефона этого отчета](../desktop-create-phone-report.md) и добавите этот визуальный элемент, его размер будет плавно изменяться.
 

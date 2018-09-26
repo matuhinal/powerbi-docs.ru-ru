@@ -1,21 +1,21 @@
 ---
 title: Вопросы и ответы по началу работы с Power BI
 description: Начало работы с компонентом "Вопросы и ответы" Power BI с примером анализа розничной торговли
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547966"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187015"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Вопросы и ответы по началу работы с Power BI
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Использование функции "Вопросы и ответы" в Power BI с примером "Анализ розничной торговли"
