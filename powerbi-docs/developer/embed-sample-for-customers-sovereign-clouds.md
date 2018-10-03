@@ -4,17 +4,16 @@ description: Узнайте, как выполнить интеграцию (в�
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 07/26/2018
-ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
+ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39255878"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48039446"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Руководство. Внедрение панели мониторинга, плитки или отчета Power BI в приложение для национальных облаков
 Узнайте, как интегрировать (внедрить) панель мониторинга, плитку или отчет в веб-приложение с помощью пакета SDK для .NET в Power BI и API JavaScript для Power BI для клиентов. Как правило, это сценарий независимых поставщиков программного обеспечения.
@@ -415,3 +414,4 @@ var embedConfig = new EmbedConfig()
 * Учетные записи GCC в настоящее время поддерживают только емкости P и EM
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+
