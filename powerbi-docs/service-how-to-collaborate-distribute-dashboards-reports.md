@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545758"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271731"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Как совместно работать и предоставлять общий доступ в Power BI?
 
@@ -29,7 +29,7 @@ ms.locfileid: "46545758"
 - Печать отчетов.
 * Публикация в Интернете на общедоступных веб-сайтах, где его могут видеть и использовать люди по всему миру.
 
-Вы можете выбрать любой из вариантов совместного использования панели мониторинга. В любом случае вам нужна лицензия [Power BI Pro](service-free-vs-pro.md) либо же содержимое должно находиться в [емкости Premium](service-premium.md). В зависимости от выбранного варианта требования к лицензии могут быть разными для коллег, просматривающих ваши информационные панели. В следующих разделах представлен подробный обзор возможностей. 
+Вы можете выбрать любой из вариантов совместного использования панели мониторинга. В любом случае вам нужна лицензия [Power BI Pro](service-features-license-type.md) либо же содержимое должно находиться в [емкости Premium](service-premium.md). В зависимости от выбранного варианта требования к лицензии могут быть разными для коллег, просматривающих ваши информационные панели. В следующих разделах представлен подробный обзор возможностей. 
 
 ![Приложения в службе Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

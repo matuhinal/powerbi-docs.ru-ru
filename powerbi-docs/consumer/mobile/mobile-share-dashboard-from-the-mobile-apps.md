@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737158"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271654"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
 Область применения:
@@ -23,7 +23,7 @@ ms.locfileid: "44737158"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
-При наличии [лицензии Power BI Pro](../../service-free-vs-pro.md) вы можете приглашать других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Вы можете делиться данными с другими пользователями, как в вашей организации, так и за ее пределами, независимо от наличия у них корпоративной учетной записи почты. Им также не требуются лицензии Power BI Pro, а содержимое может не находиться в [емкости Premium](../../service-premium.md).
+При наличии [лицензии Power BI Pro](../../service-features-license-type.md) вы можете приглашать других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Вы можете делиться данными с другими пользователями, как в вашей организации, так и за ее пределами, независимо от наличия у них корпоративной учетной записи почты. Им также не требуются лицензии Power BI Pro, а содержимое может не находиться в [емкости Premium](../../service-premium.md).
 
 Из мобильного приложения Power BI для устройств iOS и Android можно также [добавить заметку к моментальному снимку плитки, отчета или визуального элемента и поделиться им](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 

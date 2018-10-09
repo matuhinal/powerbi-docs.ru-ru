@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545650"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271516"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Предоставление общего доступа коллегам к отфильтрованному отчету Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. В Power BI также доступны [другие способы совместной работы с отчетами и их распространения](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Чтобы предоставить общий доступ, вам и получателям содержимого требуется [лицензия Power BI Pro](service-free-vs-pro.md) либо же содержимое должно находиться в [емкости Premium](service-premium.md). У вас есть предложения? Для команды Power BI ваши отзывы всегда важны, поэтому перейдите на [сайт сообщества Power BI](https://community.powerbi.com/).
+Чтобы предоставить общий доступ, вам и получателям содержимого требуется [лицензия Power BI Pro](service-features-license-type.md) либо же содержимое должно находиться в [емкости Premium](service-premium.md). У вас есть предложения? Для команды Power BI ваши отзывы всегда важны, поэтому перейдите на [сайт сообщества Power BI](https://community.powerbi.com/).
 
 Вы можете предоставлять общий доступ к отчетам коллегам, у которых есть электронная почта в вашем домене, из большинства расположений в службе Power BI: из списка "Избранные", списка "Последние", страниц "Мне предоставлен доступ" (если это позволяет владельцу) и "Мои представления" или других рабочих областей. Когда вы предоставляете другим пользователям общий доступ к информационной панели мониторинга, они могут просматривать ее и взаимодействовать с ней, но не могут изменять ее. Они видят в отчетах те же данные, что и вы, если не применяется [защита на уровне строк (RLS)](service-admin-rls.md). 
 
