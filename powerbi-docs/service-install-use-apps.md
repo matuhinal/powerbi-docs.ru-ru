@@ -1,30 +1,32 @@
 ---
 title: Установка и использование приложений с информационными панелями и отчетами в Power BI
 description: Приложения в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении.
-author: mihart
-manager: kvivek
+author: maggies
+manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
-ms.author: mihart
+ms.date: 10/08/2018
+ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
+ms.openlocfilehash: 3821227de7cbfd17fd25e476ec6b7807349a6672
 ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907861"
+ms.locfileid: "48910245"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
-*Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации могут создавать и распространять приложения с важной бизнес-информацией. [Внешние службы](end-user-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
+*Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации могут создавать и распространять приложения с важной бизнес-информацией. [Внешние службы](service-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
 
-![Приложения в Power BI](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Приложения в Power BI](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
 Вы можете легко находить и устанавливать приложения в службе Power BI ([https://powerbi.com](https://powerbi.com)) и на мобильном устройстве. Когда вы установите приложение, вам не нужно запоминать имена разных панелей мониторинга, так как все они находятся в приложении, в браузере или на мобильном устройстве.
 
 В приложении все выпущенные автором обновления отображаются автоматически. Автор также контролирует график обновления данных, и вам не нужно беспокоиться об их актуальности. 
+
+Планируете создать приложение? Дополнительные сведения см. в разделе [Создание рабочих областей с коллегами в Power BI](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Получение нового приложения
 Приложения можно получить несколькими способами. Создатель приложения может автоматически установить приложение в вашу учетную запись Power BI или отправить вам прямую ссылку на приложение. Кроме того, вы можете найти его в AppSource, где доступны все приложения, к которым можете получить доступ. В Power BI на мобильном устройстве вы можете установить приложение только по прямой ссылке, но не из AppSource. Если создатель приложения автоматически установит приложение, вы увидите его в своем списке приложений.
@@ -36,32 +38,34 @@ ms.locfileid: "48907861"
 
 Если щелкнуть эту ссылку в письме, служба Power BI ([https://powerbi.com](https://powerbi.com)) откроется в браузере. Вы подтверждаете установку, после чего откроется целевая страница приложения.
 
-![Целевая страница приложения в службе Power BI](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Целевая страница приложения в службе Power BI](media/service-install-use-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **На мобильном устройстве iOS или Android** 
 
 Если щелкнуть ссылку в письме на мобильном устройстве, приложение устанавливается автоматически и открывается список его содержимого в мобильном приложении. 
 
-![Список содержимого приложения на мобильном устройстве](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
+![Список содержимого приложения на мобильном устройстве](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
 ### <a name="get-the-app-from-microsoft-appsource"></a>Получение приложения из Microsoft AppSource
 Кроме того, вы можете найти в Microsoft AppSource и установить любые приложения, к которым у вас есть доступ. 
 
-1. Последовательно выберите **Приложения** !["Приложения" на панели навигации слева](./media/end-user-apps/power-bi-apps-bar.png) > **Get apps** (Получить приложения). 
+1. Последовательно выберите **Приложения** !["Приложения" на панели навигации слева](media/service-install-use-apps/power-bi-apps-bar.png) > **Get apps** (Получить приложения). 
    
-     ![Значок Get apps (Получить приложения)](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
+     ![Значок Get apps (Получить приложения)](media/service-install-use-apps/power-bi-service-apps-get-apps-oppty.png)
 2. Вы можете выполнить поиск в AppSource в разделе **Моя организация**, чтобы сократить количество результатов и найти необходимое приложение.
    
-     ![AppSource в разделе My organization (Моя организация)](./media/end-user-apps/power-bi-appsource-my-org.png)
+     ![AppSource в разделе My organization (Моя организация)](media/service-install-use-apps/power-bi-appsource-my-org.png)
 3. Выберите **Получить**, чтобы добавить его на страницу "Приложения". 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Взаимодействие с панелями мониторинга и отчетами в приложении
-Теперь вы можете просмотреть данные информационных панелей и отчетов в приложении. Вам доступны все стандартные возможности взаимодействия Power BI, такие как фильтрация, выделение, сортировка и детализация. Вы также можете [экспортировать данные в Excel](end-user-export-data.md) из таблицы или другого визуального элемента в отчете. Ознакомьтесь со [сведениями о взаимодействии с отчетами в Power BI](end-user-reading-view.md). 
+Теперь вы можете просмотреть данные информационных панелей и отчетов в приложении. Вам доступны все стандартные возможности взаимодействия Power BI, такие как фильтрация, выделение, сортировка и детализация. Вы также можете [экспортировать данные в Excel](visuals/power-bi-visualization-export-data.md) из таблицы или другого визуального элемента в отчете. Ознакомьтесь со [сведениями о взаимодействии с отчетами в Power BI](service-reading-view-and-editing-view.md). 
 
-![Экспорт данных из визуальных элементов Power BI](./media/end-user-apps/power-bi-service-export-data-visual.png)
+![Экспорт данных из визуальных элементов Power BI](media/service-install-use-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Приложения Power BI для внешних служб](end-user-connect-to-services.md)
+* [Создание и публикация приложений с информационными панелями и отчетами в Power BI](service-create-distribute-apps.md)
+* [Приложения Power BI для внешних служб](service-connect-to-services.md)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

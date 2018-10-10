@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1bb1831d37dc3f8bfe5ee141859cbccec541735e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548702"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908792"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Подключение к Google Analytics с помощью Power BI
 Подключение к Google Analytics через Power BI начинается с подключения к учетной записи Google Analytics. Вы получите панель мониторинга Power BI с отчетами, с помощью которых можно получить представление о трафике сайта и измерениях пользователей. Вы можете взаимодействовать с панелью мониторинга и отчетами, но не сохранять изменения. Данные автоматически обновляются раз в день.
@@ -27,16 +27,16 @@ ms.locfileid: "46548702"
 ## <a name="how-to-connect"></a>Способы подключения
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Выберите **Google Analytics** \> **Получить**.
+3. Выберите **Google Analytics** \> **Получить**.
    
    ![](media/service-connect-to-google-analytics/ga.png)
-2. При появлении запроса введите учетные данные Google Analytics. Выберите механизм проверки подлинности **oAuth 2** и нажмите **Войти**. Следуйте инструкциям проверки подлинности Google (может использоваться двухфакторная проверка подлинности, если она настроена).
+4. При появлении запроса введите учетные данные Google Analytics. Выберите механизм проверки подлинности **oAuth 2** и нажмите **Войти**. Следуйте инструкциям проверки подлинности Google (может использоваться двухфакторная проверка подлинности, если она настроена).
    
    ![](media/service-connect-to-google-analytics/creds.png)
-3. Нажмите кнопку **Принять** , чтобы предоставить Power BI доступ к данным Google Analytics.
+5. Нажмите кнопку **Принять** , чтобы предоставить Power BI доступ к данным Google Analytics.
    
    ![](media/service-connect-to-google-analytics/googleanalytics.png)
-4. Power BI подключается к определенному представлению Google Analytics. Выберите имя учетной записи, имя свойства и имя представления, к которому вы хотите подключиться. Эти сведения можно найти в учетной записи Google Analytics — в верхнем левом углу или на вкладке **Главная**. Подробности см. ниже. 
+6. Power BI подключается к определенному представлению Google Analytics. Выберите имя учетной записи, имя свойства и имя представления, к которому вы хотите подключиться. Эти сведения можно найти в учетной записи Google Analytics — в верхнем левом углу или на вкладке **Главная**. Подробности см. ниже. 
    
    ![](media/service-connect-to-google-analytics/params2.png)
 5. Нажмите кнопку **Подключить** , чтобы начать импорт. 
@@ -44,7 +44,7 @@ ms.locfileid: "46548702"
 ## <a name="view-the-google-analytics-dashboard-and-reports"></a>Просмотр панели мониторинга и отчетов Google Analytics
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![](media/service-connect-to-google-analytics/googleanalytics2.png)
+   ![](media/service-connect-to-google-analytics/googleanalytics2.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -69,7 +69,7 @@ ms.locfileid: "46548702"
 * На сайте службы поддержки Power BI (где вы читаете эту статью) выберите **Обратиться в службу поддержки** в правой части страницы.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что из себя представляют приложения в Power BI?](consumer/end-user-apps.md)
+* [Что из себя представляют приложения в Power BI?](service-create-distribute-apps.md)
 * [Получение данных в Power BI](service-get-data.md)
 * Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

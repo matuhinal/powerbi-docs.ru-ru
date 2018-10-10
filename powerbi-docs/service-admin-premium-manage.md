@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546570"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908884"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Управление емкостью в Power BI Premium и Power BI Embedded
 Узнайте, как управлять емкостью Power BI Premium и Power BI Embedded, которая предоставляет выделенные ресурсы для вашего содержимого.
@@ -183,6 +183,6 @@ Power BI предоставляет приложение для монитори
 Дополнительные сведения см. в статье [Установка сервера отчетов Power BI](report-server/install-report-server.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Предоставление пользователям общего доступа к опубликованным приложениям. Дополнительные сведения см. в статье [Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md).
+Предоставление пользователям общего доступа к опубликованным приложениям. Дополнительные сведения см. в статье [Создание и распространение приложения в Power BI](service-create-distribute-apps.md).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

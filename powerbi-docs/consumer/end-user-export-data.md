@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565988"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908861"
 ---
 # <a name="export-data-from-visualizations"></a>Экспорт данных из визуализаций
 Чтобы просмотреть данные, которые используются для создания визуализации, [откройте их в Power BI](end-user-show-data.md) или экспортируйте в Excel в виде файла с расширением XLSX или CSV.   
@@ -55,7 +55,7 @@ ms.locfileid: "46565988"
 4. Щелкните многоточие в правом верхнем углу визуализации. Выберите  **Экспорт данных**.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. В веб-клиенте Power BI, если в визуализации есть статистическое выражение (например, если значение **количества** заменено на *среднее значение*, **сумму** или *минимальное значение*), вам доступно два варианта: **сводные данные** и **базовые данные**. В Power BI Desktop вам доступен только вариант **сводные данные**. Сведения о статистических выражениях см. в разделе [Статистические выражения в Power BI](../service-aggregates.md).
+5. В веб-клиенте Power BI, если в визуализации есть статистическое выражение (например, если значение **количества** заменено на *среднее значение*, *сумму* или *минимальное значение*), вам доступно два варианта: **сводные данные** и **базовые данные**. В Power BI Desktop вам доступен только вариант **сводные данные**. Сведения о статистических выражениях см. в разделе [Статистические выражения в Power BI](../service-aggregates.md).
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. Выберите **Сводные данные** > **Экспорт**, а затем выберите формат (XLSX или CSV). Power BI экспортирует данные.  Если к визуализации применялись фильтры, данные будут экспортированы с учетом фильтров. При выборе элемента **Экспорт** браузер предложит сохранить файл. Откройте сохраненный файл в программе Excel.

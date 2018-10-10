@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564846"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908631"
 ---
 # <a name="reports-in-power-bi"></a>Отчеты в Power BI
 ## <a name="what-is-a-power-bi-report"></a>Что такое отчет Power BI?
@@ -67,7 +67,7 @@ ms.locfileid: "46564846"
 * Начните со [службы Power BI](end-user-basic-concepts.md), чтобы узнать, где находятся отчеты и средства создания отчетности.
 * Узнайте, как [открыть отчет](end-user-report-open.md), а также узнайте обо всех действиях, доступных в [режиме чтения](end-user-reading-view.md).
 * Ознакомьтесь с обзорными сведениями об использовании на примере одного из наших [отчетов](../sample-tutorial-connect-to-the-samples.md).  
-* Отчет больше не нужен? Вы можете [удалить его](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Чтобы определить, какой набор данных используется в отчете и какие информационные панели содержат плитки, закрепленные из отчета, [просмотрите связанное содержимое](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ ms.locfileid: "46564846"
 [Что такое Power BI?](../power-bi-overview.md) 
 
 [Power BI — основные понятия](end-user-basic-concepts.md)
-
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

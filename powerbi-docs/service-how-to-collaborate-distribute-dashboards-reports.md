@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271731"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908976"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Как совместно работать и предоставлять общий доступ в Power BI?
 
@@ -57,7 +57,7 @@ ms.locfileid: "48271731"
 
 ![Значок "Публикация приложения"](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Служба Power BI ([https://powerbi.com](https://powerbi.com)) позволяет легко находить и устанавливать приложения. Вы можете отправить бизнес-пользователям прямую ссылку на приложение, или они могут найти его в AppSource. С разрешения администратора Power BI его можно установить автоматически в учетных записях Power BI коллег. Дополнительные сведения о [публикации приложений](consumer/end-user-create-apps.md). 
+Служба Power BI ([https://powerbi.com](https://powerbi.com)) позволяет легко находить и устанавливать приложения. Вы можете отправить бизнес-пользователям прямую ссылку на приложение, или они могут найти его в AppSource. С разрешения администратора Power BI его можно установить автоматически в учетных записях Power BI коллег. Дополнительные сведения о [публикации приложений](service-create-distribute-apps.md). 
 
 После установки приложения они смогут просматривать его в браузере или на мобильном устройстве.
 
@@ -99,7 +99,7 @@ ms.locfileid: "48271731"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Предоставление общего доступа к информационным панелям коллегам и другим пользователям](service-share-dashboards.md)
-* [Создание и публикация приложений с информационными панелями и отчетами в Power BI](consumer/end-user-create-apps.md)
+* [Создание и публикация приложений с информационными панелями и отчетами в Power BI](service-create-distribute-apps.md)
 * Хотите оставить отзыв? Поделитесь своими предложениями на [веб-сайте сообщества Power BI](https://community.powerbi.com/).
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
 
