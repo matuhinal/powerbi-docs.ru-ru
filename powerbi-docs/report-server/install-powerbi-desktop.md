@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726393"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564792"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI.
@@ -31,7 +31,7 @@ ms.locfileid: "44726393"
 
     ![Скачивание Power BI Desktop из веб-портала](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (март 2018 г.), оптимизированному для Сервера отчетов Power BI, в Центре загрузки Майкрософт.
+    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (август 2018 г.), оптимизированному для сервера отчетов Power BI, в Центре загрузки Майкрософт.
 
 2. На странице Центра загрузки нажмите кнопку **Скачать**.
 
@@ -41,7 +41,8 @@ ms.locfileid: "44726393"
 
     - **PBIDesktopRS_x64.msi** (64-разрядная версия).
 
-1. Когда вы скачаете установщик, запустите мастер установки Power BI Desktop (октябрь 2017 г.).
+1. Скачав установщик, запустите мастер установки Power BI Desktop (август 2018 г.).
+
 2. На завершающем этапе процесса установки выберите параметр **Start Power BI Desktop now** (Запустить Power BI Desktop).
    
     После автоматического запуска приложения вы будете готовы к работе.
@@ -49,7 +50,7 @@ ms.locfileid: "44726393"
 ## <a name="verify-you-are-using-the-correct-version"></a>Проверка используемой версии
 Чтобы проверить используемую версию Power BI Desktop, просмотрите экран запуска или строку заголовка в Power BI Desktop. В строке заголовка отображаются месяц и год выпуска.
 
-![Строка заголовка приложения Power BI Desktop, оптимизированного для решения "Сервер отчетов Power BI"](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![Строка заголовка приложения Power BI Desktop, оптимизированного для решения "Сервер отчетов Power BI"](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 В строке заголовка версии Power BI Desktop для службы Power BI не указаны месяц и год выпуска.
 
@@ -63,7 +64,7 @@ ms.locfileid: "44726393"
 При редактировании отчета Power BI на сервере отчетов Power BI или создании отчета Power BI на веб-портале всегда будет открываться правильная версия Power BI Desktop.
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
-Отчеты на Сервере отчетов Power BI и в службе Power BI (http://powerbi.com) работают почти одинаково, но некоторые функции все же различаются).
+Отчеты в сервере отчетов Power BI и в службе Power BI (http://app.powerbi.com)), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
 
 ### <a name="in-a-browser"></a>В браузере
 Отчеты на сервере отчетов Power BI поддерживают все визуализации, в том числе:
@@ -80,9 +81,9 @@ ms.locfileid: "44726393"
 ### <a name="in-the-power-bi-mobile-apps"></a>В мобильных приложениях Power BI
 Отчеты на сервере отчетов Power BI поддерживают все функциональные возможности, доступные в [мобильных приложениях Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), в том числе:
 
-* [Макет мобильного отчета](../desktop-create-phone-report.md). Вы можете оптимизировать отчет для мобильных приложений Power BI. В отчетах, оптимизированных для мобильных телефонов, есть специальный значок ![Значок "Макет отчета для телефона"](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) и макет.
+* [Макет мобильного отчета](../desktop-create-phone-report.md). Вы можете оптимизировать отчет для мобильных приложений Power BI. В отчетах, оптимизированных для мобильных телефонов, есть специальный значок ![Значок "Макет отчета для телефона"](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) и макет.
   
-    ![Отчет, оптимизированный для телефонов](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![Отчет, оптимизированный для телефонов](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 В мобильных приложениях Power BI отчеты на сервере отчетов Power BI не поддерживают:
 

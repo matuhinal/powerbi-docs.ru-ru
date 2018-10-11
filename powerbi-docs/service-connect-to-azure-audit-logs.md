@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134646"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548150"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Подключение к журналам аудита Azure с помощью Power BI
 Пакет контента "Журналы аудита Azure" для Power BI позволяет анализировать и визуализировать информацию, хранящуюся в журналах аудита. Power BI извлекает данные, создает стандартную панель мониторинга и строит на основе этих данных отчеты.
@@ -47,10 +47,10 @@ ms.locfileid: "37134646"
 
 **Дальнейшие действия**
 
-* Попробуйте [задать вопрос в поле "Вопросы и ответы"](power-bi-q-and-a.md) в верхней части информационной панели.
+* Попробуйте [задать вопрос в поле "Вопросы и ответы"](consumer/end-user-q-and-a.md) в верхней части информационной панели.
 * [Измените плитки](service-dashboard-edit-tile.md) на информационной панели.
-* [Выберите плитку](service-dashboard-tiles.md), чтобы открыть соответствующий отчет.
-* Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.
+* [Выберите плитку](consumer/end-user-tiles.md), чтобы открыть соответствующий отчет.
+* Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**
 
 ## <a name="system-requirements"></a>Требования к системе
 Для пакета содержимого журналов аудита требуется доступ к журналам аудита на портале Azure. Дополнительные сведения см. [здесь](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
@@ -70,5 +70,5 @@ ms.locfileid: "37134646"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что такое Power BI?](power-bi-overview.md)  
-[Power BI — основные понятия](service-basic-concepts.md)  
+[Power BI — основные понятия](consumer/end-user-basic-concepts.md)  
 

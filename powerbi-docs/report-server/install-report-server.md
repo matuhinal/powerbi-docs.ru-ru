@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250391"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565919"
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -30,11 +30,11 @@ ms.locfileid: "35250391"
 ### <a name="power-bi-report-server-product-key"></a>Ключ продукта сервера отчетов Power BI
 
 #### <a name="power-bi-premium"></a>Power BI Premium
-Если вы приобрели Power BI Premium, то на вкладке **Параметры Premium** портала администрирования Power BI сможете получить ключ продукта для сервера отчетов Power BI. Это будет доступно только глобальным администраторам или пользователям, которым назначена роль администратора службы Power BI.
+Если вы приобрели Power BI Premium, то на вкладке **Параметры Premium** портала администрирования Power BI сможете получить ключ продукта для сервера отчетов Power BI. Это доступно только глобальным администраторам или пользователям, которым назначена роль администратора службы Power BI.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "Ключ Сервера отчетов Power BI в параметрах версии Premium")
 
-Щелкните **Ключ сервера отчетов Power BI**, чтобы появилось диалоговое окно с ключом вашего продукта. Вы можете скопировать его и использовать при установке.
+Нажмите **Ключ сервера отчетов Power**, и появится диалоговое окно с вашим ключом продукта. Вы можете скопировать его и использовать при установке.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Ключ продукта для Сервера отчетов Power BI")
 
@@ -77,7 +77,7 @@ ms.locfileid: "35250391"
 
 ## <a name="configuring-your-report-server"></a>Настройка сервера отчетов
 
-После того как вы нажмете кнопку **Настроить сервер отчетов** в программе установки, откроется диспетчер конфигурации служб Reporting Services. Дополнительные сведения см. в статье о [диспетчере конфигурации служб Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
+Если нажать кнопку **Настроить сервер отчетов** в программе установки, откроется диспетчер конфигурации служб Reporting Services. Дополнительные сведения см. в статье о [диспетчере конфигурации служб Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
 Для завершения начальной настройки служб Reporting Services необходимо [создать базу данных сервера отчетов](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Для выполнения этого шага требуется сервер базы данных SQL Server.
 

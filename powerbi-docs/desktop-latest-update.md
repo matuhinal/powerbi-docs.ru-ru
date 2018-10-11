@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7fa3e2e63ef5f43206a398f58d9e8f13bdf8067a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a664ff5aeab7de4f98c176dddc5063ef2cfef72e
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728141"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417057"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop
 
@@ -23,7 +23,7 @@ ms.locfileid: "44728141"
 
 Сентябрьский пакет обновлений включает отличные новые возможности и улучшения ранее выпущенных функций, которые помогут сделать вашу работу гораздо эффективнее. Надеемся, представленные изменения и улучшения будут вам полезны. 
 
-Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Ежемесячные версии одинаковы, независимо от способа установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -48,7 +48,7 @@ ms.locfileid: "44728141"
 
 * Агрегаты (предварительная версия): [[видео]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[статья]](desktop-aggregations.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
-### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
+### <a name="custom-visuals"></a>Настройка визуальных элементов
 
 * Пять новых настраиваемых визуальных элементов [[видео]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 

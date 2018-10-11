@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657973"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549921"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Использование закладок для обмена аналитическими сведениями и создания историй в Power BI 
 С помощью **закладок** в Power BI вы можете сохранить текущие настройки представления страницы отчета, включая фильтрацию и состояние визуальных элементов, а затем вернуться к этому состоянию позже, просто выбрав сохраненную закладку. 
@@ -182,5 +182,5 @@ ms.locfileid: "39657973"
 Дополнительные сведения о похожих функциях или функциях, которые взаимодействуют с закладками, см. в следующих статьях.
 
 * [Использование детализации в Power BI Desktop](desktop-drillthrough.md)
-* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](service-focus-mode.md)
+* [Отображение плитки панели мониторинга или визуального элемента отчета в режиме фокусировки](consumer/end-user-focus.md)
 

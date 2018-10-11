@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4a7e8d0ad254f2b5130026d793629a0cf4cf3be
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ad87a2392252a64bc76675fd2b7a98c5e50a17a1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137291"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546034"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Подключение к GitHub с помощью Power BI
 Пакет контента GitHub для Power BI позволяет анализировать данные в репозитории GitHub, используя информацию о вкладах пользователей, проблемах, запросах получения и активных пользователях.
@@ -51,10 +51,10 @@ ms.locfileid: "37137291"
 
 **Дальнейшие действия**
 
-* Попробуйте [задать вопрос в поле "Вопросы и ответы"](power-bi-q-and-a.md) в верхней части информационной панели.
+* Попробуйте [задать вопрос в поле "Вопросы и ответы"](consumer/end-user-q-and-a.md) в верхней части информационной панели.
 * [Измените плитки](service-dashboard-edit-tile.md) на информационной панели.
-* [Выберите плитку](service-dashboard-tiles.md), чтобы открыть соответствующий отчет.
-* Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**.
+* [Выберите плитку](consumer/end-user-tiles.md), чтобы открыть соответствующий отчет.
+* Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**
 
 ## <a name="whats-included"></a>Содержимое
 В GitHub для Power BI доступны следующие данные:     

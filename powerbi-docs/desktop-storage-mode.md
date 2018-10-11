@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388808"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974237"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Режим хранения в Power BI Desktop (предварительная версия)
 
@@ -171,12 +171,13 @@ ms.locfileid: "39388808"
 
 В этом выпуске **режима хранения** есть несколько ограничений. Также следует учитывать его связь с **составными моделями**.
 
-Следующие многомерные источники нельзя использовать с **составными моделями**:
+Следующие (многомерные источники) Live Connect нельзя использовать с **составными моделями**:
 
 * SAP HANA
 * SAP Business Warehouse
 * Службы SQL Server Analysis Services
 * Наборы данных Power BI
+* Azure Analysis Services
 
 При подключении к этим многомерным источникам с помощью DirectQuery нельзя также подключиться к другому источнику DirectQuery или сочетать их с импортированными данными.
 

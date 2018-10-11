@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/27/2018
+ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1472646d1a4dc338740583ab759c2fc71aa1e56d
+ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548955"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "47059100"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -31,37 +31,43 @@ ms.locfileid: "46548955"
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="august-2018"></a>Август 2018 г.
-* Улучшения [фильтрации URL-адресов отчетов](service-url-filters.md) Power BI.
+## <a name="september-2018"></a>Сентябрь 2018 г.
+* [Комментарии на панели мониторинга](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) в службе Power BI.
 
 ## <a name="previous-months-2018"></a>Предыдущие месяцы (2018 г.)
+### <a name="august-2018"></a>Август 2018 г.
+* [Приложение Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) (Мониторинг емкости) для Power BI Premium.
+* Улучшения [фильтрации URL-адресов отчетов](service-url-filters.md) Power BI.
+
 ### <a name="july-2018"></a>Июль 2018 г.
+* Поддержка пользовательских визуальных элементов для [сохраняемых фильтров](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/).
 * [API и командлеты PowerShell](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) для администраторов Power BI.
+* [Поддержка нескольких регионов](service-admin-premium-multi-geo.md) для Power BI Premium.
 
 ### <a name="june-2018"></a>Июнь 2018
 * Совместное использование отчетов с фильтрами и срезами.
 * Новый и улучшенный пользовательский интерфейс для [подключений шлюза](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/) и настройки наборов данных.
 
 ### <a name="may-2018"></a>Май 2018
-* [Панели мониторинга темы](https://docs.microsoft.com/power-bi/service-dashboard-themes) в службе Power BI.
-* [Добавочное обновление](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh) с уровнем Premium.
-* Рабочий процесс запроса доступа для [приложений Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
-* Получение обновлений данных, которые упрощают для пользователей поиск [приложений Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
+* [Панели мониторинга темы](service-dashboard-themes.md) в службе Power BI.
+* [Добавочное обновление](service-premium-incremental-refresh.md) с уровнем Premium.
+* Рабочий процесс запроса доступа для [приложений Power BI](service-create-distribute-apps.md).
+* Получение обновлений данных, которые упрощают для пользователей поиск [приложений Power BI](service-create-distribute-apps.md).
 * Параметры для включения и отключения [сохраняемых фильтров](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) в службе Power BI.
 * Рабочий процесс создания приглашения Azure B2B для отчетов.
 
 ### <a name="april-2018"></a>Апрель 2018 г.
 * [Технический документ по защите данных в Power BI](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* [Журналы аудита](https://docs.microsoft.com/power-bi/service-admin-auditing) службы Power BI включены по умолчанию для клиента Office 365.
+* [Журналы аудита](service-admin-auditing.md) службы Power BI включены по умолчанию для клиента Office 365.
 
 ### <a name="march-2018"></a>Март 2018 г.
 * [Сохраняемые фильтры](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) в службе Power BI.
 * Предоставление пользователям общего доступа к содержимому с помощью их личных учетных записей электронной почты. Интеграция с [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
 
 ### <a name="february-2018"></a>Февраль 2018 г.
-* Автоматическая установка [приложений Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps) для конечных пользователей.
+* Автоматическая установка [приложений Power BI](service-create-distribute-apps.md) для конечных пользователей.
 * Емкости P4 и P5 в Power BI Premium.
-* Предварительная версия [пользовательских визуальных элементов организации](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization).
+* Предварительная версия [пользовательских визуальных элементов организации](power-bi-custom-visuals-organization.md).
 
 ### <a name="january-2018"></a>Январь 2018 г.:
 *   предоставление общего доступа к отчетам Power BI и добавление их в "Избранное";
@@ -73,7 +79,7 @@ ms.locfileid: "46548955"
 
 ## <a name="previous-months-2017"></a>Предыдущие месяцы (2017 г.)
 ## <a name="october-and-november-2017"></a>Октябрь и ноябрь 2017 г.:
-*   выборочная публикация содержимого при помощи [приложений Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps);
+*   выборочная публикация содержимого при помощи [приложений Power BI](service-create-distribute-apps.md);
 *   распределение внешних пользователей с использованием [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/);
 * рекомендации по приложениям на основе средств искусственного интеллекта;
 * обновление пользовательского интерфейса на плитке панели мониторинга;

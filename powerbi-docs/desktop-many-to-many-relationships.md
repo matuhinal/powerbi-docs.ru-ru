@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388762"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974007"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Связи "многие ко многим" в Power BI Desktop (предварительная версия)
 
@@ -158,12 +158,13 @@ ms.locfileid: "39388762"
 
 В этом выпуске для **связей "многие ко многим"** и **составных моделей** есть несколько ограничений.
 
-Следующие многомерные источники нельзя использовать с **составными моделями**:
+Следующие (многомерные источники) Live Connect нельзя использовать с **составными моделями**:
 
 * SAP HANA
 * SAP Business Warehouse
 * Службы SQL Server Analysis Services
 * Наборы данных Power BI
+* Azure Analysis Services
 
 При подключении к этим многомерным источникам с помощью DirectQuery нельзя также подключиться к другому источнику DirectQuery или сочетать их с импортированными данными.
 

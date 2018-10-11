@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 6b500acee862d8f16c186a9adc2fe0b194003e50
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388670"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973846"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded
 Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций.
@@ -30,7 +30,7 @@ ms.locfileid: "39388670"
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-Перед тем как приступать к миграции в новую службу Power BI Embedded, можно быстро ознакомиться с пошаговым руководством, которое поможет вам настроить новую среду Power BI Embedded с помощью [средства подготовки](https://aka.ms/embedsetup).
+Перед началом миграции в новую службу Power BI Embedded можно быстро ознакомиться с пошаговым руководством, которое поможет вам настроить новую среду Power BI Embedded с помощью [средства настройки внедрения](https://aka.ms/embedsetup).
 
 Выберите подходящее решение:
 * **Внедрение для клиентов**, если [данные должны принадлежать приложению](https://aka.ms/embedsetup/AppOwnsData). [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558592"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474053"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -84,18 +84,18 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 Возможно, понадобится обновить токен аутентификации в серверной части приложения, прежде чем вызывать GenerateToken.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>Проверка подлинности
 
@@ -229,13 +229,13 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 | OpenConnectionError | Не удается отобразить визуальный элемент. Не удалось выполнить рендеринг визуального элемента с таким названием: <visual title> | Н/Д | Емкость была приостановлена или удалена, пока отчет, связанный с ней, был открыт в сеансе |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Не удалось загрузить схему модели, связанную с этим отчетом. Убедитесь, что имеется подключение к серверу, и повторите попытку. | Н/Д | <li> Емкость приостановлена <li> Емкость удалена |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Средство подключения для внедрения
+## <a name="embedding-setup-tool"></a>Средство настройки внедрения
 
-Воспользуйтесь [средством подключения для внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения. Затем можно сравнить свое приложение с образцом.
+Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения. Затем можно сравнить свое приложение с образцом.
 
 ### <a name="prerequisites"></a>Предварительные требования
 
-Перед использованием средства подключения для внедрения проверьте, есть ли все необходимые компоненты. Вам потребуются учетная запись **Power BI Pro** и подписка **Microsoft Azure**.
+Перед использованием средства настройки внедрения убедитесь, что у вас есть все необходимые компоненты. Вам потребуются учетная запись **Power BI Pro** и подписка **Microsoft Azure**.
 
 * Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/en-us/pricing/).
 * Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
@@ -244,7 +244,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="common-issues"></a>Распространенные проблемы
 
-Ниже перечислены некоторые распространенные проблемы, которые могут возникнуть при тестировании с помощью средства подключения для внедрения:
+Ниже перечислены некоторые распространенные проблемы, которые могут возникнуть при тестировании с помощью средства настройки внедрения:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>Использование образца приложения "Внедрение для клиентов"
 
@@ -262,6 +262,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Эта ошибка возникает по той причине, что единственным значением, которое не вносится в образец приложения, является ваш пароль пользователя. Откройте файл Web.config в решении и заполните поле pbiPassword своим паролем.
 
+Если возникает ошибка "AADSTS50079: пользователь должен использовать многофакторную проверку подлинности".
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>Использование образца приложения "Внедрение для организации"
 
 Если вы работаете с решением **Внедрение для организации**, сохраните и распакуйте файл *PowerBI-Developer-Samples.zip*. Затем откройте папку *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* и запустите файл *pbi-saas-embed-report.sln*.
@@ -275,6 +279,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 Если необходимо изменить зарегистрированное приложение, узнайте, как изменить [зарегистрированное в Azure AD приложение](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), чтобы оно могло предоставлять доступ к веб-интерфейсам API.
 
 Если необходимо изменить профиль пользователя или данные Power BI, ознакомьтесь с [соответствующей процедурой](https://docs.microsoft.com/power-bi/service-basic-concepts).
+
+Если возникает ошибка "AADSTS50079: пользователь должен использовать многофакторную проверку подлинности".
+
+    Need to use an AAD account that does not have MFA enabled.
 
 Дополнительные сведения см. в разделе с [вопросами и ответами о Power BI Embedded](embedded-faq.md).
 

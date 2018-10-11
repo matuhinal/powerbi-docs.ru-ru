@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558583"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506806"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -84,15 +84,19 @@ Power BI Embedded — это набор интерфейсов API, позвол
 |Обязательство  |Никаких обязательств |Ежегодно  |Ежемесячно или ежегодно |
 |Отличия |Полная гибкость — масштабируемость, приостановление и возобновление использования ресурсов на портале Azure или с помощью API  |Можно использовать для внедрения содержимого в SharePoint Online и Microsoft Teams (за исключением мобильного приложения) |Объединение возможности внедрения в приложение и использования службы Power BI в одной емкости |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Что необходимо для создания емкости PBIE в Azure? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Что необходимо для создания емкости PBIE в Azure?
 
 * Необходим вход в каталог организации (учетные записи MSA не поддерживаются).
 * Необходим клиент Power BI, т. е. как минимум один пользователь в вашем каталоге должен зарегистрироваться в Power BI. 
 * Необходимо иметь подписку Azure в каталоге организации.
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>Как отслеживать использование емкости?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Как отслеживать использование емкости Power BI Embedded?
 
-Мы планируем добавить возможность мониторинга с помощью Azure в ближайшем будущем. Служба Power BI Embedded как ресурс Azure будет включать мониторинг ключевых показателей эффективности, которые будут отражать состояние работоспособности и использование.
+* На [портале администрирования Power BI](../service-admin-portal.md#power-bi-embedded-settings).
+
+* Загрузка [приложения метрик](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) в Power BI.
+
+* С помощью [Журнала диагностики Azure](azure-pbie-diag-logs.md).
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Будет ли емкость автоматически масштабироваться в соответствии с использованием моего приложения?
 
@@ -276,11 +280,11 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 * Новые функции, такие как вопросы и ответы, обновление, закладки, внедрение информационных панелей и плиток, а также пользовательские меню поддерживаются только в решении **Power BI Embedded**.
 * модель выставления счетов по емкости.
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Средство подключения для внедрения
+## <a name="embedding-setup-tool-for-embedding"></a>Средство настройки внедрения для внедрения
 
-### <a name="what-is-the-onboarding-experience-tool"></a>Что такое средство подключения для внедрения?
+### <a name="what-is-the-embedding-setup-tool"></a>Что такое средство настройки внедрения?
 
-[Средство подключения для внедрения](https://aka.ms/embedsetup) позволяет быстро приступить к работе и скачать образец приложения, чтобы начать внедрение в Power BI.
+[Средство настройки внедрения](https://aka.ms/embedsetup) позволяет быстро приступить к работе и скачать образец приложения, чтобы начать внедрение в Power BI.
 
 ### <a name="which-solution-should-i-choose"></a>Какое решение выбрать?
 

@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616058"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238130"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Руководство. Внедрение отчета, панели мониторинга или плитки Power BI в приложение для клиентов
+
 Служба **Power BI Embedded в Azure** позволяет внедрять в приложение отчеты, панели мониторинга и плитки с помощью модели **данных, принадлежащих приложению**. Модель **данных, принадлежащих приложению**, позволяет приложению использовать Power BI как встроенную платформу аналитики. Модель **данных, принадлежащих приложению**, обычно используется в сценарии **независимого поставщика программного обеспечения**. Как **разработчик и независимый поставщик программного обеспечения** вы можете создавать содержимое **Power BI**, отображающее отчеты, панели мониторинга или плитки в приложении. При этом приложение будет полностью интегрированным и интерактивным, а пользователям не потребуется лицензия Power BI. Из этого руководства вы узнаете, как правильно интегрировать отчет в приложение с помощью пакета SDK **Power BI** для .NET и API JavaScript **Power BI** в системе, предоставляющей клиентам ресурсы **Power BI Embedded в Azure**  по модели **данных, принадлежащих приложению**.
 
 Из этого руководства вы узнаете, как выполнять следующие задачи:
@@ -25,6 +26,7 @@ ms.locfileid: "39616058"
 >* внедрение отчета Power BI в приложение.
 
 ## <a name="prerequisites"></a>Предварительные требования
+
 Чтобы начать работу, вам потребуется учетная запись **Power BI Pro** (это ваша **главная учетная запись**) и подписка **Microsoft Azure**.
 
 * Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/en-us/pricing/).
@@ -36,9 +38,10 @@ ms.locfileid: "39616058"
 
 Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, внедрение необходимо настроить в вашей среде. В процессе настройки необходимо выполнить указанные ниже действия.
 
-Воспользуйтесь [средством адаптации](https://aka.ms/embedsetup/AppOwnsData), чтобы быстро приступить к работе и скачать пример приложения, с помощью которого можно создать среду и внедрить отчет.
+Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/AppOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета.
 
 Если вы решили настроить среду вручную, см. инструкции ниже.
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Регистрация приложения в Azure Active Directory
 
 Регистрация приложения в Azure Active Directory нужна для того, чтобы предоставить приложению доступ к REST API Power BI. Это позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
@@ -46,11 +49,11 @@ ms.locfileid: "39616058"
 1. Примите [условия использования API Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
 
 2. Войдите на [портал Azure](https://portal.azure.com).
- 
+
     ![Основная страница портала Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. На панели навигации слева выберите **Все службы**, выберите **Регистрация приложений** и щелкните **Регистрация нового приложения**.
-   
+
     ![Поиск приложений для регистрации](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Регистрация нового приложения](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,11 +68,11 @@ ms.locfileid: "39616058"
 ### <a name="use-the-azure-active-directory-portal"></a>Использование портала Azure Active Directory
 
 1. На портале Azure перейдите к колонке [Регистрация приложений](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) и выберите приложение, используемое для внедрения.
-   
+
     ![Выбор приложения](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. В разделе **Параметры** откройте **Доступ через API** и выберите **Необходимые разрешения**.
-   
+
     ![Необходимые разрешения](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. Выберите **Microsoft Azure Active Directory** и затем установите флажок **Осуществляйте доступ к каталогу как пользователь, выполнивший вход**. Нажмите кнопку **Сохранить**.
@@ -170,7 +173,9 @@ ms.locfileid: "39616058"
 
     На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-    ![Поиск регистрации приложения](media/embed-sample-for-customers/embed-sample-for-customers-003.png) Выберите приложение, для которого вам нужно значение **clientId**.
+    ![Поиск приложений для регистрации](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    Выберите приложение, для которого вам нужно значение **clientId**.
 
     ![Выбор приложения](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -204,6 +209,7 @@ ms.locfileid: "39616058"
     ![Просмотр приложения](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Внедрение содержимого в приложении
+
 Несмотря на то, что шаги по внедрению содержимого можно выполнить с помощью [интерфейсов REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью **пакета SDK для .NET**.
 
 Чтобы внедрять содержимое для клиентов в приложении, вам нужно получить **токен доступа** из **Azure AD** для главной учетной записи. Необходимо [получить маркер доступа Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI, использующего **данные, принадлежащие приложению**, прежде чем выполнять вызовы в [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
@@ -225,6 +231,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Получение элемента содержимого, который нужно внедрить
+
 Вы можете использовать объект клиента Power BI, чтобы получить ссылку на элемент, который требуется внедрить.
 
 Ниже приведен пример кода для получения первого отчета из определенной рабочей области.
@@ -243,6 +250,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Создание маркера внедрения
+
 Необходимо, чтобы создаваемый токен внедрения можно было использовать из API JavaScript. Токен внедрения связан только с внедряемым элементом. Таким образом, при каждом внедрении части содержимого Power BI нужно создавать отдельный токен внедрения. Дополнительные сведения, включая информацию о том, какой уровень **accessLevel** нужно использовать, см. в статье [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) (Интерфейс API GenerateToken).
 
 Ниже приведен пример добавления токена внедрения для отчета в приложении.
@@ -323,6 +331,7 @@ var embedConfig = new EmbedConfig()
 После завершения разработки приложения нужно вернуться к рабочей области приложения с выделенной емкостью. Для перехода к рабочей среде требуется выделенная емкость.
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
+
 Создав выделенную емкость, вы получите преимущество выделенного ресурса для клиента. Вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 
 Используйте таблицу ниже, чтобы определить, какая емкость Power BI Embedded наилучшим образом соответствует вашим требованиям.
@@ -359,6 +368,7 @@ var embedConfig = new EmbedConfig()
     ![Рабочая область приложения, связанная с емкостью](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 В этом руководстве вы узнали, как внедрить содержимое Power BI в свое приложение для клиентов. Кроме того, вы можете попробовать внедрить содержимое Power BI для своей организации.
 
 > [!div class="nextstepaction"]
