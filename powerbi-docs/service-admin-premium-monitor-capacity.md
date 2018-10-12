@@ -8,20 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/26/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 069a7d6c6d1503dd207eea9208f90d70e9ca1264
-ms.sourcegitcommit: 8138220c42606069e2f5f97c6e4d29888dbdd036
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47420707"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909229"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Мониторинг емкостей Power BI Premium и Power BI Embedded
 
 В этой статье представлен обзор мониторинга метрик емкостей Power BI Premium. Мониторинг емкостей позволяет вам применять обоснованный подход к управлению возможностями.
 
 Вы можете контролировать емкость с помощью приложения Power BI Premium Capacity Metrics или на портале администрирования. Мы рекомендуем приложение, потому что оно предоставляет гораздо больше деталей, но в этой статье рассматриваются оба варианта.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Установка приложения Power BI Premium Capacity Metrics
 
