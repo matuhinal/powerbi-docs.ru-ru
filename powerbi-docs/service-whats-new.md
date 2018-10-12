@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 1472646d1a4dc338740583ab759c2fc71aa1e56d
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059100"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909183"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -593,7 +593,7 @@ ms.locfileid: "47059100"
 
 * Мы рады сообщить о выпуске коммерческой версии Power BI. Зарегистрируйтесь для получения [Power BI Pro](service-self-service-signup-for-power-bi.md). В рамках коммерческого выпуска предлагаются новые функции.
 * Новая среда создания визуализаций и отчетов: новый холст отчета включает расширенный набор визуализаций, дополнительный контроль над форматированием заголовков, условных обозначений, осей, цветов, фона и пр.
-* [Группы Power BI](consumer/end-user-create-apps.md): группы обеспечивают широкие возможности для совместной работы, основанные на группах Office 365.
+* [Группы Power BI](service-create-distribute-apps.md): группы обеспечивают широкие возможности для совместной работы, основанные на группах Office 365.
 * [Пакеты содержимого организации](service-organizational-content-pack-introduction.md): Power BI значительно упрощает создание панелей мониторинга и отчетов, и пользователи теперь могут публиковать это содержимое в коллекции содержимого организации.
 * [Перенос файлов Excel полностью](service-excel-workbook-files.md): любую книгу Excel, хранящуюся в среде OneDrive для бизнеса, можно перенести в Power BI и просмотреть ее целиком точно так же, как она отображается в Excel Online.
 * [Перенос CSV-файлов](service-get-data-from-files.md): как и файлы Excel или Power BI Desktop, текстовые CSV-файлы можно использовать в качестве наборов данных для панелей мониторинга и отчетов Power BI.
