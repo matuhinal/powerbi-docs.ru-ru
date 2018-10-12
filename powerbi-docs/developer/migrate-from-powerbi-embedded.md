@@ -2,18 +2,17 @@
 title: Как перенести содержимое коллекции рабочих областей Power BI в Power BI
 description: Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций.
 author: markingmyname
-manager: kfile
-ms.reviewer: ''
-ms.Embedded: powerbi
+ms.service: powerbi
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6b500acee862d8f16c186a9adc2fe0b194003e50
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973846"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271861"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded
 Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций.

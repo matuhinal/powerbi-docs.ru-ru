@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 09e7534146ace617ee3e517eca6a453aa9002d38
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546912"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909252"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -196,7 +196,7 @@ ms.locfileid: "46546912"
 
 ### <a name="june-2107"></a>Июнь 2017 г.
 #### <a name="all-devices"></a>Все устройства
-**Добавление приложений в избранное.** Вы уже знаете, что панели мониторинга можно добавлять в избранное. Недавно [в Power BI появились приложения](../end-user-apps.md), и теперь их тоже можно добавлять в избранное. 
+**Добавление приложений в избранное.** Вы уже знаете, что панели мониторинга можно добавлять в избранное. Недавно [в Power BI появились приложения](../../service-create-distribute-apps.md), и теперь их тоже можно добавлять в избранное. 
 
 ### <a name="may-2017"></a>Май 2017 г.
 #### <a name="all-devices"></a>Все устройства

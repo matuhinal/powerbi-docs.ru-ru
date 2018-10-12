@@ -3,18 +3,18 @@ title: Внедрение содержимого Power BI в приложени�
 description: Узнайте, как правильно интегрировать (внедрить) в веб-приложение нужный организации отчет, панель мониторинга или плитку с помощью интерфейсов API Power BI.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 7dd1c323584ae1d9013b839717bfeb59a97c078c
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 07/13/2018
+ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238084"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827463"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Руководство. Внедрение отчета, панели мониторинга или плитки Power BI в приложение для организации
 
