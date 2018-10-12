@@ -8,22 +8,22 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548472"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416942"
 ---
 # <a name="funnel-charts"></a>Воронкообразные диаграммы
 Воронкообразная диаграмма позволяет визуализировать линейный процесс, который имеет последовательные связанные этапы. Например, воронка продаж, которая отслеживает клиентов по этапам: "Интерес" \> "Соответствующий интерес" \> "Потенциальный клиент" \> "Контракт" \> "Закрыто".  Форма воронки визуально передает состояние отслеживаемого процесса.
 
 Каждый этап воронки представляет долю от общего количества. Таким образом, в большинстве случаев воронкообразная диаграмма имеет форму воронки: первый этап самый большой, а каждый следующий этап меньше предыдущего.  Грушевидная воронка также удобна: она позволяет определить проблему в процессе.  Но, как правило, первый этап, этап "вхождения", является самым крупным.
 
-![](media/power-bi-visualization-funnel-charts/funnelplain.png)
+![пример воронки](media/power-bi-visualization-funnel-charts/funnelplain.png)
 
 ## <a name="when-to-use-a-funnel-chart"></a>Сферы применения воронкообразных диаграмм
 Воронкообразная диаграмма отлично подходит:
@@ -57,11 +57,11 @@ ms.locfileid: "46548472"
 
 1. Начните с [пустой страницы отчета](../power-bi-report-add-page.md) и выберите поле **Этап продажи**\>**Этап продажи**. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](../service-interact-with-a-report-in-editing-view.md).
    
-    ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
+    ![выбранный элемент "Стадия продажи"](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Преобразуйте диаграмму](power-bi-report-change-visualization-type.md) в воронку. Обратите внимание, что параметр **Этап продажи** также находится в **группе** . 
 3. В области **Поля** выберите пункты **Факт** \> **Число возможностей**.
    
-    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![создание воронкообразной диаграммы](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. При наведении указателя мыши на столбец отображается много ценных сведений:
    
    * имя этапа;
@@ -69,8 +69,8 @@ ms.locfileid: "46548472"
    * общий показатель эффективности (доля от интереса); 
    * поэтапное значение (интенсивность отбрасывания), которое представляет собой долю от предыдущего этапа (в данном случае этап предложения/этап решения).
      
-     ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Добавьте воронкообразную диаграмму как плитку панели мониторинга](../consumer/end-user-tiles.md). 
+     ![Сведения для столбца предложений](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
+5. [Добавьте воронкообразную диаграмму как плитку панели мониторинга](../service-dashboard-tiles.md). 
 6. [Сохраните отчет](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Выделение и перекрестная фильтрация
@@ -80,24 +80,20 @@ ms.locfileid: "46548472"
 
 1. На воронкообразной диаграмме выберите столбец **Proposal** (Предложение). Это приведет к перекрестному выделению других визуализаций на странице. Используйте клавишу CTRL, чтобы выбрать сразу несколько элементов.
    
-   ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Сведения о том, как настроить параметры перекрестного выделения и фильтрации визуальных элементов, см. в статье [Взаимодействие визуальных элементов в Power BI](../consumer/end-user-interactions.md).
+   ![короткое видео, демонстрирующее взаимодействия визуальных элементов](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
+2. Сведения о том, как настроить параметры перекрестного выделения и фильтрации визуальных элементов, см. в статье [Взаимодействие визуальных элементов в Power BI](../service-reports-visual-interactions.md).
 
-## <a name="create-a-funnel-chart-in-qa"></a>Создание воронкообразной диаграммы в компоненте "Вопросы и ответы"
-Откройте панель мониторинга "Анализ возможных сделок — пример" или другую панель мониторинга с одной или несколькими закрепленными визуализациями на основе этого набора данных.  При вводе вопроса в поле "Вопросы и ответы" Power BI ищет ответы во всех наборах данных, которые связаны с выбранной панелью мониторинга (то есть их плитки закреплены на этой панели мониторинга). Дополнительные сведения см. в разделе [Power BI — основные понятия](../consumer/end-user-basic-concepts.md).
+## <a name="create-a-funnel-chart-using-qa"></a>Создание воронкообразной диаграммы с использованием функции "Вопросы и ответы"
+Откройте панель мониторинга "Анализ возможных сделок — пример" или другую панель мониторинга с одной или несколькими закрепленными визуализациями на основе этого набора данных.  При вводе вопроса в поле "Вопросы и ответы" Power BI ищет ответы во всех наборах данных, которые связаны с выбранной панелью мониторинга (то есть их плитки закреплены на этой панели мониторинга). Дополнительные сведения см. в разделе [Power BI — основные понятия](../service-basic-concepts.md).
 
 1. На панели мониторинга "Анализ возможных сделок — пример" начните вводить вопрос в текстовое поле вопросов и ответов.
    
-   ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
+   ![поле вопроса и воронка](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
    
 2. Не забудьте добавить "как воронка", чтобы указать Power BI предпочтительный тип визуализации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
+[Датчики в Power BI](power-bi-visualization-radial-gauge-charts.md)
+
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Закрепление визуализации на панели мониторинга](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
-
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

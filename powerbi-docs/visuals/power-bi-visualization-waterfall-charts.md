@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565827"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448921"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Каскадные диаграммы в Power BI
 Каскадные диаграммы показывают промежуточный итог по мере сложения или вычитания значений. Это удобно для понимания того, как ряд положительных и отрицательных изменений влияет на начальное значение (например, на чистую прибыль).
@@ -39,32 +39,32 @@ ms.locfileid: "46565827"
 
 1. Выберите вкладку **Наборы данных** и прокрутите страницу до нового набора данных "Анализ розничной торговли — пример".  Щелкните значок **Создать отчет**, чтобы открыть набор данных в режиме правки отчета. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. В области **Поля** выберите **Sales \> Total Sales Variance** (Продажи > Суммарное отклонение продаж). Если **суммарное отклонение продаж** не находится на **оси Y** , перетащите его туда.
-3. Преобразуйте диаграмму в **каскадную**. 
+    ![Выделенная вкладка наборов данных](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. В области **Поля** выберите **Sales \> Total Sales Variance** (Продажи > Суммарное отклонение продаж). 
+3. Преобразуйте диаграмму в **каскадную**. Если **суммарное отклонение продаж** не находится на **оси Y** , перетащите его туда.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Шаблоны визуализаций](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. Выберите **Time** (Время) \> **Month** (Месяц), чтобы добавить время в качестве **категории**. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![каскадная диаграмма](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. Отсортируйте данные на каскадной диаграмме в хронологическом порядке. В правом верхнем углу диаграммы щелкните многоточие (…) и выберите **ФинМесяц**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![выбранные элементы "Сортировать по" > "ФинМесяц"](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![результат сортировки по возрастанию](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Подробно изучите данные, чтобы увидеть, что больше всего влияет на изменения по месяцам. Перетащите **Магазин** > **Территория** в контейнер **Распределение**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Элемент "Магазин" отображается в контейнере "Распределение"](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. По умолчанию в Power BI добавлены 5 факторов, влияющих на увеличение или уменьшение объема продаж по месяцам. Но нам нужно добавить только 2 основных влияющих фактора.  На панели форматирования выберите **Распределение** и задайте для элемента **Максимум** значение "2".
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    !["Форматирование" > "Распределение"](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     В кратком обзоре показано, что территории штатов Огайо и Пенсильвания больше всего влияют на положительные и отрицательные изменения на каскадной диаграмме. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. Это интересное открытие. Действительно ли территории Огайо и Пенсильвании значительно влияют на результат, потому что на них объем продаж гораздо больше, чем на других?  Давайте проверим. Создайте карту для отслеживания продаж по территориям.  
+    ![каскадная диаграмма](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. Это интересное открытие. Действительно ли территории Огайо и Пенсильвании значительно влияют на результат, потому что на них объем продаж гораздо больше, чем на других?  Давайте проверим. Создайте карту для отслеживания продаж по территориям за текущий и прошлый год.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![карта Пенсильвании и Огайо крупным планом](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     На карте наши предположения подтверждаются.  На ней показано, что на этих двух территориях наибольшее значение продаж за прошлый год (размер пузырьков) и текущий год (заливка пузырьков).
 
@@ -74,13 +74,7 @@ ms.locfileid: "46565827"
 Вы можете выделить столбец в каскадной диаграмме для перекрестной фильтрации других визуализаций на странице отчета (и наоборот). При этом столбец итогов не запускает выделение и не реагирует на перекрестную фильтрацию.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Отчеты в Power BI](../consumer/end-user-reports.md)
 
-[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Взаимодействия визуальных элементов](../service-reports-visual-interactions.md)
 
-[Визуализации в отчетах Power BI](power-bi-report-visualizations.md)
-
-[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
-
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-
+[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 865e19f368b8e1915d0262ae6356e70a8dbc2781
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548334"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416916"
 ---
 # <a name="card-visualizations"></a>Визуализации в виде карточек
 Иногда на панели мониторинга или в отчете Power BI очень важно отслеживать одно число, например показатель общего объема продаж, долю на рынке в годовом исчислении или общее число возможных сделок. Такой тип визуализации называется *карточкой*. Как и практически все собственные визуализации Power BI, карточки можно создавать при помощи редактора отчетов или функции вопросов и ответов.
 
-![визуализация в виде карточки](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![визуализация в виде карточки](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Создание карточки с помощью редактора отчетов
 Здесь используется пример "Анализ розничной торговли". Чтобы продолжить работу, [скачайте пример](../sample-datasets.md) для службы Power BI (app.powerbi.com) или Power BI Desktop.   
@@ -32,7 +32,7 @@ ms.locfileid: "46548334"
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. На панели "Визуализации" выберите значок карты.
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. Наведите указатель мыши на карточку и выберите значок булавки ![](media/power-bi-visualization-card/pbi_pintile.png), чтобы добавить визуализацию на панель мониторинга.
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ ms.locfileid: "46548334"
 
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) позволяет узнать, что визуализация была добавлена на панель мониторинга в качестве плитки.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. Выберите **Перейти к панели мониторинга**. Здесь вы можете [изменить и переместить](../service-dashboard-edit-tile.md) закрепленную визуализацию.
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Создание карточки в поле вопроса функции "Вопросы и ответы"
-Поле вопроса функции "Вопросы и ответы" — самый простой способ создания карточки. Поле вопроса функции "Вопросы и ответы" доступно в службе Power BI (app.powerbi.com) на панели мониторинга или в отчете. Ниже приведены инструкции по созданию карточки на панели мониторинга в службе Power BI. Чтобы создать карточку при помощи функции "Вопросы и ответы" в Power BI Desktop, [следуйте этим инструкциям](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) для предварительной версии функции "Вопросы и ответы" в отчетах Desktop.
+Поле вопроса функции "Вопросы и ответы" — самый простой способ создания карточки. Поле вопроса функции "Вопросы и ответы" доступно в службе Power BI на панели мониторинга или в отчете, а также в представлении отчетов Power BI Desktop. Ниже приведены инструкции по созданию карточки на панели мониторинга в службе Power BI. Чтобы создать карточку при помощи функции "Вопросы и ответы" в Power BI Desktop, [следуйте этим инструкциям](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) для предварительной версии функции "Вопросы и ответы" в отчетах Desktop.
 
-1. Создайте [панель мониторинга](../consumer/end-user-dashboards.md) и [получите данные](../service-get-data.md). Здесь используется пример [Анализ возможностей](../sample-opportunity-analysis.md).
+1. Создайте [панель мониторинга](../service-dashboards.md) и [получите данные](../service-get-data.md). Здесь используется пример [Анализ возможностей](../sample-opportunity-analysis.md).
 
 1. В верхней части информационной панели начните вводить вопрос о данных в поле вопроса. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**СОВЕТ.** В отчете службы Power BI в [режиме правки](../consumer/end-user-reading-view.md) выберите **Задать вопрос** в строке меню сверху. В отчете Power BI Desktop дважды щелкните пустую область, чтобы открыть поле вопроса.
+> [!TIP]
+> В отчете службы Power BI в [режиме правки](../service-reading-view-and-editing-view.md) выберите **Задать вопрос** в строке меню сверху. В отчете Power BI Desktop дважды щелкните пустую область, чтобы открыть поле вопроса.
 
 3. Например, введите "количество возможных сделок".
 
@@ -75,7 +76,7 @@ ms.locfileid: "46548334"
 
    Сообщение об успешном выполнении (в правом верхнем углу экрана) позволяет узнать, что визуализация была добавлена на панель мониторинга в виде плитки.  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Выберите **Перейти на информационную панель**, чтобы просмотреть новую плитку. Здесь вы можете [изменить имя или размер, добавить гиперссылку и переместить плитку, а также выполнить другие действия](../service-dashboard-edit-tile.md) на панели мониторинга.
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ ms.locfileid: "46548334"
 ## <a name="format-a-card"></a>Форматирование карты
 Для изменения меток, текста, цвета и многого другого есть много параметров. Лучший способ обучения — создать карту и ознакомиться с панелью форматирования. Здесь описаны только некоторые из доступных параметров. 
 
-1. Для начала откройте панель форматирования, щелкнув значок кисти. 
+1. Сначала откройте панель форматирования, щелкнув значок валика. 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![карта с выделенным изображением валика](media/power-bi-visualization-card/power-bi-format-card.png)
 2. Разверните элемент **Метка данных** и измените семейство шрифтов, размер и цвет. Если у вас тысячи магазинов, можно использовать элемент **Показывать единицы** для отображения числа магазинов в тысячах и управления десятичными разрядами. Например, можно отобразить 125,8 тыс. вместо 125 832,00.
 
 3.  Разверните элемент **Метка категории** и измените цвет и размер.
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![выбран синий цвет](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. Разверните элемент **Фон** и переместите ползунок в положение "Вкл.".  Теперь можно изменить цвет фона и уровень прозрачности.
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![ползунок, установленный в значение "Включено"](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. Продолжайте изучать параметры форматирования, пока вы не измените свою карту так, как вам нужно. 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![Карта после полного форматирования](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Плитки панели мониторинга в Power BI](../consumer/end-user-tiles.md)
+[Комбинированная диаграмма в Power BI](power-bi-visualization-combo-chart.md)
 
-[Панели мониторинга в Power BI](../consumer/end-user-dashboards.md)
-
-[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
-
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566057"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448944"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
@@ -32,10 +32,10 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Базовая диаграмма с областями основана на графике, у которого заполнена область между осью и линией графика.
 
-Дополнительные сведения см. в разделе [Tutorial: Basic Area chart](power-bi-visualization-basic-area-chart.md) (Учебник: основная диаграмма с областями).
+Дополнительные сведения см. в статье [Простые диаграммы с областями](power-bi-visualization-basic-area-chart.md).
 
 ### <a name="bar-and-column-charts"></a>Линейчатые диаграммы и гистограммы
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Комбинированная диаграмма сочетает в себе гистограмму и график. Выберите *Линейную гистограмму и гистограмму с накоплением* или *Линейную гистограмму и гистограмму с группировкой*.
 
-Дополнительные сведения см. в разделе [Tutorial: Combo charts in Power BI](power-bi-visualization-combo-chart.md) (Учебник: комбинированные диаграммы в Power BI).
+Дополнительные сведения см. в статье [Комбинированная диаграмма в Power BI](power-bi-visualization-combo-chart.md).
 
 ### <a name="doughnut-charts"></a>Кольцевые диаграммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Кольцевые диаграммы похожи на круговые диаграммы.  Они показывают отношение частей к целому.
 
-Дополнительные сведения см. в статье [Tutorial: Doughnut charts in Power BI](power-bi-visualization-doughnut-charts.md) (Учебник: кольцевые диаграммы в Power BI).
+Дополнительные сведения см. в статье [Кольцевые диаграммы в Power BI](power-bi-visualization-doughnut-charts.md).
 
 ### <a name="funnel-charts"></a>Воронкообразные диаграммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Воронкообразные диаграммы помогают визуализировать процесс, состоящий из этапов, в котором элементы последовательно переходят от одного этапа к другому.  Используйте воронкообразные диаграммы, когда между этапами выполняется последовательность операций, например процесса продаж, который начинается с интересов и заканчивается осуществлением покупки.
 
-Дополнительные сведения см. в разделе [Tutorial: Funnel Charts in Power BI](power-bi-visualization-funnel-charts.md) (Учебник: воронкообразные диаграммы в Power BI).
+Дополнительные сведения см. в статье [Воронкообразные диаграммы](power-bi-visualization-funnel-charts.md).
 
 ### <a name="gauge-charts"></a>Индикаторные диаграммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,15 +80,15 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Отображает текущее состояние в контексте цели.
 
-Дополнительные сведения см. в разделе [Tutorial: Gauge Charts in Power BI](power-bi-visualization-radial-gauge-charts.md) (Учебник: индикаторные диаграммы в Power BI).
+Дополнительные сведения см. в статье [Диаграммы "Радиальный датчик" в Power BI](power-bi-visualization-radial-gauge-charts.md).
 
-### <a name="kpis"></a>Ключевые показатели эффективности
+### <a name="kpis"></a>ключевые показатели эффективности;
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
 >Отображает ход достижения измеримой цели.
 
-Дополнительные сведения см. в статье [КПЭ в Power BI](power-bi-visualization-kpi.md).
+Дополнительные сведения см. в статье [Визуальные элементы КПЭ](power-bi-visualization-kpi.md).
 
 ### <a name="line-charts"></a>Графики
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ ms.locfileid: "46566057"
 ### <a name="maps-arcgis-maps"></a>Карты: карты ArcGIS
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Дополнительные сведения см. в статье [Руководство. Карты ArcGIS в Power BI (предварительная версия)](../power-bi-visualization-arcgis.md).
+Дополнительные сведения см. в статье[ Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](../power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Карты: картограммы (хороплеты)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Чем насыщеннее цвет, тем больше значение.
 
-Дополнительные сведения см. в разделе [Tutorial: Filled Maps in Power BI](power-bi-visualization-filled-maps-choropleths.md) (Учебник: картограммы в Power BI).
+Дополнительные сведения см. в статье [Картограммы (хороплеты) в Power BI](power-bi-visualization-filled-maps-choropleths.md).
+
+### <a name="maps-shape-maps"></a>Карты: карты фигур
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>Сравнение регионов по цвету.
+
+Дополнительные сведения см. в статье [Карты фигур в Power BI Desktop (предварительная версия)](desktop-shape-map.md).
+
 
 ### <a name="matrix"></a>Матрица
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+Дополнительные сведения см. в статье [Использование визуального элемента "Матрица" в Power BI Desktop](desktop-shape-map.md).
 
 ### <a name="pie-charts"></a>Круговые диаграммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Отображают отношения между 2 (точечные) или 3 (пузырьковые) количественными показателями — существуют или нет, в каком порядке и т. д.
 
-Дополнительные сведения см. в разделе [Tutorial: Scatter charts in Power BI](power-bi-visualization-scatter.md) (Учебник: точечные диаграммы в Power BI).
+Дополнительные сведения см. в статье [Точечные и пузырьковые диаграммы в Power BI](power-bi-visualization-scatter.md).
+
+### <a name="scatter-high-density"></a>Точечная диаграмма высокой плотности
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>Слишком большое число точек данных в визуальном элементе может затормозить его работу, поэтому для обеспечения точности визуализации используется сложный алгоритм выборки.
+
+Дополнительные сведения см. в статье [High-density sampling in Power BI scatter charts](desktop-high-density-scatter-charts.md) (Выборка с высокой плотностью на точечных диаграммах в Power BI).
 
 ### <a name="slicers"></a>Срезы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-Дополнительные сведения см. в разделе [Tutorial: Slicers in Power BI](power-bi-visualization-slicers.md) (Учебник: срезы в Power BI).
+Дополнительные сведения см. в статье [Срезы в Power BI](power-bi-visualization-slicers.md).
 
 ### <a name="standalone-images"></a>Автономные изображения
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ ms.locfileid: "46566057"
 
 Дополнительные сведения см. в статье [Работа с таблицами в отчетах и на информационных панелях Power BI (руководство)](power-bi-visualization-tables.md).
 
-### <a name="tree-maps"></a>Плоские деревья
+### <a name="treemaps"></a>Диаграммы дерева
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-Дополнительные сведения см. в разделе [Tutorial: Treemaps in Power BI](power-bi-visualization-treemaps.md) (Учебник. Плоские деревья в Power BI).
+Дополнительные сведения см. в статье [Древовидные диаграммы в Power BI](power-bi-visualization-treemaps.md).
 
 >[!TIP]
 >Это диаграммы из цветных прямоугольников, размер которых соответствует значению.  Они могут иметь иерархическую структуру, в которой прямоугольники вкладываются в основные прямоугольники.
@@ -163,7 +182,7 @@ ms.locfileid: "46566057"
 >[!TIP]
 >Каскадные диаграммы показывают промежуточный итог по мере сложения или вычитания значений.
 
-Дополнительные сведения см. в разделе [Tutorial Waterfall charts in Power BI](power-bi-visualization-waterfall-charts.md) (Учебник: каскадные диаграммы в Power BI).
+Дополнительные сведения см. в статье [Каскадные диаграммы в Power BI](power-bi-visualization-waterfall-charts.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Назначение используемой визуализации для вопросов и ответов
 При вводе запросов на естественном языке с помощью вопросов и ответов Power BI можно указать тип визуализации в запросе.  Например:
@@ -175,10 +194,3 @@ ms.locfileid: "46566057"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Визуализации в Power BI](power-bi-report-visualizations.md)    
 [THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)
-
-[Отчеты в Power BI](../consumer/end-user-reports.md)
-
-[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
-
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

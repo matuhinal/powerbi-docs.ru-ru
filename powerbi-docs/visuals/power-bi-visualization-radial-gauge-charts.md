@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565571"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416873"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Диаграммы "Радиальный датчик" в Power BI
 Диаграмма "Радиальный датчик" имеет дугу и отображает одно значение, которое отражает ход достижения цели или значение ключевого показателя эффективности.  Цель, или целевое значение, представляется линией. Текущий прогресс в достижении цели представляется областью с заливкой.  Значение, которое представляет текущий прогресс, отображается полужирным шрифтом внутри дуги. Все возможные значения равномерно распределены по дуге, от минимального (крайнее левое значение) до максимального (крайнее правое значение).
@@ -92,7 +92,7 @@ ms.locfileid: "46565571"
 
 ### <a name="step-5-save-your-report"></a>Шаг 5. Сохранение отчета
 1. [Сохраните отчет](../service-report-save.md).
-2. [Добавьте диаграмму датчика как плитку на панель мониторинга](../consumer/end-user-tiles.md). 
+2. [Добавьте диаграмму датчика как плитку на панель мониторинга](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Использование параметров форматирования для ручной настройки минимального, максимального и целевого значения.
 1. Удалите поле **Max of Gross Sales** (Максимальная валовая выручка) из списка **Максимальное значение** .
@@ -110,14 +110,8 @@ ms.locfileid: "46565571"
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. При желании продолжите форматирование диаграммы датчика.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-step"></a>Дальнейшие действия
+
+[Датчики в Power BI](power-bi-visualization-kpi.md)
+
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Добавление визуализации в отчет](power-bi-report-add-visualizations-i.md)
-
-[Закрепление визуализации на панели мониторинга](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
-
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-
