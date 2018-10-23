@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2018
+ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909183"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396757"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -212,7 +212,7 @@ ms.locfileid: "48909183"
 
 Подробности см. в [блоге рабочей группы Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/).
 
-* [Поддержка вопросов и ответов Power BI для табличных моделей SQL Server 2016 Analysis Services](consumer/end-user-q-and-a-direct-query.md): мы рады объявить об улучшениях в интерфейсе работы с вопросами и ответами в Power BI и о запуске общедоступной предварительной версии этой функции для источников данных, подключаемых через корпоративный шлюз (для начала добавлена поддержка табличных моделей SQL Server 2016 Analysis Services). Подробности см. в [записи блога](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/).
+* [Поддержка вопросов и ответов Power BI для табличных моделей SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): мы рады объявить об улучшениях в интерфейсе работы с вопросами и ответами в Power BI и о запуске общедоступной предварительной версии этой функции для источников данных, подключаемых через корпоративный шлюз (для начала добавлена поддержка табличных моделей SQL Server 2016 Analysis Services). Подробности см. в [записи блога](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/).
 * [Поддержка локальных файлов для отчетов Excel](service-excel-workbook-files.md#local-excel-workbooks): теперь вы можете добавлять файлы Excel с локального диска и из других хранилищ и работать с отчетами Excel так же, как и в Excel Online, но с расширенными функциями и возможностями Power BI. Подробности см. в [этой записи блога](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/).
 
 **28 апреля 2016 г.**

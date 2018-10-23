@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908654"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435371"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Создание панели мониторинга Power BI из отчета
 Вы прочитали раздел [Панели мониторинга в Power BI](service-dashboards.md) и хотите создать свои собственные информационные панели. Существует много разных способов создавать панели мониторинга, среди которых: создание из отчета, с нуля, из набора данных, с помощью дублирования существующей панели мониторинга и многое другое.  
@@ -109,7 +109,7 @@ ms.locfileid: "48908654"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Изменение размеров и перемещение плиток](service-dashboard-edit-tile.md)
 * [Все о плитках панелей мониторинга](service-dashboard-tiles.md)
-* [Создание и распространение приложения в Power BI](service-install-use-apps.md)
+* [Создание и распространение приложения в Power BI](service-create-workspaces.md)
 * [Power BI — основные понятия](service-basic-concepts.md)
 * [Советы по созданию эффективной панели мониторинга Power BI](service-dashboards-design-tips.md)
 

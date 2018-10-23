@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2018
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187152"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49397010"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Руководство по использованию функции "Вопросы и ответы" для создания визуализаций и отчетов
 В [этом обзоре](consumer/end-user-q-and-a.md) представлено описание функции "Вопросы и ответы" Power BI с двух сторон: *потребители* используют панели мониторинга и отчеты, которые им предоставлены, а *создатели* управляют отчетами и наборами данных. Первая часть этого руководства предназначена главным образом для тех, кто использует панели мониторинга через службу Power BI. Вторая часть будет полезна тем, кто создает отчеты через в Power BI или Power BI Desktop. Особенности применения функции "Вопросы ответы" совместно с [Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) и [Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях.
@@ -98,7 +98,7 @@ ms.locfileid: "47187152"
 Функция "Вопросы и ответы" позволяет не только подобрать правильные данные, но и сообщить Power BI о том, как лучше всего их отобразить. Просто добавьте в конец своего вопроса текст "как <visualization type>".  Например, "показать объем запасов по заводу как карту" и "показать всего на складе как карточку".  Попробуйте сами.
 
 ##  <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
-- Если вы подключаетесь к набору данных с помощью активного подключения или шлюза, [для этого набора данных следует включить функцию "Вопросы и ответы"](consumer/end-user-q-and-a-direct-query.md).
+- Если вы подключаетесь к набору данных с помощью активного подключения или шлюза, [для этого набора данных следует включить функцию "Вопросы и ответы"](service-q-and-a-direct-query.md).
 
 - Иногда эта функция не отображается в открытом отчете. Если вы используете службу Power BI, нужно открывать отчет в режиме редактирования. Если режим редактирования открыть не удается, значит у вас нет разрешений на изменение этого отчета и вы не сможете использовать в нем функцию "Вопросы и ответы".
 
@@ -107,5 +107,5 @@ ms.locfileid: "47187152"
 [Учебник. Использование компонента "Вопросы и ответы" Power BI с примером анализа розничной торговли](power-bi-visualization-introduction-to-q-and-a.md)   
 [Советы по запросам в функцию "Вопросы и ответы" в Power BI](consumer/end-user-q-and-a-tips.md)   
 [Настройка данных для работы с функцией "Вопросы и ответы" в Power BI](service-prepare-data-for-q-and-a.md)  
-[Включение функции вопросов и ответов для активных подключений](consumer/end-user-q-and-a-direct-query.md)
+[Включение функции вопросов и ответов для активных подключений](service-q-and-a-direct-query.md)
 [Закрепление плитки на информационной панели из подсистемы вопросов и ответов](service-dashboard-pin-tile-from-q-and-a.md)

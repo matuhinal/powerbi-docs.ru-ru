@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908907"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641397"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Подключение к Microsoft Dynamics NAV с помощью Power BI
 С помощью Power BI выполнять анализ данных Microsoft Dynamics NAV стало проще. Power BI извлекает данные (по продажам и финансовые), затем создает приложение с панелью мониторинга и создает на основе этих данных отчеты. Для работы Power BI требуются разрешения для таблиц, из которых извлекаются данные (в этом случае — данные о продажах и финансовые данные). Дополнительные сведения о требованиях см. ниже. Установив приложение, вы можете просматривать отчеты и панели мониторинга в службе Power BI ([https://powerbi.com](https://powerbi.com)) и мобильных приложениях Power BI. 
@@ -29,7 +29,7 @@ ms.locfileid: "48908907"
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. При появлении запроса введите URL-адрес OData Microsoft Dynamics NAV. Этот URL-адрес должен соответствовать следующему шаблону:
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * "instance.navserver.com" замените на имя вашего сервера NAV.
    * "DynamicsNAV90\_Instance1" замените на имя экземпляра сервера NAV.
@@ -72,7 +72,7 @@ Power BI использует веб-службы Microsoft Dynamics NAV для 
 
 * URL-адрес в точности соответствует этому формату:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * "instance.navserver.com" замените на имя вашего сервера NAV.
   * "DynamicsNAV90\_Instance1" замените на имя экземпляра сервера NAV.
@@ -92,11 +92,11 @@ Power BI использует веб-службы Microsoft Dynamics NAV для 
 
 * Убедитесь, что URL-адрес соответствует приведенному выше шаблону. Распространенной ошибкой будет указать следующее:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     Хотя вам нужно включить раздел Company('CRONUS%20International%20Ltd.') с именем вашей компании NAV:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Что из себя представляют приложения в Power BI?](service-create-distribute-apps.md)

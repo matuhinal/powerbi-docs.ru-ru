@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 10/16/2018
 ms.author: mihart
-ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545781"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396817"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Этот раздел посвящен *использованию* карты ArcGIS в службе Power BI Desktop или версии службы для мобильных устройств. Как только автор предоставит вам общий доступ к карте ArcGIS, у вас появится множество возможностей взаимодействия с ней.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании ESRI](../power-bi-visualization-arcgis.md).
@@ -57,7 +57,7 @@ ms.locfileid: "46545781"
 ## <a name="interacting-with-an-arcgis-map"></a>Взаимодействие с картой ArcGIS
 Набор доступных функций зависит от вашей роли: *автор* (вы создали карту) или *потребитель* (вам предоставили общий доступ к карте ArcGIS). При взаимодействии с картой ArcGIS в качестве потребителя (т. е. в [режиме чтения](../consumer/end-user-reading-view.md)) для пользователя доступны описанные ниже действия.
 
-* Как и для других типов визуализации, вы можете [закреплять на панелях мониторинга](../service-dashboard-pin-tile-from-report.md), [просматривать](../consumer/end-user-show-data.md) и (или) [экспортировать базовые данные](../consumer/end-user-export-data.md), а также использовать [режим фокусировки](../consumer/end-user-focus.md) и [полноэкранный режим](../service-fullscreen-mode.md).    
+* Как и для других типов визуализации, вы можете [закреплять на панелях мониторинга](../service-dashboard-pin-tile-from-report.md), [просматривать](../consumer/end-user-show-data.md) и (или) [экспортировать базовые данные](power-bi-visualization-export-data.md), а также использовать [режим фокусировки](../consumer/end-user-focus.md) и [полноэкранный режим](../service-fullscreen-mode.md).    
 * Разверните область **Фильтры**, чтобы применять фильтры при работе с картой. При закрытии отчета примененные фильтры не сохраняются.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Если карта содержит ссылочный слой, выберите расположения для отображения сведений в подсказке. Здесь мы выбрали округ Адамс и видим добавленный автором ссылочный слой с данными по среднестатистическому доходу населения.
