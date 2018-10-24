@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543956"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908247"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Совместная работа в рабочей области приложения Power BI
 Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Совместная работа не ограничивается рабочими областями в Power BI. В Office 365 доступны и другие службы групп, включая решения по совместному использованию файлов в OneDrive для бизнеса, общению в Exchange, а также общий календарь, задачи и т. д. Узнайте подробнее о [группах в Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -23,7 +23,7 @@ ms.locfileid: "46543956"
 > [!NOTE]
 > В предварительной версии нового интерфейса рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Вы не будете автоматически создавать группу Office 365 каждый раз при создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей (предварительная версия)](service-create-the-new-workspaces.md)
 
-Рабочие области приложений доступны только в [Power BI Pro](service-free-vs-pro.md).
+Рабочие области приложений доступны только по лицензии [Power BI Pro](service-features-license-type.md).
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>Совместная работа над файлами Power BI Desktop в рабочей области приложения
 Если после создания файла Power BI Desktop вы публикуете его в рабочей области приложения Power BI, все участники рабочей области могут совместно работать с ним.
@@ -77,7 +77,7 @@ ms.locfileid: "46543956"
 Владелец или администратор рабочей области приложения может добавлять или удалять участников рабочей области. Дополнительные сведения см. в статье [Управление группой в Power BI и Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md)
+* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 * Хотите оставить отзыв? Посетите [форум идей по улучшению Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547575"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908815"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью приложения в Power BI и Office 365
-Автор или администратор [рабочей области приложения в Power BI](consumer/end-user-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365. 
+Автор или администратор [рабочей области приложения в Power BI](service-create-distribute-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365. 
 
 > [!NOTE]
 > В предварительной версии нового интерфейса рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Вы не будете автоматически создавать группу Office 365 каждый раз при создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей (предварительная версия)](service-create-the-new-workspaces.md)
@@ -36,7 +36,7 @@ ms.locfileid: "46547575"
 * просматривать адрес электронной почты группы;
 * удалять группу.
 
-Лицензия [Power BI Pro](service-free-vs-pro.md) необходима для администратора или участника рабочей области приложения. Вашим пользователям приложения также требуется лицензия Power BI Pro, если только рабочая область приложения не хранится емкости Power BI Premium. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium.md)
+Лицензия [Power BI Pro](service-features-license-type.md) необходима для администратора или участника рабочей области приложения. Вашим пользователям приложения также требуется лицензия Power BI Pro, если только рабочая область приложения не хранится емкости Power BI Premium. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium.md)
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Изменение рабочей области приложения в Power BI
 1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие (**…**) рядом с именем рабочей области, а затем выберите **Изменить рабочую область**. 
@@ -76,7 +76,6 @@ ms.locfileid: "46547575"
 3. Выберите **Сохранить** или **Отменить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что из себя представляют приложения в Power BI?](consumer/end-user-apps.md)
-* [Публикация приложений с панелями мониторинга и отчетами в Power BI](consumer/end-user-create-apps.md)
+* [Публикация приложений с панелями мониторинга и отчетами в Power BI](service-create-distribute-apps.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

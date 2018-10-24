@@ -1,0 +1,189 @@
+items:
+- name: Power BI для потребителей
+  href: power-bi-consumer-landing.md
+- name: Служба Power BI
+  items:
+  - name: Обзор
+    items:
+    - name: Что такое потребитель Power BI?
+      href: end-user-consumer.md
+    - name: Основные понятия и терминология для потребителей Power BI
+      href: end-user-basic-concepts.md
+  - name: Краткие руководства
+    items:
+    - name: Навигация в службе Power BI
+      href: end-user-experience.md
+  - name: Учебники
+    items:
+    - name: Создание панели мониторинга оповещений
+      href: end-user-alerts.md
+  - name: Практическое руководство
+    items:
+    - name: Панели мониторинга
+      items:
+      - name: Панели мониторинга
+        href: end-user-dashboards.md
+      - name: Основные панели мониторинга
+        href: end-user-featured.md
+      - name: Плитки панели мониторинга
+        href: end-user-tiles.md
+      - name: Добавление комментария или начало беседы
+        href: end-user-comment.md
+    - name: Отчеты
+      items:
+      - name: Отчеты
+        href: end-user-reports.md
+      - name: Просмотр отчета
+        href: end-user-report-open.md
+      - name: Использование фильтров в отчете
+        href: end-user-report-filter.md
+      - name: Сведения о перекрестной фильтрации визуальных элементов в отчетах
+        href: end-user-interactions.md
+    - name: Визуализации
+      items:
+      - name: Что можно сделать с помощью визуализаций?
+        href: end-user-visualizations.md
+      - name: Детализация в визуализации в Power BI
+        href: end-user-drill.md
+      - name: Экспорт данных из визуализации
+        href: end-user-export-data.md
+    - name: Общие задачи
+      items:
+      - name: Различные способы увеличения масштаба содержимого с помощью фокуса и полноэкранного режима
+        href: end-user-focus.md
+      - name: Избранные панели мониторинга, отчеты и приложения в Power BI
+        href: end-user-favorite.md
+      - name: Печать панели мониторинга, плитки или страницы отчета
+        href: end-user-print.md
+      - name: Просмотр связанного содержимого
+        href: end-user-related.md
+      - name: Просмотр недавнего содержимого
+        href: end-user-recent.md
+      - name: Просмотр содержимого в контейнере "Мне предоставлен доступ"
+        href: end-user-shared-with-me.md
+      - name: Подписка на отчет или панель мониторинга
+        href: end-user-subscribe.md
+      - name: Поиск и сортировка содержимого в Power BI
+        href: end-user-search-sort.md
+      - name: Просмотр результатов автоматического анализа для плиток панели мониторинга
+        href: end-user-insights.md
+    - name: Получать данные
+      items:
+      - name: Установка и использование приложений
+        href: end-user-apps.md
+      - name: Подключение к службам
+        href: end-user-connect-to-services.md
+      - name: Поиск пакетов содержимого организации и подключение к ним
+        href: end-user-content-pack.md
+    - name: Задать вопросы о данных
+      items:
+      - name: Вопросы и ответы в Power BI
+        href: end-user-q-and-a.md
+      - name: Советы и рекомендации по формулировке вопросов в функции "Вопросы и ответы" в Power BI
+        href: end-user-q-and-a-tips.md
+  - name: Ресурсы
+    items:
+    - name: Глоссарий и терминология
+      href: end-user-glossary.md
+    - name: Поддерживаемые браузеры
+      href: end-user-browsers.md
+    - name: Типы быстрого анализа данных, поддерживаемые Power BI
+      href: end-user-insight-types.md
+- name: Мобильные приложения Power BI
+  items:
+  - name: Обзор
+    items:
+    - name: Что такое мобильные приложения?
+      href: mobile/mobile-apps-for-mobile-devices.md
+  - name: Краткие руководства
+    items:
+    - name: Изучение панелей мониторинга и отчетов
+      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+  - name: Учебники
+    items:
+    - name: Вопросы в мобильных приложениях iOS
+      href: mobile/tutorial-mobile-apps-ios-qna.md
+  - name: Основные понятия
+    items:
+    - name: Что нового в мобильных приложениях
+      href: mobile/mobile-whats-new-in-the-mobile-apps.md
+    - name: Получение реальных данных с помощью мобильных приложений
+      href: mobile/mobile-apps-data-in-real-world-context.md
+    - name: Просмотр данных в автономном режиме в мобильных приложениях
+      href: mobile/mobile-apps-offline-data.md
+    - name: Приложение Power BI для смешанной реальности (предварительная версия)
+      href: mobile/mobile-mixed-reality-app.md
+  - name: Практическое руководство
+    items:
+    - name: Все мобильные приложения
+      items:
+      - name: Общий доступ к панели мониторинга из мобильного приложения Power BI
+        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+      - name: Работа с плитками в мобильных приложениях
+        href: mobile/mobile-tiles-in-the-mobile-apps.md
+      - name: Избранное в мобильных приложениях
+        href: mobile/mobile-apps-favorites.md
+      - name: Настройка оповещений о данных в мобильных приложениях Power BI
+        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Получение уведомлений в мобильных приложениях Power BI
+        href: mobile/mobile-apps-notification-center.md
+      - name: Создание прямых ссылок на определенные расположения
+        href: mobile/mobile-apps-deep-link-specific-location.md
+      - name: Фильтрация отчета по расположению в мобильных приложениях Power BI
+        href: mobile/mobile-apps-geographic-filtering.md
+      - name: Панели мониторинга для мобильных приложений Power BI
+        href: mobile/mobile-apps-view-dashboard.md
+      - name: Отчеты в мобильных приложениях
+        href: mobile/mobile-reports-in-the-mobile-apps.md
+      - name: Подключение к Reporting Services с помощью OAuth
+        href: mobile/mobile-oauth-ssrs.md
+    - name: Устройства Android
+      items:
+      - name: Приступая к работе с приложением Android
+        href: mobile/mobile-android-app-get-started.md
+      - name: Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным)
+        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: Исправление ошибки "Need to update Android System Webview" (Необходимо обновить компонент Android System Webview)
+        href: mobile/mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: Начало работы с приложением для iOS
+        href: mobile/mobile-iphone-app-get-started.md
+      - name: Виртуальный аналитик "Вопросы и ответы" в мобильных приложениях iOS
+        href: mobile/mobile-apps-ios-qna.md
+      - name: Приложение Power BI для Apple Watch
+        href: mobile/mobile-apple-watch.md
+      - name: Сканирование штрихкода из приложения на iPhone
+        href: mobile/mobile-apps-scan-barcode-iphone.md
+    - name: iOS и Android
+      items:
+      - name: Просмотр локальных отчетов в мобильных приложениях
+        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Просмотр отчетов, оптимизированных для телефона
+        href: mobile/mobile-apps-view-phone-report.md
+      - name: Сканирование QR-кода Power BI с помощью телефона
+        href: mobile/mobile-apps-qr-code.md
+      - name: Добавление заметок и предоставление доступа в мобильных приложениях
+        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Приложение Power BI для устройств Windows 10
+      items:
+      - name: Приступая к работе с приложением Windows 10
+        href: mobile/mobile-windows-10-phone-app-get-started.md
+      - name: Закрепление панели мониторинга на начальном экране
+        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Просмотр мобильных отчетов и ключевых показателей эффективности Reporting Services
+        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Просмотр данных Power BI в Surface Hub
+        href: mobile/mobile-windows-10-app-presentation-mode.md
+      - name: Единый вход в приложении Windows
+        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+  - name: Ресурсы
+    items:
+    - name: Поддерживаемые языки в мобильных приложениях
+      href: mobile/mobile-apps-supported-languages.md
+ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112137"

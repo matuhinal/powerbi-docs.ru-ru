@@ -10,12 +10,12 @@ ms.date: 09/24/2018
 ms.author: maggies
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: d55e7256a1c994f31991778a44e8e24b1e3c2686
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 21b45d6b907378f9339328cfea1c17f0c73d91c2
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232887"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271631"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI для разработчиков отчетов
 
@@ -46,7 +46,7 @@ ms.locfileid: "48232887"
                                                                         <div class="cardText"> 
                                                                                       <h3>Лицензирование Power BI</h3> 
                                                                                       <p></p>
-                                                                                            <a href="service-admin-power-bi-pro-in-your-organization.md">Power BI Pro в вашей организации</a><br/> 
+                                                                                            <a href="service-admin-licensing-organization.md">Лицензирование Power BI в организации</a><br/> 
                                                                                             <a href="service-premium.md">Что такое Power BI Premium?</a> 
                                                                         </div> 
                                                           </div> 

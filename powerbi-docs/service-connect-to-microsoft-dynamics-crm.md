@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547069"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908838"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Подключение к Microsoft Dynamics CRM с помощью Power BI
-Microsoft Dynamics CRM Online для Power BI позволяет легко обращаться к данным и анализировать их. Power BI использует канал OData для создания описательной модели с необходимыми сущностями и мерами, такими как учетные записи, действия, возможности, продукты, интересы, пользователи и т. д. Установив приложение, вы можете просматривать отчеты и панели мониторинга в службе Power BI ([https://powerbi.com](https://powerbi.com)) и мобильных приложениях Power BI. 
+Microsoft Dynamics CRM Online для Power BI позволяет легко обращаться к данным и анализировать их. Power BI использует канал OData для создания описательной модели с необходимыми сущностями и мерами, такими как учетные записи, действия, возможности, продукты, интересы, пользователи и т. д. Установив приложение, вы можете просматривать отчеты и панели мониторинга в службе Power BI ([https://powerbi.com](https://powerbi.com)) и мобильных приложениях Power BI. 
 
 Подключитесь к Dynamics CRM Online [Sales Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-sales-manager) или [Service Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-customer-service). См. дополнительные сведения об [интеграции Dynamics CRM Online с Power BI](https://powerbi.microsoft.com/integrations/microsoft-dynamicscrm).
 
@@ -26,17 +26,16 @@ Microsoft Dynamics CRM Online для Power BI позволяет легко об
 
 ## <a name="how-to-connect"></a>Способы подключения
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. Выберите **Microsoft Dynamics CRM Sales Manager** или **Microsoft Dynamics CRM Service Manager** и нажмите кнопку **Подключиться**.
+3. Выберите **Microsoft Dynamics CRM Sales Manager** или **Microsoft Dynamics CRM Service Manager** и нажмите кнопку **Подключиться**.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Укажите URL-адрес службы, связанный с вашей учетной записью.  Это должен быть URL-адрес такого типа: `https://company.crm.dynamics.com`. Дополнительные сведения см. в разделе [ниже](#FindingParams).
+4. Укажите URL-адрес службы, связанный с вашей учетной записью.  Это должен быть URL-адрес такого типа: `https://company.crm.dynamics.com`. Дополнительные сведения см. в разделе [ниже](#FindingParams).
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. При появлении запроса укажите учетные данные (этот шаг можно пропустить, если вы уже выполнили вход в браузере). В качестве метода проверки подлинности введите **oAuth2** и нажмите кнопку **Вход**:
+5. При появлении запроса укажите учетные данные (этот шаг можно пропустить, если вы уже выполнили вход в браузере). В качестве метода проверки подлинности введите **oAuth2** и нажмите кнопку **Вход**:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. После подключения вы увидите панель мониторинга, настроенную для Sales Manager или Service Manager и заполненную вашими данными:
+6. После подключения вы увидите панель мониторинга, настроенную для Sales Manager или Service Manager и заполненную вашими данными:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ Microsoft Dynamics CRM Online для Power BI позволяет легко об
 ## <a name="whats-included"></a>Содержимое
 В разделах ниже описано, какие функции доступны для пользователей [Sales Manager](#Sales) и [Service Manager](#Service).
 
-Обратите внимание, что возможность доступа к тем или иным данным зависит от роли безопасности, назначенной пользователю Dynamics CRM Online.
+Возможность доступа к тем или иным данным зависит от роли безопасности, назначенной пользователю Dynamics CRM Online.
 
 Панель мониторинга и отчеты предназначены для формирования отчетов по операционной деятельности на ближайшую перспективу и ориентированы на рабочую группу или отдел. Каждый запрос возвращает до 100 000 записей из службы Dynamics CRM Online. В случае превышения этого ограничения из-за большого объема данных в вашей организации подготовка завершается сбоем, так как обновление данных из среды Dynamics CRM Online прерывается. Если ваша учетная запись содержит слишком много данных, попробуйте подключиться к ней из приложения Power BI Desktop и разработать решение с учетом ваших потребностей.
 
@@ -78,8 +77,8 @@ Microsoft Dynamics CRM Online для Power BI позволяет легко об
 
 | Объект CRM | Примененные фильтры |
 | --- | --- |
-| Account |Все клиенты, с которыми связаны возможные сделки и которые были изменены за последние 365 дней. |
-| Activity |Все мероприятия, измененные за последние 90 дней. <br> [modifiedon] > today - 90 days |
+| Учетная запись |Все клиенты, с которыми связаны возможные сделки и которые были изменены за последние 365 дней. |
+| Действие |Все мероприятия, измененные за последние 90 дней. <br> [modifiedon] > today - 90 days |
 | Business Unit |Все подразделения, которые не отключены. <br> [isdisabled] = false |
 | Lead |Все потенциальные клиенты, измененные за последние 180 дней. <br> [modifiedon] > today - 180 days |
 | Opportunity |Все возможные сделки, измененные за последние 365 дней. <br> [modifiedon] > today - 365 days |
@@ -154,7 +153,7 @@ Power BI поддерживает только конечные точки Dynam
 Если появится сообщение об ошибке "Data refresh failed as query exceeded the maximum limit of 100000 records" (Не удалось обновить данные, так как запрос превышает ограничение в 100 000 записей), попробуйте подключиться напрямую из Power BI Desktop или с помощью шаблона решения CRM.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что из себя представляют приложения в Power BI?](consumer/end-user-apps.md)
+* [Что из себя представляют приложения в Power BI?](service-create-distribute-apps.md)
 * [Получение данных в Power BI](service-get-data.md)
 * Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547644"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908166"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Знакомство с пакетами содержимого организации в Power BI
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.locfileid: "46547644"
 Информационные панели, отчеты и книги Excel доступны только для чтения, но вы можете копировать эти информационные панели и отчеты и использовать их в качестве основы для создания собственной персонализированной версии пакета содержимого.
 
 > [!NOTE]
-> Пакеты содержимого организации доступны, только если вы и ваши коллеги используете [Power BI Pro](service-free-vs-pro.md).
+> Пакеты содержимого организации доступны, только если вы и ваши коллеги приобрели лицензию [Power BI Pro](service-features-license-type.md).
 > 
 > 
 
@@ -52,7 +52,7 @@ ms.locfileid: "46547644"
 1. В Power BI Pro Наталья создает пакет содержимого и публикует его в маркетинговой группе рассылки. Параметры обновления наследуются вместе с набором данных и могут быть изменены только Натальей.
    
    > [!NOTE]
-   > Если Наталья создает пакет содержимого в [рабочей области приложения Power BI](consumer/end-user-create-apps.md), к которой она принадлежит, то даже если она покинет рабочую область, остальные участники рабочей области Power BI могут стать владельцами пакета.
+   > Если Наталья создает пакет содержимого в [рабочей области приложения Power BI](service-create-distribute-apps.md), к которой она принадлежит, то даже если она покинет рабочую область, остальные участники рабочей области Power BI могут стать владельцами пакета.
    > 
    > 
 2. Наталья отправляет в группу рассылки письмо, в котором сообщает о новом пакете содержимого.
@@ -76,7 +76,7 @@ ms.locfileid: "46547644"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание и публикация пакета содержимого организации](service-organizational-content-pack-create-and-publish.md)
-* [Создание и распространение приложения в Power BI](consumer/end-user-create-apps.md) 
+* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md) 
 * [Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

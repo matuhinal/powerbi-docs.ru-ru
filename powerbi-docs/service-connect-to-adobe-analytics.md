@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544631"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908585"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Подключение к Adobe Analytics с помощью Power BI
 Подключение к Adobe Analytics через Power BI начинается с подключения к учетной записи Adobe Analytics Marketing Cloud. Вы получите приложение с панелью мониторинга и набором отчетов Power BI, с помощью которых можно получить представление о трафике сайта и измерениях пользователей. Данные автоматически обновляются раз в день. Вы можете взаимодействовать с панелью мониторинга и отчетами, но не сохранять изменения.
@@ -25,26 +25,26 @@ ms.locfileid: "46544631"
 ## <a name="how-to-connect"></a>Способы подключения
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Выберите **Adobe Analytics** \> **Получить**.
+3. Выберите **Adobe Analytics** \> **Получить**.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. При подключении в Power BI указывается имя компании Adobe Analytics и идентификатор набора отчетов (а не имя набора отчетов). Сведения о том, как [найти эти параметры](#FindingParams), см. ниже.
+4. При подключении в Power BI указывается имя компании Adobe Analytics и идентификатор набора отчетов (а не имя набора отчетов). Сведения о том, как [найти эти параметры](#FindingParams), см. ниже.
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. В качестве **метода проверки подлинности** выберите **oAuth2** \> **Войти**. При появлении запроса введите учетные данные Adobe Analytics. 
+5. В качестве **метода проверки подлинности** выберите **oAuth2** \> **Войти**. При появлении запроса введите учетные данные Adobe Analytics. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. Нажмите кнопку **Принять** , чтобы предоставить Power BI доступ к данным Adobe Analytics.
+6. Нажмите кнопку **Принять** , чтобы предоставить Power BI доступ к данным Adobe Analytics.
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. После подтверждения процесс импорта начнется автоматически. 
+7. После подтверждения процесс импорта начнется автоматически. 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Просмотр панели мониторинга и отчетов Adobe Analytics
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Панель мониторинга Adobe Analytics](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,7 +82,7 @@ Power BI использует API отчетов Adobe Analytics для опре
 
 **ИД набора отчетов**
 
-Идентификатор набора создается при создании набора отчетов. Чтобы узнать значение идентификатора, можно обратиться к администратору. Обратите внимание, что это не имя набора отчетов.
+Идентификатор набора создается при создании набора отчетов. Чтобы узнать значение идентификатора, можно обратиться к администратору. Это не имя набора отчетов.
 
 Из [документации](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html) Adobe:
 
@@ -94,7 +94,7 @@ Power BI использует API отчетов Adobe Analytics для опре
 Если вы успешно прошли экран ввода учетных данных до того, как произошла ошибка, завершение обработки отчетов может выполняться слишком долго. Распространенное сообщение об ошибке имеет такой вид: *"Не удалось получить данные из отчета Adobe Analytics. Содержимое включало &quot;referrer, page&quot;, приблизительная продолжительность xx с."* Ознакомьтесь с разделом "Содержимое" и сравните размер с размером экземпляра Adobe. К сожалению, сейчас нет способа обойти это время ожидания. Однако мы рассматриваем возможность выпуска обновлений для улучшения поддержки крупных экземпляров. Оставьте отзыв для группы разработчиков Power BI на сайте https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что из себя представляют приложения в Power BI?](consumer/end-user-apps.md)
+* [Что из себя представляют приложения в Power BI?](service-create-distribute-apps.md)
 * [Получение данных в Power BI](service-get-data.md)
 * Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 
