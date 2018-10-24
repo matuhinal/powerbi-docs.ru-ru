@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417103"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336744"
 ---
 # <a name="power-bi-security"></a>Безопасность Power BI
 Чтобы получить подробное описание системы безопасности в Power BI, [загрузите технический документ по безопасности Power BI](http://go.microsoft.com/fwlink/?LinkId=829185).
@@ -58,4 +58,14 @@ ms.locfileid: "47417103"
 Как описано ранее в этой статье, серверы Active Directory используют имя пользователя для входа в Power BI для сопоставления учетных данных с UPN. При этом **важно** отметить, что пользователи несут ответственность за данные, к которым предоставляют доступ: если пользователь подключается к источникам данных, указав свои учетные данные, а затем на основе этих данных предоставляет общий доступ к отчету (информационной панели, набору данных и т. д.), соответствующие пользователи получают доступ к отчету без проверки подлинности со стороны оригинального источника данных.
 
 Исключение составляют подключения к **SQL Server Analysis Services** через **локальный шлюз данных**. Панели мониторинга сохраняются в кэше Power BI, но для доступа к исходным отчетам или наборам данных требуется проверка подлинности соответствующего пользователя. При этом доступ предоставляется, только если у пользователя есть надлежащие учетные данные для доступа к этим сведениям. Дополнительную информацию см. в разделе [Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md).
+
+## <a name="enforcing-tls-version-usage"></a>Принудительное использование версии TLS
+
+Администраторы сетей и ИТ-администраторы могут применить требование использовать текущую версию протокола TLS для любого защищенного обмена данных в своей сети. В Windows реализована [поддержка версий TLS в поставщике Microsoft Schannel](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
+
+Это требование может быть применено путем административной настройки разделов реестра. См. сведения об [управлении протоколами SSL в AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
+
+**Power BI Desktop** поддерживает описанные в этих статьях параметры разделов реестра, создавая подключения с только с помощью версий TLS, которые разрешены в этих параметрах.
+
+См. сведения о [параметрах раздела реестра, разрешающих версии TLS](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
 

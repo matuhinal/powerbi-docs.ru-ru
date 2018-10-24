@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907861"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112206"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
 *Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации могут создавать и распространять приложения с важной бизнес-информацией. [Внешние службы](end-user-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
@@ -34,13 +34,13 @@ ms.locfileid: "48907861"
 
 **На компьютере** 
 
-Если щелкнуть эту ссылку в письме, служба Power BI ([https://powerbi.com](https://powerbi.com)) откроется в браузере. Вы подтверждаете установку, после чего откроется целевая страница приложения.
+Перейдите по ссылке в сообщении электронной почты, чтобы открыть службу Power BI ([https://powerbi.com](https://powerbi.com)) в браузере. Подтвердите установку, после чего откроется целевая страница приложения.
 
 ![Целевая страница приложения в службе Power BI](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **На мобильном устройстве iOS или Android** 
 
-Если щелкнуть ссылку в письме на мобильном устройстве, приложение устанавливается автоматически и открывается список его содержимого в мобильном приложении. 
+Если щелкнуть ссылку в письме на мобильном устройстве, приложение установится автоматически, после чего в мобильном приложении откроется список его содержимого. 
 
 ![Список содержимого приложения на мобильном устройстве](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "48907861"
 1. Последовательно выберите **Приложения** !["Приложения" на панели навигации слева](./media/end-user-apps/power-bi-apps-bar.png) > **Get apps** (Получить приложения). 
    
      ![Значок Get apps (Получить приложения)](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. Вы можете выполнить поиск в AppSource в разделе **Моя организация**, чтобы сократить количество результатов и найти необходимое приложение.
+2. Выполните поиск в AppSource в разделе **Моя организация**, чтобы сократить количество результатов и найти необходимое приложение.
    
      ![AppSource в разделе My organization (Моя организация)](./media/end-user-apps/power-bi-appsource-my-org.png)
 3. Выберите **Получить**, чтобы добавить его на страницу "Приложения". 

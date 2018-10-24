@@ -1,5 +1,5 @@
 ---
-title: Извлечение данных из веб-страницы с помощью образца в Power BI Desktop (предварительная версия)
+title: Извлечение данных из веб-страницы с помощью образца в Power BI Desktop
 description: Извлечение данных из веб-страницы по предоставленному образцу требуемых данных
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290989"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336813"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Получение данных из веб-страницы по образцу (предварительная версия)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Получение данных из веб-страницы по образцу
 
 Функция получения данных из веб-страницы позволяет легко извлекать данные из веб-страниц и импортировать их в **Power BI Desktop**. Но данные на веб-страницах редко представлены в аккуратных и простых для расшифровки таблицах, и получение данных может оказаться сложной задачей, даже если сама страница выглядит хорошо структурированной и понятной. 
 
@@ -26,13 +26,6 @@ ms.locfileid: "34290989"
 ![Получение данных из Интернета по образцу](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>Включение функции получения данных из Интернета по образцу в режиме предварительной версии
-
-Компонент **Получение данных из Интернета по образцу** предоставляется в режиме предварительной версии, поэтому ее нужно отдельно включить в **Power BI Desktop**. Для этого поочередно выберите **Файл > Параметры и настройки > Параметры > Предварительная версия функций** и установите флажок **New from Web experience** (Новые возможности взаимодействия с Интернетом). После этого изменения приложение Power BI Desktop необходимо перезапустить.
-
-![Включение предварительной версии функции](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Включив предварительную версию функции, можно приступать к работе с ней. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Использование функции получения данных из Интернета по образцу
 

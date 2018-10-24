@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565873"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336859"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Использование срезов в Power BI Desktop
 
@@ -65,6 +65,12 @@ ms.locfileid: "46565873"
 Таким образом можно создать группу срезов для синхронизации. В поле приводится имя по умолчанию, но его можно изменить на любое другое. 
 
 Имя группы повышает гибкость работы со срезами. Вы можете создавать отдельные группы для синхронизации срезов с общим полем или поместить в одну группу срезы с разными полями. 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>Влияние фильтрации на выбор в срезах
+
+Если вы выбираете какой-то элемент в срезе, а затем применяете фильтр, который удаляет этот элемент, такой элемент останется в нижней части соответствующего списка в срезе. Если фильтр удаляется, функция выделения будет по-прежнему доступна в срезе. Если отменить выбор элемента в срезе, он исчезнет из списка.
+
+![Сохраненные выделенные элементы в срезах](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280209"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336928"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к данным **SAP Business Warehouse (BW)**.
 
 Сведения о том, какие преимущества могут получить клиенты SAP, подключив Power BI к своим системам SAP Business Warehouse (BW), см. в [этом документе](https://aka.ms/powerbiandsapbw). Сведения об использовании DirectQuery с SAP BW см. в статье [DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
-Начиная с выпуска **Power BI Desktop** за июнь 2018 года вы можете использовать соединитель SAP BW, в котором реализованы значительные улучшения в плане производительности и возможностей. Эта обновленная версия SAP BW была разработана корпорацией Майкрософт и называется **реализация 2.0**. Вы можете выбрать **соединитель SAP BW** версии 1 (v1) или **реализацию 2.0 соединителя SAP**. В следующих разделах по очереди описывается установка каждой версии. При подключении к SAP BW из Power BI Desktop можно выбрать один из соединителей.
+Начиная с выпуска **Power BI Desktop** за июнь 2018 года (и с выхода его общедоступной версии в октябре 2018 года) вы можете использовать соединитель SAP BW, в котором реализованы значительные улучшения в плане производительности и возможностей. Эта обновленная версия SAP BW была разработана корпорацией Майкрософт и называется **реализация 2.0**. Вы можете выбрать **соединитель SAP BW** версии 1 (v1) или **реализацию 2.0 соединителя SAP**. В следующих разделах по очереди описывается установка каждой версии. При подключении к SAP BW из Power BI Desktop можно выбрать один из соединителей.
 
 Мы рекомендуем по возможности использовать **реализацию 2.0 соединителя SAP**.
 
