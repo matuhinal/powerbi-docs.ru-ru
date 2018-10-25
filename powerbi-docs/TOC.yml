@@ -194,9 +194,9 @@ items:
       items:
       - name: Категоризация данных в Power BI Desktop
         href: desktop-data-categorization.md
-      - name: Добавление тегов для поля со штрихкодом в Power BI Desktop для мобильных приложений Power BI
+      - name: Пометка поля со штрихкодом для мобильных приложений
         href: desktop-mobile-barcodes.md
-      - name: Настройка географической фильтрации в Power BI Desktop для мобильных приложений Power BI
+      - name: Настройка геофильтрации для мобильных приложений
         href: desktop-mobile-geofiltering.md
       - name: Вычисляемые столбцы в Power BI Desktop
         href: desktop-calculated-columns.md
@@ -204,6 +204,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Меры в Power BI Desktop
         href: desktop-measures.md
+      - name: Изменение лингвистической схемы функции "Вопросы и ответы"
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: Импорт и отображение ключевых показателей эффективности (предварительная версия)
         href: desktop-import-and-display-kpis.md
     - name: Создавать отчеты
@@ -346,6 +348,8 @@ items:
     items:
     - name: Типы данных в Power BI Desktop
       href: desktop-data-types.md
+    - name: Сочетания клавиш редактора формул для Power BI Desktop
+      href: desktop-formula-editor.md
     - name: Уровни конфиденциальности Power BI Desktop
       href: desktop-privacy-levels.md
     - name: Расширение соединителей в Power BI
@@ -570,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Azure и Power BI
         href: service-azure-and-power-bi.md
+      - name: Исходящий трафик Power BI и Azure
+        href: service-azure-egress-power-bi.md
     - name: Обновление данных
       items:
       - name: Настройка запланированного обновления
@@ -630,19 +636,19 @@ items:
       items:
       - name: Создание нового отчета из существующего отчета
         href: power-bi-report-copy.md
-      - name: Добавление страницы в отчет Power BI
+      - name: Добавление страницы в отчет
         href: power-bi-report-add-page.md
-      - name: Добавление фильтра в отчет в Power BI
+      - name: Добавление фильтра в отчет
         href: power-bi-report-add-filter.md
       - name: Сохранение отчета в Power BI
         href: service-report-save.md
       - name: Создание нового отчета из набора данных
         href: service-report-create-new.md
-      - name: Взаимодействие с отчетом в режиме редактирования в Power BI
+      - name: Взаимодействие с отчетом в режиме правки
         href: service-interact-with-a-report-in-editing-view.md
       - name: Анализ в Excel
         href: service-analyze-in-excel.md
-      - name: Советы и рекомендации по созданию отчетов в службе Power BI
+      - name: Советы и рекомендации по созданию отчетов
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: Панель аналитики
         href: service-analytics-pane.md
@@ -650,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: Создание QR-кода для отчета
         href: service-create-qr-code-for-report.md
-      - name: Изменение порядка страниц отчета в Power BI
+      - name: Переупорядочивание страниц отчета
         href: service-report-reorder-pages.md
-      - name: Дублирование страницы отчета в Power BI
+      - name: Дублирование страницы отчета
         href: power-bi-report-copy-paste-page.md
-      - name: Экспорт отчета службы Power BI для использования в приложении Power BI Desktop (предварительная версия)
+      - name: Экспорт отчета из службы в Power BI Desktop (предварительная версия)
         href: service-export-to-pbix.md
-      - name: Фильтрация отчета с помощью параметров строки запроса в URL-адресе
+      - name: Фильтрация отчета с помощью параметров в URL-адресе
         href: service-url-filters.md
-      - name: Рекомендации по созданию быстрых и надежных отчетов в Power BI
+      - name: Рекомендации по созданию быстрых и надежных отчетов
         href: power-bi-reports-performance.md
-      - name: Взаимодействие с картами ArcGIS в Power BI
+      - name: Взаимодействие с картами ArcGIS
         href: visuals/power-bi-visualizations-arcgis.md
     - name: Задать вопросы о данных
       items:
       - name: Раздел вопросов и ответов поможет вам создать визуализации и отчеты
         href: power-bi-tutorial-q-and-a.md
-      - name: Настройка данных для работы с функцией "Вопросы и ответы" в Power BI
+      - name: Настройка данных для правильной работы с функцией "Вопросы и ответы".
         href: service-prepare-data-for-q-and-a.md
       - name: Включение Cortana для Power BI
         href: service-cortana-enable.md
-      - name: Создание избранных вопросов для функции вопросов и ответов Power BI
+      - name: Создание избранных вопросов для функции "Вопросы и ответы"
         href: service-q-and-a-create-featured-questions.md
       - name: Типы визуализаций в Power BI
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: Работа с лингвистической схемой в Power BI Desktop
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: Использование функции "Вопросы и ответы" для активных подключений
+        href: service-q-and-a-direct-query.md
     - name: Совместное использование работы
       items:
       - name: Как совместно работать и предоставлять общий доступ?
@@ -684,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: Создание и совместное использование приложений
         href: service-create-distribute-apps.md
-      - name: Установка и использование приложений
-        href: service-install-use-apps.md
       - name: Создание рабочих областей приложений
         href: service-create-workspaces.md
       - name: Создание рабочих областей (предварительная версия)
@@ -1094,8 +1098,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: Объединение локальных и облачных источников данных
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: Использование Kerberos для единого входа
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: Включение единого входа (SSO)
+      items:
+      - name: Единый вход (SSO) — обзор
+        href: service-gateway-sso-overview.md
+      - name: Единый вход (SSO) — Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: Единый вход (SSO) — SAML
+        href: service-gateway-sso-saml.md
     - name: Настройка параметров прокси-сервера
       href: service-gateway-proxy.md
     - name: Кластеры с высоким уровнем доступности для локальных шлюзов данных
@@ -1138,8 +1148,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Вопросы и ответы по Power BI Premium
         href: service-premium-faq.md
-      - name: Заметки о выпуске Power BI Premium
-        href: service-premium-release-notes.md
     - name: Роль администрирования в Office 365
       href: service-admin-role.md
     - name: Вопросы и ответы
@@ -1185,6 +1193,8 @@ items:
     - name: Командлеты Power BI для PowerShell
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: Справочник по URL-адресу службы
+      href: power-bi-whitelist-urls.md
   - name: Ресурсы
     items:
     - name: Подходы к развертыванию и управлению Power BI
@@ -1193,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Служба Power BI для Office 365 заменена на службу Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112260"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641995"
