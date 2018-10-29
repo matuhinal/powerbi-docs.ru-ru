@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380320"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641949"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 
@@ -40,7 +40,7 @@ ms.locfileid: "43380320"
             - Для настраиваемых визуальных элементов будет использоваться предыдущая версия, совместимая с текущей версией API сервера (если таковая доступна).
 
 - **Power BI Desktop (оптимизировано для решения "Сервер отчетов Power BI")**.
-    - *Версия: 2.61.5192.64 (август 2018 г.), дата выпуска: 15 августа 2018 г.*
+    - *Версия: 2.61.5192.641 (август 2018 г.), дата выпуска: 15 августа 2018 г.*
         - Содержит изменения, необходимые для подключения к серверу отчетов Power BI (август 2018 г.).         
         
 ## <a name="march-2018"></a>Март 2018 г.

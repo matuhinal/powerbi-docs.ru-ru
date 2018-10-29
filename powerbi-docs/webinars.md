@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137656"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473964"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,9 +22,7 @@ ms.locfileid: "37137656"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
-
->[Посетите предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Популярные вебинары
 
@@ -34,21 +32,29 @@ ms.locfileid: "37137656"
 <br>Автор: Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Рекомендации по использованию Power BI: советы и инструменты от владельцев PowerBI.Tips)
-<br>Авторы: Майк Карло (Mike Carlo) и Сет Бауэр (Seth Bauer)
-<br>[Смотреть сейчас](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **Принципы навигации по панели мониторинга Power BI за 20 минут**
 <br>Автор: Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Power BI от Майкрософт — упрощение финансового планирования и анализа**
+<br>Авторы: Кори Хрнсирик (Cory Hrncirik) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Визуализация данных Power BI: основные типы диаграмм и их использование**
+<br>Автор: Миранда Ли (Miranda Li)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI, Excel и Office 365: оптимизация данных предприятия**
+<br>Авторы: Олаф Хубель (Olaf Hubel) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **Simply Compelling — Tips for Better Visualization Design** (Привлекательный дизайн — советы по улучшению визуализации)
 <br>Автор: Миранда Ли (Miranda Li)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI).
-<br>Авторы: Карлос Отеро (Carlos Otero) и Мигель Мартинес (Miguel Martinez)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Рекомендации по использованию Power BI: советы и инструменты от владельцев PowerBI.Tips)
+<br>Авторы: Майк Карло (Mike Carlo) и Сет Бауэр (Seth Bauer)
+<br>[Смотреть сейчас](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[Просмотрите библиотеку вебинаров Power BI по запросу от экспертов нашего сообщества](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ ms.locfileid: "37137656"
 **How to Design Visually Stunning Power BI Reports** (Как создать визуально привлекательные отчеты в Power BI)
 <br>Автор: Чарльз Стерлинг (Charles Sterling)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI).
+<br>Авторы: Карлос Отеро (Carlos Otero) и Мигель Мартинес (Miguel Martinez)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **Дополнительные сведения о Power BI Embedded за 20 минут**
 <br>Авторы: Меган Ассарейн (Megan Asarrane) и Колин Мерфи (Colin Murphy)

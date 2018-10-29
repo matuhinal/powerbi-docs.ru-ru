@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908378"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641213"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -87,7 +87,7 @@ ms.locfileid: "48908378"
 
 Доступ к отчету в службе Power BI можно предоставить двумя способами. Если вы используете группу Office 365 для создания сайта группы SharePoint Online, укажите пользователя как участника **рабочей области приложения в службе Power BI** и на **странице SharePoint**. Теперь эти пользователи могут просматривать содержимое этой группы. Дополнительные сведения см. в статье [Создание и распространение приложения в Power BI](service-create-distribute-apps.md).
 
-Также пользователям можно предоставить доступ к отчету, выполнив следующие действия.
+Также пользователям можно предоставить доступ к отчету, выполнив приведенные ниже действия.
 
 1. Закрепите плитку из отчета на панели мониторинга.
 
@@ -147,6 +147,8 @@ ms.locfileid: "48908378"
 * Веб-часть Power BI недоступна в [национальных облаках](https://powerbi.microsoft.com/en-us/clouds/).
 
 * Классический сервер SharePoint Server не поддерживается с этой веб-частью.
+
+* [Фильтры URL-адресов](service-url-filters.md) не поддерживаются в веб-части SPO.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

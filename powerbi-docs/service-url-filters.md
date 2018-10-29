@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232933"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396964"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
@@ -169,7 +169,8 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * При использовании оператора *in* значением справа от *in* должен быть разделенный запятыми список, заключенный в круглые скобки.    
 * Сервер отчетов Power BI позволяет вам [передавать параметры отчета](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), включая их в его URL-адрес. Эти параметры URL-адреса не имеют никаких префиксов, так как они передаются непосредственно в подсистему обработки отчетов.
-* Фильтрация строки запроса не поддерживается при [веб-публикации](service-publish-to-web.md) и в Power BI Embedded.   
+* Фильтрация строки запроса не поддерживается при [веб-публикации](service-publish-to-web.md).
+* Фильтры URL-адреса не поддерживаются при [внедрении с помощью веб-части отчетов в SharePoint Online](service-embed-report-spo.md).
 * Из-за ограничений JavaScript тип данных long равен (2^53-1).
 * Фильтры URL-адреса могут содержать не более 10 выражений (10 фильтров, соединенных AND).
 

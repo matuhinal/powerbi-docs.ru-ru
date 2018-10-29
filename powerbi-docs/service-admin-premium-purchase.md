@@ -1,61 +1,69 @@
 ---
 title: Как купить Power BI Premium
-description: Узнайте, как управлять Power BI Premium и разрешить доступ к содержимому для всей организации.
+description: Узнайте, как приобрести Power BI Premium и разрешить доступ к содержимому для всей организации.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/17/2017
+ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: e2d2f0bd73d17d8d987dab9f3b3396bf7845d16e
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34297384"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641420"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
-Узнайте, как приобрести емкость Power BI Premium для организации.
+
+В этой статье приводятся сведения о том, как приобрести емкость Power BI Premium для организации. Емкость Power BI Premium можно приобрести в Центре администрирования Office 365, а [управление емкостями](service-admin-premium-manage.md) осуществляется на портале администрирования Power BI.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NkvYs5Qp4iA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Вы можете приобрести узел емкости Power BI Premium для своей организации в Центре администрирования Office 365. Вы можете также выбрать любое сочетание номеров SKU емкости Premium (P1–P3) в организации. Они предоставляют различные мощности ресурсов.
-
-Дополнительные сведения о Power BI Premium см. в разделе [Что такое Power BI Premium?](service-premium.md) Чтобы ознакомиться с текущими ценами на Power BI, посетите [страницу цен на Power BI](https://powerbi.microsoft.com/pricing/). Можно также планировать затраты на Power BI Premium с помощью [калькулятора Power BI Premium](https://powerbi.microsoft.com/calculator/).
+Дополнительные сведения о Power BI Premium см. в статье [Что такое Power BI Premium?](service-premium.md). Актуальные цены и сведения о планировании см. на [странице цен на Power BI](https://powerbi.microsoft.com/pricing/) и воспользуйтесь [калькулятором Power BI Premium](https://powerbi.microsoft.com/calculator/).
 
 > [!IMPORTANT]
-> Авторам содержимого все равно потребуется лицензия Power BI Pro, даже если вы приобрели Power BI Premium.
-> 
-> 
+> Авторам содержимого по-прежнему требуется лицензия Power BI Pro, даже если в организации используется Power BI Premium. Для организации необходимо приобрести по меньшей мере одну лицензию Power BI Pro.
+>
+>Если срок действия подписки Premium истекает, у вас есть 30 дней полного доступа к емкости. После этого ваше содержимое будет размещено в общей емкости. В общей емкости не поддерживаются модели, размер которых превышает 1 ГБ.
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Создание клиента с Power BI Premium P1
-Если у вас нет клиента и вы хотите создать его, вместе с ним можно приобрести Power BI Premium. По ссылке ниже представлены инструкции по созданию клиента с возможностью использования Office 365 и приобретения Power BI Premium. После создания клиента для пользователя требуется приобрести лицензию Power BI Pro. При создании клиента вам будут автоматически предоставлены права глобального администратора для этого клиента.
 
-Сведения о приобретении продукта см. в [предложении Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1).
+Если у вас нет клиента и вы хотите создать его, вместе с ним можно приобрести Power BI Premium. По ссылке ниже представлены инструкции по созданию клиента и предоставляется возможность приобрести Power BI Premium: [предложение Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1).
 
-![](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
+![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
+
+При создании клиента вам будет автоматически назначена роль глобального администратора Office 365 для этого клиента.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Приобретение емкости Power BI Premium для существующей организации
-Чтобы приобрести подписки и лицензии для существующей организации, необходимо быть ее глобальным администратором или администратором выставления счетов. Дополнительные сведения см. в разделе [Роли администраторов в Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
-Для приобретения емкости Premium необходимо будет сделать следующее.
+Чтобы приобрести подписки и лицензии для существующей организации, необходимо иметь роль глобального администратора Office 365 или администратора выставления счетов. Дополнительные сведения см. в разделе [Роли администраторов в Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
-1. В службе Power BI выберите **средство выбора приложений Office 365** > **Администратор**. Кроме того, можно перейти в Центр администрирования Office 365. Для этого перейдите в https://portal.office.com и выберите **Администратор**.
-   
-    ![](media/service-admin-premium-purchase/o365-app-picker.png)
-2. Выберите **Выставление счетов** > **Приобрести службы**.
-3. В разделе **Другие планы** найдите предложения Power BI Premium. В списке отобразятся предложения P1–P3, EM3 и P1 (ежемесячная подписка).
-4. Наведите указатель мыши на **многоточие (…)**, а затем выберите **Приобрести**.
-   
-    ![](media/service-admin-premium-purchase/premium-purchase.png)
-5. Следуйте инструкциям по приобретению.
+Чтобы приобрести емкости Premium, выполните следующие действия.
 
-Кроме того, по следующим ссылкам можно перейти непосредственно к покупке этих элементов. Дополнительные сведения об этих номерах SKU см. в разделе [Что такое Power BI Premium?](service-premium.md#premiumskus)
+1. В службе Power BI выберите средство выбора приложений Office 365, а затем **Администратор**.
 
-Чтобы приобрести номер SKU Power BI Premium, ***необходимо быть глобальным администратором или администратором выставления счетов*** в своем клиенте. Если вы не являетесь администратором, при выборе следующих ссылок произойдет ошибка.
+    ![Средство выбора приложений Office 365](media/service-admin-premium-purchase/o365-app-picker.png)
+
+    Кроме того, можно перейти в Центр администрирования Office 365. Для этого перейдите в https://portal.office.com и выберите **Администратор**.
+
+1. Выберите **Выставление счетов** > **Приобрести службы**.
+
+1. В разделе **Другие планы** найдите предложения Power BI Premium. В списке отобразятся предложения P1–P3, EM3 и P1 (ежемесячная подписка).
+
+1. Наведите указатель мыши на многоточие (**…**), а затем выберите **Приобрести**.
+
+    ![Приобрести](media/service-admin-premium-purchase/premium-purchase.png)
+
+1. Следуйте инструкциям по приобретению.
+
+Кроме того, по следующим ссылкам можно перейти непосредственно на страницу покупки этого номера SKU. Дополнительные сведения об этих номерах SKU см. в статье [Что такое Power BI Premium?](service-premium.md#premiumskus).
+
+> [!IMPORTANT]
+> Если вы не являетесь глобальным администратором Office 365 или администратором выставления счетов, при выборе следующих ссылок произойдет ошибка.
 
 | Прямые ссылки для покупки |
 | --- |
@@ -65,58 +73,58 @@ ms.locfileid: "34297384"
 | [SKU P2](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
 | [SKU P3](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
-После завершения покупки на экране "Приобретение служб" будет показано, что элемент приобретен и активен.
+После завершения покупки на странице **Приобретение служб** будет показано, что элемент приобретен и активен.
 
-![](media/service-admin-premium-purchase/premium-purchased.png)
+![Приобретена версия Power BI Premium](media/service-admin-premium-purchase/premium-purchased.png)
 
-Теперь вы можете управлять данной емкостью в центре администрирования Power BI. Дополнительные сведения см. в разделе [Управление Power BI Premium](service-admin-premium-manage.md).
+## <a name="purchase-additional-capacities"></a>Приобретение дополнительных емкостей
 
-## <a name="purchase-more-capacities"></a>Приобретение дополнительной емкости
-Если вы являетесь администратором, то в разделе **Параметры Premium** портала администрирования Power BI вы увидите кнопку **Приобрести дополнительно**. Если нажать ее, вы перейдете на портал Office 365. После входа в Центр администрирования Office 365 можно сделать следующее.
+Теперь, когда у вас есть емкость, по мере роста потребностей вы можете приобретать дополнительные емкости. Вы можете использовать любое сочетание номеров SKU емкости Premium (P1–P3) в организации. Разные номера SKU предоставляют различные мощности ресурсов.
 
-1. Выберите **Выставление счетов** > **Приобрести службы**.
-2. Найдите элемент Power BI Premium, для которого требуется приобрести дополнительную емкость, в разделе **Другие планы**.
-3. Наведите указатель мыши на **многоточие (…)**, а затем выберите **Change license quantity** (Изменить количество лицензий).
-   
-    ![](media/service-admin-premium-purchase/premium-purchase-more.png)
-4. Измените количество экземпляров для этого элемента. По завершении нажмите кнопку **Отправить**.
-   
+1. В Центре администрирования Office 365 выберите **Выставление счетов** > **Приобретение служб**.
+
+1. Найдите элемент Power BI Premium, для которого требуется приобрести дополнительную емкость, в разделе **Другие планы**.
+
+1. Наведите указатель мыши на **многоточие (…)**, а затем выберите **Change license quantity** (Изменить количество лицензий).
+
+    ![Изменить количество лицензий](media/service-admin-premium-purchase/premium-purchase-more.png)
+
+1. Измените количество экземпляров для этого элемента. По завершении нажмите кнопку **Отправить**.
+
    > [!IMPORTANT]
    > После нажатия кнопки **Отправить** будет выполнена оплата с кредитной карты, указанной в профиле.
-   > 
-   > 
 
 После этого на странице **Приобретение служб** отобразится текущее число экземпляров, находящихся в вашем распоряжении. На портале администрирования Power BI в разделе **Параметры емкости** доступные виртуальные ядра отражают новую приобретенную емкость.
 
 ![Доступные виртуальные ядра для емкости Power BI Premium](media/service-admin-premium-purchase/premium-capacities.png)
 
-Теперь вы можете управлять данной емкостью в центре администрирования Power BI. Дополнительные сведения см. в разделе [Управление Power BI Premium](service-admin-premium-manage.md).
-
 ## <a name="cancel-your-subscription"></a>Отмена подписки
+
 Вы можете отменить подписку в Центре администрирования Office 365. Чтобы отменить подписку Premium, выполните инструкции ниже.
 
-![](media/service-admin-premium-purchase/premium-cancel-subscription.png "Отмена подписки Premium")
+![Отменить подписку](media/service-admin-premium-purchase/premium-cancel-subscription.png)
 
 1. Перейдите в Центр администрирования Office 365.
-2. Выберите **Billing** (Выставление счетов)  >  **Subscriptions** (Подписки).
-3. Выберите в списке подписку Power BI Premium.
-4. В раскрывающемся списке **More actions** (Дополнительные действия), выберите команду **Cancel subscription** (Отменить подписку).
-   
-    ![](media/service-admin-premium-purchase/o365-more-actions.png)
-5. На странице **Cancel subscription** (Отменить подписку) указано, будет ли взиматься [плата за досрочное завершение использования](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3). Кроме того, на этой странице можно узнать, когда будут удалены сведения подписки.
-6. Ознакомьтесь с представленной информацией и, если решите продолжить, выберите команду **Cancel subscription** (Отменить подписку).
+
+1. Выберите **Billing** (Выставление счетов)  >  **Subscriptions** (Подписки).
+
+1. Выберите в списке подписку Power BI Premium.
+
+1. В раскрывающемся списке **More actions** (Дополнительные действия), выберите команду **Cancel subscription** (Отменить подписку).
+
+    ![Дополнительные действия](media/service-admin-premium-purchase/o365-more-actions.png)
+
+1. На странице **Cancel subscription** (Отменить подписку) указано, будет ли взиматься [плата за досрочное завершение использования](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3). Кроме того, на этой странице можно узнать, когда будут удалены сведения подписки.
+
+1. Ознакомьтесь с представленной информацией и, если решите продолжить, выберите команду **Cancel subscription** (Отменить подписку).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Страница цен на Power BI](https://powerbi.microsoft.com/pricing/)  
-[Калькулятор Power BI Premium](https://powerbi.microsoft.com/calculator/)  
-[Что такое Power BI Premium?](service-premium.md)  
-[Управление Power BI Premium](service-admin-premium-manage.md)  
-[Вопросы и ответы по Power BI Premium](service-premium-faq.md)  
-[Заметки о выпуске Power BI Premium](service-premium-release-notes.md)  
-[Технический документ по Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
-[Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)  
-[Портал администрирования Power BI](service-admin-portal.md)  
-[Администрирование Power BI в организации](service-admin-administering-power-bi-in-your-organization.md)  
+
+[Страница цен на Power BI](https://powerbi.microsoft.com/pricing/)
+[Калькулятор Power BI Premium](https://powerbi.microsoft.com/calculator/)
+[Что такое Power BI Premium?](service-premium.md)
+[Вопросы и ответы по Power BI Premium](service-premium-faq.md)
+[Технический документ по Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
+[Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
-

@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565413"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473711"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Основные панели мониторинга в службе Power BI
 ## <a name="create-a-featured-dashboard"></a>Создание основной панели мониторинга
@@ -41,7 +41,7 @@ ms.locfileid: "46565413"
 
 
 1. Откройте информационную панель, которую необходимо задать как *основную*. 
-2. На верхней панели навигации вы увидите параметр **Set as featured** (Указать в качестве основной) или просто значок основной панели мониторинга![значок основной панели мониторинга](./media/end-user-featured/power-bi-featured-icon.png). Щелкните один из вариантов.
+2. В верхней строке меню вы увидите параметр **Set as featured** (Указать в качестве основной) или просто значок основной панели мониторинга![значок основной панели мониторинга](./media/end-user-featured/power-bi-featured-icon.png). Щелкните один из вариантов.
    
     ![Значок указания в качестве основной](./media/end-user-featured/power-bi-set-as-featured.png)
 3. Подтвердите выбор.

@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827463"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396872"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Руководство. Внедрение отчета, панели мониторинга или плитки Power BI в приложение для организации
 
@@ -158,13 +158,13 @@ ms.locfileid: "48827463"
 
     ![Пример приложения с данными, принадлежащими пользователю](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Откройте файл **Cloud.config** в примере приложения. Здесь есть несколько полей, которые нужно заполнить, чтобы запустить приложение: **ClientID** и **ClientSecret**.
+2. Откройте файл **Cloud.config** в примере приложения. Здесь есть несколько полей, которые нужно заполнить, чтобы запустить приложение: **ApplicationID** и **ApplicationSecret**.
 
     ![Файл Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Укажите в поле **ClientID** значение **идентификатора приложения** из Azure. Поле **ClientID** используется приложением для его идентификации пользователями, у которых запрашиваются разрешения.
+    Укажите в поле **ApplicationID** значение **идентификатора приложения** из Azure. Поле **ApplicationID** используется приложением для его идентификации пользователями, у которых запрашиваются разрешения.
 
-    Чтобы получить значение **ClientID**, сделайте следующее.
+    Чтобы получить значение **ApplicationID**, сделайте следующее.
 
     1. Войдите на [портал Azure](https://portal.azure.com).
 
@@ -174,17 +174,17 @@ ms.locfileid: "48827463"
 
         ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Выберите приложение, для которого нужно использовать **ClientID**.
+    1. Выберите приложение, для которого нужно использовать **ApplicationID**.
 
         ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Отобразится **идентификатор приложения**, указанный в поле идентификатора GUID. Поместите этот **идентификатор приложения** в поле **ClientID** приложения.
+    1. Отобразится **идентификатор приложения**, указанный в поле идентификатора GUID. Поместите этот **идентификатор приложения** в поле **ApplicationID** приложения.
 
-        ![ИД клиента](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Заполните сведения **ClientSecret** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.
+    1. Заполните сведения **ApplicationID** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.
 
-    1. Чтобы получить **ClientSecret**, сделайте следующее.
+    1. Чтобы получить значение **ApplicationSecret**, сделайте следующее.
 
         1. Войдите на [портал Azure](https://portal.azure.com).
 
@@ -194,7 +194,7 @@ ms.locfileid: "48827463"
 
             ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Выберите приложение, для которого нужно использовать **ClientSecret**.
+        1. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
 
             ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48910298"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435344"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Удаление содержимого в службе Power BI
 В этой статье показано, как удалять панели мониторинга, отчеты, книги, наборы данных, приложения, визуализации и рабочие области в службе Power BI.
@@ -129,7 +129,7 @@ ms.locfileid: "48910298"
 
    ![выбор страницы "Приложения"](media/service-delete/power-bi-delete-app.png)
 
-   Если вы случайно удалили приложение, его можно восстановить несколькими способами.  Например, вы можете попросить автора приложения повторно отправить его вам, найти письмо со ссылкой на это приложение, проверить наличие уведомления для приложения в [центре уведомлений](service-notification-center.md) или проверить [AppSource](service-install-use-apps.md) организации.
+   Если вы случайно удалили приложение, его можно восстановить несколькими способами.  Например, вы можете попросить автора приложения повторно отправить его вам, найти письмо со ссылкой на это приложение, проверить наличие уведомления для приложения в [центре уведомлений](service-notification-center.md) или проверить [AppSource организации](consumer/end-user-apps.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 В этой статье описаны способы удаления стандартных блоков службы Power BI. Но в Power BI можно удалить и другие элементы:  
