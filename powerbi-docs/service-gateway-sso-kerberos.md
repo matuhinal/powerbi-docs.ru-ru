@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0055994ee883fbdb508dfa304d063bc359dd5beb
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641627"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101630"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
@@ -61,7 +61,7 @@ ms.locfileid: "49641627"
 Чтобы включить **ограниченное делегирование Kerberos**, шлюз необходимо запускать как учетную запись домена, если служба Azure AD уже синхронизирована с локальным каталогом Active Directory (с помощью Azure AD DirSync или Connect). Если вам нужно переключиться на учетную запись домена, см. раздел [Переключение шлюза на учетную запись домена](#switching-the-gateway-to-a-domain-account) далее в этой статье.
 
 > [!NOTE]
-> Если настроены Azure AD DirSync или Connect и учетные записи синхронизированы, службе шлюза не требуется выполнять поиск в локальной службе AD на этапе выполнения. Для службы шлюза также можно использовать идентификатор безопасности локальной службы (вместо учетной записи домена). Этапы настройки ограниченного делегирования Kerberos, описанные в этой статье, будут аналогичными для такой конфигурации (они просто применяются к идентификатору безопасности службы, а не учетной записи домена).
+> Если настроены Azure AD DirSync или Connect и учетные записи синхронизированы, службе шлюза не требуется выполнять поиск в локальной службе AD на этапе выполнения. Для службы шлюза также можно использовать идентификатор безопасности локальной службы (вместо учетной записи домена). Этапы настройки ограниченного делегирования Kerberos, описанные в этой статье, будут аналогичными для такой конфигурации (они просто применяются к объекту компьютера службы в Active Directory, а не учетной записи домена).
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Предварительное требование 3. Получение прав администратора домена для настройки параметров ограниченного делегирования Kerberos и имен субъектов-служб (SetSPN)
 

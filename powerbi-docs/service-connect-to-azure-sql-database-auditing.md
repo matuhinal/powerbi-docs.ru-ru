@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f0c98d88ad9b87e57cf8f1cf7c36a58e30b684ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ce1769d343f5a5923b1a436a2cc0c97428f74152
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545367"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101142"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Пакет содержимого аудита базы данных SQL для Power BI
-Пакет содержимого [аудита базы данных SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) Azure для Power BI помогает поддерживать соответствие нормативным требованиям, лучше понимать происходящее в базах данных, а также выявлять расхождения и аномалии, которые могут указывать на проблемы в бизнесе или потенциальные нарушения безопасности. 
+Пакет содержимого [аудита базы данных SQL](/azure/sql-database/sql-database-auditing/) Azure для Power BI помогает поддерживать соответствие нормативным требованиям, лучше понимать происходящее в базах данных, а также выявлять расхождения и аномалии, которые могут указывать на проблемы в бизнесе или потенциальные нарушения безопасности. 
 
 Подключитесь к [пакету содержимого аудита базы данных SQL](https://app.powerbi.com/getdata/services/sql-db-auditing) для Power BI.
 

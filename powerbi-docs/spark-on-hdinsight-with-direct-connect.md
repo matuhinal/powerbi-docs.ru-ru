@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016176"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100756"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark на HDInsight с поддержкой DirectQuery
 
@@ -29,7 +29,7 @@ ms.locfileid: "48016176"
 > [!Important]
 > Мы улучшили параметры подключения к Spark.  Для наиболее эффективного подключения к источнику данных Spark используйте Power BI Desktop.  После создания модели и отчета их можно опубликовать в службе Power BI.  Прямое подключение к Spark в службе Power BI теперь признано нерекомендуемым.
 
-1. Выберите **Получить данные** в нижней части левой панели навигации.
+1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.
 
      ![](media/spark-on-hdinsight-with-direct-connect/spark-getdata.png)
 2. Щелкните **Базы данных и другое**.
@@ -58,7 +58,7 @@ ms.locfileid: "48016176"
 
 ## <a name="limitations"></a>Ограничения
 
-Эти ограничения и примечания могут быть изменены по мере улучшения службы. Дополнительную документацию можно найти в разделе [Использование средств бизнес-аналитики с Apache Spark в Azure HDInsight](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/).
+Эти ограничения и примечания могут быть изменены по мере улучшения службы. Дополнительную документацию можно найти в разделе [Использование средств бизнес-аналитики с Apache Spark в Azure HDInsight](/azure/hdinsight/spark/apache-spark-use-bi-tools/).
 
 * Служба Power BI поддерживает только конфигурации Spark 2.0 и HDInsight 3.5.
 * Каждое действие, например выбор столбца или добавление фильтра, отправляет запрос обратно в базу данных, поэтому перед выбором очень больших полей выберите соответствующий тип визуального элемента.
@@ -76,9 +76,9 @@ ms.locfileid: "48016176"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Начало работы. Создание кластера Apache Spark в HDInsight на платформе Linux и выполнение интерактивных запросов с помощью SQL Spark](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[Начало работы. Создание кластера Apache Spark в HDInsight на платформе Linux и выполнение интерактивных запросов с помощью SQL Spark](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Что такое Power BI?](power-bi-overview.md)  
 [Получение данных для Power BI](service-get-data.md)
-[Используйте Kerberos в локальном шлюзе для единого входа](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[Используйте Kerberos в локальном шлюзе для единого входа](service-gateway-sso-kerberos.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

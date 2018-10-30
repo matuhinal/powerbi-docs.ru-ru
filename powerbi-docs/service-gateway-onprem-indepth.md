@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921514"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101515"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Локальный шлюз данных во всех подробностях
 Пользователи организации могут обращаться к вашим локальным данным (для доступа к которым они уже прошли проверку подлинности). Но для подключения этих пользователей к локальным источникам данных необходимо установить и настроить локальный шлюз данных. Этот шлюз обеспечивает быстрый и безопасный двусторонний обмен информацией между пользователем в облачной среде и локальным источником данных.
@@ -52,7 +52,7 @@ ms.locfileid: "38921514"
 Реализация безопасности на основе ролей и динамической безопасности на уровне строк в моделях в этой статье не рассматривается.  Дополнительные сведения см. в статьях [Роли (табличные службы SSAS)](https://msdn.microsoft.com/library/hh213165.aspx) и [Роли безопасности (службы Analysis Services — многомерные данные)](https://msdn.microsoft.com/library/ms174840.aspx) в MSDN. Чтобы максимально полно разобраться в безопасности табличной модели, скачайте и прочтите технический документ [Безопасность в табличной семантической модели бизнес-аналитики](https://msdn.microsoft.com/library/jj127437.aspx).
 
 ## <a name="what-about-azure-active-directory"></a>Об Azure Active Directory
-В облачных службах Майкрософт для проверки подлинности пользователей применяется каталог [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/). Azure Active Directory — это клиент, содержащий имена пользователей и сведения о группах безопасности. Как правило, адрес электронной почты, с которым пользователь выполняет вход, совпадает с именем участника-пользователя учетной записи.
+В облачных службах Майкрософт для проверки подлинности пользователей применяется каталог [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis). Azure Active Directory — это клиент, содержащий имена пользователей и сведения о группах безопасности. Как правило, адрес электронной почты, с которым пользователь выполняет вход, совпадает с именем участника-пользователя учетной записи.
 
 Каковы функции локального каталога Active Directory?
 
@@ -78,7 +78,7 @@ ms.locfileid: "38921514"
 1. Вы можете вручную добавить учетные записи в Azure Active Directory.
    
    Вы можете создать на портале Azure или портале администрирования Office 365 учетную запись, имя которой будет совпадать с именем участника-пользователя учетной записи в локальном каталоге Active Directory.
-2. Вы можете синхронизировать локальные учетные записи со своим клиентом Azure Active Directory с помощью средства [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/).
+2. Вы можете синхронизировать локальные учетные записи со своим клиентом Azure Active Directory с помощью средства [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis).
    
    Средство Azure AD Connect предоставляет возможности синхронизации каталогов и настройки аутентификации, включая синхронизацию хэшей паролей, сквозную аутентификацию и федерацию. Если вы не являетесь администратором клиента или локального домена, для их настройки вам потребуется обратиться к своему ИТ-администратору.
 
@@ -90,7 +90,7 @@ ms.locfileid: "38921514"
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>Теперь в дело вступает шлюз.
-Шлюз выступает в качестве моста между облачной службой и локальным сервером. Передача данных между облаком и шлюзом защищена с помощью [служебной шины Azure](https://azure.microsoft.com/documentation/services/service-bus/). Служебная шина создает защищенный канал обмена информацией между облачной средой и локальным сервером через исходящее подключение на шлюзе.  Вам не потребуется настраивать на своем локальном брандмауэре возможность входящих соединений.
+Шлюз выступает в качестве моста между облачной службой и локальным сервером. Передача данных между облаком и шлюзом защищена с помощью [служебной шины Azure](/azure/service-bus-messaging/service-bus-messaging-overview). Служебная шина создает защищенный канал обмена информацией между облачной средой и локальным сервером через исходящее подключение на шлюзе.  Вам не потребуется настраивать на своем локальном брандмауэре возможность входящих соединений.
 
 Если у вас есть источник данных Analysis Services, необходимо установить шлюз на компьютере, присоединенном к тому же лесу или домену, что и сервер служб Analysis Services.
 
@@ -116,8 +116,10 @@ ms.locfileid: "38921514"
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
-[Служебная шина Azure](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Служебная шина Azure](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

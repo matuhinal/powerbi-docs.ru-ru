@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474033"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101653"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 
@@ -446,7 +446,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
 ## <a name="kerberos"></a>Kerberos
 
-Если основной сервер базы данных и локальный шлюз данных неправильно настроены для [ограниченного делегирования Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), включите [подробное ведение журнала](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) на шлюзе и проанализируйте ошибки или трассировки в файлах журналов шлюза, чтобы начать устранение неполадок.
+Если основной сервер базы данных и локальный шлюз данных неправильно настроены для [ограниченного делегирования Kerberos](service-gateway-sso-kerberos.md), включите [подробное ведение журнала](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) на шлюзе и проанализируйте ошибки или трассировки в файлах журналов шлюза, чтобы начать устранение неполадок.
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 
