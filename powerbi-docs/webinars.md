@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473964"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952241"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
 Зарегистрируйтесь для просмотра предстоящих вебинаров или просмотра по запросу записанных сеансов.
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
+
+**Power BI: проводим аналитику правильно**
+<br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
+<br>*8 ноября 2018 г. с 13:00:00 до 14:00 по восточному поясному времени*
+
+Советы от визионеров по использованию Analytics и Excel. Узнайте, как создавать привлекательные с точки зрения пользователей отчеты, делиться понятными и вызывающими интерес аналитическими сведениями и покончить с разрозненностью данных, чтобы сделать их доступными.
+
+Мы обсудим инновационные продукты и поделимся своим представлением о современной корпоративной бизнес-аналитике и самостоятельной бизнес-аналитике, чтобы помочь организации реализовать культуру принятия решений на основе данных.
+
+[Зарегистрироваться для просмотра 8 ноября](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Закрепление навыков моделирования данных с помощью Power BI**
+<br>Автор: Каспер де Йонге (Kasper de Jonge)
+<br>*20 ноября 2018 года с 11:00 до 12:00 по тихоокеанскому времени*
+
+Зарегистрируйтесь на этот вебинар, чтобы улучшить свои навыки и перейти на следующий уровень моделирования в Power BI. Сведения о подсистеме выполняющейся в памяти аналитики Power BI, стратегиях для создания связей данных и управления ими, а также об использовании контекста фильтра для выражений анализа данных (DAX). Узнайте, как преодолеть любые трудности с моделированием с помощью Power BI и Azure Analysis Services.
+
+[Зарегистрироваться для просмотра 20 ноября](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
