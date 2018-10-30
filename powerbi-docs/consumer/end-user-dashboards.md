@@ -1,5 +1,5 @@
 ---
-title: Что такое панель мониторинга Power BI
+title: Что такое панель мониторинга с точки зрения потребителей службы Power BI?
 description: Панели мониторинга — это главная особенность службы Power BI.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909137"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473941"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Панели мониторинга в службе Power BI
+# <a name="dashboards-for-power-bi-service-consumers"></a>Панели мониторинга с точки зрения потребителей службы Power BI
 
 ***Панель мониторинга*** Power BI — это отдельная страница (часто называется полотном), на которой данные отображаются в виде визуализаций. Будучи ограниченной одной страницей, продуманная панель мониторинга содержит самые важные фрагменты таких данных.
 

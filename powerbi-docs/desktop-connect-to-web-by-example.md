@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336813"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952218"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Получение данных из веб-страницы по образцу
 
@@ -51,6 +51,8 @@ ms.locfileid: "49336813"
 В нашем примере мы извлекаем *имя* и *цену* для каждой игры на странице. Достаточно указать для каждого столбца пару примеров значений, представленных на странице, как показано на следующем рисунке. Сразу после ввода этих образцов **Power Query** (это базовая технология, которая извлекает данные из веб-страниц) получает возможность извлечь данные, соответствующие шаблону, применяя интеллектуальные алгоритмы извлечения информации.
 
 ![Данные по образцу](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> Примечание. Предложения значений включают только значения, длина которых равна 128 символам или меньше.
 
 Если нас полностью устраивают данные, извлеченные из веб-страницы, нужно выбрать **ОК** для перехода к **редактору запросов**, где можно применить к данным дополнительные преобразования или обработку, например объединить их с другими источниками данных.
 

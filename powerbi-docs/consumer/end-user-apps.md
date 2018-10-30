@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112206"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473435"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
-*Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации могут создавать и распространять приложения с важной бизнес-информацией. [Внешние службы](end-user-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
+*Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации создают и распространяют приложения с важной бизнес-информацией. [Внешние службы](end-user-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
 
-![Приложения в Power BI](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Приложения в Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
 
-Вы можете легко находить и устанавливать приложения в службе Power BI ([https://powerbi.com](https://powerbi.com)) и на мобильном устройстве. Когда вы установите приложение, вам не нужно запоминать имена разных панелей мониторинга, так как все они находятся в приложении, в браузере или на мобильном устройстве.
+Приложения легко найти и установить в службе Power BI ([app.powerbi.com](https:app.powerbi.com)) и на мобильном устройстве. Когда вы установите приложение, вам не нужно запоминать имена разных панелей мониторинга, так как все они находятся в приложении, в браузере или на мобильном устройстве.
 
 В приложении все выпущенные автором обновления отображаются автоматически. Автор также контролирует график обновления данных, и вам не нужно беспокоиться об их актуальности. 
 
@@ -36,7 +36,7 @@ ms.locfileid: "49112206"
 
 Перейдите по ссылке в сообщении электронной почты, чтобы открыть службу Power BI ([https://powerbi.com](https://powerbi.com)) в браузере. Подтвердите установку, после чего откроется целевая страница приложения.
 
-![Целевая страница приложения в службе Power BI](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Целевая страница приложения в службе Power BI](./media/end-user-apps/power-bi-get-app.png)
 
 **На мобильном устройстве iOS или Android** 
 
@@ -56,12 +56,12 @@ ms.locfileid: "49112206"
 3. Выберите **Получить**, чтобы добавить его на страницу "Приложения". 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Взаимодействие с панелями мониторинга и отчетами в приложении
-Теперь вы можете просмотреть данные информационных панелей и отчетов в приложении. Вам доступны все стандартные возможности взаимодействия Power BI, такие как фильтрация, выделение, сортировка и детализация. Вы также можете [экспортировать данные в Excel](end-user-export-data.md) из таблицы или другого визуального элемента в отчете. Ознакомьтесь со [сведениями о взаимодействии с отчетами в Power BI](end-user-reading-view.md). 
+Теперь вы можете просмотреть данные информационных панелей и отчетов в приложении. Вам доступны все стандартные возможности взаимодействия Power BI, такие как фильтрация, выделение, сортировка и детализация. Ознакомьтесь со [сведениями о взаимодействии с отчетами в Power BI](end-user-reading-view.md). 
 
 ![Экспорт данных из визуальных элементов Power BI](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Приложения Power BI для внешних служб](end-user-connect-to-services.md)
+[Приложения Power BI для внешних служб](end-user-connect-to-services.md)
 

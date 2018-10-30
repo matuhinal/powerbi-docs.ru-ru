@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827440"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435495"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Руководство. Внедрение отчета, панели мониторинга или плитки Power BI в приложение для клиентов
 
@@ -36,7 +36,7 @@ ms.locfileid: "48827440"
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Настройка среды разработки для встроенной аналитики
 
-Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, внедрение необходимо настроить в вашей среде. В процессе настройки необходимо выполнить указанные ниже действия.
+Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, необходимо убедиться, что среда допускает внедрение с помощью Power BI.
 
 Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/AppOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета.
 
@@ -44,7 +44,7 @@ ms.locfileid: "48827440"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Регистрация приложения в Azure Active Directory
 
-Регистрация приложения в Azure Active Directory нужна для того, чтобы предоставить приложению доступ к REST API Power BI. Это позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
+Регистрация приложения в Azure Active Directory нужна для того, чтобы предоставить приложению доступ к REST API Power BI. Регистрация приложения позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
 
 1. Примите [условия использования API Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
 
@@ -63,7 +63,7 @@ ms.locfileid: "48827440"
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Предоставление разрешений для приложения в Azure AD
 
-Кроме разрешений, представленных на странице регистрации приложения, потребуется несколько дополнительных разрешений. Вам нужно войти в систему с помощью *главной* учетной записи, используемой для внедрения, или учетной записи глобального администратора.
+Помимо разрешений, представленных на странице регистрации приложения, включите несколько дополнительных разрешений. Войдите с помощью *главной* учетной записи, используемой для внедрения. Главная учетная запись должна быть учетной записью глобального администратора.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Использование портала Azure Active Directory
 
@@ -91,7 +91,7 @@ ms.locfileid: "48827440"
 
     ![Выбор служб PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. Установите все разрешения в разделе **Делегированные разрешения**. Их необходимо выбирать по одному. Это позволит сохранить настройки. После завершения щелкните **Сохранить**.
+7. Установите все разрешения в разделе **Делегированные разрешения**. После завершения щелкните **Сохранить**.
 
     ![Выбор делегированных разрешений](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -107,11 +107,11 @@ ms.locfileid: "48827440"
 
 Если вы планируете внедрить отчеты, панели мониторинга и (или) плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области этого приложения. *Главная* учетная запись должна предоставлять права администратора для рабочей области приложения.
 
-1. Начнем с создания рабочей области. Последовательно выберите **Рабочие области** > **Создать рабочую область приложения**. Именно здесь вы будете размещать содержимое, к которому нужен доступ из приложения.
+1. Начнем с создания рабочей области. Последовательно выберите **Рабочие области** > **Создать рабочую область приложения**. В рабочей области создания приложения разместите содержимое, к которому нужен доступ из приложения.
 
     ![Создание рабочей области](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. Присвойте рабочей области имя. Если соответствующее поле **Workspace ID** (Идентификатор рабочей области) недоступно, измените это имя, чтобы указать уникальный идентификатор. Он также должен стать именем приложения.
+2. Присвойте рабочей области имя. Если соответствующее поле **Workspace ID** (Идентификатор рабочей области) недоступно, измените это имя, чтобы указать уникальный идентификатор.
 
     ![Присвоение имени рабочей области](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,11 +161,11 @@ ms.locfileid: "48827440"
 
     ![Пример приложения с данными, принадлежащими приложению](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Откройте файл Web.config из этого примера приложения. Здесь есть пять полей, которые нужно заполнить, чтобы успешно запустить приложение. Это **clientId**, **groupId**, **reportId**, **pbiUsername** и **pbiPassword**.
+2. Откройте файл Web.config из этого примера приложения. Здесь есть пять полей, которые нужно заполнить, чтобы успешно запустить приложение. Это **applicationId**, **workspaceId**, **reportId**, **pbiUsername** и **pbiPassword**.
 
     ![Файл веб-конфигурации](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    Укажите в поле **clientId** значение **идентификатора приложения** из **Azure**. Поле **clientId** используется приложением для его идентификации для пользователей, у которых запрашиваются разрешения. Чтобы получить значение **clientId**, выполните следующие действия.
+    Укажите в поле **applicationId** значение **идентификатора приложения** из **Azure**. Поле **applicationId** используется приложением для его идентификации для пользователей, у которых запрашиваются разрешения. Чтобы получить значение **applicationId**, сделайте следующее.
 
     Войдите на [портал Azure](https://portal.azure.com).
 
@@ -175,17 +175,17 @@ ms.locfileid: "48827440"
 
     ![Поиск приложений для регистрации](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Выберите приложение, для которого вам нужно значение **clientId**.
+    Выберите приложение, для которого вам нужно значение **applicationId**.
 
     ![Выбор приложения](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    Отобразится **идентификатор приложения**, указанный в поле идентификатора GUID. Поместите этот **идентификатор приложения** в поле **clientId** для приложения.
+    Отобразится **идентификатор приложения**, указанный в поле идентификатора GUID. Используйте этот **идентификатор приложения** как значение параметра **applicationId** приложения.
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Укажите в поле **groupId** значение **GUID рабочей области приложения** из Power BI.
+    Укажите в поле **workspaceId** **GUID рабочей области приложения** из Power BI.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     Укажите в поле **reportId** значение **GUID отчета** из Power BI.
 
@@ -214,7 +214,7 @@ ms.locfileid: "48827440"
 
 Чтобы внедрять содержимое для клиентов в приложении, вам нужно получить **токен доступа** из **Azure AD** для главной учетной записи. Необходимо [получить маркер доступа Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI, использующего **данные, принадлежащие приложению**, прежде чем выполнять вызовы в [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
 
-Для создания клиента Power BI с помощью маркера **доступа** потребуется создать объекта клиента Power BI, что позволит вам работать с интерфейсами [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Для этого **AccessToken** упаковывается в объект ***Microsoft.Rest.TokenCredentials***.
+Для создания клиента Power BI с помощью **маркера доступа** потребуется создать объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Для этого **AccessToken** упаковывается в объект ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,8 +242,8 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,7 +339,7 @@ var embedConfig = new EmbedConfig()
 
 | Узел емкости | Общее число ядер<br/>*(серверная часть и интерфейс)* | Внутренние ядра | Интерфейсные ядра | Ограничения для подключений DirectQuery и активных подключений | Максимальное число страниц, отображаемых в часы максимальной нагрузки |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 виртуальное ядро |0,5 ядра, 3 ГБ ОЗУ |0,5 ядра | 5 в секунду |1–300 |
+| A1 |1 виртуальное ядро |0,5 ядра, 3 ГБ ОЗУ |0,5 ядра |0,5 в секунду |1–300 |
 | A2 |2 виртуальных ядра |1 ядро, 5 ГБ ОЗУ |1 ядро | 10 в секунду |301–600 |
 | A3 |4 виртуальных ядра |2 ядра, 10 ГБ ОЗУ |2 ядра | 15 в секунду |601–1200 |
 | A4 |8 виртуальных ядер |4 ядра, 25 ГБ ОЗУ |4 ядра |30 в секунду |1201–2400 |
