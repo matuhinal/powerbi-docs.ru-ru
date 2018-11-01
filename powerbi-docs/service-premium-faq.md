@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: fa68657d10de961a6c3a6c3491b0c17fb6d84051
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: da529c860037afe0d83f42209bda86d49222b83f
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641328"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252452"
 ---
 # <a name="power-bi-premium-faq"></a>Вопросы и ответы по Power BI Premium
 
@@ -49,7 +49,7 @@ Power BI Premium состоит из емкости в службе Power BI, м
 Да. Power BI Pro требуется для публикации отчетов, совместного использования панелей мониторинга, совместной работы с коллегами в рабочих областях и выполнения других действий. Power BI Pro не требуется для использования содержимого в емкости Premium.
 
 **Опишите, как Power BI Pro и Power BI Premium помогают реализовать современную бизнес-аналитику в организациях?**  
-Следующие примеры демонстрируют, как клиенты могут получить необходимую бизнес-аналитику с помощью сочетания Power BI Pro и Power BI Premium.
+Приведенные ниже примеры демонстрируют, как клиенты могут получить необходимые средства бизнес-аналитики с помощью Power BI Pro и Power BI Premium.
 
 | Сценарий 1 | Сценарий 2 | Сценарий 3 | Сценарий 4 |
 | --- | --- | --- | --- |
