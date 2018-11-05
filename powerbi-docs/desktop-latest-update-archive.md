@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337089"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101699"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -341,7 +341,7 @@ ms.locfileid: "49337089"
 
 ### <a name="reporting"></a>Отчеты
 
-* Подсказки для страницы отчета [[видео]](https://youtu.be/kuI6MMzDh34?t=16s) [[статья]]() [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* Подсказки страницы отчетов [[видео]](https://youtu.be/kuI6MMzDh34?t=16s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * Использование закладок реализовано в общедоступной версии [[видео]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[статья]](desktop-bookmarks.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * Отображение единиц измерения и управление точностью для столбцов таблицы и матрицы [[видео]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[статья]](desktop-slicer-numeric-range.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * Отключение заголовка визуального элемента в режиме чтения для отчета [[видео]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

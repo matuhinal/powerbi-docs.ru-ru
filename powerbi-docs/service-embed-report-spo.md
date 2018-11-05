@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641213"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100779"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -42,41 +42,38 @@ ms.locfileid: "49641213"
 2. Выберите пункт меню **Файл**.
 
 3. Выберите команду **Внедрить в SharePoint Online**.
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![Меню "Файл"](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. Скопируйте URL-адрес из диалогового окна.
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > Вы также можете использовать URL-адрес, который отображается в адресной строке веб-браузера при просмотре отчета. Этот URL-адрес содержит страницу отчета, которую вы сейчас просматриваете. Если вы хотите использовать другую страницу, удалите раздел report из URL-адреса.
+    ![Ссылка для внедрения](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Добавление отчета Power BI на страницу SharePoint Online
 
 1. Откройте нужную страницу в SharePoint Online и нажмите кнопку **Изменить**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![Изменение страницы в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     Или создайте новую современную страницу сайта, выбрав **+ Создать** в SharePoint Online.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![Новая страница в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. Щелкните значок **+** и выберите веб-часть **Power BI**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![Новая веб-часть в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
 3. Нажмите кнопку **Добавить отчет**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![Новый отчет в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. Вставьте URL-адрес отчета в область свойств. Это URL-адрес, скопированный на предыдущих этапах. Отчет загружается автоматически.
+4. Вставьте URL-адрес отчета в область свойств. В качестве URL-адреса отчета используется URL-адрес, скопированный на предыдущих этапах. Отчет загружается автоматически.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![Свойства новой веб-части в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. Нажмите кнопку **Опубликовать**, чтобы отчет стал видимым для пользователей SharePoint Online.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![Загруженный отчет в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>Предоставление доступа к отчетам
 
@@ -87,24 +84,12 @@ ms.locfileid: "49641213"
 
 Доступ к отчету в службе Power BI можно предоставить двумя способами. Если вы используете группу Office 365 для создания сайта группы SharePoint Online, укажите пользователя как участника **рабочей области приложения в службе Power BI** и на **странице SharePoint**. Теперь эти пользователи могут просматривать содержимое этой группы. Дополнительные сведения см. в статье [Создание и распространение приложения в Power BI](service-create-distribute-apps.md).
 
-Также пользователям можно предоставить доступ к отчету, выполнив приведенные ниже действия.
+Вы также можете опубликовать отчет напрямую для пользователей, внедрив его в приложение. Для внедрения отчета приложения должны быть установлены заранее. Предварительную установку приложения можно настроить с помощью функции **Автоматическая установка приложения**.
 
-1. Закрепите плитку из отчета на панели мониторинга.
+   ![Автоматическая установка приложения](media/service-embed-report-spo/install-app-automatically.png)
 
-2. Предоставьте доступ к панели мониторинга пользователям, которым требуется доступ к отчету. Дополнительные сведения см. в статье [Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md).
-
-## <a name="web-part-settings"></a>Настройки веб-части
-
-Ниже приведено описание параметров, которые можно изменять в веб-части Power BI для SharePoint Online.
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| Свойство | Описание |
-| --- | --- |
-| Имя страницы |Задает страницу по умолчанию, которую отображает веб-часть. Выберите значение в раскрывающемся списке. Если ни одна страница не отображается, отчет содержит одну страницу или вставленный URL-адрес содержит имя страницы. Удалите раздел report из URL-адреса, чтобы выбрать определенную страницу. |
-| Отображение |Параметр настройки размеров отчета на странице SharePoint Online. |
-| Отображение области навигации |Отображение или скрытие области навигации по страницам. |
-| Отображение области фильтров |Отображение или скрытие области фильтров. |
+> [!NOTE]
+> **Чтобы просматривать отчет на странице SharePoint, пользователю нужны права на доступ как к странице SharePoint, так и к самому отчету.**
 
 ## <a name="multi-factor-authentication"></a>Многофакторная проверка подлинности
 
@@ -113,13 +98,26 @@ ms.locfileid: "49641213"
 > [!NOTE]
 > Многофакторная идентификация еще не поддерживается в Azure Active Directory 2.0. Пользователи получат сообщение об *ошибке*. Если пользователь повторно войдет в SharePoint Online с помощью своего устройства безопасности, он сможет просматривать отчет.
 
+## <a name="web-part-settings"></a>Настройки веб-части
+
+Ниже приведено описание параметров, которые можно изменять в веб-части Power BI для SharePoint Online.
+
+![Свойства новой веб-части в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| Свойство | Описание |
+| --- | --- |
+| Имя страницы |Задает страницу по умолчанию, которую отображает веб-часть. Выберите значение в раскрывающемся списке. Если ни одна страница не отображается, отчет содержит одну страницу или вставленный URL-адрес содержит имя страницы. Удалите раздел report из URL-адреса, чтобы выбрать определенную страницу. |
+| Отображение |Параметр настройки размеров отчета на странице SharePoint Online. |
+| Отображение области навигации |Отображение или скрытие области навигации по страницам. |
+| Отображение области фильтров |Отображение или скрытие области фильтров. |
+
 ## <a name="reports-that-do-not-load"></a>Отчеты, которые не загружаются
 
 Отчет может не загружаться в веб-части Power BI. В этом случае отобразится следующее сообщение.
 
 *Это содержимое недоступно.*
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![Сообщение "Отчет не найден"](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 Это сообщение может появиться по двум причинам.
 
@@ -128,13 +126,17 @@ ms.locfileid: "49641213"
 
 Свяжитесь с владельцем страницы SharePoint Online, чтобы он помог устранить проблему.
 
+## <a name="licensing"></a>Лицензирование
+
+Пользователям, просматривающим отчет в SharePoint, нужна **лицензия Power BI Pro**, если содержимое не размещено в рабочей области **[емкости Power BI Premium (номера SKU: EM или P)](service-admin-premium-purchase.md)**.
+
 ## <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
 
-* Ошибка: "Произошла ошибка. Выйдите из системы и снова войдите, а затем вернитесь к этой странице. Идентификатор корреляции: не указано, состояние HTTP-ответа: 400, код ошибки сервера: 10001, сообщение: отсутствует токен обновления".
+* Ошибка: "Произошла ошибка. Выйдите из системы и снова войдите, а затем вернитесь к этой странице. Идентификатор корреляции: не указано, состояние HTTP-ответа: 400, код ошибки сервера: 10001, сообщение: отсутствует маркер обновления".
   
-  При появлении этой ошибки попробуйте выполнить одно из следующих действий.
+  Если возникает такая ошибка, попробуйте один из описанных ниже шагов по устранению неполадок.
   
-  1. Выйдите из SharePoint и войдите в службу снова. Перед повторным входом закройте все окна браузера.
+  1. Выйдите из SharePoint и войдите снова. Перед повторным входом закройте все окна браузера.
 
   2. Если учетной записи пользователя требуется многофакторная идентификация (MFA), выполните вход в SharePoint с устройства, поддерживающего многофакторную идентификацию (мобильное приложение, смарт-карта и т. д.)
   

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558454"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101492"
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
 
@@ -47,9 +47,9 @@ ms.locfileid: "45558454"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Скачать и установить локальный шлюз данных
 
-Чтобы скачать шлюз, выберите **Шлюз данных** в меню "Загрузки". Скачайте [локальный шлюз данных](http://go.microsoft.com/fwlink/?LinkID=820925). 
+Чтобы скачать шлюз, выберите **Шлюз данных** в меню "Загрузки". Скачайте [локальный шлюз данных](http://go.microsoft.com/fwlink/?LinkID=820925).
 
-Обратите внимание на то, что обновление локального шлюза данных производится путем его переустановки, как описано в этом разделе. При обновлении шлюза (путем переустановки) его текущие параметры сохраняются.
+Чтобы обновить шлюз, его необходимо установить повторно, как описано в этом разделе. Во время установки новой версии шлюза существующие параметры сохраняются. Установка той же версии воспринимается как полная переустановка, во время которой параметры не сохраняются.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

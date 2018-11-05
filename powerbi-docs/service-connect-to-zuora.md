@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546977"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003232"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Подключение к Zuora с помощью Power BI
 Zuora для Power BI позволяет визуализировать важные данные о доходах, выставлении счетов и подписках. Используйте панель мониторинга и отчеты по умолчанию для анализа тенденций использования, отслеживания отчетов и выплат, а также мониторинга постоянных доходов или их настройки в соответствии с уникальными требованиями к панели мониторинга и отчетам.
@@ -32,7 +32,7 @@ Zuora для Power BI позволяет визуализировать важн
 3. Выберите **Zuora** \> **Подключить**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Укажите URL-адрес Zuora. Обычно это "<https://www.zuora.com>". Сведения о том, как [найти эти параметры](#FindingParams), см. ниже.
+4. Укажите URL-адрес Zuora. Обычно это <https://www.zuora.com>. См. раздел [Поиск параметров](#FindingParams) ниже.
 
    ![](media/service-connect-to-zuora/params.png)
 5. В качестве значения параметра **Проверка подлинности**выберите **Обычная** , укажите имя пользователя и пароль (регистр учитывается), а затем щелкните **Вход**.
@@ -95,7 +95,6 @@ Zuora для Power BI позволяет визуализировать важн
 Укажите URL-адрес, который вы обычно используете для доступа к данным Zuora. Допустимые значения:  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * URL-адрес, соответствующий вашему экземпляру службы  
 
 ## <a name="troubleshooting"></a>Устранение неполадок

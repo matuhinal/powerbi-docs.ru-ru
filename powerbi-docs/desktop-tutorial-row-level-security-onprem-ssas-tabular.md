@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456141"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101584"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 В этом учебном руководстве описаны действия, необходимые для реализации **безопасности на уровне строк** в **табличной модели Analysis Services**, и показано, как использовать эти функции в отчете Power BI. Здесь приведены пошаговые инструкции, которые помогут вам познакомиться с последовательностью необходимых действий на примере набора данных.
@@ -72,6 +72,9 @@ ms.locfileid: "34456141"
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     В этой формуле функция **LOOKUPVALUE** возвращает все значения из столбца **DimUserSecurity[SalesTerritoryID]**, для которых **DimUserSecurity[UserName]** совпадает с именем текущего пользователя Windows, а параметр **DimUserSecurity[SalesTerritoryID]** совпадает с параметром **DimSalesTerritory[SalesTerritoryKey]**.
    
+    > [!IMPORTANT]
+    > Имейте в виду, что функция DAX [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) не поддерживается при использовании безопасности на уровне строк.
+
    Набор значений SalesTerritoryKey, возвращаемых функцией **LOOKUPVALUE**, используется для фильтрации списка строк, отображаемых в таблице **DimSalesTerritory**. В ней показаны только строки, в которых значение **SalesTerritoryKey** входит в набор идентификаторов, возвращенных функцией **LOOKUPVALUE**.
 8. Для таблицы **DimUserSecurity** в столбце **DAX Filter** введите следующую формулу:
    

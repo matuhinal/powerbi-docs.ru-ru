@@ -4,18 +4,18 @@ description: Общие сведения о Сервере отчетов Power 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294578"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101406"
 ---
 # <a name="what-is-power-bi-report-server"></a>Что такое Сервер отчетов Power BI?
 
@@ -28,6 +28,9 @@ ms.locfileid: "34294578"
 
 ## <a name="licensing-power-bi-report-server"></a>Лицензирование Сервера отчетов Power BI
 Сервер отчетов Power BI можно использовать с двумя разными лицензиями: [Power BI Premium](../service-premium.md) или [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) по программе Software Assurance. Лицензия Power BI Premium позволяет создавать гибридные развертывания, сочетающие облачные и локальные технологии.  
+
+> [!NOTE]
+> Для Power BI Premium Сервер отчетов Power BI доступен только в SKU серии P. Он не входит в SKU серии EM.
 
 ## <a name="web-portal"></a>Веб-портал
 Основной точкой взаимодействия с Сервером отчетов Power BI является защищенный веб-портал, который можно просматривать в любом современном браузере. Здесь вам доступны все отчеты и ключевые показатели эффективности. Содержимое веб-портала организовано в традиционную иерархию папок. Содержимое в этих папках группируется по следующим типам: отчеты Power BI, мобильные отчеты, отчеты с разбивкой на страницы, ключевые показатели эффективности и книги Excel, а также общие наборы данных и общие источники данных в качестве стандартных блоков для создания отчетов. Вы можете отмечать избранные элементы, чтобы просматривать их в отдельной папке. Можно также создавать ключевые показатели эффективности прямо на веб-портале. 
@@ -66,7 +69,7 @@ ms.locfileid: "34294578"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Установка сервера отчетов Power BI](install-report-server.md)  
-[Install Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder) (Установка построителя отчетов)  
+[Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 
