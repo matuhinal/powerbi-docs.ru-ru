@@ -2,6 +2,7 @@
 title: Общие сведения о визуализациях отчетов в службе Power BI и Power BI Desktop
 description: Сведения о визуализациях отчетов (визуальных элементах) в Microsoft Power BI.
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
@@ -9,16 +10,16 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: fedfbd8da9b0582c84224ef846cd0ba1c14d0683
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546172"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223244"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Визуализации в отчетах Power BI
+
 Визуализации (также называемые визуальными элементами) отображают сведения, обнаруженные в данных. Отчет Power BI может содержать одну страницу с одной визуализацией или большое количество и тех, и других. Служба Power BI позволяет [закрепить визуальные элементы из отчетов на панели мониторинга](../service-dashboard-pin-tile-from-report.md). 
 
 Здесь важно знать об отличиях между *создателями* и *потребителями* отчетов. Создателем считается тот, кто разрабатывает или изменяет отчет.  Создатели имеют разрешения на изменение отчета и базового набора данных. В Power BI Desktop это означает, что вы сможете открывать набор данных в режиме представления данных и создавать визуальные элементы в представлении отчета. В службе Power BI это означает возможность открывать набор данных или отчет в редакторе отчетов [в режиме редактирования](../consumer/end-user-reading-view.md). Если к отчету или панели мониторинга [вам предоставлен общий доступ ](../consumer/end-user-shared-with-me.md)другим лицом, вы считаетесь **потребителем** отчета. Вы сможете просматривать отчет и его визуальные элементы, а также взаимодействовать с ними, но не сможете сохранить изменения.
@@ -35,16 +36,21 @@ ms.locfileid: "46546172"
   Если вы недавно начали использовать Power BI или вам необходимо вспомнить ранее изученные сведения, используйте приведенные ниже ссылки для изучения основ визуализации Power BI.  Кроме того, воспользуйтесь содержанием (в левой части этой статьи), чтобы найти больше полезной информации.
 
 ## <a name="add-a-visualization-in-power-bi"></a>Добавление визуализации в Power BI
+
 [Создавайте визуализации](power-bi-report-add-visualizations-i.md) на страницах отчетов. Просматривайте [список доступных визуализаций и учебников по работе с визуализациями.](power-bi-visualization-types-for-reports-and-q-and-a.md) 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Отправка пользовательской визуализации и ее использование в Power BI
-Добавьте пользовательскую визуализацию, созданную вами или найденную на [сайте сообщества Майкрософт AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Чувствуете творческий порыв? Подробно изучите исходный код наших примеров и, используя [средства разработчика](../service-custom-visuals-getting-started-with-developer-tools.md), создайте новый тип визуализации и [поделитесь им с сообществом](../developer/office-store.md).
+
+Добавьте пользовательскую визуализацию, созданную вами или найденную на [сайте сообщества Майкрософт AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Чувствуете творческий порыв? Подробно изучите исходный код наших примеров и, используя [средства разработчика](../developer/custom-visual-develop-tutorial.md), создайте новый тип визуализации и [поделитесь им с сообществом](../developer/office-store.md).
 
 ## <a name="change-the-visualization-type"></a>Изменение типа визуализации
+
 Попробуйте [изменить тип визуализации](power-bi-report-change-visualization-type.md), чтобы выбрать наиболее эффективный способ отображения данных.
 
 ## <a name="pin-the-visualization"></a>Закрепление визуализации
+
 В службе Power BI готовую визуализацию можно [закрепить на панели мониторинга](../service-dashboard-pin-tile-from-report.md) в виде плитки. Если вы позже измените визуализацию, которая используется в отчете и закреплена, плитка на панели мониторинга не изменится. График всегда останется здесь графиком, даже если исходная визуализация в отчете станет кольцевой диаграммой.
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

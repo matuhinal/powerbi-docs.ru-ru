@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973593"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223175"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
@@ -29,7 +29,7 @@ Power BI отображает интерактивные панели монит
 | Внедрение панелей мониторинга, отчетов и плиток для пользователей Power BI и пользователей, не работающих с Power BI (данные принадлежат приложению) |[Как внедрять панели мониторинга, отчеты и плитки Power BI](embedding-content.md) |
 | Расширение существующего рабочего бизнес-процесса для принудительной отправки ключевых данных в панель мониторинга Power BI. |[Принудительная отправка данных на панель мониторинга](walkthrough-push-data.md) |
 | Аутентификация в Power BI. |[Аутентификация в Power BI](get-azuread-access-token.md) |
-| Создание настраиваемого визуального элемента. |[Создание пользовательского визуального элемента с помощью средств разработчика](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Создание настраиваемого визуального элемента. |[Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
 > В интерфейсах API Power BI рабочие области приложения по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями приложения.
@@ -72,7 +72,7 @@ Power BI отображает интерактивные панели монит
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
-[Создание пользовательского визуального элемента с помощью средств разработчика](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md)  
 [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
