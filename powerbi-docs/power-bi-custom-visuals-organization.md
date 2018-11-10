@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222089"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223106"
 ---
 # <a name="use-organizational-custom-visuals-in-power-bi"></a>Применение пользовательских визуальных элементов организации в Power BI
 
@@ -54,4 +54,12 @@ ms.locfileid: "50222089"
 
 * Визуальные элементы Visio, PowerApps и GlobeMap из магазина AppSource не будут отображаться, когда они развернуты в репозитории организации.
 
-См. [дополнительные сведения и ответы на вопросы](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+## <a name="troubleshoot"></a>Устранение неполадок
+
+Сведения об устранении неполадок: [Устранение неполадок с настраиваемыми визуальными элементами Power BI](power-bi-custom-visuals-troubleshoot.md).
+
+## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+
+Дополнительные сведения и ответы на вопросы: [Часто задаваемые вопросы о пользовательских визуальных элементах Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).

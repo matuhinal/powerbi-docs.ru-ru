@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
-ms.openlocfilehash: 34f34fd0a83367e306f8d84b4f9ebdf3cf30af93
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396780"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223060"
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -36,7 +36,7 @@ ms.locfileid: "49396780"
 | [Power BI и SAP BW](https://aka.ms/powerbiandsapbw)| Этот документ описывает, какую выгоду клиенты SAP могут извлечь, подключив Power BI к имеющимся у них системам SAP Business Warehouse (BW).| Февраль 2018 г. |
 | [Power BI Governance and Deployment Approaches](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) (Подходы к развертыванию и управлению Power BI) | Этот документ посвящен основным понятиям, возможностям и рекомендациям по управлению в экосистеме Power BI. | Март 2016 г. |
 | [Безопасность табличной семантической модели бизнес-аналитики](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |В этом документе рассматривается модель безопасности табличной семантики бизнес-аналитики и Power BI. Вы научитесь создавать роли, реализовывать динамическую безопасность, настраивать параметры олицетворения, управлять ролями и выбирать подходящий метод подключения к моделям в контексте безопасности вашей сети. | Апрель 2016 г. |
-| [Power BI и GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Эта ссылка ведет на список документов, включая технический документ по Microsoft Power BI GDPR, на портале Service Trust Portal. | Апрель 2018 г. |
+| [Power BI и GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Эта ссылка ведет на список технических документов на портале Service Trust Portal, включая документ по GDPR для Microsoft Power BI. | Апрель 2018 г. |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161033"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223267"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Руководство по добавлению параметров форматирования в пользовательские визуальные элементы Power BI
 
@@ -254,6 +254,10 @@ ms.locfileid: "50161033"
 
 8. Наведите указатель мыши на значок **Circle Card** и убедитесь, что отображается всплывающая подсказка.
 
+## <a name="debugging"></a>Отладка
+
+Советы по отладке настраиваемого визуального элемента см. в [руководстве по отладке](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/).
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Сведения о том, как опубликовать новый пользовательский визуальный элемент для других пользователей, см. в статье [Публикация настраиваемых визуальных элементов в AppSource](office-store.md).
+Вы можете сделать свои новые визуальные элементы доступными другим пользователям, отправив их в **AppSource**. Дополнительные сведения: [Публикация настраиваемых визуальных элементов в AppSource](office-store.md).

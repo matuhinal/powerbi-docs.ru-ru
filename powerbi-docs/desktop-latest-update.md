@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b2e73621fe974da97e3a766fa25110522b36448b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473412"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223290"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop
 
@@ -62,7 +62,7 @@ ms.locfileid: "49473412"
 * Общедоступная реализация версии 2 для соединителя SAP BW: [[видео]](https://youtu.be/MhrhIXNtelw?t=133) [[статья]](desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
 * Общедоступная версия соединителя SAP BW Message: [[видео]](https://youtu.be/MhrhIXNtelw?t=159) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
 * Общедоступная версия соединителя Vertica: [[видео]](https://youtu.be/MhrhIXNtelw?t=175) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
-* Общедоступные соединители Dynamics NAV и Dynamics 365 Buisness Central: [[видео]](https://youtu.be/MhrhIXNtelw?t=197) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
+* Общедоступные версии соединителей Dynamics NAV и Dynamics 365 Business Central: [[видео]](https://youtu.be/MhrhIXNtelw?t=197) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
 * Новый соединитель Dynamics 365 Business Central (on-premises) [[видео]](https://youtu.be/MhrhIXNtelw?t=219) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
 
 ### <a name="data-preparation"></a>Подготовка данных

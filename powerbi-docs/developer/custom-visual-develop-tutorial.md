@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161047"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223428"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Руководство по разработке пользовательского визуального элемента Power BI
 
@@ -39,6 +39,7 @@ ms.locfileid: "50161047"
 
 * Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/en-us/pricing/).
 * У вас должен быть установлен редактор [Visual Studio Code](https://www.visualstudio.com/).
+* Вам потребуется [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) версии 4 или более поздней для пользователей Windows либо [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
 
 ## <a name="setting-up-the-developer-environment"></a>Настройка среды разработки
 
@@ -69,6 +70,8 @@ ms.locfileid: "50161047"
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>Создание и установка сертификата
+
+#### <a name="windows"></a>Windows
 
 1. Чтобы создать сертификат, выполните следующую команду:
 
@@ -117,13 +120,32 @@ ms.locfileid: "50161047"
 > [!Important]
 > Не закрывайте сеанс Windows PowerShell.
 
+#### <a name="osx"></a>OSX
+
+1. Если в верхнем левом углу установлена блокировка, снимите ее. Найдите *localhost* и дважды щелкните сертификат.
+
+    ![Установка SSL-сертификата 1 на OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. Выберите пункт **Always Trust** (Всегда доверять) и закройте окно.
+
+    ![Установка SSL-сертификата 2 на OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. Введите имя пользователя и пароль. Нажмите кнопку **Обновить параметры**.
+
+    ![Установка SSL-сертификата 3 на OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. Закройте все открытые браузеры.
+
+> [!NOTE]
+> Если сертификат не удается распознать, может потребоваться перезагрузить компьютер.
+
 ## <a name="creating-a-custom-visual"></a>Создание пользовательского визуального элемента
 
 Итак, мы настроили среду и теперь можем приступать к созданию пользовательского визуального элемента.
 
 Полный исходный код для этого руководства доступен для [скачивания](https://github.com/Microsoft/PowerBI-visuals-circlecard).
 
-1. В Windows PowerShell убедитесь, что пакет визуальных средств для Power BI успешно установлен.
+1. Проверьте, что установлен пакет визуальных средств Power BI.
 
     ```powershell
     pbiviz
@@ -434,7 +456,7 @@ ms.locfileid: "50161047"
     pbiviz
     ```
 
-### <a name="toggle-auto-reload"></a>Включение автоматической перезагрузки
+### <a name="toggle-auto-reload"></a>Включить автоматическую перезагрузку
 
 1. Перейдите обратно к отчету Power BI.
 2. На панели инструментов над визуальным элементом разработчика выберите **Включить автоматическую перезагрузку**.
@@ -555,6 +577,10 @@ ms.locfileid: "50161047"
 Итак, вы настроили роли данных и привязали визуальный элемент к представлению данных.
 
 В следующем руководстве вы узнаете, как в пользовательский визуальный элемент добавить параметры форматирования.
+
+## <a name="debugging"></a>Отладка
+
+Советы по отладке настраиваемого визуального элемента см. в [руководстве по отладке](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

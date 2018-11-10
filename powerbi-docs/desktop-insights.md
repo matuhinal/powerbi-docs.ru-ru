@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280301"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909624"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Использование аналитических сведений в Power BI Desktop, чтобы объяснить рост и снижение в визуальных элементах (предварительная версия)
 
@@ -113,7 +113,6 @@ ms.locfileid: "39280301"
 * фильтры "Ведущие N";
 * фильтры включения и исключения;
 * фильтры мер;
-* неаддитивные меры и статистические выражения;
 * нечисловые меры.
 * Использование функции "Показать значение как"
 * Отфильтрованные меры — это расчеты на уровне визуального элемента с применением определенного фильтра (например, *Общий объем продаж для Франции*), которые используются в некоторых визуальных элементах, созданных функцией аналитических сведений

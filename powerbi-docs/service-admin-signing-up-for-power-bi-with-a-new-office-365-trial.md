@@ -7,43 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/05/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f601eb38a12142fee6fbe31fc4348158711f52
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641351"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736856"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Регистрация в Power BI с новой пробной версией Office 365
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Если у вас возникли проблемы при регистрации в Power BI с использованием рабочего адреса электронной почты, попытайтесь сначала зарегистрироваться в пробной версии Office 365, а затем зарегистрироваться в Power BI. Вы сможете использовать Power BI даже после истечения срока действия пробной версии Office 365.
-
-> [!NOTE]
-> В Office 365 и Power BI нельзя использовать личные адреса электронной почты, например @live.com или @gmail.com. Дополнительные сведения см. в разделе [Какой адрес электронной почты можно использовать с Power BI?](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi)
+В этой статье описывается альтернативный способ регистрации в Power BI с использованием бесплатной пробной версии Office 365. Если у вас возникли проблемы при регистрации в Power BI с использованием рабочего адреса электронной почты, убедитесь, что [этот адрес электронной почты можно использовать с Power BI](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi). В противном случае попробуйте сначала зарегистрировать бесплатную пробную версию Office 365 и затем зарегистрироваться в Power BI. Вы сможете использовать Power BI даже после истечения срока действия бесплатной пробной версии Office 365.
 
 1. Зарегистрируйтесь в пробной версии Office 365 [на веб-сайте Office 365](https://go.microsoft.com/fwlink/p/?LinkID=403802).
 
-1. По завершении процесса регистрации вам будет предоставлено новое имя для входа вида you@yourcompany.onmicrosoft.com.  Это будет знак-
+1. По завершении процесса регистрации вам будет предоставлено новое имя для входа (например, you@yourcompany.onmicrosoft.com). Оно будет использоваться при работе с Power BI.
 
-1. Зарегистрируйтесь в Power BI [с помощью этой ссылки](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1).  Если будет предложено, войдите с использованием имени и пароля, выбранных для Office 365 в шаге 1.
+1. Зарегистрируйтесь в Power BI [с помощью этой ссылки](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1). Если будет предложено, войдите с использованием имени и пароля, выбранных для Office 365 в предыдущем шаге.
 
-   > [!NOTE]
-   > Если вы уже вошли в Power BI или Office 365 с помощью корпоративного имени для входа, для входа в созданную учетную запись можно использовать сеанс InPrivate.
-
-1. Вот и все!  После завершения вы будете перенаправлены в Power BI.
+1. Вот и все! После завершения процесса вы будете перенаправлены в Power BI. Если у вас возникли проблемы со входом с помощью новой учетной записи, попробуйте использовать сеанс браузера в конфиденциальном режиме.
 
 ## <a name="important-considerations"></a>Важные замечания
 
-С помощью этого метода регистрации вы создаете клиент-организацию и становитесь администратором этого клиента. Вы можете добавлять в клиент новых пользователей, а затем предоставлять им общий доступ, как описано в [этом разделе справки](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
+С помощью этого метода регистрации вы создаете клиент-организацию и становитесь администратором этого клиента. См. дополнительные сведения об [администрировании Power BI](service-admin-administering-power-bi-in-your-organization.md). Вы можете добавлять в клиент новых пользователей, а затем предоставлять им общий доступ, как описано в [документации по администрированию Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Администрирование Power BI в организации](service-admin-administering-power-bi-in-your-organization.md)  
-[Что такое Power BI Premium?](service-premium.md)  
+[Что такое администрирование Power BI?](service-admin-administering-power-bi-in-your-organization.md)  
+[Лицензирование Power BI в организации](service-admin-licensing-organization.md)  
+[Регистрация учетной записи отдельного пользователя в Power BI](service-self-service-signup-for-power-bi.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
