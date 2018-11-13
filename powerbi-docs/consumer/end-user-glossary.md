@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 09/27/2018
+ms.date: 11/09/2018
 ms.author: mihart
-ms.openlocfilehash: 30c8d94d6f224175cb2bee4cc6e6e475fe352f60
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799263"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508021"
 ---
 # <a name="glossary-for-power-bi-service"></a>Глоссарий для службы Power BI
 В службе Power BI может использоваться незнакомая или непонятная терминология. Глоссарий — удобное место для поиска терминов; можно даже использовать закладки. Другой полезный ресурс для изучения стандартных блоков, входящих в состав службы Power BI — [Основные концепции](end-user-basic-concepts.md). В этой статье дается общий обзор *частей* Power BI, а также показывается, как они связаны.
@@ -158,7 +158,7 @@ ms.locfileid: "48799263"
 
 **list page** (страница списка) или **content list** (список содержимого). Одна из страниц раздела для элементов в левой панели навигации. Например, Favorites (Избранное), Recents (Последние), My workspace (Моя рабочая область) и т. п.
 
-## <a name="m"></a>Пн
+## <a name="m"></a>млн
 
 **measures** (меры). Настраиваемые вычисления, созданные в Power BI Desktop с помощью кода DAX или быстрых мер.
 
@@ -317,4 +317,4 @@ ms.locfileid: "48799263"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Основные концепции для пользователей службы Power BI](/consumers/end-user-basic-concepts.md)
+[Основные концепции для пользователей службы Power BI](end-user-basic-concepts.md)

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973639"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507940"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Просмотр отчетов в режиме презентации в Surface Hub и Windows 10 в Power BI
 Можно просматривать отчеты в режиме презентации в Surface Hub, а также информационные панели, отчеты и плитки в полноэкранном режиме на устройствах под управлением Windows 10. 
@@ -27,7 +27,7 @@ ms.locfileid: "45973639"
 
 При просмотре отчета в Surface Hub в режиме презентации на страницах можно использовать рукописный ввод различными цветами и переходить между страницами отчета.
 
-Кроме того, можно [отображать панели мониторинга и отчеты в полноэкранном режиме из службы Power BI](../../service-fullscreen-mode.md) в Интернете.
+Кроме того, можно [отображать панели мониторинга и отчеты в полноэкранном режиме из службы Power BI](../end-user-focus.md) в Интернете.
 
 > [!NOTE]
 > Режим презентации отличается от [режима фокусировки для плиток](mobile-tiles-in-the-mobile-apps.md).
@@ -74,6 +74,6 @@ ms.locfileid: "45973639"
 7. Чтобы выйти из полноэкранного режима, проведите пальцем сверху вниз и коснитесь двух направленных внутрь стрелок ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Отображение панелей мониторинга и отчетов в полноэкранном режиме (ТВ-режим)](../../service-fullscreen-mode.md)
+* [Отображение панелей мониторинга и отчетов в полноэкранном режиме (ТВ-режим)](../end-user-focus.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101492"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297143"
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
 
@@ -118,7 +118,7 @@ ms.locfileid: "50101492"
 [Управление своим источником данных — Oracle](service-gateway-onprem-manage-oracle.md)  
 [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Локальный шлюз данных во всех подробностях](service-gateway-onprem-indepth.md)  
-[Локальный шлюз данных (персональный режим) — новая версия личного шлюза](service-gateway-personal-mode.md)
+[Локальный шлюз данных (персональный режим) — новая версия личного шлюза](service-gateway-personal-mode.md)  
 [Настройка параметров прокси-сервера для локального шлюза данных](service-gateway-proxy.md)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

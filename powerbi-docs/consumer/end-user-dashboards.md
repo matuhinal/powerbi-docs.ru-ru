@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 4f65371d0f94c8336b9b6667bae32ef0bdfdf5e3
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473941"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507620"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Панели мониторинга с точки зрения потребителей службы Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "49473941"
 Визуализации, отображаемые на панели мониторинга, называются *плитками*. Они *закрепляются* на панели мониторинга из отчетов. Если вы недавно начали использовать службу Power BI, ознакомьтесь со статьей [Power BI — основные понятия](end-user-basic-concepts.md), где приведены базовые сведения.
 
 > [!NOTE]
-> Панели мониторинга — это компонент службы Power BI, который недоступен в службе Power BI Desktop. На мобильных устройствах невозможно создавать панели мониторинга, но можно их [просматривать и предоставлять для общего доступа](/mobile/mobile-apps-view-dashboard.md).
+> Панели мониторинга — это компонент службы Power BI, который недоступен в службе Power BI Desktop. На мобильных устройствах невозможно создавать панели мониторинга, но можно их [просматривать и предоставлять для общего доступа](mobile/mobile-apps-view-dashboard.md).
 > 
 > 
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564999"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507676"
 ---
 # <a name="printing-from-power-bi-service"></a>Печать из службы Power BI
 Печать всей панели мониторинга, плитки на панели мониторинга, страницы отчета или визуального элемента отчета из службы Power BI. Отчеты можно распечатывать только постранично, весь отчет сразу распечатать нельзя.
@@ -47,7 +47,7 @@ ms.locfileid: "46564999"
 1. [Откройте плитку в режиме фокусировки](end-user-focus.md), нажав кнопку с многоточием и выбрав значок фокусировки ![значок фокусировки](./media/end-user-print/power-bi-focus-icon.png).
    
     ![меню с многоточием](./media/end-user-print/menu-options.png)
-2. Откройте плитку в [полноэкранном режиме](../service-fullscreen-mode.md), щелкнув соответствующий значок ![значок полноэкранного режима](./media/end-user-print/power-bi-full-screen-icon.png) в верхней области навигации.
+2. Откройте плитку в [полноэкранном режиме](end-user-focus.md), щелкнув соответствующий значок ![значок полноэкранного режима](./media/end-user-print/power-bi-full-screen-icon.png) в верхней области навигации.
 3. Наведите указатель мыши на плитку, чтобы открыть меню "Параметры".
    
     ![меню параметров в полноэкранном режиме](./media/end-user-print/menu-options-new.png)

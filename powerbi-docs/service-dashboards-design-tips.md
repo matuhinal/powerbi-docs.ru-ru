@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544996"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507860"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Советы по созданию эффективной панели мониторинга Power BI
 Создав панель мониторинга и добавив некоторые плитки, подумаем о том, как сделать панель мониторинга не просто привлекательной, но и функциональной. Как правило, это означает вывод наиболее важных сведений на передний план в четком и лаконичном представлении.
@@ -43,7 +43,7 @@ ms.locfileid: "46544996"
 Не слишком ли запутана панель мониторинга?  Удалите все, кроме важных сведений, которые удобно читать и интерпретировать.
 
 ## <a name="make-use-of-full-screen-mode"></a>Использование полноэкранного режима
-Отображение панели мониторинга на [весь экран](service-fullscreen-mode.md) без отвлекающих моментов.
+Отображение панели мониторинга на [весь экран](consumer/end-user-focus.md) без отвлекающих моментов.
 
 ## <a name="make-the-most-important-information-biggest"></a>Выделите наиболее важные сведения.
 Если весь текст и визуализации на панели мониторинга имеют один и тот же размер, читателям будет сложно определить, что является самым важным. Например, визуализация карточки — это отличный способ отображения важных чисел:  
