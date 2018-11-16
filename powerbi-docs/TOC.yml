@@ -54,9 +54,11 @@ items:
     items:
     - name: Новые возможности в последнем обновлении Power BI Desktop
       href: desktop-latest-update.md
+    - name: Представление моделирования в Power BI Desktop (предварительная версия)
+      href: desktop-modeling-view.md
     - name: Агрегаты в Power BI Desktop (предварительная версия)
       href: desktop-aggregations.md
-    - name: Составные модели в Power BI Desktop (предварительная версия)
+    - name: Составные модели в Power BI Desktop
       href: desktop-composite-models.md
     - name: Связи "многие ко многим" в Power BI Desktop (предварительная версия)
       href: desktop-many-to-many-relationships.md
@@ -232,6 +234,8 @@ items:
         href: desktop-bookmarks.md
       - name: Использование функции "Тема отчета"
         href: desktop-report-themes.md
+      - name: Опробуйте новые возможности фильтрации
+        href: power-bi-report-filter-preview.md
       - name: Использование функции "Быстрая мера"
         href: desktop-quick-measures.md
       - name: Использование параметров What if
@@ -768,17 +772,17 @@ items:
       items:
       - name: Самостоятельная подготовка данных с помощью потоков данных (предварительная версия)
         href: service-dataflows-overview.md
-      - name: Создание и использование потоков данных
+      - name: Создание и использование потоков данных (предварительная версия)
         href: service-dataflows-create-use.md
-      - name: Вычисляемые сущности с Power BI Premium
+      - name: Вычисляемые сущности с Power BI Premium (предварительная версия)
         href: service-dataflows-computed-entities-premium.md
-      - name: Использование потоков данных с локальными источниками данных
+      - name: Использование потоков данных с локальными источниками данных (предварительная версия)
         href: service-dataflows-on-premises-gateways.md
       - name: Связывание сущностей из разных потоков данных (предварительная версия)
         href: service-dataflows-linked-entities.md
       - name: Использование добавочного обновления с помощью потоков данных (предварительная версия)
         href: service-dataflows-incremental-refresh.md
-      - name: Ресурсы для разработчиков потоков данных
+      - name: Ресурсы для разработчиков потоков данных (предварительная версия)
         href: service-dataflows-developer-resources.md
       - name: Подключение к потокам данных в Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -1249,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 89c0a22887d00b325abeddd193bbf71af97feb9f
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508067"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619669"
