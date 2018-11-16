@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329921"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619616"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Подключение к Azure Consumption Insights в Power BI Desktop (бета-версия)
 С помощью соединителя **Azure Consumption Insights** можно использовать **Power BI Desktop** для подключения к Azure и получения подробных данных и сведений об использовании служб Azure в организации. Можно также создавать меры, настраиваемые столбцы и визуальные элементы для формирования отчетов об использовании Azure в организации и предоставления доступа к ним. Этот выпуск соединителя **Azure Consumption Insights** является бета-версией, которая может быть изменена.
@@ -49,9 +49,20 @@ ms.locfileid: "39329921"
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-Когда вы введете *ключ доступа* и нажмете кнопку **Подключиться**, откроется окно **навигатора** с четырьмя таблицами: *Сводка*, *Использование*, *Прайс-лист* и *MarketPlace*. Чтобы просмотреть сведения, установите флажок возле соответствующей таблицы. Чтобы выбрать одну или несколько таблиц, установите флажок рядом с именем таблицы, а затем нажмите кнопку **Загрузить**.
+Когда вы введете *ключ доступа* и нажмете кнопку **Подключиться**, откроется окно **навигатора** с девятью таблицами: 
+* **Budgets**: сведения о бюджете для просмотра фактических расходов или данных об использовании относительно существующих целевых бюджетов. 
+* **MarketPlace**: данные о плате за использование, связанных с Azure Marketplace.
+* **PriceSheets**: применимые тарифы для каждой регистрации.
+* **RICharges**: данные об оплате, связанные с зарезервированными экземплярами, за последние 24 месяца.
+* **RIRecommendations_Single**: рекомендации по покупкам зарезервированных экземпляров на основе тенденций использования для одной подписки за последние 7, 30 или 60 дней.
+* **RIRecommendations_Shared**: рекомендации по покупкам зарезервированных экземпляров на основе тенденций использования для всех подписок за последние 7, 30 или 60 дней.
+* **RIUsage**: сведения о потреблении для существующих зарезервированных экземпляров за последний месяц.
+* **Summaries**: ежемесячная сводка по балансам, новым покупкам, расходам на службу Azure Marketplace, корректировок и плате за превышение использования.
+* **UsageDetails**: статистика израсходованных объемов и предполагаемых расходов для каждой регистрации.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+Чтобы просмотреть сведения, установите флажок возле соответствующей таблицы. Чтобы выбрать одну или несколько таблиц, установите флажок рядом с именем таблицы, а затем нажмите кнопку **Загрузить**.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > Таблицы *Сводка* и *Прайс-лист* доступны только для уровня регистрации ключа API. По умолчанию таблицы *Использование* и *Прайс-лист* содержат данные за текущий месяц. Данные в таблицах *Сводка* и *MarketPlace* не ограничены текущим месяцем.
@@ -152,7 +163,7 @@ Azure также включает коллекцию примеров польз
 | Consumed Quantity |consumedQuantity |Consumed Quantity |Нет |
 | Consumed Service |consumedService |Consumed Service |Нет |
 | ConsumedServiceId |consumedServiceId | |Да |
-| Cost |cost |Расширенные затраты |Нет |
+| Затраты |cost |Расширенные затраты |Нет |
 | Cost Center |costCenter |Cost Center |Нет |
 | Дата |дата |Дата |Нет |
 | День | |День |Нет |
