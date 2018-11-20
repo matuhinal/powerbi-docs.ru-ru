@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299638"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273317"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Вопросы и ответы о локальном шлюзе данных
 <!-- Shared FAQ shared Include -->
@@ -68,6 +68,9 @@ ms.locfileid: "34299638"
 
 **Вопрос.** Будет ли шлюз работать с ExpressRoute?  
 **Ответ.** Да. Дополнительные сведения об ExpressRoute и Power BI см. в разделе [Power BI и ExpressRoute](service-admin-power-bi-expressroute.md).
+
+**Вопрос.** Я использую скрипты R. Он поддерживается?
+**Ответ.** Скрипты R поддерживаются только в персональном режиме.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Локальный шлюз данных](service-gateway-onprem.md)  
