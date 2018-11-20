@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223060"
+ms.locfileid: "51266100"
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -22,6 +22,7 @@ ms.locfileid: "51223060"
 
 | Техническая документация | Описание | Дата |
 | --- | --- | --- |
+| [Power BI и потоки данных](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| В этом техническом документе содержатся технические сведения о потоках данных, а также описываются возможности и инициативы, на которых основаны возможности и функции потоков данных. | Ноябрь 2018 г. |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Описание Power BI Premium с момента выпуска и стратегии развития этого предложения. | Октябрь 2017 г. |
 | [Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Этот документ содержит инструкции и рекомендации по планированию и развертыванию емкости Premium для четко определенных рабочих нагрузок.| Ноябрь 2017 г. |
 | [How to plan capacity for embedded analytics with Power BI Premium](https://aka.ms/pbiewhitepaper) (Как планировать емкость для внедренной аналитики с помощью Power BI Premium) |В этом документе содержатся рекомендации для разработчиков приложений и независимых поставщиков программного обеспечения, которые помогут определить оптимальную емкость для их бизнеса. | Октябрь 2017 г. |

@@ -4,19 +4,18 @@ description: Использование карты ArcGis в режиме чте
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003278"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266031"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Этот раздел посвящен *использованию* карты ArcGIS в службе Power BI Desktop или версии службы для мобильных устройств. Как только автор предоставит вам общий доступ к карте ArcGIS, у вас появится множество возможностей взаимодействия с ней.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании ESRI](../power-bi-visualization-arcgis.md).
@@ -24,7 +23,7 @@ ms.locfileid: "50003278"
 Сочетание карт ArcGIS и Power BI — это больше, чем просто отображение точек на карте. Прекрасные информативные визуализации для карт можно создавать, используя базовые карты, типы расположения, темы, стили символов и ссылочные слои. Сочетание официальных слоев данных (например, данных переписи) на карте с пространственным анализом помогает лучше понять данные в визуализации.
 
 > [!TIP]
-> GIS — это наука о географической информации.
+> GIS расшифровывается как Geographic Information Systems (географические информационные системы).
 > 
 
 Для этого примера используется карта ArcGIS, созданная в [руководстве по использованию карт ArcGIS компании ESRI](../power-bi-visualization-arcgis.md). В ней представлены данные продаж по городам за предыдущий год. За основу взята базовая карта улиц, используются пузырьковые символы со значениями размера и ссылочный слой среднего дохода на семью. Предусмотрена возможность трех закреплений и одного расчета области для поездки на автомобиле за определенный период (фиолетовый участок).

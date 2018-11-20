@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101653"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580547"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 
@@ -103,17 +103,14 @@ ms.locfileid: "50101653"
 3. Установите шлюз снова.
 4. При необходимости восстановите существующий шлюз с помощью ключа восстановления.
 
-### <a name="support-for-tls-1112"></a>Поддержка протокола TLS 1.1 и 1.2
+## <a name="support-for-tls-12"></a>Поддержка протокола TLS 1.2
 
-Начиная с обновления за август 2017 г. локальный шлюз данных по умолчанию использует протокол TLS 1.1 или 1.2 для обмена данными со **службой Power BI**. В предыдущих версиях локального шлюза данных по умолчанию используется TLS 1.0. Необходимо обновить локальные шлюзы данных до версии за август 2017 г. или более поздней, чтобы обеспечить их работоспособность.
+Локальный шлюз данных по умолчанию использует протокол TLS 1.2 для обмена данными со службой Power BI. Чтобы при передаче всего трафика шлюза использовался протокол TLS 1.2, необходимо добавить или изменить следующие разделы реестра на компьютере, где запущена служба шлюза:
 
->[!NOTE]
->Поддержка TLS 1.0 прекращена с 1 ноября 2017 г.
-
-Обратите внимание, что до 1 ноября 2017 г. локальный шлюз данных будет поддерживать протокол TLS 1.0, используя его как резервный механизм. Чтобы при передаче всего трафика шлюза использовался протокол TLS 1.1 или 1.2 (и чтобы прекратить использование шлюзом TLS 1.0), необходимо добавить или изменить следующие разделы реестра на компьютере, где запущена служба шлюза.
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > При добавлении или изменении этих разделов реестра обновления распространяются на все приложения .NET. Сведения об изменениях реестра, которые влияют на использование TLS в других приложениях, см. в описании [параметров реестра для протокола TLS](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

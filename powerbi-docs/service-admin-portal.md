@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973265"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266123"
 ---
 # <a name="power-bi-admin-portal"></a>Портал администрирования Power BI
 
@@ -193,7 +193,7 @@ ms.locfileid: "50973265"
 
 ## <a name="content-pack-and-app-settings"></a>Пакет содержимого и параметры приложения
 
-### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Публиковать пакеты содержимого и приложения в пределах всей организации
+### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Публикация пакетов содержимого и приложений в пределах всей организации
 
 Пользователи в организации могут публиковать пакеты содержимого и приложения для всей организации, а не только для определенных групп. [Дополнительные сведения](service-organizational-content-pack-manage-update-delete.md)
 
@@ -201,7 +201,7 @@ ms.locfileid: "50973265"
 
 ![Публикация пакета содержимого в организации](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Создавать шаблонные пакеты содержимого и приложения организации
+### <a name="create-template-organizational-content-packs-and-apps"></a>Создание шаблонных пакетов содержимого и приложений организации
 
 Пользователи в организации могут создавать пакеты содержимого шаблонов, в которых используются наборы данных, созданные в Power BI Desktop. [Дополнительные сведения](template-content-pack-authoring.md)
 
@@ -296,6 +296,15 @@ ms.locfileid: "50973265"
 ### <a name="import-data-into-power-bi"></a>Импорт данных в Power BI
 
 Пользователи в организации могут импортировать данные в службу, например публиковать отчеты из Power BI Desktop, отправлять файлы отчетов Power BI и подключаться к данным непосредственно из службы. [Дополнительные сведения](desktop-upload-desktop-files.md)
+
+## <a name="dataflow-settings-preview"></a>Параметры потоков данных (предварительная версия)
+
+### <a name="create-and-use-dataflows-preview"></a>Создание и использование потоков данных (предварительная версия)
+
+Пользователи в организации могут создавать и использовать потоки данных. [Дополнительные сведения](service-dataflows-overview.md)
+
+> [!NOTE]
+> Этот параметр применяется ко всей организации и не ограничивается определенными группами.
 
 ## <a name="capacity-settings"></a>Параметры емкости
 

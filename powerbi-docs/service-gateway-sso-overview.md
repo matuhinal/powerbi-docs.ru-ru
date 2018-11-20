@@ -1,5 +1,5 @@
 ---
-title: Использование единого входа из Power BI в локальные источники данных
+title: Использование единого входа в локальные источники данных
 description: Настройте шлюз, чтобы включить единый вход (SSO) из Power BI в локальные источники данных.
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: c489ff0e1b764a6ee3dc026e8294132dc8f49025
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b728ba6ebaab81ea475f51b9134de34c37d4149b
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474582"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580501"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Общие сведения о едином входе (SSO) для шлюзов в Power BI
 
@@ -25,8 +25,10 @@ ms.locfileid: "49474582"
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) и [SAML](service-gateway-sso-saml.md))
+* SAP BW ([Kerberos](service-gateway-sso-kerberos.md)
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
+* Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
 Когда пользователь работает с отчетом DirectQuery в службе Power BI, каждая операция перекрестной фильтрации, среза, сортировки и редактирования отчета генерирует запросы, которые в режиме реального времени отправляются в основной источник данных в локальной среде.  Если для источника данных настроен единый вход, запросы выполняются с идентификатором пользователя, работающего в Power BI (то есть через веб-интерфейс или мобильные приложения Power BI). Таким образом, каждый пользователь может просмотреть данные, доступ к которым ему разрешен в основном источнике данных. Если настроен единый вход, общее кэширование данных разных пользователей не выполняется.
 
