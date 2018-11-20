@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548771"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679094"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Общий доступ к панели мониторинга Power BI, содержащей ссылки на файл Excel в OneDrive
 Power BI позволяет [подключаться к книгам Excel в OneDrive для бизнеса](service-excel-workbook-files.md) и закреплять плитки из таких книг на панелях мониторинга. При предоставлении совместного доступа к этой панели мониторинга или создании пакета содержимого, в состав которого входит эта панель, будут доступны приведенные ниже действия.
 
 * Ваши коллеги будут видеть плитки, даже если у них нет разрешений на просмотр соответствующих книг. Вы можете создать пакет содержимого и будете знать, что ваши коллеги смогут видеть плитки, созданные из книги Excel в OneDrive.
-* Щелчок плитки открывает соответствующую книгу в службе Power BI. Книга откроется, только если у вашего коллеги есть разрешение по меньшей мере на [чтение](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) книги в OneDrive для бизнеса.
+* Щелчок плитки открывает соответствующую книгу в службе Power BI. Книга откроется, только если у вашего коллеги есть разрешение по меньшей мере на [чтение](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) книги в OneDrive для бизнеса.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>Общий доступ к панели мониторинга, содержащей плитки книг
 Инструкции по предоставлению общего доступа к панели мониторинга, которая ссылается на книгу Excel в OneDrive для бизнеса, см. в статье [Предоставление общего доступа к панелям мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md). Отличие в том, что перед предоставлением общего доступа вы сможете изменить разрешения для соответствующей книги Excel.
@@ -30,7 +30,7 @@ Power BI позволяет [подключаться к книгам Excel в O
 
 1. Введите адреса электронной почты своих коллег.
 2. Чтобы разрешить коллегам просматривать книгу Excel в службе Power BI, щелкните ссылку **Перейти в OneDrive для бизнеса и настроить разрешения для книги**.
-3. В OneDrive [измените разрешения](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) так, как вам нужно.
+3. В OneDrive [измените разрешения](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) так, как вам нужно.
 4. Выберите **Общий доступ**.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Power BI позволяет [подключаться к книгам Excel в O
    
     ![Книга Excel в пакете содержимого](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. Щелкните ссылку **Перейти в OneDrive для бизнеса и настроить разрешения для книги**.
-4. В OneDrive [измените разрешения](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) так, как вам нужно.
+4. В OneDrive [измените разрешения](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) так, как вам нужно.
 5. Нажмите кнопку **Опубликовать**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Предоставление общего доступа к панели мониторинга из рабочей области Power BI

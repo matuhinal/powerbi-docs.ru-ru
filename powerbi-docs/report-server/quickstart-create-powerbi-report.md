@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564930"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679246"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -31,7 +31,7 @@ ms.locfileid: "46564930"
 
     ![Скачивание Power BI Desktop из веб-портала](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (август 2018 г.), оптимизированному для решения сервера отчетов Power BI, в Центре загрузки Майкрософт.
+    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (август 2018 г.), оптимизированному для решения сервера отчетов Power BI, в Центре загрузки Майкрософт.
 
 2. На странице Центра загрузки нажмите кнопку **Скачать**.
 

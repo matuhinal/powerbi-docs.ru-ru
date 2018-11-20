@@ -1,7 +1,7 @@
 ---
 title: Как создавать популярные вопросы для функции "Вопросы и ответы" в Power BI
 description: Документация о создании избранных вопросов для функции вопросов и ответов Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548242"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716948"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Создание избранных вопросов для функции вопросов и ответов Power BI
 Если у вас есть набор данных, вы можете добавить для него собственные избранные вопросы.  Функция "Вопросы и ответы" в Power BI покажет эти вопросы вашим коллегам, (*использующим*) набор данных.  Избранные вопросы дают вашим коллегам представление о типах вопросов, которые можно задавать о наборе данных. Вы сами определяете избранные вопросы — добавьте популярные вопросы, вопросы, дающие интересный результат, или вопросы, которые трудно выразить.

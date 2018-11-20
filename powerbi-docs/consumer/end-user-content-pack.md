@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507722"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679117"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Поиск пакета содержимого организации и подключение к нему
 
@@ -38,7 +38,7 @@ ms.locfileid: "51507722"
 ## <a name="connect-to-an-organizational-content-pack"></a>Подключение к пакету содержимого организации
 * Выберите **Получить сейчас**, чтобы подключиться к пакету содержимого и добавить его в активную рабочую область. Новые информационные панели, отчеты, книги Excel и наборы данных помечаются желтой звездочкой.
 
-Если в пакет содержимого входит книга Excel, может появиться предупреждение о том, что у вас нет разрешений на просмотр этой книги. Если это так, попросите владельца пакета содержимого [предоставить вам книгу для общего доступа в OneDrive для бизнеса](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
+Если в пакет содержимого входит книга Excel, может появиться предупреждение о том, что у вас нет разрешений на просмотр этой книги. Если это так, попросите владельца пакета содержимого [предоставить вам книгу для общего доступа в OneDrive для бизнеса](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 
 Пакет содержимого заблокирован. Вы можете [сохранить собственную копию панели мониторинга и отчетов](../service-organizational-content-pack-copy-refresh-access.md). 
 

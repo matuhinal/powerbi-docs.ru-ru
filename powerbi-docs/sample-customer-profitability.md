@@ -1,21 +1,21 @@
 ---
 title: 'Пример "Рентабельность клиента" для Power BI: обзор'
 description: 'Пример "Рентабельность клиента" для Power BI: обзор'
-author: amandacofsky
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fb06b83ca2fe949751337347c91b3947e115286d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944728"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717983"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: обзор
 
@@ -165,7 +165,7 @@ ms.locfileid: "36944728"
 
 2.  В верхней строке меню выберите **Задать вопрос**, чтобы открыть поле вопросов и ответов.
 
-    ![Задать вопрос о своих данных](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![Задать вопрос о данных](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Введите **total revenue by industry for Valery**(Общий доход по отрасли для Valery). Обратите внимание на обновление визуализации по мере ввода вопроса.
 

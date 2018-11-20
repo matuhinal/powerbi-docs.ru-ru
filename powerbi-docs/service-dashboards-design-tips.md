@@ -1,21 +1,21 @@
 ---
 title: Советы по созданию эффективной панели мониторинга Power BI
 description: Советы по созданию эффективной панели мониторинга Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 44f034f13c03ddc2c71f62053632003c3b5e6954
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507860"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717845"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Советы по созданию эффективной панели мониторинга Power BI
 Создав панель мониторинга и добавив некоторые плитки, подумаем о том, как сделать панель мониторинга не просто привлекательной, но и функциональной. Как правило, это означает вывод наиболее важных сведений на передний план в четком и лаконичном представлении.

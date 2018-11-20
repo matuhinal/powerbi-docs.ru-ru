@@ -1,7 +1,7 @@
 ---
 title: Создание панели мониторинга Power BI из отчета
 description: Создание панели мониторинга Power BI из отчета
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
-ms.author: mihart
-ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.author: maggies
+ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435371"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717431"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Создание панели мониторинга Power BI из отчета
 Вы прочитали раздел [Панели мониторинга в Power BI](service-dashboards.md) и хотите создать свои собственные информационные панели. Существует много разных способов создавать панели мониторинга, среди которых: создание из отчета, с нуля, из набора данных, с помощью дублирования существующей панели мониторинга и многое другое.  

@@ -1,21 +1,21 @@
 ---
 title: 'Создание нового отчета из набора данных '
 description: Создание отчета Power BI из набора данных.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7647cba750ea7369e84022f77f46299ae15c6554
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545850"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718052"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
 Вы ознакомились со статьей [Отчеты в Power BI](consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существует много различных способов создания отчетов. В этой статье мы создадим простой отчет из набора данных Excel, воспользовавшись службой Power BI. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами в разделе **Дальнейшие действия** ниже.  
@@ -34,7 +34,7 @@ ms.locfileid: "46545850"
    ![список рабочих областей приложений](media/service-report-create-new/power-bi-workspaces2.png)
 2. В нижней части панели навигации слева выберите **Получить данные**.
    
-   ![Получать данные](media/service-report-create-new/power-bi-get-data3.png)
+   ![Получение данных](media/service-report-create-new/power-bi-get-data3.png)
 3. Выберите **Файлы** и перейдите к расположению, в котором вы сохранили пример анализа розничной торговли.
    
     ![выбор пункта "Файлы"](media/service-report-create-new/power-bi-select-files.png)

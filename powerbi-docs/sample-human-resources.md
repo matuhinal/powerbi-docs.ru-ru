@@ -1,21 +1,21 @@
 ---
 title: Знакомство с примером "Управление персоналом"
 description: 'Пример "Управление персоналом" для Power BI: обзор'
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3c73476351671d9c37bea824b2ade0f7e79dd274
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37067248"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717879"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Пример "Управление персоналом" для Power BI: обзор
 

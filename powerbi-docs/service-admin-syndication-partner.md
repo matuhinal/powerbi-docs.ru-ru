@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909325"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157409"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Невозможно добавить Power BI к партнерской подписке на Office 365
 
@@ -23,7 +23,7 @@ Office 365 позволяет компаниям перепродавать па
 
 Если вы заинтересованы в приобретении Power BI вместе с подпиской Office 365, мы рекомендуем обратиться к своему партнеру. Если ваш партнер сейчас не предлагает Power BI, вы можете найти другие варианты.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Приобретение Power BI через партнера
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Приобретение Power BI через партнера
 
 Чтобы приобрести подписку на Power BI Pro и Power BI Premium, обратитесь к партнеру для выяснения доступных вам вариантов.
 
@@ -31,7 +31,7 @@ Office 365 позволяет компаниям перепродавать па
 
 * Ваш партнер может перевести вас на использование модели, в соответствии с которой вы можете приобрести Power BI непосредственно в корпорации Майкрософт или у другого партнера, предлагающего Power BI.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Приобретение у Майкрософт или через другой канал
+## <a name="purchase-from-microsoft-or-another-channel"></a>Приобретение у Майкрософт или через другой канал
 
 В зависимости от отношений с партнером вы можете приобрести Power BI непосредственно у корпорации Майкрософт или у другого партнера. Можете проверить, возможно ли добавить подписки Power BI на портале администрирования Office 365 (требуется членство в роли глобального администратора или администратора выставления счетов).
 

@@ -1,21 +1,21 @@
 ---
 title: Закрепление плитки с одной панели мониторинга на другой
 description: Закрепление плитки с одной панели мониторинга на другой
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545906"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717132"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Закрепление плитки с одной панели мониторинга на другой
 Один из способов добавления новой [плитки панели мониторинга](consumer/end-user-tiles.md) заключается в ее копировании с другой панели мониторинга. При щелчке каждая из этих плиток превращается в ссылку на исходное расположение — вопросы и ответы либо отчет. 

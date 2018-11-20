@@ -1,21 +1,21 @@
 ---
 title: Изменение лингвистической схемы функции "Вопросы и ответы" и добавление выражений в Power BI
 description: Сведения об изменении лингвистической схемы, используемой функцией "Вопросы и ответы" в Power BI, с помощью Power BI Desktop.
-author: willthom
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: mihart
+ms.reviewer: willthom
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d57ab76b97ea6b810169710553597e2e8a5d55f
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: ea11394c8b559b38f3c01fe339afac4ce3b0d863
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435426"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717960"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Изменение лингвистической схемы функции "Вопросы и ответы" и добавление выражений в Power BI Desktop 
 Эффективный обработчик позволяет задавать вопросы о данных с помощью обычных фраз и естественного языка. Еще больше впечатляет, когда от данных поступает ответ. Именно эту возможность предоставляет функция "Вопросы и ответы" в Power BI. Когда вы задаете вопрос функции "Вопросы и ответы" в Power BI, она пытается дать максимально правильный ответ. 
