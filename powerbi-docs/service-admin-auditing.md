@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973357"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850483"
 ---
 # <a name="using-auditing-within-your-organization"></a>Применение функции аудита в своей организации
 
@@ -114,7 +114,7 @@ ms.locfileid: "50973357"
 
 1. Выберите пункт **Save loaded results** (Сохранить загруженные результаты) или **Download all results** (Загрузить все результаты).
 
-    ![Экспортировать результатов](media/service-admin-auditing/export-auditing-results.png)
+    ![Экспортировать результаты](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Поиск в журналах аудита с помощью PowerShell
 
@@ -139,83 +139,100 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 С помощью Power BI можно выполнять аудит таких действий:
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* Импорт
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| Понятное имя                                     | Имя операции                              | Примечания                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Добавлен источник данных в шлюз Power BI             | AddDatasourceToGateway                      |                                          |
+| Добавлен доступ к папке Power BI                      | AddFolderAccess                             | Сейчас не используется                       |
+| Добавлены участники группы Power BI                      | AddGroupMembers                             |                                          |
+| Администратор подключил к клиенту учетную запись хранения для потоков данных | AdminAttachedDataflowStorageAccountToTenant | Сейчас не используется                       |
+| Анализируемый набор данных Power BI                         | AnalyzedByExternalApplication               |                                          |
+| Проанализирован отчет Power BI                          | AnalyzeInExcel                              |                                          |
+| привязка набора данных Power BI к шлюзу;                | BindToGateway                               |                                          |
+| Изменено состояние емкости                            | ChangeCapacityState                         |                                          |
+| Изменено назначение пользователей емкости                  | UpdateCapacityUsersAssignment               |                                          |
+| Изменены подключения к наборам данных Power BI              | SetAllConnections                           |                                          |
+| Изменение администраторов шлюза Power BI                   | ChangeGatewayAdministrators                 |                                          |
+| Изменен состав пользователей источника данных шлюза Power BI        | ChangeGatewayDatasourceUsers                |                                          |
+| Создан пакет содержимого организации Power BI      | CreateOrgApp                                |                                          |
+| Создано приложение Power BI                              | CreateApp                                   |                                          |
+| Создана панель мониторинга Power BI                        | CreateDashboard                             |                                          |
+| Создан поток данных Power BI                         | CreateDataflow                              |                                          |
+| Создан набор данных Power BI                          | CreateDataset                               |                                          |
+| Создана подписка на Power BI по электронной почте               | CreateEmailSubscription                     |                                          |
+| Создана папка Power BI                           | CreateFolder                                |                                          |
+| Создание шлюза Power BI                          | CreateGateway                               |                                          |
+| Создана группа Power BI                            | CreateGroup                                 |                                          |
+| Создан отчет Power BI                           | CreateReport                                |                                          |
+| Поток данных перенесен во внешнюю учетную запись хранения     | DataflowMigratedToExternalStorageAccount    | Сейчас не используется                       |
+| Добавлены разрешения для потока данных                        | DataflowPermissionsAdded                    | Сейчас не используется                       |
+| Удалены разрешения для потока данных                      | DataflowPermissionsRemoved                  | Сейчас не используется                       |
+| Удален пакет содержимого организации Power BI      | DeleteOrgApp                                |                                          |
+| Удален комментарий Power BI                          | DeleteComment                               |                                          |
+| Удалена панель мониторинга Power BI                        | DeleteDashboard                             | Сейчас не используется                       |
+| Удален поток данных Power BI                         | DeleteDataflow                              | Сейчас не используется                       |
+| Удален набор данных Power BI                          | DeleteDataset                               |                                          |
+| Удалена подписка на Power BI по электронной почте               | DeleteEmailSubscription                     |                                          |
+| Удалена папка Power BI                           | DeleteFolder                                |                                          |
+| Удален доступ к папке Power BI                    | DeleteFolderAccess                          | Сейчас не используется                       |
+| Удаление шлюза Power BI                          | DeleteGateway                               |                                          |
+| Удалена группа Power BI                            | DeleteGroup                                 |                                          |
+| Удален отчет Power BI                           | DeleteReport                                |                                          |
+| Обнаружены источники набора данных Power BI          | GetDatasources                              |                                          |
+| Скачанный отчет Power BI                        | DownloadReport                              |                                          |
+| Изменено разрешение сертификации Power BI          | EditCertificationPermission                 | Сейчас не используется                       |
+| Изменена панель мониторинга Power BI                         | EditDashboard                               | Сейчас не используется                       |
+| Изменен набор данных Power BI                           | EditDataset                                 |                                          |
+| Изменены свойства набора данных Power BI                | EditDatasetProperties                       | Сейчас не используется                       |
+| Изменен отчет Power BI                            | EditReport                                  |                                          |
+| Экспортирован поток данных Power BI                        | ExportDataflow                              |                                          |
+| Экспортированы данные визуальных элементов отчета Power BI              | ExportReport                                |                                          |
+| Экспортированы данные плиток Power BI                       | ExportTile                                  |                                          |
+| Не удалось добавить разрешения для потока данных                | FailedToAddDataflowPermissions              | Сейчас не используется                       |
+| Не удалось удалить разрешения для потока данных             | FailedToRemoveDataflowPermissions           | Сейчас не используется                       |
+| Создан маркер SAS потока данных Power BI             | GenerateDataflowSasToken                    |                                          |
+| Создан токен внедрения Power BI                    | GenerateEmbedToken                          |                                          |
+| Импортирован файл в Power BI                         | Импорт                                      |                                          |
+| Установлено приложение Power BI                            | InstallApp                                  |                                          |
+| Рабочая область перенесена в емкость                  | MigrateWorkspaceIntoCapacity                |                                          |
+| Опубликован комментарий Power BI                           | PostComment                                 |                                          |
+| Напечатана панель мониторинга Power BI                        | PrintDashboard                              |                                          |
+| Напечатана страница отчета Power BI                      | PrintReport                                 |                                          |
+| Отчет Power BI опубликован в Интернете                  | PublishToWebReport                          |                                          |
+| Получен секрет потока данных Power BI из Key Vault  | ReceiveDataflowSecretFromKeyVault           | Сейчас не используется                       |
+| Удаление источника данных из шлюза Power BI         | RemoveDatasourceFromGateway                 |                                          |
+| Удалены участники группы Power BI                    | DeleteGroupMembers                          |                                          |
+| Рабочая область удалена из емкости                 | RemoveWorkspacesFromCapacity                |                                          |
+| Переименована панель мониторинга Power BI                        | RenameDashboard                             |                                          |
+| Запрошено обновление потока данных Power BI               | RequestDataflowRefresh                      | Сейчас не используется                       |
+| Запрошено обновление набора данных Power BI                | RefreshDataset                              |                                          |
+| Получены рабочие области Power BI                     | GetWorkspaces                               |                                          |
+| Задано запланированное обновление потока данных Power BI        | SetScheduledRefreshOnDataflow               |                                          |
+| Задано запланированное обновление набора данных Power BI         | SetScheduledRefresh                         |                                          |
+| Предоставлен общий доступ к панели мониторинга Power BI                         | ShareDashboard                              |                                          |
+| Предоставлен общий доступ к отчету Power BI                            | ShareReport                                 |                                          |
+| Начало работы в расширенной пробной версии Power BI                   | OptInForExtendedProTrial                    | Сейчас не используется                       |
+| Запущена пробная версия Power BI                            | OptInForProTrial                            |                                          |
+| Принято управление источником данных Power BI                   | TakeOverDatasource                          |                                          |
+| Принято управление набором данных Power BI                        | TakeOverDataset                             |                                          |
+| Отменена публикация приложения Power BI                          | UnpublishApp                                |                                          |
+| Обновлены параметры управления ресурсами емкости      | UpdateCapacityResourceGovernanceSettings    | Сейчас недоступно на портале администрирования Office 365 |
+| Обновлен администратор емкости                            | UpdateCapacityAdmins                        |                                          |
+| Обновлено отображаемое имя емкости                     | UpdateCapacityDisplayName                   |                                          |
+| Обновлены параметры Power BI организации          | UpdatedAdminFeatureSwitch                   |                                          |
+| Обновлено приложение Power BI                              | UpdateApp                                   |                                          |
+| Обновлен поток данных Power BI                         | UpdateDataflow                              |                                          |
+| Обновлены источники набора данных Power BI             | UpdateDatasources                           |                                          |
+| Обновлены параметры набора данных Power BI               | UpdateDatasetParameters                     |                                          |
+| Обновлена подписка на Power BI по электронной почте               | UpdateEmailSubscription                     |                                          |
+| Обновлена папка Power BI                           | UpdateFolder                                |                                          |
+| Обновлен доступ к папке Power BI                    | UpdateFolderAccess                          |                                          |
+| Обновлены учетные данные источника данных шлюза Power BI  | UpdateDatasourceCredentials                 |                                          |
+| Просмотрена панель мониторинга Power BI                         | ViewDashboard                               |                                          |
+| Просмотрен поток данных Power BI                          | ViewDataflow                                |                                          |
+| Просмотрен отчет Power BI                            | ViewReport                                  |                                          |
+| Просмотрена плитка Power BI                              | ViewTile                                    |                                          |
+| Просмотрены метрики использования Power BI                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

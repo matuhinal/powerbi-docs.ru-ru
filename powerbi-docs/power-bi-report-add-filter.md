@@ -1,5 +1,5 @@
 ---
-title: Добавление фильтра в отчет в Power BI
+title: Добавление в отчет фильтра в представлении редактирования
 description: Добавление фильтра страницы, визуализации или отчета в отчет в Power BI
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611159"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157386"
 ---
-# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Добавление фильтра в отчет службы Power BI (в режиме правки)
+# <a name="add-a-filter-to-a-report-in-editing-view"></a>Добавление в отчет фильтра в представлении редактирования
 
 В этой статье описано, как добавить фильтр на уровне страницы, визуализации, отчета или детализации в отчет Power BI. Примеры в этой статье даны для службы Power BI, но действия в Power BI Desktop практически идентичны.
 

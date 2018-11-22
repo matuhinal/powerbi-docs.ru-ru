@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736856"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850391"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Регистрация в Power BI с новой пробной версией Office 365
 
@@ -27,13 +27,13 @@ ms.locfileid: "50736856"
 
 1. По завершении процесса регистрации вам будет предоставлено новое имя для входа (например, you@yourcompany.onmicrosoft.com). Оно будет использоваться при работе с Power BI.
 
-1. Зарегистрируйтесь в Power BI [с помощью этой ссылки](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1). Если будет предложено, войдите с использованием имени и пароля, выбранных для Office 365 в предыдущем шаге.
+1. Зарегистрируйтесь в Power BI [с помощью этой ссылки](https://app.powerbi.com/signupredirect?pbi_source=web). Если будет предложено, войдите с использованием имени и пароля, выбранных для Office 365 в предыдущем шаге.
 
 1. Вот и все! После завершения процесса вы будете перенаправлены в Power BI. Если у вас возникли проблемы со входом с помощью новой учетной записи, попробуйте использовать сеанс браузера в конфиденциальном режиме.
 
 ## <a name="important-considerations"></a>Важные замечания
 
-С помощью этого метода регистрации вы создаете клиент-организацию и становитесь администратором этого клиента. См. дополнительные сведения об [администрировании Power BI](service-admin-administering-power-bi-in-your-organization.md). Вы можете добавлять в клиент новых пользователей, а затем предоставлять им общий доступ, как описано в [документации по администрированию Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
+С помощью этого метода регистрации вы создаете клиент-организацию и становитесь администратором этого клиента. Дополнительные сведения: [Что такое администрирование Power BI?](service-admin-administering-power-bi-in-your-organization.md) Вы можете добавлять в клиент новых пользователей, а затем предоставлять им общий доступ, как описано в [документации по администрированию Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

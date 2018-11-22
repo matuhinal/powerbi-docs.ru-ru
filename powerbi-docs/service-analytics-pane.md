@@ -1,5 +1,5 @@
 ---
-title: Панель "Аналитика" в службе Power BI
+title: Создание динамических строк ссылок для визуальных элементов
 description: Создание динамических строк ссылок для визуализаций в службе Power BI
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244527"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717707"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Панель "Аналитика" в службе Power BI
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Создание динамических строк ссылок для визуальных элементов в службе Power BI
+
 Панель **Аналитика** в **службе Power BI** позволяет добавлять динамические *строки ссылок* в визуализации, чтобы обратить внимание на важные тенденции и подробные сведения.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ ms.locfileid: "34244527"
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>Использование панели "Аналитика"
+## <a name="use-the-analytics-pane"></a>Использование панели "Аналитика"
 Используя панель **Аналитика**, можно создать такие динамические строки ссылок (не все строки доступны для всех типов визуальных элементов):
 
 * линия константы оси X;

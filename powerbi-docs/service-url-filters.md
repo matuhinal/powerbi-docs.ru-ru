@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973380"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850598"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
@@ -47,7 +47,7 @@ URL?filter=***Таблица***/***Поле*** eq '***значение***'
 
 * **Строки** (string) должны быть заключены в одинарные кавычки, например 'manager name'.
 * Для **чисел** (number) специальное форматирование не требуется.
-* Значения **даты и времени** (datetime) должны быть заключены в одинарные кавычки и им должно предшествовать слово **DateTime**.
+* **Даты и время** должны быть заключены в одинарные кавычки. В OData v3 перед ними должно стоять слово datetime. В OData v4 это не требуется.
 
 Если эти инструкции вам непонятны, см. подробные объяснения ниже.  
 
@@ -167,7 +167,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 Есть несколько моментов, которые следует учитывать при использовании параметров строки запроса.
 
-* При использовании оператора *in* значением справа от *in* должен быть разделенный запятыми список, заключенный в круглые скобки.    
+* При использовании оператора *in* справа от *in* должен в круглых скобках идти список значений, разделенных запятыми.    
 * Сервер отчетов Power BI позволяет вам [передавать параметры отчета](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), включая их в его URL-адрес. Эти параметры URL-адреса не имеют префиксов, так как они передаются непосредственно в подсистему обработки отчетов.
 * Фильтрация строки запроса не поддерживается при [веб-публикации](service-publish-to-web.md).
 * Фильтры URL-адреса не поддерживаются при [внедрении с помощью веб-части отчетов в SharePoint Online](service-embed-report-spo.md).

@@ -1,5 +1,5 @@
 ---
-title: Руководство. Отправка вопросов с помощью виртуального аналитика "Вопросы и ответы" в приложениях iOS (Power BI)
+title: Руководство. Отправка вопросов с помощью виртуального аналитика "Вопросы и ответы" в приложениях iOS
 description: В этом руководстве вы попробуете задать вопросы о тестовых данных в свободной текстовой форме с помощью виртуального аналитика "Вопросы и ответы" в мобильном приложении Power BI на устройстве iOS.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547146"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157156"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Руководство. Отправка вопросов о данных с помощью виртуального аналитика "Вопросы и ответы" в приложениях Power BI на платформе iOS
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Руководство. Отправка вопросов о данных с помощью виртуального аналитика "Вопросы и ответы" в приложениях Power BI на платформе iOS
 
 Чтобы получить ответ на вопрос о своих данных, задайте его своими словами. При работе с этим руководством вы будете задавать вопросы и просматривать аналитические сведения о тестовых данных в виртуальном аналитике "Вопросы и ответы", который доступен в мобильном приложении Microsoft Power BI на iPad, iPhone и iPod Touch. 
 

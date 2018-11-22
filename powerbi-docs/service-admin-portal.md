@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266123"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268373"
 ---
 # <a name="power-bi-admin-portal"></a>Портал администрирования Power BI
 
@@ -301,7 +301,7 @@ ms.locfileid: "51266123"
 
 ### <a name="create-and-use-dataflows-preview"></a>Создание и использование потоков данных (предварительная версия)
 
-Пользователи в организации могут создавать и использовать потоки данных. [Дополнительные сведения](service-dataflows-overview.md)
+Пользователи в организации могут создавать и использовать потоки данных. Общие сведения о потоках данных. [Самостоятельная подготовка данных в Power BI (предварительная версия)](service-dataflows-overview.md). Чтобы включить потоки данных в емкости Premium, см. [Настройка рабочих нагрузок](service-admin-premium-manage.md#configure-workloads).
 
 > [!NOTE]
 > Этот параметр применяется ко всей организации и не ограничивается определенными группами.
@@ -316,7 +316,7 @@ ms.locfileid: "51266123"
 
 Дополнительные сведения о том, как управлять параметрами Premium, см. в статье [Управление емкостью в Power BI Premium и Power BI Embedded](service-admin-premium-manage.md).
 
-### <a name="power-bi-embedded"></a>Power BI Embedded
+### <a name="power-bi-embedded"></a>Power BI Embedded
 
 Вкладка **Power BI Embedded** позволяет просматривать емкости Power BI Embedded (номер SKU А), приобретенные для клиента. Так как вы можете приобрести только номер SKU A в Azure, вы можете [управлять емкостями Embedded в Azure](developer/azure-pbie-create-capacity.md) на **портале Azure**.
 
