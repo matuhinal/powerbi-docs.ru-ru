@@ -374,7 +374,7 @@ items:
       href: desktop-accessibility.md
     - name: Управление формой для входа в Power BI Desktop
       href: desktop-admin-sign-in-form.md
-- name: Служба Power BI
+- name: Служба Power BI
   items:
   - name: Обзор
     items:
@@ -812,6 +812,8 @@ items:
       href: paginated-reports-faq.md
   - name: Практическое руководство
     items:
+    - name: Ввод данных непосредственно в отчет с разбивкой на страницы
+      href: paginated-reports-enter-data.md
     - name: Создание внедренного источника данных
       href: paginated-reports-embedded-data-source.md
     - name: Создание внедренного набора данных
@@ -1012,7 +1014,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848273
       - name: Загрузка SDK .NET
         href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: Сервер отчетов Power BI
+- name: Сервер отчетов Power BI
   items:
   - name: Обзор
     items:
@@ -1074,6 +1076,8 @@ items:
         href: report-server/getting-around.md
       - name: Создание отчета с разбивкой на страницы для сервера отчетов
         href: report-server/quickstart-create-paginated-report.md
+      - name: Ввод данных непосредственно в отчет с разбивкой на страницы
+        href: paginated-reports-enter-data.md
       - name: Работа с КПЭ
         href: https://go.microsoft.com/fwlink/?linkid=849021
       - name: 'Доступ к общим наборам данных как к каналам OData '
@@ -1251,9 +1255,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1fdc2ca3ea80f8f975d0b2dac6a3cee70f194ef6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718098"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289296"
