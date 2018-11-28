@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 52f5d7e8bbf6f22f930ad7b4703587ea3af3dc94
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717523"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452621"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Оповещения о данных в службе Power BI
 Вы можете настроить оповещения, уведомляющие вас о том, что данные в панелях мониторинга выходят за пределы заданного порога. 
@@ -65,7 +65,7 @@ ms.locfileid: "51717523"
    ![Значок уведомления в службе Power BI](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. Чтобы просмотреть подробные сведения об оповещении, откройте свой Центр уведомлений.
    
-    ![чтение оповещения](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![чтение оповещения](media/service-set-data-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > Оповещения отправляются только при обновлении данных. При обновлении данных Power BI проверяет, настроены ли для них оповещения. Если значение достигает заданного порога, оповещение срабатывает.

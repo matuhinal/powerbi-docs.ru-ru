@@ -390,42 +390,54 @@ items:
     items:
     - name: Новые возможности службы Power BI
       href: service-whats-new.md
-    - name: Основные понятия
+    - name: Основные понятия для разработчиков
       href: service-basic-concepts.md
-    - name: Самостоятельная регистрация
-      href: service-self-service-signup-for-power-bi.md
-    - name: Общие сведения о Cortana для Power BI
-      href: service-cortana-intro.md
-    - name: Обновление данных в Power BI
-      href: refresh-data.md
-    - name: Power BI для правительства США
-      href: service-govus-overview.md
-    - name: Функций по типам лицензий
-      href: service-features-license-type.md
     - name: 10 советов по получению справки
       href: service-tips-for-finding-help.md
-    - name: О фильтрах и выделении в отчетах Power BI
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: Получение данных из файлов
-      href: service-get-data-from-files.md
-    - name: Знакомство с редактором отчетов
-      href: service-the-report-editor-take-a-tour.md
-    - name: Визуализации в Power BI
-      href: visuals/power-bi-report-visualizations.md
-    - name: Источники данных для Power BI
-      href: service-get-data.md
-    - name: Активация расширенной пробной версии Power BI Pro
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow и Power BI
-      href: service-flow-integration.md
-    - name: Вопросы и ответы по Power BI для клиентов облачных служб в Германии
-      href: service-govde-faq.md
-    - name: Начало работы со сторонними приложениями в Power BI
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: Статистические функции (сумма, среднее, максимум и т. д.) в Power BI
-      href: service-aggregates.md
-    - name: Параметры отображения страницы в отчете Power BI
-      href: power-bi-report-display-settings.md
+    - name: Лицензирование
+      items:
+      - name: Самостоятельная регистрация
+        href: service-self-service-signup-for-power-bi.md
+      - name: Функций по типам лицензий
+        href: service-features-license-type.md
+      - name: Активация расширенной пробной версии Power BI Pro
+        href: service-extended-pro-trial.md
+      - name: Power BI для правительства США
+        href: service-govus-overview.md
+      - name: Вопросы и ответы для клиентов облачных служб в Германии
+        href: service-govde-faq.md
+    - name: Данные
+      items:
+      - name: Источники данных для Power BI
+        href: service-get-data.md
+      - name: Получение данных из файлов
+        href: service-get-data-from-files.md
+      - name: Агрегаты (сумма, среднее, максимум и т. д.)
+        href: service-aggregates.md
+      - name: Обновление данных в Power BI
+        href: refresh-data.md
+      - name: Azure и Power BI
+        href: service-azure-and-power-bi.md
+      - name: Исходящий трафик Power BI и Azure
+        href: service-azure-egress-power-bi.md
+    - name: Создание отчетов
+      items:
+      - name: Знакомство с редактором отчетов
+        href: service-the-report-editor-take-a-tour.md
+      - name: Визуализации в Power BI
+        href: visuals/power-bi-report-visualizations.md
+      - name: Сведения о фильтрах и выделении в отчетах
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: Параметры отображения страницы в отчете Power BI
+        href: power-bi-report-display-settings.md
+      - name: Общие сведения о Cortana для Power BI
+        href: service-cortana-intro.md
+    - name: Другое
+      items:
+      - name: Microsoft Flow и Power BI
+        href: service-flow-integration.md
+      - name: Начало работы со сторонними приложениями
+        href: service-power-bi-get-started-third-party-apps.md
   - name: Практическое руководство
     items:
     - name: Общие задачи
@@ -548,13 +560,13 @@ items:
         href: service-connect-to-zuora.md
     - name: Данные из файлов
       items:
-      - name: Быстрое превращение книги Excel в красивый отчет
+      - name: От книги Excel до потрясающего отчета
         href: service-from-excel-to-stunning-report.md
       - name: Получение данных из файлов книг Excel
         href: service-excel-workbook-files.md
       - name: Получение данных из файлов Power BI Desktop
         href: service-desktop-files.md
-      - name: Значения параметров для наборов данных
+      - name: Изменение параметров
         href: service-parameters.md
       - name: Получение данных из файлов с разделителями-запятыми (CSV-файлов)
         href: service-comma-separated-value-files.md
@@ -562,7 +574,7 @@ items:
         href: service-real-time-streaming.md
       - name: Публикация в Power BI из Excel 2016
         href: service-publish-from-excel.md
-      - name: Уменьшение размера книги Excel для ее просмотра в Power BI
+      - name: Уменьшение размера книги Excel
         href: reduce-the-size-of-an-excel-workbook.md
     - name: Данные из баз данных
       items:
@@ -574,23 +586,19 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: Динамические данные служб SQL Server Analysis в Power BI
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure и Power BI
-        href: service-azure-and-power-bi.md
-      - name: Исходящий трафик Power BI и Azure
-        href: service-azure-egress-power-bi.md
     - name: Обновление данных
       items:
       - name: Настройка запланированного обновления
         href: refresh-scheduled-refresh.md
-      - name: Обновление набора данных, созданного из файла Power BI Desktop в OneDrive (на локальном диске)
+      - name: Обновление набора данных из файла Power BI Desktop (на локальном диске)
         href: refresh-desktop-file-local-drive.md
-      - name: Обновление набора данных, созданного из файла Power BI Desktop в OneDrive (в облаке)
+      - name: Обновление набора данных из файла Power BI Desktop (в облаке)
         href: refresh-desktop-file-onedrive.md
-      - name: Обновление набора данных, созданного из книги Excel (на локальном диске)
+      - name: Обновление набора данных из книги Excel (на локальном диске)
         href: refresh-excel-file-local-drive.md
-      - name: Обновление набора данных, созданного из книги Excel (в облаке)
+      - name: Обновление набора данных из книги Excel (в облаке)
         href: refresh-excel-file-onedrive.md
-      - name: Обновление набора данных, созданного из файла данных с разделителями-запятыми (CSV) в OneDrive
+      - name: Обновление набора данных из CSV-файла в OneDrive
         href: refresh-csv-file-onedrive.md
       - name: 'Устранение неполадок в сценариях обновления '
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: Создание копии панели мониторинга
         href: service-dashboard-copy.md
-      - name: Закрепление плитки на панели мониторинга Power BI из отчета
+      - name: Закрепление плитки на панели мониторинга из отчета
         href: service-dashboard-pin-tile-from-report.md
-      - name: Закрепление плитки с одной панели мониторинга на другой
+      - name: Закрепление плитки из одной панели мониторинга на другой
         href: service-pin-tile-to-another-dashboard.md
-      - name: Закрепление плитки на панели мониторинга Power BI из книги Excel
+      - name: Закрепление плитки на панели мониторинга из Excel
         href: service-dashboard-pin-tile-from-excel.md
-      - name: Закрепление результатов работы подсистемы вопросов и ответов в качестве плитки на панели мониторинга Power BI
+      - name: Закрепление плитки на информационной панели из подсистемы вопросов и ответов
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: Закрепление целой страницы отчета на информационной панели
+      - name: Закрепление целой страницы отчета на панели мониторинга
         href: service-dashboard-pin-live-tile-from-report.md
       - name: Метрики использования для панелей мониторинга
         href: service-usage-metrics.md
-      - name: Добавление изображения, текстового поля, видео или веб-содержимого на панель мониторинга
+      - name: Добавление изображения, текстового поля, видео или кода на панель мониторинга
         href: service-dashboard-add-widget.md
-      - name: Изменение плитки — изменение размера, перемещение, переименование, закрепление, удаление, добавление гиперссылки
+      - name: Изменение плитки
         href: service-dashboard-edit-tile.md
-      - name: Советы по созданию эффективной панели мониторинга Power BI
+      - name: Советы по созданию эффективной информационной панели
         href: service-dashboards-design-tips.md
-      - name: Оптимизация данных для быстрого анализа данных в Power BI
+      - name: Оптимизация данных для Краткой аналитики
         href: service-insights-optimize.md
       - name: Создание представления панели мониторинга для телефонов
         href: service-create-dashboard-mobile-phone-view.md
@@ -672,7 +680,7 @@ items:
         href: visuals/power-bi-visualizations-arcgis.md
     - name: Задать вопросы о данных
       items:
-      - name: Раздел вопросов и ответов поможет вам создать визуализации и отчеты
+      - name: Создание визуализаций и отчетов с модулем "Вопросы и ответы"
         href: power-bi-tutorial-q-and-a.md
       - name: Настройка данных для правильной работы с функцией "Вопросы и ответы".
         href: service-prepare-data-for-q-and-a.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: Управление группой в Power BI и Office 365
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: Совместное использование панели мониторинга, ссылающейся на книгу Excel в OneDrive для бизнеса
+      - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: Пакеты содержимого
       items:
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Основные понятия
       items:
+      - name: Рекомендации по визуальным элементам Power BI
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Функциональные возможности
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: Сопоставления представлений данных
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289296"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331857"

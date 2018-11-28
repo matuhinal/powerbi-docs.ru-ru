@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101584"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452759"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 В этом учебном руководстве описаны действия, необходимые для реализации **безопасности на уровне строк** в **табличной модели Analysis Services**, и показано, как использовать эти функции в отчете Power BI. Здесь приведены пошаговые инструкции, которые помогут вам познакомиться с последовательностью необходимых действий на примере набора данных.
@@ -50,7 +50,7 @@ ms.locfileid: "50101584"
    Мы вернемся к этим пользователям при выполнении следующих задач.
 4. Теперь нам нужно создать *внутреннее соединение* с таблицей **DimSalesTerritory**, которое будет отражать связь между сведениями о регионе и пользователем. следующий код выполняет *внутреннее соединение*, а последующее изображение показывает, как выглядит таблица, как только *внутреннее соединение* будет успешным.
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Обратите внимание, что на приведенном выше изображении показаны сведения об ответственности определенных пользователей за тот или иной регион. Эти данные отображаются благодаря связи, которую мы создали на **шаге 2**. Кроме того, обратите внимание, что пользователь **Jon Doe относится к региону продаж Australia**. Мы вернемся к нему в следующих действиях и задачах.

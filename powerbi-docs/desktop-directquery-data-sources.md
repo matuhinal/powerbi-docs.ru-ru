@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223405"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452552"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Источники данных, поддерживаемые DirectQuery в Power BI
 **Power BI Desktop** и **служба Power BI** имеют много источников данных, к которым можно подключиться и получить доступ. В этой статье описывается, какие источники данных для Power BI поддерживают метод подключения **DirectQuery**. Дополнительные сведения о DirectQuery см. в статье [**Power BI и DirectQuery**](desktop-directquery-about.md).
@@ -27,7 +27,7 @@ ms.locfileid: "51223405"
 * База данных SQL Azure
 * Хранилище данных SQL Azure
 * Google BigQuery (бета-версия)
-* База данных IBM DB2
+* База данных IBM DB2
 * IBM Netezza (бета-версия)
 * Impala (версии 2.x)
 * База данных Oracle (версии 12 и более поздней)
@@ -38,7 +38,7 @@ ms.locfileid: "51223405"
 * Spark (бета-версия) (версии 0.9 и более поздней)
 * SQL Server
 * База данных Teradata
-* Vertica (бета-версия);
+* Vertica (бета-версия)
 
 Источники данных, после имени которых указана **(бета-версия)** или **(предварительная версия)**, могут быть изменены и не поддерживаются для использования в рабочей среде. Они также могут не поддерживаться после публикации отчета в **службе Power BI**. Это означает, что открытие опубликованного отчета или просмотр набора данных может привести к ошибке.
 
@@ -62,7 +62,7 @@ ms.locfileid: "51223405"
 | Amazon Redshift |Нет |
 | Impala (версии 2.x) |Да |
 | Снежинка |Да |
-| Spark (бета-версия) версии 0.9 и более поздней |Пока не поддерживается в **службе Power BI** |
+| Spark (бета-версия) версии 0.9 и более поздней |Да |
 | Azure HDInsight Spark (бета-версия) |Нет |
 | IBM Netezza |Да |
 | Сервер приложений SAP Business Warehouse |Да |
