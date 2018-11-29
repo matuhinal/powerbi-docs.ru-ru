@@ -7,44 +7,45 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e76d57f43fc76f5a9c51501daac48b081d9747b6
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187015"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331824"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Вопросы и ответы по началу работы с Power BI
-## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Использование функции "Вопросы и ответы" в Power BI с примером "Анализ розничной торговли"
+
 Иногда самый быстрый способ получить ответ по данным — задать вопрос, используя естественный язык.  В этом кратком руководстве мы рассмотрим два разных способа создания одной визуализации: ее встраивание в отчет и ввод вопроса в функции "Вопросы и ответы". Мы будем использовать службу Power BI, но этот процесс применим и для Power BI Desktop.
 
 Для работы с этим руководством нужен отчет, который вы можете изменять. Поэтому будем использовать один из доступных примеров в Power BI.
 
-## <a name="method-1-using-the-report-editor"></a>Способ 1: с помощью редактора отчетов
+## <a name="create-a-visual-in-the-report-editor"></a>Создание визуального элемента в редакторе отчетов
+
 1. В рабочей области Power BI выберите **Получить данные** \> **Примеры** \> **Анализ розничной торговли — пример** > **Подключить**.
    
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
-2. Панель мониторинга содержит плитку диаграммы с областями Last Year Sales and This Year Sales (Продажи за прошлый год и за этот год).  Выберите эту плитку. 
+2. Панель мониторинга содержит плитку диаграммы с областями Last Year Sales and This Year Sales (Продажи за прошлый год и за этот год).  Выберите эту плитку. Если эта плитка была создана с помощью компонента "Вопросы и ответы", при выборе плитки откроется окно "Вопросы и ответы". Однако эта плитка была создана в отчете, поэтому отчет открывается на странице, содержащей эту визуализацию.
+
+    ![Панель мониторинга "Анализ розничной торговли — пример"](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
+
+1. Откройте отчет в режиме редактирования, выбрав пункт **Изменить отчет**.  Не являясь владельцем отчета, вы не сможете открыть отчет в представлении редактирования.
    
-   * Если эта плитка была создана с помощью компонента "Вопросы и ответы", при выборе плитки откроется окно "Вопросы и ответы". 
-   * Однако эта плитка была создана в отчете, поэтому отчет открывается на странице, содержащей эту визуализацию.
-3. Откройте отчет в режиме редактирования, выбрав пункт **Изменить отчет**.  Не являясь владельцем отчета, вы не сможете открыть отчет в представлении редактирования.
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
+    ![Кнопка "Изменить отчет"](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
 4. Выберите диаграмму с областями и просмотрите параметры в области **Поля** .  Автор отчета создал эту диаграмму, выбрав эти три значения (**Time > FiscalMonth**, **Sales > This Year Sales**, **Sales > Last Year Sales**) и организовав их в категории **Оси** и **Значения**.
    
-    ![](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+    ![Панель визуализаций](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 
-## <a name="method-2-using-qa"></a>Способ 2: с помощью вопросов и ответов
+## <a name="create-the-same-visual-with-qa"></a>Создание того же визуального элемента с помощью функции "Вопросы и ответы"
+
 Как мы можем создать аналогичный график, используя функцию "Вопросы и ответы"?
 
-![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
+![Поле "Задать вопрос"](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
 
 1. Вернитесь на информационную панель "Анализ розничной торговли — пример".
-2. Используя естественный язык, введите примерно следующий запрос в поле вопроса:
+2. Используя естественный язык, введите примерно следующий вопрос в поле вопроса:
    
    **какими были продажи за текущий и прошлый годы по месяцам в виде диаграммы с областями**
    
@@ -52,9 +53,9 @@ ms.locfileid: "47187015"
    
    Когда вы закончите вводить вопрос, вы увидите, что результатом является точно такая же диаграмма, какую мы видели в отчете.  Но создать ее таким образом намного быстрее.
    
-   ![](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
+   ![Пример вопроса](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
 3. Как и при работе с отчетами, в компоненте "Вопросы и ответы" доступны области "Визуализации", "Фильтры" и "Поля".  С их помощью можно просмотреть и настроить параметры визуального элемента.
-4. Чтобы закрепить диаграмму на панели мониторинга, выберите значок булавки ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
+4. Чтобы закрепить диаграмму на панели мониторинга, выберите значок булавки. ![Значок закрепления](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Вопросы и ответы в Power BI](consumer/end-user-q-and-a.md)

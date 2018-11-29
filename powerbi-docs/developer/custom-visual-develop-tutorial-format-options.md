@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223267"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289181"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Руководство по добавлению параметров форматирования в пользовательские визуальные элементы Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "51223267"
 
     Вы увидите сообщение *Параметры форматирования недоступны для этого визуального элемента*.
 
-    ![Кисть форматирования](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Кисть форматирования](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. В **Visual Studio Code** откройте файл *capabilities.json*.
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223267"
     ```json
     "objects": {},
     ```
-    ![Добавление объекта objects](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Добавление объекта objects](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. Сохраните файл **capabilities.json**.
 
@@ -50,13 +50,13 @@ ms.locfileid: "51223267"
     > [!Note]
     > Если параметры форматирования не изменились, **перезагрузите пользовательский визуальный элемент**.
 
-    ![Просмотр параметров форматирования](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Просмотр параметров форматирования](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. Установите для параметра **Заголовок** значение *Откл.* Обратите внимание, что в левом верхнем углу визуального элемента перестало отображаться имя меры.
 
-    ![Параметр "Заголовок" отключен](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![Параметр "Заголовок" отключен](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Плитка без имени](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Плитка без имени](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Добавление пользовательских параметров форматирования
 
@@ -64,7 +64,7 @@ ms.locfileid: "51223267"
 
 1. Остановите пользовательский визуальный элемент в PowerShell.
 
-2. В Visual Studio Code в файле **capabilities.json** вставьте в объект **objects** следующий фрагмент JSON:
+2. В Visual Studio Code в файле **capabilities.json** вставьте в объект **objects** следующий фрагмент кода JSON.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ ms.locfileid: "51223267"
                  }
              }
          }
-     }
+     },
     ```
 
     Этот фрагмент JSON описывает группу с именем circle, которая состоит из двух параметров с именами circleColor и circleThickness.
 
-   ![Код толщины круга](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![Код толщины круга](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. Сохраните файл **capabilities.json**.
 
@@ -112,7 +112,7 @@ ms.locfileid: "51223267"
     }
     ```
 
-    ![Классы модуля](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Классы модуля](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Этот модуль определяет два класса. Класс **CircleSettings** определяет два свойства с именами, которые соответствуют объектам, определенным в файле **capabilities.json** (**circleColor** и **circleThickness**), а также задает значения по умолчанию. Класс **VisualSettings** наследует класс **DataViewObjectParser** и добавляет свойство с именем **circle**, соответствующее объекту, определенному в файле *capabilities.json*, и возвращает экземпляр **CircleSettings**.
 
@@ -127,7 +127,7 @@ ms.locfileid: "51223267"
     ```
     Это свойство содержит ссылку на объект **VisualSettings**, описывающий параметры визуального элемента.
 
-    ![Добавление класса визуального элемента](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Добавление класса визуального элемента](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. В классе **Visual** перед методом **update** добавьте следующий метод. Этот метод используется для заполнения параметров форматирования.
 
@@ -140,7 +140,7 @@ ms.locfileid: "51223267"
     ```
     Этот метод используется для заполнения параметров форматирования.
 
-    ![Объект настроек визуального элемента](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Объект настроек визуального элемента](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. В методе **update** после объявления переменной **radius** добавьте следующий код:
 
@@ -150,7 +150,7 @@ ms.locfileid: "51223267"
     ```
     Этот код извлекает параметры форматирования. Он корректирует любое значение, передаваемое в свойство **circleThickness**, преобразовывая его в 0, если оно отрицательное, или в 10, если оно больше 10.
 
-    ![Переменная радиуса](media/custom-visual-develop-tutorial/radius.png)
+    ![Переменная радиуса](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. Для элемента **circle** замените значение **стиля заливки** следующим выражением:
 
@@ -158,7 +158,7 @@ ms.locfileid: "51223267"
     this.visualSettings.circle.circleColor
     ```
 
-    ![Заполнение элемента circle](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Заполнение элемента circle](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. Для элемента **circle** замените значение **стиля ширины штриха** следующим выражением:
 
@@ -166,7 +166,7 @@ ms.locfileid: "51223267"
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Ширина штриха круга](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Ширина штриха круга](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. Сохраните файл visual.ts.
 
@@ -180,7 +180,7 @@ ms.locfileid: "51223267"
 
 16. В параметрах **форматирования визуального элемента** разверните элемент **Circle** (Круг).
 
-    ![Формат круга](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Формат круга](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     Измените параметры **color** (цвет) и **thickness** (толщина).
 
@@ -198,7 +198,7 @@ ms.locfileid: "51223267"
 
     Это значение имени появляется, когда мы наводим указатель мыши на значок на панели **Визуализации**.
 
-    ![Отображаемое имя визуального элемента](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Отображаемое имя визуального элемента](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. В свойство **description** добавьте следующий текст:
 
@@ -216,7 +216,7 @@ ms.locfileid: "51223267"
 
 10. Просмотрите значок.
 
-    ![Изображение на панели визуализаций](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Изображение на панели визуализаций](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. В Visual Studio Code убедитесь, что все файлы сохранены.
 
@@ -226,7 +226,7 @@ ms.locfileid: "51223267"
     pbiviz package
     ```
 
-    ![Папка dist](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Папка dist](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Пакет будет размещен в папке проекта **dist**. Этот пакет содержит все необходимое для импорта пользовательского визуального элемента в службу Power BI или в отчет Power BI Desktop. Итак, вы упаковали пользовательский визуальный элемент и он теперь готов к использованию.
 
@@ -238,7 +238,7 @@ ms.locfileid: "51223267"
 
 2. На панели **_Визуализации_** выберите **кнопку с многоточием** и щелкните **Импортировать из файла**.
 
-    ![Добавление пользовательского визуального элемента в Power BI Desktop](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Добавление пользовательского визуального элемента в Power BI Desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. В **окне импорта** выберите **Импортировать**.
 
@@ -250,7 +250,7 @@ ms.locfileid: "51223267"
 
 7. Убедитесь, что визуальный элемент добавлен на панель **_Визуализации_**.
 
-    ![Просмотр панели визуализаций в PBI Desktop](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![Просмотр панели визуализаций в PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. Наведите указатель мыши на значок **Circle Card** и убедитесь, что отображается всплывающая подсказка.
 

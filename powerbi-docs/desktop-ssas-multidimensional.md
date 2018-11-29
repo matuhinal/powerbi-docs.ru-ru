@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813349"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452805"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Подключение к многомерным моделям SSAS в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к **многомерным моделям SSAS**, которые обычно называются **SSAS MD**.
@@ -81,6 +81,7 @@ Power BI также может выводить изображения при н
 * Для правильной работы соединителя SSAS MD Power BI Desktop на серверах должны работать службы Analysis Services SQL Server 2012 с пакетом обновления 1 (SP1) и накопительным пакетом обновления 4 (CU4) или более поздней версии
 * Из Power BI недоступны *действия* и *именованные наборы* *,* но вы можете подключаться к кубам, которые их содержат, и создавать визуальные элементы и отчеты *.*
 * Может возникнуть проблема, которая заключается в том, что в Power BI отображаются метаданные для модели SQL Server Analysis Services, но данные из этой модели извлечь невозможно. Это может происходить, когда в системе установлена 32-разрядная версия поставщика MSOLAP, но нет 64-разрядной версии. Установка 64-разрядной версии поможет решить данную проблему.
+* Вы не можете создавать меры уровня отчета при создании отчета с динамическим подключением к многомерной модели службы SSAS. Доступные меры определяются в модели MD.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Поддерживаемые возможности для работы с многомерными моделями SSAS в Power BI Desktop
 В Power BI Desktop поддерживаются перечисленные ниже возможности для работы с многомерными моделями SSAS.

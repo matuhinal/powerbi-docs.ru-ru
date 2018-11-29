@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157565"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289204"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Общие сведения о программе для пакетов содержимого службы Power BI
 Пакет содержимого — это набор готового содержимого, позволяющий пользователям мгновенно получить ценные сведения из источника. Пакет содержимого обычно ориентирован на конкретный бизнес-сценарий, предоставляя аналитические сведения для роли, домена или рабочего процесса.
@@ -23,7 +23,7 @@ ms.locfileid: "39157565"
 
 Такие пакеты содержимого шаблонов, созданные независимыми поставщиками программного обеспечения, можно отправить команде специалистов по Power BI. Таким образом они станут общедоступными в коллекции пакетов содержимого Power BI (app.powerbi.com/getdata/services) и на сайте Microsoft AppSource (appsource.microsoft.com). Пример работы с общедоступным пакетом содержимого можно найти [здесь](template-content-pack-experience.md).
 
-## <a name="overview"></a>Overview
+## <a name="overview"></a>Обзор
 Общий процесс разработки и отправки пакета содержимого шаблона включает несколько шагов.
 
  ![Процесс](media/service-content-pack-overview/developer-content-pack-overview.png)
@@ -48,7 +48,7 @@ ms.locfileid: "39157565"
 Ознакомьтесь с разделом о [создании](template-content-pack-authoring.md), чтобы получить более подробные сведения о технических требованиях.
 
 ## <a name="business-scenario"></a>Бизнес-сценарий
-Пакеты содержимого предоставляют аналитические сведения и метрики, посвященные определенному бизнес-сценарию. Понимание того, кто именно является вашей аудиторией и какое преимущество дает им пакет содержимого, поможет обеспечить успешную работу пользователей с предоставляемым вами содержимым.
+Пакеты содержимого предоставляют аналитические сведения и метрики, посвященные определенному бизнес-сценарию. Понимание того, кто именно является вашей аудиторией и какое преимущество дает им пакет содержимого, помогает обеспечить успешную работу пользователей с предоставляемым вами содержимым.
 
 ### <a name="tips"></a>Советы
 * Определите свою аудиторию и задачу, которую клиенты пытаются выполнить.  
@@ -78,7 +78,7 @@ ms.locfileid: "39157565"
 Отправляйте нам свои вопросы по адресу [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Поддержка
-Для поддержки во время разработки используйте [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Эта служба активно отслеживается и контролируется. Сообщения об инцидентах быстро передаются в соответствующую группу.
+Для поддержки во время разработки используйте [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Сообщения об инцидентах быстро передаются в соответствующую группу.
 
 ## <a name="next-step"></a>Дальнейшие действия
 [Создание](template-content-pack-authoring.md)

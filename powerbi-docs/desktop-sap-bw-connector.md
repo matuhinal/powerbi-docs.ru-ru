@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336928"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452874"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к данным **SAP Business Warehouse (BW)**.
@@ -197,11 +197,28 @@ ms.locfileid: "49336928"
            </item>
    
    Чтобы исправить эту ошибку, пользователи должны запросить у своего администратора SAP предоставить пользователю SAP BW, который используется в Power BI, право на выполнение *BAPI_USER_GET_DETAIL*. Стоит также убедиться, что пользователь задал необходимое значение *DCPFM*, описанное выше в этом решении для устранения неполадок.
+   
 2. **Возможность использования запросов SAP BEx**
    
    В Power BI Desktop можно выполнять запросы **BEx**, включив определенное свойство, как показано на следующем изображении:
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. В окне **Навигатор** предварительный просмотр данных недоступен — отображается сообщение об ошибке следующего содержания: *Ссылка на объект не указывает на экземпляр объекта*.
+   
+   Пользователям SAP нужно получить доступ к определенным модулям функции BAPI для получения метаданных и извлечения данных из SAP BW InfoProvider. К ним относятся:
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   Чтобы решить эту проблему, убедитесь, что у пользователя есть доступ к разным модулям *MDPROVIDER*, включая *BAPI_IOBJ_GETDETAIL*. Для устранения этой или подобных проблем щелкните *Включить трассировку* в окне *Диагностика* в разделе *Параметры* в Power BI Desktop. Включив трассировку, попытайтесь получить данные из SAP BW, и просмотрите файл трассировки для получения дополнительных сведений.
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о SAP и DirectQuery см. в следующих статьях:

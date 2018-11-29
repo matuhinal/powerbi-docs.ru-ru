@@ -10,17 +10,18 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7984f269235084268af57f1bb0d292793aef1f7f
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0784976e1404247d69415bb398f83cbb73ab98a8
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641282"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331926"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Приобретение и назначение лицензий Power BI Pro
 
 Индивидуальные лицензии Power BI Pro предоставляют доступ ко всему содержимому и всем возможностям службы Power BI, включая совместный доступ к содержимому и совместную работу с другими пользователями Pro. Публиковать и использовать содержимое в рабочих областях приложения, совместно использовать панели мониторинга, а также подписываться на панели мониторинга и отчеты могут только пользователи с лицензией Pro. Дополнительные сведения см. в разделе [Функции Power BI по типам лицензий](service-features-license-type.md).
-В этой статье сначала объясняется, как приобретать лицензии Power BI Pro в Office 365. Затем приводятся два варианта назначения этих лицензий отдельным пользователям: Office 365 и Azure (выберите один из вариантов).
+
+В этой статье сначала объясняется, как приобретать лицензии Power BI Pro в Office 365. Затем приводятся два варианта назначения этих лицензий отдельным пользователям: Office 365 и Azure (выберите один из вариантов).
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -96,7 +97,7 @@ ms.locfileid: "49641282"
 
 2. На панели навигации слева выберите **Azure Active Directory**.
 
-    ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
+    ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 
 3. В разделе **Azure Active Directory** выберите **Лицензии**.
 

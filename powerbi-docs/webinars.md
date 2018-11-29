@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952241"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452667"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,23 +22,13 @@ ms.locfileid: "49952241"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-**Power BI: проводим аналитику правильно**
-<br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
-<br>*8 ноября 2018 г. с 13:00:00 до 14:00 по восточному поясному времени*
+**Проверенные решения в сфере здравоохранения для улучшения результатов лечения и повышения рентабельности**
+<br>Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT
+<br>*28 ноября 2018 г. с 11:00 до 12:00 по тихоокеанскому времени*
 
-Советы от визионеров по использованию Analytics и Excel. Узнайте, как создавать привлекательные с точки зрения пользователей отчеты, делиться понятными и вызывающими интерес аналитическими сведениями и покончить с разрозненностью данных, чтобы сделать их доступными.
+Медицинским организациям требуется преобразовывать большие объемы информации в полезные сведения о пациентах для последующего использования. Зарегистрируйтесь для участия в этом вебинаре и вы научитесь создавать содержательные медицинские отчеты, которые помогут вашей организации преобразовывать информацию в полезные аналитические сведения о пациентах. Ознакомьтесь с экспертным мнением и получите рекомендации от основателя и исполнительного директора компании US Medical IT Стивена Крекнелла (Stephen Cracknell), руководителя ИТ-отдела Сюарта Маканлисса (Stuart Macanliss) и работающего в Техасе ревматолога Джона Лейвери (John P. Lavery).
 
-Мы обсудим инновационные продукты и поделимся своим представлением о современной корпоративной бизнес-аналитике и самостоятельной бизнес-аналитике, чтобы помочь организации реализовать культуру принятия решений на основе данных.
-
-[Зарегистрироваться для просмотра 8 ноября](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Закрепление навыков моделирования данных с помощью Power BI**
-<br>Автор: Каспер де Йонге (Kasper de Jonge)
-<br>*20 ноября 2018 года с 11:00 до 12:00 по тихоокеанскому времени*
-
-Зарегистрируйтесь на этот вебинар, чтобы улучшить свои навыки и перейти на следующий уровень моделирования в Power BI. Сведения о подсистеме выполняющейся в памяти аналитики Power BI, стратегиях для создания связей данных и управления ими, а также об использовании контекста фильтра для выражений анализа данных (DAX). Узнайте, как преодолеть любые трудности с моделированием с помощью Power BI и Azure Analysis Services.
-
-[Зарегистрироваться для просмотра 20 ноября](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+[Зарегистрироваться для просмотра 28 ноября](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -54,9 +44,17 @@ ms.locfileid: "49952241"
 <br>Автор: Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**Закрепление навыков моделирования данных с помощью Power BI**
+<br>Автор: Каспер де Йонге (Kasper de Jonge)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Power BI от Майкрософт — упрощение финансового планирования и анализа**
 <br>Авторы: Кори Хрнсирик (Cory Hrncirik) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI: проводим аналитику правильно**
+<br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **Визуализация данных Power BI: основные типы диаграмм и их использование**
 <br>Автор: Миранда Ли (Miranda Li)
@@ -70,9 +68,9 @@ ms.locfileid: "49952241"
 <br>Автор: Миранда Ли (Miranda Li)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Рекомендации по использованию Power BI: советы и инструменты от владельцев PowerBI.Tips)
-<br>Авторы: Майк Карло (Mike Carlo) и Сет Бауэр (Seth Bauer)
-<br>[Смотреть сейчас](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**Общее экономическое влияние Microsoft Flow и PowerApps**
+<br>Авторы: Джонатан Липситц (Jonathan Lipsitz) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 >[Просмотрите библиотеку вебинаров Power BI по запросу от экспертов нашего сообщества](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -112,10 +110,6 @@ ms.locfileid: "49952241"
 <br>Scott Ball (Скотт Болл) и Enrique Plaza (Энрике Плаза), корпорация Майкрософт
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**Improving Profitability in Healthcare** (Повышение рентабельности в здравоохранении)
-<br>Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **Applied Intelligence for Sales & Services** (Применяемая аналитика в сфере продаж и обслуживания)
 <br>Автор: Эд Бобрин (Ed Bobrin) из Avanade
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ ms.locfileid: "49952241"
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>Сообщество ###
+
+**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Рекомендации по использованию Power BI: советы и инструменты от владельцев PowerBI.Tips)
+<br>Авторы: Майк Карло (Mike Carlo) и Сет Бауэр (Seth Bauer)
+<br>[Смотреть сейчас](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **Storytelling with your data and Power BI** (Сведения о данных и Power BI)
 <br>Автор: Тристан Малерб (Tristan Malherbe)
