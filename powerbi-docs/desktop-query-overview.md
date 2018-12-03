@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1da2a77d0a666f395ca3a89fe667b14e207532b6
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: e856a1e0b8fd164aa8e4224eca3fc7370e3ff8aa
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330105"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670447"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Общие сведения о запросах в Power BI Desktop
 С помощью **Power BI Desktop** вы можете подключаться к миру данных, создавать привлекательные и фундаментальные отчеты и совместно использовать свою работу с другими пользователями, которые затем могут использовать ее для расширения своих возможностей по бизнес-аналитике.

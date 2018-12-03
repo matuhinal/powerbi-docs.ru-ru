@@ -7,14 +7,14 @@ ms.reviewer: willthom
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
-ms.openlocfilehash: 939c27dad3092880bfe4dba43b81f0c2988646d5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 13324ca27ae1c77f6ea735bb71b1081587cc413d
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330128"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670365"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query. 

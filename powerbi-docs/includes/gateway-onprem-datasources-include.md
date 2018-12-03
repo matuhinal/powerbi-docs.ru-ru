@@ -20,6 +20,7 @@
 | SAP HANA |Да |Да |
 | Список SharePoint (локальный) |Нет |Да |
 | Снежинка |Да |Да |
+| Spark |Да |Да |
 | SQL Server |Да |Да |
 | Sybase |Нет |Да |
 | Teradata |Да |Да |

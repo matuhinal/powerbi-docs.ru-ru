@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 778bf925c577c7b38797af8c14ab564dd2770331
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: e256da8530681d8eea6f41746e7a0c0885e4b91b
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328541"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670227"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, созданного из книги Excel в OneDrive или SharePoint Online
 Можно импортировать книги Excel, которые хранятся на локальном компьютере или в облаке, например в OneDrive для бизнеса или SharePoint Online. Мы рассмотрим преимущества использования облачного хранилища для файлов Excel. Дополнительные сведения об импорте файлов Excel в Power BI см. в разделе [Получение данных из файлов книг Excel](service-excel-workbook-files.md).
