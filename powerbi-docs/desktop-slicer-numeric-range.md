@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39331188"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669849"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Использование среза числового диапазона в Power BI Desktop
 С помощью **среза числового диапазона** можно применять все виды фильтров к любому числовому столбцу в модели данных. Вы можете выбрать фильтрацию **по диапазону** чисел, а также по значению **не больше** или **не меньше** числа. Хотя эта функция может показаться простой, это очень эффективный способ для фильтрации данных.

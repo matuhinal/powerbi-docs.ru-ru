@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: bbffe00507462c3a41ee07cb86c2376a072e5437
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: d1ddb1eabb45fa0c93b04419524d7f4f194189bb
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271562"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669136"
 ---
 # <a name="analyze-in-excel"></a>Анализ в Excel
 Бывают ситуации, когда для просмотра набора данных в Power BI и работы с ним требуется использовать Excel. Это можно сделать с помощью компонента **Анализ в Excel**, позволяющей получить доступ к функциям сводных таблиц, диаграмм и срезов в Excel для набора данных, имеющегося в Power BI.

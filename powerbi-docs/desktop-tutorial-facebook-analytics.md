@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34456063"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578504"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Учебник. Анализ Facebook с помощью Power BI Desktop
 
@@ -29,7 +29,7 @@ ms.locfileid: "34456063"
    
 2. В диалоговом окне **Получение данных** выберите **Facebook** из группы **Веб-службы** и нажмите кнопку **Подключиться**.
    
-   ![Получать данные](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+   ![Получение данных](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
    Откроется диалоговое окно с предупреждением о рисках, связанных с использованием службы сторонних производителей.
    
@@ -39,7 +39,7 @@ ms.locfileid: "34456063"
    
 4. Введите или вставьте имя страницы **microsoftbi** в поле **Имя пользователя** и выберите **Записи** из раскрывающегося списка **Подключение**. Затем нажмите кнопку **ОК**.
    
-   ![Подключить](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Подключиться](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. При появлении запроса на учетные данные войдите в свою учетную запись Facebook и разрешите Power BI доступ с помощью этой учетной записи.
    
