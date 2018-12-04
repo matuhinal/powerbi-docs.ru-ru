@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: Использование функций просмотра данных и просмотра записей
         href: desktop-see-data-see-records.md
+      - name: Советы по созданию отчетов
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: Визуализации
       items:
       - name: Рекомендации по работе с визуализациями
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: Настройка свойств осей X и Y
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: ArcGIS в Power BI
+      - name: Карты ArcGIS в Power BI
         href: power-bi-visualization-arcgis.md
       - name: Простые диаграммы с областями
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Каскадные диаграммы в Power BI
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: Создание динамических строк ссылки
+        href: service-analytics-pane.md
     - name: Устранение неполадок
       items:
       - name: Решение проблем с импортом баз данных Access и электронных таблиц Excel в Power BI Desktop и Power Query
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: Учебники
     items:
-    - name: Подключение к примеру в GitHub
-      href: service-tutorial-connect-to-github.md
     - name: Приступая к работе с Power BI
       href: service-get-started.md
+    - name: Подключение к примеру в GitHub
+      href: service-tutorial-connect-to-github.md
   - name: Основные понятия
     items:
     - name: Новые возможности службы Power BI
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: Отчеты
       items:
-      - name: Создание нового отчета из существующего отчета
-        href: power-bi-report-copy.md
-      - name: Добавление страницы в отчет
-        href: power-bi-report-add-page.md
+      - name: Создание нового отчета из набора данных
+        href: service-report-create-new.md
       - name: Добавление фильтра в отчет
         href: power-bi-report-add-filter.md
       - name: Сохранение отчета в Power BI
         href: service-report-save.md
-      - name: Создание нового отчета из набора данных
-        href: service-report-create-new.md
       - name: Взаимодействие с отчетом в режиме правки
         href: service-interact-with-a-report-in-editing-view.md
       - name: Анализ в Excel
         href: service-analyze-in-excel.md
       - name: Советы и рекомендации по созданию отчетов
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: Панель аналитики
-        href: service-analytics-pane.md
       - name: Метрики использования для отчетов
         href: service-usage-metrics.md
       - name: Создание QR-кода для отчета
         href: service-create-qr-code-for-report.md
-      - name: Переупорядочивание страниц отчета
-        href: service-report-reorder-pages.md
-      - name: Дублирование страницы отчета
-        href: power-bi-report-copy-paste-page.md
       - name: Экспорт отчета из службы в Power BI Desktop (предварительная версия)
         href: service-export-to-pbix.md
       - name: Фильтрация отчета с помощью параметров в URL-адресе
         href: service-url-filters.md
       - name: Рекомендации по созданию быстрых и надежных отчетов
         href: power-bi-reports-performance.md
-      - name: Взаимодействие с картами ArcGIS
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: Задать вопросы о данных
       items:
       - name: Создание визуализаций и отчетов с модулем "Вопросы и ответы"
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Подключение к потокам данных в Power BI Desktop
         href: desktop-connect-dataflows.md
+    - name: Отчеты с разбивкой на страницы в Power BI
+      items:
+      - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: Вопросы и ответы по отчетам с разбивкой на страницы
+        href: paginated-reports-faq.md
+      - name: Создание и отправка отчета с разбивкой на страницы
+        href: paginated-reports-quickstart-aw.md
+      - name: Работа в представлении конструктора отчетов
+        href: paginated-reports-report-design-view.md
+      - name: Ввод данных непосредственно в отчет с разбивкой на страницы
+        href: paginated-reports-enter-data.md
+      - name: Создание внедренного источника данных
+        href: paginated-reports-embedded-data-source.md
+      - name: Создание внедренного набора данных
+        href: paginated-reports-create-embedded-dataset.md
+      - name: Создание параметров
+        href: paginated-reports-parameters.md
+      - name: Публикация отчета с разбивкой на страницы
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: Просмотр отчета с разбивкой на страницы
+        href: paginated-reports-view-power-bi-service.md
+      - name: Взаимодействие с параметрами
+        href: paginated-reports-view-parameters.md
   - name: Ресурсы
     items:
     - name: Видео
@@ -802,38 +818,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: Технические документы
       href: whitepapers.md
-- name: Отчеты с разбивкой на страницы в Power BI
-  items:
-  - name: Обзор
-    items:
-    - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: Учебники
-    items:
-    - name: Создание и отправка отчета с разбивкой на страницы
-      href: paginated-reports-quickstart-aw.md
-  - name: Основные понятия
-    items:
-    - name: Работа в представлении конструктора отчетов
-      href: paginated-reports-report-design-view.md
-    - name: Вопросы и ответы по отчетам с разбивкой на страницы
-      href: paginated-reports-faq.md
-  - name: Практическое руководство
-    items:
-    - name: Ввод данных непосредственно в отчет с разбивкой на страницы
-      href: paginated-reports-enter-data.md
-    - name: Создание внедренного источника данных
-      href: paginated-reports-embedded-data-source.md
-    - name: Создание внедренного набора данных
-      href: paginated-reports-create-embedded-dataset.md
-    - name: Создание параметров
-      href: paginated-reports-parameters.md
-    - name: Публикация отчета с разбивкой на страницы
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: Просмотр отчета с разбивкой на страницы
-      href: paginated-reports-view-power-bi-service.md
-    - name: Взаимодействие с параметрами
-      href: paginated-reports-view-parameters.md
 - name: Power BI для разработчиков
   items:
   - name: Какие возможности Power BI предоставляет разработчикам
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331857"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830408"
