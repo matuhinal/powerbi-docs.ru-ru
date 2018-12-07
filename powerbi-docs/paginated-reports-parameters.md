@@ -1,5 +1,5 @@
 ---
-title: Создание параметров для отчетов с разбивкой на страницы в службе Power BI | Документация Майкрософт
+title: Создание параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 description: Из этой статьи вы узнаете, как в службе Power BI создать параметры для отчетов с разбивкой на страницы.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268826"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900297"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 
 Из этой статьи вы узнаете, как в службе Power BI создать параметры для отчетов с разбивкой на страницы.  Параметр отчета позволяет выбрать данные для отчета и изменить его внешний вид. Вы можете указать для параметра значение по умолчанию и список доступных значений, а читатели отчета смогут изменять этот выбор.  
 

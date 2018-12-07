@@ -1,5 +1,5 @@
 ---
-title: Внедренные источники данных для отчетов с разбивкой на страницы в службе Power BI | Документация Майкрософт
+title: Внедренные источники данных для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 description: Из этой статьи вы узнаете, как создать и изменить внедренный источник данных в отчете с разбивкой на страницы в службе Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: f3e305f70bb21011bbb395d453721ef65011844c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3c1340d9cae7e7002e8bbbdc3d6888e19b1ce7ff
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51269081"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900205"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Создание внедренного источника данных для отчетов с разбивкой на страницы в службе Power BI
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Создание внедренного источника данных для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 Из этой статьи вы узнаете, как создать и изменить внедренный источник данных для отчета с разбивкой на страницы в службе Power BI. Внедренный источник данных можно определить только в одном отчете и использовать его только в этом отчете. Сейчас отчеты с разбивкой на страницы, опубликованные в службе Power BI, могут использовать только внедренные наборы данных и внедренные источники данных. Поддерживаются следующие источники данных:
 
 - База данных SQL и хранилище данных Azure;

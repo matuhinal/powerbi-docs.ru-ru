@@ -1,5 +1,5 @@
 ---
-title: Просмотр отчета с разбивкой на страницы в службе Power BI | Документация Майкрософт
+title: Просмотр отчета с разбивкой на страницы в службе Power BI (предварительная версия)
 description: В этом руководстве представлены сведения о просмотре отчетов с разбивкой на страницы в службе Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: db067a2e81aa62febc952ce50ce4a3e82ef38b76
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268817"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900320"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service"></a>Просмотр отчета с разбивкой на страницы в службе Power BI
+# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Просмотр отчета с разбивкой на страницы в службе Power BI (предварительная версия)
 
 В этой статье представлены сведения о просмотре отчетов с разбивкой на страницы в службе Power BI. Отчеты с разбивкой на страницы можно создать с помощью построителя отчетов и передать в любую рабочую область в емкости Premium. Найдите значок в виде бриллианта ![Значок емкости Power BI Premium в виде бриллианта](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) рядом с именем рабочей области. 
 

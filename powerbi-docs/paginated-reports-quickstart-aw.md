@@ -1,5 +1,5 @@
 ---
-title: Руководство. Создание отчета с разбивкой на страницы и отправка отчета в службу Power BI | Документация Майкрософт
+title: Руководство. Создание отчета с разбивкой на страницы и его отправка в службу Power BI (предварительная версия)
 description: При работе с этим руководством вы подключитесь к тестовой базе данных Azure SQL. Затем вы откроете в построителе отчетов мастер для создания отчета с разбивкой на страницы. Полученный отчет с разбивкой на страницы вы отправите в рабочую область емкости Premium в службе Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452831"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900619"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Руководство. Создание отчета с разбивкой на страницы и отправка отчета в службу Power BI
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Руководство. Создание отчета с разбивкой на страницы и его отправка в службу Power BI (предварительная версия)
 
 При работе с этим руководством вы подключитесь к тестовой базе данных Azure SQL. Затем вы примените мастер построителя отчетов, чтобы создать отчет с разбивкой на страницы, содержащий многостраничную таблицу. Полученный отчет с разбивкой на страницы вы отправите в рабочую область емкости Premium в службе Power BI. Сейчас отчеты с разбивкой на страницы в службе Power BI доступны в предварительной версии.
 
@@ -108,7 +108,7 @@ ms.locfileid: "52452831"
 
     - Адрес
     - Клиент
-    - Product
+    - Продукт
     - КатегорияПродукта
     - SalesOrderDetail
     - SalesOrderHeader

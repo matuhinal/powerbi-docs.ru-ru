@@ -1,5 +1,5 @@
 ---
-title: Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI | Документация Майкрософт
+title: Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 description: Из этой статьи вы узнаете, как работать в службе Power BI с параметрами отчетов с разбивкой на страницы.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d144030db1d35e103a476af8e96fa4b2b8b1dfaa
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 404ec820b766716810b2881351f8be8e77902803
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268862"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900159"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 
 Из этой статьи вы узнаете, как работать в службе Power BI с параметрами отчетов с разбивкой на страницы.  Параметр отчета предоставляет возможность фильтровать данные для отчета. Параметры предлагают список возможных значений и позволяют выбрать одно или несколько из них. Для некоторых параметров настроены значения по умолчанию, а для некоторых выбор значения является обязательных условием для просмотра отчета.  
 
