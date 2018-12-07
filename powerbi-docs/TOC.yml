@@ -378,7 +378,7 @@ items:
       href: desktop-accessibility.md
     - name: Управление формой для входа в Power BI Desktop
       href: desktop-admin-sign-in-form.md
-- name: Служба Power BI
+- name: службе Power BI
   items:
   - name: Обзор
     items:
@@ -444,22 +444,10 @@ items:
         href: service-power-bi-get-started-third-party-apps.md
   - name: Практическое руководство
     items:
-    - name: Общие задачи
-      items:
-      - name: Переименование содержимого Power BI
-        href: service-rename.md
-      - name: Быстрый анализ данных в Power BI
-        href: service-insights.md
-      - name: Внедрите Power BI в своей правительственной организации
-        href: service-govus-signup.md
-      - name: Оповещения о данных в службе Power BI
-        href: service-set-data-alerts.md
-      - name: Вопросы и ответы по началу работы с Power BI
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Удаление содержимого в Power BI
-        href: service-delete.md
     - name: Подключение к службам
       items:
+      - name: Подключение к службам
+        href: service-connect-to-services.md
       - name: Acumatica
         href: service-connect-to-acumatica.md
       - name: Adobe Analytics
@@ -574,7 +562,7 @@ items:
         href: service-parameters.md
       - name: Получение данных из файлов с разделителями-запятыми (CSV-файлов)
         href: service-comma-separated-value-files.md
-      - name: Потоковая передача в реальном времени в Power BI (предварительная версия)
+      - name: Потоковая передача в реальном времени в Power BI
         href: service-real-time-streaming.md
       - name: Публикация в Power BI из Excel 2016
         href: service-publish-from-excel.md
@@ -626,6 +614,8 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: Закрепление целой страницы отчета на панели мониторинга
         href: service-dashboard-pin-live-tile-from-report.md
+      - name: Оповещения о данных в службе Power BI
+        href: service-set-data-alerts.md
       - name: Метрики использования для панелей мониторинга
         href: service-usage-metrics.md
       - name: Добавление изображения, текстового поля, видео или кода на панель мониторинга
@@ -634,8 +624,6 @@ items:
         href: service-dashboard-edit-tile.md
       - name: Советы по созданию эффективной информационной панели
         href: service-dashboards-design-tips.md
-      - name: Оптимизация данных для Краткой аналитики
-        href: service-insights-optimize.md
       - name: Создание представления панели мониторинга для телефонов
         href: service-create-dashboard-mobile-phone-view.md
       - name: Создание QR-кода для плитки
@@ -648,7 +636,7 @@ items:
         href: service-dashboard-themes.md
     - name: Отчеты
       items:
-      - name: Создание нового отчета из набора данных
+      - name: Создание отчета из набора данных
         href: service-report-create-new.md
       - name: Добавление фильтра в отчет
         href: power-bi-report-add-filter.md
@@ -664,7 +652,7 @@ items:
         href: service-usage-metrics.md
       - name: Создание QR-кода для отчета
         href: service-create-qr-code-for-report.md
-      - name: Экспорт отчета из службы в Power BI Desktop (предварительная версия)
+      - name: Экспорт отчета в Power BI Desktop (предварительная версия)
         href: service-export-to-pbix.md
       - name: Фильтрация отчета с помощью параметров в URL-адресе
         href: service-url-filters.md
@@ -672,18 +660,24 @@ items:
         href: power-bi-reports-performance.md
     - name: Задать вопросы о данных
       items:
+      - name: Вопросы и ответы по началу работы с Power BI
+        href: power-bi-visualization-introduction-to-q-and-a.md
       - name: Создание визуализаций и отчетов с модулем "Вопросы и ответы"
         href: power-bi-tutorial-q-and-a.md
       - name: Настройка данных для правильной работы с функцией "Вопросы и ответы".
         href: service-prepare-data-for-q-and-a.md
-      - name: Включение Cortana для Power BI
-        href: service-cortana-enable.md
       - name: Создание избранных вопросов для функции "Вопросы и ответы"
         href: service-q-and-a-create-featured-questions.md
-      - name: Типы визуализаций в Power BI
+      - name: Типы визуализаций в функции "Вопросы и ответы"
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: Использование функции "Вопросы и ответы" для активных подключений
         href: service-q-and-a-direct-query.md
+      - name: Включение Cortana для Power BI
+        href: service-cortana-enable.md
+      - name: Быстрый анализ данных в Power BI
+        href: service-insights.md
+      - name: Оптимизация данных для Краткой аналитики
+        href: service-insights-optimize.md
     - name: Совместное использование работы
       items:
       - name: Как совместно работать и предоставлять общий доступ?
@@ -710,28 +704,6 @@ items:
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
       - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: Пакеты содержимого
-      items:
-      - name: Управление пакетами содержимого организации, их обновление и удаление
-        href: service-organizational-content-pack-manage-update-delete.md
-      - name: 'Пакеты содержимого организации: копирование, обновление и получение доступа'
-        href: service-organizational-content-pack-copy-refresh-access.md
-      - name: Знакомство с пакетами содержимого организации
-        href: service-organizational-content-pack-introduction.md
-      - name: Создание и публикация пакета содержимого организации
-        href: service-organizational-content-pack-create-and-publish.md
-      - name: Удаление подключения к пакету содержимого организации
-        href: service-organizational-content-pack-disconnect.md
-      - name: Сертификация
-        items:
-        - name: Программа сертификации для пакетов содержимого
-          href: service-content-pack-overview.md
-        - name: Создание пакета содержимого шаблона
-          href: template-content-pack-authoring.md
-        - name: Тестирование пакета содержимого шаблона
-          href: template-content-pack-testing.md
-        - name: Возможности пакета содержимого шаблона
-          href: template-content-pack-experience.md
     - name: Опубликовать
       items:
       - name: Издатель Power BI для Excel
@@ -788,26 +760,56 @@ items:
       items:
       - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
         href: paginated-reports-report-builder-power-bi.md
-      - name: Вопросы и ответы по отчетам с разбивкой на страницы
+      - name: Вопросы и ответы по отчетам с разбивкой на страницы (предварительная версия)
         href: paginated-reports-faq.md
-      - name: Создание и отправка отчета с разбивкой на страницы
+      - name: Создание и отправка отчета с разбивкой на страницы (предварительная версия)
         href: paginated-reports-quickstart-aw.md
-      - name: Работа в представлении конструктора отчетов
+      - name: Работа в представлении конструктора отчетов (предварительная версия)
         href: paginated-reports-report-design-view.md
-      - name: Ввод данных непосредственно в отчет с разбивкой на страницы
+      - name: Прямой ввод данных в отчет с разбивкой на страницы (предварительная версия)
         href: paginated-reports-enter-data.md
-      - name: Создание внедренного источника данных
+      - name: Создание внедренного источника данных (предварительная версия)
         href: paginated-reports-embedded-data-source.md
-      - name: Создание внедренного набора данных
+      - name: Создание внедренного набора данных (предварительная версия)
         href: paginated-reports-create-embedded-dataset.md
-      - name: Создание параметров
+      - name: Создание параметров (предварительная версия)
         href: paginated-reports-parameters.md
-      - name: Публикация отчета с разбивкой на страницы
+      - name: Публикация отчета с разбивкой на страницы (предварительная версия)
         href: paginated-reports-save-to-power-bi-service.md
-      - name: Просмотр отчета с разбивкой на страницы
+      - name: Просмотр отчета с разбивкой на страницы (предварительная версия)
         href: paginated-reports-view-power-bi-service.md
-      - name: Взаимодействие с параметрами
+      - name: Взаимодействие с параметрами (предварительная версия)
         href: paginated-reports-view-parameters.md
+    - name: Другие задачи
+      items:
+      - name: Переименование содержимого Power BI
+        href: service-rename.md
+      - name: Внедрите Power BI в своей правительственной организации
+        href: service-govus-signup.md
+      - name: Удаление содержимого в Power BI
+        href: service-delete.md
+      - name: Пакеты содержимого
+        items:
+        - name: Управление пакетами содержимого организации, их обновление и удаление
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: 'Пакеты содержимого организации: копирование, обновление и получение доступа'
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: Знакомство с пакетами содержимого организации
+          href: service-organizational-content-pack-introduction.md
+        - name: Создание и публикация пакета содержимого организации
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: Удаление подключения к пакету содержимого организации
+          href: service-organizational-content-pack-disconnect.md
+        - name: Сертификация
+          items:
+          - name: Программа сертификации для пакетов содержимого
+            href: service-content-pack-overview.md
+          - name: Создание пакета содержимого шаблона
+            href: template-content-pack-authoring.md
+          - name: Тестирование пакета содержимого шаблона
+            href: template-content-pack-testing.md
+          - name: Возможности пакета содержимого шаблона
+            href: template-content-pack-experience.md
   - name: Ресурсы
     items:
     - name: Видео
@@ -1008,7 +1010,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848273
       - name: Загрузка SDK .NET
         href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: Сервер отчетов Power BI
+- name: сервере отчетов Power BI
   items:
   - name: Обзор
     items:
@@ -1249,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830408"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900389"

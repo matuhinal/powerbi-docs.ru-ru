@@ -1,8 +1,13 @@
-# powerbi-content-pr
-You've found the GitHub repository for the technical documentation that is published to the Power BI Documentation Center at [http://powerbi.microsoft.com/documentation](http://powerbi.microsoft.com/documentation).
+# <a name="microsoft-power-bi-documentation"></a>Документация по Microsoft Power BI
 
-This repository also contains guidance to help you contribute to our technical documentation. For a list of the articles in the contributors' guide, see [the index](contributor-guide/contributor-guide-index.md).
+Это репозиторий GitHub для технической документации по **Power BI**. Эта документация публикуется здесь: [https://docs.microsoft.com/power-bi](https://docs.microsoft.com/power-bi).
 
-## Code of conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## <a name="how-to-contribute"></a>Как принять участие
 
+Благодарим за ваш интерес к пополнению содержимого сайта [Docs.microsoft.com](https://docs.microsoft.com/), где представлены технические материалы по продуктам и службам Майкрософт.
+
+Чтобы узнать, как можно дополнить содержимое этого репозитория, ознакомьтесь с [руководством участника](https://docs.microsoft.com/contribute). Если вы являетесь сотрудником корпорации Майкрософт, см. [внутреннюю версию](https://aka.ms/docsguidescontribute) этого руководства.
+
+## <a name="code-of-conduct"></a>Правила поведения
+
+На этот проект распространяются [правила поведения разработчиков продуктов с открытым кодом (Майкрософт)](https://opensource.microsoft.com/codeofconduct/). См. [вопросы и ответы по правилам поведения](https://opensource.microsoft.com/codeofconduct/faq/) или обратитесь по адресу [opencode@microsoft.com](mailto:opencode@microsoft.com), если у вас есть вопросы или комментарии.
