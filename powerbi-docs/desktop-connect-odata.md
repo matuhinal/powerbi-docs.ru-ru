@@ -4,18 +4,19 @@ description: Простое и удобное подключение к веб-�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6cffff89a8c0086cbd7c7e229b4e678052fe6c70
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a0aa658aedb3599d7962e08289b306bf0f24028e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669498"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025224"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Подключение к веб-каналу OData в Power BI Desktop
 В Power BI Desktop вы можете подключиться к **веб-каналу OData** и использовать его так же, как и любой другой источник данных в Power BI Desktop.
@@ -46,7 +47,7 @@ Power BI Desktop подключится к веб-каналу OData и выве
 
 Теперь вы можете работать с импортированной из канала OData информацией в приложении Power BI Desktop: создавать визуальные элементы и отчеты, а также подключать и импортировать прочие сведения, например книги Excel, базы и любые другие источники данных.
 
-### <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)

@@ -4,18 +4,19 @@ description: Простое и удобное подключение к данн
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51eb46b9c54aa6f61cf2ec233a14128ca1b41607
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: d20714536ae7556b96b86638671f43896deb5533
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670585"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025081"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Подключение к CSV-файлам в Power BI Desktop
 Файлы с разделителями-запятыми (формат *CSV*) подключаются в Power BI Desktop почти так же, как и книги Excel. Обе процедуры довольно просты, и в этой статье объясняется, как подключиться к любому CSV-файлу, к которому у вас есть доступ.
@@ -44,7 +45,7 @@ ms.locfileid: "52670585"
 
 Теперь вы можете работать с ними в приложении Power BI Desktop: создавать визуальные элементы и отчеты, а также подключать и импортировать прочие сведения, например книги Excel, базы и любые другие источники данных.
 
-### <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)

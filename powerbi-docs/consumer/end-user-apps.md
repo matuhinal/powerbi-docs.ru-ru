@@ -7,18 +7,18 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: cba5f971e81a425de661e03ac66c5c6d5fe82049
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507653"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979382"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
-*Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации создают и распространяют приложения с важной бизнес-информацией. [Внешние службы](end-user-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
+*Приложения* в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Сотрудники организации создают и распространяют приложения с важной бизнес-информацией. [Внешние службы](../service-connect-to-services.md), такие как Google Analytics и Microsoft Dynamics CRM, которые вы, вероятно, уже используете, также поддерживают приложения Power BI. 
 
 ![Приложения в Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
 
@@ -63,5 +63,5 @@ ms.locfileid: "51507653"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Приложения Power BI для внешних служб](end-user-connect-to-services.md)
+[Приложения Power BI для внешних служб](../service-connect-to-services.md)
 
