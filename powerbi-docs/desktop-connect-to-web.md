@@ -4,18 +4,19 @@ description: Простое и удобное подключение к данн
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2aef47ab1716464c0896b624069a6ebbeb4adc54
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a0d7eeccede8f6402256eb8655657ca12dde075b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578389"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026576"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Подключение к веб-странице из Power BI Desktop
 Вы можете подключиться к веб-странице и импортировать информацию с нее в приложение Power BI Desktop, а затем использовать ее в визуальных элементах и моделях данных.
@@ -44,7 +45,7 @@ ms.locfileid: "52578389"
 
 Более подробно подключение к веб-страницам рассматривается в [руководстве по началу работы с Power BI Desktop](desktop-getting-started.md).
 
-### <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)

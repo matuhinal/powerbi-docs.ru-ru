@@ -4,18 +4,19 @@ description: Простой и удобный ввод данных непоср
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0518350e3dd9fa9d0e7bf94c5d37621a308c37d1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f58c5ec46cb59ba65d6ecbedb7a119d73572ea4b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669412"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025587"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Ввод данных непосредственно в Power BI Desktop
 Вы можете вводить данные непосредственно в Power BI Desktop и использовать их в своих отчетах и визуализациях. Например, можно скопировать часть книги или веб-страницы, а затем вставить ее в Power BI Desktop.
@@ -38,7 +39,7 @@ Power BI Desktop может попытаться применить к знач�
 
 Теперь вы можете работать с информацией в приложении Power BI Desktop: создавать визуальные элементы и отчеты, а также подключать и импортировать прочие сведения, например книги Excel, базы и любые другие источники данных.
 
-### <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
