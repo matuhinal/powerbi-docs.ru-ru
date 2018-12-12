@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908760"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900558"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Руководство: "Начало работы со службой Power BI (app.powerbi.com)"
 В этом руководстве содержатся сведения, которые помогут вам приступить к работе со ***службой Power BI***. Чтобы иметь представление о соответствии службы Power BI другим предложениям Power BI, мы советуем ознакомиться со статьей [Интерактивное обучение Power BI](power-bi-overview.md).
@@ -158,5 +158,5 @@ ms.locfileid: "48908760"
 Готовы узнать больше?  Вот некоторые замечательные возможности для изучения Power BI.
 
 > [!div class="nextstepaction"]
-> [Подключение к используемым веб-службам](consumer/end-user-connect-to-services.md)
+> [Подключение к используемым веб-службам](service-connect-to-services.md)
 

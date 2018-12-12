@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f2e3ad8528108e63a5573a3df502f90fee6d4c55
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670171"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900113"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -37,7 +37,7 @@ ms.locfileid: "52670171"
 * [импорт данных](service-get-data.md) и отчетов из файлов Excel, CSV и Power BI Desktop;
 * Шлюз управления данными
 * шифрование всех данных в Azure SQL и хранилище BLOB-объектов для Power BI;
-* подключение к службам с помощью [пакетов содержимого](consumer/end-user-connect-to-services.md).
+* подключение к службам с помощью [пакетов содержимого](service-connect-to-services.md).
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Возможности подключения между службами для государственных учреждений и общедоступными облачными службами Azure 
 

@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417241"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829649"
 ---
 # <a name="kpi-visuals"></a>Визуальные элементы КПЭ
 Ключевое показатель эффективности (КПЭ) — наглядный индикатор, который позволяет оценить достижение определенной измеримой цели. Дополнительные сведения о ключевых показателях эффективности см. в сети [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -46,7 +46,7 @@ ms.locfileid: "47417241"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Откройте отчет в представлении "Отчет" и [выберите желтую вкладку, чтобы добавить новую страницу](../power-bi-report-add-page.md).    
+1. Откройте отчет в представлении отчета и выберите желтую вкладку, чтобы добавить новую страницу.    
 2. В области "Поля" выберите **Sales > Total Units This Year** (Продажи > Всего единиц за этот год).  Это будет наш индикатор.
 3. Добавьте **Time > FiscalMonth**  (Время > Финансовый месяц).  Так будет выглядеть наш тренд.
 4. ВАЖНО. Отсортируйте данные диаграммы по **финансовым месяцам**. Как только вы преобразуете визуализацию в ключевой показатель эффективности, возможность сортировки станет недоступна.

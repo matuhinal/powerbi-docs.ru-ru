@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49397010"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830017"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Руководство по использованию функции "Вопросы и ответы" для создания визуализаций и отчетов
 В [этом обзоре](consumer/end-user-q-and-a.md) представлено описание функции "Вопросы и ответы" Power BI с двух сторон: *потребители* используют панели мониторинга и отчеты, которые им предоставлены, а *создатели* управляют отчетами и наборами данных. Первая часть этого руководства предназначена главным образом для тех, кто использует панели мониторинга через службу Power BI. Вторая часть будет полезна тем, кто создает отчеты через в Power BI или Power BI Desktop. Особенности применения функции "Вопросы ответы" совместно с [Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) и [Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях.
@@ -74,7 +74,7 @@ ms.locfileid: "49397010"
     **Служба**    
     ![](media/power-bi-tutorial-q-and-a/power-bi-service.png)
 
-2. На холсте отчетов появится текстовое поле для функции "Вопросы и ответы". В следующем примере такое поле отображается поверх другой визуализации. С ним можно работать и так, но лучше всего [добавить в отчет пустую страницу](power-bi-report-add-page.md), прежде чем задавать вопрос.
+2. На холсте отчетов появится текстовое поле для функции "Вопросы и ответы". В следующем примере такое поле отображается поверх другой визуализации. С ним можно работать и так, но лучше добавить в отчет пустую страницу, прежде чем задавать вопрос.
 
     ![](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 

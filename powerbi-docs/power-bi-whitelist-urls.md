@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157133"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578734"
 ---
 # <a name="power-bi-urls"></a>URL-адреса Power BI
 
@@ -91,7 +91,7 @@ ms.locfileid: "52157133"
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
 | 1 | **Требуется:** импорт пользовательского визуального элемента из интерфейса Marketplace или из файла | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **Необязательно:** карты Bing | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
+| 2 | **Необязательно:** карты Bing | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | **Необязательно:** PowerApps | См. раздел [Необходимые службы](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) на сайте требований к системе PowerApps. | Н/Д |
 | 4 | **Необязательно:** Visio | См. документацию Office 365 по [URL-адресам Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), а также по [SharePoint Online и OneDrive для бизнеса](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business). | Н/Д |
 | | | |
@@ -103,7 +103,7 @@ ms.locfileid: "52157133"
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
 | 1 | **Необязательно:** веб-сайт сообщества | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **Необязательно:** сайт документации | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.neting-district.clicktale.net | TCP 443 |
+| 2 | **Необязательно:** сайт документации | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | **Необязательно:** сайт с материалами для скачивания (для Power BI Desktop и т. д.) | download.microsoft.com | TCP 443 |
 | 4 | **Необязательно:** внешние перенаправления | aka.ms </br> go.microsoft.com | TCP 443 |
 | 5 | **Необязательно:** сайт обратной связи| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |

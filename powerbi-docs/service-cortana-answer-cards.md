@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187336"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829902"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Создание пользовательской страницы ответов для Кортаны в службе Power BI или Power BI Desktop
 Используйте все возможности Power BI для создания специальных страниц отчета — *страниц ответов Кортаны* (иногда их называют *картами ответов Кортаны*), предназначенных для поиска ответов на вопросы Кортаны.
@@ -41,7 +41,7 @@ ms.locfileid: "47187336"
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Создание страницы ответов, предназначенной для Кортаны
 Размер *страницы ответов Кортаны* в отчете настраивается специально для Кортаны. Так Кортана может отображать ее на экране как ответ на вопрос. Чтобы создать страницу ответов Кортаны, сделайте следующее:
 
-1. Рекомендуем начать с [пустой страницы отчета](power-bi-report-add-page.md).
+1. Рекомендуем начать с пустой страницы отчета.
 2. В области **Визуализации** выберите значок валика, а затем щелкните **Размер страницы** > **Тип** > **Кортана**.
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

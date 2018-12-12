@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736903"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830224"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Часть 2. Добавление визуализаций в отчет Power BI
 В [части 1](power-bi-report-add-visualizations-ii.md) вы создали базовую визуализацию, установив флажки рядом с именами полей.  Во второй части вы узнаете, как использовать функцию перетаскивания и полностью реализовать возможности панелей **Поля** и **Визуализации** для создания и изменения визуализаций.
@@ -32,7 +32,7 @@ ms.locfileid: "44736903"
 1. Откройте PBIX-файл с примером "Анализ розничной торговли" в Power BI Desktop. 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  [Добавьте новую страницу](../power-bi-report-add-page.md), выбрав желтый значок "плюс" в нижней части холста.
+2. Добавьте новую страницу, выбрав желтый значок плюса в нижней части холста.
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>Добавьте визуализацию с отображением показателей объема продаж текущего года по сравнению с продажами в предыдущем году.
 1. В таблице **Продажи** последовательно выберите элементы **Продажи этого года** > **Значение** и **Продажи прошлого года**. Power BI создаст гистограмму.  Она представляет интерес и требует более глубокого анализа. Как продажи распределяются по месяцам?  

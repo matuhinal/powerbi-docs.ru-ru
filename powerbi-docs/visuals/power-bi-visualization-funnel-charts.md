@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 345293e6b8bd7047ecfe1716f0b7be1c5bed9c58
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416942"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829879"
 ---
 # <a name="funnel-charts"></a>Воронкообразные диаграммы
 Воронкообразная диаграмма позволяет визуализировать линейный процесс, который имеет последовательные связанные этапы. Например, воронка продаж, которая отслеживает клиентов по этапам: "Интерес" \> "Соответствующий интерес" \> "Потенциальный клиент" \> "Контракт" \> "Закрыто".  Форма воронки визуально передает состояние отслеживаемого процесса.
@@ -55,7 +55,7 @@ ms.locfileid: "47416942"
 
 Эти инструкции основаны на примере анализа возможных сделок. Чтобы продолжить работу, [скачайте пример](../sample-datasets.md) для службы Power BI (app.powerbi.com) или Power BI Desktop.   
 
-1. Начните с [пустой страницы отчета](../power-bi-report-add-page.md) и выберите поле **Этап продажи**\>**Этап продажи**. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](../service-interact-with-a-report-in-editing-view.md).
+1. Начните с пустой страницы отчета и выберите поле **Этап продажи**\>**Этап продажи**. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](../service-interact-with-a-report-in-editing-view.md).
    
     ![выбранный элемент "Стадия продажи"](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Преобразуйте диаграмму](power-bi-report-change-visualization-type.md) в воронку. Обратите внимание, что параметр **Этап продажи** также находится в **группе** . 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448944"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900543"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
@@ -82,7 +82,7 @@ ms.locfileid: "47448944"
 
 Дополнительные сведения см. в статье [Диаграммы "Радиальный датчик" в Power BI](power-bi-visualization-radial-gauge-charts.md).
 
-### <a name="kpis"></a>ключевые показатели эффективности;
+### <a name="kpis"></a>Ключевые показатели эффективности
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
@@ -129,7 +129,7 @@ ms.locfileid: "47448944"
 ### <a name="matrix"></a>Матрица
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
-Дополнительные сведения см. в статье [Использование визуального элемента "Матрица" в Power BI Desktop](desktop-shape-map.md).
+Дополнительные сведения см. в статье [Использование визуального элемента "Матрица" в Power BI Desktop](desktop-matrix-visual.md).
 
 ### <a name="pie-charts"></a>Круговые диаграммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)

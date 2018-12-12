@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396826"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830109"
 ---
 # <a name="export-data-from-visualizations"></a>Экспорт данных из визуализаций
 Чтобы просмотреть данные, которые используются для создания визуализации, откройте их в Power BI или экспортируйте в Excel в виде файла XLSX или CSV. Для экспорта данных требуется лицензия Pro или Premium и права на редактирование набора данных и отчета. 
@@ -38,7 +38,7 @@ ms.locfileid: "49396826"
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>Экспорт из визуализации в отчете
-Для начала откройте [отчет по примеру анализа закупок](../sample-procurement.md) в [представлении редактирования](../consumer/end-user-reading-view.md). [Добавьте новую пустую страницу отчета](../power-bi-report-add-page.md). Затем выполните следующие действия, чтобы добавить агрегирование и фильтры уровня визуализации.
+Для начала откройте [отчет по примеру анализа закупок](../sample-procurement.md) в [представлении редактирования](../consumer/end-user-reading-view.md). Добавьте новую пустую страницу отчета. Затем выполните следующие действия, чтобы добавить агрегирование и фильтры уровня визуализации.
 
 1. Создайте гистограмму.  В области "Поля" выберите **Location > City** (Расположение > Город) и **Invoice > Discount Percent** (Счет > Процент скидки).  Возможно, нужно будет переместить **Процент скидки** в область "Значение". 
 
