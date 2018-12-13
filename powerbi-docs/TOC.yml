@@ -262,19 +262,19 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: Использование среза числового диапазона
         href: desktop-slicer-numeric-range.md
-      - name: Создание адаптивного визуального элемента "Срез", размер которого можно изменять
+      - name: Создание элемента "Срез" с возможностью изменения размера
         href: power-bi-slicer-filter-responsive.md
-      - name: Создание настраиваемых карт ответов Power BI для Cortana
+      - name: Создание пользовательских карт ответов Кортаны
         href: service-cortana-answer-cards.md
       - name: Безопасность на уровне строк
         href: desktop-rls.md
-      - name: Настройка подсказок в Power BI Desktop
+      - name: Настройка подсказок
         href: desktop-custom-tooltips.md
-      - name: Условное форматирование таблиц в Power BI Desktop
+      - name: Условное форматирование таблицы
         href: desktop-conditional-table-formatting.md
       - name: Сортировка по столбцу в Power BI Desktop
         href: desktop-sort-by-column.md
-      - name: Создание отчетов, оптимизированных для мобильных приложений Power BI
+      - name: Создание отчетов, оптимизированных для мобильных приложений
         href: desktop-create-phone-report.md
       - name: Использование функций просмотра данных и просмотра записей
         href: desktop-see-data-see-records.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: Рекомендации по работе с визуализациями
         href: visuals/power-bi-visualization-best-practices.md
-      - name: Изменение типа визуализации в отчете Power BI
+      - name: Изменение типа визуализации в отчете
         href: visuals/power-bi-report-change-visualization-type.md
       - name: Ограничения точек данных по типу визуального элемента
         href: visuals/power-bi-data-points.md
       - name: Начало работы с форматированием цветом и свойствами осей
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Советы и рекомендации по форматированию цветом в Power BI
+      - name: Советы и рекомендации по форматированию цветом
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Копирование и вставка визуализации в Power BI
+      - name: Копирование и вставка визуализации
         href: visuals/power-bi-visualization-copy-paste.md
       - name: Экспорт данных, используемых для создания визуализации
         href: visuals/power-bi-visualization-export-data.md
-      - name: Перемещение визуализации в отчете Power BI, изменение ее размеров и открытие в новом окне
+      - name: Перемещение визуализации в отчете, изменение ее размеров и открытие в новом окне
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Гиперссылки в таблицах
         href: power-bi-hyperlinks-in-tables.md
-      - name: Добавление гиперссылки в текстовое поле в отчете Power BI
+      - name: Добавление гиперссылки в текстовое поле в отчете
         href: service-add-hyperlink-to-text-box.md
       - name: Изменение способа взаимодействия визуальных элементов в отчете
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: Панели мониторинга
       items:
-      - name: Панель мониторинга Power BI
+      - name: Общие сведения о панелях мониторинга
         href: service-dashboards.md
       - name: Плитки панели мониторинга
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: Создание рабочих областей (предварительная версия)
         href: service-create-the-new-workspaces.md
+      - name: Управление хранилищем данных в рабочих областях
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Поделиться отфильтрованным отчетом
         href: service-share-reports.md
       - name: Публикация из Power BI в Интернет
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181020"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280976"
