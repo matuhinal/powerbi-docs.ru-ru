@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611367"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026254"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Новые функции фильтров в отчетах Power BI (предварительная версия)
 
-В этой статье описаны новые функции и внешний вид фильтров в Power BI. При разработке отчетов в Power BI Desktop или в службе Power BI можно сделать так, чтобы область фильтров можно было использовать как часть отчета. Благодаря новым функциям старая область фильтров теперь используется как область редактирования фильтра, тогда как новая область отображается только для пользователей вашего отчета. 
+В этой статье подробно рассматриваются новые функции фильтров. Фильтры в Power BI теперь включают новые функции и имеют новый внешний вид. При разработке отчетов в Power BI Desktop или в службе Power BI можно сделать так, чтобы область фильтров можно было использовать как часть отчета. Благодаря новым функциям старая область фильтров теперь используется как область редактирования фильтра, тогда как новая область отображается только для пользователей вашего отчета. 
  
 ![Представление по умолчанию (без применения дополнительной настройки)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ ms.locfileid: "51611367"
 
     ![Выбор значка форматирования](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. Разверните **область фильтров**, чтобы настроить цвет фона, шрифт, значок и левую границу, чтобы дополнить страницу отчета.
+1. Разверните **Область фильтра**, чтобы настроить цвет фона, значок и дополнить страницу отчета.
 
     ![Развертывание области фильтров](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268946"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180583"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Создание и использование потоков данных в Power BI (предварительная версия)
 
@@ -143,6 +143,10 @@ ms.locfileid: "51268946"
 
 Когда вы выберете сущность и нажмете кнопку **Загрузить**, сущности отобразятся на панели **Поля** в **Power BI Desktop**. По виду и функциям они ничем не отличаются от **таблиц** из любого другого набора данных.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Использование потоков данных, хранящихся в Azure Data Lake Storage 2-го поколения
+
+Некоторым организациях может потребоваться использовать собственные хранилища для создания потоков данных и управления ими. Вы можете интегрировать потоки данных с Azure Data Lake Storage 2-го поколения, если соблюдать требования и правильно управлять разрешениями. Доступна документация по всем требованиям для такого подхода, начиная с обзорного документа [о потоках данных и интеграции Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md).
+
 
 ## <a name="troubleshooting-data-connections"></a>Устранение неполадок при подключении к данным
 
@@ -160,6 +164,7 @@ ms.locfileid: "51268946"
 * [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
 * [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
 * [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
 * [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)

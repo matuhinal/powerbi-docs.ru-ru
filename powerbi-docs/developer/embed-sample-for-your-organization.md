@@ -1,31 +1,32 @@
 ---
-title: Внедрение содержимого Power BI в приложение для организации
-description: Узнайте, как правильно интегрировать (внедрить) в веб-приложение нужный организации отчет, панель мониторинга или плитку с помощью интерфейсов API Power BI.
+title: Внедрение аналитики для интеграции содержимого Power BI в приложение для вашей организации
+description: Узнайте, как правильно интегрировать (внедрять) в приложение нужные организации отчеты, информационные панели или плитки с помощью API Power BI для встроенной аналитики. Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396872"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180767"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Руководство. Внедрение отчета, панели мониторинга или плитки Power BI в приложение для организации
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Руководство. Внедрение отчетов, панелей мониторинга и плиток Power BI в приложение для организации
 
-В этом руководстве показано, как интегрировать отчет в приложение. Вы будете использовать пакет SDK для .NET Power BI и API JavaScript Power BI для внедрения Power BI в приложение для вашей организации. Power BI позволяет внедрять в приложение отчеты, панели мониторинга и плитки с помощью **данных, принадлежащих пользователю**. **Данные, принадлежащие пользователю**, позволяют приложению расширить возможности службы Power BI.
+В **Power BI** можно внедрять в приложение отчеты, панели мониторинга и плитки, используя принадлежащие пользователю данные. **Принадлежащие пользователю данные** для приложения расширяют возможности службы Power BI, позволяя использовать встроенную аналитику. В этом руководстве показано, как интегрировать отчет в приложение. Вы можете использовать пакет SDK для .NET Power BI и API Power BI для JavaScript для внедрения Power BI в приложение для вашей организации.
 
 ![Внедрение отчета Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 В этом руководстве вы выполните следующие задачи:
->[!div class="checklist"]
->* регистрация приложения в Azure;
->* внедрение отчета Power BI в приложение.
+> [!div class="checklist"]
+> * регистрация приложения в Azure;
+> * внедрение отчета Power BI в приложение.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -40,9 +41,9 @@ ms.locfileid: "49396872"
 
 Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, внедрение необходимо настроить в вашей среде. Для настройки выполните одно из следующих действий:
 
-- Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения, с помощью которого можно создать среду и внедрить отчет.
+* Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения, с помощью которого можно создать среду и внедрить отчет.
 
-- Если вы решили установить среду вручную, следуйте инструкциям в следующих разделах.
+* Если вы решили установить среду вручную, следуйте инструкциям в следующих разделах.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Регистрация приложения в Azure Active Directory
 
@@ -60,7 +61,7 @@ ms.locfileid: "49396872"
 
     ![Регистрация нового приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Следуя инструкциям на экране, создайте приложение. Чтобы применить модель **данных, принадлежащих пользователю**, используйте **тип приложения** **веб-приложение или API**. Также укажите **URL-адрес входа**, который нужен Azure AD для ответа на запросы токенов. Введите значение, относящееся к вашему приложению. Например, `http://localhost:13526/`.
+4. Следуя инструкциям на экране, создайте приложение. Чтобы применить модель **данных, принадлежащих пользователю**, используйте **тип приложения** **веб-приложение или API**. Укажите **URL-адрес входа**, который требуется в Azure AD для возврата ответов на запросы токенов. Введите значение, относящееся к вашему приложению. Например, `http://localhost:13526/`.
 
     ![Создание приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
@@ -168,69 +169,69 @@ ms.locfileid: "49396872"
 
     1. Войдите на [портал Azure](https://portal.azure.com).
 
-        ![Панель мониторинга портала Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Панель мониторинга портала Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
+    2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-        ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Выберите приложение, для которого нужно использовать **ApplicationID**.
+    3. Выберите приложение, для которого нужно использовать **ApplicationID**.
 
-        ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Отобразится **идентификатор приложения**, указанный в поле идентификатора GUID. Поместите этот **идентификатор приложения** в поле **ApplicationID** приложения.
+    4. Отобразится **идентификатор приложения**, указанный в поле идентификатора GUID. Поместите этот **идентификатор приложения** в поле **ApplicationID** приложения.
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Заполните сведения **ApplicationID** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.
+    Заполните сведения **ApplicationID** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.
 
-    1. Чтобы получить значение **ApplicationSecret**, сделайте следующее.
+    Чтобы получить значение **ApplicationSecret**, сделайте следующее.
 
-        1. Войдите на [портал Azure](https://portal.azure.com).
+    1. Войдите на [портал Azure](https://portal.azure.com).
 
-            ![Портал Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Портал Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
+    2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-            ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
+    3. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
 
-            ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. Выберите **Параметры**.
+    4. Выберите **Параметры**.
 
-            ![Выбор пункта "Параметры"](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![Выбор пункта "Параметры"](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. Выберите раздел **Ключи**.
+    5. Выберите раздел **Ключи**.
 
-            ![Выбор раздела "Ключи".](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![Выбор раздела "Ключи".](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. Введите имя в поле **Описание** и выберите длительность. Затем выберите **Сохранить**, чтобы получить **Значение** для вашего приложения. Когда вы закроете панель **Ключи** после сохранения значения ключа, поле значения отображается только как скрытое. На этом этапе вы не можете получить значение ключа. Если вы потеряете значение ключа, потребуется создать новое на портале Azure.
+    6. Введите имя в поле **Описание** и выберите длительность. Затем выберите **Сохранить**, чтобы получить **Значение** для вашего приложения. Когда вы закроете панель **Ключи** после сохранения значения ключа, поле значения отображается только как скрытое. На этом этапе вы не можете получить значение ключа. Если вы потеряете значение ключа, потребуется создать новое на портале Azure.
 
-        ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. Укажите в поле **groupId** идентификатор GUID рабочей области приложения из Power BI.
+    7. Укажите в поле **groupId** идентификатор GUID рабочей области приложения из Power BI.
 
-        ![Ввод groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![Ввод groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. Укажите в поле **reportId** идентификатор GUID отчета из Power BI.
+    8. Укажите в поле **reportId** идентификатор GUID отчета из Power BI.
 
-        ![Ввод reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![Ввод reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. Запустите приложение:
 
-    1. Сначала выберите **Запуск** в **Visual Studio**.
+    Выберите **Запуск** в **Visual Studio**.
 
-        ![Запуск приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![Запуск приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. После выберите **Получить отчет**.
+    После выберите **Получить отчет**.
 
-        ![Выбор содержимого](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![Выбор содержимого](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. Теперь вы можете просмотреть отчет в примере приложения.
+    Теперь вы можете просмотреть отчет в примере приложения.
 
-        ![Просмотр отчета в приложении](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![Просмотр отчета в приложении](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Внедрение содержимого в приложении
 

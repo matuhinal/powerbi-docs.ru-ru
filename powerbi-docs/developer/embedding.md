@@ -1,6 +1,6 @@
 ---
-title: Внедрение в Power BI
-description: Power BI предоставляет интерфейсы API для внедрения панелей мониторинга и отчетов в приложения.
+title: Использование встроенной аналитики с Power BI
+description: Power BI предоставляет API для использования встроенной аналитики для панелей мониторинга и отчетов в приложениях. Узнайте, как выполнять внедрение с использованием Power BI в средах PaaS и SaaS, с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,17 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973777"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180337"
 ---
-# <a name="embedding-with-power-bi"></a>Внедрение в Power BI
+# <a name="embedded-analytics-with-power-bi"></a>Использование встроенной аналитики с Power BI
 
-Возможности службы Power BI (SaaS) и Power BI Embedded в Azure (PaaS) предоставляют единый API для внедрения информационных панелей и отчетов. Это означает, что у вас есть ряд возможностей и доступ к последним функциям Power BI, таким как панели мониторинга, шлюзы и рабочие области приложений, которые можно использовать при внедрении содержимого.
+Возможности службы Power BI (SaaS) и Power BI Embedded в Azure (PaaS) предоставляют единый API для внедрения информационных панелей и отчетов. Это означает, что у вас есть ряд возможностей, включая возможность доступа к таким компонентам Power BI, как панели мониторинга, шлюзы и рабочие области приложений, которые можно использовать при внедрении содержимого.
 
 Воспользуйтесь [средством установки внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения и приступить к работе.
 
@@ -39,7 +40,7 @@ ms.locfileid: "45973777"
 
 ## <a name="embedding-for-your-organization"></a>Внедрение для организации
 
-**Внедрение для организации** позволяет расширить возможности службы Power BI. Внедрение для организации требует, чтобы пользователи вашего приложения вошли в службу Power BI для просмотра своего содержимого. Когда сотрудник организации войдет в приложение, он получит доступ только к своим панелям мониторинга и отчетам или предоставленным ему в службе Power BI.
+**Внедрение для организации** позволяет расширить возможности службы Power BI. При выполнении внедрения для организации требуется, чтобы пользователи вашего приложения вошли в службу Power BI для просмотра своего содержимого. Когда сотрудник организации войдет в приложение, он получит доступ только к своим панелям мониторинга и отчетам или предоставленным ему в службе Power BI.
 
 *Примеры внедрения для организации включают внутренние веб-приложения, например, [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [интеграция с Microsoft Teams (у вас должны быть права администратора)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) и [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
 
@@ -47,7 +48,7 @@ ms.locfileid: "45973777"
 
 * [Интеграция отчета в приложение](embed-sample-for-your-organization.md)
 
-При внедрении для пользователей Power BI возможности самообслуживания, например редактирование, сохранение и т. д., доступны посредством [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
+При внедрении для пользователей Power BI возможности самообслуживания, например редактирование, сохранение и т. д., доступны с использованием [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
 
 Воспользуйтесь [средством установки внедрения](https://aka.ms/embedsetup/UserOwnsData) в вашей организации, чтобы быстро приступить к работе и скачать образец приложения, с помощью которого можно интегрировать отчет в организации.
 

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850483"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026829"
 ---
 # <a name="using-auditing-within-your-organization"></a>Применение функции аудита в своей организации
 
@@ -73,13 +74,13 @@ ms.locfileid: "51850483"
 
 Если выбранный диапазон дат превышает 90 дней, отображается сообщение об ошибке. Если используется максимальный диапазон в 90 дней, выберите текущее время для поля **Дата начала**. В противном случае отобразится сообщение об ошибке, предупреждающее, что дата начала предшествует дате окончания. Если функция аудита была включена в течение последних 90 дней, начало диапазона дат не может предшествовать дате включения этой функции.
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![Поиск по дате](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Поиск журналов аудита по пользователям
 
 В записях журнала аудита можно искать действия, выполненные конкретными пользователями. Для этого введите одно или несколько имен пользователей в поле **Пользователи**. Имя пользователя выглядит как адрес электронной почты. Это учетная запись, с помощью которой пользователи входят в Power BI. Чтобы поиск вернул записи для всех пользователей (и учетных записей служб) в организации, оставьте это поле пустым.
 
-![Поиск по дате](media/service-admin-auditing/search-audit-log-by-user.png)
+![Поиск по пользователям](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Просмотр результатов поиска
 

@@ -1,21 +1,22 @@
 ---
 title: Power BI для потребителей отчетов
-description: Приступаете к работе в Power BI? Вы ознакомитесь с разными продуктами и службами, входящими в Power BI, и узнаете, что с ними можно делать.
+description: Приступаете к работе в Power BI? Узнайте о функциях и возможностях Power BI и о том, как пользователи Power BI или отчетов Power BI могут их использовать.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 10/11/2018
+ms.date: 12/10/2018
 ms.author: mihart
 layout: landingpage
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 566511622ffd167d3389ab0ba290671f577a759f
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: bd4592a8ba28277356f251c81906ac265c1759a2
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396596"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280887"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI для потребителей
 Как *конечный пользователь* или *потребитель* вы являетесь тем, кто получает панели мониторинга, отчеты и приложения от коллег. При работе в ***службе Power BI*** вы просматриваете это содержимое и взаимодействуете с ним с целью принятия бизнес-решений.
@@ -63,7 +64,7 @@ ms.locfileid: "49396596"
                                                                         <div class="cardText"> 
                                                                                       <h3>Дополнительные задачи</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-q-and-a.md">Поле поиска на естественном языке в функции "Вопросы и ответы"</a><br/> 
+                                                                                            <a href="end-user-q-and-a.md">Использование поля поиска на естественном языке в функции "Вопросы и ответы"</a><br/> 
                                                                                             <a href="end-user-focus.md">Изменение параметров отображения</a><br/> 
                                                                                             <a href="end-user-report-filter.md">Сведения об использовании фильтров отчетов</a><br> 
                                                                                             <a href="end-user-insights.md">Создание автоматической аналитики</a><br/> 

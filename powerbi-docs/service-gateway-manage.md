@@ -1,5 +1,5 @@
 ---
-title: Управление шлюзом для Power BI
+title: Управление локальным шлюзом Power BI
 description: Узнайте, как управлять шлюзом, позволяющим подключаться к локальным данным из Power BI.
 author: mgblythe
 manager: kfile
@@ -9,15 +9,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755169"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026392"
 ---
-# <a name="manage-a-power-bi-gateway"></a>Управление шлюзом Power BI
+# <a name="manage-a-power-bi-on-premises-gateway"></a>Управление локальным шлюзом Power BI
 
 [Установив шлюз данных Power BI](service-gateway-install.md), вы можете управлять им в соответствии со своими требованиями. Из этой статьи вы узнаете, как добавлять и удалять источники данных и учетные записи пользователей, перезапускать шлюз, а также переносить его, восстанавливать, принимать и удалять. 
 

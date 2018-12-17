@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547253"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180997"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Область применения:
@@ -34,7 +34,7 @@ ms.locfileid: "46547253"
 
 * На панели мониторинга коснитесь многоточия (...) в правом верхнем углу плитки и выберите команду **Открыть отчет**.
   
-  ![Открытие отчета](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
+  ![Открыть отчет](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   Не на всех плитках можно открыть отчет. Например, плитки, созданные после ввода данных в поле вопросов и ответов, не открывают отчеты при касании. 
   
@@ -105,6 +105,16 @@ ms.locfileid: "46547253"
 Чтобы вернуться в детализации на предыдущую страницу отчета, нажмите кнопку "Назад".
 
 Читайте, как [добавить детализацию в Power BI Desktop](../../desktop-drillthrough.md).
+
+## <a name="show-data-and-copy-values"></a>Отображение данных и копирование значений
+
+Нажав многоточие (**...** ) в правом верхнем углу визуализации в мобильном отчете и выбрав **Show data** (Показать данные), можно отобразить данные, лежащие в основе визуализации.
+
+![Пункт меню Show data (Показать данные) в Power BI Mobile](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Долгое касание ячейки в отобразившейся таблице, отобразит собственное меню "Выделить и копировать", с помощью которого можно копировать данные из таблицы (или таблицу целиком).
+
+![Детализация отчета в Power BI Mobile](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Просмотр отчетов Power BI, оптимизированных для телефона, и взаимодействие с ними](mobile-apps-view-phone-report.md)

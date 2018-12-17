@@ -1,28 +1,30 @@
 ---
-title: Как добавить гиперссылку в таблицу
-description: Гиперссылки в таблицах
-author: maggiesMSFT
-manager: kfile
+title: Добавление гиперссылок в таблицу
+description: Создайте гиперссылки с помощью Power BI Desktop. Затем используйте Power BI Desktop или службу Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы.
+author: mihart
+manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/22/2018
-ms.author: maggies
+ms.date: 12/06/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187566"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180560"
 ---
-# <a name="hyperlinks-in-tables"></a>Гиперссылки в таблицах
-В этой статье объясняется, как использовать Power BI Desktop для создания гиперссылок. Используйте Power BI Desktop или службу Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы. 
+# <a name="add-hyperlinks-to-a-table"></a>Добавление гиперссылок в таблицу
+В этой статье объясняется, как использовать Power BI Desktop для создания гиперссылок. Затем используйте Power BI Desktop или службу Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы. 
 
-![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
+![Таблицы с гиперссылками](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
-> **Примечание.** Гиперссылки на [плитках](service-dashboard-edit-tile.md) и в [текстовых полях информационных панелей](service-dashboard-add-widget.md) можно моментально создать с помощью службы Power BI. Гиперссылки в [текстовых полях в отчетах](service-add-hyperlink-to-text-box.md) можно моментально создать с помощью службы Power BI и Power BI Desktop.
+> [!NOTE]
+> Гиперссылки на [плитках](service-dashboard-edit-tile.md) и в [текстовых полях панелей мониторинга](service-dashboard-add-widget.md) можно быстро создать с помощью службы Power BI. Гиперссылки в [текстовых полях в отчетах](service-add-hyperlink-to-text-box.md) можно моментально создать с помощью службы Power BI и Power BI Desktop.
 > 
 > 
 
@@ -36,17 +38,20 @@ ms.locfileid: "47187566"
 1. Если гиперссылка еще не существует как поле в наборе данных, добавьте ее как [пользовательский столбец](desktop-common-query-tasks.md) с помощью приложения Power BI Desktop.
 2. В представлении данных выделите столбец, а затем на вкладке **Моделирование** выберите раскрывающийся список **Категория данных**.
    
-    ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
+    ![Раскрывающийся список категорий данных](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. Выберите **URL-адрес веб-сайта**.
 4. Переключитесь в представление отчета и создайте таблицу или матрицу, используя поле с категорией "URL-адрес веб-сайта". Гиперссылки будут выделены синим цветом и подчеркиванием.
-    ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
-> **ПРИМЕЧАНИЕ.** URL-адреса должны начинаться с **http://, https://** или **www**.
-> 
->   
-5. Вместо длинного URL-адреса в таблице можно отобразить значок гиперссылки ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png). Обратите внимание, что значки в матрицах невозможно отобразить.
+
+    ![Синие и подчеркнутые ссылки](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+
+    > [!NOTE]
+    > URL-адреса должны начинаться с **http://, https://** или **www**.
+    >
+   
+1. Вместо длинного URL-адреса в таблице можно отобразить значок гиперссылки  ![Значок гиперссылки](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) . Обратите внимание, что значки в матрицах невозможно отобразить.
    
    * Выберите диаграмму, чтобы сделать ее активной.
-   * Откройте вкладку форматирования, щелкнув значок валика ![](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png).
+   * Выберите значок с изображением валика ![Значок с изображением валика](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) для открытия вкладки "Форматирование".
    * Разверните узел **Значения**, найдите **значок URL-адреса** и установите для него значение **Вкл.**
 6. (Необязательно.) [Опубликуйте отчет с Power BI Desktop в службе Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) и откройте его в этой службе. Гиперссылки там также будут работать.
 
@@ -64,22 +69,23 @@ ms.locfileid: "47187566"
 1. Откройте книгу в Excel.
 2. Перейдите на вкладку **PowerPivot** , а затем выберите **Управление**.
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
-3. В открывшемся окне Power Pivot выберите вкладку **Дополнительно**.
+   ![Открытие PowerPivot в Excel](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
+1. В открывшемся окне Power Pivot выберите вкладку **Дополнительно**.
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
+   ![Вкладка "Дополнительно" в PowerPivot"](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. Поместите курсор в столбец, содержащий URL-адреса, которые вы хотите преобразовать в гиперссылки в таблицах Power BI.
    
-   > **ПРИМЕЧАНИЕ.** URL-адреса должны начинаться с **http://, https://** или **www**.
-   > 
+   > [!NOTE]
+   > URL-адреса должны начинаться с **http://, https://** или **www**.
    > 
 5. В группе **Свойства отчетов** щелкните раскрывающийся список **Категория данных** и выберите **URL-адрес веб-сайта**. 
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+   ![Раскрывающийся список категорий данных в Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+
 6. В службе Power BI или Power BI Desktop подключитесь к этой книге или импортируйте ее.
 7. Создайте визуализацию таблицы, содержащую поле URL-адреса.
    
-   ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+   ![Создание таблицы в Power BI с полем URL-адреса](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 Вопрос. Можно ли использовать настраиваемый URL-адрес в качестве гиперссылки в таблице или матрице?    

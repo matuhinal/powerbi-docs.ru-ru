@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578435"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025129"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Безопасность на уровне строк (RLS) в Power BI
 
@@ -41,7 +42,7 @@ ms.locfileid: "52578435"
 1. Нажмите значок **многоточие (...)** для определенного набора данных.
 2. Выберите **Безопасность**.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![Применить фильтр безопасности в обоих направлениях](media/service-admin-rls/rls-security.png)
 
 В результате откроется страница RLS, где можно добавить участников к роли, созданной в Power BI Desktop. Параметр "Безопасность" отображается только владельцам набора данных. Если набор данных передается в составе группы, этот параметр будет доступен только администраторам. 
 
@@ -53,17 +54,17 @@ ms.locfileid: "52578435"
 
 Можно добавить участника в роль, указав адрес электронной почты или имя добавляемого пользователя, группы безопасности или списка рассылки. Этот участник должен быть в пределах вашей организации. Невозможно добавить группы, созданные в Power BI.
 
-![](media/service-admin-rls/rls-add-member.png)
+![Добавление участника](media/service-admin-rls/rls-add-member.png)
 
 Также по числу в скобках рядом с именем роли или рядом с участниками можно определить, сколько участников входит в данную роль.
 
-![](media/service-admin-rls/rls-member-count.png)
+![Участники, добавленные в роль](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Удаление участников
 
 Участников можно удалять, нажимая "X" рядом с их именем. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![Удаление участника](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Проверка роли в службе Power BI
 
@@ -72,15 +73,15 @@ ms.locfileid: "52578435"
 1. Щелкните **многоточие (…)** рядом с ролью.
 2. Выберите пункт **Проверить данные в качестве роли**.
 
-![](media/service-admin-rls/rls-test-role.png)
+![Проверить в качестве роли](media/service-admin-rls/rls-test-role.png)
 
 На экран будут выведены отчеты, доступные для этой роли. В этом представлении панели мониторинга не представлены. На синей панели выше вы увидите применяемые элементы.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![Теперь показать как (роль)](media/service-admin-rls/rls-test-role2.png)
 
 Другие роли или комбинации ролей можно проверить, выбрав **Теперь показать как**.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![Проверка других ролей](media/service-admin-rls/rls-test-role3.png)
 
 Можно просмотреть данные для определенного пользователя или выбрать комбинацию из доступных ролей, чтобы проверить их работоспособность. 
 
@@ -95,7 +96,7 @@ ms.locfileid: "52578435"
 > [!WARNING]
 > Если вы настроили рабочую область приложения таким образом, что ее участники обладают разрешениями на изменение, то роли RLS не будут применяться к этим участникам. Пользователи будут видеть все данные.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![Параметры группы](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268934"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180675"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Использование вычисляемых сущностей в Power BI Premium (предварительная версия)
 
@@ -77,16 +77,21 @@ ms.locfileid: "51268934"
 
 Важно отметить, что в случае удаления рабочей области из емкости Power BI Premium связанный поток данных больше обновляться не будет. 
 
+При работе с потоками данных в специально созданный учетной записи организации в Azure Data Lake Storage 2-го поколения связанные сущности и вычисляемые сущности работают правильно только если сущности находятся в одной учетной записи. Дополнительные сведения см. в статье [ о подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
+
+Кроме того, связанные сущности недоступны для потоков данных, созданных из папок CDM. См. статью [о добавлении папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 В этой статье описываются вычисляемые сущности и потоки данных, доступные в службе Power BI. Вот еще несколько статьей, которые могут быть полезны:
 
-
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
 * [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
 * [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [Настройка параметров потоков данных рабочей области (предварительная версия)](service-dataflows-configure-workspace-storage-settings.md)
+* [Добавление папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md)
+* [Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)

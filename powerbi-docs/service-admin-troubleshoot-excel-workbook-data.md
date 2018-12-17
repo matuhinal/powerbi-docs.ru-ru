@@ -1,6 +1,6 @@
 ---
-title: Ошибка. Не удалось найти данные в книге Excel.
-description: Ошибка. Не удалось найти данные в книге Excel.
+title: Ошибка Не удалось найти данные в этой книге Excel
+description: Ошибка Не удалось найти данные в этой книге Excel
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -9,24 +9,25 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 90fd71c59059f1b1b2c1b7d1d2da582d228c7a88
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ea5312178d33986ebc3f4b9e8610012c87d54216
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242371"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026038"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка. Не удалось найти данные в книге Excel.
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка Не удалось найти данные в этой книге Excel
 
 >[!NOTE]
 >Эта статья относится к Excel 2007 и более поздних версий.
 
 При импорте книги Excel в Power BI может появиться следующая ошибка:
 
-*Ошибка. Не удалось найти данные в книге Excel. Возможно, данные имеют неправильный формат. Необходимо отредактировать книгу в Excel, а затем повторить импорт.*
+*Ошибка Не удалось найти данные в этой книге Excel. Возможно, данные имеют неправильный формат. Необходимо отредактировать книгу в Excel, а затем повторить импорт.*
 
-![](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![Не удалось найти данные в книге](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
 
 ## <a name="quick-solution"></a>Быстрое решение
 1. Отредактируйте книгу в Excel.
@@ -46,28 +47,28 @@ ms.locfileid: "34242371"
     >[!NOTE]
     >Рисунки приведены для Excel 2013. При использовании другой версии картинка может отличаться, но действия будут теми же самыми.
     
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![Открытая книга](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
 2. Выделите диапазон ячеек, содержащих данные. Первая строка должна содержать заголовки столбцов (имена столбцов):
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![Выделение диапазона ячеек](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
 3. На вкладке **Вставка** ленты щелкните элемент **Таблица**. (Или используйте сочетание клавиш **CTRL + T**.)
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![Вставка таблицы](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
 4. Вы увидите следующее диалоговое окно. Убедитесь, что флажок **Таблица с заголовками** установлен, и нажмите кнопку **ОК**:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![Создание таблицы](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
 5. Теперь данные форматируются в виде таблицы:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![Форматирование данных в виде таблицы](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
 6. Сохраните книгу.
 7. Вернитесь в Power BI. Выберите "Получить данные" в нижней части левой панели навигации.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![Получение данных](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
 8. В поле **Файлы** выберите **Получить**.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![Получение файлов](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
 9. Повторите импорт книги Excel. На этот раз импорт должен найти таблицу и выполниться успешно.
    
     Если импорт по-прежнему не удается, свяжитесь с нами, выбрав в меню "Справка" пункт **Сообщество**:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![Ссылка "Сообщество"](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)

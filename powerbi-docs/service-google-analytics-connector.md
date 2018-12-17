@@ -1,27 +1,26 @@
 ---
-title: 'Сторонняя служба: соединитель Google Analytics для Power BI Desktop'
-description: 'Сторонняя служба: соединитель Google Analytics для Power BI Desktop'
+title: 'Служба сторонних разработчиков: соединитель Google Analytics'
+description: 'Служба сторонних разработчиков: Соединитель Google Analytics для Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b7451f156503d88baf4bdf3f3ae2cb99c04a94c1
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669435"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025610"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Соединитель Google Analytics для Power BI Desktop
 > [!NOTE]
 > Пакет содержимого и соединитель Google Analytics в Power BI Desktop основаны на API-интерфейсе Core Reporting для Google Analytics. Таким образом, наличие функций и доступность со временем могут меняться.
-> 
-> 
 
 Подключиться к данным Google Analytics можно при помощи соединителя **Google Analytics**. Чтобы подключиться, выполните следующие действия.
 

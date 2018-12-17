@@ -1,23 +1,24 @@
 ---
-title: Руководство. Импорт и анализ данных c веб-страницы с помощью Power BI Desktop
-description: Руководство. Импорт и анализ данных c веб-страницы с помощью Power BI Desktop
+title: Руководство. Импорт и анализ данных веб-страницы
+description: Руководство. Импорт и анализ данных веб-страницы с помощью Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d0c37ff2a48315b72c699ab53238416eeb0f04b5
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0c712807ad5fd855986c3929a760c2542b33f01f
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578849"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026633"
 ---
-# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Руководство по анализу данных с веб-страницы с помощью Power BI Desktop
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Руководство. Анализ данных веб-страницы с помощью Power BI Desktop
 
 Предположим, что вы уже долгое время являетесь футбольным болельщиком и хотите получить сведения о победителях Чемпионата Европы по футболу за разные годы. Power BI Desktop поможет вам импортировать в отчет нужные данные с веб-страницы и создать на их основе визуализации. Из этого руководства вы узнаете, как с помощью Power BI Desktop выполнить следующие действия:
 

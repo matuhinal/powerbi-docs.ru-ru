@@ -1,44 +1,42 @@
 ---
-title: 'Power BI: сравнение возможностей бесплатной версии и версии Pro'
-description: Пользователи Power BI могут работать с бесплатной версией или версией Pro. Рассмотрим различия в возможностях для этих двух категорий пользователей.
+title: Функции службы Power BI по типам лицензий
+description: В службе Power BI пользователи имеют возможности, определенные на основе двух следующих типов лицензий — пользовательская (бесплатная и профессиональная) и лицензия на основе зарезервированной мощности.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 12/06/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: fab6181997fd57448a152fe315efcadf076e4fbb
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641305"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025884"
 ---
-# <a name="power-bi-free-vs-pro"></a>Power BI: сравнение возможностей бесплатной версии и версии Pro
+# <a name="power-bi-service-features-by-license-type"></a>Функции службы Power BI по типам лицензий
 
-Пользователи Power BI могут работать с бесплатной версией или версией Pro. Рассмотрим различия в возможностях для этих двух категорий пользователей.
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
-У *всех пользователей* в службе имеется либо бесплатная лицензия, либо лицензия Pro. Основное различие касается общего доступа и совместной работы. Публиковать содержимое в рабочих областях приложения, использовать приложения без емкости Premium, совместно работать с панелями мониторинга, а также подписываться на панели мониторинга и отчеты могут только пользователи версии Pro. Пользователи с бесплатной лицензией теперь могут подключаться ко всем источникам данных, используя все возможности подключения, в том числе DirectQuery, активное подключение и шлюз данных.
+## <a name="per-user-license-type-comparison"></a>Сравнение двух типов пользовательской лицензии
 
-Пользователи бесплатной версии могут использовать опубликованное приложение, если рабочая область, к которой принадлежит приложение, присвоена емкости Premium.
-
-## <a name="free-vs-pro-comparison"></a>Сравнение возможностей бесплатной версии и версии Pro
-Ниже перечислены возможности для пользователей каждой категории.
+Пользовательские лицензии обеспечивают следующие возможности.
 
 |  | Бесплатно | Pro |
 | --- | --- | --- |
 | **Подключение к более 70 источникам данных** |![Компонент доступен](media/features-license-type/available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | **Публикация в Интернете** |![Компонент доступен](media/features-license-type/available.png) |![Компонент доступен](media/features-license-type/available.png) |
-| **Одноранговый общий доступ** |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | **Экспорт в PowerPoint, Excel, CSV-файл** |![Компонент доступен](media/features-license-type/available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | **Распространение на предприятии** | | |
 | Приложения |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | Почтовые подписки |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | Внедренные интерфейсы API и элементы управления |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | **Совместная работа** | | |
+| Одноранговый общий доступ |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | Рабочие области приложений |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | Анализ в Excel, анализ в Power BI Desktop |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 

@@ -8,15 +8,15 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/24/2018
+ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c726ba8d50f077a640879f666fd441e27b19d3c7
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829649"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979359"
 ---
 # <a name="kpi-visuals"></a>Визуальные элементы КПЭ
 Ключевое показатель эффективности (КПЭ) — наглядный индикатор, который позволяет оценить достижение определенной измеримой цели. Дополнительные сведения о ключевых показателях эффективности см. в сети [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -49,7 +49,7 @@ ms.locfileid: "52829649"
 1. Откройте отчет в представлении отчета и выберите желтую вкладку, чтобы добавить новую страницу.    
 2. В области "Поля" выберите **Sales > Total Units This Year** (Продажи > Всего единиц за этот год).  Это будет наш индикатор.
 3. Добавьте **Time > FiscalMonth**  (Время > Финансовый месяц).  Так будет выглядеть наш тренд.
-4. ВАЖНО. Отсортируйте данные диаграммы по **финансовым месяцам**. Как только вы преобразуете визуализацию в ключевой показатель эффективности, возможность сортировки станет недоступна.
+4. Важно! Отсортируйте данные диаграммы по **финансовым месяцам**. Как только вы преобразуете визуализацию в ключевой показатель эффективности, возможность сортировки станет недоступна.
 
     ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. Преобразуйте визуальный элемент в КПЭ, выбрав значок КПЭ в области «Визуализация».

@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9439ac6bd0b4df568b964f548372fb94d2fd0b26
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1cd68fbb995b7fac420a50f97a8930385086a10
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238533"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026070"
 ---
 # <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>Устранение неполадок с запланированным обновлением для баз данных SQL Azure в Power BI
 Подробные инструкции по настройке запланированного обновления см. в разделе [Обновление данных в Power BI](refresh-data.md).
@@ -26,7 +27,7 @@ ms.locfileid: "34238533"
 2. Перейдите на сервер SQL Azure, для которого вы настраиваете обновление.
 3. Включите "Службы Microsoft Azure" в разделе разрешенных служб.
 
-![](media/service-admin-troubleshooting-scheduled-refresh-azure-sql-databases/azurerefresh.png)  
+![Разрешенные службы Azure](media/service-admin-troubleshooting-scheduled-refresh-azure-sql-databases/azurerefresh.png)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

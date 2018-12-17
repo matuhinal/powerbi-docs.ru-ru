@@ -4,26 +4,25 @@ description: Все о плитках панелей мониторинга в P
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: c8c39e2fbc4aeca4aeb9cc5f906cca8bb063a2e6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331903"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280105"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
-Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. Хотя плитки информационной панели нельзя создавать и закреплять в Power BI Mobile, их можно [просматривать и предоставлять для общего доступа](mobile/mobile-tiles-in-the-mobile-apps.md). 
+Плитка представляет собой моментальный снимок данных, закрепленный на панели мониторинга при помощи *конструктора*. Плитку можно создать на основе отчета, набора данных, информационной панели, поля вопросов и ответов, Excel, а также служб SQL Server Reporting Services (SSRS) и многого другого.  На предыдущем снимке экрана показано множество различных плиток, закрепленных на информационной панели.
 
-## <a name="dashboard-tiles"></a>Плитки панели мониторинга
 ![Панель мониторинга Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
-Плитка представляет собой моментальный снимок данных, закрепленный на панели мониторинга при помощи *конструктора*. Плитку можно создать на основе отчета, набора данных, информационной панели, поля вопросов и ответов, Excel, а также служб SQL Server Reporting Services (SSRS) и многого другого.  На предыдущем снимке экрана показано множество различных плиток, закрепленных на информационной панели.
 
 Кроме плиток, закрепленных из отчетов, *конструкторы* позволяют добавить автономные плитки непосредственно на панели мониторинга с помощью команды **Добавить плитку**. Автономные плитки содержат следующие данные: текстовые поля, изображения, видео, потоковую передачу данных и веб-содержимое.
 
@@ -32,7 +31,6 @@ ms.locfileid: "52331903"
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Взаимодействие с плитками на информационной панели
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Изменение ее внешнего вида и поведения плитки
 1. Наведите указатель на плитку , чтобы отобразить многоточие.
    
     ![плитка с многоточием](./media/end-user-tiles/ellipses_new.png)

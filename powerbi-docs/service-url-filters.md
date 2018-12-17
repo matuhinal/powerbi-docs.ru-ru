@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 778be27e38c287de1adf7011c9e4b78048b2a4fa
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850598"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180813"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
@@ -145,7 +145,7 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![табличный визуальны�
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![табличный визуальный элемент, отображающий специальные символы](media/service-url-filters/power-bi-special-characters2.png)
 
-### <a name="use-dax-to-filter-on-multiple-values"></a>Использование DAX для фильтрации по нескольким значениям
+## <a name="use-dax-to-filter-on-multiple-values"></a>Использование DAX для фильтрации по нескольким значениям
 
 Еще один способ фильтрации по нескольким полям заключается в следующем: можно создать вычисляемый столбец, который сцепляет два поля в одно значение. Затем можно выполнить фильтрацию по этому значению.
 
@@ -155,7 +155,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 Опубликуйте отчет в службе Power BI, а затем используйте строку запроса в URL-адресе для фильтрации и отображения данных, связанных только с магазинами Lindseys в Северной Каролине.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Закрепление плитки на основе отфильтрованного отчета
 

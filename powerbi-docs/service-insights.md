@@ -5,20 +5,21 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/25/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b58b0b88ed0417f88784824a67ab294dda7343e
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 386f4fb24488df3856f8e731fcd6c95043c86d74
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850437"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180928"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Автоматическое создание аналитических сведений с помощью Power BI
+# <a name="generate-data-insights-automatically-with-power-bi"></a>Автоматическое создание аналитических сведений с помощью Power BI
 Вы получили новый набор данных и не знаете, с чего начать?  Вам нужно быстро создать панель мониторинга?  Хотите найти полезные данные, которые вы могли пропустить?
 
 Краткая аналитика позволяет получить интересные интерактивные визуализации на основе имеющихся данных. Краткую аналитику можно выполнить для всего набора данных (краткая аналитика) или для отдельной плитки панели мониторинга (краткая аналитика с заданной областью). Вы даже можете анализировать полученные результаты.

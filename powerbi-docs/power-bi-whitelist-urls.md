@@ -1,5 +1,5 @@
 ---
-title: URL-адреса Power BI
+title: URL-адреса Power BI для списка разрешений
 description: В этой статье описываются конечные точки, которые должны быть доступны для клиентов, использующих Power BI.
 author: mgblythe
 ms.author: mblythe
@@ -9,20 +9,21 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.custom: seodec18
+ms.openlocfilehash: dcf51f26aac018acdd58e4244f21e41a1b6f1bc6
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578734"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026643"
 ---
-# <a name="power-bi-urls"></a>URL-адреса Power BI
+# <a name="power-bi-urls-for-whitelisting"></a>URL-адреса Power BI для списка разрешений
 
 **Веб-службе Power BI**, также известной как приложение SaaS (программное обеспечение как услуга) Power BI, требуется подключение к Интернету. Конечные точки ниже должны быть доступны для клиентов, использующих веб-службу Power BI.
 
 Для использования веб-службы Power BI необходимо иметь доступ к конечным точкам, помеченным как **обязательные**, в таблицах ниже и всем конечным точкам, помеченным как **обязательные** на связанных сайтах. Если ссылка на внешний сайт указывает на конкретный раздел, вам потребуется проверить только конечные точки в этом разделе.
 
-Конечные точки, помеченные как **необязательные**, могут также входить в **белый список** для работы определенных функций.
+Конечные точки, помеченные как **необязательные**, могут также входить в **утвержденный список** для работы определенных функций.
 
 Для работы веб-службы Power BI для указанных конечных точек требуется открыть только TCP-порт 443.
 
@@ -45,8 +46,8 @@ ms.locfileid: "52578734"
 
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
-| 1 | **Требуется:** серверные API | *.analysis.windows.net | TCP 443 |
-| 2 | **Требуется:** интеграция с Office 365 | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | Н/Д |
+| 1 | **Требуется:** cерверные API | *.analysis.windows.net | TCP 443 |
+| 2 | **Требуется:** интеграция с Office 365 | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | Н/Д |
 | 3 | **Требуется:** портал | app.powerbi.com | TCP 443 |
 | 4 | **Требуется:** телеметрия службы | dc.services.visualstudio.com | TCP 443 |
 | 5 | **Необязательно:** информационные сообщения | dynmsg.modpim.com | TCP 443 |
@@ -59,7 +60,7 @@ ms.locfileid: "52578734"
 
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
-| 1 | **Требуется:** для управления пользователями и просмотра журналов аудита | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | Н/Д |
+| 1 | **Требуется** для управления пользователями и просмотра журналов аудита | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | Н/Д |
 | | | |
 
 ## <a name="getting-data"></a>Получение данных
@@ -68,10 +69,10 @@ ms.locfileid: "52578734"
 
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
-| 1 | **Требуется:** AppSource (внутренние или внешние приложения в Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
+| 1 | **Требуется:** AppSource (внутренние или внешние приложения в Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | **Необязательно:** вход и получение данных для пакетов содержимого | Зависит от используемых пакетов содержимого | Зависит от используемых пакетов содержимого |
-| 3 | **Необязательно:** импорт файлов из OneDrive — персональный | См. раздел [Требуемые URL-адреса и порты для сайта OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports). | Н/Д |
-| 4 | **Необязательно:** Power BI в 60-секундном учебном видео | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
+| 3 | **Необязательно:** импорт файлов из OneDrive — персональный | См. раздел [Требуемые URL-адреса и порты для сайта OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports). | Н/Д |
+| 4 | **Необязательно:** Power BI в 60-секундном учебном видео | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **Необязательно:** источники данных потоковой передачи PubNub | См. [документацию PubNub](https://support.pubnub.com/support/solutions/articles/14000043522). | Н/Д |
 | | | |
 
@@ -91,7 +92,7 @@ ms.locfileid: "52578734"
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
 | 1 | **Требуется:** импорт пользовательского визуального элемента из интерфейса Marketplace или из файла | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **Необязательно:** карты Bing | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
+| 2 | **Необязательно:** Карты Bing | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | **Необязательно:** PowerApps | См. раздел [Необходимые службы](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) на сайте требований к системе PowerApps. | Н/Д |
 | 4 | **Необязательно:** Visio | См. документацию Office 365 по [URL-адресам Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), а также по [SharePoint Online и OneDrive для бизнеса](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business). | Н/Д |
 | | | |
@@ -103,11 +104,11 @@ ms.locfileid: "52578734"
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
 | 1 | **Необязательно:** веб-сайт сообщества | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **Необязательно:** сайт документации | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
-| 3 | **Необязательно:** сайт с материалами для скачивания (для Power BI Desktop и т. д.) | download.microsoft.com | TCP 443 |
+| 2 | **Необязательно:** Сайт документации | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 3 | **Необязательно:** веб-сайт с материалами для скачивания (для Power BI Desktop и т. д.) | download.microsoft.com | TCP 443 |
 | 4 | **Необязательно:** внешние перенаправления | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **Необязательно:** сайт обратной связи| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
-| 6 | **Необязательно:** сайт Power BI — целевая страница, ссылки на дополнительные сведения, сайт службы поддержки, ссылки на материалы для скачивания, демонстрации партнеров и т. д. | powerbi.microsoft.com | TCP 443 |
-| 7 | **Необязательно**: Центр Power BI для разработчиков | dev.powerbi.com | TCP 443 |
-| 8 | **Необязательно:** сайт службы поддержки | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
+| 5 | **Необязательно:** веб-сайт обратной связи| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 6 | **Необязательно:** веб-сайт Power BI — целевая страница, ссылки на дополнительные сведения, веб-сайт службы поддержки, ссылки на материалы для скачивания, демонстрации партнеров и т. д. | powerbi.microsoft.com | TCP 443 |
+| 7 | **Необязательно:** Центр по разработке для Power BI | dev.powerbi.com | TCP 443 |
+| 8 | **Необязательно:** веб-сайт службы поддержки | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
 | | | |
