@@ -1,33 +1,34 @@
 ---
-title: Изменение порядка сортировки диаграммы в отчете Power BI
+title: Изменение порядка сортировки диаграммы в отчете
 description: Изменение порядка сортировки диаграммы в отчете Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979349"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280013"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Изменение порядка сортировки диаграммы в отчете Power BI
 В отчете Power BI можно сортировать большую часть визуализаций в алфавитном порядке по названиям категорий в диаграмме или числовым значениям в каждой категории. Например, эта диаграмма отсортирована по категории **store name**.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![линейчатая диаграмма, отсортированная в алфавитном порядке по оси X](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 Вы можете легко использовать для сортировки не категорию (имя хранилища), а значение (продажи на квадратный метр).
 
 1. Щелкните многоточие (…) и выберите **Сортировать > По продажам на квадратный метр**.
 2. При необходимости снова щелкните многоточие и выберите **Сортировка по убыванию**.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![видео, отображающее выбор варианта сортировки, а затем сортировку по возрастанию и убыванию](media/end-user-change-sort/sort.gif)
 
    **ПРИМЕЧАНИЕ**. Отсортировать можно не все визуальные элементы.  Например, нельзя отсортировать следующее: диаграмма-дерево, карта, картограмма, точечная диаграмма, индикаторная диаграмма, карточка, многострочная карточка, каскадная диаграмма.
 

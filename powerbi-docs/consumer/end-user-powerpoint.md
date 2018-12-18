@@ -1,21 +1,22 @@
 ---
-title: Экспорт отчетов из Power BI для пользователей в PowerPoint
+title: Экспорт отчетов из Power BI в PowerPoint
 description: Узнайте, как экспортировать отчет из Power BI в PowerPoint.
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a865c98a5bacd526a553354ea828e86fa0155a79
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 9f17cd76a733dff22ebf0b54eabc3d9b6c8f6839
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979267"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281079"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Экспорт отчетов из Power BI в PowerPoint
 В Power BI можно опубликовать отчет в **Microsoft PowerPoint** и без труда создать на его основе набор слайдов. При **экспорте в PowerPoint** происходит следующее:
@@ -29,35 +30,35 @@ ms.locfileid: "52979267"
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Как экспортировать отчет из службы Power BI в программу PowerPoint
 В службе Power BI выберите отчет, чтобы он отобразился на холсте. Можно также выбрать отчет на странице **Главная** в разделе **Приложения** или любом другом разделе в области навигации слева.
 
-![](media/end-user-powerpoint/power-bi-publish.png)
+![Выберите "Файл" в строке меню и щелкните "Экспорт в PowerPoint"](media/end-user-powerpoint/power-bi-publish.png)
 
 Когда отчет, который необходимо экспортировать в PowerPoint, отобразится на холсте, на панели меню в службе Power BI щелкните **Файл > Экспорт в PowerPoint**.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+![Закройте левую панель навигации с выбранным пунктом "Моя рабочая область" и раскрывающимся списком "Файл"](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
 
 В окне браузера в правом верхнем углу службы Power BI появится баннер с уведомлением о том, что отчет экспортируется в PowerPoint. Этот процесс может занять несколько минут. Пока выполняется экспорт, вы можете продолжать работать в Power BI.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![Уведомление о выполнении экспорта в PowerPoint](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
 
 Когда экспорт завершится, баннер уведомления изменится, сообщая, что служба Power BI завершила экспортирование.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
+![Отображение сообщения о выполнении](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
 
 После этого ваш файл станет доступным для скачивания в браузере. На рисунке ниже показано сообщение в нижней части браузера, предлагающее скачать файл.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
+![Стрелка, указывающая на уведомление браузера, в нижней части экрана](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 
 Вот, собственно, и все. Скачав файл и открыв его в PowerPoint, вы можете изменять его точно так же, как любую другую презентацию PowerPoint.
 
 ## <a name="checking-out-your-exported-powerpoint-file"></a>Просмотр экспортированного файла PowerPoint
 Открыв в PowerPoint файл, экспортированный из службы Power BI, вы увидите несколько интересных моментов. Взгляните на рисунок ниже, а затем прочтите под ним описание некоторых полезных функций.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
+![Откроется PowerPoint](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
 
 1. На первой странице набора слайдов указано название отчета и приведена ссылка **Просмотреть в Power BI**, с помощью которой можно просмотреть соответствующий отчет в службе Power BI.
 2. Кроме того, здесь также приведены такие полезные сведения об отчете, как *время последнего обновления данных*, на которых основан экспортированный отчет, а также время и дата *скачивания*, то есть время и дата, когда отчет Power BI был экспортирован в файл PowerPoint.
 3. Каждая страница отчета представлена отдельным слайдом, как показано в области навигации слева. 
-4. Опубликованный отчет отображается на языке, заданном в параметрах Power BI или в браузере. Чтобы просмотреть или настроить параметры языка, выберите значок ![](media/end-user-powerpoint/power-bi-settings-icon.png) **> Параметры > Общие > Язык**. Дополнительные сведения см. в статье [Поддерживаемые языки и страны (регионы) для Power BI](../supported-languages-countries-regions.md).
+4. Опубликованный отчет отображается на языке, заданном в параметрах Power BI или в браузере. Чтобы просмотреть или настроить параметры языка, выберите значок ![шестеренки](media/end-user-powerpoint/power-bi-settings-icon.png) **> "Параметры" > "Общие" > "Язык"**. Дополнительные сведения см. в статье [Поддерживаемые языки и страны (регионы) для Power BI](../supported-languages-countries-regions.md).
 5. Презентация PowerPoint включает титульный слайд с экспортированными данными времени в надлежащем часовом поясе.
 
 Если открыть отдельный слайд, вы увидите, что каждая страница отчета является отдельным изображением.
@@ -66,7 +67,7 @@ ms.locfileid: "52979267"
 > Один визуальный элемент для всех страниц отчета является нововведением. Предыдущая схема, когда для каждого визуального элемента требовалось отдельное изображение, больше не применяется. 
  
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
+![Изображение, показывающее каждый визуальный элемент отдельно](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
 
 Получившийся набор слайдов PowerPoint и все изображения из него можно использовать в различных целях. Выбор за вами.
 
@@ -84,7 +85,7 @@ ms.locfileid: "52979267"
 * Отчеты, принадлежащие пользователям вне домена клиента Power BI (например, отчет, принадлежащий пользователю не из вашей организации, к которому он предоставил вам доступ), нельзя опубликовать в PowerPoint.
 * Если вы совместно используете панель мониторинга с кем-либо не из вашей организации (то есть этот пользователь находится вне клиента Power BI), этот пользователь не сможет экспортировать отчеты, связанные с общей панелью мониторинга, в PowerPoint. Например, если вы aaron@contoso.com, вы сможете предоставить общий доступ david@cohowinery.com. Но david@cohowinery.com не может экспортировать связанные отчеты в PowerPoint.
 * Как упоминалось ранее, каждая страница отчета экспортируется в виде одного изображения в файл PowerPoint.
-* Служба Power BI использует параметр языка Power BI в качестве языка для экспорта в PowerPoint. Чтобы просмотреть или настроить параметры языка, выберите значок ![](media/end-user-powerpoint/power-bi-settings-icon.png) **> Параметры > Общие > Язык**.
+* Служба Power BI использует параметр языка Power BI в качестве языка для экспорта в PowerPoint. Чтобы просмотреть или настроить параметры языка, выберите значок ![шестеренки](media/end-user-powerpoint/power-bi-settings-icon.png) **> "Параметры" > "Общие" > "Язык"**.
 * Время **загрузки** на слайде-обложке экспортированного файла PowerPoint совпадает с часовым поясом вашего компьютера во время экспорта.
 
 ## <a name="next-steps"></a>Дальнейшие действия
