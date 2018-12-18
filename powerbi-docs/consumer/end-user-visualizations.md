@@ -1,21 +1,22 @@
 ---
-title: Общие сведения о визуализациях для *потребителей* Power BI.
+title: Работа с визуализациями
 description: Основные понятия и термины Power BI — визуализации, визуальные элементы. Что такое визуализация и визуальный элемент Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/30/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a347771504dcf41796d8bd6673cab30043c416b
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 5ac7f8a09b39065b4ea9cfd274c0341bf905826b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112229"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280336"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Визуализации для **потребителей** Power BI.
 
@@ -32,7 +33,7 @@ ms.locfileid: "49112229"
 
 
 
-|Столбец1  |На панели мониторинга  |В отчете  | В "Вопросах и ответах"
+|Column1  |На панели мониторинга  |В отчете  | В "Вопросах и ответах"
 |---------|---------|---------|--------|
 |[Добавление к визуализации личных комментариев или обсуждение визуализации с коллегами](end-user-comment.md).     |  да       |   нет      |  нет  |
 |[Открытие и просмотр отчета, в котором создана визуализация](end-user-tiles.md).     |    да     |   не применяется      |  не применяется |

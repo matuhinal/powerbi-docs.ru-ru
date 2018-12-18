@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473872"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280818"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Краткое руководство. Навигация в службе Power BI
 
@@ -40,7 +41,7 @@ ms.locfileid: "49473872"
 
     Образец импортируется в службу Power BI, и откроется панель мониторинга. Наличие панелей мониторинга отличает службу Power BI от средства Power BI Desktop. Образец также включает в себя отчет и набор данных, которые мы рассмотрим позднее.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![Отображение панели мониторинга](media/end-user-experience/power-bi-dashboard.png)
 
 Посмотрите видео, в котором Аманда представит вам обзор интерфейса службы Power BI.  Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео.
 
@@ -50,7 +51,7 @@ ms.locfileid: "49473872"
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Просмотр содержимого (панелей мониторинга, отчетов, книг, наборов данных, рабочих областей, приложений)
 Рассмотрим организацию основного содержимого (информационные панели, отчеты, наборы данных, книги). Содержимое отображается в контексте рабочей области. Пока у вас есть только одна рабочая область — **Моя рабочая область**. Как правило, потребителям не нужны другие рабочие области. В ней хранится все ваше содержимое. Это своего рода личная песочница или рабочая область для хранения личного содержимого. Моя рабочая область — та, где сохранен анализ розничной торговли (пример, который вы только что скачали). 
 
-В разделе "Моя рабочая область" содержимое распределяется по 4 вкладкам: "Информационные панели", "Отчеты", "Книги" и "Наборы данных".
+В разделе "Моя рабочая область" содержимое распределяется по 4 вкладкам: "Информационные панели", "Отчеты", "Книги" и "Наборы данных".
 
 ![Экран "Моя рабочая область"](./media/end-user-experience/power-bi-my-workspace.png)
 

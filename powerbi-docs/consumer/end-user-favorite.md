@@ -3,20 +3,21 @@ title: Избранное в службе Power BI (панели монитор
 description: Документация по добавлению панелей мониторинга, отчетов и приложений в избранное в службе Power BI
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452506"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280197"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Избранные панели мониторинга, отчеты и приложения в службе Power BI
 Добавив содержимое в *Избранное*, вы сможете открывать его из всех своих рабочих областей.  Избранными обычно являются те элементы, которые вы просматриваете чаще всего.
@@ -71,7 +72,7 @@ ms.locfileid: "52452506"
    ![Экран "Избранное"](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. Нажмите на желтую звездочку рядом с содержимым, чтобы удалить его из избранного.
 
-> **Примечание**. Вы также можете удалить из избранного панель мониторинга, отчет или само приложение. Просто откройте содержимое и отмените выбор желтой звездочки.   
+> **ПРИМЕЧАНИЕ**. Вы также можете удалить из избранного панель мониторинга, отчет или само приложение. Просто откройте содержимое и отмените выбор желтой звездочки.   
 > 
 > 
 

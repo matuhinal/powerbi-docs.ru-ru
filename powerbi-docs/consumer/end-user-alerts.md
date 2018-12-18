@@ -5,20 +5,21 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/08/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 0d614b6028fa4d7e11ac5bf82e05d44a95e4f234
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452598"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280864"
 ---
-# <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Учебник. Настройка оповещений о данных в службе Power BI
+# <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Руководство. Настройка оповещений о данных в службе Power BI
 Вы можете настроить оповещения, уведомляющие вас о том, что данные в панелях мониторинга выходят за пределы заданного порога. 
 
 Настраивать оповещения для плиток можно, если имеется лицензия Power BI Pro или если доступ к панели мониторинга был предоставлен вам из [емкости Premium](../service-premium.md). Оповещения можно настроить только для закрепленных плиток на основе визуальных элементов отчетов, которые содержат только датчики, ключевые показатели эффективности и карточки. Можно настроить оповещения для визуальных элементов на основе потоковых наборов данных, если они закреплены на панели мониторинга из отчета. Для плиток потоковой передачи, созданных непосредственно на панели мониторинга с помощью элементов **Добавление плитки** > **Пользовательские данные потоковой передачи**, оповещения настроить нельзя. 

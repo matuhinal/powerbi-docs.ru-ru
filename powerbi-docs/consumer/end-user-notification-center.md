@@ -1,24 +1,25 @@
 ---
-title: Центр уведомлений Power BI
+title: Просмотр сообщений в центре уведомлений
 description: Центр уведомлений — это канал непрерывной передачи информации, связанной с работой Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e8b380194bf0e0214b791149d059a138f1bd337e
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 47329053fa774634f4af44c2bed549222d68a4a0
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565735"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280059"
 ---
-# <a name="power-bi-notifications"></a>Уведомления в Power BI
+# <a name="view-power-bi-notifications"></a>Просмотр уведомлений в Power BI
 Центр уведомлений — это канал непрерывной передачи информации, связанной с работой Power BI. С его помощью можно просматривать сообщения о новых панелях мониторинга, к которым вам предоставлен доступ, об изменениях в вашем групповом пространстве, сведения о мероприятиях и встречах, связанных с Power BI, настроенные оповещения и многое другое. [Оповещения можно настраивать в службе Power BI](../service-set-data-alerts.md) и мобильных приложениях Power BI.
 
 В следующем видео Аманда просматривает полученные уведомления, управляет ими и реагирует на них. Сделайте то же самое, выполнив приведенные ниже инструкции.
