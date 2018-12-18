@@ -1,29 +1,31 @@
 ---
-title: Управление хранилищем данных
+title: Управление хранилищем данных в ваших рабочих областях
 description: Узнайте, как управлять хранилищем данных рабочей области пользователя или приложения, чтобы обеспечить публикацию отчетов и наборов данных.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736879"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180468"
 ---
-# <a name="manage-your-data-storage"></a>Управление хранилищем данных
+# <a name="manage-data-storage-in-power-bi-workspaces"></a>Управление хранилищем данных в рабочих областях Power BI
+
 Узнайте, как управлять хранилищем данных рабочей области пользователя или приложения, чтобы обеспечить публикацию отчетов и наборов данных.
 
-Рабочие области пользователей и приложений располагают собственными объемами данных
+Рабочие области пользователей и приложений располагают собственными объемами данных:
 
-* Всем пользователям предоставляется хранилище с максимальным объемом 10 ГБ.
-* Пользователи с лицензией Power BI Pro могут создавать рабочие области приложений с максимальным объемом хранилища 10 ГБ для каждой.
+* Всем пользователям предоставляется хранилище с максимальным объемом 10 ГБ.
+* Пользователи с лицензией Power BI Pro могут создавать рабочие области приложений с максимальным объемом хранилища 10 ГБ для каждой.
 
 На уровне клиента совокупный объем не может превышать 10 ГБ на пользователя с лицензией Pro для всех таких пользователей и рабочих областей приложений.
 
@@ -44,36 +46,36 @@ ms.locfileid: "50736879"
 
 1. Для управления хранилищем перейдите в раздел **Моя рабочая область** на панели навигации.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Щелкните в правом верхнем углу значок шестеренки ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **Управление личным хранилищем**.
+    ![Моя рабочая область](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+2. Щелкните значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) в правом верхнем углу и выберите **Управление личным хранилищем**.
    
     На верхней панели отображаются сведения об использованном объеме хранилища из максимально допустимого.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![Управление размером хранилища](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     Наборы данных и отчеты разделены по двум вкладкам:
    
-    **Принадлежит мне** — отчеты и наборы данных, загруженные в вашу учетную запись Power BI, в том числе наборы данных таких служб, как Salesforce и Dynamics CRM.  
-    **Принадлежит другим пользователям** — другие пользователи предоставили вам общий доступ к этим отчетам и наборам данных.
-3. Чтобы удалить набор данных или отчет, щелкните значок корзины ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+    **Принадлежит мне:** отчеты и наборы данных, загруженные в вашу учетную запись Power BI, в том числе наборы данных таких служб, как Salesforce и Dynamics CRM.  
+    **Принадлежит другим пользователям:** другие пользователи предоставили вам общий доступ к этим отчетам и наборам данных.
+3. Чтобы удалить набор данных или отчет, щелкните значок корзины ![значок корзины](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Имейте в виду, что у вас или другого пользователя могут быть отчеты и панели мониторинга, сформированные на основе набора данных. После удаления такого набора данных связанные с ним отчеты и панели мониторинга перестанут работать.
 
 ## <a name="manage-your-app-workspace"></a>Управление рабочей областью приложения
 1. Щелкните стрелку рядом с пунктом **Рабочие области** \> выберите имя рабочей области.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Щелкните в правом верхнем углу значок шестеренки ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **Управление хранилищем группы**.
+    ![Выберите рабочую область приложения](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. Щелкните в правом верхнем углу значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) и выберите **Управление хранилищем группы**.
    
     На верхней панели отображаются сведения об использованном объеме хранилища группы из максимально допустимого.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Управление хранилищем рабочей области приложения](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Наборы данных и отчеты разделены по двум вкладкам:
    
-    **Принадлежит нам** — это отчеты и наборы данных, загруженные вами или другим пользователем в учетную запись группы Power BI, в том числе наборы данных таких служб, как Salesforce и Dynamics CRM.
-    **Принадлежит другим пользователям** — другие пользователи предоставили вашей группе общий доступ к этим отчетам и наборам данных.
-3. Чтобы удалить набор данных или отчет, щелкните значок корзины ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+    **Принадлежит нам:** это отчеты и наборы данных, загруженные вами или другим пользователем в учетную запись группы Power BI, в том числе наборы данных таких служб, как Salesforce и Dynamics CRM.
+    **Принадлежит другим пользователям:** другие пользователи предоставили вашей группе общий доступ к этим отчетам и наборам данных.
+3. Чтобы удалить набор данных или отчет, щелкните значок корзины ![значок корзины](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Любой член группы с разрешением на изменение рабочей области приложения имеет право удалять из нее наборы данных и отчеты.
@@ -88,17 +90,17 @@ ms.locfileid: "50736879"
 ## <a name="what-happens-when-you-hit-a-limit"></a>Что происходит при достижении предела
 При достижении максимально допустимой емкости данных служба выдаст сообщения. 
 
-При щелчке по значку шестеренки ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) вы увидите красную полосу, означающую, что вы превысили ограничение на объем данных.
+Выбрав значок шестеренки ![значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), вы увидите красную полосу, означающую, что вы превысили ограничение на объем данных.
 
-![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Достигнут предел хранилища]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 Соответствующее указание появится также в разделе **Управление личным хранилищем**.
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Управление личным хранилищем, достигнут предел хранилища](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
  При попытке выполнить действие, в результате которого одно из ограничений может быть превышено, появляется сообщение о превышении лимита. Вы сможете [управлять](#manage) хранилищем и уменьшать объем содержащихся в нем данных в соответствии с ограничениями.
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![Превышает лимит хранилища](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 
