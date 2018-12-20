@@ -114,7 +114,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 
 Чтобы узнать регион клиента PBI, можно использовать портал PBI.
 
-https://app.powerbi.com/ > ? > О Power BI
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > О Power BI
 
 ![О Power BI](media/embedded-faq/about-01.png)
 ![Регион клиента](media/embedded-faq/tenant-location-01.png)
