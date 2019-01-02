@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/21/2018
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ea26ba39a9ec06b79330719afd4fb3b3a572d912
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025449"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301811"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Что такое Microsoft Power BI Premium?
 
@@ -71,14 +71,14 @@ Power BI Premium предоставляется в виде узлов с раз
 >[!NOTE]
 >Ссылки в этой таблице работают только для глобальных администраторов Office 365. Остальные пользователи увидят сообщение об ошибке 404.
 
-| Узел емкости | Число виртуальных ядер<br/>*(серверная часть и интерфейс)* | Серверные виртуальные ядра | Интерфейсные виртуальные ядра | Ограничения для подключений DirectQuery и активных подключений | Максимальное число страниц, отображаемых в часы максимальной нагрузки | Доступность |
+| Узел емкости | Число виртуальных ядер<br/>*(серверная часть и интерфейс)* | Серверные виртуальные ядра | Интерфейсные виртуальные ядра | Ограничения для подключений DirectQuery и активных подключений | Доступность |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 виртуальное ядро |0,5 виртуальных ядер, 2,5 ГБ ОЗУ |0,5 виртуальных ядра |3,75 в секунду |150–300 |Доступно |
-| [EM2 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 виртуальных ядра |1 виртуальное ядро, 5 ГБ ОЗУ |1 виртуальное ядро |7,5 в секунду |301–600 |Доступно |
-| [EM3 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 виртуальных ядра |2 виртуальных ядра, 10 ГБ ОЗУ |2 виртуальных ядра | |601–1200 |Доступность |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 виртуальных ядер |4 виртуальных ядра, 25 ГБ ОЗУ |4 виртуальных ядра |30 в секунду |1201–2400 |Доступно (вариант [ежемесячной подписки](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) также доступен) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 виртуальных ядер |8 виртуальных ядер, 50 ГБ ОЗУ |8 виртуальных ядер |60 в секунду |2401–4800 |Доступность |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 виртуальных ядра |16 виртуальных ядер, 100 ГБ ОЗУ |16 виртуальных ядер |120 в секунду |4801–9600 |Доступно |
+| [EM1 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 виртуальное ядро |0,5 виртуальных ядер, 2,5 ГБ ОЗУ |0,5 виртуальных ядра |3,75 в секунду |Доступно |
+| [EM2 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 виртуальных ядра |1 виртуальное ядро, 5 ГБ ОЗУ |1 виртуальное ядро |7,5 в секунду |Доступно |
+| [EM3 (ежемесячная подписка)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 виртуальных ядра |2 виртуальных ядра, 10 ГБ ОЗУ |2 виртуальных ядра | |Доступно |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 виртуальных ядер |4 виртуальных ядра, 25 ГБ ОЗУ |4 виртуальных ядра |30 в секунду |Доступно (вариант [ежемесячной подписки](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) также доступен) |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 виртуальных ядер |8 виртуальных ядер, 50 ГБ ОЗУ |8 виртуальных ядер |60 в секунду |Доступно |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 виртуальных ядра |16 виртуальных ядер, 100 ГБ ОЗУ |16 виртуальных ядер |120 в секунду |Доступно |
 | | | | | | | |
 
 * Интерфейсные виртуальные ядра отвечают за управление веб-службами, панелями мониторинга и отчетами, управление правами доступа, планирование, интерфейсы API, передачу и скачивание, а также за взаимодействие с пользователем.

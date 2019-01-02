@@ -6,7 +6,7 @@
 | Многомерная модель Analysis Services |Да |Да |
 | Файл |Нет |Да |
 | Папка |Нет |Да |
-| IBM DB2 |Нет |Да |
+| IBM DB2 |Да |Да |
 | База данных IBM Informix |Нет |Да |
 | IBM Netezza |Да |Да |
 | Impala |Да |Да |
