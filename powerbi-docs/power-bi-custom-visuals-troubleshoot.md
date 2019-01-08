@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: bc5d5b7151643764b174d0bbec09e7f47ea2b1b2
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679262"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "53553865"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Устранение неполадок с настраиваемыми визуальными элементами Power BI
 
-## <a name="debug"></a>Отладить
+## <a name="debug"></a>Отладка
 
 **Команда pbiviz не найдена (или похожие ошибки)**
 
@@ -39,6 +39,8 @@ ms.locfileid: "51679262"
 
 Запустите сервер визуальных элементов с помощью команды `pbiviz start` в командной строке терминала из корня вашего проекта визуальных элементов. Если сервер не запускается, скорее всего, SSL-сертификаты не установлены должным образом.
 
+Вы можете обратиться в службу поддержки пользовательских визуальных элементов: *pbicvsupport@microsoft.com* с любыми вопросами, комментариями или проблемами, которые у вас есть.
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные сведения и ответы на вопросы: [Часто задаваемые вопросы о пользовательских визуальных элементах Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+Дополнительные сведения: [Часто задаваемые вопросы о пользовательских визуальных элементах Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).

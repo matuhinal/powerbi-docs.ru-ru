@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/18/2018
 ms.locfileid: "52157409"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Невозможно добавить Power BI к партнерской подписке на Office 365
@@ -53,7 +53,7 @@ Office 365 позволяет компаниям перепродавать па
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Включение специализированных подписок
 
-По умолчанию индивидуальная регистрация (специализированная подписка) не поддерживается. В этом случае при попытке зарегистрироваться вы увидите следующее сообщение: *Ваш ИТ-отдел отключил регистрацию на Microsoft Power BI*.
+По умолчанию индивидуальная регистрация (специализированная подписка) не поддерживается. В этом случае при попытке зарегистрироваться отобразится следующее сообщение: *Ваш ИТ-отдел отключил регистрацию на Microsoft Power BI*.
 
 ![Снимок экрана с сообщением "Извините..."](media/service-admin-syndication-partner/sorry.png)
 

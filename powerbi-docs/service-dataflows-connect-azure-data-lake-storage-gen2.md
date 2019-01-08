@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200656"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649052"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
 
@@ -76,7 +76,7 @@ ms.locfileid: "53200656"
 
 Перед добавлением учетной записи хранения в Power BI необходимо создать файловую систему с именем *powerbi*. Существует много способов создания такой файловой системы, включая использование Azure Databricks, HDInsight, AZCopy или Обозревателя службы хранилища Azure. В этом разделе описан простой способ создания файловой системы с помощью Обозревателя службы хранилища Azure.
 
-Для этого шага необходимо установить Обозреватель службы хранилища Azure. Сведения об установке Обозревателя для Windows, Macintosh или Linux см. в статье [Обозреватель хранилища Azure](https://azure.microsoft.com/features/storage-explorer/).
+Для этого шага необходимо установить Обозреватель службы хранилища Azure версии 1.6.1 или более поздней. Сведения об установке Обозревателя для Windows, Macintosh или Linux см. в статье [Обозреватель хранилища Azure](https://azure.microsoft.com/features/storage-explorer/).
 
 1. После установки при первом запуске откроется окно Microsoft Azure Storage Explorer — Connect (Обозреватель службы хранилища Microsoft Azure — подключение). Несмотря на то, что Обозреватель службы хранилища предоставляет несколько способов подключения к учетным записям хранения, в настоящее время поддерживается только один способ для требуемой настройки. 
 
@@ -108,11 +108,11 @@ ms.locfileid: "53200656"
 
     ![Корпоративные приложения AAD](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. В строке поиска введите *Power*, и появится коллекция идентификаторов объектов для приложений Power BI и Power Query.
+4. В строке поиска введите *Power*, и появится коллекция идентификаторов объектов для приложений Power BI и Power Query. Эти три значения понадобятся на следующих шагах.  
 
     ![Поиск приложений Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. В результатах поиска выберите и скопируйте идентификатор объекта для службы Power BI. Это значение понадобится для вставки на следующих шагах.
+5. В результатах поиска выберите и скопируйте идентификаторы объекта для служб Power BI и Power BI Premium. Эти значения понадобятся для вставки на следующих шагах.
 
 7. Затем с помощью **Обозревателя службы хранилища Azure** перейдите к файловой системе *powerbi*, созданной в предыдущем разделе. Выполните инструкции, представленные в разделе [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Управление доступом) в статье [Set file and directory level permissions using Azure Storage Explorer with Azure Data Lake Storage Gen2 (Preview)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Настройка разрешений уровня файлов и каталогов с помощью обозревателя службы хранилища Azure и Azure Data Lake Storage 2-го поколения).
 
@@ -120,7 +120,7 @@ ms.locfileid: "53200656"
 
    ![назначение трех списков для двух ИД](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Для идентификатора объекта Power Query Online, собранного на шаге 5, назначьте списки управления доступом по умолчанию и доступ на **запись** и **выполнение** в своей файловой системе *powerbi*.
+9. Для идентификатора объекта Power Query Online, собранного на шаге 4, назначьте списки управления доступом по умолчанию и доступ на **запись** и **выполнение** в своей файловой системе *powerbi*.
 
    ![последующее назначение записи и выполнения](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619823"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329747"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 Power BI Desktop позволяет подключаться к данным из многих разных источников. Полный список доступных источников данных представлен в нижней части этой страницы.
@@ -65,7 +65,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * База данных SQL Server Analysis Services
 * База данных Oracle
 * База данных IBM DB2
-* База данных IBM Informix (бета-версия)
+* База данных IBM Informix (бета-версия)
 * IBM Netezza
 * База данных MySQL
 * База данных PostgreSQL
@@ -78,6 +78,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Impala
 * Google BigQuery
 * Снежинка
+* Essbase (бета-версия)
 * Соединитель BI
 * Exasol
 * Dremio (бета-версия)
@@ -93,7 +94,7 @@ Power BI Desktop позволяет подключаться к данным и�
 
 Категория **Power BI** предоставляет следующие подключения к данным:
 
-* Наборы данных Power BI
+* Наборы данных Power BI
 * Потоки данных Power BI (бета-версия)
 
 На следующем рисунке показано окно **Получение данных** для **Power BI**.
@@ -103,16 +104,16 @@ Power BI Desktop позволяет подключаться к данным и�
 Категория **Azure** предоставляет следующие подключения к данным:
 
 * База данных SQL Azure
-* Хранилище данных SQL Azure
-* База данных Azure Analysis Services
+* Хранилище данных SQL Azure
+* База данных Azure Analysis Services
 * Хранилище BLOB-объектов Azure
 * Хранилище таблиц Azure
-* Azure Cosmos DB (бета-версия)
-* Azure Data Lake Storage
+* Azure Cosmos DB (бета-версия)
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark
-* HDInsight Interactive Query
-* Azure Data Explorer (бета-версия)
+* Azure HDInsight Spark
+* HDInsight Interactive Query
+* Azure Data Explorer (бета-версия)
 
 На следующем рисунке показано окно **Получить данные** для категории **Azure**.
 
@@ -122,12 +123,12 @@ Power BI Desktop позволяет подключаться к данным и�
 
 * Список SharePoint Online
 * Microsoft Exchange Online
-* Dynamics 365 (в сети);
+* Dynamics 365 (в сети)
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (локальный)
 * Common Data Service для приложений (бета-версия)
-* Microsoft Azure Consumption Insights (бета-версия);
+* Microsoft Azure Consumption Insights (бета-версия)
 * Azure DevOps (бета-версия)
 * Azure DevOps Server (бета-версия)
 * Объекты SalesForce
@@ -136,21 +137,21 @@ Power BI Desktop позволяет подключаться к данным и�
 * Adobe Analytics
 * appFigures (бета-версия)
 * comScore Digital Analytix (бета-версия)
-* Dynamics 365 для Customer Insights (бета-версия)
-* Data.World — получение набора данных (бета-версия)
+* Dynamics 365 для Customer Insights (бета-версия)
+* Data.World — получение набора данных (бета-версия)
 * Facebook
 * GitHub (бета-версия)
 * MailChimp (бета-версия)
 * Merketo (бета-версия)
 * Mixpanel (бета-версия)
-* Planview Enterprise One — PRM (бета-версия)
+* Planview Enterprise One — PRM (бета-версия)
 * Planview Projectplace (бета-версия)
 * QuickBooks Online (бета-версия)
 * Smartsheet (бета-версия)
 * SparkPost (бета-версия)
 * Stripe (бета-версия)
 * SweetIQ (бета-версия)
-* Planview Enterprise One — CMT (бета-версия)
+* Planview Enterprise One — CMT (бета-версия)
 * Twilio (бета-версия)
 * tyGraph (бета-версия)
 * Webtrends (бета-версия)
@@ -170,7 +171,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Active Directory
 * Microsoft Exchange
 * Файл Hadoop (HDFS)
-* Spark;
+* Spark
 * Сценарий R
 * Скрипт Python
 * ODBC
