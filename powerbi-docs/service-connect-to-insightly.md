@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548634"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008012"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Подключение к Insightly с помощью Power BI
 Вы можете визуализировать и совместно использовать данные Insightly CRM в Power BI с помощью пакета содержимого Insightly. Подключитесь к Power BI с помощью ключа API Insightly для просмотра и создания отчетов и информационных панелей из данных CRM. С помощью Power BI можно анализировать данные новыми способами, создавать эффективные графики и диаграммы, а также отображать контакты, интересы и организации на карте.

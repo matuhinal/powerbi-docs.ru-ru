@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908838"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008817"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Подключение к Microsoft Dynamics CRM с помощью Power BI
 Microsoft Dynamics CRM Online для Power BI позволяет легко обращаться к данным и анализировать их. Power BI использует канал OData для создания описательной модели с необходимыми сущностями и мерами, такими как учетные записи, действия, возможности, продукты, интересы, пользователи и т. д. Установив приложение, вы можете просматривать отчеты и панели мониторинга в службе Power BI ([https://powerbi.com](https://powerbi.com)) и мобильных приложениях Power BI. 
@@ -77,7 +77,7 @@ Microsoft Dynamics CRM Online для Power BI позволяет легко об
 
 | Объект CRM | Примененные фильтры |
 | --- | --- |
-| Учетная запись |Все клиенты, с которыми связаны возможные сделки и которые были изменены за последние 365 дней. |
+| Account |Все клиенты, с которыми связаны возможные сделки и которые были изменены за последние 365 дней. |
 | Действие |Все мероприятия, измененные за последние 90 дней. <br> [modifiedon] > today - 90 days |
 | Business Unit |Все подразделения, которые не отключены. <br> [isdisabled] = false |
 | Lead |Все потенциальные клиенты, измененные за последние 180 дней. <br> [modifiedon] > today - 180 days |

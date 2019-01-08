@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544884"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008150"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Подключение к Twilio с помощью Power BI
 Пакет содержимого Microsoft Twilio для Power BI позволяет извлекать данные в Power BI, а также создает готовую [панель мониторинга Twilio](https://powerbi.microsoft.com/integrations/twilio) и отчет с ценными сведениями о ваших данных. Вы также можете создавать настраиваемые отчеты и панели мониторинга на основе набора данных, созданного Power BI. Данные будут обновляться раз в день, поэтому вам всегда будут доступны последние сведения.

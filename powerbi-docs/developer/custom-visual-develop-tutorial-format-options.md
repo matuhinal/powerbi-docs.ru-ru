@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: e9701a05ffeff7d8e5113c870db3f90e2e3c8c8e
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289181"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056117"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Руководство по добавлению параметров форматирования в пользовательские визуальные элементы Power BI
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Руководство. Добавление параметров форматирования в пользовательские визуальные элементы Power BI
 
 В этом руководстве описывается добавление типичных свойств в визуальные элементы.
 
