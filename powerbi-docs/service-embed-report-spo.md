@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973334"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136606"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -75,7 +75,7 @@ ms.locfileid: "50973334"
 
     ![Загруженный отчет в SharePoint](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>Предоставление доступа к отчетам
+## <a name="grant-access-to-reports"></a>Предоставление доступа к отчетам
 
 При внедрении отчета в SharePoint Online разрешение на просмотр отчета не предоставляется пользователям автоматически. Разрешения на просмотр отчета настраиваются в службе Power BI.
 
@@ -90,7 +90,7 @@ ms.locfileid: "50973334"
 
 2. Автор создает отчет в рабочей области приложения. *Чтобы предоставить общий доступ **пользователям бесплатной версии Power BI** к рабочей области приложения, нужно настроить ее как **рабочую область "Премиум"**.*
 
-3. Автор публикует приложение и устанавливает его. *Автор должен установить приложение и предоставить ему доступ к URL-адресу отчета, который используется для внедрения в SharePoint Online.*
+3. Автор публикует приложение и устанавливает его. *Автор должен установить приложение, чтобы получить доступ к URL-адресу отчета, который используется для внедрения в SharePoint Online.*
 
 4. Теперь все пользователи также должны установить приложение. Но можно настроить предварительную установку приложения для пользователей, включив функцию **Автоматическая установка приложения** на [портале администрирования Power BI](service-admin-portal.md).
 
@@ -152,7 +152,7 @@ ms.locfileid: "50973334"
 
 ## <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
 
-* Ошибка: "Произошла ошибка. Выйдите из системы и снова войдите, а затем вернитесь к этой странице. Идентификатор корреляции: не указано, состояние HTTP-ответа: 400, код ошибки сервера: 10001, сообщение: отсутствует маркер обновления".
+* Ошибка "Произошла ошибка. Попробуйте выйти из системы и войти снова, а затем вернитесь к этой странице. Идентификатор корреляции: неопределенный, состояние HTTP-ответа: 400, код ошибки сервера 10001, сообщение: Отсутствует маркер обновления".
   
   Если возникает такая ошибка, попробуйте один из описанных ниже шагов по устранению неполадок.
   
@@ -174,9 +174,10 @@ ms.locfileid: "50973334"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Allow or prevent creation of modern site pages by end users](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) (Разрешение или запрет создания современных страниц сайта конечными пользователями)  
-[Создание и распространение приложения в Power BI](service-create-distribute-apps.md)  
-[Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md)  
-[Что такое Power BI Premium?](service-premium.md)  
+* [Allow or prevent creation of modern site pages by end users](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) (Разрешение или запрет создания современных страниц сайта конечными пользователями)  
+* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md)  
+* [Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md)  
+* [Что такое Power BI Premium?](service-premium.md)
+* [Embed a report in a secure portal or website](service-embed-secure.md) (Внедрение отчета в защищенный портал или сайт)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
