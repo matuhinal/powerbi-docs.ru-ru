@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735576"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072297"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -44,7 +44,7 @@ ms.locfileid: "53735576"
 * [Параметры клиента](#tenant-settings)
 * [Параметры Premium](#premium-settings)
 * [Коды внедрения](#embed-codes)
-* [Визуальные элементы организации](#organization-visuals).
+* [Визуальные элементы организации](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Метрики использования
 
@@ -329,9 +329,9 @@ ms.locfileid: "53735576"
 
 ![Внедрение кодов с помощью портала администрирования Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>Визуальные элементы организации
+## <a name="organizational-visuals"></a>Визуальные элементы организации
 
-Вкладка **Визуальные элементы организации** позволяет развертывать и администрировать пользовательские визуальные элементы в пределах организации. С помощью визуальных элементов организации можно легко развертывать собственные визуальные элементы в организации, которые авторы отчетов могут затем найти и импортировать в свои отчеты из Power BI Desktop. [Дополнительные сведения](power-bi-custom-visuals-organization.md)
+Вкладка **Визуальные элементы организации** позволяет развертывать и администрировать пользовательские визуальные элементы в вашей организации. С помощью визуальных элементов организации можно легко развертывать собственные визуальные элементы в организации, которые авторы отчетов могут затем найти и импортировать в свои отчеты из Power BI Desktop. [Дополнительные сведения](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Пользовательский визуальный элемент может содержать код, угрожающий безопасности или конфиденциальности. Перед развертыванием в репозитории организации убедитесь в надежности автора и источника пользовательского визуального элемента.
