@@ -11,70 +11,70 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 84b6acfcf87601712622cbbd2b4e7d396f75f0b8
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 7bf7b5ae6fc68977d98660f69a02e38c6a8750d2
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056094"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072205"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Использование пользовательских визуализаций на основе R в Power BI
+
 В **Power BI Desktop** и **службе Power BI** можно использовать настраиваемые визуальные элементы на основе R. Для этого не нужно знать язык R или писать на нем какие-либо сценарии. Это позволяет использовать аналитические и графические возможности визуализаций и сценариев R без изучения языка R и самостоятельного программирования на нем.
 
 Чтобы использовать настраиваемые визуальные элементы R, сначала выберите и скачайте нужный элемент из коллекции **настраиваемых визуальных элементов** [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1).
 
-![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
+![Визуальный элемент R 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 В следующих разделах объясняется, как выбрать, скачать и использовать R-визуализации в **Power BI Desktop**.
 
 ## <a name="use-r-custom-visuals"></a>Использование настраиваемых визуальных элементов R
+
 Чтобы использовать пользовательские R-визуализации, скачайте нужные объекты из библиотеки **пользовательских визуальных объектов**. После этого вы сможете использовать их, как любой другой визуальный элемент в **Power BI Desktop**. Существует два способа получить настраиваемые визуальные элементы: их можно скачать с веб-сайта **AppSource** или получить в **Power BI Desktop**. 
 
 ### <a name="get-custom-visuals-from-appsource"></a>Получение настраиваемых визуальных элементов из AppSource
 
 Ниже приведены инструкции по просмотру и выбору визуальных элементов на веб-сайте **AppSource**.
 
-1. Перейдите к библиотеке визуальных элементов Power BI по адресу [https://appsource.microsoft.com](https://appsource.microsoft.com/). Установите флажок **Power BI apps** (Приложения Power BI) в меню *Уточнить по продукту* и перейдите по ссылке See all (Просмотреть все).
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
+1. Перейдите к библиотеке визуальных элементов Power BI по адресу [https://appsource.microsoft.com](https://appsource.microsoft.com/). Установите флажок *Power BI apps* (Приложения Power BI) в меню *Уточнить по продукту* и перейдите по ссылке **See all** (Просмотреть все).
+
+   ![Визуальный элемент R 2a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
 2. На странице библиотеки [визуальных элементов Power BI](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) в списке надстроек в левой области выберите **Визуальные элементы Power BI**.
 
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
+   ![Визуальный элемент R 2b](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
 
 3. Выберите в коллекции нужный **визуальный элемент**, после чего вы будете перенаправлены на страницу с его описанием. Нажмите кнопку **Get it now** (Получить) для скачивания.
-   
+
    > [!NOTE]
     > Для разработки в **Power BI Desktop** необходимо установить R на локальном компьютере. Если пользователь будет просматривать R-визуализации в **службе Power BI**, устанавливать R локально не нужно.
-   > 
-   > 
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
-   
+
+   ![Визуальный элемент R 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
+
    Чтобы использовать пользовательские R-визуализации в **службе Power BI**, вам не нужно устанавливать R. Но если вы хотите использовать пользовательские R-визуализации в **Power BI Desktop**, вам *необходимо* установить R на локальный компьютер. Вы можете загрузить R из таких расположений:
-   
+
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
 4. Скачав визуализацию (как любой другой файл в браузере), откройте **Power BI Desktop**, на панели **Визуализации** щелкните правой кнопкой мыши кнопку с многоточием (...) и выберите **Импортировать из файла**.
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
+
+   ![Визуальный элемент R 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. Появится предупреждение об импорте пользовательских визуальных элементов, как показано на рисунке ниже.
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-6. Перейдите в папку, в которой сохранен файл визуального элемента, и выберите этот файл. Пользовательские визуализации **Power BI Desktop** имеют расширение .pbiviz.
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
+
+   ![Визуальный элемент R 5](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
+6. Перейдите в папку, в которой сохранен файл визуального элемента, и выберите этот файл. Пользовательские визуализации **Power BI Desktop** имеют расширение .pbivisual.
+
+   ![Визуальный элемент R 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
 7. Вернувшись в Power BI Desktop, вы увидите на панели **Визуализации** новый тип визуального элемента.
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_7.png)
-8. После того как вы импортировали новую визуализацию или открыли отчет, который содержит настраиваемую R-визуализацию, служба **Power BI Desktop** начнет устанавливать требуемые пакеты R.
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_8.png)
+
+   ![Визуальный элемент R 7](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_7.png)
+8. После того как вы импортировали новую визуализацию или открыли отчет, который содержит настраиваемую R-визуализацию, служба **Power BI Desktop** начнет устанавливать требуемые пакеты R.
+
+   ![Визуальный элемент R 8](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_8.png)
 
 9. На этом этапе вы можете добавить данные в визуальный элемент так же, как в любой другой визуальный элемент **Power BI Desktop**. По завершении вы увидите готовый визуальный элемент на холсте. В следующем примере R-визуализация **Forecasting** (Прогнозирование) используется с прогнозами ООН относительно рождаемости (визуализация слева).
 
-    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
+    ![Визуальный элемент R 10](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
 
     Как и в случае с любым другим визуальным элементом **Power BI Desktop**, вы можете опубликовать отчет с R-визуализациями в **службе Power BI** и предоставить к нему доступ другим пользователям.
 
@@ -83,19 +83,21 @@ ms.locfileid: "54056094"
 ### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>Получение настраиваемых визуальных элементов в **Power BI Desktop**
 
 1. Вы также можете получить настраиваемые визуальные элементы в **Power BI Desktop**. В **Power BI Desktop** нажмите правой кнопкой мыши кнопку с многоточием (...) в области **Визуализации** и выберите **Импорт из магазина**.
-   
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
+
+   ![Визуальный элемент R 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
 2. После этого откроется диалоговое окно **Визуальные элементы Power BI**, где можно просмотреть доступные настраиваемые визуальные элементы и выбрать нужный. Можно выполнить поиск по имени, выбрать категорию или просто прокрутить список доступных визуальных элементов. Когда все будет готово, просто нажмите **Добавить**, чтобы добавить настраиваемый визуальный элемент в **Power BI Desktop**.
 
-   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
+   ![Визуальный элемент R 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
 ## <a name="contribute-r-powered-custom-visuals"></a>Публикация настраиваемых визуальных элементов на основе R
-Если вы создаете собственные R-визуализации для использования в отчетах, вы можете делиться ими со всем миром, публикуя их в **коллекции пользовательских визуализаций**. Публикация выполняется через GitHub. Процесс описан по ссылке ниже.
+
+Если вы создаете собственные визуальные элементы R для использования в отчетах, вы можете делиться ими со всем миром, публикуя их в **коллекции пользовательских визуальных элементов**. Публикация выполняется через GitHub. Процесс описан по ссылке ниже.
 
 * [Публикация в коллекцию пользовательских R-визуализаций](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
 ## <a name="troubleshoot-r-powered-custom-visuals"></a>Устранение неполадок настраиваемых визуальных элементов на основе R
+
 Чтобы визуальные элементы на основе R работали правильно, необходимо соблюдать определенные зависимости. Если пользовательские визуальные элементы на основе R выполняются или загружаются неправильно, это свидетельствует о какой-то из описанных ниже проблем:
 
 * отсутствие модуля R;
@@ -105,7 +107,8 @@ ms.locfileid: "54056094"
 В следующем разделе описаны действия по устранению возникших неполадок.
 
 ### <a name="missing-or-outdated-r-packages"></a>Пакеты R отсутствуют или устарели
-При попытке установить пользовательский визуальный элемент на основе R могут возникнуть ошибки, связанные с отсутствием или устареванием пакетов R. Обычно это вызвано одной из следующих причин:
+
+При попытке установить пользовательский визуальный элемент на основе R могут возникнуть ошибки, связанные с отсутствием или устареванием пакетов R. Это вызвано одной из следующих причин:
 
 * установленный экземпляр R несовместим с пакетом R;
 * настройки брандмауэра, антивирусных программ или прокси-сервера препятствуют подключению R к Интернету;
@@ -114,25 +117,24 @@ ms.locfileid: "54056094"
 Команда Power BI работает над устранением этих проблем, прежде чем они повлияют на вашу работу. Следующий выпуск Power BI Desktop будет включать обновления для решения этих проблем. До появления следующего выпуска можно выполнить предложенные ниже действия по устранению проблем.
 
 1. Удалите пользовательский визуальный элемент и установите его снова. Это вызовет переустановку пакетов R.
-2. Если у вас установлена не последняя версия R, обновите ее. Затем удалите или переустановите пользовательский визуальный элемент, как описано выше.
-   
+2. Если у вас установлена не последняя версия R, обновите ее. Затем удалите или переустановите пользовательский визуальный элемент, как описано выше.
+
    Поддерживаемые версии R указаны в описании каждого пользовательского визуального элемента на основе R (см. рисунок ниже).
-   
-     ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_11.png)
-     > [!NOTE]
+
+     ![Визуальный элемент R 11](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_11.png)
+    > [!NOTE]
     > Вы можете не удалять исходный установленный экземпляр R и связать Power BI Desktop только с устанавливаемой текущей версией. Выберите **Файл > Параметры и настройки > Параметры > Создание R-скриптов**.
-    >
-    >
+
 3. Установите пакеты R вручную с помощью любой консоли R. Ниже описано, как это сделать.
-   
+
    а.  Загрузите сценарий установки визуальных элементов на основе R и сохраните этот файл на локальный жесткий диск.
-   
+
    б.  Из консоли R выполните следующую команду:
-   
-       > source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)    
-   
+
+       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+
    Обычные расположения установки по умолчанию:
-   
+
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
@@ -140,16 +142,16 @@ ms.locfileid: "54056094"
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
 4. Если предыдущие действия неэффективны, сделайте следующее:
-   
+
    а. В **R Studio** выполните действия, описанные в разделе 3б выше (выполните строку скрипта из консоли R).
-   
+
    б. Если это не поможет, в **R Studio** откройте **Tools (Сервис) > Global Options (Глобальные параметры) > Packages (Пакеты)** и установите флажок **Use Internet Explorer library/proxy for HTTP** (Использовать библиотеку/прокси-сервер Internet Explorer для HTTP), а затем повторите действия из раздела 3б выше.
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 Ознакомьтесь с дополнительными материалами по R в Power BI.
 
 * [Коллекция пользовательских визуальных элементов Power BI](https://app.powerbi.com/visuals/)
 * [Выполнение сценариев R в Power BI Desktop](desktop-r-scripts.md)
 * [Создание визуальных элементов Power BI с помощью R](desktop-r-visuals.md)
 * [Использование внешней среды R IDE с Power BI](desktop-r-ide.md)
-
