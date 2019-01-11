@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/26/2018
-ms.openlocfilehash: 9ef7890c6f80845a9e6d1bd02e35778ed866ff54
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 2b7a71baafd8ec2ef839aaca95529221c642357f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332216"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072182"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Рекомендации по визуальным элементам Power BI с дополнительными покупками
 
@@ -59,6 +60,10 @@ ms.locfileid: "52332216"
 ### <a name="license-key-and-token"></a>Лицензионный ключ и токен
 
 Для удобства пользователей добавьте поля для лицензионного ключа или токена в верхней части области форматирования, чтобы их было проще найти.
+
+## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+
+См. дополнительные сведения и ответы на вопросы о [пользовательских визуальных элементах с дополнительными покупками](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

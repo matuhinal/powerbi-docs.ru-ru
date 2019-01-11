@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026829"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072366"
 ---
 # <a name="using-auditing-within-your-organization"></a>Применение функции аудита в своей организации
 
 Сведения о том, кто выполняет действия в клиенте Power BI, что это за действия и какие элементы они затрагивают, могут быть важными для выполнения требований в организации, например для соблюдения нормативных требований или для управления записями. Функцию аудита Power BI можно использовать для проверки выполнявшихся пользователями действий, таких как просмотр отчета или панели мониторинга. Эту функцию нельзя использовать для аудита разрешений.
 
-Использовать функцию аудита можно в Центре безопасности и соответствия требованиям Microsoft Office 365 или с помощью PowerShell. В этой статье рассматриваются оба способа. Данные аудита можно фильтровать по диапазону дат, пользователю, панели мониторинга, отчету, набору данных и типу действий. Кроме того, можно загрузить информацию о действиях в CSV-файл и проанализировать ее в автономном режиме.
+Использовать функцию аудита можно в Центре безопасности и соответствия требованиям Microsoft Office 365 или с помощью PowerShell. Аудит зависит от функциональных возможностей Exchange Online (автоматически подготавливается для Power BI).
+
+Данные аудита можно фильтровать по диапазону дат, пользователю, панели мониторинга, отчету, набору данных и типу действий. Кроме того, можно загрузить информацию о действиях в CSV-файл и проанализировать ее в автономном режиме.
 
 ## <a name="requirements"></a>Требования
 
 Чтобы получить доступ к журналам аудита, вы должны удовлетворить следующие требования:
 
-- Для доступа к разделу аудита Центра безопасности и соответствия требованиям Microsoft Office 365 требуется лицензия Exchange Online (включена в подписки Office 365 корпоративный E3 и E5).
+* Для доступа к журналам аудита вы должны быть глобальным администратором или вам должна быть назначена роль журналов аудита или журналов аудита в режиме просмотра в Exchange Online. По умолчанию эти роли назначаются группам ролей управления соответствием и управления организацией на странице **Разрешения** в центре администрирования Exchange.
 
-- Вы должны быть глобальным администратором или администратором Exchange, который предоставляет доступ к журналу аудита. Ролями администратора Exchange можно управлять в Центре администрирования Exchange. Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo/).
+    Чтобы предоставить учетным записям без прав администратора доступ к журналу аудита, необходимо сделать пользователя участником одной из этих групп ролей. Кроме того, можно создать пользовательскую группу ролей в центре администрирования Exchange, назначить упомянутые выше роли, связанные с журналом аудита, этой группе, а затем включить учетную запись без прав администратора в новую группу ролей. См. дополнительные сведения об [управлении группами ролей в Exchange Online](/Exchange/permissions-exo/role-groups).
 
-- Если у вас есть доступ к журналу аудита, но вы не являетесь глобальным администратором или администратором службы Power BI, вы не сможете получить доступ к порталу администрирования Power BI. В таком случае вам нужно получить прямую ссылку на [Центр безопасности и соответствия требованиям Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+    Если у вас нет доступа к центру администрирования Exchange из центра администрирования Office 365, перейдите на страницу https://outlook.office365.com/ecp и войдите в систему с помощью своих учетных данных.
 
-- Чтобы просмотреть журналы аудита Power BI в клиенте, в нем должна быть хотя бы одна лицензия на почтовый ящик Exchange.
+* Если у вас есть доступ к журналу аудита, но вы не являетесь глобальным администратором или администратором службы Power BI, вы не сможете получить доступ к порталу администрирования Power BI. В этом случае вам нужно использовать прямую ссылку на [Центр безопасности и соответствия требованиям Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
 ## <a name="accessing-your-audit-logs"></a>Доступ к журналам аудита
 
@@ -51,8 +53,6 @@ ms.locfileid: "53026829"
 1. Нажмите кнопку **Перейти в Центр администрирования Office 365**.
 
    ![Перейти в Центр администрирования Office 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-Чтобы предоставить учетным записям без прав администратора доступ к журналу аудита, необходимо назначить соответствующие разрешения в Центре администрирования Exchange Online. Можно назначить пользователя в существующую группу ролей, например "Управление организацией", или создать новую группу ролей "Журналы аудита". Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo/).
 
 ## <a name="search-only-power-bi-activities"></a>Поиск только действий Power BI
 
@@ -119,9 +119,7 @@ ms.locfileid: "53026829"
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Поиск в журналах аудита с помощью PowerShell
 
-Вы также можете получить доступ к журналам аудита по имени пользователя с помощью PowerShell. В следующем примере показано, как извлечь записи журнала аудита Power BI с помощью команды [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/).
-
-Чтобы использовать команду [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/), требуется назначить учетной записи лицензию Exchange Online и настроить доступ к журналу аудита из вашего клиента. Дополнительные сведения о подключении к Exchange Online см. в разделе [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/).
+Вы также можете получить доступ к журналам аудита по имени пользователя с помощью PowerShell. В следующем примере показано, как подключиться к Exchange Online PowerShell и извлечь записи журнала аудита Power BI с помощью команды [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/). Чтобы запустить скрипт, вам должны быть назначены соответствующие разрешения, как описано в разделе [Требования](#requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-Еще один пример использования PowerShell с журналами аудита описан в руководстве по [использованию журнала аудита Power BI и PowerShell для назначения лицензий Power BI Pro](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
+Дополнительные сведения о подключении к Exchange Online см. в разделе [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Еще один пример использования PowerShell с журналами аудита описан в руководстве по [использованию журнала аудита Power BI и PowerShell для назначения лицензий Power BI Pro](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
 
 ## <a name="activities-audited-by-power-bi"></a>Список действий, проверяемых Power BI
 

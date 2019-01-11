@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545695"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008633"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Подключение к Marketo с помощью Power BI
 Пакет содержимого Power BI для Marketo позволяет получить подробные сведения об учетной записи Marketo с данными о потенциальных клиентах и их действиях. При создании этого подключения вы извлечете данные и автоматически получите панель мониторинга и связанные отчеты на основе этих данных.
@@ -59,7 +59,7 @@ ms.locfileid: "46545695"
 | Имя таблицы | Описание |
 | --- | --- |
 | EmailActivities |Данные о сообщениях электронной почты, отправленных интересам и контактам, с подробными сведениями об устройствах, категориях, числе и проценте отклоненных, обработанных и открытых сообщений и имени программы. Действия по электронной почте, показанные в Power BI, — это абсолютный отчет о возможности доставки сообщений, он не применяет дополнительную логику к данным. Из-за этого возможно получение различных результатов в клиенте Marketo и в Power BI. |
-| ProgramActivites |Данные о программах, для которых изменилось состояние. К ним относятся: причина, успех, число и процент приобретения программ, а также число и процент успешных выполнений программы. |
+| ProgramActivites |Данные о программах, для которых изменилось состояние. К ним относятся причина, успех, число и процент приобретения программ, а также число и процент успешных выполнений программы. |
 | WebPageActivities |Данные о посещении пользователями веб-страницы, включая агент поиска, агент пользователя, веб-страницу и время дня. |
 | Datetable |Даты от сегодняшней даты до соответствующей даты в прошлом году.  Позволяет анализировать данные Marketo по дате. |
 | Лиды |Сведения об интересе, такие как компания, размер дохода, число сотрудников, страна, отрасль, оценка и состояние интереса. Лиды извлекаются на основе их присутствия в действиях электронной почты, программы и веб-страницы. |
@@ -90,5 +90,5 @@ ms.locfileid: "46545695"
 
 [Получение данных для Power BI](service-get-data.md)
 
-[Блог Power BI. Мониторинг и анализ данных Marketo с помощью Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/03/19/monitor-and-analyze-your-marketo-data-with-power-bi.aspx)
+[Блог Power BI. Мониторинг и анализ данных Marketo с помощью Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/03/19/monitor-and-analyze-your-marketo-data-with-power-bi.aspx)
 

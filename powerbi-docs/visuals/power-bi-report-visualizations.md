@@ -11,24 +11,24 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/21/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedfbd8da9b0582c84224ef846cd0ba1c14d0683
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 73350a579096e4126ea2f65654a7d1ed7a4980c1
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223244"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072274"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Визуализации в отчетах Power BI
 
-Визуализации (также называемые визуальными элементами) отображают сведения, обнаруженные в данных. Отчет Power BI может содержать одну страницу с одной визуализацией или большое количество и тех, и других. Служба Power BI позволяет [закрепить визуальные элементы из отчетов на панели мониторинга](../service-dashboard-pin-tile-from-report.md). 
+Визуализации (также называемые визуальными элементами) отображают сведения, обнаруженные в данных. Отчет Power BI может содержать одну страницу с одной визуализацией или большое количество и тех, и других. Служба Power BI позволяет [закрепить визуальные элементы из отчетов на панели мониторинга](../service-dashboard-pin-tile-from-report.md).
 
 Здесь важно знать об отличиях между *создателями* и *потребителями* отчетов. Создателем считается тот, кто разрабатывает или изменяет отчет.  Создатели имеют разрешения на изменение отчета и базового набора данных. В Power BI Desktop это означает, что вы сможете открывать набор данных в режиме представления данных и создавать визуальные элементы в представлении отчета. В службе Power BI это означает возможность открывать набор данных или отчет в редакторе отчетов [в режиме редактирования](../consumer/end-user-reading-view.md). Если к отчету или панели мониторинга [вам предоставлен общий доступ ](../consumer/end-user-shared-with-me.md)другим лицом, вы считаетесь **потребителем** отчета. Вы сможете просматривать отчет и его визуальные элементы, а также взаимодействовать с ними, но не сможете сохранить изменения.
 
-Есть много разных типов визуальных элементов, которые вы можете добавить прямо из панели визуализаций в Power BI. 
+Есть много разных типов визуальных элементов, которые вы можете добавить прямо из панели визуализаций в Power BI.
 
 ![](media/power-bi-report-visualizations/power-bi-templates.png)
 
-Чтобы получить еще больше возможностей, посетите [веб-сайт сообщества Майкрософт AppSource](https://appsource.microsoft.com). Там вы сможете найти и скачать [пользовательские визуальные элементы](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1), созданные корпорацией Майкрософт и членами сообщества.    
+Чтобы получить еще больше возможностей, посетите [веб-сайт сообщества Microsoft AppSource](https://appsource.microsoft.com). Там вы сможете найти и [скачать](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [пользовательские визуальные элементы](../developer/custom-visual-develop-tutorial.md), созданные корпорацией Майкрософт и членами сообщества.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223244"
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Отправка пользовательской визуализации и ее использование в Power BI
 
-Добавьте пользовательскую визуализацию, созданную вами или найденную на [сайте сообщества Майкрософт AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Чувствуете творческий порыв? Подробно изучите исходный код наших примеров и, используя [средства разработчика](../developer/custom-visual-develop-tutorial.md), создайте новый тип визуализации и [поделитесь им с сообществом](../developer/office-store.md).
+Добавьте пользовательскую визуализацию, созданную вами или найденную на [сайте сообщества Майкрософт AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Чувствуете творческий порыв? Изучите наш исходный код и примените наши [средства разработчика](../developer/custom-visual-develop-tutorial.md), чтобы создать новый тип визуализации и [поделиться им с сообществом](../developer/office-store.md). См. дополнительные сведения о [разработке пользовательских визуальных элементов Power BI](../developer/custom-visual-develop-tutorial.md).
 
 ## <a name="change-the-visualization-type"></a>Изменение типа визуализации
 
@@ -53,4 +53,5 @@ ms.locfileid: "51223244"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Пользовательские визуальные элементы](../power-bi-custom-visuals.md)

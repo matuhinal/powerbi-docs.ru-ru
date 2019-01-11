@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003232"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008610"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Подключение к Zuora с помощью Power BI
 Zuora для Power BI позволяет визуализировать важные данные о доходах, выставлении счетов и подписках. Используйте панель мониторинга и отчеты по умолчанию для анализа тенденций использования, отслеживания отчетов и выплат, а также мониторинга постоянных доходов или их настройки в соответствии с уникальными требованиями к панели мониторинга и отчетам.
@@ -68,19 +68,19 @@ Zuora для Power BI позволяет визуализировать важн
 | Мера | Описание | Pseudo-Calculation |
 | --- | --- | --- |
 | Account: Payments |Общие суммы платежей за период времени, основанные на фактических датах платежей. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
-| Account: Refunds |Общие суммы возмещений за период времени, основанные на датах возмещений. Сумма указывается как отрицательное число. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
+| Account: Возмещения |Общие суммы возмещений за период времени, основанные на датах возмещений. Сумма указывается как отрицательное число. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
 | Account: Net Payments |Платежи учетной записи плюс возмещения учетной записи за период времени. |Account.Payments + Account.Refunds |
 | Account: Active Accounts |Количество учетных записей, которые были активными за период времени. Подписки должны начаться до или непосредственно в дату начала периода времени. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
 | Account: Average Recurring Revenue |Валовый MRR на активную учетную запись за период времени. |Gross MRR / Account.ActiveAccounts |
 | Account: Cancelled Subscriptions |Число учетных записей, которые отменили подписку за период времени. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
 | Account: Payment Errors |Общее значение ошибок платежей. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
 | Revenue Schedule Item: Recognized Revenue |Общий признанный доход за отчетный период. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
-| Subscription: New Subscriptions |Число новых подписок за период времени. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
-| Invoice: Invoice Items |Общие суммы по позициям выставленных счетов за период времени. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Invoice: Taxation Items |Общие суммы налогов по позициям налогообложения за период времени. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Invoice: Invoice Item Adjustments |Общие суммы корректировки по позициям счетов за период времени. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Invoice: Invoice Adjustments |Общие суммы корректировки счетов за период времени. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Invoice: Net Billings |Сумма позиций счетов, позиций налогообложения, корректировок по позициям счетов и корректировок счетов за период времени. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
+| Подписка: New Subscriptions |Число новых подписок за период времени. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
+| Invoice: Позиции счетов |Общие суммы по позициям выставленных счетов за период времени. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Invoice: Позиции налогов |Общие суммы налогов по позициям налогообложения за период времени. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Invoice: Корректировка позиций счетов |Общие суммы корректировки по позициям счетов за период времени. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Invoice: Корректировка счетов |Общие суммы корректировки счетов за период времени. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Invoice: Чистая сумма оплаты |Сумма позиций счетов, позиций налогообложения, корректировок по позициям счетов и корректировок счетов за период времени. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
 | Invoice: Invoice Aging Balance |Сумма балансов по учтенным счетам. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = "Posted" |
 | Invoice: Gross Billings |Сумма значений по позициям выставленных счетов для учтенных счетов за период времени. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
 | Invoice: Total Adjustments |Сумма обработанных корректировок счетов и корректировок по позициям счетов, связанных с учтенными счетами. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.Status = "Processed"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    invoiceItemAdjustment.Status = "Processed" |

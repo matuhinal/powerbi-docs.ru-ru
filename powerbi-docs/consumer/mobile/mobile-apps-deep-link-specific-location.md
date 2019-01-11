@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 63b9129c56b064f224eef0720e5f585c86d80a93
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742855"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983584"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
 Можно создать и использовать универсальный код ресурса (URI), ведущий к определенному расположению (*прямая ссылка*) в мобильных приложениях Power BI на всех мобильных платформах: iOS, Windows 10 и устройствах Android.
@@ -69,6 +69,12 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 Чтобы найти 36-символьный идентификатор объекта отчета, перейдите к требуемому отчету в службе Power BI (https://powerbi.com). Например, см. выделенный отрезок этого URL-адреса:
 
 `https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+
+Если отчет находится не в группе "Моя рабочая область", добавьте `&GroupObjectId=<36-character-group-id>` перед идентификатором отчета или после него. Например: 
+
+mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+
+Обратите внимание на амперсанд (&) между ними.
 
 ## <a name="open-to-a-specific-report-page"></a>Открытие определенной страницы отчета
 Этот универсальный код ресурса (URI) открывает определенную страницу отчета в мобильном приложении Power BI:

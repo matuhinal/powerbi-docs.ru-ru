@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578803"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008426"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -74,7 +74,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 | Доступ к содержимому с бесплатной лицензией Power BI на Powerbi.com и в Power BI Mobile | Нет | Нет | Да |
 | Доступ к содержимому с бесплатной лицензией Power BI в приложениях MS Office | Нет | Да | Да |
 
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Сейчас в Power BI предлагается три типа номеров SKU для внедрения: SKU A, SKU EM и SKU P. Какой из них следует приобрести в моем случае?
+### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Сейчас в Power BI предлагается три типа номеров SKU для внедрения: SKU A, SKU EM и SKU P. Какой из них следует приобрести в моем случае?
 
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
@@ -104,7 +104,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Почему создание, масштабирование и возобновление емкости приводит к переводу емкости в приостановленное состояние?
 
-Подготовка емкости (при масштабировании, возобновлении, создании) может завершиться сбоем. Вызывающий объект вызова подготовки должен проверять состояние подготовки емкости с помощью API получения сведений: [Емкость -> Получить сведения](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+Подготовка емкости (при масштабировании, возобновлении, создании) может завершиться сбоем. Вызывающий объект вызова подготовки должен проверять состояние подготовки емкости с помощью API получения сведений: [Емкость -> Получить сведения](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Почему можно создать PBIE только в определенном регионе?
 
@@ -321,3 +321,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 См. дополнительные сведения об [устранении неполадок с внедренным приложением](embedded-troubleshoot.md).
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Рекомендации по повышению производительности
+
+[Производительность Power BI Embedded](embedded-performance-best-practices.md)
