@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008426"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136652"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -204,6 +204,10 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 Для дополнительной информации см. раздел [Сравнение использования RLS и фильтров JavaScript](embedded-row-level-security.md#using-rls-vs-javascript-filters).
 
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Рекомендации по повышению производительности
+
+[Производительность Power BI Embedded](embedded-performance-best-practices.md)
+
 ## <a name="licensing"></a>Лицензирование
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Как приобрести Power BI Embedded?
@@ -264,8 +268,8 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 3. Когда вы будете готовы перейти в рабочую среду, приобретите выделенную емкость **Power BI Embedded** и назначьте ей определенное содержимое (рабочую область) Power BI.
 
-> [!Note]
-> Вы можете продолжать работу с **коллекцией рабочих областей Power BI** параллельно с созданием решения **Power BI Embedded**. Когда вы будете полностью готовы, перенесите данные клиента в новое решение **Power BI Embedded** и прекратите использовать решение **Коллекция рабочих областей Power BI**.
+    > [!Note]
+    > Вы можете продолжать работу с **коллекцией рабочих областей Power BI** параллельно с созданием решения **Power BI Embedded**. Когда вы будете полностью готовы, перенесите данные клиента в новое решение **Power BI Embedded** и прекратите использовать решение **Коллекция рабочих областей Power BI**.
 
 Дополнительные сведения см. в статье [о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded).
 
@@ -318,10 +322,6 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 Узнать, как изменить данные Power BI, можно [здесь](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
-См. дополнительные сведения об [устранении неполадок с внедренным приложением](embedded-troubleshoot.md).
+Дополнительные сведения: [Устранение неполадок внедренного приложения](embedded-troubleshoot.md).
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-
-### <a name="what-are-the-best-practices-to-improve-performance"></a>Рекомендации по повышению производительности
-
-[Производительность Power BI Embedded](embedded-performance-best-practices.md)
