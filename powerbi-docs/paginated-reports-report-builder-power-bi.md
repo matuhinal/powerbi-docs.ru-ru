@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026135"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282847"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium (предварительная версия)
 Отчеты с разбивкой на страницы уже давно стали стандартным форматом отчетов в SQL Server Reporting Services. Теперь они доступны и в службе Power BI. Эти отчеты можно распечатывать или предоставлять в совместный доступ. Под термином "с разбивкой на страницы" подразумевается то, что формат отчетов подбирается с учетом отображения на странице. Можно настроить отображение всех данных отчета в таблице, даже если для этого потребуется много страниц. Иногда в качестве названия для таких отчетов употребляют описательное выражение "с точностью до пикселя", которое указывает на возможность точно настраивать макет отчета. Отчеты с разбивкой на страницы создаются на основе технологии RDL (языка определения отчетов), используемой в SQL Server Reporting Services. Построитель отчетов — это автономное средство для создания отчетов с разбивкой на страницы. 

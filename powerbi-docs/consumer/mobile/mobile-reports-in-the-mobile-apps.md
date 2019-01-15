@@ -1,20 +1,20 @@
 ---
 title: Просмотр отчетов в мобильных приложениях Power BI
 description: Узнайте, как просматривать отчеты и работать с ними в мобильных приложениях Power BI на телефоне или планшетном ПК. Вы можете создавать отчеты в службе Power BI или в приложении Power BI Desktop, а затем работать с ними в мобильных приложениях.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
-ms.author: maggies
-ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.author: mshenhav
+ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180997"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281581"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Область применения:

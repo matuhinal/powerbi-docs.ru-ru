@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 516f468702b9731347d3ceacf3ee77ab8ac7f5aa
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181759"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291954"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Настройка параметров потоков данных рабочей области (предварительная версия)
 
@@ -41,7 +41,7 @@ ms.locfileid: "53181759"
 
 В диалоговом окне "Создать рабочую область приложения" может появиться желтый прямоугольник **Предварительный просмотр улучшенных рабочих областей**. В этой области выберите **Попробовать**.
 
-![Предварительная версия улучшенных рабочих областей](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
+![Предварительный просмотр улучшенных рабочих областей](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
 В открывшемся диалоговом окне новой рабочей области можно присвоить уникальное имя. Пока не выбирайте **Сохранить**, так как необходимо внести дополнительные параметры.
 
@@ -64,7 +64,7 @@ ms.locfileid: "53181759"
 
 ![Изменить рабочую область](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
-В открывшемся окне **Изменение рабочей области** разверните область **Дополнительно**, а затем установите для параметра **Хранилище потоков данных (предварительная версия)** значение **Вкл.**. 
+В открывшемся окне **Изменение рабочей области** разверните область **Дополнительно**, а затем установите для параметра **Хранилище потоков данных (предварительная версия)** значение **Вкл**. 
 
 ![Включение хранилища потоков данных](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_06.jpg)
 

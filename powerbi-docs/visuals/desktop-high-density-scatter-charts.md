@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 210160bf2f08d2820bcfa1270a79087fd33d1796
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418721"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275992"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Выборка с высокой плотностью в точечных диаграммах в Power BI
 Начиная с выпуска **Power BI Desktop** за сентябрь 2017 года и обновлений **службы Power BI** доступен новый алгоритм выборки. Он улучшает презентацию данных с высокой плотностью в точечных диаграммах.

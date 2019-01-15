@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: e1f1a8fdc5094fd13fc2894d9728951d9f6bde96
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983561"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280730"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Управление хранилищем данных в рабочих областях Power BI
 
@@ -49,7 +49,7 @@ ms.locfileid: "53983561"
 1. Для управления хранилищем перейдите в раздел **Моя рабочая область** на панели навигации.
    
     ![Моя рабочая область](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Щелкните значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) в правом верхнем углу и выберите **Управление личным хранилищем**.
+2. Щелкните значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) в правом верхнем углу и выберите \>**Управление личным хранилищем**.
    
     На верхней панели отображаются сведения об использованном объеме хранилища из максимально допустимого.
    
@@ -67,7 +67,7 @@ ms.locfileid: "53983561"
 1. Щелкните стрелку рядом с пунктом **Рабочие области** \> выберите имя рабочей области.
    
     ![Выберите рабочую область приложения](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Щелкните в правом верхнем углу значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) и выберите **Управление хранилищем группы**.
+2. Щелкните в правом верхнем углу значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) и выберите \>**Управление хранилищем группы**.
    
     На верхней панели отображаются сведения об использованном объеме хранилища группы из максимально допустимого.
    

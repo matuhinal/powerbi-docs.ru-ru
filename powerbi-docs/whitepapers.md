@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266100"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295833"
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "51266100"
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Описание Power BI Premium с момента выпуска и стратегии развития этого предложения. | Октябрь 2017 г. |
 | [Планирование и развертывание Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Этот документ содержит инструкции и рекомендации по планированию и развертыванию емкости Premium для четко определенных рабочих нагрузок.| Ноябрь 2017 г. |
 | [How to plan capacity for embedded analytics with Power BI Premium](https://aka.ms/pbiewhitepaper) (Как планировать емкость для внедренной аналитики с помощью Power BI Premium) |В этом документе содержатся рекомендации для разработчиков приложений и независимых поставщиков программного обеспечения, которые помогут определить оптимальную емкость для их бизнеса. | Октябрь 2017 г. |
-| [Planning a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) (Планирование развертывания Power BI Enterprise) |Этот технический документ содержит структурированные рекомендации для эффективного и безопасного развертывания Power BI в организации. | Июль 2018 г. |
+| [Planning a Power BI Enterprise Deployment](https://go.microsoft.com/fwlink/?linkid=2057861) (Планирование развертывания Power BI Enterprise) |Этот технический документ содержит структурированные рекомендации для эффективного и безопасного развертывания Power BI в организации. | Июль 2018 г. |
 | [Руководство по планированию ресурсов для Сервера отчетов Power BI](report-server/capacity-planning.md) |В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. | Март 2018 г. |
 | [Безопасность](service-admin-power-bi-security.md) |Подробные сведения о безопасности в Power BI. | Июль 2018 г. |
 | [Distribute Power BI content to external guest users using Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper) (Распространение содержимого Power BI для внешних пользователей-гостей с помощью Azure Active Directory B2B)|В этом документе описывается, как распространять содержимое для пользователей вне организации при помощи интеграции с Azure Active Directory "бизнес — бизнес" (AAD B2B).| Март 2018 г. |
