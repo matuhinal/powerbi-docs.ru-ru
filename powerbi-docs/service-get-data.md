@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b76857e6b0c7f465ce7033b59cdb0b5340c5c70
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983676"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277234"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Источники данных для службы Power BI
 Данные находятся в основе Power BI. Вы можете изучать данные, создавать диаграммы и панели мониторинга или добавлять вопросы в список вопросов и ответов, используя отображаемые на экране визуализации и ответы, которые основаны на определенном наборе данных. Этот набор извлекается из источника.

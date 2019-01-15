@@ -1,20 +1,20 @@
 ---
 title: Закрепление панели мониторинга на начальном экране Windows 10 — мобильное приложение Power BI
 description: Сведения о том, как закрепить панель мониторинга Power BI на начальном экране Windows 10 из мобильного приложения Power BI для просмотра краткого обзора важных показателей.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: a9bca92da1e65b1a339a20202e08010998cd0703
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0a59e6a3d930bc8a0fa69507cae8e958c6175da
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742711"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288588"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Закрепление панели мониторинга на начальном экране Windows 10 из мобильного приложения Power BI
 Вы можете закрепить панель мониторинга Power BI на начальном экране Windows из мобильного приложения Power BI для Windows 10. Они становятся *динамическими плитками*. При касании плитки на начальном экране открывается панель мониторинга в мобильном приложении Power BI для Windows 10.

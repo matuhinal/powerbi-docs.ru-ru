@@ -1,23 +1,23 @@
 ---
-title: Учебник. Создание вычисляемых столбцов в Power BI Desktop
-description: Учебник. Создание вычисляемых столбцов в Power BI Desktop
+title: Руководство. Создание вычисляемых столбцов в Power BI Desktop
+description: Руководство. Создание вычисляемых столбцов в Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 296281f3077d805140b6759ab818be1daaca8a85
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: bfd892864b624bc992f77afa3b5ba887344d2eea
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578688"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287768"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Учебник. Создание вычисляемых столбцов в Power BI Desktop
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Руководство. Создание вычисляемых столбцов в Power BI Desktop
 
 Иногда в данных, которые вы анализируете, отсутствует определенное поле, необходимое для получения нужных результатов. Тогда появляются *вычисляемые столбцы*. Вычисляемые столбцы определяют значения с помощью формул выражения анализа данных (DAX). Это может быть совместное размещение текстовых значений из нескольких разных столбцов в любом месте модели или вычисление числового значения из других значений. Например, предположим, что в данных имеются поля **Город** и **Штат**, но требуется одно поле **Расположение**, в котором содержатся оба значения, например "Майами, Флорида". Это именно то, для чего предназначены вычисляемые столбцы.
 
@@ -38,7 +38,7 @@ ms.locfileid: "52578688"
 
 1.  Выберите **Дополнительные параметры** (...) или щелкните правой кнопкой мыши таблицу **ProductSubcategory** в списке "Поля", а затем выберите **Создать столбец**. Это создаст столбец в таблице ProductSubcategory.
     
-    ![Создать столбец](media/desktop-tutorial-create-calculated-columns/create2.png)
+    ![Новый столбец](media/desktop-tutorial-create-calculated-columns/create2.png)
     
     В верхней части холста отчета появится строка формул, в которой можно присвоить столбцу имя и ввести формулу DAX.
     

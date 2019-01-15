@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: d4eeebca1505d376a403bf18f125782efb0d656d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799540"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283881"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Запланированное обновление отчета Power BI в решении "Сервер отчетов Power BI"
 Запланированное обновление дает возможность использовать актуальные данные для отчетов Power BI.
@@ -38,7 +38,7 @@ ms.locfileid: "34799540"
 
 Решение "Сервер отчетов Power BI" поддерживает очередь событий для всех запланированных операций. В решении регулярно выполняется опрос очереди, чтобы проверить наличие новых событий. По умолчанию очередь проверяется с интервалом в 10 секунд. Чтобы изменить интервал, измените параметры конфигурации **PollingInterval**, **IsNotificationService** и **IsEventService** в файле RSReportServer.config. Кроме того, можно использовать параметр **IsDataModelRefreshService**, чтобы указать, будет ли сервер отчетов обрабатывать запланированные события.
 
-### <a name="analysis-services"></a>Службы Analysis Services
+### <a name="analysis-services"></a>Analysis Services
 Для подготовки отчета Power BI и запланированного обновления нужно загрузить модель данных отчета Power BI в службе Analysis Services. Этот процесс в Analysis Services выполняется с помощью решения "Сервер отчетов Power BI".
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения

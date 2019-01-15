@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a12ee2acd741666395b69dbb739b2f6308a924b7
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 3be28f80e12954941f81b749fb934b1a53b6130d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669527"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284479"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Подключение к базе данных Impala в Power BI Desktop
 В Power BI Desktop вы можете подключиться к базе данных **Impala** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
@@ -27,7 +27,7 @@ ms.locfileid: "52669527"
 
 2. В области слева выберите категорию **База данных**. Отобразится **Impala**.
 
-    ![Получение данных](media/desktop-connect-impala/connect_impala_2.png)
+    ![Получить данные](media/desktop-connect-impala/connect_impala_2.png)
 
 3. В появившемся окне **Impala** введите или вставьте в поле имя сервера Impala. Нажмите кнопку **ОК**. Вы можете **импортировать** данные непосредственно в Power BI или использовать **DirectQuery**. См. дополнительные сведения об [использовании DirectQuery](desktop-use-directquery.md).
 

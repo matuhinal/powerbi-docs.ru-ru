@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101423"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277629"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Управление своим источником данных — SQL Server
 После установки локального шлюза данных можно добавить источники, которые можно будет использовать с ним. В этой статье будут рассмотрены способы работы со шлюзами и источниками данных. Источник данных SQL Server можно использовать как для запланированного обновления, так и для DirectQuery.

@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7cd2266ef8d0fd161bda1f9d91a1ceb7f4217675
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 67055f855ad2872a7cf175aba85aefae7945f670
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448898"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276314"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Картограммы (хороплеты) в Power BI
 Картограмма с помощью заливки, оттенков или шаблонов показывает, как изменяется исследуемое значение по географическим регионам.  Картограмма позволяет быстро отобразить относительные различия с помощью заливки, которая изменяется от светлой (меньше, встречается с меньшей частотой) до темной (больше, встречается с большей частотой).    
@@ -45,7 +45,7 @@ Power BI интегрируется с Bing для предоставления 
 
 ### <a name="prerequisites"></a>Предварительные требования
 - Служба Power BI или Power BI Desktop
-- Продажи и маркетинг — пример
+- Продажи и маркетинг — пример
 
 Для работы в этом руководстве используется служба Power BI, а не Power BI Desktop.
 
@@ -79,7 +79,7 @@ Power BI интегрируется с Bing для предоставления 
    б.  Наведите указатель мыши на значение **State** (Штат) и щелкните значок развертывания.  
    ![Фильтры уровня визуальных элементов: показано State(All)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
-   в)  Установите флажок рядом с **Все** и снимите флажок рядом с **AK**(Аляска).
+   в.  Установите флажок рядом с **Все** и снимите флажок рядом с **AK**(Аляска).
 
    ![Раскрывающийся список штатов: All и AK не выбраны](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Выберите **SalesFact** \> **Sentiment** (Тональность), чтобы добавить этот элемент в область **Насыщенность цвета**. Поле в области **Насыщенность цвета** управляет заливкой карты.  

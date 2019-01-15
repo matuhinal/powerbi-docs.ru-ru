@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 19fdadb6476dab9eda0fa5c76f17680cbd7b4cfe
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 5a436a276a68b2cade6a1622a54590bc379cebd8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026422"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283467"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Использование быстрых мер для простого выполнения стандартных и мощных вычислений
 Чтобы оперативно и без труда выполнять стандартные и мощные вычисления, используйте **быстрые меры**. Средство **Быстрые меры** запускает набор команд DAX в фоновом режиме (вам не нужно писать DAX-код — все выполняется автоматически) на основе данных, которые вы вводите в диалоговое окно, а затем представляет результаты для использования в отчете. Самое главное, вы можете просмотреть, как быстрые меры выполняют DAX-команды, а также ознакомиться с библиотекой DAX или расширить свои знания о ней.

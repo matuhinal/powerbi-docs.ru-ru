@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388647"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290428"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Встроенный инструмент миграции Power BI
 Этот инструмент переноса можно использовать для копирования отчетов из службы Azure Power BI Embedded (PaaS) в службу Power BI (SaaS).
@@ -84,7 +84,7 @@ ms.locfileid: "39388647"
     ![](media/migrate-tool/migrate-tool-open-plan.png)
 2. Выберите файл переноса и щелкните **Открыть**.
 
-## <a name="step-1-analyze--plan-migration"></a>Шаг 1. Анализ и планирование переноса
+## <a name="step-1-analyze--plan-migration"></a>Шаг 1. Анализ и планирование миграции
 Вкладка **Analyze & Plan Migration** (Анализ и планирование переноса) позволяет получить представление о том, какие ресурсы в настоящее время входят в группу ресурсов подписки Azure.
 
 ![Вкладка Analyze & Plan Migration (Анализ и планирование переноса)](media/migrate-tool/migrate-tool-step1.png)
@@ -137,7 +137,7 @@ ms.locfileid: "39388647"
 > 
 > 
 
-## <a name="step-2-download"></a>Шаг 2. Скачивание
+## <a name="step-2-download"></a>Шаг 2. Скачать
 На вкладке **Скачивание** содержится список отчетов и связанные метаданные. Здесь вы увидите текущее и предыдущее состояния экспорта.
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)
@@ -153,7 +153,7 @@ ms.locfileid: "39388647"
 
 После завершения скачивания выберите вкладку **Create Groups** (Создание групп).
 
-## <a name="step-3-create-groups"></a>Шаг 3. Создание групп
+## <a name="step-3-create-groups"></a>Шаг 3. Создать группы
 После скачивания доступных отчетов можно перейти на вкладку **Create Groups** (Создание групп). На этой вкладке будут созданы рабочие области приложения в службе Power BI на основе созданного плана переноса. Рабочие области приложения будут иметь имена, указанные на вкладке **Upload** (Передача) в разделе **Analyze & Plan Migration** (Анализ и планирование переноса).
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
@@ -172,7 +172,7 @@ ms.locfileid: "39388647"
 
 После создания рабочей области можно перейти на вкладку **Upload** (Передача).
 
-## <a name="step-4-upload"></a>Шаг 4. Передача
+## <a name="step-4-upload"></a>Шаг 4. Загрузить
 На вкладке **Upload** (Передача) можно передать отчеты в службу Power BI. Вы увидите список отчетов, которые мы скачали на вкладке скачивания, а также имя целевой группы в соответствии с планом переноса.
 
 ![](media/migrate-tool/migrate-tool-upload-tab.png)

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ab80739b64a3fc72fec0af000b7678bfad585c6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545929"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285077"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Создание пакетов содержимого шаблонов в Power BI
 При создании пакета содержимого шаблонов используются Power BI Desktop и PowerBI.com. Пакет содержимого включает четыре компонента:

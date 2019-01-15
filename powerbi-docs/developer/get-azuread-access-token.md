@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f97376477ff3938280bf00b14f4aa511b977d8c7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359939"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286986"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI
 Узнайте, как выполнять проверку подлинности для пользователей в приложении Power BI и получить маркер доступа для использования с REST API.

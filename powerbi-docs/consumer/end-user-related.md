@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: e3b7731dec23c6fda49d31716d6e450231ab4bc5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280733"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276613"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Просмотр связанного содержимого в службе Power BI
 В области **Связанное содержимое** вы можете видеть, как связано между собой содержимое службы Power BI: панели мониторинга, отчеты и наборы данных. Область "Связанное содержимое" выполняет роль панели запуска для выполнения действий. Здесь можно обновить или переименовать элементы, создать аналитические сведения и многое другое. Выберите связанный отчет или панель мониторинга. Эти элементы откроются в рабочей области Power BI.   

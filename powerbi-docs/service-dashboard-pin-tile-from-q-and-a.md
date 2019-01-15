@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 32099bb5ab5cb3784bd237234344783be8ca5a9a
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717208"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285192"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Закрепление плитки на информационной панели из подсистемы вопросов и ответов
 ## <a name="how-to-pin-a-tile-from-qa"></a>Закрепление плитки из вопросов и ответов
@@ -46,7 +46,7 @@ ms.locfileid: "51717208"
 
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) позволяет узнать, что визуализация была добавлена на панель мониторинга в качестве плитки.  
 
-   ![Закреплено на информационной панели](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![Закрепление на панели мониторинга](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. Выберите **Перейти на информационную панель**, чтобы просмотреть новую плитку. Здесь вы можете [изменить имя или размер, добавить гиперссылку и переместить плитку, а также выполнить другие действия](service-dashboard-edit-tile.md) на панели мониторинга.
 
    ![Панель мониторинга с плитками](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)

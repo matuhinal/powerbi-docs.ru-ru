@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1f60c24a244b05aca93b312921b943e261d4d266
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 9e31bd087d65bf0b4f0fa7088b6713ec981392b4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452690"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293855"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Оптимизация данных для быстрого анализа данных в Power BI
 Хотите улучшить результаты быстрого анализа данных?  Если вы являетесь владельцем набора данных, попробуйте один из следующих способов:

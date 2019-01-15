@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f0794af93df95b5410e77c88563e9d9cb43c409c
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: ab71c717bd20c3c66c3c0f12ce5ca5dabe7c47ca
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670033"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286917"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Объединение файлов (двоичных) в Power BI Desktop
 Один из самых эффективных способов импортировать данные в **Power BI Desktop** — это объединить нескольких файлов с одинаковыми схемами в одну логическую таблицу. В выпуске **Power BI Desktop** за ноябрь 2016 г. (и последующих выпусках) этот популярный способ стал еще более удобным и функциональным. В этой статье описывается, как его использовать.

@@ -1,20 +1,20 @@
 ---
 title: Исправление сбоев подключения в мобильных приложениях iOS в Power BI
 description: В этой статье содержатся рекомендации, которые помогут при появлении сообщения "Возникли сбои подключения, которые могут быть связаны с настройками прокси-сервера Wi-Fi-подключения".
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/21/2018
-ms.author: maggies
-ms.openlocfilehash: a941a8b8a5476660f44cbf23b9fa603ac1ec2e45
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 9e487f4305b663028714cbe45ab76abaaa4a6db9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737263"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290942"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>Исправление сбоев подключения в мобильных приложениях iOS в Power BI
 

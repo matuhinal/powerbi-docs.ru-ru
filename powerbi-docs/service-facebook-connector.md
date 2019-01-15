@@ -1,21 +1,21 @@
 ---
-title: Сторонняя служба соединитель Facebook для Power BI Desktop
-description: Сторонняя служба соединитель Facebook для Power BI Desktop
+title: 'Служба сторонних разработчиков: Соединитель Facebook для Power BI Desktop'
+description: 'Служба сторонних разработчиков: Соединитель Facebook для Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66f6fa32ecabecfbaa178b5744e71c80a6020ebd
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a8b37606b602a24aa4a0995e138a52a86e0f945c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669665"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295658"
 ---
 # <a name="facebook-connector-for-power-bi-desktop"></a>Соединитель Facebook для Power BI Desktop
 Соединитель Facebook в **Power BI Desktop** основывается на Facebook Graph API. Таким образом, наличие функций и доступность со временем могут меняться.

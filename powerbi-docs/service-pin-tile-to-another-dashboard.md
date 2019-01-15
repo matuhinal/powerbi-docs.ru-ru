@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 68b392f4570d137fabdfe8f10e5b7035babc397b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717132"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54272634"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Закрепление плитки с одной панели мониторинга на другой
 Один из способов добавления новой [плитки панели мониторинга](consumer/end-user-tiles.md) заключается в ее копировании с другой панели мониторинга. При щелчке каждая из этих плиток превращается в ссылку на исходное расположение — вопросы и ответы либо отчет. 

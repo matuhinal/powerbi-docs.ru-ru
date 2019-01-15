@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 95bbbd8402fd2f489af5d4276616ba045d1c938b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909578"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287745"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Использование закладок для обмена аналитическими сведениями и создания историй в Power BI 
 С помощью **закладок** в Power BI вы можете сохранить текущие настройки представления страницы отчета, включая фильтрацию и состояние визуальных элементов, а затем вернуться к этому состоянию позже, просто выбрав сохраненную закладку. 

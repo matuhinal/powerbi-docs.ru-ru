@@ -1,20 +1,20 @@
 ---
 title: Начало работы с мобильным приложением Power BI для iOS
 description: Мобильное приложение Microsoft Power BI для приложений iOS теперь доступно для мобильных устройств. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: a09fc4471f9af3a9406dcbcdd80d5bcc7a3632f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744402"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281788"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone, iPad или iPod Touch позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
