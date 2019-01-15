@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b88b17e428633e9d610724a8c3daa145c9928ae2
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: e74b0399ffdf2b5ca79eecb6451ccd676c1095db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026875"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296730"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Пакеты R в службе Power BI
 Вы можете использовать эффективный [язык программирования R](https://www.r-project.org/) для создания визуальных элементов в службе Power BI. Большинство пакетов R поддерживаются в службе Power BI (кроме того, они поддерживаются постоянно), а некоторые из них не поддерживаются.
@@ -190,7 +190,7 @@ ms.locfileid: "53026875"
 |data.table| 1.10.4| https://cran.r-project.org/web/packages/data.table/index.html |
 |data.table| zoo| grid|
 |data.tree| 0.7.0| https://cran.r-project.org/web/packages/data.tree/index.html |
-|наборы данных| 3.4.1| NA|
+|НАБОРЫ ДАННЫХ| 3.4.1| NA|
 |дата| 1.2–37| https://cran.r-project.org/web/packages/date/index.html |
 |DBI|0.7| https://cran.r-project.org/web/packages/DBI/index.html |
 |dbscan| 1.1–1| https://cran.r-project.org/web/packages/dbscan/index.html |
@@ -677,7 +677,7 @@ ms.locfileid: "53026875"
 |relimp| 1.0–5| https://cran.r-project.org/web/packages/relimp/index.html |
 |rematch| 1.0.1| https://cran.r-project.org/web/packages/rematch/index.html |
 |Renext| 3.1–0| https://cran.r-project.org/web/packages/Renext/index.html |
-|отчеты| 0.1.4| https://cran.r-project.org/web/packages/reports/index.html |
+|ОТЧЕТЫ| 0.1.4| https://cran.r-project.org/web/packages/reports/index.html |
 |reshape| 0.8.6| https://cran.r-project.org/web/packages/reshape/index.html |
 |reshape2| stats| stats4|
 |reshape2| scales (>= 0.4.1)| stats|
