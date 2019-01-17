@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 3aa4ea96e9bea4e52de05b49fa0c958a6c2a6943
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286871"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324050"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -22,6 +22,12 @@ ms.locfileid: "54286871"
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](../../desktop-latest-update.md)  
 * [Новые возможности службы Power BI](../../service-whats-new.md)  
+
+## <a name="december-2018"></a>Декабрь 2018 г.
+
+### <a name="filter-is-now-available-for-landscape-reports"></a>Теперь для отчетов в альбомной ориентации доступен фильтр 
+
+Теперь в отчетах в альбомной ориентации отображается панель фильтра (как и в отчетах для телефона).
 
 ## <a name="november-2018"></a>Ноябрь 2018 г.
 

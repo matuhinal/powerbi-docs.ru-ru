@@ -10,18 +10,26 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d098b55367e4d8ff13dc2fd22593af00dffe611f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286941"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323958"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Запустить сценарий Python в Power BI Desktop
 Вы можете выполнять сценарий Python непосредственно в **Power BI Desktop** и импортировать полученные наборы данных в модели данных Power BI Desktop.
 
 ## <a name="install-python"></a>Установка Python
 Для запуска сценариев Python в Power BI Desktop необходимо установить **Python** на локальном компьютере. Вы можете скачать и установить **Python** бесплатно из различных расположений, включая [официальную страницу скачивания Python](https://www.python.org/) и [Anaconda](https://anaconda.org/anaconda/python/). В текущем выпуске сценариев Python в Power BI Desktop в пути установки поддерживаются символы Юникода, а также пробелы (пустые символы).
+
+### <a name="install-required-python-packages"></a>Установка необходимых пакетов Python
+Для интеграции Power BI с Python требуется установить два пакета Python (Pandas и Matplotlib).  Установите эти два пакета помощью средства командной строки pip.
+
+```
+pip install pandas
+pip install matplotlib
+```
 
 ## <a name="run-python-scripts"></a>Запустить сценарии Python
 С помощью всего нескольких действий в Power BI Desktop вы можете запустить сценарии Python и создать модель данных, из которой можно создавать отчеты и совместно использовать их в службе Power BI.
