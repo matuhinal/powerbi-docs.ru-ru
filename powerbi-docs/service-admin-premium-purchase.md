@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/20/2018
+ms.date: 01/14/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 2abca5019454067b6cdc04c3f52b6daeafb2fb85
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ebcf4a6467991bfc0d434302cd2c846ca4af1a5c
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285353"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324004"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
@@ -60,7 +60,7 @@ ms.locfileid: "54285353"
 
 1. Следуйте инструкциям по приобретению.
 
-Кроме того, по следующим ссылкам можно перейти непосредственно на страницу покупки этого номера SKU. Дополнительные сведения об этих номерах SKU см. в статье [Что такое Power BI Premium?](service-premium.md#premiumskus).
+Кроме того, по следующим ссылкам можно перейти непосредственно на страницу покупки этого номера SKU. Дополнительные сведения об этих номерах SKU см. в статье [Что такое Power BI Premium?](service-premium.md#premium-capacity-nodes).
 
 > [!IMPORTANT]
 > Если вы не являетесь глобальным администратором Office 365 или администратором выставления счетов, при выборе следующих ссылок произойдет ошибка.
