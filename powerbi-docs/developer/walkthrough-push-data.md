@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974191"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278500"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 
@@ -24,11 +24,11 @@ API Power BI позволяет принудительно отправлять
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Принудительная отправка данных в набор данных
 
-* Шаг 1. [Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
+* Шаг 1. [Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 * Шаг 2. [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)
-* Шаг 3. [Создание набора данных в Power BI](walkthrough-push-data-create-dataset.md)
-* Шаг 4. [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)
-* Шаг 5. [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)
+* Шаг 3. [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)
+* Шаг 4. [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)
+* Шаг 5. [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)
 
 В следующем разделе приводятся общие сведения об операциях API Power BI для отправки данных.
 
@@ -59,7 +59,7 @@ REST API Power BI позволяет принудительно отправля
         ]
     }
 
-Таким образом, в нашем примере с набором данных "Продажи и маркетинг" нужно передать строку JSON, аналогичную показанной ниже. В этом примере **SalesMarketing** — это имя набора данных, а **Product** — имя таблицы. После определения таблицы следует определить схему таблицы. В случае набора данных **SalesMarketing** схема таблицы содержит следующие столбцы: ProductID, Manufacturer, Category, Segment, Product и IsCompete.
+Таким образом, в нашем примере с набором данных "Продажи и маркетинг" нужно передать строку JSON, аналогичную показанной ниже. В этом примере **SalesMarketing** — это имя набора данных, а **Product** — имя таблицы. После определения таблицы следует определить схему таблицы. В случае с набором данных **SalesMarketing** схема таблицы содержит следующие столбцы: ProductID, Manufacturer, Category, Segment, Product и IsCompete.
 
 **Пример объекта JSON набора данных**
 
@@ -112,7 +112,7 @@ REST API Power BI позволяет принудительно отправля
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Дополнительные сведения о принудительной отправке данных в Power BI
 
-Чтобы приступить к отправке данных в набор данных, см. сведения в левой области навигации — [Шаг 1. Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md).
+Чтобы приступить к отправке данных в набор данных, см. сведения в левой области навигации — [Шаг 1. Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md).
 
 [Дальнейшие действия >](walkthrough-push-data-register-app-with-azure-ad.md)
 

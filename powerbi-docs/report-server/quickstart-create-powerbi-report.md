@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679246"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288366"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -53,7 +53,7 @@ ms.locfileid: "51679246"
    
     ![Начальный экран Power BI Desktop](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
 
-## <a name="step-2-select-a-data-source"></a>Шаг 2. Выбор источника данных
+## <a name="step-2-select-a-data-source"></a>Шаг 2. Выбор источника данных
 Вы можете подключаться к разным типам источников данных. Узнайте больше о [подключении к источникам данных](connect-data-sources.md).
 
 1. На экране приветствия выберите **Get Data** (Получить данные).
@@ -69,7 +69,7 @@ ms.locfileid: "51679246"
    
     ![Выбор сервера отчетов](media/quickstart-create-powerbi-report/report-server-select-server.png)
 
-## <a name="step-3-design-your-report"></a>Шаг 3. Создание отчета
+## <a name="step-3-design-your-report"></a>Шаг 3. Создание отчета
 Здесь начинается самое интересное: нужно создать визуальные элементы, иллюстрирующие ваши данные.
 
 Например, можно создать воронкообразную диаграмму на основе значений, отображающих годовой доход пользователей и групп.
@@ -82,7 +82,7 @@ ms.locfileid: "51679246"
 
 См. дополнительные сведения о [создании отчетов Power BI](../desktop-report-view.md).
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>Шаг 4. Сохранение отчета на сервере отчетов
+## <a name="step-4-save-your-report-to-the-report-server"></a>Шаг 4. Сохранение отчета на сервере отчетов
 Когда отчет будет готов, вы сможете сохранить его на сервере отчетов Power BI, который вы выбрали на шаге 2.
 
 1. В меню **Файл** выберите пункт **Сохранить как** > **Сервер отчетов Power BI**.
@@ -97,9 +97,9 @@ ms.locfileid: "51679246"
 Существует много отличных ресурсов для создания отчетов в Power BI Desktop. Советуем начать с этих материалов:
 
 * [Начало работы с Power BI Desktop](../desktop-getting-started.md)
-* Интерактивное обучение. [Начало работы с Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+* Интерактивное обучение [Начало работы с Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
-### <a name="power-bi-report-server"></a>Power BI Report Server
+### <a name="power-bi-report-server"></a>сервере отчетов Power BI
 * [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  
 * [Что такое Сервер отчетов Power BI?](get-started.md)  
 

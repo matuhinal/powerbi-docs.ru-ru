@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728118"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281190"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Поддерживаемые языки и страны (регионы) для Power BI
 
@@ -116,7 +116,7 @@ Power BI определяет ваш язык на основе параметр
    Чтобы увидеть изменение, может потребоваться закрыть и снова открыть браузер.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Выбор языка или языкового стандарта в Power BI Desktop
-Получить Power BI Desktop можно одним из двух способов: скачать или установить из Магазина Windows.
+Получить Power BI Desktop можно одним из двух способов: скачать или установить из Microsoft Store.
 
 * Если [Power BI Desktop устанавливается из Магазина Windows](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), будут установлены все языки с отображением языка, который соответствует языку в Windows по умолчанию.
 * Когда вы [скачиваете Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop), вы можете сразу выбрать язык. 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473781"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291080"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Связи "многие ко многим" в Power BI Desktop (предварительная версия)
 
@@ -160,7 +160,7 @@ ms.locfileid: "49473781"
 * SAP HANA
 * SAP Business Warehouse
 * Службы SQL Server Analysis Services
-* Наборы данных Power BI
+* Наборы данных Power BI
 * Azure Analysis Services
 
 При подключении к этим многомерным источникам в режиме DirectQuery невозможно одновременно подключиться к другому источнику DirectQuery или сочетать его с импортированными данными.
@@ -171,6 +171,6 @@ ms.locfileid: "49473781"
 
 Дополнительные сведения о составных моделях и DirectQuery см. в следующих статьях:
 * [Составные модели в Power BI Desktop (предварительная версия)](desktop-composite-models.md)
-* [Режим хранения в Power BI Desktop (предварительная версия)](desktop-storage-mode.md)
+* [Режим хранения в Power BI Desktop (предварительная версия)](desktop-storage-mode.md)
 * [Использование DirectQuery в Power BI Desktop](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery в Power BI Desktop](desktop-directquery-data-sources.md)

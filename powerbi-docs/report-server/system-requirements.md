@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507913"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292971"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
 В этой статье изложены минимальные требования к оборудованию и программному обеспечению для установки и запуска Сервера отчетов Power BI.
@@ -25,9 +25,9 @@ ms.locfileid: "51507913"
 | --- | --- |
 | .NET Framework |4.6<br><br>Можно вручную установить платформу .NET Framework со страницы [Платформа .NET Framework Microsoft 4.6 (веб-установщик) для Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Дополнительные сведения, рекомендации и инструкции по .NET Framework 4.6 см. в [руководстве по развертыванию .NET Framework для разработчиков](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Перед установкой .NET Framework 4.6 для Windows 8.1 и Windows Server 2012 R2 требуется установить обновление [KB2919355](http://support.microsoft.com/kb/2919355). |
 | Жесткий диск |Для сервера отчетов Power BI требуется не менее 1 ГБ свободного места на жестком диске.<br><br>Дополнительное место потребуется на сервере базы данных, на котором размещена база данных сервера отчетов. |
-| Память |**Минимум:** 1 ГБ<br/><br/> **Рекомендуется:** не менее 4 ГБ |
-| Скорость процессора |**Минимум:** процессор x64 с тактовой частотой 1,4 ГГц<br/><br/> **Рекомендуется:** 2,0 ГГц или выше |
-| Тип процессора |Процессор x64: AMD Opteron, AMD Athlon 64, Intel Xeon с поддержкой технологии Intel EM64T, Intel Pentium IV с поддержкой технологии EM64T |
+| Память |**Минимальные требования** 1 ГБ<br/><br/> **Рекомендуемые требования** Не менее 4 ГБ |
+| Скорость процессора |**Минимум:** 64-битный процессор с тактовой частотой 1,4 ГГц<br/><br/> **Рекомендуемые требования** 2,0 ГГц или выше |
+| Тип процессора |64-битный процессор: AMD Opteron, AMD Athlon 64, Intel Xeon с поддержкой технологии Intel EM64T, Intel Pentium IV с поддержкой технологии EM64T |
 | Операционная система |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Домашняя<br><br>Windows 10 Профессиональная<br><br>Windows 10 Корпоративная<br><br>Windows 8.1<br><br>Windows 8.1 Профессиональная<br><br>Windows 8.1 Корпоративная<br><br>Windows 8<br><br>Windows 8 Профессиональная<br><br>Windows 8 Корпоративная |
 
 > [!NOTE]

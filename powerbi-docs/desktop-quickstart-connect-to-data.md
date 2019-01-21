@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 01f36c65c63527256ce11c63f66c3ce4bc0a76c5
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670815"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279212"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Краткое руководство. Подключение к данным в Power BI Desktop
 
@@ -43,7 +43,7 @@ ms.locfileid: "52670815"
 
 Для подключения к данным на ленте **Главная** выберите **Получить данные**.
 
-![Получить данные](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
+![Получение данных](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
 Появится окно **Получить данные**, где можно выбрать любой из множества разных источников данных, поддерживаемых в **Power BI Desktop**. В этом кратком руководстве мы используем книгу Excel, которую вы скачали по инструкциям из раздела *Предварительные требования* в начале этой статьи. 
 
@@ -53,11 +53,11 @@ ms.locfileid: "52670815"
 
 Вам будет предложено указать расположение файла Excel, к которому мы хотим подключиться. Выберите скачанный ранее файл с именем *Financial Sample*, а затем нажмите кнопку **Открыть**.
 
-![Получение данных](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
+![Получить данные](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 
 **Power BI Desktop** загрузит книгу и считает ее содержимое, а затем отобразит доступные в файле данные в окне **Навигатор**, где вы можете выбрать нужные данные для загрузки в Power BI Desktop. Чтобы выбрать таблицы для импорта, отметьте их флажками. В нашем примере выбраны обе доступные таблицы.
 
-![Получить данные](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
+![Получение данных](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
 
 Выбрав все нужные данные, щелкните **Загрузить** для импорта данных в Power BI Desktop.
 
@@ -65,7 +65,7 @@ ms.locfileid: "52670815"
 
 Когда загрузка таблиц завершится, панель **Поля** отобразит полученные данные. Вы можете развернуть здесь любую таблицу, выбрав треугольник рядом с ее именем. На следующем рисунке показана развернутая таблица *finanсials* и все поля в ней. 
 
-![Получить данные](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
+![Получение данных](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
 Вот и все! Вы подключились к данным в **Power BI Desktop**, загрузили эти данные, и теперь вы можете видеть все доступные поля в этих таблицах.
 

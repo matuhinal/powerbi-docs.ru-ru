@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670516"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278591"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Создание визуальных элементов Power BI с помощью R
 В приложении **Power BI Desktop** для наглядного представления данных можно использовать **R**.
@@ -107,7 +107,7 @@ ms.locfileid: "52670516"
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **Безопасность сценариев R**. Визуальные элементы R создаются из сценариев R, которые могут содержать код, не обеспечивающий достаточный уровень безопасности или конфиденциальности. При первой попытке просмотра визуальных элементов R или взаимодействия с ними пользователь видит предупреждение системы безопасности. Включайте визуальные элементы R, только если доверяете автору и источнику либо после проверки и ознакомления со сценариями R.
+    > **Безопасность R-скриптов**. Визуальные элементы R создаются на основе скриптов R, которые могут содержать код, не обеспечивающий достаточный уровень безопасности или конфиденциальности. При первой попытке просмотра визуальных элементов R или взаимодействия с ними пользователь видит предупреждение системы безопасности. Включайте визуальные элементы R, только если доверяете автору и источнику либо после проверки и ознакомления со сценариями R.
     > 
     > 
 

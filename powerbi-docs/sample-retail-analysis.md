@@ -1,23 +1,23 @@
 ---
-title: 'Образец "Анализ розничной торговли" для Power BI: обзор'
-description: 'Образец "Анализ розничной торговли" для Power BI: обзор'
+title: 'Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях'
+description: 'Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717684"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291471"
 ---
-# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ розничной торговли" для Power BI: обзор
+# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях
 
 Этот образец отраслевой панели мониторинга и базовый отчет анализируют данные о розничных продажах товаров, проданных в различных магазинах и районах. Метрики сравнивают эффективность за этот год c показателями за прошлый год в следующих областях: продажи, единицы, валовая прибыль и дисперсия, что также называют анализом нового магазина. Это реальные данные из obviEnce ([www.obvience.com](http://www.obvience.com)), которые были обезличены.
 
@@ -86,7 +86,7 @@ ms.locfileid: "51717684"
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Просмотр плитки, созданной с помощью поля "Вопросы и ответы" Power BI
 Давайте запросим более конкретные сведения.
 
-1. Добавьте в вопрос слова "Продажи в этом году **по районам**". Просмотрите результаты — ответ автоматически выводится в виде линейчатой диаграммы и предлагает другие фразы:
+1. Добавьте в вопрос слова "Продажи в этом году **по районам**". Просмотрите результаты — ответ автоматически выводится в виде линейчатой диаграммы, и в нем предлагаются другие фразы:
 
    ![](media/sample-retail-analysis/retail8.png)
 2. Теперь измените вопрос следующим образом: "Продажи в этом году **по почтовому индексу и сети**".

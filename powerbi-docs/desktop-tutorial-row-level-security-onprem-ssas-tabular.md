@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452759"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292644"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 В этом учебном руководстве описаны действия, необходимые для реализации **безопасности на уровне строк** в **табличной модели Analysis Services**, и показано, как использовать эти функции в отчете Power BI. Здесь приведены пошаговые инструкции, которые помогут вам познакомиться с последовательностью необходимых действий на примере набора данных.
@@ -91,7 +91,7 @@ ms.locfileid: "52452759"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 4. После выполнения предыдущего шага шлюз настроен и готов к взаимодействию с локальным источником данных **Analysis Services**.
 
-## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>Задача 4. Создание отчета на базе табличной модели Analysis Services с помощью Power BI Desktop
+## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>Задача 4. Создание отчета на основе табличной модели Analysis Services с помощью Power BI Desktop
 1. Запустите **Power BI Desktop** и выберите **Получение данных > База данных**.
 2. В списке источников данных выберите пункт **База данных SQL Server Analysis Services** и щелкните **Подключиться**.
    
@@ -109,7 +109,7 @@ ms.locfileid: "52452759"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 8. Создав отчет, мы можем опубликовать его непосредственно на портале Power BI. На ленте **Главная** в **Power BI Desktop** выберем **Опубликовать**.
 
-## <a name="task-5-creating-and-sharing-a-dashboard"></a>Задача 5. Создание и совместное использование панели мониторинга
+## <a name="task-5-creating-and-sharing-a-dashboard"></a>Задача 5. Создание и совместное использование панели мониторинга
 1. Мы создали отчет и воспользовались командой **Опубликовать** в **Power BI Desktop**, поэтому теперь он опубликован в службе **Power BI**. Теперь мы можем продемонстрировать работу нашей модели на основе примера, который создали на предыдущих этапах.
    
    Руководитель продаж **Sumit** видит данные из всех регионов. Он создает этот отчет (который мы сформировали на предыдущих этапах) и публикует его в службе Power BI.

@@ -6,26 +6,26 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d15dfa17280a8c289f223719961cd48a97cb92bc
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187543"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296324"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Устранение неполадок Кортаны для Power BI
 Эта статья входит в серию статей. Мы рекомендуем вам ознакомиться с тремя следующими статьями, если вы этого еще не сделали.
 
-**Статья 1.** [Общие сведения о Cortana для Power BI](service-cortana-intro.md).
+**Статья 1.** [Быстрый поиск и просмотр данных Power BI с помощью Кортаны для Power BI](service-cortana-intro.md).
 
-**Статья 2.** [Включение Cortana для Power BI](service-cortana-enable.md).
+**Статья 2.** [Предоставление Кортане доступа к отчетам Power BI (и базовым наборам данных)](service-cortana-enable.md)
 
-**Статья 3.** [Создание пользовательской *страницы ответов для Кортаны* в Power BI](service-cortana-answer-cards.md)
+**Статья 3.** [Создание пользовательской *страницы ответов для Кортаны* в службе Power BI или Power BI Desktop](service-cortana-answer-cards.md)
 
 Если у вас по-прежнему возникают проблемы с интеграцией Кортаны и Power BI, эта статья именно для вас. Выполните следующие действия, чтобы определить и устранить проблему.
 

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298350"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275923"
 ---
 # <a name="manage-your-data-source---oracle"></a>Управление своим источником данных — Oracle
 После установки локального шлюза данных необходимо добавить источники, которые можно будет с ним использовать. В этой статье будут рассмотрены способы работы со шлюзами и источниками данных. Источник данных Oracle можно использовать как для запланированного обновления, так и в режиме DirectQuery.
@@ -157,10 +157,10 @@ CONTOSO =
 ## <a name="troubleshooting"></a>Устранение неполадок
 В Oracle может возникнуть несколько ошибок, если синтаксис именования содержит ошибку или неправильно настроен.
 
-* ORA-12154: TNS: не удалось разрешить указанный идентификатор подключения;  
-* ORA-12514: прослушивателю TNS неизвестна служба, запрошенная в дескрипторе подключения;  
-* ORA-12541: TNS: нет прослушивателя;  
-* ORA-12170: TNS: время ожидания подключения истекло;  
+* ORA-12154: TNS: не удалось разрешить указанный идентификатор подключения.  
+* ORA-12514: прослушивателю TNS неизвестна служба, запрошенная в дескрипторе подключения.  
+* ORA-12541: TNS: нет прослушивателя.  
+* ORA-12170: TNS: время ожидания подключения истекло.  
 * ORA-12504: прослушиватель TNS не получил имя SERVICE_NAME в параметре CONNECT_DATA.  
 
 Эти ошибки могут произойти, если клиент Oracle не установлен или неправильно настроен. Если он установлен, нужно проверить, правильно ли настроен файл tnsnames.ora и используется ли нужное имя net_service_name. Кроме того, нужно задать одно и то же имя net_service_name на компьютере, на котором выполняется Power BI Desktop, и компьютере, на котором запущен шлюз. Дополнительные сведения см. в разделе [Установка клиента Oracle](#installing-the-oracle-client).

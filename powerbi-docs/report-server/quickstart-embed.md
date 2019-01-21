@@ -6,17 +6,17 @@ ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: a0224188a0205cf134f2b2ee123bf5a3ac7ef0d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558431"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288504"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Краткое руководство по внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Краткое руководство. По внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
 
 Из этого краткого руководства вы узнаете, как внедрить отчет решения "Сервер отчетов Power BI" с помощью iFrame на страницу SharePoint. Если вы используете SharePoint Online, решение "Сервер отчетов Power BI" должно быть общедоступным. В SharePoint Online веб-часть Power BI, которая работает со службой Power BI, не совместима с решением "Сервер отчетов Power BI". 
 
@@ -101,7 +101,7 @@ ms.locfileid: "45558431"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Краткое руководство по созданию отчета Power BI для сервера отчетов Power BI](quickstart-create-powerbi-report.md)  
-[Краткое руководство по созданию отчета c разбивкой на страницы Power BI для сервера отчетов Power BI](quickstart-create-paginated-report.md)  
+[Краткое руководство. Создание отчета Power BI для Сервера отчетов Power BI](quickstart-create-powerbi-report.md)  
+[Краткое руководство. Создание отчета с разбивкой на страницы для Сервера отчетов Power BI](quickstart-create-paginated-report.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/) 

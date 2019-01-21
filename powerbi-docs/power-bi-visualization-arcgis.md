@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266054"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293924"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop
 Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](visuals/power-bi-visualizations-arcgis.md).
@@ -207,7 +207,7 @@ ArcGIS Online дает возможность организациям публ
 2. Введите условия поиска, а затем выберите слой карты. В этом примере выбраны избирательные округи США.
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. Чтобы просмотреть подробные сведения, выберите затененную область для активации элемента *Select from reference layer* (Выбрать из ссылочного слоя). Используйте средство выбора ссылочного слоя для выделения границ или объектов ссылочного слоя.
+3. Чтобы просмотреть подробные сведения, выберите затененную область для активации элемента *Select from reference layer* (Выбрать из ссылочного слоя). Используйте средство выбора ссылочного слоя для выделения границ или объектов этого слоя.
 
 <br/>
 
@@ -325,7 +325,7 @@ ArcGIS Online дает возможность организациям публ
 
 **В Power BI Desktop отображается сообщение о том, что кэш заполнен**
 
-Мы работаем над устранением этой проблемы.  Тем временем, чтобы очистить кэш, попробуйте удалить файлы в расположении C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF, а затем перезапустите Power BI.
+Мы работаем над устранением этой проблемы.  Тем временем, чтобы очистить кэш, попробуйте удалить файлы в расположении C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF, а затем перезапустите Power BI.
 
 **Поддерживают ли карты ArcGIS для Power BI файлы фигур ESRI?**
 

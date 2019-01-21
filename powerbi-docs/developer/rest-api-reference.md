@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: de28d498bf01da8e2abe5cd64742fb25f9a43a1c
-ms.sourcegitcommit: 37bb070a71a658cba7ed421feef65015e8b515ae
+ms.openlocfilehash: 0f10209b93dac7073c40aa2706b2e0a773a52303
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "43821761"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275095"
 ---
 # <a name="power-bi-rest-api-reference"></a>Справочник по REST API Power BI
 

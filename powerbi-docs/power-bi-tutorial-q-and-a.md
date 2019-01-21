@@ -4,19 +4,19 @@ description: Руководство по применению функции "В
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c139d5561a19dab147610914bc11e1bfd9e9e481
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830017"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277372"
 ---
-# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Руководство по использованию функции "Вопросы и ответы" для создания визуализаций и отчетов
+# <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Руководство. Использование функции "Вопросы и ответы" для создания визуализаций и отчетов
 В [этом обзоре](consumer/end-user-q-and-a.md) представлено описание функции "Вопросы и ответы" Power BI с двух сторон: *потребители* используют панели мониторинга и отчеты, которые им предоставлены, а *создатели* управляют отчетами и наборами данных. Первая часть этого руководства предназначена главным образом для тех, кто использует панели мониторинга через службу Power BI. Вторая часть будет полезна тем, кто создает отчеты через в Power BI или Power BI Desktop. Особенности применения функции "Вопросы ответы" совместно с [Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) и [Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях.
 
 Функция "Вопросы и ответы" интерактивна и даже интересна, и очень часто один вопрос приводит к многим другим, так как визуализации раскрывают новые пути для поиска. В следующем видео Аманда показывает, как с помощью функции "Вопросы и ответы" создавать визуализации, анализировать их и закреплять на панели мониторинга.
@@ -104,7 +104,7 @@ ms.locfileid: "52830017"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Назад к [обзору функции "Вопросы и ответы" Power BI](consumer/end-user-q-and-a.md)   
-[Учебник. Использование компонента "Вопросы и ответы" Power BI с примером анализа розничной торговли](power-bi-visualization-introduction-to-q-and-a.md)   
+[Руководство. Использование функции "Вопросы и ответы" Power BI с примером анализа розничной торговли](power-bi-visualization-introduction-to-q-and-a.md)   
 [Советы по запросам в функцию "Вопросы и ответы" в Power BI](consumer/end-user-q-and-a-tips.md)   
 [Настройка данных для работы с функцией "Вопросы и ответы" в Power BI](service-prepare-data-for-q-and-a.md)  
 [Включение функции вопросов и ответов для активных подключений](service-q-and-a-direct-query.md)

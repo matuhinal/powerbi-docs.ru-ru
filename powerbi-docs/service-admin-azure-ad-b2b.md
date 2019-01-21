@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dee5c14d2ee714872409352b5e42d646e561c271
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7e76f03a3795976aebd1480dc77a579c9245ed9e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507768"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282064"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 
@@ -101,6 +101,6 @@ Power BI интегрируется с Azure Active Directory B2B (Azure AD B2B)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные сведения и сведения о безопасности на уровне строк см. в техническом документе [Distribute Power BI content to external guest users using Azure AD B2B](https://aka.ms/powerbi-b2b-whitepaper) (Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B).
+Дополнительные сведения, включая сведения о безопасности на уровне строк, см. в техническом документе о [предоставлении содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B](https://aka.ms/powerbi-b2b-whitepaper)
 
 Сведения об Azure AD B2B см. в статье [Что представляет собой гостевой доступ в службе совместной работы Azure Active Directory B2B?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)

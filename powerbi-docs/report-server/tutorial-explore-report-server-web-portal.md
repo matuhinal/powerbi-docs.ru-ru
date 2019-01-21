@@ -1,22 +1,22 @@
 ---
-title: Руководство. Изучение Сервера отчетов Power BI на виртуальной машине
+title: Руководство. Изучение Сервера отчетов Power BI в виртуальной машине
 description: С помощью этого руководства вы создадите виртуальную машину с установленным Сервером отчетов Power BI и изучите его веб-портал.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 4eb9f5dc7e45006d1b5697f35b79d0e9d11fa2df
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092053"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281397"
 ---
-# <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Руководство. Изучение веб-портала Сервера отчетов Power BI на виртуальной машине
+# <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Руководство. Изучение возможностей веб-портала Сервера отчетов Power BI на виртуальной машине
 С помощью этого руководства вы создадите виртуальную машину с установленным Сервером отчетов Power BI, чтобы изучить возможности просмотра, редактирования и управления, предоставляемые в Power BI. В руководстве используется пример отчетов с разбивкой на страницы и ключевых показателей эффективности.
 
 ![Веб-портал сервера отчетов](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm-no-numbers.png)
@@ -135,7 +135,7 @@ ms.locfileid: "37092053"
    
     ![Переключение представлений](media/tutorial-explore-report-server-web-portal/report-server-web-portal-list-view.png)
 
-2. Вернитесь к представлению плиток, последовательно выбрав элементы **Список** > **Плитки**.
+2. Вернитесь к представлению плиток, последовательно выбрав **Список** > **Плитки**.
 
 ## <a name="power-bi-reports"></a>Отчеты Power BI
 

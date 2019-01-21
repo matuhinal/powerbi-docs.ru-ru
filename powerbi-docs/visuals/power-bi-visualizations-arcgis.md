@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 37e3e16a17e163d1acfeb43e1a1ede9fba1eca1e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266031"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279373"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Этот раздел посвящен *использованию* карты ArcGIS в службе Power BI Desktop или версии службы для мобильных устройств. Как только автор предоставит вам общий доступ к карте ArcGIS, у вас появится множество возможностей взаимодействия с ней.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании ESRI](../power-bi-visualization-arcgis.md).
@@ -145,7 +145,7 @@ ms.locfileid: "51266031"
 Нет. Чтобы отобразить карты Power BI, требуется сетевое подключение.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Получение справки: компания **Esri** предоставляет [полную документацию](https://go.microsoft.com/fwlink/?LinkID=828772) по набору функций **карт ArcGIS для Power BI**.
+Получение справки. Компания **Esri** предоставляет [полную документацию](https://go.microsoft.com/fwlink/?LinkID=828772) по набору функций **карт ArcGIS для Power BI**.
 
 Чтобы узнать последние сведения или сообщить о проблеме, можно задать вопросы и получить ответы в [темах сообщества Power BI, связанных с **картами ArcGIS для Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771).
 

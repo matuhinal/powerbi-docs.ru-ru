@@ -1,23 +1,23 @@
 ---
-title: Знакомство с примером "Управление персоналом"
-description: 'Пример "Управление персоналом" для Power BI: обзор'
+title: Управление персоналом — пример Узнайте о возможностях
+description: 'Пример "Управление персоналом" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717879"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293947"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Пример "Управление персоналом" для Power BI: обзор
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Пример "Управление персоналом" для Power BI: Узнайте о возможностях
 
 ## <a name="overview-of-the-human-resources-sample"></a>Обзор с примером "Управление персоналом"
 Отдел кадров имеет одинаковую модель отчетов в разных компаниях даже в том случае, если они ведут деятельность в разных отраслях или имеют разный размер. В этом примере рассматриваются новые сотрудники, активные сотрудники и уволившиеся сотрудники, а также предпринимается попытка выявить тенденции в стратегии найма персонала. Мы должны понять следующее:
@@ -141,5 +141,5 @@ ms.locfileid: "51717879"
 
 В такой безопасной среде можно работать. Отказаться от сохранения изменений можно в любой момент. Если изменения сохраняются, всегда можно выбрать функцию **Получить данные** для получения новой копии этого примера.
 
-## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: подключение к данным
+## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: Подключение к данным
 Мы надеемся, что в этом обзоре вы узнали, каким образом с помощью панелей мониторинга, вопросов и ответов и отчетов можно получить представление о данных по персоналу. Теперь ваша очередь — выполните подключение к собственным данным. С помощью Power BI можно подключаться ко многим типам источников данных. Узнайте больше о [начале работы с Power BI](service-get-started.md).  

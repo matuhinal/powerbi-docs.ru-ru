@@ -1,23 +1,23 @@
 ---
-title: 'Образец "Анализ возможностей" для Power BI: обзор'
-description: 'Образец "Анализ возможностей" для Power BI: обзор'
+title: 'Пример "Анализ возможностей" для Power BI: Узнайте о возможностях'
+description: 'Пример "Анализ возможностей" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717500"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275532"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ возможностей" для Power BI: обзор
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ возможностей" для Power BI: Узнайте о возможностях
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>Общие сведения о примере "Анализ возможностей"
 **Анализ возможностей — пример** содержит панель мониторинга (и связанный с ней отчет) для компании-разработчика программного обеспечения, использующей два канала продаж: *прямой* и *партнерский*. Менеджер по продажам создала эту панель мониторинга для отслеживания возможных сделок и дохода по регионам, величине сделок и каналам.
@@ -51,7 +51,7 @@ ms.locfileid: "51717500"
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ возможностей — пример**, затем выберите **Подключиться**.  
   
-   ![Получить данные](media/sample-opportunity-analysis/opportunity-connect.png)
+   ![Получение данных](media/sample-opportunity-analysis/opportunity-connect.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    
@@ -121,7 +121,7 @@ ms.locfileid: "51717500"
 
 В такой безопасной среде можно работать. Отказаться от сохранения изменений можно в любой момент. Однако если изменения сохраняются, всегда можно выбрать функцию **Получить данные** для получения новой копии этого образца.
 
-## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: подключение к данным
+## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: Подключение к данным
 Мы надеемся, что в этом обзоре вы узнали, каким образом с помощью панелей мониторинга, вопросов и ответов и отчетов можно получить представление о данных по отслеживанию возможных сделок. Теперь ваша очередь — выполните подключение к собственным данным. С помощью Power BI можно подключаться ко многим типам источников данных. Узнайте больше о [начале работы с Power BI](service-get-started.md).
 
 [Скачать образцы](sample-datasets.md)  

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900435"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281075"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Создание внедренного набора данных для отчета с разбивкой на страницы в службе Power BI (предварительная версия)
 Из этой статьи вы узнаете, как на основе внедренного источника данных создать внедренный набор данных для отчета с разбивкой на страницы в службе Power BI. Внедренные наборы данных хранятся в одном отчете с разбивкой на страницы и используются в этом отчете. В настоящее время отчеты с разбивкой на страницы, опубликованные в службе Power BI, могут использовать только внедренные наборы данных и внедренные источники данных. Внедренный источник данных и набор данных вы создаете в построителе отчетов в процессе создания отчета. 
@@ -56,6 +56,6 @@ ms.locfileid: "52900435"
 ## <a name="next-steps"></a>Дальнейшие действия 
 
 - [Сведения об отчетах с разбивкой на страницы в Power BI Premium (предварительная версия)](paginated-reports-report-builder-power-bi.md)  
-- [Руководство. Создание отчета с разбивкой на страницы и отправка отчета в службу Power BI](paginated-reports-quickstart-aw.md)
+- [Руководство. Создание отчета с разбивкой на страницы и его отправка в службу Power BI (предварительная версия)](paginated-reports-quickstart-aw.md)
 - [Публикация отчета с разбивкой на страницы в службе Power BI](paginated-reports-save-to-power-bi-service.md)
 

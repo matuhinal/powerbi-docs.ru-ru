@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717615"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280953"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Управление емкостью в Power BI Premium и Power BI Embedded
 
@@ -42,9 +42,9 @@ ms.locfileid: "51717615"
 
 Чтобы воспользоваться преимуществами выделенной емкости, необходимо приобрести Power BI Premium в центре администрирования Office 365 или создать ресурс Power BI Embedded на портале Microsoft Azure. Дополнительные сведения см. в следующих статьях:
 
-* **Power BI Premium**: [Как купить Power BI Premium](service-admin-premium-purchase.md).
+* **Power BI Premium.** [Как купить Power BI Premium](service-admin-premium-purchase.md)
 
-* **Power BI Embedded:** [создание емкости Power BI Embedded на портале Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded.** [Создание емкости Power BI Embedded на портале Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 При покупке SKU определенного уровня Power BI Premium или Embedded ваш клиент получает соответствующее количество виртуальных ядер, которые будут использоваться в работающей емкости. Например, при покупке SKU Power BI Premium уровня P3, клиент получает 32 виртуальных ядра. Дополнительные сведения см. в разделе [Узлы емкости Premium](service-premium.md#premium-capacity-nodes).
 

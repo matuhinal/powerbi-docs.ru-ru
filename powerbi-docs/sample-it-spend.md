@@ -1,23 +1,23 @@
 ---
-title: 'Образец "Анализ расходов на ИТ" для Power BI: обзор'
-description: 'Образец "Анализ расходов на ИТ" для Power BI: обзор'
+title: 'Пример "Анализ расходов ИТ-отдела" для Power BI: Узнайте о возможностях'
+description: 'Пример "Анализ расходов ИТ-отдела" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717477"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290085"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Образец "Анализ расходов на ИТ" для Power BI: обзор
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ расходов ИТ-отдела" для Power BI: Узнайте о возможностях
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>Общие сведения о примере "Анализ расходов ИТ-отдела"
 [Пакет содержимого](service-organizational-content-pack-introduction.md) "Анализ расходов ИТ-отдела" (информационная панель, отчет и набор данных) позволяет проанализировать запланированные и фактические затраты на ИТ-отдел. Это сравнение помогает понять, насколько хорошо компания составила годовой план, и позволяет исследовать области со значительными отклонениями от плана. Компания в этом образце ежегодно проходит цикл планирования, а затем ежеквартально создает новый текущий прогноз, помогающий анализировать изменения в расходах ИТ-отдела за последний финансовый год.
@@ -119,5 +119,5 @@ ms.locfileid: "51717477"
 
 В такой безопасной среде можно работать. Отказаться от сохранения изменений можно в любой момент. Однако если изменения сохраняются, всегда можно выбрать функцию "Получить данные" для получения новой копии этого образца.
 
-## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: подключение к данным
+## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: Подключение к данным
 Мы надеемся, что в этом обзоре вы узнали, каким образом с помощью информационных панелей, вопросов и ответов и отчетов можно получить представление о данных расходов на ИТ. Теперь ваша очередь — выполните подключение к собственным данным. С помощью Power BI можно подключаться ко многим типам источников данных. Узнайте больше о [начале работы с Power BI](service-get-started.md).

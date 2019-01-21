@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ca79a676d103a5e3d2a297b9ac0752ee524295
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f50ab78ff6a96beb127376ff9a8b1c7396dd2cc5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670109"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282884"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Устранение неполадок с анализом в Excel
 В некоторых случаях функция анализа в Excel дает неожиданный результат или работает не так, как нужно. На этой странице представлены решения наиболее распространенных проблем, возникающих при работе с анализом в Excel.
@@ -99,7 +99,7 @@ C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubl
 ## <a name="next-steps"></a>Дальнейшие действия
 [Анализ в Excel](service-analyze-in-excel.md)
 
-[Руководство. Создание собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md)
+[Руководство. Создание собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md)
 
 [Меры в PowerPivot](https://msdn.microsoft.com/library/gg399077.aspx)
 

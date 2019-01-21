@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548518"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286689"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Советы и рекомендации для визуализаций карт Power BI
 Power BI интегрируется с Картами Bing для предоставления стандартных картографических координат (этот процесс называется геокодированием) для создания карт. Совместно эти технологии используют алгоритмы для определения надлежащего расположения, но иногда это просто вариант высокой вероятности. Если Power BI не удается самостоятельно создать визуализацию, используются Карты Bing. 

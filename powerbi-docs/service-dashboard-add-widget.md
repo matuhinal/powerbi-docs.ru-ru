@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 01af6707cf53f1a5be3f1e7446e967b2306e993b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717930"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287078"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Добавление изображения, текста, видео и другого содержимого на информационную панель
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ ms.locfileid: "51717930"
 1. В верхней части строки меню выберите **Добавить плитку**. В связи с ограниченным пространством вы можете увидеть только знак "плюс" ![знак "плюс"](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
     ![Значок добавления плитки](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. Выберите добавляемый тип плитки: **изображение**, **текстовое поле**, **видео**, **веб-содержимое** или **пользовательские данные потоковой передачи**.
+2. Выберите добавляемую плитку: **Изображение**, **Текстовое поле**, **Видео**, **Веб-содержимое** или **Пользовательские данные потоковой передачи**.
    
     ![окно добавления плитки](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "51717930"
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Добавление текстового поля или заголовка панели мониторинга
 1. Выберите элементы **Текстовое поле > Далее**.
    
-   > **Примечание**. Чтобы добавить заголовок панели мониторинга, введите его в текстовом поле и увеличьте шрифт.
+   > **ПРИМЕЧАНИЕ**. Чтобы добавить заголовок панели мониторинга, введите его в текстовом поле и увеличьте шрифт.
    > 
 2. Форматирование текстового поля.
    

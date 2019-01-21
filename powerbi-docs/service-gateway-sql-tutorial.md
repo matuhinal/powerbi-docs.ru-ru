@@ -1,23 +1,23 @@
 ---
-title: Руководство. Подключение к локальным данным в SQL Server
+title: Руководство. Подключение к локальным источникам данных в SQL Server
 description: Сведения об использовании SQL Server в качестве источника данных шлюза, в том числе о способах обновления данных.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257115"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278936"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Руководство. Подключение к локальным данным в SQL Server
+# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Руководство. Подключение к локальным источникам данных в SQL Server
 
 Локальный шлюз данных — это программное обеспечение, установленное в локальной сети, которое помогает обращаться к данным в этой сети. В этом руководстве вы создадите в Power BI Desktop отчет на основе примера данных, импортированных из SQL Server. Затем вы опубликуете этот отчет в службе Power BI и настроите шлюз, через который служба получит доступ к локальным данным. Этот доступ позволит службе обновлять данные для поддержания их актуальности.
 

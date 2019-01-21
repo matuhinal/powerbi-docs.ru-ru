@@ -4,17 +4,17 @@ description: Узнайте, как публиковать приложения,
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100825"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294105"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Публикация приложений с панелями мониторинга и отчетами в Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "50100825"
 Каждый член рабочей области приложения должен иметь лицензию Power BI Pro. Для пользователей приложения доступны два варианта.
 
 * Вариант 1. Всем бизнес-пользователям требуется лицензия **Power BI Pro** для просмотра вашего приложения. 
-* Вариант 2. Пользователи с бесплатной лицензией в организации могут просмотреть содержимое приложения, если ваше приложение находится в емкости Power BI Premium. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium.md)
+* Вариант 2. Пользователи с бесплатной лицензией в организации могут просмотреть содержимое приложения, если ваше приложение находится в емкости Power BI Premium. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium.md)
 
 ## <a name="publish-your-app"></a>Публикация приложения
 Когда панели мониторинга и отчеты в рабочей области будут готовы, выберите панели мониторинга и отчеты, которые необходимо опубликовать, а затем опубликуйте их как приложение. Это можно сделать, отправив пользователям прямую ссылку, или они могут найти приложение на вкладке "Приложения", перейдя по ссылке **Download and explore more apps from AppSource** (Найти и скачать другие приложения из AppSource). 

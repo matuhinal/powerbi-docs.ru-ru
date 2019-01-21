@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e2d2f0bd73d17d8d987dab9f3b3396bf7845d16e
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 2abca5019454067b6cdc04c3f52b6daeafb2fb85
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641420"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285353"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
@@ -34,7 +34,7 @@ ms.locfileid: "49641420"
 
 Если у вас нет клиента и вы хотите создать его, вместе с ним можно приобрести Power BI Premium. По ссылке ниже представлены инструкции по созданию клиента и предоставляется возможность приобрести Power BI Premium: [предложение Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1).
 
-![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
+![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
 
 При создании клиента вам будет автоматически назначена роль глобального администратора Office 365 для этого клиента.
 

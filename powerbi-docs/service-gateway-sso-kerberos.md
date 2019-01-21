@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508044"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295266"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
-Используйте [ограниченное делегирование Kerberos](https://technet.microsoft.com/library/jj553400.aspx), чтобы включить простой единый вход. Включение единого входа позволяет отчетам и панелям мониторинга Power BI легко обновлять данные из локальных источников.
+Используйте [ограниченное делегирование Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview), чтобы включить простой единый вход. Включение единого входа позволяет отчетам и панелям мониторинга Power BI легко обновлять данные из локальных источников.
 
 ## <a name="supported-data-sources"></a>Поддерживаемые источники данных
 
@@ -29,7 +29,7 @@ ms.locfileid: "51508044"
 * SAP HANA
 * SAP BW
 * Teradata
-* Spark;
+* Spark
 * Impala
 
 Мы также поддерживаем SAP HANA с [языком разметки заявлений системы безопасности (SAML)](service-gateway-sso-saml.md).
@@ -50,11 +50,11 @@ ms.locfileid: "51508044"
 
 Чтобы ограниченное делегирование Kerberos правильно работало, необходимо настроить несколько элементов, в том числе *имена субъектов-служб* и параметры делегирования в учетных записях служб.
 
-### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Предварительное требование 1. Установка и настройка локального шлюза данных
+### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Необходимое условие 1. Установка и настройка локального шлюза данных
 
 Этот выпуск локального шлюза данных поддерживает обновление на месте, а также подхват параметров из существующих шлюзов.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Предварительное требование 2. Запуск службы Windows для шлюза в качестве учетной записи домена
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Необходимое условие 2. Запуск службы Windows для шлюза в качестве учетной записи домена
 
 В стандартной установке шлюз выполняет роль учетной записи службы для локального компьютера (например, *NT Service\PBIEgwService*). Пример представлен на следующем изображении:
 
@@ -65,7 +65,7 @@ ms.locfileid: "51508044"
 > [!NOTE]
 > Если настроены Azure AD DirSync или Connect и учетные записи синхронизированы, службе шлюза не требуется выполнять поиск в локальной службе AD на этапе выполнения. Для службы шлюза также можно использовать идентификатор безопасности локальной службы (вместо учетной записи домена). Этапы настройки ограниченного делегирования Kerberos, описанные в этой статье, будут аналогичными для такой конфигурации (они просто применяются к объекту компьютера службы в Active Directory, а не учетной записи домена).
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Предварительное требование 3. Получение прав администратора домена для настройки параметров ограниченного делегирования Kerberos и имен субъектов-служб (SetSPN)
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Необходимое условие 3. Получение прав администратора домена для настройки параметров ограниченного делегирования Kerberos и имен субъектов-служб (SetSPN)
 
 Технически администратор домена может на временной или постоянной основе разрешить любому пользователю настраивать делегирование Kerberos и имена субъектов-служб. Но это не рекомендуется делать для пользователей без прав администратора. В следующем разделе подробно описаны этапы настройки для выполнения **предварительного требования 3**.
 
@@ -367,7 +367,7 @@ ms.locfileid: "51508044"
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Добавьте новый источник данных сервера приложений BW в службе Power BI
 
-Добавление источника данных BW на шлюзе: следуйте предыдущим инструкциям этой статьи, касающимся [запуска отчета](#running-a-power-bi-report).
+Добавление источника данных BW в шлюзе: следуйте предыдущим инструкциям из этой статьи, касающимся [запуска отчета](#running-a-power-bi-report).
 
 1. Введите в окне настройки источника данных **имя узла** сервера приложений, **номер системы** и **идентификатор клиента**, как и в случае входа на сервер BW из Power BI Desktop. Выберите **проверку подлинности** **Windows**.
 

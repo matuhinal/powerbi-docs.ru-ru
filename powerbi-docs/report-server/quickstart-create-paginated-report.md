@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289135"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284443"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 Как и предполагает название, отчеты c разбивкой на страницы могут выполняться на большом количестве страниц. Они поддерживают точную настройку и создаются в фиксированном формате. Отчеты с разбивкой на страницы это RDL-файлы.
@@ -25,7 +25,7 @@ ms.locfileid: "52289135"
 
 Если вы уже создавали отчеты с разбивкой на страницы в построителе или конструкторе отчетов, вы можете создавать такие же отчеты для сервера отчетов Power BI. Если вы еще не создавали такие отчеты, ниже описаны действия, с помощью которых можно быстро приступить к работе.
 
-## <a name="step-1-install-and-start-report-builder"></a>Шаг 1. Установка и запуск построителя отчетов
+## <a name="step-1-install-and-start-report-builder"></a>Шаг 1. Установка и запуск построителя отчетов
 Возможно, вы уже установили построитель отчетов для создания отчетов для сервера SSRS. Вы можете использовать ту же версию или построитель отчетов, чтобы создавать отчеты для сервера отчетов Power BI. Если построитель отчетов еще не установлен, это легко исправить.
 
 1. На веб-портале сервера отчетов Power BI выберите **Создать** > **Отчет с разбивкой на страницы**.
@@ -46,7 +46,7 @@ ms.locfileid: "52289135"
    
     Мастер диаграмм поможет вам создать простую диаграмму в отчете. После этого вы сможете настраивать отчет практически до бесконечности.
 
-## <a name="step-2-go-through-the-chart-wizard"></a>Шаг 2. Использование мастера диаграмм
+## <a name="step-2-go-through-the-chart-wizard"></a>Шаг 2. Использование мастера диаграмм
 С помощью мастера диаграмм вы пройдете основные этапы создания визуализации в отчете.
 
 Отчеты с разбивкой на страницы можно подключать к разным источникам данных: от Microsoft SQL Server и базы данных Microsoft Azure SQL до Oracle, Hyperion и многих других. Прочитайте статью об [источниках данных, которые поддерживаются отчетами с разбивкой на страницы](connect-data-sources.md).
@@ -66,7 +66,7 @@ ms.locfileid: "52289135"
     ![Мастер диаграмм: размещение полей](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. Нажмите кнопку **Далее** > **Готово**.
 
-## <a name="step-3-design-your-report"></a>Шаг 3. Создание отчета
+## <a name="step-3-design-your-report"></a>Шаг 3. Создание отчета
 Теперь вы находитесь в представлении конструктора отчетов. Обратите внимание, что вы видите данные заполнителя, а не свои данные.
 
 ![Представление конструктора отчетов](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
@@ -82,7 +82,7 @@ ms.locfileid: "52289135"
 
 ![Представление построителя отчетов](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>Шаг 4. Сохранение отчета на сервере отчетов
+## <a name="step-4-save-your-report-to-the-report-server"></a>Шаг 4. Сохранение отчета на сервере отчетов
 Когда отчет будет готов, вы сможете сохранить его на сервере отчетов Power BI.
 
 1. В меню **Файл** выберите **Сохранить как** и сохраните отчет на сервере отчетов. 

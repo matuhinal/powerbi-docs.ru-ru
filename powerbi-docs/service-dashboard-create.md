@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717431"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294282"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Создание панели мониторинга Power BI из отчета
 Вы прочитали раздел [Панели мониторинга в Power BI](service-dashboards.md) и хотите создать свои собственные информационные панели. Существует много разных способов создавать панели мониторинга, среди которых: создание из отчета, с нуля, из набора данных, с помощью дублирования существующей панели мониторинга и многое другое.  
@@ -25,13 +25,13 @@ ms.locfileid: "51717431"
 ## <a name="who-can-create-a-dashboard"></a>Кто может создавать панели мониторинга?
 Создавать панель мониторинга может только **автор**. Для этого требуются разрешения на изменение отчета. Такие разрешения доступны авторам отчетов и тем коллегам, которым автор предоставил доступ. Например, если Сергей создает отчет в рабочей области "АБВ" и добавляет вас в нее как участника, то у вас и у Сергея будут разрешения на редактирование. Но если вам предоставили общий доступ к этому отчету напрямую или в рамках [приложения Power BI](service-create-distribute-apps.md) (вы **используете** отчет), вы не сможете закреплять плитки на панели мониторинга.
 
-> **Примечание**. Панели мониторинга — это компонент службы Power BI, а не Power BI Desktop. Панели мониторинга нельзя создавать в Power BI Mobile, но их можно [просматривать и предоставлять для общего доступа](consumer/mobile/mobile-apps-view-dashboard.md).
+> **ПРИМЕЧАНИЕ**. Панели мониторинга — это компонент службы Power BI, а не Power BI Desktop. Панели мониторинга нельзя создавать в Power BI Mobile, но их можно [просматривать и предоставлять для общего доступа](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
 ![панель мониторинга](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Создание информационной панели путем закрепления визуальных элементов и изображений из отчета (видео)
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Видео. Создание панели мониторинга путем закрепления визуальных элементов и изображений из отчета
 Посмотрите, как Аманда создает новую панель мониторинга с помощью закрепления визуализаций из отчета. Затем попробуйте сделать это самостоятельно, используя пример анализа закупок и выполняя действия из видео.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>

@@ -1,23 +1,23 @@
 ---
-title: Учебник. Анализ Facebook с помощью Power BI Desktop
-description: Учебник. Анализ Facebook с помощью Power BI Desktop
+title: Руководство. Анализ Facebook с помощью Power BI Desktop
+description: Руководство. Анализ Facebook с помощью Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578504"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276981"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Учебник. Анализ Facebook с помощью Power BI Desktop
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Руководство. Анализ Facebook с помощью Power BI Desktop
 
 Из этого руководства вы узнаете, как импортировать данные из Facebook и использовать их в Power BI Desktop. Вы подключитесь к странице Power BI в Facebook, импортируете данные, примените к ним преобразования, а затем используете данные в визуализациях отчета.
 

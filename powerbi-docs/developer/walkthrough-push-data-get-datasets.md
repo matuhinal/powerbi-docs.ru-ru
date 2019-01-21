@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: f6396747dc21ddc94ab1abda6939e8e423c649e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092559"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296202"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Шаг 4. Получение набора данных для добавления строк в таблицу Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
@@ -26,11 +26,11 @@ ms.locfileid: "37092559"
 Вот как получить набор данных.
 
 ## <a name="get-a-power-bi-dataset"></a>Получение набора данных Power BI
-> **ПРИМЕЧАНИЕ.** Перед началом работы убедитесь, что выполнены предыдущие шаги из пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
+> **ПРИМЕЧАНИЕ**. Перед началом работы убедитесь, что выполнены предыдущие шаги из пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 > 
 > 
 
-1. В проекте консольного приложения, созданного на шаге 2 [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md) пошагового руководства по принудительной отправке данных, установите пакет NuGet Newtonsoft.Json. Ниже приведены действия по установке пакета.
+1. В проекте консольного приложения, созданного при работе с разделом [Шаг 2. Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md) пошагового руководства по принудительной отправке данных, установите пакет NuGet Newtonsoft.Json. Ниже приведены действия по установке пакета.
    
      а. В Visual Studio 2015 выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
    

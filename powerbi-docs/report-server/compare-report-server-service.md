@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/16/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 95055f19ed4187124d940e0fe7f70068dffc71c5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900573"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289769"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "52900573"
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Функции Сервера отчетов Power BI и службы Power BI
 
-| Функции | Сервер отчетов Power BI | Служба Power BI | Примечания
+| Функции | сервере отчетов Power BI | Служба Power BI | Примечания
 |---------|---------|---------|---------|
 | Развертывание | Локально или в размещенном облаке | В облаке | Решение "Сервер отчетов Power BI" можно развернуть на виртуальных машинах Azure (размещенное облако), если используется лицензия Power BI Premium
 | Исходные данные | Облачные и (или) локальные | Облачные и (или) локальные |  
@@ -36,7 +36,7 @@ ms.locfileid: "52900573"
 | Потоковая передача в реальном времени | Нет | Да | [Потоковая передача в реальном времени в Power BI](../service-real-time-streaming.md)
 | Панели мониторинга | Нет | Да | [Панели мониторинга в службе Power BI](../consumer/end-user-dashboards.md) 
 | Распределение групп отчетов с помощью приложений | Нет | Да | [Создание и публикация приложений с панелями мониторинга и отчетами](../service-create-distribute-apps.md) 
-| Пакеты содержимого | Нет | Да | [Знакомство с пакетами содержимого организации](../service-organizational-content-pack-introduction.md) 
+| Пакеты содержимого | Нет | Да | [Знакомство с пакетами содержимого организации в Power BI](../service-organizational-content-pack-introduction.md) 
 | Подключение к службам, таким как Salesforce | Да | Да | [Подключение к используемым службам](../service-connect-to-services.md) с помощью пакетов содержимого в службе Power BI. Используйте для этого сертифицированные соединители на сервере отчетов Power BI. Дополнительные сведения: [Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"](data-sources.md).
 | Вопросы и ответы | Нет | Да | ["Вопросы и ответы" в службе Power BI и Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Краткая аналитика | Нет | Да | [Автоматическое создание аналитических сведений с помощью Power BI](../consumer/end-user-insights.md) 

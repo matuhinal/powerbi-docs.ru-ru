@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670424"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283146"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -46,15 +46,15 @@ ms.locfileid: "52670424"
 <br>Авторы: Кори Хрнсирик (Cory Hrncirik) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: проводим аналитику правильно**
+**Power BI: проводим аналитику правильно**
 <br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Визуализация данных Power BI: основные типы диаграмм и их использование**
+**Визуализация данных Power BI:  основные типы диаграмм и их использование**
 <br>Автор: Миранда Ли (Miranda Li)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
-**Power BI, Excel и Office 365: оптимизация данных предприятия**
+**Power BI, Excel и Office 365: оптимизация корпоративных данных**
 <br>Авторы: Олаф Хубель (Olaf Hubel) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
@@ -78,7 +78,7 @@ ms.locfileid: "52670424"
 <br>Автор: Чарльз Стерлинг (Charles Sterling)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI).
+**Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI**
 <br>Авторы: Карлос Отеро (Carlos Otero) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
@@ -112,7 +112,7 @@ ms.locfileid: "52670424"
 <br>Автор: Эд Бобрин (Ed Bobrin) из Avanade
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-**Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability** (Производители: цифровое преобразование в вашей отрасли. Лидирующие позиции и повышение прибыли за счет аналитики)
+**Производители: цифровое преобразование в вашей отрасли. Лидирующие позиции и повышение прибыли за счет аналитики**
 <br>Авторы: Джон Томпсон (Jon Thompson) из Blue Margin и Джим Пастор (Jim Pastor) из Elgin Fastener Group
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
@@ -142,7 +142,7 @@ ms.locfileid: "52670424"
 <br>Автор: Каспер де Йонге (Kasper de Jonge)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Спросите у партнера: разработка пользовательских визуальных элементов для Power BI**
+**Спросите у партнера: разработка пользовательских визуальных элементов для Power BI**
 <br>Автор: Тед Паттисон (Ted Pattison)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -155,11 +155,11 @@ ms.locfileid: "52670424"
 
 **[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Серия вебинаров о внедрении платформы Power BI)
 <br>Авторы: Ману Канварпал (Manu Kanwarpal) и Пол Хенвуд (Paul Henwood)
-<br>[Зарегистрироваться и начать просмотр. Part 1 — Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Часть 1. Реализация: реализация культуры принятия решений на основе данных)
-<br>[Зарегистрироваться и начать просмотр. Part 2 — Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Часть 2. Система управления: управление использованием Power BI)
-<br>[Зарегистрироваться и начать просмотр. Part 3 — Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Часть 3. Управление услугами: сведения об управлении услугами Power BI)
-<br>[Зарегистрироваться и начать просмотр. Part 4 — Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Часть 4. Безопасность: защита данных с помощью Power BI)
-<br>[Зарегистрироваться, чтобы посмотреть сейчас. Part 5 — Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Часть 5. Развертывание. Успешное развертывание Power BI)
+<br>[Зарегистрироваться и начать просмотр — Часть 1. Реализация. Реализация культуры принятия решений на основе данных](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[Зарегистрироваться и начать просмотр — Часть 2. Система управления. Управление использованием Power BI](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Зарегистрироваться и начать просмотр — Часть 3. Управление услугами. Сведения об управлении услугами Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Зарегистрироваться и начать просмотр — Часть 4. Безопасность. Защита данных с помощью Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Зарегистрироваться и начать просмотр — Часть 5. Развертывание. Успешное развертывание Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Серия вебинаров по Office 365 для финансовых специалистов**
 <br>Авторы: Марк Траверсо (Mark Traverso), Карлос Отейро (Carlos Otero), Джонни Томас (Johnnie Thomas), Аманда Кофски (Amanda Cofsky) и Мигель Мартинес (Miguel Martinez)

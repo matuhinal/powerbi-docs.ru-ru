@@ -6,22 +6,22 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92c5ad6be98e77c7fb844d45ab135bfb9d1cd141
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829971"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278024"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Добавление гиперссылки в текстовое поле в отчете
 Текстовые поля можно добавлять в отчеты, закреплять на информационных панелях из отчетов и добавлять непосредственно на информационные панели. Гиперссылки можно добавить в текстовое поле, независимо от того, где оно находится.  
 
-> **ПРИМЕЧАНИЕ**. Сведения о гиперссылках в таблицах и матрицах Power BI см. в статье [Гиперссылки в таблицах](power-bi-hyperlinks-in-tables.md). Сведения о добавлении текстовых полей на **панель мониторинга** см. в статье [Добавление плитки прямо с панели мониторинга](service-dashboard-add-widget.md). 
+> **ПРИМЕЧАНИЕ**. Сведения о гиперссылках в таблицах и матрицах Power BI см. в статье [Добавление гиперссылок в таблицу](power-bi-hyperlinks-in-tables.md). Сведения о добавлении текстовых полей на **панель мониторинга** см. в статье [Добавление плитки прямо с панели мониторинга](service-dashboard-add-widget.md). 
 > 
 > 
 

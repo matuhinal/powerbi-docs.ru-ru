@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
 ms.author: maghan
-ms.openlocfilehash: 36f9665f0e42ee62e5a1a4a7584a2492bea276b0
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597919"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288941"
 ---
 # <a name="custom-layouts"></a>Пользовательские макеты
 
@@ -64,9 +64,9 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize`. Используйте этот параметр, чтобы управлять размером области холста (т. е. незаполненной области отчета).
-- `displayOptions`. Возможные значения: FitToWidth, FitToPage или ActualSize. Определяет, как масштабировать холст, чтобы он поместился в интернет-кадр.
-- `pagesLayout`. Определяет макет для каждого визуального элемента. См. дополнительные сведения о PagesLayout.
+- `pageSize` — используйте этот параметр, чтобы управлять размером области холста (т. е. незаполненной области отчета).
+- `displayOptions` — возможные значения: FitToWidth, FitToPage или ActualSize. Определяет, как масштабировать холст, чтобы он поместился в интернет-кадр.
+- `pagesLayout` — определяет макет для каждого визуального элемента. См. дополнительные сведения о PagesLayout.
 
 ## <a name="pages-layout"></a>Макет страниц
 
@@ -111,9 +111,9 @@ enum VisualContainerDisplayMode {
 }
 ```
 
-- `x,y,z`. Определяет новое расположение визуального элемента.
-- `width`, height. Определяет новый размер визуального элемента.
-- `displayState`. Определяет видимость визуального элемента.
+- `x,y,z` — определяет новое расположение визуального элемента.
+- `width`, height — определяет новое расположение визуального элемента.
+- `displayState` — определяет видимость визуального элемента.
 
 
 ## <a name="update-layout"></a>Обновление макета

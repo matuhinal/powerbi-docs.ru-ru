@@ -1,23 +1,23 @@
 ---
-title: 'Пример "Рентабельность клиента" для Power BI: обзор'
-description: 'Пример "Рентабельность клиента" для Power BI: обзор'
+title: 'Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях'
+description: 'Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717983"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280845"
 ---
-# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: обзор
+# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Обзор примера "Рентабельность клиента"
 Пакет содержимого "Рентабельность клиента — пример" содержит панель мониторинга, отчет и набор данных для компании, производящей маркетинговые материалы. Эта панель мониторинга была создана финансовым директором для просмотра основных метрик о пяти руководителях подразделения, продуктах, клиентах и валовой прибыли. Здесь можно легко увидеть факторы, влияющие на прибыль.
@@ -195,7 +195,7 @@ ms.locfileid: "51717983"
 
 Вы также можете [скачать только набор данных (книга Excel) для этого примера](http://go.microsoft.com/fwlink/?LinkId=529781).
 
-## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: подключение к данным
+## <a name="next-steps-connect-to-your-data"></a>Дальнейшие действия: Подключение к данным
 Мы надеемся, что в этом обзоре вы узнали, каким образом с помощью информационных панелей, вопросов и ответов и отчетов можно получить представление о данных по клиентам. Теперь ваша очередь — выполните подключение к собственным данным. С помощью Power BI можно подключаться ко многим типам источников данных. Узнайте больше о [начале работы с Power BI](service-get-started.md).
 
 [Назад к примерам в Power BI](sample-datasets.md)  

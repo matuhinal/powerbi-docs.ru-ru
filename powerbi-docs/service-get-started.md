@@ -6,19 +6,19 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900558"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292000"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Руководство: "Начало работы со службой Power BI (app.powerbi.com)"
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Руководство. Начало работы со службой Power BI (app.powerbi.com)
 В этом руководстве содержатся сведения, которые помогут вам приступить к работе со ***службой Power BI***. Чтобы иметь представление о соответствии службы Power BI другим предложениям Power BI, мы советуем ознакомиться со статьей [Интерактивное обучение Power BI](power-bi-overview.md).
 
 ![иллюстрация, показывающая отношения между Desktop, службой и мобильным приложением](media/service-get-started/power-bi-components.png)
@@ -128,7 +128,7 @@ ms.locfileid: "52900558"
    
    Чтобы в любой момент вернуться к отчету, выберите новую плитку на панели мониторинга. Power BI вернет вас в редактор отчетов в режиме чтения. Чтобы переключиться обратно в ежим правки, выберите **Изменить отчет** в верхней строке меню. Когда вы перейдете в этот режим, продолжайте изучать данные и закреплять плитки. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Шаг 3. Дальнейшее знакомство с компонентом "Вопросы и ответы" (запросы на естественном языке)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Шаг 3.  Дальнейшее изучение возможностей компонента "Вопросы и ответы" (запросы на естественном языке)
 1. Для быстрого исследования данных попробуйте задать вопрос в поле "Вопросы и ответы". Поле вопросов и ответов находится в верхней части панели мониторинга (**Задать вопрос о своих данных**) и верхней строке меню в отчете (**Задать вопрос**). Например, попробуйте ввести "в каком сегменте наибольший доход".
    
    ![Холст вопросов и ответов](media/service-get-started/powerbi-qna.png)

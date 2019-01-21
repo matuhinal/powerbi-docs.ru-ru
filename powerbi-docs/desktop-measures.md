@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d4b0ad34d200e3d94c60c7e3a3f524a3f3ed09cf
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4cdd4cf3f8a21b2e97b936ed4e6d4efe2df9a0e8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550013"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290597"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Меры в Power BI Desktop
 
@@ -66,7 +66,7 @@ ms.locfileid: "46550013"
 Можно создавать таблицы, отображающие меры как URL-адреса веб-страниц, с возможностью щелкнуть URL-адрес, созданный на основе выбранных данных. Это особенно удобно, если вы хотите связать их с другими отчетами Power BI с помощью [параметров фильтра URL-адреса](service-url-filters.md).
 
 ## <a name="learn-more"></a>Дополнительные сведения
-Здесь представлено только краткое введение меры, но имеются дополнительные ресурсы, помогающие научиться создавать свои собственные меры. Рекомендуется прочесть [Учебник. Создание собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md), где можно загрузить образец файла и получить пошаговые уроки по созданию дополнительных мер.  
+Здесь представлено только краткое введение меры, но имеются дополнительные ресурсы, помогающие научиться создавать свои собственные меры. Рекомендуется прочесть статью [Руководство. Создание собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md), где можно скачать пример файла и получить пошаговые инструкции по созданию дополнительных мер.  
 
 Для более детального изучения DAX рекомендуется документ [Основные сведения о DAX в Power BI Desktop](desktop-quickstart-learn-dax-basics.md). В [справочнике по выражениям анализа данных](https://msdn.microsoft.com/library/gg413422.aspx) находятся подробные статьи о каждой из функций, синтаксисе, операторах и соглашениях об именовании. DAX уже несколько лет используется в Power Pivot в Excel и SQL Server Analysis Services, поэтому имеется также много других полезных и доступных ресурсов. Рекомендуется также посетить [вики-сайт Центра ресурсов DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx), где влиятельные члены сообщества бизнес-аналитики делятся своими знаниями в области DAX.
 
