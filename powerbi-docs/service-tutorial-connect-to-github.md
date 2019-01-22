@@ -1,25 +1,25 @@
 ---
-title: Учебник. Подключение к примеру в GitHub с помощью Power BI
+title: Руководство. Подключение к примеру в GitHub с помощью Power BI
 description: В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900504"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295708"
 ---
-# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Учебник. Подключение к примеру в GitHub с помощью Power BI
-В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключившись к общедоступному *репозиторию* содержимого Power BI, можно узнать, сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; а также получить ответы на другие вопросы. 
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Руководство. Подключение к примеру в GitHub с помощью Power BI
+В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключившись к общедоступному *репозиторию* содержимого Power BI, можно следующее: сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; а также получить ответы на другие вопросы. 
 
 ![Отчет GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
