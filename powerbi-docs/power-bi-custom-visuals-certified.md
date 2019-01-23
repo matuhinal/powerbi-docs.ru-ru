@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: bfe3421b2c2328ee65cb8f34b43b34de8fe98723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280224"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394838"
 ---
 # <a name="certified-custom-visuals"></a>Сертификация пользовательских визуальных элементов
 
@@ -74,6 +74,10 @@ ms.locfileid: "54280224"
 | Ссылка на AppSource | Ссылка на видео |
 | --- | --- |
 | [3AG Systems — гистограмма относительного расхождения](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
+| [Изображение расширенного кольцевого графика](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) | |
+| [Расширенная визуализация сети](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) | |
+| [Расширенная визуализация TimeSeries](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) | |
+| [Изображение расширенной смешанной диаграммы](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) | |
 | [Круговая диаграмма с индивидуальным радиусом срезов](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Календарь Beyondsoft](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Петлеобразная диаграмма от MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Видео](https://youtu.be/So5xKMSpVJI) |

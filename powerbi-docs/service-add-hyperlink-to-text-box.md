@@ -1,25 +1,25 @@
 ---
 title: Добавление гиперссылки в текстовое поле в отчете
 description: Добавление гиперссылки в текстовое поле в службу Power BI и Power BI Desktop
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278024"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406599"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Добавление гиперссылки в текстовое поле в отчете
-Текстовые поля можно добавлять в отчеты, закреплять на информационных панелях из отчетов и добавлять непосредственно на информационные панели. Гиперссылки можно добавить в текстовое поле, независимо от того, где оно находится.  
+Вы можете добавлять текстовые поля в отчеты, закреплять их на панелях мониторинга из отчетов и добавлять их непосредственно на панели мониторинга. Если есть текстовое поле, вы всегда можете добавить к нему гиперссылку.  
 
 > **ПРИМЕЧАНИЕ**. Сведения о гиперссылках в таблицах и матрицах Power BI см. в статье [Добавление гиперссылок в таблицу](power-bi-hyperlinks-in-tables.md). Сведения о добавлении текстовых полей на **панель мониторинга** см. в статье [Добавление плитки прямо с панели мониторинга](service-dashboard-add-widget.md). 
 > 
@@ -32,24 +32,24 @@ ms.locfileid: "54278024"
 1. [Создайте текстовое поле и добавьте текст](power-bi-reports-add-text-and-shapes.md). 
 2. Выделите существующий текст или добавьте новый текст для использования в качестве гиперссылки.
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. Выберите значок гиперссылки ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
+   ![Выделите текст в текстовом поле](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
+3. Выберите значок гиперссылки ![Значок гиперссылки](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
 4. Введите или вставьте URL-адрес в поле гиперссылки и нажмите кнопку **Готово**.
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
+   ![Введите или вставьте URL-адрес в поле гиперссылки](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
 5. Проверьте ссылку.  
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
+   ![Проверьте ссылку](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
    * Поместите курсор в область выделенного текста, чтобы отобразить URL-адрес.  
      
-      ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
+      ![Поместите курсор в область выделенного текста](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Выберите URL-адрес, чтобы открыть страницу в новом окне браузера.
 
 ## <a name="to-remove-the-hyperlink-but-leave-the-text"></a>Удаление гиперссылки и сохранение текста
 1. В текстовом поле выберите гиперссылку, чтобы выделить ее.
    
-     ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
+     ![Удалите гиперссылку](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
 2. Выберите **Удалить**. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
