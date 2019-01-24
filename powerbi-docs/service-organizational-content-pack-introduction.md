@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286388"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838469"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Знакомство с пакетами содержимого организации в Power BI
 > [!NOTE]
@@ -41,8 +41,6 @@ ms.locfileid: "54286388"
 При публикации пакет содержимого организации добавляется в AppSource.  Этот централизованный репозиторий упрощает членам группы просмотр и поиск опубликованных для них панелей мониторинга, отчетов и наборов данных.  
 
 * Чтобы просмотреть AppSource, последовательно выберите **Получение данных** > **Моя организация** > **Получение**.
-
-См. дополнительные сведения о [поиске и открытии пакетов содержимого организации](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Жизненный цикл пакета содержимого организации
 Любой пользователь Power BI Pro может создавать, публиковать пакеты содержимого организации и осуществлять доступ к ним. Только создатель пакета содержимого может изменить книгу или набор данных, запланировать их обновление, а также удалить их.
