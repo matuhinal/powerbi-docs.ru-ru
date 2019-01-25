@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 01/21/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 0b423310e88917c910d44f15247bbaec49732f2c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394804"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838331"
 ---
 # <a name="apps-in-power-bi"></a>Приложения в Power BI
 ## <a name="what-is-a-power-bi-app"></a>Что такое приложение Power BI?
@@ -26,12 +26,14 @@ ms.locfileid: "54394804"
 
 ![Приложения в Power BI](./media/end-user-apps/power-bi-apps-nav.png)
 
+> [!NOTE]
+> Чтобы использовать функцию приложений, требуется лицензия Power BI Pro. <!-- add link to how to figure out your license -->
+
 ## <a name="app-designers-and-app-consumers"></a>***Разработчики*** приложений и ***потребители*** приложений
 В зависимости от вашей роли вы можете быть создателем (разработчиком) приложений для собственного пользования или для совместного использования с коллегами. Или вы можете быть человеком, который получает и загружает приложения, созданные другими (потребитель). Эта статья предназначена для *потребителей* приложений.
 
 ## <a name="advantages-of-apps"></a>Преимущества приложений
 Вы можете легко находить и устанавливать приложения в службе Power BI ([https://powerbi.com](https://powerbi.com)) и на мобильном устройстве. Когда вы установите приложение, вам не нужно запоминать имена разных панелей мониторинга, так как все они находятся в приложении, в браузере или на мобильном устройстве.
-
 
 В приложении все выпущенные автором обновления отображаются автоматически. Автор также контролирует график обновления данных, и вам не нужно беспокоиться об их актуальности. 
 
