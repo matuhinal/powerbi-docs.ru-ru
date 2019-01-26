@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295888"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488829"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 Узнайте, как установить приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI.
@@ -31,7 +31,7 @@ ms.locfileid: "54295888"
 
     ![Скачивание Power BI Desktop из веб-портала](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (август 2018 г.), оптимизированному для сервера отчетов Power BI, в Центре загрузки Майкрософт.
+    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (январь 2019 г.), оптимизированному для решения сервера отчетов Power BI, в Центре загрузки Майкрософт.
 
 2. На странице Центра загрузки нажмите кнопку **Скачать**.
 
@@ -41,7 +41,7 @@ ms.locfileid: "54295888"
 
     - **PBIDesktopRS_x64.msi** (64-разрядная версия).
 
-1. Скачав установщик, запустите мастер установки Power BI Desktop (август 2018 г.).
+1. Скачав установщик, запустите мастер установки Power BI Desktop (январь 2019 г.).
 
 2. На завершающем этапе процесса установки выберите параметр **Start Power BI Desktop now** (Запустить Power BI Desktop).
    
