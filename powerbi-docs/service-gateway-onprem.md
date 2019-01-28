@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287906"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899257"
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
 
@@ -96,7 +96,9 @@ ms.locfileid: "54287906"
 
 ## <a name="tenant-level-administration"></a>Администрирование уровня клиента
 
-Сейчас нет единого места, где администраторы клиентов могут управлять всеми шлюзами, которые установили и настроили другие пользователи.  Если вы являетесь администратором клиента, попросите пользователей в вашей организации добавлять вас в качестве администратора для каждого шлюза, который они устанавливают. Это позволяет управлять всеми шлюзами в вашей организации на странице настройки шлюза или посредством [команд PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
+Как администратор клиента вы можете просматривать все локальные шлюзы данных, установленные в клиенте, и управлять ими. Эта возможность сейчас находится на этапе общедоступной предварительной версии. Дополнительные сведения см. в [документации по центру администрирования платформы Power](/power-platform/admin/onpremises-data-gateway-management).
+
+Кроме того, если вы являетесь администратором клиента, попросите пользователей в вашей организации добавлять вас в качестве администратора для каждого шлюза, который они устанавливают. Это позволяет управлять всеми шлюзами в вашей организации на странице настройки шлюза или посредством [команд PowerShell](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters). 
 
 ## <a name="enabling-outbound-azure-connections"></a>Включение исходящих подключений Azure
 
