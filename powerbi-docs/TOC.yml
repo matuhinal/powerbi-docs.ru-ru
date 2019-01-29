@@ -388,7 +388,7 @@ items:
   items:
   - name: Обзор
     items:
-    - name: Что такое Power BI?
+    - name: Что такое Power BI?
       href: power-bi-overview.md
     - name: Сравнение Power BI Desktop и Power BI
       href: service-service-vs-desktop.md
@@ -410,10 +410,10 @@ items:
         href: service-get-data.md
       - name: Обзор редактора отчетов
         href: service-the-report-editor-take-a-tour.md
-      - name: Организация работы
-        href: service-new-workspaces.md
     - name: Рабочий процесс в Power BI
       items:
+      - name: Организация работы
+        href: service-new-workspaces.md
       - name: Способы совместного использования работы
         href: service-how-to-collaborate-distribute-dashboards-reports.md
       - name: Поддержание актуальности данных
@@ -430,7 +430,7 @@ items:
         href: service-features-license-type.md
     - name: Дополнительные понятия
       items:
-      - name: 10 советов по получению помощи
+      - name: 10 советов по получению справки
         href: service-tips-for-finding-help.md
       - name: Лицензирование особых случаев
         items:
@@ -440,7 +440,7 @@ items:
           href: service-govus-overview.md
         - name: Вопросы и ответы для клиентов облачных служб в Германии
           href: service-govde-faq.md
-      - name: Другие
+      - name: Другое
         items:
         - name: Microsoft Flow и Power BI
           href: service-flow-integration.md
@@ -480,7 +480,7 @@ items:
         href: service-azure-sql-database-with-direct-connect.md
       - name: Spark на HDInsight с поддержкой DirectQuery
         href: spark-on-hdinsight-with-direct-connect.md
-      - name: Динамические данные служб SQL Server Analysis Services в Power BI
+      - name: Динамические данные служб SQL Server Analysis в Power BI
         href: sql-server-analysis-services-tabular-data.md
     - name: Обновить данные
       items:
@@ -498,7 +498,7 @@ items:
         href: refresh-csv-file-onedrive.md
       - name: 'Устранение неполадок в сценариях обновления '
         href: refresh-troubleshooting-refresh-scenarios.md
-    - name: Информационные панели
+    - name: Панели мониторинга
       items:
       - name: Общие сведения о панелях мониторинга
         href: service-dashboards.md
@@ -616,7 +616,7 @@ items:
         href: service-publish-to-web.md
       - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-      - name: Издатель Power BI для Excel
+      - name: Издатель Power BI для Excel
         href: publisher-for-excel.md
     - name: Устранение неполадок
       items:
@@ -826,7 +826,7 @@ items:
           href: service-organizational-content-pack-disconnect.md
       - name: Сертификация пакета содержимого
         items:
-        - name: Программа сертификации пакета содержимого
+        - name: Программа сертификации для пакетов содержимого
           href: service-content-pack-overview.md
         - name: Создание пакета содержимого шаблона
           href: template-content-pack-authoring.md
@@ -946,7 +946,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stack Overflow
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Настройка элементов
+  - name: Пользовательские визуальные элементы
     items:
     - name: Обзор
       items:
@@ -1295,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 6278920f313261f1e25d72093058fd61dbb13803
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488898"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147526"
