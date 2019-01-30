@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488921"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147572"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
 
+- Заметки о выпуске [Новые возможности бизнес-аналитики. Октябрь 2018 года ](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) от Microsoft Business Applications Group: Последние обновления наших бизнес-приложений.
 - [Новые возможности Power BI Desktop](desktop-latest-update.md)  
 - [Новые возможности мобильных приложений для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Блог команды Power BI](https://powerbi.microsoft.com/blog/)
-- [Заметки о выпуске Business Applications (весна 2018 г.)](http://aka.ms/businessappsreleasenotes) от Dynamics 365: последние обновления бизнес-приложений и новые возможности для создания приложений и расширений на базе нашей платформы. 
 
-Для изучения новых возможностей и функций можно также использовать каналы YouTube.
+Для изучения новых возможностей и функций также можно воспользоваться нашими каналами YouTube.
 
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

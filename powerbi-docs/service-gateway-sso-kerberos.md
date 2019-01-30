@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 04f67f82552f7915f8ca4fc6e639de3e616c2f8a
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295266"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147595"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
@@ -205,6 +205,9 @@ ms.locfileid: "54295266"
 Это руководстве включает все возможные подробности. Если вы уже выполнили часть этих действий, их можно пропустить. Возможно, у вас уже создан пользователь службы для сервера BW и с ним сопоставлено имя SPN, или вы уже установили библиотеку gsskrb5.
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>Настройка gsskrb5 на клиентских компьютерах и сервере BW
+
+> [!NOTE]
+> gsskrb5 больше не поддерживается в SAP. Для получения дополнительных сведений см. [Заметку SAP 352295](https://launchpad.support.sap.com/#/notes/352295). Также обратите внимание, что gsskrb5 не может использоваться для подключений с единым входом между шлюзом данных и серверами сообщений BW. Возможны только подключения к серверам приложений BW.
 
 Чтобы выполнить подключение с помощью единого входа через шлюз, на сервере и на клиенте должна быть установлена библиотека gsskrb5. Библиотека Common Crypto Library (sapcrypto) в настоящее время не поддерживается.
 

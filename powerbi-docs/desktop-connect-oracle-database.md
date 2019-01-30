@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284502"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899234"
 ---
 # <a name="connect-to-an-oracle-database"></a>Подключение к базе данных Oracle
 Для подключения к базе данных Oracle с помощью **Power BI Desktop** необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили — **32-разрядную** или **64-разрядную**.
@@ -51,3 +51,11 @@ ms.locfileid: "54284502"
 4. После ввода сведений о базе данных Oracle в диалоговом окне "База данных Oracle" (включая любую дополнительную информацию, например идентификатор безопасности или собственный запрос к базе данных) нажмите кнопку **ОК** для подключения.
 5. Если базе данных Oracle требуются учетные данные пользователя базы данных, введите эти учетные данные в диалоговом окне при появлении запроса.
 
+
+## <a name="troubleshooting"></a>Устранение неполадок
+
+Если вы скачали Power BI Desktop из Microsoft Store, может возникнуть проблема с подключением к базам данных Oracle из-за проблемы с драйвером Oracle. Если вы столкнетесь с этой проблемой, появится сообщение об ошибке "Ссылка на объект не установлена". Чтобы устранить проблему, выполните одно из следующих действий:
+
+* Скачайте Power BI Desktop с сайта https://powerbi.microsoft.com/desktop.
+
+* Если вы хотите использовать версию из Microsoft Store: на локальном компьютере скопируйте файл oraons.dll из папки _12.X.X\client_X_ в папку _12.X.X\client_X\bin_. "X" означает версию и номера каталогов.

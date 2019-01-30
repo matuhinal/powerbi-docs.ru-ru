@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277234"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899303"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Источники данных для службы Power BI
 Данные находятся в основе Power BI. Вы можете изучать данные, создавать диаграммы и панели мониторинга или добавлять вопросы в список вопросов и ответов, используя отображаемые на экране визуализации и ответы, которые основаны на определенном наборе данных. Этот набор извлекается из источника.
