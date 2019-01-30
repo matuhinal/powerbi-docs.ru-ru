@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 13c2742325e0cf2714d759eb1fd21ce6bcfd0187
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03a0e3cbd2a82c0d6741694c4389a8dcf4d207d9
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291218"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234262"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop 
 
@@ -39,7 +39,7 @@ ms.locfileid: "54291218"
 ### <a name="reporting"></a>Отчеты
 
 * Смарт-направляющие для выравнивания объектов на странице [[видео]](https://youtu.be/AHNlkjRFdYI?t=11) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* Обновления ArcGIS Maps for Power BI [[видео]](https://youtu.be/AHNlkjRFdYI?t=84) [[статья]](power-bi-visualization-arcgis.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* Обновления ArcGIS Maps for Power BI [[видео]](https://youtu.be/AHNlkjRFdYI?t=84) [[статья]](visuals/power-bi-visualization-arcgis.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * Поддержка специальных возможностей списка полей [[видео]](https://youtu.be/AHNlkjRFdYI?t=464) [[статья]](desktop-report-view.md#copy-and-paste-between-reports) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * Установление порядка вкладок для объектов на странице [[видео]](https://youtu.be/AHNlkjRFdYI?t=643) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * Подсказки для кнопок с визуальными элементами [[видео]](https://youtu.be/AHNlkjRFdYI?t=884) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
@@ -58,7 +58,7 @@ ms.locfileid: "54291218"
 * Поддержка специальных возможностей просмотра данных [[видео]](https://youtu.be/AHNlkjRFdYI?t=1253) [[статья]](desktop-composite-models.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
 
 
-### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
+### <a name="custom-visuals"></a>Пользовательские визуальные элементы
 
 * Один новый настраиваемый визуальный элемент [[видео]](https://youtu.be/AHNlkjRFdYI?t=1370) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
