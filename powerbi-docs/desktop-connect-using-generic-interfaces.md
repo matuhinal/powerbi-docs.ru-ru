@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296053"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430632"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Подключение к данным с помощью универсальных интерфейсов в Power BI Desktop
 В **Power BI Desktop** можно подключаться к множеству различных источников данных, используя встроенные соединители, которые отображаются в окне **Получение данных**, — от **баз данных Access** до ресурсов **Zendesk**. Вы также можете подключаться к *другим* источникам данных различных типов с помощью универсальных интерфейсов (например, **ODBC** или **REST API**), встроенных в **Power BI Desktop**. Это дополнительно расширяет возможности подключения.
@@ -49,7 +49,7 @@ ms.locfileid: "54296053"
 | Универсальный соединитель Power BI Desktop | Внешний источник данных | Ссылка на дополнительные сведения |
 | --- | --- | --- |
 | ODBC |Cassandra |[Драйвер ODBC для Cassandra](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |База данных Couchbase |[Couchbase и Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |База данных Couchbase |[Couchbase и Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[Драйвер ODBC для DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[Драйвер ODBC для BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |HBase |[Драйвер ODBC для HBase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ ms.locfileid: "54296053"
 
 | Универсальный соединитель Power BI Desktop | Внешний источник данных | Ссылка на дополнительные сведения |
 | --- | --- | --- |
-| REST API |База данных Couchbase |[Сведения о REST API для Couchbase](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST API |База данных Couchbase |[Сведения о REST API для Couchbase](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>Источники данных, доступные через R-скрипт
 Вы можете подключаться к источникам данных с помощью **R-скриптов** и использовать эти данные в **Power BI Desktop**.

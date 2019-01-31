@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899257"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430793"
 ---
 # <a name="on-premises-data-gateway"></a>Локальный шлюз данных
 
@@ -91,7 +91,7 @@ ms.locfileid: "54899257"
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) сейчас не поддерживается.
-* [Access Online](https://products.office.com/en-us/access) сейчас не поддерживается.
+* [Access Online](https://products.office.com/access) сейчас не поддерживается.
 * Скрипты R поддерживаются только при запуске шлюза в персональном режиме.
 
 ## <a name="tenant-level-administration"></a>Администрирование уровня клиента
@@ -102,7 +102,7 @@ ms.locfileid: "54899257"
 
 ## <a name="enabling-outbound-azure-connections"></a>Включение исходящих подключений Azure
 
-Локальный шлюз данных использует служебную шину Azure для подключения к облаку и устанавливает надлежащие исходящие подключения к соответствующему региону Azure. По умолчанию это расположение вашего клиента Power BI. См. статью [Где расположен мой клиент Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Локальный шлюз данных использует служебную шину Azure для подключения к облаку и устанавливает надлежащие исходящие подключения к соответствующему региону Azure. По умолчанию это расположение вашего клиента Power BI. См. статью [Где расположен мой клиент Power BI?](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)
 Если брандмауэр блокирует исходящие подключения, необходимо настроить его так, чтобы разрешить исходящие подключения от локального шлюза данных к соответствующему региону Azure. Подробные сведения о диапазонах IP-адресов каждого центра данных Azure см. на странице [Диапазоны IP-адресов центров данных Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653).
 > [!NOTE]
 > Диапазоны IP-адресов могут со временем меняться, поэтому необходимо регулярно скачивать актуальные сведения. 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394776"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429919"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Часто задаваемые вопросы о Power BI
 * Если у вас возникли другие вопросы, [задайте их участникам сообщества Power BI](http://community.powerbi.com/).
@@ -50,7 +50,7 @@ Power BI Desktop — это бесплатное приложение, кот
 Power BI не поддерживает адреса электронной почты, предоставляемые службами потребительской электронной почты или поставщиками телекоммуникационных услуг. Узнайте больше о [процессе самостоятельной регистрации для использования Power BI](../service-self-service-signup-for-power-bi.md).
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Доступны ли цены на Power BI для учебных заведений, государственных учреждений и некоммерческих организаций?
-Да, цены для некоммерческих организаций доступны при приобретении непосредственно у корпорации Майкрософт. Узнать больше и зарегистрироваться можно на сайте [некоммерческих организаций Майкрософт](https://www.microsoft.com/en-us/nonprofits/power-bi). Цены для государственных и учебных учреждений указаны в программах лицензирования MOSP/Direct, EA и Open. Цены для государственных организаций также доступны в рамках синдикации. 
+Да, цены для некоммерческих организаций доступны при приобретении непосредственно у корпорации Майкрософт. Узнать больше и зарегистрироваться можно на сайте [некоммерческих организаций Майкрософт](https://www.microsoft.com/nonprofits/power-bi). Цены для государственных и учебных учреждений указаны в программах лицензирования MOSP/Direct, EA и Open. Цены для государственных организаций также доступны в рамках синдикации. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI поддерживает мобильные устройства?
 Да. В Power BI есть собственные приложения для телефонов и планшетов Android, устройств iOS и устройств с Windows 10. Вы можете скачать одно из [мобильных приложений Power BI](https://powerbi.microsoft.com/mobile) из соответствующего магазина:  

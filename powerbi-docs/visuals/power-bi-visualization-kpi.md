@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d48384be3c581eb25cde7019882ad2f44995ca99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279971"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430747"
 ---
 # <a name="kpi-visuals"></a>Визуальные элементы КПЭ
 Ключевое показатель эффективности (КПЭ) — наглядный индикатор, который позволяет оценить достижение определенной измеримой цели. Дополнительные сведения о ключевых показателях эффективности см. в сети [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -24,7 +24,7 @@ ms.locfileid: "54279971"
 Если вы не зарегистрированы в Power BI, перед началом работы [пройдите бесплатную регистрацию](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>Предварительные требования
-* [Power BI Desktop (предоставляется бесплатно).](https://powerbi.microsoft.com/en-us/get-started/)
+* [Power BI Desktop (предоставляется бесплатно).](https://powerbi.microsoft.com/get-started/)
 * [PBIX-файл с примером анализа розничной торговли.](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="when-to-use-a-kpi"></a>В каких случаях следует использовать КПЭ

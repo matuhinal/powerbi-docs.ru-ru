@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 73ed37f50acd61a6ac15d543d354b6cc437e4a53
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275003"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429943"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Полный листинг кода для отправки данных в набор данных
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
@@ -69,7 +69,7 @@ ms.locfileid: "54275003"
                   string resourceUri = "https://analysis.windows.net/powerbi/api";
 
                   //OAuth2 authority Uri
-                  string authorityUri = "https://login.windows.net/common/oauth2/authorize";
+                  string authorityUri = "https://login.microsoftonline.net/common/";
 
                   //Get access token:
                   // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

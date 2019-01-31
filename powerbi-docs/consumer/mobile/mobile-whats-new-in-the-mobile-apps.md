@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324050"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431253"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -37,15 +37,15 @@ ms.locfileid: "54324050"
 
 ### <a name="enhance-presentation-mode-windows"></a>Улучшения в режиме презентации (Windows)
 
-Улучшения в режиме презентации для устройств Surface Hub и Windows 10.  Вам понравится улучшенный интерфейс конференц-зала Surface Hub с усовершенствованными инструментами презентаций и совместной работы, а также оптимизированный полноэкранный режим без окантовки, позволяющий сосредоточиться на своих данных. Режим презентации также оснащен такими средствами, как рукописный ввод, который поможет эффективно представлять данные и обсуждать их. Дополнительные сведения о режиме презентации см. [здесь](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/).
+Улучшения в режиме презентации для устройств Surface Hub и Windows 10.  Вам понравится улучшенный интерфейс конференц-зала Surface Hub с усовершенствованными инструментами презентаций и совместной работы, а также оптимизированный полноэкранный режим без окантовки, позволяющий сосредоточиться на своих данных. Режим презентации также оснащен такими средствами, как рукописный ввод, который поможет эффективно представлять данные и обсуждать их. Дополнительные сведения о режиме презентации см. [здесь](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/).
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Книжная ориентация макета отчетов на планшетах (iOS и Android)
 
-Теперь для отображения отчетов на планшете в книжной ориентации используется макет отчета телефона (если он есть). Дополнительные сведения о [создании макета телефона в службе Power BI или в Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/).
+Теперь для отображения отчетов на планшете в книжной ориентации используется макет отчета телефона (если он есть). Дополнительные сведения о [создании макета телефона в службе Power BI или в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-phone-report/).
 
 ### <a name="supporting-report-query-string"></a>Вспомогательная строка запроса отчета 
 
-Ссылка на отчет, включающая строку запроса, теперь будет открываться в мобильном приложении и предварительно фильтроваться на основе условий, заданных в строке запроса. Дополнительные сведения о [создании URL-адреса отчета с помощью строки запроса](https://docs.microsoft.com/en-us/power-bi/service-url-filters/).  
+Ссылка на отчет, включающая строку запроса, теперь будет открываться в мобильном приложении и предварительно фильтроваться на основе условий, заданных в строке запроса. Дополнительные сведения о [создании URL-адреса отчета с помощью строки запроса](https://docs.microsoft.com/power-bi/service-url-filters/).  
 
 ### <a name="shared-credentials-now-in-android"></a>Общие учетные данные (теперь на Android)
 
@@ -65,7 +65,7 @@ ms.locfileid: "54324050"
 
 Теперь в службе Power BI доступны отчеты с разбивкой на страницы. Пользователи, имеющие доступ к отчетам с разбивкой на страницы в службе Power BI, смогут открыть те же отчеты в мобильном приложении. 
 
-Изучите запись в блоге о Power BI, посвященную [отчетам с разбивкой на страницы в мобильной версии приложения](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
+Изучите запись в блоге о Power BI, посвященную [отчетам с разбивкой на страницы в мобильной версии приложения](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
 
 ### <a name="shared-credentials-ios"></a>Общие учетные данные (iOS)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008587"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430816"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Подключение к Salesforce с помощью Power BI
 С помощью Power BI вы легко можете подключаться к учетной записи Salesforce.com. После создания этого подключения извлекаются ваши данные, на основе которых автоматически создается панель мониторинга и связанные отчеты.
@@ -61,10 +61,8 @@ ms.locfileid: "54008587"
 **Дальнейшие действия**
 
 * Попробуйте [задать вопрос в поле "Вопросы и ответы"](consumer/end-user-q-and-a.md) в верхней части информационной панели.
-* [Измените плитки](service-dashboard-edit-tile.md) на информационной панели <<<<<<< HEAD
-* [Выберите плитку](consumer/end-user-tiles.md), чтобы открыть соответствующий отчет =======
+* [Измените плитки](service-dashboard-edit-tile.md) на информационной панели.
 * [Выберите плитку](service-dashboard-tiles.md), чтобы открыть соответствующий отчет.
->>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * Хотя набор данных будет обновляться ежедневно по расписанию, вы можете изменить график обновлений или попытаться выполнять обновления по запросу с помощью кнопки **Обновить сейчас**
 
 ## <a name="system-requirements-and-considerations"></a>Системные требования и рекомендации

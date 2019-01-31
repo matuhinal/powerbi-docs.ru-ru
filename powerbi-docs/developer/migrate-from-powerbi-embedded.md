@@ -7,17 +7,17 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: a52902e22572503b4be6c21f87abf62a90f60476
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: be1c1e489cd29fc67ade95886f77a5a08697ff99
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296623"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431023"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded
 Эта статья содержит сведения о переносе содержимого из коллекции рабочих областей Power BI в Power BI Embedded и его внедрении в приложения с помощью расширенных функций.
 
-Недавно корпорация Майкрософт [объявила о выпуске Power BI Embedded](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/) — новой модели лицензирования на основе емкости, которая повышает гибкость доступа к содержимому, а также его совместного использования и распространения. Это предложение также обеспечивает дополнительные возможности масштабирования и повышает производительность.
+Недавно корпорация Майкрософт [объявила о выпуске Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/) — новой модели лицензирования на основе емкости, которая повышает гибкость доступа к содержимому, а также его совместного использования и распространения. Это предложение также обеспечивает дополнительные возможности масштабирования и повышает производительность.
 
 Благодаря Power BI Embedded у вас будет одна область API, одинаковый набор возможностей и доступ к последним функциям Power BI, например панелям мониторинга, шлюзам и рабочим областям приложений, которые можно использовать при внедрении содержимого. В будущем вы сможете начать работу с Power BI Desktop, а затем обновить ее до версии Power BI Embedded.
 

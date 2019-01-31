@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277717"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430885"
 ---
 # <a name="azure-and-power-bi"></a>Azure и Power BI
 
@@ -55,7 +55,7 @@ ms.locfileid: "54277717"
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Аналитические сведения с учетом контекста с помощью Power BI Embedded
 
-Внедряйте потрясающие интерактивные визуализации данных на веб-сайты, в приложения, порталы и другие ресурсы, чтобы эффективно использовать бизнес-данные. С помощью [Ресурса Power BI Embedded в Azure](https://azure.microsoft.com/services/power-bi-embedded/) вы сможете легко внедрять интерактивные отчеты и панели мониторинга, чтобы пользователи могли оценить удобство согласованных и качественных интерфейсов на любых устройствах.  Power BI в сочетании со средствами внедрения аналитики может помочь вам в нелегком пути от данных через знания и полезные сведения к реальным действия.  Вы можете еще больше повысить ценность Power BI и Azure, внедряя средства визуальной аналитики во [внутренние приложения и порталы своей организации](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/).
+Внедряйте потрясающие интерактивные визуализации данных на веб-сайты, в приложения, порталы и другие ресурсы, чтобы эффективно использовать бизнес-данные. С помощью [Ресурса Power BI Embedded в Azure](https://azure.microsoft.com/services/power-bi-embedded/) вы сможете легко внедрять интерактивные отчеты и панели мониторинга, чтобы пользователи могли оценить удобство согласованных и качественных интерфейсов на любых устройствах.  Power BI в сочетании со средствами внедрения аналитики может помочь вам в нелегком пути от данных через знания и полезные сведения к реальным действия.  Вы можете еще больше повысить ценность Power BI и Azure, внедряя средства визуальной аналитики во [внутренние приложения и порталы своей организации](https://powerbi.microsoft.com/developers/embedded-analytics/organization/).
 
 На [портале разработчиков Power BI](http://dev.powerbi.com) можно найти множество полезных сведений об API-интерфейсах Power BI.
 

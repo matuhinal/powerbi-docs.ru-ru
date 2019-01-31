@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e37f6f18b182851c3fc2afc2f67de0023bd46382
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276705"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430080"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Регистрация государственных организаций США в службе Power BI
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -41,7 +41,7 @@ ms.locfileid: "54276705"
 > Эти действия должен выполнять администратор портала.
 >
 
-1. Перейдите на [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+1. Перейдите на [https://products.office.com/government/office-365-web-services-for-government](https://products.office.com/government/office-365-web-services-for-government).
 
 >[!NOTE]
 >Если вы не хотите регистрироваться в Office Government Cloud сейчас, сообщите об этом своему торговому представителю.

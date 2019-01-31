@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281236"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430678"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Тестирование пакетов содержимого шаблонов для Power BI
 Существует несколько способов протестировать пакет содержимого перед его отправкой для публикации.  
@@ -68,7 +68,7 @@ ms.locfileid: "54281236"
 <a name="submission"></a>
 
 ## <a name="submission"></a>Отправка
-Процесс отправки с помощью [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) позволяет опубликовать пакет содержимого шаблона в коллекции пакетов содержимого служб в PowerBI.com, а также включить ваш пакет содержимого список в список [Microsoft AppSource](http://appsource.microsoft.com).
+Процесс отправки с помощью [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) позволяет опубликовать пакет содержимого шаблона в коллекции пакетов содержимого служб в PowerBI.com, а также включить ваш пакет содержимого список в список [Microsoft AppSource](http://appsource.microsoft.com).
 
 ### <a name="before-submission"></a>Перед отправкой
 * Просмотрите советы по разработке для каждого из артефактов в пакете содержимого.
@@ -77,7 +77,7 @@ ms.locfileid: "54281236"
 * Убедитесь, что пакет содержимого правильно реагирует на вопросы и ответы. Мы рекомендуем провести тестирование для всей модели данных, используя не меньше 30 разных вопросов. (Пропустите этот шаг, если вы разработали собственный [соединитель данных](https://aka.ms/DataConnectors).)
 
 ### <a name="submission"></a>Отправка
-Когда все будет готово к отправке, перейдите на [страницу отправки приложений](https://appsource.microsoft.com/en-us/partners/list-an-app) на AppSource и отправьте нужные сведения. Обязательно выберите в списке доступных продуктов Power BI.
+Когда все будет готово к отправке, перейдите на [страницу отправки приложений](https://appsource.microsoft.com/partners/list-an-app) на AppSource и отправьте нужные сведения. Обязательно выберите в списке доступных продуктов Power BI.
 
 Команда специалистов по Power BI рассмотрит заявку и свяжется с вами. Это необходимо для подтверждения того, что все артефакты соответствуют требованиям. Помимо всестороннего анализа мы также проверим качество панели мониторинга и отчетов, чтобы убедиться, что они соответствуют описанному в приложении бизнес-сценарию.
 

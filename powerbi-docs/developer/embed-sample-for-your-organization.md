@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 3f2d0913095d61999bb85979770c69725b9f9b88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283651"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431299"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Руководство. Внедрение отчетов, панелей мониторинга и плиток Power BI в приложение для организации
 
@@ -32,7 +32,7 @@ ms.locfileid: "54283651"
 
 Чтобы начать работу, вам потребуются учетная запись Power BI Pro и подписка Microsoft Azure:
 
-* Если вы не зарегистрированы в Power BI Pro, перед началом работы [пройдите регистрацию для получения бесплатной пробной версии](https://powerbi.microsoft.com/en-us/pricing/).
+* Если вы не зарегистрированы в Power BI Pro, перед началом работы [пройдите регистрацию для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/).
 * Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 * Настройте свой [клиент Azure Active Directory (Azure AD)](create-an-azure-active-directory-tenant.md).
 * Установите [Visual Studio](https://www.visualstudio.com/) версии 2013 или более поздней.

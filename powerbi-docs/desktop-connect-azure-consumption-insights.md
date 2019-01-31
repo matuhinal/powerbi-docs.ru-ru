@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282547"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430977"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Подключение к Azure Consumption Insights в Power BI Desktop (бета-версия)
 С помощью соединителя **Azure Consumption Insights** можно использовать **Power BI Desktop** для подключения к Azure и получения подробных данных и сведений об использовании служб Azure в организации. Можно также создавать меры, настраиваемые столбцы и визуальные элементы для формирования отчетов об использовании Azure в организации и предоставления доступа к ним. Этот выпуск соединителя **Azure Consumption Insights** является бета-версией, которая может быть изменена.
@@ -70,7 +70,7 @@ ms.locfileid: "54282547"
 > 
 > 
 
-После нажатия кнопки **Загрузить** данные загружаются в **Power BI Desktop**.  Соединитель загрузит данные в соответствии с периодом времени таблицы по умолчанию.  Если вам нужно настроить период времени, [вы можете задать пользовательский запрос](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+После нажатия кнопки **Загрузить** данные загружаются в **Power BI Desktop**.  Соединитель загрузит данные в соответствии с периодом времени таблицы по умолчанию.  Если вам нужно настроить период времени, [вы можете задать пользовательский запрос](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

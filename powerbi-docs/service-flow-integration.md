@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406622"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430770"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow и Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Microsoft Flow позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
+[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Microsoft Flow позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
 
 [Начните работу с Microsoft Flow прямо сейчас.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -31,7 +31,7 @@ ms.locfileid: "54406622"
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Создание последовательности, которая активируется оповещением о данных Power BI
 
 ### <a name="prerequisites"></a>Предварительные требования
-В этом руководстве показано, как создать две разные последовательности — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](service-set-data-alerts.md), создайте бесплатную учетную запись Slack и [зарегистрируйтесь в Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (это бесплатно).
+В этом руководстве показано, как создать две разные последовательности — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](service-set-data-alerts.md), создайте бесплатную учетную запись Slack и [зарегистрируйтесь в Microsoft Flow](https://flow.microsoft.com/#home-signup) (это бесплатно).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Создание последовательности, использующей Power BI, на основе шаблона
 В этой задаче мы создадим на основе шаблона простую последовательность, которая активируется с помощью оповещения о данных (уведомления) Power BI.
@@ -108,7 +108,7 @@ ms.locfileid: "54406622"
     ![Последовательность запускает уведомления Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Get started with Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/) (Приступая к работе с Microsoft Flow)
+* [Get started with Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/) (Приступая к работе с Microsoft Flow)
 * [Настройка оповещений о данных в службе Power BI](service-set-data-alerts.md)
 * [Настройка оповещений о данных на устройстве iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

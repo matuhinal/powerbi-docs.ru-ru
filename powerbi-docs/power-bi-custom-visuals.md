@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289301"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431138"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Пользовательские визуальные элементы в Power BI
 
-При создании или редактировании отчета Power BI доступно множество различных визуальных элементов. Эти визуальные элементы отображаются в области **Визуализации**. Когда вы скачиваете [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) или открываете службу [Power BI](https://app.powerbi.com), этот предварительно упакованный набор визуальных уже входит в комплект поставки.
+При создании или редактировании отчета Power BI доступно множество различных визуальных элементов. Эти визуальные элементы отображаются в области **Визуализации**. Когда вы скачиваете [Power BI Desktop](https://powerbi.microsoft.com/desktop/) или открываете службу [Power BI](https://app.powerbi.com), этот предварительно упакованный набор визуальных уже входит в комплект поставки.
 
 ![визуализации](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -48,16 +48,16 @@ ms.locfileid: "54289301"
 
 ## <a name="marketplace-visuals"></a>Визуальные элементы из Marketplace
 
-Члены сообщества и специалисты Майкрософт создали свои пользовательские визуальные элементы и опубликовали их в магазине [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals), чтобы каждый мог работать с ними. Эти визуальные элементы можно загрузить и добавлять в отчеты Power BI. Все эти пользовательские визуальные элементы протестированы на предмет функциональности и качества и утверждены корпорацией Майкрософт.
+Члены сообщества и специалисты Майкрософт создали свои пользовательские визуальные элементы и опубликовали их в магазине [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), чтобы каждый мог работать с ними. Эти визуальные элементы можно загрузить и добавлять в отчеты Power BI. Все эти пользовательские визуальные элементы протестированы на предмет функциональности и качества и утверждены корпорацией Майкрософт.
 
-Что такое [AppSource](developer/office-store.md)? Это место, где можно найти приложения, надстройки и расширения для программного обеспечения корпорации Майкрософт. [AppSource](https://appsource.microsoft.com/en-us/) позволяет миллионам пользователей таких продуктов, как Office 365, Azure, Dynamics 365, Cortana и Power BI, находить решения, с помощью которых можно выполнять работу более эффективно, продуманно или элегантно.
+Что такое [AppSource](developer/office-store.md)? Это место, где можно найти приложения, надстройки и расширения для программного обеспечения корпорации Майкрософт. [AppSource](https://appsource.microsoft.com/) позволяет миллионам пользователей таких продуктов, как Office 365, Azure, Dynamics 365, Cortana и Power BI, находить решения, с помощью которых можно выполнять работу более эффективно, продуманно или элегантно.
 
 ### <a name="certified-visuals"></a>Сертифицированные визуальные элементы
 
 Сертифицированные визуальные элементы Power BI — это визуальные элементы из Marketplace, которые прошли дополнительную тщательную проверку качества. Все они поддерживаются в дополнительных сценариях, таких как [подписка по электронной почте](https://docs.microsoft.com/power-bi/service-report-subscribe) и [экспорт в PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 Просмотреть список сертифицированных пользовательских визуальных элементов или отправить свои визуальные элементы можно [здесь](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в AppSource? См. статью [Разработка пользовательского визуального элемента Power BI](developer/custom-visual-develop-tutorial.md) и узнайте, как [публиковать пользовательские визуальные элементы в AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в AppSource? См. статью [Разработка пользовательского визуального элемента Power BI](developer/custom-visual-develop-tutorial.md) и узнайте, как [публиковать пользовательские визуальные элементы в AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Импорт настраиваемого визуального элемента из файла
 
@@ -135,7 +135,7 @@ ms.locfileid: "54289301"
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. Перейдите на [страницу результатов с приложениями](https://appsource.microsoft.com/en-us/marketplace/apps), где показаны лучшие представители каждой категории, включая *приложения Power BI*. Но мы ищем настраиваемые визуальные элементы, так что давайте конкретизируем результаты, выбрав **Power BI visuals** (Визуальные элементы Power BI) в списке на панели навигации слева.
+2. Перейдите на [страницу результатов с приложениями](https://appsource.microsoft.com/marketplace/apps), где показаны лучшие представители каждой категории, включая *приложения Power BI*. Но мы ищем настраиваемые визуальные элементы, так что давайте конкретизируем результаты, выбрав **Power BI visuals** (Визуальные элементы Power BI) в списке на панели навигации слева.
 
     ![Визуальные элементы AppSource](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

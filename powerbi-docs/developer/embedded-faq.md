@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/17/2018
-ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: da005c7b1dcf04a61873f2b712083b10a5365329
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394717"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430586"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -79,7 +79,7 @@ Power BI Embedded — это набор интерфейсов API, позвол
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Купить  |Портал Azure |Office |Office |
-|Варианты использования | Внедрение содержимого в собственное приложение | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Варианты использования | Внедрение содержимого в собственное приложение | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Внедрение содержимого в собственное приложение <br><br></br> <li> Внедрение содержимого в приложения MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (за исключением мобильного приложения)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Предоставление общего доступа к содержимому пользователям Power BI через [службу Power BI](https://powerbi.microsoft.com/)  |
 |Выставление счетов |Каждый час |Ежемесячно |Ежемесячно |
 |Обязательство  |Никаких обязательств |Ежегодно  |Ежемесячно или ежегодно |
 |Отличия |Полная гибкость — масштабируемость, приостановление и возобновление использования ресурсов на портале Azure или с помощью API  |Можно использовать для внедрения содержимого в SharePoint Online и Microsoft Teams (за исключением мобильного приложения) |Объединение возможности внедрения в приложение и использования службы Power BI в одной емкости |

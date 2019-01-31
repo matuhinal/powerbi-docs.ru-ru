@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295381"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430449"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Ограничения точек данных и стратегии по шаблону визуализации
 
@@ -40,7 +40,7 @@ ms.locfileid: "54295381"
 ## <a name="statistics"></a>Статистика
 Некоторые модели предоставляют статистику о количестве значений в определенных столбцах. При наличии таких сведений мы используем их, чтобы улучшить балансировку между несколькими иерархиями, если визуальный элемент явным образом не переопределяет число значений для стратегии.
 
-Дополнительные сведения см. в статье [What's New in Analysis Services](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) (Новые возможности Analysis Services).
+Дополнительные сведения см. в статье [What's New in Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) (Новые возможности Analysis Services).
 
 ## <a name="dynamic-limits"></a>Динамические ограничения
 Помимо вышеописанных стратегий визуальные элементы с двумя иерархиями группирования столбцов (ось и легенда или категория и серия) используют одну дополнительную стратегию, которая называется *динамические ограничения*.  Динамические ограничения предназначены для оптимальной балансировки точек данных. 
@@ -75,7 +75,7 @@ ms.locfileid: "54295381"
 ### <a name="combo-chart"></a>Комбинированная диаграмма
  Использует те же стратегии, что и столбчатые диаграммы. Обратите внимание, что в строках **комбинированной диаграммы** не используется алгоритм с высокой плотностью, применяемый в **графиках**.
 
-### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
+### <a name="custom-visuals"></a>Пользовательские визуальные элементы
 Вы можете получить до 30 000 точек, но именно авторы визуальных элементов указывают, какие стратегии нужно использовать.
 
 ### <a name="doughnut"></a>Кольцевая диаграмма
@@ -128,7 +128,7 @@ ms.locfileid: "54295381"
 - Значения: виртуализация окна, которое отображает 200 строк
 
 ### <a name="scatter-chart-high-density"></a>Точечные диаграммы с высокой плотностью
-Ознакомьтесь со статьей о [точечных диаграммах с высокой плотностью](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+Ознакомьтесь со статьей о [точечных диаграммах с высокой плотностью](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>Круговая
 - Максимальное количество точек: 3500

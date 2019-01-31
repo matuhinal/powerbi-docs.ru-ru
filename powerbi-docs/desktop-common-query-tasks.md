@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 03fc8430317905294e735da928b8b65d93be3545
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0d78b38928ee807ca9c8b62a90645a1c21daab55
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277027"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431046"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Общие задачи с запросами в Power BI Desktop
 При работе в окне **Редактор запросов** Power BI Desktop можно воспользоваться рядом стандартных задач. В этом документе показаны эти распространенные задачи и приведены ссылки для получения дополнительных сведений. 
@@ -142,7 +142,7 @@ C помощью редактора запросов всегда можно у�
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Здесь представлен **Расширенный редактор** с действиями запроса, связанными с отображаемым запросом **USA\_StudentEnrollment**. Эти действия создаются на языке формул Power Query, который часто называют **M**. Дополнительные сведения см. в разделе [Сведения о формулах Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). См. дополнительные сведения о [спецификации языка формул Microsoft Power Query для Excel](http://go.microsoft.com/fwlink/?linkid=320633).
+Здесь представлен **Расширенный редактор** с действиями запроса, связанными с отображаемым запросом **USA\_StudentEnrollment**. Эти действия создаются на языке формул Power Query, который часто называют **M**. Дополнительные сведения см. в разделе [Сведения о формулах Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). См. дополнительные сведения о [спецификации языка формул Microsoft Power Query для Excel](http://go.microsoft.com/fwlink/?linkid=320633).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

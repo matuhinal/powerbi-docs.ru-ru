@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 0a5bcd470756d27f6528684cc351bd60590385df
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296393"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431161"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Руководство. Внедрение панели мониторинга, плитки или отчета Power BI в приложение для национальных облаков
 
@@ -58,7 +58,7 @@ Power BI также поддерживает национальные (част�
 3. Добавьте параметры GCC в файл web.config следующим образом.
 
 ```xml
-<add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
+<add key="authorityUrl" value="https://login.microsoftonline.net/common/" />
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.powerbigov.us" />
@@ -72,7 +72,7 @@ Power BI также поддерживает национальные (част�
 3. Добавьте параметры DoDCON в файл web.config следующим образом.
 
 ```xml
-<add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
+<add key="authorityUrl" value="https://login.microsoftonlineS.net/common/" />
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
@@ -86,7 +86,7 @@ Power BI также поддерживает национальные (част�
 3. Добавьте параметры DoDCON в файл web.config следующим образом.
 
 ```xml
-<add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
+<add key="authorityUrl" value="https://login.microsoftonline.net/common/" />
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.mil.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.mil.powerbigov.us" />
@@ -100,7 +100,7 @@ Power BI также поддерживает национальные (част�
 3. Добавьте параметры Power BI для облачных служб в Германии в файл web.config следующим образом.
 
 ```xml
-<add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
+<add key="authorityUrl" value="https://login.microsoftonline.de/common/" />
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
 <add key="apiUrl" value="https://api.powerbi.de/" />
 <add key="embedUrlBase" value="https://app.powerbi.de" />
@@ -114,7 +114,7 @@ Power BI также поддерживает национальные (част�
 3. Добавьте параметры Power BI для облачных служб в Китае в файл web.config следующим образом.
 
 ```xml
-<add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
+<add key="authorityUrl" value="https://login.chinacloudapi.cn/common/" />
 <add key="resourceUrl" value="https://analysis.chinacloudapi.cn/powerbi/api" />
 <add key="apiUrl" value="https://api.powerbi.cn/" />
 <add key="embedUrlBase" value="https://app.powerbi.cn" />
