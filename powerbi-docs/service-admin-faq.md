@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296830"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430290"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Вопросы и ответы об администрировании Power BI
 
@@ -45,6 +45,7 @@ ms.locfileid: "54296830"
 * [Есть ли какие-нибудь подводные камни, которые нужно иметь в виду?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [Где расположен мой клиент Power BI?](#where-is-my-power-bi-tenant-located)
 * [Что такое Соглашение об уровне обслуживания Power BI?](#what-is-the-power-bi-sla)
+* [Как Power BI обеспечивает высокий уровень доступности и отработку отказа?](#how-does-power-bi-handle-high-availability-and-failover)
 
 ### <a name="security-in-power-bi-section"></a>Раздел о безопасности в Power BI
 
@@ -241,11 +242,15 @@ Power BI предоставляет портал администрирован�
 
 Сведения о Соглашении об уровне обслуживания Power BI см. в статье с [условиями лицензирования и соответствующей документацией](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) в разделе **Лицензирование** веб-сайта "Лицензирование Майкрософт".
 
+### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Как Power BI обеспечивает высокий уровень доступности и отработку отказа?
+
+Сведения о высокой доступности и отработке отказа см. в разделе [вопросов и ответов о высоком уровне доступности, отработке отказа и аварийном восстановлении в Power BI](service-admin-failover.md).
+
 ## <a name="security-in-power-bi"></a>Безопасность в Power BI
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Обеспечивает ли Power BI соответствие национальным, региональным и отраслевым требованиям?
 
-Дополнительные сведения о соответствии Power BI нормативным требованиям см. на сайте [Microsoft Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx).
+Дополнительные сведения о соответствии Power BI нормативным требованиям см. на сайте [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx).
 
 ### <a name="how-does-security-work-in-power-bi"></a>Как работает безопасность в Power BI?
 

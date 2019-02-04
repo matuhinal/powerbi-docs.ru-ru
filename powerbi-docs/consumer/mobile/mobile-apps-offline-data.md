@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292414"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430563"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Просмотр данных в автономном режиме в мобильных приложениях Power BI
 Область применения:
@@ -57,6 +57,7 @@ ms.locfileid: "54292414"
 * В автономном режиме Power BI недоступны целые книги Excel.
 * Мобильные отчеты и ключевые показатели эффективности Reporting Services можно просматривать в автономном режиме, если вы уже просматривали их с подключением к сети. Они не обновляются в фоновом режиме. Обновление происходит каждый раз при открытии.
 * В мобильных приложениях Power BI вы не можете просматривать файлы Power BI Desktop (PBIX), сохраненные на сервере отчетов Power BI. 
+* Отчеты с разбивкой на страницы (RDL) недоступны, пока отсутствует подключение к сети.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за функции, которые хотели бы увидеть в мобильных приложениях Power BI. 

@@ -1,5 +1,5 @@
 ---
-title: Работа с визуализациями
+title: Работа с визуализациями в качестве потребителя
 description: Основные понятия и термины Power BI — визуализации, визуальные элементы. Что такое визуализация и визуальный элемент Power BI.
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287649"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234354"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Визуализации для **потребителей** Power BI.
 
@@ -53,4 +53,5 @@ ms.locfileid: "54287649"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Вы можете вернуться к [основным понятиям для потребителей](end-user-basic-concepts.md)  .  
-Ознакомьтесь со [сведениями о выборе визуализации для перехода к отчету](end-user-report-open.md).
+[Выбор визуализации для перехода к отчету](end-user-report-open.md)    
+[Типы визуализаций, доступные в Power BI](end-user-visual-type.md)

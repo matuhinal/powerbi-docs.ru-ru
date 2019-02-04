@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296807"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234308"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
@@ -82,6 +82,11 @@ ms.locfileid: "54296807"
 
 Дополнительные сведения см. в статье [Диаграммы "Радиальный датчик" в Power BI](power-bi-visualization-radial-gauge-charts.md).
 
+<!-- ### Key influencers chart
+![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+
+A key influencer chart displays the major contributors to a selected result or value. -->
+
 ### <a name="kpis"></a>Ключевые показатели эффективности
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
@@ -107,7 +112,7 @@ ms.locfileid: "54296807"
 ### <a name="maps-arcgis-maps"></a>Карты: карты ArcGIS;
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Дополнительные сведения см. в статье[ Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](../power-bi-visualization-arcgis.md).
+Дополнительные сведения см. в статье[ Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Карты: фоновые картограммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,6 +138,13 @@ ms.locfileid: "54296807"
 
 ### <a name="pie-charts"></a>Круговые диаграммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+Круговые диаграммы показывают отношение частей к целому. 
+
+### <a name="ribbon-chart"></a>Ленточная диаграмма
+![Ленточная диаграмма](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+Ленточные диаграммы показывают, какая категория данных имеет наивысший ранг (самое большое значение). Ленточные диаграммы лучше всего подходят для отображения изменений ранга. Наивысший ранг (значение) за каждый период времени всегда отображается в верхней части диаграммы.
 
 ### <a name="scatter-and-bubble-charts"></a>Точечные и пузырьковые диаграммы
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

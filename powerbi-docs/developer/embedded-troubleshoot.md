@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294134"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431230"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -99,6 +99,14 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 ## <a name="authentication"></a>Authentication
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>Сбой проверки подлинности с ошибкой AADSTS90002: Tenant 'authorize' not found (Клиент "авторизовать" не найден)
+
+ Если при входе вы получаете сообщения, такие как ***error: invalid_request, error_description: AADSTS90002: Клиент "авторизовать" не найден***, это происходит из-за того, что ADAL 4.x не поддерживает "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" как URL-адрес центра.
+ 
+Чтобы устранить эту проблему, следует удалить часть "oauth2/authorize/" в конце URL-адреса центра (дополнительные сведения см. в [примерах для разработчиков Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)).
+
+ См. раздел [Более эффективная проверка центра](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) в заметках о выпуске ADAL 4.x.
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Сбой проверки подлинности с ошибкой AADSTS70002 или AADSTS50053
 
 **_(AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)_**
@@ -243,7 +251,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Перед использованием средства настройки внедрения убедитесь, что у вас есть все необходимые компоненты. Вам потребуются учетная запись **Power BI Pro** и подписка **Microsoft Azure**.
 
-* Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/en-us/pricing/).
+* Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
 * Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 * Вам потребуется собственная установка [клиента Azure Active Directory ](create-an-azure-active-directory-tenant.md).
 * Также нужно установить [Visual Studio](https://www.visualstudio.com/) 2013 или более поздней версии.
@@ -294,7 +302,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 
-Если вам требуется дополнительная помощь, обратитесь в [Службу поддержки](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) или отправьте запрос в службу поддержки через [Портал Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) и укажите сообщение об ошибке, которое вы получили.
+Если вам требуется дополнительная помощь, обратитесь в [Службу поддержки](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) или отправьте запрос в службу поддержки через [Портал Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) и укажите сообщение об ошибке, которое вы получили.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

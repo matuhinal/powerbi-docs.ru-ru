@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284226"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234423"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Настройка сервера отчетов для размещения книг Excel с использованием Office Online Server (OOS)
 
@@ -57,7 +57,7 @@ ms.locfileid: "54284226"
 1. Скачайте Office Online Server с веб-сайта [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). Файлы для скачивания находятся в разделе продуктов Office на портале VLSC. Разработчики могут скачать OOS на сайте MSDN для подписчиков.
 2. Запустите Setup.exe.
 3. На странице **Условия лицензионного соглашения на использование программного обеспечения корпорации Майкрософт** выберите **Я принимаю условия этого соглашения** и нажмите кнопку **Продолжить**.
-4. На странице **Выбор расположения файлов** выберите папку, в которую вы хотите установить файлы Office Online Server (например, C:\Program Files\Microsoft Office Web Apps*), а затем выберите **Установить сейчас**. Если указанная папка не существует, она будет создана автоматически.
+4. На странице **Выбор расположения файлов** выберите папку, в которую вы хотите установить файлы Office Online Server (например, C:\Program Files\Microsoft Office Web Apps\*), а затем выберите **Установить сейчас**. Если указанная папка не существует, она будет создана автоматически.
 
     Рекомендуем установить Office Online Server на системном диске.
 
