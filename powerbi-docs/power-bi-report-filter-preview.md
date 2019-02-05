@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be6496f6445c78250c17c98ac4b343eb0b0a0c66
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290022"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482713"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Новые функции фильтров в отчетах Power BI (предварительная версия)
 
@@ -108,7 +108,7 @@ ms.locfileid: "54290022"
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Просмотр фильтров для визуального элемента в режиме чтения
 
-В режиме чтения можно навести указатель мыши на визуальный элемент, чтобы отобразить всплывающее окно со всеми фильтрами, срезами и другими компонентами, которые влияют на этот визуальный элемент. Форматирование всплывающего окна соответствует форматированию области фильтров. 
+В режиме чтения можно навести указатель мыши на значок фильтра для визуального элемента, чтобы отобразить всплывающее окно со всеми фильтрами, срезами и другими компонентами, которые влияют на этот визуальный элемент. Форматирование всплывающего окна соответствует форматированию области фильтров. 
 
 ![Фильтры, влияющие на визуальный элемент](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 

@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292607"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482736"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Быстрый поиск и просмотр данных Power BI с помощью Кортаны для Power BI
 Используйте Кортану на устройствах с Windows 10, чтобы мгновенно получать ответы на вопросы вашей организации. Благодаря интеграции с Power BI Кортана может получать важные сведения непосредственно из панелей мониторинга и отчетов Power BI. Для работы вам нужна версия Windows 10 (ноябрь 2015 г.) или более поздняя, Кортана, Power BI и доступ минимум к одному набору данных.
@@ -22,7 +22,7 @@ ms.locfileid: "54292607"
 ![Поле поиска Кортаны](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Предварительная версия нового интерфейса Кортаны для поиска *панелей мониторинга* в Windows 10
-С недавних пор вы уже можете [использовать Кортану для получения определенных типов страниц отчетов](service-cortana-answer-cards.md). Теперь мы добавили **новую функцию** — возможность получать панели мониторинга. Попробуйте ее в деле и [поделитесь с нами впечатлениями](mailto:pbicortanasg@microsoft.com). В перспективе *новый интерфейс* Кортаны также будет поддерживать поиск отчетов.  Одно из основных преимуществ нового интерфейса заключается в том, что для его настройки не нужно что-то специально делать, — например, включать Кортану или настраивать Windows 10. Интерфейс уже работает.
+С недавних пор вы уже можете [использовать Кортану для получения определенных типов страниц отчетов](service-cortana-answer-cards.md). Теперь мы добавили **новую функцию** — возможность получать панели мониторинга. Попробуйте ее в деле и [оставьте свой отзыв на сайте Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). В перспективе *новый интерфейс* Кортаны также будет поддерживать поиск отчетов.  Одно из основных преимуществ нового интерфейса заключается в том, что для его настройки не нужно что-то специально делать, — например, включать Кортану или настраивать Windows 10. Интерфейс уже работает.
 
 > [!NOTE]
 > В противном случае см. справочную информацию по [устранению неполадок](service-cortana-troubleshoot.md).
@@ -127,7 +127,8 @@ Power BI может быть одним из мест для поиска отв
 * Cortana для Power BI пока поддерживает только английский язык.
 * Кортана для Power BI доступна только для мобильных устройств Windows.
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+Хотите оставить отзыв? [Отправьте отзыв на сайт Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Включение Cortana для Power BI](service-cortana-enable.md).
