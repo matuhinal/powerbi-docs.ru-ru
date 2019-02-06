@@ -2,21 +2,22 @@
 title: Получение токена доступа для проверки подлинности
 description: Пошаговое руководство по отправке данных — получение токена доступа для проверки подлинности
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430862"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761968"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Шаг 2. Получение токена доступа для проверки подлинности
+
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
 На **шаге 1** ([Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)) руководства по принудительной отправке данных в набор данных вы зарегистрировали клиентское приложение в Azure AD. На этом шаге вы получите токен доступа для проверки подлинности. Приложения Power BI интегрированы с **Azure AD** для обеспечения безопасного входа и авторизации в приложении. Токен используется для проверки подлинности в **Azure AD** и получения доступа к ресурсам Power BI.
@@ -24,15 +25,16 @@ ms.locfileid: "55430862"
 Далее приведены действия по получению токена.
 
 ## <a name="get-an-authentication-access-token"></a>Получение токена доступа для проверки подлинности
+
 > **ПРИМЕЧАНИЕ**. Перед началом работы убедитесь, что выполнены предыдущие шаги из пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 > 
 > 
 
 1. В Visual Studio 2015 создайте проект **консольного приложения** .
 2. Установите [библиотеку проверки подлинности Azure AD для пакета NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). Этот пакет используется при получении токена безопасности для проверки подлинности в приложении .NET. Ниже приведены действия по установке пакета.
-   
+
      а. В Visual Studio 2015 выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
-   
+
      б. В **консоли диспетчера пакетов**введите команду Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612.
 3. Добавьте приведенный ниже код в класс Program {...}.
 4. Замените "{ClientID}" на **идентификатор клиента**, который вы получили при регистрации приложения. См. статью [Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md).
@@ -113,6 +115,7 @@ ms.locfileid: "55430862"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Полный листинг кода
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -172,10 +175,10 @@ ms.locfileid: "55430862"
         }
     }
 
-
 [Дальнейшие действия >](walkthrough-push-data-create-dataset.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)  
 [Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
 [Библиотека проверки подлинности Azure AD для пакета NuGet для .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
@@ -183,4 +186,3 @@ ms.locfileid: "55430862"
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

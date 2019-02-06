@@ -2,26 +2,28 @@
 title: Полный листинг кода
 description: Пошаговое руководство по отправке данных — полный листинг кода
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429943"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762244"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Полный листинг кода для отправки данных в набор данных
+
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
 После выполнения шагов 2–5 из статьи о **принудительной отправке данных в набор данных** полный исходный код должен выглядеть следующим образом.
 
 ## <a name="push-data-to-dataset-code"></a>Код для принудительной отправки данных в набор данных
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ ms.locfileid: "55429943"
           }
       }
 
-
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ ms.locfileid: "55429943"
 [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 
-
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

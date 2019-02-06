@@ -2,22 +2,21 @@
 title: Пользовательские макеты с внедренным содержимым Power BI
 description: Узнайте о применении пользовательских макетов для внедрения содержимого Power BI в приложение.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288941"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762313"
 ---
 # <a name="custom-layouts"></a>Пользовательские макеты
-
 
 Для внедрения отчета с макетом, отличным от исходного, можно применить пользовательский макет. Определяя новый макет, можно задать только размер страницы, управлять размером визуальных элементов либо же настроить расположение и отображение.
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, height — определяет новое расположение визуального элемента.
 - `displayState` — определяет видимость визуального элемента.
 
-
 ## <a name="update-layout"></a>Обновление макета
 
 Вы можете использовать метод updateSettings, чтобы макет обновлялся при каждой загрузке отчета. См. сведения об [изменении параметров](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings).
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>См. также:
 
 [Внедрение панелей мониторинга, отчетов и плиток Power BI](embedding-content.md)   
 [Спросить в сообществе Power BI](https://community.powerbi.com/)
-

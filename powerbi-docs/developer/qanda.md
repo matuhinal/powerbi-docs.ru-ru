@@ -2,21 +2,22 @@
 title: Вопросы и ответы в Power BI Embedded
 description: Power BI Embedded позволяет интегрировать функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.author: maghan
-ms.openlocfilehash: 208c1e2a0e188622f989faa6ba391d9742dd7967
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278013"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761922"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Вопросы и ответы в Power BI Embedded
+
 Power BI Embedded позволяет встроить функцию "Вопросы и ответы" в приложение, с помощью которого пользователи могут задавать вопросы на естественном языке и сразу же получать ответы в виде таких визуальных элементов, как диаграммы и графики.
 
 ![Вопросы и ответы: интерактивный вопрос во внедренном окне](media/qanda/embedded-qanda.gif)
@@ -47,13 +48,14 @@ var qna = powerbi.embed(qnaContainer, config);
 ```
 
 ## <a name="set-question"></a>Заданный вопрос
+
 При использовании с заданным вопросом режима **вывода результатов** вы можете вводить дополнительные вопросы в окно и сразу же получать ответы, которые замещают предыдущий результат. На экране появится новый визуальный элемент с ответом на вопрос.
 
 Примером этого может быть список вопросов и ответов. Пользователь может переходить между вопросами и получать ответы в той же внедренной части.
 
 **Фрагмент кода с примером использования пакета SDK для JS:**  
 
-```        
+```
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -70,6 +72,7 @@ qna.setQuestion("This year sales")
 ```
 
 ## <a name="visual-rendered-event"></a>Событие отображенного визуального элемента
+
 В **интерактивном** режиме приложение может получать уведомления о событии изменения данных каждый раз, когда отображаемый визуальный элемент меняется в соответствии с вводимым обновленным входящим запросом.
 
 Прослушивание события *visualRendered* позволяет сохранять вопросы для последующего использования. 
@@ -93,10 +96,11 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Токен внедрения
+
 Создайте токен внедрения набора данных для запуска функции "Вопросы и ответы". Дополнительные сведения см. в статье [Создание токена](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 Чтобы попробовать внедрить компонент "Вопросы и ответы", воспользуйтесь [примером внедрения на JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
-

@@ -2,21 +2,22 @@
 title: Получение набора данных для добавления строк
 description: Пошаговое руководство по отправке данных — получение набора данных для добавления строк в таблицу Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: cd7f1eabc104da7e310abbfbce2929f047f0e5d8
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430839"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762497"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Шаг 4. Получение набора данных для добавления строк в таблицу Power BI
+
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
 На **шаге 3** ([Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)) руководства по принудительной отправке данных в набор данных вы вызвали операцию [Создание набора данных](https://docs.microsoft.com/rest/api/power-bi/datasets), чтобы создать набор данных в Power BI. На этом шаге вы будете использовать операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) и Newtonsoft.Json, чтобы получить идентификатор набора данных. Идентификатор набора данных потребуется на шаге 4 для добавления строк в набор данных. 
@@ -26,14 +27,13 @@ ms.locfileid: "55430839"
 Вот как получить набор данных.
 
 ## <a name="get-a-power-bi-dataset"></a>Получение набора данных Power BI
+
 > **ПРИМЕЧАНИЕ**. Перед началом работы убедитесь, что выполнены предыдущие шаги из пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
-> 
-> 
 
 1. В проекте консольного приложения, созданного при работе с разделом [Шаг 2. Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md) пошагового руководства по принудительной отправке данных, установите пакет NuGet Newtonsoft.Json. Ниже приведены действия по установке пакета.
-   
+
      а. В Visual Studio 2015 выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
-   
+
      б. В **консоли диспетчера пакетов**введите команду Install-Package Newtonsoft.Json.
 2. После установки пакета добавьте директиву **using Newtonsoft.Json;** в файл Program.cs.
 3. В Program.cs добавьте приведенный ниже код для получения **идентификатора набора данных**.
@@ -110,6 +110,7 @@ ms.locfileid: "55430839"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Полный листинг кода
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -265,6 +266,7 @@ ms.locfileid: "55430839"
 [Дальнейшие действия >](walkthrough-push-data-add-rows.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
 [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
@@ -273,4 +275,3 @@ ms.locfileid: "55430839"
 [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

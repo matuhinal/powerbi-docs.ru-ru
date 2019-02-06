@@ -2,21 +2,22 @@
 title: Фрагменты кода для переноса содержимого из Power BI Embedded
 description: Здесь приведены некоторые фрагменты кода с базовыми операциями, необходимыми для переноса содержимого
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429980"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762520"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Фрагменты кода для переноса содержимого из коллекции рабочих областей Power BI
+
 Здесь приведены некоторые фрагменты кода с базовыми операциями, необходимыми для переноса содержимого. Сведения о связанных потоках для некоторых типов отчетов см. в разделе [Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 **Инструмент переноса** можно использовать, чтобы скопировать содержимое из Power BI Embedded (PaaS) в службу Power BI (SaaS). Особенно если содержимого у вас много. Дополнительные сведения см. в статье [Инструмент переноса Power BI Embedded](migrate-tool.md).
@@ -25,7 +26,7 @@ ms.locfileid: "55429980"
 
 Используйте для выполнения указанного ниже фрагмента кода следующие пространства имен.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>Экспорт отчета из рабочей области PaaS
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>Импорт отчета в рабочую область SaaS
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>Извлечение строки подключения DirectQuery из отчета PaaS
+
 Это предназначено для обновления PBIX-файла после переноса в SaaS.
 
 ```
@@ -105,6 +108,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>Обновление строки подключения DirectQuery в рабочей области SaaS
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>Задание учетных данных DirectQuery в рабочей области SaaS
+
 В этом фрагменте кода для простоты используются незашифрованные учетные данные. Отправка зашифрованных учетных данных также поддерживается.
 
 ```
@@ -159,6 +164,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="push-dataset--report"></a>Отправка набора данных и отчета
+
 Необходимо будет перестроить отчет для созданного набора данных.
 
 В этом фрагменте кода предполагается, что набор данных для принудительной отправки уже находится в рабочей области приложения в среде SaaS. Сведения об API отправки см. в статье [Принудительная отправка данных в набор данных Power BI](walkthrough-push-data.md).
@@ -223,6 +229,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Инструмент переноса Power BI Embedded](migrate-tool.md)  
 [Внедрение в Power BI](embedding.md)  
 [Как перенести содержимое коллекции рабочих областей Power BI Embedded в Power BI](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ using System.Threading.Tasks;
 [Техническая документация по Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
-
