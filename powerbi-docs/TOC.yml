@@ -266,7 +266,7 @@ items:
         href: power-bi-slicer-filter-responsive.md
       - name: Создание пользовательских карт ответов Кортаны
         href: service-cortana-answer-cards.md
-      - name: Безопасность на уровне строк
+      - name: Защита на уровне строк
         href: desktop-rls.md
       - name: Настройка подсказок
         href: desktop-custom-tooltips.md
@@ -870,7 +870,7 @@ items:
       items:
       - name: Рекомендации по производительности
         href: developer/embedded-performance-best-practices.md
-      - name: Безопасность на уровне строк
+      - name: Защита на уровне строк
         href: developer/embedded-row-level-security.md
       - name: Управление несколькими арендаторами
         href: developer/embed-multi-tenancy.md
@@ -1234,8 +1234,10 @@ items:
         href: service-admin-premium-purchase.md
       - name: Управление Power BI Premium
         href: service-admin-premium-manage.md
-      - name: Мониторинг Power BI Premium
+      - name: Мониторинг емкостей категории "Премиум" в приложении
         href: service-admin-premium-monitor-capacity.md
+      - name: Мониторинг емкостей категории "Премиум" на портале администрирования
+        href: service-admin-premium-monitor-portal.md
       - name: Перезагрузка емкости Premium
         href: service-admin-premium-restart.md
       - name: Поддержка больших наборов данных
@@ -1299,9 +1301,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
+ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431115"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55760402"
