@@ -870,6 +870,8 @@ items:
       items:
       - name: Рекомендации по производительности
         href: developer/embedded-performance-best-practices.md
+      - name: Субъект-служба
+        href: developer/embed-service-principal.md
       - name: Защита на уровне строк
         href: developer/embedded-row-level-security.md
       - name: Управление несколькими арендаторами
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: Регистрация приложения
         href: developer/register-app.md
-      - name: Аутентификация в службе Power BI
+      - name: Получение токена доступа Azure AD
         href: developer/get-azuread-access-token.md
       - name: Внедрение функции "Вопросы и ответы"
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Добавление строк в таблицу
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Шифрование учетных данных
+        href: developer/encrypt-credentials.md
     - name: Справка
       items:
       - name: REST API
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: Управление Power BI Premium
         href: service-admin-premium-manage.md
-      - name: Мониторинг емкостей категории "Премиум" в приложении
+      - name: Мониторинг емкостей в приложении
         href: service-admin-premium-monitor-capacity.md
-      - name: Мониторинг емкостей категории "Премиум" на портале администрирования
+      - name: Мониторинг емкостей на портале администрирования
         href: service-admin-premium-monitor-portal.md
       - name: Перезагрузка емкости Premium
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760402"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794498"
