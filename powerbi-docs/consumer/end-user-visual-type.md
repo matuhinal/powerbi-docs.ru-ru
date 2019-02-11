@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234696"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794851"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 Визуализации отображаются в отчетах, панелях мониторинга, приложениях и разделах вопросов и ответов. Некоторые из этих типов визуализаций упаковываются с помощью Power BI, а другие являются *пользовательскими визуальными элементами*. Пользовательские визуальные элементы создаются за пределами Power BI, а также способом, который позволяет *конструкторам отчетов* добавлять их в отчеты, панели мониторинга и приложения Power BI. 
@@ -26,7 +26,7 @@ ms.locfileid: "55234696"
 > Чтобы получить дополнительные сведения о пользовательских визуальных элементах, найдите их в разделе **Визуальные элементы Power BI** страницы [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Для каждого визуального элемента приводится описание, сведения об авторе и снимки экрана или видео. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Список визуализаций, доступных в Power BI
-Все эти визуализации отображаются в приложениях, панелях мониторинга и отчетах Power BI и [указываются в вопросах и ответах](#gna).
+Все эти визуализации отображаются в приложениях, панелях мониторинга и отчетах Power BI и [указываются в вопросах и ответах](#qna). Сведения о взаимодействии с визуализациями см. в статье [Взаимодействие с визуализациями в отчетах, панелях мониторинга и приложениях](end-user-visualizations.md).
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Диаграммы с областями: базовые (многоуровневые) и с накоплением
 ![диаграмма с областями](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ A key influencer chart displays the major contributors to a selected result or v
 ![сеанс вопросов и ответов](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Визуализации в Power BI](end-user-visualizations.md)    
+[Взаимодействие с визуализациями в отчетах, панелях мониторинга и приложениях](end-user-visualizations.md)    
 [THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)

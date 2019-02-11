@@ -2,24 +2,24 @@
 title: Создание емкости Power BI Embedded на портале Azure | Документы Майкрософт
 description: В этой статье рассматривается создание емкости Power BI Embedded в Microsoft Azure.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.reviewer: zakharb
+ms.date: 02/05/2019
+ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288550"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762566"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Создание емкости Power BI Embedded на портале Azure
 
-В этой статье рассматривается создание емкости Power BI Embedded в Microsoft Azure. Power BI Embedded упрощает возможности Power BI, позволяя быстро добавлять привлекательные визуальные элементы, отчеты и панели мониторинга в приложения.
+В этой статье рассматривается создание емкости [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) в Microsoft Azure. Power BI Embedded упрощает возможности Power BI, позволяя быстро добавлять привлекательные визуальные элементы, отчеты и панели мониторинга в приложения.
 
 Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/).
 
@@ -38,13 +38,11 @@ ms.locfileid: "54288550"
 
 1. Войдите на [портал Azure](https://portal.azure.com/).
 
-2. Выберите **Создать ресурс** > **Данные + аналитика**.
+2. В поле поиска найдите *Power BI Embedded*.
 
-3. В поле поиска найдите *Power BI Embedded*.
+3. В Power BI Embedded выберите **Создать**.
 
-4. В Power BI Embedded выберите **Создать**.
-
-5. Укажите необходимые сведения и нажмите **Создать**.
+4. Укажите необходимые сведения и нажмите **Создать**.
 
     ![Поля для заполнения для создания новой емкости](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -57,9 +55,7 @@ ms.locfileid: "54288550"
     |**Расположение**|Расположение, где размещается Power BI для вашего клиента. Расположение по умолчанию — ваш домашний регион, но можно изменить расположение, используя [параметры поддержки нескольких регионов](embedded-multi-geo.md).
     |**Ценовая категория**|Выберите номер SKU (количество виртуальных ядер и объем памяти), который соответствует вашим потребностям.  Дополнительные сведения см. в разделе [Цены на Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/).|
 
-6. Выберите **Создать**.
-
-Создание обычно занимает меньше минуты, часто всего несколько секунд. Если вы выбрали **Закрепить на панели мониторинга**, перейдите к панели мониторинга, чтобы просмотреть новую емкость. Кроме того, вы можете перейти в раздел **Все службы** > **Power BI Embedded** и посмотреть, готова ли ваша емкость.
+Вы можете перейти в раздел **Все службы** > **Power BI Embedded** и посмотреть, готова ли ваша емкость. Кроме того, можно выбрать команду **Закрепить на панели мониторинга** в разделе уведомлений или в колонке, чтобы перейти к панели мониторинга и просмотреть новую емкость.
 
 ![Панель мониторинга на портале Azure с емкостью Power BI Embedded](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

@@ -1,44 +1,47 @@
 ---
 title: Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения
-description: Узнайте, как зарегистрировать приложение в Azure Active Directory для использования внедренного содержимого Power BI.
+description: Узнайте, как зарегистрировать приложение в Azure Active Directory для использования внедренного содержимого Power BI.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/11/2017
-ms.author: maghan
-ms.openlocfilehash: f585d5a48ab38124d17110049cd7dd7d5da45164
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55428769"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762543"
 ---
-# <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI
-Узнайте, как выполнять проверку подлинности для пользователей в приложении Power BI и получить маркер доступа для использования с REST API.
+# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Получение маркера доступа Azure AD для приложения Power BI
 
-Перед вызовом REST API Power BI нужно получить **маркер доступа для проверки подлинности** (маркер доступа) Azure Active Directory (Azure AD). **Маркер доступа** позволяет вашему приложению обратиться к информационным панелям, плиткам и отчетам **Power BI**. Дополнительные сведения об использовании **токена доступа** Azure Active Directory см. в статье [Поток предоставления кода авторизации Azure AD](https://msdn.microsoft.com/library/azure/dn645542.aspx).
+Узнайте, как выполнять проверку подлинности пользователей в приложении Power BI и получить маркер доступа для использования с REST API.
+
+Перед вызовом REST API Power BI нужно получить **маркер доступа для проверки подлинности** (маркер доступа) Azure Active Directory (Azure AD). **Маркер доступа** позволяет вашему приложению обращаться к панелям мониторинга, плиткам и отчетам **Power BI**. Дополнительные сведения об использовании **токена доступа** Azure Active Directory см. в статье [Поток предоставления кода авторизации Azure AD](https://msdn.microsoft.com/library/azure/dn645542.aspx).
 
 Способ получения маркера доступа зависит от того, каким образом внедряется содержимое. В этой статье используются два разных подхода.
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>Маркер доступа для пользователей Power BI (данные принадлежат пользователю)
-В этом примере пользователи входят в Azure AD вручную, используя имя для входа, предоставленное организацией. Этот вариант используется при внедрении для пользователей Power BI, работающих с содержимым, доступ к которому предоставлен в службе Power BI.
+
+В этом примере пользователи входят в Azure AD вручную, используя имя для входа, предоставленное организацией. Этот вариант используется при внедрении для пользователей Power BI, работающих с содержимым, доступ к которому предоставлен в службе Power BI.
 
 ### <a name="get-an-authorization-code-from-azure-ad"></a>Получение кода авторизации из Azure AD
-Первый шаг при получении **токена доступа** заключается в получении кода авторизации из **Azure AD**. Для этого создайте строку запроса со следующими свойствами и выполните перенаправление в **Azure AD**.
 
-**Строка запроса для кода авторизации**
+Первый шаг при получении **токена доступа** заключается в получении кода авторизации из **Azure AD**. Создайте строку запроса с указанными ниже свойствами и выполните перенаправление в **Azure AD**.
 
-```
+#### <a name="authorization-code-query-string"></a>Строка запроса для кода авторизации
+
+```csharp
 var @params = new NameValueCollection
 {
     //Azure AD will return an authorization code. 
     //See the Redirect class to see how "code" is used to AcquireTokenByAuthorizationCode
     {"response_type", "code"},
 
-    //Client ID is used by the application to identify themselves to the users that they are requesting permissions from. 
+    //Client ID is used by the application to identify themselves to the users that they are requesting permissions from.
     //You get the client id when you register your Azure app.
     {"client_id", Properties.Settings.Default.ClientID},
 
@@ -55,9 +58,9 @@ var @params = new NameValueCollection
 
 В redirect.aspx.cs выполняется вызов [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) для создания маркера.
 
-**Получение кода авторизации**
+#### <a name="get-authorization-code"></a>Получение кода авторизации
 
-```
+```csharp
 protected void signInButton_Click(object sender, EventArgs e)
 {
     //Create a query string
@@ -94,17 +97,18 @@ protected void signInButton_Click(object sender, EventArgs e)
 ```
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Получение маркера доступа из кода авторизации
+
 Теперь у вас должен быть код авторизации из Azure AD. Когда **Azure AD** выполняет перенаправление обратно в веб-приложение с использованием **кода авторизации**, можно воспользоваться **кодом авторизации** для получения токена доступа. Ниже приведен пример C#, который вы можете использовать на странице перенаправления и в событии Page_Load для страницы default.aspx.
 
 Пространство имен **Microsoft.IdentityModel.Clients.ActiveDirectory** можно извлечь из пакета NuGet [библиотеки аутентификации Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
 
-```
+```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
 ```
 
-**Redirect.aspx.cs**
+#### <a name="redirectaspxcs"></a>Redirect.aspx.cs
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
 protected void Page_Load(object sender, EventArgs e)
@@ -134,9 +138,9 @@ protected void Page_Load(object sender, EventArgs e)
 }
 ```
 
-**Default.aspx**
+#### <a name="defaultaspx"></a>Default.aspx
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
 protected void Page_Load(object sender, EventArgs e)
@@ -160,36 +164,41 @@ protected void Page_Load(object sender, EventArgs e)
 ```
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>Маркер доступа для пользователей, не работающих с Power BI (данные принадлежат приложению)
-Этот подход обычно используется для приложений независимых поставщиков, когда права на доступ к данным принадлежат такому приложению. Пользователи могут и не работать с Power BI, поэтому приложение управляет проверкой подлинности и доступом для конечных пользователей.
 
-Для этого подхода используется одна *главная* учетная запись пользователя Power BI Pro. Учетные данные для этой учетной записи сохраняются приложением. Приложение выполняет проверку подлинности в Azure AD с помощью этих сохраненных учетных данных. Следующий образец кода взят из [примера с данными, принадлежащими приложению](https://github.com/guyinacube/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+Этот подход обычно используется для приложений независимых поставщиков, когда права на доступ к данным принадлежат такому приложению. Пользователи могут быть не зарегистрированы в Power BI, поэтому приложение управляет проверкой подлинности и доступом для конечных пользователей.
 
-**HomeController.cs**
+### <a name="access-token-with-a-master-account"></a>Маркер доступа с главной учетной записью
 
-```
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
+Для этого подхода используется одна *главная* учетная запись пользователя Power BI Pro. Учетные данные для этой учетной записи сохраняются приложением. Приложение выполняет проверку подлинности в Azure AD с помощью этих сохраненных учетных данных. Следующий образец кода взят из [примера с данными, принадлежащими приложению](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
-// Create a user password cradentials.
-var credential = new UserPasswordCredential(Username, Password);
+### <a name="access-token-with-service-principal"></a>Маркер доступа с субъектом-службой
 
-// Authenticate using created credentials
+Для этого подхода используется [субъект-служба](embed-service-principal.md), то есть токен **только для приложения**. Приложение выполняет проверку подлинности в Azure AD с помощью субъекта-службы. Следующий образец кода взят из [примера с данными, принадлежащими приложению](https://github.com/guyinacube/PowerBI-Developer-Samples)
+
+#### <a name="embedservicecs"></a>EmbedService.cs
+
+```csharp
 var authenticationContext = new AuthenticationContext(AuthorityUrl);
-var authenticationResult = await authenticationContext.AcquireTokenAsync(ResourceUrl, ClientId, credential);
+       AuthenticationResult authenticationResult = null;
+       if (AuthenticationType.Equals("MasterUser"))
+       {
+              // Authentication using master user credentials
+              var credential = new UserPasswordCredential(Username, Password);
+              authenticationResult = authenticationContext.AcquireTokenAsync(ResourceUrl, ApplicationId, credential).Result;
+       }
+       else
+       {
+             // Authentication using app credentials
+             var credential = new ClientCredential(ApplicationId, ApplicationSecret);
+             authenticationResult = await authenticationContext.AcquireTokenAsync(ResourceUrl, credential);
+       }
 
-if (authenticationResult == null)
-{
-    return View(new EmbedConfig()
-    {
-        ErrorMessage = "Authentication Failed."
-    });
-}
 
-var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
-
-Дополнительные сведения об использовании оператора **await**, см. в документации [await (Справочник по C#)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Теперь, когда у вас есть маркер доступа, можно вызвать REST API Power BI, чтобы внедрить содержимое. Дополнительные сведения о внедрении содержимого см. в статье [Как внедрять панели мониторинга, отчеты и плитки Power BI](embed-sample-for-customers.md#embed-your-content-within-your-application).
+
+Теперь, когда у вас есть маркер доступа, можно вызвать REST API Power BI, чтобы внедрить содержимое. Сведения о внедрении содержимого см. в разделе [Внедрение содержимого в приложении](embed-sample-for-customers.md#embed-content-within-your-application).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

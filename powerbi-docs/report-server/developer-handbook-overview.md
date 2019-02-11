@@ -9,28 +9,28 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291632"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794703"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Общие сведения о руководстве для разработчика сервера отчетов Power BI
 Это — руководство для разработчика сервера отчетов Power BI, локального расположения для хранения и администрирования ваших отчетов Power BI, мобильных отчетов и отчетов с разбивкой на страницы.
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-В этом руководстве описаны возможности работы с сервером отчетов Power BI, доступные для вас как для разработчика.
+В этом руководстве описаны возможности работы с сервером отчетов Power BI, доступные разработчику.
 
 ## <a name="embedding"></a>Внедрение
-Любой отчет на сервере Power BI можно внедрить в iFrame, добавив параметр строки запроса `?rs:Embed=true` в URL-адрес. Эта возможность доступна для отчетов Power BI и отчетов других типов.
+Любой отчет на сервере Power BI можно внедрить в iFrame, добавив параметр строки запроса `?rs:Embed=true` в URL-адрес. Эта возможность доступна для отчетов Power BI и отчетов других типов.
 
 ### <a name="report-viewer-control"></a>Управление средством просмотра отчетов
-Работая с отчетами с разбивкой на страницы, можно использовать элемент управления средства просмотра отчетов. Например, вы можете поместить элемент управления в приложение .NET для Windows или веб-приложение. См. дополнительные сведения об [элементе управления средства просмотра](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
+Работая с отчетами с разбивкой на страницы, можно использовать элемент управления средства просмотра отчетов. Этот элемент управления можно поместить в приложение .NET для Windows или веб-приложение. См. дополнительные сведения об [элементе управления средства просмотра](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 ## <a name="apis"></a>API-интерфейсы
-Существует несколько вариантов взаимодействия API с сервером отчетов Power BI. Вот некоторые из них.
+Существует несколько вариантов взаимодействия API с сервером отчетов Power BI, а именно:
 
 * [REST API](rest-api.md);
 * [Доступ к URL-адресу](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
@@ -39,7 +39,7 @@ ms.locfileid: "54291632"
 Для управления сервером отчетов можно также использовать [служебные программы PowerShell](https://github.com/Microsoft/ReportingServicesTools) с открытым исходным кодом.
 
 > [!NOTE]
-> Служебные программы PowerShell сейчас не поддерживают файлы Power BI Desktop (PBIX).
+> Служебные программы PowerShell в настоящее время не поддерживают файлы Power BI Desktop (PBIX).
 > 
 > 
 
