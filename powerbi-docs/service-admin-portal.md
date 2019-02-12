@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430380"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888240"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -287,16 +287,6 @@ ms.locfileid: "55430380"
 ### <a name="embed-content-in-apps"></a>Внедрение содержимого в приложениях
 
 Пользователи в организации могут внедрить панели мониторинга и отчеты Power BI в приложения SaaS. Если отключить этот параметр, пользователи не смогут использовать REST API для внедрения содержимого Power BI в приложение. [Дополнительные сведения](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>Параметры рабочих областей и импорта
-
-### <a name="author-content-in-workspaces"></a>Создание содержимого в рабочих областях
-
-Пользователи в организации могут получить доступ к рабочим областям для подключения к данным и создания содержимого. [Дополнительные сведения](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>Импорт данных в Power BI
-
-Пользователи в организации могут импортировать данные в службу, например публиковать отчеты из Power BI Desktop, отправлять файлы отчетов Power BI и подключаться к данным непосредственно из службы. [Дополнительные сведения](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>Параметры потоков данных (предварительная версия)
 
