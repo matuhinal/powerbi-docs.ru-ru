@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef8146501969697b15a3d1ff3cae2c605cabaacc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295754"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216822"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Локальный шлюз данных (персональный режим)
 Вы можете использовать локальные источники данных и создавать отчеты и панели мониторинга Power BI с помощью шлюза. **Шлюз** — это программное обеспечение, облегчающее доступ к данным, которые хранятся в частной локальной сети для последующего использования их в веб-службах, таких как **Power BI**. **Локальный шлюз данных (персональный режим)** — это недавно выпущенное обновление для шлюза Power BI, которое позволяет пользователям установить шлюз на своем компьютере и получить доступ к локальным данным.
@@ -86,11 +86,11 @@ ms.locfileid: "54295754"
    ```
 2. В нижней части файла добавьте следующий текст:
    
-       ```
-       <setting name="EnableFastCombine" serializeAs="String">```
+    ```xml
+       <setting name="EnableFastCombine" serializeAs="String">
        <value>true</value>
-       </setting>
-       ```
+    </setting>
+    ```
 3. После этого параметры вступят в силу примерно через 1 минуту. Чтобы проверить, работают ли они правильно, выполните обновление по требованию в **службе Power BI**, чтобы убедиться, что функция **быстрого объединения** включена.
 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения

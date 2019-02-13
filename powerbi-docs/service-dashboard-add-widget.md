@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287078"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215719"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Добавление изображения, текста, видео и другого содержимого на информационную панель
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ ms.locfileid: "54287078"
 ## <a name="tips-for-embedding-web-content"></a>Советы по внедрению веб-содержимого
 * Для элементов IFrame используйте безопасный источник. Если при вводе кода внедрения элемента IFrame вы получаете пустую плитку, проверьте, не используется ли для источника IFrame протокол **http** .  Если это так, измените его на **https**.
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * Измените ширину и высоту. Этот код внедрения внедряет видео и устанавливает размер видеопроигрывателя 560 x 315 пикселей.  Этот размер останется прежним при изменении размеров плитки.
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ ms.locfileid: "54287078"
   
   Если вы хотите, чтобы проигрыватель масштабировался в соответствии с размером плитки, задайте ширину и высоту равными 100 %.
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * Этот код встраивает твит и сохраняет на информационной панели ссылки на следующие элементы: подкаст **AFK**, страница Twitter пользователя **@GuyInACube**, элемент **Подписаться**, **#аналитика**, **Ответить**, **Ретвитнуть** и **Нравится**.  При выборе плитки открывается подкаст в Twitter.
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

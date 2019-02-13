@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mahirdiab
-ms.openlocfilehash: 050628dfe179a39ca24d2df72f1296acf48aa261
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763121"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223520"
 ---
 # <a name="encrypt-credentials"></a>Шифрование учетных данных
 При отправке запроса на [создание источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) или [обновление источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) для **корпоративного локального шлюза** с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) учетные данные должны шифроваться с использованием открытого ключа шлюза.
@@ -24,28 +24,28 @@ ms.locfileid: "55763121"
 Учетные данные, передаваемые в метод EncodeCredentials ниже, должны иметь один из следующих форматов в зависимости от их типа:
 
 **Базовые учетные данные или учетные данные Windows**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **Учетные данные в виде ключей**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **Учетные данные OAuth2**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
 
 **Анонимные учетные данные**
-```
+```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **Шифрование учетных данных**
-```
+```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
 

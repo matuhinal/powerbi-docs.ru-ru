@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276936"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215074"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Кластеры с высоким уровнем доступности для локальных шлюзов данных
 
@@ -59,13 +59,13 @@ ms.locfileid: "54276936"
 1. Откройте окно командной строки PowerShell от имени администратора.
 2. Затем выполните следующую одноразовую команду PowerShell (предполагается, что вы не выполняли команды PowerShell на этом компьютере):
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. После этого перейдите к папке установки локального шлюза данных в окне PowerShell и импортируйте необходимый модуль с помощью следующей команды:
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

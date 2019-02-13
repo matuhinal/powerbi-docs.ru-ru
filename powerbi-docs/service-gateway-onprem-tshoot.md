@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296577"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223927"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Устранение неполадок локального шлюза данных
 
@@ -35,11 +35,15 @@ ms.locfileid: "54296577"
 
 * Чтобы остановить службу, выполните следующую команду.
 
-    "   net stop PBIEgwService   "
+    ```
+    net stop PBIEgwService
+    ```
 
 * Чтобы запустить службу, выполните следующую команду.
 
-    "   net start PBIEgwService   "
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>Конфигурация файла журнала
 
@@ -318,7 +322,7 @@ ms.locfileid: "54296577"
 > [!IMPORTANT]
 > Включение параметра EmitQueryTraces может существенно увеличить размер журнала в зависимости от режима использования шлюза. После завершения проверки журналов может потребоваться присвоить параметру EmitQueryTraces значение False. Не рекомендуется включать эту функцию на продолжительное время.
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 > [!IMPORTANT]
 > Если задать для параметра TracingVerbosity значение `5`, размер журнала может существенно увеличиться в зависимости от использования шлюза. Проверив журналы, установите для параметра TraceVerbosity значение `4`. Не рекомендуется включать эту функцию на продолжительное время.
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 353104bcc99b65bdabe83f58edffd2653c48731c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761991"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215925"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Шаг 5. Добавление строк в таблицу Power BI
 
@@ -42,7 +42,7 @@ ms.locfileid: "55761991"
 
 * В методе static void Main(string[] args):
   
-  ```
+  ```csharp
    static void Main(string[] args)
    {
   
@@ -62,7 +62,7 @@ ms.locfileid: "55761991"
   ```
 * Добавьте метод AddRows():
 
-```
+```csharp
     #region Add rows to a Power BI table
     private static void AddRows(string datasetId, string tableName)
     {
@@ -111,6 +111,8 @@ ms.locfileid: "55761991"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Полный листинг кода
+
+```csharp
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -307,6 +309,7 @@ ms.locfileid: "55761991"
             #endregion
         }
     }
+```
 
 Хотя мы указываем, что **_//Получаем первый идентификатор_** в приведенном выше коде, правильнее всего искать набор данных по имени.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290085"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216109"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ расходов ИТ-отдела" для Power BI: Узнайте о возможностях
 
@@ -41,7 +41,7 @@ ms.locfileid: "54290085"
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Анализ расходов ИТ-отдела — пример**, затем выберите **Подключиться**.  
   
-   ![Получить данные](media/sample-it-spend/it-connect.png)
+   ![Получение данных](media/sample-it-spend/it-connect.png)
    
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    
