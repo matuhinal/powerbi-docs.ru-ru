@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147411"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971701"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Обзор редактора отчетов в Power BI
 
-*Редакторы отчетов* в службе Power BI и в Power BI Desktop похожи. Видео описывает использование редактора отчетов в службе Power BI, а статья — использование в службе Power BI Desktop. 
+*Редакторы отчетов* в службе Power BI и в Power BI Desktop похожи. Обычно вы начинаете работу с создания отчетов в Power BI Desktop. Затем эти отчеты публикуются в службу Power BI, где можно продолжить их редактировать. В службе Power BI вы также можете создавать панели мониторинга на основе отчетов.
 
-Разработчики отчетов создают и изменяют панели мониторинга и отчеты. Затем они передают их пользователям отчетов. Пользователи могут работать с панелями мониторинга и отчетами в режиме чтения в службе Power BI, но не могут изменять их. Ознакомьтесь с дополнительными сведениями о том, [какие возможности по работе с отчетами доступны в службе Power BI](consumer/end-user-reading-view.md). 
+Созданные панели мониторинга и отчеты вы можете распространять между пользователями отчетов. В зависимости от того, какие права на доступ предоставляются пользователям, эти ресурсы могут использоваться в службе Power BI в режиме чтения, но не редактирования. См. дополнительные сведения о [возможностях работы с отчетами в службе Power BI](consumer/end-user-reading-view.md). 
+
+В этом видео демонстрируется редактор отчетов в Power BI Desktop. В этой статье описывается редактор отчетов службы Power BI. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ ms.locfileid: "55147411"
 Чтобы отобразить панель "Аналитика", щелкните значок лупы. Доступные параметры зависят от типа выбранной визуализации.
 
 ![Область аналитики в редакторе отчетов](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-Панель "Аналитика" в службе Power BI позволяет добавлять динамические строки ссылок в визуализации, чтобы обратить внимание на важные тенденции и подробные сведения. См. дополнительные сведения о [панели аналитики в службе Power BI](service-analytics-pane.md) и [панели аналитики в службе Power BI Desktop](desktop-analytics-pane.md).
+Панель аналитики в службе Power BI позволяет добавлять динамические строки ссылок в визуализации, чтобы обратить внимание на важные тенденции или полезные сведения. См. дополнительные сведения о [панели аналитики в службе Power BI](service-analytics-pane.md) и [панели аналитики в Power BI Desktop](desktop-analytics-pane.md).
 
 - - -
 ## <a name="the-filters-pane"></a>Панель "Фильтры"
@@ -90,6 +92,12 @@ ms.locfileid: "55147411"
 ![Панель "Фильтры"](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Дополнительные сведения см. в разделе [Добавление фильтра в отчет](power-bi-report-add-filter.md).
+
+Новые возможности фильтра доступны в предварительной версии. Новые фильтры можно форматировать, чтобы они соответствовали отчету. Кроме того, вы можете заблокировать фильтры или скрыть их для пользователей отчета. 
+
+![Новые функции фильтров](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+См. дополнительные сведения о [новых функциях фильтров](power-bi-report-filter-preview.md).
 
 - - -
 ## <a name="the-fields-pane"></a>Панель "Поля"

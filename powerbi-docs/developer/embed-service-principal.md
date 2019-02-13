@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763102"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971678"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Использование субъекта-службы с Power BI (предварительная версия)
 
@@ -108,9 +108,6 @@ ms.locfileid: "55763102"
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > Создавать группы безопасности AAD может только глобальный администратор AAD.
-
 3. Администратору Power BI необходимо включить субъект-службу в **параметрах разработчика** на портале администрирования Power BI. Добавьте группу безопасности, созданную в Azure AD, в поле **Определенные группы безопасности** на странице **Параметры разработчика**.
 
    > [!Important]
@@ -173,6 +170,7 @@ ms.locfileid: "55763102"
 * Для включения субъекта-службы в параметрах разработчика на портале администрирования Power BI требуются права администратора Power BI.
 * С помощью субъекта-службы нельзя установить локальный шлюз данных и управлять им.
 * [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
+* Управление [потоками данных](../service-dataflows-overview.md) не поддерживается.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

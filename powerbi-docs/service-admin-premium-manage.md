@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 02/07/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 82c1a719e757e471b5c278cb26132a3629ca0d74
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 2a38d53a121f0a58c18f627370bf81413cf36982
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794237"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888217"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Управление емкостью в Power BI Premium и Power BI Embedded
 
@@ -29,7 +29,7 @@ ms.locfileid: "55794237"
 
 ### <a name="capacity-admins"></a>Администраторы емкости
 
-Если вас добавили в емкость как *администратора емкости*, у вас есть полный контроль над этой емкостью и функциями ее администрирования. На портале администрирования Power BI можно добавить дополнительных администраторов емкости или предоставить пользователям разрешения на назначение емкости. Вы можете массово распределять рабочие пространства в емкости и просматривать метрики ее использования.
+Если вас добавили в емкость как *администратора емкости*, у вас есть полный контроль над этой емкостью и функциями ее администрирования. На портале администрирования Power BI можно добавить дополнительных администраторов емкости или предоставить пользователям разрешения на назначение емкости. Вы можете массово распределять рабочие пространства в емкости, а также просматривать метрики ее использования.
 
 > [!NOTE]
 > Администраторы емкости Power BI Embedded указываются на портале Microsoft Azure.
