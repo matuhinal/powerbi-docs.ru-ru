@@ -43,7 +43,7 @@
 
 Для шлюза можно настроить принудительную установку связи со служебной шиной Azure по протоколу HTTPS, а не TCP. использование HTTPS может повлиять на производительность. Для такой настройки измените в файле *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* значение `AutoDetect` на значение `Https`, как показано во фрагменте кода ниже. По умолчанию этот файл располагается здесь: *C:\Program Files\On-premises data gateway*.
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
