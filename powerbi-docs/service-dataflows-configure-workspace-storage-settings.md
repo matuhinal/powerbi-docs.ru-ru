@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291954"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086432"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Настройка параметров потоков данных рабочей области (предварительная версия)
 
 С помощью Power BI и потоков данных вы можете хранить файлы данных и файл определения потока данных рабочей области в учетной записи Azure Data Lake Storage 2-го поколения. Администраторы рабочих областей могут настроить Power BI для этого. Процедура настройки подробно описана в этой статье. 
 
-Перед настройкой места хранения потока данных рабочей области глобальному администратору вашей организации необходимо подключить учетную запись хранения организации к Power BI, а также включить для нее разрешения для назначения хранилища. * [Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+Перед настройкой места хранения потока данных рабочей области глобальному администратору вашей организации необходимо подключить учетную запись хранения организации к Power BI, а также включить для нее разрешения для назначения хранилища. *[Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 Настроить параметры хранения потока данных рабочей области можно двумя способами: 
 

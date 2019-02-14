@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-visuals
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 279fea3f1b36a86e7606f3b6d69f19ab42763805
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234685"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086593"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop
-Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](../consumer/power-bi-visualizations-arcgis.md).
+Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).
 
 Сочетание карт ArcGIS и Power BI — это больше, чем просто отображение точек на карте. Прекрасные информативные визуализации для карт можно создать, используя базовые карты, типы расположения, темы, стили символов и ссылочные слои. Сочетание официальных слоев данных на карте с пространственным анализом помогает лучше понять данные в визуализации.
 
- На мобильном устройстве нельзя создавать карты ArcGIS, но можно просматривать их и взаимодействовать с ними. См. статью о [взаимодействии с картами ArcGIS](../consumer/power-bi-visualizations-arcgis.md).
+ На мобильном устройстве нельзя создавать карты ArcGIS, но можно просматривать их и взаимодействовать с ними. См. статью о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).
 
 > [!TIP]
 > GIS расшифровывается как Geographic Information Systems (географические информационные системы).
@@ -91,7 +91,7 @@ ms.locfileid: "55234685"
 ## <a name="settings-and-formatting-for-arcgis-maps"></a>Настройки и форматирование для карт AcrGIS
 Чтобы получить доступ к функциям форматирования **карт ArcGIS для Power BI**, нужно сделать следующее:
 
-1. Чтобы получить доступ к дополнительным компонентам, нажмите кнопку с многоточием в правом верхнем углу визуализации и выберите **Изменить**.
+1. Чтобы получить доступ к дополнительным компонентам, нажмите кнопку с многоточием в правом верхнем углу визуализации и выберите команду **Изменить**.
    
    ![](media/power-bi-visualization-arcgis/power-bi-edit2.png)
    
@@ -175,7 +175,8 @@ ms.locfileid: "55234685"
     ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. Откройте вкладку **Drive time** (Время поездки автомобилем) и выберите инструмент единичного или множественного выбора. Выполните единичный выбор закрепления для Вашингтона, округ Колумбия.
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+
+   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > Увеличение масштаба на карте (с помощью значка +) упростит выбор расположения.
@@ -340,7 +341,7 @@ ArcGIS Online дает возможность организациям публ
 Эта возможность пока недоступна. [Голосуйте за эту идею](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases), и мы отправим вам на почту сообщение, когда начнем работу над этой функцией.  
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Взаимодействие с картой ArcGIS, к которой вам предоставлен общий доступ](../consumer/power-bi-visualizations-arcgis.md)
+[Взаимодействие с картой ArcGIS, к которой вам предоставлен общий доступ](power-bi-visualizations-arcgis.md)
 
 [Запись блога о доступных картах ArcGIS для Power BI](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

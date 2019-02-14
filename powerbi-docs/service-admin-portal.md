@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888240"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086478"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -236,12 +236,17 @@ ms.locfileid: "55888240"
 
 ## <a name="custom-visuals-settings"></a>Параметры настраиваемых визуальных элементов
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>Включение настраиваемых визуальных элементов для всей организации
+### <a name="add-and-use-custom-visuals"></a>Добавление и использование настраиваемых визуальных элементов
 
 Пользователи в организации могут взаимодействовать с настраиваемыми визуальными элементами. [Дополнительные сведения](power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Этот параметр применяется ко всей организации и не ограничивается определенными группами.
+
+### <a name="allow-only-certified-visuals"></a>Разрешить только сертифицированные визуальные элементы
+
+Пользователи в организации, которым предоставлены разрешения на добавление и использование настраиваемых визуальных элементов, обозначенные с помощью параметра "Добавление и использование настраиваемых визуальных элементов", будут иметь возможность использовать только [сертифицированные настраиваемые визуальные элементы](https://go.microsoft.com/fwlink/?linkid=2002010) (несертифицированные визуальные элементы будут заблокированы, и при их использовании отобразится сообщение об ошибке). 
+
 
 ## <a name="r-visuals-settings"></a>Вкладка "Параметры визуальных элементов R"
 
