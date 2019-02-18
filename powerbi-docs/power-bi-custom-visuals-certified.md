@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430425"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216362"
 ---
 # <a name="certified-custom-visuals"></a>Сертификация пользовательских визуальных элементов
 
@@ -45,7 +45,7 @@ ms.locfileid: "55430425"
 
 * Элемент утвержден Microsoft AppSource. Пользовательский визуальный элемент должен быть в нашем [магазине](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 * Пользовательский визуальный элемент создан с помощью API версии 1.2 и выше.
-* Репозиторий кода доступен для просмотра командой Power BI (например, исходный код (JavaSCriptS или TypeScript) в читаемом формате на GitHub).
+* Рабочая группа Power BI может просматривать репозиторий кода (например, исходный код (JavaScript или TypeScript) в читаемом формате на GitHub).
 
     >[!Note]
     > Предоставлять код для общего доступа в Github не нужно.

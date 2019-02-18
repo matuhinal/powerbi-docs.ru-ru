@@ -1,7 +1,7 @@
 ---
 title: Советы по созданию потрясающих отчетов
 description: Советы и рекомендации по созданию отчетов в службе Power BI и Power BI Desktop
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290505"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223819"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop, службе Power BI *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query.
@@ -145,7 +145,7 @@ Power BI интегрируется с Bing для предоставления 
 4. В запросе **CustomerNames** выберите на ленте команду **Добавить** , а затем выберите запрос **Temp**.
 5. В запросе **CustomerNames** выберите **Удалить дубликаты**.
 
-Теперь имеется таблица измерений, которую можно использовать для связывания запросов CustomerIndicents и WorkItems и которая содержит все значения каждого из них.  
+Теперь имеется таблица измерений, которую можно использовать для связывания запросов CustomerIncidents и WorkItems и которая содержит все значения каждого из них.  
 
 ### <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>Шаблоны начального уровня для работы с редактором запросов
 Редактор запросов — очень мощный инструмент обработки данных, позволяющий формировать и очищать их, подготавливая к визуализации или моделированию. Следует помнить о некоторых правилах.

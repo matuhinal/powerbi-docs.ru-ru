@@ -9,19 +9,19 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: b9fcd2dbd664ac4f119c3f00c3d1a173b9251bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296205"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223773"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Настройка Kerberos для использования отчетов Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Узнайте, как настроить сервер отчетов для проверки подлинности Kerberos в источниках данных, которые используются в отчетах Power BI для распределенной среды.
 
-На сервере отчетов Power BI можно размещать отчеты Power BI. Сервер отчетов поддерживает множество источников данных. В этой статье описана система SQL Server Analysis Services, но рассматриваемые понятия применимы и к другим источникам данных, например SQL Server.
+На сервере отчетов Power BI можно размещать отчеты Power BI. Сервер отчетов поддерживает множество источников данных. В этой статье описана система SQL Server Analysis Services, но рассматриваемые понятия применимы и к другим источникам данных, например к SQL Server.
 
 Сервер отчетов Power BI, SQL Server и Analysis Services можно установить на одном компьютере. Все эти службы должны работать без дополнительной настройки. Это очень удобно для тестовой среды. Если эти службы установить на разных компьютерах, которые называются распределенной средой, то могут возникать ошибки. В этой среде необходимо использовать проверку подлинности Kerberos. Обязательной конфигурации, необходимой для реализации этой проверки подлинности, не существует. 
 
@@ -63,7 +63,7 @@ ms.locfileid: "54296205"
 
 Убедитесь, что в списке типов проверки подлинности первым указан тип RSWindowsNegotiate. Список должен выглядеть так.
 
-```
+```xml
 <AuthenticationTypes>
     <RSWindowsNegotiate/>
     <RSWindowsNTLM/>

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762359"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216385"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Встроенный инструмент миграции Power BI
 
@@ -185,7 +185,7 @@ ms.locfileid: "55762359"
 
 После создания рабочей области можно перейти на вкладку **Upload** (Передача).
 
-## <a name="step-4-upload"></a>Шаг 4. Загрузить
+## <a name="step-4-upload"></a>Шаг 4. Отправить
 
 На вкладке **Upload** (Передача) можно передать отчеты в службу Power BI. Вы увидите список отчетов, которые мы скачали на вкладке скачивания, а также имя целевой группы в соответствии с планом переноса.
 
@@ -207,7 +207,7 @@ ms.locfileid: "55762359"
 
 В приведенном выше примере один из клонированных отчетов не удалось передать, так как отчет с таким именем уже существует. Если открыть XML-файл плана переноса, вы увидите там следующее:
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ ms.locfileid: "55762359"
 
 Для файла, который не удалось отправить, можно изменить имя SaaSTargetReportName.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ ms.locfileid: "55762359"
 
 Вы можете передать локальную версию файла Power BI Desktop. Для этого закройте инструмент и в XML-файле укажите полный путь к локальному PBIX-файлу в свойстве **PbixPath**.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,7 +255,7 @@ ms.locfileid: "55762359"
 
 ### <a name="directquery-reports"></a>Отчеты DirectQuery
 
-Вам понадобится обновить строку подключения для отчетов DirectQuery. Это можно сделать на сайте *powerbi.com*, или же программными средствами запросите строку подключения из Power BI Embedded (PaaS). Пример см. в разделе [Extract DirectQuery connection string from PaaS report](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report) (Извлечение строки подключения DirectQuery из отчета PaaS).
+Вам понадобится обновить строку подключения для отчетов DirectQuery. Это можно сделать на сайте *powerbi.com* или программными средствами запросить строку подключения из Power BI Embedded (PaaS). Пример см. в разделе [Extract DirectQuery connection string from PaaS report](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report) (Извлечение строки подключения DirectQuery из отчета PaaS).
 
 Затем можно обновить строку подключения для набора данных в службе Power BI (SaaS) и задать учетные данные для источника данных. Для этого см. следующие разделы:
 

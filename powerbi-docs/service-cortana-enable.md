@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 130c18bb51c99813999f87c69c465dc59783e638
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ff99fc731b5388acd4dbb7c98fe13b227e7d5789
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276728"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216776"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Предоставление Кортане доступа к отчетам Power BI (и базовым наборам данных)
 Вы ознакомились со статьей [Общие сведения о Cortana для Power BI](service-cortana-intro.md) (прежде чем приступать к работе, прочтите эту статью) и теперь хотите сделать то же самое.  Прежде чем задавать вопросы на естественном языке в Кортане и находить ответы в данных, хранящихся в ***отчетах*** Power BI, нужно выполнить ряд требований. В частности нужно сделать следующее.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 457861d17aea03303df9c271c52e7f962f525bbc
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280316"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223267"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Усовершенствование отчетов Power BI с помощью визуальных элементов
 
@@ -51,7 +51,7 @@ ms.locfileid: "54280316"
 
 Для всех новых отчетов применяются следующие параметры по умолчанию:
 
-* для **страницы** отчета устанавливается **белый** цвет и уровень прозрачности **100 %**;
+* для **страницы** отчета устанавливается **белый** цвет и уровень прозрачности **100 %**;
 * для **фонового рисунка** устанавливается **белый** цвет и уровень прозрачности **0 %**.
 
 Если установить для фона страницы прозрачность более 50 %, во время создания или редактирования отчета появляется пунктирная граница, обозначающая рамки холста отчета. 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287009"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223313"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Настройка свойств осей X и Y
 В этом руководстве вы узнаете о различных способах настройки оси X и оси Y визуальных элементов. Не все визуальные элементы имеют оси, и не все они могут быть настроены. Например, круговые диаграммы не имеют осей. Варианты настройки отличаются в зависимости от визуальных элементов. Этих вариантов слишком много, чтобы описать их в одной статье. Поэтому мы рассмотрим некоторые наиболее часто используемые варианты настройки осей, чтобы вы могли уверенно использовать вкладку форматирования визуальных элементов на холсте отчетов Power BI.  
@@ -136,7 +136,7 @@ ms.locfileid: "54287009"
 ## <a name="next-steps"></a>Дальнейшие действия
 Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).
 
-[Настройка п](power-bi-visualization-customize-title-background-and-legend.md)[одписей, фона и условных обозначений](power-bi-visualization-customize-title-background-and-legend.md)
+[Настройка подписей, фона и условных обозначений](power-bi-visualization-customize-title-background-and-legend.md)
 
 [Настройка цветов и свойств оси](service-getting-started-with-color-formatting-and-axis-properties.md)
 

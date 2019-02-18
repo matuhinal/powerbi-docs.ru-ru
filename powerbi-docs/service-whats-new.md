@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431092"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216868"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -31,10 +31,41 @@ ms.locfileid: "55431092"
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>Сентябрь 2018 г.
-* [Комментарии на панели мониторинга](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) в службе Power BI.
 
-## <a name="previous-months-2018"></a>Предыдущие месяцы (2018 г.)
+## <a name="february-2019"></a>Февраль 2019
+* Метрики рабочих нагрузок и размера активного набора данных в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Экспорт в PDF и подписки на рассылку по электронной почте по запросу (service-report-subscribe.md).
+* Массовые операции на портале администрирования.
+
+## <a name="previous-months-2019"></a>Предыдущие месяцы (2019 г.)
+### <a name="january-2019"></a>Январь 2019 г.
+* [Внедрение безопасных отчетов Power BI](service-embed-secure.md) во внутренние порталы и веб-сайты.
+* Обновления для редактора [потоков данных](service-dataflows-overview.md): новые соединители и поддержка собственных запросов SQL и преобразований Power Query Online.
+* [Личные закладки](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/) в службе Power BI.
+* Планирование рассылок по электронной почте на основе времени.
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>Декабрь 2018 г.
+* [Рекомендуемые приложения](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/) на основе ИИ на главной странице Power BI.
+* [Управление рабочими областями на портале администрирования](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/).
+* Предварительный просмотр потоков данных Power BI и интеграция Azure Data Lake Storage 2-го поколения в [потоки данных](service-dataflows-overview.md).
+* Шаблоны решений Power BI преобразованы в ресурсы с открытым исходным кодом.
+
+### <a name="november-2018"></a>Ноябрь 2018 г.
+* Подготовка данных Power BI доступна с [потоками данных](service-dataflows-overview.md) в общедоступной предварительной версии.
+* Общедоступная предварительная версия [отчетов с разбивкой на страницы](paginated-reports-report-builder-power-bi.md) в Power BI Premium.
+* Размер данных и число наборов данных в памяти в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+
+### <a name="october-2018"></a>Октябрь 2018 г.
+* Агрегаты[desktop-aggregations.md] в службе Power BI.
+* Доступ к Power BI расширен. Добавлены три новых региона: Центральная Индия, Восточная Австралия и центральная часть США (Айова). 
+* Выпущена общедоступная версия экспорта в PowerPoint.
+
+### <a name="september-2018"></a>Сентябрь 2018 г.
+* [Комментарии на панели мониторинга](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) в службе Power BI.
+* Общедоступная предварительная версия [главной страницы Power BI и глобального поиска](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
+* Возможность [отслеживать запросы](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+
 ### <a name="august-2018"></a>Август 2018 г.
 * [Приложение Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) (Мониторинг емкости) для Power BI Premium.
 * Улучшения [фильтрации URL-адресов отчетов](service-url-filters.md) Power BI.
@@ -78,7 +109,7 @@ ms.locfileid: "55431092"
 *   поддержка запланированного обновления Azure Analysis Services (AAS).
 
 ## <a name="previous-months-2017"></a>Предыдущие месяцы (2017 г.)
-## <a name="october-and-november-2017"></a>Октябрь и ноябрь 2017 г.:
+### <a name="october-and-november-2017"></a>Октябрь и ноябрь 2017 г.:
 *   выборочная публикация содержимого при помощи [приложений Power BI](service-create-distribute-apps.md);
 *   распределение внешних пользователей с использованием [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/);
 * рекомендации по приложениям на основе средств искусственного интеллекта;
@@ -86,7 +117,7 @@ ms.locfileid: "55431092"
 * поддержка подписки по электронной почте для приложений; 
 * повышение точности административного контроля для [публикации в Интернете](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings).
 
-## <a name="september-2017"></a>Сентябрь 2017 г.
+### <a name="september-2017"></a>Сентябрь 2017 г.
 * В емкости Premium можно предоставлять общий доступ к панелям мониторинга для пользователей, у которых нет лицензии Power BI Pro.
 * Выделение емкости в соответствии с бизнес-требованиями при помощи пулов виртуальных ядер.
 * Мгновенное увеличение или уменьшение масштаба одним щелчком мыши.

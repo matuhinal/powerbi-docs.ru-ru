@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9e31bd087d65bf0b4f0fa7088b6713ec981392b4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293855"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215166"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Оптимизация данных для быстрого анализа данных в Power BI
-Хотите улучшить результаты быстрого анализа данных?  Если вы являетесь владельцем набора данных, попробуйте один из следующих способов:
+Хотите улучшить результаты быстрого анализа данных?  Если вы являетесь владельцем набора данных, попробуйте один из следующих способов.
 
 * Сверните или разверните столбцы в наборе данных. Быстрый анализ данных Power BI не выполняет поиск по скрытым столбцам.  поэтому сверните дублирующиеся или ненужные или разверните интересующие вас столбцы.
 * Используйте комбинации типов данных, таких как имена, время, даты и числа.

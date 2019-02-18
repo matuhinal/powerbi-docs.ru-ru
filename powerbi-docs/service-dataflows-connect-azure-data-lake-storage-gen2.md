@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277280"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216523"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
 
@@ -63,7 +63,7 @@ ms.locfileid: "54277280"
 
 ### <a name="grant-the-power-bi-service-a-reader-role"></a>Предоставление службе Power BI роли читателя
 
-Затем предоставьте службе Power BI роль читателя в созданной учетной записи хранения. Это встроенная роль, поэтому шаги простые. 
+Затем предоставьте службе Power BI роль читателя в созданной учетной записи хранения. Это встроенная роль, поэтому процедура проста. 
 
 Выполните инструкции, представленные в разделе [Назначение роли субъекту безопасности](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal).
 

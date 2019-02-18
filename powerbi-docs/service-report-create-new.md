@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 31a7221d3b284e6342b192384f92616a52e12631
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280266"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216960"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
 Вы ознакомились со статьей [Отчеты в Power BI](consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существует много различных способов создания отчетов. В этой статье мы создадим простой отчет из набора данных Excel, воспользовавшись службой Power BI. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами в разделе **Дальнейшие действия** ниже.  
@@ -56,7 +56,7 @@ ms.locfileid: "54280266"
 1. В области "Поля" выберите **По продажам** > **This Year Sales** (Продажи за этот год) > **Значение**.
    
     ![линейчатая диаграмма в редакторе отчетов](media/service-report-create-new/power-bi-report-step1.png)
-2. Преобразуйте визуальный элемент в датчик, выбрав соответствующий шаблон ![значок шаблона](media/service-report-create-new/powerbi-gauge-icon.png) в области **VIsualizations** (Визуализации).
+2. Преобразуйте визуальный элемент в датчик, выбрав соответствующий шаблон ![значок шаблона](media/service-report-create-new/powerbi-gauge-icon.png) в области **Визуализации**.
    
     ![Визуальный элемент "Датчик" в редакторе отчетов](media/service-report-create-new/power-bi-report-step2.png)
 3. Перетащите поле **Sales** (Продажи) > **This Year Sales** (Продажи за этот год) > **Goal** (Цель) в столбец **Целевое значение**. Похоже, мы очень близки к цели.
@@ -73,7 +73,7 @@ ms.locfileid: "54280266"
 2. Отмените выбор визуального элемента "Датчик". В области "Поля" выберите **По продажам** > **This Year Sales** (Продажи за этот год) > **Значение** и выберите **По продажам** > **Last Year Sales** (Продажи за прошлый год).
    
     ![редактор отчетов с датчиком и линейчатой диаграммой](media/service-report-create-new/power-bi-report-step4.png)
-3. Преобразуйте визуальный элемент в диаграмму с областями, выбрав соответствующий шаблон ![значок диаграммы](media/service-report-create-new/power-bi-areachart-icon.png) в области **VIsualizations** (Визуализации).
+3. Преобразуйте визуальный элемент в диаграмму с областями, выбрав соответствующий шаблон ![значок диаграммы](media/service-report-create-new/power-bi-areachart-icon.png) в области **Визуализации**.
 4. Выберите **Время** > **Период**, чтобы добавить время в качестве **оси**.
    
     ![редактор отчетов с активной диаграммой с областями](media/service-report-create-new/power-bi-report-step5.png)
