@@ -1,7 +1,7 @@
 ---
 title: Подключение к Microsoft Graph Security в Power BI Desktop
 description: Вы можете легко подключиться к API Microsoft Graph Security в Power BI Desktop
-author: cpopell
+author: preetikr
 manager: kfile
 ms.reviewer: ''
 ms.custom: seojan19
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2019
-ms.author: gepopell
+ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1594935d9dc156b03daff9e4447752bce2c0f06c
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 2187a24820ef8ea3db9fdd1b7a881dc9cfb6393f
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086685"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298898"
 ---
 # <a name="connect-to-microsoft-graph-security-in-power-bi-desktop"></a>Подключение к Microsoft Graph Security в Power BI Desktop
 
@@ -48,7 +48,7 @@ Power BI Desktop можно использовать для подключен�
 2. Слева выберите категорию **Веб-службы**.
 3. Щелкните  **Microsoft Graph Security (бета-версия)**.
 
-    ![Получить данные](media/desktop-connect-graph-security/GetData.PNG)
+    ![Получение данных](media/desktop-connect-graph-security/GetData.PNG)
     
 4. В появившемся окне **Microsoft Graph Security** выберите версию API Microsoft Graph для запроса. Варианты: 1.0 и бета-версия.
 
@@ -56,7 +56,7 @@ Power BI Desktop можно использовать для подключен�
     
 5. Войдите в свою учетную запись Azure Active Directory при появлении запроса. Эта учетная запись должна иметь роль **Читатель безопасности**, как упоминалось в разделе "Необходимые условия" выше.
 
-    ![Вход](media/desktop-connect-graph-security/SignIn.PNG)
+    ![Войти](media/desktop-connect-graph-security/SignIn.PNG)
     
 6. Если вы являетесь администратором клиента **и** еще не предоставили согласие для приложения соединителя Microsoft Graph Security для Power BI, как гласят предварительные требования, вы увидите следующее диалоговое окно. Выберите вариант **Предоставить согласие от лица организации**.
 

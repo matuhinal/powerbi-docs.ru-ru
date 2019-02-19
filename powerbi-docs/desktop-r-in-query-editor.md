@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 35448142ecad249289542493261dfff612a348ad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283352"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249006"
 ---
 # <a name="using-r-in-query-editor"></a>Использование языка R в редакторе запросов
 В **редакторе запросов** Power BI Desktop можно использовать язык программирования **R**, который широко применяют специалисты по статистике, аналитики и специалисты по обработке данных. Интеграция языка R в **редактор запросов** позволяет выполнять очистку данных с помощью R, а также формирование и анализ данных в наборах данных, в частности заполнение отсутствующих данных, прогнозирование и кластеризацию. **R** — эффективный язык, который можно использовать в **редакторе запросов** для подготовки модели данных и создания отчетов.
@@ -44,11 +44,13 @@ ms.locfileid: "54283352"
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 6. Например, введите следующий код сценария:
 
+    ```r
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
        completedData <- complete(tempData,1)
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
+    ```
 
    > [!NOTE]
    > Чтобы этот код сценария работал правильно, в вашей среде R должна быть установлена библиотека *mice*. Чтобы установить библиотеку Mice, выполните в своем экземпляре R следующую команду: |      > install.packages('mice')

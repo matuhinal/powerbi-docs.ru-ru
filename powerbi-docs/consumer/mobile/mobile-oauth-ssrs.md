@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 0e57ce3b5acd638b9bab316108a8fd6f46b3b280
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 88d41750ef1cc32a17e1569b7104151e2f2407f1
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285790"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249098"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к серверу отчетов Power BI и SQL Server Reporting Services 2016 или более поздней версии.
@@ -58,7 +58,7 @@ https://fs.contoso.com
 ### <a name="enabling-negotiate-authentication"></a>Включение проверки подлинности с согласованием
 Чтобы включить сервер отчетов для использования проверки подлинности Kerberos, необходимо указать RSWindowsNegotiate в качестве типа проверки подлинности на сервере отчетов. Это можно сделать в файле rsreportserver.config.
 
-```
+```xml
 <AuthenticationTypes>  
     <RSWindowsNegotiate />  
     <RSWindowsKerberos />  
@@ -161,7 +161,7 @@ https://fs.contoso.com
 ### <a name="add-wap-application"></a>Добавление приложения WAP
 Хотя вы можете публиковать приложения в консоли управления доступом к отчету, сначала потребуется создать приложение с помощью PowerShell. Выполните эту команду, чтобы добавить приложение.
 
-```
+```powershell
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
@@ -175,7 +175,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>Настройка встроенной проверки подлинности для приложения WAP
 После добавления приложения WAP необходимо указать для параметра BackendServerAuthenticationMode (Режим проверки подлинности внутреннего сервера) значение IntegratedWindowsAuthentication (Встроенная проверка подлинности Windows). Для этого требуется идентификатор приложения WAP.
 
-```
+```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
@@ -183,7 +183,7 @@ Get-WebApplicationProxyApplication “Contoso Reports” | fl
 
 Выполните следующую команду, чтобы указать для параметра BackendServerAuthenticationMode идентификатор приложения WAP.
 
-```
+```powershell
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 

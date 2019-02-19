@@ -1,20 +1,20 @@
 ---
 title: Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 description: Узнайте, как создать отчет c разбивкой на страницы Power BI для сервера отчетов Power BI за несколько простых шагов.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.author: maggies
-ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 135bd3c127135961016b78eb0156d49ec1c1967d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284443"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324675"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 Как и предполагает название, отчеты c разбивкой на страницы могут выполняться на большом количестве страниц. Они поддерживают точную настройку и создаются в фиксированном формате. Отчеты с разбивкой на страницы это RDL-файлы.
@@ -55,7 +55,7 @@ ms.locfileid: "54284443"
 
 1. Щелкните **Обзор**, а затем выберите общий набор данных на сервере и щелкните **Открыть** > **Далее**.
    
-    ![Мастер диаграмм: выбор набора данных](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
+    ![Мастер диаграмм: Выбор набора данных](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
      Необходимо создать набор данных? См. статью о [создании общего или внедренного набора данных](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Выберите тип диаграммы (в нашем случае это линейчатая диаграмма).
@@ -63,7 +63,7 @@ ms.locfileid: "54284443"
     ![Мастер диаграмм: тип диаграммы](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
 3. Упорядочите поля, перетаскивая их в окна **Категории**, **Серии** и **Значения**.
    
-    ![Мастер диаграмм: размещение полей](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
+    ![Мастер диаграмм: Размещение полей](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. Нажмите кнопку **Далее** > **Готово**.
 
 ## <a name="step-3-design-your-report"></a>Шаг 3. Создание отчета

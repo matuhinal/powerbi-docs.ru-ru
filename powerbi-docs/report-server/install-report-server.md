@@ -1,20 +1,20 @@
 ---
 title: Установка сервера отчетов Power BI
 description: Узнайте, как установить сервер отчетов Power BI.
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: bf204fe3ee9dcff83a6e2c964196a85daf547d74
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762589"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324905"
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "55762589"
 
 ### <a name="power-bi-report-server-product-key"></a>Ключ продукта сервера отчетов Power BI
 
-#### <a name="power-bi-premium"></a>Power BI Premium
+#### <a name="power-bi-premium"></a>Power BI Premium
 
 Если вы приобрели Power BI Premium, то на вкладке **Параметры Premium** портала администрирования Power BI сможете получить ключ продукта для сервера отчетов Power BI. Это доступно только глобальным администраторам или пользователям, которым назначена роль администратора службы Power BI.
 

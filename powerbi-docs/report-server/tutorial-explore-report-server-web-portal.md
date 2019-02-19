@@ -1,20 +1,20 @@
 ---
 title: Руководство. Изучение Сервера отчетов Power BI в виртуальной машине
 description: С помощью этого руководства вы создадите виртуальную машину с установленным Сервером отчетов Power BI и изучите его веб-портал.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
-ms.author: maggies
-ms.openlocfilehash: 4eb9f5dc7e45006d1b5697f35b79d0e9d11fa2df
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281397"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325089"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Руководство. Изучение возможностей веб-портала Сервера отчетов Power BI на виртуальной машине
 С помощью этого руководства вы создадите виртуальную машину с установленным Сервером отчетов Power BI, чтобы изучить возможности просмотра, редактирования и управления, предоставляемые в Power BI. В руководстве используется пример отчетов с разбивкой на страницы и ключевых показателей эффективности.
@@ -149,7 +149,7 @@ ms.locfileid: "54281397"
 
     ![Выделенный отчет Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi.png)
 
-### <a name="edit-in-power-bi-desktop"></a>Редактирование в Power BI Desktop
+### <a name="edit-in-power-bi-desktop"></a>Редактирование в Power BI Desktop
 
 1. Выберите **Edit in Power BI Desktop** (Редактирование в Power BI Desktop).
 

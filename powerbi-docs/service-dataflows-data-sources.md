@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280569"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324928"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Подключение к источникам данных для потоков данных Power BI (предварительная версия)
 
@@ -76,6 +76,7 @@ ms.locfileid: "54280569"
 * База данных SQL Server
 * База данных Sybase
 * База данных Teradata
+* Vertica
 
 Категория **Power BI** включает в себя следующие доступные подключения к данным для потоков данных:
 
@@ -91,6 +92,7 @@ ms.locfileid: "54280569"
 
 Категория **Online Services** включает в себя следующие доступные подключения к данным для потоков данных:
 
+* Amazon Redshift
 * Common Data Service для приложений
 * Microsoft Exchange Online
 * Объекты SalesForce
@@ -154,12 +156,8 @@ ms.locfileid: "54280569"
 
 Ниже перечислены соединители, которые в настоящее время можно использовать путем копирования скрипта M в пустой запрос.
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ ms.locfileid: "54280569"
 * Azure HDInsight (HDFS)
 * Файл Hadoop (HDFS)
 * Informix (бета-версия)
-* Vertica
 
 Это вся информация о подключении к источникам данных в потоках данных Power BI.
 

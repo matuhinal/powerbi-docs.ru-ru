@@ -1,22 +1,23 @@
 ---
 title: Создание внедренного набора данных для отчета с разбивкой на страницы в Power BI (предварительная версия)
 description: Из этой статьи вы узнаете, как на основе внедренного источника данных создать внедренный набор данных для отчета с разбивкой на страницы в службе Power BI.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.author: maggies
-ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c625f394fd35c0b1c6b7ccf0fc617f5653533ea1
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281075"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324560"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Создание внедренного набора данных для отчета с разбивкой на страницы в службе Power BI (предварительная версия)
+
 Из этой статьи вы узнаете, как на основе внедренного источника данных создать внедренный набор данных для отчета с разбивкой на страницы в службе Power BI. Внедренные наборы данных хранятся в одном отчете с разбивкой на страницы и используются в этом отчете. В настоящее время отчеты с разбивкой на страницы, опубликованные в службе Power BI, могут использовать только внедренные наборы данных и внедренные источники данных. Внедренный источник данных и набор данных вы создаете в построителе отчетов в процессе создания отчета. 
 
 Перед созданием набора данных необходимо создать источник данных. Этот процесс описан в статье [Создание внедренного источника данных для отчетов с разбивкой на страницы в службе Power BI](paginated-reports-embedded-data-source.md).

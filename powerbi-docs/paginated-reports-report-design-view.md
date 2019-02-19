@@ -1,20 +1,20 @@
 ---
 title: Навигация в представлении конструктора отчетов для отчетов с разбивкой на страницы (предварительная версия)
 description: Представление конструктора отчетов в построителе отчетов — это пространство для проектирования отчетов с разбивкой на страницы, которые можно опубликовать в службе Power BI.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283536"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324844"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Навигация в представлении конструктора отчетов для отчетов с разбивкой на страницы (предварительная версия)
 
@@ -22,12 +22,12 @@ ms.locfileid: "54283536"
 
 ![Представление разработки отчетов в построителе отчетов](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1.  [Панель данных отчета](#report-data-pane) 
-2.  [Область конструктора отчетов](#report-design-surface)  
-3.  [Панель параметров](#parameters-pane) 
-4.  [Панель свойств](#properties-pane) 
-5.  [Панель группирования](#grouping-pane) 
-6.  [Строка текущего состояния отчета](#current-report-status-bar)  
+1. [Панель данных отчета](#report-data-pane) 
+2. [Область конструктора отчетов](#report-design-surface)  
+3. [Панель параметров](#parameters-pane) 
+4. [Панель свойств](#properties-pane) 
+5. [Панель группирования](#grouping-pane) 
+6. [Строка текущего состояния отчета](#current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1. Панель данных отчета  
  На панели данных отчета вы можете определить данные и ресурсы, необходимые для создания отчета, прежде чем переходить к составлению макета отчета. Например, на панель данных отчета можно добавить источники данных, наборы данных, вычисляемые поля, параметры отчета и изображения.  
