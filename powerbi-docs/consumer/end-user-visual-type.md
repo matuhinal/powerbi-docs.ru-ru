@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794851"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426776"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 Визуализации отображаются в отчетах, панелях мониторинга, приложениях и разделах вопросов и ответов. Некоторые из этих типов визуализаций упаковываются с помощью Power BI, а другие являются *пользовательскими визуальными элементами*. Пользовательские визуальные элементы создаются за пределами Power BI, а также способом, который позволяет *конструкторам отчетов* добавлять их в отчеты, панели мониторинга и приложения Power BI. 
@@ -98,10 +98,12 @@ ms.locfileid: "55794851"
 - отображения степени приемлемости показателя;
 - отображения информации, которую можно быстро воспринять и понять.
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>Диаграмма ключевых факторов влияния
+![Ключевой фактор влияния](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+Диаграмма ключевых факторов влияния показывает главных участников влияния на выбранный результат или значение.
+
+Эти факторы помогают понять, что влияет на ключевую метрику. Например, *из-за чего клиенты размещают второй заказ*или*почему продажи в июне прошлого года были такими высокими*. 
 
 ### <a name="kpis"></a>Ключевые показатели эффективности
 ![КПЭ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

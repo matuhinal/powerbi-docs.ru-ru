@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216523"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426730"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
 
@@ -70,6 +70,8 @@ ms.locfileid: "56216523"
 В окне **Добавление назначения ролей** выберите роль **Читатель**, чтобы назначить ее службе Power BI. Затем найдите **службу Power BI**. На следующем рисунке показана роль **Читатель**, назначенная службе Power BI.
 
 ![Служба Power BI с назначенной ролью читателя](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+Примечание. Подождите как минимум 30 минут, чтобы разрешение на портале появилось в службе Power BI. Вы можете в любое время изменить разрешение на портале. Оно отобразится в Power BI через 30 минут, после чего вы сможете повторить попытку. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Создание файловой системы для Power BI

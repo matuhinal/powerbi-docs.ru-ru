@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279051"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426638"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Создание и использование потоков данных в Power BI (предварительная версия)
 
@@ -155,6 +155,10 @@ ms.locfileid: "54279051"
 * **Соединитель SalesForce** — использование пробной учетной записи Salesforce с потоками данных приводит к сбою подключения без каких-либо сообщений. Чтобы устранить эту проблему, используйте рабочую учетную запись Salesforce или учетную запись разработчика для тестирования.
 
 * **Соединитель SharePoint** — обязательно указывайте корневой адрес сайта SharePoint, но не вложенные папки или документы. Правильная ссылка должна иметь такой формат: https://microsoft.sharepoint.com/teams/ObjectModel/. 
+
+* **Соединитель файлов JSON** — сейчас вы можете подключиться к файлу JSON только с помощью базовой проверки подлинности.  Подключение к файлу JSON с помощью учетных данных в URL-адресе (например, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...) сейчас **не** поддерживается.  
+
+* **Хранилище данных SQL Azure** — потоки данных сейчас не поддерживают проверку подлинности Azure Active Directory (AAD) для хранилища данных SQL Azure. Для этого сценария используйте базовую проверку подлинности.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

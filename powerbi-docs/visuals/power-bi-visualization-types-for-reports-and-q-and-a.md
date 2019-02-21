@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: e77f4d6fe1963b3f229ef7f477fb86b7c5c26713
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234308"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426684"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
@@ -82,10 +82,12 @@ ms.locfileid: "55234308"
 
 Дополнительные сведения см. в статье [Диаграммы "Радиальный датчик" в Power BI](power-bi-visualization-radial-gauge-charts.md).
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+### <a name="key-influencers-chart"></a>Диаграмма ключевых факторов влияния
+![Ключевой фактор влияния](/visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers.png)
 
-A key influencer chart displays the major contributors to a selected result or value. -->
+Диаграмма ключевых факторов влияния показывает главных участников влияния на выбранный результат или значение.
+
+Дополнительные сведения см. в статье [Диаграммы ключевых факторов влияния в Power BI](power-bi-visualization-influencers.md).
 
 ### <a name="kpis"></a>Ключевые показатели эффективности
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
