@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282110"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408145"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Часто задаваемые вопросы о пользовательских визуальных элементах Power BI
 
@@ -98,6 +98,9 @@ ms.locfileid: "54282110"
 Если на вашем пользовательском визуальном элементе есть логотип, убедитесь, что он соответствует рекомендациям по логотипам (цвет, расположение, размер и активация действия).
 
 Можно также обратиться к руководству с лучшими практическими рекомендациями.  
+> [!Note]
+> Все бесплатные визуальные элементы должны поддерживать те же предлагаемые ранее бесплатные функции. К старым бесплатным функциям можно при необходимости добавить расширенные платные функции. Рекомендуем публиковать визуальные элементы IAP с расширенными функциями как новые визуальные элементы, а не обновлять бесплатные старые.
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>Могу ли я получить сертифицированный пользовательский визуальный элемент покупок из приложения?
 

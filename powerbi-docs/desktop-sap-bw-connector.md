@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 02/14/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c45900d98dfa25dd991ae0cee1f165a41964c51e
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290344"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324775"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к данным **SAP Business Warehouse (BW)**.
@@ -218,6 +218,29 @@ ms.locfileid: "54290344"
    * BAPI_IOBJ_GETDETAIL
 
    Чтобы решить эту проблему, убедитесь, что у пользователя есть доступ к разным модулям *MDPROVIDER*, включая *BAPI_IOBJ_GETDETAIL*. Для устранения этой или подобных проблем щелкните *Включить трассировку* в окне *Диагностика* в разделе *Параметры* в Power BI Desktop. Включив трассировку, попытайтесь получить данные из SAP BW, и просмотрите файл трассировки для получения дополнительных сведений.
+
+## <a name="sap-bw-connection-support"></a>Поддержка соединений SAP BW
+
+В следующей таблице приводятся сведения о текущей поддержке SAP BW.
+
+
+
+|Продукт  |Режим  |Authentication  |Соединитель  |Библиотека SNC  |Поддерживается  |
+|---------|---------|---------|---------|---------|---------|
+|Power BI Desktop     |Все         | Пользователь и пароль  | Сервер приложений | Н/Д  | Да  |
+|Power BI Desktop     |Все         | Windows          | Сервер приложений | sapcrypto + gsskrb5/gx64krb5  | Да  |
+|Power BI Desktop     |Все         | Windows через олицетворение | Сервер приложений | sapcrypto + gsskrb5/gx64krb5  | Да  |
+|Power BI Desktop     |Все         | Пользователь и пароль        | Сервер сообщений | Н/Д  | Да  |
+|Power BI Desktop     |Все         | Windows        | Сервер сообщений | sapcrypto + gsskrb5/gx64krb5  | Да  |
+|Power BI Desktop     |Все         | Windows через олицетворение | Сервер сообщений | sapcrypto + gsskrb5/gx64krb5  | Да  |
+|Power BI Gateway     |Импорт      | Та же, что и в Power BI Desktop |         |   |   |
+|Power BI Gateway     |DirectQuery | Пользователь и пароль        | Сервер приложений | Н/Д  | Да  |
+|Power BI Gateway     |DirectQuery | Windows через олицетворение (постоянный пользователь, без единого входа) | Сервер приложений | sapcrypto + gsskrb5/gx64krb5  | Да  |
+|Power BI Gateway     |DirectQuery | Параметр "Использовать единый вход (SSO) через Kerberos для запросов DirectQuery" | Сервер приложений | *Только с* gsskrb5 или gx64krb5   | Да  |
+|Power BI Gateway     |DirectQuery | Пользователь и пароль        | Сервер сообщений | Н/Д  | Да  |
+|Power BI Gateway     |DirectQuery | Windows через олицетворение (постоянный пользователь, без единого входа) | Сервер сообщений | sapcrypto + gsskrb5/gx64krb5  | Да  |
+|Power BI Gateway     |DirectQuery | Параметр "Использовать единый вход (SSO) через Kerberos для запросов DirectQuery" | Сервер сообщений | sapcrypto + gsskrb5/gx64krb5  | Нет  |
+
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086478"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408191"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -172,11 +172,11 @@ ms.locfileid: "56086478"
 > [!NOTE]
 > Если отключить параметр **Экспортировать данные**, пользователи не смогут использовать функцию **анализа в Excel**, а также функцию динамического подключения к службе Power BI.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Экспортировать отчеты в виде презентаций PowerPoint
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Экспорт отчетов в презентации PowerPoint или PDF-документы
 
-Пользователи в организации могут экспортировать отчеты Power BI как файлы PowerPoint. [Дополнительные сведения](consumer/end-user-powerpoint.md)
+Пользователи в организации могут экспортировать отчеты Power BI в виде файлов PowerPoint или PDF-документов. [Дополнительные сведения](consumer/end-user-powerpoint.md)
 
-Ниже показано меню **Файл** для отчета с включенным параметром **Экспортировать отчеты в виде презентаций PowerPoint**.
+Ниже показано меню **Файл** для отчета с включенным параметром **Экспорт отчетов в презентации PowerPoint или PDF-документы**.
 
 ![Экспортировать отчеты в виде презентаций PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ ms.locfileid: "56086478"
 
 ![Публикация пакета содержимого в организации](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Создание шаблонных пакетов содержимого и приложений организации
+### <a name="create-template-apps"></a>Создание приложений-шаблонов
 
-Пользователи в организации могут создавать пакеты содержимого шаблонов, в которых используются наборы данных, созданные в Power BI Desktop. [Дополнительные сведения](template-content-pack-authoring.md)
+Пользователи в организации могут создавать приложения-шаблоны, в которых используются наборы данных, созданные в Power BI Desktop. См. дополнительные сведения о [приложениях-шаблонах](template-content-pack-authoring.md).
 
 ### <a name="push-apps-to-end-users"></a>Принудительно отправлять приложения конечным пользователям
 
@@ -287,7 +287,7 @@ ms.locfileid: "56086478"
 > [!NOTE]
 > Этот параметр применяется ко всей организации и не ограничивается определенными группами.
 
-## <a name="developer-settings"></a>Параметры для разработчика
+## <a name="developer-settings"></a>Параметры разработчика
 
 ### <a name="embed-content-in-apps"></a>Внедрение содержимого в приложениях
 
@@ -302,9 +302,21 @@ ms.locfileid: "56086478"
 > [!NOTE]
 > Этот параметр применяется ко всей организации и не ограничивается определенными группами.
 
+## <a name="template-apps-settings-preview"></a>Параметры приложений-шаблонов (предварительная версия)
+
+Приложениями-шаблонами управляют два параметра. 
+
+![Параметры приложений-шаблонов на портале администрирования Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+Первый параметр, **Создание приложений-шаблонов**, позволяет определять в организации пользователей, которые могут создавать приложения-шаблоны. Затем создатели могут распространять эти приложения среди клиентов вне вашей организации через AppSource или иным методом.
+
+![Параметр "Создание приложений-шаблонов" на портале администрирования Power BI](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+Второй параметр, **Установка приложений-шаблонов**, позволяет определять в организации пользователей, которые могут скачивать и устанавливать приложения-шаблоны из AppSource или другого источника.
+
 ## <a name="capacity-settings"></a>Параметры емкости
 
-### <a name="power-bi-premium"></a>Power BI Premium
+### <a name="power-bi-premium"></a>Power BI Premium
 
 На вкладке **Power BI Premium** можно управлять любыми емкостями Power BI Premium (номер SKU Em или P), приобретенными для вашей организации. Вкладка **Power BI Premium** будет отображаться для всех пользователей вашей организации, но они смогут увидеть ее содержимое, только если им назначена роль *администратора емкости* или пользователя с назначенными разрешениями. Если у пользователей нет разрешений, появляется следующее сообщение.
 
@@ -312,7 +324,7 @@ ms.locfileid: "56086478"
 
 Дополнительные сведения о том, как управлять параметрами Premium, см. в статье [Управление емкостью в Power BI Premium и Power BI Embedded](service-admin-premium-manage.md).
 
-### <a name="power-bi-embedded"></a>Power BI Embedded
+### <a name="power-bi-embedded"></a>Power BI Embedded
 
 Вкладка **Power BI Embedded** позволяет просматривать емкости Power BI Embedded (номер SKU А), приобретенные для клиента. Так как вы можете приобрести только номер SKU A в Azure, вы можете [управлять емкостями Embedded в Azure](developer/azure-pbie-create-capacity.md) на **портале Azure**.
 

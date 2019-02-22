@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068058"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249397"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
 Теперь, когда у вас есть [базовое представление о приложениях](end-user-apps.md), давайте узнаем, как открыть приложение и работать с ним. 
@@ -25,7 +25,7 @@ ms.locfileid: "55068058"
 
 В Power BI на мобильном устройстве вы можете установить приложение только по прямой ссылке, но не из AppSource. Если создатель приложения автоматически установит приложение, вы увидите его в своем списке приложений.
 
-### <a name="install-an-app-from-a-direct-link"></a>Установка приложения по прямой ссылке
+## <a name="install-an-app-from-a-direct-link"></a>Установка приложения по прямой ссылке
 Простейший путь установить новое приложение самостоятельно — это получить по электронной почте прямую ссылку на приложение от его создателя.  
 
 **На компьютере** 
@@ -40,8 +40,8 @@ ms.locfileid: "55068058"
 
 ![Список содержимого приложения на мобильном устройстве](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>Получение приложения из Microsoft AppSource
-Вы также можете найти и установить приложения в Microsoft AppSource. Отображаются только приложения, к которым у вас есть доступ (т. е. создатель приложения предоставил вам или всем разрешение).
+## <a name="get-the-app-from-microsoft-appsource"></a>Получение приложения из Microsoft AppSource
+Вы также можете найти и установить приложения в Microsoft AppSource. Отображаются только приложения, к которым у вас есть доступ (т. е. автор предоставил вам или всем разрешение).
 
 1. Последовательно выберите **Приложения** !["Приложения" на панели навигации слева](./media/end-user-apps/power-bi-apps-bar.png) > **Get apps** (Получить приложения). 
    
