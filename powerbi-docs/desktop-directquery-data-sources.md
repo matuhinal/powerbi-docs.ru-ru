@@ -2,22 +2,23 @@
 title: Источники данных, поддерживаемые DirectQuery в Power BI
 description: Список источников данных, которые можно использовать для DirectQuery.
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ecb1ba1cf10395a7c193d16281eece80868a52e7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285560"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826567"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Источники данных, поддерживаемые DirectQuery в Power BI
+
 **Power BI Desktop** и **служба Power BI** имеют много источников данных, к которым можно подключиться и получить доступ. В этой статье описывается, какие источники данных для Power BI поддерживают метод подключения **DirectQuery**. Дополнительные сведения о DirectQuery см. в статье [**Power BI и DirectQuery**](desktop-directquery-about.md).
 
 Следующие источники данных поддерживают DirectQuery в Power BI:
@@ -31,8 +32,8 @@ ms.locfileid: "54285560"
 * IBM Netezza (бета-версия)
 * Impala (версии 2.x)
 * База данных Oracle (версии 12 и более поздней)
-* Сервер приложений SAP Business Warehouse
-* Сервер сообщений SAP Business Warehouse (бета-версия)
+* Сервер приложений SAP Business Warehouse
+* Сервер сообщений SAP Business Warehouse (бета-версия)
 * SAP HANA
 * Snowflake
 * Spark (бета-версия) (версии 0.9 и более поздней)
@@ -65,7 +66,7 @@ ms.locfileid: "54285560"
 | Spark (бета-версия) версии 0.9 и более поздней |Да |
 | Azure HDInsight Spark (бета-версия) |Нет |
 | IBM Netezza |Да |
-| Сервер приложений SAP Business Warehouse |Да |
+| Сервер приложений SAP Business Warehouse |Да |
 | Сервер сообщений SAP Business Warehouse |Пока не поддерживается в **службе Power BI** |
 | Google BigQuery |Нет |
 

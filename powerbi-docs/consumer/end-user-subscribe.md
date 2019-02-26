@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 26ba6d0ea23451863d05b13a79e57d483b15881f
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: e8d849c711bb190951feffca072a883137275af7
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298852"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661791"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Подписка на отчет или панель мониторинга в службе Power BI 
 Теперь получать актуальные версии важных панелей мониторинга и отчетов стало проще, чем когда-либо. Подпишитесь на страницы наиболее важных отчетов и панели мониторинга, и Power BI будет отправлять вам моментальные снимки по электронной почте. Вы можете указать, с какой частотой это нужно делать: ежедневно, еженедельно или при обновлении данных. Можно даже задать конкретное время отправки сообщений электронной почты службой Power BI или отправить их немедленно.  

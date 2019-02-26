@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: Conceptual
 ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
+ms.openlocfilehash: 44a311bf186ffc2596de2322b18f81386d505b62
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838285"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661729"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Изменение порядка сортировки диаграммы в отчете Power BI
 В отчете Power BI можно сортировать большую часть визуализаций в алфавитном порядке по названиям категорий в диаграмме или числовым значениям в каждой категории. Например, эта диаграмма отсортирована по категории **store name**.
