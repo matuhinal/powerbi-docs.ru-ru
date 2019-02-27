@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431253"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826728"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -22,6 +22,16 @@ ms.locfileid: "55431253"
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](../../desktop-latest-update.md)  
 * [Новые возможности службы Power BI](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>Январь–февраль 2019 г.
+ 
+### <a name="visio-visuals"></a>Визуальные элементы Visio
+
+Поддерживается единый вход (SSO) для визуальных элементов Visio. Благодаря этому при просмотре отчета с использованием визуального элемента Visio в приложении не потребуется выполнять дополнительные действия для входа. 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>В приложение Power BI Mobile, поддерживающее Windows, будет добавлена функция "Комментарии на панели мониторинга".
+
+К панелям мониторинга и определенным плиткам можно непосредственно добавлять комментарии для обсуждения данных. Другие пользователи, которые будут просматривать вашу панель, увидят эти комментарии. 
 
 ## <a name="december-2018"></a>Декабрь 2018 г.
 

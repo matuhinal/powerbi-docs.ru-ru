@@ -10,12 +10,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280799"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662326"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным) в Power BI
 При входе в мобильное приложение Microsoft Power BI для Android может появиться сообщение "Не удалось выполнить проверку подлинности, так как SSL-сертификат вашей организации не является доверенным для этого устройства. Обратитесь к ИТ-администратору организации". 
@@ -41,9 +41,9 @@ ms.locfileid: "54280799"
 Чтобы проверить их, последовательно выберите **Параметры** > **Система** > **Дата и время**.
 
 ## <a name="custom-authentication-server"></a>Пользовательский сервер проверки подлинности
-Если вы используете пользовательский сервер проверки подлинности, SSL-сертификат на корпоративном сервере проверки подлинности может быть недействительным. Обратитесь за помощью к ИТ-администратору вашей организации.
+Если вы используете пользовательский сервер проверки подлинности, SSL-сертификат на корпоративном сервере проверки подлинности может быть недействительным. Свяжитесь с ИТ-отделом вашей организации, чтобы проверить конфигурацию корпоративного сервера проверки подлинности, следуя инструкциям в [этой статье](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Скачивание приложения Android](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина приложений Android.
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/) 
 

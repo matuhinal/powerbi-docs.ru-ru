@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325204"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662464"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
@@ -41,6 +41,10 @@ ms.locfileid: "56325204"
 [**Интеллектуальные направляющие выравнивания**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides). Эти направляющие отображаются при перемещении объектов на странице отчета, чтобы помочь вам выровнять все объекты на странице (аналогично направляющим в PowerPoint). Интеллектуальные направляющие отображаются при перетаскивании или изменении размера объектов на странице. При перемещении объекта рядом с другим объектом он прикрепляется в положении, учитывающем выравнивание с другим объектом.
 
 **Специальные возможности**. Число специальных возможностей слишком велико, чтобы упомянуть их все. В том числе они включают [поддержку специальных возможностей для панели списка полей](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Для панели списка полей реализован полный диапазон специальных возможностей. Вы можете перемещаться по этой области, используя только клавиатуру и средство чтения с экрана. Для добавления полей на страницу отчета можно использовать контекстное меню.
+
+#### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+
+- В состав этого выпуска входит API версии 2.3.
 
 ### <a name="administrator-settings"></a>Параметры администратора
 
