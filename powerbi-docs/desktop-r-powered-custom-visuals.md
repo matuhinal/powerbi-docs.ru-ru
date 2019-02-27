@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 47558c5aa7318d3ef3ff5c5e92beb6dd4b4b3d44
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 48eb26d3827f69831f2d565b26c20853906ab41d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290482"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892190"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Использование пользовательских визуализаций на основе R в Power BI
 
@@ -61,7 +61,7 @@ ms.locfileid: "54290482"
 5. Появится предупреждение об импорте пользовательских визуальных элементов, как показано на рисунке ниже.
 
    ![Визуальный элемент R 5](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-6. Перейдите в папку, в которой сохранен файл визуального элемента, и выберите этот файл. Пользовательские визуализации **Power BI Desktop** имеют расширение .pbivisual.
+6. Перейдите в папку, в которой сохранен файл визуального элемента, и выберите этот файл. Пользовательские визуализации **Power BI Desktop** имеют расширение .pbiviz.
 
    ![Визуальный элемент R 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
 7. Вернувшись в Power BI Desktop, вы увидите на панели **Визуализации** новый тип визуального элемента.
