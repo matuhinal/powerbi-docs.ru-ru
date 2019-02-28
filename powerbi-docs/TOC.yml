@@ -266,7 +266,7 @@ items:
         href: power-bi-slicer-filter-responsive.md
       - name: Создание пользовательских карт ответов Кортаны
         href: service-cortana-answer-cards.md
-      - name: Безопасность на уровне строк
+      - name: Защита на уровне строк
         href: desktop-rls.md
       - name: Настройка подсказок
         href: desktop-custom-tooltips.md
@@ -388,7 +388,7 @@ items:
   items:
   - name: Обзор
     items:
-    - name: Что такое Power BI?
+    - name: Что такое Power BI?
       href: power-bi-overview.md
     - name: Сравнение Power BI Desktop и Power BI
       href: service-service-vs-desktop.md
@@ -430,7 +430,7 @@ items:
         href: service-features-license-type.md
     - name: Дополнительные понятия
       items:
-      - name: 10 советов по получению помощи
+      - name: 10 советов по получению справки
         href: service-tips-for-finding-help.md
       - name: Лицензирование особых случаев
         items:
@@ -440,7 +440,7 @@ items:
           href: service-govus-overview.md
         - name: Вопросы и ответы для клиентов облачных служб в Германии
           href: service-govde-faq.md
-      - name: Другие
+      - name: Другое
         items:
         - name: Microsoft Flow и Power BI
           href: service-flow-integration.md
@@ -478,7 +478,7 @@ items:
         href: service-azure-sql-data-warehouse-with-direct-connect.md
       - name: База данных SQL Azure с DirectQuery
         href: service-azure-sql-database-with-direct-connect.md
-      - name: Динамические данные служб SQL Server Analysis Services в Power BI
+      - name: Динамические данные служб SQL Server Analysis в Power BI
         href: sql-server-analysis-services-tabular-data.md
     - name: Обновить данные
       items:
@@ -496,7 +496,7 @@ items:
         href: refresh-csv-file-onedrive.md
       - name: 'Устранение неполадок в сценариях обновления '
         href: refresh-troubleshooting-refresh-scenarios.md
-    - name: Информационные панели
+    - name: Панели мониторинга
       items:
       - name: Общие сведения о панелях мониторинга
         href: service-dashboards.md
@@ -616,7 +616,7 @@ items:
         href: service-publish-to-web.md
       - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-      - name: Издатель Power BI для Excel
+      - name: Издатель Power BI для Excel
         href: publisher-for-excel.md
     - name: Самостоятельная подготовка данных
       items:
@@ -843,7 +843,13 @@ items:
     - name: Поддерживаемые языки и страны (регионы)
       href: supported-languages-countries-regions.md
     - name: Технические документы
-      href: whitepapers.md
+      items:
+      - name: Обзор технической документации
+        href: whitepapers.md
+      - name: Технический документ по обеспечению безопасности в Power BI
+        href: whitepaper-powerbi-security.md
+      - name: Развертывание Power BI Premium
+        href: whitepaper-powerbi-premium-deployment.md
 - name: Power BI для разработчиков
   items:
   - name: Какие возможности Power BI предоставляет разработчикам
@@ -870,7 +876,7 @@ items:
         href: developer/embedded-performance-best-practices.md
       - name: Субъект-служба
         href: developer/embed-service-principal.md
-      - name: Безопасность на уровне строк
+      - name: Защита на уровне строк
         href: developer/embedded-row-level-security.md
       - name: Управление несколькими арендаторами
         href: developer/embed-multi-tenancy.md
@@ -948,7 +954,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stack Overflow
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Настройка элементов
+  - name: Пользовательские визуальные элементы
     items:
     - name: Обзор
       items:
@@ -1036,6 +1042,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Добавление строк в таблицу
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Настройка учетных данных
+        href: developer/configure-credentials.md
       - name: Шифрование учетных данных
         href: developer/encrypt-credentials.md
     - name: Справка
@@ -1226,7 +1234,7 @@ items:
       href: service-admin-administering-power-bi-in-your-organization.md
   - name: Основные понятия
     items:
-    - name: Power BI Premium
+    - name: Power BI Premium
       items:
       - name: Что такое Power BI Premium?
         href: service-premium.md
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826705"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892443"
