@@ -2,20 +2,21 @@
 title: Подписка на отчеты и панели мониторинга
 description: Узнайте, как оформить для себя и своих коллег подписку на моментальные снимки отчета и панели мониторинга Power BI по электронной почте.
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 02/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e8d849c711bb190951feffca072a883137275af7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 99501c6acc54188e2e87f0ae93354cac8116273c
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661791"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327948"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Подписка на отчет или панель мониторинга в службе Power BI 
 Теперь получать актуальные версии важных панелей мониторинга и отчетов стало проще, чем когда-либо. Подпишитесь на страницы наиболее важных отчетов и панели мониторинга, и Power BI будет отправлять вам моментальные снимки по электронной почте. Вы можете указать, с какой частотой это нужно делать: ежедневно, еженедельно или при обновлении данных. Можно даже задать конкретное время отправки сообщений электронной почты службой Power BI или отправить их немедленно.  

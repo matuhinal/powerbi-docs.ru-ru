@@ -1,6 +1,7 @@
 ---
 title: Журнал изменений для сервера отчетов Power BI
 description: Этот журнал изменений предназначен для сервера отчетов Power BI и содержит новые элементы, а также исправления ошибок для каждой выпущенной сборки.
+ms.author: jtarquino
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -8,13 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.author: jtarquino
-ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224049"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327971"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 
@@ -23,6 +23,7 @@ ms.locfileid: "56224049"
 Дополнительные сведения о новых возможностях см. в статье [Новые возможности сервера отчетов Power BI](whats-new.md). 
 
 ## <a name="january-2019"></a>Январь 2019 г.
+
 - **Сервер отчетов Power BI**            
     - *Версия 1.4.6969.7395 (сборка 15.0.1102.235), дата выпуска: 30 января 2019 г.*
         - Исправленные ошибки
@@ -65,6 +66,7 @@ ms.locfileid: "56224049"
         - Содержит изменения, необходимые для подключения к серверу отчетов Power BI (январь 2019 г.).  
 
 ## <a name="august-2018"></a>Август 2018 г.
+
 - **Сервер отчетов Power BI**
     - *Версия 1.3.6816.37243 (сборка 15.0.2.557), дата выпуска: 30 августа 2018 г.*
         - Исправленные ошибки
@@ -86,6 +88,7 @@ ms.locfileid: "56224049"
         - Содержит изменения, необходимые для подключения к серверу отчетов Power BI (август 2018 г.).         
         
 ## <a name="march-2018"></a>Март 2018 г.
+
 - **Сервер отчетов Power BI**
     - *Версия 1.2.6690.34729 (сборка 15.0.2.402), дата выпуска: 27 апреля 2018 г.*
         - Исправленные ошибки

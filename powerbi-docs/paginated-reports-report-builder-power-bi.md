@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
-ms.openlocfilehash: d3563b80813b0c08377e7ecaec89439197c2014f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324641"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014192"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium (предварительная версия)
 
@@ -24,7 +24,7 @@ ms.locfileid: "56324641"
 
 ![Отчет с разбивкой на страницы в службе Power BI](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI http://app.powerbi.com. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в своей рабочей области или в рабочей области приложений, если эта рабочая область находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы через портал администрирования Power BI. Изучите дополнительные сведения о [настройке рабочих нагрузок](service-admin-premium-manage.md#configure-workloads). 
+Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI http://app.powerbi.com. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в своей рабочей области или в рабочей области приложений, если эта рабочая область находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы через портал администрирования Power BI. 
 
 ## <a name="create-reports-in-report-builder"></a>Создание отчетов в Построителе отчетов
 

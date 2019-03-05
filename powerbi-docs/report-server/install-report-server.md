@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324905"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014445"
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -37,11 +37,11 @@ ms.locfileid: "56324905"
 
 Если вы приобрели Power BI Premium, то на вкладке **Параметры Premium** портала администрирования Power BI сможете получить ключ продукта для сервера отчетов Power BI. Это доступно только глобальным администраторам или пользователям, которым назначена роль администратора службы Power BI.
 
-![Параметры версии Premium](../media/service-admin-premium-manage/pbirs-product-key.png "Ключ сервера отчетов Power BI в параметрах версии Premium")
+![Параметры версии Premium](../report-server/media/install-report-server/pbirs-product-key.png "Ключ сервера отчетов Power BI в параметрах версии Premium")
 
 Нажмите **Ключ сервера отчетов Power**, и появится диалоговое окно с вашим ключом продукта. Вы можете скопировать его и использовать при установке.
 
-![Ключ продукта](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Ключ продукта для сервера отчетов Power BI")
+![Ключ продукта](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Ключ продукта для сервера отчетов Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 
