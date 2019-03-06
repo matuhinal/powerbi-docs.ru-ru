@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-visuals
+ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426799"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461679"
 ---
 # <a name="key-influencers-visualization"></a>Визуализация ключевых факторов влияния
 Визуализация ключевых факторов влияния поможет понять, какие факторы влияют на метрики, которые вас интересуют. Она анализирует данные, ранжирует факторы, которые важны, и отображает их в виде ключевых факторов влияния. Например, вы хотите понять, что влияет на текучку среди сотрудников. Одним из факторов может быть длина контракта, другим может быть возраст сотрудников. 
