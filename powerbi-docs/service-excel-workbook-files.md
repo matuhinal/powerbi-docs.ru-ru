@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8568013438f6be84b2d4a48efdeffd99db352ed8
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285629"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892374"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Получение данных из файлов книг Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -78,7 +78,7 @@ Power BI поддерживает следующие типы данных: це
 
 Книгу нельзя редактировать в Power BI. Но если необходимо внести какие-либо изменения, нажмите кнопку "Изменить" и отредактируйте книгу в Excel Online или откройте ее в Excel на своем компьютере. Любые внесенные изменения сохраняются в книге в OneDrive.
 
-При выборе этого способа набор данных в Power BI не создается. Книга будет отображаться на панели навигации по рабочей области Power BI в разделе "Отчеты". Подключенные книги обозначены специальным значком Excel.
+При выборе этого способа Power BI создаст соответствующий набор данных для подключенной книги. При необходимости можно использовать этот набор данных, чтобы создать отчет Power BI. Книга будет также отображаться на панели навигации по рабочей области Power BI в разделе "Отчеты". Подключенные книги обозначены специальным значком Excel.
 
 Выберите этот параметр, только если хотите закрепить на информационных панелях какие-либо данные с листов, диапазоны, сводные таблицы или диаграммы.
 

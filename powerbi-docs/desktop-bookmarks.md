@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325047"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892420"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Использование закладок для обмена аналитическими сведениями и создания историй в Power BI 
 С помощью **закладок** в Power BI вы можете сохранить текущие настройки представления страницы отчета, включая фильтрацию и состояние визуальных элементов, а затем вернуться к этому состоянию позже, просто выбрав сохраненную закладку. 
@@ -25,6 +25,9 @@ ms.locfileid: "56325047"
 ![Закладки в Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
 Существует множество вариантов применения закладок. Их можно использовать, чтобы оценивать свои навыки создания отчетов (закладки удобно добавлять, удалять и переименовывать). Для создания презентации по типу PowerPoint вы можете создать закладки с возможностью последовательного перехода. Закладки также можно применять и другими способами, в зависимости от того, какие больше всего подходят вам.
+
+> [!TIP]
+> Сведения об использовании личных закладок в службе Power BI см. в [объявлении в блоге](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) о соответствующей функции. 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Включение предварительной версии функции закладок (версии, выпущенные до марта 2018 г.)
 Начиная с версии Power BI Desktop за март 2018 г., функция закладок становится общедоступной. 

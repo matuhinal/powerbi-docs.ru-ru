@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899234"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892282"
 ---
 # <a name="connect-to-an-oracle-database"></a>Подключение к базе данных Oracle
 Для подключения к базе данных Oracle с помощью **Power BI Desktop** необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили — **32-разрядную** или **64-разрядную**.
@@ -43,8 +43,13 @@ ms.locfileid: "54899234"
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
 2. В появившемся диалоговом окне **База данных Oracle** укажите имя сервера и выберите **Подключить**. Если требуется идентификатор безопасности (SID), можно указать его в формате *имя_сервера/SID*, где SID — это уникальное имя базы данных. Если формат *ИмяСервера/SID* не подходит, попробуйте использовать формат *ИмяСервера/ИмяСлужбы*, где ИмяСлужбы — это псевдоним, используемый при подключении.
-   
+
+
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+
+   > [!TIP]
+   > При возникновении проблем с подключением на этом шаге используйте следующий формат в поле "Имя сервера": (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   
 3. Если вы хотите импортировать данные с помощью собственного запроса к базе данных, запрос можно поместить в поле **Инструкция SQL**, которое доступно при развертывании раздела **Дополнительные параметры** диалогового окна **База данных Oracle**.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
