@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215649"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555588"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Экспорт отчетов в PDF из Power BI Desktop
-С помощью **Power BI Desktop** можно экспортировать отчеты в PDF-файл, а затем поделиться ими или напечатать их.
+С помощью **Power BI Desktop** или службы Power BI можно экспортировать отчеты в PDF-файлы, а затем поделиться ими или распечатать их.
 
-![Экспорт в PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
+![Экспортировать в PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
 Процесс экспорта отчета из **Power BI Desktop** в формат PDF для его печати или совместного использования довольно прост. В Power BI Deskop выберите **Файл > Экспорт в PDF**.
 
@@ -35,7 +35,6 @@ ms.locfileid: "56215649"
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 Существуют определенные рекомендации, которые следует учитывать при использовании функции **Экспорт в PDF**.
 
-* Функция **Экспорт в PDF** доступна только при использовании **Power BI Desktop** и пока недоступна в **службе Power BI**.
 * Функция выполняет экспорт пользовательских визуальных элементов, но при этом *не* экспортирует фоновый рисунок отчета.
 
 По этой причине следует обратить особое внимание на отчеты с темным фоновым рисунком. Если текст в отчете светлый или белый (для выделения на темном фоне), его будет сложно или даже невозможно прочитать после экспорта в PDF, так как фоновый рисунок не будет экспортирован с остальным отчетом. 
