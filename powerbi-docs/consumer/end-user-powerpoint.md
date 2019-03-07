@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3563c19630d481f1d3601e314ee13e1aef5c597d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661820"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014307"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Экспорт отчетов из Power BI в PowerPoint
 В Power BI можно опубликовать отчет в **Microsoft PowerPoint** и без труда создать на его основе набор слайдов. При **экспорте в PowerPoint** происходит следующее:
@@ -87,6 +87,7 @@ ms.locfileid: "56661820"
 * Страницы в PowerPoint всегда создаются в стандартном размере 16:9 независимо от размеров или параметров исходной страницы в отчете Power BI.
 * Отчеты, принадлежащие пользователям вне домена клиента Power BI (например, отчет, принадлежащий пользователю не из вашей организации, к которому он предоставил вам доступ), нельзя опубликовать в PowerPoint.
 * Если вы совместно используете панель мониторинга с кем-либо не из вашей организации (то есть этот пользователь находится вне клиента Power BI), этот пользователь не сможет экспортировать отчеты, связанные с общей панелью мониторинга, в PowerPoint. Например, если вы aaron@contoso.com, вы сможете предоставить общий доступ david@cohowinery.com. Но david@cohowinery.com не может экспортировать связанные отчеты в PowerPoint.
+* Экспорт может не работать с более ранними версиями PowerPoint.
 * Как упоминалось ранее, каждая страница отчета экспортируется в виде одного изображения в файл PowerPoint.
 * Служба Power BI использует параметр языка Power BI в качестве языка для экспорта в PowerPoint. Чтобы просмотреть или настроить параметры языка, выберите значок ![шестеренки](media/end-user-powerpoint/power-bi-settings-icon.png) **> "Параметры" > "Общие" > "Язык"**.
 * Время **загрузки** на слайде-обложке экспортированного файла PowerPoint совпадает с часовым поясом вашего компьютера во время экспорта.

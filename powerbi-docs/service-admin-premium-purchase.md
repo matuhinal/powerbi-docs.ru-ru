@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892397"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014146"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
-В этой статье приводятся сведения о том, как приобрести емкость Power BI Premium (P1–P3) для организации. Емкость Power BI Premium можно приобрести в Центре администрирования Office 365, а [управление емкостями](service-admin-premium-manage.md) осуществляется на портале администрирования Power BI. Актуальные цены и сведения о планировании см. на [странице цен на Power BI](https://powerbi.microsoft.com/pricing/) и воспользуйтесь [калькулятором Power BI Premium](https://powerbi.microsoft.com/calculator/).
+> [!NOTE]
+> Сейчас эта статья перерабатывается для описания новых функций, предоставления более подробных сведений и повышения удобочитаемости. 
+
+В этой статье приводятся сведения о том, как приобрести емкость Power BI Premium (P1–P3) для организации. Емкость Power BI Premium можно приобрести в Центре администрирования Office 365, а управление емкостями осуществляется на портале администрирования Power BI. Актуальные цены и сведения о планировании см. на [странице цен на Power BI](https://powerbi.microsoft.com/pricing/) и воспользуйтесь [калькулятором Power BI Premium](https://powerbi.microsoft.com/calculator/).
 
 Авторам содержимого по-прежнему требуется лицензия Power BI Pro, даже если в организации используется Power BI Premium. Для организации необходимо приобрести по меньшей мере одну лицензию Power BI Pro.
 

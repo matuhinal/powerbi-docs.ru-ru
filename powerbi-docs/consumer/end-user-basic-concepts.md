@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662267"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196466"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Основные концепции для ***пользователей*** службы Power BI
 
@@ -88,6 +88,10 @@ _______________________________________________________
 * визуализации из этого одного набора данных можно отображать на нескольких разных панелях мониторинга.
   
   ![набор данных: отношения "многие к одному"](media/end-user-basic-concepts/drawing2.png)
+
+Кроме того, наборы данных из других рабочих областей можно использовать для создания содержимого (отчеты, панели мониторинга) в своей рабочей области. Эти наборы данных отображаются со значком упоминаемого набора данных: 
+
+![база данных со значком ссылки](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 Следующий стандартный блок — визуализации.
 __________________________________________________________

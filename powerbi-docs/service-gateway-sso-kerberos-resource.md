@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f13074c2123808e7b26d40f9c5a7e20cbf0da6e4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291811"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226119"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos (на основе ресурсов) для единого входа из Power BI в локальные источники данных
 
@@ -39,7 +39,7 @@ ms.locfileid: "54291811"
 
 ![Учетная запись домена](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Чтобы включить **ограниченное делегирование Kerberos, шлюз необходимо запускать как учетную запись домена, если служба Azure AD уже синхронизирована с локальным каталогом Active Directory (с помощью Azure AD DirSync или Connect). Если вам нужно переключиться на учетную запись домена, см. раздел [Переключение шлюза на учетную запись домена](service-gateway-sso-kerberos.md#switching-the-gateway-to-a-domain-account) далее в этой статье.
+Чтобы включить **ограниченное делегирование Kerberos, шлюз необходимо запускать как учетную запись домена, если служба Azure AD уже синхронизирована с локальным каталогом Active Directory (с помощью Azure AD DirSync или Connect). Если вам нужно переключиться на учетную запись домена, см. раздел [Переключение шлюза на учетную запись домена](service-gateway-sso-kerberos.md).
 
 Если настроены Azure AD DirSync или Connect и учетные записи синхронизированы, службе шлюза не требуется выполнять поиск в локальной службе AD на этапе выполнения. Для службы шлюза допускается использовать локальный идентификатор безопасности (вместо учетной записи домена). Этапы настройки ограниченного делегирования Kerberos, описанные в этой статье, будут аналогичными для такой конфигурации (они просто применяются к объекту компьютера службы в Active Directory, а не учетной записи домена).
 
@@ -83,9 +83,9 @@ ms.locfileid: "54291811"
 
 Далее предполагается использование локальной среды с двумя компьютерами в разных доменах: компьютер шлюза и сервер баз данных с SQL Server. Для примера используем параметры и имена, указанные ниже.
 
-- Имя компьютера шлюза: **PBIEgwTestGW**
+- Имя компьютера шлюза: **PBIEgwTestGW**.
 - Учетная запись службы шлюза: **PBIEgwTestFrontEnd\GatewaySvc** (отображаемое имя учетной записи: соединитель шлюза)
-- Имя компьютера источника данных SQL Server: **PBIEgwTestSQL**
+- Имя компьютера источника данных SQL Server: **PBIEgwTestSQL**.
 - Учетная запись для службы источника данных SQL Server: **PBIEgwTestBackEnd\SQLService**
 
 Учитывая эти примеры имен и параметров, выполните настройки, описанные ниже.

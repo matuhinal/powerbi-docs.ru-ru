@@ -8,19 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 02/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
-ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
+ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56725347"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226142"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Что такое Microsoft Power BI Premium?
 
-Microsoft Power BI Premium предоставляет ресурсы, выделенные для выполнения службы Power BI для вашей организации. Это решение обеспечивает более стабильную производительность при работе с большими объемами данных. Power BI Premium также обеспечивает широкое распространение содержимого без необходимости приобретать лицензии Pro для каждого пользователя, использующего содержимое.  
+> [!NOTE]
+> Сейчас эта статья перерабатывается для описания новых функций, предоставления более подробных сведений и повышения удобочитаемости. Актуальные сведения см. в статье [Развертывание емкостей Power BI Premium и управление ими](whitepaper-powerbi-premium-deployment.md).
+
+Power BI Premium предоставляет выделенные ресурсы для выполнения службы Power BI для вашей организации. Это решение обеспечивает более стабильную производительность при работе с большими объемами данных. Power BI Premium также обеспечивает широкое распространение содержимого без необходимости приобретать лицензии Pro для каждого пользователя, использующего содержимое.  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Общая емкость и емкость Premium
 
@@ -79,9 +82,7 @@ Power BI Premium предоставляется в виде узлов с раз
 
 ## <a name="workloads-in-premium-capacity"></a>Рабочие нагрузки в емкости Premium
 
-Рабочие нагрузки в Power BI можно рассматривать как одну из многих служб, предоставляемых пользователям. По умолчанию емкости **Power BI Premium** и **Power BI Embedded** поддерживают только рабочие нагрузки, связанные с выполнением запросов Power BI в облаке.
-
-Теперь мы предлагаем поддержку двух дополнительных рабочих нагрузок в режиме предварительной версии: **Отчеты с разбивкой на страницы** и **Потоки данных**. Эти рабочие нагрузки вы можете включить на портале администрирования Power BI или с помощью REST API для Power BI. Также можно задать максимальный объем памяти, который сможет использовать каждая рабочая нагрузка, чтобы ограничить влияние разных рабочих нагрузок друг на друга. Дополнительные сведения см. в статье [о настройке рабочих нагрузок](service-admin-premium-manage.md#configure-workloads).
+По умолчанию емкости **Power BI Premium** и **Power BI Embedded** поддерживают только рабочие нагрузки, связанные с выполнением запросов Power BI в облаке. Версия Premium также поддерживает дополнительные рабочие нагрузки для **ИИ**, **потоков данных** и **отчетов с разбивкой на страницы**. Эти рабочие нагрузки вы можете включить на портале администрирования Power BI или с помощью REST API для Power BI. Также можно задать максимальный объем памяти, который сможет использовать каждая рабочая нагрузка, чтобы ограничить влияние разных рабочих нагрузок друг на друга. Дополнительные сведения см. в статье [Настройка рабочих нагрузок](service-admin-premium-workloads.md).
 
 ### <a name="default-memory-settings"></a>Параметры памяти по умолчанию
 
@@ -114,10 +115,10 @@ Power BI Premium также включает возможность локаль
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Вопросы и ответы по Power BI Premium](service-premium-faq.md)
-[Как купить Power BI Premium](service-admin-premium-purchase.md)
-[Управление Power BI Premium](service-admin-premium-manage.md)
-[Технический документ по Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-[Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
+[Развертывание емкостей Power BI Premium и управление ими](whitepaper-powerbi-premium-deployment.md)   
+[Как купить Power BI Premium](service-admin-premium-purchase.md)   
+[Вопросы и ответы по Power BI Premium](service-premium-faq.md)   
+
+
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

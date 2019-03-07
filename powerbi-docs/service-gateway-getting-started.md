@@ -1,5 +1,5 @@
 ---
-title: Что такое шлюзы Power BI?
+title: Что такое локальные шлюзы данных?
 description: Узнайте основные сведения о шлюзах данных для Power BI.
 author: mgblythe
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: f1ae47dcb7c9281db018952d619691607d331003
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324491"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461656"
 ---
-# <a name="what-are-power-bi-gateways"></a>Что такое шлюзы Power BI?
+# <a name="what-are-on-premises-data-gateways"></a>Что такое локальные шлюзы данных?
 
 Шлюз Power BI — это программное обеспечение, установленное в локальной сети, которое упрощает доступ к данным в этой сети. Он похож на "привратника", который прослушивает запросы пользователей на подключение и выполняет их только при соответствии определенным условиям. Это позволяет организациям хранить базы данных и другие источники данных в локальной сети, сохраняя возможность безопасно использовать эти данные в отчетах и на панелях мониторинга Power BI.
 

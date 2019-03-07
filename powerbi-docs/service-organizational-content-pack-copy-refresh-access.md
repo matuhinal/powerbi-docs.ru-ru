@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296132"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196443"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Пакеты содержимого организации: Копирование, обновления и получение доступа
 
@@ -36,6 +36,12 @@ ms.locfileid: "54296132"
 2. Нажмите кнопку **Сохранить**.  
 
 Теперь у вас есть копия, которую можно изменять. Никто другой не увидит ваши изменения.
+
+> [!NOTE]
+> Ранее при каждой установке пакета содержимого или создании его копии в списке содержимого рабочей области появлялся новый набор данных. Недавнее обновление упростило эту процедуру, теперь отображается всего один элемент и используется новый значок упоминаемого набора данных:
+>
+> ![база данных со значком ссылки](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Помогите!  Мне больше не доступен пакет контента
 Это может произойти по следующим причинам.

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: a3dbd1229360b641d343c6142b45446f36963803
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216362"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014284"
 ---
 # <a name="certified-custom-visuals"></a>Сертификация пользовательских визуальных элементов
 
@@ -165,6 +165,10 @@ ms.locfileid: "56216362"
 | [Список пользователей от CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426) | |
 | [Вафельная диаграмма](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049) | [Видео](https://youtu.be/1vRqYUsm3Vk) |
 | [Облако Word](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752) | [Видео](https://youtu.be/AblTenl9fqo) |
+
+## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+
+Дополнительные сведения о визуальных элементах см. в разделе [Часто задаваемые вопросы о сертифицированных визуальных элементах](power-bi-custom-visuals-faq.md#certified-custom-visuals).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
