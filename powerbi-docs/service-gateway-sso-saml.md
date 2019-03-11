@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327741"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555662"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Используйте SAML для единого входа (SSO) из Power BI в локальные источники данных
 
@@ -38,6 +38,8 @@ ms.locfileid: "57327741"
     ```
 
 1. В SAP HANA Studio щелкните правой кнопкой мыши сервер SAP HANA, а затем перейдите к разделу **Безопасность** > **Открыть консоль безопасности** > **Поставщик удостоверений SAML** > **Криптографическая библиотека OpenSSL**.
+
+    Вы также можете при установке вместо OpenSSL использовать криптографическую библиотеку SAP (также известную как CommonCryptoLib или sapcrypto). Дополнительные сведения см. в официальной документации SAP.
 
 1. Выберите команду **Импортировать** , перейдите к файлу samltest.crt и импортируйте его.
 
@@ -121,6 +123,37 @@ ms.locfileid: "57327741"
 Теперь вы можете использовать страницу **Управление шлюзом** в Power BI, чтобы настроить источник данных и в списке **Дополнительные параметры** включить функцию единого входа. Затем можно будет публиковать отчеты и наборы данных с привязкой к этому источнику данных.
 
 ![Дополнительные настройки](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>Устранение неполадок
+
+После настройки единого входа вы можете увидеть на портале Power BI следующую ошибку: "Указанные учетные данные невозможно использовать для источника SapHana." Эта ошибка означает, что учетные данные SAML были отклонены SAP HANA.
+
+Для устранения неполадок с учетными данными в SAP HANA вы можете получить подробные сведения о проверке подлинности, используя трассировки. Чтобы настроить трассировку для сервера SAP HANA, выполните следующие действия.
+
+1. На сервере SAP HANA включите трассировку проверки подлинности, запустив следующий запрос.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. Воспроизведите возникшую проблему.
+
+1. В HANA Studio откройте консоль администрирования и перейдите на вкладку **Diagnosis Files** (Файлы диагностики).
+
+1. Откройте последнюю трассировку indexserver и найдите SAMLAuthenticator.cpp.
+
+    В файле должно быть подробное сообщение об ошибке с указанием основной причины, как в следующем примере.
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. После завершения устранения неполадок отключите трассировку проверки подлинности, выполнив следующий запрос.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
