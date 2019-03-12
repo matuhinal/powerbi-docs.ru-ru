@@ -10,16 +10,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249167"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757422"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
 С помощью **Power BI Embedded в Azure** вы можете встраивать отчеты, информационные панели или плитки в приложение с помощью данных, принадлежащих ему. Модель **данных, принадлежащих приложению**, позволяет приложению использовать Power BI как встроенную платформу аналитики. Как **разработчик и независимый поставщик программного обеспечения** вы можете создавать содержимое Power BI, отображающее отчеты, информационные панели или плитки в приложении. При этом приложение будет полностью интегрированным и интерактивным, а пользователям не потребуется лицензия Power BI. Из этого руководства вы узнаете, как интегрировать отчет в приложение с помощью пакета SDK Power BI для .NET и API JavaScript для Power BI при использовании**Power BI Embedded в Azure** для ваших клиентов.
+
+![Внедрение отчета Power BI](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 Из этого руководства вы узнаете, как выполнять следующие задачи:
 > [!div class="checklist"]

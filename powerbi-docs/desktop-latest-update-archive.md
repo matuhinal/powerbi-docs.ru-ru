@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 50dd529366a06cc46b2ca906bfc8987a3988cb72
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 92b2026be33a6be25c4ad27c0d563a811eb0f4e6
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56226082"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580342"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -107,6 +107,7 @@ ms.locfileid: "56226082"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
 
 ## <a name="november-2018-update-2645285461"></a>Обновление за ноябрь 2018 года (2.64.5285.461)
 
@@ -434,7 +435,7 @@ ms.locfileid: "56226082"
 
 * Детализация мер [[видео]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[статья]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
-### <a name="power-bi-premium"></a>Power BI Premium
+### <a name="power-bi-premium"></a>Power BI Premium
 
 * Добавочное обновление (предварительная версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[статья]](service-premium-incremental-refresh.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
