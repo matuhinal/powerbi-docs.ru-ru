@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292082"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580043"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -54,7 +54,7 @@ ms.locfileid: "54292082"
 ## <a name="limitations-of-power-bi-us-government"></a>Ограничения Power BI для государственных организаций США
 Некоторые функции, доступные в коммерческой версии **службы Power BI**, *отсутствуют* в версии **службы Power BI** для государственных организаций США. Команда разработчиков Power BI прилагает все усилия, чтобы сделать эти функции доступными для клиентов из государственных организаций США. Когда они станут доступными, эта статья будет обновлена.
 
-* **Внедрить в SharePoint Online**. Вы не можете внедрять содержимого в SharePoint Online с помощью веб-части Power BI.
+* **Внедрить в SharePoint Online**. Вы не можете внедрять содержимого в SharePoint Online с помощью веб-части Power BI. Однако безопасное внедрение не работает при использовании веб-части [*Embed*](https://docs.microsoft.com/power-bi/service-embed-secure). Нужно добавить *app.powerbigov.us* в список исключений, для чего можно выполнить инструкции из статьи [Разрешение или запрет на внедрение контента на страницы SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * Служба **Power BI для государственных организаций США** доступна только в рамках лицензии **Pro**. Все ссылки на лицензии Power BI (бесплатные) на портале администрирования (или как пользователи) выполняются в коммерческой облачной службе Power BI.
 * **Аудит**. С июня 2018 г. аудит доступен в Центре безопасности и соответствия требованиям на портале Office 365.
 * **Содержимое Power BI в Cortana**. Результаты из Power BI не будут отображаться в результатах поиска Cortana. Это относится к результатам поиска по содержимому Power BI (панели мониторинга, отчеты, приложения), а также к оптимизированным страницам Cortana с отчетами по отдельным ключевым словам.

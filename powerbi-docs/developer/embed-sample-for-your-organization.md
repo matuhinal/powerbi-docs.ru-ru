@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 6a6dc71d68fa7ff136d35cbfb185b96db8e0589e
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.date: 03/12/2019
+ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249443"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757468"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -26,116 +26,45 @@ ms.locfileid: "56249443"
 В этом руководстве вы выполните следующие задачи:
 > [!div class="checklist"]
 > * регистрация приложения в Azure;
-> * внедрение отчета Power BI в приложение.
+> * внедрение отчета Power BI в приложение с помощью клиента Power BI.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-Чтобы начать работу, вам потребуются учетная запись Power BI Pro и подписка Microsoft Azure:
+Для работы вам понадобятся:
 
-* Если вы не зарегистрированы в Power BI Pro, перед началом работы [пройдите регистрацию для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/).
-* Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
-* Настройте свой [клиент Azure Active Directory (Azure AD)](create-an-azure-active-directory-tenant.md).
-* Установите [Visual Studio](https://www.visualstudio.com/) версии 2013 или более поздней.
+* [учетная запись Power BI Pro](../service-self-service-signup-for-power-bi.md);
+* подписка [Microsoft Azure](https://azure.microsoft.com/);
+* собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
+
+Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
+
+Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Настройка среды разработки для встроенной аналитики
 
-Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, внедрение необходимо настроить в вашей среде. Для настройки выполните одно из следующих действий:
+Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, необходимо убедиться, что среда допускает внедрение с помощью Power BI.
 
-* Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения, с помощью которого можно создать среду и внедрить отчет.
+Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета.
 
-* Если вы решили установить среду вручную, следуйте инструкциям в следующих разделах.
+Если вы решили настроить среду вручную, см. инструкции ниже.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Регистрация приложения в Azure Active Directory
 
-Регистрация приложения в Azure Active Directory нужна для того, чтобы предоставить приложению доступ к REST API Power BI. Это позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
+[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
 
-1. Примите [условия использования API Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
-
-2. Войдите на [портал Azure](https://portal.azure.com).
-
-    ![Панель мониторинга Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
-
-3. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**. Затем выберите **Регистрация нового приложения**.
-
-    ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
-
-    ![Регистрация нового приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
-
-4. Следуя инструкциям на экране, создайте приложение. Чтобы применить модель **данных, принадлежащих пользователю**, используйте **тип приложения** **веб-приложение или API**. Укажите **URL-адрес входа**, который требуется в Azure AD для возврата ответов на запросы токенов. Введите значение, относящееся к вашему приложению. Например, `http://localhost:13526/`.
-
-    ![Создание приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
-
-### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Предоставление разрешений для приложения в Azure AD
-
-Кроме разрешений, представленных на странице регистрации приложения, потребуется несколько дополнительных разрешений. Войдите с учетной записью глобального администратора, чтобы включить разрешения.
-
-### <a name="use-the-azure-active-directory-portal"></a>Использование портала Azure Active Directory
-
-1. На портале Azure перейдите к колонке [Регистрация приложений](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) и выберите приложение, используемое для внедрения.
-
-    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
-
-2. Выберите **Параметры**. В разделе **Доступ через API** выберите **Необходимые разрешения**.
-
-    ![Необходимые разрешения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-008.png)
-
-3. Выберите **Microsoft Azure Active Directory**. Затем установите флажок **Осуществлять доступ к каталогу как пользователь, выполнивший вход**. Нажмите кнопку **Сохранить**.
-
-    ![Разрешения Windows Azure AD](media/embed-sample-for-your-organization/embed-sample-for-your-organization-011.png)
-
-4. Нажмите кнопку **Добавить**.
-
-    ![Добавление разрешений](media/embed-sample-for-your-organization/embed-sample-for-your-organization-012.png)
-
-5. Щелкните **Выбор API**.
-
-    ![Добавление доступа через API](media/embed-sample-for-your-organization/embed-sample-for-your-organization-013.png)
-
-6. Выберите **Служба Power BI**. Затем нажмите **Выбрать**.
-
-    ![Выбор службы Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-014.png)
-
-7. Установите все разрешения в разделе **Делегированные разрешения**. Их необходимо выбирать по одному, чтобы сохранить настройки. После завершения щелкните **Сохранить**.
-
-    ![Выбор делегированных разрешений](media/embed-sample-for-your-organization/embed-sample-for-your-organization-015.png)
+Вам нужно зарегистрировать **веб-приложение на стороне сервера**, чтобы создать секрет приложения.
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 
 ### <a name="create-an-app-workspace"></a>Создание рабочей области приложения
 
-Если вы планируете внедрить отчеты, панели мониторинга и (или) плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области этого приложения:
-
-1. Начнем с создания рабочей области. Выберите **Рабочие области** > **Создать рабочую область приложения**. В этой рабочей области вы будете размещать содержимое, к которому нужен доступ из приложения.
-
-    ![Создание рабочей области](media/embed-sample-for-your-organization/embed-sample-for-your-organization-020.png)
-
-2. Присвойте рабочей области имя. Если соответствующее поле **Workspace ID** (Идентификатор рабочей области) недоступно, измените это имя, чтобы указать уникальный идентификатор. Это имя также должно быть именем приложения.
-
-    ![Присваивание имени рабочей области](media/embed-sample-for-your-organization/embed-sample-for-your-organization-021.png)
-
-3. Вы можете выбрать один из доступных вариантов. Если вы выбрали **Общедоступный**, все пользователи организации смогут просматривать содержимое рабочей области. Если выбрать **Частный**, только члены рабочей области смогут просматривать ее содержимое.
-
-    ![Общедоступная или частная](media/embed-sample-for-your-organization/embed-sample-for-your-organization-022.png)
-
-    После создания группы изменить параметр открытого или закрытого доступа нельзя.
-
-4. Вы также можете задать права для членов и разрешить редактирование или только просмотр.
-
-    ![Настройка доступа для членов](media/embed-sample-for-your-organization/embed-sample-for-your-organization-023.png)
-
-5. Добавьте адреса электронной почты сотрудников, которым необходимо предоставить доступ к рабочей области, и нажмите кнопку **Добавить**. Вы не можете добавлять псевдонимы групп, а только отдельных пользователей.
-
-6. Предоставьте каждому пользователю либо права участника, либо администратора. Администраторы могут самостоятельно изменять рабочую область, в том числе добавлять других участников. Участники могут изменять содержимое рабочей области (за исключением тех случаев, когда они имеют доступ только на просмотр). Публиковать приложения могут и администраторы, и участники.
-
-    Теперь можно перейти к просмотру новой рабочей области. После этого служба Power BI создаст рабочую область и откроет ее. Она отображается в списке рабочих областей, в которые вы входите. Администратор может щелкнуть многоточие (…), чтобы вернуться и внести изменения в рабочую область, например добавить новых участников или изменить разрешения.
-
-    ![Создать рабочую область приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-025.png)
+Если вы планируете внедрить отчеты, информационные панели и (или) плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области этого приложения. Можно настроить рабочие области разных типов: [традиционные](../service-create-workspaces.md) или [новые](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-reports"></a>Создание и публикация отчетов
 
 С помощью Power BI Desktop можно создавать отчеты и наборы данных. Затем можно публиковать эти отчеты в рабочей области приложения. У пользователя, публикующего отчеты в рабочей области приложения, должна быть лицензия Power BI Pro.
 
-1. Скачайте пример [демонстрационной версии блога](https://github.com/Microsoft/powerbi-desktop-samples) из GitHub.
+1. Скачайте [демонстрационный](https://github.com/Microsoft/powerbi-desktop-samples) пример из GitHub.
 
     ![Загрузка демонстрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
 
@@ -153,83 +82,129 @@ ms.locfileid: "56249443"
 
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 
-Следуйте инструкциям, чтобы внедрить содержимое с помощью примера приложения.
+Этот пример намеренно упрощен в целях наглядности.
 
-1. Чтобы начать работу, скачайте [пример с данными, принадлежащими пользователю](https://github.com/Microsoft/PowerBI-Developer-Samples), из GitHub. Примеров приложений три: для [отчетов](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app), [панелей мониторинга](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) и [плиток](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app). В этой статье рассматривается приложение для **отчетов**.
+Чтобы приступить к внедрению содержимого, используя пример приложения, выполните указанные ниже действия.
+
+1. Скачайте [Visual Studio](https://www.visualstudio.com/) (версии 2013 или более поздней). Обязательно скачайте последнюю версию [пакета NuGet](https://www.nuget.org/profiles/powerbi).
+
+2. Чтобы начать работу, скачайте [пример с данными, принадлежащими пользователю](https://github.com/Microsoft/PowerBI-Developer-Samples), из GitHub.
 
     ![Пример приложения с данными, принадлежащими пользователю](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Откройте файл **Cloud.config** в примере приложения. Здесь есть несколько полей, которые нужно заполнить, чтобы запустить приложение: **ApplicationID** и **ApplicationSecret**.
+3. Откройте файл **Cloud.config** в примере приложения.
+
+    Здесь есть поля, которые нужно заполнить, чтобы успешно запустить приложение.
+
+    | Поле |
+    |--------------------|
+    | **[Идентификатор приложения](#application-id)** |
+    | **[Секрет приложения](#application-secret)** |
+    | **[Идентификатор рабочей области](#workspace-id)** |
+    | **[Идентификатор отчета](#report-id)** |
+    | **[AADAuthorityUrl](#aadauthorityurl)** |
 
     ![Файл Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Укажите в поле **ApplicationID** значение **идентификатора приложения** из Azure. Поле **ApplicationID** используется приложением для его идентификации пользователями, у которых запрашиваются разрешения.
+### <a name="application-id"></a>Идентификатор приложения
 
-    Чтобы получить значение **ApplicationID**, сделайте следующее.
+Укажите в поле **applicationId** значение **идентификатора приложения** из **Azure**. Поле **applicationId** используется приложением для его идентификации для пользователей, у которых запрашиваются разрешения.
 
-    1. Войдите на [портал Azure](https://portal.azure.com).
+Чтобы получить значение **applicationId**, сделайте следующее.
 
-       ![Панель мониторинга портала Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+1. Войдите на [портал Azure](https://portal.azure.com).
 
-    2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
+2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-       ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![Поиск приложений для регистрации](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    3. Выберите приложение, для которого нужно использовать **ApplicationID**.
+3. Выберите приложение, для которого требуется **applicationId**.
 
-       ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Выбор приложения](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    4. Отобразится **идентификатор приложения**, указанный в поле идентификатора GUID. Поместите этот **идентификатор приложения** в поле **ApplicationID** приложения.
+4. В поле **Идентификатор приложения** указан GUID. Используйте этот **идентификатор приложения** как значение параметра **applicationId** приложения.
 
-        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Заполните сведения **ApplicationID** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.
+### <a name="application-secret"></a>Секрет приложения
 
-    Чтобы получить значение **ApplicationSecret**, сделайте следующее.
+Заполните сведения **ApplicationID** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.  Этот атрибут действует при использовании [субъекта-службы](embed-service-principal.md).
 
-    1. Войдите на [портал Azure](https://portal.azure.com).
+Чтобы получить значение **ApplicationSecret**, сделайте следующее.
 
-       ![Портал Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+1. Войдите на [портал Azure](https://portal.azure.com).
 
-    2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
+2. В области навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-       ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    3. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
+3. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
 
-       ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    4. Выберите **Параметры**.
+4. Выберите **Параметры**.
 
-       ![Выбор пункта "Параметры"](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+    ![Выбор пункта "Параметры"](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-    5. Выберите раздел **Ключи**.
+5. Выберите раздел **Ключи**.
 
-       ![Выбор раздела "Ключи".](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+    ![Выбор раздела "Ключи".](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    6. Введите имя в поле **Описание** и выберите длительность. Затем выберите **Сохранить**, чтобы получить **Значение** для вашего приложения. Когда вы закроете панель **Ключи** после сохранения значения ключа, поле значения отображается только как скрытое. На этом этапе вы не можете получить значение ключа. Если вы потеряете значение ключа, потребуется создать новое на портале Azure.
+6. Введите имя в поле **Описание** и выберите длительность. Затем выберите **Сохранить**, чтобы получить **Значение** для вашего приложения. Когда вы закроете панель **Ключи** после сохранения значения ключа, поле значения отображается только как скрытое. На этом этапе вы не можете получить значение ключа. Если вы потеряете значение ключа, потребуется создать новое на портале Azure.
 
-          ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    7. Укажите в поле **groupId** идентификатор GUID рабочей области приложения из Power BI.
+### <a name="workspace-id"></a>Идентификатор рабочей области
 
-       ![Ввод groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+Укажите в поле **workspaceId** GUID рабочей области (группы) приложения из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
 
-    8. Укажите в поле **reportId** идентификатор GUID отчета из Power BI.
+URL-адрес <br>
 
-       ![Ввод reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+![workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040.png)
 
-3. Запустите приложение:
+PowerShell <br>
 
-    Выберите **Запуск** в **Visual Studio**.
+```powershell
+Get-PowerBIworkspace -name "User Owns Embed Test"
+```
+
+   ![workspaceId из PowerShell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040-ps.png)
+
+### <a name="report-id"></a>Идентификатор отчета
+
+Укажите в поле **reportId** значение GUID отчета из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
+
+URL-адрес <br>
+
+![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+PowerShell <br>
+
+```powershell
+Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
+```
+
+![reportId из PowerShell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041-ps.png)
+
+### <a name="aadauthorityurl"></a>AADAuthorityUrl
+
+Укажите в сведениях **AADAuthorityUrl** URL-адрес, который позволяет осуществлять внедрение с помощью клиента организации либо гостевого пользователя.
+
+Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize*.
+
+Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id*, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
+
+### <a name="run-the-application"></a>Запуск приложения
+
+1. Выберите **Запуск** в **Visual Studio**.
 
     ![Запуск приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    После выберите **Получить отчет**.
+2. Теперь выберите **Внедрить отчет**. В зависимости от того, какое содержимое вы хотите проверить (отчеты, панели мониторинга или плитки), выберите нужный вариант в приложении.
 
     ![Выбор содержимого](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    Теперь вы можете просмотреть отчет в примере приложения.
+3. Теперь вы можете просмотреть отчет в примере приложения.
 
     ![Просмотр отчета в приложении](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
@@ -255,10 +230,10 @@ ms.locfileid: "56249443"
 
 #### <a name="get-reports-with-the-rest-api"></a>Получение отчетов с помощью REST API
 
-Ниже приведен пример кода для получения отчетов с помощью **REST API**:
+Ниже приведен пример кода для получения отчетов с помощью REST API:
 
-> [!NOTE]  
-> Пример получения элемента содержимого, который вы хотите внедрить, можно найти в файле **Default.aspx.cs** в [примере приложения](#embed-your-content-using-the-sample-application). Это может быть отчет, панель мониторинга или плитка.
+> [!Note]
+> Пример получения элемента содержимого, который вы хотите внедрить, можно найти в файле Default.aspx.cs в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples). Это может быть отчет, панель мониторинга или плитка.
 
 ```csharp
 using Newtonsoft.Json;
@@ -340,7 +315,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 Чтобы загрузить отчет в элемент div веб-страницы, вы можете использовать JavaScript. Ниже приведен пример кода для получения отчета из определенной рабочей области:
 
 > [!NOTE]  
-> Пример загрузки элемента содержимого, который вы хотите внедрить, можно найти в файле **Default.aspx** в [примере приложения](#embed-your-content-using-the-sample-application). Это может быть отчет, панель мониторинга или плитка.
+> Пример загрузки элемента содержимого, который вы хотите внедрить, можно найти в файле **Default.aspx** в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples).
 
 ```javascript
 <!-- Embed Report-->
@@ -439,6 +414,7 @@ function updateEmbedReport() {
 | P3 |32 виртуальных ядра |16 виртуальных ядер, 100 ГБ ОЗУ |16 виртуальных ядер |120 в секунду |
 | P4 |64 виртуальных ядра |32 виртуальных ядра, 200 ГБ ОЗУ |32 виртуальных ядра |240 в секунду |
 | P5 |128 виртуальных ядер |64 виртуальных ядра, 400 ГБ ОЗУ |64 виртуальных ядра |480 в секунду |
+
 > [!NOTE]
 > - Если вы пытаетесь выполнить внедрение с приложениями Microsoft Office, вы можете использовать номера SKU EM для доступа к содержимому по бесплатной лицензии Power BI. Но нельзя получить доступ к содержимому с бесплатной лицензией Power BI, если вы используете Powerbi.com или Power BI Mobile.
 > - Если вы хотите выполнить внедрение с приложениями Microsoft Office через Powerbi.com или Power BI Mobile, вы можете получить доступ к содержимому с бесплатной лицензией Power BI.

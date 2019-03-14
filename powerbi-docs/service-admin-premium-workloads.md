@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226073"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757253"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Настройка рабочих нагрузок в емкости Premium
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226073"
 
 ## <a name="configure-workloads"></a>Настройка рабочих нагрузок
 
-Вы можете включить и настроить дополнительные рабочие нагрузки для [потоков данных](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) и [отчетов с разбивкой на страницы](paginated-reports-save-to-power-bi-service.md). Значения памяти по умолчанию для этих рабочих нагрузок основаны на узлах емкости, доступных для вашего номера SKU. Параметры максимального объема памяти не являются накопительными. Объем памяти до максимального указанного значения выделяется динамически для потоков данных, но статически для отчетов с разбивкой на страницы. 
+Вы можете включить и настроить дополнительные рабочие нагрузки для искусственного интеллекта, [потоков данных](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) и [отчетов с разбивкой на страницы](paginated-reports-save-to-power-bi-service.md). Значения памяти по умолчанию для этих рабочих нагрузок основаны на узлах емкости, доступных для вашего номера SKU. Параметры максимального объема памяти не являются накопительными. Объем памяти до максимального указанного значения выделяется динамически для искусственного интеллекта и потоков данных, но статически для отчетов с разбивкой на страницы. 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Настройка рабочих нагрузок на портале администрирования Power BI
 

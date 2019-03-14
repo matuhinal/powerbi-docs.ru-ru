@@ -1,5 +1,5 @@
 ---
-title: Поддержка нескольких регионов Power BI Premium (предварительная версия)
+title: Поддержка нескольких регионов для Power BI Premium
 description: Узнайте, как развернуть содержимое в центрах обработки данных в регионах, отличных от домашнего региона клиента Power BI.
 author: minewiskan
 ms.author: owend
@@ -10,18 +10,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794659"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571986"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Поддержка нескольких регионов Power BI Premium (предварительная версия)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Поддержка нескольких регионов для Power BI Premium
 
 Поддержка нескольких регионов — это функция Power BI Premium, которая помогает многонациональным клиентам соблюдать региональные, отраслевые или организационные требования к размещению данных. Будучи клиентом Power BI Premium, вы можете развертывать содержимое в центрах обработки данных, которые находятся в регионах, отличающихся от домашнего региона клиента Power BI. Географический регион может охватывать более одного региона Azure. Например, США — это географический регион, а центрально-западная часть США и центрально-южная часть США — регионы Azure в США. Вы можете развернуть содержимое в любом из следующих географических регионов:
 
-- США
+- СОЕДИНЕННЫЕ ШТАТЫ
 - Канада
 - Соединенное Королевство
 - Бразилия
@@ -33,7 +33,7 @@ ms.locfileid: "55794659"
 
 Поддержка нескольких регионов недоступна в Power BI для Германии, Power BI для Китая через оператора 21Vianet и в Power BI для государственных организаций США.
 
-Поддержка нескольких регионов теперь также доступна в Power BI Embedded. Больше информации см. в статье [Поддержка нескольких регионов Power BI Embedded (предварительная версия)](developer/embedded-multi-geo.md).
+Поддержка нескольких регионов теперь также доступна в Power BI Embedded. Дополнительные сведения см. в статье [Поддержка нескольких регионов Power BI Embedded](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Использование поддержки нескольких регионов
 

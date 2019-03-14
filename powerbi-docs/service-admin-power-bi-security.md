@@ -7,20 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 03/11/2019
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 83273d42ed27523c618cf229c0c3a0bec7b82cb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e067ac55d606372c05da1e0ebff76e4d05f35e9c
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292851"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757514"
 ---
 # <a name="power-bi-security"></a>Безопасность Power BI
-Чтобы получить подробное описание системы безопасности в Power BI, [загрузите технический документ по безопасности Power BI](http://go.microsoft.com/fwlink/?LinkId=829185).
-
-[![](media/service-admin-power-bi-security/pbi_security_01.png)](http://go.microsoft.com/fwlink/?LinkId=829185)
+Чтобы получить подробное описание системы безопасности в Power BI, [ознакомьтесь с техническим документом по безопасности Power BI](whitepaper-powerbi-security.md).
 
 Служба Power BI работает на базе **Azure**— инфраструктуре и платформе корпорации Майкрософт для облачных вычислений. Архитектура службы Power BI построена на двух кластерах — внешнем веб-кластере (**WFE**) и **внутреннем** кластере. Кластер WFE отвечает за первоначальное соединение и проверку подлинности в службе Power BI, после чего все остальные операции пользователя выполняются через внутренний кластер. Для хранения удостоверений пользователей и управления этими удостоверениями Power BI использует Azure Active Directory (AAD), а для управления хранение данных и метаданных — соответственно большие двоичные объекты Azure и Базу данных SQL Azure.
 

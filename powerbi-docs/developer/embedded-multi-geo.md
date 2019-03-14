@@ -1,5 +1,5 @@
 ---
-title: Поддержка нескольких регионов в Power BI Embedded (предварительная версия)
+title: Поддержка нескольких регионов в Power BI Embedded
 description: Узнайте, как развернуть содержимое в центрах обработки данных в регионах, отличных от домашнего региона Power BI Embedded.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762428"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572032"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Поддержка нескольких регионов в Power BI Embedded (предварительная версия)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Поддержка нескольких регионов в Power BI Embedded
 
-**Поддержка нескольких регионов в Power BI Embedded (предварительная версия)** означает, что независимые поставщики программного обеспечения и организации, которые создают приложения с использованием Power BI Embedded для внедрения аналитики в свои приложения, теперь могут развертывать свои данные в разных регионах по всему миру.
+**Поддержка нескольких регионов в Power BI Embedded** означает, что независимые поставщики программного обеспечения и организации, которые создают приложения с использованием Power BI Embedded для внедрения аналитики в свои приложения, теперь могут развертывать свои данные в разных регионах по всему миру.
 
 Теперь клиенты, использующие **Power BI Embedded**, могут установить **емкость** с поддержкой **нескольких регионов** на основе тех же функций и ограничений, которые поддерживаются в [Power BI Premium](../service-admin-premium-Multi-Geo.md).
 

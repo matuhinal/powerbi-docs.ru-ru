@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/09/2019
+ms.date: 03/07/2019
 ms.author: maggies
-ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295833"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580020"
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -28,8 +28,8 @@ ms.locfileid: "54295833"
 | [How to plan capacity for embedded analytics with Power BI Premium](https://aka.ms/pbiewhitepaper) (Как планировать емкость для внедренной аналитики с помощью Power BI Premium) |В этом документе содержатся рекомендации для разработчиков приложений и независимых поставщиков программного обеспечения, которые помогут определить оптимальную емкость для их бизнеса. | Октябрь 2017 г. |
 | [Planning a Power BI Enterprise Deployment](https://go.microsoft.com/fwlink/?linkid=2057861) (Планирование развертывания Power BI Enterprise) |Этот технический документ содержит структурированные рекомендации для эффективного и безопасного развертывания Power BI в организации. | Июль 2018 г. |
 | [Руководство по планированию ресурсов для Сервера отчетов Power BI](report-server/capacity-planning.md) |В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. | Март 2018 г. |
-| [Безопасность](service-admin-power-bi-security.md) |Подробные сведения о безопасности в Power BI. | Июль 2018 г. |
-| [Distribute Power BI content to external guest users using Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper) (Распространение содержимого Power BI для внешних пользователей-гостей с помощью Azure Active Directory B2B)|В этом документе описывается, как распространять содержимое для пользователей вне организации при помощи интеграции с Azure Active Directory "бизнес — бизнес" (AAD B2B).| Март 2018 г. |
+| [Безопасность](service-admin-power-bi-security.md) |Подробные сведения о безопасности в Power BI. | Март 2019 г. |
+| [Distribute Power BI content to external guest users using Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md) (Распространение содержимого Power BI для внешних пользователей-гостей с помощью Azure Active Directory B2B)|В этом документе описывается, как распространять содержимое для пользователей вне организации при помощи интеграции с Azure Active Directory "бизнес — бизнес" (AAD B2B).| Март 2018 г. |
 | [Углубленная аналитика с Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Описание возможностей углубленной аналитики в Power BI, включая прогнозную аналитику, пользовательские визуализации, интеграцию с R и выражения анализа данных. | Февраль 2017 г. |
 | [Рекомендации по проектированию отчетов и визуальных элементов](visuals/power-bi-visualization-best-practices.md) |Рекомендации по проектированию отчетов в Power BI. | Июнь 2018 |
 | [Двунаправленная фильтрация](desktop-bidirectional-filtering.md) |Объясняются принципы работы двунаправленной перекрестной фильтрации в Power BI Desktop (техническая документация также описывает службы SQL Server Analysis Services 2016, так как особенности их работы аналогичны). | Июль 2018 г. |
