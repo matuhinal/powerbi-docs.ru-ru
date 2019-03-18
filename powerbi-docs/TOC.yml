@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: Подключение к примеру в GitHub
       href: service-tutorial-connect-to-github.md
+    - name: Использование служб Cognitive Services в Power BI
+      href: service-tutorial-use-cognitive-services.md
+    - name: Интеграция машинного обучения с Power BI
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: Основные понятия
     items:
     - name: Новые возможности службы Power BI
@@ -646,6 +650,10 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
         href: service-dataflows-add-cdm-folder.md
+      - name: Интеграция машинного обучения с Power BI
+        href: service-machine-learning-integration.md
+      - name: Использование Cognitive Services в Power BI
+        href: service-cognitive-services.md
     - name: Отчеты с разбивкой на страницы в Power BI
       items:
       - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: Подключение к службам
         items:
-        - name: Подключение к службам
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757445"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964923"
