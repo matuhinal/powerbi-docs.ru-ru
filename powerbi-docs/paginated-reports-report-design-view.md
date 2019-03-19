@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324844"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174782"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Навигация в представлении конструктора отчетов для отчетов с разбивкой на страницы (предварительная версия)
 
@@ -22,12 +22,12 @@ ms.locfileid: "56324844"
 
 ![Представление разработки отчетов в построителе отчетов](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1. [Панель данных отчета](#report-data-pane) 
-2. [Область конструктора отчетов](#report-design-surface)  
-3. [Панель параметров](#parameters-pane) 
-4. [Панель свойств](#properties-pane) 
-5. [Панель группирования](#grouping-pane) 
-6. [Строка текущего состояния отчета](#current-report-status-bar)  
+1. [Панель данных отчета](#1-report-data-pane) 
+2. [Область конструктора отчетов](#2-report-design-surface)  
+3. [Панель параметров](#3-parameters-pane) 
+4. [Панель свойств](#4-properties-pane) 
+5. [Панель группирования](#5-grouping-pane) 
+6. [Строка текущего состояния отчета](#6-current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1. Панель данных отчета  
  На панели данных отчета вы можете определить данные и ресурсы, необходимые для создания отчета, прежде чем переходить к составлению макета отчета. Например, на панель данных отчета можно добавить источники данных, наборы данных, вычисляемые поля, параметры отчета и изображения.  

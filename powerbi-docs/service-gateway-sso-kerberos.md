@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226257"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174989"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
@@ -60,7 +60,7 @@ ms.locfileid: "57226257"
 
 ![Снимок экрана: учетная запись службы](media/service-gateway-sso-kerberos/service-account.png)
 
-Чтобы включить ограниченное делегирование Kerberos, шлюз необходимо запускать как учетную запись домена, если только экземпляр Azure Active Directory (Azure AD) не синхронизирован с локальным экземпляром Active Directory (с помощью Azure AD DirSync/Connect). Чтобы переключиться на учетную запись домена, см. раздел [Переключение шлюза на учетную запись домена](#switching-the-gateway-to-a-domain-account) далее в этой статье.
+Чтобы включить ограниченное делегирование Kerberos, шлюз необходимо запускать как учетную запись домена, если только экземпляр Azure Active Directory (Azure AD) не синхронизирован с локальным экземпляром Active Directory (с помощью Azure AD DirSync/Connect). Чтобы переключиться на учетную запись домена, см. раздел [Переключение шлюза на учетную запись домена](#switch-the-gateway-to-a-domain-account) далее в этой статье.
 
 > [!NOTE]
 > Если настроен Azure AD Connect и учетные записи пользователей синхронизированы, службе шлюза не требуется выполнять поиск в локальном экземпляре Azure AD во время выполнения. Для службы шлюза можно использовать локальный идентификатор безопасности (вместо учетной записи домена). Этапы настройки ограниченного делегирования Kerberos, описанные в этой статье, будут аналогичными для такой конфигурации. Они просто применяются к объекту-компьютеру шлюза в Azure AD, а не учетной записи домена.
@@ -188,7 +188,7 @@ ms.locfileid: "57226257"
 
 ## <a name="configure-sap-bw-for-sso"></a>Настройка единого входа для SAP BW
 
-Теперь, когда вы знаете, как Kerberos работает через шлюз, можно настроить единый вход для SAP Business Warehouse (SAP BW). В следующих шагах предполагается, что вы уже [подготовили ограниченное делегирование Kerberos](#preparing-for-kerberos-constrained-delegation), как описано ранее в этой статье.
+Теперь, когда вы знаете, как Kerberos работает через шлюз, можно настроить единый вход для SAP Business Warehouse (SAP BW). В следующих шагах предполагается, что вы уже [подготовили ограниченное делегирование Kerberos](#prepare-for-kerberos-constrained-delegation), как описано ранее в этой статье.
 
 Это руководстве включает все возможные подробности. Если вы уже выполнили часть этих действий, их можно пропустить. Возможно, вы уже создали пользователя службы для сервера SAP BW и сопоставили с ним имя субъекта-службы или уже установили библиотеку `gsskrb5`.
 
@@ -356,7 +356,7 @@ ms.locfileid: "57226257"
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Добавление нового источника данных сервера приложений SAP BW в службу Power BI
 
-Добавьте источник данных SAP BW на шлюз, следуя приведенным выше инструкциям по [запуску отчета](#running-a-power-bi-report).
+Добавьте источник данных SAP BW на шлюз, следуя приведенным выше инструкциям по [запуску отчета](#run-a-power-bi-report).
 
 1. Введите в окне настройки источника данных **Имя узла** сервера приложений, **Номер системы** и **Идентификатор клиента**, как и в случае входа на сервер SAP BW из Power BI Desktop. В поле **Метод проверки подлинности** выберите **Windows**.
 

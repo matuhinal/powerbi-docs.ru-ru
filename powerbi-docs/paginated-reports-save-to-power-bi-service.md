@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324722"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174552"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Публикация отчета с разбивкой на страницы в службе Power BI (предварительная версия)
 
 Из этой статьи вы узнаете, как опубликовать отчет с разбивкой на страницы в службе Power BI, передав его с локального компьютера. Отчеты с разбивкой на страницы можно передавать в личную рабочую область или в любую другую рабочую область, размещенную в емкости Premium. Найдите значок в виде бриллианта ![Значок емкости Power BI Premium в виде бриллианта](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) рядом с именем рабочей области. 
 
-Если источник данных отчета находится на локальном компьютере, после отправки отчета необходимо [создать шлюз](#create-a-gateway-to-an-on-premises-data-source).
+Если источник данных отчета находится на локальном компьютере, после отправки отчета необходимо [создать шлюз](#create-a-gateway).
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Добавление рабочей области в емкость Premium
 
