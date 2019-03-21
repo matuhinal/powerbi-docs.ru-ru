@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277809"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220961"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Использование вычисляемых сущностей в Power BI Premium (предварительная версия)
 
@@ -79,7 +79,9 @@ ms.locfileid: "54277809"
 
 При работе с потоками данных в специально созданный учетной записи организации в Azure Data Lake Storage 2-го поколения связанные сущности и вычисляемые сущности работают правильно только если сущности находятся в одной учетной записи. Дополнительные сведения см. в статье [ о подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 
-Кроме того, связанные сущности недоступны для потоков данных, созданных из папок CDM. См. статью [о добавлении папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md).
+Связанные сущности недоступны для потоков данных, создаваемых из папок Common Data Model (CDM). Дополнительные сведения: [Добавление папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md).
+
+Для выполнения вычислений с объединением локальных и облачных данных рекомендуется создавать новую сущность. Это будет более эффективно, чем использовать имеющуюся сущность, которая помимо вычислений будет запрашивать с обоих источников данные и выполнять в Data Lake преобразования.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
