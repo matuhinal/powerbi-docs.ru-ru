@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283996"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964670"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Настройка параметров прокси-сервера для локального шлюза данных
 Рабочие среды могут требовать, чтобы доступ в Интернет осуществлялся через прокси-сервер. Это может помешать локальному шлюзу данных подключаться к службе.
@@ -46,24 +46,41 @@ ms.locfileid: "54283996"
 ## <a name="configuring-proxy-settings"></a>Настройка параметров прокси-сервера
 По умолчанию для прокси-сервера используется следующая конфигурация:
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 В конфигурации по умолчанию применяется аутентификация Windows. Если прокси-сервер использует другую форму проверки подлинности, необходимо изменить параметры. Если вы не уверены, что именно следует сделать, обратитесь к администратору сети. Не рекомендуем использовать обычную проверку подлинности прокси. При попытке ее выполнения могут возникнуть ошибки, которые приведут к неправильной настройке шлюза. Чтобы устранить ошибку, выберите более надежный механизм проверки подлинности прокси.
 
 Помимо использования учетных данных по умолчанию, можно добавить элемент <proxy>, чтобы более детально определить параметры прокси-сервера. Например, можно указать, что локальный шлюз данных всегда должен использовать прокси-сервер даже для локальных ресурсов, присвоив параметру bypassonlocal значение false. Это может помочь при устранении неполадок, если нужно отслеживать все запросы по протоколу HTTPS от локального шлюза данных в файлах журнала прокси-сервера. В соответствии с приведенным ниже образцом конфигурации все запросы должны передаваться через определенный прокси-сервер с IP-адресом 192.168.1.10.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+Кроме того, для подключения шлюза к облачным источникам данных через прокси-сервер обновите следующий файл: *C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe*. В файле разверните раздел `<configurations>`, чтобы включить указанное ниже содержимое, а также обновите атрибут `proxyaddress`, добавив сведения о прокси-сервере. Следующий пример будет перенаправлять все запросы облака через определенный прокси-сервер с IP-адресом 192.168.1.10.
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 Дополнительные сведения о настройке элементов прокси-сервера в файлах конфигурации .NET см. в статье об [элементе defaultProxy (параметры сети)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 

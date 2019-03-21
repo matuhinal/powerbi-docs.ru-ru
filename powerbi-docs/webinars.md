@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431000"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964716"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,13 +22,19 @@ ms.locfileid: "55431000"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
+**Достижение оптимального результата для производителей потребительских товаров и предприятий розничной торговли**
+<br>Автор: Лиз МакКриш (Liz McCreesh)
+<br>[Зарегистрироваться](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Популярные вебинары
 
 Начало работы с популярными вебинарами по запросу
+
+**Power BI и будущее современной и корпоративной бизнес-аналитики**
+<br>Авторы: Арун Улаг и Амир Нетц (Arun Ulag и Amir Netz)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **Getting Started with Power BI** (Начало работы с Power BI)
 <br>Автор: Мигель Мартинес (Miguel Martinez)
@@ -46,13 +52,9 @@ ms.locfileid: "55431000"
 <br>Авторы: Кори Хрнсирик (Cory Hrncirik) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: проводим аналитику правильно**
-<br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Визуализация данных Power BI:  основные типы диаграмм и их использование**
-<br>Автор: Миранда Ли (Miranda Li)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**Расширение возможностей приложений с помощью API JavaScript Power BI**
+<br>Автор: Нимрод Шалит (Nimrod Shalit)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI, Excel и Office 365: оптимизация корпоративных данных**
 <br>Авторы: Олаф Хубель (Olaf Hubel) и Мигель Мартинес (Miguel Martinez)
@@ -62,10 +64,6 @@ ms.locfileid: "55431000"
 <br>Автор: Миранда Ли (Miranda Li)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Общее экономическое влияние Microsoft Flow и PowerApps**
-<br>Авторы: Джонатан Липситц (Jonathan Lipsitz) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[Просмотрите библиотеку вебинаров Power BI по запросу от экспертов нашего сообщества](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>Вебинары по запросу
@@ -74,9 +72,25 @@ ms.locfileid: "55431000"
 
 ### <a name="getting-started"></a>Начало работы
 
+**Автоматизация повседневных бизнес-процессов с помощью Power BI, PowerApps и Microsoft Flow**
+<br>Авторы: Вим Куревиц (Wim Coorevits) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI: проводим аналитику правильно**
+<br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Визуализация данных Power BI:  основные типы диаграмм и их использование**
+<br>Автор: Миранда Ли (Miranda Li)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **How to Design Visually Stunning Power BI Reports** (Как создать визуально привлекательные отчеты в Power BI)
 <br>Автор: Чарльз Стерлинг (Charles Sterling)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Общее экономическое влияние Microsoft Flow и PowerApps**
+<br>Авторы: Джонатан Липситц (Jonathan Lipsitz) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **Лучше вместе: 5 преимуществ, которые пользователи Excel получат от использования Power BI**
 <br>Авторы: Карлос Отеро (Carlos Otero) и Мигель Мартинес (Miguel Martinez)
@@ -100,6 +114,10 @@ ms.locfileid: "55431000"
 
 ### <a name="partners"></a>Партнеры ###
 
+**Преобразование данных о клиентах в успешные результаты розничной торговли с помощью Power Bi**
+<br>Автор: Ангад Сони (Angad Soni) из Hitachi Solutions
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **Проверенные решения в сфере здравоохранения для улучшения результатов лечения и повышения рентабельности**
 <br>Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ ms.locfileid: "55431000"
 **Applied Intelligence for Sales & Services** (Применяемая аналитика в сфере продаж и обслуживания)
 <br>Автор: Эд Бобрин (Ed Bobrin) из Avanade
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**Пять привычек успешного куратора трендов**
+<br>Автор: Рохит Бхаргава (Rohit Bhargava) из Non-Obvious
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Производители: цифровое преобразование в вашей отрасли. Лидирующие позиции и повышение прибыли за счет аналитики**
 <br>Авторы: Джон Томпсон (Jon Thompson) из Blue Margin и Джим Пастор (Jim Pastor) из Elgin Fastener Group

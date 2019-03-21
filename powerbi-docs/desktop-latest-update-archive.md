@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/11/2019
+ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 92b2026be33a6be25c4ad27c0d563a811eb0f4e6
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580342"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964992"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -33,6 +33,88 @@ ms.locfileid: "57580342"
 Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
 
 В следующих разделах описываются обновления для **Power BI Desktop** за предыдущие месяцы.
+
+## <a name="february-2019-update-2655313501"></a>Обновление за февраль 2019 г. (2.65.5313.501)
+
+Февральские обновления включают новые соединители данных, функции и усовершенствования аналитики. Не знаете, чего ожидать от февральского обновления? Можем сказать с уверенностью: вам понравится все. 
+
+
+Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+
+
+Ссылки рядом с каждым обновлением обозначают следующее.
+
+* Фрагменты **[видео]** воспроизводятся на новой вкладке браузера, когда речь идет о функции.
+* К некоторым функциям прилагаются **[статьи]**, содержащие дополнительные сведения.
+* Большинство функций рассматриваются в ежемесячных публикациях об обновлениях в **[блоге]**.
+* Кроме того, названия некоторых функций говорят сами за себя, поэтому для них не требуются отдельные статьи или видео.
+
+Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
+
+Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
+
+### <a name="reporting"></a>Отчеты
+* Обновления для новой области фильтров (предварительная версия) [[видео]](https://youtu.be/dMD25wfElLg?t=11)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#smartGuides) 
+* Перекрестное выделение для одной точки в графиках [[видео]](https://youtu.be/dMD25wfElLg?t=197)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#line)
+* Перенос по словам для заголовков [[видео]](https://youtu.be/dMD25wfElLg?t=298)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#wordWrap)
+* Обновление визуального взаимодействия по умолчанию для перекрестной фильтрации [[видео]](https://youtu.be/dMD25wfElLg?t=358)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#crossFilter)
+* Скругленные углы границ визуальных элементов [[видео]](https://youtu.be/dMD25wfElLg?t=526)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#roundedCorners)
+
+### <a name="analytics"></a>Аналитика
+* Визуальный элемент "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/dMD25wfElLg?t=608)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#keyInfluencers) 
+* Вопросы Insights в вопросах и ответах [[видео]](https://youtu.be/dMD25wfElLg?t=1121)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#insights) 
+* Автоматическое создание предлагаемых вопросов для обозревателя вопросов и ответов [[видео]](https://youtu.be/dMD25wfElLg?t=1121)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
+* Улучшенный редактор сценариев R и Python [[видео]](https://youtu.be/dMD25wfElLg?t=1282)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
+
+### <a name="custom-visuals"></a>Пользовательские визуальные элементы
+* Десять новые пользовательских визуальных элементов, новая функция пользовательских визуальных элементов [[видео]](https://youtu.be/dMD25wfElLg?t=1324)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>Подключение к данным
+
+* Microsoft Graph Security [[видео]](https://youtu.be/dMD25wfElLg?t=2787)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#microsoftGraph) 
+* Соединитель бизнес-аналитики Guidanz' для OBIEE [[видео]](https://youtu.be/dMD25wfElLg?t=2807)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#biConnector) 
+* MarkLogic [[видео]](https://youtu.be/dMD25wfElLg?t=2825)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#markLogic) 
+* Kronos Workforce Dimensions [[видео]](https://youtu.be/dMD25wfElLg?t=2846)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#kronos) 
+* SurveyMonkey [[видео]](https://youtu.be/dMD25wfElLg?t=2857)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#surveyMonkey) 
+* Qubole Presto [[видео]](https://youtu.be/dMD25wfElLg?t=2872)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#qubole) 
+* Quick Base [[видео]](https://youtu.be/dMD25wfElLg?t=2899)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#quickBase) 
+* Sagra Emigo [[видео]](https://youtu.be/dMD25wfElLg?t=2909)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#emigo) 
+
+
+### <a name="other"></a>Другое
+* Улучшенные сообщения об ошибках Live Connect и DirectQuery [[видео]](https://youtu.be/dMD25wfElLg?t=2926)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
+
+
+> [!NOTE]
+> Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
+
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+
+
+Все эти обновления описываются и демонстрируются в следующем видеоролике. Можно также посмотреть видео в записи блога.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dMD25wfElLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в феврале 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в феврале 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02_x64.msi)
+
+
+## <a name="january-2019-update"></a>Обновление за январь 2019 г.
+
+В январе 2019 г. не было нового выпуска Power BI Desktop — мы отмечали праздники. 
 
 
 ## <a name="december-2018-update-2655313501"></a>Обновление за декабрь 2018 года (2.65.5313.501)
@@ -109,6 +191,19 @@ ms.locfileid: "57580342"
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в декабре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в декабре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12_x64.msi)
+
+
 ## <a name="november-2018-update-2645285461"></a>Обновление за ноябрь 2018 года (2.64.5285.461)
 
 Наши обновления за ноябрь включают множество новых возможностей и функций. Ниже представлены сведения о них, полезные для специалистов по данным и аналитике. 
@@ -158,6 +253,20 @@ ms.locfileid: "57580342"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в ноябре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в ноябре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11_x64.msi)
 
 
 ## <a name="october-2018-update-263327240262"></a>Обновление за октябрь 2018 года (2.63.3272.40262)
@@ -219,6 +328,21 @@ ms.locfileid: "57580342"
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в октябре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в октябре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10_x64.msi)
+
+
+
 ## <a name="september-2018-update-2625222582"></a>Обновление за сентябрь 2018 г. (2.62.5222.582)
 
 Сентябрьский пакет обновлений включает отличные новые возможности. Надеемся, представленные изменения и улучшения будут вам полезны. 
@@ -264,6 +388,22 @@ ms.locfileid: "57580342"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в сентябре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в сентябре 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09_x64.msi)
+
+
+
 
 ## <a name="august-2018-update-2615192321"></a>Обновление за август 2018 г. (2.61.5192.321)
 
@@ -311,6 +451,22 @@ ms.locfileid: "57580342"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
+
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в августе 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в августе 2018 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08_x64.msi)
+
+
 
 
 ## <a name="july-2018-update-26051693201"></a>Обновление за июль 2018 г. (2.60.5169.3201)
@@ -369,6 +525,7 @@ ms.locfileid: "57580342"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
 
 ## <a name="june-2018-update-2595135101"></a>Обновление за июнь 2018 г. (2.59.5135.101)
 

@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430311"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174943"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Мониторинг метрик использования для панелей мониторинга и отчетов Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430311"
 
 Отчеты на основе метрик использования не отображаются в таких списках содержимого, как **Недавние**, **Рабочие области**, **Избранное** и т. д. Их невозможно добавить в приложение. Если закрепить плитку из отчета на основе метрик использования на панели мониторинга, такую панель мониторинга также невозможно будет добавить в приложение или пакет содержимого.
 
-Чтобы получить дополнительные данные отчета или создать собственные отчеты для наборов данных, выполните команду **Сохранить как** (см. сведения в разделе [Сохранение отчета на основе метрик использования как полнофункционального отчета Power BI (персонализация)](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))).
+Чтобы получить дополнительные данные отчета или создать собственные отчеты для наборов данных, выполните команду **Сохранить как** (см. сведения в разделе [Сохранение отчета на основе метрик использования как полнофункционального отчета Power BI (персонализация)](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Открытие отчета на основе метрик использования для панели мониторинга или отчета
 

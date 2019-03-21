@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426730"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174759"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
 
@@ -65,7 +65,7 @@ ms.locfileid: "56426730"
 
 Затем предоставьте службе Power BI роль читателя в созданной учетной записи хранения. Это встроенная роль, поэтому процедура проста. 
 
-Выполните инструкции, представленные в разделе [Назначение роли субъекту безопасности](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal).
+Выполните действия, описанные в руководстве по [назначению встроенной роли RBAC](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
 В окне **Добавление назначения ролей** выберите роль **Читатель**, чтобы назначить ее службе Power BI. Затем найдите **службу Power BI**. На следующем рисунке показана роль **Читатель**, назначенная службе Power BI.
 
@@ -150,6 +150,9 @@ ms.locfileid: "56426730"
 6. Нажмите кнопку **Подключиться**.
 
 После успешного выполнения этих шагов ваша учетная запись Azure Data Lake Storage 2-го поколения будет подключена к Power BI. 
+
+> [!NOTE]
+> Чтобы настроить подключение к Azure Data Lake Storage 2-го поколения на портале администрирования Power BI, необходимо иметь разрешения глобального администратора. При этом глобальные администраторы не могут подключаться к внешнему хранилищу на портале администрирования.  
 
 Затем вам нужно будет разрешить сотрудникам вашей организации настраивать свои рабочие пространства, что позволит им использовать данную учетную запись хранения для определения потока данных и хранения данных. Мы сделаем это в следующем разделе. 
 

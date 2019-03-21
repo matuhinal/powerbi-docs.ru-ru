@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014146"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964854"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
@@ -95,13 +95,15 @@ ms.locfileid: "57014146"
 
 1. Ознакомьтесь с представленной информацией и, если решите продолжить, выберите команду **Cancel subscription** (Отменить подписку).
 
+### <a name="when-canceling-or-your-license-expires"></a>Отмена или истечение срока действия лицензии
+
+Когда вы отменяете подписку уровня "Премиум" или истекает срока действия лицензии на емкость, вы можете получить доступ к емкости "Премиум" в течение 30 дней с момента отмены или истечения срока действия. После этого вы больше не сможете получить доступ к емкостям "Премиум" или рабочим областям в них.
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Страница цен на Power BI](https://powerbi.microsoft.com/pricing/)
-[Калькулятор Power BI Premium](https://powerbi.microsoft.com/calculator/)
-[Что такое Power BI Premium?](service-premium.md)
-[Вопросы и ответы по Power BI Premium](service-premium-faq.md)
-[Технический документ по Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
+[Страница цен на Power BI](https://powerbi.microsoft.com/pricing/)   
+[Калькулятор Power BI Premium](https://powerbi.microsoft.com/calculator/)   
+[Вопросы и ответы по Power BI Premium](service-premium-faq.md)   
 [Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

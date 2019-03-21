@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430290"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980434"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Вопросы и ответы об администрировании Power BI
 
@@ -84,7 +84,7 @@ ms.locfileid: "55430290"
 
 Администратор может предпринять ряд действий, чтобы не позволить пользователям присоединиться к имеющемуся клиенту Office 365. Если вы заблокируете эту возможность, все попытки регистрации со стороны пользователей окончатся неудачей и им будет предложено обратиться к администратору организации. Повторять этот процесс не нужно, если ранее вы уже отключили автоматическую рассылку лицензий, например в Office 365 для образовательных учреждений (для учащихся, преподавателей и сотрудников).
 
-Используйте приведенный ниже скрипт PowerShell, чтобы запретить новым пользователям присоединяться к управляемому клиенту. [Ознакомьтесь с дополнительными сведениями о PowerShell](#basic-powershell-information).
+Используйте приведенный ниже скрипт PowerShell, чтобы запретить новым пользователям присоединяться к управляемому клиенту. [См. дополнительные сведения о PowerShell][1].
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Как разрешить пользователям присоединяться к существующему клиенту Office 365?
 
-Используйте приведенный ниже скрипт PowerShell, чтобы разрешить новым пользователям присоединяться к управляемому клиенту. [Ознакомьтесь с дополнительными сведениями о PowerShell](#basic-powershell-information).
+Используйте приведенный ниже скрипт PowerShell, чтобы разрешить новым пользователям присоединяться к управляемому клиенту. [См. дополнительные сведения о PowerShell][1].
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>Как можно проверить, заблокирован ли клиент?
 
-Используйте приведенный ниже скрипт PowerShell, чтобы проверить параметры. Параметр *AllowEmailVerifiedUsers* должен иметь значение false. [Ознакомьтесь с дополнительными сведениями о PowerShell](#basic-powershell-information).
+Используйте приведенный ниже скрипт PowerShell, чтобы проверить параметры. Параметр *AllowEmailVerifiedUsers* должен иметь значение false. [См. дополнительные сведения о PowerShell][1].
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 В Azure AD за эту функцию отвечает параметр **AllowAdHocSubscriptions**. В большинстве клиентов для него задано значение true, то есть соответствующая функция включена. Если вы приобрели Power BI через партнера, для этого параметра может быть установлено значение false. Это означает, что индивидуальная регистрация запрещена.
 
-Используйте приведенный ниже скрипт PowerShell, чтобы отключить нерегламентированные подписки. [Ознакомьтесь с дополнительными сведениями о PowerShell](#basic-powershell-information).
+Используйте приведенный ниже скрипт PowerShell, чтобы отключить нерегламентированные подписки. [См. дополнительные сведения о PowerShell][1].
 
 1. Войдите в Azure Active Directory с использованием учетных данных Office 365. В первой строке следующего скрипта PowerShell запрашиваются учетные данные. Вторая строка используется для подключения к Azure Active Directory.
 
@@ -270,3 +270,5 @@ Power BI работает на базе Office 365, который, в свою 
 [Управление группами Office 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

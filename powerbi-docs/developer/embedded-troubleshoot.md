@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223842"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174828"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -290,7 +290,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Причина в том, что URL-адрес перенаправления, указанный для приложения веб-сервера, отличается от URL-адреса примера. Чтобы зарегистрировать образец приложения, используйте `http://localhost:13526/` в качестве URL-адреса перенаправления.
 
-Если необходимо изменить зарегистрированное приложение, см.[эту статью](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), чтобы узнать, как изменить зарегистрированное в Azure AD приложение, чтобы оно могло предоставлять доступ к веб-интерфейсам API.
+Если необходимо изменить зарегистрированное приложение, узнайте, как обновить [зарегистрированное в Azure AD приложение](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), чтобы оно могло предоставлять доступ к веб-API.
 
 Если необходимо изменить профиль пользователя или данные Power BI, ознакомьтесь с [соответствующей процедурой](https://docs.microsoft.com/power-bi/service-basic-concepts).
 

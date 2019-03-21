@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d467839582abb3c66c8bf5a57d1f3c5f7b83d354
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695043"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980342"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Пользовательские визуальные элементы в Power BI
 
@@ -159,7 +159,7 @@ ms.locfileid: "57695043"
 
 6. Сохраните PBIVIZ-файл и откройте Power BI.
 
-7. Импортируйте PBIVIZ-файл в отчет (см. раздел [Импорт настраиваемого визуального элемента из файла](#import-a-custom-visuals-from-a-file) выше).
+7. Импортируйте файл .pbiviz в отчет. (См. дополнительные сведения в разделе [Импорт настраиваемого визуального элемента из файла](#import-a-custom-visual-from-a-file) выше.)
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
