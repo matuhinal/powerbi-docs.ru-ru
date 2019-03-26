@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226119"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383367"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos (на основе ресурсов) для единого входа из Power BI в локальные источники данных
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226119"
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Подготовка к ограниченному делегированию Kerberos на основе ресурсов
 
-Чтобы ограниченное делегирование Kerberos работало правильно, необходимо настроить несколько элементов, в том числе _имена субъектов-служб_ и параметры делегирования в учетных записях служб.
+Чтобы ограниченное делегирование Kerberos работало правильно, необходимо настроить несколько элементов, в том числе _имена субъектов-служб_ и параметры делегирования в учетных записях служб. 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>Необходимое условие 1. Системные требования
 
@@ -105,8 +105,8 @@ ms.locfileid: "57226119"
 1. Откройте командную строку и выполните следующие команды в контроллере домена для домена **PBIEgwTestBack-end**, чтобы обновить атрибут msDS-AllowedToActOnBehalfOfOtherIdentity учетной записи серверной службы:
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. Можно убедиться, что обновление отображается на вкладке редактора атрибутов в разделе свойств для учетной записи серверной службы в оснастке **Active Directory — пользователи и компьютеры.**

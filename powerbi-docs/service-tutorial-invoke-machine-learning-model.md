@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57966417"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430330"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)
 
@@ -92,7 +92,7 @@ ms.locfileid: "57966417"
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-!Connect to data source](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Подключение к источнику данных](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 В редакторе Power Query отобразятся данные из CSV-файла в режиме предварительного просмотра. На ленте команд выберите **Преобразовать таблицу**, а затем щелкните **Использовать первую строку в качестве заголовков**.  После этого на панель **Примененные шаги** справа будет добавлен шаг выполнения запроса _Повышенные заголовки_. На этой панели можно изменить имя запроса на более понятное, назвав его, например _Цены на автомобили_.
 
@@ -137,7 +137,7 @@ ms.locfileid: "57966417"
 
 Нажмите кнопку **Аналитика ИИ** на ленте, а затем щелкните папку _Модели машинного обучения Azure_ в меню навигации слева.
 
-Выберите папку **Azure Machine Learning Models**. Модели Azure ML, к которым вы предоставили доступ, перечислены как функции Power Query с префиксом *AzureML*.  При выборе функции, которая соответствует модели _AutomobilePricePrediction_, параметры веб-службы модели отобразятся как параметры функции.
+Модели Azure ML, к которым вы предоставили доступ, перечислены как функции Power Query с префиксом *AzureML*.  При выборе функции, которая соответствует модели _AutomobilePricePrediction_, параметры веб-службы модели отобразятся как параметры функции.
 
 Чтобы вызвать модель Azure ML, вы можете указать в качестве входных данных любой из столбцов выбранной сущности из раскрывающегося списка. Кроме того, в качестве входных данных вы можете указать константу, переключив значок столбца слева от диалогового окна ввода. Если имя столбца соответствует имени одного из параметров функции, будет автоматически предложено использовать этот столбец в качестве входных данных.  Если имя столбца не совпадает ни с одним именем параметра, столбец можно выбрать в раскрывающемся списке.
 

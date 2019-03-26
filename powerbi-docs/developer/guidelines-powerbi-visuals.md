@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175486"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430307"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
 
@@ -29,7 +29,6 @@ ms.locfileid: "58175486"
 
 >[!IMPORTANT]  
 > Если вы изменяете свой визуальный элемент с бесплатного на версию с тегом "Может потребоваться дополнительная покупка", пользователи должны получить тот же уровень бесплатных функциональных возможностей, что и до изменения. В дополнение к старым бесплатным функциям можно при необходимости добавить расширенные платные функции. Рекомендуем публиковать визуальные элементы IAP с расширенными функциями как новые визуальные элементы, а не обновлять существующие бесплатные элементы.
-
 
 ## <a name="what-changed-in-the-submission-process"></a>Как изменился процесс отправки?
 
@@ -51,17 +50,17 @@ ms.locfileid: "58175486"
 > [!IMPORTANT]
 > Логотипы доступны **только в режиме редактирования**. Их **невозможно** отобразить в режиме просмотра.
 
-![Определения](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![Определения](media/guidelines-powerbi-visuals/definitions.png)
 
-![Что следует учитывать](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![Что следует учитывать](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![Чего следует избегать](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![Чего следует избегать](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![Размер и формат](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![Размер и формат](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![Поля и размеры](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![Поля и размеры](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![Режим редактирования](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![Режим редактирования](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>Советы и рекомендации
 
