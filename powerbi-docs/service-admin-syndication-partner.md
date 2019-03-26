@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296483"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382945"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Невозможно добавить Power BI к партнерской подписке на Office 365
 
@@ -33,9 +33,9 @@ Office 365 позволяет компаниям перепродавать па
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>Приобретение у Майкрософт или через другой канал
 
-В зависимости от отношений с партнером вы можете приобрести Power BI непосредственно у корпорации Майкрософт или у другого партнера. Можете проверить, возможно ли добавить подписки Power BI на портале администрирования Office 365 (требуется членство в роли глобального администратора или администратора выставления счетов).
+В зависимости от отношений с партнером вы можете приобрести Power BI непосредственно у корпорации Майкрософт или у другого партнера. Вы можете проверить, возможно ли добавить подписки Power BI на портале администрирования Microsoft 365 (требуется членство в роли глобального администратора или администратора выставления счетов).
 
-1. Перейдите на [портал администрирования Office 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Перейдите в [Центр администрирования Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. В меню слева откройте вкладку **Выставление счетов**.
 
