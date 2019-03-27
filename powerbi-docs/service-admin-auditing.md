@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980411"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383492"
 ---
 # <a name="using-auditing-within-your-organization"></a>Применение функции аудита в своей организации
 
@@ -34,7 +34,7 @@ ms.locfileid: "57980411"
 
     Чтобы предоставить учетным записям без прав администратора доступ к журналу аудита, необходимо сделать пользователя участником одной из этих групп ролей. Кроме того, можно создать пользовательскую группу ролей в центре администрирования Exchange, назначить упомянутые выше роли, связанные с журналом аудита, этой группе, а затем включить учетную запись без прав администратора в новую группу ролей. См. дополнительные сведения об [управлении группами ролей в Exchange Online](/Exchange/permissions-exo/role-groups).
 
-    Если у вас нет доступа к центру администрирования Exchange из центра администрирования Office 365, перейдите на страницу https://outlook.office365.com/ecp и войдите в систему с помощью своих учетных данных.
+    Если у вас нет доступа к Центру администрирования Exchange из Центра администрирования Microsoft 365, перейдите на страницу https://outlook.office365.com/ecp и войдите в систему с помощью своих учетных данных.
 
 * Если у вас есть доступ к журналу аудита, но вы не являетесь глобальным администратором или администратором службы Power BI, вы не сможете получить доступ к порталу администрирования Power BI. В этом случае вам нужно использовать прямую ссылку на [Центр безопасности и соответствия требованиям Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
@@ -50,9 +50,9 @@ ms.locfileid: "57980411"
 
 1. Выберите **Журналы аудита**.
 
-1. Нажмите кнопку **Перейти в Центр администрирования Office 365**.
+1. Выберите **Перейти в Центр администрирования Microsoft 365**.
 
-   ![Перейти в Центр администрирования Office 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Перейти в Центр администрирования Microsoft 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Поиск только действий Power BI
 
@@ -214,7 +214,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 | Принято управление источником данных Power BI                   | TakeOverDatasource                          |                                          |
 | Принято управление набором данных Power BI                        | TakeOverDataset                             |                                          |
 | Отменена публикация приложения Power BI                          | UnpublishApp                                |                                          |
-| Обновлены параметры управления ресурсами емкости      | UpdateCapacityResourceGovernanceSettings    | Сейчас недоступно на портале администрирования Office 365 |
+| Обновлены параметры управления ресурсами емкости      | UpdateCapacityResourceGovernanceSettings    | Пока не реализовано в Центре администрирования Microsoft 365 |
 | Обновлен администратор емкости                            | UpdateCapacityAdmins                        |                                          |
 | Обновлено отображаемое имя емкости                     | UpdateCapacityDisplayName                   |                                          |
 | Обновлены параметры Power BI организации          | UpdatedAdminFeatureSwitch                   |                                          |

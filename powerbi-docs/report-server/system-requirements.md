@@ -2,21 +2,22 @@
 title: Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
 description: В этой статье изложены минимальные требования к оборудованию и программному обеспечению для установки и запуска Сервера отчетов Power BI.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
-ms.author: maghan
-ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28ff098c0f9e228b485a7eb94830ba3736a1463f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292971"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383515"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
+
 В этой статье изложены минимальные требования к оборудованию и программному обеспечению для установки и запуска Сервера отчетов Power BI.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Требования к процессору, памяти и операционной системе
@@ -28,14 +29,14 @@ ms.locfileid: "54292971"
 | Память |**Минимальные требования** 1 ГБ<br/><br/> **Рекомендуемые требования** Не менее 4 ГБ |
 | Скорость процессора |**Минимум:** 64-битный процессор с тактовой частотой 1,4 ГГц<br/><br/> **Рекомендуемые требования** 2,0 ГГц или выше |
 | Тип процессора |64-битный процессор: AMD Opteron, AMD Athlon 64, Intel Xeon с поддержкой технологии Intel EM64T, Intel Pentium IV с поддержкой технологии EM64T |
-| Операционная система |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Домашняя<br><br>Windows 10 Профессиональная<br><br>Windows 10 Корпоративная<br><br>Windows 8.1<br><br>Windows 8.1 Профессиональная<br><br>Windows 8.1 Корпоративная<br><br>Windows 8<br><br>Windows 8 Профессиональная<br><br>Windows 8 Корпоративная |
+| Операционная система |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Домашняя<br><br>Windows 10 Профессиональная<br><br>Windows 10 Корпоративная<br><br>Windows 8.1<br><br>Windows 8.1 Профессиональная<br><br>Windows 8.1 Корпоративная<br><br>Windows 8<br><br>Windows 8 Профессиональная<br><br>Windows 8 Корпоративная |
 
 > [!NOTE]
 > Установка сервера отчетов Power BI поддерживается только на процессорах x64.
-> 
-> 
+
 
 ## <a name="database-server-version-requirements"></a>Требования к версии сервера базы данных
+
 Для размещения базы данных сервера отчетов используется SQL Server. Экземпляр ядра СУБД SQL Server может быть локальным или удаленным. Вот поддерживаемые версии ядра СУБД SQL Server, которые могут использоваться для размещения баз данных сервера отчетов:
 
 * SQL Server 2017;
@@ -46,18 +47,21 @@ ms.locfileid: "54292971"
 Когда вы создаете базу данных сервера отчетов на удаленном компьютере, следует настроить для подключения учетную запись пользователя домена или учетную запись службы с сетевым доступом. Если вы решите использовать удаленный экземпляр SQL Server, хорошо подумайте, какие учетные данные сервера отчетов следует использовать для подключения к экземпляру SQL Server. Дополнительные сведения см. в статье [Настройка соединения с базой данных сервера отчетов (собственный режим)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 
 ## <a name="considerations"></a>Примечания
+
 При настройке основных параметров, необходимых для приведения сервера отчетов в рабочее состояние, сервер отчетов Power BI установит значения по умолчанию. Должны выполняться следующие требования.
 
 * Ядро СУБД SQL Server должно быть доступным после установки и до настройки базы данных сервера отчетов. На экземпляре ядра СУБД должна размещаться база данных сервера отчетов, которую создаст диспетчер конфигурации Services. Для самой установки ядро СУБД не требуется.
-- В статье [Возможности служб Reporting Services, поддерживаемые различными выпусками SQL Server 2016](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) описаны различия между выпусками SQL Server.
+* В статье [Возможности служб Reporting Services, поддерживаемые различными выпусками SQL Server 2016](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) описаны различия между выпусками SQL Server.
 * Учетная запись пользователя, от имени которой выполняется программа установки, должна входить в локальную группу администраторов.
 * Учетная запись пользователя, от имени которой выполняется диспетчер конфигурации служб Reporting Services, должна иметь разрешение на доступ к базам данных (и их создание) на экземпляре ядра СУБД, на котором размещены базы данных сервера отчетов.
 * В процессе установки должны использоваться значения по умолчанию для резервирования URL-адресов, которые обеспечивают доступ к серверу отчетов и веб-порталу. К этим значениям относятся порт 80, строгий подстановочный знак и имена виртуальных каталогов в формате **ReportServer** и **Reports**.
 
 ## <a name="read-only-domain-controller-rodc"></a>Контроллер домена только для чтения (RODC)
+
  Сервер отчетов можно установить в среде с контроллером домена только для чтения (RODC). Но для правильной работы службам Reporting Services нужен доступ к контроллеру домена чтения и записи. Если службы Reporting Services имеют доступ только к контроллеру домена только для чтения, при попытке администрирования службы могут возникнуть ошибки.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Отчеты Power BI и динамические подключения к службам Analysis Services
+
 С помощью динамического подключения можно работать с табличными и с многомерными экземплярами. Для правильной работы сервера служб Analysis Services должны быть соблюдены требования в отношении его версии и выпуска.
 
 | **Версия сервера** | **Требуемый номер SKU** |
@@ -67,6 +71,7 @@ ms.locfileid: "54292971"
 | 2016 и более поздние версии |SKU категории "стандартный" или старшая версия |
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Что такое Сервер отчетов Power BI?](get-started.md)  
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
@@ -74,4 +79,3 @@ ms.locfileid: "54292971"
 [Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

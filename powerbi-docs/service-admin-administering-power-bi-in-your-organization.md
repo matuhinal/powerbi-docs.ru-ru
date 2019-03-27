@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430133"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383321"
 ---
 # <a name="what-is-power-bi-administration"></a>Что такое администрирование Power BI?
 
@@ -71,7 +71,7 @@ ms.locfileid: "55430133"
 | **Инструмент** | **Типичные задачи** |
 | --- | --- |
 | Портал администрирования Power BI |<ul><li>Приобретение и применение емкости Premium</li><li>Обеспечение качества обслуживания</li><li>Управление классификацией бизнес-данных</li><li>Помощь в применении политик публикации и совместного использования содержимого</li><li>Управление рабочими областями<br><li>Публикация настраиваемых визуальных элементов</li><li>Проверка кодов, используемых для внедрения Power BI в другие приложения</li><li>Устранение неполадок с доступом к данным и решение других проблем</li></ul>|
-| Центр администрирования Office 365 |<ul><li>Управление регистрацией пользователей</li><li>Приобретение и назначение лицензий Pro</li><li>Запрет доступа пользователей к Power BI</li></ul>|
+| Центр администрирования Microsoft 365 |<ul><li>Управление регистрацией пользователей</li><li>Приобретение и назначение лицензий Pro</li><li>Запрет доступа пользователей к Power BI</li></ul>|
 | Центр безопасности и соответствия требованиям Office 365 |<ul><li>Просмотр результатов аудита событий и управление им</li></ul>|
 | Azure Active Directory (AAD) на портале Azure |<ul><li>Настройка условного доступа к ресурсам Power BI через AAD</li><li>Подготовка емкости Power BI Embedded</li></ul>|
 | Командлеты PowerShell |<ul><li>Управление рабочими областями и другими аспектами Power BI с помощью скриптов</li></ul>|

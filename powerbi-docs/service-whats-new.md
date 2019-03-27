@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216868"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383722"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -346,7 +346,7 @@ ms.locfileid: "56216868"
 
 ***Портал администрирования***
 
-* Удобное управление пользователями с помощью ссылки на центр администрирования Office 365
+* Удобное управление пользователями с помощью ссылки на Центр администрирования Microsoft 365
 * Возможность отключения публикации в Интернете
 * Запрет пользователям публиковать пакеты содержимого для всей организации
 * Возможность отключения совместного использования содержимого с внешними пользователями
@@ -508,7 +508,7 @@ ms.locfileid: "56216868"
 * Новый локализованный сайт для документации по Power BI
 * Улучшенное время загрузки отчетов
 * Обновление пакетов содержимого организации с помощью изменений, внесенных только в отчеты
-* Состояние работоспособности Power BI в портале администрирования Office 365
+* Состояние работоспособности Power BI в Центре администрирования Microsoft 365
 * Ключевые показатели эффективности и изображения в таблицах, матрицах и картах
 
 Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx).

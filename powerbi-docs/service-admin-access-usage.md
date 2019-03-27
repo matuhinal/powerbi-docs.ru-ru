@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f685a900465cc0f1b635aad7609aaae4356da6b3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26cf9b10d2a7bfffca151fe36cd45626487b6eef
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284640"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383653"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
 
@@ -24,7 +24,7 @@ ms.locfileid: "54284640"
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Этот отчет о действиях предоставляет полезную информацию, но не определяет тип лицензии каждого пользователя. Используйте Центр администрирования Office 365 для просмотра лицензий.
+> Этот отчет о действиях предоставляет полезную информацию, но не определяет тип лицензии каждого пользователя. Используйте Центр администрирования Microsoft 365 для просмотра лицензий.
 
 ## <a name="requirements"></a>Требования
 

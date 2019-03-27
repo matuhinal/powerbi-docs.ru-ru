@@ -1,6 +1,6 @@
 ---
-title: Подключение к Microsoft Graph Security в Power BI Desktop
-description: Вы можете легко подключиться к API Microsoft Graph Security в Power BI Desktop
+title: Подключайтесь к API Microsoft Graph Security в Power BI Desktop
+description: Легко подключайтесь к API Microsoft Graph Security в Power BI Desktop
 author: preetikr
 manager: kfile
 ms.reviewer: ''
@@ -11,90 +11,92 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2187a24820ef8ea3db9fdd1b7a881dc9cfb6393f
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298898"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306465"
 ---
-# <a name="connect-to-microsoft-graph-security-in-power-bi-desktop"></a>Подключение к Microsoft Graph Security в Power BI Desktop
+# <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Подключайтесь к API Microsoft Graph Security в Power BI Desktop
 
-Power BI Desktop можно использовать для подключения к API Microsoft Graph Security с помощью соединителя Microsoft Graph Security для Power BI. Это даст вам возможность создавать панели мониторинга и отчеты, позволяющие получить ценную информацию относительно связанных с безопасностью [оповещений](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0) и [оценок безопасности](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta). [API Microsoft Graph Security](https://aka.ms/graphsecuritydocs) объединяет [несколько решений по обеспечению безопасности](https://aka.ms/graphsecurityalerts) Майкрософт и партнеров корпорации экосистемой для упрощения корреляции оповещений, доступа к обширной контекстной информации и упрощения автоматизации. Это позволяет организациям быстро анализировать и предпринимать действия во всех своих продуктах безопасности при одновременном снижении затрат и сложности создания и поддержки нескольких интеграций.
+Используйте соединитель Microsoft Graph Security в Power BI Desktop для подключения к API [Microsoft Graph Security](https://aka.ms/graphsecuritydocs). Это позволит создавать панели мониторинга и отчеты, с помощью которых можно получить аналитическую информацию, связанную с [оповещениями](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0) безопасности и [оценками безопасности](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta).
 
-## <a name="prerequisites-to-connect-with-the-microsoft-graph-security-connector"></a>Предварительные требования для подключения с помощью соединителя Microsoft Graph Security
+API Microsoft Graph Security объединяет [несколько решений по безопасности](https://aka.ms/graphsecurityalerts) от корпорации Майкрософт и ее партнеров, что позволяет упростить связывание оповещений. Это сочетание обеспечивает доступ к ценной контекстной информации и упрощает автоматизацию. Оно позволяет организациям быстро получать аналитические сведения и принимать решения для нескольких продуктов безопасности, а также сократить затраты и уменьшить сложность.
 
-* Чтобы использовать соединитель Microsoft Graph Security, необходимо иметь *явное* согласие администратора клиента Azure Active Directory (AD), входящее в состав [требований проверки подлинности Microsoft Graph Security](https://aka.ms/graphsecurityauth). Это согласие требует наличия идентификатора приложения и имени соединителя Microsoft Graph Security для Power BI, которые также можно найти на [портале Azure](https://portal.azure.com):
+## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Предварительные требования для использования соединителя Microsoft Graph Security
 
-   | Свойство | Значение |
-   |----------|-------|
-   | **Имя приложения** | `MicrosoftGraphSecurityPowerBIConnector` |
-   | **Идентификатор приложения** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
-   |||
+Чтобы использовать соединитель Microsoft Graph Security, необходимо *явным образом* получить согласие от администратора клиента Azure Active Directory (Azure AD). Дополнительные сведения см. в разделе [Требования к проверке подлинности Microsoft Graph Security](https://aka.ms/graphsecurityauth).
+При получении согласия необходимо указать идентификатор и имя приложения соединителя, которые указаны здесь и доступны на [портале Azure](https://portal.azure.com):
 
-   Чтобы дать согласие для соединителя, администратор клиента Azure AD может выполнить любые следующие действия:
+| Свойство | Значение |
+|----------|-------|
+| **Имя приложения** | `MicrosoftGraphSecurityPowerBIConnector` |
+| **Идентификатор приложения** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
+|||
 
-   * [Предоставить согласие администратора клиента для приложений Azure AD](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent).
+Чтобы дать согласие для соединителя, администратор клиента Azure AD может воспользоваться любым из этих методов:
 
-   * Во время первого запуска приложение может запрашивать согласие администратора клиента Azure AD через [интерфейс согласия приложения](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience).
+* [Предоставление согласия для приложений Azure AD](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
+
+* Ответ на запрос, который приложение логики отправляет во время первого запуска с помощью [интерфейса согласия приложения](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
    
-* Учетная запись пользователя, использованная для входа при подключении с помощью соединителя Microsoft Graph Security для Power BI, должна быть членом роли администраторов с ограниченными правами чтения безопасности в Azure AD (читатель сведений о безопасности или администратор безопасности). Выполните действия в разделе [Назначение ролей Azure AD пользователям](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users). 
+Учетная запись пользователя, использованная для входа при подключении с помощью соединителя Microsoft Graph Security, должна быть членом роли администраторов с ограниченными правами чтения безопасности в Azure AD (*Читатель сведений о безопасности* или *Администратор безопасности*). Дополнительные сведения см. в разделе [Назначение ролей Azure AD пользователям](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Использование соединителя Microsoft Graph Security
 
-Выполните следующие действия, чтобы использовать соединителя **Microsoft Graph Security**.
+Чтобы использовать соединитель, выполните следующие действия:
 
-1. Выберите пункты **Получить данные —> Дополнительно...** на ленте **Главная** в Power BI Desktop.
-2. Слева выберите категорию **Веб-службы**.
-3. Щелкните  **Microsoft Graph Security (бета-версия)**.
+1. В Power BI Desktop на вкладке ленты **Главная** выберите **Получить данные** > **Дополнительно**.
+2. В списке категорий в левой части окна выберите **Веб-службы**.
+3. Выберите **Microsoft Graph Security (бета-версия)**.
 
-    ![Получение данных](media/desktop-connect-graph-security/GetData.PNG)
+    ![Диалоговое окно "Получение данных"](media/desktop-connect-graph-security/GetData.PNG)
     
-4. В появившемся окне **Microsoft Graph Security** выберите версию API Microsoft Graph для запроса. Варианты: 1.0 и бета-версия.
+4. В появившемся окне **Microsoft Graph Security** выберите версию API Microsoft Graph для запроса: **1.0** или **бета-версия**.
 
-    ![Выберите версию](media/desktop-connect-graph-security/selectVersion.PNG)
+    ![Диалоговое окно "Выбор версии"](media/desktop-connect-graph-security/selectVersion.PNG)
     
-5. Войдите в свою учетную запись Azure Active Directory при появлении запроса. Эта учетная запись должна иметь роль **Читатель сведений о безопасности**, как упоминалось в разделе "Необходимые условия" выше.
+5. Войдите в свою учетную запись Azure Active Directory при появлении запроса. Эта учетная запись должна иметь роль *Читатель сведений о безопасности* или *Администратор безопасности*, как упоминалось в предыдущем разделе.
 
-    ![Войти](media/desktop-connect-graph-security/SignIn.PNG)
+    ![Войти](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. Если вы являетесь администратором клиента **и** еще не предоставили согласие для приложения соединителя Microsoft Graph Security для Power BI, как гласят предварительные требования, вы увидите следующее диалоговое окно. Выберите вариант **Предоставить согласие от лица организации**.
+6. Если вы являетесь администратором клиента *и* еще не предоставили согласие для соединителя (приложения) Microsoft Graph Security для Power BI, то вы увидите следующее диалоговое окно. Выберите **Согласие от имени вашей организации**.
 
-    ![Согласие администратора](media/desktop-connect-graph-security/AdminConsent.PNG)
+    ![Диалоговое окно согласия администратора](media/desktop-connect-graph-security/AdminConsent.PNG)
     
-7. После входа вы увидите следующее окно, означающее, что вход выполнен успешно. Нажмите кнопку **Подключиться**.
+7. После входа вы увидите следующее окно. Это означает, что вход выполнен успешно. Нажмите кнопку **Подключиться**.
 
-    ![Вход выполнен](media/desktop-connect-graph-security/SignedIn.PNG)
+    ![Диалоговое окно "Вы уже вошли в систему"](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. После успешного подключения окно **Навигатор** выглядит следующим образом, отображая сущности, такие как оповещения и т. д., доступные в [API Microsoft Graph Security](https://aka.ms/graphsecuritydocs) для версии, выбранной на предыдущих шагах. Выберите сущности, чтобы импортировать и использовать их в **Power BI Desktop**. Нажмите кнопку **Загрузить** для получения представления результатов, описанного на шаге 10.
+8. После подключения в окне **Навигатор** отображаются оповещения, оценки безопасности и другие сущности, которые доступны в версии [API Microsoft Graph Security](https://aka.ms/graphsecuritydocs), выбранной на шаге 4. Выберите одну или несколько сущностей, чтобы импортировать и использовать их в Power BI Desktop. Затем выберите **Загрузить**, чтобы просмотреть представление результатов, которое показано после шага 9.
 
-   ![Таблица навигации](media/desktop-connect-graph-security/NavTable.PNG)
+    ![Диалоговое окно "Навигатор"](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. Если вы хотите сделать расширенный запрос к API Microsoft Graph Security, выберите функцию **Указать пользовательский URL-адрес Microsoft Graph Security для фильтрации результатов**. Это позволит вам осуществлять запрос [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) к API Microsoft Graph Security с необходимыми разрешениями для доступа к API.
+9. Если вы хотите выполнить расширенный запрос к API Microsoft Graph Security, выберите **Указать пользовательский URL-адрес Microsoft Graph Security для фильтрации результатов**. Используйте эту функцию, чтобы выполнить запрос [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) к API Microsoft Graph Security с необходимыми разрешениями.
 
-   > [!NOTE]
-   > Пример serviceUri, используемого ниже: `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`. См. раздел [Поддерживаемые параметры запроса ODATA Graph](https://docs.microsoft.com/graph/query-parameters) для построения запросов фильтрации, заказа или получения большинства последних результатов.
+   В следующем примере используется *serviceUri* `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`. Чтобы узнать, как создавать запросы для фильтрации, сортировки или получения последних результатов, обратитесь к разделу [Параметры системных запросов OData](https://docs.microsoft.com/graph/query-parameters).
 
-   ![Веб-канал OData](media/desktop-connect-graph-security/ODataFeed.PNG)
+   ![Пример OdataFeed](media/desktop-connect-graph-security/ODataFeed.PNG)
     
-   При выборе функции **Invoke** функция OData.Feed вызывает API, который открывает редактор запросов, где можно отфильтровать и уточнить набор данных, которые вы хотите использовать, а затем загрузить уточненный набор данных в Power BI Desktop.
+   Если вы выберете **Вызвать**, функция **OData.Feed** выполнит вызов к API, и откроется редактор запросов. Вы сможете отфильтровать и уточнить набор данных, который хотите использовать. Затем загрузите эти данные в Power BI Desktop.
 
-10. На следующем рисунке показано окно результатов для сущностей Microsoft Graph Security, которые вы запросили.
+Ниже приведено окно результатов для сущностей Microsoft Graph Security, к которым мы выполняли запросы:
 
-   ![Результат](media/desktop-connect-graph-security/Result.PNG)
+   ![Пример окна результатов](media/desktop-connect-graph-security/Result.PNG)
     
 
-Теперь вы можете работать с импортированной из соединителя Microsoft Graph Security информацией в приложении Power BI Desktop: создавать визуальные элементы и отчеты, а также подключать и импортировать прочие сведения, например книги Excel, базы и любые другие источники данных.
+Теперь вы можете использовать импортированные данные из соединителя Microsoft Graph Security в Power BI Desktop. Вы можете создавать графики и отчеты. Вы также можете взаимодействовать с другими данными, импортированными из книг Excel, баз данных или других источников данных.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* Ознакомьтесь с примерами и шаблонами Power BI с помощью этого соединителя в [репозитории примеров по Microsoft Graph Security для Power BI на GitHub](https://aka.ms/graphsecuritypowerbiconnectorsamples).
+* Ознакомьтесь с примерами и шаблонами Power BI, в которых используется этот соединитель, в разделе [Примеры по Microsoft Graph Security для Power BI в GitHub](https://aka.ms/graphsecuritypowerbiconnectorsamples).
 
-* Ознакомьтесь с пользовательскими сценариями и дополнительными сведениями в [записи блога о соединителе Microsoft Graph Security для Power BI](https://aka.ms/graphsecuritypowerbiconnectorblogpost).
+* Пользовательские сценарии и дополнительные сведения см. в [записи блога о соединителе Microsoft Graph Security для Power BI](https://aka.ms/graphsecuritypowerbiconnectorblogpost).
 
-* В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
+* В Power BI Desktop можно подключаться к данным различных типов. Дополнительные сведения см. на следующих страницах.
 
     * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-    * [Источники данных в Power BI Desktop](desktop-data-sources.md)
-    * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+    * [Источники данных в Power BI Desktop](desktop-data-sources.md)
+    * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
     * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)
     * [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)
