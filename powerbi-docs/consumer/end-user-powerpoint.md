@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014307"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473805"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Экспорт отчетов из Power BI в PowerPoint
 В Power BI можно опубликовать отчет в **Microsoft PowerPoint** и без труда создать на его основе набор слайдов. При **экспорте в PowerPoint** происходит следующее:
 
 * Каждая страница отчета Power BI становится в PowerPoint отдельным слайдом.
-* Каждая страница в отчете Power BI экспортируется как одно изображение с высоким разрешением в PowerPoint <!-- * The filters and slicers settings that you added to the report are preserved. -->
+* Каждая страница в отчете Power BI экспортируется как одно изображение с высоким разрешением в PowerPoint.
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * В PowerPoint создается ссылка на отчет Power BI. 
 
 Экспортировать **отчет Power BI** в программу **PowerPoint** недолго. Для этого нужно выполнить действия, описанные в следующем разделе.
@@ -91,6 +92,7 @@ ms.locfileid: "57014307"
 * Как упоминалось ранее, каждая страница отчета экспортируется в виде одного изображения в файл PowerPoint.
 * Служба Power BI использует параметр языка Power BI в качестве языка для экспорта в PowerPoint. Чтобы просмотреть или настроить параметры языка, выберите значок ![шестеренки](media/end-user-powerpoint/power-bi-settings-icon.png) **> "Параметры" > "Общие" > "Язык"**.
 * Время **загрузки** на слайде-обложке экспортированного файла PowerPoint совпадает с часовым поясом вашего компьютера во время экспорта.
+* При выборе варианта "Текущие значения" для экспорта фильтры URL-адресов в настоящее время не учитываются.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Печать отчета](end-user-print.md)

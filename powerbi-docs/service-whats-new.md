@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383722"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489598"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -32,12 +32,21 @@ ms.locfileid: "58383722"
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>Февраль 2019
-* Метрики рабочих нагрузок и размера активного набора данных в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
-* Экспорт в PDF и подписки на рассылку по электронной почте по запросу (service-report-subscribe.md).
-* Массовые операции на портале администрирования.
+## <a name="march-2019"></a>Март 2019 г.
+* Общедоступность поддержки нескольких регионов для Power BI Premium.
+* Поддержка изменения содержимого Power BI и управления им для Azure B2B.
 
 ## <a name="previous-months-2019"></a>Предыдущие месяцы (2019 г.)
+### <a name="february-2019"></a>Февраль 2019
+* Метрики рабочих нагрузок и размера активного набора данных в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Экспорт отчетов Power BI в формат PDF.
+* [Подписки на рассылку по электронной почте по запросу](service-report-subscribe.md).
+* Массовые операции на портале администрирования.
+* Экспорт с фильтрацией для форматов PPT и PDF.
+* [Параметры справки и поддержки](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) на портале администрирования.
+* Журнал преобразований данных для [потоков данных](service-dataflows-overview.md).
+* Параметры сертифицированных пользовательских визуальных элементов на портале администрирования.
+
 ### <a name="january-2019"></a>Январь 2019 г.
 * [Внедрение безопасных отчетов Power BI](service-embed-secure.md) во внутренние порталы и веб-сайты.
 * Обновления для редактора [потоков данных](service-dataflows-overview.md): новые соединители и поддержка собственных запросов SQL и преобразований Power Query Online.

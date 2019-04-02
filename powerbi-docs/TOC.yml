@@ -402,6 +402,8 @@ items:
       href: service-tutorial-use-cognitive-services.md
     - name: Интеграция машинного обучения с Power BI
       href: service-tutorial-invoke-machine-learning-model.md
+    - name: Создание модели машинного обучения с помощью Power BI (предварительная версия)
+      href: service-tutorial-build-machine-learning-model.md
   - name: Основные понятия
     items:
     - name: Новые возможности службы Power BI
@@ -626,21 +628,21 @@ items:
         href: publisher-for-excel.md
     - name: Самостоятельная подготовка данных
       items:
-      - name: Самостоятельная подготовка данных с помощью потоков данных (предварительная версия)
+      - name: Самостоятельная подготовка данных с помощью потоков данных
         href: service-dataflows-overview.md
-      - name: Создание и использование потоков данных (предварительная версия)
+      - name: Создание и использование потоков данных
         href: service-dataflows-create-use.md
-      - name: Вычисляемые сущности с Power BI Premium (предварительная версия)
+      - name: Вычисляемые сущности с Power BI Premium
         href: service-dataflows-computed-entities-premium.md
-      - name: Подключение к источникам данных с помощью потоков данных (предварительная версия)
+      - name: Подключение к источникам данных с помощью потоков данных
         href: service-dataflows-data-sources.md
-      - name: Использование потоков данных с локальными источниками данных (предварительная версия)
+      - name: Использование потоков данных с локальными источниками данных
         href: service-dataflows-on-premises-gateways.md
-      - name: Связывание сущностей из разных потоков данных (предварительная версия)
+      - name: Связывание сущностей из разных потоков данных
         href: service-dataflows-linked-entities.md
-      - name: Использование добавочного обновления с помощью потоков данных (предварительная версия)
+      - name: Использование добавочного обновления с помощью потоков данных
         href: service-dataflows-incremental-refresh.md
-      - name: Ресурсы для разработчиков потоков данных (предварительная версия)
+      - name: Ресурсы для разработчиков потоков данных
         href: service-dataflows-developer-resources.md
       - name: Подключение к потокам данных в Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -652,10 +654,12 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
         href: service-dataflows-add-cdm-folder.md
-      - name: Интеграция машинного обучения с Power BI
+      - name: Интеграция машинного обучения с Power BI (предварительная версия)
         href: service-machine-learning-integration.md
-      - name: Использование Cognitive Services в Power BI
+      - name: Использование Cognitive Services в Power BI (предварительная версия)
         href: service-cognitive-services.md
+      - name: Автоматизированное машинное обучение в Power BI (предварительная версия)
+        href: service-machine-learning-automated.md
     - name: Отчеты с разбивкой на страницы в Power BI
       items:
       - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
@@ -1327,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 3259c3fe3bc8756355dd75324a84dd0322bfef3a
-ms.sourcegitcommit: c98fe18c52cd06a52b12aa9aa09d58e8a406542a
+ms.openlocfilehash: 82627f07ebaca2c0d80444c979e660802b8dd561
+ms.sourcegitcommit: 8525b6365f3e224176730f4b8e5dae83f540a4ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58563673"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58795758"

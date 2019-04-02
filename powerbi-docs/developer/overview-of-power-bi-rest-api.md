@@ -9,45 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: d8cad602b178dd55184e00e2a318c374433b1a46
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 764718ab86e040509790dd4debbbef25b6079a14
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762336"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473782"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
-Power BI отображает интерактивные панели мониторинга, которые можно создать и обновлять посредством множества различных источников данных в режиме реального времени. С помощью любого языка программирования, поддерживающего вызовы REST, можно создавать приложения, которые интегрируются в панель мониторинга Power BI в режиме реального времени. В приложения также можно интегрировать плитки и отчеты Power BI.
+REST API Power BI позволяет создавать приложения с внедренными отчетами Power BI. В приложения также можно интегрировать плитки и панели мониторинга Power BI.
 
-Разработчики также могут создавать собственные визуализации данных, которые можно использовать в интерактивных отчетах и на панелях мониторинга.
+С помощью REST API Power BI можно управлять объектами Power BI, такими как отчеты, наборы данных и рабочие области.
 
 Ниже перечислено несколько задач, которые можно выполнить с помощью API-интерфейсов Power BI.
 
 | **Действия** | **Инструкции** |
 | --- | --- |
-| Внедрение панелей мониторинга, отчетов и плиток для пользователей Power BI и пользователей, не работающих с Power BI (данные принадлежат приложению) |[Как внедрять панели мониторинга, отчеты и плитки Power BI](embedding-content.md) |
-| Расширение существующего рабочего бизнес-процесса для принудительной отправки ключевых данных в панель мониторинга Power BI. |[Принудительная отправка данных на панель мониторинга](walkthrough-push-data.md) |
-| Аутентификация в Power BI. |[Аутентификация в Power BI](get-azuread-access-token.md) |
-| Создание настраиваемого визуального элемента. |[Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md) |
+| Внедряйте отчеты, панели мониторинга и плитки для пользователей Power BI и людей, не использующих Power BI. |[Как внедрять панели мониторинга, отчеты и плитки Power BI](embedding-content.md) |
+| Выполняйте задачи управления объектами Power BI. |[Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
 
 > [!NOTE]
 > В интерфейсах API Power BI рабочие области приложения по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями приложения.
-
-## <a name="power-bi-developer-samples"></a>Примеры для разработчиков Power BI
-
-Примеры для разработчиков Power BI содержат элементы для внедрения панелей мониторинга, отчетов и плиток.
-
-[Примеры для разработчиков Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)
-
-* Примеры в **App Owns Data** (Данные приложения) предназначены для внедрения пользователями, не использующими Power BI.
-* Примеры в **User Owns Data** (Данные пользователя) предназначены для внедрения пользователями Power BI.
-
-## <a name="github-repositories"></a>Репозитории GitHub
-
-* [Пакет SDK для .NET](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
-* [Пользовательские визуальные элементы](https://github.com/Microsoft/PowerBI-visuals)
 
 ## <a name="developer-tools"></a>Инструменты разработчиков
 
@@ -61,18 +44,12 @@ Power BI отображает интерактивные панели монит
 
 * [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI. Запустите решение [Внедрение для организации](https://aka.ms/embedsetup/UserOwnsData).
 
-С полнофункциональным примером на основе API JavaScript вы можете ознакомиться на странице [средства "Площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo). Это очень удобный способ быстро протестировать разные примеры Power BI Embedded. Дополнительные сведения об API JavaScript вы найдете на странице [вики-сайта PowerBI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+С полнофункциональным примером на основе API JavaScript вы можете ознакомиться на странице [средства "Площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo). Это очень удобный способ быстро протестировать разные примеры Power BI Embedded. Дополнительные сведения об API JavaScript можно найти на странице [вики-сайта PowerBI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
 
-## <a name="push-data-into-power-bi"></a>Принудительная отправка данных в Power BI
+## <a name="github-repositories"></a>Репозитории GitHub
 
-Для принудительной отправки данных в набор данных можно использовать API-интерфейс Power BI. Этот компонент позволяет добавлять строки в таблицу в наборе данных. После этого новые данные могут отображаться на плитках информационной панели и в визуальных элементах отчета.
-
-![Принудительная отправка данных](media/what-can-you-do/powerbi-push-data.png)
-
-## <a name="next-steps"></a>Дальнейшие действия
-
-[Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
-[Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md)  
-[Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Примеры для разработчиков Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)
+* [Пакет SDK для .NET](https://github.com/Microsoft/PowerBI-CSharp)
+* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

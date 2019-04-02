@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762152"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473851"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Создание клиента Azure Active Directory для использования с Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "55762152"
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Создание клиента Azure Active Directory
 
-Для интеграции Power BI в пользовательское приложение необходимо определить приложение в Azure AD. Для этого нужен каталог в Azure AD. Это и есть ваш клиент. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Office 365, [его необходимо создать](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Его также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации. Так вы можете хранить все данные по отдельности.
+Для интеграции Power BI в пользовательское приложение необходимо определить приложение в Azure AD. Для этого нужен каталог в Azure AD. Это и есть ваш клиент. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Office 365, [его необходимо создать](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Его также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации. Так вы можете хранить все данные по отдельности.
 
 Или можно просто создать клиент для тестирования.
 
