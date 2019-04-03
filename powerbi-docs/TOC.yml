@@ -880,6 +880,18 @@ items:
         href: developer/embedding.md
       - name: Что такое Power BI Embedded в Azure
         href: developer/azure-pbie-what-is-power-bi-embedded.md
+    - name: Краткие руководства
+      items:
+      - name: Управление емкостями в Azure
+        items:
+        - name: Создание емкости в Azure
+          href: developer/azure-pbie-create-capacity.md
+        - name: Создание емкости с использованием поддержки нескольких регионов в Azure
+          href: developer/embedded-multi-geo.md
+        - name: Масштабирование емкости в Azure
+          href: developer/azure-pbie-scale-capacity.md
+        - name: Приостановка и запуск емкости в Azure
+          href: developer/azure-pbie-pause-start.md
     - name: Учебники
       items:
       - name: Встроенное содержимое для клиентов
@@ -1034,6 +1046,16 @@ items:
       items:
       - name: Принудительная отправка данных в набор данных
         href: developer/walkthrough-push-data.md
+      - name: Регистрация приложения в Azure AD
+        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
+      - name: Получение токена доступа для проверки подлинности
+        href: developer/walkthrough-push-data-get-token.md
+      - name: Создание набора данных
+        href: developer/walkthrough-push-data-create-dataset.md
+      - name: Получение набора данных для добавления строк
+        href: developer/walkthrough-push-data-get-datasets.md
+      - name: Добавление строк в таблицу
+        href: developer/walkthrough-push-data-add-rows.md
     - name: Основные понятия
       items:
       - name: Политика автоматического хранения данных в режиме реального времени
@@ -1048,16 +1070,6 @@ items:
           href: developer/api-data-model-versioning.md
     - name: Практическое руководство
       items:
-      - name: Регистрация приложения в Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
-      - name: Получение токена доступа для проверки подлинности
-        href: developer/walkthrough-push-data-get-token.md
-      - name: Создание набора данных
-        href: developer/walkthrough-push-data-create-dataset.md
-      - name: Получение набора данных для добавления строк
-        href: developer/walkthrough-push-data-get-datasets.md
-      - name: Добавление строк в таблицу
-        href: developer/walkthrough-push-data-add-rows.md
       - name: Настройка учетных данных
         href: developer/configure-credentials.md
       - name: Шифрование учетных данных
@@ -1331,9 +1343,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 82627f07ebaca2c0d80444c979e660802b8dd561
-ms.sourcegitcommit: 8525b6365f3e224176730f4b8e5dae83f540a4ff
+ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58795758"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872600"
