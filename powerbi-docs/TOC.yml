@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: Совместная работа в Power BI
       items:
+      - name: Создание новых рабочих областей
+        href: service-create-the-new-workspaces.md
       - name: Создание рабочих областей приложений
         href: service-create-workspaces.md
-      - name: Создание рабочих областей (предварительная версия)
-        href: service-create-the-new-workspaces.md
-      - name: Создание и совместное использование приложений
+      - name: Публикация приложений из рабочих областей
         href: service-create-distribute-apps.md
       - name: Управление хранилищем данных в рабочих областях
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Что такое Power BI Embedded в Azure
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Краткие руководства
-      items:
-      - name: Управление емкостями в Azure
-        items:
-        - name: Создание емкости в Azure
-          href: developer/azure-pbie-create-capacity.md
-        - name: Создание емкости с использованием поддержки нескольких регионов в Azure
-          href: developer/embedded-multi-geo.md
-        - name: Масштабирование емкости в Azure
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Приостановка и запуск емкости в Azure
-          href: developer/azure-pbie-pause-start.md
     - name: Учебники
       items:
       - name: Встроенное содержимое для клиентов
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Внедрение функции "Вопросы и ответы"
         href: developer/qanda.md
+      - name: Устранение неполадок с внедренным приложением
+        href: developer/embedded-troubleshoot.md
       - name: Управление емкостями в Azure
         items:
         - name: Создание емкости в Azure
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Приостановка и запуск емкости в Azure
           href: developer/azure-pbie-pause-start.md
-        - name: Устранение неполадок с внедренным приложением
-          href: developer/embedded-troubleshoot.md
       - name: Миграция из коллекций рабочих областей
         items:
         - name: Миграция из коллекций рабочих областей Power BI
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: Принудительная отправка данных в набор данных
         href: developer/walkthrough-push-data.md
-      - name: Регистрация приложения в Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: Получение токена доступа для проверки подлинности
         href: developer/walkthrough-push-data-get-token.md
       - name: Создание набора данных
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914220"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053445"
