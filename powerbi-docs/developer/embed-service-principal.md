@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014422"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872554"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Использование субъекта-службы с Power BI (предварительная версия)
 
@@ -57,8 +57,8 @@ ms.locfileid: "57014422"
 |------------------------------------------------------|---------------------|-------------------|
 | Позволяет входить в службу Power BI  | Да | Нет |
 | Поддерживается на портале администрирования Power BI | Нет | Да |
-| [Работает с рабочими областями приложений (версии 1)](../service-create-workspaces.md) | Да | Нет |
-| [Работает с новыми рабочими областями приложений (версии 2)](../service-create-the-new-workspaces.md) | Да | Да |
+| [Поддерживает рабочие области приложений (версия 1)](../service-create-workspaces.md) | Да | Нет |
+| [Поддерживает новые рабочие области приложений (версия 2)](../service-create-the-new-workspaces.md) | Да | Да |
 | При использовании с Power BI Embedded требуются права администратора рабочей области | Да | Да |
 | Может использовать REST API в Power BI | Да | Да |
 | Для создания требуются права глобального администратора | Да | Нет |
@@ -111,13 +111,15 @@ ms.locfileid: "57014422"
 3. Администратору Power BI необходимо включить субъект-службу в **параметрах разработчика** на портале администрирования Power BI. Добавьте группу безопасности, созданную в Azure AD, в поле **Определенные группы безопасности** на странице **Параметры разработчика**.
 
    > [!Important]
-   > Субъекты-службы наследуют разрешения для всех параметров клиента Power BI от своей группы безопасности. Чтобы дополнительно ограничить разрешения, создайте для субъектов-служб отдельную группу безопасности и добавьте ее в список "За исключением отдельных групп безопасности" для тех параметров Power BI, которые должны быть включены.
+   > Субъекты-службы имеют доступ к любым параметрам клиента, включенным для всей организации или для групп безопасности, в состав которых входят эти субъекты. Чтобы ограничить доступ субъекта-службы к конкретным параметрам клиентов, предоставьте ему доступ только к определенным группам безопасности либо создайте выделенную группу безопасности для субъектов-служб, а затем исключите ее.
 
     ![Портал администрирования](media/embed-service-principal/admin-portal.png)
 
 4. Настройте [рабочую среду Power BI](embed-sample-for-customers.md#set-up-your-power-bi-environment).
 
 5. Добавьте субъект-службу в качестве **администратора** в созданную рабочую область. Эту задачу можно выполнить с помощью [интерфейсов API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) или службы Power BI.
+
+    ![Добавление субъекта-службы в рабочую область](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Теперь вы можете внедрить содержимое в пример приложения или в собственное приложение.
 
@@ -171,9 +173,10 @@ ms.locfileid: "57014422"
 * С помощью субъекта-службы нельзя установить локальный шлюз данных и управлять им.
 * [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
 * Управление [потоками данных](../service-dataflows-overview.md) не поддерживается.
+* Субъект-служба не поддерживает API-интерфейсы администратора.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Регистрация приложения](register-app.md)
-* [Power BI Embedded для клиентов](embed-sample-for-customers.md)
-* [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Зарегистрировать приложение](register-app.md)
+* [Power BI Embedded для ваших клиентов](embed-sample-for-customers.md)
+* [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)

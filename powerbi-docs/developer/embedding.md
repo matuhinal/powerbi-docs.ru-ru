@@ -1,6 +1,6 @@
 ---
 title: Использование встроенной аналитики с Power BI
-description: Power BI предоставляет интерфейсы API для использования встроенной аналитики для панелей мониторинга и отчетов в приложениях. Узнайте, как выполнять внедрение с использованием Power BI в средах PaaS и SaaS, с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
+description: Power BI предоставляет интерфейсы API для использования встроенной аналитики для панелей мониторинга и отчетов в приложениях. Узнайте, как использовать программное обеспечение и инструменты для встроенной аналитики и бизнес-аналитики в PaaS- и SaaS-окружении Power BI.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762451"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872715"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Использование встроенной аналитики с Power BI
 
@@ -42,7 +49,7 @@ ms.locfileid: "55762451"
 
 **Внедрение для организации** позволяет расширить возможности службы Power BI. При выполнении внедрения для организации требуется, чтобы пользователи вашего приложения вошли в службу Power BI для просмотра содержимого. Когда сотрудник организации войдет в приложение, он получит доступ только к своим панелям мониторинга и отчетам или панелям мониторинга и отчетам, предоставленным ему в службе Power BI.
 
-*Примеры внедрения для организации включают внутренние веб-приложения, например, [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [интеграция с Microsoft Teams (у вас должны быть права администратора)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) и [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
+*Примеры внедрения для организации включают внутренние приложения, например [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [интеграцию с Microsoft Teams (у вас должны быть права администратора)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) и [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
 
 Сведения о внедрении для организации см. в следующих статьях:
 
@@ -85,9 +92,9 @@ Power BI Embedded дает независимым поставщикам про
 > [Внедрение для организации](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Что такое Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
+> [Что такое Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
 >[Внедрение для клиентов](embed-sample-for-customers.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать их в сообществе Power BI.](http://community.powerbi.com/)

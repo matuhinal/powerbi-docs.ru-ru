@@ -8,48 +8,57 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.openlocfilehash: 764718ab86e040509790dd4debbbef25b6079a14
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.date: 03/25/2019
+ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473782"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872577"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
-REST API Power BI позволяет создавать приложения с внедренными отчетами Power BI. В приложения также можно интегрировать плитки и панели мониторинга Power BI.
+Интерфейс REST API для Power BI позволяет создавать приложения, которые интегрируются с отчетами, панелями мониторинга и плитками Power BI.
 
-С помощью REST API Power BI можно управлять объектами Power BI, такими как отчеты, наборы данных и рабочие области.
+С помощью REST API для Power BI можно управлять объектами Power BI, такими как отчеты, наборы данных и рабочие области.
 
 Ниже перечислено несколько задач, которые можно выполнить с помощью API-интерфейсов Power BI.
 
-| **Действия** | **Инструкции** |
-| --- | --- |
-| Внедряйте отчеты, панели мониторинга и плитки для пользователей Power BI и людей, не использующих Power BI. |[Как внедрять панели мониторинга, отчеты и плитки Power BI](embedding-content.md) |
-| Выполняйте задачи управления объектами Power BI. |[Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| **Интересующие темы** | **Справочные материалы** |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Внедрение отчетов, панелей мониторинга и плиток для пользователей Power BI и других программ. | [Внедрение панелей мониторинга, отчетов и плиток Power BI ](embedding-content.md) |
+| Задачи управления объектами Power BI. | [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Расширение существующего рабочего бизнес-процесса для принудительной отправки ключевых данных в панель мониторинга Power BI. | [Принудительная отправка данных в панель мониторинга ](walkthrough-push-data.md) |
+| Аутентификация в Power BI. | [Аутентификация в Power BI ](get-azuread-access-token.md) |
 
 > [!NOTE]
 > В интерфейсах API Power BI рабочие области приложения по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями приложения.
 
-## <a name="developer-tools"></a>Инструменты разработчиков
+## <a name="api-developer-tools"></a>Инструменты API для разработчика
 
-Ниже приведены инструменты, которые можно использовать для упрощения разработки элементов Power BI.
+| Инструменты | Описание |  |  |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
+| [Инструмент "Тестовая площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo) | Воспользуйтесь полным примером использования API-интерфейсов JavaScript в Power BI. Этот инструмент также позволит быстро познакомиться с разными примерами Power BI Embedded. |  |  |
+| [Вики-сайт по JavaScript для Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Дополнительные сведения об API-интерфейсах JavaScript в Power BI. |  |  |
+| [Postman](https://www.getpostman.com/) | Выполнение запросов, тестирование, отладка, мониторинг, запуск автоматических тестов и многое другое. |
 
-Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения и приступить к внедрению содержимого Power BI.
+## <a name="push-data-into-power-bi"></a>Принудительная отправка данных в Power BI
 
-Выберите подходящее решение:
+Вы можете использовать API Power BI для [принудительной отправки данных в набор](walkthrough-push-data.md). Этот компонент позволяет добавлять строки в таблицу в наборе данных. После этого новые данные отображаются на плитках панели мониторинга и в визуальных элементах отчета.
 
-* [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. Запустите решение [Внедрение для клиентов](https://aka.ms/embedsetup/AppOwnsData).
-
-* [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI. Запустите решение [Внедрение для организации](https://aka.ms/embedsetup/UserOwnsData).
-
-С полнофункциональным примером на основе API JavaScript вы можете ознакомиться на странице [средства "Площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo). Это очень удобный способ быстро протестировать разные примеры Power BI Embedded. Дополнительные сведения об API JavaScript можно найти на странице [вики-сайта PowerBI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+![Принудительная отправка данных](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="github-repositories"></a>Репозитории GitHub
 
 * [Примеры для разработчиков Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [Пакет SDK для .NET](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+* [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+## <a name="next-steps"></a>Дальнейшие действия
+
+* [Принудительная отправка данных в набор данных](walkthrough-push-data.md)
+* [Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md)
+* [Справочник по REST API Power BI](rest-api-reference.md)
+* [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+
+Появились дополнительные вопросы? [Попробуйте задать их в сообществе Power BI.](http://community.powerbi.com/)
