@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: Общие задачи
       items:
+      - name: Экспорт данных в Excel
+        href: end-user-export.md
       - name: Просмотр владельца и даты последнего обновления содержимого
         href: end-user-fresh.md
       - name: Различные способы увеличения масштаба содержимого с помощью фокуса и полноэкранного режима
@@ -81,7 +83,7 @@ items:
         href: end-user-search-sort.md
       - name: Просмотр результатов автоматического анализа для плиток панели мониторинга
         href: end-user-insights.md
-    - name: Получение данных
+    - name: Получить данные
       items:
       - name: Приложения в Power BI
         href: end-user-apps.md
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: Избранное в мобильных приложениях
         href: mobile/mobile-apps-favorites.md
+      - name: Настройка взаимодействия с отчетами в мобильных приложениях (только телефон)
+        href: mobile/mobile-app-single-tap.md
       - name: Настройка оповещений о данных в мобильных приложениях Power BI
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Получение уведомлений в мобильных приложениях Power BI
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: Просмотр отчетов, оптимизированных для телефона
         href: mobile/mobile-apps-view-phone-report.md
+      - name: Доступ к содержимому из внешней организации
+        href: mobile/mobile-apps-b2b.md
       - name: Сканирование QR-кода Power BI с помощью телефона
         href: mobile/mobile-apps-qr-code.md
       - name: Добавление заметок и предоставление доступа в мобильных приложениях
@@ -195,9 +201,9 @@ items:
     items:
     - name: Поддерживаемые языки в мобильных приложениях
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248983"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430289"
