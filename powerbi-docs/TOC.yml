@@ -240,6 +240,8 @@ items:
         href: desktop-what-if.md
       - name: Использование детализации
         href: desktop-drillthrough.md
+      - name: Использование детализации между отчетами
+        href: desktop-cross-report-drill-through.md
       - name: Использование среза и фильтра относительных дат
         href: visuals/desktop-slicer-filter-date-range.md
       - name: Использование группирования и разделения на ячейки
@@ -278,6 +280,8 @@ items:
         href: power-bi-hyperlinks-in-tables.md
       - name: Условное форматирование таблицы
         href: desktop-conditional-table-formatting.md
+      - name: Форматирование заголовка на основе условного выражения
+        href: desktop-conditional-format-visual-titles.md
       - name: Сортировка по столбцу в Power BI Desktop
         href: desktop-sort-by-column.md
       - name: Создание отчетов, оптимизированных для мобильных приложений
@@ -1331,9 +1335,9 @@ items:
       href: service-admin-governance.md
     - name: Безопасность Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
-ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
+ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
+ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59053445"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59479295"
