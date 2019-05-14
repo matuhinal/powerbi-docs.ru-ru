@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306511"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533705"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Используйте SAML для единого входа (SSO) из Power BI в локальные источники данных
 
@@ -75,7 +75,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![Настройка SAML](media/service-gateway-sso-saml/configure-saml.png)
 
-1. Выберите поставщик удостоверений, который вы создали на шаге 2. В поле **Внешнее удостоверение** введите имя участника-пользователя Power BI, а затем выберите команду **Добавить**.
+1. Выберите поставщик удостоверений, который вы создали на шаге 2. Для **внешнего удостоверения**, введите имя Power BI участника-пользователя (обычно адрес электронной почты пользователь входит в Power BI с помощью), а затем выберите **добавить**. Обратите внимание, что если вы уже настроили шлюз с помощью параметра конфигурации ADUserNameReplacementProperty следует ввести значение, которое заменит исходное имя участника-пользователя пользователя Power BI. Например при выборе ADUserNameReplacementProperty SAMAccountName следует вводить параметра пользователя SAMAccountName.
 
     ![Выбор поставщика удостоверений](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
 Дополнительные сведения о **локальном шлюзе данных** и **DirectQuery** см. в следующих ресурсах:
 
-* [Локальный шлюз данных](service-gateway-onprem.md)
+* [On-premises data gateway (Локальный шлюз данных)](service-gateway-onprem.md)
 * [Power BI и DirectQuery](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)
 * [Использование DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
