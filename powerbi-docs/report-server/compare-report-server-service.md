@@ -2,20 +2,20 @@
 title: Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 description: В этой статье сравниваются возможности решения "Сервер отчетов Power BI" и службы Power BI.
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327925"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187683"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "57327925"
 | Распределение групп отчетов с помощью приложений | Нет | Да | [Создание и публикация приложений с панелями мониторинга и отчетами](../service-create-distribute-apps.md) |
 | Пакеты содержимого | Нет | Да | [Знакомство с пакетами содержимого организации в Power BI](../service-organizational-content-pack-introduction.md) |
 | Подключение к службам, таким как Salesforce | Да | Да | [Подключение к используемым службам](../service-connect-to-services.md) с помощью пакетов содержимого в службе Power BI. Используйте для этого сертифицированные соединители на Сервере отчетов Power BI. Дополнительные сведения: [Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"](data-sources.md). |
-| Вопросы и ответы | Нет | Да | ["Вопросы и ответы" в службе Power BI и Power BI Desktop](../consumer/end-user-q-and-a.md) 
+| Вопросы и ответы | Нет | Да | ["Вопросы и ответы" в службе Power BI и Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Краткая аналитика | Нет | Да | [Автоматическое создание аналитических сведений с помощью Power BI](../consumer/end-user-insights.md) |
 | Анализ в Excel | Нет | Да | [Анализ в Excel](../service-analyze-in-excel.md) 
 | Отчеты с разбивкой на страницы | Да | Да | [Отчеты с разбивкой на страницы доступны в службе Power BI](../paginated-reports-report-builder-power-bi.md) в предварительной версии для емкости Premium. |

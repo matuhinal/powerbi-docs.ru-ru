@@ -1,20 +1,21 @@
 ---
 title: Использование субъекта-службы с Power BI
 description: Узнайте, как зарегистрировать приложение в Azure Active Directory с помощью субъекта-службы для использования внедренного содержимого Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
-ms.subservice: power-bi-developer
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872554"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710517"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Использование субъекта-службы с Power BI (предварительная версия)
 
@@ -57,8 +58,8 @@ ms.locfileid: "58872554"
 |------------------------------------------------------|---------------------|-------------------|
 | Позволяет входить в службу Power BI  | Да | Нет |
 | Поддерживается на портале администрирования Power BI | Нет | Да |
-| [Поддерживает рабочие области приложений (версия 1)](../service-create-workspaces.md) | Да | Нет |
-| [Поддерживает новые рабочие области приложений (версия 2)](../service-create-the-new-workspaces.md) | Да | Да |
+| [Работает с рабочими областями приложений (версии 1)](../service-create-workspaces.md) | Да | Нет |
+| [Работает с новыми рабочими областями приложений (версии 2)](../service-create-the-new-workspaces.md) | Да | Да |
 | При использовании с Power BI Embedded требуются права администратора рабочей области | Да | Да |
 | Может использовать REST API в Power BI | Да | Да |
 | Для создания требуются права глобального администратора | Да | Нет |
@@ -177,6 +178,6 @@ ms.locfileid: "58872554"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Зарегистрировать приложение](register-app.md)
-* [Power BI Embedded для ваших клиентов](embed-sample-for-customers.md)
-* [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Регистрация приложения](register-app.md)
+* [Power BI Embedded для клиентов](embed-sample-for-customers.md)
+* [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
