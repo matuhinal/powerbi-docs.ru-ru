@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275555"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625083"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Подключение к образцам в службе Power BI
 
@@ -78,7 +78,7 @@ ms.locfileid: "54275555"
     ![страница отчета с выбранными совпадающими визуальными элементами](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Если плитка была создана с помощью функции [Вопросы и ответы](consumer/end-user-q-and-a.md) Power BI, вместо отчета откроется страница вопросов и ответов. Если плитка [закреплена из Excel](service-dashboard-pin-tile-from-excel.md), Excel Online откроется в службе Power BI.
+   > Если плитка была создана с помощью функции [Вопросы и ответы](power-bi-tutorial-q-and-a.md) Power BI, вместо отчета откроется страница вопросов и ответов. Если плитка [закреплена из Excel](service-dashboard-pin-tile-from-excel.md), Excel Online откроется в службе Power BI.
    > 
    > 
 1. Вернитесь на вкладку **Наборы данных**. Набор данных можно изучить несколькими способами.  Вы не сможете открыть его и просмотреть все строки и столбцы (как это можно сделать в Power BI Desktop или Excel).  Когда пользователи предоставляют коллегам общий доступ к пакету содержимого, обычно они хотят поделиться аналитическими сведениями, а не предоставить прямой доступ к данным. Но это не означает, что вы не можете просматривать этот набор данных.  
@@ -129,11 +129,9 @@ ms.locfileid: "54275555"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
 
-[Примеры для службы Power BI](sample-datasets.md)
-
-[Источники данных для Power BI](service-get-data.md)
+- [Power BI — основные понятия](consumer/end-user-basic-concepts.md)
+- [Примеры для службы Power BI](sample-datasets.md)
+- [Источники данных для Power BI](service-get-data.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
-

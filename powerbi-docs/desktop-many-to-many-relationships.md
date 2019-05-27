@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225967"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941436"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Связи с кратностью "многие ко многим" в Power BI Desktop
 
@@ -25,7 +25,7 @@ ms.locfileid: "56225967"
 
 Возможность создания *связей с кратностью "многие ко многим"* в Power BI Desktop реализована в наборе из трех связанных функций:
 
-* **Составные модели.** Они позволяют включить в отчет несколько подключений к данным в любом сочетании, в том числе подключения DirectQuery или импорт. Дополнительные сведения см. в статье [Составные модели в Power BI Desktop (предварительная версия)](desktop-composite-models.md).
+* **Составные модели.** Они позволяют включить в отчет несколько подключений к данным в любом сочетании, в том числе подключения DirectQuery или импорт. Дополнительные сведения см. в статье [Составные модели в Power BI Desktop](desktop-composite-models.md).
 
 * **Связи с кратностью "многие ко многим"**. В *составных моделях* вы можете установить между таблицами *связи с кратностью "многие ко многим"*. Они избавляют от необходимости поддерживать уникальные значения в таблицах. Также они позволяют обойтись без предыдущих обходных путей, например создания новых таблиц исключительно для образования связей. Эта функция подробно описана далее в этой статье.
 
@@ -157,7 +157,7 @@ ms.locfileid: "56225967"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения о составных моделях и DirectQuery см. в следующих статьях:
-* [Составные модели в Power BI Desktop (предварительная версия)](desktop-composite-models.md)
+* [Составные модели в Power BI Desktop](desktop-composite-models.md)
 * [Режим хранения в Power BI Desktop (предварительная версия)](desktop-storage-mode.md)
 * [Использование DirectQuery в Power BI Desktop](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery в Power BI Desktop](desktop-directquery-data-sources.md)

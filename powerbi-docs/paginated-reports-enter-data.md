@@ -1,7 +1,7 @@
 ---
 title: Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов (предварительная версия)
 description: В этой статье описывается ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424551"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов в Power BI (предварительная версия)
 
@@ -23,7 +23,7 @@ ms.locfileid: "56324997"
 ## <a name="prerequisites"></a>Предварительные требования
 
 - Чтобы ввести данные непосредственно в отчет с разбивкой на страницы, установите новую версию [построителя отчетов из центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Чтобы сохранить отчет с разбивкой на страницы в службе Power BI, вам потребуется [учетная запись Power BI Pro](service-self-service-signup-for-power-bi.md) и доступ на запись для рабочей области в [емкости Power BI Premium](service-premium.md).
+- Чтобы сохранить отчет с разбивкой на страницы в службе Power BI, вам потребуется [учетная запись Power BI Pro](service-self-service-signup-for-power-bi.md) и доступ на запись для рабочей области в [емкости Power BI Premium](service-premium-what-is.md).
 - Чтобы сохранить отчет с разбивкой на страницы на сервере отчетов, необходимы разрешения на [изменение файла RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Начало работы

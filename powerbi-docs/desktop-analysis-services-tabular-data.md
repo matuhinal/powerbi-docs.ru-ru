@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cdf8613159aa729d7d5b9c9096364e19c48a494e
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 996a65bd001626fd184ac98ee76dc61c22922707
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215120"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239987"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Использование табличных данных служб Analysis Services в Power BI Desktop
 С помощью Power BI Desktop можно подключиться к табличным моделям служб SQL Server Analysis Services и получить данных из этих моделей двумя способами. Вы можете просмотреть данные в режиме интерактивного подключения или выбрать элементы и импортировать их в Power BI Desktop.

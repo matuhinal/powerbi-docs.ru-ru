@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d087e8d6b643d836be865a48b9570066af1af6f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef64c802e2f231ce2632f4ed0a442a2a7bac3328
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274750"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514709"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Использование внешней среды R IDE с Power BI
 В **Power BI Desktop** можно использовать внешнюю среду R IDE (интегрированная среда разработки) для создания и редактирования R-скриптов, которые затем будут использоваться в Power BI.

@@ -1,20 +1,20 @@
 ---
 title: Фрагменты кода для переноса содержимого из Power BI Embedded
 description: Здесь приведены некоторые фрагменты кода с базовыми операциями, необходимыми для переноса содержимого
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c3357b89ef02d29c0518b12780339d8612c75387
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61269236"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Фрагменты кода для переноса содержимого из коллекции рабочих областей Power BI
 
@@ -234,7 +234,7 @@ using System.Threading.Tasks;
 [Внедрение в Power BI](embedding.md)  
 [Как перенести содержимое коллекции рабочих областей Power BI Embedded в Power BI](migrate-from-powerbi-embedded.md)  
 [Как внедрять панели мониторинга, отчеты и плитки Power BI](embedding-content.md)  
-[Что такое Power BI Premium?](../service-premium.md)  
+[Что такое Power BI Premium?](../service-premium-what-is.md)  
 [Репозиторий Git JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Репозиторий Git Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Пример внедрения JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

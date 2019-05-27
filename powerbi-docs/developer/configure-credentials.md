@@ -1,20 +1,20 @@
 ---
 title: Программная настройка учетных данных для Power BI
 description: Порядок программной настройки учетных данных для Power BI в целях автоматизации
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56893130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380189"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Программная настройка учетных данных для Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "56893130"
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>Поток учетных данных для локального источника данных с истекшим сроком действия
 
-1. [Выполните шаги 1 и 2 из предыдущего сценария](#configure-credential-flow-for-data-sources).
+1. [Выполните шаги 1 и 2 из предыдущего сценария](#configure-a-credential-flow-for-data-sources).
 
 2. Вызовите интерфейс [получения шлюза](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) для извлечения открытого ключа шлюза.
 

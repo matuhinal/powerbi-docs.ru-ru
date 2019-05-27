@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 57f95a35ff12d546d4fd03202d14212e0df9c78e
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249006"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513639"
 ---
 # <a name="using-r-in-query-editor"></a>Использование языка R в редакторе запросов
 В **редакторе запросов** Power BI Desktop можно использовать язык программирования **R**, который широко применяют специалисты по статистике, аналитики и специалисты по обработке данных. Интеграция языка R в **редактор запросов** позволяет выполнять очистку данных с помощью R, а также формирование и анализ данных в наборах данных, в частности заполнение отсутствующих данных, прогнозирование и кластеризацию. **R** — эффективный язык, который можно использовать в **редакторе запросов** для подготовки модели данных и создания отчетов.

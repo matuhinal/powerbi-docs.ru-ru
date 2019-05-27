@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d80d0a2d976661f2b62476be7742b755d11f1c9
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216546"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513694"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Руководство. Анализ Facebook с помощью Power BI Desktop
 
@@ -29,7 +29,7 @@ ms.locfileid: "56216546"
    
 2. В диалоговом окне **Получение данных** выберите **Facebook** из группы **Веб-службы** и нажмите кнопку **Подключиться**.
    
-   ![Получение данных](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+   ![Получить данные](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
    Откроется диалоговое окно с предупреждением о рисках, связанных с использованием службы сторонних производителей.
    

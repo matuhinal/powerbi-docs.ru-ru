@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 67a090b64a8243ed2a77d66ae633f8a64e494c89
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 01e37d34c5a4914206056d19d888cace782ba8f4
+ms.sourcegitcommit: 15d4d4ea18014c64de77b01a5d79207589ba51fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289079"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "64906552"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Параметры отображения страницы в отчете Power BI
 Очень важно обеспечить точное и качественное отображение макета отчета. В некоторых случаях это может оказаться сложной задачей, так вы и ваши коллеги просматриваете эти отчеты на экранах разных размеров и с различным соотношением сторон. 

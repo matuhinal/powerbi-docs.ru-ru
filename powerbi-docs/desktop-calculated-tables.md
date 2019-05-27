@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ffa49cc65c28e0fafb8ca72cb7a1a5bbde798861
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216339"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239467"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Использование вычисляемых таблиц в Power BI Desktop
 Вычисляемые таблицы позволяют добавить в модель новую таблицу. Однако вместо запроса и загрузки значений в столбцы новой таблицы из источника данных вы создаете формулу на языке DAX, которая определяет значения таблицы. В Power BI Desktop вычисляемые таблицы создаются с помощью функции "Создать таблицу" в представлении отчетов или в представлении данных.

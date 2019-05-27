@@ -1,8 +1,8 @@
 ---
 title: Вопросы и ответы по Power BI Premium
 description: Просмотрите список часто задаваемых вопросов о предложении Power BI Premium и ознакомьтесь с ответами.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383344"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565379"
 ---
 # <a name="power-bi-premium-faq"></a>Вопросы и ответы по Power BI Premium
 
-В этой статье приведены ответы на часто задаваемые вопросы о Power BI Premium. Общие сведения см. в статье [Что такое Power BI Premium?](service-premium.md).
+В этой статье приведены ответы на часто задаваемые вопросы о Power BI Premium. Общие сведения см. в статье [Что такое Power BI Premium?](service-premium-what-is.md).
 
 * Если у вас возникли другие вопросы, [задайте их участникам сообщества Power BI](http://community.powerbi.com/).
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
@@ -84,7 +84,7 @@ Power BI Premium будет доступно в качестве расшире�
 
 **Дальнейшие действия**
 
-[Что такое Power BI Premium?](service-premium.md)
+[Что такое Power BI Premium?](service-premium-what-is.md)
 [Заметки о выпуске Power BI Premium](service-premium-release-notes.md)
 [Технический документ по Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
