@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280128"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608262"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Краткое руководство: сведения о возможностях Power BI для ***потребителей***
 Изучив это краткое руководство, вы узнаете, как взаимодействовать с Power BI для получения ценных бизнес-сведений на основе данных. Целью этой статьи является краткий обзор различных действий, доступных для **потребителей** Power BI.
 
 Если вы не зарегистрированы в Power BI, перед началом работы [пройдите бесплатную регистрацию](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>Предварительные требования
-- Служба Power BI (app.powerbi.com) <!-- app from AppSource -->
+- Служба Power BI (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>Режим чтения
 Режим чтения доступен в службе Power BI для *потребителей* отчетов. Когда коллеги предоставляют вам доступ к отчету, вы используете режим чтения для просмотра отчета и взаимодействия с ним. 
@@ -185,7 +186,7 @@ ms.locfileid: "53280128"
 1. В службе Power BI откройте отчет и выберите визуальный элемент.  
 2. Чтобы отобразить данные, лежащие в основе визуального элемента, нажмите кнопку с многоточием и выберите команду **Показать данные**.
    
-   ![выбор пункта "Показать данные"](./media/end-user-show-data/power-bi-show-data2.png)
+   ![выбор пункта "Показать данные"](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 Вы прочитали краткий обзор некоторых действий, доступных для **потребителей** в службе Power BI.  
 
