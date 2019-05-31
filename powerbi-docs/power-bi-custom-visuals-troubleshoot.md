@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695019"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421798"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Устранение неполадок с настраиваемыми визуальными элементами Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "57695019"
 
 Запустите сервер визуальных элементов с помощью команды `pbiviz start` в командной строке терминала из корня вашего проекта визуальных элементов. Если сервер не запускается, скорее всего, SSL-сертификаты не установлены должным образом.
 
-Вы можете обратиться в службу поддержки пользовательских визуальных элементов: *pbicvsupport@microsoft.com* с любыми вопросами, комментариями или проблемами, которые у вас есть.
+Вы можете обратиться в службу поддержки пользовательских визуальных элементов: *pbicvsupport@microsoft.com*  с любыми вопросами, комментариями или проблемами, которые у вас есть.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
