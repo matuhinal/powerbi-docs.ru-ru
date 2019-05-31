@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220915"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136504"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Связывание сущностей из разных потоков данных в Power BI (предварительная версия)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>Связывание сущностей из разных потоков данных в Power BI
 
 Потоки данных в Power BI позволяют создать единый корпоративный источник хранения данных, в котором бизнес-аналитики смогут однократно подготовить и настроить данные для многократного применения в разных аналитических приложениях организации. 
 
@@ -29,7 +29,7 @@ ms.locfileid: "58220915"
 
 ## <a name="linked-entity-availability"></a>Доступность связанных сущностей
 
-Для обновления связанных сущностей требуется подписка [Power BI Premium](service-premium.md). Связанные сущности доступны в любом потоке данных в рабочей области, размещенной в емкости Power BI Premium. В качестве источника можно использовать любой поток данных без ограничений.
+Для обновления связанных сущностей требуется подписка [Power BI Premium](service-premium-what-is.md). Связанные сущности доступны в любом потоке данных в рабочей области, размещенной в емкости Power BI Premium. В качестве источника можно использовать любой поток данных без ограничений.
 
 Связанные сущности нормально работают только в новых рабочих областях Power BI. Изучите дополнительные сведения о [новых рабочих областях Power BI](service-create-the-new-workspaces.md). Чтобы все работало правильно, все связанные потоки данных нужно располагать в новых рабочих областях.
 
@@ -78,9 +78,9 @@ ms.locfileid: "58220915"
 
 При работе со связанными сущностями следует учитывать несколько ограничений:
 
-* Допускается не более пяти последовательных ссылок.
-* Не допускаются циклические зависимости связанных сущностей.
-* Поток данных должен находиться в [новой рабочей области Power BI](service-create-the-new-workspaces.md).
+* допускается не более пяти последовательных ссылок;
+* не допускаются циклические зависимости связанных сущностей;
+* поток данных должен находиться в [новой рабочей области Power BI](service-create-the-new-workspaces.md).
 * Связанная сущность не может объединяться с обычной сущностью, получающей данные из локального источника.
 
 
@@ -88,11 +88,11 @@ ms.locfileid: "58220915"
 
 При создании потоков данных и работе с ними могут быть полезными следующие статьи: 
 
-* [Самостоятельная подготовка данных в Power BI (предварительная версия)](service-dataflows-overview.md)
+* [Подготовка данных самообслуживания в Power BI](service-dataflows-overview.md)
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
-* [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
+* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)

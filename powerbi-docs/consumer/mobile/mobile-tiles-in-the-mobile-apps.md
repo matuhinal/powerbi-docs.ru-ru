@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286411"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978251"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Область применения:
@@ -71,7 +71,7 @@ ms.locfileid: "54286411"
    * Коснитесь диаграммы, чтобы переместить линию на графике, линейчатой диаграмме, гистограмме или пузырьковой диаграмме для просмотра значений для определенной точки в визуализации.  
    * Коснитесь значка "Поделиться снимком" ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png), чтобы [добавить заметки и поделиться плиткой](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) с другими пользователями.
    * Коснитесь значка "Открыть отчет" ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png), чтобы [просмотреть отчет](mobile-reports-in-the-mobile-apps.md) в мобильном приложении.
-3. Иногда создатели панелей мониторинга добавляют ссылки в плитки. В этом случае при нажатии кнопки с вертикальным многоточием (**...**) вы увидите команду **Открыть ссылку** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. Иногда создатели панелей мониторинга добавляют ссылки в плитки. В этом случае при нажатии кнопки с вертикальным многоточием ( **...** ) вы увидите команду **Открыть ссылку** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

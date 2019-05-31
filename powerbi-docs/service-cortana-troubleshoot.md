@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249052"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375210"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Устранение неполадок Кортаны для Power BI
-Эта статья входит в серию статей. Мы рекомендуем вам ознакомиться с тремя следующими статьями, если вы этого еще не сделали.
+Эта статья входит в серию статей. 
 
-**Статья 1.** [Быстрый поиск и просмотр данных Power BI с помощью Кортаны для Power BI](service-cortana-intro.md).
+> [!IMPORTANT]
+> Интеграция Cortana в Power BI рекомендуется. Начиная с 11 июня, Cortana больше не будет работать для любой панели мониторинга и отчеты.
 
-**Статья 2.** [Предоставление Кортане доступа к отчетам Power BI (и базовым наборам данных)](service-cortana-enable.md)
-
-**Статья 3.** [Создание пользовательской *страницы ответов для Кортаны* в службе Power BI или Power BI Desktop](service-cortana-answer-cards.md)
-
-Если у вас по-прежнему возникают проблемы с интеграцией Кортаны и Power BI, эта статья именно для вас. Выполните следующие действия, чтобы определить и устранить проблему.
+Если у вас возникли проблемы, интеграцией Кортаны в Power BI, вы обратились по нужному адресу. Выполните следующие действия, чтобы определить и устранить проблему.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Почему Кортана не находит ответы из моих отчетов и панелей мониторинга Power BI?
 1. У вас есть учетная запись в Power BI?  Если нет, [зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/get-started/).

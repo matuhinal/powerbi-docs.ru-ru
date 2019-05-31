@@ -1,20 +1,20 @@
 ---
 title: Устранение неполадок внедренного приложения
 description: В этой статье описаны распространенные проблемы, которые могут возникнуть при внедрении содержимого из Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174828"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770477"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -109,7 +109,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Сбой проверки подлинности с ошибкой AADSTS70002 или AADSTS50053
 
-**_(AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)_**
+** _(AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)_ **
 
 Работая с Power BI Embedded и используя проверку подлинности Azure AD Direct, при входе будете получать такие сообщения, как ***error:unauthorized_client, error_description:AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, это потому, что прямая проверка подлинности больше не используется с 14 июня 2018 года по умолчанию.
 
@@ -161,7 +161,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: предоставление требует разрешения администратора
 
-**_Признаки:_**<br>
+**_Признаки:_ **<br>
 Когда пользователь без прав администратора пытается войти в приложение в первый раз при предоставлении согласия, он получает одну из следующих ошибок.
 
 * ConsentTest необходимо разрешение на доступ к ресурсам в вашей организации, которое может предоставить только администратор. Попросите администратора предоставить разрешение этому приложению, прежде чем его использовать.
@@ -171,10 +171,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Пользователь с правами администратора может войти в систему и успешно предоставить разрешение.
 
-**_Основная причина:_**<br>
+**_Основная причина:_ **<br>
 Согласие пользователя отключено для клиента.
 
-**_Возможно несколько вариантов исправления:_**
+**_Возможно несколько вариантов исправления:_ **
 
 *Включение согласия пользователя для всего клиента (все пользователи, все приложения)*
 
@@ -184,6 +184,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
     ![Исправление проверки согласия](media/embedded-troubleshoot/consent-test-02.png)
 
 *Предоставьте разрешения* для приложения от имени администратора, для одного клиента или для конкретного пользователя.
+
+### <a name="cs1061-error"></a>Ошибка CS1061
+
+Скачайте [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) при возникновении ««AuthenticationContext» содержит определение для «AcquireToken» и не доступен «AcquireToken» принимающий первый аргумент типа " AuthenticationContext "найден (возможно, отсутствует using директива или ссылка на сборку?)» ошибка.
 
 ## <a name="data-sources"></a>Источники данных
 

@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223819"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60973624"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop, службе Power BI *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query.

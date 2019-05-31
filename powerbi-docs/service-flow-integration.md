@@ -12,17 +12,17 @@ ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430770"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61147154"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow и Power BI
 
 [Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Flow позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
 
-[Начните работу с Microsoft Flow прямо сейчас.](https://flow.microsoft.com/documentation/getting-started)
+[Начните работу с Flow прямо сейчас.](https://flow.microsoft.com/documentation/getting-started)
 
 Посмотрите видео, где Сируи создает поток, который отправляет подробное сообщение по электронной почте коллегам при активации оповещения Power BI. Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео.
 

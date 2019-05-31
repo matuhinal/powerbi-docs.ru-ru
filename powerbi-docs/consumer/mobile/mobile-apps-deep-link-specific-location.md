@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278407"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906534"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
-Можно создать и использовать универсальный код ресурса (URI), ведущий к определенному расположению (*прямая ссылка*) в мобильных приложениях Power BI на всех мобильных платформах: iOS, Windows 10 и устройствах Android.
+Вы можете использовать ссылки для прямого доступа к определенным элементам в Power BI: Отчет, панель мониторинга и плитки.
 
-Ссылки URI могут указывать непосредственно на панели мониторинга, плитки и отчеты.
+Существуют главным образом два сценария использования ссылок в Power BI Mobile: 
 
-Формат URI определяется назначением прямой ссылки. Чтобы создать прямые ссылки на различные расположения, сделайте следующее. 
-
-## <a name="open-the-power-bi-mobile-app"></a>Открытие мобильного приложения Power BI
-Используйте этот универсальный код ресурса (URI), чтобы открыть мобильное приложение Power BI на любом устройстве:
-
-    mspbi://app/
+* Чтобы открыть Power BI из **вне приложения**и переходить на определенное содержимое (отчетов/панели мониторинга или приложение). Обычно это сценарий интеграции, если вы хотите открыть Power BI Mobile из другого приложения. 
+* Чтобы **перейдите** внутри Power BI. Это обычно в том случае, если вы хотите создать навигации в Power BI.
 
 
-## <a name="open-to-a-specific-dashboard"></a>Открытие определенной панели мониторинга
-Этот универсальный код ресурса (URI) открывает определенную панель мониторинга в мобильном приложении Power BI:
+## <a name="use-links-from-outside-of-power-bi"></a>Используйте ссылки из за пределами Power BI
+Требуется при использовании ссылка из вне приложения Power BI, убедитесь, что он будет открыт в приложении, и если приложение не устанавливается на устройстве, а затем предлагает пользователю установить его. Мы создали в формате специальную ссылку для поддержки именно это. Такой формат ссылки обеспечит устройство использует приложение для открытия ссылки, что если приложение не установлено на устройстве, оно будет предлагать пользователю перейдите в магазин, чтобы получить ее.
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+Ссылка должна начинаться с ниже  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-Чтобы найти 36-символьный идентификатор объекта панели мониторинга, перейдите на требуемую панель мониторинга в службе Power BI (https://powerbi.com). Например, см. выделенный отрезок этого URL-адреса:
+> [!IMPORTANT]
+> Если содержимое размещается в специальных центр обработки данных правительства США, Китае и т. д. Ссылка должна начинаться с правильными адресами Power BI, например `app.powerbigov.us` или `app.powerbi.cn`.   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-Если панель мониторинга находится не в группе "Моя рабочая область", добавьте `&GroupObjectId=<36-character-group-id>` перед идентификатором панели мониторинга или после него. Например: 
+**PARAMS ЗАПРОСА** являются:
+* **Действие** (обязательный) = OpenApp / OpenDashboard / OpenTile / ОткрытьОтчет
+* **appId** =, если вы хотите открыть отчет или панель мониторинга, которые являются частью приложения 
+* **groupObjectId** =, если вы хотите открыть отчет или панель мониторинга, которые являются частью рабочей области (но не Моя рабочая область)
+* **dashboardObjectId** = идентификатор объекта панели мониторинга (если действие является OpenDashboard или OpenTile)
+* **reportObjectId** = идентификатор объекта отчета (если действие ОткрытьОтчет)
+* **tileObjectId** = идентификатор объекта плитки (если действие OpenTile)
+* **reportPage** =, если вы хотите открыть определенный отчет раздел (если действие ОткрытьОтчет)
+* **ctid** = идентификатор организации элемента (имеет смысл для сценария B2B. Это можно опустить, если элемент принадлежит организации пользователя).
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**Примеры:**
 
-Обратите внимание на амперсанд (&) между ними.
+* Открытие приложения ссылку 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>Открытие определенной плитки в режиме фокусировки
-Этот универсальный код ресурса (URI) открывает определенную плитку в режиме фокусировки в мобильном приложении Power BI:
+* Открыть панель мониторинга, которая является частью приложения 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* Откройте отчет, который является частью рабочей области
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-Чтобы найти 36-символьные идентификаторы объектов панели мониторинга и плитки, перейдите на требуемую панель мониторинга в службе Power BI (https://powerbi.com) и откройте плитку в режиме фокусировки. Например, см. выделенные отрезки этого URL-адреса:
+### <a name="how-to-get-the-right-link-format"></a>Как получить формат правая ссылка
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>Ссылки из приложений и элементов в приложении
 
-Для этой плитки универсальный код ресурса (URI) будет следующим:
+Для **приложения и отчеты и панели мониторинга, которые являются частью приложения**, является самым простым способом получения ссылки на рабочую область приложения и выберите пункт «Обновить приложение». Откроется интерфейс «Публикация приложения», и на вкладке "доступ", вы найдете **ссылки** раздел. Расширение, что раздел, чтобы просмотреть список приложений, и связывает его содержимое, можно использовать для доступа к ним напрямую.
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Публикация приложения Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-Обратите внимание на амперсанд (&) между ними.
+#### <a name="links-of-items-not-in-app"></a>Ссылки из элементов не в приложении 
 
-Если панель мониторинга находится не в группе "Моя рабочая область", добавьте `&GroupObjectId=<36-character-group-id>`.
+Отчеты и панели мониторинга, которые не являются частью приложения необходимо извлечь идентификаторы из URL-адрес элемента.
 
-## <a name="open-to-a-specific-report"></a>Открытие определенного отчета
-Этот универсальный код ресурса (URI) открывает определенный отчет в мобильном приложении Power BI:
+Например, чтобы найти 36-символьный **панели мониторинга** идентификатор объекта, перейдите на необходимую панель мониторинга в службе Power BI 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-Чтобы найти 36-символьный идентификатор объекта отчета, перейдите к требуемому отчету в службе Power BI (https://powerbi.com). Например, см. выделенный отрезок этого URL-адреса:
+Чтобы найти 36-символьный **отчетов** идентификатор объекта, перейдите к необходимому отчету в службе Power BI.
+Ниже приведен пример отчета из «Моя рабочая область»
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+Выше URL-адрес также содержит определенную страницу отчета **«ReportSection3»** .
 
-Если отчет находится не в группе "Моя рабочая область", добавьте `&GroupObjectId=<36-character-group-id>` перед идентификатором отчета или после него. Например: 
+Ниже приведен пример отчета из рабочей области (не Моя рабочая область)
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-Обратите внимание на амперсанд (&) между ними.
+## <a name="use-links-inside-power-bi"></a>Используйте ссылки в Power BI
 
-## <a name="open-to-a-specific-report-page"></a>Открытие определенной страницы отчета
-Этот универсальный код ресурса (URI) открывает определенную страницу отчета в мобильном приложении Power BI:
+Ссылки внутри Power BI, должны работать в мобильных приложениях точно, как и в службе Power BI.
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+Если вы хотите добавить ссылку на отчет, указывающий на другой элемент Power BI, можно просто скопировать этот элемент URL-адрес из адресной строки браузера. Дополнительные сведения о [Добавление гиперссылки в текстовое поле в отчете](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
 
-Название страницы отчета состоит из текстового блока ReportSection и определенного номера. Снова откройте отчет в службе Power BI (https://powerbi.com) и перейдите на требуемую страницу отчета. 
+## <a name="use-report-url-with-filter"></a>Используйте URL-адрес отчета с фильтром
+Совпадение с кодом службы Power BI, мобильных приложений Power BI также поддерживает URL-адрес отчета, содержащий параметр запроса фильтра. Можно открыть отчет в мобильное приложение Power BI и фильтровать их в определенном состоянии. Например этот URL-адрес отчета «продажи» открывается и отфильтровать их по территориям
 
-Например, см. выделенный отрезок этого URL-адреса:
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>Открытие плитки в полноэкранном режиме
-Добавьте параметр, выделенный полужирным шрифтом, чтобы открыть определенный отчет в полноэкранном режиме:
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-Например: 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>Добавление контекста (необязательно)
-Вы также можете добавить строку контекста. Затем, если вам понадобится связаться с нами, мы используем этот контекст для фильтрации наших данных в вашем приложении. Добавьте `&context=<app-name>` к ссылке.
-
-Например, см. выделенный отрезок этого URL-адреса: 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+Дополнительные сведения об [построения param запроса для фильтрации отчетов](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за функции, которые хотели бы увидеть в мобильных приложениях Power BI. 

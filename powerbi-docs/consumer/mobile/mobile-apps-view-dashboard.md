@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279235"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141630"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 Область применения:
@@ -87,7 +87,7 @@ ms.locfileid: "54279235"
    
    * Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
    * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
-3. Вы можете предоставить доступ к панели мониторинга из своего рабочего пространства. Нажмите кнопку с многоточием (**...**) в правом нижнем углу плитки информационной панели и выберите **Пригласить других**.
+3. Вы можете предоставить доступ к панели мониторинга из своего рабочего пространства. Нажмите кнопку с многоточием ( **...** ) в правом нижнем углу плитки информационной панели и выберите **Пригласить других**.
    
    ![Значок "Пригласить"](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. Вы также можете нажать на панель мониторинга, чтобы открыть ее и увидеть содержащиеся в ней плитки. На панели мониторинга можно выполнять с ней перечисленные ниже действия.

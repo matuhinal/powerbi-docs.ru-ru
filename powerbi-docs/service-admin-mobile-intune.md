@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296232"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710946"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Настройка мобильных приложений в Microsoft Intune
 
@@ -50,11 +50,11 @@ URL-адрес приложения для iOS необходимо получи
 
     ![URL-адрес приложения в iTunes](media/service-admin-mobile-intune/itunes-url.png)
 
-Она должна выглядеть следующим образом: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*.
+Она должна выглядеть следующим образом: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
 
 ### <a name="get-android-url"></a>Получение URL-адреса приложения для Android
 
-Вы можете получить URL-адрес в Google Play с [мобильной страницы Power BI](https://powerbi.microsoft.com/mobile/). Выберите **Скачать из Google Play**, чтобы перейти на страницу приложения. Вы можете скопировать URL-адрес из адресной строки браузера. Он должна выглядеть следующим образом: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
+Вы можете получить URL-адрес в Google Play с [мобильной страницы Power BI](https://powerbi.microsoft.com/mobile/). Выберите **Скачать из Google Play**, чтобы перейти на страницу приложения. Вы можете скопировать URL-адрес из адресной строки браузера. Он должна выглядеть следующим образом: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>Шаг 2. Создание политики управления мобильными приложениями
 
@@ -66,7 +66,7 @@ URL-адрес приложения для iOS необходимо получи
 
     ![Портал Intune](media/service-admin-mobile-intune/intune-policy.png)
 
-1. Нажмите кнопку **Добавить...**.
+1. Нажмите кнопку **Добавить...** .
 
 1. В меню **Программное обеспечение** можно выбрать управление мобильными приложениями для Android или iOS. Чтобы быстро начать работу, можно выбрать команду **Создайте политику с рекомендованными настройками**или создать настраиваемую политику.
 
@@ -86,7 +86,7 @@ URL-адрес приложения для iOS необходимо получи
 
 1. Выберите **Управляемое приложение iOS из App Store** в раскрывающемся списке.
 
-1. Введите URL-адрес приложения, полученный на [шаге 1](#step-1-get-the-URL-for-the-application), и нажмите кнопку **Далее**.
+1. Введите URL-адрес приложения, полученный на [шаге 1](#step-1-get-the-url-for-the-application), и нажмите кнопку **Далее**.
 
     ![Установка ПО: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
@@ -104,7 +104,7 @@ URL-адрес приложения для iOS необходимо получи
 
 1. Выберите пункт **Внешняя ссылка** в раскрывающемся списке.
 
-1. Введите URL-адрес приложения, полученный на [шаге 1](#step-1-get-the-URL-for-the-application), и нажмите кнопку **Далее**.
+1. Введите URL-адрес приложения, полученный на [шаге 1](#step-1-get-the-url-for-the-application), и нажмите кнопку **Далее**.
 
     ![Установка ПО: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
@@ -171,7 +171,7 @@ URL-адрес приложения для iOS необходимо получи
 
 1. Выберите развернутое приложение Power BI.
 
-    ![Приложение Power BI](media/service-admin-mobile-intune/intune-companyportal2.png)
+    ![Приложение Power BI](media/service-admin-mobile-intune/intune-companyportal2.png)
 
 1. Нажмите кнопку **Установить**.
 

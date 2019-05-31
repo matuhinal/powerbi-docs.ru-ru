@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280293"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61160997"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
 
@@ -30,9 +30,6 @@ ms.locfileid: "54280293"
 * Вам необходимо иметь разрешения на чтение и выполнение для всех файлов и папок в папке CDM, чтобы добавить их в Power BI.
 
 В следующих разделах описывается создание потока данных из папки CDM.
-
-> [!NOTE]
-> Функции потоков данных предоставляются в предварительной версии и могут быть изменены до выпуска общедоступной версии.
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Создание потока данных из папки CDM
 
@@ -99,9 +96,9 @@ Power BI Desktop:
 Общие сведения о потоках данных см. в этих статьях:
 
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
-* [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
+* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о службе хранилища Azure см. в следующих статьях:
 * [Руководство по безопасности службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

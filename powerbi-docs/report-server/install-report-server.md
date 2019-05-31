@@ -1,30 +1,32 @@
 ---
 title: Установка сервера отчетов Power BI
 description: Узнайте, как установить сервер отчетов Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014445"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187725"
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
 Узнайте, как установить сервер отчетов Power BI.
 
- **Скачать** ![скачать](media/install-report-server/download.png "скачать")
+## <a name="download-power-bi-report-server"></a>Скачивание сервера отчетов Power BI
 
-Чтобы скачать Сервер отчетов Power BI, перейдите к разделу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/) и выберите **Download free trial** (Скачать бесплатную пробную версию). 
+[Скачать сервер отчетов Power BI](https://www.microsoft.com/download/details.aspx?id=56722) из центра загрузки Майкрософт.
 
-## <a name="before-you-begin"></a>Подготовка
+Имеется также бесплатной пробной версии. На [локальные отчеты с сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) выберите **скачайте бесплатную пробную версию**.
+
+## <a name="before-you-install"></a>Перед началом установки
 
 Прежде чем устанавливать Сервер отчетов Power BI, рекомендуем ознакомиться с [требованиями к оборудованию и программному обеспечению для установки Сервера отчетов Power BI](system-requirements.md).
 
@@ -32,6 +34,13 @@ ms.locfileid: "57014445"
  > Сервер отчетов Power BI можно установить в среде, имеющей контроллер домена только для чтения (RODC), но для правильной работы ему необходим доступ к контроллеру домена для чтения и записи. Если Сервер отчетов Power BI имеет доступ только к RODC, при попытке администрирования службы могут возникнуть ошибки.
 
 ### <a name="power-bi-report-server-product-key"></a>Ключ продукта сервера отчетов Power BI
+
+Ключ продукта для сервера отчетов Power BI можно получить из двух различных источников:
+
+- Power BI Premium
+- SQL Server Enterprise Software Assurance (SA)
+
+Дополнительные сведения, читайте дальше.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -66,8 +75,8 @@ ms.locfileid: "57014445"
 
     ![Выпуск 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    Кроме того, можно ввести ключ продукта для сервера, полученный из службы Power BI или на сайте Volume License Service Center. Дополнительные сведения о получении ключа продукта см. в разделе [Подготовка](#before-you-begin).
-4. Прочтите и примите условия лицензионного соглашения, а затем нажмите кнопку **Далее**.
+    В противном случае введите ключ продукта, полученный из службы Power BI или центра поддержки корпоративных лицензий. Дополнительные сведения о том, как получить ключ продукта, см. в разделе [перед установкой](#before-you-install) предыдущем разделе.
+4. Чтение и соглашаетесь с условиями лицензионного соглашения, а затем выберите **Далее**.
 
     ![Условия лицензионного соглашения](media/install-report-server/pbireportserver-eula.png)
 5. Для хранения базы данных сервера отчетов требуется ядро СУБД. Нажмите кнопку **Далее**, чтобы установить только сервер отчетов.
@@ -83,7 +92,7 @@ ms.locfileid: "57014445"
 
     ![Настройка сервера отчетов](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>Настройка сервера отчетов
+## <a name="configure-your-report-server"></a>Настроить сервер отчетов
 
 Если нажать кнопку **Настроить сервер отчетов** в программе установки, откроется диспетчер конфигурации служб Reporting Services. Дополнительные сведения см. в статье о [диспетчере конфигурации служб Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 

@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239437"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Общие задачи с запросами в Power BI Desktop
@@ -63,7 +63,7 @@ ms.locfileid: "65239437"
 Пошаговую демонстрацию подключения к данным в Power BI Desktop см. в разделе [Подключение к данным в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Формирование и объединение данных.
-С помощью редактора запросов легко формировать и комбинировать данные. В этом разделе приводится несколько примеров формирования данных. Полную демонстрацию формирования и объединения данных с помощью Power BI Desktop см. в статье **[Формирование и объединение данных с Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
+С помощью редактора запросов легко формировать и комбинировать данные. В этом разделе приводится несколько примеров формирования данных. Полную демонстрацию формирования и объединения данных с помощью Power BI Desktop см. в статье **[Формирование и объединение данных с Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** .
 
 В предыдущем разделе мы подключались к двум наборам данных: книге Excel и веб-ресурсу. После загрузки данных в редакторе запросов отображаются следующие сведения с выбранным на веб-странице запросом (из доступных запросов, перечисленных в области **Запросы** в левой части окна "Редактор запросов").
 

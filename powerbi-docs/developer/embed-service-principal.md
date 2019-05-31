@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65710517"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375114"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Использование субъекта-службы с Power BI (предварительная версия)
 
@@ -120,7 +120,7 @@ ms.locfileid: "65710517"
 
 5. Добавьте субъект-службу в качестве **администратора** в созданную рабочую область. Эту задачу можно выполнить с помощью [интерфейсов API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) или службы Power BI.
 
-    ![Добавление субъекта-службы в рабочую область](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Добавить субъект-службу в качестве администратора в рабочую область](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Теперь вы можете внедрить содержимое в пример приложения или в собственное приложение.
 
@@ -174,10 +174,11 @@ ms.locfileid: "65710517"
 * С помощью субъекта-службы нельзя установить локальный шлюз данных и управлять им.
 * [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
 * Управление [потоками данных](../service-dataflows-overview.md) не поддерживается.
-* Субъект-служба не поддерживает API-интерфейсы администратора.
+* Субъект-служба в настоящее время не поддерживает все администраторы API-интерфейсы.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Регистрация приложения](register-app.md)
 * [Power BI Embedded для клиентов](embed-sample-for-customers.md)
 * [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Безопасность на уровне строк, с помощью локального шлюза данных с помощью субъекта-службы (Предварительная версия)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

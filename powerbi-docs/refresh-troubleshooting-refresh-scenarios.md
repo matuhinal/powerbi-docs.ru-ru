@@ -1,23 +1,23 @@
 ---
 title: Устранение неполадок в сценариях обновления
-description: 'Устранение неполадок в сценариях обновления '
-author: davidiseminger
+description: Устранение неполадок в сценариях обновления
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285123"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770529"
 ---
-# <a name="troubleshooting-refresh-scenarios"></a>Устранение неполадок в сценариях обновления 
+# <a name="troubleshooting-refresh-scenarios"></a>Устранение неполадок в сценариях обновления
 Здесь можно найти сведения о различных сценариях, с которыми вы можете столкнуться при обновлении данных в службе Power BI.
 
 > [!NOTE]
@@ -57,6 +57,9 @@ ms.locfileid: "54285123"
 
 ## <a name="scheduled-refresh-timeout"></a>Время ожидания запланированного обновления
 Время ожидания запланированного обновления импортированных наборов данных составляет два часа. Это время ожидания увеличивается до пяти часов для наборов данных в рабочих областях **Premium**. Если вы сталкиваетесь с этим ограничением, вы можете уменьшить размер или сложность набора данных либо попробовать разбить набор данных на более мелкие части.
+
+## <a name="scheduled-refresh-failures"></a>Сбои запланированного обновления
+При сбое запланированного обновления четыре раза подряд, Power BI отключает обновления. Выясните их первопричину, а затем повторно включить запланированное обновление.
 
 ## <a name="access-to-the-resource-is-forbidden"></a>Доступ к ресурсу запрещен  
 Эта ошибка может возникать из-за кэшированных учетных данных с истекшим сроком действия. Очистите кэш веб-браузера, выполнив вход в Power BI и перейдя на страницу https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Учетные данные будут принудительно обновлены. 

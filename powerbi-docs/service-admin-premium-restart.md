@@ -1,8 +1,8 @@
 ---
 title: Перезапуск емкости Power BI Premium
 description: Узнайте, как перезапустить емкость Power BI Premium, чтобы устранить проблемы с производительностью.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7fbd8bd9c7712dbd2476544fef900547310f35fa
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794957"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564914"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Перезапуск емкости Power BI Premium
 
@@ -31,7 +31,7 @@ Power BI постоянно совершенствуется с целью за
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Безопасен ли процесс перезапуска? Не будут ли потеряны данные?
 
-После перезапуска все сохраненные в емкости данные, определения, отчеты и панели мониторинга остаются без изменений. При перезапуске емкости все текущие запланированные обновления и обновления по запросу останавливаются. Обновления будут перезапущены, когда емкость станет доступна. Несохраненные результаты работы пользователей, взаимодействующих с емкостью, будут потеряны. После завершения обновления таким пользователям необходимо обновить содержимое в браузерах.
+После перезапуска все сохраненные в емкости данные, определения, отчеты и панели мониторинга остаются без изменений. При перезапуске емкости все текущие запланированные обновления и обновления по запросу останавливаются. Служба пытается повторить обновление, если доступна емкость. Несохраненные результаты работы пользователей, взаимодействующих с емкостью, будут потеряны. После завершения обновления таким пользователям необходимо обновить содержимое в браузерах.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Как перезапустить емкость?
 
@@ -57,6 +57,6 @@ Power BI постоянно совершенствуется с целью за
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Что такое Power BI Premium?](service-premium.md)
+[Что такое Power BI Premium?](service-premium-what-is.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

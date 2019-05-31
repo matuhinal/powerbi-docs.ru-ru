@@ -1,21 +1,21 @@
 ---
 title: Встроенная аналитика для внедрения содержимого Power BI в приложение для ваших клиентов
 description: Узнайте, как правильно интегрировать (внедрять) в приложение нужные клиентам отчеты, информационные панели или плитки с помощью API Power BI для встроенной аналитики. Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 02/05/2019
-ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174966"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710954"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -192,23 +192,19 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 2. В области навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-    ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![Поиск приложений для регистрации](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
 3. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
 
-    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Выбор приложения](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. Выберите **Параметры**.
+4. Выберите **сертификаты и секреты** под **управление**.
 
-    ![Выбор пункта "Параметры"](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Выберите раздел **Ключи**.
-
-    ![Выбор раздела "Ключи".](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Выберите **новый секреты клиента**.
 
 6. Введите имя в поле **Описание** и выберите длительность. Затем выберите **Сохранить**, чтобы получить **Значение** для вашего приложения. Когда вы закроете панель **Ключи** после сохранения значения ключа, поле значения отображается только как скрытое. На этом этапе вы не можете получить значение ключа. Если вы потеряете значение ключа, потребуется создать новое на портале Azure.
 
-    ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Значение ключа](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
 ### <a name="tenant"></a>Клиент
 
@@ -369,7 +365,7 @@ var embedConfig = new EmbedConfig()
 | A5 |16 виртуальных ядер |8 ядер, 50 ГБ ОЗУ |8 ядер |60 в секунду |
 | A6 |32 виртуальных ядра |16 ядер, 100 ГБ ОЗУ |16 ядер |120 в секунду |
 
-**_С номерами SKU A вы не можете получить доступ к содержимому Power BI с бесплатной лицензией Power BI._**
+**_С номерами SKU A вы не можете получить доступ к содержимому Power BI с бесплатной лицензией Power BI._ **
 
 Токены внедрения с лицензиями PRO предназначены для тестирования при разработке, поэтому количество таких токенов, создаваемых главной учетной записью или субъектом-службой Power BI, ограничено. Выделенную емкость необходимо внедрить в рабочую среду. В этом случае не будет ограничения на количество создаваемых токенов. Выберите [Доступные компоненты](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), чтобы проверить данные по использованию Embedded, выраженные в процентах от общей емкости. Суммарный объем использования основан на главной учетной записи.
 

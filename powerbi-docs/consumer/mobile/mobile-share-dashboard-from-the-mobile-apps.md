@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283674"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61274655"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
 Область применения:
@@ -23,7 +23,7 @@ ms.locfileid: "54283674"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
-При наличии [лицензии Power BI Pro](../../service-features-license-type.md) вы можете приглашать других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Вы можете делиться данными с другими пользователями, как в вашей организации, так и за ее пределами, независимо от наличия у них корпоративной учетной записи почты. Им также не требуются лицензии Power BI Pro, а содержимое может не находиться в [емкости Premium](../../service-premium.md).
+При наличии [лицензии Power BI Pro](../../service-features-license-type.md) вы можете приглашать других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Вы можете делиться данными с другими пользователями, как в вашей организации, так и за ее пределами, независимо от наличия у них корпоративной учетной записи почты. Им также не требуются лицензии Power BI Pro, а содержимое может не находиться в [емкости Premium](../../service-premium-what-is.md).
 
 Из мобильного приложения Power BI для устройств iOS и Android можно также [добавить заметку к моментальному снимку плитки, отчета или визуального элемента и поделиться им](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 

@@ -1,20 +1,20 @@
 ---
 title: Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 description: Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к SQL Server Reporting Services 2016 или более поздней версии.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383630"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770371"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
@@ -25,7 +25,7 @@ ms.locfileid: "58383630"
 С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения (WAP), чтобы обеспечить такой тип проверки подлинности.
 
    > [!NOTE]
-   > Просмотр отчетов Power BI, размещенных на сервере отчетов Power BI, с использованием WAP для проверки подлинности сейчас официально не поддерживается.
+   > Просмотр отчетов Power BI, размещенных на сервере отчетов Power BI с помощью WAP для проверки подлинности в настоящее время поддерживается только в приложении iOS. Приложение Android в данный момент официально не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -85,7 +85,7 @@ https://fs.contoso.com
 
 Вот как создать группу приложений.
 
-1. В приложении управления AD FS щелкните правой кнопкой мыши элемент **Группы приложений** и выберите команду **Добавить группу приложений...**.
+1. В приложении управления AD FS щелкните правой кнопкой мыши элемент **Группы приложений** и выберите команду **Добавить группу приложений...** .
 
    ![Добавление приложения ADFS](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -118,7 +118,7 @@ https://fs.contoso.com
    > [!NOTE]
    > URL-адрес вводится с учетом регистра.
 
-   *https://<url to report server>/reports*
+   *https://< URL-адрес сервера отчетов > / reports*
 
    ![Мастер добавления группы приложений ADFS 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Нажмите кнопку **Далее**.
@@ -165,7 +165,7 @@ https://fs.contoso.com
 
    Теперь для этой учетной записи компьютера сервера WAP настроено ограниченное делегирование. Далее нужно указать службы, которые этот компьютер может делегировать.
 
-6. Нажмите кнопку **Добавить...**. в поле служб.
+6. Нажмите кнопку **Добавить...** . в поле служб.
 
    ![Ограниченное делегирование WAP 02](media/mobile-oauth-ssrs/wap-contrained-delegation2.png)
 
@@ -191,7 +191,7 @@ https://fs.contoso.com
 Хотя вы можете публиковать приложения в консоли управления доступом к отчету, сначала потребуется создать приложение с помощью PowerShell. Выполните эту команду, чтобы добавить приложение.
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | Параметр | Комментарии |

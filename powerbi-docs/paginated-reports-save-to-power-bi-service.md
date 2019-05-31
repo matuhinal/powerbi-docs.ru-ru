@@ -1,20 +1,20 @@
 ---
 title: Публикация отчета с разбивкой на страницы в службе Power BI (предварительная версия)
 description: Из этого руководства вы узнаете, как опубликовать отчет с разбивкой на страницы в службе Power BI, передав его с локального компьютера.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174552"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61424111"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Публикация отчета с разбивкой на страницы в службе Power BI (предварительная версия)
 
@@ -26,7 +26,7 @@ ms.locfileid: "58174552"
 
 Если рабочая область не имеет значка с бриллиантом ![Значок емкости Power BI Premium в виде бриллианта](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) рядом с именем, ее следует добавить в емкость Premium. 
 
-1. Выберите **Рабочие области**, щелкните многоточие (**...**) рядом с именем рабочей области и выберите **Изменить рабочую область**.
+1. Выберите **Рабочие области**, щелкните многоточие ( **...** ) рядом с именем рабочей области и выберите **Изменить рабочую область**.
 
     ![Выбор действия "Изменить рабочую область"](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 

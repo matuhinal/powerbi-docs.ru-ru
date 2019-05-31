@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dffcf8fb3daa7559abd4d3b999ea3a73392d0eb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283123"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375174"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Использование детализации в Power BI Desktop
 С помощью функции **детализации** в **Power BI Desktop** вы можете создать страницу отчета, посвященную определенной сущности, такой как поставщик, клиент или производитель. Щелкнув правой кнопкой мыши точку данных на странице отчета, пользователь может перейти на страницу с дополнительными сведениями об этой точке данных, отфильтрованными по контексту.
@@ -81,5 +81,6 @@ ms.locfileid: "54283123"
 
 Рекомендуем также ознакомиться со следующими материалами:
 
-* [Использование срезов в Power BI Desktop](visuals/desktop-slicers.md)
+* [Использование детализации кросс отчет в Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Использование срезов в Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

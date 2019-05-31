@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 285c22347f049e6b99cb97fa19efc6363d9b57cb
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008656"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163705"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Подключение к ServiceNow с помощью Power BI для создания отчетов об инцидентах
 ServiceNow предлагает несколько продуктов и решений, в частности для бизнеса, операционной деятельности и управления ИТ, которые позволяют повысить эффективность работы предприятия. Этот пакет содержимого включает отчеты и аналитические инструменты для работы с открытыми, недавно решенными и недавно закрытыми инцидентами.  

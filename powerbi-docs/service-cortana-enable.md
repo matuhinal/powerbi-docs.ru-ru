@@ -6,23 +6,21 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ff99fc731b5388acd4dbb7c98fe13b227e7d5789
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216776"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375160"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Предоставление Кортане доступа к отчетам Power BI (и базовым наборам данных)
 Вы ознакомились со статьей [Общие сведения о Cortana для Power BI](service-cortana-intro.md) (прежде чем приступать к работе, прочтите эту статью) и теперь хотите сделать то же самое.  Прежде чем задавать вопросы на естественном языке в Кортане и находить ответы в данных, хранящихся в ***отчетах*** Power BI, нужно выполнить ряд требований. В частности нужно сделать следующее.
 
-> [!NOTE]
-> Если вы используете предварительную версию интерфейса Кортаны для поиска ***панелей мониторинга*** Power BI, остальные разделы этой статьи можно пропустить. Предварительная настройка Кортаны для поиска панелей мониторинга Power BI не требуется.
-> 
-> 
+> [!IMPORTANT]
+> Интеграция Cortana в Power BI рекомендуется. Начиная с 11 июня, Cortana больше не будет работать для любой панели мониторинга и отчеты.
 
 В службе Power BI
 

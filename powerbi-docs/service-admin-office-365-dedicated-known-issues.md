@@ -12,11 +12,11 @@ ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295772"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187846"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Выделенные пользователи Office 365. Известные проблемы
 Power BI теперь поддерживается для выделенных пользователей Office 365.  Если вы являетесь выделенным пользователем Office 365, то можете выполнить вход с учетной записью из данного клиента и использовать Power BI. В настоящее время известны две проблемы.

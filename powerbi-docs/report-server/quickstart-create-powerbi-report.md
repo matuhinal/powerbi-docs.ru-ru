@@ -1,20 +1,20 @@
 ---
 title: Создание отчета Power BI для Сервера отчетов Power BI
 description: Узнайте, как создать отчет Power BI для сервера отчетов Power BI за несколько простых шагов.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
-ms.author: maghan
-ms.openlocfilehash: 7d97e375f7743b381f222d64e230d71133060464
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324882"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187505"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -31,7 +31,7 @@ ms.locfileid: "56324882"
 
     ![Скачивание Power BI Desktop из веб-портала](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Вы также можете перейти непосредственно к приложению [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (август 2018 г.), оптимизированному для решения сервера отчетов Power BI, в Центре загрузки Майкрософт.
+    Или перейти непосредственно к [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (, оптимизированному для сервера отчетов Power BI мая 2019) в центре загрузки Майкрософт.
 
 2. На странице Центра загрузки нажмите кнопку **Скачать**.
 
@@ -41,13 +41,13 @@ ms.locfileid: "56324882"
 
     - **PBIDesktopRS_x64.msi** (64-разрядная версия).
 
-4. Скачав установщик, запустите мастер установки Power BI Desktop (август 2018 г.).
+4. Скачав установщик, запустите мастер установки Power BI Desktop (мая 2019 г.).
 
 2. На завершающем этапе процесса установки выберите параметр **Start Power BI Desktop now** (Запустить Power BI Desktop).
    
-    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка отображается "Power BI Desktop (август 2018 г.)", вы установили правильную версию.
+    После автоматического запуска приложения вы будете готовы к работе. Чтобы узнать, что вы установили правильную версию, так как «Power BI Desktop (мая 2019 г.)» находится в строке заголовка.
 
-    ![Power BI Desktop, версия от августа 2018 г.](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
+    ![Power BI Desktop версии мая 2019 г.](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
 
 3. Если вы не знакомы с Power BI Desktop, просмотрите видеоролики на экране приветствия.
    

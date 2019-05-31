@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174575"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181680"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Совместная работа в рабочей области приложения Power BI
 Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Совместная работа не ограничивается рабочими областями в Power BI. В Office 365 доступны и другие службы групп, включая решения по совместному использованию файлов в OneDrive для бизнеса, общению в Exchange, а также общий календарь, задачи и т. д. Узнайте подробнее о [группах в Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -43,7 +43,7 @@ ms.locfileid: "58174575"
 ## <a name="collaborate-in-office-365"></a>Совместная работа в Office 365
 Совместная работа в Office 365 начинается в рабочей области приложения в Power BI.
 
-1. В службе Power BI щелкните стрелку рядом с элементом "Рабочие области" и выберите кнопку с многоточием (**…**) рядом с именем рабочей области. 
+1. В службе Power BI щелкните стрелку рядом с элементом "Рабочие области" и выберите кнопку с многоточием ( **…** ) рядом с именем рабочей области. 
    
    ![Меню "Рабочие области"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. В этом меню вы можете сотрудничать со своей группой несколькими способами: 
@@ -64,7 +64,7 @@ ms.locfileid: "58174575"
 2. Узнайте больше о [групповых беседах в Outlook для Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Планирование события в календаре рабочей области группы приложения.
-1. Нажмите кнопку с многоточием (**…**) рядом с именем рабочей области приложения и выберите \> **Календарь**. 
+1. Нажмите кнопку с многоточием ( **…** ) рядом с именем рабочей области приложения и выберите \> **Календарь**. 
    
    ![Вкладка "Календарь"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

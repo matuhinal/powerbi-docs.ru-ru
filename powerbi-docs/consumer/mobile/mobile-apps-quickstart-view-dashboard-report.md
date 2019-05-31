@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
-ms.date: 11/16/2018
+ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279120"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60976121"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Краткое руководство. Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 В этом кратком руководстве представлены примеры панелей мониторинга и отчетов в мобильных приложениях Power BI на устройстве Android. Эти же действия можно выполнять в мобильных приложениях на других платформах. 
@@ -54,7 +54,7 @@ Power BI работает на устройствах Android под управ�
 
 3. В левом нижнем углу выберите **Получить данные**.
    
-    ![Получить данные](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
+    ![Получение данных](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
 
 3. На странице "Получение данных" щелкните значок **Примеры**.
    

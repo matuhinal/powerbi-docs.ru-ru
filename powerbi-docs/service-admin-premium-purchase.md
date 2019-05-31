@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565286"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
@@ -48,7 +48,7 @@ ms.locfileid: "65565286"
 
 1. В разделе **Другие планы** найдите предложения Power BI Premium. В списке отобразятся предложения P1–P3, EM3 и P1 (ежемесячная подписка).
 
-1. Наведите указатель мыши на многоточие (**…**), а затем выберите **Приобрести**.
+1. Наведите указатель мыши на многоточие ( **…** ), а затем выберите **Приобрести**.
 
     ![Приобрести](media/service-admin-premium-purchase/premium-purchase.png)
 
@@ -66,7 +66,7 @@ ms.locfileid: "65565286"
 
 1. Найдите элемент Power BI Premium, для которого требуется приобрести дополнительную емкость, в разделе **Другие планы**.
 
-1. Наведите указатель мыши на **многоточие (…)**, а затем выберите **Change license quantity** (Изменить количество лицензий).
+1. Наведите указатель мыши на **многоточие (…)** , а затем выберите **Change license quantity** (Изменить количество лицензий).
 
     ![Изменить количество лицензий](media/service-admin-premium-purchase/premium-purchase-more.png)
 

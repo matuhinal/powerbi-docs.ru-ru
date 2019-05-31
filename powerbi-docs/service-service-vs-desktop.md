@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284111"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403445"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Сравнение Power BI Desktop и службы Power BI
 
@@ -48,7 +48,7 @@ ms.locfileid: "54284111"
 
 ## <a name="collaborating-in-the-power-bi-service"></a>Совместная работа в Power BI
 
-Создав отчеты, вы можете сохранить их в *рабочей области* в **службе Power BI**, где вы ведете совместную работу с коллегами. На основе отчетов создаются *панели мониторинга*. Затем вы предоставляете доступ к панелям мониторинга и отчетам пользователям в вашей организации и за ее пределами. Пользователи отчетов просматривают их в службе Power BI в [представлении чтения](consumer/end-user-reading-view.md), но не в представлении редактирования. Они имеют доступ не ко всем функциям, которые доступны создателям отчетов. 
+Создав отчеты, вы можете сохранить их в *рабочей области* в **службе Power BI**, где вы ведете совместную работу с коллегами. На основе отчетов создаются *панели мониторинга*. Затем вы предоставляете доступ к панелям мониторинга и отчетам пользователям в вашей организации и за ее пределами. Пользователи отчетов просматривают их в службе Power BI в [представлении чтения](consumer/end-user-reading-view.md), но не в представлении редактирования. У них нет доступа ко всем функциям, доступными авторам отчетов. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

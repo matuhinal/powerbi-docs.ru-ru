@@ -1,5 +1,5 @@
 ---
-title: 'Создание нового отчета из набора данных '
+title: Создание отчета из набора данных
 description: Создание отчета Power BI из набора данных.
 author: maggiesMSFT
 manager: kfile
@@ -7,32 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/24/2018
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6b69c2b1fa811d395a26403de852c44af33491c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216960"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770229"
 ---
-# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
-Вы ознакомились со статьей [Отчеты в Power BI](consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существует много различных способов создания отчетов. В этой статье мы создадим простой отчет из набора данных Excel, воспользовавшись службой Power BI. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами в разделе **Дальнейшие действия** ниже.  
+# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
+Вы ознакомились со статьей [Отчеты в Power BI](consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существуют различные способы создания отчета. В этой статье мы начнем с создания простого отчета в службе Power BI из набора данных Excel. Если вы знакомы с основами создания отчета, ознакомьтесь [дальнейшие действия](#next-steps) в конце дополнительные дополнительные разделы отчета.  
 
 ## <a name="prerequisites"></a>Предварительные требования
-> - Служба Power BI (сведения о создании отчетов с помощью приложения Power BI Desktop см. в статье [Представление отчетов в Power BI Desktop](desktop-report-view.md)).  
-> - Набор данных "Анализ розничной торговли — пример"
+- [Зарегистрироваться в службе Power BI](service-self-service-signup-for-power-bi.md). Для создания отчетов с помощью Power BI Desktop, см. в разделе [представление рабочего стола отчетов](desktop-report-view.md). 
+- [Скачать набор данных Excel анализ розничной торговли — пример](http://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса или локально.
 
 ## <a name="import-the-dataset"></a>Импорт набора данных
-Чтобы создать отчет таким способом, сначала вам потребуется набор данных и пустой холст отчета. Для дальнейшей работы [скачайте набор данных Excel "Анализ розничной торговли — пример"](http://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса (предпочтительный вариант) или в локальной среде.
+Чтобы создать отчет таким способом, сначала вам потребуется набор данных и пустой холст отчета. Читатели могут проследить в наборе данных Excel пример анализа розничной торговли.
 
-1. Мы создадим отчет в рабочей области службы Power BI, поэтому создайте рабочую область или выберите существующую.
+1. Мы будет создать отчет в рабочей области службы Power BI, поэтому выберите существующую рабочую область или создайте новый.
    
    ![список рабочих областей приложений](media/service-report-create-new/power-bi-workspaces2.png)
-2. В нижней части панели навигации слева выберите **Получить данные**.
+2. В нижней части области навигации слева, выберите **данные**.
    
-   ![Получение данных](media/service-report-create-new/power-bi-get-data3.png)
+   ![Получить данные](media/service-report-create-new/power-bi-get-data3.png)
 3. Выберите **Файлы** и перейдите к расположению, в котором вы сохранили пример анализа розничной торговли.
    
     ![выбор пункта "Файлы"](media/service-report-create-new/power-bi-select-files.png)
@@ -46,8 +46,8 @@ ms.locfileid: "56216960"
    
    ![редактор отчетов](media/service-report-create-new/power-bi-blank-report.png)
 
-> **Совет**. Если вы еще не работали с холстом редактирования отчета или хотите вспомнить изученные сведения, перед продолжением прочтите статью [Знакомство с редактором отчетов](service-the-report-editor-take-a-tour.md).
-> 
+> [!TIP]
+> Если вы еще не работали с холстом редактирования отчета или хотите освежить, [Знакомство с редактором отчетов](service-the-report-editor-take-a-tour.md) перед продолжением. > 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Добавление диаграммы "Радиальный датчик" в отчет
@@ -62,7 +62,7 @@ ms.locfileid: "56216960"
 3. Перетащите поле **Sales** (Продажи) > **This Year Sales** (Продажи за этот год) > **Goal** (Цель) в столбец **Целевое значение**. Похоже, мы очень близки к цели.
    
     ![Визуальный элемент "Датчик" с целевым значением "Цель"](media/service-report-create-new/power-bi-report-step3.png)
-4. Теперь [сохраните отчет](service-report-save.md).
+4. Настал подходящий момент, чтобы сохранить отчет.
    
    ![Меню "Файл"](media/service-report-create-new/powerbi-save.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "56216960"
    
     ![редактор отчетов с активной диаграммой с областями](media/service-report-create-new/power-bi-report-step5.png)
 5. Чтобы отсортировать визуальные элементы по времени, нажмите кнопку с многоточием и выберите **Sort by Period** (Сортировать по периоду).
-6. Теперь добавим срез. Щелкните пустую область на холсте и выберите шаблон Slicer ![значок среза](media/service-report-create-new/power-bi-slicer-icon.png)    (Срез). После этого на холсте появится пустой срез.
+6. Теперь добавим срез. Щелкните пустую область на холсте и выберите шаблон Slicer ![значок среза](media/service-report-create-new/power-bi-slicer-icon.png) (Срез). Теперь у нас есть появится пустой срез на холсте.
    
     ![Холст отчетов](media/service-report-create-new/power-bi-report-step6.png)    
 7. В области "Поля" выберите **District** (Округ) > **District** (Округ). Переместите срез и измените его размер.

@@ -7,24 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215611"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150489"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Потоки данных и интеграция Azure Data Lake (предварительная версия)
 
 По умолчанию данные, используемые в Power BI, хранятся во внутренней памяти, предоставляемой Power BI. С помощью интеграции потоков данных и Azure Data Lake Storage 2-го поколения (ADLS 2-го поколения) вы можете хранить свои потоки данных в корпоративной учетной записи Azure Data Lake Storage 2-го поколения. 
 
 ![потоки данных в Службе хранилища Azure](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
-
-> [!NOTE]
-> Функции потоков данных предоставляются в предварительной версии и могут быть изменены до выпуска общедоступной версии.
 
 ## <a name="how-cdm-folders-relate-to-dataflows"></a>Как папки CDM связаны с потоками данных
 
@@ -87,9 +84,9 @@ Power BI использует маркеры *носителя OAuth Active Dire
 Общие сведения о потоках данных см. в этих статьях:
 
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
-* [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
+* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о службе хранилища Azure см. в следующих статьях:
 * [Руководство по безопасности службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

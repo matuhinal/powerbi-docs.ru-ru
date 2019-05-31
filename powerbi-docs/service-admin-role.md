@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382816"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099635"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Основные сведения о роли администратора службы Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "58382816"
 
 Чтобы назначить пользователям роль администратора Power BI в Центре администрирования Microsoft 365, выполните следующие действия.
 
-1. В Центре администрирования Microsoft 365 выберите **Пользователи** > **Активные пользователи**.
+1. В [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home#/homepage)выберите **пользователей** > **активных пользователей**.
 
     ![Центр администрирования Microsoft 365](media/service-admin-role/powerbi-admin-users.png)
 
@@ -61,9 +61,14 @@ ms.locfileid: "58382816"
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>Назначение пользователям роли администратора с помощью PowerShell
 
-Вы также можете назначать роли пользователям с помощью PowerShell. Управление пользователями осуществляется с помощью Azure Active Directory (Azure AD). Если у вас нет модуля PowerShell для Azure AD, [скачайте и установите последнюю версию](https://www.powershellgallery.com/packages/AzureAD/).
+Вы также можете назначать роли пользователям с помощью PowerShell. Пользователей, управляемых в Azure Active Directory (Azure AD). Если у вас нет модуля PowerShell для Azure AD, [скачайте и установите последнюю версию](https://www.powershellgallery.com/packages/AzureAD/).
 
-1. Сначала получите **идентификатор объекта** для роли **Администратор службы Power BI**. Чтобы получить **идентификатор объекта**, можно выполнить команду [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole).
+1. Во-первых подключение к Azure AD:
+   ```
+   PS C:\Windows\system32> Connect-AzureAD
+   ```
+
+1. Во-вторых, получить **ObjectId** для **администратор службы Power BI** роли. Чтобы получить **идентификатор объекта**, можно выполнить команду [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole).
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,7 +90,7 @@ ms.locfileid: "58382816"
 1. Затем получите **идентификатор объекта** пользователя. Его можно найти, выполнив команду [Get-AzureADUser](/powershell/module/azuread/get-azureaduser).
 
     ```
-    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+    PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'
 
     ObjectId                             DisplayName UserPrincipalName      UserType
     --------                             ----------- -----------------      --------

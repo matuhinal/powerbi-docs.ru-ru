@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430330"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404544"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)
 
@@ -48,7 +48,7 @@ ms.locfileid: "58430330"
 
 ![Портал Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Выберите подписку Azure, которая использовалась для публикации модели, и выберите **Управление доступом (IAM)**. Затем щелкните **Добавить назначение ролей**, выберите роль **Читатель** и выберите пользователя Power BI. После завершения щелкните **Сохранить**. На приведенном ниже изображении показано, как выбрать эти элементы.
+Выберите подписку Azure, которая использовалась для публикации модели, и выберите **Управление доступом (IAM)** . Затем щелкните **Добавить назначение ролей**, выберите роль **Читатель** и выберите пользователя Power BI. После завершения щелкните **Сохранить**. На приведенном ниже изображении показано, как выбрать эти элементы.
 
 ![Управление доступом на портале Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -90,9 +90,9 @@ ms.locfileid: "58430330"
 
 После этого будет предложено подключиться к источнику данных. Вставьте ссылку на данные, которые вы использовали для создания модели Azure ML. Если вы использовали данные о _ценах на автомобили_, вставьте следующую ссылку в поле **File path or URL** (Путь к файлу или URL-адрес ) и нажмите кнопку **Далее**.
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
-![Подключение к источнику данных](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Подключиться к источнику данных](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 В редакторе Power Query отобразятся данные из CSV-файла в режиме предварительного просмотра. На ленте команд выберите **Преобразовать таблицу**, а затем щелкните **Использовать первую строку в качестве заголовков**.  После этого на панель **Примененные шаги** справа будет добавлен шаг выполнения запроса _Повышенные заголовки_. На этой панели можно изменить имя запроса на более понятное, назвав его, например _Цены на автомобили_.
 

@@ -1,33 +1,33 @@
 ---
-title: Ошибка Не удалось найти данные в этой книге Excel
-description: Ошибка Не удалось найти данные в этой книге Excel
+title: Ошибка Не удалось найти данные в книге Excel
+description: Ошибка Не удалось найти данные в книге Excel
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 849c377a140cd0dd31f55760987336fc3711bc79
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285875"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101582"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка Не удалось найти данные в этой книге Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка Не удалось найти данные в книге Excel
 
->[!NOTE]
+>[!NOTE]  
 >Эта статья относится к Excel 2007 и более поздних версий.
 
 При импорте книги Excel в Power BI может появиться следующая ошибка:
 
-*Ошибка Не удалось найти данные в этой книге Excel. Возможно, данные имеют неправильный формат. Необходимо отредактировать книгу в Excel, а затем повторить импорт.*
+*Ошибка Не удалось найти данные в формате таблицы. Чтобы импортировать из Excel в службе Power BI, необходимо отформатировать данные в виде таблицы. Выберите все данные в таблице и нажмите клавиши Ctrl + T.*
 
-![Не удалось найти данные в книге](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![Не удалось найти данные в книге](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
 ## <a name="quick-solution"></a>Быстрое решение
 1. Отредактируйте книгу в Excel.
@@ -47,28 +47,28 @@ ms.locfileid: "54285875"
     >[!NOTE]
     >Рисунки приведены для Excel 2013. При использовании другой версии картинка может отличаться, но действия будут теми же самыми.
     
-    ![Открытая книга](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![Открытая книга](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-1.png)
 2. Выделите диапазон ячеек, содержащих данные. Первая строка должна содержать заголовки столбцов (имена столбцов):
    
-    ![Выделение диапазона ячеек](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![Выделение диапазона ячеек](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
 3. На вкладке **Вставка** ленты щелкните элемент **Таблица**. (Или используйте сочетание клавиш **CTRL + T**.)
    
-    ![Вставка таблицы](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![Вставка таблицы](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
 4. Вы увидите следующее диалоговое окно. Убедитесь, что флажок **Таблица с заголовками** установлен, и нажмите кнопку **ОК**:
    
-    ![Создание таблицы](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![Создание таблицы](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. Теперь данные форматируются в виде таблицы:
    
-    ![Форматирование данных в виде таблицы](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![Форматирование данных в виде таблицы](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. Сохраните книгу.
 7. Вернитесь в Power BI. Выберите "Получить данные" в нижней части левой панели навигации.
    
-    ![Получение данных](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![Получить данные](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. В поле **Файлы** выберите **Получить**.
    
-    ![Получение файлов](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![Получение файлов](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)
 9. Повторите импорт книги Excel. На этот раз импорт должен найти таблицу и выполниться успешно.
    
     Если импорт по-прежнему не удается, свяжитесь с нами, выбрав в меню "Справка" пункт **Сообщество**:
    
-    ![Ссылка "Сообщество"](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![Ссылка "Сообщество"](media/service-admin-troubleshoot-excel-workbook-data/power-bi-question-menu-community.png)

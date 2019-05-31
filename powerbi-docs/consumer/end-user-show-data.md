@@ -1,5 +1,5 @@
 ---
-title: Отображение данных, использованных для создания визуализации
+title: Отображение данных, был использован для создания визуального элемента
 description: В этом документе объясняется, как пользователи Power BI могут "видеть" данные, используемые для создания визуализации.
 author: mihart
 manager: kvivek
@@ -8,34 +8,33 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/26/2018
+ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4847eaecffab8bc54c2a85602dc980f38c9719c5
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662303"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65607989"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Отображение данных, использованных для создания визуализации
-## <a name="show-data-in-reading-view"></a>Отображение данных в режиме чтения
-Визуализация Power BI создается на основе данных из базовых наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. Если выбрать функцию **Показать данные**, Power BI отобразит рядом с визуализацией или под ней связанную информацию.
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Отображение данных, был использован для создания визуального элемента
+
+Визуальный элемент Power BI создается на основе данных из базовых наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. При выборе **Показать данные**, Power BI отображает данные ниже (или рядом с полем) визуального элемента.
 
 
-## <a name="using-show-data-in-power-bi-service-reading-view"></a>Использование функции *Показать данные* в режиме чтения в службе Power BI
-1. В службе Power BI откройте отчет в режиме чтения и выберите визуальный элемент.  
+1. В службе Power BI [откройте отчет](end-user-report-open.md) и выберите визуальный элемент.  
 2. Чтобы отобразить данные, лежащие в основе визуального элемента, нажмите кнопку с многоточием и выберите команду **Показать данные**.
    
-   ![Выбор пункта "Показать данные"](./media/end-user-show-data/power-bi-show-data2.png)
+   ![Выбор пункта "Показать данные"](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
 3. По умолчанию данные отображаются под визуальным элементом.
    
-   ![вертикальное отображение визуального элемента и данных](./media/end-user-show-data/power-bi-explore-show-data-new.png)
+   ![вертикальное отображение визуального элемента и данных](./media/end-user-show-data/power-bi-show-data-new.png)
 
 4. Чтобы изменить ориентацию, выберите вертикальную ориентацию ![Значок ориентации](media/end-user-show-data/power-bi-vertical-icon-new.png) в правом верхнем углу визуализации.
    
-   ![горизонтальное отображение визуального элемента и данных](./media/end-user-show-data/power-bi-explore-show-data2-new.png)
+   ![горизонтальное отображение визуального элемента и данных](./media/end-user-show-data/power-bi-show-data-rotate.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Визуализации в Power BI](../visuals/power-bi-report-visualizations.md)    
+[Визуальные элементы в отчетах Power BI](../visuals/power-bi-report-visualizations.md)    
 [Отчеты Power BI](end-user-reports.md)    
