@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710417"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Шаг 5. Добавление строк в таблицу Power BI
@@ -311,7 +311,7 @@ ms.locfileid: "65710417"
     }
 ```
 
-Хотя мы указываем, что **_//Получаем первый идентификатор_** в приведенном выше коде, правильнее всего искать набор данных по имени.
+Хотя мы указываем, что ** _//Получаем первый идентификатор_** в приведенном выше коде, правильнее всего искать набор данных по имени.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
