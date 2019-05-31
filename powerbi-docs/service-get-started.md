@@ -12,11 +12,11 @@ ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147503"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238875"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Руководство. Приступая к работе со службой Power BI (app.powerbi.com)
 В этом руководстве содержатся сведения, которые помогут вам приступить к работе со ***службой Power BI***. Чтобы получить представление о том, как служба Power BI связана с другими предложениями Power BI, ознакомьтесь со статьей [Что такое Power BI](power-bi-overview.md).
@@ -59,7 +59,7 @@ ms.locfileid: "55147503"
 
 Ознакомьтесь со всеми другими способами [получения данных для Power BI](service-get-data.md).
 
-## <a name="step-1-get-data"></a>Шаг 1. Получение данных
+## <a name="step-1-get-data"></a>Шаг 1. Получить данные
 Ниже приведен пример получения данных из CSV-файла. Хотите изучить это руководство? [Скачайте этот образец CSV-файла](http://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. [Войдите в Power BI](http://www.powerbi.com/). Нет учетной записи? Не волнуйтесь, вы можете зарегистрироваться в бесплатной пробной версии.

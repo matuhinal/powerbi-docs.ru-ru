@@ -1,20 +1,20 @@
 ---
 title: Инструмент переноса Power BI Embedded
 description: Этот инструмент переноса можно использовать для копирования отчетов из службы Azure Power BI Embedded (PaaS) в службу Power BI (SaaS).
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216385"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61272248"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Встроенный инструмент миграции Power BI
 
@@ -159,7 +159,7 @@ ms.locfileid: "56216385"
 * Выберите конкретные отчеты и нажмите кнопку **Скачать выбранные**.
 * Нажмите кнопку **Скачать все**.
 
-![Параметры скачивания](media/migrate-tool/migrate-tool-download-options.png)
+![Параметры загрузки](media/migrate-tool/migrate-tool-download-options.png)
 
 Для успешной загрузки отобразится состояние *Готово* и существующий PBIX-файл.
 
@@ -272,7 +272,7 @@ ms.locfileid: "56216385"
 
 [Внедрение в Power BI](embedding.md)  
 [Как перенести содержимое коллекции рабочих областей Power BI Embedded в Power BI](migrate-from-powerbi-embedded.md)  
-[Что такое Power BI Premium?](../service-premium.md)  
+[Что такое Power BI Premium?](../service-premium-what-is.md)  
 [Репозиторий Git JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Репозиторий Git Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Пример внедрения JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

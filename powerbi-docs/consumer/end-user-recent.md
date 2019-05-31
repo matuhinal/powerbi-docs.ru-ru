@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661476"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054916"
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Недавно просмотренное** содержимое в службе Power BI
 Недавнее содержимое — это последние элементы, которые вы просматривали в службе Power BI, но оно включает не более 20 элементов.  Это содержимое включает панели мониторинга, отчеты, приложения и книги во всех рабочих областях.
@@ -37,7 +37,7 @@ ms.locfileid: "56661476"
 
 ![отображение всего недавно просмотренного содержимого](./media/end-user-recent/power-bi-recent-list.png)
 
-Отсюда вы можете взаимодействовать с содержимым так же, как и на отдельных вкладках [**Панели мониторинга**](end-user-dashboards.md), [**Отчеты**](end-user-reports.md), **Книги** и на экране приложений <!--[**Apps**](end-user-apps.md)-->.
+Здесь вы можете взаимодействовать с содержимым, как это делается в отдельных [ **панелей мониторинга**](end-user-dashboards.md), [ **отчеты**](end-user-reports.md), и  **Книги** вкладки и по приложениям <!--[**Apps**](end-user-apps.md)--> экран.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 <!--[Power BI service Apps](end-user-apps.md)-->

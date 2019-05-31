@@ -1,20 +1,20 @@
 ---
 title: Использование безопасности на уровне строк во встроенном содержимом Power BI
 description: Узнайте, какие действия необходимо выполнить для внедрения содержимого Power BI в приложение.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328017"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354144"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -49,7 +49,7 @@ RLS создается в Power BI Desktop. При открытии набора
 
 * Все меры, например **Общий объем продаж**, хранятся в таблице фактов **Продажи**.
 * Существуют четыре дополнительные связанные таблицы измерений: **Позиция**, **Время**, **Магазин** и **Округ**.
-* Стрелки на линиях связи указывают, каким образом фильтры могут передаваться из одной таблицы в другую. Например, если поместить фильтр к **Time[Date]**, в текущей схеме отфильтруются только значения в таблице **Продажи**. Этот фильтр не повлияет на другие таблицы, так как все стрелки в линиях связи указывают на таблицу продаж.
+* Стрелки на линиях связи указывают, каким образом фильтры могут передаваться из одной таблицы в другую. Например, если поместить фильтр к **Time[Date]** , в текущей схеме отфильтруются только значения в таблице **Продажи**. Этот фильтр не повлияет на другие таблицы, так как все стрелки в линиях связи указывают на таблицу продаж.
 * В таблице **Округ** представлены сведения о менеджере каждого округа:
   
     ![Строки в таблице "Округ"](media/embedded-row-level-security/powerbi-embedded-district-table.png)
@@ -64,7 +64,7 @@ RLS создается в Power BI Desktop. При открытии набора
 2. Создайте роль **Диспетчер**.
 
     ![Создание роли](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. В таблице **Округ** введите такое выражение DAX: **[District Manager] = USERNAME()**.
+3. В таблице **Округ** введите такое выражение DAX: **[District Manager] = USERNAME()** .
 
     ![Инструкция DAX для правила RLS](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Чтобы убедиться, что правила работают, на вкладке **Моделирование** выберите **Просмотреть как роли**, а затем созданную роль **Менеджер** вместе с ролью **Другие пользователи**. Введите имя **AndrewMa** для пользователя.
@@ -145,9 +145,9 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 Просматривая данные Power BI в приложении, функция CustomData позволяет добавлять фильтр строк при использовании **Azure Analysis Services** в качестве источника данных (просматривая данные Power BI, подключенные в приложении к Azure Analysis Services).
 
-Функция CustomData позволяет передавать произвольный текст (строку) с помощью свойства строки подключения CustomData. Analysis Services используют это значение с помощью функции *CUSTOMDATA()*.
+Функция CustomData позволяет передавать произвольный текст (строку) с помощью свойства строки подключения CustomData. Analysis Services используют это значение с помощью функции *CUSTOMDATA()* .
 
-Единственный способ для приобретения динамической безопасности на уровне строк (которая использует динамические значения для вычисления фильтра) в **Azure Analysis Services** — это использовать функцию *CUSTOMDATA()*.
+Единственный способ для приобретения динамической безопасности на уровне строк (которая использует динамические значения для вычисления фильтра) в **Azure Analysis Services** — это использовать функцию *CUSTOMDATA()* .
 
 Его можно использовать в запросе DAX для ролей или без каких-либо ролей в запросе DAX для мер.
 Функция CustomData является частью нашей функции создания токенов для таких артефактов, как панель мониторинга, отчет и плитка. Панели мониторинга могут иметь несколько удостоверений CustomData (по одному на плитку или модель).
@@ -191,7 +191,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![Создание базы данных Azure Analysis Services](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
-    ![База данных служб Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
+    ![Базы данных служб Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
 
 2. Создайте роль на сервере Analysis Services.
 
@@ -205,7 +205,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![Создание роли. Установка параметров членства](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. Задайте запрос DAX **Фильтры строк** с помощью функции *CUSTOMDATA()*.
+5. Задайте запрос DAX **Фильтры строк** с помощью функции *CUSTOMDATA()* .
 
     ![Создание роли. Установка фильтров строк](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
@@ -214,6 +214,8 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
     ![Образец отчета PBI](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. С помощью программных интерфейсов Power BI используйте функцию CustomData в приложении.  При создании токена с помощью функции Customdata необходимо ввести имя пользователя. Имя пользователя должно быть таким же, как и имя главного участника-пользователя. Главный пользователь должен быть членом созданной роли. Если роли не указаны, то все роли, членом которых является главный пользователь, используются для вычисления RLS.
+
+    При работе с [субъекта-службы](embed-service-principal.md), необходимо также выполните описанные выше действия, вместо использования основной учетной записи. При создании токена внедрения, используйте [идентификатор объекта-участника службы](embed-service-principal.md#how-to-get-the-service-principal-object-id) как имя пользователя.
 
     > [!Note]
     > Когда вы будете готовы развернуть приложение в рабочей среде, необходимо, чтобы параметр или поле учетной записи главного пользователя были скрыты для конечного пользователя.

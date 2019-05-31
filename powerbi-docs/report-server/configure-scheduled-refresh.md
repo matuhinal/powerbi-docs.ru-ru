@@ -1,20 +1,20 @@
 ---
 title: Как настроить запланированное обновление отчета Power BI
 description: Для обновления данных в отчете Power BI необходимо создать расписание обновления.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 4ca6d7c5ed47433614dc194db7d09162d5e96eae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: f502ae89eb4c413dd900077272dbed5a4a9c4c6f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285721"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61219790"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Как настроить запланированное обновление отчета Power BI
 Для обновления данных в отчете Power BI необходимо создать расписание обновления. Это можно сделать в области *Управление* отчета Power BI.
@@ -79,7 +79,7 @@ ms.locfileid: "54285721"
    | Обновление данных |Выполняется обновление данных в модели. |
    | Удаление учетных данных из модели |Из модели удалены учетные данные для подключения к источнику данных. |
    | Сохранение модели в каталог |Обновление данных завершено и обновленная модель сохраняется обратно в базу данных каталога сервера отчетов. |
-   | Завершено обновление данных |Обновление выполнено. |
+   | Завершено Обновление данных |Обновление выполнено. |
    | Ошибка |При обновлении данных произошла ошибка, которая отображается на экране. |
 
 Чтобы узнать текущее состояние, необходимо обновить веб-страницу. Состояние не изменится автоматически.

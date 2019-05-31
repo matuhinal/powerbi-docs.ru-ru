@@ -11,11 +11,11 @@ ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291471"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61239630"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях
 
@@ -112,7 +112,7 @@ ms.locfileid: "54291471"
    ![](media/sample-retail-analysis/retail11.png)  
 
    Обратите внимание, что мужская категория, в отличие от остальной части бизнеса, не была подвержена апрельскому спаду, однако январь и июль остались проблемными месяцами.
-3. Теперь щелкните **пузырек 010-Womens’**.
+3. Теперь щелкните **пузырек 010-Womens’** .
 
    ![](media/sample-retail-analysis/retail12.png)
 

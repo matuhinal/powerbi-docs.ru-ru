@@ -1,20 +1,20 @@
 ---
 title: Свойства набора данных Power BI
 description: Дополнительные сведения об API-интерфейсах свойств набора данных Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248937"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386301"
 ---
 # <a name="dataset-properties"></a>Свойства набора данных
 
@@ -31,7 +31,7 @@ id     |  Guid       | Системный идентификатор набор�
 name     | String        | Определяемое пользователем имя набора данных.        | Нет        | Да        
 tables     | Table[]        | Коллекция таблиц.        |  Нет       | Нет        
 relationships     | Relationship[]        | Коллекция связей между таблицами.        | Нет        |  Нет  
-defaultMode     | String        | Определяет действие, выполняемое с набором данных, — отправка или передача в потоковом режиме (или и то и другое). Значения: "Push", "Streaming" и "PushStreaming" соответственно.         | Нет        |  Нет
+defaultMode     | Строка        | Определяет, помещается ли набор данных, потоковую передачу, или оба, со значениями «Push» и «Трансляция».         | Нет        |  Нет
 
 ## <a name="table"></a>Табличные
 

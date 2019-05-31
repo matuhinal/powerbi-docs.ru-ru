@@ -11,11 +11,11 @@ ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56663053"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048121"
 ---
 <!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>Power BI для потребителей
@@ -34,5 +34,5 @@ ms.locfileid: "56663053"
 [Терминология и основные понятия для *потребителей* Power BI](end-user-basic-concepts.md)
 
 <!-- [Get started guide for *consumers*] -->
-[Приступая к работе с Power BI](../service-get-started.md)
+[Начало работы с помощью службы Power BI](../service-get-started.md)
 

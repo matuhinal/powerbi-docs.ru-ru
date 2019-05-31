@@ -12,11 +12,11 @@ ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086593"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61253409"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop
 Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).

@@ -1,21 +1,21 @@
 ---
 title: Обновление набора данных, созданного из книги Excel (в облаке)
 description: Обновление набора данных, созданного из книги Excel в OneDrive или SharePoint Online
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57aa5afe32b8f65805ef4be71ded176f34aefd6e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2636eb92d3c86268acc19c05a6c791b62a58d43b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296025"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61414547"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, созданного из книги Excel в OneDrive или SharePoint Online
 Можно импортировать книги Excel, которые хранятся на локальном компьютере или в облаке, например в OneDrive для бизнеса или SharePoint Online. Мы рассмотрим преимущества использования облачного хранилища для файлов Excel. Дополнительные сведения об импорте файлов Excel в Power BI см. в разделе [Получение данных из файлов книг Excel](service-excel-workbook-files.md).
@@ -71,10 +71,10 @@ ms.locfileid: "54296025"
 > 
 > 
 
-В окне **Навигатор** щелкните **Загрузить в…**.  
+В окне **Навигатор** щелкните **Загрузить в…** .  
     ![](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-Или, если щелкнуть элемент **Изменить** в навигаторе, открывается редактор запросов. В нем можно щелкнуть **Закрыть и загрузить в…**.  
+Или, если щелкнуть элемент **Изменить** в навигаторе, открывается редактор запросов. В нем можно щелкнуть **Закрыть и загрузить в…** .  
     ![](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 
 Затем в окне **Load To**(Загрузить в) необходимо выбрать параметр **Добавить эти данные в модель данных**.  

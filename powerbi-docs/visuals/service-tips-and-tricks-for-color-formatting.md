@@ -11,11 +11,11 @@ ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: d3fba99c5b6b639d851b62d5624331b0bef1567d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216155"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61390900"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Советы и рекомендации по форматированию цветом в Power BI
 В Power BI предусмотрено много разных способов настройки панелей мониторинга и отчетов. В этой статье приводятся советы о том, как сделать визуализации в Power BI более привлекательными и интересными и настроить их в соответствии с потребностями.

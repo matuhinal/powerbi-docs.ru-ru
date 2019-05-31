@@ -11,11 +11,11 @@ ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0ffb0a2e7bee17d71ca2037c8a233c2443ff1120
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292806"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389877"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Отображение данных, использованных для создания визуализации
 ## <a name="show-data"></a>Показать данные

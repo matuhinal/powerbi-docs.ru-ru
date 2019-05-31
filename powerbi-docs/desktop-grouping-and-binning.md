@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b8d742e9238d438775115fd1ee2e287cf0ba0388
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454264"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Группирование данных и разделение их на ячейки в Power BI Desktop
@@ -58,7 +58,7 @@ Power BI Desktop позволяет **группировать** точки да
 
 ![](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-Нажмите кнопку **ОК**. В области **Поля** появится новое поле с добавлением *(ячеек)*. Это поле можно перетащить на холст и использовать размер ячейки в визуальном элементе.
+Нажмите кнопку **ОК**. В области **Поля** появится новое поле с добавлением *(ячеек)* . Это поле можно перетащить на холст и использовать размер ячейки в визуальном элементе.
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 

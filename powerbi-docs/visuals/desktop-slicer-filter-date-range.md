@@ -7,29 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c29145e4a51821bab284693bc13a508cb9c046c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 3d8057c4d35294dd5e83638b721169e4d54d2adf
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279166"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374497"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Использование среза и фильтра относительных дат в Power BI Desktop
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Использование среза относительных дат и фильтра в Power BI
 **Срез относительных дат** или **фильтр относительных дат** позволяют применять фильтры с учетом времени для любого столбца даты в модели данных. Например, вы можете использовать **срез относительных дат**, чтобы отобразились только данные по продажам за последние 30 дней (или месяц, календарный месяц и т. д). А когда вы обновляете данные, период относительного времени автоматически применяет ограничение относительной даты.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_01.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
 ## <a name="using-the-relative-date-range-slicer"></a>Использование среза для диапазона относительных дат
 Вы можете использовать срез диапазона относительных дат так же, как и любой другой срез. Просто создайте визуальный элемент **Срез** для отчета, а затем выберите значение даты для параметра **Поле**. На следующем изображении выбрано поле *OrderDate*.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_02.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-В правом верхнем углу области **среза относительных дат** нажмите угловую скобку. Отобразится меню.
+Выберите срез на холст, а затем угловую скобку в правом верхнем углу visual среза. Если визуальный элемент содержит данные даты, меню будет отображаться параметр для **относительный**. 
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_03.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
 Для среза относительных дат выберите *Относительное значение*.
 
@@ -41,7 +41,7 @@ ms.locfileid: "54279166"
 
 Эти параметры показаны на изображении ниже.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_04.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 Следующий параметр (средний) в *срезе относительных дат* позволяет ввести число, определяющее диапазон относительных дат.
 
@@ -57,7 +57,7 @@ ms.locfileid: "54279166"
 
 Эти параметры показаны на изображении ниже.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 Если вы выберете *Месяц* в этом списке и введете "2" в средний параметр, произойдет следующее. Если сегодня — 20 июля, в ограниченных срезом визуальных элементах отобразятся данные за два предыдущих месяца: с 20 мая по 20 июля (текущая дата).
 
@@ -66,15 +66,15 @@ ms.locfileid: "54279166"
 ## <a name="using-the-relative-date-range-filter"></a>Использование фильтра для диапазона относительных дат
 Кроме того, вы можете создать фильтр диапазона относительных дат для всего отчета или его отдельной страницы. Для этого просто перетащите поле даты в области **Page level filters** (Фильтры на уровне страницы) или **Report level filters** (Фильтры на уровне отчета) на панели **Поле**, как показано на следующем рисунке.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_06.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
 После этого вы можете изменить диапазон относительных дат аналогично настройке **среза относительных дат**. В раскрывающемся списке **Тип фильтра** выберите **Фильтрация относительных дат**.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_07.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
 После выбора **фильтрации относительных дат** отобразятся три раздела, которые можно изменить, включая цифровое поле посередине, как и для среза.
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_08.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
 
 Вот и все сведения об использовании этих ограничений относительных дат в отчетах.
 

@@ -12,11 +12,11 @@ ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 26dd55f1084d62f9506b02c5852f0396adba305a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290321"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61070738"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. Точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно в зависимости от данных.
@@ -72,7 +72,7 @@ ms.locfileid: "54290321"
 
    ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
-4. Перетащите поле **District** (Округ) из раздела **Сведения** в раздел **Условные обозначения**. Мы получили точечную диаграмму, в которой по оси Y показывается **суммарное отклонение продаж в %**, а по оси X — **продажи на кв. фут**. Цвета точек данных указывают регионы.
+4. Перетащите поле **District** (Округ) из раздела **Сведения** в раздел **Условные обозначения**. Мы получили точечную диаграмму, в которой по оси Y показывается **суммарное отклонение продаж в %** , а по оси X — **продажи на кв. фут**. Цвета точек данных указывают регионы.
 
     ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 

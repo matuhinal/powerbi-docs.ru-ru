@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289608"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051231"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Настройка заголовков визуализаций, условных обозначений и фона
 В этом руководстве описано несколько способов настройки визуализации.   Есть множество возможностей для настройки визуализации. Проще всего изучить их, используя панель форматирования (выберите значок валика).  Из этой статьи вы узнаете, как приступить к работе и настроить заголовок визуализации, условные обозначения и фон.  
 
 Не все визуализации можно настраивать ([см. полный список](#list)).  
 
-Узнайте, как Аманда настраивает визуализации, просмотрев ее отчет (перемотайте до 4:50 в этом видео). Сделайте то же самое в соответствии с приведенными ниже инструкциями, используя свои данные.
+Перемотка вперед до 4:50 в видео, демонстрирующий способы настройки визуализации. Сделайте то же самое в соответствии с приведенными ниже инструкциями, используя свои данные.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

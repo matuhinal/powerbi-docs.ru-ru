@@ -1,21 +1,21 @@
 ---
 title: Настройка запланированного обновления
 description: Здесь описано, как выбрать шлюз и настроить запланированное обновление.
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289425"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413888"
 ---
 # <a name="configuring-scheduled-refresh"></a>Настройка запланированного обновления
 
@@ -69,7 +69,7 @@ ms.locfileid: "54289425"
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> При подключении к локальным источникам данных SharePoint для обновления данных Power BI поддерживает только следующие механизмы аутентификации: *анонимный доступ*, *обычная проверка подлинности* и *аутентификация Windows (NTLM/Kerberos)*. Power BI не поддерживает *ADFS* или механизмы *проверки подлинности на основе форм* для обновления данных из локальных источников данных SharePoint.
+> При подключении к локальным источникам данных SharePoint для обновления данных Power BI поддерживает только следующие механизмы аутентификации: *анонимный доступ*, *обычная проверка подлинности* и *аутентификация Windows (NTLM/Kerberos)* . Power BI не поддерживает *ADFS* или механизмы *проверки подлинности на основе форм* для обновления данных из локальных источников данных SharePoint.
 > 
 > 
 
@@ -124,7 +124,7 @@ ms.locfileid: "54289425"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Обновление данных в Power BI](refresh-data.md)  
 [Шлюз Power BI Gateway — Personal](service-gateway-personal-mode.md)  
-[Локальный шлюз данных](service-gateway-onprem.md)  
+[On-premises data gateway (Локальный шлюз данных)](service-gateway-onprem.md)  
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 [Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

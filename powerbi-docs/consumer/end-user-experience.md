@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 86c8297c9a55f2b59e7c01390ff15bb3b2d4bf2e
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661768"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049400"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Краткое руководство. Навигация в службе Power BI
 
@@ -136,7 +136,7 @@ ms.locfileid: "56661768"
 Завершив работу с этим кратким руководством, вы можете при необходимости удалить примеры панели мониторинга, отчета и набора данных "Анализ розничной торговли".
 
 1. Откройте службу Power BI (app.powerbi.com) и войдите в нее.    
-2. В панели навигации слева выберите **"Рабочие области" > "Моя рабочая область"**.  
+2. В панели навигации слева выберите **"Рабочие области" > "Моя рабочая область"** .  
     Видите желтую звездочку? Она показывает, что область является избранной.    
 3. На вкладке **Панели мониторинга** щелкните значок **Удалить** в форме корзины напротив панели "Анализ розничной торговли".    
 

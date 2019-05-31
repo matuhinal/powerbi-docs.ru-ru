@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383245"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099832"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Лицензирование Power BI в организации
 
@@ -27,9 +27,15 @@ ms.locfileid: "58383245"
 
 Администраторы могут приобретать и назначать лицензии Power BI Pro; они также могут зарегистрироваться для получения бесплатной пробной версии Power BI Pro для своей организации. Отдельные пользователи также могут зарегистрироваться для получения бесплатной пробной версии Power BI Pro.
 
-### <a name="purchasing-power-bi-pro"></a>Приобретение Power BI Pro
+### <a name="purchase-power-bi-pro"></a>Купить Power BI Pro
 
 Лицензии Power BI Pro можно приобрести через Microsoft Office 365 или через сертифицированного партнера корпорации Майкрософт. После приобретения лицензий они назначаются отдельным пользователям. Дополнительные сведения см. в разделе [Приобретение и назначение лицензий Power BI Pro](service-admin-purchasing-power-bi-pro.md).
+
+### <a name="power-bi-pro-license-expiration"></a>Срок действия лицензии Power BI Pro
+
+Когда срок действия лицензии Power BI Pro истечет, вы сможете воспользоваться льготным периодом. Для лицензий, которые являются частью корпоративной лицензии, льготный период составляет 90 дней. Если вы приобрели лицензию напрямую, льготный период составляет 30 дней.
+
+У подписки Power BI Pro такой же жизненный цикл, как и у подписки Office 365. Дополнительные сведения см. в разделе [что происходит с данными и доступе при завершении Office 365 для бизнеса подписки?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Бесплатная пробная версия Power BI Pro для отдельных пользователей
 
@@ -57,7 +63,7 @@ ms.locfileid: "58383245"
 
    ![Добавить подписки](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
-1. В разделе **Другие планы** наведите указатель мыши на многоточие (**. . .**) для Power BI Pro и выберите **Начать использовать бесплатную пробную версию**.
+1. В разделе **Другие планы** наведите указатель мыши на многоточие ( **. . .** ) для Power BI Pro и выберите **Начать использовать бесплатную пробную версию**.
 
    ![Начать бесплатный пробный период](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
 
@@ -99,7 +105,7 @@ ms.locfileid: "58383245"
 
 1. Выберите **Добавить подписки** справа.
 
-1. В разделе **Другие планы** наведите указатель мыши на многоточие (**. . .**) для Power BI (бесплатная версия) и выберите **Купить**.
+1. В разделе **Другие планы** наведите указатель мыши на многоточие ( **. . .** ) для Power BI (бесплатная версия) и выберите **Купить**.
 
     ![Купить — Power BI (бесплатная версия)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
@@ -128,12 +134,12 @@ ms.locfileid: "58383245"
      connect-msolservice -credential $msolcred
     ```
 
-   ![Вход в Azure Active Directory](media/service-admin-licensing-organization/aad-signin.png)
+   ![Вход в Azure Active Directory](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. После входа выполните следующую команду, чтобы определить, как настроен ваш клиент в настоящий момент.
+1. После входа выполните следующую команду, чтобы определить, как настроен ваш клиент в настоящий момент. (Обратите внимание, что «fl» ниже использует букву «l», а не цифра 1).
 
     ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
+     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
     ```
 1. Чтобы включить ($true) или отключить ($false) параметр **AllowAdHocSubscriptions**, выполните следующую команду.
 

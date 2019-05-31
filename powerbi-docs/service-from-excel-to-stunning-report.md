@@ -11,11 +11,11 @@ ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290415"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140638"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Быстрое превращение книги Excel в красивый отчет
 Ваш руководитель требует отчет по последним результатам продаж и ваши впечатления о последней кампании к концу дня. При этом последние данные хранятся в различных сторонних системах и в файлах на вашем ноутбуке. Раньше создание визуальных элементов и форматирование отчета занимало несколько часов. Вы начинаете нервничать.

@@ -11,11 +11,11 @@ ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282907"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61143716"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Использование тем панели мониторинга в службе Power BI
 С помощью **тем панели мониторинга** ко всей панели мониторинга можно применить требуемую цветовую тему, например корпоративные цвета, цвета времен года или другие цветовые темы. При применении **темы панели мониторинга** для всех визуальных элементов на панели мониторинга используются цвета из выбранной темы (c некоторыми исключениями, описанными далее в этой статье).

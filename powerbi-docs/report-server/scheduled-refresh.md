@@ -1,20 +1,20 @@
 ---
 title: Запланированное обновление отчета Power BI в решении "Сервер отчетов Power BI"
 description: Отчеты Power BI можно подключать к различным источникам данных. В зависимости от способа использования данных доступны различные источники данных.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394749"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051026"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Запланированное обновление отчета Power BI в решении "Сервер отчетов Power BI"
 Запланированное обновление дает возможность использовать актуальные данные для отчетов Power BI.
@@ -34,6 +34,7 @@ ms.locfileid: "54394749"
 * Модель данных загружается в экземпляре служб Analysis Services.
 * Для некоторых источников данных используется подсистема гибридных веб-приложений Power Query. Она позволяет подключаться к источникам данных и выполнять преобразование. Другие источники данных могут быть подключены непосредственно из службы Analysis Services, в которой размещены модели данных для решения "Сервер отчетов Power BI".
 * Новые данные загружаются в модель данных в службе Analysis Services.
+* В конфигурации горизонтального масштабирования модели данных могут реплицироваться между узлами.
 * Служба Analysis Services обрабатывает данные и выполняет все необходимые вычисления.
 
 Решение "Сервер отчетов Power BI" поддерживает очередь событий для всех запланированных операций. В решении регулярно выполняется опрос очереди, чтобы проверить наличие новых событий. По умолчанию очередь проверяется с интервалом в 10 секунд. Чтобы изменить интервал, измените параметры конфигурации **PollingInterval**, **IsNotificationService** и **IsEventService** в файле RSReportServer.config. Кроме того, можно использовать параметр **IsDataModelRefreshService**, чтобы указать, будет ли сервер отчетов обрабатывать запланированные события.

@@ -1,21 +1,21 @@
 ---
 title: Настройка параметров потоков данных рабочей области
-description: Настройка рабочей области приложения в Power BI для хранения файлов определения и файлов данных потока данных в Azure Data Lake Storage 2-го поколения
+description: Настройка рабочей области приложения в Power BI для хранения определения потока данных и файлов данных в Gen2 хранилища Озера данных Azure
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223635"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168613"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Настройка параметров потоков данных рабочей области (предварительная версия)
 
@@ -47,14 +47,11 @@ ms.locfileid: "56223635"
 
 ![Укажите имя новой рабочей области](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-Теперь разверните область **Дополнительно** в диалоговом окне **Создание рабочей области приложения**. Здесь можно включить параметр **Хранилище потоков данных (предварительная версия)**.
+Теперь разверните область **Дополнительно** в диалоговом окне **Создание рабочей области приложения**. Здесь можно включить параметр **Хранилище потоков данных (предварительная версия)** .
 
 ![Дополнительные параметры для новой рабочей области](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 Чтобы создать рабочую область, выберите **Сохранить**. В любом новом потоке данных, созданном в этой рабочей области, теперь хранится файл его определения (файл Model.json) и данные в учетной записи Azure Data Lake Storage 2-го поколения вашей организации. 
-
-> [!NOTE]
-> Функции потоков данных предоставляются в предварительной версии и могут быть изменены до выпуска общедоступной версии.
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Обновление хранилища потока данных для имеющейся рабочей области
 

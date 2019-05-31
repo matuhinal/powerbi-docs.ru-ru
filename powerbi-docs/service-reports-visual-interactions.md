@@ -13,11 +13,11 @@ ms.date: 02/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426592"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61405990"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Изменение способа взаимодействия визуальных элементов в отчете Power BI
 При наличии разрешений на изменение отчета вы можете использовать **взаимодействие визуализаций**, чтобы задавать влияние друг на друга визуализаций на странице отчета. 

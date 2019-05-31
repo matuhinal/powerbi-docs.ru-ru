@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283973"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61407322"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Сохранение отчета в службе Power BI и Power BI Desktop
 После внесения изменений в отчет в Power BI его можно сохранить, сохранить с новым именем или просто закрыть без сохранения изменений. Предположим, вы открыли отчет, создали визуализацию и закрепили ее на панели мониторинга. Если вы закроете отчет без сохранения изменений, плитка останется на панели мониторинга, однако визуализация не сохранится в отчете. Если щелкнуть эту плитку на панели мониторинга, отчет откроется, но визуализации в нем не будет.

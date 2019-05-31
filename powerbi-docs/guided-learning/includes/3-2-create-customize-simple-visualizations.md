@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74d45bf5fcaf51c29d1f1818b3d14d85d73ff086
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397660"
+---
 В этой статье вы узнаете, как создавать новые линейчатые, круговые диаграммы и диаграммы "дерево", а также как их настраивать для использования в отчетах.
 
 Существует два различных способа создания новой визуализации в Power BI Desktop:

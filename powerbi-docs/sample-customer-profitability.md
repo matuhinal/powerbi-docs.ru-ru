@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 9fb22a50d68e414e8d75fc004629eaa2633b066c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216500"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61242673"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях
 
@@ -40,7 +40,7 @@ ms.locfileid: "56216500"
    ![Значок примера](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Рентабельность клиента — пример**, затем выберите **Подключиться**.  
 
-   ![Получить данные](media/sample-customer-profitability/get-supplier-sample.png)
+   ![Получение данных](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. Используйте примеры для тестового запуска Power BI.  
 
    ![Звездочка](media/sample-customer-profitability/supplier-sample-asterisk.png)
@@ -165,7 +165,7 @@ ms.locfileid: "56216500"
 
 2.  В верхней строке меню выберите **Задать вопрос**, чтобы открыть поле вопросов и ответов.
 
-    ![Задать вопрос о данных](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![Задать вопрос о своих данных](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Введите **total revenue by industry for Valery**(Общий доход по отрасли для Valery). Обратите внимание на обновление визуализации по мере ввода вопроса.
 

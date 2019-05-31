@@ -1,21 +1,21 @@
 ---
 title: Обновление данных в Power BI
 description: Обновление данных в Power BI
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/21/2019
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892489"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60974370"
 ---
 # <a name="data-refresh-in-power-bi"></a>Обновление данных в Power BI
 Часто для принятия правильных решений крайне важно располагать актуальными данными. Возможно, вы уже использовали функцию «Получить данные» в Power BI для подключения к данным и их передачи, создали несколько отчетов и панель мониторинга. Теперь необходимо убедиться, что вы используете наиболее актуальные и ценные данные.
@@ -273,7 +273,7 @@ ms.locfileid: "56892489"
 [Средства для устранения неполадок при обновлении](service-gateway-onprem-tshoot.md)  
 [Устранение неполадок в сценариях обновления](refresh-troubleshooting-refresh-scenarios.md)  
 [Шлюз Power BI Gateway — Personal](service-gateway-personal-mode.md)  
-[Локальный шлюз данных](service-gateway-onprem.md)  
+[On-premises data gateway (Локальный шлюз данных)](service-gateway-onprem.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

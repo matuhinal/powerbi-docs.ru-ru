@@ -11,11 +11,11 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980365"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977209"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Часто задаваемые вопросы о пользовательских визуальных элементах Power BI
 
@@ -149,7 +149,7 @@ ms.locfileid: "57980365"
 
 ### <a name="how-to-get-support"></a>Как получить поддержку?
 
-Вы можете обратиться в службу поддержки пользовательских визуальных элементов: *pbicvsupport@microsoft.com* с любыми вопросами, комментариями или проблемами, которые у вас есть.  
+Вы можете обратиться в службу поддержки пользовательских визуальных элементов: *pbicvsupport@microsoft.com*  с любыми вопросами, комментариями или проблемами, которые у вас есть.  
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

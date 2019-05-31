@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695157"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61380452"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Руководство. Добавление параметров форматирования в пользовательские визуальные элементы Power BI
 
@@ -211,7 +211,7 @@ ms.locfileid: "57695157"
 
 6. Сохраните файл **pbiviz.json**.
 
-7. В объекте **assets** вы увидите, что документ определяет путь к значку. Изображение значка отображается в области **_Визуализации_**. Оно должно иметь формат **PNG** и размер *20 на 20 пикселей*.
+7. В объекте **assets** вы увидите, что документ определяет путь к значку. Изображение значка отображается в области **_Визуализации_** . Оно должно иметь формат **PNG** и размер *20 на 20 пикселей*.
 
 8. В проводнике Windows скопируйте файл icon.png и вставьте его вместо файла по умолчанию, размещенного в папке assets.
 
@@ -251,7 +251,7 @@ ms.locfileid: "57695157"
 
 6. Когда импорт визуального элемента успешно завершится, выберите **ОК**.
 
-7. Убедитесь, что визуальный элемент добавлен на панель **_Визуализации_**.
+7. Убедитесь, что визуальный элемент добавлен на панель **_Визуализации_** .
 
     ![Просмотр панели визуализаций в PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

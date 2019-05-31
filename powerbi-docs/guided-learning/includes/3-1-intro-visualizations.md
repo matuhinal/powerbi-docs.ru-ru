@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74be4112071aba3f629d6b44d322cf2caa522f18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397740"
+---
 Добро пожаловать в раздел **Визуализации** курса **интерактивного обучения** для Power BI. Подготовьтесь к интересному и познавательному знакомству со множеством визуализаций, предлагаемых Power BI. И это еще не все — дополнительные визуализации будут предоставляться постоянно!
 
 ![](media/3-1-intro-visualizations/3-1_1.png)

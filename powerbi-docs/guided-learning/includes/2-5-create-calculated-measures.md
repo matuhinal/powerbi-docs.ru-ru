@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a4d51bb3295c2b5512b98fe2ac231ed1b3467c8a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257020"
+---
 *Мера* — это вычисление, которое существует в модели данных Power BI. Для создания меры в представлении **отчетов** на вкладке **Моделирование** выберите **Создать меру**.
 
 ![](media/2-5-create-calculated-measures/2-5_1.png)

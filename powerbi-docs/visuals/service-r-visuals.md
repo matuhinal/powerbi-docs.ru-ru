@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426615"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389864"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Создание визуальных элементов R в службе Power BI
 В службе Power BI можно просматривать визуальные элементы, созданные с использованием R-скриптов, и взаимодействовать с ними. Такие элементы, часто называемые *визуальными элементами R*, могут использоваться для расширенного форматирования и анализа данных, например прогнозирования, с помощью передовых средств аналитики и визуализации языка R.
@@ -64,7 +64,7 @@ ms.locfileid: "56426615"
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>Лицензирование
-Для отображения визуальных элементов R в отчетах, их обновления и фильтрации (в том числе перекрестной) необходима лицензия [Power BI Pro](../service-self-service-signup-for-power-bi.md). Дополнительные сведения о лицензиях Power BI Pro и об их отличиях от бесплатных лицензий см. в статье [Что такое содержимое Power BI Pro?](../service-premium.md).
+Для отображения визуальных элементов R в отчетах, их обновления и фильтрации (в том числе перекрестной) необходима лицензия [Power BI Pro](../service-self-service-signup-for-power-bi.md). Дополнительные сведения о лицензиях Power BI Pro и об их отличиях от бесплатных лицензий см. в статье [Что такое содержимое Power BI Pro?](../service-premium-what-is.md).
 
 Пользователи бесплатной версии Power BI могут работать только с плитками, к которым им предоставлен доступ в рабочих областях Premium. Дополнительные сведения см. в статье [Приобретение Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
 

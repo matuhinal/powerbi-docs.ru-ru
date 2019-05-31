@@ -1,5 +1,5 @@
 ---
-title: Использование представления моделирования в Power BI Desktop (предварительная версия)
+title: Используйте представление моделирования в Power BI Desktop
 description: Использование представления моделирования для просмотра сложных наборов данных в визуальном формате в Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216316"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941345"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Представление моделирования в Power BI Desktop (предварительная версия)
+# <a name="modeling-view-in-power-bi-desktop"></a>Представление моделирования в Power BI Desktop
 
-С помощью **представления моделирования** в **Power BI Desktop** можно просматривать и использовать сложные наборы данных, которые содержат множество таблиц. С помощью представления моделирования также можно выполнять разные задачи:
+С помощью **представления моделирования** в **Power BI Desktop** можно просматривать и использовать сложные наборы данных, которые содержат множество таблиц.
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>Включение предварительной версии представления моделирования
-
-Представление моделирования доступно в предварительной версии, поэтому его необходимо включить в **Power BI Desktop**. Чтобы включить представление моделирования, последовательно выберите **Файл > Параметры и настройки > Параметры > Предварительная версия функций** и установите флажок **Представление моделирования**.
-
-![Включение предварительной версии представления моделирования в Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
-
-Чтобы включить предварительную версию этой функции, вам будет предложено перезапустить **Power BI Desktop**. 
-
-![Перезапуск Power BI Desktop для включения предварительной версии функции](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>Использование представления моделирования
 
@@ -66,9 +56,9 @@ ms.locfileid: "56216316"
 В следующих статьях содержатся дополнительные сведения о моделях данных, а также подробно описан режим DirectQuery:
 
 * [Агрегаты в Power BI Desktop (предварительная версия)](desktop-aggregations.md)
-* [Составные модели в Power BI Desktop (предварительная версия)](desktop-composite-models.md)
+* [Составные модели в Power BI Desktop](desktop-composite-models.md)
 * [Режим хранения в Power BI Desktop (предварительная версия)](desktop-storage-mode.md)
-* [Связи "многие ко многим" в Power BI Desktop (предварительная версия)](desktop-many-to-many-relationships.md)
+* [Связи "многие ко многим" в Power BI Desktop](desktop-many-to-many-relationships.md)
 
 
 Статьи о DirectQuery:

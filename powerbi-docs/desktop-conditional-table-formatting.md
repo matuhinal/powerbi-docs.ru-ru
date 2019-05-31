@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292092"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222262"
 ---
 # <a name="conditional-formatting-in-tables"></a>Условное форматирование в таблицах 
 С помощью условного форматирования в таблицах можно задать настраиваемые цвета ячеек на основе значений ячеек либо на основе других значений или полей, в том числе использовать градиент цветов. Значения ячеек также могут отображаться с гистограммами. 
@@ -129,6 +129,12 @@ ms.locfileid: "54292092"
 ![Визуальный элемент матрицы с цветом на основе значения КПЭ](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 Можно создать множество разновидностей, используя лишь воображение с небольшой помощью DAX.
+
+Можно использовать любой из указанных в спецификации цвета CSS в [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) цвет визуальные элементы:
+* 3, 6 или 8 цифр шестнадцатеричное коды например 3E4AFF #. Убедитесь, что включить символ "#" в начале кода. «3E4AFF» не принимается. 
+* RGB или RGBA значения, например RGBA (234, 234, 234, 0,5)
+* HSL и HSLA, например, значение HSLA (123, 75%, 75%, 0,5)
+* Цвет имена, например зеленый, SkyBlue, PeachPuff 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения см. в следующей статье:  

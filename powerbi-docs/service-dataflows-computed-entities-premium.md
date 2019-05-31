@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220961"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138205"
 ---
-# <a name="using-computed-entities-on-power-bi-premium-preview"></a>Использование вычисляемых сущностей в Power BI Premium (предварительная версия)
+# <a name="using-computed-entities-on-power-bi-premium"></a>Использование вычисляемых сущностей в Power BI Premium
 
 Вы можете выполнять **вычисления в хранилище** при использовании **потоков данных** в подписке Power BI Premium. Это позволяет выполнять вычисления для существующих потоков данных и возвращать результаты, чтобы сосредоточиться на создании отчетов и аналитики. 
 
@@ -31,10 +31,6 @@ ms.locfileid: "58220961"
 * с помощью внешнего поток данных.
 
 Следующие разделы описывают создание вычисляемых сущностей на основе данным из потока данных.
-
-> [!NOTE]
-> Функции потоков данных предоставляются в предварительной версии и могут быть изменены до выпуска общедоступной версии.
-
 
 ## <a name="how-to-create-computed-entities"></a>Создание вычисляемых сущностей 
 
@@ -89,8 +85,8 @@ ms.locfileid: "58220961"
 
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
+* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
 * [Настройка параметров потоков данных рабочей области (предварительная версия)](service-dataflows-configure-workspace-storage-settings.md)
 * [Добавление папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md)
 * [Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)](service-dataflows-connect-azure-data-lake-storage-gen2.md)

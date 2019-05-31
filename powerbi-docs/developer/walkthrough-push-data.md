@@ -1,26 +1,26 @@
 ---
 title: Принудительная отправка данных в набор данных
 description: Принудительная отправка данных набор данных Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762267"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222158"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 
-API Power BI позволяет принудительно отправлять данные в набор данных Power BI. Например, вам нужно расширить существующий бизнес-процесс для отправки ключевых данных в набор данных. В этом случае необходимо отправить набор данных "Продажи и маркетинг", содержащий таблицу "Продукт".
+Power BI API позволяет принудительно отправлять данные в панель мониторинга Power BI. В этой статье мы покажем, как для принудительной отправки продажи и маркетинг набор данных, содержащий таблицу продуктов в существующий набор данных.
 
-Для принудительной передачи данных в набор данных требуется Azure Active Directory (Azure AD) и [учетная запись Power BI](create-an-azure-active-directory-tenant.md).
+Перед началом работы требуется Azure Active Directory (Azure AD) и [учетной записи Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Принудительная отправка данных в набор данных
 
@@ -34,7 +34,7 @@ API Power BI позволяет принудительно отправлять
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Операции API Power BI для отправки данных
 
-REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, плитки на панели мониторинга обновляются автоматически обновленными данными. Для отправки данных используйте операцию [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) вместе с операцией [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Чтобы найти набор данных, используйте операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). С помощью каждой из этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получение групп](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups).
+REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, то обновление автоматически с новыми данными плитки панели мониторинга. Чтобы принудительно отправить данные, используйте [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) и [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) операций. Чтобы найти набор данных, используйте [получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) операции. Можно передать идентификатор группы для работы с группой для любой из этих операций. Чтобы получить список идентификатор группы, используйте [получения групп](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) операции.
 
 Ниже перечислены операции по отправке данных в набор данных.
 
@@ -59,7 +59,7 @@ REST API Power BI позволяет принудительно отправля
         ]
     }
 
-Таким образом, в нашем примере с набором данных "Продажи и маркетинг" нужно передать строку JSON, аналогичную показанной ниже. В этом примере **SalesMarketing** — это имя набора данных, а **Product** — имя таблицы. После определения таблицы следует определить схему таблицы. В случае с набором данных **SalesMarketing** схема таблицы содержит следующие столбцы: ProductID, Manufacturer, Category, Segment, Product и IsCompete.
+Для примера набора данных продажи и маркетинг следует передавать строку JSON, как показано ниже. В этом примере **SalesMarketing** — имя набора данных, и **продукта** состоит из имени таблицы. После определения таблицы, определить схему таблицы. В случае с набором данных **SalesMarketing** схема таблицы содержит следующие столбцы: ProductID, Manufacturer, Category, Segment, Product и IsCompete.
 
 **Пример объекта JSON набора данных**
 
@@ -105,10 +105,10 @@ REST API Power BI позволяет принудительно отправля
 | **Тип данных** | **Ограничения** |
 | --- | --- |
 | Int64 |Int64.MaxValue и Int64.MinValue не допускаются. |
-| Double |Значения Double.MaxValue и Double.MinValue не допускается. NaN не поддерживается. В некоторых функциях не поддерживаются +Infinity и -Infinity (например, Min, Max). |
-| Boolean |Нет |
+| Double |Значения Double.MaxValue и Double.MinValue не допускается. NaN не поддерживается. + Infinity и - Infinity не поддерживается в некоторых функций (например, Min, Max). |
+| Логический |Нет |
 | DateTime |Во время загрузки данных мы квантуем значения с частями суток на целые значения, кратные 1/300 секунды (3,33 мс). |
-| String |В настоящее время вмещает до 128 000 знаков. |
+| Строка |В настоящее время позволяет до 128 000 знаков. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Дополнительные сведения о принудительной отправке данных в Power BI
 

@@ -1,8 +1,8 @@
 ---
 title: Что такое Azure Power BI Embedded и встроенная аналитика | Документация Майкрософт
 description: Power BI Embedded — это средство встроенной аналитики, которое упрощает использование возможностей Power BI для независимых поставщиков и разработчиков программного обеспечения, помогая им быстро добавлять привлекательные визуальные элементы, отчеты и панели мониторинга в свои приложения. Узнайте, как использовать программное обеспечение и средства встроенной аналитики, а также средств встроенной бизнес-аналитики с помощью Power BI Embedded.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
@@ -11,12 +11,12 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2e60d29602fb412f66f74d5258081003610c30cd
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: 6e91b2e958a738961255f9ad9b6b0514fed759bb
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762083"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385024"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Что такое Power BI Embedded в Azure?
 
@@ -41,8 +41,8 @@ Power BI Embedded упрощает использование возможнос
 Power BI Embedded позволяет сосредоточиться на том, что у вас получается лучше всего, — на создании отличных приложений. Вы можете осуществлять управление и разработку с Power BI Embedded с помощью средств и навыков, которые у вас уже есть.
 
 * [**Портал Azure**](https://portal.azure.com/). Веб-приложение для управления всеми службами Azure
-* [**Visual Studio Code.**](https://code.visualstudio.com/docs) Бесплатный загружаемый редактор кода с открытым исходным кодом для Windows, macOS и Linux, поддерживающий расширения
-* [**Power BI Desktop.**](https://powerbi.microsoft.com/desktop/) Бесплатный загружаемый инструмент для создания многофункциональных интерактивных отчетов с визуальной аналитикой
+* [**Visual Studio Code.** ](https://code.visualstudio.com/docs) Бесплатный загружаемый редактор кода с открытым исходным кодом для Windows, macOS и Linux, поддерживающий расширения
+* [**Power BI Desktop.** ](https://powerbi.microsoft.com/desktop/) Бесплатный загружаемый инструмент для создания многофункциональных интерактивных отчетов с визуальной аналитикой
 
 С помощью REST API Power BI Embedded позволяет вести разработку на любом языке.
 

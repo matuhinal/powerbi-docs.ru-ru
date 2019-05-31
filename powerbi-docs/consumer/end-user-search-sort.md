@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661889"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048283"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Навигация: поиск, обнаружение и сортировка содержимого в службе Power BI
 Есть множество способов навигации по содержимому в службе Power BI. Содержимое в рабочей области распределяется по типу: панели мониторинга, отчеты, книги и наборы данных.  Кроме того, содержимое упорядочено по принципу использования: избранное, недавно просмотренное, основное, приложения и содержимое, к которому предоставлен общий доступ. Для простоты навигации все сведения на домашней странице собраны в одну страницу. Различные подходы к упорядочению содержимого позволяют быстро находить нужные данные в службе Power BI.  

@@ -1,21 +1,21 @@
 ---
 title: Обновление набора данных, созданного из книги Excel (на локальном диске)
 description: Обновление набора данных, созданного из книги Excel на локальном диске
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 10b6935b66685762bab5c4d06dd6d83f9cdb8959
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275693"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61414780"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Обновление набора данных, созданного из книги Excel на локальном диске
 ## <a name="whats-supported"></a>Что поддерживается?
@@ -47,10 +47,10 @@ ms.locfileid: "54275693"
 > 
 > 
 
-В окне **Навигатор** щелкните **Загрузить в…**.  
+В окне **Навигатор** щелкните **Загрузить в…** .  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-Или, если щелкнуть элемент **Изменить** в навигаторе, открывается редактор запросов. В нем можно щелкнуть **Закрыть и загрузить в…**.  
+Или, если щелкнуть элемент **Изменить** в навигаторе, открывается редактор запросов. В нем можно щелкнуть **Закрыть и загрузить в…** .  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 Затем в окне **Load To**(Загрузить в) необходимо выбрать параметр **Добавить эти данные в модель данных**.  

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 188669525a210afc516cc9740d5d7e7c5682ea93
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514732"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Выполнение скриптов R в Power BI Desktop
@@ -41,7 +41,7 @@ ms.locfileid: "65514732"
 * При настройке рабочего каталога в сценарии R *необходимо* задать полный, а не относительный путь каталога.
 
 ### <a name="run-your-r-script-and-import-data"></a>Выполнение скрипта R и импорт данных
-1. Соединитель данных скрипта R в Power BI Desktop находится в области **Получить данные**. Чтобы выполнить сценарий R, выберите **Получить данные &gt; Подробнее…**, а затем выберите **Другие &gt; R-скрипт**, как показано на следующем рисунке:
+1. Соединитель данных скрипта R в Power BI Desktop находится в области **Получить данные**. Чтобы выполнить сценарий R, выберите **Получить данные &gt; Подробнее…** , а затем выберите **Другие &gt; R-скрипт**, как показано на следующем рисунке:
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. Если R установлен на локальном компьютере, в качестве подсистемы R выбирается самая новая установленная версия. Просто скопируйте сценарий в окне сценария и нажмите кнопку **ОК**.

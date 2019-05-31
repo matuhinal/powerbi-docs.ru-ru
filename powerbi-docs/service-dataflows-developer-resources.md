@@ -1,5 +1,5 @@
 ---
-title: Ресурсы для разработчиков потоков данных Power BI (предварительная версия)
+title: Ресурсы для разработчиков для потоков данных Power BI
 description: Поиск ресурсов для разработки и потоков данных Power BI
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274704"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136775"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>Ресурсы для разработчиков потоков данных Power BI (предварительная версия)
+# <a name="developer-resources-for-power-bi-dataflows"></a>Ресурсы для разработчиков для потоков данных Power BI
 
 Существует много способов использовать потоки данных без написания кода. Вы можете создавать или подключать сущности в службе Power BI и подключаться к ним из Power BI Desktop. Многим организациям нужны гибкие возможности для разработки собственных решений. В этой статье содержатся сведения о REST API для Power BI и других ресурсах для разработчиков.
 
@@ -38,8 +38,8 @@ ms.locfileid: "54274704"
 
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
-* [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
+* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
 
 Руководства и информационные материалы о разработке CDM:
 * [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)

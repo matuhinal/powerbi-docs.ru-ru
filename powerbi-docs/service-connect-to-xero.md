@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223359"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156376"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Подключение к Xero с помощью Power BI
 Xero — простое и удобное программное обеспечение для онлайн-бухгалтерии, предназначенное специально для небольших предприятий. Пакет содержимого Xero для Power BI позволит вам создавать интересные визуализации на основе своих финансовых данных. Панель мониторинга по умолчанию содержит множество метрик, характерных для малого бизнеса. Они предназначены для отслеживания таких показателей, как состояние денежной наличности, доходы и расходы, динамика доходов и расходов, срок покрытия дебиторской задолженности и рентабельность инвестиций.

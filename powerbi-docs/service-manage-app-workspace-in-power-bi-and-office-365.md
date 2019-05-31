@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282248"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231611"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью приложения в Power BI и Office 365
 Автор или администратор [рабочей области приложения в Power BI](service-create-distribute-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365. 
@@ -36,10 +36,10 @@ ms.locfileid: "54282248"
 * просматривать адрес электронной почты группы;
 * удалять группу.
 
-Лицензия [Power BI Pro](service-features-license-type.md) необходима для администратора или участника рабочей области приложения. Вашим пользователям приложения также требуется лицензия Power BI Pro, если только рабочая область приложения не хранится емкости Power BI Premium. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium.md)
+Лицензия [Power BI Pro](service-features-license-type.md) необходима для администратора или участника рабочей области приложения. Вашим пользователям приложения также требуется лицензия Power BI Pro, если только рабочая область приложения не хранится емкости Power BI Premium. Дополнительные сведения см. в статье [Что такое Power BI Premium?](service-premium-what-is.md)
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Изменение рабочей области приложения в Power BI
-1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие (**…**) рядом с именем рабочей области, а затем выберите **Изменить рабочую область**. 
+1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие ( **…** ) рядом с именем рабочей области, а затем выберите **Изменить рабочую область**. 
    
    ![Изменение рабочих областей в Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ ms.locfileid: "54282248"
 3. Выберите **Сохранить** или **Отменить**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Изменение свойств рабочей области приложения Power BI в Office 365
-1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие (**…**) рядом с именем рабочей области и выберите **Участники**. 
+1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, щелкните многоточие ( **…** ) рядом с именем рабочей области и выберите **Участники**. 
    
    ![Изменение рабочих областей в Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Откроется представление Outlook для группы Office 365 для рабочей области приложения.
    
    Возможно, вам потребуется войти в свою корпоративную учетную запись.
-2. Щелкните многоточие (**…**) рядом с именем участника, чтобы сделать его администратором, или удалите участника из рабочей области приложения. 
+2. Щелкните многоточие ( **…** ) рядом с именем участника, чтобы сделать его администратором, или удалите участника из рабочей области приложения. 
    
    ![Изменение группы в Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

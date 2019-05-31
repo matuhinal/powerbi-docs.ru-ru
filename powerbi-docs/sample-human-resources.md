@@ -11,11 +11,11 @@ ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 4b36c02abe0ca0bbd2d117559855a69edff370db
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216661"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234214"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Пример "Управление персоналом" для Power BI: Узнайте о возможностях
 
@@ -45,7 +45,7 @@ ms.locfileid: "56216661"
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Выберите **Управление персоналом — пример**, затем выберите **Подключиться**.  
    
-   ![Получить данные](media/sample-human-resources/pbi_hr_sample_connect.png)
+   ![Получение данных](media/sample-human-resources/pbi_hr_sample_connect.png)
 5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область. Новое содержимое отмечено желтой звездочкой. 
    
    ![Звездочка](media/sample-human-resources/human-resources-sample-asterisk.png)

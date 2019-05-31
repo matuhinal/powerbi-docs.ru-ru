@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426638"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61144610"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Создание и использование потоков данных в Power BI (предварительная версия)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>Создание и использование потоков данных в Power BI
 
 С помощью расширенной подготовки данных в **Power BI** можно создать коллекцию данных, которая называется потоком данных, а затем с ее помощью подключиться к бизнес-данным из разных источников, очистить и преобразовать эти данные, а затем загрузить их в хранилище Power BI.
 
@@ -34,9 +34,6 @@ ms.locfileid: "56426638"
 3. Создание набора данных на основе этого потока данных с помощью Power BI Desktop. 
 
 В следующих разделах мы рассмотрим каждый из этих шагов и средства, которые предоставляются для их выполнения. Давайте начнем.
-
-> [!NOTE]
-> Функции потоков данных предоставляются в предварительной версии и могут быть изменены до выпуска общедоступной версии.
 
 ## <a name="creating-a-dataflow"></a>Создание потока данных
 Чтобы создать поток данных, запустите службу Power BI в браузере и выберите **рабочую область приложения** (потоки данных недоступны в разделе *my-workspace* в службе Power BI) в области навигации слева, как показано на следующем экране. Вы также можете создать рабочую область для создания потока данных. 
@@ -133,7 +130,7 @@ ms.locfileid: "56426638"
 
 Завершив создание потока данных и настроив частоту обновления для каждого источника данных, которые используются для заполнения модели, вы сможете перейти к последнему (третьему) шагу, на котором мы подключимся к потоку данных из **Power BI Desktop**. 
 
-Чтобы подключиться к потоку данных, выберите в Power BI Desktop элементы **Получить данные > Power BI > Потоки данных Power BI (бета-версия)**, как показано на следующем рисунке.
+Чтобы подключиться к потоку данных, выберите в Power BI Desktop элементы **Получить данные > Power BI > Потоки данных Power BI (бета-версия)** , как показано на следующем рисунке.
 
 ![Подключение к потокам данных из Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
@@ -165,9 +162,9 @@ ms.locfileid: "56426638"
 В этой статье описано, как создать собственный **поток данных** и применить его в наборе данных и отчете, созданных в **Power BI Desktop**. Следующие статьи помогут получить дополнительные сведения и изучить сценарии применения потоков данных:
 
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
-* [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
-* [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
+* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:

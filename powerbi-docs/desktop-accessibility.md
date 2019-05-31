@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306304"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770408"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Специальные возможности в отчетах Power BI Desktop
 В Power BI есть функции, упрощающие использование отчетов Power BI и работу с ними для людей с ограниченными возможностями. Эти функции включают возможность работать с отчетом, используя клавиатуру или средство чтения с экрана, фокусироваться на различных объектах на странице с помощью клавиши TAB и разумное использование меток в визуализации.
@@ -23,7 +23,7 @@ ms.locfileid: "58306304"
 ![Использование различных меток для графиков и диаграмм с областями для улучшения специальных возможностей](media/desktop-accessibility/accessibility_01.png)
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Работа с отчетами Power BI Desktop с помощью клавиатуры или средства чтения с экрана
-Начиная с выпуска **Power BI Desktop** за сентябрь 2017 г. вы можете нажимать клавишу **?**, чтобы отобразить окно с описанием специальных сочетаний клавиш, используемых в **Power BI Desktop**.
+Начиная с выпуска **Power BI Desktop** за сентябрь 2017 г. вы можете нажимать клавишу **?** , чтобы отобразить окно с описанием специальных сочетаний клавиш, используемых в **Power BI Desktop**.
 
 ![Нажатие клавиши ? в Power BI Desktop, для отображения специальных сочетаний клавиш](media/desktop-accessibility/accessibility_03.png)
 
@@ -144,6 +144,12 @@ ms.locfileid: "58306304"
 | Множественный выбор | CTRL+ВВОД или CTRL+ПРОБЕЛ |
 | Щелчок правой кнопкой мыши | <ul><li>Клавиатура Windows: клавиша контекстного меню Windows + F10.  Клавиша контекстного меню Windows находится между клавишей ALT слева и клавишей СТРЕЛКА ВЛЕВО</li><li>Другая клавиатура: SHIFT+F10</li></ul> |
 | Очистить выделение | CTRL+SHIFT+C |
+
+### <a name="table--matrix-navigation"></a>Таблицы и матрицы переходов
+| Задача           | Нажать                |
+| :------------------- | :------------------- |
+| Перемещение фокуса вверх / вниз на одну ячейку (для всех ячеек во всех областях)  | Стрелка, key и клавиша со стрелкой вниз вверх |
+| Перемещение фокуса влево / вправо одну ячейку (для всех ячеек во всех областях)  | Клавиша со стрелкой влево или Стрелка вправо |
 
 ### <a name="pane-navigation"></a>Навигация по панелям
 | Задача           | Нажать                |

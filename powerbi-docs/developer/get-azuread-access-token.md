@@ -1,26 +1,26 @@
 ---
 title: Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения
 description: Узнайте, как зарегистрировать приложение в Azure Active Directory для использования внедренного содержимого Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762543"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710325"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Получение маркера доступа Azure AD для приложения Power BI
 
 Узнайте, как выполнять проверку подлинности пользователей в приложении Power BI и получить маркер доступа для использования с REST API.
 
-Перед вызовом REST API Power BI нужно получить **маркер доступа для проверки подлинности** (маркер доступа) Azure Active Directory (Azure AD). **Маркер доступа** позволяет вашему приложению обращаться к панелям мониторинга, плиткам и отчетам **Power BI**. Дополнительные сведения об использовании **токена доступа** Azure Active Directory см. в статье [Поток предоставления кода авторизации Azure AD](https://msdn.microsoft.com/library/azure/dn645542.aspx).
+Перед вызовом REST API Power BI нужно получить **маркер доступа для проверки подлинности** (маркер доступа) Azure Active Directory (Azure AD). **Маркер доступа** позволяет вашему приложению обращаться к панелям мониторинга, плиткам и отчетам **Power BI**. Дополнительные сведения об использовании **токена доступа** Azure Active Directory см. в статье [Поток предоставления кода авторизации Azure AD](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
 
 Способ получения маркера доступа зависит от того, каким образом внедряется содержимое. В этой статье используются два разных подхода.
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 После создания строки запроса выполните перенаправление в **Azure AD** для получения **кода авторизации**.  Ниже приведен полный метод C# для создания строки запроса **кода авторизации** и перенаправления в **Azure AD**. С помощью полученного **кода авторизации** вы получаете **маркер доступа**.
 
-В redirect.aspx.cs выполняется вызов [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) для создания маркера.
+В redirect.aspx.cs выполняется вызов [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) для создания маркера.
 
 #### <a name="get-authorization-code"></a>Получение кода авторизации
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>Устранение неполадок
+
+* Скачайте [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) при возникновении ««AuthenticationContext» содержит определение для «AcquireToken» и не доступен «AcquireToken» принимающий первый аргумент типа " AuthenticationContext "найден (возможно, отсутствует using директива или ссылка на сборку?)» ошибка.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

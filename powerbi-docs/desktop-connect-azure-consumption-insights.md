@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327994"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325643"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Анализ данных о затратах и использовании Azure в Power BI Desktop
 
@@ -24,7 +24,9 @@ ms.locfileid: "57327994"
 
 Сейчас Power BI поддерживает подключение к учетным записям выставления счетов для Соглашения Enterprise и договора клиента.
 
-Пользователи с Соглашением Enterprise должны подключаться с помощью соединителя Azure Consumption Insights. Пользователи с договором клиента должны подключаться с помощью соединителя Управления затратами Azure.
+* **Соглашение Enterprise** пользователи должны подключаться с **соединитель Azure Consumption Insights**.
+
+* **Соглашение клиента** пользователи должны подключаться с **соединитель Azure Cost Management**.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Подключение с помощью Azure Consumption Insights
 
@@ -34,7 +36,7 @@ Azure Consumption Insights позволяет подключиться к уче
 
 Чтобы подключиться к Azure с помощью соединителя **Azure Consumption Insights**, нужен доступ к функциям Enterprise на портале Azure.
 
-Чтобы подключиться с помощью соединителя **Azure Consumption Insights**, в **Power BI Desktop** на ленте **Главная** выберите элемент **Получение данных**. Выберите слева категорию **Веб-службы**. В списке справа вы увидите **Microsoft Azure Consumption Insights (бета-версия)**. Нажмите кнопку **Подключиться**.
+Чтобы подключиться с помощью соединителя **Azure Consumption Insights**, в **Power BI Desktop** на ленте **Главная** выберите элемент **Получение данных**. Выберите слева категорию **Веб-службы**. В списке справа вы увидите **Microsoft Azure Consumption Insights (бета-версия)** . Нажмите кнопку **Подключиться**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -107,7 +109,7 @@ Azure также включает коллекцию примеров польз
 * *Не* используйте параметр *numberOfMonth* вместе с параметрами *startBillingDataWindow* и *endBillingDataWindow*.
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Миграция из соединителя Azure Enterprise
-Некоторые пользователи создавали визуальные элементы с помощью *соединителя Azure Enterprise (бета-версия)*, который рано или поздно перестанет поддерживаться и будет заменен соединителем **Azure Consumption Insights**. Соединитель **Azure Consumption Insights** содержит следующие функции и усовершенствования:
+Некоторые пользователи создавали визуальные элементы с помощью *соединителя Azure Enterprise (бета-версия)* , который рано или поздно перестанет поддерживаться и будет заменен соединителем **Azure Consumption Insights**. Соединитель **Azure Consumption Insights** содержит следующие функции и усовершенствования:
 
 * Дополнительные источники данных для таблиц *Сводка баланса* и *Покупки Marketplace*.
 * Новые и расширенные параметры, такие как *startBillingDataWindow* и *endBillingDataWindow*.
@@ -155,7 +157,7 @@ Azure также включает коллекцию примеров польз
 После выполнения описанных выше шагов большая часть исходных визуальных элементов, таблиц и детализаций должна работать правильно. Но, возможно, нужно внести другие небольшие изменения, чтобы полностью завершить настройку. Просмотрите все свои панели мониторинга и визуальные элементы, чтобы убедиться, что они выглядят, как вы хотите.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Использование API Azure Consumption Insights (ACI) для получения данных потребления
-В Azure также доступен [**API Azure Consumption Insights (ACI)**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Вы можете создавать собственные пользовательские решения для сбора, создания отчетов и визуализации сведений об использовании служб Azure с помощью ACI.
+В Azure также доступен [**API Azure Consumption Insights (ACI)** ](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Вы можете создавать собственные пользовательские решения для сбора, создания отчетов и визуализации сведений об использовании служб Azure с помощью ACI.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Сопоставление имен и сведений об использовании между порталом, соединителем и API
 Столбцы и имена сведений на портале Azure похожи на столбцы и имена в API и соединителе, но они не всегда совпадают. Чтобы вы могли увидеть разницу, см. следующую таблицу. Она содержит сопоставления между API, соединителем и столбцы, отображаемые на портале Azure. Также в таблице указано, является ли столбец устаревшим. Дополнительные сведения и определения этих терминов см. в статье [API-интерфейсы отчетов для корпоративных клиентов: сведения об использовании](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
@@ -212,7 +214,12 @@ Azure также включает коллекцию примеров польз
 
 В этом разделе вы узнаете, как подключиться к учетной записи выставления счетов для договора клиента.
 
-Чтобы подключиться с помощью соединителя **Управление затратами Azure**, в **Power BI Desktop** на ленте **Главная** выберите элемент **Получить данные**.  Слева выберите категорию **Azure**, чтобы появился пункт **Управление затратами Azure (бета-версия)**. Нажмите кнопку **Подключиться**.
+> [!NOTE]
+> Соединитель управление затратами Azure в настоящее время поддерживает клиенты на **соглашении клиента**.  **Соглашение Enterprise** клиентам следует использовать соединитель Microsoft Azure Consumption Insights.
+> 
+> 
+
+Чтобы подключиться с помощью соединителя **Управление затратами Azure**, в **Power BI Desktop** на ленте **Главная** выберите элемент **Получить данные**.  Слева выберите категорию **Azure**, чтобы появился пункт **Управление затратами Azure (бета-версия)** . Нажмите кнопку **Подключиться**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a0510b9f9bc7303d7ed63a5a1c4c7ee9862d7c85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256955"
+---
 Вы сделали это! **Поздравляем!** Вы завершили курс **интерактивного обучения** для Power BI. Вы прошли весь путь, начав с изучения основных элементов службы Power BI, затем ознакомившись с функциями и элементами ее программного обеспечения и узнав, как все они работают вместе.
 
 ![](media/6-5-guided-learning-completion/c0a0_2.png)

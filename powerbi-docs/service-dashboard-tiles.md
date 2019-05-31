@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215994"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139925"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Общие сведения о плитках панели мониторинга для разработчиков Power BI
 
@@ -43,7 +43,7 @@ ms.locfileid: "56215994"
 * [Другая информационная панель](service-pin-tile-to-another-dashboard.md)
 * [Книга Excel в OneDrive для бизнеса](service-dashboard-pin-tile-from-excel.md)
 * [Издатель Power BI для Excel](publisher-for-excel.md)
-* [Краткая аналитика](service-insights.md)
+* [Quick Insights (Краткая аналитика)](service-insights.md)
 * [Службы отчетов](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Автономные плитки для изображений, текстовых полей, видео, потоковой передачи данных и веб-содержимого можно создать непосредственно на панели мониторинга с помощью команды [Добавить плитку](service-dashboard-add-widget.md).

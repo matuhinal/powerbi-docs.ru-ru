@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f55d09de68d5ac29b81c72f3b1dc6cf98c1597
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: b0dc84d7b2d8da0df8a9e61a43f35898d197c188
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289953"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513759"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: подключение к данным через Power BI Desktop
 К данным в Project Online можно подключиться с помощью Power BI Desktop.
@@ -30,16 +30,16 @@ ms.locfileid: "54289953"
 3. Выберите **канал OData** и щелкните **Подключить**.
 4. Введите адрес для канала OData в поле URL-адреса и нажмите кнопку ОК.
    
-   Если адрес сайта вашего веб-приложения Project имеет формат https://\<имя_клиента\>.sharepoint.com/sites/pwa, адрес канала для OData должен иметь быть в формате https://\<имя_клиента\>.sharepoint.com/sites/pwa/\_api/Projectdata.
+   Если адрес сайта вашего веб-приложения Project имеет вид *https://\<tenantname\>.sharepoint.com/sites/pwa*, то адрес канала для OData — *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    В нашем примере используется https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. Power BI Desktop предложит вам пройти проверку подлинности учетной записи Office 365. Выберите учетную запись организации и введите свои учетные данные.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 
-Обратите внимание, что учетная запись, используемая для подключения к веб-каналу OData, должна иметь на сайте Project Web App уровень доступа не ниже Portfolio Viewer (просмотр портфеля проектов). 
+Учетной записи, используемой для подключения к веб-канал должен иметь по крайней мере OData средства просмотра портфеля получить доступ к сайту Project Web App. 
 
-Здесь можно выбрать таблицы, к которым нужно подключиться, и создать запрос.  Хотите узнать, как приступить к работе?  В следующей записи блога показано, как создавать диаграммы сгорания на основе данных Project Online.  В записи блога для подключения к Project Online используется Power Query, но то же самое относится и к Power BI Desktop.
+Здесь можно выбрать таблицы, к которым нужно подключиться, и создать запрос.  Хотите узнать, как приступить к работе?  В следующей записи блога показано, как построить темп диаграммы из данных Project Online.  В записи блога для подключения к Project Online используется Power Query, но то же самое относится и к Power BI Desktop.
 
-[Создание диаграмм сгорания для проектов с помощью Power Pivot и Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
+[Создание темп диаграммы для проектов с помощью Power Pivot и Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
 

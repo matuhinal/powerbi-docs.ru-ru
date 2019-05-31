@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9152538204089ed9c75b69b79a08dc7496a8cca9
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007713"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156157"
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Подключение к Troux для Power BI
 С помощью пакета содержимого Troux вы можете визуализировать репозиторий корпоративной архитектуры совершенно новыми способами непосредственно в Power BI. В пакет содержимого входит набор средств анализа бизнес-возможностей, приложения, которые предоставляют эти возможности, и технологии, которые поддерживают эти приложения, полностью настраиваемые с помощью Power BI.

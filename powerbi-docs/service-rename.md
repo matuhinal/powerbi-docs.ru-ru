@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 905ef263084cf531e6b38fb4640286e4d78697ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275640"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273763"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Переименование содержимого в службе Power BI
 В этой статье показано, как изменить имя информационной панели, отчета, страницы отчета, книги, набора данных, приложения и рабочей области в службе Power BI.

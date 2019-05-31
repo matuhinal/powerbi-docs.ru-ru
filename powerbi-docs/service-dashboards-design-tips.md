@@ -11,11 +11,11 @@ ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a113cf75ae238b19cdc54b03ffc049bdcdfb8368
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281811"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150338"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Советы по созданию эффективной панели мониторинга Power BI
 Создав панель мониторинга и добавив некоторые плитки, подумаем о том, как сделать панель мониторинга не просто привлекательной, но и функциональной. Как правило, это означает вывод наиболее важных сведений на передний план в четком и лаконичном представлении.

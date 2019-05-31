@@ -1,21 +1,21 @@
 ---
 title: Внедрение аналитики для интеграции содержимого Power BI в приложение для вашей организации
 description: Узнайте, как внедрять в приложение необходимые организации отчеты, панели мониторинга или плитки, используя программные интерфейсы API Power BI для встроенной аналитики. Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757468"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355519"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -116,17 +116,17 @@ ms.locfileid: "57757468"
 
 2. На панели навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-    ![Поиск приложений для регистрации](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
 3. Выберите приложение, для которого требуется **applicationId**.
 
-    ![Выбор приложения](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
 4. В поле **Идентификатор приложения** указан GUID. Используйте этот **идентификатор приложения** как значение параметра **applicationId** приложения.
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>Секрет приложения
+
+Этот атрибут необходим только для типа проверки подлинности [субъект-служба](embed-service-principal.md).
 
 Заполните сведения **ApplicationID** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.  Этот атрибут действует при использовании [субъекта-службы](embed-service-principal.md).
 
@@ -136,23 +136,17 @@ ms.locfileid: "57757468"
 
 2. В области навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
 
-    ![Поиск приложений для регистрации](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
-
 3. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
 
-    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. Выберите **Параметры**.
+4. Выберите **сертификаты и секреты** под **управление**.
 
-    ![Выбор пункта "Параметры"](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Выберите раздел **Ключи**.
-
-    ![Выбор раздела "Ключи".](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Выберите **новый секрет клиента**.
 
 6. Введите имя в поле **Описание** и выберите длительность. Затем выберите **Сохранить**, чтобы получить **Значение** для вашего приложения. Когда вы закроете панель **Ключи** после сохранения значения ключа, поле значения отображается только как скрытое. На этом этапе вы не можете получить значение ключа. Если вы потеряете значение ключа, потребуется создать новое на портале Azure.
 
-    ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>Идентификатор рабочей области
 
@@ -190,9 +184,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Укажите в сведениях **AADAuthorityUrl** URL-адрес, который позволяет осуществлять внедрение с помощью клиента организации либо гостевого пользователя.
 
-Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize*.
+Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id*, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
+Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id* , где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Запуск приложения
 
@@ -226,7 +220,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
 
-Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
+Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}* .
 
 #### <a name="get-reports-with-the-rest-api"></a>Получение отчетов с помощью REST API
 
@@ -400,7 +394,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
-Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области приложения. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium.md).
+Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области приложения. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium-what-is.md).
 
 В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft Office 365](../service-admin-premium-purchase.md).
 

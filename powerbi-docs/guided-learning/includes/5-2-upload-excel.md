@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cff8e70e43496b264fd0dd549759f939bf90e33f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271530"
+---
 В этом разделе сначала рассматривается, как импортировать в Power BI файл книги Excel, содержащей простую **таблицу**, с локального диска. Затем вы узнаете, как начать изучение этой таблицы данных в Power BI, создав отчет.
 
 ## <a name="make-sure-your-data-is-formatted-as-a-table"></a>Форматирование данных в виде таблицы обязательно

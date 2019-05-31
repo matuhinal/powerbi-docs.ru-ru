@@ -1,19 +1,19 @@
 ---
 title: Ведение журнала диагностики для службы Power BI Embedded в Azure | Документация Майкрософт
 description: Сведения о том, как настроить ведение журнала диагностики для службы Power BI Embedded в Azure.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249144"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385442"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Ведение журнала диагностики для Power BI Embedded в Azure
 
@@ -131,7 +131,7 @@ ms.locfileid: "56249144"
 | ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | Путь к объекту. Список родительских элементов, разделенных запятой, начиная с родительского элемента объекта. |
 | ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Ссылка на объект. Кодируется как XML для всех родительских элементов с использованием тегов для описания объекта. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Время окончания события. |
-| Продолжительность | 0 | Время (в миллисекундах), затраченное событием. |
+| Длительность | 0 | Время (в миллисекундах), затраченное событием. |
 | SessionType | Пользователь | Тип сеанса (какая сущность вызвала операцию). |
 | ProgressTotal | 0 | Общий ход выполнения. |
 | IntegerData | 0 | Целочисленные данные. |

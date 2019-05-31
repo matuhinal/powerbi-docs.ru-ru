@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661567"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049245"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Просмотр полезных сведений о плитках панели мониторинга с помощью Power BI
 Каждая плитка визуализации на панели мониторинга предоставляет возможности исследования данных. Щелкнув любую плитку, вы перейдете в отчет, где сможете фильтровать и сортировать наборы данных, использованные для отчета. Когда вы исследуете аналитические сведения, в Power BI выполняется поиск данных.
@@ -59,7 +59,7 @@ ms.locfileid: "56661567"
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 - **Просмотр аналитики** не работает с DirectQuery — только с данными, отправленными в Power BI.
-- **Просмотр аналитики** работает не со всеми типами плиток для панели мониторинга. Например, он недоступен для пользовательских визуальных элементов.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **Просмотр аналитики** работает не со всеми типами плиток для панели мониторинга. Например он доступен не для пользовательских визуальных элементов.<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

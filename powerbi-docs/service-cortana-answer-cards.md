@@ -7,25 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273094"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375243"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Создание пользовательской страницы ответов для Кортаны в службе Power BI или Power BI Desktop
 Используйте все возможности Power BI для создания специальных страниц отчета — *страниц ответов Кортаны* (иногда их называют *картами ответов Кортаны*), предназначенных для поиска ответов на вопросы Кортаны.
 
-![](media/service-cortana-answer-cards/power-bi-cortana.png)
-
 > [!IMPORTANT]
-> Если вы используете предварительную версию интерфейса Кортаны для поиска **панелей мониторинга** Power BI, остальные разделы этой статьи можно пропустить. Предварительная настройка Кортаны для поиска панелей мониторинга Power BI не требуется.
-> 
-> 
+> Интеграция Cortana в Power BI рекомендуется. Начиная с 11 июня, Cortana больше не будет работать для любой панели мониторинга и отчеты.
+
+![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
 ## <a name="before-you-begin"></a>Подготовка
 Вам доступно четыре документа по настройке и использованию Кортаны для Power BI. Рекомендуем начать с первой статьи, если вы еще не ознакомились с ней. Вторая статья особенно важна, так как в ней описаны некоторые действия, которые необходимо выполнить, прежде чем использовать страницы ответов Кортаны.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 04/15/2019
 ms.author: davidi
-ms.openlocfilehash: 9e35bbffec40aa57d3097e122bd038659405dfed
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892305"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61329895"
 ---
 # <a name="how-administrators-can-manage-the-power-bi-desktop-sign-in-form"></a>Как администраторы могут управлять формой для входа в Power BI Desktop
 При первом запуске Power BI Desktop отображается форма для входа. Вы можете заполнить эту форму или войти в Power BI, чтобы продолжить. Администраторы управляют этой формой с помощью раздела реестра. 
@@ -27,8 +27,17 @@ ms.locfileid: "56892305"
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
+Также можно попробовать следующие ключ, который было выполнено успешно, для некоторых клиентов, в зависимости от своих настроек.
+
+```
+Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop
+valueName: ShowLeadGenDialog
+```
 
 Задайте значение 0, чтобы отключить диалоговое окно.
+
+
+
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

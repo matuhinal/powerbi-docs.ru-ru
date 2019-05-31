@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008127"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174415"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Подключение к пакету содержимого Microsoft Dynamics AX с помощью Power BI
 В Microsoft Dynamics AX есть три пакета содержимого для Power BI, предназначенных для разных категорий бизнес-пользователей. Пакет содержимого «Финансовая эффективность» специально для финансовых директоров служит для доступа в полезным данным о финансовых показателях организации. Пакет содержимого «Эффективность продаж» предназначен для руководителей продаж и позволяет оценить их эффективность, спрогнозировать тенденции и обнаружить полезную информацию на основе непосредственных данных о розничных продажах и коммерческих показателях. Пакет содержимого "Управление стоимостью" предназначен для директоров по производству и финансовых директоров и содержит подробные сведения о производительности операций.

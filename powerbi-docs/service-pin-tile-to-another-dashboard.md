@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215637"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61225911"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Закрепление плитки с одной панели мониторинга на другой
 Один из способов добавления новой [плитки панели мониторинга](consumer/end-user-tiles.md) заключается в ее копировании с другой панели мониторинга. При щелчке каждая из этих плиток превращается в ссылку на исходное расположение — вопросы и ответы либо отчет. 

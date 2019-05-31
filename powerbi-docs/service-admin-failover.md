@@ -11,11 +11,11 @@ ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61196918"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Вопросы и ответы о высоком уровне доступности, отработке отказа и аварийном восстановлении в Power BI
 

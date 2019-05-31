@@ -1,20 +1,20 @@
 ---
 title: Получение токена доступа для проверки подлинности
 description: Пошаговое руководство по отправке данных — получение токена доступа для проверки подлинности
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710355"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Шаг 2. Получение токена доступа для проверки подлинности
 
@@ -27,13 +27,11 @@ ms.locfileid: "56216569"
 ## <a name="get-an-authentication-access-token"></a>Получение токена доступа для проверки подлинности
 
 > **ПРИМЕЧАНИЕ**. Перед началом работы убедитесь, что выполнены предыдущие шаги из пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
-> 
-> 
 
-1. В Visual Studio 2015 создайте проект **консольного приложения** .
-2. Установите [библиотеку проверки подлинности Azure AD для пакета NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). Этот пакет используется при получении токена безопасности для проверки подлинности в приложении .NET. Ниже приведены действия по установке пакета.
+1. Создайте в Visual Studio (2015 или более поздней версии), **консольное приложение** проекта.
+2. Установите [библиотеку проверки подлинности Azure AD для пакета NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Этот пакет используется при получении токена безопасности для проверки подлинности в приложении .NET. Ниже приведены действия по установке пакета.
 
-     а. В Visual Studio 2015 выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
+     а. В Visual Studio (2015 или более поздней версии) выберите **средства** > **диспетчер пакетов NuGet** > **консоль диспетчера пакетов**.
 
      б. В **консоли диспетчера пакетов**введите команду Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612.
 3. Добавьте приведенный ниже код в класс Program {...}.
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220984"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187708"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,9 +22,7 @@ ms.locfileid: "58220984"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-**Достижение оптимального результата для производителей потребительских товаров и предприятий розничной торговли**
-<br>Автор: Лиз МакКриш (Liz McCreesh)
-<br>[Зарегистрироваться](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ ms.locfileid: "58220984"
 <br>Авторы: Вим Куревиц (Wim Coorevits) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**Рекомендации по управлению Power BI Embedded Analytics для развертываний с несколькими клиентами**
+<br>Автор: Нимрод Шалит (Nimrod Shalit)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI: проводим аналитику правильно**
 <br>(Гохул Шанмугалингам (Gohul Shanmugalingam))
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ ms.locfileid: "58220984"
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Партнеры ###
+
+**Достижение оптимального результата для производителей потребительских товаров и предприятий розничной торговли**
+<br>по Liz McCreesh из Thorogood
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Преобразование данных о клиентах в успешные результаты розничной торговли с помощью Power Bi**
 <br>Автор: Ангад Сони (Angad Soni) из Hitachi Solutions

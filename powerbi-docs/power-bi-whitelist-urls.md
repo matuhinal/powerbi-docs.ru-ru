@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
 ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249075"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978380"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URL-адреса Power BI для списка разрешений
 
@@ -109,6 +109,6 @@ ms.locfileid: "56249075"
 | 4 | **Необязательно:** внешние перенаправления | aka.ms <br> go.microsoft.com | TCP 443 |
 | 5 | **Необязательно:** веб-сайт обратной связи| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **Необязательно:** веб-сайт Power BI — целевая страница, ссылки на дополнительные сведения, веб-сайт службы поддержки, ссылки на материалы для скачивания, демонстрации партнеров и т. д. | powerbi.microsoft.com | TCP 443 |
-| 7 | **Необязательно:** Центр по разработке для Power BI | dev.powerbi.com | TCP 443 |
+| 7 | **Необязательно:** Центр разработчиков Power BI | dev.powerbi.com | TCP 443 |
 | 8 | **Необязательно:** веб-сайт службы поддержки | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

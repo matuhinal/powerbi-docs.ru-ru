@@ -1,26 +1,26 @@
 ---
 title: Создание параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 description: Из этой статьи вы узнаете, как в службе Power BI создать параметры для отчетов с разбивкой на страницы.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 2240d2bf622122527d4d052a9d7098be648e368d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324628"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987707"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
 
 Из этой статьи вы узнаете, как в службе Power BI создать параметры для отчетов с разбивкой на страницы.  Параметр отчета позволяет выбрать данные для отчета и изменить его внешний вид. Вы можете указать для параметра значение по умолчанию и список доступных значений, а читатели отчета смогут изменять этот выбор.  
 
-Ниже вы видите представление конструктора в построителе отчетов для отчета с параметрами @BuyingGroup, @Customer, @FromDate и @ToDate. 
+Ниже показано представление конструктора в построителе отчетов Power BI для отчета с параметрами @BuyingGroup, @Customer, @FromDate, и @ToDate. 
   
 ![Параметры в построителе отчетов](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ ms.locfileid: "56324628"
   
 ## <a name="create-or-edit-a-report-parameter"></a>Создание или изменение параметра отчета  
   
-1.  Откройте отчет с разбивкой на страницы в построителе отчетов.
+1.  Откройте отчет с разбивкой на страницы в построителе отчетов Power BI.
 
 1. На панели **Данные отчета** щелкните правой кнопкой мыши узел **Параметры** и выберите **Добавить параметр**. Откроется диалоговое окно **Свойства параметра отчета**.  
   

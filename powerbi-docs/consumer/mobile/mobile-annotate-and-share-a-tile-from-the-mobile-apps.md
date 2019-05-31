@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273600"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342998"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Добавление заметок к плиткам, отчетам и визуальным элементам и их совместное использование в мобильных приложениях Power BI
 Область применения:
@@ -29,7 +29,7 @@ ms.locfileid: "54273600"
 
 *Отчет с заметками*
 
-Письмо с моментальным снимком плитки, отчета или визуализации также содержит ссылку на фактический объект в службе Power BI ([https://powerbi.com](https://powerbi.com)). Если у вас и этих пользователей есть лицензии Power BI Pro либо же содержимое находится в [емкости Premium](../../service-premium.md) и вы поделились с ними элементом, получатели смогут щелкнуть ссылку и перейти непосредственно к соответствующей плитке, отчету или визуализации. 
+Письмо с моментальным снимком плитки, отчета или визуализации также содержит ссылку на фактический объект в службе Power BI ([https://powerbi.com](https://powerbi.com)). Если у вас и этих пользователей есть лицензии Power BI Pro либо же содержимое находится в [емкости Premium](../../service-premium-what-is.md) и вы поделились с ними элементом, получатели смогут щелкнуть ссылку и перейти непосредственно к соответствующей плитке, отчету или визуализации. 
 
 Вы также можете [поделиться плиткой в мобильном приложении Power BI для устройств с Windows 10](mobile-windows-10-phone-app-get-started.md), не добавляя к ней заметки.
 
