@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfd40c991f461e57f2f1d2de8a46b3627aa7fbc1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274221"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448290"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Общие сведения о едином входе (SSO) для шлюзов в Power BI
 
@@ -29,6 +29,7 @@ ms.locfileid: "54274221"
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
+* Единый вход можно также [источников данных](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources) без использования шлюза данных
 
 Когда пользователь работает с отчетом DirectQuery в службе Power BI, каждая операция перекрестной фильтрации, среза, сортировки и редактирования отчета генерирует запросы, которые в режиме реального времени отправляются в основной источник данных в локальной среде.  Если для источника данных настроен единый вход, запросы выполняются с идентификатором пользователя, работающего в Power BI (то есть через веб-интерфейс или мобильные приложения Power BI). Таким образом, каждый пользователь может просмотреть данные, доступ к которым ему разрешен в основном источнике данных. Если настроен единый вход, общее кэширование данных разных пользователей не выполняется.
 
