@@ -1,1343 +1,1376 @@
-items:
-- name: Power BI Desktop
+- name: "Power\_BI Desktop"
   items:
-  - name: Обзор
-    items:
-    - name: Что такое Power BI Desktop?
-      href: desktop-what-is-desktop.md
-  - name: Краткие руководства
-    items:
-    - name: Подключение к данным
-      href: desktop-quickstart-connect-to-data.md
-    expanded: true
-  - name: Учебники
-    items:
-    - name: Формирование и объединение нескольких источников данных
-      href: desktop-shape-and-combine-data.md
-    - name: Импорт и анализ данных c веб-страницы с помощью Power BI Desktop
-      href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-    - name: " Анализ данных о продажах из Excel и веб-канала OData"
-      href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-    - name: Создание собственных мер в Power BI Desktop
-      href: desktop-tutorial-create-measures.md
-    - name: Создание вычисляемых столбцов в Power BI Desktop
-      href: desktop-tutorial-create-calculated-columns.md
-    - name: Анализ Facebook с помощью Power BI Desktop
-      href: desktop-tutorial-facebook-analytics.md
-    - name: Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
-      href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-  - name: Примеры
-    items:
-    - name: Примеры для Power BI
-      href: sample-datasets.md
-    - name: Использование примеров пакетов содержимого
-      href: sample-tutorial-connect-to-the-samples.md
-    - name: Рентабельность клиента — пример Узнайте о возможностях
-      href: sample-customer-profitability.md
-    - name: Анализ расходов на ИТ — пример Узнайте о возможностях
-      href: sample-it-spend.md
-    - name: Управление персоналом — пример Узнайте о возможностях
-      href: sample-human-resources.md
-    - name: Анализ возможных сделок — пример Узнайте о возможностях
-      href: sample-opportunity-analysis.md
-    - name: Анализ закупок — пример Узнайте о возможностях
-      href: sample-procurement.md
-    - name: Анализ розничной торговли — пример Узнайте о возможностях
-      href: sample-retail-analysis.md
-    - name: Продажи и маркетинг — пример Узнайте о возможностях
-      href: sample-sales-and-marketing.md
-    - name: Анализ качества поставщика — пример Узнайте о возможностях
-      href: sample-supplier-quality.md
-    - name: Скачиваемая книга с примером финансовых данных
-      href: sample-financial-download.md
-  - name: Основные понятия
-    items:
-    - name: Новые возможности в последнем обновлении Power BI Desktop
-      href: desktop-latest-update.md
-    - name: Представление моделирования в Power BI Desktop (предварительная версия)
-      href: desktop-modeling-view.md
-    - name: Агрегаты в Power BI Desktop (предварительная версия)
-      href: desktop-aggregations.md
-    - name: Составные модели в Power BI Desktop
-      href: desktop-composite-models.md
-    - name: Связи "многие ко многим" в Power BI Desktop (предварительная версия)
-      href: desktop-many-to-many-relationships.md
-    - name: Режим хранения в Power BI Desktop (предварительная версия)
-      href: desktop-storage-mode.md
-    - name: Двунаправленная перекрестная фильтрация в Power BI Desktop
-      href: desktop-bidirectional-filtering.md
-    - name: Power BI и DirectQuery
-      href: desktop-directquery-about.md
-    - name: Источники данных, поддерживаемые DirectQuery
-      href: desktop-directquery-data-sources.md
-    - name: Предварительные требования к источникам данных Power BI
-      href: desktop-data-source-prerequisites.md
-    - name: Элемент по умолчанию в многомерных моделях в Power BI
-      href: desktop-default-member-multidimensional-models.md
-    - name: Вопросы и ответы о настраиваемых визуальных элементах
-      href: power-bi-custom-visuals-faq.md
-  - name: Практическое руководство
-    items:
-    - name: Получение Power BI Desktop
-      href: desktop-get-the-desktop.md
-    - name: Руководство по началу работы с Power BI Desktop
-      href: desktop-getting-started.md
-    - name: Общие задачи с запросами в Power BI Desktop
-      href: desktop-common-query-tasks.md
-    - name: Создание связей и управление ими в Power BI Desktop
-      href: desktop-create-and-manage-relationships.md
-    - name: Представление данных в Power BI Desktop
-      href: desktop-data-view.md
-    - name: Общие сведения о запросах в Power BI Desktop
-      href: desktop-query-overview.md
-    - name: Основные сведения о DAX в Power BI Desktop
-      href: desktop-quickstart-learn-dax-basics.md
-    - name: Представление связей в Power BI Desktop
-      href: desktop-relationship-view.md
-    - name: Представление отчетов в Power BI Desktop
-      href: desktop-report-view.md
-    - name: Подключение к нескольким источникам данных в Power BI Desktop
-      href: desktop-connect-to-data.md
-    - name: Публикация из Power BI Desktop
-      href: desktop-upload-desktop-files.md
-    - name: Часть 1. Добавление визуализаций в отчет Power BI
-      href: visuals/power-bi-report-add-visualizations-i.md
-    - name: Часть 2. Добавление визуализаций в отчет Power BI
-      href: visuals/power-bi-report-add-visualizations-ii.md
-    - name: Настройка заголовка, фона и условных обозначений визуализации
-      href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: Функция "Показать элементы без данных" в Power BI
-      href: desktop-show-items-no-data.md
-    - name: Подключение к данным
-      items:
-      - name: Источники данных в Power BI Desktop
-        href: desktop-data-sources.md
-      - name: Подключение к веб-странице н основе примера (предварительная версия)
-        href: desktop-connect-to-web-by-example.md
-      - name: Подключение к наборам данных в службе Power BI
-        href: desktop-report-lifecycle-datasets.md
-      - name: Импорт книг Excel в Power BI Desktop
-        href: desktop-import-excel-workbooks.md
-      - name: Подключение к данным с помощью универсальных интерфейсов
-        href: desktop-connect-using-generic-interfaces.md
-      - name: Подключение к PDF-файлу
-        href: desktop-connect-pdf.md
-      - name: Подключение к Adobe Analytics
-        href: desktop-connect-adobe-analytics.md
-      - name: Подключение к базе данных Oracle
-        href: desktop-connect-oracle-database.md
-      - name: Выполнение сценариев Python в Power BI Desktop
-        href: desktop-python-scripts.md
-      - name: Использование языка Python в редакторе Power Query
-        href: desktop-python-in-query-editor.md
-      - name: Использование внешней среды Python IDE с Power BI
-        href: desktop-python-ide.md
-      - name: Создание визуальных элементов Power BI с помощью Python
-        href: desktop-python-visuals.md
-      - name: Выполнение сценариев R в Power BI Desktop
-        href: desktop-r-scripts.md
-      - name: Использование языка R в редакторе запросов
-        href: desktop-r-in-query-editor.md
-      - name: Использование внешней среды R IDE с Power BI
-        href: desktop-r-ide.md
-      - name: Поддерживаемые пакеты R
-        href: service-r-packages-support.md
-      - name: Ввод данных непосредственно в Power BI Desktop
-        href: desktop-enter-data-directly-into-desktop.md
-      - name: Подключение к данным Excel в Power BI Desktop
-        href: desktop-connect-excel.md
-      - name: Многомерные данные Analysis Services в Power BI Desktop
-        href: desktop-ssas-multidimensional.md
-      - name: Подключение к CSV-файлам в Power BI Desktop
-        href: desktop-connect-csv.md
-      - name: Подключение к базе данных Google BigQuery в Power BI Desktop
-        href: desktop-connect-bigquery.md
-      - name: Подключение к базе данных Impala в Power BI Desktop
-        href: desktop-connect-impala.md
-      - name: Подключение к веб-каналу OData в Power BI Desktop
-        href: desktop-connect-odata.md
-      - name: Подключение к базе данных Amazon Redshift в Power BI Desktop
-        href: desktop-connect-redshift.md
-      - name: Подключение к веб-странице из Power BI Desktop
-        href: desktop-connect-to-web.md
-      - name: Подключение к хранилищу данных Snowflake Computing из Power BI Desktop
-        href: desktop-connect-snowflake.md
-      - name: Подключение к данным Azure Consumption Insights
-        href: desktop-connect-azure-consumption-insights.md
-      - name: Использование SAP HANA в Power BI Desktop
-        href: desktop-sap-hana.md
-      - name: Табличные данные служб Analysis Services в Power BI Desktop
-        href: desktop-analysis-services-tabular-data.md
-      - name: Использование DirectQuery в Power BI Desktop
-        href: desktop-use-directquery.md
-      - name: DirectQuery для баз данных Oracle и Teradata
-        href: desktop-directquery-for-oracle-teradata.md
-      - name: Использование DirectQuery и SAP Business Warehouse (BW)
-        href: desktop-directquery-sap-bw.md
-      - name: DirectQuery и SAP HANA
-        href: desktop-directquery-sap-hana.md
-      - name: Функция "Предполагать целостность данных" в Power BI Desktop
-        href: desktop-assume-referential-integrity.md
-      - name: Использование соединителя SAP BW в Power BI Desktop (предварительная версия)
-        href: desktop-sap-bw-connector.md
-      - name: Использование ссылок OneDrive для бизнеса в Power BI Desktop
-        href: desktop-use-onedrive-business-links.md
-      - name: 'Служба сторонних разработчиков: Соединитель Facebook для Power BI Desktop'
-        href: service-facebook-connector.md
-      - name: 'Служба сторонних разработчиков: Соединитель Google Analytics для Power BI Desktop'
-        href: service-google-analytics-connector.md
-      - name: 'Project Online: подключение к данным через Power BI Desktop'
-        href: desktop-project-online-connect-to-data.md
-    - name: Преобразование и формирование данных
-      items:
-      - name: Использование карт фигур в Power BI Desktop (предварительная версия)
-        href: visuals/desktop-shape-map.md
-      - name: Объединение двоичных значений
-        href: desktop-combine-binaries.md
-    - name: Моделирование данных
-      items:
-      - name: Категоризация данных в Power BI Desktop
-        href: desktop-data-categorization.md
-      - name: Пометка поля со штрихкодом для мобильных приложений
-        href: desktop-mobile-barcodes.md
-      - name: Настройка геофильтрации для мобильных приложений
-        href: desktop-mobile-geofiltering.md
-      - name: Вычисляемые столбцы в Power BI Desktop
-        href: desktop-calculated-columns.md
-      - name: Вычисляемые таблицы в Power BI Desktop
-        href: desktop-calculated-tables.md
-      - name: Меры в Power BI Desktop
-        href: desktop-measures.md
-      - name: Изменение лингвистической схемы функции "Вопросы и ответы"
-        href: power-bi-q-and-a-linguistic-schema.md
-      - name: Импорт и отображение ключевых показателей эффективности (предварительная версия)
-        href: desktop-import-and-display-kpis.md
-    - name: Создавать отчеты
-      items:
-      - name: Визуальные элементы для отчетов
-        href: desktop-visual-elements-for-reports.md
-      - name: Создание подсказок на базе страниц отчетов
-        href: desktop-tooltips.md
-      - name: Экспорт в PDF и печать отчетов
-        href: desktop-export-to-pdf.md
-      - name: Обработчик "Вопросы и ответы" в Power BI Desktop
-        href: desktop-qna-in-reports.md
-      - name: Панель "Аналитика" в Power BI Desktop
-        href: desktop-analytics-pane.md
-      - name: Объяснение отклонений при помощи аналитических данных
-        href: desktop-insights.md
-      - name: Сравнение распределений при помощи аналитических данных
-        href: desktop-insights-find-where-different.md
-      - name: Закладки в Power BI
-        href: desktop-bookmarks.md
-      - name: Использование функции "Тема отчета"
-        href: desktop-report-themes.md
-      - name: Опробуйте новые возможности фильтрации
-        href: power-bi-report-filter-preview.md
-      - name: Использование функции "Быстрая мера"
-        href: desktop-quick-measures.md
-      - name: Использование параметров What if
-        href: desktop-what-if.md
-      - name: Использование детализации
-        href: desktop-drillthrough.md
-      - name: Использование детализации между отчетами
-        href: desktop-cross-report-drill-through.md
-      - name: Использование среза и фильтра относительных дат
-        href: visuals/desktop-slicer-filter-date-range.md
-      - name: Использование группирования и разделения на ячейки
-        href: desktop-grouping-and-binning.md
-      - name: Создание визуальных элементов Power BI с помощью R
-        href: desktop-r-visuals.md
-      - name: Применение созданных с помощью R пользовательских визуальных элементов
-        href: desktop-r-powered-custom-visuals.md
-      - name: Использование линий сетки и привязки к сетке
-        href: desktop-gridlines-snap-to-grid.md
-      - name: Параметры отображения страницы в отчете Power BI
-        href: power-bi-report-display-settings.md
-      - name: Добавление столбца из примера
-        href: desktop-add-column-from-example.md
-      - name: Добавление настраиваемого столбца
-        href: desktop-add-custom-column.md
-      - name: Создание адаптивных визуальных элементов в Power BI
-        href: visuals/desktop-create-responsive-visuals.md
-      - name: Использование встроенных меток иерархии в Power BI Desktop (предварительная версия)
-        href: desktop-inline-hierarchy-labels.md
-      - name: Использование среза числового диапазона
-        href: desktop-slicer-numeric-range.md
-      - name: Создание элемента "Срез" с возможностью изменения размера
-        href: power-bi-slicer-filter-responsive.md
-      - name: Создание пользовательских карт ответов Кортаны
-        href: service-cortana-answer-cards.md
-      - name: Защита на уровне строк
-        href: desktop-rls.md
-      - name: Настройка подсказок
-        href: desktop-custom-tooltips.md
-      - name: Текстовые поля и фигуры в отчетах
-        href: power-bi-reports-add-text-and-shapes.md
-      - name: Добавление гиперссылки в текстовое поле
-        href: service-add-hyperlink-to-text-box.md
-      - name: Гиперссылки в таблицах
-        href: power-bi-hyperlinks-in-tables.md
-      - name: Условное форматирование таблицы
-        href: desktop-conditional-table-formatting.md
-      - name: Форматирование заголовка на основе условного выражения
-        href: desktop-conditional-format-visual-titles.md
-      - name: Сортировка по столбцу в Power BI Desktop
-        href: desktop-sort-by-column.md
-      - name: Создание отчетов, оптимизированных для мобильных приложений
-        href: desktop-create-phone-report.md
-      - name: Использование функций просмотра данных и просмотра записей
-        href: desktop-see-data-see-records.md
-      - name: Советы по созданию отчетов
-        href: desktop-tips-and-tricks-for-creating-reports.md
-    - name: Визуализации
-      items:
-      - name: Визуализации в Power BI
-        href: visuals/power-bi-report-visualizations.md
-      - name: Рекомендации по работе с визуализациями
-        href: visuals/power-bi-visualization-best-practices.md
-      - name: Изменение типа визуализации в отчете
-        href: visuals/power-bi-report-change-visualization-type.md
-      - name: Ограничения точек данных по типу визуального элемента
-        href: visuals/power-bi-data-points.md
-      - name: Отображение данных, используемых для создания визуальных элементов
-        href: visuals/service-reports-show-data.md
-      - name: Начало работы с форматированием цветом и свойствами осей
-        href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Советы и рекомендации по форматированию цветом
-        href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Копирование и вставка визуализации
-        href: visuals/power-bi-visualization-copy-paste.md
-      - name: Экспорт данных, используемых для создания визуализации
-        href: visuals/power-bi-visualization-export-data.md
-      - name: Перемещение визуализации в отчете, изменение ее размеров и открытие в новом окне
-        href: visuals/power-bi-visualization-move-and-resize.md
-      - name: Изменение способа взаимодействия визуальных элементов в отчете
-        href: service-reports-visual-interactions.md
-      - name: Советы и рекомендации для визуализаций карт Power BI
-        href: visuals/power-bi-map-tips-and-tricks.md
-      - name: Настройка свойств осей X и Y
-        href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: карты ArcGIS;
-        href: visuals/power-bi-visualization-arcgis.md
-      - name: Простые диаграммы с областями
-        href: visuals/power-bi-visualization-basic-area-chart.md
-      - name: Карточки (большие плитки с числами) в Power BI
-        href: visuals/power-bi-visualization-card.md
-      - name: Комбинированная диаграмма в Power BI
-        href: visuals/power-bi-visualization-combo-chart.md
-      - name: Кольцевые диаграммы в Power BI
-        href: visuals/power-bi-visualization-doughnut-charts.md
-      - name: Картограммы (хороплеты) в Power BI
-        href: visuals/power-bi-visualization-filled-maps-choropleths.md
-      - name: Воронкообразные диаграммы в Power BI
-        href: visuals/power-bi-visualization-funnel-charts.md
-      - name: Диаграммы ключевых факторов влияния в Power BI
-        href: visuals/power-bi-visualization-influencers.md
-      - name: Выборка линий с высокой плотностью
-        href: desktop-high-density-sampling.md
-      - name: Визуальные элементы ключевых показателей эффективности
-        href: visuals/power-bi-visualization-kpi.md
-      - name: Визуальный элемент матрицы
-        href: visuals/desktop-matrix-visual.md
-      - name: Создание расширенных аналитических инструментов и визуализаций с помощью R-скриптов в Power BI
-        href: visuals/service-r-visuals.md
-      - name: Диаграммы "Радиальный датчик" в Power BI
-        href: visuals/power-bi-visualization-radial-gauge-charts.md
-      - name: Ленточные диаграммы
-        href: visuals/desktop-ribbon-charts.md
-      - name: Точечные диаграммы в Power BI
-        href: visuals/power-bi-visualization-scatter.md
-      - name: Точечные диаграммы с высокой плотностью
-        href: visuals/desktop-high-density-scatter-charts.md
-      - name: Срезы в Power BI
-        href: visuals/power-bi-visualization-slicers.md
-      - name: Таблицы в Power BI
-        href: visuals/power-bi-visualization-tables.md
-      - name: Древовидные диаграммы в Power BI
-        href: visuals/power-bi-visualization-treemaps.md
-      - name: Каскадные диаграммы в Power BI
-        href: visuals/power-bi-visualization-waterfall-charts.md
-      - name: Создание динамических строк ссылки
-        href: service-analytics-pane.md
-    - name: Устранение неполадок
-      items:
-      - name: Решение проблем с импортом баз данных Access и электронных таблиц Excel в Power BI Desktop и Power Query
-        href: desktop-access-database-errors.md
-      - name: Устранение неполадок при запуске Power BI Desktop
-        href: desktop-error-launching-desktop.md
-  - name: Справка
-    items:
-    - name: Типы данных в Power BI Desktop
-      href: desktop-data-types.md
-    - name: Сочетания клавиш редактора формул для Power BI Desktop
-      href: desktop-formula-editor.md
-    - name: Уровни конфиденциальности Power BI Desktop
-      href: desktop-privacy-levels.md
-    - name: Расширение соединителей в Power BI
-      href: desktop-connector-extensibility.md
-  - name: Ресурсы
-    items:
-    - name: Видеоматериалы по Power BI Desktop
-      href: desktop-videos.md
-    - name: Предыдущие ежемесячные обновления для Power BI Desktop
-      href: desktop-latest-update-archive.md
-    - name: Заявление о конфиденциальности, действующее при отправке смайлика Power BI Desktop
-      href: desktop-send-smile-privacy-statement.md
-    - name: Специальные возможности в отчетах Power BI
-      href: desktop-accessibility.md
-    - name: Управление формой для входа в Power BI Desktop
-      href: desktop-admin-sign-in-form.md
-- name: службе Power BI
-  items:
-  - name: Обзор
-    items:
-    - name: Что такое Power BI?
-      href: power-bi-overview.md
-    - name: Сравнение Power BI Desktop и Power BI
-      href: service-service-vs-desktop.md
-  - name: Учебники
-    items:
-    - name: Приступая к работе с Power BI
-      href: service-get-started.md
-    - name: Подключение к примеру в GitHub
-      href: service-tutorial-connect-to-github.md
-    - name: Использование служб Cognitive Services в Power BI
-      href: service-tutorial-use-cognitive-services.md
-    - name: Интеграция машинного обучения с Power BI
-      href: service-tutorial-invoke-machine-learning-model.md
-    - name: Создание модели машинного обучения с помощью Power BI (предварительная версия)
-      href: service-tutorial-build-machine-learning-model.md
-  - name: Основные понятия
-    items:
-    - name: Новые возможности службы Power BI
-      href: service-whats-new.md
-    - name: Основные понятия
-      items:
-      - name: Основные понятия для разработчиков
-        href: service-basic-concepts.md
-      - name: Типы данных в Power BI
-        href: service-get-data.md
-      - name: Обзор редактора отчетов
-        href: service-the-report-editor-take-a-tour.md
-    - name: Рабочий процесс в Power BI
-      items:
-      - name: Организация работы
-        href: service-new-workspaces.md
-      - name: Способы совместного использования работы
-        href: service-how-to-collaborate-distribute-dashboards-reports.md
-      - name: Поддержание актуальности данных
-        href: refresh-data.md
-      - name: Мониторинг использования
-        href: service-usage-metrics.md
-    - name: Лицензирование
-      items:
-      - name: Самостоятельная регистрация
-        href: service-self-service-signup-for-power-bi.md
-      - name: Лицензирование в организации
-        href: service-admin-licensing-organization.md
-      - name: Функций по типам лицензий
-        href: service-features-license-type.md
-    - name: Дополнительные понятия
-      items:
-      - name: 10 советов по получению справки
-        href: service-tips-for-finding-help.md
-      - name: Варианты поддержки Power BI
-        href: service-support-options.md
-      - name: Лицензирование особых случаев
-        items:
-        - name: Активация расширенной пробной версии Power BI Pro
-          href: service-extended-pro-trial.md
-        - name: Power BI для правительства США
-          href: service-govus-overview.md
-        - name: Вопросы и ответы для клиентов облачных служб в Германии
-          href: service-govde-faq.md
-      - name: Другое
-        items:
-        - name: Microsoft Flow и Power BI
-          href: service-flow-integration.md
-        - name: Начало работы со сторонними приложениями
-          href: service-power-bi-get-started-third-party-apps.md
-  - name: Практическое руководство
-    items:
-    - name: Получение данных из файлов
-      items:
-      - name: Получение данных из файлов
-        href: service-get-data-from-files.md
-      - name: От книги Excel до потрясающего отчета
-        href: service-from-excel-to-stunning-report.md
-      - name: Получение данных из файлов книг Excel
-        href: service-excel-workbook-files.md
-      - name: Получение данных из файлов Power BI Desktop
-        href: service-desktop-files.md
-      - name: Изменение параметров
-        href: service-parameters.md
-      - name: Получение данных из файлов с разделителями-запятыми (CSV-файлов)
-        href: service-comma-separated-value-files.md
-      - name: Потоковая передача в реальном времени в Power BI
-        href: service-real-time-streaming.md
-      - name: Публикация в Power BI из Excel
-        href: service-publish-from-excel.md
-      - name: Уменьшение размера книги Excel
-        href: reduce-the-size-of-an-excel-workbook.md
-    - name: Получение данных из баз данных
-      items:
-      - name: Azure и Power BI
-        href: service-azure-and-power-bi.md
-      - name: Исходящий трафик Power BI и Azure
-        href: service-azure-egress-power-bi.md
-      - name: Хранилище данных SQL Azure с DirectQuery
-        href: service-azure-sql-data-warehouse-with-direct-connect.md
-      - name: База данных SQL Azure с DirectQuery
-        href: service-azure-sql-database-with-direct-connect.md
-      - name: Динамические данные служб SQL Server Analysis в Power BI
-        href: sql-server-analysis-services-tabular-data.md
-    - name: Обновить данные
-      items:
-      - name: Настройка запланированного обновления
-        href: refresh-scheduled-refresh.md
-      - name: Обновление набора данных из файла Power BI Desktop (на локальном диске)
-        href: refresh-desktop-file-local-drive.md
-      - name: Обновление набора данных из файла Power BI Desktop (в облаке)
-        href: refresh-desktop-file-onedrive.md
-      - name: Обновление набора данных из книги Excel (на локальном диске)
-        href: refresh-excel-file-local-drive.md
-      - name: Обновление набора данных из книги Excel (в облаке)
-        href: refresh-excel-file-onedrive.md
-      - name: Обновление набора данных из CSV-файла в OneDrive
-        href: refresh-csv-file-onedrive.md
-      - name: Кэширование запросов в Power BI Premium
-        href: power-bi-query-caching.md
-      - name: 'Устранение неполадок в сценариях обновления '
-        href: refresh-troubleshooting-refresh-scenarios.md
-    - name: Панели мониторинга
-      items:
-      - name: Общие сведения о панелях мониторинга
-        href: service-dashboards.md
-      - name: Плитки панели мониторинга
-        href: service-dashboard-tiles.md
-      - name: Создание панели мониторинга из отчета
-        href: service-dashboard-create.md
-      - name: Создание копии панели мониторинга
-        href: service-dashboard-copy.md
-      - name: Закрепление плитки на панели мониторинга из отчета
-        href: service-dashboard-pin-tile-from-report.md
-      - name: Закрепление плитки из одной панели мониторинга на другой
-        href: service-pin-tile-to-another-dashboard.md
-      - name: Закрепление плитки на панели мониторинга из Excel
-        href: service-dashboard-pin-tile-from-excel.md
-      - name: Закрепление плитки на информационной панели из подсистемы вопросов и ответов
-        href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: Закрепление целой страницы отчета на панели мониторинга
-        href: service-dashboard-pin-live-tile-from-report.md
-      - name: Оповещения о данных в службе Power BI
-        href: service-set-data-alerts.md
-      - name: Добавление изображения, текстового поля, видео или кода на панель мониторинга
-        href: service-dashboard-add-widget.md
-      - name: Изменение плитки
-        href: service-dashboard-edit-tile.md
-      - name: Советы по созданию эффективной информационной панели
-        href: service-dashboards-design-tips.md
-      - name: Создание представления панели мониторинга для телефонов
-        href: service-create-dashboard-mobile-phone-view.md
-      - name: Создание QR-кода для плитки
-        href: service-create-qr-code-for-tile.md
-      - name: Добавление изображения на панель мониторинга
-        href: service-dashboard-add-image.md
-      - name: Классификация данных на панелях мониторинга
-        href: service-data-classification.md
-      - name: Темы панели мониторинга
-        href: service-dashboard-themes.md
-    - name: Отчеты
-      items:
-      - name: Создание отчета из набора данных
-        href: service-report-create-new.md
-      - name: Сведения о фильтрах и выделении в отчетах
-        href: power-bi-reports-filters-and-highlighting.md
-      - name: Добавление фильтра в отчет
-        href: power-bi-report-add-filter.md
-      - name: Сохранение отчета в Power BI
-        href: service-report-save.md
-      - name: Взаимодействие с отчетом в режиме правки
-        href: service-interact-with-a-report-in-editing-view.md
-      - name: Анализ в Excel
-        href: service-analyze-in-excel.md
-      - name: Советы и рекомендации по созданию отчетов
-        href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: Работа с агрегатами в службе
-        href: service-aggregates.md
-      - name: Метрики использования для отчетов
-        href: service-usage-metrics.md
-      - name: Создание QR-кода для отчета
-        href: service-create-qr-code-for-report.md
-      - name: Экспорт отчета в Power BI Desktop (предварительная версия)
-        href: service-export-to-pbix.md
-      - name: Фильтрация отчета с помощью параметров в URL-адресе
-        href: service-url-filters.md
-      - name: Рекомендации по созданию быстрых и надежных отчетов
-        href: power-bi-reports-performance.md
-    - name: Задать вопросы о данных
-      items:
-      - name: Вопросы и ответы по началу работы с Power BI
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Создание визуализаций и отчетов с использованием функции "Вопросы и ответы"
-        href: power-bi-tutorial-q-and-a.md
-      - name: Настройка данных для правильной работы с функцией "Вопросы и ответы".
-        href: service-prepare-data-for-q-and-a.md
-      - name: Создание избранных вопросов для функции "Вопросы и ответы"
-        href: service-q-and-a-create-featured-questions.md
-      - name: Типы визуализаций в функции "Вопросы и ответы"
-        href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: Использование функции "Вопросы и ответы" для активных подключений
-        href: service-q-and-a-direct-query.md
-      - name: Общие сведения о Cortana для Power BI
-        href: service-cortana-intro.md
-      - name: Включение Cortana для Power BI
-        href: service-cortana-enable.md
-      - name: Быстрый анализ данных в Power BI
-        href: service-insights.md
-      - name: Оптимизация данных для Краткой аналитики
-        href: service-insights-optimize.md
-    - name: Совместная работа в Power BI
-      items:
-      - name: Создание новых рабочих областей
-        href: service-create-the-new-workspaces.md
-      - name: Создание рабочих областей приложений
-        href: service-create-workspaces.md
-      - name: Публикация приложений из рабочих областей
-        href: service-create-distribute-apps.md
-      - name: Управление хранилищем данных в рабочих областях
-        href: service-admin-manage-your-data-storage-in-power-bi.md
-      - name: Подключение к файлам в OneDrive вашей группы
-        href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-      - name: Совместная работа в рабочей области группы
-        href: service-collaborate-power-bi-workspace.md
-      - name: Управление группой в Power BI и Office 365
-        href: service-manage-app-workspace-in-power-bi-and-office-365.md
-    - name: Публикация и совместный доступ
-      items:
-      - name: Совместное использование информационных панелей и отчетов
-        href: service-share-dashboards.md
-      - name: Поделиться отфильтрованным отчетом
-        href: service-share-reports.md
-      - name: Подписка себя и других пользователей
-        href: service-report-subscribe.md
-      - name: Встраивание отчета в SharePoint Online
-        href: service-embed-report-spo.md
-      - name: Внедрение отчета на защищенный портал или веб-сайт
-        href: service-embed-secure.md
-      - name: Публикация из Power BI в Интернет
-        href: service-publish-to-web.md
-      - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
-        href: service-share-dashboard-that-links-to-excel-onedrive.md
-      - name: Издатель Power BI для Excel
-        href: publisher-for-excel.md
-    - name: Самостоятельная подготовка данных
-      items:
-      - name: Самостоятельная подготовка данных с помощью потоков данных
-        href: service-dataflows-overview.md
-      - name: Создание и использование потоков данных
-        href: service-dataflows-create-use.md
-      - name: Вычисляемые сущности с Power BI Premium
-        href: service-dataflows-computed-entities-premium.md
-      - name: Подключение к источникам данных с помощью потоков данных
-        href: service-dataflows-data-sources.md
-      - name: Использование потоков данных с локальными источниками данных
-        href: service-dataflows-on-premises-gateways.md
-      - name: Связывание сущностей из разных потоков данных
-        href: service-dataflows-linked-entities.md
-      - name: Использование добавочного обновления с помощью потоков данных
-        href: service-dataflows-incremental-refresh.md
-      - name: Ресурсы для разработчиков потоков данных
-        href: service-dataflows-developer-resources.md
-      - name: Подключение к потокам данных в Power BI Desktop
-        href: desktop-connect-dataflows.md
-      - name: Потоки данных и интеграция Azure Data Lake (предварительная версия)
-        href: service-dataflows-azure-data-lake-integration.md
-      - name: Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
-        href: service-dataflows-connect-azure-data-lake-storage-gen2.md
-      - name: Настройка параметров потоков данных рабочей области (предварительная версия)
-        href: service-dataflows-configure-workspace-storage-settings.md
-      - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
-        href: service-dataflows-add-cdm-folder.md
-      - name: Интеграция машинного обучения с Power BI (предварительная версия)
-        href: service-machine-learning-integration.md
-      - name: Использование Cognitive Services в Power BI (предварительная версия)
-        href: service-cognitive-services.md
-      - name: Автоматизированное машинное обучение в Power BI (предварительная версия)
-        href: service-machine-learning-automated.md
-    - name: Отчеты с разбивкой на страницы в Power BI
-      items:
-      - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
-        href: paginated-reports-report-builder-power-bi.md
-      - name: Вопросы и ответы по отчетам с разбивкой на страницы (предварительная версия)
-        href: paginated-reports-faq.md
-      - name: Создание и отправка отчета с разбивкой на страницы (предварительная версия)
-        href: paginated-reports-quickstart-aw.md
-      - name: Работа в представлении конструктора отчетов (предварительная версия)
-        href: paginated-reports-report-design-view.md
-      - name: Прямой ввод данных в отчет с разбивкой на страницы (предварительная версия)
-        href: paginated-reports-enter-data.md
-      - name: Создание внедренного источника данных (предварительная версия)
-        href: paginated-reports-embedded-data-source.md
-      - name: Создание внедренного набора данных (предварительная версия)
-        href: paginated-reports-create-embedded-dataset.md
-      - name: Создание параметров (предварительная версия)
-        href: paginated-reports-parameters.md
-      - name: Публикация отчета с разбивкой на страницы (предварительная версия)
-        href: paginated-reports-save-to-power-bi-service.md
-      - name: Просмотр отчета с разбивкой на страницы (предварительная версия)
-        href: paginated-reports-view-power-bi-service.md
-      - name: Взаимодействие с параметрами (предварительная версия)
-        href: paginated-reports-view-parameters.md
-    - name: Приложения-шаблоны
-      items:
-      - name: Обзор приложений-шаблонов
-        href: service-template-apps-overview.md
-      - name: Создание приложений-шаблонов
-        href: service-template-apps-create.md
-      - name: Советы по созданию приложений-шаблонов
-        href: service-template-apps-tips.md
-      - name: Установка и распространение приложений-шаблонов
-        href: service-template-apps-install-distribute.md
-    - name: Устранение неполадок
-      items:
-      - name: Забыли пароль для Power BI?
-        href: service-admin-forgot-your-password.md
-      - name: Запись дополнительных диагностических сведений для Power BI
-        href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
-      - name: Запасной адрес электронной почты для Power BI
-        href: service-admin-alternate-email-address-for-power-bi.md
-      - name: Использование одних и тех же учетных данных для входа в Power BI и Azure
-        href: service-admin-how-to-use-the-same-account-as-azure.md
-      - name: Известные проблемы с выделенными пользователями Office 365
-        href: service-admin-office-365-dedicated-known-issues.md
-      - name: Устранение неполадок Cortana
-        href: service-cortana-troubleshoot.md
-      - name: Устранение неполадок с анализом в Excel
-        href: desktop-troubleshooting-analyze-in-excel.md
-      - name: Устранение неполадок локального шлюза данных
-        href: service-gateway-onprem-tshoot.md
-      - name: Устранение неполадок с Power BI Gateway — Personal
-        href: service-admin-troubleshooting-power-bi-personal-gateway.md
-      - name: Устранение неполадок с источником данных, не поддерживающим обновление
-        href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-      - name: Устранение неполадок с запланированным обновлением для баз данных SQL Azure
-        href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-      - name: Ошибка Не удалось найти данные в этой книге Excel
-        href: service-admin-troubleshoot-excel-workbook-data.md
-      - name: Устранение неполадок с плитками
-        href: refresh-troubleshooting-tile-errors.md
-      - name: Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
-        href: service-refresh-xero-credentials.md
-      - name: Не удается войти
-        href: power-bi-cannot-sign-in.md
-    - name: Другие задачи
-      items:
-      - name: Переименование содержимого Power BI
-        href: service-rename.md
-      - name: Внедрите Power BI в своей правительственной организации
-        href: service-govus-signup.md
-      - name: Удаление содержимого в Power BI
-        href: service-delete.md
-      - name: Подключение к службам
-        items:
-        - name: Acumatica
-          href: service-connect-to-services.md
-        - name: Acumatica
-          href: service-connect-to-acumatica.md
-        - name: Adobe Analytics
-          href: service-connect-to-adobe-analytics.md
-        - name: Прогнозы продаж Alpine Metrics
-          href: service-connect-to-alpine-metrics.md
-        - name: appFigures
-          href: service-connect-to-appfigures.md
-        - name: Application Insights
-          href: service-connect-to-application-insights.md
-        - name: AT Internet Bridge
-          href: service-connect-to-at-internet.md
-        - name: Журналы аудита Azure
-          href: service-connect-to-azure-audit-logs.md
-        - name: Службы мобильного взаимодействия Azure
-          href: service-connect-to-azure-mobile.md
-        - name: Microsoft Azure Consumption Insights
-          href: service-connect-to-azure-consumption-insights.md
-        - name: Поиск Azure
-          href: service-connect-to-azure-search.md
-        - name: Circuit ID
-          href: service-connect-to-circuit-id.md
-        - name: ClickDimensions
-          href: service-connect-to-clickdimensions.md
-        - name: comScore Digital Analytix
-          href: service-connect-to-connect-to.md
-        - name: GitHub
-          href: service-connect-to-github.md
-        - name: Google Analytics
-          href: service-connect-to-google-analytics.md
-        - name: Insightly
-          href: service-connect-to-insightly.md
-        - name: IntelliBoard
-          href: service-connect-to-intelliboard.md
-        - name: Lithium
-          href: service-connect-to-lithium.md
-        - name: MailChimp
-          href: service-connect-to-mailchimp.md
-        - name: Mandrill
-          href: service-connect-to-mandrill.md
-        - name: Marketo
-          href: service-connect-to-marketo.md
-        - name: Microsoft Dynamics AX
-          href: service-connect-to-microsoft-dynamics-ax.md
-        - name: Microsoft Dynamics CRM
-          href: service-connect-to-microsoft-dynamics-crm.md
-        - name: Microsoft Dynamics NAV
-          href: service-connect-to-microsoft-dynamics-nav.md
-        - name: Office365Mon
-          href: service-connect-to-office365mon.md
-        - name: Planview Enterprise
-          href: service-connect-to-planview.md
-        - name: Prevedere
-          href: service-connect-to-prevedere.md
-        - name: Project Online
-          href: service-connect-to-project-online.md
-        - name: Projectplace
-          href: service-connect-to-projectplace.md
-        - name: QuickBooks Online
-          href: service-connect-to-quickbooks-online.md
-        - name: Salesforce
-          href: service-connect-to-salesforce.md
-        - name: SendGrid
-          href: service-connect-to-sendgrid.md
-        - name: Инциденты ServiceNow
-          href: service-connect-to-servicenow.md
-        - name: Smartsheet
-          href: service-connect-to-smartsheet.md
-        - name: SparkPost
-          href: service-connect-to-sparkpost.md
-        - name: Аудит базы данных SQL
-          href: service-connect-to-azure-sql-database-auditing.md
-        - name: SQL Sentry
-          href: service-connect-to-sql-sentry.md
-        - name: Stripe
-          href: service-connect-to-stripe.md
-        - name: SweetIQ
-          href: service-connect-to-sweetiq.md
-        - name: Troux.
-          href: service-connect-to-troux.md
-        - name: Twilio
-          href: service-connect-to-twilio.md
-        - name: tyGraph
-          href: service-connect-to-tygraph.md
-        - name: UserVoice
-          href: service-connect-to-uservoice.md
-        - name: VMob
-          href: service-connect-to-vmob.md
-        - name: Webtrends
-          href: service-connect-to-webtrends.md
-        - name: Центр разработки для Windows
-          href: service-connect-to-windows-dev-center.md
-        - name: Xero
-          href: service-connect-to-xero.md
-        - name: Zendesk
-          href: service-connect-to-zendesk.md
-        - name: Ziosk
-          href: service-connect-to-ziosk.md
-        - name: Zuora
-          href: service-connect-to-zuora.md
-      - name: Пакеты содержимого организации
-        items:
-        - name: Знакомство с пакетами содержимого организации
-          href: service-organizational-content-pack-introduction.md
-        - name: Создание и публикация пакета содержимого
-          href: service-organizational-content-pack-create-and-publish.md
-        - name: 'Пакеты содержимого: копирование, обновление и получение доступа'
-          href: service-organizational-content-pack-copy-refresh-access.md
-        - name: 'Пакеты содержимого: управление, обновление и удаление'
-          href: service-organizational-content-pack-manage-update-delete.md
-        - name: Удаление подключения к пакету содержимого
-          href: service-organizational-content-pack-disconnect.md
-  - name: Ресурсы
-    items:
-    - name: Видео
-      href: videos.md
-    - name: Вебинары
-      href: webinars.md
-    - name: Поддерживаемые языки и страны (регионы)
-      href: supported-languages-countries-regions.md
-    - name: Технические документы
-      items:
-      - name: Обзор технической документации
-        href: whitepapers.md
-      - name: Технический документ по обеспечению безопасности в Power BI
-        href: whitepaper-powerbi-security.md
-      - name: Развертывание Power BI Premium
-        href: whitepaper-powerbi-premium-deployment.md
-      - name: Публикация Power BI для внешних пользователей с помощью Azure Active Directory B2B
-        href: whitepaper-azure-b2b-power-bi.md
-- name: Power BI для разработчиков
-  items:
-  - name: Какие возможности Power BI предоставляет разработчикам
-    href: developer/what-can-you-do.md
-  - name: Встроенная аналитика
-    items:
     - name: Обзор
       items:
-      - name: Что такое внедрение с Power BI
-        href: developer/embedding.md
-      - name: Что такое Power BI Embedded в Azure
-        href: developer/azure-pbie-what-is-power-bi-embedded.md
+        - name: Что такое Power BI Desktop?
+          href: desktop-what-is-desktop.md
+    - name: Краткие руководства
+      expanded: true
+      items:
+        - name: Подключение к данным
+          href: desktop-quickstart-connect-to-data.md
     - name: Учебники
       items:
-      - name: Встроенное содержимое для клиентов
-        href: developer/embed-sample-for-customers.md
-      - name: Внедренное содержимое для организации
-        href: developer/embed-sample-for-your-organization.md
-      - name: Встроенное содержимое для национальных облаков
-        href: developer/embed-sample-for-customers-national-clouds.md
+        - name: Формирование и объединение нескольких источников данных
+          href: desktop-shape-and-combine-data.md
+        - name: Импорт и анализ данных c веб-страницы с помощью Power BI Desktop
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Анализ данных о продажах из Excel и веб-канала OData'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Создание собственных мер в Power BI Desktop
+          href: desktop-tutorial-create-measures.md
+        - name: Создание вычисляемых столбцов в Power BI Desktop
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Анализ Facebook с помощью Power BI Desktop
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+    - name: Примеры
+      items:
+        - name: Примеры для Power BI
+          href: sample-datasets.md
+        - name: Использование примеров пакетов содержимого
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: Рентабельность клиента — пример Узнайте о возможностях
+          href: sample-customer-profitability.md
+        - name: Анализ расходов на ИТ — пример Узнайте о возможностях
+          href: sample-it-spend.md
+        - name: Управление персоналом — пример Узнайте о возможностях
+          href: sample-human-resources.md
+        - name: Анализ возможных сделок — пример Узнайте о возможностях
+          href: sample-opportunity-analysis.md
+        - name: Анализ закупок — пример Узнайте о возможностях
+          href: sample-procurement.md
+        - name: Анализ розничной торговли — пример Узнайте о возможностях
+          href: sample-retail-analysis.md
+        - name: Продажи и маркетинг — пример Узнайте о возможностях
+          href: sample-sales-and-marketing.md
+        - name: Анализ качества поставщика — пример Узнайте о возможностях
+          href: sample-supplier-quality.md
+        - name: Скачиваемая книга с примером финансовых данных
+          href: sample-financial-download.md
     - name: Основные понятия
       items:
-      - name: Рекомендации по производительности
-        href: developer/embedded-performance-best-practices.md
-      - name: Субъект-служба
-        href: developer/embed-service-principal.md
-      - name: Защита на уровне строк
-        href: developer/embedded-row-level-security.md
-      - name: Управление несколькими арендаторами
-        href: developer/embed-multi-tenancy.md
-      - name: Ведение журнала диагностики для Power BI Embedded в Azure
-        href: developer/azure-pbie-diag-logs.md
-      - name: Вопросы и ответы о функции внедрения
-        href: developer/embedded-faq.md
-      - name: Разрешения Power BI
-        href: developer/power-bi-permissions.md
+        - name: Новые возможности в последнем обновлении Power BI Desktop
+          href: desktop-latest-update.md
+        - name: "Представление моделирования в Power\_BI\_Desktop"
+          href: desktop-modeling-view.md
+        - name: "Агрегаты в Power\_BI Desktop (предварительная версия)"
+          href: desktop-aggregations.md
+        - name: "Составные модели в Power\_BI Desktop"
+          href: desktop-composite-models.md
+        - name: Связи "многие ко многим" в Power BI Desktop
+          href: desktop-many-to-many-relationships.md
+        - name: "Режим хранения в Power\_BI Desktop (предварительная версия)"
+          href: desktop-storage-mode.md
+        - name: Двунаправленная перекрестная фильтрация в Power BI Desktop
+          href: desktop-bidirectional-filtering.md
+        - name: Power BI и DirectQuery
+          href: desktop-directquery-about.md
+        - name: 'Источники данных, поддерживаемые DirectQuery'
+          href: desktop-directquery-data-sources.md
+        - name: Предварительные требования к источникам данных Power BI
+          href: desktop-data-source-prerequisites.md
+        - name: "Элемент по умолчанию в многомерных моделях в Power\_BI"
+          href: desktop-default-member-multidimensional-models.md
+        - name: Вопросы и ответы о настраиваемых визуальных элементах
+          href: power-bi-custom-visuals-faq.md
     - name: Практическое руководство
       items:
-      - name: Внедрение содержимого из приложения
-        href: developer/embed-from-apps.md
-      - name: Создание клиента Azure Active Directory
-        href: developer/create-an-azure-active-directory-tenant.md
-      - name: Регистрация приложения
-        href: developer/register-app.md
-      - name: Получение токена доступа Azure AD
-        href: developer/get-azuread-access-token.md
-      - name: Внедрение функции "Вопросы и ответы"
-        href: developer/qanda.md
-      - name: Устранение неполадок с внедренным приложением
-        href: developer/embedded-troubleshoot.md
-      - name: Управление емкостями в Azure
-        items:
-        - name: Создание емкости в Azure
-          href: developer/azure-pbie-create-capacity.md
-        - name: Создание емкости с использованием поддержки нескольких регионов в Azure
-          href: developer/embedded-multi-geo.md
-        - name: Масштабирование емкости в Azure
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Приостановка и запуск емкости в Azure
-          href: developer/azure-pbie-pause-start.md
-      - name: Миграция из коллекций рабочих областей
-        items:
-        - name: Миграция из коллекций рабочих областей Power BI
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Средство миграции
-          href: developer/migrate-tool.md
-        - name: Фрагменты кода миграции
-          href: developer/migrate-code-snippets.md
+        - name: Получение Power BI Desktop
+          href: desktop-get-the-desktop.md
+        - name: Руководство по началу работы с Power BI Desktop
+          href: desktop-getting-started.md
+        - name: Общие задачи с запросами в Power BI Desktop
+          href: desktop-common-query-tasks.md
+        - name: Создание связей и управление ими в Power BI Desktop
+          href: desktop-create-and-manage-relationships.md
+        - name: Представление данных в Power BI Desktop
+          href: desktop-data-view.md
+        - name: Общие сведения о запросах в Power BI Desktop
+          href: desktop-query-overview.md
+        - name: Основные сведения о DAX в Power BI Desktop
+          href: desktop-quickstart-learn-dax-basics.md
+        - name: Представление связей в Power BI Desktop
+          href: desktop-relationship-view.md
+        - name: Представление отчетов в Power BI Desktop
+          href: desktop-report-view.md
+        - name: Подключение к нескольким источникам данных в Power BI Desktop
+          href: desktop-connect-to-data.md
+        - name: Публикация из Power BI Desktop
+          href: desktop-upload-desktop-files.md
+        - name: Часть 1. Добавление визуализаций в отчет Power BI
+          href: visuals/power-bi-report-add-visualizations-i.md
+        - name: Часть 2. Добавление визуализаций в отчет Power BI
+          href: visuals/power-bi-report-add-visualizations-ii.md
+        - name: 'Настройка заголовка, фона и условных обозначений визуализации'
+          href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+        - name: "Функция \"Показать элементы без данных\" в Power\_BI"
+          href: desktop-show-items-no-data.md
+        - name: Подключение к данным
+          items:
+            - name: Источники данных в Power BI Desktop
+              href: desktop-data-sources.md
+            - name: Подключение к веб-странице н основе примера (предварительная версия)
+              href: desktop-connect-to-web-by-example.md
+            - name: Подключение к наборам данных в службе Power BI
+              href: desktop-report-lifecycle-datasets.md
+            - name: Импорт книг Excel в Power BI Desktop
+              href: desktop-import-excel-workbooks.md
+            - name: Подключение к данным с помощью универсальных интерфейсов
+              href: desktop-connect-using-generic-interfaces.md
+            - name: Подключение к PDF-файлу
+              href: desktop-connect-pdf.md
+            - name: Подключение к Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
+            - name: Подключение к базе данных Oracle
+              href: desktop-connect-oracle-database.md
+            - name: Выполнение сценариев Python в Power BI Desktop
+              href: desktop-python-scripts.md
+            - name: Использование языка Python в редакторе Power Query
+              href: desktop-python-in-query-editor.md
+            - name: Использование внешней среды Python IDE с Power BI
+              href: desktop-python-ide.md
+            - name: Создание визуальных элементов Power BI с помощью Python
+              href: desktop-python-visuals.md
+            - name: Выполнение сценариев R в Power BI Desktop
+              href: desktop-r-scripts.md
+            - name: Использование языка R в редакторе запросов
+              href: desktop-r-in-query-editor.md
+            - name: "Использование внешней среды R\_IDE с Power\_BI"
+              href: desktop-r-ide.md
+            - name: Поддерживаемые пакеты R
+              href: service-r-packages-support.md
+            - name: Ввод данных непосредственно в Power BI Desktop
+              href: desktop-enter-data-directly-into-desktop.md
+            - name: Подключение к данным Excel в Power BI Desktop
+              href: desktop-connect-excel.md
+            - name: Многомерные данные Analysis Services в Power BI Desktop
+              href: desktop-ssas-multidimensional.md
+            - name: Подключение к CSV-файлам в Power BI Desktop
+              href: desktop-connect-csv.md
+            - name: Подключение к базе данных Google BigQuery в Power BI Desktop
+              href: desktop-connect-bigquery.md
+            - name: Подключение к базе данных Impala в Power BI Desktop
+              href: desktop-connect-impala.md
+            - name: Подключение к веб-каналу OData в Power BI Desktop
+              href: desktop-connect-odata.md
+            - name: Подключение к базе данных Amazon Redshift в Power BI Desktop
+              href: desktop-connect-redshift.md
+            - name: Подключение к веб-странице из Power BI Desktop
+              href: desktop-connect-to-web.md
+            - name: Подключение к хранилищу данных Snowflake Computing из Power BI Desktop
+              href: desktop-connect-snowflake.md
+            - name: Подключение к данным Azure Consumption Insights
+              href: desktop-connect-azure-consumption-insights.md
+            - name: Использование SAP HANA в Power BI Desktop
+              href: desktop-sap-hana.md
+            - name: Табличные данные служб Analysis Services в Power BI Desktop
+              href: desktop-analysis-services-tabular-data.md
+            - name: Использование DirectQuery в Power BI Desktop
+              href: desktop-use-directquery.md
+            - name: DirectQuery для баз данных Oracle и Teradata
+              href: desktop-directquery-for-oracle-teradata.md
+            - name: Использование DirectQuery и SAP Business Warehouse (BW)
+              href: desktop-directquery-sap-bw.md
+            - name: DirectQuery и SAP HANA
+              href: desktop-directquery-sap-hana.md
+            - name: "Функция \"Предполагать целостность данных\" в Power\_BI Desktop"
+              href: desktop-assume-referential-integrity.md
+            - name: "Использование соединителя SAP\_BW в Power\_BI\_Desktop"
+              href: desktop-sap-bw-connector.md
+            - name: Использование ссылок OneDrive для бизнеса в Power BI Desktop
+              href: desktop-use-onedrive-business-links.md
+            - name: "Служба сторонних разработчиков: Соединитель Facebook для Power\_BI Desktop"
+              href: service-facebook-connector.md
+            - name: "Служба сторонних разработчиков: Соединитель Google Analytics для Power\_BI Desktop"
+              href: service-google-analytics-connector.md
+            - name: 'Project Online: подключение к данным через Power BI Desktop'
+              href: desktop-project-online-connect-to-data.md
+        - name: Преобразование и формирование данных
+          items:
+            - name: Объединение двоичных значений
+              href: desktop-combine-binaries.md
+        - name: Моделирование данных
+          items:
+            - name: Категоризация данных в Power BI Desktop
+              href: desktop-data-categorization.md
+            - name: Пометка поля со штрихкодом для мобильных приложений
+              href: desktop-mobile-barcodes.md
+            - name: Настройка геофильтрации для мобильных приложений
+              href: desktop-mobile-geofiltering.md
+            - name: Вычисляемые столбцы в Power BI Desktop
+              href: desktop-calculated-columns.md
+            - name: Вычисляемые таблицы в Power BI Desktop
+              href: desktop-calculated-tables.md
+            - name: Меры в Power BI Desktop
+              href: desktop-measures.md
+            - name: Изменение лингвистической схемы функции "Вопросы и ответы"
+              href: power-bi-q-and-a-linguistic-schema.md
+            - name: Импорт и отображение ключевых показателей эффективности (предварительная версия)
+              href: desktop-import-and-display-kpis.md
+        - name: Создавать отчеты
+          items:
+            - name: "Использование анализатора производительности в Power\_BI\_Desktop"
+              href: desktop-performance-analyzer.md
+            - name: Визуальные элементы для отчетов
+              href: desktop-visual-elements-for-reports.md
+            - name: Создание подсказок на базе страниц отчетов
+              href: desktop-tooltips.md
+            - name: Экспорт в PDF и печать отчетов
+              href: desktop-export-to-pdf.md
+            - name: Обработчик "Вопросы и ответы" в Power BI Desktop
+              href: desktop-qna-in-reports.md
+            - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
+              href: desktop-analytics-pane.md
+            - name: Объяснение отклонений при помощи аналитических данных
+              href: desktop-insights.md
+            - name: Сравнение распределений при помощи аналитических данных
+              href: desktop-insights-find-where-different.md
+            - name: Закладки в Power BI
+              href: desktop-bookmarks.md
+            - name: Использование функции "Тема отчета"
+              href: desktop-report-themes.md
+            - name: Опробуйте новые возможности фильтрации
+              href: power-bi-report-filter-preview.md
+            - name: Использование функции "Быстрая мера"
+              href: desktop-quick-measures.md
+            - name: Использование параметров What if
+              href: desktop-what-if.md
+            - name: Использование детализации
+              href: desktop-drillthrough.md
+            - name: Использование детализации между отчетами
+              href: desktop-cross-report-drill-through.md
+            - name: Использование среза и фильтра относительных дат
+              href: visuals/desktop-slicer-filter-date-range.md
+            - name: Использование группирования и разделения на ячейки
+              href: desktop-grouping-and-binning.md
+            - name: Создание визуальных элементов Power BI с помощью R
+              href: desktop-r-visuals.md
+            - name: Применение созданных с помощью R пользовательских визуальных элементов
+              href: desktop-r-powered-custom-visuals.md
+            - name: Использование линий сетки и привязки к сетке
+              href: desktop-gridlines-snap-to-grid.md
+            - name: Параметры отображения страницы в отчете Power BI
+              href: power-bi-report-display-settings.md
+            - name: Добавление столбца из примера
+              href: desktop-add-column-from-example.md
+            - name: Добавление настраиваемого столбца
+              href: desktop-add-custom-column.md
+            - name: Создание адаптивных визуальных элементов в Power BI
+              href: visuals/desktop-create-responsive-visuals.md
+            - name: Использование встроенных меток иерархии в Power BI Desktop
+              href: desktop-inline-hierarchy-labels.md
+            - name: Использование среза числового диапазона
+              href: desktop-slicer-numeric-range.md
+            - name: Создание элемента "Срез" с возможностью изменения размера
+              href: power-bi-slicer-filter-responsive.md
+            - name: Создание пользовательских карт ответов Кортаны
+              href: service-cortana-answer-cards.md
+            - name: Защита на уровне строк
+              href: desktop-rls.md
+            - name: Настройка подсказок
+              href: desktop-custom-tooltips.md
+            - name: Текстовые поля и фигуры в отчетах
+              href: power-bi-reports-add-text-and-shapes.md
+            - name: Добавление гиперссылки в текстовое поле
+              href: service-add-hyperlink-to-text-box.md
+            - name: Гиперссылки в таблицах
+              href: power-bi-hyperlinks-in-tables.md
+            - name: Условное форматирование таблицы
+              href: desktop-conditional-table-formatting.md
+            - name: Форматирование заголовка на основе условного выражения
+              href: desktop-conditional-format-visual-titles.md
+            - name: Сортировка по столбцу в Power BI Desktop
+              href: desktop-sort-by-column.md
+            - name: Оптимизация отчетов для мобильных приложений
+              href: desktop-create-phone-report.md
+            - name: Использование функций просмотра данных и просмотра записей
+              href: desktop-see-data-see-records.md
+            - name: Советы по созданию отчетов
+              href: desktop-tips-and-tricks-for-creating-reports.md
+        - name: Визуализации
+          items:
+            - name: Визуализации в Power BI
+              href: visuals/power-bi-report-visualizations.md
+            - name: Рекомендации по работе с визуализациями
+              href: visuals/power-bi-visualization-best-practices.md
+            - name: Изменение типа визуализации в отчете
+              href: visuals/power-bi-report-change-visualization-type.md
+            - name: Ограничения точек данных по типу визуального элемента
+              href: visuals/power-bi-data-points.md
+            - name: 'Отображение данных, используемых для создания визуальных элементов'
+              href: visuals/service-reports-show-data.md
+            - name: Начало работы с форматированием цветом и свойствами осей
+              href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
+            - name: Советы и рекомендации по форматированию цветом
+              href: visuals/service-tips-and-tricks-for-color-formatting.md
+            - name: Копирование и вставка визуализации
+              href: visuals/power-bi-visualization-copy-paste.md
+            - name: 'Экспорт данных, используемых для создания визуализации'
+              href: visuals/power-bi-visualization-export-data.md
+            - name: 'Перемещение визуализации в отчете, изменение ее размеров и открытие в новом окне'
+              href: visuals/power-bi-visualization-move-and-resize.md
+            - name: Изменение способа взаимодействия визуальных элементов в отчете
+              href: service-reports-visual-interactions.md
+            - name: Советы и рекомендации для визуализаций карт Power BI
+              href: visuals/power-bi-map-tips-and-tricks.md
+            - name: Настройка свойств осей X и Y
+              href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: карты ArcGIS;
+              href: visuals/power-bi-visualization-arcgis.md
+            - name: Простые диаграммы с областями
+              href: visuals/power-bi-visualization-basic-area-chart.md
+            - name: Карточки (большие плитки с числами) в Power BI
+              href: visuals/power-bi-visualization-card.md
+            - name: Комбинированная диаграмма в Power BI
+              href: visuals/power-bi-visualization-combo-chart.md
+            - name: Кольцевые диаграммы в Power BI
+              href: visuals/power-bi-visualization-doughnut-charts.md
+            - name: Картограммы (хороплеты) в Power BI
+              href: visuals/power-bi-visualization-filled-maps-choropleths.md
+            - name: Воронкообразные диаграммы в Power BI
+              href: visuals/power-bi-visualization-funnel-charts.md
+            - name: "Диаграммы ключевых факторов влияния в Power\_BI"
+              href: visuals/power-bi-visualization-influencers.md
+            - name: Выборка линий с высокой плотностью
+              href: desktop-high-density-sampling.md
+            - name: Визуальные элементы ключевых показателей эффективности
+              href: visuals/power-bi-visualization-kpi.md
+            - name: Визуальный элемент матрицы
+              href: visuals/desktop-matrix-visual.md
+            - name: Создание расширенных аналитических инструментов и визуализаций с помощью R-скриптов в Power BI
+              href: visuals/service-r-visuals.md
+            - name: Диаграммы "Радиальный датчик" в Power BI
+              href: visuals/power-bi-visualization-radial-gauge-charts.md
+            - name: Ленточные диаграммы
+              href: visuals/desktop-ribbon-charts.md
+            - name: Точечные диаграммы в Power BI
+              href: visuals/power-bi-visualization-scatter.md
+            - name: Точечные диаграммы с высокой плотностью
+              href: visuals/desktop-high-density-scatter-charts.md
+            - name: Использование карт фигур в Power BI Desktop (предварительная версия)
+              href: visuals/desktop-shape-map.md
+            - name: Срезы в Power BI
+              href: visuals/power-bi-visualization-slicers.md
+            - name: Таблицы в Power BI
+              href: visuals/power-bi-visualization-tables.md
+            - name: Древовидные диаграммы в Power BI
+              href: visuals/power-bi-visualization-treemaps.md
+            - name: Каскадные диаграммы в Power BI
+              href: visuals/power-bi-visualization-waterfall-charts.md
+            - name: Создание динамических строк ссылки
+              href: service-analytics-pane.md
+        - name: Устранение неполадок
+          items:
+            - name: "Решение проблем с импортом баз данных Access и электронных таблиц Excel в Power\_BI Desktop и Power Query"
+              href: desktop-access-database-errors.md
+            - name: Устранение неполадок при запуске Power BI Desktop
+              href: desktop-error-launching-desktop.md
     - name: Справка
       items:
-      - name: API-интерфейсы
-        items:
-        - name: REST API для управления ресурсами Azure
-          href: https://docs.microsoft.com/rest/api/power-bi-embedded/
-        - name: REST API в Power BI
-          href: https://msdn.microsoft.com/library/mt147898.aspx
-        - name: Справочник по REST API Power BI
-          href: developer/rest-api-reference.md
-      - name: Загрузка SDK .NET
-        href: https://go.microsoft.com/fwlink/?linkid=848274
-      - name: Внедрение пользовательских макетов в приложение
-        href: developer/embedded-custom-layout.md
+        - name: Типы данных в Power BI Desktop
+          href: desktop-data-types.md
+        - name: "Сочетания клавиш редактора формул для Power\_BI Desktop"
+          href: desktop-formula-editor.md
+        - name: Уровни конфиденциальности Power BI Desktop
+          href: desktop-privacy-levels.md
+        - name: "Расширение соединителей в Power\_BI"
+          href: desktop-connector-extensibility.md
+        - name: Предоставление доверия подписанным сторонним соединителям
+          href: desktop-trusted-third-party-connectors.md
     - name: Ресурсы
       items:
-      - name: Центр разработки
-        href: https://powerbi.microsoft.com/en-us/developers/
-      - name: Средство настройки внедрения
-        href: https://aka.ms/embedsetup
-      - name: Пример площадки JavaScript
-        href: https://go.microsoft.com/fwlink/?linkid=848279
-      - name: Вики-сайт по JavaScript для Power BI
-        href: https://github.com/Microsoft/powerbi-javascript/wiki
-      - name: Git-репозиторий JavaScript
-        href: https://go.microsoft.com/fwlink/?linkid=848276
-      - name: Git-репозиторий Power BI C#
-        href: https://go.microsoft.com/fwlink/?linkid=848273
-      - name: Примеры
-        href: https://go.microsoft.com/fwlink/?linkid=851293
-      - name: Сообщество Power BI
-        href: https://go.microsoft.com/fwlink/?linkid=848280
-      - name: Stack Overflow
-        href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Пользовательские визуальные элементы
-    items:
-    - name: Обзор
-      items:
-      - name: Пользовательские визуальные элементы в Power BI
-        href: power-bi-custom-visuals.md
-    - name: Учебники
-      items:
-      - name: Разработка пользовательского визуального элемента Power BI
-        href: developer/custom-visual-develop-tutorial.md
-      - name: Добавление параметров форматирования
-        href: developer/custom-visual-develop-tutorial-format-options.md
-    - name: Основные понятия
-      items:
-      - name: Пользовательские визуальные элементы для организаций в Power BI
-        href: power-bi-custom-visuals-organization.md
-      - name: Рекомендации по визуальным элементам Power BI
-        href: developer/guidelines-powerbi-visuals.md
-      - name: Вопросы и ответы о настраиваемых визуальных элементах
-        href: power-bi-custom-visuals-faq.md
-      - name: Функциональные возможности
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
-      - name: Сопоставления представлений данных
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/
-      - name: Объекты и свойства
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/
-      - name: Режим расширенного редактирования
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/
-      - name: Руководство по миграции на версионный API
-        href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/
-    - name: Практическое руководство
-      items:
-      - name: Сертификация пользовательской визуализации
-        href: power-bi-custom-visuals-certified.md
-      - name: Публикация настраиваемых визуальных элементов в AppSource
-        href: developer/office-store.md
-      - name: Использование пользовательских визуализаций на основе R в Power BI
-        href: desktop-r-powered-custom-visuals.md
-      - name: Устранение неполадок
-        items:
-        - name: Устранение неполадок с разработкой пользовательских визуальных элементов
-          href: power-bi-custom-visuals-troubleshoot.md
-    - name: Справка
-      items:
-      - name: API-интерфейсы
-        href: https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/
-    - name: Ресурсы
-      items:
-      - name: Центр разработки
-        href: https://powerbi.microsoft.com/developers/
-      - name: Примеры
-        href: https://microsoft.github.io/PowerBI-visuals/samples/
-      - name: Git-репозиторий пользовательских визуальных элементов
-        href: https://go.microsoft.com/fwlink/?linkid=848277
-  - name: Автоматизация
-    items:
-    - name: Обзор
-      items:
-      - name: Что можно сделать с помощью API Power BI?
-        href: developer/overview-of-power-bi-rest-api.md
-    - name: Учебники
-      items:
-      - name: Принудительная отправка данных в набор данных
-        href: developer/walkthrough-push-data.md
-      - name: Получение токена доступа для проверки подлинности
-        href: developer/walkthrough-push-data-get-token.md
-      - name: Создание набора данных
-        href: developer/walkthrough-push-data-create-dataset.md
-      - name: Получение набора данных для добавления строк
-        href: developer/walkthrough-push-data-get-datasets.md
-      - name: Добавление строк в таблицу
-        href: developer/walkthrough-push-data-add-rows.md
-    - name: Основные понятия
-      items:
-      - name: Политика автоматического хранения данных в режиме реального времени
-        href: developer/api-automatic-retention-policy-for-real-time-data.md
-      - name: Принудительная отправка данных
-        items:
-        - name: Ограничения REST API Power BI
-          href: developer/api-rest-api-limitations.md
-        - name: Свойства набора данных
-          href: developer/api-dataset-properties.md
-        - name: Управление версиями в модели данных
-          href: developer/api-data-model-versioning.md
-    - name: Практическое руководство
-      items:
-      - name: Настройка учетных данных
-        href: developer/configure-credentials.md
-      - name: Шифрование учетных данных
-        href: developer/encrypt-credentials.md
-    - name: Справка
-      items:
-      - name: REST API
-        href: https://docs.microsoft.com/rest/api/power-bi
-      - name: Справочник по REST API Power BI
-        href: developer/rest-api-reference.md
-      - name: Полный листинг кода
-        href: developer/walkthrough-push-data-complete-code.md
-    - name: Ресурсы
-      items:
-      - name: Центр разработки
-        href: https://powerbi.microsoft.com/en-us/developers/
-      - name: Git-репозиторий Power BI C#
-        href: https://go.microsoft.com/fwlink/?linkid=848273
-      - name: Загрузка SDK .NET
-        href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: сервере отчетов Power BI
+        - name: Видеоматериалы по Power BI Desktop
+          href: desktop-videos.md
+        - name: Предыдущие ежемесячные обновления для Power BI Desktop
+          href: desktop-latest-update-archive.md
+        - name: 'Заявление о конфиденциальности, действующее при отправке смайлика Power BI Desktop'
+          href: desktop-send-smile-privacy-statement.md
+        - name: Специальные возможности в отчетах Power BI
+          href: desktop-accessibility.md
+        - name: "Управление формой для входа в Power\_BI Desktop"
+          href: desktop-admin-sign-in-form.md
+- name: "службе Power\_BI"
   items:
-  - name: Обзор
-    items:
-    - name: Что такое Сервер отчетов Power BI?
-      href: report-server/get-started.md
-    - name: Сравнение службы и Сервера отчетов Power BI
-      href: report-server/compare-report-server-service.md
-  - name: Учебники
-    items:
-    - name: Изучение Сервера отчетов Power BI в виртуальной машине
-      href: report-server/tutorial-explore-report-server-web-portal.md
-  - name: Основные понятия
-    items:
-    - name: Что нового
-      href: report-server/whats-new.md
-    - name: Журнал изменений
-      href: report-server/changelog.md
-    - name: Сроки предоставления поддержки
-      href: report-server/support-timeline.md
-    - name: Требования к оборудованию и программному обеспечению
-      href: report-server/system-requirements.md
-    - name: Поддержка браузеров
-      href: report-server/browser-support.md
-    - name: Обзор функций администратора
-      href: report-server/admin-handbook-overview.md
-    - name: Основные сведения о сервере отчетов
+    - name: Обзор
       items:
-      - name: Запланированное обновление отчета Power BI
-        href: report-server/scheduled-refresh.md
-      - name: Источники данных отчетов Power BI
-        href: report-server/data-sources.md
-      - name: Источники данных для отчетов с разбивкой на страницы
-        href: report-server/connect-data-sources.md
-      - name: Подписки
-        href: https://go.microsoft.com/fwlink/?linkid=851310
-      - name: Использование мобильного приложения
-        href: https://go.microsoft.com/fwlink/?linkid=848711
-      - name: Решение проблем запланированного обновления
-        href: report-server/scheduled-refresh-troubleshoot.md
-    - name: Сервер отчетов для разработчиков
+        - name: "Что такое Power\_BI?"
+          href: power-bi-overview.md
+        - name: Сравнение Power BI Desktop и Power BI
+          href: service-service-vs-desktop.md
+    - name: Учебники
       items:
-      - name: Сервер отчетов для разработчиков
-        href: report-server/developer-handbook-overview.md
-      - name: Управление средством просмотра отчетов
-        href: https://go.microsoft.com/fwlink/?linkid=848724
-      - name: Разработка расширений
-        href: https://go.microsoft.com/fwlink/?linkid=848723
-      - name: Встроенные отчеты
-        href: report-server/quickstart-embed.md
-  - name: Практическое руководство
-    items:
-    - name: Установка Power BI Desktop
-      href: report-server/install-powerbi-desktop.md
-    - name: Основные сведения о сервере отчетов
+        - name: Приступая к работе с Power BI
+          href: service-get-started.md
+        - name: Подключение к примеру в GitHub
+          href: service-tutorial-connect-to-github.md
+        - name: "Использование Cognitive\_Services"
+          href: service-tutorial-use-cognitive-services.md
+        - name: Интеграция Машинного обучения
+          href: service-tutorial-invoke-machine-learning-model.md
+        - name: Создание модели машинного обучения (предварительная версия)
+          href: service-tutorial-build-machine-learning-model.md
+        - name: "Обновление данных из SQL\_Server"
+          href: service-gateway-sql-tutorial.md
+    - name: Основные понятия
       items:
-      - name: Создание отчета Power BI для сервера отчетов
-        href: report-server/quickstart-create-powerbi-report.md
-      - name: Управление содержимым сервера отчетов
-        href: report-server/getting-around.md
-      - name: Безопасность на уровне строк на сервере отчетов
-        href: report-server/row-level-security-report-server.md
-      - name: Создание отчета с разбивкой на страницы для сервера отчетов
-        href: report-server/quickstart-create-paginated-report.md
-      - name: Ввод данных непосредственно в отчет с разбивкой на страницы
-        href: paginated-reports-enter-data.md
-      - name: Работа с КПЭ
-        href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: Доступ к общим наборам данных как к каналам OData
-        href: report-server/access-dataset-odata.md
-      - name: Настройка запланированного обновления
-        href: report-server/configure-scheduled-refresh.md
-      - name: Добавление комментариев к отчету
-        href: report-server/add-comments.md
-    - name: Сервер отчетов для администраторов
+        - name: Новые возможности службы Power BI
+          href: service-whats-new.md
+        - name: Основные понятия
+          items:
+            - name: Основные понятия для разработчиков
+              href: service-basic-concepts.md
+            - name: Типы данных в Power BI
+              href: service-get-data.md
+            - name: Обзор редактора отчетов
+              href: service-the-report-editor-take-a-tour.md
+        - name: Рабочий процесс в Power BI
+          items:
+            - name: Организация работы
+              href: service-new-workspaces.md
+            - name: Способы совместного использования работы
+              href: service-how-to-collaborate-distribute-dashboards-reports.md
+            - name: Поддержание актуальности данных
+              href: refresh-data.md
+            - name: Мониторинг использования
+              href: service-usage-metrics.md
+        - name: Лицензирование
+          items:
+            - name: Самостоятельная регистрация
+              href: service-self-service-signup-for-power-bi.md
+            - name: Лицензирование в организации
+              href: service-admin-licensing-organization.md
+            - name: Функций по типам лицензий
+              href: service-features-license-type.md
+        - name: Дополнительные понятия
+          items:
+            - name: "10\_советов по получению справки"
+              href: service-tips-for-finding-help.md
+            - name: "Варианты поддержки Power\_BI"
+              href: service-support-options.md
+            - name: Лицензирование особых случаев
+              items:
+                - name: Активация расширенной пробной версии Power BI Pro
+                  href: service-extended-pro-trial.md
+                - name: Power BI для правительства США
+                  href: service-govus-overview.md
+                - name: Вопросы и ответы для клиентов облачных служб в Германии
+                  href: service-govde-faq.md
+            - name: Другое
+              items:
+                - name: "Microsoft Flow и Power\_BI"
+                  href: service-flow-integration.md
+                - name: Начало работы со сторонними приложениями
+                  href: service-power-bi-get-started-third-party-apps.md
+    - name: Практическое руководство
       items:
-      - name: Установка сервера отчетов
-        href: report-server/install-report-server.md
-      - name: Поиск ключа продукта
-        href: report-server/find-product-key.md
-      - name: Обновление сервера отчетов
-        href: report-server/upgrade.md
-      - name: Перенос сервера отчетов
-        href: report-server/migrate-report-server.md
-      - name: Настройка Kerberos для использования отчетов Power BI
-        href: report-server/configure-kerberos-powerbi-reports.md
-      - name: Удаленная настройка доступа для мобильного приложения
-        href: report-server/configure-powerbi-mobile-apps-remote.md
-      - name: Размещение книг Excel
-        href: report-server/excel-oos.md
-  - name: Справка
-    items:
-    - name: API-интерфейсы REST
-      href: report-server/rest-api.md
-    - name: WMI
-      href: https://go.microsoft.com/fwlink/?linkid=848719
-    - name: API SOAP
-      href: https://go.microsoft.com/fwlink/?linkid=848721
-    - name: Доступ к URL
-      href: https://go.microsoft.com/fwlink/?linkid=848722
-    - name: Расширения
-      href: https://go.microsoft.com/fwlink/?linkid=848723
-  - name: Ресурсы
-    items:
-    - name: Технический документ о планировании ресурсов
-      href: report-server/capacity-planning.md
+        - name: Получение данных из файлов
+          items:
+            - name: Получение данных из файлов
+              href: service-get-data-from-files.md
+            - name: От книги Excel до потрясающего отчета
+              href: service-from-excel-to-stunning-report.md
+            - name: Получение данных из файлов книг Excel
+              href: service-excel-workbook-files.md
+            - name: Получение данных из файлов Power BI Desktop
+              href: service-desktop-files.md
+            - name: Изменение параметров
+              href: service-parameters.md
+            - name: Получение данных из файлов с разделителями-запятыми (CSV-файлов)
+              href: service-comma-separated-value-files.md
+            - name: "Потоковая передача в реальном времени в Power\_BI"
+              href: service-real-time-streaming.md
+            - name: Публикация в Power BI из Excel
+              href: service-publish-from-excel.md
+            - name: Уменьшение размера книги Excel
+              href: reduce-the-size-of-an-excel-workbook.md
+        - name: Получение данных из общих наборов данных
+          items:
+            - name: Использование наборов данных в рабочих областях
+              href: service-datasets-across-workspaces.md
+            - name: Создание и совместное использование наборов данных (предварительная версия)
+              href: service-datasets-build-permissions.md
+            - name: Создание отчетов на основе наборов данных
+              href: service-datasets-discover-across-workspaces.md
+            - name: Копирование отчетов на основе наборов данных
+              href: service-datasets-copy-reports.md
+            - name: Повышение уровня наборов данных
+              href: service-datasets-promote.md
+            - name: Сертификация наборов данных
+              href: service-datasets-certify.md
+            - name: Управление использованием наборов данных
+              href: service-datasets-admin-across-workspaces.md
+        - name: Получение данных из баз данных
+          items:
+            - name: Azure и Power BI
+              href: service-azure-and-power-bi.md
+            - name: "Исходящий трафик Power\_BI и Azure"
+              href: service-azure-egress-power-bi.md
+            - name: Хранилище данных SQL Azure с DirectQuery
+              href: service-azure-sql-data-warehouse-with-direct-connect.md
+            - name: База данных SQL Azure с DirectQuery
+              href: service-azure-sql-database-with-direct-connect.md
+            - name: Динамические данные служб SQL Server Analysis в Power BI
+              href: sql-server-analysis-services-tabular-data.md
+        - name: Обновить данные
+          items:
+            - name: Настройка запланированного обновления
+              href: refresh-scheduled-refresh.md
+            - name: "Обновление набора данных из локального файла Power\_BI\_Desktop"
+              href: refresh-desktop-file-local-drive.md
+            - name: "Обновление набора данных из облачного файла Power\_BI\_Desktop"
+              href: refresh-desktop-file-onedrive.md
+            - name: "Обновление набора данных из локальной книги\_Excel"
+              href: refresh-excel-file-local-drive.md
+            - name: "Обновление набора данных из облачной книги\_Excel"
+              href: refresh-excel-file-onedrive.md
+            - name: Обновление набора данных из CSV-файла в OneDrive
+              href: refresh-csv-file-onedrive.md
+            - name: "Кэширование запросов в Power\_BI Premium"
+              href: power-bi-query-caching.md
+            - name: Устранение неполадок в сценариях обновления
+              href: refresh-troubleshooting-refresh-scenarios.md
+        - name: Панели мониторинга
+          items:
+            - name: Общие сведения о панелях мониторинга
+              href: service-dashboards.md
+            - name: Плитки панели мониторинга
+              href: service-dashboard-tiles.md
+            - name: Создание панели мониторинга из отчета
+              href: service-dashboard-create.md
+            - name: Создание копии панели мониторинга
+              href: service-dashboard-copy.md
+            - name: Закрепление плитки на панели мониторинга из отчета
+              href: service-dashboard-pin-tile-from-report.md
+            - name: Закрепление плитки из одной панели мониторинга на другой
+              href: service-pin-tile-to-another-dashboard.md
+            - name: Закрепление плитки на панели мониторинга из Excel
+              href: service-dashboard-pin-tile-from-excel.md
+            - name: Закрепление плитки на информационной панели из подсистемы вопросов и ответов
+              href: service-dashboard-pin-tile-from-q-and-a.md
+            - name: Закрепление целой страницы отчета на панели мониторинга
+              href: service-dashboard-pin-live-tile-from-report.md
+            - name: Оповещения о данных в службе Power BI
+              href: service-set-data-alerts.md
+            - name: 'Добавление изображения, текстового поля, видео или кода на панель мониторинга'
+              href: service-dashboard-add-widget.md
+            - name: Изменение плитки
+              href: service-dashboard-edit-tile.md
+            - name: Советы по созданию эффективной информационной панели
+              href: service-dashboards-design-tips.md
+            - name: Оптимизация панели мониторинга для телефонов
+              href: service-create-dashboard-mobile-phone-view.md
+            - name: Создание QR-кода для плитки
+              href: service-create-qr-code-for-tile.md
+            - name: Добавление изображения на панель мониторинга
+              href: service-dashboard-add-image.md
+            - name: Классификация данных на панелях мониторинга
+              href: service-data-classification.md
+            - name: Темы панели мониторинга
+              href: service-dashboard-themes.md
+        - name: Отчеты
+          items:
+            - name: Создание отчета из набора данных
+              href: service-report-create-new.md
+            - name: Фильтры и выделение в отчетах
+              href: power-bi-reports-filters-and-highlighting.md
+            - name: Добавление фильтра в отчет
+              href: power-bi-report-add-filter.md
+            - name: Сохранение отчета
+              href: service-report-save.md
+            - name: Взаимодействие с отчетом в режиме правки
+              href: service-interact-with-a-report-in-editing-view.md
+            - name: Анализ в Excel
+              href: service-analyze-in-excel.md
+            - name: Советы и рекомендации по созданию отчетов
+              href: power-bi-reports-tips-and-tricks-for-creating.md
+            - name: Работа с агрегатами в службе
+              href: service-aggregates.md
+            - name: Метрики использования для отчетов
+              href: service-usage-metrics.md
+            - name: Создание QR-кода для отчета
+              href: service-create-qr-code-for-report.md
+            - name: "Экспорт отчета в Power\_BI Desktop (предварительная версия)"
+              href: service-export-to-pbix.md
+            - name: Фильтрация отчета с помощью параметров в URL-адресе
+              href: service-url-filters.md
+            - name: Рекомендации по созданию быстрых и надежных отчетов
+              href: power-bi-reports-performance.md
+        - name: Задать вопросы о данных
+          items:
+            - name: Анализ данных с помощью "Вопросов и ответов"
+              href: power-bi-tutorial-q-and-a.md
+            - name: Создание визуализации с использованием "Вопросов и ответов"
+              href: power-bi-visualization-introduction-to-q-and-a.md
+            - name: Оптимизация работы с данными Excel для "Вопросов и ответов"
+              href: service-prepare-data-for-q-and-a.md
+            - name: Создание избранных вопросов для функции "Вопросы и ответы"
+              href: service-q-and-a-create-featured-questions.md
+            - name: Типы визуализаций в функции "Вопросы и ответы"
+              href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+            - name: Использование функции "Вопросы и ответы" для активных подключений
+              href: service-q-and-a-direct-query.md
+            - name: Общие сведения о Cortana для Power BI
+              href: service-cortana-intro.md
+            - name: Включение Cortana для Power BI
+              href: service-cortana-enable.md
+            - name: Быстрый анализ данных в Power BI
+              href: service-insights.md
+            - name: "Оптимизация данных для Краткой\_аналитики"
+              href: service-insights-optimize.md
+        - name: Совместная работа в Power BI
+          items:
+            - name: Создание новых рабочих областей
+              href: service-create-the-new-workspaces.md
+            - name: Создание рабочих областей приложений
+              href: service-create-workspaces.md
+            - name: Публикация приложений из рабочих областей
+              href: service-create-distribute-apps.md
+            - name: Управление хранилищем данных в рабочих областях
+              href: service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Подключение к файлам в OneDrive вашей группы
+              href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
+            - name: Совместная работа в рабочей области группы
+              href: service-collaborate-power-bi-workspace.md
+            - name: Управление группой в Power BI и Office 365
+              href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Публикация и совместный доступ
+          items:
+            - name: Совместное использование информационных панелей и отчетов
+              href: service-share-dashboards.md
+            - name: Поделиться отфильтрованным отчетом
+              href: service-share-reports.md
+            - name: Подписка себя и других пользователей
+              href: service-report-subscribe.md
+            - name: Встраивание отчета в SharePoint Online
+              href: service-embed-report-spo.md
+            - name: Внедрение отчета на защищенный портал или веб-сайт
+              href: service-embed-secure.md
+            - name: Публикация из Power BI в Интернет
+              href: service-publish-to-web.md
+            - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
+              href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: "Издатель Power\_BI для Excel"
+              href: publisher-for-excel.md
+        - name: Самостоятельная подготовка данных
+          items:
+            - name: Самостоятельная подготовка данных с помощью потоков данных
+              href: service-dataflows-overview.md
+            - name: Создание и использование потоков данных
+              href: service-dataflows-create-use.md
+            - name: Вычисляемые сущности с Power BI Premium
+              href: service-dataflows-computed-entities-premium.md
+            - name: Подключение к источникам данных с помощью потоков данных
+              href: service-dataflows-data-sources.md
+            - name: Использование потоков данных с локальными источниками данных
+              href: service-dataflows-on-premises-gateways.md
+            - name: Связывание сущностей из разных потоков данных
+              href: service-dataflows-linked-entities.md
+            - name: Использование добавочного обновления с помощью потоков данных
+              href: service-dataflows-incremental-refresh.md
+            - name: Ресурсы для разработчиков потоков данных
+              href: service-dataflows-developer-resources.md
+            - name: Подключение к потокам данных в Power BI Desktop
+              href: desktop-connect-dataflows.md
+            - name: Потоки данных и интеграция Azure Data Lake (предварительная версия)
+              href: service-dataflows-azure-data-lake-integration.md
+            - name: Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
+              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: Настройка параметров потоков данных рабочей области (предварительная версия)
+              href: service-dataflows-configure-workspace-storage-settings.md
+            - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
+              href: service-dataflows-add-cdm-folder.md
+            - name: "Интеграция машинного обучения с Power\_BI (предварительная версия)"
+              href: service-machine-learning-integration.md
+            - name: "Использование Cognitive Services в Power\_BI (предварительная версия)"
+              href: service-cognitive-services.md
+            - name: "Автоматизированное машинное обучение в Power\_BI (предварительная версия)"
+              href: service-machine-learning-automated.md
+        - name: Отчеты с разбивкой на страницы в Power BI
+          items:
+            - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
+              href: paginated-reports-report-builder-power-bi.md
+            - name: Вопросы и ответы по отчетам с разбивкой на страницы (предварительная версия)
+              href: paginated-reports-faq.md
+            - name: Создание и отправка отчета с разбивкой на страницы (предварительная версия)
+              href: paginated-reports-quickstart-aw.md
+            - name: Работа в представлении конструктора отчетов (предварительная версия)
+              href: paginated-reports-report-design-view.md
+            - name: Прямой ввод данных в отчет с разбивкой на страницы (предварительная версия)
+              href: paginated-reports-enter-data.md
+            - name: Создание внедренного источника данных (предварительная версия)
+              href: paginated-reports-embedded-data-source.md
+            - name: Создание внедренного набора данных (предварительная версия)
+              href: paginated-reports-create-embedded-dataset.md
+            - name: Создание параметров (предварительная версия)
+              href: paginated-reports-parameters.md
+            - name: Публикация отчета с разбивкой на страницы (предварительная версия)
+              href: paginated-reports-save-to-power-bi-service.md
+            - name: Просмотр отчета с разбивкой на страницы (предварительная версия)
+              href: paginated-reports-view-power-bi-service.md
+            - name: Взаимодействие с параметрами (предварительная версия)
+              href: paginated-reports-view-parameters.md
+            - name: Подписка себя и других пользователей
+              href: paginated-reports-subscriptions.md
+        - name: Приложения-шаблоны
+          items:
+            - name: Обзор приложений-шаблонов
+              href: service-template-apps-overview.md
+            - name: Создание приложений-шаблонов
+              href: service-template-apps-create.md
+            - name: Советы по созданию приложений-шаблонов
+              href: service-template-apps-tips.md
+            - name: Установка и распространение приложений-шаблонов
+              href: service-template-apps-install-distribute.md
+        - name: Устранение неполадок
+          items:
+            - name: Забыли пароль для Power BI?
+              href: service-admin-forgot-your-password.md
+            - name: Запись дополнительных диагностических сведений для Power BI
+              href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+            - name: Запасной адрес электронной почты для Power BI
+              href: service-admin-alternate-email-address-for-power-bi.md
+            - name: Использование одних и тех же учетных данных для входа в Power BI и Azure
+              href: service-admin-how-to-use-the-same-account-as-azure.md
+            - name: Известные проблемы с выделенными пользователями Office 365
+              href: service-admin-office-365-dedicated-known-issues.md
+            - name: Устранение неполадок Cortana
+              href: service-cortana-troubleshoot.md
+            - name: Устранение неполадок с анализом в Excel
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: Устранение неполадок локального шлюза данных
+              href: service-gateway-onprem-tshoot.md
+            - name: Устранение неполадок с Power BI Gateway — Personal
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: 'Устранение неполадок с источником данных, не поддерживающим обновление'
+              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+            - name: 'Устранение неполадок со вложенными значениями, возвращаемыми как текст'
+              href: service-troubleshooting-nested-values.md
+            - name: Устранение неполадок с запланированным обновлением для баз данных SQL Azure
+              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: Ошибка Не найдены данные в книге Excel
+              href: service-admin-troubleshoot-excel-workbook-data.md
+            - name: Устранение неполадок с плитками
+              href: refresh-troubleshooting-tile-errors.md
+            - name: Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
+              href: service-refresh-xero-credentials.md
+            - name: Не удается войти
+              href: power-bi-cannot-sign-in.md
+        - name: Другие задачи
+          items:
+            - name: Переименование содержимого Power BI
+              href: service-rename.md
+            - name: Внедрите Power BI в своей правительственной организации
+              href: service-govus-signup.md
+            - name: Удаление содержимого в Power BI
+              href: service-delete.md
+            - name: Подключение к службам
+              items:
+                - name: Подключение к службам с помощью приложений
+                  href: service-connect-to-services.md
+                - name: Acumatica
+                  href: service-connect-to-acumatica.md
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
+                - name: Прогнозы продаж Alpine Metrics
+                  href: service-connect-to-alpine-metrics.md
+                - name: appFigures
+                  href: service-connect-to-appfigures.md
+                - name: Application Insights
+                  href: service-connect-to-application-insights.md
+                - name: AT Internet Bridge
+                  href: service-connect-to-at-internet.md
+                - name: Журналы аудита Azure
+                  href: service-connect-to-azure-audit-logs.md
+                - name: Службы мобильного взаимодействия Azure
+                  href: service-connect-to-azure-mobile.md
+                - name: Microsoft Azure Consumption Insights
+                  href: service-connect-to-azure-consumption-insights.md
+                - name: Поиск Azure
+                  href: service-connect-to-azure-search.md
+                - name: "Circuit\_ID"
+                  href: service-connect-to-circuit-id.md
+                - name: ClickDimensions
+                  href: service-connect-to-clickdimensions.md
+                - name: comScore Digital Analytix
+                  href: service-connect-to-connect-to.md
+                - name: GitHub
+                  href: service-connect-to-github.md
+                - name: Insightly
+                  href: service-connect-to-insightly.md
+                - name: IntelliBoard
+                  href: service-connect-to-intelliboard.md
+                - name: Lithium
+                  href: service-connect-to-lithium.md
+                - name: MailChimp
+                  href: service-connect-to-mailchimp.md
+                - name: Mandrill
+                  href: service-connect-to-mandrill.md
+                - name: Marketo
+                  href: service-connect-to-marketo.md
+                - name: Microsoft Dynamics AX
+                  href: service-connect-to-microsoft-dynamics-ax.md
+                - name: Microsoft Dynamics CRM
+                  href: service-connect-to-microsoft-dynamics-crm.md
+                - name: Microsoft Dynamics NAV
+                  href: service-connect-to-microsoft-dynamics-nav.md
+                - name: Office365Mon
+                  href: service-connect-to-office365mon.md
+                - name: Planview Enterprise
+                  href: service-connect-to-planview.md
+                - name: Prevedere
+                  href: service-connect-to-prevedere.md
+                - name: Project Online
+                  href: service-connect-to-project-online.md
+                - name: Projectplace
+                  href: service-connect-to-projectplace.md
+                - name: QuickBooks Online
+                  href: service-connect-to-quickbooks-online.md
+                - name: Salesforce
+                  href: service-connect-to-salesforce.md
+                - name: SendGrid
+                  href: service-connect-to-sendgrid.md
+                - name: "Инциденты\_ServiceNow"
+                  href: service-connect-to-servicenow.md
+                - name: Smartsheet
+                  href: service-connect-to-smartsheet.md
+                - name: SparkPost
+                  href: service-connect-to-sparkpost.md
+                - name: Аудит базы данных SQL
+                  href: service-connect-to-azure-sql-database-auditing.md
+                - name: SQL Sentry
+                  href: service-connect-to-sql-sentry.md
+                - name: Stripe
+                  href: service-connect-to-stripe.md
+                - name: SweetIQ
+                  href: service-connect-to-sweetiq.md
+                - name: Troux.
+                  href: service-connect-to-troux.md
+                - name: Twilio
+                  href: service-connect-to-twilio.md
+                - name: tyGraph
+                  href: service-connect-to-tygraph.md
+                - name: UserVoice
+                  href: service-connect-to-uservoice.md
+                - name: VMob
+                  href: service-connect-to-vmob.md
+                - name: Webtrends
+                  href: service-connect-to-webtrends.md
+                - name: Центр разработки для Windows
+                  href: service-connect-to-windows-dev-center.md
+                - name: Xero
+                  href: service-connect-to-xero.md
+                - name: Zendesk
+                  href: service-connect-to-zendesk.md
+                - name: Ziosk
+                  href: service-connect-to-ziosk.md
+                - name: Zuora
+                  href: service-connect-to-zuora.md
+            - name: Пакеты содержимого организации
+              items:
+                - name: Знакомство с пакетами содержимого организации
+                  href: service-organizational-content-pack-introduction.md
+                - name: Создание и публикация пакета содержимого
+                  href: service-organizational-content-pack-create-and-publish.md
+                - name: 'Пакеты содержимого: копирование, обновление и получение доступа'
+                  href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 'Пакеты содержимого: управление, обновление и удаление'
+                  href: service-organizational-content-pack-manage-update-delete.md
+                - name: Удаление подключения к пакету содержимого
+                  href: service-organizational-content-pack-disconnect.md
+    - name: Ресурсы
+      items:
+        - name: Видео
+          href: videos.md
+        - name: Вебинары
+          href: webinars.md
+        - name: "Поддерживаемые языки и страны\_(регионы)"
+          href: supported-languages-countries-regions.md
+        - name: Технические документы
+          items:
+            - name: Обзор технической документации
+              href: whitepapers.md
+            - name: Технический документ по обеспечению безопасности в Power BI
+              href: whitepaper-powerbi-security.md
+            - name: Развертывание Power BI Premium
+              href: whitepaper-powerbi-premium-deployment.md
+            - name: "Публикация Power\_BI для внешних пользователей с помощью Azure Active Directory\_B2B"
+              href: whitepaper-azure-b2b-power-bi.md
+- name: "Power\_BI Premium"
+  items:
+    - name: Обзор
+      items:
+        - name: Что такое Power BI Premium?
+          href: service-premium-what-is.md
+    - name: Основные понятия
+      items:
+        - name: Управление емкостями Premium
+          href: service-premium-capacity-manage.md
+        - name: Оптимизация емкостей Premium
+          href: service-premium-capacity-optimize.md
+        - name: Сценарии использования емкостей Premium
+          href: service-premium-capacity-scenarios.md
+        - name: Вопросы и ответы по Power BI Premium
+          href: service-premium-faq.md
+    - name: Практическое руководство
+      items:
+        - name: Приобретение Power BI Premium
+          href: service-admin-premium-purchase.md
+        - name: Настройка рабочих нагрузок
+          href: service-admin-premium-workloads.md
+        - name: Мониторинг емкостей в приложении
+          href: service-admin-premium-monitor-capacity.md
+        - name: Мониторинг емкостей на портале администрирования
+          href: service-admin-premium-monitor-portal.md
+        - name: Настройка добавочного обновления
+          href: service-premium-incremental-refresh.md
+        - name: Настройка поддержки нескольких регионов
+          href: service-admin-premium-multi-geo.md
+        - name: Перезагрузка емкости Premium
+          href: service-admin-premium-restart.md
+        - name: Подключение к наборам данных с помощью клиентских приложений и средств
+          href: service-premium-connect-tools.md
+- name: "Power\_BI для разработчиков"
+  items:
+    - name: Какие возможности Power BI предоставляет разработчикам
+      href: developer/what-can-you-do.md
+    - name: Встроенная аналитика
+      items:
+        - name: Обзор
+          items:
+            - name: "Что такое внедрение с Power\_BI"
+              href: developer/embedding.md
+            - name: "Что такое Power\_BI Embedded в\_Azure"
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
+        - name: Учебники
+          items:
+            - name: Встроенное содержимое для клиентов
+              href: developer/embed-sample-for-customers.md
+            - name: Внедренное содержимое для организации
+              href: developer/embed-sample-for-your-organization.md
+            - name: Встроенное содержимое для национальных облаков
+              href: developer/embed-sample-for-customers-national-clouds.md
+        - name: Основные понятия
+          items:
+            - name: Рекомендации по производительности
+              href: developer/embedded-performance-best-practices.md
+            - name: Субъект-служба
+              href: developer/embed-service-principal.md
+            - name: Защита на уровне строк
+              href: developer/embedded-row-level-security.md
+            - name: Управление несколькими арендаторами
+              href: developer/embed-multi-tenancy.md
+            - name: "Ведение журнала диагностики для Power\_BI Embedded в\_Azure"
+              href: developer/azure-pbie-diag-logs.md
+            - name: Вопросы и ответы о функции внедрения
+              href: developer/embedded-faq.md
+            - name: Разрешения Power BI
+              href: developer/power-bi-permissions.md
+        - name: Практическое руководство
+          items:
+            - name: Внедрение содержимого из приложения
+              href: developer/embed-from-apps.md
+            - name: Автоматическая установка приложений
+              href: developer/embed-auto-install-app.md
+            - name: Создание клиента Azure Active Directory
+              href: developer/create-an-azure-active-directory-tenant.md
+            - name: Регистрация приложения
+              href: developer/register-app.md
+            - name: Получение токена доступа Azure AD
+              href: developer/get-azuread-access-token.md
+            - name: Внедрение функции "Вопросы и ответы"
+              href: developer/qanda.md
+            - name: Устранение неполадок с внедренным приложением
+              href: developer/embedded-troubleshoot.md
+            - name: "Управление емкостями в\_Azure"
+              items:
+                - name: "Создание емкости в\_Azure"
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Создание емкости с использованием поддержки нескольких регионов в Azure
+                  href: developer/embedded-multi-geo.md
+                - name: "Масштабирование емкости в\_Azure"
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: "Приостановка и запуск емкости в\_Azure"
+                  href: developer/azure-pbie-pause-start.md
+            - name: Миграция из коллекций рабочих областей
+              items:
+                - name: "Миграция из коллекций рабочих областей Power\_BI"
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Средство миграции
+                  href: developer/migrate-tool.md
+                - name: Фрагменты кода миграции
+                  href: developer/migrate-code-snippets.md
+        - name: Справка
+          items:
+            - name: API-интерфейсы
+              items:
+                - name: "REST\_API для управления ресурсами\_Azure"
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: "REST\_API в Power\_BI"
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+                - name: Справочник по REST API Power BI
+                  href: developer/rest-api-reference.md
+            - name: Загрузка SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Внедрение пользовательских макетов в приложение
+              href: developer/embedded-custom-layout.md
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Средство настройки внедрения
+              href: 'https://aka.ms/embedsetup'
+            - name: Пример площадки JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: "Вики-сайт по JavaScript для Power\_BI"
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: Git-репозиторий JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Git-репозиторий Power BI C#'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Примеры
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Сообщество Power BI
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Пользовательские визуальные элементы
+      items:
+        - name: Обзор
+          items:
+            - name: Пользовательские визуальные элементы в Power BI
+              href: power-bi-custom-visuals.md
+        - name: Учебники
+          items:
+            - name: "Разработка пользовательского визуального элемента Power\_BI"
+              href: developer/custom-visual-develop-tutorial.md
+            - name: Добавление параметров форматирования
+              href: developer/custom-visual-develop-tutorial-format-options.md
+        - name: Основные понятия
+          items:
+            - name: Пользовательские визуальные элементы для организаций в Power BI
+              href: power-bi-custom-visuals-organization.md
+            - name: "Рекомендации по визуальным элементам Power\_BI"
+              href: developer/guidelines-powerbi-visuals.md
+            - name: Вопросы и ответы о настраиваемых визуальных элементах
+              href: power-bi-custom-visuals-faq.md
+            - name: Функциональные возможности
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
+            - name: Сопоставления представлений данных
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
+            - name: Объекты и свойства
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+            - name: Режим расширенного редактирования
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
+            - name: "Руководство по миграции на версионный\_API"
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+        - name: Практическое руководство
+          items:
+            - name: Сертификация пользовательской визуализации
+              href: power-bi-custom-visuals-certified.md
+            - name: Публикация настраиваемых визуальных элементов в AppSource
+              href: developer/office-store.md
+            - name: "Использование пользовательских визуализаций на основе R в Power\_BI"
+              href: desktop-r-powered-custom-visuals.md
+            - name: Устранение неполадок
+              items:
+                - name: Устранение неполадок с разработкой пользовательских визуальных элементов
+                  href: power-bi-custom-visuals-troubleshoot.md
+        - name: Справка
+          items:
+            - name: API-интерфейсы
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/developers/'
+            - name: Примеры
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Git-репозиторий пользовательских визуальных элементов
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: Автоматизация
+      items:
+        - name: Обзор
+          items:
+            - name: Что можно сделать с помощью API Power BI?
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: Учебники
+          items:
+            - name: Принудительная отправка данных в набор данных
+              href: developer/walkthrough-push-data.md
+            - name: Получение токена доступа для проверки подлинности
+              href: developer/walkthrough-push-data-get-token.md
+            - name: Создание набора данных
+              href: developer/walkthrough-push-data-create-dataset.md
+            - name: Получение набора данных для добавления строк
+              href: developer/walkthrough-push-data-get-datasets.md
+            - name: Добавление строк в таблицу
+              href: developer/walkthrough-push-data-add-rows.md
+        - name: Основные понятия
+          items:
+            - name: Политика автоматического хранения данных в режиме реального времени
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: Принудительная отправка данных
+              items:
+                - name: Ограничения REST API Power BI
+                  href: developer/api-rest-api-limitations.md
+                - name: Свойства набора данных
+                  href: developer/api-dataset-properties.md
+                - name: Управление версиями в модели данных
+                  href: developer/api-data-model-versioning.md
+        - name: Практическое руководство
+          items:
+            - name: Настройка учетных данных
+              href: developer/configure-credentials.md
+            - name: Шифрование учетных данных
+              href: developer/encrypt-credentials.md
+        - name: Справка
+          items:
+            - name: REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Справочник по REST API Power BI
+              href: developer/rest-api-reference.md
+            - name: Полный листинг кода
+              href: developer/walkthrough-push-data-complete-code.md
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Git-репозиторий Power BI C#'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Загрузка SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+- name: "сервере отчетов Power\_BI"
+  items:
+    - name: Обзор
+      items:
+        - name: Что такое Сервер отчетов Power BI?
+          href: report-server/get-started.md
+        - name: Сравнение службы и Сервера отчетов Power BI
+          href: report-server/compare-report-server-service.md
+    - name: Учебники
+      items:
+        - name: Изучение Сервера отчетов Power BI в виртуальной машине
+          href: report-server/tutorial-explore-report-server-web-portal.md
+    - name: Основные понятия
+      items:
+        - name: Что нового
+          href: report-server/whats-new.md
+        - name: Журнал изменений
+          href: report-server/changelog.md
+        - name: Сроки предоставления поддержки
+          href: report-server/support-timeline.md
+        - name: Требования к оборудованию и программному обеспечению
+          href: report-server/system-requirements.md
+        - name: Поддержка браузеров
+          href: report-server/browser-support.md
+        - name: Обзор функций администратора
+          href: report-server/admin-handbook-overview.md
+        - name: Основные сведения о сервере отчетов
+          items:
+            - name: Запланированное обновление отчета Power BI
+              href: report-server/scheduled-refresh.md
+            - name: Источники данных отчетов Power BI
+              href: report-server/data-sources.md
+            - name: Источники данных для отчетов с разбивкой на страницы
+              href: report-server/connect-data-sources.md
+            - name: Подписки
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: Использование мобильного приложения
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: Решение проблем запланированного обновления
+              href: report-server/scheduled-refresh-troubleshoot.md
+        - name: Сервер отчетов для разработчиков
+          items:
+            - name: Сервер отчетов для разработчиков
+              href: report-server/developer-handbook-overview.md
+            - name: Управление средством просмотра отчетов
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: Разработка расширений
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: Встроенные отчеты
+              href: report-server/quickstart-embed.md
+    - name: Практическое руководство
+      items:
+        - name: Установка Power BI Desktop
+          href: report-server/install-powerbi-desktop.md
+        - name: Основные сведения о сервере отчетов
+          items:
+            - name: Создание отчета Power BI для сервера отчетов
+              href: report-server/quickstart-create-powerbi-report.md
+            - name: Управление содержимым сервера отчетов
+              href: report-server/getting-around.md
+            - name: Безопасность на уровне строк на сервере отчетов
+              href: report-server/row-level-security-report-server.md
+            - name: Создание отчета с разбивкой на страницы для сервера отчетов
+              href: report-server/quickstart-create-paginated-report.md
+            - name: Ввод данных непосредственно в отчет с разбивкой на страницы
+              href: paginated-reports-enter-data.md
+            - name: Работа с КПЭ
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: Доступ к общим наборам данных как к каналам OData
+              href: report-server/access-dataset-odata.md
+            - name: Настройка запланированного обновления
+              href: report-server/configure-scheduled-refresh.md
+            - name: Добавление комментариев к отчету
+              href: report-server/add-comments.md
+        - name: Сервер отчетов для администраторов
+          items:
+            - name: Установка сервера отчетов
+              href: report-server/install-report-server.md
+            - name: Поиск ключа продукта
+              href: report-server/find-product-key.md
+            - name: Обновление сервера отчетов
+              href: report-server/upgrade.md
+            - name: Перенос сервера отчетов
+              href: report-server/migrate-report-server.md
+            - name: "Настройка Kerberos для использования отчетов Power\_BI"
+              href: report-server/configure-kerberos-powerbi-reports.md
+            - name: Удаленная настройка доступа для мобильного приложения
+              href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Размещение книг Excel
+              href: report-server/excel-oos.md
+    - name: Справка
+      items:
+        - name: API-интерфейсы REST
+          href: report-server/rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: API SOAP
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: Доступ к URL
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: Расширения
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: Ресурсы
+      items:
+        - name: Технический документ о планировании ресурсов
+          href: report-server/capacity-planning.md
 - name: Шлюзы
   items:
-  - name: Обзор
-    items:
-    - name: Что такое шлюзы Power BI?
-      href: service-gateway-getting-started.md
-  - name: Учебники
-    items:
-    - name: Подключение к данным SQL Server
-      href: service-gateway-sql-tutorial.md
-  - name: Основные понятия
-    items:
-    - name: Руководство по развертыванию шлюза данных
-      href: service-gateway-deployment-guidance.md
-    - name: Вопросы и ответы о локальном шлюзе данных
-      href: service-gateway-onprem-faq.md
-  - name: Практическое руководство
-    items:
-    - name: Установка шлюзов
-      href: service-gateway-install.md
-    - name: Управление шлюзами
-      href: service-gateway-manage.md
-    - name: Управление источником данных предприятия — службы Analysis Services
-      href: service-gateway-enterprise-manage-ssas.md
-    - name: Управление источником данных предприятия — SAP HANA
-      href: service-gateway-enterprise-manage-sap.md
-    - name: Управление источником данных предприятия — SQL
-      href: service-gateway-enterprise-manage-sql.md
-    - name: Управление своим источником данных — Oracle
-      href: service-gateway-onprem-manage-oracle.md
-    - name: Управление источником корпоративных данных — импорт или запланированное обновление
-      href: service-gateway-enterprise-manage-scheduled-refresh.md
-    - name: Объединение локальных и облачных источников данных
-      href: service-gateway-mashup-on-premises-cloud.md
-    - name: Включение единого входа (SSO)
+    - name: Обзор
       items:
-      - name: Единый вход (SSO) — обзор
-        href: service-gateway-sso-overview.md
-      - name: Единый вход (SSO) — Kerberos
-        href: service-gateway-sso-kerberos.md
-      - name: Единый вход (SSO) — Kerberos — на основе ресурсов
-        href: service-gateway-sso-kerberos-resource.md
-      - name: Единый вход (SSO) — SAML
-        href: service-gateway-sso-saml.md
-    - name: Настройка параметров прокси-сервера
-      href: service-gateway-proxy.md
-    - name: Кластеры с высоким уровнем доступности для локальных шлюзов данных
-      href: service-gateway-high-availability-clusters.md
-    - name: Локальный шлюз данных
-      href: service-gateway-onprem.md
-    - name: 'Локальный шлюз данных: подробный обзор'
-      href: service-gateway-onprem-indepth.md
-    - name: Локальный шлюз данных (персональный режим)
-      href: service-gateway-personal-mode.md
-    - name: Настраиваемые соединители
-      href: service-gateway-custom-connectors.md
-    - name: Устранение неполадок локального шлюза данных
-      href: service-gateway-onprem-tshoot.md
+        - name: Что такое шлюзы Power BI?
+          href: service-gateway-getting-started.md
+    - name: Учебники
+      items:
+        - name: Подключение к данным SQL Server
+          href: service-gateway-sql-tutorial.md
+    - name: Основные понятия
+      items:
+        - name: Руководство по развертыванию шлюза данных
+          href: service-gateway-deployment-guidance.md
+        - name: Вопросы и ответы о локальном шлюзе данных
+          href: service-gateway-onprem-faq.md
+    - name: Практическое руководство
+      items:
+        - name: Установка шлюзов
+          href: service-gateway-install.md
+        - name: Управление шлюзами
+          href: service-gateway-manage.md
+        - name: Мониторинг производительности шлюза
+          href: service-gateway-performance-monitoring.md
+        - name: "Управление источником данных предприятия\_— службы Analysis Services"
+          href: service-gateway-enterprise-manage-ssas.md
+        - name: "Управление источником данных предприятия\_— SAP HANA"
+          href: service-gateway-enterprise-manage-sap.md
+        - name: Управление источником данных предприятия — SQL
+          href: service-gateway-enterprise-manage-sql.md
+        - name: "Управление своим источником данных\_— Oracle"
+          href: service-gateway-onprem-manage-oracle.md
+        - name: Управление источником корпоративных данных — импорт или запланированное обновление
+          href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: Объединение локальных и облачных источников данных
+          href: service-gateway-mashup-on-premises-cloud.md
+        - name: Включение единого входа (SSO)
+          items:
+            - name: "Единый вход (SSO)\_— обзор"
+              href: service-gateway-sso-overview.md
+            - name: "Единый вход (SSO)\_— Kerberos"
+              href: service-gateway-sso-kerberos.md
+            - name: "Единый вход (SSO)\_— Kerberos\_— на основе ресурсов"
+              href: service-gateway-sso-kerberos-resource.md
+            - name: "Единый вход (SSO)\_— SAML"
+              href: service-gateway-sso-saml.md
+        - name: Настройка параметров прокси-сервера
+          href: service-gateway-proxy.md
+        - name: Кластеры с высоким уровнем доступности для локальных шлюзов данных
+          href: service-gateway-high-availability-clusters.md
+        - name: Локальный шлюз данных
+          href: service-gateway-onprem.md
+        - name: 'Локальный шлюз данных: подробный обзор'
+          href: service-gateway-onprem-indepth.md
+        - name: Локальный шлюз данных (персональный режим)
+          href: service-gateway-personal-mode.md
+        - name: Настраиваемые соединители
+          href: service-gateway-custom-connectors.md
+        - name: Устранение неполадок локального шлюза данных
+          href: service-gateway-onprem-tshoot.md
+    - name: Ресурсы
+      items:
+        - name: Ежемесячные обновления шлюза
+          href: service-gateway-monthly-updates.md
 - name: Администрирование
   items:
-  - name: Обзор
-    items:
-    - name: Что такое администрирование Power BI?
-      href: service-admin-administering-power-bi-in-your-organization.md
-  - name: Основные понятия
-    items:
-    - name: Power BI Premium
+    - name: Обзор
       items:
-      - name: Что такое Power BI Premium?
-        href: service-premium.md
-      - name: Оптимизация использования памяти емкости Premium
-        href: service-premium-understand-how-it-works.md
-      - name: Приобретение Power BI Premium
-        href: service-admin-premium-purchase.md
-      - name: Мониторинг емкостей в приложении
-        href: service-admin-premium-monitor-capacity.md
-      - name: Мониторинг емкостей на портале администрирования
-        href: service-admin-premium-monitor-portal.md
-      - name: Настройка рабочих нагрузок
-        href: service-admin-premium-workloads.md
-      - name: Перезагрузка емкости Premium
-        href: service-admin-premium-restart.md
-      - name: Поддержка больших наборов данных
-        href: service-premium-large-datasets.md
-      - name: Добавочное обновление
-        href: service-premium-incremental-refresh.md
-      - name: Поддержка нескольких регионов
-        href: service-admin-premium-multi-geo.md
-      - name: Подключение к наборам данных с помощью клиентских приложений и средств
-        href: service-premium-connect-tools.md
-      - name: Вопросы и ответы по Power BI Premium
-        href: service-premium-faq.md
-    - name: Роль администрирования в Office 365
-      href: service-admin-role.md
-    - name: Вопросы и ответы
-      href: service-admin-faq.md
-    - name: Часто задаваемые вопросы по высокой доступности и отработке отказа
-      href: service-admin-failover.md
-  - name: Практическое руководство
-    items:
-    - name: Лицензирования и регистрация
+        - name: Что такое администрирование Power BI?
+          href: service-admin-administering-power-bi-in-your-organization.md
+    - name: Основные понятия
       items:
-      - name: Лицензирование для вашей организации
-        href: service-admin-licensing-organization.md
-      - name: Купить Power BI Pro
-        href: service-admin-purchasing-power-bi-pro.md
-      - name: Регистрация для получения пробной версии Office 365
-        href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-      - name: Добавление Power BI с партнером по Office 365
-        href: service-admin-syndication-partner.md
-    - name: Использование портала администрирования
-      href: service-admin-portal.md
-    - name: Где располагается мой клиент?
-      href: service-admin-where-is-my-tenant-located.md
-    - name: Поиск пользователей, выполнивших вход
-      href: service-admin-access-usage.md
-    - name: Аудит Power BI
-      href: service-admin-auditing.md
-    - name: Отслеживание состояния службы
-      href: service-admin-health.md
-    - name: Закрытие учетной записи Power BI
-      href: service-admin-closing-your-account.md
-    - name: Power BI и ExpressRoute
-      href: service-admin-power-bi-expressroute.md
-    - name: Использование службы Azure AD B2B
-      href: service-admin-azure-ad-b2b.md
-    - name: Безопасность на уровне строк в Power BI
-      href: service-admin-rls.md
-    - name: Архивная рабочая область Power BI
-      href: service-admin-power-bi-archived-workspace.md
-    - name: Настройка мобильных приложений в Intune
-      href: service-admin-mobile-intune.md
-  - name: Справка
-    items:
-    - name: PowerShell, REST API и пакет SDK для .NET
-      href: service-admin-reference.md
-    - name: Командлеты Power BI для PowerShell
-      href: https://docs.microsoft.com/powershell/power-bi/
-      maintainContext: true
-    - name: Справочник по URL-адресу службы
-      href: power-bi-whitelist-urls.md
-  - name: Ресурсы
-    items:
-    - name: Подходы к развертыванию и управлению Power BI
-      href: service-admin-governance.md
-    - name: Безопасность Power BI
-      href: service-admin-power-bi-security.md
-ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
-ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59479295"
+        - name: Роль администрирования в Office 365
+          href: service-admin-role.md
+        - name: Вопросы и ответы
+          href: service-admin-faq.md
+        - name: Часто задаваемые вопросы по высокой доступности и отработке отказа
+          href: service-admin-failover.md
+    - name: Практическое руководство
+      items:
+        - name: Лицензирования и регистрация
+          items:
+            - name: Лицензирование для вашей организации
+              href: service-admin-licensing-organization.md
+            - name: Купить Power BI Pro
+              href: service-admin-purchasing-power-bi-pro.md
+            - name: "Регистрация для получения пробной версии Office\_365"
+              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+            - name: Добавление Power BI с партнером по Office 365
+              href: service-admin-syndication-partner.md
+        - name: Использование портала администрирования
+          href: service-admin-portal.md
+        - name: Где располагается мой клиент?
+          href: service-admin-where-is-my-tenant-located.md
+        - name: 'Поиск пользователей, выполнивших вход'
+          href: service-admin-access-usage.md
+        - name: Аудит Power BI
+          href: service-admin-auditing.md
+        - name: Отслеживание состояния службы
+          href: service-admin-health.md
+        - name: Закрытие учетной записи Power BI
+          href: service-admin-closing-your-account.md
+        - name: Power BI и ExpressRoute
+          href: service-admin-power-bi-expressroute.md
+        - name: Использование службы Azure AD B2B
+          href: service-admin-azure-ad-b2b.md
+        - name: Безопасность на уровне строк в Power BI
+          href: service-admin-rls.md
+        - name: Архивная рабочая область Power BI
+          href: service-admin-power-bi-archived-workspace.md
+        - name: Настройка мобильных приложений в Intune
+          href: service-admin-mobile-intune.md
+    - name: Справка
+      items:
+        - name: 'PowerShell, REST API и пакет SDK для .NET'
+          href: service-admin-reference.md
+        - name: Командлеты Power BI для PowerShell
+          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          maintainContext: true
+        - name: Справочник по URL-адресу службы
+          href: power-bi-whitelist-urls.md
+    - name: Ресурсы
+      items:
+        - name: Подходы к развертыванию и управлению Power BI
+          href: service-admin-governance.md
+        - name: Безопасность Power BI
+          href: service-admin-power-bi-security.md
