@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394543"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66840115"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Использование ленточных диаграмм в Power BI
 Диаграммы ленты позволяют визуализировать данные и быстро выявлять категории данных с наивысшим рангом (максимальным значением). Ленточные диаграммы лучше всего подходят для отображения изменений ранга. Наивысший ранг (значение) за каждый период времени всегда отображается в верхней части диаграммы. 
@@ -27,7 +27,7 @@ ms.locfileid: "61394543"
 
 1. Чтобы создать ленточную диаграмму, в области **Визуализации** нажмите кнопку **Диаграмма ленты**.
 
-    ![шаблоны визуализаций](media/desktop-ribbon-charts/ribbon-charts_02.png)
+    ![шаблоны визуализаций](media/desktop-ribbon-charts/power-bi-template.png)
 
     Диаграммы ленты позволяют соединить категории данных за отображаемый период времени с помощью лент и увидеть, как указанная категория ранжируется на отрезке оси X (как правило, это временная шкала).
 
