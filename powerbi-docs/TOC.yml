@@ -681,9 +681,9 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
               href: service-dataflows-add-cdm-folder.md
-            - name: "Интеграция машинного обучения с Power\_BI (предварительная версия)"
+            - name: "Интеграция машинного обучения с Power\_BI"
               href: service-machine-learning-integration.md
-            - name: "Использование Cognitive Services в Power\_BI (предварительная версия)"
+            - name: "Использование Cognitive Services в Power\_BI"
               href: service-cognitive-services.md
             - name: "Автоматизированное машинное обучение в Power\_BI (предварительная версия)"
               href: service-machine-learning-automated.md
@@ -745,8 +745,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: 'Устранение неполадок с источником данных, не поддерживающим обновление'
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: 'Устранение неполадок со вложенными значениями, возвращаемыми как текст'
-              href: service-troubleshooting-nested-values.md
             - name: Устранение неполадок с запланированным обновлением для баз данных SQL Azure
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Ошибка Не найдены данные в книге Excel
@@ -927,6 +925,8 @@
           href: service-premium-incremental-refresh.md
         - name: Настройка поддержки нескольких регионов
           href: service-admin-premium-multi-geo.md
+        - name: Использование собственных ключей шифрования
+          href: service-encryption-byok.md
         - name: Перезагрузка емкости Premium
           href: service-admin-premium-restart.md
         - name: Подключение к наборам данных с помощью клиентских приложений и средств
