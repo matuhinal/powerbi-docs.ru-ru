@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 05/31/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61305462"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809112"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Источники данных, поддерживаемые DirectQuery в Power BI
 
@@ -25,9 +25,10 @@ ms.locfileid: "61305462"
 
 * Amazon Redshift
 * AtScale (бета-версия)
+* Azure Data Explorer
 * Azure HDInsight Spark
-* База данных SQL Azure
-* Хранилище данных SQL Azure
+* [База данных SQL Azure](service-azure-sql-database-with-direct-connect.md)
+* [Хранилище данных SQL Azure](service-azure-sql-data-warehouse-with-direct-connect.md)
 * Google BigQuery
 * HDInsight Interactive Query
 * База данных IBM DB2
@@ -39,7 +40,7 @@ ms.locfileid: "61305462"
 * Сервер сообщений SAP Business Warehouse
 * SAP HANA
 * Снежинка
-* Spark (версии 0.9 и более поздних версий)
+* Spark (версии 0.9 и более поздней)
 * SQL Server
 * База данных Teradata
 * Vertica
@@ -57,22 +58,39 @@ ms.locfileid: "61305462"
 
 | Источник | Требуется шлюз? |
 | --- | --- |
-| SQL Server |Да |
-| База данных SQL Azure |Нет |
-| Хранилище данных SQL Azure |Нет |
-| SAP HANA |Да |
-| База данных Oracle |Да |
-| База данных Teradata |Да |
 | Amazon Redshift |Нет |
-| Impala (версии 2.x) |Да |
-| Снежинка |Да |
-| Spark (бета-версия) версии 0.9 и более поздней |Да |
 | Azure HDInsight Spark (бета-версия) |Нет |
+| База данных SQL Azure |Нет |
+| Хранилище данных SQL Azure |Нет |
+| Google BigQuery |Нет |
 | IBM Netezza |Да |
+| Impala (версии 2.x) |Да |
+| База данных Oracle |Да |
 | Сервер приложений SAP Business Warehouse |Да |
 | Сервер сообщений SAP Business Warehouse |Пока не поддерживается в **службе Power BI** |
-| Google BigQuery |Нет |
+| SAP HANA |Да |
+| Снежинка |Да |
+| Spark (бета-версия) версии 0.9 и более поздней |Да |
+| SQL Server |Да |
+| База данных Teradata |Да |
 
+## <a name="single-sign-on-sso-for-directquery-sources"></a>Единый вход для источников DirectQuery
+
+Если включен параметр единого входа и пользователям предоставлен доступ к отчетам на основе источника данных, Power BI отправляет их учетные данные для проверки подлинности Azure AD в запросах к базовому источнику данных. Это позволяет Power BI использовать параметры безопасности, настроенные на уровне источника данных.
+
+Параметр единого входа применяется ко всем наборам данных, в которых используется этот источник. Это не влияет на метод аутентификации, который применяется для сценариев импорта. Следующие источники данных поддерживают единый вход для подключений через DirectQuery.
+
+- База данных SQL Azure
+- Хранилище данных SQL Azure
+- Impala
+- SAP HANA
+- SAP BW
+- Spark
+- SQL Server
+- Teradata
+
+> [!Note]
+> Многофакторная идентификация Azure (MFA) не поддерживается. Чтобы пользователи могли применять единый вход с DirectQuery, исключите их из MFA.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о DirectQuery см. в следующих статьях:

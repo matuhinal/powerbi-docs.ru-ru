@@ -1,6 +1,6 @@
 ---
 title: Поиск пользователей Power BI, выполнивших вход
-description: Если вы являетесь администратором клиента и хотите просмотреть, кто выполнил вход в Power BI, можно использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить сведения.
+description: Если вы являетесь администратором клиента и хотите узнать, кто выполнил вход в Power BI, можете использовать отчеты о доступе и использовании Azure Active Directory, чтобы получить нужные сведения.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,27 +10,25 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e513607dd89aee15f10145cf62bd461621cc12c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7149d8601aa7a834f91a8d98f3a7a9deac7bf43b
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906754"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721334"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
 
-Если вы являетесь администратором клиента и хотите узнать, кто выполнил вход в Power BI, используйте [отчеты о доступе и использовании Azure Active Directory](/azure/active-directory/reports-monitoring/concept-sign-ins) для получения сведений.
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
+Если вы являетесь администратором клиента и хотите узнать, кто выполнил вход в Power BI, можете использовать [отчеты о доступе и использовании Azure Active Directory](/azure/active-directory/reports-monitoring/concept-sign-ins), чтобы получить нужные сведения.
 
 > [!NOTE]
-> **Входы в систему** отчет содержит полезную информацию, но его не определить тип каждого пользователя есть лицензия. Используйте Центр администрирования Microsoft 365 для просмотра лицензий.
+> Отчет **Входы** предоставляет полезную информацию, но не определяет тип лицензии каждого пользователя. Используйте Центр администрирования Microsoft 365 для просмотра лицензий.
 
 ## <a name="requirements"></a>Требования
 
 Любой пользователь (в том числе без прав администратора) может просмотреть отчет о своих событиях входа в систему, но для просмотра отчета для всех пользователей необходимо выполнить следующие требования.
 
-* Клиент должен иметь лицензию Azure Active Directory Premium, связанные с ней.
+* У клиента должна быть лицензия Azure Active Directory Premium.
 
 * У вас должна быть одна их следующих ролей: глобальный администратор, администратор системы безопасности или читатель сведений о безопасности.
 
@@ -42,29 +40,29 @@ ms.locfileid: "64906754"
 
 1. В разделе **Мониторинг** выберите **События входа**.
    
-    ![Снимок экрана пользовательского интерфейса Azure с выделенным параметрами Azure Active Directory и входы в систему.](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![Снимок экрана пользовательского интерфейса Azure с выделенными параметрами Azure Active Directory и "Входы".](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
 1. Отфильтруйте приложение по **Microsoft Power BI** или **Power BI Gateway** и выберите **Применить**.
 
-    **Microsoft Power BI** фильтры для входа в систему, связанных со службой, тогда как **Power BI Gateway** фильтры для входа в систему действий, характерных для локального шлюза данных.
+    Параметр **Microsoft Power BI** отфильтровывает события входа, связанные со службой, тогда как **Power BI Gateway** — конкретные события входа, связанные с локальным шлюзом данных.
    
-    ![Снимок экрана фильтра входы в систему с выделенным полем приложений.](media/service-admin-access-usage/sign-in-filter.png)
+    ![Снимок экрана фильтра "Входы" с выделенным полем "Приложения".](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>Экспорт данных
 
-Вы можете [загрузить отчет вход](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) в двух форматах: файл CSV или JSON-файл.
+Вы можете [скачать отчет о входах](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) в двух форматах: CSV или JSON.
 
-![Снимок экрана «загрузить».](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![Снимок экрана с кнопкой скачивания.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-В верхней части **входы в систему** отчета, выберите **загрузить** и затем выберите один из следующих вариантов:
+В верхней части отчета **Входы** выберите **Скачать** и один из следующих вариантов.
 
-* **CSV-ФАЙЛ** для загрузки CSV-файл для текущих отфильтрованных данных.
+* **CSV** для скачивания CSV-файла для текущих отфильтрованных данных.
 
-* **JSON** скачать JSON-файл для текущих отфильтрованных данных.
+* **JSON** для скачивания JSON-файла для текущих отфильтрованных данных.
 
 ## <a name="data-retention"></a>Хранение данных
 
-Данные о событиях входа доступны в течение 30 дней. Дополнительные сведения см. в разделе [политики хранения отчетов Azure Active Directory](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
+Данные о событиях входа доступны в течение 30 дней. Дополнительные сведения см. в статье [Политики хранения отчетов Azure Active Directory](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

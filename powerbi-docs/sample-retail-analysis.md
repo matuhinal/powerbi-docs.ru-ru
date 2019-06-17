@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 04676ee789b90eb09cbed3bafb623e8e9b89e4e4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61239630"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720875"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях
 
@@ -165,5 +165,5 @@ ms.locfileid: "61239630"
 * [Скачайте ZIP-файл и все примеры файлов](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Скачайте книгу Excel для этого примера Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Получение данных (для Power BI)](service-get-data.md)    
-* [Power BI — основные понятия](consumer/end-user-basic-concepts.md)    
+* [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)    
 * Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232505"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448334"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Интеграция Машинного обучения Azure в Power BI (предварительная версия)
 
@@ -68,7 +68,14 @@ ms.locfileid: "61232505"
 
 Для разработки и развертывания моделей машинного обучения для Службы машинного обучения специалисты по анализу и обработке данных в основном пользуются языком Python.  В отличие от Студии машинного обучения, которая помогает автоматизировать задачу создания файла схемы для модели, для Службы машинного обучения таким специалистам нужно явно создать файл схемы с помощью Python.
 
-Этот файл схемы необходимо включить в
+Этот файл схемы нужно включить в развернутую веб-службу для моделей Службы машинного обучения. Чтобы автоматически создать схему для веб-службы, нужно указать пример входных/выходных данных в сценарии ввода для развернутой модели. См. подраздел о (необязательном) автоматическом создании схемы Swagger в документации по развертыванию моделей с помощью Службы машинного обучения Azure. Эта ссылка включает пример сценария ввода с операторами для создания схемы. 
+
+В частности, функции *@input_schema* и *@output_schema* в сценарии ввода ссылаются на форматы примеров входных и выходных данных в переменных *input_sample* и *output_sample* и используют эти примеры для создания спецификации OpenAPI (Swagger) для веб-службы во время развертывания.
+
+Эти инструкции для создания схемы посредством обновления сценария ввода также необходимо применить к модели, созданной с помощью автоматических экспериментов машинного обучения с использованием пакета SDK Машинного обучения Azure.
+
+> [!NOTE]
+> Модели, созданные с помощью визуального интерфейса Службы машинного обучения Azure (предварительная версия), сейчас не поддерживают создание схемы, но такая возможность появится в последующих выпусках. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Вызов модели Azure ML в Power BI
 
@@ -106,9 +113,9 @@ ms.locfileid: "61232505"
 
 См. дополнительные сведения о потоках данных в следующих статьях:
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование вычисляемых сущностей в Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
+* [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
 
 

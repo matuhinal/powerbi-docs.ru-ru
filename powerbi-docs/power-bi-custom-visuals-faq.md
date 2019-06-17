@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977209"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497930"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Часто задаваемые вопросы о пользовательских визуальных элементах Power BI
 
@@ -84,7 +84,7 @@ ms.locfileid: "60977209"
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>Сколько времени занимает сертификация визуального элемента?
 
-Для обновленной версии этот процесс может занять до 2 недель. Для нового элемента (первая сертификация) — до 3 недель. 
+Для обновленной версии этот процесс может занять до 3 недель. Для нового элемента (первая сертификация) — до 4 недель. 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Гарантирует ли процесс сертификации отсутствие утечки данных?
 

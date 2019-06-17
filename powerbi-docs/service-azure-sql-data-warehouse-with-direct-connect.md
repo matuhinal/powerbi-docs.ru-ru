@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770250"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448433"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Хранилище данных SQL Azure с DirectQuery
 
@@ -40,7 +40,7 @@ ms.locfileid: "64770250"
 
 Самый простой способ перемещаться между хранилищем данных SQL и Power BI — с помощью кнопки **Открыть в Power BI** на портале Azure. Эта кнопка позволяет легко начать создание новых панелей мониторинга в Power BI.
 
-1. Чтобы приступить к работе, перейдите в экземпляр хранилища данных SQL на портале Azure. Обратите внимание, что сейчас Хранилище данных SQL присутствует только на портале предварительной версии Azure.
+1. Чтобы приступить к работе, перейдите в экземпляр хранилища данных SQL на портале Azure. Обратите внимание, что сейчас Хранилище данных SQL присутствует только на портале Azure.
 
 2. Нажмите кнопку **Открыть в Power BI** .
 
@@ -56,7 +56,7 @@ ms.locfileid: "64770250"
 
 1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.  
 
-    ![Получить кнопки "данные"](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![Кнопка "Получить данные"](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. В области **Базы данных**выберите **Получить**.
 
@@ -64,13 +64,13 @@ ms.locfileid: "64770250"
 
 3. Выберите **Хранилище данных SQL** \> **Подключить**.
 
-    ![Хранилище данных SQL Azure с direct connect](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Хранилище данных SQL Azure с прямым соединением](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
 4. Введите данные, необходимые для подключения. На рисунке ниже в разделе **Поиск параметров** показано расположение этих данных на портале Azure.
 
     ![Имя сервера](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
-    ![Имя расширенной сервера](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
+    ![Дополнительное имя сервера](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
     ![Имя пользователя](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
@@ -83,16 +83,18 @@ ms.locfileid: "64770250"
 
 6. Вы можете просматривать все таблицы и столбцы. При выборе столбца источнику отправляется запрос, при этом динамически создается визуальный элемент. Фильтры также будут переводиться в запросы к хранилищу данных. Эти визуальные элементы можно сохранить в новом отчете и закрепить на панели мониторинга.
 
-    ![Изучите 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![Обзор 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>Поиск значений параметров
 
-Полное имя сервера и имя базы данных можно найти на портале Azure. Обратите внимание, что сейчас Хранилище данных SQL присутствует только на портале предварительной версии Azure.
+Полное имя сервера и имя базы данных можно найти на портале Azure. Обратите внимание, что сейчас Хранилище данных SQL присутствует только на портале Azure.
 
 ![Портал Azure](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Если клиент Power BI находится в том же регионе, что и хранилище данных SQL Azure, то плата за исходящий трафик взиматься не будет. Определить расположение клиента Power BI можно с помощью [этой инструкции](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

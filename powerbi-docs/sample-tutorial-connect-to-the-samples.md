@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dfa8ff694a1f4a4ba4e5078fe93300e4bf26cc73
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65625083"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721387"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Подключение к образцам в службе Power BI
 
@@ -130,7 +130,7 @@ ms.locfileid: "65625083"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Power BI — основные понятия](consumer/end-user-basic-concepts.md)
+- [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 - [Примеры для службы Power BI](sample-datasets.md)
 - [Источники данных для Power BI](service-get-data.md)
 

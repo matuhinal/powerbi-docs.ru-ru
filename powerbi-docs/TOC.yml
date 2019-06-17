@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: Добавление настраиваемого столбца
               href: desktop-add-custom-column.md
-            - name: Создание адаптивных визуальных элементов в Power BI
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Использование встроенных меток иерархии в Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
             - name: Использование среза числового диапазона
@@ -529,7 +527,7 @@
               href: refresh-csv-file-onedrive.md
             - name: "Кэширование запросов в Power\_BI Premium"
               href: power-bi-query-caching.md
-            - name: Устранение неполадок в сценариях обновления
+            - name: 'Устранение неполадок в сценариях обновления '
               href: refresh-troubleshooting-refresh-scenarios.md
         - name: Панели мониторинга
           items:
@@ -689,24 +687,6 @@
               href: service-machine-learning-automated.md
         - name: Отчеты с разбивкой на страницы в Power BI
           items:
-            - name: Что такое отчеты с разбивкой на страницы? (предварительная версия)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: Вопросы и ответы по отчетам с разбивкой на страницы (предварительная версия)
-              href: paginated-reports-faq.md
-            - name: Создание и отправка отчета с разбивкой на страницы (предварительная версия)
-              href: paginated-reports-quickstart-aw.md
-            - name: Работа в представлении конструктора отчетов (предварительная версия)
-              href: paginated-reports-report-design-view.md
-            - name: Прямой ввод данных в отчет с разбивкой на страницы (предварительная версия)
-              href: paginated-reports-enter-data.md
-            - name: Создание внедренного источника данных (предварительная версия)
-              href: paginated-reports-embedded-data-source.md
-            - name: Создание внедренного набора данных (предварительная версия)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: Создание параметров (предварительная версия)
-              href: paginated-reports-parameters.md
-            - name: Публикация отчета с разбивкой на страницы (предварительная версия)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: Просмотр отчета с разбивкой на страницы (предварительная версия)
               href: paginated-reports-view-power-bi-service.md
             - name: Взаимодействие с параметрами (предварительная версия)
@@ -931,6 +911,52 @@
           href: service-admin-premium-restart.md
         - name: Подключение к наборам данных с помощью клиентских приложений и средств
           href: service-premium-connect-tools.md
+- name: Построитель отчетов с разбиением на страницы Power BI
+  items:
+    - name: Обзор
+      items:
+        - name: Что такое отчеты с разбивкой на страницы?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Построитель отчетов в Power BI
+          href: report-builder-power-bi.md
+    - name: Учебники
+      items:
+        - name: Создание отчета с разбиением на страницы и отправка взаимодействия
+          href: paginated-reports-quickstart-aw.md
+    - name: Основные понятия
+      items:
+        - name: Работа в представлении конструктора отчетов
+          href: paginated-reports-report-design-view.md
+        - name: Планирование отчета
+          href: report-builder-planning-report.md
+        - name: Данные построителя отчетов
+          href: report-builder-data.md
+        - name: Советы по проектированию
+          href: report-builder-design-tips.md
+        - name: 'Таблицы, матрицы, списки'
+          href: report-builder-tables-matrices-lists.md
+        - name: Параметры
+          href: report-builder-parameters.md
+        - name: Выражения
+          href: report-builder-expressions.md
+        - name: Примеры выражений
+          href: report-builder-expression-examples.md
+        - name: Предварительный просмотр отчетов
+          href: report-builder-previewing-reports.md
+        - name: Вопросы и ответы по отчетам с разбивкой на страницы
+          href: paginated-reports-faq.md
+    - name: Практическое руководство
+      items:
+        - name: Ввод данных непосредственно в отчет с разбивкой на страницы
+          href: paginated-reports-enter-data.md
+        - name: Создание внедренного источника данных
+          href: paginated-reports-embedded-data-source.md
+        - name: Создание внедренного набора данных
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Создание параметров
+          href: paginated-reports-parameters.md
+        - name: Публикация отчета с разбивкой на страницы
+          href: paginated-reports-save-to-power-bi-service.md
 - name: "Power\_BI для разработчиков"
   items:
     - name: Какие возможности Power BI предоставляет разработчикам

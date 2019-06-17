@@ -1,6 +1,6 @@
 ---
 title: Добавление гиперссылок в таблицу
-description: Создайте гиперссылки с помощью Power BI Desktop. Затем используйте Power BI Desktop или службе Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы.
+description: Создайте гиперссылки с помощью Power BI Desktop. Затем используйте Power BI Desktop или службу Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421682"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721385"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Добавление гиперссылок в таблицу
 В этой статье объясняется, как использовать Power BI Desktop для создания гиперссылок. Затем используйте Power BI Desktop или службу Power BI, чтобы добавить созданные гиперссылки в таблицы отчета и матрицы. 
@@ -24,11 +24,11 @@ ms.locfileid: "61421682"
 ![Таблицы с гиперссылками](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Можно создать гиперссылки в [плитки на панелях мониторинга](service-dashboard-edit-tile.md) и [текстовые поля на панелях мониторинга](service-dashboard-add-widget.md) в режиме реального времени с помощью службы Power BI. Можно создать гиперссылки в [текстовые поля в отчетах](service-add-hyperlink-to-text-box.md) в режиме реального времени с помощью службы Power BI и Power BI Desktop.
+> Вы можете оперативно создать гиперссылки на [плитках](service-dashboard-edit-tile.md) и в [текстовых полях панелей мониторинга](service-dashboard-add-widget.md) с помощью службы Power BI. Вы можете оперативно создать гиперссылки в [текстовых полях в отчетах](service-add-hyperlink-to-text-box.md) с помощью службы Power BI и Power BI Desktop.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Создание гиперссылки в таблице или матрице с использованием Power BI Desktop
-Можно создать гиперссылки в таблицах и матрицах в Power BI Desktop, но не в службе Power BI. Кроме того, можно создавать гиперссылки в Excel Power Pivot перед импортом книги в Power BI. Оба способа описаны ниже.
+Вы можете создать гиперссылки в таблицах и матрицах, используя Power BI Desktop, но не службу Power BI. Кроме того, можно создавать гиперссылки в Excel Power Pivot перед импортом книги в Power BI. Оба способа описаны ниже.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Создание гиперссылки в таблице или матрице в Power BI Desktop
 Процедура добавления гиперссылки зависит от того, были ли данные импортированы или подключены с помощью DirectQuery. Оба сценария описаны ниже.
@@ -55,7 +55,7 @@ ms.locfileid: "61421682"
 
     Разверните узел **Значения**, найдите **значок URL-адреса** и установите для него значение **Вкл.**
 
-    ![Включить значок URL-адреса](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
+    ![Включение значка URL-адреса](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
 1. (Необязательно.) [Опубликуйте отчет с Power BI Desktop в службе Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) и откройте его в этой службе. Гиперссылки там также будут работать.
 
@@ -99,7 +99,7 @@ ms.locfileid: "61421682"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Визуализации в отчетах Power BI](visuals/power-bi-report-visualizations.md)
 
-[Power BI — основные понятия](consumer/end-user-basic-concepts.md)
+[Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375114"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720336"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Использование субъекта-службы с Power BI (предварительная версия)
 
@@ -120,7 +120,7 @@ ms.locfileid: "66375114"
 
 5. Добавьте субъект-службу в качестве **администратора** в созданную рабочую область. Эту задачу можно выполнить с помощью [интерфейсов API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) или службы Power BI.
 
-    ![Добавить субъект-службу в качестве администратора в рабочую область](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Добавление субъекта-службы в качестве администратора в рабочую область](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Теперь вы можете внедрить содержимое в пример приложения или в собственное приложение.
 
@@ -168,17 +168,17 @@ ms.locfileid: "66375114"
 
 * Субъекты-службы работают только с [новыми рабочими областями приложений](../service-create-the-new-workspaces.md).
 * **Моя рабочая область** не поддерживается при использовании субъекта-службы.
-* Для миграции в рабочую среду требуется выделенная емкость Premium.
+* Для миграции в рабочую среду требуется выделенная емкость.
 * С помощью субъекта-службы нельзя входить на портал Power BI.
 * Для включения субъекта-службы в параметрах разработчика на портале администрирования Power BI требуются права администратора Power BI.
 * С помощью субъекта-службы нельзя установить локальный шлюз данных и управлять им.
 * [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
 * Управление [потоками данных](../service-dataflows-overview.md) не поддерживается.
-* Субъект-служба в настоящее время не поддерживает все администраторы API-интерфейсы.
+* Сейчас субъект-служба не поддерживает никакие API администратора.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Регистрация приложения](register-app.md)
 * [Power BI Embedded для клиентов](embed-sample-for-customers.md)
 * [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Безопасность на уровне строк, с помощью локального шлюза данных с помощью субъекта-службы (Предварительная версия)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой (предварительная версия)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
