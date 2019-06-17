@@ -527,7 +527,7 @@
               href: refresh-csv-file-onedrive.md
             - name: "Кэширование запросов в Power\_BI Premium"
               href: power-bi-query-caching.md
-            - name: 'Устранение неполадок в сценариях обновления '
+            - name: Устранение неполадок в сценариях обновления
               href: refresh-troubleshooting-refresh-scenarios.md
         - name: Панели мониторинга
           items:
@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: Установка и распространение приложений-шаблонов
               href: service-template-apps-install-distribute.md
+            - name: 'Обновление, удаление и извлечение приложения-шаблона Power BI'
+              href: service-template-update-delete-extract.md
         - name: Устранение неполадок
           items:
             - name: Забыли пароль для Power BI?
