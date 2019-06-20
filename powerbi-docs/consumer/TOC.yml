@@ -106,6 +106,8 @@
       items:
         - name: Глоссарий и терминология
           href: end-user-glossary.md
+        - name: Часто задаваемые вопросы
+          href: end-user-faq.md
         - name: Поддерживаемые браузеры
           href: end-user-browsers.md
         - name: 'Типы быстрого анализа данных, поддерживаемые Power BI'
