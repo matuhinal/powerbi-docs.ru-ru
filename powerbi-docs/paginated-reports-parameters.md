@@ -1,5 +1,5 @@
 ---
-title: Создание параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
+title: Создание параметров для отчетов с разбивкой на страницы в службе Power BI
 description: Из этой статьи вы узнаете, как в службе Power BI создать параметры для отчетов с разбивкой на страницы.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987707"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838990"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI
 
 Из этой статьи вы узнаете, как в службе Power BI создать параметры для отчетов с разбивкой на страницы.  Параметр отчета позволяет выбрать данные для отчета и изменить его внешний вид. Вы можете указать для параметра значение по умолчанию и список доступных значений, а читатели отчета смогут изменять этот выбор.  
 
-Ниже показано представление конструктора в построителе отчетов Power BI для отчета с параметрами @BuyingGroup, @Customer, @FromDate, и @ToDate. 
+Ниже вы видите представление конструирования в построителе отчетов Power BI для отчета с параметрами @BuyingGroup, @Customer, @FromDate и @ToDate. 
   
 ![Параметры в построителе отчетов](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ ms.locfileid: "60987707"
   
 ## <a name="create-or-edit-a-report-parameter"></a>Создание или изменение параметра отчета  
   
-1.  Откройте отчет с разбивкой на страницы в построителе отчетов Power BI.
+1.  Откройте отчет с разбивкой на страницы в построителе отчетов Power BI.
 
 1. На панели **Данные отчета** щелкните правой кнопкой мыши узел **Параметры** и выберите **Добавить параметр**. Откроется диалоговое окно **Свойства параметра отчета**.  
   
@@ -67,4 +67,4 @@ ms.locfileid: "60987707"
 
 В статье [View parameters for paginated reports in the Power BI service](paginated-reports-view-parameters.md) (Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI) объясняется, как отображаются параметры в службе Power BI.
 
-Дополнительные сведения о параметрах в отчетах с разбивкой на страницы см. в статье [Параметры отчета (Построитель отчетов и Конструктор отчетов)](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer) из документации по SQL Server Reporting Services.  
+Дополнительные сведения о параметрах в отчетах с разбивкой на страницы см. в статье [Параметры отчетов в построителе отчетов Power BI](report-builder-parameters.md).

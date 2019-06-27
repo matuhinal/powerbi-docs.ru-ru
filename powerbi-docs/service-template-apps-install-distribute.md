@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578567"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751236"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Установка и распространение приложений-шаблонов в вашей организации — Power BI (предварительная версия)
 
-Вы аналитик Power BI? Если таким образом, в этой статье объясняется, как установить *шаблона приложения* для подключения к многие службы, используемая для запуска вашей организации, таким как Salesforce, Microsoft Dynamics и Google Analytics. Можно изменить панель мониторинга и отчеты в соответствии с потребностями вашей организации, а затем распространите их своим коллегам, как *приложения*. 
+Являетесь ли вы аналитиком Power BI? Если это так, в этой статье вы узнаете, как установить *приложения-шаблоны* для подключения к различным службам, используемым для обеспечения работы вашей организации, таким как Salesforce, Microsoft Dynamics и Google Analytics. Вы можете изменить панель мониторинга и отчеты под потребности своей организации, а затем распространить их в виде обычного *приложения* среди коллег. 
 
 ![Установленные приложения Power BI](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Если вас интересует создание приложений-шаблонов для самостоятельного распространения, см. статью [Создание приложения-шаблона в Power BI](service-template-apps-create.md). Партнеров Power BI можно создавать приложения Power BI с незначительными изменениями или без написания кода и развернуть их для пользователей Power BI. 
+Если вас интересует создание приложений-шаблонов для самостоятельного распространения, см. статью [Создание приложения-шаблона в Power BI](service-template-apps-create.md). Партнеры Power BI могут создавать приложения Power BI с минимальным количеством кода или вообще без него и развертывать их для клиентов Power BI. 
 
 ## <a name="prerequisites"></a>Предварительные требования  
 

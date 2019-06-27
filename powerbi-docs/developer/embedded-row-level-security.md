@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354144"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823404"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -191,7 +191,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![Создание базы данных Azure Analysis Services](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
-    ![Базы данных служб Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
+    ![База данных служб Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
 
 2. Создайте роль на сервере Analysis Services.
 
@@ -215,7 +215,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 7. С помощью программных интерфейсов Power BI используйте функцию CustomData в приложении.  При создании токена с помощью функции Customdata необходимо ввести имя пользователя. Имя пользователя должно быть таким же, как и имя главного участника-пользователя. Главный пользователь должен быть членом созданной роли. Если роли не указаны, то все роли, членом которых является главный пользователь, используются для вычисления RLS.
 
-    При работе с [субъекта-службы](embed-service-principal.md), необходимо также выполните описанные выше действия, вместо использования основной учетной записи. При создании токена внедрения, используйте [идентификатор объекта-участника службы](embed-service-principal.md#how-to-get-the-service-principal-object-id) как имя пользователя.
+    При работе с [субъектом-службой](embed-service-principal.md) вам также нужно выполнить описанные выше действия вместо использования основной учетной записи. При создании маркера внедрения используйте [идентификатор объекта субъекта-службы](embed-service-principal.md#how-to-get-the-service-principal-object-id) как имя пользователя.
 
     > [!Note]
     > Когда вы будете готовы развернуть приложение в рабочей среде, необходимо, чтобы параметр или поле учетной записи главного пользователя были скрыты для конечного пользователя.
@@ -310,7 +310,7 @@ public IdentityBlob(string value);
 
    ![Регистрация приложений](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Локальный шлюз данных с субъектом-службой (предварительная версия)
+## <a name="on-premises-data-gateway-with-service-principal"></a>Локальный шлюз данных с субъектом-службой
 
 Клиенты, настроившие безопасность на уровне строк (RLS), используя в качестве источника данных активное подключение к локальным службам SQL Server Analysis Services (SSAS), получают возможность применять [субъект-службу](embed-service-principal.md) для управления пользователями и их доступом к данным в службах SSAS при интеграции с **Power BI Embedded**.
 

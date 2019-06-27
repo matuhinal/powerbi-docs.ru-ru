@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578509"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751107"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>Что такое приложения-шаблоны Power BI? (предварительная версия)
 
@@ -24,10 +24,10 @@ ms.locfileid: "64578509"
 
 Они разрабатывают приложения-шаблоны, позволяющие клиентам подключаться и создавать экземпляры с использованием собственных учетных записей. Являясь специалистами в предметной области, клиенты могут представлять данные в виде, наиболее удобном для пользователей их организации.  
 
-Вы отправить шаблон приложения, чтобы на портале Cloud Partner. Затем приложения становятся общедоступными в коллекции приложений Power BI (app.powerbi.com/getdata/services) и в Microsoft AppSource (appsource.microsoft.com). Ниже приведен подробный обзор процесс создания приложения открытый шаблон.  
+Ваши приложения-шаблоны отправляются на Портал Cloud Partner. Затем приложения становятся общедоступными в коллекции приложений Power BI (app.powerbi.com/getdata/services) и в Microsoft AppSource (appsource.microsoft.com). Ниже приведен общий обзор процедуры создания общедоступного приложения-шаблона.  
 
 ## <a name="process"></a>Процесс
-Общий процесс разработки и отправки шаблон приложения включает в себя несколько этапов. Некоторые этапы могут включать более одного действия в то же время.
+Общий процесс разработки и отправки приложения-шаблона включает несколько стадий. Некоторые стадии могут включать сразу несколько действий.
 
 
 | Этап | Power BI Desktop |  |службе Power BI  |  |Портал Cloud Partner  |

@@ -8,27 +8,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/04/2019
+ms.openlocfilehash: f0e8a9931248860e11f783d04fead6172559afc1
+ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710325"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814266"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Получение маркера доступа Azure AD для приложения Power BI
 
-Узнайте, как выполнять проверку подлинности пользователей в приложении Power BI и получить маркер доступа для использования с REST API.
+Эта статья описывает, как проверить подлинность пользователей в приложении Power BI и получить маркер доступа для использования с [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
 
-Перед вызовом REST API Power BI нужно получить **маркер доступа для проверки подлинности** (маркер доступа) Azure Active Directory (Azure AD). **Маркер доступа** позволяет вашему приложению обращаться к панелям мониторинга, плиткам и отчетам **Power BI**. Дополнительные сведения об использовании **токена доступа** Azure Active Directory см. в статье [Поток предоставления кода авторизации Azure AD](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
+Прежде чем приложение вызовет REST API, нужно получить **маркер доступа для проверки подлинности** Azure Active Directory (Azure AD). Ваше приложение использует этот маркер, чтобы обращаться к панелям мониторинга, плиткам и отчетам Power BI. Дополнительные сведения см. в разделе [Авторизация доступа к веб-приложениям Azure Active Directory с помощью потока предоставления кода OAuth 2.0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
 
-Способ получения маркера доступа зависит от того, каким образом внедряется содержимое. В этой статье используются два разных подхода.
+Способ получения маркера доступа зависит от того, каким образом внедряется содержимое. Эта статья описывает два разных подхода.
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>Маркер доступа для пользователей Power BI (данные принадлежат пользователю)
 
-В этом примере пользователи входят в Azure AD вручную, используя имя для входа, предоставленное организацией. Этот вариант используется при внедрении для пользователей Power BI, работающих с содержимым, доступ к которому предоставлен в службе Power BI.
+В этом примере пользователи входят в Azure AD вручную, используя имя для входа, предоставленное организацией. Этот вариант используется при внедрении содержимого для пользователей, имеющих доступ к Power BI.
 
-### <a name="get-an-authorization-code-from-azure-ad"></a>Получение кода авторизации из Azure AD
+### <a name="get-an-azure-ad-authorization-code"></a>Получение кода авторизации Azure AD
 
 Первый шаг при получении **токена доступа** заключается в получении кода авторизации из **Azure AD**. Создайте строку запроса с указанными ниже свойствами и выполните перенаправление в **Azure AD**.
 
@@ -54,7 +54,7 @@ var @params = new NameValueCollection
 };
 ```
 
-После создания строки запроса выполните перенаправление в **Azure AD** для получения **кода авторизации**.  Ниже приведен полный метод C# для создания строки запроса **кода авторизации** и перенаправления в **Azure AD**. С помощью полученного **кода авторизации** вы получаете **маркер доступа**.
+После создания строки запроса выполните перенаправление в **Azure AD** для получения **кода авторизации**.  Ниже приведен полный метод C# для создания строки запроса **кода авторизации** и перенаправления в **Azure AD**. После этого воспользуйтесь **кодом авторизации** для получения **маркера доступа**.
 
 В redirect.aspx.cs выполняется вызов [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) для создания маркера.
 
@@ -98,9 +98,9 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Получение маркера доступа из кода авторизации
 
-Теперь у вас должен быть код авторизации из Azure AD. Когда **Azure AD** выполняет перенаправление обратно в веб-приложение с использованием **кода авторизации**, можно воспользоваться **кодом авторизации** для получения токена доступа. Ниже приведен пример C#, который вы можете использовать на странице перенаправления и в событии Page_Load для страницы default.aspx.
+Когда **Azure AD** выполняет перенаправление обратно в веб-приложение с помощью **кода авторизации**, можно воспользоваться им для получения маркера доступа. Ниже приведен пример C#, который вы можете использовать на странице перенаправления и в событии `Page_Load` для default.aspx.
 
-Пространство имен **Microsoft.IdentityModel.Clients.ActiveDirectory** можно извлечь из пакета NuGet [библиотеки аутентификации Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
+Вы можете извлечь пространство имен **Microsoft.IdentityModel.Clients.ActiveDirectory** из пакета NuGet [Библиотеки проверки подлинности Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -165,11 +165,11 @@ protected void Page_Load(object sender, EventArgs e)
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>Маркер доступа для пользователей, не работающих с Power BI (данные принадлежат приложению)
 
-Этот подход обычно используется для приложений независимых поставщиков, когда права на доступ к данным принадлежат такому приложению. Пользователи могут быть не зарегистрированы в Power BI, поэтому приложение управляет проверкой подлинности и доступом для конечных пользователей.
+Этот подход обычно используется для приложений независимых поставщиков программного обеспечения, когда права на доступ к данным принадлежат такому приложению. Пользователи могут быть не зарегистрированы в Power BI, поэтому приложение управляет проверкой подлинности и доступом для пользователей.
 
 ### <a name="access-token-with-a-master-account"></a>Маркер доступа с главной учетной записью
 
-Для этого подхода используется одна *главная* учетная запись пользователя Power BI Pro. Учетные данные для этой учетной записи сохраняются приложением. Приложение выполняет проверку подлинности в Azure AD с помощью этих сохраненных учетных данных. Следующий образец кода взят из [примера с данными, принадлежащими приложению](https://github.com/guyinacube/PowerBI-Developer-Samples)
+Для этого подхода используется одна *главная* учетная запись пользователя Power BI Pro. Учетные данные для этой учетной записи сохраняются в приложении. Приложение выполняет проверку подлинности в Azure AD с помощью этих сохраненных учетных данных. Следующий образец кода взят из [примера с данными, принадлежащими приложению](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>Маркер доступа с субъектом-службой
 
@@ -199,10 +199,12 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="troubleshoot"></a>Устранение неполадок
 
-* Скачайте [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) при возникновении ««AuthenticationContext» содержит определение для «AcquireToken» и не доступен «AcquireToken» принимающий первый аргумент типа " AuthenticationContext "найден (возможно, отсутствует using директива или ссылка на сборку?)» ошибка.
+Сообщение об ошибке: "AuthenticationContext" не содержит определения для "AcquireToken", и не удалось найти доступный метод расширения "AcquireToken", принимающий тип "AuthenticationContext" в качестве первого аргумента (возможно, пропущена директива using или ссылка на сборку).
+
+   При возникновении этой ошибки попробуйте скачать [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Теперь, когда у вас есть маркер доступа, можно вызвать REST API Power BI, чтобы внедрить содержимое. Сведения о внедрении содержимого см. в разделе [Внедрение содержимого в приложении](embed-sample-for-customers.md#embed-content-within-your-application).
+Теперь, когда у вас есть маркер доступа, можно вызвать REST API Power BI, чтобы внедрить содержимое. Дополнительные сведения см. в разделе [Внедрение содержимого Power BI](embed-sample-for-customers.md#embed-content-within-your-application).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

@@ -1,21 +1,21 @@
 ---
 title: Добавочное обновление в Power BI Premium
 description: Узнайте, как работать с очень большими наборами данных в службе Power BI Premium.
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536144"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408588"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Добавочное обновление в Power BI Premium
 
@@ -41,7 +41,7 @@ ms.locfileid: "65536144"
 
 #### <a name="rangestart-and-rangeend-parameters"></a>Параметры RangeStart и RangeEnd
 
-При использовании добавочного обновления наборы данных фильтруются с помощью параметров даты и времени Power Query с зарезервированными именами **RangeStart** и **RangeEnd**, в которых учитывается регистр. Эти параметры используются для фильтрации данных, импортируемых в Power BI Desktop, а также для динамического секционирования данных на диапазоны после публикации в службе Power BI. Значения параметров подставляются службой для фильтрации для каждой секции. После публикации значения параметров переопределяются автоматически службой Power BI. Задавать их в параметрах набора данных службы не нужно. После публикации значения параметров переопределяются автоматически службой Power BI. 
+При использовании добавочного обновления наборы данных фильтруются с помощью параметров даты и времени Power Query с зарезервированными именами **RangeStart** и **RangeEnd**, в которых учитывается регистр. Эти параметры используются для фильтрации данных, импортируемых в Power BI Desktop, а также для динамического секционирования данных на диапазоны после публикации в службе Power BI. Значения параметров подставляются службой для фильтрации для каждой секции. Задавать их в параметрах набора данных службы не нужно. После публикации значения параметров переопределяются автоматически службой Power BI.
 
 Чтобы задать для параметров значения по умолчанию, в редакторе Power Query нажмите кнопку **Управление параметрами**.
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>Ограничения
 
-В настоящее время для [составной модели](desktop-composite-models.md), добавочное обновление поддерживается для SQL, Oracle, и только источники данных Teradata.
+Сейчас для [составных моделей](desktop-composite-models.md) добавочное обновление поддерживается только для источников данных SQL, Oracle и Teradata.

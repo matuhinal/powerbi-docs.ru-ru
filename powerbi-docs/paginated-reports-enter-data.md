@@ -1,5 +1,5 @@
 ---
-title: Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов (предварительная версия)
+title: Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов
 description: В этой статье описывается ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424551"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839092"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов в Power BI (предварительная версия)
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов — Power BI
 
 В этой статье вы узнаете о функции новой версии построителя отчетов SQL Server 2016, которая позволяет вводить данные непосредственно в отчет RDL как внедренный набор данных.  Аналогичная функция реализована в Power BI Desktop. Можно ввести значение непосредственно в набор данных в отчете или вставить его из другой программы, например из Microsoft Excel. После создания набора данных путем ввода данных его можно использовать так же, как и любой другой созданный вами внедренный набор данных. Кроме того, вы можете добавить несколько таблиц и использовать одну таблицу в качестве фильтра для других. Эта функция особенно удобна для небольших и статичных наборов данных, которые может потребоваться использовать в отчете, таких как параметры отчета.
  
@@ -76,7 +76,7 @@ ms.locfileid: "61424551"
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Отправка отчета с разбивкой на страницы в службу Power BI
 
-Теперь, когда в службе Power BI отчеты с разбивкой на страницы поддерживаются в режиме предварительной версии, можно отправить отчет с разбивкой на страницы в емкость Premium. Подробные сведения см. в разделе [Отправка отчета с разбивкой на страницы](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report).
+Теперь, когда в службе Power BI поддерживаются отчеты с разбивкой на страницы, вы можете отправить отчет с разбивкой на страницы в емкость Premium. Подробные сведения см. в разделе [Отправка отчета с разбивкой на страницы](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report).
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>Отправка отчета с разбивкой на страницы на сервер отчетов
 
@@ -98,5 +98,5 @@ ms.locfileid: "61424551"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Сведения об отчетах с разбивкой на страницы в Power BI Premium (предварительная версия)](paginated-reports-report-builder-power-bi.md)
+- [Сведения об отчетах с разбивкой на страницы в Power BI Premium](paginated-reports-report-builder-power-bi.md)
 - [Что такое Сервер отчетов Power BI?](report-server/get-started.md)

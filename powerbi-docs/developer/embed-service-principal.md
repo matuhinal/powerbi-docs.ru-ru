@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720336"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823299"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Использование субъекта-службы с Power BI (предварительная версия)
+# <a name="service-principal-with-power-bi"></a>Использование субъекта-службы с Power BI
 
 **Субъект-служба** позволяет внедрять содержимое Power BI в приложение и использовать средства автоматизации в Power BI с помощью токена **только для приложения**. Субъект-службу целесообразно использовать при работе с **Power BI Embedded** или **автоматизации задач и процессов Power BI**.
 
@@ -94,7 +94,7 @@ ms.locfileid: "66720336"
    > [!Important]
    > После активации субъекта-службы для использования с Power BI разрешения приложения в Active Directory перестают действовать. В дальнейшем управление разрешениями приложения осуществляется на портале администрирования Power BI.
 
-2. Создайте [группу безопасности в Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) и добавьте в нее созданное приложение. Создать группу безопасности AAD можно с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+2.  **Рекомендуется**: создайте [группу безопасности в Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) и добавьте в нее созданное приложение. Создать группу безопасности AAD можно с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
     Ниже представлен пример скрипта для создания группы безопасности и добавления приложения в нее.
 
@@ -109,7 +109,7 @@ ms.locfileid: "66720336"
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Администратору Power BI необходимо включить субъект-службу в **параметрах разработчика** на портале администрирования Power BI. Добавьте группу безопасности, созданную в Azure AD, в поле **Определенные группы безопасности** на странице **Параметры разработчика**.
+3. Администратору Power BI необходимо включить субъект-службу в **параметрах разработчика** на портале администрирования Power BI. Добавьте группу безопасности, созданную в Azure AD, в раздел отдельных групп безопасности на странице **Параметры разработчика**. Вы также можете включить доступ к субъекту-службе для всей организации. В этом случае шаг 2 не требуется.
 
    > [!Important]
    > Субъекты-службы имеют доступ к любым параметрам клиента, включенным для всей организации или для групп безопасности, в состав которых входят эти субъекты. Чтобы ограничить доступ субъекта-службы к конкретным параметрам клиентов, предоставьте ему доступ только к определенным группам безопасности либо создайте выделенную группу безопасности для субъектов-служб, а затем исключите ее.
@@ -181,4 +181,4 @@ ms.locfileid: "66720336"
 * [Регистрация приложения](register-app.md)
 * [Power BI Embedded для клиентов](embed-sample-for-customers.md)
 * [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой (предварительная версия)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853459"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823554"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 Power BI Desktop позволяет подключаться к данным из многих разных источников. Полный список доступных источников данных представлен в нижней части этой страницы.
@@ -114,11 +114,11 @@ Power BI Desktop позволяет подключаться к данным и�
 * Хранилище BLOB-объектов Azure
 * Хранилище таблиц Azure
 * Azure Cosmos DB (бета-версия)
-* Поколение 1 хранилища Озера данных Azure
+* Azure Data Lake Storage 1-го поколения
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Обозреватель данных Azure (Kusto)
+* Azure Data Explorer (Kusto)
 * Управление затратами Azure (бета-версия)
 
 На следующем рисунке показано окно **Получить данные** для категории **Azure**.
@@ -133,7 +133,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (локальный)
-* Common Data Service для приложений (бета-версия)
+* Common Data Service
 * Microsoft Azure Consumption Insights (бета-версия)
 * Azure DevOps (бета-версия)
 * Azure DevOps Server (бета-версия)
@@ -161,8 +161,11 @@ Power BI Desktop позволяет подключаться к данным и�
 * Webtrends (бета-версия)
 * ZenDesk (бета-версия)
 * Источник данных Emigo (бета-версия)
-* IndustrialAppStore (бета-версия)
+* Entersoft Business Suite (бета-версия)
+* Industrial App Store
+* Хранилище данных Intune (бета-версия)
 * Microsoft Graph Security (бета-версия)
+* Quick Base
 * TeamDesk (бета-версия)
 
 На следующем рисунке показано окно **Получение данных** для категории **Интернет-службы**.
@@ -182,15 +185,14 @@ Power BI Desktop позволяет подключаться к данным и�
 * Скрипт Python
 * ODBC
 * OLE DB
-* BI360 - бюджетирования & финансовой отчетности (бета-версия)
+* BI360 — отчеты по бюджетам и финансам (бета-версия)
 * Denado
-* Сведения о сетке (бета-версия)
+* Information Grid (бета-версия)
 * Paxata 
 * QubolePresto (бета-версия)
-* Quick Base (бета-версия)
 * Roamler (бета-версия)
 * SurveyMonkey (бета-версия)
-* Tenforce (бета-версия)
+* Tenforce (Smart)List (бета-версия)
 * Workforce Dimensions (бета-версия)
 * Пустой запрос
 

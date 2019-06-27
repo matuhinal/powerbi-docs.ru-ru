@@ -1,20 +1,20 @@
 ---
 title: Вебинары о Power BI
 description: Вебинары о Power BI
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453780"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750992"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,7 +22,15 @@ ms.locfileid: "66453780"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
+Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
+
+**Использование Power BI в Майкрософт: актуальность применения Power BI в группе Treasury**
+<br>Авторы: Панкай Гудимелла (Pankaj Gudimella) и Гуру Кирсигавасан (Guru Kirthigavasan)
+<br>[Зарегистрироваться для просмотра 25 июня с 10:00 до 11:00 (тихоокеанское время)](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: Извлечение ценных сведений из повседневных данных в отделе кадров**
+<br>Авторы: Иман Эфтекхари (Iman Eftekhari), Юлия Патон (Julia Paton) из Agile Analytics и Шахрам Карими (Shahram Karimi) из QBE Insurance
+<br>[Зарегистрироваться для просмотра 27 июня с 13:30 до 14:30 (тихоокеанское время)](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

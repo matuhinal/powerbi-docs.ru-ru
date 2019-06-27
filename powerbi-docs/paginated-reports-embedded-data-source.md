@@ -1,5 +1,5 @@
 ---
-title: Внедренные источники данных для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
+title: Внедренные источники данных для отчетов с разбивкой на страницы в службе Power BI
 description: Из этой статьи вы узнаете, как создать и изменить внедренный источник данных в отчете с разбивкой на страницы в службе Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/16/2019
-ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853378"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838933"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Создание внедренного источника данных для отчетов с разбивкой на страницы в службе Power BI (предварительная версия)
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Создание внедренного источника данных для отчетов с разбивкой на страницы в службе Power BI
 
 Из этой статьи вы узнаете, как создать и изменить внедренный источник данных для отчета с разбивкой на страницы в службе Power BI. Внедренный источник данных можно определить только в одном отчете и использовать его только в этом отчете. Сейчас отчеты с разбивкой на страницы, опубликованные в службе Power BI, могут использовать только внедренные наборы данных и внедренные источники данных. Поддерживаются следующие источники данных:
 
@@ -26,16 +26,18 @@ ms.locfileid: "65853378"
 - Oracle 
 - Teradata 
 
-Для этих источников данных, используйте [подключения SQL Server Analysis Services](service-premium-connect-tools.md) параметр:
+Для следующих источников данных используйте параметр [Подключение к службам SQL Server Analysis Services](service-premium-connect-tools.md):
 
 - Azure Analysis Services
 - Наборы данных Power BI Premium
 
-Отчеты с разбивкой на страницы подключаются к локальным источникам данных через шлюз. Шлюз настраивается после публикации отчета в службе Power BI. Дополнительные сведения о [шлюзах Power BI](service-gateway-getting-started.md). 
+Отчеты с разбивкой на страницы подключаются к локальным источникам данных через [шлюз Power BI](service-gateway-getting-started.md). Шлюз настраивается после публикации отчета в службе Power BI.
+
+Дополнительные сведения см. в статье [Данные отчетов в построителе отчетов Power BI](report-builder-data.md).
 
 ## <a name="create-an-embedded-data-source"></a>Создание внедренного источника данных
   
-1. Открытие построителя отчетов BI Power.
+1. Откройте построитель отчетов Power BI.
 
 1. На панели инструментов в области данных отчета выберите **Новый** > **Источник данных**. Откроется диалоговое окно **Свойства источника данных**.
 
@@ -68,4 +70,4 @@ ms.locfileid: "65853378"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Создание внедренного набора данных для отчета с разбивкой на страницы в службе Power BI](paginated-reports-create-embedded-dataset.md)
-- [Сведения об отчетах с разбивкой на страницы в Power BI Premium (предварительная версия)](paginated-reports-report-builder-power-bi.md)
+- [Сведения об отчетах с разбивкой на страницы в Power BI Premium](paginated-reports-report-builder-power-bi.md)

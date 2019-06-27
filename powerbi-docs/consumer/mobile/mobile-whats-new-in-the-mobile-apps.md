@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991037"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038913"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -23,16 +23,45 @@ ms.locfileid: "65991037"
 * [Новые возможности Power BI Desktop](../../desktop-latest-update.md)  
 * [Новые возможности службы Power BI](../../service-whats-new.md)  
 
-## <a name="april-2019"></a>Апреля 2019 г.
+## <a name="may-2019"></a>Май 2019 г.
 
-### <a name="key-influencers-visual"></a>Visual ключевых факторов влияния 
-Ключевых факторов влияния visual теперь доступна в мобильном приложении. Этот визуальный элемент позволяет выполнять анализ основные факторы, влияющие к данным с помощью нескольких касания.
+### <a name="siri-shortcuts-support-ios"></a>Поддержка ярлыков Siri (iOS)
+Пользователи могут создавать ярлыки Siri для своих панелей мониторинга и отчетов Power BI и затем открывать их непосредственно из голосового интерфейса Siri. [Ознакомьтесь с использованием ярлыков Siri в приложении Power BI для iOS](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
 
-### <a name="add-comments-to-report-content-android-and-ios"></a>Добавление комментариев к содержимому отчетов (Android и iOS)
-Теперь можно использовать комментарии для совместной работы и поделитесь своим мнением на страницах отчета и визуальные элементы. Дополнительные сведения о комментирование в службе Power BI и мобильных отчетов [в записи блога](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+### <a name="device-search-ios"></a>Поиск устройств (iOS)
+Интеграция Power BI со службой поиска устройств iOS (Spotlight). Поиск содержимого на iPhone или iPad теперь будет включать и элементы Power BI. Когда пользователи используют собственную службу поиска устройств, отчеты Power BI, панели мониторинга, приложения, рабочие области и люди, удовлетворяющие условиям поиска, также будут указаны в результатах. [Дополнительные сведения см. в этой публикации блога](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Развернуть в полноэкранном режиме (iOS и Android)
-Мы добавили новую кнопку, позволяют пользователю контролировать, когда следует сосредоточиться на данных, удаление и нижних колонтитулах отчетов и предоставляя максимально доступного свободного пространства для просмотра отчетов.
+
+### <a name="single-tap-report-interaction---ga"></a>Взаимодействие в отчете одиночным касанием — общедоступная версия
+
+Функция одиночного касания теперь стала общедоступной и станет способом сенсорного взаимодействия по умолчанию для новых пользователей. Пользователи по-прежнему смогут отключить эту функцию и использовать двойное касание в параметрах приложения.
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>Улучшенная защита условного доступа (iOS, Android)
+
+Мы интегрировали с AAD [новую возможность условного доступа на основе защиты приложения](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) для повышения безопасности путем ограничения доступа к Power BI перед применением политики приложения.
+
+### <a name="device-protection-ios"></a>Защита устройств (iOS)
+
+Пользователи могут использовать встроенную защиту устройств для защиты Power BI, запрашивая Face ID, Touch ID или секретный код для доступа к Power BI. Этой функцией может управлять пользователь с помощью параметров приложения, а также администратор с помощью Intune или другого средства MDM. [Дополнительные сведения](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+
+### <a name="one-page-report-slideshow-windows"></a>Слайд-шоу из одностраничных отчетов (Windows)
+
+Автоматическое обновление также поддерживается для одностраничных отчетов в слайд-шоу. Таким образом, при обновлении базового источника данных отчета мы выберем его и обновим данные на странице.
+
+
+## <a name="april-2019"></a>Апрель 2019 г.
+
+### <a name="key-influencers-visual"></a>Визуальный элемент "Ключевые факторы влияния" 
+
+Визуальный элемент "Ключевые факторы влияния" теперь доступен в мобильном приложении. Этот визуальный элемент позволяет лишь несколькими касаниями выполнять анализ основных факторов, влияющих на данные.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>Добавление комментариев в содержимое отчетов (Android и iOS)
+
+Теперь вы можете использовать комментарии для совместной работы и обмена мнениями на страницах отчета и в визуальных элементах. Дополнительные сведения о комментировании отчетов в службе Power BI и Power BI Mobile см. [в этой записи блога](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Развертывание представления в полноэкранном режиме (iOS и Android)
+
+Мы добавили кнопку, позволяющую вам при необходимости сосредоточиться на данных, убрав нижние и верхние колонтитулы отчета и освободив максимально доступное пространство для просмотра отчетов.
 
 ## <a name="march-2019"></a>Март 2019 г.
 
@@ -42,20 +71,20 @@ ms.locfileid: "65991037"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Новая возможность слайд-шоу для режима презентации (Windows)
 
-С помощью [слайд-шоу](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) открытый отображает, находится в вашем офисе можно использовать для выполнения отчетов Power BI в полноэкранном режиме, будет автоматически поворот между страницами отчета.  
+[Слайд-шоу](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) позволяет демонстрировать отчеты Power BI в полноэкранном режиме с автоматической сменой страниц на общих дисплеях у вас в офисе.  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Дополнительных отчетов RS элемента невыполненной работы над конфигурацией ADFS и WAP (только iOS)
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Поддержка отчетов PBI-RS с конфигурацией ADFS и WAP (только iOS)
 
-Отчетов Power BI (PBIX) размещенных в RS элемента невыполненной работы над конфигурацией служб федерации Active Directory теперь может осуществляться из приложения Power BI для iOS.
+К отчетам Power BI (PBIX), размещенным в PBI-RS с конфигурацией ADFS, теперь можно обратиться из приложения Power BI для iOS.
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Включение одним касанием взаимодействие с визуальными элементами отчета
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Включение взаимодействия одиночным касанием для визуальных элементов отчета
 
-Мы изменили взаимодействие с отчетом, поэтому потребуется только один tap визуальный элемент, кнопку или срез, чтобы взаимодействовать с данными прямо сейчас. Пользователи больше не должны будут коснуться визуальный элемент для выбора его и снова коснитесь для взаимодействия с ним, одним касанием сделает их обоих.
+Мы изменили взаимодействие в отчете, чтобы было достаточно всего один раз коснуться визуального элемента, кнопки или среза для взаимодействия с их данными. Пользователям больше не требуется касаться визуального элемента для выбора его и затем повторять касание для взаимодействия, теперь за обе эти операции отвечает одиночное касание.
 
-![Взаимодействие с одним касанием](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+![Взаимодействие одиночным касанием](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Существующие пользователи должны включить это поведение в параметре приложения. Дополнительные сведения см. в разделе [как настроить взаимодействие с отчетом одним касанием](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) статьи.
+> Существующим пользователям потребуется включить эту функцию в параметрах приложения. Дополнительные сведения см. в статье [Настройка взаимодействия в отчете одиночным касанием](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap).
 
 ## <a name="january---february-2019"></a>Январь–февраль 2019 г.
  

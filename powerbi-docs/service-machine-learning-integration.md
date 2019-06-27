@@ -1,5 +1,5 @@
 ---
-title: Интеграция Машинного обучения Azure в Power BI (предварительная версия)
+title: Интеграция Машинного обучения Azure в Power BI
 description: Использование Машинного обучения в Power BI
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448334"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823484"
 ---
-# <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Интеграция Машинного обучения Azure в Power BI (предварительная версия)
+# <a name="azure-machine-learning-integration-in-power-bi"></a>Интеграция Машинного обучения Azure в Power BI
 
 Модели **машинного обучения** используются множеством организаций для получения аналитики и создания прогнозов, связанных с развитием бизнеса. Возможность визуализировать и использовать данные, полученные из этих моделей, в своих отчетах, на панелях мониторинга и в других средствах аналитики позволяет распространять эти сведения среди бизнес-пользователей, которые больше в них всего нуждаются.  Power BI теперь позволяет легко внедрять аналитические сведения, полученные из размещенных в Службе машинного обучения Azure моделей, с помощью простых интерактивных жестов.
 
@@ -75,7 +75,7 @@ ms.locfileid: "66448334"
 Эти инструкции для создания схемы посредством обновления сценария ввода также необходимо применить к модели, созданной с помощью автоматических экспериментов машинного обучения с использованием пакета SDK Машинного обучения Azure.
 
 > [!NOTE]
-> Модели, созданные с помощью визуального интерфейса Службы машинного обучения Azure (предварительная версия), сейчас не поддерживают создание схемы, но такая возможность появится в последующих выпусках. 
+> Модели, созданные с помощью визуального интерфейса Службы машинного обучения Azure, сейчас не поддерживают создание схемы, но такая возможность появится в последующих выпусках. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Вызов модели Azure ML в Power BI
 
@@ -107,9 +107,9 @@ ms.locfileid: "66448334"
 
 В этой статье кратко описывается интеграция Машинного обучения в службу Power BI. Следующие статьи могут оказаться не менее интересными и полезными. 
 
-* [Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)](service-tutorial-invoke-machine-learning-model.md)
+* [Руководство. Вызов модели Студии машинного обучения в Power BI](service-tutorial-invoke-machine-learning-model.md)
 * [Руководство. Использование служб Cognitive Services в Power BI](service-tutorial-use-cognitive-services.md)
-* [Использование Cognitive Services в Power BI (предварительная версия)](service-cognitive-services.md)
+* [Использование Cognitive Services в Power BI](service-cognitive-services.md)
 
 См. дополнительные сведения о потоках данных в следующих статьях:
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))

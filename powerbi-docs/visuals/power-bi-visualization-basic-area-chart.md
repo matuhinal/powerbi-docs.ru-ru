@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393279"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839861"
 ---
 # <a name="basic-area-chart"></a>Простые диаграммы с областями
 Простая диаграмма с областями (или многоуровневая диаграмма с областями) основана на графике. Область между осью и линией заполняется цветами, чтобы указать объем. 
@@ -40,7 +40,7 @@ ms.locfileid: "61393279"
  
 
 1. На панели мониторинга "Анализ розничной торговли — пример" выберите **Total Stores** (Всего магазинов), чтобы открыть отчет "Анализ розничной торговли — пример".
-2. Выберите пункт **Изменить отчет** , чтобы открыть отчет в режиме редактирования.
+2. Выберите **Изменить**, чтобы открыть отчет в режиме редактирования.
 3. Добавьте новую страницу отчета, выбрав желтый значок "плюс" (+) в нижней части отчета.
 4. Создайте диаграмму с областями, отображающую продажи за этот год и продажи за прошлый год по месяцам.
    

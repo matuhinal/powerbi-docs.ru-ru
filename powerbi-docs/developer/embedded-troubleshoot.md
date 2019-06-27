@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770477"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823315"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -80,6 +80,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 * Истек срок действия токена аутентификации Azure AD.
 * Пользователь, прошедший проверку подлинности, не входит в группу (рабочую область приложения).
 * Пользователь, прошедший проверку подлинности, не является администратором группы (рабочей области приложения).
+* У прошедшего проверку подлинности пользователя нет разрешений. Разрешения можно обновить с помощью [API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
 * Заголовок авторизации может быть указан неправильно. Убедитесь, что он не содержит опечаток.
 
 Возможно, понадобится обновить токен аутентификации в серверной части приложения, прежде чем вызывать GenerateToken.
@@ -187,7 +188,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="cs1061-error"></a>Ошибка CS1061
 
-Скачайте [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) при возникновении ««AuthenticationContext» содержит определение для «AcquireToken» и не доступен «AcquireToken» принимающий первый аргумент типа " AuthenticationContext "найден (возможно, отсутствует using директива или ссылка на сборку?)» ошибка.
+Скачайте [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727), если возникает следующая ошибка: ""AuthenticationContext" не содержит определения для "AcquireToken", и не удалось найти доступный метод расширения "AcquireToken", принимающий тип "AuthenticationContext" в качестве первого аргумента (возможно, пропущена директива using или ссылка на сборку)".
 
 ## <a name="data-sources"></a>Источники данных
 

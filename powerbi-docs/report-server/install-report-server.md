@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187725"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839434"
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -22,11 +22,11 @@ ms.locfileid: "66187725"
 
 ## <a name="download-power-bi-report-server"></a>Скачивание сервера отчетов Power BI
 
-[Скачать сервер отчетов Power BI](https://www.microsoft.com/download/details.aspx?id=56722) из центра загрузки Майкрософт.
+[Скачайте Сервер отчетов Power BI](https://www.microsoft.com/download/details.aspx?id=56722) в Центре загрузки Майкрософт.
 
-Имеется также бесплатной пробной версии. На [локальные отчеты с сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) выберите **скачайте бесплатную пробную версию**.
+Также доступна и бесплатная пробная версия. На странице [Локальная работа с отчетами с использованием Сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) выберите **Download free trial** (Скачать бесплатную пробную версию).
 
-## <a name="before-you-install"></a>Перед началом установки
+## <a name="before-you-install"></a>Подготовка к установке
 
 Прежде чем устанавливать Сервер отчетов Power BI, рекомендуем ознакомиться с [требованиями к оборудованию и программному обеспечению для установки Сервера отчетов Power BI](system-requirements.md).
 
@@ -35,12 +35,12 @@ ms.locfileid: "66187725"
 
 ### <a name="power-bi-report-server-product-key"></a>Ключ продукта сервера отчетов Power BI
 
-Ключ продукта для сервера отчетов Power BI можно получить из двух различных источников:
+Ключ продукта для Сервера отчетов Power BI можно получить из двух различных источников:
 
 - Power BI Premium
 - SQL Server Enterprise Software Assurance (SA)
 
-Дополнительные сведения, читайте дальше.
+Чтобы получить дополнительные сведения, продолжите чтение.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -75,8 +75,8 @@ ms.locfileid: "66187725"
 
     ![Выпуск 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    В противном случае введите ключ продукта, полученный из службы Power BI или центра поддержки корпоративных лицензий. Дополнительные сведения о том, как получить ключ продукта, см. в разделе [перед установкой](#before-you-install) предыдущем разделе.
-4. Чтение и соглашаетесь с условиями лицензионного соглашения, а затем выберите **Далее**.
+    В противном случае введите ключ продукта для сервера, полученный из службы Power BI или на сайте Volume License Service Center. Дополнительные сведения о получении ключа продукта см. в разделе [Подготовка к установке](#before-you-install) выше.
+4. Прочтите и примите условия лицензионного соглашения, а затем нажмите кнопку **Далее**.
 
     ![Условия лицензионного соглашения](media/install-report-server/pbireportserver-eula.png)
 5. Для хранения базы данных сервера отчетов требуется ядро СУБД. Нажмите кнопку **Далее**, чтобы установить только сервер отчетов.
@@ -92,7 +92,7 @@ ms.locfileid: "66187725"
 
     ![Настройка сервера отчетов](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configure-your-report-server"></a>Настроить сервер отчетов
+## <a name="configure-your-report-server"></a>Настройка сервера отчетов
 
 Если нажать кнопку **Настроить сервер отчетов** в программе установки, откроется диспетчер конфигурации служб Reporting Services. Дополнительные сведения см. в статье о [диспетчере конфигурации служб Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
@@ -153,7 +153,7 @@ ms.locfileid: "66187725"
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Как найти ключ продукта сервера отчетов](find-product-key.md)  
 [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  
-[Verify a Reporting Services Installation](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Проверка установки служб Reporting Services)  
+[Verify a Reporting Services installation](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Проверка установки служб Reporting Services)  
 [Configure the Report Server Service Account (SSRS Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Настройка учетной записи службы сервера отчетов (System Center Configuration Manager))  
 [Configure Report Server URLs (SSRS Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager) (Настройка URL-адресов сервера отчетов (System Center Configuration Manager))  
 [Configure a Report Server Database Connection (SSRS Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (Настройка подключения к базе данных сервера отчетов (System Center Configuration Manager))  

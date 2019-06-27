@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174989"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809285"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
@@ -146,7 +146,7 @@ ms.locfileid: "58174989"
 
     Щелкните правой кнопкой мыши и выберите **Свойства**. Проверьте список учетных записей. В нем должна быть указана учетная запись службы шлюза (**PBIEgwTest\GatewaySvc**).
 
-1. В списке политик в разделе **Назначение прав пользователя** выберите **Работа в режиме операционной системы (SeTcbPrivilege)**. Убедитесь, что учетная запись службы шлюза также входит в список учетных записей.
+1. В списке политик в разделе **Назначение прав пользователя** выберите **Работа в режиме операционной системы (SeTcbPrivilege)** . Убедитесь, что учетная запись службы шлюза также входит в список учетных записей.
 
 1. Перезапустите процесс службы **локального шлюза данных**.
 
@@ -195,9 +195,7 @@ ms.locfileid: "58174989"
 ### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>Настройка gsskrb5 на клиентских компьютерах и сервере SAP BW
 
 > [!NOTE]
-> `gsskrb5` больше не поддерживается в SAP. Для получения дополнительных сведений см. [Заметку SAP 352295](https://launchpad.support.sap.com/#/notes/352295). Также обратите внимание, что `gsskrb5` не позволяет осуществлять подключения с единым входом от шлюза данных к серверам сообщений SAP BW. Возможны только подключения к серверам приложений SAP BW.
-
-Чтобы выполнить подключение с единым входом через шлюз, на сервере и на клиенте должна быть установлена библиотека `gsskrb5`. Библиотека Common Crypto Library (sapcrypto) сейчас не поддерживается.
+> `gsskrb5` больше не поддерживается в SAP. Для получения дополнительных сведений см. [Заметку SAP 352295](https://launchpad.support.sap.com/#/notes/352295). Также обратите внимание, что `gsskrb5` не позволяет осуществлять подключения с единым входом от шлюза данных к серверам сообщений SAP BW. Возможны только подключения к серверам приложений SAP BW. Чтобы выполнить подключение с единым входом через шлюз, на сервере и на клиенте должна быть установлена библиотека `gsskrb5`. Теперь мы поддерживаем библиотеку Common Crypto Library (sapcrypto) для SAP BW.
 
 1. Скачайте `gsskrb5` - `gx64krb5` из [примечания SAP 2115486](https://launchpad.support.sap.com/) (требуется s-пользователь SAP). Убедитесь в наличии библиотек gsskrb5.dll и gx64krb5.dll версии не ниже 1.0.11.x.
 
@@ -398,7 +396,7 @@ ms.locfileid: "58174989"
 
 Дополнительные сведения о **локальном шлюзе данных** и **DirectQuery** см. в следующих ресурсах:
 
-* [Локальный шлюз данных](service-gateway-onprem.md)
+* [On-premises data gateway (Локальный шлюз данных)](service-gateway-onprem.md)
 * [Power BI и DirectQuery](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)
 * [Использование DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)

@@ -1,5 +1,5 @@
 ---
-title: Использование Cognitive Services в Power BI (предварительная версия)
+title: Использование Cognitive Services в Power BI
 description: Узнайте, как использовать Cognitive Services в Power BI
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61182073"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823497"
 ---
-# <a name="cognitive-services-in-power-bi-preview"></a>Использование Cognitive Services в Power BI (предварительная версия)
+# <a name="cognitive-services-in-power-bi"></a>Использование Cognitive Services в Power BI 
 
 С помощью Cognitive Services в Power BI можно применять различные алгоритмы из [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/), чтобы дополнить данные при самостоятельной подготовке данных для потоков данных.
 
@@ -25,7 +25,7 @@ ms.locfileid: "61182073"
 
 ## <a name="enabling-ai-features"></a>**Включение функций искусственного интеллекта**
 
-Поддержка Cognitive Services обеспечивается такими узлами емкости Premium, как EM2, A2 или P1 и более производительными. В емкости используется отдельная рабочая нагрузка искусственного интеллекта для запуска Cognitive Services. На этапе общедоступной предварительной версии эта рабочая нагрузка по умолчанию отключена. Прежде чем использовать Cognitive Services в Power BI, необходимо включить рабочую нагрузку искусственного интеллекта в настройках емкости на портале администрирования. Включить рабочую нагрузку искусственного интеллекта можно в разделе рабочих нагрузок. При этом необходимо задать максимальный объем памяти для нее. Рекомендуется выделять для нее не более 20 %. Превышение этого объема приведет к замедлению обработки запросов.
+Поддержка Cognitive Services обеспечивается такими узлами емкости Premium, как EM2, A2 или P1 и более производительными. В емкости используется отдельная рабочая нагрузка искусственного интеллекта для запуска Cognitive Services. На этапе общедоступной предварительной версии (до июня 2019 г.) эта рабочая нагрузка была по умолчанию отключена. Прежде чем использовать Cognitive Services в Power BI, необходимо включить рабочую нагрузку искусственного интеллекта в настройках емкости на портале администрирования. Включить рабочую нагрузку искусственного интеллекта можно в разделе рабочих нагрузок. При этом необходимо задать максимальный объем памяти для нее. Рекомендуется выделять для нее не более 20 %. Превышение этого объема приведет к замедлению обработки запросов.
 
 ![Использование Cognitive Services в Power BI](media/service-cognitive-services/cognitive-services_01.png)
 
@@ -95,14 +95,14 @@ API анализа тональности сейчас поддерживает 
 
 Это обзорная статья об использовании Cognitive Services со службой Power BI. Следующие статьи могут оказаться не менее интересными и полезными. 
 
-* [Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)](service-tutorial-invoke-machine-learning-model.md)
-* [Интеграция Машинного обучения Azure в Power BI (предварительная версия)](service-machine-learning-integration.md)
+* [Руководство. Вызов модели Студии машинного обучения в Power BI](service-tutorial-invoke-machine-learning-model.md)
+* [Интеграция Машинного обучения Azure в Power BI](service-machine-learning-integration.md)
 * [Руководство. Использование служб Cognitive Services в Power BI](service-tutorial-use-cognitive-services.md)
 
 
 См. дополнительные сведения о потоках данных в следующих статьях:
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование вычисляемых сущностей в Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
+* [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
