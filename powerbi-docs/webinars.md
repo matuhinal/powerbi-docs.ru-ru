@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750992"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389540"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -23,10 +23,6 @@ ms.locfileid: "66750992"
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
 Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
-
-**Использование Power BI в Майкрософт: актуальность применения Power BI в группе Treasury**
-<br>Авторы: Панкай Гудимелла (Pankaj Gudimella) и Гуру Кирсигавасан (Guru Kirthigavasan)
-<br>[Зарегистрироваться для просмотра 25 июня с 10:00 до 11:00 (тихоокеанское время)](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI: Извлечение ценных сведений из повседневных данных в отделе кадров**
 <br>Авторы: Иман Эфтекхари (Iman Eftekhari), Юлия Патон (Julia Paton) из Agile Analytics и Шахрам Карими (Shahram Karimi) из QBE Insurance
@@ -61,6 +57,10 @@ ms.locfileid: "66750992"
 **Power BI от Майкрософт — упрощение финансового планирования и анализа**
 <br>Авторы: Кори Хрнсирик (Cory Hrncirik) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Использование Power BI в Майкрософт: актуальность применения Power BI в группе Treasury**
+<br>Авторы: Панкай Гудимелла (Pankaj Gudimella) и Гуру Кирсигавасан (Guru Kirthigavasan)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Расширение возможностей приложений с помощью API JavaScript Power BI**
 <br>Автор: Нимрод Шалит (Nimrod Shalit)
@@ -141,17 +141,9 @@ ms.locfileid: "66750992"
 <br>Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**Повышение эффективности бизнес-аналитики с помощью аналитики расположений**
-<br>Scott Ball (Скотт Болл) и Enrique Plaza (Энрике Плаза), корпорация Майкрософт
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **Applied Intelligence for Sales & Services** (Применяемая аналитика в сфере продаж и обслуживания)
 <br>Автор: Эд Бобрин (Ed Bobrin) из Avanade
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**Пять привычек успешного куратора трендов**
-<br>Автор: Рохит Бхаргава (Rohit Bhargava) из Non-Obvious
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Производители: цифровое преобразование в вашей отрасли. Лидирующие позиции и повышение прибыли за счет аналитики**
 <br>Авторы: Джон Томпсон (Jon Thompson) из Blue Margin и Джим Пастор (Jim Pastor) из Elgin Fastener Group
@@ -160,6 +152,14 @@ ms.locfileid: "66750992"
 **Visualize public or private datasets with the new Power BI and data.world connector** (Визуализация общедоступных или частных наборов данных с помощью нового соединителя data.world для Power BI)
 <br>Авторы: Патрик МакГарри (Patrick McGarry) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**Повышение эффективности бизнес-аналитики с помощью аналитики расположений**
+<br>Scott Ball (Скотт Болл) и Enrique Plaza (Энрике Плаза), корпорация Майкрософт
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**Пять привычек успешного куратора трендов**
+<br>Автор: Рохит Бхаргава (Rohit Bhargava) из Non-Obvious
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>Сообщество ###
 
