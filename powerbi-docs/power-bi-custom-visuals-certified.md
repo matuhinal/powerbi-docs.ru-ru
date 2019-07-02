@@ -12,7 +12,7 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454558"
@@ -71,7 +71,7 @@ ms.locfileid: "65454558"
 
 * Если изменяются любые свойства в capabilities.json, убедитесь, что они не нарушают существующие пользовательские отчеты.
 
-* Убедитесь, что визуальный элемент соответствует [визуальных элементов Power BI, касающиеся](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Разрешены не водяные знаки**.
+* Убедитесь, что визуальный элемент соответствует [визуальных элементов Power BI, касающиеся](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Водяные знаки не разрешены**.
 
 * Используются только открытые, доступные для просмотра компоненты OSS (общедоступные библиотеки JS или TypeScript; исходный код доступен для просмотра и не содержит известных уязвимостей). Мы не можем проверить пользовательский визуальный элемент, использующий коммерческие компоненты.
 
