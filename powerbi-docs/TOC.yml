@@ -223,14 +223,16 @@
               href: desktop-qna-in-reports.md
             - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
               href: desktop-analytics-pane.md
-            - name: Объяснение отклонений при помощи аналитических данных
+            - name: Использование аналитических данных для объяснения отклонений
               href: desktop-insights.md
-            - name: Сравнение распределений при помощи аналитических данных
+            - name: Использование аналитических данных для сравнения распределений
               href: desktop-insights-find-where-different.md
             - name: Закладки в Power BI
               href: desktop-bookmarks.md
-            - name: Использование функции "Тема отчета"
+            - name: Использование тем отчета
               href: desktop-report-themes.md
+            - name: Типы фильтров
+              href: power-bi-report-filter-types.md
             - name: Опробуйте новые возможности фильтрации
               href: power-bi-report-filter-preview.md
             - name: Использование функции "Быстрая мера"
@@ -521,10 +523,8 @@
               href: refresh-excel-file-onedrive.md
             - name: Обновление набора данных из CSV-файла в OneDrive
               href: refresh-csv-file-onedrive.md
-            - name: "Кэширование запросов в Power\_BI Premium"
+            - name: "Кэширование запросов в Power\_BI\_Premium"
               href: power-bi-query-caching.md
-            - name: Устранение неполадок в сценариях обновления
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: Панели мониторинга
           items:
             - name: Общие сведения о панелях мониторинга
@@ -705,6 +705,8 @@
           items:
             - name: Забыли пароль для Power BI?
               href: service-admin-forgot-your-password.md
+            - name: Не удается войти?
+              href: power-bi-cannot-sign-in.md
             - name: Запись дополнительных диагностических сведений для Power BI
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: Запасной адрес электронной почты для Power BI
@@ -713,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: Известные проблемы с выделенными пользователями Office 365
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: Устранение неполадок Cortana
-              href: service-cortana-troubleshoot.md
-            - name: Устранение неполадок с анализом в Excel
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: Устранение неполадок локального шлюза данных
-              href: service-gateway-onprem-tshoot.md
-            - name: Устранение неполадок с Power BI Gateway — Personal
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Устранение неполадок в сценариях обновления
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: 'Устранение неполадок с источником данных, не поддерживающим обновление'
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Устранение неполадок с запланированным обновлением для баз данных SQL Azure
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-            - name: Ошибка Не найдены данные в книге Excel
-              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Устранение неполадок с плитками
               href: refresh-troubleshooting-tile-errors.md
+            - name: Устранение неполадок локального шлюза данных
+              href: service-gateway-onprem-tshoot.md
+            - name: "Устранение неполадок с Power\_BI Gateway\_- Personal"
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Устранение неполадок с анализом в Excel
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: Ошибка Не найдены данные в книге Excel
+              href: service-admin-troubleshoot-excel-workbook-data.md
+            - name: Устранение неполадок Cortana
+              href: service-cortana-troubleshoot.md
             - name: Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
               href: service-refresh-xero-credentials.md
-            - name: Не удается войти
-              href: power-bi-cannot-sign-in.md
         - name: Другие задачи
           items:
             - name: Переименование содержимого Power BI
@@ -855,9 +857,9 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: Удаление подключения к пакету содержимого
                   href: service-organizational-content-pack-disconnect.md
-        - name: Справка
-          items:
-            - name: "Поддерживаемые языки и страны\_(регионы)"
+    - name: Справка
+      items:
+        - name: "Поддерживаемые языки и страны\_(регионы)"
           href: supported-languages-countries-regions.md
     - name: Ресурсы
       items:
