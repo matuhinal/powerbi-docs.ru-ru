@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383954"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161221"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Руководство. Разработка пользовательского визуального элемента Power BI
 
@@ -73,21 +73,15 @@ ms.locfileid: "61383954"
 
 #### <a name="windows"></a>Windows
 
-1. Чтобы создать сертификат, выполните следующую команду:
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  Она возвращает результат с *парольной фразой*. В нашем примере *парольная фраза* имеет значение **_15105661266553327_** .
-
-  ![Сертификат, созданный с помощью PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. Теперь нам нужно установить этот сертификат. Чтобы установить сертификат, выполните следующую команду:
+1. Чтобы создать и установить сертификат, выполните следующую команду:
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  Она возвращает результат с *парольной фразой*. В нашем примере используется *парольная фраза* **_15105661266553327_** , которая позволяет запустить мастер импорта сертификатов.
+
+  ![Сертификат, созданный с помощью PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. В мастере импорта сертификатов убедитесь, что в качестве расположения хранилища выбрано значение "Текущий пользователь". Нажмите кнопку *Далее*.
 
@@ -559,14 +553,14 @@ ms.locfileid: "61383954"
 
     Эта инструкция сохраняет значение *dataView* в переменной для упрощения доступа и объявляет эту переменную, чтобы она ссылалась на объект *dataView*.
 
-2. В **обновление** метод, замените **.text("Value")** приведенным ниже.
+2. В методе **update** замените **.text("Value")** следующим кодом:
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![Замена значения textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. В **обновление** метод, замените **.text("Label")** приведенным ниже.
+3. В методе **update** замените **text("Label")** следующим кодом:
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

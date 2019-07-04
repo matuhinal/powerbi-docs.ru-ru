@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239534"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408554"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Добавление пользовательского столбца в Power BI Desktop
 Вы можете легко добавить новый пользовательский столбец данных в модель с помощью **редактора запросов** в **Power BI Desktop**. Вы можете создать и переименовать пользовательский столбец с помощью кнопок для создания [формул M](https://msdn.microsoft.com/library/mt270235.aspx), определяющих пользовательский столбец. Для формулы M доступен [полный набор справочных материалов по функциям](https://msdn.microsoft.com/library/mt779182.aspx). 
@@ -68,6 +68,5 @@ ms.locfileid: "65239534"
 Существуют другие способы создания пользовательских столбцов, включая создание столбца на основе примеров, предоставленных **редактору запросов**. Дополнительные сведения о создании настраиваемых столбцов на основе примеров см. в следующей статье:
 
 * [Добавление столбца из примера в Power BI Desktop](desktop-add-column-from-example.md)
-* [Общие сведения о языке формул M](https://msdn.microsoft.com/library/mt270235.aspx)
-* [Справочник по функциям M](https://msdn.microsoft.com/library/mt779182.aspx)  
+* [Справочник по Power Query M](/powerquery-m/power-query-m-reference)  
 

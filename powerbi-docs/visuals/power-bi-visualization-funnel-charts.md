@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61068017"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161133"
 ---
 # <a name="funnel-charts"></a>Воронкообразные диаграммы
 Воронкообразная диаграмма позволяет визуализировать линейный процесс, который имеет последовательные связанные этапы. Например, воронка продаж, которая позволяет отследить перемещение клиентов по этапам: "Интерес" \> "Соответствующий интерес" \> "Потенциальный клиент" \> "Контракт" \> "Закрыто".  Форма воронки визуально передает состояние отслеживаемого процесса.
@@ -53,7 +53,7 @@ ms.locfileid: "61068017"
 
 Создайте собственную воронкообразную диаграмму, показывающую количество возможных сделок на этапах продаж.
 
-Эти инструкции основаны на примере анализа возможных сделок. Чтобы продолжить работу, [скачайте пример](../sample-datasets.md) для службы Power BI (app.powerbi.com) или Power BI Desktop.   
+Эти инструкции основаны на примере анализа возможных сделок. Чтобы продолжить работу, [скачайте пример](../sample-datasets.md) для службы Power BI (app.powerbi.com) или Power BI Desktop.   
 
 1. Начните с пустой страницы отчета и выберите поле **Этап продажи**\>**Этап продажи**. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](../service-interact-with-a-report-in-editing-view.md).
    
@@ -61,7 +61,7 @@ ms.locfileid: "61068017"
 2. [Преобразуйте диаграмму](power-bi-report-change-visualization-type.md) в воронку. Обратите внимание, что параметр **Этап продажи** также находится в **группе** . 
 3. В области **Поля** выберите пункты **Факт** \> **Число возможностей**.
    
-    ![создание воронкообразной диаграммы](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![создание воронкообразной диаграммы](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. При наведении указателя мыши на столбец отображается много ценных сведений:
    
    * имя этапа;
