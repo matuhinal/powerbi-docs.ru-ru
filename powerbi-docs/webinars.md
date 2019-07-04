@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389540"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418652"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,11 +22,7 @@ ms.locfileid: "67389540"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-Зарегистрируйтесь, чтобы узнать мнение экспертов по Power BI и принять участие в сеансах "Вопросы и ответы" в прямом эфире.
-
-**Power BI: Извлечение ценных сведений из повседневных данных в отделе кадров**
-<br>Авторы: Иман Эфтекхари (Iman Eftekhari), Юлия Патон (Julia Paton) из Agile Analytics и Шахрам Карими (Shahram Karimi) из QBE Insurance
-<br>[Зарегистрироваться для просмотра 27 июня с 13:30 до 14:30 (тихоокеанское время)](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ ms.locfileid: "67389540"
 
 ### <a name="partner-solutions-series"></a>Серия решений партнеров ###
 [Смотреть эту серию](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI: Извлечение ценных сведений из повседневных данных в отделе кадров**
+<br>Авторы: Иман Эфтекхари (Iman Eftekhari), Юлия Патон (Julia Paton) из Agile Analytics и Шахрам Карими (Shahram Karimi) из QBE Insurance
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **Достижение оптимального результата для производителей потребительских товаров и предприятий розничной торговли**
 <br>Автор: Лиз МакКриш (Liz McCreesh) из Thorogood
