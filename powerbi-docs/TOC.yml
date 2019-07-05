@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Отчеты с разбивкой на страницы в Power BI
           items:
-            - name: Просмотр отчета с разбивкой на страницы (предварительная версия)
+            - name: Просмотр отчета с разбивкой на страницы
               href: paginated-reports-view-power-bi-service.md
-            - name: Взаимодействие с параметрами (предварительная версия)
+            - name: Взаимодействие с параметрами
               href: paginated-reports-view-parameters.md
             - name: Подписка себя и других пользователей
               href: paginated-reports-subscriptions.md
