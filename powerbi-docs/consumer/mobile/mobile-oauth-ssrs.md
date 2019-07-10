@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770371"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559074"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
@@ -25,7 +25,7 @@ ms.locfileid: "64770371"
 С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения (WAP), чтобы обеспечить такой тип проверки подлинности.
 
    > [!NOTE]
-   > Просмотр отчетов Power BI, размещенных на сервере отчетов Power BI с помощью WAP для проверки подлинности в настоящее время поддерживается только в приложении iOS. Приложение Android в данный момент официально не поддерживается.
+   > Просмотр отчетов Power BI, размещенных на сервере отчетов Power BI, с использованием WAP для проверки подлинности сейчас поддерживается приложениями для iOS и Android.
 
 ## <a name="requirements"></a>Требования
 
@@ -118,7 +118,7 @@ https://fs.contoso.com
    > [!NOTE]
    > URL-адрес вводится с учетом регистра.
 
-   *https://< URL-адрес сервера отчетов > / reports*
+   *https://<URL-адрес сервера отчетов>/reports*
 
    ![Мастер добавления группы приложений ADFS 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Нажмите кнопку **Далее**.
@@ -239,7 +239,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Появилась ошибка "Failed to login to SSRS server. Проверьте конфигурацию сервера.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>Появилась ошибка "Failed to login to SSRS server. Проверьте конфигурацию сервера.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

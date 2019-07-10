@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839397"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533063"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Карты фигур в Power BI Desktop (предварительная версия)
 Создайте визуальный элемент **Карта фигур** для сравнения регионов на карте по цветам. В отличие от визуального элемента **Карта**, на визуальном элементе **Карта фигур** невозможно отобразить точное географическое расположение точек данных на карте. Его основное назначение — проиллюстрировать относительное сравнение регионов на карте с помощью разных цветов.
 
-Визуальные элементы типа **Карта фигур** созданы на базе карт ESRI/TopoJSON, позволяющих создавать и использовать собственные настраиваемые карты (например, географические карты, планы залов и помещений и т. д.). Эта предварительная версия **Карт фигур** не поддерживает настраиваемые карты.
+Визуальные элементы типа **Карта фигур** созданы на базе карт ESRI/TopoJSON, позволяющих создавать и использовать собственные настраиваемые карты (например, географические карты, планы залов и помещений и т. д.). Эта предварительная версия **Карт фигур** не поддерживает настраиваемые карты.
 
 ## <a name="creating-shape-maps"></a>Создание карт фигур
 Вы можете проверить элемент управления **Карта фигур** с помощью карт, которые поставляются вместе с этой предварительной версией, или использовать свою карту, если она соответствует требованиям, приведенным в следующем разделе под названием **Использование пользовательских карт**.
@@ -108,11 +108,12 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 * Визуализация **Карта фигур** будет отображать до 1000 точек данных.
 
 ## <a name="region-keys"></a>Ключи регионов
+
 Для тестирования **карты фигур** в этой предварительной версии используйте приведенные ниже **ключи регионов**.
 
-### <a name="australia-states"></a>Австралия: штаты
+### <a name="australia-states"></a>Австралия: земли
 
-| `id` | `abbr` | `iso` | `name` | `postal` |
+| Идентификатор | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -123,9 +124,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Австрия: штаты
+### <a name="austria-states"></a>Австрия: земли
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| Идентификатор | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -137,9 +138,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |Подразделение |
 
-### <a name="brazil-states"></a>Бразилия: штаты
+### <a name="brazil-states"></a>Бразилия: земли
 
-| `id` |
+| Идентификатор |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -175,7 +176,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>Канада: провинции
 
-| `id` | `iso` | `name` | `postal` |
+| Идентификатор | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -191,9 +192,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Франция: регионы
+### <a name="france-regions"></a>Франция: области
 
-| `id` | `name` | `name-en` |
+| Идентификатор | name | name-en |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
@@ -220,7 +221,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>Германия: земли
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| Идентификатор | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -241,7 +242,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="ireland-counties"></a>Ирландия: графства
 
-| `id` |
+| Идентификатор |
 | --- |
 | Wicklow |
 | Wexford |
@@ -272,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>Италия: области
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| Идентификатор | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -295,9 +296,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-pu |IT-75 |Apulia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Мексика штаты
+### <a name="mexico-states"></a>Мексика земли
 
-| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
+| Идентификатор | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -334,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>Нидерланды: провинции
 
-| `id` | `iso` | `name` | `name-en` |
+| Идентификатор | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -351,16 +352,16 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>Соединенное Королевство: Страны
 
-| `id` | `iso` | `name` |
+| Идентификатор | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>США: штаты
+### <a name="usa-states"></a>США: земли
 
-| `id` | `name` | `postal` |
+| Идентификатор | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -415,6 +416,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-wa |Washington |WA |
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Использование визуального элемента "Матрица" в Power BI Desktop](desktop-matrix-visual.md)
 
-[Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Использование визуального элемента "Матрица" в Power BI Desktop](desktop-matrix-visual.md)
+
+* [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

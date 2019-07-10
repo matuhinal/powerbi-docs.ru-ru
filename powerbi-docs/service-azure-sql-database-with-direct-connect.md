@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448376"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468095"
 ---
 # <a name="azure-sql-database-with-directquery"></a>База данных SQL Azure с DirectQuery
 
@@ -29,7 +29,7 @@ ms.locfileid: "66448376"
 * Укажите полное имя сервера при подключении (см. дополнительные сведения ниже).
 * Убедитесь, что в правилах брандмауэра [разрешен доступ к службам Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx).
 * Каждое действие, например выбор столбца или добавление фильтра, отправляет запрос в базу данных.
-* Плитки обновляются каждый час (обновление не требуется планировать). его можно настроить в разделе дополнительных параметров при подключении;
+* Плитки обновляются каждый час (обновление не требуется планировать). Можно указать частоту обновления в разделе дополнительных параметров при подключении.
 * Функция вопросов и ответов для наборов данных DirectQuery недоступна.
 * Изменения схемы не извлекаются автоматически.
 
@@ -42,11 +42,11 @@ ms.locfileid: "66448376"
 
 Чтобы подключиться к базе данных SQL Azure с помощью DirectQuery, необходимо использовать Power BI Desktop. Такой подход обеспечивает дополнительные возможности и гибкость работы. Отчеты, созданные с помощью Power BI Desktop, затем можно опубликовать в службе Power BI. См. дополнительные сведения о подключении к [базе данных SQL Azure с помощью DirectQuery](desktop-use-directquery.md) в Power BI Desktop.
 
-## <a name="finding-parameter-values"></a>Поиск значений параметров
+## <a name="find-parameter-values"></a>Поиск значений параметров
 
 Полное имя сервера и имя базы данных можно найти на портале Azure.
 
-![Новое обновление портала Azure](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![Очередное обновление портала Azure](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
 ![Обновление портала Azure](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
 

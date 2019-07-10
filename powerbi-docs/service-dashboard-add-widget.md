@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1a1cb84d889b5f4df4ec53ee9a2a53b95a5daf8a
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144114"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533167"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Добавление изображения, текста, видео и другого содержимого на информационную панель
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -119,7 +119,7 @@ ms.locfileid: "61144114"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* Этот код встраивает твит и сохраняет на информационной панели ссылки на следующие элементы: подкаст **AFK**, страница Twitter пользователя **@GuyInACube** , элемент **Подписаться**, **#аналитика**, **Ответить**, **Ретвитнуть** и **Нравится**.  При выборе плитки открывается подкаст в Twitter.
+* Этот код внедряет твит и сохраняется в виде отдельных элементов на информационной панели ссылки для подкаста **AFK**, **\@страницы GuyInACube в Twitter**, **подписаться**, **#analytics**, **ответить**, **ретвитнуть** и **нравится**.  При выборе плитки открывается подкаст в Twitter.
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">

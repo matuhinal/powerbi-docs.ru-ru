@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137540"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498985"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone, iPad или iPod Touch позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -33,7 +33,7 @@ ms.locfileid: "61137540"
 ## <a name="download-the-app"></a>Загрузите приложение
 [Download the iOS app](http://go.microsoft.com/fwlink/?LinkId=522062 "Скачайте приложение iOS") для iPhone, iPad или iPod Touch в Apple App Store.
 
-Power BI можно запускать в приложении для iOS на iPhone 5 и более новых моделях устройства, работающих под управлением iOS 10 и более поздних версий. Также можно пользоваться устройствами iPad и iPod Touch с iOS 10 или более поздней версии. 
+Приложение Power BI для iOS можно запускать на любых устройствах, работающих под управлением iOS 11 и более поздних версий. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Регистрация в службе Power BI
 Если вы еще не зарегистрировались, перейдите на сайт [powerbi.com](https://powerbi.microsoft.com/get-started/) и в разделе **Power BI — совместная работа и общий доступ в облаке** нажмите кнопку **Попробовать бесплатно**.
