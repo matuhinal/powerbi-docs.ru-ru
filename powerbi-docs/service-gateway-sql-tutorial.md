@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468242"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596634"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Обновление данных из локальной базы данных SQL Server
 
@@ -35,7 +35,7 @@ ms.locfileid: "67468242"
 
 - Если вы еще этого не сделали, зарегистрируйтесь в [бесплатной пробной версии Power BI](https://app.powerbi.com/signupredirect?pbi_source=web) перед началом работы.
 - [Установите Power BI Desktop](https://powerbi.microsoft.com/desktop/) на локальном компьютере.
-- [Установите SQL Server](/sql/database-engine/install-windows/install-sql-server) на локальном компьютере и восстановите [образец базы данных из резервной копии]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)). Дополнительные сведения о базе данных AdventureWorks см. в разделе [Установка и настройка AdventureWorks](/sql/samples/adventureworks-install-configure).
+- [Установите SQL Server](/sql/database-engine/install-windows/install-sql-server) на локальном компьютере и восстановите [образец базы данных из резервной копии](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). Дополнительные сведения о базе данных AdventureWorks см. в разделе [Установка и настройка AdventureWorks](/sql/samples/adventureworks-install-configure).
 - [Установите локальный шлюз данных](service-gateway-install.md) на том же локальном компьютере, где находится SQL Server (в рабочей среде обычно настраивается отдельный компьютер).
 
 > [!NOTE]
