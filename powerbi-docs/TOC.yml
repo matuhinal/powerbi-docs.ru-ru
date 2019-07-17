@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Устранение неполадок с плитками
               href: refresh-troubleshooting-tile-errors.md
-            - name: Устранение неполадок локального шлюза данных
-              href: service-gateway-onprem-tshoot.md
-            - name: "Устранение неполадок с Power\_BI Gateway\_- Personal"
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Устранение неполадок с анализом в Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: Ошибка Не найдены данные в книге Excel
@@ -1279,38 +1275,38 @@
   items:
     - name: Обзор
       items:
-        - name: Что такое шлюзы Power BI?
-          href: service-gateway-getting-started.md
-    - name: Учебники
-      items:
-        - name: Подключение к данным SQL Server
-          href: service-gateway-sql-tutorial.md
+        - name: Что такое локальный шлюз данных?
+          href: service-gateway-onprem.md
     - name: Основные понятия
       items:
         - name: Руководство по развертыванию шлюза данных
           href: service-gateway-deployment-guidance.md
         - name: Вопросы и ответы о локальном шлюзе данных
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: Практическое руководство
       items:
-        - name: Установка шлюзов
-          href: service-gateway-install.md
-        - name: Управление шлюзами
-          href: service-gateway-manage.md
-        - name: Мониторинг производительности шлюза
-          href: service-gateway-performance-monitoring.md
-        - name: "Управление источником данных предприятия\_— службы Analysis Services"
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: "Управление источником данных предприятия\_— SAP HANA"
-          href: service-gateway-enterprise-manage-sap.md
-        - name: Управление источником данных предприятия — SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: "Управление своим источником данных\_— Oracle"
-          href: service-gateway-onprem-manage-oracle.md
-        - name: Управление источником корпоративных данных — импорт или запланированное обновление
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: Объединение локальных и облачных источников данных
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: 'Локальный шлюз данных: подробный обзор'
+          href: service-gateway-onprem-indepth.md
+        - name: Локальный шлюз данных (персональный режим)
+          href: service-gateway-personal-mode.md
+        - name: Управление пользователями и администраторами
+          href: service-gateway-manage-admins.md
+        - name: Управление источниками данных
+          items:
+            - name: Управление источниками данных
+              href: service-gateway-data-sources.md
+            - name: "Управление источником данных предприятия\_— службы Analysis Services"
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: "Управление источником данных предприятия\_— SAP HANA"
+              href: service-gateway-enterprise-manage-sap.md
+            - name: Управление источником данных предприятия — SQL
+              href: service-gateway-enterprise-manage-sql.md
+            - name: "Управление своим источником данных\_— Oracle"
+              href: service-gateway-onprem-manage-oracle.md
+            - name: Управление источником корпоративных данных — импорт или запланированное обновление
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: Объединение локальных и облачных источников данных
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: Включение единого входа (SSO)
           items:
             - name: "Единый вход (SSO)\_— обзор"
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: "Единый вход (SSO)\_— SAML"
               href: service-gateway-sso-saml.md
-        - name: Настройка параметров прокси-сервера
-          href: service-gateway-proxy.md
-        - name: Кластеры с высоким уровнем доступности для локальных шлюзов данных
-          href: service-gateway-high-availability-clusters.md
-        - name: Локальный шлюз данных
-          href: service-gateway-onprem.md
-        - name: 'Локальный шлюз данных: подробный обзор'
-          href: service-gateway-onprem-indepth.md
-        - name: Локальный шлюз данных (персональный режим)
-          href: service-gateway-personal-mode.md
-        - name: Настраиваемые соединители
-          href: service-gateway-custom-connectors.md
-        - name: Устранение неполадок локального шлюза данных
+        - name: Устранение неполадок шлюза
           href: service-gateway-onprem-tshoot.md
+        - name: Устранение неполадок шлюза (персональный режим)
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: Использование настраиваемых соединителей
+          href: service-gateway-custom-connectors.md
     - name: Ресурсы
       items:
         - name: Ежемесячные обновления шлюза
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: Администрирование
   items:
     - name: Обзор
