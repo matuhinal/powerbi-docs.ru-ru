@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2018
-ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.date: 07/03/2019
+ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559074"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567813"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
 Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к серверу отчетов Power BI и SQL Server Reporting Services 2016 или более поздней версии.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+![Подключение к серверу](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
 С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения (WAP), чтобы обеспечить такой тип проверки подлинности.
 
@@ -118,7 +118,7 @@ https://fs.contoso.com
    > [!NOTE]
    > URL-адрес вводится с учетом регистра.
 
-   *https://<URL-адрес сервера отчетов>/reports*
+   *https://<URL-адрес сервера отчетов>/*
 
    ![Мастер добавления группы приложений ADFS 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Нажмите кнопку **Далее**.
@@ -209,7 +209,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-id.png)
+![Добавление группы приложений](media/mobile-oauth-ssrs/wap-application-id.png)
 
 Выполните следующую команду, чтобы указать для параметра BackendServerAuthenticationMode идентификатор приложения WAP.
 
@@ -217,21 +217,19 @@ Get-WebApplicationProxyApplication “Contoso Reports” | fl
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-backendauth.png)
+![Мастер добавления группы приложений](media/mobile-oauth-ssrs/wap-application-backendauth.png)
 
 ## <a name="connecting-with-the-power-bi-mobile-app"></a>Подключение к приложению Power BI Mobile
 
 В мобильном приложении Power BI необходимо подключиться к экземпляру служб Reporting Services. Для этого укажите **внешний URL-адрес** приложения WAP.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
+![Ввод адреса сервера](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
-После того как вы нажмете кнопку **Подключиться**, вы будете перенаправлены на страницу входа в AD FS. Введите действительные учетные данные для домена.
+Нажав кнопку **Подключиться**, вы попадете на страницу входа в ADFS. Введите действительные учетные данные для домена.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
+![Вход в ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 После того как вы нажмете кнопку **Войти**, вы увидите элементы с сервера Reporting Services.
-
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 ## <a name="multi-factor-authentication"></a>Многофакторная проверка подлинности
 
@@ -239,9 +237,9 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>Появилась ошибка "Failed to login to SSRS server. Проверьте конфигурацию сервера.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>Появилась ошибка "Не удалось войти на сервер SSRS."
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
+![Ошибка "Не удалось войти на сервер SSRS."](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
 Вы можете настроить [Fiddler](http://www.telerik.com/fiddler) в качестве прокси-сервера для мобильных устройств, чтобы проанализировать ошибку. Чтобы включить прокси-сервер Fiddler для мобильного устройства, необходимо настроить [CertMaker для iOS и Android](http://www.telerik.com/fiddler/add-ons) на компьютере, на котором будет работать Fiddler. Это дополнительный компонент, разработанный компанией Telerik для Fiddler.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136657"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791935"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Использование добавочного обновления для потоков данных Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "61136657"
 
 Поток данных может содержать множество сущностей. Добавочное обновление настраивается на уровне сущности, что позволяет включить в один поток данных сущности с полным обновлением и сущности с добавочным обновлением.
 
-Чтобы настроить сущности с добавочным обновлением, прежде всего создайте и настройте их как обычные сущности. Дополнительные сведения о настройка потока данных, см. в разделе [подготовки самообслуживания данных в Power BI](service-dataflows-overview.md).
+Чтобы настроить сущности с добавочным обновлением, прежде всего создайте и настройте их как обычные сущности. Дополнительные сведения о настройке потока данных см. в руководстве по [самостоятельной подготовке данных в Power BI](service-dataflows-overview.md).
 
 Завершив создание и сохранение потока данных, выберите значок **добавочного обновления** в представлении сущности, как показано на следующем рисунке.
 
@@ -157,7 +157,7 @@ ms.locfileid: "61136657"
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
+* [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)

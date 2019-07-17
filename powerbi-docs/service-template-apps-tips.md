@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408357"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791805"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -126,6 +126,7 @@ ms.locfileid: "67408357"
 
 * Убедитесь, что вы создаете приложение-шаблон с помощью образцов данных, которые могут помочь установщику понять, что приложение должно делать (пустой отчет и панель мониторинга не будут одобрены).
 Приложения-шаблоны поддерживают только приложения с примерами данных, обязательно установите флажок статического приложения. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* В общем случае только приложения с полезными возможностями утверждаются для общего использования в AppSource. Приложения с примерами данных должны иметь обучающую или статистическую ценность.
 * Используйте инструкции для команды проверки, которые содержат учетные данные и параметры, необходимые для подключения к данным.
 * Приложение должно содержать значок приложения в Power BI и в вашем предложении на портале Cloud Partner. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Теперь целевая страница настроена. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)

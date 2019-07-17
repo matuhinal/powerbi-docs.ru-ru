@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c0a70339e8336f3e7b93b40ad8a99dcb87715812
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710252"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596477"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Шаг 4. Получение набора данных для добавления строк в таблицу Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "65710252"
 
 На **шаге 3** ([Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)) руководства по принудительной отправке данных в набор данных вы вызвали операцию [Создание набора данных](https://docs.microsoft.com/rest/api/power-bi/datasets), чтобы создать набор данных в Power BI. На этом шаге вы будете использовать операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) и Newtonsoft.Json, чтобы получить идентификатор набора данных. Идентификатор набора данных потребуется на шаге 4 для добавления строк в набор данных. 
 
-Чтобы принудительно отправить данные в набор данных Power BI, необходимо сослаться на таблицу в наборе данных. Для этого сначала потребуется получить **идентификатор набора данных**. Получение **идентификатора набора данных** выполняется с помощью операции [Получение набора данных по идентификатору](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid). Операция **Получение набора данных по идентификатору** возвращает строку JSON, содержащую список всех наборов данных в Power BI. Для десериализации строки JSON рекомендуется использовать [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Чтобы принудительно отправить данные в набор данных Power BI, необходимо сослаться на таблицу в наборе данных. Для этого сначала потребуется получить **идентификатор набора данных**. Чтобы получить **идентификатор набора данных**, выполните операцию [получения наборов данных](/rest/api/power-bi/datasets/getdatasets). Операция **получения наборов данных** возвращает строку JSON со списком всех наборов данных в Power BI. Для десериализации строки JSON рекомендуется использовать [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
 Вот как получить набор данных.
 
