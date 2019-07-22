@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cd2c7acbec9b8d21aeb78cbb159df2a46b12564
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409769"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342179"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Добавление фильтра в отчет в Power BI
 
 В этой статье описано, как добавить фильтр на уровне страницы, визуализации, отчета или детализации в отчет Power BI. Примеры в этой статье даны для службы Power BI, но действия в Power BI Desktop практически идентичны.
 
-**Знаете ли вы?** В Power BI доступны новые функции фильтров, предоставляемые в предварительной версии. См. дополнительные сведения о [новых функциях фильтров в отчетах Power BI](power-bi-report-filter-preview.md).
+**Знаете ли вы?** В Power BI доступны новые функции фильтров, предоставляемые в предварительной версии. См. дополнительные сведения о [новых функциях фильтров в отчетах Power BI](power-bi-report-filter.md).
 
 ![Новые функции фильтров](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 

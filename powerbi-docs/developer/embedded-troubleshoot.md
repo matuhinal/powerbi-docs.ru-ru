@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: eec8f3b74646fa7f783888b95e95c1ed8d922260
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823315"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270989"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -26,7 +26,7 @@ ms.locfileid: "66823315"
 
 [Fiddler](http://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP.  Вы можете просматривать трафик API-интерфейсов Power BI с клиентского компьютера. Это средство позволяет найти ошибки и другие связанные сведения.
 
-![Трассировка Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+![Трассировка Fiddler](media/embedded-troubleshoot/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>Отладка интерфейса нажатием клавиши F12 в браузере
 
@@ -110,7 +110,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Сбой проверки подлинности с ошибкой AADSTS70002 или AADSTS50053
 
-** _(AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)_**
+**_(AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем)_**
 
 Работая с Power BI Embedded и используя проверку подлинности Azure AD Direct, при входе будете получать такие сообщения, как ***error:unauthorized_client, error_description:AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, это потому, что прямая проверка подлинности больше не используется с 14 июня 2018 года по умолчанию.
 

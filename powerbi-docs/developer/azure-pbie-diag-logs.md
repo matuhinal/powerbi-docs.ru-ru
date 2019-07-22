@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385442"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289849"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Ведение журнала диагностики для Power BI Embedded в Azure
 
@@ -22,7 +22,6 @@ ms.locfileid: "61385442"
 Использование диагностики используется в некоторых сценариях, например:
 
 * обнаружение длительных или проблемных запросов;
-* обнаружение ошибок при достижении предела емкости;
 * отклонение [метрики емкости](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/);
 * отслеживание использования определенных наборов данных.
 
@@ -127,9 +126,6 @@ ms.locfileid: "61385442"
 | JobID | 0 | Идентификатор выполняемого задания. |
 | ObjectID | 464 | Идентификатор объекта |
 | ObjectType | 802012 | ObjectType |
-| ObjectName | SalesLT Customer | ObjectName |
-| ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | Путь к объекту. Список родительских элементов, разделенных запятой, начиная с родительского элемента объекта. |
-| ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Ссылка на объект. Кодируется как XML для всех родительских элементов с использованием тегов для описания объекта. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Время окончания события. |
 | Длительность | 0 | Время (в миллисекундах), затраченное событием. |
 | SessionType | Пользователь | Тип сеанса (какая сущность вызвала операцию). |
@@ -138,7 +134,6 @@ ms.locfileid: "61385442"
 | Severity | 0 | Уровень серьезности исключения. |
 | Готово | 1 | 1 = успех. 0 = ошибка (например, 1 означает успешную проверку наличия разрешений, а 0 означает ошибку при этой проверке). |
 | Ошибка | 0 | Номер ошибки определенного события. |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | Текстовые данные, связанные с событием. |
 | ConnectionID | 3 | Уникальный идентификатор подключения. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Идентификатор набора данных, в котором выполняется инструкция пользователя. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | GUID сеанса. |
@@ -146,8 +141,7 @@ ms.locfileid: "61385442"
 | ClientProcessID | null | Идентификатор процесса клиентского приложения. |
 | ApplicationName | null | Имя клиентского приложения, установившего подключение к серверу. |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | Имя ресурса емкости Power BI Embedded. |
-| RequestParameters |  |  |
-| RequestProperties |  |  |
+
 
 ### <a name="allmetrics"></a>AllMetrics
 
