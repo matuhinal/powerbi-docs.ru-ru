@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: "Представление моделирования в Power\_BI\_Desktop"
           href: desktop-modeling-view.md
-        - name: "Агрегаты в Power\_BI Desktop (предварительная версия)"
+        - name: "Агрегаты в Power\_BI Desktop"
           href: desktop-aggregations.md
         - name: "Составные модели в Power\_BI Desktop"
           href: desktop-composite-models.md
@@ -234,7 +234,7 @@
             - name: Типы фильтров
               href: power-bi-report-filter-types.md
             - name: Опробуйте новые возможности фильтрации
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: Использование функции "Быстрая мера"
               href: desktop-quick-measures.md
             - name: Использование параметров What if
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: Десять советов по получению справки
               href: service-tips-for-finding-help.md
+            - name: Уведомления о перебое в работе служб
+              href: service-interruption-notifications.md
         - name: Расширение Power BI
           items:
             - name: "Microsoft Flow и Power\_BI"
@@ -685,6 +687,8 @@
           items:
             - name: Просмотр отчета с разбивкой на страницы
               href: paginated-reports-view-power-bi-service.md
+            - name: Поддерживаемые источники данных
+              href: paginated-reports-data-sources.md
             - name: Взаимодействие с параметрами
               href: paginated-reports-view-parameters.md
             - name: Подписка себя и других пользователей
