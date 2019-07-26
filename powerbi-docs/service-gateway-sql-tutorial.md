@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596634"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307398"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Обновление данных из локальной базы данных SQL Server
 
@@ -36,7 +36,7 @@ ms.locfileid: "67596634"
 - Если вы еще этого не сделали, зарегистрируйтесь в [бесплатной пробной версии Power BI](https://app.powerbi.com/signupredirect?pbi_source=web) перед началом работы.
 - [Установите Power BI Desktop](https://powerbi.microsoft.com/desktop/) на локальном компьютере.
 - [Установите SQL Server](/sql/database-engine/install-windows/install-sql-server) на локальном компьютере и восстановите [образец базы данных из резервной копии](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). Дополнительные сведения о базе данных AdventureWorks см. в разделе [Установка и настройка AdventureWorks](/sql/samples/adventureworks-install-configure).
-- [Установите локальный шлюз данных](service-gateway-install.md) на том же локальном компьютере, где находится SQL Server (в рабочей среде обычно настраивается отдельный компьютер).
+- [Установите локальный шлюз данных](service-gateway-onprem.md) на том же локальном компьютере, где находится SQL Server (в рабочей среде обычно настраивается отдельный компьютер).
 
 > [!NOTE]
 > Если вы не являетесь администратором шлюза и не хотите устанавливать шлюз самостоятельно, обратитесь к администратору шлюза в вашей организации. Он может создать определение источника данных, необходимое для подключения набора данных к базе данных SQL Server.
@@ -202,6 +202,6 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 В этом руководстве было продемонстрировано, как импортировать данные из локальной базы данных SQL Server в набор данных Power BI, как обновлять этот набор данных на основе расписания и по запросу, чтобы сохранять отчеты и панели мониторинга в Power BI, которые используют этот набор данных, актуальными. Теперь вы можете узнать подробнее об управлении шлюзами данных и источниками данных в Power BI. Также стоит обратить внимание на концептуальную статью про обновление данных в Power BI.
 
-- [Управление локальным шлюзом Power BI](service-gateway-manage.md)
+- [Управление локальным шлюзом данных](/data-integration/gateway/service-gateway-manage)
 - [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Обновление данных в Power BI](refresh-data.md)

@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343152"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271186"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
+Прежде чем [опубликовать](https://docs.microsoft.com/power-bi/developer/office-store) визуальный элемент в AppSource, чтобы его могли найти и использовать другие люди, убедитесь, что соблюдены рекомендации по обеспечению интерфейса для эффективной работы пользователей. 
+
+## <a name="context-menu"></a>Контекстное меню
+Контекстное меню отображается по нажатию правой кнопки мыши, когда пользователь наводит указатель мыши на визуальный элемент.
+Все визуальные элементы Power BI должны использовать контекстное меню для обеспечения единого интерфейса. Обратитесь к [этой статье](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md), чтобы узнать, как добавить контекстное меню.
+
+
+## <a name="logo-guidelines"></a>Рекомендации по логотипам
+
+В этом разделе описываются спецификации для добавления эмблем и логотипов в визуальные элементы.
+
+> [!IMPORTANT]
+> Логотипы доступны *только в режиме редактирования*. Их *невозможно* отобразить в режиме просмотра.
+
+![Определения](media/guidelines-powerbi-visuals/definitions.png)
+
+![Что следует учитывать](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![Чего следует избегать](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![Размер и формат](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![Поля и размеры](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![Режим редактирования](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Рекомендации по визуальным элементам Power BI с дополнительными покупками
 
@@ -36,31 +62,13 @@ ms.locfileid: "61343152"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Что такое визуальный элемент Power BI с функциями IAP?
 
-Визуальный элемент IAP — это **бесплатный** визуальный элемент с **бесплатными функциями**. Он также включает дополнительные расширенные функции, для работы с которыми может потребоваться дополнительная плата. В описании визуального элемента разработчики обязаны уведомить пользователей о функциях, для работы с которыми требуются дополнительные покупки. Сейчас корпорация Майкрософт не предоставляет собственные API-интерфейсы для поддержки покупки приложений и надстроек.
+Визуальный элемент IAP — это *бесплатный* визуальный элемент с *бесплатными функциями*. Он также включает дополнительные расширенные функции, для работы с которыми может потребоваться дополнительная плата. В описании визуального элемента разработчики обязаны уведомить пользователей о функциях, для работы с которыми требуются дополнительные покупки. Сейчас корпорация Майкрософт не предоставляет собственные API-интерфейсы для поддержки покупки приложений и надстроек.
 
 Для таких покупок разработчики могут использовать любые сторонние платежные системы. Дополнительные сведения см. в статье о [политике магазина](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
 
 > [!NOTE]
 > Для бесплатных функций или визуальных элементов не поддерживаются водяные знаки. Водяные знаки можно использовать только для платных функций, используемых без действительной лицензии. Мы рекомендуем отобразить всплывающее окно со всеми сведениями о лицензии, если дополнительные платные функции используются без действительной лицензии.  
 
-## <a name="logo-guidelines"></a>Рекомендации по логотипам
-
-В этом разделе описываются спецификации для добавления эмблем и логотипов в визуальные элементы.
-
-> [!IMPORTANT]
-> Логотипы доступны **только в режиме редактирования**. Их **невозможно** отобразить в режиме просмотра.
-
-![Определения](media/guidelines-powerbi-visuals/definitions.png)
-
-![Что следует учитывать](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![Чего следует избегать](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![Размер и формат](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![Поля и размеры](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![Режим редактирования](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>Советы и рекомендации
 

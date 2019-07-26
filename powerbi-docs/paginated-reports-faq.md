@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345507"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270778"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: ВОПРОСЫ И ОТВЕТЫ 
 
@@ -119,10 +119,10 @@ ms.locfileid: "67345507"
 
 Поддерживаются следующие источники данных — 
 
-- Наборы данных Power BI Premium
+- Наборы данных Power BI (через единый вход)
 - Azure Analysis Services (с помощью единой регистрации (SSO) и oAuth)
 - Хранилище данных SQL Azure
-- База данных Azure SQL (имя пользователя / пароль и oAuth)
+- База данных SQL Azure (имя пользователя/пароль, единый вход и OAuth)
 - SQL Server*
 - Табличные (DAX) и многомерные (MDX) модели служб SQL Server Analysis Services (SSAS)* 
 - Oracle* 
@@ -134,11 +134,11 @@ ms.locfileid: "67345507"
 
 ### <a name="what-authentication-methods-do-you-support"></a>Какие методы проверки подлинности поддерживаются?
 
-Мы поддерживаем единый вход для источников данных Azure Analysis Services и Power BI Premium, а также поддерживаем oAuth и единый вход для базы данных SQL Azure.  Для других источников данных сейчас необходимо сохранять на портале или шлюзе имя пользователя и пароль для доступа к источнику данных.  
+Мы поддерживаем единый вход для источников данных Power BI, Azure Analysis Services и базы данных SQL Azure.  Мы также поддерживаем OAuth для базы данных SQL Azure и Azure Analysis Services.  Для других источников данных сейчас необходимо сохранять на портале или шлюзе имя пользователя и пароль для доступа к источнику данных.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>Могу ли я использовать набор данных Power BI в качестве источника данных для отчета с разбивкой на страницы?
 
-Да, наборы данных Power BI Premium поддерживаются в качестве источников данных для отчетов с разбивкой на страницы.
+Да, наборы данных Power BI поддерживаются в качестве источников данных для отчетов с разбивкой на страницы.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>Могу ли я использовать хранимые процедуры через шлюз?
 
@@ -179,10 +179,6 @@ ms.locfileid: "67345507"
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>Есть ли планы создать средство миграции, чтобы пользователи SSRS могли переносить существующие отчеты и ресурсы в Power BI?
 
 Мы проводим оценку параметров, чтобы разрешить автоматическое перемещение содержимого в Power BI, но это будет доступно только после выхода общедоступной версии.
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>Будет ли у меня когда-либо возможность создавать отчеты с разбивкой на страницы и обычные отчеты Power BI в едином средстве разработки?
-
-Мы рассмотрели способы включения этого сценария, но сейчас это не входит в наши планы.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Существует ли элемент управления для просмотра отчетов с разбивкой на страницы в службе Power BI?
 

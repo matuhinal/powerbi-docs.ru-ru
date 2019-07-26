@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 07/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cc2c9cbc15240e3dc4d46c7f02ef0b0d82bb36f8
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 55ffc166d5a42e850bc4e2dedf80de1c6b9f8634
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823423"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342145"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -33,6 +33,90 @@ ms.locfileid: "66823423"
 Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
 
 В следующих разделах описываются обновления для **Power BI Desktop** за предыдущие месяцы.
+
+
+## <a name="june-2019-update-2705494561"></a>Обновление за июнь 2019 г. (2.70.5494.561)
+
+Наши июньские обновления для отчетов предоставляют новую яркую цветовую схему для Power BI Desktop, а также множество других улучшений. 
+
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+
+Ссылки рядом с каждым обновлением обозначают следующее.
+
+* Фрагменты **[видео]** воспроизводятся на новой вкладке браузера, когда речь идет о функции.
+* К некоторым функциям прилагаются **[статьи]** , содержащие дополнительные сведения.
+* Большинство функций рассматриваются в ежемесячных публикациях об обновлениях в **[блоге]** .
+* Кроме того, названия некоторых функций говорят сами за себя, поэтому для них не требуются отдельные статьи или видео.
+
+Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
+
+Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
+
+### <a name="reporting"></a>Отчеты
+* Обновленный дизайн области [[видео]](https://youtu.be/7k-nP38uHyQ?t=8)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
+* Фильтры уровня визуальных элементов для срезов [[видео]](https://youtu.be/7k-nP38uHyQ?t=116) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
+* Сортировка для области анализатора производительности [[видео]](https://youtu.be/7k-nP38uHyQ?t=237) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
+* Обновления условного форматирования для параметров форматирования [[видео]](https://youtu.be/7k-nP38uHyQ?t=311)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
+* Подсказки для заголовков визуальных элементов отчетов [[видео]](https://youtu.be/7k-nP38uHyQ?t=530) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
+* Полная настройка меток для таблиц и матриц [[видео]](https://youtu.be/7k-nP38uHyQ?t=722) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
+* Поддержка синхронизации срезов для среза иерархии [[видео]](https://youtu.be/7k-nP38uHyQ?t=859) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
+* Согласованные размеры шрифтов для визуальных элементов [[видео]](https://youtu.be/7k-nP38uHyQ?t=962) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
+
+
+### <a name="analytics"></a>Аналитика
+* Обновления для визуального элемента "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/7k-nP38uHyQ?t=1064) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
+    * Ключевые факторы влияния с активным подключением к наборам данных Power BI
+    * Специальные возможности для ключевых факторов влияния
+    * Поддержка облачной функции RLS
+* Специальные возможности в диалоговом окне "Управление агрегатами" [[видео]](https://youtu.be/7k-nP38uHyQ?t=1213) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
+
+### <a name="modeling"></a>Моделирование
+* Новый оператор сравнения DAX == [[видео]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
+
+
+### <a name="visuals"></a>Визуальные элементы
+* Персонализированная область визуализации (предварительная версия)  [[видео]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
+* Три новых настраиваемых визуальных элемента и обновления [[видео]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+
+
+### <a name="data-connectivity"></a>Подключение к данным
+* Подключение к общим и сертифицированным наборам данных [[видео]](https://youtu.be/7k-nP38uHyQ?t=1739) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
+* Соединитель Common Data Service теперь общедоступен [[видео]](https://youtu.be/7k-nP38uHyQ?t=1807) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
+* Соединитель Azure Data Explorer теперь общедоступен [[видео]](https://youtu.be/7k-nP38uHyQ?t=1823) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
+* Усовершенствования соединителя Cosmos DB [[видео]](https://youtu.be/7k-nP38uHyQ?t=1835) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
+* Соединитель данных Entersoft [[видео]](https://youtu.be/7k-nP38uHyQ?t=1851) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
+
+
+### <a name="data-preparation"></a>Подготовка данных
+* Усовершенствования в M Intellisense [[видео]](https://youtu.be/7k-nP38uHyQ?t=1866) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+
+
+> [!NOTE]
+> Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
+
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+
+
+Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+
 
 ## <a name="may-2019-update-26954671251"></a>Обновление за май 2019 г. (2.69.5467.1251)
 
@@ -130,7 +214,7 @@ ms.locfileid: "66823423"
 Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Улучшенная панель фильтрации [[видео]](https://youtu.be/vih35kSrEHU?t=9) [[статья]](power-bi-report-filter-preview.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
+* Улучшенная панель фильтрации [[видео]](https://youtu.be/vih35kSrEHU?t=9) [[статья]](power-bi-report-filter.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
 * Условное форматирование для заголовков визуальных элементов [[видео]](https://youtu.be/vih35kSrEHU?t=254) [[статья]](desktop-conditional-format-visual-titles.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
 * Условное форматирование для действий URL-адресов для кнопок, фигур и изображений [[видео]](https://youtu.be/vih35kSrEHU?t=439) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
 

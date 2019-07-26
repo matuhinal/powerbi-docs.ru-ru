@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839606"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271223"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Публикация отчета с разбивкой на страницы в службе Power BI
 
@@ -79,7 +79,7 @@ ms.locfileid: "66839606"
 
    ![Управление отчетом с разбивкой на страницы](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Подробное описание процесса и дальнейшие действия вы найдете в статье [об установке шлюза](service-gateway-install.md).
+1. Подробное описание процесса и дальнейшие действия см. в статье [Что такое локальный шлюз данных](service-gateway-onprem.md).
 
 ### <a name="gateway-limitations"></a>Ограничения шлюза
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558997"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230201"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -22,6 +22,18 @@ ms.locfileid: "67558997"
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](../../desktop-latest-update.md)  
 * [Новые возможности службы Power BI](../../service-whats-new.md)  
+
+## <a name="july-2019"></a>Июль 2019 г.
+
+### <a name="report-page-tooltips"></a>Всплывающие подсказки на странице отчета
+
+Подсказки для страницы отчета теперь поддерживаются при просмотре отчетов в мобильном приложении. Просто нажмите и удерживайте визуальный элемент, к которому привязана подсказка отчета, чтобы отобразить ее.  
+
+![Подсказка холста отчетов](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> Подсказки отчетов поддерживаются для устройств размером более 640 пикселей с окном просмотра на 320 пикселей. На устройствах меньшего размера используются подсказки по умолчанию.
+
 
 ## <a name="june-2019"></a>Июнь 2019 г.
 

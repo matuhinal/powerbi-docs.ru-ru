@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 07/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8833f9f4cc4bea23d2070ce19fe34f9400d6bac4
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 33b14b8e89a1ba4433896634b7f48a1fcfb6f80e
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823255"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324594"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop 
 
-## <a name="june-2019-update-2705494561"></a>Обновление за июнь 2019 г. (2.70.5494.561)
+## <a name="july-2019-update-2715523641"></a>Обновление за июль 2019 г. (2.71.5523.641)
 
-Состоялся выпуск наших июньских обновлений для отчетов, предоставляющих новую яркую цветовую схему для Power BI Desktop, а также множество других улучшений. 
+Наши обновления за июль предоставляют новые возможности и функции для Power BI Desktop. 
 
 Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
@@ -37,54 +37,41 @@ ms.locfileid: "66823255"
 Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Обновленный дизайн области [[видео]](https://youtu.be/7k-nP38uHyQ?t=8)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
-* Фильтры уровня визуальных элементов для срезов [[видео]](https://youtu.be/7k-nP38uHyQ?t=116) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
-* Сортировка для области анализатора производительности [[видео]](https://youtu.be/7k-nP38uHyQ?t=237) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
-* Обновления условного форматирования для параметров форматирования [[видео]](https://youtu.be/7k-nP38uHyQ?t=311)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
-* Подсказки для заголовков визуальных элементов отчетов [[видео]](https://youtu.be/7k-nP38uHyQ?t=530) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
-* Полная настройка меток для таблиц и матриц [[видео]](https://youtu.be/7k-nP38uHyQ?t=722) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
-* Поддержка синхронизации срезов для среза иерархии [[видео]](https://youtu.be/7k-nP38uHyQ?t=859) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
-* Согласованные размеры шрифтов для визуальных элементов [[видео]](https://youtu.be/7k-nP38uHyQ?t=962) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
+* Наборы значков для таблицы и матрицы [[видео]](https://youtu.be/l7OMRUF9UYg?t=11), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
+* Поддержка процентов для условного форматирования по правилам [[видео]](https://youtu.be/l7OMRUF9UYg?t=445) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
+* Общедоступная версия новой панели фильтров [[видео]](https://youtu.be/l7OMRUF9UYg?t=543) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
+* Поддержка цветов данных при использовании оси воспроизведения на точечных диаграммах [[видео]](https://youtu.be/l7OMRUF9UYg?t=610) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
+* Повышение производительности при использовании относительных дат и раскрывающихся срезов [[видео]](https://youtu.be/l7OMRUF9UYg?t=669) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
 
 
 ### <a name="analytics"></a>Аналитика
-* Обновления для визуального элемента "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/7k-nP38uHyQ?t=1064) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
-    * Ключевые факторы влияния с активным подключением к наборам данных Power BI
-    * Специальные возможности для ключевых факторов влияния
-    * Поддержка облачной функции RLS
-* Специальные возможности в диалоговом окне "Управление агрегатами" [[видео]](https://youtu.be/7k-nP38uHyQ?t=1213) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
-
-### <a name="modeling"></a>Моделирование
-* Новый оператор сравнения DAX == [[видео]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
+* Счетчики для визуального элемента "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/l7OMRUF9UYg?t=760) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
+* Улучшения агрегатов [[видео]](https://youtu.be/l7OMRUF9UYg?t=870) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Персонализированная область визуализации (предварительная версия)  [[видео]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* Три новых настраиваемых визуальных элемента и обновления [[видео]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* Теперь визуальный элемент PowerApps сертифицирован [[видео]](https://youtu.be/l7OMRUF9UYg?t=894) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
+* Три новых настраиваемых визуальных элемента и обновления [[видео]](https://youtu.be/l7OMRUF9UYg?t=932)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Подключение к общим и сертифицированным наборам данных [[видео]](https://youtu.be/7k-nP38uHyQ?t=1739) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
-* Соединитель Common Data Service теперь общедоступен [[видео]](https://youtu.be/7k-nP38uHyQ?t=1807) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
-* Соединитель Azure Data Explorer теперь общедоступен [[видео]](https://youtu.be/7k-nP38uHyQ?t=1823) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
-* Усовершенствования соединителя Cosmos DB [[видео]](https://youtu.be/7k-nP38uHyQ?t=1835) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
-* Соединитель данных Entersoft [[видео]](https://youtu.be/7k-nP38uHyQ?t=1851) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
+* Соединитель Azure Data Lake Storage 2-го поколения (бета-версия) [[видео]](https://youtu.be/l7OMRUF9UYg?t=1203) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
+* Соединитель Dynamics 365 Customer Insights [[видео]](https://youtu.be/l7OMRUF9UYg?t=1250) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
 
 
 ### <a name="data-preparation"></a>Подготовка данных
-* Усовершенствования в M Intellisense [[видео]](https://youtu.be/7k-nP38uHyQ?t=1866) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+* Новое преобразование: "Разделить столбец по позициям" [[видео]](https://youtu.be/l7OMRUF9UYg?t=1321) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#splitColumn) 
 
 
 > [!NOTE]
 > Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
 
-Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
 
 
 Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
