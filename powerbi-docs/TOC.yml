@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: Данные построителя отчетов
           href: report-builder-data.md
+        - name: "Использование общих наборов данных Power\_BI"
+          href: report-builder-shared-datasets.md
         - name: Советы по проектированию
           href: report-builder-design-tips.md
         - name: 'Таблицы, матрицы, списки'
