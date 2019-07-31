@@ -947,6 +947,8 @@
           href: report-builder-expressions.md
         - name: Примеры выражений
           href: report-builder-expression-examples.md
+        - name: Разбивка отчета на страницы
+          href: paginated-reports-pagination.md
         - name: Предварительный просмотр отчетов
           href: report-builder-previewing-reports.md
         - name: Вопросы и ответы по отчетам с разбивкой на страницы
