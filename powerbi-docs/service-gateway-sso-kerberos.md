@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c6ba802427fc33e3be6f91fc59c158d18975677
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523585"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624046"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
@@ -469,7 +469,7 @@ ms.locfileid: "68523585"
 
 Дополнительные сведения о **локальном шлюзе данных** и **DirectQuery** см. в следующих ресурсах:
 
-* [Что такое локальный шлюз данных?](/data-integration/gateway/service-gateway-getting-started)
+* [Что такое локальный шлюз данных?](/data-integration/gateway/service-gateway-onprem)
 * [Power BI и DirectQuery](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)
 * [Использование DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
