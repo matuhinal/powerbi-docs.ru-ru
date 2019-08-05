@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770029"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415370"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
 
@@ -50,6 +50,7 @@ ms.locfileid: "64770029"
 
 При настройке основных параметров, необходимых для приведения сервера отчетов в рабочее состояние, сервер отчетов Power BI установит значения по умолчанию. Должны выполняться следующие требования.
 
+* Поддерживаемые языки для сервера отчетов Power BI: английский, немецкий, испанский, японский, итальянский, французский, русский, китайский (упрощенное письмо), китайский (традиционное письмо), португальский (Бразилия), корейский
 * Ядро СУБД SQL Server должно быть доступным после установки и до настройки базы данных сервера отчетов. На экземпляре ядра СУБД должна размещаться база данных сервера отчетов, которую создаст диспетчер конфигурации Services. Для самой установки ядро СУБД не требуется.
 * В статье [Возможности служб Reporting Services, поддерживаемые различными выпусками SQL Server 2016](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) описаны различия между выпусками SQL Server.
 * Учетная запись пользователя, от имени которой выполняется программа установки, должна входить в локальную группу администраторов.

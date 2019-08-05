@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61066275"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522720"
 ---
 # <a name="view-power-bi-notifications"></a>Просмотр уведомлений в Power BI
 Центр уведомлений — это канал непрерывной передачи информации, связанной с работой Power BI. С его помощью можно просматривать сообщения о новых панелях мониторинга, к которым вам предоставлен доступ, об изменениях в вашем групповом пространстве, сведения о мероприятиях и встречах, связанных с Power BI, настроенные оповещения и многое другое. [Оповещения можно настраивать в службе Power BI](../service-set-data-alerts.md) и мобильных приложениях Power BI.

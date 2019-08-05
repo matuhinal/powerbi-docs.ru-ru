@@ -1,6 +1,6 @@
 ---
 title: Настройка параметров потоков данных рабочей области
-description: Настройка рабочей области приложения в Power BI для хранения определения потока данных и файлов данных в Gen2 хранилища Озера данных Azure
+description: Настройка рабочей области приложения в Power BI для хранения файлов определения и файлов данных потока данных в Azure Data Lake Storage 2-го поколения
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168613"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523499"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Настройка параметров потоков данных рабочей области (предварительная версия)
 

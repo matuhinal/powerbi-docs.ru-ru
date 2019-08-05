@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271186"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380219"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
 Прежде чем [опубликовать](https://docs.microsoft.com/power-bi/developer/office-store) визуальный элемент в AppSource, чтобы его могли найти и использовать другие люди, убедитесь, что соблюдены рекомендации по обеспечению интерфейса для эффективной работы пользователей. 
@@ -26,7 +26,7 @@ ms.locfileid: "68271186"
 
 ## <a name="logo-guidelines"></a>Рекомендации по логотипам
 
-В этом разделе описываются спецификации для добавления эмблем и логотипов в визуальные элементы.
+В этом разделе описываются спецификации для добавления эмблем и логотипов в визуальные элементы. Логотипы не являются обязательными. В случае добавления они должны соответствовать этим рекомендациям. 
 
 > [!IMPORTANT]
 > Логотипы доступны *только в режиме редактирования*. Их *невозможно* отобразить в режиме просмотра.

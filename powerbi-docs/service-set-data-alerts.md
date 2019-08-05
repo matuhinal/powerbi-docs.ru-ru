@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0efbcf61eea82dd1db016917c7fa7c53e06c8a66
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a26cd6d654f9378d9fa09ae46b64762213b26089
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407616"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522986"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Оповещения о данных в службе Power BI
 Вы можете настроить оповещения, уведомляющие вас о том, что данные в панелях мониторинга выходят за пределы заданного порога. 

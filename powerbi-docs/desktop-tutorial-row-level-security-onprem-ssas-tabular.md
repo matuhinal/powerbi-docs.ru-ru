@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826659"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523241"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
 
@@ -144,7 +144,7 @@ ms.locfileid: "66826659"
    
    Как **руководитель продаж** Sumit видит данные из всех регионов продаж. Он создает этот отчет (который мы сформировали на предыдущих этапах) и публикует его в службе Power BI.
    
-   После публикации он создает на его основе панель мониторинга в службе Power BI и называет ее **TabularDynamicSec**. На изображении ниже показано, что Sumit видит все данные для всех регионов продаж.
+   После публикации он создает на его основе панели мониторинга в службе Power BI и называет ее **TabularDynamicSec**. На изображении ниже показано, что Sumit видит все данные для всех регионов продаж.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ ms.locfileid: "66826659"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. Когда Jon Doe входит в службу **Power BI** и открывает общую панель мониторинга, созданную пользователем Sumit, он должен видеть **только** показатели продаж в подотчетном ему регионе. 
+3. Когда Jon Doe входит в службу **Power BI** и открывает общую панель мониторинга, созданную пользователем Sumit, должны отображаться **только** показатели продаж в подотчетном ему регионе. 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

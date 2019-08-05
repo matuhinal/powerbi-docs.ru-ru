@@ -1,6 +1,6 @@
 ---
-title: Пользовательские визуальны элементы организации в Power BI
-description: Применение и создание пользовательских визуальных элементов организации в Power BI, а также управление ими.
+title: Визуальны элементы организации в Power BI
+description: Применение и создание визуальных элементов организации в Power BI, а также управление ими
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421908"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415338"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Пользовательские визуальны элементы организации в Power BI
+# <a name="organizational-visuals-in-power-bi"></a>Визуальные элементы организации в Power BI
 
 В Power BI пользовательские визуальные элементы используются для создания уникальной визуализации, соответствующей вашим требованиям. Эти пользовательские визуальные элементы создаются разработчиками, когда другие визуальные элементы в Power BI не соответствуют их требованиям.
 

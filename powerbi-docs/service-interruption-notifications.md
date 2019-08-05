@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.author: mblythe
-ms.openlocfilehash: 0bb78e29cc3e9b9792d5916050179703281aa01a
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: a33ace000917311cbd060c853e0122034a396ae2
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68366756"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501726"
 ---
 # <a name="service-interruption-notifications"></a>Уведомления о перебое в работе служб
 
@@ -28,10 +28,10 @@ ms.locfileid: "68366756"
 - Надежность обновления моделей
 - Надежность обновления запросов
 
-После разрешения инцидента вы получите сообщение электронной почты с дальнейшими указаниями.
+К примерам таких уведомлений относятся ситуации, когда пользователи сталкиваются с расширенной задержкой в работе, включая открытие отчетов, обновление набора данных или выполнение запросов. После разрешения инцидента вы получите сообщение электронной почты с дальнейшими указаниями.
 
 > [!NOTE]
-> Сейчас эта функция доступна только для выделенных емкостей в Power BI Premium. Она недоступна для общей емкости.
+> Сейчас эта функция доступна только для выделенных емкостей в Power BI Premium. Она недоступна для общей или встроенной емкости.
 
 ## <a name="enable-notifications"></a>Включение уведомлений
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 17a4a3770cb2c3e2adff2bcce64c3e101688e002
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791863"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462277"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ закупок" для Power BI: Узнайте о возможностях
 
@@ -27,7 +27,7 @@ ms.locfileid: "67791863"
 
 ![Панель мониторинга для примера "Анализ закупок"](media/sample-procurement/procurement1.png)
 
-Этот пример входит в серию, демонстрирующую, как использовать Power BI с бизнес-данными, отчетами и панелями мониторинга. Он создан на основе реальных данных [obviEnce](http://www.obvience.com/), сделанных анонимными. Данные доступны в нескольких форматах: пакет содержимого, PBIX-файл Power BI Desktop или книга Excel. См. сведения в статье [Примеры данных, доступные для использования в службе Power BI](sample-datasets.md). 
+Этот пример входит в серию, демонстрирующую, как использовать Power BI с бизнес-данными, отчетами и панелями мониторинга. Он создан на основе реальных данных [obviEnce](http://www.obvience.com/), которые были анонимизированы. Данные доступны в нескольких форматах: пакет содержимого, PBIX-файл Power BI Desktop или книга Excel. См. сведения в статье [Примеры данных, доступные для использования в службе Power BI](sample-datasets.md). 
 
 В этом руководстве описано, как использовать пример пакета содержимого "Анализ закупок" в службе Power BI. Так как в Power BI Desktop и службе возможности работы с отчетами практически не отличаются, этот же пример PBIX-файла можно использовать и в Power BI Desktop. 
 

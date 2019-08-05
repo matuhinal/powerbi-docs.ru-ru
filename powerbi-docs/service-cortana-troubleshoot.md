@@ -11,20 +11,20 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cb0870bf6f1cdca3cb1f95dc516f5f9124422327
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375210"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523367"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Устранение неполадок Кортаны для Power BI
 Эта статья входит в серию статей. 
 
 > [!IMPORTANT]
-> Интеграция Cortana в Power BI рекомендуется. Начиная с 11 июня, Cortana больше не будет работать для любой панели мониторинга и отчеты.
+> Интеграция Кортаны признана нерекомендуемой в Power BI. Начиная с 11 июня Кортана перестанет работать для панелей мониторинга и отчетов.
 
-Если у вас возникли проблемы, интеграцией Кортаны в Power BI, вы обратились по нужному адресу. Выполните следующие действия, чтобы определить и устранить проблему.
+Если у вас возникают проблемы с интеграцией Кортаны и Power BI, эта статья именно для вас. Выполните следующие действия, чтобы определить и устранить проблему.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Почему Кортана не находит ответы из моих отчетов и панелей мониторинга Power BI?
 1. У вас есть учетная запись в Power BI?  Если нет, [зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/get-started/).

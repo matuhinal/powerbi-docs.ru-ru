@@ -1,5 +1,5 @@
 ---
-title: Часто задаваемые вопросы о пользовательских визуальных элементах Power BI
+title: Часто задаваемые вопросы о визуальных элементах Power BI
 description: Просмотрите список часто задаваемых вопросов о пользовательских визуальных элементах Power BI и ознакомьтесь с ответами.
 author: sranins
 ms.author: rasala
@@ -10,16 +10,18 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 58fa65abfa2d2cff5e02b34fe8db8aa10b36ee14
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497930"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415385"
 ---
-# <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Часто задаваемые вопросы о пользовательских визуальных элементах Power BI
+# <a name="frequently-asked-questions-about-power-bi-visuals"></a>Часто задаваемые вопросы о визуальных элементах Power BI
 
 ## <a name="organizational-custom-visuals"></a>Пользовательские визуальные элементы организации
+
+На портале администрирования можно управлять визуальными элементами Power BI для вашей организации.
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>Как может администратор управлять пользовательскими визуальными элементами организации?
 
