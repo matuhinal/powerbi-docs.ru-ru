@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978380"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624160"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URL-адреса Power BI для списка разрешений
 
@@ -38,7 +38,7 @@ ms.locfileid: "60978380"
 
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
-| 1 | **Требуется:** проверка подлинности и идентификация | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | Н/Д |
+| 1 | **Требуется:** проверка подлинности и идентификация | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)  | Н/Д |
 
 ## <a name="general-site-usage"></a>Общее использование сайта
 
@@ -47,7 +47,7 @@ ms.locfileid: "60978380"
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
 | 1 | **Требуется:** cерверные API | *.analysis.windows.net | TCP 443 |
-| 2 | **Требуется:** интеграция с Office 365 | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | Н/Д |
+| 2 | **Требуется:** интеграция с Office 365 | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | Н/Д |
 | 3 | **Требуется:** портал | app.powerbi.com | TCP 443 |
 | 4 | **Требуется:** телеметрия службы | dc.services.visualstudio.com | TCP 443 |
 | 5 | **Необязательно:** информационные сообщения | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +60,7 @@ ms.locfileid: "60978380"
 
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
-| 1 | **Требуется** для управления пользователями и просмотра журналов аудита | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | Н/Д |
+| 1 | **Требуется** для управления пользователями и просмотра журналов аудита | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | Н/Д |
 | | | |
 
 ## <a name="getting-data"></a>Получение данных
@@ -82,7 +82,7 @@ ms.locfileid: "60978380"
 
 | Строка | Цель | Назначение(я) | Порт(ы) |
 | --- | --- | --- | --- |
-| 1 | **Требуется:** интеграция с Excel | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | Н/Д |
+| 1 | **Требуется:** интеграция с Excel | См. документацию Office 365 по [URL-адресам для Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | Н/Д |
 | | | |
 
 ## <a name="custom-visuals"></a>Пользовательские визуальные элементы
@@ -94,7 +94,7 @@ ms.locfileid: "60978380"
 | 1 | **Требуется:** импорт пользовательского визуального элемента из интерфейса Marketplace или из файла | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **Необязательно:** Карты Bing | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Необязательно:** PowerApps | См. раздел [Необходимые службы](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) на сайте требований к системе PowerApps. | Н/Д |
-| 4 | **Необязательно:** Visio | См. документацию Office 365 по [URL-адресам Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), а также по [SharePoint Online и OneDrive для бизнеса](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business). | Н/Д |
+| 4 | **Необязательно:** Visio | См. документацию Office 365 по [URL-адресам Office Online и общим URL-адресам](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office), а также по [SharePoint Online и OneDrive для бизнеса](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business). | Н/Д |
 | | | |
 
 ## <a name="related-external-sites"></a>Связанные внешние сайты
@@ -109,6 +109,6 @@ ms.locfileid: "60978380"
 | 4 | **Необязательно:** внешние перенаправления | aka.ms <br> go.microsoft.com | TCP 443 |
 | 5 | **Необязательно:** веб-сайт обратной связи| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **Необязательно:** веб-сайт Power BI — целевая страница, ссылки на дополнительные сведения, веб-сайт службы поддержки, ссылки на материалы для скачивания, демонстрации партнеров и т. д. | powerbi.microsoft.com | TCP 443 |
-| 7 | **Необязательно:** Центр разработчиков Power BI | dev.powerbi.com | TCP 443 |
+| 7 | **Необязательно:** Центр по разработке для Power BI | dev.powerbi.com | TCP 443 |
 | 8 | **Необязательно:** веб-сайт службы поддержки | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

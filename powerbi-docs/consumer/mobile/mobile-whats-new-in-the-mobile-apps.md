@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230201"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665436"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -649,8 +649,6 @@ ms.locfileid: "68230201"
 Просмотр панелей мониторинга в [альбомном режиме на телефонах Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Приложение Power BI для устройств Windows 10
-Просмотр панелей мониторинга в [альбомном режиме на телефонах Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device).
-
 Просмотр [отчетов на телефонах с Windows 10](mobile-reports-in-the-mobile-apps.md).
 
 Ускоренный сбор [аналитики на информационных панелях на мобильных устройствах Windows 10](mobile-tiles-in-the-mobile-apps.md). Поделитесь моментальным снимком плитки или откройте отчет непосредственно с информационной панели.
