@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840310"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624145"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Примеры выражений в построителе отчетов Power BI
 Выражения часто используются в отчетах с разбивкой на страницы в построителе отчетов Power BI для управления содержимым и внешним видом отчета. Выражения записываются на языке Microsoft Visual Basic, и в них можно использовать встроенные функции, пользовательский код, переменные отчета, групповые переменные и определяемые пользователем переменные. Выражения начинаются со знака равенства (=).   
@@ -40,7 +40,7 @@ ms.locfileid: "66840310"
 ##  <a name="VisualBasicFunctions"></a> Функции языка Visual Basic  
  Функции языка Visual Basic позволяют управлять данными, отображаемыми в текстовых полях или используемыми для параметров, свойств и в других областях отчета. В этом разделе приведены примеры применения некоторых из этих функций. Дополнительные сведения см. в разделе [Компоненты библиотеки времени выполнения Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) на веб-сайте MSDN.  
   
- Платформа .NET Framework предоставляет множество параметров пользовательских форматов, например для конкретных форматов даты. Дополнительные сведения см. в статье [Типы форматирования](https://go.microsoft.com/fwlink/?LinkId=112024) на веб-сайте MSDN.  
+ Платформа .NET Framework предоставляет множество параметров пользовательских форматов, например для конкретных форматов даты. Дополнительные сведения см. в статье [Типы форматирования](/dotnet/standard/base-types/formatting-types).  
   
 ### <a name="math-functions"></a>Математические функции  
   

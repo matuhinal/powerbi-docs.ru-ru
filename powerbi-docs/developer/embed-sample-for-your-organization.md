@@ -1,6 +1,6 @@
 ---
 title: Внедрение аналитики для интеграции содержимого Power BI в приложение для вашей организации
-description: Узнайте, как внедрять в приложение необходимые организации отчеты, панели мониторинга или плитки, используя программные интерфейсы API Power BI для встроенной аналитики. Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
+description: Узнайте, как внедрять в приложение необходимые организации отчеты (Power BI или отчеты с разбивкой на страницы), панели мониторинга или плитки, используя программные интерфейсы API Power BI для встроенной аналитики. Узнайте, как выполнять интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61355519"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665555"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
-В **Power BI** можно внедрять в приложение отчеты, панели мониторинга и плитки, используя принадлежащие пользователю данные. **Принадлежащие пользователю данные** для приложения расширяют возможности службы Power BI, позволяя использовать встроенную аналитику. В этом руководстве показано, как интегрировать отчет в приложение. Вы можете использовать пакет SDK для .NET Power BI и API Power BI для JavaScript для внедрения Power BI в приложение для вашей организации.
+В **Power BI** можно внедрять в приложение отчеты (Power BI или отчеты с разбивкой на страницы), панели мониторинга и плитки, используя принадлежащие пользователю данные. **Принадлежащие пользователю данные** для приложения расширяют возможности службы Power BI, позволяя использовать встроенную аналитику. В этом руководстве показано, как интегрировать отчет (Power BI или отчет с разбивкой на страницы) в приложение. Вы можете использовать пакет SDK для .NET Power BI и API Power BI для JavaScript для внедрения Power BI в приложение для вашей организации.
 
 ![Внедрение отчета Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 В этом руководстве вы выполните следующие задачи:
 > [!div class="checklist"]
 > * регистрация приложения в Azure;
-> * внедрение отчета Power BI в приложение с помощью клиента Power BI.
+> * внедрение отчета Power BI или отчета с разбивкой на страницы в приложение с помощью клиента Power BI.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -35,6 +35,7 @@ ms.locfileid: "61355519"
 * [учетная запись Power BI Pro](../service-self-service-signup-for-power-bi.md);
 * подписка [Microsoft Azure](https://azure.microsoft.com/);
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
+* Для внедрения отчетов с разбивкой на страницы требуется емкость не менее A4/P1. См. статью [Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
 
 Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
 
@@ -44,7 +45,7 @@ ms.locfileid: "61355519"
 
 Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, необходимо убедиться, что среда допускает внедрение с помощью Power BI.
 
-Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета.
+Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета. При внедрении отчета с разбивкой на страницы вам понадобится емкость не менее A4/P1 для создаваемой рабочей области приложения.
 
 Если вы решили настроить среду вручную, см. инструкции ниже.
 
@@ -60,7 +61,7 @@ ms.locfileid: "61355519"
 
 Если вы планируете внедрить отчеты, информационные панели и (или) плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области этого приложения. Можно настроить рабочие области разных типов: [традиционные](../service-create-workspaces.md) или [новые](../service-create-the-new-workspaces.md).
 
-### <a name="create-and-publish-your-reports"></a>Создание и публикация отчетов
+### <a name="create-and-publish-your-power-bi-reports"></a>Создание и публикация отчетов Power BI
 
 С помощью Power BI Desktop можно создавать отчеты и наборы данных. Затем можно публиковать эти отчеты в рабочей области приложения. У пользователя, публикующего отчеты в рабочей области приложения, должна быть лицензия Power BI Pro.
 
@@ -79,7 +80,11 @@ ms.locfileid: "61355519"
     Теперь вы можете просмотреть отчет в веб-службе Power BI.
 
    ![Просмотр отчета Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>Создание и публикация отчетов с разбивкой на страницы
 
+Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [загрузить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область приложения, которому назначена емкость не менее A4/P1. У конечного пользователя, загружающего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области приложения.
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 
 Этот пример намеренно упрощен в целях наглядности.
@@ -124,30 +129,6 @@ ms.locfileid: "61355519"
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>Секрет приложения
-
-Этот атрибут необходим только для типа проверки подлинности [субъект-служба](embed-service-principal.md).
-
-Заполните сведения **ApplicationID** из раздела **Ключи** раздела **Регистрация приложений** в **Azure**.  Этот атрибут действует при использовании [субъекта-службы](embed-service-principal.md).
-
-Чтобы получить значение **ApplicationSecret**, сделайте следующее.
-
-1. Войдите на [портал Azure](https://portal.azure.com).
-
-2. В области навигации слева выберите **Все службы** и щелкните **Регистрация приложений**.
-
-3. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
-
-    ![Выбор приложения](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. Выберите **сертификаты и секреты** под **управление**.
-
-5. Выберите **новый секрет клиента**.
-
-6. Введите имя в поле **Описание** и выберите длительность. Затем выберите **Сохранить**, чтобы получить **Значение** для вашего приложения. Когда вы закроете панель **Ключи** после сохранения значения ключа, поле значения отображается только как скрытое. На этом этапе вы не можете получить значение ключа. Если вы потеряете значение ключа, потребуется создать новое на портале Azure.
-
-    ![Значение ключа](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>Идентификатор рабочей области
 
 Укажите в поле **workspaceId** GUID рабочей области (группы) приложения из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 Укажите в поле **reportId** значение GUID отчета из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
 
-URL-адрес <br>
+URL-адрес отчета Power BI <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![Идентификатор отчета Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+URL-адрес отчета с разбивкой на страницы <br>
+
+
+
+URL-адрес отчета с разбивкой на страницы<br>
+
+![Идентификатор отчета с разбивкой на страницы](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 PowerShell <br>
 
@@ -184,9 +173,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Укажите в сведениях **AADAuthorityUrl** URL-адрес, который позволяет осуществлять внедрение с помощью клиента организации либо гостевого пользователя.
 
-Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize* .
+Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize*.
 
-Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id* , где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
+Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id*, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Запуск приложения
 
@@ -214,13 +203,13 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>Получение отчета
 
-Для получения отчета Power BI используется операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports), возвращающая список отчетов Power BI. В списке отчетов можно получить идентификатор отчета.
+Для получения отчета Power BI или отчета с разбивкой на страницы используется операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports), возвращающая список отчетов Power BI и отчетов с разбивкой на страницы. В списке отчетов можно получить идентификатор отчета.
 
 ### <a name="get-reports-by-using-an-access-token"></a>Получение отчетов с помощью маркера доступа
 
 Операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
 
-Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}* .
+Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
 
 #### <a name="get-reports-with-the-rest-api"></a>Получение отчетов с помощью REST API
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
-Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области приложения. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium-what-is.md).
+Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области приложения. Для отчетов с разбивкой на страницы рабочая область приложения должна иметь емкость не менее A4/P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium-what-is.md).
 
 В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft Office 365](../service-admin-premium-purchase.md).
 
@@ -435,7 +425,7 @@ function updateEmbedReport() {
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-В этом руководстве вы узнали, как внедрить содержимое Power BI в свое приложение с помощью учетной записи организации Power BI. Теперь вы можете попробовать внедрить содержимое Power BI в приложение с помощью приложений. Кроме того, вы можете попробовать внедрить содержимое Power BI для своих клиентов:
+В этом руководстве вы узнали, как внедрить содержимое Power BI в свое приложение с помощью учетной записи организации Power BI. Теперь вы можете попробовать внедрить содержимое Power BI в приложение с помощью приложений. Кроме того, вы можете попробовать внедрить содержимое Power BI для своих клиентов (на данный момент не поддерживается внедрение отчетов с разбивкой на страницы):
 
 > [!div class="nextstepaction"]
 > [Внедрение из приложений](embed-from-apps.md)

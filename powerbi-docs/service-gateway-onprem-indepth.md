@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: de3400989e6d8fe62c03d6b21707559fac0fd7bf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271437"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729962"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Локальный шлюз данных во всех подробностях
 
@@ -55,9 +55,9 @@ ms.locfileid: "68271437"
 
 См. статью [Как узнать свое имя участника-пользователя?](/data-integration/gateway/service-gateway-onprem-indepth#how-do-i-tell-what-my-upn-is).
 
-## <a name="mapping-usernames-for-analysis-services-data-sources"></a>Сопоставление имен пользователей для источников данных Analysis Services
+## <a name="map-user-names-for-analysis-services-data-sources"></a>Сопоставление имен пользователей для источников данных Analysis Services
 
-См. статью [Сопоставление имен пользователей для источников данных Analysis Services](service-gateway-enterprise-manage-ssas.md#mapping-usernames-for-analysis-services-data-sources).
+См. статью [Сопоставление имен пользователей для источников данных Analysis Services](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources).
 
 ## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>Синхронизация локальной Active Directory с Azure Active Directory
 

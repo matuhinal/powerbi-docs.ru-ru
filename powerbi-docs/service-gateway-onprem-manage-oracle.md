@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271481"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730232"
 ---
 # <a name="manage-your-data-source---oracle"></a>Управление своим источником данных — Oracle
 
@@ -73,7 +73,7 @@ CONTOSO =
 Кроме того, нужно выбрать **Метод проверки подлинности**.  Можно выбрать параметр **Windows** или **Базовый**.  Если планируется использовать учетную запись, созданную в Oracle, а не с помощью проверки подлинности Windows, выберите вариант **Базовый**. Затем введите учетные данные, которые будут использоваться для этого источника данных.
 
 > [!NOTE]
-> Все запросы к источнику данных будут выполняться с использованием этих учетных данных. Дополнительные сведения о хранении учетных данных см. в статье [Хранение зашифрованных учетных данных в облаке](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Все запросы к источнику данных будут выполняться с использованием этих учетных данных. Дополнительные сведения о хранении учетных данных см. в статье [Хранение зашифрованных учетных данных в облаке](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Задание параметров источников данных](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 
@@ -81,7 +81,7 @@ CONTOSO =
 
 ![Отображение состояния подключения](media/service-gateway-onprem-manage-oracle/datasourcesettings4.png)
 
-### <a name="advanced-settings"></a>Дополнительные настройки
+### <a name="advanced-settings"></a>Дополнительные параметры
 
 Для источника данных также можно настроить уровень конфиденциальности. Он определяет, каким образом можно комбинировать данные. Используется только для запланированного обновления. Не применяется к DirectQuery. Дополнительные сведения об уровнях конфиденциальности для источника данных см. в статье [Уровни конфиденциальности (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 

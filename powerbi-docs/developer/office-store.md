@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269944"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623825"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Публикация настраиваемых визуальных элементов в AppSource
 
@@ -22,7 +22,7 @@ ms.locfileid: "61269944"
 
 Создав настраиваемый визуальный элемент, опубликуйте его в AppSource, чтобы он стал доступным для других пользователей. Перед публикацией необходимо выполнить некоторые подготовительные действия. Дополнительные сведения о создании собственных визуальных элементов: [Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md).
 
-   ![Магазин Office](media/office-store/AppSource_01.jpg)
+   ![Магазин Office](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>Что такое AppSource?
 
@@ -30,7 +30,7 @@ ms.locfileid: "61269944"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Подготовка к отправке пользовательской визуализации
 
-Когда все будет готово чтение наших [рекомендации визуальных элементов Power BI](guidelines-powerbi-visuals.md), кодирования и [тестирование пользовательского визуального элемента](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) и упаковав его в файл pbiviz, также необходимо иметь следующие готовые к отправке.
+После ознакомления с [рекомендациями по использованию визуальных элементов Power BI](guidelines-powerbi-visuals.md), написания кода, [тестирования ](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) и упаковки настраиваемого визуального элемента в PBIVIZ-файл вам необходимо подготовить к отправке следующие элементы.
 
 | Элемент | Требуется | Описание |
 | --- | --- | --- |

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 76361bba2690e0ab6ae8fa49008d7a6accae900e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 60d97d8b2226e9a3f9aba2bf043bd9c6aade161a
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325082"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665314"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Пакеты R в службе Power BI
 Вы можете использовать эффективный [язык программирования R](https://www.r-project.org/) для создания визуальных элементов в службе Power BI. Большинство пакетов R поддерживаются в службе Power BI (кроме того, они поддерживаются постоянно), а некоторые из них не поддерживаются.
@@ -29,6 +29,7 @@ ms.locfileid: "68325082"
 ## <a name="requirements-and-limitations-of-r-packages"></a>Требования и ограничения для пакетов R
 Для пакетов R существуют определенные требования и ограничения.
 
+* Текущая среда выполнения R: Microsoft R 3.4.4
 * Служба Power BI преимущественно поддерживает пакеты R с лицензиями на свободное ПО и ПО с открытым исходным кодом, включая GPL-2, GPL-3, MIT+ и т. д.
 * Служба Power BI поддерживает пакеты, опубликованные в CRAN. Служба не поддерживает закрытые или пользовательские пакеты R. Пользователям рекомендуется сделать свои закрытые пакеты доступными в CRAN, прежде чем запрашивать доступность пакета в службе Power BI.
 * Для **Power BI Desktop** доступны два варианта пакетов R:

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141630"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665451"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 Область применения:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Устройства под управлением Windows 10](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Телефоны под управлением Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Планшеты Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Устройства под управлением Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Телефоны под управлением Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Планшеты Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 Панели мониторинга — это портал к жизнедеятельности и рабочим процессам вашей компании. Она представляет общую картину и служит единой точкой контроля текущего состояния бизнеса.
 
@@ -145,45 +145,6 @@ ms.locfileid: "61141630"
     ![Путь навигации](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Для увеличения и уменьшения масштаба различных областей панели мониторинга или панорамирования можно использовать жест сжатия или разведения двумя пальцами. Чтобы открыть плитку в режиме фокусировки и работать с данными, также можно [коснуться плитки](mobile-tiles-in-the-mobile-apps.md).
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Просмотр панелей мониторинга на устройстве Windows 10
-1. Откройте приложение Power BI на устройстве Windows 10 и выполните вход.
-   
-   Хотите сначала [скачать приложение](http://go.microsoft.com/fwlink/?LinkID=526478)?
-2. Коснитесь панели мониторинга, которую нужно открыть.   
-   
-   ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * Черные звездочки показывают, какие панели мониторинга являются избранными. 
-   * Нотация под названием каждой панели мониторинга (в этом примере — **MBI**) показывает, как в каждой панели мониторинга классифицируются данные. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
-   
-   Панели мониторинга Power BI на телефоне с Windows 10 выглядят немного иначе. Все плитки отображаются с той же шириной, но идут одна за другой сверху вниз.
-   
-   ![Книжная ориентация панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    Вы также можете повернуть свой телефон набок, чтобы увидеть их в альбомной ориентации.
-   
-   > [!TIP]
-   > Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
-   > 
-   > 
-3. На информационной панели вы можете сделать следующее.
-   
-   * [Коснитесь плитки](mobile-tiles-in-the-mobile-apps.md), чтобы открыть ее и начать с ней работу.
-   * Нажмите на значок **полноэкранного режима** ![Значок полноэкранного режима](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png), чтобы просмотреть панель мониторинга Power BI без границ и меню, как на **слайд-шоу** в PowerPoint.
-   * Коснитесь значка **Пригласить** ![Значок "Пригласить"](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png), чтобы предоставить коллеге [доступ к панели мониторинга](mobile-share-dashboard-from-the-mobile-apps.md).
-   * Чтобы [добавить панель мониторинга в избранное](mobile-apps-favorites.md), коснитесь ![значка звездочки ](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png).
-   * Нажмите на значок **Закрепить на начальном экране**, чтобы [закрепить панель мониторинга на начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). 
-4. Для возврата на домашнюю страницу панелей мониторинга коснитесь имени панели мониторинга, чтобы открыть путь навигации, а затем выберите **Моя рабочая область**:
-   
-    ![Путь навигации](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Просмотр панелей мониторинга в альбомном режиме на телефонах Windows 10
-Вы также можете расположить информационные панели в альбомном режиме, просто повернув телефон. Макет панели мониторинга изменится — вместо ряда плиток появится представление всей панели &#151; мониторинга, где все плитки будут расположены так же, как в службе Power BI.
-
-![Альбомная ориентация панели мониторинга](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-Для увеличения и уменьшения масштаба различных областей панели мониторинга или панорамирования можно использовать жест сжатия или разведения двумя пальцами. Чтобы открыть плитку в режиме фокусировки и работать с данными, также можно [коснуться плитки](mobile-tiles-in-the-mobile-apps.md).
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Создание представления панели мониторинга для телефонов в службе Power BI
 Если панель мониторинга принадлежит вам, то *в службе Power BI* вы сможете создать представление панели специально для телефонов для просмотра в книжной ориентации. 

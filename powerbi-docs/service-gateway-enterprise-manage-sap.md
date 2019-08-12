@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271745"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730005"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Управление своим источником данных — SAP HANA
 
@@ -32,7 +32,7 @@ ms.locfileid: "68271745"
 Выбрав тип источника данных SAP HANA, укажите для него значения **Сервер**, **Имя пользователя** и **Пароль**.
 
 > [!NOTE]
-> Все запросы к источнику данных будут выполняться с использованием этих учетных данных. Дополнительные сведения о хранении учетных данных см. в статье [Хранение зашифрованных учетных данных в облаке](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Все запросы к источнику данных будут выполняться с использованием этих учетных данных. Дополнительные сведения о хранении учетных данных см. в статье [Хранение зашифрованных учетных данных в облаке](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Задание параметров источников данных](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "68271745"
 
 ![Отображение состояния подключения](media/service-gateway-enterprise-manage-sap/datasourcesettings4.png)
 
-### <a name="advanced-settings"></a>Дополнительные настройки
+### <a name="advanced-settings"></a>Дополнительные параметры
 
 Для источника данных также можно настроить уровень конфиденциальности. Он определяет, каким образом можно комбинировать данные. Используется только для запланированного обновления. Не применяется к DirectQuery. Дополнительные сведения об уровнях конфиденциальности для источника данных см. в статье [Уровни конфиденциальности (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
@@ -72,7 +72,7 @@ ms.locfileid: "68271745"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Устранение неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot)
-* [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)  
+* [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
 

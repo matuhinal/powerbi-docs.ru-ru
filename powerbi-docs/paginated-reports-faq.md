@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 07/15/2019
-ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270778"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665367"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: ВОПРОСЫ И ОТВЕТЫ 
 
@@ -162,7 +162,7 @@ ms.locfileid: "68270778"
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Могу ли я с помощью Power BI Embedded внедрить отчеты с разбивкой на страницы в размещаемое приложение?
 
-Внедрение SaaS будет поддерживаться во временном интервале июня.  Мы также планируем реализовать поддержку внедрения PaaS в существующих интерфейсах API Power BI, но пока не определили временной интервал, когда этот сценарий будет доступен.
+Внедрение SaaS уже поддерживается. Внедрение PaaS на данный момент не поддерживается.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Могу ли я переходить из отчета Power BI в отчет с разбивкой на страницы для просмотра подробных сведений?
 
