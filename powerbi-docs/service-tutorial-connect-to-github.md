@@ -1,5 +1,5 @@
 ---
-title: Руководство. Соединиться с репозиторием GitHub с помощью Power BI
+title: Руководство. Подключение к репозиторию в GitHub с помощью Power BI
 description: В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты.
 author: maggiesMSFT
 manager: kfile
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 04/19/2019
+ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3aeb1fc16ae200399125a2366a8993d45aad34c4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578626"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867146"
 ---
-# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Руководство. Соединиться с репозиторием GitHub с помощью Power BI
-В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключение к Power BI на общедоступный репозиторий содержимого (также называется *репозитория*) и просмотреть ответы на следующие вопросы: сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; И другие вопросы. 
+# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Руководство. Подключение к репозиторию в GitHub с помощью Power BI
+В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключившись к общедоступному *репозиторию* содержимого Power BI, можно знать ответы на подобные вопросы: сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; И другие вопросы. 
 
 ![Отчет GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "64578626"
 
 Для прохождения этого учебника требуется учетная запись GitHub. 
 
-- Зарегистрируйтесь в службе [учетной записи GitHub](https://docs.microsoft.com/contribute/get-started-setup-github).
+- [Зарегистрируйте учетную запись GitHub](https://docs.microsoft.com/contribute/get-started-setup-github).
 
 
 ## <a name="how-to-connect"></a>Способы подключения
@@ -49,15 +49,15 @@ ms.locfileid: "64578626"
    
    ![Кнопка "Получить приложения" в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. Выберите **приложений**, тип **GitHub** в поле поиска > **получить сейчас**.
+3. Выберите **Приложения**, в поле поиска введите **GitHub** и нажмите кнопку **Получить**.
    
    ![Кнопка "Получить" в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. В **установить это приложение Power BI?** выберите **установить**.
-5. В **нового приложения готов**выберите **перейдите к приложению**.
-6. В **приступить к работе с нового приложения**выберите **подключайте данные из**.
+4. В окне **Установить это приложение Power BI?** выберите **Установить**.
+5. В окне **Новое приложение готово** выберите **Перейти к приложению**.
+6. На экране **Начало работы с новым приложением** выберите **Подключиться**.
 
-    ![Начало работы с новым приложением](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+    ![Начало работы с новым приложением](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
 7. Введите имя и владельца репозитория. URL-адрес этого репозитория — https://github.com/MicrosoftDocs/powerbi-docs, поэтому в поле **Владелец репозитория** укажите **MicrosoftDocs**, а в поле **Репозиторий** — **powerbi-docs**. 
    
@@ -65,18 +65,18 @@ ms.locfileid: "64578626"
 
 5. Введите созданные учетные данные GitHub. Power BI может пропустить этот шаг, если вы уже вошли в GitHub в браузере. 
 
-6. Для **метод проверки подлинности**, Сохранить **oAuth2** выбранного \> **Sign In**.
+6. В качестве метода **проверки подлинности** оставьте для **oAuth2** \> **Войти**.
 
-7. Следуйте инструкциям на экране. Предоставьте Power BI разрешение на доступ к данным GitHub.
+7. Следуйте инструкциям по проверке подлинности GitHub на экране. Предоставьте Power BI разрешение на доступ к данным GitHub.
    
    Теперь Power BI может подключаться к данным в GitHub.  Данные обновляются раз в день.
 
-8. После импорта данных в Power BI вы увидите содержимое новой рабочей областью GitHub. 
-9. Щелкните стрелку рядом с именем рабочей области в панели навигации слева. Видно, что рабочая область содержит панель мониторинга и отчета. 
+8. После импорта данных в Power BI отображается содержимое новой рабочей области GitHub. 
+9. Щелкните стрелку рядом с именем рабочей области на левой панели навигации. Отображается рабочая область, содержащая панель мониторинга и отчет. 
 
-    ![Приложения в области навигации слева](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![Приложение на панели навигации слева](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Нажмите кнопку с многоточием (...) рядом с именем панели мониторинга > **Переименовать** > тип **информационная панель GitHub**.
+10. Щелкните многоточие (...) рядом с именем панели мониторинга > **Переименовать** > введите **Панель мониторинга GitHub**.
  
     ![Плитка GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -84,9 +84,9 @@ ms.locfileid: "64578626"
 
     ![Значок глобальной навигации](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
-10. Выбор информационной панели GitHub.
+10. Выберите вашу панель мониторинга GitHub.
     
-    Информационная панель GitHub содержит реальные данные, поэтому значения, которые вы видите может отличаться.
+    Панель мониторинга GitHub содержит динамические данные, поэтому в вашем случае значения могут быть другими.
 
     ![Панель мониторинга GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 
@@ -94,28 +94,28 @@ ms.locfileid: "64578626"
 
 ## <a name="ask-a-question"></a>Задать вопрос
 
-1. Поместите курсор в **задать вопрос о данных**. Power BI предлагает **вопросы, чтобы приступить к работе**. 
+1. Установите курсор в поле **Задать вопрос о своих данных**. Power BI предлагает **Вопросы для начала работы**. 
 
-1. Выберите **числа пользователей существуют**.
+1. Выберите **Количество пользователей**.
  
-    ![Существуют ли количество пользователей](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
+    ![Количество пользователей](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. В диапазоне от **сколько** и **существуют ли пользователи**, тип **на запросы на включение внесенных изменений**. 
+13. Между **количество** и **пользователей** введите **запросов на вытягивание на**. 
 
-     Power BI создает Гистограмма, показывающая количество запросов на включение внесенных изменений на человека.
+     Power BI создаст линейчатую диаграмму с числом запросов на вытягивание по пользователям.
 
-    ![Существуют ли количество запросов на включение внесенных изменений на пользователя](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
+    ![Количество запросов на вытягивание на пользователя](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. Щелкните значок закрепления, чтобы закрепить ее на панель мониторинга, затем **Exit Q & A**.
+13. Нажмите на булавку, чтоб закрепить на панели мониторинга и выберите **Выход из вопросов и ответов**.
 
 ## <a name="view-the-github-report"></a>Просмотр отчета GitHub 
 
-1. В панели GitHub, выделите гистограмму **запросов на Вытягивание по месяцам** для открытия соответствующего отчета.
+1. На панели мониторинга GitHub выберите гистограмму **Запросы на вытягивание по месяцам**, чтобы открыть связанный отчет.
 
-    ![Запросы на Вытягивание по месяц Гистограмма](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
+    ![Гистограмма "Запросы на вытягивание по месяцам"](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. Выберите имя пользователя в **всего запросов на Вытягивание пользователем** диаграммы. В этом примере мы видим, что большая часть свои часы в феврале.
+2. Выберите имя пользователя в диаграмме **Общее число запросов на вытягивание на пользователя**. В этом примере мы видим, что большая часть часов пришлась на февраль.
 
     ![Отчет GitHub в Power BI с выделенными данными по пользователю](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
@@ -123,7 +123,7 @@ ms.locfileid: "64578626"
  
     ![Страница "Перфокарта" отчета GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    Как видно во вторник в 15: 00 — это наиболее общее время и день недели для *фиксирует*, когда люди проверять свою работу.
+    Очевидно, что больше всего *фиксаций* приходится на 15:00 во вторник.
 
 ## <a name="clean-up-resources"></a>Очистка ресурсов
 

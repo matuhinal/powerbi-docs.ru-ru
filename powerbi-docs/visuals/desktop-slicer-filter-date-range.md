@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532740"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867091"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Использование среза и фильтра относительных дат в Power BI Desktop
 
@@ -75,7 +75,7 @@ ms.locfileid: "67532740"
 
 * в ограниченных срезом визуальных элементах будут показаны данные за два предыдущих месяца,
 
-* начиная с 20 мая и по 20 июля (текущая дата)
+* начиная с 21 мая и по 20 июля (текущая дата)
 
 Для сравнения, если вы выбрали *Months (Calendar)* (Календарные месяцы), в ограниченных визуальных элементах отобразятся данные с 1 мая по 30 июня (за два последних полных календарных месяца).
 

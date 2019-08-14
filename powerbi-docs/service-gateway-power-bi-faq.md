@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730264"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867055"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Вопросы и ответы о локальном шлюзе данных — Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730264"
 
 ## <a name="power-bi"></a>Power BI
 
-**Вопрос.** Нужно ли обновлять персональный шлюз? 
+**Вопрос.** Нужно ли обновлять локальный шлюз данных (персональный режим)?
 
-**Ответ.** Нет, вы можете продолжать использовать персональный шлюз для работы с Power BI.
+**Ответ.** Нет, вы можете продолжать использовать шлюз (персональный режим) для работы с Power BI.
 
 **Вопрос.** Требуются ли специальные разрешения для установки шлюза и управления им в службе Power BI?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730264"
 
 **Вопрос.** Почему я не могу подключиться к серверу Oracle? 
 
-**Ответ.** Чтобы подключиться к серверу Oracle, может потребоваться установить клиент Oracle и указать в файле tnsnames.ora необходимую информацию о сервере. Эта установка выполняется отдельно за пределами шлюза. Дополнительные сведения см. в статье [Установка клиента Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Ответ.** Чтобы подключиться к серверу Oracle, может потребоваться установить клиент Oracle и указать в файле tnsnames.ora необходимую информацию о сервере. Эта установка выполняется отдельно за пределами шлюза. Дополнительные сведения см. в статье [Установка клиента Oracle](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
 
 **Вопрос.** Будет ли шлюз работать с Azure ExpressRoute? 
 

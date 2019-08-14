@@ -1,83 +1,85 @@
 ---
-title: Совместная работа в рабочей области приложения Power BI
-description: Узнайте, как совместно работать с файлами Power BI Desktop в рабочей области приложения, используя такие возможности службы Office 365, как предоставление общего доступа к файлам в OneDrive для бизнеса, общение в Exchange, календарь и задачи.
+title: Совместная работа в классической рабочей области
+description: Узнайте, как совместно работать с файлами Power BI Desktop в рабочей области, используя такие возможности службы Office 365, как предоставление общего доступа к файлам в OneDrive для бизнеса, общение в Exchange, календарь и задачи.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
+ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181680"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68832430"
 ---
-# <a name="collaborate-in-your-power-bi-app-workspace"></a>Совместная работа в рабочей области приложения Power BI
-Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с информационными панелями, отчетами и наборами данных для создания *приложения*. Совместная работа не ограничивается рабочими областями в Power BI. В Office 365 доступны и другие службы групп, включая решения по совместному использованию файлов в OneDrive для бизнеса, общению в Exchange, а также общий календарь, задачи и т. д. Узнайте подробнее о [группах в Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
+# <a name="collaborate-in-a-classic-workspace"></a>Совместная работа в классической рабочей области
+Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с панелями мониторинга, отчетами и наборами данных для создания *приложений*. Эта статья посвящена оригинальным, *классическим* рабочим областям.  
+
+Совместная работа не ограничивается рабочими областями в Power BI. При создании одной из классических рабочих областей в Power BI вы автоматически создаете группу Office 365 в фоновом режиме. В Office 365 доступны и другие службы групп, включая решения по совместному использованию файлов в OneDrive для бизнеса, общению в Exchange, а также общий календарь, задачи и т. д. Узнайте подробнее о [группах в Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
 > [!NOTE]
-> В предварительной версии нового интерфейса рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Вы не будете автоматически создавать группу Office 365 каждый раз при создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей (предварительная версия)](service-create-the-new-workspaces.md)
+> В новом интерфейсе рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. При создании одной из новых рабочих областей в Power BI вы больше автоматически не создаете группу Office 365 в фоновом режиме. Дополнительные сведения см. в статье [Создание рабочих областей в Power BI](service-create-the-new-workspaces.md).
 
-Рабочие области приложений доступны только по лицензии [Power BI Pro](service-features-license-type.md).
+Для создания рабочей области потребуется лицензия [Power BI Pro](service-features-license-type.md).
 
-## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>Совместная работа над файлами Power BI Desktop в рабочей области приложения
-Если после создания файла Power BI Desktop вы публикуете его в рабочей области приложения Power BI, все участники рабочей области могут совместно работать с ним.
+## <a name="collaborate-on-power-bi-desktop-files-in-a-workspace"></a>Совместная работа над файлами Power BI Desktop в рабочей области
+Если после создания файла Power BI Desktop вы публикуете его в рабочей области, все участники рабочей области могут совместно работать с ним.
 
-1. В Power BI Desktop на ленте **Главная** выберите **Публикация**. Затем в поле **Выбор целевой папки** выберите рабочую область приложения.
+1. В Power BI Desktop на ленте **Главная** выберите **Публикация**. Затем в поле **Выбор целевой папки** выберите рабочую область.
    
     ![Значок "Публикация"](media/service-collaborate-power-bi-workspace/power-bi-group-publish-pbix.png)
-2. В службе Power BI щелкните стрелку рядом с меню "Рабочие области" и выберите рабочую область своего приложения.
+2. В службе Power BI щелкните стрелку рядом с меню **Рабочие области** и выберите рабочую область.
    
-    ![Рабочие области приложений](media/service-collaborate-power-bi-workspace/power-bi-workspace-nav-arrow.png)
-3. Откройте вкладку "Отчеты" и выберите отчет.
+    ![Рабочие области](media/service-collaborate-power-bi-workspace/power-bi-workspace-nav-arrow.png)
+3. Откройте вкладку **Отчеты** и выберите отчет.
    
     ![Вкладка "Отчеты"](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    Это будет такой же отчет, как и любой другой отчет в Power BI. Вы и другие участники рабочей области приложения можете [изменять отчет](consumer/end-user-reports.md) и сохранять плитки на информационной панели по своему выбору.
+    Это будет такой же отчет, как и любой другой отчет в Power BI. Вы и другие участники рабочей области можете изменять отчет и сохранять плитки на панели мониторинга по своему выбору.
 
 ## <a name="collaborate-in-office-365"></a>Совместная работа в Office 365
-Совместная работа в Office 365 начинается в рабочей области приложения в Power BI.
+Совместная работа в Office 365 начинается в классической рабочей области в Power BI.
 
-1. В службе Power BI щелкните стрелку рядом с элементом "Рабочие области" и выберите кнопку с многоточием ( **…** ) рядом с именем рабочей области. 
+1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области** и выберите кнопку с многоточием (…) рядом с именем рабочей области. 
    
    ![Меню "Рабочие области"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. В этом меню вы можете сотрудничать со своей группой несколькими способами: 
    
-   * [беседа в группе в Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365);
-   * [планирование события](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar) в календаре рабочей области группы приложения.
+   * [беседа в группе в Office 365](#have-a-group-conversation-in-office-365);
+   * [Планирование события](#schedule-an-event-on-the-group-workspace-calendar) в календаре рабочей области группы.
    
-   Первый переход в рабочую область группы приложения в Office 365 может занять некоторое время. Подождите 15–30 минут, а затем обновите страницу в браузере.
+   Первый переход в рабочую область группы в Office 365 может занять некоторое время. Подождите 15–30 минут, а затем обновите страницу в браузере.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Беседа в группе в Office 365
-1. Нажмите кнопку с многоточием (…) рядом с именем рабочей области приложения и выберите \> **Беседы**. 
+1. Нажмите кнопку с многоточием (…) рядом с именем рабочей области и выберите \> **Беседы**. 
    
     ![Вкладка "Беседы"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
-   Откроется сайт почты и беседы для вашей рабочей области группы приложения в Outlook для Office 365.
+   Откроется сайт почты и беседы для вашей рабочей области группы в Outlook для Office 365.
    
    ![Элемент меню "Календарь"](media/service-collaborate-power-bi-workspace/pbi_grps_o365convo.png)
 2. Узнайте больше о [групповых беседах в Outlook для Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
-## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Планирование события в календаре рабочей области группы приложения.
-1. Нажмите кнопку с многоточием ( **…** ) рядом с именем рабочей области приложения и выберите \> **Календарь**. 
+## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>Планирование события в календаре рабочей области группы
+1. Нажмите кнопку с многоточием (…) рядом с именем рабочей области и выберите \> **Календарь**. 
    
    ![Вкладка "Календарь"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
-   Откроется календарь для рабочей области группы вашего приложения в Outlook для Office 365.
+   Откроется календарь для вашей рабочей области группы в Outlook для Office 365.
    
    ![Outlook для Office 365](media/service-collaborate-power-bi-workspace/pbi_grps_o365_calendar.png)
 2. Ознакомьтесь с дополнительными сведениями о [календарях групп в Outlook в Office 365](https://support.office.com/Article/Add-edit-and-subscribe-to-group-events-0cf1ad68-1034-4306-b367-d75e9818376a).
 
-## <a name="manage-an-app-workspace"></a>Управление рабочей областью приложения
-Владелец или администратор рабочей области приложения может добавлять или удалять участников рабочей области. Дополнительные сведения см. в статье [Управление группой в Power BI и Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+## <a name="manage-a-classic-workspace"></a>Управление классической рабочей областью
+Владелец или администратор рабочей области может добавлять или удалять участников рабочей области. Дополнительные сведения см. в статье [Управление рабочей областью в Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Создание и распространение приложения в Power BI](service-create-distribute-apps.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* [Публикация приложений в Power BI](service-create-distribute-apps.md).
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
 * Хотите оставить отзыв? Посетите [форум идей по улучшению Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
 

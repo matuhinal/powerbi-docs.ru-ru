@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665555"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808251"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -83,7 +83,7 @@ ms.locfileid: "68665555"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Создание и публикация отчетов с разбивкой на страницы
 
-Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [загрузить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область приложения, которому назначена емкость не менее A4/P1. У конечного пользователя, загружающего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области приложения.
+Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [загрузить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область приложения, которому назначена емкость не менее A4/P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области приложения.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 
@@ -173,9 +173,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Укажите в сведениях **AADAuthorityUrl** URL-адрес, который позволяет осуществлять внедрение с помощью клиента организации либо гостевого пользователя.
 
-Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize*.
+Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id*, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
+Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id* , где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Запуск приложения
 
@@ -209,7 +209,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
 
-Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
+Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}* .
 
 #### <a name="get-reports-with-the-rest-api"></a>Получение отчетов с помощью REST API
 
