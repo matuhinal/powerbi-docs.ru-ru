@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Удаленная настройка доступа для мобильного приложения
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: "Удаленный мобильный доступ с помощью Azure\_AD"
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Размещение книг Excel
               href: report-server/excel-oos.md
     - name: Справка
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: Безопасность Power BI
           href: service-admin-power-bi-security.md
+- name: Руководство
+  items:
+    - name: Что такое схема типа "звезда"?
+      href: guidance/star-schema.md
