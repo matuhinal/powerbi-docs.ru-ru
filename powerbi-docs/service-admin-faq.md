@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523399"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490325"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Вопросы и ответы об администрировании Power BI
 
@@ -38,7 +38,6 @@ ms.locfileid: "68523399"
 
 * [Как изменится существующий в моей организации подход к управлению удостоверениями пользователей?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Как управлять Power BI?](#how-do-we-manage-power-bi)
-* [В чем заключается процесс управления клиентом, созданным корпорацией Майкрософт для моих пользователей?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Если у меня есть несколько доменов, могу ли я управлять добавлением в них пользователей в клиенте Office 365?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Как удалить доступ к Power BI для пользователей, которые уже зарегистрированы?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Как узнать, что к моему клиенту подключились новые пользователи?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -173,18 +172,6 @@ Get-MsolCompanyInformation | fl allow*
 Power BI предоставляет портал администрирования, который позволяет просматривать статистику использования, предоставляет ссылки на Центр администрирования Microsoft 365 для управления пользователями и группами, а также дает возможность управлять параметрами на уровне клиента.
 
 Чтобы использовать портал администрирования Power BI, вам нужно снабдить свою учетную запись меткой **Глобальный администратор** в Office 365 или Azure Active Directory, либо вашей учетной записи должна быть назначена роль администратора службы Power BI. Дополнительные сведения см. в статьях [Основные сведения о роли администратора Power BI](service-admin-role.md) и [Портал администрирования Power BI](service-admin-portal.md).
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>В чем заключается процесс управления клиентом, созданным корпорацией Майкрософт для моих пользователей?
-
-Когда пользователь самостоятельно регистрируется для работы с облачной службой, которая использует Azure AD, служба добавляет его в неуправляемый каталог Azure AD на основе домена электронной почты. Вы можете запросить для управления клиент, который был создан в ходе *смены администратора*. Тип смены зависит от того, существует ли управляемый клиент, связанный с вашим доменом:
-
-* Используйте *внутреннюю смену* для создания управляемого клиента для домена.
-
-* Используйте *внешнюю смену* для перемещения домена в существующий управляемый клиент.
-
-См. дополнительные сведения о [получении контроля над неуправляемым каталогом в качестве администратора в Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover).
-
-При выполнении внешней смены служба помещает созданное ранее содержимое Power BI в [архивную рабочую область Power BI](service-admin-power-bi-archived-workspace.md). Вам нужно вручную переместить любое содержимое, которое вы хотите использовать, в новый клиент.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Если у меня есть несколько доменов, могу ли я управлять добавлением в них пользователей в клиенте Office 365?
 
