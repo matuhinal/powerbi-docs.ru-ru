@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: "Группирование визуализаций в Power\_BI\_Desktop"
           href: desktop-grouping-visuals.md
+        - name: Использование шаблонов в Power BI Desktop
+          href: desktop-templates.md
         - name: "Представление моделирования в Power\_BI\_Desktop"
           href: desktop-modeling-view.md
         - name: "Агрегаты в Power\_BI Desktop"
