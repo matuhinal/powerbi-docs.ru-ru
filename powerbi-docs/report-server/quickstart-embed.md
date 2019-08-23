@@ -1,38 +1,39 @@
 ---
-title: Внедрение отчета с использованием iFrame
-description: Внедрение отчета решения "Сервер отчетов Power BI" в iFrame сервера SharePoint Server
+title: По внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
+description: Эта статья описывает внедрение отчета Сервера отчетов Power BI с помощью iFrame в SharePoint Server.
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/04/2018
-ms.topic: quickstart
+ms.date: 08/12/2019
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769861"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995006"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Краткое руководство. По внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
+# <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>По внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
 
-Из этого краткого руководства вы узнаете, как внедрить отчет решения "Сервер отчетов Power BI" с помощью iFrame на страницу SharePoint. Если вы используете SharePoint Online, решение "Сервер отчетов Power BI" должно быть общедоступным. В SharePoint Online веб-часть Power BI, которая работает со службой Power BI, не совместима с решением "Сервер отчетов Power BI". 
+В этой статье вы узнаете, как внедрить отчет Сервера отчетов Power BI с помощью iFrame на страницу SharePoint. Если вы используете SharePoint Online, Сервер отчетов Power BI должен быть общедоступным. В SharePoint Online веб-часть Power BI, которая работает со службой Power BI, несовместима с Сервером отчетов Power BI.  
 
 ![Пример iFrame](media/quickstart-embed/quickstart_embed_01.png)
+
 ## <a name="prerequisites"></a>Предварительные требования
-* Требуется установленное и настроенное решение [Сервер отчетов Power BI](https://powerbi.microsoft.com/report-server/).
-* Должен быть установлено [приложение Power BI Desktop, оптимизированное для решения "Сервер отчетов Power BI"](install-powerbi-desktop.md).
-* Требуется установленная и настроенная среда [SharePoint](https://docs.microsoft.com/sharepoint/install/install).
+* Установленный и настроенный [Сервер отчетов Power BI](https://powerbi.microsoft.com/report-server/).
+* Установленное [приложение Power BI Desktop, оптимизированное для Сервера отчетов Power BI](install-powerbi-desktop.md).
+* Установленная и настроенная среда [SharePoint](https://docs.microsoft.com/sharepoint/install/install).
 
-## <a name="creating-the-power-bi-report-server-report-url"></a>Создание URL-адреса для отчета решения "Сервер отчетов Power BI"
+## <a name="create-the-power-bi-report-url"></a>Создание URL-адреса отчета Power BI
 
-1. Скачайте из GitHub пример [Демонстрационный блог](https://github.com/Microsoft/powerbi-desktop-samples).
+1. Скачайте пример из GitHub: [демонстрация блога](https://github.com/Microsoft/powerbi-desktop-samples). Выберите **Clone or download** (Клонировать или скачать) и затем **Скачать ZIP-файл**.
 
     ![Скачивание примера PBIX-файла](media/quickstart-embed/quickstart_embed_14.png)
 
-2. Отройте пример PBIX-файла, размещенный на GitHub в разделе **приложения Power BI Desktop, оптимизированного для решения "Сервер отчетов Power BI"** .
+2. Распакуйте файл и откройте пример PBIX-файла в Power BI Desktop, оптимизированном для Сервера отчетов Power BI.
 
     ![Средство сервера отчетов для Power BI Desktop](media/quickstart-embed/quickstart_embed_02.png)
 
@@ -40,19 +41,19 @@ ms.locfileid: "64769861"
 
     ![Сохранение в решении "Сервер отчетов Power BI"](media/quickstart-embed/quickstart_embed_03.png)
 
-4. Просмотрите отчет на **веб-портале**.
+4. Просмотрите отчет на веб-портале Сервера отчетов Power BI.
 
     ![Веб-портал](media/quickstart-embed/quickstart_embed_04.png)
 
-### <a name="capturing-the-url-parameter"></a>Запись параметра URL-адреса
+### <a name="capture-the-url-parameter"></a>Запись параметра URL-адреса
 
-Получив URL-адрес, вы можете создать iFrame для размещения отчета на веб-странице SharePoint. Вы можете добавить параметр строки запроса `?rs:embed=true` к любому URL-адресу отчета решения "Сервер отчетов Power BI", чтобы внедрить этот отчет в iFrame. 
+Получив URL-адрес, вы можете создать iFrame для размещения отчета на веб-странице SharePoint. Для любого URL-адреса отчета Сервера отчетов Power BI добавьте следующий параметр строки запроса, чтобы внедрить отчет в iFrame SharePoint: `?rs:embed=true`.
 
    Например:
     ``` 
     http://myserver/reports/powerbi/Sales?rs:embed=true
     ```
-## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Внедрение отчета решения "Сервер отчетов Power BI" в SharePoint iFrame
+## <a name="embed-the-report-in-a-sharepoint-iframe"></a>Внедрение отчета в iFrame SharePoint
 
 1. Перейдите к странице **Содержимое сайта** в SharePoint.
 
@@ -62,27 +63,23 @@ ms.locfileid: "64769861"
 
     ![Приложение страницы "Содержимое сайта"](media/quickstart-embed/quickstart_embed_06.png)
 
-3. Щелкните значок шестеренки в верхней правой части страницы и выберите **Изменить страницу**.
+3. Выберите значок шестеренки в верхней правой части страницы и элемент **Изменить страницу**.
 
-    ![Действие "Изменить страницу"](media/quickstart-embed/quickstart_embed_07.png)
+    ![Параметр "Изменить страницу"](media/quickstart-embed/quickstart_embed_07.png)
 
 4. Выберите **Добавить веб-часть**.
 
-    ![Добавление веб-части](media/quickstart-embed/quickstart_embed_08.png)
+5. В разделе **Категории** выберите **Среда и контент**. В разделе **Части** выберите **Редактор содержимого** и щелкните **Добавить**.
 
-5. В разделе **Категории** выберите **Среда и контент**, затем в разделе **Части** выберите **Редактор содержимого** и щелкните **Добавить**.
-
-    ![Выбор веб-части редактора содержимого](media/quickstart-embed/quickstart_embed_09.png) и ![нажатие кнопки "Добавить"](media/quickstart-embed/quickstart_embed_091.png)
+    ![Выбор веб-части редактора содержимого](media/quickstart-embed/quickstart_embed_09.png)
 
 6. Выберите **Click here to add new content** (Щелкните здесь, чтобы добавить новое содержимое).
 
-    ![Добавление содержимого](media/quickstart-embed/quickstart_embed_10.png)
+7. В верхнем меню выберите **Форматирование текста** и затем **Изменить источник**.
 
-7. На ленте выберите вкладку **Форматирование текста**, а затем щелкните **Изменить источник**.
+     ![Править источник](media/quickstart-embed/quickstart_embed_11.png)
 
-     ![Изменение источника](media/quickstart-embed/quickstart_embed_11.png)
-
-8. В окне изменения источника вставьте код для iFrame и нажмите кнопку "ОК".
+8. В окне **Изменить источник** вставьте код для iFrame в поле **Источник HTML** и нажмите кнопку **ОК**.
 
     ![Код iFrame](media/quickstart-embed/quickstart_embed_12.png)
 
@@ -91,17 +88,17 @@ ms.locfileid: "64769861"
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. На ленте выберите вкладку **Страница**, затем щелкните **Остановить изменение**.
+9. В верхнем меню выберите **Страница** и затем **Остановить изменение**.
 
-    ![Кнопка "Остановить изменение"](media/quickstart-embed/quickstart_embed_13.png)
+    ![Остановить изменение](media/quickstart-embed/quickstart_embed_13.png)
 
-10. Теперь вы увидите отчет на странице.
+    Отчет отображается на странице.
 
     ![Пример iFrame](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Краткое руководство. Создание отчета Power BI для Сервера отчетов Power BI](quickstart-create-powerbi-report.md)  
-[Краткое руководство. Создание отчета с разбивкой на страницы для Сервера отчетов Power BI](quickstart-create-paginated-report.md)  
+- [Создание отчета Power BI для Сервера отчетов Power BI](quickstart-create-powerbi-report.md).  
+- [Создание отчета с разбивкой на страницы для Сервера отчетов Power BI](quickstart-create-paginated-report.md).  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/) 
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/). 

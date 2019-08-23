@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808251"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490389"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -35,7 +35,7 @@ ms.locfileid: "68808251"
 * [учетная запись Power BI Pro](../service-self-service-signup-for-power-bi.md);
 * подписка [Microsoft Azure](https://azure.microsoft.com/);
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
-* Для внедрения отчетов с разбивкой на страницы требуется емкость не менее A4/P1. См. статью [Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
+* Для внедрения отчетов с разбивкой на страницы требуется емкость не менее P1. См. статью [Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
 
@@ -45,7 +45,7 @@ ms.locfileid: "68808251"
 
 Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, необходимо убедиться, что среда допускает внедрение с помощью Power BI.
 
-Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета. При внедрении отчета с разбивкой на страницы вам понадобится емкость не менее A4/P1 для создаваемой рабочей области приложения.
+Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета. При внедрении отчета с разбивкой на страницы вам понадобится емкость не менее P1 для создаваемой рабочей области приложения.
 
 Если вы решили настроить среду вручную, см. инструкции ниже.
 
@@ -83,7 +83,7 @@ ms.locfileid: "68808251"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Создание и публикация отчетов с разбивкой на страницы
 
-Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [загрузить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область приложения, которому назначена емкость не менее A4/P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области приложения.
+Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [загрузить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область приложения, которой назначена емкость не менее P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области приложения.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 
@@ -152,9 +152,6 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 URL-адрес отчета Power BI <br>
 
 ![Идентификатор отчета Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-URL-адрес отчета с разбивкой на страницы <br>
-
 
 
 URL-адрес отчета с разбивкой на страницы<br>
@@ -384,7 +381,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
-Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области приложения. Для отчетов с разбивкой на страницы рабочая область приложения должна иметь емкость не менее A4/P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium-what-is.md).
+Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области приложения. Для отчетов с разбивкой на страницы рабочая область приложения должна иметь емкость не менее P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium-what-is.md).
 
 В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft Office 365](../service-admin-premium-purchase.md).
 

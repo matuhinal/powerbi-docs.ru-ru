@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/15/2018
+ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770636"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994792"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Удаленная настройка доступа мобильных приложений Power BI для iOS к серверу отчетов
 
@@ -63,8 +63,10 @@ ms.locfileid: "64770636"
 Теперь пользователи могут просматривать ключевые показатели эффективности и отчеты Power BI, хранящиеся на сервере отчетов, и взаимодействовать с ними.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Обзор функций администратора](admin-handbook-overview.md)  
-[Установка сервера отчетов Power BI](install-report-server.md)  
+
+- [Обеспечение удаленного доступа к Power BI Mobile с помощью Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [Обзор функций администратора](admin-handbook-overview.md)  
+- [Установка сервера отчетов Power BI](install-report-server.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 
