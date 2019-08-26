@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624046"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655166"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
@@ -192,7 +192,7 @@ ms.locfileid: "68624046"
 1. Скачайте CommonCryptoLib (sapcrypto.dll) версии **8.5.25 или более поздней** с панели запуска SAP и скопируйте ее в папку на компьютере шлюза. В том же каталоге, куда вы скопировали sapcrypto.dll, создайте файл sapcrypto.ini со следующим содержимым:
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     Этот INI-файл содержит сведения о конфигурации, необходимые CommonCryptoLib для реализации единого входа в сценарии шлюза.
@@ -242,7 +242,7 @@ ms.locfileid: "68624046"
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     Измените параметр _ccl/trace/directory_ на расположение, куда могут осуществлять запись члены группы "Пользователи, прошедшие проверку подлинности". Можно также создать INI-файл, чтобы изменить это поведение. В том же каталоге, где находятся файлы sapcrypto.ini и sapcrypto.dll, создайте файл sectrace.ini со следующим содержимым:  Замените значение DIRECTORY на расположение на компьютере, куда могут осуществлять запись члены группы "Пользователи, прошедшие проверку подлинности":
@@ -250,7 +250,7 @@ ms.locfileid: "68624046"
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     Теперь воспроизведите ошибку и убедитесь, что расположение, указанное в DIRECTORY, содержит файлы трассировки. По завершении не забудьте отключить трассировку CPIC и CCL.

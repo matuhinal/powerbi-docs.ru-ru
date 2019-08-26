@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 06/06/2019
-ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839623"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985713"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
@@ -26,7 +26,7 @@ ms.locfileid: "66839623"
 
 ![Отчет с разбивкой на страницы в службе Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI http://app.powerbi.com. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в своей рабочей области или в рабочей области приложений, если эта рабочая область находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы в [разделе емкостей Premium](service-admin-premium-workloads.md#paginated-reports-preview) на портале администрирования Power BI. 
+Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI http://app.powerbi.com. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в своей рабочей области или в рабочей области приложений, если эта рабочая область находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы в [разделе емкостей Premium](service-admin-premium-workloads.md#paginated-reports) на портале администрирования Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Создание отчетов в построителе отчетов Power BI
 
