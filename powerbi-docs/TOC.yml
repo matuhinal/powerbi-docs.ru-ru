@@ -1426,3 +1426,5 @@
       href: guidance/star-schema.md
     - name: Уменьшение размера модели данных
       href: guidance/import-modeling-data-reduction.md
+    - name: Функция DIVIDE и оператор деления (/)
+      href: guidance/dax-divide-function-operator.md
