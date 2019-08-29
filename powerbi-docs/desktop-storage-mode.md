@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364362"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654736"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Режим хранения в Power BI Desktop
 
@@ -62,6 +62,10 @@ ms.locfileid: "61364362"
 * **Двойной**. Двойные таблицы могут функционировать как кэшированные или некэшированные в зависимости от контекста запроса, отправленного к набору данных Power BI. В некоторых случаях запросы будут выполняться из кэшированных данных. В других случаях для обработки запроса потребуется запрос к источнику данных.
 
 Указание для таблицы значения **Импорт** — *необратимая* операция. Вы не сможете вернуть для нее значение "DirectQuery" или "Двойной".
+
+> [!NOTE]
+> В Power BI Desktop и в службе Power BI можно использовать режим *двойного* хранения.
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Ограничения для таблиц DirectQuery и двойных таблиц
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346408"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654433"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Новые функции фильтров в отчетах Power BI
 
@@ -48,6 +48,10 @@ ms.locfileid: "68346408"
 3. В разделе **Возможности фильтрации** **включите обновленную область фильтров и отобразите фильтры в заголовке визуального элемента для этого отчета**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Включение новых функций фильтров для существующего отчета в службе
+
+Если вы включили **новый вид** в службе Power BI ![Новый вид включен](media/power-bi-report-filter/power-bi-new-look-on.png), новый интерфейс фильтра будет включен автоматически. Изучите дополнительные сведения о [новом виде в службе Power BI](service-new-look.md).
+
+Если вы не включили новый вид, вы можете увидеть новый интерфейс фильтра, выполнив следующие действия.
 
 1. В службе Power BI выберите вкладку **Отчеты** в списке содержимое для рабочей области.
 2. Найдите отчет, который нужно включить, и щелкните значок **Параметры** ![значок параметров отчета](media/power-bi-report-filter/power-bi-settings-icon.png) для этого отчета.
@@ -121,15 +125,13 @@ ms.locfileid: "68346408"
 1. В отчете щелкните сам отчет или его фон (*фоновый рисунок*), а затем в области **визуализации** выберите **Формат**. 
     Вы увидите параметры форматирования страницы отчета, фоновый рисунок, а также область и карточки фильтров.
 
-    ![Выбор значка форматирования](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. Разверните **Область фильтра**, чтобы настроить цвет фона, значок и дополнить страницу отчета.
 
-    ![Развертывание области фильтров](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![Развертывание области фильтров](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Разверните **карточки фильтров**, чтобы **сделать доступным** и **применить** цвет и границу. Если вы выберете для карточек разные цвета, вам будет видно, какие фильтры применяются. 
   
-    ![Развертывание карточки фильтров](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![Развертывание карточки фильтров](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>Темы для панели фильтров
 Теперь вы можете по умолчанию изменять параметры области фильтров с помощью файла темы. Пример фрагмента темы, с которого можно начать.

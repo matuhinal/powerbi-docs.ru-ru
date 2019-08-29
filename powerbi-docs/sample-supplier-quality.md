@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391196"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621314"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ качества поставщика" для Power BI: Узнайте о возможностях
 
@@ -144,7 +144,7 @@ ms.locfileid: "68391196"
     В 2014 году в сырье было обнаружено гораздо больше дефектов, чем в 2013.  
 
     ![Вопрос в поле "Вопросы и ответы": Показать типы материалов, год и общее количество дефектов](media/sample-supplier-quality/supplier12.png)  
-6. Теперь изменим вопрос и попросим *показать типы материалов, год и общее количество **минут простоя***.  
+6. Теперь изменим вопрос и попросим _показать типы материалов, год и общее количество **минут простоя**_ .  
 
    ![Вопрос в поле "Вопросы и ответы": Показать тип материалов, год и общий простой в минутах](media/sample-supplier-quality/supplier13.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375263"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655035"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -30,32 +30,32 @@ ms.locfileid: "66375263"
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>Мая 2019 г.
-* [Пользовательских перемещениях](service-create-distribute-apps.md) для приложения Power BI.
-* Дополнительные вложения типы (PPTX, XLSX, DOCX, CSV, XML) для подписками электронной почты в отчетах с разбиением на страницы.
+## <a name="may-2019"></a>Май 2019 г.
+* [Пользовательская навигация](service-create-distribute-apps.md) для приложений Power BI.
+* Дополнительные типы вложений (PPTX, XLSX, DOCX, CSV, XML), доступные для подписок по электронной почте в отчетах с разбивкой на страницы.
 
 ## <a name="previous-months-2019"></a>Предыдущие месяцы (2019 г.)
-### <a name="april-2019"></a>Апреля 2019 г.
-* Общедоступная версия Power BI [потоки данных](service-dataflows-overview.md).
-* Общедоступная версия нового интерфейса рабочих областей.
-* Новые регионы Power BI во Франции и Корея.
-* Обновленный интерфейс вопросов для панелей мониторинга.
-* Поддержка служб Azure Analysis Services в рамках [разбиением](paginated-reports-report-builder-power-bi.md).
-* Отчеты с разбивкой на страницы, поддерживаются в приложениях Power BI.
-* [По электронной почте подписок](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) с вложения в формате PDF для отчетов с разбиением на страницы.
-* Power BI Premium сводки и рабочей нагрузки метрики, поддерживаемые на портале администрирования
-* [Кэширование запросов](power-bi-query-caching.md) доступны в Power BI Premium.
-* Общедоступная версия [Power BI Главная](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
+### <a name="april-2019"></a>Апрель 2019 г.
+* Общедоступная версия [потоков данных](service-dataflows-overview.md) Power BI.
+* Общедоступная версия новых рабочих областей.
+* Новые регионы Power BI во Франции и Корее.
+* Новые возможности вопросов и ответов для панелей мониторинга.
+* Поддержка Azure Analysis Services в [отчетах с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
+* Отчеты с разбивкой на страницы, поддерживаемые в приложениях Power BI.
+* [Подписки по электронной почте](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) с вложениями PDF для отчетов с разбивкой на страницы.
+* Сводка и метрики рабочей нагрузки Power BI Premium, поддерживаемые на портале администрирования
+* [Кэширование запросов](power-bi-query-caching.md), доступное в Power BI Premium.
+* Общедоступная версия [главной страницы Power BI](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
 
 ### <a name="march-2019"></a>Март 2019 г.
 * Общедоступность поддержки нескольких регионов для Power BI Premium.
 * Поддержка изменения содержимого Power BI и управления им для Azure B2B.
-* Общедоступной предварительной версии только для чтения [конечной точки XMLA](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/).
+* Общедоступная предварительная версия [конечной точки XMLA](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) только для чтения.
 
 ### <a name="february-2019"></a>Февраль 2019
 * Метрики рабочих нагрузок и размера активного набора данных в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 * Экспорт отчетов Power BI в формат PDF.
-* [Подписки по запросу по электронной почте](service-report-subscribe.md).
+* [Подписки на рассылку по электронной почте по запросу](service-report-subscribe.md).
 * Массовые операции на портале администрирования.
 * Экспорт с фильтрацией для форматов PPT и PDF.
 * [Параметры справки и поддержки](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) на портале администрирования.
@@ -87,8 +87,8 @@ ms.locfileid: "66375263"
 
 ### <a name="september-2018"></a>Сентябрь 2018 г.
 * [Комментарии на панели мониторинга](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) в службе Power BI.
-* Общедоступная Предварительная версия [Power BI Home и глобального поиска](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
-* Возможность [мониторинг запросов](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) в [приложения по мониторингу емкость](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Общедоступная предварительная версия [главной страницы Power BI и глобального поиска](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
+* Возможность [отслеживать запросы](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) в [приложении мониторинга емкости](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="august-2018"></a>Август 2018 г.
 * [Приложение Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) (Мониторинг емкости) для Power BI Premium.
@@ -257,7 +257,7 @@ ms.locfileid: "66375263"
 
 ***Панели мониторинга***
 
-* Избранные панели мониторинга: теперь вы можете добавлять панели в список избранных, и они будут доступны вам из любой рабочей области.
+* Избранные панели мониторинга: Теперь вы можете добавлять панели в список избранных, и они будут доступны вам из любой рабочей области.
 
 ***Анализ в Excel***
 
@@ -346,11 +346,11 @@ ms.locfileid: "66375263"
 
 * Полноэкранный режим: вывод данных на печать, не выходя из полноэкранного режима.
 * Полноэкранный режим: развертывание плиток на весь холст и удаление лишнего свободного места с помощью параметра **По ширине**.
-* С помощью функции «Поток мозаики» автоматически выравнивайте плитки относительно левого верхнего угла холста.
+* С помощью функции "Поток плиток" автоматически выравнивайте плитки относительно левого верхнего угла холста.
 
 ***Quick Insights (Краткая аналитика)***
 
-* Дополнительная информация о тенденциях и корреляции добавлены линии тренда для упрощения см. в разделе закономерности в данных.
+* В аналитические компоненты "Тренд" и "Корреляция" добавлены линии тренда, которые упрощают поиск закономерностей в данных.
 
 ***Вопросы и ответы***
 
@@ -502,7 +502,7 @@ ms.locfileid: "66375263"
 * [Визуализация данных VMob в Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Интеграция Power BI с Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Предварительная версия корпоративного шлюза Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* Общие сведения о новом пакете содержимого: [поиск аналитики из Bing на панелях мониторинга Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx).
+* Использование нового пакета содержимого: [поиск аналитики из Bing на панелях мониторинга Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx).
 * Новые улучшения для разработчиков: [два новых API и упрощенная процедура регистрации приложения](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx).
 
 **24 ноября 2015 г.**
@@ -513,7 +513,7 @@ ms.locfileid: "66375263"
 * Улучшение загрузки локальных отчетов
 * Совместное использование панелей мониторинга из рабочего пространства другого пользователя
 * Улучшенное взаимодействие с соединителем Google Analytics
-* Закрыть учетную запись Power BI
+* Закрытие учетной записи Power BI
 
 Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx).
 
@@ -620,12 +620,8 @@ ms.locfileid: "66375263"
 
 * Компонент Webtrends помогает организациям анализировать данные клиентов для повышения успешности кампаний цифрового маркетинга. Пользователи могут наблюдать, анализировать и создавать аналитические отчеты о перемещении посетителей по веб-страницам, социальным, мобильным каналам и каналам SharePoint. Благодаря выпуску [пакета содержимого Webtrends](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) пользователи получают возможность использовать Power BI для отслеживания, анализа и визуализации данных аналитики Webtrends. Дополнительные сведения можно найти на [странице справки](service-connect-to-webtrends.md) пакета содержимого Webtrends для Power BI.
 * Начать работать с функцией "Вопросы и ответы" стало еще проще. В тот момент, когда вы помещаете курсор в текстовое поле вопросов и ответов, сразу выводится список вопросов и ключевых показателей, имеющих отношение к вашим данным.  В раскрывающемся списке по умолчанию отображаются вопросы для плиток, уже закрепленных на панели мониторинга, а также запись для каждой таблицы в наборе данных.
-* Отображаемый по умолчанию размер динамического холста позволяет вывести все элементы отчета с оптимальными размерами для окна браузера. Если требуется зафиксировать соотношение сторон или вписать отчет в экран иным образом, теперь поддерживается три режима: "Вписать на страницу", "По ширине" и "Фактический размер".
+* Отображаемый по умолчанию размер динамического холста позволяет вывести все элементы отчета с оптимальными размерами для окна браузера. Если требуется зафиксировать соотношение сторон или вписать отчет в экран иным образом, теперь поддерживается три режима: "Вписать в страницу", "Подогнать по ширине" и "Фактический размер".
 * Кроме того, мы расширили ограничение на количество создаваемых наборов данных и отчетов. Теперь учетная запись Power BI может иметь до 200 наборов данных и 200 отчетов для каждого набора данных.
-
-**25 августа 2015 г.**
-
-* Теперь вы можете использовать Power BI для мониторинга, просмотра и [визуализации данных Adobe Analytics](http://blogs.msdn.com/b/powerbi/archive/2015/08/25/exploring-your-adobe-analytics-data-in-power-bi.aspx). Используя готовый пакет содержимого, можно выполнить подключение и сразу приступить к анализу данных. Дополнительные сведения см. на [странице справки по пакету содержимого Adobe Analytics для Power BI](service-connect-to-adobe-analytics.md).
 
 **18 августа 2015 г.**
 
@@ -682,10 +678,6 @@ ms.locfileid: "66375263"
 
 * SweetIQ позволяет легко отслеживать локальные списки, предоставляя расположение и возможность просмотра данных из локальной экосистемы поиска. Power BI позволяет анализировать и отслеживать эти данные, обеспечивая [готовое содержимое](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx) на основе данных SweetIQ. Дополнительные сведения о начале работы см. на [странице справки](service-connect-to-sweetiq.md) пакета содержимого SweetIQ для Power BI.
 
-**9 июня 2015 г.**
-
-* Power BI позволяет отслеживать и просматривать данные с помощью [API-интерфейсов MailChimp](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx), обеспечивая набор готового содержимого для аналитики. Панель мониторинга, отчеты и набор данных, проверенные для сценария MailChimp, обеспечивают удобный доступ к данным, таким как основные кампании из общего числа открытий по дню недели. Дополнительные сведения о начале работы см. в [документации](service-connect-to-mailchimp.md) пакета содержимого MailChimp для Power BI.
-
 **2 июня 2015 г.**
 
 * Отслеживание важной статистики о приложениях стало проще благодаря Power BI и [пакету содержимого appFigures](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx). Дополнительные сведения о подключении и начале работы см. в [документации](service-connect-to-appfigures.md) пакета содержимого appFigures для Power BI.
@@ -697,7 +689,6 @@ ms.locfileid: "66375263"
 
 **13 мая 2015 г.**
 
-* Благодаря последнему обновлению Power BI вы можете подключаться к данным, регистрируемым функцией **аудита базы данных SQL**, с помощью набора готовых отчетов и настроенной панели мониторинга. Этот пакет содержимого упрощает поиск подозрительных событий, необычных действий и тенденций на основе набора данных, созданного для отчетов. Дополнительные сведения см. в этой [публикации блога](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx) и в [документации](service-connect-to-azure-sql-database-auditing.md).
 * Вы можете подключиться непосредственно к данным, хранящимся в **базе данных SQL Azure**. Запросы динамически создаются и отправляются в источник, что позволяет создавать интерактивные отчеты непосредственно через базу данных. Дополнительные сведения см. в этой [публикации блога](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx) и в [документации](service-azure-sql-database-with-direct-connect.md).
 
 **7 мая 2015 г.**
@@ -714,7 +705,7 @@ ms.locfileid: "66375263"
 
 **15 апреля 2015 г.**
 
-* Благодаря новому пакету содержимого стали доступны визуализация и просмотр данных **Google Analytics**. Используя пакет содержимого Google Analytics, вы получаете панель мониторинга, отчет и набор данных, позволяющие получить важные сведения об использовании сайта за последние шесть месяцев. Можно прочитать [записи блога](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
+* Благодаря новому пакету содержимого стали доступны визуализация и просмотр данных **Google Analytics**. Используя пакет содержимого Google Analytics, вы получаете панель мониторинга, отчет и набор данных, позволяющие получить важные сведения об использовании сайта за последние шесть месяцев. Вы можете прочитать [нашу запись блога](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
 * Теперь можно **закреплять все карточки**, кроме содержащих ключевые показатели эффективности и изображения, из функции "Вопросы и ответы" и из отчетов.
 * **В функции "Вопросы и ответы" теперь можно использовать карточки**, добавив фразу "как карточка" в конце запроса.
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665451"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654624"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 Область применения:
@@ -31,7 +31,7 @@ ms.locfileid: "68665451"
 Чтобы просматривать панели мониторинга и отчеты на мобильном устройстве, необходимо создать их или подключиться к ним в веб-браузере. 
 
 1. Перейдите к службе Power BI ([https://www.powerbi.com](https://www.powerbi.com)) и [зарегистрируйте учетную запись](../../service-self-service-signup-for-power-bi.md).
-2. [Создайте собственные панели мониторинга и отчет Power BI](../../service-get-started.md) или подключитесь к существующим [приложениям Power BI](../../service-connect-to-services.md) для разных служб, включая [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) и [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
+2. [Создайте собственные панели мониторинга и отчет Power BI](../../service-get-started.md) или подключитесь к существующим [приложениям Power BI](../../service-connect-to-services.md) для различных служб, таких как [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
 
 Вот панель мониторинга Power BI в службе Power BI:
 

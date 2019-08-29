@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563673"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985657"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Использование шаблонов в Power BI Desktop
 
@@ -70,7 +70,10 @@ ms.locfileid: "69563673"
 Вот и все. Создавать и использовать шаблоны отчетов в Power BI Desktop несложно. Вы можете легко воспроизводить понравившиеся макеты и другие аспекты отчетов, а затем предоставлять к ним общий доступ другим пользователям.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
+Возможно, вас также интересует изучение **параметров запроса**:
+* [Использование параметров запроса в Power BI Desktop](https://docs.microsoft.com/power-query/power-query-query-parameters)
+
+Кроме того, Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
