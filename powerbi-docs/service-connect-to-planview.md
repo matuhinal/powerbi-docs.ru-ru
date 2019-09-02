@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6095faca7fd0d7d42fd6b3871c9e45658a32a14f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64b8b0cce79e2c859ea4d926e1f0d3dfc0c1b83b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61163067"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185849"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Подключение к Planview Enterprise с помощью Power BI
 С помощью пакета содержимого Planview Enterprise вы можете визуализировать данные о ресурсах и управлении работой совершенно новыми способами непосредственно в Power BI. Используйте учетные данные Planview Enterprise для интерактивного просмотра инвестиционных расходов на портфель, определить состояние работ и соответствие бюджету, а также узнать, насколько хорошо проекты соответствуют стратегическим целям вашей компании. Также можно расширить готовую информационную панель и отчеты, чтобы получить именно те ценные сведения, которые необходимы вам.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Подключение к [пакету содержимого Planview Enterprise для Power BI](https://app.powerbi.com/getdata/services/planview-enterprise)
 

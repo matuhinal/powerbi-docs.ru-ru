@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e24e6f86cddcf328497c050f82612d36efa3a4ed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 25339052c0ddf410dab473a5a4a2fd9bbe445120
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720497"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184634"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Подключение к Webtrends с помощью Power BI
 Пакет контента Webtrends для Power BI включает множество готовых метрик, в том числе общее число просмотров страницы и посещений по источнику трафика. Визуализация ваших данных Webtrends в Power BI начинается с подключения к вашей учетной записи Webtrends. Используйте стандартные панели мониторинга и отчеты или настройте их так, чтобы выделить информацию, которая наиболее важна для вас.  Данные автоматически обновляются раз в день.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Подключитесь к [пакету содержимого Webtrends для Power BI.](https://app.powerbi.com/getdata/services/webtrends)
 

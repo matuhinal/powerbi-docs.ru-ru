@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 18b346f4b6e8712d9eec2d2d8a46fdd130844acf
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61171614"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184609"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Подключение к UserVoice с помощью Power BI
 Отслеживание и исследование данных UserVoice упрощается благодаря Power BI и пакету контента UserVoice. Power BI извлекает данные, включая заявки, предложения и оценки удовлетворенности, а затем создает на основе этих данных готовые панели мониторинга и отчеты.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Подключите [пакет содержимого UserVoice](https://app.powerbi.com/getdata/services/uservoice) для Power BI.
 

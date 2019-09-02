@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c8c17fe5349486d9583b8f44ccee1af36e86c761
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3c8ef3e522c9f20ff9602d29670ccaf28cd92048
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181017"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185929"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Подключение к Circuit ID с помощью Power BI
 Анализ данных взаимодействия из Circuit ID упрощается благодаря Power BI. Power BI извлекает данные, а затем создает панель мониторинга по умолчанию и связанные отчеты на основе этих данных. После подключения вы можете исследовать данные и настраивать панель мониторинга в соответствии с вашими потребностями. Данные автоматически обновляются каждый день.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Подключите [пакет содержимого Circuit ID](https://app.powerbi.com/getdata/services/circuitid) для Power BI.
 
