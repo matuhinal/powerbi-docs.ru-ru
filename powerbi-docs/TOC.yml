@@ -939,8 +939,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: Параметры
           href: report-builder-parameters.md
-        - name: Выражения
-          href: report-builder-expressions.md
+        - name: Параметры URL-адреса в отчетах с разбивкой на страницы
+          href: report-builder-url-parameters.md
         - name: Примеры выражений
           href: report-builder-expression-examples.md
         - name: Разбивка отчета на страницы
@@ -959,6 +959,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: Создание параметров
           href: paginated-reports-parameters.md
+        - name: Передача параметра отчета в URL-адресе
+          href: report-builder-url-pass-parameters.md
         - name: Публикация отчета с разбивкой на страницы
           href: paginated-reports-save-to-power-bi-service.md
 - name: "Power\_BI для разработчиков"
