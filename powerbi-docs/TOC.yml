@@ -1358,7 +1358,7 @@
     - name: Ресурсы
       items:
         - name: Ежемесячные обновления шлюза
-          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
+          href: /data-integration/gateway/service-gateway-monthly-updates
 - name: Администрирование
   items:
     - name: Обзор
