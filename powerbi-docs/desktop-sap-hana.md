@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f40ed1b3950ace0b3cb362a22670e98c3ef83112
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: 1932848cb2f8ad7d75e841870265cc22308467c2
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985684"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200875"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Использование SAP HANA в Power BI Desktop
 Теперь с помощью Power BI Desktop вы можете получить доступ к базе данных **SAP HANA** . Для использования **SAP HANA**на локальном клиентском компьютере нужно установить драйвер ODBC SAP HANA, чтобы подключение к данным **SAP HANA** в Power BI Desktop работало правильно. Драйвер ODBC SAP HANA можно скачать в [Центре скачивания программного обеспечения SAP](https://support.sap.com/swdc). В нем следует найти клиент SAP HANA CLIENT для компьютеров Windows. В связи с частым изменением структуры **Центра скачивания программного обеспечения SAP** более конкретные рекомендации по навигации по этому сайту недоступны.
@@ -25,9 +25,7 @@ ms.locfileid: "69985684"
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
-При подключении к базе данных SAP HANA укажите имя сервера и порт в формате *сервер:порт*. На рисунке ниже показан пример, в котором используется имя сервера *ServerXYZ* и порт *30015*.
-
-![](media/desktop-sap-hana/sap-hana-2.png)
+При подключении к базе данных SAP HANA укажите имя сервера. Затем в раскрывающемся списке и поле ввода укажите порт.
 
 В этом выпуске **SAP HANA** в режиме [DirectQuery](desktop-directquery-sap-hana.md) поддерживается в Power BI Desktop и службе Power BI, и вы можете публиковать и отправлять отчеты, использующие **SAP HANA** в режиме DirectQuery, в службу Power BI. Когда **SAP HANA** не используется в режиме DirectQuery, вы также можете публиковать и отправлять отчеты в службу Power BI.
 

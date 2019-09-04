@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621235"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160370"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
 
@@ -56,9 +56,9 @@ ms.locfileid: "69621235"
 
 Выполните действия, описанные в [этой статье](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account).
 
-1. Убедитесь, что вы выбрали расположение своего клиента Power BI, и в качестве хранилища укажите **StorageV2 (общего назначения версии 2)** .
+1. Убедитесь, что вы выбрали расположение своего клиента Power BI, и в качестве хранилища укажите **StorageV2 (общего назначения версии 2)**.
 2. Включите функцию иерархического пространства имен.
-3. Рекомендуем установить для параметра репликации значение **Геоизбыточное хранилище с доступом на чтение (RA-GRS)** .
+3. Рекомендуем установить для параметра репликации значение **Геоизбыточное хранилище с доступом на чтение (RA-GRS)**.
 
 ### <a name="grant-the-power-bi-service-a-reader-role"></a>Предоставление службе Power BI роли читателя
 
@@ -115,19 +115,19 @@ ms.locfileid: "69621235"
 
     ![Поиск приложений Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. В результатах поиска выберите и скопируйте идентификаторы объекта для служб Power BI и Power Query. Эти значения понадобятся для вставки на следующих шагах.
+5. В результатах поиска выберите и скопируйте идентификаторы объектов для служб Power BI Premium и Power Query Online. Эти значения понадобятся для вставки на следующих шагах.
 
-7. Затем с помощью **Обозревателя службы хранилища Azure** перейдите к файловой системе *powerbi*, созданной в предыдущем разделе. Выполните инструкции, представленные в разделе [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Управление доступом) в статье [Set file and directory level permissions using Azure Storage Explorer with Azure Data Lake Storage Gen2 (Preview)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Настройка разрешений уровня файлов и каталогов с помощью обозревателя службы хранилища Azure и Azure Data Lake Storage 2-го поколения).
+6. Затем с помощью **Обозревателя службы хранилища Azure** перейдите к файловой системе *powerbi*, созданной в предыдущем разделе. Выполните инструкции, представленные в разделе [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Управление доступом) в статье [Set file and directory level permissions using Azure Storage Explorer with Azure Data Lake Storage Gen2 (Preview)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Настройка разрешений уровня файлов и каталогов с помощью обозревателя службы хранилища Azure и Azure Data Lake Storage 2-го поколения).
 
-8. Для каждого из двух идентификаторов объектов Power BI, собранных на шаге 5, назначьте списки управления доступом по умолчанию и доступ на **чтение**, **запись** и **выполнение** в своей файловой системе *powerbi*.
+7. Для каждого из двух идентификаторов объектов Power BI Premium, собранных на шаге 5, назначьте списки управления доступом по умолчанию и доступ на **чтение**, **запись** и **выполнение** в своей файловой системе *powerbi*.
 
    ![назначение трех списков для двух ИД](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Для идентификатора объекта Power Query Online, собранного на шаге 4, назначьте списки управления доступом по умолчанию и доступ на **запись** и **выполнение** в своей файловой системе *powerbi*.
+8. Для идентификатора объекта Power Query Online, собранного на шаге 4, назначьте списки управления доступом по умолчанию и доступ на **запись** и **выполнение** в своей файловой системе *powerbi*.
 
    ![последующее назначение записи и выполнения](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. Кроме того, для **других** также назначьте список управления доступом по умолчанию и доступ на **выполнение**.
+9. Кроме того, для **других** также назначьте список управления доступом по умолчанию и доступ на **выполнение**.
 
     ![назначение выполнения для других](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

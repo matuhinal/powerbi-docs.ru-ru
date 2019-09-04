@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008119"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030186"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Мониторинг емкостей Premium в приложении
 
@@ -244,7 +244,7 @@ ms.locfileid: "70008119"
 
 | **Раздел отчета** | **Метрики** |
 | --- | --- |
-| Использование ЦП |  Потребление по рабочим нагрузкам в процентах от общей производительности ЦП. Отображается каждый час за последние семь дней. |
+| Использование ЦП |  Максимальное потребление ЦП в течение часа по рабочим нагрузкам в процентах от общей производительности ЦП. Отображается каждый час за последние семь дней. |
 | Использование памяти |  Максимальное потребление памяти в течение часа в гигабайтах по рабочим нагрузкам (сплошные линии), на которое наложены пределы рабочих нагрузок (пунктирная линия). Отображается каждый час за последние семь дней. |
 |  |  |
 

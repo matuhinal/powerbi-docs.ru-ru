@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560990"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160205"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Анализ данных о затратах и использовании Azure в Power BI Desktop
 
@@ -27,6 +27,10 @@ ms.locfileid: "69560990"
 * Пользователи с **Соглашением Enterprise** должны подключаться с помощью **соединителя Azure Consumption Insights** (см. описание ниже).
 
 * Пользователи с **клиентским договором** должны подключаться с помощью [**соединителя Управления затратами Azure**](#connect-with-azure-cost-management).
+
+> [!NOTE]
+> Если клиенты с Соглашением Enterprise, использующие соединитель Управления затратами Azure, не видят *идентификатор профиля выставления счетов* в колонке "Управление затратами", это значит, что они не работают на современной коммерческой платформе. В этих случаях нужно использовать соединитель Azure Consumption Insights, который запрашивает номер регистрации EA, а не *идентификатор профиля выставления счетов*.
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>Подключение с помощью Azure Consumption Insights
 

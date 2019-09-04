@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172816"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201003"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Подключение к Marketo с помощью Power BI
 Пакет содержимого Power BI для Marketo позволяет получить подробные сведения об учетной записи Marketo с данными о потенциальных клиентах и их действиях. При создании этого подключения вы извлечете данные и автоматически получите панель мониторинга и связанные отчеты на основе этих данных.
+
+>[!IMPORTANT]
+>4 сентября 2019 г. этот пакет содержимого будет объявлен устаревшим. Если пакет установлен до этой даты, он продолжит работать, но вы не сможете установить новый после указанного срока. Текущие пакеты содержимого служб заменяются приложениями-шаблонами.
 
 Подключитесь к [пакету содержимого Marketo](https://app.powerbi.com/getdata/services/marketo) для Power BI.
 

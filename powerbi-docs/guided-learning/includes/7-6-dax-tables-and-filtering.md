@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273655"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70166772"
 ---
 Важное отличие **DAX** от языка формул Excel заключается в том, в DAX можно передавать из одного выражения в другое *целые таблицы*, а не отдельные значения. Благодаря этому в DAX вы можете фильтровать таблицы в выражениях и продолжать работу с отфильтрованными наборами значений.
 

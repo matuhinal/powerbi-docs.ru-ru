@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665436"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030162"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -22,6 +22,12 @@ ms.locfileid: "68665436"
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](../../desktop-latest-update.md)  
 * [Новые возможности службы Power BI](../../service-whats-new.md)  
+
+## <a name="august-2019"></a>Август 2019 г.
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Безопасный доступ с помощью Azure Active Directory (AD) Application Proxy
+
+Вместе с группой Azure Active Directory мы решили вопрос интеграции мобильных приложений Power BI с Azure AD Application Proxy. Вы можете подключаться к серверу отчетов, размещенному в сети предприятия, из приложения Power BI Mobile без настройки сложной локальной конфигурации. Дополнительные сведения см. в записи блога, посвященной [интеграции мобильных приложений Power BI и Azure AD Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Узнайте, [как настроить Azure AD Application Proxy и Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Июль 2019 г.
 
@@ -245,7 +251,7 @@ ms.locfileid: "68665436"
 
 Теперь вы можете масштабировать содержимое, чтобы ознакомиться с визуальными элементами отчета на мобильном устройстве. Для доступа к этой новой функции коснитесь с задержкой визуального элемента отчета, чтобы открыть меню всплывающих подсказок, а затем нажмите кнопку детализации для изучения данных. Дополнительные сведения о [масштабировании содержимого в мобильных приложениях](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
-#### <a name="persistent-filters"></a>Постоянные фильтры
+#### <a name="persistent-filters"></a>Сохраняемые фильтры
 
 Мы недавно обновили срезы и фильтры отчетов, чтобы они автоматически сохранялись из Power BI в Интернете в мобильное приложение Power BI. Теперь фильтры и срезы, заданные в мобильном приложении, будут автоматически сохраняться в Power BI в Интернете.
 

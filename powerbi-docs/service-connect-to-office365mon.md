@@ -1,29 +1,29 @@
 ---
 title: Подключение к Office365Mon с помощью Power BI
 description: Office365Mon для Power BI
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170231"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159907"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Подключение к Office365Mon с помощью Power BI
-С функциями Power BI и пакетом содержимого Office365Mon вам будет легко анализировать данные о перебоях в работе и состоянии служб Office 365. Power BI извлекает данные, в том числе сведения о сбоях в работе и проверках работоспособности, затем создает стандартную панель мониторинга и формирует на основе этой информации отчеты.
+С функциями Power BI и приложения-шаблона Office365Mon вам будет легко анализировать данные о перебоях в работе и состоянии служб Office 365. Power BI извлекает данные, в том числе сведения о сбоях в работе и проверках работоспособности, затем создает стандартную панель мониторинга и формирует на основе этой информации отчеты.
 
-Подключите [пакет содержимого Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) для Power BI.
+Подключите [приложение-шаблон Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) для Power BI.
 
 >[!NOTE]
->Для подключения и загрузки пакета содержимого для Power BI необходима учетная запись администратора Office365Mon.
+>Для подключения и загрузки приложения шаблона Power BI необходима учетная запись администратора Office365Mon.
 
 ## <a name="how-to-connect"></a>Способы подключения
 1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.
