@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490389"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237383"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -104,7 +104,6 @@ ms.locfileid: "69490389"
     | Поле |
     |--------------------|
     | **[Идентификатор приложения](#application-id)** |
-    | **[Секрет приложения](#application-secret)** |
     | **[Идентификатор рабочей области](#workspace-id)** |
     | **[Идентификатор отчета](#report-id)** |
     | **[AADAuthorityUrl](#aadauthorityurl)** |
