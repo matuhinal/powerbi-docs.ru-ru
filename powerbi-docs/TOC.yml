@@ -403,6 +403,8 @@
       items:
         - name: "Что такое Power\_BI?"
           href: power-bi-overview.md
+        - name: Что такое служба Power BI?
+          href: power-bi-service-overview.md
         - name: Сравнение Power BI Desktop и Power BI
           href: service-service-vs-desktop.md
     - name: Учебники
