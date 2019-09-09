@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5357056c27d6461ad7f7d7fba1daa27a508868
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391144"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750914"
 ---
 # <a name="optimizing-premium-capacities"></a>Оптимизация емкостей Premium
 
@@ -257,7 +257,7 @@ ms.locfileid: "68391144"
 
 Если у вас уже есть емкость и отчеты, для которых требуется выполнить нагрузочный тест, используйте [средство формирования нагрузки PowerShell](https://aka.ms/PowerBILoadTestingTool) для быстрого создания нагрузочного теста. Это средство позволяет оценить, сколько экземпляров каждого отчета ваша емкость может выполнять в течение часа. С помощью него можно оценить способность емкости к отрисовке отдельного отчета или параллельной отрисовке нескольких разных отчетов. Дополнительные сведения см. в видеоролике о [емкости Premium в Microsoft Power BI](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Чтобы создать более сложный тест, разработайте приложение нагрузочного тестирования для имитации реалистичной рабочей нагрузки. Дополнительные сведения см. в вебинаре [Load Testing Power BI Applications with Visual Studio Load Test](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/) (Нагрузочное тестирование приложений Power BI с использованием нагрузочного теста Visual Studio).
+Чтобы создать более сложный тест, разработайте приложение нагрузочного тестирования для имитации реалистичной рабочей нагрузки. Дополнительные сведения см. в вебинаре [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Нагрузочное тестирование приложений Power BI с использованием нагрузочного теста Visual Studio).
 
 ## <a name="acknowledgements"></a>Благодарности
 
