@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.date: 09/04/2019
+ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665367"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302685"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: ВОПРОСЫ И ОТВЕТЫ 
 
@@ -26,11 +26,11 @@ ms.locfileid: "68665367"
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?
 
-Рабочая нагрузка отчетов с разбивкой на страницы доступна для номеров SKU P1 – P3.  Вы также можете использовать ее во внедренных сценариях SaaS в номерах A4 – A6 SKUs.
+Рабочая нагрузка отчетов с разбивкой на страницы доступна для номеров SKU P1 – P3.  Вы также можете использовать ее в сценариях внедрения или тестирования и разработки в номерах SKU A4–A6.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Какое максимальное пороговое значение памяти я могу указать в моей емкости для отчетов с разбивкой на страницы?
 
-Вы можете использовать до 100 % памяти для этой рабочей нагрузки к концу июня 2019 года. 
+Вы можете использовать до 100 % памяти для этой рабочей нагрузки.
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>Как работает доступ пользователей к отчетам с разбивкой на страницы?
 
@@ -152,7 +152,7 @@ ms.locfileid: "68665367"
 
 Да, для отчетов с разбивкой на страницы доступна распечатка, включая новый и улучшенный интерфейс предварительной версии печати. 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Доступна ли подписка по электронной почте на отчеты с разбивкой на страницы?
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>Доступна ли подписка по электронной почте на отчеты с разбивкой на страницы?
 
 Да, подписки по электронной почте полностью поддерживаются для отчетов с разбивкой на страницы и включают поддержку шести различных форматов файлов и значений параметров.
 
@@ -166,7 +166,7 @@ ms.locfileid: "68665367"
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Могу ли я переходить из отчета Power BI в отчет с разбивкой на страницы для просмотра подробных сведений?
 
-Пока нет, но мы точно реализуем поддержку такого сценария.
+Да. Для этого можно использовать параметры URL-адреса в отчетах с разбивкой на страницы.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Могу ли я использовать содержимое из отчета с разбивкой на страницы в приложении Power BI?
 
