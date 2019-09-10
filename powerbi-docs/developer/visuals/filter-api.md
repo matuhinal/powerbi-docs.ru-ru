@@ -1,6 +1,6 @@
 ---
-title: API фильтров визуальных элементов
-description: Фильтрация визуальными элементами Power BI других визуальных элементов
+title: API фильтров визуальных элементов в визуальных элементах Power BI
+description: В этой статье описывается фильтрация визуальными элементами Power BI других визуальных элементов.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 50e9601faf497675ebc3f24609a856a600e3bcb1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fc0b21116888c8455d4d7b8efc5c476bfc592483
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425052"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237113"
 ---
-# <a name="power-bi-visual-filters-api"></a>API фильтров визуальных элементов Power BI
+# <a name="the-visual-filters-api-in-power-bi-visuals"></a>API фильтров визуальных элементов в визуальных элементах Power BI
 
-Фильтрация визуальных элементов позволяет фильтровать данные. Основное отличие от выбора заключается в том, что другие визуальные элементы будут фильтроваться всегда, независимо от поддержки выделения другими визуальными элементами.
+API фильтров визуальных элементов позволяет фильтровать данные в визуальных элементах Power BI. Основное отличие от других способов выбора заключается в том, что другие визуальные элементы будут фильтроваться всегда, независимо от поддержки выделения другими визуальными элементами.
 
-Чтобы включить фильтрацию для визуального элемента, он должен содержать объект `filter` в разделе `general` файла capabilities.json.
+Чтобы включить фильтрацию для визуального элемента, он должен содержать объект `filter` в разделе `general` файла *capabilities.json*.
 
 ```json
 "objects": {
@@ -38,15 +38,15 @@ ms.locfileid: "68425052"
     }
 ```
 
-API фильтра доступны в пакете [`powerbi-models`](https://www.npmjs.com/package/powerbi-models). Этот пакет также содержит классы для создания экземпляров фильтра.
+Интерфейсы API фильтров визуальных фильтров доступны в пакете [powerbi-models](https://www.npmjs.com/package/powerbi-models). Этот пакет также содержит классы для создания экземпляров фильтра.
 
 ```cmd
 npm install powerbi-models --save
 ```
 
-Если используется старая версия средств (ниже 3.x.x), следует включить `powerbi-models` в пакет визуальных элементов. [Краткое руководство по включению пакета](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md)
+Если вы используете более раннюю версию средств (до 3. x. x), следует включить `powerbi-models` в пакет визуальных элементов. Дополнительные сведения см. в кратком руководстве [Добавление API расширенного фильтра к пользовательскому визуальному элементу](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md).
 
-Все фильтры расширяют интерфейс `IFilter`.
+Все фильтры расширяют интерфейс `IFilter`, как показано в следующем коде:
 
 ```typescript
 export interface IFilter {
@@ -54,12 +54,12 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
+Здесь:
+* `target` — это столбец таблицы в источнике данных.
 
-`target` — столбец таблицы в источнике данных.
+## <a name="the-basic-filter-api"></a>API базового фильтра
 
-## <a name="basic-filter-api"></a>API базового фильтра
-
-Интерфейс базового фильтра:
+Интерфейс базового фильтра показан в следующем коде:
 
 ```typescript
 export interface IBasicFilter extends IFilter {
@@ -68,9 +68,9 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-`operator` — перечисление со значениями "In", "NotIn", "All".
-
-`values` — значения для условия.
+Здесь:
+* `operator` — это перечисление со значениями *In*, *NotIn* и *All*.
+* `values` — это значения для условия.
 
 Пример базового фильтра:
 
@@ -84,7 +84,7 @@ let basicFilter = {
 }
 ```
 
-Фильтр имеет следующее значение: "вывести все строки, где `col1` равняется 1, 2 или 3".
+Этот фильтр имеет следующее значение: "вывести все строки, где `col1` равняется 1, 2 или 3".
 
 Эквивалент SQL:
 
@@ -94,7 +94,7 @@ SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
 
 Чтобы создать фильтр, можно использовать класс BasicFilter в `powerbi-models`.
 
-При использовании старой версии средств нужно получить экземпляр моделей в объекте window, используя `window['powerbi-models']`:
+Если вы используете более старую версию средства, следует получить экземпляр моделей в объекте окна с помощью `window['powerbi-models']`, как показано в следующем коде:
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -115,13 +115,13 @@ let filter: IBasicFilter = new window['powerbi-models'].BasicFilter(target, "In"
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-## <a name="advanced-filter-api"></a>API расширенного фильтра
+## <a name="the-advanced-filter-api"></a>API расширенного фильтра
 
-[API расширенного фильтра](https://github.com/Microsoft/powerbi-models) позволяет выполнять сложные запросы выборки и фильтрации точек данных на основе нескольких визуальных элементов (например, "LessThan", "Contains", "Is", "IsBlank" и т. п.).
+[API расширенного фильтра](https://github.com/Microsoft/powerbi-models) позволяет выполнять сложные запросы выборки и фильтрации точек данных на основе нескольких визуальных элементов (например, *LessThan*, *Contains*, *Is*, *IsBlank* и т. д.).
 
 Этот фильтр появился в API визуальных элементов 1.7.0.
 
-API расширенного фильтра также требует `target` с `table` и именем `column`. Однако операторами API расширенного фильтра являются `"And" | "Or"`. 
+API расширенного фильтра также требует `target` с `table` и именем `column`. Однако операторами API расширенного фильтра являются *And* и *Or*. 
 
 Кроме того, фильтр использует условия вместо значений с интерфейсом:
 
@@ -132,7 +132,7 @@ interface IAdvancedFilterCondition {
 }
 ```
 
-Операторами условий для параметра `operator` являются `"None" | "LessThan" | "LessThanOrEqual" | "GreaterThan" | "GreaterThanOrEqual" | "Contains" | "DoesNotContain" | "StartsWith" | "DoesNotStartWith" | "Is" | "IsNot" | "IsBlank" | "IsNotBlank"`.
+Условными операторами для параметра `operator` являются *None*, *LessThan*, *LessThanOrEqual*, *GreaterThan*, *GreaterThanOrEqual*, *Contains*, *DoesNotContain*, *StartsWith*, *DoesNotStartWith*, *Is*, *IsNot*, *IsBlank* и IsNotBlank.
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -161,15 +161,13 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 SELECT * FROM table WHERE col1 < 0;
 ```
 
-Полный пример кода с использованием API расширенного фильтра можно найти в [репозитории `Sampleslicer visual`](https://github.com/Microsoft/powerbi-visuals-sampleslicer).
+Полный пример кода, в котором используется пример API расширенного фильтра, см. в статье [Репозиторий визуальных элементов Sampleslicer](https://github.com/Microsoft/powerbi-visuals-sampleslicer).
 
-## <a name="tuple-filter-api-multi-column-filter"></a>API фильтра кортежей (фильтр для нескольких столбцов)
+## <a name="the-tuple-filter-api-multi-column-filter"></a>API фильтра кортежей (фильтр для нескольких столбцов)
 
-API фильтра кортежей появился в API визуальных элементов 2.3.0.
+API фильтра кортежей появился в API визуальных элементов 2.3.0. Он аналогичен API базового фильтра, но позволяет определять условия для нескольких столбцов и таблиц.
 
-API фильтра кортежей аналогичен базовому фильтру, но позволяет определять условия для нескольких столбцов и таблиц.
-
-Фильтр имеет интерфейс: 
+Интерфейс фильтра показан в следующем коде: 
 
 ```typescript
 interface ITupleFilter extends IFilter {
@@ -181,21 +179,22 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-`target` — это массив столбцов с именами таблиц:
+Здесь:
+* `target` — это массив столбцов с именами таблиц:
 
-```typescript
-declare type ITupleFilterTarget = IFilterTarget[];
-```
+    ```typescript
+    declare type ITupleFilterTarget = IFilterTarget[];
+    ```
 
   Фильтр может обращаться к столбцам из разных таблиц.
 
-`$schema` имеет значение "http://powerbi.com/product/schema#tuple".
+* `$schema` — это http://powerbi.com/product/schema#tuple.
 
-`filterType` имеет значение `FilterType.Tuple`.
+* `filterType` — это *FilterType.Tuple*.
 
-`operator` допускается только использование оператора `"In"`.
+* `operator` допускает использование только в операторе *In*.
 
-`values` — это массив кортежей значений, где каждый кортеж представляет одно разрешенное сочетание значений целевого столбца. 
+* `values` — это массив кортежей значений, где каждый кортеж представляет одно разрешенное сочетание значений целевого столбца. 
 
 ```typescript
 declare type TupleValueType = ITupleElementValue[];
@@ -221,16 +220,16 @@ let target: ITupleFilterTarget = [
 
 let values = [
     [
-        // the 1st column combination value (aka column tuple/vector value) that the filter will pass through
+        // the first column combination value (or the column tuple/vector value) that the filter will pass through
         {
-            value: "Team1" // the value for `Team` column of `DataTable` table
+            value: "Team1" // the value for the `Team` column of the `DataTable` table
         },
         {
-            value: 5 // the value for `Value` column of `DataTable` table
+            value: 5 // the value for the `Value` column of the `DataTable` table
         }
     ],
     [
-        // the 2nd column combination value (aka column tuple/vector value) that the filter will pass through
+        // the second column combination value (or the column tuple/vector value) that the filter will pass through
         {
             value: "Team2" // the value for `Team` column of `DataTable` table
         },
@@ -252,7 +251,8 @@ let filter: ITupleFilter = {
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-**Порядок имен столбцов и значений условия имеет значение.**
+> [!IMPORTANT]
+> Учитывается порядок имен столбцов и значений условий.
 
 Эквивалент SQL:
 
@@ -260,9 +260,9 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team2" AND Value = 6 );
 ```  
 
-## <a name="restoring-json-filter-from-dataview"></a>Восстановление фильтра JSON из DataView
+## <a name="restore-the-json-filter-from-the-data-view"></a>Восстановление фильтра JSON из представления данных
 
-Начиная с API 2.2 **фильтры JSON** можно восстановить из **VisualUpdateOptions**.
+Начиная с API версии 2.2 можно восстановить фильтр JSON из *VisualUpdateOptions*, как показано в следующем коде:
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -276,16 +276,17 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 }
 ```
 
-Power BI вызывает метод `update` визуального элемента, когда использует переключение между закладками и визуальный элемент получает соответствующий объект `filter`.
-[Дополнительные сведения о поддержке закладок](bookmarks-support.md)
+Power BI вызывает метод `update` визуального элемента, когда использует переключение между закладками. При этом визуальный элемент получает соответствующий объект `filter`. Дополнительные сведения см. в статье [Добавление поддержки закладок для визуальных элементов Power BI](bookmarks-support.md).
 
 ### <a name="sample-json-filter"></a>Пример фильтра JSON
 
-![Снимок экрана с фильтром JSON](./media/json-filter.png)
+Пример с кодом фильтра JSON показан на следующем рисунке:
 
-### <a name="clear-json-filter"></a>Очистка фильтра JSON
+![Код фильтра JSON](./media/json-filter.png)
 
-API фильтра принимает значение `null` фильтра в качестве сброса или очистки.
+### <a name="clear-the-json-filter"></a>Очистка фильтра JSON
+
+API фильтра принимает значение `null` фильтра в качестве *сброса* или *очистки*.
 
 ```typescript
 // invoke the filter

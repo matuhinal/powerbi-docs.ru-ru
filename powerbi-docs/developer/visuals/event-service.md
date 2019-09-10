@@ -1,6 +1,6 @@
 ---
-title: События отрисовки
-description: Визуальные элементы Power BI могут уведомлять Power BI о том, что они готовы к экспорту в Power Point/PDF
+title: События отрисовки в визуальных элементах Power BI
+description: Визуальные элементы Power BI могут уведомлять Power BI о том, что они готовы к экспорту в PowerPoint или PDF.
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425098"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237164"
 ---
-# <a name="event-service"></a>Служба событий
+# <a name="render-events-in-power-bi-visuals"></a>События отрисовки в визуальных элементах Power BI
 
-Новый API состоит из трех методов (started, finished или failed), которые должны вызываться во время отрисовки.
+Новый API состоит из трех методов (`started`, `finished` или `failed`), которые должны вызываться во время отрисовки.
 
-При запуске отрисовки код пользовательского визуального элемента вызывает метод renderingStarted, чтобы указать, что процесс отрисовки запущен.
+При запуске отрисовки код визуального элемента Power BI вызывает метод `renderingStarted`, чтобы указать, что процесс отрисовки запущен.
 
-Если отрисовка успешно завершена, код пользовательского визуального элемента немедленно вызовет метод `renderingFinished`, уведомляющий прослушиватели (**в основном это "экспорт в PDF" и "экспорт в PowerPoint**") о том, что изображение визуального элемента готово.
+Если отрисовка успешно завершена, код визуального элемента Power BI немедленно вызовет метод `renderingFinished`, уведомляющий прослушиватели (в основном это *экспорт в PDF* и *экспорт в PowerPoint*) о том, что изображение визуального элемента готово для экспорта.
 
-Во время процесса отрисовки может возникнуть проблема, препятствующая успешному выполнению пользовательского визуального элемента. Код пользовательского визуального элемента должен вызывать метод `renderingFailed`, уведомляющий прослушиватель о том, что процесс отрисовки не завершен. Этот метод также предоставляет необязательную строку, указывающую на причину сбоя.
+Если во время этого процесса возникает проблема, визуальный элемент Power BI не отрисовывается. Код визуального элемента Power BI должен вызывать метод `renderingFailed`, уведомляющий прослушиватели о том, что процесс отрисовки не завершен. Этот метод также предоставляет необязательную строку, указывающую на причину сбоя.
 
 ## <a name="usage"></a>Usage
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>Простой пример. Визуальный элемент не имеет никаких анимаций при отрисовке
+### <a name="sample-the-visual-displays-no-animations"></a>Пример. Визуальный элемент не отображает анимацию
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,7 +83,7 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>Пример. Визуальный элемент с анимацией
+### <a name="sample-the-visual-displays-animations"></a>Пример. Визуальный элемент отображает анимацию
 
 Если визуальный элемент содержит анимации или асинхронные функции для отрисовки, метод `renderingFinished` должен вызываться после анимации или внутри асинхронной функции.
 
@@ -104,7 +104,7 @@ export interface IVisualEventService {
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ export interface IVisualEventService {
 
 ## <a name="rendering-events-for-visual-certification"></a>События отрисовки для сертификации визуального элемента
 
-Поддержка событий отрисовки визуальным элементом является одним из требований при сертификации визуальных элементов. Дополнительные сведения см. в [требованиях к сертификации](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).
+Поддержка событий отрисовки визуальным элементом является одним из требований при сертификации визуальных элементов. Дополнительные сведения см. в статье [Требования к сертификации](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).

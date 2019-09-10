@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159946"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302639"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Источники данных, поддерживаемые DirectQuery в Power BI
 
@@ -29,14 +29,16 @@ ms.locfileid: "70159946"
 * Azure HDInsight Spark
 * [База данных SQL Azure](service-azure-sql-database-with-direct-connect.md)
 * [Хранилище данных SQL Azure](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * HDInsight Interactive Query
-* База данных IBM DB2
+* IBM DB2 (поставщик Майкрософт)
 * IBM Netezza
 * Impala (версии 2.x)
 * MarkLogic
 * База данных Oracle (версии 12 и более поздней)
 * Oracle Essbase
+* PostgreSQL
 * Сервер приложений SAP Business Warehouse
 * Сервер сообщений SAP Business Warehouse
 * SAP HANA
@@ -65,15 +67,24 @@ ms.locfileid: "70159946"
 | Хранилище данных SQL Azure |Нет |
 | Google BigQuery |Нет |
 | IBM Netezza |Да |
+| IBM DB2 (поставщик IBM) |Да |
+| IBM DB2 (поставщик Майкрософт) |Нет |
+| База данных IBM Informix |Нет |
 | Impala (версии 2.x) |Да |
+| MySQL |Да |
+| ODBC |Да |
 | База данных Oracle |Да |
+| PostgreSQL |Да |
 | Сервер приложений SAP Business Warehouse |Да |
 | Сервер сообщений SAP Business Warehouse |Пока не поддерживается в **службе Power BI** |
 | SAP HANA |Да |
 | Снежинка |Да |
 | Spark (бета-версия) версии 0.9 и более поздней |Да |
 | SQL Server |Да |
+| Sybase |Да |
 | База данных Teradata |Да |
+| Vertica |Да |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Единый вход для источников DirectQuery
 

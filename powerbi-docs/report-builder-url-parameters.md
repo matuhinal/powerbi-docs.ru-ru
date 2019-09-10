@@ -9,12 +9,12 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: 4dae849a18bbfc6e85eedc7ae9e338ad205cb436
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189353"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302671"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Параметры URL-адреса в отчетах с разбивкой на страницы в Power BI
 
@@ -69,11 +69,11 @@ URL-адрес веб-службы клиента Power BI. Например:
 ### <a name="report-commands-rdl"></a>Команды отчета (`rdl:`) 
 
 **Формат экспорта** — задает формат отображения и экспорта отчета. Доступные значения: 
-- PPTX 
+- PPTX (PowerPoint)
 - MHTML 
 - ИЗОБРАЖЕНИЕ 
-- EXCEL 
-- WORD 
+- EXCELOPENXML (EXCEL) 
+- WORDOPENXML (WORD) 
 - CSV 
 - PDF 
 - XML 

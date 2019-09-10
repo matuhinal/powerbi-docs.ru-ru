@@ -1,6 +1,6 @@
 ---
-title: Получение дополнительных данных
-description: Включение сегментированного получения больших наборов данных для визуальных элементов Power BI
+title: Получение дополнительных данных из Power BI
+description: В этой статье описывается включение сегментированного получения больших наборов данных для визуальных элементов Power BI.
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,23 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bc8ff673927fd66bf44164e4e9950c279b98c6c1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425075"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237134"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Получение дополнительных данных из Power BI
 
-API для загрузки дополнительных данных позволяет преодолеть жесткое ограничение в 30 тыс. для точки данных. Он передает данные фрагментами. Размер фрагмента можно настроить для повышения производительности в соответствии с вариантом использования.  
+В этой статье описывается, как загрузить дополнительные данные, чтобы обойти ограничение в 30 КБ, установленное для точки данных. При таком подходе данные предоставляются в виде блоков. Чтобы повысить производительность, можно настроить размер блока в соответствии с конкретными требованиями.  
 
-## <a name="enable-segmented-fetch-of-large-datasets"></a>Включение сегментированного получения больших наборов данных
+## <a name="enable-a-segmented-fetch-of-large-datasets"></a>Включение сегментированного получения больших наборов данных
 
-Для сегментного режима `dataview` определите dataReductionAlgorithm "окна" в `capabilities.json` визуального элемента для требуемого dataViewMapping.
-`count` определит размер окна, ограничивающий количество новых строк данных, добавляемых к `dataview` при каждом обновлении.
+Для сегментного режима `dataview` определите размер окна для dataReductionAlgorithm в файле *capabilities.json* визуального элемента для требуемого dataViewMapping. `count` определяет размер окна, ограничивающий количество новых строк данных, добавляемых к `dataview` при каждом обновлении.
 
-Для добавления в capabilities.json
+Добавьте следующий код в файл *capabilities.json*:
 
 ```typescript
 "dataViewMappings": [
@@ -47,9 +46,9 @@ API для загрузки дополнительных данных позво
 
 Новые сегменты добавляются к существующему `dataview` и предоставляются визуальному элементу в виде вызова `update`.
 
-## <a name="usage-in-the-custom-visual"></a>Использование в пользовательском визуальном элементе
+## <a name="usage-in-the-power-bi-visual"></a>Использование в визуальном элементе Power BI
 
-Существование данных индикации можно определить с помощью проверки существования `dataView.metadata.segment`:
+Чтобы определить, существуют ли данные, проверьте наличие `dataView.metadata.segment`:
 
 ```typescript
     public update(options: VisualUpdateOptions) {
@@ -59,9 +58,7 @@ API для загрузки дополнительных данных позво
     }
 ```
 
-Кроме того, можно установить, является ли это обновление первым или последующим, проверив `options.operationKind`.
-
-`VisualDataChangeOperationKind.Create` обозначает первый сегмент, а `VisualDataChangeOperationKind.Append` — последующие.
+С помощью `options.operationKind` вы также можете проверить, является ли это обновление первичным или очередным. В следующем коде `VisualDataChangeOperationKind.Create` ссылается на первый сегмент, а `VisualDataChangeOperationKind.Append` — на последующие сегменты.
 
 Пример реализации см. в следующем фрагменте кода:
 
@@ -73,7 +70,7 @@ public update(options: VisualUpdateOptions) {
 
     }
 
-    // on second or subesquent segments:
+    // on second or subsequent segments:
     if (options.operationKind == VisualDataChangeOperationKind.Append) {
 
     }
@@ -82,24 +79,24 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-Метод `fetchMoreData` также можно вызвать из обработчика событий пользовательского интерфейса
+Можно также вызвать метод `fetchMoreData` из обработчика событий пользовательского интерфейса, как показано ниже:
 
 ```typescript
 btn_click(){
 {
-    // check if more data is expected for the current dataview
+    // check if more data is expected for the current data view
     if (dataView.metadata.segment) {
-        //request for more data if available, as resopnce Power BI will call update method
+        //request for more data if available; as a response, Power BI will call update method
         let request_accepted: bool = this.host.fetchMoreData();
         // handle rejection
         if (!request_accepted) {
-            // for example when the 100 MB limit has been reached
+            // for example, when the 100 MB limit has been reached
         }
     }
 }
 ```
 
-Power BI вызовет метод `update` визуального элемента с новым сегментом данных в качестве ответа на вызов метода `this.host.fetchMoreData`.
+В ответ на вызов метода `this.host.fetchMoreData` Power BI вызывает метод `update` визуального элемента с новым сегментом данных.
 
 > [!NOTE]
-> Power BI ограничит общий объем получаемых данных значением **100 МБ**, чтобы предотвратить нехватку памяти на клиенте. На достижение этого лимита указывает возвращение fetchMoreData() значения "false".*
+> Power BI ограничит общий объем получаемых данных значением 100 МБ, чтобы предотвратить нехватку памяти на клиенте. Когда будет достигнуто ограничение, метод fetchMoreData() возвратит `false`.

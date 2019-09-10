@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655166"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391861"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Использование Kerberos для единого входа из Power BI в локальные источники данных
 
@@ -377,7 +377,7 @@ ms.locfileid: "69655166"
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>Добавление записей реестра на компьютере шлюза
 
-Добавьте необходимые записи в реестр компьютера, на котором установлен шлюз. Выполните следующие команды:
+Добавьте необходимые записи в реестр компьютера, на котором установлен шлюз, а также в реестры компьютеров, к которым будет устанавливаться подключение из Power BI Desktop. Выполните следующие команды:
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 

@@ -1,6 +1,6 @@
 ---
-title: Объекты и свойства
-description: Настраиваемые свойства визуального элемента Power BI
+title: Объекты и свойства визуальных элементов Power BI
+description: В этой статье описываются настраиваемые свойства визуальных элементов Power BI.
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,20 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424615"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236609"
 ---
-# <a name="object-and-properties"></a>Объекты и свойства
+# <a name="objects-and-properties-of-power-bi-visuals"></a>Объекты и свойства визуальных элементов Power BI
 
-Объекты описывают настраиваемые свойства, связанные с визуальным элементом.
-Каждый объект может иметь несколько свойств, и с каждым свойством сопоставлен тип.
-Типы указывают, что будет представлять собой свойство. Дополнительные сведения о типах см. ниже.
+Объекты описывают настраиваемые свойства, связанные с визуальным элементом. Объект может иметь несколько свойств, а с каждым свойством связывается тип, который описывает это свойство. В этой статье приводятся сведения об объектах и типах свойств.
 
-`myCustomObject` — это внутреннее имя, используемое для ссылки на объект в `dataView` и `enumerateObjectInstances`:
+`myCustomObject` — это внутреннее имя, используемое для ссылки на объект в `dataView` и `enumerateObjectInstances`.
 
 ```json
 "objects": {
@@ -39,7 +37,7 @@ ms.locfileid: "68424615"
 
 ## <a name="properties"></a>Свойства
 
-`properties` — это карта свойств, определенных разработчиком.
+`properties` — это карта свойств, определенных разработчиком.
 
 ```json
 "properties": {
@@ -66,12 +64,13 @@ ms.locfileid: "68424615"
 
 ### <a name="property-types"></a>Типы свойств
 
-Существует два вида типов свойств: `ValueTypeDescriptor` и `StructuralTypeDescriptor`.
+Существует два типа свойств: `ValueTypeDescriptor` и `StructuralTypeDescriptor`.
 
 #### <a name="value-type-descriptor"></a>Дескриптор типа значения
 
-`ValueTypeDescriptor` являются главным образом типами-примитивами и обычно используются в качестве статического объекта.
-Ниже приведен типичный `ValueTypeDescriptor`:
+Типы `ValueTypeDescriptor` являются главным образом типами-примитивами и обычно используются в качестве статического объекта.
+
+Ниже показаны типичные элементы `ValueTypeDescriptor`:
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -84,8 +83,8 @@ export interface ValueTypeDescriptor {
 
 #### <a name="structural-type-descriptor"></a>Дескриптор структурного типа
 
-`StructuralTypeDescriptor` в основном используются для объектов, привязанных к данным.
-Заливка является наиболее распространенным `StructuralTypeDescriptor`.
+Типы `StructuralTypeDescriptor` в основном используются для объектов, привязанных к данным.
+Наиболее распространенный тип `StructuralTypeDescriptor` — *fill*.
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>Градиентное свойство
 
-Градиентное свойство — это свойство, которое невозможно задать как стандартное свойство. Вместо этого нужно задать правило для замены свойства палитры (тип заливки).
-См. следующий пример:
+Градиентное свойство — это свойство, которое невозможно задать как стандартное свойство. Вместо этого нужно задать правило для замены свойства палитры (тип *fill*).
+
+Пример показан в следующем коде:
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-Обратите внимание на свойства `"fill"` и `"fillRule"`. Первое — это палитра, второе — правило подстановки для градиента, которое заменит свойство "fill" `visually` при соблюдении условий правила.
+Обратите внимание на свойства *fill* и *fillRule*. Первое — это палитра, второе — правило подстановки для градиента, которое заменит *свойство fill*, `visually`, при соблюдении условий правила.
 
-Эта связь между свойством fill и правилом подстановки определяется в разделе `"rule"`->`"output"` свойства `"fillRule"`.
+Эта связь между свойством *fill* и правилом подстановки определяется в разделе `"rule"`>`"output"` свойства *fillRule*.
 
-`"Rule"`->`"InputRole"` задает, какая роль данных активирует правило (условие). В этом примере, если роль данных `"Gradient"` содержит данные, правило будет применено к свойству `"fill"`.
+Свойство `"Rule"`>`"InputRole"` задает, какая роль данных активирует правило (условие). В этом примере если роль данных `"Gradient"` содержит данные, правило будет применено к свойству `"fill"`.
 
-Ниже приведен пример роли данных, которая активирует правило заливки (`the last item`).
+В следующем коде показан пример роли данных, которая активирует правило заливки (`the last item`):
 
 ```json
 {
@@ -170,9 +170,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>Метод `enumerateObjectInstances`
+## <a name="the-enumerateobjectinstances-method"></a>Метод enumerateObjectInstances
 
-Чтобы эффективно использовать объекты, вам потребуется функция в пользовательском визуальном элементе с именем `enumerateObjectInstances`. Эта функция заполнит панель свойств объектами, а также определит, куда должны быть привязаны объекты внутри dataView.  
+Чтобы эффективно использовать объекты, вам потребуется функция в пользовательском визуальном элементе с именем `enumerateObjectInstances`. Эта функция заполняет панель свойств объектами, а также определяет, куда должны быть привязаны объекты внутри dataView.  
 
 Вот как выглядит обычная настройка:
 
@@ -197,15 +197,15 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>Свойства
 
-Свойства в `enumerateObjectInstances` будут отражать свойства, определенные в ваших возможностях. См. пример в нижней части страницы.
+Свойства в `enumerateObjectInstances` отражают свойства, определенные в ваших возможностях. См. пример в конце этой статьи.
 
 ### <a name="objects-selector"></a>Селектор объектов
 
-Селектор в `enumerateObjectInstances` определяет, куда будет привязан каждый объект в DataView. Существует четыре отдельных параметра.
+Селектор в `enumerateObjectInstances` определяет, куда привязывается каждый объект в dataView. Существует четыре отдельных параметра.
 
 #### <a name="static"></a>static
 
-Этот объект будет привязан к метаданным `dataviews[index].metadata.objects`.
+Этот объект привязывается к метаданным `dataviews[index].metadata.objects`, как показано здесь.
 
 ```typescript
 selector: null
@@ -213,7 +213,7 @@ selector: null
 
 #### <a name="columns"></a>columns
 
-Этот объект будет привязан к столбцам с соответствующим `QueryName`.
+Этот объект привязывается к столбцам с соответствующим `QueryName`.
 
 ```typescript
 selector: {
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>selector
 
-Этот объект будет привязан к элементу, для которого мы создали `selectionID`. В этом примере предполагается, что мы создали `selectionID` для некоторых точек данные и выполняем их перебор в цикле.
+Этот объект привязывается к элементу, для которого вы создали `selectionID`. В этом примере предполагается, что мы создали `selectionID` для некоторых точек данные и выполняем их перебор в цикле.
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>scope identity
 
-Этот объект будет привязан к конкретным значениям на пересечении групп. Например, если у меня есть категории `["Jan", "Feb", "March", ...]` и ряды `["Small", "Medium", "Large"]`, мне может потребоваться объект на пересечении значений, соответствующих `Feb` и `Large`. Для этого я могу получить `DataViewScopeIdentity` обоих столбцов, отправить их в переменную `identities` и использовать этот синтаксис с селектором.
+Этот объект привязывается к конкретным значениям на пересечении групп. Например, если у вас есть категории `["Jan", "Feb", "March", ...]` и ряды `["Small", "Medium", "Large"]`, вам может потребоваться объект на пересечении значений, соответствующих `Feb` и `Large`. Для этого вы можете получить `DataViewScopeIdentity` обоих столбцов, отправить их в переменную `identities` и использовать этот синтаксис с селектором.
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>Пример
 
-В этом примере мы показываем, как будет выглядеть один objectEnumeration для объекта customColor с одним свойством `fill`. Мы хотим, чтобы этот объект был статически привязан к `dataViews[index].metadata.objects`.
+В этом примере показано, как будет выглядеть один objectEnumeration для объекта customColor с одним свойством *fill*. Мы хотим, чтобы этот объект был статически привязан к `dataViews[index].metadata.objects`, как показано ниже:
 
 ```typescript
 objectEnumeration.push({
