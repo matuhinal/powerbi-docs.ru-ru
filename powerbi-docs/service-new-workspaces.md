@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530505"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750905"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Организация работы в новых рабочих областях в Power BI
 
@@ -61,7 +61,7 @@ ms.locfileid: "69530505"
 
 При назначении ролей группе пользователей у всех пользователей в группе будет доступ к содержимому. Если группа пользователей имеет вложения, разрешение получат все пользователи во вложенных группах.
 
-Ниже перечислены возможности четырех ролей: администраторов, членов, участников и зрителей.
+Ниже перечислены возможности четырех ролей: администраторов, членов, участников и зрителей. Для использования всех этих возможностей, кроме последней, требуется лицензия Power BI Pro.
 
 |Возможность   | Администратор  | Член  | Участник  | Зритель |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ ms.locfileid: "69530505"
 | Разрешать другим пользователям повторно предоставлять совместный доступ к элементам. |  X | X  |   |   |
 | Создавать, редактировать и удалять содержимое в рабочей области.  |  X | X  | X  |   |
 | Публиковать отчеты в рабочей области, удалять содержимое.  |  X | X  | X  |   |
-| Просматривать элементы. |  X | X  | X  | X  |
 | Создавать отчеты в другой рабочей области на основе набора данных в этой рабочей области. |  X | X  | X  | X <sup>1</sup>  |
 | Копировать отчет. | X | X | X | X <sup>1</sup> |
+| Просматривать элемент и работать с ним. |  X | X  | X  | X  |
 
 **1** Требуется лицензия Power BI Pro и [разрешение "Сборка" для наборов данных](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
