@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Гиперссылки в таблицах
               href: power-bi-hyperlinks-in-tables.md
+            - name: Отображение изображений в таблицах
+              href: power-bi-images-tables.md
             - name: Пользовательские строки форматирования
               href: desktop-custom-format-strings.md
             - name: Условное форматирование таблицы
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: Создание QR-кода для плитки
               href: service-create-qr-code-for-tile.md
-            - name: Добавление изображения на панель мониторинга
-              href: service-dashboard-add-image.md
             - name: Классификация данных на панелях мониторинга
               href: service-data-classification.md
             - name: Темы панели мониторинга
@@ -677,8 +677,6 @@
               href: service-dataflows-linked-entities.md
             - name: Использование добавочного обновления для потоков данных
               href: service-dataflows-incremental-refresh.md
-            - name: Рекомендации по потокам данных
-              href: service-dataflows-best-practices.md
             - name: Ресурсы для разработчиков потоков данных
               href: service-dataflows-developer-resources.md
             - name: Подключение к потокам данных в Power BI Desktop
@@ -1432,6 +1430,8 @@
           href: service-admin-power-bi-security.md
 - name: Руководство
   items:
+    - name: Рекомендации по потокам данных
+      href: service-dataflows-best-practices.md
     - name: Что такое схема типа "звезда"?
       href: guidance/star-schema.md
     - name: Уменьшение размера модели данных
