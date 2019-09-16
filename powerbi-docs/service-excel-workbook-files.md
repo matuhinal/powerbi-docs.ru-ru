@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513122"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840968"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Получение данных из файлов книг Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ Power BI поддерживает следующие типы данных: це
 Если выбрать **Подключить**, ваша книга отобразится в Power BI так же, как в Excel Online. При этом у вас будет несколько удобных функций, не доступных в Excel Online, которые помогут вам закрепить элементы из листов прямо на информационных панелях.
 
 Книгу нельзя редактировать в Power BI. Но если необходимо внести какие-либо изменения, нажмите кнопку "Изменить" и отредактируйте книгу в Excel Online или откройте ее в Excel на своем компьютере. Любые внесенные изменения сохраняются в книге в OneDrive.
-
-При выборе этого способа Power BI создаст соответствующий набор данных для подключенной книги. При необходимости можно использовать этот набор данных, чтобы создать отчет Power BI. Книга будет также отображаться на панели навигации по рабочей области Power BI в разделе "Отчеты". Подключенные книги обозначены специальным значком Excel.
 
 Выберите этот параметр, только если хотите закрепить на информационных панелях какие-либо данные с листов, диапазоны, сводные таблицы или диаграммы.
 

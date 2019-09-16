@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023440"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936264"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -22,9 +22,7 @@ ms.locfileid: "69023440"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-**Использование Power BI с Dynamics 365 Finance and Operations**
-<br>автор: Кевин Хорлок (Kevin Horlock)
-<br>[Зарегистрироваться для просмотра 11 сентября](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+Вебинары еще не запланированы. Проверяйте обновления, чтобы узнавать о других предстоящих событиях.
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ ms.locfileid: "69023440"
 **Закрепление навыков моделирования данных с помощью Power BI**
 <br>Автор: Каспер де Йонге (Kasper de Jonge)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**Использование Power BI с Dynamics 365 Finance and Operations**
+<br>автор: Кевин Хорлок (Kevin Horlock)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Power BI от Майкрософт — упрощение финансового планирования и анализа**
 <br>Авторы: Кори Хрнсирик (Cory Hrncirik) и Мигель Мартинес (Miguel Martinez)
