@@ -11,10 +11,10 @@ ms.date: 08/29/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: fde61f2411fb04897cc23f24639dc373a98e6edd
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70185121"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
@@ -51,7 +51,7 @@ ms.locfileid: "70185121"
     ![AppSource в разделе My organization (Моя организация)](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. Выберите **Получить**, чтобы добавить его в список "Приложения". 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Получение приложения с веб-сайта Microsoft AppSource (https://appsource.microsoft.com))
+## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Получение приложения с веб-сайта Microsoft AppSource (https://appsource.microsoft.com) )
 В этом примере мы откроем один из примеров приложений Майкрософт. В AppSource доступны приложения для многих служб, которые вы используете для своей работы.  Это такие службы, как Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo и многие другие. Дополнительные сведения см. в статье [Подключение к используемым службам с помощью Power BI](../service-connect-to-services.md). 
 
 1. В браузере откройте https://appsource.microsoft.com и выберите **Приложения Power BI**.
