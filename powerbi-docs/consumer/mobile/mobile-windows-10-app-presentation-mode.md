@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338254"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Просмотр отчетов и панели мониторинга в режиме презентации на устройствах Surface Hub и Windows 10
@@ -43,7 +43,7 @@ ms.locfileid: "61338254"
 1. Коснитесь значка "Назад" ![Значок "Назад"](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) для перехода на предыдущую страницу. Долгое касание к значку извлечет окно навигации, позволив вам перейти к папке в вашем отчете или панели мониторинга.
 2. Значок рукописного ввода ![Значок "Рукописный ввод"](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) позволяет выбрать цвет во время использования ручки Surface для рисования или добавления заметки на странице вашего отчета. 
 3. Используйте значок страниц, ![Значок разбиения текста на страницы](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) чтобы заменить страницу отчета, которую вы представляете в настоящее время.
-4. Значок воспроизведения  ![Значок воспроизведения](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) будет скрыть панели действий и начать слайд-шоу, где приложение будет автоматически поворот между страницами отчета. 
+4. Значок воспроизведения  ![Значок воспроизведения](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) скрывает панель действий и запускает слайд-шоу, при этом приложение автоматически переключается между страницами отчета. 
 5. Коснитесь значка поиска ![Значок поиска](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) для поиска других артефактов в Power BI.
 6. Чтобы выйти из режима презентации, коснитесь значка с двумя стрелками, направленными внутрь ![Выход из полноэкранного режима](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) на панели инструментов.
 

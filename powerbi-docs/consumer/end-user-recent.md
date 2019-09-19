@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61054916"
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Недавно просмотренное** содержимое в службе Power BI
@@ -37,7 +37,7 @@ ms.locfileid: "61054916"
 
 ![отображение всего недавно просмотренного содержимого](./media/end-user-recent/power-bi-recent-list.png)
 
-Здесь вы можете взаимодействовать с содержимым, как это делается в отдельных [ **панелей мониторинга**](end-user-dashboards.md), [ **отчеты**](end-user-reports.md), и  **Книги** вкладки и по приложениям <!--[**Apps**](end-user-apps.md)--> экран.
+Отсюда вы можете взаимодействовать с содержимым так же, как и на отдельных вкладках [**Панели мониторинга**](end-user-dashboards.md), [**Отчеты**](end-user-reports.md), **Книги** и на экране <!--[**Apps**](end-user-apps.md)--> приложений.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 <!--[Power BI service Apps](end-user-apps.md)-->

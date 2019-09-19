@@ -1,5 +1,5 @@
 ---
-title: Отображение данных, был использован для создания визуального элемента
+title: Отображение данных, использованных для создания визуализации
 description: В этом документе объясняется, как пользователи Power BI могут "видеть" данные, используемые для создания визуализации.
 author: mihart
 manager: kvivek
@@ -12,18 +12,18 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65607989"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Отображение данных, был использован для создания визуального элемента
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Отображение данных, использованных для создания визуализации
 
-Визуальный элемент Power BI создается на основе данных из базовых наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. При выборе **Показать данные**, Power BI отображает данные ниже (или рядом с полем) визуального элемента.
+Визуализация Power BI создается на основе данных из базовых наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. Если выбрать функцию **Показать данные**, Power BI отобразит рядом с визуализацией или под ней связанную информацию.
 
 
-1. В службе Power BI [откройте отчет](end-user-report-open.md) и выберите визуальный элемент.  
+1. В службе Power BI [откройте отчет](end-user-report-open.md) и выберите визуализацию.  
 2. Чтобы отобразить данные, лежащие в основе визуального элемента, нажмите кнопку с многоточием и выберите команду **Показать данные**.
    
    ![Выбор пункта "Показать данные"](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
@@ -36,5 +36,5 @@ ms.locfileid: "65607989"
    ![горизонтальное отображение визуального элемента и данных](./media/end-user-show-data/power-bi-show-data-rotate.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Визуальные элементы в отчетах Power BI](../visuals/power-bi-report-visualizations.md)    
+[Визуализации в отчетах Power BI](../visuals/power-bi-report-visualizations.md)    
 [Отчеты Power BI](end-user-reports.md)    
