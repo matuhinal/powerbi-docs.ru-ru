@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Основные понятия и терминология для потребителей Power BI
           href: end-user-basic-concepts.md
+        - name: Поиск содержимого с помощью домашней целевой страницы
+          href: end-user-home.md
         - name: Работа с "новым видом"
           href: ../service-new-look.md
     - name: Краткие руководства
