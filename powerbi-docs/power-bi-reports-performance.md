@@ -1,8 +1,8 @@
 ---
 title: Рекомендации по производительности Power BI
 description: В этой статье представлены рекомендации по созданию быстрых и надежных отчетов в Power BI
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665344"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841481"
 ---
 # <a name="power-bi-performance-best-practices"></a>Рекомендации по производительности Power BI
 
 В этой статье приводятся рекомендации по созданию быстрых и надежных отчетов в Power BI.  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>Выбор подходящего режима хранения: импорт, DirectQuery
+
+В большинстве случаев режим импорта является лучшим выбором, так как он обеспечивает максимальную скорость, используя локально кэшированные данные в памяти, которые сжимаются с помощью хранилища по столбцам. Режим импорта также обеспечивает полную совместимость с DAX. Режим DirectQuery (и составные модели) рекомендуется использовать, если объем данных слишком велик для обработки с помощью Power BI. Режим DirectQuery также полезен, если необходимо получать актуальные данные из источника при каждой загрузке отчета. Если у вас нет таких требований и пользователям нужно только просматривать данные, которые обновляются несколько раз в день или реже (например, из корпоративного хранилища данных), мы настоятельно рекомендуем применять режим импорта. В режиме DirectQuery пользователи могут попытаться обновить отчет, не осознавая, что они получат уже имеющиеся данные из источника.      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>Использование фильтров для отображения только необходимых визуальных элементов в отчете 
 
@@ -57,7 +61,7 @@ ms.locfileid: "68665344"
 ## <a name="directquery-best-practices"></a>Рекомендации по работе с DirectQuery
 
 В разделе ниже описываются общие рекомендации по подключению через DirectQuery.
-  
+
 ### <a name="db-design-guidance"></a>Рекомендации по проектированию базы данных
 
 - По возможности выполняйте принудительную отправку вычисляемых столбцов и мер в источник. Чем ближе к источнику они размещаются, тем выше будет потенциальная производительность.

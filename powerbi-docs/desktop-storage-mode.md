@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654736"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841308"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Режим хранения в Power BI Desktop
 
@@ -42,6 +42,9 @@ ms.locfileid: "69654736"
 * **Связи "многие ко многим"** . В *составных моделях* вы можете установить между таблицами *связи "многие ко многим"* . *Связи "многие ко многим"* избавляют от необходимости поддерживать уникальные значения в таблицах. Также они позволяют обойтись без предыдущих обходных путей, например создания новых таблиц исключительно для образования связей. Дополнительные сведения см. в статье [О связях "многие ко многим" в Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Режим хранения.** Он позволяет указать, в каких визуальных элементах будут использоваться запросы к источникам данных серверной части. Визуальные элементы, которым не нужны такие запросы, всегда импортируются, даже если они основаны на DirectQuery. Эта функция помогает повысить производительность и снизить нагрузку на серверную часть. Ранее даже простые визуальные элементы, например срезы, инициировали запросы к серверным источникам. Режим хранения подробно описан далее в этой статье.
+
+> [!NOTE]
+> Текущий режим хранения можно проверить, выбрав представление **Модель**, требуемую таблицу и просмотрев значение **Режим хранения** в разделе **Дополнительно** на панели **Свойства**.
 
 ## <a name="use-the-storage-mode-property"></a>Использование свойства режима хранения
 
@@ -155,7 +158,7 @@ ms.locfileid: "69654736"
 
 * SAP HANA
 * SAP Business Warehouse
-* Службы SQL Server Analysis Services
+* Службы SQL Server Analysis Services
 * Наборы данных Power BI
 * Azure Analysis Services
 

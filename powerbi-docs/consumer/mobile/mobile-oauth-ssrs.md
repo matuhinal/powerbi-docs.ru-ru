@@ -9,23 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567813"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903632"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
-Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к серверу отчетов Power BI и SQL Server Reporting Services 2016 или более поздней версии.
+С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к серверу отчетов Power BI и SQL Server Reporting Services 2016 или более поздней версии.
 
-![Подключение к серверу](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+Просмотрите, как с помощью OAuth Adam подключается из Power BI Mobile к SSRS:
 
-С помощью OAuth можно подключаться к серверу отчетов Power BI и службам Reporting Services для отображения мобильных отчетов и ключевых показателей эффективности. Windows Server 2016 предоставляет некоторые улучшения для роли прокси-службы веб-приложения (WAP), чтобы обеспечить такой тип проверки подлинности.
 
-   > [!NOTE]
-   > Просмотр отчетов Power BI, размещенных на сервере отчетов Power BI, с использованием WAP для проверки подлинности сейчас поддерживается приложениями для iOS и Android.
+<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Просмотр отчетов Power BI, размещенных на сервере отчетов Power BI, с использованием WAP для проверки подлинности сейчас поддерживается приложениями для iOS и Android.
 
 ## <a name="requirements"></a>Требования
 
@@ -33,23 +35,23 @@ ms.locfileid: "67567813"
 
 ## <a name="domain-name-services-dns-configuration"></a>Конфигурация служб доменных имен (DNS)
 
-Вы должны определить, к какому общедоступному URL-адресу будет подключаться мобильное приложение Power BI. Например, он может выглядеть следующим образом.
+Общедоступный URL-адрес, к которому будет подключаться мобильное приложение Power BI. Например, он может выглядеть следующим образом.
 
 ```https
 https://reports.contoso.com
 ```
 
-Вам нужно направить запись DNS для имени **reports** на общедоступный IP-адрес сервера прокси-службы веб-приложения (WAP). Также необходимо будет настроить общедоступную запись DNS для сервера AD FS. Например, вы можете настроить для сервера AD FS следующий URL-адрес.
+Ваша запись DNS для имени **reports** на общедоступный IP-адрес сервера прокси-службы веб-приложения (WAP). Также необходимо настроить общедоступную запись DNS для сервера ADFS. Например, вы можете настроить для сервера AD FS следующий URL-адрес.
 
 ```https
 https://fs.contoso.com
 ```
 
-Вам нужно направить запись DNS для имени **fs** на общедоступный IP-адрес сервера прокси-службы веб-приложения (WAP), так как он будет опубликован как часть приложения WAP.
+Ваша запись DNS для имени **fs** на общедоступный IP-адрес сервера прокси-службы веб-приложения (WAP), так как он будет опубликован как часть приложения WAP.
 
 ## <a name="certificates"></a>Сертификаты
 
-Вы должны настроить сертификаты для приложения WAP и сервера AD FS. Оба сертификата должны быть частью действительного центра сертификации, который распознают ваши мобильные устройства.
+Необходимо настроить сертификаты как для приложения WAP, так и для сервера ADFS. Оба сертификата должны быть частью действительного центра сертификации, который распознают ваши мобильные устройства.
 
 ## <a name="reporting-services-configuration"></a>Настройка служб Reporting Services
 
@@ -77,7 +79,7 @@ https://fs.contoso.com
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Настройка служб федерации Active Directory (AD FS)
 
-Вам необходимо настроить AD FS на сервере Windows 2016 в вашей среде. Для этого в диспетчере серверов в разделе "Управление" выберите "Добавить роли и компоненты". Дополнительные сведения см. в документации [служб федерации Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
+Вам необходимо настроить ADFS на сервере Windows 2016 в вашей среде. Для этой настройки, в диспетчере серверов в разделе "Управление" выберите "Добавить роли и компоненты". Дополнительные сведения см. в документации [служб федерации Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
 
 ### <a name="create-an-application-group"></a>Создание группы приложений
 
@@ -85,7 +87,7 @@ https://fs.contoso.com
 
 Вот как создать группу приложений.
 
-1. В приложении управления AD FS щелкните правой кнопкой мыши элемент **Группы приложений** и выберите команду **Добавить группу приложений...** .
+1. В приложении управления AD FS щелкните правой кнопкой мыши **Группы приложений** и выберите **Добавить группу приложений...**
 
    ![Добавление приложения ADFS](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -99,7 +101,7 @@ https://fs.contoso.com
 
 5. Пока будет автоматически создаваться **идентификатор клиента**, укажите *484d54fc-b481-4eee-9505-0258a1913020* для iOS и Android.
 
-6. Необходимо добавить следующие **URL-адреса перенаправления**.
+6. Необходимо добавить следующие **URL-адреса перенаправления**:
 
    **Записи для Power BI Mobile для iOS:**  
    msauth://code/mspbi-adal://com.microsoft.powerbimobile  
@@ -107,7 +109,7 @@ https://fs.contoso.com
    mspbi-adal://com.microsoft.powerbimobile  
    mspbi-adalms://com.microsoft.powerbimobilems
 
-   **Приложениям Android требуется только следующая запись:**  
+   **Приложения Android требуют только следующих шагов:**  
    urn:ietf:wg:oauth:2.0:oob
 
    ![Мастер добавления группы приложений ADFS 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
@@ -149,7 +151,7 @@ https://fs.contoso.com
 
 Теперь необходимо настроить в Active Directory ограниченное делегирование на учетную запись компьютера сервера WAP. Если у вас нет прав на доступ Active Directory, обратитесь к администратору домена.
 
-Вот как настроить ограниченное делегирование.
+Чтобы настроить ограниченное делегирование, необходимо выполнить следующие шаги.
 
 1. На компьютере со средствами Active Directory запустите средство **Пользователи и компьютеры Active Directory**.
 
@@ -171,7 +173,7 @@ https://fs.contoso.com
 
 7. Выберите **Пользователи или компьютеры...**
 
-8. Введите учетную запись службы, которую вы используете для Reporting Services. Это учетная запись, в которую вы добавили имя субъекта-службы во время настройки Reporting Services.
+8. Введите учетную запись службы, которую вы используете для Reporting Services. Эта учетная запись является учетной записью, в которую вы добавили имя субъекта-службы во время настройки Reporting Services.
 
 9. Выберите имя субъекта-службы для Reporting Services и нажмите кнопку **ОК**.
 
@@ -196,14 +198,14 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 
 | Параметр | Комментарии |
 | --- | --- |
-| **ADFSRelyingPartyName** |Это имя веб-API, созданное как часть группы приложений в AD FS. |
-| **ExternalCertificateThumbprint** |Это сертификат, используемый для внешних пользователей. Важно, чтобы этот сертификат был действителен для мобильных устройств и был издан доверенным центром сертификации. |
-| **BackendServerUrl** |Это URL-адрес, который ведет на сервер отчетов с сервера WAP. Если сервер WAP находится в зоне DMZ, может потребоваться использовать полное доменное имя. Убедитесь, что вы можете открыть этот URL-адрес из браузера на сервере WAP. |
-| **BackendServerAuthenticationSPN** |Это имя субъекта-службы, созданное во время настройки служб Reporting Services. |
+| **ADFSRelyingPartyName** |Имя веб-API, созданное как часть группы приложений в ADFS. |
+| **ExternalCertificateThumbprint** |Сертификат, используемый для внешних пользователей. Важно, чтобы этот сертификат был действителен для мобильных устройств и был издан доверенным центром сертификации. |
+| **BackendServerUrl** |URL-адрес, который ведет на сервер отчетов с сервера WAP. Если сервер WAP находится в зоне DMZ, может потребоваться использовать полное доменное имя. Убедитесь, что вы можете открыть этот URL-адрес из браузера на сервере WAP. |
+| **BackendServerAuthenticationSPN** |Имя субъекта-службы, созданное во время настройки служб Reporting Services. |
 
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>Настройка встроенной проверки подлинности для приложения WAP
 
-После добавления приложения WAP необходимо указать для параметра BackendServerAuthenticationMode (Режим проверки подлинности внутреннего сервера) значение IntegratedWindowsAuthentication (Встроенная проверка подлинности Windows). Для этого требуется идентификатор приложения WAP.
+После добавления приложения WAP необходимо указать для параметра BackendServerAuthenticationMode (Режим проверки подлинности внутреннего сервера) значение IntegratedWindowsAuthentication (Встроенная проверка подлинности Windows). Для его настройки потребуется идентификатор приложения WAP.
 
 ```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
@@ -227,7 +229,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 Нажав кнопку **Подключиться**, вы попадете на страницу входа в ADFS. Введите действительные учетные данные для домена.
 
-![Вход в ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
+![Войдите в ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 После того как вы нажмете кнопку **Войти**, вы увидите элементы с сервера Reporting Services.
 
@@ -241,9 +243,9 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![Ошибка "Не удалось войти на сервер SSRS."](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-Вы можете настроить [Fiddler](http://www.telerik.com/fiddler) в качестве прокси-сервера для мобильных устройств, чтобы проанализировать ошибку. Чтобы включить прокси-сервер Fiddler для мобильного устройства, необходимо настроить [CertMaker для iOS и Android](http://www.telerik.com/fiddler/add-ons) на компьютере, на котором будет работать Fiddler. Это дополнительный компонент, разработанный компанией Telerik для Fiddler.
+Вы можете настроить [Fiddler](http://www.telerik.com/fiddler) в качестве прокси-сервера для мобильных устройств, чтобы проанализировать ошибку. Чтобы включить прокси-сервер Fiddler для мобильного устройства, необходимо настроить [CertMaker для iOS и Android](http://www.telerik.com/fiddler/add-ons) на компьютере, на котором будет работать Fiddler. Дополнительный компонент, разработанный компанией Telerik для Fiddler.
 
-Если при использовании Fiddler вы можете войти на сервер, это означает, что существуют проблемы с сертификатом приложения WAP или сервера AD FS. Чтобы проверить правильность сертификатов, можно использовать средство [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226).
+Если при использовании Fiddler вы можете войти на сервер, это означает, что существуют проблемы с сертификатом приложения WAP или сервера ADFS. Чтобы проверить правильность сертификатов, можно использовать средство [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -7,19 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513694"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841401"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Руководство. Анализ Facebook с помощью Power BI Desktop
 
 Из этого руководства вы узнаете, как импортировать данные из Facebook и использовать их в Power BI Desktop. Вы подключитесь к странице Power BI в Facebook, импортируете данные, примените к ним преобразования, а затем используете данные в визуализациях отчета.
+
+> [!WARNING]
+> Из-за ограничений на разрешения для приложений Facebook возможности соединителя, описанные в этой статье, в настоящее время не работают должным образом. Мы работаем с Facebook, чтобы вернуть эту функцию как можно скорее.
+
 
 ## <a name="connect-to-a-facebook-page"></a>Подключение к странице Facebook
 
@@ -39,7 +43,7 @@ ms.locfileid: "65513694"
    
 4. Введите или вставьте имя страницы **microsoftbi** в поле **Имя пользователя** и выберите **Записи** из раскрывающегося списка **Подключение**. Затем нажмите кнопку **ОК**.
    
-   ![Подключиться](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Подключить](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. При появлении запроса на учетные данные войдите в свою учетную запись Facebook и разрешите Power BI доступ с помощью этой учетной записи.
    

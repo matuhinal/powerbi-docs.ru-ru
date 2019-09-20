@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490325"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877810"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Вопросы и ответы об администрировании Power BI
 
@@ -119,9 +119,9 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Как запретить имеющимся пользователям начать работу с Power BI?
 
-В Azure AD за эту функцию отвечает параметр **AllowAdHocSubscriptions**. В большинстве клиентов для него задано значение true, то есть соответствующая функция включена. Если вы приобрели Power BI через партнера, для этого параметра может быть установлено значение false. Это означает, что данная возможность отключена.
+В Azure AD за эту функцию отвечает параметр **AllowAdHocSubscriptions**. В большинстве клиентов для него задано значение *true*, то есть соответствующая функция включена. Если вы приобрели Power BI через партнера, для этого параметра может быть установлено значение *false*. Это означает, что данная возможность отключена.
 
-Используйте приведенный ниже скрипт PowerShell, чтобы отключить нерегламентированные подписки. ([См. дополнительные сведения о PowerShell][1].)
+Используйте приведенный ниже скрипт PowerShell, чтобы отключить нерегламентированные подписки. ([Дополнительные сведения о PowerShell][1].)
 
 1. Войдите в Azure Active Directory с использованием учетных данных Office 365. В первой строке следующего скрипта PowerShell запрашиваются учетные данные. Вторая строка используется для подключения к Azure Active Directory.
 
@@ -145,7 +145,7 @@ Get-MsolCompanyInformation | fl allow*
     ```
 
 > [!NOTE]
-> Используйте флаг **AllowAdHocSubscriptions** для управления некоторыми возможностями пользователей в организации, включая возможность регистрироваться в службе управления правами Azure. Состояние этого флага влияет на все эти возможности.
+> Используйте флаг **AllowAdHocSubscriptions** для управления некоторыми возможностями пользователей в организации, включая возможность регистрироваться в службе управления правами Azure. Состояние этого флага влияет на все эти возможности. С заданным значением *false* пользователи все равно могут зарегистрироваться для получения пробной версии Pro.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>Как разрешить существующим пользователям регистрироваться в Power BI?
 

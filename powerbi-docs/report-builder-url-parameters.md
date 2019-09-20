@@ -8,13 +8,13 @@ ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
-ms.date: 08/29/2019
-ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.date: 09/10/2019
+ms.openlocfilehash: e2a325a8a59b35ad1fcd477fd2d0891b3591ee88
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302671"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877835"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Параметры URL-адреса в отчетах с разбивкой на страницы в Power BI
 
@@ -68,7 +68,8 @@ URL-адрес веб-службы клиента Power BI. Например:
 
 ### <a name="report-commands-rdl"></a>Команды отчета (`rdl:`) 
 
-**Формат экспорта** — задает формат отображения и экспорта отчета. Доступные значения: 
+**Формат экспорта** — задает формат отображения и экспорта отчета. Доступные значения:
+ 
 - PPTX (PowerPoint)
 - MHTML 
 - ИЗОБРАЖЕНИЕ 
@@ -77,6 +78,79 @@ URL-адрес веб-службы клиента Power BI. Например:
 - CSV 
 - PDF 
 - XML 
+
+**Сведения об устройстве**. Можно указать дополнительные выходные параметры для следующих форматов экспорта. 
+
+PDF:
+
+- rdl:AccessiblePDF=true/false
+- rdl:Columns=целое число
+- rdl:ColumnSpacing=десятичное число (дюймы)
+- rdl:DpiX=целое число
+- rdl:DpiY=целое число
+- rdl:EndPage=целое число
+- rdl:HumanReadablePDF=true/false
+- rdl:MarginBottom=десятичное число (дюймы)
+- rdl:MarginLeft=десятичное число (дюймы)
+- rdl:MarginRight=десятичное число (дюймы)
+- rdl:MarginTop=десятичное число (дюймы)
+- rdl:PageHeight=десятичное число (дюймы)
+- rdl:PageWidth=десятичное число (дюймы)
+    - rdl:StartPage=целое число
+    
+CSV:
+
+- rdl:Encoding=строка
+- rdl:ExcelMode=true/false
+- rdl:FieldDelimiter=строка
+- rdl:FileExtension=строка
+- rdl:NoHeader=true/false
+- rdl:Qualifier=строка
+- rdl:RecordDelimiter=строка
+- rdl:SuppressLineBreaks=true/false
+    - rdl:UseFormattedValues=true/false
+    
+WORDOPENXML (WORD):
+
+- rdl:AutoFit=строка -> True/False/Never/Default
+- rdl:ExpandToggles=true/false
+- rdl:FixedPageWidth=true/false
+- rdl:OmitHyperlinks=true/false
+- rdl:OmitDrillthroughs=true/false
+
+EXCELOPENXML (EXCEL):
+
+- rdl:OmitDocumentMap=true/false
+- rdl:OmitFormulas=true/false
+    - rdl:SimplePageHeaders=true/false
+    
+PPTX (PowerPoint):
+ 
+- rdl:Columns=целое число
+- rdl:ColumnSpacing=десятичное число (дюймы)
+- rdl:DpiX=целое число
+- rdl:DpiY=целое число
+- rdl:EndPage=целое число
+- rdl:MarginBottom=десятичное число (дюймы)
+- rdl:MarginLeft=десятичное число (дюймы)
+- rdl:MarginRight=десятичное число (дюймы)
+- rdl:MarginTop=десятичное число (дюймы)
+- rdl:PageHeight=десятичное число (дюймы)
+- rdl:PageWidth=десятичное число (дюймы)
+- rdl:StartPage=целое число
+    - rdl:UseReportPageSize=true/false
+
+XML:
+
+- rdl:XSLT=строка
+- rdl:MIMEType=строка
+- rdl:UseFormattedValues=true/false
+- rdl:Indented=true/false
+- rdl:OmitNamespace=true/false
+- rdl:OmitSchema=true/false
+- rdl:Encoding=строка
+- rdl:FileExtension=строка
+- rdl:Schema=true/false
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

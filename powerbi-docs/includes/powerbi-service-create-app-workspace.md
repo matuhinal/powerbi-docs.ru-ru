@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534720"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903975"
 ---
-1. Начнем с создания рабочей области. Выберите **Рабочие области** > **Создать рабочую область приложения**. 
+1. Начнем с создания рабочей области. Выберите **Рабочие области** > **Создать рабочую область**. 
    
-     ![Создать рабочую область приложения](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Создание рабочей области](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     Здесь будет сохраняться содержимое, над которым работали вы и ваши коллеги.
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534720"
    
      ![Разрешения на изменение или только просмотр](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Добавляйте пользователей в рабочую область приложения в том случае, если им нужно изменять содержимое. Если им нужно только просматривать содержимое, не добавляйте их в рабочую область. Их можно будет указать при публикации приложения.
+     Добавляйте пользователей в рабочую область в том случае, если им нужно изменять содержимое. Если им нужно только просматривать содержимое, не добавляйте их в рабочую область. Их можно будет указать при публикации приложения.
 
 5. Добавьте адреса электронной почты сотрудников, которым необходимо предоставить доступ к рабочей области, и нажмите кнопку **Добавить**. Вы не можете добавлять псевдонимы групп, а только отдельных пользователей.
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534720"
 
 После этого служба Power BI создаст рабочую область и откроет ее. Она отображается в списке рабочих областей, в которые вы входите. Администратор может щелкнуть многоточие (…), чтобы вернуться и внести изменения в рабочую область, например добавить новых участников или изменить разрешения.
 
-![Изменить рабочую область](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Изменить рабочую область](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

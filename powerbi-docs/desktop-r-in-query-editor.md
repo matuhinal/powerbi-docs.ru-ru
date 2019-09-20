@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e2a970ecbf7b341d4feaba4e90a862841ba8bb17
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560930"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841506"
 ---
 # <a name="use-r-in-query-editor"></a>Использование языка R в редакторе запросов
 
@@ -24,7 +24,7 @@ ms.locfileid: "69560930"
 
 * Подготовка моделей данных
 
-* Создавать отчеты
+* Создание отчетов
 
 * Очистка данных, расширенное формирование данных и аналитика набора данных, включая завершение отсутствующих данных, прогнозирование, кластеризацию и многое другое.  
 
@@ -84,6 +84,9 @@ ms.locfileid: "69560930"
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
     ```
+
+    > [!NOTE]
+    > Может потребоваться перезаписать переменную с именем *output*, чтобы правильно создать набор данных с примененными фильтрами.
 
 7. После нажатия кнопки **ОК** в **редакторе запросов** отображается предупреждение о конфиденциальности данных.
 

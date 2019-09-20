@@ -1,20 +1,20 @@
 ---
 title: 'DAX: Функция DIVIDE и оператор деления (/)'
 description: Рекомендации по использованию функции DAX DIVIDE.
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d22491ee314ebcebd4479c4e57dbfdf7a6a1ffdb
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 7516aaedb886e7b9e0f57ed76f0a7c5e40efbd6d
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70010444"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877860"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: Функция DIVIDE и оператор деления (/)
 
@@ -34,15 +34,15 @@ DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 
 Функция DIVIDE была разработана для автоматического управления делением на ноль. Если альтернативный результат не передается, а знаменатель равен нулю или пуст, функция возвращает пустое значение. При передаче альтернативного результата он возвращается вместо пустого.
 
-Функция DIVIDE удобна, поскольку не приходится сначала проверять значение знаменателя. Функция также лучше оптимизирована для проверки значения знаменателя, чем функция [IF](/dax/if-function-dax). Использование DIVIDE также позволяет составить более краткое и элегантное выражение.
+Функция DIVIDE удобна, поскольку не приходится сначала проверять значение знаменателя. Функция также лучше оптимизирована для проверки значения знаменателя, чем функция [IF](/dax/if-function-dax). Выигрыш в производительности важен, так как проверка деления на ноль является дорогостоящей. Использование DIVIDE также позволяет составить более краткое и элегантное выражение.
 
 ## <a name="example"></a>Пример
 
-Следующее выражение меры создает надежное деление, но включает в себя три функции DAX.
+Следующее выражение меры создает надежное деление, но включает в себя четыре функции DAX.
 
 ```dax
 
-=IF(ISBLANK([Sales]) || [Sales] = 0, BLANK(), [Profit] / [Sales])
+=IF(OR(ISBLANK([Sales]), [Sales] == 0), BLANK(), [Profit] / [Sales])
 
 ```
 

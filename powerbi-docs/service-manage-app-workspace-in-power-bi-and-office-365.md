@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961945"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903777"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью приложения в Power BI и Office 365
 
@@ -72,7 +72,7 @@ ms.locfileid: "68961945"
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Добавление изображения и задание других свойств рабочей области
 
-При распространении приложения из рабочей области приложения изображение, которое вы добавляете, является изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в рабочую область приложения Office 365 (необязательно)](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) статьи **Создание рабочих областей**.
+При распространении приложения из рабочей области приложения изображение, которое вы добавляете, является изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в рабочую область приложения Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) статьи **Создание рабочих областей**.
 
 1. В представлении Outlook для Office 365 своей рабочей области приложения откройте вкладку **О программе** и выберите **Изменить**.
 

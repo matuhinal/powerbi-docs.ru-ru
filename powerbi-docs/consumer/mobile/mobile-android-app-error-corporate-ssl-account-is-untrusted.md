@@ -2,20 +2,20 @@
 title: Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным)
 description: При входе в приложение Power BI для Android может появиться сообщение "Не удалось выполнить проверку подлинности, так как SSL-сертификат вашей организации не является доверенным"
 .": ''
-author: mshenhav
-manager: kfile
+author: paulinbar
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61341358"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70840921"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным) в Power BI
 При входе в мобильное приложение Microsoft Power BI для Android может появиться сообщение "Не удалось выполнить проверку подлинности, так как SSL-сертификат вашей организации не является доверенным для этого устройства. Обратитесь к ИТ-администратору организации". 
@@ -41,7 +41,7 @@ ms.locfileid: "61341358"
 Чтобы проверить их, последовательно выберите **Параметры** > **Система** > **Дата и время**.
 
 ## <a name="custom-authentication-server"></a>Пользовательский сервер проверки подлинности
-Если вы используете пользовательский сервер проверки подлинности, SSL-сертификат на корпоративном сервере проверки подлинности может быть недействительным. Свяжитесь с ИТ-отделом вашей организации, чтобы проверить конфигурацию корпоративного сервера проверки подлинности, следуя инструкциям в [этой статье](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
+Если вы используете пользовательский сервер проверки подлинности, SSL-сертификат на корпоративном сервере проверки подлинности может быть недействительным. Свяжитесь с ИТ-отделом вашей организации, чтобы проверить конфигурацию корпоративного сервера проверки подлинности, следуя инструкциям из [этой статьи](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Скачивание приложения Android](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина приложений Android.

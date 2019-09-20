@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030162"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841366"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -25,7 +25,15 @@ ms.locfileid: "70030162"
 
 ## <a name="august-2019"></a>Август 2019 г.
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Безопасный доступ с помощью Azure Active Directory (AD) Application Proxy
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Представляем новый дизайн Power BI Mobile (предварительная версия) (iOS и Android)
+
+Мы обновили приложение и добавили новые возможности интерфейса, а также домашнюю страницу, которая обеспечивает быстрый доступ к часто используемому содержимому, и новые панели навигации для удобного перехода по приложению. Новые и обновленные возможности ускоряют и упрощают поиск нужных данных и функций, когда это необходимо.
+Так как новый дизайн доступен только в предварительной версии, вам нужно включить ее, если вы хотите использовать такой дизайн.
+Подробнее о [новом дизайне Power BI Mobile](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/).
+
+![Новый дизайн Power BI Mobile](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Безопасный доступ с помощью Azure Active Directory (AD) Application Proxy (iOS и Android)
 
 Вместе с группой Azure Active Directory мы решили вопрос интеграции мобильных приложений Power BI с Azure AD Application Proxy. Вы можете подключаться к серверу отчетов, размещенному в сети предприятия, из приложения Power BI Mobile без настройки сложной локальной конфигурации. Дополнительные сведения см. в записи блога, посвященной [интеграции мобильных приложений Power BI и Azure AD Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Узнайте, [как настроить Azure AD Application Proxy и Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
@@ -36,7 +44,7 @@ ms.locfileid: "70030162"
 Подсказки для страницы отчета теперь поддерживаются при просмотре отчетов в мобильном приложении. Просто нажмите и удерживайте визуальный элемент, к которому привязана подсказка отчета, чтобы отобразить ее.  
 
 ![Подсказка холста отчетов](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > Подсказки отчетов поддерживаются для устройств размером более 640 пикселей с окном просмотра на 320 пикселей. На устройствах меньшего размера используются подсказки по умолчанию.
 

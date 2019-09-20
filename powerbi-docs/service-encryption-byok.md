@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665383"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877730"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Использование собственных ключей шифрования для Power BI (предварительная версия)
 
@@ -66,7 +66,7 @@ BYOK применяется только к набору данных, связ�
 1. Нажмите кнопку **ОК** и затем **Сохранить**.
 
 > [!NOTE]
-> Чтобы заблокировать Power BI доступ к вашим данным в будущем, аннулируйте права доступа к этому субъекту-службе из Azure Key Vault.
+> Чтобы в будущем отозвать у Power BI доступ к данным, удалите права доступа к этому субъекту-службе из Azure Key Vault.
 
 ### <a name="create-an-rsa-key"></a>Создание ключа RSA
 
@@ -123,11 +123,31 @@ Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-va
 > [!IMPORTANT]
 > Если указать параметр `-Default`, то все емкости, создаваемые теперь в вашем клиенте, будут шифроваться с использованием указанного вами ключа (или обновленного ключа по умолчанию). Операцию по умолчанию невозможно отменить, вы потеряете возможность создавать емкость Premium, которая не использует BYOK в вашем клиенте.
 
-После включения BYOK в вашем клиенте используйте [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey), чтобы настроить ключ шифрования для емкостей Power BI:
+После включения BYOK в клиенте задайте ключ шифрования для одной или нескольких емкостей Power BI:
 
-```powershell
-Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-```
+1. Используйте [`Get-PowerBICapacity`](/powershell/module/microsoftpowerbimgmt.capacities/get-powerbicapacity),чтобы получить идентификатор емкости, необходимый на следующем шаге.
+
+    ```powershell
+    Get-PowerBICapacity -Scope Individual
+    ```
+
+    Командлет возвращает данные, аналогичные приведенным ниже.
+
+    ```
+    Id              : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    DisplayName     : Test Capacity
+    Admins          : adam@sometestdomain.com
+    Sku             : P1
+    State           : Active
+    UserAccessRight : Admin
+    Region          : North Central US
+    ```
+
+1. Используйте [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey), чтобы задать ключ шифрования:
+
+    ```powershell
+    Set-PowerBICapacityEncryptionKey-CapacityId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -KeyName 'Contoso Sales'
+    ```
 
 Вы можете контролировать использование BYOK в клиенте. Например, для шифрования отдельной емкости вызовите `Add-PowerBIEncryptionKey` без параметров `-Activate` или `-Default`. Затем вызовите `Set-PowerBICapacityEncryptionKey` для той емкости, где вы хотите включить BYOK.
 

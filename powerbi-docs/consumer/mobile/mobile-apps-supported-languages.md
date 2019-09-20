@@ -9,15 +9,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8a6ee2e16b5c5190c969c6017101257f331775f9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269406"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841425"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Поддерживаемые языки в мобильных приложениях Power BI
-Сейчас в мобильных приложениях Power Bi реализована поддержка следующих языков:
+Сейчас в мобильных приложениях Power BI реализована поддержка следующих языков:
 
 * Арабский (только iOS)
 * Каталанский — català
@@ -61,5 +61,5 @@ ms.locfileid: "61269406"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Поддерживаемые в Power BI языки и страны (регионы)](../../supported-languages-countries-regions.md)
 * У вас появились вопросы? Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
-* Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
+* Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
 
