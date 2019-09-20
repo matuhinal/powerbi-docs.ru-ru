@@ -1347,13 +1347,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: Включение единого входа (SSO)
           items:
-            - name: "Единый вход (SSO)\_— обзор"
+            - name: Обзор единого входа
               href: service-gateway-sso-overview.md
-            - name: "Единый вход (SSO)\_— Kerberos"
-              href: service-gateway-sso-kerberos.md
-            - name: "Единый вход (SSO)\_— Kerberos\_— на основе ресурсов"
-              href: service-gateway-sso-kerberos-resource.md
-            - name: "Единый вход (SSO)\_— SAML"
+            - name: Единый вход на основе Kerberos
+              items:
+                - name: Настройка единого входа на основе Kerberos
+                  href: service-gateway-sso-kerberos.md
+                - name: Конфигурация источника данных
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: "SAP BW\_— sapcrypto.dll (Common Crypto Library)"
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: "SAP BW\_— gx64krb5.dll и gsskrb5.dll"
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: Единый вход на основе SAML
               href: service-gateway-sso-saml.md
         - name: Устранение неполадок шлюза
           href: service-gateway-onprem-tshoot.md
