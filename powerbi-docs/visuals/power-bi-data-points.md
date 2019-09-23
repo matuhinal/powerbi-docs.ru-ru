@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61276439"
@@ -97,7 +97,7 @@ ms.locfileid: "61276439"
 - Ось тренда
 - Последние 3500
 
-### <a name="line-chart"></a>график;
+### <a name="line-chart"></a>График
 Ознакомьтесь с разделом, который объясняет, [как работает выборка линий](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works).
 
 ### <a name="line-chart-high-density"></a>График с высокой плотностью

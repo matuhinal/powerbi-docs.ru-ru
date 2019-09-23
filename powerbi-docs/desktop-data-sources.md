@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560887"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142278"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 Power BI Desktop позволяет подключаться к данным из многих разных источников. Полный список доступных источников данных представлен в нижней части этой страницы.
@@ -191,8 +191,8 @@ Power BI Desktop позволяет подключаться к данным и�
 * Скрипт Python
 * ODBC
 * OLE DB
-* BI360 — отчеты по бюджетам и финансам (бета-версия)
-* Denado
+* BI360 — отчеты по бюджетам и финансам (бета-версия)
+* Denodo
 * Information Grid (бета-версия)
 * Paxata 
 * QubolePresto (бета-версия)

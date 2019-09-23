@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61139720"
@@ -46,7 +46,7 @@ ms.locfileid: "61139720"
 
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) позволяет узнать, что визуализация была добавлена на панель мониторинга в качестве плитки.  
 
-   ![Закрепление на панели мониторинга](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![Закреплено на информационной панели](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. Выберите **Перейти на информационную панель**, чтобы просмотреть новую плитку. Здесь вы можете [изменить имя или размер, добавить гиперссылку и переместить плитку, а также выполнить другие действия](service-dashboard-edit-tile.md) на панели мониторинга.
 
    ![Панель мониторинга с плитками](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)

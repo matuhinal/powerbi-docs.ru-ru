@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61144610"
@@ -162,9 +162,9 @@ ms.locfileid: "61144610"
 В этой статье описано, как создать собственный **поток данных** и применить его в наборе данных и отчете, созданных в **Power BI Desktop**. Следующие статьи помогут получить дополнительные сведения и изучить сценарии применения потоков данных:
 
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
-* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование вычисляемых сущностей в Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
+* [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:

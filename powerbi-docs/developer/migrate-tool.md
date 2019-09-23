@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61272248"
@@ -159,7 +159,7 @@ ms.locfileid: "61272248"
 * Выберите конкретные отчеты и нажмите кнопку **Скачать выбранные**.
 * Нажмите кнопку **Скачать все**.
 
-![Параметры загрузки](media/migrate-tool/migrate-tool-download-options.png)
+![Параметры скачивания](media/migrate-tool/migrate-tool-download-options.png)
 
 Для успешной загрузки отобразится состояние *Готово* и существующий PBIX-файл.
 

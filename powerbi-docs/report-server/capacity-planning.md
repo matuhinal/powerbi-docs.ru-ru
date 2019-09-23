@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976760"
@@ -111,7 +111,7 @@ ms.locfileid: "60976760"
 Результаты, представленные в этом документе, получены при выполнении определенного набора отчетов, использующих определенный набор данных, повторяющихся особым образом. Это полезная контрольная точка, но имейте ввиду, что ее использование будет зависеть от отчетов, запросов, шаблонов использования и развертывания Сервера отчетов Power BI.
 
 ## <a name="appendix"></a>Приложения
-### <a name="1-topology"></a>1. Топология
+### <a name="1-topology"></a>1\. Топология
 **1.1 Топология Сервера отчетов Power BI**
 
 Чтобы сосредоточиться исключительно на поведении сервера отчетов Power BI с различными конфигурациями, конфигурации для каждого типа виртуальной машины (за исключением компьютера, на котором размещен сервер отчетов Power BI) были исправлены. Каждый компьютер был подготовлен в соответствии с требованиями к компьютерам серии D версии 2 с дисками хранилища класса Premium. Подробное описание виртуальных машин каждого размера см. в разделе "Универсальные" на странице https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
@@ -131,7 +131,7 @@ ms.locfileid: "60976760"
 | **Сервер отчетов Power BI (маленький)** |8 ядер |32 ГБ |Standard_D8S_v3 |
 | **Сервер отчетов Power BI (крупный)** |16 ядер |64 ГБ |vStandard_D16S_v3 |
 
-### <a name="2-run-the-loadtest-tool"></a>2. Запуск средства LoadTest
+### <a name="2-run-the-loadtest-tool"></a>2\. Запуск средства LoadTest
 Если нужно запустить средство LoadTest Reporting Services для развертывания сервера отчетов Power BI Microsoft Azure, сделайте следующее.
 
 1. Клонируйте проект Reporting Services LoadTest из GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).

@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730225"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164541"
 ---
 # <a name="manage-data-sources"></a>Управление источниками данных
 
@@ -102,7 +102,7 @@ Power BI поддерживают многие локальные источни
 
 4. Выберите **Добавить**, и имена добавленных участников отобразятся в списке.
 
-    ![Добавление пользователя](media/service-gateway-data-sources/add-user.png)
+    ![Добавить пользователя](media/service-gateway-data-sources/add-user.png)
 
 Помните, что необходимо добавить пользователей для каждого источника данных, к которому вы хотите предоставить доступ. У каждого источника данных есть собственный список пользователей. Для каждого источника данных пользователи добавляются отдельно.
 
@@ -123,9 +123,9 @@ Power BI поддерживают многие локальные источни
 | **Источник данных** | **Активный запрос или запрос DirectQuery** | **Настроенное пользователем ручное или запланированное обновление** |
 | --- | --- | --- |
 | Amazon Redshift |Да |Да |
+| Analysis Services |Да |Да |
 | Кубы AtScale |Да |Да |
 | Azure Active Directory |Нет |Да |
-| Azure Analysis Services |Да |Да |
 | Хранилище BLOB-объектов Azure |Нет |Да |
 | Azure DevOps Server |Нет |Да |
 | Табличное хранилище Azure |Нет |Да |

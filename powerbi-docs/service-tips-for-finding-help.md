@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61401261"
@@ -22,27 +22,27 @@ ms.locfileid: "61401261"
 
 Ниже представлено 10 советов, используемых экспертами Power BI (включая специалистов, работающих с продуктами Майкрософт), чтобы получить ответы на вопросы о Power BI.
 
-## <a name="1-use-a-search-engine"></a>1. Используйте поисковую систему
+## <a name="1-use-a-search-engine"></a>1\. Используйте поисковую систему
 Специалисты часто ищут ответы о Power BI в поисковых системах. Хотите найти формулу DAX для типичного бизнес-расчета? Ее можно найти в Интернете. Создайте закладку ресурса с лучшими ответами. После этого создайте папку с найденными советами и ответами.
 
 
-## <a name="2-check-the-power-bi-documentation"></a>2. Проверьте документацию Power BI
+## <a name="2-check-the-power-bi-documentation"></a>2\. Проверьте документацию Power BI
 Группа Power BI постоянно обновляет и улучшает документацию и учебные курсы Power BI. Вам доступны полезные материалы, включая записи вебинаров, технические документы, интерактивное обучение и ссылки на записи блогов о всех новейших функциях.
 
-## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3. Узнайте о последних известиях в блоге Power BI
+## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3\. Узнайте о последних известиях в блоге Power BI
 Команда разработчиков Power BI подробно объясняет все новые возможности в регулярно добавляемых [записях блога, посвященного Power BI](https://powerbi.microsoft.com/blog/). Узнайте все об этих возможностях: от функций Power BI Desktop до мобильных приложений Power BI. Возьмите за правило часто просматривать блог, чтобы узнавать о новых возможностях. Уделяйте чтению блога несколько минут каждую неделю. Неизвестно, когда вам пригодятся сведения, увиденные месяцы назад.
 
-## <a name="4-try-twitter"></a>4. Попробуйте зарегистрироваться в Twitter
+## <a name="4-try-twitter"></a>4\. Попробуйте зарегистрироваться в Twitter
 Большинство клиентов и экспертов Power BI зарегистрированы в Twitter. Задайте свой вопрос в твите. Добавьте хэштеги #powerbi и #powerbihelp, чтобы пользователи, которые знают ответ, видели ваш твит.
 
-## <a name="5-watch-videos-on-youtube"></a>5. Просматривайте видео на YouTube
+## <a name="5-watch-videos-on-youtube"></a>5\. Просматривайте видео на YouTube
 Вам легче учиться по видео? Для Power BI доступно два подхода, которые вас заинтересуют:
 
 * Мы рекомендуем начать со [списка видеороликов, посвященных анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
 * Если вам нужна подборка с большим числом видеороликов, посетите [канал Power BI](https://www.youtube.com/user/mspowerbi/videos).
 * Если у вас есть опыт работы с Power BI, [канал YouTube Guy in a Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) подойдет для вас лучше всего.
 
-## <a name="6-attend-training"></a>6. Пройдите обучение
+## <a name="6-attend-training"></a>6\. Пройдите обучение
 Вам доступно практически бесконечное число вариантов обучения: от самостоятельного практического обучения до коротких видеороликов.
 
 * [Интерактивное обучение](guided-learning/gettingstarted.yml?tutorial-step=1) на сайте Power BI.
@@ -54,13 +54,13 @@ ms.locfileid: "61401261"
 * Сайт **Lynda.com** предоставляет такой курс обучения, как [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html).
 * Практические учебные занятия в рамках плана обучения **Информационная панель за день**.
 
-## <a name="7-ask-or-search-in-the-power-bi-community"></a>7. Задавайте вопросы и ищите сведения в сообществе Power BI
+## <a name="7-ask-or-search-in-the-power-bi-community"></a>7\. Задавайте вопросы и ищите сведения в сообществе Power BI
 Задавайте вопросы и ищите ответы в [сообществе Power BI](http://community.powerbi.com). Эксперты Power BI из различных стран активно участвуют в жизни сообщества. На этом ресурсе вы сможете воспользоваться знаниями экспертов.
 
-## <a name="8-join-or-create-a-power-bi-user-group"></a>8. Создайте группу пользователей Power BI или присоединитесь к ней
+## <a name="8-join-or-create-a-power-bi-user-group"></a>8\. Создайте группу пользователей Power BI или присоединитесь к ней
 Присоединитесь к [группе пользователей Power BI](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) и обратитесь к ней за помощью, чтобы получить ответы. Или создайте собственную группу и сообщество пользователей, помогающих друг другу, и задайте свои требования (регион, данные, часовой пояс).
 
-## <a name="9-check-the-service-status"></a>9. Проверьте состояние службы
+## <a name="9-check-the-service-status"></a>9\. Проверьте состояние службы
 При возникновении проблем со службой, возможно, что сама служба вызвала их. [Посетите страницу поддержки](https://powerbi.microsoft.com/support/), чтобы получить отчеты.
 
 ## <a name="10-just-try-it"></a>10. Просто попробуйте!

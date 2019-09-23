@@ -3,20 +3,19 @@ title: Просмотр панели мониторинга Power BI
 description: Панели мониторинга — это главная особенность службы Power BI, которые можно открывать и просматривать.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608467"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141381"
 ---
 # <a name="view-a-dashboard"></a>Просмотр панели мониторинга
 *Пользователи* Power BI тратят много времени на просмотр панелей мониторинга. Панели мониторинга разработаны так, чтобы обращать внимание на определенные сведения из исходных отчетов и наборов данных. Пользователи Power BI применяют эти сведения для отслеживания, мониторинга, тестирования, получения ответов и т. п., а затем на этой основе принимают бизнес-решения.
@@ -39,7 +38,7 @@ ms.locfileid: "65608467"
 
 Панели мониторинга могут попадаться в любых контейнерах на панели навигации слева. 
 
-![Значок панели мониторинга](media/end-user-dashboard-open/opendash.gif)
+![Значок панели мониторинга](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **Главная** 
 - **Избранное** — если вы уже [отметили избранную панель мониторинга](end-user-favorite.md).

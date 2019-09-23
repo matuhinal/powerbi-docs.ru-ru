@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239500"
@@ -42,7 +42,7 @@ ms.locfileid: "65239500"
 * Текст кнопки
 * Значок
 * Контур
-* Заливка
+* Fill
 
 Чтобы настроить отображение кнопки для каждого состояния, разверните любую из этих карточек и откройте раскрывающийся список в ее верхней части. На следующем рисунке показана развернутая карточка **Контур** с раскрывающимся списком, содержащим три состояния кнопки.
 
