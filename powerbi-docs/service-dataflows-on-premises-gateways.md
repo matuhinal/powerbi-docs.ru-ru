@@ -10,22 +10,19 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136200"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>Использование потоков данных с локальными источниками данных (предварительная версия)
+# <a name="using-dataflows-with-on-premises-data-sources"></a>Использование потоков данных с локальными источниками данных
 
 С помощью **потоков данных** можно создать коллекцию данных из разных источников, очистить и преобразовать эти данные, а затем загрузить их в хранилище Power BI. При создании потока данных вы можете использовать локальные источники данных. В этой статье разъясняются требования, связанные с созданием потоков данных, и настройки **корпоративного шлюза** для использования таких подключений.
 
 ![Потоки данных и шлюзы](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> Функции потоков данных предоставляются в предварительной версии и могут быть изменены до выпуска общедоступной версии.
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Настройка корпоративного шлюза для использования с потоками данных
 
 Чтобы использовать в потоке данных локальный источник данных, у создающего этот поток данных пользователя должен быть установлен и настроен **корпоративный шлюз**. Также пользователь, создающий поток данных, должен иметь права администратора корпоративного шлюза, чтобы использовать этот шлюз для потока данных.
@@ -80,8 +77,8 @@ ms.locfileid: "54276475"
 
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
-* [Ресурсы для разработчиков потоков данных Power BI (предварительная версия)](service-dataflows-developer-resources.md)
+* [Использование вычисляемых сущностей в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)

@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61303186"
@@ -20,7 +20,7 @@ ms.locfileid: "61303186"
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Экспорт отчетов в PDF из Power BI Desktop
 С помощью **Power BI Desktop** или службы Power BI можно экспортировать отчеты в PDF-файлы, а затем поделиться ими или распечатать их.
 
-![Экспортировать в PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
+![Экспорт в PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
 Процесс экспорта отчета из **Power BI Desktop** в формат PDF для его печати или совместного использования довольно прост. В Power BI Deskop выберите **Файл > Экспорт в PDF**.
 
