@@ -903,6 +903,8 @@
       items:
         - name: Приобретение Power BI Premium
           href: service-admin-premium-purchase.md
+        - name: Настройка и использование емкостей
+          href: service-admin-premium-manage.md
         - name: Настройка рабочих нагрузок
           href: service-admin-premium-workloads.md
         - name: Мониторинг емкостей в приложении
