@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: Включение предварительных версий функций
               href: end-user-preview-features.md
+            - name: "Получение уведомлений в службе Power\_BI"
+              href: end-user-notification-center.md
         - name: Получить данные
           items:
             - name: Приложения в Power BI
