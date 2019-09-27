@@ -1,20 +1,21 @@
 ---
 title: Панель аналитики в визуальных элементах Power BI
 description: В этой статье описывается создание динамических строк ссылок в визуальных элементах Power BI.
-author: Guy-Moses
-ms.author: guymos
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
-ms.reviewer: sranins
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: 208c6cbbd4cd8cdabde039c53aab536ee989bc7d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 67f9bc793b78d2019875b8165ea71fa712fd9d23
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237319"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193674"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Панель аналитики в визуальных элементах Power BI
 

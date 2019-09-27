@@ -169,9 +169,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Укажите в сведениях **AADAuthorityUrl** URL-адрес, который позволяет осуществлять внедрение с помощью клиента организации либо гостевого пользователя.
 
-Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize* .
+Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize*.
 
-Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id* , где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
+Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id*, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Запуск приложения
 
@@ -205,7 +205,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
 
-Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}* .
+Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
 
 #### <a name="get-reports-with-the-rest-api"></a>Получение отчетов с помощью REST API
 
