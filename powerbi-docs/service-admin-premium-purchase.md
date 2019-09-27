@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565286"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175242"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
@@ -48,9 +48,9 @@ ms.locfileid: "65565286"
 
 1. В разделе **Другие планы** найдите предложения Power BI Premium. В списке отобразятся предложения P1–P3, EM3 и P1 (ежемесячная подписка).
 
-1. Наведите указатель мыши на многоточие ( **…** ), а затем выберите **Приобрести**.
+1. Наведите указатель мыши на многоточие (**…**), а затем выберите **Приобрести**.
 
-    ![Приобрести](media/service-admin-premium-purchase/premium-purchase.png)
+    ![купить сейчас](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. Следуйте инструкциям по приобретению.
 
@@ -66,7 +66,7 @@ ms.locfileid: "65565286"
 
 1. Найдите элемент Power BI Premium, для которого требуется приобрести дополнительную емкость, в разделе **Другие планы**.
 
-1. Наведите указатель мыши на **многоточие (…)** , а затем выберите **Change license quantity** (Изменить количество лицензий).
+1. Наведите указатель мыши на **многоточие (…)**, а затем выберите **Change license quantity** (Изменить количество лицензий).
 
     ![Изменить количество лицензий](media/service-admin-premium-purchase/premium-purchase-more.png)
 
@@ -101,9 +101,10 @@ ms.locfileid: "65565286"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Страница цен на Power BI](https://powerbi.microsoft.com/pricing/)   
-[Калькулятор Power BI Premium](https://powerbi.microsoft.com/calculator/)   
-[Вопросы и ответы по Power BI Premium](service-premium-faq.md)   
+[Настройка и администрирование емкостей Power BI Premium](service-admin-premium-manage.md)\
+[Страница цен на Power BI](https://powerbi.microsoft.com/pricing/)\
+[Калькулятор Power BI Premium](https://powerbi.microsoft.com/calculator/)\
+[Вопросы и ответы по Power BI Premium](service-premium-faq.md)\
 [Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)

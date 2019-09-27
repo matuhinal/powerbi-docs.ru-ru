@@ -1,5 +1,5 @@
 ---
-title: Ресурсы для разработчиков для потоков данных Power BI
+title: Ресурсы для разработчиков потоков данных Power BI
 description: Поиск ресурсов для разработки и потоков данных Power BI
 author: davidiseminger
 manager: kfile
@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136775"
 ---
-# <a name="developer-resources-for-power-bi-dataflows"></a>Ресурсы для разработчиков для потоков данных Power BI
+# <a name="developer-resources-for-power-bi-dataflows"></a>Ресурсы для разработчиков потоков данных Power BI
 
 Существует много способов использовать потоки данных без написания кода. Вы можете создавать или подключать сущности в службе Power BI и подключаться к ним из Power BI Desktop. Многим организациям нужны гибкие возможности для разработки собственных решений. В этой статье содержатся сведения о REST API для Power BI и других ресурсах для разработчиков.
 
@@ -38,7 +38,7 @@ ms.locfileid: "61136775"
 
 * [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование вычисляемых сущностей в Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
 
 Руководства и информационные материалы о разработке CDM:

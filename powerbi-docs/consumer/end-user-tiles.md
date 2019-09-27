@@ -4,24 +4,23 @@ description: Все о плитках панелей мониторинга в P
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050258"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142025"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
-Плитка представляет собой моментальный снимок данных, закрепленный на панели мониторинга при помощи *конструктора*. Плитку можно создать на основе отчета, набора данных, информационной панели, поля вопросов и ответов, Excel, а также служб SQL Server Reporting Services (SSRS) и многого другого.  На предыдущем снимке экрана показано множество различных плиток, закрепленных на информационной панели.
+Плитка представляет собой моментальный снимок данных, закрепленный на панели мониторинга при помощи *конструктора*. *Разработчики* могут создавать плитки на основе отчета, набора данных, информационной панели, поля вопросов и ответов, Excel, а также служб SQL Server Reporting Services (SSRS) и многого другого.  На предыдущем снимке экрана показано множество различных плиток, закрепленных на информационной панели.
 
-![Панель мониторинга Power BI](./media/end-user-tiles/power-bi-dashboard.png)
+![Панель мониторинга Power BI](./media/end-user-tiles/power-bi-dash.png)
 
 
 Кроме плиток, закрепленных из отчетов, *конструкторы* позволяют добавить автономные плитки непосредственно на панели мониторинга с помощью команды **Добавить плитку**. Автономные плитки содержат следующие данные: текстовые поля, изображения, видео, потоковую передачу данных и веб-содержимое.
@@ -38,15 +37,15 @@ ms.locfileid: "61050258"
 
     - Плитка, созданная с помощью раздела "Вопросы и ответы"
    
-        ![значок многоточия](./media/end-user-tiles/power-bi-menu1.png)
+        ![значок многоточия](./media/end-user-tiles/power-bi-options-1.png)
 
     - Плитка, созданная из книги
    
-        ![значок многоточия](./media/end-user-tiles/power-bi-menu2.png)
+        ![значок многоточия](./media/end-user-tiles/power-bi-options-2.png)
 
     - Плитка, созданная из отчета
    
-        ![значок многоточия](./media/end-user-tiles/power-bi-menu3.png)
+        ![значок многоточия](./media/end-user-tiles/power-bi-options-3.png)
    
     Здесь можно выполнять следующие действия:
    
@@ -56,9 +55,12 @@ ms.locfileid: "61050258"
    
 
    * [открыть книгу, которая использовалась для создания плитки ](end-user-reports.md) ![Значок листа](./media/end-user-tiles/power-bi-open-worksheet.png);  
-    * [просмотреть плитку в режиме фокусировки ](end-user-focus.md) ![Значок фокусировки](./media/end-user-tiles/fullscreen-icon.jpg);  
-     * [запускать аналитику ](end-user-insights.md) ![значок аналитики](./media/end-user-tiles/power-bi-insights.png);
-    * [добавить комментарий и начать обсуждение](end-user-comment.md) ![Значок комментария](./media/end-user-tiles/comment-icons.png).
+   * [просмотреть плитку в режиме фокусировки ](end-user-focus.md) ![Значок фокусировки](./media/end-user-tiles/fullscreen-icon.jpg);  
+   * [просмотреть аналитические сведения ](end-user-insights.md) ![значок аналитики](./media/end-user-tiles/power-bi-insights.png);
+   * [добавить комментарий и начать обсуждение](end-user-comment.md) ![Значок комментария](./media/end-user-tiles/comment-icons.png).
+   * [управлять оповещениями, настроенными на плитке панели мониторинга](end-user-alerts.md) ![значок оповещения](./media/end-user-tiles/power-bi-alert-icon.png);
+   * [открыть данные в Excel](end-user-export.md) ![значок экспорта](./media/end-user-tiles/power-bi-export-icon.png).
+
 
 3. Чтобы закрыть меню действий, выберите пустую область на холсте.
 

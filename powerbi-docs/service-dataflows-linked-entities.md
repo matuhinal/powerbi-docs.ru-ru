@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136504"
@@ -88,11 +88,11 @@ ms.locfileid: "61136504"
 
 При создании потоков данных и работе с ними могут быть полезными следующие статьи: 
 
-* [Подготовка данных самообслуживания в Power BI](service-dataflows-overview.md)
+* [Самостоятельная подготовка данных в Power BI](service-dataflows-overview.md)
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование вычисляемых сущностей в Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
+* [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:
 * [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)

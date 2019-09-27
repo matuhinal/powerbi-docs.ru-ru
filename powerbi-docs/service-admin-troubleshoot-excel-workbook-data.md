@@ -1,6 +1,6 @@
 ---
-title: Ошибка Не удалось найти данные в книге Excel
-description: Ошибка Не удалось найти данные в книге Excel
+title: Ошибка Не найдены данные в книге Excel
+description: Ошибка Не найдены данные в книге Excel
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -13,19 +13,19 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101582"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка Не удалось найти данные в книге Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка Не найдены данные в книге Excel
 
 >[!NOTE]  
 >Эта статья относится к Excel 2007 и более поздних версий.
 
 При импорте книги Excel в Power BI может появиться следующая ошибка:
 
-*Ошибка Не удалось найти данные в формате таблицы. Чтобы импортировать из Excel в службе Power BI, необходимо отформатировать данные в виде таблицы. Выберите все данные в таблице и нажмите клавиши Ctrl + T.*
+*Ошибка Не удалось найти данные, отформатированные в виде таблицы. Для импорта из Excel в службу Power BI необходимо отформатировать данные в виде таблицы. Выберите все данные, которые нужно добавить в таблицу, и нажмите сочетание клавиш CTRL+T.*
 
 ![Не удалось найти данные в книге](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

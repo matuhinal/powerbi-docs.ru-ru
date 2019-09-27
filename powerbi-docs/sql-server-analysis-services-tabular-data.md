@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769933"
@@ -31,15 +31,15 @@ ms.locfileid: "64769933"
 
 1. В разделе **Моя рабочая область** щелкните **Получить данные**. Можно также перейти в рабочую область группы, если она доступна.
 
-   ![Подключитесь, чтобы кнопки "данные"](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![Кнопка подключения для получения данных](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. Щелкните **Базы данных и другое**.
 
-   ![Подключение для получения данных 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![Подключение для получения данных 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. Выберите **Службы SQL Server Analysis Services** > **Подключение**.
 
-   ![Подключение для получения данных 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![Подключение для получения данных 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. Выберите сервер. Если в списке нет указанных здесь серверов, это означает, что не настроен шлюз и источник данных или учетная запись отсутствует на вкладке **Пользователи** источника данных в шлюзе. Обратитесь к администратору.
 
@@ -47,7 +47,7 @@ ms.locfileid: "64769933"
 
 После подключения к модели она появится на вашем сайте Power BI в разделе **Моя рабочая область/Наборы данных**. Если вы перешли в рабочую область группы, набор данных будет отображаться в группе.
 
-![Подключитесь к набору данных](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![Подключение к набору данных](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>Плитки панели мониторинга
 

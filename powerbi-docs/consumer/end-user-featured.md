@@ -5,21 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608686"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141280"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Основные панели мониторинга в службе Power BI
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Основные панели мониторинга в службе Power BI
 ## <a name="create-a-featured-dashboard"></a>Создание основной панели мониторинга
 У многих из нас есть одна панель мониторинга, с которой мы работаем больше, чем с другими.  Возможно, это панель мониторинга, которую вы используете для ведения бизнеса или которая содержит несколько плиток из разных панелей мониторинга и отчетов.
 
@@ -52,7 +51,7 @@ ms.locfileid: "65608686"
 1. Выполните шаги 1 и 2 выше.
    
     ![Окно изменения основной панели мониторинга](./media/end-user-featured/power-bi-change-feature.png)
-2. Выберите **Указать в качестве основной**. Отключение основной панели мониторинга не приводит к ее удалению из рабочей области.  
+2. Выберите **Указать в качестве основной**. Отключение основной панели мониторинга не приводит к ее удалению из Power BI.  
    
     ![сообщение об успехе](./media/end-user-featured/power-bi-unfeature-new.png)
 

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61270478"
@@ -131,7 +131,7 @@ ms.locfileid: "61270478"
 3. Сохраните PBIX-файл.
 4. Вызовите API импорта PBIX-файлов в рабочей области SaaS.
 5. Обновите строку подключения, вызвав POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections.
-6. Получите идентификаторы GW и источника данных, вызвав — получение https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. Получите идентификаторы GW и источника данных, вызвав GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources.
 7. Обновите учетные данные пользователя, вызвав PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}.
 
 #### <a name="old-dataset--reports"></a>Устаревшие наборы данных и отчеты

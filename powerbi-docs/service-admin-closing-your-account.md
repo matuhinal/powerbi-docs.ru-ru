@@ -1,5 +1,5 @@
 ---
-title: Закрыть учетную запись Power BI
+title: Закрытие учетной записи Power BI
 description: Если вы больше не планируете пользоваться Power BI, закройте свою учетную запись.
 author: mgblythe
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/26/2019
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a285c6188e8b9298702645e28ad686e33147c3a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 227b4e837e75959dc838556ab0215db32131ec07
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65101147"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075660"
 ---
-# <a name="close-your-power-bi-account"></a>Закрыть учетную запись Power BI
+# <a name="close-your-power-bi-account"></a>Закрытие учетной записи Power BI
 
-Если вы больше не планируете пользоваться Power BI, закройте свою учетную запись.  После закрытия учетной записи, не удается войти в Power BI. Кроме того как указано в политику хранения данных в Power BI условия соглашения, Power BI удаляются все данные клиента, загруженные или созданные. Он не сохраняется.
+Если вы больше не планируете пользоваться Power BI, закройте свою учетную запись.  Закрыв учетную запись, вы не сможете войти в Power BI. Кроме того, все данные клиента, переданные или созданные в Power BI, будут удалены в соответствии с политикой хранения данных, изложенной в условиях использования Power BI. Они не сохраняются.
 
 ## <a name="individual-power-bi-users"></a>Отдельные пользователи Power BI
 
@@ -27,23 +27,23 @@ ms.locfileid: "65101147"
 
 1. В Power BI в правом верхнем углу экрана щелкните значок шестеренки и выберите **Параметры**.
 
-    ![Снимок экрана в правом верхнем углу пользовательский значок шестеренки и «параметры», вызванной.](media/service-admin-closing-your-account/close-account-settings.png)
+    ![Снимок экрана правого верхнего угла пользовательского интерфейса со значком шестеренки и выделенным пунктом "Параметры".](media/service-admin-closing-your-account/close-account-settings.png)
 
 1. На вкладке **Общие** выберите **Закрыть учетную запись**.
 
-    ![Снимок экрана левом верхнем углу на странице "Параметры" с параметром закрыть учетную запись вызваны.](media/service-admin-closing-your-account/close-account-settings-2.png)
+    ![Снимок экрана левого верхнего угла страницы параметров с выделенным параметром закрытия учетной записи.](media/service-admin-closing-your-account/close-account-settings-2.png)
 
 1. Выберите причину закрытия учетной записи (1). Вы также можете указать дополнительные сведения (2). После этого выберите **Закрыть учетную запись**.
 
-    ![Снимок экрана диалогового окна закрыть учетную запись с параметром закрыть учетную запись, вызванной.](media/service-admin-closing-your-account/close-account-settings-3.png)
+    ![Снимок экрана диалогового окна закрытия учетной записи с выделенным параметром закрытия учетной записи.](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. Подтвердите, что вы хотите закрыть свою учетную запись.
 
-    ![Снимок экрана диалогового окна подтверждения закрыть учетную запись с именем выбор "Да".](media/service-admin-closing-your-account/close-account-settings-4.png)
+    ![Снимок экрана диалогового окна подтверждения закрытия учетной записи с выделенной кнопкой "Да".](media/service-admin-closing-your-account/close-account-settings-4.png)
 
-    Вы увидите подтверждение, закрытие учетной записи Power BI. При необходимости здесь можно повторно открыть учетную запись.
+    Вы увидите подтверждение того, что Power BI закрыл учетную запись. При необходимости здесь можно повторно открыть учетную запись.
 
-    ![Снимок экрана: Ваша учетная запись закрыта диалоговое окно.](media/service-admin-closing-your-account/close-account-settings-5.png)
+    ![Снимок экрана диалогового окна с сообщением о закрытии учетной записи.](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>Пользователи управляемого клиента
 

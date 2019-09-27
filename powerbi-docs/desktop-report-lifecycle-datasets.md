@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160349"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164477"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Подключение к наборам данных в службе Power BI из приложения Power BI Desktop
 Вы можете устанавливать динамическое подключение к общему набору данных в службе Power BI и создавать различные отчеты из одного набора данных. Это означает, что вы можете создать идеальную модель данных в Power BI Desktop и опубликовать ее в службе Power BI. После этого вы и другие пользователи сможете создать несколько разных отчетов (в отдельных PBIX-файлах) на основе одной и той же общей модели и сохранить их в разных рабочих областях. Это называется **динамическим подключением в службе Power BI**.

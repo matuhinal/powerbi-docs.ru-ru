@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141389"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164549"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Подключение к источникам данных для потоков данных Power BI
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Подключение к источникам данных для потоков данных Power BI
 
 С помощью потоков данных Power BI можно подключаться к различным источникам данных, чтобы создавать новые потоки данных или добавлять сущности в существующие потоки.
 
 В этой статье перечислены различные источники данных, которые можно создавать или добавлять в потоки данных, и описывается создание потоков данных с помощью этих источников данных.
 
-Общие сведения о том, как создать и использовать потоки данных, см. в разделе [Создание и использование потоков данных в Power BI](service-dataflows-create-use.md).
+Общие сведения о создании и использовании потоков данных в Power BI см. в [этой статье](service-dataflows-create-use.md).
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>Создание потока данных на основе источника данных
 
@@ -61,7 +61,7 @@ ms.locfileid: "61141389"
 
 Категория **Файл** включает в себя следующие доступные подключения к данным для потоков данных:
 
-* Access
+* Доступ
 * Excel
 * JSON
 * Текстовый или CSV-файл
@@ -156,7 +156,6 @@ ms.locfileid: "61141389"
 
 Ниже перечислены соединители, которые в настоящее время можно использовать путем копирования скрипта M в пустой запрос.
 
-* SAP Business Warehouse 
 * Azure Analysis Services
 * Adobe Analytics
 * ODBC
@@ -176,11 +175,11 @@ ms.locfileid: "61141389"
 
 В этой статье были рассмотрены источники данных, к которым можно подключаться для потоков данных. В следующих статьях содержатся более подробные сведения о типичных сценариях применения потоков данных. 
 
-* [Подготовка данных самообслуживания в Power BI](service-dataflows-overview.md)
+* [Самостоятельная подготовка данных в Power BI](service-dataflows-overview.md)
 * [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [С помощью вычисляемых сущностями в Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Использование вычисляемых сущностей в Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков для потоков данных Power BI](service-dataflows-developer-resources.md)
+* [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:

@@ -8,20 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f50fa577cace62adadd0dfc29216445c6c8f269
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 10586d0fa685bb947b27a5c243117596517bdb52
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454355"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142231"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Ввод данных непосредственно в Power BI Desktop
 Вы можете вводить данные непосредственно в Power BI Desktop и использовать их в своих отчетах и визуализациях. Например, можно скопировать часть книги или веб-страницы, а затем вставить ее в Power BI Desktop.
 
-Чтобы приступить к непосредственному вводу, выберите **Введите данные** на ленте **Главная**.
+Чтобы ввести данные в виде новой таблицы непосредственно в Power BI Desktop, выберите **Введите данные** на ленте **Главная**.
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 

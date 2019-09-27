@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903749"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100102"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Использование детализации между отчетами в Power BI Desktop
 
@@ -32,7 +32,7 @@ ms.locfileid: "70903749"
 
 
 > [!NOTE]
-> Отдельные отчеты, которым предоставлен общий доступ в разделе *Моя рабочая область* (для них отображается *[Мне предоставлен доступ](service-share-dashboards.md#share-a-dashboard-or-report)* ), доступны только в рабочей области, из которой изначально был предоставлен общий доступ. 
+> Функция детализации между отчетами в Power BI Desktop позволяет контекстно переходить от одного отчета к другому. Это можно выполнять, если отчеты находятся в одной рабочей области или приложении в службе Power BI. Это не применяется для доступа к отдельным совместно используемым отчетам в разделе *Моя рабочая область* ([общие отчеты](service-share-dashboards.md#share-a-dashboard-or-report)). Вместо этого необходимо перейти к отчету в рабочей области, из которой к нему изначально предоставлен общий доступ.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>Включение детализации между отчетами

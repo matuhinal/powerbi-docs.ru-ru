@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b0dc84d7b2d8da0df8a9e61a43f35898d197c188
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513759"
@@ -30,16 +30,16 @@ ms.locfileid: "65513759"
 3. Выберите **канал OData** и щелкните **Подключить**.
 4. Введите адрес для канала OData в поле URL-адреса и нажмите кнопку ОК.
    
-   Если адрес сайта вашего веб-приложения Project имеет вид *https://\<tenantname\>.sharepoint.com/sites/pwa*, то адрес канала для OData — *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
+   Если адрес сайта вашего веб-приложения Project имеет формат *https://\<имя_клиента\>.sharepoint.com/sites/pwa*, адрес канала OData должен иметь быть в формате *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    В нашем примере используется https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. Power BI Desktop предложит вам пройти проверку подлинности учетной записи Office 365. Выберите учетную запись организации и введите свои учетные данные.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 
-Учетной записи, используемой для подключения к веб-канал должен иметь по крайней мере OData средства просмотра портфеля получить доступ к сайту Project Web App. 
+Учетная запись, используемая для подключения к каналу OData, должна иметь на сайте Project Web App уровень доступа не ниже Portfolio Viewer (Просмотр портфеля проектов). 
 
-Здесь можно выбрать таблицы, к которым нужно подключиться, и создать запрос.  Хотите узнать, как приступить к работе?  В следующей записи блога показано, как построить темп диаграммы из данных Project Online.  В записи блога для подключения к Project Online используется Power Query, но то же самое относится и к Power BI Desktop.
+Здесь можно выбрать таблицы, к которым нужно подключиться, и создать запрос.  Хотите узнать, как приступить к работе?  В следующей записи блога показано, как создавать диаграммы сгорания задач на основе данных Project Online.  В записи блога для подключения к Project Online используется Power Query, но то же самое относится и к Power BI Desktop.
 
-[Создание темп диаграммы для проектов с помощью Power Pivot и Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
+[Создание диаграмм сгорания задач для Project с помощью Power Pivot и Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
 

@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271850"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100378"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Общие сведения о едином входе (SSO) для шлюзов в Power BI
 
-Вы можете быстро установить подключение с единым входом, включив обновление отчетов и панели мониторинга Power BI с помощью данных из локальной среды. Для этого настройте локальный шлюз данных либо с ограниченным делегированием Kerberos, либо с языком разметки заявлений системы безопасности (SAML). Локальный шлюз данных упрощает единый вход (SSO) с помощью функции DirectQuery, которая используется для подключения к локальным источникам данных.
+Вы можете быстро установить подключение с единым входом, включив обновление отчетов и панели мониторинга Power BI в режиме реального времени с помощью данных из локальной среды. Для этого настройте локальный шлюз данных либо с ограниченным делегированием Kerberos, либо с языком разметки заявлений системы безопасности (SAML). Локальный шлюз данных поддерживает единый вход (SSO) с использованием функции DirectQuery для подключения к локальным источникам данных.
 
 В настоящее время поддерживаются следующие источники данных:
 
@@ -52,8 +52,7 @@ ms.locfileid: "68271850"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Теперь, когда вы знакомы с основами единого входа, более подробно изучите Kerberos и SAML:
+Теперь, когда вы знакомы с основными сведениями о едином входе с использованием шлюза, более подробно изучите Kerberos и SAML:
 
 * [Единый вход (SSO) с помощью Kerberos](service-gateway-sso-kerberos.md)
-* [Единый вход (SSO) — Kerberos — на основе ресурсов](service-gateway-sso-kerberos-resource.md)
 * [Единый вход (SSO) с помощью SAML](service-gateway-sso-saml.md)

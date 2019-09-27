@@ -11,7 +11,7 @@ ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61329895"
@@ -27,7 +27,7 @@ ms.locfileid: "61329895"
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
-Также можно попробовать следующие ключ, который было выполнено успешно, для некоторых клиентов, в зависимости от своих настроек.
+Вы также можете воспользоваться следующим разделом. Такой способ подошел некоторым клиентам с учетом их конфигураций.
 
 ```
 Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop
