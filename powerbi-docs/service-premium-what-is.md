@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/06/2019
+ms.date: 09/17/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596533"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305841"
 ---
 # <a name="what-is-power-bi-premium"></a>Что такое Power BI Premium?
 
@@ -75,7 +75,7 @@ Power BI Premium — это подписка Office 365 уровня клие�
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 % | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 80 | 8 | 60 | 12 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
 
