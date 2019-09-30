@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791805"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194786"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -126,7 +126,6 @@ ms.locfileid: "67791805"
 
 * Убедитесь, что вы создаете приложение-шаблон с помощью образцов данных, которые могут помочь установщику понять, что приложение должно делать (пустой отчет и панель мониторинга не будут одобрены).
 Приложения-шаблоны поддерживают только приложения с примерами данных, обязательно установите флажок статического приложения. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* В общем случае только приложения с полезными возможностями утверждаются для общего использования в AppSource. Приложения с примерами данных должны иметь обучающую или статистическую ценность.
 * Используйте инструкции для команды проверки, которые содержат учетные данные и параметры, необходимые для подключения к данным.
 * Приложение должно содержать значок приложения в Power BI и в вашем предложении на портале Cloud Partner. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Теперь целевая страница настроена. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
@@ -135,6 +134,7 @@ ms.locfileid: "67791805"
 * Установите приложение, используя ссылку приложения перед его отправкой, убедитесь, что можно подключить набор данных и взаимодействие с приложением происходит надлежащим образом.
 * Перед отправкой bpix в рабочую область приложения-шаблона, убедитесь, что все ненужные подключения выгружены.
 * Следуйте[рекомендациям по проектированию отчетов и визуальных элементов](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) в Power BI, чтобы добиться максимального влияния на пользователей и получить одобрение для распространения приложения.
+<!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>Известные ограничения
 
