@@ -1,24 +1,24 @@
 ---
 title: Добавление поддержки закладок для визуальных элементов Power BI
 description: Визуальные элементы Power BI могут обрабатывать переключение между закладками
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237282"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194434"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Добавление поддержки закладок для визуальных элементов Power BI
 
-С помощью закладок в отчете Power BI можно зафиксировать настроенное представление страницы отчета, состояние выбора и состояние фильтрации визуального элемента. Однако для поддержки закладок и правильного реагирования на изменения пользовательские визуальные элементы требуют некоторой доработки.
+С помощью закладок в отчете Power BI можно зафиксировать настроенное представление страницы отчета, состояние выбора и состояние фильтрации визуального элемента. Но для поддержки закладок и правильного реагирования на изменения визуальные элементы Power BI требуют некоторой доработки.
 
 Дополнительные сведения о закладках см. в статье [Использование закладок для обмена аналитическими сведениями и создания историй в Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
@@ -32,7 +32,7 @@ ms.locfileid: "70237282"
 
 2. Обновите API визуальных элементов до версии 1.11.0, чтобы использовать `registerOnSelectCallback` в экземпляре `SelectionManager`. Это необходимо для визуальных элементов без фильтра, использующих обычный `SelectionManager`, а не `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Взаимодействие пользовательских визуальных элементов с Power BI в сценарии закладок отчета
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Взаимодействие визуальных элементов Power BI с Power BI в сценарии закладок отчета
 
 Рассмотрим следующий сценарий: вам требуется создать несколько закладок с различными состояниями выбора на странице отчета.
 

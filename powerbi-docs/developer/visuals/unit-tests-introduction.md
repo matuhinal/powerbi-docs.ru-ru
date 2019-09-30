@@ -1,20 +1,20 @@
 ---
 title: Общие сведения о модульном тестировании для проектов визуальных элементов Power BI
 description: В этой статье рассматривается написание модульных тестов для проектов визуальных элементов Power BI
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236716"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192475"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Руководство. Добавление модульных тестов для проектов визуальных элементов Power BI
 
@@ -616,4 +616,4 @@ Lines        : 52.83% ( 112/212 )
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Когда ваш визуальный элемент готов, вы можете отправить его для публикации. Дополнительные сведения см. в статье [Публикация пользовательских визуализаций в AppSource](../office-store.md).
+Когда ваш визуальный элемент готов, вы можете отправить его для публикации. Дополнительные сведения см. в статье о [публикации визуальных элементов Power BI в AppSource](../office-store.md).

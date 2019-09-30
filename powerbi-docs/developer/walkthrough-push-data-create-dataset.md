@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710378"
@@ -21,7 +21,7 @@ ms.locfileid: "65710378"
 
 На **шаге 2** ([Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)) руководства по отправке данных в набор данных вы получили маркер для проверки подлинности в **Azure AD**. На этом шаге вы будете использовать этот маркер для вызова операции [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
-Чтобы вызвать ресурс REST, используйте URL-адрес, который указывает на ресурс, а затем отправьте строку JavaScript Object Notation (JSON), которая описывает набор данных, в ресурс службы Power BI. Ресурс REST определяет часть службы Power BI, с которой вы будете работать. Для принудительной отправки данных в набор данных в качестве целевого ресурса используется **набор данных**. URL-адрес, определяющий набор данных — https://api.PowerBI.com/v1.0/myorg/datasets. Если при отправке данных в группе, URL-адрес является https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+Чтобы вызвать ресурс REST, используйте URL-адрес, который указывает на ресурс, а затем отправьте строку JavaScript Object Notation (JSON), которая описывает набор данных, в ресурс службы Power BI. Ресурс REST определяет часть службы Power BI, с которой вы будете работать. Для принудительной отправки данных в набор данных в качестве целевого ресурса используется **набор данных**. https://api.PowerBI.com/v1.0/myorg/datasets  — это URL-адрес, определяющий набор данных. Если данные отправляются в рамках группы, используется URL-адрес https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Для проверки подлинности в ходе операции REST Power BI добавьте в заголовок запроса маркер, полученный на шаге [Получение маркера доступа для проверки подлинности](walkthrough-push-data-get-token.md).
 
