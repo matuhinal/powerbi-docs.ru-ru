@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: Руководство
   items:
-    - name: Рекомендации по потокам данных
-      href: service-dataflows-best-practices.md
+    - name: Обзор
+      href: guidance/overview.md
     - name: Что такое схема типа "звезда"?
       href: guidance/star-schema.md
     - name: Уменьшение размера модели данных
       href: guidance/import-modeling-data-reduction.md
     - name: Функция DIVIDE и оператор деления (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Рекомендации по потокам данных
+      href: service-dataflows-best-practices.md
