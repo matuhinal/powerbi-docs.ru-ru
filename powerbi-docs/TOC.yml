@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: Ресурсы
       items:
-        - name: Технические документы
-          items:
-            - name: Обзор технической документации
-              href: whitepapers.md
-            - name: Технический документ по обеспечению безопасности в Power BI
-              href: whitepaper-powerbi-security.md
-            - name: Развертывание Power BI Premium
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: "Публикация Power\_BI для внешних пользователей с помощью Azure Active Directory\_B2B"
-              href: whitepaper-azure-b2b-power-bi.md
         - name: Видео
           href: videos.md
         - name: Вебинары
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: Рекомендации по потокам данных
       href: service-dataflows-best-practices.md
+    - name: Технические документы
+      items:
+        - name: Обзор технической документации
+          href: whitepapers.md
+        - name: Технический документ по обеспечению безопасности в Power BI
+          href: whitepaper-powerbi-security.md
+        - name: Развертывание Power BI Premium
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: "Публикация Power\_BI для внешних пользователей с помощью Azure Active Directory\_B2B"
+          href: whitepaper-azure-b2b-power-bi.md
