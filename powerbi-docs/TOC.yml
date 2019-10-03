@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: "Автоматизированное машинное обучение в Power\_BI (предварительная версия)"
               href: service-machine-learning-automated.md
+        - name: Происхождение данных
+          href: service-data-lineage.md
         - name: Отчеты с разбивкой на страницы в Power BI
           items:
             - name: Просмотр отчета с разбивкой на страницы
@@ -867,6 +869,8 @@
       items:
         - name: "Поддерживаемые языки и страны\_(регионы)"
           href: supported-languages-countries-regions.md
+        - name: Поддерживаемые браузеры
+          href: power-bi-browsers.md
     - name: Ресурсы
       items:
         - name: Технические документы
