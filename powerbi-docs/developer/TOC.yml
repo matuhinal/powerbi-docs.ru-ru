@@ -1,0 +1,240 @@
+- name: "Power\_BI для разработчиков"
+  items:
+    - name: Обзор
+      expanded: true
+      items:
+        - name: Какие возможности Power BI предоставляет разработчикам
+          href: what-can-you-do.md
+    - name: "Визуальные элементы Power\_BI"
+      expanded: true
+      items:
+        - name: Обзор
+          items:
+            - name: "Визуальные элементы в Power\_BI"
+              href: ../power-bi-custom-visuals.md
+        - name: Учебники
+          items:
+            - name: "Разработка визуального элемента Power\_BI"
+              href: custom-visual-develop-tutorial.md
+            - name: Добавление параметров форматирования
+              href: custom-visual-develop-tutorial-format-options.md
+            - name: Добавление модульных тестов для проекта визуальных элементов
+              href: visuals/unit-tests-introduction.md
+        - name: Основные понятия
+          items:
+            - name: "Визуальные элементы для организаций в Power\_BI"
+              href: ../power-bi-custom-visuals-organization.md
+            - name: "Рекомендации по визуальным элементам Power\_BI"
+              href: guidelines-powerbi-visuals.md
+            - name: Вопросы и ответы о визуальных элементах
+              href: ../power-bi-custom-visuals-faq.md
+            - name: Использование возможностей
+              href: visuals/capabilities.md
+            - name: Сопоставления представлений данных
+              href: visuals/dataview-mappings.md
+            - name: Объекты и свойства
+              href: visuals/objects-properties.md
+            - name: Режим расширенного редактирования
+              href: visuals/advanced-edit-mode.md
+        - name: Практическое руководство
+          items:
+            - name: Сертификация визуального элемента
+              href: ../power-bi-custom-visuals-certified.md
+            - name: Публикация настраиваемых визуальных элементов в AppSource
+              href: office-store.md
+            - name: "Использование пользовательских визуализаций на основе R в Power\_BI"
+              href: ../desktop-r-powered-custom-visuals.md
+            - name: Взаимодействие с визуальными элементами
+              href: visuals/visuals-interactions.md
+            - name: Добавление подсказок в визуальных элементах
+              href: visuals/add-tooltips.md
+            - name: Добавление панели аналитики
+              href: visuals/analytics-pane.md
+            - name: Фильтрация визуальных элементов
+              href: visuals/filter-api.md
+            - name: Получение дополнительных данных
+              href: visuals/fetch-more-data.md
+            - name: Добавление поддержки закладок
+              href: visuals/bookmarks-support.md
+            - name: Выделение данных в визуальных элементах
+              href: visuals/highlight.md
+            - name: Добавление поддержки режима высокой контрастности
+              href: visuals/high-contrast-support.md
+            - name: Активация синхронизации срезов
+              href: visuals/enable-sync-slicers.md
+            - name: "Устранение неполадок с визуальными элементами Power\_BI"
+              href: ../power-bi-custom-visuals-troubleshoot.md
+        - name: Справка
+          items:
+            - name: Целевая страница
+              href: visuals/landing-page.md
+            - name: Открытие URL-адреса
+              href: visuals/launch-url.md
+            - name: События отрисовки
+              href: visuals/event-service.md
+            - name: Сортировка
+              href: visuals/sort-options.md
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/developers/'
+            - name: Примеры
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Git-репозиторий пользовательских визуальных элементов
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: Создание SSL-сертификата
+              href: visuals/create-ssl-certificate.md
+    - name: Встроенная аналитика
+      expanded: true
+      items:
+        - name: Обзор
+          items:
+            - name: "Что такое внедрение с Power\_BI"
+              href: embedding.md
+            - name: "Что такое Power\_BI Embedded в\_Azure"
+              href: azure-pbie-what-is-power-bi-embedded.md
+        - name: Учебники
+          items:
+            - name: Встроенное содержимое для клиентов
+              href: embed-sample-for-customers.md
+            - name: Внедренное содержимое для организации
+              href: embed-sample-for-your-organization.md
+            - name: Встроенное содержимое для национальных облаков
+              href: embed-sample-for-customers-national-clouds.md
+        - name: Основные понятия
+          items:
+            - name: Рекомендации по производительности
+              href: embedded-performance-best-practices.md
+            - name: Субъект-служба
+              href: embed-service-principal.md
+            - name: Защита на уровне строк
+              href: embedded-row-level-security.md
+            - name: Управление несколькими арендаторами
+              href: embed-multi-tenancy.md
+            - name: "Ведение журнала диагностики для Power\_BI Embedded в\_Azure"
+              href: azure-pbie-diag-logs.md
+            - name: Вопросы и ответы о функции внедрения
+              href: embedded-faq.md
+            - name: Разрешения Power BI
+              href: power-bi-permissions.md
+        - name: Практическое руководство
+          items:
+            - name: Внедрение содержимого из приложения
+              href: embed-from-apps.md
+            - name: Автоматическая установка приложений
+              href: embed-auto-install-app.md
+            - name: Создание клиента Azure Active Directory
+              href: create-an-azure-active-directory-tenant.md
+            - name: Регистрация приложения
+              href: register-app.md
+            - name: Получение токена доступа Azure AD
+              href: get-azuread-access-token.md
+            - name: Внедрение функции "Вопросы и ответы"
+              href: qanda.md
+            - name: Устранение неполадок с внедренным приложением
+              href: embedded-troubleshoot.md
+            - name: "Управление емкостями в\_Azure"
+              items:
+                - name: "Создание емкости в\_Azure"
+                  href: azure-pbie-create-capacity.md
+                - name: Создание емкости с использованием поддержки нескольких регионов в Azure
+                  href: embedded-multi-geo.md
+                - name: "Масштабирование емкости в\_Azure"
+                  href: azure-pbie-scale-capacity.md
+                - name: "Приостановка и запуск емкости в\_Azure"
+                  href: azure-pbie-pause-start.md
+            - name: Миграция из коллекций рабочих областей
+              items:
+                - name: "Миграция из коллекций рабочих областей Power\_BI"
+                  href: migrate-from-powerbi-embedded.md
+                - name: Средство миграции
+                  href: migrate-tool.md
+                - name: Фрагменты кода миграции
+                  href: migrate-code-snippets.md
+        - name: Справка
+          items:
+            - name: API-интерфейсы
+              items:
+                - name: "REST\_API для управления ресурсами\_Azure"
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: "REST\_API в Power\_BI"
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+                - name: Справочник по REST API Power BI
+                  href: rest-api-reference.md
+            - name: Загрузка SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Внедрение пользовательских макетов в приложение
+              href: embedded-custom-layout.md
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Средство настройки внедрения
+              href: 'https://aka.ms/embedsetup'
+            - name: Пример площадки JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: "Вики-сайт по JavaScript для Power\_BI"
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: Git-репозиторий JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Git-репозиторий Power BI C#'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Примеры
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Сообщество Power BI
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Автоматизация
+      expanded: true
+      items:
+        - name: Обзор
+          items:
+            - name: Что можно сделать с помощью API Power BI?
+              href: overview-of-power-bi-rest-api.md
+        - name: Учебники
+          items:
+            - name: Принудительная отправка данных в набор данных
+              href: walkthrough-push-data.md
+            - name: Получение токена доступа для проверки подлинности
+              href: walkthrough-push-data-get-token.md
+            - name: Создание набора данных
+              href: walkthrough-push-data-create-dataset.md
+            - name: Получение набора данных для добавления строк
+              href: walkthrough-push-data-get-datasets.md
+            - name: Добавление строк в таблицу
+              href: walkthrough-push-data-add-rows.md
+        - name: Основные понятия
+          items:
+            - name: Политика автоматического хранения данных в режиме реального времени
+              href: api-automatic-retention-policy-for-real-time-data.md
+            - name: Принудительная отправка данных
+              items:
+                - name: Ограничения REST API Power BI
+                  href: api-rest-api-limitations.md
+                - name: Свойства набора данных
+                  href: api-dataset-properties.md
+                - name: Управление версиями в модели данных
+                  href: api-data-model-versioning.md
+        - name: Практическое руководство
+          items:
+            - name: Настройка учетных данных
+              href: configure-credentials.md
+            - name: Шифрование учетных данных
+              href: encrypt-credentials.md
+        - name: Справка
+          items:
+            - name: REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Справочник по REST API Power BI
+              href: rest-api-reference.md
+            - name: Полный листинг кода
+              href: walkthrough-push-data-complete-code.md
+        - name: Ресурсы
+          items:
+            - name: Центр разработки
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Git-репозиторий Power BI C#'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Загрузка SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
