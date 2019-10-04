@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187505"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325668"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -31,7 +31,7 @@ ms.locfileid: "66187505"
 
     ![Скачивание Power BI Desktop из веб-портала](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Или перейти непосредственно к [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (, оптимизированному для сервера отчетов Power BI мая 2019) в центре загрузки Майкрософт.
+    Либо перейдите на домашнюю страницу [Сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) и выберите **Расширенные параметры загрузки**.
 
 2. На странице Центра загрузки нажмите кнопку **Скачать**.
 
@@ -41,13 +41,13 @@ ms.locfileid: "66187505"
 
     - **PBIDesktopRS_x64.msi** (64-разрядная версия).
 
-4. Скачав установщик, запустите мастер установки Power BI Desktop (мая 2019 г.).
+4. Когда вы скачаете установщик, запустите мастер установки Power BI Desktop (сентябрь 2019 г.).
 
 2. На завершающем этапе процесса установки выберите параметр **Start Power BI Desktop now** (Запустить Power BI Desktop).
    
-    После автоматического запуска приложения вы будете готовы к работе. Чтобы узнать, что вы установили правильную версию, так как «Power BI Desktop (мая 2019 г.)» находится в строке заголовка.
+    После автоматического запуска приложения вы будете готовы к работе. Если в строке заголовка вы видите **Power BI Desktop (сентябрь 2019 г.)** , вы установили правильную версию.
 
-    ![Power BI Desktop версии мая 2019 г.](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
+    ![Power BI Desktop, сентябрь 2019 г.](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
 
 3. Если вы не знакомы с Power BI Desktop, просмотрите видеоролики на экране приветствия.
    
@@ -61,7 +61,7 @@ ms.locfileid: "66187505"
     На вкладке **Home** (Главная) выберите пункт **Get Data** (Получить данные).
 2. Выберите источник данных (в этом примере **Analysis Services**).
    
-    ![Выбор источника данных](media/quickstart-create-powerbi-report/report-server-get-data-ssas.png)
+    ![Выбор источника данных](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. Заполните поле **Server** (Сервер) и при необходимости поле **Database** (База данных). Убедитесь, что установлен флажок **Connect live** (Подключение в реальном времени) и нажмите кнопку **ОK**.
    
     ![Имя сервера](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)

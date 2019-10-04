@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74c4468cbb764d8bd7720845939b3b7fbdf66b06
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: e001d35761eb7918aab2c427c3400df526e4dbc0
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299473"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192400"
 ---
-# <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop
+# <a name="arcgis-maps-in-power-bi-desktop-by-esri"></a>Карты ArcGIS от Esri в Power BI Desktop
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Руководство посвящено созданию карты ArcGIS. Пользователь, которому автор предоставил общий доступ к карте ArcGIS, может просматривать карту и взаимодействовать с ней, но не может сохранять изменения. Дополнительные сведения о просмотре карты ArcGIS см. в статье о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).
 
 Сочетание карт ArcGIS и Power BI — это больше, чем просто отображение точек на карте. Прекрасные информативные визуализации для карт можно создать, используя базовые карты, типы расположения, темы, стили символов и ссылочные слои. Сочетание официальных слоев данных на карте с пространственным анализом помогает лучше понять данные в визуализации.
@@ -31,7 +34,7 @@ ms.locfileid: "67299473"
 
 В приведенном ниже примере на темно-сером холсте показана тепловая карта значений региональных продаж на фоне демографического слоя с наложением значений медианного совокупного чистого дохода за 2016 г. Как будет видно далее, карты ArcGIS предлагают практически безграничные возможности сопоставления, демографические данные и еще более привлекательную визуализацию карт, чтобы лучше всего представить данные.
 
-![](media/power-bi-visualization-arcgis/power-bi-intro-arcgis.png)
+![Вводное изображение ArcGIS](media/power-bi-visualization-arcgis/power-bi-intro-arcgis.png)
 
 > [!TIP]
 > Посетите [страницу компании ESRI в Power BI](https://www.esri.com/powerbi), на которой есть множество примеров и отзывов. Затем перейдите на страницу компании ESRI со сведениями о [начале работы с картами ArcGIS для Power BI](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm).
@@ -49,30 +52,35 @@ ms.locfileid: "67299473"
 
 <br/>
 
-## <a name="enable-arcgis-map"></a>Включение карты ArcGIS
-Сейчас карты ArcGIS доступны в службе Power BI, Power BI Desktop и Power BI для мобильных устройств. В этой статье предоставлены инструкции для Power BI и Power BI Desktop.
 
-### <a name="enable-the-arcgis-map-in-power-bi-service-apppowerbicom"></a>Включение карты ArcGIS ***в службе Power BI (app.powerbi.com)***
-В этом руководстве используется пример [Анализ розничной торговли](../sample-retail-analysis.md). Чтобы включить **карты ArcGIS для Power BI**, сделайте следующее:
+### <a name="enable-the-arcgis-map-in-power-bi-desktop-apppowerbicom"></a>Включение карты ArcGIS ***в Power BI Desktop (app.powerbi.com)***
+В этом руководстве используется пример PBIX-файла [Анализ розничной торговли](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix
+). Чтобы включить **карты ArcGIS для Power BI**, сделайте следующее:
 
-1. В верхней правой части строки меню выберите значок шестеренки и откройте **Параметры**
+1. В верхнем левом разделе меню выберите **Файл** \> **Открыть**.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-settings.png)
-2. Установите флажок **Карты ArcGIS для Power BI**. После этого изменения приложение Power BI необходимо перезапустить.
+2. Найдите на локальном компьютере пример PBIX-файла **Анализ розничной торговли**.
+
+1. Откройте **пример анализа розничной торговли** в представлении отчета ![снимок экрана: значок представления отчета.](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
+
    
-    ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. Откройте отчет в [представлении редактирования](../consumer/end-user-reading-view.md) и щелкните на панели "Визуализации" значок карт ArcGIS для Power BI.
+3. Щелкните на панели "Визуализации" значок карт ArcGIS для Power BI.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
+    ![Панель визуализации для карт ArcGIS](media/power-bi-visualization-arcgis/power-bi-viz-pane.png)
 4. Power BI добавляет пустой шаблон карты ArcGIS на холст отчетов.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-esri-placeholder2new.png)
+   ![Заполнитель визуализации ArcGIS](media/power-bi-visualization-arcgis/power-bi-esri-placeholder2new.png)
 
 <br/>
 
 ## <a name="create-an-arcgis-map-visual"></a>Создание визуализации карты AcrGIS
-Просмотрите видео о создании других визуализаций карт ArcGIS, а затем с помощью приведенных ниже инструкций попробуйте сделать это самостоятельно с помощью [примера анализа розничной торговли](../sample-datasets.md).
-
+Просмотрите видео о создании других визуализаций карт ArcGIS, а затем с помощью приведенных ниже инструкций попробуйте сделать это самостоятельно с помощью [PBIX-файла примера анализа розничной торговли](../sample-datasets.md).
+   > [!NOTE]
+   > В этом видео используется более старая версия Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EKVvOZmxg9s" frameborder="0" allowfullscreen></iframe>
 
 1. Из панели **Поля** перетащите поле данных в контейнеры **Расположение** или (и) **Широта** и **Долгота**. В нашем примере используется **Магазин > Город**.
@@ -82,28 +90,28 @@ ms.locfileid: "67299473"
    > 
    > 
    
-    ![](media/power-bi-visualization-arcgis/power-bi-fields-pane3new.png)
-2. Преобразуйте визуализацию в карту ArcGIS, выбрав соответствующий шаблон в области "Визуализации" ![](media/power-bi-visualization-arcgis/power-bi-arcgis-template.png).
+    ![Область "Поля" ArcGIS](media/power-bi-visualization-arcgis/power-bi-fields-pane3new.png)
+
 3. Из панели **Поля** перетащите меру в контейнер **Размер**, чтобы изменить способ представления данных. В этом примере выберите **Sales > Last Year Sales** (Продажи > Продажи за прошлый год).
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-point-map-size2new.png)
+    ![Визуализация карты точек Esri](media/power-bi-visualization-arcgis/power-bi-esri-point-map-size2new.png)
 
 ## <a name="settings-and-formatting-for-arcgis-maps"></a>Настройки и форматирование для карт AcrGIS
 Чтобы получить доступ к функциям форматирования **карт ArcGIS для Power BI**, нужно сделать следующее:
 
 1. Чтобы получить доступ к дополнительным компонентам, нажмите кнопку с многоточием в правом верхнем углу визуализации и выберите команду **Изменить**.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-edit2.png)
+   ![Область редактирования ArcGIS](media/power-bi-visualization-arcgis/power-bi-edit2.png)
    
    Доступные компоненты отображаются в верхней части визуализации. При выборе каждой функции открывается область задач с подробными параметрами.<br/>
    
-   ![](media/power-bi-visualization-arcgis/power-bi-esri-features-new.png)
+   ![Область функций Esri](media/power-bi-visualization-arcgis/power-bi-esri-features-new.png)
    
    > [!NOTE]
    > Дополнительные сведения о параметрах и компонентах см. в приведенной ниже **подробной документации**.
    > 
    > 
-2. Чтобы вернуться к отчету, нажмите кнопку **Назад к отчету** в верхнем левом углу холста отчета.
+
 
 <br/>
 
@@ -116,19 +124,19 @@ ms.locfileid: "67299473"
 
 Чтобы применить базовую карту, выберите ее в области задач.
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-base-maps-new.png)
+![Визуальный элемент базовых карт Esri](media/power-bi-visualization-arcgis/power-bi-esri-base-maps-new.png)
 
 ### <a name="location-type"></a>Тип расположения
 Карты ArgGIS для Power BI автоматически определяют, как лучше всего показать данные на карте. Выбираются точки или границы. С помощью параметров типа расположения можно точно настроить выбранный способ.
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-location-types-new.png)
+![Пример типов расположения Esri](media/power-bi-visualization-arcgis/power-bi-esri-location-types-new.png)
 
 **Границы** будут работать, только если данные содержат стандартные географические значения. Esri автоматически распознает фигуру, которую нужно показать на карте. К стандартным географическим значениям относятся страны, области, почтовые индексы и т. д. Но, как и в случае геокодирования, Power BI может не обнаружить, что поля должны использоваться в качестве границы по умолчанию, или же границы для данных могут отсутствовать.  
 
 ### <a name="map-theme"></a>Тема карты
-Предоставляются четыре темы карт. Темы "Только расположение" и "Размер" выбираются автоматически с учетом полей, привязанных к контейнерам расположения и добавленных к контейнерам **размера** на панели "Поля" в Power BI. Сейчас используется тема **Размер**, так что давайте сменим тему на **Тепловая карта**.  
+Предоставляются четыре темы карт. Темы "Только расположение" и "Размер" выбираются автоматически с учетом полей, привязанных к контейнерам расположения и добавленных к контейнерам **размера** на панели "Поля" в Power BI. В настоящее время мы используем **Размер**, поэтому изменим его на **Тепловую карту**; просто не забывайте отключать режим **Тепловая карта** перед переходом к следующему шагу.  
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
+![Пример темы карты Esri](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
 
 <table>
 <tr><th>Тема</th><th>Описание</th>
@@ -152,9 +160,9 @@ ms.locfileid: "67299473"
 
 
 ### <a name="symbol-style"></a>Стиль символов
-С помощью стилей символов можно точно настроить способ представления данных на карте. Стили символов зависят от контекста и основаны на выбранных типе расположения и теме карты. В примере ниже для типа расположения установлен параметр **Размер** и задано несколько настроек прозрачности, стиля и размера.
+С помощью стилей символов можно точно настроить способ представления данных на карте. Стили символов зависят от контекста и основаны на выбранных типе расположения и теме карты. В примере ниже для типа карты установлен параметр **Размер** и задано несколько настроек прозрачности, стиля и размера. 
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-symbol-style-new.png)
+![Пример стиля символа Esri](media/power-bi-visualization-arcgis/power-bi-esri-symbol-style-new.png)
 
 ### <a name="pins"></a>Закрепления
 Привлекайте внимание к точкам на карте с помощью закреплений.  
@@ -162,21 +170,21 @@ ms.locfileid: "67299473"
 1. Выберите вкладку **Pins** (Закрепления).
 2. В поле поиска введите ключевые слова (например, адреса, места и важные объекты) и выберите нужные данные из раскрывающегося списка. На карте отображается символ, и для расположения автоматически увеличивается масштаб. Результаты поиска сохраняются на панели "Pins" (Закрепления) как карты расположения. Можно сохранить до 10 карт расположения.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-pin-arcgis-newer.png)
+   ![Пример вешки на карте ArcGIS](media/power-bi-visualization-arcgis/power-bi-pin-arcgis-newer.png)
 3. Power BI добавит закрепление к этому расположению. Цвет закрепления можно изменить.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-pin-color-new.png)
+   ![Пример цветной вешки](media/power-bi-visualization-arcgis/power-bi-pin-color-new.png)
 4. Добавляйте и удаляйте закрепления.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-pin3.png)
+   ![Пример добавления и удаления вешки](media/power-bi-visualization-arcgis/power-bi-pin3.png)
 
 ### <a name="drive-time"></a>Время поездки на автомобиле
 В области "Drive time" (Время поездки автомобилем) можно выбрать расположение и определить другие элементы карты в пределах указанного радиуса или периода поездки.  
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
+    ![Пример времени поездки](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. Откройте вкладку **Drive time** (Время поездки автомобилем) и выберите инструмент единичного или множественного выбора. Выполните единичный выбор закрепления для Вашингтона, округ Колумбия.
 
-   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+   ![Пример выбора одной вешки](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > Увеличение масштаба на карте (с помощью значка +) упростит выбор расположения.
@@ -184,10 +192,11 @@ ms.locfileid: "67299473"
    > 
 2. Предположим, вы на несколько дней летите в Вашингтон, округ Колумбия, и вам нужно узнать, какие магазины есть в приемлемых пределах для поездки автомобилем. Задайте для области поиска значение **Radius** (Радиус), укажите для расстояния значение в **50** миль и нажмите кнопку "OK".    
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time-radius.png)
+    ![Радиус времени поездки](media/power-bi-visualization-arcgis/power-bi-esri-drive-time-radius.png)
+
 3. На карте отобразится участок, окрашенный фиолетовым цветом. Выберите любое расположение для отображения сведений о нем. При необходимости отформатируйте изображение, изменив цвет и контур участка.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
+    ![Пример формата радиуса с цветом и контуром](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 ### <a name="reference-layer"></a>Ссылочный слой
 #### <a name="reference-layer---demographics"></a>Ссылочный слой — демографические данные
@@ -196,10 +205,10 @@ ms.locfileid: "67299473"
 1. Выберите вкладку **Ссылочный слой** и нажмите кнопку **Демографические данные**.
 2. Возле каждого названия слоя есть флажок. Установите флажок, чтобы добавить слой на карту.  В этом примере добавлены среднестатистические доходы населения.<br/>
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-demographic.png)
+    ![Пример "Ссылочный слой — демографические данные"](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-demographic.png)
 3. Каждый слой — интерактивный. Чтобы просмотреть подробные сведения, можно навести курсор на круговую область или щелкнуть затененную область на карте.<br/>
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-details.png)
+    ![Пример "Ссылочный слой — сведения"](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-details.png)
 
 #### <a name="reference-layer---arcgis"></a>Ссылочный слой — ArcGIS
 ArcGIS Online дает возможность организациям публиковать общедоступные веб-карты. Кроме того, компания Esri предоставляет проверенный набор веб-карт с помощью Living Atlas. На вкладке ArcGIS можно найти все общедоступные веб-карты или карты Living Atlas и добавить их как ссылочные слои.
@@ -207,23 +216,29 @@ ArcGIS Online дает возможность организациям публ
 1. Выберите вкладку **Ссылочный слой** и выберите **ArcGIS**.
 2. Введите условия поиска, а затем выберите слой карты. В этом примере выбраны избирательные округи США.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
+    ![Пример демографических данных Esri](media/power-bi-visualization-arcgis/power-bi-reference-details.png)
 3. Чтобы просмотреть подробные сведения, выберите затененную область для активации элемента *Select from reference layer* (Выбрать из ссылочного слоя). Используйте средство выбора ссылочного слоя для выделения границ или объектов этого слоя.
 
 <br/>
 
 ## <a name="selecting-data-points"></a>Выбор точек данных
-В картах ArcGIS для Power BI предусмотрено три режима выбора.
+Карты ArcGIS для Power BI поддерживают пять режимов выбора, которые позволяют правильно и быстро выбирать данные.
 
-Режим выбора изменяется с помощью переключателя:
+Чтобы изменить режим выделения, наведите указатель мыши на значок инструмента "одинарный выбор", показанный на рисунке ниже. Это также позволит развернуть скрытую панель, чтобы отобразить дополнительные средства.
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-tools2.png)
+![Средство выбора Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-tools2.png)
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-single2.png) Позволяет выбрать отдельные точки данных.
+У каждого средства есть уникальная роль, позволяющая выбрать данные. 
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-marquee2.png) Позволяет начертить прямоугольник на карте и выбрать точки данных, содержащиеся в нем.
+![Средство одиночного выбора Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-single2.png) Позволяет выбрать отдельные точки данных.
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-layer2.png) Позволяет использовать границы или многоугольники в ссылочных слоях для выбора содержащихся в них точек данных.
+![Средство выделения Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-marquee2.png) Позволяет начертить прямоугольник на карте и выбрать точки данных, содержащиеся в нем.
+
+![Ссылочный слой выбора Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-layer2.png) Позволяет использовать границы или многоугольники в ссылочных слоях для выбора содержащихся в них точек данных.
+
+![Буферный слой выбора Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-buffer.png) Позволяет выбирать данные с помощью слоя буфера.
+
+![Выделенный аналогичный фрагмент Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-similar.png) Позволяет выбирать точки данных, которые похожи друг на друга.
 
 > [!NOTE]
 > Одновременно можно выбрать не более 250 точек.
@@ -242,21 +257,20 @@ ArcGIS Online дает возможность организациям публ
 <br/>
 
 ## <a name="managing-use-of-arcgis-maps-for-power-bi-within-your-organization"></a>Управление использованием карт ArcGIS для Power BI в организации
-С помощью Power BI пользователи, администраторы клиентов и ИТ-администраторы могут указывать, использовать ли карты ArcGIS для Power BI.
+С помощью Power BI пользователи, администраторы клиентов и ИТ-администраторы могут указывать, использовать ли карты ArcGIS для Power BI. Ниже вы найдете шаги, которые может предпринимать каждая роль для управления использованием карт ArcGIS. 
 
-**Параметры пользователя.** В Power BI Desktop пользователи могут отключить использование карт ArcGIS для Power BI в разделе **Параметры** на вкладке "Безопасность". Если карты ArcGIS отключены, они не загружаются по умолчанию.
+### <a name="user-options"></a>Параметры пользователя
+В Power BI Desktop пользователи могут отключить использование карт ArcGIS для Power BI в разделе **Файл** > **Параметры и настройки** на вкладке **Параметры** > **Безопасность**. Если карты ArcGIS отключены, они не загружаются по умолчанию.
 
-![](media/power-bi-visualization-arcgis/power-bi-desktop-security-dialog2.png)
+![Пример диалогового окна "Безопасность рабочего стола"](media/power-bi-visualization-arcgis/power-bi-desktop-security-dialog2.png)
 
-В службе Power BI пользователи могут отключить использование карт ArcGIS для Power BI в разделе параметров пользователя на вкладке "ArcGIS Maps for Power BI" (Карты ArcGIS для Power BI). Если карты ArcGIS отключены, они не загружаются по умолчанию.
+### <a name="tenant-admin-options"></a>Параметры администратора клиента
+На сайте PowerBI.com администраторы клиента могут запретить всем пользователям клиента использовать карты ArcGIS для Power BI, отключив **Параметры** > **Портал администратора** > **Параметры клиента**. После этого в Power BI на панели "Визуализации" больше не будет отображаться значок карт ArcGIS для Power BI.
 
-![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
+![Пример с порталом администрирования ArcGIS](media/power-bi-visualization-arcgis/power-bi-arcgis-admin-portal2.png)
 
-**Параметры администратора клиента**. На сайте PowerBI.com администраторы клиента могут запретить всем пользователям клиента использовать карты ArcGIS для Power BI, отключив их. После этого в Power BI на панели "Визуализации" больше не будет отображаться значок карт ArcGIS для Power BI.
-
-![](media/power-bi-visualization-arcgis/power-bi-arcgis-admin-portal2.png)
-
-**Параметры ИТ-администратора**. Power BI Desktop поддерживает использование **групповой политики**, чтобы отключать карты ArcGIS для Power BI на компьютерах, развернутых в организации.
+### <a name="it-administrator-options"></a>Параметры ИТ-администратора
+Power BI Desktop поддерживает использование **групповой политики**, чтобы отключать карты ArcGIS для Power BI на компьютерах, развернутых в организации.
 
 <table>
 <tr><th>Атрибут</th><th>Значение</th>

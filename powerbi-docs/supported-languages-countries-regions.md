@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867130"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256451"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Поддерживаемые языки и страны (регионы) для Power BI
 
@@ -116,14 +116,14 @@ Power BI определяет ваш язык на основе параметр
    Чтобы увидеть изменение, может потребоваться закрыть и снова открыть браузер.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Выбор языка или языкового стандарта в Power BI Desktop
-Получить Power BI Desktop можно одним из двух способов: скачать или установить из Microsoft Store.
+Получить Power BI Desktop можно одним из двух способов: скачать автономный установщик или установить из Microsoft Store.
 
-* Если [Power BI Desktop устанавливается из Магазина Windows](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), будут установлены все языки с отображением языка, который соответствует языку в Windows по умолчанию.
-* Когда вы [скачиваете Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop), вы можете сразу выбрать язык. 
+* Если Power BI Desktop устанавливается из Магазина Windows, будут установлены все языки; по умолчанию отображается язык, который соответствует языку в Windows по умолчанию.
+* При скачивании Power BI Desktop в виде автономного установщика вы выбираете язык по умолчанию при запуске установщика и можете изменить его позже.
 * Вы также можете [выбрать язык, который будет использоваться при импорте данных,](#choose-the-locale-for-importing-data-into-power-bi-desktop) для определенного отчета.
 
-### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Выбор языка для программы Power BI Desktop, установленной из Магазина Windows
-1. [Установите Power BI Desktop](http://aka.ms/pbidesktopstore) из Магазина Windows.
+### <a name="choose-a-language-for-power-bi-desktop"></a>Выберите язык для Power BI Desktop 
+1. Установите Power BI Desktop из [Магазина Windows](http://aka.ms/pbidesktopstore) или с помощью [автономного установщика](http://aka.ms/pbiSingleInstaller).
 2. Чтобы изменить язык, на компьютере найдите **Параметры Windows**. 
 3. Выберите **Время и язык**.
    
@@ -140,11 +140,6 @@ Power BI определяет ваш язык на основе параметр
 3. В поле **Язык приложения** выберите другой языковый стандарт. 
 
 Поддержка языков в Power BI Desktop ограничена языками, отображаемыми в раскрывающемся списке "Язык приложения".
-
-### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Выбор языка при скачивании Power BI Desktop
-Если используется версия MSI Power BI Desktop Installer, язык задается во время загрузки. Язык выбирается на странице [загрузки Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=45331). 
-
-Чтобы изменить язык в Power BI Desktop при такой установке, нужно вернуться на страницу загрузки и загрузить службу на другом языке.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Выбор языкового стандарта для импорта данных в Power BI Desktop
 Независимо от способа установки Power BI Desktop, вы можете выбрать языковой стандарт для отдельного отчета, отличный от языкового стандарта в вашей версии Power BI Desktop. Этот языковой стандарт изменит способ интерпретации данных, импортируемых из источника данных. Например, то как будет интерпретироваться дата 3/4/2017 — 3 апреля или 4 марта. 

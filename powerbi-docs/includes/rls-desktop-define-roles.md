@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194112"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409380"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Создание ролей и правил в Power BI Desktop
 В приложении Power BI Desktop можно задавать роли и правила. При публикации в Power BI публикуются и определения ролей.
@@ -35,8 +35,14 @@ ms.locfileid: "61194112"
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. Созданное выражение DAX можно проверить с помощью флажка над полем выражения.
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > В этом поле выражения для разделения аргументов функции DAX используются запятые, даже если используется языковой стандарт, который обычно использует как разделитель точку с запятой (например, французский или немецкий). 
+   >
+   >
+   
 9. Нажмите кнопку **Сохранить**.
 
 Назначать пользователей роли в Power BI Desktop нельзя. Вы назначаете их в службе Power BI. Чтобы использовать в Power BI Desktop функции динамической системы безопасности, используйте функции DAX *username()* или *userprincipalname()* и настройте соответствующие связи. 

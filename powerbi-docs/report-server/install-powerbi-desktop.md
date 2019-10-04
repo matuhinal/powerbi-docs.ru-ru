@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 54713c9c978554521d68aeb7b4c25d681ddb3d69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187447"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325755"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 
@@ -30,28 +30,27 @@ ms.locfileid: "66187447"
 
     ![Скачивание Power BI Desktop из веб-портала](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Или перейти непосредственно к [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (, оптимизированному для сервера отчетов Power BI мая 2019) в центре загрузки Майкрософт.
+    Либо перейдите на домашнюю страницу [Сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) и выберите **Расширенные параметры загрузки**.
 
 2. На странице Центра загрузки нажмите кнопку **Скачать**.
 
 3. В зависимости от компьютера выберите файл: 
 
     - **PBIDesktopRS.msi** (32-разрядная версия);
-
     - **PBIDesktopRS_x64.msi** (64-разрядная версия).
 
-1. Скачав установщик, запустите мастер установки Power BI Desktop (мая 2019 г.).
+1. Когда вы скачаете установщик, запустите мастер установки Power BI Desktop (сентябрь 2019 г.).
 
-2. В конце установки, выберите **запуска Power BI Desktop**.
+2. На завершающем этапе процесса установки выберите параметр **Запустить Power BI Desktop**.
 
     После автоматического запуска приложения вы будете готовы к работе.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Проверка используемой версии
-Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. В строке заголовка отображаются месяц и год выпуска. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
+Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. Если в строке заголовка вы видите **Power BI Desktop (сентябрь 2019 г.)** , вы установили правильную версию. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
 
-![Строка заголовка приложения Power BI Desktop, оптимизированного для решения "Сервер отчетов Power BI"](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2019.png)
+![Power BI Desktop, сентябрь 2019 г.](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
 
-В строке заголовка версии Power BI Desktop для службы Power BI не указаны месяц и год выпуска.
+В строке заголовка версии Power BI Desktop для службы Power BI не указаны месяц и год выпуска.
 
 ## <a name="file-extension-association"></a>Сопоставление расширения файла
 Если Power BI Desktop и приложение Power BI Desktop, оптимизированное для Сервера отчетов Power BI, установлены на одном компьютере, то с файлами с расширением PBIX будет связан тот экземпляр Power BI Desktop, который был установлен последним. Поэтому при двойном щелчке по PBIX-файлу будет запущен последний установленный экземпляр Power BI Desktop.
@@ -60,15 +59,15 @@ ms.locfileid: "66187447"
 
 Всегда можно открыть ту версию Power BI Desktop, которую нужно использовать первой, а затем открыть файл в приложении Power BI Desktop.
 
-Редактирование отчета Power BI на сервере отчетов Power BI или создании нового отчета Power BI на веб-портале всегда открывается правильную версию Power BI Desktop.
+При редактировании отчета Power BI на Сервере отчетов Power BI или при создании отчета Power BI на веб-портале всегда будет открываться правильная версия Power BI Desktop.
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
-Отчеты в сервере отчетов Power BI и в службе Power BI (http://app.powerbi.com)), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
+Отчеты в сервере отчетов Power BI и в службе Power BI (http://app.powerbi.com) ), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
 
 ### <a name="in-a-browser"></a>В браузере
 
-Отчеты Power BI Report Server поддерживают почти все визуализации, включая пользовательские визуальные элементы. Отчеты на сервере отчетов Power BI не поддерживают:
+Отчеты на сервере отчетов Power BI поддерживают почти все визуализации, в том числе пользовательские визуальные элементы. Отчеты на сервере отчетов Power BI не поддерживают:
 
 * визуальные элементы R;
 * карты ArcGIS;
@@ -89,13 +88,13 @@ ms.locfileid: "66187447"
 * карты ArcGIS;
 * Пользовательские визуальные элементы
 * строки навигации;
-* Географическая фильтрацию и штрихкоды.
+* географическую фильтрацию и штрихкоды.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop для более ранних версий Сервера отчетов Power BI
 
-Если вы используете более раннюю версию сервера отчетов, нужна подходящая версия Power BI Desktop. Здесь приведена ссылка для скачивания предыдущей версии.
+Если вы используете более раннюю версию сервера отчетов, нужна подходящая версия Power BI Desktop. Ниже приведена ссылка для скачивания предыдущей версии.
 
-- Microsoft Power BI Desktop ([оптимизировано для сервера отчетов Power BI — января 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([оптимизировано для Сервера отчетов Power BI, январь 2019 г.](https://go.microsoft.com/fwlink/?linkid=2055039))
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

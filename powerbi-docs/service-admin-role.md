@@ -1,6 +1,6 @@
 ---
 title: Основные сведения о роли администратора Power BI
-description: Сведения о настройке безопасности на уровне строк для импортированных наборов данных и DirectQuery в службе Power BI.
+description: В этой статье описывается роль администратора службы Power BI и ее использование в организации.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074516"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256420"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Основные сведения о роли администратора службы Power BI
 
 Узнайте, как использовать роль администратора службы Power BI организации. Пользователи с этой ролью могут полностью управлять клиентом Power BI и его административными функциями (кроме лицензирования).
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Роль администратора службы Power BI можно назначать пользователям, которым нужен доступ к порталу администрирования Power BI без полного административного доступа к службам Office 365.
 

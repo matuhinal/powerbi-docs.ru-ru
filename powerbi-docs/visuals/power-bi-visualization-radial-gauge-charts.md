@@ -11,23 +11,28 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8b0db9aebe72d54aa464ec012e614ae0ec5bc723
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390586"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194121"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Диаграммы "Радиальный датчик" в Power BI
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Радиальная индикаторная диаграмма имеет дугу и показывает одно значение, которое отражает ход достижения цели или значение ключевого показателя эффективности. Строка (или *линия*) представляет цель целевого значения. Заливка представляет прогресс в достижении цели. Значение внутри дуги представляет значение хода выполнения. Power BI равномерно распределяет все возможные значения по дуге, от минимального (крайнее левое значение) до максимального (крайнее правое значение).
 
-![Снимок экрана: радиальная шкала.](media/power-bi-visualization-radial-gauge-charts/gauge_m.png)
+![Снимок экрана: радиальная шкала.](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
 В этом примере вы являетесь продавцом автомобилей, отслеживающим среднемесячный объем продаж отдела продаж. Линия представляет достижение цели продаж, которая составляет 140 автомобилей. Минимальное значение среднемесячных продаж — 0, а максимальное — 200.  Область с синей заливкой показывает, что средний объем продаж отдела за этот месяц составляет примерно 120 единиц. К счастью, есть еще одна неделя, чтобы достичь цели.
 
 В следующем видео Уилл создает метрические визуализации: шкалы, карты и КПЭ.
-
+   > [!NOTE]
+   > В этом видео используется более старая версия Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-radial-gauge"></a>Когда следует использовать радиальный датчик
@@ -44,43 +49,39 @@ ms.locfileid: "67390586"
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-* Служба Power BI или Power BI Desktop
+Этот учебник использует файл Excel с примером [финансовых данных](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Книга Excel с финансовым примером: [скачать пример напрямую](http://go.microsoft.com/fwlink/?LinkID=521962).
+1. В верхнем левом разделе меню выберите **Получить данные** > **Excel**.
+   
+2. Найдите свою копию файла Excel с примером **финансовых данных**.
+
+1. Откройте **пример финансовых данных** в представлении отчета ![снимок экрана: значок представления отчета](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Выберите **Финансы** и **Лист1**.
+
+1. Щелкните **Загрузить**.
+
+1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
+
+
 
 ## <a name="create-a-basic-radial-gauge"></a>Создание базового радиального датчика
 
-В этих инструкциях используется служба Power BI. Чтобы их выполнить, войдите в Power BI и откройте файл Excel с примером финансовых данных.
+### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>Шаг 1. Создание датчика для отслеживания валовой выручки
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Шаг 1. Открытие файла Excel с примером финансовых данных
-
-1. Скачайте [файл Excel с примером финансовых данных](../sample-financial-download.md), если вы еще это не сделали. Запомните, куда вы его сохраняете.
-
-1. В службе Power BI выберите **Получение файлов данных** >  **** .
-
-1. Выберите **Локальный файл** и перейдите к расположению файла примера.
-
-1. Выберите команду **Импортировать**. Power BI добавляет финансовый пример на панель навигации по рабочей области в качестве набора данных.
-
-1. Из списка содержимого **Наборы данных**, выберите значок **Создать отчет** для **примера финансовых данных**.
-
-    ![Снимок экрана списка наборов данных со стрелкой, указывающей на значок "Создать отчет" для примера финансовых данных.](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
-
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Шаг 2. Создание датчика для отслеживания валовой выручки
-
-Если в последнем разделе вы выбрали значок **Создать отчет**, Power BI создал пустой отчет в режиме редактирования.
+1. Начните с пустой страницы отчета.
 
 1. Из области **Поля** выберите **Gross Sales**(Валовая выручка).
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. Измените метод агрегирования данных на **Среднее**.
 
-   ![Снимок экрана области полей с валовой выручкой и выделенным средним статистическим выражением.](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
+   ![Снимок экрана области полей с валовой выручкой и выделенным средним статистическим выражением.](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
-1. Выберите значок шкалы ![Снимок экрана: значок шкалы.](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) чтобы преобразовать гистограмму в индикаторною диаграмму.
+1. Выберите значок шкалы ![Снимок экрана: значок шкалы.](media/power-bi-visualization-radial-gauge-charts/gaugeicon-new.png) чтобы преобразовать гистограмму в индикаторною диаграмму.
 
-    ![Снимок экрана: индикаторная диаграмма.](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+    ![Снимок экрана: индикаторная диаграмма.](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
     В зависимости от того, когда выполняется загрузка файла **Пример финансовых данных**, вы можете увидеть числа, которые соответствуют этим числам.
 
@@ -95,7 +96,7 @@ ms.locfileid: "67390586"
 
    Power BI добавит линию для представления нашего целевого значения — **145,48 тыс. долларов США**.
 
-   ![Снимок экрана: индикаторная диаграмма с добавленным средним значением себестоимости реализованной продукции.](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![Снимок экрана: индикаторная диаграмма с добавленным средним значением себестоимости реализованной продукции.](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
     Обратите внимание, что мы превзошли нашу цель.
 
@@ -110,7 +111,7 @@ ms.locfileid: "67390586"
 
 1. Измените метод агрегирования данных на **Максимум**.
 
-   ![Снимок экрана области полей с валовой выручкой и выделенным максимальным статистическим выражением.](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
+   ![Снимок экрана области полей с валовой выручкой и выделенным максимальным статистическим выражением.](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
    Датчик будет перерисован с новым конечным значением валовой выручки, 1,21 миллиона долларов США.
 
@@ -119,8 +120,6 @@ ms.locfileid: "67390586"
 ### <a name="step-5-save-your-report"></a>Шаг 5. Сохранить отчет
 
 1. [Сохраните отчет](../service-report-save.md).
-
-1. [Добавьте диаграмму датчика как плитку на панель мониторинга](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>Используйте ручную настройку форматирования, чтобы задать минимальное, максимальное и целевое значения
 
@@ -136,7 +135,7 @@ ms.locfileid: "67390586"
 
 1. Удалите параметр **COGS (Себестоимость реализованной продукции)** в панели **Поля**, чтобы удалить целевое значение.
 
-    ![Снимок экрана: удаленный параметр COGS (Себестоимость реализованной продукции).](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
+    ![Снимок экрана: удаленный параметр COGS (Себестоимость реализованной продукции).](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
 1. Когда поле **целевого значения** появится под **осью датчика**, введите значение.
 
