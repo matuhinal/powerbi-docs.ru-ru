@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302639"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945198"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Источники данных, поддерживаемые DirectQuery в Power BI
 
@@ -45,7 +45,7 @@ ms.locfileid: "70302639"
 * Снежинка
 * Spark (версии 0.9 и более поздней)
 * SQL Server
-* База данных Teradata
+* Teradata
 * Vertica
 
 Источники данных, после имени которых указана **(бета-версия)** или **(предварительная версия)** , могут быть изменены и не поддерживаются для использования в рабочей среде. Они также могут не поддерживаться после публикации отчета в **службе Power BI**. Это означает, что открытие опубликованного отчета или просмотр набора данных может привести к ошибке.
@@ -82,7 +82,7 @@ ms.locfileid: "70302639"
 | Spark (бета-версия) версии 0.9 и более поздней |Да |
 | SQL Server |Да |
 | Sybase |Да |
-| База данных Teradata |Да |
+| Teradata |Да |
 | Vertica |Да |
 
 

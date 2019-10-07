@@ -3,7 +3,7 @@ title: Экспорт данных из визуальных элементов 
 description: Экспортируйте данные из визуального элемента отчета и панели мониторинга и просмотрите их в Excel.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 3ab3b7a96fb629b303263b1ccf5c2f31603300b4
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6aec9f569f657c58eb1dc0b807bbceefc62ab01a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073151"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943872"
 ---
 # <a name="export-data-from-a-visual"></a>Экспорт данных из визуального элемента
 Чтобы просмотреть данные, которые используются для создания визуального элемента, [откройте их в Power BI](end-user-show-data.md) или экспортируйте в Excel. Для экспорта данных требуется конкретный тип или лицензия и права на редактирование содержимого. Если не получается экспортировать, обратитесь за помощью к администратору Power BI. 

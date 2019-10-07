@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401821"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945832"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
@@ -60,7 +60,7 @@ ms.locfileid: "71401821"
 | OLE DB |Да |Да |Нет |
 | База данных Oracle |Да |Да |Да |
 | База данных PostgreSQL |Да |Да |Нет |
-| службе Power BI |Нет |Нет |Нет |
+| Служба Power BI |Нет |Нет |Нет |
 | Сценарий R |Да |Нет |Нет |
 | Объекты SalesForce |Да |Нет |Нет |
 | Отчеты Salesforce |Да |Нет |Нет |
@@ -82,7 +82,7 @@ ms.locfileid: "71401821"
 | Common Data Service (бета-версия) |Да |Нет |Нет |
 | comScore Digital Analytix (бета-версия) |Да |Нет |Нет |
 | Dynamics 365 для Customer Insights (бета-версия) |Да |Нет |Нет |
-| Dynamics 365 for Financials (бета-версия) |Да |Нет |Нет |
+| Dynamics 365 for Financials (бета-версия) |Да |Нет |Нет |
 | GitHub (бета-версия) |Да |Нет |Нет |
 | Google BigQuery (бета-версия) |Да |Нет |Нет |
 | База данных IBM Informix (бета-версия) |Да |Нет |Нет |
@@ -146,7 +146,7 @@ ms.locfileid: "71401821"
 | OLE DB |Да |Нет |Да |Да |
 | База данных Oracle |Нет |Нет |Да |Да |
 | База данных PostgreSQL |Нет |Нет |Да |Нет |
-| службе Power BI |Нет |Нет |Нет |Нет |
+| Служба Power BI |Нет |Нет |Нет |Нет |
 | Сценарий R |Нет |Нет |Нет |Нет |
 | Объекты SalesForce |Нет |Нет |Нет |Нет |
 | Отчеты Salesforce |Нет |Нет |Нет |Нет |
@@ -157,7 +157,7 @@ ms.locfileid: "71401821"
 | Список SharePoint Online |Нет |Нет |Нет |Нет |
 | Снежинка |Нет |Нет |Нет |Нет |
 | База данных Sybase |Нет |Нет |Да |Да |
-| База данных Teradata |Нет |Нет |Да |Да |
+| Teradata |Нет |Нет |Да |Да |
 | appFigures (бета-версия) |Нет |Нет |Нет |Нет |
 | База данных служб Analysis Services Azure (бета-версия) |Нет |Нет |Нет |Нет |
 | Azure Cosmos DB (бета-версия) |Нет |Нет |Нет |Нет |
@@ -165,7 +165,7 @@ ms.locfileid: "71401821"
 | Common Data Service (бета-версия) |Нет |Нет |Нет |Нет |
 | comScore Digital Analytix (бета-версия) |Нет |Нет |Нет |Нет |
 | Dynamics 365 для Customer Insights (бета-версия) |Нет |Нет |Нет |Нет |
-| Dynamics 365 for Financials (бета-версия) |Нет |Нет |Нет |Нет |
+| Dynamics 365 for Financials (бета-версия) |Нет |Нет |Нет |Нет |
 | GitHub (бета-версия) |Нет |Нет |Нет |Нет |
 | Google BigQuery (бета-версия) |Нет |Нет |Нет |Нет |
 | База данных IBM Informix (бета-версия) |Нет |Нет |Нет |Нет |
@@ -204,7 +204,7 @@ ms.locfileid: "71401821"
 | База данных Oracle |Нет |Нет |Да |Да |Да |
 | Сервер SAP Business Warehouse |Нет |Нет |Да |Нет |Нет |
 | База данных SAP HANA |Нет |Нет |Да |Да |Нет |
-| База данных Teradata |Нет |Нет |Да |Да |Да |
+| Teradata |Нет |Нет |Да |Да |Да |
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

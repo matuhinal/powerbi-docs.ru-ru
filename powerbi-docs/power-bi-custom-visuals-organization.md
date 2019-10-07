@@ -4,18 +4,18 @@ description: Применение и создание визуальных эл�
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9992d1449b814938a5d0ff7370c0cb59a75534b5
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b10a856a98c892b32e873bd01105c52777d2b413
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195431"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946165"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Визуальные элементы организации в Power BI
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70937064"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715300"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Добавление гиперссылок (URL-адресов) в таблицу
 Из этого раздела вы узнаете, как добавлять гиперссылки (URL-адреса) в таблицу. Power BI Desktop можно использовать для добавления гиперссылок (URL-адресов) в таблицу или матрицу. Затем вы можете с помощью Power BI Desktop или службы Power BI добавить созданные гиперссылки в таблицы отчета и матрицы. 
@@ -57,7 +57,7 @@ ms.locfileid: "70937064"
 
     ![Включение значка URL-адреса](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (Необязательно.) [Опубликуйте отчет из Power BI Desktop в службе Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) и откройте его в этой службе. Гиперссылки там также будут работать.
+1. (Необязательно.) [Опубликуйте отчет из Power BI Desktop в службе Power BI](/learn/modules/publish-share-power-bi/2-publish-reports) и откройте его в этой службе. Гиперссылки там также будут работать.
 
 ### <a name="for-data-connected-with-directquery"></a>Для данных, подключенных с помощью DirectQuery
 В режиме DirectQuery нельзя создать новый столбец.  Но если данные уже содержат URL-адреса, то их можно превратить в гиперссылки.
@@ -65,7 +65,7 @@ ms.locfileid: "70937064"
 1. В представлении отчета создайте таблицу с помощью поля, которое содержит URL-адреса.
 2. Выделите столбец, а затем на вкладке **Моделирование** выберите раскрывающийся список **Категория данных**.
 3. Выберите **URL-адрес веб-сайта**. Гиперссылки будут выделены синим цветом и подчеркиванием.
-4. (Необязательно.) [Опубликуйте отчет из Power BI Desktop в службе Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) и откройте его в этой службе. Гиперссылки там также будут работать.
+4. (Необязательно.) [Опубликуйте отчет из Power BI Desktop в службе Power BI](/learn/modules/publish-share-power-bi/2-publish-reports) и откройте его в этой службе. Гиперссылки там также будут работать.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Создание гиперссылки в таблице или матрице в Excel Power Pivot
 Другим способом добавления гиперссылок в таблицы и матрицы Power BI является создание гиперссылок в наборе данных перед подключением к набору данных и его импортом из Power BI. В этом примере используется книга Excel.

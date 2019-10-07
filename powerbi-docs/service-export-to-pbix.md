@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994824"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715185"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Скачивание отчета из службы Power BI в Power BI Desktop (предварительная версия)
 В Power BI Desktop можно опубликовать отчет (*PBIX*-файл) с локального компьютера в службе Power BI. Отчеты Power BI также могут передаваться и в другом направлении: Вы можете скачать отчет из службы Power BI в Power BI Desktop. В любом случае отчет Power BI имеет расширение PBIX.
@@ -26,7 +26,7 @@ ms.locfileid: "68994824"
 
 ## <a name="download-the-report-as-a-pbix-file"></a>Скачивание отчета в виде PBIX-файла
 
-Скачать можно только отчеты, [созданные в Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) после 23 ноября 2016 г. и обновленные позже этого дня. В противном случае команда **Скачать отчет** в меню службы Power BI будет неактивна.
+Скачать можно только отчеты, [созданные в Power BI Desktop](/learn/modules/publish-share-power-bi/2-publish-reports) после 23 ноября 2016 г. и обновленные позже этого дня. В противном случае команда **Скачать отчет** в меню службы Power BI будет неактивна.
 
 Чтобы скачать PBIX-файл, сделайте следующее:
 

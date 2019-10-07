@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840607"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715518"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Общие сведения о схеме типа "звезда" и ее значении в Power BI
 
@@ -205,6 +205,6 @@ ms.locfileid: "70840607"
 Дополнительные сведения о проектировании схемы типа "звезда" и проектировании моделей Power BI см. в следующих статьях:
 
 - [Статья Википедии, посвященная многомерному моделированию](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Создание связей и управление ими в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Связи с кратностью "многие ко многим" в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [Пошаговое обучение моделированию](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [Создание связей и управление ими в Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Связи с кратностью "многие ко многим" в Power BI Desktop](../desktop-many-to-many-relationships.md)
+- [Пошаговое обучение моделированию](/learn/modules/model-data-power-bi/)
