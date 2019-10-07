@@ -1,0 +1,93 @@
+### YamlMime:Landing
+title: Документация по Power BI для разработчиков
+summary: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Power BI для разработчиков
+  description: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/02/2019
+  ms.openlocfilehash: 11e9bc6d2e848fcc1b827f52985c573cba382415
+  ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "71951032"
+landingContent:
+- title: О Power BI для разработчиков
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Какие возможности Power BI предоставляет разработчикам
+      url: what-can-you-do.md
+    - text: Визуальные элементы в Power BI
+      url: ../power-bi-custom-visuals.md
+    - text: Что такое внедрение с Power BI
+      url: embedding.md
+    - text: Что такое API Power BI?
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: reference
+    links:
+    - text: Центр по разработке для Power BI
+      url: https://powerbi.microsoft.com/developers/
+    - text: Примеры для разработчиков Power BI
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+    - text: Вики-сайт по JavaScript для Power BI
+      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - text: REST API в Power BI
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: REST API Azure Resource Manager
+      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+- title: Визуальные элементы Power BI
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Разработка визуального элемента Power BI
+      url: custom-visual-develop-tutorial.md
+  - linkListType: concept
+    links:
+    - text: 'Визуальные элементы Power BI: вопросы и ответы'
+      url: ../power-bi-custom-visuals-faq.md
+    - text: Рекомендации по визуальным элементам Power BI
+      url: guidelines-powerbi-visuals.md
+    - text: Режим расширенного редактирования для визуальных элементов
+      url: /advanced-edit-mode.md
+  - linkListType: how-to-guide
+    links:
+    - text: Сертификация визуального элемента
+      url: ../power-bi-custom-visuals-certified.md
+    - text: Публикация настраиваемых визуальных элементов в AppSource
+      url: office-store.md
+- title: Встроенная аналитика
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Встроенное содержимое для клиентов
+      url: embed-sample-for-customers.md
+    - text: Внедренное содержимое для организации
+      url: embed-sample-for-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Защита на уровне строк
+      url: embedded-row-level-security.md
+    - text: Управление несколькими клиентами
+      url: embed-multi-tenancy.md
+    - text: 'Power BI Embedded: вопросы и ответы'
+      url: embedded-faq.md
+    - text: Разрешения Power BI
+      url: power-bi-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: Внедрение из приложений
+      url: embed-from-apps.md
+    - text: Создание клиента Azure Active Directory
+      url: create-an-azure-active-directory-tenant.md
+    - text: Получение токена доступа Azure AD
+      url: get-azuread-access-token.md
+    - text: Вопросы и ответы в Power BI Embedded
+      url: qanda.md
