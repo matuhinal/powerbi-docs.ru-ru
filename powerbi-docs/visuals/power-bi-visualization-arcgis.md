@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e001d35761eb7918aab2c427c3400df526e4dbc0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 87a8333c89f2682640649e757984c6b02e10c3a8
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192400"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691268"
 ---
 # <a name="arcgis-maps-in-power-bi-desktop-by-esri"></a>Карты ArcGIS от Esri в Power BI Desktop
 
@@ -333,6 +333,8 @@ Power BI Desktop поддерживает использование **гру�
 
 Технические вопросы о работе ArcGIS Maps for Power BI компании Esri можно задать на сайте технической поддержки Esri.
 
+**Какие данные передаются компании Esri?**
+Информация о данных, передаваемых компании Esri, приводится в соответствующей [документации](https://doc.arcgis.com/en/maps-for-powerbi/get-started/data-transfer.htm).
 
 **Требуется ли платить за использование карт ArcGIS для Power BI?**
 

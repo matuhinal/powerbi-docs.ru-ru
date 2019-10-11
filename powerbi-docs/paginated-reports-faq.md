@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 09/04/2019
-ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.date: 10/04/2019
+ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751512"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968496"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: ВОПРОСЫ И ОТВЕТЫ 
 
@@ -117,12 +117,13 @@ ms.locfileid: "70751512"
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Какие источники данных поддерживаются сейчас для отчетов с разбивкой на страницы?
 
-Поддерживаются следующие источники данных — 
+Поддерживаются следующие источники данных. 
 
 - Наборы данных Power BI (через единый вход)
 - Azure Analysis Services (с помощью единой регистрации (SSO) и oAuth)
 - Хранилище данных SQL Azure
 - База данных SQL Azure (имя пользователя/пароль, единый вход и OAuth)
+- Управляемый экземпляр базы данных SQL Azure через общедоступную конечную точку (имя пользователя и пароль)
 - SQL Server*
 - Табличные (DAX) и многомерные (MDX) модели служб SQL Server Analysis Services (SSAS)* 
 - Oracle* 

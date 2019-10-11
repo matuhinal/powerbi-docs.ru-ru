@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342159"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968749"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Фильтры и выделение в отчетах Power BI
  Эта статья описывает фильтрацию и выделение данных в службе Power BI. В Power BI Desktop применяется практически такая же процедура. *Фильтры* удаляют все данные, кроме необходимых. *Выделение* отличается от фильтрации. Данные не удаляются — вместо этого выделяется подмножество видимых данных. При этом невыделенные данные остаются видимыми, но затемненными.
@@ -28,7 +28,7 @@ ms.locfileid: "68342159"
 * Подробный обзор [элементов управления фильтрации и выделения, доступных в режиме правки ](power-bi-report-add-filter.md) в Power BI Desktop и службе Power BI. Эта статья подробно рассматривает типы фильтров, например основанные на дате и времени, числовых значениях и тексте. Она также описывает различия между основными и дополнительными параметрами.
 * После изучения возможностей фильтрации и выделения, доступных по умолчанию, ознакомьтесь со сведениями о том, как [изменить способ взаимной фильтрации и выделения для визуализаций](service-reports-visual-interactions.md).
 
-**Знаете ли вы?** В Power BI доступны новые функции фильтров, предоставляемые в предварительной версии. См. дополнительные сведения о [новых функциях фильтров в отчетах Power BI](power-bi-report-filter.md).
+**Знаете ли вы?** В Power BI доступны новые функции фильтров. См. дополнительные сведения о [новых функциях фильтров в отчетах Power BI](power-bi-report-filter.md).
 
 ![Новые функции фильтров](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

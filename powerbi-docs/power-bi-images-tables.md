@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ebbc277f2a269ebaf2d1bdb99f1aa800576b466
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70936500"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715556"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Отображение изображений в таблице, матрице или срезе в отчете
 
@@ -44,7 +44,7 @@ ms.locfileid: "70936500"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Добавление в отчет статических фигур, текстовых полей и изображений](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=11)
+[Форматирование и макет страницы](/learn/modules/visuals-in-power-bi/12-formatting)
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 

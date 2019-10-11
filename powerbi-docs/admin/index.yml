@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: Power BI для администраторов
+summary: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Power BI для администраторов
+  description: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245657"
+landingContent:
+- title: Сведения о Power BI для администраторов
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое администрирование Power BI?
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Роль администрирования в Office 365
+      url: ../service-admin-role.md
+- title: Начало работы
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Лицензирование для вашей организации
+      url: ../service-admin-licensing-organization.md
+    - text: Использование портала администрирования
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: Купить Power BI Pro
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: Регистрация для получения пробной версии Office 365
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: Добавление Power BI с партнером по Office 365
+      url: ../service-admin-syndication-partner.md
+- title: Клиенты
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Где располагается мой клиент?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Поиск пользователей, выполнивших вход
+      url: ../service-admin-access-usage.md
+    - text: Аудит Power BI
+      url: ../service-admin-auditing.md
+    - text: Отслеживание состояния службы
+      url: ../service-admin-health.md
+    - text: Закрытие учетной записи Power BI
+      url: ../service-admin-closing-your-account.md

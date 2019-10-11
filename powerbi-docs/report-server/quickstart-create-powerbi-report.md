@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: f3a52e14271827a043f05d6b170e79718306aa99
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325668"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715254"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -97,7 +97,7 @@ ms.locfileid: "71325668"
 Существует много отличных ресурсов для создания отчетов в Power BI Desktop. Советуем начать с этих материалов:
 
 * [Начало работы с Power BI Desktop](../desktop-getting-started.md)
-* Интерактивное обучение [Начало работы с Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+* Интерактивное обучение [Изучение Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Сервер отчетов Power BI
 * [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  

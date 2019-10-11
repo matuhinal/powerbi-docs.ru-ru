@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462314"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968652"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -27,10 +27,11 @@ ms.locfileid: "68462314"
 | Источник данных | Authentication | Примечания |
 | --- | --- | --- |
 | База данных SQL Azure <br>Хранилище данных SQL Azure | Базовый, единый вход, OAuth2 |   |
+| Управляемый экземпляр базы данных SQL Azure | Базовый | через общедоступную конечную точку с использованием расширения базы данных SQL Azure  |
 | Azure Analysis Services | SSO, OAuth2 |   |
 | Набор данных Power BI | Единый вход | Наборы данных Premium Power BI и отличные от них |
 | Набор данных Premium Power BI (XMLA) | Единый вход |   |
-| Ввод данных | Н/Д | Данные внедряются в отчет. |
+| Введите данные | Н/Д | Данные внедряются в отчет. |
 
 Все источники данных, кроме базы данных SQL Azure, готовы к использованию после отправки отчета в службу Power BI. Источники данных по умолчанию используют единый вход (SSO), где это применимо. Для Azure Analysis Services можно изменить тип проверки подлинности на OAuth2.
 

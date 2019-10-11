@@ -1,22 +1,21 @@
 ---
-title: Power BI для потребителей отчетов
-description: Приступаете к работе в Power BI? Узнайте о функциях и возможностях Power BI и о том, как пользователи Power BI или отчетов Power BI могут их использовать.
+title: Power BI для потребителей
+description: Приступаете к работе в Power BI? Узнайте о функциях и возможностях службы Power BI и о том, как пользователи Power BI или отчетов Power BI могут их использовать.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 09/11/2019
+ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
-ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073376"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829614"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -105,7 +104,8 @@ ms.locfileid: "71073376"
                                                 <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">Навигация: быстрый поиск нужно содержимого</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">Использование естественного языка в вопросах и ответах</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">Взаимодействие с фильтрами и срезами</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Типы визуальных элементов в Power BI</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Сведения о типах визуальных элементов</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-marketing" data-linktype="absolute-path">Скачайте образец приложения</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,10 +152,10 @@ ms.locfileid: "71073376"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark">Основные понятия и терминология</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark"> Основные понятия и терминология</a>
                 <ul id="concepts-terminology">
                     <li>
-                        <a href="#conceptsterminology" data-linktype="self-bookmark">Основные понятия и терминология</a>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark"> Основные понятия и терминология</a>
                         <ul id="conceptsterminology" class="cardsC">
                             <br>
                             <li>
