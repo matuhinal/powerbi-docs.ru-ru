@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715227"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239927"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>Визуальные элементы ключевого показателя эффективности (КПЭ)
 
@@ -50,12 +50,12 @@ ms.locfileid: "71715227"
 В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. В верхнем левом разделе меню выберите **Файл** > **Открыть**.
-   
-2. Найдите свою копию PBIX-файла с примером **Анализ розничной торговли**.
 
-1. Откройте PBIX-файл с примером **Анализ розничной торговли** в представлении отчета ![Снимок экрана: значок представления отчета](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Найдите свою копию PBIX-файла с примером **Анализ розничной торговли**.
 
-1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
+1. Откройте **PBIX-файл с примером "Анализ розничной торговли"** в представлении отчета. ![Снимок экрана: значок представления отчета.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Выберите **+** , чтобы добавить новую страницу. ![Снимок экрана: желтая вкладка.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>Как создать КПЭ
 
