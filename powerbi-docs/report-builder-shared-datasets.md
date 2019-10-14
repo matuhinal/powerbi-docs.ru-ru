@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471590"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021023"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Использование общих наборов данных в построителе отчетов Power BI
 
@@ -20,14 +20,14 @@ ms.locfileid: "68471590"
 
 ![Перенос данных из Power BI Desktop в отчет с разбивкой на страницы в построителе отчетов](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-Набор данных необязательно должен находиться в рабочей области в емкости Premium и быть членом этой рабочей области. Вам нужно просто [разрешение на сборку](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) для набора данных. Для публикации отчета с разбивкой на страницы требуется лицензия Power BI Pro. Кроме того, для рабочей области в емкости Premium требуется по меньшей мере роль участника.
+Набор данных необязательно должен находиться в рабочей области в емкости Premium и быть членом этой рабочей области. Вам нужно просто [разрешение на сборку](service-datasets-build-permissions.md) для набора данных. Для публикации отчета с разбивкой на страницы требуется лицензия Power BI Pro. Кроме того, для рабочей области в емкости Premium требуется по меньшей мере роль участника.
 
 ## <a name="what-you-need"></a>Что нужно
 
 Ниже приведен список нужных и ненужных компонентов для использования общего набора данных в построителе отчетов Power BI.
 
 - Построитель отчетов Power BI. [Скачайте и установите построитель отчетов Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Чтобы обратиться к набору данных, вам требуется разрешение на сборку для него. См. описание [разрешения на сборку](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Чтобы обратиться к набору данных, вам требуется разрешение на сборку для него. См. описание [разрешения на сборку](service-datasets-build-permissions.md).
 - Для создания отчета с разбивкой на страницы в построитель отчетов лицензия Power BI Pro не требуется. 
 - А для публикации отчета с разбивкой на страницы лицензия Power BI Pro нужна. Кроме того, для рабочей области в емкости Premium требуется по меньшей мере роль участника. 
 - Необязательно: если вы хотите следовать процедуре, описанной в этой статье, скачайте файл [Retail Analysis sample.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) для Power BI Desktop, откройте его в Power BI Desktop и добавьте таблицу со множеством столбцов. В области **Формат** отключите параметр **Итоги**. Затем опубликуйте его в рабочей области в службе Power BI.
