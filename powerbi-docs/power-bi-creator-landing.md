@@ -1,25 +1,25 @@
 ---
 title: Power BI для разработчиков отчетов
-description: Вы подключаетесь к данным, создаете запросы, отчеты и панели мониторинга в Power BI? Являетесь ли вы разработчиком, создающим собственные приложения, или администратором Power BI?
+description: Вы подключаетесь к данным, создаете запросы, отчеты и панели мониторинга в Power BI? Являетесь ли вы администратором Power BI?
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
-ms.date: 03/20/2019
+ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 2ec8f0813807e2b92983398a74a02d46e6d4f280
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271793"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239894"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI для разработчиков отчетов
 
-Вы подключаетесь к данным, создаете запросы, отчеты и панели мониторинга в Power BI? Являетесь ли вы разработчиком, создающим собственные приложения? Администрируете ли вы Power BI? Эти ресурсы помогут вам быстрее начать работу. Добро пожаловать!
+Вы подключаетесь к данным, создаете запросы, отчеты и панели мониторинга в Power BI? Администрируете ли вы Power BI? Эти ресурсы помогут вам быстрее начать работу. Добро пожаловать!
 
 Являетесь ли вы скорее потребителем Power BI? Приветствуем и вас. Предлагаем начать с раздела [Power BI для потребителей](consumer/power-bi-consumer-landing.md).
 
@@ -157,46 +157,6 @@ ms.locfileid: "68271793"
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Как совместно работать и предоставлять общий доступ</a><br/>
                                                 <a href="service-create-workspaces.md">Рабочие области приложения в службе Power BI</a> 
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Develop for Power BI" src="media/power-bi-creator-landing/power-bi-designer-develop-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Разработка для Power BI</h3> 
-                                          <p></p>
-                                                <a href="developer/embedding.md">Внедрение в Power BI</a><br/> 
-                                                <a href="developer/custom-visual-develop-tutorial.md">Разработка настраиваемых визуальных элементов</a><br/> 
-                                                <a href="https://docs.microsoft.com/rest/api/power-bi">Сведения о REST API в Power BI</a>
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Administer Power BI" src="media/power-bi-creator-landing/power-bi-designer-administer-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Администрирование Power BI</h3> 
-                                          <p></p>
-                                                <a href="service-admin-administering-power-bi-in-your-organization.md">Что такое администрирование Power BI?</a><br/> 
-                                                <a href="service-admin-purchasing-power-bi-pro.md">Приобретение лицензий Power BI Pro</a><br/>
-                                                <a href="service-admin-reference.md">Командлеты PowerShell, REST API и пакет SDK для .NET</a>
                                     </div> 
                               </div> 
                         </div> 
