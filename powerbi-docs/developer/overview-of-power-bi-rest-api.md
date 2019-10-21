@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269456"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307619"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
@@ -57,7 +57,7 @@ ms.locfileid: "61269456"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)
-* [Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md)
+* [Разработка пользовательского визуального элемента Power BI](visuals/custom-visual-develop-tutorial.md)
 * [Справочник по REST API Power BI](rest-api-reference.md)
 * [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 

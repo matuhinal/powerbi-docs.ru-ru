@@ -8,17 +8,20 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 08/26/2019
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 16639f6e9bf005d04c64fc3ae6a331338efdd5d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 713f177bf81b587cc6b50a7a1d05a6b0668daa74
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70064488"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589476"
 ---
 # <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Руководство. Настройка оповещений на панелях мониторинга Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Вы можете настроить оповещения, уведомляющие вас о том, что данные на панелях мониторинга выходят за пределы заданного порога. Поддерживаются оповещения для датчиков, ключевых показателей эффективности и карточек. Эта функция продолжает развиваться, поэтому ознакомьтесь с [разделом "Советы и устранение неполадок" ниже](#tips-and-troubleshooting).
 
 ![Плитка, карточка, ключевой показатель эффективности](media/end-user-alerts/card-gauge-kpi.png)
