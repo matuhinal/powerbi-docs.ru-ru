@@ -165,6 +165,8 @@
               href: desktop-connect-to-web.md
             - name: Подключение к хранилищу данных Snowflake Computing из Power BI Desktop
               href: desktop-connect-snowflake.md
+            - name: "Подключение к данным Управления затратами\_Azure"
+              href: desktop-connect-azure-cost-management.md
             - name: Подключение к данным Azure Consumption Insights
               href: desktop-connect-azure-consumption-insights.md
             - name: Использование SAP HANA в Power BI Desktop
@@ -175,9 +177,11 @@
               href: desktop-analysis-services-tabular-data.md
             - name: Использование DirectQuery в Power BI Desktop
               href: desktop-use-directquery.md
+
             - name: DirectQuery для Oracle и Teradata
               href: desktop-directquery-for-oracle-teradata.md
             - name: DirectQuery и SAP Business Warehouse (BW)
+
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery и SAP HANA
               href: desktop-directquery-sap-hana.md
@@ -217,7 +221,9 @@
               href: desktop-import-and-display-kpis.md
         - name: Создание отчетов
           items:
+
             - name: Использование анализатора производительности в Power BI Desktop
+
               href: desktop-performance-analyzer.md
             - name: Визуальные элементы для отчетов
               href: desktop-visual-elements-for-reports.md
@@ -961,7 +967,7 @@
           href: report-builder-url-pass-parameters.md
         - name: Публикация отчета с разбивкой на страницы
           href: paginated-reports-save-to-power-bi-service.md
-- name: Сервер отчетов Power BI
+- name: "Cервере отчетов Power\_BI"
   items:
     - name: Обзор
       items:

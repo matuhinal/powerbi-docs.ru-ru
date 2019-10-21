@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946204"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307489"
 ---
 # <a name="visuals-in-power-bi"></a>Визуальные элементы в Power BI
 
@@ -57,7 +57,7 @@ ms.locfileid: "71946204"
 Сертифицированные визуальные элементы Power BI — это визуальные элементы из Marketplace, которые прошли дополнительную тщательную проверку качества. Все они поддерживаются в дополнительных сценариях, таких как [подписка по электронной почте](service-report-subscribe.md) и [экспорт в PowerPoint](service-publish-to-powerpoint.md).
 Просмотреть список сертифицированных визуальных элементов Power BI или отправить свои визуальные элементы можно [здесь](power-bi-custom-visuals-certified.md).
 
-Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в AppSource? См. статьи [Разработка визуального элемента Power BI](developer/custom-visual-develop-tutorial.md) и [Публикация визуальных элементов Power BI в AppSource](developer/office-store.md).
+Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в AppSource? См. статью [Разработка пользовательского визуального элемента Power BI](developer/visuals/custom-visual-develop-tutorial.md) и узнайте, как [публиковать пользовательские визуальные элементы в AppSource](developer/office-store.md).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Импорт настраиваемого визуального элемента из файла
 

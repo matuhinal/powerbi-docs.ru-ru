@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226328"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020590"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Управление пакетами содержимого организации, их обновление и удаление
 > [!NOTE]
-> Нельзя создавать пакеты содержимого организации или устанавливать их в предварительной версии нового интерфейса рабочей области. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. Узнайте [больше о новом интерфейсе рабочей области](service-create-the-new-workspaces.md).
+> Нельзя создавать пакеты содержимого организации или устанавливать их в новом интерфейсе рабочей области. Сейчас самое время обновить пакеты содержимого для приложений, если вы еще этого не сделали. Узнайте [больше о новом интерфейсе рабочей области](service-create-the-new-workspaces.md).
 > 
 
 Вы можете упаковать панели мониторинга, отчеты, книги Excel и наборы данных и поделиться ими со своими коллегами как [пакетами содержимого организации](service-organizational-content-pack-introduction.md). Ваши коллеги могут использовать их как есть или создать собственные копии.

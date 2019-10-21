@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946212"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307826"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "71946212"
 
 **Несертифицированные визуальные элементы Power BI** необязательно являются небезопасными. Некоторые визуальные элементы не проходят сертификацию, так как не соответствуют одному или нескольким [требованиям сертификации](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Например, визуальный элемент может подключаться к внешней службе, такой как визуальные элементы карты, или использовать коммерческие библиотеки.
 
-Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Чтобы узнать, как это сделать, см. раздел  **[Разработка пользовательского визуального элемента Power BI](developer/custom-visual-develop-tutorial.md)** .
+Вы являетесь веб-разработчиком и заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Чтобы узнать, как это сделать, см. раздел  **[Разработка пользовательского визуального элемента Power BI](developer/visuals/custom-visual-develop-tutorial.md)** .
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Удаление сертифицированных визуальных элементов Power BI
 
@@ -196,7 +196,7 @@ ms.locfileid: "71946212"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Разработка пользовательского визуального элемента Power BI](developer/custom-visual-develop-tutorial.md)
+* [Разработка пользовательского визуального элемента Power BI](developer/visuals/custom-visual-develop-tutorial.md)
 * [Список видео Майкрософт, посвященных пользовательским визуальным элементам, на сайте YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Визуализации в Power BI](visuals/power-bi-report-visualizations.md)  
 * [Пользовательские визуализации в Power BI](power-bi-custom-visuals.md)  

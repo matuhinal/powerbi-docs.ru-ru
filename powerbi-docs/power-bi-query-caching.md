@@ -2,20 +2,20 @@
 title: Кэширование запросов в Power BI Premium
 description: Кэширование запросов в Power BI Premium
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076175"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020508"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Кэширование запросов в Power BI Premium или Power BI Embedded
 
@@ -26,13 +26,13 @@ ms.locfileid: "71076175"
 
 Кэшируемые результаты запросов зависят от конкретного контекста пользователей и наборов данных и всегда соответствуют правилам безопасности. Сейчас служба кэширует запросы только для начальной страницы, которую открывает пользователь. Другими словами, запросы не кэшируются при взаимодействии с отчетом. Кэш запросов учитывает [персональные закладки](consumer/end-user-bookmarks.md#personal-bookmarks) и [постоянные фильтры](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/), поэтому запросы, создаваемые персонализированным отчетом, будут кэшироваться. Кэширование запросов также улучшает работу [плиток панели мониторинга](service-dashboard-tiles.md), использующих эти запросы. Особенно эффективная работа обеспечивается при частом доступе к набору данных, не требующему частого обновления. Кэширование запросов также позволяет уменьшить нагрузку на емкость Premium или Embedded за счет сокращения общего количества запросов.
 
-Управление режимом кэширования запросов осуществляется на странице **Параметры** для набора данных в службе Power BI. Доступны два параметра:
+Управление режимом кэширования запросов осуществляется на странице **Параметры** для набора данных в службе Power BI. Доступны три параметра:
 
+- **По умолчанию для емкости**: кэширование запросов отключено
 - **Выкл**. Не использовать кэширование запросов для этого набора данных.
-
 - **Вкл**. Использовать кэширование запросов для этого набора данных.
 
-![Диалоговое окно кэширования запросов](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![Диалоговое окно кэширования запросов](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 

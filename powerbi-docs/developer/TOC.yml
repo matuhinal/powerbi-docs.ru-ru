@@ -15,9 +15,9 @@
         - name: Учебники
           items:
             - name: "Разработка визуального элемента Power\_BI"
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: Добавление параметров форматирования
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: Добавление модульных тестов для проекта визуальных элементов
               href: visuals/unit-tests-introduction.md
         - name: Основные понятия

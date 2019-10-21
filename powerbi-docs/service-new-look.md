@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654955"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239960"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>"Новый внешний вид" службы Power BI
 
-Служба Power BI (app.powerbi.com) имеет новый вид, который упрощает просмотр отчетов и взаимодействие с ними. Новый внешний вид — это современный интерфейс, который стал проще и базируется на вашем знакомстве с другими продуктами Майкрософт. В рамках всей службы Power BI мы поместили содержимое отчета в центр внимания, переключившись на более светлую тему и обновив значки. Ниже приведен обзор изменений в новом внешнем виде. Дополнительные сведения см. в нумерованных разделах:
+Служба Power BI (app.powerbi.com) имеет новый вид, который упрощает просмотр отчетов и взаимодействие с ними. Новый внешний вид стал проще и базируется на вашем знакомстве с другими продуктами Майкрософт. В рамках всей службы Power BI мы поместили содержимое отчета в центр внимания, переключившись на более светлую тему и обновив значки. Ниже приведен обзор изменений в новом внешнем виде. Дополнительные сведения см. в нумерованных разделах:
 
 ![Обзор изменений в новом внешнем виде](media/service-new-look/power-bi-new-look-changes.png)
+
+Ищете определенное действие? См. статью [Новый вид: куда переместились действия?](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>Краткий обзор изменений
 
