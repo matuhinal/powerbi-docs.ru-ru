@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944824"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307671"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Публикация визуальных элементов Power BI в AppSource
 
 Узнайте, как опубликовать настраиваемые визуальные элементы в AppSource, чтобы они стали доступными для других пользователей.
 
-Создав настраиваемый визуальный элемент, опубликуйте его в AppSource, чтобы он стал доступным для других пользователей. Перед публикацией необходимо выполнить некоторые подготовительные действия. Дополнительные сведения о создании собственных визуальных элементов: [Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md).
+Создав настраиваемый визуальный элемент, опубликуйте его в AppSource, чтобы он стал доступным для других пользователей. Перед публикацией необходимо выполнить некоторые подготовительные действия. Дополнительные сведения о создании собственных визуальных элементов: [Разработка пользовательского визуального элемента Power BI](visuals/custom-visual-develop-tutorial.md).
 
    ![Магазин Office](media/office-store/appsource-01.png)
 
@@ -30,7 +30,7 @@ ms.locfileid: "71944824"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Подготовка к отправке пользовательской визуализации
 
-После ознакомления с [рекомендациями по использованию визуальных элементов Power BI](guidelines-powerbi-visuals.md), написания кода, [тестирования ](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) и упаковки настраиваемого визуального элемента в PBIVIZ-файл вам необходимо подготовить к отправке следующие элементы.
+После ознакомления с [рекомендациями по использованию визуальных элементов Power BI](guidelines-powerbi-visuals.md), написания кода, [тестирования](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) и упаковки пользовательского визуального элемента в PBIVIZ-файл вам необходимо подготовить к отправке следующие элементы.
 
 | Элемент | Требуется | Описание |
 | --- | --- | --- |
@@ -147,7 +147,7 @@ ms.locfileid: "71944824"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Разработка пользовательского визуального элемента Power BI](custom-visual-develop-tutorial.md)  
+[Разработка пользовательского визуального элемента Power BI](visuals/custom-visual-develop-tutorial.md)  
 [Визуализации в Power BI](../visuals/power-bi-report-visualizations.md)  
 [Пользовательские визуализации в Power BI](../power-bi-custom-visuals.md)  
 [Получение *сертификации* для пользовательского визуального элемента](../power-bi-custom-visuals-certified.md)

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020345"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543265"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Создание панели мониторинга Power BI из отчета
 Вы прочитали раздел [Общие сведения о панелях мониторинга в Power BI](service-dashboards.md) и хотите попробовать свои силы в их создании. Существует много различных способов создания информационной панели. Например, вы можете создавать панели мониторинга на основе отчета, с нуля, из набора данных, с помощью дублирования существующей панели мониторинга и другими способами.  
@@ -68,9 +68,9 @@ ms.locfileid: "72020345"
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Открытие отчета и закрепление плиток на панели мониторинга
 1. В той же рабочей области перейдите на вкладку **Отчеты** и выберите **образец "Анализ закупок"** , чтобы открыть отчет.
 
-    ![Вкладка "Отчеты"](media/service-dashboard-create/power-bi-reports.png) Отчет открывается в режиме чтения. В нижней части отчета расположены две вкладки: **Discount Analysis** (Анализ скидок) и **Spend Overview** (Обзор затрат). Каждая вкладка представляет страницу отчета.
+    ![Вкладка "Отчеты"](media/service-dashboard-create/power-bi-reports.png) Отчет открывается в режиме чтения. Слева в отчете расположены две вкладки: **Discount Analysis** (Анализ скидок) и **Spend Overview** (Обзор затрат). Каждая вкладка представляет страницу отчета.
 
-2. Выберите пункт **Изменить отчет**, чтобы открыть отчет в режиме правки.
+2. Выберите **Дополнительные параметры (...)**  > **Изменить отчет**, чтобы открыть свой отчет в режиме редактирования.
 
     ![Отчет в режиме чтения](media/service-dashboard-create/power-bi-reading-view.png)
 3. Наведите указатель мыши на визуализацию, чтобы отобразить доступные параметры. Чтобы добавить визуализацию на панель мониторинга, щелкните значок булавки. ![Значок закрепления](media/service-dashboard-create/power-bi-pin-icon.png).

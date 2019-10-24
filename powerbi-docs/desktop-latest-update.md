@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 646372dbba995a359b732e46a8689cb295565c1f
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0ccd89bfa868569f6547c67d3673d0afd664d6a7
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903558"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307717"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop 
 
 
-## <a name="september-2019-update-2735586561"></a>Обновление за сентябрь 2019 г. (2.73.5586.561)
+## <a name="october-2019-update-2745619621"></a>Обновление за октябрь 2019 года (2.74.5619.621)
 
-Наши сентябрьские обновления — это как долгожданный поход в школу после летних каникул: новые предметы, старые товарищи и радужные перспективы. 
+Наши обновления за октябрь так же интересны, как и увлекательная игра, и более захватывающие, чем полуночная прогулка по особняку с привидениями. 
 
 Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop), которая теперь предоставляется в виде отдельного EXE-файла, содержащего все поддерживаемые языки. Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
@@ -42,46 +42,57 @@ ms.locfileid: "70903558"
 Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Классы цветов и текста в темах [[видео]](https://youtu.be/neq0THnRJzo?t=11) [[статья]](desktop-report-themes.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
-* Новые темы по умолчанию [[видео]](https://youtu.be/neq0THnRJzo?t=334) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
-* Улучшения персонализированной области визуализации (предварительная версия) [[видео]](https://youtu.be/neq0THnRJzo?t=601) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+* Автоматическое обновление страницы для DirectQuery: [[видео]](https://youtu.be/A8A9baUQsXQ?t=12), [[статья]](desktop-automatic-page-refresh.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh). 
+
 
 
 ### <a name="analytics"></a>Аналитика
-* Пользовательские строки форматирования [[видео]](https://youtu.be/neq0THnRJzo?t=731) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
-* Условное форматирования для расширения возможностей визуального форматирования [[видео]](https://youtu.be/neq0THnRJzo?t=813) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
-* Улучшение детализированного обнаружения [[видео]](https://youtu.be/neq0THnRJzo?t=959) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
-* Новые выражения DAX: REMOVEFILTERS и CONVERT [[видео]](https://youtu.be/neq0THnRJzo?t=1048) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+* Новый визуальный элемент вопросов и ответов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=144), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual). 
+* Улучшенный пользовательский интерфейс для вопросов и ответов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=144), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience). 
+    * Улучшенный элемент управления "Раскрывающийся список".
+    * Красные и синие подчеркивания.
+    * Улучшенные визуальные результаты.
+* Улучшения естественного языка для вопросов и ответов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=322), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements). 
+    * Интеграция с тезаурусом Office или Bing.
+    * Поддержка таблиц мер и улучшенная обработка имен таблиц и неоднозначности.
+* Инструменты для вопросов и ответов (предварительная версия): [[видео]](https://youtu.be/A8A9baUQsXQ?t=376), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling). 
+    * Проверка вопросов.
+    * Обучение модуля "Вопросы и ответы".
+    * Проверка всех внесенных изменений.
+* Поддержка SSAS и Azure AS, включая RLS: [[видео]](https://youtu.be/A8A9baUQsXQ?t=480), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS). 
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Визуальные элементы PowerApps теперь в общедоступной версии [[видео]](https://youtu.be/neq0THnRJzo?t=1063) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
-
+* Визуальный элемент PowerApps теперь включен по умолчанию: [[видео]](https://youtu.be/A8A9baUQsXQ?t=505), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps). 
+* Новые визуальные элементы xViz: [[видео]](https://youtu.be/A8A9baUQsXQ?t=538), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz). 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Усовершенствования соединителя PostgreSQL [[видео]](https://youtu.be/neq0THnRJzo?t=1112) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+* Общедоступная версия соединителя Sagra Emigo: [[видео]](https://youtu.be/A8A9baUQsXQ?t=778), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo). 
+* Обновленный соединитель службы "Управление затратами Azure": [[видео]](https://youtu.be/A8A9baUQsXQ?t=805), [[статья]](desktop-connect-azure-cost-management.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement). 
+* Новый соединитель Workplace Analytics: [[видео]](https://youtu.be/A8A9baUQsXQ?t=830), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics). 
+
 
 ### <a name="data-preparation"></a>Подготовка данных
-* Копирование в буфер обмена из окон профилирования данных [[видео]](https://youtu.be/neq0THnRJzo?t=1146) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+* Диагностика запросов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=907), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics). 
+* Улучшения профилирования данных: [[видео]](https://youtu.be/A8A9baUQsXQ?t=953), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling). 
 
 
 ### <a name="template-apps"></a>Приложения-шаблоны
-* Отчет Google Analytics [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+* Приложение Project Web App: [[видео]](https://youtu.be/A8A9baUQsXQ?t=850), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp). 
 
-### <a name="other"></a>Другие
-* Повышение производительности многомерных моделей [[видео]](https://youtu.be/neq0THnRJzo?t=1208)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
-* Повышение производительности запросов у моделей DirectQuery [[видео]](https://youtu.be/neq0THnRJzo?t=1272) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+### <a name="other"></a>Другое
+* Новый формат файла — PBIDS: [[видео]](https://youtu.be/A8A9baUQsXQ?t=2455), [[статья]](desktop-data-sources.md#pbids-file-examples), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids). 
+* Повышение производительности для операций моделирования: [[видео]](https://youtu.be/A8A9baUQsXQ?t=2583), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance). 
 
 > [!NOTE]
 > Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
 
-Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций (это та же запись блога, которая указана в списке выше).
 
 
 Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A8A9baUQsXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
