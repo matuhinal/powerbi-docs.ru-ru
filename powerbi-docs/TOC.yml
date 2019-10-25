@@ -15,7 +15,7 @@
           href: desktop-shape-and-combine-data.md
         - name: Импорт и анализ данных c веб-страницы с помощью Power BI Desktop
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: Анализ данных о продажах из Excel и веб-канала OData
+        - name: ' Анализ данных о продажах из Excel и веб-канала OData'
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
         - name: Создание собственных мер в Power BI Desktop
           href: desktop-tutorial-create-measures.md
@@ -31,59 +31,59 @@
           href: sample-datasets.md
         - name: Использование примеров пакетов содержимого
           href: sample-tutorial-connect-to-the-samples.md
-        - name: Пример "Рентабельность клиента" — узнайте о возможностях
+        - name: Рентабельность клиента — пример Узнайте о возможностях
           href: sample-customer-profitability.md
-        - name: Пример "Анализ расходов на ИТ" — узнайте о возможностях
+        - name: Анализ расходов на ИТ — пример Узнайте о возможностях
           href: sample-it-spend.md
-       - name: Пример "Управление персоналом" — узнайте о возможностях
+        - name: Управление персоналом — пример Узнайте о возможностях
           href: sample-human-resources.md
-        - name: Пример "Анализ возможных сделок" — узнайте о возможностях
+        - name: Анализ возможных сделок — пример Узнайте о возможностях
           href: sample-opportunity-analysis.md
-        - name: Пример "Анализ закупок" — узнайте о возможностях
+        - name: Анализ закупок — пример Узнайте о возможностях
           href: sample-procurement.md
-        - name: Пример "Анализ розничной торговли" — узнайте о возможностях
+        - name: Анализ розничной торговли — пример Узнайте о возможностях
           href: sample-retail-analysis.md
-        - name: Пример "Продажи и маркетинг" — узнайте о возможностях
+        - name: Продажи и маркетинг — пример Узнайте о возможностях
           href: sample-sales-and-marketing.md
-        - name: Пример "Анализ качества поставщика" — узнайте о возможностях
+        - name: Анализ качества поставщика — пример Узнайте о возможностях
           href: sample-supplier-quality.md
-        - name: Скачивание книги с примером финансовых данных
+        - name: Скачиваемая книга с примером финансовых данных
           href: sample-financial-download.md
     - name: Основные понятия
       items:
         - name: Новые возможности в последнем обновлении Power BI Desktop
           href: desktop-latest-update.md
-        - name: Группировка визуальных элементов в Power BI Desktop
+        - name: "Группирование визуализаций в Power\_BI\_Desktop"
           href: desktop-grouping-visuals.md
         - name: Использование шаблонов в Power BI Desktop
           href: desktop-templates.md
-        - name: Представление моделирования в Power BI Desktop
+        - name: "Представление моделирования в Power\_BI\_Desktop"
           href: desktop-modeling-view.md
-        - name: Агрегаты в Power BI Desktop
+        - name: "Агрегаты в Power\_BI Desktop"
           href: desktop-aggregations.md
-        - name: Составные модели в Power BI Desktop
+        - name: "Составные модели в Power\_BI Desktop"
           href: desktop-composite-models.md
         - name: Связи "многие ко многим" в Power BI Desktop
           href: desktop-many-to-many-relationships.md
-        - name: Режим хранения в Power BI Desktop (предварительная версия)
+        - name: "Режим хранения в Power\_BI Desktop (предварительная версия)"
           href: desktop-storage-mode.md
         - name: Двунаправленная перекрестная фильтрация в Power BI Desktop
           href: desktop-bidirectional-filtering.md
         - name: Power BI и DirectQuery
           href: desktop-directquery-about.md
-        - name: Источники данных, поддерживаемые DirectQuery
+        - name: 'Источники данных, поддерживаемые DirectQuery'
           href: desktop-directquery-data-sources.md
-        - name: Требования к источникам данных Power BI
+        - name: Предварительные требования к источникам данных Power BI
           href: desktop-data-source-prerequisites.md
-        - name: Элементы по умолчанию в многомерных моделях для Power BI
+        - name: "Использование элементов по умолчанию в многомерных моделях в Power\_BI"
           href: desktop-default-member-multidimensional-models.md
-        - name: Частые вопросы о визуальных элементах
+        - name: Вопросы и ответы о визуальных элементах
           href: power-bi-custom-visuals-faq.md
     - name: Практическое руководство
       items:
         - name: Получение Power BI Desktop
           href: desktop-get-the-desktop.md
-        - name: Приступая к работе с Power BI Desktop
+        - name: Руководство по началу работы с Power BI Desktop
           href: desktop-getting-started.md
         - name: Общие задачи с запросами в Power BI Desktop
           href: desktop-common-query-tasks.md
@@ -93,7 +93,7 @@
           href: desktop-data-view.md
         - name: Общие сведения о запросах в Power BI Desktop
           href: desktop-query-overview.md
-        - name: Основы DAX в Power BI Desktop
+        - name: Основные сведения о DAX в Power BI Desktop
           href: desktop-quickstart-learn-dax-basics.md
         - name: Представление связей в Power BI Desktop
           href: desktop-relationship-view.md
@@ -107,17 +107,17 @@
           href: visuals/power-bi-report-add-visualizations-i.md
         - name: Часть 2. Добавление визуализаций в отчет Power BI
           href: visuals/power-bi-report-add-visualizations-ii.md
-        - name: Настройка заголовка, фона и условных обозначений визуализации
+        - name: 'Настройка заголовка, фона и условных обозначений визуализации'
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Отображение элементов без данных в Power BI
+        - name: "Функция \"Показать элементы без данных\" в Power\_BI"
           href: desktop-show-items-no-data.md
         - name: Подключение к данным
           items:
             - name: Источники данных в Power BI Desktop
               href: desktop-data-sources.md
-            - name: Подключение к веб-странице по образцу (предварительная версия)
+            - name: Подключение к веб-странице н основе примера (предварительная версия)
               href: desktop-connect-to-web-by-example.md
-            - name: Подключение к наборам данных службы Power BI
+            - name: Подключение к наборам данных в службе Power BI
               href: desktop-report-lifecycle-datasets.md
             - name: Импорт книг Excel в Power BI Desktop
               href: desktop-import-excel-workbooks.md
@@ -141,7 +141,7 @@
               href: desktop-r-scripts.md
             - name: Использование языка R в редакторе запросов
               href: desktop-r-in-query-editor.md
-            - name: Использование внешней среды IDE языка R с Power BI
+            - name: "Использование внешней среды R\_IDE с Power\_BI"
               href: desktop-r-ide.md
             - name: Поддерживаемые пакеты R
               href: service-r-packages-support.md
@@ -171,17 +171,13 @@
               href: desktop-connect-azure-consumption-insights.md
             - name: Использование SAP HANA в Power BI Desktop
               href: desktop-sap-hana.md
-            - name: Включение шифрования для SAP HANA
+            - name: "Включение шифрования для SAP\_HANA"
               href: desktop-sap-hana-encryption.md
             - name: Табличные данные служб Analysis Services в Power BI Desktop
               href: desktop-analysis-services-tabular-data.md
             - name: Использование DirectQuery в Power BI Desktop
               href: desktop-use-directquery.md
-
-            - name: DirectQuery для Oracle и Teradata
-              href: desktop-directquery-for-oracle-teradata.md
-            - name: DirectQuery и SAP Business Warehouse (BW)
-
+            - name: Использование DirectQuery и SAP Business Warehouse (BW)
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery и SAP HANA
               href: desktop-directquery-sap-hana.md
@@ -191,17 +187,17 @@
               href: desktop-sap-bw-connector.md
             - name: Использование ссылок OneDrive для бизнеса в Power BI Desktop
               href: desktop-use-onedrive-business-links.md
-            - name: "Сторонняя служба: соединитель Facebook для Power\_BI Desktop"
+            - name: "Служба сторонних разработчиков: Соединитель Facebook для Power\_BI Desktop"
               href: service-facebook-connector.md
-            - name: "Сторонняя служба: соединитель Google Analytics для Power\_BI Desktop"
+            - name: "Служба сторонних разработчиков: Соединитель Google Analytics для Power\_BI Desktop"
               href: service-google-analytics-connector.md
             - name: 'Project Online: подключение к данным через Power BI Desktop'
               href: desktop-project-online-connect-to-data.md
         - name: Преобразование и формирование данных
           items:
-            - name: Объединение файлов (двоичных данных)
+            - name: Объединение двоичных значений
               href: desktop-combine-binaries.md
-        - name: Создание модели данных
+        - name: Моделирование данных
           items:
             - name: Категоризация данных в Power BI Desktop
               href: desktop-data-categorization.md
@@ -215,15 +211,13 @@
               href: desktop-calculated-tables.md
             - name: Меры в Power BI Desktop
               href: desktop-measures.md
-            - name: Изменение лингвистической схемы для функции "Вопросы и ответы"
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: Импорт и отображение ключевых показателей эффективности (предварительная версия)
               href: desktop-import-and-display-kpis.md
-        - name: Создание отчетов
+        - name: Создавать отчеты
           items:
-
-            - name: Использование анализатора производительности в Power BI Desktop
-
+            - name: "Автоматическое обновление страниц в Power\_BI Desktop (предварительная версия)"
+              href: desktop-automatic-page-refresh.md
+            - name: "Использование анализатора производительности в Power\_BI\_Desktop"
               href: desktop-performance-analyzer.md
             - name: Визуальные элементы для отчетов
               href: desktop-visual-elements-for-reports.md
@@ -231,9 +225,7 @@
               href: desktop-tooltips.md
             - name: Экспорт в PDF и печать отчетов
               href: desktop-export-to-pdf.md
-            - name: Обработчик "Вопросы и ответы" в Power BI Desktop
-              href: desktop-qna-in-reports.md
-            - name: Панель "Аналитика" в Power BI Desktop
+            - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
               href: desktop-analytics-pane.md
             - name: Использование аналитических данных для объяснения отклонений
               href: desktop-insights.md
@@ -241,13 +233,13 @@
               href: desktop-insights-find-where-different.md
             - name: Закладки в Power BI
               href: desktop-bookmarks.md
-            - name: Использование тем оформления отчетов
+            - name: Использование тем отчета
               href: desktop-report-themes.md
             - name: Типы фильтров
               href: power-bi-report-filter-types.md
-            - name: Попробуйте новые возможности фильтрации
+            - name: Опробуйте новые возможности фильтрации
               href: power-bi-report-filter.md
-            - name: Использование быстрых мер
+            - name: Использование функции "Быстрая мера"
               href: desktop-quick-measures.md
             - name: Использование параметров What if
               href: desktop-what-if.md
@@ -357,6 +349,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Визуальный элемент матрицы
               href: visuals/desktop-matrix-visual.md
+            - name: '"Вопросы и ответы": визуализация'
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: Создание расширенных аналитических инструментов и визуализаций с помощью R-скриптов в Power BI
               href: visuals/service-r-visuals.md
             - name: Диаграммы "Радиальный датчик" в Power BI
@@ -379,6 +373,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: Создание динамических строк ссылки
               href: service-analytics-pane.md
+        - name: Естественный язык
+          items:
+            - name: '"Вопросы и ответы": введение'
+              href: natural-language/q-and-a-intro.md
+            - name: '"Вопросы и ответы": визуализация'
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: 'Функция "Вопросы и ответы": введение'
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: 'Функция "Вопросы и ответы: обучение"'
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: 'Функция "Вопросы и ответы": расширенные возможности'
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: '"Вопросы и ответы": рекомендации'
+              href: natural-language/q-and-a-best-practices.md
+            - name: '"Вопросы и ответы": ограничения'
+              href: natural-language/q-and-a-limitations.md
         - name: Устранение неполадок
           items:
             - name: "Решение проблем с импортом баз данных Access и электронных таблиц Excel в Power\_BI Desktop и Power Query"
@@ -429,7 +439,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: Интеграция Машинного обучения
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: Создание модели машинного обучения (предварительная версия)
+        - name: Создание модели машинного обучения
           href: service-tutorial-build-machine-learning-model.md
         - name: "Обновление данных из SQL\_Server"
           href: service-gateway-sql-tutorial.md
@@ -703,7 +713,7 @@
               href: service-machine-learning-integration.md
             - name: "Использование Cognitive Services в Power\_BI"
               href: service-cognitive-services.md
-            - name: "Автоматизированное машинное обучение в Power\_BI (предварительная версия)"
+            - name: "Автоматизированное машинное обучение в Power\_BI"
               href: service-machine-learning-automated.md
         - name: Происхождение данных
           href: service-data-lineage.md
@@ -1147,6 +1157,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: Функция DIVIDE и оператор деления (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Важность свертывания запросов
+      href: guidance/power-query-folding.md
     - name: Правильное использование функций ошибок
       href: guidance/dax-error-functions.md
     - name: Рекомендации по потокам данных
