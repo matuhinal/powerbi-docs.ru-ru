@@ -1,4 +1,5 @@
-- name: "Power\_BI для разработчиков"
+- name: "Документация разработчика Power\_BI"
+  href: index.yml
   items:
     - name: Обзор
       expanded: true

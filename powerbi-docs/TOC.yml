@@ -1047,6 +1047,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: Доступ к общим наборам данных как к каналам OData
               href: report-server/access-dataset-odata.md
+            - name: "Изменение строк подключения к источникам данных с помощью\_PowerShell"
+              href: report-server/connect-data-source-apis.md
             - name: Настройка запланированного обновления
               href: report-server/configure-scheduled-refresh.md
             - name: Добавление комментариев к отчету

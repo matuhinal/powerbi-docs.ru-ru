@@ -1,4 +1,6 @@
-- name: Администрирование Power BI
+- name: "Документация администратора Power\_BI"
+  href: index.yml
+  expanded: true
   items:
     - name: Обзор
       expanded: true
@@ -8,7 +10,7 @@
     - name: Основные понятия
       expanded: true
       items:
-        - name: Роль администрирования в Office 365
+        - name: "Роль администрирования в Microsoft\_365"
           href: ../service-admin-role.md
         - name: Вопросы и ответы
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: Купить Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: "Регистрация для получения пробной версии Office\_365"
+            - name: "Регистрация с пробной версией Microsoft\_365"
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Добавление Power BI с партнером по Office 365
+            - name: "Добавление Power\_BI в партнерскую подписку Microsoft\_365"
               href: ../service-admin-syndication-partner.md
         - name: Использование портала администрирования
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: 'Поиск пользователей, выполнивших вход'
           href: ../service-admin-access-usage.md
-        - name: Аудит Power BI
+        - name: Аудит
           href: ../service-admin-auditing.md
         - name: Отслеживание состояния службы
           href: ../service-admin-health.md
-        - name: Закрытие учетной записи Power BI
+        - name: Закрытие учетной записи
           href: ../service-admin-closing-your-account.md
-        - name: Power BI и ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: Использование службы Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
-        - name: Безопасность на уровне строк в Power BI
+        - name: Защита на уровне строк
           href: ../service-admin-rls.md
-        - name: Архивная рабочая область Power BI
+        - name: Архивная рабочая область
           href: ../service-admin-power-bi-archived-workspace.md
         - name: Настройка мобильных приложений в Intune
           href: ../service-admin-mobile-intune.md

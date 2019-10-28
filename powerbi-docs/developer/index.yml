@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Документация по Power BI для разработчиков
+title: Документация разработчика Power BI
 summary: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
 metadata:
-  title: Power BI для разработчиков
+  title: Документация разработчика Power BI
   description: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
   services: powerbi
   ms.service: powerbi
@@ -11,49 +11,49 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/02/2019
-  ms.openlocfilehash: 04cbb872183f589ad37e39c0dd132a1a17662ce4
-  ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+  ms.date: 10/25/2019
+  ms.openlocfilehash: ac0d2e2955846d7b67e94af923b41c8b5f476996
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/14/2019
-  ms.locfileid: "72307634"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959529"
 landingContent:
 - title: О Power BI для разработчиков
   linkLists:
   - linkListType: overview
     links:
-    - text: Какие возможности Power BI предоставляет разработчикам
+    - text: Возможности для разработчиков
       url: what-can-you-do.md
     - text: Визуальные элементы в Power BI
       url: ../power-bi-custom-visuals.md
-    - text: Что такое внедрение с Power BI
+    - text: Что такое внедрение?
       url: embedding.md
     - text: Что такое API Power BI?
       url: overview-of-power-bi-rest-api.md
   - linkListType: reference
     links:
-    - text: Центр по разработке для Power BI
+    - text: Центр разработчиков
       url: https://powerbi.microsoft.com/developers/
-    - text: Примеры для разработчиков Power BI
+    - text: Примеры для разработчиков
       url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: Вики-сайт по JavaScript для Power BI
+    - text: Вики-документация по JavaScript
       url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: REST API в Power BI
+    - text: REST API
       url: https://docs.microsoft.com/rest/api/power-bi/
     - text: REST API Azure Resource Manager
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: Визуальные элементы Power BI
+- title: Визуальные элементы
   linkLists:
   - linkListType: tutorial
     links:
-    - text: Разработка визуального элемента Power BI
+    - text: Разработка визуального элемента
       url: visuals/custom-visual-develop-tutorial.md
   - linkListType: concept
     links:
-    - text: 'Визуальные элементы Power BI: вопросы и ответы'
+    - text: Вопросы и ответы о визуальных элементах
       url: ../power-bi-custom-visuals-faq.md
-    - text: Рекомендации по визуальным элементам Power BI
+    - text: Рекомендации по визуальным элементам
       url: guidelines-powerbi-visuals.md
     - text: Режим расширенного редактирования для визуальных элементов
       url: /advanced-edit-mode.md
@@ -79,7 +79,7 @@ landingContent:
       url: embed-multi-tenancy.md
     - text: 'Power BI Embedded: вопросы и ответы'
       url: embedded-faq.md
-    - text: Разрешения Power BI
+    - text: Разрешения
       url: power-bi-permissions.md
   - linkListType: how-to-guide
     links:
@@ -89,5 +89,5 @@ landingContent:
       url: create-an-azure-active-directory-tenant.md
     - text: Получение токена доступа Azure AD
       url: get-azuread-access-token.md
-    - text: Вопросы и ответы в Power BI Embedded
+    - text: Функции вопросов и ответов в Power BI Embedded
       url: qanda.md
