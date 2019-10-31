@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: Изменение способа отображения отчета
               href: end-user-report-view.md
+            - name: Изменение порядка сортировки в визуальном элементе
+              href: end-user-change-sort.md
             - name: Использование фильтров в отчете
               href: end-user-report-filter.md
             - name: Сведения о перекрестной фильтрации визуальных элементов в отчетах
