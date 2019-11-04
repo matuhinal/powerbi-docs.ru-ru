@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: 851a87e22174be6084ea5cf0c0c9b1e0c89464ef
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70936264"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060882"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -80,7 +80,7 @@ ms.locfileid: "70936264"
 
 Записанные сеансы доступны в любое время.
 
-### <a name="getting-started"></a>Начало работы
+### <a name="getting-started"></a>Приступить
 
 **Автоматизация повседневных бизнес-процессов с помощью Power BI, PowerApps и Microsoft Flow**
 <br>Авторы: Вим Куревиц (Wim Coorevits) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
@@ -237,7 +237,7 @@ ms.locfileid: "70936264"
 
 - [Сеансы Microsoft Data Insights Summit 2017 по требованию](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Что такое Power BI?](power-bi-overview.md)
+- [Что такое Power BI?](fundamentals/power-bi-overview.md)
 
 - Подпишитесь на страницу [@MSPowerBI в Twitter](https://twitter.com/mspowerbi)
 

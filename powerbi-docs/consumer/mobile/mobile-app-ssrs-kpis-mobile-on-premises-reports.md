@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61344123"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060238"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Просмотр локальных отчетов на сервере отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 
@@ -132,6 +132,6 @@ ms.locfileid: "61344123"
 3. Коснитесь пункта **Удалить сервер**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что такое Power BI?](../../power-bi-overview.md)  
+* [Что такое Power BI?](../../fundamentals/power-bi-overview.md)  
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

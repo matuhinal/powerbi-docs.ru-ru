@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715438"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060303"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Десять советов по получению справки по Power BI
 Случались ли ситуации, когда вы не могли получить ответы на вопросы о Power BI в нужный момент (т. е. получить своевременную помощь)? 
@@ -69,6 +69,6 @@ ms.locfileid: "71715438"
 К примеру, вам нужно узнать, можно ли предоставить группе безопасности общий доступ к информационным панелям. Чтобы ответить на этот вопрос, перейдите в диалоговое окно управления доступом и попробуйте добавить группу безопасности. В любом случае вы получите ответ после этой проверки.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Что такое Power BI?](power-bi-overview.md)
+* [Что такое Power BI?](fundamentals/power-bi-overview.md)
 * Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c2f6564c83c7234b626686a6fe4c76f65b354e58
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 9a02c642d0b5d766b22b3b8c3853da2d4d773cbd
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185512"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060552"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Подключение к Lithium с помощью Power BI
 
@@ -61,7 +61,7 @@ Lithium помогает строить доверительные отноше�
 Для пакета содержимого Lithium требуется Lithium community версии 15.9 или более поздней. Для подтверждения обратитесь к администратору Lithium.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Что такое Power BI?](power-bi-overview.md)
+[Что такое Power BI?](fundamentals/power-bi-overview.md)
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 

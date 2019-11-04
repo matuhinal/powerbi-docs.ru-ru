@@ -177,11 +177,11 @@
               href: desktop-analysis-services-tabular-data.md
             - name: Использование DirectQuery в Power BI Desktop
               href: desktop-use-directquery.md
-            - name: DirectQuery и SAP Business Warehouse (BW)
+            - name: Использование DirectQuery и SAP Business Warehouse (BW)
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery и SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Функция "Предполагать целостность данных" в Power BI Desktop
+            - name: "Функция \"Предполагать целостность данных\" в Power\_BI Desktop"
               href: desktop-assume-referential-integrity.md
             - name: "Использование соединителя SAP\_BW в Power\_BI\_Desktop"
               href: desktop-sap-bw-connector.md
@@ -213,7 +213,7 @@
               href: desktop-measures.md
             - name: Импорт и отображение ключевых показателей эффективности (предварительная версия)
               href: desktop-import-and-display-kpis.md
-        - name: Создание отчетов
+        - name: Создавать отчеты
           items:
             - name: "Автоматическое обновление страниц в Power\_BI Desktop (предварительная версия)"
               href: desktop-automatic-page-refresh.md
@@ -225,7 +225,7 @@
               href: desktop-tooltips.md
             - name: Экспорт в PDF и печать отчетов
               href: desktop-export-to-pdf.md
-            - name: Панель аналитики в Power BI Desktop
+            - name: "Панель \"Аналитика\" в Power\_BI\_Desktop"
               href: desktop-analytics-pane.md
             - name: Использование аналитических данных для объяснения отклонений
               href: desktop-insights.md
@@ -273,7 +273,7 @@
               href: power-bi-slicer-filter-responsive.md
             - name: Создание пользовательских карт ответов Кортаны
               href: service-cortana-answer-cards.md
-            - name: Безопасность на уровне строк
+            - name: Защита на уровне строк
               href: desktop-rls.md
             - name: Настройка подсказок
               href: desktop-custom-tooltips.md
@@ -351,7 +351,7 @@
               href: visuals/desktop-matrix-visual.md
             - name: '"Вопросы и ответы": визуализация'
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: Сложная аналитика и создание расширенных визуализаций с помощью скриптов R в Power BI
+            - name: Создание расширенных аналитических инструментов и визуализаций с помощью R-скриптов в Power BI
               href: visuals/service-r-visuals.md
             - name: Диаграммы "Радиальный датчик" в Power BI
               href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: Устранение неполадок при запуске Power BI Desktop
               href: desktop-error-launching-desktop.md
+            - name: Устранение неполадок с моделью DirectQuery в Power BI Desktop
+              href: desktop-directquery-troubleshoot.md
     - name: Справка
       items:
         - name: Типы данных в Power BI Desktop
@@ -429,11 +431,11 @@
               href: desktop-accessibility-creating-tools.md
             - name: "Сочетания клавиш для специальных возможностей в отчетах Power\_BI"
               href: desktop-accessibility-keyboard-shortcuts.md
-- name: Служба Power BI
+- name: "Служба Power\_BI"
   items:
     - name: Обзор
       items:
-        - name: Что такое Power BI?
+        - name: "Что такое Power\_BI?"
           href: fundamentals/power-bi-overview.md
         - name: Что такое служба Power BI?
           href: power-bi-service-overview.md
@@ -497,7 +499,7 @@
               href: service-interruption-notifications.md
         - name: Расширение Power BI
           items:
-            - name: Microsoft Flow и Power BI
+            - name: "Microsoft Flow и Power\_BI"
               href: service-flow-integration.md
             - name: Использование сторонних приложений
               href: service-power-bi-get-started-third-party-apps.md
@@ -551,7 +553,7 @@
               href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: База данных SQL Azure с DirectQuery
               href: service-azure-sql-database-with-direct-connect.md
-            - name: Динамические данные служб SQL Server Analysis Services в Power BI
+            - name: Динамические данные служб SQL Server Analysis в Power BI
               href: sql-server-analysis-services-tabular-data.md
         - name: Обновить данные
           items:
@@ -569,7 +571,7 @@
               href: refresh-csv-file-onedrive.md
             - name: "Кэширование запросов в Power\_BI\_Premium"
               href: power-bi-query-caching.md
-        - name: Информационные панели
+        - name: Панели мониторинга
           items:
             - name: Общие сведения о панелях мониторинга
               href: service-dashboards.md
@@ -601,7 +603,7 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: Создание QR-кода для плитки
               href: service-create-qr-code-for-tile.md
-            - name: Классификация данных панели мониторинга
+            - name: Классификация данных на панелях мониторинга
               href: service-data-classification.md
             - name: Темы панели мониторинга
               href: service-dashboard-themes.md
@@ -661,7 +663,7 @@
           items:
             - name: Создание новых рабочих областей
               href: service-create-the-new-workspaces.md
-            - name: Создание рабочих областей приложений
+            - name: Создание рабочих областей
               href: service-create-workspaces.md
             - name: Публикация приложений из рабочих областей
               href: service-create-distribute-apps.md
@@ -689,7 +691,7 @@
               href: service-publish-to-web.md
             - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Издатель Power BI для Excel
+            - name: "Издатель Power\_BI для Excel"
               href: publisher-for-excel.md
         - name: Самостоятельная подготовка данных
           items:
@@ -797,7 +799,7 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
-                - name: Alpine Metrics для прогнозирования продаж
+                - name: Прогнозы продаж Alpine Metrics
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
                   href: service-connect-to-appfigures.md
@@ -897,7 +899,7 @@
           href: videos.md
         - name: Вебинары
           href: webinars.md
-- name: Power BI Premium
+- name: "Power\_BI Premium"
   items:
     - name: Обзор
       items:
@@ -987,7 +989,7 @@
           href: report-builder-url-pass-parameters.md
         - name: Публикация отчета с разбивкой на страницы
           href: paginated-reports-save-to-power-bi-service.md
-- name: Power BI Report Server
+- name: "Cервере отчетов Power\_BI"
   items:
     - name: Обзор
       items:
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: Рекомендации по потокам данных
       href: service-dataflows-best-practices.md
+    - name: Руководство по использованию модели DirectQuery в Power BI Desktop
+      href: guidance/directquery-model-guidance.md
     - name: Технические документы
       items:
         - name: Обзор технической документации

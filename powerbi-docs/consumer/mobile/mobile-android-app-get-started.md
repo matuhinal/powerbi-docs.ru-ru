@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61350945"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060289"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -23,7 +23,7 @@ ms.locfileid: "61350945"
 
 Создавайте отчеты Power BI в службе Power BI Desktop с последующей публикацией.
 
-* [Публикуйте их в службе Power BI](../../power-bi-overview.md) и создавайте панели мониторинга.
+* [Публикуйте их в службе Power BI](../../fundamentals/power-bi-overview.md) и создавайте панели мониторинга.
 * [Публикуйте их локально на Сервере отчетов Power BI](../../report-server/quickstart-create-powerbi-report.md).
 
 Затем в приложении Power BI для Android работайте с панелями мониторинга и отчетами как локально, так и в облаке.
@@ -136,7 +136,7 @@ Microsoft Intune позволяет управлять такими элемен
 
 ### <a name="see-also"></a>См. также:
 * [Скачивание приложения Android](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина приложений Android.
-* [Что такое Power BI?](../../power-bi-overview.md)
+* [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 
 

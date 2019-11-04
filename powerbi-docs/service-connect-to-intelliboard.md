@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e912c47c58c96de8d2875b83a530468135e93ef2
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 06fc561d3fbe07cbf553be63c7b19de3ab11992e
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185924"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060941"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Подключение к IntelliBoard с помощью Power BI
 IntelliBoard предлагает упрощенный доступ к данным системы управления обучением Moodle через Reporting Services. Пакет содержимого IntelliBoard для Power BI предоставляет дополнительную аналитику, включая метрики ваших курсов, списки зарегистрированных пользователей, общую производительность и ваши действия в системе управления обучением.
@@ -68,7 +68,7 @@ IntelliBoard предлагает упрощенный доступ к данн�
 Чтобы создать этот пакет содержимого, требуется учетная запись IntelliBoard с разрешениями для вышеперечисленных таблиц.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Что такое Power BI?](power-bi-overview.md)
+[Что такое Power BI?](fundamentals/power-bi-overview.md)
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 51cd08959b0d8ee58a5f121f9ff3269fa8e76511
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 5e16264c3cf5b6d361353c18ba9eb666fd00ce5d
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720432"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060472"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Подключение к Ziosk Survey Analytics с помощью Power BI
 Пакет содержимого Ziosk Survey Analytics для Power BI предлагает перечень ресторанов, где предоставляется уникальный доступ посредством планшетов Ziosk к аналитике, основанной на данных опросов Ziosk. Эти данные включают в себя сегментацию по дням, местоположение, сотрудников и многое другое.
@@ -71,7 +71,7 @@ ms.locfileid: "66720432"
 Чтобы создать этот пакет содержимого, требуется учетная запись Ziosk с разрешениями для вышеперечисленных таблиц.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Что такое Power BI?](power-bi-overview.md)
+[Что такое Power BI?](fundamentals/power-bi-overview.md)
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
