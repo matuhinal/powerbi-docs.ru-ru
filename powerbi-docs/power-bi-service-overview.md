@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775747"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060853"
 ---
 # <a name="what-is-the-power-bi-service"></a>Что такое служба Power BI?
 **Power BI** — это коллекция программных служб, приложений и соединителей, которые взаимодействуют друг с другом, чтобы помочь вам создавать и использовать бизнес-аналитику, а также обмениваться этими сведениями наиболее эффективно в контексте личных или служебных задач. *Служба* Microsoft Power BI (App.powerbi.com), которая иногда называется Power BI Online, является компонентом SaaS (*программное обеспечение как услуга*) Power BI. *Панели мониторинга* службы Power BI позволяют оставаться в курсе событий в вашей организации. На панелях мониторинга отображаются *плитки*, которые можно выбрать для дальнейшего изучения данных в *отчетах*. Панели мониторинга и отчеты подключаются к *наборам данных*, объединяющих все необходимые сведения в одном месте. 
@@ -26,7 +26,7 @@ ms.locfileid: "70775747"
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-Другими основными компонентами Power BI являются классическое приложение Windows **Power BI Desktop** и **мобильные приложения** Power BI для Windows, iOS и Android. Вы и ваши коллеги можете использовать три этих элемента &mdash;Power BI Desktop, служба и мобильные приложения&mdash; для создания и использования бизнес аналитики, а также для обмена этими сведениями. Общие сведения см. в статье [Что такое Power BI?](power-bi-overview.md).
+Другими основными компонентами Power BI являются классическое приложение Windows **Power BI Desktop** и **мобильные приложения** Power BI для Windows, iOS и Android. Вы и ваши коллеги можете использовать три этих элемента &mdash;Power BI Desktop, служба и мобильные приложения&mdash; для создания и использования бизнес аналитики, а также для обмена этими сведениями. Общие сведения см. в статье [Что такое Power BI?](fundamentals/power-bi-overview.md).
 
 ## <a name="creating-reports-in-the-service"></a>Создание отчетов в службе
 Типичный рабочий процесс Power BI начинается с создания отчета в Power BI Desktop и его последующей публикации в службу Power BI.  

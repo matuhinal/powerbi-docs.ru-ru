@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307826"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021356"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -71,7 +71,7 @@ ms.locfileid: "72307826"
 
 * В случае изменения некоторых свойств в файле capabilities.json необходимо убедиться, что это не нарушает существующие отчеты пользователя.
 
-* Убедитесь, что визуальный элемент соответствует [рекомендациям по визуальным элементам Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Водяные знаки не допускаются**.
+* Убедитесь, что визуальный элемент соответствует [рекомендациям по визуальным элементам Power BI](./developer/guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Водяные знаки не допускаются**.
 
 * Используются только открытые, доступные для просмотра компоненты OSS (общедоступные библиотеки JS или TypeScript; исходный код доступен для просмотра и не содержит известных уязвимостей). Мы не можем проверить пользовательский визуальный элемент, использующий коммерческие компоненты.
 
@@ -192,7 +192,7 @@ ms.locfileid: "72307826"
 
 ## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
 
-Дополнительные сведения о визуальных элементах см. в разделе [Часто задаваемые вопросы о сертифицированных визуальных элементах](#get-a-power-bi-visual-certified).
+Дополнительные сведения о визуальных элементах см. в разделе [Часто задаваемые вопросы о сертифицированных визуальных элементах](power-bi-custom-visuals-faq.md#certified-power-bi-visuals).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

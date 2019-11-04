@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52ca0405c17339580a971162d13cb4ba67f05979
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161977"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060523"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Подключение к SQL Sentry с помощью Power BI
 С помощью Power BI легко проанализировать данные производительности, собранные SQL Sentry. Power BI извлекает данные, а затем создает панель мониторинга по умолчанию и связанные отчеты на основе этих данных.
@@ -93,7 +93,7 @@ ms.locfileid: "61161977"
 Если вы не являетесь владельцем базы данных SQL Sentry, которая синхронизируется с <https://cloud.sqlsentry.com>, свяжитесь со своим администратором, чтобы убедиться, что у вас есть права на просмотр собранных данных.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Что такое Power BI?](power-bi-overview.md)
+[Что такое Power BI?](fundamentals/power-bi-overview.md)
 
 [Получение данных для Power BI](service-get-data.md)
 

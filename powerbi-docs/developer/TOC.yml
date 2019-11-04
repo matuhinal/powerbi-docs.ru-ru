@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: Открытие URL-адреса
               href: visuals/launch-url.md
+            - name: API локального хранилища
+              href: visuals/local-storage.md
             - name: События отрисовки
               href: visuals/event-service.md
             - name: Сортировка

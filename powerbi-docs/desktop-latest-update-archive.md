@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307731"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429729"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -107,8 +107,8 @@ ms.locfileid: "72307731"
 
 Старые версии доступны по этим ссылкам: 
 
-* [32-разрядная версия Power BI Desktop, выпущенная в сентябре 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в сентябре 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [32-разрядная версия Power BI Desktop, выпущенная в сентябре 2019 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [64-разрядная версия Power BI Desktop, выпущенная в сентябре 2019 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>Обновление за август 2019 г. (2.72.5556.801)
@@ -767,7 +767,7 @@ ms.locfileid: "72307731"
 ### <a name="reporting"></a>Отчеты
 
 * Поиск в картах фильтра: [[видео]](https://youtu.be/cT3L2VzgBRU?t=56) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* Улучшения специальных возможностей для разработки: [[видео]](https://youtu.be/cT3L2VzgBRU?t=118) [[статья]](desktop-accessibility.md#arranging-items-in-field-buckets) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* Улучшения специальных возможностей для разработки: [[видео]](https://youtu.be/cT3L2VzgBRU?t=118) [[статья]](desktop-accessibility-overview.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * Улучшения производительности для карты ArcGIS: [[видео]](https://youtu.be/cT3L2VzgBRU?t=333) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ ms.locfileid: "72307731"
 
 ### <a name="reporting"></a>Отчеты
 
-* Поддержка высокой контрастности в отчетах [[видео]](https://youtu.be/4VpGtWSrssE?t=13s)  [[статья]](desktop-accessibility.md#high-contrast-support-for-reports)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* Поддержка высокой контрастности в отчетах [[видео]](https://youtu.be/4VpGtWSrssE?t=13s)  [[статья]](desktop-accessibility-overview.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * Управление радиусом кольцевой диаграммы [[видео]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * Управление положением меток сведений для круговых и кольцевых диаграмм [[видео]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * Форматирование меток данных по отдельности для каждой меры в комбинированной диаграмме [[видео]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 

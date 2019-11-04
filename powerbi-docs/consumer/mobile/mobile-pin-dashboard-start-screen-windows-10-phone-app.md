@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0a59e6a3d930bc8a0fa69507cae8e958c6175da
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 78bb51a7ef2d7bd7309c7bb93c27b7e9193b85bf
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063177"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059403"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Закрепление панели мониторинга на начальном экране Windows 10 из мобильного приложения Power BI
 Вы можете закрепить панель мониторинга Power BI на начальном экране Windows из мобильного приложения Power BI для Windows 10. Они становятся *динамическими плитками*. При касании плитки на начальном экране открывается панель мониторинга в мобильном приложении Power BI для Windows 10.
@@ -34,6 +34,6 @@ ms.locfileid: "61063177"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Скачивание мобильного приложения Power BI для Windows 10](http://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.  
 * [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)  
-* [Что такое Power BI?](../../power-bi-overview.md)
+* [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

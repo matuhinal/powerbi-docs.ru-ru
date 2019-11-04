@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186044"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060611"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Подключение к журналам аудита Azure с помощью Power BI
 Пакет контента "Журналы аудита Azure" для Power BI позволяет анализировать и визуализировать информацию, хранящуюся в журналах аудита. Power BI извлекает данные, создает стандартную панель мониторинга и строит на основе этих данных отчеты.
@@ -71,6 +71,6 @@ ms.locfileid: "70186044"
 Если возникает ошибка, указывающая на неправильные учетные данные, или ошибка обновления, указывающая на неправильные учетные данные, попробуйте удалить все экземпляры пакета содержимого журналов аудита Azure и повторите попытку подключения.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Что такое Power BI?](power-bi-overview.md)  
+[Что такое Power BI?](fundamentals/power-bi-overview.md)  
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)  
 

@@ -12,16 +12,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543711"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060350"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Основные понятия для потребителей службы Power BI
 
-В этой статье предполагается, что вы уже прочли статью с [обзором Power BI](../power-bi-overview.md) и определили себя как [***потребителя*** Power BI](end-user-consumer.md). Потребители получают содержимое Power BI, такое как панели мониторинга и отчеты, от коллег. Потребители используют службу Power BI, которая является версией Power BI на основе веб-сайта.
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+В этой статье предполагается, что вы уже прочли статью с [обзором Power BI](../fundamentals/power-bi-overview.md) и определили себя как [***потребителя*** Power BI](end-user-consumer.md). Потребители получают содержимое Power BI, такое как панели мониторинга и отчеты, от коллег. Потребители используют службу Power BI, которая является версией Power BI на основе веб-сайта.
 
 Вам несомненно встретится термин "Power BI Desktop" или просто "Desktop". Это автономное средство, используемое *конструкторами*, которые создают панели мониторинга и отчеты, а также предоставляют общий доступ к ним. Важно знать, что существуют и другие средства Power BI. Пока вы являетесь потребителем, вы будете работать только со службой Power BI. Эта статья относится только к службе Power BI.
 

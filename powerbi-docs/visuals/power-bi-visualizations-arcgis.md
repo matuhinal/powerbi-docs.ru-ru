@@ -3,19 +3,19 @@ title: Взаимодействие с картой ArcGIS, к которой в
 description: Использование карты ArcGis в режиме чтения в роли получателя отчета Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
-ms.openlocfilehash: 49eb11698d05ee8877f78b6b3d4cbbc6ef403e75
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 7fef2c96afadad6fe39d731038f74249a4ccbf6d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137095"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432323"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Этот раздел посвящен *использованию* карты ArcGIS в службе Power BI Desktop или версии службы для мобильных устройств. Как только автор предоставит вам общий доступ к карте ArcGIS, у вас появится множество возможностей взаимодействия с ней.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании ESRI](../visuals/power-bi-visualization-arcgis.md).
