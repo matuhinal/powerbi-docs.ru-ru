@@ -44,6 +44,14 @@
           href: ../service-admin-power-bi-expressroute.md
         - name: Использование службы Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
+        - name: Защита данных
+          items:
+            - name: Общие сведения о защите данных
+              href: service-security-data-protection-overview.md
+            - name: Активация меток конфиденциальности данных
+              href: service-security-enable-data-sensitivity-labels.md
+            - name: "Использование Microsoft Cloud App\_Security в Power\_BI"
+              href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: Защита на уровне строк
           href: ../service-admin-rls.md
         - name: Архивная рабочая область

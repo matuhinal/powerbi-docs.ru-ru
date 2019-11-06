@@ -327,7 +327,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: Настройка свойств осей X и Y
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: карты ArcGIS;
+            - name: "Создание визуального элемента ArcGIS\_Maps for Power\_BI"
+              href: visuals/power-bi-visualizations-arcgis.md
+            - name: "Работа с визуальным элементом ArcGIS\_Maps for Power\_BI"
               href: visuals/power-bi-visualization-arcgis.md
             - name: Простые диаграммы с областями
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -727,6 +729,12 @@
               href: service-cognitive-services.md
             - name: "Автоматизированное машинное обучение в Power\_BI"
               href: service-machine-learning-automated.md
+        - name: Защита ваших данных
+          items:
+            - name: Общие сведения о защите данных
+              href: admin/service-security-data-protection-overview.md
+            - name: Применение меток конфиденциальности
+              href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Происхождение данных
           href: service-data-lineage.md
         - name: Отчеты с разбивкой на страницы в Power BI
@@ -929,6 +937,8 @@
           href: service-admin-premium-monitor-portal.md
         - name: Настройка добавочного обновления
           href: service-premium-incremental-refresh.md
+        - name: Настройка больших моделей (предварительная версия)
+          href: service-premium-large-models.md
         - name: Настройка поддержки нескольких регионов
           href: service-admin-premium-multi-geo.md
         - name: Использование собственных ключей шифрования

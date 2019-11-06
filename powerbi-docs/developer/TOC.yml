@@ -102,6 +102,8 @@
               href: embed-sample-for-customers.md
             - name: Внедренное содержимое для организации
               href: embed-sample-for-your-organization.md
+            - name: Внедрение отчетов с разбивкой на страницы для клиентов
+              href: embed-paginated-reports-customers.md
             - name: Встроенное содержимое для национальных облаков
               href: embed-sample-for-customers-national-clouds.md
         - name: Основные понятия
@@ -112,6 +114,8 @@
               href: embed-service-principal.md
             - name: Защита на уровне строк
               href: embedded-row-level-security.md
+            - name: Безопасность на уровне строк в отчетах с разбивкой на страницы
+              href: paginated-reports-row-level-security.md
             - name: Управление несколькими арендаторами
               href: embed-multi-tenancy.md
             - name: "Ведение журнала диагностики для Power\_BI Embedded в\_Azure"
