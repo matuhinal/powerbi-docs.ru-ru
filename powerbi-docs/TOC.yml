@@ -53,6 +53,8 @@
       items:
         - name: Новые возможности в последнем обновлении Power BI Desktop
           href: desktop-latest-update.md
+        - name: "Связи модели в Power\_BI\_Desktop"
+          href: desktop-relationships-understand.md
         - name: "Группирование визуализаций в Power\_BI\_Desktop"
           href: desktop-grouping-visuals.md
         - name: Использование шаблонов в Power BI Desktop
@@ -303,8 +305,6 @@
           items:
             - name: Визуализации в Power BI
               href: visuals/power-bi-report-visualizations.md
-            - name: Рекомендации по работе с визуализациями
-              href: visuals/power-bi-visualization-best-practices.md
             - name: Изменение типа визуализации в отчете
               href: visuals/power-bi-report-change-visualization-type.md
             - name: Ограничения точек данных по типу визуального элемента
@@ -817,12 +817,6 @@
                   href: service-connect-to-azure-audit-logs.md
                 - name: Службы мобильного взаимодействия Azure
                   href: service-connect-to-azure-mobile.md
-                - name: Microsoft Azure Consumption Insights
-                  href: service-connect-to-azure-consumption-insights.md
-                - name: Поиск Azure
-                  href: service-connect-to-azure-search.md
-                - name: "Circuit\_ID"
-                  href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
                   href: service-connect-to-clickdimensions.md
                 - name: comScore Digital Analytix
@@ -837,12 +831,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Microsoft Dynamics AX
-                  href: service-connect-to-microsoft-dynamics-ax.md
-                - name: Microsoft Dynamics CRM
-                  href: service-connect-to-microsoft-dynamics-crm.md
-                - name: Microsoft Dynamics NAV
-                  href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
                 - name: Prevedere
@@ -861,18 +849,12 @@
                   href: service-connect-to-smartsheet.md
                 - name: SQL Sentry
                   href: service-connect-to-sql-sentry.md
-                - name: Stripe
-                  href: service-connect-to-stripe.md
                 - name: SweetIQ
                   href: service-connect-to-sweetiq.md
                 - name: Troux.
                   href: service-connect-to-troux.md
                 - name: Twilio
                   href: service-connect-to-twilio.md
-                - name: tyGraph
-                  href: service-connect-to-tygraph.md
-                - name: UserVoice
-                  href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
                 - name: Центр разработки для Windows
@@ -881,8 +863,6 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
-                - name: Ziosk
-                  href: service-connect-to-ziosk.md
             - name: Пакеты содержимого организации
               items:
                 - name: Знакомство с пакетами содержимого организации
