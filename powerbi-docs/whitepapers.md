@@ -2,19 +2,19 @@
 title: Техническая документация по Power BI
 description: Техническая документация описывает Power BI на более глубоком уровне.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710785"
+ms.locfileid: "73787301"
 ---
 # <a name="whitepapers-for-power-bi"></a>Техническая документация по Power BI
 
@@ -34,9 +34,9 @@ ms.locfileid: "73710785"
 | [Двунаправленная фильтрация](desktop-bidirectional-filtering.md) |Объясняются принципы работы двунаправленной перекрестной фильтрации в Power BI Desktop (техническая документация также описывает службы SQL Server Analysis Services 2016, так как особенности их работы аналогичны). | Июль 2018 г. |
 | [DirectQuery в службах SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |После доработки функция DirectQuery для SQL Server 2016 стала значительно быстрее и производительнее. Тем не менее, она также стала сложнее для понимания и реализации. | Январь 2017 г. |
 | [Power BI и SAP BW](https://aka.ms/powerbiandsapbw)| Этот документ описывает, какую выгоду клиенты SAP могут извлечь, подключив Power BI к имеющимся у них системам SAP Business Warehouse (BW).| Февраль 2018 г. |
-| [Безопасность табличной семантической модели бизнес-аналитики](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |В этом документе рассматривается модель безопасности табличной семантики бизнес-аналитики и Power BI. Вы научитесь создавать роли, реализовывать динамическую безопасность, настраивать параметры олицетворения, управлять ролями и выбирать подходящий метод подключения к моделям в контексте безопасности вашей сети. | Апрель 2016 г. |
+| [Безопасность табличной семантической модели бизнес-аналитики](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |В этом документе рассматривается модель безопасности табличной семантики бизнес-аналитики и Power BI. Вы научитесь создавать роли, реализовывать динамическую безопасность, настраивать параметры олицетворения, управлять ролями и выбирать подходящий метод подключения к моделям в контексте безопасности вашей сети. | Апрель 2016 г. |
 | [Power BI и GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Эта ссылка ведет на список технических документов на портале Service Trust Portal, включая документ по GDPR для Microsoft Power BI. | Апрель 2018 г. |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
