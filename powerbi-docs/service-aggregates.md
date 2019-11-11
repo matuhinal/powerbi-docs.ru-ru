@@ -2,7 +2,6 @@
 title: Работа со статистическими выражениями (сумма, среднее и т. д.) в службе Power BI
 description: Узнайте, как изменить статистическое выражение в диаграмме (сумма, среднее, максимум и т. д.) в службе Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710681"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873306"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Работа со статистическими выражениями (сумма, среднее и т. д.) в службе Power BI
 
@@ -50,7 +49,7 @@ ms.locfileid: "65710681"
 
 Как правило, проблема в таких случаях связана с определением поля в наборе данных. Возможно, владелец набора данных определил поле как текстовое, в связи с чем служба Power BI не может вычислить для него сумму или среднее значение. К сожалению, [категорию поля может изменить только владелец набора данных](desktop-measures.md). При наличии разрешений владельца для набора данных как в приложении Desktop, так и в программе, которая использовалась для создания набора данных (например, Excel), вы можете решить эту проблему. В противном случае потребуется обратиться к владельцу набора данных за помощью.  
 
-См. раздел [**Рекомендации и устранение неполадок**](#considerations-and-troubleshooting) в конце этой статьи. В нем приводятся некоторые полезные советы и рекомендации. Если вы не нашли ответ на свой вопрос, опубликуйте его на [форуме сообщества Power BI](http://community.powerbi.com). Это позволит получить оперативный ответ непосредственно от команды Power BI.
+См. раздел [**Рекомендации и устранение неполадок**](#considerations-and-troubleshooting) в конце этой статьи. В нем приводятся некоторые полезные советы и рекомендации. Если вы не нашли ответ на свой вопрос, опубликуйте его на [форуме сообщества Power BI](https://community.powerbi.com). Это позволит получить оперативный ответ непосредственно от команды Power BI.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Изменение вычисления числового поля
 
@@ -188,4 +187,4 @@ ms.locfileid: "65710681"
 
 Ответ.  Попробуйте удалить поле, а затем добавить его снова.
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

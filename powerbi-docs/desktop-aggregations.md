@@ -2,7 +2,6 @@
 title: Использование агрегатов в Power BI Desktop
 description: Интерактивный анализ больших данных в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325216"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876737"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Агрегаты в Power BI Desktop
 
@@ -49,7 +48,7 @@ ms.locfileid: "68325216"
 
 Предположим, следующие таблицы измерений являются наиболее часто используемыми для запросов с высокой ценностью для бизнеса. Это таблицы, которые могут фильтровать **Sales Agg** с помощью связи *один ко многим* (или *многие к одному*).
 
-* География
+* Географический регион
 * Клиент
 * Дата
 * Подкатегория продукта
@@ -60,7 +59,7 @@ ms.locfileid: "68325216"
 ![таблица агрегирования в модели](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> **Sales Agg** — это просто таблица, а значит, ее можно загружать различными способами. Например, статистическую обработку можно выполнить в базе данных-источнике с помощью процессов ETL/ELT или [M-выражения](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) для таблицы. Можно использовать режим хранения "Импорт" с [добавочным обновлением в Power BI Premium](service-premium-incremental-refresh.md) или без него или режим DirectQuery и оптимизацию для быстрого выполнения запросов с помощью [индексов columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Такая гибкость обеспечивает сбалансированную архитектуру, которая распределяет нагрузку запросов, чтобы избежать узких мест.
+> **Sales Agg** — это просто таблица, а значит, ее можно загружать различными способами. Например, статистическую обработку можно выполнить в базе данных-источнике с помощью процессов ETL/ELT или [M-выражения](/powerquery-m/power-query-m-function-reference) для таблицы. Можно использовать режим хранения "Импорт" с [добавочным обновлением в Power BI Premium](service-premium-incremental-refresh.md) или без него или режим DirectQuery и оптимизацию для быстрого выполнения запросов с помощью [индексов columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Такая гибкость обеспечивает сбалансированную архитектуру, которая распределяет нагрузку запросов, чтобы избежать узких мест.
 
 ### <a name="storage-mode"></a>Режим хранения 
 Продолжим рассматривать наш пример. Мы задаем для **Sales Agg** режим хранения **Импорт** для ускорения запросов.
@@ -85,7 +84,7 @@ ms.locfileid: "68325216"
 
 | Таблица на стороне *многих | Таблица на стороне *одного* |
 | ------------- |----------------------| 
-| Двойной режим          | Двойной режим                 | 
+| Двойной          | Двойной                 | 
 | Импорт        | Импорт или двойной режим       | 
 | DirectQuery   | DirectQuery или двойной режим  | 
 

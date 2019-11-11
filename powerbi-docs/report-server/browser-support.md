@@ -2,19 +2,18 @@
 title: Поддержка браузера для сервера отчетов Power BI
 description: Узнайте о том, какие версии браузера поддерживаются для просмотра и администрирования сервера отчетов Power BI и элементов управления средства просмотра отчетов.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 5a2ca653a06efbde161899602536b05c8f6ab666
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769769"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874306"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Поддержка браузера для сервера отчетов Power BI
 Узнайте о том, какие версии браузера поддерживаются для просмотра и администрирования сервера отчетов Power BI и элементов управления средства просмотра отчетов.
@@ -115,7 +114,7 @@ Your browser does not support scripts or has been configured to not allow script
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
+[Download SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

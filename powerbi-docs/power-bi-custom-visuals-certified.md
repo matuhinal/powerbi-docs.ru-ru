@@ -3,19 +3,18 @@ title: Сертифицированные визуальные элементы 
 description: Требования к пользовательскому визуальному элементу для сертификации и процедура его отправки. А также список уже сертифицированных визуальных элементов Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021356"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874585"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -202,4 +201,4 @@ ms.locfileid: "73021356"
 * [Пользовательские визуализации в Power BI](power-bi-custom-visuals.md)  
 * [Публикация визуальных элементов Power BI в Microsoft AppSource](developer/office-store.md)  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

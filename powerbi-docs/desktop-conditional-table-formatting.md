@@ -2,7 +2,6 @@
 title: Условное форматирование таблиц в Power BI Desktop
 description: Применение настраиваемого форматирования к таблицам
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 14bddde618d4ef623fb91593a6a62cdb5be851a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543996"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876592"
 ---
 # <a name="conditional-formatting-in-tables"></a>Условное форматирование в таблицах 
 С помощью условного форматирования в таблицах можно задать настраиваемые цвета ячеек на основе значений ячеек либо на основе других значений или полей, в том числе использовать градиент цветов. Значения ячеек также могут отображаться с гистограммами. 

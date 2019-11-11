@@ -3,18 +3,17 @@ title: Добавление комментариев к отчету на сер
 description: Сведения о том, как добавить комментарии к отчету Power BI или к отчету с разбивкой на страницы на сервере отчетов Power BI или SQL Server Reporting Services.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.openlocfilehash: 87b0c3b1c50c38d69009e28513188362b52549dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dd469bdbfa530a1a4728494d3c06e571600dfb5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769657"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874330"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Добавление комментариев к отчету на сервере отчетов — Сервер отчетов Power BI
 

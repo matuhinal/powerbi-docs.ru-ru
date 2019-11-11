@@ -2,7 +2,6 @@
 title: Параметры отображения страницы в отчете Power BI
 description: Параметры отображения и просмотра страницы для отчета
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720850"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875125"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Параметры отображения страницы в отчете Power BI
 Очень важно обеспечить точное и качественное отображение макета отчета. В некоторых случаях это может оказаться сложной задачей, так вы и ваши коллеги просматриваете эти отчеты на экранах разных размеров и с различным соотношением сторон. 
@@ -80,5 +79,5 @@ ms.locfileid: "66720850"
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Функция "Предполагать целостность данных" в Power BI Desktop
 description: Узнайте, как в Power BI Desktop использовать функцию "Предполагать целостность данных" с помощью DirectQuery.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e4e13ddf098d68d48fcbe968c325e9a9458b3df
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239873"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878799"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Функция "Предполагать целостность данных" в Power BI Desktop
 При подключении к источнику данных с помощью **DirectQuery** можно установить флажок **Предполагать целостность данных**, что позволит создавать более эффективные запросы к источнику. У этой функции есть некоторые требования к базовым данным, и она доступна только при использовании **DirectQuery**.

@@ -2,7 +2,6 @@
 title: Отображение недавно просмотренного содержимого в службе Power BI
 description: Документация по недавно просмотренному содержимому в Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256237"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862419"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>**Недавнее** содержимое в службе Power BI
 Недавнее содержимое — это последние элементы, которые вы просматривали в службе Power BI, но оно включает не более 20 элементов.  Например, это панели мониторинга, отчеты, приложения и книги.
@@ -53,5 +52,5 @@ ms.locfileid: "71256237"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Приложения службы Power BI](end-user-apps.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

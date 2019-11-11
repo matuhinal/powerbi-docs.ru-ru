@@ -2,19 +2,18 @@
 title: Интеграция службы поиска устройств iOS с Power BI
 description: Использование службы поиска устройств (Spotlight) для обнаружения нужного содержимого и доступа к нему
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817083"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879230"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Интеграция службы поиска устройств iOS (Spotlight) с приложением Power BI Mobile для iOS (предварительная версия)
 Используйте службу поиска устройств iOS для обнаружения нужного содержимого и доступа к нему.
@@ -51,7 +50,7 @@ ms.locfileid: "66817083"
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о мобильном приложении Power BI можно получить, сделав следующее: 
 
-* Скачайте [мобильное приложение Power BI для iPhone](http://go.microsoft.com/fwlink/?LinkId=522062).
+* Скачайте [мобильное приложение Power BI для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062).
 * Подпишитесь на страницу [@MSPowerBI в Twitter](https://twitter.com/MSPowerBI).
-* Присоединяйтесь к обсуждению в [Сообществе Power BI](http://community.powerbi.com/).
+* Присоединяйтесь к обсуждению в [Сообществе Power BI](https://community.powerbi.com/).
 

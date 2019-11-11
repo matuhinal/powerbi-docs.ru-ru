@@ -2,7 +2,6 @@
 title: Использование языка R в редакторе Power Query
 description: Используйте язык R в редакторе запросов Power BI Desktop для расширенной аналитики
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841506"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877928"
 ---
 # <a name="use-r-in-query-editor"></a>Использование языка R в редакторе запросов
 
@@ -24,7 +23,7 @@ ms.locfileid: "70841506"
 
 * Подготовка моделей данных
 
-* Создание отчетов
+* Создавать отчеты
 
 * Очистка данных, расширенное формирование данных и аналитика набора данных, включая завершение отсутствующих данных, прогнозирование, кластеризацию и многое другое.  
 
@@ -50,7 +49,7 @@ ms.locfileid: "70841506"
 
 Чтобы продемонстрировать использование **R** в **редакторе запросов**, мы воспользуемся примером набора данных фондовой биржи из CSV-файла и выполним следующие действия:
 
-1. [Скачайте файл **EuStockMarkets_NA.csv**](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Запомните, куда вы его сохраняете.
+1. [Скачайте файл **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Запомните, куда вы его сохраняете.
 
 1. Загрузите файл в **Power BI Desktop**: на вкладке **Главная** ленты выберите **Получить данные > Текстовый или CSV-файл**.
 
@@ -108,7 +107,7 @@ ms.locfileid: "70841506"
 Можно сохранить все готовые визуальные элементы в одном PBIX-файле **Power BI Desktop** и использовать модель данных и ее сценарии R в службе Power BI.
 
 > [!NOTE]
-> Вы можете [скачать PBIX-файл](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix), где все эти действия уже выполнены.
+> Вы можете [скачать PBIX-файл](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix), где все эти действия уже выполнены.
 
 После отправки PBIX-файла в службу Power BI нужно выполнить дополнительные действия для включения обновления данных службы и обновленных визуальных элементов:  
 

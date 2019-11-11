@@ -3,18 +3,17 @@ title: Ввод данных непосредственно в отчет с р�
 description: В этой статье описывается ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 4690185b745408d99852f00851c7cf0933bd0b46
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839092"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874840"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов — Power BI
 

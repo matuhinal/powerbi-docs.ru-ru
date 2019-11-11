@@ -2,7 +2,6 @@
 title: Общие сведения о взаимодействии визуальных элементов в отчете
 description: Документация для пользователей Power BI с описанием механизма взаимодействия визуальных элементов на странице отчета.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3a73656d8de462dfc7d1d9e7ac742d588cc8c810
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943888"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863089"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Перекрестная фильтрация визуальных элементов в отчете Power BI
 Одно из главных преимуществ Power BI заключается во взаимосвязи всех визуальных элементов на странице отчета. Когда вы выбираете точку данных на любом из визуальных элементов, с учетом этого изменяется содержимое всех остальных визуальных элементов на странице. 

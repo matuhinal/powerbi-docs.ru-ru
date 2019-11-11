@@ -2,7 +2,6 @@
 title: Получение данных из файлов в Power BI
 description: Узнайте, как получать данные из файлов Excel, Power BI Desktop и CSV в Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8eeb8431f3f4e5fff15bb1eb2984826c73826b34
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bc68fda914450345f5854375e3ef0964438eef30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65511910"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872301"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Получение данных из файлов в Power BI
 ![](media/service-get-data-from-files/file_icons.png)

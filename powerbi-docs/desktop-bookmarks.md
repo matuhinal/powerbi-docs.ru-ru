@@ -2,7 +2,6 @@
 title: Использование закладок в Power BI
 description: Закладки в Power BI Desktop позволяют сохранять представления и настройки в отчетах и создавать презентации в виде историй
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b25c09e7dc24445b5ad2ba5263542bc62891b28f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61326237"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876686"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Использование закладок для обмена аналитическими сведениями и создания историй в Power BI 
 С помощью **закладок** в Power BI вы можете сохранить текущие настройки представления страницы отчета, включая фильтрацию и состояние визуальных элементов, а затем вернуться к этому состоянию позже, просто выбрав сохраненную закладку. 

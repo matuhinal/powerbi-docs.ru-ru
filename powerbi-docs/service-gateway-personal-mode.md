@@ -2,7 +2,6 @@
 title: Использование персональных шлюзов в Power BI
 description: Содержит сведения о локальном шлюзе данных (персональный режим) для Power BI, который пользователи могут использовать для подключения к локальным данным.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b910f20935c76f8723d8ca876cb57d811976772b
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729946"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881523"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Использование персональных шлюзов в Power BI
 
@@ -102,4 +101,4 @@ ms.locfileid: "68729946"
 
 * [Настройка параметров прокси-сервера для локального шлюза данных](/data-integration/gateway/service-gateway-proxy)  
 
-Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).

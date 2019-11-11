@@ -2,7 +2,6 @@
 title: Потоковая передача в реальном времени в Power BI
 description: Используйте визуализации и потоковую передачу данных в реальном времени в Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307348"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871729"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Потоковая передача в реальном времени в Power BI
 Потоковая передача в реальном времени в Power BI позволяет передавать данные и обновлять панели мониторинга в режиме реального времени. Любая визуализация или панель мониторинга, которую можно создать в Power BI, может отображать и обновлять данные в реальном времени. В качестве устройств и источников потоковых данных могут использоваться датчики фабрики, источники из социальных сетей, метрики использования службы и многое другое, откуда можно собирать или передавать зависимые от времени данные.

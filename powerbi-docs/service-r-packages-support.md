@@ -2,7 +2,6 @@
 title: Узнайте, какие пакеты R поддерживаются
 description: Поддерживаемые и неподдерживаемые пакеты R в Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edbe565d155f0c0623cfef0417cc3861dc515c15
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654197"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871680"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Пакеты R в службе Power BI
 Вы можете использовать эффективный [язык программирования R](https://www.r-project.org/) для создания визуальных элементов в службе Power BI. Большинство пакетов R поддерживаются в службе Power BI (кроме того, они поддерживаются постоянно), а некоторые из них не поддерживаются.

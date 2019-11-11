@@ -2,7 +2,6 @@
 title: Видео о службе Power BI
 description: Видео о службе Power BI и ссылка на канал YouTube.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060337"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871178"
 ---
 # <a name="power-bi-videos"></a>Видео о службе Power BI
 У нас есть канал YouTube для Power BI! Вы можете посетить [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видеороликов, посвященных анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -49,5 +48,5 @@ ms.locfileid: "73060337"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что такое Power BI?](fundamentals/power-bi-overview.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

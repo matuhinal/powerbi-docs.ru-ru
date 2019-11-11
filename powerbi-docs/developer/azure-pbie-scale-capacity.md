@@ -4,18 +4,17 @@ description: В этой статье рассматривается масшт�
 services: power-bi-embedded
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a30c8cb6af80e74cbf2513c24aee55483338fb4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61388516"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875903"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Масштабирование емкости Power BI Embedded на портале Azure
 
@@ -62,4 +61,4 @@ ms.locfileid: "61388516"
 
 Чтобы начать внедрение содержимого Power BI в приложение, см. раздел [Как внедрять панели мониторинга, отчеты и плитки Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

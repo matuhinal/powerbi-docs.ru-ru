@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431511"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791270"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Использование общих наборов данных в построителе отчетов Power BI
 
@@ -30,7 +30,7 @@ ms.locfileid: "73431511"
 - Чтобы обратиться к набору данных, вам требуется разрешение на сборку для него. См. описание [разрешения на сборку](service-datasets-build-permissions.md).
 - Для создания отчета с разбивкой на страницы в построитель отчетов лицензия Power BI Pro не требуется. 
 - А для публикации отчета с разбивкой на страницы лицензия Power BI Pro нужна. Кроме того, для рабочей области в емкости Premium требуется по меньшей мере роль участника. 
-- Необязательно: если вы хотите следовать процедуре, описанной в этой статье, скачайте файл [Retail Analysis sample.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) для Power BI Desktop, откройте его в Power BI Desktop и добавьте таблицу со множеством столбцов. В области **Формат** отключите параметр **Итоги**. Затем опубликуйте его в рабочей области в службе Power BI.
+- Необязательно: если вы хотите следовать процедуре, описанной в этой статье, скачайте файл [Retail Analysis sample.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) для Power BI Desktop, откройте его в Power BI Desktop и добавьте таблицу со множеством столбцов. В области **Формат** отключите параметр **Итоги**. Затем опубликуйте его в рабочей области в службе Power BI.
 
     ![Итоги отключены](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

@@ -2,19 +2,18 @@
 title: Параметры конфигурации приложения Power BI для iOS
 description: Настройка поведения Power BI для iOS с помощью средства MDM
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70160158"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879433"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>Удаленная настройка приложения Power BI для iOS с помощью средства управления мобильными устройствами (MDM)
 
@@ -61,6 +60,6 @@ ms.locfileid: "70160158"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* Скачайте [мобильное приложение Power BI для iPhone](http://go.microsoft.com/fwlink/?LinkId=522062).
+* Скачайте [мобильное приложение Power BI для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062).
 * Подпишитесь на страницу [@MSPowerBI в Twitter](https://twitter.com/MSPowerBI)
-* Присоединяйтесь к обсуждению в [сообществе Power BI](http://community.powerbi.com/).
+* Присоединяйтесь к обсуждению в [сообществе Power BI](https://community.powerbi.com/).

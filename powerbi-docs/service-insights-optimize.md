@@ -2,7 +2,6 @@
 title: Оптимизация данных для быстрого анализа данных в Power BI
 description: 'Оптимизация данных для быстрого анализа данных в Power BI Если Power BI не находит результаты анализа, можно сделать следующее:'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ed588b0ca183e090d12f9aa0df23460a6037ed4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61235037"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872219"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Оптимизация данных для быстрого анализа данных в Power BI
 Хотите улучшить результаты быстрого анализа данных?  Если вы являетесь владельцем набора данных, попробуйте один из следующих способов.
@@ -28,5 +27,5 @@ ms.locfileid: "61235037"
 ### <a name="next-steps"></a>Дальнейшие действия
 [Быстрый анализ данных Power BI](consumer/end-user-insights.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Изменение настроек параметров в службе Power BI
 description: Параметры запроса создаются в Power BI Desktop, однако их можно просматривать и изменять в службе Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 656de2cbf318211bf2fe19f15a3867ab183f3173
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226033"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871955"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Изменение настроек параметров в службе Power BI
 Авторы отчетов добавляют параметры запросов в отчеты в Power BI Desktop. Параметры позволяют создавать части отчетов в зависимости от *значений* одного или нескольких параметров. Например, автор отчета может создать параметр, который ограничивает данные одной страной или регионом, или параметр, который определяет число допустимых форматов для таких полей, как поле даты, времени и текста.

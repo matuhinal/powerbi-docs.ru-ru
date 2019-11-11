@@ -2,19 +2,18 @@
 title: Варианты поддержки Power BI Pro и Power BI Premium
 description: В этой статье описываются варианты поддержки, которые доступны клиентам Power BI Pro и Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305813"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871387"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Варианты поддержки Power BI Pro и Power BI Premium
 
@@ -55,4 +54,4 @@ ms.locfileid: "71305813"
 
   - **WorkshopPLUS — данные и искусственный интеллект: расширенная аналитика данных на основе Power BI** — в рамках этого курса вы ознакомитесь с основными принципами моделирования данных в Power BI и научитесь применять их, используя такие средства, как Power BI Desktop и сопутствующая облачная служба, для публикации и использования ресурсов бизнес-аналитики. Далее в этом курсе рассматриваются основы разработки отчетов, внедрения содержимого в собственные приложения с помощью внедряемой аналитики Power BI, использования панелей мониторинга в режиме реального времени, а также расширенной аналитики на основе обработки и анализа данных и разработки в Power BI.
 
-За дополнительными сведениями обратитесь к своему менеджеру по технической поддержке Майкрософт. Если у вас еще нет договора о поддержке Microsoft Premier, дополнительные сведения можно получить на [сайте поддержки Premier](https://support.microsoft.com/en-us/premier).
+За дополнительными сведениями обратитесь к своему менеджеру по технической поддержке Майкрософт. Если у вас еще нет договора о поддержке Microsoft Premier, дополнительные сведения можно получить на [сайте поддержки Premier](https://support.microsoft.com/premier).

@@ -2,7 +2,6 @@
 title: 'Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях'
 description: 'Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523421"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874024"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях
 
@@ -53,11 +52,11 @@ ms.locfileid: "68523421"
 
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
-Кроме того, вы можете скачать пример пакета "Рентабельность клиента" в виде [PBIX-файла](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix), предназначенного для работы в Power BI Desktop.
+Кроме того, вы можете скачать пример пакета "Рентабельность клиента" в виде [PBIX-файла](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix), предназначенного для работы в Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](http://go.microsoft.com/fwlink/?LinkId=529781). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529781). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Какие данные отображаются на информационной панели?
 

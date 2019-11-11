@@ -2,7 +2,6 @@
 title: Отображение изображений в таблице или матрице в отчете
 description: В Power BI Desktop создается столбец с гиперссылками на изображения. Затем в Power BI Desktop или Службе Power BI вы добавляете эти гиперссылки в таблицу, матрицу, срез или многострочную карту отчета, чтобы отобразить изображение.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715556"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874488"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Отображение изображений в таблице, матрице или срезе в отчете
 
@@ -48,5 +47,5 @@ ms.locfileid: "71715556"
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

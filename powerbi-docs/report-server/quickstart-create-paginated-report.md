@@ -2,19 +2,18 @@
 title: Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 description: Узнайте, как создать отчет c разбивкой на страницы Power BI для сервера отчетов Power BI за несколько простых шагов.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770513"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875031"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 Как и предполагает название, отчеты c разбивкой на страницы могут выполняться на большом количестве страниц. Они поддерживают точную настройку и создаются в фиксированном формате. Отчеты с разбивкой на страницы это RDL-файлы.

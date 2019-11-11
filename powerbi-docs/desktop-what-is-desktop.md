@@ -2,7 +2,6 @@
 title: Что такое Power BI Desktop?
 description: Узнайте, что такое Power BI Desktop и как начать работу с этим приложением
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141972"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865136"
 ---
 # <a name="what-is-power-bi-desktop"></a>Что такое Power BI Desktop?
 
@@ -100,4 +99,4 @@ ms.locfileid: "71141972"
 Чтобы начать работу с **Power BI Desktop**, вам прежде всего нужно скачать и установить это приложение. Есть два способа получить **Power BI Desktop**:
 
 * [скачать Power BI Desktop с веб-сайта](desktop-get-the-desktop.md);
-* [установить Power BI Desktop из Магазина Windows](http://aka.ms/pbidesktopstore).
+* [установить Power BI Desktop из Магазина Windows](https://aka.ms/pbidesktopstore).

@@ -2,19 +2,18 @@
 title: Единый вход в Power BI для мобильных приложений, поддерживающих Windows
 description: Узнайте о едином входе (SSO) в Power BI для мобильных приложений, поддерживающих Windows. SSO — это доступ ко всем приложениям и ресурсам, которые вам нужны для ведения бизнеса при входе в систему только один раз с одной учетной записью пользователя.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: mshenhav
-ms.openlocfilehash: fdbdebacc2ae41cdfa8296eb6b0c06e52f149cac
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61336851"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876676"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Единый вход в Power BI для мобильных приложений, поддерживающих Windows
 
@@ -35,5 +34,5 @@ SSO доступно только для устройств с Windows под у
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)
-- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

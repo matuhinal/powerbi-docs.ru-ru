@@ -2,7 +2,6 @@
 title: Добавление гиперссылки в текстовое поле в отчете
 description: Добавление гиперссылки в текстовое поле в Power BI Desktop и службу Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832413"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873794"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Добавление гиперссылки в текстовое поле в отчете
 В Power BI Desktop или службу Power BI можно добавить текстовое поле в отчет. Можно закрепить текстовое поле из отчета на панели мониторинга или добавить его непосредственно на панель мониторинга. Если есть текстовое поле, вы всегда можете добавить к нему гиперссылку. В этой статье описывается добавление гиперссылки в текстовое поле в отчете. 
@@ -63,5 +62,5 @@ ms.locfileid: "68832413"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Текстовые поля и фигуры в отчетах Power BI](power-bi-reports-add-text-and-shapes.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

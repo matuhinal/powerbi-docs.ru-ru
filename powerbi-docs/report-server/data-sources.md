@@ -2,19 +2,18 @@
 title: Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 description: Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945832"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874178"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
@@ -81,7 +80,7 @@ ms.locfileid: "71945832"
 | Azure HDInsight Spark (бета-версия) |Да |Нет |Нет |
 | Common Data Service (бета-версия) |Да |Нет |Нет |
 | comScore Digital Analytix (бета-версия) |Да |Нет |Нет |
-| Dynamics 365 для Customer Insights (бета-версия) |Да |Нет |Нет |
+| Dynamics 365 for Customer Insights (бета-версия) |Да |Нет |Нет |
 | Dynamics 365 for Financials (бета-версия) |Да |Нет |Нет |
 | GitHub (бета-версия) |Да |Нет |Нет |
 | Google BigQuery (бета-версия) |Да |Нет |Нет |
@@ -164,7 +163,7 @@ ms.locfileid: "71945832"
 | Azure HDInsight Spark (бета-версия) |Нет |Нет |Нет |Нет |
 | Common Data Service (бета-версия) |Нет |Нет |Нет |Нет |
 | comScore Digital Analytix (бета-версия) |Нет |Нет |Нет |Нет |
-| Dynamics 365 для Customer Insights (бета-версия) |Нет |Нет |Нет |Нет |
+| Dynamics 365 for Customer Insights (бета-версия) |Нет |Нет |Нет |Нет |
 | Dynamics 365 for Financials (бета-версия) |Нет |Нет |Нет |Нет |
 | GitHub (бета-версия) |Нет |Нет |Нет |Нет |
 | Google BigQuery (бета-версия) |Нет |Нет |Нет |Нет |

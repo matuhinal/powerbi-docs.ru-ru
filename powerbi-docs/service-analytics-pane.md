@@ -2,7 +2,6 @@
 title: Создание динамических строк ссылок для визуальных элементов
 description: Создание динамических строк ссылок для визуализаций в службе Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ab8fb8daa46a21676925de16a068f2d2029954d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61184113"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855918"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Создание динамических строк ссылок для визуальных элементов в службе Power BI
 
@@ -100,5 +99,5 @@ ms.locfileid: "61184113"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Панель "Аналитика" в Power BI Desktop](desktop-analytics-pane.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

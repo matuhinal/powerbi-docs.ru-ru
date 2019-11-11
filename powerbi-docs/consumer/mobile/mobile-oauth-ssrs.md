@@ -3,18 +3,17 @@ title: Использование OAuth для подключения к сер�
 description: Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к SQL Server Reporting Services 2016 или более поздней версии.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903632"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870080"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
@@ -193,7 +192,7 @@ https://fs.contoso.com
 Хотя вы можете публиковать приложения в консоли управления доступом к отчету, сначала потребуется создать приложение с помощью PowerShell. Выполните эту команду, чтобы добавить приложение.
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | Параметр | Комментарии |
@@ -243,7 +242,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![Ошибка "Не удалось войти на сервер SSRS."](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-Вы можете настроить [Fiddler](http://www.telerik.com/fiddler) в качестве прокси-сервера для мобильных устройств, чтобы проанализировать ошибку. Чтобы включить прокси-сервер Fiddler для мобильного устройства, необходимо настроить [CertMaker для iOS и Android](http://www.telerik.com/fiddler/add-ons) на компьютере, на котором будет работать Fiddler. Дополнительный компонент, разработанный компанией Telerik для Fiddler.
+Вы можете настроить [Fiddler](https://www.telerik.com/fiddler) в качестве прокси-сервера для мобильных устройств, чтобы проанализировать ошибку. Чтобы включить прокси-сервер Fiddler для мобильного устройства, необходимо настроить [CertMaker для iOS и Android](https://www.telerik.com/fiddler/add-ons) на компьютере, на котором будет работать Fiddler. Дополнительный компонент, разработанный компанией Telerik для Fiddler.
 
 Если при использовании Fiddler вы можете войти на сервер, это означает, что существуют проблемы с сертификатом приложения WAP или сервера ADFS. Чтобы проверить правильность сертификатов, можно использовать средство [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226).
 
@@ -256,4 +255,4 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 [Прокси-служба веб-приложения в Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Публикация приложений с помощью предварительной проверки подлинности AD FS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
 [Настройка AD FS 2016 и Многофакторной идентификации Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

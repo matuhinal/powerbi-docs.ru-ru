@@ -3,19 +3,18 @@ title: Перезапуск емкости Power BI Premium
 description: Узнайте, как перезапустить емкость Power BI Premium, чтобы устранить проблемы с производительностью.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 758d630a06ed0194dec69013535df53f9a2825a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305658"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873423"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Перезапуск емкости Power BI Premium
 
@@ -59,4 +58,4 @@ Power BI постоянно совершенствуется с целью за
 
 [Что такое Power BI Premium?](service-premium-what-is.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

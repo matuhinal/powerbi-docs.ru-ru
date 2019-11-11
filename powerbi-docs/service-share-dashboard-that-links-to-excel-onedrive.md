@@ -2,7 +2,6 @@
 title: Совместное использование панели мониторинга, связанной с файлом Excel в OneDrive, в Power BI
 description: Прочитайте о предоставлении общего доступа к информационной панели, подключенной к книге Excel в OneDrive для бизнеса, с плитками, закрепленными из этой книги.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721450"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871464"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Общий доступ к панели мониторинга Power BI, содержащей ссылки на файл Excel в OneDrive
 Power BI позволяет [подключаться к книгам Excel в OneDrive для бизнеса](service-excel-workbook-files.md) и закреплять плитки из таких книг на панелях мониторинга. При предоставлении совместного доступа к этой панели мониторинга или создании пакета содержимого, в состав которого входит эта панель, будут доступны приведенные ниже действия.
@@ -57,5 +56,5 @@ Power BI позволяет [подключаться к книгам Excel в O
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Закрепление плитки на панели мониторинга Power BI из книги Excel](service-dashboard-pin-tile-from-excel.md)
 * [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

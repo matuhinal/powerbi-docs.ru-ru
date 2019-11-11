@@ -2,7 +2,6 @@
 title: Управление своим источником данных — SAP HANA
 description: Сведения об управлении локальным шлюзом данных и источниками, которые к нему относятся. Эта статья относится к SAP HANA.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303184"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881723"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Управление своим источником данных — SAP HANA
 
@@ -74,5 +73,5 @@ ms.locfileid: "70303184"
 * [Устранение неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot)
 * [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md) 
 
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 

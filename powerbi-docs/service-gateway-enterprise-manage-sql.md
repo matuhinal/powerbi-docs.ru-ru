@@ -2,7 +2,6 @@
 title: Управление своим источником данных — SQL
 description: Сведения об управлении локальным шлюзом данных и источниками, которые к нему относятся.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ca8cf2e9c20f2efb4fe4b9f80a936ba887cccc93
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 66e9b53761fa154fe76cefea99cb5c88345b97aa
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832397"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881639"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Управление своим источником данных — SQL Server
 
@@ -81,5 +80,5 @@ ms.locfileid: "68832397"
 * [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)
 * [Использование Kerberos для единого входа из Power BI в локальные источники данных](service-gateway-sso-kerberos.md)
 
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 

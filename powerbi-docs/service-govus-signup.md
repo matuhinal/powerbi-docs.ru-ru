@@ -2,7 +2,6 @@
 title: Регистрация в Power BI для клиентов из государственных организаций США
 description: Узнайте, как зарегистрировать государственную организацию США в Power BI для использования соответствующей версии службы Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715316"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872252"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Регистрация государственных организаций США в службе Power BI
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.

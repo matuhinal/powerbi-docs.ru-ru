@@ -2,7 +2,6 @@
 title: Общие сведения о запросах в Power BI Desktop
 description: Общие сведения о запросах в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513547"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876307"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Общие сведения о запросах в Power BI Desktop
 С помощью **Power BI Desktop** вы можете подключаться к миру данных, создавать привлекательные и фундаментальные отчеты и совместно использовать свою работу с другими пользователями, которые затем могут использовать ее для расширения своих возможностей по бизнес-аналитике.
@@ -47,7 +46,7 @@ Power BI Desktop также имеет **редактор запросов**, г
 
 После загрузки запроса представление **редактора запросов** становится гораздо более интересным. Если мы подключимся к указанному ниже веб-источнику данных, **редактор запросов** загрузит сведения о данных и мы сможем начинать их формировать.
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Вот так выглядит **редактор запросов** после подключения к данным:
 

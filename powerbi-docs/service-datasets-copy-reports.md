@@ -2,7 +2,6 @@
 title: Копирование отчетов из других рабочих областей (предварительная версия) — Power BI
 description: Вы можете узнать о том, как поделиться набором данных с пользователями в организации. Затем они могут создать отчеты, основанные на вашем наборе данных, в своих рабочих областях.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020825"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881943"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Копирование отчетов из других рабочих областей (предварительная версия)
 
@@ -82,4 +81,4 @@ ms.locfileid: "72020825"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Использование наборов данных в рабочих областях (предварительная версия)](service-datasets-across-workspaces.md)
-- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

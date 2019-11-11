@@ -2,19 +2,18 @@
 title: Просмотр в режиме презентации в Surface Hub и Windows 10 в Power BI
 description: Сведения об отображении отчетов Power BI в Surface Hub и отображении информационных панелей, отчетов и плиток Power BI в полноэкранном режиме на устройствах под управлением Windows 10.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338254"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869526"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Просмотр отчетов и панели мониторинга в режиме презентации на устройствах Surface Hub и Windows 10
 Можно использовать режим презентации для отображения отчетов и панели мониторинга в полноэкранном режиме на устройствах Windows 10 и Surface Hub. 
@@ -54,5 +53,5 @@ ms.locfileid: "61338254"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Отображение панелей мониторинга и отчетов в полноэкранном режиме (ТВ-режим)](../end-user-focus.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

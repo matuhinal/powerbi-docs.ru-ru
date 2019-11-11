@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391500"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783541"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Использование ярлыков Siri в приложении Power BI Mobile для iOS (предварительная версия)
 
@@ -66,7 +66,7 @@ ms.locfileid: "70391500"
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о мобильном приложении Power BI можно получить, сделав следующее: 
 
-* Скачайте [мобильное приложение Power BI для iPhone](http://go.microsoft.com/fwlink/?LinkId=522062).
+* Скачайте [мобильное приложение Power BI для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062).
 * Подпишитесь на страницу [@MSPowerBI в Twitter](https://twitter.com/MSPowerBI).
-* Присоединяйтесь к обсуждению в [Сообществе Power BI](http://community.powerbi.com/).
+* Присоединяйтесь к обсуждению в [Сообществе Power BI](https://community.powerbi.com/).
 

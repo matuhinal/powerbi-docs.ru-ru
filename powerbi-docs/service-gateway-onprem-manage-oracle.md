@@ -2,7 +2,6 @@
 title: Управление своим источником данных — Oracle
 description: Сведения об управлении локальным шлюзом данных и источниками, которые к нему относятся.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832449"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872460"
 ---
 # <a name="manage-your-data-source---oracle"></a>Управление своим источником данных — Oracle
 
@@ -29,11 +28,11 @@ ms.locfileid: "68832449"
 
 Для 32-разрядной версии Power BI Desktop используйте следующую ссылку, чтобы скачать и установить 32-разрядный клиент Oracle:
 
-* [32-разрядная версия Oracle Data Access Components (ODAC) с Oracle Developer Tools для Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [32-разрядная версия Oracle Data Access Components (ODAC) с Oracle Developer Tools для Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Если вы используете 64-разрядную версию Power BI Desktop или локальный шлюз данных, перейдите по следующей ссылке, чтобы скачать и установить 64-разрядный клиент Oracle:
 
-* [64-разрядная версия ODAC 12.2c, выпуск 1 (12.2.0.1.0) для 64-разрядных версий Windows](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [64-разрядная версия ODAC 12.2c, выпуск 1 (12.2.0.1.0) для 64-разрядных версий Windows](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 После установки клиента укажите в файле tnsnames.ora нужную информацию для своей базы данных. При настройке подключения для Power BI Desktop и шлюза используется имя net_service_name, которое задано в файле tnsnames.ora. Если net_service_name не настроен, подключиться не удастся. По умолчанию используется такой путь к файлу tnsnames.ora: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Дополнительные сведения о том, как настраивать файлы tnsnames.ora, см. в статье [Local Локальные параметры именования (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
 
@@ -132,5 +131,5 @@ CONTOSO =
 * [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 

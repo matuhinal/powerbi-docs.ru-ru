@@ -3,18 +3,17 @@ title: Публикация отчета с разбивкой на страни
 description: Из этого руководства вы узнаете, как опубликовать отчет с разбивкой на страницы в службе Power BI, передав его с локального компьютера.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6cf3cd715915b5a6f3aa41e61c01c8b5b0a7d204
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271223"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874763"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Публикация отчета с разбивкой на страницы в службе Power BI
 

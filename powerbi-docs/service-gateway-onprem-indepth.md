@@ -2,7 +2,6 @@
 title: Локальный шлюз данных во всех подробностях
 description: В этой статье подробно рассматривается локальный шлюз. В ней рассказывается, как служба использует каталог Azure Active Directory и локальный каталог Active Directory при работе с Analysis Services.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: e8807feeccccebab8837ac571ae4340c5c0c9b1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729962"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881597"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Локальный шлюз данных во всех подробностях
 
@@ -106,4 +105,4 @@ ms.locfileid: "68729962"
 
 См. статью [Что такое локальный шлюз данных?](service-gateway-onprem.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

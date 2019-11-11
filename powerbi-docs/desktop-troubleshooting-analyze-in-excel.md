@@ -2,7 +2,6 @@
 title: Устранение неполадок с анализом в Excel в Power BI Desktop
 description: Решения распространенных проблем анализа в Excel
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a2116f2146072590c4cbcc7f41d941950d9692f0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543991"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865760"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Устранение неполадок с анализом в Excel
 
@@ -24,7 +23,7 @@ ms.locfileid: "72543991"
 > [!NOTE]
 > Функция [анализа в Excel](service-analyze-in-excel.md) и процедура ее активации описаны на отдельной странице.
 > 
-> Если возникла проблемная ситуация, не указанная ниже, вы можете запросить дополнительную помощь на [сайте сообщества](http://community.powerbi.com/) или отправить [запрос в службу поддержки](https://powerbi.microsoft.com/support/).
+> Если возникла проблемная ситуация, не указанная ниже, вы можете запросить дополнительную помощь на [сайте сообщества](https://community.powerbi.com/) или отправить [запрос в службу поддержки](https://powerbi.microsoft.com/support/).
 > 
 > 
 
@@ -40,7 +39,7 @@ ms.locfileid: "72543991"
 * Не удается перетащить элементы в область значений сводной таблицы (без мер)
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>Обновление библиотек Excel для поставщика OLE DB
-Для использования функции **анализа в Excel** на компьютере должен быть установлен текущий поставщик OLE DB AS. Этот [пост сообщества](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081) — отличное средство для проверки установки поставщика OLE DB, а также источник для загрузки последней версии.
+Для использования функции **анализа в Excel** на компьютере должен быть установлен текущий поставщик OLE DB AS. Этот [пост сообщества](https://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081) — отличное средство для проверки установки поставщика OLE DB, а также источник для загрузки последней версии.
 
 Библиотеки Excel и ваша версия Windows должны иметь одинаковую разрядность. Если у вас установлена 64-разрядная версия Windows, установите 64-разрядную версию поставщика OLE DB.
 

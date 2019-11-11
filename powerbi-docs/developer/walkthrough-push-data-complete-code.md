@@ -3,18 +3,17 @@ title: Полный листинг кода
 description: Пошаговое руководство по отправке данных — полный листинг кода
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: cdf6bf157a3d8fe1f865c610238e3cd1f829ef9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ac534946b5f7e6fb5bb0164a1144523fa8f2aa94
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710285"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875497"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Полный листинг кода для отправки данных в набор данных
 
@@ -235,4 +234,4 @@ ms.locfileid: "65710285"
 [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

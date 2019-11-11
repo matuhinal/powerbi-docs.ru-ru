@@ -2,7 +2,6 @@
 title: Получение данных из файлов с разделителями-запятыми (CSV-файлов)
 description: Узнайте, как получать данные из CSV-файлов в Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513344"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855524"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Получение данных из файлов с разделителями-запятыми (CSV-файлов)
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-Файлы с разделителями-запятыми, нередко известные как CSV-файлы, являются простыми текстовыми файлами, содержащими строки данных, в которых каждое значение отделяется запятой. Файлы этого типа могут содержать очень большие объемы данных при относительно небольшом размере файла, что делает их источником данных, идеально подходящим для Power BI. Вы можете скачать пример CSV-файла [отсюда](http://go.microsoft.com/fwlink/?LinkID=619356).
+Файлы с разделителями-запятыми, нередко известные как CSV-файлы, являются простыми текстовыми файлами, содержащими строки данных, в которых каждое значение отделяется запятой. Файлы этого типа могут содержать очень большие объемы данных при относительно небольшом размере файла, что делает их источником данных, идеально подходящим для Power BI. Вы можете скачать пример CSV-файла [отсюда](https://go.microsoft.com/fwlink/?LinkID=619356).
 
 Если у вас есть CSV-файл, пришло время отправить его на сайт Power BI в виде набора данных, где вы сможете приступить к изучению данных, создать несколько информационных панелей и поделиться ценной информацией с другими пользователями.
 

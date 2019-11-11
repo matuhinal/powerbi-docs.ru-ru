@@ -2,19 +2,18 @@
 title: Настройка оповещений о данных в мобильных приложениях Power BI
 description: Узнайте, как в мобильных приложениях Power BI настроить оповещения, уведомляющие вас о том, что данные на панелях мониторинга выходят за установленные пределы.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: mshenhav
-ms.openlocfilehash: 65e6414cb31c2b8234bb1f5426c7bff295263308
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61381389"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870116"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Настройка оповещений о данных в мобильных приложениях Power BI
 Область применения:
@@ -168,5 +167,5 @@ ms.locfileid: "61381389"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Управление оповещениями в службе Power BI](../../service-set-data-alerts.md)
 * [Получение уведомлений в мобильных приложениях Power BI](mobile-apps-notification-center.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

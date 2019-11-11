@@ -2,7 +2,6 @@
 title: Два способа предоставления общего доступа к отфильтрованному отчету Power BI
 description: Узнайте, как двумя способами отфильтровать отчет Power BI и предоставить общий доступ к нему коллегам в организации.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877712"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871447"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Два способа предоставления общего доступа к отфильтрованному отчету Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. Что делать, если необходимо совместно использовать отфильтрованную версию отчета? Это может быть отчет, который отображает данные только по определенному городу, продавцу или году. Далее показано, как отфильтровать отчет и предоставить к нему общий доступ, а также создать пользовательский URL-адрес отчета. К отчету применяется фильтр во время первого открытия его получателями. Получатели могут удалить фильтр, изменив URL-адрес. 
@@ -74,6 +73,6 @@ ms.locfileid: "70877712"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Способы совместного использования работы в Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [предоставление общего доступа к панелям мониторинга](service-share-dashboards.md).
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 * Хотите оставить отзыв? Поделитесь своими предложениями на [веб-сайте сообщества Power BI](https://community.powerbi.com/).
 

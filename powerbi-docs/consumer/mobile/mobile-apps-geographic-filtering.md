@@ -2,18 +2,17 @@
 title: Фильтрация отчета по географическому расположению в мобильном приложении Power BI
 description: Узнайте, как фильтровать данные в отчете по географическому расположению в мобильных приложениях Microsoft Power BI, если владелец отчета настроил геотеги.
 author: mshenhav
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870631"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Фильтрация отчета по географическому расположению в мобильных приложениях Power BI
 Область применения:
@@ -51,5 +50,5 @@ ms.locfileid: "71305776"
 ### <a name="next-steps"></a>Дальнейшие действия
 * [Подключение к данным Power BI из реального мира](mobile-apps-data-in-real-world-context.md) с помощью мобильных приложений
 * [Категоризация данных в Power BI Desktop](../../desktop-data-categorization.md) 
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

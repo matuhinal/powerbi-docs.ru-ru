@@ -2,7 +2,6 @@
 title: Руководство по развертыванию шлюза данных для Power BI
 description: Ознакомьтесь с рекомендациями по развертыванию шлюза для Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729992"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881675"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Руководство по развертыванию шлюза данных для Power BI
 
@@ -69,5 +68,5 @@ ms.locfileid: "68729992"
 * [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)  
 * [Вопросы и ответы о локальном шлюзе данных — Power BI](service-gateway-power-bi-faq.md)  
 
-Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
 

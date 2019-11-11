@@ -2,7 +2,6 @@
 title: Устранение неполадок со вложенными значениями, возвращаемыми как текст, в службе Power BI
 description: Дополнительные сведения об исправлении вложенных значений, преобразуемых в строку при использовании неподходящих параметров конфиденциальности источника данных
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: 61181f9317718b6a4fb1cd73a767e4002b5b27f5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544256"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871283"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Устранение неполадок со вложенными значениями, возвращаемыми как текст, в службе Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "72544256"
 
 В прошлом имели место случаи, когда отчет нормально обновлялся в Power BI Desktop, однако в службе Power BI возникало сообщение об ошибке "Не удается преобразовать значение [Table] в тип Table". Одна из причин этой ошибки заключается в том, что когда брандмауэр для конфиденциальных данных помещает источник данных в буфер, вложенные нескалярные значения (например, таблицы, записи, списки и функции) автоматически преобразуются в текстовые (например, "[Table]" или "[Record]").
 
-Теперь, когда служба Power BI поддерживает настройку уровней конфиденциальности (или полное отключение этого брандмауэра), таких ошибок можно избежать, [настроив параметры конфиденциальности источника данных](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) в службе Power BI с использованием значения, отличного от "Частный".
+Теперь, когда служба Power BI поддерживает настройку уровней конфиденциальности (или полное отключение этого брандмауэра), таких ошибок можно избежать, [настроив параметры конфиденциальности источника данных](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) в службе Power BI с использованием значения, отличного от "Частный".
 
 Начиная и июньского выпуска Power BI, когда брандмауэр помещает вложенную таблицу, запись, список и т. д. в буфер, вместо автоматического преобразования этих значений в текст возникает следующая ошибка: 
 
@@ -57,4 +56,4 @@ ms.locfileid: "72544256"
 `if [MyColumn] is table then "[Table]" else if [MyColumn] is record then "[Record]" else if [MyColumn] is list then "[List]" else if [MyColumn] is function then "[Function]" else [MyColumn]`
 
 Воспроизводится ли проблема в Power BI Desktop, если задать для всех параметров конфиденциальности источника данных значение "Частный"?
-Если это так, вы можете устранить ошибку, [настроив для их параметров конфиденциальности источника данных](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) в службе Power BI значение, отличное от "Частный".
+Если это так, вы можете устранить ошибку, [настроив для их параметров конфиденциальности источника данных](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) в службе Power BI значение, отличное от "Частный".

@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847729"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800094"
 ---
 Добро пожаловать в раздел **интерактивного обучения** Power BI, посвященный знакомству с выражениями **DAX**.
 
 **DAX** означает **Data Analysis Expressions (выражения анализа данных)** . Это язык формул, который используется в Power BI, в том числе в алгоритмах, с которыми пользователи Power BI не сталкиваются. Язык DAX также используется в других продуктах Майкрософт, таких как PowerPivot и табличные модели SSAS, но в этих разделах интерактивного обучения рассматриваются только возможности применения DAX в Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX и серия видеоматериалов интерактивного обучения
-Этот раздел **интерактивного обучения** посвящен основам и принципам работы с DAX: здесь рассматриваются концепции этого языка, принципы его работы, а также полезные функции (и множество примеров) в изложении известного специалиста по DAX — [Альберто Феррари (Alberto Ferrari)](http://www.sqlbi.com/learning-dax).
+Этот раздел **интерактивного обучения** посвящен основам и принципам работы с DAX: здесь рассматриваются концепции этого языка, принципы его работы, а также полезные функции (и множество примеров) в изложении известного специалиста по DAX — [Альберто Феррари (Alberto Ferrari)](https://www.sqlbi.com/learning-dax).
 
 ![Портрет Альберто Феррари (Alberto Ferrari)](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ DAX — это *функциональный язык*, а это значит,
 
 В частности, есть один тип данных, с которым, скорее всего, вы будете часто работать в Power BI, а именно **DateTime**. **DateTime** сохраняется как значение с плавающей запятой, состоящее из целой и десятичной частей. Тип данных DateTime можно использовать для точных вычислений любых периодов времени после 1 марта 1900 года.
 
-> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 
 > 
 

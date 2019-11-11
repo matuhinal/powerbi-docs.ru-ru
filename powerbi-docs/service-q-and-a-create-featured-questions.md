@@ -2,7 +2,6 @@
 title: Создание избранных вопросов для функции вопросов и ответов Power BI
 description: Документация о создании избранных вопросов для функции вопросов и ответов Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721113"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881100"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Создание избранных вопросов для функции вопросов и ответов Power BI
 Если у вас есть набор данных, вы можете добавить для него собственные избранные вопросы. Функция "Вопросы и ответы" в Power BI покажет эти вопросы вашим коллегам, использующим отчеты на основе этого набора данных.  Избранные вопросы дают вашим коллегам представление о типах вопросов, которые можно задавать о наборе данных. Вы сами определяете избранные вопросы — добавьте популярные вопросы, вопросы, дающие интересный результат, или вопросы, которые трудно выразить.
@@ -50,5 +49,5 @@ ms.locfileid: "66721113"
 - [Использование функции "Вопросы и ответы" в панелях мониторинга и отчетах](power-bi-tutorial-q-and-a.md)  
 - [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

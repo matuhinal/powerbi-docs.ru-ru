@@ -3,19 +3,18 @@ title: Azure и Power BI
 description: Azure и Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513337"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873224"
 ---
 # <a name="azure-and-power-bi"></a>Azure и Power BI
 
@@ -31,7 +30,7 @@ ms.locfileid: "65513337"
 
 ![Из SQL в PBI](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
-Здесь вы можете узнать еще больше о [Базе данных SQL Azure](http://azure.microsoft.com/services/sql-database/).
+Здесь вы можете узнать еще больше о [Базе данных SQL Azure](https://azure.microsoft.com/services/sql-database/).
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>Преобразование, формирование и объединение данных в облаке
 
@@ -43,13 +42,13 @@ ms.locfileid: "65513337"
 
 Дополнительные сведения можно найти в следующих ресурсах:
 
-* [База данных SQL Azure](http://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
-* [Служба хранилища Azure](http://azure.microsoft.com/services/storage/) (хранилище BLOB-объектов и табличное хранилище)
+* [База данных SQL Azure](https://azure.microsoft.com/services/sql-database/)
+* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
+* [Служба хранилища Azure](https://azure.microsoft.com/services/storage/) (хранилище BLOB-объектов и табличное хранилище)
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Формирование более сложной среды и (достижение целей) с помощью служб Azure и Power BI
 
-Благодаря Azure и Power BI среду можно расширять по мере необходимости. Используйте широкие возможности обработки нескольких источников данных, систем обработки больших объемов данных в режиме реального времени, [Stream Analytics](http://azure.microsoft.com/services/stream-analytics/) и [центров событий](http://azure.microsoft.com/services/event-hubs/) и объединяйте данные различных служб SaaS в отчеты бизнес-аналитики, обеспечивающие преимущество вашего бизнеса.
+Благодаря Azure и Power BI среду можно расширять по мере необходимости. Используйте широкие возможности обработки нескольких источников данных, систем обработки больших объемов данных в режиме реального времени, [Stream Analytics](https://azure.microsoft.com/services/stream-analytics/) и [центров событий](https://azure.microsoft.com/services/event-hubs/) и объединяйте данные различных служб SaaS в отчеты бизнес-аналитики, обеспечивающие преимущество вашего бизнеса.
 
 ![Комплекс Azure](media/service-azure-and-power-bi/azure_4_complex.png)
 
@@ -57,7 +56,7 @@ ms.locfileid: "65513337"
 
 Внедряйте потрясающие интерактивные визуализации данных на веб-сайты, в приложения, порталы и другие ресурсы, чтобы эффективно использовать бизнес-данные. С помощью [Ресурса Power BI Embedded в Azure](https://azure.microsoft.com/services/power-bi-embedded/) вы сможете легко внедрять интерактивные отчеты и панели мониторинга, чтобы пользователи могли оценить удобство согласованных и качественных интерфейсов на любых устройствах.  Power BI в сочетании со средствами внедрения аналитики может помочь вам в нелегком пути от данных через знания и полезные сведения к реальным действия.  Вы можете еще больше повысить ценность Power BI и Azure, внедряя средства визуальной аналитики во [внутренние приложения и порталы своей организации](https://powerbi.microsoft.com/developers/embedded-analytics/organization/).
 
-На [портале разработчиков Power BI](http://dev.powerbi.com) можно найти множество полезных сведений об API-интерфейсах Power BI.
+На [портале разработчиков Power BI](https://dev.powerbi.com) можно найти множество полезных сведений об API-интерфейсах Power BI.
 
 Дополнительные сведения см. статье [Какие возможности Power BI предоставляет разработчикам?](developer/what-can-you-do.md).
 

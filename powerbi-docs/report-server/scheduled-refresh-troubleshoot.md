@@ -2,19 +2,18 @@
 title: Устранение неполадок запланированного обновления в решении "Сервер отчетов Power BI"
 description: Ресурсы для устранения неполадок запланированного обновления в решении "Сервер отчетов Power BI".
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: mblythe
-ms.openlocfilehash: 6f35ab1dfb14fe5a48fce0b56823ce7bab32d05d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 37eb5c0e68a6895ac105cc7f12d3353c04641204
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543940"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874055"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Устранение неполадок запланированного обновления в решении "Сервер отчетов Power BI"
 Ресурсы для устранения неполадок запланированного обновления в решении "Сервер отчетов Power BI".

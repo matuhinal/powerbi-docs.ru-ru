@@ -2,19 +2,18 @@
 title: Сканирование QR-кода Power BI на мобильном устройстве
 description: QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI в мобильном приложении для устройств iPhone и Android.
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236750"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879194"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Сканирование QR-кода Power BI на мобильном устройстве
 Область применения:
@@ -50,7 +49,7 @@ QR-коды в Power BI могут связывать любой предмет 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Сканирование QR-кода с помощью внешнего сканера, установленного на устройстве iPhone
 1. Откройте сканер на телефоне и наведите его на соответствующий QR-код Power BI, чтобы получить доступ к плитке или отчету. 
-2. Если на вашем iPhone не установлено приложение Power BI, откроется [каталог Apple App Store, откуда вы сможете его скачать](http://go.microsoft.com/fwlink/?LinkId=522062).
+2. Если на вашем iPhone не установлено приложение Power BI, откроется [каталог Apple App Store, откуда вы сможете его скачать](https://go.microsoft.com/fwlink/?LinkId=522062).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Сканирование QR-кода Power BI на устройстве Android с помощью сканера Power BI
 1. В мобильном приложении Power BI нажмите кнопку глобальной структуры навигации ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) в левом верхнем углу экрана. 
@@ -67,12 +66,12 @@ QR-коды в Power BI могут связывать любой предмет 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Сканирование QR-кода внешним сканером, установленным на устройстве Android
 1. Откройте сканер на устройстве Android и наведите сканер на соответствующий QR-код Power BI, чтобы получить доступ к плитке или отчету. 
-2. Если у вас не установлено приложение Power BI, откроется [каталог Google Play, где его можно будет скачать](http://go.microsoft.com/fwlink/?LinkID=544867). 
+2. Если у вас не установлено приложение Power BI, откроется [каталог Google Play, где его можно будет скачать](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Подключение к данным Power BI из реального мира](mobile-apps-data-in-real-world-context.md) с помощью мобильных приложений
 * [Создание QR-кода для плитки в службе Power BI](../../service-create-qr-code-for-tile.md)
 * [Создание QR-кода для отчета в Power BI](../../service-create-qr-code-for-report.md)
 * Кроме того, можно [сосканировать QR-код с помощью приложения Power BI для смешанной реальности](mobile-mixed-reality-app.md).
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

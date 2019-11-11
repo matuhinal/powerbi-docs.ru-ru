@@ -2,7 +2,6 @@
 title: Типы визуальных элементов в Power BI для потребителей
 description: Типы визуальных элементов в службе Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302514"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861328"
 ---
 # <a name="visual-types-in-power-bi"></a>Типы визуальных элементов в Power BI
 Визуальные элементы отображаются в отчетах, панелях мониторинга и разделах вопросов и ответов. Некоторые из этих типов визуальных элементов входят в состав Power BI, а другие являются *пользовательскими визуальными элементами*. Пользовательские визуальные элементы создаются за пределами Power BI, а также способом, который позволяет *конструкторам отчетов* добавлять их в отчеты и панели мониторинга Power BI. 
@@ -232,4 +231,4 @@ ms.locfileid: "70302514"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Взаимодействие с визуальными элементами в отчетах, информационных панелях и приложениях](end-user-visualizations.md)    
-[THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)
+[THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)

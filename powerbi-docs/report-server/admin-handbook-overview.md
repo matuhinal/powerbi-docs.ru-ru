@@ -2,19 +2,18 @@
 title: Общие сведения об администрировании Сервера отчетов Power BI
 description: В этой статье описано, как администрировать Сервер отчетов Power BI — локальное расположение для хранения и администрирования ваших отчетов Power BI, мобильных отчетов и отчетов с разбивкой на страницы.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187356"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860229"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Общие сведения об администрировании Сервера отчетов Power BI
 В этой статье описано, как администрировать Сервер отчетов Power BI — локальное расположение для хранения и администрирования ваших отчетов Power BI, мобильных отчетов и отчетов с разбивкой на страницы. В этом руководстве описаны концепции планирования, развертывания и администрирования Сервера отчетов Power BI и приведены ссылки на дополнительные материалы.
@@ -49,7 +48,7 @@ ms.locfileid: "66187356"
 [Поиск ключа продукта сервера отчетов](find-product-key.md)  
 [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
+[Download SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

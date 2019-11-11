@@ -2,7 +2,6 @@
 title: Использование внешней среды R IDE с Power BI
 description: Вы можете запускать и использовать с Power BI внешнюю интегрированную среду разработки.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ef64c802e2f231ce2632f4ed0a442a2a7bac3328
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514709"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876232"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Использование внешней среды R IDE с Power BI
 В **Power BI Desktop** можно использовать внешнюю среду R IDE (интегрированная среда разработки) для создания и редактирования R-скриптов, которые затем будут использоваться в Power BI.

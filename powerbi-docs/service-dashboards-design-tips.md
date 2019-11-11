@@ -2,7 +2,6 @@
 title: Советы по созданию эффективной панели мониторинга Power BI
 description: Советы по созданию эффективной панели мониторинга Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023747"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877400"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Советы по созданию эффективной панели мониторинга Power BI
 Создав панель мониторинга и добавив некоторые плитки, подумаем о том, как сделать панель мониторинга не просто привлекательной, но и функциональной. Как правило, это означает вывод наиболее важных сведений на передний план в четком и лаконичном представлении.
@@ -24,8 +23,6 @@ ms.locfileid: "69023747"
 
 > [!TIP]
 > Понравилась эта панель мониторинга? Вы можете скачать ее и соответствующие отчеты из AppSource. Выберите **Получить данные** > **Службы**. Найдите **Пример Майкрософт — продажи и маркетинг** > **Получить**.
-
-Большинство принципов проектирования отчетов также применяются к информационной панели. Дополнительные сведения см. в техническом документе [Основные рекомендации по проектированию отчетов и визуальных элементов](visuals/power-bi-visualization-best-practices.md).
 
 Вот несколько советов для панелей мониторинга.
 
@@ -85,4 +82,4 @@ ms.locfileid: "69023747"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Создание панели мониторинга из отчета](service-dashboard-create.md)  
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)  
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

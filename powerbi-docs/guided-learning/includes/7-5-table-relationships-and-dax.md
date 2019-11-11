@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273633"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800093"
 ---
 В Power BI можно создавать связи между различными таблицами, в том числе из совершенно разных источников данных. Посмотреть связи для любой модели данных можно в представлении **Связи** в приложении Power BI Desktop.
 
@@ -23,7 +23,7 @@ ms.locfileid: "61273633"
 
 Реляционные функции можно использовать для создания выражений, содержащих значения из нескольких таблиц. DAX возвращает результат работы этих функций независимо от длины цепочки связей.
 
-> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax)
+> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

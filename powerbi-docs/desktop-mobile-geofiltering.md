@@ -2,19 +2,18 @@
 title: Настройка географической фильтрации в Power BI Desktop для мобильных приложений
 description: Если в модели в Power BI Desktop настроена географическая фильтрация, вы можете автоматически фильтровать данные с учетом своего местоположения в мобильных приложениях Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61296165"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878091"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Настройка географической фильтрации в Power BI Desktop для мобильных приложений
 В Power BI Desktop можно [задать для столбца географическую категорию данных](desktop-data-categorization.md), чтобы приложение Power BI Desktop понимало, как интерпретировать соответствующие значения в визуальных элементах отчета. Кроме того, при просмотре соответствующего отчета мобильное приложение Power BI автоматически предлагает фильтры с учетом местоположения пользователя. 
@@ -61,5 +60,5 @@ ms.locfileid: "61296165"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Категоризация данных в Power BI Desktop](desktop-data-categorization.md)  
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Интеграция Power BI с Microsoft Flow
 description: Узнайте, как создавать потоки, которые активируются оповещениями о данных Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61147154"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881840"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow и Power BI
 
@@ -112,5 +111,5 @@ ms.locfileid: "61147154"
 * [Настройка оповещений о данных в службе Power BI](service-set-data-alerts.md)
 * [Настройка оповещений о данных на устройстве iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -3,18 +3,17 @@ title: Просмотр отчета с разбивкой на страницы
 description: В этом руководстве представлены сведения о просмотре отчетов с разбивкой на страницы в службе Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: f80b13ccd1393e98199acbcaabfbf80ad63707c8
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 670637b59a79691e72b6093451894cc516952a6d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839588"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874667"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>Просмотр отчета с разбивкой на страницы в службе Power BI
 

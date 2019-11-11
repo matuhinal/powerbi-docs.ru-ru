@@ -2,19 +2,18 @@
 title: Просмотр отчетов Power BI, оптимизированных для телефона
 description: Прочитайте о взаимодействии со страницами отчета, оптимизированного для просмотра в мобильных приложениях Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
-ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65100998"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870514"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Просмотр отчетов Power BI, оптимизированных для телефона
 
@@ -134,5 +133,5 @@ ms.locfileid: "65100998"
 * [Создание отчетов, оптимизированных для мобильных приложений Power BI](../../desktop-create-phone-report.md)
 * [Создание представления панели мониторинга для телефонов в Power BI](../../service-create-dashboard-mobile-phone-view.md)
 * [Оптимизация визуальных элементов для любого размера](../../visuals/desktop-create-responsive-visuals.md)
-* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

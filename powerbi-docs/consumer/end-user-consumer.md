@@ -2,7 +2,6 @@
 title: Общие сведения о пользователях Power BI
 description: Общие сведения о Power BI для потребителей (также известных как конечные пользователи или бизнес-пользователи).
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430265"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863806"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Служба Power BI для потребителей
 
@@ -59,6 +58,6 @@ Power BI упрощает выполнение ваших задач и повы
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Take a tour of the Power BI service for consumers](end-user-reading-view.md)   (Краткое руководство. Сведения о возможностях Power BI для потребителей)  
-[Power BI service training for consumers](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)   (Обучение потребителей работе со службой Power BI)  
+[Power BI service training for consumers](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)   (Обучение потребителей работе со службой Power BI)  
 [Терминология и основные понятия для *потребителей* Power BI](end-user-basic-concepts.md)    
 

@@ -2,7 +2,6 @@
 title: Руководство. Импорт и анализ данных веб-страницы
 description: Руководство. Импорт и анализ данных веб-страницы с помощью Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514640"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879592"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Руководство. Анализ данных веб-страницы с помощью Power BI Desktop
 
@@ -29,7 +28,7 @@ ms.locfileid: "65514640"
 
 ## <a name="connect-to-a-web-data-source"></a>Подключение к веб-источнику данных
 
-Данные о победителях Чемпионата Европы по футболу УЕФА можно найти в таблице результатов на странице Википедии по адресу http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
+Данные о победителях Чемпионата Европы по футболу УЕФА можно найти в таблице результатов на странице Википедии по адресу https://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
 ![Таблица результатов в Википедии](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ ms.locfileid: "65514640"
    >[!NOTE]
    >Можно также выбрать сам элемент **Получить данные** или элемент **Получить данные** в диалоговом окне Power BI **Начало работы**. После этого выберите **Интернет** из раздела **Все** или **Другое** в диалоговом окне **Получение данных** и щелкните **Подключить**.
    
-2. В диалоговом окне **Из Интернета** вставьте URL-адрес `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` в текстовое поле **URL-адрес** и нажмите кнопку **ОК**.
+2. В диалоговом окне **Из Интернета** вставьте URL-адрес `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` в текстовое поле **URL-адрес** и нажмите кнопку **ОК**.
    
     ![Получение данных из файлов](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -186,8 +185,8 @@ ms.locfileid: "65514640"
 Power BI Desktop предоставляет удобные возможности для получения данных из разнообразных источников и их обработки для анализа и визуализации в интерактивном режиме. Готовый отчет можно [отправить в Power BI](desktop-upload-desktop-files.md) и создать на его основе панели мониторинга, к которым можно предоставить общий доступ для других пользователей Power BI.
 
 ## <a name="see-also"></a>См. также:
-* [Прочитайте другие руководства по Power BI Desktop.](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Посмотрите видеоматериалы по Power BI Desktop.](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Посетите форум Power BI.](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Прочитайте блог, посвященный Power BI.](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Прочитайте другие руководства по Power BI Desktop.](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Посмотрите видеоматериалы по Power BI Desktop.](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Посетите форум Power BI.](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Прочитайте блог, посвященный Power BI.](https://go.microsoft.com/fwlink/?LinkID=519327)
 

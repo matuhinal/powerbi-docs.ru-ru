@@ -2,7 +2,6 @@
 title: Предыдущие ежемесячные обновления для Power BI Desktop
 description: Обновления компонентов для предыдущих версий Power BI Desktop.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e775d5c4cf0ad1c24765368681134f5d4e865ad3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429729"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866948"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -176,8 +175,8 @@ ms.locfileid: "73429729"
 
 Старые версии доступны по этим ссылкам: 
 
-* [32-разрядная версия Power BI Desktop, выпущенная в августе 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в августе 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
+* [32-разрядная версия Power BI Desktop, выпущенная в августе 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в августе 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
 
 
 ## <a name="july-2019-update-2715523641"></a>Обновление за июль 2019 г. (2.71.5523.641)
@@ -247,8 +246,8 @@ ms.locfileid: "73429729"
 
 Старые версии доступны по этим ссылкам: 
 
-* [32-разрядная версия Power BI Desktop, выпущенная в июле 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в июле 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
+* [32-разрядная версия Power BI Desktop, выпущенная в июле 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в июле 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
 
 
 ## <a name="june-2019-update-2705494561"></a>Обновление за июнь 2019 г. (2.70.5494.561)
@@ -330,8 +329,8 @@ ms.locfileid: "73429729"
 
 Старые версии доступны по этим ссылкам: 
 
-* [32-разрядная версия Power BI Desktop, выпущенная в июне 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в июне 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+* [32-разрядная версия Power BI Desktop, выпущенная в июне 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в июне 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>Обновление за май 2019 г. (2.69.5467.1251)
@@ -408,8 +407,8 @@ ms.locfileid: "73429729"
 
 Старые версии доступны по этим ссылкам: 
 
-* [32-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+* [32-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [64-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
 
 
 ## <a name="april-2019-update-2685432361"></a>Обновление за апрель 2019 г. (2.68.5432.361)
@@ -490,12 +489,6 @@ ms.locfileid: "73429729"
 * В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
 * Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
 * В архиве доступны версии Power BI Desktop только на английском языке.
-
-Старые версии доступны по этим ссылкам: 
-
-* [32-разрядная версия Power BI Desktop, выпущенная в апреле 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в апреле 2019 г.](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
-
 
 ## <a name="march-2019-update-2675404581"></a>Обновление за март 2019 г. (2.67.5404.581)
 
@@ -2414,7 +2407,7 @@ ms.locfileid: "73429729"
 -   Усовершенствования интеграции R в Power BI Desktop.
 
 
-Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](http://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx), содержащей более подробные сведения о каждой из этих новых функций.
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx), содержащей более подробные сведения о каждой из этих новых функций.
 
 Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
 
@@ -2470,7 +2463,7 @@ ms.locfileid: "73429729"
 -   Соединитель CSV: возможность задать разделитель столбцов в диалоговом окне «Источник»
 
 
-Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx), содержащей более подробные сведения о каждой из этих новых функций.
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx), содержащей более подробные сведения о каждой из этих новых функций.
 
 Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
 
@@ -2525,7 +2518,7 @@ ms.locfileid: "73429729"
 
 -   Новый веб-сайт документации, который теперь содержит и локализованные материалы
 
-Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](http://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx), содержащей более подробные сведения о каждой из этих новых функций.
+Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx), содержащей более подробные сведения о каждой из этих новых функций.
 
 Все обновления описаны и представлены в следующем видеоролике. Видео можно также посмотреть в записи блога.
 
@@ -2577,7 +2570,7 @@ ms.locfileid: "73429729"
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jbocn1ZNkxM" frameborder="0" allowfullscreen></iframe>
 
 
-Дополнительные сведения [см. в записи блога](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx), где приводится более подробное описание каждого обновления.
+Дополнительные сведения [см. в записи блога](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx), где приводится более подробное описание каждого обновления.
 
 
 
@@ -2647,7 +2640,7 @@ ms.locfileid: "73429729"
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
 
-Дополнительные сведения об этом обновлении [см. в записи блога](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx), где приводится более подробное описание каждого обновления.
+Дополнительные сведения об этом обновлении [см. в записи блога](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx), где приводится более подробное описание каждого обновления.
 
 ## <a name="august-2015-update-2264128403"></a>Обновление август 2015 (2.26.4128.403)
 

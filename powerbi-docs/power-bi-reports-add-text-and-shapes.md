@@ -2,7 +2,6 @@
 title: Текстовые поля и фигуры в отчетах Power BI
 description: Вы можете добавлять и создавать текстовые поля и фигуры в отчетах с помощью службы Microsoft Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 3da18269817ef89dfff9524c8875814430bc6cce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715273"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874444"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Текстовые поля и фигуры в отчетах Power BI
 Вы можете добавлять текстовые поля и фигуры в отчеты с помощью службы Power BI и Power BI Desktop. В обоих случаях требуются разрешения на изменение отчета. Если доступ к отчету в службе Power BI вам предоставил другой пользователь, у вас не будет прав на редактирование. 
@@ -68,4 +67,4 @@ ms.locfileid: "71715273"
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

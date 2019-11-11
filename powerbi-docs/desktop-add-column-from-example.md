@@ -2,7 +2,6 @@
 title: Добавление столбца из примера в Power BI Desktop
 description: Быстрое создание столбца в Power BI Desktop с использованием существующих столбцов в качестве примера
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d07cfda18f44a0872c8c9567aa29ac49a98622a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239786"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869437"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Добавление столбца из примера в Power BI Desktop
 Начиная с выпуска **Power BI Desktop**, вышедшего в апреле 2017 г., вы можете добавлять в свою модель новые столбцы данных с помощью **редактора запросов**. Вам нужно просто задать для нового столбца один или несколько примеров значений. Можно создать пример нового столбца, указав используемый столбец или входные данные на основе всех (или только выделенных) столбцов в конкретной таблице.

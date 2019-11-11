@@ -2,7 +2,6 @@
 title: Устранение неполадок с источником данных, не поддерживающим обновление
 description: Устранение неполадок с источником данных, не поддерживающим обновление
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 32c42f21eafa7118ed3977340517aeebe8c4219b
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542897"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856265"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Устранение неполадок с источником данных, не поддерживающим обновление
 При попытке настроить запланированное обновление набора данных может появиться сообщение об ошибке.
@@ -45,5 +44,5 @@ ms.locfileid: "72542897"
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 [Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

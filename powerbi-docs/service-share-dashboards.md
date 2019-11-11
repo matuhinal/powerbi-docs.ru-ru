@@ -2,7 +2,6 @@
 title: Предоставление общего доступа коллегам и другим пользователям к панелям мониторинга и отчетам Power BI
 description: Сведения о том, как предоставлять доступ к своим панелям мониторинга и отчетам коллегам, находящимся как внутри вашей организации, так и за ее пределами, а также другая информация об общем доступе.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 05a134f50f9a09ae5b51578a5e4e5f0a01a95740
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655083"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871508"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Предоставление общего доступа коллегам и другим пользователям к панелям мониторинга и отчетам Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. В Power BI также доступны [другие способы совместной работы с панелями мониторинга и отчетами и их распространения](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -167,5 +166,5 @@ ms.locfileid: "69655083"
 * Хотите оставить отзыв? Поделитесь своими предложениями на [веб-сайте сообщества Power BI](https://community.powerbi.com/).
 * [Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Совместное использование отфильтрованного отчета Power BI](service-share-reports.md)
-* У вас появились вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+* У вас появились вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

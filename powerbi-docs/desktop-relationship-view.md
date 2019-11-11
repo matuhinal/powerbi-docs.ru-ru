@@ -2,7 +2,6 @@
 title: Представление связей в Power BI Desktop
 description: Представление связей в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a947b5c0b957336f02d3ec2e27d2bfd36b36c639
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a39f675077d72698b62138aa1b9d56c5bf6a6958
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514353"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877838"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Представление связей в Power BI Desktop
 **Представление связей** показывает все таблицы, столбцы и связи в модели. Это может быть особенно удобно, если модель содержит сложные связи между большим количеством таблиц.

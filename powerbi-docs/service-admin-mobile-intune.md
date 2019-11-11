@@ -2,7 +2,6 @@
 title: Настройка мобильных приложений в Microsoft Intune
 description: Настройка мобильных приложений Power BI в Microsoft Intune. Сюда входит описание добавления и развертывания приложения. Здесь также описано создание политики мобильных приложений для управления безопасностью.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b1af8c58e24ff1d95b28ea8a024c29ccdcac56b3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: abbbceb6734ecb70469efa198b6e85fce4c3e840
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075616"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857346"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Настройка мобильных приложений в Microsoft Intune
 
@@ -191,4 +190,4 @@ URL-адрес приложения для iOS необходимо получи
 
 [Приложения Power BI для мобильных устройств](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)  
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)  

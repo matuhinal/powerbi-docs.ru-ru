@@ -3,18 +3,17 @@ title: Управление версиями в модели данных Power 
 description: Модель данных, предоставленная службой OData
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6456974e7c05b65eb084d00bb1970d4291a0cf0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385626"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875959"
 ---
 # <a name="data-model-versioning"></a>Управление версиями в модели данных
 
@@ -37,7 +36,7 @@ ms.locfileid: "61385626"
   
 Службы ***НЕ ДОЛЖНЫ*** менять свою модель данных в зависимости от прошедшего аутентификацию пользователя. Если модель данных зависит от пользователя или группы пользователей, все изменения ДОЛЖНЫ быть безопасными (как указано в этом разделе), если сравнивать полную модель и модель, видимую пользователям с ограниченной авторизацией.  
   
-Дополнительную информацию о стандартах моделей данных OData см. в разделе [OData версии 4.0, часть 1, "Протокол и корректировочный список 02"](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
+Дополнительную информацию о стандартах моделей данных OData см. в разделе [OData версии 4.0, часть 1, "Протокол и корректировочный список 02"](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
   
 ## <a name="see-also"></a>См. также:
 [Обзор интерфейса REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  

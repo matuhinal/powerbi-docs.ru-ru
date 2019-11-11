@@ -3,18 +3,17 @@ title: Новые возможности сервера отчетов Power BI
 description: Узнайте о новых возможностях сервера отчетов Power BI. Здесь приводятся сведения об основных функциях. Материалы обновляются по мере выпуска новых элементов.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325573"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858738"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
@@ -143,7 +142,7 @@ ms.locfileid: "71325573"
 - Обновление функции DAX ALLSELECTED
 - Отключение таблиц автоматической даты для новых отчетов
 
-## <a name="may-2019-power-bi-report-server"></a>Май 2019 г. Сервер отчетов Power BI
+## <a name="may-2019-power-bi-report-server"></a>Май 2019 г. Cервере отчетов Power BI
 
 ### <a name="support-for-trusted-visuals"></a>Поддержка для надежных визуальных элементов
 

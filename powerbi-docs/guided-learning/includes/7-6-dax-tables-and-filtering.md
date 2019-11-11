@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70166772"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800096"
 ---
 Важное отличие **DAX** от языка формул Excel заключается в том, в DAX можно передавать из одного выражения в другое *целые таблицы*, а не отдельные значения. Благодаря этому в DAX вы можете фильтровать таблицы в выражениях и продолжать работу с отфильтрованными наборами значений.
 
@@ -42,7 +42,7 @@ DAX позволяет создавать абсолютно новые вычи
 
 С помощью функций DAX можно также создать полностью вычисляемые таблицы. Для вычисляемых таблиц, созданных с помощью DAX, необходимы **ИМЯ** и **ТАБЛИЧНАЯ** функция. Вычисляемые таблицы можно использовать как и любую другую таблицу, включая создание связей.
 
-> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](http://www.sqlbi.com/learning-dax)
+> Видео от [Альберто Феррари (Alberto Ferrari), SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

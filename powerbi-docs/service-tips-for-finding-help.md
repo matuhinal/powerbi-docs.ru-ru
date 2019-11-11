@@ -2,7 +2,6 @@
 title: Десять советов по получению справки по Power BI
 description: Здесь приведены 10 способов получения справки, если вы хотите узнать о работе Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060303"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876948"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Десять советов по получению справки по Power BI
 Случались ли ситуации, когда вы не могли получить ответы на вопросы о Power BI в нужный момент (т. е. получить своевременную помощь)? 
@@ -55,7 +54,7 @@ ms.locfileid: "73060303"
 * Практические учебные занятия в рамках плана обучения **Информационная панель за день**.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7\. Задавайте вопросы и ищите сведения в сообществе Power BI
-Задавайте вопросы и ищите ответы в [сообществе Power BI](http://community.powerbi.com). Эксперты Power BI из различных стран активно участвуют в жизни сообщества. На этом ресурсе вы сможете воспользоваться знаниями экспертов.
+Задавайте вопросы и ищите ответы в [сообществе Power BI](https://community.powerbi.com). Эксперты Power BI из различных стран активно участвуют в жизни сообщества. На этом ресурсе вы сможете воспользоваться знаниями экспертов.
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8\. Создайте группу пользователей Power BI или присоединитесь к ней
 Присоединитесь к [группе пользователей Power BI](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) и обратитесь к ней за помощью, чтобы получить ответы. Или создайте собственную группу и сообщество пользователей, помогающих друг другу, и задайте свои требования (регион, данные, часовой пояс).
@@ -70,5 +69,5 @@ ms.locfileid: "73060303"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Что такое Power BI?](fundamentals/power-bi-overview.md)
-* Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
+* Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).

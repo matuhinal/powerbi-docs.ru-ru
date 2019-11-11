@@ -2,7 +2,6 @@
 title: Использование кнопок в Power BI
 description: Кнопки в Power BI Desktop позволяют вам создавать отчеты и панели мониторинга, которые работают как приложения и дают больше возможностей для взаимодействия пользователям
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a38b54bdacd0f60ee0151ad7c1a2084cebac2a37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239500"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878710"
 ---
 # <a name="using-buttons-in-power-bi"></a>Использование кнопок в Power BI
 **Кнопки** в Power BI позволяют создавать отчеты и панели мониторинга, которые работают как приложения. С их помощью вы можете создать удобную среду, где пользователи могут эффективно взаимодействовать мышью с элементами Power BI. Добавив кнопки в отчеты **Power BI Desktop**, предоставьте к ним общий доступ или опубликуйте их в службе Power BI и создайте панели мониторинга, чтобы пользователи могли работать с отчетами, как с обычными приложениями.
@@ -42,7 +41,7 @@ ms.locfileid: "65239500"
 * Текст кнопки
 * Значок
 * Контур
-* Fill
+* Заливка
 
 Чтобы настроить отображение кнопки для каждого состояния, разверните любую из этих карточек и откройте раскрывающийся список в ее верхней части. На следующем рисунке показана развернутая карточка **Контур** с раскрывающимся списком, содержащим три состояния кнопки.
 

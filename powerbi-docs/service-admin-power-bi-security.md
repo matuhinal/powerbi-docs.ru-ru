@@ -3,19 +3,18 @@ title: Безопасность Power BI
 description: Безопасность Power BI. Каким образом Power BI связан с Azure Active Directory и другими службами Azure. Этот раздел содержит также ссылку на более подробный официальный документ.
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: a5dac73fd2555b0ae53b0618dbc10f831db1149b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074718"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873491"
 ---
 # <a name="power-bi-security"></a>Безопасность Power BI
 
@@ -46,7 +45,7 @@ ms.locfileid: "71074718"
 
 ## <a name="user-authentication"></a>Проверка подлинности пользователей
 
-Для проверки подлинности пользователей, выполняющих вход в службу Power BI, используется Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)). В ней, в свою очередь, используются учетные данные для входа в Power BI всякий раз, когда пользователь пытается получить доступ к ресурсам, требующим проверки подлинности. Пользователи входят в службу Power BI с использованием адреса электронной почты, указанного при создании учетной записи Power BI; Power BI использует этот адрес как *действительное имя пользователя*, которое передается ресурсам каждый раз, когда пользователь пытается подключиться к данным. После этого *действительное имя пользователя* сопоставляется с *именем участника-пользователя* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx) и разрешается в связанную учетную запись домена Windows, которая подвергается проверке подлинности.
+Для проверки подлинности пользователей, выполняющих вход в службу Power BI, используется Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)). В ней, в свою очередь, используются учетные данные для входа в Power BI всякий раз, когда пользователь пытается получить доступ к ресурсам, требующим проверки подлинности. Пользователи входят в службу Power BI с использованием адреса электронной почты, указанного при создании учетной записи Power BI; Power BI использует этот адрес как *действительное имя пользователя*, которое передается ресурсам каждый раз, когда пользователь пытается подключиться к данным. После этого *действительное имя пользователя* сопоставляется с *именем участника-пользователя* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx) и разрешается в связанную учетную запись домена Windows, которая подвергается проверке подлинности.
 
 Для организаций, где в качестве имени входа в Power BI используются рабочие адреса электронной почты (например, <em>david@contoso.com</em>), сопоставление *действительного имени пользователя* с UPN выполняется просто. Для организаций, не использующих рабочие адреса электронной почты в качестве имени входа в Power BI (например, <em>david@contoso.onmicrosoft.com</em>), надлежащее сопоставление между AAD и локальными учетными данными потребует [синхронизации каталогов](https://technet.microsoft.com/library/jj573653.aspx).
 

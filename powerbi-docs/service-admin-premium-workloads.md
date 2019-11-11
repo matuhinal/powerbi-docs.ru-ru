@@ -3,19 +3,18 @@ title: Настройка рабочих нагрузок в Power BI Premium
 description: Сведения о настройке рабочих нагрузок в емкости Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307380"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856814"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Настройка рабочих нагрузок в емкости Premium
 
@@ -198,4 +197,4 @@ ms.locfileid: "72307380"
 [Сведения об отчетах с разбивкой на страницы в Power BI Premium](paginated-reports-report-builder-power-bi.md)   
 [Автоматическое обновление страниц в Power BI Desktop (предварительная версия)](desktop-automatic-page-refresh.md)
 
-Появились дополнительные вопросы? [Спросить в сообществе Power BI](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Спросить в сообществе Power BI](https://community.powerbi.com/)

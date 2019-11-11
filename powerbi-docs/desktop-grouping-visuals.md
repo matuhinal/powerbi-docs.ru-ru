@@ -2,7 +2,6 @@
 title: Использование группирования в Power BI Desktop
 description: Узнайте, как группировать визуальные элементы в Power BI Desktop.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6b6266547704077769174c2ae0a9675503f10dca
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69029587"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867481"
 ---
 # <a name="use-grouping-in-power-bi-desktop"></a>Использование группирования в Power BI Desktop
 **Группирование** в **Power BI Desktop** позволяет группировать визуальные элементы в отчете, например кнопки, текстовые поля, фигуры и любые создаваемые визуальные элементы, так же, как элементы группируются в PowerPoint. Со сгруппированными визуальными элементами в отчете можно работать как с одним объектом, благодаря чему перемещение, изменение размеров и работа со слоями в отчете становятся проще, быстрее и интуитивно понятнее.

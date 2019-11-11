@@ -2,7 +2,6 @@
 title: Оптимизация отчетов для мобильных приложений — Power BI
 description: Узнайте, как оптимизировать страницы отчетов для мобильных приложений Power BI путем создания версии отчета с книжной ориентацией специально для телефонов и планшетов.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61310792"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878389"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Оптимизация отчетов для мобильных приложений Power BI
 Вы можете сделать удобнее просмотр отчетов в мобильных приложениях, создав книжный макет. В Power BI Desktop и службе Power BI вы можете изменить расположение визуальных элементов отчета и изменить их размеры, чтобы обеспечить оптимальную работу в книжном режиме.  
@@ -110,5 +109,5 @@ Power BI автоматически обнаруживает в мобильны
 * [Создание представления панели мониторинга для телефонов в Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Просмотр отчетов Power BI, оптимизированных для телефона](consumer/mobile/mobile-apps-view-phone-report.md)
 * [Оптимизация визуальных элементов для любого размера](visuals/desktop-create-responsive-visuals.md)
-* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

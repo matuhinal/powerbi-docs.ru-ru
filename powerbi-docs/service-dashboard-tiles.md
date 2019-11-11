@@ -2,7 +2,6 @@
 title: Общие сведения о плитках панели мониторинга для разработчиков Power BI
 description: В этой статье описаны плитки панели мониторинга, созданные в отчетах SQL Server Reporting Services (SSRS).
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994895"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872781"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Общие сведения о плитках панели мониторинга для разработчиков Power BI
 
@@ -99,8 +98,8 @@ ms.locfileid: "68994895"
 - [Общие сведения о панелях мониторинга для разработчиков Power BI](service-dashboards.md)  
 - [Обновление данных в Power BI](refresh-data.md)
 - [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
-- [Интеграция плиток Power BI с документами Office](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Интеграция плиток Power BI с документами Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Закрепление элементов Reporting Services на панелях мониторинга в Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

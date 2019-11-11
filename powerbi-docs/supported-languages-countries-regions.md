@@ -2,7 +2,6 @@
 title: Поддерживаемые языки и страны (регионы) для Power BI
 description: См. список поддерживаемых языков и стран (регионов) для служб Power BI и Power BI Desktop, а также документации по Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968676"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876899"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Поддерживаемые языки и страны (регионы) для Power BI
 
@@ -126,7 +125,7 @@ Power BI определяет ваш язык на основе параметр
 > Если вы устанавливаете версию Power BI Desktop, которая оптимизирована для работы с сервером отчетов Power BI, язык выбирается при скачивании. Подробные сведения см. в статье [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](report-server/install-powerbi-desktop.md).
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Выберите язык для Power BI Desktop 
-1. Установите Power BI Desktop из [Магазина Windows](http://aka.ms/pbidesktopstore) или с помощью [автономного установщика](http://aka.ms/pbiSingleInstaller).
+1. Установите Power BI Desktop из [Магазина Windows](https://aka.ms/pbidesktopstore) или с помощью [автономного установщика](https://aka.ms/pbiSingleInstaller).
 2. Чтобы изменить язык, на компьютере найдите **Параметры Windows**. 
 3. Выберите **Время и язык**.
    
@@ -195,6 +194,6 @@ Power BI определяет ваш язык на основе параметр
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * Вы используете одно из мобильных приложений Power BI? См. дополнительные сведения о [поддерживаемых языках в мобильных приложениях Power BI](consumer/mobile/mobile-apps-supported-languages.md).
-* У вас появились вопросы? Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
+* У вас появились вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
 

@@ -2,7 +2,6 @@
 title: Визуализации таблиц в отчетах и на панелях мониторинга Power BI
 description: Руководство по работе с визуализациями таблиц в отчетах и на панелях мониторинга Power BI, включая способы изменения ширины столбцов.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193071"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870808"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Таблицы в отчетах и на панелях мониторинга Power BI
 
@@ -40,7 +39,7 @@ ms.locfileid: "71193071"
 
 ## <a name="prerequisite"></a>Необходимое условие
 
-В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. В верхнем левом разделе меню выберите **Файл** > **Открыть**.
    

@@ -2,7 +2,6 @@
 title: Создание пользовательских страниц ответов Power BI для Кортаны
 description: Создание пользовательских страниц ответов для Кортаны в Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 06f155676dffa7b5f87ce61a8b342708793ef2c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375243"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853741"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Создание пользовательской страницы ответов для Кортаны в службе Power BI или Power BI Desktop
 Используйте все возможности Power BI для создания специальных страниц отчета — *страниц ответов Кортаны* (иногда их называют *картами ответов Кортаны*), предназначенных для поиска ответов на вопросы Кортаны.
 
 > [!IMPORTANT]
-> Интеграция Cortana в Power BI рекомендуется. Начиная с 11 июня, Cortana больше не будет работать для любой панели мониторинга и отчеты.
+> Интеграция Кортаны признана нерекомендуемой в Power BI. Начиная с 11 июня Кортана перестанет работать для панелей мониторинга и отчетов.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -96,5 +95,5 @@ ms.locfileid: "66375243"
 
 По-прежнему не удается настроить Кортану для работы с Power BI?  Ознакомьтесь со сведениями, указанными в статье [Устранение неполадок Кортаны для Power BI](service-cortana-troubleshoot.md).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

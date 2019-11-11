@@ -3,19 +3,18 @@ title: Создание емкости Power BI Embedded на портале Azu
 description: В этой статье рассматривается создание емкости Power BI Embedded в Microsoft Azure.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
-ms.openlocfilehash: 7a469de22d0432da595f404e72414fb0a686dbc8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 72c7211647254c97b3cb7ce088d400112a9e288a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385233"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864986"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Создание емкости Power BI Embedded на портале Azure
 
@@ -67,4 +66,4 @@ ms.locfileid: "61385233"
 
 Чтобы начать внедрение содержимого Power BI в приложение, см. раздел [Как внедрять панели мониторинга, отчеты и плитки Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

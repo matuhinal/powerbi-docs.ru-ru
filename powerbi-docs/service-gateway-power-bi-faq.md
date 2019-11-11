@@ -2,7 +2,6 @@
 title: Вопросы и ответы о локальном шлюзе данных — Power BI
 description: В этой статье приводятся вопросы и ответы о локальном шлюзе данных для Power BI. В этой статье собраны все часто задаваемые вопросы о шлюзе, используемом в Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867055"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872392"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Вопросы и ответы о локальном шлюзе данных — Power BI
 
@@ -73,5 +72,5 @@ ms.locfileid: "68867055"
 
 * [Устранение неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot)
 
-Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
 

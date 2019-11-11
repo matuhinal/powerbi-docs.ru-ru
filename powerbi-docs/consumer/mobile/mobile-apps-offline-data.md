@@ -2,19 +2,18 @@
 title: Просмотр данных в автономном режиме в мобильных приложениях Power BI
 description: 'Узнайте о преимуществах мобильного приложения Power BI в сравнении с браузером на мобильном устройстве: возможности просматривать данные даже при отсутствии подключения к сети.'
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: d0d9b10c24d3d9da60ecf1afde7347f53d20f224
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059438"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870618"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Просмотр данных в автономном режиме в мобильных приложениях Power BI
 Область применения:
@@ -64,6 +63,6 @@ ms.locfileid: "73059438"
 
 * [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
 * Подпишитесь на страницу @MSPowerBI в Twitter
-* Присоединяйтесь к обсуждению в [сообществе Power BI](http://community.powerbi.com/).
+* Присоединяйтесь к обсуждению в [сообществе Power BI](https://community.powerbi.com/).
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 

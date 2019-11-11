@@ -2,19 +2,18 @@
 title: Что такое Power BI?
 description: Обзор Power BI и связи между его компонентами — Power BI Desktop, службой Power BI, Power BI Mobile, Сервером отчетов и Power BI Embedded.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 17c352a28561278ae282d76f725322ad800fb76d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064452"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875654"
 ---
 # <a name="what-is-power-bi"></a>Что такое Power BI?
 **Power BI** — это коллекция программных служб, приложений и соединителей, которые взаимодействуют друг с другом, чтобы превратить разрозненные источники данных в согласованные, визуально иммерсивные и интерактивные аналитические данные. Ваши данные могут быть представлены в виде таблицы Excel или коллекции облачных и локальных гибридных хранилищ данных. Power BI позволяет легко подключаться к источникам данных, визуализировать и выделять наиболее важную информацию и делиться ею с отдельными или всеми пользователями.

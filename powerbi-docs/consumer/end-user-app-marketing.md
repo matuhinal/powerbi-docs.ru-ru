@@ -2,7 +2,6 @@
 title: Установка и использование приложения "Маркетинг и продажи" в службе Power BI
 description: Приложения в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Установите приложение "Маркетинг и продажи" с веб-сайта AppSource.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/02/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: aaab001653fbcc0d887b8cd252dc49687e703c3e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: e15c19402c032d84c77f1e6e61e7afb6b49856fb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944635"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851158"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Установка и использование образца приложения "Маркетинг и продажи" в службе Power BI
 После знакомства с [общими принципами получения содержимого Power BI](end-user-app-view.md) вы уже представляете, как получить приложение "Маркетинг и продажи" с веб-сайта Microsoft AppSource (appsource.com). 

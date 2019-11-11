@@ -3,18 +3,17 @@ title: Рекомендации по визуальным элементам Pow
 description: Узнайте, как опубликовать пользовательские визуальные элементы в AppSource, чтобы они стали доступными для приобретения другими пользователями.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 4e17406b0b4e616a9857cf40298a7931e2b65427
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944856"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863935"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
 Прежде чем [опубликовать](https://docs.microsoft.com/power-bi/developer/office-store) визуальный элемент в AppSource, чтобы его могли найти и использовать другие люди, убедитесь, что соблюдены рекомендации по обеспечению интерфейса для эффективной работы пользователей. 

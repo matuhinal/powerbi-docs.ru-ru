@@ -2,7 +2,6 @@
 title: Как закрепить плитки на панели мониторинга Power BI из книги Excel
 description: Закрепление плитки на панели мониторинга Power BI из книги Excel в OneDrive для бизнеса. Закрепление диапазонов, диаграмм, таблиц
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139228"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877426"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Закрепление плитки на панели мониторинга Power BI из книги Excel
 Прежде чем можно будет закрепить плитку из книги Excel, эту книгу необходимо подключить к службе Power BI (app.powerbi.com). При подключении книги ее связанная доступная только для чтения версия добавляется в службу Power BI, что дает возможность закреплять диапазоны ячеек на панелях мониторинга. На панели мониторинга можно закрепить даже целый лист.  
 Если доступ к книге вам предоставил другой пользователь, вы сможете просматривать плитки, закрепленные владельцем, а создавать новые плитки на панели мониторинга — нет. 
 
-Подробные сведения о совместной работе Excel и Power BI см. в статье [Получение данных из файлов книг Excel](http://go.microsoft.com/fwlink/?LinkID=521962).
+Подробные сведения о совместной работе Excel и Power BI см. в статье [Получение данных из файлов книг Excel](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 В следующем видео Уилл покажет несколько способов импорта данных из книги Excel и подключения к ней.
 
@@ -81,12 +80,12 @@ ms.locfileid: "61139228"
  ![видео](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
-Не поддерживаются следующие функции: Power BI использует службы Excel для извлечения плиток книги. Таким образом, из-за того, что некоторые функции Excel не поддерживаются в REST API служб Excel, эти функции не будут отображаться на плитках в Power BI. Например: к таким функциям относятся, спарклайны, условное форматирование набора значков и срезы времени. Полный список неподдерживаемых функций см. в статье [Неподдерживаемые компоненты API REST служб Excel](http://msdn.microsoft.com/library/office/ff394477.aspx).
+Не поддерживаются следующие функции: Power BI использует службы Excel для извлечения плиток книги. Таким образом, из-за того, что некоторые функции Excel не поддерживаются в REST API служб Excel, эти функции не будут отображаться на плитках в Power BI. Например: к таким функциям относятся, спарклайны, условное форматирование набора значков и срезы времени. Полный список неподдерживаемых функций см. в статье [Неподдерживаемые компоненты API REST служб Excel](https://msdn.microsoft.com/library/office/ff394477.aspx).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Общий доступ к панели мониторинга, содержащей ссылки на книгу Excel](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Получение данных из книг Excel](service-excel-workbook-files.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

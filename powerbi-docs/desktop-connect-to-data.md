@@ -2,7 +2,6 @@
 title: Подключение к данным в Power BI Desktop
 description: Подключение к данным в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514104"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878480"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Подключение к данным в Power BI Desktop
-Power BI Desktop позволяет легко подключаться к постоянно растущему миру данных. Если у вас нет Power BI Desktop, его можно загрузить и установить [отсюда](http://go.microsoft.com/fwlink/?LinkID=521662).
+Power BI Desktop позволяет легко подключаться к постоянно растущему миру данных. Если у вас нет Power BI Desktop, его можно загрузить и установить [отсюда](https://go.microsoft.com/fwlink/?LinkID=521662).
 
 В Power BI Desktop доступны *все виды* источников данных. На следующем рисунке показано, как подключиться к данным, выбрав на ленте пункт **Файл**, а затем последовательно выбрав **Получить данные \> Дополнительно**.
 
@@ -32,7 +31,7 @@ Power BI Desktop позволяет легко подключаться к по�
 
 В любом случае интересующие вас данные в этих и многих других областях имеются на следующем веб-ресурсе:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Выберите **Получить данные \> Интернет** и введите адрес.
 
@@ -75,7 +74,7 @@ Power BI Desktop предоставляет широкие возможност�
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)   
 
-Хотите оставить отзыв? Прекрасно! Используйте пункт меню **Отправить идею** в Power BI Desktop или посетите раздел [Отзывы сообщества](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Мы будем рады вашим отзывам.
+Хотите оставить отзыв? Прекрасно! Используйте пункт меню **Отправить идею** в Power BI Desktop или посетите раздел [Отзывы сообщества](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Мы будем рады вашим отзывам.
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

@@ -2,7 +2,6 @@
 title: Где расположен мой клиент Power BI?
 description: Узнайте, где расположен ваш клиент Power BI и как происходит выбор места расположения. Это важно знать, так как место расположения клиента может влиять на качество обмена данными со службой.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 621b15d682cf2992559f76fa9f8f18bfe68ac93b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074158"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873327"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Где расположен мой клиент Power BI?
 
@@ -27,7 +26,7 @@ ms.locfileid: "71074158"
 
 Чтобы найти регион, в котором расположен ваш клиент, выполните следующие действия.
 
-1. В службе Power BI в верхнем меню выберите справку (**?**) и **О Power BI**.
+1. В службе Power BI в верхнем меню выберите справку ( **?** ) и **О Power BI**.
 
 1. Посмотрите, какой регион указан после текста **Ваши данные сохранены в**. Это регион, в котором расположен ваш клиент. Кроме того, это значение указывает на регион, где хранятся ваши данные, если только вы не используете для своих рабочих областей выделенные емкости в разных регионах.
 
@@ -44,5 +43,5 @@ Power BI выбирает регион, наиболее близкий к вы
 > [!IMPORTANT]
 > Этот выбор нельзя будет изменить после создания клиента.
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 
