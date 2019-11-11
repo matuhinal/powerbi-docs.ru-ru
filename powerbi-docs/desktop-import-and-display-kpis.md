@@ -2,7 +2,6 @@
 title: Импорт и отображение ключевых показателей эффективности в Power BI
 description: Импорт и отображение ключевых показателей эффективности
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3bf974176c7638aa2f1093535e8027ad511deabb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 270d5542bd7856059387e565e4b5ffa90432794c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454238"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867142"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Импорт и отображение ключевых показателей эффективности в Power BI
 С помощью **Power BI Desktop** можно импортировать и отображать ключевые показатели эффективности в таблицах, матрицах и на картах.

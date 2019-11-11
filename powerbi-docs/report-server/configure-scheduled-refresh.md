@@ -2,19 +2,18 @@
 title: Как настроить запланированное обновление отчета Power BI
 description: Для обновления данных в отчете Power BI необходимо создать расписание обновления.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: mblythe
-ms.openlocfilehash: f502ae89eb4c413dd900077272dbed5a4a9c4c6f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c8794d797d6267fcc378b22d8b41995d88b8bddd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61219790"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859988"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Как настроить запланированное обновление отчета Power BI
 Для обновления данных в отчете Power BI необходимо создать расписание обновления. Это можно сделать в области *Управление* отчета Power BI.

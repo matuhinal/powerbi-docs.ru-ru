@@ -2,7 +2,6 @@
 title: Использование языка Python в редакторе запросов Power BI
 description: Используйте язык Python в редакторе запросов Power BI Desktop для расширенной аналитики
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61286877"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878020"
 ---
 # <a name="using-python-in-query-editor"></a>Использование языка Python в редакторе запросов
 В **редакторе запросов** Power BI Desktop можно использовать язык программирования **Python**, который широко применяют специалисты по статистике, аналитики и специалисты по обработке данных. Интеграция языка Python в **редактор запросов** позволяет выполнять очистку данных с помощью Python, а также формирование и анализ данных в наборах данных, в частности заполнение отсутствующих данных, прогнозирование и кластеризацию. **Python** — эффективный язык, который можно использовать в **редакторе запросов** для подготовки модели данных и создания отчетов.
@@ -24,7 +23,7 @@ ms.locfileid: "61286877"
 Чтобы использовать **Python** в **редакторе запросов** Power BI Desktop, необходимо установить **Python** на локальном компьютере. Вы можете скачать и установить **Python** бесплатно из различных расположений, включая [официальную страницу скачивания Python](https://www.python.org/) и [Anaconda](https://anaconda.org/anaconda/python/).
 
 ## <a name="using-python-in-query-editor"></a>Использование языка Python в редакторе запросов
-Чтобы продемонстрировать использование **Python** в **редакторе запросов**, воспользуемся примером из набора данных фондовой биржи в CSV-файле, который вы можете [скачать здесь](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Ниже перечислены шаги для этого примера.
+Чтобы продемонстрировать использование **Python** в **редакторе запросов**, воспользуемся примером из набора данных фондовой биржи в CSV-файле, который вы можете [скачать здесь](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Ниже перечислены шаги для этого примера.
 
 1. Сначала загрузите данные в **Power BI Desktop**. В этом примере загрузите файл *EuStockMarkets_NA.csv* и выберите **Получить данные > CSV** на вкладке ленты **Главная** в **Power BI Desktop**.
    
@@ -77,7 +76,7 @@ ms.locfileid: "61286877"
 Когда будет создан визуальный элемент (а также другие визуальные элементы, которые требуется создать с помощью **Power BI Desktop**), вы можете сохранить файл **Power BI Desktop** в формате PBIX, а затем использовать в службе Power BI модель данных и включенные в нее сценарии Python.
 
 > [!NOTE]
-> Хотите просмотреть заполненный PBIX-файл с результатами выполнения этих действий? Вам повезло: вы можете загрузить заполненный файл **Power BI Desktop**, используемый в этих примерах, [прямо здесь](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix).
+> Хотите просмотреть заполненный PBIX-файл с результатами выполнения этих действий? Вам повезло: вы можете загрузить заполненный файл **Power BI Desktop**, используемый в этих примерах, [прямо здесь](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix).
 
 После отправки PBIX-файла в службу Power BI необходимо выполнить еще несколько дополнительных действий, чтобы обновить данные (в службе) и включить обновление визуальных элементов в службе (для обновления визуальных элементов данным требуется доступ к Python). Вот эти действия:
 
