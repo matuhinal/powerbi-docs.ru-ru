@@ -3,18 +3,17 @@ title: Получение токена доступа для проверки п
 description: Пошаговое руководство по отправке данных — получение токена доступа для проверки подлинности
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/29/2019
-ms.openlocfilehash: 5cb741d194d787014fec39f963e19d04de59a668
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: f6e0bbec2275407e963d5b97e6d780089fedc0ae
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809101"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875704"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Шаг 2. Получение токена доступа для проверки подлинности
 
@@ -188,4 +187,4 @@ namespace walkthrough_push_data
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

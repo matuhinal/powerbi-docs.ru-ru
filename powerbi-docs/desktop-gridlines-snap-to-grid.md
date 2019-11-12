@@ -2,7 +2,6 @@
 title: Использование линий сетки и привязки к сетке в отчетах Power BI Desktop
 description: Использование линий сетки, привязки к сетке, z-порядка, выравнивания и распределения в отчетах Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b304a917e2b3e09e93f7f01b3b31d75023777bb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b7be8601a535843fc012cf7ea0f2ae723ea6ba79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454295"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878217"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Использование линий сетки и привязки к сетке в отчетах Power BI Desktop
 На холсте отчетов **Power BI Desktop** отображаются линии сетки, которые позволяют аккуратно выравнивать визуальные элементы на странице отчета и привязывать их к сетке. Благодаря этим возможностям объекты в отчете будут выровнены и расположены с равными интервалами.
