@@ -188,6 +188,8 @@
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Сканирование штрихкода из приложения на iPhone
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: Настройка с помощью управления мобильными устройствами
+              href: mobile/mobile-app-configuration.md
         - name: iOS
           items:
             - name: Начало работы с приложением для iOS
@@ -202,8 +204,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Приложение Power BI для Apple Watch
               href: mobile/mobile-apple-watch.md
-            - name: Настройка с помощью управления мобильными устройствами
-              href: mobile/mobile-app-configuration.md
         - name: Устройства Android
           items:
             - name: Приступая к работе с приложением Android
