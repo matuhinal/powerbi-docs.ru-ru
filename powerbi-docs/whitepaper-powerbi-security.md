@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 075d4ea0c243f77ebf0d29020f25bbca6567c6c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870781"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009834"
 ---
 # <a name="power-bi-security-whitepaper"></a>Технический документ по обеспечению безопасности в Power BI
 
@@ -334,12 +334,6 @@ Power BI обеспечивает мониторинг целостности д
 
 Если бы Дмитрий хотел получить доступ к общей панели мониторинга или отчету, была бы реализована та же процедура с учетом его уровня роли.
 
-## <a name="power-bi-and-expressroute"></a>Power BI и ExpressRoute
-
-С помощью Power BI и ExpressRoute можно создать подключение между частной сетью организации и Power BI (или используя средство совместного размещения поставщика услуг Интернета), обходя Интернет для повышения безопасности конфиденциальных данных Power BI и подключений.
-
-ExpressRoute — это служба Azure, которая позволяет создавать частные подключения между центрами обработки данных Azure (где находится Power BI) и локальной инфраструктурой или создавать частные подключения между центрами обработки данных Azure и средой совместного размещения. Дополнительные сведения см. в статье [Power BI и ExpressRoute](service-admin-power-bi-expressroute.md).
-
 ## <a name="power-bi-mobile"></a>Power BI Mobile
 
 Power BI Mobile — это набор приложений, предназначенных для трех основных мобильных платформ: Android, iOS и Windows Mobile. Аспекты безопасности для приложений Power BI Mobile делятся на две категории:
@@ -450,7 +444,7 @@ Power BI Mobile — это набор приложений, предназнач
 
 **Существуют ли другие визуальные элементы Power BI, отправляющие сведения за пределы сети клиента?**
 
-* Да. Карты Bing и визуальные элементы ESRI передают данные за пределы службы Power BI для визуальных элементов, использующих эти службы. Дополнительные сведения и подробное описание исходящего трафика клиента Power BI см. в разделе [**Power BI и ExpressRoute**](service-admin-power-bi-expressroute.md).
+* Да. Карты Bing и визуальные элементы ESRI передают данные за пределы службы Power BI для визуальных элементов, использующих эти службы.
 
 **Для приложений шаблонов Корпорация Майкрософт выполняет какие – либо оценки безопасности или конфиденциальности приложения шаблона перед публикацией элементов в галерее?**
 * Нет. Издатель приложения несет ответственность за содержимое, тогда как клиент отвечает за проверку и определение того, следует ли доверять издателю приложения шаблона. 
@@ -487,7 +481,6 @@ Power BI Mobile — это набор приложений, предназнач
 - [Обзор REST API Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Справочник по API Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
 - [On-premises data gateway (Локальный шлюз данных)](service-gateway-onprem.md)
-- [Power BI и ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Национальные облачные службы Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Использование Kerberos для единого входа из Power BI в локальные источники данных](service-gateway-sso-overview.md)
