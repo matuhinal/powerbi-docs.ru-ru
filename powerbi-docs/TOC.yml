@@ -119,6 +119,8 @@
           items:
             - name: Источники данных в Power BI Desktop
               href: desktop-data-sources.md
+            - name: "Подключение к LinkedIn Sales\_Navigator (предварительная версия)"
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Подключение к веб-странице н основе примера (предварительная версия)
               href: desktop-connect-to-web-by-example.md
             - name: Подключение к наборам данных в службе Power BI
@@ -201,6 +203,8 @@
           items:
             - name: Объединение двоичных значений
               href: desktop-combine-binaries.md
+            - name: "Использование Аналитики\_ИИ в Power\_BI\_Desktop (предварительная версия)"
+              href: desktop-ai-insights.md
         - name: Моделирование данных
           items:
             - name: Категоризация данных в Power BI Desktop
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Комбинированная диаграмма в Power BI
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: "Дерево декомпозиции в Power\_BI (предварительная версия)"
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Кольцевые диаграммы в Power BI
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Картограммы (хороплеты) в Power BI
@@ -405,6 +411,8 @@
       items:
         - name: Типы данных в Power BI Desktop
           href: desktop-data-types.md
+        - name: "Использование обновленной ленты в Power\_BI\_Desktop (предварительная версия)"
+          href: desktop-ribbon.md
         - name: "Сочетания клавиш редактора формул для Power\_BI Desktop"
           href: desktop-formula-editor.md
         - name: Уровни конфиденциальности Power BI Desktop
