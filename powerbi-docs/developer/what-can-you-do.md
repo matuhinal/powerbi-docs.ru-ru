@@ -3,18 +3,17 @@ title: Что могут разработчики сделать с помощь
 description: Power BI предлагает целый ряд параметров для разработчиков, начиная от параметров внедрения и заканчивая настраиваемыми визуальными элементами и наборами данных потоковой передачи.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307468"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875690"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Что могут разработчики сделать с помощью Power BI
 
@@ -22,7 +21,7 @@ ms.locfileid: "72307468"
 
 ## <a name="embedding-power-bi-content"></a>Внедрение содержимого Power BI
 
-Возможности службы Power BI (SaaS) и Power BI Embedded в Azure (PaaS) предоставляют единый API для внедрения информационных панелей и отчетов. Это означает, что у вас есть доступ к последним функциям Power BI, таким как панели мониторинга, шлюзы и рабочие области приложений, которые можно использовать при внедрении содержимого.
+Возможности службы Power BI (SaaS) и Power BI Embedded в Azure (PaaS) предоставляют единый API для внедрения информационных панелей и отчетов. Это означает, что у вас есть доступ к последним функциям Power BI, таким как панели мониторинга, шлюзы и рабочие области, которые можно использовать при внедрении содержимого.
 
 Воспользуйтесь [средством установки внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения и приступить к работе.
 

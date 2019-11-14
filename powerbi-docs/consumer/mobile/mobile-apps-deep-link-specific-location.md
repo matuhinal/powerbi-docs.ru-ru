@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906534"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429905"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
 Вы можете использовать ссылки для прямого доступа к определенным элементам в Power BI: отчету, панели мониторинга и плитке.
@@ -69,7 +69,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-apps-and-items-in-app"></a>Ссылки для приложения и элементов в нем
 
-Для **приложений, а также отчетов и панелей мониторинга, являющихся частью приложения**, получить ссылку проще всего, перейдя в рабочую область приложения и выбрав "Обновить приложение". Откроется окно "Публикация приложения", где на вкладке "Доступ" находится раздел **Ссылки**. Развернув этот раздел, вы увидите список из приложения и всех его ссылок на содержимое, который можно использовать для прямого доступа к ним.
+Для **приложений, а также отчетов и панелей мониторинга, являющихся частью приложения**, получить ссылку проще всего, перейдя в рабочую область и выбрав "Обновить приложение". Откроется окно "Публикация приложения", где на вкладке "Доступ" находится раздел **Ссылки**. Развернув этот раздел, вы увидите список из приложения и всех его ссылок на содержимое, который можно использовать для прямого доступа к ним.
 
 ![Публикация ссылок приложения через Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -118,5 +118,5 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 * [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](http://community.powerbi.com/).
-* [Что такое Power BI?](../../power-bi-overview.md)
+* [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 

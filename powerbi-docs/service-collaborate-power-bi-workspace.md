@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832430"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021330"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Совместная работа в классической рабочей области
 Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с панелями мониторинга, отчетами и наборами данных для создания *приложений*. Эта статья посвящена оригинальным, *классическим* рабочим областям.  
@@ -45,7 +45,7 @@ ms.locfileid: "68832430"
 ## <a name="collaborate-in-office-365"></a>Совместная работа в Office 365
 Совместная работа в Office 365 начинается в классической рабочей области в Power BI.
 
-1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области** и выберите кнопку с многоточием (…) рядом с именем рабочей области. 
+1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области** и выберите **Дополнительные параметры** (…) рядом с именем рабочей области. 
    
    ![Меню "Рабочие области"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. В этом меню вы можете сотрудничать со своей группой несколькими способами: 
@@ -56,7 +56,7 @@ ms.locfileid: "68832430"
    Первый переход в рабочую область группы в Office 365 может занять некоторое время. Подождите 15–30 минут, а затем обновите страницу в браузере.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Беседа в группе в Office 365
-1. Нажмите кнопку с многоточием (…) рядом с именем рабочей области и выберите \> **Беседы**. 
+1. Нажмите **Дополнительные параметры** (…) рядом с именем рабочей области и выберите \> **Беседы**. 
    
     ![Вкладка "Беседы"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +66,7 @@ ms.locfileid: "68832430"
 2. Узнайте больше о [групповых беседах в Outlook для Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>Планирование события в календаре рабочей области группы
-1. Нажмите кнопку с многоточием (…) рядом с именем рабочей области и выберите \> **Календарь**. 
+1. Нажмите **Дополнительные параметры** (…) рядом с именем рабочей области и выберите \> **Календарь**. 
    
    ![Вкладка "Календарь"](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

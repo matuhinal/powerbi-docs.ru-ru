@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839735"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431669"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Руководство. Создание отчета с разбивкой на страницы и его отправка в службу Power BI
 
@@ -44,7 +44,7 @@ ms.locfileid: "66839735"
 Ниже приведены предварительные требования для отправки отчета с разбивкой на страницы в службу Power BI.
 
 - [Лицензия Power BI Pro](service-admin-power-bi-pro-in-your-organization.md).
-- Рабочая область приложения в службе с [емкостью Power BI Premium](service-premium-what-is.md). Такие рабочие области отмечены значком в виде бриллианта ![значок в виде бриллианта для емкости Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) рядом с именем рабочей области.
+- Рабочая область в службе с [емкостью Power BI Premium](service-premium-what-is.md). Такие рабочие области отмечены значком в виде бриллианта ![значок в виде бриллианта для емкости Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) рядом с именем рабочей области.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Создание матрицы с помощью мастера
   
@@ -58,7 +58,7 @@ ms.locfileid: "66839735"
   
 4.  На странице **Выбор набора данных** щелкните **Создание набора данных** > **Далее**.  
 
-    ![Создание набора данных](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
+    ![Создать набор данных](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
 5.  На странице **Выбор соединения с источником данных** щелкните **Создать**. 
 
@@ -287,7 +287,7 @@ ms.locfileid: "66839735"
 
 Итак, вы создали отчет с разбивкой на страницы. Теперь можете отправить его в службу Power BI.
 
-1. В службе Power BI (http://app.powerbi.com) на панели навигации слева выберите **Рабочие области** > **Создать рабочую область приложения**.
+1. В службе Power BI (http://app.powerbi.com) на панели навигации слева выберите **Рабочие области** > **Создать рабочую область**.
 
 2. Присвойте рабочей области имя **Azure AW** или другое уникальное имя. Сейчас вы единственный участник этой области. 
 

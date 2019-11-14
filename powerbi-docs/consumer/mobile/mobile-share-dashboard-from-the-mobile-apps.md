@@ -2,19 +2,18 @@
 title: Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
 description: Приглашайте других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Узнайте, как это сделать.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274655"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879082"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
 Область применения:
@@ -86,7 +85,7 @@ ms.locfileid: "61274655"
 3. Чтобы отменить общий доступ, коснитесь красного кружка рядом с именем и выберите **Удалить**.
 
 ## <a name="share-from-your-android-device"></a>Предоставление общего доступа с помощью устройства Android
-1. На домашней странице панелей мониторинга или отчетов коснитесь значка с многоточием (...), а затем выберите **Invite a colleague** (Пригласить коллегу).
+1. На домашней странице панелей мониторинга или отчетов выберите **Дополнительные параметры** (...), а затем выберите команду **Пригласить коллегу**.
    
    ![Пригласить коллегу](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. Либо коснитесь значка приглашения на панели мониторинга или в отчете. ![Значок "Пригласить"](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
@@ -147,5 +146,5 @@ ms.locfileid: "61274655"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Добавление заметок к моментальному снимку плитки, отчета и визуального элемента и их совместное использование в мобильных приложениях](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Предоставление общего доступа к панели мониторинга или отчету в Power BI](../../service-share-dashboards.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

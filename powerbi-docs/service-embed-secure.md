@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: d140e39cdd30f5e2078f24c55fda5ea7040e0ad4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867109"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431887"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -49,7 +49,7 @@ ms.locfileid: "68867109"
 
 Параметр **Внедрение** не предоставляет пользователям автоматических прав на просмотр отчета. Разрешения на просмотр задаются в службе Power BI.
 
-В службе Power BI можно предоставлять общий доступ к внедренным отчетам для пользователей, которым требуется доступ. Если вы используете группу Office 365, включите пользователя в число участников рабочей области приложения. Дополнительные сведения см. в разделе [Управление рабочей областью приложения в Power BI и Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+В службе Power BI можно предоставлять общий доступ к внедренным отчетам для пользователей, которым требуется доступ. Если вы используете группу Office 365, включите пользователя в число участников рабочей области. Дополнительные сведения см. в разделе [Управление рабочей областью в Power BI и Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Лицензирование
 

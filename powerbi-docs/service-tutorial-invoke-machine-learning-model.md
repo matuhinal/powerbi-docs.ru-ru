@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596584"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432230"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)
 
@@ -68,7 +68,7 @@ ms.locfileid: "67596584"
 
 Чтобы создать сущности в потоке данных, войдите в службу Power BI и перейдите в вашей выделенной емкости к рабочей области, в которой включена предварительная версия функции ИИ.
 
-Если у вас нет рабочей области, можно создать ее. Для этого выберите **Рабочие области** в меню слева, а затем щелкните **Создать рабочую область приложения** на панели внизу.  Откроется панель для указания сведений о рабочей области. Введите имя рабочей области и щелкните **Сохранить**.
+Если у вас нет рабочей области, можно создать ее. Для этого выберите **Рабочие области** в меню слева, а затем щелкните **Создать рабочую область** на панели внизу.  Откроется панель для указания сведений о рабочей области. Введите имя рабочей области и щелкните **Сохранить**.
 
 ![Создание рабочей области](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 

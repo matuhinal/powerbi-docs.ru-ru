@@ -2,7 +2,6 @@
 title: Power BI для разработчиков отчетов
 description: Вы подключаетесь к данным, создаете запросы, отчеты и панели мониторинга в Power BI? Являетесь ли вы администратором Power BI?
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
@@ -10,12 +9,12 @@ ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: d2ff64ebabc1b425d2dbcf14e7dc06790b01bf3c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239894"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874651"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI для разработчиков отчетов
 
@@ -37,7 +36,7 @@ ms.locfileid: "72239894"
                                           <h3>Приступая к созданию элемента в Power BI</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Начало работы с Power BI Desktop</a><br/> 
-                                               <a href="power-bi-overview.md">Начало работы со службой Power BI</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Начало работы со службой Power BI</a><br/> 
                                                <a href="report-server/get-started.md">Что такое Сервер отчетов Power BI?</a>
                                     </div> 
                               </div> 
@@ -156,7 +155,7 @@ ms.locfileid: "72239894"
                                           <h3>Совместное использование работы</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Как совместно работать и предоставлять общий доступ</a><br/>
-                                                <a href="service-create-workspaces.md">Рабочие области приложения в службе Power BI</a> 
+                                                <a href="service-create-workspaces.md">Рабочие области в службе Power BI</a> 
                                     </div> 
                               </div> 
                         </div> 

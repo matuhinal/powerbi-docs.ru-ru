@@ -2,7 +2,6 @@
 title: Устранение неполадок в сценариях обновления
 description: Устранение неполадок в сценариях обновления
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,21 +9,27 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543855"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860488"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Устранение неполадок в сценариях обновления
 
 Здесь можно найти сведения о различных сценариях, с которыми вы можете столкнуться при обновлении данных в службе Power BI.
 
 > [!NOTE]
-> Если возникла проблемная ситуация, не указанная ниже, вы можете запросить дополнительную помощь на [сайте сообщества](http://community.powerbi.com/) или отправить [запрос в службу поддержки](https://powerbi.microsoft.com/support/).
+> Если возникла проблемная ситуация, не указанная ниже, вы можете запросить дополнительную помощь на [сайте сообщества](https://community.powerbi.com/) или отправить [запрос в службу поддержки](https://powerbi.microsoft.com/support/).
 >
 >
+
+## <a name="email-notifications"></a>Уведомления по электронной почте
+
+Если вы открыли эту статью из уведомления по электронной почте и больше не хотите получать сообщения о проблемах обновления, обратитесь к администратору Power BI. Попросите их удалить свою электронную почту или список рассылки, на который вы подписаны, из соответствующих наборов данных в Power BI. Они могут это сделать в следующей области на портале администрирования Power BI.
+
+![Электронная почта для уведомлений об обновлении](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>Обновление с использованием веб-соединителя не работает надлежащим образом
 
@@ -86,5 +91,5 @@ ms.locfileid: "72543855"
 - [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 - [Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в Сообществе Microsoft Power BI](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в Сообществе Microsoft Power BI](https://community.powerbi.com/)
 

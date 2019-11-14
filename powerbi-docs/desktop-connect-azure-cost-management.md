@@ -1,6 +1,6 @@
 ---
 title: Подключение к данным службы "Управление затратами Azure" в Power BI Desktop
-description: Легко подключайтесь к Azure и получайте сведения об управлении затратами с помощью Power BI Desktop
+description: Легко подключайтесь к Azure и получайте аналитические сведения об использовании Azure и затратах с помощью Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,21 +11,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: dccae9f8f9519495da9056599939169e7157873c
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308014"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891750"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>Подключение к данным службы "Управление затратами Azure" в Power BI Desktop
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Подключение к службе "Управление затратами Azure" в Power BI Desktop
 
 С помощью соединителя службы "Управление затратами Azure" для Power BI Desktop можно создавать эффективные настраиваемые визуализации и отчеты, которые помогут лучше понимать затраты на Azure. В настоящее время соединитель службы "Управление затратами Azure" поддерживает клиентов с [Клиентским соглашением Майкрософт](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) или [Соглашением Enterprise (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/).  
 
-Соединитель службы "Управление затратами Azure" использует OAuth 2.0 для проверки подлинности в Azure. Для подключения необходимо использовать учетную запись [корпоративного администратора](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) для Соглашений Enterprise или [владельца учетной записи выставления счетов](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) для Клиентских соглашений Майкрософт. 
+Соединитель службы "Управление затратами Azure" использует OAuth 2.0 для проверки подлинности в Azure и определяет пользователей, которые будут использовать этот соединитель. Токены, созданные во время этого процесса, действительны в течение определенного периода. Power BI сохраняет токен для следующего входа в систему. OAuth 2.0 — это стандарт для внутреннего процесса, который обеспечивает безопасную обработку этих разрешений. Для подключения необходимо использовать учетную запись [корпоративного администратора](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) для Соглашений Enterprise или [владельца учетной записи выставления счетов](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) для Клиентских соглашений Майкрософт. 
 
 > [!NOTE]
-> Этот соединитель заменяет ранее доступный [соединитель службы "Управление затратами Azure" (бета-версия)](desktop-connect-azure-consumption-insights.md). Все отчеты, созданные с помощью предыдущего соединителя, необходимо создать повторно с использованием этого соединителя.
+> Этот соединитель заменяет ранее доступные соединители [Azure Consumption Insights и Управление затратами Azure (бета-версия)](desktop-connect-azure-consumption-insights.md). Все отчеты, созданные с помощью предыдущего соединителя, необходимо создать повторно с использованием этого соединителя.
 
 ## <a name="connect-using-azure-cost-management"></a>Подключение с помощью службы "Управление затратами Azure"
 

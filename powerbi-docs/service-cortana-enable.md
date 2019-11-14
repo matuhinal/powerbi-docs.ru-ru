@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375160"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020494"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Предоставление Кортане доступа к отчетам Power BI (и базовым наборам данных)
 Вы ознакомились со статьей [Общие сведения о Cortana для Power BI](service-cortana-intro.md) (прежде чем приступать к работе, прочтите эту статью) и теперь хотите сделать то же самое.  Прежде чем задавать вопросы на естественном языке в Кортане и находить ответы в данных, хранящихся в ***отчетах*** Power BI, нужно выполнить ряд требований. В частности нужно сделать следующее.
 
 > [!IMPORTANT]
-> Интеграция Cortana в Power BI рекомендуется. Начиная с 11 июня, Cortana больше не будет работать для любой панели мониторинга и отчеты.
+> Интеграция Кортаны признана нерекомендуемой в Power BI. Начиная с 11 июня Кортана перестанет работать для панелей мониторинга и отчетов.
 
 В службе Power BI
 
@@ -42,7 +42,7 @@ ms.locfileid: "66375160"
 2. С этим отчетом связан набор данных **Contoso Sales** (Продажи Contoso).
    
     ![Набор данных "Contoso Sales"](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Справа от имени набора данных щелкните **многоточие (...) > Параметры**.  
+3. Справа от имени набора данных щелкните **Дополнительные параметры** (...) > "Параметры"**.  
    
     ![Выбор параметров](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. Выберите **Q&A and Cortana** (Вопросы, ответы и Кортана)  >  **Разрешить Кортане доступ к этому набору данных**  >  **Применить**.

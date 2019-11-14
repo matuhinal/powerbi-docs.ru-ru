@@ -7,15 +7,15 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b11d2e5ce330c111313ef0d4bd8f2b1f1a89ce43
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544064"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775999"
 ---
 # <a name="key-influencers-visualization"></a>Визуализация ключевых факторов влияния
 
@@ -58,7 +58,7 @@ ms.locfileid: "72544064"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ваш менеджер по продуктам хочет, чтобы вы определили факторы, заставляющие пользователей оставлять отрицательные отзывы о вашей облачной службе. Откройте [PBIX-файл с примером отзывов пользователей](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) в Power BI Desktop. Вы также можете скачать [файл Excel с отзывами пользователей службы Power BI или Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
+Ваш менеджер по продуктам хочет, чтобы вы определили факторы, заставляющие пользователей оставлять отрицательные отзывы о вашей облачной службе. Откройте [PBIX-файл с примером отзывов пользователей](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) в Power BI Desktop. Вы также можете скачать [файл Excel с отзывами пользователей службы Power BI или Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Выберите любую из ссылок, а затем на открывшейся странице GitHub выберите **Скачать**.
 
 > [!NOTE]
 > Набор данных основан на следующей работе: [Moro et al., 2014] S. Moro, P. Cortez, and P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing". *Decision Support Systems*, Elsevier, 62:22-31, June 2014. 
@@ -240,7 +240,7 @@ ms.locfileid: "72544064"
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Анализ метрики, являющейся мерой или обобщенным столбцом
 
-В случае меры или обобщенного столбца по умолчанию применяется **непрерывный анализ**, описанный [выше](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Это поведение изменить невозможно. Основным различием между анализом меры или обобщенного столбца и необобщенного числового столбца является уровень, на котором выполняется анализ.
+В случае меры или обобщенного столбца по умолчанию применяется **непрерывный анализ**, описанный [выше](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Это поведение изменить невозможно. Основным различием между анализом меры или обобщенного столбца и необобщенного числового столбца является уровень, на котором выполняется анализ.
 
 В случае с необобщенными столбцами анализ всегда выполняется на уровне таблицы. В приведенном выше примере мы анализировали метрику **Стоимость дома**, чтобы увидеть, что влияет на увеличение или уменьшение стоимости дома. Этот анализ автоматически выполняется на уровне таблицы. Наша таблица содержит уникальный идентификатор для каждого дома, поэтому анализ производится на уровне дома.
 
@@ -254,7 +254,7 @@ ms.locfileid: "72544064"
 
 Этот анализ является очень обобщенным, поэтому модели регрессии будет сложно найти закономерности в данных для обучения. Чтобы получить лучшие результаты, следует выполнить анализ на более подробном уровне. Если бы мы хотели проанализировать стоимость дома на уровне дома, нам потребовалось бы явно добавить поле **Идентификатор** в анализ. Тем не менее мы не хотим, чтобы идентификатор дома рассматривался как фактор влияния. Информация о том, что стоимость дома увеличивается по мере увеличения значения идентификатора, является бесполезной. Именно в такой ситуации пригодится параметр **Расширение по**. С помощью параметра **Развернуть по** можно добавлять поля, которые должны использоваться для настройки уровня анализа без привлечения новых факторов влияния.
 
-Рассмотрим, как выглядит визуализация после добавления поля **Идентификатор** в раздел **Развернуть по**. После определения уровня, на котором будет оцениваться мера, интерпретация факторов влияния осуществляется так же, как и для [необобщенных числовых столбцов](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
+Рассмотрим, как выглядит визуализация после добавления поля **Идентификатор** в раздел **Развернуть по**. После определения уровня, на котором будет оцениваться мера, интерпретация факторов влияния осуществляется так же, как и для [необобщенных числовых столбцов](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
 
 ![Таблица мер](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

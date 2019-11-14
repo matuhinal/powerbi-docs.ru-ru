@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327801"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019823"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Отображение содержимого с дополнительными подробностями: режим фокусировки и полноэкранный режим
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ ms.locfileid: "71327801"
 
 1. Откройте панель мониторинга в службе Power BI.
 
-2. Наведите указатель мыши на плитку панели мониторинга или визуальный элемент отчета, щелкните многоточие (…) и выберите пункт **Открыть в режиме фокусировки**.
+2. Наведите указатель мыши на плитку панели мониторинга или визуальный элемент отчета, щелкните **Дополнительные параметры** (…) и выберите пункт **Открыть в режиме фокусировки**.
 
     ![Меню с многоточием для плитки](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. Плитка откроется и заполнит весь холст. Обратите внимание, что у вас по-прежнему есть область **Фильтры**, которую можно использовать для взаимодействия с визуальным элементом. Область **Фильтры** можно свернуть. 
+2. Плитка откроется и заполнит весь холст. Обратите внимание, что у вас по-прежнему есть область **Фильтры**, которую можно использовать для взаимодействия с визуальным элементом. Область **Фильтры** можно свернуть.
 
    ![плитка заполняет холст отчета](media/end-user-focus/power-bi-focus-filter.png)
 

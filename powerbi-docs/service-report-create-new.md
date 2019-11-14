@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523067"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432200"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
 Вы ознакомились со статьей [Отчеты в Power BI](consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существуют различные способы создания отчета. В этой статье мы создадим в службе Power BI простой отчет из набора данных Excel. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами, перечисленными в разделе [Дальнейшие действия](#next-steps) в конце статьи.  
@@ -29,7 +29,7 @@ ms.locfileid: "68523067"
 
 1. Мы создадим отчет в рабочей области службы Power BI, поэтому создайте рабочую область или выберите существующую.
    
-   ![список рабочих областей приложений](media/service-report-create-new/power-bi-workspaces2.png)
+   ![список рабочих областей](media/service-report-create-new/power-bi-workspaces2.png)
 2. В нижней части левой области навигации выберите **Получить данные**.
    
    ![Получить данные](media/service-report-create-new/power-bi-get-data3.png)

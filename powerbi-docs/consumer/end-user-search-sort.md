@@ -3,22 +3,25 @@ title: Поиск и сортировка содержимого в службе
 description: Документация по поиску и сортировке содержимого в вашей рабочей области Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302778"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891794"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Навигация: поиск, обнаружение и сортировка содержимого в службе Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Есть множество способов навигации по содержимому в службе Power BI. Содержимое в вашей рабочей области распределяется по типу: панели мониторинга и отчеты.  Кроме того, содержимое упорядочено по принципу использования: избранное, недавно просмотренное, основное, приложения и содержимое, к которому предоставлен общий доступ. Для простоты навигации все сведения на *домашней* странице Power BI собраны в одну страницу. Различные подходы к упорядочению содержимого позволяют быстро находить нужные данные в службе Power BI.  
 
 ## <a name="navigation-within-workspaces"></a>Навигация по рабочим областям
@@ -44,8 +47,8 @@ ________________________________________
 Не все столбцы могут быть отсортированы. Наведите указатель мыши на заголовки столбцов, чтобы узнать, какие из них могут быть отсортированы.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>Навигация с помощью панели навигации слева
-На панели навигации слева представлено классифицированное содержимое. Это обеспечивает простой и быстрый поиск нужных данных.  
+## <a name="navigation-using-the-navigation-pane"></a>Навигация с помощью панели навигации
+На панели навигации представлено классифицированное содержимое. Это обеспечивает простой и быстрый поиск нужных данных.  
 
 ![Панель навигации слева](./media/end-user-search-sort/power-bi-navbar.png)
 

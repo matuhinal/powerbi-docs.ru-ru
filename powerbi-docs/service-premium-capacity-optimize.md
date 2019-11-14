@@ -3,7 +3,6 @@ title: Оптимизация емкостей Microsoft Power BI Premium
 description: Описывает стратегии оптимизации для емкостей Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750914"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871915"
 ---
 # <a name="optimizing-premium-capacities"></a>Оптимизация емкостей Premium
 
@@ -33,7 +32,7 @@ ms.locfileid: "70750914"
 
 Существует несколько общих рекомендаций, которые помогут вам оптимизировать потребление и производительность, включая следующие:
 
-- Использование рабочих областей приложения вместо личных рабочих областей.
+- Использование рабочих областей вместо личных рабочих областей.
 - Разделение критических задач для бизнеса и самостоятельной бизнес-аналитики (SSBI) на разные емкости.
 
   ![Разделение критических важных для бизнеса задач и самостоятельной бизнес-аналитики на разные емкости.](media/service-premium-capacity-optimize/separate-capacities.png)
@@ -257,7 +256,7 @@ ms.locfileid: "70750914"
 
 Если у вас уже есть емкость и отчеты, для которых требуется выполнить нагрузочный тест, используйте [средство формирования нагрузки PowerShell](https://aka.ms/PowerBILoadTestingTool) для быстрого создания нагрузочного теста. Это средство позволяет оценить, сколько экземпляров каждого отчета ваша емкость может выполнять в течение часа. С помощью него можно оценить способность емкости к отрисовке отдельного отчета или параллельной отрисовке нескольких разных отчетов. Дополнительные сведения см. в видеоролике о [емкости Premium в Microsoft Power BI](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Чтобы создать более сложный тест, разработайте приложение нагрузочного тестирования для имитации реалистичной рабочей нагрузки. Дополнительные сведения см. в вебинаре [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Нагрузочное тестирование приложений Power BI с использованием нагрузочного теста Visual Studio).
+Чтобы создать более сложный тест, разработайте приложение нагрузочного тестирования для имитации реалистичной рабочей нагрузки. Дополнительные сведения см. в вебинаре [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Нагрузочное тестирование приложений Power BI с использованием нагрузочного теста Visual Studio).
 
 ## <a name="acknowledgements"></a>Благодарности
 

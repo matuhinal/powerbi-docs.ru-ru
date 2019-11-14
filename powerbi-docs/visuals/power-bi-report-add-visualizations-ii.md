@@ -7,53 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/23/2018
+ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c42d96fea37a6309908dd357425c3d0504e18397
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61410259"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73049109"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Часть 2. Добавление визуализаций в отчет Power BI
-В [части 1](power-bi-report-add-visualizations-ii.md) вы создали базовую визуализацию, установив флажки рядом с именами полей.  Во второй части вы узнаете, как использовать функцию перетаскивания и полностью реализовать возможности панелей **Поля** и **Визуализации** для создания и изменения визуализаций.
 
-### <a name="prerequisites"></a>Предварительные требования
-- [Часть 1](power-bi-report-add-visualizations-ii.md)
-- Power BI Desktop — визуализации, которые можно добавлять в отчеты с помощью службы Power BI или Power BI Desktop. В этом руководстве используется Power BI Desktop. 
-- [Анализ розничной торговли — пример](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+В [части 1](power-bi-report-add-visualizations-i.md) вы создали базовую визуализацию, установив флажки рядом с именами полей.  Во второй части вы узнаете, как использовать функцию перетаскивания и полностью реализовать возможности панелей **Поля** и **Визуализации** для создания и изменения визуализаций.
+
 
 ## <a name="create-a-new-visualization"></a>Создание новой визуализации
 В этом руководстве мы подробно рассмотрим набор данных по анализу розничной торговли и создадим несколько ключевых визуализаций.
 
-### <a name="open-a-report-and-add-a-new-blank-page"></a>Откройте отчет и добавьте в него новую пустую страницу.
-1. Откройте PBIX-файл с примером "Анализ розничной торговли" в Power BI Desktop. 
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
+## <a name="prerequisites"></a>Предварительные требования
 
-2. Добавьте новую страницу, выбрав желтый значок плюса в нижней части холста.
+В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>Добавьте визуализацию с отображением показателей объема продаж текущего года по сравнению с продажами в предыдущем году.
+1. В верхнем левом разделе меню Power BI Desktop выберите пункты **Файл** > **Открыть**.
+   
+2. Найдите свою копию PBIX-файла с примером **Анализ розничной торговли**.
+
+1. Откройте PBIX-файл с примером **Анализ розничной торговли** в представлении отчета ![Снимок экрана: значок представления отчета](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
+
+## <a name="add-visualizations-to-the-report"></a>Добавление визуализаций к отчету
+
+Создайте визуализацию, выбрав поле на панели **Поля** . Тип создаваемой визуализации будет зависеть от типа выбранного поля. Power BI использует тип данных, чтобы определить, какая визуализация будет использоваться для отображения результатов. Можно изменить тип визуализации, щелкнув другой значок в области "Визуализация". Помните, что не все визуализации могут отображать ваши данные. Например, географические данные не будут отображаться правильно с помощью диаграммы воронки или графика. 
+
+
+### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>Добавьте диаграмму с областями для показателей объема продаж текущего года по сравнению с продажами в предыдущем году.
+
 1. В таблице **Продажи** последовательно выберите элементы **Продажи этого года** > **Значение** и **Продажи прошлого года**. Power BI создаст гистограмму.  Она представляет интерес и требует более глубокого анализа. Как продажи распределяются по месяцам?  
    
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-barchart.png)
+   ![Снимок экрана с гистограммой](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
+
 2. Из таблицы времени перетащите **Финансовый месяц** в область **Оси**.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-month.png)
-3. [Измените визуализацию](power-bi-report-change-visualization-type.md) на диаграмму с областями.  Для выбора доступно множество типов визуализации. Сведения об использовании нужного типа см. в статьях с [описаниями каждого типа, советами, рекомендациями и учебниками](power-bi-visualization-types-for-reports-and-q-and-a.md). На панели "Визуализации" выберите значок диаграммы с областями ![](media/power-bi-report-add-visualizations-ii/power-bi-areachart.png).
-4. Отсортируйте визуальные элементы, нажав кнопку с многоточием и выбрав пункт **Сортировать по финансовым месяцам**.
+   ![Снимок экрана с гистограммой с FiscalMonth в виде оси](media/power-bi-report-add-visualizations-ii/power-bi-fiscalmonth.png)
+
+3. [Измените визуализацию](power-bi-report-change-visualization-type.md) на диаграмму с областями.  Для выбора доступно множество типов визуализации. Сведения об использовании нужного типа см. в статьях с [описаниями каждого типа, советами, рекомендациями и учебниками](power-bi-visualization-types-for-reports-and-q-and-a.md). Выберите соответствующий значок диаграммы ![Значок диаграммы с областями на панели "Визуализации"](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png) с областями на панели "Визуализации".
+
+4. Отсортируйте визуальные элементы, нажав кнопку **Дополнительные действия** (...) и выбрав пункт **Сортировать по** >  **FiscalMonth**.
+
 5. [Измените размер визуализации](power-bi-visualization-move-and-resize.md). Для этого выберите визуализацию, щелкните и перетащите один из кругов. Сделайте ее достаточно широкой, чтобы исключить полосу прокрутки, и достаточно небольшой, чтобы оставить место для добавления другой визуализации.
    
    ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [Сохраните отчет](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Добавьте визуализацию карты для отслеживания продаж по расположению.
-1. В таблице **Магазин** выберите **Территория**. Power BI распознает, что территория является расположением, и создает визуализацию карты.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-map.png)
-2. Перетащите элемент **Всего магазинов** в область "Размер".  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-map2.png)
-3. Добавьте условные обозначения.  Чтобы просмотреть данные по названию магазина, перетащите элемент **Цепочка** в область условных обозначений.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-legend.png)
+
+1. В таблице **Магазин** выберите **Территория**. Перетащите элемент **Всего магазинов** в область "Размер". Power BI распознает, что территория является расположением, и создает визуализацию карты.  
+   ![Диаграмма с областями](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
+
+2. Добавьте условные обозначения.  Чтобы просмотреть данные по названию магазина, перетащите элемент **Магазин** > **Сеть** в область условных обозначений.  
+   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).  

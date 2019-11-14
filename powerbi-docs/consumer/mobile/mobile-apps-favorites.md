@@ -2,19 +2,18 @@
 title: Избранное в мобильных приложениях Power BI
 description: Узнайте о том, как добавлять в избранное и просматривать приложения, отчеты и панели мониторинга Power BI, а также ключевые показатели эффективности и отчеты решения "Сервер отчетов Power BI" и служб Reporting Services в мобильных приложениях.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339570"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870679"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Добавление элементов в избранное и их просмотр в мобильных приложениях Power BI
 Область применения:
@@ -44,7 +43,7 @@ ms.locfileid: "61339570"
   ![Страница "Избранное"](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>Добавление приложения в избранное
-1. В списке приложений в мобильном приложении нажмите кнопку с многоточием (…) рядом с приложением и выберите пункт **Добавить в избранное**.
+1. В списке приложений в мобильном приложении нажмите кнопку **Дополнительные параметры** (…) рядом с приложением и выберите пункт **Добавить в избранное**.
    
     ![Меню добавления приложения в избранное](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +64,7 @@ ms.locfileid: "61339570"
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Добавление панели мониторинга или отчета в избранное в мобильных приложениях Android
 Отчет или панель мониторинга можно добавить в избранное из списка панелей мониторинга или отчетов либо непосредственно с панели или из отчета.
 
-* В мобильном приложении в списке панелей мониторинга или отчетов коснитесь вертикального многоточия (…) рядом с именем и выберите пункт **Добавить в избранное**. Рядом с именем появится желтая звездочка ![значок избранного](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
+* В мобильном приложении в списке панелей мониторинга или отчетов коснитесь вертикальной кнопки **Дополнительные параметры** (…) рядом с именем и выберите команду **Добавить в избранное**. Рядом с именем появится желтая звездочка ![значок избранного](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![Меню "Избранное" в Android](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * На ленте в верхней части панели мониторинга или отчета коснитесь пустой звездочки ![Значок для элементов, не добавленных в избранное](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). Звездочка станет темно-серой ![Значок избранного](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
@@ -77,5 +76,5 @@ ms.locfileid: "61339570"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Избранные панели мониторинга в Power BI](../end-user-favorite.md) 
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

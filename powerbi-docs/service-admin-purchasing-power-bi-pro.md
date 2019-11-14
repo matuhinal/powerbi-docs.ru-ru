@@ -1,37 +1,39 @@
 ---
 title: Приобретение и назначение лицензий Power BI Pro
-description: Узнайте, как приобрести и назначить лицензии Power BI Pro для предоставления пользователям доступа ко всему содержимому и функциям службы Power BI.
+description: Узнайте, как приобрести и назначить лицензии Power BI Pro для предоставления пользователям доступа ко всему содержимому и возможностям совместной работы службы Power BI.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
-ms.date: 09/09/2019
+ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e7cd025388a5ae21b73fe05fca0e1c8433b562d
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074881"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431386"
 ---
-# <a name="purchase-and-assign-power-bi-pro-licenses"></a>Приобретение и назначение лицензий Power BI Pro
+# <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Приобретение и назначение пользовательских лицензий Power BI Pro
 
-Индивидуальные лицензии Power BI Pro предоставляют доступ ко всему содержимому и всем возможностям службы Power BI, включая совместный доступ к содержимому и совместную работу с другими пользователями Pro. Публиковать содержимое в рабочих областях приложения, совместно использовать панели мониторинга, а также подписываться на панели мониторинга и отчеты могут только пользователи с лицензией Pro. Дополнительные сведения см. в разделе [Функции Power BI по типам лицензий](service-features-license-type.md).
+Power BI Pro — это отдельная лицензия пользователя, которая позволяет читать отчеты и панели мониторинга, опубликованные в службе Power BI, и взаимодействовать с ними, а также обмениваться содержимым и совместно работать с другими пользователями Power BI Pro. Только пользователи с пользовательской лицензией Power BI Pro могут публиковать содержимое совместно с другими пользователями или использовать содержимое, созданное другими пользователями, если содержимое не размещается в емкости Power BI Premium. Дополнительные сведения см. в разделе [Функции Power BI по типам лицензий](service-features-license-type.md).
 
-В этой статье сначала объясняется, как приобретать лицензии Power BI Pro в Office 365. Затем приводятся два варианта назначения этих лицензий отдельным пользователям: Office 365 и Azure (выберите один из вариантов).
+## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Приобретение и назначение пользовательских лицензий Power BI Pro
 
-## <a name="prerequisites"></a>Предварительные требования
+В этой статье объясняется, как приобрести пользовательские лицензии Power BI Pro в Центре администрирования Microsoft 365, а затем описываются два варианта, которые администраторы могут использовать, чтобы назначить эти лицензии отдельным пользователям: Центр администрирования Microsoft 365 и портал Azure (выберите один вариант).
 
-Необходимо быть членом роли [**Глобальный администратор** или **Администратор выставления счетов**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) в Office 365.
+### <a name="prerequisites"></a>Предварительные требования
 
-Для назначения лицензий в Azure вы должны быть владельцем подписки Azure, которая используется в Power BI для запросов к Active Directory.
+Чтобы приобрести и назначить лицензии в Центре администрирования Microsoft 365, необходимо быть членом роли **[глобальный администратор или администратор выставления счетов](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** в Microsoft 365.
 
-## <a name="purchase-licenses-in-office-365"></a>Приобретение лицензий в Office 365
+Для назначения лицензий на портале Azure вы должны быть владельцем подписки Azure, которая используется в Power BI для запросов к Azure Active Directory.
 
-Выполните следующие действия, чтобы приобрести лицензии Power BI Pro:
+### <a name="purchase-licenses-in-microsoft-365"></a>Приобретение лицензий в Microsoft 365
+
+Выполните следующие действия, чтобы приобрести лицензии Power BI Pro в Центре администрирования Microsoft 365:
 
 1. Откройте [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
@@ -67,7 +69,7 @@ ms.locfileid: "71074881"
 
 9. Чтобы добавить дополнительные лицензии после первоначальной покупки, выберите **Power BI Pro** на странице **Подписки**, а затем выберите **Добавить/удалить лицензии**.
 
-## <a name="assign-licenses-in-office-365"></a>Назначение лицензий в Office 365
+### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Использование Центра администрирования Microsoft 365 для назначения лицензий
 
 Выполните следующие действия, чтобы назначить лицензии Power BI Pro отдельным учетным записям пользователей:
 
@@ -89,7 +91,7 @@ ms.locfileid: "71074881"
 
     ![Проверка состояния лицензии](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
 
-## <a name="assign-licenses-in-azure"></a>Назначение лицензий в Azure
+### <a name="assign-licenses-in-the-azure-portal"></a>Назначение лицензий на портале Azure
 
 Выполните следующие действия, чтобы назначить лицензии Power BI Pro отдельным учетным записям пользователей:
 
@@ -107,7 +109,7 @@ ms.locfileid: "71074881"
 
     ![Лицензии — все продукты](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
 
-5. Щелкните **Назначить**, чтобы добавить лицензию Power BI Pro еще одной учетной записи пользователя.
+5. Щелкните **Назначить**, чтобы добавить лицензию Power BI Pro для учетной записи пользователя.
 
     ![Назначение лицензий](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 

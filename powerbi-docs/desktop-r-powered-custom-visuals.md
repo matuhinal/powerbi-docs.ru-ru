@@ -3,19 +3,18 @@ title: Использование визуализаций Power BI на осн
 description: Использование визуализаций Power BI на основе R в Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 3b4dbcd02189eed88257357ffe4190d77f01c7f8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945261"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876261"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Использование визуализаций Power BI на основе R в Power BI
 
@@ -55,7 +54,7 @@ ms.locfileid: "71945261"
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. Скачав визуализацию (как любой другой файл в браузере), откройте **Power BI Desktop**, на панели **Визуализации** щелкните правой кнопкой мыши кнопку с многоточием (...) и выберите **Импортировать из файла**.
+4. Скачав визуализацию (как любой другой файл в браузере), откройте **Power BI Desktop**, на панели **Визуализации** щелкните **Дополнительные параметры** (...) и выберите команду **Импортировать из файла**.
 
    ![Визуальный элемент R 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. Появится предупреждение об импорте пользовательских визуальных элементов, как показано на рисунке ниже.

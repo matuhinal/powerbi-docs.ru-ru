@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514763"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019245"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Использование просмотра данных и записей в Power BI Desktop
 В **Power BI Desktop** можно детализировать данные любого визуального элемента и отобразить текстовое представление данных или отдельных записей данных выбранного визуального элемента. Иногда эти возможности называют *переходами*, *детализацией* или *детализацией данных*.
@@ -41,7 +41,7 @@ ms.locfileid: "65514763"
 
 ![Просмотр данных в ленте](media/desktop-see-data-see-records/see-data1.png)
 
-Вы также можете просмотреть данные, щелкнув правой кнопкой мыши визуализацию, а затем выбрав **Показать данные** в появившемся меню, или выбрав **дополнительные параметры**  (...) в верхнем правом углу визуализации, а затем выбрав **Показать данные**.
+Вы также можете просмотреть данные, щелкнув правой кнопкой мыши визуализацию, а затем выбрав **Показать данные** в появившемся меню, или выбрав **Дополнительные параметры** (...) в верхнем правом углу визуализации, а затем выбрав команду **Показать данные**.
 
 ![Параметр "Показать данные" в контекстном меню](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Отображение дополнительных параметров данных](media/desktop-see-data-see-records/see-data3.png)
 

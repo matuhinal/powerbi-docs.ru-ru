@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 6a9c4f2e6348067b3a7029be8d8e7fdfb26e7045
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567356"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020945"
 ---
 # <a name="promote-your-dataset-preview"></a>Повышение уровня набора данных (предварительная версия)
 
@@ -30,7 +30,7 @@ ms.locfileid: "67567356"
 
 1. Перейдите к списку наборов данных в рабочей области.
  
-1. Нажмите кнопку с многоточием (...) и выберите **Параметры**.
+1. Нажмите кнопку **Дополнительные параметры** (...) и выберите пункт **Параметры**.
 
     ![Нажатие кнопки с многоточием рядом с набором данных](media/service-datasets-certify-promote/power-bi-dataset-settings.png)
 

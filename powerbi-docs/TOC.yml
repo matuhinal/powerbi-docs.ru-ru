@@ -381,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Каскадные диаграммы в Power BI
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: Создание динамических строк ссылки
-              href: service-analytics-pane.md
         - name: Естественный язык
           items:
             - name: '"Вопросы и ответы": введение'

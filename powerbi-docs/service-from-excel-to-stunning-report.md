@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995054"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020998"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Превращение книги Excel в привлекательный отчет в службе Power BI
 Ваш руководитель требует отчет по последним результатам продаж и ваши впечатления о последней кампании к концу дня. При этом последние данные хранятся в различных сторонних системах и в файлах на вашем ноутбуке. Раньше создание визуальных элементов и форматирование отчета занимало несколько часов и заставляло понервничать.
@@ -111,7 +111,7 @@ ms.locfileid: "68995054"
 
 2. Измените тип диаграммы, выбрав один из значков в меню **Визуализации**. Например, вы можете преобразовать ее в **гистограмму с накоплением**. 
 
-3. Чтобы отсортировать данные на диаграмме, щелкните многоточие (...) и выберите **Сортировка**.
+3. Чтобы отсортировать данные на диаграмме, щелкните **Дополнительные параметры** (...) и выберите **Сортировка**.
 
    ![Гистограмма с накоплением в редакторе отчетов](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

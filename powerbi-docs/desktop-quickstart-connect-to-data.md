@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514453"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891686"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Краткое руководство. Подключение к данным в Power BI Desktop
 
@@ -33,7 +33,7 @@ ms.locfileid: "65514453"
 
 ## <a name="launch-power-bi-desktop"></a>Запуск Power BI Desktop
 
-После установки **Power BI Desktop** запустите это приложение, чтобы оно выполнялось на локальном компьютере. На экране вы увидите пустой холст, на котором можно создавать визуальные элементы и отчеты на основе данных, к которым вы подключитесь. 
+После установки **Power BI Desktop** запустите это приложение, чтобы оно выполнялось на локальном компьютере. Вам предлагается учебник по Power BI. Следуйте ему или закройте это окно, чтобы увидеть пустой холст, на котором можно создавать визуальные элементы и отчеты на основе данных, к которым вы подключитесь. 
 
 ![Power BI Desktop — пустой холст](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

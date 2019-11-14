@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655035"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060991"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -30,11 +30,43 @@ ms.locfileid: "69655035"
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>Май 2019 г.
-* [Пользовательская навигация](service-create-distribute-apps.md) для приложений Power BI.
-* Дополнительные типы вложений (PPTX, XLSX, DOCX, CSV, XML), доступные для подписок по электронной почте в отчетах с разбивкой на страницы.
+### <a name="october-2019"></a>Октябрь 2019 г.
+* Новое действие Microsoft Flow для обновления наборов данных Power BI.
+* [Список контактов](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) для отчетов и панелей мониторинга в службе Power BI.
 
 ## <a name="previous-months-2019"></a>Предыдущие месяцы (2019 г.)
+### <a name="september-2019"></a>Сентябрь 2019 г.
+* Обновления конфигурации подключения для [приложений-шаблонов](service-template-apps-overview.md).
+
+### <a name="august-2019"></a>Август 2019 г.
+* Новые параметры емкости для Power BI Premium.
+* [Настраиваемая фирменная символика](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/) для организации.
+* Сводный экспорт данных с разрешением на сборку.
+* Поддержка URL-адресов параметров для отчетов [с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
+* Поддержка ежемесячной подписки по электронной почте. 
+
+### <a name="july-2019"></a>Июль 2019 г.
+* Поддержка наборов данных, не входящих в Premium, для [отчетов с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
+* Общедоступная версия [агрегаций](desktop-aggregations.md) Power BI.
+* Отправка уведомлений об обновлении другим пользователям.
+* [Средство тестирования](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) емкостей Power BI Premium.
+* Общедоступная предварительная версия [уведомлений о доступности служб](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/).
+* Общедоступная предварительная версия [нового представления](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) для отчетов Power BI.
+* Новый регион Power BI в Южной Африке.
+
+### <a name="june-2019"></a>Июнь 2019 г.
+* Общедоступная предварительная версия [общих и сертифицированных наборов данных](service-datasets-across-workspaces.md).
+* Метрики ИИ доступны в [приложении метрик емкости Premium](service-admin-premium-monitor-capacity.md).
+* Общедоступная версия [приложений-шаблонов](service-template-apps-overview.md) Power BI.
+* Общедоступная версия [отчетов с разбивкой на страницы](paginated-reports-report-builder-power-bi.md) в Power BI Premium.
+* Общедоступная предварительная версия создания собственных ключей ([BYOK](service-encryption-byok.md)) для Power BI Premium.
+* Роль просмотра для [нового интерфейса рабочих областей](service-new-workspaces.md).
+
+### <a name="may-2019"></a>Май 2019 г.
+* [Пользовательская навигация](service-create-distribute-apps.md) для приложений Power BI.
+* Дополнительные типы вложений (PPTX, XLSX, DOCX, CSV, XML), доступные для подписок по электронной почте в отчетах с разбивкой на страницы.
+* [Комментирование](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) отчетов Power BI в службе.
+
 ### <a name="april-2019"></a>Апрель 2019 г.
 * Общедоступная версия [потоков данных](service-dataflows-overview.md) Power BI.
 * Общедоступная версия новых рабочих областей.
@@ -731,7 +763,7 @@ ms.locfileid: "69655035"
 * Повышена надежность обновления из OneDrive.  Разрешены некоторые ситуации, когда книги не обновлялись из OneDrive.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Что такое Power BI?](power-bi-overview.md)  
+[Что такое Power BI?](fundamentals/power-bi-overview.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 

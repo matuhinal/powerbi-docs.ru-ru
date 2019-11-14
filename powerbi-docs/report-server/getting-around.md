@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770132"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021457"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Управление содержимым на веб-портале 
 Веб-портал сервера отчетов Power BI — это локальное расположение для просмотра и хранения отчетов Power BI, мобильных отчетов, отчетов с разбивкой на страницы, ключевых показателей эффективности, а также управления ими.
@@ -56,7 +56,7 @@ ms.locfileid: "64770132"
 ## <a name="manage-items-in-the-web-portal"></a>Управление элементами на веб-портале
 Сервер отчетов Power BI позволяет детально управлять элементами, которые хранятся на веб-портале. Например, можно настроить подписки, кэширование, моментальные снимки и защиту для отдельных отчетов с разбивкой на страницы.
 
-1. Нажмите кнопку с многоточием (…) в правом верхнем углу элемента. Затем выберите **Управлять**.
+1. Нажмите **Дополнительные параметры** (…) в правом верхнем углу элемента. Затем выберите команду **Управлять**.
    
     ![Выбор управления](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. Выберите свойство или другой компонент, который требуется настроить.

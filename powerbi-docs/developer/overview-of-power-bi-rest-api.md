@@ -3,18 +3,17 @@ title: Что можно сделать с помощью API Power BI
 description: Что можно сделать с помощью API Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8a231a426823d40be34e900a32d06e5d5f77108b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307619"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880487"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
@@ -32,7 +31,7 @@ ms.locfileid: "72307619"
 | Аутентификация в Power BI. | [Аутентификация в Power BI](get-azuread-access-token.md) |
 
 > [!NOTE]
-> В интерфейсах API Power BI рабочие области приложения по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями приложения.
+> В интерфейсах API Power BI рабочие области по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями.
 
 ## <a name="api-developer-tools"></a>Инструменты API для разработчика
 
@@ -61,4 +60,4 @@ ms.locfileid: "72307619"
 * [Справочник по REST API Power BI](rest-api-reference.md)
 * [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

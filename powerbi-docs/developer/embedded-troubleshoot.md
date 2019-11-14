@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543920"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429337"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -78,8 +78,8 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 * Пользователь превысил количество внедренных токенов, которые можно создать в общей емкости. Для создания внедренных токенов и назначения рабочей области в этой емкости, приобретите емкости Azure. См. раздел [Создание емкости Power BI Embedded на портале Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Истек срок действия токена аутентификации Azure AD.
-* Пользователь, прошедший проверку подлинности, не входит в группу (рабочую область приложения).
-* Пользователь, прошедший проверку подлинности, не является администратором группы (рабочей области приложения).
+* Пользователь, прошедший проверку подлинности, не входит в группу (рабочую область).
+* Пользователь, прошедший проверку подлинности, не является администратором группы (рабочей области).
 * У прошедшего проверку подлинности пользователя нет разрешений. Разрешения можно обновить с помощью [API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
 * Заголовок авторизации может быть указан неправильно. Убедитесь, что он не содержит опечаток.
 

@@ -2,19 +2,18 @@
 title: Уведомления о перебое в работе служб
 description: Сведения о том, как получать уведомления по электронной почте при нарушении или снижении производительности в службе Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: 677e2b96da533b62cafc724a2f4498591d91057a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073575"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872158"
 ---
 # <a name="service-interruption-notifications"></a>Уведомления о перебое в работе служб
 
@@ -28,7 +27,7 @@ ms.locfileid: "71073575"
 - Надежность обновления моделей
 - Надежность обновления запросов
 
-К примерам таких уведомлений относятся ситуации, когда пользователи сталкиваются с расширенной задержкой в работе, включая открытие отчетов, обновление набора данных или выполнение запросов. После разрешения инцидента вы получите сообщение электронной почты с дальнейшими указаниями.
+Уведомления отправляются, когда происходит _значительная задержка_ в работе, например при открытии отчетов, обновлении набора данных или выполнении запросов. После разрешения инцидента вы получите сообщение электронной почты с дальнейшими указаниями.
 
 > [!NOTE]
 > Сейчас эта функция доступна только для выделенных емкостей в Power BI Premium. Она недоступна для общей или встроенной емкости.
@@ -52,4 +51,4 @@ ms.locfileid: "71073575"
 
 [Варианты поддержки Power BI Pro и Power BI Premium](service-support-options.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

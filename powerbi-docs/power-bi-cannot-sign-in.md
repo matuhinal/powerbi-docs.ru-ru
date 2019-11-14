@@ -3,19 +3,18 @@ title: Невозможность обращения в службу подде�
 description: Обходные пути для отправки обращения в Power BI при невозможности входа в систему
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769828"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874591"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Устранение неполадок со входом в Power BI
 
@@ -27,7 +26,7 @@ ms.locfileid: "64769828"
 
 ## <a name="engage-the-support-team"></a>Обращение в группу поддержки
 
-Во-первых, попробуйте создать запрос в службу поддержки на [странице поддержки Power BI](https://powerbi.microsoft.com/en-us/support/).
+Во-первых, попробуйте создать запрос в службу поддержки на [странице поддержки Power BI](https://powerbi.microsoft.com/support/).
 
 Если сделать это не удается, попробуйте создать такой запрос на [странице поддержки Office 365 (O365)](https://support.office.com/home/contact).
 
@@ -50,9 +49,11 @@ ms.locfileid: "64769828"
 
 Если вам не удается создать запись на странице сообщества, это вызвано тем, что [форум сообщества Power BI](https://community.powerbi.com/) также требует вход в систему.
 
+> [!Note]
+> Дополнительные сведения см. на странице [Поддержка сообщества](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport).
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Ниже приведено несколько сайтов, где можно найти дополнительные сведения о поддержке Power BI:
 
 * [Документация Майкрософт по Power BI](https://docs.microsoft.com/power-bi/)
-* [Отправка обращений в службу поддержки Power BI](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/)

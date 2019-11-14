@@ -3,7 +3,6 @@ title: Использование встроенной аналитики с Pow
 description: Power BI предоставляет интерфейсы API для использования встроенной аналитики для панелей мониторинга и отчетов в приложениях. Узнайте, как использовать программное обеспечение и инструменты для встроенной аналитики и бизнес-аналитики в PaaS- и SaaS-окружении Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
@@ -17,16 +16,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: ccd5917b91d9dd0576f0f4607f84f849f6df145d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391534"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875778"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Использование встроенной аналитики с Power BI
 
-Возможности службы Power BI (SaaS) и Power BI Embedded в Azure (PaaS) предоставляют единый API для внедрения информационных панелей и отчетов. При внедрении содержимого это дает вам доступ к последним функциям Power BI, таким как панели мониторинга, шлюзы и рабочие области приложений.
+Возможности службы Power BI (SaaS) и Power BI Embedded в Azure (PaaS) предоставляют единый API для внедрения информационных панелей и отчетов. При внедрении содержимого это дает вам доступ к последним функциям Power BI, таким как панели мониторинга, шлюзы и рабочие области.
 
 Воспользуйтесь [средством установки внедрения](https://aka.ms/embedsetup), чтобы быстро скачать образец приложения и приступить к работе.
 
@@ -85,7 +84,7 @@ Power BI Embedded дает независимым поставщикам про
 > [!IMPORTANT]
 > Хотя для внедрения требуется служба Power BI, вашим клиентам не нужно иметь учетную запись Power BI для просмотра внедренного содержимого вашего приложения. 
 
-Когда все будет готово к переносу в рабочую среду, рабочую область приложения нужно будет включить в выделенную емкость. Power BI Embedded в Microsoft Azure предоставляет [выделенную емкость](azure-pbie-create-capacity.md) для использования с приложениями.
+Когда все будет готово к переносу в рабочую среду, рабочую область нужно будет включить в выделенную емкость. Power BI Embedded в Microsoft Azure предоставляет [выделенную емкость](azure-pbie-create-capacity.md) для использования с приложениями.
 
 Подробные сведения о внедрении см. в разделе [Внедрение содержимого Power BI](embed-sample-for-customers.md).
 
@@ -102,4 +101,4 @@ Power BI Embedded дает независимым поставщикам про
 > [!div class="nextstepaction"]
 >[Внедрение для клиентов](embed-sample-for-customers.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

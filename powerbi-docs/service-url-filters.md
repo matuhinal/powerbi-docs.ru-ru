@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623885"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891797"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
@@ -153,7 +153,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 |---------|---------|---------|
 |**Имя таблицы**     | Пробел — 0x20        |  Table_x0020_Name       |
 |**Столбец**@**Номер**     |   @ — 0x40     |  Column_x0040_Number       |
-|**[Столбец]**     |  [ — 0x0058, ] — 0x0050       |  _x0058_Column_x0050_       |
+|**[Столбец]**     |  [ — 0x005B, ] — 0x005D       |  _x005B_Column_x005D_       |
 |**Столбец+Plus**     | + — 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![табличный визуальный элемент, отображающий специальные символы](media/service-url-filters/power-bi-special-characters1.png)

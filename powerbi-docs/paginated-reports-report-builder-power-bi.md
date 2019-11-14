@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 09/24/2019
-ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: a0172f655a53e80b4c5ef8a3bdb922ddaec789b4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305680"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431551"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
@@ -26,7 +26,7 @@ ms.locfileid: "71305680"
 
 ![Отчет с разбивкой на страницы в службе Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI http://app.powerbi.com. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в своей рабочей области или в рабочей области приложений, если эта рабочая область находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы в [разделе емкостей Premium](service-admin-premium-workloads.md#paginated-reports) на портале администрирования Power BI. 
+Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI http://app.powerbi.com. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в разделе "Моя рабочая область" или в рабочей области, которая находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы в [разделе емкостей Premium](service-admin-premium-workloads.md#paginated-reports) на портале администрирования Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Создание отчетов в построителе отчетов Power BI
 

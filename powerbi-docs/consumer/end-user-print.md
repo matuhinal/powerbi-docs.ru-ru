@@ -2,7 +2,6 @@
 title: Печать из службы Power BI
 description: Печать панели мониторинга, плитки или страницы отчета из службы Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100198"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862768"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Печать из службы Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Печать всей панели мониторинга, плитки на панели мониторинга, страницы отчета или визуального элемента отчета из службы Power BI. Отчеты можно распечатывать только постранично, весь отчет сразу распечатать нельзя.
 
    > [!NOTE]
@@ -37,7 +39,7 @@ ms.locfileid: "71100198"
 
 ## <a name="print-a-dashboard-tile"></a>Печать плитки на панели мониторинга
 1. Откройте панель мониторинга в [полноэкранном режиме](end-user-focus.md), щелкнув соответствующий значок ![значок полноэкранного режима](./media/end-user-print/power-bi-full-screen-icon.png) в верхней строке меню.
-3. [Откройте плитку в режиме фокусировки](end-user-focus.md), наведя указатель на многоточие (...) и выбрав параметр **Открыть в режиме фокусировки** или значок фокусировки ![значок фокусировки](./media/end-user-print/power-bi-focus-icon.png).
+3. [Откройте плитку в режиме фокусировки](end-user-focus.md), наведя указатель на **Дополнительные параметры** (...) и выбрав команду **Открыть в режиме фокусировки** или значок фокусировки ![значок фокусировки](./media/end-user-print/power-bi-focus-icon.png).
    
     ![меню с многоточием](./media/end-user-print/power-bi-menu-options.png)
 4. Наведите указатель мыши на плитку, чтобы открыть меню "Параметры".
@@ -79,5 +81,5 @@ ms.locfileid: "71100198"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](../service-share-dashboards.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

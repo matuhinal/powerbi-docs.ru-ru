@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715300"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060748"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Добавление гиперссылок (URL-адресов) в таблицу
 Из этого раздела вы узнаете, как добавлять гиперссылки (URL-адреса) в таблицу. Power BI Desktop можно использовать для добавления гиперссылок (URL-адресов) в таблицу или матрицу. Затем вы можете с помощью Power BI Desktop или службы Power BI добавить созданные гиперссылки в таблицы отчета и матрицы. 
@@ -44,7 +44,7 @@ ms.locfileid: "71715300"
     ![Синие и подчеркнутые ссылки](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > URL-адреса должны начинаться с **http://, https://** или **www**.
+    > URL-адреса должны начинаться с определенных префиксов. Полный список см. в разделе [Рекомендации и устранение неполадок](#considerations-and-troubleshooting).
     >
    
 1. Вместо длинного URL-адреса в таблице можно отобразить значок гиперссылки  ![Значок гиперссылки](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) . Обратите внимание, что значки в матрицах невозможно отобразить.
@@ -80,8 +80,9 @@ ms.locfileid: "71715300"
 4. Поместите курсор в столбец, содержащий URL-адреса, которые вы хотите преобразовать в гиперссылки в таблицах Power BI.
    
    > [!NOTE]
-   > URL-адреса должны начинаться с **http://, https://** или **www**.
+   > URL-адреса должны начинаться с определенных префиксов. Полный список см. в разделе [Рекомендации и устранение неполадок](#considerations-and-troubleshooting).
    > 
+   
 5. В группе **Свойства отчетов** щелкните раскрывающийся список **Категория данных** и выберите **URL-адрес веб-сайта**. 
    
    ![Раскрывающийся список категорий данных в Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +93,16 @@ ms.locfileid: "71715300"
    ![Создание таблицы в Power BI с полем URL-адреса](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
+
+Значение URL-адреса может начинаться со следующих последовательностей:
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 Вопрос. Можно ли использовать настраиваемый URL-адрес в качестве гиперссылки в таблице или матрице?    
 Ответ. Нет. Можно использовать значок ссылки. Если вам нужен настраиваемый текст для гиперссылок и ваш список URL-адресов короткий, попробуйте использовать текстовое поле.
 

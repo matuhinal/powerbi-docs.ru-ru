@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192475"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060416"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Руководство. Добавление модульных тестов для проектов визуальных элементов Power BI
 
@@ -65,7 +65,7 @@ ms.locfileid: "71192475"
 "webpack": "4.26.0"
 ```
 
-Чтобы узнать больше о пакете, ознакомьтесь с его описанием.
+Чтобы узнать больше о пакете *package.json*, ознакомьтесь с описанием на странице [npm-package.json](https://docs.npmjs.com/files/package.json).
 
 Сохраните файл *package.json*, а затем выполните следующую команду в расположении `package.json`:
 

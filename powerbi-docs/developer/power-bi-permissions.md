@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269362"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429144"
 ---
 # <a name="power-bi-permissions"></a>Разрешения Power BI
 
@@ -42,7 +42,7 @@ ms.locfileid: "61269362"
 Приложение может запрашивать разрешения при первой попытке входа на страницу пользователя, передавая запрошенные разрешения в параметре scope вызова. Если разрешения предоставляются, в приложение возвращается маркер доступа, который может использоваться в дальнейших вызовах API. Доступ может использоваться конкретным приложением.
 
 > [!NOTE]
-> В интерфейсах API Power BI рабочие области приложения по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями приложения.
+> В интерфейсах API Power BI рабочие области по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями.
 
 ## <a name="requesting-permissions"></a>Запрос разрешений
 

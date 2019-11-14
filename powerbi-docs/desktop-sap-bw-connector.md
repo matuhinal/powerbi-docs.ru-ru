@@ -2,7 +2,6 @@
 title: Использование соединителя SAP BW в Power BI Desktop
 description: Использование соединителя SAP BW в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f55245fc037f48622bb636e961f59c796f267646
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514677"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879778"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Использование соединителя SAP BW в Power BI Desktop
 С помощью Power BI Desktop вы можете получить доступ к данным **SAP Business Warehouse (BW)** .
@@ -236,10 +235,11 @@ ms.locfileid: "65514677"
 |Power BI Gateway     |Импорт      | Та же, что и в Power BI Desktop |         |   |   |
 |Power BI Gateway     |DirectQuery | Пользователь и пароль        | Сервер приложений | Н/Д  | Да  |
 |Power BI Gateway     |DirectQuery | Windows через олицетворение (постоянный пользователь, без единого входа) | Сервер приложений | sapcrypto + gsskrb5/gx64krb5  | Да  |
-|Power BI Gateway     |DirectQuery | Параметр "Использовать единый вход (SSO) через Kerberos для запросов DirectQuery" | Сервер приложений | *Только с* gsskrb5 или gx64krb5   | Да  |
+|Power BI Gateway     |DirectQuery | Параметр "Использовать единый вход (SSO) через Kerberos для запросов DirectQuery" | Сервер приложений | sapcrypto + gsskrb5/gx64krb5   | Да  |
 |Power BI Gateway     |DirectQuery | Пользователь и пароль        | Сервер сообщений | Н/Д  | Да  |
 |Power BI Gateway     |DirectQuery | Windows через олицетворение (постоянный пользователь, без единого входа) | Сервер сообщений | sapcrypto + gsskrb5/gx64krb5  | Да  |
-|Power BI Gateway     |DirectQuery | Параметр "Использовать единый вход (SSO) через Kerberos для запросов DirectQuery" | Сервер сообщений | sapcrypto + gsskrb5/gx64krb5  | Нет  |
+|Power BI Gateway     |DirectQuery | Параметр "Использовать единый вход (SSO) через Kerberos для запросов DirectQuery" | Сервер сообщений | gsskrb5/gx64krb5  | Нет  |
+|Power BI Gateway     |DirectQuery | Параметр "Использовать единый вход (SSO) через Kerberos для запросов DirectQuery" | Сервер сообщений | sapcrypto  | Да  |
 
 
 

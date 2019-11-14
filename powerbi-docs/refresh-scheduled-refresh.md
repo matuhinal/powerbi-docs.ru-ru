@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816592"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021550"
 ---
 # <a name="configure-scheduled-refresh"></a>Настройка запланированного обновления
 
@@ -30,7 +30,7 @@ ms.locfileid: "66816592"
 
 Чтобы перейти к экрану **Запланированное обновление**, можно сделать следующее:
 
-1. Щелкните **многоточие (…)** рядом с набором данных в разделе **Наборы данных**.
+1. Щелкните **Дополнительные параметры** (…) рядом с набором данных в разделе **Наборы данных**.
 2. Щелкните **Расписание обновлений**.
 
     ![Расписание обновлений](media/refresh-scheduled-refresh/dataset-menu.png)

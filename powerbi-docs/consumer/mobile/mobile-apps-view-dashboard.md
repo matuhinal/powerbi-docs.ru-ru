@@ -2,19 +2,18 @@
 title: Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 description: Создавайте панели мониторинга и отчеты или подключайтесь к ним в службе Power BI. После этого вы сможете просматривать их в мобильных приложениях Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654624"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870671"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 Область применения:
@@ -40,7 +39,7 @@ ms.locfileid: "69654624"
 ## <a name="view-dashboards-on-your-iphone"></a>Просмотр панелей мониторинга на iPhone
 1. Откройте приложение Power BI на iPhone и выполните вход.
    
-   Нужно [скачать приложение для iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) из Apple App Store?
+   Нужно [скачать приложение для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) из Apple App Store?
 2. Коснитесь панели мониторинга, которую нужно открыть.  
    
     ![Выбор панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ ms.locfileid: "69654624"
 ## <a name="view-dashboards-on-your-ipad"></a>Просмотр панелей мониторинга на iPad
 1. Откройте приложение Power BI.
    
-   Сначала хотите [скачать приложение для iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) из Apple App Store?
+   Сначала хотите [скачать приложение для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) из Apple App Store?
 2. Нажмите **Панели мониторинга** вверху приложения.  
    
    ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ ms.locfileid: "69654624"
 ## <a name="view-dashboards-on-your-android-phone"></a>Просмотр панелей мониторинга на устройстве Android
 1. Откройте приложение Power BI на устройстве Android и выполните вход.
    
-   Сначала требуется [скачать приложение Android](http://go.microsoft.com/fwlink/?LinkID=544867)?
+   Сначала требуется [скачать приложение Android](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Коснитесь панели мониторинга, которую нужно открыть.   
    
    ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -118,7 +117,7 @@ ms.locfileid: "69654624"
 
     Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
 
-1. На панели мониторинга вы можете коснуться вертикального многоточия (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
+1. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
    ![Меню со значком многоточия](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Проведите по экрану вверх, чтобы увидеть [все плитки на информационной панели](mobile-tiles-in-the-mobile-apps.md). 
@@ -127,14 +126,14 @@ ms.locfileid: "69654624"
 ## <a name="view-dashboards-on-your-android-tablet"></a>Просмотр панелей мониторинга на планшете с Android
 1. Откройте приложение Power BI на планшете с Android и выполните вход.
    
-   Сначала требуется [скачать приложение Android](http://go.microsoft.com/fwlink/?LinkID=544867)?
+   Сначала требуется [скачать приложение Android](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Коснитесь панели мониторинга, которую нужно открыть.   
    
    ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
    * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
-3. На панели мониторинга вы можете коснуться вертикального многоточия (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
+3. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
    ![Меню со значком многоточия](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Проведите по экрану вверх, чтобы увидеть [все плитки на информационной панели](mobile-tiles-in-the-mobile-apps.md). 
@@ -154,8 +153,8 @@ ms.locfileid: "69654624"
 Прочитайте о [создании представлений панелей мониторинга для телефонов](../../service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Скачивание приложения Android](http://go.microsoft.com/fwlink/?LinkID=544867) из Google Play.  
+* [Скачивание приложения Android](https://go.microsoft.com/fwlink/?LinkID=544867) из Google Play.  
 * [Начало работы с приложением Android для Power BI](mobile-android-app-get-started.md)  
-* [Что такое Power BI?](../../power-bi-overview.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

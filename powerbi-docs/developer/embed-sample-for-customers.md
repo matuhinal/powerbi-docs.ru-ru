@@ -10,16 +10,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391806"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429673"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
-С помощью **Power BI Embedded в Azure** вы можете встраивать отчеты, информационные панели или плитки в приложение с помощью данных, принадлежащих ему. Модель **данных, принадлежащих приложению**, позволяет приложению использовать Power BI как встроенную платформу аналитики. Как **разработчик и независимый поставщик программного обеспечения** вы можете создавать содержимое Power BI, отображающее отчеты, информационные панели или плитки в приложении. При этом приложение будет полностью интегрированным и интерактивным, а пользователям не потребуется лицензия Power BI. Из этого руководства вы узнаете, как интегрировать отчет в приложение с помощью пакета SDK Power BI для .NET и API JavaScript для Power BI при использовании**Power BI Embedded в Azure** для ваших клиентов.
+С помощью **Power BI Embedded в Azure** или **внедрения Power BI в Office** вы можете встраивать отчеты, панели мониторинга или плитки в приложение с помощью данных, принадлежащих ему. Модель **данных, принадлежащих приложению**, позволяет приложению использовать Power BI как встроенную платформу аналитики. Как **независимый поставщик программного обеспечения** или **разработчик** вы можете создавать содержимое Power BI, отображающее отчеты, информационные панели или плитки в приложении. При этом приложение будет полностью интегрированным и интерактивным, а пользователям не потребуется лицензия Power BI. Из этого руководства вы узнаете, как интегрировать отчет в приложение с помощью пакета SDK Power BI для .NET и API JavaScript для Power BI.
 
 ![Внедрение отчета Power BI](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -33,12 +33,9 @@ ms.locfileid: "70391806"
 Для работы вам понадобятся:
 
 * [учетная запись Power BI Pro](../service-self-service-signup-for-power-bi.md) (главная учетная запись, то есть имя пользователя и пароль для входа в учетную запись Power BI Pro) или [субъект-служба (токен только для приложения)](embed-service-principal.md);
-* подписка [Microsoft Azure](https://azure.microsoft.com/);
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
 
 Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
-
-Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Настройка среды разработки для встроенной аналитики
 
@@ -60,13 +57,13 @@ ms.locfileid: "70391806"
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 
-### <a name="create-an-app-workspace"></a>Создание рабочей области приложения
+### <a name="create-a-workspace"></a>Создать рабочую область
 
-Если вы планируете внедрить отчеты, информационные панели и (или) плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области этого приложения. Можно настроить рабочие области разных типов: [традиционные](../service-create-workspaces.md) или [новые](../service-create-the-new-workspaces.md). Если вы используете *главную* учетную запись, тип рабочих областей может быть любым. Однако если вы применяете *[субъект-службу](embed-service-principal.md)* для входа в приложение, необходимо использовать новые рабочие области. И *главная* учетная запись, и *субъект-служба* должны быть администраторами рабочих областей, в которые входит приложение.
+Если вы планируете внедрять отчеты, панели мониторинга и плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области. Можно настроить рабочие области разных типов: [традиционные](../service-create-workspaces.md) или [новые](../service-create-the-new-workspaces.md). Если вы используете *главную* учетную запись, тип рабочих областей может быть любым. Однако если вы применяете *[субъект-службу](embed-service-principal.md)* для входа в приложение, необходимо использовать новые рабочие области. И *главная* учетная запись, и *субъект-служба* должны быть администраторами рабочих областей, в которые входит приложение.
 
 ### <a name="create-and-publish-your-reports"></a>Создание и публикация отчетов
 
-Вы можете создавать отчеты и наборы данных с помощью Power BI Desktop, а затем публиковать эти отчеты в рабочей области приложения. Эту задачу можно выполнять двумя способами. Конечный пользователь может публиковать отчеты в традиционной рабочей области приложения с помощью главной учетной записи (с лицензией Power BI Pro). Если вы используете субъект-службу, то можете публиковать отчеты в новых рабочих областях с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+Вы можете создавать отчеты и наборы данных с помощью Power BI Desktop, а затем публиковать эти отчеты в рабочей области. Эту задачу можно выполнять двумя способами. Конечный пользователь может публиковать отчеты в традиционной рабочей области с помощью главной учетной записи (с лицензией Power BI Pro). Если вы используете субъект-службу, то можете публиковать отчеты в новых рабочих областях с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
 
 Ниже приведены пошаговые инструкции по публикации отчета PBIX в рабочей области Power BI.
 
@@ -78,7 +75,7 @@ ms.locfileid: "70391806"
 
    ![Отчет в PBI Desktop](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. Опубликуйте его в **рабочих областях приложения**. Этот процесс зависит от того, используете ли вы главную учетную запись (с лицензией Power Pro) или субъект-службу. Если вы используете главную учетную запись, отчет можно опубликовать через Power BI Desktop.  Если же вы используете субъект-службу, необходимо применять REST API Power BI.
+3. Опубликуйте его в **рабочих областях**. Этот процесс зависит от того, используете ли вы главную учетную запись (с лицензией Power Pro) или субъект-службу. Если вы используете главную учетную запись, отчет можно опубликовать через Power BI Desktop.  Если же вы используете субъект-службу, необходимо применять REST API Power BI.
 
 ## <a name="embed-content-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 
@@ -139,7 +136,7 @@ ms.locfileid: "70391806"
 
 Этот атрибут необходим для обоих типов проверки подлинности (главной учетной записи и [субъекта-службы](embed-service-principal.md)).
 
-Укажите в поле **workspaceId** GUID рабочей области (группы) приложения из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
+Укажите в поле **workspaceId** GUID рабочей области (группы) из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
 
 URL-адрес <br>
 
@@ -268,11 +265,23 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Создание маркера внедрения
+Создайте токен внедрения, который можно использовать из API JavaScript. Существует два типа API; первая группа содержит пять API, каждый из которых создает токен внедрения для определенного элемента. Вторая группа, которая содержит только один API, создает токен, который можно использовать для внедрения нескольких элементов.
 
-Создайте токен внедрения, который можно использовать из API JavaScript. Токен внедрения связан только с внедряемым элементом. Таким образом, при каждом внедрении части содержимого Power BI нужно создавать отдельный токен внедрения. Дополнительные сведения, включая информацию о том, какой уровень **accessLevel** нужно использовать, см. в статье [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) (Интерфейс API GenerateToken).
+**Интерфейсы API для создания токена внедрения для определенного элемента**
 
-*Пример создания токена внедрения для отчета, панели мониторинга или плитки можно найти в файле Services\EmbedService.cs в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples).*
+Токен внедрения, созданный этими API, будет связан только с внедряемым элементом. При каждом внедрении элемента Power BI (такого как отчет, панель мониторинга или плитка) при помощи этих API необходимо создать для него новый токен внедрения.
+* [Панели мониторинга: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Наборы данных: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Отчеты: GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Отчеты: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Плитки: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
+Примеры создания токена внедрения для отчета, панели мониторинга или плитки доступны в следующих файлах [примеров приложений](https://github.com/Microsoft/PowerBI-Developer-Samples).
+* Services\EmbedService.cs
+* Models\EmbedConfig.cs
+* Models\TileEmbedConfig.cs
+
+Ниже приведен пример кода для использования API при создании токена внедрения отчетов GenerateTokenInGroup.
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
@@ -290,7 +299,55 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-Класс создается для **EmbedConfig** и **TileEmbedConfig**. Пример доступен в файлах **Models\EmbedConfig.cs** и **Models\TileEmbedConfig.cs**.
+**API для создания и внедрения токена для нескольких элементов**<a id="multiEmbedToken"></a>
+
+API [создания токена](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) внедрения создает токен, который можно использовать для внедрения нескольких элементов.
+
+Он также допускает динамический выбор набора данных при внедрении отчета. Дополнительные сведения о таком использовании API см. в разделе [Динамическая привязка](embed-dynamic-binding.md).
+
+
+Ниже приведен пример использования этого API.
+ 
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+var reports = new List<GenerateTokenRequestV2Report>()
+{ 
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = false,
+        Id = report1.Id
+    },
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = true,
+        Id = report2.Id
+    }
+};
+
+var datasets= new List<GenerateTokenRequestV2Dataset>()
+{
+    new GenerateTokenRequestV2Dataset(dataset1.Id),
+    new GenerateTokenRequestV2Dataset(dataset2.Id),
+    new GenerateTokenRequestV2Dataset(dataset3.Id),
+};
+
+var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
+{
+    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
+    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
+};
+
+var request = new GenerateTokenRequestV2()
+{
+    Datasets = datasetsRequestDetails ?? null,
+    Reports = reportsRequestDetails,
+    TargetWorkspaces = targetWSRequestdetials ?? null,
+};
+
+var token = client.GetClient().EmbedToken.GenerateToken(request);
+```
 
 ### <a name="load-an-item-using-javascript"></a>Загрузка элемента с помощью JavaScript
 
@@ -345,35 +402,40 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="move-to-production"></a>Начало эксплуатации в рабочей среде
 
-После завершения разработки приложения нужно вернуться к рабочей области приложения с выделенной емкостью. 
+После разработки приложения нужно вернуться к рабочей области с выделенной емкостью. 
 
 > [!Important]
-> Для перехода к рабочей среде требуется выделенная емкость.
+> Для перехода к рабочей среде требуется выделенная емкость. Все рабочие области, содержащие отчеты и панели мониторинга, а также содержащие наборы данных, должны быть назначены емкости.
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
-Создав выделенную емкость, вы получите преимущество выделенного ресурса для клиента. Вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
+Создав выделенную емкость, вы получите преимущество выделенного ресурса для клиента. Можно использовать два типа емкости.
+* **Power BI Premium** — это подписка Office 356 уровня клиента, доступная в двух семействах SKU: *EM* и *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Сто такое Power BI Premium?](../service-premium-what-is.md).
+* **Azure Power BI Embedded** — вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
+> [!NOTE]
+> С номерами SKU A вы не можете получить доступ к содержимому Power BI с бесплатной лицензией Power BI.
 
-Используйте таблицу ниже, чтобы определить, какая емкость Power BI Embedded наилучшим образом соответствует вашим требованиям.
+В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario).
 
-| Узел емкости | Общее число ядер<br/>*(серверная часть и интерфейс)* | Внутренние ядра | Интерфейсные ядра | Ограничения для подключений DirectQuery и активных подключений|
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 виртуальное ядро |0,5 ядра, 3 ГБ ОЗУ |0,5 ядра |0,5 в секунду |
-| A2 |2 виртуальных ядра |1 ядро, 5 ГБ ОЗУ |1 ядро | 10 в секунду |
-| A3 |4 виртуальных ядра |2 ядра, 10 ГБ ОЗУ |2 ядра | 15 в секунду |
-| A4 |8 виртуальных ядер |4 ядра, 25 ГБ ОЗУ |4 ядра |30 в секунду |
-| A5 |16 виртуальных ядер |8 ядер, 50 ГБ ОЗУ |8 ядер |60 в секунду |
-| A6 |32 виртуальных ядра |16 ядер, 100 ГБ ОЗУ |16 ядер |120 в секунду |
+| Узлы емкости | Число виртуальных ядер | Серверные виртуальные ядра | ОЗУ (ГБ) | Интерфейсные виртуальные ядра | Подключения DirectQuery и активные подключения (в секунду) | Параллелизм обновления модели |
+| --- | --- | --- | --- | --- | --- | --- |
+| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 % | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7,5 % | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| | | | | | | |
 
-**_С номерами SKU A вы не можете получить доступ к содержимому Power BI с бесплатной лицензией Power BI._**
+### <a name="development-testing"></a>Тестирование в ходе разработки
 
-Токены внедрения с лицензиями PRO предназначены для тестирования при разработке, поэтому количество таких токенов, создаваемых главной учетной записью или субъектом-службой Power BI, ограничено. Выделенную емкость необходимо внедрить в рабочую среду. В этом случае не будет ограничения на количество создаваемых токенов. Выберите [Доступные компоненты](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), чтобы проверить данные по использованию Embedded, выраженные в процентах от общей емкости. Суммарный объем использования основан на главной учетной записи.
+Токены внедрения с лицензиями Pro предназначены для тестирования при разработке, поэтому количество таких токенов, создаваемых главной учетной записью или субъектом-службой Power BI, ограничено. Выделенную емкость необходимо внедрить в рабочую среду. В этом случае не будет ограничения на количество создаваемых токенов. Выберите [Доступные компоненты](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), чтобы проверить данные по использованию Embedded, выраженные в процентах от общей емкости. Суммарный объем использования основан на главной учетной записи.
 
 Дополнительные сведения приведены в [техническом документе по планированию емкости для внедренной аналитики](https://aka.ms/pbiewhitepaper).
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Назначение выделенной емкости для рабочей области приложения
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Назначение выделенной емкости для рабочей области
 
-После создания выделенной емкости ей можно назначить рабочую область приложения.
+После создания выделенной емкости ей можно назначить рабочую область.
 
 Чтобы назначить выделенную емкость рабочей области с помощью [субъекта-службы](embed-service-principal.md), используйте [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Если применяется REST API Power BI, необходимо использовать [идентификатор объекта субъекта-службы](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 
@@ -387,9 +449,9 @@ var embedConfig = new EmbedConfig()
 
     ![Назначение выделенной емкости](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. После нажатия кнопки **Сохранить** рядом с именем рабочей области приложения должен появиться **ромб**.
+3. После нажатия кнопки **Сохранить** рядом с именем рабочей области должен появиться **ромб**.
 
-    ![Рабочая область приложения, связанная с емкостью](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    ![Рабочая область, связанная с емкостью](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

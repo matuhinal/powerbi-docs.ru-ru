@@ -1,6 +1,6 @@
 ---
 title: Внедрение отчетов или панелей мониторинга из приложений
-description: Вы узнаете, как интегрировать (внедрить) отчет или панель мониторинга из приложения Power BI, а не из рабочей области приложения.
+description: Вы узнаете, как интегрировать (внедрить) отчет или панель мониторинга из приложения Power BI, а не из рабочей области.
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 1883d82b47c32f3c7f03e55a177429d09ce337a2
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750897"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430860"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Внедрение отчетов или панелей мониторинга из приложений
 
@@ -42,7 +42,7 @@ ms.locfileid: "66750897"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Узнайте, как выполняется внедрение из рабочих областей приложений для сторонних клиентов и вашей организации:
+Узнайте, как выполняется внедрение из рабочих областей для сторонних клиентов и вашей организации:
 
 > [!div class="nextstepaction"]
 >[Внедрение для сторонних клиентов](embed-sample-for-customers.md)

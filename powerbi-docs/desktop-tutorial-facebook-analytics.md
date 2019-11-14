@@ -2,7 +2,6 @@
 title: Руководство. Анализ Facebook с помощью Power BI Desktop
 description: Руководство. Анализ Facebook с помощью Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841401"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876275"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Руководство. Анализ Facebook с помощью Power BI Desktop
 
@@ -147,7 +146,7 @@ ms.locfileid: "70841401"
    
    ![Линейчатая диаграмма](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. Выберите кнопку с многоточием (…) в правом верхнем углу визуализации, а затем выберите **Sort by Number of comments** (Сортировать по числу комментариев), чтобы сортировать таблицу по убыванию числа комментариев. 
+4. Выберите **Дополнительные параметры** (…) в правом верхнем углу визуализации, а затем команду **Сортировать по числу комментариев**, чтобы сортировать таблицу по убыванию числа комментариев. 
    
    ![Сортировка по числу комментариев](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +183,7 @@ ms.locfileid: "70841401"
 
 Визуализация улучшилась, но все метки данных содержат десятичный разряд **.0**, который отвлекает и вводит в заблуждение, так как **количество записей** должно быть целым числом. Необходимо изменить тип данных для **количества записей** на целое число.
 
-1. Чтобы изменить тип данных, щелкните правой кнопкой мыши **Запрос1** в списке "Поля" или наведите на него указатель мыши и выберите кнопку **дополнительных параметров** с многоточием (…). Затем выберите **Изменить запрос**. Кроме того, можно выбрать действие **Изменить запросы** в области **Внешние данные** на вкладке "Главная" на ленте. Затем выберите в раскрывающемся списке **Изменить запросы**. В отдельном окне откроется **Редактор Power Query** приложения Power BI Desktop.
+1. Чтобы изменить тип данных, щелкните правой кнопкой мыши **Запрос1** в списке "Поля" или наведите на него указатель мыши и выберите **Дополнительные параметры** (…). Затем выберите команду **Изменить запрос**. Кроме того, можно выбрать действие **Изменить запросы** в области **Внешние данные** на вкладке "Главная" на ленте. Затем выберите в раскрывающемся списке **Изменить запросы**. В отдельном окне откроется **Редактор Power Query** приложения Power BI Desktop.
    
    ![Действие "Изменить запрос" в списке "Поля"](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Действие "Изменить запрос" на ленте](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
@@ -236,13 +235,13 @@ ms.locfileid: "70841401"
 
 Как видите, вы можете легко настроить визуализации в отчете для любого представления данных. Например, с помощью импортированных данных Facebook можно создать этот график, на котором отображается количество комментариев со временем.
 
-![график;](media/desktop-tutorial-facebook-analytics/moreviz.png)
+![График](media/desktop-tutorial-facebook-analytics/moreviz.png)
 
 Power BI Desktop предоставляет удобные возможности для получения данных из разнообразных источников и их обработки для анализа и визуализации в интерактивном режиме. Готовый отчет можно [отправить в Power BI](desktop-upload-desktop-files.md), создать на его основе панели мониторинга и предоставить к ним общий доступ другим пользователям Power BI.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Прочитайте другие руководства по Power BI Desktop.](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Посмотрите видеоматериалы по Power BI Desktop.](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Посетите форум Power BI.](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Прочитайте блог, посвященный Power BI.](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Прочитайте другие руководства по Power BI Desktop.](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Посмотрите видеоматериалы по Power BI Desktop.](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Посетите форум Power BI.](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Прочитайте блог, посвященный Power BI.](https://go.microsoft.com/fwlink/?LinkID=519327)
 

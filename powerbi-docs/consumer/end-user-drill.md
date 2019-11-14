@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589492"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019894"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Режим детализации в визуальном элементе в Power BI
 
@@ -128,7 +128,7 @@ ms.locfileid: "72589492"
 ## <a name="show-the-data-as-you-drill"></a>Отображение данных по мере детализации
 Чтобы просматривать данные в процессе обработки, используйте область **Показать данные**. При выполнении каждой операции детализации или развертывания в области **Показать данные** будут выводиться данные, используемые для построения визуального элемента. Это позволяет понять, каким образом иерархии, детализация и развертывание обеспечивают построение визуальных элементов. 
 
-В правом верхнем углу нажмите кнопку с многоточием (...), а затем выберите **Показать данные**. 
+В правом верхнем углу нажмите **Дополнительные параметры** (...), а затем выберите команду **Показать данные**. 
 
 ![Снимок экрана: кнопка меню с многоточием.](./media/end-user-drill/power-bi-ellipses.png)
 

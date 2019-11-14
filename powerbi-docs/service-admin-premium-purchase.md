@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175242"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442908"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
@@ -30,17 +30,17 @@ ms.locfileid: "71175242"
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Создание клиента с Power BI Premium P1
 
-Если у вас нет клиента и вы хотите создать его, вместе с ним можно приобрести Power BI Premium. По ссылке ниже представлены инструкции по созданию клиента и предоставляется возможность приобрести Power BI Premium: [предложение Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). При создании клиента вам будет автоматически назначена роль глобального администратора Office 365 для этого клиента.
+Если у вас нет клиента и вы хотите создать его, вместе с ним можно приобрести Power BI Premium. По ссылке ниже представлены инструкции по созданию клиента и предоставляется возможность приобрести Power BI Premium: [предложение Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). При создании клиента вам будет автоматически назначена роль глобального администратора Microsoft 365 для этого клиента.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Приобретение емкости Power BI Premium для существующей организации
 
-Чтобы приобрести подписки и лицензии для существующей организации (клиента), нужно иметь роль глобального администратора Office  365 или администратора выставления счетов. Дополнительные сведения см. в разделе [Роли администраторов в Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Чтобы приобрести подписки и лицензии для существующей организации (клиента), нужно иметь роль глобального администратора Microsoft 365 или администратора выставления счетов. Дополнительные сведения см. в разделе [Роли администраторов в Microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 Чтобы приобрести емкость Premium, выполните указанные ниже действия.
 
-1. В службе Power BI выберите средство выбора приложений Office 365, а затем **Администратор**.
+1. В службе Power BI выберите средство выбора приложений Microsoft 365, а затем **Администратор**.
 
-    ![Средство выбора приложений Office 365](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![Средство выбора приложений Microsoft 365](media/service-admin-premium-purchase/o365-app-picker.png)
 
     Кроме того, можно перейти в Центр администрирования Microsoft 365. Для этого перейдите в https://portal.office.com и выберите **Администратор**.
 
@@ -48,7 +48,7 @@ ms.locfileid: "71175242"
 
 1. В разделе **Другие планы** найдите предложения Power BI Premium. В списке отобразятся предложения P1–P3, EM3 и P1 (ежемесячная подписка).
 
-1. Наведите указатель мыши на многоточие (**…**), а затем выберите **Приобрести**.
+1. Наведите указатель мыши на многоточие ( **…** ), а затем выберите **Приобрести**.
 
     ![купить сейчас](media/service-admin-premium-purchase/premium-purchase.png)
 
@@ -66,7 +66,7 @@ ms.locfileid: "71175242"
 
 1. Найдите элемент Power BI Premium, для которого требуется приобрести дополнительную емкость, в разделе **Другие планы**.
 
-1. Наведите указатель мыши на **многоточие (…)**, а затем выберите **Change license quantity** (Изменить количество лицензий).
+1. Наведите указатель мыши на **Дополнительные параметры** (…), а затем выберите команду **Изменить количество лицензий**.
 
     ![Изменить количество лицензий](media/service-admin-premium-purchase/premium-purchase-more.png)
 

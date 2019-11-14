@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67498985"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059446"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone, iPad или iPod Touch позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -31,7 +31,7 @@ ms.locfileid: "67498985"
 Узнайте о [новых возможностях мобильных приложений Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>Загрузите приложение
-[Download the iOS app](http://go.microsoft.com/fwlink/?LinkId=522062 "Скачайте приложение iOS") для iPhone, iPad или iPod Touch в Apple App Store.
+[Скачайте приложение для iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Скачать приложение для iOS") для iPhone, iPad или iPod Touch в Apple App Store.
 
 Приложение Power BI для iOS можно запускать на любых устройствах, работающих под управлением iOS 11 и более поздних версий. 
 
@@ -109,7 +109,7 @@ Microsoft Intune позволяет управлять такими элемен
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Что такое Power BI?](../../power-bi-overview.md)
+* [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
 
 

@@ -1,6 +1,6 @@
 ---
 title: Функции службы Power BI по типам лицензий
-description: В службе Power BI пользователи имеют возможности, определенные на основе двух следующих типов лицензий — пользовательская (бесплатная и профессиональная) и лицензия на основе зарезервированной мощности.
+description: В службе Power BI пользователи имеют определенные возможности согласно типу лицензии "на пользователя" (бесплатная или Pro) и независимо от того, находится ли содержимое, с которым они взаимодействуют, в рабочей области, назначенной емкости Power BI Premium.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 38bf9acb76faa3c2d5d04d247edbdc46455d22e1
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554440"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442789"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Функции службы Power BI по типам лицензий
 
@@ -37,7 +37,7 @@ ms.locfileid: "65554440"
 | Внедренные интерфейсы API и элементы управления |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | **Совместная работа** | | |
 | Одноранговый общий доступ |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
-| Рабочие области приложений |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
+| Рабочие области |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 | Анализ в Excel, анализ в Power BI Desktop |![Компонент недоступен](media/features-license-type/not-available.png) |![Компонент доступен](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>Дальнейшие действия

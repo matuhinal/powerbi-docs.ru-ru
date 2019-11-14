@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730279"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442811"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Что такое локальный шлюз данных?
 
@@ -42,13 +42,13 @@ ms.locfileid: "68730279"
 Чтобы использовать шлюз, нужно выполнить четыре основных действия.
 
 1. [Скачайте и установите шлюз](/data-integration/gateway/service-gateway-install) на локальном компьютере.
-2. [Настройте](/data-integration/gateway/service-gateway-app) шлюз в соответствии с учетом конфигурации брандмауэра и других требований к сети.
-3. [Добавьте администраторов шлюзов](/data-integration/gateway/service-gateway-manage), которые также могут сети и управлять ими.
-4. [Устраните неполадки](service-gateway-onprem-tshoot.md) для шлюза при наличии ошибок.
+1. [Настройте](/data-integration/gateway/service-gateway-app) шлюз в соответствии с учетом конфигурации брандмауэра и других требований к сети.
+1. [Добавьте администраторов шлюзов](/data-integration/gateway/service-gateway-manage), которые также могут сети и управлять ими.
+1. [Используйте шлюз](service-gateway-sql-tutorial.md) для обновления локального источника данных.
+1. [Устраните неполадки](service-gateway-onprem-tshoot.md) для шлюза при наличии ошибок.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Установка и настройка локального шлюза данных](/data-integration/gateway/service-gateway-install)
-
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)

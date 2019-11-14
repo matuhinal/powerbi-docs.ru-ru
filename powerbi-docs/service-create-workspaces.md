@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020250"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021083"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Создание классических рабочих областей в Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "72020250"
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Добавление изображения в рабочую область Office 365 (необязательно)
 По умолчанию служба Power BI создает небольшой цветной кружок с кратким названием приложения. Но вы можете добавить изображение. Чтобы добавить изображение, требуется лицензия Exchange Online.
 
-1. Выберите **Рабочие области**, щелкните многоточие (...) рядом с именем рабочей области, а затем выберите **Members** (Элементы). 
+1. Выберите **Рабочие области**, щелкните **Дополнительные параметры** (...) рядом с именем рабочей области, а затем выберите **Элементы**. 
    
      ![Выбор рабочей области "Элементы"](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

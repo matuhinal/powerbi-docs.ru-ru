@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074854"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431352"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Безопасность на уровне строк (RLS) в Power BI
 
@@ -70,7 +70,7 @@ ms.locfileid: "71074854"
 
 Чтобы убедиться в работоспособности роли, которую вы определили, выполните проверку роли. 
 
-1. Щелкните **многоточие (…)** рядом с ролью.
+1. Выберите **Дополнительные параметры** (...) рядом с ролью.
 2. Выберите пункт **Проверить данные в качестве роли**.
 
 ![Проверить в качестве роли](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +89,12 @@ ms.locfileid: "71074854"
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Использование RLS с рабочими областями приложений в Power BI
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Использование RLS с рабочими областями в Power BI
 
-При публикации отчета Power BI Desktop в рабочей области приложения в службе Power BI роли применяются к участникам с правами только для чтения. Вам потребуется указать, что участники могут только просматривать содержимое Power BI, в параметрах рабочей области приложения.
+При публикации отчета Power BI Desktop в рабочей области в службе Power BI роли применяются к участникам с правами только для чтения. Вам потребуется указать, что участники могут только просматривать содержимое Power BI, в параметрах рабочей области.
 
 > [!WARNING]
-> Если вы настроили рабочую область приложения таким образом, что ее участники обладают разрешениями на изменение, то роли RLS не будут применяться к этим участникам. Пользователи будут видеть все данные.
+> Если вы настроили рабочую область таким образом, что ее участники обладают разрешениями на изменение, то роли RLS не будут применяться к этим участникам. Пользователи будут видеть все данные.
 
 ![Параметры группы](media/service-admin-rls/rls-group-settings.png)
 

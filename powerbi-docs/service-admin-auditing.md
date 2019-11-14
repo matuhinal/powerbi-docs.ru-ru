@@ -2,7 +2,6 @@
 title: Применение функции аудита в своей организации
 description: Узнайте, как использовать функцию аудита в Power BI для отслеживания и анализа выполненных действий. Вы можете использовать PowerShell или средства Центра безопасности и соответствия требованиям.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325443"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873765"
 ---
 # <a name="use-auditing-within-your-organization"></a>Применение функции аудита в своей организации
 
@@ -162,7 +161,9 @@ Remove-PSSession $Session
 | Администратор подключил к клиенту учетную запись хранения для потоков данных | AdminAttachedDataflowStorageAccountToTenant | Сейчас не используется                       |
 | Анализируемый набор данных Power BI                         | AnalyzedByExternalApplication               |                                          |
 | Проанализирован отчет Power BI                          | AnalyzeInExcel                              |                                          |
+| К клиенту подключили учетную запись хранения для потоков данных                 | AttachedDataflowStorageAccount              |                                          |
 | привязка набора данных Power BI к шлюзу;                | BindToGateway                               |                                          |
+| Обновление потока данных отменено                        | CancelDataflowRefresh                       |                                          |
 | Изменено состояние емкости                            | ChangeCapacityState                         |                                          |
 | Изменено назначение пользователей емкости                  | UpdateCapacityUsersAssignment               |                                          |
 | Изменены подключения к наборам данных Power BI              | SetAllConnections                           |                                          |
@@ -194,6 +195,7 @@ Remove-PSSession $Session
 | Удален отчет Power BI                           | DeleteReport                                |                                          |
 | Обнаружены источники набора данных Power BI          | GetDatasources                              |                                          |
 | Скачанный отчет Power BI                        | DownloadReport                              |                                          |
+| Изменены свойства потока данных                        | EditDataflowProperties                      |                                          |
 | Изменено разрешение сертификации Power BI          | EditCertificationPermission                 | Сейчас не используется                       |
 | Изменена панель мониторинга Power BI                         | EditDashboard                               | Сейчас не используется                       |
 | Изменен набор данных Power BI                           | EditDataset                                 |                                          |
@@ -213,7 +215,7 @@ Remove-PSSession $Session
 | Напечатана панель мониторинга Power BI                        | PrintDashboard                              |                                          |
 | Напечатана страница отчета Power BI                      | PrintReport                                 |                                          |
 | Отчет Power BI опубликован в Интернете                  | PublishToWebReport                          |                                          |
-| Получен секрет потока данных Power BI из Key Vault  | ReceiveDataflowSecretFromKeyVault           | Сейчас не используется                       |
+| Получен секрет потока данных Power BI из Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Удаление источника данных из шлюза Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Удалены участники группы Power BI                    | DeleteGroupMembers                          |                                          |
 | Рабочая область удалена из емкости                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +223,7 @@ Remove-PSSession $Session
 | Запрошено обновление потока данных Power BI               | RequestDataflowRefresh                      | Сейчас не используется                       |
 | Запрошено обновление набора данных Power BI                | RefreshDataset                              |                                          |
 | Получены рабочие области Power BI                     | GetWorkspaces                               |                                          |
+| Задано расположение хранилища потоков данных для рабочей области     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Задано запланированное обновление потока данных Power BI        | SetScheduledRefreshOnDataflow               |                                          |
 | Задано запланированное обновление набора данных Power BI         | SetScheduledRefresh                         |                                          |
 | Предоставлен общий доступ к панели мониторинга Power BI                         | ShareDashboard                              |                                          |
@@ -229,10 +232,12 @@ Remove-PSSession $Session
 | Запущена пробная версия Power BI                            | OptInForProTrial                            |                                          |
 | Принято управление источником данных Power BI                   | TakeOverDatasource                          |                                          |
 | Принято управление набором данных Power BI                        | TakeOverDataset                             |                                          |
+| Принято управление потоком данных Power BI                     | TookOverDataflow                             |                                          |
 | Отменена публикация приложения Power BI                          | UnpublishApp                                |                                          |
 | Обновлены параметры управления ресурсами емкости      | UpdateCapacityResourceGovernanceSettings    | Пока не реализовано в Центре администрирования Microsoft 365 |
 | Обновлен администратор емкости                            | UpdateCapacityAdmins                        |                                          |
 | Обновлено отображаемое имя емкости                     | UpdateCapacityDisplayName                   |                                          |
+| Обновлены разрешения на назначение хранилища потоков данных   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Обновлены параметры Power BI организации          | UpdatedAdminFeatureSwitch                   |                                          |
 | Обновлено приложение Power BI                              | UpdateApp                                   |                                          |
 | Обновлен поток данных Power BI                         | UpdateDataflow                              |                                          |
@@ -255,4 +260,4 @@ Remove-PSSession $Session
 
 [Портал администрирования Power BI](service-admin-portal.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

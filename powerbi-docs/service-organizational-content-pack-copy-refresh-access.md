@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019626"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020133"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Пакеты содержимого организации: Копирование, обновления и получение доступа
 
@@ -30,7 +30,7 @@ ms.locfileid: "72019626"
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Создание копии пакета содержимого организации
 Создайте собственную копию пакета содержимого, не отображающуюся для других пользователей.
 
-1. Нажмите кнопку с многоточием (...) возле информационной панели и выберите команду "Создать копию".
+1. Нажмите **Дополнительные параметры** (...) возле панели мониторинга и выберите команду "Создать копию".
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Нажмите кнопку **Сохранить**.  

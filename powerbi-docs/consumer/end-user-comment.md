@@ -2,7 +2,6 @@
 title: Добавление комментариев на панели мониторинга и в отчеты
 description: В этом документе показано, как добавлять комментарии на панель мониторинга, в отчет или визуальный элемент и использовать комментарии для общения с коллегами.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100703"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852032"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Добавление комментариев на панель мониторинга или в отчет
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Добавьте личный комментарий или начните беседу о панели мониторинга со своими коллегами. Функция **комментариев** — лишь один из способов, которыми *пользователь* может взаимодействовать с другими. 
 
 ![Комментарии к видео](media/end-user-comment/comment.gif)
@@ -64,7 +66,7 @@ ms.locfileid: "71100703"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Добавление комментария к определенному визуальному элементу на панели мониторинга или в отчете
 Кроме добавления комментариев ко всей панели мониторинга или странице отчета, можно добавлять комментарии к отдельным плиткам панели мониторинга и отдельным визуальным элементам отчета. Процедуры похожи, и в этом примере мы используем отчет.
 
-1. Наведите указатель мыши на визуальный элемент и нажмите значок многоточия (...).    
+1. Наведите указатель мыши на визуальный элемент и нажмите **Дополнительные параметры** (...).    
 2. В раскрывающемся списке выберите **Открыть комментарии**.
 
     ![Добавление комментария — оптимальный выбор](media/end-user-comment/power-bi-report-comment.png)  

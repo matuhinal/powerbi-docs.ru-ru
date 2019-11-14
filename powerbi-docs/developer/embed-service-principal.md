@@ -3,19 +3,18 @@ title: Использование субъекта-службы с Power BI
 description: Узнайте, как зарегистрировать приложение в Azure Active Directory с помощью субъекта-службы для использования внедренного содержимого Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073101"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877657"
 ---
 # <a name="service-principal-with-power-bi"></a>Использование субъекта-службы с Power BI
 
@@ -58,8 +57,8 @@ ms.locfileid: "71073101"
 |------------------------------------------------------|---------------------|-------------------|
 | Позволяет входить в службу Power BI  | Да | Нет |
 | Поддерживается на портале администрирования Power BI | Нет | Да |
-| [Работает с рабочими областями приложений (версии 1)](../service-create-workspaces.md) | Да | Нет |
-| [Работает с новыми рабочими областями приложений (версии 2)](../service-create-the-new-workspaces.md) | Да | Да |
+| [Поддерживает рабочие области (версия 1)](../service-create-workspaces.md) | Да | Нет |
+| [Поддерживает новые рабочие области (версия 2)](../service-create-the-new-workspaces.md) | Да | Да |
 | При использовании с Power BI Embedded требуются права администратора рабочей области | Да | Да |
 | Может использовать REST API в Power BI | Да | Да |
 | Для создания требуются права глобального администратора | Да | Нет |
@@ -141,7 +140,7 @@ ms.locfileid: "71073101"
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>Получение идентификатора объекта субъекта-службы
 
-Для назначения субъекта-службы новой рабочей области приложения используются [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). При выполнении операций с субъектом-службой или внесении изменений в него, например добавлении субъекта-службы в качестве администратора в рабочую область, на него необходимо ссылаться по **идентификатору объекта субъекта-службы**.
+Для назначения субъекта-службы новой рабочей области используются [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). При выполнении операций с субъектом-службой или внесении изменений в него, например добавлении субъекта-службы в качестве администратора в рабочую область, на него необходимо ссылаться по **идентификатору объекта субъекта-службы**.
 
 Ниже приводятся инструкции по получению идентификатора объекта субъекта-службы на портале Azure.
 
@@ -166,7 +165,7 @@ ms.locfileid: "71073101"
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
-* Субъекты-службы работают только с [новыми рабочими областями приложений](../service-create-the-new-workspaces.md).
+* Субъекты-службы работают только с [новыми рабочими областями](../service-create-the-new-workspaces.md).
 * **Моя рабочая область** не поддерживается при использовании субъекта-службы.
 * Для миграции в рабочую среду требуется выделенная емкость.
 * С помощью субъекта-службы нельзя входить на портал Power BI.

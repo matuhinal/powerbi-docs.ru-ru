@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237383"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431082"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -45,7 +45,7 @@ ms.locfileid: "70237383"
 
 Чтобы внедрить в приложение отчеты, панели мониторинга и плитки, необходимо убедиться, что среда допускает внедрение с помощью Power BI.
 
-Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета. При внедрении отчета с разбивкой на страницы вам понадобится емкость не менее P1 для создаваемой рабочей области приложения.
+Воспользуйтесь [средством настройки внедрения](https://aka.ms/embedsetup/UserOwnsData), чтобы быстро приступить к работе и скачать пример приложения с пошаговой инструкцией для создания среды и внедрения отчета. При внедрении отчета с разбивкой на страницы вам понадобится емкость не менее P1 для создаваемой рабочей области.
 
 Если вы решили настроить среду вручную, см. инструкции ниже.
 
@@ -57,13 +57,13 @@ ms.locfileid: "70237383"
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 
-### <a name="create-an-app-workspace"></a>Создание рабочей области приложения
+### <a name="create-a-workspace"></a>Создать рабочую область
 
-Если вы планируете внедрить отчеты, информационные панели и (или) плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области этого приложения. Можно настроить рабочие области разных типов: [традиционные](../service-create-workspaces.md) или [новые](../service-create-the-new-workspaces.md).
+Если вы планируете внедрять отчеты, панели мониторинга и плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области. Можно настроить рабочие области разных типов: [традиционные](../service-create-workspaces.md) или [новые](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Создание и публикация отчетов Power BI
 
-С помощью Power BI Desktop можно создавать отчеты и наборы данных. Затем можно публиковать эти отчеты в рабочей области приложения. У пользователя, публикующего отчеты в рабочей области приложения, должна быть лицензия Power BI Pro.
+С помощью Power BI Desktop можно создавать отчеты и наборы данных. Затем можно публиковать эти отчеты в рабочей области. У пользователя, публикующего отчеты в рабочей области, должна быть лицензия Power BI Pro.
 
 1. Скачайте [демонстрационный](https://github.com/Microsoft/powerbi-desktop-samples) пример из GitHub.
 
@@ -73,7 +73,7 @@ ms.locfileid: "70237383"
 
    ![Пример отчета Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Опубликуйте его в рабочей области приложения.
+3. Опубликуйте его в рабочей области.
 
    ![Публикация отчета Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ ms.locfileid: "70237383"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Создание и публикация отчетов с разбивкой на страницы
 
-Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [загрузить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область приложения, которой назначена емкость не менее P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области приложения.
+Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [отправить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область, которой назначена емкость не менее P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 
@@ -130,7 +130,7 @@ ms.locfileid: "70237383"
 
 ### <a name="workspace-id"></a>Идентификатор рабочей области
 
-Укажите в поле **workspaceId** GUID рабочей области (группы) приложения из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
+Укажите в поле **workspaceId** GUID рабочей области (группы) из Power BI. Эти данные можно получить из URL-адреса после входа в службу Power BI или с помощью PowerShell.
 
 URL-адрес <br>
 
@@ -169,9 +169,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Укажите в сведениях **AADAuthorityUrl** URL-адрес, который позволяет осуществлять внедрение с помощью клиента организации либо гостевого пользователя.
 
-Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize*.
+Для внедрения с помощью клиента организации используйте URL-адрес *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id*, где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
+Для внедрения с помощью гостя используйте URL-адрес *https://login.microsoftonline.com/report-owner-tenant-id* , где нужно добавить идентификатор клиента владельца отчета вместо *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Запуск приложения
 
@@ -205,7 +205,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
 
-Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}*.
+Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}* .
 
 #### <a name="get-reports-with-the-rest-api"></a>Получение отчетов с помощью REST API
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Использование выделенной емкости Power BI Premium
 
-После завершения разработки приложения нужно вернуться к рабочей области приложения с выделенной емкостью.
+После разработки приложения нужно вернуться к рабочей области с выделенной емкостью.
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
-Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области приложения. Для отчетов с разбивкой на страницы рабочая область приложения должна иметь емкость не менее P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium-what-is.md).
+Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области. Для отчетов с разбивкой на страницы рабочая область должна иметь емкость не менее P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../service-premium-what-is.md).
 
 В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft Office 365](../service-admin-premium-purchase.md).
 
@@ -399,9 +399,9 @@ function updateEmbedReport() {
 > - Если вы пытаетесь выполнить внедрение с приложениями Microsoft Office, вы можете использовать номера SKU EM для доступа к содержимому по бесплатной лицензии Power BI. Но нельзя получить доступ к содержимому с бесплатной лицензией Power BI, если вы используете Powerbi.com или Power BI Mobile.
 > - Если вы хотите выполнить внедрение с приложениями Microsoft Office через Powerbi.com или Power BI Mobile, вы можете получить доступ к содержимому с бесплатной лицензией Power BI.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Назначение выделенной емкости для рабочей области приложения
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Назначение выделенной емкости для рабочей области
 
-После создания выделенной емкости ей можно назначить рабочую область приложения. Для этого сделайте следующее:
+После создания выделенной емкости ей можно назначить рабочую область. Для этого сделайте следующее:
 
 1. В службе Power BI разверните рабочие области и щелкните многоточие возле рабочей области, которую вы используете для внедрения содержимого. Затем выберите команду **Изменить рабочие области**.
 
@@ -411,9 +411,9 @@ function updateEmbedReport() {
 
     ![Назначение выделенной емкости](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. После нажатия кнопки **Сохранить** рядом с именем рабочей области приложения должен появиться ромб.
+3. После нажатия кнопки **Сохранить** рядом с именем рабочей области должен появиться ромб.
 
-    ![Рабочая область приложения, связанная с емкостью](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![Рабочая область, связанная с емкостью](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Параметры администрирования
 
