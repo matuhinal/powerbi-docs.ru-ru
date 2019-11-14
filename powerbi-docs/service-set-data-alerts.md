@@ -2,7 +2,6 @@
 title: Настройка оповещений о данных в службе Power BI
 description: Узнайте, как настроить оповещения, уведомляющие вас о том, что данные в панелях мониторинга выходят за пределы заданного порога, в службе Microsoft Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060371"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871558"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Оповещения о данных в службе Power BI
 
@@ -132,4 +131,4 @@ ms.locfileid: "73060371"
 
 * [Что такое Power BI?](fundamentals/power-bi-overview.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Взаимодействие с отчетом в режиме правки
 description: Взаимодействие с отчетом в режиме правки отчетов в службе Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 786357d2861b05c46ffb3c7b827d5c797fb5ea20
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9ae34a354d41987f291aa891b713542901180eb6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431793"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872186"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Взаимодействие с отчетом в режиме правки в службе Power BI
 Отчеты можно создавать и редактировать в службе Power BI и приложении Power BI Desktop. В службе Power BI отчеты можно создавать и редактировать в **представлении правки**. В Power BI Desktop отчеты можно создавать и редактировать в [**представлении отчета**](desktop-report-view.md). В этой статье рассматривается режим правки в службе Power BI. 
@@ -45,5 +44,5 @@ ms.locfileid: "73431793"
 ## <a name="next-steps"></a>Дальнейшие действия
 Возврат к [режиму чтения и правки в службе Power BI](consumer/end-user-reading-view.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

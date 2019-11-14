@@ -2,7 +2,6 @@
 title: Выбор панели мониторинга для отображения при запуске службы Power BI
 description: Документация по созданию основной панели мониторинга в службе Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019839"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852528"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Основные панели мониторинга в службе Power BI
 
@@ -67,5 +66,5 @@ ms.locfileid: "73019839"
    
 ## <a name="next-steps"></a>Дальнейшие действия
 - [Избранные панели мониторинга в Power BI](end-user-favorite.md)
-- Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](http://community.powerbi.com/).
+- Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
 

@@ -2,25 +2,24 @@
 title: Просмотр данных Power BI в мобильном приложении на устройстве Apple Watch
 description: Приложение Power BI для Apple Watch
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 23f2b41b84c387ca772fdda1397a6c5e4fce6acf
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017649"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870732"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Просмотр данных в мобильном приложении Power BI на устройстве Apple Watch
 С помощью приложения Power BI для Apple Watch можно просматривать ключевые показатели эффективности и плитки типа "карточка" на информационных панелях Power BI прямо на своих часах. Ключевые показатели эффективности и плитки типа "карточка" лучше всего подходят для измерения пульса на небольшом экране. Панель мониторинга можно обновить непосредственно на устройстве iPhone или в часах Apple Watch.
 
 ## <a name="install-the-apple-watch-app"></a>Установка приложения Power BI для Apple Watch
-Приложение Power BI для Apple Watch объединено с приложением Power BI для iOS, поэтому при [скачивании приложения Power BI на iPhone](http://go.microsoft.com/fwlink/?LinkId=522062 "Скачивание приложения для iPhone") из магазина Apple вы автоматически скачиваете и приложение Power BI для Apple Watch. В руководстве Apple объясняется, как [устанавливать приложения для Apple Watch](https://support.apple.com/HT204784).
+Приложение Power BI для Apple Watch объединено с приложением Power BI для iOS, поэтому при [скачивании приложения Power BI на iPhone](https://go.microsoft.com/fwlink/?LinkId=522062 "Скачивание приложения для iPhone") из магазина Apple вы автоматически скачиваете и приложение Power BI для Apple Watch. В руководстве Apple объясняется, как [устанавливать приложения для Apple Watch](https://support.apple.com/HT204784).
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Использование приложения Power BI в Apple Watch
 Открыть приложение Power BI на Apple Watch можно из списка установленных приложений или с помощью мини-приложения Power BI (если настроено) на циферблате часов.
@@ -86,7 +85,7 @@ Power BI показывает индикатор, указывающий, что
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за другие функции, которые вы хотели бы увидеть в мобильных приложениях Power BI. 
 
-* Скачайте [мобильное приложение Power BI для iPhone](http://go.microsoft.com/fwlink/?LinkId=522062).
+* Скачайте [мобильное приложение Power BI для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062).
 * Подпишитесь на страницу [@MSPowerBI в Twitter](https://twitter.com/MSPowerBI)
-* Присоединяйтесь к обсуждению в [сообществе Power BI](http://community.powerbi.com/).
+* Присоединяйтесь к обсуждению в [сообществе Power BI](https://community.powerbi.com/).
 

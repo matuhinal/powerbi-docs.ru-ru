@@ -3,19 +3,18 @@ title: Использование единого входа Kerberos для SAP 
 description: Настройка сервера SAP BW для включения единого входа из службы Power BI с использованием CommonCryptoLib (sapcrypto.dll)
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020887"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872427"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Использование единого входа Kerberos для SAP BW с помощью CommonCryptoLib (sapcrypto.dll)
 
@@ -31,7 +30,7 @@ ms.locfileid: "73020887"
 
 1. Убедитесь, что сервер BW правильно настроен для единого входа Kerberos с использованием CommonCryptoLib. Если это так, вы сможете использовать единый вход для доступа к серверу BW (напрямую или через сервер сообщений SAP BW) с помощью такого средства SAP, как SAP GUI, которое было настроено для использования CommonCryptoLib. 
 
-   Дополнительные сведения об этапах установки см. в статье [Единый вход SAP. Проверка подлинности с использованием Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Ваш сервер BW должен использовать CommonCryptoLib в качестве библиотеки SNC и иметь имя SNC, начинающееся с *CN=* , например *CN=BW1*. Дополнительные сведения о требованиях к имени SNC (в частности, о параметре snc/identity/as) см. на странице [Параметры SNC для конфигурации Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html).
+   Дополнительные сведения об этапах установки см. в статье [Единый вход SAP. Проверка подлинности с использованием Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Ваш сервер BW должен использовать CommonCryptoLib в качестве библиотеки SNC и иметь имя SNC, начинающееся с *CN=* , например *CN=BW1*. Дополнительные сведения о требованиях к имени SNC (в частности, о параметре snc/identity/as) см. на странице [Параметры SNC для конфигурации Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
 
 1. Если вы еще не сделали этого, установите 64-разрядную версию [соединителя SAP .NET](https://support.sap.com/en/product/connectors/msnet.html) на компьютере, где установлен шлюз. 
    
@@ -102,7 +101,7 @@ ms.locfileid: "73020887"
 
 ### <a name="cpic-tracing"></a>Трассировка CPIC
 
-1. Чтобы включить трассировку CPIC, задайте две переменные среды: **CPIC**TRACE\_ и \_CPIC**TRACE\_DIR**. 
+1. Чтобы включить трассировку CPIC, задайте две переменные среды: **CPIC**TRACE\_ и \_CPIC**TRACEDIR. 
 
    Первая задает уровень трассировки, а вторая — каталог файла трассировки. Этот каталог должен представлять собой расположение, куда могут осуществлять запись члены группы "Пользователи, прошедшие проверку подлинности". 
  

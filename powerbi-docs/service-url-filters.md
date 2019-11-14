@@ -3,7 +3,6 @@ title: Фильтрация отчета с помощью параметров 
 description: Фильтрация отчета с помощью параметров строки запроса в URL-адресе, включая фильтрацию по нескольким полям.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891797"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876929"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
@@ -195,4 +194,4 @@ TerritoryChain = [Territory] & " - " & [Chain]
 [Закрепление визуализации на панели мониторинга](service-dashboard-pin-tile-from-report.md)  
 [Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/get-started/)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

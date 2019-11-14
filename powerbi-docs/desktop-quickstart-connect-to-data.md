@@ -2,7 +2,6 @@
 title: Краткое руководство. Подключение к данным
 description: Подключение к источникам данных в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891686"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876210"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Краткое руководство. Подключение к данным в Power BI Desktop
 
@@ -28,8 +27,8 @@ ms.locfileid: "72891686"
 ## <a name="prerequisites"></a>Предварительные требования
 
 Чтобы выполнить описанные в этой статье действия, вам понадобится следующее:
-* Скачать и установить **Power BI Desktop** — бесплатное приложение, которое выполняется на локальном компьютере. Вы можете [скачать **Power BI Desktop**](https://powerbi.microsoft.com/desktop) напрямую или в [ **магазине Microsoft Store**](http://aka.ms/pbidesktopstore).
-* [Скачайте этот пример книги Excel](http://go.microsoft.com/fwlink/?LinkID=521962) и сохраните его в папку с именем *C:\PBID-qs*, которую нужно создать дополнительно. Для всех последующих этапов краткого руководства предполагается, что вы поместили эту книгу Excel в указанное расположение.
+* Скачать и установить **Power BI Desktop** — бесплатное приложение, которое выполняется на локальном компьютере. Вы можете [скачать **Power BI Desktop**](https://powerbi.microsoft.com/desktop) напрямую или в [ **магазине Microsoft Store**](https://aka.ms/pbidesktopstore).
+* [Скачайте этот пример книги Excel](https://go.microsoft.com/fwlink/?LinkID=521962) и сохраните его в папку с именем *C:\PBID-qs*, которую нужно создать дополнительно. Для всех последующих этапов краткого руководства предполагается, что вы поместили эту книгу Excel в указанное расположение.
 
 ## <a name="launch-power-bi-desktop"></a>Запуск Power BI Desktop
 

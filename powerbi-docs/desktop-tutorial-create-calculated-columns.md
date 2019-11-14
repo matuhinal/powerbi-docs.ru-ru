@@ -2,7 +2,6 @@
 title: Руководство. Создание вычисляемых столбцов в Power BI Desktop
 description: Руководство. Создание вычисляемых столбцов в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017803"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876149"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Руководство. Создание вычисляемых столбцов в Power BI Desktop
 
@@ -28,7 +27,7 @@ ms.locfileid: "73017803"
 ### <a name="prerequisites"></a>Предварительные требования
 - Это руководство предназначено для пользователей Power BI, которые знают, как использовать Power BI Desktop для создания более сложных моделей. Вы должны уметь импортировать данные с помощью функции **Получить данные** и **редактора Power Query**, работать с несколькими связанными таблицами и добавлять поля на холст отчета. Если вы еще не знакомы с Power BI Desktop, прочтите статью [Начало работы с Power BI Desktop](desktop-getting-started.md).
   
-- В этом руководстве используется файл [Продажи Contoso для Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip). Этот же пример используется в руководстве по [созданию собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md). Эти данные по продаже товаров вымышленной компании Contoso, Inc. были импортированы из базы данных, поэтому вы не сможете подключаться к источнику данных или просматривать его в редакторе Power Query. Загрузите, а затем извлеките файл на своем компьютере и откройте его в Power BI Desktop.
+- В этом руководстве используется файл [Продажи Contoso для Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip). Этот же пример используется в руководстве по [созданию собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md). Эти данные по продаже товаров вымышленной компании Contoso, Inc. были импортированы из базы данных, поэтому вы не сможете подключаться к источнику данных или просматривать его в редакторе Power Query. Загрузите, а затем извлеките файл на своем компьютере и откройте его в Power BI Desktop.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>Создание вычисляемого столбца со значениями из связанных таблиц
 

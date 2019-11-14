@@ -2,7 +2,6 @@
 title: Автоматическое создание аналитических сведений с помощью Power BI
 description: Узнайте, как получить полезные сведения о наборах данных и плитках панели мониторинга.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020219"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872226"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Автоматическое создание аналитических сведений с помощью Power BI
 Вы получили новый набор данных и не знаете, с чего начать?  Вам нужно быстро создать панель мониторинга?  Хотите найти полезные данные, которые вы могли пропустить?
@@ -96,5 +95,5 @@ ms.locfileid: "73020219"
 - Если у вас есть набор данных, [оптимизируйте его для краткой аналитики](service-insights-optimize.md).
 - См. дополнительные сведения о [доступных типах краткой аналитики](service-insight-types.md).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

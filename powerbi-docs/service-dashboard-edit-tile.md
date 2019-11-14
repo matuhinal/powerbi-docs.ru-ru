@@ -2,7 +2,6 @@
 title: Изменение плитки на панели мониторинга
 description: 'Вы уже знаете, как создать плитку и закрепить ее на панели мониторинга. Теперь вы узнаете, как редактировать эту плитку: вы научитесь изменять ее размер, перемещать, переименовывать, закреплять, удалять и добавлять гиперссылки.'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f96af87706fb289d5fe7216c8ba0b9b0d83b1391
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021126"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877470"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Изменение и удаление плитки на информационной панели
 
@@ -148,5 +147,5 @@ ms.locfileid: "73021126"
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

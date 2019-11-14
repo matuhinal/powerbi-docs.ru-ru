@@ -2,7 +2,6 @@
 title: Повышение уровня набора данных (предварительная версия) — Power BI
 description: Сведения о том, как повысить уровень набора данных, чтобы предоставить корпоративным пользователям надежные и высококачественные наборы данных.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a9c4f2e6348067b3a7029be8d8e7fdfb26e7045
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020945"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877134"
 ---
 # <a name="promote-your-dataset-preview"></a>Повышение уровня набора данных (предварительная версия)
 
@@ -55,4 +54,4 @@ ms.locfileid: "73020945"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * Ознакомление с [использованием наборов данных в рабочих областях](service-datasets-across-workspaces.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

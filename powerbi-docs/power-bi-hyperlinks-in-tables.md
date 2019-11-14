@@ -2,7 +2,6 @@
 title: Добавление гиперссылок (URL-адресов) в таблицу
 description: Из этого раздела вы узнаете, как добавлять гиперссылки (URL-адреса) в таблицу. Power BI Desktop можно использовать для добавления гиперссылок (URL-адресов) в таблицу или матрицу. Затем вы можете с помощью Power BI Desktop или службы Power BI добавить созданные гиперссылки в таблицы отчета и матрицы.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060748"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874503"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Добавление гиперссылок (URL-адресов) в таблицу
 Из этого раздела вы узнаете, как добавлять гиперссылки (URL-адреса) в таблицу. Power BI Desktop можно использовать для добавления гиперссылок (URL-адресов) в таблицу или матрицу. Затем вы можете с помощью Power BI Desktop или службы Power BI добавить созданные гиперссылки в таблицы отчета и матрицы. 
@@ -112,5 +111,5 @@ ms.locfileid: "73060748"
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

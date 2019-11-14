@@ -3,19 +3,18 @@ title: Использование Kerberos для единого входа в S
 description: Настройка сервера SAP HANA для включения единого входа из службы Power BI
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4985e241811558c90298e72cf82cbec634e23eaa
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bf255e97bbce8360de6fba314ac181b7633e6db3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020828"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872352"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>Использование Kerberos для единого входа в SAP HANA
 
@@ -55,7 +54,7 @@ ms.locfileid: "73020828"
 
 Дополнительные сведения о локальном шлюзе данных и DirectQuery см. в следующих ресурсах:
 
-* [Что такое локальный шлюз данных?](/data-integration/gateway/service-gateway-getting-started)
+* [Что такое локальный шлюз данных?](/data-integration/gateway/service-gateway-onprem)
 * [Power BI и DirectQuery](desktop-directquery-about.md)
 * [Источники данных, поддерживаемые DirectQuery](desktop-directquery-data-sources.md)
 * [Использование DirectQuery и SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)

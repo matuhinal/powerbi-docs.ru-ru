@@ -2,7 +2,6 @@
 title: Подписка на отчеты и панели мониторинга для себя и других пользователей
 description: Сведения о том, как оформить для себя и других пользователей подписку на моментальные снимки панели мониторинга, отчета с разбивкой на страницы или страницы отчета Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: f0adb8defff5ad7c62006848a5163e4bf26e2b96
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891823"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871602"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Создание подписки на отчеты и панели мониторинга в службе Power BI для себя и других пользователей
 
@@ -109,5 +108,5 @@ ms.locfileid: "72891823"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](paginated-reports-subscriptions.md)
-- Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)    
+- Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)    
 - [Ознакомьтесь с этой записью блога.](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

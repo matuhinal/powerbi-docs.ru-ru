@@ -3,18 +3,17 @@ title: Внедренные источники данных для отчето�
 description: Из этой статьи вы узнаете, как создать и изменить внедренный источник данных в отчете с разбивкой на страницы в службе Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: db79c33abe6f9e472dc29db007c4485d7a8d861e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431601"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875307"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Создание внедренного источника данных для отчетов с разбивкой на страницы в службе Power BI
 

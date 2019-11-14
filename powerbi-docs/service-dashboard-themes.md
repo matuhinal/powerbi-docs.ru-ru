@@ -2,7 +2,6 @@
 title: Использование тем панели мониторинга в службе Power BI
 description: Узнайте, как использовать настраиваемую цветовую палитру и применить ее ко всей панели мониторинга в службе Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3021ee4df1ba4456f86c3deb5e7a3c247dbc13fe
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020398"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877454"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Использование тем панели мониторинга в службе Power BI
 С помощью **тем панели мониторинга** ко всей панели мониторинга можно применить требуемую цветовую тему, например корпоративные цвета, цвета времен года или другие цветовые темы. При применении **темы панели мониторинга** для всех визуальных элементов на панели мониторинга используются цвета из выбранной темы (c некоторыми исключениями, описанными далее в этой статье).

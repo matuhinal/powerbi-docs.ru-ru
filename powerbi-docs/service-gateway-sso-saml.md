@@ -3,19 +3,18 @@ title: Использование SAML для единого входа из Pow
 description: Настройте на шлюзе SAML, чтобы включить единый вход из Power BI в локальные источники данных.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6bee417986f9a7fb243ce435443c5cd783e99b97
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 6117cc884bc50e78ec0ec41f18b7868422165d78
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020378"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881448"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Использование SAML для единого входа из Power BI в локальные источники данных
 

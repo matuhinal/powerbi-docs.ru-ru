@@ -3,19 +3,18 @@ title: Локальный шлюз данных
 description: В этой статье приводится обзор локального шлюза данных для Power BI. С его помощью можно работать с источниками данных DirectQuery. Кроме того, этот шлюз можно использовать для обновления облачных наборов данных с локальными данными.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442811"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872432"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Что такое локальный шлюз данных?
 
@@ -51,4 +50,4 @@ ms.locfileid: "73442811"
 
 * [Установка и настройка локального шлюза данных](/data-integration/gateway/service-gateway-install)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

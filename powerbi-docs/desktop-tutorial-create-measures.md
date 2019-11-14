@@ -2,7 +2,6 @@
 title: Руководство. Создание собственных мер в Power BI Desktop
 description: Руководство. Создание собственных мер в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019345"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865937"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Руководство. Создание собственных мер в Power BI Desktop
 Некоторые эффективные решения для анализа данных в Power BI Desktop можно создать, используя меры. Меры полезны тем, что они выполняют вычисления с вашими данными, когда вы работаете с отчетами. В этом руководстве объясняется, что такое меры, и как создать несколько собственных базовых мер в Power BI Desktop.
@@ -23,7 +22,7 @@ ms.locfileid: "73019345"
 ### <a name="prerequisites"></a>Предварительные требования
 - Это руководство предназначено для пользователей Power BI, которые знают, как использовать Power BI Desktop для создания более сложных моделей. Вы должны уметь использовать запрос для импорта данных, работать с несколькими связанными таблицами и добавлять поля на холст отчета. Если вы еще не знакомы с Power BI Desktop, прочтите статью [Начало работы с Power BI Desktop](desktop-getting-started.md).
   
-- Скачайте файл [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), который содержит данные о продаже товаров через Интернет, принадлежащие вымышленной компании Contoso, Inc. Так как эти данные импортированы из базы данных, вы не сможете подключаться к источнику данных или просматривать его в редакторе запросов. Извлеките файл на своем компьютере и откройте его в Power BI Desktop.
+- Скачайте файл [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), который содержит данные о продаже товаров через Интернет, принадлежащие вымышленной компании Contoso, Inc. Так как эти данные импортированы из базы данных, вы не сможете подключаться к источнику данных или просматривать его в редакторе запросов. Извлеките файл на своем компьютере и откройте его в Power BI Desktop.
 
 ## <a name="understand-measures"></a>Общие сведения о мерах
 

@@ -2,7 +2,6 @@
 title: Устранение неполадок с плитками
 description: Распространенные ошибки, которые могут возникнуть при попытке обновления плитки в Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021535"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877506"
 ---
 # <a name="troubleshooting-tile-errors"></a>Устранение неполадок с плитками
 Ниже приведены распространенные ошибки, с которыми вы можете столкнуться при работе с плитками, а также дано их пояснение.
 
 > [!NOTE]
-> Если возникла ошибка, не указанная ниже, вы можете запросить дополнительную помощь на [сайте сообщества](http://community.powerbi.com/) или отправить [запрос в службу поддержки](https://powerbi.microsoft.com/support/).
+> Если возникла ошибка, не указанная ниже, вы можете запросить дополнительную помощь на [сайте сообщества](https://community.powerbi.com/) или отправить [запрос в службу поддержки](https://powerbi.microsoft.com/support/).
 > 
 > 
 
@@ -38,7 +37,7 @@ ms.locfileid: "73021535"
 
 **Настраиваемые визуальные элементы отключены администратором**.
 
-Ваш администратор Power BI отключил использование настраиваемых визуальных элементов для вашей организации или группы безопасности. Вы не сможете использовать настраиваемые визуальные элементы из [магазина Майкрософт](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) или импортировать частные визуальные элементы из файла. Можно использовать лишь предварительно упакованный набор визуальных элементов.
+Ваш администратор Power BI отключил использование настраиваемых визуальных элементов для вашей организации или группы безопасности. Вы не сможете использовать настраиваемые визуальные элементы из [магазина Майкрософт](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) или импортировать частные визуальные элементы из файла. Можно использовать лишь предварительно упакованный набор визуальных элементов.
 
 
 **Фигуры данных должны содержать как минимум одну группу или вычисление, выдающее данные. Обратитесь к владельцу информационной панели.**
@@ -82,5 +81,5 @@ ms.locfileid: "73021535"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)  
 [Устранение неполадок Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

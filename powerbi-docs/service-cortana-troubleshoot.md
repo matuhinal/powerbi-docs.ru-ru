@@ -2,7 +2,6 @@
 title: Устранение неполадок Кортаны для Power BI
 description: Если возникли проблемы при использовании Кортаны в Power BI, воспользуйтесь следующими советами.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432101"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872876"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Устранение неполадок Кортаны для Power BI
 Эта статья входит в серию статей. 
@@ -96,4 +95,4 @@ ms.locfileid: "73432101"
 * Запрос должен состоять как минимум из двух слов.  Если запрос слишком короткий, добавьте слово "показать".
 * Некоторые строки запроса с предлогами могут не работать (например, продажи по категориям). Попробуйте сделать запрос осмысленным и уникальным, а также не используйте предлоги.
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

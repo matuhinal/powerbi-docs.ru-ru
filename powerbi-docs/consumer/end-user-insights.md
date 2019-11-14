@@ -2,7 +2,6 @@
 title: Запуск и просмотр полезных сведений о плитках панели мониторинга
 description: Узнайте, как получить полезные сведения о плитках панели мониторинга с помощью Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019633"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863382"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Просмотр полезных сведений о плитках панели мониторинга с помощью Power BI
 Каждая [плитка](end-user-tiles.md) визуального элемента на панели мониторинга предоставляет возможности исследования данных. Щелкнув любую плитку, вы перейдете в отчет или [Вопросы и ответы](end-user-q-and-a.md), где сможете фильтровать и сортировать наборы данных, использованные для отчета. Когда вы исследуете аналитические сведения, в Power BI выполняется поиск данных.

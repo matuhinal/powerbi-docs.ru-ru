@@ -2,19 +2,18 @@
 title: Примеры приложений-шаблонов
 description: Примеры для личного использования или распространения в качестве приложения Power BI в AppSource
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: tebercov
-ms.openlocfilehash: 2b3095bc8bb446364d10f3a5e29981025fd03aee
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 1429221684e706b2db10790f26fe9765e0e9fe86
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717165"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871310"
 ---
 # <a name="template-apps-samples"></a>Примеры приложений-шаблонов
 
@@ -28,7 +27,6 @@ ms.locfileid: "72717165"
 
 * [Github](https://templateapps.blob.core.windows.net/sampletemplateapps/GitHub.pbix)
 * [Mailchimp](https://templateapps.blob.core.windows.net/sampletemplateapps/MailChimp.pbix)
-* [JIRA](https://templateapps.blob.core.windows.net/sampletemplateapps/JIRA.pbix)
 * [QuickBooks Online](https://templateapps.blob.core.windows.net/sampletemplateapps/QuickBooksOnline.pbix)
 * [Google Analytics](https://templateapps.blob.core.windows.net/sampletemplateapps/GoogleAnalytics.pbix)
 * [Менеджер по продажам Salesforce](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesforceSalesManager.pbix)

@@ -2,7 +2,6 @@
 title: Добавление пользовательского столбца в Power BI Desktop
 description: Быстрое создание пользовательского столбца в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922509"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878872"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Добавление пользовательского столбца в Power BI Desktop
 
-Вы можете легко добавить новый пользовательский столбец данных в модель с помощью редактора запросов в Power BI Desktop. С помощью редактора запросов вы создаете и переименовываете свой столбец, создавая [запросы формул PowerQuery M](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language) для определения столбца. Для запросов формул PowerQuery M доступен [полный набор справочных материалов по функциям](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
+Вы можете легко добавить новый пользовательский столбец данных в модель с помощью редактора запросов в Power BI Desktop. С помощью редактора запросов вы создаете и переименовываете свой столбец, создавая [запросы формул PowerQuery M](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language) для определения столбца. Для запросов формул PowerQuery M доступен [полный набор справочных материалов по функциям](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
 
 При создании пользовательского столбца в редакторе запросов Power BI Desktop добавляет его в качестве **примененного действия** в **Параметры запроса**. Его можно поменять, переместить или изменить в любое время.
 
@@ -50,7 +49,7 @@ ms.locfileid: "72922509"
 
 - Начальное имя пользовательского столбца в поле **Имя нового столбца**. Столбец можно переименовать.
 
-- [Запросы формул PowerQuery M](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference) в поле **Настраиваемая формула столбца**. Эти запросы создаются путем создания формулы, которой определяется новый столбец. 
+- [Запросы формул PowerQuery M](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) в поле **Настраиваемая формула столбца**. Эти запросы создаются путем создания формулы, которой определяется новый столбец. 
 
    ![Страница "Добавить пользовательский столбец"](media/desktop-add-custom-column/add-custom-column_03.png)
 

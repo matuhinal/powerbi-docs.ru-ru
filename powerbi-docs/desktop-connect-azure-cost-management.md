@@ -2,7 +2,6 @@
 title: Подключение к данным службы "Управление затратами Azure" в Power BI Desktop
 description: Легко подключайтесь к Azure и получайте аналитические сведения об использовании Azure и затратах с помощью Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dccae9f8f9519495da9056599939169e7157873c
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891750"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878605"
 ---
 # <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Подключение к службе "Управление затратами Azure" в Power BI Desktop
 

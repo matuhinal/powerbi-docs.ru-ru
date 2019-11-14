@@ -2,7 +2,6 @@
 title: Совместная работа в классической рабочей области
 description: Узнайте, как совместно работать с файлами Power BI Desktop в рабочей области, используя такие возможности службы Office 365, как предоставление общего доступа к файлам в OneDrive для бизнеса, общение в Exchange, календарь и задачи.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021330"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873173"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Совместная работа в классической рабочей области
 Рабочие области приложения Power BI — место, где вы с коллегами можете совместно работать с панелями мониторинга, отчетами и наборами данных для создания *приложений*. Эта статья посвящена оригинальным, *классическим* рабочим областям.  
@@ -80,6 +79,6 @@ ms.locfileid: "73021330"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Публикация приложений в Power BI](service-create-distribute-apps.md).
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 * Хотите оставить отзыв? Посетите [форум идей по улучшению Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
 

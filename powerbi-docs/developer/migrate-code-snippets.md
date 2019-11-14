@@ -3,18 +3,17 @@ title: Фрагменты кода для переноса содержимог�
 description: Здесь приведены некоторые фрагменты кода с базовыми операциями, необходимыми для переноса содержимого
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429170"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880520"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Фрагменты кода для переноса содержимого из коллекции рабочих областей Power BI
 
@@ -240,4 +239,4 @@ using System.Threading.Tasks;
 [Пример внедрения JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Техническая документация по Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

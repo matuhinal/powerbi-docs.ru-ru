@@ -2,18 +2,17 @@
 title: Знакомство со средствами для обучения модуля "Вопросы и ответы" в Power BI (предварительная версия)
 description: Общие сведения о средствах модуля "Вопросы и ответы" в Power BI
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
-ms.openlocfilehash: 60db4b1cbae070983b98e694a2d6f1abed119790
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72718015"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874935"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Знакомство со средствами для обучения модуля "Вопросы и ответы" в Power BI (предварительная версия)
 

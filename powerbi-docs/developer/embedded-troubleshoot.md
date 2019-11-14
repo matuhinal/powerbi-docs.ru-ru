@@ -3,18 +3,17 @@ title: Устранение неполадок внедренного прило
 description: В этой статье описаны распространенные проблемы, которые могут возникнуть при внедрении содержимого из Power BI.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429337"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864105"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -24,7 +23,7 @@ ms.locfileid: "73429337"
 
 ### <a name="fiddler-trace"></a>Трассировка Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP.  Вы можете просматривать трафик API-интерфейсов Power BI с клиентского компьютера. Это средство позволяет найти ошибки и другие связанные сведения.
+[Fiddler](https://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP.  Вы можете просматривать трафик API-интерфейсов Power BI с клиентского компьютера. Это средство позволяет найти ошибки и другие связанные сведения.
 
 ![Трассировка Fiddler](media/embedded-troubleshoot/fiddler.png)
 
@@ -80,7 +79,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 * Истек срок действия токена аутентификации Azure AD.
 * Пользователь, прошедший проверку подлинности, не входит в группу (рабочую область).
 * Пользователь, прошедший проверку подлинности, не является администратором группы (рабочей области).
-* У прошедшего проверку подлинности пользователя нет разрешений. Разрешения можно обновить с помощью [API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
+* У прошедшего проверку подлинности пользователя нет разрешений. Разрешения можно обновить с помощью [API refreshUserPermissions](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)
 * Заголовок авторизации может быть указан неправильно. Убедитесь, что он не содержит опечаток.
 
 Возможно, понадобится обновить токен аутентификации в серверной части приложения, прежде чем вызывать GenerateToken.
@@ -293,7 +292,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-Причина в том, что URL-адрес перенаправления, указанный для приложения веб-сервера, отличается от URL-адреса примера. Чтобы зарегистрировать образец приложения, используйте `http://localhost:13526/` в качестве URL-адреса перенаправления.
+Причина в том, что URL-адрес перенаправления, указанный для приложения веб-сервера, отличается от URL-адреса примера. Чтобы зарегистрировать образец приложения, используйте `https://localhost:13526/` в качестве URL-адреса перенаправления.
 
 Если необходимо изменить зарегистрированное приложение, узнайте, как обновить [зарегистрированное в Azure AD приложение](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), чтобы оно могло предоставлять доступ к веб-API.
 
@@ -305,7 +304,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Дополнительные сведения см. в разделе с [вопросами и ответами о Power BI Embedded](embedded-faq.md).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 
 Если вам требуется дополнительная помощь, обратитесь в [Службу поддержки](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) или отправьте запрос в службу поддержки через [Портал Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) и укажите сообщение об ошибке, которое вы получили.
 
@@ -313,4 +312,4 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Для получения дополнительных сведений см. статью [Часто задаваемые вопросы о Power BI Embedded](embedded-faq.md).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
