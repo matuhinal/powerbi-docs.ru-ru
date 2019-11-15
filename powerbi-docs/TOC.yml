@@ -80,7 +80,7 @@
         - name: "Использование элементов по умолчанию в многомерных моделях в Power\_BI"
           href: desktop-default-member-multidimensional-models.md
         - name: Вопросы и ответы о визуальных элементах
-          href: power-bi-custom-visuals-faq.md
+          href: developer/power-bi-custom-visuals-faq.md
     - name: Практическое руководство
       items:
         - name: Получение Power BI Desktop
@@ -673,6 +673,8 @@
           items:
             - name: Создание новых рабочих областей
               href: service-create-the-new-workspaces.md
+            - name: Обновление классических рабочих областей
+              href: designer/service-upgrade-workspaces.md
             - name: Создание рабочих областей
               href: service-create-workspaces.md
             - name: Публикация приложений из рабочих областей

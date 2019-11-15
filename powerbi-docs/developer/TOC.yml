@@ -12,7 +12,7 @@
         - name: Обзор
           items:
             - name: "Визуальные элементы в Power\_BI"
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: Учебники
           items:
             - name: "Разработка визуального элемента Power\_BI"
@@ -24,11 +24,11 @@
         - name: Основные понятия
           items:
             - name: "Визуальные элементы для организаций в Power\_BI"
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: "Рекомендации по визуальным элементам Power\_BI"
               href: guidelines-powerbi-visuals.md
             - name: Вопросы и ответы о визуальных элементах
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: Использование возможностей
               href: visuals/capabilities.md
             - name: Сопоставления представлений данных
@@ -40,12 +40,12 @@
         - name: Практическое руководство
           items:
             - name: Сертификация визуального элемента
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: Публикация настраиваемых визуальных элементов в AppSource
               href: office-store.md
             - name: "Использование пользовательских визуализаций на основе R в Power\_BI"
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: Разрешение взаимодействия с визуальными элементами
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: Взаимодействие с визуальными элементами
               href: visuals/visuals-interactions.md
             - name: Добавление выбора
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: Активация синхронизации срезов
               href: visuals/enable-sync-slicers.md
             - name: "Устранение неполадок с визуальными элементами Power\_BI"
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: Миграция на новую версию powerbi-visuals-tools
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Справка
           items:
             - name: Целевая страница
