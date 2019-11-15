@@ -45,8 +45,10 @@
               href: office-store.md
             - name: "Использование пользовательских визуализаций на основе R в Power\_BI"
               href: ../desktop-r-powered-custom-visuals.md
-            - name: Взаимодействие с визуальными элементами
+            - name: Разрешение взаимодействия с визуальными элементами
               href: visuals/visuals-interactions.md
+            - name: Добавление выбора
+              href: visuals/selection-api.md
             - name: Добавление подсказок в визуальных элементах
               href: visuals/add-tooltips.md
             - name: Добавление панели аналитики
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: Добавление поддержки закладок
               href: visuals/bookmarks-support.md
+            - name: Добавление поддержки контекстного меню
+              href: visuals/context-menu.md
             - name: Выделение данных в визуальных элементах
               href: visuals/highlight.md
             - name: Добавление поддержки режима высокой контрастности
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: "Устранение неполадок с визуальными элементами Power\_BI"
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: Миграция на новую версию powerbi-visuals-tools
+              href: visuals/migrate-to-new-tools.md
         - name: Справка
           items:
             - name: Целевая страница
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: Сортировка
               href: visuals/sort-options.md
+            - name: Инструменты для взаимодействия
+              href: visuals/utils-interactivity-selections.md
         - name: Ресурсы
           items:
             - name: Центр разработки

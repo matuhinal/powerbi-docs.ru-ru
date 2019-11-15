@@ -2,7 +2,6 @@
 title: Часто задаваемые вопросы конечных пользователей о Power BI
 description: Просмотрите список часто задаваемых вопросов и ответов о службе Power BI и мобильных приложениях Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430037"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852509"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Часто задаваемые вопросы о Power BI
 
-* Если у вас возникли другие вопросы, [задайте их участникам сообщества Power BI](http://community.powerbi.com/).
+* Если у вас возникли другие вопросы, [задайте их участникам сообщества Power BI](https://community.powerbi.com/).
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Что представляет собой служба Microsoft Power BI?
@@ -56,9 +55,9 @@ Power BI не поддерживает адреса электронной по�
 
 Да. В Power BI есть собственные приложения для телефонов и планшетов Android, устройств iOS и устройств с Windows 10. Вы можете скачать одно из [мобильных приложений Power BI](https://powerbi.microsoft.com/mobile) из соответствующего магазина:  
 
-* [Apple App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Магазин Windows](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Магазин Windows](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="what-do-i-need-to-install-to-use-power-bi"></a>Что мне нужно установить, чтобы использовать Power BI?
 
@@ -66,15 +65,15 @@ Power BI не поддерживает адреса электронной по�
 
 Вы можете также бесплатно скачать одно из мобильных приложений Power BI из соответствующего магазина.
 
-* [App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Магазин Windows](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Магазин Windows](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>Как начать работу с Power BI?
 
 Приступить к работе помогут следующие ресурсы.
 
-* [Блог Power BI](http://blogs.msdn.com/b/powerbi/)
+* [Блог Power BI](https://blogs.msdn.com/b/powerbi/)
 * [Вебинары](../webinars.md)
 * Видео о начале работы на [канале YouTube](https://www.youtube.com/user/mspowerbi).
 * Статья [Начало работы с Power BI в качестве *потребителя*](power-bi-consumer-landing.md)
@@ -91,19 +90,19 @@ Power BI не поддерживает адреса электронной по�
 
 ## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>Как приобрести Power BI Pro в моей стране?
 
-Лицензии на Power BI Pro можно приобрести напрямую или обратиться к представителю по адресу: [www.powerbi.com](http://www.powerbi.com).
+Лицензии на Power BI Pro можно приобрести напрямую или обратиться к представителю по адресу: [www.powerbi.com](https://www.powerbi.com).
 
 Можно также найти [партнера Майкрософт](https://partner.microsoft.com/), который поможет внедрить Power BI.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Обеспечивает ли Power BI соответствие национальным, региональным и отраслевым требованиям?
 
-Дополнительные сведения о соответствии Power BI нормативным требованиям см. в [центре управления безопасностью Майкрософт](http://go.microsoft.com/fwlink/?LinkId=785324).
+Дополнительные сведения о соответствии Power BI нормативным требованиям см. в [центре управления безопасностью Майкрософт](https://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Где можно получить дополнительные сведения о безопасности?
 
 Узнайте больше о безопасности, конфиденциальности и соответствию требованиям для использования Power BI тут:
 
-* технический документ [Power BI Security](http://go.microsoft.com/fwlink/?LinkId=829185);
+* технический документ [Power BI Security](https://go.microsoft.com/fwlink/?LinkId=829185);
 
 * статья о [поддержке безопасности в Power BI](../service-admin-power-bi-security.md).
 
@@ -117,5 +116,5 @@ Power BI не поддерживает адреса электронной по�
 
 * [Что такое потребитель Power BI?](end-user-consumer.md)
 * [Как потребитель использует Power BI?](end-user-reading-view.md)
-* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
