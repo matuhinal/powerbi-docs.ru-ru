@@ -1,20 +1,20 @@
 ---
 title: Power BI для разработчиков отчетов
 description: Вы подключаетесь к данным, создаете запросы, отчеты и панели мониторинга в Power BI? Являетесь ли вы администратором Power BI?
-author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 10/07/2019
 ms.author: maggies
+author: maggiesMSFT
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: d2ff64ebabc1b425d2dbcf14e7dc06790b01bf3c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb80bad73a615621ad8a2459e71607900f8d493d
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874651"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128343"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI для разработчиков отчетов
 

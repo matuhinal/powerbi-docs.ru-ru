@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a6b489c11087e43ed8b10ce9bdf8088b97f48e8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862394"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099029"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Советы по запросам в функцию "Вопросы и ответы" в Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Слова и термины, распознаваемые функцией "Вопросы и ответы"
@@ -64,7 +64,7 @@ ms.locfileid: "73862394"
 |  |  |
 |**N значений по порядку**     |     (порядок и ранжирование): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Типы визуальных элементов**     |  Все типы визуальных элементов, поддерживаемые Power BI.  Если соответствующий параметр есть в области "Визуализации", его можно использовать в вопросе.  Исключением из этого правила являются [пользовательские визуальные элементы](../power-bi-custom-visuals.md), которые вы добавили в область визуализации вручную.  |
+|**Типы визуальных элементов**     |  Все типы визуальных элементов, поддерживаемые Power BI.  Если соответствующий параметр есть в области "Визуализации", его можно использовать в вопросе.  Исключением из этого правила являются [пользовательские визуальные элементы](../developer/power-bi-custom-visuals.md), которые вы добавили в область визуализации вручную.  |
 |  |  Пример: show districts by month and sales total as bar chart (показать районы по месяцам и общие продажи как линейчатую диаграмму)               |
 |        |         |
 |**Вопросы (отношения и качества)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

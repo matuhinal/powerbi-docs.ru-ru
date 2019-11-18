@@ -100,13 +100,13 @@ ms.locfileid: "73638087"
 
 Неприменимо
 
-## <a name="disclaimer"></a>Заявление об отказе
+## <a name="disclaimer"></a>Disclaimer
 
-© Корпорация Майкрософт, 2017 г. Все права защищены. Названия настоящих компаний и продуктов, упомянутых в этом документе, могут быть товарными знаками их владельцев. Сведения, содержащиеся в этом документе, отражают текущее представление корпорации Майкрософт о проблемах, обсуждаемых на дату публикации. Корпорация Майкрософт не гарантирует точность информации, представленной после даты публикации. Корпорация Майкрософт регулярно обновляет свои веб-сайты новой информацией о доступности продуктов, как только она появляется.
+© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
-В случае настройки продукта эта декларация соответствия корпорации Майкрософт аннулируется. Обратитесь к поставщикам программных продуктов специальных возможностей за спецификациями совместимости по отдельным продуктам.
+Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
-Этот документ предназначен только для информационных целей. В ЭТОМ ДОКУМЕНТЕ КОРПОРАЦИЯ МАЙКРОСОФТ НЕ ПРЕДОСТАВЛЯЕТ НИКАКИХ ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ.
+This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

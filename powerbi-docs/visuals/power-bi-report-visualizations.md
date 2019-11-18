@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5ee36415c2da0e6920e78774f18c8a83e0b557b7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881004"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099092"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Визуализации в отчетах Power BI
 
@@ -70,4 +70,4 @@ ms.locfileid: "73881004"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Пользовательские визуальные элементы](../power-bi-custom-visuals.md)
+* [Пользовательские визуальные элементы](../developer/power-bi-custom-visuals.md)
