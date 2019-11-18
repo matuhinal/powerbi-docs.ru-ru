@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: "Источники данных Power\_BI"
               href: service-get-data.md
+            - name: Основные сведения о наборах данных Power BI
+              href: service-datasets-understand.md
+            - name: Основные сведения о режимах наборов данных Power BI
+              href: service-dataset-modes-understand.md
             - name: Обновление данных в Power BI
               href: refresh-data.md
         - name: Совместная работа в Power BI
@@ -1125,31 +1129,3 @@
       items:
         - name: Ежемесячные обновления шлюза
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Руководство
-  items:
-    - name: Обзор
-      href: guidance/overview.md
-    - name: Что такое схема типа "звезда"?
-      href: guidance/star-schema.md
-    - name: Уменьшение размера модели данных
-      href: guidance/import-modeling-data-reduction.md
-    - name: Функция DIVIDE и оператор деления (/)
-      href: guidance/dax-divide-function-operator.md
-    - name: Важность свертывания запросов
-      href: guidance/power-query-folding.md
-    - name: Правильное использование функций ошибок
-      href: guidance/dax-error-functions.md
-    - name: Рекомендации по потокам данных
-      href: service-dataflows-best-practices.md
-    - name: Руководство по использованию модели DirectQuery в Power BI Desktop
-      href: guidance/directquery-model-guidance.md
-    - name: Технические документы
-      items:
-        - name: Обзор технической документации
-          href: whitepapers.md
-        - name: Технический документ по обеспечению безопасности в Power BI
-          href: whitepaper-powerbi-security.md
-        - name: Развертывание Power BI Premium
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: "Публикация Power\_BI для внешних пользователей с помощью Azure Active Directory\_B2B"
-          href: whitepaper-azure-b2b-power-bi.md
