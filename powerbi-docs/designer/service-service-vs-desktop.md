@@ -2,7 +2,6 @@
 title: Сравнение Power BI Desktop и службы Power BI
 description: Power BI Desktop — это полнофункциональное средство для анализа данных и создания отчетов. Служба Power BI — это облачная веб-служба, предоставляющая базовые возможности редактирования отчетов и совместной работы для небольших групп и крупных компаний.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064360"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879019"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Сравнение Power BI Desktop и службы Power BI
 
@@ -38,7 +37,7 @@ ms.locfileid: "73064360"
 
 Редакторы в Power BI Desktop и в службе аналогичны. Они состоят из трех разделов:  
 
-1. верхних панелей навигации, которые различаются в Power BI Desktop и в службе;    
+1. верхних областей навигации сверху, которые отличаются в службе Power BI и Power BI Desktop;    
 2. Холст отчетов     
 3. областей **Поля**, **Визуализации** и **Фильтры**.
 

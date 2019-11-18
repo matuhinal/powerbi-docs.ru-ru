@@ -2,7 +2,6 @@
 title: Просмотр связанного содержимого на панелях мониторинга, в отчетах и наборах данных
 description: Новая функция навигации и просмотр связанного содержимого на панелях мониторинга, в отчетах и наборах данных
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019440"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862280"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Просмотр связанного содержимого в службе Power BI
 
@@ -54,9 +53,9 @@ ms.locfileid: "73019440"
 ## <a name="view-related-content-for-a-dataset"></a>Просмотр содержимого, связанного с набором данных
 Чтобы открыть область **связанного содержимого**, вам нужны по крайней мере разрешения на *просмотр* набора данных. В этом сценарии мы используем пример [Анализ закупок](../sample-procurement.md).
 
-На панели навигации найдите заголовок **Рабочие области** и выберите в списке соответствующую. Если у вас есть содержимое в рабочей области, оно будет отображаться на холсте справа. 
+В области навигации найдите заголовок **Рабочие области** и выберите нужную область в списке. Если у вас есть содержимое в рабочей области, оно будет отображаться на холсте справа. 
 
-![рабочие области на панели навигации слева](./media/end-user-related/power-bi-workspace.png)
+![Рабочие области в области навигации](./media/end-user-related/power-bi-workspace.png)
 
 
 В рабочей области перейдите на вкладку **Наборы данных** и найдите значок **просмотра связанных элементов** ![значок просмотра связанных элементов](./media/end-user-related/power-bi-view-related-icon-new.png).
@@ -76,5 +75,5 @@ ms.locfileid: "73019440"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Приступая к работе с Power BI](../service-get-started.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

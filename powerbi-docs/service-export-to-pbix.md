@@ -2,7 +2,6 @@
 title: Скачивание отчета из службы Power BI в Power BI Desktop (предварительная версия)
 description: Скачивание отчета из службы Power BI в файл Power BI Desktop
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715185"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881817"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Скачивание отчета из службы Power BI в Power BI Desktop (предварительная версия)
 В Power BI Desktop можно опубликовать отчет (*PBIX*-файл) с локального компьютера в службе Power BI. Отчеты Power BI также могут передаваться и в другом направлении: Вы можете скачать отчет из службы Power BI в Power BI Desktop. В любом случае отчет Power BI имеет расширение PBIX.
@@ -32,7 +31,7 @@ ms.locfileid: "71715185"
 
 1. В службе Power BI откройте отчет, который нужно скачать, в [режиме правки](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view).
 
-2. На верхней панели навигации выберите **Файл > Скачать отчет**.
+2. В области навигации сверху щелкните **Файл > Скачать отчет**.
    
 3. Во время скачивания отчета отображается баннер состояния, показывающий ход выполнения. Когда PBIX-файл будет готов, вам будет предложено указать место для его сохранения. Имя файла по умолчанию соответствует названию отчета.
    
@@ -71,5 +70,5 @@ ms.locfileid: "71715185"
 
 * [Начало работы с Power BI Desktop](desktop-getting-started.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

@@ -2,7 +2,6 @@
 title: Создание панели мониторинга Power BI из отчета
 description: Создание панели мониторинга Power BI из отчета
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543265"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853410"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Создание панели мониторинга Power BI из отчета
 Вы прочитали раздел [Общие сведения о панелях мониторинга в Power BI](service-dashboards.md) и хотите попробовать свои силы в их создании. Существует много различных способов создания информационной панели. Например, вы можете создавать панели мониторинга на основе отчета, с нуля, из набора данных, с помощью дублирования существующей панели мониторинга и другими способами.  
@@ -44,11 +43,11 @@ ms.locfileid: "72543265"
 ## <a name="import-a-dataset-with-a-report"></a>Импорт набора данных с помощью отчета
 В этом пошаговом руководстве мы импортируем один из примеров наборов данных Power BI и будем использовать его для создания панели мониторинга. Пример, который мы будем использовать, — это книга Excel с двумя листами PowerView. При импорте книги Power BI добавит в рабочую область набор данных, а также отчет. Отчет автоматически создается из листов PowerView.
 
-1. Скачайте [образец файла Excel "Анализ закупок"](http://go.microsoft.com/fwlink/?LinkId=529784). Рекомендуется сохранить его в приложении OneDrive для бизнеса.
+1. Скачайте [образец файла Excel "Анализ закупок"](https://go.microsoft.com/fwlink/?LinkId=529784). Рекомендуется сохранить его в приложении OneDrive для бизнеса.
 2. Откройте службу Power BI в браузере (app.powerbi.com).
-3. В левой области навигации выберите **Моя рабочая область** и затем **Получить данные**.
+3. В области навигации выберите **Моя рабочая область** и затем **Получить данные**.
 
-    ![Панель навигации слева](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![область навигации](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. В разделе **Файлы** выберите **Получить**.
 
    ![Получение файлов](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ ms.locfileid: "72543265"
    ![Сообщение об успешном импорте](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> Знаете ли вы? Вы можете уменьшить левую панель навигации, щелкнув значок с тремя строками в верхней панели навигации ![Показать или скрыть значок](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Это даст больше места для самого отчета.
+> Знаете ли вы? Вы можете уменьшить область навигации. Для этого щелкните значок с тремя линиями в верхней области навигации ![Показать или скрыть значок](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Это даст больше места для самого отчета.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Открытие отчета и закрепление плиток на панели мониторинга
 1. В той же рабочей области перейдите на вкладку **Отчеты** и выберите **образец "Анализ закупок"** , чтобы открыть отчет.
@@ -118,4 +117,4 @@ ms.locfileid: "72543265"
 * [Power BI — основные понятия](service-basic-concepts.md)
 * [Советы по созданию эффективной панели мониторинга Power BI](service-dashboards-design-tips.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).

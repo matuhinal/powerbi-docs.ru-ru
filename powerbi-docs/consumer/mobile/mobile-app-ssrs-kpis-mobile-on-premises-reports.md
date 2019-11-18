@@ -2,19 +2,18 @@
 title: Просмотр локальных отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 description: Мобильные приложения Power BI обеспечивают динамический мобильный доступ с поддержкой сенсорного ввода к локальным бизнес-данным в службах SQL Server Reporting Services и на сервере отчетов Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060238"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879445"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Просмотр локальных отчетов на сервере отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 
@@ -67,7 +66,7 @@ ms.locfileid: "73060238"
 
 1. Введите адрес сервера, имя пользователя и пароль. Используйте следующий формат для адреса сервера:
    
-     `http://<servername>/reports`
+     `https://<servername>/reports`
    
      OR
    
@@ -77,9 +76,9 @@ ms.locfileid: "73060238"
    
     ![Диалоговое окно "Подключение к серверу"](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (Необязательно.) В разделе **Дополнительные параметры** при желании можно присвоить серверу понятное имя.
-6. Новый сервер отобразится на навигационной панели слева. В нашем примере ему присвоено имя "power bi report server".
+6. Новый сервер отобразится в области навигации. В нашем примере ему присвоено имя "power bi report server".
    
-   !["Сервер отчетов" на панели навигации слева](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+   ![Сервер отчетов в области навигации](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
 ## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Подключение к локальному серверу отчетов в iOS
 
@@ -120,18 +119,18 @@ ms.locfileid: "73060238"
 
 * Выберите **Избранное**.
   
-   !["Избранное" на панели навигации слева](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
+   !["Избранное" в области навигации](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Ваши избранные ключевые показатели эффективности и отчеты находятся на этой странице веб-портала вместе с панелями мониторинга Power BI в службе Power BI:
   
    ![Отчеты и панель мониторинга Power BI на странице "Избранное"](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Удаление подключения к серверу отчетов
-1. Внизу левой панели навигации выберите **Параметры**.
+1. В нижней части области навигации выберите **Параметры**.
 2. Выберите имя сервера, с которым хотите разорвать соединение.
 3. Коснитесь пункта **Удалить сервер**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)  
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

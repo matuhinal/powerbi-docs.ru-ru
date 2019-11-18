@@ -2,7 +2,6 @@
 title: Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)
 description: В рамках этого руководства вы вызовете модель Студии машинного обучения в Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432230"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876965"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)
 
@@ -44,7 +43,7 @@ ms.locfileid: "73432230"
 
 Далее предполагается, что вы являетесь соадминистратором подписки и группы ресурсов Azure, в которых опубликована модель.
 
-Войдите на [портал Azure](https://portal.azure.com) и перейдите на страницу **Подписки**, найти которую можно с помощью списка **Все службы** в меню навигации слева.
+Войдите на [портал Azure](https://portal.azure.com) и перейдите на страницу **Подписки**, найти которую можно с помощью списка **Все службы** в меню области навигации.
 
 ![Портал Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -135,7 +134,7 @@ ms.locfileid: "73432230"
 
 ![Изменить](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-Нажмите кнопку **Аналитика ИИ** на ленте, а затем щелкните папку _Модели машинного обучения Azure_ в меню навигации слева.
+Нажмите кнопку **Аналитика ИИ** на ленте, а затем выберите папку _Модели Машинного обучения Azure_ в меню области навигации.
 
 Модели Azure ML, к которым вы предоставили доступ, перечислены как функции Power Query с префиксом *AzureML*.  При выборе функции, которая соответствует модели _AutomobilePricePrediction_, параметры веб-службы модели отобразятся как параметры функции.
 

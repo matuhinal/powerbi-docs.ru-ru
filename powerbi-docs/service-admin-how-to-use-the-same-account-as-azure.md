@@ -2,7 +2,6 @@
 title: Использование одних и тех же учетных данных для входа в Power BI и Azure
 description: Использование одних и тех же учетных данных для входа в Power BI и Azure
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f9659ad657c4466ad58eb40d4a07916b46f9536a
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 11fecb5ff87c454b32b2504fba3914f397265184
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877771"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873639"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Использование одних и тех же учетных данных для входа в Power BI и Azure
 
@@ -29,9 +28,9 @@ ms.locfileid: "70877771"
 
 Добавьте вашу учетную запись в организации в качестве соадминистратора в Azure, выполнив следующие шаги:
 
-1. Войдите на [портал Azure](http://portal.azure.com/). Если вы являетесь пользователем в нескольких каталогах Azure, выберите **Подписки** и установите фильтр для отображения только того каталога и тех подписок, которые требуется изменить.
+1. Войдите на [портал Azure](https://portal.azure.com/). Если вы являетесь пользователем в нескольких каталогах Azure, выберите **Подписки** и установите фильтр для отображения только того каталога и тех подписок, которые требуется изменить.
 
-1. В области навигации выберите **Управление доступом (IAM)** , **Добавить** \> **Добавить соадминистратора**.
+1. В области навигации щелкните **Управление доступом (IAM)** , **Добавить** \> **Добавить соадминистратора**.
 
     ![Добавление соадминистратора на портале Azure](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
@@ -39,4 +38,4 @@ ms.locfileid: "70877771"
 
 1. При очередном входе на портал Azure используйте ваш адрес электронной почты в организации.
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

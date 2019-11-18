@@ -2,7 +2,6 @@
 title: Управление хранилищем данных в ваших рабочих областях
 description: Узнайте, как управлять хранилищем данных в рабочей области или у пользователя, чтобы обеспечить публикацию отчетов и наборов данных.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431365"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873667"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Управление хранилищем данных в рабочих областях Power BI
 
@@ -46,7 +45,7 @@ ms.locfileid: "73431365"
 
 Контролируйте объем хранилища, используемый в вашей учетной записи Power BI, и управляйте учетной записью.
 
-1. Для управления хранилищем перейдите в раздел **Моя рабочая область** на панели навигации.
+1. Для управления своим хранилищем перейдите в **Мою рабочую область** в области навигации.
    
     ![Моя рабочая область](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. Щелкните значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) в правом верхнем углу и выберите \>**Управление личным хранилищем**.
@@ -104,5 +103,5 @@ ms.locfileid: "73431365"
 
  ![Превышает лимит хранилища](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+ Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

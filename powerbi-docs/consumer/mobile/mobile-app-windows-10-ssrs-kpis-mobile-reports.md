@@ -2,19 +2,18 @@
 title: Просмотр мобильных отчетов SSRS и ключевых показателей эффективности в мобильном приложении для Windows 10 — Power BI
 description: Мобильное приложение Power BI для Windows 10 обеспечивает доступ в режиме реального времени к важнейшей бизнес-информации с сенсорного экрана.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059647"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879355"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Просмотр ключевых показателей эффективности и мобильных отчетов Reporting Services (SSRS) в мобильном приложении Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 обеспечивает доступ в режиме реального времени к важнейшей бизнес-информации в Reporting Services SQL Server 2016. 
@@ -46,11 +45,11 @@ ms.locfileid: "73059647"
 Просмотрите примеры и изучите ключевые показатели эффективности и мобильные отчеты.
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Подключение к серверу отчетов Reporting Services
-1. На панели навигации внизу слева выберите **Параметры** ![Значок "Параметры"](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
+1. В нижней части области навигации выберите **Параметры** ![Значок параметров](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
 2. Выберите **Подключение к серверу**.
 3. Введите адрес сервера, имя пользователя и пароль. Используйте следующий формат для адреса сервера:
    
-     `http://<servername>/reports` ИЛИ `https://<servername>/reports`
+     `https://<servername>/reports` ИЛИ `https://<servername>/reports`
    
    > [!NOTE]
    > В начале строки подключения укажите префикс **http** или **https**.
@@ -60,9 +59,9 @@ ms.locfileid: "73059647"
     По желанию коснитесь пункта **Дополнительный параметр**, чтобы присвоить имя серверу.
 4. Коснитесь значка галочки для подключения. 
    
-   Новый сервер появится на левой навигационной панели.
+   Новый сервер появится в области навигации.
    
-   ![Сервер на панели навигации слева](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![Сервер в области навигации](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
    >С помощью кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) вы можете в любой момент переключиться между мобильными отчетами Reporting Services и панелями мониторинга в службе Power BI. 
@@ -96,7 +95,7 @@ ms.locfileid: "73059647"
 ## <a name="remove-a-connection-to-a-report-server"></a>Удаление подключения к серверу отчетов
 В приложении для iPhone в каждый момент времени может быть установлено подключение только к одному серверу отчетов. Чтобы подключиться к другому серверу, необходимо разорвать соединение с текущим.
 
-1. На панели навигации внизу слева выберите **Параметры** ![Значок "Параметры"](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. В нижней части области навигации выберите **Параметры** ![Значок параметров](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
 2. Нажмите и удерживайте имя сервера, с которым хотите разорвать соединение.
 3. Коснитесь пункта **Удалить сервер**.
    
@@ -111,5 +110,5 @@ ms.locfileid: "73059647"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)  
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Получение данных из файлов книг Excel
 description: Узнайте, как получать данные из файлов книг Excel в Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840968"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877068"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Получение данных из файлов книг Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -83,7 +82,7 @@ Power BI поддерживает следующие типы данных: це
 В Excel 2016 можно также щелкнуть "Опубликовать" > "Отправить". Это даст такой же результат. Дополнительные сведения см. в разделе [Публикация в Power BI из Excel 2016](service-publish-from-excel.md).
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Импорт или подключение к книге Excel из Power BI
-1. В Power BI на панели навигации щелкните **Получить данные**.
+1. В Power BI в области навигации щелкните **Получить данные**.
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
 2. В разделе "Файлы" щелкните **Получить**.

@@ -3,25 +3,24 @@ title: Обновление сервера отчетов Power BI
 description: Узнайте, как обновлять сервер отчетов Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 52863ea4bd666547a9c63b3add1d2d9c0626adc7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839685"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873954"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Обновление сервера отчетов Power BI
 
 Узнайте, как обновлять сервер отчетов Power BI.
 
- **Скачать** ![скачать](media/upgrade/download.png "скачать")
+ **Скачать** ![скачать](media/upgrade/download.png "Скачать")
 
 Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
@@ -63,7 +62,7 @@ ms.locfileid: "66839685"
 
 2. Щелкните **Обновить сервер отчетов Power BI**.
 
-    ![Обновление Сервера отчетов Power BI](media/upgrade/reportserver-upgrade1.png "Обновление Сервера отчетов Power BI")
+    ![Обновление Сервера отчетов Power BI](media/upgrade/reportserver-upgrade1.png "Обновление сервера отчетов Power BI")
 
 3. Прочтите и примите условия лицензионного соглашения, а затем щелкните **Обновить**.
 

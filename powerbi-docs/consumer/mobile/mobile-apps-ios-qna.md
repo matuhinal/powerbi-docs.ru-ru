@@ -2,19 +2,18 @@
 title: Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 description: Вы можете задать вопросы о тестовых данных в свободной текстовой форме с помощью виртуального аналитика "Вопросы и ответы" в мобильном приложении Power BI на устройстве iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977478"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879380"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 
@@ -35,7 +34,7 @@ ms.locfileid: "60977478"
 ## <a name="prerequisites"></a>Предварительные требования
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Установка приложения Power BI для iOS
-[Скачайте приложение для iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Скачайте приложение для iPhone") из Apple App Store на устройство iPad, iPhone или iPod Touch.
+[Скачайте приложение для iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Скачивание приложения для iPhone") для iPad, iPhone или iPod Touch в Apple App Store.
 
 Приложение Power BI для iOS поддерживается в следующих версиях ОС:
 - iPad под управлением iOS 10 или более поздней версии;
@@ -49,7 +48,7 @@ ms.locfileid: "60977478"
 
 1. Откройте службу Power BI (app.powerbi.com) и войдите в нее.
 
-2. На панели навигации слева выберите **Рабочие области**, а затем щелкните **Моя рабочая область**.
+2. В области навигации щелкните **Рабочие области** > **Моя рабочая область**.
 
 3. В левом нижнем углу выберите **Получить данные**.
    

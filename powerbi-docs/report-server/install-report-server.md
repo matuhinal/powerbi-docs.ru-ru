@@ -3,18 +3,17 @@ title: Установка сервера отчетов Power BI
 description: Узнайте, как установить сервер отчетов Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839434"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874135"
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -46,11 +45,11 @@ ms.locfileid: "66839434"
 
 Если вы приобрели Power BI Premium, то на вкладке **Параметры Premium** портала администрирования Power BI сможете получить ключ продукта для сервера отчетов Power BI. Это доступно только глобальным администраторам или пользователям, которым назначена роль администратора службы Power BI.
 
-![Параметры версии Premium](../report-server/media/install-report-server/pbirs-product-key.png "Ключ сервера отчетов Power BI в параметрах версии Premium")
+![Параметры Premium](../report-server/media/install-report-server/pbirs-product-key.png "Ключ Сервера отчетов Power BI в параметрах версии Premium")
 
 Нажмите **Ключ сервера отчетов Power**, и появится диалоговое окно с вашим ключом продукта. Вы можете скопировать его и использовать при установке.
 
-![Ключ продукта](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Ключ продукта для сервера отчетов Power BI")
+![Ключ продукта](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Ключ продукта сервера отчетов Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 
@@ -78,7 +77,7 @@ ms.locfileid: "66839434"
     В противном случае введите ключ продукта для сервера, полученный из службы Power BI или на сайте Volume License Service Center. Дополнительные сведения о получении ключа продукта см. в разделе [Подготовка к установке](#before-you-install) выше.
 4. Прочтите и примите условия лицензионного соглашения, а затем нажмите кнопку **Далее**.
 
-    ![Условия лицензионного соглашения](media/install-report-server/pbireportserver-eula.png)
+    ![Условия лицензии](media/install-report-server/pbireportserver-eula.png)
 5. Для хранения базы данных сервера отчетов требуется ядро СУБД. Нажмите кнопку **Далее**, чтобы установить только сервер отчетов.
 
     ![Установка только файлов](media/install-report-server/pbireportserver-install-files-only.png)
@@ -127,14 +126,14 @@ ms.locfileid: "66839434"
 | Часть | Описание |
 | --- | --- |
 | Префикс |Префикс по умолчанию — HTTP. Если сертификат Secure Sockets Layer (SSL) уже установлен, программа установки пытается создать резервирование URL-адреса с префиксом HTTPS. |
-| Имя узла |Имя узла по умолчанию является строгим подстановочным знаком (+). Оно указывает, что сервер отчетов принимает любой HTTP-запрос к указанному порту для любого имени узла, которое соответствует компьютеру, включая `http://<computername>/reportserver`, `http://localhost/reportserver` или`http://<IPAddress>/reportserver.`. |
+| Имя узла |Имя узла по умолчанию является строгим подстановочным знаком (+). Оно указывает, что сервер отчетов принимает любой HTTP-запрос к указанному порту для любого имени узла, которое соответствует компьютеру, включая `https://<computername>/reportserver`, `https://localhost/reportserver` или`https://<IPAddress>/reportserver.`. |
 | Порт |Порт по умолчанию — 80. Если используется порт, отличный от порта 80, необходимо явно добавить его в URL-адрес при открытии веб-портала в окне браузера. |
 | Виртуальный каталог |По умолчанию виртуальные каталоги создаются в формате ReportServer для веб-службы сервера отчетов и Reports — для веб-портала. Для веб-службы сервера отчетов виртуальный каталог по умолчанию — **reportserver**. Для веб-портала виртуальный каталог по умолчанию — **reports**. |
 
 Пример полной строки URL-адреса может выглядеть следующим образом:
 
-* `http://+:80/reportserver` — предоставляет доступ к серверу отчетов;
-* `http://+:80/reports` — предоставляет доступ к веб-порталу.
+* `https://+:80/reportserver` — предоставляет доступ к серверу отчетов;
+* `https://+:80/reports` — предоставляет доступ к веб-порталу.
 
 ## <a name="firewall"></a>Брандмауэр
 

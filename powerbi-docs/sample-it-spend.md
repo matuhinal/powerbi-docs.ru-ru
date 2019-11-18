@@ -2,7 +2,6 @@
 title: 'Пример "Анализ расходов ИТ-отдела" для Power BI: Узнайте о возможностях'
 description: 'Пример "Анализ расходов ИТ-отдела" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462249"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873904"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ расходов ИТ-отдела" для Power BI: Узнайте о возможностях
 
@@ -54,11 +53,11 @@ ms.locfileid: "68462249"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
-Кроме того, вы можете загрузить пример "Анализ расходов ИТ-отдела" в виде [PBIX-файла](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop.
+Кроме того, вы можете загрузить пример "Анализ расходов ИТ-отдела" в виде [PBIX-файла](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](http://go.microsoft.com/fwlink/?LinkId=529783). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529783). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Панель мониторинга для примера"Анализ расходов ИТ-отдела"
 На двух плитках с данными — **Var Plan %** (% отклонения от плана) и **Variance Latest Estimate % Quarter 3** (% отклонения от текущего прогноза на 3-й квартал) — в левой части панели мониторинга содержатся общие сведения о соответствии плану и текущему прогнозу на квартал (LE3 = текущий прогноз на 3-й квартал). В целом мы отстаем от плана примерно на 6 %. Рассмотрим причину отклонения: когда, где и в какой категории.
@@ -78,7 +77,7 @@ ms.locfileid: "68462249"
     Далее рассмотрим, какая категория в США является причиной отклонения.
 
 ## <a name="ask-questions-of-the-data"></a>Вопросы о данных
-1. На верхней панели навигации выберите **Анализ расходов ИТ-отдела — пример**, чтобы вернуться к примеру панели мониторинга.
+1. В области навигации сверху выберите **Анализ расходов ИТ-отдела — пример**, чтобы вернуться к примеру панели мониторинга.
 2. Выберите **Задать вопрос о данных**.
 3. В списке **Вопросы для начала работы** слева выберите **вопрос о плане по областям ИТ**.
 

@@ -3,19 +3,18 @@ title: Использование собственных ключей шифро
 description: Сведения об использовании собственных ключей шифрования в Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877730"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881874"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Использование собственных ключей шифрования для Power BI (предварительная версия)
 
@@ -32,6 +31,7 @@ BYOK облегчает соблюдение нормативных требов
 - Активное подключение к службам Analysis Services
 - Книги Excel (если только данные не были сначала импортированы в Power BI Desktop)
 - наборы данных рush-уведомлений;
+- [Крупные модели](service-premium-large-models.md)
 
 BYOK применяется только к набору данных, связанному с PBIX-файлом, и не применяется к кэшам результатов запросов для плиток и визуальных элементов.
 

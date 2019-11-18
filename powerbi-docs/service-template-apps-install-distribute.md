@@ -2,19 +2,18 @@
 title: Распространение приложений-шаблонов в вашей организации — Power BI
 description: Сведения об установке, настройке и распространении в организации приложений-шаблонов Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432338"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871422"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Установка и распространение приложений-шаблонов в вашей организации — Power BI
 
@@ -45,7 +44,7 @@ ms.locfileid: "73432338"
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Поиск в AppSource из службы Power BI
 
-1. В службе Power BI в левой панели навигации выберите **Приложения** > **Получить приложения**.
+1. В службе Power BI в области навигации выберите **Приложения** > **Получить приложения**.
 
     ![Получить приложения](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ ms.locfileid: "73432338"
     - **Подключиться к данным**. Измените источник из образца данных на свой собственный. Вы можете переопределить параметры набора данных и учетные данные источника. См. раздел [Известные ограничения](service-template-apps-tips.md#known-limitations) в статье с советами по созданию приложений-шаблонов. 
     - **Перейти к рабочей области** (самый сложный вариант). Вы можете вносить любые изменения, разрешенные создателем приложения.
 
-    Или же пропустите это диалоговое окно и перейдите напрямую к рабочей области, выбрав элемент **Рабочие области** в левой панели навигации.
+    Вы также можете пропустить это диалоговое окно и перейти напрямую к связанной рабочей области, используя **Рабочие области** в области навигации.
     >[!NOTE]
     >При установке приложения-шаблона устанавливается как *приложение организации*, так и *рабочая область*. См. дополнительные сведения о [распространении приложений в Power BI](service-create-distribute-apps.md).
  

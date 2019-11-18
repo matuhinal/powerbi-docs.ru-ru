@@ -2,7 +2,6 @@
 title: Публикация в Power BI из Excel 2016
 description: Узнайте, как опубликовать книгу Excel на сайте Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514802"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881138"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Публикация в Power BI из Excel 2016
 Excel 2016 позволяет публиковать книги Excel непосредственно на сайт [Power BI](https://powerbi.microsoft.com), где вы можете создавать предельно наглядные отчеты и информационные панелей на основе данных книги. Затем вы можете предоставить свои данные для общего доступа другим сотрудникам организации.
@@ -63,7 +62,7 @@ Excel 2016 позволяет публиковать книги Excel непос
 
 Книгу нельзя редактировать, когда она открыта в Power BI, но если необходимо внести какие-либо изменения, выберите **Изменить** и отредактируйте книгу в Excel Online или откройте ее в Excel на своем компьютере. Любые внесенные изменения сохраняются в книге в OneDrive.
 
-Когда выполняется передача, в Power BI набор данных не создается. Книга будет отображаться на панели навигации по рабочей области в разделе "Отчеты". Книги, переданные в Power BI, обозначаются специальным значком Excel, который идентифицирует их как переданные книги Excel.
+Когда выполняется передача, в Power BI набор данных не создается. Книга будет отображаться в разделе "Отчеты" в рабочей области в области навигации. Книги, переданные в Power BI, обозначаются специальным значком Excel, который идентифицирует их как переданные книги Excel.
 
 Выберите этот параметр, только если хотите отображать в Power BI какие-либо данные с листов, сводные таблицы или диаграммы.
 Использование команды "Отправить" из функции "Публикация в Power BI" в Excel фактически равносильно использованию в Power BI в браузере команды "Получить данные > Файл > OneDrive для бизнеса > Подключиться к данным Excel, а также управлять ими и просматривать их в Power BI".
@@ -88,5 +87,5 @@ Excel 2016 позволяет публиковать книги Excel непос
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Данные Excel в Power BI](service-excel-workbook-files.md)  
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

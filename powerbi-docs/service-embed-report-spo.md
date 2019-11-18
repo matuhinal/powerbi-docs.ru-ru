@@ -3,7 +3,6 @@ title: Внедрение с помощью веб-части отчетов в 
 description: С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431908"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881881"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -123,7 +122,7 @@ ms.locfileid: "73431908"
 | --- | --- |
 | Имя страницы |Задает страницу по умолчанию для веб-части. Выберите значение в раскрывающемся списке. Если ни одна страница не отображается, отчет содержит одну страницу или вставленный URL-адрес содержит имя страницы. Удалите раздел report из URL-адреса, чтобы выбрать определенную страницу. |
 | Отображение |Настраивает размеры отчета на странице SharePoint Online. |
-| Отображение области навигации |Отображение или скрытие области навигации по страницам. |
+| Отображение области навигации |Показывает или скрывает область навигации по страницам. |
 | Отображение области фильтров |Отображение или скрытие области фильтров. |
 
 ## <a name="reports-that-do-not-load"></a>Отчеты, которые не загружаются
@@ -173,4 +172,4 @@ ms.locfileid: "73431908"
 * [Что такое Power BI Premium?](service-premium-what-is.md)
 * [Embed a report in a secure portal or website](service-embed-secure.md) (Внедрение отчета в защищенный портал или сайт)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

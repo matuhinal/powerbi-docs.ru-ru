@@ -2,7 +2,6 @@
 title: Знакомство с примерами, доступными в службе Power BI
 description: Примеры пакетов содержимого, PBIX-файлы и наборы данных Excel для Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721484"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858995"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Примеры данных, доступные для использования в службе Power BI
 Предположим, что вы не знакомы с Power BI и хотите оценить эту службу, но у вас нет данных.  Или, возможно, у вас есть набор данных. Так как вы не знаете принципов работы Power BI (пока), вы боитесь повредить его.
@@ -78,7 +77,7 @@ ObviEnce является независимым поставщиком прог
 
 В этом отраслевом примере анализируются данные о розничной продаже товаров в различных магазинах и районах. Метрики сравнивают эффективность за этот год c показателями за прошлый год в следующих областях: продажи, единицы, валовая прибыль и дисперсия, что также называют анализом нового магазина.
 
-### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Продажи и маркетинг — пример  ![Продажи и маркетинг — пример](media/sample-datasets/power-bi-sm.png)
+### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Продажи и маркетинг — пример  ![Продажи и маркетинг — пример](media/sample-datasets/power-bi-sm.png)
 [Ознакомьтесь с примером "Продажи и маркетинг"](sample-sales-and-marketing.md).
 
 В этом примере анализируется производственная компания VanArsdel Ltd. Он позволяет руководителю отдела маркетинга вести наблюдение за положением компании VanArsdel в отрасли и на рынке.  В процессе изучения образца можно узнать долю компании на рынке, объем продукции, продаж и материалов.
@@ -116,16 +115,16 @@ ObviEnce является независимым поставщиком прог
 ## <a name="the-power-bi-samples-as-excel-files"></a>Примеры Power BI в виде файлов Excel
 Каждый из примеров пакетов содержимого также доступен в виде книги Excel. Книги Excel предназначены для использования со службой Power BI.  
 
-1. Скачайте отдельные файлы, используя приведенные ниже ссылки, или [скачайте один ZIP-файл со всеми файлами примеров](http://go.microsoft.com/fwlink/?LinkId=535020). Опытные пользователи могут скачать книги Excel для просмотра или изменения моделей данных.
+1. Скачайте отдельные файлы, используя приведенные ниже ссылки, или [скачайте один ZIP-файл со всеми файлами примеров](https://go.microsoft.com/fwlink/?LinkId=535020). Опытные пользователи могут скачать книги Excel для просмотра или изменения моделей данных.
 
-   * [Анализ розничной торговли — пример](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [Анализ качества поставщика — пример](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [Управление персоналом — пример](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [Рентабельность клиента — пример](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [Отслеживание возможных сделок — пример](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [Анализ расходов ИТ-отдела — пример](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [Анализ закупок — пример](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [Продажи и маркетинг — пример](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [Анализ розничной торговли — пример](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [Анализ качества поставщика — пример](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [Управление персоналом — пример](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [Рентабельность клиента — пример](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [Отслеживание возможных сделок — пример](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [Анализ расходов ИТ-отдела — пример](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [Анализ закупок — пример](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [Продажи и маркетинг — пример](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. Сохраните скачанный файл. Важно, где сохранен файл.
 
    * ![Local](media/sample-datasets/power-bi-local-file2.png) **Локально**. При сохранении файла на локальном диске на компьютере или в другом расположении в вашей организации вы можете импортировать файл в Power BI. На самом деле файл останется на локальном диске, поэтому файл не импортируется в Power BI целиком. На самом деле создается новый набор данных на сайте Power BI, и в него загружаются данные, а в некоторых случаях — модель данных. Если файл содержит отчеты, они отображаются на сайте Power BI в области "Отчеты".
@@ -154,7 +153,7 @@ ObviEnce является независимым поставщиком прог
 
     ![Импорт или подключение](media/sample-datasets/power-bi-import.png)
 9. При выборе **Импортировать** служба Power BI импортирует пример книги и добавляет его как новый набор данных с именем **Анализ закупок — пример**.  Если книга содержит листы Power View, таблицы, диапазоны или модели данных, Power BI также создает отчет (с тем же именем). Если вы еще не открыли информационную панель, служба Power BI создаст ее. (Если информационная панель открыта, при щелчке элемента **Получить данные** на ней отобразится новая пустая плитка.  Щелкнув ее, вы перейдете к отчету для только что добавленного набора данных.) Новое содержимое имеет то же имя, что и пример, и отмечается желтой звездочкой.
-10. Когда появится экран **Набор данных готов.** , выберите **Просмотреть набор данных** или **Получить краткую аналитику** либо найдите и откройте связанный отчет или панель мониторинга на левой навигационной панели Power BI.  
+10. Когда появится экран **Набор данных готов.** , выберите **Просмотреть набор данных** или **Получить краткую аналитику** либо найдите и откройте связанный отчет или панель мониторинга в области навигации Power BI слева.  
 
      ![Просмотреть набор данных](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ ObviEnce является независимым поставщиком прог
 
 1. Скачайте файлы по отдельности, используя ссылки ниже. При выборе этих ссылок файлы автоматически сохраняются в папку "Загрузки". 
 
-   * [Анализ розничной торговли — пример (PBIX-файл)](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [Анализ качества поставщика — пример (PBIX-файл)](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [Анализ розничной торговли — пример (PBIX-файл)](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Анализ качества поставщика — пример (PBIX-файл)](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [Управление персоналом — пример (PBIX-файл)](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [Рентабельность клиента — пример (PBIX-файл)](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [Отслеживание возможных сделок — пример (PBIX-файл)](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [Анализ расходов на ИТ — пример (PBIX-файл)](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [Анализ закупок — пример (PBIX-файл)](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [Продажи и маркетинг — пример (PBIX-файл)](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [Управление персоналом — пример (PBIX-файл)](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Рентабельность клиента — пример (PBIX-файл)](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Отслеживание возможных сделок — пример (PBIX-файл)](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [Анализ расходов на ИТ — пример (PBIX-файл)](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Анализ закупок — пример (PBIX-файл)](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Продажи и маркетинг — пример (PBIX-файл)](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. В Power BI Desktop щелкните **Файл > Открыть** и перейдите к расположению, куда был сохранен пример PBIX-файла.
 
@@ -198,4 +197,4 @@ ObviEnce является независимым поставщиком прог
 
 [Источники данных для Power BI](service-get-data.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

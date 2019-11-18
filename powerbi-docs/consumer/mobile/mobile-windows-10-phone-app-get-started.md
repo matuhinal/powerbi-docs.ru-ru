@@ -2,19 +2,18 @@
 title: Начало работы с мобильным приложением Power BI для Windows 10
 description: Мобильное приложение Power BI для Windows 10 предоставляет вам доступ к самой актуальной бизнес-информации на планшете или телефоне.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059704"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879050"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне. Вы получаете доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -26,16 +25,16 @@ ms.locfileid: "73059704"
 Взаимодействуйте со своими панелями и отчетами, просматривайте данные и предоставляйте к ним доступ из мобильного приложения Power BI для Windows 10.
 
 ## <a name="first-things-first"></a>Начните с главного
-* [**Скачайте мобильное приложение Power BI для Windows 10**](http://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.
+* [**Скачайте мобильное приложение Power BI для Windows 10**](https://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.
   
   Устройство должно работать под управлением Windows 10. Приложение работает на устройствах, где доступно не менее 3 ГБ ОЗУ и 8 ГБ внутренней памяти.
    
 * Узнайте о [новых возможностях мобильных приложений Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Регистрация в службе Power BI в Интернете
-Если вы еще не зарегистрировались, перейдите в [службу Power BI](http://powerbi.com/). Зарегистрируйте учетную запись, чтобы получить возможность создавать и сохранять панели мониторинга и отчеты, а также объединять данные. Затем войдите в Power BI со своего устройства с Windows 10 для просмотра панелей мониторинга откуда угодно.
+Если вы еще не зарегистрировались, перейдите в [службу Power BI](https://powerbi.com/). Зарегистрируйте учетную запись, чтобы получить возможность создавать и сохранять панели мониторинга и отчеты, а также объединять данные. Затем войдите в Power BI со своего устройства с Windows 10 для просмотра панелей мониторинга откуда угодно.
 
-1. В службе Power BI коснитесь кнопки [Зарегистрироваться](http://go.microsoft.com/fwlink/?LinkID=513879), чтобы создать учетную запись Power BI.
+1. В службе Power BI коснитесь кнопки [Зарегистрироваться](https://go.microsoft.com/fwlink/?LinkID=513879), чтобы создать учетную запись Power BI.
 2. Начните [создавать собственные информационные панели и отчеты](../../service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app"></a>Начало работы с приложением Power BI
@@ -89,7 +88,7 @@ ms.locfileid: "73059704"
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Поиск содержимого в мобильных приложениях Power BI
 В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-quickstart-view-dashboard-report.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
 
-![Панель навигации слева в Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
+![Область навигации Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Просмотр избранных панелей мониторинга, ключевых показателей эффективности и отчетов
 Просматривайте избранные панели Power BI, ключевые показатели эффективности и мобильные отчеты Reporting Services в мобильном приложении на странице избранного. Когда в мобильном приложении Power BI вы добавляете панель мониторинга в *избранное*, панель становится доступной на всех ваших устройствах, а также в службе Power BI в браузере. 
@@ -120,7 +119,7 @@ ms.locfileid: "73059704"
 * [Создание собственных мобильных отчетов с помощью приложения SQL Server Mobile Report Publisher](https://msdn.microsoft.com/library/mt652547.aspx) и их публикация на веб-портале Reporting Services.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Скачайте приложение Power BI](http://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.  
+* [Скачайте приложение Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.  
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

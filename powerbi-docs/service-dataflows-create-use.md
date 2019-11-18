@@ -2,7 +2,6 @@
 title: Создание и использование потоков данных в Power BI
 description: Сведения о создании и использовании потоков данных в Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432053"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877373"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Создание и использование потоков данных в Power BI
 
@@ -36,7 +35,7 @@ ms.locfileid: "73432053"
 В следующих разделах мы рассмотрим каждый из этих шагов и средства, которые предоставляются для их выполнения. Давайте начнем.
 
 ## <a name="creating-a-dataflow"></a>Создание потока данных
-Чтобы создать поток данных, запустите службу Power BI в браузере и выберите **рабочую область** (потоки данных недоступны в разделе *my-workspace* в службе Power BI) в области навигации слева, как показано на следующем экране. Вы также можете создать рабочую область для создания потока данных. 
+Чтобы создать поток данных, запустите службу Power BI в браузере и в области навигации слева выберите **рабочую область** (потоки данных недоступны в разделе *my-workspace* в службе Power BI), как показано на следующем экране. Вы также можете создать рабочую область для создания потока данных. 
 
 ![Создание потока данных в Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 

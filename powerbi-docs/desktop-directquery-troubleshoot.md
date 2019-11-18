@@ -2,19 +2,18 @@
 title: Устранение неполадок с моделью DirectQuery в Power BI Desktop
 description: Устранение неполадок с моделью DirectQuery.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433518"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868067"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Устранение неполадок с моделью DirectQuery в Power BI Desktop
 
@@ -92,7 +91,7 @@ ms.locfileid: "73433518"
 - Откройте SQL Server Profiler и найдите файл трассировки, как описано выше. Помните, что файл трассировки после закрытия Power BI Desktop будет удален. Кроме того, дополнительные действия в Power BI Desktop будут отображены не сразу: файл трассировки следует закрыть, а затем повторно открыть, чтобы просмотреть новые события.
 - Используйте небольшие отдельные сеансы (десятки секунд на действие, не сотни) для быстрого анализа файла трассировки. (Из-за ограничения размера файла трассировки есть вероятность, что события длинных сеансов завершатся сбоем.)
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>Основные сведения о форме запроса, отправленного Power BI Desktop
+## <a name="understand-queries-sent-to-the-source"></a>Общие сведения о запросах, отправляемых в источник
 
 Общий формат запросов, создаваемых и отправляемых Power BI Desktop, использует подзапросы для каждой связанной таблицы модели, в которой подзапрос определяется запросом Power Query. Предположим, в реляционной базе данных SQL Server есть следующие таблицы TPC-DS:
 

@@ -2,7 +2,6 @@
 title: Создание и публикация пакета содержимого организации — Power BI
 description: В этом руководстве вы создадите пакет содержимого организации, предоставите доступ к нему только определенной группе и опубликуете его в библиотеке пакетов содержимого в Power BI в своей организации.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020654"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872011"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Руководство. Создание и публикация пакета содержимого организации в Power BI
 
@@ -34,9 +33,9 @@ ms.locfileid: "72020654"
 
 Хотите попробовать? В [службе Power BI](https://powerbi.com) перейдите в раздел **Моя рабочая область**. Затем выберите **Получить данные** > **Примеры** > **Анализ возможностей — пример** > **Подключение** для получения собственной копии.
 
-1. На панели навигации слева выберите **Рабочие области** > **Мои рабочие области**.
+1. В области навигации щелкните **Рабочие области** > **Моя рабочая область**.
 
-1. На верхней панели навигации щелкните значок шестеренки ![снимок экрана со значком шестеренки](media/service-organizational-content-pack-create-and-publish/cog.png). > **Создайте пакет содержимого**.
+1. В области навигации сверху щелкните значок шестеренки ![Снимок экрана со значком шестеренки](media/service-organizational-content-pack-create-and-publish/cog.png). > **Создайте пакет содержимого**.
 
    ![Снимок экрана пользовательского интерфейса с фокусом на значке шестеренки и параметре "Создать пакет содержимого".](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ ms.locfileid: "72020654"
 
 * [Что такое OneDrive для бизнеса?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

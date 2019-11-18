@@ -2,7 +2,6 @@
 title: Сведения о подключении Azure Data Lake Storage 2-го поколения к Power BI для хранения потока данных
 description: Перенесите свои данные в потоки данных с помощью Azure Data Lake Storage 2-го поколения
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432024"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872711"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)
 
@@ -105,7 +104,7 @@ ms.locfileid: "73432024"
 
 Чтобы найти приложения клиентов, выполните следующие действия:
 
-1. На [портале Azure](https://portal.azure.com/) на левой навигационной панели выберите **Azure Active Directory**.
+1. На [портале Azure](https://portal.azure.com/) в области навигации выберите **Azure Active Directory**.
 2. В колонке Azure **Active Directory** выберите **Корпоративные приложения**.
 3. В раскрывающемся меню **Тип приложения** выберите **Все приложения**, а затем щелкните **Применить**. Отобразится пример ваших приложений клиентов, аналогичный следующему.
 
@@ -223,4 +222,4 @@ ms.locfileid: "73432024"
 * [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
 
-Вы всегда можете [задать вопросы в Сообществе Power BI](http://community.powerbi.com/).
+Вы всегда можете [задать вопросы в Сообществе Power BI](https://community.powerbi.com/).

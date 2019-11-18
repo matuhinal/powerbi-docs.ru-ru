@@ -3,25 +3,24 @@ title: Устранение неполадок со шлюзами — Power B
 description: Эта статья описывает, как устранять неполадки с локальным шлюзом данных и Power BI. Здесь описаны обходные решения для известных проблем, а также соответствующие инструменты.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543823"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881575"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Устранение неполадок со шлюзами — Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Эта статья описывает распространенные проблемы при работе с локальным шлюзом данных в Power BI. Если вы столкнулись с ошибкой, которая не рассматривается здесь, посетите сайт [сообщества Power BI](http://community.powerbi.com). Также вы можете создать [запрос в службу поддержки](http://powerbi.microsoft.com/support).
+Эта статья описывает распространенные проблемы при работе с локальным шлюзом данных в Power BI. Если вы столкнулись с ошибкой, которая не рассматривается здесь, посетите сайт [сообщества Power BI](https://community.powerbi.com). Также вы можете создать [запрос в службу поддержки](https://powerbi.microsoft.com/support).
 
 ## <a name="configuration"></a>Конфигурации
 
@@ -227,7 +226,7 @@ ms.locfileid: "72543823"
 
 Если вы используете шлюз для запланированного обновления, просмотреть возникшие ошибки можно в разделе **Журнал обновлений**. Также в нем приводятся полезные данные, которые могут потребоваться при создании запроса на поддержку. Можно просматривать как запланированные обновления, так и обновления по запросу. Ниже описано, как можно открыть журнал обновлений.
 
-1. В области навигации Power BI в разделе **Наборы данных** выберите набора данных. Откройте меню и выберите пункт **Запланировать обновление**.
+1. В области навигации Power BI в разделе **Наборы данных** выберите набор данных. Откройте меню и выберите пункт **Запланировать обновление**.
 
     ![Выбор запланированного обновления](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
@@ -241,7 +240,7 @@ ms.locfileid: "72543823"
 
 ## <a name="fiddler-trace"></a>Трассировка Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP. Вы можете просматривать всю работу службы Power BI с клиентского компьютера. В списке трафика можно найти ошибки и другие связанные сведения.
+[Fiddler](https://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP. Вы можете просматривать всю работу службы Power BI с клиентского компьютера. В списке трафика можно найти ошибки и другие связанные сведения.
 
 ![Использование трассировки Fiddler](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ ms.locfileid: "72543823"
 * [Управление своим источником данных — SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).

@@ -2,7 +2,6 @@
 title: Превращение книги Excel в привлекательный отчет в службе Power BI
 description: В этой статье показано, как быстро создать привлекательный отчет из книги Excel.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020998"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872521"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Превращение книги Excel в привлекательный отчет в службе Power BI
 Ваш руководитель требует отчет по последним результатам продаж и ваши впечатления о последней кампании к концу дня. При этом последние данные хранятся в различных сторонних системах и в файлах на вашем ноутбуке. Раньше создание визуальных элементов и форматирование отчета занимало несколько часов и заставляло понервничать.
@@ -57,7 +56,7 @@ ms.locfileid: "73020998"
 
    ![создание раскрывающегося списка](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. В нижней части левой области навигации выберите **Получить данные**. 
+4. В нижней части области навигации выберите **Получить данные**. 
 
 5. В разделе **Создать новый контент** страницы **Получить данные** в поле **Файлы** выберите **Получить**.
 
@@ -140,5 +139,5 @@ ms.locfileid: "73020998"
 * [Начало работы с Power BI Desktop](desktop-getting-started.md)
 * [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

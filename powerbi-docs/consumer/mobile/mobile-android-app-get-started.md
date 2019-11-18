@@ -2,19 +2,18 @@
 title: Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 description: Мобильное приложение Android для Microsoft теперь доступно для мобильных устройств. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060289"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876779"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -34,7 +33,7 @@ ms.locfileid: "73060289"
 
 ### <a name="get-the-app"></a>Получение приложения
 
-[Скачайте приложение Power BI для Android](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина Google Play.
+[Скачайте приложение Power BI для Android](https://go.microsoft.com/fwlink/?LinkID=544867) из магазина Google Play.
   
 Power BI можно запускать на разных устройствах Android под управлением операционной системы Android 5.0 или более поздней версии. Чтобы проверить версию ОС на устройстве, выберите **Settings** > **About device** > **Android version** (Параметры > Об устройстве > Версия Android). 
 
@@ -44,9 +43,9 @@ Power BI можно запускать на разных устройствах 
 Узнайте о [новых возможностях мобильных приложений Power BI](../../mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Регистрация в службе Power BI в Интернете
-Если вы еще не зарегистрировались, перейдите в [службу Power BI (http://powerbi.com/)](http://powerbi.com/), чтобы зарегистрировать собственную учетную запись для создания и хранения информационных панелей и отчетов, а также консолидации ваших данных. Затем войдите в Power BI с вашего устройства Android, чтобы просматривать свои панели мониторинга из любого места.
+Если вы еще не зарегистрировались, перейдите в [службу Power BI (https://powerbi.com/)](https://powerbi.com/), чтобы зарегистрировать собственную учетную запись для создания и хранения информационных панелей и отчетов, а также консолидации ваших данных. Затем войдите в Power BI с вашего устройства Android, чтобы просматривать свои панели мониторинга из любого места.
 
-1. В службе Power BI коснитесь кнопки [Зарегистрироваться](http://go.microsoft.com/fwlink/?LinkID=513879), чтобы создать учетную запись Power BI.
+1. В службе Power BI коснитесь кнопки [Зарегистрироваться](https://go.microsoft.com/fwlink/?LinkID=513879), чтобы создать учетную запись Power BI.
 2. Начните [создавать собственные информационные панели и отчеты](../../service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Начало работы с приложением Power BI на мобильном устройстве
@@ -88,14 +87,14 @@ Power BI можно запускать на разных устройствах 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Поиск содержимого в мобильных приложениях Power BI
 В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](../../mobile-apps-quickstart-view-dashboard-report.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
 
-![Панель навигации слева](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+![Область навигации](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Просмотр избранных панелей мониторинга, ключевых показателей эффективности и отчетов
 В мобильных приложениях на странице "Избранное" отображаются все избранные панели мониторинга Power BI, а также ключевые показатели эффективности и отчеты сервера отчетов Power BI и служб Reporting Services. Когда в мобильном приложении Power BI вы добавляете панель мониторинга в *избранное*, панель становится доступной на всех ваших устройствах, а также в службе Power BI в браузере. 
 
 * Выберите **Избранное**.
   
-   !["Избранное" на панели навигации слева](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
+   !["Избранное" в области навигации](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
   
    На этой странице отображаются избранные элементы Power BI, а также веб-портала сервера отчетов Power BI и служб Reporting Services.
   
@@ -135,8 +134,8 @@ Microsoft Intune позволяет управлять такими элемен
 * Создавайте [отчеты в Power BI Desktop и публикуйте их на веб-портале сервера отчетов Power BI](../../report-server/quickstart-create-powerbi-report.md).
 
 ### <a name="see-also"></a>См. также:
-* [Скачивание приложения Android](http://go.microsoft.com/fwlink/?LinkID=544867) из магазина приложений Android.
+* [Скачивание приложения Android](https://go.microsoft.com/fwlink/?LinkID=544867) из магазина приложений Android.
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 
 

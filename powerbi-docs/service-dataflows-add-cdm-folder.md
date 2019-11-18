@@ -2,7 +2,6 @@
 title: Добавление папки CDM в Power BI в виде потока данных
 description: Настройка рабочей области для хранения файлов данных и определения потока данных в Azure Data Lake Storage 2-го поколения
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432049"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872694"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
 
@@ -33,7 +32,7 @@ ms.locfileid: "73432049"
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Создание потока данных из папки CDM
 
-Чтобы приступить к созданию потока данных из папки CDM, запустите **службу Power BI** и выберите **рабочую область** в области навигации слева. Вы также можете создать рабочую область для создания потока данных.
+Чтобы приступить к созданию потока данных из папки CDM, запустите **службу Power BI** и выберите **рабочую область** в области навигации. Вы также можете создать рабочую область для создания потока данных.
 
 ![Создание потока данных в службе Power BI](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -110,5 +109,5 @@ Power BI Desktop:
 * [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
 
-Вы всегда можете [задать вопросы в Сообществе Power BI](http://community.powerbi.com/).
+Вы всегда можете [задать вопросы в Сообществе Power BI](https://community.powerbi.com/).
 

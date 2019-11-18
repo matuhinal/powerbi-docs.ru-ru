@@ -2,7 +2,6 @@
 title: Приобретение и назначение лицензий Power BI Pro
 description: Узнайте, как приобрести и назначить лицензии Power BI Pro для предоставления пользователям доступа ко всему содержимому и возможностям совместной работы службы Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873544"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Приобретение и назначение пользовательских лицензий Power BI Pro
 
@@ -37,9 +36,9 @@ Power BI Pro — это отдельная лицензия пользовате
 
 1. Откройте [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
-2. В левой области навигации выберите **Выставление счетов** > **Подписки**.
+2. В области навигации выберите **Выставление счетов** > **Подписки**.
 
-    ![Панель навигации](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+    ![Область навигации](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
 3. В правом верхнем углу страницы **Подписки** щелкните элемент **Добавить подписки**.
 
@@ -75,7 +74,7 @@ Power BI Pro — это отдельная лицензия пользовате
 
 1. Откройте [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
-2. На панели навигации слева разверните пункт **Пользователи** и выберите элемент **Активные пользователи**.
+2. В области навигации разверните пункт **Пользователи** и выберите **Активные пользователи**.
 
     ![Активные пользователи](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
 
@@ -97,7 +96,7 @@ Power BI Pro — это отдельная лицензия пользовате
 
 1. Перейдите на [портал Azure](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0).
 
-2. На панели навигации слева выберите **Azure Active Directory**.
+2. В области навигации выберите **Azure Active Directory**.
 
     ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 

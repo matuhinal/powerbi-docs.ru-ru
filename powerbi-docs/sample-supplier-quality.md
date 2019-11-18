@@ -2,7 +2,6 @@
 title: 'Пример "Анализ качества поставщика" для Power BI: Узнайте о возможностях'
 description: 'Пример "Анализ качества поставщика" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621314"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858408"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ качества поставщика" для Power BI: Узнайте о возможностях
 
@@ -59,11 +58,11 @@ ms.locfileid: "69621314"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
-Кроме того, вы можете скачать "Анализ качества поставщика — пример" в виде [PBIX-файла](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), который предназначен для работы с Power BI Desktop.
+Кроме того, вы можете скачать "Анализ качества поставщика — пример" в виде [PBIX-файла](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), который предназначен для работы с Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](http://go.microsoft.com/fwlink/?LinkId=529779). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529779). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="downtime-caused-by-defective-materials"></a>Простои, вызванные дефектными материалами
 Давайте проанализируем простои, вызванные дефектными материалами, и узнаем ответственных поставщиков.  

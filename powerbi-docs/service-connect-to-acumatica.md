@@ -2,7 +2,6 @@
 title: Подключение к Acumatica с помощью Power BI
 description: Acumatica для Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186137"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873202"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Подключение к Acumatica с помощью Power BI
 Пакет содержимого Acumatica для Power BI позволяет быстро анализировать данные возможностей. Power BI извлекает данные, включая возможности, учетные записи и клиентов, затем создает стандартную панель мониторинга и связанные отчеты, основанные на этих данных.
@@ -28,7 +27,7 @@ ms.locfileid: "70186137"
 >Для этого пакета содержимого требуется Acumatica версии 5.2 или более поздней.
 
 ## <a name="how-to-connect"></a>Способы подключения
-1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.
+1. В нижней части области навигации выберите **Получить данные**.
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. В поле **Службы** выберите **Получить**.

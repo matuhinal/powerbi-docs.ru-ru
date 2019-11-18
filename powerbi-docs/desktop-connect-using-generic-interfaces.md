@@ -2,7 +2,6 @@
 title: Подключение к данным с помощью универсальных интерфейсов в Power BI Desktop
 description: Сведения о подключении к различным источникам данных с помощью универсальных интерфейсов в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513754"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868977"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Подключение к данным с помощью универсальных интерфейсов в Power BI Desktop
 В **Power BI Desktop** можно подключаться к множеству различных источников данных, используя встроенные соединители, которые отображаются в окне **Получение данных**, — от **баз данных Access** до ресурсов **Zendesk**. Вы также можете подключаться к *другим* источникам данных различных типов с помощью универсальных интерфейсов (например, **ODBC** или **REST API**), встроенных в **Power BI Desktop**. Это дополнительно расширяет возможности подключения.
@@ -48,16 +47,16 @@ ms.locfileid: "65513754"
 
 | Универсальный соединитель Power BI Desktop | Внешний источник данных | Ссылка на дополнительные сведения |
 | --- | --- | --- |
-| ODBC |Cassandra |[Драйвер ODBC для Cassandra](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[Драйвер ODBC для Cassandra](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |База данных Couchbase |[Couchbase и Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[Драйвер ODBC для DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[Драйвер ODBC для BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |HBase |[Драйвер ODBC для HBase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[Драйвер ODBC для Hive](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[Драйвер ODBC для DynamoDB](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[Драйвер ODBC для BigQuery](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[Драйвер ODBC для HBase](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[Драйвер ODBC для Hive](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[Сведения об IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |Presto |[Драйвер ODBC для Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |Presto |[Драйвер ODBC для Presto](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |Project Online |[Статья, посвященная Project Online](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[Запись в блоге, посвященная драйверу ODBC Progress OpenEdge](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[Запись в блоге, посвященная драйверу ODBC Progress OpenEdge](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>Источники данных, доступные через OLE DB
 Соединитель **OLE DB** в **Power BI Desktop** позволяет импортировать данные из любого стороннего драйвера OLE DB, просто указав *строку подключения*. В качестве альтернативного варианта можно также указать инструкцию SQL, которую следует применить к драйверу OLE DB.

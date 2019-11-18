@@ -2,7 +2,6 @@
 title: Активация меток конфиденциальности данных в Power BI
 description: Сведения об активации меток конфиденциальности данных в Power BI
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: a53e06f65f5ef8328a0c27b48f2020228a0570ed
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432887"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851071"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Активация меток конфиденциальности данных в Power BI (предварительная версия)
 
@@ -63,7 +62,7 @@ ms.locfileid: "73432887"
 
 ## <a name="licensing"></a>Лицензирование
 
-* Для просмотра меток Microsoft Information Protection в Power BI пользователям потребуется лицензия Azure Information Protection Premium P1 или Premium P2. Средство Microsoft Azure Information Protection можно приобрести как отдельно, так и в составе одного из наборов лицензирования Майкрософт. Дополнительные сведения см. в статье [Цены на Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/).
+* Для просмотра и применения меток Microsoft Information Protection в Power BI пользователям требуется лицензия Azure Information Protection категории Premium P1 или P2. Средство Microsoft Azure Information Protection можно приобрести как отдельно, так и в составе одного из наборов лицензирования Майкрософт. Дополнительные сведения см. в статье [Цены на Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/).
 * Чтобы применять метки к ресурсам Power BI, пользователям потребуется лицензия Power BI Pro.
 
 

@@ -2,7 +2,6 @@
 title: Устранение неполадок со шлюзом Power BI (персональный режим)
 description: Устранение неполадок со шлюзом Power BI (персональный режим)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543543"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873374"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Устранение неполадок со шлюзом Power BI (персональный режим)
 
@@ -128,7 +127,7 @@ ms.locfileid: "72543543"
 ![Шлюз управления данными и журналы PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Трассировка Fiddler
-[Fiddler](http://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP. Вы можете просматривать все взаимодействие со службой Power BI с клиентского компьютера. Это позволяет найти ошибки и другие связанные сведения.
+[Fiddler](https://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP. Вы можете просматривать все взаимодействие со службой Power BI с клиентского компьютера. Это позволяет найти ошибки и другие связанные сведения.
 
 ![Трассировка Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ ms.locfileid: "72543543"
 - [Устранение неполадок с плитками](refresh-troubleshooting-tile-errors.md)  
 - [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md) 
  
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](http://community.powerbi.com/).
+Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 

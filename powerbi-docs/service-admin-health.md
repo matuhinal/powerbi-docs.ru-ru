@@ -2,7 +2,6 @@
 title: Отслеживание работоспособности службы Power BI в Office 365
 description: Узнайте, как просматривать актуальные и исторические данные о работоспособности службы в центре администрирования Microsoft 365.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075363"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857683"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Отслеживание работоспособности службы Power BI в Office 365
 
@@ -29,7 +28,7 @@ ms.locfileid: "71075363"
 
 1. Войдите в [Центр администрирования Microsoft 365](https://portal.office.com/adminportal).
 
-1. На панели навигации слева выберите **Показать все** > **Работоспособность** > **Работоспособность службы**. Появится страница "Работоспособность службы":
+1. В области навигации слева щелкните **Показать все** > **Работоспособность** > **Работоспособность службы**. Появится страница "Работоспособность службы":
 
     ![Снимок экрана центра администрирования Microsoft 365 с выделенными элементами "Работоспособность" и "Работоспособность службы".](media/service-admin-health/service-health-tile.png)
 

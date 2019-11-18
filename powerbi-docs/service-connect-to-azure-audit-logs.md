@@ -2,7 +2,6 @@
 title: Подключение к журналам аудита Azure с помощью Power BI
 description: Журналы аудита Azure для Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: d0bd4e90dac6e71d95c38bed83f1c9507acc4fd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060611"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855395"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Подключение к журналам аудита Azure с помощью Power BI
 Пакет контента "Журналы аудита Azure" для Power BI позволяет анализировать и визуализировать информацию, хранящуюся в журналах аудита. Power BI извлекает данные, создает стандартную панель мониторинга и строит на основе этих данных отчеты.
@@ -25,7 +24,7 @@ ms.locfileid: "73060611"
 [Подключитесь к пакету содержимого журналов аудита Azure](https://app.powerbi.com/getdata/services/azure-audit-logs) или прочтите дополнительные сведения об [интеграции журналов аудита Azure](https://powerbi.microsoft.com/integrations/azure-audit-logs) с Power BI.
 
 ## <a name="how-to-connect"></a>Способы подключения
-1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.  
+1. В нижней части области навигации выберите **Получить данные**.  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
 2. В поле **Службы** выберите **Получить**.  

@@ -2,7 +2,6 @@
 title: Подключение к образцам в службе Power BI
 description: Узнайте, как установить и изучите образцы в службе Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020628"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873845"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Подключение к образцам в службе Power BI
 
@@ -38,11 +37,11 @@ ms.locfileid: "73020628"
 
     Если у вас нет лицензии Power BI Pro, можно сохранить пример в личной рабочей области.
 
-2. Нажмите кнопку **Получить данные** в нижней части левой панели навигации. 
+2. В нижней части области навигации выберите **Получить данные**. 
 
    ![Выбор "Получить данные"](media/sample-datasets/power-bi-get-data.png)
 
-   Если команда **Получить данные** отсутствует, разверните панель навигации, выбрав ![значок "гамбургер"](media/sample-tutorial-connect-to-the-samples/expand-nav.png) в верхней ее части.
+   Если команда **Получить данные** отсутствует, разверните область навигации, выбрав вверху следующий значок: ![значок "Гамбургер"](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
 
 5. На странице **Получение данных** выберите **Примеры**.
    
@@ -100,7 +99,7 @@ ms.locfileid: "73020628"
 
 В отличие от редактирования отчета в службе Power BI, в Power BI Desktop вы можете работать с запросами и моделями данных, чтобы извлекать самые полезные сведения для отчетов. Затем вы можете сохранить файл Power BI Desktop где угодно — как на локальном диске, так и в облаке.
 
-1. Скачайте [PBIX-файл "Анализ розничной торговли — пример"](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) и откройте его в Power BI Desktop. 
+1. Скачайте [PBIX-файл "Анализ розничной торговли — пример"](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) и откройте его в Power BI Desktop. 
 
     ![Пример в представлении отчетов Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ ms.locfileid: "73020628"
 - [Примеры для службы Power BI](sample-datasets.md)
 - [Источники данных для Power BI](service-get-data.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

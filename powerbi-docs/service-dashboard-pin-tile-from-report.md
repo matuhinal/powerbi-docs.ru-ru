@@ -2,7 +2,6 @@
 title: Закрепление плитки на панели мониторинга Power BI из отчета
 description: Закрепление плитки на панели мониторинга Power BI из отчета.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624102"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852635"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Закрепление плитки на панели мониторинга Power BI из отчета
 
@@ -52,7 +51,7 @@ ms.locfileid: "68624102"
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) означает, что визуализация была добавлена на панель мониторинга в качестве плитки.
    
    ![Сообщение об успешном импорте](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. На панели навигации выберите информационную панель с новой плиткой. [Измените оформление и поведение плитки](service-dashboard-edit-tile.md) или выберите плитку, чтобы вернуться в отчет.
+5. В области навигации выберите панель мониторинга с новой плиткой. [Измените оформление и поведение плитки](service-dashboard-edit-tile.md) или выберите плитку, чтобы вернуться в отчет.
 
 ## <a name="pin-an-entire-report-page"></a>Закрепление целой страницы отчета
 Также на панели мониторинга можно закрепить страницу отчета целиком, что позволяет одновременно закреплять несколько визуализаций. При закреплении страницы целиком вы получаете *живые* плитки. Это значит, что вы можете взаимодействовать с такими плитками на панели мониторинга. Изменения, вносимые в любую из визуализаций в редакторе отчетов, например добавление фильтра или изменение полей, используемых в диаграмме, также отражаются на плитке панели мониторинга.  
@@ -66,5 +65,5 @@ ms.locfileid: "68624102"
 - [Обновление данных в Power BI](refresh-data.md)
 - [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -2,19 +2,18 @@
 title: Управление содержимым на веб-портале Сервера отчетов Power BI
 description: См. дополнительные сведения об управлении содержимым на веб-портале Сервера отчетов Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021457"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859481"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Управление содержимым на веб-портале 
 Веб-портал сервера отчетов Power BI — это локальное расположение для просмотра и хранения отчетов Power BI, мобильных отчетов, отчетов с разбивкой на страницы, ключевых показателей эффективности, а также управления ими.
@@ -38,9 +37,9 @@ ms.locfileid: "73021457"
     См. список [поддерживаемых веб-браузеров и версий](browser-support.md).
 2. В адресной строке введите URL-адрес веб-портала.
    
-    По умолчанию используется такой формат URL-адреса: <em>http://[имя_компьютера]/reports</em>.
+    По умолчанию используется URL следующего вида: <em>https://[имя_компьютера]/reports</em>.
    
-    Сервер отчетов может быть настроен для использования конкретного порта. Например, <em>http://[имя_компьютера]:80/reports</em> или <em>http://[имя_компьютера]:8080/reports</em>
+    Сервер отчетов может быть настроен для использования конкретного порта. Например, <em>https://[имя_компьютера]:80/reports</em> или <em>https://[имя_компьютера]:8080/reports</em>
    
     Вы увидите, что веб-портал группирует элементы по следующим категориям.
    

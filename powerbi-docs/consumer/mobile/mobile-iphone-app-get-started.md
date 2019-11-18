@@ -2,19 +2,18 @@
 title: Начало работы с мобильным приложением Power BI для iOS
 description: Мобильное приложение Microsoft Power BI для приложений iOS теперь доступно для мобильных устройств. Узнайте, как можно воспользоваться преимуществами мобильного доступа к бизнес-информации как в локальной, так и облачной среде.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059446"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870185"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone, iPad или iPod Touch позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -31,7 +30,7 @@ ms.locfileid: "73059446"
 Узнайте о [новых возможностях мобильных приложений Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>Загрузите приложение
-[Скачайте приложение для iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Скачать приложение для iOS") для iPhone, iPad или iPod Touch в Apple App Store.
+[Скачайте приложение для iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Скачать приложение для iOS") для iPhone, iPad или iPod Touch в Apple App Store.
 
 Приложение Power BI для iOS можно запускать на любых устройствах, работающих под управлением iOS 11 и более поздних версий. 
 
@@ -75,7 +74,7 @@ ms.locfileid: "73059446"
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Поиск содержимого в мобильных приложениях Power BI
 В мобильных приложениях Power BI панели мониторинга и отчеты хранятся в разных расположениях в зависимости от источника данных. Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-quickstart-view-dashboard-report.md). Вы всегда можете найти нужное содержимое в мобильных приложениях Power BI. 
 
-![Панель навигации слева](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![Область навигации](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 Прочтите статью о [поиске содержимого в мобильных приложениях](mobile-apps-quickstart-view-dashboard-report.md), чтобы узнать больше.
 
@@ -84,7 +83,7 @@ ms.locfileid: "73059446"
 
 * Выберите **Избранное**.
   
-   !["Избранное" на панели навигации слева](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   !["Избранное" в области навигации](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    Все избранные элементы отображаются на этой странице.
   
@@ -110,6 +109,6 @@ Microsoft Intune позволяет управлять такими элемен
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 
 

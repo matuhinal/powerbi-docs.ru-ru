@@ -2,7 +2,6 @@
 title: Отключение от пакета содержимого организации в Power BI
 description: Узнайте, как удалить подключение к пакету содержимого для организации, удалив его набор данных в Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020645"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881295"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Удаление подключения к пакету содержимого организации в Power BI
 
@@ -37,5 +36,5 @@ ms.locfileid: "72020645"
 * [Знакомство с пакетами содержимого организации](service-organizational-content-pack-introduction.md) 
 * [Создание и распространение приложения в Power BI](service-create-distribute-apps.md) 
 * [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)  
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

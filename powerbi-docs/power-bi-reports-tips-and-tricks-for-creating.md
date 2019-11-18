@@ -2,7 +2,6 @@
 title: Советы по созданию потрясающих отчетов
 description: Советы и рекомендации по созданию отчетов в службе Power BI и Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721353"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860889"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop, службе Power BI *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query.
@@ -115,11 +114,11 @@ Power BI интегрируется с Bing для предоставления 
 
 Допустим, мы загружаем набор данных из активных запросов поддержки клиентов и другой набор данных, состоящий из рабочих элементов со следующими схемами:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
 >
 >
 
-Если требуется отслеживать все инциденты и рабочие элементы, связанные с определенным CustomerName, невозможно просто создать связь между этими двумя наборами данных.  Некоторые рабочие элементы могут быть не связаны с CustomerName, поэтому это поле будет пустым или будет иметь значение NULL.  В элементах WorkItems и CustomerIncidents может быть несколько записей для любого заданного CustomerName.  
+Если требуется отслеживать все инциденты и рабочие элементы, связанные с определенным CustomerName, просто создать связь между этими двумя наборами данных нельзя.  Некоторые рабочие элементы могут быть не связаны с CustomerName, поэтому это поле будет пустым или будет иметь значение NULL.  В элементах WorkItems и CustomerIncidents может быть несколько записей для любого заданного CustomerName.  
 
 #### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Создание связей в Power BI Desktop при наличии в данных значений null или пустых значений
 Очень часто наборы данных содержат столбцы с пустыми значениями или значениями null.  Это может вызвать проблемы при попытке использования связей.  Эту проблему можно решить двумя способами.  Можно удалить строки, содержащие значения null или пустые значения.  Для этого можно воспользоваться функцией фильтрации на вкладке запросов или, если выполняется слияние запросов, выбрать параметр "Оставить только совпадающие строки". Кроме того, можно заменить значения null или пустые значения значениями, которые хорошо работают в связях: как правило, это строки NULL и "(Blank)".   Идеального решения здесь не существует: если отфильтровать строки на этапе запроса, часть строк будет удалена, что может повлиять на сводную статистику и вычисления.  При втором подходе эти строки данных сохраняются, однако несвязанные строки могут отображаться в модели как связанные, в результате чего в вычислениях могут возникать ошибки.  Если вы решите воспользоваться вторым подходом, не забудьте использовать нужные фильтры в представлении Вид/Диаграмма, чтобы получить точные результаты.  Очень важно оценить, какие строки сохраняются, а какие удаляются, и понять общее влияние этого на анализ.  
@@ -163,12 +162,9 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 
 [Руководство по выражениям анализа данных (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Центр ресурсов DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Центр ресурсов DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Служба Power BI *и* Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Ознакомьтесь с техническим документом [Principles for Designing Power BI reports](visuals/power-bi-visualization-best-practices.md) (Принципы проектирования отчетов в Power BI).
-Этот документ содержит рекомендации по проектированию отчетов в Power BI. В нем рассматриваются принципы проектирования, начиная с этапа планирования, которые можно применять для создания отчетов, а также входящих в них страниц и отдельных визуальных элементов. Многие из этих рекомендаций можно использовать и при проектировании панели мониторинга.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Прочтите и (или) посмотрите, как создавать визуально привлекательные отчеты (и панели мониторинга) в Power BI.
 Член сообщества Мигель Майерс является специалистом по анализу и обработке данных, а также графическим дизайнером.
@@ -226,4 +222,4 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 
 [Отчеты в Power BI](consumer/end-user-reports.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

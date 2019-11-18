@@ -2,19 +2,18 @@
 title: Как найти ключ продукта сервера отчетов
 description: Узнайте, как найти ключ продукта сервера отчетов Power BI для установки сервера в рабочей среде.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769624"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859683"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Как найти ключ продукта сервера отчетов
 Узнайте, как найти ключ продукта сервера отчетов Power BI для установки сервера в рабочей среде.
@@ -42,13 +41,13 @@ ms.locfileid: "64769624"
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center") (Центр поддержки корпоративных лицензий)
+![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
+[Download SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

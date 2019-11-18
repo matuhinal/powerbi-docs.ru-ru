@@ -2,20 +2,19 @@
 title: Отображение данных, использованных для создания визуализации Power BI
 description: Из этого документа вы узнаете, как отображать данные, которые используются для создания визуализации в Power BI, и как экспортировать эти данные в CSV-файл.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/26/2018
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ffb0a2e7bee17d71ca2037c8a233c2443ff1120
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389877"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880621"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Отображение данных, использованных для создания визуализации
 ## <a name="show-data"></a>Показать данные
@@ -28,17 +27,20 @@ ms.locfileid: "61389877"
 > 
 > 
 
-## <a name="using-show-data-in-power-bi-service"></a>Использование функции *Показать данные* в службе Power BI
-1. В службе Power BI откройте отчет в [режиме чтения или правки](../service-interact-with-a-report-in-editing-view.md) и выберите визуальный элемент.  В приложении Power BI Desktop откройте представление отчетов.
-2. Чтобы отобразить данные, лежащие в основе визуального элемента, выберите **Проводник** > **Показать данные**.
-   
-   ![выбор пункта "Показать данные"](media/service-reports-show-data/power-bi-show-data.png)
+## <a name="using-show-data"></a>Использование команды *Показать данные* 
+1. В Power BI Desktop выберите визуализацию, чтобы сделать ее активной.
+
+2. Щелкните **Дополнительные действия** (…) и выберите **Показать данные**. 
+    ![Отображение параметра "Показать данные"](media/service-reports-show-data/power-bi-more-action.png)
+
+
 3. По умолчанию данные отображаются под визуальным элементом.
    
-   ![вертикальное отображение визуального элемента и данных](media/service-reports-show-data/power-bi-explore-show-data.png)
-4. Чтобы изменить ориентацию, в правом верхнем углу визуализации выберите вертикальный макет ![](media/service-reports-show-data/power-bi-vertical-icon-new.png).
+   ![вертикальное отображение визуального элемента и данных](media/service-reports-show-data/power-bi-show-data-below.png)
+
+4. Чтобы изменить ориентацию, выберите вертикальную ориентацию ![Маленький снимок экрана значка, с помощью которого можно переключиться на вертикальный макет](media/service-reports-show-data/power-bi-vertical-icon-new.png) в правом верхнем углу визуализации.
    
-   ![горизонтальное отображение визуального элемента и данных](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![горизонтальное отображение визуального элемента и данных](media/service-reports-show-data/power-bi-show-data-side.png)
 5. Чтобы экспортировать данные в CSV-файл, щелкните значок многоточия и выберите **Экспортировать данные**.
    
     ![выбор пункта "Экспортировать данные"](media/service-reports-show-data/power-bi-export-data-new.png)
@@ -46,9 +48,30 @@ ms.locfileid: "61389877"
     Дополнительные сведения об экспорте данных в Excel см. в статье [Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md).
 6. Чтобы скрыть данные, снимите флажок, выбрав **Проводник** > **Показать данные**.
 
+## <a name="using-show-records"></a>Использование кнопки "Просмотреть записи"
+Вы можете сконцентрироваться на одной записи данных в визуализации и подробно рассмотреть его данные. 
+
+1. Для использования кнопки **Просмотреть записи** выберите визуализацию, чтобы сделать ее активной. 
+
+2. На ленте в Power BI Desktop выберите вкладку **Визуальные средства** > **Данные и детализация** > **Просмотреть записи**. 
+
+    ![Снимок экрана с выделенной кнопкой "Просмотреть записи".](media/service-reports-show-data/power-bi-see-record.png)
+
+3. Выберите точку данных или строку в визуализации. В этом примере мы выбрали четвертый столбец слева. В Power BI отображается запись из набора данных для этой точки данных.
+
+    ![Снимок экрана отдельной записи из набора данных.](media/service-reports-show-data/power-bi-row.png)
+
+4. Выберите **Назад к отчету**, чтобы вернуться на холст отчетов в Power BI Desktop. 
+
+## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
+
+- Если кнопка **Просмотреть записи** на ленте отключена и выделена серым цветом, это означает, что выбранная визуализация не поддерживает просмотр записей.
+- Вы не можете изменить данные в представлении просмотра записей и снова сохранить их в отчете.
+- Кнопку "Просмотреть записи" нельзя использовать, если для визуализации применяется вычисляемый показатель.
+- Кнопку "Просмотреть записи" нельзя использовать при подключении к динамической многомерной модели.  
+
 ## <a name="next-steps"></a>Дальнейшие действия
-[Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md)    
-[Визуализации в Power BI](power-bi-report-visualizations.md)    
-[Отчеты в Power BI](../consumer/end-user-reports.md)    
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+[Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md)    
+
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

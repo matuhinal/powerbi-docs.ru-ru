@@ -2,7 +2,6 @@
 title: 'Пример "Продажи и маркетинг" для Power BI: Узнайте о возможностях'
 description: 'Пример "Продажи и маркетинг" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391359"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873817"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Пример "Продажи и маркетинг" для Power BI: Узнайте о возможностях
 
@@ -56,11 +55,11 @@ ms.locfileid: "68391359"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
-Также вы можете скачать "Продажи и маркетинг — пример" в виде [PBIX-файла](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop.
+Также вы можете скачать "Продажи и маркетинг — пример" в виде [PBIX-файла](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](http://go.microsoft.com/fwlink/?LinkId=529785). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529785). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Какие данные отображаются на информационной панели?
 Начнем обзор с информационной панели и посмотрим на плитки, закрепленные руководителем. Мы видим сведения о доле на рынке, продажах и мнениях. Данные разбиты по региону, времени и конкуренции.
@@ -82,7 +81,7 @@ ms.locfileid: "68391359"
 
    ![Вопрос в поле "Вопросы и ответы": Общее количество единиц по сегментам для VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. Доля в категориях **Умеренность** и **Удобство** высока — это сегменты, в которых мы конкурируем.
-4. Вернитесь на панель мониторинга, выбрав пример **Продажи и маркетинг — пример** на верхней панели навигации.
+4. Вернитесь на панель мониторинга, выбрав пример **Продажи и маркетинг — пример** в области навигации сверху.
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Что собой представляет доля общего количества единиц на рынке для категории (по сравнению с регионом)?
 1. Посмотрите на плитку **Общее количество единиц с начала года по производителю, региону**. Какова доля общего числа единиц на рынке по категории?

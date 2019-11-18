@@ -2,7 +2,6 @@
 title: Настройка и использование таблиц дат в Power BI Desktop
 description: Узнайте, как настроить таблицу дат и что это означает в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454385"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868609"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Настройка и использование таблиц дат в Power BI Desktop
 
 В **Power BI Desktop** столбцы с датами определяются автоматически. Затем создаются иерархии дат и другие метаданные для включения модели от вашего имени. Это происходит в фоновом режиме. Эти встроенные иерархии можно использовать в дальнейшем при создании таких компонентов отчета, как визуальные элементы, таблицы, быстрые меры, срезы и т. д. Для этого в Power BI Desktop от вашего имени создаются скрытые таблицы, которые впоследствии вы можете использовать для отчетов и выражений DAX.
+
+См. сведения об этом автоматическом поведении в описании параметра [автоматических даты и времени в Power BI Desktop](desktop-auto-date-time.md).
 
 Многие специалисты по анализу данных предпочитают создавать собственные таблицы. Можно делать и так. **Power BI Desktop** позволяет указать **таблицу дат** для вашей модели и создавать связанные с датами визуализации, таблицы, быстрые меры и другие элементы, используя данные из этой таблицы. Если вы указываете собственную таблицу дат, вы сами управляете иерархиями дат, созданными в модели, и применяете их для **быстрых мер** и других операций, в которых используется таблица дат вашей модели. 
 
@@ -73,8 +74,7 @@ ms.locfileid: "65454385"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Также рекомендуем ознакомиться со следующими статьями.
+Рекомендуем также ознакомиться со следующими материалами:
 
+* [Автоматические дата и время в Power BI Desktop](desktop-auto-date-time.md)
 * [Типы данных в Power BI Desktop](desktop-data-types.md)
-
- 

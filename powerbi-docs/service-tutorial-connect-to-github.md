@@ -2,7 +2,6 @@
 title: Руководство. Подключение к репозиторию в GitHub с помощью Power BI
 description: В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020016"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871253"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Руководство. Подключение к репозиторию в GitHub с помощью Power BI
 В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключившись к общедоступному *репозиторию* содержимого Power BI, можно знать ответы на подобные вопросы: сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; И другие вопросы. 
@@ -45,7 +44,7 @@ ms.locfileid: "73020016"
 
 ## <a name="how-to-connect"></a>Способы подключения
 1. Войдите в службу Power BI (https://app.powerbi.com). 
-2. В области навигации слева выберите пункт **Приложения** и нажмите кнопку **Получить приложения**.
+2. В области навигации выберите **Приложения**, а затем — **Получить приложения**.
    
    ![Кнопка "Получить приложения" в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -72,15 +71,15 @@ ms.locfileid: "73020016"
    Теперь Power BI может подключаться к данным в GitHub.  Данные обновляются раз в день.
 
 8. После импорта данных в Power BI отображается содержимое новой рабочей области GitHub. 
-9. Щелкните стрелку рядом с именем рабочей области на левой панели навигации. Отображается рабочая область, содержащая панель мониторинга и отчет. 
+9. Нажмите на стрелку рядом с именем рабочей области в области навигации. Отображается рабочая область, содержащая панель мониторинга и отчет. 
 
-    ![Приложение на панели навигации слева](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![Приложение в области навигации](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. Щелкните **Дополнительные параметры** (...) рядом с именем панели мониторинга > **Переименовать** > введите **Панель мониторинга GitHub**.
  
     ![Плитка GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. Щелкните значок глобальной навигации, чтобы свернуть область навигации и освободить место на экране.
+8. Щелкните глобальный значок навигации, чтобы свернуть область навигации и освободить место на экране.
 
     ![Значок глобальной навигации](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ ms.locfileid: "73020016"
 
 Завершив работу с учебником, вы можете удалить приложение GitHub. 
 
-1. На панели навигации слева выберите пункт **Приложения**.
+1. В области навигации выберите **Приложения**.
 2. Наведите указатель на плитку GitHub и щелкните значок **Удалить** в виде корзины.
 
     ![Удаление приложения GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

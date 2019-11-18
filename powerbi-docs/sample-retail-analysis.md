@@ -2,7 +2,6 @@
 title: 'Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях'
 description: 'Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962237"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858569"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях
 
@@ -54,11 +53,11 @@ ms.locfileid: "68962237"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
-Кроме того, вы можете загрузить пример "Анализ розничной торговли" в виде [PBIX-файла](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop. 
+Кроме того, вы можете загрузить пример "Анализ розничной торговли" в виде [PBIX-файла](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](http://go.microsoft.com/fwlink/?LinkId=529778). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529778). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Запуск на панели мониторинга и открытие отчета
 
@@ -78,7 +77,7 @@ ms.locfileid: "68962237"
 
    Район **FD-01** демонстрирует наибольший **средний объем продаж на квадратный метр**, а FD-02 имеет наименьшее **общее отклонение продаж** по сравнению с предыдущим годом. FD-03 и FD-04 имеют наихудшие показатели.
 4. Выбирайте отдельные пузырьки или другие диаграммы, чтобы определить влияние выбранных вами параметров
-5. На панели навигации вверху выберите пример **Анализ розничной торговли**, чтобы вернуться к панели мониторинга.
+5. На панели навигации сверху выберите пример **Анализ розничной торговли**, чтобы вернуться к панели мониторинга.
 
    ![Панель навигации](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. На панели мониторинга выберите плитку **Продажи за этот год — новые и существующие магазины** (аналогично вводу *Продажи за этот год* в поле вопроса).

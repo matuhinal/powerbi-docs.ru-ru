@@ -3,18 +3,17 @@ title: Руководство. Создание отчета с разбивко
 description: При работе с этим руководством вы подключитесь к тестовой базе данных Azure SQL. Затем вы откроете в построителе отчетов мастер для создания отчета с разбивкой на страницы. Полученный отчет с разбивкой на страницы вы отправите в рабочую область емкости Premium в службе Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431669"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875437"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Руководство. Создание отчета с разбивкой на страницы и его отправка в службу Power BI
 
@@ -287,7 +286,7 @@ ms.locfileid: "73431669"
 
 Итак, вы создали отчет с разбивкой на страницы. Теперь можете отправить его в службу Power BI.
 
-1. В службе Power BI (http://app.powerbi.com) на панели навигации слева выберите **Рабочие области** > **Создать рабочую область**.
+1. В службе Power BI (https://app.powerbi.com) в области навигации выберите **Рабочие области** > **Создать рабочую область**.
 
 2. Присвойте рабочей области имя **Azure AW** или другое уникальное имя. Сейчас вы единственный участник этой области. 
 

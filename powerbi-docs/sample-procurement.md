@@ -2,7 +2,6 @@
 title: Анализ закупок — пример Узнайте о возможностях
 description: 'Пример "Анализ закупок" для Power BI: Узнайте о возможностях'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462277"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873857"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ закупок" для Power BI: Узнайте о возможностях
 
@@ -58,11 +57,11 @@ ms.locfileid: "68462277"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Получение PBIX-файла для этого примера
 
-Кроме того, вы можете загрузить пример "Анализ закупок" в виде [PBIX-файла](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop. 
+Кроме того, вы можете загрузить пример "Анализ закупок" в виде [PBIX-файла](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), который предназначен для работы с Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](http://go.microsoft.com/fwlink/?LinkId=529784). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529784). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 
 ## <a name="spending-trends"></a>Тенденции затрат
@@ -99,7 +98,7 @@ ms.locfileid: "68462277"
       ![Столбец "Косвенные товары и услуги" для Мексики](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Щелкните стрелку вверх в левой верхней части диаграммы, чтобы вернуться на более высокий уровень детализации.
 4. Щелкните стрелку детализации еще раз, чтобы полностью отключить детализацию.  
-5. На верхней панели навигации выберите **Анализ затрат — пример**, чтобы вернуться к панели мониторинга.
+5. В области навигации сверху выберите **Анализ затрат — пример**, чтобы вернуться к панели мониторинга.
 
 ## <a name="evaluate-different-cities"></a>Оценка разных городов
 Мы можем использовать выделение для оценки разных городов.

@@ -2,7 +2,6 @@
 title: Создание отчета из набора данных
 description: Создание отчета Power BI из набора данных.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432200"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871766"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
 Вы ознакомились со статьей [Отчеты в Power BI](consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существуют различные способы создания отчета. В этой статье мы создадим в службе Power BI простой отчет из набора данных Excel. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами, перечисленными в разделе [Дальнейшие действия](#next-steps) в конце статьи.  
 
 ## <a name="prerequisites"></a>Предварительные требования
 - [Регистрация в службе Power BI](service-self-service-signup-for-power-bi.md). Сведения о создании отчетов с помощью Power BI Desktop см. в статье [Представление отчетов в Power BI Desktop](desktop-report-view.md). 
-- [Скачайте набор данных Excel "Анализ розничной торговли — пример"](http://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса или в локальной среде.
+- [Скачайте набор данных Excel "Анализ розничной торговли — пример"](https://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса или в локальной среде.
 
 ## <a name="import-the-dataset"></a>Импорт набора данных
 Чтобы создать отчет таким способом, сначала вам потребуется набор данных и пустой холст отчета. Вы можете следовать по набору данных Excel "Анализ розничной торговли — пример".
@@ -30,7 +29,7 @@ ms.locfileid: "73432200"
 1. Мы создадим отчет в рабочей области службы Power BI, поэтому создайте рабочую область или выберите существующую.
    
    ![список рабочих областей](media/service-report-create-new/power-bi-workspaces2.png)
-2. В нижней части левой области навигации выберите **Получить данные**.
+2. В нижней части области навигации выберите **Получить данные**.
    
    ![Получить данные](media/service-report-create-new/power-bi-get-data3.png)
 3. Выберите **Файлы** и перейдите к расположению, в котором вы сохранили пример анализа розничной торговли.
@@ -93,5 +92,5 @@ ms.locfileid: "73432200"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Закрепление плитки на панели мониторинга Power BI из отчета](service-dashboard-pin-tile-from-report.md)   
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

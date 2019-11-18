@@ -2,19 +2,18 @@
 title: Создание приложений-шаблонов в Power BI
 description: Сведения о создании приложений-шаблонов, которые можно распространять между любыми клиентами Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432163"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871495"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Создание приложений-шаблонов в Power BI
 
@@ -86,7 +85,7 @@ ms.locfileid: "73432163"
 
     **Навигация**
 
-    Активируйте **Новый построитель навигации**, где можно определить левую область навигации приложения (дополнительные сведения см. в разделе [Проектирование навигации](service-create-distribute-apps.md#design-the-navigation-experience) в этой статье).
+    Активируйте **Новый построитель навигации**, в котором можно настроить область навигации приложения (дополнительные сведения см. в разделе [Проектирование навигации](service-create-distribute-apps.md#design-the-navigation-experience) в этой статье).
 
    ![Выбор целевой страницы приложения](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

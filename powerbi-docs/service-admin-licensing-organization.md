@@ -2,7 +2,6 @@
 title: Лицензирование Power BI в организации
 description: 'Описание разных типов лицензий, имеющихся в Power BI: бесплатные лицензии, Power BI Pro и Power BI Premium.'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442837"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857705"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Лицензирование Power BI в организации
 
@@ -55,7 +54,7 @@ ms.locfileid: "73442837"
 
 1. Перейдите в [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
-1. В левой панели навигации выберите **Выставление счетов**, а затем **Подписки**.
+1. В области навигации выберите **Выставление счетов** > **Подписки**.
 
    ![Выставление счетов и подписки](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -99,9 +98,9 @@ ms.locfileid: "73442837"
 
 Если безлимитный блок лицензий Power BI (бесплатная версия) недоступен и вы не хотите делать индивидуальную регистрацию, выполните следующую процедуру.
 
-1. Перейдите в [центр администрирования Microsoft 365](https://portal.office.com/admin/default.aspx).
+1. Перейдите в [Центр администрирования Microsoft 365](https://portal.office.com/admin/default.aspx).
 
-1. В левой области навигации выберите **Выставление счетов** > **Подписки**.
+1. В области навигации выберите **Выставление счетов** > **Подписки**.
 
 1. Выберите **Добавить подписки** справа.
 
@@ -156,4 +155,4 @@ ms.locfileid: "73442837"
 
 [Приобретение и назначение лицензий Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

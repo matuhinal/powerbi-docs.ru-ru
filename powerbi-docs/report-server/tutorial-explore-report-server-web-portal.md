@@ -2,19 +2,18 @@
 title: Руководство. Изучение Сервера отчетов Power BI в виртуальной машине
 description: С помощью этого руководства вы создадите виртуальную машину с установленным Сервером отчетов Power BI и изучите его веб-портал.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021625"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859251"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Руководство. Изучение возможностей веб-портала Сервера отчетов Power BI на виртуальной машине
 С помощью этого руководства вы создадите виртуальную машину с установленным Сервером отчетов Power BI, чтобы изучить возможности просмотра, редактирования и управления, предоставляемые в Power BI. В руководстве используется пример отчетов с разбивкой на страницы и ключевых показателей эффективности.
@@ -72,7 +71,7 @@ ms.locfileid: "73021625"
 
 ## <a name="connect-to-your-virtual-machine"></a>Подключение к виртуальной машине
 
-1. В области навигации Azure слева выберите **Виртуальные машины**. 
+1. В области навигации Azure выберите **Виртуальные машины**. 
 
 2. В поле **Filter by name** (Фильтрация по имени) введите "report" (отчет). 
 
@@ -108,7 +107,7 @@ ms.locfileid: "73021625"
 |![Номер 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Открытие в браузере веб-портала Сервера отчетов Power BI |
 |![Номер 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Запуск SQL Server Data Tools для создания отчета с разбивкой на страницы (RDL) |
 
-Дважды щелкните значок **веб-портала сервера отчетов**. В браузере откроется страница `http://localhost/reports/browse`. На веб-портале отображаются разные файлы, сгруппированные по типам. 
+Дважды щелкните значок **веб-портала сервера отчетов**. В браузере откроется страница `https://localhost/reports/browse`. На веб-портале отображаются разные файлы, сгруппированные по типам. 
 
 ![Веб-портал сервера отчетов Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

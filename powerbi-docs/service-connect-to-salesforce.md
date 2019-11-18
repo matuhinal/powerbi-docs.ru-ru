@@ -2,7 +2,6 @@
 title: Подключение к Salesforce с помощью Power BI
 description: SalesForce для Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060813"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854621"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Подключение к Salesforce с помощью Power BI
 С помощью Power BI вы легко можете подключаться к учетной записи Salesforce.com. Это подключение позволяет извлечь данные Salesforce и обеспечить автоматическое предоставление панели мониторинга и отчетов.
@@ -23,7 +22,7 @@ ms.locfileid: "73060813"
 См. дополнительные сведения об [интеграции Salesforce](https://powerbi.microsoft.com/integrations/salesforce) с Power BI.
 
 ## <a name="how-to-connect"></a>Способы подключения
-1. В Power BI нажмите кнопку **Получить данные** в нижней части левой панели навигации.
+1. В Power BI в нижней части области навигации выберите **Получить данные**.
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. В поле **Службы** выберите **Получить**.
@@ -53,7 +52,7 @@ ms.locfileid: "73060813"
      
      Если вы не видите все отчеты, добавьте или создайте их в вашей учетной записи Salesforce и повторите попытку подключения.
 
-7. Выберите **Подключить**, чтобы начать импорт. Во время операции появится уведомление о том, что выполняется импорт. После завершения импорта вы увидите панель мониторинга, отчет и набор данных Salesforce на левой панели навигации.
+7. Выберите **Подключить**, чтобы начать импорт. Во время операции появится уведомление о том, что выполняется импорт. После завершения импорта вы увидите панель мониторинга, отчет и набор данных Salesforce в области навигации.
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

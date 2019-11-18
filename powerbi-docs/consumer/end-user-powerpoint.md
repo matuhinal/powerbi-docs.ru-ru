@@ -2,7 +2,6 @@
 title: Экспорт отчетов из Power BI в PowerPoint
 description: Узнайте, как экспортировать отчет из Power BI в PowerPoint.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 840f2462ea9fc6b2d748b3803445c5ee4b155bdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717004"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862895"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Экспорт отчетов из Power BI в PowerPoint
 
@@ -31,7 +30,7 @@ ms.locfileid: "72717004"
 Экспортировать **отчет Power BI** в программу **PowerPoint** недолго. Для этого нужно выполнить действия, описанные в следующем разделе.
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Экспорт отчета из службы Power BI в программу PowerPoint
-В службе Power BI выберите отчет, чтобы он отобразился на холсте. Можно также выбрать отчет на **главной** странице, в разделе **Приложения** или в любом другом контейнере на панели навигации слева.
+В службе Power BI выберите отчет, чтобы он отобразился на холсте. Можно также выбрать отчет на **главной** странице, в разделе **Приложения** или в любом другом контейнере в области навигации слева.
 
 Когда отчет, который необходимо экспортировать в PowerPoint, отобразится на холсте, на панели меню щелкните **Экспорт** > **PowerPoint**.
 

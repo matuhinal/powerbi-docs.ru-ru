@@ -2,7 +2,6 @@
 title: Как Power BI гарантирует, что ваше содержимое находится в актуальном состоянии
 description: Узнайте, как Power BI гарантирует, что вы работаете с последней версией данных, отчетов, панели мониторинга и приложения.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019779"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863882"
 ---
 # <a name="your-content-is-up-to-date"></a>Содержимое актуально
 
@@ -43,9 +42,9 @@ ms.locfileid: "73019779"
 
 На экране приложения показано имя разработчика, а также дата последнего обновления приложения.  
 
-1. В левой области навигации выберите **Приложения**.
+1. В области навигации выберите **Приложения**.
 
-    ![Панель навигации слева](media/end-user-fresh/power-bi-nav-app.png)
+    ![область навигации](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ ms.locfileid: "73019779"
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Что произойдет, если разработчик удалит приложение
 
-Если разработчик удаляет приложения, панели мониторинга и отчеты, связанные с этим приложением, также автоматически удаляются из рабочей области Power BI. Они станут недоступны, и приложение перестанет отображаться в контейнере приложений или другом месте панели навигации.
+Если разработчик удаляет приложения, панели мониторинга и отчеты, связанные с этим приложением, также автоматически удаляются из рабочей области Power BI. Эти элементы станут недоступны, и приложение перестанет отображаться в контейнере приложений и где-либо еще в области навигации.
 
 
 ## <a name="subscribe-to-see-changes"></a>Подпишитесь на изменения

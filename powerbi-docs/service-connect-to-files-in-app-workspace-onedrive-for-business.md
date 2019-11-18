@@ -2,19 +2,18 @@
 title: Подключение к файлам в OneDrive для рабочей области Power BI
 description: Узнайте о хранении файлов Excel, CSV и Power BI Desktop в хранилище OneDrive для рабочей области Power BI, а также о подключении к ним.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cecd327d76659eb11d81180480cb9be998fd772
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431624"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854883"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Подключение к файлам, хранящимся в OneDrive, для рабочей области Power BI
 После [создания рабочей области в Power BI](service-create-distribute-apps.md) вы можете хранить свои файлы Excel, CSV и Power BI Desktop в хранилище OneDrive для бизнеса для своей рабочей области Power BI. Вы можете продолжить обновление файлов в OneDrive. Эти обновления будут автоматически отражаться в отчетах и на панелях мониторинга Power BI на основе этих файлов. 
@@ -53,7 +52,7 @@ ms.locfileid: "73431624"
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>Импорт файлов в рабочей области или подключение к ним
 1. В Power BI перейдите в рабочую область, чтобы ее имя отобразилось в левом верхнем углу. 
-2. Нажмите кнопку **Получить данные** в нижней части левой панели навигации. 
+2. В нижней части области навигации выберите **Получить данные**. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. В поле **Файлы** выберите **Получить**.
@@ -80,6 +79,6 @@ ms.locfileid: "73431624"
 * [Создание и распространение приложений и рабочих областей в Power BI](service-create-distribute-apps.md)
 * [Импорт данных из книг Excel](service-get-data-from-files.md)
 * [Подключение к целым книгам Excel](service-excel-workbook-files.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 * Хотите оставить отзыв? Посетите [форум идей по улучшению Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
 

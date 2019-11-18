@@ -2,19 +2,18 @@
 title: Руководство. Отправка вопросов с помощью виртуального аналитика "Вопросы и ответы" в приложениях iOS
 description: В этом руководстве вы попробуете задать вопросы о тестовых данных в свободной текстовой форме с помощью виртуального аналитика "Вопросы и ответы" в мобильном приложении Power BI на устройстве iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337774"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869654"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Руководство. Отправка вопросов о данных с помощью виртуального аналитика "Вопросы и ответы" в приложениях Power BI на платформе iOS
 
@@ -42,7 +41,7 @@ ms.locfileid: "61337774"
 ## <a name="prerequisites"></a>Предварительные требования
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Установка приложения Power BI для iOS
-[Скачайте приложение для iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Скачайте приложение для iPhone") из Apple App Store на устройство iPad, iPhone или iPod Touch.
+[Скачайте приложение для iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Скачивание приложения для iPhone") для iPad, iPhone или iPod Touch в Apple App Store.
 
 Приложение Power BI для iOS поддерживается в следующих версиях ОС:
 - iPad под управлением iOS 10 или более поздней версии;
@@ -54,11 +53,11 @@ ms.locfileid: "61337774"
 
 1. Откройте службу Power BI в браузере (app.powerbi.com) и войдите в нее.
 
-1. Щелкните значок глобальной навигации, чтобы открыть область навигации слева.
+1. Щелкните значок глобальной навигации, чтобы открыть область навигации.
 
     ![Значок глобальной навигации](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. На панели навигации слева выберите **Рабочие области** > **Моя рабочая область**.
+2. В области навигации выберите **Рабочие области** > **Моя рабочая область**.
 
     ![Моя рабочая область](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ ms.locfileid: "61337774"
 
 1. Откройте службу Power BI (app.powerbi.com) и войдите в нее.
 
-2. На панели навигации слева выберите **Рабочие области** > **Моя рабочая область**.
+2. В области навигации выберите **Рабочие области** > **Моя рабочая область**.
 
 3. На вкладке **Панели мониторинга** щелкните значок **Удалить** в форме корзины рядом с панелью "Анализ возможных сделок".
 

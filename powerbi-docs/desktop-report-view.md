@@ -2,7 +2,6 @@
 title: Представление отчетов в Power BI Desktop
 description: Представление отчетов в Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142176"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877865"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Представление отчетов в Power BI Desktop
 Если вы работали с Power BI, вы знаете, как просто можно создавать отчеты, предоставляющие динамические сведения о ваших данных. В Power BI Desktop также реализованы дополнительные возможности. С помощью Power BI Desktop можно создавать сложные запросы, объединять данные из нескольких источников, создавать связи между таблицами и многое другое.
@@ -29,7 +28,7 @@ Power BI Desktop содержит **представление отчетов**,
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-Можно переключаться между **представлениями отчетов**, **данных** и **связей**, щелкая значки в левой панели навигации:
+Можно переключаться между **представлениями отчетов**, **данных** и **связей**, щелкая значки в области навигации слева:
 
 ![Значок представления отчетов](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 

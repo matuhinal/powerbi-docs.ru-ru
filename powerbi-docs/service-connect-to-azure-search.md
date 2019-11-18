@@ -2,7 +2,6 @@
 title: Подключение к службе "Поиск Azure" с помощью Power BI
 description: Поиск Azure для Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060930"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873101"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Подключение к службе "Поиск Azure" с помощью Power BI
 Аналитика трафика службы поиска Azure позволяет отслеживать трафик и получать по нему подробные сведения в службе поиска Azure. Пакет содержимого службы поиска Azure для Power BI предоставляет подробные сведения по данным службы поиска, включая поиск, индексацию, статистику служб и задержки за последние 30 дней. Дополнительные сведения см. в [записи блога Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -25,7 +24,7 @@ ms.locfileid: "73060930"
 Подключите [пакет содержимого службы поиска Azure](https://app.powerbi.com/getdata/services/azure-search) для Power BI.
 
 ## <a name="how-to-connect"></a>Способы подключения
-1. Нажмите кнопку **Получить данные** в нижней части левой панели навигации.
+1. В нижней части области навигации выберите **Получить данные**.
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. В поле **Службы** выберите **Получить**.
@@ -40,7 +39,7 @@ ms.locfileid: "73060930"
 5. Выберите **Ключ** в качестве механизма проверки подлинности и укажите ключ учетной записи хранения. Щелкните **Войти** , чтобы начать процесс загрузки.
    
    ![](media/service-connect-to-azure-search/creds.png)
-6. После завершения на панели навигации появятся новая панель мониторинга, отчет и модель. Выберите панель мониторинга, чтобы просмотреть импортированные данные.
+6. После завершения загрузки на панели навигации появятся новая панель мониторинга, отчет и модель. Выберите панель мониторинга, чтобы просмотреть импортированные данные.
    
     ![](media/service-connect-to-azure-search/dashboard2.png)
 

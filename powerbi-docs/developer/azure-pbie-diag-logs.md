@@ -3,17 +3,16 @@ title: Ведение журнала диагностики для службы 
 description: Сведения о том, как настроить ведение журнала диагностики для службы Power BI Embedded в Azure.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289849"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875981"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Ведение журнала диагностики для Power BI Embedded в Azure
 
@@ -177,7 +176,7 @@ ms.locfileid: "68289849"
 
 Обязательно ознакомьтесь со службой [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), которая предоставляет веб-сайт с расширенными возможностями создания запросов, панелей мониторинга и оповещений на основе собранных данных.
 
-### <a name="queries"></a>Запросы
+### <a name="queries"></a>запросы
 
 Вы можете использовать сотни запросов. Ниже приведено несколько запросов для ознакомления. Дополнительные сведения об использовании нового языка запросов поиска по журналам см. в статье [Основные сведения о поисках по журналам в Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 

@@ -2,7 +2,6 @@
 title: Новые функции фильтров в отчетах Power BI
 description: Фильтры в Power BI теперь включают новые функции и имеют новый внешний вид.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841251"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875147"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Новые функции фильтров в отчетах Power BI
 
@@ -44,7 +43,7 @@ ms.locfileid: "70841251"
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Включение новых функций фильтров для существующего отчета в Power BI Desktop
 
 1. В существующем отчете в Power BI Desktop выберите **Файл** > **Параметры и настройки** > **Параметры**.
-2. В левой панели навигации в разделе **Текущий файл** выберите **Параметры отчета**.
+2. В области навигации слева в разделе **Текущий файл** выберите **Параметры отчета**.
 3. В разделе **Возможности фильтрации** **включите обновленную область фильтров и отобразите фильтры в заголовке визуального элемента для этого отчета**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Включение новых функций фильтров для существующего отчета в службе
@@ -238,5 +237,5 @@ ms.locfileid: "70841251"
 - [Фильтры и выделение в отчетах](power-bi-reports-filters-and-highlighting.md)
 - [Различные виды фильтров Power BI](power-bi-report-filter-types.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 
