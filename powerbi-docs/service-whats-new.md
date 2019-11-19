@@ -2,7 +2,6 @@
 title: Новые возможности службы Power BI
 description: Новые возможности службы Power BI
 author: NikhilGaekwad-MSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060991"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099730"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -32,7 +31,7 @@ ms.locfileid: "73060991"
 
 ### <a name="october-2019"></a>Октябрь 2019 г.
 * Новое действие Microsoft Flow для обновления наборов данных Power BI.
-* [Список контактов](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) для отчетов и панелей мониторинга в службе Power BI.
+* [Список контактов](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) для отчетов и панелей мониторинга в службе Power BI.
 
 ## <a name="previous-months-2019"></a>Предыдущие месяцы (2019 г.)
 ### <a name="september-2019"></a>Сентябрь 2019 г.
@@ -40,7 +39,7 @@ ms.locfileid: "73060991"
 
 ### <a name="august-2019"></a>Август 2019 г.
 * Новые параметры емкости для Power BI Premium.
-* [Настраиваемая фирменная символика](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/) для организации.
+* [Настраиваемая фирменная символика](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/) для организации.
 * Сводный экспорт данных с разрешением на сборку.
 * Поддержка URL-адресов параметров для отчетов [с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
 * Поддержка ежемесячной подписки по электронной почте. 
@@ -49,9 +48,9 @@ ms.locfileid: "73060991"
 * Поддержка наборов данных, не входящих в Premium, для [отчетов с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
 * Общедоступная версия [агрегаций](desktop-aggregations.md) Power BI.
 * Отправка уведомлений об обновлении другим пользователям.
-* [Средство тестирования](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) емкостей Power BI Premium.
-* Общедоступная предварительная версия [уведомлений о доступности служб](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/).
-* Общедоступная предварительная версия [нового представления](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) для отчетов Power BI.
+* [Средство тестирования](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) емкостей Power BI Premium.
+* Общедоступная предварительная версия [уведомлений о доступности служб](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/).
+* Общедоступная предварительная версия [нового представления](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/) для отчетов Power BI.
 * Новый регион Power BI в Южной Африке.
 
 ### <a name="june-2019"></a>Июнь 2019 г.
@@ -65,7 +64,7 @@ ms.locfileid: "73060991"
 ### <a name="may-2019"></a>Май 2019 г.
 * [Пользовательская навигация](service-create-distribute-apps.md) для приложений Power BI.
 * Дополнительные типы вложений (PPTX, XLSX, DOCX, CSV, XML), доступные для подписок по электронной почте в отчетах с разбивкой на страницы.
-* [Комментирование](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) отчетов Power BI в службе.
+* [Комментирование](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) отчетов Power BI в службе.
 
 ### <a name="april-2019"></a>Апрель 2019 г.
 * Общедоступная версия [потоков данных](service-dataflows-overview.md) Power BI.
@@ -74,15 +73,15 @@ ms.locfileid: "73060991"
 * Новые возможности вопросов и ответов для панелей мониторинга.
 * Поддержка Azure Analysis Services в [отчетах с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
 * Отчеты с разбивкой на страницы, поддерживаемые в приложениях Power BI.
-* [Подписки по электронной почте](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) с вложениями PDF для отчетов с разбивкой на страницы.
+* [Подписки по электронной почте](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) с вложениями PDF для отчетов с разбивкой на страницы.
 * Сводка и метрики рабочей нагрузки Power BI Premium, поддерживаемые на портале администрирования
 * [Кэширование запросов](power-bi-query-caching.md), доступное в Power BI Premium.
-* Общедоступная версия [главной страницы Power BI](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
+* Общедоступная версия [главной страницы Power BI](https://powerbi.microsoft.com/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
 
 ### <a name="march-2019"></a>Март 2019 г.
 * Общедоступность поддержки нескольких регионов для Power BI Premium.
 * Поддержка изменения содержимого Power BI и управления им для Azure B2B.
-* Общедоступная предварительная версия [конечной точки XMLA](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) только для чтения.
+* Общедоступная предварительная версия [конечной точки XMLA](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) только для чтения.
 
 ### <a name="february-2019"></a>Февраль 2019
 * Метрики рабочих нагрузок и размера активного набора данных в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
@@ -90,20 +89,20 @@ ms.locfileid: "73060991"
 * [Подписки на рассылку по электронной почте по запросу](service-report-subscribe.md).
 * Массовые операции на портале администрирования.
 * Экспорт с фильтрацией для форматов PPT и PDF.
-* [Параметры справки и поддержки](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) на портале администрирования.
+* [Параметры справки и поддержки](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) на портале администрирования.
 * Журнал преобразований данных для [потоков данных](service-dataflows-overview.md).
 * Параметры сертифицированных пользовательских визуальных элементов на портале администрирования.
 
 ### <a name="january-2019"></a>Январь 2019 г.
 * [Внедрение безопасных отчетов Power BI](service-embed-secure.md) во внутренние порталы и веб-сайты.
 * Обновления для редактора [потоков данных](service-dataflows-overview.md): новые соединители и поддержка собственных запросов SQL и преобразований Power Query Online.
-* [Личные закладки](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/) в службе Power BI.
+* [Личные закладки](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) в службе Power BI.
 * Планирование рассылок по электронной почте на основе времени.
 
 ## <a name="2018"></a>2018
 ### <a name="december-2018"></a>Декабрь 2018 г.
-* [Рекомендуемые приложения](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/) на основе ИИ на главной странице Power BI.
-* [Управление рабочими областями на портале администрирования](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/).
+* [Рекомендуемые приложения](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/) на основе ИИ на главной странице Power BI.
+* [Управление рабочими областями на портале администрирования](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/).
 * Предварительный просмотр потоков данных Power BI и интеграция Azure Data Lake Storage 2-го поколения в [потоки данных](service-dataflows-overview.md).
 * Шаблоны решений Power BI преобразованы в ресурсы с открытым исходным кодом.
 
@@ -119,8 +118,8 @@ ms.locfileid: "73060991"
 
 ### <a name="september-2018"></a>Сентябрь 2018 г.
 * [Комментарии на панели мониторинга](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) в службе Power BI.
-* Общедоступная предварительная версия [главной страницы Power BI и глобального поиска](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
-* Возможность [отслеживать запросы](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) в [приложении мониторинга емкости](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Общедоступная предварительная версия [главной страницы Power BI и глобального поиска](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search/).
+* Возможность [отслеживать запросы](https://powerbi.microsoft.com/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) в [приложении мониторинга емкости](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="august-2018"></a>Август 2018 г.
 * [Приложение Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) (Мониторинг емкости) для Power BI Premium.
@@ -144,7 +143,7 @@ ms.locfileid: "73060991"
 * Рабочий процесс создания приглашения Azure B2B для отчетов.
 
 ### <a name="april-2018"></a>Апрель 2018 г.
-* [Технический документ по защите данных в Power BI](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [Технический документ по защите данных в Power BI](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * [Журналы аудита](service-admin-auditing.md) службы Power BI включены по умолчанию для клиента Office 365.
 
 ### <a name="march-2018"></a>Март 2018 г.
@@ -154,7 +153,7 @@ ms.locfileid: "73060991"
 ### <a name="february-2018"></a>Февраль 2018 г.
 * Автоматическая установка [приложений Power BI](service-create-distribute-apps.md) для конечных пользователей.
 * Емкости P4 и P5 в Power BI Premium.
-* Предварительная версия [пользовательских визуальных элементов организации](power-bi-custom-visuals-organization.md).
+* Предварительная версия [пользовательских визуальных элементов организации](developer/power-bi-custom-visuals-organization.md).
 
 ### <a name="january-2018"></a>Январь 2018 г.:
 *   предоставление общего доступа к отчетам Power BI и добавление их в "Избранное";
@@ -324,7 +323,6 @@ ms.locfileid: "73060991"
 
 ***Корпоративный выпуск***
 
-* [ExpressRoute](service-admin-power-bi-expressroute.md): используется для установки частного, управляемого подключения к Power BI.
 * [Поддержка пакета содержимого для RLS](service-admin-rls.md) (предварительная версия): если функция RLS определена для панелей мониторинга и отчетов, которые распространяются как часть пакета содержимого, для таких пакетов содержимого будут использоваться правила безопасности.
 
 ***Панели мониторинга***
@@ -436,7 +434,7 @@ ms.locfileid: "73060991"
 
 **6 января 2016 г.**
 
-За новогодние каникулы рабочая группа Power BI проделала много работы. Подробности см. в [блоге рабочей группы Power BI](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx).
+За новогодние каникулы рабочая группа Power BI проделала много работы. Подробности см. в [блоге рабочей группы Power BI](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx).
 
 ***Панели мониторинга***
 
@@ -471,12 +469,12 @@ ms.locfileid: "73060991"
 * Power BI в Бразилии
 * Поддержка иврита и арабского языка
 
-Подробности см. в [блоге рабочей группы Power BI](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx).
+Подробности см. в [блоге рабочей группы Power BI](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx).
 
 ## <a name="2015"></a>2015
 **16 декабря 2015 г.**
 
-На этой неделе вышло множество обновлений, большинство которых относятся к Power BI Desktop, однако присутствуют и несколько значимых обновлений для функции создания отчетов и визуализаций. [Блог рабочей группы Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx) содержит полные описания и даже видеоролик с описанием обновлений.   
+На этой неделе вышло множество обновлений, большинство которых относятся к Power BI Desktop, однако присутствуют и несколько значимых обновлений для функции создания отчетов и визуализаций. [Блог рабочей группы Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx) содержит полные описания и даже видеоролик с описанием обновлений.   
 
 [Скачивание Power BI Desktop](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
 
@@ -513,7 +511,7 @@ ms.locfileid: "73060991"
   6. Соединитель ODBC: возможность выбора пользовательских и системных имен DSN.
   7. Соединитель CSV: возможность задать разделитель столбцов в диалоговом окне Source (Источник).
 
-Дополнительные сведения, включая видео с демонстрацией многих обновлений, см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx).
+Дополнительные сведения, включая видео с демонстрацией многих обновлений, см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx).
 
 **10 декабря 2015 г.**
 
@@ -522,20 +520,20 @@ ms.locfileid: "73060991"
 * Использование изображений в срезах
 * Настройка взаимодействий между визуальными элементами отчета
   
-  Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx).
+  Все сведения см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx).
 
 **8 декабря 2015 г.**
 
-* [QR-коды в Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
+* [QR-коды в Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
 
 **3 декабря 2015 г.**
 
-* Автоматическое обнаружение трендов и выявление закономерностей в наборе данных с помощью быстрого анализа данных: [видео](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) или [статья](consumer/end-user-insights.md)
-* [Визуализация данных VMob в Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Интеграция Power BI с Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
-* [Предварительная версия корпоративного шлюза Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* Использование нового пакета содержимого: [поиск аналитики из Bing на панелях мониторинга Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx).
-* Новые улучшения для разработчиков: [два новых API и упрощенная процедура регистрации приложения](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx).
+* Автоматическое обнаружение трендов и выявление закономерностей в наборе данных с помощью быстрого анализа данных: [видео](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) или [статья](consumer/end-user-insights.md)
+* [Визуализация данных VMob в Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
+* [Интеграция Power BI с Cortana](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
+* [Предварительная версия корпоративного шлюза Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
+* Использование нового пакета содержимого: [поиск аналитики из Bing на панелях мониторинга Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx).
+* Новые улучшения для разработчиков: [два новых API и упрощенная процедура регистрации приложения](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx).
 
 **24 ноября 2015 г.**
 
@@ -547,7 +545,7 @@ ms.locfileid: "73060991"
 * Улучшенное взаимодействие с соединителем Google Analytics
 * Закрытие учетной записи Power BI
 
-Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx).
+Все сведения см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx).
 
 **18 ноября 2015 г.**
 
@@ -557,7 +555,7 @@ ms.locfileid: "73060991"
 * Улучшение взаимодействия при приглашении сотрудников из вашей организации в группы Power BI
 * Улучшенные сообщения об ошибках для плиток
 
-Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx).
+Все сведения см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx).
 
 **11 ноября 2015 г.**
 
@@ -567,7 +565,7 @@ ms.locfileid: "73060991"
 * Состояние работоспособности Power BI в Центре администрирования Microsoft 365
 * Ключевые показатели эффективности и изображения в таблицах, матрицах и картах
 
-Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx).
+Все сведения см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx).
 
 **3 ноября 2015 г.**
 
@@ -575,16 +573,16 @@ ms.locfileid: "73060991"
 * Пользователи могут покупки Power BI Pro.
 * Дублирующаяся страница отчета.
 
-Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx).
+Все сведения см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx).
 
 **28 октября 2015 г.**
 
 * Общий доступ к информационным панелям с помощью групп безопасности Active Directory
 * Выбор людей
 * Общий доступ с большим числом адресов электронной почты
-* Свертывание области навигации посредством параметризованного URL-адреса
+* Свертывание области навигации с помощью параметризованного URL-адреса
 
-Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx).
+Все сведения см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx).
 
 **20 октября 2015 г.**
 
@@ -592,7 +590,7 @@ ms.locfileid: "73060991"
 * Избранные вопросы в функции вопросов и ответов
 * Режим открытия в окне на весь экран для визуализаций отчета
 
-Все сведения см. в [блоге по Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx).
+Все сведения см. в [блоге по Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx).
 
 **13 октября 2015 г.**
 
@@ -603,7 +601,7 @@ ms.locfileid: "73060991"
 * Возможность просмотра источника для каждой плитки
 * Planview Enterprise — это комплексное решение для управления портфелем и ресурсами, которое позволяет соотносить реализуемые меры с принятой стратегией, что улучшает процесс принятия решений в масштабе всего предприятия. С помощью пакета содержимого Planview Enterprise для Power BI вы можете визуализировать данные об управлении ресурсами и работой совершенно новыми способами. Просто выполните вход с помощью своих учетных данных и начинайте интерактивно анализировать инвестиционные расходы по портфелю, состояние бюджета и то, насколько хорошо ваш проект согласуется с установленными приоритетами.
 
-Для получения дополнительных сведений см. наш [блог](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx) и [документацию](service-get-started.md).
+Для получения дополнительных сведений см. наш [блог](https://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx) и [документацию](service-get-started.md).
 
 **6 октября 2015 г.**
 
@@ -612,17 +610,17 @@ ms.locfileid: "73060991"
 * Мы добавили возможность отключения уведомлений по электронной почте при общем доступе к информационной панели. Просто снимите флажок Send email notification to recipients (Отправлять уведомления по электронной почте получателям) в диалоговом окне общего доступа Power BI. Вам будет предоставлен URL-адрес — скопируйте и перешлите его своим коллегам, чтобы предоставить им доступ к информационной панели.
 * Microsoft Dynamics NAV — это решение по управлению бизнесом для организаций малого и среднего размера. Оно предлагает клиентам полноценную систему, позволяющую более эффективно управлять финансами и бизнес-процессами. Пакет содержимого Power BI предоставляет готовые отчеты для пользователей Dynamics NAV, например о продажах и прибыли, канале возможных сделок, рентабельности и многом другом. Эти метрики упорядочены на информационной панели, которую можно настраивать, что позволяет легко подключать данные и оперативно анализировать их.
 
-Дополнительные сведения см. в [блоге](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx) и в [электронной документации](service-get-started.md).
+Дополнительные сведения см. в [блоге](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx) и в [электронной документации](service-get-started.md).
 
 **29 сентября 2015 г.**
 
 * После обновления службы, проведенного на этой неделе, при создании новых отчетов доступно несколько различных размеров страницы; кроме того, вы можете определить собственный размер страницы. Эта функция позволяет управлять размером и пропорциями каждой страницы отчета.
 * Мы добавили поддержку дополнительных возможностей форматирования визуальных элементов для изображений и пузырьковых диаграмм. Вы можете зафиксировать пропорции при изменении размера изображения, чтобы предотвратить его искажение, а для пузырьков точечной диаграммы можно настроить заполнение.
 * В настоящее время Power BI отправляет приглашения для общего доступа на запасной адрес электронной почты. Когда вам предоставляется информационная панель для общего доступа, мы отправим ссылку приглашения как на ваш исходный адрес электронной почты, так и на запасной адрес электронной почты (если он настроен).
-* Служба Power BI доступна всем пользователям, включая тех, кто использует архитектуру Dedicated on Multitenant (DonMT) Office 365. Вы будете использовать Power BI как общую службу в мультитенантном режиме. В большинстве случаев вы можете зарегистрироваться в Power BI, следуя простой [процедуре самостоятельной регистрации](https://powerbi.microsoft.com/), для начала работы достаточно ввести рабочий адрес электронной почты, имя и пароль. Будучи администратором клиента, вы можете назначать лицензии пользователям с помощью инструкций, приведенных [здесь](http://go.microsoft.com/fwlink/?LinkId=627174).
-* Журналы аудита Azure позволяют просматривать операционные журналы плоскости управления в подписке Azure. Пакет содержимого журналов аудита Power BI Azure позволяет легко анализировать и визуализировать множество разнообразных сведений, содержащихся в этих журналах. Этот пакет содержимого позволяет подключиться к данным и начать извлекать ценные сведения с помощью готовых информационных панелей и отчетов. Дополнительные сведения см. в нашем [блоге](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx) и в [электронной документации](service-connect-to-azure-audit-logs.md).
+* Служба Power BI доступна всем пользователям, включая тех, кто использует архитектуру Dedicated on Multitenant (DonMT) Office 365. Вы будете использовать Power BI как общую службу в мультитенантном режиме. В большинстве случаев вы можете зарегистрироваться в Power BI, следуя простой [процедуре самостоятельной регистрации](https://powerbi.microsoft.com/), для начала работы достаточно ввести рабочий адрес электронной почты, имя и пароль. Будучи администратором клиента, вы можете назначать лицензии пользователям с помощью инструкций, приведенных [здесь](https://go.microsoft.com/fwlink/?LinkId=627174).
+* Журналы аудита Azure позволяют просматривать операционные журналы плоскости управления в подписке Azure. Пакет содержимого журналов аудита Power BI Azure позволяет легко анализировать и визуализировать множество разнообразных сведений, содержащихся в этих журналах. Этот пакет содержимого позволяет подключиться к данным и начать извлекать ценные сведения с помощью готовых информационных панелей и отчетов. Дополнительные сведения см. в нашем [блоге](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx) и в [электронной документации](service-connect-to-azure-audit-logs.md).
 
-[Дополнительные сведения см. в нашем блоге](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)
+[Дополнительные сведения см. в нашем блоге](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)
 
 **22 сентября 2015 г.**
 
@@ -631,46 +629,46 @@ ms.locfileid: "73060991"
 * Мы добавили в Power BI пять дополнительных [отраслевых примеров](sample-datasets.md): "Рентабельность клиента", "Управление персоналом", "Анализ возможных сделок", "Анализ закупок и продаж", а также "Продажи и маркетинг".
 * Stripe — это многофункциональная платформа платежей для интернет-компаний. Тысячи компаний — от начинающих до включенных в список Fortune 500 — используют Stripe для приема платежей в более чем 130 валютах из всех частей земного шара. Подключив Power BI к имеющейся у вас учетной записи Stripe, вы сможете использовать [пакет содержимого Power BI Stripe для отслеживания, анализа и визуализации своей деятельности в Stripe](service-connect-to-stripe.md).
 
-[Дополнительные сведения см. в нашем блоге](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)
+[Дополнительные сведения см. в нашем блоге](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)
 
 **15 сентября 2015 г.**
 
 * Теперь можно выбрать, на какой панели мониторинга требуется закрепить визуальный элемент. Можно выбрать целевую панель мониторинга из существующих панелей или даже создать новую панель и закрепить на ней визуальный элемент в одно действие.
 * Кроме того, можно управлять цветами визуального элемента на панели мониторинга. Если в отчете используется тема, которая отличается от темы панели мониторинга, можно выбрать, сохранит ли визуальный элемент текущую тему или использует тему панели мониторинга по умолчанию для поддержания согласованности между визуальными элементами из разных источников.
 * Теперь можно просто закрепить плитку одной панели мониторинга на другой панели, аналогично тому, как вы закрепляете визуальный элемент отчета на панели мониторинга.
-* Если приближается дата истечения срока действия 60-дневного пробного периода Power BI Pro, вы можете [связаться с нами](http://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now) сейчас, чтобы запросить продление пробной версии. Если утверждение будет получено, срок действия пробной версии продлевается еще на 60 дней.
-* ComScore Digital Analytix — это интернет-решение, которое обеспечивает анализ пользовательской базы благодаря эффективной аналитике и демографическим данным об аудитории. С помощью пакета содержимого ComScore для Power BI можно быстро выполнить подключение и начать получать данные веб-аналитики. Этот пакет содержимого включает готовую панель мониторинга, набор отчетов и проверенный набор данных, помогающие исследовать и детализировать данные. Дополнительные сведения о пакете содержимого см. в нашем [блоге](http://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx) и [разделе справки](service-connect-to-connect-to.md). 
+* Если приближается дата истечения срока действия 60-дневного пробного периода Power BI Pro, вы можете [связаться с нами](https://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now) сейчас, чтобы запросить продление пробной версии. Если утверждение будет получено, срок действия пробной версии продлевается еще на 60 дней.
+* ComScore Digital Analytix — это интернет-решение, которое обеспечивает анализ пользовательской базы благодаря эффективной аналитике и демографическим данным об аудитории. С помощью пакета содержимого ComScore для Power BI можно быстро выполнить подключение и начать получать данные веб-аналитики. Этот пакет содержимого включает готовую панель мониторинга, набор отчетов и проверенный набор данных, помогающие исследовать и детализировать данные. Дополнительные сведения о пакете содержимого см. в нашем [блоге](https://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx) и [разделе справки](service-connect-to-connect-to.md). 
 
 **8 сентября 2015 г.**
 
 * Удобные гиперссылки теперь позволяют предоставлять ссылки для пользователей без необходимости отображать весь URL-адрес в текстовом поле.
 * Добавлена поддержка детализации для отчетов Power BI. Можно создать путь детализации, позволяющий пользователям переходить с одного уровня данных к связанным данным.
 * Добавлены два новых примера по отраслям: "Анализ расходов на ИТ" и "Анализ качества поставщика" в разделе примеров меню "Получить данные". Эти примеры служат для демонстрации того, как можно использовать данные для создания полезных отчетов и панелей мониторинга.
-* Добавлен новый пакет содержимого для tyGraph, который позволяет легко анализировать данные Yammer. Пакет содержимого включает панель мониторинга, набор отчетов и проверенный набор данных для просмотра и анализа данных, например меры активного участия (оценка MAE) и метрик потребления содержимого, таких как "Просмотров файла" и "Скачиваний файла". Дополнительные сведения см. в нашем [блоге](http://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx) и [разделе справки](service-connect-to-tygraph.md).
+* Добавлен новый пакет содержимого для tyGraph, который позволяет легко анализировать данные Yammer. Пакет содержимого включает панель мониторинга, набор отчетов и проверенный набор данных для просмотра и анализа данных, например меры активного участия (оценка MAE) и метрик потребления содержимого, таких как "Просмотров файла" и "Скачиваний файла". Дополнительные сведения см. в нашем [блоге](https://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx) и [разделе справки](service-connect-to-tygraph.md).
 
 **1 сентября 2015 г.**
 
-* Компонент Webtrends помогает организациям анализировать данные клиентов для повышения успешности кампаний цифрового маркетинга. Пользователи могут наблюдать, анализировать и создавать аналитические отчеты о перемещении посетителей по веб-страницам, социальным, мобильным каналам и каналам SharePoint. Благодаря выпуску [пакета содержимого Webtrends](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) пользователи получают возможность использовать Power BI для отслеживания, анализа и визуализации данных аналитики Webtrends. Дополнительные сведения можно найти на [странице справки](service-connect-to-webtrends.md) пакета содержимого Webtrends для Power BI.
+* Компонент Webtrends помогает организациям анализировать данные клиентов для повышения успешности кампаний цифрового маркетинга. Пользователи могут наблюдать, анализировать и создавать аналитические отчеты о перемещении посетителей по веб-страницам, социальным, мобильным каналам и каналам SharePoint. Благодаря выпуску [пакета содержимого Webtrends](https://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) пользователи получают возможность использовать Power BI для отслеживания, анализа и визуализации данных аналитики Webtrends. Дополнительные сведения можно найти на [странице справки](service-connect-to-webtrends.md) пакета содержимого Webtrends для Power BI.
 * Начать работать с функцией "Вопросы и ответы" стало еще проще. В тот момент, когда вы помещаете курсор в текстовое поле вопросов и ответов, сразу выводится список вопросов и ключевых показателей, имеющих отношение к вашим данным.  В раскрывающемся списке по умолчанию отображаются вопросы для плиток, уже закрепленных на панели мониторинга, а также запись для каждой таблицы в наборе данных.
 * Отображаемый по умолчанию размер динамического холста позволяет вывести все элементы отчета с оптимальными размерами для окна браузера. Если требуется зафиксировать соотношение сторон или вписать отчет в экран иным образом, теперь поддерживается три режима: "Вписать в страницу", "Подогнать по ширине" и "Фактический размер".
 * Кроме того, мы расширили ограничение на количество создаваемых наборов данных и отчетов. Теперь учетная запись Power BI может иметь до 200 наборов данных и 200 отчетов для каждого набора данных.
 
 **18 августа 2015 г.**
 
-* Службы мобильного взаимодействия Azure — это служба анализа приложений, которая позволяет разработчикам отслеживать производительность приложений, помогая расширить распространение и использование приложения. Используя [пакет содержимого Служб мобильного взаимодействия Azure для Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx), можно быстро подключиться к готовой панели мониторинга, набору отчетов и проверенному набору данных и мгновенно понять, насколько хорошо работает приложение. Дополнительные сведения см. на [странице справки пакета содержимого Служб мобильного взаимодействия Azure для Power BI](service-connect-to-azure-mobile.md).
+* Службы мобильного взаимодействия Azure — это служба анализа приложений, которая позволяет разработчикам отслеживать производительность приложений, помогая расширить распространение и использование приложения. Используя [пакет содержимого Служб мобильного взаимодействия Azure для Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx), можно быстро подключиться к готовой панели мониторинга, набору отчетов и проверенному набору данных и мгновенно понять, насколько хорошо работает приложение. Дополнительные сведения см. на [странице справки пакета содержимого Служб мобильного взаимодействия Azure для Power BI](service-connect-to-azure-mobile.md).
 
 **11 августа 2015 г.**
 
-* Mandrill — это служба инфраструктуры электронной почты, разработанная компанией MailChimp, которая позволяет анализировать рекламные кампании, проводимые по электронной почте, на основе разнообразной информации. Используя [пакет содержимого Mandrill для Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx), можно быстро подключиться к данным Mandrill и проанализировать кампанию рассылки или маркетинговую кампанию. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Mandrill для Power BI](service-connect-to-mandrill.md).
+* Mandrill — это служба инфраструктуры электронной почты, разработанная компанией MailChimp, которая позволяет анализировать рекламные кампании, проводимые по электронной почте, на основе разнообразной информации. Используя [пакет содержимого Mandrill для Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx), можно быстро подключиться к данным Mandrill и проанализировать кампанию рассылки или маркетинговую кампанию. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Mandrill для Power BI](service-connect-to-mandrill.md).
 
 **4 августа 2015 г.**
 
-* Power BI теперь дает пользователям [Circuit ID](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) возможность отслеживать все облачные службы связи Circuit ID, позволяя принимать правильные бизнес-решения. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Circuit ID для Power BI](service-connect-to-circuit-id.md).
-* Мы выпустили улучшение для функции "Общий доступ к панели мониторинга", чтобы сделать работу с ней еще проще.  Если ваша организация использует Office 365 для электронной почты, вы можете [предоставить совместный доступ группе рассылки электронной почты](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx) аналогично тому, как вы отправляете сообщение электронной почты в Outlook.  Просто введите адрес группы рассылки и нажмите кнопку "Общий доступ".  Все члены группы рассылки получат по электронной почте приглашение для просмотра панели мониторинга.
+* Power BI теперь дает пользователям [Circuit ID](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) возможность отслеживать все облачные службы связи Circuit ID, позволяя принимать правильные бизнес-решения. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Circuit ID для Power BI](service-connect-to-circuit-id.md).
+* Мы выпустили улучшение для функции "Общий доступ к панели мониторинга", чтобы сделать работу с ней еще проще.  Если ваша организация использует Office 365 для электронной почты, вы можете [предоставить совместный доступ группе рассылки электронной почты](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx) аналогично тому, как вы отправляете сообщение электронной почты в Outlook.  Просто введите адрес группы рассылки и нажмите кнопку "Общий доступ".  Все члены группы рассылки получат по электронной почте приглашение для просмотра панели мониторинга.
 
 **28 июля 2015 г.**
 
-* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания производительности базы данных с помощью [пакета содержимого SQL Sentry](http://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Этот пакет содержимого включает панель мониторинга и отчеты, которые помогают наблюдать за развертываниями SQL Server, отслеживаемыми с помощью облачной службы SQL Sentry. Дополнительные сведения о начале работы см. на [странице справки](service-connect-to-sql-sentry.md) пакета содержимого SQL Sentry для Power BI.
+* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания производительности базы данных с помощью [пакета содержимого SQL Sentry](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Этот пакет содержимого включает панель мониторинга и отчеты, которые помогают наблюдать за развертываниями SQL Server, отслеживаемыми с помощью облачной службы SQL Sentry. Дополнительные сведения о начале работы см. на [странице справки](service-connect-to-sql-sentry.md) пакета содержимого SQL Sentry для Power BI.
 
 **24 июля 2015 г.**
 
@@ -681,47 +679,47 @@ ms.locfileid: "73060991"
 * [Перенос файлов Excel полностью](service-excel-workbook-files.md): любую книгу Excel, хранящуюся в среде OneDrive для бизнеса, можно перенести в Power BI и просмотреть ее целиком точно так же, как она отображается в Excel Online.
 * [Перенос в CSV-файлах](service-get-data-from-files.md): как и файлы Excel или Power BI Desktop, текстовые CSV-файлы можно использовать в качестве наборов данных для панелей мониторинга и отчетов Power BI.
 * Замена файлов Excel, Power BI Desktop и CSV-файлов: вы можете отправить обновленную версию файла в Power BI, и она заменит существующий набор данных. Все отчеты и панели мониторинга, подключенные к этому набору данных, автоматически будут использовать новую версию.
-* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания рабочих элементов в [пакете содержимого Visual Studio Online](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Это обновление включает новую панель мониторинга, отчет и обновленный набор данных, обеспечивающие важные сведения о рабочих элементах, а также важные метрики, связанные с репозиторием Git, запросами на включение внесенных изменений и содержимым управления версиями, включенным в первоначальную версию. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Visual Studio Online для Power BI](service-connect-to-quickbooks-online.md).
+* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания рабочих элементов в [пакете содержимого Visual Studio Online](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Это обновление включает новую панель мониторинга, отчет и обновленный набор данных, обеспечивающие важные сведения о рабочих элементах, а также важные метрики, связанные с репозиторием Git, запросами на включение внесенных изменений и содержимым управления версиями, включенным в первоначальную версию. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Visual Studio Online для Power BI](service-connect-to-quickbooks-online.md).
 
 **14 июля 2015 г.**
 
-* Acumatica Cloud ERP предоставляет набор полностью интегрированных приложений управления бизнесом (финансы, распределение, CRM и учет проектов) на базе надежной и гибкой платформы. Используя [пакет содержимого Acumatica](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx) для Power BI, вы можете быстро выполнить подключение и приступить к анализу данных возможностей. Этот пакет содержимого включает готовую панель мониторинга, набор отчетов и проверенный набор данных для просмотра и предоставления таких сведений, как общее число завершенных возможных сделок по дате. Дополнительные сведения см. [здесь](service-connect-to-acumatica.md). 
-* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) теперь предлагает полностью управляемую службу Spark. Эта функция позволяет реализовывать такие сценарии, как итеративное машинное обучение и интерактивный анализ данных. Power BI позволяет напрямую подключаться к данным Spark в среде HDInsight, обеспечивая удобный и динамический просмотр. Дополнительные сведения см. в [справочной документации](spark-on-hdinsight-with-direct-connect.md).
-* [Интеграция программы запуска приложений и навигации Office 365](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher). Одним щелчком мыши теперь можно переходить ко всем приложениям Office 365.
-* [Указание настраиваемого URL-адреса](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url), по которому будут переходить пользователи при щелчке плитки. Теперь вы можете точно указывать, куда будут переходить пользователи: к конкретному отчету, другой панели мониторинга, отчету SSRS или на внешний веб-сайт. 
-* [Видимость и управление хранилищем](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage), используемым в Power BI
-* [Настройка визуального элемента и полей, отображаемых в функции "Вопросы и ответы"](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
+* Acumatica Cloud ERP предоставляет набор полностью интегрированных приложений управления бизнесом (финансы, распределение, CRM и учет проектов) на базе надежной и гибкой платформы. Используя [пакет содержимого Acumatica](https://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx) для Power BI, вы можете быстро выполнить подключение и приступить к анализу данных возможностей. Этот пакет содержимого включает готовую панель мониторинга, набор отчетов и проверенный набор данных для просмотра и предоставления таких сведений, как общее число завершенных возможных сделок по дате. Дополнительные сведения см. [здесь](service-connect-to-acumatica.md). 
+* [Azure HDInsight](https://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) теперь предлагает полностью управляемую службу Spark. Эта функция позволяет реализовывать такие сценарии, как итеративное машинное обучение и интерактивный анализ данных. Power BI позволяет напрямую подключаться к данным Spark в среде HDInsight, обеспечивая удобный и динамический просмотр. Дополнительные сведения см. в [справочной документации](spark-on-hdinsight-with-direct-connect.md).
+* [Интеграция программы запуска приложений и навигации Office 365](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher). Одним щелчком мыши теперь можно переходить ко всем приложениям Office 365.
+* [Указание настраиваемого URL-адреса](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url), по которому будут переходить пользователи при щелчке плитки. Теперь вы можете точно указывать, куда будут переходить пользователи: к конкретному отчету, другой панели мониторинга, отчету SSRS или на внешний веб-сайт. 
+* [Видимость и управление хранилищем](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage), используемым в Power BI
+* [Настройка визуального элемента и полей, отображаемых в функции "Вопросы и ответы"](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
 
 **7 июля 2015 г.**
 
-* Доступна одна из наиболее ожидаемых и востребованных функций в Power BI. Теперь в Power BI можно [обновлять наборы данных](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx), подключенные к локальным источникам, таким как SQL Server. Можно обновить набор данных, созданный из файла Power BI Designer или книги Excel, используя данные, импортированные в книгу с помощью Power Query и Power Pivot. 
+* Доступна одна из наиболее ожидаемых и востребованных функций в Power BI. Теперь в Power BI можно [обновлять наборы данных](https://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx), подключенные к локальным источникам, таким как SQL Server. Можно обновить набор данных, созданный из файла Power BI Designer или книги Excel, используя данные, импортированные в книгу с помощью Power Query и Power Pivot. 
 
 **30 июня 2015 г.**
 
-* Мы выпустили новый [пакет содержимого UserVoice для Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx), который позволяет отслеживать и визуализировать данные UserVoice и сразу же получать важные сведения на их основе благодаря готовой панели мониторинга и отчету.
+* Мы выпустили новый [пакет содержимого UserVoice для Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx), который позволяет отслеживать и визуализировать данные UserVoice и сразу же получать важные сведения на их основе благодаря готовой панели мониторинга и отчету.
 
 **23 июня 2015 г.**
 
-* Файлы Power BI Desktop можно [обновлять](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) (запланированное или немедленное обновление) при отправке в службу Power BI.
-* Мы реализуем самое большое визуальное изменение в Power BI с декабря: более простую и понятную среду работы с функцией [получения данных](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx).  При щелчке меню "Получить данные" открывается один экран с набором категорий для выбора. Это значительно упрощает поиск важного содержимого.
-* [Хранилище данных SQL Azure](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) обеспечивает гибкое масштабирование и параллельную обработку больших объемов данных. В рамках ограниченной общедоступной предварительной версии, о которой объявлено сегодня, Power BI позволяет напрямую подключаться к данным в хранилище данных SQL Azure, обеспечивая простой и динамический просмотр. После создания подключения к хранилищу данных запросы создаются в режиме реального времени и отправляются обратно в источник по мере просмотра данных. Это избавляет от необходимости создавать и передавать настраиваемые модели данных и обеспечивает интерактивный просмотр данных.
+* Файлы Power BI Desktop можно [обновлять](https://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) (запланированное или немедленное обновление) при отправке в службу Power BI.
+* Мы реализуем самое большое визуальное изменение в Power BI с декабря: более простую и понятную среду работы с функцией [получения данных](https://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx).  При щелчке меню "Получить данные" открывается один экран с набором категорий для выбора. Это значительно упрощает поиск важного содержимого.
+* [Хранилище данных SQL Azure](https://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) обеспечивает гибкое масштабирование и параллельную обработку больших объемов данных. В рамках ограниченной общедоступной предварительной версии, о которой объявлено сегодня, Power BI позволяет напрямую подключаться к данным в хранилище данных SQL Azure, обеспечивая простой и динамический просмотр. После создания подключения к хранилищу данных запросы создаются в режиме реального времени и отправляются обратно в источник по мере просмотра данных. Это избавляет от необходимости создавать и передавать настраиваемые модели данных и обеспечивает интерактивный просмотр данных.
 
 **16 июня 2015 г.**
 
-* SweetIQ позволяет легко отслеживать локальные списки, предоставляя расположение и возможность просмотра данных из локальной экосистемы поиска. Power BI позволяет анализировать и отслеживать эти данные, обеспечивая [готовое содержимое](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx) на основе данных SweetIQ. Дополнительные сведения о начале работы см. на [странице справки](service-connect-to-sweetiq.md) пакета содержимого SweetIQ для Power BI.
+* SweetIQ позволяет легко отслеживать локальные списки, предоставляя расположение и возможность просмотра данных из локальной экосистемы поиска. Power BI позволяет анализировать и отслеживать эти данные, обеспечивая [готовое содержимое](https://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx) на основе данных SweetIQ. Дополнительные сведения о начале работы см. на [странице справки](service-connect-to-sweetiq.md) пакета содержимого SweetIQ для Power BI.
 
 **2 июня 2015 г.**
 
-* Отслеживание важной статистики о приложениях стало проще благодаря Power BI и [пакету содержимого appFigures](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx). Дополнительные сведения о подключении и начале работы см. в [документации](service-connect-to-appfigures.md) пакета содержимого appFigures для Power BI.
+* Отслеживание важной статистики о приложениях стало проще благодаря Power BI и [пакету содержимого appFigures](https://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx). Дополнительные сведения о подключении и начале работы см. в [документации](service-connect-to-appfigures.md) пакета содержимого appFigures для Power BI.
 
 **28 мая 2015 г.**
 
-* Быстрый анализ данных учетной записи QuickBooks Online стал возможен благодаря нашему [пакету содержимого](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx). Дополнительные сведения о подключении и начале работы см. в [документации](service-connect-to-quickbooks-online.md) пакета содержимого QuickBooks Online для Power BI.
+* Быстрый анализ данных учетной записи QuickBooks Online стал возможен благодаря нашему [пакету содержимого](https://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx). Дополнительные сведения о подключении и начале работы см. в [документации](service-connect-to-quickbooks-online.md) пакета содержимого QuickBooks Online для Power BI.
 
 
 **13 мая 2015 г.**
 
-* Вы можете подключиться непосредственно к данным, хранящимся в **базе данных SQL Azure**. Запросы динамически создаются и отправляются в источник, что позволяет создавать интерактивные отчеты непосредственно через базу данных. Дополнительные сведения см. в этой [публикации блога](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx) и в [документации](service-azure-sql-database-with-direct-connect.md).
+* Вы можете подключиться непосредственно к данным, хранящимся в **базе данных SQL Azure**. Запросы динамически создаются и отправляются в источник, что позволяет создавать интерактивные отчеты непосредственно через базу данных. Дополнительные сведения см. в этой [публикации блога](https://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx) и в [документации](service-azure-sql-database-with-direct-connect.md).
 
 **7 мая 2015 г.**
 
@@ -729,15 +727,15 @@ ms.locfileid: "73060991"
 
 **28 апреля 2015 г.**
 
-* Служба Power BI теперь доступна на **44 языках**. Полный список см. в этой [публикации блога](http://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx).
+* Служба Power BI теперь доступна на **44 языках**. Полный список см. в этой [публикации блога](https://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx).
 
 **23 апреля 2015 г.**
 
-* Благодаря новому пакету содержимого стали доступны визуализация и просмотр данных **Microsoft Dynamics Marketing**. Дополнительные сведения см. в нашей [записи блога](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx).
+* Благодаря новому пакету содержимого стали доступны визуализация и просмотр данных **Microsoft Dynamics Marketing**. Дополнительные сведения см. в нашей [записи блога](https://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx).
 
 **15 апреля 2015 г.**
 
-* Благодаря новому пакету содержимого стали доступны визуализация и просмотр данных **Google Analytics**. Используя пакет содержимого Google Analytics, вы получаете панель мониторинга, отчет и набор данных, позволяющие получить важные сведения об использовании сайта за последние шесть месяцев. Вы можете прочитать [нашу запись блога](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
+* Благодаря новому пакету содержимого стали доступны визуализация и просмотр данных **Google Analytics**. Используя пакет содержимого Google Analytics, вы получаете панель мониторинга, отчет и набор данных, позволяющие получить важные сведения об использовании сайта за последние шесть месяцев. Вы можете прочитать [нашу запись блога](https://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
 * Теперь можно **закреплять все карточки**, кроме содержащих ключевые показатели эффективности и изображения, из функции "Вопросы и ответы" и из отчетов.
 * **В функции "Вопросы и ответы" теперь можно использовать карточки**, добавив фразу "как карточка" в конце запроса.
 
@@ -765,5 +763,5 @@ ms.locfileid: "73060991"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что такое Power BI?](fundamentals/power-bi-overview.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

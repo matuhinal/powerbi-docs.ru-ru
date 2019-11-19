@@ -1,20 +1,19 @@
 ---
 title: Регистрация приложения для внедрения содержимого Power BI
 description: Узнайте, как зарегистрировать приложение в Azure Active Directory для использования внедренного содержимого Power BI.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269796"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009799"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Регистрация приложения Azure AD для использования с Power BI
 
@@ -105,7 +104,7 @@ ms.locfileid: "61269796"
 
 ### <a name="using-the-azure-ad-portal"></a>Применение разрешений на портале Azure AD
 
-1. На портале Azure перейдите к колонке [Регистрация приложений](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) и выберите приложение, используемое для внедрения.
+1. На портале Azure перейдите к колонке [Регистрация приложений](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) и выберите приложение, используемое для внедрения.
 
 2. В разделе **Управление** выберите **Разрешения API**.
 
@@ -147,7 +146,7 @@ ms.locfileid: "61269796"
    Значением **consentType** может быть **AllPrincipals** или **Principal**.
 
    * Значение **AllPrincipals** может использовать только администратор клиента для предоставления разрешений от имени всех пользователей в клиенте.
-   * Значение **Principal** используется для предоставления разрешений от имени определенного пользователя. В этом случае в текст запроса следует добавить дополнительное свойство: *principalId={User_ObjectId}*.
+   * Значение **Principal** используется для предоставления разрешений от имени определенного пользователя. В этом случае в текст запроса следует добавить дополнительное свойство: *principalId={User_ObjectId}* .
 
      Действие *Предоставить разрешения* требуется для того, чтобы главная учетная запись не получала запросы подтверждения из Azure AD, что невозможно при неинтерактивном входе в систему.
 
@@ -177,7 +176,7 @@ ms.locfileid: "61269796"
    Значением **consentType** может быть **AllPrincipals** или **Principal**.
 
    * Значение **AllPrincipals** может использовать только администратор клиента для предоставления разрешений всем пользователям в клиенте.
-   * Значение **Principal** используется для предоставления разрешений определенному пользователю. В этом случае в текст запроса следует добавить дополнительное свойство: *principalId={User_ObjectId}*.
+   * Значение **Principal** используется для предоставления разрешений определенному пользователю. В этом случае в текст запроса следует добавить дополнительное свойство: *principalId={User_ObjectId}* .
 
    Действие *Предоставить разрешения* требуется для того, чтобы главная учетная запись не получала запросы подтверждения из Azure AD, что невозможно при неинтерактивном входе в систему.
 
@@ -199,4 +198,4 @@ ms.locfileid: "61269796"
 
 После регистрации приложения в Azure AD необходимо выполнить проверку подлинности пользователей в приложении. Дополнительные сведения см. в статье [Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI](get-azuread-access-token.md).
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

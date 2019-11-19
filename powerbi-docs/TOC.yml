@@ -513,7 +513,7 @@
               href: service-interruption-notifications.md
         - name: Расширение Power BI
           items:
-            - name: "Microsoft Flow и Power\_BI"
+            - name: "Power Automate и Power\_BI"
               href: service-flow-integration.md
             - name: Использование сторонних приложений
               href: service-power-bi-get-started-third-party-apps.md

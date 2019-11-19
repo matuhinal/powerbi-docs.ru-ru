@@ -2,26 +2,25 @@
 title: Типы визуализаций в Power BI
 description: Типы визуализаций в Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775992"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099941"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
 Постепенно мы будем добавлять новые визуализации, следите за обновлениями!
 
-Перейдите в [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), где находится постоянно пополняющийся список [ пользовательских визуальных элементов](../power-bi-custom-visuals.md), которые можно скачать и использовать в своих панелях мониторинга и отчетах. Чувствуете творческий порыв? [Узнайте, как создавать свои собственные визуальные элементы и добавлять их на сайт сообщества](../developer/office-store.md).  
+Перейдите в [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), где находится постоянно пополняющийся список [ пользовательских визуальных элементов](../developer/power-bi-custom-visuals.md), которые можно скачать и использовать в своих панелях мониторинга и отчетах. Чувствуете творческий порыв? [Узнайте, как создавать свои собственные визуальные элементы и добавлять их на сайт сообщества](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Список визуализаций, доступных в Power BI
 Все эти представления могут быть добавлены в отчеты Power BI, указанные в вопросах и ответах, и закреплены на панелях мониторинга.
@@ -226,8 +225,8 @@ ms.locfileid: "72775992"
 
 "***продажи по штатам в виде плоского дерева***"
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Поле "Вопросы и ответы" с указанным типом визуализации](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Визуализации в Power BI](power-bi-report-visualizations.md)    
-[THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)
+[THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)

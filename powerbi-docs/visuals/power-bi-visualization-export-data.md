@@ -3,24 +3,24 @@ title: Экспорт данных из визуализации Power BI
 description: Экспортируйте данные из визуализаций отчетов и панелей мониторинга и просматривайте их в Excel.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431091"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060458"
 ---
 # <a name="export-data-from-visualizations"></a>Экспорт данных из визуализаций
 
-Чтобы просмотреть данные, которые Power BI использует для создания визуализации, [откройте их в Power BI](service-reports-show-data.md). Вы также можете экспортировать данные в Excel в виде файла *XLSX* или *CSV*. Для экспорта данных требуется лицензия Pro или Premium и права на редактирование набора данных и отчета.
+Чтобы просмотреть данные, которые Power BI использует для создания визуализации, [откройте их в Power BI](service-reports-show-data.md). Вы также можете экспортировать данные в Excel в виде файла *XLSX* или *CSV*. Для экспорта данных требуется лицензия Pro или Premium и права на редактирование набора данных и отчета. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Просмотрите видео, в котором показан экспорт данных из визуализации в отчете и сохранение их в файл *XLSX* с последующим просмотром в Excel. Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео.
 
@@ -152,7 +152,7 @@ ms.locfileid: "73431091"
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 Эти ограничения и рекомендации применяются к Power BI Desktop и службе Power BI, включая Power BI Pro и Premium.
 
-- Чтобы экспортировать данные из визуального элемента, вам нужно иметь [разрешение на сборку для базового набора данных](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
+- Чтобы экспортировать данные из визуального элемента, вам нужно иметь [разрешение на сборку для базового набора данных](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
 
 -  Максимальное число строк, которые **Power BI Desktop** и **служба Power BI** могут экспортировать из **отчета режима импорта** в файл *CSV*, составляет 30 000.
 
@@ -160,11 +160,9 @@ ms.locfileid: "73431091"
 
 - Экспорт с использованием *базовых данных* не будет выполняться, если:
 
-  - источник данных — это активное подключение к службам Analysis Services;
+  - используется более ранняя версия, чем версия 2016;
 
-  - версия старше 2016;
-
-  - для таблиц в модели не существует уникального ключа;
+  - для таблиц в модели нет уникального ключа;
     
   -  администратор или конструктор отчетов отключил эту функцию.
 
@@ -196,4 +194,4 @@ ms.locfileid: "73431091"
 
 - Администраторы Power BI могут отключить экспорт данных.
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
