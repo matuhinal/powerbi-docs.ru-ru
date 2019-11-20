@@ -142,7 +142,7 @@
               href: register-app.md
             - name: Получение токена доступа Azure AD
               href: get-azuread-access-token.md
-            - name: Динамическая привязка
+            - name: Подключение отчета с помощью динамической привязки
               href: embed-dynamic-binding.md
             - name: Внедрение функции "Вопросы и ответы"
               href: qanda.md

@@ -2,25 +2,24 @@
 title: Подключение к используемым службам с помощью Power BI
 description: Подключайтесь ко многим службам, используемым для обеспечения работы вашей организации, таким как Salesforce, Microsoft Dynamics CRM и Google Analytics.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160008"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925830"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Подключение к используемым службам с помощью Power BI
 С помощью Power BI вы можете подключаться ко многим службам, используемым для обеспечения работы вашей организации, таким как Salesforce, Microsoft Dynamics и Google Analytics. Power BI сначала подключается к службе с помощью ваших учетных данных. Затем Power BI создает *рабочую область* с панелью мониторинга и набором отчетов Power BI, которые автоматически представляют ваши данные и выводят сведения о вашем бизнесе в визуальной форме.
 
 >[!IMPORTANT]
->25 сентября 2019 г. несколько пакетов содержимого будут объявлены устаревшими. Любой пакет содержимого продолжит работать, но вы не сможете установить новый после указанного срока. Пакеты содержимого служб заменяются [приложениями-шаблонами](https://docs.microsoft.com/power-bi/service-template-apps-overview).
+>Пакеты содержимого службы заменяются на [приложения-шаблоны](https://docs.microsoft.com/power-bi/service-template-apps-overview). По состоянию на 25 сентября 2019 г. несколько пакетов содержимого уже устарели. Все устаревшие пакеты содержимого, которые вы установили, останутся в вашей учетной записи, но для них не будет предоставляться документация или поддержка и установить их снова будет невозможно.
 
 Войдите в Power BI, чтобы просмотреть все [службы, к которым можно подключиться](https://app.powerbi.com/getdata/services). 
 
@@ -36,7 +35,7 @@ ms.locfileid: "70160008"
 ## <a name="edit-the-dashboard-and-reports"></a>Изменение панели мониторинга и отчетов
 По завершении импорта на странице приложений появится новое приложение.
 
-1. На панели навигации слева щелкните **Приложения** и выберите приложение.
+1. В области навигации щелкните **Приложения** и выберите нужное приложение.
    
      ![Страница "Приложения"](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. Вы можете задать вопрос, введя его в поле вопросов и ответов, или щелкнуть плитку, чтобы открыть базовый отчет. 
@@ -71,6 +70,6 @@ ms.locfileid: "70160008"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Распространение приложений среди коллег](service-create-distribute-apps.md)
 * [Create the new workspaces in Power BI](service-create-the-new-workspaces.md) (Создание рабочих областей новой версии в Power BI)
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
-* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](http://community.powerbi.com/)
+* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+* Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 
