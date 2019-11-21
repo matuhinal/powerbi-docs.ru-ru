@@ -279,8 +279,6 @@
               href: desktop-slicer-filter-date-range.md
             - name: Создание элемента "Срез" с возможностью изменения размера
               href: power-bi-slicer-filter-responsive.md
-            - name: Создание пользовательских карт ответов Кортаны
-              href: service-cortana-answer-cards.md
             - name: Защита на уровне строк
               href: desktop-rls.md
             - name: Настройка подсказок
@@ -665,10 +663,6 @@
               href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
             - name: Использование функции "Вопросы и ответы" для активных подключений
               href: service-q-and-a-direct-query.md
-            - name: Общие сведения о Cortana для Power BI
-              href: service-cortana-intro.md
-            - name: Включение Cortana для Power BI
-              href: service-cortana-enable.md
             - name: Быстрый анализ данных в Power BI
               href: service-insights.md
             - name: "Оптимизация данных для Краткой\_аналитики"
@@ -801,8 +795,6 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: Ошибка Не найдены данные в книге Excel
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: Устранение неполадок Cortana
-              href: service-cortana-troubleshoot.md
             - name: Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
               href: service-refresh-xero-credentials.md
         - name: Другие задачи

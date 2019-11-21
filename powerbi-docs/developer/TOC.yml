@@ -44,7 +44,7 @@
             - name: Публикация настраиваемых визуальных элементов в AppSource
               href: office-store.md
             - name: "Использование пользовательских визуализаций на основе R в Power\_BI"
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: Взаимодействие с визуальными элементами
               href: visuals/visuals-interactions.md
             - name: Добавление выбора
