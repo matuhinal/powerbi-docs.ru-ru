@@ -407,6 +407,8 @@
       items:
         - name: Типы данных в Power BI Desktop
           href: desktop-data-types.md
+        - name: "Источники данных Power\_BI"
+          href: power-bi-data-sources.md
         - name: "Использование обновленной ленты в Power\_BI\_Desktop (предварительная версия)"
           href: desktop-ribbon.md
         - name: "Сочетания клавиш редактора формул для Power\_BI Desktop"
