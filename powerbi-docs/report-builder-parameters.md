@@ -3,18 +3,18 @@ title: Параметры отчета в построителе отчетов 
 description: Этот раздел описывает распространенные варианты применения для параметров отчета построителя отчетов с разбивкой на страницы Power BI, свойства, которые можно задать, и многое другое.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840540"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128426"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Параметры отчета в построителе отчетов Power BI
 
@@ -65,7 +65,7 @@ ms.locfileid: "66840540"
   
  Добавьте запрос набора данных, который содержит переменные или хранимую процедуру набора данных, содержащую входные параметры. Параметр набора данных создается для каждой переменной или каждого входного параметра, а параметр отчета создается для каждого параметра набора данных.  
   
-![Свойства набора данных для параметров построителя отчетов](media/report-builder-parameters/report-builder-parameter-dataset.png "Свойства набора данных для параметров построителя отчетов")
+![Свойства набора данных параметра в построителе отчетов](media/report-builder-parameters/report-builder-parameter-dataset.png "Свойства набора данных параметра в построителе отчетов")
 
   
  На этом изображении из построителя отчетов показаны следующие элементы:  

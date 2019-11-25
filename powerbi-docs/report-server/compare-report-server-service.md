@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 4bc43f6b5a56ef764c61919bc05cb72c25e0e4ca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874259"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128298"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -51,7 +51,7 @@ ms.locfileid: "73874259"
 | Расширенные возможности совместной работы Office 365 | Нет | Да | [Совместная работа в рабочей области](../service-collaborate-power-bi-workspace.md) с Office 365 |
 | Визуальные элементы R | Нет | Да | [Создание визуальных элементов R](../desktop-r-visuals.md) в Power BI Desktop и публикация их в службе Power BI. Отчеты Power BI с визуальными элементами R не поддерживают сохранение на сервере отчетов Power BI.  |
 | Функции предварительной версии | Нет | Да | [Включение предварительных версий функций Power BI](../consumer/end-user-preview-features.md) |
-| Настраиваемые визуальные элементы | Да | Да | [Пользовательские визуальные элементы в Power BI](../power-bi-custom-visuals.md) |
+| Настраиваемые визуальные элементы | Да | Да | [Пользовательские визуальные элементы в Power BI](../developer/power-bi-custom-visuals.md) |
 | Составные модели | Нет | Да |
 | Power BI Desktop | Версия, оптимизированная для сервера отчетов, доступна для скачивания вместе с сервером отчетов | Версия, оптимизированная для службы Power BI, доступна в Windows Store | [Power BI Desktop для сервера отчетов](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop для службы Power BI](https://aka.ms/pbidesktopstore) |
 
