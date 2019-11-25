@@ -1,19 +1,19 @@
 ---
 title: Свойства набора данных Power BI
 description: Дополнительные сведения об API-интерфейсах свойств набора данных Power BI
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: b0fabcb5915a4f642abc1af03979a4597e2aa2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9d0ab5bcffe3b0267b3e07a684c2c7c9bd0fd316
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73864962"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265821"
 ---
 # <a name="dataset-properties"></a>Свойства набора данных
 

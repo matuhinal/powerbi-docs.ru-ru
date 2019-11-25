@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872252"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178282"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Регистрация государственных организаций США в службе Power BI
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -122,7 +122,7 @@ ms.locfileid: "73872252"
 Служба Power BI предоставляет широкие возможности. Дополнительные сведения и руководства, включая статью с инструкциями по регистрации в службе, см. по следующим ссылкам:
 
 * [Общие сведения о службе Power BI для государственных организаций США](service-govus-overview.md)
-* [Интерактивное обучение работе с Power BI](guided-learning/index.md)
+* [Интерактивное обучение работе с Power BI](guided-learning/index.yml)
 * [Приступая к работе со службой Power BI](service-get-started.md)
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 

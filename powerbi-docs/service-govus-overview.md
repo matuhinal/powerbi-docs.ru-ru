@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881361"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265458"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 Существует версия **службы Power BI** для клиентов из государственных организаций США, доступная в рамках подписок **Office 365 для сообщества государственных организаций США**. Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из государственных организаций США и отличается от коммерческой версии **службы Power BI**.
@@ -55,7 +55,6 @@ ms.locfileid: "73881361"
 * **Внедрить в SharePoint Online**. Вы не можете внедрять содержимого в SharePoint Online с помощью веб-части Power BI. Однако безопасное внедрение не работает при использовании веб-части [*Embed*](https://docs.microsoft.com/power-bi/service-embed-secure). Нужно добавить *app.powerbigov.us* в список исключений, для чего можно выполнить инструкции из статьи [Разрешение или запрет на внедрение контента на страницы SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * Служба **Power BI для государственных организаций США** доступна только в рамках лицензии **Pro**. Все ссылки на лицензии Power BI (бесплатные) на портале администрирования (или как пользователи) выполняются в коммерческой облачной службе Power BI.
 * **Аудит**. С июня 2018 г. аудит доступен в Центре безопасности и соответствия требованиям на портале Office 365.
-* **Содержимое Power BI в Cortana**. Результаты из Power BI не будут отображаться в результатах поиска Cortana. Это относится к результатам поиска по содержимому Power BI (панели мониторинга, отчеты, приложения), а также к оптимизированным страницам Cortana с отчетами по отдельным ключевым словам.
 * **Предоставление общего доступа внешним пользователям**. Совместная работа поддерживается в рамках клиента Power BI. С июня 2018 г. также можно предоставлять общий доступ пользователям вне вашего клиента Power BI. См. раздел [Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B](service-admin-azure-ad-b2b.md).
 * **Метрики использования для панелей мониторинга и отчетов**. Метрики использования недоступны для отчетов и панелей мониторинга. Клиенты могут использовать данные журнала аудита для получения сведений об использовании содержимого в своей организации.
 * **Потоки данных** — потоки данных недоступны.
@@ -103,7 +102,7 @@ ms.locfileid: "73881361"
 
 * [Регистрация в службе Power BI для государственных организаций США](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demo</a> (Power BI для государственных организаций США (демо-версия))
-* [Интерактивное обучение работе с Power BI](guided-learning/index.md)
+* [Интерактивное обучение работе с Power BI](guided-learning/index.yml)
 * [Приступая к работе со службой Power BI](service-get-started.md)
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 

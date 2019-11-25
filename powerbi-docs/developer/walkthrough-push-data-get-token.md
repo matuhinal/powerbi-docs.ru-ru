@@ -1,19 +1,19 @@
 ---
 title: Получение токена доступа для проверки подлинности
 description: Пошаговое руководство по отправке данных — получение токена доступа для проверки подлинности
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/29/2019
-ms.openlocfilehash: f6e0bbec2275407e963d5b97e6d780089fedc0ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5a96085791e8bd211ebe26b2d149c7b2ad92fc2f
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875704"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264826"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Шаг 2. Получение токена доступа для проверки подлинности
 

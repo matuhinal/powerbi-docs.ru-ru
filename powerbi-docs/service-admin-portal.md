@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128383"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265884"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -278,13 +278,6 @@ ms.locfileid: "74128383"
 
 ## <a name="integration-settings"></a>Вкладка "Параметры интеграции"
 
-### <a name="ask-questions-about-data-using-cortana"></a>Параметр "Задавать вопросы о данных с помощью Кортаны"
-
-Пользователи в организации могут задавать вопросы о своих данных с помощью Кортаны. [Дополнительные сведения](service-cortana-enable.md)
-
-> [!NOTE]
-> Этот параметр применяется ко всей организации и не ограничивается определенными группами.
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Параметр "Использовать анализ в Excel для работы с локальными наборами данных"
 
 Пользователи в организации могут просматривать локальные наборы данных Power BI и взаимодействовать с ними в Excel. [Дополнительные сведения](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ ms.locfileid: "74128383"
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Использование глобального поиска для Power BI (предварительная версия)
 
-Пользователи в организации могут использовать внешние функции поиска на основе службы "Поиск Azure". Например, с помощью Кортаны можно получать важные сведения непосредственно из панелей мониторинга и отчетов Power BI. [Дополнительные сведения](service-cortana-intro.md)
+Пользователи в организации могут использовать внешние функции поиска на основе службы "Поиск Azure".
 
 ## <a name="custom-visuals-settings"></a>Параметры настраиваемых визуальных элементов
 
