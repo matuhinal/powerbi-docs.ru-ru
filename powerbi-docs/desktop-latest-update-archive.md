@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099502"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310820"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -1503,7 +1503,7 @@ ms.locfileid: "74099502"
 ### <a name="reporting"></a>Отчеты:
 
 -   Создание закладок (предварительная версия) [[видео]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[статья]](desktop-bookmarks.md)
--   Область выделения и элементы управления отображением [[видео]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[статья]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   Область выделения и элементы управления отображением [[видео]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[статья]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   Ссылки на закладки для фигур и изображений [[видео]](https://youtu.be/jksjtR8GnBE?t=8m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[статья]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   Функция "В центре внимания" [[видео]](https://youtu.be/jksjtR8GnBE?t=5m39s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[статья]](desktop-bookmarks.md#using-spotlight)
 -   Точечные и пузырьковые маркеры [[видео]](https://youtu.be/jksjtR8GnBE?t=17m20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[статья]](desktop-accessibility.md)
