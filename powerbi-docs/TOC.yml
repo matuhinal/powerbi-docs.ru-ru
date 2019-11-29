@@ -813,10 +813,6 @@
               items:
                 - name: Подключение к службам с помощью приложений
                   href: service-connect-to-services.md
-                - name: Acumatica
-                  href: service-connect-to-acumatica.md
-                - name: Журналы аудита Azure
-                  href: service-connect-to-azure-audit-logs.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
@@ -907,7 +903,9 @@
           href: report-builder-power-bi.md
     - name: Учебники
       items:
-        - name: Создание отчета с разбиением на страницы и отправка взаимодействия
+        - name: Практическое занятие. Создание отчета с разбивкой на страницы
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Создание и отправка отчета с разбивкой на страницы
           href: paginated-reports-quickstart-aw.md
     - name: Основные понятия
       items:
