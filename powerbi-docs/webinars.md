@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060455"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164244"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -28,6 +28,10 @@ ms.locfileid: "74060455"
 **Как корпорация Майкрософт изменяет защиту данных бизнес-аналитики**
 <br>Антон Фриц (Anton Fritz) и Ади Регев (Adi Regev)
 <br>[Зарегистрироваться для просмотра 4 декабря](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Девять тенденций, определяющих будущее аналитики больших данных**
+<br>за авторством Виджея Гопалакришнана (Vijay Gopalakrishnan)
+<br>[Зарегистрироваться для просмотра 18 декабря](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ ms.locfileid: "74060455"
 
 ### <a name="getting-started"></a>Приступить
 
-**Автоматизация повседневных бизнес-процессов с помощью Power BI, PowerApps и Microsoft Flow**
+**Автоматизация повседневных бизнес-процессов с помощью Power BI, PowerApps и Power Automate**
 <br>Авторы: Вим Куревиц (Wim Coorevits) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ ms.locfileid: "74060455"
 <br>Автор: Чарльз Стерлинг (Charles Sterling)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Общее экономическое влияние Microsoft Flow и PowerApps**
+**Общее экономическое влияние Power Automate и PowerApps**
 <br>Авторы: Джонатан Липситц (Jonathan Lipsitz) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

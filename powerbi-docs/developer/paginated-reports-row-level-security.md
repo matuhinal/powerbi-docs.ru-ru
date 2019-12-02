@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880469"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311508"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Реализация безопасности на уровне строк во внедренных отчетах с разбивкой на страницы (предварительная версия)
 
@@ -30,7 +30,7 @@ ms.locfileid: "73880469"
 
 После назначения параметра **UserID** используйте API [Отчеты GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup), чтобы получить маркер внедрения.
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>Использование UserID в качестве фильтра на уровне отчета или запроса
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Использование UserID в качестве фильтра на уровне отчета или запроса
 
 **UserId** можно использовать в качестве *фильтра* или *запроса* для источника данных в [Построителе отчетов для Power BI с разбивкой на страницы](../report-builder-power-bi.md).
 
@@ -66,7 +66,7 @@ ms.locfileid: "73880469"
 
     ![Параметры построителя отчетов Power BI](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. В поле **Имя параметра** введите **@UserID** и добавьте в **значение параметра** **[&UserID]** .
+2. В поле **Имя параметра** введите **\@UserID** и добавьте в **значение параметра** **[&UserID]** .
 
     ![Имя параметра построителя отчетов Power BI](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

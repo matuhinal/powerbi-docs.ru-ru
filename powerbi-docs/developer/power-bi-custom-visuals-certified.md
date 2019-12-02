@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102601"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565256"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -70,7 +70,7 @@ ms.locfileid: "74102601"
 
 * В случае изменения некоторых свойств в файле capabilities.json необходимо убедиться, что это не нарушает существующие отчеты пользователя.
 
-* Убедитесь, что визуальный элемент соответствует [рекомендациям по визуальным элементам Power BI](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Водяные знаки не допускаются**.
+* Убедитесь, что визуальный элемент соответствует [рекомендациям по визуальным элементам Power BI](./guidelines-powerbi-visuals.md). **Водяные знаки не допускаются**.
 
 * Используются только открытые, доступные для просмотра компоненты OSS (общедоступные библиотеки JS или TypeScript; исходный код доступен для просмотра и не содержит известных уязвимостей). Мы не можем проверить пользовательский визуальный элемент, использующий коммерческие компоненты.
 

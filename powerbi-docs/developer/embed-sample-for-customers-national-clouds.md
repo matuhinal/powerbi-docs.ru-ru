@@ -1,20 +1,20 @@
 ---
-title: Встроенная аналитика для интеграции содержимого Power BI в приложение для правительственных и национальных облаков
+title: Внедрение содержимого в приложение для облаков для государственных организаций и национальных облаков
 description: Узнайте, как правильно интегрировать (внедрять) в приложение нужные клиентам отчеты, информационные панели или плитки с помощью API Power BI для встроенной аналитики. Сведения о том, как выполнить интеграцию Power BI в приложение с помощью программного обеспечения и средств встроенной аналитики, а также средств встроенной бизнес-аналитики для правительственных и национальных облаков.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b469cd4649a7acaef3a64eb0d3d8359e438e796f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875893"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311110"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Руководство. Внедрение содержимого Power BI в приложение для национальных облаков
 

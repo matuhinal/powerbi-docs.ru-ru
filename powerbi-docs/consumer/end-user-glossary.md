@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264855"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548537"
 ---
 # <a name="glossary-for-power-bi-service"></a>Глоссарий для службы Power BI
 В службе Power BI может использоваться незнакомая или непонятная терминология. Глоссарий — удобное место для поиска терминов; можно даже использовать закладки. Другой полезный ресурс для изучения стандартных блоков, входящих в состав службы Power BI — [Основные концепции](end-user-basic-concepts.md). В этой статье дается общий обзор *частей* Power BI, а также показывается, как они связаны.

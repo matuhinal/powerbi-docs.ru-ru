@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f149b816f7489b6a26e86af6360062d86083a7e5
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872432"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164292"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Что такое локальный шлюз данных?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Локальный шлюз данных выполняет функцию моста, обеспечивая быструю и безопасную передачу данных (которые не находятся в облаке) между локальной средой и рядом облачных служб Майкрософт. К ним относятся Power BI, PowerApps, Microsoft Flow, Azure Analysis Services и Azure Logic Apps. Благодаря шлюзу организации могут хранить базы данных и другие источники данных в локальной сети, сохраняя возможность безопасно использовать эти локальные данные в облачных службах.
+Локальный шлюз данных выполняет функцию моста, обеспечивая быструю и безопасную передачу данных (которые не находятся в облаке) между локальной средой и рядом облачных служб Майкрософт. К ним относятся Power BI, PowerApps, Power Automate, Azure Analysis Services и Azure Logic Apps. Благодаря шлюзу организации могут хранить базы данных и другие источники данных в локальной сети, сохраняя возможность безопасно использовать эти локальные данные в облачных службах.
 
 ## <a name="how-the-gateway-works"></a>Принципы работы шлюзов
 
