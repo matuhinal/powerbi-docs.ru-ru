@@ -1,5 +1,5 @@
 ---
-title: Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов
+title: Внедрение отчетов с разбивкой на страницы в приложение для клиентов
 description: Узнайте, как интегрировать (внедрить) отчет Power BI с разбивкой на страницы в приложение с помощью API-интерфейсов Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877735"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311425"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов (обзор)
 
@@ -37,6 +37,11 @@ ms.locfileid: "73877735"
 * По крайней мере [емкости](#create-a-dedicated-capacity) A4 или P1 с включенной рабочей нагрузкой [отчетов с разбивкой на страницы](../service-admin-premium-workloads.md#paginated-reports).
 
 Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+
+> [!IMPORTANT]
+> * Необходимо использовать **субъект-службу**. Главный пользователь не поддерживается.
+> * Источники данных, для которых требуется единый вход, не поддерживаются.
+> * Набор данных Power BI не поддерживается в качестве [источника данных](../service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 

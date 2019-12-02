@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102072"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265208"
 ---
 # <a name="visuals-in-power-bi"></a>Визуальные элементы в Power BI
 
@@ -49,7 +49,7 @@ ms.locfileid: "74102072"
 
 Члены сообщества и специалисты Майкрософт создают свои визуальные элементы Power BI и публикуют их в магазине [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), чтобы каждый мог работать с ними. Эти визуальные элементы можно скачать и добавить в отчеты Power BI. Эти визуальные элементы протестированы на предмет функциональности и качества и утверждены корпорацией Майкрософт.
 
-Что такое [AppSource](office-store.md)? Это место, где можно найти приложения, надстройки и расширения для программного обеспечения корпорации Майкрософт. AppSource позволяет миллионам пользователей таких продуктов, как Office 365, Azure, Dynamics 365, Cortana и Power BI, находить решения, с помощью которых можно выполнять работу более эффективно, продуманно и элегантно.
+Что такое [AppSource](office-store.md)? Это место, где можно найти приложения, надстройки и расширения для программного обеспечения корпорации Майкрософт. AppSource позволяет миллионам пользователей таких продуктов, как Office 365, Azure, Dynamics 365 и Power BI, находить решения, с помощью которых можно выполнять работу более эффективно, продуманно и элегантно.
 
 ### <a name="certified-visuals"></a>Сертифицированные визуальные элементы
 

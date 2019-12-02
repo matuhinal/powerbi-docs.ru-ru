@@ -1,5 +1,5 @@
 ---
-title: Интеграция Power BI с Microsoft Flow
+title: Интеграция Power BI с Power Automate
 description: Узнайте, как создавать потоки, которые активируются оповещениями о данных Power BI.
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881840"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164321"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow и Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate и Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Flow позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Flow позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
 
 [Начните работу с Flow прямо сейчас.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ ms.locfileid: "73881840"
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Создание потока, который активируется оповещением о данных Power BI
 
 ### <a name="prerequisites"></a>Предварительные требования
-В этом руководстве показано, как создать два разных потока — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](service-set-data-alerts.md), создайте бесплатную учетную запись Slack и [зарегистрируйтесь в Microsoft Flow](https://flow.microsoft.com/#home-signup) (это бесплатно).
+В этом руководстве показано, как создать два разных потока — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](service-set-data-alerts.md), создайте бесплатную учетную запись Slack и [зарегистрируйтесь в Power Automate](https://flow.microsoft.com/#home-signup) (это бесплатно).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Создание потока, использующего Power BI, на основе шаблона
 В этой задаче мы создадим на основе шаблона простой поток, который активируется с помощью оповещения о данных (уведомления) Power BI.
 
-1. Войдите в Microsoft Flow (flow.microsoft.com).
+1. Войдите в Power Automate (flow.microsoft.com).
 2. Выберите **Мои потоки**.
    
    ![Строка меню Flow](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ ms.locfileid: "73881840"
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Создание потока, использующего Power BI, с нуля
 В этой задаче мы создадим с нуля простой поток, который активируется с помощью оповещения о данных (уведомления) Power BI.
 
-1. Войдите в Microsoft Flow.
+1. Войдите в Power Automate.
 2. Выберите **Мои потоки** > **Создать с нуля**.
    
    ![Верхняя строка меню Flow](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ ms.locfileid: "73881840"
     ![Поток запускает уведомление Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Get started with Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/) (Приступая к работе с Microsoft Flow)
+* [Начало работы с Power Automate](https://flow.microsoft.com/documentation/getting-started/)
 * [Настройка оповещений о данных в службе Power BI](service-set-data-alerts.md)
 * [Настройка оповещений о данных на устройстве iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
