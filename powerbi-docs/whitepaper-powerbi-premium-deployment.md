@@ -1,20 +1,20 @@
 ---
 title: Развертывание емкостей Power BI Premium и управление ими
 description: Сведения о возможностях Power BI Premium, а также о проектировании, развертывании, отслеживании и устранении неполадок масштабируемых решений.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 34166dcdb6a102f64fa12fea1e68883515abf0fc
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b52f7c9aaa81f55d1c7efc21a2180aebea7a5d79
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164258"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699505"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Развертывание емкостей Power BI Premium и управление ими
 
@@ -28,6 +28,6 @@ ms.locfileid: "74164258"
 </br>[Настройка рабочих нагрузок в емкости Premium](service-admin-premium-workloads.md) | Подробные сведения о настройке и управлении выделенными емкостью и рабочими нагрузками. |
 | [Оптимизация емкости уровня "Премиум"](service-premium-capacity-optimize.md) | Рекомендации по оптимизации производительности, оптимизации моделей, планированию емкости и тестированию. |
 | [Сценарии использования емкостей Premium](service-premium-capacity-scenarios.md) | Распространенные проблемы в реальных сценариях, в которых основное внимание уделяется выявлению и устранению этих проблем. |
-| [Мониторинг емкости на портале администрирования](service-admin-premium-monitor-portal.md) | Наблюдение с помощью приложения метрик емкости Power BI Premium и анализ метрик, отображаемых в приложении. |
+| [Мониторинг емкостей на портале администрирования](service-admin-premium-monitor-portal.md) | Наблюдение с помощью приложения метрик емкости Power BI Premium и анализ метрик, отображаемых в приложении. |
 | [Вопросы и ответы по Power BI Premium](service-premium-faq.md) | Ответы на вопросы по приобретению и лицензированию, функциям и распространенным сценариям. |
 | | |

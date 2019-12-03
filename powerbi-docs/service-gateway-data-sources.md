@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881783"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410861"
 ---
 # <a name="manage-data-sources"></a>Управление источниками данных
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI поддерживают многие локальные источники, для каждого из которых существуют свои собственные требования. Шлюз можно использовать для одного или нескольких источников данных. В этом примере демонстрируется добавление источника данных SQL Server. Эта процедура выполняется аналогично другим источникам данных.
+Power BI поддерживают многие [локальные источники данных](power-bi-data-sources.md), для каждого из которых существуют свои собственные требования. Шлюз можно использовать для одного или нескольких источников данных. В этом примере демонстрируется добавление источника данных SQL Server. Эта процедура выполняется аналогично другим источникам данных.
 
 Большинство операций по управлению источниками данных можно выполнять и с помощью API. Дополнительные сведений см. в статье [REST API (шлюзы)](/rest/api/power-bi/gateways).
 
@@ -117,56 +117,7 @@ Power BI поддерживают многие локальные источни
 
 ## <a name="list-of-available-data-source-types"></a>Список доступных типов источников данных
 
-Локальный шлюз данных поддерживает следующие источники данных для Power BI. В дополнение к локальным источникам данных, источникам, расположенным за брандмауэром, VPN или виртуальной сети также может потребоваться шлюз данных.
-
-| **Источник данных** | **Активный запрос или запрос DirectQuery** | **Настроенное пользователем ручное или запланированное обновление** |
-| --- | --- | --- |
-| Amazon Redshift |Да |Да |
-| Analysis Services |Да |Да |
-| Кубы AtScale |Да |Да |
-| Azure Active Directory |Нет |Да |
-| Хранилище BLOB-объектов Azure |Нет |Да |
-| Azure DevOps Server |Нет |Да |
-| Табличное хранилище Azure |Нет |Да |
-| Соединитель BI |Да |Да |
-| Denodo |Да |Да |
-| Dremio |Да |Да |
-| EmigoDataSourceConnector |Нет |Да |
-| Essbase |Да |Да |
-| Exasol |Да |Да |
-| Файл |Нет |Да |
-| Папка |Нет |Да |
-| Paxata |Нет |Да |
-| IBM DB2 |Да |Да |
-| База данных IBM Informix |Нет |Да |
-| IBM Netezza |Да |Да |
-| Impala |Да |Да |
-| Jethro ODBC |Да |Да |
-| Kyligence Enterprise |Да |Да |
-| MarkLogic ODBC |Да |Да |
-| Microsoft Graph Security |Нет |Да |
-| MySQL |Нет |Да |
-| ODBC |Нет |Да |
-| OData |Нет |Да |
-| OLE DB |Нет |Да |
-| Oracle |Да |Да |
-| PostgreSQL |Нет |Да |
-| QubolePresto |Да |Да |
-| Quick Base Connector |Нет |Да |
-| Сервер сообщений SAP Business Warehouse |Да |Да |
-| Сервер SAP Business Warehouse |Да |Да |
-| SAP HANA |Да |Да |
-| SQL Server |Да |Да |
-| SharePoint |Нет |Да |
-| Снежинка |Да |Да |
-| Spark |Да |Да |
-| SurveyMonkey |Нет |Да |
-| Sybase |Нет |Да |
-| TeamDesk.Database |Нет |Да |
-| Teradata |Да |Да |
-| Vertica |Да |Да |
-| Веб-приложение |Нет |Да |
-| Workforce Dimensions |Нет |Да |
+Сведения о том, какие источники данных поддерживает локальный шлюз данных, см. в статье [Источники данных Power BI](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
