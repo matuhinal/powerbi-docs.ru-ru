@@ -15,7 +15,7 @@
           items:
             - name: "Использование визуализаций Power\_BI на основе R в Power\_BI"
               tocHref: /power-bi/developer/
-              topicHref: /power-bi/desktop-r-powered-custom-visuals/
+              topicHref: /power-bi/developer/index
         - name: Направляемое обучение
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
