@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874135"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565769"
 ---
 # <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874135"
 
 ## <a name="download-power-bi-report-server"></a>Скачивание сервера отчетов Power BI
 
-[Скачайте Сервер отчетов Power BI](https://www.microsoft.com/download/details.aspx?id=56722) в Центре загрузки Майкрософт.
+На странице [Локальная работа с отчетами с использованием Сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) выберите **Download free trial** (Скачать бесплатную пробную версию).
 
-Также доступна и бесплатная пробная версия. На странице [Локальная работа с отчетами с использованием Сервера отчетов Power BI](https://powerbi.microsoft.com/report-server/) выберите **Download free trial** (Скачать бесплатную пробную версию).
+При запуске файла PowerBIReportServer.exe вы можете выбрать бесплатную пробную версию или ввести ключ продукта. Чтобы получить дополнительные сведения, продолжите чтение.
 
 ## <a name="before-you-install"></a>Подготовка к установке
 
@@ -43,7 +43,7 @@ ms.locfileid: "73874135"
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Если вы приобрели Power BI Premium, то на вкладке **Параметры Premium** портала администрирования Power BI сможете получить ключ продукта для сервера отчетов Power BI. Это доступно только глобальным администраторам или пользователям, которым назначена роль администратора службы Power BI.
+Если вы приобрели Power BI Premium, то сможете получить ключ продукта для Сервера отчетов Power BI на вкладке **Параметры Premium** портала администрирования Power BI. Портал администрирования доступен только глобальным администраторам или пользователям, которым назначена роль "Администратор службы Power BI".
 
 ![Параметры Premium](../report-server/media/install-report-server/pbirs-product-key.png "Ключ Сервера отчетов Power BI в параметрах версии Premium")
 
@@ -70,7 +70,7 @@ ms.locfileid: "73874135"
 
     ![Выбор выпуска](media/install-report-server/pbireportserver-choose-edition.png)
 
-    Вы можете выбрать выпуск Evaluation или Developer из раскрывающегося списка.
+    Выберите выпуск Evaluation или Developer.
 
     ![Выпуск 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "73874135"
 4. Прочтите и примите условия лицензионного соглашения, а затем нажмите кнопку **Далее**.
 
     ![Условия лицензии](media/install-report-server/pbireportserver-eula.png)
-5. Для хранения базы данных сервера отчетов требуется ядро СУБД. Нажмите кнопку **Далее**, чтобы установить только сервер отчетов.
+5. Для хранения базы данных сервера отчетов требуется ядро СУБД. Нажмите кнопку **Далее**, чтобы установить только сервер отчетов.
 
     ![Установка только файлов](media/install-report-server/pbireportserver-install-files-only.png)
 6. Укажите расположение установки для сервера отчетов. Нажмите кнопку **Установить**, чтобы продолжить.
@@ -95,11 +95,11 @@ ms.locfileid: "73874135"
 
 Если нажать кнопку **Настроить сервер отчетов** в программе установки, откроется диспетчер конфигурации служб Reporting Services. Дополнительные сведения см. в статье о [диспетчере конфигурации служб Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
-Для завершения начальной настройки служб Reporting Services необходимо [создать базу данных сервера отчетов](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Для выполнения этого шага требуется сервер базы данных SQL Server.
+Для завершения начальной настройки Reporting Services необходимо [создать базу данных сервера отчетов](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Для выполнения этого шага требуется сервер базы данных SQL Server.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Создание базы данных на другом сервере
 
-Если вы создаете базу данных сервера отчетов на сервере базы данных на другом компьютере, необходимо изменить учетную запись службы сервера отчетов на учетные данные, которые распознает сервер базы данных. 
+Если для создания базы данных сервера отчетов вы используете сервер базы данных на другом компьютере, необходимо изменить учетную запись службы для сервера отчетов на учетные данные, принимаемые сервером базы данных. 
 
 По умолчанию сервер отчетов использует учетную запись виртуальной службы. При попытке создать базу данных на другом сервере может появиться следующая ошибка на этапе применения прав на подключение.
 
@@ -137,9 +137,9 @@ ms.locfileid: "73874135"
 
 ## <a name="firewall"></a>Брандмауэр
 
-При доступе к серверу отчетов с удаленного компьютера необходимо убедиться, что вы настроили правила брандмауэра (если используется брандмауэр).
+Если при доступе к серверу отчетов с удаленного компьютера используется брандмауэр, необходимо корректно настроить правила брандмауэра.
 
-Необходимо открыть TCP-порт, который определен для URL-адреса веб-службы и URL-адреса веб-портала. По умолчанию для них настроено использование TCP-порта 80.
+Откройте TCP-порт, настроенный для URL веб-службы и URL веб-портала. По умолчанию для них используется TCP-порт 80.
 
 ## <a name="additional-configuration"></a>Дополнительная настройка
 
