@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875819"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478656"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -333,8 +333,7 @@ public IdentityBlob(string value);
 
 ### <a name="token-based-identity-limitations"></a>Ограничения удостоверений на основе токена
 
-* Доступно только для версии Power BI Premium.
-* Эта возможность не работает для локального экземпляра SQL Server.
-* Отсутствует поддержка нескольких регионов.
+* Безопасность на уровне строк можно использовать только при наличии выделенной емкости.
+* Безопасность на уровне строк не работает для локального экземпляра SQL Server.
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

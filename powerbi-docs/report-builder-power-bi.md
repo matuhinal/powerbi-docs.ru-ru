@@ -1,7 +1,7 @@
 ---
 title: Построитель отчетов с разбиением на страницы Power BI
 description: Построитель отчетов с разбивкой на страницы Power BI — это средство для создания отчетов с разбивкой на страницы.
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076065"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565288"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Построитель отчетов с разбиением на страницы Power BI
 
  Построитель отчетов с разбивкой на страницы Power BI — это средство для создания отчетов с разбивкой на страницы.  При разработке отчета с разбивкой на страницы вы создаете определение отчета, указывающее, какие данные нужно получить, откуда и как их отобразить. Когда вы запускаете отчет, обработчик отчетов анализирует созданное вами определение отчета, затем извлекает нужные данные и объединяет их с макетом отчета, чтобы сформировать отчет. Просмотрите отчет с разбивкой на страницы в построителе отчетов, а затем опубликовать его в службе Power BI.
+
+Попробуйте пройти [Практическое занятие. Создание отчета Microsoft Power BI с разбивкой на страницы](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 Предпочитаете видеообучение? Ознакомьтесь в YouTube с серией видеокурсов, посвященных отчетам с разбивкой на страницы в Power BI. Курсы ведет старший руководитель программ Power BI Крис Финлан (Chris Finlan).
 
@@ -61,5 +63,5 @@ ms.locfileid: "71076065"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Сведения об отчетах с разбивкой на страницы в Power BI Premium](paginated-reports-report-builder-power-bi.md)
-
+- Попробуйте пройти [Практическое занятие. Создание отчета Microsoft Power BI с разбивкой на страницы](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Просмотрите в YouTube [серию видеокурсов, посвященных отчетам с разбивкой на страницы в Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ). Курсы ведет старший руководитель программ Power BI Крис Финлан (Chris Finlan).

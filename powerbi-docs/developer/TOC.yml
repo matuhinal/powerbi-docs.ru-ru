@@ -15,6 +15,8 @@
               href: power-bi-custom-visuals.md
         - name: Учебники
           items:
+            - name: Концепция визуального элемента
+              href: visuals/power-bi-visuals-concept.md
             - name: "Разработка визуального элемента Power\_BI"
               href: visuals/custom-visual-develop-tutorial.md
             - name: Добавление параметров форматирования
@@ -67,6 +69,8 @@
               href: visuals/high-contrast-support.md
             - name: Активация синхронизации срезов
               href: visuals/enable-sync-slicers.md
+            - name: Добавление поддержки детализации
+              href: visuals/drill-down-support.md
             - name: "Устранение неполадок с визуальными элементами Power\_BI"
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Справка
@@ -81,8 +85,14 @@
               href: visuals/event-service.md
             - name: Сортировка
               href: visuals/sort-options.md
-            - name: Инструменты для взаимодействия
-              href: visuals/utils-interactivity-selections.md
+            - name: Локализация
+              href: visuals/localization.md
+            - name: "Инструменты для визуальных элементов Power\_BI"
+              items:
+                - name: Инструменты для взаимодействия
+                  href: visuals/utils-interactivity-selections.md
+                - name: Инструменты форматирования
+                  href: visuals/utils-formatting.md
         - name: Ресурсы
           items:
             - name: Центр разработки

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874711"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565696"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874711"
 
 Отчеты с разбивкой на страницы могут распространяться на большое число страниц. Например, этот отчет содержит 563 страницы. Для каждой страницы соблюдается точное форматирование: на каждой странице размещен строго один счет и повторяются стандартные колонтитулы.
 
-![Разбивка на страницы](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+Попробуйте пройти [Практическое занятие. Создание отчета Microsoft Power BI с разбивкой на страницы](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
-![Отчет с разбивкой на страницы в службе Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![Разбивка на страницы](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI https://app.powerbi.com. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в разделе "Моя рабочая область" или в рабочей области, которая находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы в [разделе емкостей Premium](service-admin-premium-workloads.md#paginated-reports) на портале администрирования Power BI. 
 
@@ -87,6 +87,6 @@ ms.locfileid: "73874711"
 - [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Руководство. Создание отчета с разбивкой на страницы](paginated-reports-quickstart-aw.md)
 - [Ввод данных непосредственно в отчет с разбивкой на страницы](paginated-reports-enter-data.md)
-
+- [Практическое занятие. Создание отчета Microsoft Power BI с разбивкой на страницы](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 

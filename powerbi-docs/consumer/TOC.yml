@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: Добавление закладки в отчет
               href: end-user-bookmarks.md
+            - name: Отчеты с разбивкой на страницы
+              href: end-user-paginated-report.md
         - name: Визуализации
           items:
             - name: Назначение визуализаций

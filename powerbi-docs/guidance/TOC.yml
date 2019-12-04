@@ -16,10 +16,18 @@
           href: import-modeling-data-reduction.md
         - name: Функция DIVIDE и оператор деления (/)
           href: dax-divide-function-operator.md
+        - name: Использование SELECTEDVALUE вместо VALUES
+          href: dax-selectedvalue.md
         - name: Важность свертывания запросов
           href: power-query-folding.md
         - name: Правильное использование функций ошибок
           href: dax-error-functions.md
+        - name: Улучшение формул с помощью переменных
+          href: dax-variables.md
+        - name: Использование COUNTROWS вместо COUNT
+          href: dax-countrows.md
+        - name: 'Не рекомендуется: преобразование BLANK в значения'
+          href: dax-avoid-converting-blank.md
         - name: Рекомендации по потокам данных
           href: ../service-dataflows-best-practices.md
         - name: Руководство по использованию модели DirectQuery в Power BI Desktop
