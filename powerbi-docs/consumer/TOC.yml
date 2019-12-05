@@ -58,8 +58,16 @@
               href: end-user-pdf.md
             - name: Добавление закладки в отчет
               href: end-user-bookmarks.md
-            - name: Отчеты с разбивкой на страницы
-              href: end-user-paginated-report.md
+            - name: Отчеты с разбивкой на страницы в Power BI
+              items:
+                - name: Отчеты с разбивкой на страницы
+                  href: end-user-paginated-report.md
+                - name: Просмотр отчета с разбивкой на страницы
+                  href: paginated-reports-view-power-bi-service.md
+                - name: Взаимодействие с параметрами
+                  href: paginated-reports-view-parameters.md
+                - name: Подписка себя и других пользователей
+                  href: paginated-reports-subscriptions.md
         - name: Визуализации
           items:
             - name: Назначение визуализаций

@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Происхождение данных
           href: service-data-lineage.md
-        - name: Отчеты с разбивкой на страницы в Power BI
-          items:
-            - name: Просмотр отчета с разбивкой на страницы
-              href: paginated-reports-view-power-bi-service.md
-            - name: Поддерживаемые источники данных
-              href: paginated-reports-data-sources.md
-            - name: Взаимодействие с параметрами
-              href: paginated-reports-view-parameters.md
-            - name: Подписка себя и других пользователей
-              href: paginated-reports-subscriptions.md
         - name: Приложения-шаблоны
           items:
             - name: Обзор приложений-шаблонов
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: Данные построителя отчетов
           href: report-builder-data.md
+        - name: Поддерживаемые источники данных
+          href: paginated-reports-data-sources.md
         - name: "Использование общих наборов данных Power\_BI"
           href: report-builder-shared-datasets.md
         - name: Советы по проектированию
