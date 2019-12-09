@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565696"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831155"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
@@ -70,7 +70,7 @@ ms.locfileid: "74565696"
 
 Теперь вы можете настроить для себя и других пользователей подписки электронной почты на отчеты с разбивкой на страницы в службе Power BI. В общем случае эта процедура аналогична подписке на отчеты и панели мониторинга в службе Power BI. Настроив подписки, можно указать частоту получения сообщений электронной почты: ежедневно, еженедельно или каждый час. Подписка содержит вложение в формате PDF со всеми выходными данными отчета.
 
-Дополнительные сведения см. в статье [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](paginated-reports-subscriptions.md). 
+Дополнительные сведения см. в статье [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](consumer/paginated-reports-subscriptions.md). 
 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 

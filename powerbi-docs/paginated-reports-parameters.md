@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: d1f23f52f484ec9e141b4870b50cc1b2758709d9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874745"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831176"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI
 
@@ -64,6 +64,6 @@ ms.locfileid: "73874745"
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-В статье [View parameters for paginated reports in the Power BI service](paginated-reports-view-parameters.md) (Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI) объясняется, как отображаются параметры в службе Power BI.
+В статье [View parameters for paginated reports in the Power BI service](consumer/paginated-reports-view-parameters.md) (Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI) объясняется, как отображаются параметры в службе Power BI.
 
 Дополнительные сведения о параметрах в отчетах с разбивкой на страницы см. в статье [Параметры отчетов в построителе отчетов Power BI](report-builder-parameters.md).

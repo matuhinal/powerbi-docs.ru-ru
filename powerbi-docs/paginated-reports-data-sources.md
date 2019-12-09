@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/19/2019
-ms.openlocfilehash: fcc6e7880a3f27c6b35fe2192e76a0b2cc82abd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874848"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831272"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -30,7 +30,7 @@ ms.locfileid: "73874848"
 | Azure Analysis Services | SSO, OAuth2 |   |
 | Набор данных Power BI | Единый вход | Наборы данных Premium Power BI и отличные от них |
 | Набор данных Premium Power BI (XMLA) | Единый вход |   |
-| Ввод данных | Н/Д | Данные внедряются в отчет. |
+| Введите данные | Н/Д | Данные внедряются в отчет. |
 
 Все источники данных, кроме базы данных SQL Azure, готовы к использованию после отправки отчета в службу Power BI. Источники данных по умолчанию используют единый вход (SSO), где это применимо. Для Azure Analysis Services можно изменить тип проверки подлинности на OAuth2.
 
@@ -71,6 +71,6 @@ ms.locfileid: "73874848"
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Просмотр отчета с разбивкой на страницы в службе Power BI](paginated-reports-view-power-bi-service.md)
+[Просмотр отчета с разбивкой на страницы в службе Power BI](consumer/paginated-reports-view-power-bi-service.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

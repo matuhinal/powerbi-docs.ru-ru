@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: Экспорт отчета в PDF
               href: end-user-pdf.md
+            - name: Экспорт отчета в PowerPoint
+              href: end-user-powerpoint.md
             - name: Добавление закладки в отчет
               href: end-user-bookmarks.md
             - name: Отчеты с разбивкой на страницы в Power BI

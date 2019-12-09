@@ -1,20 +1,20 @@
 ---
 title: Руководство. Подключение к локальным источникам данных в SQL Server
 description: Сведения об использовании SQL Server в качестве источника данных шлюза, в том числе о способах обновления данных.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881552"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699321"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Обновление данных из локальной базы данных SQL Server
 

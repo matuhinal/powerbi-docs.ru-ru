@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478652"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882759"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -24,10 +24,6 @@ ms.locfileid: "74478652"
 **Аналитика в виртуальном событии Azure: Ускорение аналитики с помощью Azure Synapse Analytics**
 <br>от Гайле Шеппард (Gayle Sheppard) и Джон Макинтайр (John Macintyre)
 <br>[Зарегистрироваться](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Как корпорация Майкрософт изменяет защиту данных бизнес-аналитики**
-<br>Антон Фриц (Anton Fritz) и Ади Регев (Adi Regev)
-<br>[Зарегистрироваться для просмотра 4 декабря](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Девять тенденций, определяющих будущее аналитики больших данных**
 <br>за авторством Виджея Гопалакришнана (Vijay Gopalakrishnan)
@@ -42,6 +38,10 @@ ms.locfileid: "74478652"
 ## <a name="featured-webinars"></a>Популярные вебинары
 
 Начало работы с популярными вебинарами по запросу
+
+**Как корпорация Майкрософт изменяет защиту данных бизнес-аналитики**
+<br>Антон Фриц (Anton Fritz) и Ади Регев (Adi Regev)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI и будущее современной и корпоративной бизнес-аналитики**
 <br>Авторы: Арун Улаг и Амир Нетц (Arun Ulag и Amir Netz)
