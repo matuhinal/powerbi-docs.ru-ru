@@ -41,13 +41,13 @@
               href: visuals/advanced-edit-mode.md
         - name: Практическое руководство
           items:
-            - name: Сертификация визуального элемента
+            - name: "Получите сертификацию для визуального элемента Power\_BI"
               href: power-bi-custom-visuals-certified.md
-            - name: Публикация настраиваемых визуальных элементов в AppSource
+            - name: Публикация визуальных элементов Power BI в AppSource
               href: office-store.md
-            - name: "Использование пользовательских визуализаций на основе R в Power\_BI"
+            - name: "Использование визуализаций Power\_BI на основе R в Power\_BI"
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
-            - name: Взаимодействие с визуальными элементами
+            - name: Взаимодействие визуальных элементов
               href: visuals/visuals-interactions.md
             - name: Добавление выбора
               href: visuals/selection-api.md
@@ -69,8 +69,6 @@
               href: visuals/high-contrast-support.md
             - name: Активация синхронизации срезов
               href: visuals/enable-sync-slicers.md
-            - name: Добавление поддержки детализации
-              href: visuals/drill-down-support.md
             - name: "Устранение неполадок с визуальными элементами Power\_BI"
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Справка
@@ -85,14 +83,8 @@
               href: visuals/event-service.md
             - name: Сортировка
               href: visuals/sort-options.md
-            - name: Локализация
-              href: visuals/localization.md
-            - name: "Инструменты для визуальных элементов Power\_BI"
-              items:
-                - name: Инструменты для взаимодействия
-                  href: visuals/utils-interactivity-selections.md
-                - name: Инструменты форматирования
-                  href: visuals/utils-formatting.md
+            - name: Инструменты для взаимодействия
+              href: visuals/utils-interactivity-selections.md
         - name: Ресурсы
           items:
             - name: Центр разработки
