@@ -32,10 +32,14 @@
           href: ../service-dataflows-best-practices.md
         - name: Руководство по использованию модели DirectQuery в Power BI Desktop
           href: directquery-model-guidance.md
+        - name: "Ссылки на запросы Power\_Query"
+          href: power-query-referenced-queries.md
         - name: Добавление подсказок в виде страниц отчета в визуальные элементы
           href: report-page-tooltips.md
         - name: Детализация страницы отчета
           href: report-drillthrough.md
+        - name: "Автоматические дата и время в Power\_BI\_Desktop"
+          href: auto-date-time.md
     - name: Технические документы
       items:
         - name: Обзор технической документации
