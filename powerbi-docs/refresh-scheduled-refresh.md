@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791619"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958409"
 ---
 # <a name="configure-scheduled-refresh"></a>Настройка запланированного обновления
 
@@ -75,7 +75,7 @@ ms.locfileid: "74791619"
 Чтобы настроить параметры, установите для параметра **Поддерживать актуальность данных** значение **Включено**.
 
 > [!NOTE]
-> Служба Power BI инициирует запуск обновления данных в течение **15 минут** после запланированного времени обновления.
+> Цель заключается в запуске обновления в пределах 15 минут от запланированного периода времени, однако может иметь место задержка до одного часа, если службе не удается выделить требуемые ресурсы быстрее.
 
 ![Диалоговое окно "Запланированное обновление"](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
