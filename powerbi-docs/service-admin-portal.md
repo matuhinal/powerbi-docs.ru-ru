@@ -1,21 +1,21 @@
 ---
 title: Портал администрирования Power BI
 description: Портал администрирования служит для управления клиентами Power BI в организации. Он включает метрики использования, доступ к Центру администрирования Microsoft 365 и параметры.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265884"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882900"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -247,11 +247,14 @@ ms.locfileid: "74265884"
 ![Печать отчета](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Разрешение внешним гостям отслеживать и изменять содержимое в организации
-Гостевые пользователи B2B Azure могут изменять содержимое в организации и управлять им. [Дополнительные сведения](service-admin-azure-ad-b2b.md)
+Гостевые пользователи B2B Azure Active Directory могут изменять содержимое в организации и управлять им. [Дополнительные сведения](service-admin-azure-ad-b2b.md)
 
 На следующем изображении показан параметр "Разрешение внешним гостям отслеживать и изменять содержимое в организации".
 
 ![Разрешение внешним гостям отслеживать и изменять содержимое в организации](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> После добавления внешнего пользователя в клиент Azure AD (вручную или путем предоставления ему доступа к отчету) его учетная запись может обнаруживаться внутренними учетными записями. Внутренний пользователь может предоставлять внешнему пользователю доступ к другим объектам, даже если у внутренней учетной записи нет разрешений на предоставление внешнего общего доступа.
 
 ### <a name="email-subscriptions"></a>Почтовые подписки
 Пользователи в организации могут создавать почтовые подписки. Дополнительные сведения о [подписках](service-report-subscribe.md)см. здесь.

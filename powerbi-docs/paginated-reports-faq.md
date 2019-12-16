@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874800"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831233"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: ВОПРОСЫ И ОТВЕТЫ 
 
@@ -116,21 +116,7 @@ ms.locfileid: "73874800"
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Какие источники данных поддерживаются сейчас для отчетов с разбивкой на страницы?
 
-Поддерживаются следующие источники данных. 
-
-- Наборы данных Power BI (через единый вход)
-- Azure Analysis Services (с помощью единой регистрации (SSO) и oAuth)
-- Хранилище данных SQL Azure
-- База данных SQL Azure (имя пользователя/пароль, единый вход и OAuth)
-- Управляемый экземпляр базы данных SQL Azure через общедоступную конечную точку (имя пользователя и пароль)
-- SQL Server*
-- Табличные (DAX) и многомерные (MDX) модели служб SQL Server Analysis Services (SSAS)* 
-- Oracle* 
-- Teradata* 
-
-* требует локальный шлюз.
-
-Если доступ к SSAS осуществляется через шлюз, для нормальной работы пользователь, чьи учетные данные сохранены, должен иметь повышенные права в службах SSAS.
+Список источников данных см. в статье [Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI](paginated-reports-data-sources.md). 
 
 ### <a name="what-authentication-methods-do-you-support"></a>Какие методы проверки подлинности поддерживаются?
 

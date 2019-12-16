@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 11/27/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164205"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791664"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Экспорт отчетов из Power BI в формат PDF
 
@@ -62,6 +62,7 @@ ms.locfileid: "74164205"
 * Служба Power BI использует параметр языка Power BI в качестве языка для экспорта в формат PDF. Чтобы просмотреть или настроить параметры языка, щелкните ![значок шестеренки](media/end-user-powerpoint/power-bi-settings-icon.png) > **Параметры** > **Общие** > **Язык**.
 * При выборе варианта **Текущие значения** для экспорта фильтры URL-адресов в настоящее время не учитываются.
 * Отчеты с нестандартными настраиваемыми размерами страниц могут вызывать проблемы при экспорте. Для получения наилучших результатов рекомендуется переключиться на стандартный размер страницы для отчета.
+* При экспорте в PDF в отчетах, в которых применяются темы с пользовательскими шрифтами, пользовательские шрифты заменяются шрифтом по умолчанию.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Печать отчета](end-user-print.md)

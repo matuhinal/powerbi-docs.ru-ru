@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880157"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696672"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Общие сведения о сопоставлениях представлений данных в визуальных элементах Power BI
 
@@ -101,14 +101,29 @@ Power BI создает сопоставление с представлени�
 ### <a name="example-3"></a>Пример 3
 
 ```json
-"dataViewMappings": {
-    "conditions": [
-        { "Y": { "max": 1 } }
+{
+    "dataRoles": [
+        {
+            "displayName": "Y",
+            "name": "Y",
+            "kind": "Measure"
+        }
     ],
-    "single": {
-        "role": "Y"
-    }
-}  
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "Y": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "Y"
+            }
+        }
+    ]
+}
 ```
 
 Итоговое представление данных по-прежнему содержит другие типы (табличные, категориальные и т. д.), но каждое сопоставление будет содержать только одно значение. Рекомендуется просто обращаться к значению по отдельности.
@@ -129,6 +144,48 @@ Power BI создает сопоставление с представлени�
     ]
 }
 ```
+
+Пример кода для обработки простого сопоставления представления данных
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewSingle = powerbi.DataViewSingle;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private valueText: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.valueText = document.createElement("p");
+        this.target.appendChild(this.valueText);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const singleDataView: DataViewSingle = dataView.single;
+
+        if (!singleDataView ||
+            !singleDataView.value ) {
+            return
+        }
+
+        this.valueText.innerText = singleDataView.value.toString();
+    }
+}
+```
+
+В результате в визуальном элементе отображается одно значение из Power BI:
+
+![Пример визуального элемента с одним сопоставлением представления данных](./media/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Категориальное сопоставление данных
 
@@ -284,10 +341,10 @@ Power BI создает сопоставление с представлени�
 |-----|-----|------|------|------|------|
 | | Год | 2013 | 2014 | 2015 | 2016 |
 | Страна | | |
-| США | | x | x | 125 | 100 |
-| Канада | | x | 50 | 200 | x |
-| Мексика | | 300 | x | x | x |
-| Соединенное Королевство | | x | x | 75 | x |
+| США | | x | x | 650 | 350 |
+| Канада | | x | 630 | 490 | x |
+| Мексика | | 645 | x | x | x |
+| Соединенное Королевство | | x | x | 831 | x |
 
 Служба Power BI создает его как категориальное представление данных. Это набор категорий.
 
@@ -299,9 +356,9 @@ Power BI создает сопоставление с представлени�
                 "source": {...},
                 "values": [
                     "Canada",
-                    "Mexico",
+                    "USA",
                     "UK",
-                    "USA"
+                    "Mexico"
                 ],
                 "identity": [...],
                 "identityFields": [...],
@@ -313,54 +370,130 @@ Power BI создает сопоставление с представлени�
 
 Каждая категория также сопоставляется с набором значений. Каждое из этих значений сгруппировано по рядам, то есть по годам.
 
-Например, продажи в Канаде в 2013 г. равны нулю, а продажи в Канаде в 2014 г. — 50.
+Например, каждый массив `values` представляет данные за каждый год.
+Кроме того, каждый массив `values` имеет 4 значения для Канады, США, Великобритании и Мексики соответственно:
 
 ```JSON
 {
     "values": [
+        // Values for 2013 year
         {
             "source": {...},
             "values": [
-                null,
-                300,
-                null,
-                null
+                null, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                645 // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2014 year
         {
             "source": {...},
             "values": [
-                50,
-                null,
-                150,
-                null
+                630, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2015 year
         {
             "source": {...},
             "values": [
-                200,
-                null,
-                null,
-                125
+                490, // Value for `Canada` category
+                650, // Value for `USA` category
+                831, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2016 year
         {
             "source": {...},
             "values": [
-                null,
-                null,
-                null,
-                100
+                null, // Value for `Canada` category
+                350, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         }
     ]
 }
 ```
+
+Пример кода для обработки сопоставления представления категориальных данных описывается ниже. В примере создается иерархическая структура `Country => Year => Value`.
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewDataViewCategoricalSingle = powerbi.DataViewCategorical;
+import DataViewValueColumnGroup = powerbi.DataViewValueColumnGroup;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private categories: HTMLElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.categories = document.createElement("pre");
+        this.target.appendChild(this.categories);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const categoricalDataView: DataViewCategorical = dataView.categorical;
+
+        if (!categoricalDataView ||
+            !categoricalDataView.categories ||
+            !categoricalDataView.categories[0] ||
+            !categoricalDataView.values) {
+            return;
+        }
+
+        // Categories have only one column in data buckets
+        // If you want to support several columns of categories data bucket, you should iterate categoricalDataView.categories array.
+        const categoryFieldIndex = 0;
+        // Measure has only one column in data buckets.
+        // If you want to support several columns on data bucket, you should iterate years.values array in map function
+        const measureFieldIndex = 0;
+        let categories: PrimitiveValue[] = categoricalDataView.categories[categoryFieldIndex].values;
+        let values: DataViewValueColumnGroup[] = categoricalDataView.values.grouped();
+
+        let data = {};
+        // iterate categories/countries
+        categories.map((category: PrimitiveValue, categoryIndex: number) => {
+            data[category.toString()] = {};
+            // iterate series/years
+            values.map((years: DataViewValueColumnGroup) => {
+                if (!data[category.toString()][years.name] && years.values[measureFieldIndex].values[categoryIndex]) {
+                    data[category.toString()][years.name] = []
+                }
+                if (years.values[0].values[categoryIndex]) {
+                    data[category.toString()][years.name].push(years.values[measureFieldIndex].values[categoryIndex]);
+                }
+            });
+        });
+
+        this.categories.innerText = JSON.stringify(data, null, 6);
+        console.log(data);
+    }
+}
+```
+
+Результат визуального элемента:
+
+![Визуальный элемент с сопоставлением представления категориальных данных](./media/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Сопоставление табличных данных
 
@@ -373,8 +506,13 @@ Power BI создает сопоставление с представлени�
 ```json
 "dataRoles": [
     {
-        "displayName": "Values",
-        "name": "values",
+        "displayName": "Column",
+        "name": "column",
+        "kind": "Measure"
+    },
+    {
+        "displayName": "Value",
+        "name": "value",
         "kind": "Measure"
     }
 ]
@@ -385,9 +523,18 @@ Power BI создает сопоставление с представлени�
     {
         "table": {
             "rows": {
-                "for": {
-                    "in": "values"
-                }
+                "select": [
+                    {
+                        "for": {
+                            "in": "column"
+                        }
+                    },
+                    {
+                        "for": {
+                            "in": "value"
+                        }
+                    }
+                ]
             }
         }
     }
@@ -395,6 +542,8 @@ Power BI создает сопоставление с представлени�
 ```
 
 Представление табличных данных можно визуализировать следующим образом:  
+
+Пример данных:
 
 | Страна| Год | Продажи |
 |-----|-----|------|
@@ -406,6 +555,10 @@ Power BI создает сопоставление с представлени�
 | Соединенное Королевство | 2014 | 150 |
 | США | 2015 | 75 |
 
+Привязка данных:
+
+![Привязки данных в сопоставлении представления табличных данных](./media/table-dataview-mapping-data.png)
+
 Служба Power BI отображает данные в представлении табличных данных. Изначально предполагать, что данные упорядочены, не следует.
 
 ```JSON
@@ -416,37 +569,32 @@ Power BI создает сопоставление с представлени�
             [
                 "Canada",
                 2014,
-                50
+                630
             ],
             [
                 "Canada",
                 2015,
-                200
+                490
             ],
             [
                 "Mexico",
                 2013,
-                300
+                645
             ],
             [
                 "UK",
                 2014,
-                150
+                831
             ],
             [
                 "USA",
                 2015,
-                100
-            ],
-            [
-                "USA",
-                2015,
-                75
+                650
             ],
             [
                 "USA",
                 2016,
-                100
+                350
             ]
         ]
     }
@@ -456,6 +604,89 @@ Power BI создает сопоставление с представлени�
 Вы можете выполнить статистическую обработку данных, выбрав нужное поле и затем указав операцию суммирования.  
 
 ![Агрегирование данных](./media/data-aggregation.png)
+
+Пример кода для обработки сопоставления представления табличных данных.
+
+```typescript
+"use strict";
+import "./../style/visual.less";
+import powerbi from "powerbi-visuals-api";
+// ...
+import DataViewMetadataColumn = powerbi.DataViewMetadataColumn;
+import DataViewTable = powerbi.DataViewTable;
+import DataViewTableRow = powerbi.DataViewTableRow;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// other imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private table: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.table = document.createElement("table");
+        this.target.appendChild(this.table);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const tableDataView: DataViewTable = dataView.table;
+
+        if (!tableDataView) {
+            return
+        }
+        while(this.table.firstChild) {
+            this.table.removeChild(this.table.firstChild);
+        }
+
+        //draw header
+        const tableHeader = document.createElement("th");
+        tableDataView.columns.forEach((column: DataViewMetadataColumn) => {
+            const tableHeaderColumn = document.createElement("td");
+            tableHeaderColumn.innerText = column.displayName
+            tableHeader.appendChild(tableHeaderColumn);
+        });
+        this.table.appendChild(tableHeader);
+
+        //draw rows
+        tableDataView.rows.forEach((row: DataViewTableRow) => {
+            const tableRow = document.createElement("tr");
+            row.forEach((columnValue: PrimitiveValue) => {
+                const cell = document.createElement("td");
+                cell.innerText = columnValue.toString();
+                tableRow.appendChild(cell);
+            })
+            this.table.appendChild(tableRow);
+        });
+    }
+}
+```
+
+Файл стилей визуальных элементов `style/visual.less` содержит макет для таблицы:
+
+```less
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+tr, th {
+    display: flex;
+    flex: 1;
+}
+
+td {
+    flex: 1;
+    border: 1px solid black;
+}
+```
+
+![Визуальный элемент с сопоставлением представления табличных данных](./media/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Сопоставление матричных данных
 
@@ -694,7 +925,7 @@ Power BI создает сопоставление с представлени�
                     "top": {
                         "count": 2000
                     }
-                } 
+                }
             }
         }
     }
@@ -702,3 +933,7 @@ Power BI создает сопоставление с представлени�
 ```
 
 Алгоритм сокращения данных можно применить к разделам `rows` и `columns` матрицы сопоставления представления данных.
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Узнайте, как [добавить поддержку детализации для сопоставлений представлений данных в визуальных элементах Power BI](drill-down-support.md).

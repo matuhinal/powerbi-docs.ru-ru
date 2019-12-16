@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061829"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696289"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>Миграция на новую версию powerbi-visuals-tools 3.x.x
 
@@ -27,7 +27,7 @@ ms.locfileid: "74061829"
 
 * Поддерживаются новые версии [D3v5](https://d3js.org/) и другие библиотеки на основе модуля ES6.
 
-* Меньший размер пакета. Для удаления неиспользуемого кода в пакете используется [встряхивание дерева](https://webpack.js.org/guides/tree-shaking/). Этот метод сокращает объем кода JS и, в итоге, повышает производительность при загрузке визуальных элементов.
+* Меньший размер пакета. Для удаления неиспользуемого кода в пакете используется [встряхивание дерева](https://webpack.js.org/guides/tree-shaking/). Этот метод сокращает объем кода JS и в итоге повышает производительность при загрузке визуальных элементов.
 
 * Улучшенная производительность API.
 
@@ -39,7 +39,7 @@ ms.locfileid: "74061829"
 
 ## <a name="backward-compatibility"></a>Обратная совместимость
 
-Новые инструменты сохраняют обратную совместимость для базы кода старых визуальных элементов, но могут потребовать внесения некоторых дополнительных изменений для загрузки внешних библиотек.
+Новые средства сохраняют обратную совместимость для базы кода старых визуальных элементов, но могут потребовать внесения некоторых дополнительных изменений для загрузки внешних библиотек.
 
 Библиотеки, которые поддерживают модульные системы, будут импортированы как модули Webpack. Все остальные библиотеки и исходный код визуальных элементов будут перенесены в один модуль.
 
@@ -79,7 +79,7 @@ npm install -g powerbi-visuals-tools
 
 ## <a name="how-to-install-power-bi-custom-visuals-api"></a>Установка API пользовательских визуальных элементов Power BI
 
-Новая версия powerbi-visual-tools содержит не все версии API. Вместо этого разработчик должен установить определенную версию пакета [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api). Версия пакета соответствует версии API пользовательских визуальных элементов Power BI и предоставляет все определения типов для API-интерфейса пользовательских визуальных элементов Power BI.
+Новая версия powerbi-visual-tools содержит не все версии API. Вместо этого разработчик должен установить определенную версию пакета [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api). Версия пакета соответствует версии API пользовательских визуальных элементов Power BI и предоставляет все определения типов для API-интерфейса пользовательских визуальных элементов Power BI.
 
 Добавьте `powerbi-visuals-api` в зависимости проекта, выполнив команду `npm install --save-dev powerbi-visuals-api`.
 Также следует удалить ссылку на определения типов старых API. Так как сейчас типы из `powerbi-visuals-api` автоматически включаются в состав пакета. Соответствующие изменения находятся в [этой](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) строке `package.json`.
@@ -91,11 +91,11 @@ npm install -g powerbi-visuals-tools
 
 Он необходим, так как файлы TypeScript будут компилироваться в файлы JavaScript независимо друг от друга. Поэтому больше не нужно указывать файл visual.js в качестве выходных данных.
 
-Кроме того, можно изменить параметр `target` на `ES6`, если вы хотите использовать современный сценарий JavaScript в качестве выходных данных. [Это необязательно](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6).
+Кроме того, можно изменить параметр `target` на `ES6`, если вы хотите использовать современный скрипт JavaScript в качестве выходных данных. [Это необязательно](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6).
 
 ## <a name="update-custom-visuals-utils"></a>Обновление средства пользовательских визуальных элементов
 
-Если вы используете один из инструментов [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils), необходимо обновить их до последней версии.
+Если вы используете одно из средств powerbi-visuals-utils (https://www.npmjs.com/search?q=powerbi-visuals-utils) ), необходимо обновить их до последней версии.
 
 Выполните команду `npm install powerbi-visuals-utils-<UTILNAME> --save` (например, `npm install powerbi-visuals-utils-dataviewutils --save`), чтобы получить новую версию с внешними модулями TypeScript.
 
@@ -236,7 +236,7 @@ import "./../style/visual.less";
 
 ## <a name="babel"></a>Babel
 
-Начиная с версии 3.1, этот инструмент использует Babel для компиляции нового современного кода JS в старый ES5 для поддержки широкого спектра браузеров.
+Начиная с версии 3.1, это средство использует Babel для компиляции нового современного кода JS в старый ES5 для поддержки широкого спектра браузеров.
 
 Эта возможность включена по умолчанию, но пакет [`@babel/polyfill`](https://babeljs.io/docs/en/babel-polyfill) необходимо импортировать вручную.
 

@@ -1,15 +1,15 @@
 ---
-author: mgblythe
+author: davidiseminger
 ms.service: powerbi
 ms.topic: include
 ms.date: 09/13/2019
-ms.author: mblythe
-ms.openlocfilehash: c658e683e86a899d45728220dee3706a0d617f0f
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.author: davidi
+ms.openlocfilehash: 6d1a239954a64da1c92cc68b56912e6f4ab67228
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74284152"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882805"
 ---
 ## <a name="limitations"></a>Ограничения
 
@@ -19,7 +19,7 @@ ms.locfileid: "74284152"
 
 * Безопасность на уровне строк (RLS) можно определить только в наборах данных, созданных в Power BI Desktop. Если вы хотите включить RLS для наборов данных, созданных в Excel, нужно сначала преобразовать файлы в формат Power BI Desktop (PBIX). [Дополнительные сведения](../desktop-import-excel-workbooks.md)
 
-* Поддерживаются только извлечение, преобразование и загрузка, а также подключения DirectQuery. Активные подключения к службам Analysis Services обрабатываются в локальной модели.
+* Поддерживаются только импорт и подключения DirectQuery. Активные подключения к службам Analysis Services обрабатываются в локальной модели.
 
 ## <a name="known-issues"></a>Известные проблемы
 

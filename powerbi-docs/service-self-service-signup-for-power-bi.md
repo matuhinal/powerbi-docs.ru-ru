@@ -1,20 +1,20 @@
 ---
 title: Регистрация учетной записи отдельного пользователя в Power BI
 description: Узнайте, как зарегистрироваться в Power BI и приступить к работе с анализом и визуализацией данных.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871525"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791636"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Регистрация учетной записи отдельного пользователя в Power BI
 
@@ -68,7 +68,7 @@ Power BI может выступать в качестве вашего личн
 
 ## <a name="trial-expiration"></a>Срок действия пробной версии
 
-Закончив регистрацию, вы можете зарегистрироваться для получения пробной версии Power BI Pro в службе Power BI. После истечения срока действия этой пробной версии ваша лицензия меняется обратно на Power BI (бесплатная версия). При этом вы потеряете доступ к функциям, для работы с которыми требуется лицензия Power BI Pro. Дополнительные сведения см. в разделе [Функции по типам лицензий](service-features-license-type.md).
+Закончив регистрацию, вы можете зарегистрироваться для получения пробной версии Power BI Pro в службе Power BI. После истечения срока действия этой пробной версии ваша лицензия меняется обратно на Power BI (бесплатная версия). При этом вы потеряете доступ к функциям, для работы с которыми требуется лицензия Power BI Pro. Дополнительные сведения см. в разделе [Функции по типам лицензий](service-features-license-type.md).
 
 Если вам достаточно лицензии на Power BI (бесплатная версия), вам не нужно предпринимать никаких других действий. Чтобы воспользоваться преимуществами Power BI Pro, обратитесь к ИТ-администратору по поводу приобретения лицензии Power BI Pro.
 

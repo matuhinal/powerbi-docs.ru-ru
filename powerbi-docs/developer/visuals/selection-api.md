@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061898"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696449"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Добавление интерактивности в визуальные элементы путем выбора визуальных элементов Power BI
 
@@ -37,9 +37,9 @@ export interface ISelectionId {
 
 Узловой объект визуального элемента предоставляет метод для создания экземпляра диспетчера выбора. Диспетчер выбора отвечает за выбор, отмену выбора, отображение контекстного меню, сохранение текущего выбора и проверку состояния выбора. Диспетчер выбора также содержит соответствующие методы для этих действий.
 
-### <a name="create-instance-of-selection-manager"></a>Создание экземпляра диспетчера выбора
+### <a name="create-an-instance-of-the-selection-manager"></a>Создание экземпляра диспетчера выбора
 
-Для использования диспетчера выбора необходимо создать экземпляр диспетчера выбора. Обычно визуальные элементы создают экземпляр менеджера выбора в `constructor` объекта визуального элемента.
+Для использования диспетчера выбора необходимо создать его экземпляр. Обычно визуальные элементы создают экземпляр диспетчера выбора в `constructor` объекта визуального элемента.
 
 ```typescript
 export class Visual implements IVisual {
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>Создание экземпляра конструктора выбора
+### <a name="create-an-instance-of-the-selection-builder"></a>Создание экземпляра конструктора выбора
 
 При создании экземпляра диспетчера выбора необходимо создать `selections` для каждой точки данных визуального элемента. Узловой объект визуального элемента предоставляет метод `createSelectionIdBuilder` для создания выбора для каждой точки данных. Этот метод возвращает экземпляр объекта с интерфейсом `powerbi.visuals.ISelectionIdBuilder`:
 
@@ -74,14 +74,14 @@ export interface ISelectionIdBuilder {
 Этот объект содержит соответствующие методы для создания `selections` для различных типов сопоставлений представлений данных.
 
 > [!NOTE]
-> Методы `withTable` и `withMatrixNode` были введены в API 2.5.0 визуальных элементов Power BI.
-> Если необходимо использовать выделения для сопоставления табличных или матричных представлений данных, необходимо обновить API до версии 2.5.0 или более новой.
+> Методы `withTable` и `withMatrixNode` появились в API 2.5.0 визуальных элементов Power BI.
+> Если необходимо использовать выделения для сопоставления табличных или матричных представлений данных, следует обновить API до версии 2.5.0 или более поздней.
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>Создание выбора для сопоставления представления данных о категориях
 
-Давайте посмотрим, как выбор представлен в сопоставлении представления данных о категориях для образца набора данных:
+Давайте посмотрим, как выбор представлен в сопоставлении представления категориальных данных для образца набора данных:
 
-| Производитель | Тип | Значение |
+| Изготовитель | Тип | Значение |
 | - | - | - |
 | Chrysler | Отечественные автомобили | 28883 |
 | Chrysler | Отечественные грузовики | 117131 |
@@ -155,13 +155,13 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-В этом примере `Manafacturer` — это `columns`, а `Type` — `rows`. Ряд создается путем группировки значений по `rows` (`Type`).
+В этом примере `Manufacturer` — это `columns`, а `Type` — `rows`. Ряд создается путем группировки значений по `rows` (`Type`).
 
-При этом визуальный элемент должен делить данные по `Manafacturer` и `Type`.
+При этом визуальный элемент должен делить данные по `Manufacturer` и `Type`.
 
-Например, если пользователь выбирает `Chrysler` с помощью `Manafacturer`, другие визуальные элементы должны показывать следующие данные:
+Например, если пользователь выбирает `Chrysler` с помощью `Manufacturer`, другие визуальные элементы должны показывать следующие данные:
 
-| Производитель | Тип | Значение |
+| Изготовитель | Тип | Значение |
 | - | - | - |
 | **Chrysler** | Отечественные автомобили | 28883 |
 | **Chrysler** | Отечественные грузовики | 117131 |
@@ -170,7 +170,7 @@ export interface ISelectionIdBuilder {
 
 Если пользователь выбирает `Import Car` по `Type` (выбирает данные по рядам), другие визуальные элементы должны показывать следующие данные:
 
-| Производитель | Тип | Значение |
+| Изготовитель | Тип | Значение |
 | - | - | - |
 | Chrysler | **Импортные автомобили** | 0 |
 | Ford | **Импортные автомобили** | 0 |
@@ -185,10 +185,10 @@ export interface ISelectionIdBuilder {
 
 ![Корзины данных визуального элемента с выбранными элементами](media/visual-selections-databuckets.png)
 
-`Manafacturer` — это категория (столбцы), `Type` — это ряд (строки), а `Value` — это `Values` для ряда.
+`Manufacturer` — это категория (столбцы), `Type` — это ряд (строки), а `Value` — это `Values` для ряда.
 
 > [!NOTE]
-> `Values` требуется для ряда, так как в соответствии с сопоставлением представления данных визуальный элемент ожидает, что `Values` будет сгруппирован по данным `Rows`.
+> Значения `Values` требуются для ряда, так как, в соответствии с сопоставлением представления данных, визуальный элемент ожидает, что `Values` будет сгруппирован по данным `Rows`.
 
 #### <a name="create-selections-for-categories"></a>Создание выделенных элементов для категорий
 
@@ -196,7 +196,7 @@ export interface ISelectionIdBuilder {
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -229,9 +229,9 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-В примере кода можно увидеть, что мы просматриваем все категории. И в каждой итерации мы вызываем `createSelectionIdBuilder`, чтобы создать следующий элемент выбора для каждой категории, вызвав метод `withCategory` конструктора выбора. Метод `createSelectionId` используется в качестве завершающего метода для возврата созданного объекта `selection`.
+В примере кода можно увидеть, что мы перебираем все категории. В каждой итерации мы вызываем `createSelectionIdBuilder`, чтобы создать следующий элемент выбора для каждой категории, вызвав метод `withCategory` конструктора выбора. Метод `createSelectionId` используется в качестве завершающего метода для возврата созданного объекта `selection`.
 
-В метод `withCategory` передается столбец `category`, в этом примере он `Manafacturer` и индекс элемента категории.
+В методе `withCategory` передается столбец `category`. В этом примере это `Manufacturer` и индекс элемента категории.
 
 #### <a name="create-selections-for-series"></a>Создание элементов выбора для ряда
 
@@ -309,7 +309,7 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-Код визуального элемента выполняет перебор строк таблицы и каждая строка вызывает метод `withTable` таблицы. Параметры метода `withTable` — это объект `table` и индекс строки таблицы.
+Код визуального элемента выполняет перебор строк таблицы, и каждая строка вызывает метод `withTable` таблицы. Параметры метода `withTable` — это объект `table` и индекс строки таблицы.
 
 ### <a name="create-selections-for-matrix-data-view-mapping"></a>Создание элементов выбора для сопоставления представления матричных данных
 
@@ -342,7 +342,7 @@ public update(options: VisualUpdateOptions) {
 
 ## <a name="select-datapoints-to-slice-other-visuals"></a>Выбор точек данных для сегментации других визуальных элементов
 
-В образцах кода для сопоставления представления данных по категориям вы видели, что мы создали обработчик щелчков для элементов button. Обработчик вызывает метод `select` диспетчера выбора и передает объект выбора.
+В образцах кода для сопоставления представления категориальных данных вы видели, что мы создали обработчик щелчков мышью для элементов button. Обработчик вызывает метод `select` диспетчера выбора и передает объект выбора.
 
 ```typescript
 button.addEventListener("click", () => {
@@ -361,9 +361,9 @@ interface ISelectionManager {
 }
 ```
 
-Здесь можно видеть, что `select` может принимать массив элементов выбора. Это означает, что визуальный элемент может выбрать несколько точек данных. Второй параметр `multiSelect` отвечает за множественный выбор. Если значение равно true, Power BI не очищает предыдущее состояние выбора и применяет текущий выбор, в противном случае предыдущий выбор сбрасывается.
+Как видите, `select` может принимать массив элементов выбора. Это означает, что визуальный элемент может выбрать несколько точек данных. Второй параметр `multiSelect` отвечает за множественный выбор. Если значение равно true, Power BI не очищает предыдущее состояние выбора и применяет текущий выбор. В противном случае предыдущий выбор сбрасывается.
 
-Типичный сценарий использования `multiSelect` предполагает обработку состояния нажатия клавиши CTRL в событии щелчка.
+Типичный сценарий использования `multiSelect` предполагает обработку состояния нажатия клавиши CTRL в событии щелчка мышью.
 
 ```typescript
 button.addEventListener("click", (mouseEvent) => {

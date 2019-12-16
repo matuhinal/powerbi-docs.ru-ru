@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565320"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695434"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Руководство. Внедрение содержимого Power BI в приложение для национальных облаков
 
@@ -54,7 +54,7 @@ Power BI также поддерживает [национальные обла�
 * Government Community Cloud (GCC):
 
     > [!NOTE]
-    > Внедрение содержимого Power BI из облака сообщества для государственных организаций (GCC) возможно только с использованием SKU Office 356. Клиенты GCC High могут использовать [SKU Office 356 или Azure](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
+    > Внедрение содержимого Power BI из облака сообщества для государственных организаций (GCC) возможно только с использованием SKU Office 356. Клиенты других национальных облаков могут использовать [SKU Office 356 или Azure](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
 
 1. Замените содержимое файла Cloud.config на содержимое файла GCCCloud.config.
 

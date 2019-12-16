@@ -1,21 +1,21 @@
 ---
 title: Устранение неполадок с источником данных, не поддерживающим обновление
 description: Устранение неполадок с источником данных, не поддерживающим обновление
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856265"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74792002"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Устранение неполадок с источником данных, не поддерживающим обновление
 При попытке настроить запланированное обновление набора данных может появиться сообщение об ошибке.
@@ -35,7 +35,7 @@ ms.locfileid: "73856265"
    ![Расширенный редактор](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Запишите название поставщика, указанного для источника.  В этом примере поставщиком является ActiveDirectory.  
    ![Поставщик источника данных](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. Сравните поставщик со списком поддерживаемых источников данных, приведенным в разделе [Обновление данных в Power BI](refresh-data.md).  Вы увидите, что обновление источника данных Active Directory не поддерживается.  
+5. Сравните поставщик со списком поддерживаемых источников данных, приведенным в разделе [Источники данных Power BI](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Обновление данных](refresh-data.md)  

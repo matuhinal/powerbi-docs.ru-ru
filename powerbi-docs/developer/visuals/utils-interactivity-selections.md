@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061875"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696147"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Инструменты для взаимодействия визуальных элементов Power BI Microsoft
 
@@ -23,10 +23,10 @@ InteractivityUtils — это набор функций и классов, по
 ## <a name="installation"></a>Установка
 
 > [!NOTE]
-> Если вы продолжаете использовать старую версию powerbi-visuals-tools (номер версии ниже, чем 3.x.x), установите новую версию инструментов (3.x.x).
+> Если вы продолжаете использовать старую версию powerbi-visuals-tools (номер версии ниже чем 3.x.x), установите новую версию средств (3.x.x).
 
 > [!IMPORTANT]
-> Новые обновления инструментов для взаимодействия визуальных элементов будут поддерживать только последнюю версию инструментов. [Подробнее о том, как обновить код визуальных элементов с помощью новейших инструментов](migrate-to-new-tools.md)
+> Обновления средств для взаимодействия визуальных элементов будут поддерживать только последнюю версию средств. [Подробнее о том, как обновить код визуальных элементов с помощью новейших средств](migrate-to-new-tools.md)
 
 Чтобы установить пакет, выполните следующую команду в каталоге с текущим пользовательским визуальным элементом:
 
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-interactivityutils --save
 npm install powerbi-models --save
 ```
 
-Для работы с инструментами для взаимодействия визуальных элементов, пользователю следует импортировать необходимый компонент в исходный код визуального элемента.
+Для работы со средствами для взаимодействия визуальных элементов следует импортировать необходимый компонент в исходный код визуального элемента.
 
 ```typescript
 import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
@@ -59,9 +59,9 @@ import { interactivitySelectionService } from "powerbi-visuals-utils-interactivi
 ```
 
 > [!NOTE]
-> Файл CSS следует импортировать в файл с расширением "less", поскольку средства визуальных элементов Power BI создают оболочку для внешних правил CSS.
+> Файл CSS следует импортировать в файл с расширением LESS, так как средства визуальных элементов Power BI создают оболочку для внешних правил CSS.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Использование
 
 ### <a name="define-interface-for-data-points"></a>Определение интерфейса для точек данных
 
@@ -80,7 +80,7 @@ import { interactivitySelectionService } from "powerbi-visuals-utils-interactivi
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-Первым шагом в использовании инструментов для взаимодействия является создание экземпляра инструментов для взаимодействия визуальных элементов и сохранение объекта в качестве свойства визуального элемента
+Первым шагом в использовании средств для взаимодействия визуальных элементов является создание экземпляра этих средств и сохранение объекта в качестве свойства визуального элемента.
 
 ```typescript
 export class Visual implements IVisual {
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-Определите класс для `visual behaviour`. Класс, отвечающий за обработку `click`, `contextmenu` событий мыши.
-При использовании щелчков мышью по элементам данных визуальный элемент вызывает обработчик выбора для выбора точек данных. Или чтобы очистить выделение, если пользователь щелкнет фоновый элемент визуализации. Класс имеет соответствующие методы: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
+Определите класс для `visual behavior`. Этот класс отвечает за обработку событий мыши `click`, `contextmenu`.
+Когда пользователь щелкает элементы данных, визуальный элемент вызывает обработчик выбора для выбора точек данных. Если пользователь щелкает фоновый элемент визуализации, вызывается обработчик снятия выделения. Класс имеет соответствующие методы: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -214,7 +214,7 @@ protected bindContextMenu() {
 }
 ```
 
-Инструменты для взаимодействия вызывают методы `bindEvents` для назначения функций обработчикам, добавления вызовов `bindClick`, `bindClearCatcher`и `bindContextMenu` в метод `bindEvents`:
+Средства для взаимодействия вызывают методы `bindEvents` для назначения функций обработчикам и добавления вызовов `bindClick`, `bindClearCatcher` и `bindContextMenu` в метод `bindEvents`:
 
 ```typescript
   public bindEvents(
@@ -230,9 +230,9 @@ protected bindContextMenu() {
   }
 ```
 
-Метод `renderSelection`, отвечающий за обновление состояния визуальных элементов на диаграмме.
+Метод `renderSelection` отвечает за обновление состояния визуальных элементов на диаграмме.
 
-Пример метода реализации `renderSelection`:
+Пример реализации метода `renderSelection`:
 
 ```typescript
 public renderSelection(hasSelection: boolean): void {
@@ -246,7 +246,7 @@ public renderSelection(hasSelection: boolean): void {
 }
 ```
 
-Последним шагом является создание экземпляра `visual behavior` и вызов метода `bind` для экземпляра инструментов для взаимодействия:
+Последним шагом является создание экземпляра `visual behavior` и вызов метода `bind` для экземпляра средств взаимодействия.
 
 ```typescript
 this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
@@ -259,9 +259,9 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 
 * `selectionMerge` является объектом выбора D3, который представляет все выбираемые элементы визуализации.
 
-* `select(this.target)` является объектом выбора D3, который представляет основные DOm-элементы визуализации.
+* `select(this.target)` является объектом выбора D3, который представляет основные элементы модели DOM визуализации.
 
-* `this.categories` точки данных с элементами, где интерфейс `VisualDataPoint` (или `categories: VisualDataPoint[];`)
+* `this.categories` — это точки данных с элементами, для которых интерфейсом является `VisualDataPoint` (или `categories: VisualDataPoint[];`).
 
 * `this.behavior` новое имя экземпляра `visual behavior`
 
@@ -278,7 +278,7 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
   }
   ```
 
-Теперь ваш визуальный элемент готов к выбору обработчика.
+Теперь ваш визуальный элемент готов к обработке выбора.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

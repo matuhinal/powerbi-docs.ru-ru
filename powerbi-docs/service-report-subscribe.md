@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099777"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831102"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Создание подписки на отчеты и панели мониторинга в службе Power BI для себя и других пользователей
 
@@ -38,7 +38,7 @@ ms.locfileid: "74099777"
 
 Процедуры подписки на панель мониторинга, отчет или отчет с разбивкой на страницы похожи. Одна кнопка позволяет оформить подписки на панели мониторинга и отчеты службы Power BI.
 
-Подписка на отчет с разбивкой на страницы немного отличается. Дополнительные сведения см. в разделе [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](paginated-reports-subscriptions.md).
+Подписка на отчет с разбивкой на страницы немного отличается. Дополнительные сведения см. в разделе [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](consumer/paginated-reports-subscriptions.md).
  
 ![выбор значка подписки](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -107,6 +107,6 @@ ms.locfileid: "74099777"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](paginated-reports-subscriptions.md)
+- [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](consumer/paginated-reports-subscriptions.md)
 - Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)    
 - [Ознакомьтесь с этой записью блога.](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

@@ -1,20 +1,20 @@
 ---
 title: Предоставление содержимого внешним гостевым пользователям с помощью Azure AD B2B
 description: Power BI интегрируется с Azure Active Directory "бизнес — бизнес" (Azure AD B2B), чтобы обеспечить безопасное распространение содержимого Power BI для гостевых пользователей за пределами организации.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858009"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882822"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B
 
@@ -30,7 +30,9 @@ Power BI интегрируется с Azure Active Directory B2B (Azure AD B2B)
 
 ## <a name="who-can-you-invite"></a>Кого вы можете пригласить?
 
-Вы можете приглашать гостевых пользователей, использующих любой адрес электронной почты, включая личные учетные записи gmail.com, outlook.com, hotmail.com и т. д. В Azure AD B2B такие адреса называются *удостоверениями социальных сетей*.
+Вы можете приглашать гостевых пользователей с большинством адресов электронной почты, включая личные учетные записи gmail.com, outlook.com, hotmail.com и т. д. В Azure AD B2B такие адреса называются *удостоверениями социальных сетей*.
+
+Приглашать пользователей, связанных с облаком для государственных организаций, например [Power BI для государственных организаций США](service-govus-overview.md), нельзя.
 
 ## <a name="invite-guest-users"></a>Приглашение гостевых пользователей
 

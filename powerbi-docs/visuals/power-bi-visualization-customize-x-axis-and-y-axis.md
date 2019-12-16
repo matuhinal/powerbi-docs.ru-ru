@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880930"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791773"
 ---
+- где находится линия валовой прибыли по годам в процентах? Я могу использовать несколько линейчатых диаграмм, но не несколько графиков.
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>Настройка свойств осей X и Y
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ ms.locfileid: "73880930"
 
 ### <a name="create-a-chart-with-two-y-axes"></a>Создание диаграммы с двумя осями Y
 
-1. Выберите комбинированную диаграмму и измените ее тип на *График и гистограмма с накоплением*. 
+1. Выберите комбинированную диаграмму и измените ее тип на *График и гистограмма с накоплением*. Этот тип визуального элемента поддерживает одно значение графика и несколько значений столбцов с накоплением. 
 
     ![Снимок экрана панели визуализаций с выделенным значком графика и гистограммы с накоплением.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ ms.locfileid: "73880930"
 
    ![Комбинированная диаграмма и панель форматирования с размером шрифта, уменьшенным до 12](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI создаст две оси Y, позволяя масштабировать значения по-разному. Левая ось служит для отображения объема продаж, а правая — для процентов.
+   Power BI создаст две оси Y, позволяя масштабировать значения по-разному. Левая ось служит для отображения объема продаж в долларах, а правая — для валовой прибыли в процентах.
 
 ### <a name="format-the-second-y-axis"></a>Форматирование вспомогательной оси Y
 Так как мы начали с визуализации с одной отформатированной осью Y, служба Power BI создала вторую ось Y, используя те же параметры. Но это можно изменить. 
