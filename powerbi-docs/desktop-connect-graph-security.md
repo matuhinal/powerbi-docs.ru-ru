@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876487"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999797"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Подключайтесь к API Microsoft Graph Security в Power BI Desktop
 
@@ -40,7 +40,7 @@ API Microsoft Graph Security объединяет [несколько решен
 
 * Ответ на запрос, который приложение логики отправляет во время первого запуска с помощью [интерфейса согласия приложения](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
    
-Учетная запись пользователя, использованная для входа при подключении с помощью соединителя Microsoft Graph Security, должна быть членом роли администраторов с ограниченными правами чтения безопасности в Azure AD (*Читатель сведений о безопасности* или *Администратор безопасности*). Дополнительные сведения см. в разделе [Назначение ролей Azure AD пользователям](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
+Учетной записи пользователя, используемой для входа при подключении с помощью соединителя Microsoft Graph Security, нужно назначить роль читателя сведений о безопасности Azure AD, **если** этому пользователю не назначена роль *администратора безопасности*. Дополнительные сведения см. в разделе [Назначение ролей Azure AD пользователям](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Использование соединителя Microsoft Graph Security
 
@@ -48,7 +48,7 @@ API Microsoft Graph Security объединяет [несколько решен
 
 1. В Power BI Desktop на вкладке ленты **Главная** выберите **Получить данные** > **Дополнительно**.
 2. В списке категорий в левой части окна выберите **Веб-службы**.
-3. Выберите **Microsoft Graph Security (бета-версия)** .
+3. Выберите **Microsoft Graph Security (бета-версия)**.
 
     ![Диалоговое окно "Получение данных"](media/desktop-connect-graph-security/GetData.PNG)
     

@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698493"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958728"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Приобретение и назначение пользовательских лицензий Power BI Pro
 
-Power BI Pro — это отдельная лицензия пользователя, которая позволяет читать отчеты и панели мониторинга, опубликованные в службе Power BI, и взаимодействовать с ними, а также обмениваться содержимым и совместно работать с другими пользователями Power BI Pro. Только пользователи с пользовательской лицензией Power BI Pro могут публиковать содержимое совместно с другими пользователями или использовать содержимое, созданное другими пользователями, если содержимое не размещается в емкости Power BI Premium. Дополнительные сведения см. в разделе [Функции Power BI по типам лицензий](service-features-license-type.md).
+Power BI Pro — это отдельная лицензия пользователя, которая позволяет читать отчеты и панели мониторинга, опубликованные в службе Power BI, и взаимодействовать с ними, а также обмениваться содержимым и совместно работать с другими пользователями Power BI Pro. Только пользователи с пользовательской лицензией Power BI Pro могут публиковать содержимое совместно с другими пользователями или использовать содержимое, созданное другими пользователями, если содержимое не размещается в емкости Power BI Premium. Дополнительные сведения см. в разделе _Сравнение функций Power BI_ на странице [Цены на Power BI](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Приобретение и назначение пользовательских лицензий Power BI Pro
 
@@ -54,7 +54,7 @@ Power BI Pro — это отдельная лицензия пользовате
 
     ![Подписка Power BI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. Наведите указатель мыши на многоточие ( **. . .** ) рядом с нужной подпиской и выберите **Приобрести**.
+5. Наведите указатель мыши на многоточие (**. . .**) рядом с нужной подпиской и выберите **Приобрести**.
 
     ![Приобрести](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 

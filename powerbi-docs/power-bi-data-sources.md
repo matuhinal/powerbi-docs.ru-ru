@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699735"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958501"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
-В следующей таблице указаны источники данных, поддерживаемые Power BI, включая сведения о DirectQuery и локальном шлюзе данных.
+В следующей таблице указаны источники данных, поддерживаемые Power BI для наборов данных, включая сведения о DirectQuery и локальном шлюзе данных. См. сведения о [подключении к источникам данных для потоков данных Power BI](service-dataflows-data-sources.md).
 
 | Источник данных | Подключение из версии Desktop | Подключение и обновление из службы | Подключение DirectQuery и активное подключение | Шлюз (поддерживается) | Шлюз (обязательно) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ ms.locfileid: "74699735"
 | Planview Enterprise One — CTM | Да | Да | Нет | Нет | Нет |
 | Planview Enterprise One — PRM | Да | Да | Нет | Нет | Нет |
 | Planview Projectplace | Да | Да | Нет | Нет | Нет |
-| PostgreSQL | Да | Да | Нет | Да | Да |
+| PostgreSQL | Да | Да | Да | Да | Да |
 | Потоки данных Power BI | Да | Да | Нет | Нет | Нет |
 | Наборы данных Power BI | Да | Да | Да | Нет | Нет |
 | Потоки данных Power Platform | Да | Да | Нет | Нет | Нет |

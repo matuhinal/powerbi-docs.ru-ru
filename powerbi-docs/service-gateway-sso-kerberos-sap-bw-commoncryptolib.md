@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697642"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000188"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Использование единого входа Kerberos для SAP BW с помощью CommonCryptoLib (sapcrypto.dll)
 
@@ -30,7 +30,7 @@ ms.locfileid: "74697642"
 
 1. Убедитесь, что сервер BW правильно настроен для единого входа Kerberos с использованием CommonCryptoLib. Если это так, вы сможете использовать единый вход для доступа к серверу BW (напрямую или через сервер сообщений SAP BW) с помощью такого средства SAP, как SAP GUI, которое было настроено для использования CommonCryptoLib. 
 
-   Дополнительные сведения об этапах установки см. в статье [Единый вход SAP. Проверка подлинности с использованием Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Ваш сервер BW должен использовать CommonCryptoLib в качестве библиотеки SNC и иметь имя SNC, начинающееся с *CN=* , например *CN=BW1*. Дополнительные сведения о требованиях к имени SNC (в частности, о параметре snc/identity/as) см. на странице [Параметры SNC для конфигурации Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
+   Дополнительные сведения об этапах установки см. в статье [Единый вход SAP. Проверка подлинности с использованием Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Ваш сервер BW должен использовать CommonCryptoLib в качестве библиотеки SNC и иметь имя SNC, начинающееся с *CN=*, например *CN=BW1*. Дополнительные сведения о требованиях к имени SNC (в частности, о параметре snc/identity/as) см. на странице [Параметры SNC для конфигурации Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
 
 1. Если вы еще не сделали этого, установите 64-разрядную версию [соединителя SAP .NET](https://support.sap.com/en/product/connectors/msnet.html) на компьютере, где установлен шлюз. 
    
@@ -89,7 +89,7 @@ ms.locfileid: "74697642"
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-Если вам не удается обновить отчет в службе Power BI, можно использовать трассировку шлюза, трассировку CPIC и трассировку CommonCryptoLib, чтобы диагностировать проблему. Так как трассировка CPIC и CommonCryptoLib являются продуктами SAP, корпорация Майкрософт не может предоставить по ним поддержку. Для пользователей Active Directory, которым предоставляется доступ к BW посредством единого входа, некоторые конфигурации Active Directory могут потребовать членства в группе администраторов на компьютере, где установлен шлюз.
+Если вам не удается обновить отчет в службе Power BI, можно использовать трассировку шлюза, трассировку CPIC и трассировку CommonCryptoLib, чтобы диагностировать проблему. Так как трассировка CPIC и CommonCryptoLib являются продуктами SAP, корпорация Майкрософт не может предоставить по ним поддержку.
 
 ### <a name="gateway-logs"></a>Журналы шлюза
 
@@ -109,7 +109,49 @@ ms.locfileid: "74697642"
 
    ![Трассировка CPIC](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. Воспроизведите ошибку и убедитесь в том, что **CPIC\_TRACE\_DIR** содержит файлы трассировки.
+3. Воспроизведите ошибку и убедитесь в том, что **CPIC\_TRACE\_DIR** содержит файлы трассировки.
+ 
+    Трассировка CPIC может диагностировать проблемы более высокого уровня, такие как сбой загрузки библиотеки sapcrypto.dll. Например, ниже приведен фрагмент файла трассировки CPIC, в котором произошла ошибка загрузки .dll:
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    Если возникла такая ошибка, а вы установили разрешения на чтение и выполнение для sapcrypto.dll и sapcrypto.ini, как описано [выше](#configure-sap-bw-to-enable-sso-using-commoncryptolib), попробуйте задать те же разрешения на чтение и выполнение для папки, содержащей файлы.
+
+    Если вы по-прежнему не можете загрузить библиотеку .dll, попробуйте включить [аудит для файла](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder). Анализ результирующих журналов аудита в Просмотре событий Windows поможет определить причину сбоя загрузки файла. Найдите запись об ошибке, инициированную олицетворенным пользователем Active Directory. Например, для олицетворенного пользователя `MYDOMAIN\mytestuser` запись о сбое в журнале аудита будет выглядеть примерно так:
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>Трассировка CommonCryptoLib 
 

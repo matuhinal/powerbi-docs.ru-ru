@@ -1,5 +1,5 @@
 ---
-title: Устранение неполадок с визуальными элементами Power BI при разработке
+title: Устранение неполадок с визуализациями Power BI при разработке
 description: В этой статье описаны распространенные проблемы, которые могут возникнуть при разработке или создании настраиваемого визуального элемента Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127768"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999774"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Устранение неполадок с визуальными элементами Power BI
+# <a name="troubleshoot-power-bi-visuals"></a>Устранение неполадок с визуальными элементами Power BI
 
 ## <a name="debug"></a>Отладка
 
@@ -38,8 +38,8 @@ ms.locfileid: "74127768"
 
 Запустите сервер визуальных элементов с помощью команды `pbiviz start` в командной строке терминала из корня вашего проекта визуальных элементов. Если сервер не запускается, скорее всего, SSL-сертификаты не установлены должным образом.
 
-Вы можете обратиться в службу поддержки визуальных элементов Power BI: *pbicvsupport@microsoft.com*  с любыми вопросами, комментариями или проблемами, которые у вас есть.
+Вы можете обратиться в службу поддержки визуальных элементов Power BI: *pbicvsupport@microsoft.com* с любыми вопросами, комментариями или проблемами, которые у вас есть.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные сведения: [Часто задаваемые вопросы о визуальных элементах Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
+Дополнительные сведения: [Часто задаваемые вопросы о визуализациях Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).

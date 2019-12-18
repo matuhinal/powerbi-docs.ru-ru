@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 98a1fc1c394a81f743e622ec1756e6501a497fa3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699850"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958363"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Невозможно добавить Power BI к партнерской подписке на Office 365
 
@@ -48,7 +48,7 @@ Office 365 позволяет компаниям перепродавать па
 
 ## <a name="sign-up-for-a-free-trial"></a>Регистрация для получения бесплатной пробной версии
 
-Вы можете зарегистрироваться для получения бесплатной пробной версии Power BI Pro. Если вы не приобретете Power BI Pro в конце пробного периода, у вас по-прежнему будет бесплатная лицензия с множеством функций Power BI. Дополнительные сведения см. в статье [Power BI: сравнение возможностей бесплатной версии и версии Pro](service-features-license-type.md).
+Вы можете зарегистрироваться для получения бесплатной пробной версии Power BI. Если вы не приобретете Power BI Pro в конце пробного периода, у вас по-прежнему будет бесплатная лицензия с множеством функций Power BI. Дополнительные сведения см. в разделе [Регистрация отдельного пользователя в Power BI](service-self-service-signup-for-power-bi.md).
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Включение специализированных подписок
 
