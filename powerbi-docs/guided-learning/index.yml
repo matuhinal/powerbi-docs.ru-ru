@@ -63,7 +63,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop
     - text: Подключение к источникам данных (10 мин)
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3-connect-data-sources-power-bi-desktop
-    - text: Получить данные из Excel (5 мин)
+    - text: Получение данных из Excel (5 мин)
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3b-data-from-excel
     - text: Преобразование данных для включения в отчет (10 мин)
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/4-clean-data-query-editor
