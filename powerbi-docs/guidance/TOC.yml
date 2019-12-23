@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: "Автоматические дата и время в Power\_BI\_Desktop"
           href: auto-date-time.md
+        - name: Руководство по связи "многие ко многим"
+          href: relationships-many-to-many.md
     - name: Технические документы
       items:
         - name: Обзор технической документации

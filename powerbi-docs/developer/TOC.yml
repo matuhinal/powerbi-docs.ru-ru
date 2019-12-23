@@ -83,8 +83,22 @@
               href: visuals/event-service.md
             - name: Сортировка
               href: visuals/sort-options.md
-            - name: Инструменты для взаимодействия
-              href: visuals/utils-interactivity-selections.md
+            - name: Локализация
+              href: visuals/localization.md
+            - name: "Инструменты для визуальных элементов Power\_BI"
+              items:
+                - name: Инструменты для взаимодействия
+                  href: visuals/utils-interactivity-selections.md
+                - name: Инструменты форматирования
+                  href: visuals/utils-formatting.md
+                - name: Инструменты для диаграмм
+                  href: visuals/utils-chart.md
+                - name: "Инструменты для\_SVG"
+                  href: visuals/utils-svg.md
+                - name: Инструменты для типов
+                  href: visuals/utils-type.md
+                - name: "Инструменты для\_DataView"
+                  href: visuals/utils-dataview.md
         - name: Ресурсы
           items:
             - name: Центр разработки

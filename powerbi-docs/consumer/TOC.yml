@@ -142,6 +142,8 @@
       items:
         - name: Что такое мобильные приложения?
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: Знакомство с начальной страницей
+          href: mobile/mobile-apps-home-page.md
     - name: Краткие руководства
       items:
         - name: Изучение панелей мониторинга и отчетов
@@ -198,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: Добавление заметок и предоставление доступа в мобильных приложениях
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Сканирование штрихкода из приложения на iPhone
+            - name: Сканирование штрихкода из мобильного приложения Power BI
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: Настройка с помощью управления мобильными устройствами
               href: mobile/mobile-app-configuration.md
