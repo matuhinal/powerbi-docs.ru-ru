@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73875147"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Новые функции фильтров в отчетах Power BI
@@ -53,7 +53,7 @@ ms.locfileid: "73875147"
 Если вы не включили новый вид, вы можете увидеть новый интерфейс фильтра, выполнив следующие действия.
 
 1. В службе Power BI выберите вкладку **Отчеты** в списке содержимое для рабочей области.
-2. Найдите отчет, который нужно включить, и щелкните значок **Параметры** ![значок параметров отчета](media/power-bi-report-filter/power-bi-settings-icon.png) для этого отчета.
+2. Найдите отчет, который нужно включить, и щелкните значок **Параметры**![значок параметров отчета](media/power-bi-report-filter/power-bi-settings-icon.png) для этого отчета.
 3. В разделе **Возможности фильтрации** **включите обновленную область фильтров и отобразите фильтры в заголовке визуального элемента для этого отчета**.
 
     ![Включение обновленной панели фильтров](media/power-bi-report-filter/power-bi-service-filter-enable.png)

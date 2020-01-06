@@ -10,10 +10,10 @@ ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 12/03/2019
 ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74831146"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
@@ -24,7 +24,7 @@ ms.locfileid: "74831146"
 
 | Функции | Cервере отчетов Power BI | Служба Power BI | Примечания |
 |---------|---------|---------|---------|
-| Развертывание | Локально или в размещенном облаке | В облаке | Решение "Сервер отчетов Power BI" можно развернуть на виртуальных машинах Azure (размещенное облако), если используется лицензия Power BI Premium |
+| Развертывание | Локально или в размещенном облаке | Облако | Решение "Сервер отчетов Power BI" можно развернуть на виртуальных машинах Azure (размещенное облако), если используется лицензия Power BI Premium |
 | Исходные данные | Облачные и (или) локальные | Облачные и (или) локальные |  |
 | Лицензия | Power BI Premium или SQL Server ЕЕ с правами системного администратора | Power BI Pro и (или) Power BI Premium | |  
 | Жизненный цикл | Современная политика жизненного цикла | Полностью управляемая служба |  |

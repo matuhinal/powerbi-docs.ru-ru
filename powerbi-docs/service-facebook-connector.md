@@ -10,14 +10,14 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 644e68ec827915c5457e22e1c1486a8f6f3299f6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877040"
 ---
 # <a name="facebook-connector-for-power-bi-desktop"></a>Соединитель Facebook для Power BI Desktop
-Соединитель Facebook в **Power BI Desktop** основывается на Facebook Graph API. Таким образом, наличие функций и доступность со временем могут меняться.
+Соединитель Facebook в **Power BI Desktop** основывается на Facebook Graph API. поэтому его функции и доступность могут измениться в дальнейшем.
 
 Можно ознакомиться с [учебником о соединителе Facebook для Power BI Desktop](desktop-tutorial-facebook-analytics.md).
 

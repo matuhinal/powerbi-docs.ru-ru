@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877373"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Создание и использование потоков данных в Power BI
@@ -57,7 +57,7 @@ ms.locfileid: "73877373"
 
 При выборе источника данных вам нужно указать параметры подключения, в том числе учетную запись для подключения к источнику данных, как показано на следующем рисунке.
 
-![Подключение к источнику данных](media/service-dataflows-create-use/dataflows-create-use_06.png)
+![Подключиться к источнику данных](media/service-dataflows-create-use/dataflows-create-use_06.png)
 
 Подключившись, вы сможете выбрать данные, используемые для сущности. Когда вы выберете данные и источник, Power BI будет повторно подключаться к этому источнику для обновления данных в потоке данных с частотой, которую вы настроите позже.
 
@@ -156,7 +156,7 @@ ms.locfileid: "73877373"
 
 * **Хранилище данных SQL Azure** — потоки данных сейчас не поддерживают проверку подлинности Azure Active Directory (AAD) для хранилища данных SQL Azure. Для этого сценария используйте базовую проверку подлинности.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 В этой статье описано, как создать собственный **поток данных** и применить его в наборе данных и отчете, созданных в **Power BI Desktop**. Следующие статьи помогут получить дополнительные сведения и изучить сценарии применения потоков данных:
 

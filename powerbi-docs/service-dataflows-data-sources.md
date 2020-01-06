@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872662"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Подключение к источникам данных для потоков данных Power BI
@@ -53,7 +53,7 @@ ms.locfileid: "73872662"
 * База данных
 * Power BI
 * Azure
-* Интернет-службы
+* Веб-службы
 * Другое
 
 Категория **Все категории** включает в себя все источники данных из всех категорий. 
@@ -170,7 +170,7 @@ ms.locfileid: "73872662"
 Это вся информация о подключении к источникам данных в потоках данных Power BI.
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 В этой статье были рассмотрены источники данных, к которым можно подключаться для потоков данных. В следующих статьях содержатся более подробные сведения о типичных сценариях применения потоков данных. 
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565345"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622422"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Организация работы в новых рабочих областях в Power BI
 
@@ -111,18 +111,19 @@ ms.locfileid: "74565345"
 Power BI не синхронизирует разрешения пользователей или групп, для которых настроен доступ к рабочей области с членством в группе Office 365. Рекомендуется управлять доступом к рабочей области через ту же группу Office 365, хранилище файлов которой вы настраиваете в этом параметре. 
 
 Узнайте, как [настроить и получить доступ к OneDrive для рабочей области](service-create-the-new-workspaces.md#workspace-onedrive).  
-   
+
 ## <a name="auditing"></a>Аудит
+
 Power BI проверяет следующие действия на наличие рабочих областей новой версии.
 
-| Понятное имя |   Имя операции |
+| Понятное имя | Имя операции |
 |---|---|
 | Создана папка Power BI | CreateFolder |
 | Удалена папка Power BI | DeleteFolder |
 | Обновлена папка Power BI | UpdateFolder |
 | Обновлен доступ к папке Power BI| UpdateFolderAccess |
 
-Дополнительные сведения [об аудите в Power BI](service-admin-auditing.md#activities-audited-by-power-bi).
+Дополнительные сведения [об аудите в Power BI](service-admin-auditing.md).
 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 

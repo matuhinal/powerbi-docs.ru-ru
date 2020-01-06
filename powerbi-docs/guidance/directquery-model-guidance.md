@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478614"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223645"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Руководство по использованию модели DirectQuery в Power BI Desktop
 
@@ -87,7 +87,7 @@ ms.locfileid: "74478614"
 
     При увеличении значения параметра **Максимальное число подключений на источник данных** увеличивается число запросов (до максимального указанного количества), отправляемых в базовый источник данных, что удобно при наличии нескольких визуальных элементов на одной странице или при одновременном подключении к отчету большого числа пользователей. Как только будет достигнуто максимальное число подключений, дополнительные запросы помещаются в очередь до освобождения подключения. Увеличение этого предела приводит к росту нагрузки на базовый источник данных, соответственно, параметр не гарантирует общего повышения производительности.
     
-    При публикации модели в Power BI максимально допустимое число параллельных запросов к базовому источнику данных также зависит от среды. Разные среды (например, Power BI, Power BI Premium или сервер отчетов Power BI) могут налагать разные ограничения на пропускную способность. Дополнительные сведения об ограничениях ресурсов емкости для Power BI Premium см. в статье [Развертывание емкостей Power BI Premium и управление ими](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities).
+    При публикации модели в Power BI максимально допустимое число параллельных запросов к базовому источнику данных также зависит от среды. Разные среды (например, Power BI, Power BI Premium или сервер отчетов Power BI) могут налагать разные ограничения на пропускную способность. Дополнительные сведения об ограничениях ресурсов емкости для Power BI Premium см. в статье [Развертывание емкостей Power BI Premium и управление ими](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment).
 
 ## <a name="optimize-report-designs"></a>Оптимизация схем отчетов
 

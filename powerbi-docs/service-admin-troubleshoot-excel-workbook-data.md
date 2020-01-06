@@ -1,6 +1,6 @@
 ---
-title: Ошибка Не найдены данные в книге Excel
-description: Ошибка Не найдены данные в книге Excel
+title: Ошибка. Не найдены данные в книге Excel
+description: Ошибка. Не найдены данные в книге Excel
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -11,13 +11,13 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 1976567029454445f625ff400fb1d87ae6c01219
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698424"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка Не найдены данные в книге Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Ошибка. Не найдены данные в книге Excel
 
 >[!NOTE]  
 >Эта статья относится к Excel 2007 и более поздних версий.

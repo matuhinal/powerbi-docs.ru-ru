@@ -10,23 +10,23 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74697550"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Что такое локальный шлюз данных?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Локальный шлюз данных выполняет функцию моста, обеспечивая быструю и безопасную передачу данных (которые не находятся в облаке) между локальной средой и рядом облачных служб Майкрософт. К ним относятся Power BI, PowerApps, Power Automate, Azure Analysis Services и Azure Logic Apps. Благодаря шлюзу организации могут хранить базы данных и другие источники данных в локальной сети, сохраняя возможность безопасно использовать эти локальные данные в облачных службах.
+Локальный шлюз данных выполняет функцию моста, обеспечивая быструю и безопасную передачу локально расположенных данных (не в облаке) между локальной средой и рядом облачных служб Майкрософт. К ним относятся Power BI, PowerApps, Power Automate, Azure Analysis Services и Azure Logic Apps. Благодаря шлюзу организации могут хранить базы данных и другие источники данных в локальной сети с возможностью безопасно использовать эти локальные данные в облачных службах.
 
-## <a name="how-the-gateway-works"></a>Принципы работы шлюзов
+## <a name="how-the-gateway-works"></a>Принцип работы шлюза
 
-![Обзор шлюза](media/service-gateway-onprem/on-premises-data-gateway.png)
+![Общие сведения о шлюзе](media/service-gateway-onprem/on-premises-data-gateway.png)
 
-Дополнительные сведения о принципах работы шлюза см. в статье [Архитектура локального шлюза данных](/data-integration/gateway/service-gateway-onprem-indepth).
+См. сведения об [архитектуре локального шлюза данных](/data-integration/gateway/service-gateway-onprem-indepth).
 
 ## <a name="types-of-gateways"></a>Типы шлюзов
 
@@ -38,16 +38,16 @@ ms.locfileid: "74697550"
 
 ## <a name="use-a-gateway"></a>Использование шлюза
 
-Чтобы использовать шлюз, нужно выполнить четыре основных действия.
+Чтобы использовать шлюз, нужно выполнить четыре основных действия:
 
-1. [Скачайте и установите шлюз](/data-integration/gateway/service-gateway-install) на локальном компьютере.
-1. [Настройте](/data-integration/gateway/service-gateway-app) шлюз в соответствии с учетом конфигурации брандмауэра и других требований к сети.
-1. [Добавьте администраторов шлюзов](/data-integration/gateway/service-gateway-manage), которые также могут сети и управлять ими.
+1. [скачайте и установите шлюз](/data-integration/gateway/service-gateway-install) на локальном компьютере;
+1. [настройте](/data-integration/gateway/service-gateway-app) шлюз с учетом конфигурации брандмауэра и других требований к сети;
+1. [добавьте администраторов шлюзов](/data-integration/gateway/service-gateway-manage), которые также могут управлять другими сетевыми требованиями;
 1. [Используйте шлюз](service-gateway-sql-tutorial.md) для обновления локального источника данных.
-1. [Устраните неполадки](service-gateway-onprem-tshoot.md) для шлюза при наличии ошибок.
+1. [устраните неполадки](service-gateway-onprem-tshoot.md) со шлюзом при возникновении ошибок.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Установка и настройка локального шлюза данных](/data-integration/gateway/service-gateway-install)
+* [Установка локального шлюза данных](/data-integration/gateway/service-gateway-install)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

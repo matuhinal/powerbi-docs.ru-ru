@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4bbc8b71455d01405854304dd4b889f664ce8575
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877289"
 ---
 # <a name="dataflows-best-practice"></a>Рекомендации по потокам данных
@@ -64,7 +64,7 @@ ms.locfileid: "73877289"
 
 Если вы столкнулись с ограничениями регулирования или видите регулярные сбои для потоков данных из-за ограничений памяти на вашей емкости, рассмотрите возможность разделения потоков данных или увеличения емкости Premium для дополнительной памяти.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 В этой статье предоставлена информация о рекомендациях для потоков данных. Дополнительные сведения о потоках данных вы можете получить в следующих статьях.
 

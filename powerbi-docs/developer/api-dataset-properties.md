@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 9d0ab5bcffe3b0267b3e07a684c2c7c9bd0fd316
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265821"
 ---
 # <a name="dataset-properties"></a>Свойства набора данных
@@ -26,52 +26,52 @@ ms.locfileid: "74265821"
 
 Имя  |Тип  |Описание  |Только для чтения  |Требуется
 ---------|---------|---------|---------|---------
-id     |  Guid       | Системный идентификатор набора данных.        | Да        | Нет        
-name     | String        | Определяемое пользователем имя набора данных.        | Нет        | Да        
-tables     | Table[]        | Коллекция таблиц.        |  Нет       | Нет        
-relationships     | Relationship[]        | Коллекция связей между таблицами.        | Нет        |  Нет  
-defaultMode     | Строка        | Определяет действие, выполняемое с набором данных, — отправка или передача в потоковом режиме (или и то и другое). Значения: "Push" и "Streaming".         | False        |  Нет
+Идентификатор     |  Guid       | Системный идентификатор набора данных.        | Да        | False        
+name     | Строка        | Определяемое пользователем имя набора данных.        | False        | Да        
+tables     | Table[]        | Коллекция таблиц.        |  False       | False        
+relationships     | Relationship[]        | Коллекция связей между таблицами.        | False        |  False  
+defaultMode     | Строка        | Определяет действие, выполняемое с набором данных, — отправка или передача в потоковом режиме (или и то и другое). Значения: "Push" и "Streaming".         | False        |  False
 
-## <a name="table"></a>Табличные
+## <a name="table"></a>Таблица
 
 Имя  |Тип  |Описание  |Только для чтения  |Требуется
 ---------|---------|---------|---------|---------
-name     | String        |  Определяемое пользователем имя таблицы. Также может использоваться в качестве ее идентификатора.       | Нет        |  Да       
-columns     |  column[]       |  Коллекция столбцов.       | Нет        |  Да       
-measures     | measure[]        |  Коллекция мер.       | Нет        |  Нет       
-isHidden     | Boolean        | Если это свойство имеет значение true, таблица скрыта в клиентских средствах.        | Нет        | Нет        
+name     | Строка        |  Определяемое пользователем имя таблицы. Также может использоваться в качестве ее идентификатора.       | False        |  Да       
+columns     |  column[]       |  Коллекция столбцов.       | False        |  Да       
+measures     | measure[]        |  Коллекция мер.       | False        |  False       
+isHidden     | Логический        | Если это свойство имеет значение true, таблица скрыта в клиентских средствах.        | False        | False        
 
 ## <a name="column"></a>Column
 
 Имя  |Тип  |Описание  |Только для чтения  |Требуется
 ---------|---------|---------|---------|---------
-name     |  String        | Определяемое пользователем имя столбца.        |  Нет       | Да       
-dataType     |  String       |  Поддерживаемые [типы данных EDM](https://msdn.microsoft.com/library/ee382832.aspx) и ограничения. См. раздел [Ограничения типов данных](#DataTypeRestrictions).      |  Нет       | Да        
-formatString     | String        | Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).      | Нет        | Нет        
-sortByColumn    | String        |   Строка, представляющая собой название столбца в той же таблице, который нужно использовать для сортировки текущего столбца.     | Нет        | Нет       
-dataCategory     | String        |  Строковое значение, которое следует использовать в качестве категории данных, описывающей данные в столбце. Вот несколько типичных значений: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl.       |  False       | Нет        
-isHidden    |  Boolean       |  Свойство, указывающее, является ли столбец скрытым. По умолчанию принимает значение false.       | Нет        | Нет        
-summarizeBy     | String        |  Метод агрегирования по умолчанию для столбца. Доступны следующие значения: default, none, sum, min, max, count, average, distinctCount     |  Нет       | Нет
+name     |  Строка        | Определяемое пользователем имя столбца.        |  False       | Да       
+dataType     |  Строка       |  Поддерживаемые [типы данных EDM](https://msdn.microsoft.com/library/ee382832.aspx) и ограничения. См. раздел [Ограничения типов данных](#DataTypeRestrictions).      |  False       | Да        
+formatString     | Строка        | Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
+sortByColumn    | Строка        |   Строка, представляющая собой название столбца в той же таблице, который нужно использовать для сортировки текущего столбца.     | False        | False       
+dataCategory     | Строка        |  Строковое значение, которое следует использовать в качестве категории данных, описывающей данные в столбце. Вот несколько типичных значений: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl.       |  False       | False        
+isHidden    |  Логический       |  Свойство, указывающее, является ли столбец скрытым. По умолчанию принимает значение false.       | False        | False        
+summarizeBy     | Строка        |  Метод агрегирования по умолчанию для столбца. Доступны следующие значения: default, none, sum, min, max, count, average, distinctCount     |  False       | False
 
 ## <a name="measure"></a>Мера
 
 Имя  |Тип  |Описание  |Только для чтения  |Требуется
 ---------|---------|---------|---------|---------
-name     | String        |  Определяемое пользователем имя меры.       |  Нет       | Да        
-expression     | String        | Допустимое выражение DAX.        | Нет        |  Да       
-formatString     | String        |  Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).       | Нет        | Нет        
-isHidden     | String        |  Если это свойство имеет значение true, таблица скрыта в клиентских средствах.       |  Нет       | Нет       
+name     | Строка        |  Определяемое пользователем имя меры.       |  False       | Да        
+expression     | Строка        | Допустимое выражение DAX.        | False        |  Да       
+formatString     | Строка        |  Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
+isHidden     | Строка        |  Если это свойство имеет значение true, таблица скрыта в клиентских средствах.       |  False       | False       
 
 ## <a name="relationship"></a>Связь
 
 Имя  |Тип  |Описание  |Только для чтения  |Требуется 
 ---------|---------|---------|---------|---------
-name     | String        | Определяемое пользователем имя связи. Также может использоваться в качестве ее идентификатора.        | Нет       | Да        
-crossFilteringBehavior     | Строка        |    Направление фильтра связи: OneDirection (по умолчанию), BothDirections, Automatic       | False        | Нет        
-fromTable     | String        | Имя таблицы внешнего ключа.        | Нет        | Да         
-fromColumn    | String        | Имя столбца внешнего ключа.        | Нет        | Да         
-toTable    | String        | Имя таблицы первичного ключа.        | Нет        | Да         
-toColumn     | String        | Имя столбца первичного ключа.        | Нет        | Да        
+name     | Строка        | Определяемое пользователем имя связи. Также может использоваться в качестве ее идентификатора.        | False       | Да        
+crossFilteringBehavior     | Строка        |    Направление фильтра связи: OneDirection (по умолчанию), BothDirections, Automatic       | False        | False        
+fromTable     | Строка        | Имя таблицы внешнего ключа.        | False        | Да         
+fromColumn    | Строка        | Имя столбца внешнего ключа.        | False        | Да         
+toTable    | Строка        | Имя таблицы первичного ключа.        | False        | Да         
+toColumn     | Строка        | Имя столбца первичного ключа.        | False        | Да        
 
 <a name="DataTypeRestrictions"/>
 
@@ -81,7 +81,7 @@ toColumn     | String        | Имя столбца первичного клю
 ---------|---------
 Int64     |   Int64.MaxValue и Int64.MinValue не допускаются.      
 Double     |  Значения Double.MaxValue и Double.MinValue не допускается. NaN не поддерживается. В некоторых функциях не поддерживаются +Infinity и -Infinity (например, Min, Max).       
-Boolean     |   True или False.
+Логический     |   True или False.
 DateTime    |   Во время загрузки данных мы квантуем значения с частями суток на целые значения, кратные 1/300 секунды (3,33 мс).      
 Строка     |  Текущее ограничение длины строкового значения: 4000 символов.
 Десятичное|точность = 28, шкала = 4

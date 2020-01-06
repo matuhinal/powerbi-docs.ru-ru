@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
 ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74311061"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
@@ -414,7 +414,7 @@ function updateEmbedReport() {
 
     ![Рабочая область, связанная с емкостью](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
-## <a name="admin-settings"></a>Параметры администрирования
+## <a name="admin-settings"></a>Параметры администратора
 
 Глобальные администраторы или администраторы служб Power BI могут включать и отключать возможность использования REST API для клиента. Администраторы Power BI могут задать этот параметр для всей организации или отдельных групп безопасности. По умолчанию он включен для всей организации. Можно внести эти изменения на [портале администрирования Power BI](../service-admin-portal.md).
 

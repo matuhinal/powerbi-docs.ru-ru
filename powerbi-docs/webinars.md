@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882759"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548558"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
 Зарегистрируйтесь для просмотра предстоящих вебинаров или просмотра по запросу записанных сеансов.
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
-
-**Аналитика в виртуальном событии Azure: Ускорение аналитики с помощью Azure Synapse Analytics**
-<br>от Гайле Шеппард (Gayle Sheppard) и Джон Макинтайр (John Macintyre)
-<br>[Зарегистрироваться](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Девять тенденций, определяющих будущее аналитики больших данных**
-<br>за авторством Виджея Гопалакришнана (Vijay Gopalakrishnan)
-<br>[Зарегистрироваться для просмотра 18 декабря](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Три аспекта изменения бизнес-аналитики за счет искусственного интеллекта**
 <br>Джустина Лучник (Justyna Lucznik)
@@ -39,6 +31,10 @@ ms.locfileid: "74882759"
 
 Начало работы с популярными вебинарами по запросу
 
+**Аналитика в виртуальном событии Azure: Ускорение аналитики с помощью Azure Synapse Analytics**
+<br>от Гайле Шеппард (Gayle Sheppard) и Джон Макинтайр (John Macintyre)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Как корпорация Майкрософт изменяет защиту данных бизнес-аналитики**
 <br>Антон Фриц (Anton Fritz) и Ади Регев (Adi Regev)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ ms.locfileid: "74882759"
 **Power BI и будущее современной и корпоративной бизнес-аналитики**
 <br>Авторы: Арун Улаг и Амир Нетц (Arun Ulag и Amir Netz)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**Девять тенденций, определяющих будущее аналитики больших данных**
+<br>за авторством Виджея Гопалакришнана (Vijay Gopalakrishnan)
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Getting Started with Power BI** (Начало работы с Power BI)
 <br>Автор: Мигель Мартинес (Miguel Martinez)

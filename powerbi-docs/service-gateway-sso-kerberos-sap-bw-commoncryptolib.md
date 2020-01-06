@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000188"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Использование единого входа Kerberos для SAP BW с помощью CommonCryptoLib (sapcrypto.dll)
@@ -30,7 +30,7 @@ ms.locfileid: "75000188"
 
 1. Убедитесь, что сервер BW правильно настроен для единого входа Kerberos с использованием CommonCryptoLib. Если это так, вы сможете использовать единый вход для доступа к серверу BW (напрямую или через сервер сообщений SAP BW) с помощью такого средства SAP, как SAP GUI, которое было настроено для использования CommonCryptoLib. 
 
-   Дополнительные сведения об этапах установки см. в статье [Единый вход SAP. Проверка подлинности с использованием Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Ваш сервер BW должен использовать CommonCryptoLib в качестве библиотеки SNC и иметь имя SNC, начинающееся с *CN=*, например *CN=BW1*. Дополнительные сведения о требованиях к имени SNC (в частности, о параметре snc/identity/as) см. на странице [Параметры SNC для конфигурации Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
+   Дополнительные сведения об этапах установки см. в статье [Единый вход SAP. Проверка подлинности с использованием Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Ваш сервер BW должен использовать CommonCryptoLib в качестве библиотеки SNC и иметь имя SNC, начинающееся с *CN=* , например *CN=BW1*. Дополнительные сведения о требованиях к имени SNC (в частности, о параметре snc/identity/as) см. на странице [Параметры SNC для конфигурации Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
 
 1. Если вы еще не сделали этого, установите 64-разрядную версию [соединителя SAP .NET](https://support.sap.com/en/product/connectors/msnet.html) на компьютере, где установлен шлюз. 
    

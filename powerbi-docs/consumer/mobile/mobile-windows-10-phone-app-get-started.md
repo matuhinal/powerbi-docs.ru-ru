@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
 ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73879050"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
@@ -55,7 +55,7 @@ ms.locfileid: "73879050"
 Вы можете просматривать примеры панелей мониторинга Power BI и взаимодействовать с ними. Однако некоторые задачи с ними невозможно выполнить. Нельзя открыть отчеты, соответствующие панелям мониторинга, предоставить к примерам общий доступ для других пользователей или добавить их в избранное.
 
 1. Коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) в левом верхнем углу.
-2. Щелкните значок **Параметры** ![Значок "Параметры"](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), выберите свое имя, а затем выберите **Просмотреть примеры**.
+2. Щелкните значок **Параметры**![Значок "Параметры"](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), выберите свое имя, а затем выберите **Просмотреть примеры**.
    
    ![Просмотреть примеры](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. Выберите роль и ознакомьтесь с панелью мониторинга для этой роли.  
@@ -64,7 +64,7 @@ ms.locfileid: "73879050"
 
 ### <a name="reporting-services-mobile-report-samples"></a>Примеры мобильных отчетов Reporting Services
 1. Коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) в левом верхнем углу.
-2. Коснитесь значка **Параметры** ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), щелкните правой кнопкой мыши или нажмите и удерживайте элемент **Подключение к серверу**, а затем выберите команду **Просмотреть примеры**.
+2. Коснитесь значка **Параметры**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), щелкните правой кнопкой мыши или нажмите и удерживайте элемент **Подключение к серверу**, а затем выберите команду **Просмотреть примеры**.
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Откройте папку отчетов по розничным продажам или отчетов по сбыту и изучите ключевые показатели эффективности и мобильные отчеты.

@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74791691"
 ---
 # <a name="data-refresh-in-power-bi"></a>Обновление данных в Power BI
@@ -54,7 +54,7 @@ Power BI импортирует данные из исходных источн�
 | --- | --- |
 | Общая, A1, A2 и A3 | 1 ГБ |
 | A4 или P1 | 3 ГБ |
-| A5 или P2 | 6 ГБ |
+| A5 или P2 | 6 ГБ |
 | A6 или P3 | 10 ГБ |
 | | |
 

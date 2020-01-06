@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876275"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Руководство. Анализ Facebook с помощью Power BI Desktop
@@ -66,7 +66,7 @@ ms.locfileid: "73876275"
    
    В новом окне откроется **редактор Power Query** приложения Power BI Desktop. Отобразится область предварительного просмотра данных со страницы Power BI в Facebook. 
    
-   ![Редактор Power Query](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
+   ![Редактор Power Query](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
 2. Выберите столбец **created_time**. Обратите внимание, что это текстовый тип данных, на что указывает значок **ABC** в заголовке столбца. Щелкните правой кнопкой мыши заголовок и последовательно выберите в раскрывающемся списке **Разделить столбец > По разделителю** или последовательно выберите **Разделить столбец > По разделителю** в меню **Преобразование** на вкладке "Главная" на ленте.  
    

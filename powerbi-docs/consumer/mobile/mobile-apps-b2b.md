@@ -1,26 +1,26 @@
 ---
 title: Просмотр содержимого Power BI в качестве внешнего гостевого пользователя (Azure AD B2B)
 description: Используйте мобильные приложения Power BI для просмотра содержимого, к которому вам предоставила доступ другая организация.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879345"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219907"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Просмотр содержимого Power BI, к которому предоставила доступ другая организация.
 
 Power BI интегрируется с Azure Active Directory "бизнес — бизнес" (Azure AD B2B), чтобы обеспечить безопасное распространение содержимого Power BI для гостевых пользователей за пределами организации. Внешние гостевые пользователи могут использовать мобильное приложение Power BI для доступа к содержимому Power BI, к которому им предоставлен доступ. 
 
 
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
@@ -30,18 +30,18 @@ Power BI интегрируется с Azure Active Directory "бизнес —
 
 **Сначала пользователь из внешней организации должен поделиться с вами элементом.** Когда [вам предоставляет доступ к элементу](../../service-share-dashboards.md) пользователь из вашей или другой организации, вы получаете сообщение электронной почты со ссылкой на этот элемент. При переходе по этой ссылке на мобильном устройстве открывается мобильное приложение Power BI. Если приложение распознает, что доступ к элементу был предоставлен из внешней организации, оно подключается к этой организации с использованием ваших учетных данных. Затем приложение загружает все элементы, к которым вам предоставили доступ из этой организации.
 
-![Открытие общего элемента в Power BI из сообщения электронной почты ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Открытие общего элемента в Power BI из сообщения электронной почты ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > Если вам впервые предоставляется доступ к элементу как внешнему гостевому пользователю, необходимо запросить приглашение в браузере. Приглашение нельзя запросить в приложении Power BI.
 
 Когда вы подключены к внешней организации, в приложении отображается черный заголовок. Он указывает на то, что вы подключены не к своей организации. Чтобы снова подключиться к своей организации, выйдите из гостевого режима.
 
-![Заголовок гостевого пользователя в Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Заголовок гостевого пользователя в Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 Несмотря на то, что для подключения к внешней организации требуется ссылка на артефакт Power BI, после подключения вы сможете получить доступ ко всем общим элементам (а не только к элементу, который вы открыли из сообщения электронной почты). Чтобы просмотреть все элементы, доступные вам во внешней организации, перейдите в меню приложения и выберите пункт **Мне предоставлен доступ**. В разделе **Приложения** приводятся приложения, которые вы можете использовать.
 
-![Меню приложения Power BI для внешнего гостевого пользователя](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Меню приложения Power BI для внешнего гостевого пользователя](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>Ограничения
 

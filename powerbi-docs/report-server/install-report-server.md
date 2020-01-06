@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/26/2019
 ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565769"
 ---
-# <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
+# <a name="install-power-bi-report-server"></a>Установить сервер отчетов Power BI
 
 Узнайте, как установить сервер отчетов Power BI.
 
@@ -65,7 +65,7 @@ ms.locfileid: "74565769"
 
 2. Выберите **Install Power BI Report Server** (Установить сервер отчетов Power BI).
 
-    ![Установка сервера отчетов Power BI](media/install-report-server/pbireportserver-install.png)
+    ![Установить сервер отчетов Power BI](media/install-report-server/pbireportserver-install.png)
 3. Выберите выпуск, который нужно установить, и нажмите кнопку **Далее**.
 
     ![Выбор выпуска](media/install-report-server/pbireportserver-choose-edition.png)

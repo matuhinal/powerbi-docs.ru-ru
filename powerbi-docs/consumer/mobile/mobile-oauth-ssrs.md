@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870080"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220615"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
@@ -185,7 +185,7 @@ https://fs.contoso.com
 
     ![Ограниченное делегирование WAP 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. Нажмите кнопку **ОК**.
+11. Выберите **ОК**.
 
 ### <a name="add-wap-application"></a>Добавление приложения WAP
 
@@ -244,7 +244,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 Вы можете настроить [Fiddler](https://www.telerik.com/fiddler) в качестве прокси-сервера для мобильных устройств, чтобы проанализировать ошибку. Чтобы включить прокси-сервер Fiddler для мобильного устройства, необходимо настроить [CertMaker для iOS и Android](https://www.telerik.com/fiddler/add-ons) на компьютере, на котором будет работать Fiddler. Дополнительный компонент, разработанный компанией Telerik для Fiddler.
 
-Если при использовании Fiddler вы можете войти на сервер, это означает, что существуют проблемы с сертификатом приложения WAP или сервера ADFS. Чтобы проверить правильность сертификатов, можно использовать средство [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226).
+Если при использовании Fiddler вы можете войти на сервер, это означает, что существуют проблемы с сертификатом приложения WAP или сервера ADFS. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

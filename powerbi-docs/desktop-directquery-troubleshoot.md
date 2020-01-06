@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73868067"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Устранение неполадок с моделью DirectQuery в Power BI Desktop
@@ -36,7 +36,7 @@ ms.locfileid: "73868067"
 Для некоторых источников DirectQuery этот журнал включает все запросы, отправленные в базовый источник данных (поддержка остальных источников DirectQuery может быть реализована позже). Ниже перечислены источники, которые записывают запросы в журнал:
 
 - SQL Server
-- База данных SQL Azure
+- База данных SQL Azure
 - Хранилище данных SQL Azure
 - Oracle
 - Teradata
