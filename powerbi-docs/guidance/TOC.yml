@@ -28,6 +28,8 @@
           href: dax-countrows.md
         - name: 'Не рекомендуется: преобразование BLANK в значения'
           href: dax-avoid-converting-blank.md
+        - name: Ссылки на столбцы и меры
+          href: dax-column-measure-references.md
         - name: Рекомендации по потокам данных
           href: ../service-dataflows-best-practices.md
         - name: Руководство по использованию модели DirectQuery в Power BI Desktop
@@ -42,6 +44,8 @@
           href: auto-date-time.md
         - name: Руководство по связи "многие ко многим"
           href: relationships-many-to-many.md
+        - name: "Отключение фонового обновления Power\_Query"
+          href: power-query-background-refresh.md
     - name: Технические документы
       items:
         - name: Обзор технической документации
