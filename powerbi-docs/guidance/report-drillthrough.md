@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834777"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223621"
 ---
 # <a name="report-page-drillthrough"></a>Детализация страницы отчета
 
@@ -63,7 +63,7 @@ ms.locfileid: "74834777"
 - **Обнаружение**. Чтобы проинформировать пользователей о наличии страницы детализации, укажите текст для значка заголовка визуального элемента или добавьте инструкции в текстовом поле. Можно также создать наложение, как описано в [этой записи блога](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
-> Кроме того, вы можете настроить детализацию, связанную с отчетами Power BI с разбивкой на страницы. Это можно сделать, добавив ссылки на отчеты Power BI. В ссылках можно определить [параметры URL-адреса](/blog/url-parameters-for-paginated-reports-are-now-available/).
+> Кроме того, вы можете настроить детализацию, связанную с отчетами Power BI с разбивкой на страницы. Это можно сделать, добавив ссылки на отчеты Power BI. В ссылках можно определить [параметры URL-адреса](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

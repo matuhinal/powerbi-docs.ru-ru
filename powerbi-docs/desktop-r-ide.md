@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876232"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223470"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Использование внешней среды R IDE с Power BI
 В **Power BI Desktop** можно использовать внешнюю среду R IDE (интегрированная среда разработки) для создания и редактирования R-скриптов, которые затем будут использоваться в Power BI.
@@ -31,7 +31,7 @@ ms.locfileid: "73876232"
 Чтобы использовать эту функцию, необходимо установить **R IDE** на локальном компьютере. Так как в **Power BI Desktop** не предусмотрена возможность включения, развертывания или установки модуля R, вам нужно отдельно установить **R** на локальном компьютере. Используя следующие варианты, вы можете выбрать среду R IDE для использования.
 
 * Вы можете установить свою любимую среду R IDE из доступных бесплатно, таких как [Revolution Open](https://mran.revolutionanalytics.com/download/) и [CRAN Repository](https://cran.r-project.org/bin/windows/base/).
-* **Power BI Desktop** также поддерживает [R Studio](https://www.rstudio.com/) и **Visual Studio 2015** со средствами редактирования [*R для Visual Studio*](https://beta.visualstudio.com/vs/rtvs/).
+* **Power BI Desktop** также поддерживает [R Studio](https://www.rstudio.com/) и **Visual Studio 2015** со средствами редактирования [*R для Visual Studio*](/visualstudio/rtvs).
 * Вы можете запустить другую среду R IDE, чтобы с помощью следующих действий запустить эту **R IDE**, используя **Power BI Desktop**.
   
   * Вы можете связать файлы **.R** с внешней средой IDE, которая будет запущена с помощью **Power BI Desktop**.

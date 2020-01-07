@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879705"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223441"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Сортировка по столбцу в Power BI Desktop
 В **Power BI Desktop** и **службе Power BI** можно изменять вид визуального элемента, выполнив сортировку по разным полям данных. Изменив порядок сортировки визуального элемента, вы можете выделить информацию, которую необходимо передать, и убедиться в том, что визуальный элемент отражает тенденцию (или акцент).
@@ -100,4 +100,11 @@ ms.locfileid: "73879705"
 ![Порядок сортировки по умолчанию](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 Создание нужных диаграмм и изображений очень сильно упрощается благодаря такому широкому набору возможностей сортировки.
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Рекомендуем также ознакомиться со следующими материалами:
+
+* [Использование детализации между отчетами в Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Использование срезов в Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 
