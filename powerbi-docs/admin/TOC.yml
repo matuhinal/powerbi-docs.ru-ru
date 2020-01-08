@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: 'Поиск пользователей, выполнивших вход'
           href: ../service-admin-access-usage.md
-        - name: Аудит
+        - name: Отслеживание действий пользователей
           href: ../service-admin-auditing.md
         - name: Отслеживание состояния службы
           href: ../service-admin-health.md
