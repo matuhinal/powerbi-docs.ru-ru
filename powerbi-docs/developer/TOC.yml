@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: Учебники
           items:
-            - name: Концепция визуального элемента
-              href: visuals/power-bi-visuals-concept.md
             - name: "Разработка визуального элемента Power\_BI"
               href: visuals/custom-visual-develop-tutorial.md
             - name: Добавление параметров форматирования
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: Основные понятия
           items:
+            - name: "Структура проекта визуального элемента Power\_BI"
+              href: visuals/visual-project-structure.md
+            - name: Концепция визуального элемента
+              href: visuals/power-bi-visuals-concept.md
             - name: "Визуальные элементы для организаций в Power\_BI"
               href: power-bi-custom-visuals-organization.md
             - name: "Рекомендации по визуальным элементам Power\_BI"
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: Добавление поддержки контекстного меню
               href: visuals/context-menu.md
+            - name: Добавление поддержки детализации
+              href: visuals/drill-down-support.md
             - name: Выделение данных в визуальных элементах
               href: visuals/highlight.md
             - name: Добавление поддержки режима высокой контрастности
