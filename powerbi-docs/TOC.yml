@@ -425,7 +425,7 @@
           href: desktop-send-smile-privacy-statement.md
         - name: "Управление формой для входа в Power\_BI Desktop"
           href: desktop-admin-sign-in-form.md
-        - name: Специальные возможности
+        - name: Возможности доступа
           items:
             - name: "Специальные возможности Power\_BI"
               href: desktop-accessibility-overview.md
@@ -509,7 +509,7 @@
               href: service-interruption-notifications.md
         - name: Расширение Power BI
           items:
-            - name: "Power Automate и Power\_BI"
+            - name: Power Automate и Power BI
               href: service-flow-integration.md
             - name: Использование сторонних приложений
               href: service-power-bi-get-started-third-party-apps.md
@@ -781,7 +781,7 @@
               href: refresh-troubleshooting-tile-errors.md
             - name: Устранение неполадок с анализом в Excel
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: Ошибка Не найдены данные в книге Excel
+            - name: Ошибка. Не найдены данные в книге Excel
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
               href: service-refresh-xero-credentials.md
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: Поддерживаемые источники данных
           href: paginated-reports-data-sources.md
-        - name: "Использование общих наборов данных Power\_BI"
-          href: report-builder-shared-datasets.md
         - name: Советы по проектированию
           href: report-builder-design-tips.md
         - name: 'Таблицы, матрицы, списки'
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: Создание внедренного набора данных
           href: paginated-reports-create-embedded-dataset.md
+        - name: "Создание отчета с помощью общего набора данных Power\_BI"
+          href: report-builder-shared-datasets.md
         - name: Создание параметров
           href: paginated-reports-parameters.md
         - name: Передача параметра отчета в URL-адресе
@@ -989,6 +989,8 @@
       items:
         - name: Установка Power BI Desktop
           href: report-server/install-powerbi-desktop.md
+        - name: Установите Построитель отчетов.
+          href: report-server/install-report-builder.md
         - name: Основные сведения о сервере отчетов
           items:
             - name: Создание отчета Power BI для сервера отчетов
