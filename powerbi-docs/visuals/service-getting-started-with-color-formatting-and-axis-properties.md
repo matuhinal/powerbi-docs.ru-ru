@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880704"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762262"
 ---
-# <a name="getting-started-with-color-formatting-and-axis-properties"></a>Начало работы с форматированием цветом и свойствами осей
+# <a name="get-started-with-color-formatting-and-axis-properties"></a>Основы работы с цветовым форматированием и свойствами осей
 В **Power BI** вы можете изменять цвет ряда данных, точек данных и даже фона визуализаций. Вы также можете изменять способ представления осей X и Y, что позволяет полностью контролировать внешний вид панелей мониторинга и отчетов.
 
 Чтобы приступить к работе, выберите элемент **Отчет** в области **Моя рабочая область** . Затем в верхней области меню выберите пункт **Изменить отчет**.  

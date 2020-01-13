@@ -9,14 +9,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: mihart
-ms.openlocfilehash: 1e141c56387e4bbde1741752e40e600c37088e87
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 0cbd343203aa0626877e6d4841284eb57869e101
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199600"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758814"
 ---
-# <a name="interacting-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
+# <a name="interact-with-arcgis-maps-in-power-bi"></a>Взаимодействие с картами ArcGIS в Power BI
 Эта статья посвящена использованию карты ArcGIS в Power BI Desktop или службе Power BI для мобильных устройств. Как только разработчик предоставит вам общий доступ к визуальному элементу карты ArcGIS для Power BI, у вас появится множество возможностей взаимодействия с этим элементом.  Дополнительные сведения о создании карты ArcGIS см. в [руководстве по использованию карт ArcGIS компании Esri](../visuals/power-bi-visualization-arcgis.md).
 
 Сочетание карт ArcGIS и Power BI — это больше, чем просто отображение точек на карте. Конструкторы отчетов начинают работу с карты и наносят на нее слои демографических данных. Сочетание таких основанных на расположении слоев данных (например, данных переписи) на карте с пространственным анализом помогает лучше понять данные в визуализациях.
@@ -147,11 +147,11 @@ ms.locfileid: "74199600"
 
 |Службы или приложения  |Доступность  |
 |---------|---------|
-|Power BI Desktop     |     Да    |
+|Power BI Desktop     |     Да    |
 |Служба Power BI (app.powerbi.com)     |    Да     |
 |Мобильные приложения Power BI     |  Да      |
 |Публикация в Интернете через Power BI     |  Нет       |
-|Power BI Embedded     |     Нет    |
+|Power BI Embedded     |     Нет    |
 |Внедрение службы Power BI (PowerBI.com)  | Нет |
 
 

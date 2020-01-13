@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ccba97d7fc4df050b9685dd9c2a69af36f62a485
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880976"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757883"
 ---
-# <a name="basic-area-chart"></a>Простые диаграммы с областями
+# <a name="create-and-use-basic-area-charts"></a>Создание и использование простых диаграмм с областями
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -80,6 +80,6 @@ ms.locfileid: "73880976"
 * [Как сделать отчет более доступным для людей с ограниченными возможностями](../desktop-accessibility.md)
 * Простые диаграммы с областями неэффективны для сравнения значений из-за их перекрытия в многоуровневых областях. Power BI использует прозрачность для обозначения перекрывающихся областей. Тем не менее этот режим хорошо работает только с двумя или тремя разными областями. При необходимости сравнить тренд с большим количеством показателей попробуйте использовать графики. При необходимости сравнить объем с большим количеством показателей попробуйте использовать диаграмму дерева.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 [Отчеты в Power BI](power-bi-visualization-card.md)  
 

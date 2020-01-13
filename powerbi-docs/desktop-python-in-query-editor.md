@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 82a03731ffea49f7e41fc8582155fe09734d475b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878020"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760849"
 ---
-# <a name="using-python-in-query-editor"></a>Использование языка Python в редакторе запросов
+# <a name="use-python-in-query-editor"></a>Использование Python в редакторе запросов
 В **редакторе запросов** Power BI Desktop можно использовать язык программирования **Python**, который широко применяют специалисты по статистике, аналитики и специалисты по обработке данных. Интеграция языка Python в **редактор запросов** позволяет выполнять очистку данных с помощью Python, а также формирование и анализ данных в наборах данных, в частности заполнение отсутствующих данных, прогнозирование и кластеризацию. **Python** — эффективный язык, который можно использовать в **редакторе запросов** для подготовки модели данных и создания отчетов.
 
 ## <a name="installing-python"></a>Установка Python

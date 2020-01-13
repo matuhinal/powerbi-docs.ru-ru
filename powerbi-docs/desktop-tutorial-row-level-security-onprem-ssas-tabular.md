@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311457"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759527"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Динамическая безопасность на уровне строк при использовании табличной модели служб Analysis Services
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Безопасность на уровне строк в табличной модели Analysis Services
 
 На примере набора данных, используемого для выполнения описанных ниже действий, это руководство показывает, как реализовать [**безопасность на уровне строк**](service-admin-rls.md) в **табличной модели Analysis Services** и использовать ее в отчете Power BI. 
 
@@ -199,7 +199,7 @@ ms.locfileid: "74311457"
            </PropertyList>
    ```
 
-## <a name="considerations"></a>Примечания
+## <a name="considerations"></a>Ограничения
 
 * Локальная безопасность на уровне строк при работе с Power BI действует только при динамических подключениях.
 

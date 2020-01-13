@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878480"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761595"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>Подключение к данным в Power BI Desktop
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Подключение к источникам данных в Power BI Desktop
 Power BI Desktop позволяет легко подключаться к постоянно растущему миру данных. Если у вас нет Power BI Desktop, его можно загрузить и установить [отсюда](https://go.microsoft.com/fwlink/?LinkID=521662).
 
 В Power BI Desktop доступны *все виды* источников данных. На следующем рисунке показано, как подключиться к данным, выбрав на ленте пункт **Файл**, а затем последовательно выбрав **Получить данные \> Дополнительно**.

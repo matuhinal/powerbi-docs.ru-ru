@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8667823567270680415c2fb0ba2db7846dd968ac
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef3191d77e2aeb89ff97468bd4bfdc07b0d7afb8
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878334"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761348"
 ---
-# <a name="data-categorization-in-power-bi-desktop"></a>Категоризация данных в Power BI Desktop
+# <a name="specify-data-categories-in-power-bi-desktop"></a>Указание категорий данных в Power BI Desktop
 В **Power BI Desktop** можно указать категорию данных для столбца, чтобы сообщить Power BI Desktop, как следует интерпретировать его значения во время визуализации.
 
 Когда продукт Power BI Desktop импортирует данные, он получает не только сами данные, но и такие сведения, как имена таблиц и столбцов, являются ли сведения первичным ключом и т. д.  Эта информация позволяет Power BI Desktop сделать некоторые предположения об обеспечении оптимального взаимодействия по умолчанию при создании визуализации. 

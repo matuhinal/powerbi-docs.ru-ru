@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: eeaf2c48baddaccbaeb80b788e9f8a5bc3263000
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 90debd0a24485c2d2a0bb82fcb2478089aee7719
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878261"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761095"
 ---
-# <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Устранение проблем в случае, если Power BI Desktop не запускается
+# <a name="troubleshoot-opening-power-bi-desktop"></a>Устранение неполадок с открытием Power BI Desktop
 В **Power BI Desktop** пользователям, установившим и использующим предыдущие версии **локального шлюза данных Power BI**, может быть запрещен запуск Power BI Desktop из-за ограничений политики администрирования, которую локальный шлюз Power BI налагает на именованные каналы на локальном компьютере. 
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Устранение проблем с локальным шлюзом данных и Power BI Desktop
