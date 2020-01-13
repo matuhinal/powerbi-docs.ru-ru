@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 3f71bf3b7b457370fccb8b5fbae4bd7bae3b227d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74310820"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223493"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
 В этой статье описываются предыдущие обновления для **Power BI Desktop**. Чтобы найти выпуск за текущий месяц, см. последние обновления для [**Power BI Desktop**](desktop-latest-update.md).
 
-Вы всегда можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Скачать последнюю версию Power BI Desktop можно из [Центра загрузки](https://www.microsoft.com/download/details.aspx?id=58494). Если вы используете Windows 10, Power BI Desktop также можно получить в магазине Microsoft Store в этой операционной системе. Независимо от способа установки Power BI Desktop, эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться. Дополнительные сведения о скачивании и установке Power BI Desktop см. в разделе [Получение Power BI Desktop](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -32,6 +32,83 @@ ms.locfileid: "74310820"
 Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
 
 В следующих разделах описываются обновления для **Power BI Desktop** за предыдущие месяцы.
+
+
+## <a name="november-2019-update-2755649341"></a>Обновление за ноябрь 2019 г. (2.75.5649.341)
+
+Мы с нетерпением ждем наших ноябрьских обновлений, как счастливую семейную встречу. 
+
+> [!IMPORTANT]
+> Начиная с выпуска за сентябрь 2019 г. Power BI Desktop доступен только в виде отдельного исполняемого файла, содержащего все поддерживаемые языки. Выпуски теперь не будут доступны в формате MSI.
+
+Ссылки, которые приводятся для каждого компонента списке обновлений Power BI Desktop, интерпретируются следующим образом:
+
+* [блоге]: Most features are explained in a section in the monthly update blog post.
+* [видео]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [статьи]: Some features have an article that provides more detail.
+* Названия оставшихся функций говорят сами за себя, поэтому для них не требуются отдельные статьи или видео.
+
+Ниже перечислены обновления Power BI Desktop в этом месяце.
+
+### <a name="user-experience"></a>Возможности для пользователя
+* Обновленная лента (предварительная версия): [[видео]](https://youtu.be/kVli3Vm_kDo?t=13) [[статья]](desktop-ribbon.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#ribbon) 
+
+
+### <a name="reporting"></a>Отчеты
+* Дерево декомпозиции визуального элемента (предварительная версия) [[видео]](https://youtu.be/kVli3Vm_kDo?t=464) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#decompTree) 
+
+
+### <a name="analytics"></a>Аналитика
+* Условное форматирование кнопки формата [[видео]](https://youtu.be/kVli3Vm_kDo?t=834) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#button) 
+
+
+### <a name="visuals"></a>Визуальные элементы
+* Обновления ArcGIS Maps for Power BI [[видео]](https://youtu.be/kVli3Vm_kDo?t=1024) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#arcGIS) 
+* Новые визуальные элементы xViz [[видео]](https://youtu.be/kVli3Vm_kDo?t=1071) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#xViz) 
+* Визуальный элемент ZoomCharts Drill-Down Waterfall [[видео]](https://youtu.be/kVli3Vm_kDo?t=1405) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#zoomCharts)
+* Матрица финансовой отчетности Profitbase [[видео]](https://youtu.be/kVli3Vm_kDo?t=1575) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#financialReporting) 
+* Распространение [[видео]](https://youtu.be/kVli3Vm_kDo?t=1661) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#distribution) 
+* Дерево [[видео]](https://youtu.be/kVli3Vm_kDo?t=1733) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#tree) 
+
+
+### <a name="data-connectivity"></a>Подключение к данным
+* Соединитель LinkedIn Sales Navigator [[видео]](https://youtu.be/kVli3Vm_kDo?t=1808) [[Статья]](desktop-connect-linkedin-sales-navigator.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#linkedInSalesNavigator) 
+* Возможности изменения переменных SAP (общедоступная версия) [[видео]](https://youtu.be/kVli3Vm_kDo?t=1839) [[статья]](service-edit-sap-variables.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#sapVariables) 
+* Соединитель Insights [[видео]](https://youtu.be/A8A9baUQsXQ?t=830) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#productInsights) 
+
+
+### <a name="data-transformation"></a>Преобразование данных
+* Функции ИИ в Power Query (предварительная версия) [[видео]](https://youtu.be/kVli3Vm_kDo?t=1976) [[Статья]](desktop-ai-insights.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#aiFunctions) 
+* Соединитель для Web by Example — поддержка извлечения ссылок [[видео]](https://youtu.be/kVli3Vm_kDo?t=1861) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#webConnector) 
+
+
+### <a name="template-apps"></a>Приложения-шаблоны
+* LinkedIn Sales Navigator для операций продажи [[видео]](https://youtu.be/kVli3Vm_kDo?t=2039) [[Статья]](desktop-connect-linkedin-sales-navigator.md#using-the-linkedin-sales-navigator-template-app) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#linkedInTemplateApp) 
+
+
+Дополнительные сведения о каждой из этих новых функций см. в разделе [Обзор возможностей выпуска Power BI Desktop за ноябрь 2019 г](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/).
+
+Также ознакомьтесь с новыми возможностями [службы Power BI](service-whats-new.md) и [мобильных приложений для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>Видео, посвященное ежемесячному обновлению Power BI Desktop
+Все эти обновления описываются в следующем видео. Это видео можно также посмотреть в записи блога:
+
+> [!VIDEO https://www.youtube.com/embed/kVli3Vm_kDo]
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в ноябре 2019 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-11.exe)
+* [64-разрядная версия Power BI Desktop, выпущенная в ноябре 2019 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-11_x64.exe)
+
+
 
 
 ## <a name="october-2019-update-2745619621"></a>Обновление за октябрь 2019 года (2.74.5619.621)
@@ -56,46 +133,46 @@ ms.locfileid: "74310820"
 Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Автоматическое обновление страницы для DirectQuery: [[видео]](https://youtu.be/A8A9baUQsXQ?t=12), [[статья]](desktop-automatic-page-refresh.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh). 
+* Автоматическое обновление страницы для DirectQuery [[видео]](https://youtu.be/A8A9baUQsXQ?t=12) [[статья]](desktop-automatic-page-refresh.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
 
 
 ### <a name="analytics"></a>Аналитика
-* Новый визуальный элемент вопросов и ответов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=144), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual). 
-* Улучшенный пользовательский интерфейс для вопросов и ответов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=144), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience). 
+* Новый визуальный элемент вопросов и ответов [[видео]](https://youtu.be/A8A9baUQsXQ?t=144) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
+* Улучшенный пользовательский интерфейс для вопросов и ответов [[видео]](https://youtu.be/A8A9baUQsXQ?t=144) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience) 
     * Улучшенный элемент управления "Раскрывающийся список".
     * Красные и синие подчеркивания.
     * Улучшенные визуальные результаты.
-* Улучшения естественного языка для вопросов и ответов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=322), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements). 
+* Улучшения естественного языка для вопросов и ответов [[видео]](https://youtu.be/A8A9baUQsXQ?t=322) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements) 
     * Интеграция с тезаурусом Office или Bing.
     * Поддержка таблиц мер и улучшенная обработка имен таблиц и неоднозначности.
-* Инструменты для вопросов и ответов (предварительная версия): [[видео]](https://youtu.be/A8A9baUQsXQ?t=376), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling). 
+* Инструменты для вопросов и ответов (предварительная версия) [[видео]](https://youtu.be/A8A9baUQsXQ?t=376) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling) 
     * Проверка вопросов.
     * Обучение модуля "Вопросы и ответы".
     * Проверка всех внесенных изменений.
-* Поддержка SSAS и Azure AS, включая RLS: [[видео]](https://youtu.be/A8A9baUQsXQ?t=480), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS). 
+* Поддержка SSAS и Azure AS, включая RLS [[видео]](https://youtu.be/A8A9baUQsXQ?t=480) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS) 
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Визуальный элемент PowerApps теперь включен по умолчанию: [[видео]](https://youtu.be/A8A9baUQsXQ?t=505), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps). 
-* Новые визуальные элементы xViz: [[видео]](https://youtu.be/A8A9baUQsXQ?t=538), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz). 
+* Визуальный элемент PowerApps теперь включен по умолчанию [[видео]](https://youtu.be/A8A9baUQsXQ?t=505) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps) 
+* Новые визуальные элементы xViz [[видео]](https://youtu.be/A8A9baUQsXQ?t=538) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz) 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Общедоступная версия соединителя Sagra Emigo: [[видео]](https://youtu.be/A8A9baUQsXQ?t=778), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo). 
-* Обновленный соединитель службы "Управление затратами Azure": [[видео]](https://youtu.be/A8A9baUQsXQ?t=805), [[статья]](desktop-connect-azure-cost-management.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement). 
-* Новый соединитель Workplace Analytics: [[видео]](https://youtu.be/A8A9baUQsXQ?t=830), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics). 
+* Общедоступная версия соединителя Sagra Emigo [[видео]](https://youtu.be/A8A9baUQsXQ?t=778) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo) 
+* Обновленный соединитель службы "Управление затратами Azure" [[видео]](https://youtu.be/A8A9baUQsXQ?t=805) [[статья]](desktop-connect-azure-cost-management.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement) 
+* Новый соединитель Workplace Analytics [[видео]](https://youtu.be/A8A9baUQsXQ?t=830) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics) 
 
 
 ### <a name="data-preparation"></a>Подготовка данных
-* Диагностика запросов: [[видео]](https://youtu.be/A8A9baUQsXQ?t=907), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics). 
-* Улучшения профилирования данных: [[видео]](https://youtu.be/A8A9baUQsXQ?t=953), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling). 
+* Диагностика запросов [[видео]](https://youtu.be/A8A9baUQsXQ?t=907) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics) 
+* Улучшения профилирования данных [[видео]](https://youtu.be/A8A9baUQsXQ?t=953) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling) 
 
 
 ### <a name="template-apps"></a>Приложения-шаблоны
-* Приложение Project Web App: [[видео]](https://youtu.be/A8A9baUQsXQ?t=850), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp). 
+* Приложение Project Web App [[видео]](https://youtu.be/A8A9baUQsXQ?t=850) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
 
 ### <a name="other"></a>Другое
-* Новый формат файла — PBIDS: [[видео]](https://youtu.be/A8A9baUQsXQ?t=2455), [[статья]](desktop-data-sources.md#pbids-file-examples), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids). 
-* Повышение производительности для операций моделирования: [[видео]](https://youtu.be/A8A9baUQsXQ?t=2583), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance). 
+* Новый формат файла — PBIDS [[видео]](https://youtu.be/A8A9baUQsXQ?t=2455) [[статья]](desktop-data-sources.md#pbids-file-examples) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
+* Повышение производительности для операций моделирования [[видео]](https://youtu.be/A8A9baUQsXQ?t=2583) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
 
 > [!NOTE]
 > Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
@@ -174,7 +251,7 @@ ms.locfileid: "74310820"
 * Отчет Google Analytics [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
 
 ### <a name="other"></a>Другое
-* Повышение производительности многомерных моделей [[видео]](https://youtu.be/neq0THnRJzo?t=1208)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
+* Повышение производительности многомерных моделей [[видео]](https://youtu.be/neq0THnRJzo?t=1208) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
 * Повышение производительности запросов у моделей DirectQuery [[видео]](https://youtu.be/neq0THnRJzo?t=1272) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
 
 > [!NOTE]
@@ -227,7 +304,7 @@ ms.locfileid: "74310820"
 
 
 ### <a name="analytics"></a>Аналитика
-* Улучшенный визуальный элемент "Ключевые факторы влияния", этап общей доступности [[видео]](https://youtu.be/sf4n7VXoQHY?t=801) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
+* Улучшенный визуальный элемент "Ключевые факторы влияния" (общедоступная версия) [[видео]](https://youtu.be/sf4n7VXoQHY?t=801) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
 
 
 ### <a name="visuals"></a>Визуальные элементы
@@ -236,7 +313,7 @@ ms.locfileid: "74310820"
 
 ### <a name="data-connectivity"></a>Подключение к данным
 * Поддержка контейнеров HDI SAP HANA [[видео]](https://youtu.be/sf4n7VXoQHY?t=1502) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#HDIcontainers) 
-* Изменение переменных SAP в службе Power BI (предварительная версия) [[видео]](https://youtu.be/sf4n7VXoQHY?t=1522) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#SAPvariables)
+* Изменение переменных SAP в службе Power BI (предварительная версия) [[видео]](https://youtu.be/sf4n7VXoQHY?t=1522) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#SAPvariables)
 * DirectQuery для PostgreSQL [[видео]](https://youtu.be/sf4n7VXoQHY?t=1662) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#postgresql) 
 * Общедоступная версия соединителя MarkLogic [[видео]](https://youtu.be/sf4n7VXoQHY?t=1678) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#marklogic) 
 * Новая категория Power Platform в окне получения данных [[видео]](https://youtu.be/sf4n7VXoQHY?t=1688) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#powerPlatform) 
@@ -289,7 +366,7 @@ ms.locfileid: "74310820"
 Ниже перечислены обновления **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Наборы значков для таблицы и матрицы [[видео]](https://youtu.be/l7OMRUF9UYg?t=11), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
+* Наборы значков для таблицы и матрицы [[видео]](https://youtu.be/l7OMRUF9UYg?t=11) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
 * Поддержка процентов для условного форматирования по правилам [[видео]](https://youtu.be/l7OMRUF9UYg?t=445) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
 * Общедоступная версия новой панели фильтров [[видео]](https://youtu.be/l7OMRUF9UYg?t=543) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
 * Поддержка цветов данных при использовании оси воспроизведения на точечных диаграммах [[видео]](https://youtu.be/l7OMRUF9UYg?t=610) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
@@ -303,12 +380,12 @@ ms.locfileid: "74310820"
 
 ### <a name="visuals"></a>Визуальные элементы
 * Теперь визуальный элемент PowerApps сертифицирован [[видео]](https://youtu.be/l7OMRUF9UYg?t=894) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
-* Три новых настраиваемых визуальных элемента и обновления [[видео]](https://youtu.be/l7OMRUF9UYg?t=932)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+* Три новых настраиваемых визуальных элемента и обновления [[видео]](https://youtu.be/l7OMRUF9UYg?t=932) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 * Соединитель Azure Data Lake Storage 2-го поколения (бета-версия) [[видео]](https://youtu.be/l7OMRUF9UYg?t=1203) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
-* Соединитель Dynamics 365 Customer Insights [[видео]](https://youtu.be/l7OMRUF9UYg?t=1250) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
+* Соединитель Dynamics 365 Customer Insights [[видео]](https://youtu.be/l7OMRUF9UYg?t=1250) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
 
 
 ### <a name="data-preparation"></a>Подготовка данных
@@ -360,10 +437,10 @@ ms.locfileid: "74310820"
 Ниже перечислены обновления **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Обновленный дизайн области [[видео]](https://youtu.be/7k-nP38uHyQ?t=8)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
+* Обновленный дизайн области [[видео]](https://youtu.be/7k-nP38uHyQ?t=8) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
 * Фильтры уровня визуальных элементов для срезов [[видео]](https://youtu.be/7k-nP38uHyQ?t=116) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
 * Сортировка для области анализатора производительности [[видео]](https://youtu.be/7k-nP38uHyQ?t=237) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
-* Обновления условного форматирования для параметров форматирования [[видео]](https://youtu.be/7k-nP38uHyQ?t=311)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
+* Обновления условного форматирования для параметров форматирования [[видео]](https://youtu.be/7k-nP38uHyQ?t=311) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
 * Подсказки для заголовков визуальных элементов отчетов [[видео]](https://youtu.be/7k-nP38uHyQ?t=530) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
 * Полная настройка меток для таблиц и матриц [[видео]](https://youtu.be/7k-nP38uHyQ?t=722) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
 * Поддержка синхронизации срезов для среза иерархии [[видео]](https://youtu.be/7k-nP38uHyQ?t=859) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
@@ -378,24 +455,24 @@ ms.locfileid: "74310820"
 * Специальные возможности в диалоговом окне "Управление агрегатами" [[видео]](https://youtu.be/7k-nP38uHyQ?t=1213) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
 
 ### <a name="modeling"></a>Моделирование
-* Новый оператор сравнения DAX == [[видео]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
+* Новый оператор сравнения DAX == [[видео]](https://youtu.be/7k-nP38uHyQ?t=1267) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Персонализированная область визуализации (предварительная версия)  [[видео]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* Три новых настраиваемых визуальных элемента и обновления [[видео]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* Персонализированная область визуализации (предварительная версия) [[видео]](https://youtu.be/7k-nP38uHyQ?t=1349) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
+* Три новых настраиваемых визуальных элемента и обновления [[видео]](https://youtu.be/7k-nP38uHyQ?t=1391) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 * Подключение к общим и сертифицированным наборам данных [[видео]](https://youtu.be/7k-nP38uHyQ?t=1739) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
 * Соединитель Common Data Service теперь общедоступен [[видео]](https://youtu.be/7k-nP38uHyQ?t=1807) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
 * Соединитель Azure Data Explorer теперь общедоступен [[видео]](https://youtu.be/7k-nP38uHyQ?t=1823) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
-* Усовершенствования соединителя Cosmos DB [[видео]](https://youtu.be/7k-nP38uHyQ?t=1835) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
+* Усовершенствования соединителя Cosmos DB [[видео]](https://youtu.be/7k-nP38uHyQ?t=1835) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
 * Соединитель данных Entersoft [[видео]](https://youtu.be/7k-nP38uHyQ?t=1851) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
 
 
 ### <a name="data-preparation"></a>Подготовка данных
-* Усовершенствования в M Intellisense [[видео]](https://youtu.be/7k-nP38uHyQ?t=1866) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+* Усовершенствования в M Intellisense [[видео]](https://youtu.be/7k-nP38uHyQ?t=1866) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
 
 
 > [!NOTE]
@@ -411,18 +488,6 @@ ms.locfileid: "74310820"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
-
-Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
-
-* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
-* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
-* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
-* В архиве доступны версии Power BI Desktop только на английском языке.
-
-Старые версии доступны по этим ссылкам: 
-
-* [32-разрядная версия Power BI Desktop, выпущенная в июне 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в июне 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>Обновление за май 2019 г. (2.69.5467.1251)
@@ -463,12 +528,12 @@ ms.locfileid: "74310820"
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Обновления ArcGIS Maps for Power BI [[видео]](https://youtu.be/O8GlHDz8xUQ?t=1093) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
+* Обновления ArcGIS Maps для Power BI [[видео]](https://youtu.be/O8GlHDz8xUQ?t=1093) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
 * Шесть новых настраиваемых визуальных элементов и обновлений [[видео]](https://youtu.be/O8GlHDz8xUQ?t=1199) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Соединитель Essbase — поддержка машинного запроса (многомерное выражение) [[видео]](https://youtu.be/O8GlHDz8xUQ?t=2518) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#essbase) 
+* Соединитель Essbase — поддержка машинного запроса (многомерное выражение) [[видео]](https://youtu.be/O8GlHDz8xUQ?t=2518) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#essbase) 
 * Соединитель хранилища данных Intune [[видео]](https://youtu.be/O8GlHDz8xUQ?t=2538) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#intune) 
 * Соединитель Tenforce [[видео]](https://youtu.be/O8GlHDz8xUQ?t=2560) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#tenforce) 
 * Соединитель Roamler [[видео]](https://youtu.be/O8GlHDz8xUQ?t=2596) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#roamler) 
@@ -490,19 +555,6 @@ ms.locfileid: "74310820"
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
-Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
-
-* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
-* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
-* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
-* В архиве доступны версии Power BI Desktop только на английском языке.
-
-Старые версии доступны по этим ссылкам: 
-
-* [32-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в мае 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
-
-
 ## <a name="april-2019-update-2685432361"></a>Обновление за апрель 2019 г. (2.68.5432.361)
 
 Наши апрельские обновления были наполнены новыми возможностями, пропитанными весенним настроением. 
@@ -521,7 +573,7 @@ ms.locfileid: "74310820"
 Ниже перечислены обновления **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Улучшенная панель фильтрации [[видео]](https://youtu.be/vih35kSrEHU?t=9) [[статья]](power-bi-report-filter.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
+* Улучшения панели фильтрации [[видео]](https://youtu.be/vih35kSrEHU?t=9) [[статья]](power-bi-report-filter.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
 * Условное форматирование для заголовков визуальных элементов [[видео]](https://youtu.be/vih35kSrEHU?t=254) [[статья]](desktop-conditional-format-visual-titles.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
 * Условное форматирование для действий URL-адресов для кнопок, фигур и изображений [[видео]](https://youtu.be/vih35kSrEHU?t=439) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
 
@@ -541,7 +593,7 @@ ms.locfileid: "74310820"
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Общедоступная версия соединителя потоков данных Power BI [[видео]](https://youtu.be/vih35kSrEHU?t=983) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
+* Общедоступная версия соединителя потоков данных Power BI [[видео]](https://youtu.be/vih35kSrEHU?t=983) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
 * Соединитель Oracle Essbase теперь поддерживает DirectQuery и является общедоступным [[видео]](https://youtu.be/vih35kSrEHU?t=1011) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#oracleEssbase) 
 * Общедоступная версия соединителя PDF [[видео]](https://youtu.be/vih35kSrEHU?t=1042) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#pdf) 
 * Соединитель Web By Example — автоматический вывод таблиц [[видео]](https://youtu.be/vih35kSrEHU?t=1089) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#webByExample) 
@@ -554,7 +606,7 @@ ms.locfileid: "74310820"
 ### <a name="data-preparation"></a>Подготовка данных
 * Улучшенное и общедоступное профилирование данных [[видео]](https://youtu.be/vih35kSrEHU?t=1299) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#profiling) 
 * Улучшенное и общедоступное нечеткое слияние [[видео]](https://youtu.be/vih35kSrEHU?t=1447) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
-* M Intellisense поддерживается в строке формул и диалоговом окне пользовательских столбцов и является общедоступным [[видео]](https://youtu.be/vih35kSrEHU?t=1491) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
+* M Intellisense поддерживается в строке формул и диалоговом окне пользовательских столбцов и является общедоступным [[видео]](https://youtu.be/vih35kSrEHU?t=1491) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
 ### <a name="other"></a>Другое
 * Построитель отчетов с разбивкой на страницы Power BI [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
@@ -573,19 +625,6 @@ ms.locfileid: "74310820"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
-
-
-Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
-
-* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
-* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
-* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
-* В архиве доступны версии Power BI Desktop только на английском языке.
-
-Старые версии доступны по этим ссылкам: 
-
-* [32-разрядная версия Power BI Desktop, выпущенная в апреле 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [64-разрядная версия Power BI Desktop, выпущенная в апреле 2019 г.](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
 
 
 ## <a name="march-2019-update-2675404581"></a>Обновление за март 2019 г. (2.67.5404.581)
@@ -612,14 +651,14 @@ ms.locfileid: "74310820"
 * Форматирование подсказки по умолчанию [[видео]](https://youtu.be/rBPGH6eYlT0?t=132) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#tooltipFormatting)
 * Поддержка статических URL-адресов для кнопок, фигур и изображений [[видео]](https://youtu.be/rBPGH6eYlT0?t=204) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#staticURL)
 * Улучшенная панель фильтрации [[видео]](https://youtu.be/rBPGH6eYlT0?t=234) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#filterPane)
-* Параметры выравнивания панели [[видео]](https://youtu.be/rBPGH6eYlT0?t=253) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#pageAlignment)
+* Параметры выравнивания страницы [[видео]](https://youtu.be/rBPGH6eYlT0?t=253) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#pageAlignment)
 * Улучшенная панель выбора [[видео]](https://youtu.be/rBPGH6eYlT0?t=291) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#selectionPane)
 * Обновления форматирования для карт [[видео]](https://youtu.be/rBPGH6eYlT0?t=291) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#mapFormatting)
 * Доступное визуальное взаимодействие [[видео]](https://youtu.be/rBPGH6eYlT0?t=310) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#accessibility)
 
 
 ### <a name="analytics"></a>Аналитика
-* Рекомендации для вопросов и ответов для улучшения результатов [[видео]](https://youtu.be/rBPGH6eYlT0?t=357) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#QA) 
+* Рекомендации для вопросов и ответов в целях улучшения результатов [[видео]](https://youtu.be/rBPGH6eYlT0?t=357) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#QA) 
 * Общедоступная версия отображения дат в иерархическом виде [[видео]](https://youtu.be/rBPGH6eYlT0?t=397) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#dateHierarchy) 
 
 
@@ -629,7 +668,7 @@ ms.locfileid: "74310820"
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 * Новые параметры сертифицированных пользовательских визуальных элементов на портале администрирования [[видео]](https://youtu.be/rBPGH6eYlT0?t=624) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
-* Новые пользовательские визуальные элементы [[видео]](https://youtu.be/rBPGH6eYlT0?t=693) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
+* Два новых пользовательских визуальных элемента [[видео]](https://youtu.be/rBPGH6eYlT0?t=693) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
@@ -675,35 +714,35 @@ ms.locfileid: "74310820"
 Ниже перечислены обновления, добавленные в приложение **Power BI Desktop** в этом месяце.
 
 ### <a name="reporting"></a>Отчеты
-* Обновления для новой области фильтров (предварительная версия) [[видео]](https://youtu.be/dMD25wfElLg?t=11)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#smartGuides) 
-* Перекрестное выделение для одной точки в графиках [[видео]](https://youtu.be/dMD25wfElLg?t=197)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#line)
-* Перенос по словам для заголовков [[видео]](https://youtu.be/dMD25wfElLg?t=298)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#wordWrap)
-* Обновление визуального взаимодействия по умолчанию для перекрестной фильтрации [[видео]](https://youtu.be/dMD25wfElLg?t=358)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#crossFilter)
-* Скругленные углы границ визуальных элементов [[видео]](https://youtu.be/dMD25wfElLg?t=526)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#roundedCorners)
+* Обновления для новой панели фильтрации (предварительная версия) [[видео]](https://youtu.be/dMD25wfElLg?t=11) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#smartGuides) 
+* Перекрестное выделение для одной точки в графиках [[видео]](https://youtu.be/dMD25wfElLg?t=197) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#line)
+* Перенос по словам для заголовков [[видео]](https://youtu.be/dMD25wfElLg?t=298) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#wordWrap)
+* Обновление визуального взаимодействия по умолчанию для перекрестной фильтрации [[видео]](https://youtu.be/dMD25wfElLg?t=358) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#crossFilter)
+* Скругленные углы границ визуальных элементов [[видео]](https://youtu.be/dMD25wfElLg?t=526) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#roundedCorners)
 
 ### <a name="analytics"></a>Аналитика
-* Визуальный элемент "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/dMD25wfElLg?t=608)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#keyInfluencers) 
-* Вопросы Insights в вопросах и ответах [[видео]](https://youtu.be/dMD25wfElLg?t=1121)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#insights) 
-* Автоматическое создание предлагаемых вопросов для обозревателя вопросов и ответов [[видео]](https://youtu.be/dMD25wfElLg?t=1121)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
-* Улучшенный редактор сценариев R и Python [[видео]](https://youtu.be/dMD25wfElLg?t=1282)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
+* Визуальный элемент "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/dMD25wfElLg?t=608) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#keyInfluencers) 
+* Вопросы Insights в вопросах и ответах [[видео]](https://youtu.be/dMD25wfElLg?t=1121) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#insights) 
+* Автоматическое создание предлагаемых вопросов для обозревателя вопросов и ответов [[видео]](https://youtu.be/dMD25wfElLg?t=1121) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
+* Улучшенный редактор сценариев R и Python [[видео]](https://youtu.be/dMD25wfElLg?t=1282) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
-* Десять новые пользовательских визуальных элементов, новая функция пользовательских визуальных элементов [[видео]](https://youtu.be/dMD25wfElLg?t=1324)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+* Десять новых пользовательских визуальных элементов, новая функция пользовательских визуальных элементов [[видео]](https://youtu.be/dMD25wfElLg?t=1324) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
-* Microsoft Graph Security [[видео]](https://youtu.be/dMD25wfElLg?t=2787)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#microsoftGraph) 
-* Соединитель бизнес-аналитики Guidanz' для OBIEE [[видео]](https://youtu.be/dMD25wfElLg?t=2807)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#biConnector) 
-* MarkLogic [[видео]](https://youtu.be/dMD25wfElLg?t=2825)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#markLogic) 
-* Kronos Workforce Dimensions [[видео]](https://youtu.be/dMD25wfElLg?t=2846)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#kronos) 
-* SurveyMonkey [[видео]](https://youtu.be/dMD25wfElLg?t=2857)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#surveyMonkey) 
-* Qubole Presto [[видео]](https://youtu.be/dMD25wfElLg?t=2872)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#qubole) 
-* Quick Base [[видео]](https://youtu.be/dMD25wfElLg?t=2899)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#quickBase) 
-* Sagra Emigo [[видео]](https://youtu.be/dMD25wfElLg?t=2909)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#emigo) 
+* Microsoft Graph Security [[видео]](https://youtu.be/dMD25wfElLg?t=2787) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#microsoftGraph) 
+* Соединитель бизнес-аналитики Guidanz для OBIEE [[видео]](https://youtu.be/dMD25wfElLg?t=2807) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#biConnector) 
+* MarkLogic [[видео]](https://youtu.be/dMD25wfElLg?t=2825) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#markLogic) 
+* Kronos Workforce Dimensions [[видео]](https://youtu.be/dMD25wfElLg?t=2846) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#kronos) 
+* SurveyMonkey [[видео]](https://youtu.be/dMD25wfElLg?t=2857) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#surveyMonkey) 
+* Qubole Presto [[видео]](https://youtu.be/dMD25wfElLg?t=2872) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#qubole) 
+* Quick Base [[видео]](https://youtu.be/dMD25wfElLg?t=2899) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#quickBase) 
+* Sagra Emigo [[видео]](https://youtu.be/dMD25wfElLg?t=2909) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#emigo) 
 
 
 ### <a name="other"></a>Другое
-* Улучшенные сообщения об ошибках Live Connect и DirectQuery [[видео]](https://youtu.be/dMD25wfElLg?t=2926)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
+* Улучшенные сообщения об ошибках Live Connect и DirectQuery [[видео]](https://youtu.be/dMD25wfElLg?t=2926) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
 
 > [!NOTE]
 > Вы также можете [просмотреть источники данных, доступные для Power BI Desktop](desktop-data-sources.md). Наш список постоянно пополняется, так что почаще просматривайте эту статью.
@@ -744,11 +783,11 @@ ms.locfileid: "74310820"
 ### <a name="reporting"></a>Отчеты
 
 * Смарт-направляющие для выравнивания объектов на странице [[видео]](https://youtu.be/AHNlkjRFdYI?t=11) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* Обновления ArcGIS Maps for Power BI [[видео]](https://youtu.be/AHNlkjRFdYI?t=84) [[статья]](visuals/power-bi-visualization-arcgis.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* Обновления ArcGIS Maps для Power BI [[видео]](https://youtu.be/AHNlkjRFdYI?t=84) [[статья]](visuals/power-bi-visualization-arcgis.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * Поддержка специальных возможностей списка полей [[видео]](https://youtu.be/AHNlkjRFdYI?t=464) [[статья]](desktop-report-view.md#copy-and-paste-between-reports) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * Установление порядка вкладок для объектов на странице [[видео]](https://youtu.be/AHNlkjRFdYI?t=643) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * Подсказки для кнопок с визуальными элементами [[видео]](https://youtu.be/AHNlkjRFdYI?t=884) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
-* Обновленные значки для *Взаимодействие визуальных элементов* [[видео]](https://youtu.be/AHNlkjRFdYI?t=974) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
+* Обновленные значки для компонента *Взаимодействие визуальных элементов* [[видео]](https://youtu.be/AHNlkjRFdYI?t=974) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
 
 
 
@@ -807,7 +846,7 @@ ms.locfileid: "74310820"
 ### <a name="reporting"></a>Отчеты
 
 * Развертывание и свертывание заголовков строк матрицы [[видео]](https://youtu.be/1xsXXoyTxfk?t=16) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
-* Копирование и вставка между файлами Power BI Desktop [[видео]](https://youtu.be/1xsXXoyTxfk?t=199) [[статья]](desktop-report-view.md#copy-and-paste-between-reports) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* Копирование и вставка между файлами Power BI Desktop [[видео]](https://youtu.be/1xsXXoyTxfk?t=199) [[статья]](desktop-report-view.md#copy-and-paste-between-reports) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
 * Обновление функций фильтров (предварительная версия) [[видео]](https://youtu.be/1xsXXoyTxfk?t=410) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
 * Улучшения доступности отчетов [[видео]](https://youtu.be/1xsXXoyTxfk?t=1036) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
 
@@ -819,7 +858,7 @@ ms.locfileid: "74310820"
 
 ### <a name="modeling"></a>Моделирование
 
-* Новое представление моделирования (предварительная версия): [[видео]](https://youtu.be/1xsXXoyTxfk?t=1642) [[статья]](desktop-modeling-view.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* Новое представление моделирования (предварительная версия) [[видео]](https://youtu.be/1xsXXoyTxfk?t=1642) [[статья]](desktop-modeling-view.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
 * Составные модели, предоставляемые в общедоступной версии [[видео]](https://youtu.be/1xsXXoyTxfk?t=1941) [[статья]](desktop-composite-models.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
 * Улучшения доступности моделирования [[видео]](https://youtu.be/1xsXXoyTxfk?t=2023) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
 * Новые функции DAX [[видео]](https://youtu.be/1xsXXoyTxfk?t=2066) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
@@ -857,18 +896,18 @@ ms.locfileid: "74310820"
 
 ### <a name="reporting"></a>Отчеты
 
-* Поиск в картах фильтра: [[видео]](https://youtu.be/cT3L2VzgBRU?t=56) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
+* Поиск в картах фильтра [[видео]](https://youtu.be/cT3L2VzgBRU?t=56) [[статья]](power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
 * Улучшения специальных возможностей для разработки: [[видео]](https://youtu.be/cT3L2VzgBRU?t=118) [[статья]](desktop-accessibility-overview.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
-* Улучшения производительности для карты ArcGIS: [[видео]](https://youtu.be/cT3L2VzgBRU?t=333) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
+* Улучшения производительности для карты ArcGIS [[видео]](https://youtu.be/cT3L2VzgBRU?t=333) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
 ### <a name="modeling"></a>Моделирование
 
-* Улучшения для редактора DAX: [[видео]](https://youtu.be/GO1dhDJhSDY) [[статья]](desktop-formula-editor.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
+* Улучшения для редактора DAX [[видео]](https://youtu.be/GO1dhDJhSDY) [[статья]](desktop-formula-editor.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
 
 ### <a name="analytics"></a>Аналитика
 
-* Поддержка составных моделей и статистической обработки в службе Power BI (предварительная версия) [[видео]](https://youtu.be/8E6UokaDtc0) [[статья по использованию агрегатов]](desktop-aggregations.md) [[статья по составным моделям]](desktop-composite-models.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
+* Поддержка составных моделей и статистической обработки в службе Power BI (предварительная версия) [[видео]](https://youtu.be/8E6UokaDtc0) [[статья по использованию агрегатов]](desktop-aggregations.md) [[статья по составным моделям]](desktop-composite-models.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
 * Объяснение роста для неаддитивных мер [[видео]](https://youtu.be/8E6UokaDtc0?t=107) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
@@ -877,15 +916,15 @@ ms.locfileid: "74310820"
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
-* Общедоступная версия соединителя Web by Example: [[видео]](https://youtu.be/MhrhIXNtelw) [[статья]](desktop-connect-to-web-by-example.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23webByExample) 
-* Общедоступная реализация версии 2 для соединителя SAP BW: [[видео]](https://youtu.be/MhrhIXNtelw?t=133) [[статья]](desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
-* Общедоступная версия соединителя SAP BW Message: [[видео]](https://youtu.be/MhrhIXNtelw?t=159) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
-* Общедоступная версия соединителя Vertica: [[видео]](https://youtu.be/MhrhIXNtelw?t=175) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
-* Общедоступные версии соединителей Dynamics NAV и Dynamics 365 Business Central: [[видео]](https://youtu.be/MhrhIXNtelw?t=197) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
-* Новый соединитель Dynamics 365 Business Central (on-premises) [[видео]](https://youtu.be/MhrhIXNtelw?t=219) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
+* Общедоступная версия соединителя Web by Example [[видео]](https://youtu.be/MhrhIXNtelw) [[статья]](desktop-connect-to-web-by-example.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23webByExample) 
+* Общедоступная реализация версии 2 для соединителя SAP BW [[видео]](https://youtu.be/MhrhIXNtelw?t=133) [[статья]](desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
+* Общедоступная версия соединителя SAP BW Message [[видео]](https://youtu.be/MhrhIXNtelw?t=159) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
+* Общедоступная версия соединителя Vertica [[видео]](https://youtu.be/MhrhIXNtelw?t=175) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
+* Общедоступные версии соединителей Dynamics NAV и Dynamics 365 Business Central [[видео]](https://youtu.be/MhrhIXNtelw?t=197) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
+* Новый соединитель Dynamics 365 Business Central (локальная версия) [[видео]](https://youtu.be/MhrhIXNtelw?t=219) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
 
 ### <a name="data-preparation"></a>Подготовка данных
-* Профилирование данных в редакторе Power Query (предварительная версия) [[видео]](https://youtu.be/XNNvXCvlDlc) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dataProfiling) 
+* Профилирование данных в редакторе Power Query (предварительная версия) [[видео]](https://youtu.be/XNNvXCvlDlc) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dataProfiling) 
 * Параметры нечеткого соответствия для объединения запросов (предварительная версия) [[видео]](https://youtu.be/XNNvXCvlDlc?t=261) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23fuzzyMatching) 
 
 ### <a name="other-areas"></a>Другие области
@@ -916,15 +955,15 @@ ms.locfileid: "74310820"
 
 ### <a name="reporting"></a>Отчеты
 
-* Макет построения точек на точечной диаграмме [[видео]](https://youtu.be/Rzw2WyI09kY?t=30s)  [[статья]](power-bi-visualization-scatter.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
-* Копирование значения и выбора из визуальных элементов таблицы и матрицы [[видео]](https://youtu.be/Rzw2WyI09kY?t=2m33s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
-* Параметры темы встроенных отчетов [[видео]](https://youtu.be/Rzw2WyI09kY?t=6m2s)  [[статья]](desktop-report-themes.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
-* Выпущена общедоступная версия подсказок для страницы отчетов и поддержка новых карточек [[видео]](https://youtu.be/Rzw2WyI09kY?t=8m10s)  [[статья]](desktop-tooltips.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
-* Улучшения специальных возможностей для анализа и поддержка панели форматирования [[видео]](https://youtu.be/Rzw2WyI09kY?t=9m29s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
+* Макет построения точек на точечной диаграмме [[видео]](https://youtu.be/Rzw2WyI09kY?t=30s) [[статья]](power-bi-visualization-scatter.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* Копирование значения и выбора из визуальных элементов таблицы и матрицы [[видео]](https://youtu.be/Rzw2WyI09kY?t=2m33s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* Параметры встроенной темы отчета [[видео]](https://youtu.be/Rzw2WyI09kY?t=6m2s) [[статья]](desktop-report-themes.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* Выпущена общедоступная версия подсказок для страницы отчетов и поддержка новых карточек [[видео]](https://youtu.be/Rzw2WyI09kY?t=8m10s) [[статья]](desktop-tooltips.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* Улучшения специальных возможностей для анализа и поддержка панели форматирования [[видео]](https://youtu.be/Rzw2WyI09kY?t=9m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
 
 ### <a name="analytics"></a>Аналитика
 
-* Агрегаты (предварительная версия): [[видео]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[статья]](desktop-aggregations.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
+* Агрегаты (предварительная версия) [[видео]](https://youtu.be/Rzw2WyI09kY?t=11m37s) [[статья]](desktop-aggregations.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
@@ -932,13 +971,13 @@ ms.locfileid: "74310820"
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
-* Соединитель PDF-файлов (предварительная версия) [[видео]](https://youtu.be/Rzw2WyI09kY?t=29m26s)  [[статья]](desktop-connect-pdf.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
-* Соединитель SAP BW — поддержка свойств измерений [[видео]](https://youtu.be/Rzw2WyI09kY?t=30m15s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
-* Соединитель потоков данных (бета-версия) [[статья]](desktop-connect-dataflows.md)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+* Соединитель PDF-файлов (предварительная версия) [[видео]](https://youtu.be/Rzw2WyI09kY?t=29m26s) [[статья]](desktop-connect-pdf.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* Соединитель SAP BW — поддержка свойств измерений [[видео]](https://youtu.be/Rzw2WyI09kY?t=30m15s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* Соединитель потоков данных (бета-версия) [[статья]](desktop-connect-dataflows.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
 
 ### <a name="data-preparation"></a>Подготовка данных
-* M Intellisense [[видео]](https://youtu.be/Rzw2WyI09kY?t=30m42s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
-* Добавление столбцов из примеров — поддержка текстового заполнения [[видео]](https://youtu.be/Rzw2WyI09kY?t=32m27s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
+* M Intellisense [[видео]](https://youtu.be/Rzw2WyI09kY?t=30m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* Добавление столбцов из примеров — поддержка текстового заполнения [[видео]](https://youtu.be/Rzw2WyI09kY?t=32m27s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
 
 
 > [!NOTE]
@@ -977,9 +1016,9 @@ ms.locfileid: "74310820"
 
 ### <a name="analytics"></a>Аналитика
 
-* Условное форматирование по значениям [[видео]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[статья]](desktop-conditional-table-formatting.md#color-formatting-by-field-value) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting). 
+* Условное форматирование по значениям [[видео]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[статья]](desktop-conditional-table-formatting.md#color-formatting-by-field-value) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
 * Интеграция с Python [[видео]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
-* Улучшения вопросов и ответов [[видео]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+* Улучшения функции вопросов и ответов [[видео]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
@@ -1013,39 +1052,39 @@ ms.locfileid: "74310820"
 
 ### <a name="modeling"></a>Моделирование
 
-* Составные модели (предварительная версия): [[видео]](https://youtu.be/Mtig3rmIUe0?t=15s), [[статья]](desktop-composite-models.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels).
-* Связи "многие ко многим" (предварительная версия) (относится к составным моделям): [[видео]](https://youtu.be/Mtig3rmIUe0?t=4m53s), [[статья]](desktop-many-to-many-relationships.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels).
-* Режим хранения (предварительная версия) (относится к составным моделям): [[видео]](https://youtu.be/Mtig3rmIUe0?t=15s), [[статья]](desktop-storage-mode.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels).
+* Составные модели (предварительная версия) [[видео]](https://youtu.be/Mtig3rmIUe0?t=15s) [[статья]](desktop-composite-models.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Связи "многие ко многим" (предварительная версия) (относится к составным моделям) [[видео]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[статья]](desktop-many-to-many-relationships.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Режим хранения (предварительная версия) (относится к составным моделям) [[видео]](https://youtu.be/Mtig3rmIUe0?t=15s) [[статья]](desktop-storage-mode.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
 
 
 ### <a name="reporting"></a>Отчеты
 
-* Новый визуальный заголовок с дополнительной гибкостью и форматированием: [[видео]](https://youtu.be/Mtig3rmIUe0?t=8m26s), [[статья]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader). 
-* Форматирование фонового рисунка: [[видео]](https://youtu.be/Mtig3rmIUe0?t=14m19s), [[статья]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper). 
-* Обновление тематического оформления — дополнительная визуализация и управление страницами (предварительная версия): [[видео]](https://youtu.be/Mtig3rmIUe0?t=19m14s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme). 
-* Всплывающие подсказки для таблицы и матрицы: [[видео]](https://youtu.be/Mtig3rmIUe0?t=22m53s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips). 
-* Отключение всплывающих подсказок для визуальных элементов: [[видео]](https://youtu.be/Mtig3rmIUe0?t=22m53s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips). 
-* Специальные возможности для срезов: [[видео]](https://youtu.be/Mtig3rmIUe0?t=27m29s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility). 
-* Улучшения области форматирования: [[видео]](https://youtu.be/Mtig3rmIUe0?t=30m18s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane). 
-* Поддержка пошаговых линий для линейных и комбинированных диаграмм: [[видео]](https://youtu.be/Mtig3rmIUe0?t=32m46s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine). 
-* Отключение меток данных на комбинированной диаграмме для отдельных рядов: [[видео]](https://youtu.be/Mtig3rmIUe0?t=34m19s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels). 
-* Улучшение процесса сортировки: [[видео]](https://youtu.be/Mtig3rmIUe0?t=35m44s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting). 
+* Новый визуальный заголовок с дополнительной гибкостью и форматированием [[видео]](https://youtu.be/Mtig3rmIUe0?t=8m26s) [[статья]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* Форматирование фонового рисунка [[видео]](https://youtu.be/Mtig3rmIUe0?t=14m19s) [[статья]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* Обновление тематического оформления — дополнительная визуализация и управление страницами (предварительная версия) [[видео]](https://youtu.be/Mtig3rmIUe0?t=19m14s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* Всплывающие подсказки для таблицы и матрицы [[видео]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* Отключение всплывающих подсказок для визуальных элементов [[видео]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* Специальные возможности для срезов [[видео]](https://youtu.be/Mtig3rmIUe0?t=27m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* Улучшения области форматирования [[видео]](https://youtu.be/Mtig3rmIUe0?t=30m18s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* Поддержка пошаговых линий для линейных и комбинированных диаграмм [[видео]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* Отключение меток данных на комбинированной диаграмме для отдельных рядов [[видео]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* Улучшение процесса сортировки [[видео]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
 
 ### <a name="analytics"></a>Аналитика
 
-* Аналитические сведения о факторах распределения: [[видео]](https://youtu.be/Mtig3rmIUe0?t=37m), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor). 
+* Аналитические сведения о факторах распределения [[видео]](https://youtu.be/Mtig3rmIUe0?t=37m) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
-* Сертифицированная категория Power BI: [[видео]](https://youtu.be/Mtig3rmIUe0?t=41m13s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals). 
-* Отключение определенных визуальных элементов организации: [[видео]](https://youtu.be/Mtig3rmIUe0?t=42m32s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals). 
-* Четыре новых настраиваемых визуальных элемента: [[видео]](https://youtu.be/Mtig3rmIUe0?t=44m), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio). 
+* Сертифицированная категория Power BI [[видео]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* Отключение определенных визуальных элементов организации [[видео]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* Четыре новых настраиваемых визуальных элемента [[видео]](https://youtu.be/Mtig3rmIUe0?t=44m) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
-* Соединитель IBM DB2 DirectQuery (предварительная версия): [[видео]](https://youtu.be/Mtig3rmIUe0?t=54m25s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2). 
-* Улучшения соединителя Web By Example: [[видео]](https://youtu.be/Mtig3rmIUe0?t=54m53s), [[статья]](desktop-connect-to-web-by-example.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample). 
-* SAP HANA — значения по умолчанию для переменных при работе с входными данными переменных: [[видео]](https://youtu.be/Mtig3rmIUe0?t=56m19s), [[статья]](desktop-sap-hana.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA). 
+* Соединитель IBM DB2 DirectQuery (предварительная версия) [[видео]](https://youtu.be/Mtig3rmIUe0?t=54m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* Улучшения соединителя Web By Example [[видео]](https://youtu.be/Mtig3rmIUe0?t=54m53s) [[статья]](desktop-connect-to-web-by-example.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA — значения по умолчанию для переменных при работе с входными данными переменных [[видео]](https://youtu.be/Mtig3rmIUe0?t=56m19s) [[статья]](desktop-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
 
 
 > [!NOTE]
@@ -1071,7 +1110,7 @@ ms.locfileid: "74310820"
 
 ### <a name="reporting"></a>Отчеты
 
-* Поддержка высокой контрастности в отчетах [[видео]](https://youtu.be/4VpGtWSrssE?t=13s)  [[статья]](desktop-accessibility-overview.md)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* Поддержка высокой контрастности в отчетах [[видео]](https://youtu.be/4VpGtWSrssE?t=13s) [[статья]](desktop-accessibility-overview.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * Управление радиусом кольцевой диаграммы [[видео]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * Управление положением меток сведений для круговых и кольцевых диаграмм [[видео]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * Форматирование меток данных по отдельности для каждой меры в комбинированной диаграмме [[видео]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
@@ -1079,7 +1118,7 @@ ms.locfileid: "74310820"
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
-* Новые пользовательские визуальные элементы [[видео]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+* Два новых пользовательских визуальных элемента [[видео]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
 ### <a name="modeling"></a>Моделирование
 * Фильтрация и сортировка в представлении данных [[видео]](https://youtu.be/4VpGtWSrssE?t=13m11s) [[статья]](desktop-data-view.md#filtering-in-data-view) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
@@ -1089,7 +1128,7 @@ ms.locfileid: "74310820"
 
 * Улучшения соединителя с SAP BusinessWarehouse (новый драйвер и повышение производительности, а также улучшенная поддержка переменных иерархии) [[видео]](https://youtu.be/4VpGtWSrssE?t=21m6s) [[статья]](desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
 * Соединитель Spark теперь поддерживает проверку подлинности Windows [[видео]](https://youtu.be/4VpGtWSrssE?t=24m31s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
-* Усовершенствования соединителя OData V4 [[видео]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
+* Усовершенствования соединителя OData V4 [[видео]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
 * Улучшения соединителя ODBC (поддержка свертывания для верхних строк, возможность фильтрации навигации по каталогу DSN) [[видео]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
 ### <a name="other"></a>Другое
@@ -1126,7 +1165,7 @@ ms.locfileid: "74310820"
 
 ### <a name="analytics"></a>Аналитика
 
-* Детализация мер [[видео]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[статья]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+* Детализация меры [[видео]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[статья]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -1140,12 +1179,12 @@ ms.locfileid: "74310820"
 
 * Новый соединитель для извлечения данных **из Интернета** по образцу (предварительная версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=10m17s) [[статья]](desktop-connect-to-web-by-example.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#FromWebConnector) 
 * Соединитель Common Data Service для приложений (бета-версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#cdsApps) 
-* Соединитель Azure KustoDB (бета-версия): [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#kustoDB) 
+* Соединитель Azure KustoDB (бета-версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#kustoDB) 
 * Соединители Google BigQuery и Azure HDInsight Spark стали общедоступными [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#googleBigQueryAzureHDInsightSpark) 
-* Обновление соединителя Adobe Analytics — добавлена поддержка нескольких учетных записей домена (предварительная версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#AdobeAnalytics) 
-* Обновление соединителя Visual Studio Team Services — добавлена поддержка аналитических представлений [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#vsts) 
-* Обновление соединителя OLE DB — добавлена поддержка альтернативных учетных данных Windows [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#oledb) 
-* Обновление соединителя SAP BW DirectQuery — улучшена поддержка технических имен [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#sapBW) 
+* Обновление соединителя Adobe Analytics — добавлена поддержка нескольких учетных записей домена (предварительная версия) [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#AdobeAnalytics) 
+* Обновление соединителя Visual Studio Team Services — добавлена поддержка аналитических представлений [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#vsts) 
+* Обновление соединителя OLE DB — добавлена поддержка альтернативных учетных данных Windows [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#oledb) 
+* Обновление соединителя SAP BW DirectQuery — улучшена поддержка технических имен [[видео]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#sapBW) 
 
 ### <a name="data-preparation"></a>Подготовка данных
 
@@ -1192,7 +1231,7 @@ ms.locfileid: "74310820"
 ### <a name="data-connectivity"></a>Подключение к данным
 
 * Общедоступная версия соединителя Adobe Analytics [[видео]](https://youtu.be/kuI6MMzDh34?t=32m) [[статья]](desktop-multi-select.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* Улучшение соединителя SAP HANA: выбор портов [[видео]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* Улучшение соединителя SAP HANA: Выбор порта [[видео]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[статья]](desktop-directquery-sap-hana.md)[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
 * Соединитель Dynamics 365 Business Central [[видео]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
 
@@ -1220,18 +1259,18 @@ ms.locfileid: "74310820"
 
 * Подсказки страницы отчетов [[видео]](https://youtu.be/kuI6MMzDh34?t=16s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * Использование закладок реализовано в общедоступной версии [[видео]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[статья]](desktop-bookmarks.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
-* Отображение единиц измерения и управление точностью для столбцов таблицы и матрицы [[видео]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[статья]](desktop-slicer-numeric-range.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* Отображение элементов управления единицами измерения и точностью для столбцов таблицы и матрицы [[видео]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[статья]](desktop-slicer-numeric-range.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * Отключение заголовка визуального элемента в режиме чтения для отчета [[видео]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * Улучшенное размещение визуальных элементов по умолчанию [[видео]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
-* Множество новых пользовательских визуальных элементов [[видео]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[статья]](developer/power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+* Множество новых настраиваемых визуализаций [[видео]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[статья]](developer/power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
 * Усовершенствования соединителя Visual Studio Team Services [[видео]](https://youtu.be/kuI6MMzDh34?t=32m) [[статья]](desktop-multi-select.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
-* Усовершенствования соединителя SAP HANA [[видео]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+* Усовершенствования соединителя SAP HANA [[видео]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
   * Поддержка многомерных объектов DirectQuery реализована в общедоступной версии
   * Поддержка проверки SSL-сертификата
 * Функция SAP BW DirectQuery реализована в общедоступной версии [[видео]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
@@ -1275,34 +1314,34 @@ ms.locfileid: "74310820"
 
 ### <a name="reporting"></a>Отчеты
 
-* Множественный выбор точек данных на нескольких страницах [[видео]](https://youtu.be/KeVB5RwMzJo?t=23s) [[статья]](desktop-multi-select.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* Синхронизация срезов на нескольких страницах отчета [[видео]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[статья]](visuals/power-bi-visualization-slicers.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
-* Усовершенствование среза с числовым диапазоном — привязка к целым числам (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[статья]](desktop-slicer-numeric-range.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
-* Ускорение геокодирования для карт Bing (предварительная веб-версия) — почти в 6 раз быстрее [[видео]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
-* Метки данных переполнения для линейчатых диаграмм и гистограмм[[видео]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
-* Поиск по панелям форматирования и аналитики [[видео]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[статья]](desktop-analytics-pane.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
+* Множественный выбор точек данных на нескольких страницах [[видео]](https://youtu.be/KeVB5RwMzJo?t=23s) [[статья]](desktop-multi-select.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
+* Синхронизация срезов на нескольких страницах отчета [[видео]](https://youtu.be/KeVB5RwMzJo?t=3m33s)[[статья]](visuals/power-bi-visualization-slicers.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Усовершенствование среза с числовым диапазоном — привязка к целым числам (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=8m44s)[[статья]](desktop-slicer-numeric-range.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
+* Ускорение геокодирования для карт Bing (предварительная веб-версия) — почти в 6 раз быстрее [[видео]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
+* Метки данных переполнения для линейчатых диаграмм и гистограмм[[видео]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
+* Поиск по панелям форматирования и аналитики [[видео]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[статья]](desktop-analytics-pane.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
 ### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
 
-* Пользовательские визуальные элементы организации (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[статья]](developer/power-bi-custom-visuals-organization.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+* Настраиваемые визуальные элементы организации (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[статья]](developer/power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
 ### <a name="analytics"></a>Аналитика
 
-* Настройка пользовательской таблицы данных [[видео]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[статья]](desktop-date-tables.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
-* Быстрые меры реализованы в общедоступной версии [[видео]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[статья]](desktop-quick-measures.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+* Настройка пользовательской таблицы данных [[видео]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[статья]](desktop-date-tables.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+* Быстрые меры реализованы в общедоступной версии [[видео]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[статья]](desktop-quick-measures.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
-* Усовершенствования для DirectQuery в SAP HANA (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[статья]](desktop-directquery-sap-hana.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+* Усовершенствования для DirectQuery в SAP HANA (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[статья]](desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
 ### <a name="other"></a>Другое
 
-* Повышение производительности DirectQuery [[видео]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[статья]](desktop-directquery-about.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
-* Повышение производительности при сохранении и открытии [[видео]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* Улучшение *отображения элементов без данных* [[видео]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
-* Управление сохраняемыми фильтрами для будущей функции **службы Power BI** [[видео]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+* Повышение производительности DirectQuery [[видео]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[статья]](desktop-directquery-about.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
+* Повышение производительности при сохранении и открытии [[видео]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
+* Улучшение *отображения элементов без данных* [[видео]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* Управление сохраняемыми фильтрами для будущей функции **службы Power BI** [[видео]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
 
 
 
@@ -1354,7 +1393,7 @@ ms.locfileid: "74310820"
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
--   Поддержка проверки подлинности Azure Active Directory для базы данных SQL Azure и соединителей хранилища данных [[видео]](https://youtu.be/W8Pp5wuCXJw?t=21m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
+-   Поддержка проверки подлинности Azure Active Directory для базы данных SQL Azure и соединителей хранилища данных [[видео]](https://youtu.be/W8Pp5wuCXJw?t=21m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
 
 
 > [!NOTE]
@@ -1390,12 +1429,12 @@ ms.locfileid: "74310820"
 
 -   Обработчик "Вопросы и ответы" для создания отчетов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
 -   Перекрестное выделение закладок [[видео]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
--   Больше гибкости для закладок [[видео]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[блог] ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   Повышенная гибкость при работе с закладками [[видео]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
 -   Панель свойств поля и описания поля [[видео]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
 -   Точечная диаграмма, созданная с помощью группирования осей x и y [[видео]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
 -   Высокая плотность выборки для карт на основе широты и долготы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
 -   Адаптивные срезы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>Аналитика
@@ -1408,8 +1447,8 @@ ms.locfileid: "74310820"
 -   Соединитель Adobe Analytics [[видео]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
 -   Соединитель HDInsight для интерактивных запросов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
 -   Соединитель Data.World [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
--   Улучшения для соединителя SAP BW: [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
--   Соединитель IBM Netezza теперь общедоступен: [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
+-   Улучшения для соединителя SAP BW [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   Соединитель IBM Netezza теперь общедоступен [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
 
 
 
@@ -1444,28 +1483,28 @@ ms.locfileid: "74310820"
 ### <a name="reporting"></a>Отчеты
 
 -   Условное форматирование на основе правил для визуальных элементов таблицы и матрицы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
--   Выравнивание ячеек для визуальных элементов таблицы и матрицы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=4m16s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
--   Упорядочение визуальных элементов контроля через область выделения [[видео]](https://youtu.be/sI3yRjdnJ7w?t=6m21s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
--   Блокировка объектов в отчете [[видео]](https://youtu.be/sI3yRjdnJ7w?t=9m2s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
--   Подписка Esri Plus на ArcGIS Maps для Power BI доступна [[видео]](https://youtu.be/sI3yRjdnJ7w?t=10m31s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
--   Параметры отчета для медленных источников данных [[видео]](https://youtu.be/sI3yRjdnJ7w?t=16m11s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
--   Улучшения эффективности фильтрации [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   Выравнивание ячеек для визуальных элементов таблицы и матрицы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
+-   Упорядочение визуальных элементов контроля через область выделения [[видео]](https://youtu.be/sI3yRjdnJ7w?t=6m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
+-   Блокировка объектов в отчете [[видео]](https://youtu.be/sI3yRjdnJ7w?t=9m2s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
+-   Подписка Esri Plus на ArcGIS Maps для Power BI доступна [[видео]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
+-   Параметры отчета для медленных источников данных [[видео]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
+-   Улучшения эффективности фильтрации [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
+-   Недавно выпущенные пользовательские визуальные элементы [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>Аналитика
 
--   Форматирование на уровне ячейки для многомерных моделей AS для многострочной карточки [[видео]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+-   Форматирование на уровне ячейки для многомерных моделей AS для многострочной карточки [[видео]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
--   Соединитель Impala: поддержка проверки подлинности Windows [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
+-   Соединитель Impala: поддержка проверки подлинности Windows [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
 ### <a name="other"></a>Другое
 
--   Редактирование запросов: улучшение добавления столбца из примера [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+-   Редактирование запросов: улучшение добавления столбца из примера [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 
 
 
@@ -1502,28 +1541,28 @@ ms.locfileid: "74310820"
 
 ### <a name="reporting"></a>Отчеты:
 
--   Создание закладок (предварительная версия) [[видео]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[статья]](desktop-bookmarks.md)
+-   Закладки (предварительная версия) [[видео]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[статья]](desktop-bookmarks.md)
 -   Область выделения и элементы управления отображением [[видео]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[статья]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   Ссылки на закладки для фигур и изображений [[видео]](https://youtu.be/jksjtR8GnBE?t=8m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[статья]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   Функция "В центре внимания" [[видео]](https://youtu.be/jksjtR8GnBE?t=5m39s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[статья]](desktop-bookmarks.md#using-spotlight)
 -   Точечные и пузырьковые маркеры [[видео]](https://youtu.be/jksjtR8GnBE?t=17m20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[статья]](desktop-accessibility.md)
--   Увеличение количества точек данных, отображаемых в визуальных элементах точечной диаграммы [[видео]](https://youtu.be/jksjtR8GnBE?t=19m51s)[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#dataVolume) 
+-   Увеличение количества точек данных, отображаемых в визуальных элементах точечной диаграммы [[видео]](https://youtu.be/jksjtR8GnBE?t=19m51s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#dataVolume) 
 
 ### <a name="analytics"></a>Аналитика
 
 -   Быстрые меры для активных подключений SSAS [[видео]](https://youtu.be/jksjtR8GnBE?t=22m35s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#liveConnectQuickMeasures) [[статья]](desktop-quick-measures.md)
 -   Продажи с помощью быстрой меры для новых клиентов [[видео]](https://youtu.be/jksjtR8GnBE?t=23m16s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#newCustomers) [[статья]](desktop-quick-measures.md)
--   Форматирование на уровне ячейки для многомерных моделей Analysis Services (AS) [[видео]](https://youtu.be/jksjtR8GnBE?t=25m28s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#cellLevelFormatting)
+-   Форматирование на уровне ячейки для многомерных моделей Analysis Services (AS) [[видео]](https://youtu.be/jksjtR8GnBE?t=25m28s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#cellLevelFormatting)
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
 -   Соединитель Vertica (бета-версия) [[видео]](https://youtu.be/jksjtR8GnBE?t=25m55s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#vertica) [[статья]](desktop-data-sources.md#data-sources)
--   Соединитель SAP BW — поддержка дополнительных свойств элементов [[видео]](https://youtu.be/jksjtR8GnBE?t=26m39s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#sapBW)
+-   Соединитель SAP BW — поддержка дополнительных свойств элементов [[видео]](https://youtu.be/jksjtR8GnBE?t=26m39s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#sapBW)
 
 ### <a name="other"></a>Другие возможности:
 
--   Установка **Power BI Desktop** из Магазина Windows [[видео]](https://youtu.be/jksjtR8GnBE?t=27m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[статья]](desktop-get-the-desktop.md#install-as-an-app-from-the-microsoft-store)
+-   Установка **Power BI Desktop** из Магазина Windows [[видео]](https://youtu.be/jksjtR8GnBE?t=27m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[статья]](desktop-get-the-desktop.md#install-as-an-app-from-the-microsoft-store)
 -   Улучшенный доступ к справке [[видео]](https://youtu.be/jksjtR8GnBE?t=28m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#help)
 
 
@@ -1550,9 +1589,9 @@ ms.locfileid: "74310820"
 -   Диаграмма ленты [[видео]](https://youtu.be/moTQJlnClJw?t=8m57s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[статья]](visuals/desktop-ribbon-charts.md)
 -   Аналитика: элементы "Объяснить рост" и "Объяснить снижение" [[видео]](https://youtu.be/moTQJlnClJw?t=13m37s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[статья]](desktop-insights.md)
 -   Обновление предварительной версии элемента "Темы": элементы управления стилем диаграммы [[видео]](https://youtu.be/moTQJlnClJw?t=19m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[статья]](desktop-report-themes.md)
--   Улучшения элемента "Специальные возможности" [[видео]](https://youtu.be/moTQJlnClJw?t=27m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[статья]](desktop-accessibility.md)
+-   Улучшения доступности [[видео]](https://youtu.be/moTQJlnClJw?t=27m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[статья]](desktop-accessibility.md)
     -   Доступное окно "Просмотр данных" [[видео]](https://youtu.be/moTQJlnClJw?t=29m40s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibleData) [[статья]](desktop-accessibility.md)
-    -   Вспомогательное диалоговое окно с сочетаниями клавиш [[видео]](https://youtu.be/moTQJlnClJw?t=28m50s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#shortcuts) [[статья] ](desktop-accessibility.md)
+    -   Вспомогательное диалоговое окно с сочетаниями клавиш [[видео]](https://youtu.be/moTQJlnClJw?t=28m50s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#shortcuts) [[статья]](desktop-accessibility.md)
 -   Точечные диаграммы с выборкой с высокой плотностью [[видео]](https://youtu.be/moTQJlnClJw?t=30m22s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#highDensityScatter) [[статья]](desktop-high-density-scatter-charts.md)
 -   Элемент управления стилем "Линия сетки" [[видео]](https://youtu.be/moTQJlnClJw?t=33m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#gridlines) [[статья]](desktop-gridlines-snap-to-grid.md)
 -   Новые пользовательские визуальные элементы [[видео]](https://youtu.be/moTQJlnClJw?t=36m4s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
@@ -1564,7 +1603,7 @@ ms.locfileid: "74310820"
 ### <a name="data-connectivity"></a>Подключение к данным
 
 -   Соединитель Azure Consumption Insights [[видео]](https://youtu.be/moTQJlnClJw?t=44m57s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#azureConsumptionInsights) [[статья]](desktop-connect-azure-consumption-insights.md)
--   Усовершенствования Dynamics 365 для соединителя Financials [[видео]](https://youtu.be/moTQJlnClJw?t=45m39s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#dynamics365ForFinancials)
+-   Усовершенствования Dynamics 365 для соединителя Financials [[видео]](https://youtu.be/moTQJlnClJw?t=45m39s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#dynamics365ForFinancials)
 
 
 > [!NOTE]
@@ -1602,13 +1641,13 @@ ms.locfileid: "74310820"
 
 -   Параметры What if [[видео]](https://youtu.be/ND8U0yXroaQ?t=24m51s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#whatIf)
 -   Новые возможности аналитики точечной диаграммы [[видео]](https://youtu.be/ND8U0yXroaQ?t=32m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartAnalytics)
-    -   Симметричное затенение [[видео]](https://youtu.be/ND8U0yXroaQ?t=32m40s)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#symmetryShading)
+    -   Симметричное затенение [[видео]](https://youtu.be/ND8U0yXroaQ?t=32m40s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#symmetryShading)
     -   Строка коэффициентов [[видео]](https://youtu.be/ND8U0yXroaQ?t=35m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#ratioLine)
 -   Новая быстрая мера: средневзвешенное значение [[видео]](https://youtu.be/ND8U0yXroaQ?t=36m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#weightedAverage)
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
--   Динамическое подключение к службе Power BI находится в общем доступе [[видео]](https://youtu.be/ND8U0yXroaQ?t=41m15s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#liveConnect)
+-   Динамическое подключение к службе Power BI находится в общем доступе [[видео]](https://youtu.be/ND8U0yXroaQ?t=41m15s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#liveConnect)
 -   Соединитель Google BigQuery (бета-версия) [[видео]](https://youtu.be/ND8U0yXroaQ?t=44m15s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#GoogleBigQuery)
 
 
@@ -1631,14 +1670,14 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Новые визуальные элементы "Таблица" и "Матрица" стали общедоступными: [[видео]](https://youtu.be/4X96ow7FnSY?t=1m27s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#tableAndMatrix)
--   Изменение имен полей в визуальных элементах: [[видео]](https://youtu.be/4X96ow7FnSY?t=6m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#rename)
--   Интеграция с магазином пользовательских визуальных элементов: [[видео]](https://youtu.be/4X96ow7FnSY?t=8m7s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
+-   Новые визуальные элементы "Таблица" и "Матрица" стали общедоступными [[видео]](https://youtu.be/4X96ow7FnSY?t=1m27s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#tableAndMatrix)
+-   Изменение имен полей в визуальных элементах [[видео]](https://youtu.be/4X96ow7FnSY?t=6m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#rename)
+-   Интеграция с магазином пользовательских визуальных элементов [[видео]](https://youtu.be/4X96ow7FnSY?t=8m7s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
 -   Фильтры относительных дат: [[видео]](https://youtu.be/4X96ow7FnSY?t=10m46s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#relativeDateFilter)
--   Гибкий макет визуальных элементов (предварительная версия): [[видео]](https://youtu.be/4X96ow7FnSY?t=12m14s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
--   Новый параметр каскадной диаграммы — "Подразделение": [[видео]](https://youtu.be/4X96ow7FnSY?t=14m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
--   Обновления пользовательских визуальных элементов: [[видео]](https://youtu.be/4X96ow7FnSY?t=17m34s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisuals)
-    -   Детализация "Фоновая картограмма": [[видео]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
+-   Гибкий макет визуальных элементов (предварительная версия) [[видео]](https://youtu.be/4X96ow7FnSY?t=12m14s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
+-   Новый параметр каскадной диаграммы — "Подразделение" [[видео]](https://youtu.be/4X96ow7FnSY?t=14m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
+-   Обновления пользовательских визуальных элементов [[видео]](https://youtu.be/4X96ow7FnSY?t=17m34s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisuals)
+    -   Детализация "Фоновая картограмма" [[видео]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
     -   Детализация "Картограмма": [[видео]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
     -   Детализация "Проигрыватель": [[видео]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
     -   Сертификация пользовательских визуальных элементов: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
@@ -1647,18 +1686,18 @@ ms.locfileid: "74310820"
 ### <a name="analytics--modeling"></a>Аналитика и моделирование:
 
 -   Быстрые меры из сообщества: [[видео]](https://youtu.be/4X96ow7FnSY?t=22m6s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#quickMeasures)
-    -   Оценка: [[видео]](https://youtu.be/4X96ow7FnSY?t=22m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#starRating)
-    -   Объединенный список значений: [[видео]](https://youtu.be/4X96ow7FnSY?t=24m43s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#concatenate)
--   Двусторонняя кроссфильтрация стала общедоступной для DirectQuery: [[видео]](https://youtu.be/4X96ow7FnSY?t=26m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#bidirectional)
+    -   Оценка в звездочках [[видео]](https://youtu.be/4X96ow7FnSY?t=22m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#starRating)
+    -   Объединенный список значений [[видео]](https://youtu.be/4X96ow7FnSY?t=24m43s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#concatenate)
+-   Двусторонняя перекрестная фильтрация стала общедоступной для DirectQuery [[видео]](https://youtu.be/4X96ow7FnSY?t=26m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#bidirectional)
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
--   Соединитель типа "снежинка" стал общедоступным: [[видео]](https://youtu.be/4X96ow7FnSY?t=27m24s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#snowflake)
+-   Соединитель Snowflake стал общедоступным [[видео]](https://youtu.be/4X96ow7FnSY?t=27m24s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#snowflake)
 
 
 ### <a name="query-editing"></a>Редактирование запросов:
 
--   *Улучшение возможности добавления столбца из примеров*: [[видео]](https://youtu.be/4X96ow7FnSY?t=27m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#addColumnFromExamples)
+-   *Улучшение возможности добавления столбца из примеров* [[видео]](https://youtu.be/4X96ow7FnSY?t=27m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#addColumnFromExamples)
 
 
 
@@ -1683,27 +1722,27 @@ ms.locfileid: "74310820"
 
 -   Гистограммы для новых визуальных элементов с таблицами и матрицами (предварительная версия) [[видео]](https://youtu.be/YlNVE5dgcSI?t=1m17s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#dataBars)
 -   Метки для графиков, диаграмм с областями и комбинированных диаграмм (предварительная версия) [[видео]](https://youtu.be/YlNVE5dgcSI?t=4m4s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#markers)
--   Параметр семейства шрифтов для визуальных элементов: [[видео]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
--   Горизонтальный срез изображения: [[видео]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
--   Обновления форматирования комбинированной диаграммы: [[видео]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   Улучшения карт Bing: [[видео]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[статья]](visuals/power-bi-map-tips-and-tricks.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
--   Выборка линий с высокой плотностью: [[видео]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[статья]](desktop-high-density-sampling.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
--   Отчеты со специальными возможностями: [[видео]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
+-   Параметр семейства шрифтов для визуальных элементов [[видео]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
+-   Горизонтальный срез изображения [[видео]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
+-   Обновления форматирования комбинированной диаграммы [[видео]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
+-   Улучшения карт Bing [[видео]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[статья]](visuals/power-bi-map-tips-and-tricks.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   Выборка линий с высокой плотностью [[видео]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[статья]](desktop-high-density-sampling.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
+-   Отчеты со специальными возможностями [[видео]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[статья]](desktop-accessibility.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
--   Поддержка пользовательских соединителей данных: [[видео]](https://youtu.be/YlNVE5dgcSI?t=25m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#customConnectors)
--   Возможность активного подключения к локальным наборам данных и наборам данных принудительной потоковой передачи в **службе Power BI**: [[видео]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
--   Соединитель Impala теперь общедоступен: [[видео]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)
--   Соединитель Amazon Redshift теперь общедоступен: [[видео]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#redshift)
--   Соединитель SAP BW теперь поддерживает DirectQuery: [[видео]](https://youtu.be/YlNVE5dgcSI?t=27m45s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#sapBW)
--   Соединитель IBM Netezza (бета-версия): [[видео]](https://youtu.be/YlNVE5dgcSI?t=28m15s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#netezza)
+-   Поддержка пользовательских соединителей данных [[видео]](https://youtu.be/YlNVE5dgcSI?t=25m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#customConnectors)
+-   Возможность активного подключения к локальным наборам данных и наборам данных принудительной потоковой передачи в **службе Power BI** [[видео]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
+-   Соединитель Impala теперь общедоступен [[видео]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)
+-   Соединитель Amazon Redshift теперь общедоступен [[видео]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#redshift)
+-   Соединитель SAP BW теперь поддерживает DirectQuery [[видео]](https://youtu.be/YlNVE5dgcSI?t=27m45s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#sapBW)
+-   Соединитель IBM Netezza (бета-версия) [[видео]](https://youtu.be/YlNVE5dgcSI?t=28m15s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#netezza)
 
 
 ### <a name="query-editing"></a>Редактирование запросов:
 
--   Улучшение возможности *добавления столбца из примеров*: [[видео]](https://youtu.be/YlNVE5dgcSI?t=28m38s) [[статья]](desktop-add-column-from-example.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#addColumn)
+-   Улучшение возможности *добавления столбца из примеров* [[видео]](https://youtu.be/YlNVE5dgcSI?t=28m38s) [[статья]](desktop-add-column-from-example.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#addColumn)
 
 
 
@@ -1737,15 +1776,15 @@ ms.locfileid: "74310820"
 
 ### <a name="analytics"></a>Аналитика
 
--   Меры уровня отчета для активных подключений к табличным моделям служб Analysis Services и наборам данных службы Power BI [[видео]](https://youtu.be/CKISVNHcHVA?t=12m48s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#reportLevelMeasures)
+-   Меры уровня отчета для активных подключений к табличным моделям служб Analysis Services и наборам данных службы Power BI [[видео]](https://youtu.be/CKISVNHcHVA?t=12m48s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#reportLevelMeasures)
 -   Две новые быстрые меры (предварительная версия) [[видео]](https://youtu.be/CKISVNHcHVA?t=15m39s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#quickMeasures)
 -   Выбор числа ячеек [[видео]](https://youtu.be/CKISVNHcHVA?t=18m22s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#binByCount)
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
--   Объединение файлов — возможность ссылаться на *первый файл* в качестве примера [[видео]](https://youtu.be/CKISVNHcHVA?t=21m30s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#combineFiles)
+-   Объединение файлов — возможность ссылаться на *первый файл* в качестве примера [[видео]](https://youtu.be/CKISVNHcHVA?t=21m30s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#combineFiles)
 -   Новые соединители данных:
-    -  Dynamics 365 для Customer Insights [[видео]](https://youtu.be/CKISVNHcHVA?t=21m2s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#customerInsights)
+    -  Dynamics 365 для Customer Insights [[видео]](https://youtu.be/CKISVNHcHVA?t=21m2s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#customerInsights)
 
 ### <a name="query-editing"></a>Редактирование запросов:
 
@@ -1775,12 +1814,12 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Переименование заголовков осей [[видео]](https://youtu.be/AWMaIaI8G2Y?t=25s)[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
+-   Переименование заголовков осей [[видео]](https://youtu.be/AWMaIaI8G2Y?t=25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
 -   Улучшения визуальных эффектов матрицы: сортировка и изменение размеров столбцов, а также перенос по словам (предварительная версия) [[видео]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[статья]](visuals/desktop-matrix-visual.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>Аналитика
 
--   Быстрые меры [[видео]](https://youtu.be/AWMaIaI8G2Y?t=3m43s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#quickMeasures), [[подробный блог]](https://powerbi.microsoft.com/blog/quick-measures-preview/), [[статья]](desktop-quick-measures.md)
+-   Быстрые меры [[видео]](https://youtu.be/AWMaIaI8G2Y?t=3m43s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#quickMeasures) [[подробный блог]](https://powerbi.microsoft.com/blog/quick-measures-preview/) [[статья]](desktop-quick-measures.md)
 -   Отображение значения [[видео]](https://youtu.be/AWMaIaI8G2Y?t=3m43s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#quickMeasures)
 -   Вопросы и ответы на испанском языке (предварительная версия) [[видео]](https://youtu.be/AWMaIaI8G2Y?t=10m31s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#QandA)
 
@@ -1818,28 +1857,28 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Новый визуальный элемент с матрицей (предварительная версия): [[видео]](https://youtu.be/CaRTON3lJqw?t=18s) [[статья]](visuals/desktop-matrix-visual.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
--   Срез числового диапазона (предварительная версия):[[видео]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[статья]](desktop-slicer-numeric-range.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
--   Процентная доля в виде меток данных на визуальных элементах круговой и кольцевой диаграмм: [[видео]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
--   Перекрестное выделение при использовании нескольких рядов данных: [[видео]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
--   Возможность выбора цвета шрифта для текстового поля: [[видео]](https://youtu.be/CaRTON3lJqw?t=13m17s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#textbox)
--   Тема для отчетов (предварительная версия): [[видео]](https://youtu.be/CaRTON3lJqw?t=15m8s) [[статья]](desktop-report-themes.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#theme)
+-   Новый визуальный элемент с матрицей (предварительная версия) [[видео]](https://youtu.be/CaRTON3lJqw?t=18s) [[статья]](visuals/desktop-matrix-visual.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   Срез числового диапазона (предварительная версия) [[видео]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[статья]](desktop-slicer-numeric-range.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
+-   Процентная доля в виде меток данных на визуальных элементах круговой и кольцевой диаграмм [[видео]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
+-   Перекрестное выделение при использовании нескольких рядов данных [[видео]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
+-   Возможность выбора цвета шрифта для текстового поля [[видео]](https://youtu.be/CaRTON3lJqw?t=13m17s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#textbox)
+-   Тема для отчетов (предварительная версия) [[видео]](https://youtu.be/CaRTON3lJqw?t=15m8s) [[статья]](desktop-report-themes.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#theme)
 
 ### <a name="analytics"></a>Аналитика
 
--   Общедоступная версия кластеризации: [[видео]](https://youtu.be/CaRTON3lJqw?t=19m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#clustering)
+-   Общедоступная версия кластеризации [[видео]](https://youtu.be/CaRTON3lJqw?t=19m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#clustering)
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
 -   Новые и улучшенные соединители данных ([[видео]](https://youtu.be/CaRTON3lJqw?t=21m14s)):
     -   База данных служб Analysis Services Azure (бета-версия): [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#azureAnalysisServices)
     -   Общедоступная версия Azure Data Lake Store: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#azureDataLakeStore)
-    -   Соединитель DB2 — параметр, позволяющий указать коллекцию пакетов: [[видео]](https://youtu.be/CaRTON3lJqw?t=22m) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#db2)
-    -   Объединение двоичных файлов — возможность для указания используемого примера файла: [[видео]](https://youtu.be/CaRTON3lJqw?t=22m41s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#combineBinaries)
+    -   Соединитель DB2 — параметр, позволяющий указать коллекцию пакетов [[видео]](https://youtu.be/CaRTON3lJqw?t=22m) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#db2)
+    -   Объединение двоичных файлов — возможность для указания используемого примера файла [[видео]](https://youtu.be/CaRTON3lJqw?t=22m41s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#combineBinaries)
 
 ### <a name="query-editing-improvements"></a>Оптимизация редактирования запросов
 
--   Разбиение столбца по разделителю (автоматическое обнаружение символа разделителя): [[видео]](https://youtu.be/CaRTON3lJqw?t=23m56s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#splitColumn)
+-   Разбиение столбца по разделителю (автоматическое обнаружение символа разделителя) [[видео]](https://youtu.be/CaRTON3lJqw?t=23m56s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#splitColumn)
 
 
 > [!NOTE]
@@ -1862,32 +1901,32 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Перенос заголовков строк матрицы по словам — [[видео]](https://youtu.be/mn75-LOPxMA?t=21s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#wordWrap).
--   Элемент управления размером шрифта "Ось X" и "Ось Y" — [[видео]](https://youtu.be/mn75-LOPxMA?t=2m3s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#fontSize).
--   Минимальная ширина категории декартовой диаграммы — [[видео]](https://youtu.be/mn75-LOPxMA?t=4m), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#categoryWidth).
--   Элементы управления "Толщина линии" и "Тип соединения" для графика — [[видео]](https://youtu.be/mn75-LOPxMA?t=5m55s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#lineThickness).
+-   Перенос заголовков строк матрицы по словам — [[видео]](https://youtu.be/mn75-LOPxMA?t=21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#wordWrap)
+-   Элемент управления размером шрифта "Ось X" и "Ось Y" [[видео]](https://youtu.be/mn75-LOPxMA?t=2m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#fontSize)
+-   Минимальная ширина категории декартовой диаграммы [[видео]](https://youtu.be/mn75-LOPxMA?t=4m) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#categoryWidth)
+-   Элементы управления "Толщина линии" и "Тип соединения" для графика [[видео]](https://youtu.be/mn75-LOPxMA?t=5m55s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#lineThickness)
 
 ### <a name="analytics"></a>Аналитика
 
--   Два новых способа быстрых вычислений: процент общего значения строки и процент общего значения столбца — [[видео]](https://youtu.be/mn75-LOPxMA?t=7m46s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#quickCalcs)
+-   Два новых способа быстрых вычислений: процент общего значения строки и процент общего значения столбца [[видео]](https://youtu.be/mn75-LOPxMA?t=7m46s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#quickCalcs)
 
 ### <a name="data-connectivity"></a>Подключение к данным
 
 -   Новые и улучшенные соединители данных ([[видео]](https://youtu.be/mn75-LOPxMA?t=9m23s)):
-    -   Соединители ODBC и OLE DB — поддержка параметра *Выбор связанных таблиц*: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#relatedTables).
-    -   Соединитель Enhanced Folder — поддержка объединения двоичных файлов в диалоговом окне предварительного просмотра: [[видео]](https://youtu.be/mn75-LOPxMA?t=10m1s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#folder).
-    -   Соединители Unified Text и CSV — [[видео]](https://youtu.be/mn75-LOPxMA?t=11m9s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#textConnector).
+    -   Соединители ODBC и OLE DB — поддержка параметра *Выбор связанных таблиц* [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#relatedTables)
+    -   Соединитель Enhanced Folder — поддержка объединения двоичных файлов в диалоговом окне предварительного просмотра [[видео]](https://youtu.be/mn75-LOPxMA?t=10m1s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#folder)
+    -   Соединители Unified Text и CSV [[видео]](https://youtu.be/mn75-LOPxMA?t=11m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#textConnector)
     -   **Новинка** — соединитель PowerApps Common Data Service: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#cds).
 
 
 ### <a name="query-editing-improvements"></a>Оптимизация редактирования запросов
 
--   Быстро измените тип данных и языковой стандарт столбца, используя новый параметр *Using locale* (Использование языкового стандарта) в меню *Column headers type* (Тип заголовков столбцов) — [[видео]](https://youtu.be/mn75-LOPxMA?t=11m42s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#columnType).
--   Просто вставьте шаги в имеющиеся запросы, используя новый параметр *Вставить шаг после* — [[видео]](https://youtu.be/mn75-LOPxMA?t=12m36s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#stepsPane).
+-   Быстро измените тип данных и языковой стандарт столбца, используя новый параметр *Использование языкового стандарта* в меню *Тип заголовков столбцов* [[видео]](https://youtu.be/mn75-LOPxMA?t=11m42s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#columnType)
+-   Просто вставьте шаги в имеющиеся запросы, используя новый параметр *Вставить шаг после* [[видео]](https://youtu.be/mn75-LOPxMA?t=12m36s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#stepsPane)
 
 ### <a name="other-improvements"></a>Другие усовершенствования
 
--   Быстрый доступ к шаблонам решений и демонстрациям партнеров — [[видео]](https://youtu.be/mn75-LOPxMA?t=13m33s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#resources).
+-   Быстрый доступ к шаблонам решений и демонстрациям партнеров [[видео]](https://youtu.be/mn75-LOPxMA?t=13m33s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#resources)
 
 
 > [!NOTE]
@@ -1909,21 +1948,21 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Улучшение условного форматирования таблиц и матриц — форматирование пустых значений — [[видео]](https://youtu.be/C1-f0T8vZ7M?t=37s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#conditionalFormatting).
--   Новые агрегаты для строковых столбцов и столбцов даты и времени — [[видео]](https://youtu.be/C1-f0T8vZ7M?t=2m50s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#aggregations).
--   Перенос заголовка таблицы по словам — [[видео]](https://youtu.be/C1-f0T8vZ7M?t=6m38s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#wordWrap).
--   Общедоступная версия отчетов для телефонов — [[видео]](https://youtu.be/C1-f0T8vZ7M?t=7m53s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#phoneReports).
+-   Улучшение условного форматирования таблиц и матриц — форматирование пустых значений [[видео]](https://youtu.be/C1-f0T8vZ7M?t=37s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#conditionalFormatting)
+-   Новые агрегаты для строковых столбцов и столбцов даты и времени [[видео]](https://youtu.be/C1-f0T8vZ7M?t=2m50s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#aggregations)
+-   Перенос заголовка таблицы по словам [[видео]](https://youtu.be/C1-f0T8vZ7M?t=6m38s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#wordWrap)
+-   Общедоступная версия отчетов для телефонов [[видео]](https://youtu.be/C1-f0T8vZ7M?t=7m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#phoneReports)
 
 
 ### <a name="data-connectors"></a>Соединители данных
 
 -   Новые и улучшенные соединители данных ([[видео]](https://youtu.be/C1-f0T8vZ7M?t=8m47s)):
-    -   соединитель Visual Studio Team Services (бета-версия) — [[видео]](https://youtu.be/C1-f0T8vZ7M?t=8m47s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#visualStudioTeamServices);
-    -   улучшенный соединитель SQL Server: поддержка отработки отказа SQL — [[видео]](https://youtu.be/C1-f0T8vZ7M?t=9m28s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#SQLFailover).
+    -   Соединитель Visual Studio Team Services (бета-версия) [[видео]](https://youtu.be/C1-f0T8vZ7M?t=8m47s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#visualStudioTeamServices)
+    -   Улучшенный соединитель SQL Server: поддержка отработки отказа SQL [[видео]](https://youtu.be/C1-f0T8vZ7M?t=9m28s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#SQLFailover)
 
 ### <a name="query-editing-improvements"></a>Оптимизация редактирования запросов
 
--   Новое преобразование: извлечение значений из вложенного списка — [[видео]](https://youtu.be/C1-f0T8vZ7M?t=10m19s), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#extractValues).
+-   Новое преобразование: извлечение значений из вложенного списка [[видео]](https://youtu.be/C1-f0T8vZ7M?t=10m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#extractValues)
 
 
 > [!NOTE]
@@ -1948,35 +1987,35 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Иерархические оси: [[видео]](https://youtu.be/kERJ_WOLuLk?t=36s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#hierarchicalAxis)
--   Подписи осей и элементы управления цветом заголовков: [[видео]](https://youtu.be/kERJ_WOLuLk?t=1m56s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#axisColor)
--   Условное форматирование матриц: [[видео]](https://youtu.be/kERJ_WOLuLk?t=2m56s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#matrixConditionalFormatting)
--   Форматирование столбцов в таблицах и матрицах: [[видео]](https://youtu.be/kERJ_WOLuLk?t=4m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#columnFormatting)
--   Раскрывающийся список срезов: [[видео]](https://youtu.be/kERJ_WOLuLk?t=5m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#dropdownSlicer)
--   Прокручивание мобильных отчетов: [[видео]](https://youtu.be/kERJ_WOLuLk?t=7m7s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#mobileReports)
+-   Иерархические оси [[видео]](https://youtu.be/kERJ_WOLuLk?t=36s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#hierarchicalAxis)
+-   Подписи осей и элементы управления цветом заголовков [[видео]](https://youtu.be/kERJ_WOLuLk?t=1m56s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#axisColor)
+-   Условное форматирование матриц [[видео]](https://youtu.be/kERJ_WOLuLk?t=2m56s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#matrixConditionalFormatting)
+-   Форматирование столбцов в таблицах и матрицах [[видео]](https://youtu.be/kERJ_WOLuLk?t=4m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#columnFormatting)
+-   Раскрывающийся список срезов [[видео]](https://youtu.be/kERJ_WOLuLk?t=5m54s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#dropdownSlicer)
+-   Прокручивание мобильных отчетов [[видео]](https://youtu.be/kERJ_WOLuLk?t=7m7s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#mobileReports)
 
 
 ### <a name="analytics"></a>Аналитика
 
--   Кластеризация (предварительная версия): [[видео]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
+-   Кластеризация (предварительная версия) [[видео]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
 -   Прогнозирование (теперь и в **службе Power BI**): [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
--   Группы (теперь на ленте): [[видео]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
+-   Группы (теперь на ленте) [[видео]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
 
 
 
 ### <a name="data-connectors"></a>Соединители данных
 
 -   Новые соединители данных: [[видео]](https://youtu.be/kERJ_WOLuLk?t=14m10s)
-    -   DirectQuery для Spark: [[видео]](https://youtu.be/kERJ_WOLuLk?t=14m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#spark)
-    -   Улучшения для соединителя OData: [[видео]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#oData)
-    -   Дополнительные возможности *объединения двоичных значений*: [[видео]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#combineBinaries)
-    -   Службы Azure Analysis Services: [[видео]](https://youtu.be/kERJ_WOLuLk?t=17m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#azureAnalysisServices)
+    -   DirectQuery для Spark [[видео]](https://youtu.be/kERJ_WOLuLk?t=14m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#spark)
+    -   Улучшения для соединителя OData [[видео]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#oData)
+    -   Дополнительные возможности *объединения двоичных значений* [[видео]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#combineBinaries)
+    -   Службы Azure Analysis Services [[видео]](https://youtu.be/kERJ_WOLuLk?t=17m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#azureAnalysisServices)
 
 ### <a name="query-editing-improvements"></a>Оптимизация редактирования запросов
 
--   Улучшенные возможности *создания функций*: [[видео]](https://youtu.be/kERJ_WOLuLk?t=18m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#functionAuthoring)
--   Поддержка *процентного* типа данных: [[видео]](https://youtu.be/kERJ_WOLuLk?t=18m36s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#percentage)
--   Добавлены кнопки **Развернуть** и **Восстановить** в окнах **Навигатор** и **Зависимости запроса**: [[видео]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
+-   Улучшенные возможности *создания функций* [[видео]](https://youtu.be/kERJ_WOLuLk?t=18m3s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#functionAuthoring)
+-   Поддержка *процентного* типа данных [[видео]](https://youtu.be/kERJ_WOLuLk?t=18m36s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#percentage)
+-   Добавлены кнопки **Развернуть** и **Восстановить** в окнах **Навигатор** и **Зависимости запроса** [[видео]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
 
 
 > [!NOTE]
@@ -2000,8 +2039,8 @@ ms.locfileid: "74310820"
 ### <a name="report-view"></a>Представление отчетов
 
 -   Оптимизация форматирования диапазона оси дат [[видео]](https://youtu.be/UXEYSvgvMaQ?t=26s)
--   Срезы дат [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateSlicer) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=2m9s)
--   Линии сетки и привязка к сетке в отчетах (предварительная версия) [[статьи]](desktop-analytics-pane.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#snapToGrid) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=4m3s)
+-   Срез дат [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateSlicer) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=2m9s)
+-   Линии сетки и привязка к сетке в отчетах (предварительная версия) [[статья]](desktop-analytics-pane.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#snapToGrid) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=4m3s)
 -   Оптимизация меток данных [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateLabels) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=5m30s)
 -   Параметры форматирования карт [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#mapFormatting) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=7m22s)
 -   Оптимизация форматирования диапазона оси дат [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateAxisRange)
@@ -2051,32 +2090,32 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Карты ArcGIS для Power BI: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/pcUr6E8g_KI?t=2m8s).
--   Макет мобильного отчета (предварительная версия): [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/pcUr6E8g_KI?t=3m59s).
--   Обновленное поведение детализации: [[статья]](desktop-inline-hierarchy-labels.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/pcUr6E8g_KI?t=5m6s).
+-   Карты ArcGIS для Power BI [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=2m8s)
+-   Макет мобильного отчета (предварительная версия) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=3m59s)
+-   Обновленное поведение детализации [[статья]](desktop-inline-hierarchy-labels.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=5m6s)
 
 
 ### <a name="analytics"></a>Аналитика
 
--   Прогнозирование (предварительная версия): [[статья]](desktop-analytics-pane.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/pcUr6E8g_KI?t=6m6s).
--   Использование собственного интерфейса IDE на языке R: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/pcUr6E8g_KI?t=6m56s).
+-   Прогнозирование (предварительная версия) [[статья]](desktop-analytics-pane.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=6m6s)
+-   Использование собственного интерфейса IDE на языке R [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=6m56s)
 
 
 ### <a name="data-connectors"></a>Соединители данных
 
 -   Новые соединители данных:
     -   Соединитель Snowflake — поддержка DirectQuery: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
-    -   Соединитель ProjectPlace: [[статья]](desktop-connect-impala.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
+    -   Соединитель ProjectPlace [[статья]](desktop-connect-impala.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   Улучшения существующих соединителей:
     -   Соединитель Oracle — улучшенная работа предварительных версий навигатора: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
     -   Соединитель OData — поддержка параметра *Выбор связанных таблиц*: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
-    -   SAP Business Warehouse и соединители SAP HANA — усовершенствования в интерфейсе для ввода параметров: [[статья]](desktop-sap-bw-connector.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
-    -   Веб-соединитель — поддержка указания заголовков HTTP-запросов в диалоговом окне: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/pcUr6E8g_KI?t=8m5s).
+    -   SAP Business Warehouse и соединители SAP HANA — усовершенствования в интерфейсе для ввода параметров [[статья]](desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+    -   Веб-соединитель — поддержка указания заголовков HTTP-запросов в диалоговом окне [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=8m5s)
 
 
 ### <a name="query-editor-improvements"></a>Усовершенствования редактора запросов
 
--   Представление "Зависимости запроса": [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/pcUr6E8g_KI?t=8m37s).
+-   Представление "Зависимости запроса" [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=8m37s)
 -   Представление для отображения ошибок: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
 -   Поддержка ленты редактора запросов для скалярных значений: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
 -   Добавление столбца вызова функции: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
@@ -2087,7 +2126,7 @@ ms.locfileid: "74310820"
 
 ### <a name="other-improvements"></a>Другие усовершенствования
 
--   Ссылки в продуктах на **сообщество Power BI**: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=16m9s).
+-   Ссылки в продуктах на **сообщество Power BI** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
 
 
 > [!NOTE]
@@ -2119,17 +2158,17 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Детализация (или резервное копирование) графиков: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=3m1s).
--   Непрерывная ось для оси "Дата": [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=3m48s).
--   Общая доступность встроенных иерархий: [[статья]](desktop-inline-hierarchy-labels.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=4m6s).
--   Предопределенные стили матрицы (похоже на форматирование таблиц в Excel): [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=4m59s).
--   Изменение порядка расположения полей на диаграммах и в подсказках: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=6m23s).
--   Форматирование визуальных элементов ключевых показателей эффективности цветом: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=7m9s).
+-   Детализация (или резервное копирование) графиков [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=3m1s)
+-   Непрерывная ось для оси "Дата" [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=3m48s)
+-   Общая доступность встроенных иерархий [[статья]](desktop-inline-hierarchy-labels.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=4m6s)
+-   Предопределенные стили матрицы (похоже на форматирование таблиц в Excel) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=4m59s)
+-   Изменение порядка расположения полей на диаграммах и в подсказках [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=6m23s)
+-   Форматирование визуальных элементов ключевых показателей эффективности цветом [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=7m9s)
 
 ### <a name="analytics-new"></a>Аналитика (новая функция)
 
--   Новая панель **Аналитика**: [[статья]](desktop-analytics-pane.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=8m22s).
--   Динамические строки ссылки: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=9m40s).
+-   Новая панель **Аналитика** [[статья]](desktop-analytics-pane.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=8m22s)
+-   Динамические строки ссылки [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=9m40s)
 
 
 ### <a name="data-connectors"></a>Соединители данных
@@ -2137,18 +2176,18 @@ ms.locfileid: "74310820"
 -   Новые соединители данных:
     -   Соединитель типа "снежинка" (предварительная версия): [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/).
 -   Улучшения существующих соединителей:
-    -   Соединитель Impala — поддержка DirectQuery: [[статья]](desktop-connect-impala.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/).
-    -   Веб-соединитель — возможность предварительного просмотра веб-страницы: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=12m28s).
-    -   Общедоступная версия соединителя SAP Business Warehouse: [[статья]](desktop-sap-bw-connector.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/).
+    -   Соединитель Impala — поддержка DirectQuery [[статья]](desktop-connect-impala.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/)
+    -   Веб-соединитель — возможность предварительного просмотра веб-страницы [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=12m28s)
+    -   Общедоступная версия соединителя SAP Business Warehouse [[статья]](desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/)
 
 
 ### <a name="query-editor-improvements"></a>Усовершенствования редактора запросов
 
--   Возможность слияния или добавления в качестве нового запроса: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=14m24s).
+-   Возможность слияния или добавления в качестве нового запроса [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=14m24s)
 
 ### <a name="other-improvements"></a>Другие усовершенствования
 
--   Автоматическое восстановление файлов Desktop: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/), [[видео]](https://youtu.be/0VvG7Eqoke8?t=16m9s).
+-   Автоматическое восстановление файлов Desktop [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[видео]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
 
 
 > [!NOTE]
@@ -2172,23 +2211,23 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Готовые стили таблиц: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/), [[видео]](https://youtu.be/g8ccfjffWmw?t=1m25s).
--   Обновление карт фигур — использование пользовательских карт: [[статья]](visuals/desktop-shape-map.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/), [[видео]](https://youtu.be/g8ccfjffWmw?t=2m21s).
+-   Готовые стили таблиц [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[видео]](https://youtu.be/g8ccfjffWmw?t=1m25s)
+-   Обновление карт фигур — использование пользовательских карт [[статья]](visuals/desktop-shape-map.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[видео]](https://youtu.be/g8ccfjffWmw?t=2m21s)
 
 ### <a name="data-connectors"></a>Соединители данных
 
 -   Новые соединители данных:
-    -   Amazon Redshift: [[статья]](desktop-connect-redshift.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
-    -   Impala: [[статья]](desktop-connect-impala.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
+    -   Amazon Redshift [[статья]](desktop-connect-redshift.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+    -   Impala [[статья]](desktop-connect-impala.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   Улучшения существующих соединителей:
     -   Веб-соединитель — возможность указать время ожидания подключения: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
     -   CSV-файлы и текстовые файлы — поддержка файлов с разделителями фиксированной ширины: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
-    -   Улучшения и изменения в соединителе SAP Business Warehouse: [[статья]](desktop-sap-bw-connector.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
+    -   Улучшения и изменения в соединителе SAP Business Warehouse [[статья]](desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 
 
 ### <a name="query-editor-improvements"></a>Усовершенствования редактора запросов
 
--   Использование сценария **R** в редакторе запросов: [[статья]](desktop-r-in-query-editor.md), [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
+-   Использование сценария **R** в редакторе запросов [[статья]](desktop-r-in-query-editor.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   Улучшения в параметрах запросов:
     -   Указание выходных данных запросов в качестве *допустимых значений* для параметров: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
 -   Перезапись существующих пользовательских функций: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/).
@@ -2214,7 +2253,7 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Новый визуальный элемент: карты фигур [[видео]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[статья]](visuals/desktop-shape-map.md)
+-   Новый визуальный элемент карты фигур [[видео]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[статья]](visuals/desktop-shape-map.md)
 -   Срезы с возможностью поиска [[видео]](https://youtu.be/sZsL2l6oS4A?t=6m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Настраиваемые метки графиков [[видео]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Новые точки входа [[видео]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -2231,7 +2270,7 @@ ms.locfileid: "74310820"
     -   Возможность выбора нескольких значений для переменных и параметров
     -   Поддержка иерархий в SAP BW
 -   Расширенный соединитель OData: импорт столбцов Open Type [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
--   Расширенный соединитель БД Access: кнопка для **выбора связанных таблиц** в диалоговом окне **навигатора** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   Расширенный соединитель БД Access: кнопка для **выбора связанных таблиц** в диалоговом окне **навигатора**[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 
 ### <a name="data-connectors"></a>Соединители данных
 
@@ -2270,10 +2309,10 @@ ms.locfileid: "74310820"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Настраиваемые подсказки [[видео]](https://youtu.be/KnDs4amt9-c?t=172) [[статья]](desktop-custom-tooltips.md).
--   Условное форматирование в таблицах [[видео]](https://youtu.be/KnDs4amt9-c?t=313) [[статья]](desktop-conditional-table-formatting.md).
+-   Настраиваемые подсказки [[видео]](https://youtu.be/KnDs4amt9-c?t=172) [[статья]](desktop-custom-tooltips.md)
+-   Условное форматирование в таблицах [[видео]](https://youtu.be/KnDs4amt9-c?t=313) [[статья]](desktop-conditional-table-formatting.md)
 -   Публикация на сервере Pyramid [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
--   Загрузка дополнительных данных при прокрутке диаграмм [[видео]](https://youtu.be/KnDs4amt9-c?t=426) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
+-   Загрузка дополнительных данных при прокрутке диаграмм [[видео]](https://youtu.be/KnDs4amt9-c?t=426) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   Сдвиг клавиатуры для отображения визуальных элементов [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 
 ### <a name="analytics"></a>Аналитика
@@ -2291,16 +2330,16 @@ ms.locfileid: "74310820"
 -   Соединитель "Текст/CSV" предоставляет редактируемые настройки в диалоговом окне предварительного просмотра [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 -   Улучшенные соединители реляционной базы данных с информацией для отображения схемы.
 -   Усовершенствования параметров источника данных [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
--   Расширенный режим диалогового окна **Фильтрация строк** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
--   Встроенные элементы управления вводом для вызова функции в **редакторе запросов** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
+-   Расширенный режим диалогового окна **Фильтрация строк**[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
+-   Встроенные элементы управления вводом для вызова функции в **редакторе запросов** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   Параметры запроса: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
     -   Возможность преобразовывать запросы в параметры (и наоборот).
     -   Поддержка параметризации URL-адресов и составных URL-адресов в **веб**-соединителе.
     -   Поддержка параметризации в диалоговом окне **Условные столбцы**.
 -   Возможность **сохранения как** шаблона Power BI [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 -   Поддержка изменения порядка этапов запроса путем перетаскивания [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
--   Поддержка выбора даты в полях ввода даты в диалоговом окне **Условные столбцы** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
--   Новая запись контекстного меню для создания новых запросов на панели **Запросы** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
+-   Поддержка выбора даты в полях ввода даты в диалоговом окне **Условные столбцы**[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
+-   Новая запись контекстного меню для создания новых запросов на панели **Запросы**[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 
 
 > [!NOTE]
@@ -2899,7 +2938,7 @@ ms.locfileid: "74310820"
 
 -   **Перегруппировка страниц отчета** (перетаскиванием).
 
--   **Повышение** **производительности** на 40–50 % благодаря заполнению таблиц баз данных без фильтров и преобразований
+-   **Повышение производительности** **примерно на 40–50 %** благодаря заполнению таблиц баз данных без фильтров и преобразований
 
 -   Исправлено множество ошибок.
 

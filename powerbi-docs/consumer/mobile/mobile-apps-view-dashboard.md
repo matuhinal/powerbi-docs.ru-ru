@@ -8,15 +8,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870671"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218385"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
@@ -63,7 +63,7 @@ ms.locfileid: "73870671"
    
    * [Коснитесь плитки](mobile-tiles-in-the-mobile-apps.md), чтобы открыть ее в режиме фокусировки и начать с ней работу.
    * Коснитесь значка звездочки ![Звездочка избранного](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png), чтобы [добавить ее в избранное](mobile-apps-favorites.md).
-   * Коснитесь значка **Пригласить** ![Значок "Пригласить"](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png), чтобы [пригласить коллегу](mobile-share-dashboard-from-the-mobile-apps.md) просматривать панель мониторинга.
+   * Коснитесь значка **Пригласить** ![Значок "Пригласить"](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png), чтобы [пригласить коллегу](mobile-share-dashboard-from-the-mobile-apps.md) к просмотру панели мониторинга.
    * [Синхронизировать панель мониторинга с устройством Apple Watch](mobile-apple-watch.md).
 4. Чтобы вернуться к списку панелей мониторинга, коснитесь стрелки рядом с заголовком панели мониторинга, а затем выберите **Моя рабочая область**.
    
@@ -119,7 +119,7 @@ ms.locfileid: "73870671"
 
 1. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
-   ![Меню со значком многоточия](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+   ![Меню с многоточием](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Проведите по экрану вверх, чтобы увидеть [все плитки на информационной панели](mobile-tiles-in-the-mobile-apps.md). 
 3. Для возврата на домашнюю страницу панелей мониторинга коснитесь названия панели, чтобы открыть путь навигации, а затем выберите **Моя рабочая область**.   
 
@@ -135,7 +135,7 @@ ms.locfileid: "73870671"
    * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
 3. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
-   ![Меню со значком многоточия](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+   ![Меню с многоточием](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Проведите по экрану вверх, чтобы увидеть [все плитки на информационной панели](mobile-tiles-in-the-mobile-apps.md). 
    
    Для увеличения и уменьшения масштаба различных областей панели мониторинга или панорамирования можно использовать жест сжатия или разведения двумя пальцами. Чтобы открыть плитку в режиме фокусировки и работать с данными, также можно [коснуться плитки](mobile-tiles-in-the-mobile-apps.md).

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099748"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622462"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -29,7 +29,7 @@ ms.locfileid: "74099748"
 
 <a name="queries"></a>
 
-## <a name="queries"></a>запросы
+## <a name="queries"></a>Запросы
 В приложениях-шаблонах запросы, созданные в Power BI Desktop, используются для подключения к источникам данных и импорта данных. Эти запросы необходимы для получения согласованных схем и поддерживают обновление данных по расписанию (DirectQuery не поддерживается).
 
 ### <a name="connect-to-your-api"></a>Подключение к API
@@ -131,7 +131,7 @@ ms.locfileid: "74099748"
 * Убедитесь, что вы следуете документации по [предложению приложения Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
 * Если панель мониторинга является частью приложения, убедитесь, что она не пуста.
 * Установите приложение, используя ссылку приложения перед его отправкой, убедитесь, что можно подключить набор данных и взаимодействие с приложением происходит надлежащим образом.
-* Перед отправкой bpix в рабочую область шаблона убедитесь в том, что все ненужные подключения выгружены.
+* Перед отправкой PBIX в рабочую область шаблона убедитесь в том, что все ненужные подключения выгружены.
 * Следуйте[рекомендациям по проектированию отчетов и визуальных элементов](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) в Power BI, чтобы добиться максимального влияния на пользователей и получить одобрение для распространения приложения.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 

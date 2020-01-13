@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874460"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Создание визуального элемента, используя функцию "Вопросы и ответы" Power BI
@@ -28,7 +28,7 @@ ms.locfileid: "73874460"
 
 Как мы можем создать этот график, используя функцию "Вопросы и ответы"?
 
-1. В рабочей области Power BI выберите **Получить данные** \> **Примеры** \> **Анализ розничной торговли — пример** > **Подключить**.
+1. В рабочей области Power BI выберите **Получить данные** \> **Примеры** \> **Анализ розничной торговли — пример** > **Подключить**.
 
 1. Откройте панель мониторинга примера Анализа розничной торговли и поместите курсор в поле "Вопросы и ответы" **Задать вопрос о своих данных**.
 

@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859251"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Руководство. Изучение возможностей веб-портала Сервера отчетов Power BI на виртуальной машине
@@ -41,7 +41,7 @@ ms.locfileid: "73859251"
 2. Выберите **Get it now** (Получить).
 3. Щелкните **Продолжить**, чтобы подтвердить согласие с условиями использования и политикой конфиденциальности.
 
-4. Выберите **Создать**.
+4. Щелкните **Создать**.
 
     ![Создание виртуальной машины для Сервера отчетов Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
@@ -99,7 +99,7 @@ ms.locfileid: "73859251"
 
 ![Запуск виртуальной машины для Сервера отчетов Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
-|Число  |Назначение элемента  |
+|число;  |Назначение элемента  |
 |---------|---------|
 |![Номер 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Примеры отчетов Power BI (PBIX) |
 |![Номер 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Ссылки на документацию по Серверу отчетов Power BI |
@@ -111,7 +111,7 @@ ms.locfileid: "73859251"
 
 ![Веб-портал сервера отчетов Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Число  |Назначение элемента  |
+|число;  |Назначение элемента  |
 |---------|---------|
 |![Номер 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Ключевые показатели эффективности, созданные на веб-портале |
 |![Номер 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Отчеты Power BI (PBIX)  |
@@ -206,7 +206,7 @@ ms.locfileid: "73859251"
 
     Здесь вы можете изменить этот параметр, а также любые другие параметры, не изменяя значения по умолчанию.
 
-1. Последовательно выберите **Order** **SO48339 (Заказ SO48339)**  > **Просмотр отчета**.
+1. Выберите **Заказ** **SO48339** > **Просмотреть отчет**.
 
 4. Откроется страница 1 из 2. Щелкните стрелку вправо, чтобы открыть вторую страницу. Откроется вторая страница с продолжением таблицы.
 

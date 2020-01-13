@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696860"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498479"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Руководство. Добавление параметров форматирования в визуальные элементы Power BI
 
@@ -124,10 +124,12 @@ ms.locfileid: "74696860"
 
 8. В файле **visual.ts** сделайте следующее.
 
-    Импортируйте класс `VisualSettings`.
+    Импортируйте `VisualSettings`, `VisualObjectInstanceEnumeration` и `EnumerateVisualObjectInstancesOptions`:
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     В класс **Visual** добавьте следующее свойство:
@@ -218,23 +220,34 @@ ms.locfileid: "74696860"
 
     *Отображает отформатированное значение меры внутри круга*
 
-5. При желании добавьте в объект **author** сведения о себе.
+5. Заполните поля **supportUrl** и **gitHubUrl** для визуального элемента.
 
-6. Сохраните файл **pbiviz.json**.
+    Пример:
 
-7. В объекте **assets** вы увидите, что документ определяет путь к значку. Изображение значка отображается в области **_Визуализации_** . Оно должно иметь формат **PNG** и размер *20 на 20 пикселей*.
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. В проводнике Windows скопируйте файл icon.png и вставьте его вместо файла по умолчанию, размещенного в папке assets.
+6. Добавьте сведения о себе в объекте **author**.
 
-9. В Visual Studio Code в области обозревателя разверните папку assets и выберите файл icon.png.
+7. Сохраните файл **pbiviz.json**.
 
-10. Просмотрите значок.
+8. В объекте **assets** вы увидите, что документ определяет путь к значку. Изображение значка отображается в области **_Визуализации_** . Оно должно иметь формат **PNG** и размер *20 на 20 пикселей*.
+
+9. В проводнике Windows скопируйте файл icon.png и вставьте его вместо файла по умолчанию, размещенного в папке assets.
+
+10. В Visual Studio Code в области обозревателя разверните папку assets и выберите файл icon.png.
+
+11. Просмотрите значок.
 
     ![Изображение на панели визуализаций](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. В Visual Studio Code убедитесь, что все файлы сохранены.
+12. В Visual Studio Code убедитесь, что все файлы сохранены.
 
-12. Чтобы упаковать пользовательский визуальный элемента, введите в PowerShell следующую команду:
+13. Чтобы упаковать пользовательский визуальный элемента, введите в PowerShell следующую команду:
 
     ```powershell
     pbiviz package

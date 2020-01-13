@@ -1,25 +1,25 @@
 ---
 title: Просмотр локальных отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 description: Мобильные приложения Power BI обеспечивают динамический мобильный доступ с поддержкой сенсорного ввода к локальным бизнес-данным в службах SQL Server Reporting Services и на сервере отчетов Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/05/2019
+ms.author: painbar
+ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879445"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220134"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Просмотр локальных отчетов на сервере отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 
 Мобильные приложения Power BI обеспечивают динамический мобильный доступ с поддержкой сенсорного ввода к локальным бизнес-данным на сервере отчетов Power BI и в службах SQL Server 2016 Reporting Services (SSRS).
 
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
@@ -40,8 +40,9 @@ ms.locfileid: "73879445"
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>Изучение примеров в мобильных приложениях без подключения к серверу
 Ознакомиться с ключевыми показателями эффективности и функциями мобильных отчетов Reporting Services можно даже без доступа к веб-порталу служб Reporting Services. 
 
-1. Коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) в левом верхнем углу экрана, а затем коснитесь значка шестеренки ![Значок шестеренки](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
-2. Щелкните **Примеры для Reporting Services**, а затем просмотрите и изучите примеры ключевых показателей эффективности и мобильных отчетов.
+1. Коснитесь изображения профиля в левом верхнем углу, а затем элемента **Настройки** на появившейся панели учетных записей.
+
+2. На открывшейся странице настроек выберите **Примеры для Reporting Services**, а затем просмотрите и изучите примеры ключевых показателей эффективности и мобильных отчетов.
    
    ![Примеры для Reporting Services](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -53,36 +54,35 @@ ms.locfileid: "73879445"
    
    ![Вход на сервер отчетов](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Если вы уже вошли в приложение Power BI, коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png), а затем коснитесь значка шестеренки ![Значок шестеренки](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) в правом верхнем углу.
-3. Выберите **Подключение к серверу**.
+   Если вы уже вошли в приложение Power BI, коснитесь изображения профиля в левом верхнем углу, а затем элемента **Настройки** на появившейся панели учетных записей.
+3. На открывшейся странице настроек выберите **Подключение к серверу**.
    
     ![Подключение к серверу](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
-     Мобильному приложению необходимо обеспечить доступ к серверу. Это можно сделать несколькими способами:
+    Мобильному приложению необходимо обеспечить доступ к серверу. Это можно сделать несколькими способами:
+     * Проще всего использовать ту же сеть или VPN.
+     * Можно использовать прокси веб-приложения для подключения вне организации. См. дополнительные сведения о [подключении к Reporting Services с помощью OAuth](mobile-oauth-ssrs.md).
+     * Откройте подключение (порт) в брандмауэре.
 
-    - Проще всего использовать ту же сеть или VPN.
-    - Можно использовать прокси веб-приложения для подключения вне организации. См. дополнительные сведения о [подключении к Reporting Services с помощью OAuth](mobile-oauth-ssrs.md). 
-    - Откройте подключение (порт) в брандмауэре.
-
-1. Введите адрес сервера, имя пользователя и пароль. Используйте следующий формат для адреса сервера:
+4. Укажите адрес сервера и при желании присвойте серверу понятное имя. Используйте следующий формат для адреса сервера:
    
      `https://<servername>/reports`
    
-     OR
+     ИЛИ
    
      `https://<servername>/reports`
    
    В начале строки подключения укажите префикс **http** или **https**.
    
     ![Диалоговое окно "Подключение к серверу"](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (Необязательно.) В разделе **Дополнительные параметры** при желании можно присвоить серверу понятное имя.
-6. Новый сервер отобразится в области навигации. В нашем примере ему присвоено имя "power bi report server".
+5. Введя адрес сервера и при необходимости понятное имя, выберите **Подключиться**, а затем при появлении запроса укажите свои имя пользователя и пароль.
+6. Сервер появится в области "Учетные записи". В данном примере его имя — Work server.
    
    ![Сервер отчетов в области навигации](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
-## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Подключение к локальному серверу отчетов в iOS
+## <a name="connect-to-an-on-premises-report-server-in-ios-or-android"></a>Подключение к локальному серверу отчетов в iOS или Android
 
-Если вы работаете с Power BI в мобильном приложении для iOS, возможно, ИТ-администратор определил политику настройки приложения. В этом случае процедура подключения к серверу отчетов упрощается и вам требуется предоставлять меньше сведений. 
+Если вы работаете с Power BI в мобильном приложении для iOS или Android, возможно, ИТ-администратор определил политику настройки приложения. В этом случае процедура подключения к серверу отчетов упрощается и вам требуется предоставлять меньше сведений. 
 
 1. Появляется сообщение о том, что для мобильного приложения настроен доступ к серверу отчетов. Коснитесь элемента **Вход**.
 
@@ -117,7 +117,7 @@ ms.locfileid: "73879445"
 ## <a name="view-your-favorite-kpis-and-reports"></a>Просмотр избранных ключевых показателей эффективности и отчетов
 На веб-портале ключевые показатели эффективности и отчеты можно отметить как избранные. Так вы сможете просматривать эти данные на мобильном устройстве в одной папке вместе с избранными панелями мониторинга Power BI.
 
-* Выберите **Избранное**.
+* На панели навигации выберите **Избранное**.
   
    !["Избранное" в области навигации](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,8 +126,8 @@ ms.locfileid: "73879445"
    ![Отчеты и панель мониторинга Power BI на странице "Избранное"](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Удаление подключения к серверу отчетов
-1. В нижней части области навигации выберите **Параметры**.
-2. Выберите имя сервера, с которым хотите разорвать соединение.
+1. Откройте область учетных записей и коснитесь элемента **Настройки**.
+2. Выберите имя сервера, к которому необходимо подключиться.
 3. Коснитесь пункта **Удалить сервер**.
 
 ## <a name="next-steps"></a>Дальнейшие действия

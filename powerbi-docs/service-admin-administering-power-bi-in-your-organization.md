@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698976"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548593"
 ---
 # <a name="what-is-power-bi-administration"></a>Что такое администрирование Power BI?
 
@@ -61,7 +61,7 @@ ms.locfileid: "74698976"
 | Контроль соблюдения внутренних политик, законов и регламентов | <ul><li>Управление классификацией бизнес-данных<br><li>Помощь в применении политик публикации и совместного использования содержимого</ul>|
 | Управление ресурсами Power BI |<ul><li>Управление рабочими областями<br><li>Публикация настраиваемых визуальных элементов<br><li>Проверка кодов, используемых для внедрения Power BI в другие приложения|
 | Предоставление помощи и поддержки для пользователей клиента |<ul><li>Устранение неполадок с доступом к данным и решение других проблем</ul>|
-| Другие задачи |<ul><li>Развертывание Power BI Desktop, например через System Center Configuration Manager<br><li>Управление развертыванием мобильного приложения Power BI с помощью Intune<br><li>Управление конфиденциальностью и защитой данных, например защитой источников данных</ul>|
+| Другие задачи |<ul><li>Развертывание Power BI Desktop, например через Microsoft Endpoint Configuration Manager<br><li>Управление развертыванием мобильного приложения Power BI с помощью Intune<br><li>Управление конфиденциальностью и защитой данных, например защитой источников данных</ul>|
 
 ## <a name="administrative-tools"></a>Инструменты администрирования
 

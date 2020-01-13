@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010015"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220524"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -21,6 +21,20 @@ ms.locfileid: "74010015"
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](../../desktop-latest-update.md)  
 * [Новые возможности службы Power BI](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>Ноябрь 2019 г.
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>Новый интерфейс приложения Power BI теперь включен по умолчанию
+ 
+Теперь при открытии приложения автоматически активируются новый интерфейс и панели навигации, которые упрощают поиск и открытие содержимого. Отправной точкой служит [главная страница](mobile-apps-home-page.md), предоставляющая быстрый доступ к важнейшему содержимому и включающая [веб-канал действий](mobile-apps-home-page.md#activity-feed) со всеми последними уведомлениями, предупреждениями и многим другим.
+
+### <a name="see-all-your-latest-power-bi-activity"></a>Все последние действия в Power BI
+ 
+Веб-канал действий помогает в реальном времени отслеживать все, что происходит с вашим содержимым Power BI. Просто откройте вкладку действий на главной странице приложения, и вы увидите все последние уведомления, предупреждения, комментарии, @mentions и многое другое. [Дополнительные сведения](mobile-apps-home-page.md#activity-feed).
+
+### <a name="use-bookmarks-in-your-reports"></a>Использование закладок в отчетах
+
+Создаваемые в Power BI закладки стали доступны в мобильном приложении Power BI. Теперь при открытии приложения вы можете использовать закладки, созданные автором отчета, равно как и свои собственные. [Дополнительные сведения](mobile-reports-in-the-mobile-apps.md#bookmarks).
 
 ## <a name="october-2019"></a>Октябрь 2019 г.
 
@@ -302,7 +316,7 @@ ms.locfileid: "74010015"
 
 Вы можете предоставлять доступ к панелям мониторинга и отчетам для пользователей за пределами вашей организации, непосредственно из приложения. Внешний общий доступ включен для учетных записей организации и социальных сетей. 
 
-#### <a name="persistent-filters"></a>Постоянные фильтры
+#### <a name="persistent-filters"></a>Сохраняемые фильтры
 
 Когда вы настраиваете фильтры и срезы через веб-интерфейс Power BI, выбранные параметры сохраняются и в мобильном приложении, что позволит вам продолжить работу с заданными настройками.
 
@@ -520,7 +534,7 @@ ms.locfileid: "74010015"
 #### <a name="android-devices"></a>Устройства Android
 **Предварительная версия: управление мобильным приложением Intune.** Поддержка Power BI для Microsoft Intune Mobile Application Manager (MAM) теперь доступна в предварительной версии для пользователей Power BI Pro на устройствах Android. 
 
-**Избранное.** Отмечайте тегами избранные панели мониторинга на устройстве Android и просматривайте все [избранные панели мониторинга Power BI, а также мобильные отчеты и ключевые показатели эффективности Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) в одном удобном расположении. 
+**Избранное.** Отмечайте тегами избранные панели мониторинга на устройстве Android и просматривайте все [избранные панели мониторинга Power BI, а также мобильные отчеты и ключевые показатели эффективности Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports) в одном удобном расположении. 
 
 #### <a name="ios-devices"></a>Устройства iOS
 **Ссылки.** Отныне URL-адреса на плитках и в визуализациях активны и открываются в браузере.
@@ -667,7 +681,7 @@ ms.locfileid: "74010015"
 **Плитки Bing и R**. Открывайте плитки Bing и R в режиме фокусировки.
 
 #### <a name="android-mobile-app"></a>Мобильное приложение Android
-**Мобильные отчеты и ключевые показатели эффективности SQL Server 2016**. [Просматривайте мобильные отчеты и ключевые показатели эффективности SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) и переходите между папками SQL Server Reporting Services.
+**Мобильные отчеты и ключевые показатели эффективности SQL Server 2016**. [Просматривайте мобильные отчеты и ключевые показатели эффективности SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) и переходите между папками SSRS.
 
 **Просмотр отчетов**. Открывайте отчеты из плиток на информационных панелях.
 

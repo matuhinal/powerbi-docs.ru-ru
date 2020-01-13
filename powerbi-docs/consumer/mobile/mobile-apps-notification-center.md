@@ -8,15 +8,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 22988b08209865e9f1f2c583a30aa40e48c249bc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b0a8b1f8b77ba1ee636bc92bb230b7c51e2935b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879240"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219400"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Получение уведомлений в мобильных приложениях Power BI
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
@@ -34,27 +34,23 @@ ms.locfileid: "73879240"
    
    ![Баннер уведомлений](./media/mobile-apps-notification-center/power-bi-mobile-notification-banner.png)
    
-   Или на iPad:
-   
-   ![Уведомления](./media/mobile-apps-notification-center/power-bi-ipad-notifications.png)
-   
+
    [Параметры уведомлений Power BI](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device) можно изменить.
-2. Если вы получили уведомления, при входе в Power BI на мобильном устройстве вы увидите желтую точку на значке главного меню ![Точка уведомления](./media/mobile-apps-notification-center/power-bi-android-menu-notifications-icon.png) (в Android) или на значке **Уведомления**. 
-   
-   ![Точка уведомления](./media/mobile-apps-notification-center/power-bi-windows-10-notifications.png)
-3. Выберите значок "Уведомления" ![Значок "Уведомления"](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10).
+2. Если у вас есть уведомления, при входе в Power BI на мобильном устройстве вы увидите желтую точку на значке уведомления в виде колокольчика ![значок уведомления](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS и Android) или кнопке глобальной структуры навигации ![Точка уведомления](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (устройства Windows 10). 
+
+3. Чтобы просмотреть уведомления в центре уведомлений, коснитесь значка уведомлений в виде колокольчика ![значок уведомления](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS и Android) или значка центра уведомлений ![Значок "Уведомления"](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (устройства Windows 10).
    
     Новые уведомления отображаются вверху списка, а непрочитанные сообщения выделяются. Уведомления хранятся в течение 90 дней, если вы их не удаляете или их количество не достигает максимального (100 штук).
    
    ![Список уведомлений iOS](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. Чтобы закрыть уведомление, нажмите и удерживайте его и выберите **Закрыть**.
+4. Чтобы закрыть уведомление на устройстве iOS или Android, коснитесь и удерживайте его, а затем проведите пальцем в сторону. На устройствах Windows 10 щелкните уведомление правой кнопкой мыши и выберите пункт **Закрыть**.
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>Включение и отключение уведомлений на мобильном устройстве
 Параметры уведомлений Power BI можно изменить.
 
 1. На устройстве iOS выберите **Настройки** > **Уведомления**. 
    
-    На телефоне с Android перейдите в раздел **Настройки уведомлений**.
+    На телефоне с Android перейдите в раздел **Настройки**  >  **Уведомления**.
    
     На устройстве с Windows в разделе **Параметры** выберите **Система** > **Уведомления и действия**.
 2. В списке приложений выберите **Power BI**. 

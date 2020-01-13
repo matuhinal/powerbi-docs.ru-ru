@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311081"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223413"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -435,6 +435,8 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Назначение выделенной емкости для рабочей области
 
 После создания выделенной емкости ей можно назначить рабочую область.
+
+Все рабочие области, которые содержат ресурсы Power BI, связанные с внедренным содержимым (включая наборы данных, отчеты и панели мониторинга), должны быть назначены выделенным емкостям. Например, если внедренный отчет и связанный с ним набор данных размещаются в разных рабочих областях, обе эти рабочие области должны быть назначены выделенным емкостям.
 
 Чтобы назначить выделенную емкость рабочей области с помощью [субъекта-службы](embed-service-principal.md), используйте [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Если применяется REST API Power BI, необходимо использовать [идентификатор объекта субъекта-службы](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 

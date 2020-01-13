@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855605"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224127"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Использование Cognitive Services в Power BI 
 
@@ -90,11 +90,11 @@ API анализа тональности сейчас поддерживает 
 
 Для работы этой функции в качестве входных данных требуется наличие URL-адреса изображения или текст в формате Base64. Сейчас функция добавления тегов к изображениям поддерживает английский, испанский, японский, португальский и упрощенный китайский язык. Дополнительные сведения см. в разделе о [поддержке языков](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Это обзорная статья об использовании Cognitive Services со службой Power BI. Следующие статьи могут оказаться не менее интересными и полезными. 
 
-* [Руководство. Вызов модели Студии машинного обучения в Power BI](service-tutorial-invoke-machine-learning-model.md)
+* [Руководство. Вызов модели Студии машинного обучения (классической) в Power BI](service-tutorial-invoke-machine-learning-model.md)
 * [Интеграция Машинного обучения Azure в Power BI](service-machine-learning-integration.md)
 * [Руководство. Использование служб Cognitive Services в Power BI](service-tutorial-use-cognitive-services.md)
 

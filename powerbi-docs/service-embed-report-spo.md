@@ -1,21 +1,21 @@
 ---
 title: Внедрение с помощью веб-части отчетов в SharePoint Online
 description: С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881881"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221719"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
 
@@ -29,6 +29,7 @@ ms.locfileid: "73881881"
 
 * Лицензия Power BI Pro или [емкость Power BI Premium (номер SKU EM или P)](service-premium-what-is.md) с лицензией Power BI.
 * Для веб-части Power BI для SharePoint Online требуются [современные страницы](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
+* Для работы с внедренным отчетом пользователю необходимо выполнить вход в службу Power BI и активировать свою лицензию Power BI.
 
 ## <a name="embed-your-report"></a>Внедрение отчета
 Чтобы внедрить отчет в SharePoint Online, нужно получить URL-адрес отчета и использовать его с веб-частью Power BI в SharePoint Online.
@@ -144,7 +145,7 @@ ms.locfileid: "73881881"
 
 ## <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
 
-* Ошибка "Произошла ошибка. Попробуйте выйти из системы и войти снова, а затем вернитесь к этой странице. Идентификатор корреляции: неопределенный, состояние HTTP-ответа: 400, код ошибки сервера 10001, сообщение: Отсутствует маркер обновления".
+* Ошибка. "Произошла ошибка. Попробуйте выйти из системы и войти снова, а затем вернитесь к этой странице. Идентификатор корреляции: неопределенный, состояние HTTP-ответа: 400, код ошибки сервера 10001, сообщение: Отсутствует маркер обновления".
   
   Если возникает такая ошибка, попробуйте один из описанных ниже шагов по устранению неполадок.
   

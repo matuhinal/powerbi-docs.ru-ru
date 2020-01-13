@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264181"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223380"
 ---
 # <a name="service-principal-with-power-bi"></a>Использование субъекта-службы с Power BI
 
@@ -53,7 +53,7 @@ ms.locfileid: "74264181"
 
 Субъект-служба и стандартная главная учетная запись (с лицензией Power BI Pro) используются для проверки подлинности по-разному. В таблице ниже представлены некоторые важные различия.
 
-| функцию | Главная учетная запись пользователя <br> (лицензия Power BI Pro) | Субъект-служба <br> (токен только для приложения) |
+| Функция | Главная учетная запись пользователя <br> (лицензия Power BI Pro) | Субъект-служба <br> (токен только для приложения) |
 |------------------------------------------------------|---------------------|-------------------|
 | Позволяет входить в службу Power BI  | Да | Нет |
 | Поддерживается на портале администрирования Power BI | Нет | Да |
@@ -150,7 +150,7 @@ ms.locfileid: "74264181"
 
    ![Управляемое приложение в локальном каталоге](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > Идентификатор объекта на снимке экрана выше — это не тот идентификатор, который используется для субъекта-службы.
 
 3. Чтобы увидеть идентификатор объекта, выберите категорию **Свойства**.
@@ -174,6 +174,7 @@ ms.locfileid: "74264181"
 * [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
 * Управление [потоками данных](../service-dataflows-overview.md) не поддерживается.
 * Сейчас субъект-служба не поддерживает никакие API администратора.
+* При использовании субъекта-службы с источником данных [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) сам субъект-служба должен иметь разрешения экземпляра Azure Analysis Services. Использовать для этой цели группу безопасности, содержащую субъект-службу, нельзя.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

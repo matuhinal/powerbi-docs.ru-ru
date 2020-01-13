@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: ec0f98dfe56b6d2a6efe038622541f9f19d3899d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478656"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223387"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -130,6 +130,9 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 Действующее удостоверение, предоставленное для свойства имени пользователя, должно предназначаться для пользователя Windows с разрешениями на сервере служб Analysis Services.
 
+>[!NOTE]
+> При использовании субъекта-службы с источником данных [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) сам субъект-служба должен иметь разрешения экземпляра Azure Analysis Services. Использовать для этой цели группу безопасности, содержащую субъект-службу, нельзя.
+
 ### <a name="on-premises-data-gateway-configuration"></a>Настройка локального шлюза данных
 
 [Локальный шлюз данных](../service-gateway-onprem.md) используется при работе с активными подключениями к Analysis Services. При создании токена внедрения с указанным удостоверением необходимо указать главную учетную запись в качестве учетной записи администратора шлюза. Если главная учетная запись не указана, безопасность на уровне строк не применяется к свойству данных. Пользователь без прав администратора шлюза может предоставлять роли, но при этом он должен указать свое имя для действующего удостоверения.
@@ -144,7 +147,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 Просматривая данные Power BI в приложении, функция CustomData позволяет добавлять фильтр строк при использовании **Azure Analysis Services** в качестве источника данных (просматривая данные Power BI, подключенные в приложении к Azure Analysis Services).
 
-Функция CustomData позволяет передавать произвольный текст (строку) с помощью свойства строки подключения CustomData. Analysis Services используют это значение с помощью функции *CUSTOMDATA()* .
+Функция CustomData позволяет передавать произвольный текст (строку) с помощью свойства строки подключения CustomData. Службы Analysis Services используют это значение с помощью функции *CUSTOMDATA()* .
 
 Единственный способ для приобретения динамической безопасности на уровне строк (которая использует динамические значения для вычисления фильтра) в **Azure Analysis Services** — это использовать функцию *CUSTOMDATA()* .
 
@@ -190,7 +193,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![Создание базы данных Azure Analysis Services](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
-    ![База данных служб Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
+    ![База данных Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
 
 2. Создайте роль на сервере Analysis Services.
 

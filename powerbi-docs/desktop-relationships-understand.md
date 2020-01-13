@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009638"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304241"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Связи модели в Power BI Desktop
 
@@ -73,7 +73,7 @@ ms.locfileid: "74009638"
 
 Связь **одна к одной** означает, что оба столбца содержат уникальные значения. Это самый нераспространенный тип кратности. Скорее всего, он представляет собой неоптимальную структуру модели из-за хранения избыточных данных.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-Связь **много ко многим** означает, что все столбцы содержат дублирующиеся значения. Этот тип кратности используется редко. Обычно он полезен при проектировании моделей со сложными требованиями.<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+Связь **много ко многим** означает, что все столбцы содержат дублирующиеся значения. Этот тип кратности используется редко. Обычно он полезен при проектировании моделей со сложными требованиями. Указания по использованию этого типа кратности см. в статье [Руководство по связи "многие ко многим"](guidance/relationships-many-to-many.md).
 
 > [!NOTE]
 > Тип кратности "много ко многим" сейчас не поддерживается для моделей, разработанных для Сервера отчетов Power BI.
@@ -226,4 +226,5 @@ _Однонаправленная_ кроссфильтрация означае
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Общие сведения о схеме типа "звезда" и ее значении в Power BI](guidance/star-schema.md)
+- [Руководство по связи "многие ко многим"](guidance/relationships-many-to-many.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

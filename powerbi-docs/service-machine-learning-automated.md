@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f5fa262c01767ba934a10300e321796845d47c5f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872123"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223816"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Автоматизированное машинное обучение в Power BI
 
@@ -282,7 +282,7 @@ AutoML формирует отчет Power BI, в котором собраны 
 
 - [Руководство. Создание модели машинного обучения в Power BI](service-tutorial-build-machine-learning-model.md)
 - [Руководство. Использование служб Cognitive Services в Power BI](service-tutorial-use-cognitive-services.md)
-- [Руководство. Вызов модели Студии машинного обучения в Power BI (предварительная версия)](service-tutorial-invoke-machine-learning-model.md)
+- [Руководство. Вызов модели Студии машинного обучения (классической) в Power BI (предварительная версия)](service-tutorial-invoke-machine-learning-model.md)
 - [Использование Cognitive Services в Power BI](service-cognitive-services.md)
 - [Интеграция Машинного обучения Azure в Power BI](service-machine-learning-integration.md)
 

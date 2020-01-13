@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699689"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223787"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate и Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Flow позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Flow позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
 
-[Начните работу с Flow прямо сейчас.](https://flow.microsoft.com/documentation/getting-started)
+[Начните работу с Flow прямо сейчас.](https://docs.microsoft.com/power-automate/getting-started)
 
 Посмотрите видео, где Сируи создает поток, который отправляет подробное сообщение по электронной почте коллегам при активации оповещения Power BI. Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео.
 
@@ -107,7 +107,7 @@ ms.locfileid: "74699689"
     ![Поток запускает уведомление Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Начало работы с Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [Начало работы с Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [Настройка оповещений о данных в службе Power BI](service-set-data-alerts.md)
 * [Настройка оповещений о данных на устройстве iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

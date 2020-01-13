@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861844"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217906"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Изменение отображения страницы отчета
 
@@ -52,6 +52,26 @@ ms.locfileid: "73861844"
     ![Отчет во весь экран](media/end-user-report-view/power-bi-full-screen.png)
 
 При выходе из отчета ваши параметры в разделе **Вид** не сохраняются; будет восстановлено представление по умолчанию. Если важно сохранить эти параметры, используйте [Закладки](end-user-bookmarks.md).
+
+## <a name="use-your-browser-to-change-page-display"></a>Изменение режима отображения страницы в браузере
+
+С помощью элементов управления масштабированием в браузере можно уменьшать и увеличивать доступную область холста. Уменьшение масштаба приводит к увеличению доступной области холста, и наоборот. 
+
+![короткое видео, демонстрирующее использование элементов управления масштабированием в браузере](media/end-user-report-view/power-bi-zoom.png)
+
+Чтобы изменить отображаемый размер отчета, можно также изменить размер всего окна браузера. 
+
+![короткое видео, демонстрирующее изменение размеров окна браузера](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>Увеличение масштаба визуального элемента
+Иногда бывает трудно рассмотреть визуальный элемент в деталях. В этом случае можно увеличить отдельный визуальный элемент. Дополнительные сведения см. в статье [Режим фокусировки и полноэкранный режим](end-user-focus.md).
+
+### <a name="a-visual-in-focus-mode"></a>Визуальный элемент в режиме *фокусировки*
+
+![Снимок экрана: визуальный элемент, открытый в режиме фокусировки.](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>Визуальный элемент в *полноэкранном* режиме
+![Снимок экрана: визуальный элемент, открытый в полноэкранном режиме.](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

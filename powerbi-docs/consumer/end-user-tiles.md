@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861414"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Плитки панели мониторинга в Power BI
@@ -51,17 +51,17 @@ ms.locfileid: "73861414"
    
     Здесь можно выполнять следующие действия:
    
-   * [открыть отчет, который использовался для создания этой плитки ](end-user-reports.md) ![значок отчета](./media/end-user-tiles/chart-icon.jpg);  
+   * [открыть отчет, который использовался для создания этой плитки](end-user-reports.md) ![значок отчета](./media/end-user-tiles/chart-icon.jpg);  
    
-   * [открыть вопрос, который использовался для создания плитки ](end-user-reports.md) ![Значок вопросов и ответов](./media/end-user-tiles/qna-icon.png);  
+   * [открыть вопрос, который использовался для создания плитки ](end-user-reports.md) ![значок вопросов и ответов](./media/end-user-tiles/qna-icon.png);  
    
 
-   * [открыть книгу, которая использовалась для создания плитки ](end-user-reports.md) ![Значок листа](./media/end-user-tiles/power-bi-open-worksheet.png);  
-   * [просмотреть плитку в режиме фокусировки ](end-user-focus.md) ![Значок фокусировки](./media/end-user-tiles/fullscreen-icon.jpg);  
-   * [просмотреть аналитические сведения ](end-user-insights.md) ![значок аналитики](./media/end-user-tiles/power-bi-insights.png);
-   * [добавить комментарий и начать обсуждение](end-user-comment.md) ![Значок комментария](./media/end-user-tiles/comment-icons.png).
-   * [управлять оповещениями, настроенными на плитке панели мониторинга](end-user-alerts.md) ![значок оповещения](./media/end-user-tiles/power-bi-alert-icon.png);
-   * [открыть данные в Excel](end-user-export.md) ![значок экспорта](./media/end-user-tiles/power-bi-export-icon.png).
+   * [открыть книгу, которая использовалась для создания плитки](end-user-reports.md) ![значок листа](./media/end-user-tiles/power-bi-open-worksheet.png);  
+   * [просмотреть плитку в режиме фокусировки](end-user-focus.md) ![значок фокусировки](./media/end-user-tiles/fullscreen-icon.jpg);  
+   * [просмотреть аналитические сведения](end-user-insights.md) ![значок аналитики](./media/end-user-tiles/power-bi-insights.png);
+   * [добавить комментарий и начать обсуждение](end-user-comment.md) ![значок комментария](./media/end-user-tiles/comment-icons.png);
+   * [управлять оповещениями, настроенными на плитке панели мониторинга](end-user-alerts.md) ![значок оповещения](./media/end-user-tiles/power-bi-alert-icon.png);
+   * [открыть данные в Excel](end-user-export.md) ![значок экспорта](./media/end-user-tiles/power-bi-export-icon.png).
 
 
 3. Чтобы закрыть меню действий, выберите пустую область на холсте.

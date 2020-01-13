@@ -8,18 +8,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879380"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219591"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 
 Чтобы получить ответ на вопрос о своих данных, задайте его своими словами. При изучении этой статьи вы будете задавать вопросы и просматривать аналитические сведения о тестовых данных в виртуальном аналитике "Вопросы и ответы", который доступен в мобильном приложении Microsoft Power BI на iPad, iPhone и iPod Touch. 
 
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-apps-ios-qna/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-ios-qna/ipad-logo-50-px.png) |
 |:--- |:--- |
@@ -33,63 +33,26 @@ ms.locfileid: "73879380"
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-### <a name="install-the-power-bi-for-ios-app"></a>Установка приложения Power BI для iOS
-[Скачайте приложение для iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Скачивание приложения для iPhone") для iPad, iPhone или iPod Touch в Apple App Store.
+* **Установка приложения Power BI для iOS**: [Скачайте приложение для iOS](https://go.microsoft.com/fwlink/?LinkId=522062) на устройство iPhone или iPad.
+Приложение Power BI для iOS поддерживается в следующих версиях:
+    * iPad с iOS 11 или более поздней версии;
+    * iPhone 5 или более поздней версии с iOS 11 или более поздней версии.
+* **Скачайте примеры "Анализ розничной торговли" и "Анализ возможных сделок"** : При изучении этого краткого руководства вам прежде всего нужно скачать примеры "Анализ розничной торговли" и "Анализ возможных сделок" из службы Power BI. [Узнайте, как скачать пример](./mobile-apps-download-samples.md) в учетную запись Power BI, чтобы приступить к работе. Не забудьте, что нужно выбрать примеры "Анализ розничной торговли" и "Анализ возможных сделок".
 
-Приложение Power BI для iOS поддерживается в следующих версиях ОС:
-- iPad под управлением iOS 10 или более поздней версии;
-- iPhone 5 и более поздней версии под управлением iOS 10 или выше; 
-- iPod Touch под управлением iOS 10 или более поздней версии.
-
-### <a name="download-samples"></a>Скачать образцы
-Первым делом вам нужно скачать примеры "Анализ розничной торговли" и "Анализ возможных сделок" из службы Power BI.
-
-**Получение примера "Анализ розничной торговли"**
-
-1. Откройте службу Power BI (app.powerbi.com) и войдите в нее.
-
-2. В области навигации щелкните **Рабочие области** > **Моя рабочая область**.
-
-3. В левом нижнем углу выберите **Получить данные**.
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. На странице "Получение данных" щелкните значок **Примеры**.
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. Выберите пример **Анализ розничной торговли**.
- 
-    ![Анализ розничной торговли — пример](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. Нажмите кнопку **Подключиться**.  
-  
-   ![Анализ розничной торговли — пример](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. Power BI импортирует пакет содержимого и добавляет новую информационную панель, отчет и набор данных в текущую рабочую область.
-   
-   ![Анализ розничной торговли — пример](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**Получение примера "Анализ возможных сделок"** .
-
-- Выполните те же действия, что описаны выше для анализа розничной торговли, но на шаге 4 выберите пример **Анализ возможных сделок**.
-
-    ![Анализ розничной торговли — пример](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-Теперь все готово для просмотра примеров на устройстве iOS.
+После выполнения предварительных требований вы готовы опробовать виртуальный аналитик раздела "Вопросы и ответы".
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Отправка вопросов на устройствах iPhone и iPad
-1. На устройстве iPhone или iPad коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Рабочие области** > **Моя рабочая область** и откройте панель мониторинга из примера "Анализ розничной торговли".
+1. На устройстве iPhone или iPad на панели навигации внизу нажмите кнопку "Рабочие области" ![кнопка "Рабочие области"](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png), выберите "Мои рабочие области" и откройте панель мониторинга "Анализ розничной торговли — пример".
 
 2. Коснитесь значка виртуального аналитика "Вопросы и ответы" ![Значок виртуального аналитика "Вопросы и ответы"](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) в меню действий в нижней части страницы (на iPad — в верхней части страницы).
      Виртуальный аналитик "Вопросы и ответы" предоставляет ряд предложений для начала работы.
-3. Введите **show**, в списке предложений выберите **sales** (продажи) и нажмите кнопку **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+3. Введите **show**, в списке предложений выберите **sales** (продажи) и коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Показать продажи](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. Выберите **by** из ключевых слов, затем щелкните **item** (элемент) в списке предложений и нажмите кнопку **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+4. Выберите **by** (по) из ключевых слов, затем выберите **item** (элемент) в списке предложений и коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Продажи по элементам](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Выберите **as** (как) из ключевых слов, затем щелкните значок гистограммы ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) и нажмите кнопку **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Выберите **as** (как) из ключевых слов, коснитесь значка гистограммы ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png), а затем коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Нажмите и удерживайте полученную гистограмму, а затем нажмите кнопку **Expand** (Развернуть).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -99,13 +62,13 @@ ms.locfileid: "73879380"
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Нажмите кнопку со стрелкой в верхнем левом углу, чтобы вернуться в окно чата виртуального аналитика "Вопросы и ответы".
 8. Нажмите кнопку X справа от текстового поля, чтобы удалить текст и начать заново.
-9. Попробуйте отправить новый вопрос. Выберите **top** из ключевых слов, затем выберите **sale by avg $/unit ly** > **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Попробуйте отправить новый вопрос. Выберите **top** из ключевых слов, а затем выберите **sale by avg $/unit ly** (Сред. стоимость единицы (прошлый год), долл.)  >  **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. Выберите **by** (по) из ключевых слов, затем выберите **time** (время) из списка предложений в верхней части и нажмите кнопку **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+10. Выберите **by** (по) из ключевых слов, затем выберите **time** (время) из списка предложений в верхней части и коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Введите **as** (как), выберите значок графика ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) из списка предложений и нажмите кнопку **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+11. Введите **as** (как), выберите значок графика ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) из списка предложений и коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
@@ -117,7 +80,7 @@ ms.locfileid: "73879380"
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. Когда значок микрофона станет активным, начните говорить. Например, скажите "средняя цена за единицу по времени", а затем коснитесь **Отправить** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+1. Когда значок микрофона станет активным, начните говорить. Например, скажите "средняя цена за единицу по времени", а затем коснитесь значка **Отправить** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 

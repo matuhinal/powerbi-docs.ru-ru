@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874935"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Знакомство со средствами для обучения модуля "Вопросы и ответы" в Power BI (предварительная версия)
@@ -42,7 +42,7 @@ ms.locfileid: "73874935"
 
     ![Начало работы с модулем "Вопросы и ответы"](media/qna-tooling-dialog.png)
 
-### <a name="review-questions"></a>Проверка вопросов.
+### <a name="review-questions"></a>Проверка вопросов
 
 Щелкните **Просмотреть вопросы**, чтобы увидеть список наборов данных, используемых в службе Power BI для вашего клиента. На странице **Просмотр вопросов** также отображаются владелец набора данных, рабочая область и дата последнего обновления. Здесь можно выбрать набор данных и узнать, какие вопросы задавали пользователи. Кроме того, отображаются слова, которые не были распознаны. Все данные представлены за последние 28 дней.
 

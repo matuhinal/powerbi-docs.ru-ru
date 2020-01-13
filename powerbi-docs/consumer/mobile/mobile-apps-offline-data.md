@@ -1,22 +1,22 @@
 ---
 title: Просмотр данных в автономном режиме в мобильных приложениях Power BI
 description: 'Узнайте о преимуществах мобильного приложения Power BI в сравнении с браузером на мобильном устройстве: возможности просматривать данные даже при отсутствии подключения к сети.'
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870618"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219091"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Просмотр данных в автономном режиме в мобильных приложениях Power BI
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
@@ -65,4 +65,3 @@ ms.locfileid: "73870618"
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](https://community.powerbi.com/).
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
-

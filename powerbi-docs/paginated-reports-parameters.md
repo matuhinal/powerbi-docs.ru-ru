@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831176"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657174"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI
 
@@ -60,8 +60,13 @@ ms.locfileid: "74831176"
   
     -   Чтобы скрыть параметр и защитить его от изменений на сервере отчетов после публикации отчета, выберите **Внутренний**. В этом случае параметр отчета будет доступен только в определении отчета. Также при этом необходимо задать значение по умолчанию или разрешить для параметра значение NULL.  
   
-9. Нажмите кнопку **ОК**. 
-  
+9. Выберите **ОК**. 
+
+## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
+
+- Если в качестве источника данных используется набор данных Power BI или модель Analysis Services, в одном запросе нельзя передать более 1000 значений параметров из-за ограничений DAX. 
+
+ 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 В статье [View parameters for paginated reports in the Power BI service](consumer/paginated-reports-view-parameters.md) (Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI) объясняется, как отображаются параметры в службе Power BI.
