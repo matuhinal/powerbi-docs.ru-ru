@@ -13,7 +13,7 @@
       items:
         - name: Формирование и объединение нескольких источников данных
           href: desktop-shape-and-combine-data.md
-        - name: Импорт и анализ данных с веб-страницы
+        - name: Импорт и анализ данных веб-страницы
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
         - name: "Анализ данных о продажах из Excel и канала\_OData"
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
@@ -31,21 +31,21 @@
           href: sample-datasets.md
         - name: Импорт и открытие пакетов образцов
           href: sample-tutorial-connect-to-the-samples.md
-        - name: Обзорный тур. Рентабельность клиента — пример
+        - name: Рентабельность клиента — пример
           href: sample-customer-profitability.md
-        - name: "Обзорный тур. Анализ расходов ИТ-отдела\_— образец"
+        - name: "Анализ расходов ИТ-отдела\_— образец"
           href: sample-it-spend.md
-        - name: Обзорный тур. Управление персоналом — пример
+        - name: Управление персоналом — пример
           href: sample-human-resources.md
-        - name: "Обзорный тур. Анализ возможных сделок\_— пример"
+        - name: "Анализ возможных сделок\_— пример"
           href: sample-opportunity-analysis.md
-        - name: Обзорный тур. Анализ закупок — пример
+        - name: Анализ закупок — пример
           href: sample-procurement.md
-        - name: "Обзорный тур. Анализ розничной торговли\_— пример"
+        - name: "Анализ розничной торговли\_— пример"
           href: sample-retail-analysis.md
-        - name: "Обзорный тур. Продажи и маркетинг\_— пример"
+        - name: "Продажи и маркетинг\_— пример"
           href: sample-sales-and-marketing.md
-        - name: "Обзорный тур. Анализ качества поставщика\_— пример"
+        - name: "Анализ качества поставщика\_— пример"
           href: sample-supplier-quality.md
         - name: Скачиваемая книга с примером финансовых данных
           href: sample-financial-download.md
@@ -57,7 +57,7 @@
           href: desktop-relationships-understand.md
         - name: Группирование визуальных элементов в отчете
           href: desktop-grouping-visuals.md
-        - name: Использование шаблонов
+        - name: Создание шаблонов отчетов
           href: desktop-templates.md
         - name: Работа с представлением моделирования
           href: desktop-modeling-view.md
@@ -65,15 +65,15 @@
           href: desktop-aggregations.md
         - name: Работа с составными моделями
           href: desktop-composite-models.md
-        - name: Использование связей "многие ко многим"
+        - name: Применение связи "многие ко многим"
           href: desktop-many-to-many-relationships.md
         - name: Управление режимом хранения
           href: desktop-storage-mode.md
-        - name: Двусторонняя кроссфильтрация
+        - name: Включение двусторонней кроссфильтрации
           href: desktop-bidirectional-filtering.md
         - name: "Использование DirectQuery в Power\_BI"
           href: desktop-directquery-about.md
-        - name: "Поддерживаемые DirectQuery источники данных Power\_BI"
+        - name: "Источники данных Power\_BI"
           href: power-bi-data-sources.md
         - name: Предварительные требования к источникам данных Power BI
           href: desktop-data-source-prerequisites.md
@@ -93,7 +93,7 @@
           href: desktop-create-and-manage-relationships.md
         - name: Работа с представлением данных
           href: desktop-data-view.md
-        - name: Использование запросов
+        - name: Сведения о редакторе запросов
           href: desktop-query-overview.md
         - name: "Основы применения\_DAX"
           href: desktop-quickstart-learn-dax-basics.md
@@ -101,9 +101,9 @@
           href: desktop-relationship-view.md
         - name: Работа с представлением отчета
           href: desktop-report-view.md
-        - name: Подключение к множеству источников данных
+        - name: подключение к источникам данных.
           href: desktop-connect-to-data.md
-        - name: Публикация наборов данных
+        - name: Публикация наборов данных и отчетов
           href: desktop-upload-desktop-files.md
         - name: "Добавление визуальных элементов в отчет Power\_BI (часть\_1)"
           href: visuals/power-bi-report-add-visualizations-i.md
@@ -113,23 +113,25 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: "Функция \"Показать элементы без данных\" в Power\_BI"
           href: desktop-show-items-no-data.md
-        - name: Функция "Автоматические дата и время"
+        - name: Применение функции "Автоматические дата и время"
           href: desktop-auto-date-time.md
         - name: Подключение к данным
           items:
             - name: подключение к источникам данных.
               href: desktop-data-sources.md
+            - name: "Создание отчета на базе списка\_SharePoint"
+              href: desktop-sharepoint-online-list.md
             - name: "Подключение к LinkedIn Sales\_Navigator"
               href: desktop-connect-linkedin-sales-navigator.md
-            - name: Получение данных с веб-страницы по примерам
+            - name: Получение данных с веб-страниц по примерам
               href: desktop-connect-to-web-by-example.md
             - name: Подключение к наборам данных в службе Power BI
               href: desktop-report-lifecycle-datasets.md
-            - name: Импорт книги Excel
+            - name: Импорт книг Excel
               href: desktop-import-excel-workbooks.md
-            - name: "Подключение к данным через универсальные интерфейсы Power\_BI\_Desktop"
+            - name: Подключение к данным с помощью универсальных интерфейсов Power BI Desktop
               href: desktop-connect-using-generic-interfaces.md
-            - name: Подключение к PDF-файлу
+            - name: Подключение к PDF-файлам
               href: desktop-connect-pdf.md
             - name: Подключение к Adobe Analytics
               href: desktop-connect-adobe-analytics.md
@@ -141,7 +143,7 @@
               href: desktop-python-in-query-editor.md
             - name: "Использование внешней IDE для\_Python"
               href: desktop-python-ide.md
-            - name: Использование Python для создания визуальных элементов
+            - name: Создание визуализаций с помощью Python
               href: desktop-python-visuals.md
             - name: Выполнение скрипта R
               href: desktop-r-scripts.md
@@ -149,47 +151,47 @@
               href: desktop-r-in-query-editor.md
             - name: "Использование внешней IDE для языка\_R"
               href: desktop-r-ide.md
-            - name: "Использование пакетов\_R для создания визуальных элементов"
+            - name: "Использование пакетов\_R для создания визуализаций"
               href: service-r-packages-support.md
             - name: Ввод данных непосредственно в Power BI Desktop
               href: desktop-enter-data-directly-into-desktop.md
-            - name: Подключение к книге Excel
+            - name: Подключение к книгам Excel
               href: desktop-connect-excel.md
-            - name: Подключение к многомерным моделям
+            - name: Подключение к многомерным моделям SSAS
               href: desktop-ssas-multidimensional.md
-            - name: Подключение к CSV-файлу
+            - name: Подключение к CSV-файлам
               href: desktop-connect-csv.md
             - name: "Подключение к базе данных Google\_BigQuery"
               href: desktop-connect-bigquery.md
             - name: Подключение к базе данных Impala
               href: desktop-connect-impala.md
-            - name: Подключение к веб-каналу OData
+            - name: Подключение к каналам OData
               href: desktop-connect-odata.md
             - name: Подключение к базе данных Amazon Redshift
               href: desktop-connect-redshift.md
-            - name: Подключение к веб-странице
+            - name: Подключение к веб-страницам
               href: desktop-connect-to-web.md
             - name: Подключение к хранилищу вычислительных ресурсов Snowflake
               href: desktop-connect-snowflake.md
-            - name: "Подключение к данным Управления затратами\_Azure"
+            - name: Создание визуализаций с помощью соединителя службы "Управление затратами Azure"
               href: desktop-connect-azure-cost-management.md
             - name: Подключение к данным Azure Consumption Insights
               href: desktop-connect-azure-consumption-insights.md
-            - name: "Использование SAP\_HANA"
+            - name: Подключение к базам данных SAP HANA
               href: desktop-sap-hana.md
             - name: "Включение шифрования для SAP\_HANA"
               href: desktop-sap-hana-encryption.md
-            - name: "Использование табличных данных Analysis\_Services"
+            - name: "Подключение к табличным данным Analysis\_Services"
               href: desktop-analysis-services-tabular-data.md
-            - name: Использование DirectQuery
+            - name: Подключение к источникам данных с помощью DirectQuery
               href: desktop-use-directquery.md
-            - name: "Подключение к DirectQuery и SAP Business\_Warehouse"
+            - name: Подключение к SAP Business Warehouse с помощью DirectQuery
               href: desktop-directquery-sap-bw.md
-            - name: "Подключение к DirectQuery и SAP\_HANA"
+            - name: Подключение к источникам данных SAP HANA с помощью DirectQuery
               href: desktop-directquery-sap-hana.md
             - name: Функция "Предполагать целостность данных"
               href: desktop-assume-referential-integrity.md
-            - name: "Использование соединителя SAP Business\_Warehouse"
+            - name: "Доступ к данным SAP BW с помощью соединителя SAP\_BW"
               href: desktop-sap-bw-connector.md
             - name: Использование ссылок OneDrive для бизнеса
               href: desktop-use-onedrive-business-links.md
@@ -197,7 +199,7 @@
               href: service-facebook-connector.md
             - name: "Служба сторонних разработчиков: Использование соединителя Google\_Analytics"
               href: service-google-analytics-connector.md
-            - name: "Project Online: подключение к данным через Power\_BI\_Desktop"
+            - name: Подключение к данным Project Online через Power BI Desktop
               href: desktop-project-online-connect-to-data.md
         - name: Преобразование и формирование данных
           items:
@@ -209,37 +211,37 @@
           items:
             - name: "Указание категорий данных в Power\_BI\_Desktop"
               href: desktop-data-categorization.md
-            - name: "Пометка поля штрихкода для мобильных приложений Power\_BI"
+            - name: "Добавление тегов к полям со штрихкодом в Power\_BI для мобильных приложений"
               href: desktop-mobile-barcodes.md
-            - name: "Настройка географических фильтров для мобильных приложений Power\_BI"
+            - name: "Настройка географических фильтров в Power\_BI для мобильных приложений"
               href: desktop-mobile-geofiltering.md
-            - name: Использование вычисляемых столбцов
+            - name: Создание вычисляемых столбцов
               href: desktop-calculated-columns.md
-            - name: Использование вычисляемых таблиц
+            - name: Создание вычисляемых таблиц
               href: desktop-calculated-tables.md
-            - name: Использование мер
+            - name: Создание мер для анализа данных
               href: desktop-measures.md
             - name: Импорт и отображение ключевых показателей эффективности
               href: desktop-import-and-display-kpis.md
         - name: Создавать отчеты
           items:
-            - name: Использование автоматического обновления страниц (предварительная версия)
+            - name: Включение автоматического обновления страниц (предварительная версия)
               href: desktop-automatic-page-refresh.md
-            - name: Использование Анализатора производительности
+            - name: Проверка элементов отчета с помощью Анализатора производительности
               href: desktop-performance-analyzer.md
             - name: Добавление визуальных элементов в отчеты
               href: desktop-visual-elements-for-reports.md
-            - name: Создание подсказок на базе страниц отчетов
+            - name: Добавление подсказок отчета для улучшения визуализаций
               href: desktop-tooltips.md
             - name: Экспорт отчетов в PDF-файлы
               href: desktop-export-to-pdf.md
-            - name: Использование панели "Аналитика"
+            - name: Сведения об использовании панели "Аналитика"
               href: desktop-analytics-pane.md
-            - name: Аналитика для объяснения колебаний в визуальных элементах (предварительная версия)
+            - name: Применение аналитических сведений для объяснения колебаний в визуализациях (предварительная версия)
               href: desktop-insights.md
-            - name: Аналитика для поиска различий распределения в диаграммах (предварительная версия)
+            - name: Использование аналитических сведений для поиска различий в распределении (предварительная версия)
               href: desktop-insights-find-where-different.md
-            - name: Обмен аналитикой с помощью закладок
+            - name: Создание закладок для сохранения и совместного использования аналитических сведений
               href: desktop-bookmarks.md
             - name: Работа с темами отчетов
               href: desktop-report-themes.md
@@ -247,21 +249,21 @@
               href: power-bi-report-filter-types.md
             - name: "Работа с фильтрами в отчетах Power\_BI"
               href: power-bi-report-filter.md
-            - name: Использование быстрых мер для выполнения стандартных вычислений
+            - name: Создание быстрых мер для выполнения стандартных вычислений
               href: desktop-quick-measures.md
-            - name: "Параметры What\_If для визуализации переменных"
+            - name: "Создание и использование параметров What\_If для визуализации переменных"
               href: desktop-what-if.md
             - name: Использование функции детализации
               href: desktop-drillthrough.md
             - name: Использование функции детализации между отчетами
               href: desktop-cross-report-drill-through.md
-            - name: Использование группирования и разделения на ячейки
+            - name: Применение группирования данных и их разделения
               href: desktop-grouping-and-binning.md
-            - name: "Создание визуальных элементов Power\_BI на языке\_R"
+            - name: "Создание визуализаций Power\_BI с помощью R"
               href: desktop-r-visuals.md
-            - name: Применение созданных с помощью R пользовательских визуальных элементов
+            - name: Скачивание и использование созданных с помощью R пользовательских визуализаций
               href: desktop-r-powered-custom-visuals.md
-            - name: Использование линий сетки и привязки к сетке
+            - name: Применение линий сетки и привязки к сетке
               href: desktop-gridlines-snap-to-grid.md
             - name: "Параметры отображения страницы в отчетах Power\_BI"
               href: power-bi-report-display-settings.md
@@ -277,7 +279,7 @@
               href: desktop-slicer-filter-date-range.md
             - name: Создание элемента "Срез" с возможностью изменения размера
               href: power-bi-slicer-filter-responsive.md
-            - name: Использование безопасности на уровне строк
+            - name: Ограничение доступа к данным с помощью безопасности на уровне строк
               href: desktop-rls.md
             - name: Настройка подсказок
               href: desktop-custom-tooltips.md
@@ -287,9 +289,9 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Добавление гиперссылок в таблицу
               href: power-bi-hyperlinks-in-tables.md
-            - name: Отображение изображений в таблицах
+            - name: 'Отображение изображений в таблице, матрице или срезе'
               href: power-bi-images-tables.md
-            - name: Применение строк настраиваемого формата
+            - name: Отображение строк настраиваемого формата
               href: desktop-custom-format-strings.md
             - name: Применение условного форматирования таблицы
               href: desktop-conditional-table-formatting.md
@@ -297,11 +299,11 @@
               href: desktop-conditional-format-visual-titles.md
             - name: Сортировка по столбцу
               href: desktop-sort-by-column.md
-            - name: "Оптимизация отчетов для мобильных приложений Power\_BI"
+            - name: Оптимизация отчетов для мобильных приложений
               href: desktop-create-phone-report.md
-            - name: Функции просмотра записей и данных
+            - name: Применение функций просмотра записей и данных
               href: desktop-see-data-see-records.md
-            - name: Советы по созданию отчетов
+            - name: Советы и рекомендации по созданию отчетов
               href: desktop-tips-and-tricks-for-creating-reports.md
         - name: Визуализации
           items:
@@ -309,9 +311,9 @@
               href: visuals/power-bi-report-visualizations.md
             - name: "Изменение визуальных элементов в отчетах Power\_BI"
               href: visuals/power-bi-report-change-visualization-type.md
-            - name: Ограничения точек данных по шаблонам визуализации
+            - name: Применение ограничений точек данных и стратегии по шаблону визуализации
               href: visuals/power-bi-data-points.md
-            - name: 'Отображение данных, используемых для создания визуальных элементов'
+            - name: Отображение базовых данных визуализаций
               href: visuals/service-reports-show-data.md
             - name: Основы работы с цветовым форматированием и свойствами осей
               href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
@@ -319,7 +321,7 @@
               href: visuals/service-tips-and-tricks-for-color-formatting.md
             - name: Копирование и вставка визуализации отчета
               href: visuals/power-bi-visualization-copy-paste.md
-            - name: 'Экспорт данных, по которым создан визуальный элемент'
+            - name: 'Экспорт данных, использованных для создания визуализации'
               href: visuals/power-bi-visualization-export-data.md
             - name: 'Перенос, масштабирование и раскрытие визуального элемента в отчете'
               href: visuals/power-bi-visualization-move-and-resize.md
@@ -329,7 +331,7 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: "Настройка свойств осей X и\_Y"
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: "Работа с ArcGIS\_Maps в визуальных элементах Power\_BI"
+            - name: "Работа с ArcGIS\_Maps в визуализациях Power\_BI"
               href: visuals/power-bi-visualizations-arcgis.md
             - name: "Создание визуальных элементов ArcGIS\_Maps for Power\_BI"
               href: visuals/power-bi-visualization-arcgis.md
@@ -339,7 +341,7 @@
               href: visuals/power-bi-visualization-card.md
             - name: Создание и использование комбинированных диаграмм
               href: visuals/power-bi-visualization-combo-chart.md
-            - name: Визуальные элементы дерева декомпозиции (предварительная версия)
+            - name: Создание и использование визуализаций в виде дерева декомпозиции (предварительная версия)
               href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Создание и использование кольцевых диаграмм
               href: visuals/power-bi-visualization-doughnut-charts.md
@@ -347,17 +349,17 @@
               href: visuals/power-bi-visualization-filled-maps-choropleths.md
             - name: Создание и использование воронкообразных диаграмм
               href: visuals/power-bi-visualization-funnel-charts.md
-            - name: Использование визуализаций ключевых факторов влияния
+            - name: Создание и использование визуализаций ключевых факторов влияния
               href: visuals/power-bi-visualization-influencers.md
             - name: Выборка линий с высокой плотностью
               href: desktop-high-density-sampling.md
             - name: "Создание и использование визуализаций\_КПЭ"
               href: visuals/power-bi-visualization-kpi.md
-            - name: Использование матричных визуализаций
+            - name: Создание и использование визуализаций с элементами матрицы
               href: visuals/desktop-matrix-visual.md
             - name: "Визуальные элементы \"Вопросы и ответы\" в Power\_BI"
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: "Использование визуальных элементов\_R"
+            - name: Создание и использование визуализаций на R
               href: visuals/service-r-visuals.md
             - name: Создание и использование диаграмм радиального датчика
               href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -403,15 +405,15 @@
               href: desktop-directquery-troubleshoot.md
     - name: Справка
       items:
-        - name: "Сведения о типах данных в Power\_BI\_Desktop"
+        - name: Типы данных в Power BI Desktop
           href: desktop-data-types.md
-        - name: Использование обновленной ленты (предварительная версия)
+        - name: Обновленная лента (предварительная версия)
           href: desktop-ribbon.md
-        - name: Использование ярлыков редактора формул
+        - name: Ярлыки редактора формул
           href: desktop-formula-editor.md
-        - name: Настройка уровней конфиденциальности
+        - name: Уровни конфиденциальности
           href: desktop-privacy-levels.md
-        - name: Расширение при помощи соединителей
+        - name: Расширение с помощью соединителей
           href: desktop-connector-extensibility.md
         - name: Доверенные сторонние соединители
           href: desktop-trusted-third-party-connectors.md
@@ -421,21 +423,21 @@
           href: desktop-videos.md
         - name: "Архив обновлений Power\_BI\_Desktop"
           href: desktop-latest-update-archive.md
-        - name: "Защита конфиденциальности Power\_BI\_Desktop"
+        - name: 'Заявление о конфиденциальности, действующее при отправке смайлика Power BI Desktop'
           href: desktop-send-smile-privacy-statement.md
-        - name: "Управление формой для входа в Power\_BI Desktop"
+        - name: "Администраторы. Управление формой для входа в Power\_BI Desktop"
           href: desktop-admin-sign-in-form.md
         - name: Возможности доступа
           items:
             - name: "Специальные возможности Power\_BI"
               href: desktop-accessibility-overview.md
-            - name: "Специальные возможности навигации в отчетах Power\_BI"
+            - name: "Создание отчетов Power\_BI с поддержкой специальных возможностей"
               href: desktop-accessibility-creating-reports.md
-            - name: "Общие сведения о специальных возможностях в отчетах Power\_BI"
-              href: desktop-accessibility-consuming-tools.md
-            - name: "Специальные возможности для создания отчетов в Power\_BI"
+            - name: "Создание отчетов Power\_BI с помощью средств специальных возможностей"
               href: desktop-accessibility-creating-tools.md
-            - name: "Использование сочетаний клавиш в Power\_BI\_Desktop"
+            - name: "Использование отчетов Power\_BI с помощью средств специальных возможностей"
+              href: desktop-accessibility-consuming-tools.md
+            - name: "Сочетания клавиш в Power\_BI Desktop"
               href: desktop-accessibility-keyboard-shortcuts.md
 - name: "Служба Power\_BI"
   items:

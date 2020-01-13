@@ -48,6 +48,10 @@
           href: relationships-many-to-many.md
         - name: "Отключение фонового обновления Power\_Query"
           href: power-query-background-refresh.md
+        - name: "В каких случаях использовать отчеты с разбивкой на страницы в Power\_BI"
+          href: report-paginated-or-power-bi.md
+        - name: "Перенос отчетов SQL Server Reporting Services в Power\_BI"
+          href: migrate-ssrs-reports-to-power-bi.md
     - name: Технические документы
       items:
         - name: Обзор технической документации
