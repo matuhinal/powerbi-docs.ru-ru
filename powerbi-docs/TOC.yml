@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: Создание и использование потоков данных
               href: service-dataflows-create-use.md
+            - name: Использование расширенного вычислительного модуля для потоков данных
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Вычисляемые сущности с Power BI Premium
               href: service-dataflows-computed-entities-premium.md
             - name: Подключение к источникам данных с помощью потоков данных
@@ -801,6 +803,8 @@
               items:
                 - name: Подключение к службам с помощью приложений
                   href: service-connect-to-services.md
+                - name: Калькулятор Azure для расчета углеродного следа
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
