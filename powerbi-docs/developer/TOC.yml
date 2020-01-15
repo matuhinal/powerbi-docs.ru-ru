@@ -25,7 +25,7 @@
           items:
             - name: "Структура проекта визуального элемента Power\_BI"
               href: visuals/visual-project-structure.md
-            - name: Концепция визуального элемента
+            - name: Основные понятия визуализаций
               href: visuals/power-bi-visuals-concept.md
             - name: "Визуальные элементы для организаций в Power\_BI"
               href: power-bi-custom-visuals-organization.md

@@ -871,6 +871,8 @@
           href: service-admin-premium-workloads.md
         - name: Мониторинг емкостей в приложении
           href: service-admin-premium-monitor-capacity.md
+        - name: Мониторинг метрик рабочих нагрузок категории "Премиум"
+          href: service-premium-metrics-app.md
         - name: Мониторинг емкостей на портале администрирования
           href: service-admin-premium-monitor-portal.md
         - name: Настройка добавочного обновления
