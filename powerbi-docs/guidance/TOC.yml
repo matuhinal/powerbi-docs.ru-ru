@@ -10,48 +10,56 @@
     - name: Основные понятия
       expanded: true
       items:
-        - name: Что такое схема типа "звезда"?
-          href: star-schema.md
-        - name: Уменьшение размера модели данных
-          href: import-modeling-data-reduction.md
-        - name: Функция DIVIDE и оператор деления (/)
-          href: dax-divide-function-operator.md
-        - name: Использование SELECTEDVALUE вместо VALUES
-          href: dax-selectedvalue.md
-        - name: Важность свертывания запросов
-          href: power-query-folding.md
-        - name: Правильное использование функций ошибок
-          href: dax-error-functions.md
-        - name: Улучшение формул с помощью переменных
-          href: dax-variables.md
-        - name: Использование COUNTROWS вместо COUNT
-          href: dax-countrows.md
-        - name: 'Не рекомендуется: преобразование BLANK в значения'
-          href: dax-avoid-converting-blank.md
-        - name: Ссылки на столбцы и меры
-          href: dax-column-measure-references.md
-        - name: Предотвращение использования FILTER в качестве аргумента фильтра
-          href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Рекомендации по потокам данных
-          href: ../service-dataflows-best-practices.md
-        - name: Руководство по использованию модели DirectQuery в Power BI Desktop
-          href: directquery-model-guidance.md
-        - name: "Ссылки на запросы Power\_Query"
-          href: power-query-referenced-queries.md
-        - name: Добавление подсказок в виде страниц отчета в визуальные элементы
-          href: report-page-tooltips.md
-        - name: Детализация страницы отчета
-          href: report-drillthrough.md
-        - name: "Автоматические дата и время в Power\_BI\_Desktop"
-          href: auto-date-time.md
-        - name: Руководство по связи "многие ко многим"
-          href: relationships-many-to-many.md
-        - name: "Отключение фонового обновления Power\_Query"
-          href: power-query-background-refresh.md
-        - name: "В каких случаях использовать отчеты с разбивкой на страницы в Power\_BI"
-          href: report-paginated-or-power-bi.md
-        - name: "Перенос отчетов SQL Server Reporting Services в Power\_BI"
-          href: migrate-ssrs-reports-to-power-bi.md
+        - name: Преобразование и формирование данных
+          items:
+            - name: Важность свертывания запросов
+              href: power-query-folding.md
+            - name: "Ссылки на запросы Power\_Query"
+              href: power-query-referenced-queries.md
+            - name: "Отключение фонового обновления Power\_Query"
+              href: power-query-background-refresh.md
+            - name: Рекомендации по потокам данных
+              href: ../service-dataflows-best-practices.md
+        - name: Моделирование данных
+          items:
+            - name: Что такое схема типа "звезда"?
+              href: star-schema.md
+            - name: Уменьшение размера модели данных
+              href: import-modeling-data-reduction.md
+            - name: "Автоматические дата и время в Power\_BI\_Desktop"
+              href: auto-date-time.md
+            - name: Руководство по связи "многие ко многим"
+              href: relationships-many-to-many.md
+            - name: Руководство по использованию модели DirectQuery в Power BI Desktop
+              href: directquery-model-guidance.md
+        - name: DAX
+          items:
+            - name: Функция DIVIDE и оператор деления (/)
+              href: dax-divide-function-operator.md
+            - name: Правильное использование функций ошибок
+              href: dax-error-functions.md
+            - name: Использование SELECTEDVALUE вместо VALUES
+              href: dax-selectedvalue.md
+            - name: Использование COUNTROWS вместо COUNT
+              href: dax-countrows.md
+            - name: Улучшение формул с помощью переменных
+              href: dax-variables.md
+            - name: 'Не рекомендуется: преобразование BLANK в значения'
+              href: dax-avoid-converting-blank.md
+            - name: ссылки на столбцы и меры
+              href: dax-column-measure-references.md
+            - name: Предотвращение использования FILTER в качестве аргумента фильтра
+              href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Создание отчета
+          items:
+            - name: Добавление подсказок в виде страниц отчета в визуальные элементы
+              href: report-page-tooltips.md
+            - name: Детализация страницы отчета
+              href: report-drillthrough.md
+            - name: "В каких случаях использовать отчеты с разбивкой на страницы в Power\_BI"
+              href: report-paginated-or-power-bi.md
+            - name: "Перенос отчетов SQL Server Reporting Services в Power\_BI"
+              href: migrate-ssrs-reports-to-power-bi.md
     - name: Технические документы
       items:
         - name: Обзор технической документации

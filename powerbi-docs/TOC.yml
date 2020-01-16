@@ -803,10 +803,10 @@
               items:
                 - name: Подключение к службам с помощью приложений
                   href: service-connect-to-services.md
-                - name: Калькулятор Azure для расчета углеродного следа
-                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
+                - name: Калькулятор устойчивости (Майкрософт)
+                  href: service-connect-to-microsoft-sustainability-calculator.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
                 - name: Project Online
@@ -887,7 +887,7 @@
           href: service-admin-premium-restart.md
         - name: Подключение к наборам данных с помощью клиентских приложений и средств
           href: service-premium-connect-tools.md
-- name: Построитель отчетов с разбиением на страницы Power BI
+- name: Построитель отчетов Power BI
   items:
     - name: Обзор
       items:
