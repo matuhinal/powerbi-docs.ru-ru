@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Создание и использование визуализаций с элементами матрицы
               href: visuals/desktop-matrix-visual.md
+            - name: Создание и использование визуальных элементов Power Apps
+              href: visuals/power-bi-visualization-powerapp.md
             - name: "Визуальные элементы \"Вопросы и ответы\" в Power\_BI"
               href: visuals/power-bi-visualization-q-and-a.md
             - name: Создание и использование визуализаций на R
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Удаленная настройка доступа для мобильного приложения
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Настройка WAP и AD FS
+              href: report-server/connect-adfs-wap-report-server.md
             - name: "Удаленный мобильный доступ с помощью Azure\_AD"
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Размещение книг Excel
