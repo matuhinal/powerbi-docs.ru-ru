@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311288"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761894"
 ---
-# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Использование закладок в Power BI Desktop для обмена аналитическими сведениями и создания историй
+# <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Создание закладок в Power BI Desktop для обмена аналитическими сведениями и создания историй
 С помощью *закладок* в Power BI Desktop можно сохранить текущее настроенное представление страницы отчета, включая фильтры и состояние визуальных элементов. Позже вы можете вернуться к этому состоянию, просто выбрав сохраненную закладку. 
 
 Вы также можете создать коллекцию закладок, расположить их в необходимом порядке и позднее переходить к каждой закладке в презентации, чтобы выделить ряд аналитических сведений или привлечь внимание к истории о данных с помощью визуальных элементов и отчетов. 

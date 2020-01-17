@@ -6,26 +6,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ac2b2e498c6cd81e922e3ee82435d0d32720ced
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8dbd72b310d6e62619a61d34001afc1f7bc44189
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876023"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731003"
 ---
 # <a name="power-bi-desktop-videos"></a>Видеоматериалы по Power BI Desktop
-У нас есть канал [YouTube для Power BI!](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)
 
-В следующем списке приведены все доступные видеоматериалы о Power BI Desktop. Выберите любую из указанных ниже ссылок, чтобы просмотреть связанный видеоролик.
+У Power BI Desktop есть канал на [YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
 
-- [Общий обзор Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) — от получения данных и создания отчета до отправки этого отчета в службу Power BI для его обновления и совместного использования с другими пользователями.  
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
-  
-- Сведения о том, [как создавать эффектные отчеты](https://www.youtube.com/watch?v=ByIUx-HmQbw) с помощью Power BI Desktop, а также импортировать, обрабатывать и преобразовывать их с использованием редактора Power Query.
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
-  
+См. общий обзор Power BI Desktop, от получения данных и создания отчета до предоставления другим пользователям доступа к отчету. 
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>
+
+Узнайте, как создавать впечатляющие отчеты с помощью Power BI Desktop.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe> 
+
+Импорт, изменение формы и преобразование данных в редакторе Power Query.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe> 
+
+Перейдите по следующим ссылкам, чтобы просмотреть все видео, доступные на канале YouTube Power BI.
+
+- [Начало работы с Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA)
+- [Создание отчета в Power BI Desktop](https://www.youtube.com/watch?v=IMAsitQ2cAc)
+- [Использование редактора Power Query Editor](https://www.youtube.com/watch?v=ByIUx-HmQbw)
+- [Создание связей между таблицами](https://www.youtube.com/watch?v=fVW4MCr0APA)
+- [Публикация отчетов из Power BI Desktop в службе Power BI](https://www.youtube.com/watch?v=ObwsFdC9e94)
+- [Добавление вычисляемого столбца](https://www.youtube.com/watch?v=62mLfiNcqVM)

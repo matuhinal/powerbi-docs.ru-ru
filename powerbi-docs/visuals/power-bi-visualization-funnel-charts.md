@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880833"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762446"
 ---
-# <a name="funnel-charts"></a>Воронкообразные диаграммы
+# <a name="create-and-use-funnel-charts"></a>Создание и использование воронкообразных диаграмм
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -71,13 +71,13 @@ ms.locfileid: "73880833"
 
 Создайте собственную воронкообразную диаграмму, показывающую количество возможных сделок на этапах продаж.
 
-1. Начните с пустой страницы отчета и выберите поле **Этап продажи**\>**Этап продажи**.
+1. Начните с пустой страницы отчета и выберите поле **Этап продажи** \> **Этап продажи**.
    
     ![выбранный элемент "Стадия продажи"](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
 
 1. Выберите значок воронки ![значок "Воронкообразная диаграмма",](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) чтобы преобразовать гистограмму в воронкообразную диаграмму.
 
-2. В области **Поля** выберите пункты **Факт** \> **Число возможностей**.
+2. На панели **Поля** выберите **Факт** \> **Число возможных сделок**.
    
     ![создание воронкообразной диаграммы](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. При наведении указателя мыши на столбец отображается много ценных сведений:

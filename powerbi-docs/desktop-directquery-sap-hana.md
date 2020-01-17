@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878292"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761233"
 ---
-# <a name="directquery-and-sap-hana"></a>DirectQuery и SAP HANA
+# <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Подключение к источникам данных SAP HANA напрямую с помощью DirectQuery в Power BI
 Вы можете подключиться к источникам данных **SAP HANA** напрямую с помощью **DirectQuery**. К SAP HANA можно подключиться двумя способами:
 
 * **Определение SAP HANA в качестве многомерного источника (по умолчанию).**  В этом случае поведение будет таким же, как при подключении Power BI к другим многомерным источникам, таким как SAP Business Warehouse или Analysis Services. Если при подключении к SAP HANA использовать этот параметр, выбирается одно представление аналитики или вычисления, и все меры, иерархии и атрибуты этого представления будут доступны в списке полей. При создании визуализации сводные данные будут всегда извлекаться из SAP HANA. Этот подход является рекомендуемым и используется по умолчанию для новых отчетов DirectQuery на базе SAP HANA.

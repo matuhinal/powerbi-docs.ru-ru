@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: 44e56613a69069351f21aa7d515fc2bb296e6728
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128269"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762147"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Передача параметра отчета в URL-адресе для отчета с разбивкой на страницы в Power BI 
 
@@ -64,6 +64,8 @@ rp:SalesOrderNumber:isnull=true
 
 > [!NOTE]
 > Если отчет содержит параметр отчета со значением по умолчанию, а свойству **Prompt** задано значение **false**, (то есть свойство **Prompt User** не задано в диспетчере отчетов), вы не можете передать значение для этого параметра отчета в URL-адресе. В этом случае администраторы могут запрещать пользователям добавлять или изменять значения определенных параметров отчета.
+
+> Power BI не поддерживает строку запроса длиной более 900 символов.  Это значение может быть превышено, если для просмотра отчета с разбиением на страницы используются параметры URL-адреса.  Это особенно верно, если используются параметры с несколькими значениями.
 
 ## <a name="additional-examples"></a>Дополнительные примеры 
 

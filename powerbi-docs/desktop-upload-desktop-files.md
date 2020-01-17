@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa8e901d73d6ae0f35e74a427354368e75977202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d528ba824986ff171688a55aee2ca2febe523236
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865343"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759297"
 ---
-# <a name="publish-from-power-bi-desktop"></a>Публикация из Power BI Desktop
+# <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Публикация наборов данных и отчетов из Power BI Desktop
 При публикации файла **Power BI Desktop** в **службе Power BI** данные в модели и все отчеты, созданные в режиме **отчета**, публикуются в рабочей области Power BI. Новый набор данных с тем же именем и все отчеты появятся в навигаторе рабочей области.
 
 Публикация из **Power BI Desktop** аналогична использованию функции **Получить данные** в Power BI для подключения к файлу **Power BI Desktop** и его отправки.
@@ -27,7 +27,7 @@ ms.locfileid: "73865343"
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Публикация набора данных и отчетов Power BI Desktop
-1. В Power BI Desktop последовательно выберите **Файл** \> **Опубликовать** \> **Опубликовать в Power BI** или нажмите кнопку **Опубликовать** на ленте.  
+1. В Power BI Desktop последовательно выберите **Файл** \> **Опубликовать** \> **Опубликовать в Power BI** или щелкните **Опубликовать** на ленте.  
 
    ![Кнопка "Опубликовать"](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 

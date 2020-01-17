@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e40d26570e37167c61ffd3241cfe96a90c55fa0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877865"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760556"
 ---
-# <a name="report-view-in-power-bi-desktop"></a>Представление отчетов в Power BI Desktop
+# <a name="work-with-report-view-in-power-bi-desktop"></a>Работа с представлением отчетов в Power BI Desktop
 Если вы работали с Power BI, вы знаете, как просто можно создавать отчеты, предоставляющие динамические сведения о ваших данных. В Power BI Desktop также реализованы дополнительные возможности. С помощью Power BI Desktop можно создавать сложные запросы, объединять данные из нескольких источников, создавать связи между таблицами и многое другое.
 
 Power BI Desktop содержит **представление отчетов**, где можно создать любое количество страниц отчета с визуализациями. Представление отчетов во многом похоже на режим редактирования отчета в службе Power BI. Вы можете перемещать визуализации, копировать, вставлять, объединять элементы и т. д.

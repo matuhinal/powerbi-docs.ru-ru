@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876325"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761187"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>Использование DirectQuery и SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Подключение к SAP Business Warehouse с помощью DirectQuery в Power BI
 Вы можете подключиться к источникам данных **SAP Business Warehouse (BW)** напрямую с помощью **DirectQuery**. Учитывая OLAP и многомерный характер SAP BW, существует множество важных различий между использованием DirectQuery с SAP BW и реляционными источниками, например SQL Server. Эти различия можно обобщить следующим образом:
 
 * При использовании **DirectQuery** с реляционными источниками есть набор запросов (как определено в диалоговых окнах **Получение данных** или **Редактор запросов**), которые логически определяют данные, доступные в списке полей. *Однако* при подключении к источнику OLAP, такому как SAP BW, все обстоит иначе. Вместо этого при подключении к серверу SAP с помощью окна **Получение данных** выбирается только запрос Infocube или BEx. После этого в списке полей станут доступны все ключевые показатели и измерения выбранного запроса Infocube или BEx.   

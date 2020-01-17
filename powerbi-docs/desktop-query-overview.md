@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 294bd8017d6e6c8a1eaca836b32c7bd5d50d88e1
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876307"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760803"
 ---
-# <a name="query-overview-in-power-bi-desktop"></a>Общие сведения о запросах в Power BI Desktop
+# <a name="about-using-query-editor-in-power-bi-desktop"></a>Об использовании редактора запросов в Power BI Desktop
 С помощью **Power BI Desktop** вы можете подключаться к миру данных, создавать привлекательные и фундаментальные отчеты и совместно использовать свою работу с другими пользователями, которые затем могут использовать ее для расширения своих возможностей по бизнес-аналитике.
 
 Power BI Desktop имеет три представления:

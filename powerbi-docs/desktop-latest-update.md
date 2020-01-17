@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221995"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761049"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Новые возможности в последнем обновлении Power BI Desktop
+# <a name="whats-new-in-power-bi-desktop"></a>Новые возможности Power BI Desktop
 
 
 ## <a name="december-2019-update-2765678661"></a>Обновление за декабрь 2019 г. (2.76.5678.661)
@@ -42,8 +42,8 @@ ms.locfileid: "75221995"
 
 
 ### <a name="reporting"></a>Отчеты
-* Обновления тем (предварительная версия) [[видео]](https://youtu.be/eCEwgZsVUOs?t=10) [[статья]](desktop-report-themes.md#customize-report-themes-preview) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* Экспорт текущей темы (предварительная версия) [[видео]](https://youtu.be/eCEwgZsVUOs?t=242) [[статья]](desktop-report-themes.md#customize-report-themes-preview) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* Настройка текущей темы (предварительная версия) [[видео]](https://youtu.be/eCEwgZsVUOs?t=10) [[статья]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* Экспорт текущей темы (предварительная версия) [[видео]](https://youtu.be/eCEwgZsVUOs?t=242) [[статья]](desktop-report-themes.md#export-report-themes-preview) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * Установка значения столбца таблицы или матрицы в качестве настраиваемого URL-адреса [[видео]](https://youtu.be/eCEwgZsVUOs?t=277) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * Параметры форматирования визуального элемента КПЭ [[видео]](https://youtu.be/eCEwgZsVUOs?t=354) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * Новое форматирование дерева декомпозиции [[видео]](https://youtu.be/eCEwgZsVUOs?t=442) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199460"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762331"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Карты фигур в Power BI Desktop (предварительная версия)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Создание визуализаций сопоставителя фигур в Power BI Desktop (предварительная версия)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -27,7 +27,7 @@ ms.locfileid: "74199460"
 ## <a name="creating-shape-maps"></a>Создание карт фигур
 Вы можете проверить элемент управления **Карта фигур** с помощью карт, которые поставляются вместе с этой предварительной версией, или использовать свою карту, если она соответствует требованиям, приведенным в следующем разделе под названием **Использование пользовательских карт**.
 
-Визуальный элемент **Карта фигур** представляет собой предварительную версию, поэтому его необходимо сначала включить в Power BI Desktop. Чтобы включить **карту фигур**, выберите **Файл > Параметры и настройки > Параметры > Предварительная версия функций** и установите флажок **Визуальный элемент "Карта фигур"** . После этого изменения приложение Power BI Desktop необходимо перезапустить.
+Визуальный элемент **Карта фигур** представляет собой предварительную версию, поэтому его необходимо сначала включить в Power BI Desktop. Чтобы включить **карту фигур**, выберите **Файл > Параметры и настройки > Параметры > Предварительная версия функций** и установите флажок **Визуальный элемент "Карта фигур"**. После этого изменения приложение Power BI Desktop необходимо перезапустить.
 
 ![включение предварительной версии функции "Карта фигур"](media/desktop-shape-map/power-bi-preview-features.png)
 
@@ -104,7 +104,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 ## <a name="preview-behavior-and-requirements"></a>Особенности работы и требования предварительной версии
 С этим предварительным выпуском **карты фигур** связан ряд моментов и требований.
 
-* Визуальный элемент **Карта фигур** представляет собой предварительную версию, поэтому его необходимо сначала включить в Power BI Desktop. Чтобы включить **карту фигур**, выберите **Файл > Параметры и настройки > Параметры > Предварительная версия функций** и установите флажок **Визуальный элемент "Карта фигур"** .
+* Визуальный элемент **Карта фигур** представляет собой предварительную версию, поэтому его необходимо сначала включить в Power BI Desktop. Чтобы включить **карту фигур**, выберите **Файл > Параметры и настройки > Параметры > Предварительная версия функций** и установите флажок **Визуальный элемент "Карта фигур"**.
 * Сейчас для корректной классификации по **условным обозначениям** нужно также настроить контейнер **Насыщенность цвета**.
 * В окончательном выпуске **карты фигур** в пользовательском интерфейсе будут отображаться ключи текущей карты (дата окончательного выпуска пока не определена, и **карта фигур** еще находится на этапе предварительной версии). В этой предварительной версии вы можете использовать ключи регионов карт, приведенные в таблицах раздела **Ключи регионов** в этой статье.
 * Визуализация **Карта фигур** будет отображать до 1500 точек данных.
@@ -196,7 +196,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>Франция: области
 
-| Идентификатор | имя | name-en |
+| Идентификатор | name | name-en |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -208,7 +208,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Hauts-de-France |  |  |
 | Ile-de-France |Île-de-France |Ile-de-France |
 | La Reunion |  |  |
-| Майотта  |  |  |
+| Майотт  |  |  |
 | Normandie |Normandie |  |
 | Nouvelle-Aquitaine |  |  |
 | Occitanie  |  |  |
@@ -358,7 +358,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>США: земли
 
-| Идентификатор | имя | postal |
+| Идентификатор | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -374,7 +374,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
 | us-nc |North Carolina |NC |
-| us-ok |Oklahoma |OK |
+| us-ok |Oklahoma |ОК |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virginia |VA |
@@ -400,7 +400,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |ИЛИ |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

@@ -9,14 +9,15 @@ ms.topic: conceptual
 ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73880621"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758630"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Отображение данных, использованных для создания визуализации
+# <a name="display-a-visualizations-underlying-data"></a>Отображение базовых данных визуального элемента
+
 ## <a name="show-data"></a>Показать данные
 Визуализация Power BI создается на основе данных из наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. Если выбрать функцию **Показать данные**, Power BI отобразит рядом с визуализацией или под ней связанную информацию.
 

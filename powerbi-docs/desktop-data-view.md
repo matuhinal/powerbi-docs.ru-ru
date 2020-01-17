@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876374"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761279"
 ---
-# <a name="data-view-in-power-bi-desktop"></a>Представление данных в Power BI Desktop
+# <a name="work-with-data-view-in-power-bi-desktop"></a>Работа с представлением данных в Power BI Desktop
 **Представление данных** позволяет проверять, изучать и анализировать данные в модели **Power BI Desktop**. Оно отличается от просмотра таблиц, столбцов и данных в **редакторе запросов**. В представлении данных вы видите данные уже *после* их загрузки в модель.
 
 При моделировании данных иногда требуется просмотреть фактическое содержимое столбца или таблицы без создания визуального элемента на холсте отчета и часто это требуется сделать на уровне строк. Это особенно полезно в тех случаях, когда вы создаете меры и вычисляемые столбцы или хотите определить тип данных или категорию данных.

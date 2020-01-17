@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878091"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761003"
 ---
-# <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Настройка географической фильтрации в Power BI Desktop для мобильных приложений
+# <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Настройка географической фильтрации в Power BI Desktop для использования в мобильных приложениях
 В Power BI Desktop можно [задать для столбца географическую категорию данных](desktop-data-categorization.md), чтобы приложение Power BI Desktop понимало, как интерпретировать соответствующие значения в визуальных элементах отчета. Кроме того, при просмотре соответствующего отчета мобильное приложение Power BI автоматически предлагает фильтры с учетом местоположения пользователя. 
 
 Например, предположим, что вы — директор по продажам, который ездит в командировки для переговоров с клиентами, и вам бывает нужно быстро отфильтровать данные по общему объему продаж и выручки для клиента, с которым вы планируете встретиться. Вы хотите выбрать данные для своего текущего местоположения (например, по региону, городу или фактическому адресу). Потом, если у вас останется время, вы можете заглянуть и к другим клиентам, которые расположены поблизости. Вы можете [отфильтровать отчет по своему местоположению, чтобы найти соответствующих клиентов](consumer/mobile/mobile-apps-geographic-filtering.md).

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873845"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762170"
 ---
-#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Подключение к образцам в службе Power BI
+#  <a name="import-and-open-sample-packs-for-power-bi"></a>Импорт и открытие пакетов образцов для Power BI
 
 Из этого руководства вы узнаете, как выполнять такие задачи: 
 - Импорт примера пакета содержимого, его добавление в службу Power BI и открытие содержимого. *Пакет содержимого* — это тип примера, в котором набор данных входит в состав информационной панели и отчета. 

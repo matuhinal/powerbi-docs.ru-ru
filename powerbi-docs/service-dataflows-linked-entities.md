@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877244"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762193"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Связывание сущностей из разных потоков данных в Power BI
 
@@ -81,6 +81,7 @@ ms.locfileid: "73877244"
 * не допускаются циклические зависимости связанных сущностей;
 * поток данных должен находиться в [новой рабочей области Power BI](service-create-the-new-workspaces.md).
 * Связанная сущность не может объединяться с обычной сущностью, получающей данные из локального источника.
+* Когда запрос (например, запрос A) используется в вычислении другого запроса (запрос B) в потоках данных, запрос B становится вычисляемой сущностью. Вычисляемые сущности не могут ссылаться на локальные источники.
 
 
 ## <a name="next-steps"></a>Следующие шаги

@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871001"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885328"
 ---
-# <a name="key-influencers-visualization"></a>Визуализация ключевых факторов влияния
+# <a name="create-key-influencers-visualizations"></a>Создание визуализации ключевых факторов влияния
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ ms.locfileid: "73871001"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ваш менеджер по продуктам хочет, чтобы вы определили факторы, заставляющие пользователей оставлять отрицательные отзывы о вашей облачной службе. Откройте [PBIX-файл с примером отзывов пользователей](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) в Power BI Desktop. Вы также можете скачать [файл Excel с отзывами пользователей службы Power BI или Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Выберите любую из ссылок, а затем на открывшейся странице GitHub выберите **Скачать**.
+Ваш менеджер по продуктам хочет, чтобы вы определили факторы, заставляющие пользователей оставлять отрицательные отзывы о вашей облачной службе. Откройте [PBIX-файл с примером отзывов пользователей](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) в Power BI Desktop. Вы также можете скачать [файл Excel с отзывами пользователей службы Power BI или Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx). Выберите любую из ссылок, а затем на открывшейся странице GitHub выберите **Скачать**.
 
 > [!NOTE]
 > Набор данных основан на следующей работе: [Moro et al., 2014] S. Moro, P. Cortez, and P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing". *Decision Support Systems*, Elsevier, 62:22-31, June 2014. 
@@ -267,6 +267,8 @@ ms.locfileid: "73871001"
  
 Ключевые факторы влияния имеют некоторые ограничения:
 
+
+
 - DirectQuery не поддерживается.
 - Динамическое подключение к Azure Analysis Services и SQL Server Analysis Services не поддерживается.
 - Публикация в Интернете не поддерживается.
@@ -357,6 +359,9 @@ ms.locfileid: "73871001"
 Причина в том, что визуализация также учитывает количество точек данных при поиске факторов влияния. В примере ниже имеется более 29 000 потребителей и в 10 раз меньше администраторов (около 2900). Только 390 из них дали низкую оценку. Визуализации не хватает данных, чтобы определить, действительно ли существует шаблон для оценок администраторов или это просто случайность. 
 
 ![Определение факторов влияния](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Каковы ограничения точек данных для ключевых факторов влияния?**
+Анализ выполняется по выборке 10 000 точек данных. На одной стороне отображаются все обнаруженные факторы влияния. Гистограммы и точечные диаграммы на другой стороне ограничены стратегиями выборки для этих основных визуальных элементов.
 
 **Как выводятся ключевые факторы влияния для категориального анализа?**
 

@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958501"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762561"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
 В следующей таблице указаны источники данных, поддерживаемые Power BI для наборов данных, включая сведения о DirectQuery и локальном шлюзе данных. См. сведения о [подключении к источникам данных для потоков данных Power BI](service-dataflows-data-sources.md).
+
+> [!NOTE]
+> Существует много соединителей данных для Power BI Desktop, для проверки подлинности которых требуется Internet Explorer 10 (или более поздняя версия). 
+
 
 | Источник данных | Подключение из версии Desktop | Подключение и обновление из службы | Подключение DirectQuery и активное подключение | Шлюз (поддерживается) | Шлюз (обязательно) |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +37,7 @@ ms.locfileid: "74958501"
 | Управление затратами Azure | Да | Да | Нет | Нет | Нет |
 | Azure Data Explorer (Kusto) | Да | Да | Да | Нет | Нет |
 | Azure Data Lake Storage 1-го поколения | Да | Да | Нет | Нет | Нет |
-| Azure Data Lake Storage 2-го поколения | Да | Да | Нет | Нет | Нет |
+| Azure Data Lake Storage 2-го поколения | Да | Да | Нет | Да | Нет |
 | Azure DevOps | Да | Да | Нет | Нет | Нет |
 | Azure DevOps Server | Да | Да | Нет | Да | Да |
 | Azure HDInsight (HDFS) | Да | Да | Нет | Нет | Нет |
@@ -65,8 +69,8 @@ ms.locfileid: "74958501"
 | Google BigQuery | Да | Да | Нет | Нет | Нет |
 | Файл Hadoop (HDFS) | Да | Нет | Нет | Нет | Нет |
 | HDInsight Interactive Query | Да | Да | Да | Нет | Нет |
-| IBM DB2 | Да | Да | Да | Да | Да |
-| База данных IBM Informix | Да | Да | Нет | Да | Да |
+| IBM DB2 | Да | Да | Да | Да | Нет |
+| База данных IBM Informix | Да | Да | Нет | Да | Нет |
 | IBM Netezza | Да | Да | Да | Да | Да |
 | Impala | Да | Да | Да | Да | Да |
 | Indexima | Да | Да | Да | Да | Да |
@@ -95,7 +99,7 @@ ms.locfileid: "74958501"
 | Planview Enterprise One — CTM | Да | Да | Нет | Нет | Нет |
 | Planview Enterprise One — PRM | Да | Да | Нет | Нет | Нет |
 | Planview Projectplace | Да | Да | Нет | Нет | Нет |
-| PostgreSQL | Да | Да | Да | Да | Да |
+| PostgreSQL | Да | Да | Да | Да | Нет |
 | Потоки данных Power BI | Да | Да | Нет | Нет | Нет |
 | Наборы данных Power BI | Да | Да | Да | Нет | Нет |
 | Потоки данных Power Platform | Да | Да | Нет | Нет | Нет |
@@ -114,7 +118,7 @@ ms.locfileid: "74958501"
 | Список SharePoint | Да | Да | Нет | Да | Нет <sup>4</sup> |
 | Список SharePoint Online | Да | Да | Нет | Да <sup>2</sup> | Нет |
 | Smartsheet | Да | Да | Нет | Нет | Нет |
-| Снежинка | Да | Да | Да | Да | Да |
+| Снежинка | Да | Да | Да | Да | Нет |
 | Spark | Да | Да | Да | Да | Нет |
 | SparkPost | Да | Да | Нет | Нет | Нет |
 | SQL Server | Да | Да | Да | Да | Да |

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265865"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762515"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Параметры отображения страницы в отчете Power BI
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>Применение параметров отображения страницы в отчете Power BI
 Очень важно обеспечить точное и качественное отображение макета отчета. В некоторых случаях это может оказаться сложной задачей, так вы и ваши коллеги просматриваете эти отчеты на экранах разных размеров и с различным соотношением сторон. 
 
 По умолчанию используется представление **Вписать в страницу** , размер экрана по умолчанию — **16:9**. Если требуется заблокировать другие пропорции или по-другому расположить отчет, можно воспользоваться двумя средствами: параметрами ***Просмотр страницы*** и ***Размер страницы***.

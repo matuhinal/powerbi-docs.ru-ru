@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876528"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761733"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Подключение к данным Azure Consumption Insights в Power BI Desktop
 
@@ -164,14 +164,14 @@ Azure Consumption Insights позволяет подключиться к уче
 3. Замените имя *Query1* исходным именем таблицы со сведениями.
 4. Чтобы создать меры и пользовательские столбцы в таблице, щелкните правой кнопкой мыши таблицу и выберите пункт **Новая мера**. Затем вырежьте и вставьте все сохраненные меры и столбцы.
 
-### <a name="step-4-relink-tables-that-had-relationships"></a>Шаг 4. Восстановление ссылок между связанными таблицами
+### <a name="step-4-relink-tables-that-had-relationships"></a>Шаг 4. Восстановление ссылок между связанными таблицами
 На многих панелях мониторинга есть дополнительные таблицы, которые используются для поиска или фильтрации, например таблицы дат или таблицы, используемые для пользовательских проектов. Восстановление связей между таблицами решает большинство задач. Вот как это сделать.
 
 - В **Power BI Desktop** на вкладке **Моделирование** выберите элемент **Управление связями**, чтобы открыть окно управления связями в модели. При необходимости восстановите связи между таблицами.
 
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Шаг 5. Проверка визуальных элементов и изменение форматирования полей при необходимости
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Шаг 5. Проверка визуальных элементов и изменение форматирования полей при необходимости
 На этом этапе большая часть исходных визуальных элементов, таблиц и детализаций должна работать правильно. Однако может потребоваться внести небольшие изменения, чтобы настроить внешний вид. Просмотрите все свои панели мониторинга и визуальные элементы, чтобы убедиться в том, что они выглядят, как вы хотите.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Использование API Azure Consumption Insights (ACI) для получения данных потребления

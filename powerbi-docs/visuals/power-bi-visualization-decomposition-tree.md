@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060600"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885278"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Создание дерева декомпозиции в Power BI (предварительная версия)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Создание и просмотр визуальных элементов дерева декомпозиции в Power BI (предварительная версия)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Визуализация в виде дерева декомпозиции в Power BI позволяет визуализировать данные в нескольких измерениях. Она автоматически выполняет статистическую обработку данных и позволяет детализировать измерения в любом порядке. Это визуализация искусственного интеллекта (ИИ), которая может искать новые измерения для выполнения детализации на основе определенных критериев. Она выступает ценным инструментом для специализированного изучения и проведения анализа первопричин.
@@ -131,6 +131,8 @@ ms.locfileid: "74060600"
 ![Блокировка дерева декомпозиции](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>Известные ограничения
+
+Максимальное число уровней для дерева — 50. Максимальное количество точек данных, которые можно наглядно представлять в дереве, — 5000. Мы усекаем уровни, чтобы отобразить первые n уровней. В настоящее время значение первых n для каждого уровня составляет 10. 
 
 Дерево декомпозиции не поддерживается в следующих сценариях:  
 -   локальные службы Analysis Services.

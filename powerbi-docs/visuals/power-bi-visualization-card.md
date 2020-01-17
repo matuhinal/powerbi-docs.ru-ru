@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870989"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758044"
 ---
-# <a name="card-visualizations"></a>Визуализации в виде карточек
+# <a name="create-card-visualizations"></a>Визуализации в виде карточек
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,7 +28,7 @@ ms.locfileid: "73870989"
 
 В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. В верхнем левом разделе меню выберите **Файл** \> **Открыть**.
+1. В верхнем левом разделе меню выберите **Файл** \> **Открыть**
    
 2. Найдите свою копию PBIX-файла с примером **Анализ розничной торговли**.
 
@@ -40,7 +40,7 @@ ms.locfileid: "73870989"
 
 Первый способ создать карточку — использовать редактор отчетов в Power BI Desktop.
 
-1. Откройте пустую страницу отчета и выберите поле **Магазин**\>**Количество открытых магазинов**.
+1. Откройте пустую страницу отчета и выберите поле **Магазин** \> **Количество открытых магазинов**.
 
     Power BI создаст гистограмму с одним числом.
 

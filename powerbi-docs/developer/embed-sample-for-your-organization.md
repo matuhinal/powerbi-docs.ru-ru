@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 07/29/2019
-ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 02/04/2020
+ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311061"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691354"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -53,6 +53,8 @@ ms.locfileid: "74311061"
 [Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
 
 Вам нужно зарегистрировать **веб-приложение на стороне сервера**, чтобы создать секрет приложения.
+
+После создания приложения в Azure откройте его в службе Azure, выберите раздел *Проверка подлинности* и в разделе *URI перенаправления* добавьте **/Redirect** в поле *URI перенаправления*.
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 

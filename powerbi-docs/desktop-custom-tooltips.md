@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: efbae4250b7b3cab18892cf519bfac5da3a88e1b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 08eda4e93a3e02e357c8153c656ec16811893ea9
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868651"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761440"
 ---
-# <a name="customizing-tooltips-in-power-bi-desktop"></a>Настройка подсказок в Power BI Desktop
+# <a name="customize-tooltips-in-power-bi-desktop"></a>Настраивайте подсказки в Power BI Desktop
 Подсказки позволяют изящно показать дополнительную контекстную информацию и сведения о точках данных на визуальном элементе. На следующем рисунке показана подсказка на диаграмме в Power BI Desktop.
 
 ![Подсказка по умолчанию](media/desktop-custom-tooltips/custom-tooltips-1.png)

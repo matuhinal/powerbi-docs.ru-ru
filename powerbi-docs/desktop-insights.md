@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69b6cd3200627c5b0523fce914eae5899e594c27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867238"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761164"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Использование аналитических сведений в Power BI Desktop, чтобы объяснить рост и снижение в визуальных элементах (предварительная версия)
+# <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Применение аналитических сведений в Power BI Desktop для объяснения колебаний в визуализациях (предварительная версия)
 
 Часто в визуальных элементах вы видите значительный рост или резкое снижение значений, и встает вопрос о причине таких колебаний. С помощью **аналитических сведений** в **Power BI Desktop** эту причину можно узнать всего за несколько щелчков.
 
