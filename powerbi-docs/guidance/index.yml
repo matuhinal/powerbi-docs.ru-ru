@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2bebde937666503739f6b0afe3ce20a8fe4baa8c
-  ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+  ms.openlocfilehash: 4f9d90caa643771ee300a9e7a62b4eb819becc82
+  ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/16/2020
-  ms.locfileid: "76039889"
+  ms.lasthandoff: 01/17/2020
+  ms.locfileid: "76161462"
 landingContent:
 - title: Руководство по Power BI
   linkLists:
@@ -47,8 +47,10 @@ landingContent:
       url: star-schema.md
     - text: Методы сокращения данных
       url: import-modeling-data-reduction.md
-    - text: Автоматические дата и время в Power BI Desktop
+    - text: Особенности автоматических даты и времени
       url: auto-date-time.md
+    - text: Особенности модели DirectQuery
+      url: directquery-model-guidance.md
     - text: Руководство по связи "многие ко многим"
       url: relationships-many-to-many.md
 - title: DAX
@@ -81,7 +83,9 @@ landingContent:
       url: report-drillthrough.md
     - text: В каких случаях использовать отчеты с разбивкой на страницы в Power BI
       url: report-paginated-or-power-bi.md
+    - text: Каскадные параметры в отчетах с разбивкой на страницы
+      url: paginated-report-cascading-parameter.md
     - text: Избегайте пустых страниц при печати отчетов с разбивкой на страницы
       url: report-paginated-blank-page.md
-    - text: Перенос отчетов SQL Server Reporting Services в Power BI
+    - text: Миграция отчетов SSRS в Power BI
       url: migrate-ssrs-reports-to-power-bi.md

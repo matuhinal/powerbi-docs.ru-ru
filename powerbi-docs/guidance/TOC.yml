@@ -26,11 +26,11 @@
               href: star-schema.md
             - name: Уменьшение размера модели данных
               href: import-modeling-data-reduction.md
-            - name: "Автоматические дата и время в Power\_BI\_Desktop"
+            - name: Особенности автоматических даты и времени
               href: auto-date-time.md
             - name: Руководство по связи "многие ко многим"
               href: relationships-many-to-many.md
-            - name: Руководство по использованию модели DirectQuery в Power BI Desktop
+            - name: Особенности модели DirectQuery
               href: directquery-model-guidance.md
         - name: DAX
           items:
@@ -58,9 +58,11 @@
               href: report-drillthrough.md
             - name: "В каких случаях использовать отчеты с разбивкой на страницы в Power\_BI"
               href: report-paginated-or-power-bi.md
+            - name: Каскадные параметры в отчетах с разбивкой на страницы
+              href: paginated-report-cascading-parameter.md
             - name: Избегайте пустых страниц при печати отчетов с разбивкой на страницы
               href: report-paginated-blank-page.md
-            - name: "Перенос отчетов SQL Server Reporting Services в Power\_BI"
+            - name: "Миграция отчетов SSRS в Power\_BI"
               href: migrate-ssrs-reports-to-power-bi.md
     - name: Технические документы
       items:

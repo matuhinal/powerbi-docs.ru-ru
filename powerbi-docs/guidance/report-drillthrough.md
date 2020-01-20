@@ -1,5 +1,5 @@
 ---
-title: Детализация страницы отчета
+title: Использование детализации страницы отчета
 description: Руководство по работе с детализацией страницы отчета.
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223621"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040384"
 ---
-# <a name="report-page-drillthrough"></a>Детализация страницы отчета
+# <a name="use-report-page-drillthrough"></a>Использование детализации страницы отчета
 
 Эта статья предназначена для разработчиков отчетов Power BI. В ней приводятся рекомендации по созданию [детализации страницы отчета](../desktop-drillthrough.md).
 
