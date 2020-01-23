@@ -82,7 +82,7 @@
               href: end-user-drill.md
             - name: Взаимодействие с картами ArcGIS
               href: ../power-bi-visualizations-arcgis.md
-        - name: Общие задачи
+        - name: Стандартные задачи
           items:
             - name: "Экспорт данных в\_Excel"
               href: end-user-export.md
@@ -176,13 +176,13 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Избранное в мобильных приложениях
               href: mobile/mobile-apps-favorites.md
-            - name: Настройка взаимодействия с отчетами в мобильных приложениях (только телефон)
-              href: mobile/mobile-app-single-tap.md
+            - name: Параметры взаимодействия (только для телефона)
+              href: mobile/mobile-app-interaction-settings.md
             - name: Настройка оповещений о данных в мобильных приложениях Power BI
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Получение уведомлений в мобильных приложениях Power BI
               href: mobile/mobile-apps-notification-center.md
-            - name: Создание прямых ссылок на определенные расположения
+            - name: Создание прямой ссылки на конкретный элемент
               href: mobile/mobile-apps-deep-link-specific-location.md
             - name: "Фильтрация отчета по расположению в мобильных приложениях Power\_BI"
               href: mobile/mobile-apps-geographic-filtering.md
