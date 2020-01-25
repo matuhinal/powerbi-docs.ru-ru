@@ -961,16 +961,18 @@
       items:
         - name: Что нового
           href: report-server/whats-new.md
+        - name: Обзор функций администратора
+          href: report-server/admin-handbook-overview.md
         - name: Журнал изменений
           href: report-server/changelog.md
         - name: Сроки предоставления поддержки
           href: report-server/support-timeline.md
+        - name: "Поддержка Always\_Encrypted"
+          href: report-server/always-encrypted-support.md
         - name: Требования к оборудованию и программному обеспечению
           href: report-server/system-requirements.md
         - name: Поддержка браузеров
           href: report-server/browser-support.md
-        - name: Обзор функций администратора
-          href: report-server/admin-handbook-overview.md
         - name: Основные сведения о сервере отчетов
           items:
             - name: Запланированное обновление отчета Power BI
