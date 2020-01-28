@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 4cf5d2c1df4d7e0884083d48aa66421e5c43765a
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75735150"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953932"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Установка построителя отчетов — сервер отчетов Power BI
 
 Построитель отчетов является автономным приложением и устанавливается на компьютере пользователем или администратором. Его можно установить из Центра загрузки Майкрософт или с сервера отчетов Power BI.  
 
-Ищете справку по установке построителя отчетов для службы Power BI? Обратитесь к разделу [Построитель отчетов с разбиением на страницы Power BI](../report-builder-power-bi.md).
+Ищете справку по установке построителя отчетов для службы Power BI? См. статью о [Power BI Report Builder](../report-builder-power-bi.md).
   
 Обычно администратор устанавливает и настраивает сервер отчетов Power BI, предоставляет разрешение на скачивание построителя отчетов с веб-портала и управляет папками и разрешениями для отчетов и общих наборов данных, сохраняемых на сервере отчетов. Дополнительные сведения о сервере отчетов Power BI см. в статье [Общие сведения об администрировании сервера отчетов Power BI](admin-handbook-overview.md).  
   

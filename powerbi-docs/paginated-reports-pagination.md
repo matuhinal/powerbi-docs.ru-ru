@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 5c2dc39f05609da8a460ac7575498c0df6a96c55
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831239"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160887"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Разбивка на страницы в отчетах Power BI с разбивкой на страницы
 
@@ -87,6 +87,6 @@ ms.locfileid: "74831239"
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Просмотр отчета с разбивкой на страницы в службе Power BI](consumer/paginated-reports-view-power-bi-service.md)
-
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+- [Просмотр отчета с разбивкой на страницы в службе Power BI](consumer/paginated-reports-view-power-bi-service.md)
+- [Избегайте пустых страниц при печати отчетов с разбивкой на страницы](guidance/report-paginated-blank-page.md)
+- Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

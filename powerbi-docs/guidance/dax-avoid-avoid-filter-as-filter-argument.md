@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692466"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161439"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Предотвращение использования FILTER в качестве аргумента фильтра
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 Функция CALCULATE принимает табличное выражение, возвращаемое функцией DAX [FILTER](/dax/filter-function-dax), которая вычисляет выражение фильтра для каждой строки таблицы **Product**. Это обеспечивает правильный результат — результат продаж красных продуктов. Однако это можно сделать гораздо более эффективно, используя логическое выражение.
 
-Ниже приведено усовершенствованное определение меры, в котором вместо табличного выражения используется логическое выражение.
+Ниже приведено усовершенствованное определение меры, в котором вместо табличного выражения используется логическое выражение. Функция DAX [KEEPFILTERS](/dax/keepfilters-function-dax) гарантирует, что все существующие фильтры, примененные к столбцу **Color**, сохраняются и не перезаписываются.
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

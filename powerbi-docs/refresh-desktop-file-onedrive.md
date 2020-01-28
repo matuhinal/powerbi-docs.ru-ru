@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837647"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038550"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, хранимого в OneDrive или SharePoint Online
 Импорт файлов из OneDrive или SharePoint Online в службу Power BI — отличный способ обеспечить синхронизацию вашей работы в Power BI Desktop со службой Power BI.
@@ -37,7 +37,7 @@ ms.locfileid: "75837647"
 В Power BI поддерживаются функции **Обновить сейчас** и **Расписание обновлений** для наборов данных, которые созданы из файлов Power PI Desktop, импортированных с локального диска, когда операция **Получение данных** или **редактор запросов** используются для подключения и загрузки данных из следующих источников данных.
 
 > [!NOTE]
-> Импортированные файлы в OneDrive поддерживаются, но динамические подключенные наборы данных в OneDrive не поддерживаются в качестве сценария обновления OneDrive.
+> Поддерживается обновление OneDrive для наборов данных активных подключений. Однако изменение набора данных с динамическим подключением на другой в уже опубликованном отчете не поддерживается в сценарии обновления OneDrive.
 
 ### <a name="power-bi-gateway---personal"></a>Шлюз Power BI — персональный
 * Все источники данных в сети, отображаемые в **редакторе запросов** и разделе **Получение данных** в Power BI Desktop.

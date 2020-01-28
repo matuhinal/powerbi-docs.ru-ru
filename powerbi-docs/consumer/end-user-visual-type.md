@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861328"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039093"
 ---
 # <a name="visual-types-in-power-bi"></a>Типы визуальных элементов в Power BI
 Визуальные элементы отображаются в отчетах, панелях мониторинга и разделах вопросов и ответов. Некоторые из этих типов визуальных элементов входят в состав Power BI, а другие являются *пользовательскими визуальными элементами*. Пользовательские визуальные элементы создаются за пределами Power BI, а также способом, который позволяет *конструкторам отчетов* добавлять их в отчеты и панели мониторинга Power BI. 
@@ -140,6 +140,19 @@ ms.locfileid: "73861328"
 
 Круговые диаграммы показывают отношение частей к целому. 
 
+### <a name="power-apps-visual"></a>Визуальный элемент Power Apps
+![Визуальный элемент Power Apps](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+Конструкторы отчетов могут создать приложение Power и внедрить его в отчет Power BI. Пользователи могут взаимодействовать с этим визуальным элементом в отчете Power BI. 
+
+### <a name="qa-visual"></a>"Вопросы и ответы": визуализация
+![Визуальные элементы вопросов и ответов](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>Как и [интерфейс вопросов и ответов на панелях мониторинга](../power-bi-tutorial-q-and-a.md), визуальный элемент вопросов и ответов позволяет задавать вопросы о данных с помощью естественного языка. 
+
+Дополнительные сведения см. в статье [Визуальные элементы вопросов и ответов в Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+
 ### <a name="ribbon-chart"></a>Ленточная диаграмма
 ![Ленточная диаграмма](media/end-user-visual-type/power-bi-ribbon.png)
 
@@ -161,7 +174,7 @@ ms.locfileid: "73861328"
 ![Точечный график](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Точечная диаграмма высокой плотности
-![точечная диаграмма высокой плотности](media/end-user-visual-type/density-scatter.png)
+![точечная диаграмма с высокой плотностью](media/end-user-visual-type/density-scatter.png)
 
 По определению выборка данных с высокой плотностью применяется для достаточно быстрого создания интерактивных визуальных элементов. Выборка с высокой плотностью использует алгоритм, который устраняет перекрывающиеся точки и гарантирует, что все точки в наборе данных будут представлены в визуальном элементе. Этот алгоритм не просто создает репрезентативную выборку данных.  
 

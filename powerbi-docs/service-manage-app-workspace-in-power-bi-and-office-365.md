@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d4be5aa246b6e58b9a6234f30754e16a39341abe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872081"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160588"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью в Power BI и Office 365
 
 Автор или администратор [рабочей области в Power BI](service-create-distribute-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365.
 
 > [!NOTE]
-> В новом интерфейсе рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Вы не будете автоматически создавать группу Office 365 каждый раз при создании одной из новых рабочих областей. Узнайте о [создании новых рабочих областей](service-create-the-new-workspaces.md).
+> В новом интерфейсе рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Группа Office 365 не будет создаваться автоматически каждый раз, когда вы создаете новую рабочую область. Узнайте о [создании новых рабочих областей](service-create-the-new-workspaces.md).
 
 В **Power BI** можно выполнять следующие задачи:
 

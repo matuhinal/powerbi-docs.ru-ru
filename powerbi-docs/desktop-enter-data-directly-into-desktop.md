@@ -7,43 +7,44 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b0ae068ebeae2d16984706340c6eb9b2f247db1d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3c6cd3feb15001cd170d48e306ee1f8a5ba8b2dc
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867924"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160969"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Ввод данных непосредственно в Power BI Desktop
+
 Вы можете вводить данные непосредственно в Power BI Desktop и использовать их в своих отчетах и визуализациях. Например, можно скопировать часть книги или веб-страницы, а затем вставить ее в Power BI Desktop.
 
 Чтобы ввести данные в виде новой таблицы непосредственно в Power BI Desktop, выберите **Введите данные** на ленте **Главная**.
 
-![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
+![Лента "Главная": выбор "Введите данные"](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
 Power BI Desktop может попытаться применить к значениям несущественные преобразования, если это понадобится, как и при загрузке данных из любого источника. Например, в приведенном ниже примере первая строка преобразуется в заголовки.
 
-![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
+![Данные с первой строкой в качестве заголовков столбцов](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 
-Чтобы отформатировать введенные (или вставленные) данные, нажмите кнопку **Изменить**, которая вызывает редактор запросов, позволяющий сделать необходимые правки и преобразования, прежде чем загружать информацию в Power BI Desktop. Если нажать кнопку **Загрузить**, данные будут импортированы в исходном виде.
+Если необходимо преобразовать форму введенных или вставленных данных, выберите **Правка**, чтобы открыть **Редактор запросов**. Вы можете формировать и преобразовывать данные перед их переносом в Power BI Desktop. Выберите **Загрузить**, чтобы импортировать данные по мере их появления.
 
-При нажатии кнопки **Загрузить** Power BI Desktop создает на основе данных новую таблицу, которая появляется в области **Поля**. На изображении ниже Power BI Desktop демонстрирует новую таблицу (по умолчанию ей присвоено название *Таблица1*), а также два поля в ней.
+При нажатии кнопки **Загрузить** Power BI Desktop создает на основе данных новую таблицу, которая появляется в области **Поля**. На изображении ниже Power BI Desktop демонстрирует новую таблицу (ей присвоено название *Таблица1*), а также два поля в ней.
 
-![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
+![Поля, загруженные в Power BI Desktop](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
 
-Таким образом, вводить данные в Power BI Desktop очень просто.
+Вот и все. Таким образом, вводить данные в Power BI Desktop очень просто.
 
-Теперь вы можете работать с информацией в приложении Power BI Desktop: создавать визуальные элементы и отчеты, а также подключать и импортировать прочие сведения, например книги Excel, базы и любые другие источники данных.
+Теперь все готово к использованию данных в Power BI Desktop. Вы можете создавать визуальные элементы и отчеты, а также подключать и импортировать прочие сведения, например книги Excel, базы данных и любые другие источники данных.
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
-* [Подключение к CSV-файлам в Power BI Desktop](desktop-connect-csv.md)   
-
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)
+* [Подключение к CSV-файлам в Power BI Desktop](desktop-connect-csv.md)

@@ -1,6 +1,6 @@
 ---
 title: Данные отчета в построителе отчетов Power BI
-description: Первым шагом при разработке отчета в построителе отчетов с разбивкой на страницы Power BI является создание источников данных и наборов данных, представляющих базовые данные отчета.
+description: Первым шагом при разработке отчета в Power BI Report Builder является создание источников данных и наборов данных, представляющих базовые данные отчета.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860415"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953989"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Данные отчета в построителе отчетов Power BI
 

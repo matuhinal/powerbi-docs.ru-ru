@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872814"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282000"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Закрепление плитки на информационной панели из подсистемы вопросов и ответов
 ## <a name="how-to-pin-a-tile-from-qa"></a>Закрепление плитки из вопросов и ответов
@@ -53,7 +53,7 @@ ms.locfileid: "73872814"
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 * При вводе вопроса подсистема вопросов и ответов немедленно начинает поиск лучшего ответа по всем наборам данных, связанным с текущей панелью мониторинга.  Текущей считается панель мониторинга, указанная в области навигации сверху. Например, этот вопрос можно задать на информационной панели **Анализ розничной торговли — пример**, которая является частью рабочей области **mihart**.
 
-  ![строки навигации](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![строки навигации](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Как подсистема вопросов и ответов узнает, какие наборы данных использовать**?  Функция "Вопросы и ответы" имеет доступ ко всем наборам данных, у которых хотя бы одна визуализация прикреплена к этой панели мониторинга.
 
 * **Не видите поле вопроса**? Обратитесь за помощью к администратору. Администратор может отключить функцию "Вопросы и ответы".

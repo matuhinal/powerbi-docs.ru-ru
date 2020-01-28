@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/23/2019
-ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/21/2020
+ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873938"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540574"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Требования к оборудованию и программному обеспечению для установки сервера отчетов Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "73873938"
 | Память |**Минимальные требования** 1 ГБ<br/><br/> **Рекомендуемые требования** Не менее 4 ГБ |
 | Скорость процессора |**Минимум:** 64-битный процессор с тактовой частотой 1,4 ГГц<br/><br/> **Рекомендуемые требования** 2,0 ГГц или выше |
 | Тип процессора |64-битный процессор: AMD Opteron, AMD Athlon 64, Intel Xeon с поддержкой технологии Intel EM64T, Intel Pentium IV с поддержкой технологии EM64T |
-| Операционная система |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Домашняя<br><br>Windows 10 Профессиональная<br><br>Windows 10 Корпоративная<br><br>Windows 8.1<br><br>Windows 8.1 Профессиональная<br><br>Windows 8.1 Корпоративная<br><br>Windows 8<br><br>Windows 8 Профессиональная<br><br>Windows 8 Корпоративная |
+| Операционная система |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Домашняя<br><br>Windows 10 Профессиональная<br><br>Windows 10 Корпоративная<br><br>Windows 8.1<br><br>Windows 8.1 Профессиональная<br><br>Windows 8.1 Корпоративная<br><br>Windows 8<br><br>Windows 8 Профессиональная<br><br>Windows 8 Корпоративная |
 
 > [!NOTE]
 > Установка сервера отчетов Power BI поддерживается только на процессорах x64.
@@ -38,10 +38,11 @@ ms.locfileid: "73873938"
 
 Для размещения базы данных сервера отчетов используется SQL Server. Экземпляр ядра СУБД SQL Server может быть локальным или удаленным. Вот поддерживаемые версии ядра СУБД SQL Server, которые могут использоваться для размещения баз данных сервера отчетов:
 
+* SQL Server 2019
 * SQL Server 2017;
 * SQL Server 2016;
 * SQL Server 2014;
-* SQL Server 2012;
+* SQL Server 2012
 
 Когда вы создаете базу данных сервера отчетов на удаленном компьютере, следует настроить для подключения учетную запись пользователя домена или учетную запись службы с сетевым доступом. Если вы решите использовать удаленный экземпляр SQL Server, хорошо подумайте, какие учетные данные сервера отчетов следует использовать для подключения к экземпляру SQL Server. Дополнительные сведения см. в статье [Настройка соединения с базой данных сервера отчетов (собственный режим)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 

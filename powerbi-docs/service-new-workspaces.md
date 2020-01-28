@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622422"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925675"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Организация работы в новых рабочих областях в Power BI
 
@@ -124,6 +124,10 @@ Power BI проверяет следующие действия на налич�
 | Обновлен доступ к папке Power BI| UpdateFolderAccess |
 
 Дополнительные сведения [об аудите в Power BI](service-admin-auditing.md).
+
+## <a name="guest-users"></a>Гостевые пользователи
+
+По умолчанию [гостевые пользователи Azure AD B2B](service-admin-azure-ad-b2b.md) не могут получить доступ к рабочим областям. Администратор Power BI может [разрешить внешним гостевым пользователям изменять и контролировать содержимое в вашей организации](service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content). Включенные гостевые пользователи могут получать доступ к рабочим областям, на которые у них есть разрешение.
 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 

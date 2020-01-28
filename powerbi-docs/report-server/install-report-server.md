@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/26/2019
-ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565769"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160611"
 ---
 # <a name="install-power-bi-report-server"></a>Установить сервер отчетов Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "74565769"
 
 ![Параметры Premium](../report-server/media/install-report-server/pbirs-product-key.png "Ключ Сервера отчетов Power BI в параметрах версии Premium")
 
-Нажмите **Ключ сервера отчетов Power**, и появится диалоговое окно с вашим ключом продукта. Вы можете скопировать его и использовать при установке.
+Выберите **Ключ сервера отчетов Power BI**, и появится диалоговое окно с вашим ключом продукта. Вы можете скопировать его и использовать при установке.
 
 ![Ключ продукта](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Ключ продукта сервера отчетов Power BI")
 
@@ -146,6 +146,7 @@ ms.locfileid: "74565769"
 * Чтобы настроить интеграцию со службой Power BI и иметь возможность закреплять элементы отчета на панели мониторинга Power BI, см. статью об [интеграции со службой Power BI](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager).
 * Чтобы настроить электронную почту для обработки подписок, см. статьи о [параметрах электронной почты](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) и [доставке электронной почты на сервере отчетов](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
 * Чтобы настроить веб-портал и иметь возможность открывать его на компьютере отчетов для просмотра отчетов и управления ими, см. статьи о [настройке брандмауэра для доступа к серверу отчетов](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) и [настройке сервера отчетов для удаленного администрирования](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
+* Дополнительные сведения о настройке системных свойств сервера отчетов в SQL Server Management Studio см. в статье [Свойства сервера (страница "Дополнительно") — службы Reporting Services](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services). Если не указано иное, параметры применяются как к Серверу отчетов Power BI, так и к SQL Server Reporting Services.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
