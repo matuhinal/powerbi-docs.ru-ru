@@ -7,20 +7,25 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 01/17/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ad7e2133d531abcbb2165dc2be9846a6a70f4fc0
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862722"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537440"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Включение предварительных версий функций Power BI
 ## <a name="what-are-preview-features"></a>Что собой представляют *предварительные версии функций*?
 В рамках улучшения службы Power BI мы выпускаем некоторые новые функции в виде *предварительных версий*. Чтобы опробовать предварительные версии функций, вы можете включать и отключать их.
 
+Некоторые функции предварительной версии можно включать и отключать на панели мониторинга Power BI, на главной странице или прямо в отчете.
+
+   ![Переключатель нового вида](./media/end-user-preview-features/power-bi-toggle.png)
+
+Другие функции предварительной версии доступны в меню *Параметры*. В этой статье описывается, как получить доступ к функциям предварительной версии через меню "Параметры".
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Поиск предварительных версий, их включение и отключение
 1. Откройте меню "Параметры", щелкнув значок шестеренки в правом верхнем углу окна Power BI и выбрав пункт **Параметры**.

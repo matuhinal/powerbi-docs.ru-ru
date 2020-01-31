@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874178"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540597"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
@@ -121,8 +121,8 @@ ms.locfileid: "73874178"
 | База данных SQL Server |Нет |Нет |Да |Да |
 | Службы SQL Server Analysis Services |Нет |Нет |Да |Да |
 | Интернет |Да |Нет |Да |Да |
-| База данных SQL Azure |Нет |Нет |Да |Нет |
-| Хранилище данных SQL Azure |Нет |Нет |Да |Нет |
+| База данных SQL Azure |Нет |Нет |Да |Нет |
+| Хранилище данных SQL Azure |Нет |Нет |Да |Нет |
 | Active Directory |Нет |Нет |Да |Да |
 | Amazon Redshift |Нет |Нет |Нет |Нет |
 | Хранилище BLOB-объектов Azure |Да |Да |Нет |Нет |
@@ -198,16 +198,16 @@ ms.locfileid: "73874178"
 | --- | --- | --- | --- | --- | --- |
 | База данных SQL Server |Нет |Нет |Да |Да |Да |
 | Службы SQL Server Analysis Services |Нет |Нет |Да |Да |Да |
-| База данных SQL Azure |Нет |Нет |Да |Нет |Нет |
-| Хранилище данных SQL Azure |Нет |Нет |Да |Нет |Нет |
+| База данных SQL Azure |Нет |Нет |Да |Нет |Нет |
+| Хранилище данных SQL Azure |Нет |Нет |Да |Нет |Нет |
 | База данных Oracle |Нет |Нет |Да |Да |Да |
 | Сервер SAP Business Warehouse |Нет |Нет |Да |Нет |Нет |
-| База данных SAP HANA |Нет |Нет |Да |Да |Нет |
+| База данных SAP HANA |Нет |Нет |Да |Да |Да** |
 | Teradata |Нет |Нет |Да |Да |Да |
 
+** SAP HANA поддерживает DirectQuery со встроенной проверкой подлинности Windows только при использовании в качестве реляционной базы данных в опубликованном файле Power BI Desktop (PBIX).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Подключившись к источнику данных, воспользуйтесь содержащимися в нем данными, чтобы [создать отчет Power BI](quickstart-create-powerbi-report.md).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

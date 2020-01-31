@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
+ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760579"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76309106"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Создание связей модели в Power BI Desktop
 
@@ -227,4 +227,6 @@ _Однонаправленная_ кроссфильтрация означае
 
 - [Общие сведения о схеме типа "звезда" и ее значении в Power BI](guidance/star-schema.md)
 - [Руководство по связи "многие ко многим"](guidance/relationships-many-to-many.md)
+- Видео. [Рекомендации и запреты при использовании связей в Power BI](https://youtu.be/78d6mwR8GtA)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)

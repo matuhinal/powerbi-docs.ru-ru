@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042125"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539907"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Руководство. Внедрение визуального элемента Power Apps в отчет Power BI
 
 В этом учебнике вы используете визуальный элемент Power Apps для создания приложения, внедряемого в пример отчета Power BI. Это приложение взаимодействует с другими визуальными элементами отчета.
 
-Если у вас нет подписки на Power Apps, перед началом работы [создайте бесплатную учетную запись](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps).
+Если у вас нет подписки на Power Apps, перед началом работы [создайте бесплатную учетную запись](https://web.powerapps.com/signup?redirect=marketing&email=).
 
 Из этого руководства вы узнаете, как выполнять следующие задачи:
 > [!div class="checklist"]
@@ -33,12 +33,12 @@ ms.locfileid: "76042125"
 
 * Браузер [Google Chrome](https://www.google.com/chrome/browser/) или [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
 * [Подписка на Power BI](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi) с установленным [примером "Анализ возможностей"](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)
-* Умение [создавать приложения в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md) и [изменять отчеты Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* Умение [создавать приложения в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) и [изменять отчеты Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
 
 
 
 ## <a name="create-a-new-app"></a>Создание приложения
-При добавлении визуального элемента Power Apps в отчет, выполняется запуск Power Apps Studio с активным подключением данных между Power Apps и Power BI.
+При добавлении визуального элемента Power Apps в отчет выполняется запуск Power Apps Studio с активным подключением данных между Power Apps и Power BI.
 
 1. Откройте отчет "Анализ возможностей — пример" и выберите вкладку *Upcoming Opportunities* (Предстоящие возможные сделки). 
 
@@ -49,7 +49,7 @@ ms.locfileid: "76042125"
 
 2. Щелкните значок Power Apps в области "Визуализации", после чего измените размер визуального элемента в соответствии с заданной областью.
 
-    ![Область "Визуализации" с выбранным значком PowerApps](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
+    ![Область "Визуализации" с выбранным значком Power Apps](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
 3. В области **Поля** выберите **Name** (Название), **Product Code** (Код продукта) и **Sales Stage** (Этап продаж). 
 

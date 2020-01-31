@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/07/2019
+ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622353"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538274"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Удаленная настройка приложения Power BI с помощью средства управления мобильными устройствами (MDM)
 
@@ -21,8 +21,9 @@ ms.locfileid: "75622353"
 
 Приложение Power BI Mobile поддерживает следующие сценарии конфигурации:
 
-- Конфигурация сервера отчетов (IOS и Android)
-- Параметры защиты данных (iOS)
+* Конфигурация сервера отчетов (IOS и Android)
+* Параметры защиты данных (iOS и Android)
+* Параметры взаимодействия (Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Конфигурация сервера отчетов (IOS и Android)
 
@@ -37,11 +38,21 @@ ms.locfileid: "75622353"
 
 ## <a name="data-protection-settings-ios"></a>Параметры защиты данных (iOS)
 
-Приложение Power BI для iOS позволяет администраторам настроить конфигурацию по умолчанию для параметров безопасности и конфиденциальности. Вы можете заставить пользователей предоставить их Face ID, Touch ID или секретный код при доступе к приложению Power BI.
+Приложение Power BI для iOS и Android позволяет администраторам настроить конфигурацию по умолчанию для параметров безопасности и конфиденциальности. Вы можете заставить пользователей предоставить их Face ID, Touch ID или секретный код при доступе к приложению Power BI.
 
 | Ключ | Тип | Описание |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Логический | По умолчанию используется значение False. <br><br>Пользователям для доступа к приложению на устройстве могут потребоваться биометрические данные, такие как TouchID или FaceID. При необходимости биометрические данные используются в дополнение к проверке подлинности.<br><br>При использовании политик защиты приложений корпорация Майкрософт рекомендует отключить этот параметр, чтобы предотвратить двойной запрос доступа. |
+
+## <a name="interaction-settings-android"></a>Параметры взаимодействия (Android)
+
+Приложение Power BI для Android позволяет администраторам настроить параметры взаимодействия, если необходимо изменить параметры по умолчанию для определенных групп пользователей в организации. 
+
+| Ключ | Тип | Значения | Описание |
+|---|---|---|---|
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Строка |  <nobr>одиночное касание</nobr><br><nobr>двойное касание</nobr> | Настройка выбора точки данных при касании визуального элемента. |
+| ccom.microsoft.powerbi.mobile.RefreshAction | Строка |  <nobr>потяните, чтобы обновить</nobr><br>. | Настройка обновления отчета с помощью кнопки или функции "Потяните, чтобы обновить". |
+| com.microsoft.powerbi.mobile.FooterAppearance | Строка |  закреплено<br>Динамический | Настройка закрепления колонтитула внизу отчета или его автоматического скрытия. |
 
 ## <a name="deploying-app-configuration-settings"></a>Развертывание параметров конфигурации приложения
 

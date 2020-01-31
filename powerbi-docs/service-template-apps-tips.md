@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622462"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710129"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -134,6 +134,17 @@ ms.locfileid: "75622462"
 * Перед отправкой PBIX в рабочую область шаблона убедитесь в том, что все ненужные подключения выгружены.
 * Следуйте[рекомендациям по проектированию отчетов и визуальных элементов](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) в Power BI, чтобы добиться максимального влияния на пользователей и получить одобрение для распространения приложения.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>Создание ссылки для скачивания приложения
+
+После публикации приложения-шаблона в AppSource можно создать ссылку для скачивания с веб-сайта в одно из следующих мест:
+* страница скачивания AppSource — является общедоступной; получить ссылку можно со своей страницы AppSource;
+* Power BI — доступно для просмотра пользователю Power BI.
+
+Пример перенаправления пользователя на ссылку для скачивания приложения в Power BI: [репозиторий GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+[![Ссылка для скачивания приложения](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>Известные ограничения
 

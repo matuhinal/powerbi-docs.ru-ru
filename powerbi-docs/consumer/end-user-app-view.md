@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73851289"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537618"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
 
@@ -48,12 +48,13 @@ ms.locfileid: "73851289"
 1. Выберите **Приложения**  > **Получить приложения**. 
    
     ![Значок Get apps (Получить приложения)](./media/end-user-app-view/power-bi-get-app2.png)    
-2. Вы можете выполнить поиск в AppSource в разделе **Моя организация**, чтобы сократить количество результатов и найти необходимое приложение.
+2. Выполните поиск в AppSource в разделе **Моя организация**, чтобы сократить количество результатов и найти необходимое приложение.
    
     ![AppSource в разделе My organization (Моя организация)](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. Выберите **Получить**, чтобы добавить его в список "Приложения". 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Получение приложения с веб-сайта Microsoft AppSource (https://appsource.microsoft.com) )
+## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Получение приложения с веб-сайта Microsoft AppSource 
+
 В этом примере мы откроем один из примеров приложений Майкрософт. В AppSource доступны приложения для многих служб, которые вы используете для своей работы.  Это такие службы, как Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo и многие другие. Дополнительные сведения см. в статье [Подключение к используемым службам с помощью Power BI](../service-connect-to-services.md). 
 
 1. В браузере откройте https://appsource.microsoft.com и выберите **Приложения Power BI**.
@@ -92,12 +93,36 @@ ms.locfileid: "73851289"
     ![Исследование с использованием примеров данных](./media/end-user-apps/power-bi-new-app.png)
 
 
-
-
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Взаимодействие с панелями мониторинга и отчетами в приложении
 Изучите данные на панелях мониторинга и в отчетах, входящих в состав приложения. Вам доступны все стандартные возможности взаимодействия Power BI, такие как фильтрация, выделение, сортировка и детализация.  Все еще немного путаете панели мониторинга и отчеты?  Прочите [статью о панелях мониторинга](end-user-dashboards.md) и [статью об отчетах](end-user-reports.md).  
 
+## <a name="update-an-app"></a>Обновление приложения 
 
+Время от времени создатели приложений могут выпускать их новые версии. Способ получения новой версии зависит от того, как была получена исходная версия. 
+
+* Если вы получили приложение от своей организации, обновление до новой версии происходит автоматически — вам ничего делать не нужно. 
+
+* Если вы получили приложение из AppSource, при следующем его открытии вы увидите баннер с уведомлением. В нем сообщается о доступности новой версии. 
+
+    1. Чтобы произвести обновление, нажмите **Получить**.  
+
+        <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
+
+    2. Когда будет предложено установить обновленное приложение, нажмите **Установить**. 
+
+        ![Установка обновления](./media/end-user-app-view/power-bi-install.png) 
+
+    3. Так как у вас уже есть версия этого приложения, решите, нужно ли заменить существующую версию или установить обновленное приложение в новой рабочей области.   
+
+        ![Перезапись старой версии приложения](./media/end-user-app-view/power-bi-already-installed.png) 
+
+
+    > [!NOTE] 
+    > При установке новой версии все изменения, внесенные в отчеты и панели мониторинга, перезаписываются. Чтобы сохранить измененные отчеты и панели мониторинга, можно сохранить их с другими именами или в другом месте перед установкой. 
+
+    4. После установки новой версии выберите **Обновить приложение**, чтобы завершить процесс обновления. 
+
+    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

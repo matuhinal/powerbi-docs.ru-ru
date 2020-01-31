@@ -1,22 +1,22 @@
 ---
 title: Интеграция мобильного приложения Power BI с командами Siri
 description: Сведения об использовании ярлыков Siri для прямого доступа к нужному содержимому Power BI.
-author: KesemSharabi
-manager: mshenhav
+author: paulinbar
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/03/2019
-ms.author: michalfo
-ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.date: 01/15/2020
+ms.author: painbar
+ms.openlocfilehash: e5df11f6321481e95718ddda39dca300079277a1
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73783541"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537998"
 ---
-# <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Использование ярлыков Siri в приложении Power BI Mobile для iOS (предварительная версия)
+# <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app"></a>Использование ярлыков Siri в приложении Power BI Mobile для iOS
 
 Использование ярлыков Siri для прямого доступа к нужному содержимому Power BI
 

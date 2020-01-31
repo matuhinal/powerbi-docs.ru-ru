@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866427"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709777"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Проверка производительности элементов отчета с помощью Анализатора производительности
 
@@ -58,6 +58,9 @@ ms.locfileid: "73866427"
 * **Визуальное отображение** — время, необходимое для отрисовки визуального элемента на экране, включая время на получение веб-изображений или геокодирования. 
 * **Другие** — время, необходимое визуальному элементу для подготовки запросов, ожидания завершения отображения других визуальных элементов или выполнения других операций фоновой обработки.
 
+Значения **Длительность (мс)** показывают разницу между метками времени *начала* и *завершения* каждой операции. Большинство операций с холстом и визуальными элементами выполняются последовательно в одном потоке пользовательского интерфейса, который используется совместно несколькими операциями. В значение длительности включается время, потраченное в очереди, пока выполнялись другие операции. В [примере анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) в GitHub и [документации](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) по нему представлены подробные сведения о том, как визуальные элементы запрашивают данные и как они отрисовываются.
+
+
 ![Элементы данных журнала](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 После взаимодействия с элементами отчета, которые необходимо измерить с помощью Анализатора производительности, можно нажать кнопку **Остановить**. После того как вы выбрали **Остановить**, сведения о производительности остаются в области, чтобы вы смогли их проанализировать.
@@ -89,3 +92,7 @@ ms.locfileid: "73866427"
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)   
 
+Сведения о примере анализатора производительности см. в следующих ресурсах.
+
+* [Пример анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [Документация по примеру анализатора производительности](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

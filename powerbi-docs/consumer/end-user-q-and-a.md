@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218252"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709794"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Функция "Вопросы и ответы" для **потребителей** Power BI
+# <a name="qa-for-power-bi-consumers"></a>Функция "Вопросы и ответы" для потребителей Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ ms.locfileid: "75218252"
 **Ответ.** Выберите этот параметр, чтобы связаться с владельцем отчета или панели мониторинга. Это можно сделать непосредственно из страницы вопросов и ответов панели мониторинга или из визуального элемента. Вы также можете найти владельца в заголовке Power BI.  Разработчик может выполнить ряд действий для улучшения результатов функции "Вопросы и ответы". Например, он может переименовать столбцы в наборе данных для использования терминов, которые легко распознаются (`CustomerFirstName` вместо `CustFN`). Так как разработчик действительно хорошо знает набор данных, он может добавить полезные вопросы к предлагаемым вопросам раздела "Вопросы и ответы".
 
 ![Отображение контактных данных](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>Конфиденциальность
+
+Корпорация Майкрософт может использовать ваши вопросы для улучшения Power BI. Дополнительные сведения см. в [заявлении о конфиденциальности Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Сведения о том, как создатель *отчетов* может создать визуальный элемент и управлять им, см. в разделе [Тип визуального элемента "Вопросы и ответы"](../visuals/power-bi-visualization-q-and-a.md).

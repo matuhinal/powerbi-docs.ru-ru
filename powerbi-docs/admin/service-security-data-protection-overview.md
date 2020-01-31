@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73766396"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537216"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Защита данных в Power BI (предварительная версия)
 
@@ -99,13 +99,13 @@ ms.locfileid: "73766396"
 * Метки конфиденциальности можно применять только к панелям мониторинга, отчетам, наборам и потокам данных.
 * При экспорте метки и элементы управления защитой поддерживаются только для файлов в формате Excel, PowerPoint и PDF. Метки и элементы управления защитой не применяются при экспорте данных в CSV-файлы, оформлении подписки на электронную почту, внедрении визуальных элементов и печати.
 * Пользователь, экспортирующий файл из Power BI, должен иметь разрешения на доступ к соответствующему файлу и его редактирование в соответствии с параметрами метки конфиденциальности. Пользователь, экспортирующий данные, не получает разрешения владельца файла. 
-* На данный момент не поддерживаются метки конфиденциальности для [отчетов с разбивкой на страницы]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) и рабочих книг. 
-* Кроме того, на данный момент не допускается удаление метки, примененной к ресурсу Power BI.
+* На данный момент не поддерживаются метки конфиденциальности для [отчетов с разбивкой на страницы]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) и рабочих книг.
 * Метки конфиденциальности ресурсов Power BI отображаются только в представлениях списка рабочей области и происхождения. На данный момент метки не видны в представлениях "Избранное", "Мне предоставлен доступ", "Недавние" и "Приложения". Тем не менее, следует помнить, что примененная к ресурсу Power BI метка, даже если она не отображается, всегда сохраняется вместе с данными, экспортируемыми в файлы формата Excel, PowerPoint и PDF.
 * Параметр *шифрования файла* для метки конфиденциальности, настраиваемый в [центре безопасности Microsoft 365](https://security.microsoft.com/) или в [центре соответствия требованиям Microsoft 365](https://compliance.microsoft.com/), применяется только к файлам *экспортируемым из* Power BI, и не действует *в среде* Power BI.
 * Для меток, примененных в Power BI, не поддерживается защита с использованием [функции хранения собственных ключей (HYOK)](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions).
 * Для просмотра и применения меток в приложениях Office [требуются соответствующие лицензии](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Метки конфиденциальности поддерживаются только для клиентов в глобальном (общедоступном) облаке. Метки конфиденциальности не поддерживаются для клиентов в облаках других видов.
+* Метки конфиденциальности не поддерживаются для [внешних пользователей (гостевых пользователей Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md). Это означает, что внешние пользователи не могут просматривать метки и экспортировать данные в файлы Excel, PDF и PPTX. [Удалите метку](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels), чтобы разрешить внешним пользователям экспортировать данные в эти типы файлов.
 
 
 
@@ -116,3 +116,4 @@ ms.locfileid: "73766396"
 * [Активация меток конфиденциальности данных в Power BI](service-security-enable-data-sensitivity-labels.md)
 * [Применение меток конфиденциальности данных в Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
 * [Использование элементов управления Microsoft Cloud App Security в Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Отчет о метриках защиты данных](service-security-data-protection-metrics-report.md)

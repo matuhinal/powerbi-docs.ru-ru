@@ -7,19 +7,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 002ddeac915b2b2b67570e8b4078a175de09aaef
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870631"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538205"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Фильтрация отчета по географическому расположению в мобильных приложениях Power BI
-Область применения:
+Применяется к:
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |
-| iPhone |iPad |Телефоны под управлением Android |Телефоны под управлением Windows 10 |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows Phone](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |:--- |
+| iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Телефоны под управлением Windows 10 |
 
 Отображается ли маленький значок канцелярской кнопки в правом верхнем углу экрана при просмотре отчета Power BI на мобильном устройстве? Если да, этот отчет можно отфильтровать по географическому расположению.
 
@@ -42,7 +42,7 @@ ms.locfileid: "73870631"
 * Вы находитесь в одном из расположений, данные о котором содержит этот столбец.
 * Вы используете один из следующих мобильных устройств:
   * iOS (iPad, iPhone, iPod);
-  * Телефон с Android.
+  * Android (телефоны, планшеты).
   * телефоны под управлением Windows 10 (другие устройства под управлением Windows 10, например планшеты и ПК, не поддерживают фильтрацию географических данных).
 
 Дополнительные сведения о настройке фильтрации по географическим объектам в Power BI Desktop см. [здесь](../../desktop-mobile-geofiltering.md).

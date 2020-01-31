@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 1/16/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791664"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537561"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Экспорт отчетов из Power BI в формат PDF
 
@@ -63,6 +63,7 @@ ms.locfileid: "74791664"
 * При выборе варианта **Текущие значения** для экспорта фильтры URL-адресов в настоящее время не учитываются.
 * Отчеты с нестандартными настраиваемыми размерами страниц могут вызывать проблемы при экспорте. Для получения наилучших результатов рекомендуется переключиться на стандартный размер страницы для отчета.
 * При экспорте в PDF в отчетах, в которых применяются темы с пользовательскими шрифтами, пользовательские шрифты заменяются шрифтом по умолчанию.
+* Хотя мы стремимся обеспечить согласованность, мы не можем гарантировать, что PDF-файл, экспортированный из службы Power BI, всегда будет соответствовать PDF-файлу, экспортированному из локального файла Power BI Desktop.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Печать отчета](end-user-print.md)
