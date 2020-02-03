@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a07a3e6e1086c463e0f0c8911d7a9b6ce89aa115
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223413"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913647"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -409,8 +409,8 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
 Создав выделенную емкость, вы получите преимущество выделенного ресурса для клиента. Можно использовать два типа емкости.
-* **Power BI Premium** — это подписка Office 356 уровня клиента, доступная в двух семействах SKU: *EM* и *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Сто такое Power BI Premium?](../service-premium-what-is.md).
-* **Azure Power BI Embedded** — вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
+* **Power BI Premium** — это подписка Office 356 уровня клиента, доступная в двух семействах SKU: *EM* и *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../service-premium-what-is.md).
+* **Azure Power BI Embedded** — вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 > [!NOTE]
 > С номерами SKU A вы не можете получить доступ к содержимому Power BI с бесплатной лицензией Power BI.
 

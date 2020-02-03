@@ -1,20 +1,20 @@
 ---
 title: Общие сведения об использовании средств диаграмм в визуальном элементе Power BI
 description: В этой статье описывается использование средств диаграмм для рисования осей и условных обозначений в визуальном элементе Power BI.
-author: vtkalek
-ms.author: asander
-manager: asander
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e67b37f73b3cea097a296f313fbfc8922b7dd945
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: e87235232860897765ef95bf0ec865410adf8fd1
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308578"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819498"
 ---
 # <a name="chart-utils"></a>Инструменты для диаграмм
 

@@ -1,19 +1,19 @@
 ---
 title: События отрисовки в визуальных элементах Power BI
 description: Визуальные элементы Power BI могут уведомлять Power BI о том, что они готовы к экспорту в PowerPoint или PDF.
-author: Yarovinsky
-ms.author: alexyar
-ms.reviewer: sranins
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 261987a199af68611792367f514bef60dd584db8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 873968a89a230171d8fecba81a7d528767ee7077
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880127"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819153"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>События отрисовки в визуальных элементах Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "73880127"
 
 Если во время этого процесса возникает проблема, визуальный элемент Power BI не отрисовывается. Код визуального элемента Power BI должен вызывать метод `renderingFailed`, уведомляющий прослушиватели о том, что процесс отрисовки не завершен. Этот метод также предоставляет необязательную строку, указывающую на причину сбоя.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Использование
 
 ```typescript
 export interface IVisualHost extends extensibility.IVisualHost {

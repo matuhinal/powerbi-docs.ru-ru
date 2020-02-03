@@ -1,19 +1,19 @@
 ---
 title: Принудительная отправка данных в набор данных
 description: Принудительная отправка данных набор данных Power BI
-author: rkarlin
-ms.author: rkarlin
-ms.reviewer: madia
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ceebf32f62395db8741eaf43cfc494652fbbbf98
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875449"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818808"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 
@@ -26,8 +26,8 @@ API Power BI позволяет принудительно отправлять
 * Шаг 1. [Регистрация приложения в Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 * Шаг 2. [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)
 * Шаг 3. [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)
-* Шаг 4. [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)
-* Шаг 5. [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)
+* Шаг 4. [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)
+* Шаг 5. [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)
 
 В следующем разделе приводятся общие сведения об операциях API Power BI для отправки данных.
 

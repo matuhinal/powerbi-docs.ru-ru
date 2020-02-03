@@ -1,20 +1,20 @@
 ---
 title: Общие сведения об использовании средств форматирования в визуальном элементе Power BI
 description: В этой статье описывается использование средств форматирования для форматирования значений и применения к ним локализации в визуальном элементе Power BI.
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 425a872c395df1b69297ae799e7059de687f8fb0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 9ae7e4b976cef2217c3742ef808a9a7063695cbc
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700347"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819475"
 ---
 # <a name="formatting-utils"></a>Инструменты форматирования
 

@@ -32,6 +32,8 @@
               href: relationships-many-to-many.md
             - name: Особенности модели DirectQuery
               href: directquery-model-guidance.md
+            - name: Рекомендации по разработке составной модели
+              href: composite-model-guidance.md
         - name: DAX
           items:
             - name: Функция DIVIDE и оператор деления (/)
@@ -50,8 +52,6 @@
               href: dax-column-measure-references.md
             - name: Предотвращение использования FILTER в качестве аргумента фильтра
               href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Создание отчета
-          items:
             - name: Добавление подсказок в виде страниц отчета в визуальные элементы
               href: report-page-tooltips.md
             - name: Использование детализации страницы отчета
@@ -64,6 +64,10 @@
               href: report-paginated-blank-page.md
             - name: "Миграция отчетов SSRS в Power\_BI"
               href: migrate-ssrs-reports-to-power-bi.md
+        - name: Администрирование и развертывание
+          items:
+            - name: Размеры для локальных шлюзов данных
+              href: gateway-onprem-sizing.md
     - name: Технические документы
       items:
         - name: Обзор технической документации
