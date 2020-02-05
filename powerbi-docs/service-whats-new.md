@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265338"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
@@ -353,7 +353,7 @@ ms.locfileid: "74265338"
 
 * Автозавершение для слова "является": функция "Вопросы и ответы" будет предлагать значения, если ввести имя столбца, а затем добавить "является".
 
-***Мобильные службы***
+***Мобильная***
 
 * КПЭ для часов Apple: отслеживание плиток КПЭ и карточек без необходимости открывать приложение Power BI.
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
 ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75000096"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
@@ -76,7 +76,7 @@ ms.locfileid: "75000096"
 Существует три типа коммерческих логотипов:
 * **Логотип** — состоит из двух связанных элементов: значка и названия организации.
 
-    ![Логотип Майкрософт](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Логотип корпорации Майкрософт](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **Символ** — значок без какого-либо текста.
 
@@ -117,7 +117,7 @@ ms.locfileid: "75000096"
 |*Ширина логотипа*    |До 240 пикселей         |Более 240 пикселей         |
 |*Высота логотипа*     |До 160 пикселей         |Более 160 пикселей         |
 |*Размер ограничивающего прямоугольника*     |40 x 15 пикселей         |101 x 30 пикселей         |
-|*Пример коммерческого логотипа*     |![Символ Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Логотип Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Пример коммерческого логотипа*     |![Символ Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Логотип корпорации Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
 |*Пример ограничивающего прямоугольника*    |![пример малого логотипа](media/guidelines-powerbi-visuals/small-logo-box.png)         |![пример крупного логотипа](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
@@ -160,7 +160,7 @@ ms.locfileid: "75000096"
 
 Для удобства пользователей добавьте поля для лицензионного ключа или токена в верхней части области форматирования.
 
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+## <a name="faq"></a>Часто задаваемые вопросы
 
 Дополнительные сведения о визуальных элементах Power BI см. в разделе [Часто задаваемые вопросы о визуальных элементах Power BI с дополнительными покупками](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999843"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Визуальные элементы организации в Power BI
@@ -57,7 +57,7 @@ ms.locfileid: "74999843"
 
 Сведения об устранении неполадок: [Устранение неполадок с визуализациями Power BI](power-bi-custom-visuals-troubleshoot.md).
 
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+## <a name="faq"></a>Часто задаваемые вопросы
 
 Дополнительные сведения и ответы на вопросы: [Часто задаваемые вопросы о визуализациях Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75762285"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Общие сведения о визуальных элементах "Вопросы и ответы" в Power BI
@@ -41,7 +41,7 @@ ms.locfileid: "75762285"
 
 1. В верхнем левом разделе меню Power BI Desktop выберите пункты **Файл** > **Открыть**.
    
-2. Найдите копию **PBIX-файла с образцом "Продажи и маркетинг"**.
+2. Найдите копию **PBIX-файла с образцом "Продажи и маркетинг"** .
 
 1. Открытие файла в представлении отчета ![Снимок экрана: значок представления отчета.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 

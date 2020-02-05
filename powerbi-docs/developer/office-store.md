@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/02/2019
 ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999923"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Публикация визуализаций Power BI в Центре партнеров
@@ -51,7 +51,7 @@ ms.locfileid: "74999923"
 * description;
 * supportUrl;
 * автор
-* имя
+* name
 * электронная почта
 
 Вложите в сообщение **PBIVIZ-файл** и **пример отчета в формате PBIX**. В ответ команда Power BI предоставит вам инструкции и XML-файл с пакетом приложения. Этот XML-файл требуется для отправки визуального элемента через Центр разработчика Office.

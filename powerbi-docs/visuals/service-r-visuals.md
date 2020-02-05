@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75762219"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Создание и использование визуальных элементов R в Power BI
@@ -114,7 +114,7 @@ ms.locfileid: "75762219"
 
 В **Power BI Desktop** можно свободно использовать любой тип пакетов R. Вы можете установить пакеты R для использования в **Power BI Desktop** самостоятельно (например, с помощью [интегрированной среды разработки RStudio](https://www.rstudio.com/)).
 
-Визуальные элементы R в **службе Power BI****поддерживают пакеты**, которые описываются дальше в [этой статье](../service-r-packages-support.md). Если вы не нашли нужный пакет в списке, можно запросить поддержку пакета. Дополнительные сведения о запросе поддержки см. в статье [Пакеты R в службе Power BI](../service-r-packages-support.md).
+Визуальные элементы R в **службе Power BI** **поддерживают пакеты**, которые описываются дальше в [этой статье](../service-r-packages-support.md). Если вы не нашли нужный пакет в списке, можно запросить поддержку пакета. Дополнительные сведения о запросе поддержки см. в статье [Пакеты R в службе Power BI](../service-r-packages-support.md).
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>Требования и ограничения для пакетов R
 Для пакетов R существуют определенные требования и ограничения.

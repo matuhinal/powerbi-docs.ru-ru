@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 30bfacc1024035f0849440eec8b1c7051ff4d82a
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75002450"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Автоматические дата и время в Power BI Desktop
@@ -22,7 +22,7 @@ ms.locfileid: "75002450"
 
 Функция _Автоматические дата и время_ обеспечивает удобную, быструю и простую в использовании логику операций со временем. Авторы отчетов могут работать с логикой операций со временем при фильтрации, группировании и детализации в определенные календарные периоды.
 
-## <a name="considerations"></a>Примечания
+## <a name="considerations"></a>Ограничения
 
 В следующем списке приводятся рекомендации и возможные ограничения, связанные с функцией _Автоматические дата и время_.
 
