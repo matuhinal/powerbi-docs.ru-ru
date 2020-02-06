@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858947"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975017"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -81,7 +81,7 @@ ms.locfileid: "73858947"
 
 См. дополнительные сведения о [создании отчетов Power BI](../desktop-report-view.md).
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>Шаг 4. Сохранение отчета на сервере отчетов
+## <a name="step-4-save-your-report-to-the-report-server"></a>Шаг 4. Сохранение отчета на сервере отчетов
 Когда отчет будет готов, вы сможете сохранить его на сервере отчетов Power BI, который вы выбрали на шаге 2.
 
 1. В меню **Файл** выберите пункт **Сохранить как** > **Сервер отчетов Power BI**.
@@ -90,9 +90,12 @@ ms.locfileid: "73858947"
 2. Теперь вы можете просмотреть отчет на веб-портале.
    
     ![Просмотр отчета в веб-портале](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> Если вы захотите изменить отчет в будущем, на рабочем столе всегда будут представлены данные, кэшированные на момент создания отчета.  Чтобы работать с актуальными данными при редактировании отчета, необходимо обновить данные в приложении Power BI Desktop.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-### <a name="power-bi-desktop"></a>Power BI Desktop
+### <a name="power-bi-desktop"></a>Power BI Desktop
 Существует много отличных ресурсов для создания отчетов в Power BI Desktop. Советуем начать с этих материалов:
 
 * [Начало работы с Power BI Desktop](../desktop-getting-started.md)

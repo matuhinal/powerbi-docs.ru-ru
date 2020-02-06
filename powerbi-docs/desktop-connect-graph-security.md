@@ -11,10 +11,10 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999797"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Подключайтесь к API Microsoft Graph Security в Power BI Desktop
@@ -48,7 +48,7 @@ API Microsoft Graph Security объединяет [несколько решен
 
 1. В Power BI Desktop на вкладке ленты **Главная** выберите **Получить данные** > **Дополнительно**.
 2. В списке категорий в левой части окна выберите **Веб-службы**.
-3. Выберите **Microsoft Graph Security (бета-версия)**.
+3. Выберите **Microsoft Graph Security (бета-версия)** .
 
     ![Диалоговое окно "Получение данных"](media/desktop-connect-graph-security/GetData.PNG)
     
@@ -74,7 +74,7 @@ API Microsoft Graph Security объединяет [несколько решен
     
 9. Если вы хотите выполнить расширенный запрос к API Microsoft Graph Security, выберите **Указать пользовательский URL-адрес Microsoft Graph Security для фильтрации результатов**. Используйте эту функцию, чтобы выполнить запрос [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) к API Microsoft Graph Security с необходимыми разрешениями.
 
-   В следующем примере используется *serviceUri* `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`. Чтобы узнать, как создавать запросы для фильтрации, сортировки или получения последних результатов, обратитесь к разделу [Параметры системных запросов OData](https://docs.microsoft.com/graph/query-parameters).
+   В следующем примере используется `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*. Чтобы узнать, как создавать запросы для фильтрации, сортировки или получения последних результатов, обратитесь к разделу [Параметры системных запросов OData](https://docs.microsoft.com/graph/query-parameters).
 
    ![Пример OdataFeed](media/desktop-connect-graph-security/ODataFeed.PNG)
     

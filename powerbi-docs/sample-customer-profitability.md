@@ -10,10 +10,10 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265548"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Пример "Рентабельность клиента" для Power BI: Узнайте о возможностях
@@ -111,7 +111,7 @@ ms.locfileid: "74265548"
 
     ![Результаты для руководителя Carlos](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. Продолжаем изучение. Если вы найдете что-то интересное, выберите **Закрепить**![Значок закрепления](media/sample-customer-profitability/power-bi-excel-pin.png) в правом верхнем углу, чтобы [закрепить элемент на панели мониторинга](service-dashboard-pin-tile-from-excel.md).
+4. Продолжаем изучение. Если вы найдете что-то интересное, выберите **Закрепить** ![Значок закрепления](media/sample-customer-profitability/power-bi-excel-pin.png) в правом верхнем углу, чтобы [закрепить элемент на панели мониторинга](service-dashboard-pin-tile-from-excel.md).
 
 5. Чтобы вернуться на панель мониторинга, нажмите кнопку со стрелкой назад в браузере.
 
