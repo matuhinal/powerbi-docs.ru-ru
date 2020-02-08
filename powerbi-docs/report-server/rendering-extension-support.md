@@ -1,6 +1,6 @@
 ---
-title: Соответствие модуля подготовки отчетов в формате PDF стандарту ISO 14289-1 — Сервер отчетов Power BI
-description: В этом документе описывается соответствие модуля подготовки отчетов в формате PDF для Сервера отчетов Power BI и SQL Reporting Services спецификациям стандарта ISO 14289-1 (PDF/UA).
+title: Соответствие модуля подготовки отчетов в формате PDF стандарту ISO 14289-1 — Сервер отчетов Power BI и SSRS
+description: В этом документе описывается соответствие модуля подготовки отчетов в формате PDF для Сервера отчетов Power BI и SQL Server Reporting Services спецификациям стандарта ISO 14289-1 (PDF/UA).
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,23 +8,23 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638087"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819521"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>Соответствие модуля подготовки отчетов в формате PDF стандарту ISO 14289-1 — Сервер отчетов Power BI 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Соответствие модуля подготовки отчетов в формате PDF стандарту ISO 14289-1 — Сервер отчетов Power BI и SSRS
 
-Область применения: Сервер отчетов Power BI и SQL Reporting Services
+Применяется к: Сервер отчетов Power BI и SQL Server Reporting Services (SSRS)
 
-В этом документе описывается соответствие модуля подготовки отчетов в формате PDF для Сервера отчетов Power BI и SQL Reporting Services спецификациям стандарта [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
+В этом документе описывается соответствие модуля подготовки отчетов в формате PDF для Сервера отчетов Power BI и SQL Server Reporting Services спецификациям стандарта [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
 
 > [!NOTE]
 > Вы можете сохранить или распечатать этот технический документ, выбрав в браузере элемент **Печать**, а затем **Сохранить как PDF**.
 
-## <a name="1--scope"></a>1.  Область действия
+## <a name="1--scope"></a>1.  Область
 
 Неприменимо
 

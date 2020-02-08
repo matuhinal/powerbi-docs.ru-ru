@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040430"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895521"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Создание визуализаций матрицы в Power BI
 
@@ -41,25 +41,24 @@ ms.locfileid: "76040430"
 
 Что касается итогов и промежуточных итогов, учитывайте, что эти значения основаны на базовых данных, а не только на отображаемых значениях.
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>Развертывание и свертывание заголовков строк
+Заголовки строк можно развернуть двумя способами. Первый — с помощью контекстного меню. Вы увидите команды, позволяющие развернуть заголовок выбранной строки, весь уровень или все содержимое до последнего уровня иерархии. Аналогичные команды также можно использовать для свертывания заголовков строк.
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+К заголовкам строк можно также добавить кнопки +/– в панели форматирования на карточке **Заголовки строк**. По умолчанию значки будут соответствовать форматированию заголовка строки, но при необходимости цвета и размеры значков можно настроить отдельно.
+
+После включения значков они работают аналогично значкам сводной таблицы в Excel.
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+Состояние расширения матрицы будет сохранено вместе с отчетом. Матрицу можно закрепить на панели мониторинга развернутой или свернутой. Если выбран фрагмент панели мониторинга и отчет открывается, развернутое состояние по-прежнему можно изменять в отчете. 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Детализация с помощью визуального элемента "Матрица"
 Визуальный элемент "Матрица" позволяет использовать подробные визуализации, недоступные ранее. Вы можете выполнить детализацию с использованием строк, столбцов и даже отдельных разделов и ячеек. Рассмотрим каждый из вариантов детализации.
 
@@ -183,6 +182,16 @@ Watch the following video to learn more about expand/collapse in the matrix:
 * Копия будет представлять собой еще одну визуализацию матрицы, содержащую только скопированные данные.
 
     ![Снимок экрана: пример результата команды "Копировать визуальный элемент"](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>Задание значения матрицы в качестве настраиваемого URL-адреса
+
+Если у вас есть столбец или мера, содержащие URL-адреса веб-сайтов, вы можете применить условное форматирование, чтобы отображать эти URL-адреса как активные ссылки. Этот параметр можно найти в разделе **Условное форматирование** в области "Форматирование".
+
+![Карточка фильтров с выбранными строками](media/desktop-matrix-visual/power-bi-web-url.png)
+
+Включите параметр **URL-адрес** и выберите поле, которое будет использоваться в качестве URL-адреса для столбца. После применения значения в этом поле (столбце) становятся активными ссылками. Наведите указатель мыши, чтобы увидеть ссылку, и щелкните ее, перейдя к этой странице. 
+
+Дополнительные сведения см. в разделе [Условное форматирование таблицы](../desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Цвет заливки и шрифта с визуальными элементами матрицы
 С помощью визуального элемента "Матрица" можно применить условное форматирование (цвет, заливка, гистограммы) фона для ячеек в матрице, а также условное форматирование текста и значений.

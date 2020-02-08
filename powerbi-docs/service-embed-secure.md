@@ -1,20 +1,20 @@
 ---
 title: Внедрение отчета на защищенный портал или сайт
 description: С помощью функции внедрения Power BI пользователи могут легко и безопасно внедрять отчеты на внутренние веб-порталы.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565760"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913613"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -129,7 +129,11 @@ report.src = newUrl;
 
 * Некоторые браузеры требуют обновить страницу после входа, особенно если используются режимы InPrivate или "аноним".
 
-* Чтобы использовать единый вход, примените параметр "Внедрить в SharePoint Online" или создайте пользовательскую интеграцию на основе метода внедрения [данные принадлежат пользователю](developer/embed-sample-for-your-organization.md). 
+* При использовании неподдерживаемых версий браузера могут возникнуть проблемы. См. [список браузеров](power-bi-browsers.md), поддерживаемых Power BI.
+
+* Классический сервер SharePoint Server не поддерживается, так как для него требуется Internet Explorer версий ниже 11 или нужно включить просмотр в режиме совместимости.
+
+* Чтобы использовать единый вход, примените параметр [Внедрить в SharePoint Online](service-embed-report-spo.md) или создайте пользовательскую интеграцию на основе метода внедрения [данные принадлежат пользователю](developer/embed-sample-for-your-organization.md). 
 
 * Возможность автоматической аутентификации, предоставляемая параметром **Внедрение**, не работает с API JavaScript для Power BI. При работе с API JavaScript для Power BI следует использовать метод внедрения [данные принадлежат пользователю](developer/embed-sample-for-your-organization.md). 
 

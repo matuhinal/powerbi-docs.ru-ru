@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222070"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888369"
 ---
 # <a name="get-power-bi-desktop"></a>Получение Power BI Desktop
 Power BI Desktop дает возможность создавать расширенные запросы, модели и отчеты, визуализирующие данные. С помощью Power BI Desktop можно создавать модели данных, отчеты и совместно использовать данные, публикуя их в службе Power BI. Power BI Desktop можно скачать бесплатно.
@@ -132,6 +132,8 @@ Power BI Desktop дает возможность создавать расшир
 |INSTALLLOCATION     |Путь к файлу, куда он должен быть установлен         |
 |ЯЗЫК     |Код языкового стандарта (например, en-US, de-DE, pr-BR) для принудительного применения языка по умолчанию для приложения. Если язык не указан, в Power BI Desktop используется язык ОС Windows. Этот параметр можно изменить в диалоговом окне **Параметры**.         |
 |REG_SHOWLEADGENDIALOG     |Значение 0 отключает отображение диалогового окна, которое появляется перед входом в Power BI Desktop.         |
+|DISABLE_UPDATE_NOTIFICATION     |Установите значение 1, чтобы отключить уведомления об обновлениях.         |
+
 
 Например, вы можете запустить Power BI Desktop со следующими параметрами для установки без пользовательского интерфейса, используя немецкий язык: 
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d118cae8cd4b6fbd95066b15819b1e798c8bbe0f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: c3ccbe6ad87a813185943845431fa1a859b09a76
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761325"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888438"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Предварительные требования к источникам данных Power BI
 Для каждого поставщика данных Power BI поддерживает конкретную версию поставщика для объектов. Дополнительные сведения об источниках данных, доступных для Power BI, см. в разделе [Источники данных](desktop-data-sources.md). В следующей таблице описаны эти требования.
@@ -28,7 +28,7 @@ ms.locfileid: "75761325"
 | | System.Data.OracleClient (встроенный в .NET Framework) |.Net Framework 3.5 |9.x и более поздних версий |Таблицы и представления |В составе .NET Framework 3.5 или более поздних версий |
 | IBM DB2 |Клиент ADO.Net от IBM (часть пакета драйверов сервера данных IBM) |10.1 |9.1+ |Таблицы и представления |[Ссылка для загрузки](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Соединитель .Net |6.6.5 |5.1 |Таблицы и представления, скалярные функции |[Ссылка для загрузки](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
-| PostgreSQL |Поставщик NPGSQL ADO.NET |2.0.12 |7.4 |Таблицы и представления |[Ссылка для загрузки](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
+| PostgreSQL |Поставщик NPGSQL ADO.NET |2.0.12 |9.4 |Таблицы и представления |[Ссылка для загрузки](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradata |Поставщик данных .NET для Teradata |14+ |12+ |Таблицы и представления |[Ссылка для загрузки](https://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP Sybase SQL Anywhere |iAnywhere.Data.SQLAnywhere для .NET 3.5 |16+ |16+ |Таблицы и представления |[Ссылка для загрузки](https://go.microsoft.com/fwlink/?linkid=324846) |
 

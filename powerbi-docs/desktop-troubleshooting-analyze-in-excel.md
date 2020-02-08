@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865760"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889312"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Устранение неполадок с анализом в Excel
 
@@ -105,5 +105,4 @@ ms.locfileid: "73865760"
 
 [Добавление данных листа в модель данных с помощью связанной таблицы](https://support.office.com/article/Add-worksheet-data-to-a-Data-Model-using-a-linked-table-d3665fc3-99b0-479d-ba09-a37640f5be42)
 
-[Различия между сводными таблицами OLAP и не-OLAP в Excel](https://support.microsoft.com/kb/234700)
 

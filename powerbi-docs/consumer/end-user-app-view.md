@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537618"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819268"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
 
@@ -57,7 +57,7 @@ ms.locfileid: "76537618"
 
 В этом примере мы откроем один из примеров приложений Майкрософт. В AppSource доступны приложения для многих служб, которые вы используете для своей работы.  Это такие службы, как Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo и многие другие. Дополнительные сведения см. в статье [Подключение к используемым службам с помощью Power BI](../service-connect-to-services.md). 
 
-1. В браузере откройте https://appsource.microsoft.com и выберите **Приложения Power BI**.
+1. В браузере откройте [https://appsource.microsoft.com](https://appsource.microsoft.com) и выберите **Приложения Power BI**.
 
     ![Веб-сайт AppSource с выбранными приложениями Power BI  ](./media/end-user-apps/power-bi-appsource.png)
 
