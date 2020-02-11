@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/16/2020
-ms.author: mblythe
+ms.date: 02/03/2020
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036683"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Руководство. Внедрение визуального элемента Power Apps в отчет Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "76539907"
 
 Из этого руководства вы узнаете, как выполнять следующие задачи:
 > [!div class="checklist"]
-> * Как добавлять визуальный элемент Power Apps в отчет Power BI
+> * Добавление визуального элемента Power Apps в отчет Power BI
 > * Взаимодействие с Power Apps для создания нового приложения, использующего данные из отчета Power BI
 > * Просмотр визуального элемента Power Apps и работа с ним в отчете
 

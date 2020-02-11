@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894731"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036706"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Изменение способа взаимодействия визуальных элементов в отчете Power BI
 При наличии разрешений на изменение отчета вы можете использовать **взаимодействие визуализаций**, чтобы задавать влияние друг на друга визуализаций на странице отчета. 
@@ -87,6 +87,11 @@ ms.locfileid: "76894731"
     ![включите детализирующие фильтры для других визуальных элементов](media/service-reports-visual-interactions/power-bi-drill.png)
 
 3. Если отображаемое поведение не является предпочтительным, взаимодействия можно изменить, [как описано выше](#change-the-interaction-behavior).
+
+## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
+Если вы создаете матрицу с полями из разных таблиц и пытаетесь выполнить перекрестное выделение путем выбора нескольких элементов на разных уровнях иерархии, в других визуальных элементах возникает ошибка. 
+
+![Видео, демонстрирующее ошибку при попытке фильтрации на разных уровнях иерархии](media/service-reports-visual-interactions/cross-highlight.gif)
     
 ## <a name="next-steps"></a>Дальнейшие действия
 [Фильтрация и выделение в отчетах Power BI](power-bi-reports-filters-and-highlighting.md)

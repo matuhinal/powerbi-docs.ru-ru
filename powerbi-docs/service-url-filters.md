@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913553"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076637"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
@@ -193,7 +193,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 Есть несколько моментов, которые следует учитывать при использовании параметров строки запроса.
 
 * При использовании оператора *in* справа от *in* должен в круглых скобках идти список значений, разделенных запятыми.    
-* Сервер отчетов Power BI позволяет вам [передавать параметры отчета](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), включая их в его URL-адрес. Эти параметры URL-адреса не имеют префиксов, так как они передаются непосредственно в подсистему обработки отчетов.
+* Сервер отчетов Power BI также поддерживает возможность указывать дополнительные фильтры с помощью параметра URL-адреса "filter".  Например, URL-адрес в решении "Сервер отчетов Power BI" может выглядеть следующим образом: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'.
 * Фильтрация строки запроса не поддерживается при [веб-публикации](service-publish-to-web.md) или [экспорте в PDF](consumer/end-user-pdf.md).
 * Фильтры URL-адреса не поддерживаются при [внедрении с помощью веб-части отчетов в SharePoint Online](service-embed-report-spo.md).
 * Из-за ограничений JavaScript тип данных long равен (2^53-1).

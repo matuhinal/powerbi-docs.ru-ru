@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75837592"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076686"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 
@@ -36,6 +36,10 @@ ms.locfileid: "75837592"
 **Как корпорация Майкрософт изменяет защиту данных бизнес-аналитики**
 <br>Антон Фриц (Anton Fritz) и Ади Регев (Adi Regev)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**How to Become an Insights-Driven Business** (Как преобразовать предприятие для работы на основе аналитических сведений)
+<br>Амир Нетз (Amir Netz), Майкрософт и Борис Эвелсон (Boris Evelson), Forrester
+<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
 
 **Три аспекта изменения бизнес-аналитики за счет искусственного интеллекта**
 <br>Джустина Лучник (Justyna Lucznik)
