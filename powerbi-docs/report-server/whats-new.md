@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819567"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026722"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
@@ -160,7 +160,7 @@ ms.locfileid: "76819567"
 
 #### <a name="custom-headers"></a>Настраиваемые заголовки
 
-Устанавливает значения заголовков для всех URL-адресов, соответствующих указанному шаблону регулярных выражений. Пользователи могут обновить значение пользовательского заголовка с допустимым XML, чтобы установить значения заголовка для выбранных URL-адресов запроса. Администраторы могут добавлять любое количество заголовков в XML. Дополнительные сведения см. в разделе [CustomHeaders](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) в статье **Server Properties Advanced Page - Power BI Report Server & Reporting Services** (Свойства сервера (страница "Дополнительно") — службы Reporting Services: сервер отчетов Power BI и Reporting Services).
+Устанавливает значения заголовков для всех URL-адресов, соответствующих указанному шаблону регулярных выражений. Пользователи могут обновить значение пользовательского заголовка с допустимым XML, чтобы установить значения заголовка для выбранных URL-адресов запроса. Администраторы могут добавлять любое количество заголовков в XML. Дополнительные сведения см. в разделе [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) в описании **страницы дополнительных параметров Reporting Services**.
 
 #### <a name="transparent-database-encryption"></a>Прозрачное шифрование данных
 
