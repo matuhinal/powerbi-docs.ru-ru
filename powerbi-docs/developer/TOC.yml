@@ -134,6 +134,8 @@
               href: embed-sample-for-customers-national-clouds.md
         - name: Основные понятия
           items:
+            - name: Емкость и номера SKU в аналитике Power BI Embedded
+              href: embedded-capacity.md
             - name: Рекомендации по производительности
               href: embedded-performance-best-practices.md
             - name: Субъект-служба
