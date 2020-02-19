@@ -429,6 +429,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: "Администраторы. Управление формой для входа в Power\_BI Desktop"
           href: desktop-admin-sign-in-form.md
+        - name: Устранение неполадок со входом в Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Возможности доступа
           items:
             - name: "Специальные возможности Power\_BI"
@@ -827,6 +829,8 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
+                - name: Хранилище данных Snowflake
+                  href: service-connect-snowflake.md
             - name: Пакеты содержимого организации
               items:
                 - name: Знакомство с пакетами содержимого организации
