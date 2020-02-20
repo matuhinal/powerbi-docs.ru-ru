@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 16bfba0b4ed83be55604d2a12e5b86edae2d58bc
-  ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
+  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "77154196"
+  ms.lasthandoff: 02/19/2020
+  ms.locfileid: "77465021"
 landingContent:
 - title: Руководство по Power BI
   linkLists:
@@ -75,7 +75,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: Предотвращение использования FILTER в качестве аргумента фильтра
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: Создание отчета
+- title: Отчеты Power BI
   linkLists:
   - linkListType: concept
     links:
@@ -83,11 +83,17 @@ landingContent:
       url: report-page-tooltips.md
     - text: Использование детализации страницы отчета
       url: report-drillthrough.md
-    - text: В каких случаях использовать отчеты с разбивкой на страницы в Power BI
+- title: Отчеты с разбивкой на страницы в Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Использование детализации страницы отчета
+      url: report-drillthrough.md
+    - text: В каких случаях использовать отчеты с разбивкой на страницы
       url: report-paginated-or-power-bi.md
-    - text: Каскадные параметры в отчетах с разбивкой на страницы
+    - text: Использование каскадных параметров
       url: paginated-report-cascading-parameter.md
-    - text: Избегайте пустых страниц при печати отчетов с разбивкой на страницы
+    - text: Как избежать появления пустых страниц при печати
       url: report-paginated-blank-page.md
     - text: Миграция отчетов SSRS в Power BI
       url: migrate-ssrs-reports-to-power-bi.md

@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: Предотвращение использования FILTER в качестве аргумента фильтра
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Отчеты Power BI
+          items:
             - name: Добавление подсказок в виде страниц отчета в визуальные элементы
               href: report-page-tooltips.md
             - name: Использование детализации страницы отчета
               href: report-drillthrough.md
-            - name: "В каких случаях использовать отчеты с разбивкой на страницы в Power\_BI"
+        - name: "Отчеты с разбивкой на страницы в Power\_BI"
+          items:
+            - name: В каких случаях использовать отчеты с разбивкой на страницы
               href: report-paginated-or-power-bi.md
-            - name: Каскадные параметры в отчетах с разбивкой на страницы
+            - name: Использование каскадных параметров
               href: paginated-report-cascading-parameter.md
-            - name: Избегайте пустых страниц при печати отчетов с разбивкой на страницы
+            - name: Как избежать появления пустых страниц при печати
               href: report-paginated-blank-page.md
             - name: "Миграция отчетов SSRS в Power\_BI"
               href: migrate-ssrs-reports-to-power-bi.md
