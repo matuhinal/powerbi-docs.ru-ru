@@ -1,19 +1,19 @@
 ---
 title: Просмотр в режиме презентации в Surface Hub и Windows 10 в Power BI
 description: Сведения об отображении отчетов Power BI в Surface Hub и отображении информационных панелей, отчетов и плиток Power BI в полноэкранном режиме на устройствах под управлением Windows 10.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/10/2018
-ms.author: mshenhav
-ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/08/2020
+ms.author: painbar
+ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869526"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259863"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Просмотр отчетов и панели мониторинга в режиме презентации на устройствах Surface Hub и Windows 10
 Можно использовать режим презентации для отображения отчетов и панели мониторинга в полноэкранном режиме на устройствах Windows 10 и Surface Hub. 
@@ -37,14 +37,17 @@ ms.locfileid: "73869526"
 
 ![Отчет в полноэкранном режиме с боковыми панелями инструментов](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
-С помощью панели инструментов можно выполнять ниже приведенные действия.
+С помощью прикосновений к панели инструментов можно выполнять приведенные ниже действия.
 
-1. Коснитесь значка "Назад" ![Значок "Назад"](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) для перехода на предыдущую страницу. Долгое касание к значку извлечет окно навигации, позволив вам перейти к папке в вашем отчете или панели мониторинга.
-2. Значок рукописного ввода ![Значок "Рукописный ввод"](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) позволяет выбрать цвет во время использования ручки Surface для рисования или добавления заметки на странице вашего отчета. 
-3. Используйте значок страниц, ![Значок разбиения текста на страницы](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) чтобы заменить страницу отчета, которую вы представляете в настоящее время.
-4. Значок воспроизведения  ![Значок воспроизведения](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) скрывает панель действий и запускает слайд-шоу, при этом приложение автоматически переключается между страницами отчета. 
-5. Коснитесь значка поиска ![Значок поиска](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) для поиска других артефактов в Power BI.
-6. Чтобы выйти из режима презентации, коснитесь значка с двумя стрелками, направленными внутрь ![Выход из полноэкранного режима](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) на панели инструментов.
+1. **Вернитесь** ![значок возврата](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) на предыдущую страницу. Долгое касание значка приводит к появлению окна навигации, с помощью которого можно перейти к папке, содержащей отчет или панель мониторинга.
+2. **Выберите цвет чернил** ![значок рукописного ввода](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) при использовании ручки Surface для рисования и добавления заметок на странице отчета.
+3. **Сотрите рукописные метки** ![значок ластика](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png), которые вы могли добавить при использовании ручки Surface для рисования и добавления заметок на странице отчета.  
+4. **Перейдите на другую страницу** ![значок разбиения на страницы](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) отчета в презентации.
+5. **Запустите слайд-шоу** ![значок воспроизведения](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png), чтобы скрыть панель действий и начать показ слайдов. При этом приложение автоматически переключается между страницами отчета. 
+6. **Выполните поиск** ![значок поиска](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) артефактов в Power BI.
+7. **Обновите** ![значок обновления](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png) отчет.
+8. **Выйдите** ![выход из полноэкранного режима](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) из режима презентации.
+8. **Поделитесь** ![значок общего доступа](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png) изображением презентации со своими коллегами. Изображение будет включать в себя все заметки, сделанные с помощью ручки Surface во время презентации.
 
 Можно отменить закрепление панели инструментов и перетащить ее куда угодно на экране. Это применимо к большим экранам, когда вы желаете сосредоточиться на определенной области в отчете, имея рядом доступные средства. Просто поместите ваш палец на панель инструментов и проведите им к холсту отчетов.
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220268"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259808"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -52,11 +52,11 @@ Power BI можно запускать на разных устройствах 
 1. На устройстве Android откройте приложение Power BI для Android с помощью значка на стартовом экране.
    
    ![Значок Power BI](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Чтобы просмотреть панели мониторинга и отчеты Power BI, нажмите **Power BI**.  
-   
-   Если вы получите сообщение о том, что не удалось войти в Power BI, см. статью [Исправление ошибки "корпоративный SSL-сертификат не является доверенным"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md).
+2. Чтобы войти в Power BI, коснитесь вкладки **Power BI** и введите данные для входа.
 
-   Чтобы просмотреть мобильные отчеты и ключевые показатели эффективности служб Reporting Services и сервера отчетов Power BI, выберите **Сервер отчетов**.
+    Если вы получите сообщение о том, что не удалось войти в Power BI, см. статью [Исправление ошибки "корпоративный SSL-сертификат не является доверенным"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md).
+
+   Чтобы получить доступ к мобильным отчетам и ключевым показателям эффективности Reporting Services, коснитесь вкладки **Сервер отчетов** и введите данные для входа.
    
    ![Вход в Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

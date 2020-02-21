@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220367"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259729"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone и iPad позволяет работать со службой Power BI, Сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -40,12 +40,12 @@ ms.locfileid: "75220367"
 
 ## <a name="get-started-with-the-power-bi-app"></a>Начало работы с приложением Power BI
 1. Откройте приложение Power BI на устройстве iOS.
-2. Чтобы просмотреть панели мониторинга Power BI, нажмите **Power BI**.  
-   Чтобы просмотреть мобильные отчеты и ключевые показатели эффективности Reporting Services, нажмите **Сервер отчетов**.
+2. Чтобы войти в Power BI, коснитесь вкладки **Power BI** и введите данные для входа.  
+   Чтобы получить доступ к мобильным отчетам и ключевым показателям эффективности Reporting Services, коснитесь вкладки **Сервер отчетов** и введите данные для входа.
    
    ![Вход в мобильное приложение Power BI](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   Для переключения между двумя службами в приложении коснитесь изображения профиля учетной записи в левом верхнем углу экрана. 
+   Для переключения между Power BI и сервером отчетов в приложении коснитесь изображения профиля учетной записи в левом верхнем углу экрана. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Примеры для Power BI и Reporting Services
 Вы можете просматривать примеры Power BI и Reporting Services и взаимодействовать с ними даже без регистрации.
