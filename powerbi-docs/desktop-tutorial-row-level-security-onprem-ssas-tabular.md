@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539671"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427376"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Безопасность на уровне строк в табличной модели Analysis Services
 
@@ -82,7 +82,7 @@ ms.locfileid: "76539671"
 
 1. Функция `LOOKUPVALUE` возвращает значения для столбца, в котором имя пользователя Windows совпадает с именем, возвращаемым функцией `USERNAME`. Для запросов можно настроить ограничение, благодаря которому значения, возвращаемые функцией `LOOKUPVALUE`, будут совпадать со значениями в той же или связанной таблице. В столбце **Фильтр DAX** введем следующую формулу:
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "76539671"
 
 1. Для таблицы `DimUserSecurity` в столбце **Фильтр DAX** добавьте следующую формулу:
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ ms.locfileid: "76539671"
 
 Ниже также показан запрос DAX, который выполняется для заполнения отчета данными.
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

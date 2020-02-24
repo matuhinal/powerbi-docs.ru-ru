@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223991"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427744"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
 В этой статье приводятся сведения о том, как приобрести емкость Power BI Premium для организации. В этой статье рассматриваются два сценария:
 
-- Использование номеров SKU P для типичных рабочих сценариев. Для номеров SKU P требуется фиксировать ежемесячное или ежегодное обязательство, а счета выставляются ежемесячно. Номера SKU P можно приобрести в [Центре администрирования Microsoft 365](https://admmin.microsoft.com).
+- Использование номеров SKU P для типичных рабочих сценариев. Для номеров SKU P требуется фиксировать ежемесячное или ежегодное обязательство, а счета выставляются ежемесячно.
 
 - Использование номеров SKU A для сценариев тестирования и в тех случаях, когда отсутствуют разрешения, необходимые для приобретения номеров SKU P (роль глобального администратора Microsoft 365 или роль администратора выставления счетов). Для номеров SKU A не требуется фиксация обязательств по времени, а счета выставляются на почасовой основе. Номера SKU A можно приобрести на [портале Azure](https://portal.azure.com).
 
