@@ -25,7 +25,7 @@ ms.locfileid: "75762607"
 * Установленный и настроенный [Сервер отчетов Power BI](https://powerbi.microsoft.com/report-server/).
 * Установленное [приложение Power BI Desktop, оптимизированное для Сервера отчетов Power BI](install-powerbi-desktop.md).
 * Установленная и настроенная среда [SharePoint](https://docs.microsoft.com/sharepoint/install/install).
-* Internet Explorer 11 поддерживается, только если для режима документа установлен режим IE11 (Edge) или при использовании SharePoint Online. Вы можете использовать другие поддерживаемые браузеры в локальной среде SharePoint и в SharePoint Online.
+* Internet Explorer 11 поддерживается, только если для режима документа установлен режим IE11 (Microsoft Edge) или при использовании SharePoint Online. Вы можете использовать другие поддерживаемые браузеры в локальной среде SharePoint и в SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Создание URL-адреса отчета Power BI
 
