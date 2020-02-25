@@ -62,6 +62,10 @@
           items:
             - name: В каких случаях использовать отчеты с разбивкой на страницы
               href: report-paginated-or-power-bi.md
+            - name: Руководство по получению данных
+              href: report-paginated-data-retrieval.md
+            - name: Руководство по использованию изображений
+              href: report-paginated-image.md
             - name: Использование каскадных параметров
               href: paginated-report-cascading-parameter.md
             - name: Как избежать появления пустых страниц при печати

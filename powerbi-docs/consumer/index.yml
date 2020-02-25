@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: Документация по Power BI для потребителей
+summary: Как потребитель, вы получаете панели мониторинга и отчеты от своих коллег. Работая в Power BI, вы просматриваете это содержимое и взаимодействуете с ним для принятия бизнес-решений.
+metadata:
+  title: Power BI для потребителей
+  description: Приступаете к работе в Power BI? Узнайте о функциях и возможностях службы Power BI и о том, как пользователи Power BI или отчетов Power BI могут их использовать.
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497800"
+landingContent:
+- title: Сведения о Power BI для потребителей
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое потребитель Power BI?
+      url: end-user-consumer.md
+    - text: Краткий обзор службы Power BI
+      url: end-user-reading-view.md
+    - text: Обзор основных понятий и содержимого
+      url: end-user-basic-concepts.md
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Войти
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: Сведения об отчетах
+      url: end-user-reports.md
+    - text: Сведения о панелях мониторинга
+      url: end-user-dashboards.md
+    - text: Сведения о приложениях
+      url: end-user-apps.md
+- title: Просмотр содержимого
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Просмотр отчета
+      url: end-user-report-view.md
+    - text: Просмотр в крупном или в узком масштабе
+      url: end-user-focus.md
+    - text: Отображение исходных данных визуального элемента
+      url: end-user-show-data.md
+    - text: Экспорт данных в Excel
+      url: end-user-export.md
+- title: Взаимодействие и анализ
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Интерфейс Power BI
+      url: end-user-experience.md
+    - text: Детализация в визуальном элементе
+      url: end-user-drill.md
+    - text: Сортировка данных визуального элемента
+      url: end-user-change-sort.md
+    - text: Фильтры для отчетов
+      url: end-user-report-filter.md
+    - text: Вопросы к данным на естественном языке
+      url: end-user-q-and-a.md
+- title: Совместная работа и общий доступ
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Публикация отчета в PowerPoint
+      url: end-user-powerpoint.md
+    - text: Экспорт отчета в PDF
+      url: end-user-pdf.md
+    - text: Подписка на содержимое
+      url: end-user-subscribe.md
+- title: Дополнительные разделы
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Создание и использование закладок
+      url: end-user-bookmarks.md
+    - text: Автоматическая аналитика
+      url: end-user-insights.md
+    - text: Отчет с разбивкой на страницы
+      url: paginated-reports-view-power-bi-service.md
+- title: Ресурсы
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Глоссарий
+      url: end-user-glossary.md
+    - text: Часто задаваемые вопросы
+      url: end-user-faq.md
+    - text: Типы аналитических сведений
+      url: end-user-insight-types.md
+    - text: Типы визуальных элементов
+      url: end-user-visual-type.md

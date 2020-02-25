@@ -8,24 +8,24 @@
           href: end-user-consumer.md
         - name: Основные понятия и терминология для потребителей Power BI
           href: end-user-basic-concepts.md
+        - name: "Краткий обзор службы Power\_BI"
+          href: end-user-reading-view.md
+    - name: Начало работы
+      items:
+        - name: Навигация в службе Power BI
+          href: end-user-experience.md
         - name: Поиск содержимого с помощью домашней целевой страницы
           href: end-user-home.md
+        - name: Как задавать вопросы на естественном языке
+          href: end-user-q-and-a.md
+        - name: Первый вход в систему
+          href: end-user-sign-in.md
+        - name: Как узнать свой тип лицензии
+          href: end-user-license.md
         - name: Работа с "новым видом"
           href: ../service-new-look.md
         - name: 'Новый вид: куда переместились действия?'
           href: ../service-new-look-where-actions.md
-    - name: Краткие руководства
-      items:
-        - name: Навигация в службе Power BI
-          href: end-user-experience.md
-        - name: "Что можно сделать с помощью Power\_BI?"
-          href: end-user-reading-view.md
-        - name: Войти первый раз
-          href: end-user-sign-in.md
-    - name: Учебники
-      items:
-        - name: Создание панели мониторинга оповещений
-          href: end-user-alerts.md
     - name: Практическое руководство
       items:
         - name: Панели мониторинга
@@ -40,6 +40,10 @@
               href: end-user-tiles.md
             - name: Добавление комментария или начало беседы
               href: end-user-comment.md
+            - name: Просмотр результатов автоматического анализа для плиток панели мониторинга
+              href: end-user-insights.md
+            - name: Создание панели мониторинга оповещений
+              href: end-user-alerts.md
         - name: Отчеты
           items:
             - name: Отчеты
@@ -78,7 +82,7 @@
               href: end-user-visual-type.md
             - name: 'Отображение данных, использованных для создания визуализации'
               href: end-user-show-data.md
-            - name: Детализация в визуализации в Power BI
+            - name: Детализация в визуальном элементе
               href: end-user-drill.md
             - name: Взаимодействие с картами ArcGIS
               href: ../power-bi-visualizations-arcgis.md
@@ -104,8 +108,6 @@
               href: end-user-subscribe.md
             - name: "Поиск и сортировка содержимого в Power\_BI"
               href: end-user-search-sort.md
-            - name: Просмотр результатов автоматического анализа для плиток панели мониторинга
-              href: end-user-insights.md
             - name: Включение предварительных версий функций
               href: end-user-preview-features.md
             - name: "Получение уведомлений в службе Power\_BI"
@@ -134,7 +136,7 @@
           href: end-user-faq.md
         - name: Поддерживаемые браузеры
           href: end-user-browsers.md
-        - name: 'Типы быстрого анализа данных, поддерживаемые Power BI'
+        - name: Типы краткой аналитики
           href: end-user-insight-types.md
 - name: Мобильные приложения Power BI
   items:
