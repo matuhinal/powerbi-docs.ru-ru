@@ -7,6 +7,8 @@
       items:
         - name: Обзор
           href: overview.md
+        - name: "Рекомендации по оптимизации Power\_BI"
+          href: power-bi-optimization.md
     - name: Основные понятия
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: Размеры для локальных шлюзов данных
               href: gateway-onprem-sizing.md
+            - name: Отслеживание производительности отчетов
+              href: monitor-report-performance.md
     - name: Технические документы
       items:
         - name: Обзор технической документации
