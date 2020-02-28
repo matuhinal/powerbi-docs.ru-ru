@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259729"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426640"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone и iPad позволяет работать со службой Power BI, Сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -32,7 +32,7 @@ ms.locfileid: "77259729"
 ## <a name="download-the-app"></a>Загрузите приложение
 [Скачайте приложение для iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Скачать приложение для iOS") для iPhone или iPad в Apple App Store.
 
-Приложение Power BI для iOS можно запускать на любых устройствах, работающих под управлением iOS 11 и более поздних версий. 
+Мобильное приложение Power BI для iOS можно запускать на любых устройствах, работающих под управлением iOS 11 и более поздних версий. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Регистрация в службе Power BI
 Если вы еще не зарегистрировались, перейдите на сайт [powerbi.com](https://powerbi.microsoft.com/get-started/) и в разделе **Power BI — совместная работа и общий доступ в облаке** нажмите кнопку **Попробовать бесплатно**.

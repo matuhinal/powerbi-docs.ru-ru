@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039841"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427560"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 
@@ -89,8 +89,8 @@ Power BI Desktop позволяет подключаться к данным и�
 * Vertica
 * Снежинка
 * Essbase
-* Кубы AtScale (бета-версия)
-* Соединитель BI
+* Кубы AtScale
+* Соединитель BI Data Virtuality LDW (бета-версия)
 * Denodo
 * Dremio
 * Exasol
@@ -162,7 +162,6 @@ Power BI Desktop позволяет подключаться к данным и�
 * Adobe Analytics
 * appFigures (бета-версия)
 * Data.World — получение набора данных (бета-версия)
-* Facebook
 * GitHub (бета-версия)
 * LinkedIn Sales Navigator (бета-версия)
 * MailChimp (бета-версия)
@@ -182,6 +181,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Dynamics 365 Customer Insights (бета-версия)
 * Источник данных Emigo
 * Entersoft Business Suite (бета-версия)
+* FactSet Analytics (бета-версия)
 * Industrial App Store
 * Хранилище данных Intune (бета-версия)
 * Microsoft Graph Security (бета-версия)
@@ -210,7 +210,10 @@ Power BI Desktop позволяет подключаться к данным и�
 * ODBC
 * OLE DB
 * BI360 — отчеты по бюджетам и финансам (бета-версия)
+* FHIR
 * Information Grid (бета-версия)
+* Jamf Pro (бета-версия)
+* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (бета-версия)
 * Roamler (бета-версия)
@@ -219,6 +222,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Tenforce (Smart)List (бета-версия)
 * Vena (бета-версия)
 * Workforce Dimensions (бета-версия)
+* Zucchetti HR Infinity (бета-версия)
 * Пустой запрос
 
 На следующем рисунке показано окно **Получение данных** для категории **Другие**.

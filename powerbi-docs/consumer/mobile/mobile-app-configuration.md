@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538274"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496750"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Удаленная настройка приложения Power BI с помощью средства управления мобильными устройствами (MDM)
 
@@ -51,7 +51,7 @@ ms.locfileid: "76538274"
 | Ключ | Тип | Значения | Описание |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Строка |  <nobr>одиночное касание</nobr><br><nobr>двойное касание</nobr> | Настройка выбора точки данных при касании визуального элемента. |
-| ccom.microsoft.powerbi.mobile.RefreshAction | Строка |  <nobr>потяните, чтобы обновить</nobr><br>. | Настройка обновления отчета с помощью кнопки или функции "Потяните, чтобы обновить". |
+| com.microsoft.powerbi.mobile.RefreshAction | Строка |  <nobr>потяните, чтобы обновить</nobr><br>. | Настройка обновления отчета с помощью кнопки или функции "Потяните, чтобы обновить". |
 | com.microsoft.powerbi.mobile.FooterAppearance | Строка |  закреплено<br>Динамический | Настройка закрепления колонтитула внизу отчета или его автоматического скрытия. |
 
 ## <a name="deploying-app-configuration-settings"></a>Развертывание параметров конфигурации приложения

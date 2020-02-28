@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889289"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427238"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Использование DirectQuery в Power BI Desktop
 При подключении к источнику данных в *Power BI Desktop* всегда можно импортировать копию данных в Power BI Desktop. Для некоторых источников данных доступен альтернативный подход: прямое подключение к источнику данных с помощью DirectQuery.
@@ -46,8 +46,6 @@ ms.locfileid: "76889289"
 
 ## <a name="limitations-of-directquery"></a>Ограничения DirectQuery
 В настоящее время существует несколько ограничений, связанных с использованием DirectQuery.
-
-- Все таблицы должны принадлежать одной базе данных, если не используются [составные модели](desktop-composite-models.md).
 
 - Если запрос в **редакторе запросов** слишком сложный, произойдет ошибка. Чтобы устранить ошибку, удалите проблемный шаг в **редакторе запросов** или *импортируйте данные* вместо использования DirectQuery. Для многомерных источников, таких как SAP Business Warehouse, нет **редактора запросов**.
 
@@ -94,7 +92,7 @@ ms.locfileid: "76889289"
 
 4. Добавьте учетные данные. В противном случае при открытии опубликованного отчета или просмотре набора данных, созданного с помощью подключения DirectQuery, возникает ошибка.
 
-Чтобы выполнить подключение к данным для источников данных, отличных от **базы данных SQL Microsoft Azure**, **хранилища данных SQL Azure Data Warehouse** или **Redshift**, использующих DirectQuery, установите **локальный шлюз данных** и зарегистрируйте источник данных. Дополнительную информацию см. в разделе [Что такое локальный шлюз данных?](service-gateway-onprem.md)
+Чтобы выполнить подключение к данным для источников данных, отличных от **Базы данных SQL Azure**, **Хранилища данных SQL Azure**, **Redshift** или **Snowflake Data Warehouse**, использующих DirectQuery, установите **локальный шлюз данных** и зарегистрируйте источник данных. Дополнительную информацию см. в разделе [Что такое локальный шлюз данных?](service-gateway-onprem.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения о DirectQuery см. в следующих статьях:

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925539"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427077"
 ---
 # <a name="power-bi-visual-project-structure"></a>Структура проекта визуального элемента Power BI
 
@@ -115,7 +115,7 @@ project
 Комментарии в следующем заголовке кода из файла `pbiviz.json` описывают записи метаданных.
 
 > [!NOTE]
-> * В версии 3.x.x средство **pbiciz**, `externalJS` не поддерживается.
+> * Начиная с версий 3.x.x средства **pbiviz**, `externalJS` не поддерживается.
 > * Для поддержки локализации следует выполнить [добавление языкового стандарта в Power BI для пользовательских визуальных элементов](./localization.md).
 
 ```json

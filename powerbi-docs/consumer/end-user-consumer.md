@@ -3,20 +3,21 @@ title: Общие сведения о пользователях Power BI
 description: Общие сведения о Power BI для потребителей (также известных как конечные пользователи или бизнес-пользователи).
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863806"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496238"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Служба Power BI для потребителей
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Вас окружает культура данных, где принятие бизнес-решений основано на фактах, а не мнениях. Для этого вам требуются данные, и ваши коллеги делают все возможное.     
  
@@ -43,6 +44,8 @@ Power BI упрощает выполнение ваших задач и повы
 Как потребитель вы не сможете получить доступ ко всем возможностям Power BI. Это абсолютно нормально. В ваши задачи не входит создание панелей мониторинга и отчетов. Вы будете использовать Power BI для анализа, мониторинга, изучения и принятия решений. 
 
 Вам, несомненно, встретится термин "Power BI Desktop" или просто "Desktop". Это автономное средство, используемое *разработчиками*, которые создают и панели мониторинга, и отчеты и представляют общий доступ к ним.  Важно знать, что существуют и другие средства Power BI, но если вы являетесь потребителем, вы будете работать только со службой Power BI. 
+
+Так как вы работаете с *общим* содержимым, вам потребуется лицензия Power BI Pro или Premium. [Какая у меня лицензия?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Безопасная работа с содержимым 

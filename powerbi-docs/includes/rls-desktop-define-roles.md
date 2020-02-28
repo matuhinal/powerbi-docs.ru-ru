@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 27d6db6cf8ad8ebd7b2c957954ceec34b83681d0
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71409380"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464449"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Создание ролей и правил в Power BI Desktop
 В приложении Power BI Desktop можно задавать роли и правила. При публикации в Power BI публикуются и определения ролей.
@@ -17,33 +17,33 @@ ms.locfileid: "71409380"
    > Задавать определения ролей в Power BI Desktop для динамических подключений служб Analysis Services нельзя. Это делается непосредственно в модели Analysis Services.
    > 
    > 
-1. Откройте вкладку **Моделирование**.
-2. Выберите **Управление ролями**.
+2. На вкладке **Моделирование** выберите **Управление ролями**.
    
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security.png)
-4. Выберите **Создать**.
+   ![Выберите "Управление ролями"](./media/rls-desktop-define-roles/powerbi-desktop-security.png)
+3. В окне **Управление ролями** выберите **Создать**.
    
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
-5. Укажите имя роли. 
-6. Выберите таблицу, для которой хотите применить правило DAX.
-7. Введите выражения DAX. Выражение должно возвращать истину (true) или ложь (false). Пример: [Код объекта] = "Значение".
-   
-   > [!NOTE]
-   > В этом выражении можно использовать функцию *username()* . Помните о том, что в Power BI Desktop функция *username()* возвращает значения в формате *ДОМЕН\имя_пользователя*. В службе Power BI и сервере отчетов Power BI оно задается в формате имени участника-пользователя (UPN). Кроме того, можно использовать функцию *userprincipalname()* , которая всегда возвращает пользователя в формате имени участника-пользователя: *имя_пользователя\@contoso.com*.
-   > 
-   > 
-   
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
-8. Созданное выражение DAX можно проверить с помощью флажка над полем выражения.
+   ![Нажмите кнопку "Создать"](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
+4. В поле **Роли** укажите имя роли. 
+5. В списке **Таблицы** выберите таблицу, к которой хотите применить правило DAX.
+6. В поле **Выражение DAX фильтра таблицы** введите выражение DAX. Это выражение возвращает истину (true) или ложь (false). Например: ```[Entity ID] = “Value”```
       
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   ![Окно "Управление ролями"](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
+
+   > [!NOTE]
+   > В этом выражении можно использовать функцию *username()*. Помните о том, что в Power BI Desktop функция *username()* возвращает значения в формате *ДОМЕН\имя_пользователя*. В службе Power BI и сервере отчетов Power BI оно задается в формате имени участника-пользователя (UPN). Кроме того, можно использовать функцию *userprincipalname()*, которая всегда возвращает пользователя в формате имени участника-пользователя: *имя_пользователя\@contoso.com*.
+   > 
+   > 
+
+7. Чтобы проверить созданное выражение DAX, установите флажок над полем выражения.
+      
+   ![Проверка выражения DAX](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
    
    > [!NOTE]
    > В этом поле выражения для разделения аргументов функции DAX используются запятые, даже если используется языковой стандарт, который обычно использует как разделитель точку с запятой (например, французский или немецкий). 
    >
    >
    
-9. Нажмите кнопку **Сохранить**.
+8. Нажмите кнопку **Сохранить**.
 
 Назначать пользователей роли в Power BI Desktop нельзя. Вы назначаете их в службе Power BI. Чтобы использовать в Power BI Desktop функции динамической системы безопасности, используйте функции DAX *username()* или *userprincipalname()* и настройте соответствующие связи. 
 

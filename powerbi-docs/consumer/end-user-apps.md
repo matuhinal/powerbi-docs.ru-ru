@@ -3,21 +3,22 @@ title: Что такое приложение Power BI?
 description: Приложения в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851020"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496712"
 ---
 # <a name="apps-in-power-bi"></a>Приложения в Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ ms.locfileid: "73851020"
 ![Приложения в Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> Чтобы использовать функцию приложений, требуется лицензия Power BI Pro. <!-- add link to how to figure out your license -->
+> Чтобы использовать функцию приложений, требуется лицензия Power BI Pro. [Как узнать свой тип лицензии](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>***Разработчики*** приложений и ***потребители*** приложений
+## <a name="app-designers-and-app-consumers"></a>*Разработчики* приложений и *потребители* приложений
 В зависимости от вашей роли вы можете быть создателем (*разработчиком*) приложений для собственного пользования или для совместного использования с коллегами. Или вы можете быть человеком, который получает и загружает приложения, созданные другими (*потребитель*). Эта статья предназначена для *потребителей* приложений.
 
 ## <a name="advantages-of-apps"></a>Преимущества приложений
@@ -49,7 +50,7 @@ ms.locfileid: "73851020"
 - Можно искать приложения в [AppSource](https://appsource.microsoft.com). AppSource содержит приложения, опубликованные создателями отчетов в вашей компании и за ее пределами. Например, вы можете найти в AppSource приложение для службы, которую вы уже используете, —Google Analytics, GitHub или Microsoft Dynamics. Вы также можете найти примеры приложений для обучения работе с Power BI.  
 
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 * [Открытие приложения и работа с ним](end-user-app-view.md)
 * [Другие способы совместного использования содержимого](end-user-shared-with-me.md)
 

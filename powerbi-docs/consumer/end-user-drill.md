@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851466"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496410"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Режим детализации в визуальном элементе в Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ ms.locfileid: "73851466"
 Не можете определить, какой визуальный элемент Power BI содержит иерархию? Наведите указатель мыши на визуальный элемент. Если сверху появятся указанные элементы управления детализацией, значит, этот визуальный элемент содержит иерархию.
 
 ![Снимок экрана: значки детализации.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Выполнение детализации углублением и обобщением
 
@@ -141,7 +144,9 @@ ms.locfileid: "73851466"
 
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
-По умолчанию при детализации другие визуальные элементы в отчете не фильтруются. Тем не менее при необходимости разработчик отчета может изменить это заданное по умолчанию поведение. По мере детализации также обращайте внимание на возможность перекрестной фильтрации или перекрестного выделения других визуальных элементов на странице.
+- По умолчанию при детализации другие визуальные элементы в отчете не фильтруются. Тем не менее при необходимости разработчик отчета может изменить это заданное по умолчанию поведение. По мере детализации также обращайте внимание на возможность перекрестной фильтрации или перекрестного выделения других визуальных элементов на странице.
+
+- Для просмотра отчета, к которому вам предоставлен доступ, нужна лицензия Power BI Pro или Premium. [Какая у меня лицензия?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
@@ -150,6 +155,6 @@ ms.locfileid: "73851466"
 
 [Отчеты Power BI](end-user-reports.md)
 
-[Power BI — основные понятия](end-user-basic-concepts.md)
+[Power BI — основные понятия](end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

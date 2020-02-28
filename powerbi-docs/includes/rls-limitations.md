@@ -2,14 +2,14 @@
 author: davidiseminger
 ms.service: powerbi
 ms.topic: include
-ms.date: 09/13/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: 6d1a239954a64da1c92cc68b56912e6f4ab67228
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74882805"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464424"
 ---
 ## <a name="limitations"></a>Ограничения
 
@@ -17,13 +17,13 @@ ms.locfileid: "74882805"
 
 * Если вы уже задавали роли и правила в службе Power BI, их необходимо повторно создать в Power BI Desktop.
 
-* Безопасность на уровне строк (RLS) можно определить только в наборах данных, созданных в Power BI Desktop. Если вы хотите включить RLS для наборов данных, созданных в Excel, нужно сначала преобразовать файлы в формат Power BI Desktop (PBIX). [Дополнительные сведения](../desktop-import-excel-workbooks.md)
+* Безопасность на уровне строк (RLS) можно определить только в наборах данных, созданных в Power BI Desktop. Если вы хотите включить RLS для наборов данных, созданных в Excel, нужно сначала преобразовать файлы в формат Power BI Desktop (PBIX). [Дополнительные сведения](../desktop-import-excel-workbooks.md).
 
 * Поддерживаются только импорт и подключения DirectQuery. Активные подключения к службам Analysis Services обрабатываются в локальной модели.
 
 ## <a name="known-issues"></a>Известные проблемы
 
-Существует известная проблема, когда при попытке опубликовать из Power BI Desktop уже опубликованный отчет возникает сообщение об ошибке. Ниже описана последовательность действий, которая к этому приводит.
+Существует известная проблема, когда при попытке опубликовать из Power BI Desktop уже опубликованный отчет выдается сообщение об ошибке. Ниже описана последовательность действий, которая к этому приводит.
 
 1. Предположим, у Анны есть набор данных, который опубликован в службе Power BI, и для него настроена безопасность на уровне строк.
 

@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851278"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496515"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Руководство. Настройка оповещений на панелях мониторинга Power BI
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Руководство. Настройка оповещений на панелях мониторинга Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -112,6 +114,7 @@ ms.locfileid: "73851278"
 * Оповещения можно настраивать только для датчиков, ключевых показателей эффективности и карточек.
 * Если вы не можете настроить оповещение для датчика, ключевого показателя эффективности или карточки, обратитесь к системному администратору. Иногда оповещения отключены или недоступны для панели мониторинга или для отдельных типов плиток панели мониторинга.
 * Оповещения отправляются только при обновлении данных. Они не работают со статическими данными. Большинство примеров, предоставляемых корпорацией Майкрософт, являются статическими. 
+* *Потребители* не создают собственные панели мониторинга, а *конструкторы* могут создавать панели мониторинга и предоставлять к ним доступ потребителям. Для получения и просмотра общего содержимого нужна лицензия Power BI Pro или Premium. Дополнительные сведения см. в разделе [Какая у меня лицензия?](end-user-license.md) 
 
 
 ## <a name="clean-up-resources"></a>Очистка ресурсов

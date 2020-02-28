@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874118"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426663"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 
@@ -45,7 +45,7 @@ ms.locfileid: "73874118"
     После автоматического запуска приложения вы будете готовы к работе.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Проверка используемой версии
-Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. Если в строке заголовка вы видите **Power BI Desktop (сентябрь 2019 г.)** , вы установили правильную версию. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
+Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. Если в строке заголовка вы видите **Power BI Desktop (сентябрь 2019 г.)**, вы установили правильную версию. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
 
 ![Power BI Desktop, сентябрь 2019 г.](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "73874118"
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
-Отчеты в сервере отчетов Power BI и в службе Power BI (https://app.powerbi.com) ), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
+Отчеты в сервере отчетов Power BI и в службе Power BI (https://app.powerbi.com)), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
 
 ### <a name="selecting-a-language"></a>Выбор языка
 
@@ -87,17 +87,21 @@ ms.locfileid: "73874118"
 
 В мобильных приложениях Power BI отчеты на сервере отчетов Power BI не поддерживают:
 
-* визуальные элементы R;
+* Визуальные элементы R
 * карты ArcGIS;
-* Пользовательские визуальные элементы
+* Настраиваемые визуальные элементы
 * строки навигации;
 * географическую фильтрацию и штрихкоды.
+
+### <a name="custom-security"></a>Настраиваемая безопасность
+
+Приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI, не поддерживает настраиваемую безопасность. Если в сервере отчетов Power BI включен настраиваемый модуль безопасности, вы не сможете сохранить отчет Power BI из приложения Power BI Desktop (оптимизированного для сервера отчетов Power BI) на экземпляре сервера отчетов Power BI. Необходимо вместо этого сохранить PBIX-файл отчета из Power BI Desktop и отправить его на сайт портала сервера отчетов Power BI.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop для более ранних версий Сервера отчетов Power BI
 
 Если вы используете более раннюю версию сервера отчетов, нужна подходящая версия Power BI Desktop. Ниже приведена ссылка для скачивания предыдущей версии.
 
-- Microsoft Power BI Desktop ([оптимизировано для Сервера отчетов Power BI, январь 2019 г.](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([оптимизировано для сервера отчетов Power BI, сентябрь 2019 г.](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
