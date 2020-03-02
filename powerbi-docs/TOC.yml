@@ -757,8 +757,8 @@
               href: admin/service-security-data-protection-overview.md
             - name: Применение меток конфиденциальности
               href: designer/service-security-apply-data-sensitivity-labels.md
-        - name: Происхождение данных
-          href: service-data-lineage.md
+        - name: Просмотр происхождения данных
+          href: designer/service-data-lineage.md
         - name: Приложения-шаблоны
           items:
             - name: Обзор приложений-шаблонов
