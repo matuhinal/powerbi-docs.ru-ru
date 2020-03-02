@@ -655,8 +655,6 @@
               href: service-export-to-pbix.md
             - name: "Изменение переменных\_SAP"
               href: service-edit-sap-variables.md
-            - name: Рекомендации по созданию быстрых и надежных отчетов
-              href: power-bi-reports-performance.md
         - name: Задать вопросы о данных
           items:
             - name: Анализ данных с помощью "Вопросов и ответов"
