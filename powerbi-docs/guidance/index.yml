@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 28fc951ecdfdf31b7319047caae2b5807aadf704
-  ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
+  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/26/2020
-  ms.locfileid: "77609735"
+  ms.lasthandoff: 03/03/2020
+  ms.locfileid: "78237783"
 landingContent:
 - title: Руководство по Power BI
   linkLists:
@@ -85,6 +85,16 @@ landingContent:
       url: report-page-tooltips.md
     - text: Использование детализации страницы отчета
       url: report-drillthrough.md
+    - text: Советы по управлению осями
+      url: report-design-tips-axes.md
+    - text: Советы по управлению линиями сетки диаграммы
+      url: report-tips-chart-gridlines.md
+    - text: Советы по оптимизации использования меток
+      url: report-tips-labels.md
+    - text: Советы по форматированию и внедрению условных обозначений
+      url: report-tips-legends.md
+    - text: Советы по оптимизации визуального отображения цветов
+      url: report-tips-visual-colors.md
 - title: Отчеты с разбивкой на страницы в Power BI
   linkLists:
   - linkListType: concept

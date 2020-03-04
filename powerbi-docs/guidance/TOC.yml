@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Использование детализации страницы отчета
               href: report-drillthrough.md
+            - name: Советы по управлению осями
+              href: report-design-tips-axes.md
+            - name: Советы по управлению линиями сетки диаграммы
+              href: report-tips-chart-gridlines.md
+            - name: Советы по оптимизации использования меток
+              href: report-tips-labels.md
+            - name: Советы по форматированию и внедрению условных обозначений
+              href: report-tips-legends.md
+            - name: Советы по оптимизации визуального отображения цветов
+              href: report-tips-visual-colors.md
         - name: "Отчеты с разбивкой на страницы в Power\_BI"
           items:
             - name: В каких случаях использовать отчеты с разбивкой на страницы
