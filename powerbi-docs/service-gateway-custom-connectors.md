@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 78ac4f3280125fb522661a63f679981b3cda34e3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699476"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609888"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Использование пользовательских соединителей данных с локальным шлюзом данных
 
@@ -46,6 +46,7 @@ ms.locfileid: "74699476"
 
 * Убедитесь, что созданная папка доступна в фоновой службе шлюза. Обычно папки, расположенные в пользовательской папке Windows, а также системные папки недоступны. Если папка недоступна, в приложении локального шлюза данных отображается сообщение. Эта инструкция не применяется для локального шлюза данных (персональный режим).
 * Для использования пользовательских соединителей с локальным шлюзом данных необходима реализация ими раздела "TestConnection" в коде пользовательского соединителя. Это раздел не обязателен при использовании пользовательских соединителей с Power BI Desktop. По этой причине необходимо использовать соединители с Power BI Desktop, а не со шлюзом. Дополнительные сведения о реализации раздела TestConnection см. в [этой документации](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
+* Сейчас использовать OAuth для настраиваемых соединителей через шлюзы могут только администраторов шлюзов, но не другие пользователи источника данных.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

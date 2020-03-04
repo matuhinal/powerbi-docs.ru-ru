@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864059"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199011"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Рекомендации по производительности Power BI Embedded
 
 В этой статье приводятся рекомендации по ускорению отрисовки отчетов, панелей мониторинга и плиток в вашем приложении.
 
 > [!Note]
-> Помните, что время загрузки в основном зависит от элементов, относящихся к отчету и самим данным, включая визуальные элементы, размер данных, а также сложность запросов и вычисляемых показателей. Дополнительные сведения см. в статье [Рекомендации по производительности Power BI](../power-bi-reports-performance.md).
+> Помните, что время загрузки в основном зависит от элементов, относящихся к отчету и самим данным, включая визуальные элементы, размер данных, а также сложность запросов и вычисляемых показателей. См. сведения в руководстве по [оптимизации Power BI](../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Средства обновления и пакеты SDK
 
@@ -106,6 +106,6 @@ ms.locfileid: "73864059"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Рекомендации по производительности отчетов Power BI](../power-bi-reports-performance.md)
+* [Руководство по оптимизации Power BI](../guidance/power-bi-optimization.md)
 * [Устранение неполадок внедренного приложения](embedded-troubleshoot.md)
 * [Часто задаваемые вопросы о Power BI Embedded](embedded-faq.md)

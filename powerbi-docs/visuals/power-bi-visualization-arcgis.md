@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9e0658eb277ae25b3a418dd80fb9323be6f6ab0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758406"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652549"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Создание карт ArcGIS в Power BI Desktop
 
@@ -26,6 +26,9 @@ ms.locfileid: "75758406"
 Сочетание карт ArcGIS и Power BI — это больше, чем просто отображение точек на карте. Прекрасные информативные визуализации для карт можно создать, используя базовые карты, типы расположения, темы, стили символов и ссылочные слои. Сочетание официальных слоев данных на карте с пространственным анализом помогает лучше понять данные в визуализации.
 
  На мобильном устройстве нельзя создавать карты ArcGIS Maps for Power BI, но можно просматривать их и взаимодействовать с ними. См. статью о [взаимодействии с картами ArcGIS](power-bi-visualizations-arcgis.md).
+
+> [!NOTE]
+> Карты ArcGIS для Power BI сейчас недоступны для Сервера отчетов Power BI.
 
 > [!TIP]
 > GIS расшифровывается как Geographic Information Systems (географические информационные системы).

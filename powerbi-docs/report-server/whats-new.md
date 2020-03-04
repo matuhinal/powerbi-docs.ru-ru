@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026722"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782449"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
@@ -165,6 +165,10 @@ ms.locfileid: "77026722"
 #### <a name="transparent-database-encryption"></a>Прозрачное шифрование данных
 
 Сервер отчетов Power BI теперь поддерживает прозрачное шифрование данных для базы данных каталога сервера отчетов Power BI для выпусков Enterprise и Standard.
+
+#### <a name="power-bi-visuals-api"></a>API визуальных элементов Power BI
+
+В состав этого выпуска входит API версии 2.6.
 
 #### <a name="microsoft-report-builder-update"></a>Обновление построителя отчетов (Майкрософт)
 
@@ -446,34 +450,34 @@ ms.locfileid: "77026722"
 
 Из всего длинного списка новых возможностей приведенные ниже нам кажутся наиболее интересными.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Условное форматирование на основе правил для визуальных элементов таблицы и матрицы](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[Условное форматирование на основе правил для визуальных элементов таблицы и матрицы](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 Вы можете создать правила, чтобы условно задать цвет фона или шрифта в столбце, основываясь на определенной бизнес-логике в таблице или матрице.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Отображение и скрытие страниц](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[Отображение и скрытие страниц](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 Предположим, что вы хотите, чтобы читатели имели доступ к отчету, хотя еще не закончили работу с некоторыми страницами. Теперь их можно скрыть, пока они не будут готовы. Кроме того, можно скрыть страницы при нормальной навигации, при этом читатели смогут перейти на такую страницу с помощью закладок или детализации.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Использование закладок](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[Использование закладок](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 Вы можете использовать закладки, чтобы упорядочить данные в отчете.
 
 - [Перекрестное выделение для закладок](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): закладки сохраняют и отображают состояние перекрестного выделения страницы отчета во время создания закладки.
 - [Повышенная гибкость при работе с закладками](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): закладки отражают свойства, заданные вами в отчете, и затрагивают только указанные вами визуальные элементы.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Множественный выбор точек данных на нескольких диаграммах](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[Множественный выбор точек данных на нескольких диаграммах](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 Вы можете выбрать несколько точек данных на нескольких диаграммах и применить перекрестную фильтрацию ко всей странице.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Синхронизация срезов на нескольких страницах отчета](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[Синхронизация срезов на нескольких страницах отчета](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 Срез может применяться к одной или нескольким страницам в отчете.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Быстрые меры](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[Быстрые меры](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 Вы можете создавать меры на основе существующих мер и числовых столбцов в таблице.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Детализирующие фильтры для других визуализаций](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[Детализирующие фильтры для других визуализаций](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 При детализации по заданной категории в одном визуальном элементе можно настроить его для фильтрации всех визуальных элементов на странице по этой же категории.
 

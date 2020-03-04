@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026676"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782411"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -43,11 +43,13 @@ ms.locfileid: "77026676"
 
 Хотя вам не нужно публиковать код в GitHub, репозиторий кода должен быть доступен команде разработчиков Power BI для ознакомления. Лучший способ сделать это — предоставить исходный код (JavaScript или TypeScript) в GitHub.
 
-Репозиторий должен содержать код только для одного визуального элемента Power BI. Он не может содержать код для нескольких визуальных элементов Power BI или несвязанного кода.
-
-Репозиторий должен содержать ветвь с именем **certification** (обязательно в нижнем регистре). Исходный код в этой ветви должен соответствовать коду в отправленном пакете. Этот код можно обновить только во время следующей отправки, когда вы будете повторно отправлять визуальный элемент Power BI.
+Репозиторий должен содержать следующие элементы:
+* код только для одного визуального элемента Power BI; Он не может содержать код для нескольких визуальных элементов Power BI или несвязанного кода.
+* ветвь с именем **certification** (обязательно в нижнем регистре). Исходный код в этой ветви должен соответствовать коду в отправленном пакете. Этот код можно обновить только во время следующей отправки, когда вы будете повторно отправлять визуальный элемент Power BI.
 
 Если визуальный элемент Power BI использует частные пакеты NPM или подмодули Git, необходимо предоставить доступ к дополнительным репозиториям, содержащим этот код.
+
+Чтобы понять, как выглядит репозиторий визуальных элементов Power BI, изучите репозиторий GitHub с [примерами линейчатых диаграмм визуальных элементов Power BI](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi).
 
 ### <a name="file-requirements"></a>Требования к файлу
 
@@ -113,6 +115,18 @@ ms.locfileid: "77026676"
 
 >[!NOTE]
 > Если в ходе отправки визуализации Power BI в AppSource вам потребуется [Панель мониторинга продаж](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (старое средство управления), ознакомьтесь с [этими инструкциями](seller-dashboard.md#seller-dashboard-certification-submission-process).
+
+### <a name="private-repository-submission-process"></a>Процесс отправки частного репозитория
+
+Если вы используете частный репозиторий, например GitHub, чтобы отправить визуальный элемент Power BI на сертификацию, следуйте инструкциям в этом разделе.
+1. Создайте новую учетную запись для группы проверки.
+2. Настройте [двухфакторную проверку подлинности для учетной записи](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
+3. [Создайте новый набор кодов восстановления](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. При отправке визуального элемента Power BI предоставьте следующее:
+    * ссылка на репозиторий;
+    * учетные данные для входа (включая пароль);
+    * коды восстановления;
+    * разрешения на доступ к учетной записи только для чтения ([pbicvsupport](https://github.com/pbicvsupport)).
 
 ## <a name="certified-power-bi-visuals"></a>Сертифицированные визуальные элементы Power BI
 
