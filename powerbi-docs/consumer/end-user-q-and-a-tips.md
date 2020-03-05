@@ -87,7 +87,7 @@ ms.locfileid: "74099029"
 ## <a name="next-steps"></a>Дальнейшие действия
 Назад к статье [Вопросы и ответы в Power BI](end-user-q-and-a.md)  
 
-[Power BI — основные понятия](end-user-basic-concepts.md)  
+[Power BI — основные понятия](end-user-basic-concepts.md)  
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

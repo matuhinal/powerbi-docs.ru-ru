@@ -41,7 +41,7 @@ ms.locfileid: "74265141"
 
     ![Поиск в Azure Active Directory](media/create-an-azure-active-directory-tenant/new-directory2.png)
 
-4. Выберите **Создать**.
+4. Щелкните **Создать**.
 
 5. Укажите **Название организации** и **Первоначальное доменное имя**. После этого выберите **Создать**. Ваш каталог создан.
 
@@ -95,6 +95,6 @@ ms.locfileid: "74265141"
 
 [Что такое Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
  
-[Краткое руководство. Настройка среды разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Краткое руководство: Настройка среды разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540597"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237530"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
@@ -41,7 +41,7 @@ ms.locfileid: "76540597"
 | Хранилище BLOB-объектов Azure |Да |Да |Нет |
 | Azure Data Lake Store |Да |Нет |Нет |
 | Azure HDInsight (HDFS) |Да |Нет |Нет |
-| Azure HDInsight (Spark) |Да |Да |Нет |
+| Azure HDInsight (Spark) |Да |Нет |Нет |
 | Хранилище таблиц Azure |Да |Да |Нет |
 | Dynamics 365 (в сети) |Да |Нет |Нет |
 | Facebook |Да |Нет |Нет |
@@ -128,7 +128,7 @@ ms.locfileid: "76540597"
 | Хранилище BLOB-объектов Azure |Да |Да |Нет |Нет |
 | Azure Data Lake Store |Нет |Нет |Нет |Нет |
 | Azure HDInsight (HDFS) |Нет |Нет |Нет |Нет |
-| Azure HDInsight (Spark) |Да |Да |Нет |Нет |
+| Azure HDInsight (Spark) |Нет |Нет |Нет |Нет |
 | Хранилище таблиц Azure |Нет |Да |Нет |Нет |
 | Dynamics 365 (в сети) |Нет |Нет |Нет |Нет |
 | Facebook |Нет |Нет |Нет |Нет |
