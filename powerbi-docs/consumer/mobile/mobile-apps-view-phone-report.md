@@ -17,7 +17,7 @@ ms.locfileid: "73870514"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Просмотр отчетов Power BI, оптимизированных для телефона
 
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Телефон Android](./media/mobile-apps-view-phone-report/android-logo-40-px.png) |
 |:--- |:--- |
@@ -92,7 +92,7 @@ ms.locfileid: "73870514"
 ### <a name="drill-to-next-level"></a>Детализация до следующего уровня
 1. В отчете для телефона коснитесь многоточия ( **...** ) в правом верхнем углу визуального элемента и выберите **Развернуть в режиме фокуса**.
    
-    ![Развертывание в режиме фокуса](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Развернуть в режиме фокусировки](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     В этом примере в полосах отображаются значения состояний.
 2. Коснитесь значка просмотра ![Значок просмотра](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) в нижнем левом углу.

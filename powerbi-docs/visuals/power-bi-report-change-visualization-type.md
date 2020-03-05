@@ -37,7 +37,7 @@ ms.locfileid: "73871021"
 ## <a name="next-steps"></a>Дальнейшие действия
 Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).
 
-[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
+[Power BI — основные понятия](../consumer/end-user-basic-concepts.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

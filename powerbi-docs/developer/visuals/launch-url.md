@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Использование
 
 Используйте вызов `host.launchUrl()` API, передав URL-адрес назначения в виде строкового аргумента:
 
