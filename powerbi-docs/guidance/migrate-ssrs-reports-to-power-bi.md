@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527299"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290643"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Перенос отчетов SQL Server Reporting Services в Power BI
 
@@ -192,7 +192,6 @@ RDL-отчеты не могут использовать единый вход 
 
 - [Сведения об отчетах с разбивкой на страницы в Power BI Premium](../paginated-reports-report-builder-power-bi.md)
 - [Руководство по получению данных для отчетов с разбивкой на страницы](report-paginated-data-retrieval.md)
-- Видео на канале Guy in a Cube: [Общие сведения об отчетах с разбивкой на страницы в Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
 - [В каких случаях использовать отчеты с разбивкой на страницы в Power BI](report-paginated-or-power-bi.md)
 - [Отчеты с разбивкой на страницы в Power BI: Вопросы и ответы](../paginated-reports-faq.md)
 - [Вопросы и ответы по Power BI Premium](../service-premium-faq.md)

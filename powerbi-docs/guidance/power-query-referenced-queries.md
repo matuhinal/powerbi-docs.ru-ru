@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a0127a6ffa0d698a94e368532c44d0f83c362b42
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002404"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290584"
 ---
 # <a name="referencing-power-query-queries"></a>Ссылки на запросы Power Query
 
@@ -54,5 +54,5 @@ ms.locfileid: "75002404"
 
 - [Самостоятельная подготовка данных в Power BI](../service-dataflows-overview.md)
 - [Создание и использование потоков данных в Power BI](../service-dataflows-create-use.md)
-- Видео на канале Guy in a Cube: [Inside Power Query reference queries for Power BI and Excel](https://www.youtube.com/watch?v=3uKNNZqBIkg) (Сведения о ссылочных запросах Power Query для Power BI и Excel)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
-  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
+  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/03/2020
-  ms.locfileid: "78237783"
+  ms.lasthandoff: 03/04/2020
+  ms.locfileid: "78260699"
 landingContent:
 - title: Руководство по Power BI
   linkLists:
@@ -51,12 +51,20 @@ landingContent:
       url: import-modeling-data-reduction.md
     - text: Особенности автоматических даты и времени
       url: auto-date-time.md
+    - text: Отношения «один-к-одному»
+      url: relationships-one-to-one.md
+    - text: Связи "много ко многим".
+      url: relationships-many-to-many.md
+    - text: Активные и неактивные связи
+      url: relationships-active-inactive.md
+    - text: Двунаправленные связи
+      url: relationships-bidirectional-filtering.md
+    - text: Устранение неполадок со связями
+      url: relationships-troubleshoot.md
     - text: Особенности модели DirectQuery
       url: directquery-model-guidance.md
     - text: Рекомендации по разработке составной модели
       url: composite-model-guidance.md
-    - text: Руководство по связи "многие ко многим"
-      url: relationships-many-to-many.md
 - title: DAX
   linkLists:
   - linkListType: concept

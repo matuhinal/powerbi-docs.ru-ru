@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: Особенности автоматических даты и времени
               href: auto-date-time.md
-            - name: Руководство по связи "многие ко многим"
+            - name: Отношения «один-к-одному»
+              href: relationships-one-to-one.md
+            - name: Связи "много ко многим".
               href: relationships-many-to-many.md
+            - name: Активные и неактивные связи
+              href: relationships-active-inactive.md
+            - name: Двунаправленные связи
+              href: relationships-bidirectional-filtering.md
+            - name: Устранение неполадок со связями
+              href: relationships-troubleshoot.md
             - name: Особенности модели DirectQuery
               href: directquery-model-guidance.md
             - name: Рекомендации по разработке составной модели

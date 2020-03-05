@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040355"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290620"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Добавление подсказок в виде страниц отчета в визуальные элементы
 
@@ -88,5 +88,5 @@ ms.locfileid: "76040355"
 - [Создание подсказок на основе страниц отчетов в Power BI Desktop](../desktop-tooltips.md)
 - [Настройка подсказок в Power BI Desktop](../desktop-custom-tooltips.md)
 - [Усовершенствование отчетов Power BI с помощью визуальных элементов](../desktop-visual-elements-for-reports.md)
-- Видео на канале Guy in a Cube: [Создание подсказки страницы отчета Power BI в Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

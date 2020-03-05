@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040384"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290597"
 ---
 # <a name="use-report-page-drillthrough"></a>Использование детализации страницы отчета
 
@@ -70,5 +70,5 @@ ms.locfileid: "76040384"
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
 - [Использование детализации в Power BI Desktop](../desktop-drillthrough.md)
-- Видео на канале Guy in a Cube: [Подробнее о детализации в Power BI Desktop](https://www.youtube.com/watch?v=2x9lLHDbtDk)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)
