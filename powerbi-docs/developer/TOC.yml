@@ -140,6 +140,8 @@
           items:
             - name: Емкость и номера SKU в аналитике Power BI Embedded
               href: embedded-capacity.md
+            - name: Планирование емкостей
+              href: embedded-capacity-planning.md
             - name: Рекомендации по производительности
               href: embedded-performance-best-practices.md
             - name: Субъект-служба
