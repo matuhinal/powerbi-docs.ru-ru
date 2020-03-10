@@ -1,0 +1,121 @@
+### YamlMime:Landing
+title: Создание отчетов и панелей мониторинга в Power BI — документация
+summary: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Создание отчетов и панелей мониторинга в Power BI — документация
+  description: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 592a7bff1f511158de929ce0a225f26558a1997b
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924191"
+landingContent:
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Использование обновленной ленты
+      url: ../desktop-ribbon.md
+    - text: Общие сведения о специальных возможностях
+      url: ../desktop-accessibility-overview.md
+    - text: Получение примеров данных
+      url: ../sample-datasets.md
+  - linkListType: tutorial
+    links:
+    - text: Импорт и открытие пакетов образцов
+      url: ../sample-tutorial-connect-to-the-samples.md
+  - linkListType: concept
+    links:
+    - text: Представление "Отчет"
+      url: ../desktop-report-view.md
+- title: Визуализации
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о визуализациях
+      url: ../visuals/power-bi-report-visualizations.md
+    - text: Типы визуализации
+      url: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+  - linkListType: how-to-guide
+    links:
+    - text: Советы и рекомендации по работе с картами
+      url: ../visuals/power-bi-map-tips-and-tricks.md
+    - text: Экспорт данных из визуального элемента
+      url: ../visuals/power-bi-visualization-export-data.md
+    - text: Срезы
+      url: ../visuals/power-bi-visualization-slicers.md
+- title: Конструирование отчетов
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Темы отчетов
+      url: ../desktop-report-themes.md
+    - text: Текстовые поля и фигуры
+      url: ../power-bi-reports-add-text-and-shapes.md
+  - linkListType: how-to-guide
+    links:
+    - text: Условное форматирование таблицы
+      url: ../desktop-conditional-table-formatting.md
+    - text: Использование группирования и разделения на ячейки
+      url: ../desktop-grouping-and-binning.md
+    - text: Добавление закладок в отчет
+      url: ../desktop-bookmarks.md
+- title: Проектирование взаимодействия между отчетами
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Представление отчетов в Power BI Desktop
+      url: ../desktop-report-view.md
+  - linkListType: how-to-guide
+    links:
+    - text: Изучение данных с помощью функции "Вопросы и ответы"
+      url: ../power-bi-tutorial-q-and-a.md
+    - text: Использование детализации в отчете
+      url: ../desktop-drillthrough.md
+    - text: Добавление закладок в отчет
+      url: ../desktop-bookmarks.md
+    - text: Добавление фильтров в отчет
+      url: ../power-bi-report-filter.md
+- title: Отчеты с разбивкой на страницы в Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что представляют собой отчеты с разбивкой на страницы в Power BI?
+      url: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - text: Построитель отчетов в Power BI
+      url: ../paginated-reports/report-builder-power-bi.md
+  - linkListType: concept
+    links:
+    - text: Примеры выражений
+      url: ../paginated-reports/report-builder-expression-examples.md
+    - text: Таблицы, матрицы и списки
+      url: ../paginated-reports/report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание отчета на основе общего набора данных
+      url: ../paginated-reports/report-builder-shared-datasets.md
+    - text: Создание параметров
+      url: ../paginated-reports/paginated-reports-parameters.md
+- title: Панели мониторинга
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Общие сведения о панелях мониторинга
+      url: ../service-dashboards.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание панели мониторинга
+      url: ../service-dashboard-create.md
+    - text: Закрепление плитки на панели мониторинга
+      url: ../service-share-dashboards.md
+    - text: Добавление изображений или видео на панель мониторинга
+      url: ../service-dashboard-add-widget.md

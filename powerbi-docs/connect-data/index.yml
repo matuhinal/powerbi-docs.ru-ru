@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Подключение к данным в Power BI — документация
+summary: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Подключение к данным в Power BI — документация
+  description: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924145"
+landingContent:
+- title: Подключение к данным в Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Источники данных
+      url: ../desktop-data-sources.md
+    - text: Представление данных в Power BI Desktop
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: Импорт данных из веб-страницы
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: Шлюзы
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Локальные шлюзы данных
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: Подключение к данным локального экземпляра SQL Server
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: Использование персональных шлюзов
+      url: ../service-gateway-personal-mode.md
+- title: Приложения-шаблоны
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что представляют собой приложения-шаблоны?
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: Создание приложений-шаблонов
+      url: ../service-template-apps-create.md
+    - text: Распространение приложений-шаблонов в вашей организации
+      url: ../service-template-apps-install-distribute.md
+- title: Обновить данные
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Обновление данных
+      url: ../refresh-data.md
+    - text: Добавочное обновление в Power BI Premium
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка запланированного обновления
+      url: ../refresh-scheduled-refresh.md

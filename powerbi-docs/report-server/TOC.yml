@@ -1,0 +1,124 @@
+- name: "Cервере отчетов Power\_BI"
+  expanded: true
+  items:
+    - name: Обзор
+      expanded: true
+      items:
+        - name: Что такое Сервер отчетов Power BI?
+          href: get-started.md
+        - name: Сравнение службы и Сервера отчетов Power BI
+          href: compare-report-server-service.md
+    - name: Учебники
+      expanded: true
+      items:
+        - name: Изучение Сервера отчетов Power BI в виртуальной машине
+          href: tutorial-explore-report-server-web-portal.md
+    - name: Основные понятия
+      expanded: true
+      items:
+        - name: Что нового
+          href: whats-new.md
+        - name: Обзор функций администратора
+          href: admin-handbook-overview.md
+        - name: Журнал изменений
+          href: changelog.md
+        - name: Сроки предоставления поддержки
+          href: support-timeline.md
+        - name: "Поддержка Always\_Encrypted"
+          href: always-encrypted-support.md
+        - name: Требования к оборудованию и программному обеспечению
+          href: system-requirements.md
+        - name: Поддержка браузеров
+          href: browser-support.md
+        - name: Основные сведения о сервере отчетов
+          items:
+            - name: Запланированное обновление отчета Power BI
+              href: scheduled-refresh.md
+            - name: Источники данных отчетов Power BI
+              href: data-sources.md
+            - name: Источники данных для отчетов с разбивкой на страницы
+              href: connect-data-sources.md
+            - name: Подписки
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: Использование мобильного приложения
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: Решение проблем запланированного обновления
+              href: scheduled-refresh-troubleshoot.md
+        - name: Сервер отчетов для разработчиков
+          items:
+            - name: Сервер отчетов для разработчиков
+              href: developer-handbook-overview.md
+            - name: Управление средством просмотра отчетов
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: Разработка расширений
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: Встроенные отчеты
+              href: quickstart-embed.md
+    - name: Практическое руководство
+      items:
+        - name: Установка Power BI Desktop
+          href: install-powerbi-desktop.md
+        - name: Установите Построитель отчетов.
+          href: install-report-builder.md
+        - name: Основные сведения о сервере отчетов
+          items:
+            - name: Создание отчета Power BI для сервера отчетов
+              href: quickstart-create-powerbi-report.md
+            - name: Управление содержимым сервера отчетов
+              href: getting-around.md
+            - name: Безопасность на уровне строк на сервере отчетов
+              href: row-level-security-report-server.md
+            - name: Создание отчета с разбивкой на страницы для сервера отчетов
+              href: quickstart-create-paginated-report.md
+            - name: Ввод данных непосредственно в отчет с разбивкой на страницы
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: Работа с КПЭ
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: Доступ к общим наборам данных как к каналам OData
+              href: access-dataset-odata.md
+            - name: "Изменение строк подключения к источникам данных с помощью\_PowerShell"
+              href: connect-data-source-apis.md
+            - name: Настройка запланированного обновления
+              href: configure-scheduled-refresh.md
+            - name: Добавление комментариев к отчету
+              href: add-comments.md
+        - name: Сервер отчетов для администраторов
+          items:
+            - name: Установка сервера отчетов
+              href: install-report-server.md
+            - name: Поиск ключа продукта
+              href: find-product-key.md
+            - name: Обновление сервера отчетов
+              href: upgrade.md
+            - name: Перенос сервера отчетов
+              href: migrate-report-server.md
+            - name: "Настройка Kerberos для использования отчетов Power\_BI"
+              href: configure-kerberos-powerbi-reports.md
+            - name: Удаленная настройка доступа для мобильного приложения
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: Настройка WAP и AD FS
+              href: connect-adfs-wap-report-server.md
+            - name: Настройка сервера отчетов с помощью прокси-приложения Azure
+              href: azure-application-proxy.md
+            - name: "Удаленный мобильный доступ с помощью Azure\_AD"
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: Размещение книг Excel
+              href: excel-oos.md
+    - name: Справка
+      items:
+        - name: API-интерфейсы REST
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: API SOAP
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: Доступ к URL
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: Расширения
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: Ресурсы
+      items:
+        - name: Технический документ о планировании ресурсов
+          href: capacity-planning.md
+        - name: "Соответствие для модулей подготовки отчетов в формате\_PDF"
+          href: rendering-extension-support.md

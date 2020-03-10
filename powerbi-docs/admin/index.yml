@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Документация администратора Power BI
-summary: Документация администратора Power BI содержит сведения и ответы от экспертов, которые будут полезны вам вне зависимости от способа работы с Power BI.
+title: Power BI для администраторов и предприятий — документация
+summary: Из документации по Power BI для администраторов и предприятий можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
 metadata:
-  title: Документация администратора Power BI
-  description: Документация администратора Power BI содержит сведения и ответы от экспертов, которые будут полезны вам вне зависимости от способа работы с Power BI.
+  title: Power BI для администраторов и предприятий — документация
+  description: Из документации по Power BI для администраторов и предприятий можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959499"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919454"
 landingContent:
-- title: Сведения о Power BI для администраторов
+- title: Power BI для администраторов и предприятий
   linkLists:
   - linkListType: overview
     links:
@@ -46,6 +46,20 @@ landingContent:
     - text: Добавление Power BI с партнером по Office 365
       url: ../service-admin-syndication-partner.md
 - title: Клиенты
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Где располагается мой клиент?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Поиск пользователей, выполнивших вход
+      url: ../service-admin-access-usage.md
+    - text: Аудит Power BI
+      url: ../service-admin-auditing.md
+    - text: Отслеживание состояния службы
+      url: ../service-admin-health.md
+    - text: Закрытие учетной записи Power BI
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
   linkLists:
   - linkListType: how-to-guide
     links:

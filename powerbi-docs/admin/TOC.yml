@@ -1,4 +1,4 @@
-- name: "Документация администратора Power\_BI"
+- name: "Power\_BI для администраторов и предприятий"
   href: index.yml
   expanded: true
   items:
@@ -9,8 +9,8 @@
           href: ../service-admin-administering-power-bi-in-your-organization.md
         - name: Где располагается мой клиент?
           href: ../service-admin-where-is-my-tenant-located.md
-        - name: "Миграция в Германские регионы Go\_Local"
-          href: service-admin-migrate-data-germany.md
+        - name: Что такое Power BI Premium?
+          href: ../service-premium-what-is.md
     - name: Основные понятия
       expanded: true
       items:
@@ -20,6 +20,20 @@
           href: ../service-admin-faq.md
         - name: Часто задаваемые вопросы по высокой доступности и отработке отказа
           href: ../service-admin-failover.md
+        - name: "Миграция в Германские регионы Go\_Local"
+          href: service-admin-migrate-data-germany.md
+        - name: Вопросы и ответы для клиентов облачных служб в Германии
+          href: ../service-govde-faq.md
+        - name: "Power\_BI Premium"
+          items:
+            - name: Управление емкостями Premium
+              href: ../service-premium-capacity-manage.md
+            - name: Оптимизация емкостей Premium
+              href: ../service-premium-capacity-optimize.md
+            - name: Сценарии использования емкостей Premium
+              href: ../service-premium-capacity-scenarios.md
+            - name: Вопросы и ответы по Power BI Premium
+              href: ../service-premium-faq.md
     - name: Практическое руководство
       items:
         - name: Лицензирования и регистрация
@@ -28,6 +42,10 @@
               href: ../service-admin-licensing-organization.md
             - name: Купить Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
+            - name: Power BI для правительства США
+              href: ../service-govus-overview.md
+            - name: Внедрение в правительственной организации США
+              href: ../service-govus-signup.md
             - name: "Регистрация с пробной версией Microsoft\_365"
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: "Добавление Power\_BI в партнерскую подписку Microsoft\_365"
@@ -44,6 +62,8 @@
           href: ../service-admin-closing-your-account.md
         - name: Использование службы Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
+        - name: "Управление формой для входа в Power\_BI Desktop"
+          href: ../desktop-admin-sign-in-form.md
         - name: Защита данных
           items:
             - name: Общие сведения о защите данных
@@ -58,6 +78,30 @@
           href: ../service-admin-rls.md
         - name: Настройка мобильных приложений в Intune
           href: ../service-admin-mobile-intune.md
+        - name: "Power\_BI Premium"
+          items:
+            - name: Приобретение Power BI Premium
+              href: ../service-admin-premium-purchase.md
+            - name: Настройка и использование емкостей
+              href: ../service-admin-premium-manage.md
+            - name: Настройка рабочих нагрузок
+              href: ../service-admin-premium-workloads.md
+            - name: Мониторинг емкостей в приложении
+              href: ../service-admin-premium-monitor-capacity.md
+            - name: Мониторинг метрик рабочих нагрузок категории "Премиум"
+              href: ../service-premium-metrics-app.md
+            - name: Мониторинг емкостей на портале администрирования
+              href: ../service-admin-premium-monitor-portal.md
+            - name: Настройка больших моделей (предварительная версия)
+              href: ../service-premium-large-models.md
+            - name: Настройка поддержки нескольких регионов
+              href: ../service-admin-premium-multi-geo.md
+            - name: Использование собственных ключей шифрования
+              href: ../service-encryption-byok.md
+            - name: Перезагрузка емкости Premium
+              href: ../service-admin-premium-restart.md
+            - name: Подключение к наборам данных с помощью клиентских приложений и средств
+              href: ../service-premium-connect-tools.md
     - name: Справка
       items:
         - name: 'PowerShell, REST API и пакет SDK для .NET'
@@ -73,3 +117,23 @@
           href: ../service-admin-governance.md
         - name: Безопасность Power BI
           href: ../service-admin-power-bi-security.md
+        - name: Уровни конфиденциальности
+          href: ../desktop-privacy-levels.md
+    - name: Устранение неполадок
+      items:
+        - name: Не удается войти?
+          href: ../power-bi-cannot-sign-in.md
+        - name: "Варианты поддержки Power\_BI"
+          href: ../service-support-options.md
+        - name: Уведомления о перебое в работе служб
+          href: ../service-interruption-notifications.md
+        - name: Забыли пароль для Power BI?
+          href: ../service-admin-forgot-your-password.md
+        - name: Запись дополнительных диагностических сведений для Power BI
+          href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+        - name: Запасной адрес электронной почты для Power BI
+          href: ../service-admin-alternate-email-address-for-power-bi.md
+        - name: Использование одних и тех же учетных данных для входа в Power BI и Azure
+          href: ../service-admin-how-to-use-the-same-account-as-azure.md
+        - name: Известные проблемы с выделенными пользователями Office 365
+          href: ../service-admin-office-365-dedicated-known-issues.md

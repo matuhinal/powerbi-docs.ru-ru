@@ -1,0 +1,115 @@
+- name: "Преобразование, формирование и моделирование данных в Power\_BI"
+  href: index.yml
+  expanded: true
+  items:
+    - name: Обзор
+      expanded: true
+      items:
+        - name: Обзор редактора запросов
+          href: ../desktop-query-overview.md
+        - name: Самостоятельная подготовка данных с помощью потоков данных
+          href: ../service-dataflows-overview.md
+    - name: Учебники
+      expanded: true
+      items:
+        - name: Создание собственных мер
+          href: ../desktop-tutorial-create-measures.md
+        - name: Создание вычисляемых столбцов
+          href: ../desktop-tutorial-create-calculated-columns.md
+    - name: Основные понятия
+      expanded: true
+      items:
+        - name: Создание связей модели
+          href: ../desktop-relationships-understand.md
+        - name: Работа с представлением моделирования
+          href: ../desktop-modeling-view.md
+        - name: Управление агрегатами
+          href: ../desktop-aggregations.md
+        - name: Работа с составными моделями
+          href: ../desktop-composite-models.md
+        - name: Применение связи "многие ко многим"
+          href: ../desktop-many-to-many-relationships.md
+        - name: Управление режимом хранения
+          href: ../desktop-storage-mode.md
+        - name: Включение двусторонней кроссфильтрации
+          href: ../desktop-bidirectional-filtering.md
+        - name: "Работа с многомерными моделями в Power\_BI"
+          href: ../desktop-default-member-multidimensional-models.md
+    - name: Практические руководства
+      items:
+        - name: Общие задачи по работе с запросами
+          href: ../desktop-common-query-tasks.md
+        - name: Создание и использование связей
+          href: ../desktop-create-and-manage-relationships.md
+        - name: Использование панели "Аналитика"
+          href: ../desktop-analytics-pane.md
+        - name: Работа с представлением данных
+          href: ../desktop-data-view.md
+        - name: "Основы применения\_DAX"
+          href: ../desktop-quickstart-learn-dax-basics.md
+        - name: Работа с представлением связей
+          href: ../desktop-relationship-view.md
+        - name: Преобразование и формирование данных
+          items:
+            - name: Объединение двоичных файлов
+              href: ../desktop-combine-binaries.md
+            - name: "Использование Аналитики\_ИИ (предварительная версия)"
+              href: ../desktop-ai-insights.md
+        - name: Моделирование данных
+          items:
+            - name: Создание быстрых мер для выполнения стандартных вычислений
+              href: ../desktop-quick-measures.md
+            - name: "Создание и использование параметров What\_If для визуализации переменных"
+              href: ../desktop-what-if.md
+            - name: "Указание категорий данных в Power\_BI\_Desktop"
+              href: ../desktop-data-categorization.md
+            - name: "Добавление тегов к полям со штрихкодом в Power\_BI для мобильных приложений"
+              href: ../desktop-mobile-barcodes.md
+            - name: "Настройка географических фильтров в Power\_BI для мобильных приложений"
+              href: ../desktop-mobile-geofiltering.md
+            - name: Создание вычисляемых столбцов
+              href: ../desktop-calculated-columns.md
+            - name: Создание вычисляемых таблиц
+              href: ../desktop-calculated-tables.md
+            - name: Создание мер для анализа данных
+              href: ../desktop-measures.md
+            - name: Импорт и отображение ключевых показателей эффективности
+              href: ../desktop-import-and-display-kpis.md
+        - name: Самостоятельная подготовка данных
+          items:
+            - name: Создание и использование потоков данных
+              href: ../service-dataflows-create-use.md
+            - name: Использование расширенного вычислительного модуля для потоков данных
+              href: ../service-dataflows-enhanced-compute-engine.md
+            - name: Вычисляемые сущности с Power BI Premium
+              href: ../service-dataflows-computed-entities-premium.md
+            - name: Подключение к источникам данных с помощью потоков данных
+              href: ../service-dataflows-data-sources.md
+            - name: Использование потоков данных с локальными источниками данных
+              href: ../service-dataflows-on-premises-gateways.md
+            - name: Связывание сущностей из разных потоков данных
+              href: ../service-dataflows-linked-entities.md
+            - name: Использование добавочного обновления для потоков данных
+              href: ../service-dataflows-incremental-refresh.md
+            - name: Ресурсы для разработчиков потоков данных
+              href: ../service-dataflows-developer-resources.md
+            - name: Подключение к потокам данных в Power BI Desktop
+              href: ../desktop-connect-dataflows.md
+            - name: Потоки данных и интеграция Azure Data Lake (предварительная версия)
+              href: ../service-dataflows-azure-data-lake-integration.md
+            - name: "Подключение Azure Data Lake\_Storage 2-го\_поколения для хранения потоков данных"
+              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: Настройка параметров потоков данных рабочей области (предварительная версия)
+              href: ../service-dataflows-configure-workspace-storage-settings.md
+            - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
+              href: ../service-dataflows-add-cdm-folder.md
+            - name: "Интеграция машинного обучения с Power\_BI"
+              href: ../service-machine-learning-integration.md
+            - name: "Использование Cognitive Services в Power\_BI"
+              href: ../service-cognitive-services.md
+            - name: "Автоматизированное машинное обучение в Power\_BI"
+              href: ../service-machine-learning-automated.md
+    - name: Справка
+      items:
+        - name: Ярлыки редактора формул
+          href: ../desktop-formula-editor.md

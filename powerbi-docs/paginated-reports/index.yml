@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Отчеты с разбивкой на страницы в Power BI — документация
+summary: Из документации по отчетам с разбивкой на страницы в Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Отчеты с разбивкой на страницы в Power BI — документация
+  description: Из документации по отчетам с разбивкой на страницы в Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924605"
+landingContent:
+- title: Сведения об отчетах с разбивкой на страницы в Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что представляют собой отчеты с разбивкой на страницы в Power BI?
+      url: paginated-reports-report-builder-power-bi.md
+    - text: Построитель отчетов в Power BI
+      url: report-builder-power-bi.md
+- title: Начало работы
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Создание и отправка отчета с разбивкой на страницы
+      url: paginated-reports-quickstart-aw.md
+  - linkListType: concept
+    links:
+    - text: Навигация в представлении конструктора отчетов
+      url: paginated-reports-report-design-view.md
+    - text: Планирование отчета с разбивкой на страницы
+      url: report-builder-planning-report.md
+- title: Подключение к данным
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Данные в построителе отчетов
+      url: report-builder-data.md
+    - text: Поддерживаемые источники данных
+      url: paginated-reports-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание внедренного источника данных
+      url: paginated-reports-embedded-data-source.md
+    - text: Создание внедренного набора данных
+      url: paginated-reports-create-embedded-dataset.md
+- title: Создавать отчеты
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Таблицы, матрицы и списки
+      url: report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание отчета на основе общего набора данных
+      url: report-builder-shared-datasets.md
+    - text: Создание параметров
+      url: paginated-reports-parameters.md
+- title: Уточнение и публикация отчетов
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Примеры выражений
+      url: report-builder-expression-examples.md
+    - text: Разбивка отчета на страницы
+      url: paginated-reports-pagination.md
+  - linkListType: how-to-guide
+    links:
+    - text: Передача параметра отчета в URL-адресе
+      url: report-builder-url-pass-parameters.md
+    - text: Публикация отчета с разбивкой на страницы
+      url: paginated-reports-save-to-power-bi-service.md

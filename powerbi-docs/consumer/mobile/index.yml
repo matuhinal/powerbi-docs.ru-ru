@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Мобильные приложения Power BI — документация
+summary: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Мобильные приложения Power BI — документация
+  description: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923915"
+landingContent:
+- title: Сведения о мобильных приложениях Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое мобильные приложения?
+      url: mobile-apps-for-mobile-devices.md
+    - text: Что нового в мобильных приложениях?
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: Домашняя страница мобильного приложения
+      url: mobile-apps-home-page.md
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Начало работы с Android
+      url: mobile-android-app-get-started.md
+    - text: Начало работы с iOS
+      url: mobile-iphone-app-get-started.md
+    - text: Начало работы с Windows 10
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: Изучение панелей мониторинга и отчетов
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: Обзор
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Как задавать вопросы о данных
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: Просмотр данных в автономном режиме
+      url: mobile-apps-offline-data.md
+    - text: Предоставление общего доступа к панели мониторинга или отчету
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: Настройка оповещений о данных
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: Локальные отчеты
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Просмотр локальных отчетов и ключевых показателей эффективности
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: Подключение к локальным отчетам с помощью OAuth
+      url: mobile-oauth-ssrs.md

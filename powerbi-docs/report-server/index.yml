@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Сервер отчетов Power BI — документация
+summary: Из документации по серверу отчетов Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Сервер отчетов Power BI — документация
+  description: Из документации по серверу отчетов Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924628"
+landingContent:
+- title: Сведения о сервере отчетов Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Сервер отчетов Power BI?
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: Сравнение сервера отчетов и службы
+      url: compare-report-server-service.md
+    - text: Новые возможности сервера отчетов Power BI
+      url: whats-new.md
+- title: Начало работы
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Изучение Сервера отчетов Power BI в виртуальной машине
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: Обзор функций администратора
+      url: admin-handbook-overview.md
+    - text: Обзор для разработчиков
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: Установка Power BI Desktop
+      url: install-powerbi-desktop.md
+    - text: Установите Построитель отчетов.
+      url: install-report-builder.md
+- title: Сервер отчетов для администраторов
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Требования к оборудованию и программному обеспечению
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: Установка сервера отчетов
+      url: install-report-server.md
+    - text: Поиск ключа продукта для сервера отчетов
+      url: find-product-key.md
+    - text: Миграция установки сервера отчетов
+      url: migrate-report-server.md
+    - text: Настройка Kerberos
+      url: configure-kerberos-powerbi-reports.md
+- title: Сервер отчетов для авторов отчетов
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Запланированное обновление отчета Power BI
+      url: scheduled-refresh.md
+    - text: Источники данных отчетов Power BI
+      url: data-sources.md
+    - text: Источники данных для отчетов с разбивкой на страницы
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание отчета Power BI
+      url: quickstart-create-powerbi-report.md
+    - text: Управление содержимым на веб-портале
+      url: getting-around.md
+    - text: Доступ к общим наборам данных как к каналам OData
+      url: access-dataset-odata.md
+    - text: Защита на уровне строк
+      url: row-level-security-report-server.md

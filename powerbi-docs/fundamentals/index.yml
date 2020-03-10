@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Начало работы с Power BI — документация
+summary: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+metadata:
+  title: Начало работы с Power BI — документация
+  description: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924375"
+landingContent:
+- title: Что такое Power BI?
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Power BI?
+      url: ../power-bi-overview.md
+    - text: Что такое Power BI Desktop?
+      url: ../desktop-what-is-desktop.md
+    - text: Что такое служба Power BI?
+      url: ../power-bi-service-overview.md
+    - text: Сравнение Power BI Desktop и Power BI
+      url: ../service-service-vs-desktop.md
+- title: Что нового?
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Новые возможности Power BI Desktop
+      url: ../desktop-latest-update.md
+    - text: Новые возможности службы
+      url: ../service-whats-new.md
+- title: Начало работы с Learn
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Создание и использование аналитических отчетов
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: Получение данных в Power BI Desktop
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: Лицензирование
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Регистрация в Power BI
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: Функций по типам лицензий
+      url: ../service-features-license-type.md
+- title: Ресурсы
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Видео о службе Power BI
+      url: ../videos.md
+    - text: Видеоматериалы по Power BI Desktop
+      url: ../desktop-videos.md
+    - text: Вебинары
+      url: ../webinars.md

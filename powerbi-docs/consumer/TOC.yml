@@ -1,8 +1,9 @@
-- name: Power BI для потребителей
-  href: power-bi-consumer-landing.md
 - name: "Служба Power\_BI для потребителей"
+  href: index.yml
+  expanded: true
   items:
     - name: Обзор
+      expanded: true
       items:
         - name: Что такое потребитель Power BI?
           href: end-user-consumer.md
@@ -11,6 +12,7 @@
         - name: "Краткий обзор службы Power\_BI"
           href: end-user-reading-view.md
     - name: Начало работы
+      expanded: true
       items:
         - name: Навигация в службе Power BI
           href: end-user-experience.md
@@ -20,7 +22,7 @@
           href: end-user-q-and-a.md
         - name: Первый вход в систему
           href: end-user-sign-in.md
-        - name: Как узнать свой тип лицензии
+        - name: "Какая у меня лицензия Power\_BI?"
           href: end-user-license.md
         - name: Работа с "новым видом"
           href: ../service-new-look.md
@@ -138,109 +140,3 @@
           href: end-user-browsers.md
         - name: Типы краткой аналитики
           href: end-user-insight-types.md
-- name: Мобильные приложения Power BI
-  items:
-    - name: Обзор
-      items:
-        - name: Что такое мобильные приложения?
-          href: mobile/mobile-apps-for-mobile-devices.md
-        - name: Знакомство с начальной страницей
-          href: mobile/mobile-apps-home-page.md
-    - name: Краткие руководства
-      items:
-        - name: Изучение панелей мониторинга и отчетов
-          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-    - name: Учебники
-      items:
-        - name: Вопросы в мобильных приложениях iOS
-          href: mobile/tutorial-mobile-apps-ios-qna.md
-    - name: Основные понятия
-      items:
-        - name: Что нового в мобильных приложениях
-          href: mobile/mobile-whats-new-in-the-mobile-apps.md
-        - name: Получение реальных данных с помощью мобильных приложений
-          href: mobile/mobile-apps-data-in-real-world-context.md
-        - name: Просмотр данных в автономном режиме в мобильных приложениях
-          href: mobile/mobile-apps-offline-data.md
-        - name: Приложение Power BI для смешанной реальности (предварительная версия)
-          href: mobile/mobile-mixed-reality-app.md
-    - name: Практическое руководство
-      items:
-        - name: Все мобильные приложения
-          items:
-            - name: Панели мониторинга для мобильных приложений Power BI
-              href: mobile/mobile-apps-view-dashboard.md
-            - name: Отчеты в мобильных приложениях
-              href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: Работа с плитками в мобильных приложениях
-              href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: "Общий доступ к панели мониторинга из мобильного приложения Power\_BI"
-              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-            - name: Избранное в мобильных приложениях
-              href: mobile/mobile-apps-favorites.md
-            - name: Параметры взаимодействия (только для телефона)
-              href: mobile/mobile-app-interaction-settings.md
-            - name: Настройка оповещений о данных в мобильных приложениях Power BI
-              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Получение уведомлений в мобильных приложениях Power BI
-              href: mobile/mobile-apps-notification-center.md
-            - name: Создание прямой ссылки на конкретный элемент
-              href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: "Фильтрация отчета по расположению в мобильных приложениях Power\_BI"
-              href: mobile/mobile-apps-geographic-filtering.md
-            - name: Подключение к Reporting Services с помощью OAuth
-              href: mobile/mobile-oauth-ssrs.md
-        - name: iOS и Android
-          items:
-            - name: 'Просмотр отчетов, оптимизированных для телефона'
-              href: mobile/mobile-apps-view-phone-report.md
-            - name: Просмотр локальных отчетов в мобильных приложениях
-              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: "Доступ к содержимому из внешней организации\_(B2B)"
-              href: mobile/mobile-apps-b2b.md
-            - name: Сканирование QR-кода Power BI с помощью телефона
-              href: mobile/mobile-apps-qr-code.md
-            - name: Добавление заметок и предоставление доступа в мобильных приложениях
-              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Сканирование штрихкода из мобильного приложения Power BI
-              href: mobile/mobile-apps-scan-barcode-iphone.md
-            - name: Настройка с помощью управления мобильными устройствами
-              href: mobile/mobile-app-configuration.md
-        - name: iOS
-          items:
-            - name: Начало работы с приложением для iOS
-              href: mobile/mobile-iphone-app-get-started.md
-            - name: 'Защита с помощью Face ID, Touch ID или секретного кода'
-              href: mobile/mobile-ios-native-secure-access.md
-            - name: Виртуальный аналитик "Вопросы и ответы" в мобильных приложениях iOS
-              href: mobile/mobile-apps-ios-qna.md
-            - name: Интеграция мобильного приложения Power BI с командами Siri
-              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
-            - name: Интеграция со службой поиска устройств iOS
-              href: mobile/mobile-apps-iOS-search-integration.md
-            - name: Приложение Power BI для Apple Watch
-              href: mobile/mobile-apple-watch.md
-        - name: Устройства Android
-          items:
-            - name: Приступая к работе с приложением Android
-              href: mobile/mobile-android-app-get-started.md
-            - name: Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным)
-              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-            - name: Исправление ошибки "Need to update Android System Webview" (Необходимо обновить компонент Android System Webview)
-              href: mobile/mobile-android-error-update-android-system-webview.md
-        - name: Приложение Power BI для устройств Windows 10
-          items:
-            - name: Приступая к работе с приложением Windows 10
-              href: mobile/mobile-windows-10-phone-app-get-started.md
-            - name: Закрепление панели мониторинга на начальном экране
-              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Просмотр мобильных отчетов и ключевых показателей эффективности Reporting Services
-              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Просмотр данных Power BI в Surface Hub
-              href: mobile/mobile-windows-10-app-presentation-mode.md
-            - name: Единый вход в приложении Windows
-              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-    - name: Ресурсы
-      items:
-        - name: Поддерживаемые языки в мобильных приложениях
-          href: mobile/mobile-apps-supported-languages.md

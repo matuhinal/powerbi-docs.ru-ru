@@ -1,0 +1,243 @@
+### YamlMime:Hub
+title: Документация по Power BI
+summary: Power BI позволяет улучшить аналитические данные и повысить их ценность. Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+brand: power-bi
+metadata:
+  title: Документация по Power BI
+  description: Power BI позволяет улучшить аналитические данные и повысить их ценность. Экспертная информация и ответы на вопросы, независимо от того, как вы используете Power BI.
+  services: service
+  ms.service: powerbi
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: ad1e273947744f2d7611f6a4a03940e52f2a64fa
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924306"
+highlightedContent:
+  items:
+  - title: Начало работы с Power BI Desktop
+    itemType: get-started
+    url: desktop-getting-started.md
+  - title: Регистрация в службе Power BI
+    itemType: how-to-guide
+    url: service-self-service-signup-for-power-bi.md
+  - title: Способы обеспечения совместной работы и совместного использования
+    itemType: concept
+    url: service-how-to-collaborate-distribute-dashboards-reports.md
+conceptualContent:
+  items:
+  - title: 'Power BI: Начало работы'
+    links:
+    - url: power-bi-overview.md
+      itemType: overview
+      text: Что такое Power BI?
+    - url: desktop-what-is-desktop.md
+      itemType: overview
+      text: Что такое Power BI Desktop?
+    - url: power-bi-service-overview.md
+      itemType: overview
+      text: Что такое служба Power BI?
+    footerLink:
+      url: fundamentals/index.yml
+      text: Еще
+  - title: Power BI для потребителей
+    links:
+    - url: consumer/end-user-consumer.md
+      itemType: get-started
+      text: Являюсь ли я потребителем Power BI?
+    - url: consumer/end-user-experience.md
+      itemType: get-started
+      text: Навигация в службе Power BI
+    - url: consumer/end-user-dashboards.md
+      itemType: concept
+      text: Что такое панель мониторинга?
+    footerLink:
+      url: consumer/index.yml
+      text: Еще
+  - title: Администрирование Power BI
+    links:
+    - url: service-admin-administering-power-bi-in-your-organization.md
+      itemType: overview
+      text: Что такое администрирование Power BI?
+    - url: service-admin-licensing-organization.md
+      itemType: concept
+      text: Лицензирование в организации
+    - url: service-admin-portal.md
+      itemType: concept
+      text: Портал администрирования
+    footerLink:
+      url: admin/index.yml
+      text: Еще
+  - title: Разработка в Power BI
+    links:
+    - url: developer/what-can-you-do.md
+      itemType: overview
+      text: Возможности разработчиков
+    - url: power-bi-custom-visuals.md
+      itemType: overview
+      text: Разработчики и визуальные элементы
+    - url: developer/embedding.md
+      itemType: overview
+      text: Встроенная аналитика
+    footerLink:
+      url: developer/index.yml
+      text: Еще
+  - title: Подключение к данным
+    links:
+    - url: desktop-quickstart-connect-to-data.md
+      itemType: tutorial
+      text: Подключение к данным
+    - url: service-gateway-onprem.md
+      itemType: concept
+      text: Локальные шлюзы данных
+    - url: refresh-data.md
+      itemType: concept
+      text: Обновление данных
+    footerLink:
+      url: connect-data/index.yml
+      text: Еще
+  - title: Преобразование и формирование данных
+    links:
+    - url: desktop-analytics-pane.md
+      itemType: how-to-guide
+      text: Использование панели "Аналитика"
+    - url: desktop-common-query-tasks.md
+      itemType: concept
+      text: Общие задачи по работе с запросами
+    - url: desktop-shape-and-combine-data.md
+      itemType: tutorial
+      text: Формирование и объединение данных.
+    footerLink:
+      url: transform-model/index.yml
+      text: Еще
+  - title: Модель данных
+    links:
+    - url: desktop-add-custom-column.md
+      itemType: how-to-guide
+      text: Добавление настраиваемого столбца
+    - url: desktop-tutorial-create-calculated-columns.md
+      itemType: tutorial
+      text: Создание вычисляемых столбцов
+    - url: desktop-create-and-manage-relationships.md
+      itemType: how-to-guide
+      text: Создание и использование связей
+    footerLink:
+      url: transform-model/index.yml
+      text: Еще
+  - title: Создание отчетов и панелей мониторинга
+    links:
+    - url: desktop-report-themes.md
+      itemType: concept
+      text: Темы отчетов
+    - url: desktop-conditional-table-formatting.md
+      itemType: concept
+      text: Что такое отчеты с разбивкой на страницы?
+    - url: paginated-reports/paginated-reports-report-builder-power-bi.md
+      itemType: how-to-guide
+      text: Создание панели мониторинга
+    footerLink:
+      url: create-reports/index.yml
+      text: Еще
+  - title: Совместная работа и общий доступ
+    links:
+    - url: service-share-dashboards.md
+      itemType: concept
+      text: Совместное использование информационных панелей и отчетов
+    - url: service-create-the-new-workspaces.md
+      itemType: how-to-guide
+      text: Создание новых рабочих областей
+    - url: service-datasets-across-workspaces.md
+      itemType: concept
+      text: Знакомство с общими наборами данных
+    footerLink:
+      url: collaborate-share/index.yml
+      text: Еще
+  - title: Интеграция между продуктами
+    links:
+    - url: service-azure-and-power-bi.md
+      itemType: concept
+      text: Azure и Power BI
+    - url: service-analyze-in-excel.md
+      itemType: concept
+      text: Анализ в Excel
+    - url: service-embed-report-spo.md
+      itemType: concept
+      text: Внедрить в SharePoint Online
+    footerLink:
+      url: collaborate-share/index.yml
+      text: Еще
+  - title: Power BI в мобильных приложениях
+    links:
+    - url: consumer/mobile/mobile-apps-for-mobile-devices.md
+      itemType: get-started
+      text: Что такое мобильные приложения?
+    - url: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
+      itemType: quickstart
+      text: Изучение панелей мониторинга и отчетов
+    - url: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      itemType: how-to-guide
+      text: Просмотр локальных отчетов
+    footerLink:
+      url: consumer/mobile/index.yml
+      text: Еще
+  - title: Корпорация
+    links:
+    - url: service-premium-what-is.md
+      itemType: overview
+      text: Что такое Power BI Premium?
+    - url: service-admin-power-bi-security.md
+      itemType: concept
+      text: Безопасность
+    - url: admin/service-security-data-protection-overview.md
+      itemType: concept
+      text: Защита данных
+    footerLink:
+      url: admin/index.yml
+      text: Еще
+  - title: Руководство по статьям с рекомендациями
+    links:
+    - url: guidance/overview.md
+      itemType: overview
+      text: Общие сведения о руководствах
+    - url: guidance/star-schema.md
+      itemType: concept
+      text: Схемы типа "звезда"
+    - url: guidance/import-modeling-data-reduction.md
+      itemType: concept
+      text: Уменьшение размера модели данных
+    footerLink:
+      url: guidance/index.yml
+      text: Еще
+  - title: Обучение
+    links:
+    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+      itemType: learn
+      text: Изучение возможностей Power BI
+    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      itemType: learn
+      text: Анализ данных
+    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      itemType: learn
+      text: Начало работы по построению
+    footerLink:
+      url: guided-learning/index.yml
+      text: Еще
+additionalContent:
+  sections:
+  - title: Связанные инструменты
+  - items:
+    - title: Cервере отчетов Power BI
+      summary: Сервер отчетов Power BI — это локальный сервер отчетов с веб-порталом, на котором можно просматривать отчеты, отчеты с разбивкой на страницы и ключевые показатели эффективности Power BI, а также управлять ими.
+      url: report-server/index.yml
+    - title: REST API в Power BI
+      summary: Интерфейсы REST API Power BI предоставляют конечные точки служб для внедрения, администрирования и работы с пользовательскими ресурсами.
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - title: Документация по Microsoft Power Platform
+      summary: Сведения о том, как решения Power BI, Power Apps, Power Automate и Power Virtual Agents работают вместе и дополняют друг друга.
+      url: https://docs.microsoft.com/power-platform/
