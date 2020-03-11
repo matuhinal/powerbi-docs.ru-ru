@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041872"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920846"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Избегайте пустых страниц при печати отчетов с разбивкой на страницы
 
-Эта статья предназначена для разработчиков [отчетов Power BI с разбивкой на страницы](../paginated-reports-report-builder-power-bi.md). Она содержит рекомендации, помогающие избежать появления пустых страниц при экспорте отчета в формат с принудительным разбиением на страницы (например, PDF или Microsoft Word) или при печати.
+Эта статья предназначена для разработчиков [отчетов Power BI с разбивкой на страницы](../paginated-reports/paginated-reports-report-builder-power-bi.md). Она содержит рекомендации, помогающие избежать появления пустых страниц при экспорте отчета в формат с принудительным разбиением на страницы (например, PDF или Microsoft Word) или при печати.
 
 ## <a name="page-setup"></a>Параметры страницы
 
 Размерные свойства страницы отчета определяют ориентацию страницы, ее размеры и поля. Доступ к этим свойствам отчета можно получить перечисленными ниже способами.
 
 - С помощью **страницы свойств** отчета: Щелкните правой кнопкой мыши темную серую область за пределами холста отчета, а затем выберите _Свойства отчета_.
-- Использование области [**Свойства**](../paginated-reports-report-design-view.md#4-properties-pane): Щелкните темно-серую область за пределами холста отчета, чтобы выбрать объект отчета. Убедитесь, что панель **Свойства** открыта.
+- Использование области [**Свойства**](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane): Щелкните темно-серую область за пределами холста отчета, чтобы выбрать объект отчета. Убедитесь, что панель **Свойства** открыта.
 
 Страница **Параметры страницы** **Страницы свойств** отчета предоставляет удобный интерфейс для просмотра и обновления параметров страницы.
 
@@ -91,7 +91,7 @@ ms.locfileid: "76041872"
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Сведения об отчетах с разбивкой на страницы в Power BI Premium](../paginated-reports-report-builder-power-bi.md)
-- [Разбивка на страницы в отчетах Power BI с разбивкой на страницы](../paginated-reports-pagination.md)
+- [Сведения об отчетах с разбивкой на страницы в Power BI Premium](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Разбивка на страницы в отчетах Power BI с разбивкой на страницы](../paginated-reports/paginated-reports-pagination.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)

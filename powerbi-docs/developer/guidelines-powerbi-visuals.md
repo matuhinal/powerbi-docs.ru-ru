@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0203c191965bd2a496c1a5062b85af64d22b3b76
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000096"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400446"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
 Перед [публикацией](https://docs.microsoft.com/power-bi/developer/office-store) вашего визуального элемента Power BI для других пользователей в Microsoft AppSource, обязательно выполните рекомендации, чтобы сделать его поиск и использование максимально удобными.
@@ -28,7 +28,7 @@ ms.locfileid: "75000096"
 
 Визуальный элемент Power BI с функциями IAP — это *бесплатный* визуальный элемент с *бесплатными функциями*. Он также включает расширенные функции, для которых может требоваться дополнительная плата. В описании визуального элемента Power BI разработчики обязаны уведомить пользователей о функциях, для работы с которыми требуются дополнительные покупки. Сейчас корпорация Майкрософт не предоставляет собственные API-интерфейсы для поддержки покупки приложений и надстроек.
 
-Для таких покупок разработчики могут использовать любые сторонние платежные системы. Дополнительные сведения см. в статье о [политике магазина](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+Для таких покупок разработчики могут использовать любые сторонние платежные системы. Дополнительные сведения см. в статье о [политике магазина](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads).
 
 
 >[!IMPORTANT]  

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265338"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920971"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -41,11 +41,11 @@ ms.locfileid: "74265338"
 * Новые параметры емкости для Power BI Premium.
 * [Настраиваемая фирменная символика](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/) для организации.
 * Сводный экспорт данных с разрешением на сборку.
-* Поддержка URL-адресов параметров для отчетов [с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
+* Поддержка URL-адресов параметров для отчетов [с разбивкой на страницы](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Поддержка ежемесячной подписки по электронной почте. 
 
 ### <a name="july-2019"></a>Июль 2019 г.
-* Поддержка наборов данных, не входящих в Premium, для [отчетов с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
+* Поддержка наборов данных, не входящих в Premium, для [отчетов с разбивкой на страницы](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Общедоступная версия [агрегаций](desktop-aggregations.md) Power BI.
 * Отправка уведомлений об обновлении другим пользователям.
 * [Средство тестирования](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) емкостей Power BI Premium.
@@ -57,7 +57,7 @@ ms.locfileid: "74265338"
 * Общедоступная предварительная версия [общих и сертифицированных наборов данных](service-datasets-across-workspaces.md).
 * Метрики ИИ доступны в [приложении метрик емкости Premium](service-admin-premium-monitor-capacity.md).
 * Общедоступная версия [приложений-шаблонов](service-template-apps-overview.md) Power BI.
-* Общедоступная версия [отчетов с разбивкой на страницы](paginated-reports-report-builder-power-bi.md) в Power BI Premium.
+* Общедоступная версия [отчетов с разбивкой на страницы](paginated-reports/paginated-reports-report-builder-power-bi.md) в Power BI Premium.
 * Общедоступная предварительная версия создания собственных ключей ([BYOK](service-encryption-byok.md)) для Power BI Premium.
 * Роль просмотра для [нового интерфейса рабочих областей](service-new-workspaces.md).
 
@@ -71,7 +71,7 @@ ms.locfileid: "74265338"
 * Общедоступная версия новых рабочих областей.
 * Новые регионы Power BI во Франции и Корее.
 * Новые возможности вопросов и ответов для панелей мониторинга.
-* Поддержка Azure Analysis Services в [отчетах с разбивкой на страницы](paginated-reports-report-builder-power-bi.md).
+* Поддержка Azure Analysis Services в [отчетах с разбивкой на страницы](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Отчеты с разбивкой на страницы, поддерживаемые в приложениях Power BI.
 * [Подписки по электронной почте](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) с вложениями PDF для отчетов с разбивкой на страницы.
 * Сводка и метрики рабочей нагрузки Power BI Premium, поддерживаемые на портале администрирования
@@ -108,7 +108,7 @@ ms.locfileid: "74265338"
 
 ### <a name="november-2018"></a>Ноябрь 2018 г.
 * Подготовка данных Power BI доступна с [потоками данных](service-dataflows-overview.md) в общедоступной предварительной версии.
-* Общедоступная предварительная версия [отчетов с разбивкой на страницы](paginated-reports-report-builder-power-bi.md) в Power BI Premium.
+* Общедоступная предварительная версия [отчетов с разбивкой на страницы](paginated-reports/paginated-reports-report-builder-power-bi.md) в Power BI Premium.
 * Размер данных и число наборов данных в памяти в [приложении мониторинга емкости (Capacity Monitoring)](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="october-2018"></a>Октябрь 2018 г.

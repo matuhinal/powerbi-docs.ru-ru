@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260883"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401933"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Большие модели в Power BI Premium (Предварительная версия)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>Доступность по регионам
 
-Большие модели в Power BI доступны только в тех регионах Azure, в которых поддерживается [хранилище файлов Azure класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+Большие модели в Power BI доступны только в тех регионах Azure, в которых поддерживается [хранилище файлов Azure класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
 В следующем списке перечислены регионы, в которых доступны большие модели Power BI. В регионах, которые не вошли в этот список, большие модели не поддерживаются.
 
@@ -156,7 +156,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 Следующие ссылки дадут вам полезную информацию для работы с большими моделями.
 
-* [Хранилище файлов Azure класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Хранилище файлов Azure класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [Настройка поддержки нескольких регионов для Power BI Premium](service-admin-premium-multi-geo.md)
 * [Использование собственных ключей шифрования для Power BI](service-encryption-byok.md)
 * [Принцип функционирования емкостей](service-premium-what-is.md#how-capacities-function)

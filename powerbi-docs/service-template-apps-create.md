@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871495"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041730"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Создание приложений-шаблонов в Power BI
 
@@ -58,7 +58,7 @@ ms.locfileid: "73871495"
 
 Как и при использовании обычной рабочей области Power BI, следующим шагом является создание в ней содержимого.  
 
-- [Создайте содержимое Power BI](power-bi-creator-landing.md) в рабочей области.
+- [Создайте содержимое Power BI](index.yml) в рабочей области.
 
 Если вы используете параметры в Power Query, убедитесь, что они имеют четко определенный тип (например, Text). Типы Any и Binary не поддерживаются.
 

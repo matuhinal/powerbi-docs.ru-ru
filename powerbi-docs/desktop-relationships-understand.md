@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 991f8b47337ba563ecfd223d69d687269a44ed78
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290689"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041615"
 ---
-# <a name="create-model-relationships-in-power-bi-desktop"></a>Создание связей модели в Power BI Desktop
+# <a name="model-relationships-in-power-bi-desktop"></a>Связи модели в Power BI Desktop
 
 В этой статье описываются средства моделирования данных импорта, работающие с Power BI Desktop. Это важная тема в сфере разработки моделей, знание которой необходимо, чтобы создавать простые, точные и оптимальные модели.
 

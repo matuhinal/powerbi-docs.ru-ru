@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162418"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920789"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Каскадные параметры в отчетах с разбивкой на страницы
 
-Эта статья предназначена для разработчиков [отчетов Power BI с разбивкой на страницы](../paginated-reports-report-builder-power-bi.md). Здесь представлены сценарии разработки каскадных параметров. Каскадные параметры представляют собой параметры отчета, имеющие зависимости. Когда пользователь отчета выбирает значение (или значения) параметра, оно используется для установки доступных значений для другого параметра.
+Эта статья предназначена для разработчиков [отчетов Power BI с разбивкой на страницы](../paginated-reports/paginated-reports-report-builder-power-bi.md). Здесь представлены сценарии разработки каскадных параметров. Каскадные параметры представляют собой параметры отчета, имеющие зависимости. Когда пользователь отчета выбирает значение (или значения) параметра, оно используется для установки доступных значений для другого параметра.
 
 > [!NOTE]
 > В этой статье не рассматриваются общие сведения о каскадных параметрах и их настройка. Если вы не знакомы с каскадными параметрами, рекомендуем сначала ознакомиться со статьей [Добавление каскадных параметров в отчет (Report Builder и службы SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs).
@@ -281,7 +281,7 @@ WHERE
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Параметры отчета в Power BI Report Builder](../report-builder-parameters.md)
+- [Параметры отчета в Power BI Report Builder](../paginated-reports/report-builder-parameters.md)
 - [Добавление каскадных параметров в отчет (Report Builder и службы SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)
