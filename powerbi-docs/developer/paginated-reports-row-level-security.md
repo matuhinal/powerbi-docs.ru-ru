@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953765"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920927"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Реализация безопасности на уровне строк во внедренных отчетах с разбивкой на страницы (предварительная версия)
 
@@ -26,13 +26,13 @@ ms.locfileid: "75953765"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Настройка параметра для фильтрации набора данных
 
-При применении безопасности на уровне строк к отчету Power BI с разбивкой на страницы необходимо присвоить [параметр](../report-builder-parameters.md) атрибуту **UserID**. Перед внедрением отчета этот параметр ограничит данные, извлеченные из набора данных.
+При применении безопасности на уровне строк к отчету Power BI с разбивкой на страницы необходимо присвоить [параметр](../paginated-reports/report-builder-parameters.md) атрибуту **UserID**. Перед внедрением отчета этот параметр ограничит данные, извлеченные из набора данных.
 
 После назначения параметра **UserID** используйте API [Отчеты GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup), чтобы получить маркер внедрения.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Использование UserID в качестве фильтра на уровне отчета или запроса
 
-**UserId** можно использовать в качестве *фильтра* или *запроса* для источника данных в [Power BI Report Builder](../report-builder-power-bi.md).
+**UserId** можно использовать в качестве *фильтра* или *запроса* для источника данных в [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
 ### <a name="using-the-filter"></a>Использование фильтра
 

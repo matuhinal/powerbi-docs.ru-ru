@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913613"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919792"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -119,7 +119,7 @@ report.src = newUrl;
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
-* Сценарии безопасного внедрения поддерживают отчеты с разбивкой на страницы, в том числе с параметрами URL. См. дополнительные сведения о [передаче параметров отчета в URL-адресе для отчета с разбивкой на страницы](report-builder-url-pass-parameters.md).
+* Сценарии безопасного внедрения поддерживают отчеты с разбивкой на страницы, в том числе с параметрами URL. См. дополнительные сведения о [передаче параметров отчета в URL-адресе для отчета с разбивкой на страницы](paginated-reports/report-builder-url-pass-parameters.md).
 
 * Для Azure B2B не поддерживаются внешние пользователи с правами гостя.
 

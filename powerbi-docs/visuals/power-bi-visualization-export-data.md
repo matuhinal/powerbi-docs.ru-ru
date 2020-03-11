@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539790"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946859"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Экспорт данных, использованных для создания визуализации
 
@@ -166,7 +166,7 @@ ms.locfileid: "76539790"
 
 - Владельцы наборов данных могут устанавливать безопасность на уровне строк (RLS). RLS предоставляет пользователям доступ только для чтения. Но если вы настроили рабочую область приложения и дали ее участникам разрешения на изменение, то роли RLS не будут применяться к этим участникам. Дополнительные сведения см. в разделе [Безопасность на уровне строк](../service-admin-rls.md).
 
-- Создатели отчетов могут скрывать столбцы, чтобы они не отображались в списке **Поля**. Дополнительные сведения см. в разделе [Свойства наборов данных](../developer/api-dataset-properties.md)
+- Создатели отчетов могут скрывать столбцы, чтобы они не отображались в списке **Поля**. Дополнительные сведения см. в разделе [Свойства наборов данных](../developer/automation/api-dataset-properties.md)
 
 - Администраторы Power BI могут добавлять [метки конфиденциальности](../admin/service-security-data-protection-overview.md) к панелям мониторинга, отчетам, наборам данных и потокам данных. Затем они могут применять параметры защиты, такие как шифрование или водяные знаки, при экспорте данных. 
 
