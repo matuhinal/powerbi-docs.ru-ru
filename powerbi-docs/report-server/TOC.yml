@@ -1,4 +1,5 @@
-- name: "Cервере отчетов Power\_BI"
+- name: "Сервер отчетов Power\_BI\_— документация"
+  href: index.yml
   expanded: true
   items:
     - name: Обзор
