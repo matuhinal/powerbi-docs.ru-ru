@@ -27,7 +27,7 @@ ms.locfileid: "74099092"
 
 ![панель со значками для каждого типа визуализации](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Чтобы получить еще больше возможностей, посетите [веб-сайт сообщества Microsoft AppSource](https://appsource.microsoft.com). Там вы сможете найти и [скачать](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [пользовательские визуальные элементы](../developer/visuals/custom-visual-develop-tutorial.md), созданные корпорацией Майкрософт и членами сообщества.
+Чтобы получить еще больше возможностей, посетите [веб-сайт сообщества Майкрософт AppSource](https://appsource.microsoft.com). Там вы сможете найти и [скачать](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [пользовательские визуализации](../developer/visuals/custom-visual-develop-tutorial.md), созданные корпорацией Майкрософт и членами сообщества.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

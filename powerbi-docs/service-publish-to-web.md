@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609919"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237990"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -134,6 +134,7 @@ ms.locfileid: "77609919"
 
 - Отчеты, использующие функции безопасности на уровне строк.
 - Отчеты, использующие любой источник данных динамического подключения, включая локальные многомерные службы Analysis Services, размещенные в табличной модели Analysis Services, и службы Azure Analysis Services.
+- Отчеты, использующие [общий набор данных](service-datasets-across-workspaces.md), который хранится в другой рабочей области отчета.
 - Отчеты, к которым вам предоставлен доступ непосредственно или через пакет содержимого организации.
 - Отчеты в группе, в которой вы не являетесь участником с правами редактирования.
 - Сейчас в отчетах для функции **Опубликовать в Интернете** не поддерживаются визуальные элементы R.

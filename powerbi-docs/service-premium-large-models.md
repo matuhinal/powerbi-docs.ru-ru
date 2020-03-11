@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2020
+ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609905"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260883"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Большие модели в Power BI Premium (Предварительная версия)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>Доступность по регионам
 
-Большие модели доступны не во всех регионах, где предлагается Power BI. Большие модели в Power BI предоставляются только в тех регионах Azure, в которых поддерживается [хранилище файлов класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+Большие модели в Power BI доступны только в тех регионах Azure, в которых поддерживается [хранилище файлов Azure класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
 
 В следующем списке перечислены регионы, в которых доступны большие модели Power BI. В регионах, которые не вошли в этот список, большие модели не поддерживаются.
 

@@ -25,7 +25,7 @@ Power BI предоставляет ряд мобильных приложени
 
 ### <a name="get-the-app-from-the-application-store"></a>Получение приложения из магазина приложений 
 
-[![Перейдите к Power BI в App Store](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Перейдите к Power BI в Google Play](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Перейдите к Power BI в Магазине Windows](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
+[![Перейти к Power BI в App Store](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Перейти к Power BI в Google Play](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Перейти к Power BI в Магазине Windows](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="mobile-apps-for-different-devices"></a>Мобильные приложения для различных устройств
 
