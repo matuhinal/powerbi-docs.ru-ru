@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: Управление хранилищем данных в рабочих областях
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Происхождение данных
+              href: service-data-lineage.md
             - name: Подключение к файлам в OneDrive вашей группы
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Совместная работа в классической рабочей области

@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: Добавление закладки в отчет
               href: end-user-bookmarks.md
+            - name: '"В центре внимания" в отчете'
+              href: end-user-spotlight.md
             - name: Отчеты с разбивкой на страницы в Power BI
               items:
                 - name: Отчеты с разбивкой на страницы
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: Получить данные
           items:
+            - name: "Рабочие области в Power\_BI"
+              href: end-user-workspaces.md
             - name: Приложения в Power BI
               href: end-user-apps.md
             - name: Установка и использование приложений

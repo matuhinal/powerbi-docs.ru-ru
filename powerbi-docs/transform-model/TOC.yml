@@ -19,7 +19,7 @@
     - name: Основные понятия
       expanded: true
       items:
-        - name: Создание связей модели
+        - name: Как работают связи в моделях
           href: ../desktop-relationships-understand.md
         - name: Работа с представлением моделирования
           href: ../desktop-modeling-view.md

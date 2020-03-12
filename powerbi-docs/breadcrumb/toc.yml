@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: "Power\_BI"
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platform
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: Потребители
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: Разработчик
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: "Power\_BI"
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: "Использование визуализаций Power\_BI на основе R в Power\_BI"
+            - name: Потребители
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: Разработчик
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: Направляемое обучение
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: Сервер отчетов
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: Руководство
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: Направляемое обучение
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: Сервер отчетов
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: Руководство
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 'Совместная работа, общий доступ и интеграция'
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: Создание отчетов и панелей мониторинга
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: Подключение к данным
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: Начало работы
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: 'Преобразование, формирование и моделирование данных'
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index

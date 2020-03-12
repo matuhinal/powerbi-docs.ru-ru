@@ -7,6 +7,8 @@
       items:
         - name: Что такое мобильные приложения?
           href: mobile-apps-for-mobile-devices.md
+        - name: Что нового в мобильных приложениях
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Знакомство с начальной страницей
           href: mobile-apps-home-page.md
     - name: Краткие руководства
@@ -22,8 +24,6 @@
     - name: Основные понятия
       expanded: true
       items:
-        - name: Что нового в мобильных приложениях
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Получение реальных данных с помощью мобильных приложений
           href: mobile-apps-data-in-real-world-context.md
         - name: Просмотр данных в автономном режиме в мобильных приложениях
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Избранное в мобильных приложениях
               href: mobile-apps-favorites.md
-            - name: Параметры взаимодействия (только для телефона)
-              href: mobile-app-interaction-settings.md
             - name: Настройка оповещений о данных в мобильных приложениях Power BI
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Получение уведомлений в мобильных приложениях Power BI
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Сканирование штрихкода из мобильного приложения Power BI
               href: mobile-apps-scan-barcode-iphone.md
+            - name: Настройка параметров взаимодействия
+              href: mobile-app-interaction-settings.md
             - name: Настройка с помощью управления мобильными устройствами
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: Закрепление панели мониторинга на начальном экране
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Просмотр мобильных отчетов и ключевых показателей эффективности Reporting Services
+            - name: "Просмотр локальных отчетов и\_КПЭ"
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Просмотр данных Power BI в Surface Hub
               href: mobile-windows-10-app-presentation-mode.md
