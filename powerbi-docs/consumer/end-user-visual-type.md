@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039093"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114181"
 ---
 # <a name="visual-types-in-power-bi"></a>Типы визуальных элементов в Power BI
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 Визуальные элементы отображаются в отчетах, панелях мониторинга и разделах вопросов и ответов. Некоторые из этих типов визуальных элементов входят в состав Power BI, а другие являются *пользовательскими визуальными элементами*. Пользовательские визуальные элементы создаются за пределами Power BI, а также способом, который позволяет *конструкторам отчетов* добавлять их в отчеты и панели мониторинга Power BI. 
 
 В этой статье рассматриваются визуальные элементы, входящие в состав Power BI.  Эти визуальные элементы используются чаще всего. Более подробные сведения о каждом из этих визуальных элементов см. в [документации по типам визуальных элементов для *конструкторов отчетов* Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
