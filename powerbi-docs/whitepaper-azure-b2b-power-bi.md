@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870893"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213610"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Распространение содержимого Power BI для сторонних гостевых пользователей с помощью Azure Active Directory B2B
 
@@ -218,7 +218,7 @@ Power BI содержит параметр **External guest users can edit and m
 
 - Группа бизнес-аналитики компании Contoso создает рабочую область в Power BI
 
-    ![Рабочей области](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![workspace](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Добавление других авторов в рабочую область
@@ -283,7 +283,7 @@ Power BI содержит параметр **External guest users can edit and m
     > Приглашения стороннего пользователя в организацию требуются только в первый раз.
 
 
-3. Распространение содержимого
+3. Распространить содержимое
 
     После того, как команда бизнес-аналитики Contoso создала портал BI и пригласила в него гостевых пользователей, они смогут распространять этот портал среди своих конечных пользователей и предоставить им доступ к приложению и выполнить его публикацию. Power BI автоматически заполняет имена гостевых пользователей, добавленных в клиент Contoso ранее. На этом этапе другим гостевым пользователям также можно добавить несистематические приглашения.
 
@@ -306,7 +306,7 @@ Power BI содержит параметр **External guest users can edit and m
 
     После этого гостевые пользователи могут щелкнуть ссылку в сообщении электронной почты или добавить в закладки ссылку, что позволит им получить доступ к приложению Contoso. Также компания Contoso может облегчить работу для гостевых пользователей если добавив данную ссылку на любой существующий портал экстрасети, используемый гостевыми пользователями.
 
-4. Дальнейшие действия
+4. Следующие шаги
 
     Использование приложение Power BI и Azure AD B2B в Contoso позволяет без написания кода быстро создать портал бизнес-аналитики для своих поставщиков. Это значительно упрощает распространение стандартизированной аналитики среди всех тех поставщиков, которым она нужна.
 
@@ -336,7 +336,7 @@ Power BI содержит параметр **External guest users can edit and m
 Чтобы выполнить лицензирование гостевых пользователей основываясь на своих поставщиках и партнерских организаций для доступа к содержимому Power BI, Contoso может выбрать один из трех подходов.
 
 > [!NOTE]
-> _Уровень "бесплатный" Azure AD B2B's достаточно для использования Power BI с Azure AD B2B. Для некоторых расширенных функций Azure AD B2B, таких как динамические группы, требуется дополнительное лицензирование. Дополнительные сведения см. в документации по Azure AD B2B:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Уровень "бесплатный" Azure AD B2B's достаточно для использования Power BI с Azure AD B2B. Для некоторых расширенных функций Azure AD B2B, таких как динамические группы, требуется дополнительное лицензирование. Дополнительные сведения см. в документации по Azure AD B2B:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Подход 1. Contoso использует Power BI Premium
 
@@ -397,9 +397,9 @@ Power BI содержит параметр **External guest users can edit and m
 
 Откроется страница, где команда бизнес-аналитики Contoso может увидеть две созданные роли.  Теперь команда бизнес-аналитики может назначить пользователей для ролей.
 
-![Защита на уровне строк](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
+![Безопасность на уровне строк](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
-В приведенном примере пользователь с таким адресом электронной почты, как "[adam@themeasuredproduct.com ](mailto:adam@themeasuredproduct.com)" будет добавлен компанией Contoso в партнерскую организацию с ролью для Европы.
+В приведенном примере пользователь с таким адресом электронной почты, как "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" будет добавлен компанией Contoso в партнерскую организацию с ролью для Европы.
 
 ![Параметры безопасности на уровне строк](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
 
@@ -490,7 +490,7 @@ Contoso может разрешить внешним пользователям 
 
 Чтобы помочь этим пользователям войти в Power BI, предоставьте им URL-адрес клиента. Чтобы найти URL-адрес клиента, выполните указанные ниже действия.
 
-1. В службе Power BI в верхнем меню выберите справку ( **?** ), а затем **О Power BI**.
+1. В службе Power BI в верхнем меню выберите справку (**?** ), а затем **О Power BI**.
 2. Найдите значение рядом с полем **URL-адрес клиента**. Это URL-адрес клиента, которым вы можете поделиться с гостевыми пользователями.
 
     ![URL-адрес клиента](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
@@ -606,7 +606,7 @@ Contoso может разрешить внешним пользователям 
 
 
 
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+## <a name="faq"></a>Вопросы и ответы
 
 **Может ли компания Contoso отправить автоматически активированное приглашение, чтобы пользователь был только "готов к работе"? Или пользователь всегда должен щелкнуть по URL-адресу активации?**
 
