@@ -46,6 +46,8 @@
           href: ../power-bi-data-sources.md
         - name: Предварительные требования к источникам данных Power BI
           href: ../desktop-data-source-prerequisites.md
+        - name: "Расширенные метаданные набора данных в Power\_BI\_Desktop (предварительная версия)"
+          href: ../desktop-enhanced-dataset-metadata.md
         - name: "Работа с многомерными моделями в Power\_BI"
           href: ../desktop-default-member-multidimensional-models.md
         - name: "Использование DirectQuery в Power\_BI"
