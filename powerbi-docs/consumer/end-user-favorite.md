@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852652"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040511"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Избранные панели мониторинга, отчеты и приложения в службе Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Добавив содержимое в *избранное*, вы сможете быстро открывать его из списка **Избранное** и из раздела **Главная страница Power BI** > **Избранные и часто используемые**. Избранными обычно являются те элементы, которые вы просматриваете чаще всего. Они обозначаются желтой звездочкой.
 
    ![Значок "Избранное"](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Значок "Избранные и часто используемые"](./media/end-user-favorite/power-bi-home.png)
-
-В службе Power BI одну из панелей мониторинга можно сделать [основной](end-user-featured.md).
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Добавление панели мониторинга или отчета в избранное
 
@@ -67,7 +68,7 @@ ms.locfileid: "73852652"
 2. Нажмите желтую звездочку рядом с содержимым, чтобы удалить его из избранного.
 
 > [!NOTE]
-> Вы также можете удалить из избранного панель мониторинга, отчет или само приложение. Просто откройте содержимое и отмените выбор желтой звездочки. 
+> Вы также можете удалить из избранного панель мониторинга, отчет или само приложение. Просто откройте и выберите желтую звезду, чтобы снова превратить ее в белую звезду. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения

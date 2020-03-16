@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: d32030db9c3cff04dfff6c5545626b4b70dcae07
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75731266"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920694"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов (обзор)
 
@@ -57,7 +57,7 @@ ms.locfileid: "75731266"
 * **Power BI Premium** — для внедрения отчета с разбиением на страницы требуется емкость SKU *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../service-premium-what-is.md).
 * **Azure Power BI Embedded** — вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Для внедрения отчетов с разбивкой на страницы требуется по крайней мере подписка *A4*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 
-В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario).
+В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
 
 | Узлы емкости | Число виртуальных ядер | Серверные виртуальные ядра | ОЗУ (ГБ) | Интерфейсные виртуальные ядра | 
 | --- | --- | --- | --- | --- |
@@ -74,7 +74,7 @@ ms.locfileid: "75731266"
 
 ### <a name="create-and-upload-your-paginated-reports"></a>Создание и передача отчетов с разбивкой на страницы
 
-Отчет с разбивкой на страницы можно создать с помощью [построителя отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder), а затем [передать отчет в службу](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service).
+Отчет с разбивкой на страницы можно создать с помощью [построителя отчетов Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder), а затем [передать отчет в службу](../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service).
 
 Отчеты с разбивкой на страницы можно импортировать в новые рабочие области с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
 

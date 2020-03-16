@@ -7,17 +7,20 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863382"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113086"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Просмотр полезных сведений о плитках панели мониторинга с помощью Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Каждая [плитка](end-user-tiles.md) визуального элемента на панели мониторинга предоставляет возможности исследования данных. Щелкнув любую плитку, вы перейдете в отчет или [Вопросы и ответы](end-user-q-and-a.md), где сможете фильтровать и сортировать наборы данных, использованные для отчета. Когда вы исследуете аналитические сведения, в Power BI выполняется поиск данных.
 
 ![Меню со значком многоточия](./media/end-user-insights/power-bi-insight.png)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: f22320eb275888225babf50d0369a492ed09d7ed
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691354"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920060"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -34,7 +34,7 @@ ms.locfileid: "75691354"
 * [учетная запись Power BI Pro](../service-self-service-signup-for-power-bi.md);
 * подписка [Microsoft Azure](https://azure.microsoft.com/);
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
-* Для внедрения отчетов с разбивкой на страницы требуется емкость не менее P1. См. статью [Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+* Для внедрения отчетов с разбивкой на страницы требуется емкость не менее P1. См. статью [Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?](../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
 
@@ -84,7 +84,7 @@ ms.locfileid: "75691354"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Создание и публикация отчетов с разбивкой на страницы
 
-Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [отправить отчет](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область, которой назначена емкость не менее P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области.
+Для создания отчетов с разбивкой на страницы можно использовать [построитель отчетов Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Затем можно [отправить отчет](../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) в рабочую область, которой назначена емкость не менее P1. У конечного пользователя, отправляющего отчет, должна быть лицензия Power BI Pro на публикацию в рабочей области.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 

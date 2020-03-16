@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565736"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78402005"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Руководство по планированию ресурсов для Сервера отчетов Power BI
 Сервер отчетов Power BI — это решение самостоятельной бизнес-аналитики и корпоративной отчетности, которое клиенты могут развернуть локально за своим брандмауэром. Оно объединяет возможности интерактивных отчетов Power BI Desktop с платформой локального сервера SQL Server Reporting Services. При интенсивном и растущем использовании аналитики и отчетности на предприятиях, формирование бюджета на аппаратную инфраструктуру и лицензии программного обеспечения, необходимого для масштабирования базы пользователей предприятия, может представлять собой сложную задачу. В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. Хотя отчеты, запросы и шаблоны использования организаций могут сильно различаться, результаты, представленные в данном документе, вместе с использованием фактических тестов и подробным описанием того, как они были выполнены, служат в качестве контрольной точки для тех, кто находится на ранней стадии процесса планирования развертывания Сервера отчетов Power BI.
@@ -134,7 +134,7 @@ ms.locfileid: "74565736"
 | **Сервер отчетов Power BI (крупный)** |16 ядер |64 ГБ |vStandard_D16S_v3 |
 
 ### <a name="2-run-the-loadtest-tool"></a>2\. Запуск средства LoadTest
-Если нужно запустить средство LoadTest Reporting Services для развертывания сервера отчетов Power BI Microsoft Azure, сделайте следующее.
+Если нужно запустить инструмент LoadTest Reporting Services для развертывания Сервера отчетов Power BI в Microsoft Azure, сделайте следующее.
 
 1. Клонируйте проект Reporting Services LoadTest из GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).  
 2. В каталоге проекта найдите файл решения с именем RSLoadTests.sln. Откройте этот файл в Visual Studio 2015 или более поздней версии.
@@ -143,4 +143,3 @@ ms.locfileid: "74565736"
 5. После завершения развертывания в этой среде выполните тесты, следуя указаниям, приведенным на странице https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution.
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

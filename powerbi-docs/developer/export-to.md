@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/01/2020
-ms.openlocfilehash: 3245f8ed4c4d10213d3fab8d533572d3dfd3c345
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 2459982cdce9d2ee2af731ab479a94aefa2a8576
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264204"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79115002"
 ---
 # <a name="export-report-to-file-preview"></a>Экспорт отчета в файл (предварительная версия)
 
@@ -96,8 +96,9 @@ API является асинхронным. При вызове API [exportToFi
 
 ## <a name="limitations"></a>Ограничения
 
-* Экспортируемый отчет должен быть производительным.
-* Набор данных экспортируемого отчета должен быть производительным.
+* Экспортируемый отчет должен храниться в емкости Premium или Embedded.
+* Набор данных экспортируемого отчета должен храниться в емкости Premium или Embedded.
+* Закрытая предварительная версия позволяет экспортировать до 50 страниц отчета Power BI в час.
 * Экспортируемые отчеты не могут превышать размер файла 250 МБ.
 * При экспорте в PNG метки конфиденциальности не поддерживаются.
 * [Субъект-служба](embed-service-principal.md) не поддерживается.

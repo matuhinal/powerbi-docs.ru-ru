@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265029"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041362"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Что могут разработчики сделать с помощью Power BI
 
@@ -53,7 +53,7 @@ Power BI отображает интерактивные панели монит
 
 ![Принудительная отправка данных](media/what-can-you-do/powerbi-push-data.png)
 
-Примеры задач, которые можно выполнять с помощью программных интерфейсов Power BI, см. в разделе [Какие возможности API Power BI предоставляет разработчикам](overview-of-power-bi-rest-api.md)?
+Примеры задач, которые можно выполнять с помощью программных интерфейсов Power BI, см. в разделе [Какие возможности API Power BI предоставляет разработчикам](automation/overview-of-power-bi-rest-api.md)?
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -61,6 +61,6 @@ Power BI отображает интерактивные панели монит
 
 [Разработка пользовательского визуального элемента Power BI](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[Какие возможности API Power BI предоставляет разработчикам?](overview-of-power-bi-rest-api.md)
+[Какие возможности API Power BI предоставляет разработчикам?](automation/overview-of-power-bi-rest-api.md)
 
 [Центр Power BI для разработчиков](https://powerbi.microsoft.com/developers/)

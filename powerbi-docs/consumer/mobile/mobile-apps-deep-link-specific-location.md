@@ -1,19 +1,19 @@
 ---
 title: Создание ссылки на определенное расположение в мобильных приложениях Power BI
 description: Сведения о создании прямой ссылки на определенную панель мониторинга, плитку или отчет в мобильном приложении Power BI с помощью универсального кода ресурса (URI).
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/24/2019
-ms.author: mshenhav
-ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879292"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114493"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
 Вы можете использовать ссылки для прямого доступа к определенным элементам в Power BI: отчету, панели мониторинга и плитке.

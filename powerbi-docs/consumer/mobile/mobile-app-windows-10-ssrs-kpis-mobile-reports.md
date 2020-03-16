@@ -1,29 +1,28 @@
 ---
-title: Просмотр мобильных отчетов SSRS и ключевых показателей эффективности в мобильном приложении для Windows 10 — Power BI
+title: Просмотр локальных отчетов и КПЭ в приложении Power BI для Windows
 description: Мобильное приложение Power BI для Windows 10 обеспечивает доступ в режиме реального времени к важнейшей бизнес-информации с сенсорного экрана.
-author: mshenhav
-ms.reviewer: ''
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/09/2020
+ms.author: painbar
+ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879355"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040924"
 ---
-# <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Просмотр ключевых показателей эффективности и мобильных отчетов Reporting Services (SSRS) в мобильном приложении Power BI для Windows 10
-Мобильное приложение Power BI для Windows 10 обеспечивает доступ в режиме реального времени к важнейшей бизнес-информации в Reporting Services SQL Server 2016. 
+# <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Просмотр локальных отчетов и КПЭ в приложении Power BI для Windows
+Приложение Power BI для Windows 10 обеспечивает доступ в режиме реального времени к важнейшей бизнес-информации в Reporting Services SQL Server 2016. 
 
 ![Мобильные отчеты Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>Начните с главного
 Вы можете [создавать мобильные отчеты Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) при помощи издателя мобильных отчетов для SQL Server 2016 Enterprise Edition и публиковать их на [веб-портале служб Reporting Services](https://msdn.microsoft.com/library/mt637133.aspx). Создавайте ключевые показатели эффективности прямо на веб-портале. Объединяйте их в папки и добавляйте в избранное, чтобы легко находить. 
 
-В мобильном приложении Power BI для Windows 10 мобильные отчеты и ключевые показатели эффективности отображаются в папках или собраны в список избранного. 
+В приложении Power BI для Windows 10 КПЭ, мобильные отчеты и отчеты Power BI отображаются в папках или в списке избранного. 
 
 > [!NOTE]
 > Ваше устройство должно работать под управлением Windows 10. Лучше всего приложение работает на устройствах, где доступно не менее 1 ГБ ОЗУ и 8 ГБ внутренней памяти.
@@ -68,7 +67,7 @@ ms.locfileid: "73879355"
    > 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>Просмотр ключевых показателей эффективности и мобильных отчетов Reporting Services в приложении Power BI
-Ключевые показатели эффективности и мобильные отчеты Reporting Services отображаются в тех же папках, в которых они расположены на веб-портале службы.
+Отчеты Power BI (предварительная версия), КПЭ и мобильные отчеты Reporting Services отображаются в тех же папках, в которых они расположены на веб-портале служб Reporting Services.
 
 ![Папки отчетов](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
@@ -80,7 +79,7 @@ ms.locfileid: "73879355"
     ![Мобильный отчет Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>Просмотр избранных ключевых показателей эффективности и отчетов
-На веб-портале Reporting Services ключевые показатели эффективности и отчеты можно отметить как избранные и удобно просматривать их в одной папке на устройстве с Windows 10 вместе с избранными информационными панелями и отчетами Power BI.
+На веб-портале Reporting Services КПЭ, мобильные отчеты и отчеты Power BI можно отметить как избранные и удобно просматривать на устройстве с Windows 10 в одной папке вместе с избранными панелями мониторинга и отчетами Power BI.
 
 * Выберите **Избранное**.
   
@@ -88,8 +87,6 @@ ms.locfileid: "73879355"
   
    Все, чтобы вы добавили в избранное на веб-портале, отобразиться на этой странице.
   
-   ![Страница "Избранное"](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-favorites.png)
-
 Дополнительные сведения об избранном в мобильных приложениях Power BI см. [здесь](mobile-apps-favorites.md).
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Удаление подключения к серверу отчетов

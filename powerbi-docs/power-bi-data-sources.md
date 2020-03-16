@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427100"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041684"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
@@ -43,7 +43,7 @@ ms.locfileid: "77427100"
 | Azure HDInsight (HDFS) | Да | Да | Нет | Нет | Нет |
 | Azure HDInsight Spark | Да | Да | Да | Нет | Нет |
 | База данных SQL Azure | Да | Да | Да | Да <sup>2</sup> | Нет |
-| Хранилище данных SQL Azure | Да | Да | Да | Нет | Нет |
+| Хранилище данных SQL Azure | Да | Да | Да | Да <sup>2</sup> | Нет |
 | Хранилище таблиц Azure | Да | Да | Нет | Да | Нет |
 | Соединитель BI | Да | Да | Да | Да | Да |
 | BI360 — отчеты по бюджетам и финансам | Да | Да | Нет | Нет | Нет |
@@ -134,7 +134,7 @@ ms.locfileid: "77427100"
 | Twilio | Да | Да | Нет | Нет | Нет |
 | tyGraph | Да | Да | Нет | Нет | Нет |
 | Vertica | Да | Да | Да | Да | Да |
-| Интернет | Да | Да | Нет | Да | Да |
+| Интернет | Да | Да | Нет | Да | Да <sup>6</sup> |
 | Webtrends | Да | Да | Нет | Нет | Нет |
 | Workforce Dimensions | Да | Да | Нет | Да | Нет |
 | XML | Да | Да | Нет | Да | Нет <sup>4</sup> |
@@ -143,13 +143,15 @@ ms.locfileid: "77427100"
 
 <sup>1</sup> Поддерживаются [поставщиком ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920), установленным на том же компьютере, что и шлюз.
 
-<sup>2</sup> Поддерживается с той же функцией M, что и локальная версия.
+<sup>2</sup> Поддерживается той же функцией M, что и в локальной версии, что приводит к ограничению параметров аутентификации (шлюз не поддерживает OAuth).
 
 <sup>3</sup> Для файлов Файлы Excel 1997–2003 (XLS) требуется [поставщик ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920).
 
 <sup>4</sup> Требуется для локальной версии данной технологии.
 
 <sup>5</sup> Поддерживается только в [персональном шлюзе](service-gateway-personal-mode.md).
+
+<sup>6</sup> Требуется для HTML-, XLS-файлов и баз данных Access.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Единый вход для источников DirectQuery
 

@@ -1,19 +1,19 @@
 ---
 title: Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 description: Узнайте, как с помощью мобильного приложения Power BI настроить в среде поддержку проверки подлинности OAuth для подключения к SQL Server Reporting Services 2016 или более поздней версии.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220615"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114963"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 После добавления приложения WAP необходимо указать для параметра BackendServerAuthenticationMode (Режим проверки подлинности внутреннего сервера) значение IntegratedWindowsAuthentication (Встроенная проверка подлинности Windows). Для его настройки потребуется идентификатор приложения WAP.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![Добавление группы приложений](media/mobile-oauth-ssrs/wap-application-id.png)

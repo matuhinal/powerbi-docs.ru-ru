@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888886"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113301"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Поиск панелей мониторинга, отчетов и приложений
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 В Power BI термин *содержимое* обозначает приложения, панели мониторинга и отчеты. Содержимое создается *конструкторами* Power BI, которые делятся им с коллегами, такими как вы. Содержимое доступно для просмотра и использования в службе Power BI, а лучшим местом для начала работы с Power BI является **Главная страница** Power BI.
 
 ## <a name="explore-power-bi-home"></a>Обзор главной страницы Power BI

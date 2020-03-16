@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1c6c4faa9f5cff46695ddd9d30869103d7bf482b
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de47022d00583dae99ad259a531e955b6396b96f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427214"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400541"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
 
@@ -46,15 +46,15 @@ Power BI Premium — это продукт SaaS, позволяющий пол�
 
 Каждая емкость предоставляет ряд номеров SKU, каждый из которых обеспечивает особый уровень вычислительных ресурсов и памяти. Требуемый тип SKU зависит от типа решения, которое нужно развернуть.
 
-Прежде чем выбирать номер SKU для приобретения, ознакомьтесь со сведениями в этом разделе.
-* Сведения о рабочих нагрузках, поддерживаемых на каждом уровне, см. в статье [Настройка рабочих нагрузок в емкости Premium](../service-admin-premium-workloads.md).
-* Спланировать и протестировать емкость можно по [этой ссылке](../service-premium-capacity-optimize.md#testing-approaches).
+Сведения о рабочих нагрузках, поддерживаемых на каждом уровне, см. в статье [Настройка рабочих нагрузок в емкости Premium](../service-admin-premium-workloads.md).
+
+Дополнительные сведения о планировании и тестировании ресурсов:
+* [Планирование ресурсов](embedded-capacity-planning.md)
+* [Методы тестирования](../service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>Номера SKU Power BI Embedded
 
-Power BI Embedded поставляется с номером SKU *A*.
-* [Сведения о возможностях емкости Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-developer-community-june-july-update/#Capacity-Plan)
-* [Купить номер SKU *A*](../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)
+Power BI Embedded поставляется с номером SKU [*A*.](../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)
 
 ### <a name="power-bi-premium-skus"></a>Номера SKU Power BI Premium
 

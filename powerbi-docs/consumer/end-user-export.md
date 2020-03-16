@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537526"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040156"
 ---
 # <a name="export-data-from-a-visual"></a>Экспорт данных из визуального элемента
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Чтобы просмотреть данные, которые используются для создания визуального элемента, [откройте их в Power BI](end-user-show-data.md) или экспортируйте в Excel. Для экспорта данных требуется конкретный тип или лицензия и права на редактирование содержимого. Если не получается экспортировать, обратитесь за помощью к администратору Power BI. 
+Чтобы просмотреть данные, которые используются для создания визуального элемента, [откройте их в Power BI](end-user-show-data.md) или экспортируйте в Excel. Для экспорта данных требуется конкретный тип или лицензия и права на редактирование содержимого. Если не получается экспортировать, обратитесь за помощью к администратору Power BI. Для экспорта данных требуется отдельная пользовательская лицензия Power BI Pro или пользовательская лицензия Pro в организации с лицензией на емкость Premium. Обычно этот тип лицензии используется *конструкторами* отчетов, а не *потребителями*. Дополнительные сведения см. в разделе [Типы лицензий Power BI](end-user-license.md).
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Экспорт из визуального элемента на панели мониторинга Power BI
 

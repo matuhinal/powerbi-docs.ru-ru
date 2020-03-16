@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 927e882e9b0cd7195aec6cffd7305d887d1c306e
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: a7112ff766b3b32b374b203d9f2206cabbd7fa2e
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782399"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79115058"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Поддерживаемые браузеры для Power BI
 Power BI поддерживается в следующих браузерах:
 
 - Microsoft Edge
-- Internet Explorer 11. Internet Explorer не поддерживает некоторые расширенные возможности, в том числе представление происхождения данных. Дополнительные сведения см. в статье [Происхождение данных (предварительная версия)](designer/service-data-lineage.md).
+- Internet Explorer 11. Internet Explorer не поддерживает некоторые расширенные возможности, в том числе представление происхождения данных. Дополнительные сведения см. в статье [Происхождение данных (предварительная версия)](collaborate-share/service-data-lineage.md).
 - Chrome для рабочего стола, последняя версия
 - Safari Mac, последняя версия
 - Последняя версия Firefox для настольных систем. Firefox может изменять шрифты, используемые в Power BI 
@@ -30,7 +30,7 @@ Power BI поддерживается в следующих браузерах:
 > [!NOTE]
 > Power BI не запускается ни в одном из браузеров в iOS 10 и более ранних версиях.
 
-### <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 * [Что такое Power BI?](power-bi-overview.md)
 * Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 * Проблема до сих пор не устранена? Посетите [страницу поддержки по Power BI](https://powerbi.microsoft.com/support/).
