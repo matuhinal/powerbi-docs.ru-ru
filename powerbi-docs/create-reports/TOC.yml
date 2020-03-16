@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: Создание кнопок
               href: ../desktop-buttons.md
+            - name: Создание кнопок детализации
+              href: ../desktop-drill-through-buttons.md
             - name: Создание закладок для сохранения и совместного использования аналитических сведений
               href: ../desktop-bookmarks.md
             - name: Работа с темами отчетов
