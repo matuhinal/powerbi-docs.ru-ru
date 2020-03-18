@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079285"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488207"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 
 API Power BI позволяет принудительно отправлять данные в набор данных Power BI. В этой статье показано, как принудительно отправить набор данных по продажам и маркетингу с таблицей продуктов в существующий набор данных.
 
-Для начала вам потребуется учетная запись Azure Active Directory (Azure AD) и [учетная запись Power BI](../create-an-azure-active-directory-tenant.md).
+Для начала вам потребуется учетная запись Azure Active Directory (Azure AD) и [учетная запись Power BI](../embedded/create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Принудительная отправка данных в набор данных
 
-* Шаг 1. [Регистрация приложения в Azure AD](../register-app.md)
+* Шаг 1. [Регистрация приложения в Azure AD](../embedded/register-app.md)
 * Шаг 2. [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)
 * Шаг 3. [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)
 * Шаг 4. [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ REST API Power BI позволяет принудительно отправля
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Дополнительные сведения о принудительной отправке данных в Power BI
 
-Чтобы приступить к отправке данных в набор данных, см. сведения в левой области навигации — [Шаг 1. Регистрация приложения в Azure AD](../register-app.md) в области навигации.
+Чтобы приступить к отправке данных в набор данных, см. сведения в левой области навигации — [Шаг 1. Регистрация приложения в Azure AD](../embedded/register-app.md) в области навигации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Регистрация бесплатной учетной записи Power BI с пользовательским клиентом каталога Azure Active Directory](../create-an-azure-active-directory-tenant.md)  
+* [Регистрация бесплатной учетной записи Power BI с пользовательским клиентом каталога Azure Active Directory](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Общие сведения о JSON](https://json.org/)  
 * [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 

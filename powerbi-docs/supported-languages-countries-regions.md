@@ -10,11 +10,11 @@ ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876899"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207742"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Поддерживаемые языки и страны (регионы) для Power BI
 
@@ -82,7 +82,7 @@ Power BI переводит меню, кнопки, сообщения и дру
 Следите за обновлениями, поскольку мы работаем над переводом еще не локализованных компонентов на другие языки. 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Выбор языка в службе Power BI
-1. В службе Power BI щелкните значок **Параметры** ![значок "Параметры"](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Параметры**.
+1. В службе Power BI щелкните значок **Параметры**![значок "Параметры"](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Параметры**.
 2. На вкладке **Общие** выберите **Язык**.
 3. Выберите язык и нажмите **Применить**.
 
@@ -151,7 +151,7 @@ Power BI определяет ваш язык на основе параметр
 3. В поле **Языковой стандарт для импорта** выберите другой языковой стандарт. 
    
    ![Диалоговое окно "Параметры" в Power BI Desktop](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
-4. Нажмите кнопку **ОК**.
+4. Выберите **ОК**.
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Выбор языка для модели в Power BI Desktop
 

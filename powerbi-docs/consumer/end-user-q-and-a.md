@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 978a8622d9af7aee6d1314ac18ee4d1dbea51cbc
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 7739967443a8c6dc75cdaa3fbd0e472dcc090b9a
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114408"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488552"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Функция "Вопросы и ответы" для потребителей Power BI
 
@@ -43,7 +43,7 @@ ms.locfileid: "79114408"
 
 ## <a name="qa-on-dashboards"></a>Вопросы и ответы на панелях мониторинга
 
-**Функция "Вопросы и ответы" в Power BI** доступна с лицензией Pro или Premium.  Особенности применения функций ["Вопросы ответы" в Power BI Mobile](mobile/mobile-apps-ios-qna.md) и ["Вопросы ответы" в Power BI Embedded](../developer/qanda.md) рассматриваются в отдельных статьях. В настоящее время функция **"Вопросы и ответы" в Power BI** поддерживает только ответы на вопросы, заданные на естественном языке (английском), хотя для испанского языка эта функция доступна в режиме предварительного доступа, который может быть включен вашим администратором Power BI.
+**Функция "Вопросы и ответы" в Power BI** доступна с лицензией Pro или Premium.  Особенности применения функций ["Вопросы ответы" в Power BI Mobile](mobile/mobile-apps-ios-qna.md) и ["Вопросы ответы" в Power BI Embedded](../developer/embedded/qanda.md) рассматриваются в отдельных статьях. В настоящее время функция **"Вопросы и ответы" в Power BI** поддерживает только ответы на вопросы, заданные на естественном языке (английском), хотя для испанского языка эта функция доступна в режиме предварительного доступа, который может быть включен вашим администратором Power BI.
 
 
 ![диаграмма-дерево, созданная функцией "Вопросы и ответы"](media/end-user-q-and-a/power-bi-treemap.png)

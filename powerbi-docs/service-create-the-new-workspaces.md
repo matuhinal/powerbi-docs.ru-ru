@@ -10,11 +10,11 @@ ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877518"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207834"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Создание новых рабочих областей в Power BI
 
@@ -59,7 +59,7 @@ ms.locfileid: "73877518"
 
     Чтобы назначить рабочей области **Выделенное место**, на вкладке **Премиум** выберите **Выделенное место**.
      
-    ![Выделенная емкость](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
+    ![Выделенное место](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 
 1. Нажмите кнопку **Сохранить**.
 
@@ -83,7 +83,7 @@ ms.locfileid: "73877518"
 
 3. Нажмите кнопку **Сохранить**.
 
-## <a name="workspace-onedrive"></a>OneDrive для рабочей области
+## <a name="workspace-onedrive"></a>Рабочая область OneDrive
 
 Функция OneDrive для рабочей области позволяет настроить группу Office 365, хранилище файлов библиотеки документов SharePoint которой доступно для пользователей рабочей области. Сначала группа создается вне Power BI. 
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696672"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380863"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Общие сведения о сопоставлениях представлений данных в визуальных элементах Power BI
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 В результате в визуальном элементе отображается одно значение из Power BI:
 
-![Пример визуального элемента с одним сопоставлением представления данных](./media/visual-simple-dataview-mapping.png)
+![Пример визуального элемента с одним сопоставлением представления данных](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Категориальное сопоставление данных
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 Результат визуального элемента:
 
-![Визуальный элемент с сопоставлением представления категориальных данных](./media/categorical-data-view-mapping-visual.png)
+![Визуальный элемент с сопоставлением представления категориальных данных](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Сопоставление табличных данных
 
@@ -508,7 +508,7 @@ export class Visual implements IVisual {
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ export class Visual implements IVisual {
 
 Привязка данных:
 
-![Привязки данных в сопоставлении представления табличных данных](./media/table-dataview-mapping-data.png)
+![Привязки данных в сопоставлении представления табличных данных](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Служба Power BI отображает данные в представлении табличных данных. Изначально предполагать, что данные упорядочены, не следует.
 
@@ -603,7 +603,7 @@ export class Visual implements IVisual {
 
 Вы можете выполнить статистическую обработку данных, выбрав нужное поле и затем указав операцию суммирования.  
 
-![Агрегирование данных](./media/data-aggregation.png)
+![Агрегирование данных](media/dataview-mappings/data-aggregation.png)
 
 Пример кода для обработки сопоставления представления табличных данных.
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![Визуальный элемент с сопоставлением представления табличных данных](./media/table-dataview-mapping-visual.png)
+![Визуальный элемент с сопоставлением представления табличных данных](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Сопоставление матричных данных
 
@@ -767,7 +767,7 @@ td {
 
 Базовый визуальный элемент матрицы Power BI отрисовывает данные как таблицу.
 
-![Визуальный элемент матрицы](./media/matrix-visual-smaple.png)
+![Визуальный элемент матрицы](media/dataview-mappings/matrix-visual-smaple.png)
 
 Визуальный элемент получает структуру данных, как описывается в следующем коде (здесь показаны только две первые строки таблицы):
 

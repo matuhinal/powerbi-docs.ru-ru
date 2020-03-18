@@ -10,16 +10,19 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862675"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206040"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Краткое руководство: сведения о возможностях Power BI для *потребителей*
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 Изучив это краткое руководство, вы узнаете, как взаимодействовать с Power BI для получения ценных бизнес-сведений на основе данных. Целью этой статьи является краткий обзор различных действий, доступных для **потребителей** Power BI.
 
 Если вы не зарегистрированы в Power BI, перед началом работы [пройдите бесплатную регистрацию](https://app.powerbi.com/signupredirect?pbi_source=web).
@@ -186,7 +189,7 @@ Easily navigate between the visualizations on the report page.
 
 ![Экспортированные в Excel данные](./media/end-user-reading-view/power-bi-export-powerpoint.png)
 
-<!-- Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
+<!-- Exporting isn't limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 

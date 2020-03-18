@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879960"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379580"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Руководство. Добавление модульных тестов для проектов визуальных элементов Power BI
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` запускает тестовый случай в браузере Chrome.
 
-![Средство JavaScript Karma в браузере Chrome](./media/karmajs-chrome.png)
+![Средство JavaScript Karma в браузере Chrome](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > Вам потребуется локальная установка браузера Google Chrome.
@@ -453,7 +453,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 При помещении данных в контейнеры полей данных Power BI создает категориальный объект `dataview` на основе данных.
 
-![Контейнеры полей данных](./media/fields-buckets.png)
+![Контейнеры полей данных](media/unit-tests-introduction/fields-buckets.png)
 
 В модульных тестах у вас нет основных функций Power BI для воспроизведения данных. Однако вам нужно сопоставить статические данные с категориальным `dataview`. Класс `TestDataViewBuilder` можно использовать для его сопоставления.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 Визуальный элемент откроется в браузере Chrome, как показано ниже:
 
-![Модульный тест запускается в Chrome](./media/karmajs-chrome-ut-runned.png)
+![Модульный тест запускается в Chrome](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 В сводке показано, что объем протестированного кода увеличился. Откройте `coverage\index.html`, чтобы узнать больше о текущем объеме протестированного кода.
 
-![Индекс объема протестированного кода в модульном тестировании](./media/code-coverage-index.png)
+![Индекс объема протестированного кода в модульном тестировании](media/unit-tests-introduction/code-coverage-index.png)
 
 Также можно просмотреть область папки `src`:
 
-![Объем протестированного кода для папки src](./media/code-coverage-src-folder.png)
+![Объем протестированного кода для папки src](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 В области действия файла можно просмотреть исходный код. Служебные программы `Coverage` будут выделять красным цветом те строки кода, которые не были выполнены во время модульного тестирования.
 
-![Объем протестированного кода для файла visual.ts](./media/code-coverage-visual-src.png)
+![Объем протестированного кода для файла visual.ts](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > Объем протестированного кода не означает, что обеспечивается хороший охват функциональных возможностей визуальных элементов. Один простой модульный тест обеспечил более 96 % протестированного кода в `src\visual.ts`.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Когда ваш визуальный элемент готов, вы можете отправить его для публикации. Дополнительные сведения см. в статье о [публикации визуальных элементов Power BI в AppSource](../office-store.md).
+Когда ваш визуальный элемент готов, вы можете отправить его для публикации. Дополнительные сведения см. в статье о [публикации визуальных элементов Power BI в AppSource](office-store.md).

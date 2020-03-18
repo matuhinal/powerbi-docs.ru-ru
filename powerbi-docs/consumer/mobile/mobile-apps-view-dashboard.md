@@ -1,19 +1,19 @@
 ---
 title: Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 description: Создавайте панели мониторинга и отчеты или подключайтесь к ним в службе Power BI. После этого вы сможете просматривать их в мобильных приложениях Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218385"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205534"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 Применяется к:
@@ -70,7 +70,7 @@ ms.locfileid: "75218385"
    ![Путь навигации](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Просмотр панелей мониторинга в альбомном режиме на телефонах iPhone
-Просто поверните свой телефон набок, чтобы увидеть их в альбомной ориентации. Макет панели мониторинга изменится — вместо ряда плиток появится представление всей панели мониторинга, где все плитки будут расположены так же, как в службе Power BI.
+Просто поверните свой телефон набок, чтобы увидеть их в альбомной ориентации. Макет панели мониторинга изменится — вместо ряда плиток появится представление всей панели мониторинга, где все плитки будут расположены так же, как в службе Power BI.
 
 ![Альбомная ориентация панели мониторинга](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 

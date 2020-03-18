@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875086"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488874"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Использование функции "Вопросы и ответы" Power BI для просмотра данных и создания визуальных элементов
 
 Иногда самый быстрый способ получить ответ по данным — задать вопрос, используя естественный язык. Функция "Вопросы и ответы" в Power BI позволяет изучать данные, формулируя запросы своими словами.  В первой части этой статьи показано, как использовать функцию "Вопросы и ответы" в панелях мониторинга службы Power BI. Во второй части представлены возможности функции "Вопросы и ответы" при создании отчетов в службе Power BI или Power BI Desktop. Дополнительные сведения см. в статье [Функция "Вопросы и ответы" для потребителей Power BI](consumer/end-user-q-and-a.md). 
 
-Особенности применения функций ["Вопросы ответы" в Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) и ["Вопросы ответы" в Power BI Embedded](developer/qanda.md) рассматриваются в отдельных статьях. 
+Особенности применения функций ["Вопросы ответы" в Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) и ["Вопросы ответы" в Power BI Embedded](developer/embedded/qanda.md) рассматриваются в отдельных статьях. 
 
 Функция "Вопросы и ответы" является интерактивной и даже интересной. Часто один вопрос приводит к многим другим, так как визуализации раскрывают новые пути для поиска. В следующем видео Аманда показывает, как с помощью функции "Вопросы и ответы" создавать визуализации, анализировать их и закреплять на панели мониторинга.
 

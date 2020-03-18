@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079423"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488439"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
@@ -25,10 +25,10 @@ ms.locfileid: "79079423"
 
 | **Интересующие темы** | **Справочные материалы** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Внедрение отчетов, панелей мониторинга и плиток для пользователей Power BI и других программ. | [Как внедрять панели мониторинга, отчеты и плитки Power BI](../embed-sample-for-customers.md) |
+| Внедрение отчетов, панелей мониторинга и плиток для пользователей Power BI и других программ. | [Как внедрять панели мониторинга, отчеты и плитки Power BI](../embedded/embed-sample-for-customers.md) |
 | Выполняйте задачи управления объектами Power BI. | [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
 | Расширение существующего рабочего бизнес-процесса для принудительной отправки ключевых данных в панель мониторинга Power BI. | [Принудительная отправка данных на панель мониторинга](walkthrough-push-data.md) |
-| Аутентификация в Power BI. | [Аутентификация в Power BI](../get-azuread-access-token.md) |
+| Аутентификация в Power BI. | [Аутентификация в Power BI](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > В интерфейсах API Power BI рабочие области по-прежнему называются группами. Если упоминаются группы, это означает, что вы работаете с рабочими областями.

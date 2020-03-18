@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885258"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381452"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Применение ограничений точек данных и стратегии по шаблону визуализации
 
@@ -74,7 +74,7 @@ ms.locfileid: "75885258"
 ### <a name="combo-chart"></a>Комбинированная диаграмма
  Использует те же стратегии, что и столбчатые диаграммы. Обратите внимание, что в строках **комбинированной диаграммы** не используется алгоритм с высокой плотностью, применяемый в **графиках**.
 
-### <a name="custom-visuals"></a>Настраиваемые визуальные элементы
+### <a name="power-bi-visuals"></a>Визуальные элементы Power BI
 Можно получить до 30 000 точек, но именно авторы визуальных элементов указывают, какие стратегии нужно использовать. Ограничение по умолчанию — 1000, однако автор визуального элемента может изменить его на 30 000 (максимальное значение).
 
 ### <a name="doughnut"></a>Кольцевая диаграмма

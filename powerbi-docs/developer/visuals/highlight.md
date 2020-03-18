@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819176"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380071"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Выделение точек данных в визуальных элементах Power BI
 
 По умолчанию при каждом выборе элемента массив `values` в объекте `dataView` будет отфильтрован до одних выбранных значений. Это приведет к тому, что все остальные визуальные элементы на странице будут отображать только выбранные данные.
 
-![работа выделения "dataview" по умолчанию](./media/highlight-dataview.png)
+![работа выделения "dataview" по умолчанию](media/highlight/highlight-dataview.png)
 
 Если задать для свойства `supportsHighlight` в `capabilities.json` значение `true`, вы получите полный нефильтрованный массив `values` вместе с массивом `highlights`. Массив `highlights` будет иметь ту же длину, что и массив values, а все невыбранные значения будут установлены в `null`. Если это свойство включено, визуальный элемент отвечает за выделение соответствующих данных путем сравнения массива `values` с массивом `highlights`.
 
-!["dataview" с поддержкой выделения](./media/highlight-dataview-supports.png)
+!["dataview" с поддержкой выделения](media/highlight/highlight-dataview-supports.png)
 
 В этом примере вы заметите, что выделена одна полоса. И это единственное значение в массиве highlights. Также важно отметить, что могут иметь место несколько выбранных значений и частичное выделение. Выделенные значения будут показаны в представлении данных.
 
-> [!Note]
+> [!NOTE]
 > Сопоставление представления табличных данных не поддерживает функцию выделения.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Выделение точек данных с сопоставлением представления категориальных данных
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 Здесь `categoryValues` — это массив значений категории, `measureValues` — массив мер, а `measureHighlights` — выделенные части значений.
 
-> [!Note]
+> [!NOTE]
 > Значения свойства `measureHighlights` могут быть меньше значений свойства `categoryValues`.
 > Это означает, что значение было выделено частично.
 
@@ -271,7 +271,7 @@ div.value {
 
 В результате должно получиться такое представление визуального элемента:
 
-![Визуальные элементы с сопоставлением представления категориальных данных и выделением](./media/dev-categorical-visual-highlight-demo.gif)
+![Визуальные элементы с сопоставлением представления категориальных данных и выделением](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Выделение точек данных с сопоставлением представления матричных данных
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 Свойство `value` представляет значение узла без применения выделения из другого визуального элемента, а свойство highlight указывает, какая часть данных была выделена.
 
-> [!Note]
+> [!NOTE]
 > Значение свойства `highlight` может быть меньше значения свойства `value`.
 > Это означает, что значение было выделено частично.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 В результате вы получите визуальный элемент с кнопками и значениями `highlighted value/default value`.
 
-![Визуальный элемент с сопоставлением представлений матричных данных и выделением](./media/dev-matrix-visual-highlight-demo.gif)
+![Визуальный элемент с сопоставлением представлений матричных данных и выделением](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

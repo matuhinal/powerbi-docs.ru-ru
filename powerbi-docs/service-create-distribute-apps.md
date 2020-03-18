@@ -9,11 +9,11 @@ ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853645"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207880"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Публикация приложения в Power BI
 
@@ -50,7 +50,7 @@ ms.locfileid: "73853645"
 
 2. Нажмите кнопку **Публикация приложения** в правом верхнем углу, чтобы запустить процесс создания и публикации приложения из рабочей области.
    
-     ![Опубликовать приложение](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+     ![Публикация приложения](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. На вкладке **Настройка** введите имя и описание, которые помогут пользователям найти приложение. Можно задать цвет темы. Можно также добавить ссылку на сайт поддержки.
    

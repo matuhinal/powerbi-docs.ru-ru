@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427813"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381268"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Добавление гиперссылок (URL-адресов) в таблицу или матрицу
 Из этого раздела вы узнаете, как добавлять гиперссылки (URL-адреса) в таблицу. Power BI Desktop можно использовать для добавления гиперссылок (URL-адресов) в набор данных. Созданные гиперссылки можно добавить в таблицы и матрицы отчета для Power BI Desktop или службы Power BI. Затем URL-адрес или значок ссылки можно отобразить или отформатировать другой столбец как текст ссылки.
@@ -125,7 +125,7 @@ ms.locfileid: "77427813"
    
    ![Раскрывающийся список категорий данных в Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 
-6. В службе Power BI или в Power BI Desktop подключитесь к этой книге или импортируйте ее.
+6. В службе Power BI или Power BI Desktop подключитесь к этой книге или импортируйте ее.
 7. Создайте визуализацию таблицы, содержащую поле URL-адреса.
    
    ![Создание таблицы в Power BI с полем URL-адреса](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)

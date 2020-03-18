@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818900"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379716"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Добавление интерактивности в визуальные элементы путем выбора визуальных элементов Power BI
 
@@ -179,11 +179,11 @@ export interface ISelectionIdBuilder {
 | Nissan | **Импортные автомобили** | 5485 |
 | Toyota | **Импортные автомобили** | 20799 |
 
-![Визуальный элемент с выбранными элементами для категорий и рядов](media/visual-selections-sample.png)
+![Визуальный элемент с выбранными элементами для категорий и рядов](media/selection-api/visual-selections-sample.png)
 
 Корзины данных визуального элемента необходимо заполнить.
 
-![Корзины данных визуального элемента с выбранными элементами](media/visual-selections-databuckets.png)
+![Корзины данных визуального элемента с выбранными элементами](media/selection-api/visual-selections-databuckets.png)
 
 `Manufacturer` — это категория (столбцы), `Type` — это ряд (строки), а `Value` — это `Values` для ряда.
 

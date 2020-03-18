@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757860"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436072"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Создание и использование картограмм (хороплетов) в Power BI
 
@@ -63,7 +63,7 @@ Power BI интегрируется с Bing для предоставления 
    > 
    > 
 
-[ВИДЕО https://www.youtube.com/embed/ajTPGNpthcg ]
+> [ВИДЕО https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Создание картограммы
 1. На панели "Поля" выберите поле **Геообъект** \> **Состояние**.    
@@ -130,7 +130,7 @@ Power BI позволяет контролировать внешний вид �
 
 При наличии разрешений на изменение набора данных в Power BI Desktop просмотрите это видео, чтобы понять, как устранить неоднозначность карты.
 
-[ВИДЕО https://www.youtube.com/embed/Co2z9b-s_yM ]
+> [ВИДЕО https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Если доступа к сведениям о широте и долготе нет, но есть доступ на редактирование для набора данных, [выполните эти действия для обновления набора данных](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

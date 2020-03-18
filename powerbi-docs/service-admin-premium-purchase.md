@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427744"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488621"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
 
@@ -112,7 +112,7 @@ ms.locfileid: "77427744"
 
 Номера SKU A доступны в службе Power BI Embedded Azure. Номера SKU A можно использовать в следующих целях:
 
-- Разрешить внедрение Power BI в сторонние приложения. Дополнительные сведения см. в разделе [Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md).
+- Разрешить внедрение Power BI в сторонние приложения. Дополнительные сведения см. в разделе [Power BI Embedded](developer/embedded/azure-pbie-what-is-power-bi-embedded.md).
 
 - Тестировать функциональные возможности версии Premium перед приобретением номера SKU P.
 

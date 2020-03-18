@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: c5530767d37e9c9dfaf5270037d873fc4d1a58ec
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 43fcc0873006cfd42c97a287c7bff66f5995bfef
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880281"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380963"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Панель аналитики в визуальных элементах Power BI
 
 **Панель аналитики** была представлена для [собственных визуальных элементов](https://docs.microsoft.com/power-bi/desktop-analytics-pane) в ноябре 2018 г.
 В этой статье описывается, каким образом пользовательские визуальные элементы с API версии 2.5.0 могут предоставлять свои свойства и управлять ими на **панели аналитики**.
 
-![Панель "Аналитика"](./media/visualization-pane-analytics-tab.png)
+![Панель "Аналитика"](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>Управление панелью "Аналитика"
 

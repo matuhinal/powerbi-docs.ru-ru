@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079124"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488276"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Шаг 2. Получение токена доступа для проверки подлинности
 
 Эта статья описывает второй шаг процедуры [Принудительная отправка данных в набор данных Power BI](walkthrough-push-data.md).
 
-В шаге 1 вы [зарегистрировали клиентское приложение в Azure AD](../register-app.md). На этом шаге вы получите токен доступа для проверки подлинности. Приложения Power BI интегрированы с Azure Active Directory для обеспечения безопасного входа и авторизации в приложении. Ваше приложение использует токен для проверки подлинности в Azure AD и получения доступа к ресурсам Power BI.
+В шаге 1 вы [зарегистрировали клиентское приложение в Azure AD](../embedded/register-app.md). На этом шаге вы получите токен доступа для проверки подлинности. Приложения Power BI интегрированы с Azure Active Directory для обеспечения безопасного входа и авторизации в приложении. Ваше приложение использует токен для проверки подлинности в Azure AD и получения доступа к ресурсам Power BI.
 
 ## <a name="get-an-authentication-access-token"></a>Получение токена доступа для проверки подлинности
 
-Перед началом работы убедитесь, что выполнен [предыдущий шаг](../register-app.md) процедуры [Принудительная отправка данных в набор данных Power BI](walkthrough-push-data.md). 
+Перед началом работы убедитесь, что выполнен [предыдущий шаг](../embedded/register-app.md) процедуры [Принудительная отправка данных в набор данных Power BI](walkthrough-push-data.md). 
 
 Для этой шага требуется Visual Studio 2015 или более поздней версии.
 
@@ -39,7 +39,7 @@ ms.locfileid: "79079124"
 
 3. Добавьте пример кода, указанный после этих действий, в файл Program.cs.
 
-4. Замените "{ClientID}" на **идентификатор клиента**, который вы получили при регистрации приложения [в предыдущей статье](../register-app.md).
+4. Замените "{ClientID}" на **идентификатор клиента**, который вы получили при регистрации приложения [в предыдущей статье](../embedded/register-app.md).
 
 5. Запустите консольное приложение и войдите в свою учетную запись Power BI. 
 

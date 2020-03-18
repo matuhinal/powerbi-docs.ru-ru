@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925595"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378157"
 ---
 # <a name="visuals-in-power-bi"></a>Визуальные элементы в Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "75925595"
 
 На рисунке ниже показано, как в Power BI обрабатываются распространенные действия пользователя с визуальными элементами, например выбор закладки.
 
-![Схема действий с визуальными элементами в Power BI](./media/visual-concept.svg)
+![Схема действий с визуальными элементами в Power BI](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>Визуальные элементы получают обновления из Power BI
 
@@ -131,4 +131,4 @@ ms.locfileid: "75925595"
 Вы заинтересованы в том, чтобы создавать собственные визуальные элементы и добавлять их в Microsoft AppSource? См. следующие статьи:
 
 * [Руководство. Разработка визуального элемента Power BI](./custom-visual-develop-tutorial.md)
-* [Публикация визуализаций Power BI в Центре партнеров](../office-store.md)
+* [Публикация визуализаций Power BI в Центре партнеров](office-store.md)
