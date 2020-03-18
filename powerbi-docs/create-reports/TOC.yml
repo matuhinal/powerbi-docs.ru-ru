@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: "Создание визуализаций Power\_BI с помощью R"
               href: ../desktop-r-visuals.md
-            - name: Скачивание и использование созданных с помощью R пользовательских визуализаций
+            - name: "Скачивание и использование визуальных элементов Power\_BI на основе R"
               href: ../desktop-r-powered-custom-visuals.md
             - name: Применение линий сетки и привязки к сетке
               href: ../desktop-gridlines-snap-to-grid.md

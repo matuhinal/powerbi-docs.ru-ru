@@ -13,6 +13,9 @@
             - name: Потребители
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: Мобильное устройство
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: Разработчик
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
