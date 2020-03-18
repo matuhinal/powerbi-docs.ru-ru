@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
-  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/14/2020
-  ms.locfileid: "79378255"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79487770"
 landingContent:
 - title: О Power BI для разработчиков
   linkLists:
@@ -26,9 +26,9 @@ landingContent:
     - text: Возможности для разработчиков
       url: what-can-you-do.md
     - text: Визуальные элементы в Power BI
-      url: power-bi-custom-visuals.md
+      url: visuals/power-bi-custom-visuals.md
     - text: Что такое внедрение?
-      url: embedding.md
+      url: embedded/embedding.md
     - text: Что такое API Power BI?
       url: automation/overview-of-power-bi-rest-api.md
   - linkListType: reference
@@ -52,42 +52,42 @@ landingContent:
   - linkListType: concept
     links:
     - text: Вопросы и ответы о визуальных элементах
-      url: power-bi-custom-visuals-faq.md
+      url: visuals/power-bi-custom-visuals-faq.md
     - text: Рекомендации по визуальным элементам
-      url: guidelines-powerbi-visuals.md
+      url: visuals/guidelines-powerbi-visuals.md
     - text: Режим расширенного редактирования для визуальных элементов
       url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: Сертификация визуального элемента
-      url: power-bi-custom-visuals-certified.md
+      url: visuals/power-bi-custom-visuals-certified.md
     - text: Публикация визуальных элементов Power BI в AppSource
-      url: office-store.md
+      url: visuals/office-store.md
 - title: Встроенная аналитика
   linkLists:
   - linkListType: tutorial
     links:
     - text: Встроенное содержимое для клиентов
-      url: embed-sample-for-customers.md
+      url: embedded/embed-sample-for-customers.md
     - text: Внедренное содержимое для организации
-      url: embed-sample-for-your-organization.md
+      url: embedded/embed-sample-for-your-organization.md
   - linkListType: concept
     links:
     - text: Защита на уровне строк
-      url: embedded-row-level-security.md
+      url: embedded/embedded-row-level-security.md
     - text: Управление несколькими клиентами
-      url: embed-multi-tenancy.md
+      url: embedded/embed-multi-tenancy.md
     - text: 'Power BI Embedded: вопросы и ответы'
-      url: embedded-faq.md
+      url: embedded/embedded-faq.md
     - text: Разрешения
-      url: power-bi-permissions.md
+      url: embedded/power-bi-permissions.md
   - linkListType: how-to-guide
     links:
     - text: Внедрение из приложений
-      url: embed-from-apps.md
+      url: embedded/embed-from-apps.md
     - text: Создание клиента Azure Active Directory
-      url: create-an-azure-active-directory-tenant.md
+      url: embedded/create-an-azure-active-directory-tenant.md
     - text: Получение токена доступа Azure AD
-      url: get-azuread-access-token.md
+      url: embedded/get-azuread-access-token.md
     - text: Функции вопросов и ответов в Power BI Embedded
-      url: qanda.md
+      url: embedded/qanda.md
