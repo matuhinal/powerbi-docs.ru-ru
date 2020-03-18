@@ -110,3 +110,5 @@
       items:
         - name: Поддерживаемые языки в мобильных приложениях
           href: mobile-apps-supported-languages.md
+        - name: "Power\_BI для Windows\_10 Mobile\_— прекращение поддержки для устройств Windows Phone"
+          href: 'https://go.microsoft.com/fwlink/?linkid=2121400'

@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: Подписка себя и других пользователей
               href: ../service-report-subscribe.md
+            - name: Рекомендация содержимого на главной странице
+              href: service-featured-content.md
             - name: "Внедрение отчета в Microsoft\_Teams"
               href: ../service-embed-report-microsoft-teams.md
             - name: Встраивание отчета в SharePoint Online
