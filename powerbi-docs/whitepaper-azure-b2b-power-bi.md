@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213610"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488598"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Распространение содержимого Power BI для сторонних гостевых пользователей с помощью Azure Active Directory B2B
 
@@ -336,7 +336,7 @@ Power BI содержит параметр **External guest users can edit and m
 Чтобы выполнить лицензирование гостевых пользователей основываясь на своих поставщиках и партнерских организаций для доступа к содержимому Power BI, Contoso может выбрать один из трех подходов.
 
 > [!NOTE]
-> _Уровень "бесплатный" Azure AD B2B's достаточно для использования Power BI с Azure AD B2B. Для некоторых расширенных функций Azure AD B2B, таких как динамические группы, требуется дополнительное лицензирование. Дополнительные сведения см. в документации по Azure AD B2B:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Уровень "бесплатный" Azure AD B2B's достаточно для использования Power BI с Azure AD B2B. Для некоторых расширенных функций Azure AD B2B, таких как динамические группы, требуется дополнительное лицензирование. Дополнительные сведения см. в документации по Azure AD B2B:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Подход 1. Contoso использует Power BI Premium
 
@@ -490,7 +490,7 @@ Contoso может разрешить внешним пользователям 
 
 Чтобы помочь этим пользователям войти в Power BI, предоставьте им URL-адрес клиента. Чтобы найти URL-адрес клиента, выполните указанные ниже действия.
 
-1. В службе Power BI в верхнем меню выберите справку (**?** ), а затем **О Power BI**.
+1. В службе Power BI в верхнем меню выберите справку ( **?** ), а затем **О Power BI**.
 2. Найдите значение рядом с полем **URL-адрес клиента**. Это URL-адрес клиента, которым вы можете поделиться с гостевыми пользователями.
 
     ![URL-адрес клиента](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
@@ -576,7 +576,7 @@ Contoso может разрешить внешним пользователям 
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Альтернативный вариант 2. Создание пользовательского Power BI Embedded приложения с помощью пользовательской проверки подлинности
 
-Другим решением для компании Contoso будет создать собственное пользовательское приложение Power BI Embedded, с настраиваемой проверкой подлинности (["Данные принадлежат приложению"](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)). Хотя во многих организациях нет времени или ресурсов для создания пользовательского приложения для распространения содержимого Power BI среди сторонних партнеров, для некоторых организаций этот способом рекомендуется и заслуживает серьезного изучения.
+Другим решением для компании Contoso будет создать собственное пользовательское приложение Power BI Embedded, с настраиваемой проверкой подлинности (["Данные принадлежат приложению"](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)). Хотя во многих организациях нет времени или ресурсов для создания пользовательского приложения для распространения содержимого Power BI среди сторонних партнеров, для некоторых организаций этот способом рекомендуется и заслуживает серьезного изучения.
 
 Часто организации имеют существующие партнерские порталы с централизованным доступом ко всем ресурсам организации для партнеров, обеспечивая изоляцию внутренних ресурсов организации и предоставляя упрощенные возможности для партнеров, обеспечивая поддержку многих партнеров и их отдельных пользователей.
 
