@@ -75,6 +75,8 @@
               href: ../desktop-measures.md
             - name: Импорт и отображение ключевых показателей эффективности
               href: ../desktop-import-and-display-kpis.md
+            - name: Применение функции "Автоматические дата и время"
+              href: ../desktop-auto-date-time.md
         - name: Самостоятельная подготовка данных
           items:
             - name: Создание и использование потоков данных
