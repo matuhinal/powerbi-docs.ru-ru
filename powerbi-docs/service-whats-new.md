@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920971"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488851"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
 
-- Заметки о выпуске [Новые возможности бизнес-аналитики. Октябрь 2018 года ](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) от Microsoft Business Applications Group: Последние обновления наших бизнес-приложений.
+- Заметки о выпуске [Новые возможности бизнес-аналитики. Октябрь 2018 года ](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) от Microsoft Business Applications Group. Последние обновления наших бизнес-приложений.
 - [Новые возможности Power BI Desktop](desktop-latest-update.md)  
 - [Новые возможности мобильных приложений для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Блог команды Power BI](https://powerbi.microsoft.com/blog/)
@@ -91,7 +91,7 @@ ms.locfileid: "78920971"
 * Экспорт с фильтрацией для форматов PPT и PDF.
 * [Параметры справки и поддержки](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) на портале администрирования.
 * Журнал преобразований данных для [потоков данных](service-dataflows-overview.md).
-* Параметры сертифицированных пользовательских визуальных элементов на портале администрирования.
+* Параметры сертифицированных визуальных элементов Power BI на портале администрирования.
 
 ### <a name="january-2019"></a>Январь 2019 г.
 * [Внедрение безопасных отчетов Power BI](service-embed-secure.md) во внутренние порталы и веб-сайты.
@@ -126,7 +126,7 @@ ms.locfileid: "78920971"
 * Улучшения [фильтрации URL-адресов отчетов](service-url-filters.md) Power BI.
 
 ### <a name="july-2018"></a>Июль 2018 г.
-* Поддержка пользовательских визуальных элементов для [сохраняемых фильтров](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
+* Поддержка визуальных элементов Power BI для [сохраняемых фильтров](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
 * [API и командлеты PowerShell](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) для администраторов Power BI.
 * [Поддержка нескольких регионов](service-admin-premium-multi-geo.md) для Power BI Premium.
 
@@ -153,20 +153,20 @@ ms.locfileid: "78920971"
 ### <a name="february-2018"></a>Февраль 2018 г.
 * Автоматическая установка [приложений Power BI](service-create-distribute-apps.md) для конечных пользователей.
 * Емкости P4 и P5 в Power BI Premium.
-* Предварительная версия [пользовательских визуальных элементов организации](developer/power-bi-custom-visuals-organization.md).
+* Предварительная версия [визуальных элементов Power BI организации](developer/visuals/power-bi-custom-visuals-organization.md).
 
 ### <a name="january-2018"></a>Январь 2018 г.:
-*   предоставление общего доступа к отчетам Power BI и добавление их в "Избранное";
-*   поддержка единого входа OAuth2 и DirectQuery для службы "База данных Azure SQL" и хранилища данных;
-*   аудит в пределах региона — теперь журналы аудита будут храниться в том же регионе Office 365, что и их клиент;
-*   общедоступная версия [веб-части отчетов Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698) в SharePoint Online;
-*   административный контроль для отключения просмотра пользовательских визуальных элементов для всех пользователей в клиенте;
-*   поддержка запланированного обновления Azure Analysis Services (AAS).
+*    предоставление общего доступа к отчетам Power BI и добавление их в "Избранное";
+*    поддержка единого входа OAuth2 и DirectQuery для службы "База данных Azure SQL" и хранилища данных;
+*    аудит в пределах региона — теперь журналы аудита будут храниться в том же регионе Office 365, что и их клиент;
+*    общедоступная версия [веб-части отчетов Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698) в SharePoint Online;
+*    административный контроль для отключения просмотра визуальных элементов Power BI для всех пользователей в клиенте;
+*    поддержка запланированного обновления Azure Analysis Services (AAS).
 
 ## <a name="previous-months-2017"></a>Предыдущие месяцы (2017 г.)
 ### <a name="october-and-november-2017"></a>Октябрь и ноябрь 2017 г.:
-*   выборочная публикация содержимого при помощи [приложений Power BI](service-create-distribute-apps.md);
-*   распределение внешних пользователей с использованием [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/);
+*    выборочная публикация содержимого при помощи [приложений Power BI](service-create-distribute-apps.md);
+*    распределение внешних пользователей с использованием [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/);
 * рекомендации по приложениям на основе средств искусственного интеллекта;
 * обновление пользовательского интерфейса на плитке панели мониторинга;
 * поддержка подписки по электронной почте для приложений; 
@@ -183,8 +183,8 @@ ms.locfileid: "78920971"
 * Изучение целевой аудитории с помощью [метрик использования по отдельным пользователям](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Сведения о начале работы с приложениями [службы Power BI](service-connect-to-services.md) для веб-служб.
 * Подключение к IBM Netezza при помощи локального шлюза в режимах импорта и подключения DirectQuery.
-* [Динамическая безопасность на уровне строк](developer/embedded-row-level-security.md) теперь поддерживается для Power BI Embedded.
-* Теперь для API пользовательских визуальных элементов выпуска 1.7. добавлен расширенный [API фильтрации](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md).
+* [Динамическая безопасность на уровне строк](developer/embedded/embedded-row-level-security.md) теперь поддерживается для Power BI Embedded.
+* Теперь для API визуальных элементов Power BI выпуска 1.7. добавлен расширенный [API фильтрации](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md).
 
 ### <a name="july-2017"></a>Июль 2017 г.
 * Поддержка [подписки на рассылку по электронной почте](consumer/end-user-subscribe.md) на панелях мониторинга.
@@ -197,7 +197,7 @@ ms.locfileid: "78920971"
 * Несколько усовершенствований API для [автоматизации запланированного обновления](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [клонирования и повторной привязки отчетов](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [обновления привязок к шлюзу](https://msdn.microsoft.com/library/mt784650.aspx) и многое другое.
 * В приложения Power BI добавлены ссылки, с помощью которых с плиток панели мониторинга можно перейти к другим панелям мониторинга и отчетам.
 * [Соединитель Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) в Power BI Desktop стал общедоступным.
-* Расширения возможностей визуализации в Power BI с помощью [интерактивных пользовательских визуальных элементов R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
+* Расширения возможностей визуализации в Power BI с помощью [интерактивных визуальных элементов Power BI на базе R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
 
 ### <a name="april-and-may-2017"></a>Апрель и май 2017 г.
 * Оценка и повышение эффективности с помощью [метрик использования для создателей панелей мониторинга и отчетов](service-usage-metrics.md).
@@ -213,7 +213,7 @@ ms.locfileid: "78920971"
 * Улучшенное [устранение ошибок запросов DAX](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting).
 * Усиление контроля над наборами данных с помощью [расписаний обновления настраиваемого кэша](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/).
 * Подключение к [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/).
-* Обзор [настраиваемых визуальных элементов Power BI в Магазине Office](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
+* Обзор [визуальных элементов Power BI в Магазине Office](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
 * Предварительная версия: [подписка на страницы отчетов](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) для получения актуальных данных.
 * Применение пакета содержимого Azure AD для получения дополнительных сведений о том, как сотрудники и партнеры используют Azure AD.
 
@@ -225,7 +225,7 @@ ms.locfileid: "78920971"
 ### <a name="january-2017"></a>Январь 2017 г.
 * Администрирование Power BI с помощью [роли администратора Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole).
 * [Журналы аудита Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) теперь общедоступны на портале аудита Office 365.
-* Выпущена версии 1.4 [инструментов разработчика и интерфейсов API настраиваемых визуальных элементов](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/).
+* Выпущена версия 1.4 [инструментов разработчика и интерфейсов API визуальных элементов Power BI](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/).
 * Стал общедоступным [набор функций потоковой передачи в реальном времени](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/).
 * [Принудительная отправка данных в Power BI с помощью Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) без написания даже строки кода.
 * Предварительная версия: [подписка на страницы отчетов](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) для получения актуальных данных.
@@ -506,7 +506,7 @@ ms.locfileid: "78920971"
   1. Поддержка многомерных моделей SSAS — поддержка иерархий (предварительная версия функции)
   2. Соединитель Stripe
   3. Соединитель Smartsheet
-  4. Ввод данных: вставка или ввод данных при создании таблицы.
+  4. "Введите данные": вставка или ввод данных при создании таблицы.
   5. Улучшения DirectQuery:  поддержка всех типов данных T-SQL и SAP HANA, что позволяет повысить производительность.
   6. Соединитель ODBC: возможность выбора пользовательских и системных имен DSN.
   7. Соединитель CSV: возможность задать разделитель столбцов в диалоговом окне Source (Источник).
@@ -606,7 +606,7 @@ ms.locfileid: "78920971"
 
 * Благодаря вопросам и ответам Power BI вы можете исследовать данные. задавая простые, интуитивно понятные вопросы и получая ответы в форме интерактивных диаграмм и графиков. В этом выпуске мы добавили функцию, которая поможет вам приступить к работе с вопросами и ответами Power BI, даже если вы совершенно ничего не знаете о данных. Чтобы начать работу, [перейдите на любую панель мониторинга и щелкните ссылку "Как задать вопрос" рядом с полем вопросов](power-bi-tutorial-q-and-a.md). Power BI отображает ряд предложений, основанных на ваших данных.
 * Две недели назад реализовали поддержку вставки фигур на холст отчета в Power BI Desktop. На этой неделе мы рады сообщить, что теперь вы можете добавить фигуры на холст отчета при создания и редактирования отчетов в веб-приложении Power BI.
-* Мы добавили возможность отключения уведомлений по электронной почте при общем доступе к информационной панели. Просто снимите флажок Send email notification to recipients (Отправлять уведомления по электронной почте получателям) в диалоговом окне общего доступа Power BI. Вам будет предоставлен URL-адрес — скопируйте и перешлите его своим коллегам, чтобы предоставить им доступ к информационной панели.
+* Мы добавили возможность отключения уведомлений по электронной почте при общем доступе к информационной панели. Просто снимите флажок "Отправлять получателям уведомления по электронной почте" в диалоговом окне общего доступа Power BI. Вам будет предоставлен URL-адрес — скопируйте и перешлите его своим коллегам, чтобы предоставить им доступ к информационной панели.
 * Microsoft Dynamics NAV — это решение по управлению бизнесом для организаций малого и среднего размера. Оно предлагает клиентам полноценную систему, позволяющую более эффективно управлять финансами и бизнес-процессами. Пакет содержимого Power BI предоставляет готовые отчеты для пользователей Dynamics NAV, например о продажах и прибыли, канале возможных сделок, рентабельности и многом другом. Эти метрики упорядочены на информационной панели, которую можно настраивать, что позволяет легко подключать данные и оперативно анализировать их.
 
 Дополнительные сведения см. в [блоге](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx) и в [электронной документации](service-get-started.md).
@@ -626,7 +626,7 @@ ms.locfileid: "78920971"
 * Работа с информационной панелью стала более гибкой благодаря наличию дополнительных размеров плиток — от 1 x 1 до 5 x 5.
 * Теперь вы можете предоставлять [общий доступ к панели мониторинга (и отменять его) из пространства группы](service-collaborate-power-bi-workspace.md) точно так же, это делаете это в своем личном пространстве. Когда коллеги принимают ваше приглашение на общий доступ, совместно используемая информационная панель (и связанные с ней отчеты) будет добавлена в их пространство с разрешением только для чтения.
 * Мы добавили в Power BI пять дополнительных [отраслевых примеров](sample-datasets.md): "Рентабельность клиента", "Управление персоналом", "Анализ возможных сделок", "Анализ закупок и продаж", а также "Продажи и маркетинг".
-* Stripe — это многофункциональная платформа платежей для интернет-компаний. Тысячи компаний — от начинающих до включенных в список Fortune 500 — используют Stripe для приема платежей в более чем 130 валютах из всех частей земного шара. Подключив Power BI к имеющейся у вас учетной записи Stripe, вы сможете использовать [пакет содержимого Power BI Stripe для отслеживания, анализа и визуализации своей деятельности в Stripe](service-connect-to-stripe.md).
+* Stripe — это многофункциональная платформа платежей для интернет-компаний. Тысячи компаний — от начинающих до включенных в список Fortune 500 — используют Stripe для приема платежей в более чем 130 валютах из всех частей земного шара. Подключив Power BI к имеющейся у вас учетной записи Stripe, вы сможете использовать [пакет содержимого Power BI Stripe для отслеживания, анализа и визуализации своей деятельности в Stripe](service-connect-to-stripe.md).
 
 [Дополнительные сведения см. в нашем блоге](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)
 
@@ -667,7 +667,7 @@ ms.locfileid: "78920971"
 
 **28 июля 2015 г.**
 
-* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания производительности базы данных с помощью [пакета содержимого SQL Sentry](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Этот пакет содержимого включает панель мониторинга и отчеты, которые помогают наблюдать за развертываниями SQL Server, отслеживаемыми с помощью облачной службы SQL Sentry. Дополнительные сведения о начале работы см. на [странице справки](service-connect-to-sql-sentry.md) пакета содержимого SQL Sentry для Power BI.
+* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания производительности базы данных с помощью [пакета содержимого SQL Sentry](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Этот пакет содержимого включает панель мониторинга и отчеты, которые помогают наблюдать за развертываниями SQL Server, отслеживаемыми с помощью облачной службы SQL Sentry. Дополнительные сведения о начале работы см. на [странице справки](service-connect-to-sql-sentry.md) пакета содержимого SQL Sentry для Power BI.
 
 **24 июля 2015 г.**
 
@@ -678,7 +678,7 @@ ms.locfileid: "78920971"
 * [Перенос файлов Excel полностью](service-excel-workbook-files.md): любую книгу Excel, хранящуюся в среде OneDrive для бизнеса, можно перенести в Power BI и просмотреть ее целиком точно так же, как она отображается в Excel Online.
 * [Перенос в CSV-файлах](service-get-data-from-files.md): как и файлы Excel или Power BI Desktop, текстовые CSV-файлы можно использовать в качестве наборов данных для панелей мониторинга и отчетов Power BI.
 * Замена файлов Excel, Power BI Desktop и CSV-файлов: вы можете отправить обновленную версию файла в Power BI, и она заменит существующий набор данных. Все отчеты и панели мониторинга, подключенные к этому набору данных, автоматически будут использовать новую версию.
-* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания рабочих элементов в [пакете содержимого Visual Studio Online](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Это обновление включает новую панель мониторинга, отчет и обновленный набор данных, обеспечивающие важные сведения о рабочих элементах, а также важные метрики, связанные с репозиторием Git, запросами на включение внесенных изменений и содержимым управления версиями, включенным в первоначальную версию. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Visual Studio Online для Power BI](service-connect-to-quickbooks-online.md).
+* Мы рады сообщить о том, что обновления для Power BI на этой неделе включают функцию отслеживания рабочих элементов в [пакете содержимого Visual Studio Online](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Это обновление включает новую панель мониторинга, отчет и обновленный набор данных, обеспечивающие важные сведения о рабочих элементах, а также важные метрики, связанные с репозиторием Git, запросами на включение внесенных изменений и содержимым управления версиями, включенным в первоначальную версию. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Visual Studio Online для Power BI](service-connect-to-quickbooks-online.md).
 
 **14 июля 2015 г.**
 

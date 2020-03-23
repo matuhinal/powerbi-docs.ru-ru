@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819245"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380496"
 ---
 # <a name="add-drill-down-support"></a>Добавление поддержки детализации
 
-Пользовательские визуальные элементы могут использовать детализацию Power BI.
+Визуальные элементы Power BI могут использовать детализацию Power BI.
 
 Дополнительные сведения о детализации в Power BI см. [здесь](./../../consumer/end-user-drill.md).
 
@@ -205,38 +205,38 @@ button {
 
 Подготовьте образец данных для тестирования визуального элемента:
 
-|   H1  |   H2    | H3  |   ЗНАЧЕНИЯ  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   А   |   A1  |   A11 |   1   |
-|   А   |   A1  |   A12 |   2   |
-|   А   |   A2  |   A21 |   3   |
-|   А   |   A2  |   A22 |   4   |
-|   А   |   A3  |   A31 |   5   |
-|   А   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   А   |    A1  |    A11 |    1   |
+|   А    |    A1    |    A12    |    2    |
+|   А    |    A2    |    A21    |    3    |
+|   А    |    A2    |    A22    |    4    |
+|   А    |    A3    |    A31    |    5    |
+|   А    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Создайте иерархию в Power BI Desktop:
 
-![Создание иерархии](./media/create-new-hierarchy.png)
+![Создание иерархии](media/drill-down-support/create-new-hierarchy.png)
 
 Включить в новую иерархию все столбцы категорий (H1, H2, H3):
 
-![Создание иерархии](./media/new-hierarchy.png)
+![Создание иерархии](media/drill-down-support/new-hierarchy.png)
 
 После выполнения этих действий должен получиться следующий визуальный элемент:
 
-![Разрабатываемый визуальный элемент с кнопками](./media/dev-visual-drilldown1.png)
+![Разрабатываемый визуальный элемент с кнопками](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>Добавление контекстного меню к элементам визуализации
 
 На этом шаге вы добавите контекстное меню для кнопок в визуальном элементе:
 
-![Контекстное меню в визуальном элементе](./media/dev-visual-drilldown-context-menu.png)
+![Контекстное меню в визуальном элементе](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 Чтобы создать контекстное меню, сохраните объект `host` в свойствах визуального элемента и вызовите метод `createSelectionManager` для создания диспетчера выбора. Он будет использоваться для отображения контекстного меню с помощью API визуальных элементов Power BI.
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 Примените данные к визуальному элементу:
 
-![Визуальный элемент с данными](./media/dev-visual-drilldown-data.png)
+![Визуальный элемент с данными](media/drill-down-support/dev-visual-drilldown-data.png)
 
 В итоге должен получиться визуальный элемент с элементами выбора и контекстным меню:
 
-![Визуальный элемент с поддержкой детализации](./media/dev-visual-drilldown-demo.gif)
+![Визуальный элемент с поддержкой детализации](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Добавление поддержки детализации для сопоставления представления матричных данных
 
@@ -389,7 +389,7 @@ export class Visual implements IVisual {
 
 Примените данные к визуальному элементу:
 
-![Визуальный элемент с данными](./media/dev-matrix-visual-drilldown-data.png)
+![Визуальный элемент с данными](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Импортируйте необходимые интерфейсы для обработки сопоставлений представлений матричных данных:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 В итоге должен получиться визуальный элемент с контекстным меню:
 
-![Визуальный элемент с поддержкой детализации](./media/dev-matrix-visual-drilldown-demo.gif)
+![Визуальный элемент с поддержкой детализации](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

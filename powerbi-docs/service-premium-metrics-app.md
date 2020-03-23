@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927121"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488690"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Приложение Power BI Premium Metrics
 
@@ -262,7 +262,7 @@ ms.locfileid: "75927121"
 
 Чтобы диагностировать сценарий 1, сначала определите, происходит ли регулирование из-за нехватки памяти. Для этого выполните следующие действия.
 
-1.  Выберите интересующий набор данных из **таблицы A**, щелкнув его: 
+1.    Выберите интересующий набор данных из **таблицы A**, щелкнув его: 
 
     ![Таблица A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ ms.locfileid: "75927121"
 
 Чтобы диагностировать сценарий 2, сначала определите, связано ли регулирование с максимальным параллелизмом для обновлений. Для этого выполните следующие действия.
 
-1.  Выберите интересующий набор данных из **таблицы A**, щелкнув его: 
+1.    Выберите интересующий набор данных из **таблицы A**, щелкнув его: 
 
     ![Таблица A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ ms.locfileid: "75927121"
 * [Технический документ по Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 * [Активация расширенной пробной версии Power BI Pro](service-extended-pro-trial.md)
-* [Часто задаваемые вопросы о Power BI Embedded](developer/embedded-faq.md)
+* [Часто задаваемые вопросы о Power BI Embedded](developer/embedded/embedded-faq.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

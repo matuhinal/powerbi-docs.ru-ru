@@ -1,5 +1,5 @@
 ---
-title: Внедрение отчета в Microsoft Teams с помощью вкладки Power BI
+title: Внедрение отчетов в Microsoft Teams с помощью вкладки Power BI
 description: С помощью вкладки Power BI для Microsoft Teams можно легко внедрять интерактивные отчеты в каналы и чаты.
 author: LukaszPawlowski-MS
 ms.author: lukaszp
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530494"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381233"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Внедрение отчета в Microsoft Teams с помощью вкладки Power BI
 
@@ -35,7 +35,7 @@ ms.locfileid: "77530494"
 ## <a name="embed-your-report"></a>Внедрение отчета
 Чтобы внедрить отчет в канал или чат Microsoft Teams, добавьте его, как описано ниже.
 
-1. Откройте нужный канал или чат в Microsoft Teams и щелкните значок **+**.
+1. Откройте нужный канал или чат в Microsoft Teams и щелкните значок **+** .
 
     ![Добавление вкладки в канал или чат](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-add.png)
 
@@ -69,10 +69,22 @@ ms.locfileid: "77530494"
 
 Один из способов обеспечить доступ всех членов команды к внедренным отчетам — поместить отчеты в одну рабочую область в Power BI и предоставить группе Office 365 вашей команды доступ к ней.
 
+## <a name="start-a-conversation"></a>Начать беседу
+
+При добавлении вкладки отчета Power BI в Teams в этой службе автоматически создается беседа для обсуждения отчета. 
+
+- В правом верхнем углу выберите **Показать беседу во вкладке**.
+
+    ![Значок "Показать беседу во вкладке"](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    Первый комментарий является ссылкой на отчет. Каждый в этом канале Teams может просматривать и обсуждать отчет в беседе.
+
+    ![Беседа во вкладке](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
+
 ## <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
 
 - Power BI не поддерживает те же языки с локализацией, что и Microsoft Teams. В результате во внедренном отчете требуемая локализация может не отображаться.
-- Панели мониторинга Power BI нельзя внедрять на вкладке Power BI для Microsoft Teams.
+- Панели мониторинга Power BI невозможно внедрить на вкладку Power BI для Microsoft Teams.
 - Пользователь, у которого нет лицензии Power BI или разрешения на доступ к отчету, увидит сообщение "Содержимое недоступно".
 - При использовании Internet Explorer 10 могут возникнуть проблемы. <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [Фильтры URL-адресов](service-url-filters.md) не поддерживаются на вкладке Power BI для Microsoft Teams.

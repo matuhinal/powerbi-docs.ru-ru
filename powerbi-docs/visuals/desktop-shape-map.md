@@ -2,19 +2,19 @@
 title: Использование карт фигур в Power BI Desktop (предварительная версия)
 description: С помощью карт фигур в Power BI Desktop можно проводить относительные сравнения разных регионов.
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762331"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525667"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Создание визуализаций сопоставителя фигур в Power BI Desktop (предварительная версия)
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762331"
 
 Создайте визуальный элемент **Карта фигур** для сравнения регионов на карте по цветам. В отличие от визуального элемента **Карта**, на визуальном элементе **Карта фигур** невозможно отобразить точное географическое расположение точек данных на карте. Его основное назначение — проиллюстрировать относительное сравнение регионов на карте с помощью разных цветов.
 
-Визуальные элементы типа **Карта фигур** созданы на базе карт ESRI/TopoJSON, позволяющих создавать и использовать собственные настраиваемые карты (например, географические карты, планы залов и помещений и т. д.). Эта предварительная версия **Карт фигур** не поддерживает настраиваемые карты.
+Визуальные элементы типа **Карта фигур** созданы на базе карт TopoJSON, позволяющих создавать и использовать собственные настраиваемые карты. (например, географические карты, планы залов и помещений и т. д.). Эта предварительная версия **Карт фигур** не поддерживает настраиваемые карты.
 
 ## <a name="creating-shape-maps"></a>Создание карт фигур
 Вы можете проверить элемент управления **Карта фигур** с помощью карт, которые поставляются вместе с этой предварительной версией, или использовать свою карту, если она соответствует требованиям, приведенным в следующем разделе под названием **Использование пользовательских карт**.
@@ -400,7 +400,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |ИЛИ |
+| us-or |Oregon |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

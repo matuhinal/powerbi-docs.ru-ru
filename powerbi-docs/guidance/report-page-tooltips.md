@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290620"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377749"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Добавление подсказок в виде страниц отчета в визуальные элементы
 
@@ -31,7 +31,7 @@ ms.locfileid: "78290620"
 >
 > Подсказки страниц не поддерживают интерактивность. Если пользователям отчета требуется возможность взаимодействия, создайте вместо этого [страницу детализации](../desktop-drillthrough.md).
 >
-> Пользовательские визуальные элементы не поддерживают подсказки страниц.
+> Визуальные элементы Power BI не поддерживают подсказки страниц.
 
 Вот ряд рекомендуемых сценариев применения:
 

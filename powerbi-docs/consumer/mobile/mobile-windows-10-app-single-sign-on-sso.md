@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114725"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435934"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Единый вход в Power BI для мобильных приложений, поддерживающих Windows
 
@@ -21,7 +21,10 @@ ms.locfileid: "79114725"
 
 Поскольку приложение Power BI для Windows совместимо с Azure Active Directory, можно использовать основную рабочую учетную запись не только для входа на устройства, присоединенные к домену, но также для быстрого входа в службу Power BI. Если вы просматриваете Power BI на телефоне, поддерживающем Windows, убедитесь, что учетная запись, которую вы используете для Power BI, в настройках устройства настроена в качестве учетной записи для работы или школы.  
 
-SSO доступно только для устройств с Windows под управлением Windows Azure Active Directory. 
+SSO доступно только для устройств с Windows под управлением Windows Azure Active Directory.
+
+>[!NOTE]
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>Вход с SSO
 

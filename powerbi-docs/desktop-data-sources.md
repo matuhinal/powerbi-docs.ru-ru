@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427560"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207259"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 
@@ -90,7 +90,8 @@ Power BI Desktop позволяет подключаться к данным и�
 * Снежинка
 * Essbase
 * Кубы AtScale
-* Соединитель BI Data Virtuality LDW (бета-версия)
+* Соединитель BI 
+* Data Virtuality LDW (бета-версия)
 * Denodo
 * Dremio
 * Exasol
@@ -124,9 +125,10 @@ Power BI Desktop позволяет подключаться к данным и�
 
 Категория **Azure** предоставляет следующие подключения к данным:
 
-* База данных SQL Azure
+* База данных SQL Azure
 * Хранилище данных SQL Azure
 * База данных Azure Analysis Services
+* База данных Azure для PostgreSQL
 * Хранилище BLOB-объектов Azure
 * Хранилище таблиц Azure
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ Power BI Desktop позволяет подключаться к данным и�
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (локальный)
 * Microsoft Azure Consumption Insights (бета-версия)
-* Azure DevOps (бета-версия)
-* Azure DevOps Server (бета-версия)
+* Azure DevOps (только Boards)
+* Azure DevOps Server (только Boards)
 * Объекты SalesForce
 * Отчеты SalesForce
 * Google Analytics
@@ -164,7 +166,6 @@ Power BI Desktop позволяет подключаться к данным и�
 * Data.World — получение набора данных (бета-версия)
 * GitHub (бета-версия)
 * LinkedIn Sales Navigator (бета-версия)
-* MailChimp (бета-версия)
 * Merketo (бета-версия)
 * Mixpanel (бета-версия)
 * Planview Enterprise One — PRM (бета-версия)
@@ -178,6 +179,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * tyGraph (бета-версия)
 * Webtrends (бета-версия)
 * ZenDesk (бета-версия)
+* Asana (бета-версия)
 * Dynamics 365 Customer Insights (бета-версия)
 * Источник данных Emigo
 * Entersoft Business Suite (бета-версия)
@@ -205,6 +207,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Microsoft Exchange
 * Файл Hadoop (HDFS)
 * Spark
+* Hive LLAP (бета-версия)
 * Скрипт R
 * Скрипт Python
 * ODBC
@@ -220,6 +223,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Siteimprove (бета-версия)
 * SurveyMonkey (бета-версия)
 * Tenforce (Smart)List (бета-версия)
+* TIBCO(R) Data Virtualization (бета-версия)
 * Vena (бета-версия)
 * Workforce Dimensions (бета-версия)
 * Zucchetti HR Infinity (бета-версия)

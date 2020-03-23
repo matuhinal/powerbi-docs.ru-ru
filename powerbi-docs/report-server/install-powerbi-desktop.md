@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426663"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381130"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 
@@ -45,7 +45,7 @@ ms.locfileid: "77426663"
     После автоматического запуска приложения вы будете готовы к работе.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Проверка используемой версии
-Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. Если в строке заголовка вы видите **Power BI Desktop (сентябрь 2019 г.)**, вы установили правильную версию. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
+Проверить используемую версию Power BI Desktop нетрудно: Посмотрите на экран запуска или заголовок окна Power BI Desktop. Если в строке заголовка вы видите **Power BI Desktop (сентябрь 2019 г.)** , вы установили правильную версию. Кроме того, цвета логотипа Power BI изменены на обратные: желтый на черном вместо черного на желтом.
 
 ![Power BI Desktop, сентябрь 2019 г.](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "77426663"
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
-Отчеты в сервере отчетов Power BI и в службе Power BI (https://app.powerbi.com)), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
+Отчеты в сервере отчетов Power BI и в службе Power BI (https://app.powerbi.com) ), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
 
 ### <a name="selecting-a-language"></a>Выбор языка
 
@@ -70,7 +70,7 @@ ms.locfileid: "77426663"
 
 ### <a name="report-visuals-in-a-browser"></a>Визуальные элементы отчетов в браузере
 
-Отчеты на сервере отчетов Power BI поддерживают почти все визуализации, в том числе пользовательские визуальные элементы. Отчеты на сервере отчетов Power BI не поддерживают:
+Отчеты на сервере отчетов Power BI поддерживают почти все визуализации, в том числе визуальные элементы Power BI. Отчеты на сервере отчетов Power BI не поддерживают:
 
 * визуальные элементы R;
 * карты ArcGIS;
@@ -89,7 +89,7 @@ ms.locfileid: "77426663"
 
 * Визуальные элементы R
 * карты ArcGIS;
-* Настраиваемые визуальные элементы
+* Визуальные элементы Power BI
 * строки навигации;
 * географическую фильтрацию и штрихкоды.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d37e9530b56d577ae4f4a32780a46ba00ede8107
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114818"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435589"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Получение уведомлений в мобильных приложениях Power BI
 Применяется к:
@@ -21,6 +21,9 @@ ms.locfileid: "79114818"
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
+
+>[!NOTE]
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Благодаря уведомлениям вы получаете информацию, связанную с вашей работой в Power BI, в службе Power BI или непосредственно на своем мобильном устройстве. При открытии страницы "Уведомления" вы видите последовательность сообщений для [установленных вами оповещений](mobile-set-data-alerts-in-the-mobile-apps.md) о новых информационных панелях, к которым вам предоставлен доступ, об изменениях в вашей рабочей области группы, сведения о мероприятиях и встречах, связанных с Power BI, и многое другое.
 

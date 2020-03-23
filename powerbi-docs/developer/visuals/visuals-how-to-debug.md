@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264250"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377921"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Отладка визуальных элементов Power BI
 
 На этой странице показаны некоторые советы по отладке в процессе создания визуального элемента. Он включает в себя основные шаги и показывает различия между стандартными интерфейсными приложениями и отладкой визуального элемента Power BI.
-После прочтения статьи вы сможете выполнять отладку пользовательских визуальных элементов с помощью точек останова, исключений журнала и перехвата исключений в Chrome и Edge.
+После прочтения статьи вы сможете выполнять отладку визуальных элементов Power BI с помощью точек останова, исключений журнала и перехвата исключений в Chrome и Edge.
 
 ## <a name="using-breakpoints"></a>Использование точек останова
 
@@ -80,7 +80,7 @@ public update(options: VisualUpdateOptions) {
 3. Щелкните значок **останавливать на исключениях** (шестиугольник со значком паузы).
 4. Выберите **Останавливать при любых исключениях**.
 
-![Поля ролей данных](./media/how-to-debug-edge.png)
+![Поля ролей данных](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ public update(options: VisualUpdateOptions) {
 3. Щелкните значок **останавливать на исключениях** (шестиугольник со значком останова).
 4. Установите флажок **Pause On Caught Exceptions** (Приостановить на перехваченных исключениях).
 
-![Поля ролей данных](./media/how-to-debug-chrome.png)
+![Поля ролей данных](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Устранение неполадок с визуальными элементами Power BI](../power-bi-custom-visuals-troubleshoot.md)
-* Дополнительные сведения см. в статье [Визуальные элементы Power BI: вопросы и ответы](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
+* [Устранение неполадок с визуальными элементами Power BI](power-bi-custom-visuals-troubleshoot.md)
+* Дополнительные сведения см. в статье [Визуальные элементы Power BI: вопросы и ответы](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)

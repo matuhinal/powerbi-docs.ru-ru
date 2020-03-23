@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537216"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205281"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Защита данных в Power BI (предварительная версия)
 
@@ -44,7 +44,7 @@ ms.locfileid: "76537216"
 
 ## <a name="how-sensitivity-labels-work"></a>Принципы применения меток конфиденциальности
 
-Метка, применяемая к панели мониторинга, отчету, набору или потоку данных Power BI, по своему предназначению схожа с *тегом* и дает следующие преимущества:
+Метка, применяемая к панели мониторинга, отчету, набору или потоку данных Power BI, по своему предназначению схожа с *тегом* и дает следующие преимущества.
 * **Возможность настройки** — вы можете создавать категории для разных уровней конфиденциальности содержимого организации, такие как "Личная информация", "Общедоступная информация", "Общая информация", "Конфиденциальная информация" или "Строго конфиденциальная информация".
 * **Наглядное представление** — метка представляет собой обычный текст, который хорошо виден пользователям и позволяет сразу понять, каким образом обращаться с содержимым в соответствии с установленными правилами.
 * **Постоянство** — примененная к содержимому метка сохраняется с ним при экспорте в файлы следующих поддерживаемых типов: Excel, PowerPoint и PDF. 
@@ -105,9 +105,6 @@ ms.locfileid: "76537216"
 * Для меток, примененных в Power BI, не поддерживается защита с использованием [функции хранения собственных ключей (HYOK)](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions).
 * Для просмотра и применения меток в приложениях Office [требуются соответствующие лицензии](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Метки конфиденциальности поддерживаются только для клиентов в глобальном (общедоступном) облаке. Метки конфиденциальности не поддерживаются для клиентов в облаках других видов.
-* Метки конфиденциальности не поддерживаются для [внешних пользователей (гостевых пользователей Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md). Это означает, что внешние пользователи не могут просматривать метки и экспортировать данные в файлы Excel, PDF и PPTX. [Удалите метку](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels), чтобы разрешить внешним пользователям экспортировать данные в эти типы файлов.
-
-
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

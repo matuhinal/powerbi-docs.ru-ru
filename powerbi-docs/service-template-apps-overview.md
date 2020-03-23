@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: bfc6a32f7b6ef83e6e69351fb4d87d89c8c2806e
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427600"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376691"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Что такое приложения-шаблоны Power BI?
 
@@ -102,7 +102,7 @@ ms.locfileid: "77427600"
 | Источники данных | Разрешены источники данных, поддерживаемые для обновления данных по расписанию в облаке. <br>Не поддерживаются: <li> DirectQuery</li><li>Активные подключения (не Azure AS)</li> <li>Локальные источники данных (личный и корпоративный шлюзы не поддерживаются)</li> <li>Режим реального времени (не поддерживается принудительная отправка наборов данных)</li> <li>Составные модели</li></ul> |
 | Набор данных: для нескольких рабочих областей | Наборы данных для нескольких рабочих областей недопустимы.  |
 | Параметры запроса | Не поддерживаются: параметры типа Any или Binary блокируют операцию обновления набора данных. |
-| Настраиваемые визуальные элементы | Поддерживаются только общедоступные пользовательские визуальные элементы. [Пользовательские визуальные элементы организации](developer/power-bi-custom-visuals-organization.md) не поддерживаются. |
+| Визуальные элементы Power BI | Поддерживаются только общедоступные визуальные элементы Power BI. [Визуальные элементы Power BI для организации](developer/visuals/power-bi-custom-visuals-organization.md) не поддерживаются |
 
 ## <a name="support"></a>Поддержка
 Для поддержки во время разработки используйте [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Мы постоянно отслеживаем и контролируем этот сайт. Сообщения об инцидентах быстро передаются в соответствующую группу.

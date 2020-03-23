@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4fc4144b5436fd451280e7189484d9cc01ce69b5
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 402bf2028b7cc30acf0ce752e8f0343a44829cb3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496686"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378485"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Новые возможности Power BI Desktop
 
-## <a name="february-2020-update-2785740642"></a>Обновление за февраль 2020 г. (2.78.5740.642)
+## <a name="march-2020-update-2795768562"></a>Обновление за март 2020 г. (2.79.5768.562)
 
-Мы влюблены в наши февральские обновления и убеждены, что новые функции даже лучше, чем коробка шоколада в форме сердца. 
+Мы с радостью поделимся с вами нашим новым мартовским выпуском Power BI Desktop. 
 
 Скачать последнюю версию Power BI Desktop можно из [Центра загрузки](https://www.microsoft.com/download/details.aspx?id=58494). Если вы используете Windows 10, Power BI Desktop также можно получить в [Microsoft Store](https://aka.ms/pbidesktopstore). Независимо от способа установки Power BI Desktop, эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться. Дополнительные сведения о скачивании и установке Power BI Desktop см. в разделе [Получение Power BI Desktop](desktop-get-the-desktop.md). 
 
@@ -39,39 +39,49 @@ ms.locfileid: "77496686"
 
 Ниже перечислены обновления, добавленные в приложение Power BI Desktop в этом месяце.
 
-### <a name="data-management"></a>Управление данными
-* Добавочное обновление реализовано в общедоступной версии [[видео]](https://youtu.be/TN61JvbUAxk?t=16) [[статья]](service-premium-incremental-refresh.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
 
 ### <a name="reporting"></a>Отчеты
-* Иерархический срез (предварительная версия) [[видео]](https://youtu.be/TN61JvbUAxk?t=207) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
-* Обновленная новая лента (предварительная версия) [[видео]](https://youtu.be/TN61JvbUAxk?t=424) [[статья]](desktop-ribbon.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
+* Новые типы действий для кнопок [[видео]](https://youtu.be/DMjvJGGB_LQ?t=45) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_action_types) 
+* Сортировка по нескольким столбцам для таблиц [[видео]](https://youtu.be/DMjvJGGB_LQ?t=414) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Multi-column_sort) 
+* Двойная ось для графика [[видео]](https://youtu.be/DMjvJGGB_LQ?t=504) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Dual_axis) 
+* Поиск в панели фильтров [[видео]](https://youtu.be/DMjvJGGB_LQ?t=553) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Filter_pane_search) 
+* Обновления визуального оформления дерева декомпозиции [[видео]](https://youtu.be/DMjvJGGB_LQ?t=688) [[статья]](visuals/power-bi-visualization-decomposition-tree.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Updates_to_decomp_tree) 
+* Новая лента теперь включена по умолчанию [[видео]](https://youtu.be/DMjvJGGB_LQ?t=785) [[статья]](desktop-ribbon.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_ribbon) 
+
+
 
 
 ### <a name="modeling"></a>Моделирование
-* Новые функции DAX: FirstNonBlankValue, LastNonBlankValue [[видео]](https://youtu.be/TN61JvbUAxk?t=716)  [[статья]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
+* Новые функции DAX: COALESCE [[видео]](https://youtu.be/DMjvJGGB_LQ?t=830) [[статья]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+) 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Новые пользовательские визуальные элементы [[видео]](https://youtu.be/TN61JvbUAxk?t=835) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
+* Обновления карт ArcGIS [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1043) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Updates_to_ArcGIS) 
+* Новые визуальные элементы Power BI [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1025) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Waterfall_chart
+)
 
 
 ### <a name="template-apps"></a>Приложения-шаблоны
-* Аналитика использования в Microsoft 365 [[видео]](https://youtu.be/TN61JvbUAxk?t=910) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
-* Аналитика NFL от P3  [[видео]](https://youtu.be/TN61JvbUAxk?t=928)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
-* Acterys for Quickbooks, Zero и WorkflowMax  [[видео]](https://youtu.be/TN61JvbUAxk?t=932)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
+* Панель мониторинга DevOps Azure от Data Maru [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1116) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Azure_DevOps_dashboard) 
+* TeamsPower от Encamina [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1135) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_TeamsPower)
 
 
 ### <a name="data-preparation"></a>Подготовка данных
-* Диагностика запросов: поддержка пользователей, не являющихся администраторами [[видео]](https://youtu.be/TN61JvbUAxk?t=938) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+* Общедоступная версия диагностики запросов [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1144) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Query_diagnostics) 
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Соединитель MicroStrategy (общедоступная версия) [[видео]](https://youtu.be/TN61JvbUAxk?t=962) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
-* Соединитель FHIR (общедоступная версия) [[видео]](https://youtu.be/TN61JvbUAxk?t=962) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
-* Дополнительные соединители: Factset, TIBCO, Jamf Pro, Asana [[видео]](https://youtu.be/TN61JvbUAxk?t=978)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+* Соединитель Hive LLAP (предварительная версия) [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1165) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Hive_LLAP_connector) 
+* Соединитель Cognite (предварительная версия) [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1165) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Cognite) 
 
 
+### <a name="other-features"></a>Другие возможности
+* Расширенные метаданные набора данных (предварительная версия) [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1184) [[статья]](desktop-enhanced-dataset-metadata.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Enhanced_dataset_metadata) 
+* Использование системных учетных данных по умолчанию для веб-прокси [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1239) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Using_default_system) 
+* Новый однодневный курс обучения для администраторов под руководством инструктора [[видео]](https://youtu.be/DMjvJGGB_LQ?t=1247) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_administrator) 
 
-Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/).
+
+Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/).
 
 Также ознакомьтесь с новыми возможностями [службы Power BI](service-whats-new.md) и [мобильных приложений для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
@@ -82,7 +92,7 @@ ms.locfileid: "77496686"
 ## <a name="power-bi-desktop-monthly-update-video"></a>Видео, посвященное ежемесячному обновлению Power BI Desktop
 Все эти обновления описываются в следующем видео. Это видео можно также посмотреть в записи блога:
 
-> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+> [!VIDEO https://www.youtube.com/embed/DMjvJGGB_LQ]
 
 
 

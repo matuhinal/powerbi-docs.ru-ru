@@ -3,19 +3,19 @@ title: Внедрение нового приложения Power App в отч�
 description: Сведения о внедрении приложения, которое использует тот же источник данных и может фильтроваться так же, как другие элементы отчета
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036683"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525943"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Руководство. Внедрение визуального элемента Power Apps в отчет Power BI
 
@@ -106,4 +106,5 @@ ms.locfileid: "77036683"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-["Вопросы и ответы": визуализация](power-bi-visualization-types-for-reports-and-q-and-a.md)
+["Вопросы и ответы": визуальный элемент](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[Руководство. Внедрение визуального элемента Power Apps в отчет Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

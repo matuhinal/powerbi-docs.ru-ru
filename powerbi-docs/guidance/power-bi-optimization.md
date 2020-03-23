@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610002"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378876"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Рекомендации по оптимизации Power BI
 
@@ -69,7 +69,7 @@ ms.locfileid: "77610002"
 
 #### <a name="evaluate-custom-visual-performance"></a>Оценка производительности настраиваемых визуальных элементов
 
-Обязательно проверьте настраиваемые визуальные элементы в работе, чтобы обеспечить высокую производительность. Плохо оптимизированные настраиваемые визуальные элементы могут отрицательно повлиять на производительность всего отчета.
+Обязательно проверьте настраиваемые визуальные элементы в работе, чтобы обеспечить высокую производительность. Плохо оптимизированные визуальные элементы Power BI могут отрицательно повлиять на производительность всего отчета.
 
 ### <a name="power-bi-paginated-reports"></a>Отчеты с разбивкой на страницы в Power BI
 

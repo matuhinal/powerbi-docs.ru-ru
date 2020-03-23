@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 7318ec8f7305920d107424f381ca59b8836fe8da
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114786"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435406"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Что такое мобильные приложения Power BI?
 Power BI предоставляет ряд мобильных приложений для мобильных устройств под управлением iOS, Android и Windows 10. В мобильных приложениях вы можете подключаться к облачным и локальным источникам данных и взаимодействовать с ними. 
@@ -35,7 +35,10 @@ Power BI предоставляет ряд мобильных приложени
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |На **iPad** мобильное приложение Power BI отображает панели мониторинга и отчеты в том виде, в котором они были созданы для службы Power BI. Кроме того, на своем iPad вы можете просматривать [отчеты и ключевые показатели эффективности из Reporting Services и сервера отчетов Power BI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md). [В мобильном приложении Power BI можно настроить оповещения](mobile-set-data-alerts-in-the-mobile-apps.md), уведомляющие вас о том, что данные на панелях мониторинга выходят за установленные пределы. <br/>Начните работу с [мобильным приложением Power BI для iOS](mobile-iphone-app-get-started.md). |
 | [![Телефон Android](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |Мобильное приложение Power BI для **смартфонов под управлением Android** дает возможность получать доступ к актуальной бизнес-информации с сенсорного экрана. Данные в отчете можно [фильтровать по своему географическому расположению](mobile-apps-geographic-filtering.md). Вы можете [просканировать QR-код с Android-смартфона](mobile-apps-qr-code.md), чтобы перейти непосредственно к панели мониторинга или отчету Power BI. <br/>Начните работу с [мобильным приложением Power BI для Android](mobile-android-app-get-started.md). |
 | [![Планшет Android](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Это мобильное приложение работает на различных **планшетах под управлением Android** и позволяет повсеместно получать доступ к актуальной бизнес-информации с сенсорного экрана. На планшете с Android мобильное приложение Power BI отображает панели мониторинга и отчеты в том виде, в котором они были созданы для службы Power BI. [Добавив панели мониторинга и отчеты в избранное](mobile-apps-favorites.md), вы сможете быстро получать к ним доступ. Вы также сможете работать с избранными отчетами и ключевыми показателями эффективности из Reporting Services и сервера отчетов Power BI. <br/>Начните работу с [мобильным приложением Power BI для Android](mobile-android-app-get-started.md). |
-| [![Устройства Windows](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |Мобильное приложение Power BI для Windows 10 работает на любом устройстве под управлением Windows 10, включая смартфоны с этой операционной системой. В дополнение к большинству функций, доступных в мобильных приложениях для других платформ, мобильное приложение Power BI для Windows 10 предлагает особые возможности. Например, вы можете [закрепить панель мониторинга из мобильного приложения Power BI на начальном экране Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Кроме того, [Power BI может работать в режиме презентации на устройстве Surface Hub](mobile-windows-10-app-presentation-mode.md) и в мобильном приложении Power BI для Windows 10. <br/>Начните использовать [мобильное приложение Power BI для устройств под управлением Windows 10](mobile-windows-10-phone-app-get-started.md). ||| 
+| [![Устройства Windows](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |Мобильное приложение Power BI для Windows 10 работает на любом устройстве под управлением Windows 10, включая смартфоны с этой операционной системой. В дополнение к большинству функций, доступных в мобильных приложениях для других платформ, мобильное приложение Power BI для Windows 10 предлагает особые возможности. Например, вы можете [закрепить панель мониторинга из мобильного приложения Power BI на начальном экране Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Кроме того, [Power BI может работать в режиме презентации на устройстве Surface Hub](mobile-windows-10-app-presentation-mode.md) и в мобильном приложении Power BI для Windows 10. <br/>Начните использовать [мобильное приложение Power BI для устройств под управлением Windows 10](mobile-windows-10-phone-app-get-started.md). |||
+
+>[!NOTE]
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Поддержка для организаций в мобильных приложениях Power BI
 Организации могут использовать Microsoft Intune для управления устройствами и приложениями, включая мобильные приложения Power BI для iOS и Android.

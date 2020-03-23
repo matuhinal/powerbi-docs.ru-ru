@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041582"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435980"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
 
 * [Блог группы Power BI для мобильных приложений](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Новые возможности Power BI Desktop](../../desktop-latest-update.md)  
-* [Новые возможности службы Power BI](../../service-whats-new.md)  
+* [Новые возможности службы Power BI](../../service-whats-new.md)
+
+>[!NOTE]
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>Февраль 2020 г.
 
@@ -396,7 +399,7 @@ ms.locfileid: "79041582"
 
 #### <a name="improved-hyperlink-support"></a>Усовершенствованная поддержка гиперссылок
 
-Теперь можно открыть пользовательский визуальный элемент, коснувшись соответствующей ссылки в браузере мобильных устройств.
+Теперь можно открыть визуальный элемент Power BI, нажав соответствующую ссылку в браузере на мобильном устройстве.
 
 #### <a name="intune-integration-android"></a>Интеграция Intune (Android)
 
@@ -470,7 +473,7 @@ ms.locfileid: "79041582"
 #### <a name="all-devices"></a>Все устройства
 **Цвет фона для мобильных отчетов**. Определив цвет фона для отчета в Power BI Desktop, вы получите такой же фон и для мобильных отчетов. См. дополнительные сведения об [оптимизации страниц отчета для телефонов](../../desktop-create-phone-report.md).
 
-**Разработка пользовательских визуальных элементов для мобильных устройств**. Рекомендации по созданию привлекательных и функциональных пользовательских визуальных элементов для мобильных устройств см. в этом [руководстве для разработчиков](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md).
+**Разработка визуальных элементов Power BI для мобильных устройств**. Рекомендации по созданию привлекательных и функциональных визуальных элементов Power BI для мобильных устройств см. в этом [руководстве для разработчиков](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md).
 
 #### <a name="ios-devices"></a>Устройства iOS
 **Обращение к данным. Голосовой режим ввода вопросов**. Теперь вы можете [задавать вопросы о данных с помощью функции вопросов и ответов](mobile-apps-ios-qna.md) не только печатая текст, но и в режиме голосового ввода. 

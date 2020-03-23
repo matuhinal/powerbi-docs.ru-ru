@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867693"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378738"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Экспорт отчетов в PDF из Power BI Desktop
 С помощью **Power BI Desktop** или службы Power BI можно экспортировать отчеты в PDF-файлы, а затем поделиться ими или распечатать их.
@@ -34,7 +34,7 @@ ms.locfileid: "73867693"
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 Существуют определенные рекомендации, которые следует учитывать при использовании функции **Экспорт в PDF**.
 
-* Функция выполняет экспорт пользовательских визуальных элементов, но при этом *не* экспортирует фоновый рисунок отчета.
+* Функция выполняет экспорт визуальных элементов Power BI, но при этом *не* экспортирует фоновый рисунок отчета.
 
 По этой причине следует обратить особое внимание на отчеты с темным фоновым рисунком. Если текст в отчете светлый или белый (для выделения на темном фоне), его будет сложно или даже невозможно прочитать после экспорта в PDF, так как фоновый рисунок не будет экспортирован с остальным отчетом. 
 

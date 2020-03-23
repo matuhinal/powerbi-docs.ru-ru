@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099092"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381475"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Визуализации в отчетах Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "74099092"
 
 ![панель со значками для каждого типа визуализации](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Чтобы получить еще больше возможностей, посетите [веб-сайт сообщества Майкрософт AppSource](https://appsource.microsoft.com). Там вы сможете найти и [скачать](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [пользовательские визуализации](../developer/visuals/custom-visual-develop-tutorial.md), созданные корпорацией Майкрософт и членами сообщества.
+Чтобы получить еще больше возможностей, посетите [веб-сайт сообщества Майкрософт AppSource](https://appsource.microsoft.com). Там вы сможете найти и [скачать](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [визуализации Power BI](../developer/visuals/custom-visual-develop-tutorial.md), созданные корпорацией Майкрософт и членами сообщества.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ ms.locfileid: "74099092"
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Отправка пользовательской визуализации и ее использование в Power BI
 
-Добавьте пользовательскую визуализацию, созданную вами или найденную на [сайте сообщества Майкрософт AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Чувствуете творческий порыв? Изучите наш исходный код и примените наши [средства разработчика](../developer/visuals/custom-visual-develop-tutorial.md), чтобы создать новый тип визуализации и [поделиться им с сообществом](../developer/office-store.md). См. дополнительные сведения о [разработке пользовательских визуальных элементов Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
+Добавьте пользовательскую визуализацию, созданную вами или найденную на [сайте сообщества Майкрософт AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Чувствуете творческий порыв? Изучите наш исходный код и примените наши [средства разработчика](../developer/visuals/custom-visual-develop-tutorial.md), чтобы создать новый тип визуализации и [поделиться им с сообществом](../developer/visuals/office-store.md). См. дополнительные сведения о [разработке пользовательских визуальных элементов Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="personalize-your-visualization-pane-preview"></a>Персонализация области визуализации (предварительная версия)
 
@@ -52,7 +52,7 @@ ms.locfileid: "74099092"
 
 ![Персонализированная область визуализации](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
-Пока эта функция находится на этапе предварительной версии, вы будете видеть только закрепленные визуальные элементы в Power BI Desktop. Кроме того, необходимо войти в систему, чтобы эта функция была доступна.
+Пока эта функция находится на этапе предварительной версии, вы будете видеть только закрепленные визуальные элементы в Power BI Desktop. Кроме того, необходимо войти в систему, чтобы эта функция была доступна.
 
 ## <a name="change-the-visualization-type"></a>Изменение типа визуализации
 
@@ -70,4 +70,4 @@ ms.locfileid: "74099092"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Пользовательские визуальные элементы](../developer/power-bi-custom-visuals.md)
+* [Визуальные элементы Power BI](../developer/visuals/power-bi-custom-visuals.md)

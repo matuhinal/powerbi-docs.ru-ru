@@ -9,31 +9,31 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698861"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488575"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Настройка поддержки нескольких регионов для Power BI Premium
 
 Поддержка нескольких регионов — это функция Power BI Premium, которая помогает многонациональным клиентам соблюдать региональные, отраслевые или организационные требования к размещению данных. Будучи клиентом Power BI Premium, вы можете развертывать содержимое в центрах обработки данных, которые находятся в регионах, отличающихся от домашнего региона клиента Power BI. Географический регион может охватывать более одного региона Azure. Например, США — это географический регион, а центрально-западная часть США и центрально-южная часть США — регионы Azure в США. Вы можете развернуть содержимое в любом из следующих географических регионов:
 
-- СОЕДИНЕННЫЕ ШТАТЫ
+- США
 - Канада
 - Соединенное Королевство
 - Бразилия
 - Европа
 - Япония
 - Индия
-- Азиатско-Тихоокеанский регион;
+- Азиатско-Тихоокеанский регион
 - Австралия
 - Африка
 
 Поддержка нескольких регионов недоступна в Power BI для Германии, Power BI для Китая через оператора 21Vianet и в Power BI для государственных организаций США.
 
-Поддержка нескольких регионов теперь также доступна в Power BI Embedded. Дополнительные сведения см. в статье [Поддержка нескольких регионов Power BI Embedded](developer/embedded-multi-geo.md).
+Поддержка нескольких регионов теперь также доступна в Power BI Embedded. Дополнительные сведения см. в статье [Поддержка нескольких регионов Power BI Embedded](developer/embedded/embedded-multi-geo.md).
 
 ## <a name="enable-and-configure"></a>Включение и настройка
 
@@ -70,7 +70,7 @@ ms.locfileid: "74698861"
 
 ## <a name="view-capacity-regions"></a>Просмотр регионов емкости
 
-На портале администрирования можно просмотреть все емкости клиента Power BI и регионы, в которых они сейчас расположены.
+На портале администрирования можно просмотреть все емкости клиента Power BI и регионы, в которых они сейчас расположены.
 
 ![Просмотр емкостей Premium](media/service-admin-premium-multi-geo/power-bi-multi-geo-premium-capacities.png) 
 
@@ -99,6 +99,6 @@ ms.locfileid: "74698861"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Что такое Power BI Premium?](service-premium-what-is.md)
-- [Поддержка нескольких регионов Power BI Embedded (предварительная версия)](developer/embedded-multi-geo.md)
+- [Поддержка нескольких регионов Power BI Embedded (предварительная версия)](developer/embedded/embedded-multi-geo.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

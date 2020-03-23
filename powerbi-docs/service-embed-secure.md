@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919792"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488828"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ report.src = newUrl;
 
 * Классический сервер SharePoint Server не поддерживается, так как для него требуется Internet Explorer версий ниже 11 или нужно включить просмотр в режиме совместимости.
 
-* Чтобы использовать единый вход, примените параметр [Внедрить в SharePoint Online](service-embed-report-spo.md) или создайте пользовательскую интеграцию на основе метода внедрения [данные принадлежат пользователю](developer/embed-sample-for-your-organization.md). 
+* Чтобы использовать единый вход, примените параметр [Внедрить в SharePoint Online](service-embed-report-spo.md) или создайте пользовательскую интеграцию на основе метода внедрения [данные принадлежат пользователю](developer/embedded/embed-sample-for-your-organization.md). 
 
-* Возможность автоматической аутентификации, предоставляемая параметром **Внедрение**, не работает с API JavaScript для Power BI. При работе с API JavaScript для Power BI следует использовать метод внедрения [данные принадлежат пользователю](developer/embed-sample-for-your-organization.md). 
+* Возможность автоматической аутентификации, предоставляемая параметром **Внедрение**, не работает с API JavaScript для Power BI. При работе с API JavaScript для Power BI следует использовать метод внедрения [данные принадлежат пользователю](developer/embedded/embed-sample-for-your-organization.md). 
 
 * Время существования маркера проверки подлинности регулируется в зависимости от параметров AAD. По истечении срока действия маркера проверки подлинности пользователю потребуется обновить браузер, чтобы получить обновленный маркер проверки подлинности. Время жизни по умолчанию составляет один час, но может быть короче или длиннее в вашей организации.
 

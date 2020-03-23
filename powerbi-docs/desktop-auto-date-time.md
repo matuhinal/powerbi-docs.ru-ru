@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154219"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201546"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Применение автоматических даты и времени в Power BI Desktop
 
@@ -33,7 +33,7 @@ ms.locfileid: "77154219"
 Каждая таблица c автоматическими датой и временем на самом деле является [вычисляемой таблицей](desktop-calculated-tables.md), которая создает строки данных с помощью функции DAX [CALENDAR](/dax/calendar-function-dax). Каждая таблица также содержит шесть вычисляемых столбцов: **День**, **№Месяца**, **Месяц**, **№Квартала**, **Квартал** и **Год**.
 
 > [!NOTE]
-> Имена и значения столбцов переводятся и форматируются в Power BI в соответствии с [языком модели](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
+> Имена и значения столбцов переводятся и форматируются в Power BI в соответствии с [языком модели](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop). Например, если модель была создана на английском языке, названия месяцев и т. д. в ней в по-прежнему будут отображаться на английском языке даже при просмотре с помощью клиента для корейского языка.
 
 В Power BI Desktop также создается связь между столбцом **Дата** в таблице с автоматическими датой и временем и столбцом дат модели.
 

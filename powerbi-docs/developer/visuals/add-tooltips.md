@@ -6,18 +6,18 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880357"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380658"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Подсказки в визуальных элементах Power BI
 
-Теперь в визуальных элементах можно использовать поддержку подсказок Power BI. Подсказки Power BI поддерживают следующие взаимодействия:
+Теперь в визуальных элементах можно использовать поддержку подсказок Power BI. Подсказки Power BI поддерживают следующие взаимодействия.
 
 * Отображение подсказки.
 * Скрытие подсказки.
@@ -27,7 +27,7 @@ ms.locfileid: "73880357"
 
 На следующем рисунке показана подсказка на образце линейчатой диаграммы:
 
-![Подсказки на образце линейчатой диаграммы](./media/tooltips-in-samplebarchart.png)
+![Подсказки на образце линейчатой диаграммы](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 Приведенная выше подсказка демонстрирует категорию отдельной полосы и значение. Подсказка может быть расширена и отображать несколько значений.
 
@@ -209,7 +209,7 @@ ms.locfileid: "73880357"
 
 Подсказки на страницах отчета можно определять в панели **Формат**.
 
-![Подсказка страницы отчета](media/report-page-tooltip.png)
+![Подсказка страницы отчета](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes` — это конфигурация подсказок, поддерживаемая визуальным элементом и отраженная в ячейке поля. 
    * `default` — указывает, поддерживается ли автоматическая привязка подсказок с помощью поля данных. 

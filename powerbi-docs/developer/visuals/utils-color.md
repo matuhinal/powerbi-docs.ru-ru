@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922489"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379359"
 ---
 # <a name="color-utils"></a>Инструменты для работы с цветом
 Эта статья поможет вам установить, импортировать и использовать средства для работы с цветом. В ней описывается, как с помощью средств для работы с цветом упростить применение тем и палитр к точкам данных визуального элемента в Power BI.
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-colorutils --save
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-Узнайте, как установить и использовать средства для работы с цветом в пользовательских визуальных элементах.
+Узнайте, как установить и использовать средства для работы с цветом в визуальных элементах Power BI.
 
 * [Руководство по использованию] В руководстве по использованию описывается общедоступный API пакета. Вы увидите описание и несколько примеров для каждого общедоступного интерфейса пакета.
 

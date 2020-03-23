@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114291"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376829"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Советы по запросам в функцию "Вопросы и ответы" в Power BI
 
@@ -67,7 +67,7 @@ ms.locfileid: "79114291"
 |  |  |
 |**N значений по порядку**     |     (порядок и ранжирование): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Типы визуальных элементов**     |  Все типы визуальных элементов, поддерживаемые Power BI.  Если соответствующий параметр есть в области "Визуализации", его можно использовать в вопросе.  Исключением из этого правила являются [пользовательские визуальные элементы](../developer/power-bi-custom-visuals.md), которые вы добавили в область визуализации вручную.  |
+|**Типы визуальных элементов**     |  Все типы визуальных элементов, поддерживаемые Power BI.  Если соответствующий параметр есть в области "Визуализации", его можно использовать в вопросе.  Исключением из этого правила являются [визуальные элементы Power BI](../developer/visuals/power-bi-custom-visuals.md), которые вы добавили в область визуализации вручную.  |
 |  |  Пример: show districts by month and sales total as bar chart (показать районы по месяцам и общие продажи как линейчатую диаграмму)               |
 |        |         |
 |**Вопросы (отношения и качества)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

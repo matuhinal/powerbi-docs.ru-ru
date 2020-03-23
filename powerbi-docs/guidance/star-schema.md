@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260423"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133247"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Общие сведения о схеме типа "звезда" и ее значении в Power BI
 
 Эта статья предназначена для разработчиков моделей данных Power BI Desktop. В ней описывается схема типа "звезда" и ее значение при разработке моделей данных Power BI, оптимизированных для повышения производительности и удобства использования.
 
-Исчерпывающее описание проектирования с использованием схемы типа "звезда" выходит за рамки данной статьи. Дополнительные сведения см. в опубликованных материалах, например книге **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (2-е издание, 2002 г.) автора Ральфа Кимбалла (Ralph Kimball) и других.
+Исчерпывающее описание проектирования с использованием схемы типа "звезда" выходит за рамки данной статьи. Дополнительные сведения см. в опубликованных материалах, например книге **The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling** (3-е издание, 2013 г.) под авторством Ральфа Кимбалла (Ralph Kimball) и других.
 
 ## <a name="star-schema-overview"></a>Обзор схемы типа "звезда"
 

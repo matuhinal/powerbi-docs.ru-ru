@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "78946859"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381383"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Экспорт данных, использованных для создания визуализации
 
@@ -252,7 +252,7 @@ ms.locfileid: "78946859"
 
 - Если визуализация использует данные из нескольких таблиц данных и для этих таблиц в модели данных не существует связей, Power BI экспортирует только данные для первой таблицы.
 
-- Пользовательские визуальные элементы и визуальные элементы R пока не поддерживаются.
+- Визуальные элементы Power BI и визуальные элементы R пока не поддерживаются.
 
 - В Power BI вы можете переименовать поле (столбец), дважды щелкнув его и введя новое имя. Power BI рассматривает новое имя как *псевдоним*. В отчете Power BI в итоге могут оказаться повторяющиеся имена полей, однако в Excel они запрещены. Поэтому когда Power BI экспортирует данные в Excel, псевдонимы заменяются исходными именами полей (столбцов).  
 

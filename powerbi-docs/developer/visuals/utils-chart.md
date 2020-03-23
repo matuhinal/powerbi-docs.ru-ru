@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: e87235232860897765ef95bf0ec865410adf8fd1
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819498"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379398"
 ---
 # <a name="chart-utils"></a>Инструменты для диаграмм
 
@@ -681,7 +681,7 @@ let formattedValue = formatter.format(value);
 
 ## <a name="legend-service"></a>Служба условных обозначений
 
-Служба `Legend` предоставляет вспомогательные интерфейсы для создания условных обозначений PBI и управления ими для пользовательских визуальных элементов.
+Служба `Legend` предоставляет вспомогательные интерфейсы для создания условных обозначений PBI и управления ими для визуальных элементов Power BI
 
 Этот модуль предоставляет следующие функции и интерфейсы.
 
