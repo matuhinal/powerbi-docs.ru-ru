@@ -11,8 +11,8 @@
     - name: Учебники
       expanded: true
       items:
-        - name: Практическое занятие. Создание отчета с разбивкой на страницы
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 'Онлайн-курс: Отчеты с разбивкой на страницы'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: Создание и отправка отчета с разбивкой на страницы
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Примеры
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: Практические руководства
       items:
-        - name: Публикация наборов данных и отчетов
-          href: ../desktop-upload-desktop-files.md
-        - name: "Добавление визуальных элементов в отчет Power\_BI (часть\_1)"
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: "Добавление визуальных элементов в отчет Power\_BI (часть\_2)"
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'Названия, фон и легенда для визуальных элементов'
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: "Функция \"Показать элементы без данных\" в Power\_BI"
-          href: ../desktop-show-items-no-data.md
-        - name: Применение функции "Автоматические дата и время"
-          href: ../desktop-auto-date-time.md
         - name: Отчеты Power BI
           items:
             - name: Включение автоматического обновления страниц (предварительная версия)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: "Экспорт отчета в Power\_BI Desktop (предварительная версия)"
               href: ../service-export-to-pbix.md
+            - name: Публикация наборов данных и отчетов
+              href: ../desktop-upload-desktop-files.md
         - name: Визуализации
           items:
+            - name: "Добавление визуальных элементов в отчет Power\_BI (часть\_1)"
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: "Добавление визуальных элементов в отчет Power\_BI (часть\_2)"
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: "Добавление визуальных элементов в отчеты Power\_BI"
               href: ../visuals/power-bi-report-visualizations.md
             - name: "Изменение визуальных элементов в отчетах Power\_BI"
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: 'Названия, фон и легенда для визуальных элементов'
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: "Функция \"Показать элементы без данных\" в Power\_BI"
+              href: ../desktop-show-items-no-data.md
             - name: Применение ограничений точек данных и стратегии по шаблону визуализации
               href: ../visuals/power-bi-data-points.md
             - name: Отображение базовых данных визуализаций
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Отчеты с разбивкой на страницы
           items:
+            - name: Практическое занятие. Создание отчета с разбивкой на страницы
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Ввод данных непосредственно в отчет с разбивкой на страницы
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Создание внедренного источника данных

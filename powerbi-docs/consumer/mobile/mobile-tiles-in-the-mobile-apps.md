@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114689"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435911"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Применяется к:
@@ -85,6 +85,10 @@ ms.locfileid: "79114689"
 4. Коснитесь стрелки в левом верхнем углу, чтобы закрыть плитку и вернуться на информационную панель.
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Плитки в мобильном приложении с Windows 10
+
+>[!NOTE]
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. Откройте [информационную панель в мобильном приложении Power BI](mobile-apps-view-dashboard.md) для Windows 10.
 2. Коснуться вертикального многоточия на плитке. Здесь можно выполнять следующие действия. 
    
