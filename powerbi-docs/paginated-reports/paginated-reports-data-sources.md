@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921914"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113745"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "78921914"
 | --- | --- | --- |
 | База данных SQL Azure <br>Хранилище данных SQL Azure | Базовый, единый вход, OAuth2 |   |
 | Управляемый экземпляр базы данных SQL Azure | Базовый | через общедоступную конечную точку с использованием расширения базы данных SQL Azure  |
-| Azure Analysis Services | SSO, OAuth2 | Брандмауэр AAS должен быть отключен или настроен для разрешения всех диапазонов IP-адресов.  Использование псевдонима не поддерживается  |
+| Azure Analysis Services | SSO, OAuth2 | Брандмауэр AAS должен быть отключен или настроен для разрешения всех диапазонов IP-адресов.|
 | Набор данных Power BI | Единый вход | Наборы данных Power BI Premium и отличные от них. Требуется разрешение на чтение |
 | Набор данных Premium Power BI (XMLA) | Единый вход |   |
 | Введите данные | Н/Д | Данные внедряются в отчет. |
