@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02bea09bcd6400b4dc316a08ec74ed2780ad3363
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205281"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273186"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Защита данных в Power BI (предварительная версия)
 
@@ -105,6 +105,8 @@ ms.locfileid: "79205281"
 * Для меток, примененных в Power BI, не поддерживается защита с использованием [функции хранения собственных ключей (HYOK)](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions).
 * Для просмотра и применения меток в приложениях Office [требуются соответствующие лицензии](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Метки конфиденциальности поддерживаются только для клиентов в глобальном (общедоступном) облаке. Метки конфиденциальности не поддерживаются для клиентов в облаках других видов.
+* Метки конфиденциальности данных не поддерживаются для приложений-шаблонов.
+* Power BI не поддерживает метки конфиденциальности для типов защиты **Не пересылать** и **Специальная**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

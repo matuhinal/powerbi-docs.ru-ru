@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039069"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273347"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Запустить сценарий Python в Power BI Desktop
 
@@ -109,6 +109,14 @@ print (df)
 Если средство Python не установлено или не определено, отображается предупреждение. Кроме того, может отображаться предупреждение о наличии нескольких установленных версий на локальном компьютере. Снова ознакомьтесь с ранее приведенными разделами "Установка Python" и "Включение скриптов Python".
 
 ![Предупреждение о том, что Python не установлен](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>Использование пользовательских дистрибутивов Python
+
+Power BI выполняет скрипты напрямую с помощью исполняемого файла python.exe из каталога, указанного пользователем на странице параметров. Выполнение дистрибутивов, требующих дополнительного шага для подготовки среды (например, Conda), может завершаться сбоем.
+
+Во избежание таких проблем мы рекомендуем использовать официальный дистрибутив Python с сайта https://www.python.org/.
+
+В качестве возможного решения вы можете запустить Power BI Desktop из командной строки пользовательской среды Python.
 
 ### <a name="refresh"></a>Обновить
 

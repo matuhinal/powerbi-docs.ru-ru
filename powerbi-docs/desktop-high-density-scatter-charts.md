@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867442"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273370"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Точечные диаграммы с выборкой с высокой плотностью в Power BI
 Начиная с выпуска **Power BI Desktop** за сентябрь 2017 года и обновлений **службы Power BI** доступен новый алгоритм выборки. Он улучшает презентацию данных с высокой плотностью в точечных диаграммах.
@@ -85,7 +85,8 @@ ms.locfileid: "73867442"
 * Алгоритм **выборки с высокой плотностью** работает только с динамическими подключениями к моделям на основе службы Power BI, импортированным моделям и DirectQuery.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Дополнительные сведения о выборке с высокой плотностью на других диаграммах см. в следующей статье.
+
+Дополнительные сведения о выборке с высокой плотностью см. в следующих статьях:
 
 * [Выборка линий с высокой плотностью в Power BI](desktop-high-density-sampling.md)
-
+* [Советы по сортировке и распространению графиков данных в отчетах Power BI](guidance/report-tips-sort-distribute-data-plots.md)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205258"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113624"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -48,7 +48,7 @@ ms.locfileid: "79205258"
 - создание отчета Power BI;
 - Скачанный отчет Power BI
 
-Для отчетов с разбивкой на страницы поле ReportType имеет значение PaginatedReport, чтобы отличать их от обычных отчетов Power BI.
+Для отчетов с разбивкой на страницы поле ReportType имеет значение PaginatedReport, чтобы отличать их от обычных отчетов Power BI.
 
 Также журналы аудита предоставляют для отчетов с разбиением на страницы данные о следующих событиях:
 
@@ -68,13 +68,17 @@ ms.locfileid: "79205258"
 
 Вы получите сообщение об ошибке и не сможете просмотреть такой отчет, пока не включите эту рабочую нагрузку. Но вы можете спокойно удалить этот отчет из рабочей области.
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>Какой объем памяти по умолчанию поддерживается для отчетов с разбивкой на страницы для каждого номера SKU уровня Premium?
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>Каков объем памяти по умолчанию для каждого номера SKU уровня Premium, поддерживающего отчеты с разбивкой на страницы?
 
 Объем памяти по умолчанию для отчетов с разбивкой на страницы для номеров SKU уровня Premium составляет:
 
 - **P1/A4**. По умолчанию 20 %; не менее 10 %
 - **P2/A5**. По умолчанию 20 %; не менее 5 %
 - **P3/A6**. По умолчанию 20 %; не менее 2,5 %
+
+Администраторы клиента Power BI могут изменять максимальный процент памяти по умолчанию на портале администрирования. Перейдите в раздел рабочей нагрузки **Отчеты с разбивкой на страницы** на вкладке **Параметры емкости** страницы **Power BI Premium**.
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Раздел "Отчеты с разбивкой на страницы" на вкладке "Параметры емкости"":::
 
 ## <a name="general"></a>Общие
 
@@ -86,7 +90,7 @@ ms.locfileid: "79205258"
 
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>В документации сказано, что построитель отчетов Power BI является основным средством разработки. Но могу ли я создавать отчеты с разбивкой на страницы в SQL Server Data Tools для Power BI?
 
-Да, но служба Power BI позволяет передать за раз только один элемент, поэтому она пока не поддерживает многие распространенные сценарии разработки в SQL Server Data Tools (SSDT). Полный [список неподдерживаемых функций](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) размещен далее в этой статье с вопросами и ответами.  
+Да, но служба Power BI позволяет передать за раз только один элемент, поэтому она пока не поддерживает многие распространенные сценарии разработки в SQL Server Data Tools (SSDT). Полный [список неподдерживаемых функций](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) размещен далее в этой статье с вопросами и ответами.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Какие версии построителя отчетов поддерживаются?
 
@@ -100,9 +104,9 @@ ms.locfileid: "79205258"
 
 Да. Мы добавили возможность открывать и публиковать отчеты непосредственно в службе из Power BI Report Builder.
 
-### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>Какие функции SSRS для отчетов с разбивкой на страницы пока не поддерживаются в Power BI?
+### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>Какие функции SSRS для отчетов с разбивкой на страницы пока не поддерживаются в Power BI?
 
-Сейчас отчеты с разбивкой на страницы не поддерживают следующие элементы:
+В настоящее время отчеты с разбивкой на страницы не поддерживают следующие элементы:
 
 - общие источники данных;
 - Общие наборы данных
@@ -146,7 +150,7 @@ ms.locfileid: "79205258"
 
 Да, мы поддерживаем возможность запуска пользовательского кода в отчетах, как и в службе SSRS.
 
-### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Могу ли я с помощью Power BI Embedded внедрить отчеты с разбивкой на страницы в размещаемое приложение?
+### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Могу ли я с помощью Power BI Embedded внедрить отчеты с разбивкой на страницы в размещаемое приложение?
 
 Внедрение SaaS, включая поддержку безопасного внедрения, уже доступно. Сведения о внедрении PaaS см. в разделе [Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embed-paginated-reports-customers.md).
 

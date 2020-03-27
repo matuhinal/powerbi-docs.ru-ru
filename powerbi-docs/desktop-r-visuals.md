@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729817"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114872"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Создание визуальных элементов Power BI с помощью R
 В Power BI Desktop для наглядного представления данных можно использовать *R*. [R](https://mran.revolutionanalytics.com/documents/what-is-r) — это язык и среда для статистических вычислений и графики.
@@ -130,6 +130,8 @@ ms.locfileid: "75729817"
 * Размер данных: для нанесения на холст визуальный элемент R может использовать до 150 000 строк. Если выбрано больше строк, используются только первые 150 000 из них; при этом на изображении появляется соответствующее сообщение.
 
 * Разрешение: Все визуальные элементы R отображаются с разрешением 72 DPI.
+
+* Устройство построения: построение поддерживается только на устройстве по умолчанию. 
 
 * Время вычисления: если вычисление визуального элемента R занимает более пяти минут, возникает ошибка времени ожидания.
 

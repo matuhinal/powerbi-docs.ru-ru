@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762469"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273209"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Добавление текстовых полей и фигур в отчеты Power BI
 Вы можете добавлять текстовые поля и фигуры в отчеты с помощью службы Power BI и Power BI Desktop. В обоих случаях требуются разрешения на изменение отчета. Если доступ к отчету в службе Power BI вам предоставил другой пользователь, у вас не будет прав на редактирование. 
@@ -63,8 +63,10 @@ ms.locfileid: "75762469"
    > 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Добавление гиперссылки в текстовое поле](service-add-hyperlink-to-text-box.md)
 
-[Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
+Рекомендуем также ознакомиться со следующими материалами:
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* [Добавление гиперссылки в текстовое поле](service-add-hyperlink-to-text-box.md)
+* [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
+* [Советы по улучшению анализа с помощью фигур, изображений и значков в отчетах Power BI](guidance/report-tips-shapes-images-icons.md)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
