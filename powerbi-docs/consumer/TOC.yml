@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: 'Печать панели мониторинга, плитки или страницы отчета'
               href: end-user-print.md
+            - name: 'Просмотр контента, к которому мне предоставлен общий доступ'
+              href: end-user-shared-with-me.md
             - name: Просмотр связанного содержимого
               href: end-user-related.md
             - name: Просмотр недавнего содержимого
               href: end-user-recent.md
-            - name: Просмотр содержимого в контейнере "Мне предоставлен доступ"
-              href: end-user-shared-with-me.md
             - name: Подписка на отчет или панель мониторинга
               href: end-user-subscribe.md
             - name: "Поиск и сортировка содержимого в Power\_BI"

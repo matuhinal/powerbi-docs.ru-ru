@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: Перезагрузка емкости Premium
               href: ../service-admin-premium-restart.md
-            - name: Подключение к наборам данных с помощью клиентских приложений и средств
+            - name: Возможность подключения к набору данных с помощью конечной точки XMLA (предварительная версия)
               href: ../service-premium-connect-tools.md
     - name: Справка
       items:
