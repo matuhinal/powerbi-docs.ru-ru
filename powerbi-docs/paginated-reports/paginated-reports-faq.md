@@ -78,7 +78,7 @@ ms.locfileid: "80113624"
 
 Администраторы клиента Power BI могут изменять максимальный процент памяти по умолчанию на портале администрирования. Перейдите в раздел рабочей нагрузки **Отчеты с разбивкой на страницы** на вкладке **Параметры емкости** страницы **Power BI Premium**.
 
-:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Раздел "Отчеты с разбивкой на страницы" на вкладке "Параметры емкости"":::
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Раздел Отчеты с разбивкой на страницы на вкладке Параметры емкости":::
 
 ## <a name="general"></a>Общие
 
