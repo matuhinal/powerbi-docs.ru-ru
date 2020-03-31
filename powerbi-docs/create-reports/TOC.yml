@@ -18,10 +18,8 @@
     - name: Примеры
       expanded: true
       items:
-        - name: "Получение образцов данных для Power\_BI"
+        - name: "Получить примеры для Power\_BI"
           href: ../sample-datasets.md
-        - name: Импорт и открытие пакетов образцов
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Рентабельность клиента — пример
           href: ../sample-customer-profitability.md
         - name: "Анализ расходов ИТ-отдела\_— образец"
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: "Анализ розничной торговли\_— пример"
           href: ../sample-retail-analysis.md
+        - name: Изучение примера анализа розничной торговли
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: "Продажи и маркетинг\_— пример"
           href: ../sample-sales-and-marketing.md
         - name: "Анализ качества поставщика\_— пример"
