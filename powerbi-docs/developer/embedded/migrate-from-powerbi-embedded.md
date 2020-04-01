@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114412"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404050"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Как перенести содержимое коллекции рабочих областей Power BI в Power BI Embedded
 
@@ -126,13 +126,13 @@ ms.locfileid: "80114412"
 
 **Поток**
 
-1. Вызовите GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources и сохраните полученную строку подключения.
+1. Вызовите GET `https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources` и сохраните полученную строку подключения.
 2. Вызовите API скачивания PBIX-файлов из рабочей области PaaS.
 3. Сохраните PBIX-файл.
 4. Вызовите API импорта PBIX-файлов в рабочей области SaaS.
-5. Обновите строку подключения, вызвав POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections.
-6. Получите идентификаторы GW и источника данных, вызвав GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources.
-7. Обновите учетные данные пользователя, вызвав PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}.
+5. Обновите строку подключения, вызвав POST `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections`.
+6. Получите идентификаторы GW и источника данных, вызвав GET `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources`.
+7. Обновите учетные данные пользователя, вызвав PATCH `https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}`.
 
 #### <a name="old-dataset--reports"></a>Устаревшие наборы данных и отчеты
 

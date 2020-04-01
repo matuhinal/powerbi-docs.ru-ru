@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 779ca338a211e569c0dd7f529208cf7bfb1bcf7c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492337"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487840"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Использование встроенной аналитики с Power BI
 
@@ -34,7 +34,7 @@ ms.locfileid: "79492337"
 * [Внедрение для организации](embedding.md#embedding-for-your-organization) позволяет расширить возможности службы Power BI. Для этого реализуйте решение [Внедрение для организации](https://aka.ms/embedsetup/UserOwnsData).
 * [Внедрение для клиентов](embedding.md#embedding-for-your-customers) позволяет внедрять панели мониторинга и отчеты для пользователей, у которых нет учетной записи Power BI. Для этого реализуйте решение [Внедрение для клиентов](https://aka.ms/embedsetup/AppOwnsData).
 
-![Пример PBIE](../media/what-can-you-do/what-can-you-do-02.png)
+![Пример PBIE](media/embedding/what-can-you-do-02.png)
 
 ## <a name="use-apis"></a>Использование API-интерфейсов
 

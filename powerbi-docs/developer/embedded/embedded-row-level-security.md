@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492498"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403713"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -217,7 +217,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 7. С помощью программных интерфейсов Power BI используйте функцию CustomData в приложении.  При создании токена с помощью функции Customdata необходимо ввести имя пользователя. Имя пользователя должно быть таким же, как и имя главного участника-пользователя. Главный пользователь должен быть членом созданной роли. Если роли не указаны, то все роли, членом которых является главный пользователь, используются для вычисления RLS.
 
-    При работе с [субъектом-службой](embed-service-principal.md) вам также нужно выполнить описанные выше действия вместо использования основной учетной записи. При создании маркера внедрения используйте [идентификатор объекта субъекта-службы](embed-service-principal.md#how-to-get-the-service-principal-object-id) как имя пользователя.
+    При работе с [субъектом-службой](embed-service-principal.md) вам также нужно выполнить описанные выше действия вместо использования основной учетной записи. При создании маркера внедрения используйте [идентификатор объекта субъекта-службы](embed-service-principal.md) как имя пользователя.
 
     > [!Note]
     > Когда вы будете готовы развернуть приложение в рабочей среде, необходимо, чтобы параметр или поле учетной записи главного пользователя были скрыты для конечного пользователя.

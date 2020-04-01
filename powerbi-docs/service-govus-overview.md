@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114895"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404805"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI для клиентов из государственных организаций США
 Эта статья предназначена для клиентов из государственных организаций США, которые развертывают Power BI как часть плана Office 365 для государственных организаций. Планы государственных организаций разработаны с учетом уникальных потребностей учреждений, которые должны отвечать стандартам соответствия требованиям и безопасности США. Служба Power BI для государственных организаций США отличается от коммерческой версии этой службы. Отличия в функциях и возможности описаны в разделах ниже.
@@ -56,7 +56,7 @@ Office 365 предоставляет разные среды для прави
 
 | URL-адрес коммерческой версии | URL-адрес версии для государственных организаций США | URL-адрес правительства США для GCC High |
 | --- | --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 Учетную запись можно подготовить для нескольких облаков. В таком случае в Power BI Desktop при входе в систему можно выбрать облако, к которому нужно подключиться.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492797"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403649"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Часто задаваемые вопросы о Power BI Embedded
 
@@ -96,7 +96,7 @@ Power BI Premium — это комплексное решение бизнес-�
 
 Чтобы узнать регион клиента Power BI, можно использовать портал Power BI.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > О Power BI
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > О Power BI
 
 ![О Power BI](media/embedded-faq/about-01.png)
 ![Регион клиента](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 **[Идентификатор приложения](embed-sample-for-customers.md#application-id)** используется для создания маркера доступа при передаче этого идентификатора для проверки подлинности.
 
-При выполнении операций с субъектом-службой или внесении изменений в него, например добавлении субъекта-службы в качестве администратора в рабочую область, на него необходимо ссылаться по **[идентификатору объекта субъекта-службы](embed-service-principal.md#how-to-get-the-service-principal-object-id)** .
+При выполнении операций с субъектом-службой или внесении изменений в него, например добавлении субъекта-службы в качестве администратора в рабочую область, на него необходимо ссылаться по **[идентификатору объекта субъекта-службы](embed-service-principal.md)** .
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>Можно ли управлять локальным шлюзом данных с помощью субъекта-службы?
 

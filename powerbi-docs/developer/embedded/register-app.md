@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 123dde6621cee901dc788476b3554fc9584ed0e5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114366"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404035"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Регистрация приложения Azure AD для использования с Power BI
 
@@ -94,7 +94,7 @@ ms.locfileid: "80114366"
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>Получение идентификатора объекта субъекта-службы
 
-При выполнении операций с субъектом-службой с помощью [интерфейсов API Power BI](https://docs.microsoft.com/rest/api/power-bi/), например при добавлении субъекта-службы в качестве администратора в рабочую область, на него необходимо ссылаться по [идентификатору объекта субъекта-службы](embed-service-principal.md#how-to-get-the-service-principal-object-id).
+При выполнении операций с субъектом-службой с помощью [интерфейсов API Power BI](https://docs.microsoft.com/rest/api/power-bi/), например при добавлении субъекта-службы в качестве администратора в рабочую область, на него необходимо ссылаться по [идентификатору объекта субъекта-службы](embed-service-principal.md).
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Применение разрешений к приложению в Azure AD
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 815566f715bb4544fc4b002ea2c31e21e2684792
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 281d5b616b58fce4326e6d719502e443c249372a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760826"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403171"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Подключение к данным Project Online через Power BI Desktop
 К данным в Project Online можно подключиться с помощью Power BI Desktop.
@@ -31,7 +31,7 @@ ms.locfileid: "75760826"
    
    Если адрес сайта вашего веб-приложения Project имеет формат *https://\<имя_клиента\>.sharepoint.com/sites/pwa*, адрес канала OData должен иметь быть в формате *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
-   В нашем примере используется https://contoso.sharepoint.com/sites/pwa/default.aspx
+   В нашем примере используется `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 5. Power BI Desktop предложит вам пройти проверку подлинности учетной записи Office 365. Выберите учетную запись организации и введите свои учетные данные.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
