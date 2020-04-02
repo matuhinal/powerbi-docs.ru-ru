@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 360461a009187df5fdf2769e7c9a03e7d194b5ad
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 26b49e1b94db0d6c46639118e3e7cc3218bb4e1e
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378508"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551058"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -423,18 +423,6 @@ ms.locfileid: "79378508"
 
 > [!NOTE]
 > Вас также могут заинтересовать сведения о новых возможностях [в службе Power BI](service-whats-new.md) и [в мобильных приложениях для Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
-
-Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
-
-* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
-* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
-* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
-* В архиве доступны версии Power BI Desktop только на английском языке.
-
-Старые версии доступны по этим ссылкам: 
-
-* [32-разрядная версия Power BI Desktop, выпущенная в сентябре 2019 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
-* [64-разрядная версия Power BI Desktop, выпущенная в сентябре 2019 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>Обновление за август 2019 г. (2.72.5556.801)

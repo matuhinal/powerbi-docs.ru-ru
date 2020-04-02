@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403713"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550973"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -88,7 +88,7 @@ RLS создается в Power BI Desktop. При открытии набора
 
 Вы можете создать маркер внедрения с помощью метода **GenerateTokenInGroup** в **PowerBIClient.Reports**.
 
-Например, можно изменить пример [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data). *Строки 76 и 77 Services\EmbedService.cs* можно обновить с:
+Например, можно изменить пример [PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData). *Строки 76 и 77 Services\EmbedService.cs* можно обновить с:
 
 ```csharp
 // Generate Embed Token.

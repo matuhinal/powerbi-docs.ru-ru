@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: dc429e4147016df07d339468090ad50bb6f14842
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 52f840d5806c10de088838cf64187b953f36aa54
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493901"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550947"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Руководство. Внедрение содержимого Power BI в приложение для национальных облаков
 
@@ -116,7 +116,7 @@ Power BI также поддерживает [национальные обла�
 
 * Параметры Power BI для облачных служб в Китае
 
-1. Замените содержимое файла Cloud.config на содержимое [Power BI для облачных служб в Китае](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+1. Замените содержимое файла Cloud.config на содержимое [Power BI для облачных служб в Китае](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
 
 2. Обновите поля applicationId (идентификатор приложения для собственного приложения), workspaceId, user (главный пользователь) и password в файле Web.config.
 
@@ -143,7 +143,7 @@ Power BI также поддерживает [национальные обла�
 
 * Power BI для облачных служб в Китае — ```https://app.powerbi.cn/apps```
 
-Если вы скачали [пример внедрения для клиента](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), используйте полученный идентификатор приложения (**applicationId**) для аутентификации этого примера приложения в Azure AD. Для настройки примера измените значение **applicationId** в файле *web.config*.
+Если вы скачали [пример внедрения для клиента](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData), используйте полученный идентификатор приложения (**applicationId**) для аутентификации этого примера приложения в Azure AD. Для настройки примера измените значение **applicationId** в файле *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Шаг 2. Получение маркера доступа из Azure AD
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Используйте объект клиента Power BI, чтобы получить ссылку на элемент, который требуется внедрить. Вы можете внедрять панели мониторинга, плитки или отчеты. Ниже показано, как получить первую панель мониторинга, плитку или отчет из определенной рабочей области.
 
-Образец можно найти в файле **Controllers\HomeController.cs**[примера для данных, принадлежащих приложению](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Образец можно найти в файле **Controllers\HomeController.cs**[примера для данных, принадлежащих приложению](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 #### <a name="reports"></a>Отчеты
 
@@ -243,7 +243,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 > [!IMPORTANT]
 > Так как токены внедрения предназначены только для тестирования при разработке, количество таких токенов, создаваемых главной учетной записью Power BI, ограничено. Для сценариев внедрения в рабочей среде [необходимо приобрести емкость](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). В этом случае количество создаваемых токенов внедрения не ограничено.
 
-Пример можно найти в файле **Controllers\HomeController.cs**[примера внедрения для организации](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Пример можно найти в файле **Controllers\HomeController.cs**[примера внедрения для организации](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 Класс создается для **EmbedConfig** и **TileEmbedConfig**. Пример вы найдете в файлах **Models\EmbedConfig.cs** и **Models\TileEmbedConfig.cs**.
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 Чтобы загрузить панель мониторинга в элемент div веб-страницы, вы можете использовать JavaScript. В этом примере используется модель EmbedConfig/TileEmbedConfig и представления панели мониторинга, плитки или отчета. С полным примером применения API JavaScript можно ознакомиться в [образце Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
 
-Пример приложения доступен в [примере внедрения для организации](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Пример приложения доступен в [примере внедрения для организации](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ var embedConfig = new TileEmbedConfig()
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* Пример приложения для проверки можно найти на сайте GitHub. Примеры выше основаны на этом образце. Дополнительные сведения см. в [примере внедрения для организации](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+* Пример приложения для проверки можно найти на сайте GitHub. Примеры выше основаны на этом образце. Дополнительные сведения см. в [примере внедрения для организации](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 * Дополнительные сведения об API-интерфейсе JavaScript для Power BI см. в [этой статье](https://github.com/Microsoft/PowerBI-JavaScript).
 

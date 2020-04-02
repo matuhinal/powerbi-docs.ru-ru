@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26b2cbfc8e57009b836b5ca650e16977de425f3a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383489"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550882"
 ---
 # <a name="visuals-in-power-bi"></a>Визуальные элементы в Power BI
 
@@ -41,7 +41,7 @@ ms.locfileid: "79383489"
 
 ### <a name="what-is-appsource"></a>Что такое AppSource?
 
-[AppSource](office-store.md) — это место, где можно найти приложения, надстройки и расширения для программного обеспечения корпорации Майкрософт. AppSource позволяет миллионам пользователей таких продуктов, как Office 365, Azure, Dynamics 365, Cortana и Power BI, находить решения, с помощью которых можно выполнять работу более эффективно и продуманно.
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) — это место, где можно найти приложения, надстройки и расширения для программного обеспечения корпорации Майкрософт. AppSource позволяет миллионам пользователей таких продуктов, как Office 365, Azure, Dynamics 365, Cortana и Power BI, находить решения, с помощью которых можно выполнять работу более эффективно и продуманно.
 
 ### <a name="certified-power-bi-visuals"></a>Сертифицированные визуальные элементы Power BI
 
