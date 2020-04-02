@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404581"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551109"
 ---
 # <a name="power-bi-security-whitepaper"></a>Технический документ по обеспечению безопасности в Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404581"
 
 **Power BI** — это предложение веб-службы программного обеспечения (_SaaS_ или программное обеспечение как услуга) от корпорации Майкрософт, позволяющее легко и быстро создавать панели мониторинга, отчеты, наборы данных и визуализации самостоятельной бизнес-аналитики. С помощью Power BI можно подключиться к множеству разных источников данных, комбинировать и формировать данные из этих подключений, а также создавать отчеты и панели мониторинга, которые можно использовать совместно с другими пользователями.
 
-Работа службы Power BI регулируется [условиями использования Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) и [корпоративным заявлением о конфиденциальности Майкрософт](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Расположение обработки данных описано в условиях использования Microsoft Online Services. Основным источником сведений о соответствии для Power BI является [центр управления безопасностью Майкрософт](https://www.microsoft.com/trustcenter). Группа Power BI усердно работает, чтобы предложить клиентам последние инновации и повышение производительности. Power BI в настоящее время находится на уровне D [платформы соответствия требованиям Office 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
+Работа службы Power BI регулируется [условиями использования Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) и [корпоративным заявлением о конфиденциальности Майкрософт](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Расположение обработки данных описано в условиях использования Microsoft Online Services. Основным источником сведений о соответствии для Power BI является [центр управления безопасностью Майкрософт](https://www.microsoft.com/trustcenter). Группа Power BI усердно работает, чтобы предложить клиентам последние инновации и повышение производительности. Power BI в настоящее время находится на уровне D [платформы соответствия требованиям Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 Эта статья посвящена безопасности Power BI и описывает архитектуру Power BI, способы проверки подлинности пользователей в Power BI и установки подключений к данным, а также принципы хранения и перемещения данных в службе Power BI. В последнем разделе приведены вопросы, связанные с безопасностью, и ответы на них.
 
