@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Документация по автоматизации Power BI
+summary: С помощью автоматизации Power BI можно управлять объектами Power BI, такими как отчеты, наборы данных и рабочие области.
+metadata:
+  title: Документация по автоматизации Power BI
+  description: С помощью автоматизации Power BI можно управлять объектами Power BI, такими как отчеты, наборы данных и рабочие области.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516406"
+landingContent:
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Узнайте о всех возможностях API Power BI
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: Руководство. Принудительная отправка данных в набор данных
+      url: walkthrough-push-data.md
+    - text: Руководство. Получение токена доступа для проверки подлинности
+      url: walkthrough-push-data-get-token.md
+    - text: Руководство. Создать набор данных
+      url: walkthrough-push-data-create-dataset.md
+    - text: Получение набора данных для добавления строк
+      url: walkthrough-push-data-get-datasets.md
+    - text: Добавление строк в таблицу Power BI
+      url: walkthrough-push-data-add-rows.md
+- title: Работа с данными
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Политика автоматического хранения данных в режиме реального времени
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Ограничения REST API Power BI
+      url: api-rest-api-limitations.md
+    - text: Свойства набора данных
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка учетных данных
+      url: configure-credentials.md
+- title: Ссылки и ресурсы
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: REST API в Power BI
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Справочник по REST API Power BI
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Центр разработчиков
+      url: https://powerbi.microsoft.com/developers/
+    - text: Библиотеки Power BI
+      url: https://www.nuget.org/profiles/powerbi

@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Документация по визуальным элементам Power BI
+summary: Разработка собственных визуальных элементов Power BI, которые будут использоваться вами, вашей организацией или участниками сообщества Power BI. В нашей документации содержатся необходимые вам сведения.
+metadata:
+  title: Документация по визуальным элементам Power BI
+  description: Разработка собственных визуальных элементов Power BI, которые будут использоваться вами, вашей организацией или участниками сообщества Power BI. В нашей документации содержатся необходимые вам сведения.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516245"
+landingContent:
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Визуальные элементы в Power BI
+      url: power-bi-custom-visuals.md
+    - text: Структура проекта визуального элемента Power BI
+      url: visual-project-structure.md
+    - text: Часто задаваемые вопросы
+      url: power-bi-custom-visuals-faq.md
+- title: Разработка визуального элемента Power BI
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Руководство. Разработка визуального элемента Power BI
+      url: custom-visual-develop-tutorial.md
+    - text: Руководство. Добавление параметров форматирования в визуальные элементы Power BI
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Рекомендации по визуальным элементам Power BI
+      url: guidelines-powerbi-visuals.md
+- title: Публикация визуальных элементов Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Публикация визуализаций Power BI в Центре партнеров
+      url: office-store.md
+    - text: Получите сертификацию для визуального элемента Power BI
+      url: power-bi-custom-visuals-certified.md
+- title: Ссылки и ресурсы
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Примеры визуальных элементов Power BI
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Репозиторий Git
+      url: https://github.com/Microsoft/PowerBI-visuals

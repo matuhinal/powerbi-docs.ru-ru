@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Документация по аналитике Power BI Embedded
+summary: Узнайте, как использовать два внедренных решения аналитики, Power BI Embedded, а также о внедрении с помощью Power BI Premium.
+metadata:
+  title: Документация по аналитике Power BI Embedded
+  description: Узнайте, как использовать два внедренных решения аналитики, Power BI Embedded, а также о внедрении с помощью Power BI Premium.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516268"
+landingContent:
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Что такое внедрение с Power BI?
+      url: embedding.md
+    - text: Что такое Power BI Embedded в Azure?
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: Часто задаваемые вопросы
+      url: embedded-faq.md
+- title: Внедрение отчетов или панелей мониторинга
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Руководство. Внедрение содержимого Power BI в приложение для клиентов
+      url: embed-sample-for-customers.md
+    - text: Руководство. Внедрение содержимого Power BI в приложение для организации
+      url: embed-sample-for-your-organization.md
+    - text: Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов
+      url: embed-paginated-reports-customers.md
+    - text: Руководство. Внедрение содержимого Power BI в приложение для национальных облаков
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: Средство настройки внедрения
+      url: https://app.powerbi.com/embedsetup
+    - text: Примеры и скрипты для разработчика
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: Планирование для рабочей среды
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Емкость и номера SKU
+      url: embedded-capacity.md
+    - text: Планирование емкостей
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: Рекомендации по производительности
+      url: embedded-performance-best-practices.md
+    - text: Разрешения Power BI
+      url: power-bi-permissions.md
+    - text: Вопросы и ответы
+      url: qanda.md
+    - text: Устранение неполадок с внедренным приложением
+      url: embedded-troubleshoot.md
+- title: Ссылки и ресурсы
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: REST API в Power BI
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Справочник по REST API Power BI
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Центр разработчиков
+      url: https://powerbi.microsoft.com/developers/
+    - text: Библиотеки Power BI
+      url: https://www.nuget.org/profiles/powerbi
+    - text: Тестовая площадка
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: Вики-документация по JavaScript
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

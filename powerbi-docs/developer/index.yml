@@ -1,93 +1,110 @@
-### YamlMime:Landing
+### YamlMime:Hub
 title: Документация разработчика Power BI
-summary: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+summary: Разработчики Power BI могут внедрять содержимое Power BI, разрабатывать визуальные элементы Power BI и автоматизировать процессы Power BI.
+brand: power-bi
 metadata:
   title: Документация разработчика Power BI
-  description: Из документации Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  description: Разработчики Power BI могут внедрять содержимое Power BI, разрабатывать визуальные элементы Power BI и автоматизировать процессы Power BI.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-developer
-  ms.topic: landing-page
+  ms.topic: hub-page
   ms.collection: collection
-  author: maggiesMSFT
-  ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
-  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/18/2020
-  ms.locfileid: "79487770"
-landingContent:
-- title: О Power BI для разработчиков
-  linkLists:
-  - linkListType: overview
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80487789"
+highlightedContent:
+  items:
+  - title: Использование встроенной аналитики с Power BI
+    itemType: overview
+    url: embedded/embedding.md
+  - title: Что такое Power BI Embedded в Azure?
+    itemType: overview
+    url: embedded/azure-pbie-what-is-power-bi-embedded.md
+  - title: Визуальные элементы в Power BI
+    itemType: overview
+    url: visuals/power-bi-custom-visuals.md
+  - title: Какие возможности API Power BI предоставляет разработчикам?
+    itemType: overview
+    url: automation/overview-of-power-bi-rest-api.md
+conceptualContent:
+  items:
+  - title: Встроенная аналитика
     links:
-    - text: Возможности для разработчиков
-      url: what-can-you-do.md
-    - text: Визуальные элементы в Power BI
-      url: visuals/power-bi-custom-visuals.md
-    - text: Что такое внедрение?
-      url: embedded/embedding.md
-    - text: Что такое API Power BI?
-      url: automation/overview-of-power-bi-rest-api.md
-  - linkListType: reference
+    - url: embedded/embedding.md
+      itemType: overview
+      text: Использование встроенной аналитики с Power BI
+    - url: embedded/azure-pbie-what-is-power-bi-embedded.md
+      itemType: overview
+      text: Что такое Power BI Embedded в Azure?
+    - url: embedded/embedded-capacity.md
+      itemType: concept
+      text: Емкость и номера SKU
+    footerLink:
+      url: embedded/index.yml
+      text: Еще
+  - title: Визуальные элементы Power BI
     links:
-    - text: Центр разработчиков
-      url: https://powerbi.microsoft.com/developers/
-    - text: Примеры для разработчиков
-      url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: Вики-документация по JavaScript
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: REST API
+    - url: visuals/power-bi-custom-visuals.md
+      itemType: overview
+      text: Визуальные элементы в Power BI
+    - url: visuals/custom-visual-develop-tutorial.md
+      itemType: tutorial
+      text: Разработка визуального элемента Power BI
+    - url: visuals/office-store.md
+      itemType: how-to-guide
+      text: Публикация визуализаций Power BI в Центре партнеров
+    footerLink:
+      url: visuals/index.yml
+      text: Еще
+  - title: Автоматизация
+    links:
+    - url: automation/overview-of-power-bi-rest-api.md
+      itemType: overview
+      text: Какие возможности API Power BI предоставляет разработчикам?
+    - url: automation/walkthrough-push-data.md
+      itemType: tutorial
+      text: Принудительная отправка данных набор данных Power BI
+    - url: automation/configure-credentials.md
+      itemType: how-to-guide
+      text: Настройка учетных данных
+    footerLink:
+      url: automation/index.yml
+      text: Еще
+additionalContent:
+  sections:
+  - title: Связанные инструменты
+  - items:
+    - title: REST API в Power BI
+      summary: Интерфейсы REST API Power BI предоставляют конечные точки служб для внедрения, администрирования и работы с пользовательскими ресурсами.
       url: https://docs.microsoft.com/rest/api/power-bi/
-    - text: REST API Azure Resource Manager
+    - title: REST API Azure Resource Manager
+      summary: API, предоставляющий набор веб-служб RESTful, позволяющий создавать, извлекать, обновлять и удалять выделенные емкости Power BI.
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: Визуальные элементы
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: Разработка визуального элемента
-      url: visuals/custom-visual-develop-tutorial.md
-  - linkListType: concept
-    links:
-    - text: Вопросы и ответы о визуальных элементах
-      url: visuals/power-bi-custom-visuals-faq.md
-    - text: Рекомендации по визуальным элементам
-      url: visuals/guidelines-powerbi-visuals.md
-    - text: Режим расширенного редактирования для визуальных элементов
-      url: visuals/advanced-edit-mode.md
-  - linkListType: how-to-guide
-    links:
-    - text: Сертификация визуального элемента
-      url: visuals/power-bi-custom-visuals-certified.md
-    - text: Публикация визуальных элементов Power BI в AppSource
-      url: visuals/office-store.md
-- title: Встроенная аналитика
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: Встроенное содержимое для клиентов
-      url: embedded/embed-sample-for-customers.md
-    - text: Внедренное содержимое для организации
-      url: embedded/embed-sample-for-your-organization.md
-  - linkListType: concept
-    links:
-    - text: Защита на уровне строк
-      url: embedded/embedded-row-level-security.md
-    - text: Управление несколькими клиентами
-      url: embedded/embed-multi-tenancy.md
-    - text: 'Power BI Embedded: вопросы и ответы'
-      url: embedded/embedded-faq.md
-    - text: Разрешения
-      url: embedded/power-bi-permissions.md
-  - linkListType: how-to-guide
-    links:
-    - text: Внедрение из приложений
-      url: embedded/embed-from-apps.md
-    - text: Создание клиента Azure Active Directory
-      url: embedded/create-an-azure-active-directory-tenant.md
-    - text: Получение токена доступа Azure AD
-      url: embedded/get-azuread-access-token.md
-    - text: Функции вопросов и ответов в Power BI Embedded
-      url: embedded/qanda.md
+    - title: Документация по Microsoft Power Platform
+      summary: Сведения о том, как решения Power BI, Power Apps, Power Automate и Power Virtual Agents работают вместе и дополняют друг друга.
+      url: https://docs.microsoft.com/power-platform/
+    - title: Центр Power BI для разработчиков
+      summary: Разработка с Power BI.
+      url: https://powerbi.microsoft.com/developers/
+    - title: Примеры визуальных элементов Power BI
+      summary: Коллекция примеров Power BI и их библиотек кода.
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - title: Библиотеки Power BI
+      summary: Библиотеки Power BI (NuGet).
+      url: https://www.nuget.org/profiles/powerbi
+    - title: Средство настройки внедрения
+      summary: Настройка среды для внедрения с Power BI.
+      url: https://app.powerbi.com/embedsetup
+    - title: Тестовая площадка
+      summary: Изучение функций и интерфейсов API.
+      url: https://aka.ms/pbieplayground
+    - title: Вики-документация по JavaScript
+      summary: Изучение базы знаний JavaScript.
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

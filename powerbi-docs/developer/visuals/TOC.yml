@@ -1,0 +1,120 @@
+- name: Документация по визуальным элементам Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Обзор
+      expanded: true
+      items:
+        - name: "Визуальные элементы в Power\_BI"
+          href: power-bi-custom-visuals.md
+    - name: Учебники
+      expanded: true
+      items:
+        - name: "Разработка визуального элемента Power\_BI"
+          href: custom-visual-develop-tutorial.md
+        - name: Добавление параметров форматирования
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: Добавление модульных тестов для проекта визуальных элементов
+          href: unit-tests-introduction.md
+    - name: Основные понятия
+      items:
+        - name: "Структура проекта визуального элемента Power\_BI"
+          href: visual-project-structure.md
+        - name: Основные понятия визуализаций
+          href: power-bi-visuals-concept.md
+        - name: "Визуальные элементы для организаций в Power\_BI"
+          href: power-bi-custom-visuals-organization.md
+        - name: "Рекомендации по визуальным элементам Power\_BI"
+          href: guidelines-powerbi-visuals.md
+        - name: Вопросы и ответы о визуальных элементах
+          href: power-bi-custom-visuals-faq.md
+        - name: Использование возможностей
+          href: capabilities.md
+        - name: Сопоставления представлений данных
+          href: dataview-mappings.md
+        - name: Объекты и свойства
+          href: objects-properties.md
+        - name: Режим расширенного редактирования
+          href: advanced-edit-mode.md
+    - name: Практическое руководство
+      items:
+        - name: "Получите сертификацию для визуального элемента Power\_BI"
+          href: power-bi-custom-visuals-certified.md
+        - name: Публикация визуальных элементов Power BI в AppSource
+          href: office-store.md
+        - name: "Использование визуализаций Power\_BI на основе R в Power\_BI"
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: Взаимодействие визуальных элементов
+          href: visuals-interactions.md
+        - name: Добавление выбора
+          href: selection-api.md
+        - name: Добавление подсказок в визуальных элементах
+          href: add-tooltips.md
+        - name: Добавление панели аналитики
+          href: analytics-pane.md
+        - name: Фильтрация визуальных элементов
+          href: filter-api.md
+        - name: Получение дополнительных данных
+          href: fetch-more-data.md
+        - name: Добавление поддержки закладок
+          href: bookmarks-support.md
+        - name: Добавление поддержки контекстного меню
+          href: context-menu.md
+        - name: Добавление поддержки детализации
+          href: drill-down-support.md
+        - name: Выделение данных в визуальных элементах
+          href: highlight.md
+        - name: Добавление поддержки режима высокой контрастности
+          href: high-contrast-support.md
+        - name: Активация синхронизации срезов
+          href: enable-sync-slicers.md
+        - name: Отладка визуальных элементов
+          href: visuals-how-to-debug.md
+        - name: "Устранение неполадок с визуальными элементами Power\_BI"
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: Справка
+      items:
+        - name: Целевая страница
+          href: landing-page.md
+        - name: Открытие URL-адреса
+          href: launch-url.md
+        - name: API локального хранилища
+          href: local-storage.md
+        - name: События отрисовки
+          href: event-service.md
+        - name: Сортировка
+          href: sort-options.md
+        - name: Локализация
+          href: localization.md
+        - name: "Инструменты для визуальных элементов Power\_BI"
+          items:
+            - name: Добавление внешних библиотек
+              href: adding-external-libraries.md
+            - name: Инструменты для взаимодействия
+              href: utils-interactivity-selections.md
+            - name: Инструменты форматирования
+              href: utils-formatting.md
+            - name: "Инструменты для\_DataView"
+              href: utils-dataview.md
+            - name: Инструменты для диаграмм
+              href: utils-chart.md
+            - name: Инструменты для работы с цветом
+              href: utils-color.md
+            - name: "Инструменты для\_SVG"
+              href: utils-svg.md
+            - name: Инструменты для типов
+              href: utils-type.md
+            - name: Подсказки по служебным программам
+              href: utils-tooltip.md
+            - name: "Инструменты для\_DataView"
+              href: utils-dataview.md
+    - name: Ресурсы
+      items:
+        - name: Центр разработки
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Примеры визуальных элементов Power BI
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Репозиторий Git настраиваемых визуальных элементов
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: Создание SSL-сертификата
+          href: create-ssl-certificate.md

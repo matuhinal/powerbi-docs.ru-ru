@@ -20,6 +20,8 @@
       items:
         - name: "Получить примеры для Power\_BI"
           href: ../sample-datasets.md
+        - name: Пример COVID-19 с данными из США
+          href: sample-covid-19-us.md
         - name: Рентабельность клиента — пример
           href: ../sample-customer-profitability.md
         - name: "Анализ расходов ИТ-отдела\_— образец"
