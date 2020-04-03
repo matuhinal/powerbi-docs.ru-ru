@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Отчеты с разбивкой на страницы
           items:
-            - name: Практическое занятие. Создание отчета с разбивкой на страницы
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Ввод данных непосредственно в отчет с разбивкой на страницы
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Создание внедренного источника данных
