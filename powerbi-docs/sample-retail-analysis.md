@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207489"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404711"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Пример "Анализ розничной торговли" для Power BI: Узнайте о возможностях
 
@@ -57,7 +57,7 @@ ms.locfileid: "79207489"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Получение книги Excel для этого примера
 
-Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529778). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Если вы хотите просмотреть источник данных для этого примера, он также доступен в виде [книги Excel](https://go.microsoft.com/fwlink/?LinkId=529778). Книга содержит листы Power View, которые можно просматривать и изменять. Чтобы просмотреть необработанные данные, включите надстройки анализа данных и выберите **Power Pivot > Управление**. Чтобы включить надстройки Power View и Power Pivot, перейдите к разделу [Просмотр примеров Excel непосредственно из Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Запуск на панели мониторинга и открытие отчета
 
@@ -136,7 +136,7 @@ ms.locfileid: "79207489"
 
    ![Выбор Allan Guinot и Womens-10](media/sample-retail-analysis/power-bi-allan.png)
 
-   Обратите внимание, что по категории женских товаров этот район не смог повторить прошлогодний объем продаж.
+   Обратите внимание, что в категории Womens-10 этот район не смог повторить прошлогодний объем продаж.
 3. Изучите результаты по другим региональным менеджерам и категориям. Какую дополнительную информацию вы сможете найти?
 4. Завершив анализ, возвращайтесь на панель мониторинга.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381130"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404183"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 
@@ -62,7 +62,7 @@ ms.locfileid: "79381130"
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
-Отчеты в сервере отчетов Power BI и в службе Power BI (https://app.powerbi.com) ), и в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
+Отчеты на сервере отчетов Power BI и в службе Power BI (`https://app.powerbi.com`), а также в мобильных приложениях Power BI работают почти одинаково, но некоторые функции все же различаются.
 
 ### <a name="selecting-a-language"></a>Выбор языка
 

@@ -1,167 +1,191 @@
 ---
 title: Использование субъекта-службы с Power BI
-description: Узнайте, как зарегистрировать приложение в Azure Active Directory с помощью субъекта-службы для использования внедренного содержимого Power BI.
+description: Узнайте, как зарегистрировать приложение в Azure Active Directory с помощью субъекта-службы и секрета приложения для использования внедренного содержимого Power BI.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493510"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403458"
 ---
-# <a name="service-principal-with-power-bi"></a>Использование субъекта-службы с Power BI
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Внедрение содержимого Power BI с помощью субъекта-службы и секрета приложения
 
-**Субъект-служба** позволяет внедрять содержимое Power BI в приложение и использовать средства автоматизации в Power BI с помощью токена **только для приложения**. Субъект-службу целесообразно использовать при работе с **Power BI Embedded** или **автоматизации задач и процессов Power BI**.
+Субъект-служба — это метод проверки подлинности, который можно использовать, чтобы предоставить приложению Azure AD доступ к содержимому службы и API-интерфейсам Power BI.
 
-Использование субъекта-службы дает ряд преимуществ при работе с Power BI Embedded. Важнейшее преимущество в том, что для прохождения проверки подлинности в приложении вам не нужна главная учетная запись (лицензия Power BI Pro, то есть попросту имя пользователя и пароль для входа). При использовании субъекта-службы для проверки подлинности в приложении применяются идентификатор приложения и секрет приложения.
+При создании приложения Azure Active Directory (Azure AD) создается [объект субъекта-службы](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object). Объект субъекта-службы, также известный как *субъект-служба*, позволяет Azure AD проверить подлинность приложения. После проверки подлинности приложение может получить доступ к ресурсам клиента Azure AD.
 
-При автоматизации задач Power BI можно создать скрипт для обработки субъектов-служб и управления ими.
+Для проверки подлинности субъект-служба использует *идентификатор приложения* приложения Azure AD и один из этих идентификаторов:
+* Секрет приложения
+* Сертификат
 
-## <a name="application-and-service-principal-relationship"></a>Взаимосвязь между приложением и субъектом-службой
+В этой статье описывается проверка подлинности субъекта-службы с помощью *идентификатора приложения* и *секрета приложения*. Сведения о проверке подлинности с помощью субъекта-службы с помощью сертификата см. в разделе [Проверка подлинности с использованием сертификатов Power BI]().
 
-При доступе к защищенным ресурсам клиента Azure AD сущность, которой требуется доступ, представляется субъектом безопасности. Это верно в отношении как пользователей (субъектов-пользователей), так и приложений (субъектов-служб).
+## <a name="method"></a>Метод
 
-Субъект безопасности определяет политику доступа и разрешения для пользователей и приложений в клиенте Azure AD. Политика доступа обеспечивает ряд базовых функций, таких как проверка подлинности пользователей и приложений во время входа в систему и авторизация доступа к ресурсам. Дополнительные сведения см. в статье [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals).
+Чтобы использовать субъект-службу и идентификатор приложения со встроенной аналитикой, выполните следующие действия.
 
-При регистрации приложения Azure AD на портале Azure в клиенте Azure AD создаются два объекта:
+1. Создайте [приложение Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management).
 
-* [объект приложения](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object);
-* [объект субъекта-службы](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+    1. Создайте секрет приложения Azure AD.
+    
+    2. Получите *Идентификатор приложения* и *Секрет приложения*.
 
-Объект приложения можно рассматривать как *глобальное* представление приложения для всех клиентов, а объект субъекта-службы — как *локальное* представление для конкретного клиента.
+    >[!NOTE]
+    >Эти действия описаны в **шаге 1**. Дополнительные сведения о создании приложения Azure AD см. в статье [Создание приложения Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
-Объект приложения служит шаблоном, из которого *берутся* общие свойства и свойства по умолчанию при создании соответствующих объектов субъектов-служб.
+2. Создайте группу безопасности Azure AD.
 
-Для каждого клиента, в котором используется приложение, требуется один субъект-служба, который применяется как удостоверение для входа и доступа к защищенным ресурсам клиента. Приложение для одного клиента имеет только один субъект-службу (в домашнем клиенте), который создается и утверждается для использования во время регистрации приложения.
+3. Включите параметры администрирования службы Power BI.
 
-## <a name="service-principal-with-power-bi-embedded"></a>Использование субъекта-службы с Power BI Embedded
+4. Добавьте субъект-службу в рабочую область.
 
-Субъект-служба позволяет маскировать данные главной учетной записи в приложении посредством идентификатора и секрета приложения. Для проверки подлинности больше не нужно встраивать главную учетную запись в приложение.
+5. Внедрите свое содержимое.
 
-Так как **интерфейсы API Power BI** и **пакет SDK .NET для Power BI** теперь поддерживают вызовы с использованием субъекта-службы, вы можете использовать [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/) с субъектом-службой. Так, вы можете вносить изменения в рабочие области, например создавать их, добавлять пользователей в рабочие области или удалять пользователей из них, а также импортировать содержимое в рабочие области.
+> [!IMPORTANT]
+> После активации субъекта-службы для использования с Power BI разрешения приложения в Active Directory перестают действовать. В дальнейшем управление разрешениями приложения осуществляется на портале администрирования Power BI.
 
-Субъект-службу можно использовать, только если артефакты и ресурсы Power BI хранятся в [новой рабочей области Power BI](../../service-create-the-new-workspaces.md).
+## <a name="step-1---create-an-azure-ad-app"></a>Шаг 1. Создание приложения Azure AD
 
-## <a name="service-principal-vs-master-account"></a>Субъект-служба и главная учетная запись
+Создайте приложение Azure AD одним из методов, перечисленных ниже.
+* Создать приложение на [портале Microsoft Azure](https://ms.portal.azure.com/#allservices)
+* Создать приложение с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
-Субъект-служба и стандартная главная учетная запись (с лицензией Power BI Pro) используются для проверки подлинности по-разному. В таблице ниже представлены некоторые важные различия.
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Создание приложения Azure AD на портале Microsoft Azure
 
-| Функция | Главная учетная запись пользователя <br> (лицензия Power BI Pro) | Субъект-служба <br> (токен только для приложения) |
-|------------------------------------------------------|---------------------|-------------------|
-| Позволяет входить в службу Power BI  | Да | Нет |
-| Поддерживается на портале администрирования Power BI | Нет | Да |
-| [Поддерживает рабочие области (версия 1)](../../service-create-workspaces.md) | Да | Нет |
-| [Поддерживает новые рабочие области (версия 2)](../../service-create-the-new-workspaces.md) | Да | Да |
-| При использовании с Power BI Embedded требуются права администратора рабочей области | Да | Да |
-| Может использовать REST API в Power BI | Да | Да |
-| Для создания требуются права глобального администратора | Да | Нет |
-| Позволяет установить локальный шлюз данных и управлять им | Да | Нет |
+1. Выполните вход в [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
-## <a name="get-started-with-a-service-principal"></a>Начало работы с субъектом-службой
+2. В строке поиска найдите **Регистрация приложений** и щелкните ссылку **Регистрация приложений**.
 
-Настройка субъекта-службы (токена только для приложения) для использования отличается от традиционной настройки главной учетной записи. Сначала нужно правильно настроить среду.
+    ![регистрация приложения azure](media/embed-service-principal/azure-app-registration.png)
 
-1. [Зарегистрируйте веб-приложение на стороне сервера](register-app.md) в Azure Active Directory (AAD) для использования с Power BI. После регистрации приложения можно получить идентификатор приложения, секрет приложения и идентификатор объекта субъекта-службы для доступа к содержимому Power BI. Создать субъект-службу можно с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+3. Щелкните **Новая регистрация**.
 
-    Ниже представлен пример скрипта для создания приложения Azure Active Directory.
+    ![новая регистрация](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. Заполните необходимые сведения:
+    * **Имя** — введите имя для своего приложения.
+    * **Поддерживаемые типы учетных записей** — выберите поддерживаемые типы учетных записей.
+    * (Необязательно) **URI перенаправления** — при необходимости введите универсальный код ресурса (URI).
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. Щелкните **Зарегистрировать**.
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. После регистрации на вкладке **Обзор** доступен *Идентификатор приложения*. Скопируйте и сохраните *Идентификатор приложения* для последующего использования.
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![идентификатор приложения](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. Перейдите на вкладку **Сертификаты и секреты**.
 
-   > [!Important]
-   > После активации субъекта-службы для использования с Power BI разрешения приложения в Active Directory перестают действовать. В дальнейшем управление разрешениями приложения осуществляется на портале администрирования Power BI.
+     ![идентификатор приложения](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **Рекомендуется**: создайте группу безопасности в Azure Active Directory (AAD) и добавьте в нее созданное [приложение](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals). Создать группу безопасности AAD можно с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+8. Щелкните **Создать секрет клиента**.
 
-    Ниже представлен пример скрипта для создания группы безопасности и добавления приложения в нее.
+    ![секрет нового клиента](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. В окне *Добавление секрета клиента* введите описание, укажите, когда должен истечь срок действия секрета клиента, и нажмите кнопку **Добавить**.
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. Скопируйте и сохраните значение *Секрет клиента*.
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![значение секрета клиента](media/embed-service-principal/client-secret-value.png)
 
-3. Администратору Power BI необходимо включить субъект-службу в **параметрах разработчика** на портале администрирования Power BI. Добавьте группу безопасности, созданную в Azure AD, в раздел отдельных групп безопасности на странице **Параметры разработчика**. Вы также можете включить доступ к субъекту-службе для всей организации. В этом случае шаг 2 не требуется.
+    >[!NOTE]
+    >После закрытия этого окна значение секрета клиента будет скрыто, и вы не сможете снова просмотреть или скопировать его.
 
-   > [!Important]
-   > Субъекты-службы имеют доступ к любым параметрам клиента, включенным для всей организации или для групп безопасности, в состав которых входят эти субъекты. Чтобы ограничить доступ субъекта-службы к конкретным параметрам клиентов, предоставьте ему доступ только к определенным группам безопасности либо создайте выделенную группу безопасности для субъектов-служб, а затем исключите ее.
+### <a name="creating-an-azure-ad-app-using-powershell"></a>Создание приложения Azure AD с помощью PowerShell
 
-    ![Портал администрирования](media/embed-service-principal/admin-portal.png)
+В этом разделе содержится пример скрипта для создания нового приложения Azure AD с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
-4. Настройте [рабочую среду Power BI](embed-sample-for-customers.md#set-up-your-power-bi-environment).
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. Добавьте субъект-службу в качестве **администратора** в созданную рабочую область. Эту задачу можно выполнить с помощью [интерфейсов API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) или службы Power BI.
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![Добавление субъекта-службы в качестве администратора в рабочую область](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. Теперь вы можете внедрить содержимое в пример приложения или в собственное приложение.
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [Внедрение содержимого с помощью примера приложения](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [Внедрение содержимого в приложении](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. Теперь вы готовы к [миграции в рабочую среду](embed-sample-for-customers.md#move-to-production).
+## <a name="step-2---create-an-azure-ad-security-group"></a>Шаг 2. Создание группы безопасности Azure AD
 
-## <a name="migrate-to-service-principal"></a>Переход на использование субъекта-службы
+У субъекта-службы нет доступа к любому содержимому и API-интерфейсам Power BI. Чтобы предоставить субъекту-службе доступ, создайте группу безопасности в Azure AD и добавьте созданный субъект-службу в эту группу безопасности.
 
-Если в настоящее время с Power BI или Power BI Embedded используется главная учетная запись, то вы можете перейти на использование субъекта-службы.
+Существует два способа создания группы безопасности Azure AD.
+* Вручную (в Azure)
+* Регистрация с помощью PowerShell
 
-Выполните первые три шага в разделе [Начало работы с субъектом-службой](#get-started-with-a-service-principal), а затем следуйте приведенным ниже инструкциям.
+### <a name="create-a-security-group-manually"></a>Создание группы безопасности вручную
 
-Если вы уже используете [новые рабочие области](../../service-create-the-new-workspaces.md) в Power BI, добавьте субъект-службу в качестве **администратора** в рабочие области с артефактами Power BI. Однако если вы используете [обычные рабочие области](../../service-create-workspaces.md), необходимо сначала скопировать или переместить артефакты и ресурсы Power BI в новые рабочие области и только потом добавить в них субъект-службу в качестве **администратора**.
+Чтобы создать группу безопасности Azure вручную, следуйте инструкциям в статье [Создание простой группы и добавление в нее участников с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
-В пользовательском интерфейсе нет функций для переноса артефактов и ресурсов Power BI из одной рабочей области в другую, поэтому для выполнения этой задачи следует использовать [интерфейсы API](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/). При использовании интерфейсов API с субъектом-службой требуется идентификатор объекта субъекта-службы.
+### <a name="create-a-security-group-using-powershell"></a>Создание группы безопасности с помощью PowerShell
 
-### <a name="how-to-get-the-service-principal-object-id"></a>Получение идентификатора объекта субъекта-службы
+Ниже приведен пример скрипта для создания новой группы безопасности и добавления приложения в эту группу безопасности.
 
-Для назначения субъекта-службы новой рабочей области используются [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). При выполнении операций с субъектом-службой или внесении изменений в него, например добавлении субъекта-службы в качестве администратора в рабочую область, на него необходимо ссылаться по **идентификатору объекта субъекта-службы**.
+>[!NOTE]
+>Если вы хотите включить доступ субъекта-службы для всей организации, пропустите этот шаг.
 
-Ниже приводятся инструкции по получению идентификатора объекта субъекта-службы на портале Azure.
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. На портале Azure создайте регистрацию приложения.  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. Затем в разделе **Управляемое приложение в локальном каталоге** выберите имя созданного приложения.
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![Управляемое приложение в локальном каталоге](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>Шаг 3. Включение параметров администрирования службы Power BI
 
-    > [!NOTE]
-    > Идентификатор объекта на снимке экрана выше — это не тот идентификатор, который используется для субъекта-службы.
+Чтобы приложение Azure AD могло получить доступ к содержимому и API-интерфейсам Power BI, администратор Power BI должен включить доступ субъекта-службы на портале администрирования Power BI.
 
-3. Чтобы увидеть идентификатор объекта, выберите категорию **Свойства**.
+Добавьте группу безопасности, созданную в Azure AD, в раздел отдельных групп безопасности на странице **Параметры разработчика**.
 
-    ![Идентификатор объекта субъекта-службы на странице свойств](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>Субъекты-службы имеют доступ ко всем параметрам клиента, для которых они включены. В зависимости от параметров администратора, это может быть определенная группа безопасности или вся организация.
+>
+>Чтобы ограничить доступ субъекта-службы к параметрам определенного клиента, разрешите доступ только к определенным группам безопасности. Кроме того, можно создать выделенную группу безопасности для субъектов-служб и исключить ее из параметров нужного клиента.
 
-Ниже приведен пример скрипта для получения идентификатора объекта субъекта-службы с помощью PowerShell.
+![Портал администрирования](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>Шаг 4. Добавление субъекта-службы в качестве администратора в рабочую область
+
+Чтобы включить артефакты доступа к приложению Azure AD, такие как отчеты, панели мониторинга и наборы данных в службу Power BI, добавьте сущность субъекта-службы в качестве участника или администратора в рабочую область.
+
+>[!NOTE]
+>В этом разделе содержатся инструкции для пользовательского интерфейса. Вы также можете добавить субъект-службу в рабочую область, используя команду [Groups — add group user API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) (Группы — добавление API-интерфейса пользователя группы).
+
+1. Перейдите к рабочей области, для которой требуется включить доступ, а затем в меню **Еще** выберите команду **Доступ к рабочей области**.
+
+    ![Параметры рабочей области](media/embed-service-principal/workspace-access.png)
+
+2. Добавьте субъект-службу как **Администратор** или **Участник** в эту рабочую область.
+
+    ![Администратор рабочей области](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>Шаг 5. Внедрение содержимого
+
+Вы можете внедрить содержимое в пример приложения или в собственное приложение.
+
+* [Внедрение содержимого с помощью примера приложения](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [Внедрение содержимого в приложении](embed-sample-for-customers.md#embed-content-within-your-application)
+
+После того, как содержимое будет внедрено, вы можете [переносить его в производственную среду](embed-sample-for-customers.md#move-to-production).
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
@@ -178,7 +202,8 @@ ms.locfileid: "79493510"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Регистрация приложения](register-app.md)
 * [Power BI Embedded для клиентов](embed-sample-for-customers.md)
-* [Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [Внедрение содержимого Power BI с помощью субъекта-службы и сертификата]()

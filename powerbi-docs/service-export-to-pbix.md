@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881817"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551087"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Скачивание отчета из службы Power BI в Power BI Desktop (предварительная версия)
 В Power BI Desktop можно опубликовать отчет (*PBIX*-файл) с локального компьютера в службе Power BI. Отчеты Power BI также могут передаваться и в другом направлении: Вы можете скачать отчет из службы Power BI в Power BI Desktop. В любом случае отчет Power BI имеет расширение PBIX.
 
-Существует ряд ограничений и рекомендации, которые мы рассмотри далее в этой статье.
+Существует ряд ограничений, которые мы рассмотрим далее в разделе [Рекомендации и устранение неполадок](#considerations-and-troubleshooting).
 
 ![Раскрывающийся список "Файл"](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ ms.locfileid: "73881817"
 * Скачанные файлы всегда нужно открывать в последней версии Power BI Desktop. Скачанные PBIX-файлы могут не открываться в неактуальных версиях Power BI Desktop.
 * Если администратор отключил возможность скачивания данных, эта функция будет недоступна в службе Power BI.
 * Наборы данных с добавочным обновлением невозможно скачать в PBIX-файл.
+* Если вы создаете отчет Power BI на основе набора данных из одной рабочей области, а публикуете его в другой рабочей области, вы и ваши пользователи не сможете скачать его. В этом случае возможность скачивания пока недоступна.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Просмотрите короткий видеоролик от **Guy in a Cube** об этой функции.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201408"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464637"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Использование расширенных метаданных набора данных (предварительная версия)
 
@@ -24,6 +24,8 @@ ms.locfileid: "79201408"
 
 
 Функция **расширенных метаданных набора данных** является стратегической и базовой, поскольку в будущем функциональные возможности Power BI будут создаваться на основе метаданных. Некоторые дополнительные возможности, в которых могут использоваться преимущества расширенных метаданных набора данных, включают [чтение и запись XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) для управления наборами данных Power BI, а также миграцию рабочих нагрузок Analysis Services в Power BI для использования преимуществ функций следующего поколения.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>Включение расширенных метаданных набора данных
 
@@ -36,6 +38,9 @@ ms.locfileid: "79201408"
 ![Запрос перезапуска](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 После включения предварительной версии функции Power BI Desktop попытается обновить файлы PBIX и PBIT, использующие прежний формат метаданных. 
+
+> [!IMPORTANT]
+> Включение функции **расширенных метаданных набора данных** приведет к необратимому обновлению отчетов. Отчеты Power BI, загруженные или созданные в Power BI Desktop с включенной функцией **расширенных метаданных набора данных**, необратимо преобразуются в формат расширенных метаданных набора данных.
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 

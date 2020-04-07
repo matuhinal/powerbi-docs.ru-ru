@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114973"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487752"
 ---
 # <a name="what-is-power-bi"></a>Что такое Power BI?
 **Power BI** — это коллекция программных служб, приложений и соединителей, которые взаимодействуют друг с другом, чтобы превратить разрозненные источники данных в согласованные, визуально иммерсивные и интерактивные аналитические данные. Ваши данные могут быть представлены в виде таблицы Excel или коллекции облачных и локальных гибридных хранилищ данных. Power BI позволяет легко подключаться к источникам данных, визуализировать и выделять наиболее важную информацию и делиться ею с отдельными или всеми пользователями.
@@ -44,8 +44,12 @@ Power BI состоит из следующих компонентов:
 Изучите документы, которые относятся к вашей роли:
 - Power BI Desktop для [*разработчиков*](../desktop-what-is-desktop.md)
 - Power BI для [*потребителей*](../consumer/end-user-consumer.md)
-- Power BI для [*разработчиков*](../developer/what-can-you-do.md)
 - Power BI для [*администраторов*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI для *разработчиков*
+    * [Использование встроенной аналитики с Power BI](../developer/embedded/embedding.md)
+    * [Что такое Power BI Embedded в Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Визуальные элементы в Power BI](../developer/visuals/power-bi-custom-visuals.md)
+    * [Какие возможности API Power BI предоставляет разработчикам?](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Поток работы в Power BI
 Общий поток работы с Power BI начинается с подключения к источникам данных и создания отчета в Power BI Desktop. Затем отчет публикуется из Power BI Desktop в службу Power BI, и пользователям предоставляется доступ к нему, чтобы они могли просматривать этот отчет и работать с ним с помощью службы Power BI или мобильных устройств.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873224"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487776"
 ---
 # <a name="azure-and-power-bi"></a>Azure и Power BI
 
@@ -58,7 +58,7 @@ ms.locfileid: "73873224"
 
 На [портале разработчиков Power BI](https://dev.powerbi.com) можно найти множество полезных сведений об API-интерфейсах Power BI.
 
-Дополнительные сведения см. статье [Какие возможности Power BI предоставляет разработчикам?](developer/what-can-you-do.md).
+Дополнительные сведения см. в статье [Что такое Power BI Embedded в Azure?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>Внедрение данных Power BI в приложение
 
