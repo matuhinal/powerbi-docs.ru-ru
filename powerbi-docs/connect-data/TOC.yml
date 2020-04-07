@@ -254,8 +254,14 @@
           items:
             - name: Подключение к службам с помощью приложений
               href: ../service-connect-to-services.md
+            - name: "Отчет по отслеживанию COVID-19 в\_США"
+              href: service-connect-to-covid-19-tracking.md
+            - name: Отчет о присутствии для антикризисных коммуникаций
+              href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
               href: ../service-connect-to-github.md
+            - name: Панель поддержки принятия решений по неотложной медицинской помощи
+              href: service-connect-to-health-emergency-response.md
             - name: Калькулятор устойчивости (Майкрософт)
               href: ../service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
