@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114889"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802142"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Просмотр отчетов Power BI, оптимизированных для телефона
 
@@ -39,10 +39,11 @@ ms.locfileid: "79114889"
 ## <a name="filter-the-report-page-on-a-phone"></a>Фильтрация страницы отчета на телефоне
 Если в оптимизированном для телефона отчете заданы фильтры, вы сможете их использовать при просмотре такого отчета на телефоне. Отчет открывается на телефоне со значениями, отфильтрованными в соответствии со значениями отчета, настроенными через веб-интерфейс. Вы увидите сообщение о наличии активных фильтров на странице. Фильтры можно изменять прямо в телефоне.
 
-1. Коснитесь значка фильтра ![Значок фильтра на телефоне](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) в нижней части страницы. 
+1. Коснитесь значка фильтра ![Значок фильтра на телефоне](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) в нижней части страницы.
+
 2. Для просмотра необходимых результатов используйте основные или дополнительные фильтры.
    
-    ![Дополнительный фильтр для отчетов Power BI на телефоне](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Дополнительный фильтр для отчетов Power BI на телефоне](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>Перекрестно выделенные визуальные элементы
 Перекрестное выделение визуальных элементов в книжной ориентации работает так же, как и в службе Power BI или на телефоне в альбомной ориентации: Когда вы выбираете данные в одном визуальном элементе, выделяются связанные данные в других визуальных элементах на этой странице.

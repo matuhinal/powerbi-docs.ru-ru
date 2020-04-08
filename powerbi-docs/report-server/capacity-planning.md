@@ -1,19 +1,19 @@
 ---
 title: Руководство по планированию ресурсов для Сервера отчетов Power BI
 description: В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения нагрузочных тестов различных рабочих нагрузок.
-author: parthsha
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 3/5/2018
-ms.author: parshah
-ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
-ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
+ms.date: 04/02/2020
+ms.author: maggies
+ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80361779"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647649"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Руководство по планированию ресурсов для Сервера отчетов Power BI
 Сервер отчетов Power BI — это решение самостоятельной бизнес-аналитики и корпоративной отчетности, которое клиенты могут развернуть локально за своим брандмауэром. Оно объединяет возможности интерактивных отчетов Power BI Desktop с платформой локального сервера SQL Server Reporting Services. При интенсивном и растущем использовании аналитики и отчетности на предприятиях, формирование бюджета на аппаратную инфраструктуру и лицензии программного обеспечения, необходимого для масштабирования базы пользователей предприятия, может представлять собой сложную задачу. В этом документе предоставляется руководство по планированию ресурсов для Сервера отчетов Power BI путем совместного использования результатов выполнения многочисленных нагрузочных тестов различных рабочих нагрузок на сервере отчетов. Хотя отчеты, запросы и шаблоны использования организаций могут сильно различаться, результаты, представленные в данном документе, вместе с использованием фактических тестов и подробным описанием того, как они были выполнены, служат в качестве контрольной точки для тех, кто находится на ранней стадии процесса планирования развертывания Сервера отчетов Power BI.
@@ -90,22 +90,6 @@ ms.locfileid: "80361779"
 | --- | --- | --- |
 | **Отчет Power BI (активное использование)** |1000 пользователей |3000 пользователей |
 | **Отчет с разбивкой на страницы (активное использование)** |2000 пользователей |3200 пользователей |
-
-### <a name="view-results"></a>Просмотр результатов
-Выберите отчет для просмотра результатов выполнения нагрузочного теста.
-
-| Рабочая нагрузка | 8 ядер, 32 ГБ | 16 ядер, 64 ГБ |
-| --- | --- | --- |
-| **Отчет Power BI (активное использование)** |[Просмотр: 8 ядер](https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[Просмотр: 16 ядер](https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-| **Отчет с разбивкой на страницы (активное использование)** |[Просмотр: 8 ядер](https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[Просмотр: 16 ядер](https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 ## <a name="summary"></a>Сводка
 В каждом нагрузочном тесте ЦП был самым перегруженным ресурсом во время пиковой нагрузки на компьютере Сервера отчетов Power BI. Поэтому первый ресурс, который стоит увеличить — это число ядер. Кроме того, можно выполнить развертывание, добавив в топологию дополнительные серверы, размещающие сервер отчетов Power BI.

@@ -8,20 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404785"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621549"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
 Отчеты с разбивкой на страницы уже давно стали стандартным форматом отчетов в SQL Server Reporting Services. Теперь они доступны и в службе Power BI. Эти отчеты можно распечатывать или предоставлять в совместный доступ. Под термином "с разбивкой на страницы" подразумевается то, что формат отчетов подбирается с учетом отображения на странице. Можно настроить отображение всех данных отчета в таблице, даже если для этого потребуется много страниц. Иногда в качестве названия для таких отчетов употребляют описательное выражение "с точностью до пикселя", которое указывает на возможность точно настраивать макет отчета. Отчеты с разбивкой на страницы создаются на основе технологии RDL (языка определения отчетов), используемой в SQL Server Reporting Services. Построитель отчетов — это автономное средство для создания отчетов с разбивкой на страницы. 
 
 Отчеты с разбивкой на страницы могут распространяться на большое число страниц. Например, этот отчет содержит 563 страницы. Для каждой страницы соблюдается точное форматирование: на каждой странице размещен строго один счет и повторяются стандартные колонтитулы.
-
-Попробуйте пройти [Практическое занятие. Создание отчета Microsoft Power BI с разбивкой на страницы](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 ![Разбивка на страницы](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -87,5 +85,4 @@ ms.locfileid: "80404785"
 - [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Руководство. Создание отчета с разбивкой на страницы](paginated-reports-quickstart-aw.md)
 - [Ввод данных непосредственно в отчет с разбивкой на страницы](paginated-reports-enter-data.md)
-- [Практическое занятие. Создание отчета Microsoft Power BI с разбивкой на страницы](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
-- [Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embed-paginated-reports-customers.md).
+- [Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embed-paginated-reports-customers.md)

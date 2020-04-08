@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 69f498239b80dd7445898528aeb09396d0046689
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79526102"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621487"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Онлайн-курс: отчеты с разбивкой на страницы в Power BI за один день
 
@@ -88,6 +88,5 @@ ms.locfileid: "79526102"
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
 - Руководство. [Создание отчета с разбивкой на страницы и его отправка в службу Power BI](paginated-reports-quickstart-aw.md)
-- Практическое занятие. [Создание отчета Microsoft Power BI с разбивкой на страницы](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)
