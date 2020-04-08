@@ -68,7 +68,7 @@ ms.locfileid: "80472067"
 
 3. Чтобы отфильтровать отчет по определенному состоянию, щелкните стрелку, чтобы развернуть панель "Фильтры".
 
-    :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-filters-pane.png" alt-text="Развертывание панели "Фильтры"":::
+    :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-filters-pane.png" alt-text="Развертывание панели Фильтры":::
 
 4. Выберите нужное состояние. 
 
@@ -80,11 +80,11 @@ ms.locfileid: "80472067"
 
 1. Нажмите кнопку **Обновить**.
 
-    :::image type="content" source="media/sample-covid-19-us/power-bi-desktop-refresh-button.png" alt-text="Кнопка "Обновить"":::
+    :::image type="content" source="media/sample-covid-19-us/power-bi-desktop-refresh-button.png" alt-text="Кнопка Обновить":::
 
 2. Выберите команду **Анонимно** > **Подключиться**. 
 
-    :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-azure-blob.png" alt-text="Вкладка "Анонимно"":::
+    :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-azure-blob.png" alt-text="Вкладка Анонимно":::
 
  
 3. Установите флажок (если отображается) **Игнорировать уровни конфиденциальности**, а затем нажмите кнопку **Сохранить**. 
@@ -124,7 +124,7 @@ ms.locfileid: "80472067"
 
 1. Выберите **Получить данные** > **Интернет**.
 
-    :::image type="content" source="media/sample-covid-19-us/power-bi-desktop-get-data.png" alt-text="Кнопка "Получить данные"":::
+    :::image type="content" source="media/sample-covid-19-us/power-bi-desktop-get-data.png" alt-text="Кнопка Получить данные":::
 
 2. Введите следующий URL-адрес:
 

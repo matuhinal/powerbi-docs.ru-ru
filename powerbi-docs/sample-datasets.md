@@ -31,7 +31,7 @@ Power BI предлагает различные примеры для разн
 
 ## <a name="sales--returns-sample-pbix-file"></a>Пример PBIX-файла "Продажи и доход"
 
-:::image type="content" source="media/sample-datasets/sales-returns-sample-pbix.png" alt-text="Пример PBIX-файла "Продажи и доход"":::
+:::image type="content" source="media/sample-datasets/sales-returns-sample-pbix.png" alt-text="Пример PBIX-файла Продажи и доход":::
 
 *Пример отчета "Продажи и доход"*
 
@@ -70,11 +70,11 @@ Power BI предлагает различные примеры для разн
 
 Теперь вы видите панель мониторинга, отчет и набор данных из приложения в представлении списка рабочей области. В этой рабочей области можно изменить каждый из них.
 
-:::image type="content" source="media/sample-datasets/power-bi-sales-marketing-workspace.png" alt-text="Рабочая область "Продажи и маркетинг"":::
+:::image type="content" source="media/sample-datasets/power-bi-sales-marketing-workspace.png" alt-text="Рабочая область Продажи и маркетинг":::
 
 При необходимости это приложение можно распространить среди всех пользователей в организации. Щелкните **Обновить приложение**.
 
-:::image type="content" source="media/sample-datasets/power-bi-update-app.png" alt-text="Кнопка "Обновить приложение"":::
+:::image type="content" source="media/sample-datasets/power-bi-update-app.png" alt-text="Кнопка Обновить приложение":::
 
 Заполните вкладку **Установка**, указав также **Цвет темы приложения**. 
 
@@ -82,7 +82,7 @@ Power BI предлагает различные примеры для разн
 
 Заполните вкладки **Навигация** и **Разрешения**, а затем выберите элемент **Обновить приложение**.
 
-:::image type="content" source="media/sample-datasets/power-bi-select-update-app.png" alt-text="Нажмите "Обновить приложение", чтобы опубликовать это приложение":::
+:::image type="content" source="media/sample-datasets/power-bi-select-update-app.png" alt-text="Нажмите Обновить приложение, чтобы опубликовать это приложение":::
 
 См. дополнительные сведения о [публикации приложений в Power BI](service-create-distribute-apps.md).
 
