@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: Просмотр локальных отчетов в мобильных приложениях
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Защита с помощью Face ID, Touch ID, секретного кода или Fingerprint ID'
+              href: mobile-native-secure-access.md
             - name: "Доступ к содержимому из внешней организации\_(B2B)"
               href: mobile-apps-b2b.md
             - name: Сканирование QR-кода Power BI с помощью телефона
@@ -76,8 +78,6 @@
           items:
             - name: Начало работы с приложением для iOS
               href: mobile-iphone-app-get-started.md
-            - name: 'Защита с помощью Face ID, Touch ID или секретного кода'
-              href: mobile-ios-native-secure-access.md
             - name: Виртуальный аналитик "Вопросы и ответы" в мобильных приложениях iOS
               href: mobile-apps-ios-qna.md
             - name: Интеграция мобильного приложения Power BI с командами Siri
@@ -90,6 +90,10 @@
           items:
             - name: Приступая к работе с приложением Android
               href: mobile-android-app-get-started.md
+            - name: Использование ярлыков приложений Android
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Поиск содержимого и доступ к нему с помощью Google Поиска
+              href: mobile-app-find-access-google-search.md
             - name: Исправление ошибки "Corporate SSL certificate is untrusted" (Корпоративный SSL-сертификат не является доверенным)
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: Исправление ошибки "Need to update Android System Webview" (Необходимо обновить компонент Android System Webview)
