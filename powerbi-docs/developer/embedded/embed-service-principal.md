@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403458"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751636"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Внедрение содержимого Power BI с помощью субъекта-службы и секрета приложения
 
-Субъект-служба — это метод проверки подлинности, который можно использовать, чтобы предоставить приложению Azure AD доступ к содержимому службы и API-интерфейсам Power BI.
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-При создании приложения Azure Active Directory (Azure AD) создается [объект субъекта-службы](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object). Объект субъекта-службы, также известный как *субъект-служба*, позволяет Azure AD проверить подлинность приложения. После проверки подлинности приложение может получить доступ к ресурсам клиента Azure AD.
-
-Для проверки подлинности субъект-служба использует *идентификатор приложения* приложения Azure AD и один из этих идентификаторов:
-* Секрет приложения
-* Сертификат
-
-В этой статье описывается проверка подлинности субъекта-службы с помощью *идентификатора приложения* и *секрета приложения*. Сведения о проверке подлинности с помощью субъекта-службы с помощью сертификата см. в разделе [Проверка подлинности с использованием сертификатов Power BI]().
+В этой статье описывается проверка подлинности субъекта-службы с помощью *идентификатора приложения* и *секрета приложения*.
 
 ## <a name="method"></a>Метод
 
@@ -55,12 +49,12 @@ ms.locfileid: "80403458"
 ## <a name="step-1---create-an-azure-ad-app"></a>Шаг 1. Создание приложения Azure AD
 
 Создайте приложение Azure AD одним из методов, перечисленных ниже.
-* Создать приложение на [портале Microsoft Azure](https://ms.portal.azure.com/#allservices)
+* Создать приложение на [портале Microsoft Azure](https://portal.azure.com/#allservices)
 * Создать приложение с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Создание приложения Azure AD на портале Microsoft Azure
 
-1. Выполните вход в [Microsoft Azure](https://ms.portal.azure.com/#allservices).
+1. Выполните вход в [Microsoft Azure](https://portal.azure.com/#allservices).
 
 2. В строке поиска найдите **Регистрация приложений** и щелкните ссылку **Регистрация приложений**.
 
@@ -72,7 +66,7 @@ ms.locfileid: "80403458"
 
 4. Заполните необходимые сведения:
     * **Имя** — введите имя для своего приложения.
-    * **Поддерживаемые типы учетных записей** — выберите поддерживаемые типы учетных записей.
+    * **Поддерживаемые типы учетных записей** — выберите нужную учетную запись Azure AD.
     * (Необязательно) **URI перенаправления** — при необходимости введите универсальный код ресурса (URI).
 
 5. Щелкните **Зарегистрировать**.
@@ -205,5 +199,3 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 * [Power BI Embedded для клиентов](embed-sample-for-customers.md)
 
 * [Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [Внедрение содержимого Power BI с помощью субъекта-службы и сертификата]()

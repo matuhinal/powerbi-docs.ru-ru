@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80550889"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621456"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Публикация визуализаций Power BI в Центре партнеров
 
@@ -100,6 +100,8 @@ ms.locfileid: "80550889"
 10. Выберите **Настройка продукта** и щелкните **Проверить и опубликовать**.
 
 ## <a name="tracking-submission-status-and-usage"></a>Отслеживание состояния отправки и использования
+
+Просмотрите [политики проверки](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 После отправки состояние отправленного приложения можно будет просматривать на [панели мониторинга приложения](https://sellerdashboard.microsoft.com/Application/Summary/).
 

@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/10/2019
-ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 04/02/2020
+ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922236"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647721"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Параметры URL-адреса в отчетах с разбивкой на страницы в Power BI
 
@@ -78,6 +78,14 @@ URL-адрес веб-службы клиента Power BI. Например:
 - CSV 
 - PDF 
 - XML 
+
+**Состояние панели параметров**. Определяет, будет ли панель параметров закрыта, открыта или полностью скрыта при загрузке отчета.
+
+-   rdl:parameterPanelState
+
+    - collapsed — при загрузке отчета панель параметров закрыта. Пользователи могут развернуть панель, нажав кнопку.
+    - hidden — при загрузке отчета панель параметров закрыта и кнопка неактивна.
+    - expanded (по умолчанию) — при загрузке отчета панель параметров открыта и кнопка активна.
 
 **Сведения об устройстве**. Можно указать дополнительные выходные параметры для следующих форматов экспорта. 
 

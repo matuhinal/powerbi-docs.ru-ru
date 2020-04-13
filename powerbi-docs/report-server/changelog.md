@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381107"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979806"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 
@@ -29,7 +29,7 @@ ms.locfileid: "79381107"
            -  Исправлена проблема, из-за которой не удавалось отправить отчеты Power BI для определенных источников данных.
            -  Исправлено расположение для скачивания Сервера отчетов Power BI версии для настольного компьютера с портала по ссылке.
            -  Исправление DynamicImageDPI для подготовки отчетов Excel к просмотру.
-           -  Исправлена проблема, из-за которой при подключении к Oracle использовались неверные региональные параметры потоков в некоторых сценариях с несколькими пользователями.
+           -  Исправлена проблема, из-за которой при подключении к Oracle использовались неверные региональные параметры потоков в некоторых сценариях с несколькими пользователями (дополнительные сведения см. в [документации по UseInstalledUICulture] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) )).
            -  Исправлено значение по умолчанию для CustomHeaders, из-за которого возникал сбой при внедрении отчетов.
            -  Исправлена проблема, из-за которой в определенных случаях неправильно формировались имена параметров SQL.
     - *Версия: 1.6.7327.3007 (сборка 15.0.1102.759), дата выпуска: 23 января 2020 г.*

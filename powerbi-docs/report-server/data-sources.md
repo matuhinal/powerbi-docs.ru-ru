@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237530"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979852"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services.
@@ -156,7 +156,7 @@ ms.locfileid: "78237530"
 | Список SharePoint Online |Нет |Нет |Нет |Нет |
 | Снежинка |Нет |Нет |Нет |Нет |
 | База данных Sybase |Нет |Нет |Да |Да |
-| Teradata |Нет |Нет |Да |Да |
+| Teradata |Нет |Нет |Да |Да** |
 | appFigures (бета-версия) |Нет |Нет |Нет |Нет |
 | База данных служб Analysis Services Azure (бета-версия) |Нет |Нет |Нет |Нет |
 | Azure Cosmos DB (бета-версия) |Нет |Нет |Нет |Нет |
@@ -189,6 +189,8 @@ ms.locfileid: "78237530"
 | Visual Studio Team Services (бета-версия) |Нет |Нет |Нет |Нет |
 | Webtrends (бета-версия) |Нет |Нет |Нет |Нет |
 | ZenDesk (бета-версия) |Нет |Нет |Нет |Нет |
+
+** Проверка подлинности LDAP с помощью Teradata (включается в Power BI Desktop с помощью команды командной строки "setx PBI_EnableTeradataLdap true") не поддерживается для обновления модели.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Список поддерживаемых методов проверки подлинности для DirectQuery
 

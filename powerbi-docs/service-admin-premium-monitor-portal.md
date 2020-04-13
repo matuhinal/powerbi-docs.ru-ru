@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 51d7b29eee1394ec1bbcad8d69b39b4e45ecdb18
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700080"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813013"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Мониторинг емкостей на портале администрирования
 
@@ -23,6 +23,9 @@ ms.locfileid: "74700080"
 ![Вкладка "Работоспособность емкости" на портале](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
 Если вам нужны более полные метрики, используйте [Метрики емкости Power BI Premium](service-admin-premium-monitor-capacity.md). Приложение обеспечивает детализацию и фильтрацию, а также наиболее детализированные метрики практически для всех аспектов, влияющих на производительность емкости. Дополнительные сведения см. в разделе [Мониторинг емкостей Premium в приложении](service-admin-premium-monitor-capacity.md).
+
+> [!IMPORTANT]
+> Если емкость Power BI Premium подвергается большой нагрузке, из-за которой могут возникать проблемы с производительностью или надежностью, вы можете получать по электронной почте уведомления, чтобы устранять эти проблемы. Дополнительные сведения см. в статье [Уведомления о емкости и надежности](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="system-metrics"></a>Метрики системы
 

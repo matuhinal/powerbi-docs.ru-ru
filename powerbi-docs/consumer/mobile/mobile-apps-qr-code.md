@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: d28596aae776d9a0087895cae38fc2e8848297b6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218953"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802079"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Сканирование QR-кода Power BI на мобильном устройстве
 Применяется к:
 
-| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Телефон Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Планшет Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Телефон Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Планшет Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |Телефоны под управлением Android |Планшеты Android |
+|iPhone |iPad |Телефоны под управлением Android |Планшеты Android |
 
 QR-коды в Power BI могут связывать любой предмет реального времени с соответствующей информацией BI &#151; навигация или поиск не требуются.
 
@@ -52,7 +52,7 @@ QR-коды в Power BI могут связывать любой предмет 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Сканирование QR-кода с помощью внешнего сканера, установленного на устройстве iPhone
 1. Откройте сканер на телефоне и наведите его на соответствующий QR-код Power BI, чтобы получить доступ к плитке или отчету. 
-2. Если на вашем iPhone не установлено приложение Power BI, откроется [каталог Apple App Store, откуда вы сможете его скачать](https://go.microsoft.com/fwlink/?LinkId=522062).
+2. Если на вашем iPhone не установлено приложение Power BI, откроется [каталог Apple App Store, откуда вы сможете его скачать](https://go.microsoft.com/fwlink/?LinkId=522062).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Сканирование QR-кода Power BI на устройстве Android с помощью сканера Power BI
 
@@ -71,7 +71,7 @@ QR-коды в Power BI могут связывать любой предмет 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Сканирование QR-кода внешним сканером, установленным на устройстве Android
 1. Откройте сканер на устройстве Android и наведите сканер на соответствующий QR-код Power BI, чтобы получить доступ к плитке или отчету. 
-2. Если у вас не установлено приложение Power BI, откроется [каталог Google Play, где его можно будет скачать](https://go.microsoft.com/fwlink/?LinkID=544867). 
+2. Если у вас не установлено приложение Power BI, откроется [каталог Google Play, где его можно будет скачать](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Подключение к данным Power BI из реального мира](mobile-apps-data-in-real-world-context.md) с помощью мобильных приложений

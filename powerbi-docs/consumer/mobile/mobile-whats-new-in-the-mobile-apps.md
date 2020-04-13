@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435980"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802102"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -24,6 +24,20 @@ ms.locfileid: "79435980"
 
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>Март 2020 г.
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>Запуск содержимого с помощью ярлыков и Google Поиска (Android)
+Мы упростили поиск и запуск ваших данных, интегрировав ярлыки и Google Поиск в приложение Power BI. Создавайте ярлыки для легкого доступа к избранным отчетам и панелям мониторинга непосредственно с начального экрана устройства. Используйте Google Поиск для быстрого поиска и открытия содержимого Power BI. Узнайте больше о [ярлыках приложений Android](mobile-app-quick-access-shortcuts.md) и [Google Поиске](mobile-app-find-access-google-search.md).
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>Улучшенная безопасность с помощью защиты устройств (предварительная версия для Android)
+Используйте встроенные возможности защиты вашего устройства для обеспечения безопасности приложения Power BI и необходимого уровня конфиденциальности. Необходимость прохождения биометрической проверки подлинности (по идентификатору Fingerprint ID) для доступа к приложению Power BI гарантирует, что ваши данные будут конфиденциальными и доступ к ним будет только у вас. [Сведения о встроенных возможностях безопасного доступа](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>Сканирование теперь доступно на iPad
+Теперь прямо на iPad можно сканировать штрихкоды для фильтрации отчетов и использовать QR-коды для быстрого открытия отчетов.  
+
+### <a name="updated-filtering-experience"></a>Интерфейс фильтров обновлен
+Функциональные возможности и дизайн фильтров в приложении Power BI были обновлены. Изменения включают улучшение видимости применяемых фильтров, влияющих на визуальные элементы отчета, а также возможность блокировки и даже скрытия фильтров. Эти изменения также обеспечивают улучшенную совместимость с фильтрацией в службе Power BI.
 
 ## <a name="february-2020"></a>Февраль 2020 г.
 
