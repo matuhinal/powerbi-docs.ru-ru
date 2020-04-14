@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: Поиск содержимого с помощью домашней целевой страницы
           href: end-user-home.md
-        - name: Как задавать вопросы на естественном языке
-          href: end-user-q-and-a.md
+        - name: Список доступных потребителям функций
+          href: end-user-features.md
         - name: Первый вход в систему
           href: end-user-sign-in.md
         - name: "Какая у меня лицензия Power\_BI?"
           href: end-user-license.md
+        - name: Как задавать вопросы на естественном языке
+          href: end-user-q-and-a.md
         - name: Работа с "новым видом"
           href: ../service-new-look.md
         - name: 'Новый вид: куда переместились действия?'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: Сведения о перекрестной фильтрации визуальных элементов в отчетах
               href: end-user-interactions.md
+            - name: Взаимодействие со срезами отчетов
+              href: end-user-slicer.md
             - name: Экспорт отчета в PDF
               href: end-user-pdf.md
             - name: Экспорт отчета в PowerPoint
