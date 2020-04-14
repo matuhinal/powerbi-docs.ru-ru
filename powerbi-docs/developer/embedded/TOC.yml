@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: Экспорт отчета в файл
           href: export-to.md
+        - name: Экспорт отчета с разбивкой на страницы в файл
+          href: export-paginated-report.md
         - name: Автоматическая установка приложений
           href: embed-auto-install-app.md
         - name: Создание клиента Azure Active Directory

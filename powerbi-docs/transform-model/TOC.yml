@@ -81,7 +81,9 @@
           items:
             - name: Создание и использование потоков данных
               href: ../service-dataflows-create-use.md
-            - name: Использование расширенного вычислительного модуля для потоков данных
+            - name: Повышение уровня или сертификация потоков данных
+              href: service-dataflows-promote-certify.md
+            - name: Использование расширенного ядра вычислений для потоков данных
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Вычисляемые сущности с Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md

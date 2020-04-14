@@ -1,0 +1,132 @@
+### YamlMime:Landing
+title: Каталог обучения Power BI
+summary: Найдите все варианты обучения для Power BI
+metadata:
+  title: Каталог обучения Power BI
+  description: Найдите подходящие варианты обучения Power BI для различных ролей в вашей организации.
+  ms.service: powerbi
+  ms.topic: landing-page
+  author: loreleishannonmsft
+  ms.author: v-lshann
+  ms.date: 04/08/2020
+  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
+  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/13/2020
+  ms.locfileid: "81269048"
+landingContent:
+- title: Бизнес-руководители
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для разработчиков рабочих и технических решений
+      url: learning-catalog-bdm.md#
+- title: Потребители
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для потребителей
+      url: learning-catalog-consumer.md#
+- title: Создатели отчетов
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для создателей отчетов
+      url: learning-catalog-report-creator.md#
+    - text: Начало работы
+      url: learning-catalog-report-creator.md#get-started
+    - text: Панели мониторинга
+      url: learning-catalog-report-creator.md#dashboards
+    - text: Создание отчетов
+      url: learning-catalog-report-creator.md#report-design
+    - text: Визуализация
+      url: learning-catalog-report-creator.md#visualization
+    - text: Интеграция
+      url: learning-catalog-report-creator.md#integration
+- title: Специалисты по анализу данных
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для специалистов по анализу данных
+      url: learning-catalog-data-analyst.md#
+    - text: Начало работы
+      url: learning-catalog-data-analyst.md#get-started
+    - text: Советы и рекомендации
+      url: learning-catalog-data-analyst.md#best-practices
+    - text: Примеры
+      url: learning-catalog-data-analyst.md#case-studies
+    - text: Панели мониторинга
+      url: learning-catalog-data-analyst.md#dashboards
+    - text: Визуализации
+      url: learning-catalog-data-analyst.md#visualizations
+    - text: Управление и развертывание
+      url: learning-catalog-data-analyst.md#governance-deployment
+    - text: Интеграция
+      url: learning-catalog-data-analyst.md#integration
+    - text: Безопасность
+      url: learning-catalog-data-analyst.md#security
+- title: Администраторы
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для администраторов
+      url: learning-catalog-administrator.md
+    - text: Начало работы
+      url: learning-catalog-administrator.md#get-started
+    - text: Развертывание
+      url: learning-catalog-administrator.md#deploy
+- title: Разработчики
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для разработчиков
+      url: learning-catalog-developer.md
+    - text: Начало работы
+      url: learning-catalog-developer.md#get-started
+    - text: Внедренный
+      url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
+    - text: Разработка
+      url: learning-catalog-developer.md#development
+- title: Роли партнерского предпродажного обслуживания
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для партнерского предпродажного обслуживания
+      url: learning-catalog-presales.md#
+- title: Функциональные консультанты
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для консультанта по функциональному приложению
+      url: learning-catalog-functional-consultant.md
+    - text: Начало работы
+      url: learning-catalog-functional-consultant.md#get-started
+    - text: Советы и рекомендации
+      url: learning-catalog-functional-consultant.md#best-practices
+    - text: Примеры
+      url: learning-catalog-functional-consultant.md#case-studies
+    - text: Панели мониторинга
+      url: learning-catalog-functional-consultant.md#dashboards
+    - text: Управление и развертывание
+      url: learning-catalog-functional-consultant.md#governance-deployment
+    - text: Интеграция
+      url: learning-catalog-functional-consultant.md#integration
+    - text: Безопасность
+      url: learning-catalog-functional-consultant.md#security
+    - text: Визуализации
+      url: learning-catalog-functional-consultant.md#visualizations
+- title: Архитекторы решений
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Каталог обучения для архитекторов решений
+      url: learning-catalog-solution-architect.md
+    - text: Начало работы
+      url: learning-catalog-solution-architect.md#get-started
+    - text: Примеры
+      url: learning-catalog-solution-architect.md#case-studies
+    - text: Производительность
+      url: learning-catalog-solution-architect.md#performance

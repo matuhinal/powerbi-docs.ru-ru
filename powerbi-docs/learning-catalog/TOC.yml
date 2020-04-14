@@ -1,0 +1,21 @@
+- name: Каталог обучения
+  href: index.yml
+  items:
+    - name: Бизнес-руководители
+      href: learning-catalog-bdm.md
+    - name: Потребители
+      href: learning-catalog-consumer.md
+    - name: Создатели отчетов
+      href: learning-catalog-report-creator.md
+    - name: Специалисты по анализу данных
+      href: learning-catalog-data-analyst.md
+    - name: Администраторы
+      href: learning-catalog-administrator.md
+    - name: Разработчики
+      href: learning-catalog-developer.md
+    - name: Роли партнерского предпродажного обслуживания
+      href: learning-catalog-presales.md
+    - name: Функциональные консультанты
+      href: learning-catalog-functional-consultant.md
+    - name: Архитекторы решений
+      href: learning-catalog-solution-architect.md
