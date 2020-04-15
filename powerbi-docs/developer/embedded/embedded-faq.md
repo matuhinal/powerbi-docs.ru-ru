@@ -96,7 +96,7 @@ Power BI Premium — это комплексное решение бизнес-�
 
 Чтобы узнать регион клиента Power BI, можно использовать портал Power BI.
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > О Power BI
+`https://app.powerbi.com/` > ? > О Power BI
 
 ![О Power BI](media/embedded-faq/about-01.png)
 ![Регион клиента](media/embedded-faq/tenant-location-01.png)
