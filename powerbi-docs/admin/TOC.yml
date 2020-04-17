@@ -16,14 +16,24 @@
       items:
         - name: "Роль администрирования в Microsoft\_365"
           href: ../service-admin-role.md
+        - name: Лицензирование для вашей организации
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI для правительства США
+          items:
+            - name: Power BI для правительства США
+              href: ../service-govus-overview.md
+            - name: Внедрение в правительственной организации США
+              href: ../service-govus-signup.md
+        - name: Power BI в региональных облаках
+          items:
+            - name: "Миграция в Германские регионы Go\_Local"
+              href: service-admin-migrate-data-germany.md
+            - name: Вопросы и ответы для клиентов облачных служб в Германии
+              href: ../service-govde-faq.md
         - name: Вопросы и ответы
           href: ../service-admin-faq.md
         - name: Часто задаваемые вопросы по высокой доступности и отработке отказа
           href: ../service-admin-failover.md
-        - name: "Миграция в Германские регионы Go\_Local"
-          href: service-admin-migrate-data-germany.md
-        - name: Вопросы и ответы для клиентов облачных служб в Германии
-          href: ../service-govde-faq.md
         - name: "Power\_BI Premium"
           items:
             - name: Управление емкостями Premium
@@ -38,14 +48,14 @@
       items:
         - name: Лицензирования и регистрация
           items:
-            - name: Лицензирование для вашей организации
-              href: ../service-admin-licensing-organization.md
+            - name: Получение Power BI для вашей организации
+              href: service-admin-org-subscription.md
             - name: Купить Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI для правительства США
-              href: ../service-govus-overview.md
-            - name: Внедрение в правительственной организации США
-              href: ../service-govus-signup.md
+            - name: Отключение самостоятельной регистрации
+              href: service-admin-disable-self-service.md
+            - name: Просмотр лицензий пользователей и управление ими
+              href: service-admin-manage-licenses.md
             - name: "Регистрация с пробной версией Microsoft\_365"
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: "Добавление Power\_BI в партнерскую подписку Microsoft\_365"

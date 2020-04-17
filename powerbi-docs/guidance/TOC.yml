@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Отчеты Power BI
           items:
+            - name: Отдельные отчеты из моделей
+              href: report-separate-from-model.md
             - name: Добавление подсказок в виде страниц отчета в визуальные элементы
               href: report-page-tooltips.md
             - name: Использование детализации страницы отчета

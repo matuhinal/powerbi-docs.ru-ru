@@ -12,7 +12,5 @@
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
 - name: Изучение данных
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
-- name: Публикация и совместный доступ
+- name: Публикация и общий доступ
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
-- name: Введение в DAX
-  href: introductiontodax.yml?tutorial-step=1
