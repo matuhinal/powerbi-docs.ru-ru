@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404183"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122255"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI
 
@@ -96,6 +96,10 @@ ms.locfileid: "80404183"
 ### <a name="custom-security"></a>Настраиваемая безопасность
 
 Приложение Power BI Desktop, оптимизированное для сервера отчетов Power BI, не поддерживает настраиваемую безопасность. Если в сервере отчетов Power BI включен настраиваемый модуль безопасности, вы не сможете сохранить отчет Power BI из приложения Power BI Desktop (оптимизированного для сервера отчетов Power BI) на экземпляре сервера отчетов Power BI. Необходимо вместо этого сохранить PBIX-файл отчета из Power BI Desktop и отправить его на сайт портала сервера отчетов Power BI.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Сохранение отчетов на сервере отчетов Power BI в другом домене
+
+При сохранении отчета Power BI на сервере отчетов Power BI используются учетные данные Windows. Сохранение напрямую на сервере отчетов в другом домене с учетными данными Windows не поддерживается. Чтобы просмотреть сервер отчетов и вручную отправить файл с компьютера, можно использовать веб-браузер.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop для более ранних версий Сервера отчетов Power BI
 

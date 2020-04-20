@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273301"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267510"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Экспорт отчета Power BI в файл (предварительная версия)
 
@@ -20,8 +20,8 @@ ms.locfileid: "80273301"
 * **PPTX** (PowerPoint)
 * **PDF**
 * **PNG**
-    * При экспорте в PNG отчет с несколькими страницами сжимается в ZIP-файл
-    * Каждый ZIP-файл в PNG представляет страницу отчета
+    * При экспорте в PNG отчет с несколькими страницами сжимается в ZIP-файл.
+    * Каждый ZIP-файл в PNG представляет страницу отчета.
     * Имена страниц совпадают с возвращаемыми значениями API [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) (Получить страницы)или [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) (Получить страницы в группе).
 
 ## <a name="usage-examples"></a>Примеры использования
@@ -36,7 +36,7 @@ ms.locfileid: "80273301"
 
 Перед использованием API убедитесь, что включены следующие [параметры клиента администрирования](../../service-admin-portal.md#tenant-settings).
 * **Экспорт отчетов в презентации PowerPoint или PDF-документы**. Включено по умолчанию.
-* **Экспорт отчетов в файлы изображений**. Требуется только для PNG и отключен по умолчанию.
+* **Экспорт отчетов в файлы изображений**. Требуется только для *PNG* и отключен по умолчанию.
 
 API является асинхронным. При вызове API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) запускает задание экспорта. После запуска задания экспорта используйте [опрос](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) для отслеживания задания, пока оно не будет завершено.
 
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь со сведениями о внедрении содержимого для клиентов и вашей организации:
+
+> [!div class="nextstepaction"]
+>[Экспорт отчета с разбивкой на страницы в файл](export-paginated-report.md)
 
 > [!div class="nextstepaction"]
 >[Внедрение для клиентов](embed-sample-for-customers.md)

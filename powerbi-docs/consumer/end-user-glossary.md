@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377243"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267234"
 ---
 # <a name="glossary-for-power-bi-service"></a>Глоссарий для службы Power BI
 В службе Power BI может использоваться незнакомая или непонятная терминология. Глоссарий — удобное место для поиска терминов; можно даже использовать закладки. Другой полезный ресурс для изучения стандартных блоков, входящих в состав службы Power BI — [Основные концепции](end-user-basic-concepts.md). В этой статье дается общий обзор *частей* Power BI, а также показывается, как они связаны.
@@ -36,8 +36,7 @@ ms.locfileid: "79377243"
 
 **annotate** (добавлять заметки). Записывать строки, текст или метки на моментальном снимке плитки, отчета или визуализации в мобильном приложении Power BI для устройств iOS и Android.
 
-**app, apps** (приложение, приложения) 
-
+**app, apps (приложение, приложения).** Пакет панелей мониторинга, отчетов и наборов данных. Также обращается к мобильным приложениям для использования содержимого, например приложение Power BI для iOS.
 
 **AppSource**. Централизованный сетевой репозиторий, где можно просматривать и обнаруживать информационные панели, отчеты, наборы данных и приложения для скачивания.
 

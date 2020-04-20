@@ -1,22 +1,24 @@
 ---
-title: Использование среза или фильтра относительных дат в Power BI Desktop
-description: Узнайте, как использовать срез или фильтр для ограничения диапазона относительных дат в Power BI Desktop
+title: Использование среза или фильтра относительных дат в Power BI
+description: Узнайте, как использовать срез или фильтр для ограничения диапазона относительных дат в Power BI.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876805"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006799"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Использование среза и фильтра относительных дат в Power BI Desktop
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Использование среза и фильтра относительных дат в Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 **Срез относительных дат** или **фильтр относительных дат** позволяют применять фильтры с учетом времени для любого столбца даты в модели данных. Например, вы можете использовать **срез относительных дат**, чтобы отобразились только данные по продажам за последние 30 дней (или месяц, календарный месяц и т. д). Когда вы обновляете данные, период относительного времени автоматически применяет ограничение относительной даты.
 

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877581"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006510"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Создание адаптивного визуального элемента "Срез" в Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Адаптивные срезы изменяют размер, чтобы помещаться в любое пространство в отчете. Вы можете менять размеры и формы адаптивных срезов, например с горизонтального элемента на квадратный, с квадратного на вертикальный. Значения в срезе отобразятся в новом порядке в соответствии с изменениями. В Power BI Desktop и в службе Power BI можно делать адаптивными горизонтальные срезы и среды даты и диапазона. В срезах даты и диапазона также улучшена область сенсорного ввода, что позволяет легко изменять их. Вы можете как угодно уменьшать и увеличивать размер адаптивных срезов. Они также автоматически изменяют размер, чтобы помещаться в отчетах в службе Power BI и в мобильных приложениях Power BI. 
 
@@ -26,7 +28,7 @@ ms.locfileid: "73877581"
 
 Чтобы создать динамический срез, сначала нужно создать базовый срез. 
 
-1. Выберите значок **среза** ![Значок среза](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) в области **Визуализации**.
+1. Выберите значок **среза**![Значок среза](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) в области **Визуализации**.
 2. Перетащите поле, по которому нужно выполнить фильтрацию, в область **Поле**.
 
     ![Добавление поля в срез](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
