@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: Отслеживание производительности отчетов
               href: monitor-report-performance.md
+            - name: Устранение неполадок производительности отчетов
+              href: report-performance-troubleshoot.md
     - name: Технические документы
       items:
         - name: Обзор технической документации
