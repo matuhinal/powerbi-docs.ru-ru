@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 6350c67835c097de6f065ba61c0b49b555551952
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267487"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637729"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Настройка рабочих нагрузок в емкости Premium
 
@@ -202,8 +202,9 @@ ms.locfileid: "81267487"
 
 [Приложения метрик емкости Power BI Premium](service-admin-premium-monitor-capacity.md) предоставляет метрики, связанные с наборами данных, потоками данных и отчетами с разбивкой на страницы, для мониторинга рабочих нагрузок, которые включены для ваших емкостей. 
 
-> [!IMPORTANT]
-> Если емкость Power BI Premium подвергается большой нагрузке, из-за которой могут возникать проблемы с производительностью или надежностью, вы можете получать по электронной почте уведомления, чтобы устранять эти проблемы. Дополнительные сведения см. в статье [Уведомления о емкости и надежности](service-interruption-notifications.md#capacity-and-reliability-notifications).
+
+
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

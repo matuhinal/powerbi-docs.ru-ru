@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813105"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637928"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Настройка и администрирование емкостей Power BI Premium
 
@@ -95,8 +95,8 @@ ms.locfileid: "80813105"
 
     SKU уровня P невозможно понизить до SKU уровня EM. Если навести указатель мыши на отключенные параметры, появится объяснение.
 
-> [!IMPORTANT]
-> Если емкость Power BI Premium подвергается большой нагрузке, из-за которой могут возникать проблемы с производительностью или надежностью, вы можете получать по электронной почте уведомления, чтобы устранять эти проблемы. Дополнительные сведения см. в статье [Уведомления о емкости и надежности](service-interruption-notifications.md#capacity-and-reliability-notifications).
+
+
 
 
 ### <a name="manage-user-permissions"></a>Проверка разрешений пользователя

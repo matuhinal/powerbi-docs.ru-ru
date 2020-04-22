@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 86a3c1ce2bbd678a2030fc4a3bc256424f7c8ad8
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813082"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637712"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Мониторинг емкостей Premium в приложении
 
@@ -22,8 +22,9 @@ ms.locfileid: "80813082"
 
 В приложение регулярно добавляются новые возможности и функции. Убедитесь в том, что вы используете последнюю версию. Если у вас установлена предыдущая версия приложения, лучше всего удалить ее, а затем нажать клавиши CTRL+F5, чтобы выполнить обновление.
 
-> [!IMPORTANT]
-> Если емкость Power BI Premium подвергается большой нагрузке, из-за которой могут возникать проблемы с производительностью или надежностью, вы можете получать по электронной почте уведомления, чтобы устранять эти проблемы. Это может упростить устранение неполадок, связанных с перегрузкой емкостей. Дополнительные сведения см. в статье [Уведомления о емкости и надежности](service-interruption-notifications.md#capacity-and-reliability-notifications).
+
+
+
 
 ## <a name="install-the-app"></a>Установка приложения
 

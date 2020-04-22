@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877068"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637896"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Получение данных из файлов книг Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -124,8 +124,6 @@ Power BI поддерживает следующие типы данных: це
 **Установите расписание обновлений**. Если файл книги Excel подключается к внешним источникам данных или был импортирован с локального диска, можно установить расписание обновлений, чтобы гарантировать актуальность набора данных или отчета. В большинстве случаев настроить расписание обновлений довольно просто, но подробное описание этой функции выходит за рамки данной статьи. Дополнительные сведения см. в разделе [Обновление данных в Power BI](refresh-data.md).
 
 [Публикация в Power BI из Excel 2016](service-publish-from-excel.md)
-
-[Издатель Power BI для Excel](publisher-for-excel.md)
 
 [Обновление данных в Power BI](refresh-data.md)
 

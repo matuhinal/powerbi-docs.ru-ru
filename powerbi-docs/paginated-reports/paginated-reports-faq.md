@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113624"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766288"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -88,6 +88,8 @@ ms.locfileid: "80113624"
 
 Отчеты Power BI оптимизированы для исследования данных и интерактивных возможностей.  В формате отчета Power BI лучше создавать, например, отчет о продажах с возможностью выборки данных по конкретным регионам, отраслям и клиентам и с мгновенным отображением соответствующих подытогов.
 
+Дополнительные сведения см. в разделе [В каких случаях использовать отчеты с разбивкой на страницы в Power BI](../guidance/report-paginated-or-power-bi.md).
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>В документации сказано, что построитель отчетов Power BI является основным средством разработки. Но могу ли я создавать отчеты с разбивкой на страницы в SQL Server Data Tools для Power BI?
 
 Да, но служба Power BI позволяет передать за раз только один элемент, поэтому она пока не поддерживает многие распространенные сценарии разработки в SQL Server Data Tools (SSDT). Полный [список неподдерживаемых функций](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) размещен далее в этой статье с вопросами и ответами.  
@@ -110,10 +112,8 @@ ms.locfileid: "80113624"
 
 - общие источники данных;
 - Общие наборы данных
-- вложенные отчеты;
 - Детализация и переход по другим отчетам
 - связанные отчеты;
-- слои карт Bing;
 - пользовательские шрифты;
 
 Вы получите сообщение об ошибке при попытке отправить файл с функцией, которая пока не поддерживается в службе Power BI, за исключением функций переключения и (или) сортировки.
