@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a4c1357ba2bcd4e4703a09974ee01a3ee10ad87b
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006556"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065577"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Советы по улучшению анализа с помощью фигур, изображений и значков в отчетах Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "81006556"
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../desktop-tips-and-tricks-for-creating-reports.md)
 - Видео biDezine: [Четыре главных совета по улучшению анализа с помощью пиктограмм в Power BI](https://www.youtube.com/watch?v=-gLwXonWNsI)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)
