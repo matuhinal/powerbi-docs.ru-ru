@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404766"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439349"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
 
@@ -30,6 +30,12 @@ ms.locfileid: "80404766"
 * Вам необходимо иметь разрешения на чтение и выполнение для всех файлов и папок в папке CDM, чтобы добавить их в Power BI.
 
 В следующих разделах описывается создание потока данных из папки CDM.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>Авторизация доступа пользователей к папкам CDM для создания потока данных
+
+Чтобы создать поток данных из папки CDM, необходимо добавить указанные ниже разрешения.
+* Пользователь, который будет получать доступ к папке CDM через Power BI, должен относиться к роли **Владелец данных BLOB-объектов хранилища** учетной записи хранения.
+* Пользователь, который будет получать доступ к папке CDM через Power BI, должен быть включен в списки управления доступом **Доступ на чтение** и **Доступ на выполнение** как для самой папки CDM, так и для всех файлов и папок в ней. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Создание потока данных из папки CDM
 

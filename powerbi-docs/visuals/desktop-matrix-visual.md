@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576849"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637848"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Создание визуализаций матрицы в Power BI
 
@@ -57,7 +57,8 @@ ms.locfileid: "77576849"
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Если отчет создается на основе многомерной модели Analysis Services, в которой используется функция "Элемент по умолчанию", имеется ряд особенностей, касающихся развертывания и свертывания. Дополнительные сведения см. в статье [Работа с многомерными моделями в Power BI](../desktop-default-member-multidimensional-models.md).
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Детализация с помощью визуального элемента "Матрица"
 Визуальный элемент "Матрица" позволяет использовать подробные визуализации, недоступные ранее. Вы можете выполнить детализацию с использованием строк, столбцов и даже отдельных разделов и ячеек. Рассмотрим каждый из вариантов детализации.

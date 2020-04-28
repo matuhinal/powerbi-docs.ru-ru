@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e2c742abe5db21ef567d07cf88755eb459d8e091
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006625"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637602"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Защита данных в Power BI (предварительная версия)
 
@@ -105,8 +105,8 @@ ms.locfileid: "81006625"
 * Для меток, примененных в Power BI, не поддерживается защита с использованием [функции хранения собственных ключей (HYOK)](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions).
 * Для просмотра и применения меток в приложениях Office [требуются соответствующие лицензии](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Метки конфиденциальности поддерживаются только для клиентов в глобальном (общедоступном) облаке. Метки конфиденциальности не поддерживаются для клиентов в облаках других видов.
-* Метки конфиденциальности данных не поддерживаются для приложений-шаблонов.
-* Power BI не поддерживает метки конфиденциальности для типов защиты **Не пересылать** и **Специальная**.
+* Метки конфиденциальности данных не поддерживаются для приложений-шаблонов. Метки конфиденциальности, заданные создателем приложения-шаблона, удаляются при извлечении и установке приложения, а метки конфиденциальности, добавленные к артефактам в установленном приложении-шаблоне пользователем приложения, утрачиваются (сбрасываются в nothing) при обновлении приложения.
+* Power BI не поддерживает метки конфиденциальности с типами защиты **Не пересылать** и **Специальная**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

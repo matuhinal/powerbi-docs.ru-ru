@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02f6bc83c7d939bd54c5c9a06067185ab0618183
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207834"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675617"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Создание новых рабочих областей в Power BI
 
@@ -127,7 +127,7 @@ Power BI не синхронизирует разрешения пользова
 
     ![Список содержимого рабочих областей](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Добавьте группы безопасности, списки рассылки, группы Office 365 или отдельных пользователей в эти рабочие области в качестве членов, участников или администраторов. См. объяснение разных ролей в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
+1. Добавьте группы безопасности, списки рассылки, группы Office 365 или отдельных пользователей в эти рабочие области в качестве наблюдателей, членов, участников или администраторов. См. объяснение разных ролей в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
 
     ![Добавление в рабочие области членов, администраторов, участников](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

@@ -6,23 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881391"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637823"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>"Новый внешний вид" службы Power BI
 
-Служба Power BI (app.powerbi.com) имеет новый вид, который упрощает просмотр отчетов и взаимодействие с ними. Новый внешний вид стал проще и базируется на вашем знакомстве с другими продуктами Майкрософт. В рамках всей службы Power BI мы поместили содержимое отчета в центр внимания, переключившись на более светлую тему и обновив значки. Ниже приведен обзор изменений в новом внешнем виде. Дополнительные сведения см. в нумерованных разделах:
+Служба Power BI (app.powerbi.com) имеет новый вид, который упрощает просмотр отчетов и взаимодействие с ними. Новый внешний вид стал проще и базируется на вашем знакомстве с другими продуктами Майкрософт. В рамках всей службы Power BI мы поместили содержимое отчета в центр внимания, переключившись на более светлую тему и обновив значки. 
+
+Ищете сведения о новом интерфейсе в **Power BI Desktop**? См. статью [Использование обновленной ленты в Power BI Desktop](desktop-ribbon.md).
+
+Ниже приведен обзор изменений в новом внешнем виде. Дополнительные сведения см. в нумерованных разделах:
 
 ![Обзор изменений в новом внешнем виде](media/service-new-look/power-bi-new-look-changes.png)
 
-Ищете определенное действие? См. статью [Новый вид: куда переместились действия?](service-new-look-where-actions.md)
+Ищете определенное действие? См. статью [Новый вид: куда переместились действия?](service-new-look-where-actions.md).
 
 ## <a name="quick-tour-of-the-changes"></a>Краткий обзор изменений
 
@@ -87,4 +91,6 @@ ms.locfileid: "73881391"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Power BI для потребителей](consumer/end-user-consumer.md)
+- [Использование обновленной ленты в Power BI Desktop](desktop-ribbon.md)
+- [Согласие на новый интерфейс рабочих областей](collaborate-share/service-workspaces-new-look.md)
+- [Power BI для потребителей](consumer/end-user-consumer.md)

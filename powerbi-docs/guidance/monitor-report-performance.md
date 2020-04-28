@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610025"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525544"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Мониторинг производительности отчетов в Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "77610025"
 Мониторинг производительности полезен в следующих ситуациях:
 
 - слишком долго обновляется модель импорта данных;
-- медленно работают отчеты DirectQuery или LiveConnection;
+- медленно работают отчеты DirectQuery или отчеты на основе динамических подключений;
 - медленно выполняются вычисления модели.
 
 Медленно работающие запросы или визуальные элементы отчета должны подвергаться непрерывной оптимизации.
@@ -85,6 +85,7 @@ SQL Server Profiler будет полезен в тех случаях, когд
 
 - [Диагностика запросов](/power-query/QueryDiagnostics)
 - [Анализатор производительности](../desktop-performance-analyzer.md)
+- [Устранение неполадок с производительностью отчетов в Power BI](report-performance-troubleshoot.md)
 - [Приложение Power BI Premium Metrics](../service-premium-metrics-app.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

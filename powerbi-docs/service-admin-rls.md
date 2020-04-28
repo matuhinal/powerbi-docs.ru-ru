@@ -10,18 +10,18 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bfcb88354d542416268ab145a056644db5042b21
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882849"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439993"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Безопасность на уровне строк (RLS) в Power BI
 
 Функции безопасности на уровне строк (RLS) в Power BI позволяют ограничивать доступ к данным для определенных пользователей. Фильтры ограничивают доступ к данным на уровне строк; определить их можно в ролях. Обратите внимание, что в службе Power BI участники рабочей области имеют доступ к наборам данных в рабочей области. Безопасность на уровне строк не ограничивает такой доступ.
 
-Вы можете настроить RLS для моделей данных, импортированных в Power BI с помощью Power BI Desktop. Вы также можете настроить RLS для наборов данных, которые используют DirectQuery, таких как SQL Server. Раньше реализовывать RLS можно было только в локальных моделях служб Analysis Services за пределами Power BI. Для динамических подключений к службам Analysis Services безопасность на уровне строк настраивается в локальной модели. Параметр безопасности не будет отображаться для наборов данных динамического подключения.
+Вы можете настроить RLS для моделей данных, импортированных в Power BI с помощью Power BI Desktop. Вы также можете настроить RLS для наборов данных, которые используют DirectQuery, таких как SQL Server. Раньше реализовывать RLS можно было только в локальных моделях служб Analysis Services за пределами Power BI. Для динамических подключений Analysis Services или Azure Analysis Services безопасность на уровне строк настраивается в модели, а не в Power BI Desktop. Параметр безопасности не будет отображаться для наборов данных динамического подключения.
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
@@ -49,7 +49,7 @@ ms.locfileid: "74882849"
 
 ## <a name="working-with-members"></a>Работа с участниками
 
-### <a name="add-members"></a>Добавление участников
+### <a name="add-members"></a>Добавить участников
 
 Можно добавить участника в роль, указав адрес электронной почты или имя добавляемого пользователя, группы безопасности или списка рассылки. Невозможно добавить группы, созданные в Power BI. Вы можете добавлять участников, [находящихся вне вашей организации](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
 

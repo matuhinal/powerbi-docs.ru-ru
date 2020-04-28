@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267510"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525475"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Экспорт отчета Power BI в файл (предварительная версия)
 
@@ -22,7 +22,7 @@ ms.locfileid: "81267510"
 * **PNG**
     * При экспорте в PNG отчет с несколькими страницами сжимается в ZIP-файл.
     * Каждый ZIP-файл в PNG представляет страницу отчета.
-    * Имена страниц совпадают с возвращаемыми значениями API [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) (Получить страницы)или [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) (Получить страницы в группе).
+    * Имена страниц совпадают с возвращаемыми значениями API [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) (Получить страницы) или [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) (Получить страницы в группе).
 
 ## <a name="usage-examples"></a>Примеры использования
 
@@ -35,7 +35,7 @@ ms.locfileid: "81267510"
 ## <a name="using-the-api"></a>Использование API
 
 Перед использованием API убедитесь, что включены следующие [параметры клиента администрирования](../../service-admin-portal.md#tenant-settings).
-* **Экспорт отчетов в презентации PowerPoint или PDF-документы**. Включено по умолчанию.
+* **Экспорт отчетов в презентации PowerPoint или PDF-документы**. Включен по умолчанию.
 * **Экспорт отчетов в файлы изображений**. Требуется только для *PNG* и отключен по умолчанию.
 
 API является асинхронным. При вызове API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) запускает задание экспорта. После запуска задания экспорта используйте [опрос](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) для отслеживания задания, пока оно не будет завершено.
@@ -54,7 +54,7 @@ API является асинхронным. При вызове API [exportToFi
 
  API `exportToFile` можно использовать для программного экспорта отчета в определенном состоянии после применения фильтров к нему. Это можно сделать с помощью возможностей [Закладок](../../consumer/end-user-bookmarks.md). Чтобы экспортировать отчет с помощью закладок, используйте [закладки API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks).
 
- Например, метод `capturedBookmark.state` закладки можно использовать для записи изменений, внесенных конкретным пользователем в отчет и его экспорта в текущем состоянии.
+ Например, метод `capturedBookmark.state` закладки можно использовать для записи изменений, внесенных конкретным пользователем в отчет, и его экспорта в текущем состоянии.
 
 [Личные закладки](../../consumer/end-user-bookmarks.md#personal-bookmarks) и [Постоянные фильтры](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) не поддерживаются.
 
@@ -105,7 +105,8 @@ API является асинхронным. При вызове API [exportToFi
 * При экспорте в PNG метки конфиденциальности не поддерживаются.
 * Отчет с меткой конфиденциальности нельзя экспортировать в формат PDF или PPTX с помощью [субъекта-службы](embed-service-principal.md).
 * Количество страниц, которое может быть включено в экспортируемый отчет, равно 30. Если отчет содержит больше страниц, API возвращает ошибку, а задание экспорта отменяется.
-* [Личные закладки](../../consumer/end-user-bookmarks.md#personal-bookmarks) и [Постоянные фильтры](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) не поддерживаются.
+* [Личные закладки](../../consumer/end-user-bookmarks.md#personal-bookmarks) и [постоянные фильтры](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) не поддерживаются.
+* Национальные облака не поддерживаются.
 * Перечисленные ниже визуальные элементы Power BI не поддерживаются. При экспорте отчета, содержащего эти визуальные элементы, части отчета с ними не будут отображены, в них будет отображаться символ ошибки.
     * Несертифицированные визуальные элементы Power BI
     * Визуальные элементы R

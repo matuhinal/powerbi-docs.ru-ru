@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872024"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525567"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Новый вид: куда переместились действия?
 
 Служба Power BI (app.powerbi.com) имеет новый вид, который упрощает просмотр отчетов и взаимодействие с ними. В результате многие действия в меню были перемещены. Таблицы в этой статье сопоставляют старое расположение с новым. Общие сведения см. в разделе ["Новый внешний вид" службы Power BI](service-new-look.md).
+
+Ищете сведения о новом интерфейсе в **Power BI Desktop**? См. статью [Использование обновленной ленты в Power BI Desktop](desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Действия с отчетами в новом интерфейсе
 
