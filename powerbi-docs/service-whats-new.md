@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488851"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439855"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -29,11 +29,41 @@ ms.locfileid: "79488851"
 * [Microsoft Power BI (канал YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (канал YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>Апрель 2020 г.
+* Общедоступная предварительная версия нового интерфейса рабочих областей в службе Power BI.
+* Общая доступность средств разработки пользовательской навигации для [приложений Power BI](service-create-distribute-apps.md).
+
+## <a name="previous-months-2020"></a>Предыдущие месяцы (2020 г.)
+### <a name="march-2020"></a>Март 2020 г.
+* Экспорт отчетов в файлы PDF, PPTX и PNG с помощью интерфейсов REST API для Power BI.
+* Новые и переработанные возможности глобального поиска в службе Power BI.
+* Повышение производительности для [емкостей Premium с поддержкой нескольких регионов](service-admin-premium-multi-geo.md).
+* Общедоступная предварительная версия [конечных точек XMLA для чтения и записи](service-premium-connect-tools.md) в Power BI Premium.
+
+### <a name="february-2020"></a>Февраль 2020 г.
+* Возможность повышения уровня панелей мониторинга, отчетов и приложений на главной странице Power BI.
+* Новая [вкладка Power BI](service-embed-report-microsoft-teams.md) для внедрения отчетов в Microsoft Teams.
+* Общая доступность возможности [добавочного обновления](service-premium-incremental-refresh.md) с поддержкой для пользователей Power BI Pro.
+* Поддержка подписки по электронной почте с использованием внешних адресов.
+* Общая доступность функции [создания собственных ключей (BYOK)](service-encryption-byok.md) для Power BI Premium.
+
+### <a name="january-2020"></a>Январь 2020 г.
+* Новые и улучшенные [метрики использования](service-usage-metrics.md) для рабочих областей Power BI.
+
+## <a name="2019"></a>2019
+### <a name="december-2019"></a>Декабрь 2019 г.
+* Новый интерфейс API журнала действий, позволяющий администраторам службы Power BI отслеживать действия пользователей и администраторов в клиенте.
+
+### <a name="november-2019"></a>Ноябрь 2019 г.
+* Общедоступная предварительная версия [больших моделей в Power BI Premium](service-premium-large-models.md).
+* Общедоступная предварительная версия возможности использования элементов управления Microsoft Cloud App Security в Power BI.
+
 ### <a name="october-2019"></a>Октябрь 2019 г.
 * Новое действие Power Automate для обновления наборов данных Power BI.
 * [Список контактов](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) для отчетов и панелей мониторинга в службе Power BI.
+* Общая доступность [автоматизированного машинного обучения](service-machine-learning-automated)
+* Общедоступная предварительная версия представления происхождения данных в Power BI.
 
-## <a name="previous-months-2019"></a>Предыдущие месяцы (2019 г.)
 ### <a name="september-2019"></a>Сентябрь 2019 г.
 * Обновления конфигурации подключения для [приложений-шаблонов](service-template-apps-overview.md).
 
