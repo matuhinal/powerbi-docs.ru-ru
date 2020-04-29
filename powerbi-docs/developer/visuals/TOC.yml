@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: "Рекомендации по визуальным элементам Power\_BI"
           href: guidelines-powerbi-visuals.md
+        - name: Советы по улучшению производительности
+          href: performance-tips.md
         - name: Вопросы и ответы о визуальных элементах
           href: power-bi-custom-visuals-faq.md
         - name: Использование возможностей
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: Отладка визуальных элементов
           href: visuals-how-to-debug.md
+        - name: Разработка для мобильных устройств
+          href: mobile-development.md
         - name: "Устранение неполадок с визуальными элементами Power\_BI"
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Справка
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: Инструменты для типов
               href: utils-type.md
+            - name: Служебные программы тестирования
+              href: utils-test.md
             - name: Подсказки по служебным программам
               href: utils-tooltip.md
             - name: "Инструменты для\_DataView"
