@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 03/17/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.openlocfilehash: bd27973a1cf6a73ba79079911ec175f990925524
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "81637816"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585462"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Руководство. Внедрение визуального элемента Power Apps в отчет Power BI
 
@@ -107,4 +107,4 @@ ms.locfileid: "81637816"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 ["Вопросы и ответы": визуальный элемент](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[Руководство. Внедрение визуального элемента Power Apps в отчет Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)
+[Руководство. Внедрение визуального элемента Power Apps в отчет Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
