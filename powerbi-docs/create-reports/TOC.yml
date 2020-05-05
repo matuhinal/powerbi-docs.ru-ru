@@ -327,6 +327,10 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: Создание параметров
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: вложенные отчеты;
+              href: ../paginated-reports/subreports.md
+            - name: Устранение неполадок с вложенными отчетами
+              href: ../paginated-reports/subreports-troubleshoot.md
             - name: Передача параметра отчета в URL-адресе
               href: ../paginated-reports/report-builder-url-pass-parameters.md
             - name: Публикация отчета с разбивкой на страницы

@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/24/2020
+ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79039959"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120247"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Служба Power BI для потребителей
 
@@ -45,7 +45,7 @@ Power BI упрощает выполнение ваших задач и повы
 
 Вам, несомненно, встретится термин "Power BI Desktop" или просто "Desktop". Это автономное средство, используемое *разработчиками*, которые создают и панели мониторинга, и отчеты и представляют общий доступ к ним.  Важно знать, что существуют и другие средства Power BI, но если вы являетесь потребителем, вы будете работать только со службой Power BI. 
 
-Так как вы работаете с *общим* содержимым, вам потребуется **бесплатная лицензия** ценовой категории "Стандартный", действующая в организации, использующей емкость **Premium**. [Какая у меня лицензия?](end-user-license.md)
+Вы работаете с *общим* содержимым, поэтому вам потребуется только **бесплатная лицензия**, так как в вашей организации используется емкость **Премиум**. [Какая у меня лицензия?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Безопасная работа с содержимым 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223327"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149594"
 ---
 # <a name="connect-to-an-oracle-database"></a>Подключение к базе данных Oracle
 Для подключения к базе данных Oracle с помощью Power BI Desktop необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили: 32-разрядную или 64-разрядную.
@@ -22,6 +22,10 @@ ms.locfileid: "75223327"
 Поддерживаемые версии Oracle: 
 - Oracle 9 и более поздней версии
 - Клиентское программное обеспечение Oracle 8.1.7 и более поздней версии
+
+> [!NOTE]
+> Если вы настраиваете базу данных Oracle для Сервера отчетов Power BI, см. сведения о [типе соединения Oracle](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15). 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Определение установленной версии Power BI Desktop
 Чтобы определить, какая версия Power BI Desktop установлена, выберите **Файл** > **Справка** > **О программе** и проверьте строку **Версия**. На следующем рисунке показано, что установлена 64-разрядная версия Power BI Desktop:
@@ -65,3 +69,5 @@ ms.locfileid: "75223327"
 * Если вы хотите использовать версию из Microsoft Store: на локальном компьютере скопируйте файл oraons.dll из папки _12.X.X\client_X_ в папку _12.X.X\client_X\bin_, где _X_ представляет номера версии и каталога.
 
 Если при подключении к базе данных Oracle в Power BI Gateway отображается сообщение об ошибке *Ссылка на объект не задана*, выполните инструкции в разделе [Управление своим источником данных — Oracle](service-gateway-onprem-manage-oracle.md).
+
+Если вы используете Сервер отчетов Power BI, см. сведения о [типе соединения Oracle](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15).

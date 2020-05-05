@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114075"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120325"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Работа с фильтрами в отчетах Power BI
 
@@ -55,7 +55,7 @@ ms.locfileid: "80114075"
 Если вы не включили новый вид, вы можете увидеть новый интерфейс фильтра, выполнив следующие действия.
 
 1. В службе Power BI откройте список содержимого для рабочей области.
-2. Найдите отчет, который необходимо включить, выберите **Дополнительные параметры (...)**, а затем выберите пункт **Параметры** для этого отчета.
+2. Найдите отчет, который необходимо включить, выберите **Дополнительные параметры (...)** , а затем выберите пункт **Параметры** для этого отчета.
 
     ![Параметры отчета](media/power-bi-report-filter/power-bi-filter-options.png)
 
@@ -257,6 +257,10 @@ ms.locfileid: "80114075"
 В разделе параметров отчета "Возможности фильтрации" вы можете указать, могут ли пользователи изменять тип фильтра.
 
 ![Ограничения изменений в типе фильтра](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
+
+## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
+
+При публикации в Интернете панель "Фильтры" не отображается. Если вы планируете опубликовать отчет в Интернете, рассмотрите возможность добавления срезов для фильтрации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

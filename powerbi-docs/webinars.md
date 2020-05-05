@@ -1,21 +1,22 @@
 ---
 title: Вебинары о Power BI
 description: Вебинары о Power BI
-author: v-tatero
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2019
+ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267556"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120098"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
+[//]: # "Татевик Татеро (Tatevik Tatero) — это поставщик, который сотрудничает с Чонси Фрилс (Chauncy Freels) и помогает работать с этим списком вебинаров."
 
 Зарегистрируйтесь для просмотра предстоящих вебинаров или просмотра по запросу записанных сеансов.
 
@@ -89,7 +90,7 @@ ms.locfileid: "81267556"
 <br>Авторы: Олаф Хубель (Olaf Hubel) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
-**Simply Compelling — Tips for Better Visualization Design** (Привлекательный дизайн — советы по улучшению визуализации)
+**Привлекательный дизайн — советы по улучшению визуализации**
 <br>Автор: Миранда Ли (Miranda Li)
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
@@ -156,17 +157,13 @@ ms.locfileid: "81267556"
 <br>Автор: Лиз МакКриш (Liz McCreesh) из Thorogood
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
-**Преобразование данных о клиентах в успешные результаты розничной торговли с помощью Power Bi**
+**Преобразование данных о клиентах для успешной розничной торговли с помощью Power BI**
 <br>Автор: Ангад Сони (Angad Soni) из Hitachi Solutions
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
 
 **Проверенные решения в сфере здравоохранения для улучшения результатов лечения и повышения рентабельности**
 <br>Авторы: Стивен Кракнелл (Stephen Cracknell) и Стюарт Маканлисс (Stuart Macanliss) из US Medical IT
 <br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
-
-**Applied Intelligence for Sales & Services** (Применяемая аналитика в сфере продаж и обслуживания)
-<br>Автор: Эд Бобрин (Ed Bobrin) из Avanade
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
 **Производители: цифровое преобразование в вашей отрасли. Лидирующие позиции и повышение прибыли за счет аналитики**
 <br>Авторы: Джон Томпсон (Jon Thompson) из Blue Margin и Джим Пастор (Jim Pastor) из Elgin Fastener Group
@@ -186,7 +183,7 @@ ms.locfileid: "81267556"
 
 ### <a name="community"></a>Сообщество ###
 
-**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Рекомендации по использованию Power BI: советы и инструменты от владельцев PowerBI.Tips)
+**Рекомендации по использованию Power BI: советы и инструменты от владельцев PowerBI.Tips**
 <br>Авторы: Майк Карло (Mike Carlo) и Сет Бауэр (Seth Bauer)
 <br>[Смотреть сейчас](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
@@ -210,14 +207,14 @@ ms.locfileid: "81267556"
 <br>Автор: Тед Паттисон (Ted Pattison)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>Дополнительные разделы ###
+### <a name="advanced-topics"></a>Дополнительные разделы
 
 **Advanced Analytics with Excel and Power BI** (Углубленная аналитика с Excel и Power BI)
 <br>Авторы: Нагасаикиран Камбхампати (Nagasaikiran Kambhampati) и Мигель Мартинес (Miguel Martinez)
 <br>[Зарегистрироваться для просмотра](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Загрузить начальный набор расширенной аналитики](https://aka.ms/pbiaawebinar)
 
-**[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Серия вебинаров о внедрении платформы Power BI)
+**Серия вебинаров о внедрении платформы Power BI**
 <br>Авторы: Ману Канварпал (Manu Kanwarpal) и Пол Хенвуд (Paul Henwood)
 <br>[Зарегистрироваться и начать просмотр — Часть 1. Реализация. Реализация культуры принятия решений на основе данных](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
 <br>[Зарегистрироваться и начать просмотр — Часть 2. Система управления. Управление использованием Power BI](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
@@ -225,36 +222,13 @@ ms.locfileid: "81267556"
 <br>[Зарегистрироваться и начать просмотр — Часть 4. Безопасность. Защита данных с помощью Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
 <br>[Зарегистрироваться и начать просмотр — Часть 5. Развертывание. Успешное развертывание Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
-**Серия вебинаров по Office 365 для финансовых специалистов**
-<br>Авторы: Марк Траверсо (Mark Traverso), Карлос Отейро (Carlos Otero), Джонни Томас (Johnnie Thomas), Аманда Кофски (Amanda Cofsky) и Мигель Мартинес (Miguel Martinez)
-<br>Получите полезные советы и рекомендации по повышению эффективности повседневной работы с помощью Office 365.
-<br>[Зарегистрироваться и начать просмотр](https://aka.ms/Office365FinanceProsPBI)
-
 **Be a Full Stack Power BI Jedi – A walkthrough of Power BI most advanced features through Star Wars data** (Комплексное использование Power BI: обзор дополнительных возможностей Power BI на примере данных Star Wars)
 <br>Автор: Гил Равив (Gil Raviv)
 <br>[Смотреть сейчас](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure** (Как реализовать успешную стратегию управления данными, которая поможет обеспечить безопасность в организации)
-<br>Автор: Аджай Анандан (Ajay Anandan)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
-
-**Accelerating modern BI adoption with Power BI Premium** (Ускорение перехода на современную бизнес-аналитику с Power BI Premium)
-<br>Авторы: Сируи Сан (Sirui Sun) и Мигель Мартинес (Miguel Martinez)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
-**Новые и интересные возможности Сервера отчетов Power BI**
-<br>Авторы: Риккардо Мути (Riccardo Muti), Крис Финлан (Chris Finlan) и Чинмей Джоши (Chinmay Joshi)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
-
-**How Microsoft does Power BI** (Как корпорация Майкрософт работает над Power BI)
-<br>Автор: Киркленд Барретт (Kirkland Barrett)
-<br>[Зарегистрироваться и начать просмотр](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
-
 ## <a name="see-also"></a>См. также:
 
 - [Технические документы по Power BI](whitepapers.md)
-
-- [Сеансы Microsoft Data Insights Summit 2017 по требованию](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
 - [Что такое Power BI?](fundamentals/power-bi-overview.md)
 
