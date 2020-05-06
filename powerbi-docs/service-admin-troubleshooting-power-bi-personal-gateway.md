@@ -10,10 +10,10 @@ ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698401"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Устранение неполадок со шлюзом Power BI (персональный режим)
@@ -22,7 +22,7 @@ ms.locfileid: "74698401"
 
 В следующих разделах рассмотрено несколько распространенных проблем, которые могут возникнуть при использовании локального шлюза данных Power BI (персональный режим).
 
-## <a name="update-to-the-latest-version"></a>Обновление до самой последней версии
+## <a name="update-to-the-latest-version"></a>Обновление до последней версии
 
 Текущая версия шлюза для личного использования — локальный шлюз данных (персональный режим). Обновите установку, чтобы использовать эту версию.
 
@@ -127,7 +127,7 @@ ms.locfileid: "74698401"
 ![Шлюз управления данными и журналы PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Трассировка Fiddler
-[Fiddler](https://www.telerik.com/fiddler) — это бесплатный инструмент от Telerik, отслеживающий трафик HTTP. Вы можете просматривать все взаимодействие со службой Power BI с клиентского компьютера. Это позволяет найти ошибки и другие связанные сведения.
+[Fiddler](https://www.telerik.com/fiddler) — это бесплатное средство от компании Telerik для отслеживания HTTP-трафика. Вы можете просматривать все взаимодействие со службой Power BI с клиентского компьютера. Это позволяет найти ошибки и другие связанные сведения.
 
 ![Трассировка Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
