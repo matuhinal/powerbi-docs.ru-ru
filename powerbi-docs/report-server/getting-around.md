@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859481"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Управление содержимым на веб-портале 
@@ -39,7 +39,7 @@ ms.locfileid: "73859481"
    
     По умолчанию используется URL следующего вида: <em>https://[имя_компьютера]/reports</em>.
    
-    Сервер отчетов может быть настроен для использования конкретного порта. Например, <em>https://[имя_компьютера]:80/reports</em> или <em>https://[имя_компьютера]:8080/reports</em>
+    Сервер отчетов может быть настроен для использования определенного порта. Например, <em>https://[имя_компьютера]:80/reports</em> или <em>https://[имя_компьютера]:8080/reports</em>
    
     Вы увидите, что веб-портал группирует элементы по следующим категориям.
    
@@ -47,7 +47,7 @@ ms.locfileid: "73859481"
    * Мобильные отчеты
    * Отчеты с разбивкой на страницы
    * Отчеты Power BI Desktop
-   * Книги Excel
+   * книги Excel;
    * Наборы данных
    * Источники данных
    * Ресурсы
@@ -68,5 +68,5 @@ ms.locfileid: "73859481"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что такое Сервер отчетов Power BI?](get-started.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800096"
 ---
 Важное отличие **DAX** от языка формул Excel заключается в том, в DAX можно передавать из одного выражения в другое *целые таблицы*, а не отдельные значения. Благодаря этому в DAX вы можете фильтровать таблицы в выражениях и продолжать работу с отфильтрованными наборами значений.
@@ -17,7 +17,7 @@ DAX позволяет создавать абсолютно новые вычи
 
 * FILTER
 * ALL
-* VALUES
+* ЗНАЧЕНИЯ
 * DISTINCT
 * RELATEDTABLE
 

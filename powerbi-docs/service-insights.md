@@ -12,10 +12,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872226"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Автоматическое создание аналитических сведений с помощью Power BI
@@ -41,7 +41,7 @@ ms.locfileid: "73872226"
    
     ![вкладка "Наборы данных"](media/service-insights/power-bi-ellipses.png)
    
-    ![Меню со значком многоточия](media/service-insights/power-bi-tab.png)
+    ![Меню с многоточием](media/service-insights/power-bi-tab.png)
 2. Для поиска тенденций в наборе данных Power BI использует [различные алгоритмы](service-insight-types.md).
    
     ![Диалоговое окно поиска ценных сведений](media/service-insights/pbi_autoinsightssearching.png)
@@ -95,5 +95,5 @@ ms.locfileid: "73872226"
 - Если у вас есть набор данных, [оптимизируйте его для краткой аналитики](service-insights-optimize.md).
 - См. дополнительные сведения о [доступных типах краткой аналитики](service-insight-types.md).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

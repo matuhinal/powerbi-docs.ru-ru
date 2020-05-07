@@ -10,16 +10,16 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871766"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Создание отчета в службе Power BI путем импорта набора данных
 Вы ознакомились со статьей [Отчеты в Power BI](consumer/end-user-reports.md) и хотите создать свои собственные отчеты. Существуют различные способы создания отчета. В этой статье мы создадим в службе Power BI простой отчет из набора данных Excel. Поняв принцип создания отчета, вы можете ознакомиться с более подробными темами, перечисленными в разделе [Дальнейшие действия](#next-steps) в конце статьи.  
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 - [Регистрация в службе Power BI](service-self-service-signup-for-power-bi.md). Сведения о создании отчетов с помощью Power BI Desktop см. в статье [Представление отчетов в Power BI Desktop](desktop-report-view.md). 
 - [Скачайте набор данных Excel "Анализ розничной торговли — пример"](https://go.microsoft.com/fwlink/?LinkId=529778) и сохраните его в OneDrive для бизнеса или в локальной среде.
 
@@ -31,7 +31,7 @@ ms.locfileid: "73871766"
    ![список рабочих областей](media/service-report-create-new/power-bi-workspaces2.png)
 2. В нижней части области навигации выберите **Получить данные**.
    
-   ![Получить данные](media/service-report-create-new/power-bi-get-data3.png)
+   ![Получение данных](media/service-report-create-new/power-bi-get-data3.png)
 3. Выберите **Файлы** и перейдите к расположению, в котором вы сохранили пример анализа розничной торговли.
    
     ![выбор пункта "Файлы"](media/service-report-create-new/power-bi-select-files.png)
@@ -92,5 +92,5 @@ ms.locfileid: "73871766"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Закрепление плитки на панели мониторинга Power BI из отчета](service-dashboard-pin-tile-from-report.md)   
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

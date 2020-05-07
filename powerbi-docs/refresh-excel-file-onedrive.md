@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699628"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, созданного из книги Excel в OneDrive или SharePoint Online
@@ -47,7 +47,7 @@ ms.locfileid: "74699628"
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive или OneDrive для бизнеса. В чем разница?
 
-При наличии личного OneDrive и OneDrive для бизнеса рекомендуется хранить все файлы, которые нужно импортировать в Power BI, в OneDrive для бизнеса. Почему? Скорее всего, для доступа к этим хранилищам вы используете разные учетные записи.
+При наличии личного OneDrive и OneDrive для бизнеса рекомендуется хранить все файлы, которые нужно импортировать в Power BI, в OneDrive для бизнеса. И вот почему. Скорее всего, для доступа к этим хранилищам вы используете две учетные записи.
 
 Подключение к OneDrive для бизнеса в Power BI обычно выполняется автоматически, так как чаще всего для входа в Power BI и в OneDrive для бизнеса используется одна и та же учетная запись. Однако в личное хранилище OneDrive вы, скорее всего, входите с помощью другой [учетной записи Майкрософт](https://account.microsoft.com).
 
@@ -115,7 +115,7 @@ ms.locfileid: "74699628"
 Иногда обновление данных может завершиться неправильно. Как правило, проблема связана со шлюзом. Ознакомьтесь со статьями об устранении неполадок со шлюзом и узнайте о соответствующих средствах и известных проблемах:
 
 - [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)
-- [Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
+- [Устранение неполадок со шлюзом Power BI — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

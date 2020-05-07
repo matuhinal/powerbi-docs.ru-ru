@@ -10,17 +10,17 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697550"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Что такое локальный шлюз данных?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Локальный шлюз данных выполняет функцию моста, обеспечивая быструю и безопасную передачу локально расположенных данных (не в облаке) между локальной средой и рядом облачных служб Майкрософт. К ним относятся Power BI, PowerApps, Power Automate, Azure Analysis Services и Azure Logic Apps. Благодаря шлюзу организации могут хранить базы данных и другие источники данных в локальной сети с возможностью безопасно использовать эти локальные данные в облачных службах.
+Локальный шлюз данных выполняет функцию моста, обеспечивая быструю и безопасную передачу данных (которые не находятся в облаке) между локальной средой и рядом облачных служб Майкрософт. К ним относятся Power BI, PowerApps, Power Automate, Azure Analysis Services и Azure Logic Apps. Благодаря шлюзу организации могут хранить базы данных и другие источники данных в локальной сети с возможностью безопасно использовать эти локальные данные в облачных службах.
 
 ## <a name="how-the-gateway-works"></a>Принцип работы шлюза
 
@@ -40,7 +40,7 @@ ms.locfileid: "74697550"
 
 Чтобы использовать шлюз, нужно выполнить четыре основных действия:
 
-1. [скачайте и установите шлюз](/data-integration/gateway/service-gateway-install) на локальном компьютере;
+1. [Скачайте и установите шлюз](/data-integration/gateway/service-gateway-install) на локальном компьютере.
 1. [настройте](/data-integration/gateway/service-gateway-app) шлюз с учетом конфигурации брандмауэра и других требований к сети;
 1. [добавьте администраторов шлюзов](/data-integration/gateway/service-gateway-manage), которые также могут управлять другими сетевыми требованиями;
 1. [Используйте шлюз](service-gateway-sql-tutorial.md) для обновления локального источника данных.
@@ -48,6 +48,6 @@ ms.locfileid: "74697550"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Установка локального шлюза данных](/data-integration/gateway/service-gateway-install)
+* [Установка и настройка локального шлюза данных](/data-integration/gateway/service-gateway-install)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

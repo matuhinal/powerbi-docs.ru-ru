@@ -1,5 +1,5 @@
 ---
-title: Обновление сервера отчетов Power BI
+title: Обновить сервер отчетов Power BI
 description: Узнайте, как обновлять сервер отчетов Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873954"
 ---
-# <a name="upgrade-power-bi-report-server"></a>Обновление сервера отчетов Power BI
+# <a name="upgrade-power-bi-report-server"></a>Обновить сервер отчетов Power BI
 
 Узнайте, как обновлять сервер отчетов Power BI.
 
- **Скачать** ![Скачать](media/upgrade/download.png "Скачать")
+ **Скачать** ![скачать](media/upgrade/download.png "Скачать")
 
 Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
@@ -38,7 +38,7 @@ ms.locfileid: "73873954"
 
 * Используйте модель полного восстановления для архивации базы данных **reportserver**.
 * Используйте простую модель восстановления для архивации базы данных **reportservertempdb**.
-* Вы можете использовать разные расписания архивации для каждой базы данных. Резервная копия **reportservertempdb** требуется, чтобы избежать необходимости ее повторного создания в случае сбоя оборудования. В случае сбоя оборудования вам не нужно восстанавливать данные в **reportservertempdb**, однако вам необходима структура таблицы. Если вы потеряете базу данных **reportservertempdb**, единственный способ вернуть ее — повторно создать базу данных сервера отчетов. Повторно созданная база данных **reportservertempdb** должна иметь такое же имя, что и имя основной базы данных сервера.
+* Вы можете использовать разные расписания архивации для каждой базы данных. Единственная причина создания резервной копии базы данных **reportservertempdb** состоит в том, чтобы избежать ее повторного создания в случае сбоя оборудования. В случае сбоя оборудования вам не нужно восстанавливать данные в **reportservertempdb**, однако вам необходима структура таблицы. Если вы потеряете базу данных **reportservertempdb**, единственный способ вернуть ее — повторно создать базу данных сервера отчетов. Повторно созданная база данных **reportservertempdb** должна иметь такое же имя, что и имя основной базы данных сервера.
 
 Дополнительные сведения об архивации и восстановлении реляционных баз данных SQL Server см. в [этой статье](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
 
@@ -46,7 +46,7 @@ ms.locfileid: "73873954"
 
 Сервер отчетов Power BI использует файлы конфигурации для хранения настроек приложений. Эти файлы необходимо архивировать при первой настройке сервера и после развертывания каких-либо пользовательских расширений. Требуется архивировать следующие файлы:
 
-* config.json;
+* config.json
 * RSHostingService.exe.config;
 * Rsreportserver.config;
 * Rssvrpolicy.config;
@@ -62,7 +62,7 @@ ms.locfileid: "73873954"
 
 2. Щелкните **Обновить сервер отчетов Power BI**.
 
-    ![Обновление Сервера отчетов Power BI](media/upgrade/reportserver-upgrade1.png "Обновление сервера отчетов Power BI")
+    ![Обновление Сервера отчетов Power BI](media/upgrade/reportserver-upgrade1.png "Обновить сервер отчетов Power BI")
 
 3. Прочтите и примите условия лицензионного соглашения, а затем щелкните **Обновить**.
 
@@ -89,4 +89,4 @@ ms.locfileid: "73873954"
 * [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions) (Настройка учетных записей и разрешений службы Windows)  
 * [Поддержка браузера для сервера отчетов Power BI](browser-support.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

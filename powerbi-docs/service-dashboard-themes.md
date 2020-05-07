@@ -10,10 +10,10 @@ ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877454"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Использование тем панели мониторинга в службе Power BI
@@ -24,7 +24,7 @@ ms.locfileid: "73877454"
 Изменение цветов для визуальных элементов отчета на панели мониторинга не влияет на визуальные элементы в отчете. Кроме того, при закреплении плиток из отчета, к которому уже [применена тема отчета](desktop-report-themes.md), можно оставить текущую тему или использовать тему панели мониторинга.
 
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 * Чтобы продолжить работу, откройте [панель мониторинга "Продажи и маркетинг — пример"](sample-datasets.md).
 
 

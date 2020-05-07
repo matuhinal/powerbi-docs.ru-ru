@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874420"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Типы фильтров в отчетах Power BI
@@ -76,17 +76,17 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 Эта таблица сравнивает возможности авторов во время работы с различными типами фильтров.
 
-| Тип фильтра | Изменить | Очистить | Удалить | Скрыть | Блокировать | Сортировать | Переименовать |
+| Тип фильтра | Изменить | Clear | Удалить | Скрыть | Блокировка | Сортировка | Переименовать |
 |----|----|----|----|----|----|----|----|
-| Ручные фильтры | Y | Y | Y | Y | Y | Y | Y |
-| Автоматические фильтры | Y | Y | N | Y | Y | Y | Y |
-| Фильтры включения и исключения | N | N | Y | Y | Y | Y | N |
-| Фильтры детализации | Y | Y | N | N | N | N | N |
+| Ручные фильтры | Да | Да | Да | Да | Да | Да | Да |
+| Автоматические фильтры | Да | Да | N | Да | Да | Да | Да |
+| Фильтры включения и исключения | N | N | Да | Да | Да | Да | N |
+| Фильтры детализации | Да | Да | N | N | N | N | N |
 | Фильтры перекрестной детализации | N | N | N | N | N | N | N |
-| Фильтры детализации (вызова детализации) | Y | Y | Y | Y | Y | N | N |
-| Фильтры детализации (временные) | Y | Y | Y | N | N | N | N |
-| Фильтры URL-адресов — временные | Y | Y | Y | N | N | N | N |
-| Сквозные фильтры | N | N | Y | Y | N | Y | N |
+| Фильтры детализации (вызова детализации) | Да | Да | Да | Да | Да | N | N |
+| Фильтры детализации (временные) | Да | Да | Да | N | N | N | N |
+| Фильтры URL-адресов — временные | Да | Да | Да | N | N | N | N |
+| Сквозные фильтры | N | N | Да | Да | N | Да | N |
 
 
 
@@ -98,5 +98,5 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 [Фильтры и выделение в отчетах](power-bi-reports-filters-and-highlighting.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

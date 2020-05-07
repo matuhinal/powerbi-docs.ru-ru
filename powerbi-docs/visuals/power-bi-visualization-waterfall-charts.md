@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907671"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Каскадные диаграммы в Power BI
@@ -42,11 +42,11 @@ ms.locfileid: "74907671"
 
 * для построения графика годовой прибыли компании путем отображения различных источников дохода и получения общей прибыли (или убытков);
 
-* для демонстрации начального и конечного количества сотрудников компании за год;
+* Для иллюстрации начального и конечного показателей учета сотрудников компании за год.
 
 * для визуализации поступлений и затрат по месяцам и текущего баланса для вашего счета.
 
-## <a name="prerequisite"></a>Необходимое условие
+## <a name="prerequisite"></a>Предварительные требования
 
 В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -59,7 +59,7 @@ ms.locfileid: "74907671"
 1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
 
 
-## <a name="create-a-waterfall-chart"></a>Создание каскадной диаграммы
+## <a name="create-a-waterfall-chart"></a>Создание каскадных диаграмм
 
 Вы создаете каскадную диаграмму, отображающую расхождение в объемах продаж (оценочный и фактический объем продаж) по месяцам.
 
