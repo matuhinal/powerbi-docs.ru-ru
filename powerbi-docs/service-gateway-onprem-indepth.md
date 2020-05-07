@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699390"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Локальный шлюз данных во всех подробностях
@@ -22,7 +22,7 @@ ms.locfileid: "74699390"
 
 Мы перенесли информацию из этой статьи в несколько статей, посвященных Power BI и общим вопросам. Чтобы найти соответствующее содержимое, перейдите по ссылкам под каждым заголовком.
 
-## <a name="how-the-gateway-works"></a>Принципы работы шлюзов
+## <a name="how-the-gateway-works"></a>Принцип работы шлюза
 
 См. статью [Архитектура локального шлюза данных](/data-integration/gateway/service-gateway-onprem-indepth).
 
@@ -81,7 +81,7 @@ ms.locfileid: "74699390"
 
 См. статью [Учетная запись для входа](/data-integration/gateway/service-gateway-onprem-indepth#sign-in-account).
 
-## <a name="windows-service-account"></a>Учетная запись служб Windows
+## <a name="windows-service-account"></a>Учетная запись службы Windows
 
 См. статью [Изменение учетной записи службы локального шлюза данных](/data-integration/gateway/service-gateway-service-account).
 

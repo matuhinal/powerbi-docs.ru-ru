@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c0dc3b9eeb7932ca0cb6784fd6a46857821d1b12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698125"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Управление своим источником данных — SQL Server
@@ -44,7 +44,7 @@ ms.locfileid: "74698125"
 
 ![Отображение состояния подключения](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
-### <a name="advanced-settings"></a>Дополнительные параметры
+### <a name="advanced-settings"></a>Дополнительные настройки
 
 Для источника данных также можно настроить уровень конфиденциальности. Этот параметр определяет, каким образом можно комбинировать данные. Он используется только для запланированного обновления. Параметр уровня конфиденциальности не применяется к DirectQuery. Дополнительные сведения об уровнях конфиденциальности для источника данных см. в статье [Уровни конфиденциальности (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
@@ -80,5 +80,5 @@ ms.locfileid: "74698125"
 * [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)
 * [Использование Kerberos для единого входа из Power BI в локальные источники данных](service-gateway-sso-kerberos.md)
 
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 

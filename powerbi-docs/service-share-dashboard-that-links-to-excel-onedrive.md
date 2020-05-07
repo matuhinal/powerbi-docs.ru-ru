@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871464"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Общий доступ к панели мониторинга Power BI, содержащей ссылки на файл Excel в OneDrive
@@ -54,7 +54,7 @@ Power BI позволяет [подключаться к книгам Excel в O
 ![Общий доступ из OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Закрепление плитки на панели мониторинга Power BI из книги Excel](service-dashboard-pin-tile-from-excel.md)
+* [Закрепление плитки на панели мониторинга Power BI из Excel](service-dashboard-pin-tile-from-excel.md)
 * [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

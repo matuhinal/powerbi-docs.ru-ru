@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800095"
 ---
 В DAX есть множество функций для форматирования и анализа данных. Их можно сгруппировать в несколько категорий.
@@ -53,7 +53,7 @@ Power BI выдает список функций, названия которы
 В число **логических** функций в DAX входят перечисленные ниже.
 
 * AND
-* OR
+* ИЛИ
 * NOT
 * IF
 * IFERROR

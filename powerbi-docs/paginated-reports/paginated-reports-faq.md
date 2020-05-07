@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766288"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82584990"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -173,6 +173,11 @@ ms.locfileid: "81766288"
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Можно ли найти отчет с разбивкой на страницы через новый интерфейс главной страницы в службе Power BI?
 
 Да, сейчас вы можете выполнять поиск отчетов с разбивкой на страницы на домашней странице.  Но вы также будете их видеть в других разделах нового интерфейса домашней страницы.
+
+## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
+При работе с полями DateTime в отчетах с разбивкой на страницы необходимо учитывать указанные ниже моменты.
+
+- В настоящее время существуют некоторые ограничения на глобализацию, связанные с параметрами DateTime. Все параметры типа DateTime в службе Power BI извлекаются в формате США (ММ/ДД/ГГГГ) независимо от того, как они были созданы в построителе отчетов Power BI.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

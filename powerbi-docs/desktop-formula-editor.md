@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867621"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Редактор формул в Power BI Desktop
@@ -25,7 +25,7 @@ ms.locfileid: "73867621"
 Чтобы повысить производительность и упростить создание формул в редакторе формул, вы можете можно использовать следующие сочетания клавиш.
 
 
-|Команда с клавиатуры  |Результат  |
+|Команда с клавиатуры  |Возвращаемый результат  |
 |---------|---------|
 |CTRL+C  | Копирование строки (если ничего не выбрано) |
 |CTRL+G  |Переход к строке... |
@@ -60,7 +60,7 @@ ms.locfileid: "73867621"
 
 Следующие статьи содержат дополнительные сведения о формулах и DAX в Power BI Desktop.
 
-* [Основные сведения о DAX в Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+* [DAX basics in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) (Основные сведения о DAX в Power BI Desktop)
 * [Введение в DAX](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
 * [Справочник по DAX](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)
 

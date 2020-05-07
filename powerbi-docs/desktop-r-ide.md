@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75223470"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Использование внешней среды R IDE с Power BI
@@ -35,7 +35,7 @@ ms.locfileid: "75223470"
 * Вы можете запустить другую среду R IDE, чтобы с помощью следующих действий запустить эту **R IDE**, используя **Power BI Desktop**.
   
   * Вы можете связать файлы **.R** с внешней средой IDE, которая будет запущена с помощью **Power BI Desktop**.
-  * Вы можете указать исполняемый файл, который должно запустить приложение **Power BI Desktop**. Для этого в диалоговом окне **Options** (Параметры) в разделе **R Script Options** (Параметры R-скрипта) выберите *Other* (Другие). Чтобы открыть диалоговое окно **Options** (Параметры), последовательно выбрав элементы **File > Options and settings > Options** (Файл > Параметры и настройки > Параметры).
+  * Вы можете указать исполняемый файл, который должно запустить приложение **Power BI Desktop**. Для этого в диалоговом окне *Options* (Параметры) в разделе **R Script Options** (Параметры R-скрипта) выберите **Other** (Другие). Чтобы открыть диалоговое окно **Options** (Параметры), последовательно выбрав элементы **File > Options and settings > Options** (Файл > Параметры и настройки > Параметры).
     
     ![](media/desktop-r-ide/r-ide_1b.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "75223470"
    ![](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
-   > По умолчанию для визуальных элементов R используется тип агрегирования *Не подводить итоги*.
+   > По умолчанию для визуальных элементов R используется тип агрегирования *не подводить итоги*.
    > 
    > 
 5. Теперь можно запускать среду R IDE непосредственно из **Power BI Desktop**. Нажмите кнопку **запуска R-IDE** (справа от заголовка **Редактор R-скриптов**, как показано ниже).

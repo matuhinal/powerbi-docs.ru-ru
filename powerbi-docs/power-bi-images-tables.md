@@ -11,10 +11,10 @@ ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874488"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Отображение изображений в таблице, матрице или срезе в отчете
@@ -35,7 +35,7 @@ ms.locfileid: "73874488"
 
     ![Срез с изображениями](media/power-bi-images-tables/power-bi-url-images-slicer.png)
 
-## <a name="considerations"></a>Примечания
+## <a name="considerations"></a>Ограничения
 
 - Поддерживается добавление изображений в таких форматах: BMP, JPG, JPEG, GIF PNG и SVG.
 - URL-адрес должен поддерживать анонимный доступ и не быть адресом сайта, на который необходимо выполнять вход (например, сайта SharePoint). Но если изображения размещаются в SharePoint или OneDrive, вы можете получить код внедрения, который указывает непосредственно на эти изображения. 
@@ -47,5 +47,5 @@ ms.locfileid: "73874488"
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

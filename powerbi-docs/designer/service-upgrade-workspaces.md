@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410822"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Обновление классических рабочих областей до новых рабочих областей в Power BI
@@ -40,11 +40,11 @@ ms.locfileid: "74410822"
 
 1. В списке содержимого рабочей области выберите **Больше параметров** ( **...** ) > **Изменение этой рабочей области**.
 
-    ![Изменить эту рабочую область](media/service-upgrade-workspaces/power-bi-content-list-edit-workspace.png)
+    ![Изменение этой рабочей области](media/service-upgrade-workspaces/power-bi-content-list-edit-workspace.png)
 
 1. Разверните вкладку **Дополнительно** и нажмите кнопку **Обновить сейчас**.
 
-    ![Элемент "Обновить сейчас"](media/service-upgrade-workspaces/power-bi-upgrade-now.png)
+    ![Обновить сейчас](media/service-upgrade-workspaces/power-bi-upgrade-now.png)
 
 1. Просмотрите сведения в диалоговом окне. Если вы опубликовали или установили пакеты содержимого в рабочей области, вы увидите предупреждения. Когда будете готовы, установите флажок **Все готово к обновлению этой рабочей области**, а затем нажмите кнопку **Обновить**.
 

@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565648"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Подключение к LinkedIn Sales Navigator в Power BI Desktop
@@ -79,7 +79,7 @@ PBIX-файл можно загрузить по следующему адрес
 
 Шаблонное приложение содержит четыре вкладки для анализа и совместного использования информации:
 
-* Usage
+* Использование
 * Поиск
 * InMail
 * SSI
@@ -106,7 +106,7 @@ PBIX-файл можно загрузить по следующему адрес
 
 Здесь можно подключить собственные данные, выбрав количество дней для загрузки данных. Данные можно загрузить не более чем за 365 дней. Вам потребуется выполнить вход, используя тот же адрес электронной почты, который используется для входа в LinkedIn Sales Navigator через веб-сайт. 
 
-![Войти](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
+![Вход](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
 
 Затем шаблонное приложение обновляет данные в приложении вашими данными. Кроме этого, вы можете настроить обновление по расписанию, чтобы в приложение с указанной частотой обновления попадали текущие данные. 
 
@@ -120,8 +120,8 @@ PBIX-файл можно загрузить по следующему адрес
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
 * [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 

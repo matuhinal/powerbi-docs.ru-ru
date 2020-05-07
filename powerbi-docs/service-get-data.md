@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: ac8b403163ea2599955afd79d8e95659b8cc5bed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881431"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Источники данных для службы Power BI
@@ -61,7 +61,7 @@ ms.locfileid: "73881431"
 **Базы данных в облаке** — из службы Power BI можно оперативно подключитесь к следующим расположениям:
 
 * База данных SQL Azure
-* Хранилище данных SQL Azure
+* Хранилище данных SQL Azure
 * Spark в Azure HDInsight
 
 Подключения из Power BI к этим базам данных являются активными. Предположим, что вы подключаетесь к базе данных SQL Azure. Затем вы приступаете к изучению данных в ней, создавая отчеты в Power BI. Каждый раз, когда вы создаете срез данных или добавляете поле в визуализацию, Power BI выполняет запрос непосредственно к базе данных. Дополнительные сведения см. в разделе [Azure и Power BI](service-azure-and-power-bi.md).

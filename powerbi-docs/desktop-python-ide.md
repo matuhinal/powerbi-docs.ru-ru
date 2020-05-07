@@ -10,10 +10,10 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: dbdd4076c9944cf0335ed1f6b6aa43a2a3887189
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73865964"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Использование внешней среды Python IDE с Power BI
@@ -34,11 +34,11 @@ ms.locfileid: "73865964"
 * Можно также установить другую среду Python IDE и настроить запуск этой **Python IDE** из **Power BI Desktop** посредством одного из следующих вариантов.
   
   * Можно связать файлы **.PY** с внешней средой IDE, которая должна запускаться с помощью **Power BI Desktop**.
-  * Вы можете указать файл EXE, который должно запустить приложение **Power BI Desktop**. Для этого в диалоговом окне **Options** (Параметры) в разделе **Python Script Options** (Параметры сценария Python) выберите *Other* (Другие). Чтобы открыть диалоговое окно **Options** (Параметры), последовательно выбрав элементы **File > Options and settings > Options** (Файл > Параметры и настройки > Параметры).
+  * Вы можете указать файл EXE, который должно запустить приложение **Power BI Desktop**. Для этого в диалоговом окне *Options* (Параметры) в разделе **Python Script Options** (Параметры сценария Python) выберите **Other** (Другие). Чтобы открыть диалоговое окно **Options** (Параметры), последовательно выбрав элементы **File > Options and settings > Options** (Файл > Параметры и настройки > Параметры).
     
     ![](media/desktop-python-ide/python-ide-2.png)
 
-Если вы установили несколько сред Python IDE, вы можете указать, какую из них следует запустить. Для этого в диалоговом окне **Options** (Параметры) выберите ее в раскрывающемся списке *Detected Python IDEs* (Обнаруженные среды Python IDE).
+Если вы установили несколько сред Python IDE, вы можете указать, какую из них следует запустить. Для этого в диалоговом окне *Options* (Параметры) выберите ее в раскрывающемся списке **Detected Python IDEs** (Обнаруженные среды Python IDE).
 
 По умолчанию приложение **Power BI Desktop** запустит **Visual Studio Code** в качестве внешней Python IDE, если она установлена на локальном компьютере. Если **Visual Studio Code** не установлена, но установлена **Visual Studio**, будет запущена последняя. Если не установлена ни одна из указанных сред Python IDE, запустится приложение, сопоставленное с файлами **.PY**.
 
@@ -59,7 +59,7 @@ ms.locfileid: "73865964"
    ![](media/desktop-python-ide/python-ide-5.png)
    
    > [!NOTE]
-   > По умолчанию для визуальных элементов Python используется тип агрегирования *не суммировать*.
+   > По умолчанию для визуальных элементов Python используется тип агрегирования *Не суммировать*.
    > 
    > 
 5. Теперь можно запускать среду Python IDE непосредственно из **Power BI Desktop**. Нажмите кнопку **Запуск Python IDE** (справа от заголовка окна **Редактор сценариев Python**, как показано ниже).

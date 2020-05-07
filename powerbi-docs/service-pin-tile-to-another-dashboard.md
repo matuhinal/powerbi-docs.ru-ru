@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881212"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Закрепление плитки с одной панели мониторинга на другой
@@ -23,7 +23,7 @@ ms.locfileid: "73881212"
 > Вы не можете закрепить плитки с общей панели мониторинга.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>Закрепление плитки на другой информационной панели
-1. [Получение данных](service-get-data.md). Здесь используется пример [Анализ расходов ИТ-отдела](sample-it-spend.md).
+1. [Получите данные](service-get-data.md). Здесь используется пример [Анализ расходов ИТ-отдела](sample-it-spend.md).
 2. Откройте [панель мониторинга](consumer/end-user-dashboards.md).
 3. Наведите указатель мыши на плитку, которую требуется закрепить, щелкните **Дополнительные параметры** (...) и выберите команду **Закрепить плитку**.  
    
@@ -42,6 +42,6 @@ ms.locfileid: "73881212"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Плитки панели мониторинга в Power BI](consumer/end-user-tiles.md)  
-[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)  
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)  
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

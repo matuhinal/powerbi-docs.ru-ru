@@ -10,10 +10,10 @@ ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871668"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
@@ -49,5 +49,5 @@ ms.locfileid: "73871668"
 Чтобы ознакомиться с дополнительными сведениями о пакете содержимого Xero для Power BI, посетите страницу справки [Пакет содержимого Xero для Power BI](service-connect-to-xero.md).
 
 ### <a name="next-steps"></a>Дальнейшие действия
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

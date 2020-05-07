@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872662"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Подключение к источникам данных для потоков данных Power BI
@@ -50,8 +50,8 @@ ms.locfileid: "73872662"
 
 * Все категории
 * Файл
-* База данных
-* Power BI
+* SQL
+* Power BI
 * Azure
 * Веб-службы
 * Другое
@@ -63,7 +63,7 @@ ms.locfileid: "73872662"
 * Доступ
 * Excel
 * JSON
-* Текстовый или CSV-файл
+* Text/CSV.
 * XML
 
 Категория **База данных** включает в себя следующие доступные подключения к данным для потоков данных:
@@ -85,14 +85,14 @@ ms.locfileid: "73872662"
 
 * BLOB-объекты Azure
 * Azure Data Explorer
-* Хранилище данных SQL Azure
+* Хранилище данных SQL Azure
 * База данных SQL Azure
 * Таблицы Azure
 
 Категория **Online Services** включает в себя следующие доступные подключения к данным для потоков данных:
 
 * Amazon Redshift
-* Common Data Service для приложений
+* Common Data Service для приложений
 * Microsoft Exchange Online
 * Объекты SalesForce
 * Отчеты Salesforce
@@ -107,7 +107,7 @@ ms.locfileid: "73872662"
 * Веб-API
 * Веб-страница
 * Пустая таблица
-* Пустой запрос
+* Пустое поле запроса
 
 
 ## <a name="connecting-to-a-data-source"></a>Подключение к источнику данных
@@ -170,7 +170,7 @@ ms.locfileid: "73872662"
 Это вся информация о подключении к источникам данных в потоках данных Power BI.
 
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этой статье были рассмотрены источники данных, к которым можно подключаться для потоков данных. В следующих статьях содержатся более подробные сведения о типичных сценариях применения потоков данных. 
 

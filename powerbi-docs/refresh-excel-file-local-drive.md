@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698769"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Обновление набора данных, созданного из книги Excel на локальном диске
@@ -29,7 +29,7 @@ ms.locfileid: "74698769"
 <!-- Refresh Data sources-->
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
 
-> **Примечания**  
+> **Примечания.**  
 > 
 > * Следует установить и запустить шлюз, чтобы служба Power BI могла подключаться к локальным источникам данных и обновлять набор данных.
 > * При использовании Excel 2013 убедитесь, что компонент Power Query обновлен до самой последней версии.
@@ -76,8 +76,8 @@ ms.locfileid: "74698769"
 
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)
 
-[Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
+[Устранение неполадок со шлюзом Power BI — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

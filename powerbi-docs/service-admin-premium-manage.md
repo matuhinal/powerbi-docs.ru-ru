@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637928"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Настройка и администрирование емкостей Power BI Premium
@@ -56,7 +56,7 @@ ms.locfileid: "81637928"
 
     ![Доступные размеры емкости Premium](media/service-admin-premium-manage/premium-capacity-size.png)
 
-1. Выберите **Настроить**.
+1. Выберите **Set up** (Настроить).
 
     ![Настройка новой емкости](media/service-admin-premium-manage/set-up-capacity.png)
 
@@ -126,7 +126,7 @@ ms.locfileid: "81637928"
 
     ![Назначить рабочие области](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Выбор | Описание |
+   | При выделении | Описание |
    | --- | --- |
    | **Рабочие области по пользователям** | При назначении рабочих областей пользователя или группы емкости Premium назначаются все рабочие области, принадлежащие этим пользователям, включая личные рабочие области. Эти пользователи автоматически получат разрешения на назначения рабочих областей.<br>Сюда входят рабочие области, уже назначенные другой емкости. |
    | **Определенные рабочие области** | Введите имя определенной рабочей области, чтобы назначить ее выбранной емкости. |
@@ -149,7 +149,7 @@ ms.locfileid: "81637928"
 
     ![Раскрывающийся список выбора емкости](media/service-admin-premium-manage/app-workspace-advanced.png)
 
-1. Нажмите кнопку **Сохранить**.
+1. Щелкните **Сохранить**.
 
 После сохранения рабочая область вместе со всем содержимым будет перенесена в емкость Premium без нарушения работы пользователей.
 
@@ -169,4 +169,4 @@ ms.locfileid: "81637928"
 
 [Управление емкостями Premium](service-premium-capacity-manage.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

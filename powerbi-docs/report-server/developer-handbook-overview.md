@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.openlocfilehash: 773533fee8fc4fada0cc33d9a6d2188118135797
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859774"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Общие сведения о руководстве для разработчика сервера отчетов Power BI
@@ -51,7 +51,7 @@ ms.locfileid: "73859774"
 Вы можете создавать расширения нескольких типов.
 
 * Расширения обработки данных
-* Расширения доставки
+* модули доставки;
 * Расширения подготовки отчетов для отчетов с разбивкой на страницы
 * Расширения безопасности
 
@@ -60,9 +60,9 @@ ms.locfileid: "73859774"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Приступая к работе с элементом управления средства просмотра отчетов](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
-[Создание приложений с помощью веб-службы и платформы .NET Framework](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
+[Создание приложений с помощью веб-службы и .NET Framework](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
 [Доступ к URL-адресу](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  
 [Библиотека расширений](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)  
 [Поставщик WMI](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

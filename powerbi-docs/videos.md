@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
 ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260860"
 ---
 # <a name="power-bi-videos"></a>Видео о службе Power BI
-У нас есть канал YouTube для Power BI! Вы можете посетить [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видеороликов, посвященных анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
+У нас есть канал YouTube для Power BI! Вы можете заглянуть на [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видео, посвященного анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
 
 Вот несколько видео из этого списка воспроизведения, которые помогут вам начать работу.
 
@@ -31,7 +31,7 @@ ms.locfileid: "78260860"
   
   <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-* Power BI для разработчиков
+* Power BI для разработчиков
   <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Ознакомьтесь с нашими новыми загрузками
@@ -47,5 +47,5 @@ ms.locfileid: "78260860"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что такое Power BI?](fundamentals/power-bi-overview.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

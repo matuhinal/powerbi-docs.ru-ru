@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853078"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Закрепление целой страницы отчета в качестве живой плитки на информационной панели Power BI
@@ -37,7 +37,7 @@ ms.locfileid: "73853078"
 2. Не выбирая визуализации, в строке меню выберите **Закрепление живой плитки**.
    
    ![Значок закрепления живой плитки](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Закрепите плитку на существующей или новой панели мониторинга. Обратите внимание на выделенный текст: *Кнопка "Закрепить динамическую страницу" позволяет отобразить изменения в отчетах на плитке панели мониторинга после обновления страницы.*
+3. Закрепите плитку на существующей или новой панели мониторинга. Обратите внимание на выделенный текст: *если живая плитка закреплена, при обновлении страницы изменения в отчетах отображаются на плитке информационной панели.*
    
    * Существующая информационная панель: выберите имя панели в раскрывающемся списке. Панели мониторинга, к которым был предоставлен доступ, не появятся в раскрывающемся списке.
    * Новая информационная панель: введите имя новой панели.
@@ -52,7 +52,7 @@ ms.locfileid: "73853078"
     ![панели мониторинга с живой плиткой](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)
+[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

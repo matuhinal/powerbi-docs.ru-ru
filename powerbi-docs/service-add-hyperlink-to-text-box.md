@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873794"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Добавление гиперссылки в текстовое поле в отчете
@@ -43,13 +43,13 @@ ms.locfileid: "73873794"
    ![Введите или вставьте URL-адрес в поле гиперссылки](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
 5. Проверьте ссылку:  
 
-   а. Поместите курсор в любом месте в новой гиперссылке в текстовом поле, чтобы отобразить URL-адрес в поле гиперссылки.  
+   а) Поместите курсор в любом месте в новой гиперссылке в текстовом поле, чтобы отобразить URL-адрес в поле гиперссылки.  
      
       ![Гиперссылка в текстовом поле](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
       ![URL-адрес в поле гиперссылки](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
 
-   б. Выберите URL-адрес в поле гиперссылки, чтобы открыть страницу в новом окне браузера.
+   б) Выберите URL-адрес в поле гиперссылки, чтобы открыть страницу в новом окне браузера.
 
 ## <a name="to-remove-the-hyperlink"></a>Удаление гиперссылки
 1. В текстовом поле выберите гиперссылку, чтобы выделить ее.
@@ -62,5 +62,5 @@ ms.locfileid: "73873794"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Текстовые поля и фигуры в отчетах Power BI](power-bi-reports-add-text-and-shapes.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

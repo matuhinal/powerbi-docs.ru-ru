@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872330"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Руководство. Приступая к работе со службой Power BI
@@ -161,7 +161,7 @@ ms.locfileid: "73872330"
 
    Несмотря на то, что диаграмма была изменена на график, на плитке осталась линейчатая диаграмма, так как она была закреплена именно в таком виде. 
 
-## <a name="step-4-reposition-tiles"></a>Шаг 4. Изменение расположения плиток
+## <a name="step-4-reposition-tiles"></a>Шаг 4. Изменение расположения плиток
 
 Сама по себе панель мониторинга является широкой. Для эффективного использования ее пространства можно изменить расположение плиток.
 
@@ -179,7 +179,7 @@ ms.locfileid: "73872330"
 
     ![Панель мониторинга с измененным расположением плиток](media/service-get-started/power-bi-service-rearranged-dashboard.png)
 
-## <a name="step-5-interact-with-tiles"></a>Шаг 5. Работа с плитками
+## <a name="step-5-interact-with-tiles"></a>Шаг 5. Работа с плитками
 
 Прежде чем приступить к созданию собственных панелей мониторинга и отчетов, необходимо уделить внимание последнему моменту. Выбор разных плиток приводит к различным результатам. 
 

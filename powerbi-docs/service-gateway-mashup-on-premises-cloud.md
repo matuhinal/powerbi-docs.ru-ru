@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697895"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Объединение и добавление локальных и облачных источников данных
@@ -25,7 +25,7 @@ ms.locfileid: "74697895"
 >[!NOTE]
 >Эта статья относится только к наборам данных, для которых в одном запросе объединяются или добавляются облачные и локальные источники данных. Для наборов данных с отдельными запросами (один для подключения к локальному источнику данных, а другой — к облачному) шлюза не выполняет запрос для облачного источника данных.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 
 - [Шлюз, установленный](/data-integration/gateway/service-gateway-install) на локальном компьютере.
 - Файл Power BI Desktop с запросами, в которых сочетаются локальные и облачные источники данных.

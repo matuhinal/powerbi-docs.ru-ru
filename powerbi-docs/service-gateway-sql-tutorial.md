@@ -1,5 +1,5 @@
 ---
-title: Руководство. Подключение к локальным источникам данных в SQL Server
+title: Руководство. Подключение к локальным данным в SQL Server
 description: Сведения об использовании SQL Server в качестве источника данных шлюза, в том числе о способах обновления данных.
 author: arthiriyer
 ms.reviewer: kayu
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958450"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Обновление данных из локальной базы данных SQL Server
@@ -30,7 +30,7 @@ ms.locfileid: "74958450"
 > * Просмотрите журнал обновления для анализа результатов прошлых циклов обновления.
 > * Очистите ресурсы, удалив артефакты, созданные в этом руководстве.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 
 - Если вы еще этого не сделали, зарегистрируйтесь в [бесплатной пробной версии Power BI](https://app.powerbi.com/signupredirect?pbi_source=web) перед началом работы.
 - [Установите Power BI Desktop](https://powerbi.microsoft.com/desktop/) на локальном компьютере.
@@ -116,13 +116,13 @@ ms.locfileid: "74958450"
 
     | Параметр | Значение |
     | --- | --- |
-    | Имя источника данных | AdventureWorksProducts |
-    | Тип источника данных | SQL Server |
+    | Имя базы данных-источника | AdventureWorksProducts |
+    | Тип источника данных | SQL Server |
     | Сервер | Имя экземпляра SQL Server, например SQLServer01 (то же, которое вы указали в Power BI Desktop). |
-    | База данных | Имя базы данных SQL Server, например AdventureWorksDW (то же, которое вы указали в Power BI Desktop). |
+    | SQL | Имя базы данных SQL Server, например AdventureWorksDW (то же, которое вы указали в Power BI Desktop). |
     | Метод проверки подлинности | Windows или базовая (как правило, Windows). |
     | Имя пользователя | Учетная запись для подключения к SQL Server. |
-    | Пароль | Пароль для учетной записи, которая используется для подключения к SQL Server. |
+    | Password | Пароль для учетной записи, которая используется для подключения к SQL Server. |
 
     ![Параметры источника данных](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
