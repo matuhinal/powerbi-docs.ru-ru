@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492843"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
@@ -152,19 +152,19 @@ Power BI Embedded поставляется с номером SKU [*A*.](../../s
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>А</p></td>
+<td style="text-align: center;"><p>A</p></td>
 <td style="text-align: center;"><p>EM</p></td>
 <td style="text-align: center;"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Выставление счетов</strong></td>
-<td style="text-align: center;">Каждый час</td>
+<td style="text-align: center;">Ежечасно</td>
 <td style="text-align: center;">Ежемесячно</td>
 <td style="text-align: center;">Ежемесячно</td>
 </tr>
 <tr>
 <td><p><strong>Обязательство</strong></td>
-<td style="text-align: center;">Нет</td>
+<td style="text-align: center;">None</td>
 <td style="text-align: center;">Ежегодно</td>
 <td style="text-align: center;">Ежемесячно или ежегодно</td>
 </tr>
@@ -188,7 +188,7 @@ Power BI Embedded поставляется с номером SKU [*A*.](../../s
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 % | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P2/A5 | 16 | 8 | 80 | 8 | 60 | К 12 столбцам. |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
