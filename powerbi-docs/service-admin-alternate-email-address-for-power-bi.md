@@ -10,10 +10,10 @@ ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 3a6f1f692d615da14be9092290fd7c8c9e6bf168
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698654"
 ---
 # <a name="use-an-alternate-email-address"></a>Использование запасного адреса электронной почты
@@ -69,4 +69,4 @@ Power BI выбирает адрес электронной почты в сле
 
 1. Если ни одно из указанных выше условий не выполняется, то Power BI использует адрес в формате UPN.
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

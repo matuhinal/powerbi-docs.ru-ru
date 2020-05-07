@@ -10,15 +10,15 @@ ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758630"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Отображение базовых данных визуального элемента
 
-## <a name="show-data"></a>Показать данные
+## <a name="show-data"></a>Показ данных
 Визуализация Power BI создается на основе данных из наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. Если выбрать функцию **Показать данные**, Power BI отобразит рядом с визуализацией или под ней связанную информацию.
 
 Данные, используемые для создания визуализации, можно экспортировать в файл XLSX или CSV и просмотреть его в Excel. Дополнительные сведения см. в статье [Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md).
@@ -74,5 +74,5 @@ ms.locfileid: "75758630"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md)    
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

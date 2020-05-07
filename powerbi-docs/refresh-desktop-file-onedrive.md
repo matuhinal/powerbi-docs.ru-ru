@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038550"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, хранимого в OneDrive или SharePoint Online
@@ -52,11 +52,11 @@ ms.locfileid: "76038550"
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive или OneDrive для бизнеса. В чем разница?
-При наличии личного OneDrive и OneDrive для бизнеса необходимо хранить все файлы, которые нужно импортировать в Power BI, в OneDrive для бизнеса. Почему? Скорее всего, для доступа к этим хранилищам вы используете разные учетные записи.
+При наличии личного OneDrive и OneDrive для бизнеса необходимо хранить все файлы, которые нужно импортировать в Power BI, в OneDrive для бизнеса. И вот почему. Скорее всего, для доступа к этим хранилищам вы используете две учетные записи.
 
 При подключении к OneDrive для бизнеса в Power BI подключение становится простым, поскольку ваша учетная запись Power BI часто совпадает с учетной записью OneDrive для бизнеса. В личное хранилище OneDrive вы обычно входите с помощью другой [учетной записи Майкрософт](https://account.microsoft.com).
 
-При выполнении входа с использованием учетной записи Майкрософт обязательно установите флажок **Оставаться в системе**. После этого Power BI сможет синхронизировать все обновления, внесенные в файл в Power BI Desktop, с наборами данных в Power BI.
+При выполнении входа с использованием учетной записи Майкрософт обязательно установите флажок **Оставаться в системе**. После этого Power BI сможет синхронизировать все обновления, внесенные в файл в Power BI Desktop, с наборами данных в Power BI.
 
 ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "76038550"
 
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)
 
-[Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
+[Устранение неполадок со шлюзом Power BI — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
 
