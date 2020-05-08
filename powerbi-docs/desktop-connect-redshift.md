@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761641"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Подключение к базе данных Amazon Redshift в Power BI Desktop
@@ -24,7 +24,7 @@ ms.locfileid: "75761641"
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-В открывшемся окне **Amazon Redshift** введите или вставьте имя сервера и базы данных **Amazon Redshift** в соответствующие поля. В качестве части поля *Сервер* пользователи могут указать порт в следующем формате: *URL-адрес_сервера:порт*.
+В открывшемся окне **Amazon Redshift** введите или вставьте имя сервера и базы данных **Amazon Redshift** в соответствующие поля. В качестве части поля *Сервер* пользователи могут указать порт в следующем формате: *URL-адреса_сервера:порт*.
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
@@ -45,8 +45,8 @@ ms.locfileid: "75761641"
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
 * [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 
