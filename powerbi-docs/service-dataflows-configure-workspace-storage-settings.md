@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889358"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Настройка параметров потоков данных рабочей области (предварительная версия)
@@ -40,7 +40,7 @@ ms.locfileid: "76889358"
 
 В диалоговом окне "Создание рабочей области" может появиться желтый прямоугольник **Предварительный просмотр улучшенных рабочих областей**. В этой области выберите **Попробовать**.
 
-![Предварительный просмотр улучшенных рабочих областей](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
+![Предварительная версия улучшенных рабочих областей](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
 В открывшемся диалоговом окне новой рабочей области можно присвоить уникальное имя. Пока не выбирайте **Сохранить**, так как необходимо внести дополнительные параметры.
 
@@ -58,7 +58,7 @@ ms.locfileid: "76889358"
 
 Чтобы изменить рабочую область, щелкните многоточие **(...)** и выберите команду **Изменить рабочую область**. 
 
-![Изменить рабочую область](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
+![Изменение рабочей области](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
 В открывшемся окне **Изменение рабочей области** разверните область **Дополнительно**, а затем установите для параметра **Хранилище потоков данных (предварительная версия)** значение **Вкл**. 
 

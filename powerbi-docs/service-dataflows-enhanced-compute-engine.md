@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 1d2bd150d33d95f2ec8759f9e876b3920eede3b6
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75840077"
 ---
 # <a name="the-enhanced-compute-engine"></a>Расширенное ядро вычислений
@@ -28,7 +28,7 @@ ms.locfileid: "75840077"
 
 ## <a name="using-the-enhanced-compute-engine"></a>Использование расширенного ядра вычислений
 
-Расширенное ядро вычислений включается на странице **Параметры емкости** в службе Power BI в разделе **Потоки данных**. По умолчанию расширенное ядро вычислений **отключено**. Чтобы включить его, нажмите переключатель **Вкл.**, как показано на следующем рисунке, и сохраните настройки. 
+Расширенное ядро вычислений включается на странице **Параметры емкости** в службе Power BI в разделе **Потоки данных**. По умолчанию расширенное ядро вычислений **отключено**. Чтобы включить его, нажмите переключатель **Вкл.** , как показано на следующем рисунке, и сохраните настройки. 
 
 ![Включение расширенного ядра вычислений](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
 

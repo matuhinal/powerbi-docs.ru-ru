@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d3f359ad4c968407dff143458b65954844f9a22d
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829289"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Мониторинг метрик использования в интерфейсе новой рабочей области
@@ -160,7 +160,7 @@ ms.locfileid: "76829289"
 
 - **[Создайте копию отчета в службе](#create-a-copy-of-the-usage-report) Power BI.**   Используйте **Сохранить копию**, чтобы создать отдельный экземпляр отчета на основе метрик использования, который можно настроить в соответствии с определенными потребностями.
 - **[Подключитесь к набору данных](#create-a-new-usage-report-in-power-bi-desktop) с помощью нового отчета.**   Для каждой рабочей области набор данных имеет название "Отчет на основе метрик использования", как описано выше в разделе [Набор данных отчета на основе метрик использования](#usage-metrics-report-dataset). Power BI Desktop можно использовать для создания настраиваемых отчетов на основе метрик использования, основываясь на базовом наборе данных.
-- **[Использование функции "Анализ в Excel"](#analyze-usage-data-in-excel)**   Для анализа данных об использовании Power BI можно воспользоваться преимуществами функций сводных таблиц, диаграмм и срезов в Microsoft Excel 2010 с пакетом обновления 1 (SP1) или более поздней версии. Дополнительные сведения о функции [Анализ в Excel](service-analyze-in-excel.md).
+- **[Использование функции "Анализ в Excel"](#analyze-usage-data-in-excel)**    Для анализа данных об использовании Power BI можно воспользоваться преимуществами функций сводных таблиц, диаграмм и срезов в Microsoft Excel 2010 с пакетом обновления 1 (SP1) или более поздней версии. Дополнительные сведения о функции [Анализ в Excel](service-analyze-in-excel.md).
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Создание копии отчета об использовании
 

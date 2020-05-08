@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762285"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Общие сведения о визуальных элементах "Вопросы и ответы" в Power BI
@@ -35,7 +35,7 @@ ms.locfileid: "75762285"
 - Значок для преобразования элемента "Вопросы и ответы" в стандартный визуальный элемент. 
 - Значок, позволяющий открыть средство "Вопросы и ответы", с помощью которого разработчики могут настраивать базовый обработчик естественного языка.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 
 1. В этом руководстве используется [PBIX-файл с образцом "Продажи и маркетинг"](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix). 
 
