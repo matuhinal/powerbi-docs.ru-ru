@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006799"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Использование среза и фильтра относительных дат в Power BI
@@ -42,17 +42,17 @@ ms.locfileid: "81006799"
 
 ![Снимок экрана параметров конфигурации относительных дат с выделенным первым параметром.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Последний
+* Last
 
-* Далее
+* Следующий
 
-* Эта
+* Это
 
 Второй параметр (средний) в *срезе относительных дат* позволяет ввести число, определяющее диапазон относительных дат.
 
 ![Снимок экрана параметров конфигурации относительных дат с выделенным вторым параметром.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-Третий параметр позволяет выбрать меру даты. Можно выбрать следующие значения:
+Третий параметр позволяет выбрать меру даты. Доступны следующие варианты.
 
 ![Снимок экрана параметров конфигурации относительных дат с выделенным третьим параметром.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
@@ -68,7 +68,7 @@ ms.locfileid: "81006799"
 
 * Years (Годы);
 
-* Годы (календарь)
+* Years (Calendar) (Календарные годы).
 
 Если выбрать в списке **Months** (Месяцы), а для среднего параметра ввести значение *2*, произойдет следующее:
 

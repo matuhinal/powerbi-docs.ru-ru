@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76268871"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Копирование отчетов из других рабочих областей (предварительная версия)
@@ -41,7 +41,7 @@ ms.locfileid: "76268871"
 
     Отчет можно сохранить в текущей или другой рабочей области в службе Power BI. Вы видите только рабочие области, относящиеся к новому интерфейсу рабочей области, членом которых вы являетесь. 
   
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
     Power BI автоматически создает копию отчета и запись в списке наборов данных, если отчет основан на наборе данных, находящемся за пределами рабочей области. Значок для этого набора данных отличается от значка для наборов данных в рабочей области. ![Значок общего набора данных](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
     

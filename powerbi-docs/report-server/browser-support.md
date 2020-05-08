@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874306"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Поддержка браузера для сервера отчетов Power BI
@@ -66,7 +66,7 @@ ms.locfileid: "73874306"
   
   **(+)** — последняя общедоступная версия
 
-### <a name="authentication-requirements"></a>Требования к аутентификации
+### <a name="authentication-requirements"></a>Требования к проверке подлинности
 Браузеры поддерживают определенные схемы аутентификации, которые должны обрабатываться сервером отчетов для успешного выполнения запросов клиента. В таблице ниже приведены стандартные типы аутентификации, поддерживаемые каждым браузером в операционной системе Windows.
 
 | **Тип браузера** | **Поддержка** | **Браузер по умолчанию** | **Сервер по умолчанию** |
@@ -74,8 +74,8 @@ ms.locfileid: "73874306"
 | **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Согласование |Да. Стандартные параметры аутентификации поддерживают Edge. |
 | **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, Basic |Согласование |Да. Стандартные параметры аутентификации поддерживают Internet Explorer. |
 | **Google Chrome**(+) |Negotiate, NTLM, Basic |Согласование |Да. Стандартные параметры аутентификации поддерживают Chrome. |
-| **Mozilla Firefox**(+) |NTLM, Basic |NTLM |Да. Стандартные параметры аутентификации поддерживают Firefox. |
-| **Apple Safari**(+) |NTLM, Basic |Обычная |Да. Стандартные параметры аутентификации поддерживают Safari. |
+| **Mozilla Firefox**(+) |NTLM, базовый |NTLM |Да. Стандартные параметры аутентификации поддерживают Firefox. |
+| **Apple Safari**(+) |NTLM, базовый |Основная |Да. Стандартные параметры аутентификации поддерживают Safari. |
 
  **(+)** — последняя общедоступная версия
 
@@ -88,10 +88,10 @@ ms.locfileid: "73874306"
 Your browser does not support scripts or has been configured to not allow scripts to run. Click here to view this report without scripts
 ```
 
- Если выбрать просмотр отчета без поддержки скриптов, отчет преображается в формат HTML. В этом случае некоторые возможности средства просмотра отчетов (например, панель инструментов отчетов и схема документа) будут недоступны.
+ При просмотре отчета без поддержки выполнения скриптов отчет готовится к просмотру в формате HTML без таких средств просмотра отчетов, как панель инструментов отчета и схема документа.
 
 > [!NOTE]
-> Панель инструментов отчета включена в средство просмотра HTML. По умолчанию панель инструментов отображается в верхней части каждого отчета, отображаемого в окне браузера. Средство просмотра отчетов позволяет искать данные в отчете, прокручивать страницы и настраивать размер страниц для просмотра. См. дополнительные сведения о [панели инструментов отчетов и средстве просмотра HTML](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar).
+> Панель инструментов отчета является частью компонента «Средство просмотра HTML-страниц». По умолчанию панель инструментов появляется в верхней части каждого отчета, который отображается в окне браузера. Средство просмотра отчетов позволяет искать данные в отчете, прокручивать страницы и настраивать размер страниц для просмотра. Дополнительные сведения о панели инструментов отчета и средстве просмотра HTML-страниц см. в разделе [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar).
 > 
 > 
 
@@ -114,7 +114,7 @@ Your browser does not support scripts or has been configured to not allow script
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
+[Скачать SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

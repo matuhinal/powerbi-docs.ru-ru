@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889312"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Устранение неполадок с анализом в Excel
@@ -95,9 +95,9 @@ ms.locfileid: "76889312"
 После определения мер в модели в службе Power BI можно использовать их в области **Значения** в сводных таблицах Excel.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Анализ в Excel](service-analyze-in-excel.md)
+[Analyze in Excel](service-analyze-in-excel.md) (Анализ в Excel)
 
-[Руководство. Создание собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md)
+[Руководство. Создание собственных мер в Power BI Desktop](desktop-tutorial-create-measures.md)
 
 [Меры в PowerPivot](https://msdn.microsoft.com/library/gg399077.aspx)
 

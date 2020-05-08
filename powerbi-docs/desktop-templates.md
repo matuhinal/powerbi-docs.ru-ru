@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913537"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Создание шаблонов отчетов для Power BI Desktop
@@ -75,7 +75,7 @@ ms.locfileid: "76913537"
 Кроме того, Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-* [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
+* [Обзор запросов в Power BI Desktop](desktop-query-overview.md)
 * [Типы данных в Power BI Desktop](desktop-data-types.md)
-* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)    

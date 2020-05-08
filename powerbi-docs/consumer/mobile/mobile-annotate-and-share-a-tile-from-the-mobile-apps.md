@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205511"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Добавление заметок к плиткам, отчетам и визуальным элементам и их совместное использование в мобильных приложениях Power BI
-Применяется к:
+Область применения:
 
 | ![iPhone](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Телефоны под управлением Android |Планшеты Android |
+| iPhones |iPad |Телефоны под управлением Android |Планшеты Android |
 
-Вы можете добавить заметку к моментальному снимку плитки, отчета или визуализации и поделиться им из мобильного приложения Power BI для устройств iOS и Android. Получатели увидят этот элемент точно в таком же виде, как в момент отправки вашего электронного письма, а также получат ссылку на него. Моментальные снимки плиток можно отправлять кому угодно, не только коллегам с тем же доменом электронной почты. Перед отправкой моментального снимка вы можете добавить заметки: линии, текст или метки.
+Вы можете добавить заметку к моментальному снимку плитки, отчета или визуализации и поделиться им из мобильного приложения Power BI для устройств iOS и Android. Получатели увидят этот элемент точно в таком же виде, как в момент отправки вашего электронного письма, а также получат ссылку на него. Моментальные снимки плиток можно отправлять кому угодно, не только коллегам в том же домене электронной почты. Перед отправкой моментального снимка вы можете добавить заметки: линии, текст или метки.
 
 ![Отчет с заметками](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate.png)
 

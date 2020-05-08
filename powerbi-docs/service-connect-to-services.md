@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975040"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Подключение к используемым службам с помощью Power BI
@@ -63,7 +63,7 @@ ms.locfileid: "76975040"
 Панель мониторинга и отчеты включают содержимое из службы, предназначенное для конкретного сценария. Если вы ищете определенную метрику в приложении, но не видите ее, разместите вопрос на странице [поддержки Power BI](https://support.powerbi.com/forums/265200-power-bi).
 
 ## <a name="suggesting-services"></a>Предложения по службам
-Вы используете службу, которую хотели бы предложить для приложения Power BI? Перейдите на страницу [поддержки Power BI](https://support.powerbi.com/forums/265200-power-bi) и сообщите нам об этом.
+Вы используете службу, которую хотели бы предложить для приложения Power BI? Перейдите на страницу [поддержки по Power BI](https://support.powerbi.com/forums/265200-power-bi) и сообщите нам об этом.
 
 Если вас интересует создание приложений-шаблонов для самостоятельного распространения, см. статью [Создание приложения-шаблона в Power BI](service-template-apps-create.md). Партнеры Power BI могут создавать приложения Power BI с минимальным количеством кода или вообще без него и развертывать их для клиентов Power BI. 
 

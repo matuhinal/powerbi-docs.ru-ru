@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113171"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Типы аналитики, поддерживаемые в Power BI
@@ -51,7 +51,7 @@ Power BI обеспечивает быстрый поиск различных 
 
 ![Пример точек изменений во временных рядах](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-### <a name="correlation"></a>Корреляция
+### <a name="correlation"></a>Correlation
 Выявляет случаи, когда несколько мер проявляют схожие закономерности или тенденции при нанесении на график в зависимости от какой-либо категории или значения в наборе данных.
 
 ![Пример корреляции](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
@@ -91,5 +91,5 @@ Power BI обеспечивает быстрый поиск различных 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Аналитика Power BI](end-user-insights.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

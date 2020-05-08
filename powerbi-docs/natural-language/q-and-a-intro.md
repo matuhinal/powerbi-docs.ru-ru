@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874969"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867790"
 ---
 # <a name="intro-to-power-bi-qa"></a>Общие сведения о модуле "Вопросы и ответы" в Power BI
 
@@ -69,8 +69,8 @@ ms.locfileid: "73874969"
 - Матрица
 - Таблица
 - Карточка
-- С областями
-- круговая диаграмма;
+- Область
+- Круговая диаграмма
 - точечная или пузырьковая диаграмма.
  
 ![Результаты визуализации в модуле "Вопросы и ответы"](media/qna-visual-results-date.png)
@@ -99,7 +99,7 @@ ms.locfileid: "73874969"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Поддержку естественного языка можно интегрировать в отчеты различными способами. Дополнительные сведения см. в следующих статьях:
+Поддержку естественного языка можно интегрировать в отчеты различными способами. Дополнительные сведения вы найдете в следующих статьях:
 
 * ["Вопросы и ответы": визуализация](../visuals/power-bi-visualization-q-and-a.md)
 * ["Вопросы и ответы": рекомендации](q-and-a-best-practices.md)

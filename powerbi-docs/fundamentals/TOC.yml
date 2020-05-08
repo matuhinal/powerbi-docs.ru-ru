@@ -5,7 +5,7 @@
     - name: Обзор
       expanded: true
       items:
-        - name: "Что такое Power\_BI?"
+        - name: Что такое Power BI?
           href: ../power-bi-overview.md
         - name: Что такое Power BI Desktop?
           href: ../desktop-what-is-desktop.md
@@ -31,11 +31,11 @@
               href: ../service-features-license-type.md
     - name: Практические руководства
       items:
-        - name: Получение Power BI Desktop
+        - name: "Получение Power\_BI Desktop"
           href: ../desktop-get-the-desktop.md
         - name: Начало работы с Power BI Desktop
           href: ../desktop-getting-started.md
-    - name: Справка
+    - name: Справочник
       items:
         - name: "Поддерживаемые языки и страны\_(регионы)"
           href: ../supported-languages-countries-regions.md

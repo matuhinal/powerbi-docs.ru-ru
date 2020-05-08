@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: Отношения «один-к-одному»
               href: relationships-one-to-one.md
-            - name: Связи "много ко многим".
+            - name: Связи «многие ко многим»
               href: relationships-many-to-many.md
             - name: Активные и неактивные связи
               href: relationships-active-inactive.md
@@ -113,10 +113,10 @@
     - name: Технические документы
       items:
         - name: Обзор технической документации
-          href: ../whitepapers.md
+          href: whitepapers.md
         - name: Технический документ по обеспечению безопасности в Power BI
-          href: ../whitepaper-powerbi-security.md
+          href: whitepaper-powerbi-security.md
         - name: Развертывание Power BI Premium
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: "Публикация Power\_BI для внешних пользователей с помощью Azure Active Directory\_B2B"
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

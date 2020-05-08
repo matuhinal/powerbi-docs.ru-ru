@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205534"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
-Применяется к:
+Область применения:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
 | [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Телефоны под управлением Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Планшеты Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
-Панели мониторинга — это портал к жизнедеятельности и рабочим процессам вашей компании. Она представляет общую картину и служит единой точкой контроля текущего состояния бизнеса.
+Панели мониторинга — это портал к жизнедеятельности и рабочим процессам вашей компании. Они представляют общую картину и служат единой точкой контроля текущего состояния бизнеса.
 
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Создание панелей мониторинга в службе Power BI (https://powerbi.com)
 **В мобильных приложениях нельзя создавать панели мониторинга.** 
@@ -59,7 +59,7 @@ ms.locfileid: "79205534"
     Чтобы увидеть информационную панель на телефоне в альбомной ориентации, просто поверните его набок.
    
     ![Альбомная ориентация панели мониторинга](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
-3. Смахните экран вверх, чтобы увидеть все плитки на панели мониторинга. Вы можете выбрать один из следующих вариантов.
+3. Смахните экран вверх, чтобы увидеть все плитки на панели мониторинга. Вы сможете:
    
    * [Коснитесь плитки](mobile-tiles-in-the-mobile-apps.md), чтобы открыть ее в режиме фокусировки и начать с ней работу.
    * Коснитесь значка звездочки ![Звездочка избранного](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png), чтобы [добавить ее в избранное](mobile-apps-favorites.md).
@@ -79,7 +79,7 @@ ms.locfileid: "79205534"
 ## <a name="view-dashboards-on-your-ipad"></a>Просмотр панелей мониторинга на iPad
 1. Откройте приложение Power BI.
    
-   Сначала хотите [скачать приложение для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) из Apple App Store?
+   Нужно [загрузить приложение для iPad](https://go.microsoft.com/fwlink/?LinkId=522062) из Apple App Store?
 2. Нажмите **Панели мониторинга** вверху приложения.  
    
    ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -94,7 +94,7 @@ ms.locfileid: "79205534"
    * [Нажимать на плитки](mobile-tiles-in-the-mobile-apps.md), чтобы выполнять с ними различные операции.
    * [Открывать отчеты](mobile-reports-in-the-mobile-apps.md), соответствующие плиткам.
    * [Приглашать других пользователей просмотреть панель мониторинга](mobile-share-dashboard-from-the-mobile-apps.md).
-   * [Возможность добавить заметки и поделиться моментальным снимком](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) плитки.
+   * [Добавлять заметки и делиться моментальным снимком](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) плитки.
 5. Чтобы вернуться на страницу "Моя рабочая область", коснитесь имени панели мониторинга в верхнем левом углу, а затем выберите **Моя рабочая область**.
    
    ![Путь навигации](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
@@ -120,7 +120,7 @@ ms.locfileid: "79205534"
 1. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
    ![Меню с многоточием](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
-2. Проведите по экрану вверх, чтобы увидеть [все плитки на информационной панели](mobile-tiles-in-the-mobile-apps.md). 
+2. Проведите по экрану вверх и вниз, чтобы увидеть все [плитки на панели мониторинга](mobile-tiles-in-the-mobile-apps.md). 
 3. Для возврата на домашнюю страницу панелей мониторинга коснитесь названия панели, чтобы открыть путь навигации, а затем выберите **Моя рабочая область**.   
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Просмотр панелей мониторинга на планшете с Android
@@ -136,7 +136,7 @@ ms.locfileid: "79205534"
 3. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
    ![Меню с многоточием](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
-4. Проведите по экрану вверх, чтобы увидеть [все плитки на информационной панели](mobile-tiles-in-the-mobile-apps.md). 
+4. Проведите по экрану вверх и вниз, чтобы увидеть все [плитки на панели мониторинга](mobile-tiles-in-the-mobile-apps.md). 
    
    Для увеличения и уменьшения масштаба различных областей панели мониторинга или панорамирования можно использовать жест сжатия или разведения двумя пальцами. Чтобы открыть плитку в режиме фокусировки и работать с данными, также можно [коснуться плитки](mobile-tiles-in-the-mobile-apps.md).
 5. Для возврата на домашнюю страницу панелей мониторинга коснитесь имени панели мониторинга, чтобы открыть путь навигации, а затем выберите **Моя рабочая область**:
@@ -153,8 +153,8 @@ ms.locfileid: "79205534"
 Прочитайте о [создании представлений панелей мониторинга для телефонов](../../service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Скачивание приложения Android](https://go.microsoft.com/fwlink/?LinkID=544867) из Google Play.  
-* [Начало работы с приложением Android для Power BI](mobile-android-app-get-started.md)  
+* [Загрузка приложения Android](https://go.microsoft.com/fwlink/?LinkID=544867) из Google Play  
+* [Начало работы с приложением Android для Power BI](mobile-android-app-get-started.md)  
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

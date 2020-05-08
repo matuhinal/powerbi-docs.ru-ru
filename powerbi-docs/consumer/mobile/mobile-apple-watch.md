@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114513"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Просмотр данных в мобильном приложении Power BI на устройстве Apple Watch
 С помощью приложения Power BI для Apple Watch можно просматривать ключевые показатели эффективности и плитки типа "карточка" на информационных панелях Power BI прямо на своих часах. Ключевые показатели эффективности и плитки типа "карточка" лучше всего подходят для измерения пульса на небольшом экране. Панель мониторинга можно обновить непосредственно на устройстве iPhone или в часах Apple Watch.
 
 ## <a name="install-the-apple-watch-app"></a>Установка приложения Power BI для Apple Watch
-Приложение Power BI для Apple Watch объединено с приложением Power BI для iOS, поэтому при [скачивании приложения Power BI на iPhone](https://go.microsoft.com/fwlink/?LinkId=522062 "Скачивание приложения для iPhone") из магазина Apple вы автоматически скачиваете и приложение Power BI для Apple Watch. В руководстве Apple объясняется, как [устанавливать приложения для Apple Watch](https://support.apple.com/HT204784).
+Приложение Power BI для Apple Watch объединено с приложением Power BI для iOS, поэтому при [скачивании приложения Power BI на iPhone](https://go.microsoft.com/fwlink/?LinkId=522062 "Загрузка приложения iPhone") из магазина Apple вы автоматически скачиваете и приложение Power BI для Apple Watch. В руководстве Apple объясняется, как [устанавливать приложения для Apple Watch](https://support.apple.com/HT204784).
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Использование приложения Power BI в Apple Watch
 Открыть приложение Power BI на Apple Watch можно из списка установленных приложений или с помощью мини-приложения Power BI (если настроено) на циферблате часов.
@@ -31,7 +31,7 @@ ms.locfileid: "79114513"
 * **Экран индекса** позволяет быстро просмотреть все ключевые показатели эффективности и плитки типа "карточка" из синхронизированной информационной панели.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
-* **Плитка в фокусе**: Выберите плитку на экране индекса, чтобы просмотреть подробные данные.
+* **Плитка в фокусе**: щелкните плитку на экране индекса, чтобы подробнее изучить ее.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 

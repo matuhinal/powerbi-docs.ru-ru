@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: cf08f984e98b1497b04d1e19bd870ebcdda010b3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877227"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Ресурсы для разработчиков потоков данных Power BI
@@ -31,7 +31,7 @@ ms.locfileid: "73877227"
 | [Справочник по REST API для потоков данных Power BI](https://go.microsoft.com/fwlink/?linkid=2047629)    | Полное руководство по использованию REST API для потоков данных.|
 
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этой статье представлены сведения о ресурсах для разработчиков потоков данных. Дополнительные сведения о потоках данных вы можете получить в следующих статьях.
 

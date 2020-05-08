@@ -11,10 +11,10 @@ ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76894920"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Фильтрация и совместное использование отчета Power BI
@@ -81,6 +81,6 @@ ms.locfileid: "76894920"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Способы совместного использования работы в Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [предоставление общего доступа к панелям мониторинга](service-share-dashboards.md).
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 * Хотите оставить отзыв? Поделитесь своими предложениями на [веб-сайте сообщества Power BI](https://community.powerbi.com/).
 

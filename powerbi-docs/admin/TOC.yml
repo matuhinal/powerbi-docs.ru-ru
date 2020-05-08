@@ -9,7 +9,7 @@
           href: ../service-admin-administering-power-bi-in-your-organization.md
         - name: Где располагается мой клиент?
           href: ../service-admin-where-is-my-tenant-located.md
-        - name: Что такое Power BI Premium?
+        - name: "Что собой представляет Power\_BI Premium"
           href: ../service-premium-what-is.md
     - name: Основные понятия
       expanded: true
@@ -30,7 +30,7 @@
               href: service-admin-migrate-data-germany.md
             - name: Вопросы и ответы для клиентов облачных служб в Германии
               href: ../service-govde-faq.md
-        - name: Вопросы и ответы
+        - name: Часто задаваемые вопросы
           href: ../service-admin-faq.md
         - name: Часто задаваемые вопросы по высокой доступности и отработке отказа
           href: ../service-admin-failover.md
@@ -66,7 +66,7 @@
           href: ../service-admin-access-usage.md
         - name: Отслеживание действий пользователей
           href: ../service-admin-auditing.md
-        - name: Отслеживание состояния службы
+        - name: Получение информации о работоспособности службы
           href: ../service-admin-health.md
         - name: Закрытие учетной записи
           href: ../service-admin-closing-your-account.md
@@ -84,7 +84,7 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
             - name: Отчет о метриках защиты данных
               href: service-security-data-protection-metrics-report.md
-        - name: Защита на уровне строк
+        - name: Безопасность на уровне строк
           href: ../service-admin-rls.md
         - name: Настройка сертификации наборов и потоков данных
           href: service-admin-setup-certification.md
@@ -114,7 +114,7 @@
               href: ../service-admin-premium-restart.md
             - name: Возможность подключения к набору данных с помощью конечной точки XMLA (предварительная версия)
               href: ../service-premium-connect-tools.md
-    - name: Справка
+    - name: Справочник
       items:
         - name: 'PowerShell, REST API и пакет SDK для .NET'
           href: ../service-admin-reference.md
@@ -131,7 +131,7 @@
           href: ../service-admin-power-bi-security.md
         - name: Уровни конфиденциальности
           href: ../desktop-privacy-levels.md
-    - name: Устранение неполадок
+    - name: Диагностика
       items:
         - name: Не удается войти?
           href: ../power-bi-cannot-sign-in.md
@@ -147,5 +147,3 @@
           href: ../service-admin-alternate-email-address-for-power-bi.md
         - name: Использование одних и тех же учетных данных для входа в Power BI и Azure
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Известные проблемы с выделенными пользователями Office 365
-          href: ../service-admin-office-365-dedicated-known-issues.md

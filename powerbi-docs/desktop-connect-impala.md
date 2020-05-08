@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: edac9f4eb0269e1d6ae359db6e8060b64697658c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878538"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Подключение к базе данных Impala в Power BI Desktop
@@ -22,11 +22,11 @@ ms.locfileid: "73878538"
 ## <a name="connect-to-an-impala-database"></a>Подключение к базе данных Impala
 Для подключения к базе данных **Impala**, сделайте следующее: 
 
-1. В Power BI Desktop на вкладке ленты **Главная** выберите **Получить данные**. 
+1. В **Power BI Desktop** на вкладке ленты **Главная** выберите {5}Получить данные{6}. 
 
 2. В области слева выберите категорию **База данных**. Отобразится **Impala**.
 
-    ![Получение данных](media/desktop-connect-impala/connect_impala_2.png)
+    ![Получить данные](media/desktop-connect-impala/connect_impala_2.png)
 
 3. В появившемся окне **Impala** введите или вставьте в поле имя сервера Impala. Нажмите кнопку **ОК**. Вы можете **импортировать** данные непосредственно в Power BI или использовать **DirectQuery**. См. дополнительные сведения об [использовании DirectQuery](desktop-use-directquery.md).
 

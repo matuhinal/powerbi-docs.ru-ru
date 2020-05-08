@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 0bca9134f2be1a1bfe866460305b7c3e302b5863
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "67123998"
 ---
 ### <a name="on-premises-data-gateway"></a>Локальный шлюз данных
@@ -19,7 +19,7 @@ ms.locfileid: "67123998"
 * Файл
 * Папка
 * Список SharePoint (локальный)
-* Веб-приложение
+* Интернет
 * OData
 * IBM DB2
 * MySQL

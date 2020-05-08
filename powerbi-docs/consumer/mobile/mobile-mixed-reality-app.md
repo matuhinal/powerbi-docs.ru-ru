@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205925"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Приложение Power BI для смешанной реальности (предварительная версия)
 Просматривайте панели мониторинга и отчеты в приложении Power BI для смешанной реальности (предварительная версия), погрузившись в виртуальный мир либо размещая их в определенных местах в окружающей вас обстановке. 
 
-[Скачайте приложение Power BI для смешанной реальности](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) из Microsoft Store, где оно называется Power BI Mobile. Вы можете взаимодействовать с панелями мониторинга и отчетами в виртуальной среде, а затем выбирать из них те, которые хотите разместить в своем окружении. 
+[Скачайте приложение Power BI для смешанной реальности](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) в Microsoft Store, где оно называется Power BI Mobile. Вы можете взаимодействовать с панелями мониторинга и отчетами в виртуальной среде, а затем выбирать из них те, которые хотите разместить в своем окружении. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Два представления: классическое Windows и голографическое
 

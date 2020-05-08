@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710213"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Функция Always Encrypted на Сервере отчетов Power BI
@@ -27,9 +27,9 @@ ms.locfileid: "76710213"
 
 ### <a name="key-storage-strategies"></a>Стратегии хранения ключей
 
-|Запоминающие устройства  |Поддерживается  |
+|Хранилище  |Поддерживается  |
 |---------|---------|
-|Хранилище сертификатов Windows | Да |
+|Хранилище сертификатов Windows | Yes |
 |Azure Key Vault | Нет |
 | Криптография следующего поколения (CNG) | Нет |
 
@@ -46,10 +46,10 @@ ms.locfileid: "76710213"
 
 |Использование  |Детерминированное  |случайное шифрование;  |
 |---------|---------|---------|
-|Может считываться "как есть" в результатах запроса, например инструкции SELECT. | Да  | Да  |
-|Может использоваться в качестве сущности Group By в запросе. | Да | Нет |
+|Может считываться "как есть" в результатах запроса, например инструкции SELECT. | Yes  | Yes  |
+|Может использоваться в качестве сущности Group By в запросе. | Yes | Нет |
 |Может использоваться как статистическое поле, кроме функций COUNT и DISTINCT. | Нет, кроме функций COUNT и DISTINCT | Нет |
-|Может использоваться как параметр отчета | Да | Нет |
+|Может использоваться как параметр отчета | Yes | Нет |
 
 См. дополнительные сведения о [детерминированном и случайном шифровании](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
 
@@ -71,14 +71,14 @@ ms.locfileid: "76710213"
 
 | Тип данных SQL | Поддерживает чтение поля | Поддерживает использование в качестве элемента Group By | Поддерживает агрегаты (COUNT, DISTINCT, MAX, MIN, SUM и т. д.) | Поддерживает фильтрацию через равенство с использованием параметров | Примечания |
 | --- | --- | --- | --- | --- | --- |
-| int | Да | Да | COUNT, DISTINCT | Да, как Integer |   |
-| FLOAT | Да | Да | COUNT, DISTINCT | Да, как Float |   |
-| nvarchar | Да | Да | COUNT, DISTINCT | Да, как Text | При использовании детерминированного шифрования необходимо указать порядок сортировки binary2 в параметрах сортировки для символьных столбцов. Подробные сведения см. в статье по SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).  |
-| varchar | Да | Да | COUNT, DISTINCT | Нет |   |
-| Decimal | Да | Да | COUNT, DISTINCT | Нет |   |
-| NUMERIC | Да | Да | COUNT, DISTINCT | Нет |   |
-| значение datetime | Да | Да | COUNT, DISTINCT | Нет |   |
-| datetime2 | Да | Да | COUNT, DISTINCT | Да, как Date/Time | Поддерживается, если столбец не имеет точности в миллисекундах (иными словами, не имеет тип datetime2(0)) |
+| int | Yes | Yes | COUNT, DISTINCT | Да, как Integer |   |
+| FLOAT | Yes | Yes | COUNT, DISTINCT | Да, как Float |   |
+| nvarchar | Yes | Yes | COUNT, DISTINCT | Да, как Text | При использовании детерминированного шифрования необходимо указать порядок сортировки binary2 в параметрах сортировки для символьных столбцов. Подробные сведения см. в статье по SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).  |
+| varchar | Yes | Yes | COUNT, DISTINCT | Нет |   |
+| Decimal | Yes | Yes | COUNT, DISTINCT | Нет |   |
+| NUMERIC | Yes | Yes | COUNT, DISTINCT | Нет |   |
+| значение datetime | Yes | Yes | COUNT, DISTINCT | Нет |   |
+| datetime2 | Yes | Yes | COUNT, DISTINCT | Да, как Date/Time | Поддерживается, если столбец не имеет точности в миллисекундах (иными словами, не имеет тип datetime2(0)) |
 
 ## <a name="aggregation-alternatives"></a>Альтернативные агрегаты
 
@@ -92,5 +92,5 @@ ms.locfileid: "76710213"
 
 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) в SQL Server и Базе данных SQL Azure
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

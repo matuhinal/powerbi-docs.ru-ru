@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381429"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
@@ -110,12 +110,12 @@ ms.locfileid: "79381429"
 
 Дополнительные сведения см. в разделе [Советы и рекомендации для визуализаций карт Power BI](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Карты: карты ArcGIS;
+### <a name="maps-arcgis-maps"></a>Карты: карты ArcGIS
 ![Карта ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Дополнительные сведения см. в статье[ Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Карты: фоновые картограммы
+### <a name="maps-filled-maps-choropleth"></a>Карты: картограммы (хороплеты)
 ![картограмма](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -228,7 +228,7 @@ ms.locfileid: "79381429"
 Дополнительные сведения см. в статье [Каскадные диаграммы в Power BI](power-bi-visualization-waterfall-charts.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Назначение используемой визуализации для вопросов и ответов
-При вводе запросов на естественном языке с помощью вопросов и ответов Power BI можно указать тип визуализации в запросе.  Например:
+При вводе запросов на естественном языке с помощью вопросов и ответов Power BI можно указать тип визуализации в запросе.  Пример.
 
 "***продажи по штатам в виде плоского дерева***"
 

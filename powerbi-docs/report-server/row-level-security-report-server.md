@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859185"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Безопасность на уровне строк (RLS) на сервере отчетов Power BI
@@ -57,7 +57,7 @@ ms.locfileid: "73859185"
 
 1. Укажите в текстовом поле пользователя или группу в формате имени пользователя "ДОМЕН\пользователь" и выберите роли, которые вы хотите им назначить. Этот участник должен быть в пределах вашей организации.   
 
-    ![Добавление участника в роль](media/row-level-security-report-server/power-bi-report-server-add-members.png)
+    ![Add member to role (Добавление участника в роль)](media/row-level-security-report-server/power-bi-report-server-add-members.png)
 
     В зависимости от настройки службы Active Directory можно также ввести имя участника-пользователя. В этом случае сервер отчетов отображает соответствующее имя пользователя в списке.
 
@@ -121,4 +121,4 @@ ms.locfileid: "73859185"
 [Что такое Сервер отчетов Power BI?](get-started.md) 
 [Руководство для администратора](admin-handbook-overview.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
