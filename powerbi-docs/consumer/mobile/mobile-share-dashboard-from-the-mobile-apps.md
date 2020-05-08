@@ -1,5 +1,5 @@
 ---
-title: Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
+title: Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
 description: Приглашайте других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Узнайте, как это сделать.
 author: paulinbar
 ms.reviewer: ''
@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435796"
 ---
-# <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
-Применяется к:
+# <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
+Область применения:
 
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
+| iPhones |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)

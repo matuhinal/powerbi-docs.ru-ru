@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
 ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488276"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Шаг 2. Получение токена доступа для проверки подлинности
@@ -31,11 +31,11 @@ ms.locfileid: "79488276"
 
 2. Установите [библиотеку проверки подлинности Azure AD для пакета NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Этот пакет нужен приложению .NET для получения токена безопасности для проверки подлинности. 
 
-     а. Выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
+     а) Выберите пункты **Сервис** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов**.
 
-     б. Введите команду **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
+     б) Введите команду **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
 
-     в. В файле Program.cs добавьте `using Microsoft.IdentityModel.Clients.ActiveDirectory;`.
+     c. В файле Program.cs добавьте `using Microsoft.IdentityModel.Clients.ActiveDirectory;`.
 
 3. Добавьте пример кода, указанный после этих действий, в файл Program.cs.
 
@@ -183,7 +183,7 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * Следующая статья этого цикла: [Создание набора данных в Power BI](walkthrough-push-data-create-dataset.md)
-* [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
+* [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 * [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

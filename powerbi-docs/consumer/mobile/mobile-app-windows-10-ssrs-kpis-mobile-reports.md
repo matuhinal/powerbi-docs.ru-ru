@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435382"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Просмотр локальных отчетов и КПЭ в приложении Power BI для Windows
@@ -75,7 +75,7 @@ ms.locfileid: "79435382"
 * Выберите ключевой показатель эффективности, чтобы просмотреть его в режиме фокуса.
   
     ![Ключевой показатель эффективности в режиме фокусировки](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* Выберите мобильный отчет, чтобы открыть его в приложении Power BI, где с ним можно взаимодействовать.
+* Нажмите мобильный отчет, чтобы открыть его и поработать с ним в приложении Power BI.
   
     ![Мобильный отчет Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
@@ -97,7 +97,7 @@ ms.locfileid: "79435382"
 2. Нажмите и удерживайте имя сервера, с которым хотите разорвать соединение.
 3. Коснитесь пункта **Удалить сервер**.
    
-    ![Удалить сервер](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
+    ![Удаление сервера](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
 ## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Создание мобильных отчетов и ключевых показателей эффективности Reporting Services
 Ключевые показателей эффективности и мобильные отчеты Reporting Services не создаются в приложении Power BI. Для их создания используются приложение SQL Server Mobile Report Publisher и веб-портал служб SQL Server 2016 Reporting Services.
@@ -106,7 +106,7 @@ ms.locfileid: "79435382"
 * Создание [ключевых показателей эффективности на веб-портале Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)  
+* [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)  
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -1,23 +1,23 @@
 ---
-title: Внедрение с помощью веб-части отчетов в SharePoint Online
+title: Внедрение веб-части отчетов в SharePoint Online
 description: С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221719"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82585201"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>Внедрение с помощью веб-части отчетов в SharePoint Online
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>Внедрение веб-части отчетов в SharePoint Online
 
 С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
 
@@ -38,9 +38,9 @@ ms.locfileid: "75221719"
 
 1. Просмотрите отчет в Power BI.
 
-2. Откройте раскрывающееся меню **Файл** и выберите **Внедрить в SharePoint Online**.
+2. В раскрывающемся меню **Дополнительные параметры (...)** выберите пункты **Внедрить** > **SharePoint Online**.
 
-    ![Меню "Файл"](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![Меню "Дополнительные параметры", пункт "SharePoint Online"](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. Скопируйте URL-адрес отчета из диалогового окна.
 

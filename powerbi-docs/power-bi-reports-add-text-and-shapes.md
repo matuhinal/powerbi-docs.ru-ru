@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273209"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Добавление текстовых полей и фигур в отчеты Power BI
@@ -44,7 +44,7 @@ ms.locfileid: "80273209"
 
 6. Чтобы закрыть текстовое поле, выберите любое пустое место на холсте отчета. 
 
-7. Нажмите значок закрепления,  ![Значок закрепления](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) для закрепления текстового поля на панели мониторинга. 
+7. Нажмите значок закрепления,  ![Значок булавки](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) для закрепления текстового поля на панели мониторинга. 
 
 ## <a name="add-a-shape-to-a-report"></a>Добавление фигуры в отчет
 1. Поместите курсор в любом месте холста отчета и выберите **Фигуры**.
@@ -69,4 +69,4 @@ ms.locfileid: "80273209"
 * [Добавление гиперссылки в текстовое поле](service-add-hyperlink-to-text-box.md)
 * [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 * [Советы по улучшению анализа с помощью фигур, изображений и значков в отчетах Power BI](guidance/report-tips-shapes-images-icons.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

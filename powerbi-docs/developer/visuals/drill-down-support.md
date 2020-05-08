@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
 ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380496"
 ---
 # <a name="add-drill-down-support"></a>Добавление поддержки детализации
@@ -205,20 +205,20 @@ button {
 
 Подготовьте образец данных для тестирования визуального элемента:
 
-|   H1  |   H2    | H3  |   VALUES  |
+|   H1  |   H2    | H3  |   ЗНАЧЕНИЯ  |
 |-----|-----|------|-------|
-|   А   |    A1  |    A11 |    1   |
-|   А    |    A1    |    A12    |    2    |
-|   А    |    A2    |    A21    |    3    |
-|   А    |    A2    |    A22    |    4    |
-|   А    |    A3    |    A31    |    5    |
-|   А    |    A3    |    A32    |    6    |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
 |   B    |    B1    |    B11    |    7    |
 |   B    |    B1    |    B12    |    8    |
 |   B    |    B2    |    B21    |    9    |
 |   B    |    B2    |    B22    |    10    |
 |   B    |    B3    |    B31    |    11    |
-|   B    |    B3    |    B32    |    12    |
+|   B    |    B3    |    B32    |    К 12 столбцам.    |
 
 Создайте иерархию в Power BI Desktop:
 
@@ -328,7 +328,7 @@ export class Visual implements IVisual {
 |   R1   |   R13   |   R133   |   C1   |   C13   |   C133   |   9   |
 |   R2   |   R21   |   R211   |   C2   |   C21   |   C211   |   10   |
 |   R2   |   R21   |   R212   |   C2   |   C21   |   C212   |   11   |
-|   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   12   |
+|   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   К 12 столбцам.   |
 |   R2   |   R22   |   R221   |   C2   |   C22   |   C221   |   13   |
 |   R2   |   R22   |   R222   |   C2   |   C22   |   C222   |   14   |
 |   R2   |   R22   |   R223   |   C2   |   C22   |   C223   |   16   |

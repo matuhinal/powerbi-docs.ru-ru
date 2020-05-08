@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381268"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Добавление гиперссылок (URL-адресов) в таблицу или матрицу
@@ -109,7 +109,7 @@ ms.locfileid: "79381268"
 Другим способом добавления гиперссылок в таблицы и матрицы Power BI является создание гиперссылок в наборе данных перед подключением к набору данных и его импортом из Power BI. В этом примере используется книга Excel.
 
 1. Откройте книгу в Excel.
-2. Перейдите на вкладку **PowerPivot** , а затем выберите **Управление**.
+2. Перейдите на вкладку **PowerPivot**, а затем выберите **Управление**.
    
    ![Открытие PowerPivot в Excel](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
 1. В открывшемся окне Power Pivot выберите вкладку **Дополнительно**.
@@ -134,7 +134,7 @@ ms.locfileid: "79381268"
 
 Значение URL-адреса может начинаться со следующих последовательностей:
 - http
-- https
+- HTTP
 - -mailto
 - file
 - ftp
@@ -146,9 +146,9 @@ ms.locfileid: "79381268"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Визуализации в отчетах Power BI](visuals/power-bi-report-visualizations.md)
+[Визуализации в отчетах Power BI](visuals/power-bi-report-visualizations.md)
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

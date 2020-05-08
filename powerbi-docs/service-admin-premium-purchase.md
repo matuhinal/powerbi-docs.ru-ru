@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488621"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Как купить Power BI Premium
@@ -177,4 +177,4 @@ ms.locfileid: "79488621"
 [Вопросы и ответы по Power BI Premium](service-premium-faq.md)\
 [Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

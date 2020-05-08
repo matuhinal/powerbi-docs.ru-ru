@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207420"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Управление источником данных — импорт или запланированное обновление
@@ -43,7 +43,7 @@ ms.locfileid: "79207420"
 
 ![Отображение состояния подключения](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
-### <a name="advanced-settings"></a>Дополнительные параметры
+### <a name="advanced-settings"></a>Дополнительные настройки
 
 Для источника данных также можно настроить уровень конфиденциальности. Этот параметр определяет, каким образом можно комбинировать данные. Он используется только для запланированного обновления. Дополнительные сведения об уровнях конфиденциальности для источника данных см. в статье [Уровни конфиденциальности (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
@@ -74,4 +74,4 @@ ms.locfileid: "79207420"
 * [Устранение неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot)
 * [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)
 
-Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).

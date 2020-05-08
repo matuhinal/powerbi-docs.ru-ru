@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113699"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Добавление интерактивности в визуальные элементы путем выбора визуальных элементов Power BI
@@ -81,7 +81,7 @@ export interface ISelectionIdBuilder {
 
 Давайте посмотрим, как выбор представлен в сопоставлении представления категориальных данных для образца набора данных:
 
-| Изготовитель | Тип | Значение |
+| Производитель | Тип | Значение |
 | - | - | - |
 | Chrysler | Отечественные автомобили | 28883 |
 | Chrysler | Отечественные грузовики | 117131 |
@@ -161,7 +161,7 @@ export interface ISelectionIdBuilder {
 
 Например, если пользователь выбирает `Chrysler` с помощью `Manufacturer`, другие визуальные элементы должны показывать следующие данные:
 
-| Изготовитель | Тип | Значение |
+| Производитель | Тип | Значение |
 | - | - | - |
 | **Chrysler** | Отечественные автомобили | 28883 |
 | **Chrysler** | Отечественные грузовики | 117131 |
@@ -170,7 +170,7 @@ export interface ISelectionIdBuilder {
 
 Если пользователь выбирает `Import Car` по `Type` (выбирает данные по рядам), другие визуальные элементы должны показывать следующие данные:
 
-| Изготовитель | Тип | Значение |
+| Производитель | Тип | Значение |
 | - | - | - |
 | Chrysler | **Импортные автомобили** | 0 |
 | Ford | **Импортные автомобили** | 0 |

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376760"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Способы совместного использования работы в Power BI
@@ -140,4 +140,4 @@ ms.locfileid: "79376760"
 
 Хотите оставить отзыв? Поделитесь своими предложениями на [веб-сайте сообщества Power BI](https://community.powerbi.com/).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
