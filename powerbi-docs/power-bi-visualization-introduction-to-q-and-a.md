@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874460"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Создание визуального элемента, используя функцию "Вопросы и ответы" Power BI
@@ -48,7 +48,7 @@ ms.locfileid: "73874460"
    
    ![Заполненная диаграмма с областями в "Вопросы и ответы"](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. Чтобы закрепить диаграмму на панели мониторинга, выберите значок булавки. ![Значок закрепления](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) в правом верхнем углу.
+4. Чтобы закрепить диаграмму на панели мониторинга, выберите значок булавки. ![Значок булавки](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) в правом верхнем углу.
 
 ## <a name="create-a-visual-in-the-report-editor"></a>Создание визуального элемента в редакторе отчетов
 
@@ -71,7 +71,7 @@ ms.locfileid: "73874460"
 
 - [Использование функции "Вопросы и ответы" в панелях мониторинга и отчетах](power-bi-tutorial-q-and-a.md)  
 - [Вопросы и ответы для потребителей](consumer/end-user-q-and-a.md)
-- [Настройка данных для работы с функцией "Вопросы и ответы" в Power BI](service-prepare-data-for-q-and-a.md)
+- [Настройка данных для работы с функцией "Вопросы и ответы" в Power BI](service-prepare-data-for-q-and-a.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

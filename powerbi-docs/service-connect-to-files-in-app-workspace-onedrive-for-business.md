@@ -9,10 +9,10 @@ ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73854883"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Подключение к файлам, хранящимся в OneDrive, для рабочей области Power BI
@@ -45,7 +45,7 @@ ms.locfileid: "73854883"
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2\. Импорт файлов Excel в качестве наборов данных или книг Excel Online
-Теперь, когда файлы находятся в хранилище OneDrive для бизнеса вашей рабочей области, есть два варианта действий. Вы можете выбрать один из следующих вариантов. 
+Теперь, когда файлы находятся в хранилище OneDrive для бизнеса вашей рабочей области, есть два варианта действий. Вы сможете: 
 
 * [Импортировать данные из книги Excel в виде наборов данных](service-get-data-from-files.md), чтобы использовать эти данные для создания отчетов и панелей мониторинга. Их можно просматривать в браузере и на мобильных устройствах.
 * [Подключиться к целой книге Excel в Power BI](service-excel-workbook-files.md) и отобразить ее так же, как в Excel Online.
@@ -79,6 +79,6 @@ ms.locfileid: "73854883"
 * [Создание и распространение приложений и рабочих областей в Power BI](service-create-distribute-apps.md)
 * [Импорт данных из книг Excel](service-get-data-from-files.md)
 * [Подключение к целым книгам Excel](service-excel-workbook-files.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 * Хотите оставить отзыв? Посетите [форум идей по улучшению Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
 
