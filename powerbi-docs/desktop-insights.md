@@ -11,10 +11,10 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761164"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Применение аналитических сведений в Power BI Desktop для объяснения колебаний в визуализациях (предварительная версия)
@@ -121,7 +121,7 @@ ms.locfileid: "75761164"
 
 Кроме того, сейчас для аналитики не поддерживаются следующие типы моделей и источников данных:
 
-* DirectQuery;
+* DirectQuery
 * Live Connect;
 * локальные службы Reporting Services.
 * Внедрение
@@ -130,9 +130,9 @@ ms.locfileid: "75761164"
 Дополнительные сведения о **Power BI Desktop** и инструкции по началу работы см. в следующих статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-* [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)
-* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Обзор запросов в Power BI Desktop](desktop-query-overview.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)
+* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)   
 

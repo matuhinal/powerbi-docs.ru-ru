@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4ad843078e452502a94aa7d60b3304528fd25496
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038758"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Использование панели "Аналитика" в Power BI Desktop
@@ -37,10 +37,10 @@ ms.locfileid: "76038758"
 
 * линия константы оси X;
 * линия константы оси Y;
-* линия минимума;
+* Линия минимума
 * линия максимума;
 * линия среднего значения;
-* линия медианы;
+* Линия медианы
 * линия процентиля.
 * Симметричное затенение
 
@@ -125,7 +125,7 @@ ms.locfileid: "76038758"
 Наконец, в настоящее время вы не можете применить какие-либо динамические линии ко многим визуальным элементам, в числе которых:
 
 * Воронкообразная диаграмма
-* график и гистограмма с группировкой;
+* график и гистограмма с группировкой.
 * график и гистограмма с накоплением;
 * Ленточная диаграмма
 * недекартовы визуальные элементы, такие как кольцевая диаграмма, датчик, матрица, круговая диаграмма и таблица.
@@ -137,7 +137,7 @@ ms.locfileid: "76038758"
 Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
 
 * [Новые возможности Power BI Desktop](desktop-latest-update.md)
-* [Get Power BI Desktop](desktop-get-the-desktop.md) (Получение Power BI Desktop)
+* [Получение Power BI Desktop](desktop-get-the-desktop.md)
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
 * [Об использовании Редактора запросов в Power BI Desktop](desktop-query-overview.md)
 * [Типы данных в Power BI Desktop](desktop-data-types.md)

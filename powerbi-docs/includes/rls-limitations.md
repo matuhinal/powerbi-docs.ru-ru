@@ -5,10 +5,10 @@ ms.topic: include
 ms.date: 01/31/2020
 ms.author: davidi
 ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464424"
 ---
 ## <a name="limitations"></a>Ограничения
@@ -31,4 +31,4 @@ ms.locfileid: "77464424"
 
 1. У Анны возникает ошибка.
 
-**Возможное решение.** Повторно публикуйте файл Power BI Desktop из службы Power BI, пока проблема не будет устранена. Для этого выберите **Получить данные** > **Файлы**.
+**Временное решение.** Пока эта проблема не решена, вы можете повторно публиковать файлы Power BI Desktop из службы Power BI. Для этого выберите **Получить данные** > **Файлы**.
