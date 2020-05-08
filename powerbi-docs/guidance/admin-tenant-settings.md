@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487816"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Руководство по параметрам администрирования клиента
@@ -25,7 +25,7 @@ ms.locfileid: "79487816"
 
 ## <a name="improve-power-bi-experience"></a>Улучшение работы с Power BI
 
-### <a name="publish-get-help-information"></a>Публикация сведений раздела справки
+### <a name="publish-get-help-information"></a>Публикация информации "Вызова справки"
 
 Мы рекомендуем настроить внутренние сайты, связанные с Power BI, с помощью [Microsoft Teams](/microsoftteams) или другой платформы совместной работы. На них можно хранить обучающую документацию, проводить обсуждения, запрашивать лицензии или оказывать помощь.
 
@@ -76,7 +76,7 @@ ms.locfileid: "79487816"
 
 ![Показан параметр "Создание рабочих областей".](media/admin-tenant-settings/create-workspaces.png)
 
-### <a name="share-content-with-external-users"></a>Предоставление внешним пользователям общего доступа к содержимому
+### <a name="share-content-with-external-users"></a>Предоставлять внешним пользователям общий доступ к содержимому
 
 Пользователи могут предоставлять доступ к отчетам и панелям мониторинга людям за пределами вашей организации.
 
