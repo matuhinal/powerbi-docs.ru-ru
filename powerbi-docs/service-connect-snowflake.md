@@ -10,15 +10,15 @@ ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576872"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Подключение к Snowflake в службе Power BI
 
-## <a name="introduction"></a>Введение
+## <a name="introduction"></a>Общие сведения
 
 Подключение к Snowflake в службе Power BI имеет одно отличие от использования других соединителей. Оно заключается в наличии дополнительной возможности интеграции с AAD (с поддержкой единого входа). Для разных компонентов интеграции требуются разные административные роли в Snowflake, Power BI и Azure. Вы также можете включить проверку подлинности посредством AAD без использования единого входа. Обычная проверка подлинности работает так же, как и с другими соединителями службы.
 

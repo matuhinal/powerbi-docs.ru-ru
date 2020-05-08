@@ -11,10 +11,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76974994"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Создание визуальных элементов ключевого показателя эффективности (КПЭ)
@@ -44,7 +44,7 @@ ms.locfileid: "76974994"
 
 Набор данных КПЭ должен содержать значения целей для КПЭ. Если же набор данных не содержит значения цели, можно создать их, добавив лист Excel с целями в модель данных или PBIX-файл.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 
 В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -105,4 +105,4 @@ ms.locfileid: "76974994"
 
 * [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

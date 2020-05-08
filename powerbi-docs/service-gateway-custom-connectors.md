@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609888"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Использование пользовательских соединителей данных с локальным шлюзом данных
@@ -58,4 +58,4 @@ ms.locfileid: "77609888"
 * [Настройка параметров прокси-сервера для локального шлюза данных](/data-integration/gateway/service-gateway-proxy)
 * [Использование Kerberos для единого входа из Power BI в локальные источники данных](service-gateway-sso-kerberos.md)  
 
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
