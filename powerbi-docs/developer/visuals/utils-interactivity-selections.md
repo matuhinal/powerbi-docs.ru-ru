@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
 ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379267"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Инструменты для взаимодействия визуальных элементов Power BI
@@ -186,7 +186,7 @@ ms.locfileid: "79379267"
     }
     ```
 
-5. Чтобы выполнить обработку щелчка элементов, вызовите метод `on` объекта выбора *d3*. Это также касается `elementsSelection` и `clearCatcherSelection`.
+5. Чтобы выполнить обработку щелчка элементов, вызовите метод *объекта выбора*d3`on`. Это также касается `elementsSelection` и `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {

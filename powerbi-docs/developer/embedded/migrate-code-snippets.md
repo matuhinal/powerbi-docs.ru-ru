@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114491"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Фрагменты кода для переноса содержимого из коллекции рабочих областей Power BI
@@ -23,7 +23,7 @@ ms.locfileid: "80114491"
 
 Приведенный ниже код — это пример использования C# и [пакета SDK .NET для Power BI](https://www.nuget.org/profiles/powerbi).
 
-Используйте для выполнения указанного ниже фрагмента кода следующие пространства имен.
+Убедитесь, что для выполнения приведенных ниже фрагментов кода используются следующие пространства имен.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -127,7 +127,7 @@ using System.Threading.Tasks;
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>Задание учетных данных DirectQuery в рабочей области SaaS
 
-В этом фрагменте кода для простоты используются незашифрованные учетные данные. Отправка зашифрованных учетных данных также поддерживается.
+В этом фрагменте кода мы используем незашифрованные учетные данные для простоты. Отправка зашифрованных учетных данных также поддерживается.
 
 ```csharp
     public class ConnectionString
@@ -239,4 +239,4 @@ using System.Threading.Tasks;
 [Пример внедрения JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Техническая документация по Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 76947b1e311bbd1a21e09ce39461a70bed61d926
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079607"
 ---
 # <a name="data-model-versioning"></a>Управление версиями в модели данных
@@ -36,7 +36,7 @@ ms.locfileid: "79079607"
   
 Службы ***НЕ ДОЛЖНЫ*** менять свою модель данных в зависимости от прошедшего аутентификацию пользователя. Если модель данных зависит от пользователя или группы пользователей, все изменения ДОЛЖНЫ быть безопасными (как указано в этом разделе), если сравнивать полную модель и модель, видимую пользователям с ограниченной авторизацией.  
   
-Дополнительную информацию о стандартах моделей данных OData см. в разделе [OData версии 4.0, часть 1, "Протокол и корректировочный список 02"](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
+Дополнительную информацию о стандартах моделей данных OData см. в разделе [OData версии 4.0, часть 1, "Протокол и корректировочный список 02"](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
   
-## <a name="see-also"></a>См. также:
-[Обзор интерфейса REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+## <a name="see-also"></a>См. также
+[Обзор интерфейса REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)

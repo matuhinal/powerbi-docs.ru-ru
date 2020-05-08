@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 32ca01d06f4fc8c3f90f73bf8137349eed0220a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698838"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
@@ -29,7 +29,7 @@ ms.locfileid: "74698838"
 
 * У клиента должна быть лицензия Azure Active Directory Premium.
 
-* У вас должна быть одна их следующих ролей: глобальный администратор, администратор системы безопасности или читатель сведений о безопасности.
+* У вас должна быть одна их следующих ролей: глобальный администратор, администратор безопасности или читатель сведений о безопасности.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Просмотр событий входа с помощью портала Azure
 
@@ -67,4 +67,4 @@ ms.locfileid: "74698838"
 
 [Применение функции аудита в своей организации](service-admin-auditing.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

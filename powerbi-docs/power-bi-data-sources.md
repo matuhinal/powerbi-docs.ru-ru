@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041684"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
@@ -25,120 +25,120 @@ ms.locfileid: "79041684"
 
 | Источник данных | Подключение из версии Desktop | Подключение и обновление из службы | Подключение DirectQuery и активное подключение | Шлюз (поддерживается) | Шлюз (обязательно) |
 |---|---|---|---|---|---|---|---|
-| База данных Access | Да | Да | Нет | Да <sup>1</sup> | Да |
-| ActiveDirectory | Да | Да | Нет | Да | Да |
-| Adobe Analytics | Да | Да | Нет | Нет | Нет |
-| Amazon Redshift | Да | Да | Да | Да | Нет |
-| appFigures | Да | Да | Нет | Нет | Нет |
-| Кубы AtScale | Да | Да | Да | Да | Нет |
-| Azure Analysis Services | Да | Да | Да | Да <sup>2</sup> | Нет |
-| Хранилище BLOB-объектов Azure | Да | Да | Нет | Да | Нет |
-| Azure Cosmos DB | Да | Да | Нет | Нет | Нет |
-| Управление затратами Azure | Да | Да | Нет | Нет | Нет |
-| Azure Data Explorer (Kusto) | Да | Да | Да | Нет | Нет |
-| Azure Data Lake Storage 1-го поколения | Да | Да | Нет | Нет | Нет |
-| Azure Data Lake Storage 2-го поколения | Да | Да | Нет | Да | Нет |
-| Azure DevOps | Да | Да | Нет | Нет | Нет |
-| Azure DevOps Server | Да | Да | Нет | Да | Да |
-| Azure HDInsight (HDFS) | Да | Да | Нет | Нет | Нет |
-| Azure HDInsight Spark | Да | Да | Да | Нет | Нет |
-| База данных SQL Azure | Да | Да | Да | Да <sup>2</sup> | Нет |
-| Хранилище данных SQL Azure | Да | Да | Да | Да <sup>2</sup> | Нет |
-| Хранилище таблиц Azure | Да | Да | Нет | Да | Нет |
-| Соединитель BI | Да | Да | Да | Да | Да |
-| BI360 — отчеты по бюджетам и финансам | Да | Да | Нет | Нет | Нет |
-| Common Data Service | Да | Да | Нет | Нет | Нет |
-| Data.World — получение набора данных | Да | Да | Нет | Нет | Нет |
-| Denodo | Да | Да | Да | Да | Да |
-| Dremio | Да | Да | Да | Да | Да |
-| Dynamics 365 (в сети) | Да | Да | Нет | Нет | Нет |
-| Dynamics 365 Business Central | Да | Да | Нет | Нет | Нет |
-| Dynamics 365 Business Central (локальный) | Да | Да | Нет | Нет | Нет |
-| Dynamics 365 Customer Insights | Да | Да | Нет | Нет | Нет |
-| Dynamics NAV | Да | Да | Нет | Нет | Нет |
-| Источник данных Emigo | Да | Да | Нет | Нет | Нет |
-| Entersoft Business Suite | Да | Да | Нет | Нет | Нет |
-| Essbase | Да | Да | Да | Да | Да |
-| Exasol | Да | Да | Да | Да | Да |
+| База данных Access | Yes | Yes | Нет | Да <sup>1</sup> | Yes |
+| ActiveDirectory | Yes | Yes | Нет | Yes | Yes |
+| Adobe Analytics | Yes | Yes | Нет | Нет | Нет |
+| Amazon Redshift | Yes | Yes | Yes | Yes | Нет |
+| Рисунки приложений | Yes | Yes | Нет | Нет | Нет |
+| Кубы AtScale | Yes | Yes | Yes | Yes | Нет |
+| Azure Analysis Services | Yes | Yes | Yes | Да <sup>2</sup> | Нет |
+| Хранилище BLOB-объектов Azure | Yes | Yes | Нет | Yes | Нет |
+| Azure Cosmos DB | Yes | Yes | Нет | Нет | Нет |
+| Управление затратами Azure | Yes | Yes | Нет | Нет | Нет |
+| Azure Data Explorer (Kusto) | Yes | Yes | Yes | Нет | Нет |
+| Azure Data Lake Storage 1-го поколения | Yes | Yes | Нет | Нет | Нет |
+| Azure Data Lake Storage 2-го поколения | Yes | Yes | Нет | Yes | Нет |
+| Azure DevOps | Yes | Yes | Нет | Нет | Нет |
+| Azure DevOps Server | Yes | Yes | Нет | Yes | Yes |
+| Azure HDInsight (HDFS) | Yes | Yes | Нет | Нет | Нет |
+| Azure HDInsight Spark | Yes | Yes | Yes | Нет | Нет |
+| База данных SQL Azure | Yes | Yes | Yes | Да <sup>2</sup> | Нет |
+| Хранилище данных SQL Azure | Yes | Yes | Yes | Да <sup>2</sup> | Нет |
+| Хранилище таблиц Azure | Yes | Yes | Нет | Yes | Нет |
+| Соединитель BI | Yes | Yes | Yes | Yes | Yes |
+| BI360 — отчеты по бюджетам и финансам | Yes | Yes | Нет | Нет | Нет |
+| Common Data Service | Yes | Yes | Нет | Нет | Нет |
+| Data.World — получение набора данных | Yes | Yes | Нет | Нет | Нет |
+| Denodo | Yes | Yes | Yes | Yes | Yes |
+| Dremio | Yes | Yes | Yes | Yes | Yes |
+| Dynamics 365 (Online) | Yes | Yes | Нет | Нет | Нет |
+| Dynamics 365 Business Central | Yes | Yes | Нет | Нет | Нет |
+| Dynamics 365 Business Central (локальный) | Yes | Yes | Нет | Нет | Нет |
+| Dynamics 365 Customer Insights | Yes | Yes | Нет | Нет | Нет |
+| Dynamics NAV | Yes | Yes | Нет | Нет | Нет |
+| Источник данных Emigo | Yes | Yes | Нет | Нет | Нет |
+| Entersoft Business Suite | Yes | Yes | Нет | Нет | Нет |
+| Essbase | Yes | Yes | Yes | Yes | Yes |
+| Exasol | Yes | Yes | Yes | Yes | Yes |
 | Excel | Да <sup>3</sup> | Да <sup>3</sup> | Нет | Да <sup>3</sup> | Нет <sup>4</sup> |
-| Facebook | Да | Да | Нет | Нет | Нет |
-| Файл | Да | Да | Нет | Да | Да |
-| Папка | Да | Да | Нет | Да | Да |
-| GitHub | Да | Да | Нет | Нет | Нет |
-| Google Analytics | Да | Да | Нет | Нет | Нет |
-| Google BigQuery | Да | Да | Нет | Нет | Нет |
-| Файл Hadoop (HDFS) | Да | Нет | Нет | Нет | Нет |
-| HDInsight Interactive Query | Да | Да | Да | Нет | Нет |
-| IBM DB2 | Да | Да | Да | Да | Нет |
-| База данных IBM Informix | Да | Да | Нет | Да | Нет |
-| IBM Netezza | Да | Да | Да | Да | Да |
-| Impala | Да | Да | Да | Да | Да |
-| Indexima | Да | Да | Да | Да | Да |
-| Industrial App Store | Да | Да | Нет | Нет | Нет |
-| Information Grid | Да | Да | Нет | Нет | Нет |
-| Intersystems IRIS | Да | Да | Да | Да | Да |
-| Хранилище данных Intune | Да | Да | Нет | Нет | Нет |
-| Jethro ODBC | Да | Да | Да | Да | Да |
-| JSON | Да | Да | Нет | Да** | Нет <sup>4</sup> |
-| Kyligence Enterprise | Да | Да | Да | Да | Да |
-| MailChimp | Да | Да | Нет | Нет | Нет |
-| Marketo | Да | Да | Нет | Нет | Нет |
-| MarkLogic ODBC | Да | Да | Да | Да | Да |
-| Microsoft Azure Consumption Insights | Да | Да | Нет | Нет | Нет |
-| Microsoft Exchange | Да | Да | Нет | Да | Нет |
-| Microsoft Exchange Online | Да | Да | Нет | Нет | Нет |
-| Microsoft Graph Security | Да | Да | Нет | Да | Нет |
-| Mixpanel | Да | Да | Нет | Нет | Нет |
-| MySQL | Да | Да | Нет | Да | Да |
-| OData | Да | Да | Нет | Да | Нет |
-| ODBC | Да | Да | Нет | Да | Да |
-| OleDb | Да | Да | Нет | Да | Да |
-| Oracle | Да | Да | Да | Да | Да |
-| Paxata | Да | Да | Нет | Да | Нет |
-| PDF | Да | Да | Нет | Да | Нет <sup>4</sup> |
-| Planview Enterprise One — CTM | Да | Да | Нет | Нет | Нет |
-| Planview Enterprise One — PRM | Да | Да | Нет | Нет | Нет |
-| Planview Projectplace | Да | Да | Нет | Нет | Нет |
-| PostgreSQL | Да | Да | Да | Да | Нет |
-| Потоки данных Power BI | Да | Да | Нет | Нет | Нет |
-| Наборы данных Power BI | Да | Да | Да | Нет | Нет |
-| Потоки данных Power Platform | Да | Да | Нет | Нет | Нет |
-| Скрипт Python | Да | Да <sup>5</sup> | Нет | Да <sup>5</sup> | Да |
-| QubolePresto | Да | Да | Да | Да | Да |
-| Quick Base | Да | Да | Нет | Да | Да |
-| QuickBooks Online | Да | Да | Нет | Нет | Нет |
-| Скрипт R | Да | Да <sup>5</sup> | Нет | Да <sup>5</sup> | Нет |
-| Roamler | Да | Да | Нет | Да | Нет |
-| Объекты SalesForce | Да | Да | Нет | Нет | Нет |
-| Отчеты Salesforce | Да | Да | Нет | Нет | Нет |
-| Сервер сообщений SAP Business Warehouse | Да | Да | Да | Да | Да |
-| Сервер SAP Business Warehouse | Да | Да | Да | Да | Да |
-| SAP HANA | Да | Да | Да | Да | Да |
-| Папка SharePoint | Да | Да | Нет | Да | Нет <sup>4</sup> |
-| Список SharePoint | Да | Да | Нет | Да | Нет <sup>4</sup> |
-| Список SharePoint Online | Да | Да | Нет | Да <sup>2</sup> | Нет |
-| Smartsheet | Да | Да | Нет | Нет | Нет |
-| Снежинка | Да | Да | Да | Да | Нет |
-| Spark | Да | Да | Да | Да | Нет |
-| SparkPost | Да | Да | Нет | Нет | Нет |
-| SQL Server | Да | Да | Да | Да | Да |
-| Службы SQL Server Analysis Services | Да | Да | Да | Да | Да |
-| Stripe | Да | Да | Нет | Нет | Нет |
-| SurveyMonkey | Да | Да | Нет | Да | Нет |
-| SweetIQ | Да | Да | Нет | Нет | Нет |
-| Sybase | Да | Да | Нет | Да | Да |
-| TeamDesk | Да | Да | Нет | Да | Нет |
-| Tenforce | Да | Да | Нет | Нет | Нет |
-| Teradata | Да | Да | Да | Да | Да |
-| Текстовый или CSV-файл | Да | Да | Нет | Да | Нет <sup>4</sup> |
-| Twilio | Да | Да | Нет | Нет | Нет |
-| tyGraph | Да | Да | Нет | Нет | Нет |
-| Vertica | Да | Да | Да | Да | Да |
-| Интернет | Да | Да | Нет | Да | Да <sup>6</sup> |
-| Webtrends | Да | Да | Нет | Нет | Нет |
-| Workforce Dimensions | Да | Да | Нет | Да | Нет |
-| XML | Да | Да | Нет | Да | Нет <sup>4</sup> |
-| Zendesk | Да | Да | Нет | Нет | Нет |
+| Facebook | Yes | Yes | Нет | Нет | Нет |
+| Файл | Yes | Yes | Нет | Yes | Yes |
+| Папка | Yes | Yes | Нет | Yes | Yes |
+| GitHub | Yes | Yes | Нет | Нет | Нет |
+| Google Analytics | Yes | Yes | Нет | Нет | Нет |
+| Google BigQuery | Yes | Yes | Нет | Нет | Нет |
+| Файл Hadoop (HDFS) | Yes | Нет | Нет | Нет | Нет |
+| HDInsight Interactive Query | Yes | Yes | Yes | Нет | Нет |
+| IBM DB2 | Yes | Yes | Yes | Yes | Нет |
+| База данных IBM Informix | Yes | Yes | Нет | Yes | Нет |
+| IBM Netezza | Yes | Yes | Yes | Yes | Yes |
+| Impala | Yes | Yes | Yes | Yes | Yes |
+| Indexima | Yes | Yes | Yes | Yes | Yes |
+| Industrial App Store | Yes | Yes | Нет | Нет | Нет |
+| Information Grid | Yes | Yes | Нет | Нет | Нет |
+| Intersystems IRIS | Yes | Yes | Yes | Yes | Yes |
+| Хранилище данных Intune | Yes | Yes | Нет | Нет | Нет |
+| Jethro ODBC | Yes | Yes | Yes | Yes | Yes |
+| JSON | Yes | Yes | Нет | Да** | Нет <sup>4</sup> |
+| Kyligence Enterprise | Yes | Yes | Yes | Yes | Yes |
+| MailChimp | Yes | Yes | Нет | Нет | Нет |
+| Marketo | Yes | Yes | Нет | Нет | Нет |
+| MarkLogic ODBC | Yes | Yes | Yes | Yes | Yes |
+| Microsoft Azure Consumption Insights | Yes | Yes | Нет | Нет | Нет |
+| Microsoft Exchange | Yes | Yes | Нет | Yes | Нет |
+| Microsoft Exchange Online | Yes | Yes | Нет | Нет | Нет |
+| Безопасность Microsoft Graph | Yes | Yes | Нет | Yes | Нет |
+| Mixpanel | Yes | Yes | Нет | Нет | Нет |
+| MySQL | Yes | Yes | Нет | Yes | Yes |
+| OData | Yes | Yes | Нет | Yes | Нет |
+| ODBC | Yes | Yes | Нет | Yes | Yes |
+| OleDb | Yes | Yes | Нет | Yes | Yes |
+| Oracle | Yes | Yes | Yes | Yes | Yes |
+| Paxata | Yes | Yes | Нет | Yes | Нет |
+| PDF; | Yes | Yes | Нет | Yes | Нет <sup>4</sup> |
+| Planview Enterprise One — CTM | Yes | Yes | Нет | Нет | Нет |
+| Planview Enterprise One — PRM | Yes | Yes | Нет | Нет | Нет |
+| Planview Projectplace | Yes | Yes | Нет | Нет | Нет |
+| PostgreSQL | Yes | Yes | Yes | Yes | Нет |
+| Потоки данных Power BI | Yes | Yes | Нет | Нет | Нет |
+| Наборы данных Power BI | Yes | Yes | Yes | Нет | Нет |
+| Потоки данных Power Platform | Yes | Yes | Нет | Нет | Нет |
+| Скрипт Python | Yes | Да <sup>5</sup> | Нет | Да <sup>5</sup> | Yes |
+| QubolePresto | Yes | Yes | Yes | Yes | Yes |
+| Quick Base | Yes | Yes | Нет | Yes | Yes |
+| QuickBooks Online | Yes | Yes | Нет | Нет | Нет |
+| Сценарий R | Yes | Да <sup>5</sup> | Нет | Да <sup>5</sup> | Нет |
+| Roamler | Yes | Yes | Нет | Yes | Нет |
+| Объекты SalesForce | Yes | Yes | Нет | Нет | Нет |
+| Отчеты Salesforce | Yes | Yes | Нет | Нет | Нет |
+| Сервер сообщений SAP Business Warehouse | Yes | Yes | Yes | Yes | Yes |
+| Сервер SAP Business Warehouse | Yes | Yes | Yes | Yes | Yes |
+| SAP HANA | Yes | Yes | Yes | Yes | Yes |
+| Папка SharePoint | Yes | Yes | Нет | Yes | Нет <sup>4</sup> |
+| Список SharePoint | Yes | Yes | Нет | Yes | Нет <sup>4</sup> |
+| Список SharePoint Online | Yes | Yes | Нет | Да <sup>2</sup> | Нет |
+| Smartsheet | Yes | Yes | Нет | Нет | Нет |
+| Снежинка | Yes | Yes | Yes | Yes | Нет |
+| Spark | Yes | Yes | Yes | Yes | Нет |
+| SparkPost. | Yes | Yes | Нет | Нет | Нет |
+| SQL Server | Yes | Yes | Yes | Yes | Yes |
+| Службы SQL Server Analysis Services | Yes | Yes | Yes | Yes | Yes |
+| Stripe | Yes | Yes | Нет | Нет | Нет |
+| SurveyMonkey | Yes | Yes | Нет | Yes | Нет |
+| SweetIQ | Yes | Yes | Нет | Нет | Нет |
+| Sybase | Yes | Yes | Нет | Yes | Yes |
+| TeamDesk | Yes | Yes | Нет | Yes | Нет |
+| Tenforce | Yes | Yes | Нет | Нет | Нет |
+| Teradata | Yes | Yes | Yes | Yes | Yes |
+| Text/CSV. | Yes | Yes | Нет | Yes | Нет <sup>4</sup> |
+| Twilio | Yes | Yes | Нет | Нет | Нет |
+| tyGraph | Yes | Yes | Нет | Нет | Нет |
+| Vertica | Yes | Yes | Yes | Yes | Yes |
+| Интернет | Yes | Yes | Нет | Yes | Да <sup>6</sup> |
+| Webtrends | Yes | Yes | Нет | Нет | Нет |
+| Workforce Dimensions | Yes | Yes | Нет | Yes | Нет |
+| XML | Yes | Yes | Нет | Yes | Нет <sup>4</sup> |
+| Zendesk | Yes | Yes | Нет | Нет | Нет |
 | | | | | | | | |
 
 <sup>1</sup> Поддерживаются [поставщиком ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920), установленным на том же компьютере, что и шлюз.
@@ -159,14 +159,14 @@ ms.locfileid: "79041684"
 Параметр единого входа применяется ко всем наборам данных, в которых используется этот источник. Это не влияет на метод аутентификации, который применяется для сценариев импорта. Следующие источники данных поддерживают единый вход для подключений через DirectQuery.
 
 - База данных SQL Azure
-- Хранилище данных SQL Azure
+- Хранилище данных SQL Azure
 - Impala
 - SAP HANA
 - SAP BW
 - Сервер сообщений SAP BW
 - Снежинка
 - Spark
-- SQL Server
+- SQL Server
 - Teradata
 
 > [!Note]

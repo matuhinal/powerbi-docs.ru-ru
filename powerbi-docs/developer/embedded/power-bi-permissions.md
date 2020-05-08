@@ -1,6 +1,6 @@
 ---
-title: Разрешения Power BI
-description: Разрешения Power BI
+title: Разрешения в Power BI
+description: Разрешения в Power BI
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
 ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79491371"
 ---
-# <a name="power-bi-permissions"></a>Разрешения Power BI
+# <a name="power-bi-permissions"></a>Разрешения в Power BI
 
 ## <a name="permission-scopes"></a>Области разрешений
 
@@ -53,4 +53,4 @@ ms.locfileid: "79491371"
 * **Маркер авторизации** — используется для аутентификации вызовов API от имени другого пользователя. Они будут выдаваться для определенного приложения. У маркеров есть заданное время существования, и после его окончании их необходимо будет обновить.
 * **Обновление маркера** — когда срок действия маркера истекает, выполняется процесс его обновления.
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

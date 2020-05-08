@@ -1,5 +1,5 @@
 ---
-title: Приостановка и запуск емкости Power BI Embedded на портале Azure | Документы Майкрософт
+title: Приостановка и запуск емкости Power BI Embedded на портале Azure | Документация Майкрософт
 description: В этой статье рассматривается приостановка и запуск емкости Power BI Embedded в Microsoft Azure.
 services: power-bi-embedded
 author: KesemSharabi
@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114757"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Приостановка и запуск емкости Power BI Embedded на портале Azure
@@ -43,7 +43,7 @@ ms.locfileid: "80114757"
 
     ![Приостановка емкости](media/azure-pbie-pause-start/azure-portal-pause-capacity.png)
 
-5. Выберите **Да**, чтобы подтвердить приостановку емкости.
+5. Щелкните **Да**, чтобы подтвердить приостановку емкости.
 
     ![Подтверждение приостановки](media/azure-pbie-pause-start/azure-portal-confirm-pause.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "80114757"
 
     ![Запуск емкости](media/azure-pbie-pause-start/azure-portal-start-capacity.png)
 
-5. Выберите **Да**, чтобы подтвердить запуск емкости.
+5. Щелкните **Да**, чтобы подтвердить запуск емкости.
 
     ![Подтверждение запуска](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
 
@@ -77,4 +77,4 @@ ms.locfileid: "80114757"
 
 Чтобы начать внедрение содержимого Power BI в приложение, см. раздел [Как внедрять панели мониторинга, отчеты и плитки Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

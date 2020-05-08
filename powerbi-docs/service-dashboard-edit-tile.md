@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207604"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Изменение и удаление плитки на информационной панели
@@ -38,7 +38,7 @@ ms.locfileid: "79207604"
   > Чтобы изменить визуализацию на самой плитке, удалите ее и добавьте новую [плитку панели мониторинга](consumer/end-user-tiles.md).
 
   
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 Чтобы перейти к выполнению руководства, откройте службу Power BI (не Power BI Desktop) и [скачайте пример "Анализ расходов на ИТ"](sample-it-spend.md). Когда появится сообщение об успешном выполнении, щелкните **Перейти к панели мониторинга**.
 
 - - -
@@ -65,7 +65,7 @@ ms.locfileid: "79207604"
 
    ![наведение указателя мыши на плитку](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. Когда появится сообщение об успешном выполнении, щелкните **Перейти к панели мониторинга**. Вам будет предложено сохранить изменения. Нажмите кнопку **Сохранить**.
+6. Когда появится сообщение об успешном выполнении, щелкните **Перейти к панели мониторинга**. Вам будет предложено сохранить изменения. Щелкните **Сохранить**.
 
 - - -
 <a name="move"></a>
@@ -141,11 +141,11 @@ ms.locfileid: "79207604"
 
 - - -
 ## <a name="next-steps"></a>Дальнейшие действия
-[Плитки панели мониторинга в Power BI](consumer/end-user-tiles.md)
+[Плитки панели мониторинга в Power BI](consumer/end-user-tiles.md)
 
-[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)
+[Панели мониторинга в Power BI](consumer/end-user-dashboards.md)
 
 [Основные понятия для разработчиков в службе Power BI](service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

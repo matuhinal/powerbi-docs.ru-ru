@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114963"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
@@ -185,7 +185,7 @@ https://fs.contoso.com
 
     ![Ограниченное делегирование WAP 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. Выберите **ОК**.
+11. Нажмите кнопку **ОК**.
 
 ### <a name="add-wap-application"></a>Добавление приложения WAP
 
@@ -232,7 +232,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 После того как вы нажмете кнопку **Войти**, вы увидите элементы с сервера Reporting Services.
 
-## <a name="multi-factor-authentication"></a>Многофакторная проверка подлинности
+## <a name="multi-factor-authentication"></a>Многофакторная Идентификация
 
 Вы можете включить многофакторную проверку подлинности, чтобы повысить уровень безопасности среды. Дополнительные сведения см. в статье о [настройке AD FS 2016 и Многофакторной идентификации Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
@@ -254,5 +254,5 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 [Службы федерации Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Прокси-служба веб-приложения в Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Публикация приложений с помощью предварительной проверки подлинности AD FS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[Настройка AD FS 2016 и Многофакторной идентификации Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+[Настройка AD FS 2016 и Многофакторной идентификации Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
