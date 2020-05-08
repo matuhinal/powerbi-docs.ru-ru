@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488828"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82585019"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -22,11 +22,13 @@ ms.locfileid: "79488828"
 
 Действие **Внедрение** поддерживает [фильтры URL-адресов](service-url-filters.md) и параметры URL-адресов. Оно позволяет настроить интеграцию с порталами, используя подход с малым объемом кода, который требует базового понимания языков HTML и JavaScript.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>**Внедрение** отчетов Power BI на порталы
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Внедрение отчетов Power BI на порталы
 
-1. Новый параметр **Внедрение** доступен через меню **Файл** для отчетов в службе Power BI.
+1. Откройте отчет в службе Power BI.
 
-    ![Действие безопасного внедрения в раскрывающемся списке](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. В меню **Дополнительные параметры (...)** выберите пункты **Внедрить** >  **Веб-сайт или портал**.
+
+    ![Пункт "Веб-сайт или портал"](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Выберите параметр **Внедрение**, чтобы открыть диалоговое окно со ссылкой и кодом iFrame, который используется для безопасного внедрения отчета.
 

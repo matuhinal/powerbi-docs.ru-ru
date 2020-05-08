@@ -10,10 +10,10 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709777"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Проверка производительности элементов отчета с помощью Анализатора производительности
@@ -86,10 +86,10 @@ ms.locfileid: "76709777"
 Дополнительные сведения о **Power BI Desktop** и инструкции по началу работы см. в следующих статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-* [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)
-* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Обзор запросов в Power BI Desktop](desktop-query-overview.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)
+* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)   
 
 Сведения о примере анализатора производительности см. в следующих ресурсах.

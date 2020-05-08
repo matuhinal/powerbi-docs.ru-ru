@@ -1,12 +1,12 @@
 ---
 ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "71409381"
 ---
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+## <a name="faq"></a>Часто задаваемые вопросы
 **Вопрос.** Что, если у меня уже созданы роли и правила для набора данных в службе Power BI? Будут ли они работать, если ничего не делать?  
 **Ответ.** Нет, визуальные элементы не будут отображаться правильным образом. Вам придется повторно создать роли и правила в Power BI Desktop, а затем опубликовать их в службе Power BI.
 

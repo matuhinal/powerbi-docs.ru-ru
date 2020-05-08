@@ -11,17 +11,17 @@ ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550882"
 ---
 # <a name="visuals-in-power-bi"></a>Визуальные элементы в Power BI
 
 В состав Power BI входит множеством готовых визуальных элементов Power BI. Эти визуальные элементы доступны на панели визуализации как в [Power BI Desktop](https://powerbi.microsoft.com/desktop/), так и в [службе Power BI](https://app.powerbi.com). Их можно использовать для создания и редактирования содержимого Power BI.
 
-![визуализации](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Визуализации](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 В Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) и в Power BI также доступно множество других визуальных элементов Power BI. Эти визуальные элементы создаются корпорацией Майкрософт и ее партнерами, а затем тестируются и проверяются командой проверки AppSource.
 
@@ -80,4 +80,4 @@ ms.locfileid: "80550882"
 
 * Изучите [рекомендации по визуальным элементам Power BI](guidelines-powerbi-visuals.md).
 
-Появились дополнительные вопросы? Ознакомьтесь с [вопросами и ответами о визуальных элементах Power BI](power-bi-custom-visuals-faq.md) или обратитесь за помощью к участникам [сообщества Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? Ознакомьтесь с [вопросами и ответами о визуальных элементах Power BI](power-bi-custom-visuals-faq.md) или обратитесь за помощью к участникам [сообщества Power BI](https://community.powerbi.com/).

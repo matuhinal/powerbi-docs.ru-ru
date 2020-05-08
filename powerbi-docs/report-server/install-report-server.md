@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160611"
 ---
-# <a name="install-power-bi-report-server"></a>Установить сервер отчетов Power BI
+# <a name="install-power-bi-report-server"></a>Установка сервера отчетов Power BI
 
 Узнайте, как установить сервер отчетов Power BI.
 
@@ -65,7 +65,7 @@ ms.locfileid: "76160611"
 
 2. Выберите **Install Power BI Report Server** (Установить сервер отчетов Power BI).
 
-    ![Установить сервер отчетов Power BI](media/install-report-server/pbireportserver-install.png)
+    ![Установка сервера отчетов Power BI](media/install-report-server/pbireportserver-install.png)
 3. Выберите выпуск, который нужно установить, и нажмите кнопку **Далее**.
 
     ![Выбор выпуска](media/install-report-server/pbireportserver-choose-edition.png)
@@ -77,7 +77,7 @@ ms.locfileid: "76160611"
     В противном случае введите ключ продукта для сервера, полученный из службы Power BI или на сайте Volume License Service Center. Дополнительные сведения о получении ключа продукта см. в разделе [Подготовка к установке](#before-you-install) выше.
 4. Прочтите и примите условия лицензионного соглашения, а затем нажмите кнопку **Далее**.
 
-    ![Условия лицензии](media/install-report-server/pbireportserver-eula.png)
+    ![Условия лицензионного соглашения](media/install-report-server/pbireportserver-eula.png)
 5. Для хранения базы данных сервера отчетов требуется ядро СУБД. Нажмите кнопку **Далее**, чтобы установить только сервер отчетов.
 
     ![Установка только файлов](media/install-report-server/pbireportserver-install-files-only.png)
@@ -105,11 +105,11 @@ ms.locfileid: "76160611"
 
 `System.Data.SqlClient.SqlException (0x80131904): Windows NT user or group '(null)' not found. Check the name again.`
 
-Чтобы устранить эту ошибку, измените учетную запись службы на учетную запись сетевой службы или домена. Если изменить учетную запись службы на учетную запись сетевой службы, будут применены права в контексте учетной записи компьютера сервера отчетов.
+Чтобы устранить ее, измените учетную запись службы на учетную запись сетевой службы или учетную запись домена. Если изменить учетную запись службы на учетную запись сетевой службы, будут применены права в контексте учетной записи компьютера сервера отчетов.
 
 ![Настройка учетной записи службы сервера отчетов](media/install-report-server/pbireportserver-configure-account.png)
 
-Дополнительные сведения см. в статье, посвященной [настройке учетной записи службы сервера отчетов](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
+Дополнительные сведения см. в разделе [Настройка учетной записи службы сервера отчетов](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
 
 ## <a name="windows-service"></a>Служба Windows
 
@@ -125,15 +125,15 @@ ms.locfileid: "76160611"
 
 | Часть | Описание |
 | --- | --- |
-| Префикс |Префикс по умолчанию — HTTP. Если сертификат Secure Sockets Layer (SSL) уже установлен, программа установки пытается создать резервирование URL-адреса с префиксом HTTPS. |
-| Имя узла |Имя узла по умолчанию является строгим подстановочным знаком (+). Оно указывает, что сервер отчетов принимает любой HTTP-запрос к указанному порту для любого имени узла, которое соответствует компьютеру, включая `https://<computername>/reportserver`, `https://localhost/reportserver` или`https://<IPAddress>/reportserver.`. |
+| Префикс |Префикс по умолчанию — HTTP. Если сертификат SSL уже установлен, программа установки попытается создать резервирование URL-адресов с префиксом HTTPS. |
+| Имя узла |Имя узла по умолчанию является строгим подстановочным знаком (+). Он указывает, что сервер отчетов принимает все HTTP-запросы в заданном порте для любого имени узла, который соответствует компьютеру, включая `https://<computername>/reportserver`, `https://localhost/reportserver` или `https://<IPAddress>/reportserver.` |
 | Порт |Порт по умолчанию — 80. Если используется порт, отличный от порта 80, необходимо явно добавить его в URL-адрес при открытии веб-портала в окне браузера. |
 | Виртуальный каталог |По умолчанию виртуальные каталоги создаются в формате ReportServer для веб-службы сервера отчетов и Reports — для веб-портала. Для веб-службы сервера отчетов виртуальный каталог по умолчанию — **reportserver**. Для веб-портала виртуальный каталог по умолчанию — **reports**. |
 
 Пример полной строки URL-адреса может выглядеть следующим образом:
 
 * `https://+:80/reportserver` — предоставляет доступ к серверу отчетов;
-* `https://+:80/reports` — предоставляет доступ к веб-порталу.
+* `https://+:80/reports`, предоставляет доступ к веб-порталу.
 
 ## <a name="firewall"></a>Брандмауэр
 
@@ -162,4 +162,4 @@ ms.locfileid: "76160611"
 [Configure Windows Service Accounts and Permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions) (Настройка учетных записей и разрешений службы Windows)  
 [Поддержка браузера для сервера отчетов Power BI](browser-support.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

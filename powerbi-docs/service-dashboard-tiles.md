@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637879"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Общие сведения о плитках панели мониторинга для разработчиков Power BI
@@ -37,11 +37,11 @@ ms.locfileid: "81637879"
 ## <a name="pin-a-tile"></a>Закрепление плитки
 Существует много различных способов добавления (закрепления) плитки на информационной панели. Вы можете закрепить плитки из следующих расположений:
 
-* [Функция "Вопросы и ответы" Power BI](service-dashboard-pin-tile-from-q-and-a.md)
+* [Функция "Вопросы и ответы" Power BI](service-dashboard-pin-tile-from-q-and-a.md)
 * [Отчет](service-dashboard-pin-tile-from-report.md)
 * [Другая панель мониторинга](service-pin-tile-to-another-dashboard.md)
 * [Книга Excel в OneDrive для бизнеса](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (Краткая аналитика)](service-insights.md)
+* [Краткая аналитика](service-insights.md)
 * [Локальный отчет с разбивкой на страницы на сервере отчетов Power BI или в SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Автономные плитки для изображений, текстовых полей, видео, потоковой передачи данных и веб-содержимого можно создать непосредственно на панели мониторинга с помощью элемента управления [Добавить плитку](service-dashboard-add-widget.md).
@@ -100,5 +100,5 @@ ms.locfileid: "81637879"
 - [Интеграция плиток Power BI с документами Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Закрепление элементов Reporting Services на панелях мониторинга в Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).
 

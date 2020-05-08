@@ -11,10 +11,10 @@ ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006671"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Включение шифрования для SAP HANA
@@ -100,7 +100,7 @@ ms.locfileid: "81006671"
 
 1. Прежде чем пытаться установить подключение к серверу SAP HANA, убедитесь, что в Power BI Desktop или на странице **Управление шлюзами** службы Power BI включен параметр **Проверять сертификат сервера**. Для параметра **Поставщик шифрования SSL** выберите mscrypto, если вы использовали шаги настройки OpenSSL, и commoncrypto, если вы настроили эту библиотеку в качестве поставщика услуг шифрования. Оставьте поля "Хранилище ключей SSL" и "Хранилище доверия SSL" пустыми.
 
-    - Power BI Desktop
+    - Power BI Desktop
 
         ![Проверка сертификата сервера — служба](media/desktop-sap-hana-encryption/validate-server-certificate-service.png)
 

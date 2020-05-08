@@ -1,19 +1,19 @@
 ---
 title: Советы по созданию приложений-шаблонов в Power BI
 description: Советы по созданию запросов, моделей данных, отчетов и панелей мониторинга для разработки эффективных приложений-шаблонов.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066289"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781301"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -142,22 +142,8 @@ ms.locfileid: "82066289"
 * Power BI — доступно для просмотра пользователю Power BI.
 
 Пример перенаправления пользователя на ссылку для скачивания приложения в Power BI: [репозиторий GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+
 [![Ссылка для скачивания приложения](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>Известные ограничения
-
-| Признак | Известные ограничения |
-|---------|---------|
-|Содержимое:  Наборы данных   | Должен присутствовать строго один набор данных. Разрешены только наборы данных, созданные в Power BI Desktop (PBIX-файлы). <br>Не поддерживаются: наборы данных из других приложений-шаблонов, наборы данных для нескольких рабочих областей, отчеты с разбивкой на страницы (RDL-файлы), книги Excel, расширенные метаданные наборов данных. |
-|Содержимое: Панели мониторинга | Плитки в режиме реального времени недопустимы (другими словами, не поддерживаются принудительная отправка или трансляция наборов данных) |
-|Содержимое: Потоки данных | Не поддерживаются: Потоки данных |
-|Содержимое из файлов | Разрешены только PBIX-файлы. <br>Не поддерживаются: RDL-файлы (отчеты с разбивкой на страницы), книги Excel.   |
-| Источники данных | Разрешены источники данных, поддерживаемые для обновления данных по расписанию в облаке. <br>Не поддерживаются: <li> DirectQuery</li><li>Активные подключения (не Azure AS)</li> <li>Локальные источники данных (личный и корпоративный шлюзы не поддерживаются)</li> <li>Режим реального времени (не поддерживается принудительная отправка наборов данных)</li> <li>Составные модели</li></ul> |
-| Набор данных: для нескольких рабочих областей | Наборы данных для нескольких рабочих областей недопустимы.  |
-| Параметры запроса | Не поддерживаются: параметры типа Any или Binary блокируют операцию обновления набора данных. |
-| Визуальные элементы Power BI | Поддерживаются только общедоступные визуальные элементы Power BI. [Визуальные элементы Power BI для организации](developer/visuals/power-bi-custom-visuals-organization.md) не поддерживаются |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

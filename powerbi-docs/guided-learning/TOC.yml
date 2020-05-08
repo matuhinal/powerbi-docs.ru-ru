@@ -4,13 +4,13 @@
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: "Сборка с помощью Power\_BI"
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
-- name: Получить данные
+- name: Получение данных
   href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
-- name: Модель данных
+- name: Данные модели
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: Использование визуальных элементов
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
-- name: Изучение данных
+- name: Анализ данных
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
 - name: Публикация и общий доступ
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'

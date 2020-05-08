@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d92d7a3095ff2f252a09834becf90d5efc1811a0
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113062"
 ---
 # <a name="view-power-bi-notifications"></a>Просмотр уведомлений в Power BI
@@ -48,5 +48,5 @@ ms.locfileid: "79113062"
 * [Оповещения о данных в службе Power BI](end-user-alerts.md)
 * [Настройка оповещений о данных в приложении Power BI для iOS на устройствах iPhone и iPad](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

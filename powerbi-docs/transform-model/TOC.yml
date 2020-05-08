@@ -83,7 +83,7 @@
               href: ../service-dataflows-create-use.md
             - name: Повышение уровня или сертификация потоков данных
               href: service-dataflows-promote-certify.md
-            - name: Использование расширенного ядра вычислений для потоков данных
+            - name: Использование расширенного вычислительного модуля для потоков данных
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Вычисляемые сущности с Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md
@@ -103,7 +103,7 @@
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: "Подключение Azure Data Lake\_Storage 2-го\_поколения для хранения потоков данных"
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: Настройка параметров потоков данных рабочей области (предварительная версия)
+            - name: Настройка параметров потока данных рабочей области (предварительная версия)
               href: ../service-dataflows-configure-workspace-storage-settings.md
             - name: Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
               href: ../service-dataflows-add-cdm-folder.md
@@ -113,7 +113,7 @@
               href: ../service-cognitive-services.md
             - name: "Автоматизированное машинное обучение в Power\_BI"
               href: ../service-machine-learning-automated.md
-    - name: Справка
+    - name: Справочник
       items:
         - name: Ярлыки редактора формул
           href: ../desktop-formula-editor.md

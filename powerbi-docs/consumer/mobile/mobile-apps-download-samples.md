@@ -8,17 +8,17 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256800"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Скачивание примеров в раздел "Моя рабочая область" в службе Power BI
 
 В некоторых представленных здесь документах по мобильному приложению в качестве иллюстрации используется пример данных. Для выполнения инструкций на своем устройстве вы можете скачать пример данных в свою учетную запись службы Power BI, откуда вы сможете открывать его в мобильном приложении Power BI. В этой статье описывается, как скачать пример данных в учетную запись службы Power BI. 
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 
 Для скачивания данных необходима учетная запись службы Power BI. Если вы не зарегистрированы в Power BI, перед началом работы [пройдите бесплатную регистрацию](https://app.powerbi.com/signupredirect?pbi_source=web).
 

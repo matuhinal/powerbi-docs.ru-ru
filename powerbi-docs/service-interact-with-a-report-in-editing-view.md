@@ -10,10 +10,10 @@ ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 791df63db1ef87bd5d61d80f97e225ae63feae2c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79201523"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Взаимодействие с отчетом в режиме правки в службе Power BI
@@ -44,5 +44,5 @@ ms.locfileid: "79201523"
 ## <a name="next-steps"></a>Дальнейшие действия
 Возврат к [режиму чтения и правки в службе Power BI](consumer/end-user-reading-view.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

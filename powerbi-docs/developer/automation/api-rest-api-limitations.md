@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 5f4067e77631f22951844c0d4d64b06e5e2e30cc
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079584"
 ---
 # <a name="power-bi-rest-api-limitations"></a>Ограничения REST API Power BI  
@@ -30,7 +30,7 @@ ms.locfileid: "79079584"
 * Максимум 5 000 000 сохраняемых строк для каждой таблицы в наборе данных "без политики хранения"  
 * 4 000 символов на значение для столбца строки в операции POST со строками
   
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 * [Лимиты и ограничения службы Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-service-limits-restrictions)   
-* [Обзор интерфейса REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+* [Обзор интерфейса REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)

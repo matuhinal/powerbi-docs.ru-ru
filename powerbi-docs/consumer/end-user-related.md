@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114386"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Просмотр связанного содержимого в службе Power BI
@@ -52,7 +52,7 @@ ms.locfileid: "79114386"
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Просмотр содержимого, связанного с набором данных
-Чтобы открыть область **связанного содержимого**, вам нужны по крайней мере разрешения на *просмотр* набора данных. В этом сценарии мы используем пример [Анализ закупок](../sample-procurement.md).
+Чтобы открыть область *связанного содержимого*, вам нужны по крайней мере разрешения на **просмотр** набора данных. В этом сценарии мы используем пример [Анализ закупок](../sample-procurement.md).
 
 В области навигации найдите заголовок **Рабочие области** и выберите нужную область в списке. Если у вас есть содержимое в рабочей области, оно будет отображаться на холсте справа. 
 
@@ -76,5 +76,5 @@ ms.locfileid: "79114386"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Приступая к работе с Power BI](../service-get-started.md)
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

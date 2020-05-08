@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979852"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
@@ -30,82 +30,82 @@ ms.locfileid: "80979852"
 
 | **Источник данных** | **Кэшированные данные** | **Запланированное обновление** | **Активный запрос или запрос DirectQuery** |
 | --- | --- | --- | --- |
-| База данных SQL Server |Да |Да |Да |
-| Службы SQL Server Analysis Services |Да |Да |Да |
-| База данных SQL Azure |Да |Да |Да |
-| Хранилище данных SQL Azure |Да |Да |Да |
-| Excel |Да |Да |Нет |
-| База данных Access |Да |Да |Нет |
-| Active Directory |Да |Да |Нет |
-| Amazon Redshift |Да |Нет |Нет |
-| Хранилище BLOB-объектов Azure |Да |Да |Нет |
-| Azure Data Lake Store |Да |Нет |Нет |
-| Azure HDInsight (HDFS) |Да |Нет |Нет |
-| Azure HDInsight (Spark) |Да |Нет |Нет |
-| Хранилище таблиц Azure |Да |Да |Нет |
-| Dynamics 365 (в сети) |Да |Нет |Нет |
-| Facebook |Да |Нет |Нет |
-| Папка |Да |Да |Нет |
-| Google Analytics |Да |Нет |Нет |
-| Файл Hadoop (HDFS) |Да |Нет |Нет |
-| База данных IBM DB2 |Да |Да |Нет |
-| Impala |Да |Нет |Нет |
-| JSON |Да |Да |Нет |
-| Microsoft Exchange |Да |Нет |Нет |
-| Microsoft Exchange Online |Да |Нет |Нет |
-| База данных MySQL |Да |Да |Нет |
-| Веб-канал OData |Да |Да |Нет |
-| ODBC |Да |Да |Нет |
-| OLE DB |Да |Да |Нет |
-| База данных Oracle |Да |Да |Да |
-| База данных PostgreSQL |Да |Да |Нет |
+| База данных SQL Server |Yes |Yes |Yes |
+| Службы SQL Server Analysis Services |Yes |Yes |Yes |
+| База данных SQL Azure |Yes |Yes |Yes |
+| Хранилище данных SQL Azure |Yes |Yes |Yes |
+| Excel |Yes |Yes |Нет |
+| База данных Access |Yes |Yes |Нет |
+| Active Directory |Yes |Yes |Нет |
+| Amazon Redshift |Yes |Нет |Нет |
+| Хранилище BLOB-объектов Azure |Yes |Yes |Нет |
+| Azure Data Lake Store |Yes |Нет |Нет |
+| Azure HDInsight (HDFS) |Yes |Нет |Нет |
+| Azure HDInsight (Spark) |Yes |Нет |Нет |
+| Хранилище таблиц Azure |Yes |Yes |Нет |
+| Dynamics 365 (Online) |Yes |Нет |Нет |
+| Facebook |Yes |Нет |Нет |
+| Папка |Yes |Yes |Нет |
+| Google Analytics |Yes |Нет |Нет |
+| Файл Hadoop (HDFS) |Yes |Нет |Нет |
+| База данных IBM DB2 |Yes |Yes |Нет |
+| Impala |Yes |Нет |Нет |
+| JSON |Yes |Yes |Нет |
+| Microsoft Exchange |Yes |Нет |Нет |
+| Microsoft Exchange Online |Yes |Нет |Нет |
+| База данных MySQL |Yes |Yes |Нет |
+| Веб-канал OData |Yes |Yes |Нет |
+| ODBC |Yes |Yes |Нет |
+| OLE DB |Yes |Yes |Нет |
+| База данных Oracle |Yes |Yes |Yes |
+| База данных PostgreSQL |Yes |Yes |Нет |
 | Служба Power BI |Нет |Нет |Нет |
-| Сценарий R |Да |Нет |Нет |
-| Объекты SalesForce |Да |Нет |Нет |
-| Отчеты Salesforce |Да |Нет |Нет |
-| Сервер SAP Business Warehouse |Да |Да |Да |
-| База данных SAP HANA |Да |Да |Да |
-| Папка SharePoint (локальная) |Да |Да |Нет |
-| Список SharePoint (локальный) |Да |Да |Нет |
-| Список SharePoint Online |Да |Нет |Нет |
-| Снежинка |Да |Нет |Нет |
-| База данных Sybase |Да |Да |Нет |
-| Teradata |Да |Да |Да |
-| Текстовый или CSV-файл |Да |Да |Нет |
-| Интернет |Да |Да |Нет |
-| XML |Да |Да |Нет |
-| appFigures (бета-версия) |Да |Нет |Нет |
-| База данных Azure Analysis Services |Да |Нет |Да |
-| Azure Cosmos DB (бета-версия) |Да |Нет |Нет |
-| Azure HDInsight Spark (бета-версия) |Да |Нет |Нет |
-| Common Data Service (бета-версия) |Да |Нет |Нет |
-| comScore Digital Analytix (бета-версия) |Да |Нет |Нет |
-| Dynamics 365 for Customer Insights (бета-версия) |Да |Нет |Нет |
-| Dynamics 365 for Financials (бета-версия) |Да |Нет |Нет |
-| GitHub (бета-версия) |Да |Нет |Нет |
-| Google BigQuery (бета-версия) |Да |Нет |Нет |
-| База данных IBM Informix (бета-версия) |Да |Нет |Нет |
-| IBM Netezza (бета-версия) |Да |Нет |Нет |
-| Kusto (бета-версия) |Да |Нет |Нет |
-| MailChimp (бета-версия) |Да |Нет |Нет |
-| Microsoft Azure Consumption Insights (бета-версия) |Да |Нет |Нет |
-| Mixpanel (бета-версия) |Да |Нет |Нет |
-| Planview Enterprise (бета-версия) |Да |Нет |Нет |
-| Projectplace (бета-версия) |Да |Нет |Нет |
-| QuickBooks Online (бета-версия) |Да |Нет |Нет |
-| Smartsheet |Да |Нет |Нет |
-| Spark (бета-версия) |Да |Нет |Нет |
-| SparkPost (бета-версия) |Да |Нет |Нет |
-| SQL Sentry (бета-версия) |Да |Нет |Нет |
-| Stripe (бета-версия) |Да |Нет |Нет |
-| SweetIQ (бета-версия) |Да |Нет |Нет |
-| Troux (бета-версия) |Да |Нет |Нет |
-| Twilio (бета-версия) |Да |Нет |Нет |
-| tyGraph (бета-версия) |Да |Нет |Нет |
-| Vertica (бета-версия) |Да |Нет |Нет |
-| Visual Studio Team Services (бета-версия) |Да |Нет |Нет |
-| Webtrends (бета-версия) |Да |Нет |Нет |
-| ZenDesk (бета-версия) |Да |Нет |Нет |
+| Сценарий R |Yes |Нет |Нет |
+| Объекты SalesForce |Yes |Нет |Нет |
+| Отчеты Salesforce |Yes |Нет |Нет |
+| сервер SAP Business Warehouse; |Yes |Yes |Yes |
+| База данных SAP HANA |Yes |Yes |Yes |
+| Папка SharePoint (локальная) |Yes |Yes |Нет |
+| Список SharePoint (локальный) |Yes |Yes |Нет |
+| Список SharePoint Online |Yes |Нет |Нет |
+| Снежинка |Yes |Нет |Нет |
+| База данных Sybase |Yes |Yes |Нет |
+| Teradata |Yes |Yes |Yes |
+| Text/CSV. |Yes |Yes |Нет |
+| Интернет |Yes |Yes |Нет |
+| XML |Yes |Yes |Нет |
+| appFigures (бета-версия) |Yes |Нет |Нет |
+| База данных Azure Analysis Services |Yes |Нет |Yes |
+| Azure Cosmos DB (бета-версия) |Yes |Нет |Нет |
+| Azure HDInsight Spark (бета-версия) |Yes |Нет |Нет |
+| Common Data Service (бета-версия); |Yes |Нет |Нет |
+| comScore Digital Analytix (бета-версия) |Yes |Нет |Нет |
+| Dynamics 365 для Customer Insights (бета-версия) |Yes |Нет |Нет |
+| Dynamics 365 for Financials (бета-версия) |Yes |Нет |Нет |
+| GitHub (бета-версия) |Yes |Нет |Нет |
+| Google BigQuery (бета-версия) |Yes |Нет |Нет |
+| база данных IBM Informix (бета-версия); |Yes |Нет |Нет |
+| IBM Netezza (бета-версия) |Yes |Нет |Нет |
+| Kusto (бета-версия) |Yes |Нет |Нет |
+| MailChimp (бета-версия) |Yes |Нет |Нет |
+| Microsoft Azure Consumption Insights (бета-версия) |Yes |Нет |Нет |
+| Mixpanel (бета-версия) |Yes |Нет |Нет |
+| Planview Enterprise (бета-версия) |Yes |Нет |Нет |
+| Projectplace (бета-версия) |Yes |Нет |Нет |
+| QuickBooks Online (бета-версия) |Yes |Нет |Нет |
+| Smartsheet |Yes |Нет |Нет |
+| Spark (бета-версия) |Yes |Нет |Нет |
+| SparkPost (бета-версия) |Yes |Нет |Нет |
+| SQL Sentry (бета-версия) |Yes |Нет |Нет |
+| Stripe (бета-версия) |Yes |Нет |Нет |
+| SweetIQ (бета-версия) |Yes |Нет |Нет |
+| Troux (бета-версия) |Yes |Нет |Нет |
+| Twilio (бета-версия) |Yes |Нет |Нет |
+| tyGraph (бета-версия) |Yes |Нет |Нет |
+| Vertica (бета-версия); |Yes |Нет |Нет |
+| Visual Studio Team Services (бета-версия) |Yes |Нет |Нет |
+| Webtrends (бета-версия) |Yes |Нет |Нет |
+| ZenDesk (бета-версия) |Yes |Нет |Нет |
 
 > [!IMPORTANT]
 > Предполагается, что безопасность на уровне строк, настроенная в источнике данных, будет работать с определенными функциями DirectQuery (SQL Server, базой данных SQL Azure, Oracle и Teradata) и активными подключениями, если в вашей среде выполнена надлежащая настройка Kerberos.
@@ -118,56 +118,56 @@ ms.locfileid: "80979852"
 
 | **Источник данных** | **Анонимная проверка подлинности** | **Проверка подлинности с использованием ключа** | **Имя пользователя и пароль** | **Проверка подлинности Windows** |
 | --- | --- | --- | --- | --- |
-| База данных SQL Server |Нет |Нет |Да |Да |
-| Службы SQL Server Analysis Services |Нет |Нет |Да |Да |
-| Интернет |Да |Нет |Да |Да |
-| База данных SQL Azure |Нет |Нет |Да |Нет |
-| Хранилище данных SQL Azure |Нет |Нет |Да |Нет |
-| Active Directory |Нет |Нет |Да |Да |
+| База данных SQL Server |Нет |Нет |Yes |Yes |
+| Службы SQL Server Analysis Services |Нет |Нет |Yes |Yes |
+| Интернет |Yes |Нет |Yes |Yes |
+| База данных SQL Azure |Нет |Нет |Yes |Нет |
+| Хранилище данных SQL Azure |Нет |Нет |Yes |Нет |
+| Active Directory |Нет |Нет |Yes |Yes |
 | Amazon Redshift |Нет |Нет |Нет |Нет |
-| Хранилище BLOB-объектов Azure |Да |Да |Нет |Нет |
+| Хранилище BLOB-объектов Azure |Yes |Yes |Нет |Нет |
 | Azure Data Lake Store |Нет |Нет |Нет |Нет |
 | Azure HDInsight (HDFS) |Нет |Нет |Нет |Нет |
 | Azure HDInsight (Spark) |Нет |Нет |Нет |Нет |
-| Хранилище таблиц Azure |Нет |Да |Нет |Нет |
-| Dynamics 365 (в сети) |Нет |Нет |Нет |Нет |
+| Хранилище таблиц Azure |Нет |Yes |Нет |Нет |
+| Dynamics 365 (Online) |Нет |Нет |Нет |Нет |
 | Facebook |Нет |Нет |Нет |Нет |
-| Папка |Нет |Нет |Нет |Да |
-| Google Analytics |Нет |Нет |Нет |Нет |
+| Папка |Нет |Нет |Нет |Yes |
+| Google Analytics |Нет |Нет |Нет |Нет |
 | Файл Hadoop (HDFS) |Нет |Нет |Нет |Нет |
-| База данных IBM DB2 |Нет |Нет |Да |Да |
+| База данных IBM DB2 |Нет |Нет |Yes |Yes |
 | Impala |Нет |Нет |Нет |Нет |
 | Microsoft Exchange |Нет |Нет |Нет |Нет |
 | Microsoft Exchange Online |Нет |Нет |Нет |Нет |
-| База данных MySQL |Нет |Нет |Да |Да |
-| Веб-канал OData |Да |Да |Да |Да |
-| ODBC |Да |Нет |Да |Да |
-| OLE DB |Да |Нет |Да |Да |
-| База данных Oracle |Нет |Нет |Да |Да |
-| База данных PostgreSQL |Нет |Нет |Да |Нет |
+| База данных MySQL |Нет |Нет |Yes |Yes |
+| Веб-канал OData |Yes |Yes |Yes |Yes |
+| ODBC |Yes |Нет |Yes |Yes |
+| OLE DB |Yes |Нет |Yes |Yes |
+| База данных Oracle |Нет |Нет |Yes |Yes |
+| База данных PostgreSQL |Нет |Нет |Yes |Нет |
 | Служба Power BI |Нет |Нет |Нет |Нет |
 | Сценарий R |Нет |Нет |Нет |Нет |
 | Объекты SalesForce |Нет |Нет |Нет |Нет |
 | Отчеты Salesforce |Нет |Нет |Нет |Нет |
-| Сервер SAP Business Warehouse |Нет |Нет |Да |Нет |
-| База данных SAP HANA |Нет |Нет |Да |Да |
-| Папка SharePoint (локальная) |Да |Нет |Нет |Да |
-| Список SharePoint (локальный) |Да |Нет |Нет |Да |
+| сервер SAP Business Warehouse; |Нет |Нет |Yes |Нет |
+| База данных SAP HANA |Нет |Нет |Yes |Yes |
+| Папка SharePoint (локальная) |Yes |Нет |Нет |Yes |
+| Список SharePoint (локальный) |Yes |Нет |Нет |Yes |
 | Список SharePoint Online |Нет |Нет |Нет |Нет |
 | Снежинка |Нет |Нет |Нет |Нет |
-| База данных Sybase |Нет |Нет |Да |Да |
-| Teradata |Нет |Нет |Да |Да** |
+| База данных Sybase |Нет |Нет |Yes |Yes |
+| Teradata |Нет |Нет |Yes |Да** |
 | appFigures (бета-версия) |Нет |Нет |Нет |Нет |
 | База данных служб Analysis Services Azure (бета-версия) |Нет |Нет |Нет |Нет |
 | Azure Cosmos DB (бета-версия) |Нет |Нет |Нет |Нет |
 | Azure HDInsight Spark (бета-версия) |Нет |Нет |Нет |Нет |
-| Common Data Service (бета-версия) |Нет |Нет |Нет |Нет |
+| Common Data Service (бета-версия); |Нет |Нет |Нет |Нет |
 | comScore Digital Analytix (бета-версия) |Нет |Нет |Нет |Нет |
-| Dynamics 365 for Customer Insights (бета-версия) |Нет |Нет |Нет |Нет |
-| Dynamics 365 for Financials (бета-версия) |Нет |Нет |Нет |Нет |
+| Dynamics 365 для Customer Insights (бета-версия) |Нет |Нет |Нет |Нет |
+| Dynamics 365 for Financials (бета-версия) |Нет |Нет |Нет |Нет |
 | GitHub (бета-версия) |Нет |Нет |Нет |Нет |
 | Google BigQuery (бета-версия) |Нет |Нет |Нет |Нет |
-| База данных IBM Informix (бета-версия) |Нет |Нет |Нет |Нет |
+| база данных IBM Informix (бета-версия); |Нет |Нет |Нет |Нет |
 | IBM Netezza (бета-версия) |Нет |Нет |Нет |Нет |
 | Kusto (бета-версия) |Нет |Нет |Нет |Нет |
 | MailChimp (бета-версия) |Нет |Нет |Нет |Нет |
@@ -185,7 +185,7 @@ ms.locfileid: "80979852"
 | Troux (бета-версия) |Нет |Нет |Нет |Нет |
 | Twilio (бета-версия) |Нет |Нет |Нет |Нет |
 | tyGraph (бета-версия) |Нет |Нет |Нет |Нет |
-| Vertica (бета-версия) |Нет |Нет |Нет |Нет |
+| Vertica (бета-версия); |Нет |Нет |Нет |Нет |
 | Visual Studio Team Services (бета-версия) |Нет |Нет |Нет |Нет |
 | Webtrends (бета-версия) |Нет |Нет |Нет |Нет |
 | ZenDesk (бета-версия) |Нет |Нет |Нет |Нет |
@@ -198,18 +198,18 @@ ms.locfileid: "80979852"
 
 | **Источник данных** | **Анонимная проверка подлинности** | **Проверка подлинности с использованием ключа** | **Имя пользователя и пароль** | **Проверка подлинности Windows** | **Интегрированная проверка подлинности Windows** |
 | --- | --- | --- | --- | --- | --- |
-| База данных SQL Server |Нет |Нет |Да |Да |Да |
-| Службы SQL Server Analysis Services |Нет |Нет |Да |Да |Да |
-| База данных SQL Azure |Нет |Нет |Да |Нет |Нет |
-| Хранилище данных SQL Azure |Нет |Нет |Да |Нет |Нет |
-| База данных Oracle |Нет |Нет |Да |Да |Да |
-| Сервер SAP Business Warehouse |Нет |Нет |Да |Нет |Нет |
-| База данных SAP HANA |Нет |Нет |Да |Да |Да** |
-| Teradata |Нет |Нет |Да |Да |Да |
+| База данных SQL Server |Нет |Нет |Yes |Yes |Yes |
+| Службы SQL Server Analysis Services |Нет |Нет |Yes |Yes |Yes |
+| База данных SQL Azure |Нет |Нет |Yes |Нет |Нет |
+| Хранилище данных SQL Azure |Нет |Нет |Yes |Нет |Нет |
+| База данных Oracle |Нет |Нет |Yes |Yes |Yes |
+| сервер SAP Business Warehouse; |Нет |Нет |Yes |Нет |Нет |
+| База данных SAP HANA |Нет |Нет |Yes |Yes |Да** |
+| Teradata |Нет |Нет |Yes |Yes |Yes |
 
 ** SAP HANA поддерживает DirectQuery со встроенной проверкой подлинности Windows только при использовании в качестве реляционной базы данных в опубликованном файле Power BI Desktop (PBIX).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Подключившись к источнику данных, воспользуйтесь содержащимися в нем данными, чтобы [создать отчет Power BI](quickstart-create-powerbi-report.md).
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

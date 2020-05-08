@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c41fa1e0c8510f64f9c6e53c83fe9ee8a2e75e67
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006900"
 ---
 # <a name="add-multiple-fields-to-a-slicer-preview"></a>Добавление нескольких полей в срез (предварительная версия)
@@ -43,4 +43,4 @@ ms.locfileid: "81006900"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Срезы в Power BI](../visuals/power-bi-visualization-slicers.md)
-- Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

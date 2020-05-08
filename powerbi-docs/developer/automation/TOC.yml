@@ -24,7 +24,7 @@
       items:
         - name: Политика автоматического хранения данных в режиме реального времени
           href: api-automatic-retention-policy-for-real-time-data.md
-        - name: Принудительная отправка данных
+        - name: Передача данных
           items:
             - name: Ограничения REST API Power BI
               href: api-rest-api-limitations.md
@@ -36,9 +36,9 @@
       items:
         - name: Настройка учетных данных
           href: configure-credentials.md
-    - name: Справка
+    - name: Справочник
       items:
-        - name: REST API
+        - name: Интерфейсы REST API
           href: 'https://docs.microsoft.com/rest/api/power-bi'
         - name: Справочник по REST API Power BI
           href: rest-api-reference.md
@@ -46,9 +46,9 @@
           href: walkthrough-push-data-complete-code.md
     - name: Ресурсы
       items:
-        - name: Центр разработки
+        - name: Центр разработчиков
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Git-репозиторий Power BI C#'
+        - name: "Репозиторий Git для C# и Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: Загрузка SDK .NET
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: painbar
 ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802808"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Защита приложения Power BI с помощью Face ID, Touch ID, секретного кода или биометрических данных 
@@ -20,11 +20,11 @@ ms.locfileid: "80802808"
 
 Приложения Power BI для iOS и Android позволяют защитить данные, настроив дополнительную идентификацию. При каждом запуске приложения либо его переводе на передний план будет требоваться идентификация. В iOS потребуется предоставить Face ID, Touch ID или секретный код. В Android потребуется предоставить биометрические данные (Fingerprint ID).
 
-Применяется к:
+Область применения:
 
 | ![iPhone](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![iPad](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![Телефон Android](././media/mobile-native-secure-access/android-logo-40-px.png) | ![Планшет Android](././media/mobile-native-secure-access/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhone |iPad |Телефоны под управлением Android |Планшеты Android |
+|iPhones |iPad |Телефоны под управлением Android |Планшеты Android |
 
 ## <a name="turn-on-face-id-touch-id-or-passcode-on-ios"></a>Включение Face ID, Touch ID или секретного кода в iOS
 

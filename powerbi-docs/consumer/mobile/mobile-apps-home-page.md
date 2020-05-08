@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205672"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Краткий обзор домашней страницы мобильного приложения
 В этом обзоре вы ознакомитесь с домашней страницей мобильного приложения Power BI и доступными на ней элементами навигации для быстрого доступа.
 
-Применяется к:
+Область применения:
 
 | ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) |
 |:--- |:--- |:--- |
@@ -48,7 +48,7 @@ ms.locfileid: "79205672"
 
 Элементы действий объединяются, поэтому все обновления данных, поступающие из одного и того же приложения или рабочей области, группируются. Вы можете использовать кнопку ![стрелка развертывания](./media/mobile-apps-home-page/powerbi-mobile-app-expand-arrow.png) стрелка для развертывания и просмотра сгруппированных элементов. Самый последний элемент всегда будет находиться в начале списка.
 
-## <a name="navigation-bar"></a>Панель навигации
+## <a name="navigation-bar"></a>Панель переходов
 
 В нижней части страницы находится панель мониторинга.
 

@@ -6,14 +6,14 @@
       href: /power-platform/
       topicHref: /power-platform/
       items:
-        - name: "Power\_BI"
+        - name: Power BI
           tocHref: /power-bi/
           topicHref: /power-bi/
           items:
             - name: Потребители
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
-            - name: Мобильное устройство
+            - name: Мобильные приложения
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
             - name: Разработчик
@@ -26,10 +26,10 @@
                 - name: "Визуальные элементы Power\_BI"
                   tocHref: /power-bi/developer/visuals/
                   topicHref: /power-bi/developer/visuals/
-                - name: Автоматизация
+                - name: Служба автоматизации
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
-            - name: Направляемое обучение
+            - name: Интерактивное обучение
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
             - name: Каталог обучения
