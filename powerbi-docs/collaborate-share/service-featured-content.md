@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496270"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Добавление содержимого в подборку на главной странице Power BI коллег
@@ -46,7 +46,7 @@ ms.locfileid: "79496270"
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Настройки рекомендуемого содержимого":::
 
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
     Теперь все пользователи, у которых есть доступ к этой панели мониторинга или отчету, увидят их в разделе **Подборка** на **главной странице**.
 
@@ -60,5 +60,5 @@ ms.locfileid: "79496270"
 
 * [Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Управление рекомендуемым содержимым на портале администрирования](../service-admin-portal.md#manage-featured-content)
-* У вас появились вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас появились вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

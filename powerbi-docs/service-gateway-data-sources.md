@@ -11,17 +11,17 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207466"
 ---
 # <a name="manage-data-sources"></a>Управление источниками данных
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI поддерживают многие [локальные источники данных](power-bi-data-sources.md), для каждого из которых существуют свои собственные требования. Шлюз можно использовать для одного или нескольких источников данных. В этом примере демонстрируется добавление источника данных SQL Server. Эта процедура выполняется аналогично другим источникам данных.
+Power BI поддерживают многие [локальные источники данных](power-bi-data-sources.md), для каждого из которых существуют свои собственные требования. Шлюз можно использовать для одного источника данных или для нескольких. В этом примере демонстрируется добавление источника данных SQL Server. Эта процедура выполняется аналогично другим источникам данных.
 
 Большинство операций по управлению источниками данных можно выполнять и с помощью API. Дополнительные сведений см. в статье [REST API (шлюзы)](/rest/api/power-bi/gateways).
 
@@ -60,7 +60,7 @@ Power BI поддерживают многие [локальные источн
 
 7. В разделе **Дополнительные параметры** настройте необязательный параметр [Уровень конфиденциальности](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) для источника данных (не применяется к [DirectQuery](desktop-directquery-about.md)).
 
-    ![Дополнительные параметры](media/service-gateway-data-sources/advanced-settings.png)
+    ![Дополнительные настройки](media/service-gateway-data-sources/advanced-settings.png)
 
 8. Нажмите кнопку **Добавить**. При успешном завершении процесса вы увидите сообщение *Соединение установлено успешно*.
 
@@ -141,4 +141,4 @@ Power BI поддерживают многие [локальные источн
 * [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Руководство по развертыванию шлюза данных](service-gateway-deployment-guidance.md)
 
-Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
+У вас имеются и другие вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).

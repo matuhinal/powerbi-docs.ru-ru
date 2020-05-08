@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379937"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Добавление языкового стандарта в Power BI для визуальных элементов Power BI
@@ -45,7 +45,7 @@ this.locale = options.host.locale;
 
 Поддерживаемые языковые стандарты
 
-Строка языкового стандарта | Язык
+Строка языкового стандарта | Language
 --------------|----------------------
 ar-SA | العربية (арабский)
 bg-BG | български (болгарский)

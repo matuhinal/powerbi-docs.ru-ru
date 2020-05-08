@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c006d35baa14e68cca7009aabf79438321396802
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761940"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>Использование отчетов Power BI с помощью средств специальных возможностей
@@ -34,7 +34,7 @@ ms.locfileid: "75761940"
 
 ![Просмотр советов по использованию специальных возможностей с помощью клавиши TAB](media/desktop-accessibility/accessibility-consuming-tools-02.png)
 
-Если нажать клавишу **?**, откроется диалоговое окно с описанием основных сочетаний клавиш в Power BI. Чтобы просмотреть полный список сочетаний клавиш, доступных в Power BI, воспользуйтесь ссылкой в нижней части диалогового окна, по которой можно перейти в [соответствующий раздел](desktop-accessibility-keyboard-shortcuts.md) документации по Power BI.
+Если нажать клавишу **?** , откроется диалоговое окно с описанием основных сочетаний клавиш в Power BI. Чтобы просмотреть полный список сочетаний клавиш, доступных в Power BI, воспользуйтесь ссылкой в нижней части диалогового окна, по которой можно перейти в [соответствующий раздел](desktop-accessibility-keyboard-shortcuts.md) документации по Power BI.
 
 ![Диалоговое окно "Сочетания клавиш"](media/desktop-accessibility/accessibility-consuming-tools-03.png)
 

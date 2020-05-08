@@ -10,10 +10,10 @@ ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525667"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Создание визуализаций сопоставителя фигур в Power BI Desktop (предварительная версия)
@@ -113,9 +113,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 Для тестирования **карты фигур** в этой предварительной версии используйте приведенные ниже **ключи регионов**.
 
-### <a name="australia-states"></a>Австралия: земли
+### <a name="australia-states"></a>Australia: States
 
-| Идентификатор | abbr | iso | name | postal |
+| ID | abbr | iso | имя | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,9 +126,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Австрия: земли
+### <a name="austria-states"></a>Austria: States
 
-| Идентификатор | iso | name | name-en | postal |
+| ID | iso | имя | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -138,17 +138,17 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-oo |AT-4 |Oberösterreich |Upper Austria |OO |
 | at-no |AT-3 |Niederösterreich |Lower Austria |NO |
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
-| at-bu |AT-1 |Burgenland |Burgenland |Подразделение |
+| at-bu |AT-1 |Burgenland |Burgenland |Бизнес-единица |
 
-### <a name="brazil-states"></a>Бразилия: земли
+### <a name="brazil-states"></a>Brazil: States
 
-| Идентификатор |
+| ID |
 | --- |
 | Tocantins |
 | Pernambuco |
 | Goias |
 | Sergipe |
-| Sao Paulo |
+| Сан-Паулу |
 | Santa Catarina |
 | Roraima |
 | Rondonia |
@@ -176,9 +176,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Канада: провинции
+### <a name="canada-provinces"></a>Canada: Provinces
 
-| Идентификатор | iso | name | postal |
+| ID | iso | имя | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -194,9 +194,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Франция: области
+### <a name="france-regions"></a>France: Regions
 
-| Идентификатор | name | name-en |
+| ID | имя | name-en |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -216,9 +216,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>Германия: земли
+### <a name="germany-states"></a>Germany: States
 
-| Идентификатор | iso | name | name-en | postal |
+| ID | iso | имя | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -232,14 +232,14 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-nw |DE-NW |Nordrhein-Westfalen |North Rhine-Westphalia |NW |
 | de-ni |DE-NI |Niedersachsen |Lower Saxony |NI |
 | de-he |DE-HE |Hessen |Hesse |HE |
-| de-hh |DE-HH |Hamburg |Hamburg |HH |
+| de-hh |DE-HH |Hamburg |Hamburg |ЧЧ |
 | de-hb |DE-HB |Bremen |Bremen |HB |
 | de-by |DE-BY |Bayern |Bavaria |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
-### <a name="ireland-counties"></a>Ирландия: графства
+### <a name="ireland-counties"></a>Ireland: Counties
 
-| Идентификатор |
+| ID |
 | --- |
 | Wicklow |
 | Wexford |
@@ -268,9 +268,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Италия: области
+### <a name="italy-regions"></a>Italy: Regions
 
-| Идентификатор | iso | name | name-en | postal |
+| ID | iso | имя | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -279,7 +279,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-tc |IT-52 |Toscana |Tuscany |TC |
 | it-sc |IT-82 |Sicilia |Sicily |SC |
 | it-sd |IT-88 |Sardegna |Sardinia |SD |
-| it-pm |IT-21 |Piemonte |Piedmont |PM |
+| it-pm |IT-21 |Piemonte |Piedmont |После полудня |
 | it-ml |IT-67 |Molise |Molise |ML |
 | it-mh |IT-57 |Marche |Marche |MH |
 | it-lm |IT-25 |Lombardia |Lombardy |LM |
@@ -293,9 +293,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-pu |IT-75 |Apulia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Мексика земли
+### <a name="mexico-states"></a>Mexico: States
 
-| Идентификатор | abreviatura | iso | name | name-en | postal |
+| ID | abreviatura | iso | имя | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -311,7 +311,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-pue |Pue. |MX-PUE |Puebla |Puebla |PU |
 | mx-oax |Oax. |MX-OAX |Oaxaca |Oaxaca |OA |
 | mx-nle |N.L. |MX-NLE |Nuevo León |Nuevo Leon |NL |
-| mx-nay |Nay. |MX-NAY |Nayarit |Nayarit |NA |
+| mx-nay |Nay. |MX-NAY |Nayarit |Nayarit |Н/Д |
 | mx-mor |Mor. |MX-MOR |Morelos |Morelos |MR |
 | mx-mic |Mich. |MX-MIC |Michoacán |Michoacan |MC |
 | mx-mex |Méx. |MX-MEX |Estado de México |Mexico State |MX |
@@ -330,9 +330,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Нидерланды: провинции
+### <a name="netherlands-provinces"></a>Netherlands: Provinces
 
-| Идентификатор | iso | name | name-en |
+| ID | iso | имя | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -347,69 +347,69 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>Соединенное Королевство: Страны
+### <a name="uk-countries"></a>UK: Countries
 
-| Идентификатор | iso | name |
+| ID | iso | имя |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>США: земли
+### <a name="usa-states"></a>USA: States
 
-| Идентификатор | name | postal |
+| ID | имя | postal |
 | --- | --- | --- |
-| us-mi |Michigan |MI |
-| us-ak |Alaska |AK |
+| us-mi |Мичиган |MI |
+| us-ak |Аляска |AK |
 | us-hi |Hawaii |HI |
-| us-fl |Florida |FL |
-| us-la |Louisiana |LA |
-| us-ar |Arkansas |AR |
-| us-sc |South Carolina |SC |
-| us-ga |Georgia |GA |
-| us-ms |Mississippi |MS |
-| us-al |Alabama |AL |
-| us-nm |New Mexico |NM |
-| us-tx |Texas |TX |
-| us-tn |Tennessee |TN |
-| us-nc |North Carolina |NC |
-| us-ok |Oklahoma |ОК |
-| us-az |Arizona |AZ |
-| us-mo |Missouri |MO |
-| us-va |Virginia |VA |
-| us-ks |Kansas |KS |
-| us-ky |Kentucky |KY |
+| us-fl |Флорида |FL |
+| us-la |Луизиана |LA |
+| us-ar |Арканзас |AR |
+| us-sc |Южная Каролина |SC |
+| us-ga |Джорджия |GA |
+| us-ms |Миссисипи |MS |
+| us-al |Алабама |AL |
+| us-nm |Нью-Мексико |NM |
+| us-tx |Техас |TX |
+| us-tn |Теннесси |TN |
+| us-nc |Северная Каролина |NC |
+| us-ok |Оклахома |ОК |
+| us-az |Аризона |AZ |
+| us-mo |Миссури |MO |
+| us-va |Виргиния |VA |
+| us-ks |Канзас |KS |
+| us-ky |Кентукки |KY |
 | us-co |Colorado |CO |
-| us-md |Maryland |MD |
-| us-wv |West Virginia |WV |
+| us-md |Мэриленд |MD |
+| us-wv |Западная Вирджиния |WV |
 | us-de |Delaware |DE |
 | us-dc |District of Columbia |DC |
-| us-il |Illinois |IL |
-| us-oh |Ohio |OH |
+| us-il |Иллинойс |IL |
+| us-oh |Огайо |OH |
 | us-ca |California |CA |
-| us-ut |Utah |UT |
-| us-nv |Nevada |NV |
+| us-ut |Юта |UT |
+| us-nv |Невада |NV |
 | us-in |Indiana |IN |
 | us-nj |New Jersey |NJ |
-| us-ri |Rhode Island |RI |
+| us-ri |Род-Айленд |RI |
 | us-ct |Connecticut |CT |
 | us-pa |Pennsylvania |PA |
 | us-ny |New York |NY |
-| us-ne |Nebraska |NE |
+| us-ne |Небраска |NE |
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Орегон |ИЛИ |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |
-| us-wi |Wisconsin |WI |
-| us-wy |Wyoming |WY |
+| us-wi |Висконсин |WI |
+| us-wy |Вайоминг |WY |
 | us-sd |South Dakota |SD |
-| us-nd |North Dakota |ND |
+| us-nd |Северная Дакота |ND |
 | us-me |Maine |ME |
-| us-mt |Montana |MT |
+| us-mt |Монтана |MT |
 | us-wa |Washington |WA |
 
 ## <a name="next-steps"></a>Дальнейшие действия
