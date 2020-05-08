@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 86728adbad8a96875fc21bb9fe5c5267a2ce6651
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206362"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Усовершенствование отчетов Power BI с помощью визуальных элементов
@@ -60,7 +60,7 @@ ms.locfileid: "79206362"
 Важно отметить, что пунктирная граница отображается *только* при редактировании отчета и *не* видна пользователям, которые просматривают опубликованный отчет, например при просмотре в **службе Power BI**.
 
 > [!NOTE]
-> Если вы используете темный фоновый рисунок и белый или очень светлый цвет текста, помните, что функция **Экспорт в PDF** не выполняется для фонового рисунка, поэтому после экспорта такой текст не будет видно. Дополнительные сведения о функции **Экспорт в PDF** см. в [соответствующем разделе](desktop-export-to-pdf.md).
+> Если вы используете темный фоновый рисунок и белый или очень светлый цвет текста, помните, что функция **Экспорт в PDF** не выполняется для фонового рисунка, поэтому после экспорта такой текст не будет видно. Дополнительные сведения о функции [Экспорт в PDF](desktop-export-to-pdf.md) см. в **соответствующем разделе**.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Использование улучшенных заголовков визуальных элементов в отчетах Power BI
@@ -101,9 +101,9 @@ ms.locfileid: "79206362"
 Дополнительные сведения о **Power BI Desktop** и инструкции по началу работы см. в следующих статьях.
 
 * [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
-* [Общие сведения о запросах в Power BI Desktop](desktop-query-overview.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)
-* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Обзор запросов в Power BI Desktop](desktop-query-overview.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Подключение к данным в Power BI Desktop](desktop-connect-to-data.md)
+* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)   
 

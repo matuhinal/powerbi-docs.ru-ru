@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698815"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Обновление набора данных, созданного из файла Power BI Desktop на локальном диске
@@ -65,7 +65,7 @@ ms.locfileid: "74698815"
 Иногда обновление данных может завершиться неправильно. Как правило, проблема связана со шлюзом. Ознакомьтесь со статьями об устранении неполадок со шлюзом и узнайте о соответствующих средствах и известных проблемах.
 
 - [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)
-- [Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
+- [Устранение неполадок со шлюзом Power BI — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

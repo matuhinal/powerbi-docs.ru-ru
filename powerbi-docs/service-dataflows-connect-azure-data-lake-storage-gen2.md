@@ -10,10 +10,10 @@ ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113170"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потоков данных
@@ -53,9 +53,9 @@ ms.locfileid: "80113170"
 
 Выполните действия, описанные в [этой статье](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account).
 
-1. Убедитесь, что вы выбрали расположение своего клиента Power BI, и в качестве хранилища укажите **StorageV2 (общего назначения версии 2)**.
+1. Убедитесь, что вы выбрали расположение своего клиента Power BI, и в качестве хранилища укажите **StorageV2 (общего назначения версии 2)** .
 2. Включите функцию иерархического пространства имен.
-3. Рекомендуем установить для параметра репликации значение **Геоизбыточное хранилище с доступом на чтение (RA-GRS)**.
+3. Рекомендуем установить для параметра репликации значение **Геоизбыточное хранилище с доступом на чтение (RA-GRS)** .
 
 ### <a name="grant-permissions-to-power-bi-services"></a>Предоставление разрешений службам Power BI
 

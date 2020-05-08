@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493211"
 ---
 # <a name="custom-layouts"></a>Пользовательские макеты
@@ -61,9 +61,9 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize` — используйте этот параметр, чтобы управлять размером области холста (т. е. незаполненной области отчета).
-- `displayOptions` — возможные значения: FitToWidth, FitToPage или ActualSize. Определяет, как масштабировать холст, чтобы он поместился в интернет-кадр.
-- `pagesLayout` — определяет макет для каждого визуального элемента. См. дополнительные сведения о PagesLayout.
+- `pageSize`. Используйте этот параметр, чтобы управлять размером области холста (т. е. незаполненной области отчета).
+- `displayOptions`. Возможные значения: FitToWidth, FitToPage или ActualSize. Определяет, как масштабировать холст, чтобы он поместился в интернет-кадр.
+- `pagesLayout`. Определяет макет для каждого визуального элемента. См. дополнительные сведения о PagesLayout.
 
 ## <a name="pages-layout"></a>Макет страниц
 
@@ -108,9 +108,9 @@ enum VisualContainerDisplayMode {
 }
 ```
 
-- `x,y,z` — определяет новое расположение визуального элемента.
-- `width`, height — определяет новое расположение визуального элемента.
-- `displayState` — определяет видимость визуального элемента.
+- `x,y,z`. Определяет новое расположение визуального элемента.
+- `width`, height. Определяет новый размер визуального элемента.
+- `displayState`. Определяет видимость визуального элемента.
 
 ## <a name="update-layout"></a>Обновление макета
 
@@ -170,7 +170,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Внедрение панелей мониторинга, отчетов и плиток Power BI](embed-sample-for-customers.md)   
 [Спросить в сообществе Power BI](https://community.powerbi.com/)
