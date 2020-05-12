@@ -3,32 +3,28 @@ title: Визуальные элементы ключевого показате
 description: Создание визуальных элементов ключевого показателя эффективности (КПЭ) в Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974994"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865186"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Создание визуальных элементов ключевого показателя эффективности (КПЭ)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Ключевое показатель эффективности (КПЭ) — наглядный индикатор, который позволяет оценить достижение определенной измеримой цели. Дополнительные сведения о ключевых показателях эффективности см. в разделе [Ключевые показатели эффективности (КПЭ) в PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)).
 
-В следующем видео Уилл создает метрические визуализации: шкалы, карты и КПЭ.
-   > [!NOTE]
-   > В этом видео используется более старая версия Power BI Desktop.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>В каких случаях следует использовать КПЭ
 
@@ -44,7 +40,7 @@ ms.locfileid: "76974994"
 
 Набор данных КПЭ должен содержать значения целей для КПЭ. Если же набор данных не содержит значения цели, можно создать их, добавив лист Excel с целями в модель данных или PBIX-файл.
 
-## <a name="prerequisites"></a>Технические условия
+## <a name="prerequisites"></a>Предварительные требования
 
 В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -55,6 +51,9 @@ ms.locfileid: "76974994"
 1. Откройте **PBIX-файл с примером "Анализ розничной торговли"** в представлении отчета. ![Снимок экрана: значок представления отчета.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. Выберите **+** , чтобы добавить новую страницу. ![Снимок экрана: желтая вкладка.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.    
 
 ## <a name="how-to-create-a-kpi"></a>Как создать КПЭ
 
@@ -105,4 +104,4 @@ ms.locfileid: "76974994"
 
 * [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

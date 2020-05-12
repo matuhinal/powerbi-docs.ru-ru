@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436072"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865467"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Создание и использование картограмм (хороплетов) в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -55,15 +57,8 @@ Power BI интегрируется с Bing для предоставления 
 
 1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
 
-
-## <a name="create-a-basic-filled-map"></a>Создание базовой картограммы
-В этом видео Ким создает простую карту и преобразовывает ее в картограмму.
-   > [!NOTE]
-   > В этом видео показано использование более старой версии Power BI Desktop.
-   > 
-   > 
-
-> [ВИДЕО https://www.youtube.com/embed/ajTPGNpthcg ]
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.    
 
 ### <a name="create-a-filled-map"></a>Создание картограммы
 1. На панели "Поля" выберите поле **Геообъект** \> **Состояние**.    

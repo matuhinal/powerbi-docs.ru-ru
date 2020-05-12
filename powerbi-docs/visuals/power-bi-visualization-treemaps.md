@@ -3,21 +3,22 @@ title: Древовидные диаграммы в Power BI
 description: Древовидные диаграммы в Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880744"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866893"
 ---
 # <a name="treemaps-in-power-bi"></a>Древовидные диаграммы в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -39,14 +40,6 @@ ms.locfileid: "73880744"
 
 Итак, мы можем сравнить количество проданных товаров в разных группах, сравнив размер и заливку каждого листового узла: чем больше размер прямоугольника и темнее заливка, тем больше значение.
 
-Хотите сначала посмотреть демонстрацию создания диаграммы дерева? Перейдите к отметке 2:10 в этом видео, чтобы посмотреть, как Аманда создает диаграмму дерева.
-
-   > [!NOTE]
-   > В этом видео используется более старая версия Power BI Desktop.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>Сферы применения диаграмм дерева
 
@@ -75,6 +68,10 @@ ms.locfileid: "73880744"
 1. Откройте PBIX-файл с примером **Анализ розничной торговли** в представлении отчета ![Снимок экрана: значок представления отчета](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
+
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.    
+
 
 
 После получения набора данных **примера "Анализ розничной торговли"** вы сможете приступить к работе.

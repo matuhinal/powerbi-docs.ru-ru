@@ -1,5 +1,5 @@
 ---
-title: Использование визуального элемента "Матрица" в Power BI
+title: Создание визуального элемента "Матрица" в Power BI
 description: Узнайте, как создавать ступенчатые макеты и выполнять детальное выделение с помощью визуального элемента "Матрица" в Power BI.
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637848"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866594"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Создание визуализаций матрицы в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ ms.locfileid: "81637848"
 
 Предусмотрено множество функций для матрицы, которые мы рассмотрим в следующих разделах этой статьи.
 
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Основные сведения о вычислении итогов в Power BI
 

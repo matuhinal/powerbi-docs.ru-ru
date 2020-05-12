@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010892"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841050"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Изменение переменных SAP в службе Power BI
 
-При использовании SAP Business Warehouse или SAP HANA с DirectQuery авторы отчетов теперь могут разрешать конечным пользователям изменять переменные SAP в **службе Power BI** для рабочих областей Premium и общих рабочих областей. Обратите внимание, что эта функция не работает для отчетов на вкладке "Мне предоставлен доступ" в области "Моя рабочая область". 
+При использовании SAP Business Warehouse или SAP HANA с DirectQuery авторы отчетов теперь могут разрешать конечным пользователям изменять переменные SAP в **службе Power BI** для рабочих областей Premium и общих рабочих областей. Обратите внимание, что эта функция не работает для отчетов на вкладке "Мне предоставлен доступ" в области "Моя рабочая область" и в приложениях, созданных из рабочих областей V1. 
 
 ![Диалоговое окно изменения переменных](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

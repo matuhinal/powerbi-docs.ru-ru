@@ -8,29 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/5/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d4e31d8c3d2bcbbfdf0d2d932be70cc2cd5f2625
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74907671"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866502"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Каскадные диаграммы в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Каскадные диаграммы отражают промежуточные итоги того, как Power BI складывает и вычитает значения. Они полезны для понимания того, как влияет ряд положительных и отрицательных изменений на начальную стоимость (например, чистую прибыль).
 
 Столбцы имеют цветовую маркировку, поэтому можно быстро заметить увеличение и уменьшение. Столбцы начального и конечного значения часто [начинаются на горизонтальной оси](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "начало на горизонтальной оси"), тогда как промежуточные значения представлены плавающими столбцами. Из-за такого стиля каскадные диаграммы также называют мостовыми диаграммами.
-
-   > [!NOTE]
-   > В этом видео используется более старая версия Power BI Desktop.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-waterfall-chart"></a>Сферы применения каскадной диаграммы
 
@@ -42,11 +37,11 @@ ms.locfileid: "74907671"
 
 * для построения графика годовой прибыли компании путем отображения различных источников дохода и получения общей прибыли (или убытков);
 
-* Для иллюстрации начального и конечного показателей учета сотрудников компании за год.
+* для демонстрации начального и конечного количества сотрудников компании за год;
 
 * для визуализации поступлений и затрат по месяцам и текущего баланса для вашего счета.
 
-## <a name="prerequisite"></a>Предварительные требования
+## <a name="prerequisite"></a>Необходимое условие
 
 В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -58,8 +53,10 @@ ms.locfileid: "74907671"
 
 1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
 
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.    
 
-## <a name="create-a-waterfall-chart"></a>Создание каскадных диаграмм
+## <a name="create-a-waterfall-chart"></a>Создание каскадной диаграммы
 
 Вы создаете каскадную диаграмму, отображающую расхождение в объемах продаж (оценочный и фактический объем продаж) по месяцам.
 

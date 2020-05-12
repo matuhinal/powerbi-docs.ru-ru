@@ -2,27 +2,35 @@
 title: Графики в Power BI
 description: Графики в Power BI
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871082"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867031"
 ---
 # <a name="line-charts-in-power-bi"></a>Графики в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 График — это серия точек данных, которые представлены точками и соединены прямыми линиями. График может иметь одну или несколько линий. Графики имеют оси X и Y. 
 
 ![график](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>Создание графика
 В этих инструкциях используется приложение "Продажи и маркетинг — пример" для создания графика, в котором отображаются продажи за этот год по категориям. Чтобы выполнить эту процедуру, получите образец приложения от appsource.com.
+
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.
 
 1. Начните с пустой страницы отчета. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](../service-interact-with-a-report-in-editing-view.md).
 

@@ -3,32 +3,27 @@ title: Точечные и пузырьковые диаграммы в Power BI
 description: Точечные и пузырьковые диаграммы в Power BI
 author: mihart
 ms.reviewer: amac
-featuredvideoid: PVcfPoVE3Ys
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/21/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80273324"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866916"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Точечная диаграмма всегда включает две оси значений: вдоль горизонтальной оси отображается один набор числовых данных, а вдоль вертикальной — другой. На диаграмме отображаются точки пересечения числовых значений X и Y, объединяя их в отдельные точки данных. В Power BI эти точки данных могут распределяться вдоль горизонтальной оси равномерно или неравномерно. Это зависит от данных, представленных на графике.
-
-Просмотрите это видео, в котором Уилл создает точечную диаграмму, а затем выполните следующие действия, чтобы создать ее.
-   > [!NOTE]
-   > В этом видео используется более старая версия Power BI Desktop.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 Вы можете задать количество точек данных (не более 10 000).  
 
@@ -87,6 +82,8 @@ ms.locfileid: "80273324"
 
 1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
 
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.    
 
 ## <a name="create-a-scatter-chart"></a>Создание точечной диаграммы
 
