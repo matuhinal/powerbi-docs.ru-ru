@@ -10,7 +10,7 @@
     - name: Основные понятия
       expanded: true
       items:
-        - name: Организация работы
+        - name: Организация рабочих областей
           href: ../service-new-workspaces.md
         - name: Мониторинг потребления в классических рабочих областях
           href: ../service-usage-metrics.md
@@ -73,7 +73,7 @@
               href: ../service-analyze-in-excel.md
             - name: Устранение неполадок с анализом в Excel
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: Ошибка. Не удалось найти данные в книге Excel.
+            - name: Ошибка. Не найдены данные в книге Excel
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: "Power Automate и Power\_BI"
               href: ../service-flow-integration.md
