@@ -4,17 +4,17 @@ description: Общие сведения о Сервере отчетов Power 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/22/2019
+ms.date: 04/29/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 26593f4869d6b8d2c1c206a8bedd3c0d214581b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73859562"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613604"
 ---
 # <a name="what-is-power-bi-report-server"></a>Что такое Сервер отчетов Power BI?
 
@@ -23,7 +23,7 @@ ms.locfileid: "73859562"
 ![Веб-портал сервера отчетов Power BI](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Сравнительный анализ Сервера отчетов Power BI 
-Функции Сервера отчетов Power BI похожи на функции SQL Server Reporting Services и веб-службы Power BI. Как и служба Power BI, Сервер отчетов Power BI позволяет размещать отчеты Power BI (PBIX), файлы Excel и отчеты с разбиением на страницы (RDL). Как и служба Reporting Services, Сервер отчетов Power BI размещается локально. Функции Сервера отчетов Power BI являются надмножеством служб Reporting Services. Это означает, что вы можете выполнять в нем любые функции Reporting Services, а также работать с отчетами Power BI. См. дополнительные сведения о [сравнении Сервера отчетов Power BI и службы Power BI](compare-report-server-service.md).
+Функции Сервера отчетов Power BI похожи на функции SQL Server Reporting Services и веб-службы Power BI. Как и служба Power BI, Сервер отчетов Power BI позволяет размещать отчеты Power BI (PBIX), файлы Excel и отчеты с разбиением на страницы (RDL). Как и служба Reporting Services, Сервер отчетов Power BI размещается локально. Функции Сервера отчетов Power BI являются надмножеством служб Reporting Services. Это означает, что вы можете выполнять в нем любые функции Reporting Services, а также работать с отчетами Power BI. См. дополнительные сведения о [сравнении Сервера отчетов Power BI и службы Power BI](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Лицензирование Сервера отчетов Power BI
 Сервер отчетов Power BI можно использовать с двумя разными лицензиями: [Power BI Premium](../service-premium-what-is.md) или [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) по программе Software Assurance. Лицензия Power BI Premium позволяет создавать гибридные развертывания, сочетающие облачные и локальные технологии.  
@@ -41,7 +41,7 @@ ms.locfileid: "73859562"
 См. дополнительные сведения о [веб-портале (основной режим служб SSRS)](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Отчеты Power BI
-Версия Power BI Desktop, оптимизированная для сервера отчетов, позволяет создавать отчеты Power BI (.PBIX). Вы можете опубликовать и просматривать их на веб-портале в созданной вами среде.
+Версия Power BI Desktop, оптимизированная для сервера отчетов, позволяет создавать отчеты Power BI (PBIX). Вы можете опубликовать и просматривать их на веб-портале в созданной вами среде.
 
 ![Отчеты Power BI на Сервере отчетов Power BI](media/get-started/powerbi-reports.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "73859562"
 Изучите [процесс установки Microsoft Power BI Desktop](install-powerbi-desktop.md).
 
 ## <a name="paginated-reports"></a>Отчеты с разбивкой на страницы
-Отчеты с разбивкой на страницы (.RDL) — это отчеты в формате документа с визуализациями, позволяющие расширять таблицы горизонтально и (или) вертикально на несколько страниц, чтобы поместить все необходимые данные. Они отлично подходят для создания документов с фиксированным макетом и разрешением, оптимизированных для печати, например файлов в формате PDF и Word. 
+Отчеты с разбивкой на страницы (RDL) — это отчеты в формате документа с визуализациями, позволяющие расширять таблицы горизонтально и (или) вертикально на несколько страниц, чтобы поместить все необходимые данные. Они отлично подходят для создания документов с фиксированным макетом и разрешением, оптимизированных для печати, например файлов в формате PDF и Word. 
 
 ![Отчеты с разбивкой на страницы на Сервере отчетов Power BI](media/get-started/paginated-reports.png)
 

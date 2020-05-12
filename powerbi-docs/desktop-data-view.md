@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206960"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866732"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Работа с представлением данных в Power BI Desktop
 
 *Представление данных* позволяет проверять, изучать и анализировать данные в модели *Power BI Desktop*. Оно отличается от просмотра таблиц, столбцов и данных в *редакторе Power Query*. В представлении данных вы видите данные уже *после* их загрузки в модель.
+
+> [!NOTE]
+> Так как представление данных отображает данные после их загрузки в модель, значок представления данных не отображается, если все источники данных основаны на DirectQuery. 
 
 При моделировании данных иногда требуется просмотреть фактическое содержимое столбца или таблицы без создания визуального элемента на холсте отчета. Возможно, вы захотите перейти к уровню строки. Это особенно полезно в тех случаях, когда вы создаете меры и вычисляемые столбцы или хотите определить тип данных или категорию данных.
 
@@ -48,3 +51,14 @@ ms.locfileid: "79206960"
 
 > [!NOTE]
 > Если вы создаете модель Power BI с языком и региональными параметрами, отличными от текущего пользовательского интерфейса, поле поиска будет отображаться в пользовательском интерфейсе представления данных только для текстовых полей. Например, это относится к модели, созданной на английском языке [США], которую вы просматриваете на испанском языке.
+
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
+
+* [Что такое Power BI Desktop?](desktop-what-is-desktop.md)
+* [Об использовании Редактора запросов в Power BI Desktop](desktop-query-overview.md)
+* [Типы данных в Power BI Desktop](desktop-data-types.md)
+* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Общие задачи с запросами в Power BI Desktop](desktop-common-query-tasks.md)

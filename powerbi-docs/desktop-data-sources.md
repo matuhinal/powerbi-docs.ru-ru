@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207259"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866824"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 
@@ -139,7 +139,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * HDInsight Interactive Query
 * Azure Data Explorer (Kusto)
 * Управление затратами Azure
-* Аналитика временных рядов Azure (бета-версия)
+
 
 На следующем рисунке показано окно **Получить данные** для категории **Azure**.
 
@@ -191,6 +191,9 @@ Power BI Desktop позволяет подключаться к данным и�
 * Quick Base
 * TeamDesk (бета-версия)
 * Рабочая Аналитика (бета-версия)
+* Projectplace для Power BI (бета-версия)
+* Webtrends Analytics (бета-версия)
+* Zoho Creator (бета-версия)
 
 На следующем рисунке показано окно **Получение данных** для категории **Интернет-службы**.
 
@@ -213,6 +216,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * ODBC
 * OLE DB
 * BI360 — отчеты по бюджетам и финансам (бета-версия)
+* Cognite Data Fusion (бета-версия)
 * FHIR
 * Information Grid (бета-версия)
 * Jamf Pro (бета-версия)
@@ -220,13 +224,15 @@ Power BI Desktop позволяет подключаться к данным и�
 * Paxata
 * QubolePresto (бета-версия)
 * Roamler (бета-версия)
-* Siteimprove (бета-версия)
+* Siteimprove
 * SurveyMonkey (бета-версия)
-* Tenforce (Smart)List (бета-версия)
 * TIBCO(R) Data Virtualization (бета-версия)
 * Vena (бета-версия)
 * Workforce Dimensions (бета-версия)
 * Zucchetti HR Infinity (бета-версия)
+* Tenforce (Smart)List
+* Сочетания клавиш для бизнес-аналитики (бета-версия)
+* Vessel Insight (бета-версия)
 * Пустой запрос
 
 На следующем рисунке показано окно **Получение данных** для категории **Другие**.

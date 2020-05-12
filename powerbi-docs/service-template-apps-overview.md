@@ -4,16 +4,16 @@ description: В этой статье приводится обзор прогр
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066332"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781324"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Что такое приложения-шаблоны Power BI?
 
@@ -103,6 +103,7 @@ ms.locfileid: "82066332"
 | Набор данных: для нескольких рабочих областей | Наборы данных для нескольких рабочих областей недопустимы.  |
 | Параметры запроса | Не поддерживаются: параметры типа Any или Binary блокируют операцию обновления набора данных. |
 | Визуальные элементы Power BI | Поддерживаются только общедоступные визуальные элементы Power BI. [Визуальные элементы Power BI для организации](developer/visuals/power-bi-custom-visuals-organization.md) не поддерживаются |
+| Национальные облака | Приложения шаблона недоступны в национальных облаках |
 
 ## <a name="support"></a>Поддержка
 Для поддержки во время разработки используйте [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Мы постоянно отслеживаем и контролируем этот сайт. Сообщения об инцидентах быстро передаются в соответствующую группу.

@@ -1,30 +1,32 @@
 ---
 title: Использование среза или фильтра относительных дат в Power BI
 description: Узнайте, как использовать срез или фильтр для ограничения диапазона относительных дат в Power BI.
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006799"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866525"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Использование среза и фильтра относительных дат в Power BI
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Создание среза и фильтра относительных дат в Power BI
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 **Срез относительных дат** или **фильтр относительных дат** позволяют применять фильтры с учетом времени для любого столбца даты в модели данных. Например, вы можете использовать **срез относительных дат**, чтобы отобразились только данные по продажам за последние 30 дней (или месяц, календарный месяц и т. д). Когда вы обновляете данные, период относительного времени автоматически применяет ограничение относительной даты.
 
 ![Снимок экрана отчета со стрелкой, указывающей на срез относительных дат.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>Использование среза для диапазона относительных дат
+Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.
+
+## <a name="create-the-relative-date-range-slicer"></a>Создание среза для диапазона относительных дат
 
 Вы можете использовать срез диапазона относительных дат так же, как и любой другой срез. Создайте визуальный элемент **Срез** для отчета, а затем выберите значение даты для параметра **Поле**. На следующем изображении выбрано поле *OrderDate* (Дата заказа).
 
@@ -42,17 +44,17 @@ ms.locfileid: "81006799"
 
 ![Снимок экрана параметров конфигурации относительных дат с выделенным первым параметром.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Last
+* Последний
 
-* Следующий
+* Далее
 
-* Это
+* Эта
 
 Второй параметр (средний) в *срезе относительных дат* позволяет ввести число, определяющее диапазон относительных дат.
 
 ![Снимок экрана параметров конфигурации относительных дат с выделенным вторым параметром.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-Третий параметр позволяет выбрать меру даты. Доступны следующие варианты.
+Третий параметр позволяет выбрать меру даты. Можно выбрать следующие значения:
 
 ![Снимок экрана параметров конфигурации относительных дат с выделенным третьим параметром.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
@@ -68,9 +70,9 @@ ms.locfileid: "81006799"
 
 * Years (Годы);
 
-* Years (Calendar) (Календарные годы).
+* Годы (календарь)
 
-Если выбрать в списке **Months** (Месяцы), а для среднего параметра ввести значение *2*, произойдет следующее:
+Если выбрать в списке **Months** (Месяцы), а для среднего параметра ввести значение *2*, произойдет следующее.
 
 * Если сегодня 20 июля,
 
@@ -80,7 +82,7 @@ ms.locfileid: "81006799"
 
 Для сравнения, если вы выбрали *Months (Calendar)* (Календарные месяцы), в ограниченных визуальных элементах отобразятся данные с 1 мая по 30 июня (за два последних полных календарных месяца).
 
-## <a name="using-the-relative-date-range-filter"></a>Использование фильтра для диапазона относительных дат
+## <a name="create-the-relative-date-range-filter"></a>Создание фильтра для диапазона относительных дат
 
 Кроме того, вы можете создать фильтр диапазона относительных дат для всего отчета или его отдельной страницы. Для этого перетащите поле даты в области **Фильтры на уровне страницы** или **Фильтры на уровне отчета** на панели **Поле**.
 
@@ -106,4 +108,5 @@ ms.locfileid: "81006799"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные сведения см. в разделе [Группирование данных и разделение их на ячейки в Power BI Desktop](../desktop-grouping-and-binning.md).
+- [Использование среза и фильтра относительных дат в Power BI](desktop-slicer-filter-date-range.md)
+- [Срезы в Power BI](power-bi-visualization-slicers.md)

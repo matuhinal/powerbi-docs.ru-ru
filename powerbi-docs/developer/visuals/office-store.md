@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621456"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613564"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Публикация визуализаций Power BI в Центре партнеров
 
@@ -101,9 +101,11 @@ ms.locfileid: "80621456"
 
 ## <a name="tracking-submission-status-and-usage"></a>Отслеживание состояния отправки и использования
 
-Просмотрите [политики проверки](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+* Просмотрите [политики проверки](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
-После отправки состояние отправленного приложения можно будет просматривать на [панели мониторинга приложения](https://sellerdashboard.microsoft.com/Application/Summary/).
+* После отправки состояние отправленного приложения можно будет просматривать на [панели мониторинга приложения](https://sellerdashboard.microsoft.com/Application/Summary/).
+
+* Чтобы узнать, когда визуальный элемент Power BI будет доступен для скачивания из AppSource, изучите [временную шкалу](power-bi-custom-visuals-certified.md#publication-timeline) публикации визуальных элементов Power BI.
 
 ## <a name="certify-your-visual"></a>Сертификация визуального элемента
 

@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885278"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865575"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Создание и просмотр визуальных элементов дерева декомпозиции в Power BI (предварительная версия)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Визуализация в виде дерева декомпозиции в Power BI позволяет визуализировать данные в нескольких измерениях. Она автоматически выполняет статистическую обработку данных и позволяет детализировать измерения в любом порядке. Это визуализация искусственного интеллекта (ИИ), которая может искать новые измерения для выполнения детализации на основе определенных критериев. Она выступает ценным инструментом для специализированного изучения и проведения анализа первопричин.
@@ -29,6 +32,8 @@ ms.locfileid: "75885278"
 - сценарий цепочки поставок, в котором анализируется процентное соотношение продуктов для дозаказа (которых нет в наличии);  
 - сценарий продаж, который разбивает продажи видеоигр по множеству факторов, таких как жанр игры и издатель.
 
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.    
 
 ## <a name="get-started"></a>Начало работы
 Выберите значок дерева декомпозиции в области "Визуализация".
