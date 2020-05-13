@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381452"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274174"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Применение ограничений точек данных и стратегии по шаблону визуализации
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 При отрисовке визуального элемента в Power BI визуализация должна быть быстрой и точной. Для этого требуются базовые алгоритмы, настроенные для каждого шаблона визуализации. Визуальные элементы в Power BI должны быть достаточно гибкими, чтобы обрабатывать наборы данных разных размеров. Некоторые наборы данных содержат лишь небольшое число точек данных, в то время как другие — целые петабайты. В этой статье объясняются стратегии, используемые Power BI для отрисовки визуализации.
 
@@ -57,7 +59,7 @@ ms.locfileid: "79381452"
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Стратегии и ограничения точек данных по шаблону визуализации
 
 ### <a name="area-chart"></a>диаграмма с областями;
-Ознакомьтесь с разделом, который объясняет, [как работает выборка линий](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works).
+Ознакомьтесь с разделом, который объясняет, [как работает выборка линий](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works).
 
 ### <a name="barcolumn-chart"></a>Гистограммы и столбчатые диаграммы
 - В категориальном режиме
@@ -97,10 +99,10 @@ ms.locfileid: "79381452"
 - Последние 3500
 
 ### <a name="line-chart"></a>График
-Ознакомьтесь с разделом, который объясняет, [как работает выборка линий](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works).
+Ознакомьтесь с разделом, который объясняет, [как работает выборка линий](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works).
 
 ### <a name="line-chart-high-density"></a>График с высокой плотностью
-Ознакомьтесь со статьей о [выборке с высокой плотностью](../desktop-high-density-sampling.md)
+Ознакомьтесь со статьей о [выборке с высокой плотностью](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>Карта 
 - Максимальное количество точек: 3500
@@ -109,9 +111,9 @@ ms.locfileid: "79381452"
 - Расположение: первые 3500
 - Расположение, размер: первые 3500
 - Расположение, агрегаты широты и долготы (+/- размер): первые 3500
-- Широта, долгота: см. статью [Выборка с высокой плотностью в точечных диаграммах в Power BI](desktop-high-density-scatter-charts.md)
+- Широта, долгота: см. статью [Выборка с высокой плотностью в точечных диаграммах в Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 - Широта, долгота, размер: первые 3500
-- Легенда, широта, долгота: см. статью [Выборка с высокой плотностью в точечных диаграммах в Power BI](desktop-high-density-scatter-charts.md)
+- Легенда, широта, долгота: см. статью [Выборка с высокой плотностью в точечных диаграммах в Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 - Легенда, широта, долгота, размер: первые 233 легенды, первые 15 обозначений широты и долготы (может использоваться статистика или динамические ограничения).
 - Агрегаты расположения, легенды, широты и долготы (+/- размер): первые 233 расположения, первые 15 легенд (может использоваться статистика или динамические ограничения).
 

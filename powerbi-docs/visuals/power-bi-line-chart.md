@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867031"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274197"
 ---
 # <a name="line-charts-in-power-bi"></a>Графики в Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "82867031"
 > [!NOTE]
 > Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум.
 
-1. Начните с пустой страницы отчета. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](../service-interact-with-a-report-in-editing-view.md).
+1. Начните с пустой страницы отчета. Если вы используете службу Power BI, нужно открыть отчет в [режиме правки](../create-reports/service-interact-with-a-report-in-editing-view.md).
 
 2. В области полей выберите **SalesFact** \> **Итого единиц** и щелкните **Дата** > **Месяц**.  Power BI создаст гистограмму в холсте отчета.
 
@@ -74,7 +74,7 @@ ms.locfileid: "82867031"
    ![сильно расходящиеся значения](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Выделение и перекрестная фильтрация
-Сведения об использовании области "Фильтры" см. в разделе [Добавление фильтра в отчет](../power-bi-report-add-filter.md).
+Сведения об использовании области "Фильтры" см. в разделе [Добавление фильтра в отчет](../create-reports/power-bi-report-add-filter.md).
 
 С помощью выделения точек данных на графике можно выполнить перекрестное выделение и перекрестную фильтрацию этих данных в других зрительных образах на странице отчета (и наоборот). Чтобы выполнить эту процедуру, откройте вкладку **Доля рынка**.  
 
@@ -86,7 +86,7 @@ ms.locfileid: "82867031"
 
 Обратите внимание на то, как гистограмма выделена перекрестным выделением, а индикатор — перекрестной фильтрацией.
 
-Сведения о том, как настроить параметры перекрестного выделения и фильтрации диаграмм, см. в статье [Visualization interactions in a Power BI report](../service-reports-visual-interactions.md) (Взаимодействия визуализаций в отчете Power BI).
+Сведения о том, как настроить параметры перекрестного выделения и фильтрации диаграмм, см. в статье [Visualization interactions in a Power BI report](../create-reports/service-reports-visual-interactions.md) (Взаимодействия визуализаций в отчете Power BI).
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
 * Один график не может иметь двойные оси Y.  Вместо этого необходимо использовать комбинированную диаграмму.
@@ -95,5 +95,8 @@ ms.locfileid: "82867031"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220134"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278866"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Просмотр локальных отчетов на сервере отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 
@@ -107,7 +107,7 @@ ms.locfileid: "75220134"
   > Детализация углублением и обобщением в настоящий момент не включена в отчетах Power BI на сервере отчетов Power BI.
   
     ![Отчет Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* В Power BI Desktop владельцы отчета могут [оптимизировать отчет](../../desktop-create-phone-report.md) для мобильных приложений Power BI. На мобильных телефонах в оптимизированных отчетах есть специальный значок ![Оптимизированный значок отчета Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) и макет.
+* В Power BI Desktop владельцы отчета могут [оптимизировать отчет](../../create-reports/desktop-create-phone-report.md) для мобильных приложений Power BI. На мобильных телефонах в оптимизированных отчетах есть специальный значок ![Оптимизированный значок отчета Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) и макет.
   
     ![Отчет Power BI, оптимизированный для мобильных устройств](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Выберите ключевой показатель эффективности, чтобы просмотреть его в режиме фокуса.
@@ -133,4 +133,3 @@ ms.locfileid: "75220134"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)  
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

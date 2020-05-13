@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867606"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279211"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Использование среза и фильтра относительного времени в Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "82867606"
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Пример относительного времени":::
 
-Использовать эту функцию в сочетании с [функцией автоматического обновления страниц](../desktop-automatic-page-refresh.md) не требуется. Однако многие относительные временные сценарии полезно использовать вместе с функцией автоматического обновления страниц.  
+Использовать эту функцию в сочетании с [функцией автоматического обновления страниц](../create-reports/desktop-automatic-page-refresh.md) не требуется. Однако многие относительные временные сценарии полезно использовать вместе с функцией автоматического обновления страниц.  
 
 > [!NOTE]
 > При применении среза или фильтра относительного времени на странице или на уровне отчета все визуальные элементы на этой странице или отчете фильтруются по одному и тому же диапазону времени с использованием общей временной *привязки*. Так как визуальные элементы могут немного отличаться по времени выполнения, эта общая временная привязка обеспечивает синхронизацию визуальных элементов на странице или в отчете. Дополнительные сведения о [временной привязке](#understanding-anchor-time) см. в этой статье.
@@ -107,4 +107,3 @@ ms.locfileid: "82867606"
 
 - [Использование среза и фильтра относительных дат в Power BI](../visuals/desktop-slicer-filter-date-range.md)
 - [Срезы в Power BI](../visuals/power-bi-visualization-slicers.md)
-

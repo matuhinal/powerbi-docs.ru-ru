@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921776"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276911"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Создание внедренного источника данных для отчетов с разбивкой на страницы в службе Power BI
 
@@ -27,11 +27,11 @@ ms.locfileid: "78921776"
 - Oracle 
 - Teradata 
 
-Для следующих источников данных используйте параметр [Подключение к службам SQL Server Analysis Services](../service-premium-connect-tools.md):
+Для следующих источников данных используйте параметр [Подключение к службам SQL Server Analysis Services](../admin/service-premium-connect-tools.md):
 
 - Наборы данных Power BI Premium
 
-Отчеты с разбивкой на страницы подключаются к локальным источникам данных через [шлюз Power BI](../service-gateway-onprem.md). Шлюз настраивается после публикации отчета в службе Power BI.
+Отчеты с разбивкой на страницы подключаются к локальным источникам данных через [шлюз Power BI](../connect-data/service-gateway-onprem.md). Шлюз настраивается после публикации отчета в службе Power BI.
 
 Дополнительные сведения см. в статье [Данные отчетов в построителе отчетов Power BI](report-builder-data.md).
 
@@ -93,3 +93,4 @@ ms.locfileid: "78921776"
 
 - [Создание внедренного набора данных для отчета с разбивкой на страницы в службе Power BI](paginated-reports-create-embedded-dataset.md)
 - [Сведения об отчетах с разбивкой на страницы в Power BI Premium](paginated-reports-report-builder-power-bi.md)
+

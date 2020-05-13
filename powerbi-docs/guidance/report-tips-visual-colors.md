@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 007f91a0f220ce7482600ac284336a3ac1cbfa0f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7e8526e5e8acf45afe125495cf8eca4628b70a06
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065508"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278889"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>Советы по оптимизации цвета визуальных элементов в отчетах Power BI
 
@@ -41,7 +41,8 @@ ms.locfileid: "82065508"
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - Видео biDezine: [8 основных советов по оптимизации цвета визуальных элементов в Power BI](https://www.youtube.com/watch?v=RhYcEsdPqJg)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)
+

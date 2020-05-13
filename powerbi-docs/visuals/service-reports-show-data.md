@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758630"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276566"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Отображение базовых данных визуального элемента
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Показ данных
 Визуализация Power BI создается на основе данных из наборов данных. Если вы хотите копнуть поглубже, Power BI дает возможность *просмотреть* данные, лежащие в основе визуального элемента. Если выбрать функцию **Показать данные**, Power BI отобразит рядом с визуализацией или под ней связанную информацию.
@@ -24,7 +26,7 @@ ms.locfileid: "75758630"
 Данные, используемые для создания визуализации, можно экспортировать в файл XLSX или CSV и просмотреть его в Excel. Дополнительные сведения см. в статье [Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md).
 
 > [!NOTE]
-> Функции *Показать данные* и *Экспортировать данные* доступны как в службе Power BI, так и в приложении Power BI Desktop. Но в Power BI Desktop есть дополнительный уровень детализации: функция [*Показать записи* отображает фактические строки из набора данных](../desktop-see-data-see-records.md).
+> Функции *Показать данные* и *Экспортировать данные* доступны как в службе Power BI, так и в приложении Power BI Desktop. Но в Power BI Desktop есть дополнительный уровень детализации: функция [*Показать записи* отображает фактические строки из набора данных](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -75,4 +77,5 @@ ms.locfileid: "75758630"
 [Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md)    
 
 У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+
 

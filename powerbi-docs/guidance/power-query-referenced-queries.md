@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290584"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278682"
 ---
 # <a name="referencing-power-query-queries"></a>Ссылки на запросы Power Query
 
@@ -42,7 +42,7 @@ ms.locfileid: "78290584"
 
 В целом мы рекомендуем использовать ссылочные запросы, чтобы избежать дублирования логики в запросах. Тем не менее, как описано в этой статье, такой подход к проектированию может привести к задержкам при обновлении данных и избыточной нагрузке на их источники.
 
-Вместо этого рекомендуется создавать [потоки данных](../service-dataflows-overview.md). Использование потоков данных ускоряет обновление данных и минимизирует влияние на их источники,
+Вместо этого рекомендуется создавать [потоки данных](../transform-model/service-dataflows-overview.md). Использование потоков данных ускоряет обновление данных и минимизирует влияние на их источники,
 
 а также позволяет инкапсулировать исходные данные и преобразования. Так как поток данных — это постоянное хранилище данных в службе Power BI. Поэтому их получение происходит быстро. Следовательно, даже при выполнении ссылочных запросов с множественным обращением к потоку данных обновление данных можно ускорить.
 
@@ -52,7 +52,7 @@ ms.locfileid: "78290584"
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Самостоятельная подготовка данных в Power BI](../service-dataflows-overview.md)
-- [Создание и использование потоков данных в Power BI](../service-dataflows-create-use.md)
+- [Самостоятельная подготовка данных в Power BI](../transform-model/service-dataflows-overview.md)
+- [Создание и использование потоков данных в Power BI](../transform-model/service-dataflows-create-use.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

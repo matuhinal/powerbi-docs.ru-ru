@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866594"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279188"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Создание визуализаций матрицы в Power BI
 
@@ -62,7 +62,7 @@ ms.locfileid: "82866594"
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Если отчет создается на основе многомерной модели Analysis Services, в которой используется функция "Элемент по умолчанию", имеется ряд особенностей, касающихся развертывания и свертывания. Дополнительные сведения см. в статье [Работа с многомерными моделями в Power BI](../desktop-default-member-multidimensional-models.md).
+> Если отчет создается на основе многомерной модели Analysis Services, в которой используется функция "Элемент по умолчанию", имеется ряд особенностей, касающихся развертывания и свертывания. Дополнительные сведения см. в статье [Работа с многомерными моделями в Power BI](../connect-data/desktop-default-member-multidimensional-models.md).
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Детализация с помощью визуального элемента "Матрица"
 Визуальный элемент "Матрица" позволяет использовать подробные визуализации, недоступные ранее. Вы можете выполнить детализацию с использованием строк, столбцов и даже отдельных разделов и ячеек. Рассмотрим каждый из вариантов детализации.
@@ -211,7 +211,7 @@ ms.locfileid: "82866594"
 
 Включите параметр **URL-адрес** и выберите поле, которое будет использоваться в качестве URL-адреса для столбца. После применения значения в этом поле (столбце) становятся активными ссылками. Наведите указатель мыши, чтобы увидеть ссылку, и щелкните ее, перейдя к этой странице. 
 
-Дополнительные сведения см. в разделе [Условное форматирование таблицы](../desktop-conditional-table-formatting.md)
+Дополнительные сведения см. в разделе [Условное форматирование таблицы](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Цвет заливки и шрифта с визуальными элементами матрицы
 С помощью визуального элемента "Матрица" можно применить условное форматирование (цвет, заливка, гистограммы) фона для ячеек в матрице, а также условное форматирование текста и значений.
@@ -233,3 +233,5 @@ ms.locfileid: "82866594"
 [Визуализация Power Apps для Power BI](power-bi-visualization-powerapp.md)
 
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

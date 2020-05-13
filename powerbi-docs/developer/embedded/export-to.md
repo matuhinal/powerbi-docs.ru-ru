@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525475"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144712"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Экспорт отчета Power BI в файл (предварительная версия)
 
@@ -34,7 +34,7 @@ ms.locfileid: "81525475"
 
 ## <a name="using-the-api"></a>Использование API
 
-Перед использованием API убедитесь, что включены следующие [параметры клиента администрирования](../../service-admin-portal.md#tenant-settings).
+Перед использованием API убедитесь, что включены следующие [параметры клиента администрирования](../../admin/service-admin-portal.md#tenant-settings).
 * **Экспорт отчетов в презентации PowerPoint или PDF-документы**. Включен по умолчанию.
 * **Экспорт отчетов в файлы изображений**. Требуется только для *PNG* и отключен по умолчанию.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 28acd982faed44a0912a486262c9db7611531265
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c0f4e8fd72f3808633cde64a880130798fabb173
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447494"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83138293"
 ---
 # <a name="get-a-power-bi-subscription-for-your-organization"></a>Получение подписки на Power BI для организации
 
@@ -41,7 +41,7 @@ ms.locfileid: "81447494"
 
 ## <a name="sign-up-through-microsoft-365"></a>Регистрация через Microsoft 365
 
-Если вы являетесь глобальным администратором или администратором выставления счетов Microsoft 365, вы можете получить подписку Power BI для своей организации. Дополнительные сведения см. в разделе [Кто может приобретать и назначать лицензии?](../service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses).
+Если вы являетесь глобальным администратором или администратором выставления счетов Microsoft 365, вы можете получить подписку Power BI для своей организации. Дополнительные сведения см. в разделе [Кто может приобретать и назначать лицензии?](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses).
 
 > [!NOTE]
 >

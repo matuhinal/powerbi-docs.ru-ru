@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c3f0b536695f5ed126ddc82c9e1891d317ef953f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2d5eab5dbbf600227611cadc870fab1b3e44a4b7
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447448"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83138901"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Просмотр пользовательских лицензий Power BI и управление ими
 
@@ -60,5 +60,5 @@ ms.locfileid: "81447448"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Приобретение Power BI Pro](../service-admin-purchasing-power-bi-pro.md)
-- [Лицензирование для вашей организации](../service-admin-licensing-organization.md)
+- [Приобретение Power BI Pro](service-admin-purchasing-power-bi-pro.md)
+- [Лицензирование для вашей организации](service-admin-licensing-organization.md)

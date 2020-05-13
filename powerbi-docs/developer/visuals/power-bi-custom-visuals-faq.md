@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79383305"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131311"
 ---
 # <a name="power-bi-visuals-faq"></a>Визуальные элементы Power BI: вопросы и ответы
 
@@ -24,7 +24,7 @@ ms.locfileid: "79383305"
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>Что администратор может делать с визуализациями Power BI для организации?
 
-На портале администрирования на вкладке *Визуальные элементы организации* администратор может [просматривать все визуализации Power BI для организации и управлять ими](../../service-admin-portal.md#organizational-visuals). То есть он может добавлять, отключать, включать и удалять их.
+На портале администрирования на вкладке *Визуальные элементы организации* администратор может [просматривать все визуализации Power BI для организации и управлять ими](../../admin/service-admin-portal.md#organizational-visuals). То есть он может добавлять, отключать, включать и удалять их.
 
 Пользователи в организации могут легко найти визуализации Power BI и импортировать их в свои отчеты из Power BI Desktop или службы Power BI.
 

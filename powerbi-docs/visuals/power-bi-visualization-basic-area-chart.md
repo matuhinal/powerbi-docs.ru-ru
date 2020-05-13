@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866977"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277164"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Создание и использование простых диаграмм с областями
 
@@ -68,7 +68,7 @@ ms.locfileid: "82866977"
    г.  Чтобы отобразить диаграмму по месяцам, нажмите кнопку с многоточием (в правом верхнем углу визуального элемента) и выберите **Сортировать по месяцам**. Чтобы изменить порядок сортировки, снова нажмите кнопку с многоточием и выберите **Сортировка по возрастанию** или **Сортировка по убыванию**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Выделение и перекрестная фильтрация
-Сведения об использовании области "Фильтры" см. в разделе [Добавление фильтра в отчет](../power-bi-report-add-filter.md).
+Сведения об использовании области "Фильтры" см. в разделе [Добавление фильтра в отчет](../create-reports/power-bi-report-add-filter.md).
 
 Чтобы выделить конкретную область диаграммы, выберите эту область или ее верхнюю границу.  Если на той же странице есть другие визуализации, при выделении диаграммы с областями не выполняется перекрестная фильтрация других визуализаций на странице отчета. Это правило не работает в других типах визуализаций. Однако диаграмма с областями может быть целевым объектом для перекрестной фильтрации, запускаемой другими визуализациями на странице отчета. 
 
@@ -78,7 +78,7 @@ ms.locfileid: "82866977"
 
     ![Примеры фильтрации](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-Дополнительные сведения см. в статье [Взаимодействия с визуализациями в отчете Power BI](../service-reports-visual-interactions.md).
+Дополнительные сведения см. в статье [Взаимодействия с визуализациями в отчете Power BI](../create-reports/service-reports-visual-interactions.md).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок   
@@ -87,4 +87,6 @@ ms.locfileid: "82866977"
 
 ## <a name="next-step"></a>Следующий шаг
 [Отчеты в Power BI](power-bi-visualization-card.md)  
+
+
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114832"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276198"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 
@@ -102,7 +102,7 @@ ms.locfileid: "79114832"
 * Следуйте этим [рекомендациям по отправке вопросов с помощью функции "Вопросы и ответы"](../end-user-q-and-a-tips.md) в службе Power BI или виртуального аналитика "Вопросы и ответы" в мобильном приложении iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Как улучшить набор данных
-* Усовершенствуйте набор данных в Power BI Desktop или в службе Power BI, чтобы [ваши данные правильно работали с функцией "Вопросы и ответы" и виртуальным аналитиком "Вопросы и ответы"](../../service-prepare-data-for-q-and-a.md).
+* Усовершенствуйте набор данных в Power BI Desktop или в службе Power BI, чтобы [ваши данные правильно работали с функцией "Вопросы и ответы" и виртуальным аналитиком "Вопросы и ответы"](../../create-reports/service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Вопросы и ответы в Power BI](../end-user-q-and-a.md)

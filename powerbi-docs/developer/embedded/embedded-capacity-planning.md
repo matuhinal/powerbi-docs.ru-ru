@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493257"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145128"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Планирование ресурсов в аналитике Power BI Embedded
 
@@ -51,7 +51,7 @@ ms.locfileid: "79493257"
 
 Чтобы увидеть результаты нагрузочного теста в приложении метрик после выполнения этого теста, следуйте приведенным ниже инструкциям. Нагрузка начнет отображаться в метриках примерно через 15 минут после того, как тест начнет создавать нагрузку.
 
-1. Разверните вкладку **Наборы данных** на [целевой странице](../../service-admin-premium-monitor-capacity.md) приложения метрик.
+1. Разверните вкладку **Наборы данных** на [целевой странице](../../admin/service-admin-premium-monitor-capacity.md) приложения метрик.
 2. Выполните обновление по запросу, нажав кнопку **Обновить сейчас**. Это должны делать администраторы.
 
     ![Метрики емкости Power BI Premium](media/embedded-capacity-planning/embedded-capacity-planning.png)

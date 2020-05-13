@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a1d0abc065380a30b1868710bea31d0bf1fa89f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 110aadce6bafd61b3c8b60a7370cedecf0d27ae0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066157"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278107"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Советы по управлению осями в отчетах Power BI
 
@@ -41,7 +41,8 @@ ms.locfileid: "82066157"
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - Видео biDezine: [8 лучших советов по эффективному управлению осями в Power BI](https://www.youtube.com/watch?v=3t9W7Xvpzo0)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)
+

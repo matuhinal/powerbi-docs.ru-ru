@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435336"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276221"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Фильтрация отчета по географическому расположению в мобильных приложениях Power BI
 Область применения:
@@ -39,17 +39,16 @@ ms.locfileid: "79435336"
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>Почему я не вижу в отчете теги расположения?
 Чтобы отобразить теги расположения, необходимо выполнить все три условия. 
 
-* Пользователь, создавший отчет в Power BI Desktop, должен [упорядочить по категориям данные о географическом расположении](../../desktop-mobile-geofiltering.md) хотя бы для одного столбца (город, штат, страна или регион).
+* Пользователь, создавший отчет в Power BI Desktop, должен [упорядочить по категориям данные о географическом расположении](../../transform-model/desktop-mobile-geofiltering.md) хотя бы для одного столбца (город, штат, страна или регион).
 * Вы находитесь в одном из расположений, данные о котором содержит этот столбец.
 * Вы используете один из следующих мобильных устройств:
   * iOS (iPad, iPhone, iPod);
   * Android (телефоны, планшеты).
   * телефоны под управлением Windows 10 (другие устройства под управлением Windows 10, например планшеты и ПК, не поддерживают фильтрацию географических данных).
 
-Дополнительные сведения о настройке фильтрации по географическим объектам в Power BI Desktop см. [здесь](../../desktop-mobile-geofiltering.md).
+Дополнительные сведения о настройке фильтрации по географическим объектам в Power BI Desktop см. [здесь](../../transform-model/desktop-mobile-geofiltering.md).
 
 ### <a name="next-steps"></a>Дальнейшие действия
 * [Подключение к данным Power BI из реального мира](mobile-apps-data-in-real-world-context.md) с помощью мобильных приложений
-* [Категоризация данных в Power BI Desktop](../../desktop-data-categorization.md) 
+* [Категоризация данных в Power BI Desktop](../../transform-model/desktop-data-categorization.md) 
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

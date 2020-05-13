@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802056"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276175"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Сканирование штрихкода с помощью мобильного приложения Power BI
 Вы можете сканировать штрихкоды в реальном мире и сразу же переходить непосредственно к отфильтрованной соответствующим образом информации в мобильном приложении Power BI.
@@ -25,7 +25,7 @@ ms.locfileid: "80802056"
 |:--- |:--- |:--- |:--- |
 |iPhone |iPad |Телефоны под управлением Android |Планшеты Android |
 
-Предположим, коллега [указал, что поле в отчете Power BI Desktop содержит штрихкоды](../../desktop-mobile-barcodes.md), и поделился этим отчетом с вами. 
+Предположим, коллега [указал, что поле в отчете Power BI Desktop содержит штрихкоды](../../transform-model/desktop-mobile-barcodes.md), и поделился этим отчетом с вами. 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
@@ -64,13 +64,12 @@ ms.locfileid: "80802056"
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"Вероятно, у вас нет отчетов, которые можно фильтровать по штрихкодам".
 Это означает, что у вас нет отчетов, содержащих штрихкоды. Сканер штрихкодов способен фильтровать только отчеты, в которых есть столбцы, помеченные тегом **Штрихкод**.  
 
-Вы или владелец отчета должны добавить в него соответствующую пометку**Barcode** в Power BI Desktop. Узнайте больше о [пометке полей со штрихкодами в Power BI Desktop](../../desktop-mobile-barcodes.md).
+Вы или владелец отчета должны добавить в него соответствующую пометку**Barcode** в Power BI Desktop. Узнайте больше о [пометке полей со штрихкодами в Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"Не удалось отфильтровать отчет. Похоже, этот штрихкод не существует в данных отчета".
 Отчет, который вы попытались отфильтровать, основан на модели данных, в которой нет этого значения штрихкода. Например, в отчете может не быть позиции под названием "минеральная вода". Вы можете просканировать другое изделие, выбрать другой отчет (если у вас их несколько) или просмотреть отчет без фильтра. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Добавление тегов для поля со штрихкодом в Power BI Desktop](../../desktop-mobile-barcodes.md)
+* [Добавление тегов для поля со штрихкодом в Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md)
 * [Плитки панели мониторинга в Power BI](../end-user-tiles.md)
 * [Панели мониторинга в Power BI](../end-user-dashboards.md)
-

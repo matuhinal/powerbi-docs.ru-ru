@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85cecc300ac3586c3702e8a7fa5e5c4a4dc6a65c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066114"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278958"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Советы по форматированию и внедрению условных обозначений в отчеты Power BI
 
@@ -39,7 +39,8 @@ ms.locfileid: "82066114"
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Советы и рекомендации по созданию отчетов в Power BI Desktop и в службе Power BI](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - Видео biDezine: [6 основных советов по форматированию и внедрению условных обозначений в Power BI](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)
+

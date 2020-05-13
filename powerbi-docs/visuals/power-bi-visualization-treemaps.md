@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866893"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276704"
 ---
 # <a name="treemaps-in-power-bi"></a>Древовидные диаграммы в Power BI
 
@@ -120,10 +120,11 @@ ms.locfileid: "82866893"
 1. В круговой диаграмме **Last Year Sales by Chain** (Продажи за прошлый год по сети магазинов) выберите сектор **Fashions Direct**, чтобы перекрестно фильтровать диаграмму в виде дерева.
    ![GIF-демонстрация функции перекрестной фильтрации.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. Подробности о настройке перекрестной фильтрации в диаграммах см. в статье [Visualization interactions in a Power BI report](../service-reports-visual-interactions.md) (Взаимодействия визуализаций в отчете Power BI).
+1. Подробности о настройке перекрестной фильтрации в диаграммах см. в статье [Visualization interactions in a Power BI report](../create-reports/service-reports-visual-interactions.md) (Взаимодействия визуализаций в отчете Power BI).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Каскадные диаграммы в Power BI](power-bi-visualization-waterfall-charts.md)
 
 * [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

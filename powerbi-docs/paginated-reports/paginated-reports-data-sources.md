@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692893"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279165"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "82692893"
 
 ## <a name="other-data-sources"></a>Другие источники данных
 
-Кроме указанных выше изначально поддерживаемых источников данных, можно получить доступ к следующим источникам данных с помощью [шлюза данных Power BI](../service-gateway-onprem.md):
+Кроме указанных выше изначально поддерживаемых источников данных, можно получить доступ к следующим источникам данных с помощью [шлюза данных Power BI](../connect-data/service-gateway-onprem.md):
 
 - SQL Server
 - Службы SQL Server Analysis Services
@@ -74,3 +74,4 @@ ms.locfileid: "82692893"
 [Просмотр отчета с разбивкой на страницы в службе Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+

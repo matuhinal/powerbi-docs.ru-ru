@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920738"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127814"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>В каких случаях использовать отчеты с разбивкой на страницы в Power BI
 
 Эта статья предназначена для разработчиков отчетов Power BI. В ней представлены рекомендации, которые помогут в разработке [отчетов с разбивкой на страницы Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
-> Для публикации отчетов с разбивкой на страницы Power BI требуется подписка Power BI Premium. Отчеты отображаются только в том случае, если они находятся в рабочей области с выделенной емкостью со [включенной рабочей нагрузкой отчетов с разбивкой на страницы](../service-admin-premium-workloads.md#paginated-reports).
+> Для публикации отчетов с разбивкой на страницы Power BI требуется подписка Power BI Premium. Отчеты отображаются только в том случае, если они находятся в рабочей области с выделенной емкостью со [включенной рабочей нагрузкой отчетов с разбивкой на страницы](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 Отчеты с разбивкой на страницы Power BI оптимизированы для **печати** и **создания PDF-файлов**. Кроме того, они предоставляют возможность создавать идеально оформленные макеты с широкими возможностями форматирования. Таким образом, отчеты с разбивкой на страницы идеально подходят для рабочих отчетов, таких как счета на продажу.
 
@@ -36,7 +36,7 @@ ms.locfileid: "78920738"
 
 Если у вас уже есть [отчеты на языке определения отчетов (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs), созданные с помощью службы отчетов SQL Server Reporting Services (SSRS), их можно преобразовать в [отчеты Power BI](../consumer/end-user-reports.md) или перенести их как отчеты с разбивкой на страницы в Power BI. Дополнительные сведения см. в разделе [Перенос отчетов SQL Server Reporting Services в Power BI](migrate-ssrs-reports-to-power-bi.md).
 
-После публикации в рабочей области Power BI отчеты с разбивкой на страницы доступны параллельно с отчетами Power BI. Их можно с легкостью распространить с помощью [приложений Power BI](../service-create-distribute-apps.md).
+После публикации в рабочей области Power BI отчеты с разбивкой на страницы доступны параллельно с отчетами Power BI. Их можно с легкостью распространить с помощью [приложений Power BI](../collaborate-share/service-create-distribute-apps.md).
 
 Вместо переноса отчеты SSRS можно преобразовать. Это особенно справедливо для отчетов, предназначенных для предоставления аналитических данных. В таких случаях отчеты Power BI, скорее всего, будут удобнее для использования.
 

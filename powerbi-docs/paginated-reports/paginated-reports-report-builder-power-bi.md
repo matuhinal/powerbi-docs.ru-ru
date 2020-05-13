@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621549"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144735"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
@@ -23,7 +23,7 @@ ms.locfileid: "80621549"
 
 ![Разбивка на страницы](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI `https://app.powerbi.com`. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в разделе "Моя рабочая область" или в рабочей области, которая находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы в [разделе емкостей Premium](../service-admin-premium-workloads.md#paginated-reports) на портале администрирования Power BI. 
+Вы можете просмотреть такой отчет в Построителе отчетов, а затем опубликовать его в службе Power BI `https://app.powerbi.com`. Для публикации отчета в службе нужна лицензия Power BI Pro. Вы можете публиковать и совместно использовать отчеты с разбивкой на страницы в разделе "Моя рабочая область" или в рабочей области, которая находится в емкости Power BI Premium. Кроме того, администратору Power BI нужно включить функцию отчетов с разбивкой на страницы в [разделе емкостей Premium](../admin/service-admin-premium-workloads.md#paginated-reports) на портале администрирования Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Создание отчетов в построителе отчетов Power BI
 

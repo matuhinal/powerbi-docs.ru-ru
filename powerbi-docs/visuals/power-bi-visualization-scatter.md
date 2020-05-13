@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866916"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276842"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 
@@ -177,13 +177,13 @@ ms.locfileid: "82866916"
 
 ![Снимок экрана точечной диаграммы, добавляющей TempTime в контейнер сведений.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-Для создания нового поля [используйте редактор запросов Power BI Desktop, чтобы добавить столбец индекса](../desktop-add-custom-column.md) в свой набор данных. Затем добавьте этот столбец в контейнер **Сведения** визуализации.
+Для создания нового поля [используйте редактор запросов Power BI Desktop, чтобы добавить столбец индекса](../create-reports/desktop-add-custom-column.md) в свой набор данных. Затем добавьте этот столбец в контейнер **Сведения** визуализации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Рекомендуем также ознакомиться со следующими материалами:
 
-* [Выборка с высокой плотностью в точечных диаграммах в Power BI](desktop-high-density-scatter-charts.md)
+* [Выборка с высокой плотностью в точечных диаграммах в Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 * [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Советы по сортировке и распространению графиков данных в отчетах Power BI](../guidance/report-tips-sort-distribute-data-plots.md)
 

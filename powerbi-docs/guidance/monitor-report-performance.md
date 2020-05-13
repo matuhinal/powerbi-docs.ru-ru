@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525544"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279027"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Мониторинг производительности отчетов в Power BI
 
-Примените для мониторинга производительности отчетов в Power BI Desktop [приложение метрик Power BI Premium](../service-premium-metrics-app.md), выясните все проблемы и узнайте, как повысить производительность отчета.
+Примените для мониторинга производительности отчетов в Power BI Desktop [приложение метрик Power BI Premium](../admin/service-premium-metrics-app.md), выясните все проблемы и узнайте, как повысить производительность отчета.
 
 Мониторинг производительности полезен в следующих ситуациях:
 
@@ -39,7 +39,7 @@ ms.locfileid: "81525544"
 
 ## <a name="use-performance-analyzer"></a>Использование Анализатора производительности
 
-В [Анализаторе производительности](../desktop-performance-analyzer.md) Power BI Desktop можно узнать о производительности каждого из элементов отчета, например о визуальных элементах и формулах DAX. Особенно полезно определить, сам запрос или визуальная отрисовка создают проблемы с производительностью.
+В [Анализаторе производительности](../create-reports/desktop-performance-analyzer.md) Power BI Desktop можно узнать о производительности каждого из элементов отчета, например о визуальных элементах и формулах DAX. Особенно полезно определить, сам запрос или визуальная отрисовка создают проблемы с производительностью.
 
 ## <a name="use-sql-server-profiler"></a>Использование SQL Server Profiler
 
@@ -77,15 +77,15 @@ SQL Server Profiler будет полезен в тех случаях, когд
 
 ## <a name="monitor-premium-metrics"></a>Мониторинг метрик категории "Премиум"
 
-Что касается возможностей Power BI Premium, вы можете применить **приложение метрик Power BI Premium** для мониторинга состояния и возможностей подписки Power BI Premium. Дополнительные сведения см. в статье [о приложении метрик Power BI Premium](../service-premium-metrics-app.md).
+Что касается возможностей Power BI Premium, вы можете применить **приложение метрик Power BI Premium** для мониторинга состояния и возможностей подписки Power BI Premium. Дополнительные сведения см. в статье [о приложении метрик Power BI Premium](../admin/service-premium-metrics-app.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения по этим вопросам см. в следующих ресурсах.
 
 - [Диагностика запросов](/power-query/QueryDiagnostics)
-- [Анализатор производительности](../desktop-performance-analyzer.md)
+- [Анализатор производительности](../create-reports/desktop-performance-analyzer.md)
 - [Устранение неполадок с производительностью отчетов в Power BI](report-performance-troubleshoot.md)
-- [Приложение Power BI Premium Metrics](../service-premium-metrics-app.md)
+- [Приложение Power BI Premium Metrics](../admin/service-premium-metrics-app.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)
