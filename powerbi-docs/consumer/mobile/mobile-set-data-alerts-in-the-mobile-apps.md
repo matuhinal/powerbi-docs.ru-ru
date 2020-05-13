@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435819"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279556"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Настройка оповещений о данных в мобильных приложениях Power BI
 Применяется к:
@@ -29,7 +29,7 @@ ms.locfileid: "79435819"
 > [!WARNING]
 > Уведомления на основе данных содержат сведения о данных. Если ваше устройство украдено, рекомендуем отключить все правила генерации оповещений на основе данных в службе Power BI. 
 > 
-> Дополнительные сведения об [управлении оповещениями о данных в службе Power BI](../../service-set-data-alerts.md).
+> Дополнительные сведения об [управлении оповещениями о данных в службе Power BI](../../create-reports/service-set-data-alerts.md).
 > 
 > 
 
@@ -58,7 +58,7 @@ ms.locfileid: "79435819"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Управление оповещениями на устройствах iPhone и iPad
-На мобильном устройстве можно управлять отдельными оповещениями. [Всеми оповещениями можно управлять в службе Power BI](../../service-set-data-alerts.md).
+На мобильном устройстве можно управлять отдельными оповещениями. [Всеми оповещениями можно управлять в службе Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. На панели мониторинга нажмите на плитку числа или датчика, на которой есть оповещение.  
    
@@ -92,7 +92,7 @@ ms.locfileid: "79435819"
 8. Коснитесь элемента **Сохранить**.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Управление оповещениями на устройстве Android
-Вы можете управлять отдельными оповещениями в мобильном приложении Power BI, а также [всеми своими оповещениями в службе Power BI](../../service-set-data-alerts.md).
+Вы можете управлять отдельными оповещениями в мобильном приложении Power BI, а также [всеми своими оповещениями в службе Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. На панели мониторинга нажмите на плитку карточки или датчика, на которой есть оповещение.  
 2. Коснитесь значка колокольчика ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
@@ -131,7 +131,7 @@ ms.locfileid: "79435819"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Управление оповещениями на устройстве с Windows
-Вы можете управлять отдельными оповещениями в мобильном приложении Power BI, а также [всеми своими оповещениями в службе Power BI](../../service-set-data-alerts.md).
+Вы можете управлять отдельными оповещениями в мобильном приложении Power BI, а также [всеми своими оповещениями в службе Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. На панели мониторинга нажмите на плитку карточки или датчика, на которой есть оповещение.  
 2. Нажмите на значок звонка ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
@@ -172,7 +172,6 @@ ms.locfileid: "79435819"
 * Оповещения не используются с плитками, которые содержат данные потоковой передачи.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Управление оповещениями в службе Power BI](../../service-set-data-alerts.md)
+* [Управление оповещениями в службе Power BI](../../create-reports/service-set-data-alerts.md)
 * [Получение уведомлений в мобильных приложениях Power BI](mobile-apps-notification-center.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

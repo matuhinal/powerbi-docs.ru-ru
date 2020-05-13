@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492613"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279395"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Рекомендации по производительности Power BI Embedded
 
@@ -59,7 +59,7 @@ ms.locfileid: "79492613"
 
 Организации с емкостью Power BI Premium или Power BI Embedded могут воспользоваться кэшированием запросов для ускорения работы с отчетами, связанными с определенным набором данных.
 
-[Узнайте больше о кэшировании запросов в Power BI Premium](../../power-bi-query-caching.md).
+[Узнайте больше о кэшировании запросов в Power BI Premium](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>Предварительная загрузка
 
@@ -99,7 +99,7 @@ ms.locfileid: "79492613"
 Чтобы проверить производительность элементов отчета, вы можете использовать Анализатор производительности в Power BI Desktop.
 Анализатор производительности позволит вам просматривать и записывать журналы, которые измеряют производительность каждого элемента отчета.
 
-[Узнайте больше об Анализаторе производительности](../../desktop-performance-analyzer.md).
+[Узнайте больше об Анализаторе производительности](../../create-reports/desktop-performance-analyzer.md).
 
 > [!NOTE]
 > Не забывайте сравнивать производительность встроенного отчета с производительностью на сайте powerbi.com. Это может помочь вам понять причину проблем с производительностью.

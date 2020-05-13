@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841740"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279510"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Просмотр отчетов в мобильных приложениях Power BI
 Применяется к:
@@ -27,7 +27,7 @@ ms.locfileid: "82841740"
 
 Отчет Power BI — это интерактивное представление данных с визуальными элементами, которые отображают различные результаты и сведения, полученные из этих данных. Просмотр отчетов в мобильных приложениях Power BI — это последний шаг трехэтапной процедуры:
 
-1. [Создание отчетов в Power BI Desktop](../../desktop-report-view.md). В Power BI Desktop можно даже [оптимизировать отчет для телефонов](mobile-apps-view-phone-report.md).
+1. [Создание отчетов в Power BI Desktop](../../create-reports/desktop-report-view.md). В Power BI Desktop можно даже [оптимизировать отчет для телефонов](mobile-apps-view-phone-report.md).
 2. Публиковать эти отчеты можно в службе Power BI [(https://powerbi.com)](https://powerbi.com) или на [Сервере отчетов Power BI](../../report-server/get-started.md)).  
 3. Работайте с отчетами в мобильных приложениях Power BI.
 
@@ -100,7 +100,7 @@ ms.locfileid: "82841740"
 Когда вы касаетесь определенной части визуального элемента и выбираете параметр *детализации* в Power BI, вы переходите на другую страницу отчета, отфильтрованную по выбранному значению. Автор отчета может задавать различные варианты детализации с переходом на разные страницы. В этом случае вы выбираете из них тот, который вам интересен. Чтобы вернуться на предыдущую страницу, нажмите кнопку "Назад".
 
 
-Для получения дополнительных сведений см. раздел о том, как [добавить детализацию в Power BI Desktop](../../desktop-drillthrough.md).
+Для получения дополнительных сведений см. раздел о том, как [добавить детализацию в Power BI Desktop](../../create-reports/desktop-drillthrough.md).
    
    > [!IMPORTANT]
    > В мобильных приложениях Power BI действия по детализации в визуальных элементах матрицы и таблицы включаются только через значения ячеек, а не через заголовки столбцов или строк.
@@ -164,6 +164,5 @@ ms.locfileid: "82841740"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Просмотр отчетов Power BI, оптимизированных для телефона, и взаимодействие с ними](mobile-apps-view-phone-report.md)
-* [Создание версии отчета, оптимизированной для телефонов](../../desktop-create-phone-report.md)
+* [Создание версии отчета, оптимизированной для телефонов](../../create-reports/desktop-create-phone-report.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

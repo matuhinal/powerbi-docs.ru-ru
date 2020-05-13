@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f653bd14f71d0d8409dbb8c3653515198cc6c40
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040156"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279464"
 ---
 # <a name="export-data-from-a-visual"></a>Экспорт данных из визуального элемента
 
@@ -28,7 +28,8 @@ ms.locfileid: "79040156"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Экспорт из визуального элемента на панели мониторинга Power BI
 
-1. Начните с панели мониторинга Power BI. Здесь мы используем панель мониторинга из примера приложения ***для маркетинга и продаж***. Это приложение [можно скачать на сайте AppSource.com.](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)
+1. Начните с панели мониторинга Power BI. Здесь мы используем панель мониторинга из примера приложения ***для маркетинга и продаж***. Это приложение [можно скачать на сайте AppSource.com.](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+)
 
     ![Панель мониторинга приложения](media/end-user-export/power-bi-dashboards.png)
 

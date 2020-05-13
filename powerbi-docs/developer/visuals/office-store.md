@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613564"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148334"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Публикация визуализаций Power BI в Центре партнеров
 
@@ -27,7 +27,7 @@ ms.locfileid: "82613564"
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Подготовка к отправке визуализации Power BI
 
-Перед отправкой визуализации Power BI в AppSource, обязательно прочитайте рекомендации по работе с [визуализациями Power BI](guidelines-powerbi-visuals.md) и [протестируйте свой пользовательский визуальный элемент](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md).
+Перед отправкой визуализации Power BI в AppSource, обязательно прочитайте рекомендации по работе с [визуализациями Power BI](guidelines-powerbi-visuals.md) и [протестируйте свой пользовательский визуальный элемент](./submission-testing.md).
 
 Когда все будет готово к отправке, проверьте, соответствует ли визуализация Power BI всем указанным ниже требованиям.
 
@@ -99,9 +99,10 @@ ms.locfileid: "82613564"
 
 10. Выберите **Настройка продукта** и щелкните **Проверить и опубликовать**.
 
+
 ## <a name="tracking-submission-status-and-usage"></a>Отслеживание состояния отправки и использования
 
-* Просмотрите [политики проверки](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+Просмотрите [политики проверки](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 * После отправки состояние отправленного приложения можно будет просматривать на [панели мониторинга приложения](https://sellerdashboard.microsoft.com/Application/Summary/).
 
