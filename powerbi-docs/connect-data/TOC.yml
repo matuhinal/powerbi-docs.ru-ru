@@ -6,339 +6,339 @@
       expanded: true
       items:
         - name: "Источники данных в Power\_BI"
-          href: ../service-get-data.md
+          href: service-get-data.md
         - name: Что такое локальный шлюз данных?
-          href: ../service-gateway-onprem.md
+          href: service-gateway-onprem.md
     - name: Краткие руководства
       expanded: true
       items:
         - name: Подключение к данным в Power BI Desktop
-          href: ../desktop-quickstart-connect-to-data.md
+          href: desktop-quickstart-connect-to-data.md
     - name: Учебники
       items:
         - name: Формирование и объединение нескольких источников данных
-          href: ../desktop-shape-and-combine-data.md
+          href: desktop-shape-and-combine-data.md
         - name: Импорт и анализ данных веб-страницы
-          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
         - name: "Анализ данных о продажах из Excel и канала\_OData"
-          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
         - name: Анализ данных Facebook
-          href: ../desktop-tutorial-facebook-analytics.md
+          href: desktop-tutorial-facebook-analytics.md
         - name: "Безопасность на уровне строк в табличной модели Analysis\_Services"
-          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Приступая к работе с Power BI
-          href: ../service-get-started.md
+          href: ../fundamentals/service-get-started.md
         - name: Подключение к примеру в GitHub
-          href: ../service-tutorial-connect-to-github.md
+          href: service-tutorial-connect-to-github.md
         - name: Использование "Анализа в Excel"
-          href: ../service-tutorial-analyze-in-excel.md
+          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: "Использование Cognitive\_Services"
-          href: ../service-tutorial-use-cognitive-services.md
+          href: service-tutorial-use-cognitive-services.md
         - name: Интеграция Машинного обучения
-          href: ../service-tutorial-invoke-machine-learning-model.md
+          href: service-tutorial-invoke-machine-learning-model.md
         - name: Создание модели машинного обучения
-          href: ../service-tutorial-build-machine-learning-model.md
+          href: service-tutorial-build-machine-learning-model.md
         - name: "Обновление данных из SQL\_Server"
-          href: ../service-gateway-sql-tutorial.md
+          href: service-gateway-sql-tutorial.md
     - name: Основные понятия
       items:
         - name: "Источники данных Power\_BI"
-          href: ../power-bi-data-sources.md
+          href: power-bi-data-sources.md
         - name: Предварительные требования к источникам данных Power BI
-          href: ../desktop-data-source-prerequisites.md
+          href: desktop-data-source-prerequisites.md
         - name: "Расширенные метаданные набора данных в Power\_BI\_Desktop (предварительная версия)"
-          href: ../desktop-enhanced-dataset-metadata.md
+          href: desktop-enhanced-dataset-metadata.md
         - name: "Работа с многомерными моделями в Power\_BI"
-          href: ../desktop-default-member-multidimensional-models.md
+          href: desktop-default-member-multidimensional-models.md
         - name: "Использование DirectQuery в Power\_BI"
-          href: ../desktop-directquery-about.md
+          href: desktop-directquery-about.md
         - name: Шлюзы
           items:
             - name: Руководство по развертыванию шлюза данных
-              href: ../service-gateway-deployment-guidance.md
+              href: service-gateway-deployment-guidance.md
             - name: Вопросы и ответы о локальном шлюзе данных
-              href: ../service-gateway-power-bi-faq.md
+              href: service-gateway-power-bi-faq.md
     - name: Практические руководства
       items:
         - name: подключение к источникам данных.
-          href: ../desktop-connect-to-data.md
+          href: desktop-connect-to-data.md
         - name: Подключение к данным
           items:
             - name: подключение к источникам данных.
-              href: ../desktop-data-sources.md
+              href: desktop-data-sources.md
             - name: "Создание отчета на базе списка\_SharePoint"
-              href: ../desktop-sharepoint-online-list.md
+              href: desktop-sharepoint-online-list.md
             - name: "Подключение к LinkedIn Sales\_Navigator"
-              href: ../desktop-connect-linkedin-sales-navigator.md
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Получение данных с веб-страниц по примерам
-              href: ../desktop-connect-to-web-by-example.md
+              href: desktop-connect-to-web-by-example.md
             - name: Подключение к наборам данных в службе Power BI
-              href: ../desktop-report-lifecycle-datasets.md
+              href: desktop-report-lifecycle-datasets.md
             - name: Импорт книг Excel
-              href: ../desktop-import-excel-workbooks.md
+              href: desktop-import-excel-workbooks.md
             - name: Подключение к данным с помощью универсальных интерфейсов Power BI Desktop
-              href: ../desktop-connect-using-generic-interfaces.md
+              href: desktop-connect-using-generic-interfaces.md
             - name: Подключение к PDF-файлам
-              href: ../desktop-connect-pdf.md
+              href: desktop-connect-pdf.md
             - name: Подключение к Adobe Analytics
-              href: ../desktop-connect-adobe-analytics.md
+              href: desktop-connect-adobe-analytics.md
             - name: Подключение к базе данных Oracle
-              href: ../desktop-connect-oracle-database.md
+              href: desktop-connect-oracle-database.md
             - name: Python
               items:
                 - name: Запустить сценарии Python
-                  href: ../desktop-python-scripts.md
+                  href: desktop-python-scripts.md
                 - name: Использование Python в редакторе запросов
-                  href: ../desktop-python-in-query-editor.md
+                  href: desktop-python-in-query-editor.md
                 - name: "Использование внешней IDE для\_Python"
-                  href: ../desktop-python-ide.md
+                  href: desktop-python-ide.md
                 - name: Создание визуализаций с помощью Python
-                  href: ../desktop-python-visuals.md
+                  href: desktop-python-visuals.md
             - name: Выполнение скрипта R
-              href: ../desktop-r-scripts.md
+              href: desktop-r-scripts.md
             - name: Использование языка R в редакторе запросов
-              href: ../desktop-r-in-query-editor.md
+              href: desktop-r-in-query-editor.md
             - name: "Использование внешней IDE для языка\_R"
-              href: ../desktop-r-ide.md
+              href: desktop-r-ide.md
             - name: "Использование пакетов\_R для создания визуализаций"
-              href: ../service-r-packages-support.md
+              href: service-r-packages-support.md
             - name: Ввод данных непосредственно в Power BI Desktop
-              href: ../desktop-enter-data-directly-into-desktop.md
+              href: desktop-enter-data-directly-into-desktop.md
             - name: Подключение к книгам Excel
-              href: ../desktop-connect-excel.md
+              href: desktop-connect-excel.md
             - name: Подключение к многомерным моделям SSAS
-              href: ../desktop-ssas-multidimensional.md
+              href: desktop-ssas-multidimensional.md
             - name: Подключение к CSV-файлам
-              href: ../desktop-connect-csv.md
+              href: desktop-connect-csv.md
             - name: "Подключение к базе данных Google\_BigQuery"
-              href: ../desktop-connect-bigquery.md
+              href: desktop-connect-bigquery.md
             - name: Подключение к базе данных Impala
-              href: ../desktop-connect-impala.md
+              href: desktop-connect-impala.md
             - name: Подключение к каналам OData
-              href: ../desktop-connect-odata.md
+              href: desktop-connect-odata.md
             - name: Подключение к базе данных Amazon Redshift
-              href: ../desktop-connect-redshift.md
+              href: desktop-connect-redshift.md
             - name: Подключение к веб-страницам
-              href: ../desktop-connect-to-web.md
+              href: desktop-connect-to-web.md
             - name: Подключение к хранилищу вычислительных ресурсов Snowflake
-              href: ../desktop-connect-snowflake.md
+              href: desktop-connect-snowflake.md
             - name: Создание визуализаций с помощью соединителя службы "Управление затратами Azure"
-              href: ../desktop-connect-azure-cost-management.md
+              href: desktop-connect-azure-cost-management.md
             - name: Подключение к данным Azure Consumption Insights
-              href: ../desktop-connect-azure-consumption-insights.md
+              href: desktop-connect-azure-consumption-insights.md
             - name: Подключение к базам данных SAP HANA
-              href: ../desktop-sap-hana.md
+              href: desktop-sap-hana.md
             - name: "Включение шифрования для SAP\_HANA"
-              href: ../desktop-sap-hana-encryption.md
+              href: desktop-sap-hana-encryption.md
             - name: "Подключение к табличным данным Analysis\_Services"
-              href: ../desktop-analysis-services-tabular-data.md
+              href: desktop-analysis-services-tabular-data.md
             - name: Подключение к источникам данных с помощью DirectQuery
-              href: ../desktop-use-directquery.md
+              href: desktop-use-directquery.md
             - name: Подключение к SAP Business Warehouse с помощью DirectQuery
-              href: ../desktop-directquery-sap-bw.md
+              href: desktop-directquery-sap-bw.md
             - name: Подключение к источникам данных SAP HANA с помощью DirectQuery
-              href: ../desktop-directquery-sap-hana.md
+              href: desktop-directquery-sap-hana.md
             - name: Функция "Предполагать целостность данных"
-              href: ../desktop-assume-referential-integrity.md
+              href: desktop-assume-referential-integrity.md
             - name: "Доступ к данным SAP BW с помощью соединителя SAP\_BW"
-              href: ../desktop-sap-bw-connector.md
+              href: desktop-sap-bw-connector.md
             - name: Использование ссылок OneDrive для бизнеса
-              href: ../desktop-use-onedrive-business-links.md
+              href: desktop-use-onedrive-business-links.md
             - name: 'Служба сторонних разработчиков: Использование соединителя Facebook'
-              href: ../service-facebook-connector.md
+              href: service-facebook-connector.md
             - name: "Служба сторонних разработчиков: Использование соединителя Google\_Analytics"
-              href: ../service-google-analytics-connector.md
+              href: service-google-analytics-connector.md
             - name: Подключение к данным Project Online через Power BI Desktop
-              href: ../desktop-project-online-connect-to-data.md
+              href: desktop-project-online-connect-to-data.md
         - name: Получение данных из файлов
           items:
             - name: Получение данных из файлов
-              href: ../service-get-data-from-files.md
+              href: service-get-data-from-files.md
             - name: От книги Excel до потрясающего отчета
-              href: ../service-from-excel-to-stunning-report.md
+              href: service-from-excel-to-stunning-report.md
             - name: Получение данных из файлов книг Excel
-              href: ../service-excel-workbook-files.md
+              href: service-excel-workbook-files.md
             - name: Получение данных из файлов Power BI Desktop
-              href: ../service-desktop-files.md
+              href: service-desktop-files.md
             - name: Изменение параметров
-              href: ../service-parameters.md
+              href: service-parameters.md
             - name: Получение данных из файлов с разделителями-запятыми (CSV-файлов)
-              href: ../service-comma-separated-value-files.md
+              href: service-comma-separated-value-files.md
             - name: "Потоковая передача в реальном времени в Power\_BI"
-              href: ../service-real-time-streaming.md
+              href: service-real-time-streaming.md
             - name: Публикация в Power BI из Excel
-              href: ../service-publish-from-excel.md
+              href: service-publish-from-excel.md
             - name: Уменьшение размера книги Excel
-              href: ../reduce-the-size-of-an-excel-workbook.md
+              href: reduce-the-size-of-an-excel-workbook.md
         - name: Получение данных из общих наборов данных
           items:
             - name: Использование наборов данных в рабочих областях
-              href: ../service-datasets-across-workspaces.md
+              href: service-datasets-across-workspaces.md
             - name: Совместный доступ к наборам данных (предварительная версия)
-              href: ../service-datasets-share.md
+              href: service-datasets-share.md
             - name: Разрешение на сборку для общих наборов данных
-              href: ../service-datasets-build-permissions.md
+              href: service-datasets-build-permissions.md
             - name: Создание отчетов на основе наборов данных
-              href: ../service-datasets-discover-across-workspaces.md
+              href: service-datasets-discover-across-workspaces.md
             - name: Копирование отчетов на основе наборов данных
-              href: ../service-datasets-copy-reports.md
+              href: service-datasets-copy-reports.md
             - name: Управление использованием наборов данных
-              href: ../service-datasets-admin-across-workspaces.md
+              href: service-datasets-admin-across-workspaces.md
         - name: Одобрение наборов данных
           items:
             - name: Повышение уровня наборов данных
-              href: ../service-datasets-promote.md
+              href: service-datasets-promote.md
             - name: Сертификация наборов данных
-              href: ../service-datasets-certify.md
+              href: service-datasets-certify.md
         - name: Получение данных из баз данных
           items:
             - name: Azure и Power BI
-              href: ../service-azure-and-power-bi.md
+              href: service-azure-and-power-bi.md
             - name: "Исходящий трафик Power\_BI и Azure"
-              href: ../service-azure-egress-power-bi.md
+              href: service-azure-egress-power-bi.md
             - name: Хранилище данных SQL Azure с DirectQuery
-              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+              href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: База данных SQL Azure с DirectQuery
-              href: ../service-azure-sql-database-with-direct-connect.md
+              href: service-azure-sql-database-with-direct-connect.md
             - name: Динамические данные служб SQL Server Analysis в Power BI
-              href: ../sql-server-analysis-services-tabular-data.md
+              href: sql-server-analysis-services-tabular-data.md
         - name: Обновить данные
           items:
             - name: Обновление данных в Power BI
-              href: ../refresh-data.md
+              href: refresh-data.md
             - name: Настройка запланированного обновления
-              href: ../refresh-scheduled-refresh.md
+              href: refresh-scheduled-refresh.md
             - name: Настройка добавочного обновления
-              href: ../service-premium-incremental-refresh.md
+              href: ../admin/service-premium-incremental-refresh.md
             - name: "Обновление набора данных из локального файла Power\_BI\_Desktop"
-              href: ../refresh-desktop-file-local-drive.md
+              href: refresh-desktop-file-local-drive.md
             - name: "Обновление набора данных из облачного файла Power\_BI\_Desktop"
-              href: ../refresh-desktop-file-onedrive.md
+              href: refresh-desktop-file-onedrive.md
             - name: "Обновление набора данных из локальной книги\_Excel"
-              href: ../refresh-excel-file-local-drive.md
+              href: refresh-excel-file-local-drive.md
             - name: "Обновление набора данных из облачной книги\_Excel"
-              href: ../refresh-excel-file-onedrive.md
+              href: refresh-excel-file-onedrive.md
             - name: Обновление набора данных из CSV-файла в OneDrive
-              href: ../refresh-csv-file-onedrive.md
+              href: refresh-csv-file-onedrive.md
             - name: "Кэширование запросов в Power\_BI\_Premium"
-              href: ../power-bi-query-caching.md
+              href: power-bi-query-caching.md
         - name: Приложения-шаблоны
           items:
             - name: Обзор приложений-шаблонов
-              href: ../service-template-apps-overview.md
+              href: service-template-apps-overview.md
             - name: Создание приложений-шаблонов
-              href: ../service-template-apps-create.md
+              href: service-template-apps-create.md
             - name: Советы по созданию приложений-шаблонов
-              href: ../service-template-apps-tips.md
+              href: service-template-apps-tips.md
             - name: Установка и распространение приложений-шаблонов
-              href: ../service-template-apps-install-distribute.md
+              href: service-template-apps-install-distribute.md
             - name: 'Обновление, удаление и извлечение приложения-шаблона Power BI'
-              href: ../service-template-update-delete-extract.md
+              href: service-template-update-delete-extract.md
             - name: Примеры приложений-шаблонов
-              href: ../service-template-apps-samples.md
+              href: service-template-apps-samples.md
         - name: Устранение неполадок
           items:
             - name: Устранение неполадок в сценариях обновления
-              href: ../refresh-troubleshooting-refresh-scenarios.md
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: 'Устранение неполадок с источником данных, не поддерживающим обновление'
-              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Устранение неполадок с запланированным обновлением для баз данных SQL Azure
-              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Устранение неполадок с анализом в Excel
-              href: ../desktop-troubleshooting-analyze-in-excel.md
+              href: ../collaborate-share/desktop-troubleshooting-analyze-in-excel.md
             - name: Ошибка. Не найдены данные в книге Excel
-              href: ../service-admin-troubleshoot-excel-workbook-data.md
+              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
-              href: ../service-refresh-xero-credentials.md
+              href: service-refresh-xero-credentials.md
         - name: Подключение к службам
           items:
             - name: Подключение к службам с помощью приложений
-              href: ../service-connect-to-services.md
+              href: service-connect-to-services.md
             - name: "Отчет по отслеживанию COVID-19 в\_США"
               href: service-connect-to-covid-19-tracking.md
             - name: Отчет о присутствии для антикризисных коммуникаций
               href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
-              href: ../service-connect-to-github.md
+              href: service-connect-to-github.md
             - name: Панель поддержки принятия решений по неотложной медицинской помощи
               href: service-connect-to-health-emergency-response.md
             - name: Калькулятор устойчивости (Майкрософт)
-              href: ../service-connect-to-microsoft-sustainability-calculator.md
+              href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
-              href: ../service-connect-to-office365mon.md
+              href: service-connect-to-office365mon.md
             - name: Project Online
-              href: ../service-connect-to-project-online.md
+              href: service-connect-to-project-online.md
             - name: QuickBooks Online
-              href: ../service-connect-to-quickbooks-online.md
+              href: service-connect-to-quickbooks-online.md
             - name: Панель мониторинга реагирования на чрезвычайные ситуации в регионе
               href: service-connect-to-regional-emergency-response.md
             - name: Salesforce
-              href: ../service-connect-to-salesforce.md
+              href: service-connect-to-salesforce.md
             - name: Smartsheet
-              href: ../service-connect-to-smartsheet.md
+              href: service-connect-to-smartsheet.md
             - name: Xero
-              href: ../service-connect-to-xero.md
+              href: service-connect-to-xero.md
             - name: Zendesk
-              href: ../service-connect-to-zendesk.md
+              href: service-connect-to-zendesk.md
         - name: Шлюзы
           items:
             - name: 'Локальный шлюз данных: подробный обзор'
-              href: ../service-gateway-onprem-indepth.md
+              href: service-gateway-onprem-indepth.md
             - name: Локальный шлюз данных (персональный режим)
-              href: ../service-gateway-personal-mode.md
+              href: service-gateway-personal-mode.md
             - name: Управление источниками данных шлюза
               items:
                 - name: Управление источниками данных
-                  href: ../service-gateway-data-sources.md
+                  href: service-gateway-data-sources.md
                 - name: "Управление источником данных предприятия\_— службы Analysis Services"
-                  href: ../service-gateway-enterprise-manage-ssas.md
+                  href: service-gateway-enterprise-manage-ssas.md
                 - name: "Управление источником данных предприятия\_— SAP HANA"
-                  href: ../service-gateway-enterprise-manage-sap.md
+                  href: service-gateway-enterprise-manage-sap.md
                 - name: Управление источником данных предприятия — SQL
-                  href: ../service-gateway-enterprise-manage-sql.md
+                  href: service-gateway-enterprise-manage-sql.md
                 - name: "Управление своим источником данных\_— Oracle"
-                  href: ../service-gateway-onprem-manage-oracle.md
+                  href: service-gateway-onprem-manage-oracle.md
                 - name: Управление источником корпоративных данных — импорт или запланированное обновление
-                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                  href: service-gateway-enterprise-manage-scheduled-refresh.md
                 - name: Объединение локальных и облачных источников данных
-                  href: ../service-gateway-mashup-on-premises-cloud.md
+                  href: service-gateway-mashup-on-premises-cloud.md
             - name: Включение единого входа (SSO)
               items:
                 - name: Обзор единого входа
-                  href: ../service-gateway-sso-overview.md
+                  href: service-gateway-sso-overview.md
                 - name: Единый вход на основе Kerberos
                   items:
                     - name: Настройка единого входа на основе Kerberos
-                      href: ../service-gateway-sso-kerberos.md
+                      href: service-gateway-sso-kerberos.md
                     - name: Конфигурация источника данных
                       items:
                         - name: SAP HANA
-                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                          href: service-gateway-sso-kerberos-sap-hana.md
                         - name: "SAP BW\_— sapcrypto.dll (Common Crypto Library)"
-                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                          href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
                         - name: SAP BW - gx64krb5.dll
-                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                          href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
                 - name: Единый вход на основе SAML
-                  href: ../service-gateway-sso-saml.md
+                  href: service-gateway-sso-saml.md
             - name: Устранение неполадок шлюза
-              href: ../service-gateway-onprem-tshoot.md
+              href: service-gateway-onprem-tshoot.md
             - name: Устранение неполадок шлюза (персональный режим)
-              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Использование настраиваемых соединителей
-              href: ../service-gateway-custom-connectors.md
+              href: service-gateway-custom-connectors.md
         - name: Устранение неполадок
           items:
             - name: "Устранение неполадок с импортом XLS-файлов Excel и\_Access"
-              href: ../desktop-access-database-errors.md
+              href: desktop-access-database-errors.md
             - name: "Устранение неполадок с открытием Power\_BI\_Desktop"
-              href: ../desktop-error-launching-desktop.md
+              href: desktop-error-launching-desktop.md
             - name: "Устранение неполадок с разработкой моделей\_DirectQuery"
-              href: ../desktop-directquery-troubleshoot.md
+              href: desktop-directquery-troubleshoot.md
     - name: Справка
       items:
         - name: Типы данных в Power BI Desktop
-          href: ../desktop-data-types.md
+          href: desktop-data-types.md
         - name: Расширение с помощью соединителей
-          href: ../desktop-connector-extensibility.md
+          href: desktop-connector-extensibility.md
         - name: Доверенные сторонние соединители
-          href: ../desktop-trusted-third-party-connectors.md
+          href: desktop-trusted-third-party-connectors.md

@@ -21,7 +21,7 @@
             - name: "Отключение фонового обновления Power\_Query"
               href: power-query-background-refresh.md
             - name: Рекомендации по потокам данных
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: Моделирование данных
           items:
             - name: Что такое схема типа "звезда"?
@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: Отношения «один-к-одному»
               href: relationships-one-to-one.md
-            - name: Связи «многие ко многим»
+            - name: Связи "много ко многим".
               href: relationships-many-to-many.md
             - name: Активные и неактивные связи
               href: relationships-active-inactive.md

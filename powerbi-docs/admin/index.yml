@@ -12,56 +12,56 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 12bd1e2ac706925301ca139bd84cef249c71e18c
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: d64c608be40aa156b3df23d5dd5ad01d50ab00dc
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "79488483"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83130076"
 landingContent:
 - title: Power BI для администраторов и предприятий
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое администрирование Power BI?
-      url: ../service-admin-administering-power-bi-in-your-organization.md
-    - text: Что собой представляет Power BI Premium
-      url: ../service-premium-what-is.md
+      url: service-admin-administering-power-bi-in-your-organization.md
+    - text: Что такое Power BI Premium?
+      url: service-premium-what-is.md
   - linkListType: concept
     links:
     - text: Роль администрирования в Office 365
-      url: ../service-admin-role.md
+      url: service-admin-role.md
 - title: Начало работы
   linkLists:
   - linkListType: concept
     links:
     - text: Лицензирование для вашей организации
-      url: ../service-admin-licensing-organization.md
+      url: service-admin-licensing-organization.md
     - text: Использование портала администрирования
-      url: ../service-admin-portal.md
+      url: service-admin-portal.md
   - linkListType: how-to-guide
     links:
     - text: Купить Power BI Pro
-      url: ../service-admin-purchasing-power-bi-pro.md
+      url: service-admin-purchasing-power-bi-pro.md
     - text: Регистрация для получения пробной версии Office 365
-      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+      url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
     - text: Добавление Power BI с партнером по Office 365
-      url: ../service-admin-syndication-partner.md
+      url: service-admin-syndication-partner.md
 - title: Управление вашей организацией
   linkLists:
   - linkListType: concept
     links:
     - text: Сценарии использования емкостей Premium
-      url: ../service-premium-capacity-scenarios.md
+      url: service-premium-capacity-scenarios.md
   - linkListType: how-to-guide
     links:
     - text: Где располагается мой клиент?
-      url: ../service-admin-where-is-my-tenant-located.md
+      url: service-admin-where-is-my-tenant-located.md
     - text: Поиск пользователей, выполнивших вход
-      url: ../service-admin-access-usage.md
+      url: service-admin-access-usage.md
     - text: Аудит Power BI
-      url: ../service-admin-auditing.md
-    - text: Получение информации о работоспособности службы
-      url: ../service-admin-health.md
+      url: service-admin-auditing.md
+    - text: Отслеживание состояния службы
+      url: service-admin-health.md
     - text: Закрытие учетной записи Power BI
-      url: ../service-admin-closing-your-account.md
+      url: service-admin-closing-your-account.md

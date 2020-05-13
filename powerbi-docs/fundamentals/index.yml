@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439602"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348788"
 landingContent:
-- title: Что такое Power BI?
+- title: Что такое Power BI?
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Power BI?
-      url: ../power-bi-overview.md
+    - text: Что такое Power BI?
+      url: power-bi-overview.md
     - text: Что такое Power BI Desktop?
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: Что такое служба Power BI?
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: Сравнение Power BI Desktop и Power BI
-      url: ../service-service-vs-desktop.md
-- title: Новые возможности
+      url: service-service-vs-desktop.md
+- title: Что нового?
   linkLists:
   - linkListType: concept
     links:
     - text: Новые возможности Power BI Desktop
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: Новые возможности службы
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: Начало работы с Learn
   linkLists:
   - linkListType: learn
@@ -52,16 +52,16 @@ landingContent:
   - linkListType: concept
     links:
     - text: Регистрация в Power BI
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: Функций по типам лицензий
-      url: ../service-features-license-type.md
+      url: service-features-license-type.md
 - title: Ресурсы
   linkLists:
   - linkListType: reference
     links:
     - text: Видео о службе Power BI
-      url: ../videos.md
+      url: videos.md
     - text: Видеоматериалы по Power BI Desktop
-      url: ../desktop-videos.md
+      url: desktop-videos.md
     - text: Вебинары
-      url: ../webinars.md
+      url: webinars.md

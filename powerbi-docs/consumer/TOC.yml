@@ -27,9 +27,9 @@
         - name: Как задавать вопросы на естественном языке
           href: end-user-q-and-a.md
         - name: Работа с "новым видом"
-          href: ../service-new-look.md
+          href: service-new-look.md
         - name: 'Новый вид: куда переместились действия?'
-          href: ../service-new-look-where-actions.md
+          href: service-new-look-where-actions.md
     - name: Практическое руководство
       items:
         - name: Панели мониторинга
@@ -93,7 +93,7 @@
             - name: Детализация в визуальном элементе
               href: end-user-drill.md
             - name: Взаимодействие с картами ArcGIS
-              href: ../power-bi-visualizations-arcgis.md
+              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Стандартные задачи
           items:
             - name: "Экспорт данных в\_Excel"

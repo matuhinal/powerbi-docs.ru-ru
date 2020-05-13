@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464670"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275991"
 landingContent:
 - title: Начало работы
   linkLists:
   - linkListType: get-started
     links:
     - text: Использование обновленной ленты
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: Общие сведения о специальных возможностях
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: Получение примеров данных
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: Импорт и открытие пакетов образцов
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: 'Пример COVID-19: Данные из США'
@@ -58,33 +58,33 @@ landingContent:
   - linkListType: concept
     links:
     - text: Темы отчетов
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: Текстовые поля и фигуры
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: Условное форматирование таблицы
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: Использование группирования и разделения на ячейки
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: Добавление закладок в отчет
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: Проектирование взаимодействия между отчетами
   linkLists:
   - linkListType: concept
     links:
     - text: Представление отчетов в Power BI Desktop
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: Изучение данных с помощью функции "Вопросы и ответы"
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: Использование детализации в отчете
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: Добавление закладок в отчет
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: Добавление фильтров в отчет
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Отчеты с разбивкой на страницы в Power BI
   linkLists:
   - linkListType: overview
@@ -110,12 +110,12 @@ landingContent:
   - linkListType: concept
     links:
     - text: Общие сведения о панелях мониторинга
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: Создание панели мониторинга
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: Закрепление плитки на панели мониторинга
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: Добавление изображений или видео на панель мониторинга
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md

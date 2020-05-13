@@ -5,51 +5,51 @@
     - name: Обзор
       expanded: true
       items:
-        - name: Что такое Power BI?
-          href: ../power-bi-overview.md
+        - name: "Что такое Power\_BI?"
+          href: power-bi-overview.md
         - name: Что такое Power BI Desktop?
-          href: ../desktop-what-is-desktop.md
+          href: desktop-what-is-desktop.md
         - name: Что такое служба Power BI?
-          href: ../power-bi-service-overview.md
+          href: power-bi-service-overview.md
         - name: Сравнение Power BI Desktop и Power BI
-          href: ../service-service-vs-desktop.md
+          href: service-service-vs-desktop.md
     - name: Основные понятия
       items:
         - name: Новые возможности в последнем обновлении Power BI Desktop
-          href: ../desktop-latest-update.md
+          href: desktop-latest-update.md
         - name: Новые возможности службы Power BI
-          href: ../service-whats-new.md
+          href: service-whats-new.md
         - name: "Основные сведения о службе Power\_BI"
-          href: ../service-basic-concepts.md
+          href: service-basic-concepts.md
         - name: Десять советов по получению справки
-          href: ../service-tips-for-finding-help.md
+          href: service-tips-for-finding-help.md
         - name: Лицензирование
           items:
             - name: Регистрация в Power BI
-              href: ../service-self-service-signup-for-power-bi.md
+              href: service-self-service-signup-for-power-bi.md
             - name: Функций по типам лицензий
-              href: ../service-features-license-type.md
+              href: service-features-license-type.md
     - name: Практические руководства
       items:
-        - name: "Получение Power\_BI Desktop"
-          href: ../desktop-get-the-desktop.md
+        - name: Получение Power BI Desktop
+          href: desktop-get-the-desktop.md
         - name: Начало работы с Power BI Desktop
-          href: ../desktop-getting-started.md
-    - name: Справочник
+          href: desktop-getting-started.md
+    - name: Справка
       items:
         - name: "Поддерживаемые языки и страны\_(регионы)"
-          href: ../supported-languages-countries-regions.md
+          href: supported-languages-countries-regions.md
         - name: Поддерживаемые браузеры
-          href: ../power-bi-browsers.md
+          href: power-bi-browsers.md
     - name: Ресурсы
       items:
         - name: Видео
-          href: ../videos.md
+          href: videos.md
         - name: Вебинары
-          href: ../webinars.md
+          href: webinars.md
         - name: Видеоматериалы по Power BI Desktop
-          href: ../desktop-videos.md
+          href: desktop-videos.md
         - name: "Архив обновлений Power\_BI\_Desktop"
-          href: ../desktop-latest-update-archive.md
+          href: desktop-latest-update-archive.md
         - name: 'Заявление о конфиденциальности, действующее при отправке смайлика Power BI Desktop'
-          href: ../desktop-send-smile-privacy-statement.md
+          href: desktop-send-smile-privacy-statement.md

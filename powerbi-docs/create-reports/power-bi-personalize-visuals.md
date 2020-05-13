@@ -82,7 +82,7 @@ ms.locfileid: "82867123"
  
 Переключите ползунок **Персонализировать визуальный элемент** >   в положение **Вкл.** или **Выкл.** .
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Ползунок "Персонализировать визуальный элемент" в положении вкл. или выкл.":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Ползунок Персонализировать визуальный элемент в положении вкл. или выкл.":::
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Персонализация визуальных элементов в службе Power BI
 

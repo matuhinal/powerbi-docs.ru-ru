@@ -5,7 +5,7 @@
       expanded: true
       items:
         - name: Обзор редактора отчетов
-          href: ../service-the-report-editor-take-a-tour.md
+          href: service-the-report-editor-take-a-tour.md
         - name: Что такое отчеты с разбивкой на страницы?
           href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
     - name: Учебники
@@ -19,46 +19,46 @@
       expanded: true
       items:
         - name: "Получить примеры для Power\_BI"
-          href: ../sample-datasets.md
+          href: sample-datasets.md
         - name: Пример COVID-19 с данными из США
           href: sample-covid-19-us.md
         - name: Рентабельность клиента — пример
-          href: ../sample-customer-profitability.md
+          href: sample-customer-profitability.md
         - name: "Анализ расходов ИТ-отдела\_— образец"
-          href: ../sample-it-spend.md
+          href: sample-it-spend.md
         - name: Управление персоналом — пример
-          href: ../sample-human-resources.md
+          href: sample-human-resources.md
         - name: "Анализ возможных сделок\_— пример"
-          href: ../sample-opportunity-analysis.md
+          href: sample-opportunity-analysis.md
         - name: Анализ закупок — пример
-          href: ../sample-procurement.md
+          href: sample-procurement.md
         - name: "Анализ розничной торговли\_— пример"
-          href: ../sample-retail-analysis.md
+          href: sample-retail-analysis.md
         - name: Изучение примера анализа розничной торговли
-          href: ../sample-tutorial-connect-to-the-samples.md
+          href: sample-tutorial-connect-to-the-samples.md
         - name: "Продажи и маркетинг\_— пример"
-          href: ../sample-sales-and-marketing.md
+          href: sample-sales-and-marketing.md
         - name: "Анализ качества поставщика\_— пример"
-          href: ../sample-supplier-quality.md
+          href: sample-supplier-quality.md
         - name: Скачиваемая книга с примером финансовых данных
-          href: ../sample-financial-download.md
+          href: sample-financial-download.md
     - name: Основные понятия
       expanded: true
       items:
         - name: Отчеты Power BI
           items:
             - name: Работа с представлением отчета
-              href: ../desktop-report-view.md
+              href: desktop-report-view.md
             - name: Типы фильтров в отчетах
-              href: ../power-bi-report-filter-types.md
+              href: power-bi-report-filter-types.md
             - name: Фильтры и выделение в отчетах
-              href: ../power-bi-reports-filters-and-highlighting.md
+              href: power-bi-reports-filters-and-highlighting.md
             - name: Выборка линий с высокой плотностью
-              href: ../desktop-high-density-sampling.md
+              href: desktop-high-density-sampling.md
             - name: Сведения о визуальных элементах вопросов и ответов
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Сведения о доступности
-              href: ../desktop-accessibility-overview.md
+              href: desktop-accessibility-overview.md
             - name: Вопросы и ответы на естественном языке
               items:
                 - name: '"Вопросы и ответы": введение'
@@ -112,107 +112,107 @@
         - name: Отчеты Power BI
           items:
             - name: Включение автоматического обновления страниц (предварительная версия)
-              href: ../desktop-automatic-page-refresh.md
+              href: desktop-automatic-page-refresh.md
             - name: Проверка элементов отчета с помощью Анализатора производительности
-              href: ../desktop-performance-analyzer.md
+              href: desktop-performance-analyzer.md
             - name: Добавление визуальных элементов в отчеты
-              href: ../desktop-visual-elements-for-reports.md
+              href: desktop-visual-elements-for-reports.md
             - name: Добавление подсказок отчета для улучшения визуализаций
-              href: ../desktop-tooltips.md
+              href: desktop-tooltips.md
             - name: Экспорт отчетов в PDF-файлы
-              href: ../desktop-export-to-pdf.md
+              href: desktop-export-to-pdf.md
             - name: Применение аналитических сведений для объяснения колебаний в визуализациях (предварительная версия)
-              href: ../desktop-insights.md
+              href: desktop-insights.md
             - name: Использование аналитических сведений для поиска различий в распределении (предварительная версия)
-              href: ../desktop-insights-find-where-different.md
+              href: desktop-insights-find-where-different.md
             - name: Создание кнопок
-              href: ../desktop-buttons.md
+              href: desktop-buttons.md
             - name: Создание кнопок детализации
-              href: ../desktop-drill-through-buttons.md
+              href: desktop-drill-through-buttons.md
             - name: Использование функции детализации
-              href: ../desktop-drillthrough.md
+              href: desktop-drillthrough.md
             - name: Использование функции детализации между отчетами
-              href: ../desktop-cross-report-drill-through.md
+              href: desktop-cross-report-drill-through.md
             - name: Создание закладок для сохранения и совместного использования аналитических сведений
-              href: ../desktop-bookmarks.md
+              href: desktop-bookmarks.md
             - name: Работа с темами отчетов
-              href: ../desktop-report-themes.md
+              href: desktop-report-themes.md
             - name: Работа с фильтрами в отчетах
-              href: ../power-bi-report-filter.md
+              href: power-bi-report-filter.md
             - name: Добавление фильтра в отчет
-              href: ../power-bi-report-add-filter.md
+              href: power-bi-report-add-filter.md
             - name: Применение группирования данных и их разделения
-              href: ../desktop-grouping-and-binning.md
+              href: desktop-grouping-and-binning.md
             - name: Применение линий сетки и привязки к сетке
-              href: ../desktop-gridlines-snap-to-grid.md
+              href: desktop-gridlines-snap-to-grid.md
             - name: Применение параметров отображения страницы в отчетах
-              href: ../power-bi-report-display-settings.md
+              href: power-bi-report-display-settings.md
             - name: Добавление столбца из примера
-              href: ../desktop-add-column-from-example.md
+              href: desktop-add-column-from-example.md
             - name: Добавление настраиваемого столбца
-              href: ../desktop-add-custom-column.md
+              href: desktop-add-custom-column.md
             - name: Использование встроенных меток иерархии
-              href: ../desktop-inline-hierarchy-labels.md
+              href: desktop-inline-hierarchy-labels.md
             - name: Срезы
               href: ../visuals/power-bi-visualization-slicers.md
             - name: Срезы числового диапазона
-              href: ../desktop-slicer-numeric-range.md
+              href: desktop-slicer-numeric-range.md
             - name: Срезы и фильтры относительных дат
               href: ../visuals/desktop-slicer-filter-date-range.md
             - name: Срезы и фильтры относительного времени
               href: slicer-filter-relative-time.md
             - name: Создание элемента "Срез" с возможностью изменения размера
-              href: ../power-bi-slicer-filter-responsive.md
+              href: power-bi-slicer-filter-responsive.md
             - name: Добавление нескольких полей в срез
               href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Ограничение доступа к данным с помощью безопасности на уровне строк
-              href: ../desktop-rls.md
+              href: desktop-rls.md
             - name: Настройка подсказок
-              href: ../desktop-custom-tooltips.md
+              href: desktop-custom-tooltips.md
             - name: Добавление в отчеты фигур и текстовых полей
-              href: ../power-bi-reports-add-text-and-shapes.md
+              href: power-bi-reports-add-text-and-shapes.md
             - name: Добавление гиперссылки в текстовое поле
-              href: ../service-add-hyperlink-to-text-box.md
+              href: service-add-hyperlink-to-text-box.md
             - name: Добавление гиперссылок в таблицу
-              href: ../power-bi-hyperlinks-in-tables.md
+              href: power-bi-hyperlinks-in-tables.md
             - name: 'Отображение изображений в таблице, матрице или срезе'
-              href: ../power-bi-images-tables.md
+              href: power-bi-images-tables.md
             - name: Отображение строк настраиваемого формата
-              href: ../desktop-custom-format-strings.md
+              href: desktop-custom-format-strings.md
             - name: Применение условного форматирования таблицы
-              href: ../desktop-conditional-table-formatting.md
+              href: desktop-conditional-table-formatting.md
             - name: Создание динамических названий на основе выражений
-              href: ../desktop-conditional-format-visual-titles.md
+              href: desktop-conditional-format-visual-titles.md
             - name: Сортировка по столбцу
-              href: ../desktop-sort-by-column.md
+              href: desktop-sort-by-column.md
             - name: Оптимизация отчетов для мобильных приложений
-              href: ../desktop-create-phone-report.md
+              href: desktop-create-phone-report.md
             - name: Применение функций просмотра записей и данных
-              href: ../desktop-see-data-see-records.md
+              href: desktop-see-data-see-records.md
             - name: Советы и рекомендации по созданию отчетов
-              href: ../desktop-tips-and-tricks-for-creating-reports.md
+              href: desktop-tips-and-tricks-for-creating-reports.md
             - name: Группирование визуальных элементов в отчете
-              href: ../desktop-grouping-visuals.md
+              href: desktop-grouping-visuals.md
             - name: Создание шаблонов отчетов
-              href: ../desktop-templates.md
+              href: desktop-templates.md
             - name: Создание отчета из набора данных
-              href: ../service-report-create-new.md
+              href: service-report-create-new.md
             - name: Сохранение отчета
-              href: ../service-report-save.md
+              href: service-report-save.md
             - name: Взаимодействие с отчетом в режиме правки
-              href: ../service-interact-with-a-report-in-editing-view.md
+              href: service-interact-with-a-report-in-editing-view.md
             - name: Анализ в Excel
-              href: ../service-analyze-in-excel.md
+              href: ../collaborate-share/service-analyze-in-excel.md
             - name: Работа с агрегатами в службе
-              href: ../service-aggregates.md
+              href: service-aggregates.md
             - name: Создание QR-кода для отчета
-              href: ../service-create-qr-code-for-report.md
+              href: service-create-qr-code-for-report.md
             - name: Изменение визуальных элементов пользователями (предварительная версия)
               href: power-bi-personalize-visuals.md
             - name: "Экспорт отчета в Power\_BI Desktop (предварительная версия)"
-              href: ../service-export-to-pbix.md
+              href: service-export-to-pbix.md
             - name: Публикация наборов данных и отчетов
-              href: ../desktop-upload-desktop-files.md
+              href: desktop-upload-desktop-files.md
         - name: Визуализации
           items:
             - name: "Добавление визуальных элементов в отчет (часть\_1)"
@@ -226,7 +226,7 @@
             - name: 'Названия, фон и легенда для визуальных элементов'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: Показать элементы без данных
-              href: ../desktop-show-items-no-data.md
+              href: desktop-show-items-no-data.md
             - name: Применение ограничений точек данных и стратегии по шаблону визуализации
               href: ../visuals/power-bi-data-points.md
             - name: Отображение базовых данных визуализаций
@@ -242,7 +242,7 @@
             - name: 'Перенос, масштабирование и раскрытие визуального элемента в отчете'
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: Изменение способа взаимодействия визуальных элементов в отчете
-              href: ../service-reports-visual-interactions.md
+              href: service-reports-visual-interactions.md
             - name: Советы и рекомендации для визуализаций карт
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: "Настройка свойств осей X и\_Y"
@@ -276,9 +276,9 @@
             - name: Визуальные элементы R
               href: ../visuals/service-r-visuals.md
             - name: "Создание визуализаций Power\_BI с помощью R"
-              href: ../desktop-r-visuals.md
+              href: desktop-r-visuals.md
             - name: "Скачивание и использование визуальных элементов Power\_BI на основе R"
-              href: ../desktop-r-powered-custom-visuals.md
+              href: desktop-r-powered-custom-visuals.md
             - name: Радиальные индикаторные диаграммы
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Ленточные диаграммы
@@ -304,29 +304,29 @@
             - name: '"Вопросы и ответы": рекомендации'
               href: ../natural-language/q-and-a-best-practices.md
             - name: Анализ данных с помощью "Вопросов и ответов"
-              href: ../power-bi-tutorial-q-and-a.md
+              href: power-bi-tutorial-q-and-a.md
             - name: Создание визуализации с использованием "Вопросов и ответов"
-              href: ../power-bi-visualization-introduction-to-q-and-a.md
+              href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Оптимизация работы с данными Excel для "Вопросов и ответов"
-              href: ../service-prepare-data-for-q-and-a.md
+              href: service-prepare-data-for-q-and-a.md
             - name: Создание избранных вопросов для функции "Вопросы и ответы"
-              href: ../service-q-and-a-create-featured-questions.md
+              href: service-q-and-a-create-featured-questions.md
             - name: Использование функции "Вопросы и ответы" для активных подключений
-              href: ../service-q-and-a-direct-query.md
+              href: service-q-and-a-direct-query.md
             - name: Краткая аналитика
-              href: ../service-insights.md
+              href: service-insights.md
             - name: "Оптимизация данных для Краткой\_аналитики"
-              href: ../service-insights-optimize.md
+              href: service-insights-optimize.md
         - name: Возможности доступа
           items:
             - name: Создание отчетов с поддержкой специальных возможностей
-              href: ../desktop-accessibility-creating-reports.md
+              href: desktop-accessibility-creating-reports.md
             - name: Создание отчетов с помощью средств специальных возможностей
-              href: ../desktop-accessibility-creating-tools.md
+              href: desktop-accessibility-creating-tools.md
             - name: Использование отчетов с поддержкой специальных функций
-              href: ../desktop-accessibility-consuming-tools.md
+              href: desktop-accessibility-consuming-tools.md
             - name: "Сочетания клавиш в Power\_BI Desktop"
-              href: ../desktop-accessibility-keyboard-shortcuts.md
+              href: desktop-accessibility-keyboard-shortcuts.md
         - name: Отчеты с разбивкой на страницы
           items:
             - name: Ввод данных непосредственно в отчет с разбивкой на страницы
@@ -350,39 +350,39 @@
         - name: Панели мониторинга
           items:
             - name: Общие сведения о панелях мониторинга
-              href: ../service-dashboards.md
+              href: service-dashboards.md
             - name: Плитки панели мониторинга
-              href: ../service-dashboard-tiles.md
+              href: service-dashboard-tiles.md
             - name: Создание панели мониторинга из отчета
-              href: ../service-dashboard-create.md
+              href: service-dashboard-create.md
             - name: Создание копии панели мониторинга
-              href: ../service-dashboard-copy.md
+              href: service-dashboard-copy.md
             - name: Закрепление плитки на панели мониторинга из отчета
-              href: ../service-dashboard-pin-tile-from-report.md
+              href: service-dashboard-pin-tile-from-report.md
             - name: Закрепление плитки из одной панели мониторинга на другой
-              href: ../service-pin-tile-to-another-dashboard.md
+              href: service-pin-tile-to-another-dashboard.md
             - name: Закрепление плитки на панели мониторинга из Excel
-              href: ../service-dashboard-pin-tile-from-excel.md
+              href: service-dashboard-pin-tile-from-excel.md
             - name: Закрепление плитки на информационной панели из подсистемы вопросов и ответов
-              href: ../service-dashboard-pin-tile-from-q-and-a.md
+              href: service-dashboard-pin-tile-from-q-and-a.md
             - name: Закрепление целой страницы отчета на панели мониторинга
-              href: ../service-dashboard-pin-live-tile-from-report.md
+              href: service-dashboard-pin-live-tile-from-report.md
             - name: Оповещения о данных в службе
-              href: ../service-set-data-alerts.md
+              href: service-set-data-alerts.md
             - name: 'Добавление изображения, текстового поля, видео или кода на панель мониторинга'
-              href: ../service-dashboard-add-widget.md
+              href: service-dashboard-add-widget.md
             - name: Изменение плитки
-              href: ../service-dashboard-edit-tile.md
+              href: service-dashboard-edit-tile.md
             - name: Советы по созданию эффективной информационной панели
-              href: ../service-dashboards-design-tips.md
+              href: service-dashboards-design-tips.md
             - name: Оптимизация панели мониторинга для телефонов
-              href: ../service-create-dashboard-mobile-phone-view.md
+              href: service-create-dashboard-mobile-phone-view.md
             - name: Создание QR-кода для плитки
-              href: ../service-create-qr-code-for-tile.md
+              href: service-create-qr-code-for-tile.md
             - name: Классификация данных на панелях мониторинга
-              href: ../service-data-classification.md
+              href: service-data-classification.md
             - name: Темы панели мониторинга
-              href: ../service-dashboard-themes.md
+              href: service-dashboard-themes.md
         - name: Конвейеры развертывания
           items:
             - name: Начало работы
@@ -392,8 +392,8 @@
         - name: Другие задачи
           items:
             - name: Переименование содержимого
-              href: ../service-rename.md
+              href: service-rename.md
             - name: Задание контактов для элемента
-              href: ../service-item-contact.md
+              href: service-item-contact.md
             - name: Удаление содержимого
-              href: ../service-delete.md
+              href: service-delete.md

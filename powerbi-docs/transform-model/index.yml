@@ -12,70 +12,70 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: d8d30cc860146e904c788dcd374d580d5a3fcf0b
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78924536"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83279119"
 landingContent:
 - title: Преобразование и формирование данных
   linkLists:
   - linkListType: overview
     links:
     - text: Обзор редактора запросов
-      url: ../desktop-query-overview.md
+      url: desktop-query-overview.md
   - linkListType: tutorial
     links:
     - text: Формирование и объединение данных.
-      url: ../desktop-shape-and-combine-data.md
+      url: ../connect-data/desktop-shape-and-combine-data.md
   - linkListType: concept
     links:
     - text: Общие задачи по работе с запросами
-      url: ../desktop-common-query-tasks.md
+      url: desktop-common-query-tasks.md
   - linkListType: how-to-guide
     links:
     - text: Объединение двоичных файлов
-      url: ../desktop-combine-binaries.md
+      url: desktop-combine-binaries.md
 - title: Модель данных
   linkLists:
   - linkListType: concept
     links:
     - text: Представление моделирования
-      url: ../desktop-modeling-view.md
+      url: desktop-modeling-view.md
     - text: Связи "много ко многим".
-      url: ../desktop-many-to-many-relationships.md
+      url: desktop-many-to-many-relationships.md
   - linkListType: how-to-guide
     links:
     - text: Создание и использование связей
-      url: ../desktop-create-and-manage-relationships.md
+      url: desktop-create-and-manage-relationships.md
     - text: Применение классификации данных
-      url: ../desktop-data-categorization.md
+      url: desktop-data-categorization.md
 - title: Вычисления
   linkLists:
   - linkListType: tutorial
     links:
     - text: Изучение основ DAX
-      url: ../desktop-quickstart-learn-dax-basics.md
+      url: desktop-quickstart-learn-dax-basics.md
     - text: Создание вычисляемых столбцов
-      url: ../desktop-tutorial-create-calculated-columns.md
+      url: desktop-tutorial-create-calculated-columns.md
   - linkListType: concept
     links:
     - text: Вычисляемые таблицы
-      url: ../desktop-calculated-tables.md
+      url: desktop-calculated-tables.md
   - linkListType: how-to-guide
     links:
     - text: Использование функции "Быстрая мера"
-      url: ../desktop-quick-measures.md
+      url: desktop-quick-measures.md
 - title: Самостоятельная подготовка данных
   linkLists:
   - linkListType: overview
     links:
     - text: Самостоятельная подготовка данных в Power BI
-      url: ../desktop-quickstart-connect-to-data.md
+      url: ../connect-data/desktop-quickstart-connect-to-data.md
   - linkListType: concept
     links:
     - text: 'Потоки данных: Самостоятельная подготовка данных'
-      url: ../service-dataflows-overview.md
+      url: service-dataflows-overview.md
     - text: Создание и использование потоков данных
-      url: ../service-dataflows-create-use.md
+      url: service-dataflows-create-use.md
