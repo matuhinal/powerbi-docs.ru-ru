@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435957"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349363"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне. Вы получаете доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 
 ![Живая плитка Windows](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-[Создавайте панели мониторинга и отчеты в службе Power BI](../../service-get-started.md) на основе собственных данных. 
+[Создавайте панели мониторинга и отчеты в службе Power BI](../../fundamentals/service-get-started.md) на основе собственных данных. 
 
 Взаимодействуйте со своими панелями и отчетами, просматривайте данные и предоставляйте к ним доступ из мобильного приложения Power BI для Windows 10.
 
@@ -38,7 +38,7 @@ ms.locfileid: "79435957"
 Если вы еще не зарегистрировались, перейдите в [службу Power BI](https://powerbi.com/). Зарегистрируйте учетную запись, чтобы получить возможность создавать и сохранять панели мониторинга и отчеты, а также объединять данные. Затем войдите в Power BI со своего устройства с Windows 10 для просмотра панелей мониторинга откуда угодно.
 
 1. В службе Power BI коснитесь кнопки [Зарегистрироваться](https://go.microsoft.com/fwlink/?LinkID=513879), чтобы создать учетную запись Power BI.
-2. Начните [создавать собственные информационные панели и отчеты](../../service-get-started.md).
+2. Начните [создавать собственные информационные панели и отчеты](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app"></a>Начало работы с приложением Power BI
 1. На начальном экране устройства Windows 10 откройте приложение Power BI.
@@ -110,7 +110,7 @@ ms.locfileid: "79435957"
 Ниже перечислены дополнительные функции и возможности при работе с панелями мониторинга и отчетами в приложении Power BI для Windows 10, а также мобильными отчетами и ключевыми показателями эффективности Reporting Services на веб-портале Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Панели мониторинга и отчеты Power BI
-* Просмотр [приложений](../../service-create-distribute-apps.md).
+* Просмотр [приложений](../../collaborate-share/service-create-distribute-apps.md).
 * Просмотр своих [информационных панелей](mobile-apps-view-dashboard.md).
 * [Закрепление плиток и информационных панелей Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) на начальном экране устройства в виде живых плиток.
 * [Совместное использование плиток](mobile-windows-10-phone-app-get-started.md).
@@ -125,4 +125,3 @@ ms.locfileid: "79435957"
 * [Скачайте приложение Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.  
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

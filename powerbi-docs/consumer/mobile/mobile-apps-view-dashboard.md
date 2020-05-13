@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205534"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349455"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 Область применения:
@@ -29,8 +29,8 @@ ms.locfileid: "79205534"
 
 Чтобы просматривать панели мониторинга и отчеты на мобильном устройстве, необходимо создать их или подключиться к ним в веб-браузере. 
 
-1. Перейдите к службе Power BI ([https://www.powerbi.com](https://www.powerbi.com)) и [зарегистрируйте учетную запись](../../service-self-service-signup-for-power-bi.md).
-2. [Создайте собственные панели мониторинга и отчет Power BI](../../service-get-started.md) или подключитесь к существующим [приложениям Power BI](../../service-connect-to-services.md) для различных служб, таких как [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
+1. Перейдите к службе Power BI ([https://www.powerbi.com](https://www.powerbi.com)) и [зарегистрируйте учетную запись](../../fundamentals/service-self-service-signup-for-power-bi.md).
+2. [Создайте собственные панели мониторинга и отчет Power BI](../../fundamentals/service-get-started.md) или подключитесь к существующим [приложениям Power BI](../../connect-data/service-connect-to-services.md) для различных служб, таких как [Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md).
 
 Вот панель мониторинга Power BI в службе Power BI:
 
@@ -45,14 +45,14 @@ ms.locfileid: "79205534"
     ![Выбор панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * Желтые звездочки ![Звездочки избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
-   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
+   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
    
    По умолчанию панели мониторинга Power BI на iPhone выглядят немного иначе. Все плитки отображаются в том же размере, но идут одна за другой сверху вниз.
    
     ![Книжная ориентация панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
+   > Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../create-reports/service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
    > 
    > 
    
@@ -85,7 +85,7 @@ ms.locfileid: "79205534"
    ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
-   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
+   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
 3. Вы можете предоставить доступ к панели мониторинга из своего рабочего пространства. Нажмите кнопку с многоточием ( **...** ) в правом нижнем углу плитки информационной панели и выберите **Пригласить других**.
    
    ![Значок "Пригласить"](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ ms.locfileid: "79205534"
 
     Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
 
-    Нотация под названием панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
+    Нотация под названием панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
 
     Панели мониторинга Power BI на устройстве Android выглядят немного иначе. Все плитки отображаются с той же шириной, но идут одна за другой сверху вниз.
 
     ![Книжная ориентация панели мониторинга](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
+    Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../create-reports/service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
 
 1. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
@@ -132,7 +132,7 @@ ms.locfileid: "79205534"
    ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
-   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../service-data-classification.md).
+   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
 3. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
    ![Меню с многоточием](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ ms.locfileid: "79205534"
 
 ![Представление панели мониторинга для телефонов](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-Прочитайте о [создании представлений панелей мониторинга для телефонов](../../service-create-dashboard-mobile-phone-view.md).
+Прочитайте о [создании представлений панелей мониторинга для телефонов](../../create-reports/service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Загрузка приложения Android](https://go.microsoft.com/fwlink/?LinkID=544867) из Google Play  
 * [Начало работы с приложением Android для Power BI](mobile-android-app-get-started.md)  
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

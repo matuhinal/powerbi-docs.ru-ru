@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77259808"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347224"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -46,7 +46,7 @@ Power BI можно запускать на разных устройствах 
 Если вы еще не зарегистрировались, перейдите в [службу Power BI](https://powerbi.com/), чтобы зарегистрировать собственную учетную запись для создания и хранения информационных панелей и отчетов, а также консолидации ваших данных. Затем войдите в Power BI с вашего устройства Android, чтобы просматривать свои панели мониторинга из любого места.
 
 1. В службе Power BI коснитесь кнопки [Зарегистрироваться](https://go.microsoft.com/fwlink/?LinkID=513879), чтобы создать учетную запись Power BI.
-2. Начните [создавать собственные информационные панели и отчеты](../../service-get-started.md).
+2. Начните [создавать собственные информационные панели и отчеты](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Начало работы с приложением Power BI на мобильном устройстве
 1. На устройстве Android откройте приложение Power BI для Android с помощью значка на стартовом экране.
@@ -94,17 +94,17 @@ Microsoft Intune позволяет управлять такими элемен
 > 
 > 
 
-[Информация о настройке мобильных приложений Power BI через Microsoft Intune](../../service-admin-mobile-intune.md). 
+[Информация о настройке мобильных приложений Power BI через Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Ниже перечислены дополнительные возможности, доступные при работе с панелями мониторинга и отчетами в приложении Power BI на устройствах Android, а также при работе с отчетами и ключевыми показателями эффективности на веб-портале сервера отчетов Power BI и служб Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Панели мониторинга и отчеты Power BI
-* Просмотр [приложений](../../service-create-distribute-apps.md).
+* Просмотр [приложений](../../collaborate-share/service-create-distribute-apps.md).
 * Просмотр своих [информационных панелей](../../mobile-apps-view-dashboard.md).
 * Просмотр [плиток на информационных панелях](../../mobile-tiles-in-the-mobile-apps.md).
 * Открытие [отчетов Power BI](../../mobile-reports-in-the-mobile-apps.md).
-* Просмотр [приложений](../../service-create-distribute-apps.md).
+* Просмотр [приложений](../../collaborate-share/service-create-distribute-apps.md).
 * [Добавление заметок и совместное использование плиток](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [Совместное использование информационных панелей](../../mobile-share-dashboard-from-the-mobile-apps.md).
 * [Сканирование QR-кода Power BI](../../mobile-apps-qr-code.md) с телефона Android позволяет открыть определенную панель мониторинга или отчет. 
@@ -119,5 +119,3 @@ Microsoft Intune позволяет управлять такими элемен
 * [Скачивание приложения Android](https://go.microsoft.com/fwlink/?LinkID=544867) из магазина приложений Android.
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-
-

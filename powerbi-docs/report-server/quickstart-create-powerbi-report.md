@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975017"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349478"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Создание отчета Power BI для Сервера отчетов Power BI
 Отчеты Power BI можно хранить и администрировать локально на веб-портале Сервера отчетов Power BI так же, как и в облачной службе Power BI (https://powerbi.com). Вы можете создавать и редактировать отчеты в приложении Power BI Desktop, а затем публиковать их на веб-портале. Затем можно сообщить читателям в вашей организации о том, что эти отчеты можно просматривать в браузере или мобильном приложении Power BI на мобильных устройствах.
@@ -79,7 +79,7 @@ ms.locfileid: "76975017"
 2. Перетащите поле для подсчета в область **Values** (Значения). Если это не числовое поле, Power BI Desktop автоматически установит для него значение *Count of* (Количество).
 3. Перетащите поле в группу в область **Group** (Группа).
 
-См. дополнительные сведения о [создании отчетов Power BI](../desktop-report-view.md).
+См. дополнительные сведения о [создании отчетов Power BI](../create-reports/desktop-report-view.md).
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>Шаг 4. Сохранение отчета на сервере отчетов
 Когда отчет будет готов, вы сможете сохранить его на сервере отчетов Power BI, который вы выбрали на шаге 2.
@@ -98,7 +98,7 @@ ms.locfileid: "76975017"
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 Существует много отличных ресурсов для создания отчетов в Power BI Desktop. Советуем начать с этих материалов:
 
-* [Начало работы с Power BI Desktop](../desktop-getting-started.md)
+* [Начало работы с Power BI Desktop](../fundamentals/desktop-getting-started.md)
 * Интерактивное обучение [Изучение Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Cервере отчетов Power BI

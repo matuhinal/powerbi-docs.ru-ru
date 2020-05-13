@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638532"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347937"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Согласие на новый интерфейс рабочих областей (предварительная версия)
 
-Рабочие области имеют новый интерфейс, который согласуется с [новым интерфейсом](../service-new-look.md) службы Power BI. Согласиться на его использование может любой пользователь, работающий со службой Power BI (app.powerbi.com). При включении **нового интерфейса** в черной строке заголовка вы соглашаетесь на использование нового интерфейса для отчетов и рабочих областей. Новый интерфейс может применяться ко всем рабочим областям, как классическим, так и новым.
+Рабочие области имеют новый интерфейс, который согласуется с [новым интерфейсом](../consumer/service-new-look.md) службы Power BI. Согласиться на его использование может любой пользователь, работающий со службой Power BI (app.powerbi.com). При включении **нового интерфейса** в черной строке заголовка вы соглашаетесь на использование нового интерфейса для отчетов и рабочих областей. Новый интерфейс может применяться ко всем рабочим областям, как классическим, так и новым.
 
-Ищете сведения о новом интерфейсе в **Power BI Desktop**? См. статью [Использование обновленной ленты в Power BI Desktop](../desktop-ribbon.md).
+Ищете сведения о новом интерфейсе в **Power BI Desktop**? См. статью [Использование обновленной ленты в Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="features-of-the-new-look"></a>Возможности нового интерфейса
 
@@ -50,7 +50,6 @@ ms.locfileid: "81638532"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Использование обновленной ленты в Power BI Desktop](../desktop-ribbon.md)
-- ["Новый внешний вид" службы Power BI](../service-new-look.md)
+- [Использование обновленной ленты в Power BI Desktop](../create-reports/desktop-ribbon.md)
+- ["Новый внешний вид" службы Power BI](../consumer/service-new-look.md)
 - У вас появились вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
-

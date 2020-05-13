@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426640"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349409"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone и iPad позволяет работать со службой Power BI, Сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -22,7 +22,7 @@ ms.locfileid: "77426640"
 
 Создавайте отчеты Power BI в службе Power BI Desktop с последующей публикацией.
 
-* [Публикуйте их в службе Power BI](../../service-get-started.md) и создавайте панели мониторинга.
+* [Публикуйте их в службе Power BI](../../fundamentals/service-get-started.md) и создавайте панели мониторинга.
 * [Публикуйте их локально на Сервере отчетов Power BI](../../report-server/quickstart-create-powerbi-report.md).
 
 Затем в мобильном приложении Power BI для iOS работайте с панелями мониторинга и отчетами как локально, так и в облаке.
@@ -79,11 +79,9 @@ Microsoft Intune позволяет управлять такими элемен
 > Если вы используете мобильное приложение Power BI на устройстве iOS и в вашей организации настроены возможности Microsoft Intune MAM, то фоновое обновление данных будет отключено. Power BI обновит данные из службы Power BI в Интернете при следующем входе в приложение.
 > 
 
-[Информация о настройке мобильных приложений Power BI через Microsoft Intune](../../service-admin-mobile-intune.md). 
+[Информация о настройке мобильных приложений Power BI через Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-
-

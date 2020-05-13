@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435796"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349340"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
 Область применения:
@@ -25,7 +25,7 @@ ms.locfileid: "79435796"
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-При наличии [лицензии Power BI Pro](../../service-features-license-type.md) вы можете приглашать других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Вы можете делиться данными с другими пользователями, как в вашей организации, так и за ее пределами, независимо от наличия у них корпоративной учетной записи почты. Им также не требуются лицензии Power BI Pro, а содержимое может не находиться в [емкости Premium](../../service-premium-what-is.md).
+При наличии [лицензии Power BI Pro](../../fundamentals/service-features-license-type.md) вы можете приглашать других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Вы можете делиться данными с другими пользователями, как в вашей организации, так и за ее пределами, независимо от наличия у них корпоративной учетной записи почты. Им также не требуются лицензии Power BI Pro, а содержимое может не находиться в [емкости Premium](../../admin/service-premium-what-is.md).
 
 Из мобильного приложения Power BI для устройств iOS и Android можно также [добавить заметку к моментальному снимку плитки, отчета или визуального элемента и поделиться им](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 
@@ -42,7 +42,7 @@ ms.locfileid: "79435796"
    * В мобильном приложении Power BI на панели навигации коснитесь элемента **Дополнительные параметры** (...) и выберите пункт ![Мне предоставлен доступ](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Мне предоставлен доступ**.
    * В службе Power BI на панели навигации слева щелкните ![Мне предоставлен доступ](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Мне предоставлен доступ**.
    
-   См. дополнительные [примечания о предоставлении общего доступа](../../service-share-dashboards.md).
+   См. дополнительные [примечания о предоставлении общего доступа](../../collaborate-share/service-share-dashboards.md).
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>Отмена общего доступа с помощью iPhone или iPad
 Вы можете отменить общий доступ, только если являетесь владельцем.
@@ -67,7 +67,7 @@ ms.locfileid: "79435796"
    * В мобильном приложении Power BI на панели навигации коснитесь элемента **Дополнительные параметры** (...) и выберите пункт ![Мне предоставлен доступ](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Мне предоставлен доступ**.
    * В службе Power BI на панели навигации слева щелкните ![Мне предоставлен доступ](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Мне предоставлен доступ**.
    
-   См. дополнительные [примечания о предоставлении общего доступа](../../service-share-dashboards.md).
+   См. дополнительные [примечания о предоставлении общего доступа](../../collaborate-share/service-share-dashboards.md).
 
 
 ### <a name="unshare-from-your-android-device"></a>Отмена общего доступа с помощью устройства Android
@@ -97,10 +97,9 @@ ms.locfileid: "79435796"
    * В мобильном приложении Power BI на панели навигации коснитесь элемента **Дополнительные параметры** (...) и выберите пункт ![Мне предоставлен доступ](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Мне предоставлен доступ**.
    * В службе Power BI на панели навигации слева щелкните ![Мне предоставлен доступ](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Мне предоставлен доступ**.
    
-   См. дополнительные [примечания о предоставлении общего доступа](../../service-share-dashboards.md).
+   См. дополнительные [примечания о предоставлении общего доступа](../../collaborate-share/service-share-dashboards.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Добавление заметок к моментальному снимку плитки, отчета и визуального элемента и их совместное использование в мобильных приложениях](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [Предоставление общего доступа к панели мониторинга или отчету в Power BI](../../service-share-dashboards.md)
+* [Предоставление общего доступа к панели мониторинга или отчету в Power BI](../../collaborate-share/service-share-dashboards.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

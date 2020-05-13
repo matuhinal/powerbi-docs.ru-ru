@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379937"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349294"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Добавление языкового стандарта в Power BI для визуальных элементов Power BI
 
 Визуальные элементы могут определять языковой стандарт Power BI для локализации содержимого на соответствующем языке.
 
-Дополнительные сведения см. в статье [Поддерживаемые языки и страны (регионы) для Power BI](./../../supported-languages-countries-regions.md).
+Дополнительные сведения см. в статье [Поддерживаемые языки и страны (регионы) для Power BI](./../../fundamentals/supported-languages-countries-regions.md).
 
 Например, получим языковой стандарт в примере визуального элемента "Линейчатая диаграмма".
 

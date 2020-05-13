@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922098"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348673"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Ввод данных непосредственно в отчет с разбивкой на страницы в построителе отчетов — Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "78922098"
 ## <a name="prerequisites"></a>Технические условия
 
 - Чтобы ввести данные непосредственно в отчет с разбивкой на страницы, установите новую версию [построителя отчетов из центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Чтобы сохранить отчет с разбивкой на страницы в службе Power BI, вам потребуется [учетная запись Power BI Pro](../service-self-service-signup-for-power-bi.md) и доступ на запись для рабочей области в [емкости Power BI Premium](../service-premium-what-is.md).
+- Чтобы сохранить отчет с разбивкой на страницы в службе Power BI, вам потребуется [учетная запись Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) и доступ на запись для рабочей области в [емкости Power BI Premium](../admin/service-premium-what-is.md).
 - Чтобы сохранить отчет с разбивкой на страницы на сервере отчетов, необходимы разрешения на [изменение файла RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Начало работы

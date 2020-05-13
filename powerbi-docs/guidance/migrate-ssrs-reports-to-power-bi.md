@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525621"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348190"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Перенос отчетов SQL Server Reporting Services в Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "79525621"
 
 ### <a name="preparing-for-migration"></a>Подготовка к переносу
 
-При подготовке к переносу отчетов в Power BI сначала убедитесь, что у организации имеется подписка [Power BI Premium](../service-premium-what-is.md). Эта подписка необходима для размещения и запуска отчетов с разбивкой на страницы Power BI.
+При подготовке к переносу отчетов в Power BI сначала убедитесь, что у организации имеется подписка [Power BI Premium](../admin/service-premium-what-is.md). Эта подписка необходима для размещения и запуска отчетов с разбивкой на страницы Power BI.
 
 ### <a name="supported-versions"></a>Поддерживаемые версии
 
@@ -112,12 +112,12 @@ RDL-отчеты не могут использовать единый вход 
 
 Целью этапа _Подготовка_ является подготовка всех компонентов. Он подразумевает настройку среды Power BI, планирование защиты и публикации отчетов, а также идеи по повторной разработке элементов SSRS, которые не переносятся.
 
-1. Убедитесь, что для емкости Power BI Premium включена [рабочая нагрузка отчетов с разбивкой на страницы](../service-admin-premium-workloads.md#paginated-reports), а также что она имеет достаточный объем памяти.
-1. Проверьте поддержку [источников данных](../paginated-reports/paginated-reports-data-sources.md) отчета и настройте [Power BI Gateway](../service-gateway-onprem.md), чтобы разрешить подключение к любым локальным источникам данных.
-1. Ознакомьтесь с требованиям к обеспечению безопасности Power BI и спланируйте [способ воспроизведения папок и разрешений SSRS](/sql/reporting-services/security/secure-folders) с помощью [рабочих областей Power BI и ролей рабочих областей](../service-new-workspaces.md).
-1. Ознакомьтесь с обеспечением общего доступа в Power BI и спланируйте способ распространения содержимого путем публикации [приложений Power BI](../service-create-distribute-apps.md).
-1. Рассмотрите возможность использования [общих наборов данных Power BI](../service-datasets-build-permissions.md) вместо общих источников данных SSRS.
-1. Используйте [Power BI Desktop](../desktop-what-is-desktop.md) для создания отчетов, оптимизированных для мобильных устройств, возможно, с использованием [настраиваемых визуальных элементов Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) вместо мобильных отчетов и ключевых показателей эффективности SSRS.
+1. Убедитесь, что для емкости Power BI Premium включена [рабочая нагрузка отчетов с разбивкой на страницы](../admin/service-admin-premium-workloads.md#paginated-reports), а также что она имеет достаточный объем памяти.
+1. Проверьте поддержку [источников данных](../paginated-reports/paginated-reports-data-sources.md) отчета и настройте [Power BI Gateway](../connect-data/service-gateway-onprem.md), чтобы разрешить подключение к любым локальным источникам данных.
+1. Ознакомьтесь с требованиям к обеспечению безопасности Power BI и спланируйте [способ воспроизведения папок и разрешений SSRS](/sql/reporting-services/security/secure-folders) с помощью [рабочих областей Power BI и ролей рабочих областей](../collaborate-share/service-new-workspaces.md).
+1. Ознакомьтесь с обеспечением общего доступа в Power BI и спланируйте способ распространения содержимого путем публикации [приложений Power BI](../collaborate-share/service-create-distribute-apps.md).
+1. Рассмотрите возможность использования [общих наборов данных Power BI](../connect-data/service-datasets-build-permissions.md) вместо общих источников данных SSRS.
+1. Используйте [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) для создания отчетов, оптимизированных для мобильных устройств, возможно, с использованием [настраиваемых визуальных элементов Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) вместо мобильных отчетов и ключевых показателей эффективности SSRS.
 1. Повторно оцените использование встроенного поля **UserID** в отчетах. Если для защиты данных отчета вы полагаетесь на **UserID**, то следует понимать, что для отчетов с разбиением на страницы (при размещении в службе Power BI) он возвращает Имя участника-пользователя (UPN). Таким образом, вместо возвращения имени учетной записи NT, например, _AW\mblythe_, встроенное поле возвращает нечто вроде _m.blythe&commat;adventureworks.com_. Необходимо пересмотреть определения набора данных и, возможно, исходные данные. Рекомендуется тщательно протестировать отчеты после их пересмотра и публикации, чтобы убедиться, что разрешения данных работают должным образом.
 1. Повторно оцените использование встроенного поля **ExecutionTime** в отчетах. Встроенное поле возвращает дату/время для разбитых на страницы отчетов (при размещении в службе Power BI) в формате _времени UTC_. Это может повлиять на значения параметров отчета по умолчанию и метки времени выполнения отчета (обычно добавляемые в нижние колонтитулы отчета).
 1. Если источником данных является сервер SQL Server (локальный), в отчетах не должны использоваться визуализации карт. Визуализация карты использует пространственные типы данных SQL Server, которые не поддерживаются шлюзом. Дополнительные сведения см. в разделе [Сложные типы данных SQL Server](report-paginated-data-retrieval.md#sql-server-complex-data-types) руководства по получению данных для отчетов с разбивкой на страницы.
@@ -171,9 +171,9 @@ RDL-отчеты не могут использовать единый вход 
 
 Настоятельно рекомендуется выполнить следующие действия, чтобы обеспечить оптимальную работу пользователя с отчетами.
 
-1. Протестируйте отчеты в каждом [браузере, поддерживаемом Power BI](../power-bi-browsers.md), чтобы убедиться, что отчет отображается правильно.
+1. Протестируйте отчеты в каждом [браузере, поддерживаемом Power BI](../fundamentals/power-bi-browsers.md), чтобы убедиться, что отчет отображается правильно.
 1. Выполните тестирование для сравнения времени отображения отчетов в службах SSRS и Power BI. Убедитесь, что отчеты Power BI отображаются в пределах допустимого времени.
-1. Если не удается отобразить отчеты Power BI из-за нехватки памяти, выделите [дополнительные ресурсы для емкости Power BI Premium](../service-admin-premium-workloads.md#paginated-reports).
+1. Если не удается отобразить отчеты Power BI из-за нехватки памяти, выделите [дополнительные ресурсы для емкости Power BI Premium](../admin/service-admin-premium-workloads.md#paginated-reports).
 1. Для отчетов, для отображения которых требуется много времени, рассмотрите возможность предоставления их пользователям в виде [подписок электронной почты с вложениями отчетов](../consumer/paginated-reports-subscriptions.md).
 1. Для отчетов Power BI, основанных на наборах данных Power BI, пересмотрите дизайн модели, чтобы убедиться, что они полностью оптимизированы.
 
@@ -183,8 +183,8 @@ RDL-отчеты не могут использовать единый вход 
 
 Дополнительные сведения об этих проблемах, включая конкретные шаги для их понимания и устранения, см. в следующих статьях.
 
-- [Оптимизация емкостей Premium](../service-premium-capacity-optimize.md)
-- [Мониторинг емкостей Premium в приложении](../service-admin-premium-monitor-capacity.md)
+- [Оптимизация емкостей Premium](../admin/service-premium-capacity-optimize.md)
+- [Мониторинг емкостей Premium в приложении](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -195,7 +195,7 @@ RDL-отчеты не могут использовать единый вход 
 - [В каких случаях использовать отчеты с разбивкой на страницы в Power BI](report-paginated-or-power-bi.md)
 - [Отчеты с разбивкой на страницы в Power BI: Вопросы и ответы](../paginated-reports/paginated-reports-faq.md)
 - [Онлайн-курс: отчеты с разбивкой на страницы в приложениях за один день](../paginated-reports/paginated-reports-online-course.md)
-- [Вопросы и ответы по Power BI Premium](../service-premium-faq.md)
+- [Вопросы и ответы по Power BI Premium](../admin/service-premium-faq.md)
 - [Средство переноса RDL](https://github.com/microsoft/RdlMigration)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)
