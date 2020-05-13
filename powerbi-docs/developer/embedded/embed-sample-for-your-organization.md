@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621648"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349800"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -31,7 +31,7 @@ ms.locfileid: "80621648"
 
 Для работы вам понадобятся:
 
-* [учетная запись Power BI Pro](../../service-self-service-signup-for-power-bi.md);
+* [учетная запись Power BI Pro](../../fundamentals/service-self-service-signup-for-power-bi.md);
 * подписка [Microsoft Azure](https://azure.microsoft.com/);
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
 * Для внедрения отчетов с разбивкой на страницы требуется емкость не менее P1. См. статью [Какой размер емкости Premium требуется для отчетов с разбивкой на страницы?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
@@ -60,7 +60,7 @@ ms.locfileid: "80621648"
 
 ### <a name="create-a-workspace"></a>Создать рабочую область
 
-Если вы планируете внедрять отчеты, панели мониторинга и плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области. Можно настроить рабочие области разных типов: [традиционные](../../service-create-workspaces.md) или [новые](../../service-create-the-new-workspaces.md).
+Если вы планируете внедрять отчеты, панели мониторинга и плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области. Можно настроить рабочие области разных типов: [традиционные](../../collaborate-share/service-create-workspaces.md) или [новые](../../collaborate-share/service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Создание и публикация отчетов Power BI
 
@@ -381,9 +381,9 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
-Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области. Для отчетов с разбивкой на страницы рабочая область должна иметь емкость не менее P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../../service-premium-what-is.md).
+Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области. Для отчетов с разбивкой на страницы рабочая область должна иметь емкость не менее P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../../admin/service-premium-what-is.md).
 
-В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft Office 365](../../service-admin-premium-purchase.md).
+В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft Office 365](../../admin/service-admin-premium-purchase.md).
 
 | Узел емкости | Общее количество виртуальных ядер<br/>(серверная часть + внешний интерфейс) | Виртуальные ядра в серверной части | Виртуальные ядра для внешнего интерфейса | Ограничения для подключений DirectQuery и активных подключений |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ function updateEmbedReport() {
 
 ## <a name="admin-settings"></a>Параметры администратора
 
-Глобальные администраторы или администраторы служб Power BI могут включать и отключать возможность использования REST API для клиента. Администраторы Power BI могут задать этот параметр для всей организации или отдельных групп безопасности. По умолчанию он включен для всей организации. Можно внести эти изменения на [портале администрирования Power BI](../../service-admin-portal.md).
+Глобальные администраторы или администраторы служб Power BI могут включать и отключать возможность использования REST API для клиента. Администраторы Power BI могут задать этот параметр для всей организации или отдельных групп безопасности. По умолчанию он включен для всей организации. Можно внести эти изменения на [портале администрирования Power BI](../../admin/service-admin-portal.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

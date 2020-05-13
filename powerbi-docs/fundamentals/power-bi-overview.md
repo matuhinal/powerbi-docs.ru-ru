@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487752"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349616"
 ---
 # <a name="what-is-power-bi"></a>Что такое Power BI?
 **Power BI** — это коллекция программных служб, приложений и соединителей, которые взаимодействуют друг с другом, чтобы превратить разрозненные источники данных в согласованные, визуально иммерсивные и интерактивные аналитические данные. Ваши данные могут быть представлены в виде таблицы Excel или коллекции облачных и локальных гибридных хранилищ данных. Power BI позволяет легко подключаться к источникам данных, визуализировать и выделять наиболее важную информацию и делиться ею с отдельными или всеми пользователями.
@@ -42,9 +42,9 @@ Power BI состоит из следующих компонентов:
 Вы можете выбрать подходящий вариант использования Power BI в зависимости от того, какой компонент или служба Power BI лучше подходит для решения конкретной задачи. Например, вы можете создавать в Power BI Desktop статистические отчеты о взаимодействии с клиентами для своей группы и просматривать сведения о запасах и ходе производства с помощью панели мониторинга реального времени в службе Power BI. Вы получаете доступ сразу ко всем возможностям Power BI, что и делает этот инструмент таким универсальным и привлекательным.
 
 Изучите документы, которые относятся к вашей роли:
-- Power BI Desktop для [*разработчиков*](../desktop-what-is-desktop.md)
+- Power BI Desktop для [*разработчиков*](desktop-what-is-desktop.md)
 - Power BI для [*потребителей*](../consumer/end-user-consumer.md)
-- Power BI для [*администраторов*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI для [*администраторов*](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - Power BI для *разработчиков*
     * [Использование встроенной аналитики с Power BI](../developer/embedded/embedding.md)
     * [Что такое Power BI Embedded в Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Power BI состоит из следующих компонентов:
 
 ## <a name="next-steps"></a>Дальнейшие действия
 - [Краткое руководство: Обзор службы Power BI](../service-the-new-power-bi-experience.md)   
-- [Руководство. Приступая к работе со службой Power BI](../service-get-started.md)
-- [Краткое руководство: Подключение к данным в Power BI Desktop](../desktop-quickstart-connect-to-data.md)
+- [Руководство. Приступая к работе со службой Power BI](service-get-started.md)
+- [Краткое руководство: Подключение к данным в Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)

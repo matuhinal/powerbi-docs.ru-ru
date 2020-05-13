@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403824"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349846"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -31,7 +31,7 @@ ms.locfileid: "80403824"
 
 Для работы вам понадобятся:
 
-* [учетная запись Power BI Pro](../../service-self-service-signup-for-power-bi.md) (главная учетная запись, то есть имя пользователя и пароль для входа в учетную запись Power BI Pro) или [субъект-служба (токен только для приложения)](embed-service-principal.md);
+* [учетная запись Power BI Pro](../../fundamentals/service-self-service-signup-for-power-bi.md) (главная учетная запись, то есть имя пользователя и пароль для входа в учетную запись Power BI Pro) или [субъект-служба (токен только для приложения)](embed-service-principal.md);
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md).
 
 Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
@@ -58,7 +58,7 @@ ms.locfileid: "80403824"
 
 ### <a name="create-a-workspace"></a>Создать рабочую область
 
-Если вы планируете внедрять отчеты, панели мониторинга и плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области. Можно настроить рабочие области разных типов: [традиционные](../../service-create-workspaces.md) или [новые](../../service-create-the-new-workspaces.md). Если вы используете *главную* учетную запись, тип рабочих областей может быть любым. Однако если вы применяете *[субъект-службу](embed-service-principal.md)* для входа в приложение, необходимо использовать новые рабочие области. И *главная* учетная запись, и *субъект-служба* должны быть администраторами рабочих областей, в которые входит приложение.
+Если вы планируете внедрять отчеты, панели мониторинга и плитки в приложение для клиентов, необходимо разместить содержимое в рабочей области. Можно настроить рабочие области разных типов: [традиционные](../../collaborate-share/service-create-workspaces.md) или [новые](../../collaborate-share/service-create-the-new-workspaces.md). Если вы используете *главную* учетную запись, тип рабочих областей может быть любым. Однако если вы применяете *[субъект-службу](embed-service-principal.md)* для входа в приложение, необходимо использовать новые рабочие области. И *главная* учетная запись, и *субъект-служба* должны быть администраторами рабочих областей, в которые входит приложение.
 
 ### <a name="create-and-publish-your-reports"></a>Создание и публикация отчетов
 
@@ -409,7 +409,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
 Создав выделенную емкость, вы получите преимущество выделенного ресурса для клиента. Можно использовать два типа емкости.
-* **Power BI Premium** — это подписка Office 356 уровня клиента, доступная в двух семействах SKU: *EM* и *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../../service-premium-what-is.md).
+* **Power BI Premium** — это подписка Office 356 уровня клиента, доступная в двух семействах SKU: *EM* и *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../../admin/service-premium-what-is.md).
 * **Azure Power BI Embedded** — вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 > [!NOTE]
 > С номерами SKU A вы не можете получить доступ к содержимому Power BI с бесплатной лицензией Power BI.

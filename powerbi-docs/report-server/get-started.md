@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613604"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141107"
 ---
 # <a name="what-is-power-bi-report-server"></a>Что такое Сервер отчетов Power BI?
 
@@ -26,7 +26,7 @@ ms.locfileid: "82613604"
 Функции Сервера отчетов Power BI похожи на функции SQL Server Reporting Services и веб-службы Power BI. Как и служба Power BI, Сервер отчетов Power BI позволяет размещать отчеты Power BI (PBIX), файлы Excel и отчеты с разбиением на страницы (RDL). Как и служба Reporting Services, Сервер отчетов Power BI размещается локально. Функции Сервера отчетов Power BI являются надмножеством служб Reporting Services. Это означает, что вы можете выполнять в нем любые функции Reporting Services, а также работать с отчетами Power BI. См. дополнительные сведения о [сравнении Сервера отчетов Power BI и службы Power BI](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Лицензирование Сервера отчетов Power BI
-Сервер отчетов Power BI можно использовать с двумя разными лицензиями: [Power BI Premium](../service-premium-what-is.md) или [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) по программе Software Assurance. Лицензия Power BI Premium позволяет создавать гибридные развертывания, сочетающие облачные и локальные технологии.  
+Сервер отчетов Power BI можно использовать с двумя разными лицензиями: [Power BI Premium](../admin/service-premium-what-is.md) или [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) по программе Software Assurance. Лицензия Power BI Premium позволяет создавать гибридные развертывания, сочетающие облачные и локальные технологии.  
 
 > [!NOTE]
 > Для Power BI Premium Сервер отчетов Power BI доступен только в SKU серии P. Он не входит в SKU серии EM.
@@ -71,5 +71,3 @@ ms.locfileid: "82613604"
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-
-
