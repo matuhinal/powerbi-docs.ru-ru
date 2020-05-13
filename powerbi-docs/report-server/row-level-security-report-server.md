@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859185"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277992"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Безопасность на уровне строк (RLS) на сервере отчетов Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "73859185"
 
 Установите этот флажок при реализации [динамической безопасности на уровне строк](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) на основе имени пользователя или имени для входа. 
 
-Дополнительные сведения см. в статье [Двунаправленная перекрестная фильтрация при работе с DirectQuery в Power BI Desktop](../desktop-bidirectional-filtering.md) и техническом документе по [обеспечению безопасности в табличной семантической модели бизнес-аналитики](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
+Дополнительные сведения см. в статье [Двунаправленная перекрестная фильтрация при работе с DirectQuery в Power BI Desktop](../transform-model/desktop-bidirectional-filtering.md) и техническом документе по [обеспечению безопасности в табличной семантической модели бизнес-аналитики](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ ms.locfileid: "73859185"
 
 Пользователи, получающие доступ к отчетам с помощью функции DAX username(), заметят новое поведение, когда имя участника-пользователя (UPN) возвращается, ЗА ИСКЛЮЧЕНИЕМ случаев использования DirectQuery со встроенной безопасностью.  Так как безопасность на уровне строк не учитывается в этом сценарии, в этом случае поведение не изменяется.
 
-Безопасность на уровне строк (RLS) можно определять только для наборов данных, созданных в Power BI Desktop. Чтобы включить RLS для наборов данных, созданных в Excel, нужно сначала преобразовать файлы в формат Power BI Desktop (PBIX). Дополнительные сведения о [преобразовании файлов Excel](../desktop-import-excel-workbooks.md).
+Безопасность на уровне строк (RLS) можно определять только для наборов данных, созданных в Power BI Desktop. Чтобы включить RLS для наборов данных, созданных в Excel, нужно сначала преобразовать файлы в формат Power BI Desktop (PBIX). Дополнительные сведения о [преобразовании файлов Excel](../connect-data/desktop-import-excel-workbooks.md).
 
 Поддерживаются только подключения Extract, Transform, Load (ETL) и DirectQuery с использованием сохраненных учетных данных. Динамические подключения к службам Analysis Services и подключения DirectQuery с помощью встроенной проверки подлинности обрабатываются в базовом источнике данных. 
 
@@ -122,3 +122,4 @@ ms.locfileid: "73859185"
 [Руководство для администратора](admin-handbook-overview.md)  
 
 У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+

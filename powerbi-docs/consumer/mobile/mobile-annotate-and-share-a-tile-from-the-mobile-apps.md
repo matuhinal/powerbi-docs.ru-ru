@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205511"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149209"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Добавление заметок к плиткам, отчетам и визуальным элементам и их совместное использование в мобильных приложениях Power BI
 Область применения:
@@ -28,7 +28,7 @@ ms.locfileid: "79205511"
 
 *Отчет с заметками*
 
-Письмо с моментальным снимком плитки, отчета или визуализации также содержит ссылку на фактический объект в службе Power BI ([https://powerbi.com](https://powerbi.com)). Если у вас и этих пользователей есть лицензии Power BI Pro либо же содержимое находится в [емкости Premium](../../service-premium-what-is.md) и вы поделились с ними элементом, получатели смогут щелкнуть ссылку и перейти непосредственно к соответствующей плитке, отчету или визуализации. 
+Письмо с моментальным снимком плитки, отчета или визуализации также содержит ссылку на фактический объект в службе Power BI ([https://powerbi.com](https://powerbi.com)). Если у вас и этих пользователей есть лицензии Power BI Pro либо же содержимое находится в [емкости Premium](../../admin/service-premium-what-is.md) и вы поделились с ними элементом, получатели смогут щелкнуть ссылку и перейти непосредственно к соответствующей плитке, отчету или визуализации. 
 
 Вы также можете [поделиться плиткой в мобильном приложении Power BI для устройств с Windows 10](mobile-windows-10-phone-app-get-started.md), не добавляя к ней заметки.
 
@@ -74,4 +74,3 @@ ms.locfileid: "79205511"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Общий доступ к панели мониторинга из мобильного приложения Power BI](mobile-share-dashboard-from-the-mobile-apps.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

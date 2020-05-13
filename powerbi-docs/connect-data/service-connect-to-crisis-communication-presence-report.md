@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752264"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275508"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Подключение к отчету о присутствии для антикризисных коммуникаций
 
@@ -89,20 +89,20 @@ ms.locfileid: "80752264"
 
 ## <a name="schedule-report-refresh"></a>Планирование обновления отчета
 
-Когда обновление данных завершится, [настройте расписание обновления](../refresh-scheduled-refresh.md), чтобы поддерживать данные отчета в актуальном состоянии.
+Когда обновление данных завершится, [настройте расписание обновления](../connect-data/refresh-scheduled-refresh.md), чтобы поддерживать данные отчета в актуальном состоянии.
 
 1. В верхней строке заголовка выберите **Power BI**.
 
    ![Элемент навигации Power BI](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. В области навигации слева найдите рабочую область "Панель поддержки принятия решений по неотложной медицинской помощи" в разделе **Рабочие области** и следуйте инструкциям, приведенным в статье [Настройка запланированного обновления](../refresh-scheduled-refresh.md).
+1. В области навигации слева найдите рабочую область "Панель поддержки принятия решений по неотложной медицинской помощи" в разделе **Рабочие области** и следуйте инструкциям, приведенным в статье [Настройка запланированного обновления](../connect-data/refresh-scheduled-refresh.md).
 
 ## <a name="customize-and-share"></a>Настройка и общий доступ
 
-Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](../create-reports/sample-covid-19-us.md#disclaimers).
+Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](../create-reports/sample-covid-19-us.md#disclaimers).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Настройка и дополнительные сведения о шаблоне "Антикризисные коммуникации" в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-* [Что такое приложения-шаблоны Power BI?](../service-template-apps-overview.md)
-* [Установка и распространение приложений-шаблонов в организации](../service-template-apps-install-distribute.md)
+* [Что такое приложения-шаблоны Power BI?](../connect-data/service-template-apps-overview.md)
+* [Установка и распространение приложений-шаблонов в организации](../connect-data/service-template-apps-install-distribute.md)

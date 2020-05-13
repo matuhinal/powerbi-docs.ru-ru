@@ -6,21 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 12/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eeb02715fa205d7fb9f6a3107998feb3d87a9d7b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880792"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83271966"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Перемещение и изменение размеров визуализации в отчете
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Авторы и владельцы отчетов могут перемещать визуализации и изменять их размер. В службе Power BI (app.powerbi.com) вам потребуется открыть отчет в [Режиме правки](../service-interact-with-a-report-in-editing-view.md). 
+Авторы и владельцы отчетов могут перемещать визуализации и изменять их размер. В службе Power BI (app.powerbi.com) вам потребуется открыть отчет в [Режиме правки](../create-reports/service-interact-with-a-report-in-editing-view.md). 
 
 ## <a name="open-the-report"></a>Открытие отчета
 В Power BI Desktop откройте отчет, содержащий хотя бы одну визуализацию, или [создайте новую визуализацию](power-bi-report-add-visualizations-i.md). 
@@ -37,8 +39,9 @@ ms.locfileid: "73880792"
   ![Значок режима фокусировки](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Изменение размера визуализации на панели мониторинга](../service-dashboard-edit-tile.md)  
+[Изменение размера визуализации на панели мониторинга](../create-reports/service-dashboard-edit-tile.md)  
 
 [Режим фокусировки](../consumer/end-user-focus.md)
 
 У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+

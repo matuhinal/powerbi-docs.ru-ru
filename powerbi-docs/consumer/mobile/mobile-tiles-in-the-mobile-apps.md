@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435911"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273093"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Применяется к:
@@ -52,7 +52,7 @@ ms.locfileid: "79435911"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    Ссылки могут вести на другие панели мониторинга Power BI или внешние ресурсы. Вы можете [нажать на ссылку](../../service-dashboard-edit-tile.md#hyperlink), чтобы открыть ее в приложении Power BI. Если ссылка указывает на внешний сайт, Power BI запросит разрешение на переход к нему.
+    Ссылки могут вести на другие панели мониторинга Power BI или внешние ресурсы. Вы можете [нажать на ссылку](../../create-reports/service-dashboard-edit-tile.md#hyperlink), чтобы открыть ее в приложении Power BI. Если ссылка указывает на внешний сайт, Power BI запросит разрешение на переход к нему.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ ms.locfileid: "79435911"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    Ссылки могут вести на другие панели мониторинга Power BI или внешние ресурсы. Вы можете [нажать на ссылку](../../service-dashboard-edit-tile.md#hyperlink), чтобы открыть ее в приложении Power BI. Если ссылка указывает на внешний сайт, Power BI запросит разрешение на переход к нему.
+    Ссылки могут вести на другие панели мониторинга Power BI или внешние ресурсы. Вы можете [нажать на ссылку](../../create-reports/service-dashboard-edit-tile.md#hyperlink), чтобы открыть ее в приложении Power BI. Если ссылка указывает на внешний сайт, Power BI запросит разрешение на переход к нему.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ ms.locfileid: "79435911"
    
     Коснуться значка **Открыть отчет** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) для [просмотра базового отчета](mobile-reports-in-the-mobile-apps.md).
    
-    [Открыть ссылку](../../service-dashboard-edit-tile.md#hyperlink), если она имеется. Ссылки могут вести на панели мониторинга Power BI или внешние ресурсы.
+    [Открыть ссылку](../../create-reports/service-dashboard-edit-tile.md#hyperlink), если она имеется. Ссылки могут вести на панели мониторинга Power BI или внешние ресурсы.
 3. Коснуться пункта **Развернуть плитку** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Она откроется в режиме фокусировки, в котором проще просматривать и изучать представленные на ней данные. В этом режиме можно выполнять следующие задачи.
    
    Поверните круговую диаграмму, чтобы отобразить значения фрагмента, расположенного в верхней части диаграммы.  
@@ -130,4 +130,3 @@ ms.locfileid: "79435911"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

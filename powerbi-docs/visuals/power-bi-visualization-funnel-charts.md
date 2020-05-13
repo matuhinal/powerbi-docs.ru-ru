@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865260"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272863"
 ---
 # <a name="create-and-use-funnel-charts"></a>Создание и использование воронкообразных диаграмм
 
@@ -94,20 +94,23 @@ ms.locfileid: "82865260"
      
      ![Сведения для столбца предложений](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [Сохраните отчет](../service-report-save.md).
+6. [Сохраните отчет](../create-reports/service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Выделение и перекрестная фильтрация
-Сведения об использовании области "Фильтры" см. в разделе [Добавление фильтра в отчет](../power-bi-report-add-filter.md).
+Сведения об использовании области "Фильтры" см. в разделе [Добавление фильтра в отчет](../create-reports/power-bi-report-add-filter.md).
 
 Вы можете выделить столбец в воронкообразной диаграмме для перекрестной фильтрации других визуализаций на странице отчета (и наоборот). Добавьте на страницу отчета еще несколько визуальных элементов с воронкообразной диаграммой.
 
 1. На воронкообразной диаграмме выберите столбец **Proposal** (Предложение). Это приведет к перекрестному выделению других визуализаций на странице. Используйте клавишу CTRL, чтобы выбрать сразу несколько элементов.
    
    ![короткое видео, демонстрирующее взаимодействия визуальных элементов](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Сведения о том, как настроить параметры перекрестного выделения и фильтрации визуальных элементов, см. в статье [Взаимодействие визуальных элементов в Power BI](../service-reports-visual-interactions.md).
+2. Сведения о том, как настроить параметры перекрестного выделения и фильтрации визуальных элементов, см. в статье [Взаимодействие визуальных элементов в Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Датчики в Power BI](power-bi-visualization-radial-gauge-charts.md)
 
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

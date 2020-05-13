@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/04/2020
-ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a634844093f103c942b70cd81d93822ca240cf0a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781623"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272035"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Публикация отчета с разбивкой на страницы в службе Power BI
 
@@ -105,7 +105,7 @@ ms.locfileid: "82781623"
 
    ![Управление отчетом с разбивкой на страницы](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Подробное описание процесса и дальнейшие действия см. в статье [Что такое локальный шлюз данных](../service-gateway-onprem.md).
+1. Подробное описание процесса и дальнейшие действия см. в статье [Что такое локальный шлюз данных](../connect-data/service-gateway-onprem.md).
 
 
 
@@ -114,4 +114,5 @@ ms.locfileid: "82781623"
 - [Просмотр отчета с разбивкой на страницы в службе Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 - [Сведения об отчетах с разбивкой на страницы в Power BI Premium](paginated-reports-report-builder-power-bi.md)
 - [Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embed-paginated-reports-customers.md)
+
 

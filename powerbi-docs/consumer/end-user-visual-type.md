@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377197"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279441"
 ---
 # <a name="visual-types-in-power-bi"></a>Типы визуальных элементов в Power BI
 
@@ -152,7 +152,7 @@ ms.locfileid: "79377197"
 ![Визуальные элементы вопросов и ответов](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->Как и [интерфейс вопросов и ответов на панелях мониторинга](../power-bi-tutorial-q-and-a.md), визуальный элемент вопросов и ответов позволяет задавать вопросы о данных с помощью естественного языка. 
+>Как и [интерфейс вопросов и ответов на панелях мониторинга](../create-reports/power-bi-tutorial-q-and-a.md), визуальный элемент вопросов и ответов позволяет задавать вопросы о данных с помощью естественного языка. 
 
 Дополнительные сведения см. в статье [Визуальные элементы вопросов и ответов в Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
@@ -248,3 +248,4 @@ ms.locfileid: "79377197"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Взаимодействие с визуальными элементами в отчетах, информационных панелях и приложениях](end-user-visualizations.md)    
 [THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)
+

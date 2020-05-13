@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615710"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272817"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Вложенные отчеты в отчетах Power BI с разбивкой на страницы
 
@@ -74,7 +74,7 @@ Power BI Report Builder может работать с отчетами с ра
   
  Вложенный отчет можно поместить в основную часть отчета или в область данных. Если поместить вложенный отчет в область данных, он будет повторяться с каждым экземпляром группы или строки в области данных. Можно передать значение из группы или строки во вложенный отчет. Используйте в свойстве значения вложенного отчета выражение поля для поля, содержащего значение, которое необходимо передать в качестве параметра вложенного отчета.  
   
- Дополнительные сведения о работе с параметрами и вложенными отчетами см. в разделе [Добавление вложенного отчета и параметров](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md) в документации по SQL Server Reporting Services.  
+ Дополнительные сведения о работе с параметрами и вложенными отчетами см. в разделе [Добавление вложенного отчета и параметров](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs) в документации по SQL Server Reporting Services.  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>Предварительный просмотр отчетов с разбивкой на страницы в Report Builder
 

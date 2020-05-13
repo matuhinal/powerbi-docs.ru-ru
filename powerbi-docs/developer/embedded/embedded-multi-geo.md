@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114665"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149259"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Поддержка нескольких регионов в Power BI Embedded
 
 **Поддержка нескольких регионов в Power BI Embedded** означает, что независимые поставщики программного обеспечения и организации, которые создают приложения с использованием Power BI Embedded для внедрения аналитики в свои приложения, теперь могут развертывать свои данные в разных регионах по всему миру.
 
-Теперь клиенты, использующие **Power BI Embedded**, могут установить **емкость** с поддержкой **нескольких регионов** на основе тех же функций и ограничений, которые поддерживаются в [Power BI Premium](../../service-admin-premium-Multi-Geo.md).
+Теперь клиенты, использующие **Power BI Embedded**, могут установить **емкость** с поддержкой **нескольких регионов** на основе тех же функций и ограничений, которые поддерживаются в [Power BI Premium](../../admin/service-admin-premium-Multi-Geo.md).
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Создание ресурса емкости Power BI Embedded с использованием нескольких регионов
 
@@ -89,6 +89,6 @@ ms.locfileid: "80114665"
 
 * [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md)
 
-* [Поддержка нескольких регионов в Power BI Premium (предварительная версия)](../../service-admin-premium-multi-geo.md)
+* [Поддержка нескольких регионов в Power BI Premium (предварительная версия)](../../admin/service-admin-premium-multi-geo.md)
 
 У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

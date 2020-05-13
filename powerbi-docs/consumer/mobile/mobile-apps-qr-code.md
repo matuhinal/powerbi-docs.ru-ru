@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802079"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276083"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Сканирование QR-кода Power BI на мобильном устройстве
 Область применения:
@@ -24,7 +24,7 @@ ms.locfileid: "80802079"
 
 QR-коды в Power BI могут связывать любой предмет реального времени с соответствующей информацией BI &#151; навигация или поиск не требуются.
 
-Допустим, коллега [создал QR-код в службе Power BI](../../service-create-qr-code-for-tile.md) для отчета или плитки на панели мониторинга, предоставил вам доступ к панели или отчету и поместил QR-код в ключевое расположение — например в электронную почту или определенную папку. 
+Допустим, коллега [создал QR-код в службе Power BI](../../create-reports/service-create-qr-code-for-tile.md) для отчета или плитки на панели мониторинга, предоставил вам доступ к панели или отчету и поместил QR-код в ключевое расположение — например в электронную почту или определенную папку. 
 
 Вы можете отсканировать QR-код для мгновенного доступа к соответствующей плитке или отчету прямо на телефоне с помощью сканера в приложении Power BI либо другого аналогичного сканера, установленного на вашем устройстве. 
 
@@ -75,8 +75,7 @@ QR-коды в Power BI могут связывать любой предмет 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Подключение к данным Power BI из реального мира](mobile-apps-data-in-real-world-context.md) с помощью мобильных приложений
-* [Создание QR-кода для плитки в службе Power BI](../../service-create-qr-code-for-tile.md)
-* [Создание QR-кода для отчета в Power BI](../../service-create-qr-code-for-report.md)
+* [Создание QR-кода для плитки в службе Power BI](../../create-reports/service-create-qr-code-for-tile.md)
+* [Создание QR-кода для отчета в Power BI](../../create-reports/service-create-qr-code-for-report.md)
 * Кроме того, можно [сосканировать QR-код с помощью приложения Power BI для смешанной реальности](mobile-mixed-reality-app.md).
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

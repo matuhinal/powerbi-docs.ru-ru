@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114441"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277670"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ознакомление с панелью "Фильтры" отчета
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114441"
 
 Эта статья содержит подробную информацию о панели **Фильтры** отчета в службе Power BI. Используйте фильтры, чтобы получать новые ценные сведения в данных.
 
-Существует много различных способов фильтрации данных в Power BI. Дополнительные сведения см. в разделе [Фильтрация и выделение в отчетах Power BI](../power-bi-reports-filters-and-highlighting.md).
+Существует много различных способов фильтрации данных в Power BI. Дополнительные сведения см. в разделе [Фильтрация и выделение в отчетах Power BI](../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ![Снимок экрана отчета в браузере со стрелкой к параметру "Фильтры".](media/end-user-report-filter/power-bi-report.png)
 

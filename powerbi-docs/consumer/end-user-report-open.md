@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114332"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277624"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Просмотр отчета в службе Power BI для *потребителей*
 
@@ -99,14 +99,14 @@ ms.locfileid: "79114332"
     ![отчет, открытый в режиме чтения](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> Не все плитки направляют к отчетам. При выборе плитки, [созданной с помощью функции "Вопросы и ответы"](end-user-q-and-a.md), откроется экран этой функции. Если вы выберете плитку, [созданную с помощью мини-приложения **Добавить плитку** на панели мониторинга](../service-dashboard-add-widget.md), могут выполняться различные действия, такие как воспроизведение видео, открытие веб-сайта и т. д.  
+> Не все плитки направляют к отчетам. При выборе плитки, [созданной с помощью функции "Вопросы и ответы"](end-user-q-and-a.md), откроется экран этой функции. Если вы выберете плитку, [созданную с помощью мини-приложения **Добавить плитку** на панели мониторинга](../create-reports/service-dashboard-add-widget.md), могут выполняться различные действия, такие как воспроизведение видео, открытие веб-сайта и т. д.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Другие способы открытия отчета
 Когда вы освоитесь с навигацией в службе Power BI, вы сможете выбрать для себя наиболее удобные рабочие процессы. Другие способы доступа к отчетам:
 - из области навигации с помощью элементов [Избранное](end-user-favorite.md) и [Недавние](end-user-recent.md);    
 - при помощи параметра [Просмотреть похожие](end-user-related.md);    
-- из сообщения электронной почты, если кто-нибудь [предоставил вам доступ](../service-share-reports.md) или вы [настроили оповещение](end-user-alerts.md);    
+- из сообщения электронной почты, если кто-нибудь [предоставил вам доступ](../collaborate-share/service-share-reports.md) или вы [настроили оповещение](end-user-alerts.md);    
 - из вашего [центра уведомлений](end-user-notification-center.md);    
 - из рабочей области;
 - и прочие.

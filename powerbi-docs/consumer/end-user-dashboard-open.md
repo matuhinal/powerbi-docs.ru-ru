@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496285"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277923"
 ---
 # <a name="view-a-dashboard"></a>Просмотр панели мониторинга
 
@@ -49,10 +49,10 @@ ms.locfileid: "77496285"
 - **Последние** — если вы недавно просматривали панели мониторинга.
 - **Приложения** — многие приложения содержат панели мониторинга и отчеты.
 - **Мне предоставлен доступ** — если коллеги [предоставили вам совместный доступ к панели мониторинга](end-user-shared-with-me.md).
-- **Моя рабочая область** — если вы скачали любой из [примеров для Power BI](../sample-datasets.md).
+- **Моя рабочая область** — если вы скачали любой из [примеров для Power BI](../create-reports/sample-datasets.md).
 
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* Ознакомьтесь с обзорными сведениями об использовании на примере одной из наших [панелей мониторинга](../sample-tutorial-connect-to-the-samples.md).    
+* Ознакомьтесь с обзорными сведениями об использовании на примере одной из наших [панелей мониторинга](../create-reports/sample-tutorial-connect-to-the-samples.md).    
 * Узнайте, что такое [плитки панели мониторинга](end-user-tiles.md) и что произойдет, если выбрать одну из них.

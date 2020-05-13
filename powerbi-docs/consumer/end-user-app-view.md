@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120282"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275531"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
 
@@ -65,7 +65,7 @@ ms.locfileid: "82120282"
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Получение приложения с веб-сайта Microsoft AppSource 
 
-В этом примере мы откроем один из примеров приложений Майкрософт. В AppSource доступны приложения для многих служб, которые вы используете для своей работы.  Это такие службы, как Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo и многие другие. Дополнительные сведения см. в статье [Подключение к используемым службам с помощью Power BI](../service-connect-to-services.md). 
+В этом примере мы откроем один из примеров приложений Майкрософт. В AppSource доступны приложения для многих служб, которые вы используете для своей работы.  Это такие службы, как Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo и многие другие. Дополнительные сведения см. в статье [Подключение к используемым службам с помощью Power BI](../connect-data/service-connect-to-services.md). 
 
 1. В браузере откройте [https://appsource.microsoft.com](https://appsource.microsoft.com) и выберите **Приложения Power BI**.
 
@@ -142,3 +142,4 @@ ms.locfileid: "82120282"
 * [Общие сведения о приложениях](end-user-apps.md)
 * [Просмотр отчета Power BI](end-user-report-open.md)
 * [Другие способы предоставления общего доступа к содержимому](end-user-shared-with-me.md)
+

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752678"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275485"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Подключение к отчету по отслеживанию COVID-19 в США
 В этой статье рассказывается, как установить шаблон приложение для отчета по отслеживанию COVID-19 и как подключиться к источникам данных.
@@ -54,14 +54,14 @@ ms.locfileid: "80752678"
 
 ## <a name="schedule-report-refresh"></a>Планирование обновления отчета
 
-Когда обновление данных завершится, вы окажетесь в рабочей области, связанной с приложением. [Настройте расписание обновления](../refresh-scheduled-refresh.md), чтобы поддерживать данные отчета в актуальном состоянии.
+Когда обновление данных завершится, вы окажетесь в рабочей области, связанной с приложением. [Настройте расписание обновления](../connect-data/refresh-scheduled-refresh.md), чтобы поддерживать данные отчета в актуальном состоянии.
 
 ## <a name="customize-and-share"></a>Настройка и общий доступ
 
-Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](../create-reports/sample-covid-19-us.md#disclaimers).
+Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](../create-reports/sample-covid-19-us.md#disclaimers).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Пример отслеживания ситуации с COVID-19 для федеральных и местных органов власти США](../create-reports/sample-covid-19-us.md)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-* [Что такое приложения-шаблоны Power BI?](../service-template-apps-overview.md)
-* [Установка и распространение приложений-шаблонов в организации](../service-template-apps-install-distribute.md)
+* [Что такое приложения-шаблоны Power BI?](../connect-data/service-template-apps-overview.md)
+* [Установка и распространение приложений-шаблонов в организации](../connect-data/service-template-apps-install-distribute.md)

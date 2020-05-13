@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302493"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277532"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Отображение панелей мониторинга и отчетов, к которым мне предоставлен доступ
 
@@ -26,7 +26,7 @@ ms.locfileid: "80302493"
 
 ![Значок "Предоставить общий доступ"](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Узнайте, как Аманда использует список содержимого **Мне предоставлен доступ**, включая переходы и фильтрацию. Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео. Для просмотра панелей мониторинга, к которым вам предоставлен общий доступ, необходимо иметь лицензию Power BI Pro. Дополнительные сведения см. в статье [Что такое Power BI Premium?](../service-premium-what-is.md)
+Узнайте, как Аманда использует список содержимого **Мне предоставлен доступ**, включая переходы и фильтрацию. Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео. Для просмотра панелей мониторинга, к которым вам предоставлен общий доступ, необходимо иметь лицензию Power BI Pro. Дополнительные сведения см. в статье [Что такое Power BI Premium?](../admin/service-premium-what-is.md)
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ ms.locfileid: "80302493"
 * [Просмотр аналитических сведений](end-user-insights.md), которые Power BI находит в данных ![Значок аналитических сведений](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]
-  > Чтобы получить сведения о классификации EGRC, нажмите кнопку **классификации** или см. статью [Классификация данных на панелях мониторинга](../service-data-classification.md).
+  > Чтобы получить сведения о классификации EGRC, нажмите кнопку **классификации** или см. статью [Классификация данных на панелях мониторинга](../create-reports/service-data-classification.md).
   > 
 
 

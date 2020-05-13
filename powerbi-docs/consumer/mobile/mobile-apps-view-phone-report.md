@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841786"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273530"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Просмотр отчетов Power BI, оптимизированных для телефона
 
@@ -48,7 +48,7 @@ ms.locfileid: "82841786"
 ## <a name="cross-highlight-visuals"></a>Перекрестно выделенные визуальные элементы
 Перекрестное выделение визуальных элементов в книжной ориентации работает так же, как и в службе Power BI или на телефоне в альбомной ориентации: Когда вы выбираете данные в одном визуальном элементе, выделяются связанные данные в других визуальных элементах на этой странице.
 
-См. дополнительную информацию о [фильтрах и выделении данных в отчетах Power BI](../../power-bi-reports-filters-and-highlighting.md).
+См. дополнительную информацию о [фильтрах и выделении данных в отчетах Power BI](../../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="select-visuals"></a>Выбор визуальных элементов
 Если в мобильном отчете выбрать визуальный элемент, мобильный отчет выделяет его и фокусируется на нем, нейтрализуя другие жесты на холсте.
@@ -131,8 +131,7 @@ ms.locfileid: "82841786"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Создание отчетов, оптимизированных для мобильных приложений Power BI](../../desktop-create-phone-report.md)
-* [Создание представления панели мониторинга для телефонов в Power BI](../../service-create-dashboard-mobile-phone-view.md)
+* [Создание отчетов, оптимизированных для мобильных приложений Power BI](../../create-reports/desktop-create-phone-report.md)
+* [Создание представления панели мониторинга для телефонов в Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [Оптимизация визуальных элементов для любого размера](../../visuals/desktop-create-responsive-visuals.md)
 * Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-
