@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700393"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279648"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Не рекомендуется: преобразование BLANK в значения
 
@@ -66,7 +66,7 @@ DIVIDE([Profit], [Sales])
 ![В той же таблице теперь отображаются четыре строки данных. Каждая из них содержит сведения о клиенте, для которого есть значение продаж, а значение Profit Margin не равно нулю.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> При необходимости можно настроить визуальный элемент для отображения всех группирований (возвращающих значения или пустые результаты) в контексте фильтра, включив параметр [Показать элементы без данных](../desktop-show-items-no-data.md).
+> При необходимости можно настроить визуальный элемент для отображения всех группирований (возвращающих значения или пустые результаты) в контексте фильтра, включив параметр [Показать элементы без данных](../create-reports/desktop-show-items-no-data.md).
 
 ## <a name="recommendation"></a>Рекомендация
 
@@ -80,3 +80,4 @@ DIVIDE([Profit], [Sales])
 
 - [Руководство по выражениям анализа данных (DAX)](/dax/)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487816"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279763"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Руководство по параметрам администрирования клиента
 
@@ -21,7 +21,7 @@ ms.locfileid: "79487816"
 
 Мы предоставляем указания по параметрам клиента, которые помогают улучшить работу с Power BI или могут подвергнуть организацию риску. Мы рекомендуем всегда настраивать клиент в соответствии с политиками и процессами организации.
 
-Управление [параметрами клиента](../service-admin-portal.md#tenant-settings) осуществляется на [портале администрирования](https://app.powerbi.com/admin-portal/tenantSettings). Настраивать их может [администратор службы Power BI](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Многие параметры клиента ограничивают доступ к возможностям и функциям, разрешая его лишь узкому кругу пользователей. Поэтому мы рекомендуем сначала ознакомиться с этими параметрами, прежде чем планировать необходимые группы безопасности. Может оказаться, что одну и ту же группу можно использовать для нескольких параметров.
+Управление [параметрами клиента](../admin/service-admin-portal.md#tenant-settings) осуществляется на [портале администрирования](https://app.powerbi.com/admin-portal/tenantSettings). Настраивать их может [администратор службы Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Многие параметры клиента ограничивают доступ к возможностям и функциям, разрешая его лишь узкому кругу пользователей. Поэтому мы рекомендуем сначала ознакомиться с этими параметрами, прежде чем планировать необходимые группы безопасности. Может оказаться, что одну и ту же группу можно использовать для нескольких параметров.
 
 ## <a name="improve-power-bi-experience"></a>Улучшение работы с Power BI
 
@@ -88,7 +88,7 @@ ms.locfileid: "79487816"
 
 ### <a name="publish-to-web"></a>Опубликовать в Интернете
 
-Функция [публикации в Интернете](../service-publish-to-web.md) позволяет публиковать общедоступные отчеты в Интернете. В случае ненадлежащего использования есть риск раскрытия конфиденциальной информации в Интернете.
+Функция [публикации в Интернете](../collaborate-share/service-publish-to-web.md) позволяет публиковать общедоступные отчеты в Интернете. В случае ненадлежащего использования есть риск раскрытия конфиденциальной информации в Интернете.
 
 По умолчанию параметр **Опубликовать в Интернете** включен для всей организации, но возможность создавать коды внедрения для пользователей без прав администратора ограничена. Он находится в группе **Параметры экспорта и совместного доступа**.
 
@@ -109,7 +109,7 @@ ms.locfileid: "79487816"
 Мы рекомендуем назначить одну или несколько групп безопасности. Им можно предоставить разрешение на публикацию отчетов или _запретить_ публиковать их.
 
 > [!IMPORTANT]
-> Отключение этого параметра также запрещает использовать функцию [анализа в Excel](../service-analyze-in-excel.md) и функцию [динамического подключения](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) к службе Power BI.
+> Отключение этого параметра также запрещает использовать функцию [анализа в Excel](../collaborate-share/service-analyze-in-excel.md) и функцию [динамического подключения](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) к службе Power BI.
 
 ![Показан параметр "Экспорт данных".](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ ms.locfileid: "79487816"
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Разрешение внешним гостям отслеживать и изменять содержимое в организации
 
-Внешним пользователям-гостям можно разрешить изменять содержимое Power BI и управлять им. Дополнительные сведения см. в статье [Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B](../service-admin-azure-ad-b2b.md).
+Внешним пользователям-гостям можно разрешить изменять содержимое Power BI и управлять им. Дополнительные сведения см. в статье [Предоставление содержимого Power BI внешним гостевым пользователям с помощью Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
 По умолчанию параметр **Разрешение внешним гостям отслеживать и изменять содержимое в организации** отключен для всей организации. Он находится в группе **Параметры экспорта и совместного доступа**.
 
@@ -141,7 +141,8 @@ ms.locfileid: "79487816"
 
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-- [Что такое администрирование Power BI?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Администрирование Power BI на портале администрирования](../service-admin-portal.md)
+- [Что такое администрирование Power BI?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Администрирование Power BI на портале администрирования](../admin/service-admin-portal.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)
+
