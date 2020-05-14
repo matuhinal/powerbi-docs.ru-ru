@@ -1,16 +1,16 @@
-- name: Изучение Power BI (пользователь)
+- name: "Изучение Power\_BI (../consumer)"
   href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
-- name: "Анализ данных в Power\_BI (пользователь)"
+- name: "Анализ данных в Power\_BI (../consumer)"
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: "Сборка с помощью Power\_BI"
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
-- name: Получение данных
+- name: Получить данные
   href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
-- name: Данные модели
+- name: Модель данных
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: Использование визуальных элементов
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
-- name: Анализ данных
+- name: Изучение данных
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
 - name: Публикация и общий доступ
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'

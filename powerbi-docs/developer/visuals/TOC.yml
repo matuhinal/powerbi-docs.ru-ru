@@ -12,6 +12,10 @@
       items:
         - name: "Разработка визуального элемента Power\_BI"
           href: custom-visual-develop-tutorial.md
+        - name: "Создание визуальных элементов на основе\_React"
+          href: create-react-visual.md
+        - name: Создание линейчатой диаграммы
+          href: create-bar-chart.md
         - name: Добавление параметров форматирования
           href: custom-visual-develop-tutorial-format-options.md
         - name: Добавление модульных тестов для проекта визуальных элементов
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: Режим расширенного редактирования
           href: advanced-edit-mode.md
+        - name: Функция supportsKeyboardFocus
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: Практическое руководство
       items:
         - name: "Получите сертификацию для визуального элемента Power\_BI"
           href: power-bi-custom-visuals-certified.md
         - name: Публикация визуальных элементов Power BI в AppSource
           href: office-store.md
+        - name: "Тестирование визуального элемента Power\_BI"
+          href: submission-testing.md
         - name: "Использование визуализаций Power\_BI на основе R в Power\_BI"
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: Взаимодействие визуальных элементов
           href: visuals-interactions.md
         - name: Добавление выбора
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: Добавление поддержки детализации
           href: drill-down-support.md
+        - name: Добавление цвета в визуальный элемент
+          href: add-colors-power-bi-visual.md
         - name: Выделение данных в визуальных элементах
           href: highlight.md
         - name: Добавление поддержки режима высокой контрастности
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Справка
       items:
+        - name: Журнал изменений
+          href: changelog.md
         - name: Целевая страница
           href: landing-page.md
         - name: Открытие URL-адреса
           href: launch-url.md
+        - name: API визуальных элементов
+          href: visual-api.md
         - name: API локального хранилища
           href: local-storage.md
         - name: События отрисовки
@@ -119,8 +135,8 @@
         - name: Центр разработки
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Примеры визуальных элементов Power BI
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Репозиторий Git настраиваемых визуальных элементов
+          href: samples.md
+        - name: Git-репозиторий пользовательских визуальных элементов
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: Создание SSL-сертификата
           href: create-ssl-certificate.md
