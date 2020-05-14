@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464586"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278820"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Визуальные элементы организации в Power BI
 
@@ -42,8 +42,6 @@ ms.locfileid: "80464586"
 Есть некоторые рекомендации и ограничения, которые нужно учитывать.
 
 Администратор
-
-* Устаревшие визуальные элементы Power BI (например, визуальные элементы, которые созданы не на основе API новых версий) не поддерживаются.
 
 * Если визуальный элемент Power BI удален из источника или файла, все отчеты, в которых использовался этот элемент, перестанут отображаться. Удаление из репозитория является необратимой операцией. Чтобы временно отключить визуальный элемент Power BI от источника или файла, используйте функцию "Отключить".
 
