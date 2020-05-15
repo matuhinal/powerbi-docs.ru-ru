@@ -72,9 +72,11 @@
               href: end-user-bookmarks.md
             - name: '"В центре внимания" в отчете'
               href: end-user-spotlight.md
+            - name: Персонализация визуального элемента
+              href: end-user-personalize-visuals.md
             - name: Отчеты с разбивкой на страницы в Power BI
               items:
-                - name: Отчеты с разбивкой на страницы
+                - name: Отчеты с разбиением на страницы
                   href: end-user-paginated-report.md
                 - name: Просмотр отчета с разбивкой на страницы
                   href: paginated-reports-view-power-bi-service.md
@@ -120,7 +122,7 @@
               href: end-user-preview-features.md
             - name: "Получение уведомлений в службе Power\_BI"
               href: end-user-notification-center.md
-        - name: Получить данные
+        - name: Получение данных
           items:
             - name: "Рабочие области в Power\_BI"
               href: end-user-workspaces.md
