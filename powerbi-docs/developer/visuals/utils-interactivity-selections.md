@@ -186,7 +186,7 @@ ms.locfileid: "79379267"
     }
     ```
 
-5. Чтобы выполнить обработку щелчка элементов, вызовите метод *объекта выбора*d3`on`. Это также касается `elementsSelection` и `clearCatcherSelection`.
+5. Чтобы выполнить обработку щелчка элементов, вызовите метод `on` объекта выбора *d3*. Это также касается `elementsSelection` и `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {

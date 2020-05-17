@@ -32,7 +32,7 @@ ms.locfileid: "80114159"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Выделение точек данных с сопоставлением представления категориальных данных
 
-Визуальные элементы с сопоставлением представления категориальных данных имеют параметр `capabilities.json` в файле `"supportsHighlight": true`. Пример.
+Визуальные элементы с сопоставлением представления категориальных данных имеют параметр `"supportsHighlight": true` в файле `capabilities.json`. Пример.
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Выделение точек данных с сопоставлением представления матричных данных
 
-Визуальные элементы с сопоставлением представления матричных данных имеют параметр `capabilities.json` в файле `"supportsHighlight": true`. Пример.
+Визуальные элементы с сопоставлением представления матричных данных имеют параметр `"supportsHighlight": true` в файле `capabilities.json`. Пример.
 
 ```json
 {
