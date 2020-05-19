@@ -6,23 +6,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
-ms.author: mihart
+ms.date: 05/05/2019
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1cee814b5013ece3a847aeb3660f1257c69be125
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6da3dd980b180398cf75c8e01f81501ec5d62ed6
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871140"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127473"
 ---
-# <a name="use-ribbon-charts-in-power-bi"></a>Использование ленточных диаграмм в Power BI
+# <a name="create-ribbon-charts-in-power-bi"></a>Создание ленточных диаграмм в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Диаграммы ленты позволяют визуализировать данные и быстро выявлять категории данных с наивысшим рангом (максимальным значением). Ленточные диаграммы лучше всего подходят для отображения изменений ранга. Наивысший ранг (значение) за каждый период времени всегда отображается в верхней части диаграммы. 
+Вы можете создать диаграммы ленты, которые позволяют визуализировать данные и быстро выявлять категории данных с наивысшим рангом (максимальным значением). Ленточные диаграммы лучше всего подходят для отображения изменений ранга. Наивысший ранг (значение) за каждый период времени всегда отображается в верхней части диаграммы. 
 
 ![Ленточная диаграмма](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум. См. статью [Фильтрация и совместное использование отчета Power BI](../collaborate-share/service-share-reports.md).
 
 ## <a name="prerequisites"></a>Предварительные требования
 

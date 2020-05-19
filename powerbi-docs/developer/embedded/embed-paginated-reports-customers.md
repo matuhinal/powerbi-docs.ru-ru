@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403773"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276060"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов (обзор)
 
@@ -34,14 +34,14 @@ ms.locfileid: "80403773"
 * [субъект-служба (маркер только для приложения)](embed-service-principal.md);
 * подписка [Microsoft Azure](https://azure.microsoft.com/);
 * собственная установка [клиента Azure Active Directory](create-an-azure-active-directory-tenant.md);
-* По крайней мере [емкости](#create-a-dedicated-capacity) A4 или P1 с включенной рабочей нагрузкой [отчетов с разбивкой на страницы](../../service-admin-premium-workloads.md#paginated-reports).
+* По крайней мере [емкости](#create-a-dedicated-capacity) A4 или P1 с включенной рабочей нагрузкой [отчетов с разбивкой на страницы](../../admin/service-admin-premium-workloads.md#paginated-reports).
 
 Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 > [!IMPORTANT]
 > * Необходимо использовать **субъект-службу**. Главный пользователь не поддерживается.
 > * Источники данных, для которых требуется единый вход, не поддерживаются.
-> * Набор данных Power BI не поддерживается в качестве [источника данных](../../service-get-data.md).
+> * Набор данных Power BI не поддерживается в качестве [источника данных](../../connect-data/service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI
 
@@ -49,12 +49,12 @@ ms.locfileid: "80403773"
 
 ### <a name="create-an-app-workspace"></a>Создание рабочей области приложения
 
-Поскольку для входа в приложение вы применяете [субъект-службу](embed-service-principal.md), необходимо использовать [новые рабочие области](../../service-create-the-new-workspaces.md). При использовании *субъекта-службы* также необходимо быть администратором или членом рабочих областей приложения, участвующим в приложении.
+Поскольку для входа в приложение вы применяете [субъект-службу](embed-service-principal.md), необходимо использовать [новые рабочие области](../../collaborate-share/service-create-the-new-workspaces.md). При использовании *субъекта-службы* также необходимо быть администратором или членом рабочих областей приложения, участвующим в приложении.
 
 ### <a name="create-a-dedicated-capacity"></a>Создание выделенной емкости
 
 Прежде чем импортировать или передать отчет с разбивкой на страницы для внедрения, рабочая область, содержащая отчет, должна быть назначена по меньшей мере емкости A4 или P1. Вы можете выбрать из двух типов емкости.
-* **Power BI Premium** — для внедрения отчета с разбиением на страницы требуется емкость SKU *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../../service-premium-what-is.md).
+* **Power BI Premium** — для внедрения отчета с разбиением на страницы требуется емкость SKU *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../../admin/service-premium-what-is.md).
 * **Azure Power BI Embedded** — вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Для внедрения отчетов с разбивкой на страницы требуется по крайней мере подписка *A4*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 
 В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Создание маркера внедрения
 
-Создайте маркер внедрения, который можно использовать из API JavaScript. Чтобы создать маркер внедрения для внедрения отчетов Power BI с разбивкой на страницы, используйте API [Отчеты GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup).
+Создайте маркер внедрения, который можно использовать из API JavaScript. Чтобы создать маркер внедрения для внедрения отчетов Power BI с разбивкой на страницы, используйте API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup).
 
 Пример создания токена внедрения можно найти в файле  *Services\EmbedService.cs* в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples).
 

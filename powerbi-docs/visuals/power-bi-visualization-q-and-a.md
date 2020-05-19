@@ -1,20 +1,23 @@
 ---
 title: Использование визуального элемента "Вопросы и ответы" Power BI
 description: Сведения о настройке визуального элемента "Вопросы и ответы" Power BI
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762285"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148351"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Общие сведения о визуальных элементах "Вопросы и ответы" в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -35,7 +38,7 @@ ms.locfileid: "75762285"
 - Значок для преобразования элемента "Вопросы и ответы" в стандартный визуальный элемент. 
 - Значок, позволяющий открыть средство "Вопросы и ответы", с помощью которого разработчики могут настраивать базовый обработчик естественного языка.
 
-## <a name="prerequisites"></a>Технические условия
+## <a name="prerequisites"></a>Предварительные требования
 
 1. В этом руководстве используется [PBIX-файл с образцом "Продажи и маркетинг"](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix). 
 
@@ -47,8 +50,10 @@ ms.locfileid: "75762285"
 
 1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
 
+Если при создании визуального элемента "Вопросы и ответы" произойдет ошибка, ознакомьтесь с разделом [Ограничения](../natural-language/q-and-a-limitations.md) и убедитесь, что используемая конфигурация источника данных поддерживается.    
 
-Если при создании визуального элемента "Вопросы и ответы" произойдет ошибка, ознакомьтесь с разделом [Ограничения](../natural-language/q-and-a-limitations.md) и убедитесь, что используемая конфигурация источника данных поддерживается.
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум. См. статью [Фильтрация и совместное использование отчета Power BI](../collaborate-share/service-share-reports.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Создание визуального элемента "Вопросы и ответы" с использованием предлагаемого вопроса
 В этом упражнении мы выберем один из предлагаемых вопросов, чтобы создать визуальный элемент "Вопросы и ответы". 

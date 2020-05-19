@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895238"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276589"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Начало работы с областью форматирования
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 При наличии разрешений на изменение для отчета доступно множество параметров форматирования. В отчетах Power BI вы можете изменять цвет ряда данных, точек данных и даже фона визуализаций. Можно изменить способ представления осей x и y. Можно также изменить форматирование свойств шрифтов для визуализаций, фигур и заголовков. Power BI предоставляет полный контроль над отображением отчетов.
 
 Для начала работы откройте отчет в Power BI Desktop или службе Power BI. Оба варианта предоставляют почти одинаковые параметры форматирования. При открытии отчета в службе Power BI не забудьте выбрать **Изменить** в строке меню. 
@@ -154,8 +157,10 @@ ms.locfileid: "76895238"
 Это лишь некоторые из возможных задач форматирования. Откройте отчет в режиме редактирования и изучите панель форматирования, чтобы научиться создавать привлекательные и информативные визуализации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Дополнительные сведения см. в следующей статье:  
+Дополнительные сведения см. в следующей статье: 
+
+* [Фильтрация и совместное использование отчета Power BI](../collaborate-share/service-share-reports.md).
 
 * [Советы и рекомендации по форматированию цветом в Power BI](service-tips-and-tricks-for-color-formatting.md)  
-* [Условное форматирование в таблицах](../desktop-conditional-table-formatting.md)
+* [Условное форматирование в таблицах](../create-reports/desktop-conditional-table-formatting.md)
 

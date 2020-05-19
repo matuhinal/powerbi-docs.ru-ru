@@ -1,134 +1,204 @@
 ---
-title: Создание SSL-сертификата
-description: Обходной путь для ручного создания сертификатов для сервера разработчика
+title: Создание SSL-сертификатов для визуальных элементов Power BI
+description: Сведения о создании SSL-сертификатов с помощью визуальных средств Power BI в Windows, Mac, Linux или вручную.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
-ms.date: 06/18/2019
-ms.openlocfilehash: fab40863d7beae4892a56975aa5e92c4fe5486ac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/08/2020
+ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380279"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276382"
 ---
 # <a name="create-an-ssl-certificate"></a>Создание SSL-сертификата
 
-В этой статье описывается, как создать SSL-сертификат.
+В этой статье описывается создание и установка SSL-сертификатов для визуальных элементов Power BI.
 
-Чтобы создать сертификат с помощью командлета PowerShell `New-SelfSignedCertificate` в Windows 8 или более поздней версии, выполните следующую команду:
+Для выполнения процедур в Windows, macOS X и Linux необходимо установить пакет **pbiviz** визуальных средств Power BI. Дополнительные сведения см. в разделе о [настройке среды разработчика](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment). 
+
+## <a name="create-a-certificate-on-windows"></a>Создание сертификата в Windows
+
+Чтобы создать сертификат с помощью командлета PowerShell `New-SelfSignedCertificate` в Windows 8 и более поздней версии, выполните следующую команду:
+
+```powershell
+pbiviz --install-cert
+```
+
+Для использования средства `pbiviz` в Windows 7 требуется, чтобы служебная программа OpenSSL была доступна из командной строки. Инструкции по установке OpenSSL см. на странице [OpenSSL](https://www.openssl.org) или [Двоичные файлы OpenSSL](https://wiki.openssl.org/index.php/Binaries).
+
+Дополнительные сведения и инструкции по установке сертификата см. в разделе о [создании и установке сертификата для Windows](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows).
+
+## <a name="create-a-certificate-on-macos-x"></a>Создание сертификата в macOS X
+
+Служебная программа OpenSSL, как правило, доступна в операционной системе macOS X.
+
+Для установки служебной программы OpenSSL также можно выполнить любую из следующих команд:
+
+- Из диспетчера пакетов *Brew*:
+  
+  ```cmd
+  brew install openssl
+  brew link openssl --force
+  ```
+
+- С помощью *MacPorts*:
+  
+  ```cmd
+  sudo port install openssl
+  ```
+
+После установки служебной программы OpenSSL выполните следующую команду для создания нового сертификата:
 
 ```cmd
 pbiviz --install-cert
 ```
 
-Этому средству требуется установка OpenSSL для Windows 7. Служебная программа OpenSSL должна быть доступна из командной строки.
+Дополнительные сведения и инструкции см. в [этом разделе](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx).
 
-Чтобы установить OpenSSL, перейдите на сайт [OpenSSL](https://www.openssl.org) или [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries).
+## <a name="create-a-certificate-on-linux"></a>Создание сертификата в Linux
 
-## <a name="create-a-certificate-mac-os-x"></a>Создание сертификата (Mac OS X)
+Служебная программа OpenSSL, как правило, доступна в операционной системе Linux.
 
-Как правило, служебная программа OpenSSL доступна в операционной системе Linux или Mac OS X.
+Сначала выполните следующие команды, чтобы проверить, установлены ли `openssl` и `certutil`:
 
-Для установки этой служебной программы также можно выполнить любую из следующих команд:
-
-* Из диспетчера пакетов *Brew*:
-
-    ```cmd
-    brew install openssl
-    brew link openssl --force
-    ```
-
-* С помощью *MacPorts*:
-
-    ```cmd
-    sudo port install openssl
-    ```
-
-После установки служебной программы OpenSSL для создания нового сертификата выполните следующую команду:
-
-```cmd
-pbiviz --install-cert
+```sh
+which openssl
+which certutil
 ```
 
-## <a name="create-a-certificate-linux"></a>Создание сертификата (Linux)
+Если `openssl` и `certutil` не установлены, установите служебные программы `openssl` и `libnss3`.
 
-Если служебная программа OpenSSL недоступна в операционной системе Linux, вы можете установить ее, выполнив одну из следующих команд:
+### <a name="create-the-ssl-configuration-file"></a>Создание файла конфигурации SSL
 
-* Для диспетчера пакетов *APT*:
+Создайте файл с именем */tmp/openssl.cnf*, содержащий следующий текст:
 
-    ```cmd
-    sudo apt-get install openssl
-    ```
+```
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
 
-* Для *Yellowdog Updater*:
-
-    ```cmd
-    yum install openssl
-    ```
-
-* Для *Redhat Package Manager*:
-
-    ```cmd
-    rpm install openssl
-    ```
-
-Если служебная программа OpenSSL уже доступна в вашей операционной системе, создайте новый сертификат, выполнив следующую команду:
-
-```cmd
-pbiviz --install-cert
+[ alt_names ]
+DNS.1=localhost
 ```
 
-Также для получения служебной программы OpenSSL можно воспользоваться сайтом [OpenSSL](https://www.openssl.org) или [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries).
+### <a name="generate-root-certificate-authority"></a>Создание корневого центра сертификации
 
-## <a name="generate-the-certificate-manually"></a>Создание сертификата вручную
+Чтобы создать корневой центр сертификации (ЦС) для подписания локальных сертификатов, выполните следующие команды:
 
-Вы можете указать сертификаты, созданные с помощью любых средств.
-
-Если служебная программа OpenSSL уже установлена в вашей системе, создайте новый сертификат, выполнив следующие команды:
-
-```cmd
-openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
+```sh
+touch $HOME/.rnd
+openssl req -x509 -nodes -new -sha256 -days 1024 -newkey rsa:2048 -keyout /tmp/local-root-ca.key -out /tmp/local-root-ca.pem -subj "/C=US/CN=Local Root CA/O=Local Root CA"
+openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 ```
 
-Для поиска сертификатов веб-сервера PowerBI-visuals-tools в большинстве случаев можно выполнить следующую команду:
+### <a name="generate-a-certificate-for-localhost"></a>Создайте сертификат для localhost 
 
-* Глобальные экземпляры средств:
+Чтобы создать сертификат для `localhost` с помощью созданного ЦС и *openssl.cnf*, выполните следующие команды:
 
-    ```cmd
-    %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
-    ```
+```sh
+PBIVIZ=`which pbiviz`
+PBIVIZ=`dirname $PBIVIZ`
+PBIVIZ="$PBIVIZ/../lib/node_modules/powerbi-visuals-tools/certs"
+# Make sure that $PBIVIZ contains the correct certificate directory path. ls $PBIVIZ should list 'blank' file.
+openssl req -new -nodes -newkey rsa:2048 -keyout $PBIVIZ/PowerBIVisualTest_private.key -out $PBIVIZ/PowerBIVisualTest.csr -subj "/C=US/O=PowerBI Visuals/CN=localhost"
+openssl x509 -req -sha256 -days 1024 -in $PBIVIZ/PowerBIVisualTest.csr -CA /tmp/local-root-ca.pem -CAkey /tmp/local-root-ca.key -CAcreateserial -extfile /tmp/openssl.cnf -out $PBIVIZ/PowerBIVisualTest_public.crt
+```
 
-* Локальные экземпляры средств:
+### <a name="add-root-certificates"></a>Добавление корневых сертификатов
 
-    ```cmd
-    <custom visual project root>\node_modules\PowerBI-visuals-tools\certs
-    ```
+Чтобы добавить корневой сертификат в базу данных браузера Chrome, выполните следующую команду:
 
-Если вы используете формат PEM, сохраните файл сертификата под именем *PowerBICustomVisualTest_public.crt* и закрытый ключ под именем *PowerBICustomVisualTest_public.key*.
+```sh
+certutil -A -n "Local Root CA" -t "CT,C,C" -i /tmp/local-root-ca.pem -d sql:$HOME/.pki/nssdb
+```
 
-Если используется формат PFX, сохраните файл сертификата под именем *PowerBICustomVisualTest_public.pfx*.
+Чтобы добавить корневой сертификат в базу данных браузера Mozilla Firefox, выполните следующую команду:
+
+```sh
+for certDB in $(find $HOME/.mozilla* -name "cert*.db")
+do
+certDir=$(dirname ${certDB});
+certutil -A -n "Local Root CA" -t "CT,C,C" -i /tmp/local-root-ca.pem -d sql:${certDir}
+done
+```
+
+Чтобы добавить корневой сертификат на уровне системы, выполните следующую команду:
+
+```sh
+sudo cp /tmp/local-root-ca.pem /usr/local/share/ca-certificates/
+sudo update-ca-certificates
+```
+
+### <a name="remove-root-certificates"></a>Удаление корневых сертификатов
+
+Чтобы удалить корневой сертификат, выполните следующую команду:
+
+```sh
+sudo rm /usr/local/share/ca-certificates/local-root-ca.pem
+sudo update-ca-certificates --fresh
+```
+
+## <a name="generate-a-certificate-manually"></a>Создание сертификата вручную
+
+SSL-сертификат также можно создать вручную с помощью служебной программы OpenSSL. Вы можете указать любые средства для создания сертификатов.
+
+Если служебная программа OpenSSL уже установлена, создайте новый сертификат, выполнив следующую команду:
+
+```cmd
+openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out PowerBIVisualTest_public.crt -days 365
+```
+
+Для поиска сертификатов веб-сервера `PowerBI-visuals-tools` в большинстве случаев можно выполнить следующие команды:
+
+- Глобальные экземпляры средств:
+  
+  ```cmd
+  %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
+  ```
+
+- Локальные экземпляры средств:
+  
+  ```cmd
+  <Power BI visual project root>\node_modules\PowerBI-visuals-tools\certs
+  ```
+
+### <a name="pem-format"></a>Формат PEM
+
+При использовании формата сертификата Privacy Enhanced Mail (PEM) сохраните файл сертификата как *PowerBIVisualTest_public.crt* и сохраните закрытый ключ как *PowerBIVisualTest_private. key*.
+
+### <a name="pfx-format"></a>Формат PFX
+
+При использовании формата сертификата Personal Information Exchange (PFX) сохраните файл сертификата как *PowerBIVisualTest_public.pfx*.
 
 Если для файла сертификата PFX требуется парольная фраза, выполните следующие действия:
+
 1. В файле конфигурации укажите:
-
-    ```cmd
-    \PowerBI-visuals-tools\config.json
-    ```
-
-1. В разделе `server` укажите парольную фразу, заменив местозаполнитель "*ВАША ПАРОЛЬНАЯ ФРАЗА*":
+   
+   ```cmd
+   \PowerBI-visuals-tools\config.json
+   ```
+   
+1. В разделе `server` укажите парольную фразу, заменив заполнитель \<YOUR PASSPHRASE>:
 
     ```cmd
     "server":{
         "root":"webRoot",
         "assetsRoute":"/assets",
-        "privateKey":"certs/PowerBICustomVisualTest_private.key",
-        "certificate":"certs/PowerBICustomVisualTest_public.crt",
-        "pfx":"certs/PowerBICustomVisualTest_public.pfx",
+        "privateKey":"certs/PowerBIVisualTest_private.key",
+        "certificate":"certs/PowerBIVisualTest_public.crt",
+        "pfx":"certs/PowerBIVisualTest_public.pfx",
         "port":"8080",
-        "passphrase":"YOUR PASSPHRASE"
+        "passphrase":"<YOUR PASSPHRASE>"
     }
     ```
+
+## <a name="next-steps"></a>Дальнейшие действия
+- [Руководство. Разработка визуального элемента Power BI](custom-visual-develop-tutorial.md)
+- [Примеры визуальных элементов Power BI](samples.md)
+- [Публикация визуализаций Power BI в Центре партнеров](office-store.md)

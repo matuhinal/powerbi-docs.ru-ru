@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758113"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944827"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Настройка свойств осей X и Y
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ ms.locfileid: "75758113"
 
 1. Отформатируйте заголовки. В этом примере мы сократили один из заголовков и уменьшили размер шрифта для обоих. 
     - Размер шрифта: **9**.
-    - Мы сократили **заголовок оси** для первой оси Y (гистограммы): "Продажи за этот год и за прошлый год".
+    - Мы сократили **заголовок оси** для первой оси Y (гистограммы): "Продажи за этот год и за прошлый год". 
+    
+     ![Снимок экрана с комбинированной диаграммой, где заголовки отображаются полностью.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![Снимок экрана с комбинированной диаграммой, где заголовки отображаются полностью.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-Дополнительные сведения см. в статьях [Советы и рекомендации по форматированию цветом в Power BI](service-tips-and-tricks-for-color-formatting.md) и [Настройка заголовков визуализации, условных и фоновых обозначений](power-bi-visualization-customize-title-background-and-legend.md). Вскоре будут добавлены обновления, касающиеся форматирования заголовков. 
+    Дополнительные сведения см. в статьях [Советы и рекомендации по форматированию цветом в Power BI](service-tips-and-tricks-for-color-formatting.md) и [Настройка заголовков визуализации, условных и фоновых обозначений](power-bi-visualization-customize-title-background-and-legend.md). 
+    
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

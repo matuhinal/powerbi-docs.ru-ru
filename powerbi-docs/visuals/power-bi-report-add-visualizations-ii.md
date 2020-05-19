@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8b0012224d145f40cb6b9784da1a40957efce50
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758429"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277785"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Добавление визуальных элементов в отчет Power BI (часть 2)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -26,7 +28,7 @@ ms.locfileid: "75758429"
 ## <a name="create-a-new-visualization"></a>Создание новой визуализации
 В этом руководстве мы подробно рассмотрим набор данных по анализу розничной торговли и создадим несколько ключевых визуализаций.
 
-## <a name="prerequisites"></a>Технические условия
+## <a name="prerequisites"></a>Предварительные требования
 
 В этом руководстве используется пример PBIX-файла с примером [Анализ розничной торговли](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -40,7 +42,7 @@ ms.locfileid: "75758429"
 
 ## <a name="add-visualizations-to-the-report"></a>Добавление визуализаций к отчету
 
-Создайте визуализацию, выбрав поле на панели **Поля**. Тип создаваемой визуализации будет зависеть от типа выбранного поля. Power BI использует тип данных, чтобы определить, какая визуализация будет использоваться для отображения результатов. Можно изменить тип визуализации, щелкнув другой значок в области "Визуализация". Помните, что не все визуализации могут отображать ваши данные. Например, географические данные не будут отображаться правильно с помощью диаграммы воронки или графика. 
+Создайте визуализацию, выбрав поле на панели **Поля** . Тип создаваемой визуализации будет зависеть от типа выбранного поля. Power BI использует тип данных, чтобы определить, какая визуализация будет использоваться для отображения результатов. Можно изменить тип визуализации, щелкнув другой значок в области "Визуализация". Помните, что не все визуализации могут отображать ваши данные. Например, географические данные не будут отображаться правильно с помощью диаграммы воронки или графика. 
 
 
 ### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>Добавьте диаграмму с областями для показателей объема продаж текущего года по сравнению с продажами в предыдущем году.
@@ -59,7 +61,7 @@ ms.locfileid: "75758429"
 5. [Измените размер визуализации](power-bi-visualization-move-and-resize.md). Для этого выберите визуализацию, щелкните и перетащите один из кругов. Сделайте ее достаточно широкой, чтобы исключить полосу прокрутки, и достаточно небольшой, чтобы оставить место для добавления другой визуализации.
    
    ![Снимок экрана визуального элемента диаграммы с областями](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
-6. [Сохраните отчет](../service-report-save.md).
+6. [Сохраните отчет](../create-reports/service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Добавьте визуализацию карты для отслеживания продаж по расположению.
 
@@ -69,7 +71,10 @@ ms.locfileid: "75758429"
 2. Добавьте условные обозначения.  Чтобы просмотреть данные по названию магазина, перетащите элемент **Магазин** > **Сеть** в область условных обозначений.  
    ![Холст отчета со стрелкой от "Сети" в списке полей к "Сети" в контейнере условных обозначений](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
+> [!NOTE]
+> Для предоставления общего доступа к отчету Power BI и вам, и коллеге необходимо иметь отдельные лицензии Power BI Pro или сохранить отчет в емкости Премиум. См. статью [Фильтрация и совместное использование отчета Power BI](../collaborate-share/service-share-reports.md).
+
 ## <a name="next-steps"></a>Дальнейшие действия
 * Подробнее о [визуализациях в отчетах Power BI](power-bi-report-visualizations.md).  
-* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

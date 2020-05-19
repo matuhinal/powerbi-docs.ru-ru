@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895061"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276612"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Советы и рекомендации по форматированию цветом в Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 В Power BI предусмотрено много разных способов настройки панелей мониторинга и отчетов. В этой статье приводятся советы о том, как сделать визуализации в Power BI более привлекательными и интересными и настроить их в соответствии с потребностями.
 
 Предлагаются следующие советы. Есть еще один хороший совет? Отлично! Отправьте его нам, и мы добавим его в этот список.
@@ -40,7 +43,7 @@ ms.locfileid: "76895061"
 ![холст отчета в режиме правки](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 ## <a name="apply-a-theme"></a>Применение темы
-С помощью тем отчета можно применить изменения макета ко всему отчету, например использовать корпоративные цвета, изменить наборы значков или применить новое визуальное форматирование по умолчанию. При применении темы отчета для всех визуальных элементов в отчете используются цвета и форматирование из выбранной темы. Дополнительные сведения см. в статье [Использование тем отчета](../desktop-report-themes.md).
+С помощью тем отчета можно применить изменения макета ко всему отчету, например использовать корпоративные цвета, изменить наборы значков или применить новое визуальное форматирование по умолчанию. При применении темы отчета для всех визуальных элементов в отчете используются цвета и форматирование из выбранной темы. Дополнительные сведения см. в статье [Использование тем отчета](../create-reports/desktop-report-themes.md).
 
 ![Значок переключения темы в строке меню](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
 
@@ -151,4 +154,6 @@ ms.locfileid: "76895061"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Начало работы с форматированием цветом и свойствами осей](service-getting-started-with-color-formatting-and-axis-properties.md)
+
+[Фильтрация и совместное использование отчета Power BI](../collaborate-share/service-share-reports.md)
 
