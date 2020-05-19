@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381429"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276819"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
@@ -110,12 +110,12 @@ ms.locfileid: "79381429"
 
 Дополнительные сведения см. в разделе [Советы и рекомендации для визуализаций карт Power BI](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Карты: карты ArcGIS
+### <a name="maps-arcgis-maps"></a>Карты: карты ArcGIS;
 ![Карта ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Дополнительные сведения см. в статье[ Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Карты: картограммы (хороплеты)
+### <a name="maps-filled-maps-choropleth"></a>Карты: фоновые картограммы
 ![картограмма](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ ms.locfileid: "79381429"
 ![Визуальные элементы вопросов и ответов](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->Как и [интерфейс вопросов и ответов на панелях мониторинга](../power-bi-tutorial-q-and-a.md), визуальный элемент вопросов и ответов позволяет задавать вопросы о данных с помощью естественного языка. 
+>Как и [интерфейс вопросов и ответов на панелях мониторинга](../create-reports/power-bi-tutorial-q-and-a.md), визуальный элемент вопросов и ответов позволяет задавать вопросы о данных с помощью естественного языка. 
 
 Дополнительные сведения см. в статье [Визуальные элементы вопросов и ответов в Power BI](power-bi-visualization-q-and-a.md).
 
@@ -191,7 +191,7 @@ ms.locfileid: "79381429"
 >[!TIP]
 >Слишком большое число точек данных в визуальном элементе может затормозить его работу, поэтому для обеспечения точности визуализации используется сложный алгоритм выборки.
 
-Дополнительные сведения см. в статье [High-density sampling in Power BI scatter charts](desktop-high-density-scatter-charts.md) (Выборка с высокой плотностью на точечных диаграммах в Power BI).
+Дополнительные сведения см. в статье [High-density sampling in Power BI scatter charts](../create-reports/desktop-high-density-scatter-charts.md) (Выборка с высокой плотностью на точечных диаграммах в Power BI).
 
 ### <a name="slicers"></a>Срезы
 ![срез](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ ms.locfileid: "79381429"
 ### <a name="standalone-images"></a>Автономные изображения
 ![Визуальный элемент автономного изображения](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Дополнительные сведения см. в статье [Добавление изображения на панель мониторинга](../service-dashboard-add-widget.md).
+Дополнительные сведения см. в статье [Добавление изображения на панель мониторинга](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Таблицы
 ![Визуальный элемент таблицы](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -228,12 +228,15 @@ ms.locfileid: "79381429"
 Дополнительные сведения см. в статье [Каскадные диаграммы в Power BI](power-bi-visualization-waterfall-charts.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Назначение используемой визуализации для вопросов и ответов
-При вводе запросов на естественном языке с помощью вопросов и ответов Power BI можно указать тип визуализации в запросе.  Пример.
+При вводе запросов на естественном языке с помощью вопросов и ответов Power BI можно указать тип визуализации в запросе.  Например:
 
 "***продажи по штатам в виде плоского дерева***"
+
+Если на панели мониторинга нет поля "Вопросы и ответы", возможно, что его отключил администратор клиента. 
 
 ![Поле "Вопросы и ответы" с указанным типом визуализации](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Визуализации в Power BI](power-bi-report-visualizations.md)    
 [THE RIGHT VISUAL REFERENCE FOR POWER BI - MAY 2017](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (Правильные визуальные объекты для Power BI. Май 2017 г.)
+
