@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5cc566798d53a29ef1f205c34d7e97d9331a164d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8959e703da2587b7633df4313606bdb11a8c983b
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347983"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407501"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Подключение к данным Azure Consumption Insights в Power BI Desktop
 
@@ -184,7 +184,7 @@ Azure Consumption Insights позволяет подключиться к уче
 | --- | --- | --- | --- |
 | AccountName |accountName |Имя учетной записи |Нет |
 | AccountId |accountId | |Да |
-| AcccountOwnerId |accountOwnerEmail |AccountOwnerId |Нет |
+| AccountOwnerId |accountOwnerEmail |AccountOwnerId |Нет |
 | AdditionalInfo |additionalInfo |AdditionalInfo |Нет |
 | AdditionalInfold | | |Да |
 | Consumed Quantity |consumedQuantity |Consumed Quantity |Нет |

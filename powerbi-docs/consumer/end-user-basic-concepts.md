@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377158"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561996"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Основные понятия для потребителей службы Power BI
 
@@ -116,7 +116,7 @@ _______________________________________________________
 
    ![Снимок экрана: восемь примеров визуальных элементов.](media/end-user-basic-concepts/power-bi-visuals.png)
 
-См. [полный список визуализаций, включенных в Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
+См. [полный список визуализаций, включенных в Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 Доступны также визуальные элементы сообщества, которые называются *визуальными элементами Power BI*. Если вы получите отчет с незнакомым визуальным элементом, скорее всего, это будет пользовательский визуальный элемент. Если вам нужна помощь в интерпретации пользовательского визуального элемента, найдите имя *конструктора* отчета или панели мониторинга и свяжитесь с ним.
 

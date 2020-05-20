@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292922"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563294"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Использование DirectQuery в Power BI
 
@@ -371,7 +371,7 @@ Power BI подключается к большому количеству ра�
 
 Внутри этой папки есть папка *\\Данные*. В этой папке находится файл трассировки *FlightRecorderCurrent.trc* для текущего сеанса Power BI. Соответствующая папка рабочей области удаляется по завершении связанного сеанса Power BI Desktop.
 
-Файлы трассировки можно читать с помощью инструмента *SQL Server Profiler*. Получите его бесплатно, загрузив [SQL Server Management Studio (SSMS)](https://msdn.microsoft.com/library/mt238290.aspx).
+Файлы трассировки можно читать с помощью инструмента *SQL Server Profiler*. Получите его бесплатно, загрузив [SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).
 
 После скачивания и установки SQL Server Management Studio запустите SQL Server Profiler.
 

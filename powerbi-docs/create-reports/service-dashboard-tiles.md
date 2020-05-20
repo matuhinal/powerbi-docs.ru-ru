@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348926"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561669"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Общие сведения о плитках панели мониторинга для разработчиков Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "83348926"
 
 ![Панель мониторинга Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. На мобильных устройствах панели мониторинга создавать нельзя, но можно [просматривать и предоставлять к ним доступ]../consumer/mobile/mobile-apps-view-dashboard.md).
+Информационные панели и плитки информационной панели — это компоненты службы Power BI, а не Power BI Desktop. Нельзя создавать панели мониторинга на мобильных устройствах, однако их можно на них [просматривать и предоставлять к ним доступ](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 Помимо закрепления плиток, можно создавать автономные плитки непосредственно на панели мониторинга с помощью элемента управления [Добавить плитку](service-dashboard-add-widget.md). Автономные плитки содержат следующие данные: текстовые поля, изображения, видео, потоковую передачу данных и веб-содержимое.
 
@@ -98,6 +98,6 @@ ms.locfileid: "83348926"
 - [Обновление данных в Power BI](../connect-data/refresh-data.md)
 - [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)
 - [Интеграция плиток Power BI с документами Office](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Закрепление элементов Reporting Services на панелях мониторинга в Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Закрепление элементов Reporting Services на панелях мониторинга в Power BI](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079676"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561508"
 ---
 # <a name="dataset-properties"></a>Свойства набора данных
 
@@ -46,8 +46,8 @@ isHidden     | Boolean        | Если это свойство имеет зн
 Имя  |Тип  |Описание  |Только для чтения  |Требуется
 ---------|---------|---------|---------|---------
 имя     |  String        | Определяемое пользователем имя столбца.        |  False       | Да       
-dataType     |  String       |  Поддерживаемые [типы данных EDM](https://msdn.microsoft.com/library/ee382832.aspx) и ограничения. См. раздел [Ограничения типов данных](#data-type-restrictions).      |  False       | Да        
-formatString     | String        | Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
+dataType     |  String       |  Поддерживаемые [типы данных EDM](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) и ограничения. См. раздел [Ограничения типов данных](#data-type-restrictions).      |  False       | Да        
+formatString     | String        | Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).      | False        | False        
 sortByColumn    | String        |   Строка, представляющая собой название столбца в той же таблице, который нужно использовать для сортировки текущего столбца.     | False        | False       
 dataCategory     | String        |  Строковое значение, которое следует использовать в качестве категории данных, описывающей данные в столбце. Вот несколько типичных значений: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | False        
 isHidden    |  Boolean       |  Свойство, указывающее, является ли столбец скрытым. Значение по умолчанию — False.       | False        | False        
@@ -59,7 +59,7 @@ summarizeBy     | String        |  Метод агрегирования по у
 ---------|---------|---------|---------|---------
 имя     | String        |  Определяемое пользователем имя меры.       |  False       | Да        
 expression     | String        | Допустимое выражение DAX.        | False        |  Да       
-formatString     | String        |  Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
+formatString     | String        |  Строка, описывающая формат отображаемого значения. Сведения о форматах строк см. в разделе [Содержимое FORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).       | False        | False        
 isHidden     | String        |  Если это свойство имеет значение true, таблица скрыта в клиентских средствах.       |  False       | False       
 
 ## <a name="relationship"></a>Связь
