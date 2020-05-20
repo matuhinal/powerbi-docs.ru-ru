@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308953"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565353"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Управление своим источником данных — службы Analysis Services
 
@@ -54,9 +54,9 @@ ms.locfileid: "83308953"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-Каждый раз, когда пользователь взаимодействует с отчетом, подключенным к службам Analysis Services, действующее имя пользователя передается в шлюз, а затем на локальный сервер служб Analysis Services. В качестве имени пользователя в службы Analysis Services передается адрес электронной почты, с которым вы вошли в Power BI. Для его передачи используется свойство подключения [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). 
+Каждый раз, когда пользователь взаимодействует с отчетом, подключенным к службам Analysis Services, действующее имя пользователя передается в шлюз, а затем на локальный сервер служб Analysis Services. В качестве имени пользователя в службы Analysis Services передается адрес электронной почты, с которым вы вошли в Power BI. Для его передачи используется свойство подключения [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth). 
 
-Этот адрес электронной почты должен совпадать с именем участника-пользователя, определенным в локальном домене Active Directory. Имя участника-пользователя является свойством учетной записи Active Directory. Соответствующая учетная запись Windows должна присутствовать в роли Analysis Services. Если совпадение в Active Directory не обнаружено, выполнить вход не удастся. Дополнительные сведения об Active Directory и именовании пользователей см. в статье [Атрибуты именования пользователей](https://msdn.microsoft.com/library/ms677605.aspx).
+Этот адрес электронной почты должен совпадать с именем участника-пользователя, определенным в локальном домене Active Directory. Имя участника-пользователя является свойством учетной записи Active Directory. Соответствующая учетная запись Windows должна присутствовать в роли Analysis Services. Если совпадение в Active Directory не обнаружено, выполнить вход не удастся. Дополнительные сведения об Active Directory и именовании пользователей см. в статье [Атрибуты именования пользователей](/windows/win32/ad/naming-properties).
 
 Также можно [сопоставить имя для входа Power BI с именем участника-пользователя локального каталога](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources).
 
@@ -203,7 +203,7 @@ ms.locfileid: "83308953"
 - ролями, к которым относится его учетная запись пользователя Windows;
 - параметрами динамической безопасности на уровне строк, если они настроены.
 
-Реализация безопасности на основе ролей и динамической безопасности на уровне строк в моделях в этой статье не рассматривается. Дополнительные сведения см. в статьях [Роли (табличные службы SSAS)](https://msdn.microsoft.com/library/hh213165.aspx) и [Роли безопасности (службы Analysis Services — многомерные данные)](https://msdn.microsoft.com/library/ms174840.aspx) на сайте MSDN. Чтобы максимально полно разобраться в безопасности табличной модели, скачайте и прочтите технический документ [Безопасность в табличной семантической модели бизнес-аналитики](https://msdn.microsoft.com/library/jj127437.aspx).
+Реализация безопасности на основе ролей и динамической безопасности на уровне строк в моделях в этой статье не рассматривается. Дополнительные сведения см. в статьях [Роли (табличные службы SSAS)](/analysis-services/tabular-models/roles-ssas-tabular) и [Роли безопасности (службы Analysis Services — многомерные данные)](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data) на сайте MSDN. Чтобы максимально полно разобраться в безопасности табличной модели, скачайте и прочтите технический документ [Безопасность в табличной семантической модели бизнес-аналитики](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
 ## <a name="what-about-azure-ad"></a>Что насчет Azure AD?
 

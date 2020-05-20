@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348857"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564559"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Общие сведения о панелях мониторинга для разработчиков Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "83348857"
 
 ![Панель мониторинга](media/service-dashboards/power-bi-dashboard2.png)
 
-Панели мониторинга — это компонент только службы Power BI. Они недоступны в приложении Power BI Desktop. На мобильных устройствах панели мониторинга создавать нельзя, но можно [просматривать и предоставлять к ним доступ]../consumer/mobile/mobile-apps-view-dashboard.md).
+Панели мониторинга — это компонент только службы Power BI. Они недоступны в приложении Power BI Desktop. Тем не менее нельзя создавать панели мониторинга на мобильных устройствах, однако их можно на них [просматривать и предоставлять к ним доступ](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 ## <a name="dashboard-basics"></a>Основные сведения о панелях мониторинга 
 

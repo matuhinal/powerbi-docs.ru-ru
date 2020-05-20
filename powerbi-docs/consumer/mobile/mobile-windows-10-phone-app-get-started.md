@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349363"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565702"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне. Вы получаете доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -118,8 +118,8 @@ ms.locfileid: "83349363"
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Мобильные отчеты и ключевые показатели эффективности Reporting Services
 * [Просматривайте ключевые показатели эффективности и мобильные отчеты Reporting Services](mobile-app-windows-10-ssrs-kpis-mobile-reports.md) в приложении Power BI для Windows 10.
-* Создавайте [ключевые показатели эффективности на веб-портале Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx).
-* [Создание собственных мобильных отчетов с помощью приложения SQL Server Mobile Report Publisher](https://msdn.microsoft.com/library/mt652547.aspx) и их публикация на веб-портале Reporting Services.
+* Создавайте [ключевые показатели эффективности на веб-портале Reporting Services](/sql/reporting-services/working-with-kpis-in-reporting-services).
+* [Создание собственных мобильных отчетов с помощью приложения SQL Server Mobile Report Publisher](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) и их публикация на веб-портале Reporting Services.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Скачайте приложение Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) из Магазина Windows.  

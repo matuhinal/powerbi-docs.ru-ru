@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273530"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565130"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Просмотр отчетов Power BI, оптимизированных для телефона
 
@@ -60,7 +60,7 @@ ms.locfileid: "83273530"
 
 * В отчете для телефона коснитесь многоточия ( **...** ) в правом верхнем углу визуального элемента и выберите пункт **Развернуть в режиме фокуса**.
   
-    ![Развернуть в режиме фокусировки](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Развернуть в режиме фокусировки](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 Все, что вы делаете в режиме фокусировки, переносится на холст отчета, и наоборот. Например, если вы выделяете значение в визуальном элементе, а затем возвращаетесь в отчет, он будет отфильтрован по значению, выделенному в визуальном элементе.
 
@@ -72,7 +72,7 @@ ms.locfileid: "83273530"
   
     Чтобы очистить все действия просмотра из визуального элемента, коснитесь многоточия ( **...** ) и выберите **Отменить изменения**.
   
-    ![Возврат](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Возврат](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     Отмена изменений доступна на уровне отчета, при этом очищаются действия просмотра во всех визуальных элементах или в выбранном элементе.   
 
@@ -86,14 +86,14 @@ ms.locfileid: "83273530"
 2. Отобразится подсказка, и если иерархия определена, то в нижнем колонтитуле подсказки будет отображаться стрелка детализации и обобщения.
 3. Касание стрелки вниз для детализации
 
-    ![Касание элемента детализации](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Касание элемента детализации](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Коснитесь стрелки вверх для обобщения.
 
 ### <a name="drill-to-next-level"></a>Детализация до следующего уровня
 1. В отчете для телефона коснитесь многоточия ( **...** ) в правом верхнем углу визуального элемента и выберите **Развернуть в режиме фокуса**.
    
-    ![Развернуть в режиме фокусировки](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Развернуть в режиме фокусировки](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     В этом примере в полосах отображаются значения состояний.
 2. Коснитесь значка просмотра ![Значок просмотра](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) в нижнем левом углу.
@@ -111,7 +111,7 @@ ms.locfileid: "83273530"
     ![Значения, по-прежнему раскрытые до нижнего уровня](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Чтобы вернуться к исходному уровню, коснитесь многоточия ( **...** ), а затем выберите **Отменить изменения**.
    
-    ![Возврат](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Возврат](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Детализация из значения
 Детализация соединяет значения на одной странице отчета с другими страницами отчета. При детализации из точки данных на другую страницу отчета значения точек данных используются для фильтрации детализируемой страницы либо обработка осуществляется в контексте выбранных данных.
@@ -121,11 +121,11 @@ ms.locfileid: "83273530"
 2. Отобразится подсказка, и если детализация определена, то в нижнем колонтитуле подсказки будет отображаться стрелка детализации.
 3. Касание стрелки для детализации
 
-    ![Касание элемента детализации](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Касание элемента детализации](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Выбор страницы отчета для детализации
 
-    ![Выбрать страницу отчета](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Выбрать страницу отчета](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Используйте кнопку "Назад" в заголовке приложения, чтобы вернуться на страницу, с которой вы начали.
 
@@ -133,5 +133,5 @@ ms.locfileid: "83273530"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание отчетов, оптимизированных для мобильных приложений Power BI](../../create-reports/desktop-create-phone-report.md)
 * [Создание представления панели мониторинга для телефонов в Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Оптимизация визуальных элементов для любого размера](../../visuals/desktop-create-responsive-visuals.md)
+* [Оптимизация визуальных элементов для любого размера](../../visuals/power-bi-report-visualizations.md)
 * Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

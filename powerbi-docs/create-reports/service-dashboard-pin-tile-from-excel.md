@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3f3b5f8967890a3bb0cda3464b8d122d40938f62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322017"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565794"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Закрепление плитки на панели мониторинга Power BI из книги Excel
 Прежде чем можно будет закрепить плитку из книги Excel, эту книгу необходимо подключить к службе Power BI (app.powerbi.com). При подключении книги ее связанная доступная только для чтения версия добавляется в службу Power BI, что дает возможность закреплять диапазоны ячеек на панелях мониторинга. На панели мониторинга можно закрепить даже целый лист.  
@@ -80,7 +80,7 @@ ms.locfileid: "83322017"
  ![видео](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
-Не поддерживаются следующие функции: Power BI использует службы Excel для извлечения плиток книги. Таким образом, из-за того, что некоторые функции Excel не поддерживаются в REST API служб Excel, эти функции не будут отображаться на плитках в Power BI. К таким функциям относятся, например, спарклайны, условное форматирование набора значков и срезы времени. Полный список неподдерживаемых функций см. в статье [Неподдерживаемые компоненты API REST служб Excel](https://msdn.microsoft.com/library/office/ff394477.aspx).
+Не поддерживаются следующие функции: Power BI использует службы Excel для извлечения плиток книги. Таким образом, из-за того, что некоторые функции Excel не поддерживаются в REST API служб Excel, эти функции не будут отображаться на плитках в Power BI. К таким функциям относятся, например, спарклайны, условное форматирование набора значков и срезы времени. Полный список неподдерживаемых функций см. в статье [Неподдерживаемые компоненты API REST служб Excel](/sharepoint/dev/general-development/unsupported-features-in-excel-services-rest-api).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Общий доступ к панели мониторинга, содержащей ссылки на книгу Excel](../collaborate-share/service-share-dashboard-that-links-to-excel-onedrive.md)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314864"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565817"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Оптимизация панели мониторинга для мобильных телефонов — Power BI 
 Когда вы просматриваете панели мониторинга в книжной ориентации на телефоне, плитки отображаются одна за другой и имеют одинаковый размер. В службе Power BI можно создать настраиваемое представление для панели мониторинга, в частности, для ее просмотра в книжной ориентации на телефонах. Даже если вы создали представление для телефонов, при повороте телефона набок вы увидите панель мониторинга так, как она отображается в службе.
@@ -57,5 +57,5 @@ ms.locfileid: "83314864"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание отчетов, оптимизированных для мобильных приложений Power BI](desktop-create-phone-report.md)
-* [Оптимизация визуальных элементов для любого размера](../visuals/desktop-create-responsive-visuals.md)
+* [Оптимизация визуальных элементов для любого размера](../visuals/power-bi-report-visualizations.md)
 * У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

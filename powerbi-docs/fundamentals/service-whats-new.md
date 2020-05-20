@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361205"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566070"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -224,7 +224,7 @@ ms.locfileid: "83361205"
 
 ### <a name="june-2017"></a>Июнь 2017 г.
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) теперь предоставляется в общедоступной версии.
-* Несколько усовершенствований API для [автоматизации запланированного обновления](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [клонирования и повторной привязки отчетов](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [обновления привязок к шлюзу](https://msdn.microsoft.com/library/mt784650.aspx) и многое другое.
+* Несколько усовершенствований API для [автоматизации запланированного обновления](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [клонирования и повторной привязки отчетов](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [обновления привязок к шлюзу](/rest/api/power-bi/) и многое другое.
 * В приложения Power BI добавлены ссылки, с помощью которых с плиток панели мониторинга можно перейти к другим панелям мониторинга и отчетам.
 * [Соединитель Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) в Power BI Desktop стал общедоступным.
 * Расширения возможностей визуализации в Power BI с помощью [интерактивных визуальных элементов Power BI на базе R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).

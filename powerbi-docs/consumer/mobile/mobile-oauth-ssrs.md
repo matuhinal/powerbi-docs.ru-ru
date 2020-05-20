@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114963"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565725"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
@@ -60,7 +60,7 @@ https://fs.contoso.com
 
 Имя субъекта-службы — это уникальный идентификатор для службы, которая использует проверку подлинности Kerberos. Убедитесь, что вы указали правильное имя субъекта-службы HTTP для сервера отчетов.
 
-Руководство по настройке правильного имени субъекта-службы (SPN) для сервера отчетов см. в статье о [регистрации имени субъекта-службы (SPN) для сервера отчетов](https://msdn.microsoft.com/library/cc281382.aspx).
+Руководство по настройке правильного имени субъекта-службы (SPN) для сервера отчетов см. в статье о [регистрации имени субъекта-службы (SPN) для сервера отчетов](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server).
 
 ### <a name="enabling-negotiate-authentication"></a>Включение проверки подлинности с согласованием
 
@@ -74,7 +74,7 @@ https://fs.contoso.com
 </AuthenticationTypes>
 ```
 
-Дополнительные сведения см. в статьях об [изменении файла конфигурации Reporting Services ](https://msdn.microsoft.com/library/bb630448.aspx) и [настройке проверки подлинности Windows на сервере отчетов](https://msdn.microsoft.com/library/cc281253.aspx).
+Дополнительные сведения см. в статьях об [изменении файла конфигурации Reporting Services ](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) и [настройке проверки подлинности Windows на сервере отчетов](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Настройка служб федерации Active Directory (AD FS)
 
@@ -248,9 +248,9 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Регистрация имени субъекта-службы (SPN) для сервера отчетов](https://msdn.microsoft.com/library/cc281382.aspx)  
-[Изменение файла конфигурации служб Reporting Services](https://msdn.microsoft.com/library/bb630448.aspx)  
-[Настройка проверки подлинности Windows на сервере отчетов](https://msdn.microsoft.com/library/cc281253.aspx)  
+[Регистрация имени субъекта-службы (SPN) для сервера отчетов](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[Изменение файла конфигурации служб Reporting Services](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[Настройка проверки подлинности Windows на сервере отчетов](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Службы федерации Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Прокси-служба веб-приложения в Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Публикация приложений с помощью предварительной проверки подлинности AD FS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205672"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565176"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Краткий обзор домашней страницы мобильного приложения
 В этом обзоре вы ознакомитесь с домашней страницей мобильного приложения Power BI и доступными на ней элементами навигации для быстрого доступа.
@@ -41,7 +41,7 @@ ms.locfileid: "79205672"
 В веб-канале предоставляются следующие новости:
 * **Обновленные данные**: при обновлении базовых данных в одном из отчетов или одной из информационных панелей, включенных в избранное или список последних элементов.
 * **Новые комментарии**: когда пользователь создает комментарий в отчете или панели мониторинга, включенных в избранное или список последних элементов, или упоминает вас в комментарии.
-* **Оповещения о данных**: когда данные достигают порогового значения, установленного ранее в [оповещении о данных](../../mobile-set-data-alerts-in-the-mobile-apps.md).
+* **Оповещения о данных**: когда данные достигают порогового значения, установленного ранее в [оповещении о данных](mobile-set-data-alerts-in-the-mobile-apps.md).
 * **Обновления приложений**: когда создатель приложения публикует обновление для приложения, которым вы пользуетесь.
 
  Коснитесь элемента, чтобы перейти в соответствующее место и получить дополнительную информацию.
@@ -57,13 +57,13 @@ ms.locfileid: "79205672"
 Панель навигации обеспечивает быстрый доступ к следующим компонентам:
 
 * ![значок домашней страницы](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **Домашняя** — возврат на домашнюю страницу;
-* ![значок избранного](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Избранное** — отчеты, панели мониторинга и приложения, помеченные как [избранные](../../mobile-apps-favorites.md);
+* ![значок избранного](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Избранное** — отчеты, панели мониторинга и приложения, помеченные как [избранные](mobile-apps-favorites.md);
 * ![значок приложений](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **Приложения** — приложения, которые вы установили в своей учетной записи;
 * ![значок рабочих областей](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **Рабочие области** — рабочие папки с отчетами и панелями мониторинга, которые создают разработчики содержимого;
 * ![значок последних элементов](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **Последние** — элементы, которые вы недавно просматривали;
 * ![значок "Мне предоставлен доступ"](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **Мне предоставлен доступ** — элементы, к которым вам предоставили доступ другие пользователи;
 * ![значок примеров](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **Примеры** — примеры, которые можно использовать для освоения возможностей Power BI;
-* ![значок сканера](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Сканер** — камера устройства, которую можно использовать для сканирования [штрихкодов](../../mobile-apps-scan-barcode-iphone.md) и [QR-кодов](../../mobile-apps-qr-code.md).
+* ![значок сканера](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Сканер** — камера устройства, которую можно использовать для сканирования [штрихкодов](mobile-apps-scan-barcode-iphone.md) и [QR-кодов](mobile-apps-qr-code.md).
 
 ## <a name="header"></a>Заголовок
 
@@ -72,11 +72,11 @@ ms.locfileid: "79205672"
 ![заголовок](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 В заголовке доступны перечисленные ниже элементы навигации.
-* **Изображение профиля или аватар** — открывается боковая панель, где можно [переключаться между учетными записями службы Power BI и Сервера отчетов](../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md), а также получать доступ к параметрам мобильного приложения Power BI.
+* **Изображение профиля или аватар** — открывается боковая панель, где можно [переключаться между учетными записями службы Power BI и Сервера отчетов](mobile-app-ssrs-kpis-mobile-on-premises-reports.md), а также получать доступ к параметрам мобильного приложения Power BI.
 
     ![боковая панель](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 
-* **Уведомления** — открывается [страница уведомлений](../../mobile-apps-notification-center.md), на которой можно просматривать уведомления. О наличии новых уведомлений свидетельствует точка на значке уведомлений в виде колокольчика.
+* **Уведомления** — открывается [страница уведомлений](mobile-apps-notification-center.md), на которой можно просматривать уведомления. О наличии новых уведомлений свидетельствует точка на значке уведомлений в виде колокольчика.
 
     ![страница уведомлений](./media/mobile-apps-home-page/powerbi-mobile-app-notifications-page.png)
 
@@ -86,5 +86,5 @@ ms.locfileid: "79205672"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 В этом обзоре вы изучили домашнюю страницу мобильного приложения Power BI. Получить дополнительные сведения об использовании мобильного приложения Power BI можно в следующих ресурсах: 
-* [Изучение панелей мониторинга и отчетов](../../mobile-apps-quickstart-view-dashboard-report.md)
-* [Explore reports in the Power BI mobile apps](../../mobile-reports-in-the-mobile-apps.md) (Просмотр отчетов в мобильных приложениях Power BI)
+* [Изучение панелей мониторинга и отчетов](mobile-apps-quickstart-view-dashboard-report.md)
+* [Explore reports in the Power BI mobile apps](mobile-reports-in-the-mobile-apps.md) (Просмотр отчетов в мобильных приложениях Power BI)

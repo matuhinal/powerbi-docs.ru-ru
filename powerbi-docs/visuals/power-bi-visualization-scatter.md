@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a6ba7f171f462fe6fe0d386305c82b486db5ed4
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276842"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565033"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 
@@ -128,7 +128,7 @@ ms.locfileid: "83276842"
     > [!NOTE]
     > Чем больше точек данных, тем больше время загрузки. Если вы решите публиковать отчеты с ограничениями на верхнем уровне шкалы, постарайтесь протестировать свои отчеты как в Интернете, так и на мобильных устройствах. Необходимо убедиться, что представление графика соответствует ожиданиям пользователя.
 
-1. Вы можете форматировать цвета, метки, заголовки, фон и другие параметры визуализации. Для [улучшения доступности](../desktop-accessibility.md) рассмотрите возможность добавления меток в каждую линию. Чтобы выбрать форму метки, разверните карточку **Shapes** (Фигуры), выберите **Marker shape** (Форма метки) и выберите нужную форму.
+1. Вы можете форматировать цвета, метки, заголовки, фон и другие параметры визуализации. Для [улучшения доступности](../create-reports/desktop-accessibility-overview.md) рассмотрите возможность добавления меток в каждую линию. Чтобы выбрать форму метки, разверните карточку **Shapes** (Фигуры), выберите **Marker shape** (Форма метки) и выберите нужную форму.
 
     ![На снимке экрана отобразятся раскрывающиеся формы с параметрами формы метки.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 

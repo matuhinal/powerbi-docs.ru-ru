@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349616"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564456"
 ---
 # <a name="what-is-power-bi"></a>Что такое Power BI?
 **Power BI** — это коллекция программных служб, приложений и соединителей, которые взаимодействуют друг с другом, чтобы превратить разрозненные источники данных в согласованные, визуально иммерсивные и интерактивные аналитические данные. Ваши данные могут быть представлены в виде таблицы Excel или коллекции облачных и локальных гибридных хранилищ данных. Power BI позволяет легко подключаться к источникам данных, визуализировать и выделять наиболее важную информацию и делиться ею с отдельными или всеми пользователями.
@@ -70,6 +70,6 @@ Power BI состоит из следующих компонентов:
 См. дополнительные сведения о [сервере отчетов Power BI](../report-server/get-started.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-- [Краткое руководство: Обзор службы Power BI](../service-the-new-power-bi-experience.md)   
+- [Краткое руководство: Обзор службы Power BI](../consumer/end-user-experience.md)   
 - [Руководство. Приступая к работе со службой Power BI](service-get-started.md)
 - [Краткое руководство: Подключение к данным в Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145226"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565656"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Руководство. Создание отчета с разбивкой на страницы и его отправка в службу Power BI
 
@@ -42,7 +42,7 @@ ms.locfileid: "83145226"
 
 Ниже приведены предварительные требования для отправки отчета с разбивкой на страницы в службу Power BI.
 
-- [Лицензия Power BI Pro](../service-admin-power-bi-pro-in-your-organization.md).
+- [Лицензия Power BI Pro](../admin/service-admin-licensing-organization.md).
 - Рабочая область в службе с [емкостью Power BI Premium](../admin/service-premium-what-is.md). Такие рабочие области отмечены значком в виде бриллианта ![значок в виде бриллианта для емкости Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) рядом с именем рабочей области.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Создание матрицы с помощью мастера

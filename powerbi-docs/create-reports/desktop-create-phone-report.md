@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297982"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564753"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Оптимизация отчетов Power BI для мобильных приложений
 Вы можете сделать удобнее просмотр отчетов в мобильных приложениях, создав книжный макет. В Power BI Desktop и службе Power BI вы можете изменить расположение визуальных элементов отчета и изменить их размеры, чтобы обеспечить оптимальную работу в книжном режиме.  
@@ -58,7 +58,7 @@ ms.locfileid: "83297982"
 
 ![Изменение размера адаптивного визуального элемента](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Вы можете выбрать, следует ли включать адаптивность для каждого визуального элемента. Узнайте подробнее об [оптимизации визуальных элементов](../visuals/desktop-create-responsive-visuals.md).
+Вы можете выбрать, следует ли включать адаптивность для каждого визуального элемента. Узнайте подробнее об [оптимизации визуальных элементов](../visuals/power-bi-report-visualizations.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Рекомендации по созданию макетов для мобильных отчетов
 * Если нужно оптимизировать отчет на нескольких страницах, вы можете оптимизировать все страницы или только некоторые из них. 
@@ -108,5 +108,5 @@ Power BI автоматически обнаруживает в мобильны
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание представления панели мониторинга для телефонов в Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Просмотр отчетов Power BI, оптимизированных для телефона](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Оптимизация визуальных элементов для любого размера](../visuals/desktop-create-responsive-visuals.md).
+* [Оптимизация визуальных элементов для любого размера](../visuals/power-bi-report-visualizations.md).
 * У вас имеются и другие вопросы? [Попробуйте задать вопрос в Сообществе Power BI](https://community.powerbi.com/).
