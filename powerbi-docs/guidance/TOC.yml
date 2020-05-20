@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: Устранение неполадок производительности отчетов
               href: report-performance-troubleshoot.md
+            - name: Рекомендации по конвейерам развертывания
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: Технические документы
       items:
         - name: Обзор технической документации

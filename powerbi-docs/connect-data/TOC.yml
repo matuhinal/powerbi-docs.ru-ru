@@ -208,6 +208,8 @@
               href: refresh-data.md
             - name: Настройка запланированного обновления
               href: refresh-scheduled-refresh.md
+            - name: Центр обновления
+              href: refresh-center.md
             - name: Настройка добавочного обновления
               href: ../admin/service-premium-incremental-refresh.md
             - name: "Обновление набора данных из локального файла Power\_BI\_Desktop"
@@ -266,6 +268,8 @@
               href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
               href: service-connect-to-office365mon.md
+            - name: Метрики производительности Power BI Premium
+              href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: Project Online
               href: service-connect-to-project-online.md
             - name: QuickBooks Online
