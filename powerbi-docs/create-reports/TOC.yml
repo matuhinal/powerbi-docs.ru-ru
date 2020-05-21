@@ -257,7 +257,7 @@
               href: ../visuals/power-bi-visualization-card.md
             - name: Комбинированные диаграммы
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: Визуальные элементы дерева декомпозиции (предварительная версия)
+            - name: Визуальные элементы дерева декомпозиции
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: Кольцевые диаграммы
               href: ../visuals/power-bi-visualization-doughnut-charts.md

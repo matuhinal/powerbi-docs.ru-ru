@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: Настройка запланированного обновления
               href: refresh-scheduled-refresh.md
-            - name: Центр обновления
-              href: refresh-center.md
+            - name: Обновление сводок
+              href: refresh-summaries.md
             - name: Настройка добавочного обновления
               href: ../admin/service-premium-incremental-refresh.md
             - name: "Обновление набора данных из локального файла Power\_BI\_Desktop"

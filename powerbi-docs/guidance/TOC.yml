@@ -116,8 +116,10 @@
       items:
         - name: Обзор технической документации
           href: whitepapers.md
-        - name: Технический документ по обеспечению безопасности в Power BI
+        - name: "Технический документ по обеспечению безопасности в Power\_BI"
           href: whitepaper-powerbi-security.md
+        - name: Технический документ по развертыванию Power BI Enterprise
+          href: whitepaper-powerbi-enterprise-deployment.md
         - name: Развертывание Power BI Premium
           href: whitepaper-powerbi-premium-deployment.md
         - name: "Публикация Power\_BI для внешних пользователей с помощью Azure Active Directory\_B2B"
