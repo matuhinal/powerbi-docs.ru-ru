@@ -174,7 +174,7 @@
           items:
             - name: Использование наборов данных в рабочих областях
               href: service-datasets-across-workspaces.md
-            - name: Совместный доступ к наборам данных (предварительная версия)
+            - name: Совместный доступ к наборам данных
               href: service-datasets-share.md
             - name: Разрешение на сборку для общих наборов данных
               href: service-datasets-build-permissions.md

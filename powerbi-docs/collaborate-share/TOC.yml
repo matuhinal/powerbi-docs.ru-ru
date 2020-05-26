@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Совместная работа в классической рабочей области
               href: service-collaborate-power-bi-workspace.md
-            - name: Управление группой в Power BI и Office 365
+            - name: Управление группой в Power BI и Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Публикация и совместный доступ
           items:
@@ -71,9 +71,11 @@
           items:
             - name: Анализ в Excel
               href: service-analyze-in-excel.md
+            - name: Связанные с Power BI таблицы в Excel
+              href: service-excel-featured-tables.md
             - name: Устранение неполадок с анализом в Excel
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: Ошибка. Не найдены данные в книге Excel
+            - name: Ошибка. Нам не удалось найти данные в книге Excel
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: "Power Automate и Power\_BI"
               href: service-flow-integration.md
