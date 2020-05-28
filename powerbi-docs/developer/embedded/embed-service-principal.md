@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275968"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121212"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Внедрение содержимого Power BI с помощью субъекта-службы и секрета приложения
 
@@ -188,7 +188,6 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 * Для миграции в рабочую среду требуется выделенная емкость.
 * С помощью субъекта-службы нельзя входить на портал Power BI.
 * Для включения субъекта-службы в параметрах разработчика на портале администрирования Power BI требуются права администратора Power BI.
-* С помощью субъекта-службы нельзя установить локальный шлюз данных и управлять им.
 * [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
 * Управление [потоками данных](../../transform-model/service-dataflows-overview.md) не поддерживается.
 * Сейчас субъект-служба не поддерживает никакие API администратора.
