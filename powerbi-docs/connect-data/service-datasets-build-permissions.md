@@ -1,22 +1,22 @@
 ---
-title: Разрешение на сборку для общих наборов данных (предварительная версия)
+title: Разрешение на сборку для общих наборов данных
 description: Узнайте, как управлять доступом к данным с помощью разрешения на сборку.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285355"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793016"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>Разрешение на сборку для общих наборов данных (предварительная версия)
+# <a name="build-permission-for-shared-datasets"></a>Разрешение на сборку для общих наборов данных
 
 При создании отчета в Power BI Desktop данные в этом отчете хранятся в *модели данных*. При публикации отчетов в службе Power BI вы также публикуете данные в качестве *набора данных*. Можно предоставить другим *разрешение на сборку* для этого отчета, чтобы они могли обнаруживать и повторно использовать набор данных, к которому вы предоставили общий доступ. В этой статье рассказывается, как управлять доступом к данным с помощью разрешения на сборку.
 
@@ -107,5 +107,5 @@ ms.locfileid: "83285355"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Использование наборов данных в рабочих областях (предварительная версия)](service-datasets-across-workspaces.md)
+- [Использование наборов данных в рабочих областях](service-datasets-across-workspaces.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
