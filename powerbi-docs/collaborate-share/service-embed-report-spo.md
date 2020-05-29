@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143514"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693872"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Внедрение веб-части отчетов в SharePoint Online
 
@@ -79,7 +79,7 @@ ms.locfileid: "83143514"
 > [!IMPORTANT]
 > Обязательно проверьте, кто может просматривать отчет в службе Power BI, и предоставьте доступ пользователям, которых нет в списке.
 
-Доступ к отчету в Power BI можно предоставить двумя способами. Первый способ. Если вы используете группу Office 365 для создания сайта группы SharePoint Online, укажите пользователя как участника **рабочей области в службе Power BI** и на **странице SharePoint**. Дополнительные сведения см. в статье об [управлении рабочей областью](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Доступ к отчету в Power BI можно предоставить двумя способами. Первый способ. Если вы используете группу Microsoft 365 для создания сайта группы SharePoint Online, укажите пользователя как участника **рабочей области в службе Power BI** и на **странице SharePoint**. Дополнительные сведения см. в статье об [управлении рабочей областью](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 Второй способ. Можно внедрить отчет в приложение и поделиться им с пользователями напрямую.  
 
@@ -157,7 +157,7 @@ ms.locfileid: "83143514"
 
 * Power BI не поддерживает те же языки с локализацией, что и SharePoint Online. В результате во внедренном отчете требуемая локализация может не отображаться.
 
-* При использовании Internet Explorer 10 могут возникнуть проблемы. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* При использовании Internet Explorer 10 могут возникнуть проблемы. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * Веб-часть Power BI недоступна в [национальных облаках](https://powerbi.microsoft.com/clouds/).
 

@@ -5,22 +5,22 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28353ec6d0b2f8a1f83544d63526748c621cb858
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435382"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694097"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Просмотр локальных отчетов и КПЭ в приложении Power BI для Windows
 Приложение Power BI для Windows 10 обеспечивает доступ в режиме реального времени к важнейшей бизнес-информации в Reporting Services SQL Server 2016. 
 
-![Мобильные отчеты Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
+![Мобильные отчеты Reporting Services](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>Начните с главного
-Вы можете [создавать мобильные отчеты Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) при помощи издателя мобильных отчетов для SQL Server 2016 Enterprise Edition и публиковать их на [веб-портале служб Reporting Services](https://msdn.microsoft.com/library/mt637133.aspx). Создавайте ключевые показатели эффективности прямо на веб-портале. Объединяйте их в папки и добавляйте в избранное, чтобы легко находить. 
+Вы можете [создавать мобильные отчеты Reporting Services](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) при помощи издателя мобильных отчетов для SQL Server 2016 Enterprise Edition и публиковать их на [веб-портале служб Reporting Services](/sql/reporting-services/web-portal-ssrs-native-mode). Создавайте ключевые показатели эффективности прямо на веб-портале. Объединяйте их в папки и добавляйте в избранное, чтобы легко находить. 
 
 В приложении Power BI для Windows 10 КПЭ, мобильные отчеты и отчеты Power BI отображаются в папках или в списке избранного. 
 
@@ -34,18 +34,18 @@ ms.locfileid: "79435382"
 Ознакомиться с функциями мобильных отчетов Reporting Services можно даже в отсутствие доступа к веб-порталу Reporting Services.
 
 1. Откройте приложение Power BI на устройстве Windows 10.
-2. Коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) в левом верхнем углу.
-3. Коснитесь значка **Параметры**![Значок "Параметры"](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), щелкните правой кнопкой мыши или нажмите и удерживайте элемент **Подключение к серверу**, а затем выберите команду **Просмотреть примеры**.
+2. Коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) в левом верхнем углу.
+3. Коснитесь значка **Параметры**![Значок "Параметры"](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), щелкните правой кнопкой мыши или нажмите и удерживайте элемент **Подключение к серверу**, а затем выберите команду **Просмотреть примеры**.
    
-   ![Просмотр примеров SSRS](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
+   ![Просмотр примеров SSRS](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. Откройте папку отчетов по розничным продажам или отчетов по сбыту и изучите ключевые показатели эффективности и мобильные отчеты.
    
-   ![Примеры ключевых показателей эффективности и мобильных отчетов](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-ssrs-sample-kpis.png)
+   ![Примеры ключевых показателей эффективности и мобильных отчетов](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-ssrs-sample-kpis.png)
 
 Просмотрите примеры и изучите ключевые показатели эффективности и мобильные отчеты.
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Подключение к серверу отчетов Reporting Services
-1. В нижней части области навигации выберите **Параметры** ![Значок параметров](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. В нижней части области навигации выберите **Параметры** ![Значок параметров](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
 2. Выберите **Подключение к серверу**.
 3. Введите адрес сервера, имя пользователя и пароль. Используйте следующий формат для адреса сервера:
    
@@ -61,30 +61,33 @@ ms.locfileid: "79435382"
    
    Новый сервер появится в области навигации.
    
-   ![Сервер в области навигации](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![Сервер в области навигации](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
-   >С помощью кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) вы можете в любой момент переключиться между мобильными отчетами Reporting Services и панелями мониторинга в службе Power BI. 
+   >С помощью кнопки глобальной навигации ![Кнопка глобальной навигации](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) вы можете в любой момент переключиться между мобильными отчетами Reporting Services и панелями мониторинга в службе Power BI. 
    > 
+
+   >[!NOTE]
+   >Серверы отчетов, настроенные с использованием настраиваемых портов, не поддерживаются и недоступны из приложения Power BI для Windows. 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>Просмотр ключевых показателей эффективности и мобильных отчетов Reporting Services в приложении Power BI
 Отчеты Power BI (предварительная версия), КПЭ и мобильные отчеты Reporting Services отображаются в тех же папках, в которых они расположены на веб-портале служб Reporting Services.
 
-![Папки отчетов](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
+![Папки отчетов](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
 * Выберите ключевой показатель эффективности, чтобы просмотреть его в режиме фокуса.
   
-    ![Ключевой показатель эффективности в режиме фокусировки](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* Нажмите мобильный отчет, чтобы открыть его и поработать с ним в приложении Power BI.
+    ![Ключевой показатель эффективности в режиме фокусировки](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
+* Выберите мобильный отчет, чтобы открыть его в приложении Power BI, где с ним можно взаимодействовать.
   
-    ![Мобильный отчет Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
+    ![Мобильный отчет Reporting Services](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>Просмотр избранных ключевых показателей эффективности и отчетов
 На веб-портале Reporting Services КПЭ, мобильные отчеты и отчеты Power BI можно отметить как избранные и удобно просматривать на устройстве с Windows 10 в одной папке вместе с избранными панелями мониторинга и отчетами Power BI.
 
 * Выберите **Избранное**.
   
-   ![Значок "Избранное"](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-favorite-menu.png)
+   ![Значок "Избранное"](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-favorite-menu.png)
   
    Все, чтобы вы добавили в избранное на веб-портале, отобразиться на этой странице.
   
@@ -93,20 +96,19 @@ ms.locfileid: "79435382"
 ## <a name="remove-a-connection-to-a-report-server"></a>Удаление подключения к серверу отчетов
 В приложении для iPhone в каждый момент времени может быть установлено подключение только к одному серверу отчетов. Чтобы подключиться к другому серверу, необходимо разорвать соединение с текущим.
 
-1. В нижней части области навигации выберите **Параметры** ![Значок параметров](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. В нижней части области навигации выберите **Параметры** ![Значок параметров](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
 2. Нажмите и удерживайте имя сервера, с которым хотите разорвать соединение.
 3. Коснитесь пункта **Удалить сервер**.
    
-    ![Удаление сервера](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
+    ![Удалить сервер](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
 ## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Создание мобильных отчетов и ключевых показателей эффективности Reporting Services
 Ключевые показателей эффективности и мобильные отчеты Reporting Services не создаются в приложении Power BI. Для их создания используются приложение SQL Server Mobile Report Publisher и веб-портал служб SQL Server 2016 Reporting Services.
 
-* Вы можете [создавать собственные мобильные отчеты](https://msdn.microsoft.com/library/mt652547.aspx) и публиковать их на веб-портале Reporting Services.
-* Создание [ключевых показателей эффективности на веб-портале Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)
+* Вы можете [создавать собственные мобильные отчеты](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) и публиковать их на веб-портале Reporting Services.
+* Создание [ключевых показателей эффективности на веб-портале Reporting Services](/sql/reporting-services/working-with-kpis-in-reporting-services)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)  
+* [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)  
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

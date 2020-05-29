@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867123"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407589"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Разрешите пользователям персонализировать визуальные элементы в отчете
 
@@ -26,7 +26,7 @@ ms.locfileid: "82867123"
  
 ## <a name="what-report-consumers-can-change"></a>Какие отчеты пользователи могут изменить
 
-Эта функция позволяет потребителям получать новые представления данных за счет возможности изменения визуальных элементов в отчете Power BI по запросу. Эта функция идеально подходит для создателей отчетов, которые хотят включить базовые сценарии просмотра для читателей отчетов. Ниже приведены изменения, которые могут быть внесены читателями отчетов.
+Эта функция позволяет потребителям получать новые представления данных за счет возможности изменения визуальных элементов в отчете Power BI по запросу. Сведения об использовании этой функции в качестве потребителя см. в разделе [Персонализация визуальных элементов в отчетах](../consumer/end-user-personalize-visuals.md). Эта функция идеально подходит для создателей отчетов, которые хотят включить базовые сценарии просмотра для читателей отчетов. Ниже приведены изменения, которые могут быть внесены читателями отчетов.
 
 - Изменение типа визуализации
 - Замена единицы меры или измерения
@@ -84,69 +84,6 @@ ms.locfileid: "82867123"
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Ползунок Персонализировать визуальный элемент в положении вкл. или выкл.":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>Персонализация визуальных элементов в службе Power BI
-
-Благодаря персонализации визуального элемента пользователи могут просматривать данные различными способами, не выходя из режима чтения отчетов. В следующих примерах показаны различные способы изменения визуализации для удовлетворения запросов пользователей. 
-
-1. Откройте отчет в режиме чтения или правки в службе Power BI.
-
-2. В правом верхнем углу визуального элемента выберите **Персонализировать этот визуальный элемент** значок ![Персонализировать этот визуальный значок](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png). 
-
-### <a name="change-the-visualization-type"></a>Изменение типа визуализации
-
-Визуализацию можно просмотреть в другом представлении, изменив **Тип визуализации**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Изменение типа визуализации":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>Замена единицы меры или измерения
-Можно заменить единицу меры или измерения на оси X, выбрав поле, которое необходимо заменить, а затем выбрав другую единицу меры или измерения.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Изменение оси":::
- 
-### <a name="add-or-remove-a-legend"></a>Добавление или удаление подписи
-Добавляя условные обозначения, можно цветом выделить категорию визуального элемента. Можно исключить цветовую кодировку категории, сняв флажок **Условные обозначения** в области **Персонализация**. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Добавление или удаление подписи":::
-
-### <a name="compare-two-or-more-different-measures"></a>Сравнение двух и более единиц измерения
-Можно сравнивать и противопоставлять значения для различных единиц измерения, используя значок "+" для добавления нескольких единиц измерения для визуального элемента.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Сравнение единиц измерения":::
-
-### <a name="change-aggregations"></a>Изменение агрегаций
-Способ вычисления измерения можно изменить, поменяв агрегирование в области **Персонализация**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Изменение агрегаций":::
-
-### <a name="capture-changes"></a>Фиксация изменений 
-Используя личные закладки, запишите свои изменения, чтобы вы могли вернуться к персонализированному представлению. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Создание закладки":::
- 
-Можно также сделать закладку представлением по умолчанию.
-
-### <a name="share-changes"></a>Общий доступ к изменениям 
-Если у вас есть разрешения на чтение и повторное предоставление общего доступа, то при совместном использовании отчета можно выбрать включение изменений.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Общий доступ к изменениям":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>Сброс всех изменений отчета
-
-Выберите **Восстановить по умолчанию**, чтобы удалить все изменения в отчете и вернуться к последнему сохраненному представлению автора отчета.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Сброс всех изменений":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>Сброс всех изменений визуального элемента
-
-Выберите **Восстановить визуальный элемент**, чтобы удалить все изменения в визуальном элементе и вернуться к последнему сохраненному представлению автора визуального элемента.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Сброс всех изменений визуального элемента":::
- 
-### <a name="clear-recent-changes"></a>Очистить недавние изменения
-
-Щелкните значок ластика, чтобы очистить все последние изменения, внесенные после открытия панели **Персонализация**.  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Вернуть недавние изменения":::
 
 ## <a name="limitations-and-known-issues"></a>Ограничения и известные проблемы
 
@@ -164,7 +101,8 @@ ms.locfileid: "82867123"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
+[Персонализация визуальных элементов в отчетах](../consumer/end-user-personalize-visuals.md).     
+
 Попробуйте новые возможности визуальной персонализации. Оставьте нам свой отзыв об этой возможности, а также идеи относительно того, как мы можем оптимизировать ее на [веб-сайте "Идеи по улучшению Power BI"](https://ideas.powerbi.com/forums/265200-power-bi). 
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
-

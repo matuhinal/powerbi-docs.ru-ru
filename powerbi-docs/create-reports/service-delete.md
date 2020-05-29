@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304560"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565679"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Удаление содержимого в службе Power BI
 В этой статье показано, как удалять панели мониторинга, отчеты, книги, наборы данных, приложения, визуализации и рабочие области в службе Power BI.
@@ -82,7 +82,7 @@ ms.locfileid: "83304560"
 
 ## <a name="delete-a-workspace"></a>Удаление рабочей области
 > [!WARNING]
-> При создании рабочей области создается группа Office 365. При удалении рабочей области группа Office 365 также удаляется. Это значит, что группы будут удалены и из других продуктов Office 365, таких как SharePoint и Microsoft Teams.
+> При создании рабочей области создается группа Microsoft 365. При удалении рабочей области группа Microsoft 365 также удаляется. Это значит, что группы будут удалены и из других продуктов Microsoft 365, таких как SharePoint и Microsoft Teams.
 >
 >
 

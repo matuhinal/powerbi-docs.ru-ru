@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143906"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693892"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Внедрение отчетов в Microsoft Teams с помощью вкладки Power BI
 
@@ -28,11 +28,12 @@ ms.locfileid: "83143906"
 - У пользователей должна быть лицензия Power BI Pro, либо отчет должен находиться в [емкости Power BI Premium (номер SKU EM или P)](../admin/service-premium-what-is.md) с лицензией Power BI.
 - В Microsoft Teams должна быть вкладка Power BI.
 - Пользователи выполнили вход в службу Power BI и активировали свою лицензию Power BI Для работы с отчетом.
-- У пользователей должно быть разрешение на просмотр отчета.
+- Чтобы добавить отчет в Microsoft Teams на вкладке Power BI, необходимо иметь по крайней мере роль просматривающего в рабочей области, в которой размещается отчет. Сведения о разных ролях см. в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
+- Чтобы просмотреть отчет на вкладке Power BI в Microsoft Teams, пользователи должны иметь разрешение на просмотр отчета.
 
 Кроме того, для **предварительного просмотра ссылок** должны выполняться указанные ниже условия.
 - Пользователи должны соответствовать требованиям для использования вкладки Power BI для Microsoft Teams.
-- Пользователи выполнили вход в службу-бот Power BI. 
+- Пользователи выполнили вход в службу Power BI. 
 
 
 ## <a name="embed-your-report"></a>Внедрение отчета
@@ -90,12 +91,12 @@ ms.locfileid: "83143906"
 
 ## <a name="grant-access-to-reports"></a>Предоставление доступа к отчетам
 
-При внедрении отчета в Microsoft Teams или отправке ссылки на элемент разрешение на просмотр отчета не предоставляется пользователям автоматически — вам нужно [разрешить пользователям просматривать отчет в Power BI](service-share-dashboards.md). Чтобы упростить эту задачу, можно воспользоваться группой Office 365. 
+При внедрении отчета в Microsoft Teams или отправке ссылки на элемент разрешение на просмотр отчета не предоставляется пользователям автоматически — вам нужно [разрешить пользователям просматривать отчет в Power BI](service-share-dashboards.md). Чтобы упростить эту задачу, можно воспользоваться группой Microsoft 365.
 
 > [!IMPORTANT]
 > Обязательно проверьте, кто может просматривать отчет в службе Power BI, и предоставьте доступ пользователям, которых нет в списке.
 
-Один из способов обеспечить доступ всех членов команды к отчетам — поместить отчеты в одну рабочую область в Power BI и предоставить группе Office 365 вашей команды доступ к ней.
+Один из способов обеспечить доступ всех членов команды к отчетам — поместить отчеты в одну рабочую область в Power BI и предоставить группе Microsoft 365 вашей команды доступ к ней.
 
 ## <a name="link-previews"></a>Предварительный просмотр ссылок 
 
@@ -123,7 +124,7 @@ ms.locfileid: "83143906"
 - Power BI не поддерживает те же языки с локализацией, что и Microsoft Teams. В результате во внедренном отчете требуемая локализация может не отображаться.
 - Панели мониторинга Power BI невозможно внедрить на вкладку Power BI для Microsoft Teams.
 - Пользователи, у которых нет лицензии Power BI или разрешения на доступ к отчету, видят сообщение "Содержимое недоступно".
-- При использовании Internet Explorer 10 могут возникнуть проблемы. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- При использовании Internet Explorer 10 могут возникнуть проблемы. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [Фильтры URL-адресов](service-url-filters.md) не поддерживаются на вкладке Power BI для Microsoft Teams.
 - В национальных облаках новая вкладка Power BI недоступна. Может быть доступна прежняя версия, которая не поддерживает новый интерфейс рабочих областей и отчеты в приложениях Power BI. 
 - После сохранения вкладки ее имя невозможно изменить в параметрах вкладки. Чтобы изменить его, используйте команду "Переименовать".

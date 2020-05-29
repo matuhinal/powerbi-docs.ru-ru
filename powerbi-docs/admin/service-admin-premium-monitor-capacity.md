@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137681"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564354"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Мониторинг емкостей Premium в приложении
 
 Отслеживание емкостей очень важно для принятия обоснованных решений в отношении оптимального использования ресурсов емкости Premium. Вы можете контролировать емкость на портале администрирования или с помощью приложения **Power BI Premium Capacity Metrics**. В этой статье описывается приложение Premium Capacity Metrics. Оно предоставляет наиболее полные сведения об эффективности использования емкостей. Общее представление о средних значениях метрик использования за последние семь дней можно получить на портале администрирования. Дополнительные сведения о мониторинге на портале см. в статье [Мониторинг емкостей категории "Премиум" на портале администрирования](service-admin-premium-monitor-portal.md).
 
-В приложение регулярно добавляются новые возможности и функции. Убедитесь в том, что вы используете последнюю версию. Если у вас установлена предыдущая версия приложения, лучше всего удалить ее, а затем нажать клавиши CTRL+F5, чтобы выполнить обновление.
+В приложение регулярно добавляются новые возможности и функции. Убедитесь в том, что вы используете последнюю версию. Если доступна новая версия, вы получите соответствующее [уведомление](../connect-data/service-template-apps-install-distribute.md#update-a-template-app).
 
 > [!IMPORTANT]
 > Если емкость Power BI Premium подвергается большой нагрузке, из-за которой могут возникать проблемы с производительностью или надежностью, вы можете получать по электронной почте уведомления, чтобы устранять эти проблемы. Это может упростить устранение неполадок, связанных с перегрузкой емкостей. Дополнительные сведения см. в статье [Уведомления о емкости и надежности](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="install-the-app"></a>Установка приложения
 
-Вы можете перейти к [приложению Premium Capacity Metrics](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) или установить его так же, как и другие приложения в Power BI.
-
-1. В Power BI щелкните **Приложения**.
-
-    ![Переход к приложениям](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. Справа щелкните **Получить приложения**.
-3. В категории **Приложения** найдите приложение **Power BI Premium Capacity Metrics**.
-4. Подпишитесь, чтобы установить приложение.
-
-Немного подождите. Установка и обновление метрик занимает несколько минут. Если в приложении отображаются пустые метрики, нажмите клавишу F5, чтобы обновить страницу в браузере.
+Сведения о том, как установить приложение и подключиться к данным, см. в разделе [Подключение к Power BI Premium Capacity Metrics](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md). Кроме того, можно [перейти непосредственно к приложению](https://go.microsoft.com/fwlink/?linkid=2114036).
 
 ## <a name="get-app-refresh-history"></a>Получение журнала обновления приложения
 
-Чтобы узнать, когда в последний раз обновлялось приложение Premium Capacity Metrics, последовательно выберите **Параметры** > **Наборы данных** > **Power BI Premium Capacity Metrics** > **Журнал обновлений**. 
+Чтобы проверить время последнего обновления приложения Premium Capacity Metrics, выполните указанные ниже действия.
 
-![Журнал обновлений на странице параметров](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. Перейдите в рабочую область, которая была установлена вместе с приложением.
 
-Вы увидите время последнего обновления. Можно также щелкнуть **Журнал обновлений**, чтобы просмотреть запланированные обновления и обновления по требованию.
+   ![Переход к рабочей области приложения](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![Последнее обновление](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. Нажмите кнопку **Запланировать обновление** в строке набора данных.
+
+   ![Кнопка "Запланировать обновление"](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   Отобразятся сведения о последнем обновлении. Нажмите **Журнал обновлений**, чтобы просмотреть запланированные обновления и обновления по требованию.
+
+   ![Последнее обновление](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>Мониторинг емкостей в приложении
 

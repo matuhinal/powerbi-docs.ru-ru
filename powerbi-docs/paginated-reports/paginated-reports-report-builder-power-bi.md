@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144735"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565513"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
@@ -76,7 +76,7 @@ ms.locfileid: "83144735"
 
 - Закрепление страниц отчета или визуальных элементов на информационных панелях Power BI. Вы можете по-прежнему закреплять визуализации на панели мониторинга Power BI, полученные из локальных отчетов с разбивкой на страницы на Сервере отчетов Power BI или SQL Server Reporting Services. См. руководство по [закреплению элементов Reporting Services на панелях мониторинга в Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
 - Карты документов.
-- Вложенные отчеты и детализированные отчеты.  Можно также использовать параметры URL-адресов с отчетами с разбивкой на страницы для сценариев детализации.
+- Детализированные отчеты.  Воспользуйтесь параметрами URL-адресов с отчетами с разбивкой на страницы для сценариев детализации.
 - Общие источники данных и общие наборы данных.
 
  
@@ -85,4 +85,4 @@ ms.locfileid: "83144735"
 - [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Руководство. Создание отчета с разбивкой на страницы](paginated-reports-quickstart-aw.md)
 - [Ввод данных непосредственно в отчет с разбивкой на страницы](paginated-reports-enter-data.md)
-- [Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embed-paginated-reports-customers.md)
+- [Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embedded/embed-paginated-reports-customers.md)

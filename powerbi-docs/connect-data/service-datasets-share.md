@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284803"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565467"
 ---
 # <a name="share-a-dataset-preview"></a>Общий доступ к набору данных (предварительная версия)
 
@@ -24,7 +24,7 @@ ms.locfileid: "83284803"
 
 1. Начните с создания PBIX-файла с моделью данных в Power BI Desktop. Если вы планируете предоставить этот набор данных другим пользователям для создания отчетов, можете даже не проектировать отчет в виде PBIX-файла.
 
-    Рекомендуется сохранить этот PBIX-файл в группе Office 365.
+    Рекомендуется сохранить этот PBIX-файл в группе Microsoft 365.
 
 1. Опубликуйте PBIX-файл в [новом интерфейсе рабочей области](../collaborate-share/service-create-the-new-workspaces.md) в службе Power BI.
     

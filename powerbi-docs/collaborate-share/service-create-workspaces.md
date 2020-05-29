@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144367"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693954"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Создание классических рабочих областей в Power BI
 
@@ -22,30 +22,30 @@ ms.locfileid: "83144367"
 
 **Знаете ли вы?** В Power BI имеется новая версия интерфейса рабочих областей, которая теперь используется по умолчанию. Сведения о новых рабочих областях см. в статье [Организация работы в новых рабочих областях](service-new-workspaces.md). Готовы перенести классическую рабочую область? Дополнительные сведения см. в статье [Обновление классических рабочих областей до новых рабочих областей в Power BI](service-upgrade-workspaces.md).
 
-При создании классической рабочей области вы создаете соответствующую базовую группу Office 365. Все действия по администрированию рабочей области выполняются в Office 365. В эти рабочие области можно добавить коллег в качестве участников или администраторов. В рабочей области вы все можете совместно работать над панелями мониторинга, отчетами и другими статьями, которые планируете опубликовать для более широкой аудитории. Каждый член рабочей области должен иметь лицензию Power BI Pro. 
+При создании классической рабочей области вы создаете соответствующую базовую группу Microsoft 365. Все действия по администрированию рабочей области выполняются в Microsoft 365. В эти рабочие области можно добавить коллег в качестве участников или администраторов. В рабочей области вы все можете совместно работать над панелями мониторинга, отчетами и другими статьями, которые планируете опубликовать для более широкой аудитории. Каждый член рабочей области должен иметь лицензию Power BI Pro.
 
 ## <a name="video-apps-and-workspaces"></a>Видео. Приложения и рабочие области
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Создание классической рабочей области на основе группы Office 365
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>Создание классической рабочей области на основе группы Microsoft 365
 
-Вы создаете рабочую область на основе группы Office 365.
+Вы создаете рабочую область на основе группы Microsoft 365.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-При первом создании для распространения рабочей области в Office 365 понадобится около часа. 
+При первом создании для распространения рабочей области в Microsoft 365 понадобится около часа.
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Добавление изображения в рабочую область Office 365 (необязательно)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Добавление изображения в рабочую область Microsoft 365 (необязательно)
 По умолчанию служба Power BI создает небольшой цветной кружок с кратким названием приложения. Но вы можете добавить изображение. Чтобы добавить изображение, требуется лицензия Exchange Online.
 
 1. Выберите **Рабочие области**, щелкните **Дополнительные параметры** (...) рядом с именем рабочей области, а затем выберите **Элементы**. 
    
      ![Выбор рабочей области "Элементы"](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    После этого в новом окне браузера откроется учетная запись Office 365 Outlook рабочей области.
+    После этого в новом окне браузера откроется учетная запись Microsoft 365 Outlook рабочей области.
 2. Щелкните значок карандаша для **редактирования**.
    
-     ![Значок карандаша в Ofice 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Значок карандаша Microsoft 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. Щелкните изображение камеры и найдите необходимое изображение.
    
      ![Выбор изображения камеры](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ ms.locfileid: "83144367"
 
 4. Нажмите кнопку **ОК** и затем **Сохранить**.
    
-    В окне Office 365 Outlook вместо цветного кружка появится выбранное изображение. 
+    В окне Microsoft 365 Outlook вместо цветного кружка появится выбранное изображение.
    
      ![Настраиваемое изображение](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    

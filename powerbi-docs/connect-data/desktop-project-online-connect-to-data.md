@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291933"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563059"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Подключение к данным Project Online через Power BI Desktop
 К данным в Project Online можно подключиться с помощью Power BI Desktop.
 
-## <a name="step-1-download-power-bi-desktop"></a>Шаг 1. Загрузка Power BI Desktop
+## <a name="step-1-download-power-bi-desktop"></a>Шаг 1. Скачивание Power BI Desktop
 1. [Скачайте Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662) и запустите программу установки, чтобы установить **Power BI Desktop** на свой компьютер.
 
 ## <a name="step-2-connect-to-project-online-with-odata"></a>Шаг 2. Подключение к Project Online с помощью OData
@@ -35,7 +35,7 @@ ms.locfileid: "83291933"
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. Power BI Desktop предложит вам пройти проверку подлинности учетной записи Office 365. Выберите учетную запись организации и введите свои учетные данные.
+5. Power BI Desktop предложит вам пройти проверку подлинности рабочей или учебной учетной записи. Выберите учетную запись организации и введите свои учетные данные.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

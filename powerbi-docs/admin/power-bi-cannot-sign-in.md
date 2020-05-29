@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129982"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438023"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Устранение неполадок со входом в Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "83129982"
 
 Во-первых, попробуйте создать запрос в службу поддержки на [странице поддержки Power BI](https://powerbi.microsoft.com/support/).
 
-Если сделать это не удается, попробуйте создать такой запрос на [странице поддержки Office 365](https://support.office.com/home/contact).
+Если сделать это не удается, попробуйте создать такой запрос в [службу поддержки Office](https://support.office.com/home/contact).
 
 Если вам не удается создать запрос ни на одной из этих страниц, попробуйте обратиться в службу поддержки по телефону:
 
@@ -34,7 +34,7 @@ ms.locfileid: "83129982"
 * Для клиентов из Европы, Ближнего Востока и Азии (EMEA): +44-844-800-2400
 * Для клиентов из Индии: +1-800-419-5666
 
-Кроме того, чтобы обратиться в службу поддержки Майкрософт за помощью, можно приобрести [поддержку Microsoft Premier](https://support.microsoft.com/premier). Если вам известно, что ваша организация приобрела поддержку Microsoft Premier, однако вы все равно не можете создать обращение по каналу Office 365 или Power BI, можно обратиться в службу поддержки Premier по телефону:
+Кроме того, чтобы обратиться в службу поддержки Майкрософт за помощью, можно приобрести [поддержку Microsoft Premier](https://support.microsoft.com/premier). Если вам известно, что ваша организация приобрела поддержку Microsoft Premier, однако вы все равно не можете создать обращение по каналу Power BI или в службе поддержки Office, можно обратиться в службу поддержки Premier по телефону.
 
 * Для клиентов из США и других стран Северной и Южной Америки: +1-800-936-3100
 * Для клиентов из Европы, Ближнего Востока и Азии (EMEA): +44-844-800-8338

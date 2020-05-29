@@ -1,6 +1,6 @@
 ---
-title: Управление рабочей областью в Power BI и Office 365
-description: Рабочие области в Power BI обеспечивают широкие возможности для совместной работы на основе групп Office 365. Вы можете управлять рабочими областями в Power BI и в Office 365.
+title: Управление рабочей областью в Power BI и Microsoft 365
+description: Рабочие области в Power BI обеспечивают широкие возможности для совместной работы на основе групп Microsoft 365. Вы можете управлять рабочими областями в Power BI и в Microsoft 365.
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348075"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693817"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Управление рабочей областью в Power BI и Office 365
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Управление рабочей областью в Power BI и Microsoft 365
 
-Автор или администратор [рабочей области в Power BI](service-create-distribute-apps.md) или в Office 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Office 365.
+Автор или администратор [рабочей области в Power BI](service-create-distribute-apps.md) или в Microsoft 365 может управлять некоторыми аспектами рабочей области в Power BI. Управление другими аспектами осуществляется в Microsoft 365.
 
 > [!NOTE]
-> В новом интерфейсе рабочей области изменятся отношения между рабочими областями Power BI и группами Office 365. Группа Office 365 не будет создаваться автоматически каждый раз, когда вы создаете новую рабочую область. Узнайте о [создании новых рабочих областей](service-create-the-new-workspaces.md).
+> В новом интерфейсе рабочей области изменятся отношения между рабочими областями Power BI и группами Microsoft 365. Группа Microsoft 365 не будет создаваться автоматически каждый раз, когда вы создаете новую рабочую область. Узнайте о [создании новых рабочих областей](service-create-the-new-workspaces.md).
 
 В **Power BI** можно выполнять следующие задачи:
 
 * Добавлять или удалять участников рабочей области, включая присвоение участнику рабочей области прав администратора.
 * Изменить имя рабочей области.
-* Удалить рабочую область (в результате также удалится группа Office 365).
+* Удалить рабочую область (в результате также удалится группа Microsoft 365).
 
-В **Office 365** можно выполнять следующие задачи:
+В **Microsoft 365** можно:
 
 * добавлять или удалять участников рабочей области, включая присвоение участнику прав владельца;
 * менять название группы, ее изображение, описание и другие параметры;
@@ -53,9 +53,9 @@ ms.locfileid: "83348075"
 
 1. Выберите **Сохранить** или **Отменить**.
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>Изменение свойств рабочей области Power BI в Office 365
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Изменение свойств рабочей области Power BI в Microsoft 365
 
-Вы также можете изменять различные аспекты рабочей области непосредственно в Outlook для Office 365.
+Вы также можете изменять различные аспекты рабочей области непосредственно в Outlook для Microsoft 365.
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>Изменение членов группы рабочей области
 
@@ -63,17 +63,17 @@ ms.locfileid: "83348075"
 
    ![Изменение рабочих областей в Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   Откроется представление Outlook для группы Office 365 для рабочей области. Возможно, вам потребуется войти в свою корпоративную учетную запись.
+   Откроется представление Outlook для группы Microsoft 365 для рабочей области. Возможно, вам потребуется войти в свою корпоративную учетную запись.
 
 1. Чтобы сделать пользователя **членом** или **владельцем**, выберите роль рядом с его именем. Выберите **X**, чтобы удалить пользователя из группы.
 
-   ![Изменение группы в Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Изменение группы в Microsoft 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Добавление изображения и задание других свойств рабочей области
 
-При распространении приложения из рабочей области изображение, которое вы добавляете, является изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в рабочую область Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) статьи **Создание рабочих областей**.
+При распространении приложения из рабочей области изображение, которое вы добавляете, является изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в рабочую область Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) статьи **Создание рабочих областей**.
 
-1. В представлении Outlook для Office 365 своей рабочей области откройте вкладку **О программе** и выберите **Изменить**.
+1. В представлении Outlook для Microsoft 365 своей рабочей области откройте вкладку **О программе** и выберите **Изменить**.
 
     ![Значок "Изменить группу"](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. Вы можете изменить имя, описание и язык для уведомлений, связанных с группой. Кроме того, здесь можно добавить изображение и задать другие свойства.
@@ -86,4 +86,4 @@ ms.locfileid: "83348075"
 
 * [Публикация приложения в Power BI](service-create-distribute-apps.md)
 
-* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

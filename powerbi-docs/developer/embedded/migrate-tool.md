@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148995"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564180"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Встроенный инструмент миграции Power BI
 
@@ -49,7 +49,7 @@ ms.locfileid: "83148995"
 3. Вам будет предложено выполнить вход. Используйте имя входа подписки Azure.
 
    > [!IMPORTANT]
-   > Это **не** рабочая учетная запись Office 365, которую вы используете для входа в Power BI.
+   > Это **не** рабочая учетная запись, которую вы используете для входа в Power BI.
 
 4. Выберите подписку Azure, где хранятся коллекции рабочей области Power BI Embedded.
 

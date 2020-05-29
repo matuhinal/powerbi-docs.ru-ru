@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301524"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694029"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Создание кнопки детализации в Power BI (предварительная версия)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Создание кнопки детализации в Power BI
 
-При создании кнопки детализации в Power BI можно выбрать действие **Детализация (предварительная версия)** . Этот тип действия создает кнопку, которая осуществляет детализацию до соответствующей страницы, с целью получить подробные сведения, отфильтрованные по определенному контексту.
+При создании кнопки детализации в Power BI можно выбрать действие **Детализация**. Этот тип действия создает кнопку, которая осуществляет детализацию до соответствующей страницы, с целью получить подробные сведения, отфильтрованные по определенному контексту.
 
 Кнопка детализации полезна, если требуется повысить вероятность обнаружения важных сценариев детализации в отчетах.
 

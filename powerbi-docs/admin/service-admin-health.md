@@ -1,5 +1,5 @@
 ---
-title: Отслеживание работоспособности службы Power BI в Office 365
+title: Отслеживание работоспособности службы Power BI в Microsoft 365
 description: Узнайте, как просматривать актуальные и исторические данные о работоспособности службы в центре администрирования Microsoft 365.
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139746"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563718"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>Отслеживание работоспособности службы Power BI в Office 365
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>Отслеживание работоспособности службы Power BI в Microsoft 365
 
 Центр администрирования Microsoft 365 предоставляет важные средства для администраторов Power BI. Эти средства предоставляют текущие и исторические сведения о работоспособности службы. Для получения такой информации требуется одна из следующих ролей:
 
 * Администратор службы Power BI
 
-* Глобальный администратор Office 365
+* глобального администратора;
 
 Дополнительные сведения о ролях см. в разделе [Роли администратора, связанные с Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 

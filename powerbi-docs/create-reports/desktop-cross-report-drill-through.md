@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297844"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694066"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Использование детализации между отчетами в Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "83297844"
 В этой статье показано, как настроить и использовать детализацию между отчетами в Power BI.
 
 > [!NOTE]
-> Детализацию между отчетами нельзя использовать для отдельных отчетов, к которым предоставлен общий доступ в разделе [Мне предоставлен доступ](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) области **Моя рабочая область**. Для использования детализации между отчетами необходимо перейти к отчету в рабочей области, из которой к нему был предоставлен доступ.
+> Детализацию между отчетами нельзя использовать для отдельных отчетов, к которым предоставлен общий доступ в разделе [Мне предоставлен доступ](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report). Для использования детализации между отчетами необходимо перейти к отчету в рабочей области, участником которой вы являетесь.
 
 ## <a name="enable-cross-report-drillthrough"></a>Включение детализации между отчетами
 
@@ -44,7 +44,7 @@ ms.locfileid: "83297844"
 1. В Power BI Desktop последовательно выберите **Файл** > **Параметры и настройки** > **Параметры**. 
 1. В окне **Параметры** на левой панели навигации внизу раздела **Текущий файл** выберите пункт **Параметры отчета**. 
 1. Внизу правой области в разделе **Детализация между отчетами** установите флажок **Разрешите визуальным элементам в этом отчете использовать целевые объекты детализации из других отчетов**. 
-1. Нажмите кнопку **ОК**. 
+1. Выберите **ОК**. 
    
    ![Включение детализации между отчетами в Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 

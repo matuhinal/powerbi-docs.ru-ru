@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349110"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564582"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query. 
@@ -92,7 +92,7 @@ Power BI интегрируется с Bing для предоставления 
 >[!NOTE]
 >Имеет смысл подумать о порядке сортировки до начала создания любых визуальных элементов. 
 
-Далее необходимо определить связь между запросами "Контейнеры" и "Сведения" в столбце контейнеров. В Power BI Desktop щелкните **Управление связями** на ленте. Создайте связь с запросами "Контейнеры" в левой таблице и запросами "Сведения" в правой таблице, а затем выберите поле, которое используется для создания гистограммы. 
+Далее необходимо определить связь между запросами "Контейнеры" и "Сведения" в столбце контейнеров. В Power BI Desktop щелкните **Управление связями** на ленте. Создайте связь с запросами "Контейнеры" в таблице слева и запросами "Сведения" в таблице справа, а затем выберите поле, которое используется для создания гистограммы. 
 
 Затем нужно создать гистограмму. Перетащите поле "Контейнер" из таблицы "Контейнеры". Удалите поле по умолчанию из получившейся столбчатой диаграммы. Теперь перетащите поле гистограммы из таблицы "Сведения" в тот же визуальный элемент. В списке полей измените статистическое выражение по умолчанию на "Количество". Результатом является гистограмма. При создании другого (древовидного) визуального элемента из таблицы "Сведения" выберите точку данных на древовидной диаграмме, чтобы увидеть выделенную гистограмму и показать гистограмму для выбранной точки данных относительно тенденции для всего набора данных.
 
@@ -112,7 +112,7 @@ Power BI интегрируется с Bing для предоставления 
 
 Допустим, мы загружаем набор данных из активных запросов поддержки клиентов и другой набор данных, состоящий из рабочих элементов со следующими схемами:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
 > 
 > 
 
@@ -158,7 +158,7 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 
 [Основные сведения о DAX в Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[Руководство по выражениям анализа данных (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
+[Руководство по выражениям анализа данных (DAX)](/dax/)
 
 [Центр ресурсов DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

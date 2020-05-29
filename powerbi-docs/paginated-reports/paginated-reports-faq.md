@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584990"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565633"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -41,7 +41,7 @@ ms.locfileid: "82584990"
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>Как мне отслеживать использование отчетов с разбивкой на страницы в клиенте?
 
-В журналах аудита Office 365 сохраняется подробная информация об использовании отчетов этого типа во время следующих событий: 
+В журналах аудита Microsoft 365 сохраняется подробная информация об использовании отчетов этого типа во время следующих событий:
 
 - просмотр отчета Power BI;
 - удаление отчета Power BI;
@@ -152,7 +152,7 @@ ms.locfileid: "82584990"
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Могу ли я с помощью Power BI Embedded внедрить отчеты с разбивкой на страницы в размещаемое приложение?
 
-Внедрение SaaS, включая поддержку безопасного внедрения, уже доступно. Сведения о внедрении PaaS см. в разделе [Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embed-paginated-reports-customers.md).
+Внедрение SaaS, включая поддержку безопасного внедрения, уже доступно. Сведения о внедрении PaaS см. в разделе [Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embedded/embed-paginated-reports-customers.md).
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Могу ли я переходить из отчета Power BI в отчет с разбивкой на страницы для просмотра подробных сведений?
 

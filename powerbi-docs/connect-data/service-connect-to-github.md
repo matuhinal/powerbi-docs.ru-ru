@@ -5,18 +5,20 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/25/2020
+ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1be2d3db9dbf341def86c087344ef7a32cd006a0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337726"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693267"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Подключение к GitHub с помощью Power BI
 Эта статья описывает извлечение данных из учетной записи GitHub с помощью приложения-шаблона Power BI. Приложение-шаблон создает рабочую область с панелью мониторинга, набор отчетов и набор данных, которые позволяют анализировать ваши данные GitHub. Приложение GitHub для Power BI позволяет анализировать данные в репозитории GitHub, используя информацию о вкладах пользователей, проблемах, запросах на вытягивание и активных пользователях.
+
+![Приложение-шаблон GitHub](media/service-connect-to-github/service-github-app-report.png)
 
 После установки приложения-шаблона можно изменить панель мониторинга и отчет. Затем его можно распространить в виде приложения среди коллег в организации.
 
@@ -27,55 +29,69 @@ ms.locfileid: "83337726"
 >[!NOTE]
 >Для этого приложения-шаблона требуется учетная запись GitHub для доступа к репозиторию. Дополнительные сведения о требованиях см. ниже.
 >
->Это приложение-шаблон не поддерживает GitHub Enterprise. 
+>Это приложение-шаблон не поддерживает GitHub Enterprise.
 
-## <a name="how-to-connect"></a>Способы подключения
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
-   
-3. Выберите **GitHub** \> **Получить**.
-4. В окне **Установить это приложение Power BI?** выберите **Установить**.
-4. В области **Приложения** выберите плитку **GitHub**.
+## <a name="install-the-app"></a>Установка приложения
 
-    ![Плитка GitHub в Power BI](media/service-connect-to-github/power-bi-github-tile.png)
+1. Щелкните следующую ссылку, чтобы перейти к приложению: [Приложение-шаблон GitHub](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-6. На экране **Начало работы с новым приложением** выберите **Подключиться**.
+1. На странице приложения в AppSource нажмите кнопку [**Получить**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github).
 
-    ![Начало работы с новым приложением](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
+    [![Приложение-шаблон GitHub в AppSource](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-5. Введите имя и владельца репозитория. Сведения о том, как найти необходимые параметры, см. [ниже](#FindingParams).
-   
-    ![Имя репозитория Power BI в GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+1. Нажмите кнопку **Установить**. 
 
-5. Введите учетные данные GitHub (этот шаг можно пропустить, если вы уже выполнили вход в браузере). 
-6. В качестве **метода проверки подлинности** выберите **oAuth2** \>  **Войти**. 
-7. Следуйте инструкциям по проверке подлинности GitHub на экране. Предоставьте приложению-шаблону GitHub для Power BI разрешение для доступа к данным GitHub.
-   
-   ![Авторизация Power BI для GitHub](media/service-connect-to-github/github_authorize.png)
-   
-    Power BI подключается к GitHub и вашим данным.  Данные обновляются раз в день. После импорта данных в Power BI отображается содержимое новой рабочей области GitHub.
+    ![Установка приложения-шаблона GitHub](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
 
-## <a name="modify-and-distribute-your-app"></a>Изменение и распространение приложения
+    После установки приложения оно появится на странице "Приложения".
 
-Вы установили приложение-шаблон GitHub. Это означает, что вы также создали рабочую область GitHub. В этой рабочей области вы можете изменить отчет и панель мониторинга, а затем распространить их в виде *приложения* среди коллег в организации. 
+   ![Приложение GitHub на странице "Приложения"](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-1. Нажмите на стрелку рядом с именем рабочей области в области навигации. Отображается рабочая область, содержащая панель мониторинга и отчет.
+## <a name="connect-to-data-sources"></a>подключение к источникам данных.
 
-    ![Приложение в области навигации](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+1. Чтобы открыть приложение, щелкните его значок на странице "Приложения".
 
-8. Выберите новую [панель мониторинга GitHub](https://powerbi.microsoft.com/integrations/github).    
-    ![Панель мониторинга GitHub в Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+1. На экране-заставке нажмите кнопку **Исследовать приложение**.
 
-3. Чтобы просмотреть все содержимое новой рабочей области GitHub, в области навигации выберите **Рабочие области** > **GitHub**.
- 
-   ![Рабочая область GitHub в области навигации](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![Экран-заставка шаблона приложения](media/service-connect-to-github/service-github-app-splash-screen.png)
 
-    Это представление представляет собой список содержимого для рабочей области. В правом верхнем углу отображается элемент **Обновить приложение**. Используйте его, когда будете готовы к распространению приложения коллегам. 
+   Приложение откроется с образцом данных.
 
-    ![Список содержимого GitHub](media/service-connect-to-github/power-bi-github-content-list.png)
+1. Щелкните ссылку **Подключите свои данные** в баннере в верхней части страницы.
 
-2. Выберите **Отчеты** и **Наборы данных**, чтобы просмотреть другие элементы в рабочей области.
+   ![Ссылка "Подключите свои данные" в приложении GitHub](media/service-connect-to-github/service-github-app-connect-data.png)
 
-    Ознакомьтесь с [распространением приложений](../collaborate-share/service-create-distribute-apps.md) для коллег.
+1. В появившемся диалоговом окне введите имя репозитория и владельца репозитория. Сведения о том, как найти необходимые параметры, см. [ниже](#FindingParams). По завершении нажмите кнопку **Далее**.
+
+   ![Имя репозитория Power BI в GitHub](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+1. В следующем диалоговом окне выберите метод проверки подлинности **OAuth2**. Параметры конфиденциальности изменять не нужно. Когда все будет готово, нажмите **Войти**.
+
+   ![Метод проверки подлинности Power BI GitHub](media/service-connect-to-github/power-bi-github-authentication.png)
+
+1. Введите учетные данные GitHub и пройдите проверку подлинности GitHub (этот шаг можно пропустить, если вы уже выполнили вход в браузере).
+
+   ![Процесс проверки подлинности Power BI GitHub](media/service-connect-to-github/power-bi-github-authenticate-process.png)
+
+
+После входа отчет подключится к источникам данных и заполнится актуальными данными. В течение этого времени вращается индикатор активности.
+
+![Обновление приложения Power BI GitHub](media/service-connect-to-github/service-github-app-refresh-monitor.png)
+
+Данные отчета будут автоматически обновляться раз в день, если только вы не отключили это во время входа в систему. Также можно [настроить собственное расписание обновления](./refresh-scheduled-refresh.md), чтобы в отчете всегда отражались актуальные данные.
+
+## <a name="customize-and-share"></a>Настройка и общий доступ
+
+Чтобы настроить приложение и предоставить к нему общий доступ, щелкните значок карандаша в правом верхнем углу страницы.
+
+![Изменение приложения](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
+
+Сведения об изменении артефактов в рабочей области см. в следующих разделах.
+* [Обзор редактора отчетов в Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
+* [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)
+
+После внесения изменений в артефакты в рабочей области можно приступать к публикации приложения и предоставлению общего доступа к нему. Сведения о том, как это сделать, см. в разделе [Публикация приложения](../collaborate-share/service-create-distribute-apps.md#publish-your-app).
 
 ## <a name="whats-included-in-the-app"></a>Что входит в состав приложения
 В GitHub для Power BI доступны следующие данные:     
