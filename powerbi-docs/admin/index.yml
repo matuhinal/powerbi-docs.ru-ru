@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Power BI для администраторов и предприятий — документация
-summary: Из документации по Power BI для администраторов и предприятий можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+summary: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
 metadata:
   title: Power BI для администраторов и предприятий — документация
-  description: Из документации по Power BI для администраторов и предприятий можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
+  description: Из документации по Power BI можно получить экспертную информацию и ответы на вопросы, независимо от того, как вы используете Power BI.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 2256fbfed7410aea069638a773b83156096ab855
-  ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+  ms.openlocfilehash: 583a42a230b869f2692cc35202dbd496a4f2b602
+  ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/16/2020
-  ms.locfileid: "83437994"
+  ms.lasthandoff: 06/02/2020
+  ms.locfileid: "84272478"
 landingContent:
 - title: Power BI для администраторов и предприятий
   linkLists:
@@ -45,7 +45,7 @@ landingContent:
       url: service-admin-purchasing-power-bi-pro.md
     - text: Регистрация с пробной версией Microsoft 365
       url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-    - text: Добавление Power BI с партнером по Office 365
+    - text: Добавление Power BI в партнерскую подписку Microsoft 365
       url: service-admin-syndication-partner.md
 - title: Управление вашей организацией
   linkLists:
