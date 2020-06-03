@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564622"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812434"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Отслеживание действий пользователей в Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "83564622"
 | Содержит события из SharePoint Online, Exchange Online, Dynamics 365 и других служб, а также события аудита Power BI. | Содержит только события аудита Power BI. |
 | Доступ предоставляется только пользователям с разрешениями только на просмотр журналов аудита или доступ к журналам аудита, таким как глобальные администраторы или аудиторы. | Доступ предоставляется глобальным администраторам и администраторам службы Power BI. |
 | Глобальные администраторы и аудиторы могут выполнять поиск в едином журнале аудита с использованием Центра безопасности Microsoft 365 и Центра соответствия требованиям Microsoft 365. | Пользовательский интерфейс для поиска по журналу действий на данный момент отсутствует. |
-| Глобальные администраторы и аудиторы могут скачивать записи журнала аудита с помощью командлетов управления и API-интерфейсов Office 365. | Глобальные администраторы и администраторы службы Power BI могут скачивать записи журнала действий с помощью командлета управления REST и API Power BI. |
+| Глобальные администраторы и аудиторы могут скачивать записи журнала аудита с помощью командлетов и API-интерфейсов управления Microsoft 365. | Глобальные администраторы и администраторы службы Power BI могут скачивать записи журнала действий с помощью командлета управления REST и API Power BI. |
 | Данные аудита хранятся в течение 90 дней. | Данные о действиях хранятся в течение 30 дней (общедоступная предварительная версия). |
 | Данные аудита сохраняются, даже если клиент перемещается в другой регион Azure. | Данные о действиях не сохраняются, если клиент перемещается в другой регион Azure. |
 
@@ -239,6 +239,7 @@ Remove-PSSession $Session
 
 | Понятное имя                                     | Имя операции                              | Примечания                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Доступ к связанным с Power BI таблицам в Excel | AnalyzedByExternalApplication |    |
 | Добавлен источник данных в шлюз Power BI             | AddDatasourceToGateway                      |                                          |
 | Добавлен доступ к папке Power BI                      | AddFolderAccess                             | Сейчас не используется                       |
 | Добавлены участники группы Power BI                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Remove-PSSession $Session
 | Напечатана панель мониторинга Power BI                        | PrintDashboard                              |                                          |
 | Напечатана страница отчета Power BI                      | PrintReport                                 |                                          |
 | Отчет Power BI опубликован в Интернете                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| Публикация или изменение популярных таблиц | UpdateFeaturedTables <sup>3</sup>   | |
 | Получен секрет потока данных Power BI из Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Удаление источника данных из шлюза Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Удалены участники группы Power BI                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Remove-PSSession $Session
 <sup>1</sup> Публикация из Power BI Desktop в службе является событием CreateReport в службе.
 
 <sup>2</sup> PublishtoWebReport относится к функции [Публикация в Интернете](../collaborate-share/service-publish-to-web.md).
+
+<sup>3</sup> UpdateFeaturedTables относится к [связанным с Power BI таблицам в Excel](../collaborate-share/service-excel-featured-tables.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

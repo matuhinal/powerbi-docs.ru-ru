@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1cd90c4348c33726cdf171f4948b617498c63a1f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3fcf15d7179c86b2c6859fe3c5704ac2cf1b9ce5
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348052"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733078"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Общий доступ к панели мониторинга Power BI, содержащей ссылки на файл Excel в OneDrive
 Power BI позволяет [подключаться к книгам Excel в OneDrive для бизнеса](../connect-data/service-excel-workbook-files.md) и закреплять плитки из таких книг на панелях мониторинга. При предоставлении совместного доступа к этой панели мониторинга или создании пакета содержимого, в состав которого входит эта панель, будут доступны приведенные ниже действия.
@@ -49,11 +49,11 @@ Power BI позволяет [подключаться к книгам Excel в O
 5. Нажмите кнопку **Опубликовать**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Предоставление общего доступа к панели мониторинга из рабочей области Power BI
-Общий доступ к панели мониторинга предоставляется из рабочей области Power BI так же, как из вашей собственной рабочей области, за тем исключением, что файлы размещаются на сайте рабочей области в Office 365, а не в OneDrive для бизнеса. Перед предоставлением общего доступа пользователям не из рабочей области измените разрешения для книги Excel.
+Общий доступ к панели мониторинга предоставляется из рабочей области Power BI так же, как из вашей собственной рабочей области, за тем исключением, что файлы размещаются на сайте рабочей области в Microsoft 365, а не в OneDrive для бизнеса. Перед предоставлением общего доступа пользователям не из рабочей области измените разрешения для книги Excel.
 
 ![Общий доступ из OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Закрепление плитки на панели мониторинга Power BI из Excel](../create-reports/service-dashboard-pin-tile-from-excel.md)
+* [Закрепление плитки на панели мониторинга Power BI из книги Excel](../create-reports/service-dashboard-pin-tile-from-excel.md)
 * [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)
-* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

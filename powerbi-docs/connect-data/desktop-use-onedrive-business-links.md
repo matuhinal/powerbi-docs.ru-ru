@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564149"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120032"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Использование ссылок OneDrive для бизнеса в Power BI Desktop
 Многие пользователи хранят книги Excel на диске OneDrive для бизнеса, который отлично подходит для использования с Power BI Desktop. Благодаря Power BI Desktop вы можете использовать веб-ссылки на файлы Excel, хранящиеся в OneDrive для бизнеса, для создания отчетов и визуальных элементов. Можно использовать учетную запись группы OneDrive для бизнеса или индивидуальную учетную запись OneDrive для бизнеса.
@@ -26,11 +26,10 @@ ms.locfileid: "83564149"
    
    > [!NOTE]
    > Интерфейс браузера может отличаться от представленного на рисунке. Существует несколько способов выбора команды **Открыть в Excel** для файлов в интерфейсе браузера OneDrive для бизнеса. Можно использовать любой вариант, позволяющий открыть файл в Excel.
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. В Excel выберите **Файл** > **Сведения**, а затем выберите **Путь копирования** над пунктом **Защитить книгу**.
+
+2. В Excel выберите **Файл** > **Сведения**, а затем выберите **Путь копирования**, как показано на рисунке ниже.
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5368370cc25e12fdeab333b42a064ec4db66c301
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8db571d3635ad224c293a4d2ab86f4bcb9197fe0
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347385"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120080"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Получение данных из файлов Power BI Desktop
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -47,7 +47,9 @@ ms.locfileid: "83347385"
    ![](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Публикация файла из Power BI Desktop на сайт Power BI
-Функция публикации из Power BI Desktop фактически аналогична получению данных в Power BI и позволяет импортировать файла с локального диска или подключиться к нему в OneDrive.  Это краткое описание, но вы можно получить дополнительные сведения в разделе [Публикация из Power BI Desktop](../create-reports/desktop-upload-desktop-files.md).
+Функция публикации из Power BI Desktop подобна получению данных в Power BI в плане исходного импорта данных файла с локального диска или подключения к ним в OneDrive. Но есть отличия: при отправке с локального диска необходимо часто обновлять данные, чтобы обеспечить их актуальность и согласованность в сети и локальных копиях. 
+
+Это краткое описание, но вы можно получить дополнительные сведения в разделе [Публикация из Power BI Desktop](../create-reports/desktop-upload-desktop-files.md).
 
 1. В Power BI Desktop последовательно выберите **Файл** > **Опубликовать** > **Опубликовать в Power BI** или щелкните **Опубликовать** на ленте.
    

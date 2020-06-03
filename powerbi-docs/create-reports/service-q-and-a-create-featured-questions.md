@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349000"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121106"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Создание избранных вопросов для функции вопросов и ответов Power BI
 Если у вас есть набор данных, вы можете добавить для него собственные избранные вопросы. Функция "Вопросы и ответы" в Power BI покажет эти вопросы вашим коллегам, использующим отчеты на основе этого набора данных.  Избранные вопросы дают вашим коллегам представление о типах вопросов, которые можно задавать о наборе данных. Вы сами определяете избранные вопросы — добавьте популярные вопросы, вопросы, дающие интересный результат, или вопросы, которые трудно выразить.
@@ -40,7 +40,7 @@ ms.locfileid: "83349000"
 6. Вернитесь к панели мониторинга Power BI для примера анализа розничной торговли и наведите курсор мыши на окно вопросов и ответов.   
    ![Поле для вопросов функции "Вопросы и ответы" с популярным вопросом](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. Новый популярный вопрос **Sales by territory as a map**(Продажи по территориям в виде карты) стоит первым в списке. Выберите его.  
-8. Ответ отображается в виде заполненной визуализации карты.  
+8. Power BI создает ответ и отображает его в виде заполненной визуализации карты.  
    ![Ответ на популярный вопрос функции "Вопросы и ответы": визуализация карты](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия

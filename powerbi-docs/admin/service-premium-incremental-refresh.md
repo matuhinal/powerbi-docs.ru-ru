@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 73aade0ee10fe47ff669ccd6bd8c8ab0482f1f78
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274496"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121019"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Добавочное обновление в Power BI
 
@@ -172,13 +172,9 @@ in
 
 ### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>Управление обновлениями в SQL Server Management Studio
 
-Если для конечной точки XMLA включен доступ для чтения и записи, SQL Server Management Studio (SSMS) можно использовать для просмотра разделов, созданных приложением политик добавочного обновления, и управления ими.
+Если для конечной точки XMLA включен доступ для чтения и записи, SQL Server Management Studio (SSMS) можно использовать для просмотра разделов, созданных приложением политик добавочного обновления, и управления ими. Это позволяет, например, обновить определенный прошлый раздел задним числом вне диапазона добавочного обновления, не обновляя при этом все данные за прошедший период. Кроме того, с помощью SSMS вы можете загружать исторические данные для очень больших наборов данных путем постепенного добавления или обновления исторических секций в виде пакетов.
 
 ![Разделы в SSMS](media/service-premium-incremental-refresh/ssms-partitions.png)
-
-#### <a name="refresh-historical-partitions"></a>Обновление прошлых разделов
-
-Это позволяет, например, обновить определенный прошлый раздел задним числом вне диапазона добавочного обновления, не обновляя при этом все данные за прошедший период.
 
 #### <a name="override-incremental-refresh-behavior"></a>Переопределение поведения при добавочном обновлении
 

@@ -9,21 +9,18 @@ ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: 9db228253e0e88105108a1b3a5eaf725c73e0abb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563633"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812227"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Регистрация в Power BI с новой пробной версией Microsoft 365
 
 В этой статье описывается альтернативный способ регистрации в Power BI, если у вас еще нет рабочей или учебной учетной записи электронной почты.
 
 Если у вас возникли проблемы при регистрации в Power BI с использованием адреса электронной почты, убедитесь, что [его можно использовать с Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses). В противном случае зарегистрируйтесь в пробной версии Microsoft 365 и создайте рабочую учетную запись. Затем используйте эту новую рабочую учетную запись для регистрации в службе Power BI. Вы сможете использовать Power BI даже после истечения срока действия бесплатной пробной версии Microsoft 365.
-
-> [!NOTE]
-> Служба Office 365 недавно была переименована на Microsoft 365. До тех пор пока все статьи не будут обновлены, вы по-прежнему можете увидеть, что она называется Office 365.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Регистрация для использования пробной версии Office Microsoft 365
 Зарегистрируйтесь в [пробной версии Microsoft 365 на веб-сайте Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Если у вас еще нет учетной записи, Майкрософт поможет вам создать ее. Поскольку коммерческие учетные записи электронной почты (например, Hotmail и Gmail) не поддерживаются Microsoft 365, вы создадите новую учетную запись, которая поддерживается.  Эта учетная запись электронной почты будет выглядеть примерно так: *zalan@onmicrosoft.com* .
@@ -42,7 +39,7 @@ ms.locfileid: "83563633"
 
     ![создание рабочей или учебной учетной записи](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-enter-info.png)
 
-3. Создайте новый адрес электронной почты и задайте пароль. Создайте новое имя для входа, например you@yourcompany.onmicrosoft.com. Это имя для входа, которое вы будете использовать с новой учетной записью Office 365 и с Power BI.
+3. Создайте новый адрес электронной почты и задайте пароль. Создайте новое имя для входа, например you@yourcompany.onmicrosoft.com. Это имя для входа, которое вы будете использовать с новой рабочей или учебной учетной записью и с Power BI.
 
     ![Выберите, чтобы зарегистрировать новую учетную запись](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 

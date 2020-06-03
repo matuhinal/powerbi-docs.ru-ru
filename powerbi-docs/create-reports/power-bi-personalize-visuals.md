@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 27f71da8a8396de30254c1a02307aa48281db5a8
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407589"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793599"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Разрешите пользователям персонализировать визуальные элементы в отчете
 
@@ -91,7 +91,7 @@ ms.locfileid: "83407589"
 
 - Эта функция не поддерживается для сценариев внедрения, включая публикацию в Интернете.
 - Исследования пользователей не сохраняются автоматически. Чтобы записать изменения, необходимо сохранить представление в виде личной закладки.
-- Вы не можете изменять визуальные элементы в мобильных приложениях Power BI. Однако любые визуальные изменения, сохраняемые в личной закладке в службе Power BI, учитываются в мобильных приложениях.
+- Эта функция поддерживается в мобильных приложениях Power BI для планшетов iOS и Android и в приложении Power BI для Windows. Она не поддерживается в мобильных приложениях Power BI для телефонов. Однако любые изменения визуального элемента, сохраняемые в личной закладке в службе Power BI, учитываются во всех мобильных приложениях Power BI.
 
 Существуют также некоторые известные проблемы, с которыми мы работаем.
 

@@ -1,37 +1,32 @@
 ---
-title: Использование обновленной ленты в Power BI Desktop (предварительная версия)
+title: Использование обновленной ленты в Power BI Desktop
 description: Легкое перемещение по меню и командам с помощью новой ленты в Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c406782d8e27cf57a60504c2cf05a5079e3580ce
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349202"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793975"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Использование обновленной ленты в Power BI Desktop
 
-Начиная с обновления в марте 2020 года, Power BI Desktop пересматривает свою ленту, чтобы лучше согласовать ее внешний вид и возможности с другими продуктами Microsoft, такими как Microsoft Office. Обновленная лента отображается в ежемесячных обновлениях с ноября 2019 г. в качестве предварительной версии, а начиная с обновления в марте 2020 г., новая лента используется по умолчанию.
+В Power BI Desktop внесены изменения в ленту, чтобы лучше согласовать ее внешний вид и возможности с другими продуктами Microsoft, такими как Microsoft Office.
 
 ![Новая лента в Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
 ## <a name="how-to-enable-the-updated-ribbon"></a>Включение обновленной ленты
 
-Начиная с обновления за март 2020 г., обновленная лента включена по умолчанию. Для версий Power BI Desktop, предшествующих этой (начиная с обновления за ноябрь 2019 г.), обновленная лента в Power BI была доступна в виде предварительной версии функции и ее необходимо было включить вручную. Чтобы включить ее в предыдущих версиях, выберите **Файл > Параметры и настройки > Параметры**, а затем в столбце слева выберите **Предварительная версия функций**. В правой панели отображается **Обновленная лента**. Установите флажок рядом с **Обновленная лента**, чтобы включить функцию предварительной версии. Чтобы изменения предварительной версии функции вступили в силу, необходимо перезапустить Power BI Desktop.
+Обновленная лента общедоступна, начиная с выпуска Power BI Desktop за май 2020 г. Начиная с обновления за март 2020 г., обновленная лента включена по умолчанию. 
 
-![Параметр "Обновленная лента" в Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
-
-> [!NOTE]
-> Начиная с марта 2020 г. для версий Power BI Desktop нет необходимости включать обновленную ленту, поскольку с этого обновления новая лента используется по умолчанию.
-
-## <a name="features-of-the-new-ribbon"></a>Функции новой ленты
+## <a name="features-of-the-updated-ribbon"></a>Функции обновленной ленты
 
 Преимущества обновления ленты призваны сделать работу с Power BI Desktop, а также с другими продуктами Майкрософт легкой и знакомой. 
 
@@ -75,7 +70,7 @@ ms.locfileid: "83349202"
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](../connect-data/desktop-data-sources.md)
-* [Формирование и объединение данных с Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Источники данных в Power BI Desktop](../connect-data/desktop-data-sources.md)
+* [Формирование и объединение данных в Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](../connect-data/desktop-connect-excel.md)   
 * [Ввод данных непосредственно в Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)   

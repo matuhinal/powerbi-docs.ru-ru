@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563749"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812181"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Вопросы и ответы об администрировании Power BI
 
@@ -27,8 +27,8 @@ ms.locfileid: "83563749"
 * [Регистрация с помощью PowerShell](#using-powershell)
 * [Как пользователям зарегистрироваться в службе Power BI?](#how-do-users-sign-up-for-power-bi)
 * [Как зарегистрироваться отдельным пользователям в организации?](#how-do-individual-users-in-my-organization-sign-up)
-* [Как предотвратить присоединение пользователей к существующему клиенту Office 365?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
-* [Как разрешить пользователям присоединяться к существующему клиенту Office 365?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
+* [Как предотвратить присоединение пользователей к существующей организации?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
+* [Как разрешить пользователям присоединяться к существующей организации?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
 * [Как можно проверить, заблокирован ли клиент?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [Как запретить существующим пользователям начать работу с Power BI?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [Как разрешить существующим пользователям регистрироваться в Power BI?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)

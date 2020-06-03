@@ -5,39 +5,40 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/23/2020
+ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 5ed3a65f1ef65640c76ada765931a85714aad3af
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 708599eb3f39d4c627a11753cb964d6425f75640
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781364"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120418"
 ---
-Ниже перечислены возможности четырех ролей: администраторов, членов, участников и зрителей. Для использования всех этих возможностей, за исключением просмотра и взаимодействия, требуется лицензия Power BI Pro.
-
 |Возможность   | Администратор  | Участник  | Участник  | Зритель |
 |---|---|---|---|---|
-| Обновлять и удалять рабочую область.  | X  |   |   |   | 
-| Добавлять и удалять пользователей, включая других администраторов.  | X  |   |   |   |
-| Добавлять членов или других пользователей с разрешениями более низкого уровня.  |  X | X  |   |   |
-| Публиковать и обновлять приложение. |  X | X  |   |   |
-| Предоставлять общий доступ к элементу или приложению.<sup>1</sup> |  X | X  |   |   |
-| Разрешать другим пользователям повторно предоставлять совместный доступ к элементам.<sup>1</sup> |  X | X  |   |   |
-| Добавлять приложения в подборку на главной странице коллег |  X | X  |   |   |
-| Добавлять панели мониторинга и отчеты в подборку на главной странице коллег |  X | X  | X |   |
-| Создавать, редактировать и удалять содержимое в рабочей области.  |  X | X  | X  |   |
-| Публиковать отчеты в рабочей области, удалять содержимое.  |  X | X  | X  |   |
-| Создавать в другой рабочей области отчет на основе набора данных из текущей области<sup>1</sup>. |  X | X  | X  |   |
-| Копировать отчет.<sup>2</sup> | X | X | X |  |
-| Данные расписания обновляются через локальный шлюз.<sup>3</sup> | X | X | X |  |
-| Изменение параметров подключения через VPN-шлюз.<sup>3</sup> | X | X | X |  |
-| Просматривать элемент и взаимодействовать с ним.<sup>4</sup> |  X | X  | X  | X  |
-| Читать данные, хранящиеся в потоках данных рабочей области. | X | X | X | X |
+| Обновлять и удалять рабочую область.  |  |   |   |   | 
+| Добавлять и удалять пользователей, включая других администраторов.  |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
+| Добавлять членов или других пользователей с разрешениями более низкого уровня.  |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Публиковать и обновлять приложение. |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Предоставлять общий доступ к элементу или приложению.<sup>1</sup> |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Разрешать другим пользователям повторно предоставлять совместный доступ к элементам.<sup>1</sup> |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Добавлять приложения в подборку на главной странице коллег |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Добавлять панели мониторинга и отчеты в подборку на главной странице коллег |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |   |
+| Создавать, редактировать и удалять содержимое в рабочей области.  |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
+| Публиковать отчеты в рабочей области, удалять содержимое.  |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
+| Создать отчет в другой рабочей области на основе набора данных в этой области.<sup>2</sup> |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
+| Копировать отчет.<sup>2</sup> | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
+| Данные расписания обновляются через локальный шлюз.<sup>3</sup> | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
+| Изменение параметров подключения через VPN-шлюз.<sup>3</sup> | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
+| Просматривать элемент и взаимодействовать с ним.<sup>4</sup> |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |
+| Читать данные, хранящиеся в потоках данных рабочей области. | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-1. Участники и зрители могут совместно использовать элементы в рабочей области, если у них есть разрешения на повторное предоставление общего доступа.
-2. Чтобы скопировать отчет или создать в другой рабочей области новый отчет на основе набора данных из текущей области, требуется разрешение на создание набора данных. При использовании наборов данных из этой рабочей области пользователям с ролями администратора, члена или участника предоставляются разрешения на создание в рамках роли рабочей области.
-3. Помните, что также требуются разрешения на шлюз. Эти разрешения управляются в других местах, независимо от ролей и разрешений рабочей области. Дополнительные сведения см. в разделе [Управление локальным шлюзом](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage).
-4. Даже если у вас нет лицензии Power BI Pro, вы можете просматривать элементы и взаимодействовать с ними в службе Power BI, если они находятся в рабочей области в емкости Premium.
+<sup>1</sup> Участники и зрители также могут совместно использовать элементы в рабочей области, если у них есть разрешения на повторное предоставление общего доступа.
+
+<sup>2</sup> Чтобы скопировать отчет или создать в другой рабочей области новый отчет на основе набора данных из текущей области, требуется [разрешение на создание набора данных](../connect-data/service-datasets-build-permissions.md). При использовании наборов данных из этой рабочей области пользователям с ролями администратора, члена или участника автоматически предоставляются разрешения на создание в рамках роли рабочей области.
+
+<sup>3</sup> Учитывайте, что также требуются разрешения на шлюз. Эти разрешения управляются в других местах, независимо от ролей и разрешений рабочей области. Дополнительные сведения см. в разделе [Управление локальным шлюзом](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage).
+
+<sup>4</sup> Даже если у вас нет лицензии Power BI Pro, вы можете просматривать элементы и взаимодействовать с ними в службе Power BI, если они находятся в рабочей области в емкости Premium.
 

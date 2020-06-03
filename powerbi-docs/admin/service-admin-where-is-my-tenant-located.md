@@ -1,5 +1,5 @@
 ---
-title: Расположение клиента Power BI
+title: Где расположен мой клиент Power BI?
 description: Узнайте, где расположен ваш клиент Power BI и как происходит выбор места расположения. Это важно знать, так как место расположения клиента может влиять на качество обмена данными со службой.
 author: kfollis
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136000"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793290"
 ---
-# <a name="where-is-my-power-bi-tenant-located"></a>Расположение клиента Power BI
+# <a name="where-is-my-power-bi-tenant-located"></a>Где расположен мой клиент Power BI?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -34,7 +34,7 @@ ms.locfileid: "83136000"
 
 ## <a name="how-the-data-region-is-selected"></a>Как происходит выбор региона
 
-Регион для хранения данных зависит от страны, которая была выбрана при создании клиента. Это относится к регистрации в Office 365 и Power BI, так как эта информация является общей для указанных служб. Если это новый клиент, выберите нужную страну в списке при регистрации.
+Регион для хранения данных зависит от страны, которая была выбрана при создании клиента. Это относится к регистрации в Microsoft 365 и Power BI, так как эта информация является общей для указанных служб. Если это новый клиент, выберите нужную страну в списке при регистрации.
 
 ![Выбор страны](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
@@ -43,5 +43,5 @@ Power BI выбирает регион, наиболее близкий к вы
 > [!IMPORTANT]
 > Этот выбор нельзя будет изменить после создания клиента.
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

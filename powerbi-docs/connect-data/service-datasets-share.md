@@ -1,22 +1,22 @@
 ---
-title: Общий доступ к набору данных (предварительная версия)
+title: Общий доступ к набору данных
 description: Как владелец набора данных, вы можете создавать наборы данных и делиться ими, чтобы другие пользователи могли работать с ними. Узнайте, как поделиться ими.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565467"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794087"
 ---
-# <a name="share-a-dataset-preview"></a>Общий доступ к набору данных (предварительная версия)
+# <a name="share-a-dataset"></a>Общий доступ к набору данных
 
 Как автор *моделей данных* в Power BI Desktop, вы создаете *наборы данных*, которые можно распространять в службе Power BI. Затем другие создатели отчетов могут использовать эти наборы данных в качестве базиса для собственных отчетов. В этой статье вы узнаете, как предоставлять общий доступ к наборам данных. Чтобы узнать, как предоставить и удалить доступ к общим наборам данных, ознакомьтесь с [разрешениями на сборку](service-datasets-build-permissions.md).
 
@@ -26,7 +26,7 @@ ms.locfileid: "83565467"
 
     Рекомендуется сохранить этот PBIX-файл в группе Microsoft 365.
 
-1. Опубликуйте PBIX-файл в [новом интерфейсе рабочей области](../collaborate-share/service-create-the-new-workspaces.md) в службе Power BI.
+1. Опубликуйте PBIX-файл в [новом интерфейсе рабочей области](../collaborate-share/service-create-the-new-workspaces.md) в службе Power BI.
     
     Уже после этого другие члены этой рабочей области могут создавать отчеты в других рабочих областях на основе этого набора данных.
 
@@ -53,5 +53,5 @@ ms.locfileid: "83565467"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Использование наборов данных в рабочих областях (предварительная версия)](service-datasets-across-workspaces.md)
+- [Использование наборов данных в рабочих областях](service-datasets-across-workspaces.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

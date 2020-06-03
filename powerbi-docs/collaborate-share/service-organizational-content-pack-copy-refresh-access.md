@@ -1,5 +1,5 @@
 ---
-title: Доступ и копирование пакетов содержимого организации
+title: 'Пакеты содержимого организации: доступ и копирование'
 description: Узнайте о создании копий пакетов содержимого организации и устранении неполадок в них в Power BI
 author: maggiesMSFT
 ms.reviewer: lukaszp, kayu
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 606f45cee844812b68bbbe774665b6a4c09cd09b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141916"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733446"
 ---
-# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Пакеты содержимого организации: копирование, обновление и получение доступа
+# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Пакеты содержимого организации: Копирование, обновления и получение доступа
 
 После публикации пакета содержимого организации все получатели видят одну и ту же панель мониторинга, одни и те же отчеты, книги Excel и наборы данных (если источником данных не являются службы SQL Server Analysis Services (SSAS).  [Только автор пакета содержимого может изменять и повторно публиковать](service-organizational-content-pack-manage-update-delete.md) его.  Тем не менее все получатели могут сохранить копию пакета содержимого, которая может сосуществовать с исходным вариантом.
 
@@ -32,7 +32,7 @@ ms.locfileid: "83141916"
 1. Нажмите **Дополнительные параметры** (...) возле панели мониторинга и выберите команду "Создать копию".
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
-2. Щелкните **Сохранить**.  
+2. Нажмите кнопку **Сохранить**.  
 
 Теперь у вас есть копия, которую можно изменять. Никто другой не увидит ваши изменения.
 
@@ -45,7 +45,7 @@ ms.locfileid: "83141916"
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Помогите!  Мне больше не доступен пакет контента
 Это может произойти по следующим причинам.
 
-* **Изменение членства**: пакеты содержимого публикуются в группах рассылки электронной почты, группах безопасности и [группах Power BI, основанных на Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  Если вы были удалены из группы, вы потеряете доступ к пакету содержимого.
+* **Изменение членства**:  пакеты содержимого публикуются в группах рассылки электронной почты, группах безопасности и [группах Power BI, основанных на Microsoft 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  Если вы были удалены из группы, вы потеряете доступ к пакету содержимого.
 * **Изменения сферы распространения**: автор пакета содержимого меняет сферу распространения. Например, если пакет содержимого первоначально был опубликован для всей организации, но автор повторно опубликовал его для меньшей аудитории, вы можете потерять право на использование пакета.
 * **Изменения параметров безопасности**: если информационная панель и отчеты подключаются к локальным источникам данных SSAS и в параметры безопасности внесены изменения, ваши разрешения на этом сервере могут быть отозваны.
 
@@ -55,6 +55,6 @@ ms.locfileid: "83141916"
 См. статью [Управление пакетами содержимого организации, их обновление и удаление](service-organizational-content-pack-manage-update-delete.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Знакомство с пакетами контента организации](service-organizational-content-pack-introduction.md)
-* [Создание группы в Power BI](service-create-distribute-apps.md)
-* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* [Знакомство с пакетами содержимого организации](service-organizational-content-pack-introduction.md)
+* [Создание группы в Power BI](service-create-distribute-apps.md)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

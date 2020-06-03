@@ -1,22 +1,22 @@
 ---
-title: Управление использованием наборов данных в рабочих областях (предварительная версия) — Power BI
+title: Управление использованием наборов данных в рабочих областях — Power BI
 description: Сведения о том, как ограничить поток информации в клиенте Power BI.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4599b5aa8961c5a6526f5de6a07815355e6e41db
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285447"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793557"
 ---
-# <a name="control-the-use-of-datasets-across-workspaces-preview"></a>Управление использованием наборов данных в рабочих областях (предварительная версия)
+# <a name="control-the-use-of-datasets-across-workspaces"></a>Управление использованием наборов данных в рабочих областях
 
 Использование наборов данных в рабочих областях позволяет эффективно стимулировать развитие культуры на основе данных и демократизацию данных внутри организации. Однако если вы являетесь администратором Power BI, иногда требуется ограничить поток информации в вашем клиенте Power BI. С помощью параметра клиента **Использование наборов данных в рабочих областях** можно полностью или частично ограничить повторное использование наборов данных для отдельных групп безопасности.
 
@@ -38,5 +38,5 @@ ms.locfileid: "83285447"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Использование наборов данных в рабочих областях (предварительная версия)](service-datasets-across-workspaces.md)
+- [Использование наборов данных в рабочих областях](service-datasets-across-workspaces.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

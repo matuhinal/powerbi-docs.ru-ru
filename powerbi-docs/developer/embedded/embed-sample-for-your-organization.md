@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349800"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794131"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -383,7 +383,7 @@ function updateEmbedReport() {
 
 Создав выделенную емкость, вы получите преимущество выделенного ресурса для содержимого в рабочей области. Для отчетов с разбивкой на страницы рабочая область должна иметь емкость не менее P1. Вы можете создать выделенную емкость с помощью [Power BI Premium](../../admin/service-premium-what-is.md).
 
-В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft Office 365](../../admin/service-admin-premium-purchase.md).
+В таблице ниже перечислены номера SKU Power BI Premium, доступные в [Microsoft 365](../../admin/service-admin-premium-purchase.md).
 
 | Узел емкости | Общее количество виртуальных ядер<br/>(серверная часть + внешний интерфейс) | Виртуальные ядра в серверной части | Виртуальные ядра для внешнего интерфейса | Ограничения для подключений DirectQuery и активных подключений |
 | --- | --- | --- | --- | --- | --- |

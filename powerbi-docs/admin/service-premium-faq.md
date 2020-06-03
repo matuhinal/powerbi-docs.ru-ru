@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 892414704592347af81ed29763a4d6a34bb12c0f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83133476"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792862"
 ---
 # <a name="power-bi-premium-faq"></a>Вопросы и ответы по Power BI Premium
 
@@ -41,7 +41,7 @@ Power BI Premium состоит из емкости в службе Power BI, м
 * создавать личные панели мониторинга (закреплять на новой панели мониторинга);
 * анализировать данные в Excel или Power BI Desktop;
 * предоставлять общий доступ с поддержкой Excel Web App;
-* совместно использовать панели мониторинга и совместно работать с группами Office 365;
+* совместно использовать панели мониторинга и совместно работать с группами Microsoft 365;
 * интегрировать содержимое с рабочими областями Microsoft Teams.
 
 **Требуется ли Power BI Pro, чтобы использовать Power BI Premium?**  

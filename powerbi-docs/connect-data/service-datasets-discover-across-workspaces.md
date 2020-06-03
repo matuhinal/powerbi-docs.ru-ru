@@ -1,22 +1,22 @@
 ---
-title: Создание отчетов на основе наборов данных из разных рабочих областей (предварительная версия) — Power BI
+title: Создание отчетов на основе наборов данных из разных рабочих областей — Power BI
 description: Вы можете узнать о том, как поделиться набором данных с пользователями в организации. Затем они могут создать отчеты, основанные на вашем наборе данных, в своих рабочих областях.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284734"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793032"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Создание отчетов на основе наборов данных из разных рабочих областей (предварительная версия)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Создание отчетов на основе наборов данных из разных рабочих областей
 
 Вы можете узнать, как создавать отчеты в ваших собственных рабочих областях на основе наборов в других рабочих областях. Чтобы создать отчет на основе существующего набора данных, можно начать с Power BI Desktop или со службы Power BI в разделе "Моя рабочая область" или в [новом интерфейсе рабочей области](../collaborate-share/service-create-the-new-workspaces.md).
 
@@ -61,5 +61,5 @@ ms.locfileid: "83284734"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Использование наборов данных в рабочих областях (предварительная версия)](service-datasets-across-workspaces.md)
+- [Использование наборов данных в рабочих областях](service-datasets-across-workspaces.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

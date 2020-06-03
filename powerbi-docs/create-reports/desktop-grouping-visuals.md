@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324731"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119941"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Группирование визуальных элементов в отчетах в Power BI Desktop
 **Группирование** в **Power BI Desktop** позволяет группировать визуальные элементы в отчете, например кнопки, текстовые поля, фигуры и любые создаваемые визуальные элементы, так же, как элементы группируются в PowerPoint. Со сгруппированными визуальными элементами в отчете можно работать как с одним объектом, благодаря чему перемещение, изменение размеров и работа со слоями в отчете становятся проще, быстрее и интуитивно понятнее.
@@ -33,6 +33,8 @@ ms.locfileid: "83324731"
 ![вложение групп](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 В области **выделения** можно также перетащить отдельные визуальные элементы, чтобы включить их в группу, удалить их из группы, вложить группу или удалить вложенную группу или отдельный визуальный элемент. Просто перетащите нужный визуальный элемент в соответствующее место. При наложении визуальных элементов порядок слоев определяется их очередностью в списке *Порядок слоев*.
+
+Вы можете легко переименовать группу. Просто дважды щелкните имя группы в области **Выделение**, а затем введите новое имя группы.
 
 ![перетаскивание групп](media/desktop-grouping-visuals/grouping-visuals-04.png)
 

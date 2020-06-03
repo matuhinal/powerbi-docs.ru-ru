@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 889f7359e0711ecafb44caa6cf98f8a4df6bb0fa
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145196"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794037"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Руководство. Внедрение содержимого Power BI в приложение для национальных облаков
 
@@ -54,7 +54,7 @@ Power BI также поддерживает [национальные обла�
 * Government Community Cloud (GCC):
 
     > [!NOTE]
-    > Внедрение содержимого Power BI из облака сообщества для государственных организаций (GCC) возможно только с использованием SKU Office 365. Клиенты других национальных облаков могут использовать [SKU Office 365 или Azure](embedded-faq.md).
+    > Внедрение содержимого Power BI из облака сообщества для государственных организаций (GCC) возможно только с использованием SKU Microsoft 365. Пользователи других национальных облаков могут использовать [SKU Microsoft 365 или Azure](embedded-faq.md).
 
 1. Замените содержимое файла Cloud.config на содержимое файла GCCCloud.config.
 

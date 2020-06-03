@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/17/2020
+ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148651"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813630"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
 
@@ -64,74 +64,22 @@ Power BI Embedded поставляется с номером SKU [*A*.](../../a
 
 ### <a name="which-sku-should-i-use"></a>Какой номер SKU выбрать?
 
-В этой таблице приводится сводка возможностей, необходимых емкостей и номеров SKU для каждой из них. 
+В таблице ниже приводится сводка возможностей с указанием требуемой мощности и подходящей ценовой категории.
 
-</br>
-<table>
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<tbody>
-<tr>
-<td style="text-align: center"; colspan="2"><p><b>Функция</b></p></td>
-<td style="text-align: center">
-<p><b>Что такое Power BI Embedded в Azure?</b></p>
-</td>
-<td style="text-align: center"; colspan="2">
-<p><b>Power BI Premium</b></p>
-</td>
-</tr>
-<tr>
-<td><p><em>Потребляемое содержимое</em><p></td>
-<td><p><em>Потребители</em><p></td>
-<td style="text-align: center"><p><em>Номера SKU A</br>(Azure)</em></p></td>
-<td style="text-align: center"><p><em>Номера SKU EM</br>(Office)</em></p></td>
-<td style="text-align: center"><p><em>Номера SKU P</br>(Office)</em></p></td>
-</tr>
-<tr>
-<td>Внедрение артефактов из рабочих областей Power BI</td>
-<td>
-</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="2">Отчеты Power BI</td>
-<td>Внедренное приложение для организации</br>(данные принадлежат пользователю)</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Внедренное приложение для клиентов</br>(данные принадлежат приложению)</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="3">Содержимое Power BI<br>(с бесплатной лицензией Power BI)</td>
-<td>Служба Power BI</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Power BI Mobile</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Приложения Microsoft Office</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-</tbody>
-</table>
+В этой таблице пользовательским приложением считается веб-приложение на основе встроенной аналитики. Внедрение в пользовательское веб-приложение (с помощью REST API или пакетов SDK для JavaScript или .NET) позволяет разработчику управлять пользовательским интерфейсом и настраивать его. Эта возможность недоступна при использовании других вариантов внедрения, таких как служба Power BI и Power BI Mobile.
+
+
+|         |         |         |
+|---------|---------|---------|
+|**Сценарий**</br><p></p>|**Azure**</br>(Ценовая категория A)|**Office**</br>(Ценовые категории P и EM)|
+|[Внедрение для клиентов](embed-sample-for-customers.md)</br>(данные принадлежат приложению)     |✔        |✔        |
+|[Внедрение для организации](embed-sample-for-your-organization.md)</br>(данные принадлежат пользователю)     |✖        |✔         |
+|Приложения Microsoft 365</br>(ранее назывались приложениями Office 365)<ul><li>[Внедрение в Teams](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[Внедрение в SharePoint](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |
+|[Безопасное внедрение по URL-адресу](../../collaborate-share/service-embed-secure.md)</br>(внедрение из службы Power BI)     |✖        |✔        |
+
+>[!NOTE]
+>* Для публикации содержимого в рабочей области приложения Power BI требуется [лицензия Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md).
+>* Только **ценовая категория P** позволяет пользователям Power BI бесплатного уровня использовать приложения и общее содержимое Power BI в службе Power BI.
 
 ### <a name="capacity-considerations"></a>Рекомендации по емкости
 
@@ -147,33 +95,33 @@ Power BI Embedded поставляется с номером SKU [*A*.](../../a
 </tr>
 <tr>
 <td><p><strong>ПРЕДЛОЖЕНИЕ</strong></p></td>
-<td style="text-align: center;"><p>Azure</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center"><p>Azure</p></td>
+<td style="text-align: center" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>A</p></td>
-<td style="text-align: center;"><p>EM</p></td>
-<td style="text-align: center;"><p>P</p></td>
+<td style="text-align: center"><p>А</p></td>
+<td style="text-align: center"><p>EM</p></td>
+<td style="text-align: center"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Выставление счетов</strong></td>
-<td style="text-align: center;">Ежечасно</td>
-<td style="text-align: center;">Ежемесячно</td>
-<td style="text-align: center;">Ежемесячно</td>
+<td style="text-align: center">Каждый час</td>
+<td style="text-align: center">Ежемесячно</td>
+<td style="text-align: center">Ежемесячно</td>
 </tr>
 <tr>
 <td><p><strong>Обязательство</strong></td>
-<td style="text-align: center;">None</td>
-<td style="text-align: center;">Ежегодно</td>
-<td style="text-align: center;">Ежемесячно или ежегодно</td>
+<td style="text-align: center">Нет</td>
+<td style="text-align: center">Ежегодно</td>
+<td style="text-align: center">Ежемесячно или ежегодно</td>
 </tr>
 <tr>
 <td valign="top"><p><strong>Использование</strong></td>
-<td style="text-align: center;">Ресурсы Azure можно:</br>- <a href="azure-pbie-scale-capacity.md">масштабировать по вертикали;</a></br>- <a href="azure-pbie-pause-start.md">приостанавливать и возобновлять.</a>
-</td>
-<td style="text-align: center;">Внедрение в приложения, в том числе</br> приложения Майкрософт</td>
-<td style="text-align: center;">Внедрение в приложения и</br> службу Power BI</td>
+<td style="text-align: center">Ресурсы Azure можно:<li><a href="azure-pbie-scale-capacity.md">масштабировать по вертикали;</a></li><li><a href="azure-pbie-pause-start.md">приостанавливать и возобновлять.</a>
+</td></li>
+<td style="text-align: center">Внедрение в приложения, в том числе</br> приложения Майкрософт</td>
+<td style="text-align: center">Внедрение в приложения и</br> службу Power BI</td>
 </tr>
 </tbody>
 </table>
@@ -188,7 +136,7 @@ Power BI Embedded поставляется с номером SKU [*A*.](../../a
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 % | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 80 | 8 | 60 | К 12 столбцам. |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |

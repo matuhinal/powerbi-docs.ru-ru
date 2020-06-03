@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4e1fd6a3f6db4ec58fc5eafa1033175edebd82fa
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141757"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733515"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Руководство. Создание и публикация пакета содержимого организации в Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "83141757"
 
     1. Выберите **Отдельные группы**.
 
-    1. Введите адреса электронной почты сотрудников, [групп Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), групп рассылки или групп безопасности. Например: salesmgrs@contoso.com; sales@contoso.com
+    1. Введите адреса электронной почты сотрудников, [групп Microsoft 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), групп рассылки или групп безопасности. Например: salesmgrs@contoso.com; sales@contoso.com
 
         В этом учебнике используйте адрес электронной почты своей группы.
 

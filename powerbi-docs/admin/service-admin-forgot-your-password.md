@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b2743fee2c681f0923d243304ea8f44b45ee3e17
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139829"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812157"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Забыли пароль для Power BI?
 
@@ -22,7 +22,7 @@ ms.locfileid: "83139829"
 
 <https://passwordreset.microsoftonline.com>
 
-Если вам сообщат, что сброс пароля для вашей учетной записи не настроен, обратитесь к администратору Office 365. Если вы используете бесплатную пробную версию, администратор является первым зарегистрировавшимся пользователем в вашей организации.
+Если вам сообщат, что сброс пароля для вашей учетной записи не настроен, обратитесь к администратору. Если вы используете бесплатную пробную версию, администратор является первым зарегистрировавшимся пользователем в вашей организации.
 
 Если у вас по-прежнему возникают проблемы с доступом к учетной записи, обратитесь в службу поддержки для сброса пароля.
 

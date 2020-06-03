@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/28/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273024"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813607"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Экспорт данных, использованных для создания визуализации
 
@@ -30,7 +30,7 @@ ms.locfileid: "83273024"
 
 ## <a name="viewing-and-exporting-data"></a>Просмотр и экспорт данных
 
-Чтобы просмотреть данные, которые Power BI использует для создания визуализации, [откройте их в Power BI](service-reports-show-data.md). Вы также можете экспортировать данные в Excel в виде файла *XLSX* или *CSV*. Для экспорта данных требуется лицензия Pro или Премиум и права на редактирование набора данных и отчета. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
+Чтобы просмотреть данные, которые Power BI использует для создания визуализации, [откройте их в Power BI](service-reports-show-data.md). Вы также можете экспортировать данные в Excel в виде файла *XLSX* или *CSV*. Для экспорта данных требуется лицензия Pro или Премиум и права на редактирование набора данных и отчета. Если у вас есть доступ к панели мониторинга или отчету, но данные классифицируются как *строго конфиденциальные*, Power BI не позволит экспортировать данные.
 
 Просмотрите видео, в котором показан экспорт данных из визуализации в отчете и сохранение их в файл *XLSX* с последующим просмотром в Excel. Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео. Обратите внимание, что в этом видео используется более старая версия Power BI.
 
@@ -244,7 +244,7 @@ ms.locfileid: "83273024"
 
 - При использовании DirectQuery максимальный объем данных, который Power BI может экспортировать, составляет 16 МБ несжатых данных. Непреднамеренным результатом может быть то, что вы экспортируете меньше, чем максимальное количество строк (150 000). Это вероятно, если:
 
-    - существует много столбцов;
+    - существует очень много столбцов (попробуйте уменьшить число столбцов и повторите экспорт);
 
     - существуют данные, которые сложно сжать;
 

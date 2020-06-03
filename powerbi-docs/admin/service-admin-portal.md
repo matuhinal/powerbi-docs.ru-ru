@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564479"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733602"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Администрирование Power BI на портале администрирования
 
@@ -356,6 +356,16 @@ ms.locfileid: "83564479"
 ### <a name="use-global-search-for-power-bi-preview"></a>Использование глобального поиска для Power BI (предварительная версия)
 
 Пользователи в организации могут использовать внешние функции поиска на основе службы "Поиск Azure".
+
+## <a name="featured-tables-settings"></a>Параметры подборки таблиц
+
+В разделе **Параметры клиента** параметр **Разрешение подключений к рекомендуемым таблицам** позволяет администраторам Power BI управлять тем, кто в организации может использовать рекомендуемые таблицы из коллекции типов данных Excel. 
+
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Все подключения к рекомендуемым таблицам":::
+
+Подключения к рекомендуемым таблицам также отключаются, если для параметра **Экспорт данных** клиента задано значение **Отключено**.
+
+См. дополнительные сведения о [рекомендуемых таблицах Power BI в Excel](../collaborate-share/service-excel-featured-tables.md).
 
 ## <a name="power-bi-visuals-settings"></a>Параметры визуальных элементов Power BI
 

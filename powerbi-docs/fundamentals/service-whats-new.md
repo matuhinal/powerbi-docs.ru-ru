@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566070"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813354"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Новые возможности службы Power BI
 На этой странице приводятся известные проблемы и описание новых функций **службы Power BI**. Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -174,7 +174,7 @@ ms.locfileid: "83566070"
 
 ### <a name="april-2018"></a>Апрель 2018 г.
 * [Технический документ по защите данных в Power BI](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* [Журналы аудита](../admin/service-admin-auditing.md) службы Power BI включены по умолчанию для клиента Office 365.
+* [Журналы аудита](../admin/service-admin-auditing.md) службы Power BI по умолчанию включены для организации.
 
 ### <a name="march-2018"></a>Март 2018 г.
 * [Сохраняемые фильтры](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) в службе Power BI.
@@ -188,7 +188,7 @@ ms.locfileid: "83566070"
 ### <a name="january-2018"></a>Январь 2018 г.:
 *    предоставление общего доступа к отчетам Power BI и добавление их в "Избранное";
 *    поддержка единого входа OAuth2 и DirectQuery для службы "База данных Azure SQL" и хранилища данных;
-*    аудит в пределах региона — теперь журналы аудита будут храниться в том же регионе Office 365, что и их клиент;
+*    аудит в пределах региона — теперь журналы аудита будут храниться в том же регионе Microsoft 365, что и их клиент;
 *    общедоступная версия [веб-части отчетов Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698) в SharePoint Online;
 *    административный контроль для отключения просмотра визуальных элементов Power BI для всех пользователей в клиенте;
 *    поддержка запланированного обновления Azure Analysis Services (AAS).
@@ -254,7 +254,7 @@ ms.locfileid: "83566070"
 
 ### <a name="january-2017"></a>Январь 2017 г.
 * Администрирование Power BI с помощью [роли администратора Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole).
-* [Журналы аудита Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) теперь общедоступны на портале аудита Office 365.
+* [Журналы аудита Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) теперь общедоступны на портале аудита.
 * Выпущена версия 1.4 [инструментов разработчика и интерфейсов API визуальных элементов Power BI](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/).
 * Стал общедоступным [набор функций потоковой передачи в реальном времени](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/).
 * [Принудительная отправка данных в Power BI с помощью Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) без написания даже строки кода.
@@ -277,7 +277,7 @@ ms.locfileid: "83566070"
 * Используйте преимущества [интеграции Power BI с новыми рабочими областями Microsoft Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/).
 * Проектируйте [визуализации R](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/) в Power BI без необходимости в изучении языка R.
 * Предварительная версия: благодаря службам [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) бизнес-аналитики могут создавать семантические модели бизнес-анализа на основе облачных или локальных данных, чтобы бизнес-пользователи могли получить упрощенное представление своих данных.
-* Новую [роль администратора службы Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) можно назначать пользователям, которым нужен доступ к порталу администрирования Power BI, но не нужен какой-либо иной административный доступ к службам Office 365.
+* Новую [роль Администратора службы Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) можно назначать пользователям, которым нужен доступ к порталу администрирования Power BI, но не нужен какой-либо иной административный доступ к службам.
 * Изучение [данных приложения MYOB Advanced с помощью службы Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/).
 * Просмотр [журнала аудита Power BI](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/) пользователями без прав администратора.
 * Отображение [текстовых столбцов в виде подсказок](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/).
@@ -693,7 +693,7 @@ ms.locfileid: "83566070"
 **4 августа 2015 г.**
 
 * Power BI теперь дает пользователям [Circuit ID](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/) возможность отслеживать все облачные службы связи Circuit ID, позволяя принимать правильные бизнес-решения. Дополнительные сведения о начале работы см. на [странице справки пакета содержимого Circuit ID для Power BI](../connect-data/service-connect-to-services.md).
-* Мы выпустили улучшение для функции "Общий доступ к панели мониторинга", чтобы сделать работу с ней еще проще.  Если ваша организация использует Office 365 для электронной почты, вы можете [предоставить совместный доступ группе рассылки электронной почты](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/) аналогично тому, как вы отправляете сообщение электронной почты в Outlook.  Просто введите адрес группы рассылки и нажмите кнопку "Общий доступ".  Все члены группы рассылки получат по электронной почте приглашение для просмотра панели мониторинга.
+* Мы выпустили улучшение для функции "Общий доступ к панели мониторинга", чтобы сделать работу с ней еще проще.  Если ваша организация использует Microsoft 365 для электронной почты, вы можете [предоставить совместный доступ группе рассылки электронной почты](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/) аналогично тому, как вы отправляете сообщение электронной почты в Outlook.  Просто введите адрес группы рассылки и нажмите кнопку "Общий доступ".  Все члены группы рассылки получат по электронной почте приглашение для просмотра панели мониторинга.
 
 **28 июля 2015 г.**
 
@@ -703,7 +703,7 @@ ms.locfileid: "83566070"
 
 * Мы рады сообщить о выпуске коммерческой версии Power BI. Зарегистрируйтесь для получения [Power BI Pro](service-self-service-signup-for-power-bi.md). В рамках коммерческого выпуска предлагаются новые функции.
 * Новые возможности для визуализации и создания отчетов: новый холст отчета имеет расширенный набор визуализаций, дополнительные возможности управления форматированием заголовков, условных обозначений, осей, цветов, фона и пр.
-* [Группы Power BI](../collaborate-share/service-create-distribute-apps.md): группы обеспечивают широкие возможности для совместной работы, основанные на группах Office 365.
+* [Группы Power BI](../collaborate-share/service-create-distribute-apps.md): группы обеспечивают широкие возможности для совместной работы, основанные на группах Microsoft 365.
 * [Пакеты содержимого организации](../collaborate-share/service-organizational-content-pack-introduction.md): Power BI значительно упрощает создание панелей мониторинга и отчетов, и пользователи теперь могут публиковать это содержимое в соответствующей коллекции организации.
 * [Перенос файлов Excel полностью](../connect-data/service-excel-workbook-files.md): любую книгу Excel, хранящуюся в среде OneDrive для бизнеса, можно перенести в Power BI и просмотреть ее целиком точно так же, как она отображается в Excel Online.
 * [Перенос в CSV-файлах](../connect-data/service-get-data-from-files.md): как и файлы Excel или Power BI Desktop, текстовые CSV-файлы можно использовать в качестве наборов данных для панелей мониторинга и отчетов Power BI.
@@ -714,7 +714,7 @@ ms.locfileid: "83566070"
 
 * Acumatica Cloud ERP предоставляет набор полностью интегрированных приложений управления бизнесом (финансы, распределение, CRM и учет проектов) на базе надежной и гибкой платформы. Используя [пакет содержимого Acumatica](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/) для Power BI, вы можете быстро выполнить подключение и приступить к анализу данных возможностей. Этот пакет содержимого включает готовую панель мониторинга, набор отчетов и проверенный набор данных для просмотра и предоставления таких сведений, как общее число завершенных возможных сделок по дате. Дополнительные сведения см. [здесь](../connect-data/service-connect-to-services.md). 
 * [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/) теперь предлагает полностью управляемую службу Spark. Эта функция позволяет реализовывать такие сценарии, как итеративное машинное обучение и интерактивный анализ данных. Power BI позволяет напрямую подключаться к данным Spark в среде HDInsight, обеспечивая удобный и динамический просмотр. Дополнительные сведения см. в [справочной документации](../connect-data/power-bi-data-sources.md).
-* [Интеграция программы запуска приложений и навигации Office 365](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Одним щелчком мыши теперь можно переходить ко всем приложениям Office 365.
+* [Интеграция программы запуска приложений и навигации Microsoft 365](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Одним щелчком мыши теперь можно переходить ко всем приложениям Microsoft 365.
 * [Указание настраиваемого URL-адреса](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url), по которому будут переходить пользователи при щелчке плитки. Теперь вы можете точно указывать, куда будут переходить пользователи: к конкретному отчету, другой панели мониторинга, отчету SSRS или на внешний веб-сайт. 
 * [Видимость и управление хранилищем](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage), используемым в Power BI
 * [Настройка визуального элемента и полей, отображаемых в функции "Вопросы и ответы"](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)

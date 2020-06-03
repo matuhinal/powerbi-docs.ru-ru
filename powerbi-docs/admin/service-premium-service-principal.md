@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407893"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120958"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб
 
@@ -29,7 +29,7 @@ ms.locfileid: "83407893"
 - Azure Logic Apps
 - Настраиваемые клиентские приложения
 
-Для [новых рабочих областей](../collaborate-share/service-new-workspaces.md) субъекты-службы можно использовать только с конечной точкой XMLA. Классические рабочие области не поддерживаются. У субъекта-службы есть разрешения на выполнение только тех задач, которые необходимы для рабочих областей, которым они назначены. Разрешения назначаются посредством доступа к рабочей области, во многом подобно обычным учетным записям UPN.
+Только [новые рабочие области](../collaborate-share/service-new-workspaces.md) поддерживают подключения к конечной точке XMLA с помощью субъектов-служб. Классические рабочие области не поддерживаются. У субъекта-службы есть разрешения на выполнение только тех задач, которые необходимы для рабочих областей, которым они назначены. Разрешения назначаются посредством доступа к рабочей области, во многом подобно обычным учетным записям UPN.
 
 Для выполнения операций записи в **рабочей нагрузке набора данных** емкости должна быть [конечная точка XMLA, доступная для чтения и записи](service-premium-connect-tools.md#enable-xmla-read-write). Для наборов данных, опубликованных из Power BI Desktop, должна быть включена функция [Расширенный формат метаданных](../connect-data/desktop-enhanced-dataset-metadata.md).
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>Объекты AMO и ADOMD

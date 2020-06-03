@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 004c62c6f99460a9f54a7b055dffe2c8b1adb340
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131970"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120984"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Использование элементов управления Microsoft Cloud App Security в Power BI (предварительная версия)
 
@@ -34,7 +34,7 @@ Microsoft Cloud App Security можно настраивать не только
 Чтобы использовать Microsoft Cloud App Security для своего клиента, вам потребуются следующие лицензии:
 * MCAS: предоставляет возможности OCAS для всех поддерживаемых приложений; входит в состав наборов EMS E5 и M365 E5.
 * CAS-D: предоставляет доступ только для обнаружения MCAS.
-* OCAS: предоставляет возможности MCAS только для Office 365; входит в состав набора Office E5.
+* OCAS: предоставляет возможности MCAS только для Office 365; входит в состав набора Office 365 E5.
 * Необязательно: AAD P1 и AIP P1, чтобы использовать преимущества основных возможностей Microsoft Cloud App Security.
 
 Далее в этой статье описываются шаги, которые необходимо выполнить для использования Microsoft Cloud App Security в Power BI.

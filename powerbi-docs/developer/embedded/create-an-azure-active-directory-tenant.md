@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114734"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794121"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Создание клиента Azure Active Directory для использования с Power BI
 
 Узнайте, как создать клиент Azure Active Directory (Azure AD) для пользовательского приложения, которое вызывает интерфейсы [REST API для Power BI](../automation/rest-api-reference.md).
 
-Клиент представляет организацию в Azure Active Directory. Это выделенный экземпляр службы Azure AD, который организация получает и которым она владеет при регистрации в облачной службе Майкрософт, например Azure, Microsoft Intune или Office 365. Каждый клиент Azure AD уникален и отделен от других клиентов Azure AD.
+Клиент представляет организацию в Azure Active Directory. Это выделенный экземпляр службы Azure AD, который организация получает и которым она владеет при регистрации в облачной службе Майкрософт, например Azure, Microsoft Intune или Microsoft 365. Каждый клиент Azure AD уникален и отделен от других клиентов Azure AD.
 
 После получения клиента Azure AD вы можете определить приложение и назначить ему разрешения, чтобы оно могло вызывать интерфейсы [REST API для Power BI](../automation/rest-api-reference.md).
 
@@ -27,7 +27,7 @@ ms.locfileid: "80114734"
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Создание клиента Azure Active Directory
 
-Для интеграции Power BI в пользовательское приложение нужно определить приложение в Azure AD, для чего нужен каталог Azure AD. Этот каталог является вашим *клиентом*. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Office 365, [нужно настроить среду разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ее также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации, что позволяет обеспечить изоляцию. Или можно просто создать клиент для тестирования.
+Для интеграции Power BI в пользовательское приложение нужно определить приложение в Azure AD, для чего нужен каталог Azure AD. Этот каталог является вашим *клиентом*. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Microsoft 365, [нужно настроить среду разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ее также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации, что позволяет обеспечить изоляцию. Или можно просто создать клиент для тестирования.
 
 Чтобы создать клиент Azure AD, сделайте следующее:
 

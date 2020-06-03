@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 01/29/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e6e18677d3ad9f9f0cf29db03b6e489416354411
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563191"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120644"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Устранение неполадок с анализом в Excel
 
@@ -84,7 +84,7 @@ ms.locfileid: "83563191"
 При попытке обратиться к набору данных, в котором есть подключения к локальным данным служб Analysis Services, может появляться сообщение об ошибке. Функция **Анализ в Excel** поддерживает подключение к наборам данных и отчетам в локальных **службах Analysis Services** с помощью строки подключения, если ваш компьютер входит в тот же домен, что и сервер **служб Analysis Services**, а ваша учетная запись имеет доступ к этому серверу **служб Analysis Services**.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>Не удается перетащить элементы в область значений сводной таблицы (без мер)
-Когда функция **Анализ в Excel** подключается к внешней модели OLAP (именно так Excel подключается к Power BI), для *сводной таблицы* [необходимо определить **меры** во внешней модели](https://support.microsoft.com/kb/234700), так как все вычисления выполняются на сервере. В этом заключается различие в работе с локальным источником данных (например, с таблицами в Excel или с наборами данных в **Power BI Desktop** или **службе Power BI**), когда табличная модель доступна локально и [можно использовать неявные меры](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4), которые создаются динамически и не хранятся в модели данных. В этих случаях работа в Excel отличается от работы в **Power BI Desktop** или **службе Power BI**: в данных могут существовать столбцы, которые можно рассматривать как меры в Power BI, но нельзя использовать как значения (меры) в Excel.
+Когда функция **Анализ в Excel** подключается к внешней модели OLAP (именно так Excel подключается к Power BI), для *сводной таблицы* необходимо определить **меры** во внешней модели, так как все вычисления выполняются на сервере. В этом заключается различие в работе с локальным источником данных (например, с таблицами в Excel или с наборами данных в **Power BI Desktop** или **службе Power BI**), когда табличная модель доступна локально и [можно использовать неявные меры](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4), которые создаются динамически и не хранятся в модели данных. В этих случаях работа в Excel отличается от работы в **Power BI Desktop** или **службе Power BI**: в данных могут существовать столбцы, которые можно рассматривать как меры в Power BI, но нельзя использовать как значения (меры) в Excel.
 
 Чтобы устранить эту проблему, можно воспользоваться такими вариантами:
 
@@ -95,9 +95,9 @@ ms.locfileid: "83563191"
 После определения мер в модели в службе Power BI можно использовать их в области **Значения** в сводных таблицах Excel.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Analyze in Excel](service-analyze-in-excel.md) (Анализ в Excel)
+[Анализ в Excel](service-analyze-in-excel.md)
 
-[Руководство. Создание собственных мер в Power BI Desktop](../transform-model/desktop-tutorial-create-measures.md)
+[Руководство. Создание собственных мер в Power BI Desktop](../transform-model/desktop-tutorial-create-measures.md)
 
 [Меры в PowerPivot](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
