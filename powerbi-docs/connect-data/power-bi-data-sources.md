@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/10/2020
+ms.date: 06/01/2020
 ms.author: kfollis
-ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438092"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273398"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "83438092"
 | Amazon Redshift | Yes | Yes | Yes | Yes | Нет |
 | Рисунки приложений | Yes | Yes | Нет | Нет | Нет |
 | Кубы AtScale | Yes | Yes | Yes | Yes | Нет |
-| Azure Analysis Services | Yes | Yes | Yes | Да <sup>2</sup> | Нет |
+| Azure Analysis Services | Yes | Yes | Yes | Нет | Нет |
 | Хранилище BLOB-объектов Azure | Yes | Yes | Нет | Yes | Нет |
 | Azure Cosmos DB | Yes | Yes | Нет | Нет | Нет |
 | Управление затратами Azure | Yes | Yes | Нет | Нет | Нет |
