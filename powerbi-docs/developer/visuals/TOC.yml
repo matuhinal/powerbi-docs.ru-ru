@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: Добавление модульных тестов для проекта визуальных элементов
           href: unit-tests-introduction.md
+        - name: "Создание визуального элемента\_R с воронкообразной диаграммой из R-скрипта"
+          href: funnel-plot-from-r.md
     - name: Основные понятия
       items:
         - name: "Структура проекта визуального элемента Power\_BI"
