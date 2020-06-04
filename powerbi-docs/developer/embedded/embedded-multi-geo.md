@@ -91,4 +91,4 @@ ms.locfileid: "83149259"
 
 * [Поддержка нескольких регионов в Power BI Premium (предварительная версия)](../../admin/service-admin-premium-multi-geo.md)
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

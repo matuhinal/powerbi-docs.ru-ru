@@ -16,11 +16,11 @@ ms.lasthandoff: 05/13/2020
 ms.locfileid: "83276106"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Получение уведомлений в мобильных приложениях Power BI
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
+| iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)

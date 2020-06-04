@@ -64,4 +64,4 @@ ms.locfileid: "83349225"
 
 [Основные понятия для разработчиков отчетов](service-basic-concepts.md)
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

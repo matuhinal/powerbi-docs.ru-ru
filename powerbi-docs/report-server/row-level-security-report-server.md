@@ -57,7 +57,7 @@ ms.locfileid: "83277992"
 
 1. Укажите в текстовом поле пользователя или группу в формате имени пользователя "ДОМЕН\пользователь" и выберите роли, которые вы хотите им назначить. Этот участник должен быть в пределах вашей организации.   
 
-    ![Add member to role (Добавление участника в роль)](media/row-level-security-report-server/power-bi-report-server-add-members.png)
+    ![Добавление участника в роль](media/row-level-security-report-server/power-bi-report-server-add-members.png)
 
     В зависимости от настройки службы Active Directory можно также ввести имя участника-пользователя. В этом случае сервер отчетов отображает соответствующее имя пользователя в списке.
 
@@ -97,7 +97,7 @@ ms.locfileid: "83277992"
 
  
 
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ 
+## <a name="faq"></a>Часто задаваемые вопросы 
 
 ### <a name="can-i-create-these-roles-for-analysis-services-data-sources"></a>Можно ли создавать роли для источников данных служб Analysis Services? 
 
@@ -121,5 +121,5 @@ ms.locfileid: "83277992"
 [Что такое Сервер отчетов Power BI?](get-started.md) 
 [Руководство для администратора](admin-handbook-overview.md)  
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

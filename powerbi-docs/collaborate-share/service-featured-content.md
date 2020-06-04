@@ -46,7 +46,7 @@ ms.locfileid: "83142312"
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Настройки рекомендуемого содержимого":::
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
     Теперь все пользователи, у которых есть доступ к этой панели мониторинга или отчету, увидят их в разделе **Подборка** на **главной странице**.
 
@@ -60,4 +60,4 @@ ms.locfileid: "83142312"
 
 * [Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Управление рекомендуемым содержимым на портале администрирования](../admin/service-admin-portal.md#manage-featured-content)
-* У вас появились вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* У вас появились вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
