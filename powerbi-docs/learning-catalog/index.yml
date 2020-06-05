@@ -9,12 +9,12 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: c53b6e74933557937f4a9449925199d6325f78e3
+  ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439303"
+  ms.lasthandoff: 06/04/2020
+  ms.locfileid: "84427815"
 landingContent:
 - title: Бизнес-руководители
   linkLists:
@@ -38,9 +38,9 @@ landingContent:
       url: learning-catalog-report-creator.md#get-started
     - text: Панели мониторинга
       url: learning-catalog-report-creator.md#dashboards
-    - text: Проектирование отчетов
+    - text: Создание отчетов
       url: learning-catalog-report-creator.md#report-design
-    - text: 'Визуализация:'
+    - text: Визуализация
       url: learning-catalog-report-creator.md#visualization
     - text: Интеграция
       url: learning-catalog-report-creator.md#integration
@@ -52,7 +52,7 @@ landingContent:
       url: learning-catalog-data-analyst.md#
     - text: Начало работы
       url: learning-catalog-data-analyst.md#get-started
-    - text: Рекомендации
+    - text: Советы и рекомендации
       url: learning-catalog-data-analyst.md#best-practices
     - text: Примеры
       url: learning-catalog-data-analyst.md#case-studies
@@ -60,11 +60,13 @@ landingContent:
       url: learning-catalog-data-analyst.md#dashboards
     - text: Визуализации
       url: learning-catalog-data-analyst.md#visualizations
+    - text: DAX
+      url: learning-catalog-data-analyst.md#dax
     - text: Управление и развертывание
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: Интеграция
       url: learning-catalog-data-analyst.md#integration
-    - text: безопасность
+    - text: Безопасность
       url: learning-catalog-data-analyst.md#security
 - title: Администраторы
   linkLists:
@@ -86,8 +88,6 @@ landingContent:
       url: learning-catalog-developer.md#get-started
     - text: Внедренный
       url: learning-catalog-developer.md#embedded
-    - text: DAX
-      url: learning-catalog-developer.md#dax
     - text: Разработка
       url: learning-catalog-developer.md#development
 - title: Роли партнерского предпродажного обслуживания
@@ -104,7 +104,7 @@ landingContent:
       url: learning-catalog-functional-consultant.md
     - text: Начало работы
       url: learning-catalog-functional-consultant.md#get-started
-    - text: Рекомендации
+    - text: Советы и рекомендации
       url: learning-catalog-functional-consultant.md#best-practices
     - text: Примеры
       url: learning-catalog-functional-consultant.md#case-studies
@@ -114,7 +114,7 @@ landingContent:
       url: learning-catalog-functional-consultant.md#governance-deployment
     - text: Интеграция
       url: learning-catalog-functional-consultant.md#integration
-    - text: безопасность
+    - text: Безопасность
       url: learning-catalog-functional-consultant.md#security
     - text: Визуализации
       url: learning-catalog-functional-consultant.md#visualizations
