@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348880"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219488"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Включение вопросов и ответов для активных подключений в Power BI
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Что такое локальный шлюз данных?  Что такое активное подключение?
-Наборы данных в Power BI можно импортировать в Power BI или создавать активное подключение к этим данным. Наборы данных активного подключения часто называют "локальными". Для управления активными подключениями используется [шлюз](../connect-data/service-gateway-onprem.md), а обмен данными и запросами осуществляется с помощью активных запросов.
+
+Вы можете импортировать наборы данных в Power BI или создать *активные подключения* к ним. Наборы данных с активными подключениями часто располагаются локально. В этом случае вы управляете активными подключениями с помощью [шлюза](../connect-data/service-gateway-onprem.md). Данные и запросы пересылаются с помощью динамических запросов.
+
+> [!NOTE]
+> Активные подключения также поддерживают наборы данных Azure Analysis Services, которые не требуют наличия шлюза.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>Вопросы и ответы для наборов данных локальных шлюзов
 Для того чтобы использовать вопросы и ответы с наборами данных, доступ к которым осуществляется через шлюз, их необходимо предварительно активировать.
@@ -60,9 +63,9 @@ ms.locfileid: "83348880"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Локальный шлюз данных](../connect-data/service-gateway-onprem.md)  
+- [On-premises data gateway (Локальный шлюз данных)](../connect-data/service-gateway-onprem.md)  
 - [Управление своим источником данных — службы Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md)  
 - [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)  
 - [Общие сведения о функции "Вопросы и ответы" в Power BI](../consumer/end-user-q-and-a.md)  
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -1,29 +1,36 @@
 ---
 title: Устранение неполадок в сценариях обновления
-description: 'Устранение неполадок в сценариях обновления '
+description: Устранение неполадок в сценариях обновления
 author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119794"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160256"
 ---
-# <a name="troubleshooting-refresh-scenarios"></a>Устранение неполадок в сценариях обновления 
+# <a name="troubleshooting-refresh-scenarios"></a>Устранение неполадок в сценариях обновления
 
 Здесь можно найти сведения о различных сценариях, с которыми вы можете столкнуться при обновлении данных в службе Power BI.
 
 > [!NOTE]
 > Если возникла проблемная ситуация, не указанная ниже, вы можете запросить дополнительную помощь на [сайте сообщества](https://community.powerbi.com/) или отправить [запрос в службу поддержки](https://powerbi.microsoft.com/support/).
 >
->
+
+Обязательно обеспечивайте соблюдение и проверку базовых требований к обновлению. Они включают в себя следующие:
+
+* проверка актуальности версии шлюза;
+* проверка того, что для отчета выбран шлюз (в противном случае источник данных может быть изменен или отсутствовать).
+
+Убедившись в том, что эти требования выполнены, ознакомьтесь со следующими разделами, чтобы узнать больше об устранении неполадок. 
+
 
 ## <a name="email-notifications"></a>Уведомления по электронной почте
 

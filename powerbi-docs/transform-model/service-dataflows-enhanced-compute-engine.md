@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320522"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315909"
 ---
 # <a name="the-enhanced-compute-engine"></a>Расширенное ядро вычислений
 
@@ -31,6 +31,9 @@ ms.locfileid: "83320522"
 Расширенное ядро вычислений включается на странице **Параметры емкости** в службе Power BI в разделе **Потоки данных**. По умолчанию расширенное ядро вычислений **отключено**. Чтобы включить его, нажмите переключатель **Вкл.** , как показано на следующем рисунке, и сохраните настройки. 
 
 ![Включение расширенного ядра вычислений](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> Модуль расширенных вычислений работает только с емкостями Power BI уровня A3 и выше.
 
 После включения расширенного ядра вычислений вернитесь к потокам данных, и вы увидите повышение производительности в любой вычисленной сущности, которая выполняет сложные операции, такие как операции *соединения* или *группирования* потоков данных, созданных из существующих связанных объектов в той же емкости. 
 

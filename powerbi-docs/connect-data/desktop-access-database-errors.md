@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301340"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273375"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Устранение неполадок с импортом XLS-файлов Excel и Access в Power BI Desktop
 
@@ -30,7 +30,7 @@ ms.locfileid: "83301340"
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>Ситуация 2. Разрядность версии ядра СУБД Access (32-разрядная или 64-разрядная) отличается от разрядности используемой версии Power BI Desktop
 
-Такая ситуация часто возникает, когда установлена 32-разрядная версия Microsoft Office и 64-разрядная версия Power BI Desktop. Может возникать и обратная ситуация, и в обоих случаях имеет место несовпадение версий. Если вы используете подписку Office 365, см. раздел [Ситуация 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription) для устранения других неполадок. Устранить эту ошибку несоответствия можно любым из следующих способов.
+Такая ситуация часто возникает, когда установлена 32-разрядная версия Microsoft Office и 64-разрядная версия Power BI Desktop. Может возникать и обратная ситуация, и в обоих случаях имеет место несовпадение версий. Если вы используете подписку Microsoft 365, см. раздел [Ситуация 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription) для устранения других неполадок. Устранить эту ошибку несоответствия можно любым из следующих способов.
 
 ### <a name="solution-1"></a>Решение 1
 
@@ -46,7 +46,7 @@ ms.locfileid: "83301340"
  
 1. На появившемся экране установите флажок рядом с элементом PBIDesktop.msi для 32-разрядной версии или рядом с элементом PBIDesktop_x64.msi для 64-разрядной версии. 
 
-   На следующем экране выбрана 64-разрядная версия.
+   На следующем снимке экрана выбрана 64-разрядная версия.
    
    ![Выберите тип скачивания Power BI Desktop](media/desktop-access-database-errors/desktop-access-errors-2.png)
    
@@ -79,9 +79,9 @@ ms.locfileid: "83301340"
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Ситуация 3. Проблемы при использовании файлов Access или XLS с подпиской на Office 365
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>Ситуация 3. Проблемы при использовании файлов Access или XLS с подпиской Microsoft 365
 
-Если используется подписка на Office 365 (**Office 2013** или **Office 2016**), поставщик ядра СУБД Access регистрируется в расположении виртуального реестра с доступом *только* к процессам Microsoft Office. В результате подсистема гибридного веб-приложения (отвечает за запуск отличных от Office 365 Excel и Power BI Desktop решений и не является процессом Office) не может использовать поставщик ядра СУБД Access.
+Если используется подписка Microsoft 365 (**Office 2013** или **Office 2016**), поставщик ядра СУБД Access регистрируется в расположении виртуального реестра с доступом *только* к процессам Microsoft Office. В результате подсистема гибридного веб-приложения (отвечает за запуск отличных от Office 365 Excel и Power BI Desktop решений и не является процессом Office) не может использовать поставщик ядра СУБД Access.
 
 Чтобы исправить эту ситуацию, можно [скачать и установить распространяемый пакет ядра СУБД Access](https://www.microsoft.com/download/details.aspx?id=13255), который соответствует разрядности версии установки Power BI Desktop. См. дополнительные сведения о разрядности версий в предыдущих разделах.
 
