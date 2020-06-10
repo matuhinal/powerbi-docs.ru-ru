@@ -76,7 +76,7 @@
               href: end-user-personalize-visuals.md
             - name: Отчеты с разбивкой на страницы в Power BI
               items:
-                - name: Отчеты с разбиением на страницы
+                - name: Отчеты с разбивкой на страницы
                   href: end-user-paginated-report.md
                 - name: Просмотр отчета с разбивкой на страницы
                   href: paginated-reports-view-power-bi-service.md
@@ -122,7 +122,7 @@
               href: end-user-preview-features.md
             - name: "Получение уведомлений в службе Power\_BI"
               href: end-user-notification-center.md
-        - name: Получение данных
+        - name: Получить данные
           items:
             - name: "Рабочие области в Power\_BI"
               href: end-user-workspaces.md
@@ -132,7 +132,7 @@
               href: end-user-app-view.md
             - name: Подключение к службам
               href: end-user-connect-to-services.md
-            - name: Получение примера приложения из AppSource
+            - name: Работа с примером приложения из Marketplace
               href: end-user-app-marketing.md
         - name: Задать вопросы о данных
           items:
