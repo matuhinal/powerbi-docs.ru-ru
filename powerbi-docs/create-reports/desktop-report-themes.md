@@ -7,94 +7,115 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f29d59d3b10f8dc963d8ba1965638bc01bae0c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335702"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273228"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Использование тем отчетов в Power BI Desktop
 
 С помощью *тем отчетов* Power BI Desktop можно применить изменения макета ко всему отчету, например использовать корпоративные цвета, изменить наборы значков или применить новое визуальное форматирование по умолчанию. При применении темы отчета для всех визуальных элементов в отчете используются цвета и форматирование из выбранной темы в качестве значений по умолчанию. Для цветовых схем есть несколько исключений, которые описаны далее в этой статье.
 
-![Темы отчетов](media/desktop-report-themes/report-themes-1a.png)
+Чтобы выбрать темы отчета, в ленте **Представление** откройте раскрывающийся список **Темы** и выберите нужную тему. Вам будут доступны такие же темы, как в других продуктах Майкрософт, такие как Microsoft PowerPoint.
 
-Существует два типа тем отчетов: встроенные темы отчетов и файлы пользовательских тем отчетов.
+![Темы отчетов](media/desktop-report-themes/report-themes-01.png)
 
-- Встроенные темы отчетов предоставляют различные виды стандартных цветовых схем, которые устанавливаются вместе с Power BI Desktop. Вы можете выбрать встроенные темы отчетов непосредственно в меню Power BI Desktop.
+Темы отчетов делятся на два типа: встроенные и пользовательские.
 
-- Файлы пользовательских тем отчетов — это темы отчетов, созданные в JSON-файлах, которые определяют их базовую структуру. Для применения пользовательской темы отчета необходимо импортировать этот JSON-файл в Power BI Desktop и применить его к отчету.
+- **Встроенные** темы отчетов предоставляют различные типы стандартных цветовых схем, которые устанавливаются вместе с Power BI Desktop. Вы можете выбрать встроенные темы отчетов непосредственно в меню Power BI Desktop.
 
-  Можно также настроить существующую тему отчета в Power BI Desktop с помощью [диалогового окна **Настройка темы**](#create-and-customize-a-theme-in-power-bi-desktop).
+- **Пользовательские** темы отчетов создаются путем редактирования текущей темы и сохранения ее как пользовательской либо путем создания собственной настраиваемой темы из JSON-файла. JSON-файл позволяет точно управлять многими аспектами темы отчета, как описано далее в этой статье. 
 
-Вы можете настроить и стандартизировать почти все элементы, перечисленные в разделе **Формат** области **Визуализации**, либо непосредственно в Power BI Desktop, либо с помощью JSON-файла темы отчета. Цель — дать пользователю полный контроль над внешним видом отчета по умолчанию вплоть до мелочей.
+Рассмотрим, как работают темы отчетов, а затем перейдем к созданию пользовательских тем отчетов.
+
 
 ## <a name="how-report-themes-work"></a>Как работают темы отчета
 
-Чтобы применить тему для отчета Power BI Desktop, можно выбрать одну из [доступных встроенных тем отчетов](#built-in-report-themes), [импортировать пользовательскую тему в файле JSON](#import-custom-report-theme-files) или [использовать диалоговое окно **Настройка темы**](#create-and-customize-a-theme-in-power-bi-desktop).
+Применить тему отчета к отчету Power BI Desktop можно одним из следующих способов.
 
-Чтобы получить подробные сведения о том, какие значения по умолчанию можно настроить, ознакомьтесь с разделом [формат JSON для темы отчета](#report-theme-json-file-format) ниже.
+* Выбрать тему из [доступных тем отчетов](#built-in-report-themes), встроенных в Power BI Desktop.
+* Настроить тему в диалоговом окне **Настройка темы**.
+* [Импортировать JSON-файл пользовательской темы](#import-custom-report-theme-files).
+
+Рассмотрим каждый из этих вариантов по очереди.
 
 ### <a name="built-in-report-themes"></a>Встроенные темы отчетов
 
 Для выбора доступной встроенной темы отчета сделайте следующее:
 
-1. Щелкните **Переключить тему** на ленте **Главная**.
+1. Откройте раскрывающееся меню **Темы**, нажав кнопку **Переключить тему** на ленте **Представление**.
 
-   ![Выбор темы отчета](media/desktop-report-themes/report-themes-2a.png)
+   ![Выбор темы отчета](media/desktop-report-themes/report-themes-02.png)
 
-2. Выберите одну из включенных тем в раскрывающемся меню.
+2. Выберите одну из включенных тем в открывшемся раскрывающемся меню.
+
+   ![Выбор темы отчета](media/desktop-report-themes/report-themes-03.png)
 
    Теперь эта тема отчета будет применена к отчету.
 
-В приведенной ниже таблице указаны доступные встроенные темы отчетов.
+    В приведенной ниже таблице указаны доступные встроенные темы отчетов.
+    
+    | Встроенная тема отчета | Стандартная последовательность цветов |
+    |------ |---------- |
+    | По умолчанию | ![По умолчанию](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+    | Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+    | Руководитель | ![Руководитель](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+    | Граница| ![Граница](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+    | Инновации | ![Инновации](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+    | Цветение | ![Цветение](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+    | Прилив| ![Прилив](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+    | Температура | ![Температура](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+    | Солнечная| ![Солнечная](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+    | Дивергент | ![Дивергент](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+    | Буря | ![Буря](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+    | Классическая | ![Классическая](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+    | Городской парк | ![Городской парк](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+    | Аудитория | ![Аудитория](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+    | Различимая для людей с цветовой слепотой | ![Различимая для людей с цветовой слепотой](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+    | Электрическая | ![Электрическая](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+    | Высокая контрастность | ![Высокая контрастность](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | Закат | ![Закат](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+    | Сумерки | ![Сумерки](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+    
+3. Вы также можете просмотреть коллекцию тем, созданную членами Сообщества Power BI, выбрав пункт **Коллекция тем** в раскрывающемся меню "Темы".
 
-| Встроенная тема отчета | Стандартная последовательность цветов |
-|------ |---------- |
-| По умолчанию | ![По умолчанию](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Руководитель | ![Руководитель](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Граница| ![Граница](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| Инновации | ![Инновации](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Цветение | ![Цветение](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Прилив| ![Прилив](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Температура | ![Температура](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Солнечная| ![Солнечная](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Дивергент | ![Дивергент](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Буря | ![Буря](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Классическая | ![Классическая](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| Городской парк | ![Городской парк](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| Аудитория | ![Аудитория](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| Различимая для людей с цветовой слепотой | ![Различимая для людей с цветовой слепотой](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| Электрическая | ![Электрическая](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| Высокая контрастность | ![Высокая контрастность](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| Закат | ![Закат](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| Сумерки | ![Сумерки](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+   ![Коллекция тем](media/desktop-report-themes/report-themes-04.png)
+
+    Вы можете выбрать желаемую тему из коллекции и загрузить соответствующий JSON-файл. 
+
+    Чтобы установить скачанный файл, выберите **Поиск тем** из раскрывающегося списка **Темы**, откройте папку, в которую вы сохранили JSON-файл, и выберите этот файл, чтобы импортировать тему в Power BI Desktop как новую.
+
+    При успешном выполнении Power BI откроет диалоговое окно с подтверждением импорта.
+
+   ![Тема импортирована](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="customize-report-themes"></a>Настройка тем отчетов
 
-Начиная с выпуска Power BI Desktop за декабрь 2019 года доступны два способа настройки темы отчета:
+Вы можете настроить и стандартизировать почти все элементы, перечисленные в разделе **Формат** области **Визуализации**, либо непосредственно в Power BI Desktop, либо с помощью JSON-файла темы отчета. Цель — дать пользователю полный контроль над внешним видом отчета по умолчанию вплоть до мелочей.
+
+Темы отчетов можно настраивать двумя способами.
 
 - [Создание и настройка темы в Power BI Desktop](#create-and-customize-a-theme-in-power-bi-desktop)
 - [создание и настройка JSON-файла пользовательской темы отчета](#introduction-to-report-theme-json-files).
 
+Рассмотрим каждый из этих способов в следующих разделах.
+
 ### <a name="create-and-customize-a-theme-in-power-bi-desktop"></a>Создание и настройка темы в Power BI Desktop
 
-Чтобы настроить тему непосредственно в Power BI Desktop, сделайте следующее:
+Чтобы настроить тему непосредственно в Power BI Desktop, можно выбрать тему, близкую к нужной, и внести в нее несколько исправлений. Сначала выберите близкую тему (или начните просто с любой темы и настройте ее) и выполните следующие действия.
 
-1. На ленте **Главная** выберите **Переключить тему** > **Настроить текущую тему**.
+1. В ленте **Представление** откройте раскрывающийся список **Темы** и выберите пункт **Настроить текущую тему**.
 
-   Откроется диалоговое окно, в котором отображаются способы настройки темы отчета, примененной к отчету в настоящее время.
+   ![Настройка темы](media/desktop-report-themes/report-themes-06.png)
 
-   ![Настройка темы](media/desktop-report-themes/report-themes_5b.png)
+2. Откроется диалоговое окно, в котором можно внести в текущую тему любые необходимые изменения, а затем сохранить эти параметры как новую тему.
 
-2. Если вам нравится имеющаяся тема, но вы хотите внести некоторые изменения, выберите (или импортируйте) тему, а затем щелкните **Настроить текущую тему**.
-
-   ![Настройка текущей темы](media/desktop-report-themes/report-themes_5c.png)
+   ![Настройка текущей темы](media/desktop-report-themes/report-themes-07.png)
 
 Настраиваемые параметры темы разделены в окне **Настройка темы** на следующие категории:
 
@@ -113,11 +134,11 @@ ms.locfileid: "83335702"
 
 ### <a name="import-custom-report-theme-files"></a>Импорт файлов пользовательских тем отчетов
 
-Чтобы импортировать файл пользовательской темы отчета, сделайте следующее:
+Чтобы импортировать пользовательский файл темы отчета, выполните следующие действия.
 
-1. Щелкните **Переключить тему** на ленте **Главная**, а затем в раскрывающемся меню выберите пункт **Импортировать тему**.
+1. В ленте **Представление** откройте раскрывающийся список **Темы** и выберите **Поиск тем**.
 
-   ![Импорт темы](media/desktop-report-themes/report-themes-3a.png)
+   ![Импорт темы](media/desktop-report-themes/report-themes-08.png)
 
    Откроется окно, позволяющее перейти к расположению JSON-файла темы.
 
@@ -127,7 +148,7 @@ ms.locfileid: "83335702"
 
    Power BI Desktop сообщит об успешной загрузке файла темы, отобразив соответствующее сообщение.
 
-   ![Тема успешно импортирована](media/desktop-report-themes/report-themes_5.png)
+   ![Тема импортирована](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="introduction-to-report-theme-json-files"></a>Общие сведения о JSON-файлах тем отчетов
 
@@ -172,7 +193,7 @@ JSON-файл темы отчета содержит следующие стро
 
 3. Выберите раскрывающийся список элемента, чтобы просмотреть сведения о **цветах темы** отчета.
 
-   ![Цвета темы](media/desktop-report-themes/report-themes_8.png)
+   ![Цвета темы](media/desktop-report-themes/report-themes-09.png)
 
 Например, просмотрите цвета темы, применив несколько оттенков зеленого и коричневого цветов из темы отчета St. Patrick's Day. Видите все оттенки зеленого? Они появились, потому что были частью импортированной и примененной темы отчета.
 
@@ -184,7 +205,7 @@ JSON-файл темы отчета содержит следующие стро
 
 Кроме того, если установить цвет точки данных в разделе **Цвета темы** палитры цветов вручную, этот цвет *не* обновится, когда будет применена тема отчета. Чтобы цвета восстанавливались по умолчанию, т. е. обновлялись при применении новой темы отчета, выберите параметр **Вернуть значения по умолчанию** или выберите цвет из палитры **Цвета темы** в средстве выбора цветов.
 
-![Вернуть значения по умолчанию](media/desktop-report-themes/report-themes_9.png)
+![Вернуть значения по умолчанию](media/desktop-report-themes/report-themes-10.png)
 
 В темах отчета не поддерживаются многие визуальные элементы Power BI.
 
@@ -230,9 +251,9 @@ JSON-файл темы отчета содержит следующие стро
 
 Благодаря темам отчетов отчеты Power BI Desktop могут отражать ваше настроение, корпоративный стиль организации, текущее время года или праздник.
 
-## <a name="export-report-themes-preview"></a>Экспорт тем отчетов (предварительная версия)
+## <a name="export-report-themes"></a>Экспорт тем отчетов
 
-Начиная с выпуска Power BI Desktop за декабрь 2019 года доступна возможность экспорта текущей примененной темы отчета непосредственно из Power BI Desktop в JSON-файл. После экспорта тему отчета можно повторно использовать в других отчетах. Эта опция позволяет экспортировать JSON-файл для большинства встроенных тем. Единственными исключениями являются базовые темы, "Классическая" и "По умолчанию", которые при импорте могут основываться на других темах.
+Вы можете экспортировать применяемую в данный момент тему отчета из Power BI Desktop непосредственно в JSON-файл. После экспорта тему отчета можно повторно использовать в других отчетах. Эта опция позволяет экспортировать JSON-файл для большинства встроенных тем. Единственными исключениями являются базовые темы, "Классическая" и "По умолчанию", которые при импорте могут основываться на других темах.
 
 Чтобы экспортировать текущую примененную тему из Power BI Desktop, сделайте следующее:
 

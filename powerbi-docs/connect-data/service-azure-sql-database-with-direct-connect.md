@@ -10,18 +10,21 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aa1ae57d928633ce61ab66a8e0e905118c3a7877
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: aa4f07e32d66e7f9bdb2da7d210b2cc8c178b172
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302168"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316047"
 ---
 # <a name="azure-sql-database-with-directquery"></a>База данных SQL Azure с DirectQuery
 
 Узнайте, как можно подключиться непосредственно к базе данных SQL Azure и создавать отчеты, в которых используются реальные данные. Можно хранить данные в источнике, а не в Power BI.
 
 При использовании DirectQuery запросы отправляются обратно в Базу данных SQL Azure при просмотре данных в представлении отчетов. Этот процесс рекомендуется пользователям, знакомым с базами данных и сущностями, к которым они подключаются.
+
+> [!Important]
+> Согласно описанию, база данных SQL Azure не защищена виртуальной сетью и для нее не включена конечная точка приватного канала.
 
 **Примечания.**
 
@@ -55,6 +58,6 @@ ms.locfileid: "83302168"
 
 * [Использование DirectQuery в Power BI Desktop](desktop-use-directquery.md)  
 * [Что такое Power BI?](../fundamentals/power-bi-overview.md)  
-* [Получение данных для Power BI](service-get-data.md)  
+* [Получение данных для Power BI](service-get-data.md)  
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

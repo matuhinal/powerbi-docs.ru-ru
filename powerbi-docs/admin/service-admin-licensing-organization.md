@@ -1,6 +1,6 @@
 ---
-title: Лицензирование Power BI в организации
-description: Общие сведения о различных типах лицензий, доступных в Power BI, а также о том, как администраторы приобретают лицензии для своей организации и управляют ими.
+title: Лицензирование Power BI для пользователей в организации
+description: Общие сведения о различных типах пользовательских лицензий, доступных в Power BI, а также о том, как администраторы приобретают лицензии для пользователей в своей организации и управляют ими.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563495"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160003"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>Лицензирование Power BI в организации
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Лицензирование службы Power BI для пользователей в организации
 
 Действия, которые может выполнять пользователь в службе Power BI, зависят от типа имеющейся у пользователя лицензии. Уровень доступа, предоставляемый лицензией, зависит от того, назначена ли рабочая область, к которой выполняется доступ, емкости Power BI Premium. У каждого пользователя службы Power BI должна быть лицензия.
 

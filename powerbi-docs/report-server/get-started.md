@@ -4,17 +4,17 @@ description: Общие сведения о Сервере отчетов Power 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/14/2020
+ms.date: 05/28/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 55a3614c5da2ea8b5ea1a8cbb6ee87b20c542df4
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438299"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219574"
 ---
 # <a name="what-is-power-bi-report-server"></a>Что такое Сервер отчетов Power BI?
 
@@ -26,7 +26,9 @@ ms.locfileid: "83438299"
 Функции Сервера отчетов Power BI похожи на функции SQL Server Reporting Services и веб-службы Power BI. Как и служба Power BI, Сервер отчетов Power BI позволяет размещать отчеты Power BI (PBIX), файлы Excel и отчеты с разбиением на страницы (RDL). Как и служба Reporting Services, Сервер отчетов Power BI размещается локально. Функции Сервера отчетов Power BI являются надмножеством служб Reporting Services. Это означает, что вы можете выполнять в нем любые функции Reporting Services, а также работать с отчетами Power BI. См. дополнительные сведения о [сравнении Сервера отчетов Power BI и службы Power BI](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Лицензирование Сервера отчетов Power BI
-Сервер отчетов Power BI можно использовать с двумя разными лицензиями: [Power BI Premium](../admin/service-premium-what-is.md) или SQL Server Enterprise Edition по программе Software Assurance. Подробнее см. в разделе [Корпоративное лицензирование Майкрософт](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True). Лицензия Power BI Premium позволяет создавать гибридные развертывания, сочетающие облачные и локальные технологии.  
+Сервер отчетов Power BI можно использовать с двумя разными лицензиями: [Power BI Premium](../admin/service-premium-what-is.md) или SQL Server Enterprise Edition по программе Software Assurance. Подробнее см. в разделе [Корпоративное лицензирование Майкрософт](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True). Лицензия Power BI Premium позволяет создавать гибридные развертывания, сочетающие облачные и локальные технологии.
+
+При публикации Power BI отчетов на Сервер отчетов Power BI требуется лицензия Power BI Pro. Эта лицензия не нужна для просмотра отчетов Power BI и работы с ними на Сервере отчетов Power BI.
 
 > [!NOTE]
 > Для Power BI Premium Сервер отчетов Power BI доступен только в SKU серии P. Он не входит в SKU серии EM.

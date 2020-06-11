@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693843"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316070"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Мониторинг метрик использования в интерфейсе новой рабочей области
 
@@ -132,7 +132,7 @@ ms.locfileid: "83693843"
 
 ## <a name="disable-usage-metrics-reports"></a>Отключение отчета на основе метрик использования
 
-Отчеты на основе метрик использования — это функция, которую администратор Power BI или Microsoft 365 может включать или выключать. Администраторы могут управлять доступом отдельных пользователей к метрикам использования. По умолчанию эти сведения доступны для всех корпоративных пользователей. Подробнее см. раздел [Управление метриками использования](../admin/service-admin-portal.md#control-usage-metrics) в статье о портале администратора.
+Отчеты на основе метрик использования — это функция, которую администратор Power BI или глобальный администратор могут включать или выключать. Администраторы могут управлять доступом отдельных пользователей к метрикам использования. По умолчанию эти сведения доступны для всех корпоративных пользователей. Подробнее см. раздел [Управление метриками использования](../admin/service-admin-portal.md#control-usage-metrics) в статье о портале администратора.
 
 > [!NOTE]
 > Только администраторы клиента Power BI могут открывать портал администрирования и изменять параметры.

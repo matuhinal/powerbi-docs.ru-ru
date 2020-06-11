@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273898"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272984"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -169,8 +169,7 @@ ms.locfileid: "83273898"
 
 У давно сформированных организаций, как правило, уже есть администратор Power BI. Администратором Power BI может быть сотрудник с любой из следующих ролей:
 
-- администратор Office 365;
-- администратор Azure Active Directory;
+- Глобальные администраторы
 - пользователь с ролью администратора службы Power BI в Azure Active Directory.
 
 Вам необходимо [найти одного из этих сотрудников](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) в своей организации и попросить его изменить [параметры публикации в Интернете для клиента](../admin/service-admin-portal.md#publish-to-web) на портале администрирования.

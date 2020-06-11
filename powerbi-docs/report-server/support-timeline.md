@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/27/2020
+ms.openlocfilehash: 288e511c38df0326d07fad87f5d239cd5b0cfec0
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77527575"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126280"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Сроки предоставления поддержки для сервера отчетов Power BI
 
@@ -30,14 +30,15 @@ ms.locfileid: "77527575"
 
 | **Версия** | **Период доступности** | **Дата окончания поддержки** |
 | --- | --- | --- |
-| Июнь 2017 г. |12 июня 2017 г. |Больше не поддерживается |
+| Июнь 2017 г. |12 июня 2017 г. |Больше не поддерживается |
 | Октябрь 2017 г. |31 октября 2017 г. | Больше не поддерживается |
 | Март 2018 г. | 19 марта 2018 г. | Больше не поддерживается |
 | Август 2018 г. | 15 августа 2018 г. | Больше не поддерживается |
 | Январь 2019 г. | 23 января 2019 г. | Больше не поддерживается |
-| Май 2019 г. | 22 мая 2019 г. | 22 мая 2020 г. |
+| Май 2019 г. | 22 мая 2019 г. | Больше не поддерживается |
 | Сентябрь 2019 г. | Сентябрь 2019 г. | Сентябрь 2020 г. 
 | Январь 2020 г. | Январь 2020 г. | Январь 2021 г.
+| Май 2020 г. | Май 2020 г. | Май 2021 г.
 
 Чтобы скачать сервер отчетов Power BI и службу Power BI Desktop, оптимизированную для сервера отчетов Power BI, перейдите на страницу [Локальная работа с отчетами с использованием сервера Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
@@ -47,4 +48,4 @@ ms.locfileid: "77527575"
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

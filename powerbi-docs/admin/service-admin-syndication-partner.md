@@ -1,26 +1,27 @@
 ---
-title: Невозможно добавить Power BI к партнеру по распространению Office 365
-description: Невозможно добавить Power BI в предложения партнера по распространению подписок на Microsoft 365. Модель распространения подписок — это модель приобретения, используемая для Microsoft 365.
+title: Приобретение Power BI через партнера Microsoft 365
+description: Сведения о том, как добавить Power BI в подписку Microsoft 365, приобретенную через партнера. Модель распространения подписок — это модель приобретения, используемая для Microsoft 365.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bc00c69869ea58aee8b4d0a79fce6b24489bde18
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812342"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159762"
 ---
-# <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Невозможно добавить Power BI к партнерской подписке на Office 365
+# <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Добавление Power BI в подписку Microsoft 365 от партнера
 
 Microsoft 365 позволяет компаниям перепродавать пакеты Microsoft 365, интегрированные в их собственные решения. В этом случае такие компании и решения являются единой точкой контакта по вопросам приобретения, выставления счетов и поддержки.
 
-Если вы заинтересованы в приобретении Power BI вместе с подпиской Office 365, мы рекомендуем обратиться к своему партнеру. Если ваш партнер сейчас не предлагает Power BI, вы можете найти другие варианты.
+Если вы хотите добавить Power BI в свою подписку Microsoft 365, обратитесь к своему партнеру. Если ваш партнер пока не предлагает Power BI, вы можете выполнить описанные ниже действия.
 
 ## <a name="work-with-your-partner-to-purchase-power-bi"></a>Приобретение Power BI через партнера
 
@@ -36,15 +37,17 @@ Microsoft 365 позволяет компаниям перепродавать 
 
 1. Перейдите в [Центр администрирования Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
-1. В меню слева откройте вкладку **Выставление счетов**.
+1. В меню слева откройте **Выставление счетов** и выберите **Ваши продукты**.
 
-    * Если вы видите раздел **Подписки**, то можете приобрести службу непосредственно у корпорации Майкрософт или обратиться к другому партнеру, который предлагает Power BI.
+   ![Меню "Выставление счетов" в центре администрирования Microsoft 365](media/service-admin-syndication-partner/365-my-products.png)
 
-        ![Вкладка "Выставление счетов" и пункт "Подписки"](media/service-admin-syndication-partner/billingsub.png)
+ 1. Найдите **Подписки**, как показано ниже. Если вы видите раздел **Подписки**, то можете приобрести службу непосредственно у корпорации Майкрософт или обратиться к другому партнеру, который предлагает Power BI.
 
-    * Если пункт **Подписки** не отображается, вы не можете приобрести решение непосредственно у корпорации Майкрософт или другого партнера.
+    ![Ваши продукты с подписками](media\service-admin-syndication-partner\365-subscriptions.png)
 
-Если ваш партнер не предлагает Power BI, и вы не можете приобрести это решение непосредственно у корпорации Майкрософт или другого партнера, попробуйте зарегистрироваться для получения бесплатной пробной версии.
+    Если пункт **Подписки** не отображается, вы не можете приобрести решение непосредственно у корпорации Майкрософт или другого партнера.
+
+Если ваш партнер не предлагает Power BI и вы не можете приобрести это решение непосредственно у корпорации Майкрософт или другого партнера, попробуйте зарегистрироваться для получения бесплатной пробной версии.
 
 ## <a name="sign-up-for-a-free-trial"></a>Регистрация для получения бесплатной пробной версии
 
@@ -56,31 +59,11 @@ Microsoft 365 позволяет компаниям перепродавать 
 
 ![Снимок экрана с сообщением "Извините..."](media/service-admin-syndication-partner/sorry.png)
 
-Чтобы включить специализированные подписки, свяжитесь со своим партнером и попросите его включить эту возможность. Если вы являетесь администратором клиента и знаете, как использовать команды PowerShell Azure Active Directory, вы можете включить специализированные подписки самостоятельно. [Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2/)
-
-1. Войдите в Azure Active Directory с использованием учетных данных Microsoft 365. В первой строке скрипта, приведенного ниже, запрашиваются учетные данные. Вторая строка используется для подключения к Azure Active Directory.
-
-    ```powershell
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-    ```
-
-    ![Ввод учетных данных](media/service-admin-syndication-partner/aad-signin.png)
-
-1. После входа, выполните следующую команду, чтобы проверить текущие параметры для `AllowAdHocSubscriptions`.
-
-    ```powershell
-    Get-MsolCompanyInformation
-    ```
-
-1. Выполните следующую команду, чтобы разрешить регистрацию на бесплатную версию.
-
-    ```powershell
-    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
+Чтобы включить специализированные подписки, свяжитесь со своим партнером и попросите его включить эту возможность. Если вы являетесь администратором клиента и знаете, как использовать команды PowerShell Azure Active Directory, вы можете включить специализированные подписки самостоятельно. Чтобы получить дополнительные сведения, выполните действия, описанные в разделе [Включение или отключение возможности самостоятельного приобретения](service-admin-disable-self-service.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Лицензирование Power BI в организации](service-admin-licensing-organization.md)
+* [Лицензирование Power BI в организации](service-admin-licensing-organization.md)
+* [Приобретение и назначение лицензий Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

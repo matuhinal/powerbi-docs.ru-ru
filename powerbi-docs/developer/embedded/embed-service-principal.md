@@ -1,6 +1,6 @@
 ---
-title: Использование субъекта-службы с Power BI
-description: Узнайте, как зарегистрировать приложение в Azure Active Directory с помощью субъекта-службы и секрета приложения для использования внедренного содержимого Power BI.
+title: Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения
+description: Сведения о том, как выполнять проверку подлинности внедренной аналитики с помощью субъекта-службы приложения Azure Active Directory и секрета приложения.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121212"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315878"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Внедрение содержимого Power BI с помощью субъекта-службы и секрета приложения
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 В этой статье описывается проверка подлинности субъекта-службы с помощью *идентификатора приложения* и *секрета приложения*.
+
+>[!NOTE]
+>Рекомендуем защищать серверные службы с помощью сертификатов, а не секретных ключей.
+>* [Дополнительные сведения о получении маркеров доступа из Azure AD с помощью секретных ключей или сертификатов](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Внедрение содержимого Power BI с помощью субъекта-службы и сертификата](embed-service-principal-certificate.md)
 
 ## <a name="method"></a>Метод
 
@@ -54,30 +59,12 @@ ms.locfileid: "84121212"
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Создание приложения Azure AD на портале Microsoft Azure
 
-1. Выполните вход в [Microsoft Azure](https://portal.azure.com/#allservices).
-
-2. В строке поиска найдите **Регистрация приложений** и щелкните ссылку **Регистрация приложений**.
-
-    ![регистрация приложения azure](media/embed-service-principal/azure-app-registration.png)
-
-3. Щелкните **Новая регистрация**.
-
-    ![новая регистрация](media/embed-service-principal/new-registration.png)
-
-4. Заполните необходимые сведения:
-    * **Имя** — введите имя для своего приложения.
-    * **Поддерживаемые типы учетных записей** — выберите нужную учетную запись Azure AD.
-    * (Необязательно) **URI перенаправления** — при необходимости введите универсальный код ресурса (URI).
-
-5. Щелкните **Зарегистрировать**.
-
-6. После регистрации на вкладке **Обзор** доступен *Идентификатор приложения*. Скопируйте и сохраните *Идентификатор приложения* для последующего использования.
-
-    ![идентификатор приложения](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. Перейдите на вкладку **Сертификаты и секреты**.
 
      ![идентификатор приложения](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. Щелкните **Создать секрет клиента**.
 
@@ -157,7 +144,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ![Портал администрирования](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>Шаг 4. Добавление субъекта-службы в качестве администратора в рабочую область
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Шаг 4. Добавление субъект-службы в рабочую область
 
 Чтобы включить артефакты доступа к приложению Azure AD, такие как отчеты, панели мониторинга и наборы данных в службу Power BI, добавьте сущность субъекта-службы в качестве участника или администратора в рабочую область.
 
@@ -181,20 +168,21 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 После того, как содержимое будет внедрено, вы можете [переносить его в производственную среду](embed-sample-for-customers.md#move-to-production).
 
-## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
-
-* Субъекты-службы работают только с [новыми рабочими областями](../../collaborate-share/service-create-the-new-workspaces.md).
-* **Моя рабочая область** не поддерживается при использовании субъекта-службы.
-* Для миграции в рабочую среду требуется выделенная емкость.
-* С помощью субъекта-службы нельзя входить на портал Power BI.
-* Для включения субъекта-службы в параметрах разработчика на портале администрирования Power BI требуются права администратора Power BI.
-* [Внедренные для организации](embed-sample-for-your-organization.md) приложения не могут использовать субъект-службу.
-* Управление [потоками данных](../../transform-model/service-dataflows-overview.md) не поддерживается.
-* Сейчас субъект-служба не поддерживает никакие API администратора.
-* При использовании субъекта-службы с источником данных [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) сам субъект-служба должен иметь разрешения экземпляра Azure Analysis Services. Использовать для этой цели группу безопасности, содержащую субъект-службу, нельзя.
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Power BI Embedded для клиентов](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[Регистрация приложения](register-app.md)
 
-* [Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[Power BI Embedded для клиентов](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[Внедрение содержимого Power BI с помощью субъект-службы и сертификата](embed-service-principal-certificate.md)

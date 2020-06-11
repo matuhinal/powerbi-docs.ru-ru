@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e8c45145695d61bcd7173e2202db98ec306c4b4d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404035"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336873"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Регистрация приложения Azure AD для использования с Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "80404035"
 
 5. Если в качестве типа приложения выбрано **веб-приложение на стороне сервера**, введите значения в полях **URL-адрес домашней страницы** и **URL-адрес перенаправления**. **URL-адресом перенаправления** может быть любой допустимый URL-адрес, соответствующий созданному приложению. Если выбрано **собственное** приложение, перейдите к шагу 6.
 
-6. Выберите интерфейсы API Power BI, требуемые приложению. Дополнительные сведения о разрешениях доступа Power BI см. в статье [Разрешения Power BI](power-bi-permissions.md). Выберите **Зарегистрировать**.
+6. Выберите интерфейсы API Power BI, требуемые приложению. Дополнительные сведения о разрешениях на доступ к Power BI см. в статье [Разрешения и согласие для конечной точки платформы удостоверений Майкрософт](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Нажмите кнопку **Зарегистрировать**.
 
     ![Выбор интерфейсов API для регистрации](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -66,7 +66,7 @@ ms.locfileid: "80404035"
     > [!Note]
     > При необходимости **идентификатор приложения** можно будет получить на портале Azure позднее. Если **секрет приложения** потерян, необходимо создать новый на портале Azure.
 
-| Собственный | Веб-приложение на стороне сервера |
+| Машинный код | Веб-приложение на стороне сервера |
 |--------|-----------------------------|
 | ![Успешная регистрация собственного приложения](media/register-app/register-app-new-design-success-native.png) | ![Успешная регистрация веб-приложения на стороне сервера](media/register-app/register-app-new-design-success-server-side-web-app.png) |
 
@@ -84,7 +84,7 @@ ms.locfileid: "80404035"
 
 4. В области навигации слева перейдите в раздел **Все службы**, выберите **Регистрация приложений** и щелкните **Новая регистрация**.
 
-5. Следуйте инструкциям на экране, а затем создайте новое приложение.
+5. Следуя инструкциям на экране, создайте приложение.
 
    Дополнительные сведения о регистрации приложений в Azure Active Directory см. в статье [здесь](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app).
 
@@ -198,4 +198,4 @@ ms.locfileid: "80404035"
 
 После регистрации приложения в Azure AD необходимо выполнить проверку подлинности пользователей в приложении. Дополнительные сведения см. в статье [Проверка подлинности для пользователей и получение маркера доступа Azure AD для приложения Power BI](get-azuread-access-token.md).
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

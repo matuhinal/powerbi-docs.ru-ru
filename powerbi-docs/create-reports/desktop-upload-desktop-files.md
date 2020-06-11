@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733486"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273467"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Публикация наборов данных и отчетов из Power BI Desktop
 При публикации файла Power BI Desktop в службе Power BI вы публикуете данные в модели в рабочей области Power BI. Это относится и ко всем отчетам, созданным в представлении **Отчеты**. Новый набор данных с тем же именем и все отчеты появятся в навигаторе рабочей области.
@@ -23,13 +23,12 @@ ms.locfileid: "83733486"
 
 > [!NOTE]
 > Любые изменения, вносимые в отчет в Power BI, не будут сохранены в исходном файле Power BI Desktop. Это относится к добавлению, удалению или изменению визуализаций в отчетах.
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Публикация набора данных и отчетов Power BI Desktop
 1. В Power BI Desktop последовательно выберите **Файл** \> **Опубликовать** \> **Опубликовать в Power BI** или щелкните **Опубликовать** на ленте.  
 
    ![Кнопка "Опубликовать"](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. Войдите в Power BI.
 3. Выберите место назначения.
@@ -55,3 +54,7 @@ ms.locfileid: "83733486"
    ![Предупреждение о влиянии повторной публикации набора данных](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [Дополнительные сведения об анализе влияния наборов данных](../collaborate-share/service-dataset-impact-analysis.md).
+
+> [!NOTE]
+> Некоторые подключения к данным в отчетах Power BI могут включать ссылки на данные, а не данные из набора данных, импортированного в службу Power BI. Например, подключения DirectQuery при обновлениях или взаимодействиях ссылаются на данные, а не импортируют сами данные. Если связанные источники данных в отчете находятся в локальной среде, для доступа к этим данным из Power BI может потребоваться шлюз. Дополнительную информацию см. в разделе [Что такое локальный шлюз данных?](../connect-data/service-gateway-onprem.md)
+> 

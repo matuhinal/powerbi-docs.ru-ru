@@ -1,5 +1,5 @@
 ---
-title: Получение подписки на Power BI для организации
+title: Получение подписки на службу Power BI для организации
 description: Сведения о том, как администратор может оформить подписку на службу Power BI и приобрести лицензии для группы пользователей.
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438166"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160049"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>Получение подписки на Power BI для организации
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Получение подписки на службу Power BI для организации
 
-Администраторы могут зарегистрироваться в Power BI на странице **приобретения служб** Центра администрирования Microsoft 365. После регистрации в Power BI администратор может назначать лицензии пользователям, которым будет предоставляться доступ.
+Администраторы могут зарегистрироваться в службе Power BI на странице **приобретения служб** Центра администрирования Microsoft 365. После регистрации в Power BI администратор может назначать лицензии пользователям, которым будет предоставляться доступ.
 
 Пользователи организации могут зарегистрироваться в Power BI на веб-сайте Power BI. Когда пользователь организации регистрируется в Power BI, ему автоматически назначается лицензия Power BI. Чтобы отключить возможности самостоятельной регистрации, выполните инструкции в статье [Включение и отключение самостоятельной регистрации и приобретения](service-admin-disable-self-service.md).
 

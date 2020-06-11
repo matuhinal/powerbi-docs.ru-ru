@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276060"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337126"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов (обзор)
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов
 
 С помощью **Power BI Embedded в Azure** или **внедрения Power BI в Office** вы можете внедрять отчеты с разбивкой на страницы в приложение с помощью данных, принадлежащих ему. Модель **данных, принадлежащих приложению**, позволяет приложению использовать Power BI как встроенную платформу аналитики. Как **независимый поставщик программного обеспечения** или **разработчик** вы можете создавать содержимое Power BI, отображающее отчеты с разбивкой на страницы в приложении. При этом приложение будет полностью интегрированным и интерактивным, а пользователям не потребуется лицензия Power BI. Из этого руководства вы узнаете, как интегрировать отчет с разбивкой на страницы в приложение с помощью пакета SDK Power BI для .NET и API JavaScript для Power BI.
 
@@ -40,7 +40,7 @@ ms.locfileid: "83276060"
 
 > [!IMPORTANT]
 > * Необходимо использовать **субъект-службу**. Главный пользователь не поддерживается.
-> * Источники данных, для которых требуется единый вход, не поддерживаются.
+> * Источники данных, для которых требуется единый вход, не поддерживаются. Список поддерживаемых наборов данных и способов проверки их подлинности см. в статье [Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI](../../paginated-reports/paginated-reports-data-sources.md). 
 > * Набор данных Power BI не поддерживается в качестве [источника данных](../../connect-data/service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Настройка рабочей среды Power BI

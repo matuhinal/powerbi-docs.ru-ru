@@ -6,34 +6,34 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/23/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
+ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132003"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "84229066"
 ---
-# <a name="data-protection-metrics-report-preview"></a>Отчет о метриках защиты данных (предварительная версия)
+# <a name="data-protection-metrics-report"></a>Отчет о метриках защиты данных
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>Что такое отчет о метриках защиты данных?
-Отчет о метриках защиты данных — это специальный отчет, с помощью которого [администраторы Power BI](../admin/service-admin-role.md) могут отслеживать использование и принятие меток конфиденциальности данных в клиенте.
+Отчет о метриках защиты данных — это специальный отчет, с помощью которого [администраторы Power BI](../service-admin-role.md) могут отслеживать использование и принятие меток конфиденциальности данных в клиенте.
 
 ![Отчет о метриках защиты данных](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
 Функции отчета:
 * нормированная гистограмма с накоплением, показывающая ежедневное использование меток конфиденциальности в клиенте за последние 7, 30 или 90 дней; эта диаграмма упрощает отслеживание относительного использования различных типов меток на протяжении времени;
 * кольцевые диаграммы, показывающие текущее состояние использования меток конфиденциальности в клиенте для панелей мониторинга, отчетов, наборов данных и потоков данных;
-* ссылка на портал Cloud App Security, на котором доступны оповещения Power BI, список находящихся в зоне риска пользователей, журналы действий и другие сведения. Дополнительные сведения см. в статье [Использование элементов управления Microsoft Cloud App Security в Power BI (предварительная версия)](./service-security-using-microsoft-cloud-app-security-controls.md).
+* ссылка на портал Cloud App Security, на котором доступны оповещения Power BI, список находящихся в зоне риска пользователей, журналы действий и другие сведения. Дополнительные сведения см. в статье [Использование элементов управления Microsoft Cloud App Security в Power BI](./service-security-using-microsoft-cloud-app-security-controls.md).
 
 Отчет обновляется каждые 24 часа.
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>Просмотр отчета о метриках защиты данных
 
-Для открытия и просмотра отчета необходима роль [администратора Power BI](../admin/service-admin-role.md).
-Чтобы просмотреть отчет, перейдите на страницу **Параметры > Портал администрирования** и выберите **Метрики защиты (предварительная версия)** .
+Для открытия и просмотра отчета необходима роль [администратора Power BI](../service-admin-role.md).
+Чтобы просмотреть отчет, перейдите на страницу **Параметры > Портал администрирования** и выберите **Метрики защиты**.
 
 ![метрики защиты на портале администрирования](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
@@ -51,9 +51,9 @@ ms.locfileid: "83132003"
 * Для доступа к данным Cloud App Security у вашей организации должна быть соответствующая [лицензия Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing).
 * Если вы хотите поделиться сведениями из отчета о метриках защиты данных с пользователем, который не является администратором Power BI, учтите, что этот отчет содержит конфиденциальные сведения о вашей организации.
 * Отчет о метриках защиты данных — это отчет особого типа, который не отображается в списках "Мне предоставлен доступ", "Последние" и "Избранное".
-* Отчет о метриках защиты данных недоступен для [внешних пользователей (гостевых пользователей B2B Azure Active Directory)](../admin/service-admin-azure-ad-b2b.md).
+* Отчет о метриках защиты данных недоступен для [внешних пользователей (гостевых пользователей B2B Azure Active Directory)](../service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Защита данных в Power BI (предварительная версия)](./service-security-data-protection-overview.md)
-* [Использование элементов управления Microsoft Cloud App Security в Power BI (предварительная версия)](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [Основные сведения о роли администратора службы Power BI](../admin/service-admin-role.md)
-* [Активация меток конфиденциальности данных в Power BI](./service-security-enable-data-sensitivity-labels.md)
+* [Защита данных в Power BI](./service-security-data-protection-overview.md)
+* [Использование элементов управления Microsoft Cloud App Security в Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Основные сведения о роли администратора службы Power BI](service-admin-role.md)
+* [Активация меток конфиденциальности данных в Power BI](service-security-enable-data-sensitivity-labels.md)

@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/12/2019
-ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/02/2020
+ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349846"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337080"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -46,7 +46,7 @@ ms.locfileid: "83349846"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Регистрация приложения в Azure Active Directory
 
-[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI. Способ регистрации приложения зависит от того, используете ли вы главную учетную запись или [субъект-службу](embed-service-principal.md).
+[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему [разрешения на доступ к ресурсам REST Power BI](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Способ регистрации приложения зависит от того, используете ли вы главную учетную запись или [субъект-службу](embed-service-principal.md).
 
 Выбранный метод влияет на тип приложения, регистрируемого в Azure.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121019"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159888"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Добавочное обновление в Power BI
 
@@ -230,7 +230,7 @@ in
 
 ## <a name="metadata-only-deployment"></a>Развертывание только метаданных
 
-При публикации PBIX-файла новой версии из Power BI Desktop в рабочей области в службе Power BI будет предложено заменить существующий набор данных, если набор данных с таким именем уже существует.
+При публикации новой версии PBIX-файла из Power BI Desktop в рабочую область служба Power BI Premium предложит заменить существующий набор данных, если набор данных с таким именем уже существует.
 
 ![Запрос на замену набора данных](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
 
