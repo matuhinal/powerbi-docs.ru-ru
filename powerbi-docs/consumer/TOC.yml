@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: Персонализация визуального элемента
               href: end-user-personalize-visuals.md
+            - name: Анализ колебаний в визуальных элементах
+              href: end-user-analyze-visuals.md
             - name: Отчеты с разбивкой на страницы в Power BI
               items:
                 - name: Отчеты с разбивкой на страницы
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: 'Отображение данных, использованных для создания визуализации'
               href: end-user-show-data.md
+            - name: Копирование и вставка визуального элемента куда-то еще
+              href: end-user-copy-paste.md
             - name: Детализация в визуальном элементе
               href: end-user-drill.md
             - name: Взаимодействие с картами ArcGIS

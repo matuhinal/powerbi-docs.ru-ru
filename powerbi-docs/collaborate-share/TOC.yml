@@ -49,8 +49,12 @@
           items:
             - name: Совместное использование информационных панелей и отчетов
               href: service-share-dashboards.md
+            - name: Запрос доступа к отчету или панели мониторинга
+              href: service-request-access.md
             - name: Фильтрация и предоставление общего доступа
               href: service-share-reports.md
+            - name: Устранение неполадок общего доступа к отчетам и панелям мониторинга
+              href: service-troubleshoot-sharing.md
             - name: Фильтрация отчета с помощью параметров в URL-адресе
               href: service-url-filters.md
             - name: Подписка себя и других пользователей

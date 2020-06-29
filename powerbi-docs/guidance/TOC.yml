@@ -28,9 +28,11 @@
               href: star-schema.md
             - name: Уменьшение размера модели данных
               href: import-modeling-data-reduction.md
+            - name: Создание таблиц даты
+              href: model-date-tables.md
             - name: Особенности автоматических даты и времени
               href: auto-date-time.md
-            - name: Отношения «один-к-одному»
+            - name: Отношения "один-к-одному"
               href: relationships-one-to-one.md
             - name: Связи "много ко многим".
               href: relationships-many-to-many.md
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: Рекомендации по разработке составной модели
               href: composite-model-guidance.md
+            - name: "Руководство по безопасности на уровне строк\_(RLS)"
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: Функция DIVIDE и оператор деления (/)

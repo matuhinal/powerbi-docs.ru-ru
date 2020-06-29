@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: Подключение к хранилищу вычислительных ресурсов Snowflake
               href: desktop-connect-snowflake.md
+            - name: "Подключение к Snowflake в службе Power\_BI"
+              href: service-connect-snowflake.md
             - name: Создание визуализаций с помощью соединителя службы "Управление затратами Azure"
               href: desktop-connect-azure-cost-management.md
             - name: Подключение к данным Azure Consumption Insights

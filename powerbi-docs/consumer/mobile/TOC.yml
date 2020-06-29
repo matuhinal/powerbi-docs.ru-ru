@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: Интеграция со службой поиска устройств iOS
               href: mobile-apps-iOS-search-integration.md
+            - name: Темный режим
+              href: mobile-apps-dark-mode.md
             - name: Приложение Power BI для Apple Watch
               href: mobile-apple-watch.md
         - name: Устройства Android
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: "Просмотр локальных отчетов и\_КПЭ"
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Просмотр данных Power BI в Surface Hub
+            - name: "Режим презентации на устройствах Surface\_Hub и Windows\_10"
               href: mobile-windows-10-app-presentation-mode.md
             - name: Единый вход в приложении Windows
               href: mobile-windows-10-app-single-sign-on-sso.md

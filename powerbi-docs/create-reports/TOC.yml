@@ -47,6 +47,8 @@
       items:
         - name: Отчеты Power BI
           items:
+            - name: "Современная лента Power\_BI"
+              href: desktop-ribbon.md
             - name: Работа с представлением отчета
               href: desktop-report-view.md
             - name: Типы фильтров в отчетах

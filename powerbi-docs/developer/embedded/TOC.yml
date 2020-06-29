@@ -18,6 +18,8 @@
           href: embed-sample-for-your-organization.md
         - name: Внедрение отчетов с разбивкой на страницы для клиентов
           href: embed-paginated-reports-customers.md
+        - name: Внедрение отчетов с разбивкой на страницы для организации
+          href: embed-paginated-reports-organization.md
         - name: Встроенное содержимое для национальных облаков
           href: embed-sample-for-customers-national-clouds.md
     - name: Основные понятия

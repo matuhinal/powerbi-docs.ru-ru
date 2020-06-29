@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: Внедрение в правительственной организации США
               href: service-govus-signup.md
-        - name: Power BI в региональных облаках
+        - name: "Power\_BI в национальных облаках"
           items:
             - name: "Миграция в Германские регионы Go\_Local"
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: Автоматизация с помощью субъектов-служб
               href: service-premium-service-principal.md
+            - name: "Устранение неполадок с подключением конечных точек\_XMLA"
+              href: troubleshoot-xmla-endpoint.md
     - name: Справка
       items:
         - name: 'PowerShell, REST API и пакет SDK для .NET'
