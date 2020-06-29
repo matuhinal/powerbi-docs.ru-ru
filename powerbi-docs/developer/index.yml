@@ -13,18 +13,18 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
+  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80487789"
+  ms.lasthandoff: 06/16/2020
+  ms.locfileid: "84795054"
 highlightedContent:
   items:
-  - title: Встроенная аналитика с использованием Power BI
+  - title: Использование встроенной аналитики с Power BI
     itemType: overview
     url: embedded/embedding.md
-  - title: Что собой представляет Power BI Embedded в Azure
+  - title: Что такое Power BI Embedded в Azure?
     itemType: overview
     url: embedded/azure-pbie-what-is-power-bi-embedded.md
   - title: Визуальные элементы в Power BI
@@ -39,16 +39,16 @@ conceptualContent:
     links:
     - url: embedded/embedding.md
       itemType: overview
-      text: Встроенная аналитика с использованием Power BI
+      text: Использование встроенной аналитики с Power BI
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
-      text: Что собой представляет Power BI Embedded в Azure
+      text: Что такое Power BI Embedded в Azure?
     - url: embedded/embedded-capacity.md
       itemType: concept
       text: Емкость и номера SKU
     footerLink:
       url: embedded/index.yml
-      text: Подробнее
+      text: Еще
   - title: Визуальные элементы Power BI
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,8 +62,8 @@ conceptualContent:
       text: Публикация визуализаций Power BI в Центре партнеров
     footerLink:
       url: visuals/index.yml
-      text: Подробнее
-  - title: Служба автоматизации
+      text: Еще
+  - title: Автоматизация
     links:
     - url: automation/overview-of-power-bi-rest-api.md
       itemType: overview
@@ -76,12 +76,12 @@ conceptualContent:
       text: Настройка учетных данных
     footerLink:
       url: automation/index.yml
-      text: Подробнее
+      text: Еще
 additionalContent:
   sections:
   - title: Связанные инструменты
   - items:
-    - title: REST API Power BI
+    - title: REST API в Power BI
       summary: Интерфейсы REST API Power BI предоставляют конечные точки служб для внедрения, администрирования и работы с пользовательскими ресурсами.
       url: https://docs.microsoft.com/rest/api/power-bi/
     - title: REST API Azure Resource Manager
@@ -95,7 +95,7 @@ additionalContent:
       url: https://powerbi.microsoft.com/developers/
     - title: Примеры визуальных элементов Power BI
       summary: Коллекция примеров Power BI и их библиотек кода.
-      url: https://microsoft.github.io/PowerBI-visuals/samples/
+      url: visuals/samples.md
     - title: Библиотеки Power BI
       summary: Библиотеки Power BI (NuGet).
       url: https://www.nuget.org/profiles/powerbi
