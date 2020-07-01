@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565330"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236211"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Устранение неполадок со шлюзами — Power BI
 
@@ -22,15 +22,15 @@ ms.locfileid: "83565330"
 
 Эта статья описывает распространенные проблемы при работе с локальным шлюзом данных в Power BI. Если вы столкнулись с ошибкой, которая не рассматривается здесь, посетите сайт [сообщества Power BI](https://community.powerbi.com). Также вы можете создать [запрос в службу поддержки](https://powerbi.microsoft.com/support).
 
-## <a name="configuration"></a>Конфигурации
+## <a name="configuration"></a>Конфигурация
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Ошибка. Из службы Power BI поступило сообщение о том, что локальный шлюз недоступен. Перезапустите шлюз и повторите попытку.
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Ошибка: Из службы Power BI поступило сообщение о том, что локальный шлюз недоступен. Перезапустите шлюз и повторите попытку.
 
 После завершения настройки служба Power BI будет вызвана снова, чтобы проверить шлюз. Служба Power BI не объявляет шлюз активным. Обеспечить подключение может перезапуск службы Windows. Для получения дополнительных сведений вы можете собрать и просмотреть журналы, как описано в статье [Сбор данных журналов из приложения локального шлюза данных](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
 
 ## <a name="data-sources"></a>Источники данных
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Ошибка. Не удается установить подключение. Сведения: "Недействительные учетные данные подключения"
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Ошибка: Не удается установить подключение. Сведения. "Недействительные учетные данные подключения"
 
 В разделе **Показать сведения** появится сообщение об ошибке, полученное из источника данных. В случае с SQL Server оно будет выглядеть следующим образом:
 
@@ -38,7 +38,7 @@ ms.locfileid: "83565330"
 
 Убедитесь, что имя пользователя и пароль указаны правильно. Также убедитесь, что эти учетные данные позволяют подключиться к источнику данных. Убедитесь, что учетная запись соответствует методу проверки подлинности.
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Ошибка. Не удается установить подключение. Сведения: "Не удается подключиться к базе данных"
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Ошибка: Не удается установить подключение. Сведения. "Не удается подключиться к базе данных"
 
 Удалось подключиться к серверу, но не к указанной базе данных. Проверьте имя базы данных и убедитесь, что учетные данные пользователя позволяют получить доступ к базе данных.
 
@@ -46,7 +46,7 @@ ms.locfileid: "83565330"
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Ошибка. Не удается установить подключение. Сведения: "Неизвестная ошибка в шлюзе данных"
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Ошибка: Не удается установить подключение. Сведения. "Неизвестная ошибка в шлюзе данных"
 
 Эта ошибка может возникать по разным причинам. Не забудьте проверить подключение к источнику данных с компьютера, на котором находится шлюз. Это может быть связано с недоступностью сервера.
 
@@ -54,7 +54,7 @@ ms.locfileid: "83565330"
 
 Чтобы получить дополнительные сведения, выберите **Журналы событий** > **Журналы приложений и служб** > **Служба локального шлюза данных**.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Ошибка. Возникла ошибка при попытке подключения к \<серверу\>. Сведения: "Выполнено подключение к шлюзу данных, но шлюз не может получить доступ к локальному источнику данных"
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Ошибка: При попытке подключения к \<server\> произошла ошибка. Сведения. "Выполнено подключение к шлюзу данных, но шлюз не может получить доступ к локальному источнику данных"
 
 Не удалось подключиться к указанному источнику данных. Не забудьте проверить сведения, указанные для этого источника данных.
 
@@ -95,21 +95,21 @@ ms.locfileid: "83565330"
 
 Убедитесь, что ваша учетная запись указана на вкладке **Пользователи** источника данных в конфигурации шлюза. Если у вас нет доступа к шлюзу, свяжитесь с его администратором и попросите его проверить это для вас. Только учетным записям в списке **Пользователи** доступен источник данных, указанный в списке служб Analysis Services.
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Ошибка. Не установлен или не настроен шлюз для источников данных в этом наборе.
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Ошибка: Не установлен или не настроен шлюз для источников данных в этом наборе.
 
 Обязательно добавьте в шлюз источники данных, как описано в разделе [Добавление источника данных](service-gateway-data-sources.md#add-a-data-source). Если шлюз не отображается в разделе **Управление шлюзами** на портале администрирования, попробуйте очистить кэш браузера или выйти из службы, а затем войти в нее заново.
 
 ## <a name="datasets"></a>Наборы данных
 
-### <a name="error-there-is-not-enough-space-for-this-row"></a>Ошибка. Недостаточно места для этой строки.
+### <a name="error-there-is-not-enough-space-for-this-row"></a>Ошибка: Недостаточно места для этой строки.
 
 Эта ошибка происходит, если размер одной строки превышает 4 МБ. Необходимо найти эту строку в источнике данных и попытаться отфильтровать ее или уменьшить ее размер.
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Ошибка. Указанное имя сервера не соответствует имени сервера в SSL-сертификате сервера SQL Server.
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Ошибка: Указанное имя сервера не соответствует имени сервера в SSL-сертификате сервера SQL Server.
 
 Эта ошибка может произойти, если общее имя сертификата предназначено для полного доменного имени сервера (FQDN), а пользователь указал только NetBIOS-имя для сервера. Это вызывает несоответствие сертификата. Для устранения проблемы необходимо, чтобы для имени сервера в источнике данных шлюза и PBIX-файле использовалось полное доменное имя сервера.
 
-### <a name="error-you-dont-see-the-on-premises-data-gateway-present-when-you-configure-scheduled-refresh"></a>Ошибка. Локальный шлюз данных не отображается при настройке запланированного обновления.
+### <a name="error-you-dont-see-the-on-premises-data-gateway-present-when-you-configure-scheduled-refresh"></a>Ошибка: Локальный шлюз данных не отображается при настройке запланированного обновления.
 
 Эта ошибка может возникать в нескольких сценариях:
 
@@ -117,20 +117,20 @@ ms.locfileid: "83565330"
 - Ваша учетная запись не указана на вкладке **Пользователи** источника данных в конфигурации шлюза. Необходимо, чтобы администратор шлюза добавил вашу учетную запись в этот список.
 - Файл Power BI Desktop содержит несколько источников данных, но шлюз настроен не для всех. Необходимо определить для каждого источника данных шлюз, чтобы он отображался в запланированном обновлении.
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Ошибка. Превышен допустимый объем полученных несжатых данных в клиенте шлюза.
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Ошибка: Превышен допустимый объем полученных несжатых данных в клиенте шлюза.
 
 Точное ограничение составляет 10 ГБ несжатых данных для каждой таблицы. Есть несколько эффективных вариантов оптимизации и предотвращения этой проблемы. В частности, для этого можно уменьшить использование часто повторяющихся значений длинных строк, а вместо них применять нормализованный ключ или удалять неиспользуемые столбцы.
 
 ## <a name="reports"></a>Отчеты
 
-### <a name="error-report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Ошибка. Не удалось установить подключение отчета к источнику данных, так как у вас нет доступа к нашему источнику данных в локальном шлюзе данных.
+### <a name="error-report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Ошибка: Не удалось установить подключение отчета к источнику данных, так как у вас нет доступа к нашему источнику данных в локальном шлюзе данных.
 
 Эта ошибка обычно происходит из-за одной из следующих проблем:
 
 - Сведения об источнике данных не совпадают со сведениями в базовом наборе данных. Имена сервера и базы данных в источнике данных, заданном для локального шлюза, должны совпадать с тем, что вы указали в Power BI Desktop. Если вы используете IP-адрес в Power BI Desktop, источник данных локального шлюза должен также использовать IP-адрес.
 - В шлюзах вашей организации нет ни одного доступного источника данных. Вы можете настроить источник данных в новом или существующем локальном шлюзе.
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Ошибка. Ошибка доступа к источнику данных. Обратитесь к администратору шлюза.
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Ошибка: Ошибка доступа к источнику данных. Обратитесь к администратору шлюза.
 
 Если в этом отчете используется подключение к службам Analysis Services, возможно, ошибка связана с передачей недействительного значения EffectiveUserName или с отсутствием разрешений на компьютере с Analysis Services. Как правило, проблемы с проверкой подлинности возникают в ситуации, когда передаваемое значение EffectiveUserName не совпадает с локальным именем участника-пользователя.
 
@@ -143,9 +143,9 @@ ms.locfileid: "83565330"
 
 Вы также можете посмотреть, что именно Power BI получает из каталога Azure Active Directory.
 
-1. Перейдите к [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
+1. Перейдите по ссылке [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
 2. Выберите **Войти** в правом верхнем углу.
-3. Выполните следующий запрос: Вы увидите довольно большой ответ в формате JSON.
+3. Выполните следующий запрос. Вы увидите довольно большой ответ в формате JSON.
 
         https://graph.windows.net/me?api-version=1.5
 4. Найдите атрибут **userPrincipalName**.
@@ -240,17 +240,17 @@ ms.locfileid: "83565330"
 
 ## <a name="fiddler-trace"></a>Трассировка Fiddler
 
-[Fiddler](https://www.telerik.com/fiddler) — это бесплатное средство от компании Telerik для отслеживания HTTP-трафика. С помощью этого средства с клиентского компьютера можно просматривать прямой и обратный трафик в службе Power BI, В списке трафика можно найти ошибки и другие связанные сведения.
+[Fiddler](https://www.telerik.com/fiddler) — это бесплатный инструмент от компании Telerik, который отслеживает трафик HTTP. Можно просматривать данные с помощью службы Power BI с клиентского компьютера. В списке трафика можно найти ошибки и другие связанные сведения.
 
 ![Использование трассировки Fiddler](media/service-gateway-onprem-tshoot/fiddler.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Устранение неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot)
+* [Устранение неполадок с локальным шлюзом данных](/data-integration/gateway/service-gateway-tshoot)
 * [Настройка параметров прокси-сервера для локального шлюза данных](/data-integration/gateway/service-gateway-proxy)  
 * [Управление своим источником данных — службы Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Управление своим источником данных — SAP HANA](service-gateway-enterprise-manage-sap.md)  
 * [Управление своим источником данных — SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
+Остались вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).

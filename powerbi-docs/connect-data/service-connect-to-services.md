@@ -4,16 +4,16 @@ description: Подключайтесь ко многим службам, исп
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7465d2f94fcddd37e20b1c1e5a2679810d1a135c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325168"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236241"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Подключение к используемым службам с помощью Power BI
 С помощью Power BI вы можете подключаться ко многим службам, используемым для обеспечения работы вашей организации, таким как Salesforce, Microsoft Dynamics и Google Analytics. Power BI сначала подключается к службе с помощью ваших учетных данных. Затем Power BI создает *рабочую область* с панелью мониторинга и набором отчетов Power BI, которые автоматически представляют ваши данные и выводят сведения о вашем бизнесе в визуальной форме.
