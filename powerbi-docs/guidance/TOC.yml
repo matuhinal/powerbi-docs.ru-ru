@@ -32,9 +32,9 @@
               href: model-date-tables.md
             - name: Особенности автоматических даты и времени
               href: auto-date-time.md
-            - name: Отношения "один-к-одному"
+            - name: Отношения «один-к-одному»
               href: relationships-one-to-one.md
-            - name: Связи "много ко многим".
+            - name: Связи «многие ко многим»
               href: relationships-many-to-many.md
             - name: Активные и неактивные связи
               href: relationships-active-inactive.md
@@ -66,6 +66,8 @@
               href: dax-column-measure-references.md
             - name: Предотвращение использования FILTER в качестве аргумента фильтра
               href: dax-avoid-avoid-filter-as-filter-argument.md
+            - name: Образец модели
+              href: dax-sample-model.md
         - name: Отчеты Power BI
           items:
             - name: Отдельные отчеты из моделей
