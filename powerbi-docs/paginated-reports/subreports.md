@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272817"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239592"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Вложенные отчеты в отчетах Power BI с разбивкой на страницы
 
@@ -23,7 +23,7 @@ ms.locfileid: "83272817"
   
  На данной иллюстрации контактная информация, отображаемая в главном заказе на продажу, на самом деле поступает из вложенного отчета «Контакты».  
   
-Вы создаете и изменяете файлы определения отчета с разбивкой на страницы (RDL) в Power BI Report Builder. Вы можете отправить вложенные отчеты, хранящиеся в службах SQL Server Reporting Services, в рабочую область Premium в службе Power BI. Основные и вложенные отчеты должны быть опубликованы в той же рабочей области. Установите [Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
+Вы создаете и изменяете файлы определения отчета с разбивкой на страницы (RDL) в Power BI Report Builder. Вы можете отправить вложенные отчеты, хранящиеся в службах SQL Server Reporting Services, в рабочую область Premium в службе Power BI. Основные и вложенные отчеты должны быть опубликованы в той же рабочей области. Установите [Power BI Report Builder](https://aka.ms/pbireportbuilder).
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>Работа с Report Builder и службой Power BI
 

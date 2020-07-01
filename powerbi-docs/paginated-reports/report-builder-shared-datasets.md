@@ -4,15 +4,15 @@ description: Создание отчета с разбивкой на стран
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276635"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239803"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Создание отчета с разбивкой на страницы на основе общего набора данных Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "83276635"
 
 Ниже приведен список нужных и ненужных компонентов для использования общего набора данных в построителе отчетов Power BI.
 
-- Построитель отчетов Power BI. [Скачайте и установите построитель отчетов Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Построитель отчетов Power BI. [Скачайте и установите построитель отчетов Power BI](https://aka.ms/pbireportbuilder).
 - Чтобы обратиться к набору данных, вам требуется разрешение на сборку для него. См. описание [разрешения на сборку](../connect-data/service-datasets-build-permissions.md).
 - Для создания отчета с разбивкой на страницы в построитель отчетов лицензия Power BI Pro не требуется. 
 - А для публикации отчета с разбивкой на страницы лицензия Power BI Pro нужна. Кроме того, для рабочей области в емкости Premium требуется по меньшей мере роль участника. 
