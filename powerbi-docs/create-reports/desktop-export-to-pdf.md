@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f2412ec7aa548feecc3a6ceb6a2c90036d1623a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7fc8b9bff06188a02914083705f7f9aed7862ab1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348328"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234154"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Экспорт отчетов в PDF из Power BI Desktop
 С помощью **Power BI Desktop** или службы Power BI можно экспортировать отчеты в PDF-файлы, а затем поделиться ими или распечатать их.
