@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2020
+ms.date: 06/16/2020
 ms.author: kfollis
-ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 872c847f25c15b46338127dd4a5a15cc536e5ee2
+ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566047"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84973414"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 [//]: # "Татевик Татеро (Tatevik Tatero) — это поставщик, который сотрудничает с Чонси Фрилс (Chauncy Freels) и помогает работать с этим списком вебинаров."
@@ -22,12 +22,7 @@ ms.locfileid: "83566047"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
-**В чем отличие между аналитикой и бизнес-аналитикой?**
-<br>Нейт Финдли (Nate Findley) и Чарльз Феддерсен (Charles Feddersen), корпорация Майкрософт
-<br>[Зарегистрироваться для просмотра 3 июня 2020 г. с 10:00 до 11:00 (по Тихоокеанскому времени)]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
-
-
->[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
+[Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Популярные вебинары
 
@@ -107,7 +102,7 @@ ms.locfileid: "83566047"
 
 Записанные сеансы доступны в любое время.
 
-### <a name="getting-started"></a>Приступить
+### <a name="getting-started"></a>Приступая к работе
 
 **Автоматизация повседневных бизнес-процессов с помощью Power BI, PowerApps и Power Automate**
 <br>Авторы: Вим Куревиц (Wim Coorevits) и Энрике Плаза Гарсиа (Enrique Plaza Garcia)
@@ -214,7 +209,7 @@ ms.locfileid: "83566047"
 <br>Автор: Тед Паттисон (Ted Pattison)
 <br>[Смотреть сейчас](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>Дополнительные разделы
+### <a name="advanced-topics"></a>Дополнительные статьи
 
 **Advanced Analytics with Excel and Power BI** (Углубленная аналитика с Excel и Power BI)
 <br>Авторы: Нагасаикиран Камбхампати (Nagasaikiran Kambhampati) и Мигель Мартинес (Miguel Martinez)
@@ -233,7 +228,7 @@ ms.locfileid: "83566047"
 <br>Автор: Гил Равив (Gil Raviv)
 <br>[Смотреть сейчас](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
 - [Технические документы по Power BI](../guidance/whitepapers.md)
 
@@ -243,4 +238,4 @@ ms.locfileid: "83566047"
 
 - Подпишитесь на [наш канал в YouTube](https://www.youtube.com/mspowerbi).
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

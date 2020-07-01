@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 110bfa0795bfe47d152fbf1778728bab6c0e0c4a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfa97a6cd8aed51f7c85b215307fd9fd3ac6e729
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323397"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219052"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Взаимодействие с отчетом в режиме правки в службе Power BI
 Отчеты можно создавать и редактировать как в службе Power BI, так и в Power BI Desktop. В службе Power BI для создания и редактирования отчетов используется **режим правки**. В Power BI Desktop для создания и редактирования отчетов используется [представление отчета](desktop-report-view.md). В этой статье рассматривается режим правки в службе Power BI. 

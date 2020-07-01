@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435727"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685325"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Краткое руководство. Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 В этом кратком руководстве приводится краткий обзор приложения Power BI Mobile и рассматриваются примеры панели мониторинга и отчета. Демонстрируется приложение Power BI для iOS, но можно использовать и другие устройства.
 
-Применяется к:
+Область применения:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Устройства под управлением Windows 10](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Устройства Windows 10:](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
@@ -47,8 +47,6 @@ ms.locfileid: "79435727"
     ![Панели мониторинга в разделе "Моя рабочая область".](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
     Панели мониторинга Power BI на мобильном устройстве выглядят немного не так, как в службе Power BI. Все плитки отображаются с той же шириной, но идут одна за другой сверху вниз.
-
-5. Коснитесь значка со звездой ![Значок избранного в виде звезды](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) на панели инструментов внизу, чтобы добавить панель мониторинга в избранное. Список избранного считается общим для мобильного приложения и службы Power BI.
 
 6. Прокрутите список вниз и коснитесь заполненного графика "This Year's Sales, Last Year's Sales".
 

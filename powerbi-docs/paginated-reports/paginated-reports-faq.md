@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565633"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427570"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -96,7 +96,7 @@ ms.locfileid: "83565633"
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Какие версии построителя отчетов поддерживаются?
 
-Мы выпустили Power BI Report Builder в качестве основного средства создания отчетов с разбивкой на страницы в службе Power BI. Установите [построитель отчетов Power BI из Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=2086513).
+Мы выпустили Power BI Report Builder в качестве основного средства создания отчетов с разбивкой на страницы в службе Power BI. Установите [построитель отчетов Power BI из Центра загрузки Майкрософт](https://aka.ms/pbireportbuilder).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>Как переместить в Power BI существующие отчеты, сохраненные в SQL Server Reporting Services (SSRS)?
 
@@ -181,5 +181,5 @@ ms.locfileid: "83565633"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://aka.ms/pbireportbuilder)
 - [Руководство. Создание отчета с разбивкой на страницы](paginated-reports-quickstart-aw.md)
