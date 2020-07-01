@@ -3,16 +3,16 @@ title: Подключение отчета к набору данных с по�
 description: Сведения о внедрении отчета с использованием динамической привязки.
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: 26823061a6c0b92b1a6159a75e26f79232bf3ebc
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407622"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236849"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Подключение отчета к набору данных с помощью динамической привязки 
 

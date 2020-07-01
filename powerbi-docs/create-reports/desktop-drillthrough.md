@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9f017a4e93e76d91949b3cc3e12ef0c652664a91
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281445"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239171"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Настройка детализации в отчетах Power BI
 С помощью функции *детализации* в отчетах Power BI вы можете создать страницу отчета, посвященную определенной сущности, такой как поставщик, клиент или производитель. Чтобы ознакомиться с детализацией, читатель отчета может щелкнуть правой кнопкой мыши точку данных на других страницах отчета и перейти на страницу детализации определенной сущности, чтобы получить подробные сведения, отфильтрованные с учетом контекста. Можно также [создать кнопку перехода к детализации](desktop-drill-through-buttons.md), чтобы получить подробные сведения.
