@@ -4,16 +4,16 @@ description: Узнайте, как получить и установить п�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279234"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229671"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Подключение к панели мониторинга реагирования на чрезвычайные ситуации в регионе
 Панель мониторинга реагирования на чрезвычайные ситуации в регионе — это компонент для создания отчетов в составе [решения Microsoft Power Platform для реагирования на чрезвычайные ситуации в регионе](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Администраторы региональной организации могут просматривать панель мониторинга в клиенте Power BI. Это позволяет им быстро просматривать важные данные и метрики, которые помогут принимать эффективные решения.

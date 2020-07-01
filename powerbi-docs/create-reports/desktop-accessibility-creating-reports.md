@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40de850663f49a26c1d8ae290d88821bbab8c822
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297039"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229473"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Создание отчетов со специальными возможностями Power BI
 Вы можете проектировать и создавать привлекательные отчеты, в которых также предусмотрена поддержка специальных возможностей. При создании отчета для любой аудитории нужно сделать так, чтобы с ним могло работать как можно больше пользователей без необходимости адаптации.

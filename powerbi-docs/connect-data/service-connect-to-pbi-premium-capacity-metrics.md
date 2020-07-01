@@ -4,16 +4,16 @@ description: Сведения о том, как установить прило�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe54cedf7f8432d4a5e621256b9b77029f6b38a5
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692883"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229959"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Подключение к Power BI Premium Capacity Metrics
 Отслеживание емкостей очень важно для принятия обоснованных решений в отношении оптимального использования ресурсов емкости Premium. Приложение Power BI Premium Capacity Metrics предоставляет наиболее полные сведения об эффективности использования емкостей.
