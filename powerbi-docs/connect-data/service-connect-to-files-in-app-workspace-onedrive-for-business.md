@@ -4,16 +4,16 @@ description: Узнайте о хранении файлов Excel, CSV и Power
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564093"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230369"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Подключение к файлам, хранящимся в OneDrive, для рабочей области Power BI
 После [создания рабочей области в Power BI](../collaborate-share/service-create-distribute-apps.md) вы можете хранить свои файлы Excel, CSV и Power BI Desktop в хранилище OneDrive для бизнеса для своей рабочей области Power BI. Вы можете продолжить обновление файлов в OneDrive. Эти обновления будут автоматически отражаться в отчетах и на панелях мониторинга Power BI на основе этих файлов. 

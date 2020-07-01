@@ -4,16 +4,16 @@ description: Узнайте, как получить и установить ш�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cd3a0a8974636d6962fe23a7ffe272e47e487754
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275508"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230416"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Подключение к отчету о присутствии для антикризисных коммуникаций
 
