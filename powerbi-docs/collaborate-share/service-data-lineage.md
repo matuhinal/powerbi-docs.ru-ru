@@ -4,16 +4,17 @@ description: В современных проектах на основе тех
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
-ms.date: 02/27/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 697aa38a08acb561cca9b0ccba5656281157237e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348213"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226437"
 ---
 # <a name="data-lineage"></a>Происхождение данных
 В современных проектах на основе технологий бизнес-аналитики могут возникать сложности с отслеживанием потока данных от источника к адресату. Трудность этой задачи возрастает при работе со сложными аналитическими проектами, которые охватывают несколько источников данных, артефактов и зависимых компонентов. На такие вопросы, как "Что произойдет, если я изменю эти данные?" или "Почему этот отчет содержит неактуальные данные?", порой сложно дать ответ. Для этого может потребоваться участие экспертной группы или углубленное исследование. Чтобы помочь вам получить ответы на эти вопросы, мы разработали представление происхождения данных.
