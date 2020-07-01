@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff955948f2fd59e915f2f7bbf76d1e109daaaba3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: bc6b40754e12531c57dfcab2923fdf999aee5481
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347914"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224827"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Подключение к Adobe Analytics в Power BI Desktop 
 В **Power BI Desktop** вы можете подключиться к **Adobe Analytics** и использовать его так же, как и любой другой источник данных в Power BI Desktop. 

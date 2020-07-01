@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ceaa557be31625c9573a7285602a1a4ef8164fb7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 644966663ea9d53b34861f1b33b2cab8f5fcee31
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292669"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223671"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Подключение к SAP Business Warehouse с помощью DirectQuery в Power BI
 Вы можете подключиться к источникам данных **SAP Business Warehouse (BW)** напрямую с помощью **DirectQuery**. Учитывая OLAP и многомерный характер SAP BW, существует множество важных различий между использованием DirectQuery с SAP BW и реляционными источниками, например SQL Server. Эти различия можно обобщить следующим образом:

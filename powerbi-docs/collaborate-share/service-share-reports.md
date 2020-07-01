@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272915"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225332"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Фильтрация и совместное использование отчета Power BI
 Используя *Общий доступ*, вы можете предоставить нескольким пользователям доступ к информационным панелям и отчетам. Что делать, если необходимо совместно использовать отфильтрованную версию отчета? Возможно, вы хотите, чтобы в отчете отображались данные только для определенного города, определенного продавца или за определенный год. В этой статье объясняется, как выполнить фильтрацию отчета и совместно использовать отфильтрованную версию отчета. Другим способом совместного использования отфильтрованного отчета является [добавление параметров запроса в URL-адрес отчета](service-url-filters.md). В обоих случаях фильтр применяется к отчету во время первого открытия отчета получателями. Они могут отключить фильтр в отчете.
