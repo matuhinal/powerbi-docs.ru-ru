@@ -7,7 +7,7 @@
       items:
         - name: "Источники данных в Power\_BI"
           href: service-get-data.md
-        - name: Общие сведения о локальном шлюзе данных
+        - name: Что такое локальный шлюз данных?
           href: service-gateway-onprem.md
     - name: Краткие руководства
       expanded: true
@@ -26,8 +26,6 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: "Безопасность на уровне строк в табличной модели Analysis\_Services"
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Приступая к работе с Power BI
-          href: ../fundamentals/service-get-started.md
         - name: Подключение к примеру в GitHub
           href: service-tutorial-connect-to-github.md
         - name: Использование "Анализа в Excel"
@@ -56,15 +54,15 @@
           items:
             - name: Руководство по развертыванию шлюза данных
               href: service-gateway-deployment-guidance.md
-            - name: Часто задаваемые вопросы о локальном шлюзе данных
+            - name: Вопросы и ответы о локальном шлюзе данных
               href: service-gateway-power-bi-faq.md
     - name: Практические руководства
       items:
-        - name: Подключение к источникам данных
+        - name: подключение к источникам данных.
           href: desktop-connect-to-data.md
         - name: Подключение к данным
           items:
-            - name: Подключение к источникам данных
+            - name: подключение к источникам данных.
               href: desktop-data-sources.md
             - name: "Создание отчета на базе списка\_SharePoint"
               href: desktop-sharepoint-online-list.md
@@ -86,7 +84,7 @@
               href: desktop-connect-oracle-database.md
             - name: Python
               items:
-                - name: Выполнение скриптов Python
+                - name: Запустить сценарии Python
                   href: desktop-python-scripts.md
                 - name: Использование Python в редакторе запросов
                   href: desktop-python-in-query-editor.md
@@ -96,7 +94,7 @@
                   href: desktop-python-visuals.md
                 - name: 'Узнайте, какие пакеты Python поддерживаются'
                   href: service-python-packages-support.md
-            - name: Запуск сценариев R
+            - name: Выполнение скрипта R
               href: desktop-r-scripts.md
             - name: Использование языка R в редакторе запросов
               href: desktop-r-in-query-editor.md
@@ -206,9 +204,9 @@
               href: service-azure-sql-database-with-direct-connect.md
             - name: Динамические данные служб SQL Server Analysis в Power BI
               href: sql-server-analysis-services-tabular-data.md
-        - name: Обновление данных
+        - name: Обновить данные
           items:
-            - name: "Обновление данных в Power\_BI"
+            - name: Обновление данных в Power BI
               href: refresh-data.md
             - name: Настройка запланированного обновления
               href: refresh-scheduled-refresh.md
@@ -242,7 +240,7 @@
               href: service-template-update-delete-extract.md
             - name: Примеры приложений-шаблонов
               href: service-template-apps-samples.md
-        - name: Диагностика
+        - name: Устранение неполадок
           items:
             - name: Устранение неполадок в сценариях обновления
               href: refresh-troubleshooting-refresh-scenarios.md
@@ -252,7 +250,7 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Устранение неполадок с анализом в Excel
               href: ../collaborate-share/desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Ошибка: Не найдены данные в книге Excel'
+            - name: Ошибка. Не найдены данные в книге Excel
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
               href: service-refresh-xero-credentials.md
@@ -334,7 +332,7 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Использование настраиваемых соединителей
               href: service-gateway-custom-connectors.md
-        - name: Диагностика
+        - name: Устранение неполадок
           items:
             - name: "Устранение неполадок с импортом XLS-файлов Excel и\_Access"
               href: desktop-access-database-errors.md
@@ -342,7 +340,7 @@
               href: desktop-error-launching-desktop.md
             - name: "Устранение неполадок с разработкой моделей\_DirectQuery"
               href: desktop-directquery-troubleshoot.md
-    - name: Справочник
+    - name: Справка
       items:
         - name: Типы данных в Power BI Desktop
           href: desktop-data-types.md
