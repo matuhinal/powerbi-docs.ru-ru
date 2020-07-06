@@ -34,7 +34,7 @@
               href: auto-date-time.md
             - name: Отношения «один-к-одному»
               href: relationships-one-to-one.md
-            - name: Связи «многие ко многим»
+            - name: Связи "много ко многим".
               href: relationships-many-to-many.md
             - name: Активные и неактивные связи
               href: relationships-active-inactive.md
@@ -118,6 +118,14 @@
               href: report-performance-troubleshoot.md
             - name: Рекомендации по конвейерам развертывания
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: Центр компетенции
+      items:
+        - name: Преобразование бизнес-аналитики с Майкрософт
+          href: center-of-excellence-microsoft-business-intelligence-transformation.md
+        - name: Организация центра компетенции
+          href: center-of-excellence-establish.md
+        - name: "Архитектура решения\_BI в центре компетенции"
+          href: center-of-excellence-business-intelligence-solution-architecture.md
     - name: Технические документы
       items:
         - name: Обзор технической документации

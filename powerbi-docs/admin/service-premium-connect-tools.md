@@ -6,16 +6,16 @@ ms.author: owend
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 03/26/2020
+ms.topic: how-to
+ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219567"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227411"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Возможность подключения к набору данных с помощью конечной точки XMLA (предварительная версия)
 
@@ -169,7 +169,7 @@ Power BI Premium использует протокол [XML для аналит
 
 ### <a name="service-principals"></a>Субъекты-службы
 
-В общедоступной предварительной версии подключение к конечной точке XMLA с помощью [субъекта-службы](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) для сценариев автоматизации пока не поддерживается.
+Субъекты-службы Azure можно использовать для выполнения операций на уровне ресурсов и служб в автоматическом режиме. Дополнительные сведения см. в статье [Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб](service-premium-service-principal.md).
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>Развертывание проектов модели из Visual Studio (SSDT)
 
@@ -188,7 +188,7 @@ Power BI Premium использует протокол [XML для аналит
 
 Это происходит потому, что, в отличие от развертывания в экземпляре сервера Azure или SQL Server Analysis Services, в ходе которого отображается запрос учетных данных источника данных, в процессе развертывания в рабочей области Premium такие учетные данные указать невозможно. Вместо этого учетные данные источника данных задаются после завершения развертывания метаданных и создания набора данных в службе Power BI в параметрах набора данных. В рабочей области щелкните **Наборы данных** > **Параметры** > **Учетные данные источника данных** > **Изменить учетные данные**.
 
-![Учетные данные источников данных](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
+![учетные данные источника данных;](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
 Указав учетные данные источника данных, можно обновить набор данных в службе Power BI, настроить расписание обновления или обработать (обновить) данные из SQL Server Management Studio, чтобы загрузить их в набор данных.
 
@@ -266,9 +266,9 @@ Power BI Desktop может подключаться к набору данны
 
 Дополнительные сведения см. в статье об  [аудите в Power BI](service-admin-auditing.md).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также раздел
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 
 
 

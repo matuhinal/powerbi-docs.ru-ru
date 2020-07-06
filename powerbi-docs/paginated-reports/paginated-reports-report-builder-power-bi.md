@@ -1,6 +1,6 @@
 ---
 title: Сведения об отчетах с разбивкой на страницы в Power BI Premium
-description: Отчеты с разбивкой на страницы уже давно стали стандартным форматом отчетов в SQL Server Reporting Services. Теперь они доступны и в службе Power BI. Эти отчеты можно распечатывать или предоставлять в совместный доступ. Вы можете полностью управлять макетом такого отчета. Например, можно настроить отображение всех данных отчета в таблице, даже если для этого потребуется много страниц.
+description: Теперь в службе Power BI доступны отчеты с разбивкой на страницы. Это стандартный формат отчета, давно использующийся в SQL Server Reporting Services. Эти отчеты можно распечатывать или предоставлять в совместный доступ. Вы можете полностью управлять макетом такого отчета. Например, можно настроить отображение всех данных отчета в таблице, даже если для этого потребуется много страниц.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733423"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393794"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Сведения об отчетах с разбивкой на страницы в Power BI Premium
 
@@ -51,7 +51,7 @@ ms.locfileid: "83733423"
 - SQL Server через шлюз;
 - SQL Server Analysis Services через шлюз.
 - Наборы данных Power BI
-- Oracle
+- Oracle;
 - Teradata
 
 ## <a name="design-your-report"></a>Создание отчета  
@@ -83,7 +83,7 @@ ms.locfileid: "83733423"
 
 Дополнительные сведения см. в статье [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](../consumer/paginated-reports-subscriptions.md). 
 
-## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
+## <a name="limitations-and-considerations"></a>Ограничения и рекомендации
 
 Ниже описаны некоторые другие функции, которые не поддерживаются в первоначальном выпуске.
 
@@ -95,7 +95,8 @@ ms.locfileid: "83733423"
  
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Установка построителя отчетов Power BI из Центра загрузки Майкрософт](https://aka.ms/pbireportbuilder)
 - [Руководство. Создание отчета с разбивкой на страницы](paginated-reports-quickstart-aw.md)
+- [Онлайн-курс: отчеты с разбивкой на страницы в Power BI за один день](../learning-catalog/paginated-reports-online-course.md)
 - [Ввод данных непосредственно в отчет с разбивкой на страницы](paginated-reports-enter-data.md)
 - [Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов](../developer/embedded/embed-paginated-reports-customers.md)

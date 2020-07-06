@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260722"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485399"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Источники данных для отчетов с разбивкой на страницы в решении "Сервер отчетов Power BI"
 Отчеты Reporting Services с разбивкой на страницы в решении "Сервер отчетов Power BI" поддерживают те же источники данных, которые используются в SQL Server Reporting Services. См. дополнительные сведения об [источниках данных, поддерживаемых службами Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
@@ -25,7 +25,7 @@ ms.locfileid: "78260722"
 По умолчанию для загрузки ODP.NET сервер отчетов использует язык и региональные параметры пользовательского интерфейса первого клиента.  В результате до перезапуска службы все последующие подключения с сервера отчетов к Oracle будут использовать первоначальные язык и региональные параметры пользовательского интерфейса.  Такой подход может вызвать проблемы при преобразовании отчета для просмотра из-за несовпадений в форматировании языка и региональных параметров пользовательского интерфейса.
 
 Чтобы обеспечить лучшую работу в Сервере отчетов Power BI, мы предоставили параметр конфигурации с именем UseInstalledUICulture. Если для UseInstalledUICulture задано значение true, сервер отчетов всегда будет загружать ODP.NET, используя язык и региональные параметры пользовательского интерфейса сервера, а не первого клиента.
-Этот параметр доступен в Сервере отчетов Power BI, начиная с февральского выпуска службы
+Этот параметр доступен в Сервере отчетов Power BI, начиная с выпуска службы за март 2020 г.
 
 Чтобы включить эту функцию, измените запись расширения ORACLE в файле rsreportserver.config, как показано ниже.
 ```xml
@@ -40,4 +40,4 @@ ms.locfileid: "78260722"
 Подключившись к источнику данных, [создайте отчет с разбивкой на страницы](quickstart-create-paginated-report.md).  
 
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276589"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354600"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Начало работы с областью форматирования
 
@@ -28,11 +28,11 @@ ms.locfileid: "83276589"
 
 При редактировании отчета и выборе визуализации отображается панель **Визуализации**. Используйте эту панель для изменения визуализаций. Непосредственно под областью **Визуализация** имеется три значка: **Поля** (стопка полос), **Формат** (валик с краской) и **Аналитика** (увеличительное стекло). На приведенном ниже рисунке выбран значок **Поля**, что указывается желтой полосой под значком.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![Область "Визуализации" с выбранным значком "Поля"](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 При выборе значка **Формат** в области под значком отображаются настройки, доступные для выбранной визуализации.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![Область "Визуализации" с выбранным значком "Формат"](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 В каждой визуализации вы можете настраивать множество элементов. Доступные параметры зависят от выбранного визуального элемента. Ниже приведены некоторые из этих параметров.
 
@@ -43,8 +43,8 @@ ms.locfileid: "83276589"
 * Метки данных
 * Фигуры
 * Область построения
-* Название
-* Фон
+* Title
+* Историческая справка
 * блокировка пропорций;
 * Граница
 * Подсказки
@@ -119,7 +119,7 @@ ms.locfileid: "83276589"
 ## <a name="changing-axis-properties"></a>Изменение свойств оси
 
 Часто требуется изменить ось X или Y. Как и при работе с цветами, вы можете изменить ось, выбрав значок со стрелкой вниз слева от оси, которую требуется изменить, как показано на следующем рисунке.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![Панель форматирования с параметром оси Y, помеченным стрелкой](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 В приведенном ниже примере ось Y отформатирована следующим образом:
 - метки перемещены в правую часть визуализации;

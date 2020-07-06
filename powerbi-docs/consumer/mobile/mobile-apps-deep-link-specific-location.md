@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114493"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393801"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
 Вы можете использовать ссылки для прямого доступа к определенным элементам в Power BI: отчету, панели мониторинга и плитке.
@@ -33,7 +33,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> Если содержимое размещается в специальном центре обработки данных, например для правительственных учреждений, Китая и т. п. Ссылка должна начинаться с подходящего адреса Power BI, например `app.powerbigov.us` или `app.powerbi.cn`.   
+> Если содержимое размещается в специальном центре обработки данных, например для правительственных учреждений, Китая и т. п. Ссылка должна начинаться с подходящего адреса Power BI, например `app.powerbigov.us` или `app.powerbi.cn`.   
 >
 
 
@@ -114,7 +114,7 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за функции, которые хотели бы увидеть в мобильных приложениях Power BI. 
 
-* [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
+* [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](https://community.powerbi.com/).
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)

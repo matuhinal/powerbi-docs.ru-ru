@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693834"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226203"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -115,7 +115,7 @@ report.src = newUrl;
 }
 ```
 
-![Фильтр](media/service-embed-secure/secure-embed-filter.png)
+![Filter](media/service-embed-secure/secure-embed-filter.png)
 
 Вы можете добавить любое количество кнопок в пользовательский интерфейс с малым количеством кода. 
 
@@ -139,7 +139,7 @@ report.src = newUrl;
 
 * Возможность автоматической аутентификации, предоставляемая параметром **Внедрение**, не работает с API JavaScript для Power BI. При работе с API JavaScript для Power BI следует использовать метод внедрения [данные принадлежат пользователю](../developer/embedded/embed-sample-for-your-organization.md). 
 
-* Время существования маркера проверки подлинности регулируется в зависимости от параметров AAD. По истечении срока действия маркера проверки подлинности пользователю потребуется обновить браузер, чтобы получить обновленный маркер проверки подлинности. Время жизни по умолчанию составляет один час, но может быть короче или длиннее в вашей организации.
+* Время существования маркера проверки подлинности регулируется в зависимости от параметров AAD. По истечении срока действия маркера проверки подлинности пользователю потребуется обновить браузер, чтобы получить обновленный маркер проверки подлинности. Время жизни по умолчанию составляет один час, но может быть короче или длиннее в вашей организации.  В этом сценарии нельзя автоматически обновить токен.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

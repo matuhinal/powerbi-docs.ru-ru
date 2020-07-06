@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276612"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354623"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Советы и рекомендации по форматированию цветом в Power BI
 
@@ -58,15 +58,15 @@ ms.locfileid: "83276612"
 
 ![Изменение цветов данных на серый](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
 
-Теперь предположим, что нужно обратиться к сегменту **Convenience**, чтобы с помощью цвета показать, насколько хорошо реализуется товар в этом новом сегменте. Это делается следующим образом.
+Теперь предположим, что нужно обратиться к сегменту **Convenience**, чтобы с помощью цвета показать, насколько хорошо реализуется товар в этом новом сегменте. Ниже приводятся шаги:
 
 Разверните карточку **Цвета данных** и установите ползунок **Показать все** в положение "Вкл". Будут выведены цвета для каждого элемента данных в визуализации. Теперь можно изменить любую точку данных.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Панель форматирования с включенным параметром "Показать все"](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 Для точки данных **Convenience** выберите оранжевый цвет. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![Гистограмма с одним оранжевым столбцом](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 После выбора цвета точка данных **Convenience** приобретает красивый оттенок оранжевого и определенно выделяется среди других.
 
@@ -96,7 +96,7 @@ ms.locfileid: "83276612"
 
 Вы также можете форматировать цвет визуального элемента с помощью поля, которое не является частью этого элемента. На следующем изображении используется **%Market Share SPLY YTD**. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![Гистограмма с несколькими оттенками синего](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 Как показано на изображении, несмотря на то что мы продали больше товаров в сегментах **Productivity** и **Extreme** (эти столбцы выше остальных), цвет столбца **Moderation** более насыщенный, так как имеет большее значение **%Market Share SPLY YTD**.
@@ -106,7 +106,7 @@ ms.locfileid: "83276612"
 
 На первом рисунке обратите внимание, как столбцы в диаграмме отражают градиент в строке: самому высокому значению назначен зеленый цвет, самому низкому — оранжевый, и каждый столбец между ними окрашен оттенками спектра между зеленым и оранжевым.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![Гистограмма с градиентной заливкой от зеленого до оранжевого](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 Давайте посмотрим, что произойдет, если мы укажем для полей **Минимум** и **Максимум** числовые значения. Выберите пункт **Настраиваемое** в раскрывающихся полях **Минимум** и **Максимум** и установите для поля **Минимум** значение 3500, а для поля **Максимум** — значение 6000.
 

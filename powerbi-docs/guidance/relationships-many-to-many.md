@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278337"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532426"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Руководство по связи "многие ко многим"
 
@@ -61,7 +61,7 @@ ms.locfileid: "83278337"
 - В таблице **СчетКлиент** три строки:
   - **ИдСчета** 1 связан с **ИдКлиента** 91;
   - **ИдСчета** 1 связан с **ИдКлиента** 92;
-  - **ИдСчета** 3 связан с **ИдКлиента** 92.
+  - **ИдСчета** 2 связан с **ИдКлиента** 92.
 - В таблице **Транзакция** три строки:
   - **Дата** 1 января 2019 г., **ИдСчета** 1, **Сумма** 100;
   - **Дата** 2 февраля 2019 г., **ИдСчета** 2, **Сумма** 200;
@@ -298,5 +298,5 @@ IF(
 - [Связи модели в Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Общие сведения о схеме типа "звезда" и ее значении в Power BI](star-schema.md)
 - [Руководство по устранению неполадок со связями](relationships-troubleshoot.md)
-- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e24888d4be0a527bd7af6a28fd28795b516b2020
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309275"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354761"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потоков данных
 
@@ -33,7 +33,7 @@ ms.locfileid: "83309275"
 * **Учетная запись хранения Azure с включенной функцией Data Lake Storage 2-го поколения** 
 
 > [!TIP]
-> Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/).
+> Если у вас еще нет подписки Azure, [создайте бесплатную учетную запись](https://azure.microsoft.com/free/), прежде чем начинать работу.
 
 > [!WARNING]
 > Место хранения потока данных нельзя изменить после настройки. Другие важные замечания см. в разделе [Рекомендации и ограничения](#considerations-and-limitations) в конце этой статьи.
@@ -81,12 +81,12 @@ ms.locfileid: "83309275"
 
 2. Нажмите кнопку **Подключить Azure Data Lake Storage 2-го поколения**. Появляется следующее окно.
 
-    ![Azure Data Lake Storage 2-го поколения](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
+    ![Azure Data Lake Storage 2-го поколения](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
 
 3. Укажите **идентификатор подписки** учетной записи хранения.
 4. Укажите **имя группы ресурсов**, в которой была создана учетная запись хранения.
 5. Укажите **имя учетной записи хранения**.
-6. Нажмите кнопку **Подключиться**.
+6. Выберите **Подключиться**.
 
 После успешного выполнения этих шагов ваша учетная запись Azure Data Lake Storage 2-го поколения будет подключена к Power BI. 
 
@@ -131,7 +131,7 @@ ms.locfileid: "83309275"
 
 **Ответ.** Вы не можете изменить место хранения потока данных после его создания. 
 
-**Вопрос.** Когда я могу изменить место хранения потока данных в рабочей области?
+**Вопрос**. Когда я могу изменить место хранения потока данных в рабочей области?
 
 **Ответ.** Изменение места хранения потока данных в рабочей области разрешено, только если рабочая область не содержит потоков данных.
 
@@ -143,7 +143,7 @@ ms.locfileid: "83309275"
 Дополнительные сведения о потоках данных, CDM и Azure Data Lake Storage 2-го поколения см. в следующих статьях:
 
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
-* [Настройка параметров потоков данных рабочей области (предварительная версия)](service-dataflows-configure-workspace-storage-settings.md)
+* [Configure workspace dataflow settings (Preview)](service-dataflows-configure-workspace-storage-settings.md) (Настройка параметров потока данных рабочей области (предварительная версия))
 * [Добавление папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md)
 
 Общие сведения о потоках данных см. в этих статьях:

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149259"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238773"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Поддержка нескольких регионов в Power BI Embedded
 
@@ -71,7 +71,7 @@ ms.locfileid: "83149259"
 
 3. **[API Azure Resource Manager](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** — все операции API Azure Resource Manager, включая *создание* и *удаление*, поддерживают использование нескольких регионов.
 
-## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
+## <a name="limitations-and-considerations"></a>Ограничения и рекомендации
 
 * Убедитесь, что любое инициируемое вами перемещение данных между регионами соответствует всем корпоративным и государственным требованиям, прежде чем осуществлять его.
 
@@ -81,14 +81,16 @@ ms.locfileid: "83149259"
 
 * Поддержка нескольких регионов в целом не улучшает производительность. Загрузка отчетов и панелей мониторинга по-прежнему сопряжена с запросами метаданных из домашнего региона.
 
+* В процессе внедрения для клиентов текст запроса и его результат продолжают направляться через домашний клиент.
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения о Power BI Embedded и вариантах использования нескольких регионов для всех емкостей см. по приведенным ниже ссылкам.
 
-* [Что такое Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
+* [Что такое Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
 
 * [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md)
 
 * [Поддержка нескольких регионов в Power BI Premium (предварительная версия)](../../admin/service-admin-premium-multi-geo.md)
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

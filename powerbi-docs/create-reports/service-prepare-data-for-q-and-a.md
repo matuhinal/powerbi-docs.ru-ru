@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 102145e8c5b2fd3ad19b6703710405d06da5a93a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323236"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218707"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Настройка данных Excel для работы с функцией "Вопросы и ответы" в Power BI
 Этот материал предназначен для пользователей, создающих модели данных или формирующих книги Excel, которые будут использоваться в Power BI.
@@ -40,7 +40,7 @@ ms.locfileid: "83323236"
 
 * Если книга содержит модель данных Power Pivot, количество оптимизаций можно увеличить. Узнайте больше о [функции "Вопросы и ответы" в Power BI, часть 2](https://powerbi.microsoft.com/blog/demystifying-power-bi-q-amp-a-part-2/) от нашей группы экспертов естественного языка.
 
-* Откройте набор данных в Power BI Desktop и создайте новые столбцы и вычисляемые меры. Объедините поля для создания уникальных значений, классификации данных по типу (например, даты, строки, география, изображения, URL-адреса) и других операций.
+* Откройте набор данных в Power BI Desktop и создайте новые столбцы и меры. Объедините поля для создания уникальных значений, классификации данных по типу (например, даты, строки, география, изображения, URL-адреса) и других операций.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -49,4 +49,4 @@ ms.locfileid: "83323236"
 - [Подготовка локальных наборов данных для функции "Вопросы и ответы"](service-q-and-a-direct-query.md)   
 - [Получение данных (для Power BI)](../connect-data/service-get-data.md)  
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

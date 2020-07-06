@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276359"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354899"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Диаграммы "Радиальный датчик" в Power BI
 
@@ -58,21 +58,21 @@ ms.locfileid: "83276359"
 
 1. Щелкните **Загрузить**.
 
-1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
+1. Выберите пункт ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
 
 
 
 ## <a name="create-a-basic-radial-gauge"></a>Создание базового радиального датчика
 
-### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>Шаг 1. Создание датчика для отслеживания валовой выручки
+### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>Шаг 1. Создание датчика для отслеживания валовой выручки
 
 1. Начните с пустой страницы отчета.
 
 1. Из области **Поля** выберите **Gross Sales**(Валовая выручка).
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![Развернутая таблица с финансовыми данными и выделенным полем "Валовая выручка"](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
-1. Измените метод агрегирования данных на **Среднее**.
+1. Измените тип агрегирования на **Среднее**.
 
    ![Снимок экрана области полей с валовой выручкой и выделенным средним статистическим выражением.](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
@@ -85,11 +85,11 @@ ms.locfileid: "83276359"
     > [!TIP]
     > По умолчанию Power BI создает индикаторною диаграмму, где текущее значение (в этом случае **среднее от валовой выручки**) — точка середины шкалы. Поскольку значение **средней валовой выручки** составляет 182,76 тыс. долларов США, начальное значение (минимум) равно нулю, а конечное (максимум) — текущему значению, умноженному на два.
 
-### <a name="step-3-set-a-target-value"></a>Шаг 3. Настройка целевого значения
+### <a name="step-3-set-a-target-value"></a>Шаг 3. Настройка целевого значения
 
 1. Перетащите **COGS (Себестоимость реализованной продукции)** из области**Поля**в поле **Целевое значение**.
 
-1. Измените метод агрегирования данных на **Среднее**.
+1. Измените тип агрегирования на **Среднее**.
 
    Power BI добавит линию для представления нашего целевого значения — **145,48 тыс. долларов США**.
 
@@ -150,5 +150,5 @@ ms.locfileid: "83276359"
 
 * [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

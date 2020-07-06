@@ -4,17 +4,17 @@ description: Сведения о принципах защиты данных в
 author: paulinbar
 manager: rkarlin
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/21/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa969f8f738cf09e9e01e284de8f60e2fd8ce9ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 4575c80106329a00c959db73c2851c99959f41ec
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315679"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393664"
 ---
 # <a name="data-protection-in-power-bi"></a>Защита данных в Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "84315679"
 > Если в организации используются метки конфиденциальности в Azure Information Protection, необходимо [перенести](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) их в одну из перечисленных выше служб, чтобы метки были доступны в Power BI.
 
 > [!NOTE]
-> Метки конфиденциальности поддерживаются только для клиентов в общедоступном облаке. Они не поддерживаются для клиентов национальных и других облачных служб.
+> Метки конфиденциальности поддерживаются только для клиентов в общедоступном облаке. Они не поддерживаются для клиентов в национальном облаке.
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Принципы применения меток конфиденциальности в Power BI
 
@@ -94,7 +94,7 @@ ms.locfileid: "84315679"
 
 Ниже описываются ограничения, связанные с применением меток конфиденциальности в Power BI:
 
-**Общие**
+**Общие сведения**
 * Метки конфиденциальности можно применять только к панелям мониторинга, отчетам, наборам и потокам данных. На данный момент недоступны метки конфиденциальности для [отчетов с разбиением на страницы](../paginated-reports/report-builder-power-bi.md) и рабочих книг.
 * Метки конфиденциальности ресурсов Power BI отображаются в представлениях списка рабочей области, происхождения, избранного, недавнего и приложений. На данный момент метки не видны в представлении "Мне предоставлен доступ". Тем не менее, следует помнить, что примененная к ресурсу Power BI метка, даже если она не отображается, всегда сохраняется вместе с данными, экспортируемыми в файлы формата Excel, PowerPoint и PDF.
 * Метки конфиденциальности поддерживаются только для клиентов в глобальном (общедоступном) облаке. Метки конфиденциальности не поддерживаются для клиентов в облаках других видов.

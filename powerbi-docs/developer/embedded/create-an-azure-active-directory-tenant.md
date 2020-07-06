@@ -1,25 +1,25 @@
 ---
-title: Создание клиента Azure Active Directory для использования с Power BI
+title: Создание клиента Azure Active Directory для использования с Power BI
 description: Узнайте, как создать клиент Azure Active Directory (Azure AD) для пользовательского приложения, которое вызывает интерфейсы REST API для Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794121"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354945"
 ---
-# <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Создание клиента Azure Active Directory для использования с Power BI
+# <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Создание клиента Azure Active Directory для использования с Power BI
 
 Узнайте, как создать клиент Azure Active Directory (Azure AD) для пользовательского приложения, которое вызывает интерфейсы [REST API для Power BI](../automation/rest-api-reference.md).
 
-Клиент представляет организацию в Azure Active Directory. Это выделенный экземпляр службы Azure AD, который организация получает и которым она владеет при регистрации в облачной службе Майкрософт, например Azure, Microsoft Intune или Microsoft 365. Каждый клиент Azure AD уникален и отделен от других клиентов Azure AD.
+Клиент представляет организацию в Azure Active Directory. Это выделенный экземпляр службы Azure AD, который организация получает и которым она владеет при регистрации в облачной службе Майкрософт, например Azure, Microsoft Intune или Microsoft 365. Каждый клиент Azure AD отделен от остальных клиентов Azure AD.
 
 После получения клиента Azure AD вы можете определить приложение и назначить ему разрешения, чтобы оно могло вызывать интерфейсы [REST API для Power BI](../automation/rest-api-reference.md).
 
@@ -31,19 +31,19 @@ ms.locfileid: "83794121"
 
 Чтобы создать клиент Azure AD, сделайте следующее:
 
-1. Перейдите на [портал Azure](https://portal.azure.com) и войдите под учетной записью, имеющей подписку Azure.
+1. Перейдите на [портал Azure](https://portal.azure.com) и выполните вход с учетной записью, имеющей подписку Azure.
 
-2. Щелкните **знак плюса (+)** и выполните поиск по запросу **Azure Active Directory**.
+2. Щелкните **значок "плюс" (+)** и выполните поиск по запросу **Azure Active Directory**.
 
     ![Значок плюса (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 
-3. Выберите **Azure Active Directory** в результатах поиска.
+3. В результатах поиска выберите **Azure Active Directory**.
 
     ![Поиск в Azure Active Directory](media/create-an-azure-active-directory-tenant/new-directory2.png)
 
-4. Щелкните **Создать**.
+4. Нажмите кнопку **создания**.
 
-5. Укажите **Название организации** и **Первоначальное доменное имя**. После этого выберите **Создать**. Ваш каталог создан.
+5. Укажите **Название организации** и **Первоначальное доменное имя**. Щелкните **Создать**. Ваш каталог создан.
 
     ![Организация и домен](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
 
@@ -60,29 +60,29 @@ ms.locfileid: "83794121"
 
 1. На портале Azure убедитесь, что вы находитесь во всплывающем меню Azure Active Directory.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Всплывающее меню Azure AD](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     Если это не так, щелкните значок Azure Active Directory в левой панели переходов по службам.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![Значок Azure AD](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. В разделе **Управление** выберите **Пользователи**.
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![Пользователи и группы Azure AD](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
-3. Выберите **Все пользователи**, а затем — **+ Новый пользователь**.
+3. Выберите пункт **Все пользователи**, а затем выберите **+ Новый пользователь**.
 
-4. Укажите **Имя** и **Имя пользователя** для вашего глобального администратора клиента. Измените **Роль каталога** на **Глобальный администратор**. Вы также можете отобразить временный пароль. Когда все будет готово, выберите **Создать**.
+4. Укажите **Имя** и **Имя пользователя** для вашего глобального администратора клиента. Измените **Роль каталога** на **Глобальный администратор**. Можно также отобразить временный пароль. Когда все будет готово, выберите **Создать**.
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![Глобальный администратор Azure AD](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. Теперь сделайте то же самое для обычного пользователя клиента. Эту учетную запись также можно использовать для главной учетной записи внедрения. На этот раз оставьте **Роль каталога** **Пользователь**. Запомните пароль и выберите **Создать**.
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![Пользователь Azure AD](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. Зарегистрируйтесь в Power BI с помощью учетной записи пользователя, созданной на шаге 5. Перейдите на страницу [powerbi.com](https://powerbi.microsoft.com/get-started/) и выберите **Попробовать бесплатно** в разделе **Power BI — совместная работа и общий доступ в облаке**.
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![Создание клиента](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     При регистрации вам будет предложена бесплатная 60-дневная версия Power BI Pro. Вы можете согласиться стать пользователем Pro, что дает возможность [начать разработку внедренного решения](embed-sample-for-customers.md).
 
@@ -95,6 +95,6 @@ ms.locfileid: "83794121"
 
 [Что такое Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
  
-[Краткое руководство: Настройка среды разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Краткое руководство. Настройка среды разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

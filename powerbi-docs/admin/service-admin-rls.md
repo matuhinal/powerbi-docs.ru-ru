@@ -5,19 +5,19 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6622bff6123ac6985a5275ec72be3a78b13908e6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274652"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227886"
 ---
-# <a name="row-level-security-rls-with-power-bi"></a>Безопасность на уровне строк (RLS) в Power BI
+# <a name="row-level-security-rls-with-power-bi"></a>Безопасность на уровне строк (RLS) в Power BI
 
 Функции безопасности на уровне строк (RLS) в Power BI позволяют ограничивать доступ к данным для определенных пользователей. Фильтры ограничивают доступ к данным на уровне строк; определить их можно в ролях. Обратите внимание, что в службе Power BI участники рабочей области имеют доступ к наборам данных в рабочей области. Безопасность на уровне строк не ограничивает такой доступ.
 
@@ -49,17 +49,17 @@ ms.locfileid: "83274652"
 
 ## <a name="working-with-members"></a>Работа с участниками
 
-### <a name="add-members"></a>Добавить участников
+### <a name="add-members"></a>Добавление членов
 
 Можно добавить участника в роль, указав адрес электронной почты или имя добавляемого пользователя, группы безопасности или списка рассылки. Невозможно добавить группы, созданные в Power BI. Вы можете добавлять участников, [находящихся вне вашей организации](../guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
 
-![Добавление участника](media/service-admin-rls/rls-add-member.png)
+![Добавление элементов](media/service-admin-rls/rls-add-member.png)
 
 Также по числу в скобках рядом с именем роли или рядом с участниками можно определить, сколько участников входит в данную роль.
 
 ![Участники, добавленные в роль](media/service-admin-rls/rls-member-count.png)
 
-### <a name="remove-members"></a>Удаление участников
+### <a name="remove-members"></a>Удаление членов
 
 Участников можно удалять, нажимая "X" рядом с их именем. 
 
@@ -102,7 +102,10 @@ ms.locfileid: "83274652"
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Безопасность на уровне строк (RLS) в Power BI Desktop](../create-reports/desktop-rls.md)  
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
+- [Ограничение доступа к данным с помощью безопасности на уровне строк (RLS) для Power BI Desktop](../create-reports/desktop-rls.md)
+- [Руководство по обеспечению безопасности на уровне строк (RLS) в Power BI Desktop](../guidance/rls-guidance.md)
+- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
+- У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

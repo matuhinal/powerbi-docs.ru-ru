@@ -6,15 +6,15 @@ ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564582"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238485"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Советы и рекомендации по созданию отчетов в Power BI Desktop
 Для максимально эффективного использования данных иногда требуется небольшая помощь. Мы собрали некоторые советы и рекомендации по созданию отчетов в выпусках Microsoft Power BI Desktop *и* Microsoft Excel 2016 или Microsoft Excel 2013 Professional Plus с включенной надстройкой Power Pivot и установленным и включенным компонентом Power Query. 
@@ -99,11 +99,11 @@ Power BI интегрируется с Bing для предоставления 
 ## <a name="histograms"></a>Гистограммы
 Для определения гистограммы в Power BI Desktop можно воспользоваться вычисляемым полем. Определите таблицу и столбец, на основе которых требуется создать гистограмму. В области вычислений введите следующую формулу:
 
-> Frequency:=COUNTROWS(\<имя столбца\>)
+> Frequency:=COUNTROWS(\<Column Name\>)
 > 
 > 
 
-Сохраните изменения и вернитесь к отчету. Добавьте \<имя столбца\> и частоту в таблицу, а затем выполните преобразование в линейчатую диаграмму. Убедитесь, что \<имя столбца\> находится на оси x, а вычисляемое поле с частотой — на оси y.
+Сохраните изменения и вернитесь к отчету. Добавьте \<Column Name\> и частоту в таблицу, а затем выполните преобразование в линейчатую диаграмму. Убедитесь, что \<Column Name\> находится на оси X, а вычисляемое поле с частотой — на оси Y.
 
 ## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Советы и рекомендации по созданию связей в Power BI Desktop
 Часто при загрузке наборов подробных данных из многочисленных источников созданию связей мешают такие проблемы, как наличие значений null, пустых или дублирующихся значений. 
@@ -158,7 +158,7 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 
 [Основные сведения о DAX в Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[Руководство по выражениям анализа данных (DAX)](/dax/)
+[Справочник по выражениям анализа данных (DAX)](/dax/)
 
 [Центр ресурсов DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
@@ -219,4 +219,4 @@ DAX — это язык формулы вычислений в Power BI Desktop.
 * [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)
 * [Отчеты в Power BI](../consumer/end-user-reports.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

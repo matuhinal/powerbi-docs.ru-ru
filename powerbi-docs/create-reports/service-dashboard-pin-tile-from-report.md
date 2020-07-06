@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348903"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354324"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Закрепление плитки на панели мониторинга Power BI из отчета
 
@@ -50,7 +50,7 @@ ms.locfileid: "83348903"
    
    Сообщение об успешном выполнении (рядом с правым верхним углом экрана) означает, что визуализация была добавлена на панель мониторинга в качестве плитки.
    
-   ![Сообщение об успешном импорте](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![Сообщение об успешном выполнении](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. В области навигации выберите панель мониторинга с новой плиткой. [Измените оформление и поведение плитки](service-dashboard-edit-tile.md) или выберите плитку, чтобы вернуться в отчет.
 
 ## <a name="pin-an-entire-report-page"></a>Закрепление целой страницы отчета
@@ -58,11 +58,16 @@ ms.locfileid: "83348903"
 
 Дополнительные сведения см. в статье [Закрепление целой страницы отчета](service-dashboard-pin-live-tile-from-report.md).
 
+> [!NOTE]
+> Некоторые параметры форматирования не применяются к визуальным элементам, когда они закреплены на панели мониторинга. Параметры границы, тени и фона будут игнорироваться в закрепленной плитке. На панелях мониторинга для указания значений в визуальных элементах карточки всегда используется шрифт семейства DIN. 
+> 
+>
+
 ## <a name="next-steps"></a>Дальнейшие действия
 - [Панели мониторинга с точки зрения потребителей службы Power BI](../consumer/end-user-dashboards.md)
 - [Плитки панели мониторинга в Power BI](../consumer/end-user-tiles.md)
 - [Отчеты в Power BI](../consumer/end-user-reports.md)
-- [Обновление данных в Power BI](../connect-data/refresh-data.md)
+- [Data refresh in Power BI](../connect-data/refresh-data.md) (Обновление данных в Power BI)
 - [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

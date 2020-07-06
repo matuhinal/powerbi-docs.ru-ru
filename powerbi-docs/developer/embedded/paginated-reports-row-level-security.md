@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 8d3068453ea2d166b0b55fbba45d8452431de319
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79491739"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427854"
 ---
-# <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Реализация безопасности на уровне строк во внедренных отчетах с разбивкой на страницы (предварительная версия)
+# <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>Реализация безопасности на уровне строк во внедренных отчетах с разбивкой на страницы
 
 При внедрении отчета с разбивкой на страницы можно управлять отображением данных. Это позволяет адаптировать отображаемые сведения для каждого пользователя. Например, если имеется отчет Power BI с разбивкой на страницы, включающий глобальные результаты продаж, его можно внедрить таким образом, чтобы были доступны только результаты продаж из определенного региона.
 
@@ -28,7 +28,7 @@ ms.locfileid: "79491739"
 
 При применении безопасности на уровне строк к отчету Power BI с разбивкой на страницы необходимо присвоить [параметр](../../paginated-reports/report-builder-parameters.md) атрибуту **UserID**. Перед внедрением отчета этот параметр ограничит данные, извлеченные из набора данных.
 
-После назначения параметра **UserID** используйте API [Отчеты GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup), чтобы получить маркер внедрения.
+После назначения параметра **UserID** используйте API [Отчеты GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup), чтобы получить маркер внедрения.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Использование UserID в качестве фильтра на уровне отчета или запроса
 
@@ -78,7 +78,7 @@ ms.locfileid: "79491739"
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>Передача настроенного параметра с помощью маркера внедрения
 
-При внедрении отчета с разбивкой на страницы для клиентов, чтобы получить маркер внедрения используется API [Отчеты GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup). Этот маркер также можно использовать для фильтрации некоторых данных, извлекаемых из отчета с разбивкой на страницы.
+Чтобы при внедрении для клиентов отчета с разбивкой на страницы получить маркер внедрения, используется API [Отчеты GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup). Этот маркер также можно использовать для фильтрации некоторых данных, извлекаемых из отчета с разбивкой на страницы.
 
 Чтобы предоставить только часть данных, назначьте поле `username` с информацией, которую необходимо отобразить. Например, в отчете с разбивкой на страницы, имеющем параметр цвета, при вводе *зеленый* в поле `username` маркер внедрения ограничит внедренные данные, чтобы отображались только данные, которые имеют значение *зеленый* в столбце "Цвет".
 

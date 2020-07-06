@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563059"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223320"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Подключение к данным Project Online через Power BI Desktop
 К данным в Project Online можно подключиться с помощью Power BI Desktop.
@@ -29,7 +29,7 @@ ms.locfileid: "83563059"
 3. Выберите **канал OData** и щелкните **Подключить**.
 4. Введите адрес для канала OData в поле URL-адреса и нажмите кнопку ОК.
    
-   Если адрес сайта вашего веб-приложения Project имеет формат *https://\<имя_клиента\>.sharepoint.com/sites/pwa*, адрес канала OData должен иметь быть в формате *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
+   Если адрес сайта вашего веб-приложения Project имеет формат *https://\<tenantname\>.sharepoint.com/sites/pwa*, адрес канала OData должен быть в формате *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    В нашем примере используется
 

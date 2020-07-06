@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276566"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239374"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Отображение базовых данных визуального элемента
 
@@ -70,12 +70,12 @@ ms.locfileid: "83276566"
 
 - Если кнопка **Просмотреть записи** на ленте отключена и выделена серым цветом, это означает, что выбранная визуализация не поддерживает просмотр записей.
 - Вы не можете изменить данные в представлении просмотра записей и снова сохранить их в отчете.
-- Кнопку "Просмотреть записи" нельзя использовать, если для визуализации применяется вычисляемый показатель.
+- Кнопку "Просмотреть записи" нельзя использовать, если для визуализации применяется вычисляемый показатель в многомерной модели.
 - Кнопку "Просмотреть записи" нельзя использовать при подключении к динамической многомерной модели.  
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Экспорт данных из визуализаций Power BI](power-bi-visualization-export-data.md)    
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 
 

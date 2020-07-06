@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279188"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354715"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Создание визуализаций матрицы в Power BI
 
@@ -49,17 +49,17 @@ ms.locfileid: "83279188"
 ## <a name="expanding-and-collapsing-row-headers"></a>Развертывание и свертывание заголовков строк
 Заголовки строк можно развернуть двумя способами. Первый — с помощью контекстного меню. Вы увидите команды, позволяющие развернуть заголовок выбранной строки, весь уровень или все содержимое до последнего уровня иерархии. Аналогичные команды также можно использовать для свертывания заголовков строк.
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![Меню с функциями развертывания и выделения](media/desktop-matrix-visual/power-bi-expand1.png)
 
 К заголовкам строк можно также добавить кнопки +/– в панели форматирования на карточке **Заголовки строк**. По умолчанию значки будут соответствовать форматированию заголовка строки, но при необходимости цвета и размеры значков можно настроить отдельно.
 
 После включения значков они работают аналогично значкам сводной таблицы в Excel.
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![Матрица со включенными значками](media/desktop-matrix-visual/power-bi-expand2.png)
 
 Состояние расширения матрицы будет сохранено вместе с отчетом. Матрицу можно закрепить на панели мониторинга развернутой или свернутой. Если выбран фрагмент панели мониторинга и отчет открывается, развернутое состояние по-прежнему можно изменять в отчете. 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![Матрица, демонстрирующая состояние расширения](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > Если отчет создается на основе многомерной модели Analysis Services, в которой используется функция "Элемент по умолчанию", имеется ряд особенностей, касающихся развертывания и свертывания. Дополнительные сведения см. в статье [Работа с многомерными моделями в Power BI](../connect-data/desktop-default-member-multidimensional-models.md).

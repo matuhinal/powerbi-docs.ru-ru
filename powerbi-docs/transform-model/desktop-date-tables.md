@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6456d6126245ac6416dd7f50e705a0c731d98623
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325835"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393756"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Настройка и использование таблиц дат в Power BI Desktop
 
@@ -74,7 +74,10 @@ ms.locfileid: "83325835"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Рекомендуем также ознакомиться со следующими материалами:
+Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
 * [Автоматические дата и время в Power BI Desktop](desktop-auto-date-time.md)
+* [Создание таблиц дат в Power BI Desktop](../guidance/model-date-tables.md)
 * [Типы данных в Power BI Desktop](../connect-data/desktop-data-types.md)
+* Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
+* У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

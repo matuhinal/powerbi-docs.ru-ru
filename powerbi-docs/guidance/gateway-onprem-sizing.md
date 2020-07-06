@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279533"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485951"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Размеры для локальных шлюзов данных
 
@@ -78,7 +78,7 @@ ms.locfileid: "83279533"
 
 Точная оценка правильного размера может оказаться сложной задачей. Мы рекомендуем начинать с компьютера, имеющего не менее 8 ядер ЦП, 8 ГБ ОЗУ и несколько гигабитных сетевых адаптеров. Затем вы можете измерить обычную рабочую нагрузку шлюза, перейдя к счетчикам ЦП и системы памяти. Дополнительные сведения см. в статье [Monitor and optimize on-premises data gateway performance](/data-integration/gateway/service-gateway-performance) (Мониторинг и оптимизация производительности локального шлюза данных).
 
-### <a name="connectivity"></a>Подключение
+### <a name="connectivity"></a>Соединение
 
 Планируйте наилучшее возможное соединение между службой Power BI и вашим шлюзом, а также шлюзом и источниками данных.
 
@@ -91,7 +91,7 @@ ms.locfileid: "83279533"
 
 ### <a name="clustering"></a>Кластеризация
 
-Для крупномасштабных развертываний вы можете создать шлюз установок кластера. Кластеры избегают единых точек отказа и могут распределять нагрузку трафика между шлюзами. Вы можете выбрать один из следующих вариантов.
+Для крупномасштабных развертываний вы можете создать шлюз установок кластера. Кластеры избегают единых точек отказа и могут распределять нагрузку трафика между шлюзами. Вы можете:
 
 - Установить один или несколько шлюзов в кластере.
 - Изолировать рабочие нагрузки на автономные шлюзы или кластеры серверов шлюзов.
@@ -129,7 +129,7 @@ ms.locfileid: "83279533"
 - [Настройка параметров прокси-сервера для локального шлюза данных](/data-integration/gateway/service-gateway-proxy)
 - [Monitor and optimize on-premises data gateway performance](/data-integration/gateway/service-gateway-performance) (Мониторинг и оптимизация производительности локального шлюза данных)
 - [Устранение неполадок со шлюзами — Power BI](../connect-data/service-gateway-onprem-tshoot.md)
-- [Устранение неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot)
+- [Устранение неполадок с локальным шлюзом данных](/data-integration/gateway/service-gateway-tshoot)
 - [Руководство по свертыванию запросов в Power BI Desktop](power-query-folding.md)
-- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)

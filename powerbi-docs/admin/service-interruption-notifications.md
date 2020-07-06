@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.openlocfilehash: 344ce3b83bbb9922e0359e04e65c01a1a088bcb3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135361"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485491"
 ---
 # <a name="service-interruption-notifications"></a>Уведомления о перебое в работе служб
 
@@ -67,10 +67,10 @@ Power BI также отправляет уведомления по элект
     ![Включение уведомлений службы](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> Power BI отправляет уведомления из учетной записи no-reply-powerbi@microsoft.com. Убедитесь, что эта учетная запись внесена в список разрешений, чтобы уведомления не попадали в папку нежелательной почты.
+> Power BI отправляет уведомления из учетной записи no-reply-powerbi@microsoft.com. Убедитесь, что эта учетная запись добавлена в список надежных отправителей, чтобы уведомления не попадали в папку нежелательной почты.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Варианты поддержки Power BI Pro и Power BI Premium](service-support-options.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

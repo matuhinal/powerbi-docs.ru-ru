@@ -8,36 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141054"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739191"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Журнал изменений API визуальных элементов Power BI
 На этой странице содержится краткий обзор версий API. Перечисленные здесь версии считаются стабильными, в них изменений не будет.
 
-## <a name="api-v26"></a>API версии 2.6
+## <a name="api-v320"></a>API версии 3.2.0
+  * Поддерживает функцию **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)** .
+
+## <a name="api-v260"></a>API версии 2.6.0
   * Добавляет **isInFocus** в параметр обновления и метод **switchFocusModeState** в узел визуального элемента.
   * Поддерживает настройку **подытогов**.
 
-## <a name="api-v25"></a>API версии 2.5
+## <a name="api-v250"></a>API версии 2.5.0
   * Поддерживает **[Панель аналитики](./analytics-pane.md)** .
   * Поддерживает методы `SelectionIdBuilder` **withMatrixNode** и **withTable**.
   * Больше не поддерживает интерфейс `DataRepetitionSelector` (заменено интерфейсом `data.CustomVisualOpaqueIdentity`).
 
-## <a name="api-v23"></a>API версии 2.3
+## <a name="api-v230"></a>API версии 2.3.0
   * **[API целевой страницы](./landing-page.md)**
   * **[API локального хранилища](./local-storage.md)**
   * **[API фильтра кортежей (фильтр для нескольких столбцов)](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **[API событий отрисовки](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API версии 2.2
+## <a name="api-v220"></a>API версии 2.2.0
   * Поддерживает **[восстановление фильтра JSON из DataView](./filter-api.md#restore-the-json-filter-from-the-data-view)** .
   * **[API ContextMenu](./context-menu.md)**
 
-## <a name="api-v21"></a>API версии 2.1
+## <a name="api-v210"></a>API версии 2.1.0
   * Повышение производительности:
     * Ускоренное время загрузки.
     * Меньше занимаемой памяти.
@@ -58,32 +61,32 @@ ms.locfileid: "83141054"
    ```
 * Свойство `proto` больше не сохраняет скрытые метаданные и данные в dataView. Визуальные элементы, которые получают доступ к свойствам через `proto`, могут быть отключены в рамках этого обновления.
 
-## <a name="api-v113"></a>API версии 1.13
+## <a name="api-v1130"></a>API версии 1.13.0
 * Поддерживает **[Синхронизацию срезов](./enable-sync-slicers.md)** . Обратите внимание, что эта функция применима только для отдельных срезов полей из-за текущего состояния кода PBI. Дополнительную информацию см. [здесь](/power-bi/desktop-slicers).
 * Специальные возможности. [Поддержка высокой контрастности](./high-contrast-support.md) 
 * Специальные возможности. Флажок Allow Keyboard Focus (Разрешить фокус клавиатуры)
 
-## <a name="api-v112"></a>API версии 1.12
+## <a name="api-v1120"></a>API версии 1.12.0
 * Поддерживает темы.
 * Поддерживает **[fetchMoreData](./fetch-more-data.md)** . Обратите внимание, что **API получения дополнительных данных** превышает строгое ограничение в 30 тысяч точек данных.
 * **[API подсказок холста](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API версии 1.11
+## <a name="api-v1110"></a>API версии 1.11.0
 * **[API FilterManager](./filter-api.md)**
 * Поддерживает **[Закладки](./bookmarks-support.md)** . 
 
-## <a name="api-v110"></a>API версии 1.10
+## <a name="api-v1100"></a>API версии 1.10.0
 * Добавляет `ILocalizationManager`.
 * **API проверки подлинности**
 
-## <a name="api-v19"></a>API версии 1.9
+## <a name="api-v190"></a>API версии 1.9.0
 * **[API launchUrl](./launch-url.md)**
 
-## <a name="api-v18"></a>API версии 1.8
+## <a name="api-v180"></a>API версии 1.8.0
 * Поддерживает новый тип **fillRule** (градиент) в схеме возможностей.
 * Поддерживает свойство **правил** в схеме возможностей для свойств объектов.
 
-## <a name="api-v17"></a>API версии 1.7
+## <a name="api-v170"></a>API версии 1.7.0
 * Поддерживает **[RESJSON](./localization.md#resource-file)** .
 
 ## <a name="api-v162"></a>API версии 1.6.2

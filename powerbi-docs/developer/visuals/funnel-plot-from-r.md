@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317059"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354485"
 ---
-# <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Руководство. Создание визуального элемента R с воронкообразной диаграммой из скрипта R
+# <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Руководство по Создание визуального элемента R с воронкообразной диаграммой из скрипта R
 В этой статье показано, как пошагово создать воронкообразную диаграмму с помощью скрипта R в визуальном элементе R.
 
 Вы узнаете, как создать:
@@ -89,13 +89,13 @@ ms.locfileid: "84317059"
 
    Вам также нужно будет обновить разделы `dataRoles` и `dataViewMappings`, которые определяют имена, типы, подсказки и максимальное число столбцов для каждого входного поля.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![До и после](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    Дополнительные сведения см. в статье [Возможности и свойства визуальных элементов Power BI](./capabilities.md).
 
 1. Измените файл *script.r*, включив поддержку `Population`, `Number` и `Tooltips` в качестве входных кадров данных (вместо `dataset`), или скачайте файл [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r).
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![скрипт](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > Чтобы отследить изменения в скрипте R, выполните поиск блоков комментариев: 
@@ -125,7 +125,7 @@ ms.locfileid: "84317059"
 
    Скачайте файл [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json) и прочитайте статью [Объекты и свойства визуальных элементов Power BI](./objects-properties.md), чтобы узнать больше.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![capabilities](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. Измените файл *src/settings.ts*, приведя его в соответствие с [этим файлом settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts). Этот файл написан на TypeScript.  
 
@@ -133,7 +133,7 @@ ms.locfileid: "84317059"
    - объявление нового интерфейса для сохранения значения свойства;
    - определение свойства элемента и значений по умолчанию.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![Параметры](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. Измените файл *script.r*, приведя его в соответствие с [этим файлом script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r). Так вы включите поддержку параметров в пользовательском интерфейсе путем добавления вызовов `if.exists` для каждого пользовательского параметра.
 
@@ -150,7 +150,7 @@ ms.locfileid: "84317059"
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![Скрипт до и после](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    Вы можете не отображать параметры в пользовательском интерфейсе.  
 

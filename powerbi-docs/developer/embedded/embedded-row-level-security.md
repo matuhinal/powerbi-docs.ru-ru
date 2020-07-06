@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
+ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277026"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84795146"
 ---
-# <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
+# <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
 **Безопасность на уровне строк (RLS)** можно использовать для ограничения пользовательского доступа к данным на панели мониторинга и плитках, а также в отчетах и наборах данных. С одними и теми же артефактами могут работать разные пользователи, видя при этом разные данные. Внедрение поддерживает функцию RLS.
 
@@ -31,8 +31,8 @@ ms.locfileid: "83277026"
 
 **Роли.** Пользователи принадлежат к различным ролям. Роль — это контейнер для правил и может иметь имя *Менеджер по продажам* или *Торговый представитель*. Роли можно создать в Power BI Desktop. Дополнительные сведения см. в статье [Безопасность на уровне строк (RLS) в Power BI Desktop](../../create-reports/desktop-rls.md).
 
-**Правила.** Роли имеют правила, являющиеся фильтрами, которые будут применяться к данным. Это может быть чем-то простым, например "Страна = США", или чем-то гораздо более динамичным.
-В оставшейся части этой статьи будет приведен пример разработки RLS, а затем показано ее использование во внедренном приложении. В примере используется PBIX-файл с [примером анализа розничной торговли](https://go.microsoft.com/fwlink/?LinkID=780547).
+**Правила**. У ролей есть правила, представляющие собой фактические фильтры, которые будут применяться к данным. Это может быть чем-то простым, например "Страна = США", или чем-то гораздо более динамичным.
+В оставшейся части этой статьи будет приведен пример разработки RLS, а затем показано ее использование во внедренном приложении. В нашем примере используется PBIX-файл с [примером анализа данных о продажах](https://go.microsoft.com/fwlink/?LinkID=780547) .
 
 ![Пример отчета](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -40,22 +40,22 @@ ms.locfileid: "83277026"
 
 В **примере анализа розничной торговли** отображаются сведения о продажах во всех магазинах розничной сети. Без RLS будут отображаться те же данные, независимо от того, какой региональный менеджер входит в отчет и просматривает его. Представители высшего руководства решили, что региональный менеджер должен видеть только продажи по магазинам, которыми они управляют. Использование RLS позволяет представителям высшего руководства ограничивать данные в зависимости от регионального менеджера.
 
-RLS создается в Power BI Desktop. При открытии набора данных и отчета можно переключиться в представление схемы для ее просмотра:
+Безопасность на уровне строк настраивается в Power BI Desktop. При открытии набора данных и отчета можно переключиться в представление схемы для ее просмотра:
 
 ![Просмотр схемы в Power BI Desktop](media/embedded-row-level-security/powerbi-embedded-schema.png)
 
 Вот несколько моментов, на которые следует обратить внимание в этой схеме:
 
-* Все меры, например **Общий объем продаж**, хранятся в таблице фактов **Продажи**.
+* Все показатели, например **Общий объем продаж**, хранятся в таблице фактов **Продажи**.
 * Существуют четыре дополнительные связанные таблицы измерений: **Позиция**, **Время**, **Магазин** и **Округ**.
-* Стрелки на линиях связи указывают, каким образом фильтры могут передаваться из одной таблицы в другую. Например, если поместить фильтр к **Time[Date]** , в текущей схеме отфильтруются только значения в таблице **Продажи**. Этот фильтр не повлияет на другие таблицы, так как все стрелки в линиях связи указывают на таблицу продаж.
-* В таблице **Округ** представлены сведения о менеджере каждого округа:
+* Стрелки на линиях связей указывают, каким образом фильтры могут передаваться из одной таблицы в другую. Например, если фильтр размещен в таблице **Время [Дата]** , на текущей схеме он будет отфильтровывать только значения в таблице **Продажи**. Этот фильтр не повлияет на другие таблицы, так как все стрелки в линиях связи указывают на таблицу продаж.
+* В таблице **Район** указаны менеджеры по каждому району.
   
     ![Строки в таблице "Округ"](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
 Исходя из этой схемы, если мы применим фильтр к столбцу **Региональный менеджер** в таблице **Округ** и этот фильтр совпадает с пользователем, просматривающим отчет, то будут отфильтрованы таблицы **Магазин** и **Продажи**, чтобы показать данные только для этого регионального менеджера.
 
-Вот как это сделать.
+Это делается так.
 
 1. На вкладке **Моделирование** выберите **Управление ролями**.
 
@@ -72,7 +72,7 @@ RLS создается в Power BI Desktop. При открытии набора
 
     Теперь в отчете отображаются данные, как если бы вы выполнили вход как **AndrewMa**.
 
-Если применить фильтр таким образом, как это сделали мы, будут отфильтрованы все записи в таблицах **Округ**, **Магазин** и **Продажи**. Однако из-за направления фильтра в отношениях между таблицами **Продажи** и **Время**, **Продажи** и **Позиция**, а также **Позиция** и **Время** эти таблицы не будут отфильтрованы. Чтобы узнать больше о двунаправленной перекрестной фильтрации, скачайте технический документ [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Двунаправленная перекрестная фильтрация в SQL Server Analysis Services 2016 и Power BI Desktop).
+В случае применения такого фильтра будут отфильтрованы все записи в таблицах **Район**, **Хранилище** и **Продажи**. Однако из-за направления фильтра в отношениях между таблицами **Продажи** и **Время**, **Продажи** и **Позиция**, а также **Позиция** и **Время** эти таблицы не будут отфильтрованы. Дополнительные сведения о двунаправленной перекрестной фильтрации см. в техническом документе [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Двунаправленная перекрестная фильтрация в службах SQL Server Analysis Services 2016 и Power BI Desktop).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Применение пользователя и роли для маркера внедрения
 
@@ -83,21 +83,24 @@ RLS создается в Power BI Desktop. При открытии набора
 Он принимает список удостоверений с указанием соответствующих наборов данных. Для работы RLS необходимо передать приведенные ниже элементы как часть удостоверения.
 
 * **username (обязательно).** Это строка, которая может использоваться для идентификации пользователя при применении правил RLS. Вы можете указать только одного пользователя. Имя пользователя может быть создано с помощью набора символов *ASCII*.
-* **roles (обязательно).** Строка, содержащая роли для выбора при применении правил безопасности на уровне строк. При передаче нескольких ролей их нужно передавать в виде строкового массива.
+* **roles (обязательно).** Строка, содержащая роли для выбора при применении правил безопасности на уровне строк. При выборе нескольких ролей их нужно передавать в виде массива строк.
 * **dataset (обязательно).** Это набор данных, предназначенный для внедряемого артефакта.
 
 Вы можете создать маркер внедрения с помощью метода **GenerateTokenInGroup** в **PowerBIClient.Reports**.
 
-Например, можно изменить пример [PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData). *Строки 76 и 77 Services\EmbedService.cs* можно обновить с:
+Например, можно изменить пример ***PowerBIEmbedded_AppOwnsData**, доступный на странице [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Embed for your customers*.
+
+**Перед изменением**
 
 ```csharp
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+// Generate Embed Token with effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view", identities: new List<EffectiveIdentity> { rls });
 
-var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
+// Generate Embed Token for reports without effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
 ```
 
-на
+**После изменения**
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -144,6 +147,9 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 ### <a name="using-the-customdata-feature"></a>Использование функции CustomData
 
 Функция CustomData будет работать только для моделей, которые находятся в **Azure Analysis Services**, и только в режиме **Подключение в реальном времени**. В отличие от пользователей и ролей функцию пользовательских данных нельзя задать в PBIX-файле. При создании токена с помощью функции Customdata необходимо ввести имя пользователя.
+
+>[!NOTE]
+>Длина имени пользователя CustomData может составлять не более 256 символов.
 
 Просматривая данные Power BI в приложении, функция CustomData позволяет добавлять фильтр строк при использовании **Azure Analysis Services** в качестве источника данных (просматривая данные Power BI, подключенные в приложении к Azure Analysis Services).
 
@@ -257,7 +263,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 Удостоверение на основе токена работает только для моделей DirectQuery с выделенной емкостью, которые подключаются к Базе данных SQL Azure, настроенной для использования проверки подлинности Microsoft Azure Active Directory ([см. сведения о проверке подлинности AAD для Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). Настройте источник набора данных так, чтобы использовать учетные данные OAuth2 пользователей и удостоверение на основе токена.
 
-   ![Настройка сервера Azure SQL](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+   ![Настройка Azure SQL Server](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
 ### <a name="token-based-identity-sdk-additions"></a>Дополнения пакета SDK для работы с удостоверением на основе токена
 
@@ -310,7 +316,7 @@ public IdentityBlob(string value);
    > [!Note]
    > Для создания маркера доступа к Azure SQL приложение должно иметь делегированное разрешение на **доступ к базе данных и хранилищу Azure SQL** для API **Базы данных Azure SQL** в конфигурации регистрации AAD приложения на портале Azure.
 
-   ![Регистрация приложений](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+   ![Регистрация приложения](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>Локальный шлюз данных с субъектом-службой
 
@@ -339,4 +345,4 @@ public IdentityBlob(string value);
 * Безопасность на уровне строк можно использовать только при наличии выделенной емкости.
 * Безопасность на уровне строк не работает для локального экземпляра SQL Server.
 
-Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

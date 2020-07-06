@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ea3d786642d969eb8f0879bd336a49c486b3f95c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349524"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393825"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Применение автоматических даты и времени в Power BI Desktop
 
@@ -24,11 +24,10 @@ ms.locfileid: "83349524"
 Если этот параметр включен, Power BI Desktop создает скрытую таблицу с автоматическими датой и временем для каждого столбца дат, для которых выполняются все следующие условия:
 
 - режим хранения таблицы — импорт;
-- столбец не является вычисляемым;
 - столбец дат имеет тип данных "Дата" или "Дата и время";
 - столбец не является стороной "многие" связи модели.
 
-## <a name="how-it-works"></a>Принципы работы
+## <a name="how-it-works"></a>Принцип работы
 
 Каждая таблица c автоматическими датой и временем на самом деле является [вычисляемой таблицей](desktop-calculated-tables.md), которая создает строки данных с помощью функции DAX [CALENDAR](/dax/calendar-function-dax). Каждая таблица также содержит шесть вычисляемых столбцов: **День**, **№Месяца**, **Месяц**, **№Квартала**, **Квартал** и **Год**.
 
@@ -99,6 +98,7 @@ Date Count = COUNT(Sales[OrderDate].[Date])
 Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
 - [Автоматические дата и время в Power BI Desktop](../guidance/auto-date-time.md)
+- [Создание таблиц дат в Power BI Desktop](../guidance/model-date-tables.md)
 - [Настройка и использование таблиц дат в Power BI Desktop](desktop-date-tables.md)
-- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

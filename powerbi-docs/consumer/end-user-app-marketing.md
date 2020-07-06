@@ -1,20 +1,20 @@
 ---
 title: Установка и использование приложения "Маркетинг и продажи" в службе Power BI
-description: Приложения в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Установите приложение "Маркетинг и продажи" с веб-сайта AppSource.
+description: Приложения в Power BI позволяют объединить связанные панели мониторинга и отчеты в одном решении. Установите приложение "Маркетинг и продажи" из Marketplace для приложений Power BI.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 02/19/2020
+ms.topic: how-to
+ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496863"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236576"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Установка и использование образца приложения "Маркетинг и продажи" в службе Power BI
 
@@ -23,43 +23,42 @@ ms.locfileid: "77496863"
 После знакомства с [общими принципами получения содержимого Power BI](end-user-app-view.md) вы уже представляете, как получить приложение "Маркетинг и продажи" с веб-сайта Microsoft AppSource (appsource.com). 
 
 
-## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource (appsource.com)
-Ссылка на приложение: [Приложение "Маркетинг и продажи"](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview). Щелкните эту ссылку, чтобы открыть страницу для скачивания этого приложения с веб-сайта Microsoft AppSource. 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Получение приложения из Marketplace для приложений Power BI
 
-1. Для получения приложения может потребоваться выполнить вход в систему. Укажите для этого тот же адрес электронной почты, который вы используете для работы с Power BI. 
+1. [Войдите в службу Power BI](./end-user-sign-in.md) (если вы еще не сделали этого). 
 
-    ![Экран входа на веб-сайт AppSource  ](./media/end-user-app-marketing/power-bi-sign-in.png)
+1. В Power BI выберите **Приложения > Получить приложения**. 
 
-2. Выберите **Get it now** (Получить). 
+    ![Получить приложения  ](./media/end-user-app-marketing/power-bi-get-apps.png)
 
-    ![Веб-сайт AppSource с выбранными приложениями Power BI  ](./media/end-user-app-marketing/power-bi-get-now.png)
+1. Откроется Marketplace для приложений Power BI. Найдите приложение "Продажи и маркетинг". Если вы не видите его, попробуйте ввести "Продажи" в поле поиска.
 
+    ![Marketplace для приложений Power BI  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-3. При первом входе на веб-сайт AppSource необходимо принять условия использования. 
+1. Щелкните плитку приложения. Откроется предложение приложения в AppSource. Щелкните **ПОЛУЧИТЬ**.
 
-    ![Экран с условиями использования на веб-сайте AppSource  ](./media/end-user-app-marketing/power-bi-term.png)
+   ![Предложение приложения в AppSource](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
 
+1. Подтвердите, что хотите установить это приложение.
 
-4. Откроется служба Power BI. Подтвердите, что хотите установить это приложение.
+   ![Установить это приложение?](./media/end-user-app-marketing/power-bi-app-install.png)
 
-    ![Установить это приложение?  ](./media/end-user-apps/power-bi-app-install.png)
+5. После установки приложения в службе Power BI появится сообщение о ее успешном выполнении. Выберите **Перейти к приложению**, чтобы открыть приложение. В зависимости от того, как разработчик создал приложение, появится либо панель мониторинга приложения, либо отчет о приложении.
 
-5. После установки приложения в службе Power BI появится сообщение об успешном выполнении операции. Выберите **Перейти к приложению**, чтобы открыть приложение. В зависимости от того, как разработчик создал приложение, появится либо панель мониторинга приложения, либо отчет о приложении.
-
-    ![Приложение установлено ](./media/end-user-apps/power-bi-app-ready.png)
+    ![Приложение установлено ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
     Приложение можно открыть непосредственно из списка содержимого приложений, выбрав пункт **Приложения**, а затем — **Продажи и маркетинг**.
 
-    ![Приложения в Power BI](./media/end-user-apps/power-bi-apps.png)
+    ![Приложения в Power BI](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
 
 
 6. Выберите, что вы хотите сделать: исследовать или настроить новое приложение и предоставить к нему общий доступ. Так как мы выбрали пример приложения Майкрософт, начнем с его изучения. 
 
-    ![Исследование с использованием примеров данных](./media/end-user-apps/power-bi-explore.png)
+    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-explore.png)
 
 7.  Откроется новое приложение с панелью мониторинга. *Разработчик* приложений также мог настроить открытие приложения с отчетом.  
 
-    ![Исследование с использованием примеров данных](./media/end-user-apps/power-bi-new-app.png)
+    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-new-app.png)
 
 
 

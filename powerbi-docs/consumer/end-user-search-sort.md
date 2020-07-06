@@ -6,16 +6,16 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114122"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782536"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Навигация для потребителей Power BI: глобальный поиск
 
@@ -39,11 +39,11 @@ ms.locfileid: "79114122"
 
 ## <a name="sorting-content-lists"></a>Сортировка списков содержимого
 
-Если имеется всего несколько фрагментов содержимого, сортировка может оказаться излишней.  Но при наличии длинных списков панелей мониторинга и отчетов сортировка поможет найти необходимые объекты. Например, список содержимого **Мне предоставлен доступ** содержит 63 элемента. 
+Если имеется всего несколько фрагментов содержимого, сортировка может оказаться излишней.  Но при наличии длинных списков панелей мониторинга и отчетов сортировка поможет найти необходимые объекты. Например, список содержимого **Мне предоставлен доступ** содержит 257 элементов. 
 
-![список содержимого с общим доступом](./media/end-user-search-sort/power-bi-long-lists.png)
+![список содержимого с общим доступом](./media/end-user-search-sort/power-bi-all-shared.png)
 
-В настоящее время этот список содержимого сортируется по дате, от новых элементов к старым. Чтобы изменить критерии сортировки, щелкните стрелку справа от параметра **По дате (от самых новых)** .
+Сейчас список содержимого сортируется в алфавитном порядке по имени от А до Я. Чтобы изменить критерий сортировки, щелкните стрелку справа от параметра **Имя (А–Я)** .
 
 ![раскрывающееся меню сортировки](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -61,4 +61,6 @@ ms.locfileid: "79114122"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Сортировка визуальных элементов в отчетах](end-user-change-sort.md)
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+[Сортировка данных в визуальных элементах](end-user-change-sort.md)
+
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

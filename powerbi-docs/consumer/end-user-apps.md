@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/19/2020
 ms.author: mihart
-ms.custom: licensing support
+ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160164"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236552"
 ---
 # <a name="apps-in-power-bi"></a>Приложения в Power BI
 
@@ -43,15 +43,17 @@ ms.locfileid: "84160164"
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Получение нового приложения
-Приложения можно получить несколькими способами. Ниже перечислены некоторые из них.  Подробные пошаговые инструкции по получению и изучению приложения см. в статье об [установке и использовании приложения](end-user-app-view.md).
+Проще всего скачать новое приложение из [Marketplace для приложений Power BI](https://app.powerbi.com/groups/me/getapps/apps).
 
-- Разработчик приложения может автоматически установить приложение в вашей учетной записи Power BI. В следующий раз, когда вы откроете службу Power BI, вы увидите новое приложение в списке **Приложения**. 
-- Разработчик может отправить вам прямую ссылку на приложение. Когда вы щелкнете ссылку, приложение откроется в службе Power BI.
-- В Power BI на мобильном устройстве вы можете установить приложение только по прямой ссылке, но не из AppSource. Если создатель приложения автоматически установит приложение, вы увидите его в своем списке приложений.
-- Можно искать приложения в [AppSource](https://appsource.microsoft.com). AppSource содержит приложения, опубликованные создателями отчетов в вашей компании и за ее пределами. Например, вы можете найти в AppSource приложение для службы, которую вы уже используете, —Google Analytics, GitHub или Microsoft Dynamics. Вы также можете найти примеры приложений для обучения работе с Power BI.  
+![Marketplace для приложений Power BI](./media/end-user-apps/power-bi-app-marketplace.png)
 
+Существует несколько других способов получения приложений. Ниже перечислены некоторые из них. Подробные пошаговые инструкции по получению и изучению приложения см. в статье об [установке и использовании приложения](end-user-app-view.md).
 
-## <a name="next-step"></a>Следующий шаг
+* Разработчик приложения может автоматически установить приложение в вашей учетной записи Power BI. В следующий раз, когда вы откроете службу Power BI, вы увидите новое приложение в списке **Приложения**. 
+* Разработчик может отправить вам прямую ссылку на приложение. Когда вы щелкнете ссылку, приложение откроется в службе Power BI.
+* В Power BI на мобильном устройстве вы можете установить приложение только по прямой ссылке, но не из AppSource. Если создатель приложения автоматически установит приложение, вы увидите его в своем списке приложений. 
+
+## <a name="next-steps"></a>Дальнейшие действия
 * [Открытие приложения и работа с ним](end-user-app-view.md)
 * [Другие способы совместного использования содержимого](end-user-shared-with-me.md)
 

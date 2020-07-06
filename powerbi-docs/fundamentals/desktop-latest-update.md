@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b170a9a5d6e5f36eab555401daf613774c2c984
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c5d8fc3eb74acb32364754385f4458f6b9441e87
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693985"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84684669"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Новые возможности Power BI Desktop
 
-## <a name="may-2020-update-2815831621"></a>Обновление за май 2020 г. (2.81.5831.621)
+## <a name="june-2020-update-2825858301"></a>Обновление за июнь 2020 г. (2.82.5858.301)
 
-Мы надеемся, что наш Power BI Desktop помогает нашему глобальному сообществу находить новую ценную информацию, реализовывать новые возможности, а также сохранять позитивный настрой. 
+Июньский выпуск Power BI Desktop включает множество новых возможностей, общедоступных функций и средств для обработки данных и взаимодействия с ними. 
 
 Скачать последнюю версию Power BI Desktop можно из [Центра загрузки](https://www.microsoft.com/download/details.aspx?id=58494). Если вы используете Windows 10, Power BI Desktop также можно получить в [Microsoft Store](https://aka.ms/pbidesktopstore). Независимо от способа установки Power BI Desktop, эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться. Дополнительные сведения о скачивании и установке Power BI Desktop см. в разделе [Получение Power BI Desktop](desktop-get-the-desktop.md). 
 
@@ -41,43 +41,41 @@ ms.locfileid: "83693985"
 
 
 ### <a name="reporting"></a>Отчеты
-* Курирование рекомендуемых таблиц для Excel (предварительная версия) [[видео]](https://youtu.be/JtuHIslowxk?t=20) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Excel) 
-* Применение всех фильтров (предварительная версия) [[видео]](https://youtu.be/JtuHIslowxk?t=193) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Apply_all) 
-* Улучшение обнаружения изменений (предварительная версия) [[видео]](https://youtu.be/JtuHIslowxk?t=475) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_CDM) 
-* Действие кнопки "Детализация" реализовано в общедоступной версии [[видео]](https://youtu.be/JtuHIslowxk?t=626) [[статья]](../create-reports/desktop-drill-through-buttons.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Drill_through) 
-* Улучшение действия навигации по страницам [[видео]](https://youtu.be/JtuHIslowxk?t=1143) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_page_nav) 
-* Кнопки теперь поддерживают изображения заливки [[видео]](https://youtu.be/JtuHIslowxk?t=1465) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_fill_images) 
-* Поддержка отбрасывания теней визуальными элементами [[видео]](https://youtu.be/JtuHIslowxk?t=1561) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_shadow) 
-* Перенос панели фильтрации [[видео]](https://youtu.be/JtuHIslowxk?t=1688) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_migration) 
+* Улучшения в разработке макетов для мобильных приложений [[видео]](https://youtu.be/WUo8TnHNHYM?t=15) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
+* Автоматическое обновление страниц теперь общедоступно [[видео]](https://youtu.be/WUo8TnHNHYM?t=266) [[статья]](../create-reports/desktop-automatic-page-refresh.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
+* Иерархический срез теперь общедоступен [[видео]](https://youtu.be/WUo8TnHNHYM?t=819) [[статья]](../create-reports/desktop-drill-through-buttons.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
+* Современная лента теперь общедоступна [[видео]](https://youtu.be/WUo8TnHNHYM?t=1057) [[статья]](../create-reports/desktop-ribbon.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
+* RLS теперь поддерживается для подборок таблиц в коллекции Excel "Типы данных" [[видео]](https://youtu.be/WUo8TnHNHYM?t=1075) [[статья]](../collaborate-share/service-excel-featured-tables.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
+
+
 
 ### <a name="analytics"></a>Аналитика
-* Дерево декомпозиции реализовано в общедоступной версии [[видео]](https://youtu.be/JtuHIslowxk?t=1701) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Decomp_tree) 
+* Аналитика ИИ теперь общедоступна [[видео]](https://youtu.be/WUo8TnHNHYM?t=1106) [[статья]](../transform-model/desktop-ai-insights.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Новые визуальные элементы Power BI [[видео]](https://youtu.be/JtuHIslowxk?t=1840) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Visualizations)
-* Визуальный элемент Power Apps теперь совместим со всеми поддерживаемыми языками [[видео]](https://youtu.be/JtuHIslowxk?t=1861) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_lang)
+* Параметры форматирования точек на графиках [[видео]](https://youtu.be/WUo8TnHNHYM?t=1262) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
+* Новые визуальные элементы от различных поставщиков [[видео]](https://youtu.be/WUo8TnHNHYM?t=1342) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
+
+### <a name="template-apps"></a>Приложения-шаблоны
+* Agile HR Analytics [[видео]](https://youtu.be/WUo8TnHNHYM?t=1482) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
+* Отчет данных о пользователях Uber [[видео]](https://youtu.be/WUo8TnHNHYM?t=1507) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+
 
 ### <a name="modeling"></a>Моделирование
-* В качестве разделителя списка и десятичного символа теперь по умолчанию используются стандартные разделители DAX [[видео]](https://youtu.be/JtuHIslowxk?t=1869) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_List_separator)
-
-
-### <a name="data-preparation"></a>Подготовка данных
-* DirectQuery для потоков данных [[видео]](https://youtu.be/JtuHIslowxk?t=1883) [[статья]](../transform-model/service-dataflows-directquery.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
-* Функция получения данных из веб-страниц по примеру теперь по умолчанию автоматически предлагает таблицы [[видео]](https://youtu.be/JtuHIslowxk?t=1916) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
-* Улучшения диагностики запросов: разделы уровня конфиденциальности [[видео]](https://youtu.be/JtuHIslowxk?t=1931) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
+* Представление модели с поддержкой динамического подключения (предварительная версия) [[видео]](https://youtu.be/WUo8TnHNHYM?t=1527) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
+* Обновления представления моделей [[видео]](https://youtu.be/WUo8TnHNHYM?t=1624) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Много новых соединителей данных [[видео]](https://youtu.be/JtuHIslowxk?t=1948) [[статья]](../connect-data/desktop-data-sources.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Data_connectivity) 
-
+* Соединитель Palantir Foundry[[видео]](https://youtu.be/WUo8TnHNHYM?t=1700) [[статья]](../connect-data/desktop-data-sources.md) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
 
 
 ### <a name="other-features"></a>Другие возможности
-* Анализ влияния наборов данных [[видео]](https://youtu.be/JtuHIslowxk?t=1964) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Impact) 
+* Новые курсы обучения Power BI [[видео]](https://youtu.be/WUo8TnHNHYM?t=1722) [[запись блога]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
 
 
-Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/).
+Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/).
 
 Также ознакомьтесь с новыми возможностями [службы Power BI](service-whats-new.md) и [мобильных приложений для Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
@@ -88,7 +86,7 @@ ms.locfileid: "83693985"
 ### <a name="power-bi-desktop-monthly-update-video"></a>Видео, посвященное ежемесячному обновлению Power BI Desktop
 Все эти обновления описываются в следующем видео. Это видео можно также посмотреть в записи блога:
 
-> [!VIDEO https://www.youtube.com/embed/JtuHIslowxk]
+> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
 
 ## <a name="more-videos"></a>Другие видео
 

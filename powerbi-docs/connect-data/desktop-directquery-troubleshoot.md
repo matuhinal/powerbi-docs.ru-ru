@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292508"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485560"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Устранение неполадок с разработкой моделей DirectQuery в Power BI Desktop
 
@@ -36,19 +36,19 @@ ms.locfileid: "83292508"
 Для некоторых источников DirectQuery этот журнал включает все запросы, отправленные в базовый источник данных (поддержка остальных источников DirectQuery может быть реализована позже). Ниже перечислены источники, которые записывают запросы в журнал:
 
 - SQL Server
-- База данных SQL Azure
+- База данных SQL Azure
 - Хранилище данных SQL Azure
-- Oracle
+- Oracle;
 - Teradata
 - SAP HANA
 
-Файл трассировки можно найти в папке **AppData** для текущего пользователя: _\\\<Пользователь>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+Файл трассировки можно найти в папке **AppData** текущего пользователя: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
 Ниже описан простой способ получить эту папку: В Power BI Desktop выберите _Файл > Параметры и настройки > Параметры_, а затем перейдите на страницу **Диагностика**. Появится следующее диалоговое окно:
 
 ![Откроется окно Power BI Desktop, в котором будет выбрана страница "Глобальная диагностика". В разделе "Параметры диагностики" представлены два свойства: "Включить трассировку" и "Обход кэша геокодирования". Параметр "Включить трассировку" активирован. В разделе "Сбор аварийных дампов" представлены кнопка "Включить" и ссылка, с помощью которой можно открыть папку с аварийными дампами и файлами трассировки.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-Если щелкнуть ссылку **Открыть папку аварийных дампов и трассировок** в разделе "Сбор аварийных дампов", откроется следующая папка: _\\\<Пользователь>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+Когда вы щелкните ссылку **Открыть папку аварийных дампов и трассировок** в разделе "Сбор аварийных дампов", откроется следующая папка: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 Когда вы перейдете к родительской папке, отобразится папка, содержащая _AnalysisServicesWorkspaces_, которая будет содержать одну вложенную папку рабочей области для каждого открытого экземпляра Power BI Desktop. Эти вложенные папки содержат в имени суффикс целого числа, например _AnalysisServicesWorkspace2058279583_.
 
@@ -63,7 +63,7 @@ ms.locfileid: "83292508"
 Чтобы открыть файл трассировки, сделайте следующее:
 
 1. В SQL Server Profiler выберите _Файл > Открыть > Файл трассировки_.
-2. Введите путь к файлу трассировки для текущего открытого сеанса Power BI, например: _\\\<Пользователь>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
+2. Введите путь к файлу трассировки для текущего открытого сеанса Power BI, например: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
 3. Откройте файл _FlightRecorderCurrent.trc_.
 
 Отобразятся все события текущего сеанса. Ниже приведен пример, в котором выделены группы событий. Каждая группа включает следующее:
@@ -80,7 +80,7 @@ ms.locfileid: "83292508"
 - **TextData:** текстовые сведения о событии. Для событий _"Начало запроса" и "Окончание запроса"_ будет использоваться запрос DAX. Для событий _"Начало DirectQuery" и "Окончание DirectQuery"_ будет использоваться SQL-запрос, отправленный в базовый источник. Значение _TextData_ для текущего выбранного события также отображается в нижней области.
 - **EndTime:** время завершения события.
 - **Duration:** время, затраченное на выполнение запроса SQL или DAX, в мс.
-- **Error:** событие, сообщающее об ошибке (в этом случае событие также отображается красным цветом).
+- **Ошибка:** событие, сообщающее об ошибке (в этом случае событие также отображается красным цветом).
 
 На приведенном выше рисунке область со столбцами, которые мы не рассматриваем, сужена, что дает возможность сосредоточиться только на основных столбцах.
 
@@ -124,4 +124,4 @@ SalesAmount = SUMX(Web_Sales, [ws_sales_price] * [ws_quantity])
 - [Использование DirectQuery в Power BI Desktop](desktop-use-directquery.md)
 - [Модели DirectQuery в Power BI Desktop](desktop-directquery-about.md)
 - [Руководство по использованию модели DirectQuery в Power BI Desktop](../guidance/directquery-model-guidance.md)
-- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).

@@ -6,18 +6,22 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114780"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355014"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Программная настройка учетных данных для Power BI
 
-Выполните указанные ниже действия, чтобы программно настроить учетные данные для Power BI.
+Выполните описанные в этой статье действия, чтобы программно настроить учетные данные для Power BI.
+
+>[!NOTE]
+>* Вызывающий пользователь должен быть владельцем набора данных или администратором шлюза. Вы также можете использовать [субъект-службу](../embedded/embed-service-principal-certificate.md). Например, субъектом-службой может быть владелец набора данных.
+>* Управление облачными источниками данных и их соответствующими учетными данными осуществляется на уровне пользователя.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Обновление потока учетных данных для источников данных
 

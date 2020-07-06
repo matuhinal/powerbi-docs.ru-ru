@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377291"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354508"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Просмотр полезных сведений о плитках панели мониторинга с помощью Power BI
 
@@ -61,9 +61,11 @@ ms.locfileid: "79377291"
 Чтобы вернуться к отчету, щелкните в верхнем левом углу действие **Выйти из режима фокусировки**.
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
-- **Просмотр аналитики** работает не со всеми типами плиток для панели мониторинга. Например, он недоступен для визуальных элементов Power BI.<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **Просмотр аналитики** работает не со всеми типами плиток для панели мониторинга. Например, он недоступен для настраиваемых визуальных элементов Power BI.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
+Примените аналитику к визуальным элементам отчета [с помощью функции анализа](end-user-analyze-visuals.md)  .  
 См. дополнительные сведения о доступных [типах краткой аналитики](end-user-insight-types.md).
 

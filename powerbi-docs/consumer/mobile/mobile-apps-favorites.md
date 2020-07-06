@@ -5,22 +5,22 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435566"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240198"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Добавление элементов в избранное и их просмотр в мобильных приложениях Power BI
-Применяется к:
+Область применения:
 
 | ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
+| iPhones |устройства iPad. |Телефоны под управлением Android |Планшеты Android |Устройства Windows 10: |
 
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -52,32 +52,28 @@ ms.locfileid: "79435566"
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>Добавление панели мониторинга или отчета в избранное в мобильных приложениях iOS и Windows 10
 Отчет или панель мониторинга Power BI можно добавить в избранное из списка панелей мониторинга или отчетов либо непосредственно с панели или из отчета.
 
-* В мобильном приложении в списке панелей мониторинга или отчетов коснитесь пустой звездочки рядом с именем ![Значок для элементов, не добавленных в избранное](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). Звездочка станет желтой ![Значок избранного](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
+* В мобильном приложении в списке панелей мониторинга или отчетов коснитесь пустой звездочки рядом с именем ![Значок для элементов, не добавленных в избранное](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). Звездочка станет черной ![Значок избранного](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
   
     ![Избранные панели мониторинга](./media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
-* На панели мониторинга коснитесь пустой звездочки ![Значок для элементов, не добавленных в избранное](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) на ленте. В отчете звездочка находится в меню **Дополнительные параметры** (...).  Звездочка станет черной ![Значок избранного](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
+* В панели мониторинга или отчете нажмите **Дополнительно** (...) в заголовке и нажмите значок пустой звездочки ![значок "Не в избранных"](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) в появившемся меню. Звездочка станет черной ![значок "Избранное"](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
   
     ![Выбранный значок избранного](./media/mobile-apps-favorites/power-bi-mobile-favorite-selected.png)
 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Добавление панели мониторинга или отчета в избранное в мобильных приложениях Android
 Отчет или панель мониторинга можно добавить в избранное из списка панелей мониторинга или отчетов либо непосредственно с панели или из отчета.
 
-* В мобильном приложении в списке панелей мониторинга или отчетов коснитесь вертикальной кнопки **Дополнительные параметры** (…) рядом с именем, а затем на появившейся вкладке сведений коснитесь звездочки "Избранное".
+* В мобильном приложении в списке панелей мониторинга или отчетов коснитесь значка звездочки рядом с именем отчета или панели мониторинга, чтобы внести элемент в список "Избранное" или удалить его из такого списка.
   
     ![Меню "Избранное" в Android](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 
-* На панели мониторинга коснитесь пустой звездочки на ленте. ![Значок для элементов, не добавленных в избранное](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). Звездочка станет темно-серой ![Значок избранного](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
+* В панели мониторинга или отчете нажмите **Дополнительно (...)** и выберите **Избранное**.
   
     ![Звездочка избранного в Android](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
-
-* В отчете проведите пальцем вниз по экрану, чтобы открыть ленту, коснитесь элемента **Дополнительные параметры** (...), а затем прокрутите содержимое вниз, чтобы увидеть пустую звездочку ![Значок для элементов, не добавленных в избранное](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png), и коснитесь ее. Звездочка станет темно-серой ![Значок избранного](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
-  
-    ![Звездочка избранного в Android](./media/mobile-apps-favorites/power-bi-android-favorite-in-report.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Добавление отчетов и ключевых показателей эффективности сервера отчетов Power BI и служб Reporting Services в "Избранное"
 Хотя избранные отчеты и ключевые показатели эффективности сервера отчетов Power BI и служб Reporting Services можно просматривать в мобильных приложениях Power BI, вы не может добавить их в "Избранное" в мобильных приложениях. Вы [можете отметить их как "Избранное" на веб-портале](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Избранные панели мониторинга в Power BI](../end-user-favorite.md) 
-* У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+* Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
 

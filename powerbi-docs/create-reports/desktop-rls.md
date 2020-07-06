@@ -6,16 +6,16 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334322"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238646"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Ограничение доступа к данным с помощью безопасности на уровне строк (RLS) для Power BI Desktop
 
@@ -36,6 +36,9 @@ ms.locfileid: "83334322"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Безопасность на уровне строк (RLS) в службе Power BI](../admin/service-admin-rls.md)  
+Дополнительные сведения, связанные с темой этой статьи, см. в следующих ресурсах.
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в Сообществе Power BI](https://community.powerbi.com/).
+- [Row-level security (RLS) with Power BI](../admin/service-admin-rls.md) (Безопасность на уровне строк (RLS) в Power BI)
+- [Руководство по обеспечению безопасности на уровне строк (RLS) в Power BI Desktop](../guidance/rls-guidance.md)
+- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
+- У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

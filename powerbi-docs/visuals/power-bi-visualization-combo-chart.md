@@ -7,15 +7,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563924"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354784"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Создание и использование комбинированных диаграмм в Power BI
 
@@ -48,7 +48,7 @@ ms.locfileid: "83563924"
 
 1. Откройте PBIX-файл с примером **Анализ розничной торговли** в представлении отчета ![Снимок экрана: значок представления отчета](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Выбрать ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
+1. Выберите пункт ![Снимок экрана: желтая вкладка,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) чтобы создать новую страницу.
 
 
 
@@ -66,9 +66,9 @@ ms.locfileid: "83563924"
 
     а.  В области "Поля" выберите **Продажи** \> **Продажи за этот год**  >  **Значение**.
 
-    б.  Перетащите **Продажи** \> **Валовая прибыль за этот год** в область **Значение**.
+    b.  Перетащите **Продажи** \> **Валовая прибыль за этот год** в область **Значение**.
 
-    в. Выберите **Время** \> **Отчетный месяц**, чтобы добавить время в качестве **оси**.
+    c. Выберите **Время** \> **Отчетный месяц**, чтобы добавить время в качестве **оси**.
 
     ![Пример комбинированного учебника](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Щелкните **Дополнительные параметры** в правом верхнем углу визуализации и последовательно выберите **Сортировать по > ФинМесяц**. Чтобы изменить порядок сортировки, снова нажмите кнопку с многоточием и выберите **Сортировка по возрастанию** или **Сортировка по убыванию**. В этом примере будет использоваться **Сортировка по возрастанию**.
@@ -78,7 +78,7 @@ ms.locfileid: "83563924"
     ![Пример преобразования комбинированной диаграммы](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. В области **Поля** перетащите **Продажи** \> **Продажи за прошлый год** в контейнер **Значения строк**.
 
-   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+   ![Значения строк, демонстрирующие продажи за прошлый год](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
    Ваша комбинированная диаграмма должна выглядеть следующим образом:
 
