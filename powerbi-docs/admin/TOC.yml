@@ -76,13 +76,15 @@
           href: desktop-admin-sign-in-form.md
         - name: Защита данных
           items:
-            - name: Общие сведения о защите данных
-              href: service-security-data-protection-overview.md
-            - name: Активация меток конфиденциальности данных
+            - name: "Метки конфиденциальности в Power\_BI"
+              href: service-security-sensitivity-label-overview.md
+            - name: Активация меток конфиденциальности
               href: service-security-enable-data-sensitivity-labels.md
+            - name: Как применять метки конфиденциальности
+              href: service-security-apply-data-sensitivity-labels.md
             - name: "Использование Microsoft Cloud App\_Security в Power\_BI"
               href: service-security-using-microsoft-cloud-app-security-controls.md
-            - name: Отчет о метриках защиты данных
+            - name: Отчет о метриках защиты
               href: service-security-data-protection-metrics-report.md
         - name: Защита на уровне строк
           href: service-admin-rls.md
