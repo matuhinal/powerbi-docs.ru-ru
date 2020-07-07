@@ -11,7 +11,6 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2b9c4a8f4695f8d701eba535180194d29dd8bdec
 ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/23/2020
 ms.locfileid: "85238192"
@@ -47,7 +46,7 @@ ms.locfileid: "85238192"
 1. Разверните пункт **Элементы** и выберите **значок "Развернуть/свернуть"** .
 1. Выберите **Шеврон**, **Плюс/минус** или **Курсор**.
  
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="Выбор значка "Развернуть/свернуть" для иерархического среза":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="Выбор значка Развернуть/свернуть для иерархического среза":::
  
 ### <a name="change-the-indentation"></a>Изменение отступа
 

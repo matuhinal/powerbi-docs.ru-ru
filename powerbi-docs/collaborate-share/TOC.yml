@@ -38,7 +38,7 @@
             - name: Анализ влияния на наборы данных
               href: service-dataset-impact-analysis.md
             - name: Применение меток конфиденциальности данных
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Подключение к файлам в OneDrive вашей группы
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Совместная работа в классической рабочей области

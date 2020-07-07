@@ -12,7 +12,6 @@ ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
 ms.openlocfilehash: be55180f57fec683b8da426e6c73bb95d6365d2f
 ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
-ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/27/2020
 ms.locfileid: "85485537"
@@ -79,7 +78,7 @@ We cannot connect to the dataset due to incomplete account information. For serv
 
 Чтобы избежать сбоя обработки, задайте для раздела **Параметры развертывания** > **Параметры обработки** значение **Не обрабатывать**, как показано на следующем рисунке. Затем Visual Studio развертывает только метаданные. Далее можно настроить учетные данные источника данных и щелкнуть **Обновить** для набора данных в пользовательском интерфейсе Power BI. Сведения об устранении неполадок, связанных с обработкой, см. в разделе [Обновление набора данных](#refreshing-a-dataset) далее в этой статье.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Параметр "Не обрабатывать"":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Параметр Не обрабатывать":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Создание проекта с помощью существующего набора данных
 

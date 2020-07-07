@@ -12,7 +12,6 @@ ms.custom: contperfq4
 LocalizationGroup: Share your work
 ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
 ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
-ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "85354439"
@@ -27,7 +26,7 @@ ms.locfileid: "85354439"
 - Создание рабочей области в Power BI без создания группы Microsoft 365.
 - Использование более детализированных ролей рабочих областей для более гибкого управления разрешениями.
 
-:::image type="content" source="media/service-create-the-new-workspaces/power-bi-workspace-sales-marketing.png" alt-text="Пример рабочей области "Продажи и маркетинг"":::
+:::image type="content" source="media/service-create-the-new-workspaces/power-bi-workspace-sales-marketing.png" alt-text="Пример рабочей области Продажи и маркетинг":::
 
 Дополнительные сведения см. в статье о [новых рабочих областях](service-new-workspaces.md).
 
