@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221007"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034504"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Экспорт отчета Power BI в файл (предварительная версия)
 
@@ -73,7 +73,7 @@ API является асинхронным. При вызове API [exportToFi
 
 ### <a name="data-protection"></a>Защита данных
 
-Форматы PDF и PPTX поддерживают [метки конфиденциальности](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi). При экспорте отчета с меткой конфиденциальности в PDF или PPTX экспортируемый файл будет отображать отчет с меткой конфиденциальности.
+Форматы PDF и PPTX поддерживают [метки конфиденциальности](../../admin/service-security-sensitivity-label-overview.md). При экспорте отчета с меткой конфиденциальности в PDF или PPTX экспортируемый файл будет отображать отчет с меткой конфиденциальности.
 
 Отчет с меткой конфиденциальности нельзя экспортировать в формат PDF или PPTX с помощью [субъекта-службы](embed-service-principal.md).
 
