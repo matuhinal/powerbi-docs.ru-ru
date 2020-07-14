@@ -7,12 +7,12 @@ ms.author: mihart
 ms.topic: include
 ms.date: 06/15/2020
 ms.custom: include file
-ms.openlocfilehash: b136a92fbce9fcebc29eb73e7d868571c32a51bf
-ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
+ms.openlocfilehash: a8181ca15582024f3c4002028de1df048f695cf2
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84973386"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85836954"
 ---
 **Самостоятельная регистрация отключена**    
 Вы пытаетесь зарегистрироваться и получаете примерно такое сообщение: 
@@ -20,6 +20,6 @@ ms.locfileid: "84973386"
 *Не удается завершить регистрацию. Ваш ИТ-отдел отключил регистрацию в службе Microsoft Power BI. Свяжитесь с ним, чтобы завершить регистрацию.* 
 
 **Решение**    
-Самостоятельная регистрация в Power BI отключена. Чтобы завершить регистрацию, обратитесь в ИТ-отдел или службу поддержки и попросите [выполнить эти инструкции для добавления возможности регистрации](../admin/service-admin-disable-self-service.md). 
+Самостоятельная регистрация в Power BI отключена. Чтобы завершить регистрацию, обратитесь в ИТ-отдел или службу поддержки и попросите [выполнить эти инструкции для назначения вам лицензии](../admin/service-admin-purchasing-power-bi-pro.md). 
 
 Эта проблема также может наблюдаться, если вы зарегистрировались в Microsoft 365 через партнера. В этом случае обратитесь в организацию, ответственную за предоставление Microsoft 365. 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355014"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034067"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Программная настройка учетных данных для Power BI
 
@@ -49,13 +49,16 @@ ms.locfileid: "85355014"
 
     ---
 
-2. Вызовите интерфейс [получения шлюза](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) для извлечения открытого ключа шлюза.
+    >[!NOTE]
+    >Если вы используете облачные источники данных, не выполняйте дальнейшие действия в этом разделе. Задайте учетные данные, использовав идентификаторы шлюза и источника данных из шага 1 и вызвав команду [Обновить источник данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource). 
+
+3. Вызовите интерфейс [получения шлюза](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) для извлечения открытого ключа шлюза.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. Зашифруйте учетные данные.
+4. Зашифруйте учетные данные.
 
     # <a name="net-sdk-v3"></a>[Пакет SDK версии 3 для .NET](#tab/sdk3)
 
@@ -73,7 +76,7 @@ ms.locfileid: "85355014"
 
     ---  
 
-4. Создавайте сведения об учетных данных с зашифрованными учетными данными.
+5. Создавайте сведения об учетных данных с зашифрованными учетными данными.
 
     # <a name="net-sdk-v3"></a>[Пакет SDK версии 3 для .NET](#tab/sdk3)
 
@@ -101,7 +104,7 @@ ms.locfileid: "85355014"
 
     ---
 
-5. Вызовите интерфейс [обновления источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) для задания учетных данных.
+6. Вызовите интерфейс [обновления источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) для задания учетных данных.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

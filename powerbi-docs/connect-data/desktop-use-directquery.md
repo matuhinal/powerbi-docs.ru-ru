@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222555"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939506"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Использование DirectQuery в Power BI Desktop
 При подключении к источнику данных в *Power BI Desktop* всегда можно импортировать копию данных в Power BI Desktop. Для некоторых источников данных доступен альтернативный подход: прямое подключение к источнику данных с помощью DirectQuery.
@@ -53,7 +53,7 @@ ms.locfileid: "85222555"
 
 - На выражения DAX, разрешенные в мерах, накладываются ограничения, чтобы обеспечить приемлемую производительность запросов, отправляемых в базовый источник данных.
 
-- При возврате данных с помощью DirectQuery существует ограничение в один миллион строк, если не используется емкость Premium. Это ограничение не влияет на агрегаты и вычисления, используемые для создания набора данных, возвращаемого с помощью DirectQuery. Он влияет только на возвращаемые строки. Емкость Premium позволяет задать максимальное количество строк, как описано в [этой записи блога](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
+- Для облачных источников действует ограничение в 1 000 000 строк, а для локальных источников — ограничение в 4 МБ полезных данных на строку (в зависимости от алгоритма сжатия) или 16 MБ данных для всего визуального элемента. При использовании емкости Premium могут действовать определенные ограничения. Это ограничение не влияет на агрегаты и вычисления, используемые для создания набора данных, возвращаемого с помощью DirectQuery. Он влияет только на возвращаемые строки. Емкость Premium позволяет задать максимальное количество строк, как описано в [этой записи блога](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
 
     Например, можно агрегировать 10 000 000 строк с помощью запроса, выполняемого в источнике данных. Запрос возвращает точные результаты этого агрегирования в Power BI с помощью DirectQuery, если возвращаемые данные Power BI содержат менее 1 млн строк. Если из DirectQuery будет возвращено более 1 млн строк, в Power BI появится сообщение об ошибке (если не используется емкость Premium, где количество строк не превышает указанное администратором ограничение).
 

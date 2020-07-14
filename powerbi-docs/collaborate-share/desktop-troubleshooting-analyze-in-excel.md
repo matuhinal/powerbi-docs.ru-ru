@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226825"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034389"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Устранение неполадок с анализом в Excel
 
@@ -45,22 +45,22 @@ ms.locfileid: "85226825"
 
 Чтобы загрузить последние библиотеки Excel, зайдите в Power BI и в правом верхнем углу службы щелкните **стрелку вниз**, а затем выберите **Обновления анализа в Excel**.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![Снимок экрана: выбор пункта "Обновления анализа в Excel" в меню со стрелкой вниз в правом верхнем углу](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 В открывшемся диалоговом окне выберите **Скачать (предварительная версия)** .
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![Снимок экрана: выбор команды скачивания или предварительного просмотра в диалоговом окне "Обновления анализа в Excel"](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>Определение необходимости в обновлении библиотек Excel
 Последнюю версию библиотеки поставщиков OLE DB для Excel можно скачать по ссылкам, указанным в предыдущем разделе. После загрузки соответствующей библиотеки поставщика OLD DB и начала установки система проверит установку текущей версии.
 
 Если клиентские библиотеки поставщиков OLE DB для Excel актуальны, откроется диалоговое окно следующего вида:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![Снимок экрана: диалоговое окно с запросом на обновление при наличии более новой версии клиентской библиотеки поставщика Excel OLEDB](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 Если устанавливаемая версия новее версии, уже установленной на вашем компьютере, откроется следующее диалоговое окно:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![Снимок экрана: диалоговое окно для подтверждения обновления при установке клиентских библиотек поставщика Excel OLEDB](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 Если появляется диалоговое окно с предложением установить обновление, необходимо продолжить установку и получить последнюю версию поставщика OLE DB, установленного на вашем компьютере.
 

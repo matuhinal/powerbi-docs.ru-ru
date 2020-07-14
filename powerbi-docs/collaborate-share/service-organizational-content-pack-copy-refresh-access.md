@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 74063dc581cce3d63395be5f99e0232a9e7a69a2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225907"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034527"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Пакеты содержимого организации: Копирование, обновления и получение доступа
 
@@ -31,7 +31,7 @@ ms.locfileid: "85225907"
 
 1. Нажмите **Дополнительные параметры** (...) возле панели мониторинга и выберите команду "Создать копию".
 
-    ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
+    ![Снимок экрана: диалоговое окно дополнительных параметров](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Нажмите кнопку **Сохранить**.  
 
 Теперь у вас есть копия, которую можно изменять. Никто другой не увидит ваши изменения.

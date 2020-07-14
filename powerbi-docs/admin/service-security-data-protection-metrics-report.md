@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 759957b6412f4835aaf170fcebb7fd2beac4e234
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0452dabef54cc899abf7a6cbbd6ab718bf22524e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227156"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034320"
 ---
 # <a name="data-protection-metrics-report"></a>Отчет о метриках защиты данных
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>Что такое отчет о метриках защиты данных?
-Отчет о метриках защиты данных — это специальный отчет, с помощью которого [администраторы Power BI](../service-admin-role.md) могут отслеживать использование и принятие меток конфиденциальности данных в клиенте.
+Отчет о метриках защиты данных — это специальный отчет, с помощью которого [администраторы Power BI](../service-admin-role.md) могут отслеживать использование и принятие меток конфиденциальности в клиенте.
 
 ![Отчет о метриках защиты данных](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
@@ -47,13 +47,13 @@ ms.locfileid: "85227156"
 
 Периодически выпускаются усовершенствованные версии отчета о метриках защиты данных. Если доступна новая версия, при открытии отчета вам будет предложено открыть ее. Если вы ответите "Да", новая версия загрузится и перезапишет старую. Все изменения, внесенные в старую версию отчета и набора данных, будут утеряны. Вы можете не открывать новую версию, но в этом случае вы не получите преимущества новой версии. 
 ## <a name="notes-and-considerations"></a>Замечания и рекомендации
-* Для успешного создания отчета о метриках защиты данных в клиенте должна быть включена [защита информации](./service-security-enable-data-sensitivity-labels.md) и [применены метки конфиденциальности](../collaborate-share/service-security-apply-data-sensitivity-labels.md). 
+* Для успешного создания отчета о метриках защиты данных в клиенте должна быть включена [защита информации](./service-security-enable-data-sensitivity-labels.md) и [применены метки конфиденциальности](./service-security-apply-data-sensitivity-labels.md). 
 * Для доступа к данным Cloud App Security у вашей организации должна быть соответствующая [лицензия Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing).
 * Если вы хотите поделиться сведениями из отчета о метриках защиты данных с пользователем, который не является администратором Power BI, учтите, что этот отчет содержит конфиденциальные сведения о вашей организации.
 * Отчет о метриках защиты данных — это отчет особого типа, который не отображается в списках "Мне предоставлен доступ", "Последние" и "Избранное".
 * Отчет о метриках защиты данных недоступен для [внешних пользователей (гостевых пользователей B2B Azure Active Directory)](../service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Защита данных в Power BI](./service-security-data-protection-overview.md)
+* [Метки конфиденциальности в Power BI](./service-security-sensitivity-label-overview.md)
 * [Использование элементов управления Microsoft Cloud App Security в Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Основные сведения о роли администратора службы Power BI](service-admin-role.md)
-* [Активация меток конфиденциальности данных в Power BI](service-security-enable-data-sensitivity-labels.md)
+* [Активация меток конфиденциальности в Power BI](service-security-enable-data-sensitivity-labels.md)

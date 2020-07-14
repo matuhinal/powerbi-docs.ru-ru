@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225705"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034412"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Управление пакетами содержимого организации, их обновление и удаление
 > [!NOTE]
@@ -40,12 +40,12 @@ ms.locfileid: "85225705"
 
 1. Щелкните ссылку **Просмотр пакетов содержимого** в сообщении.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. Или щелкните значок шестеренки в правом верхнем углу ![](media/service-organizational-content-pack-manage-update-delete/cog.png) и выберите команду **Просмотреть пакет содержимого**.
+   ![Снимок экрана: диалоговое окно с сообщением для выбора команды "Просмотреть пакеты содержимого"](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. Или щелкните значок шестеренки в правом верхнем углу ![Снимок экрана со значком шестеренки](media/service-organizational-content-pack-manage-update-delete/cog.png) и выберите пункт **Просмотреть пакет содержимого**.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![Снимок экрана со значком шестеренки в правом верхнем углу](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   Обратите внимание на значок предупреждения ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Он уведомляет вас о том, что пакет содержимого изменен тем или иным образом и больше не соответствует опубликованному пакету.
+   Обратите внимание на значок предупреждения. ![Снимок экрана со значком предупреждения](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Он уведомляет вас о том, что пакет содержимого изменен тем или иным образом и больше не соответствует опубликованному пакету.
 3. Выберите **Изменить**.  
 4. Внесите необходимые изменения в окне **Обновить пакет содержимого** и выберите **Обновить**. Появится сообщение об **успешном выполнении** .
    
@@ -55,7 +55,7 @@ ms.locfileid: "85225705"
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Обновление аудитории: расширение или ограничение доступа
 Еще одним доступным изменением для авторов пакетов содержимого является расширение и ограничение доступа к пакету.  Предположим, что вы опубликовали пакет содержимого для широкой аудитории и вас попросили сузить доступ до одной группы.  
 
-1. Щелкните значок шестеренки ![](media/service-organizational-content-pack-manage-update-delete/cog.png) и выберите **Показать пакеты содержимого**.
+1. Щелкните значок шестеренки ![Снимок экрана со значком шестеренки](media/service-organizational-content-pack-manage-update-delete/cog.png) и выберите пункт **Просмотр пакетов содержимого**.
 2. Выберите **Изменить**. 
 3. Внесите необходимые изменения в окне **Обновить пакет содержимого** и выберите **Обновить**. Например, удалите исходную группу рассылки в поле **Отдельные группы** и замените ее другой группой рассылки (с меньшим числом членов).
    
@@ -77,7 +77,7 @@ ms.locfileid: "85225705"
 > 
 > 
 
-1. Чтобы удалить пакет содержимого из AppSource, перейдите в рабочую область, где он был создан, нажмите значок шестеренки ![](media/service-organizational-content-pack-manage-update-delete/cog.png) и выберите **Просмотр пакетов содержимого**.
+1. Чтобы удалить пакет содержимого из AppSource, перейдите в рабочую область, где он был создан, щелкните значок шестеренки ![Снимок экрана со значком шестеренки](media/service-organizational-content-pack-manage-update-delete/cog.png) и выберите пункт **Просмотр пакетов содержимого**.
 2. Последовательно выберите **Удалить \> Удалить**. 
    
    * Если член группы не настроил пакет содержимого, информационные панели и отчеты, связанные с этим пакетом содержимого, будут автоматически удалены. Они станут недоступны и пакет содержимого не будет отображаться в области навигации.

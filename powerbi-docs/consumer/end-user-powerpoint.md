@@ -7,19 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782527"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837046"
 ---
 # <a name="export-reports-to-powerpoint"></a>Экспорт отчетов в PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 С помощью службы Power BI (app.powerbi.com) можно опубликовать отчет в Microsoft PowerPoint и без труда создать на его основе набор слайдов. При экспорте в PowerPoint происходит следующее.
@@ -40,7 +40,7 @@ ms.locfileid: "85782527"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Когда отчет, который необходимо экспортировать в PowerPoint, отобразится на холсте, на панели меню щелкните **Экспорт** > **PowerPoint**.
+Когда отчет, который необходимо экспортировать в PowerPoint, отобразится на холсте, в строке меню выберите **Файл** > **Экспорт в PowerPoint**.
 
 ![Выбор пункта "Экспорт" в строке меню](media/end-user-powerpoint/power-bi-export.png)
 
@@ -87,6 +87,10 @@ ms.locfileid: "85782527"
 При работе с функцией **Экспорт в PowerPoint** следует учитывать несколько рекомендаций и ограничений.
  
 
+* Если команда **Экспорт** отсутствует, убедитесь в том, что вы включили новый интерфейс и просматриваете отчет, а не панель мониторинга.
+
+    ![Снимок экрана: переключатель "Новый вид"](media/end-user-powerpoint/power-bi-new-look.png)
+
 * При выборе варианта **Текущие значения** для экспорта [фильтры URL-адресов](../collaborate-share/service-url-filters.md) в настоящее время не учитываются.
 
 * Если при экспорте в PowerPoint в отчете используется пользовательский шрифт, этот шрифт будет заменен шрифтом по умолчанию.
@@ -97,7 +101,7 @@ ms.locfileid: "85782527"
    - Визуальные элементы R и Python не поддерживаются.
    - Фоновые изображения будут обрезаны по ограничивающей области диаграммы. Рекомендуем удалить фоновые рисунки перед экспортом в PowerPoint.
 
-* Некоторые отчеты невозможно экспортировать. К ним относятся следующие объекты.
+* Некоторые отчеты невозможно экспортировать. К ним относятся:
     - Отчеты, принадлежащие пользователям вне домена клиента Power BI (например, отчет, принадлежащий пользователю не из вашей организации, к которому он предоставил вам доступ).
     - Если вы совместно используете панель мониторинга с кем-либо не из вашей организации (то есть этот пользователь находится вне клиента Power BI), этот пользователь не сможет экспортировать отчеты, связанные с общей панелью мониторинга, в PowerPoint. Например, если вы aaron@contoso.com, вы сможете предоставить общий доступ david@cohowinery.com. Но david@cohowinery.com не может экспортировать связанные отчеты в PowerPoint.
     - Отчеты, содержащие более 30 страниц отчета. Будут экспортированы только первые 30 страниц.

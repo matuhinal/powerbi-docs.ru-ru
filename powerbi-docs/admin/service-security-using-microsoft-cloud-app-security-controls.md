@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: b41d15329b7ce617803056d2d2b912a0afb7850c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227096"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034228"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Использование элементов управления Microsoft Cloud App Security в Power BI
 
@@ -59,7 +59,7 @@ Cloud App Security можно настраивать не только для Po
 
 С помощью меток конфиденциальности вы можете классифицировать и защитить конфиденциальное содержимое. Благодаря этому сотрудники вашей организации смогут работать с находящимися вне ее среды партнерам, не нарушая при этом требований к защите конфиденциального содержимого и данных. 
 
-Дополнительные сведения о применении меток конфиденциальности для Power BI можно найти в [этой статье](../collaborate-share/service-security-apply-data-sensitivity-labels.md). Также далее приведен [пример политики Power BI на основе меток конфиденциальности](#example).
+Дополнительные сведения о применении меток конфиденциальности для Power BI можно найти в [этой статье](service-security-sensitivity-label-overview.md). Также далее приведен [пример политики Power BI на основе меток конфиденциальности](#example).
 
 ## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Встроенные обнаружения Cloud App Security для Power BI
 
@@ -133,9 +133,9 @@ Cloud App Security можно настраивать не только для Po
 ## <a name="next-steps"></a>Дальнейшие действия
 В этой статье описывается защита данных и содержимого в Power BI с использованием Cloud App Security. Также вы можете ознакомиться со следующими статьями, в которых рассматриваются вопросы защиты данных в Power BI, и с дополнительными материалами по службам Azure, которые обеспечивают эти возможности.
 
-* [Общие сведения о защите данных в Power BI](service-security-data-protection-overview.md)
-* [Активация меток конфиденциальности данных в Power BI](service-security-enable-data-sensitivity-labels.md)
-* [Применение меток конфиденциальности данных в Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Общие сведения о метках конфиденциальности в Power BI](service-security-sensitivity-label-overview.md)
+* [Активация меток конфиденциальности в Power BI](service-security-enable-data-sensitivity-labels.md)
+* [Применение меток конфиденциальности в Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 Рекомендуем также ознакомиться со следующими материалами по Azure и обеспечению безопасности:
 

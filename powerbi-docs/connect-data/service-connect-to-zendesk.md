@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231637"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034458"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Подключение к Zendesk с помощью Power BI
 
@@ -28,6 +28,9 @@ ms.locfileid: "85231637"
 
 >[!NOTE]
 >Для подключения вам понадобится учетная запись администратора Zendesk. Дополнительные сведения о [требованиях](#system-requirements) см. ниже.
+
+>[!WARNING]
+>До 15 октября 2019 г. API поиска в службе поддержки Zendesk позволял получать всего 200 000 результатов благодаря разбивке на страницы для больших запросов. Чтобы поиск использовался по назначению, максимальное число результатов в Zendesk теперь ограничено на уровне 1000, а максимальное число результатов на страницу равно 100. Однако текущий соединитель Power BI с Zendesk по-прежнему может создавать вызовы API, превышающие эти новые ограничения, что может приводить к неверным результатам.
 
 ## <a name="how-to-connect"></a>Способы подключения
 

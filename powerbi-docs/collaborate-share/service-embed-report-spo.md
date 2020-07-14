@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 04/27/2020
-ms.openlocfilehash: 6448fd85f281024aaaf03973496eaa0c4350c13b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 06/28/2020
+ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226264"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939535"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Внедрение веб-части отчетов в SharePoint Online
 
 С помощью новой веб-части отчетов Power BI для SharePoint Online вы можете легко внедрять интерактивные отчеты Power BI в страницы SharePoint Online.
 
-Если вы используете новый параметр **Внедрить в SharePoint Online**, внедренные отчеты являются полностью защищенными, поэтому вы можете легко создавать безопасные внутренние порталы.
+Если вы используете новый параметр **Внедрить в SharePoint Online**, внедренные отчеты учитывают все разрешения на доступ к объектам и параметры безопасности данных [на уровне строк](../admin/service-admin-rls.md), поэтому вы можете легко создавать безопасные внутренние порталы.
 
 ## <a name="requirements"></a>Требования
 

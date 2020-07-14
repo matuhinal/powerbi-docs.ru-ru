@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225741"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034481"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Знакомство с пакетами содержимого организации в Power BI
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225741"
 
 Вам требуется регулярно рассылать отчеты членам группы по электронной почте? Попробуйте использовать такой подход. Упаковывайте свои панели мониторинга, отчеты, книги Excel и наборы данных и опубликуйте их для своей группы в виде *пакета содержимого организации*. Ваша группа может легко найти созданные пакеты содержимого: все они содержатся в AppSource. Являясь частью Power BI, они используют все функции Power BI, включая интерактивный просмотр данных, новые визуальные элементы, вопросы и ответы, интеграцию с другими источниками данных, обновление данных и многое другое.
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![Снимок экрана: панель мониторинга с пакетами содержимого организации](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 Создание пакетов содержимого отличается от предоставления общего доступа к информационным панелям и от совместной работы над ними в рабочей области. Чтобы выбрать оптимальный вариант для вашей ситуации, см. статью [Как предоставить общий доступ к панелям мониторинга, отчетам и плиткам?](service-how-to-collaborate-distribute-dashboards-reports.md) 
 

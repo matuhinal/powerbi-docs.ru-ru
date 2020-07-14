@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337080"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092246"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -428,9 +428,12 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ### <a name="development-testing"></a>Тестирование в ходе разработки
 
-Токены внедрения с лицензиями Pro предназначены для тестирования при разработке, поэтому количество таких токенов, создаваемых главной учетной записью или субъектом-службой Power BI, ограничено. Выделенную емкость необходимо внедрить в рабочую среду. В этом случае не будет ограничения на количество создаваемых токенов. Выберите [Доступные компоненты](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), чтобы проверить данные по использованию Embedded, выраженные в процентах от общей емкости. Суммарный объем использования основан на главной учетной записи.
+Для тестирования в процессе разработки можно использовать токены внедрения пробной версии с лицензией Pro. Для внедрения в рабочей среде используйте выделенную емкость.
 
-Дополнительные сведения приведены в [техническом документе по планированию емкости для внедренной аналитики](https://aka.ms/pbiewhitepaper).
+Число токенов внедрения пробной версии, которые можно создать в субъекте-службе или основной учетной записи Power BI, ограниченно. Используйте API [доступных компонентов](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), чтобы просмотреть текущий объем использования сценариев внедрения в процентном соотношении. Объем использования приводится для отдельного субъекта-службы или главной учетной записи.
+
+Если во время тестирования токены внедрения закончились, необходимо приобрести [емкость](embedded-capacity.md) Power BI Embedded или Premium. В этом случае не будет ограничения на количество создаваемых токенов.
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Назначение выделенной емкости для рабочей области
 

@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148416"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034251"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Просмотр данных в автономном режиме в мобильных приложениях Power BI
-Область применения:
+Применяется к:
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
+| iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
 >[!NOTE]
 >Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -35,6 +35,9 @@ ms.locfileid: "83148416"
 Когда вы находитесь вне сети, у вас по-прежнему есть возможность работать с панелями мониторинга, которые вы использовали раньше в мобильном приложении.
 
 У вас также есть доступ в режиме чтения к отчетам Power BI, с которыми вы ранее работали из мобильного приложения. В этом режиме можно просматривать отчеты целиком, однако недоступны функции фильтрации (в том числе перекрестной), сортировки и создания срезов.
+
+>[!NOTE]
+> Отчеты на основе DirectQuery не кэшируются и недоступны в автономном режиме.
 
 ## <a name="background-data-refresh"></a>Фоновое обновление данных
 Фоновое обновление актуализирует избранные панели мониторинга, а также обновляет панели мониторинга и отчеты, которые вы просматривали за последние две недели, в соответствии с данными в службе Power BI (не источнике данных). Если вы подключены к сети Wi-Fi, фоновое обновление происходит каждые два часа. Если же вы подключены к сети 3G, служба Power BI обновляет содержимое каждые 24 часа.
@@ -64,7 +67,7 @@ ms.locfileid: "83148416"
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за функции, которые хотели бы увидеть в мобильных приложениях Power BI. 
 
-* [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
+* [Приложения Power BI для мобильных устройств](mobile-apps-for-mobile-devices.md)
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](https://community.powerbi.com/).
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)

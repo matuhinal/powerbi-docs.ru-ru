@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
+ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393825"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85943065"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Применение автоматических даты и времени в Power BI Desktop
 
@@ -27,7 +27,7 @@ ms.locfileid: "85393825"
 - столбец дат имеет тип данных "Дата" или "Дата и время";
 - столбец не является стороной "многие" связи модели.
 
-## <a name="how-it-works"></a>Принцип работы
+## <a name="how-it-works"></a>Принципы работы
 
 Каждая таблица c автоматическими датой и временем на самом деле является [вычисляемой таблицей](desktop-calculated-tables.md), которая создает строки данных с помощью функции DAX [CALENDAR](/dax/calendar-function-dax). Каждая таблица также содержит шесть вычисляемых столбцов: **День**, **№Месяца**, **Месяц**, **№Квартала**, **Квартал** и **Год**.
 
@@ -100,5 +100,5 @@ Date Count = COUNT(Sales[OrderDate].[Date])
 - [Автоматические дата и время в Power BI Desktop](../guidance/auto-date-time.md)
 - [Создание таблиц дат в Power BI Desktop](../guidance/model-date-tables.md)
 - [Настройка и использование таблиц дат в Power BI Desktop](desktop-date-tables.md)
-- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
+- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com/)

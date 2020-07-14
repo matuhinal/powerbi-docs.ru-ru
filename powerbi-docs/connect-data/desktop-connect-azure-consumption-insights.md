@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224882"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034435"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Подключение к данным Azure Consumption Insights в Power BI Desktop
 
@@ -42,25 +42,25 @@ Azure Consumption Insights позволяет подключиться к уче
 
 1. Нажмите кнопку **Подключиться**.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![Снимок экрана: диалоговое окно Microsoft Azure Consumption Insights Нажмите кнопку "Подключиться".](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    В открывшемся диалоговом окне введите свой **номер регистрации в Azure**.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![Снимок экрана: диалоговое окно для ввода номера регистрации в Azure](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * Номер регистрации можно найти на портале [Azure Enterprise Portal](https://ea.azure.com) в расположении, которое показано на следующем рисунке:
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![Снимок экрана: получение номера регистрации на портале Azure Enterprise](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    Эта версия соединителя поддерживает только корпоративные регистрации с https://ea.azure.com. Регистрации из Китая в настоящее время не поддерживаются.
 
    Теперь введите свой *ключ доступа* для подключения.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![Снимок экрана: диалоговое окно для ввода ключа доступа с целью подключения к Microsoft Azure Consumption Insights](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * Ключ доступа для регистрации можно найти на портале [Azure Enterprise Portal](https://ea.azure.com).
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![Снимок экрана: ключи доступа для регистрации на портале Azure Enterprise](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Когда вы введете *ключ доступа* и нажмете кнопку **Подключиться**, откроется окно **навигатора** с девятью доступными таблицами.
 
@@ -78,7 +78,7 @@ Azure Consumption Insights позволяет подключиться к уче
 
 Чтобы просмотреть сведения, установите флажок возле соответствующей таблицы. Чтобы выбрать одну или несколько таблиц, установите флажок рядом с именем таблицы, а затем нажмите кнопку **Загрузить**.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![Снимок экрана: диалоговое окно "Навигатор" со всеми доступными таблицами](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > Таблицы *Сводка* и *Прайс-лист* доступны только для уровня регистрации ключа API. По умолчанию таблицы *Использование* и *Прайс-лист* содержат данные за текущий месяц. Данные в таблицах *Сводка* и *MarketPlace* не ограничены текущим месяцем.
@@ -87,11 +87,11 @@ Azure Consumption Insights позволяет подключиться к уче
 
 После нажатия кнопки **Загрузить** данные загружаются в **Power BI Desktop**.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![Снимок экрана: диалоговое окно, появляющееся при загрузке данных](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 Когда выбранные данные будут загружены, соответствующие таблицы и поля отобразятся в области **Поля**.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![Снимок экрана: область полей после загрузки таблицы из окна "Навигатор"](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Использование Azure Consumption Insights
 Чтобы использовать соединитель **Azure Consumption Insights**, нужно получить доступ к функциям Enterprise на портале Azure.
@@ -116,7 +116,7 @@ Azure Consumption Insights позволяет подключиться к уче
 
 На рисунке ниже показана открывающаяся коллекция примеров.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![Снимок экрана с примером коллекции](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 При работе с отчетами и создании запросов можно использовать указанные ниже параметры.
 
@@ -148,7 +148,7 @@ Azure Consumption Insights позволяет подключиться к уче
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![Снимок экрана: диалоговое окно для создания запроса в Расширенном редакторе](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 Значение *enrollmentNumber* нужно заменить на собственный номер регистрации. Его можно найти на [портале Azure Enterprise](https://ea.azure.com). Параметр *numberOfMonth* — это число месяцев начиная с текущей даты, данные за которые вы хотите просмотреть. Чтобы просмотреть данные за текущий месяц, укажите ноль (0).
 
@@ -160,7 +160,7 @@ Azure Consumption Insights позволяет подключиться к уче
 1. Откройте Блокнот (или другой текстовый редактор).
 2. Выберите меру, которую нужно переместить, скопируйте текст из поля *Формула* и вставьте его в Блокнот.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![Снимок экрана: поле формулы со столбцами и мерами](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Замените имя *Query1* исходным именем таблицы со сведениями.
 4. Чтобы создать меры и пользовательские столбцы в таблице, щелкните правой кнопкой мыши таблицу и выберите пункт **Новая мера**. Затем вырежьте и вставьте все сохраненные меры и столбцы.
 
@@ -169,7 +169,7 @@ Azure Consumption Insights позволяет подключиться к уче
 
 - В **Power BI Desktop** на вкладке **Моделирование** выберите элемент **Управление связями**, чтобы открыть окно управления связями в модели. При необходимости восстановите связи между таблицами.
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![Снимок экрана: диалоговое окно "Создание связи" Щелкните "Управление связями".](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Шаг 5. Проверка визуальных элементов и изменение форматирования полей при необходимости
 На этом этапе большая часть исходных визуальных элементов, таблиц и детализаций должна работать правильно. Однако может потребоваться внести небольшие изменения, чтобы настроить внешний вид. Просмотрите все свои панели мониторинга и визуальные элементы, чтобы убедиться в том, что они выглядят, как вы хотите.

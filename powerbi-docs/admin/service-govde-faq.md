@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 31a39d32e61ff82dcc9e451fbf1119938e5bb2e2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fb67243b14fc5a89de0efc6f8248aa2b37fb2bbf
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344878"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034090"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Часто задаваемые вопросы о Power BI в облаке для пользователей из Германии
 **Служба Power BI** имеет версию, доступную для пользователей из ЕС и ЕАСТ, так называемую Microsoft Cloud Deutschland (MCD). Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из ЕС и ЕАСТ и отличается от коммерческой версии **службы Power BI** и службы Power BI для клиентов из государственных организаций.
 
-![](media/service-govde-faq/govde-faq_01.png)
+![Снимок экрана: домашняя страница Microsoft Power BI в Германии](media/service-govde-faq/govde-faq_01.png)
 
 ## <a name="questions-and-answers"></a>Вопросы и ответы
 

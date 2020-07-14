@@ -10,35 +10,35 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06e5ec77a084755379d81be93c9455e8bd7af304
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d7d22ba9aad24ed9f1ac60314d18d16f22d7994
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224636"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033814"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Подключение к CSV-файлам в Power BI Desktop
 Файлы с разделителями-запятыми (формат *CSV*) подключаются в Power BI Desktop почти так же, как и книги Excel. Обе процедуры довольно просты, и в этой статье объясняется, как подключиться к любому CSV-файлу, к которому у вас есть доступ.
 
 Для начала в Power BI Desktop выберите **Получение данных > CSV** на ленте **Главная**.
 
-![](media/desktop-connect-csv/connect-to-csv_1.png)
+![Снимок экрана: меню "Получить данные"](media/desktop-connect-csv/connect-to-csv_1.png)
 
 Выберите CSV-файл в диалоговом окне **Открыть**.
 
-![](media/desktop-connect-csv/connect-to-csv_2.png)
+![Снимок экрана: диалоговое окно "Открыть"](media/desktop-connect-csv/connect-to-csv_2.png)
 
 Когда вы нажмете кнопку **Открыть**, Power BI Desktop откроет файл и проанализирует некоторые его атрибуты, такие как источник, тип разделителя и количество строк, необходимых для определения типов данных в файле.
 
 Эти атрибуты и доступные варианты отобразятся в раскрывающихся списках в верхней части диалогового окна **Импорт из формата CSV**, как показано на изображении ниже. Вы можете вручную изменить определенные автоматически параметры, выбрав нужный вариант из соответствующего раскрывающегося списка.
 
-![](media/desktop-connect-csv/connect-to-csv_3.png)
+![Снимок экрана: диалоговое окно импорта CSV-файла](media/desktop-connect-csv/connect-to-csv_3.png)
 
 Задав атрибуты, нажмите кнопку **Загрузить**, чтобы импортировать файл в приложение Power BI Desktop, или кнопку **Изменить**, чтобы открыть **редактор запросов** и отформатировать или преобразовать данные перед импортом.
 
 После загрузки данных в Power BI Desktop таблица и ее столбцы (в Power BI Desktop они считаются полями) появятся в области **Поля** справа от представления отчета в Power BI Desktop.
 
-![](media/desktop-connect-csv/connect-to-csv_4.png)
+![Снимок экрана: окно Power BI Desktop с областью "Поля"](media/desktop-connect-csv/connect-to-csv_4.png)
 
 На этом импорт завершен: теперь данные из CSV-файла загружены в Power BI Desktop.
 
@@ -52,7 +52,7 @@ ms.locfileid: "85224636"
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
 * [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

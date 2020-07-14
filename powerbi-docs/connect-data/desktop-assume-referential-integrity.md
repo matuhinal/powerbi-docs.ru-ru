@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8f5e39d320ca0135665977e740fd1dedecb988b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224836"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034366"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Применение параметра "Предполагать целостность данных" в Power BI Desktop
 При подключении к источнику данных с помощью **DirectQuery** можно установить флажок **Предполагать целостность данных**, что позволит создавать более эффективные запросы к источнику. У этой функции есть некоторые требования к базовым данным, и она доступна только при использовании **DirectQuery**.
 
 Если флажок **Предполагать целостность данных** установлен, в запросах к источнику данных используются инструкции **INNER JOIN**, а не **OUTER JOIN**. Они повышают эффективность запросов.
 
-![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
+![Снимок экрана: выбор флажка "Предполагать целостность данных" в диалоговом окне "Изменение связи"](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
 ## <a name="requirements-for-using-assume-referential-integrity"></a>Требования для использования функции "Предполагать целостность данных"
 Это дополнительная функция. Она доступна только при подключении к данным с помощью **DirectQuery**. Чтобы функция **Предполагать целостность данных** работала правильно, необходимо выполнить следующие условия:
@@ -36,18 +36,18 @@ ms.locfileid: "85224836"
 
 1. На рисунке ниже показаны таблицы **Заказы** и **Товары**. Обратите внимание, что целостность данных существует между столбцами **Заказы[КодТовара]** и **Товары[КодТовара]** . В таблице **Заказы** в столбце **[КодТовара]** нет значений *Null*, и каждое значение из этого столбца повторяется в таблице **Товары**. Таким образом, чтобы получить более эффективные запросы, нужно установить флажок **Предполагать целостность данных** (установка флажка не влияет на значения, отображаемые на визуализациях).
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
+   ![Снимок экрана: таблицы "Заказы" и "Товары"](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. На рисунке ниже целостность данных между столбцами **Заказы[КодСклада]** и **Склады[КодСклада]** не существует, так как в столбце **КодСклада** для некоторых *заказов* указано значение *Null*. Поэтому флажок **Предполагать целостность данных** устанавливать *не* нужно.
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Снимок экрана: таблицы "Заказы" и "Товары"](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. На рисунке ниже целостность данных не существует между столбцами **Заказы[КодКлиента]** и **Клиенты[КодКлиента]** : в столбце **КодКлиента** есть значения (в данном случае — *КлиентX*), которых нет в таблице *Клиенты*. Поэтому флажок **Предполагать целостность данных** устанавливать *не* нужно.
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
+   ![Снимок экрана: таблицы "Заказы" и "Клиенты"](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
 ## <a name="setting-assume-referential-integrity"></a>Установка флажка "Предполагать целостность данных"
 Чтобы активировать эту функцию, установите флажок **Предполагать целостность данных**, как показано на рисунке ниже.
 
-![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
+![Снимок экрана: диалоговое окно "Изменение связи", в котором можно выбрать параметр "Предполагать целостность данных"](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
 Когда флажок установлен, выполняется проверка на отсутствие значений *Null* и несовпадающих строк. *Но* если значений очень много, такая проверка не гарантирует отсутствие проблем с целостностью данных.
 
