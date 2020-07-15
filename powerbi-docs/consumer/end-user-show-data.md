@@ -2,19 +2,19 @@
 title: Отображение данных, использованных для создания визуализации
 description: В этом документе объясняется, как пользователи Power BI могут "видеть" данные, используемые для создания визуализации.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6363c369f3ed30ee136d8e043c12c1546b184ef9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55f60facc281b49d4dc5e05fa1dbf157227d9374
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238719"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264240"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Демонстрация данных с помощью отчетов Power BI
 

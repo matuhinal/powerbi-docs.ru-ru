@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226203"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86301006"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Внедрение отчета на защищенный портал или сайт
 
@@ -122,8 +122,6 @@ report.src = newUrl;
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
 * Сценарии безопасного внедрения поддерживают отчеты с разбивкой на страницы, в том числе с параметрами URL. См. дополнительные сведения о [передаче параметров отчета в URL-адресе для отчета с разбивкой на страницы](../paginated-reports/report-builder-url-pass-parameters.md).
-
-* Для Azure B2B не поддерживаются внешние пользователи с правами гостя.
 
 * Защищенное внедрение работает только для отчетов, опубликованных в службе Power BI.
 
