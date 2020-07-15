@@ -56,17 +56,17 @@ ms.locfileid: "85943162"
 
 3. В разделе **Создание содержимого** убедитесь в том, что выбран вариант **Файлы**, а затем выберите папку, в которой был сохранен файл Excel.
    
-    :::image type="content" source="media/service-get-started/power-bi-service-get-data-local-file.png" alt-text="Снимок экрана: раздел "Создание содержимого" > "Файлы"":::
+    :::image type="content" source="media/service-get-started/power-bi-service-get-data-local-file.png" alt-text="Снимок экрана: раздел Создание содержимого > Файлы":::
 
 5. Перейдите к файлу на компьютере и выберите **Открыть**.
 
 5. В этом руководстве мы выбираем пункт меню **Импорт**, чтобы добавить набор данных из файла Excel. Этот набор данных затем будет использоваться для создания отчетов и панелей мониторинга. Если выбрать **Отправить**, то в Power BI будет передана вся рабочая книга Excel, которую можно открыть и редактировать в Excel Online.
    
-   :::image type="content" source="media/service-get-started/power-bi-import.png" alt-text="Снимок экрана: выбор пункта "Импорт"":::
+   :::image type="content" source="media/service-get-started/power-bi-import.png" alt-text="Снимок экрана: выбор пункта Импорт":::
 6. Когда набор данных будет готов, выберите **Дополнительные параметры (...)** рядом с набором данных "Пример финансовых данных", а затем щелкните **Создать отчет**.
 1. Откроется редактор отчетов. 
 
-    :::image type="content" source="media/service-get-started/power-bi-service-datasets.png" alt-text="Снимок экрана: раздел "Все содержимое" > "Создать отчет"":::
+    :::image type="content" source="media/service-get-started/power-bi-service-datasets.png" alt-text="Снимок экрана: раздел Все содержимое > Создать отчет":::
 
     Холст отчетов пуст. Справа находятся панели **Фильтры**, **Визуализации** и **Поля**.
 
@@ -80,7 +80,7 @@ ms.locfileid: "85943162"
 
 7. В настоящее время вы находитесь в режиме правки. Обратите внимание на пункт **Представление чтения** в строке меню. 
 
-    :::image type="content" source="media/service-get-started/power-bi-service-reading-view.png" alt-text="Снимок экрана: пункт "Представление чтения"":::
+    :::image type="content" source="media/service-get-started/power-bi-service-reading-view.png" alt-text="Снимок экрана: пункт Представление чтения":::
 
     В режиме правки вы можете создавать и изменять отчеты, так как вы являетесь *владельцем* и *создателем* отчета. При совместном использовании отчета с коллегами они зачастую могут взаимодействовать с ним только в режиме чтения. Они являются *потребителями* отчетов в разделе **Моя рабочая область**. 
 
@@ -89,7 +89,7 @@ ms.locfileid: "85943162"
     
 1. В редакторе отчетов начните с использования области **Поля** в правой части страницы для создания визуализации. Выберите поля **Валовые продажи** и **Дата**.
    
-   :::image type="content" source="media/service-get-started/power-bi-service-fields-pane-selected.png" alt-text="Снимок экрана: список "Поля"":::
+   :::image type="content" source="media/service-get-started/power-bi-service-fields-pane-selected.png" alt-text="Снимок экрана: список Поля":::
 
     Power BI анализирует эти данные и создает визуализацию в виде гистограммы. 
 
@@ -132,7 +132,7 @@ ms.locfileid: "85943162"
 
 1. Чтобы переключиться обратно в режим правки, в строке меню выберите **Дополнительные параметры** (…) > **Правка**.
 
-    :::image type="content" source="media/service-get-started/power-bi-service-edit-report.png" alt-text="Снимок экрана: выбор пункта "Изменить" для изменения отчета":::
+    :::image type="content" source="media/service-get-started/power-bi-service-edit-report.png" alt-text="Снимок экрана: выбор пункта Изменить для изменения отчета":::
 
     В режиме правки вы можете продолжать изучение и закрепление плиток.
 
@@ -142,7 +142,7 @@ ms.locfileid: "85943162"
 
 1. Чтобы вернуться на панель мониторинга, выберите **Моя рабочая область** в черной строке заголовка **Power BI**.
 
-    :::image type="content" source="media/service-get-started/power-bi-service-go-my-workspace.png" alt-text="Снимок экрана: возврат на панель "Моя рабочая область"":::
+    :::image type="content" source="media/service-get-started/power-bi-service-go-my-workspace.png" alt-text="Снимок экрана: возврат на панель Моя рабочая область":::
 
 1. В разделе **Моя рабочая область** выберите свою панель мониторинга.
 
@@ -181,7 +181,7 @@ ms.locfileid: "85943162"
 
 4. Выберите **Exit Q&A** (Выйти из раздела "Вопросы и ответы"), чтобы вернуться к панели мониторинга, где вы увидите созданные плитки. 
 
-   :::image type="content" source="media/service-get-started/power-bi-service-dashboard-qna.png" alt-text="Снимок экрана: панель мониторинга с закрепленными визуальными элементами функции "Вопросы и ответы"":::
+   :::image type="content" source="media/service-get-started/power-bi-service-dashboard-qna.png" alt-text="Снимок экрана: панель мониторинга с закрепленными визуальными элементами функции Вопросы и ответы":::
 
    Несмотря на то что карта была изменена на линейчатую диаграмму на панели "Вопросы и ответы", на плитке осталась карта, так как она была закреплена именно в таком виде. 
 
@@ -201,7 +201,7 @@ ms.locfileid: "85943162"
 
 1. В поле **Название** введите *Средняя себестоимость проданных товаров* > **Применить**.
 
-    :::image type="content" source="media/service-get-started/power-bi-tile-details-dialog.png" alt-text="Снимок экрана: диалоговое окно "Изменить сведения"":::
+    :::image type="content" source="media/service-get-started/power-bi-tile-details-dialog.png" alt-text="Снимок экрана: диалоговое окно Изменить сведения":::
 
 1. Измените расположение других визуальных элементов, чтобы правильно скомпоновать их.
 
