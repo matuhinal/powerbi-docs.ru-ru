@@ -2,18 +2,19 @@
 title: Общие сведения о закладках в отчетах службы Power BI
 description: Раздел с обзором документации по использованию закладок в службе Power BI.
 author: mihart
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08b3c1287d8435c06735c5756e5f95275b2757a6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235573"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162073"
 ---
 # <a name="what-are-bookmarks"></a>Что такое закладки?
 

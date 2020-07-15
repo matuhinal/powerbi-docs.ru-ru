@@ -2,19 +2,19 @@
 title: Использование кнопок в службе Power BI
 description: Кнопки можно использовать для активации различных действий, включая навигацию по отчетам, детализацию и детализацию между отчетами.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 14024a9c28da93cbe9e6e586ee66f634b63a70b8
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940124"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161797"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Кнопки в служба Power BI
 Вы могли заметить, что в отчетах, получаемых от коллег, есть кнопки. На некоторых из них есть надписи, на других — стрелки, рисунки или даже раскрывающиеся меню. Из этой статьи вы узнаете, как распознать кнопку и определить ее назначение.
