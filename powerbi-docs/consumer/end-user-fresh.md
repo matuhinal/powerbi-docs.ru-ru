@@ -3,18 +3,19 @@ title: Как Power BI гарантирует, что ваше содержим
 description: Узнайте, как Power BI гарантирует, что вы работаете с последней версией данных, отчетов, панели мониторинга и приложения.
 author: mihart
 ms.service: powerbi
+ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f03493ad6aef1b9ed8393ef684d4c18143085964
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235004"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215910"
 ---
 # <a name="your-content-is-up-to-date"></a>Содержимое актуально
 

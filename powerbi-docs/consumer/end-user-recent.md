@@ -2,7 +2,7 @@
 title: Отображение недавно просмотренного содержимого в службе Power BI
 description: Документация по недавно просмотренному содержимому в Power BI
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d9956dac9a2e3b51ef18bc6c3912dee74bd58ebb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b35d04c591e9ea4102b20e4b04c3f25284246d17
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229412"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263275"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>**Недавнее** содержимое в службе Power BI
 

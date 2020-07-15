@@ -2,19 +2,19 @@
 title: Общие сведения о панели мониторинга и ее открытии
 description: Панели мониторинга — это главная особенность службы Power BI.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 5f8b2fd4c999853e09852e69406968cad2fb9490
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354922"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216170"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Панели мониторинга с точки зрения потребителей службы Power BI
 

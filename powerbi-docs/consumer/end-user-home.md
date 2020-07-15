@@ -2,19 +2,19 @@
 title: Поиск содержимого с главной страницы служба Power BI
 description: Начните работу с холста главной страницы, чтобы затем найти и открыть отчеты, панели мониторинга и приложения.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7738fef88a82b84c1391af4b3e784b305478ccb2
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113301"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263931"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Поиск панелей мониторинга, отчетов и приложений
 
