@@ -47,6 +47,8 @@
       items:
         - name: Отчеты Power BI
           items:
+            - name: "Power\_BI Desktop и внешние средства"
+              href: desktop-external-tools.md
             - name: "Современная лента Power\_BI"
               href: desktop-ribbon.md
             - name: Работа с представлением отчета
