@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240404"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263306"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне. Вы получаете доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -67,12 +67,12 @@ ms.locfileid: "85240404"
 
 ### <a name="reporting-services-mobile-report-samples"></a>Примеры мобильных отчетов Reporting Services
 1. Коснитесь кнопки глобальной навигации ![Кнопка глобальной навигации](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) в левом верхнем углу.
-2. Коснитесь значка **Параметры**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), щелкните правой кнопкой мыши или нажмите и удерживайте элемент **Подключение к серверу**, а затем выберите команду **Просмотреть примеры**.
+2. Коснитесь значка **Параметры**![Значок "Параметры"](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), щелкните правой кнопкой мыши или нажмите и удерживайте элемент **Подключение к серверу**, а затем выберите команду **Просмотреть примеры**.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![Снимок экрана: экран "Параметры" со стрелкой от значка параметров до подключения к серверу](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Откройте папку отчетов по розничным продажам или отчетов по сбыту и изучите ключевые показатели эффективности и мобильные отчеты.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![Снимок экрана: отчет, отображающий КПЭ и мобильные отчеты](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>Поиск панелей мониторинга, отчетов и приложений
 Быстро находите свои панели мониторинга, отчеты и приложения с помощью поля поиска, которое всегда расположено вверху приложения.

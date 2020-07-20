@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 544a4e476d730a6bccc02f476903005ca19a5cca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b13ad1c50e62351c693adee1026a0d78aafd2daa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219351"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264687"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Создание QR-кода для отчета в Power BI для использования в мобильных приложениях
 QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI &#151; навигация или поиск не требуются.
@@ -27,10 +27,10 @@ QR-код можно создавать в службе Power BI для любо
 1. Откройте отчет в службе Power BI.
 2. Щелкните **Дополнительные параметры** (...) в правом верхнем углу и выберите команду **Создать QR-код**. 
    
-    ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
+    ![Снимок экрана: отчет со стрелкой, указывающей от многоточия к команде "Создать QR-код"](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. Откроется диалоговое окно с QR-кодом. 
    
-    ![](media/service-create-qr-code-for-report/powerbi_report_qrcode.png)
+    ![Снимок экрана: диалоговое окно, указывающее, что QR-код готов к скачиванию или сохранению](media/service-create-qr-code-for-report/powerbi_report_qrcode.png)
 4. Здесь можно отсканировать QR-код либо загрузить его, сохранить, а затем: 
    
    * вставить в сообщение электронной почты или другой документ; либо 

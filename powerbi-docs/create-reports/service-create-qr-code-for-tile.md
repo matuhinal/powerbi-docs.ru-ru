@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5a363a951e9c8f6cc04f825c64dce811d0a954e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219328"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264465"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Создание QR-кода для плитки в Power BI для использования в мобильных приложениях
 QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI &#151; навигация или поиск не требуются.
@@ -26,13 +26,13 @@ QR-код можно создавать в службе Power BI для плит
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Создание QR-кода для плитки
 1. Откройте панель мониторинга в службе Power BI.
-2. Щелкните **Дополнительные параметры** (...) в правом верхнем углу плитки и выберите **Режим фокусировки** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
+2. Щелкните **Дополнительные параметры** (...) в правом верхнем углу плитки и выберите **Режим фокусировки** ![значок полноэкранного режима](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
 3. Щелкните **Дополнительные параметры** (...) в правом верхнем углу и выберите команду **Создать QR-код**. 
    
-    ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
+    ![Снимок экрана: плитка со стрелкой, указывающей от многоточия к команде "Создать QR-код"](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. Откроется диалоговое окно с QR-кодом. 
    
-    ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
+    ![Снимок экрана: диалоговое окно, указывающее, что QR-код готов к скачиванию или сохранению](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. Здесь можно отсканировать QR-код либо загрузить его, сохранить, а затем: 
    
    * вставить в сообщение электронной почты или другой документ; либо 

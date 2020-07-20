@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237886"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214303"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Создание вычисляемых таблиц в Power BI Desktop
 В большинстве случаев вы создаете таблицы путем импорта данных в модель из внешнего источника данных. Но *вычисляемые таблицы* позволяют добавлять новые таблицы на основе данных, уже загруженных в модель. Вместо запроса и загрузки значений в столбцы новой таблицы из источника данных вы создаете [формулу на языке DAX](/dax/index), которая определяет значения таблицы.
@@ -31,11 +31,11 @@ DAX — это язык формул для работы с реляционны
 
 **Северо-западные сотрудники**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![Снимок экрана: Power BI Desktop с табличными данными о северо-западных сотрудниках](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **Юго-западные сотрудники**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![Снимок экрана: Power BI Desktop с табличными данными о юго-западных сотрудниках](media/desktop-calculated-tables/calctables_swempl.png)
 
 В "Просмотре отчетов" или "Просмотре данных" Power BI Desktop в группе **Вычисления** на вкладке **Моделирование** выберите **Новая таблица**. В "Просмотре данных" это проще сделать, так как после этого можно сразу же увидеть новую вычисляемую таблицу.
 

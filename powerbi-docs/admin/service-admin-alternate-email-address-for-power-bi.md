@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564039"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161705"
 ---
 # <a name="use-an-alternate-email-address"></a>Использование запасного адреса электронной почты
 
@@ -37,7 +37,7 @@ ms.locfileid: "83564039"
 
     Если вы не можете изменить свои данные, значит, вашим адресом электронной почты управляет администратор. Чтобы изменить свой адрес электронной почты, обратитесь к администратору.
 
-    ![Сведения о контакте](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+    ![Снимок экрана: диалоговое окно "Контактные данные", в котором показано, как указать альтернативный адрес электронной почты](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
 1. В поле **Альтернативный адрес электронной почты** введите адрес электронной почты, который нужно использовать в Microsoft 365 для обновлений Power BI.
 

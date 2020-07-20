@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561577"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216460"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Типы данных в Power BI Desktop
 В этой статье описаны типы данных, поддерживаемые в Power BI, а также выражения анализа данных (DAX). 
@@ -28,11 +28,11 @@ ms.locfileid: "83561577"
 
 **Типы данных в редакторе запросов**
 
-![](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
+![Снимок экрана: лента "Тип данных" в редакторе запросов](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
 
 **Типы данных в представлении данных или отчетов**
 
-![](media/desktop-data-types/pbiddatatypesindatareportview.png)
+![Снимок экрана: лента "Тип данных" в представлении данных](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 Раскрывающийся список "Тип данных" в редакторе запросов содержит два типа данных, которые пока отсутствуют в представлении данных или отчетов: **Дата, время и часовой пояс** и **Длительность**. Когда столбец с такими типами данных загружается в модель и просматривается в представлении данных или отчетов, столбец с типом данных "Дата/время/часовой пояс" преобразуется в тип "Дата/время", а столбец с типом данных "Длительность" преобразуется в тип "Десятичное число".
 

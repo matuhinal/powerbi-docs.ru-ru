@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485951"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214208"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Размеры для локальных шлюзов данных
 
@@ -33,7 +33,7 @@ ms.locfileid: "85485951"
 1. **Получение и преобразование данных**: выполняется получение данных и при необходимости их преобразование. При возможности подсистема гибридных веб-приложений Power Query передает этапы преобразования в источник данных. Этот процесс называется _[свертыванием запросов](power-query-folding.md)_ . В том случае, когда это невозможно, преобразования должны выполняться шлюзом. В этом случае шлюз будет потреблять больше ресурсов ЦП и памяти.
 1. **Передача**: данные передаются в службу Power BI — важно наличие надежного и быстрого подключения к Интернету, особенно для больших объемов данных.
 
-![Диаграмма иллюстрирует локальный шлюз данных, подключающийся к локальным источникам: реляционной базе данных, книге Excel и CSV-файлам. Шлюз получает и преобразует данные.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![Схема данных кэша, показывающая локальный шлюз данных, который подключается к локальным источникам](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>Рабочие нагрузки для активного подключения и DirectQuery
 
@@ -46,7 +46,7 @@ ms.locfileid: "85485951"
 
 Для обеспечения быстрой работы пользователей отчетов очень важно наличие надежного, быстрого и согласованного подключения.
 
-![Диаграмма, иллюстрирующая локальный шлюз данных, подключающийся к локальным источникам: табличная и реляционная базы данных Analysis Services. В основном шлюз работает в сквозном режиме.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![Схема динамического подключения и DirectQuery, показывающая локальный шлюз данных, который подключается к локальным источникам](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>Рекомендации по выбору размера
 
@@ -78,7 +78,7 @@ ms.locfileid: "85485951"
 
 Точная оценка правильного размера может оказаться сложной задачей. Мы рекомендуем начинать с компьютера, имеющего не менее 8 ядер ЦП, 8 ГБ ОЗУ и несколько гигабитных сетевых адаптеров. Затем вы можете измерить обычную рабочую нагрузку шлюза, перейдя к счетчикам ЦП и системы памяти. Дополнительные сведения см. в статье [Monitor and optimize on-premises data gateway performance](/data-integration/gateway/service-gateway-performance) (Мониторинг и оптимизация производительности локального шлюза данных).
 
-### <a name="connectivity"></a>Соединение
+### <a name="connectivity"></a>Подключение
 
 Планируйте наилучшее возможное соединение между службой Power BI и вашим шлюзом, а также шлюзом и источниками данных.
 
@@ -91,7 +91,7 @@ ms.locfileid: "85485951"
 
 ### <a name="clustering"></a>Кластеризация
 
-Для крупномасштабных развертываний вы можете создать шлюз установок кластера. Кластеры избегают единых точек отказа и могут распределять нагрузку трафика между шлюзами. Вы можете:
+Для крупномасштабных развертываний вы можете создать шлюз установок кластера. Кластеры избегают единых точек отказа и могут распределять нагрузку трафика между шлюзами. Вы можете выбрать один из следующих вариантов.
 
 - Установить один или несколько шлюзов в кластере.
 - Изолировать рабочие нагрузки на автономные шлюзы или кластеры серверов шлюзов.
@@ -129,7 +129,7 @@ ms.locfileid: "85485951"
 - [Настройка параметров прокси-сервера для локального шлюза данных](/data-integration/gateway/service-gateway-proxy)
 - [Monitor and optimize on-premises data gateway performance](/data-integration/gateway/service-gateway-performance) (Мониторинг и оптимизация производительности локального шлюза данных)
 - [Устранение неполадок со шлюзами — Power BI](../connect-data/service-gateway-onprem-tshoot.md)
-- [Устранение неполадок с локальным шлюзом данных](/data-integration/gateway/service-gateway-tshoot)
+- [Устранение неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot)
 - [Руководство по свертыванию запросов в Power BI Desktop](power-query-folding.md)
-- Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
+- У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41d5350bf2986f9b8f0f01acf97e96eafc3b4db8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229502"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216195"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Подключение к Salesforce с помощью Power BI
 С помощью Power BI вы легко можете подключаться к учетной записи Salesforce.com. Это подключение позволяет извлечь данные Salesforce и обеспечить автоматическое предоставление панели мониторинга и отчетов.
@@ -24,37 +24,37 @@ ms.locfileid: "85229502"
 ## <a name="how-to-connect"></a>Способы подключения
 1. В Power BI в нижней части области навигации выберите **Получить данные**.
    
-   ![](media/service-connect-to-salesforce/pbi_getdata.png) 
+   ![Снимок экрана: кнопка "Получить данные" в области навигации](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. В поле **Службы** выберите **Получить**.
    
-   ![](media/service-connect-to-salesforce/pbi_getservices.png) 
+   ![Снимок экрана: диалоговое окно "Службы" с кнопкой "Получить"](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. Выберите **Аналитика для Salesforce** и **Получить**.  
    
-   ![](media/service-connect-to-salesforce/salesforce.png)
+   ![Снимок экрана: диалоговое окно "Аналитика Salesforce" со ссылкой "Получить сейчас"](media/service-connect-to-salesforce/salesforce.png)
 4. Выберите **Вход** для запуска потока входа в систему.
    
-    ![](media/service-connect-to-salesforce/dialog.png)
+    ![Снимок экрана: диалоговое окно "Подключение к Salesforce" с кнопкой входа](media/service-connect-to-salesforce/dialog.png)
 5. При появлении запроса введите учетные данные Salesforce. Выберите **Разрешить**, чтобы служба Power BI получила доступ к базовым сведениям и данным Salesforce.
    
-   ![](media/service-connect-to-salesforce/sf_authorize.png)
+   ![Снимок экрана: учетные данные Salesforce с запросом Power BI на доступ к вашей информации](media/service-connect-to-salesforce/sf_authorize.png)
 6. Выберите данные, которые вы хотите импортировать в Power BI, в раскрывающемся списке:
    
    * **Панель мониторинга**
      
      Выберите стандартную панель мониторинга в зависимости от пользователя (например, **Менеджер по продажам**). Эти панели мониторинга извлекают определенный набор из стандартных данных Salesforce, который не содержит настраиваемые поля.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
+     ![Снимок экрана: панель мониторинга Salesforce с вариантом выбора предварительно определенной панели мониторинга на основе пользователя](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **Отчеты**
      
      Выберите один или несколько пользовательских отчетов из вашей учетной записи Salesforce. Эти отчеты соответствуют вашим представлениям в Salesforce и могут содержать данные из пользовательских полей или объектов.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
+     ![Снимок экрана: отчеты Salesforce с отображением списка пользовательских отчетов](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      Если вы не видите все отчеты, добавьте или создайте их в вашей учетной записи Salesforce и повторите попытку подключения.
 
 7. Выберите **Подключить**, чтобы начать импорт. Во время операции появится уведомление о том, что выполняется импорт. После завершения импорта вы увидите панель мониторинга, отчет и набор данных Salesforce в области навигации.
    
-   ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
+   ![Снимок экрана: панель мониторинга "Менеджер по продажам" с отображением панели мониторинга, отчета и наборов данных](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
 Вы можете изменить эту панель мониторинга для отображения данных любым нужным образом. Вы можете задавать вопросы в поле "Вопросы и ответы" или [выбрать плитку](../consumer/end-user-tiles.md), чтобы открыть соответствующий отчет и [изменить или удалить плитки на панели мониторинга](../create-reports/service-dashboard-edit-tile.md).
 

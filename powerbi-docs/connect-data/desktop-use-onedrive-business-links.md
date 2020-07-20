@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88aa1335433dba38e5f18ca7463077543db2c923
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20271b1e165fea894404a77bf19bbcc735703907
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222447"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214563"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Использование ссылок OneDrive для бизнеса в Power BI Desktop
 Многие пользователи хранят книги Excel на диске OneDrive для бизнеса, который отлично подходит для использования с Power BI Desktop. Благодаря Power BI Desktop вы можете использовать веб-ссылки на файлы Excel, хранящиеся в OneDrive для бизнеса, для создания отчетов и визуальных элементов. Можно использовать учетную запись группы OneDrive для бизнеса или индивидуальную учетную запись OneDrive для бизнеса.
@@ -27,30 +27,28 @@ ms.locfileid: "85222447"
    > [!NOTE]
    > Интерфейс браузера может отличаться от представленного на рисунке. Существует несколько способов выбора команды **Открыть в Excel** для файлов в интерфейсе браузера OneDrive для бизнеса. Можно использовать любой вариант, позволяющий открыть файл в Excel.
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
+   ![Снимок экрана: OneDrive в браузере с в областью "Открыть в Excel"](media/desktop-use-onedrive-business-links/odb-links_02.png)
 
 2. В Excel выберите **Файл** > **Сведения**, а затем выберите **Путь копирования**, как показано на рисунке ниже.
    
-   ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
+   ![Снимок экрана: меню "Сведения" с выбранной кнопкой "Путь копирования"](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 
 ## <a name="use-the-link-in-power-bi-desktop"></a>Использование ссылки в Power BI Desktop
 В Power BI Desktop можно использовать только что скопированную ссылку. Выполните следующие действия.
 
 1. В Power BI Desktop выберите **Получить данные** > **Интернет**.
    
-   ![](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
+   ![Снимок экрана: лента "Получить данные" в Power BI Desktop с выбранным параметром "Интернет"](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
 2. Выбрав параметр **Базовый**, вставьте ссылку в диалоговом окне **Из Интернета**.
 3. Удалите строку *?web=1* в конце ссылки, чтобы Power BI Desktop мог корректно перейти к файлу, а затем нажмите **ОК**.
    
-    ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
+    ![Снимок экрана: диалоговое окно "Из Интернета", в котором показано, как удалить строку из поля URL-адреса](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
 4. Если Power BI Desktop запрашивает учетные данные, выберите **Windows** (для локальных сайтов SharePoint) или **Учетная запись организации** (для сайтов Microsoft 365 или OneDrive для бизнеса).
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
+   ![Снимок экрана: запрос учетных данных Power BI Desktop с выбором учетной записи Windows или организации](media/desktop-use-onedrive-business-links/odb-links_06.png)
 
    Откроется диалоговое окно **Навигатор**, где в списке таблиц, листов и диапазонов, обнаруженных в книге Excel, можно выбрать нужные данные. Отсюда можно использовать файл OneDrive для бизнеса так же, как и любой другой файл Excel. Вы можете создавать отчеты и использовать их в наборах данных, как и в случае с любым другим источником данных.
 
 > [!NOTE]
 > Вы можете использовать файл OneDrive для бизнеса в качестве источника данных в службе Power BI с включенным для этого файла параметром **Обновление службы**. Для этого нужно выбрать **OAuth2** в качестве **метода аутентификации** при настройке параметров обновления. В противном случае при попытке подключения или обновления может возникнуть ошибка (например, *ошибка обновления учетных данных источника данных*). Выбрав **OAuth2** как метод аутентификации, вы устраните эту проблему с учетными данными.
-> 
-> 
-
+>

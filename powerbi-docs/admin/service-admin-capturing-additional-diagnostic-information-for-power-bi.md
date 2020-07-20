@@ -10,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 670373afb5cb890c87a24a129cd43fde7bd5d892
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49e0b85cb42b008f8d5e3e38296172e24b868fa8
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128962"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161222"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Запись дополнительных диагностических сведений для Power BI
 
@@ -25,11 +25,11 @@ ms.locfileid: "83128962"
 
 1. Нажмите клавишу **F12**, чтобы открыть средства разработчика Microsoft Edge.
 
-   ![Снимок экрана вкладки элементов в средствах разработчика Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Снимок экрана: вкладка "Элементы" в средствах разработчика Microsoft Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
 1. Откройте вкладку **Сеть**. Здесь указан уже зафиксированный трафик.
 
-   ![Снимок экрана вкладки "Сеть" в средствах разработчика Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Снимок экрана: вкладка "Сеть" в средствах разработчика Microsoft Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
     Вы можете выбрать один из следующих вариантов.
 
@@ -39,11 +39,11 @@ ms.locfileid: "83128962"
 
 1. Чтобы остановить профилирование сеанса, щелкните красный квадрат на вкладке **Сеть** в области средств разработчика.
 
-   ![Снимок экрана вкладки "Сеть" в области средств разработчика Microsoft Edge с выделенной кнопкой Stop (Стоп).](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Снимок экрана: вкладка "Сеть" в средствах разработчика Microsoft Edge с выделенным значком остановки](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
 1. Выберите значок дискеты, чтобы экспортировать данные в качестве архива HTTP (HAR-файла).
 
-   ![Снимок экрана вкладки "Сеть" в области средств разработчика Microsoft Edge с выделенным значком дискеты.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Снимок экрана: вкладка "Сеть" в области средств разработчика Microsoft Edge с выделенным значком дискеты](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 
 1. Укажите имя HAR-файла и сохраните его.
 

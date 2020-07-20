@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f74b90b944f40b5d5ff046f60bd67ca4c3c7eb83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238404"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264477"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Удаление содержимого в службе Power BI
 В этой статье показано, как удалять панели мониторинга, отчеты, книги, наборы данных, приложения, визуализации и рабочие области в службе Power BI.
@@ -125,7 +125,7 @@ ms.locfileid: "85238404"
 Удаление приложения из страницы со списком приложений не влияет на остальных участников.
 
 1. В области навигации выберите **Приложения**, чтобы открыть страницу со списком приложений.
-2. Наведите указатель мыши на название приложения, которое необходимо удалить, и щелкните значок удаления ![](media/service-delete/power-bi-delete-report2.png).
+2. Наведите указатель мыши на название приложения, которое необходимо удалить, и щелкните значок удаления ![значок корзины для мусора](media/service-delete/power-bi-delete-report2.png)  .
 
    ![выбор страницы "Приложения"](media/service-delete/power-bi-delete-app.png)
 

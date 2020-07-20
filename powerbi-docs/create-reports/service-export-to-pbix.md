@@ -6,17 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238331"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385982"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Скачивание отчета из службы Power BI в Power BI Desktop (предварительная версия)
+      
 В Power BI Desktop можно опубликовать отчет (*PBIX*-файл) с локального компьютера в службе Power BI. Отчеты Power BI также могут передаваться и в другом направлении: Вы можете скачать отчет из службы Power BI в Power BI Desktop. В любом случае отчет Power BI имеет расширение PBIX.
 
 Существует ряд ограничений, которые мы рассмотрим далее в разделе [Рекомендации и устранение неполадок](#considerations-and-troubleshooting).
@@ -46,6 +47,7 @@ ms.locfileid: "85238331"
     ![Редактор отчетов Power BI Desktop](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
+
 Существует несколько важных рекомендаций и ограничений, которые следует учитывать при скачивании PBIX-файла из службы Power BI.
 
 * Чтобы скачать файл, нужно обладать правами на редактирование отчета.
@@ -55,9 +57,12 @@ ms.locfileid: "85238331"
 * Скачанные файлы всегда нужно открывать в последней версии Power BI Desktop. Скачанные PBIX-файлы могут не открываться в неактуальных версиях Power BI Desktop.
 * Если администратор отключил возможность скачивания данных, эта функция будет недоступна в службе Power BI.
 * Наборы данных с добавочным обновлением невозможно скачать в PBIX-файл.
-* Если вы создаете отчет Power BI на основе набора данных из одной рабочей области, а публикуете его в другой рабочей области, вы и ваши пользователи не сможете скачать его. В этом случае возможность скачивания пока недоступна.
+* Наборы данных, включенные для [больших моделей](../admin/service-premium-large-models.md), невозможно скачать в PBIX-файл.
+* Наборы данных, измененные с помощью [конечной точки XMLA](../admin/service-premium-connect-tools.md), невозможно скачать в PBIX-файл.
+* Если вы создаете отчет Power BI на основе набора данных из одной рабочей области, а публикуете его в другой рабочей области, вы и ваши пользователи не сможете скачать его. В этом случае возможность скачивания пока недоступна.
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 Просмотрите короткий видеоролик от **Guy in a Cube** об этой функции.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>

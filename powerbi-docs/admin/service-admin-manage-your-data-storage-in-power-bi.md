@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bd671e32167837a5b8b96388bb2687616e6cada5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228567"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214248"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Управление хранилищем данных в рабочих областях Power BI
 
@@ -48,40 +48,38 @@ ms.locfileid: "85228567"
 
 Размер совместно используемой панели мониторинга зависит от того, что закреплено на ней. Например, если закрепить элементы из двух отчетов, которые являются частью двух разных наборов данных, то размер панели мониторинга будет соответствующий.
 
-<a name="manage"/>
-
 ## <a name="manage-items-you-own"></a>Управление принадлежащими вам элементами
 
 Контролируйте объем хранилища, используемый в вашей учетной записи Power BI, и управляйте учетной записью.
 
 1. Для управления хранилищем перейдите в раздел **Моя рабочая область** на панели навигации.
    
-    ![Моя рабочая область](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+    ![Снимок экрана: область навигации с выбранным элементом "Моя рабочая область"](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. Щелкните значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) в правом верхнем углу и выберите \> **Управление личным хранилищем**.
+2. Щелкните значок шестеренки ![значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) в правом верхнем углу и выберите **Управление личным хранилищем**.
    
     На верхней панели отображаются сведения об использованном объеме хранилища из максимально допустимого.
    
-    ![Управление размером хранилища](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![Снимок экрана: окно управления предельным размером хранилища с указанием используемого объема хранилища](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     Наборы данных и отчеты разделены по двум вкладкам:
    
     **Принадлежит мне:** отчеты и наборы данных, переданные вами в вашу учетную запись Power BI, в том числе наборы данных таких служб, как Salesforce и Dynamics CRM.  
 
     **Принадлежит другим пользователям:** другие пользователи предоставили вам общий доступ к этим отчетам и наборам данных.
-1. Чтобы удалить набор данных или отчет, щелкните значок корзины ![значок корзины](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. Чтобы удалить набор данных или отчет, щелкните значок корзины ![Значок корзины](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Имейте в виду, что у вас или другого пользователя могут быть отчеты и панели мониторинга, сформированные на основе набора данных. После удаления такого набора данных связанные с ним отчеты и панели мониторинга перестанут работать.
 
 ## <a name="manage-your-workspace"></a>Управление рабочей областью
-1. Щелкните стрелку рядом с пунктом **Рабочие области** \> и выберите имя рабочей области.
+1. Щелкните стрелку рядом с пунктом **Рабочие области** и выберите имя рабочей области.
    
-    ![Выбор рабочей области](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Щелкните в правом верхнем углу значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) и выберите \> **Управление хранилищем группы**.
+    ![Снимок экрана: интерфейс выбора рабочей области с выбранной рабочей областью "Группа продаж"](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. Щелкните в правом верхнем углу значок шестеренки ![значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) и выберите **Управление хранилищем группы**.
    
     На верхней панели отображаются сведения об использованном объеме хранилища группы из максимально допустимого.
    
-    ![Управление хранилищем рабочей области](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Снимок экрана: окно управления хранилищем с указанием используемого предельного объема хранилища](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Наборы данных и отчеты разделены по двум вкладкам:
    
@@ -89,7 +87,7 @@ ms.locfileid: "85228567"
 
     **Принадлежит другим пользователям:** другие пользователи предоставили вашей группе общий доступ к этим отчетам и наборам данных.
 
-3. Чтобы удалить набор данных или отчет, щелкните значок корзины ![значок корзины](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+3. Чтобы удалить набор данных или отчет, щелкните значок корзины ![Значок корзины](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Имейте в виду, что у вас или другого пользователя в группе могут быть отчеты и панели мониторинга, сформированные на основе набора данных. После удаления такого набора данных связанные с ним отчеты и панели мониторинга перестанут работать.
@@ -102,17 +100,17 @@ ms.locfileid: "85228567"
 ## <a name="what-happens-when-you-reach-a-limit"></a>Что происходит при достижении предела
 При достижении максимально допустимой емкости данных служба выдаст сообщения. 
 
-Выбрав значок шестеренки ![значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), вы увидите красную полосу, означающую, что вы превысили ограничение на объем данных.
+Выбрав значок шестеренки ![Значок шестеренки](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), вы увидите красную полосу, означающую, что вы превысили ограничение на объем данных.
 
-![Достигнут максимальный размер хранилища](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Снимок экрана: окно емкости хранилища, показывающее, что достигнут предел](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 Соответствующее указание также появляется в разделе **Управление личным хранилищем**.
 
- ![Управление личным хранилищем, достигнут предел хранилища](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Снимок экрана: окно емкости личного хранилища, показывающее, что достигнут предел для пользователя Jane](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- При попытке выполнить действие, в результате которого одно из ограничений будет превышено, появляется сообщение о превышении лимита. Вы можете [управлять](#manage) хранилищем и уменьшать объем содержащихся в нем данных в соответствии с ограничениями.
+ При попытке выполнить действие, в результате которого одно из ограничений будет превышено, появляется сообщение о превышении лимита. Вы можете [управлять](#manage-items-you-own) хранилищем и уменьшать объем содержащихся в нем данных в соответствии с ограничениями.
 
- ![Превышает лимит хранилища](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![Снимок экрана: диалоговое окно "Превышен предельный размер хранилища" с указанием на достижение предельных значений](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354761"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385959"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потоков данных
 
@@ -33,7 +33,7 @@ ms.locfileid: "85354761"
 * **Учетная запись хранения Azure с включенной функцией Data Lake Storage 2-го поколения** 
 
 > [!TIP]
-> Если у вас еще нет подписки Azure, [создайте бесплатную учетную запись](https://azure.microsoft.com/free/), прежде чем начинать работу.
+> Если у вас нет подписки Azure, перед началом работы [создайте бесплатную учетную запись](https://azure.microsoft.com/free/).
 
 > [!WARNING]
 > Место хранения потока данных нельзя изменить после настройки. Другие важные замечания см. в разделе [Рекомендации и ограничения](#considerations-and-limitations) в конце этой статьи.
@@ -46,6 +46,7 @@ ms.locfileid: "85354761"
 2. Учетная запись хранения должна быть создана в том же клиенте AAD, что и ваш клиент Power BI.
 3. Учетная запись хранения должна быть создана в том же регионе, что и ваш клиент Power BI. Сведения об определении расположения клиента Power BI см. в [этой статье](../admin/service-admin-where-is-my-tenant-located.md).
 4. Для учетной запись хранения необходимо включить функцию *Иерархическое пространство имен*.
+5. Если учетная запись хранения не создана текущим пользователем, убедитесь, что текущему пользователю были назначены разрешения [Владелец данных BLOB-объектов хранилища](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) и [Владелец](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner). (Так как у владельца нет разрешения на уровне данных, требуется владелец данных BLOB-объектов.)
 
 В следующих разделах подробно описаны шаги настройки учетной записи Azure Data Lake Storage 2-го поколения.
 
@@ -81,12 +82,12 @@ ms.locfileid: "85354761"
 
 2. Нажмите кнопку **Подключить Azure Data Lake Storage 2-го поколения**. Появляется следующее окно.
 
-    ![Azure Data Lake Storage 2-го поколения](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
+    ![Azure Data Lake Storage 2-го поколения](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
 
 3. Укажите **идентификатор подписки** учетной записи хранения.
 4. Укажите **имя группы ресурсов**, в которой была создана учетная запись хранения.
 5. Укажите **имя учетной записи хранения**.
-6. Выберите **Подключиться**.
+6. Нажмите кнопку **Подключиться**.
 
 После успешного выполнения этих шагов ваша учетная запись Azure Data Lake Storage 2-го поколения будет подключена к Power BI. 
 
@@ -131,7 +132,7 @@ ms.locfileid: "85354761"
 
 **Ответ.** Вы не можете изменить место хранения потока данных после его создания. 
 
-**Вопрос**. Когда я могу изменить место хранения потока данных в рабочей области?
+**Вопрос.** Когда я могу изменить место хранения потока данных в рабочей области?
 
 **Ответ.** Изменение места хранения потока данных в рабочей области разрешено, только если рабочая область не содержит потоков данных.
 
@@ -143,7 +144,7 @@ ms.locfileid: "85354761"
 Дополнительные сведения о потоках данных, CDM и Azure Data Lake Storage 2-го поколения см. в следующих статьях:
 
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
-* [Configure workspace dataflow settings (Preview)](service-dataflows-configure-workspace-storage-settings.md) (Настройка параметров потока данных рабочей области (предварительная версия))
+* [Настройка параметров потоков данных рабочей области (предварительная версия)](service-dataflows-configure-workspace-storage-settings.md)
 * [Добавление папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md)
 
 Общие сведения о потоках данных см. в этих статьях:

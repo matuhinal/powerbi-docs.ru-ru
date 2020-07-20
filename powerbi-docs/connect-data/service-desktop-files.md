@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236695"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263026"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Получение данных из файлов Power BI Desktop
-![](media/service-desktop-files/pbid_file_icon.png)
+![Значок файла Power BI Desktop](media/service-desktop-files/pbid_file_icon.png)
 
 **Power BI Desktop** упрощает проведение бизнес-аналитики и формирование отчетности. Вне зависимости от поставленных задач (подключение к различным источникам данных, запрос и преобразование данных, моделирование данных и формирование эффективных и динамических отчетов) **Power BI Desktop** обеспечивает интуитивно понятное и быстрое выполнение задач в области бизнес-аналитики. Если вы еще не знакомы с **Power BI Desktop**, прочтите статью [Начало работы с Power BI Desktop](../fundamentals/desktop-getting-started.md).
 
@@ -38,13 +38,13 @@ ms.locfileid: "85236695"
 
 1. В Power BI на панели навигации щелкните **Получить данные**.
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![Снимок экрана: элемент "Получить данные" с кнопкой в области навигации](media/service-desktop-files/pbid_get_data_button.png)
 2. В разделе **Файлы** щелкните **Получить**.
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![Снимок экрана: диалоговое окно "Файлы" с кнопкой "Получить"](media/service-desktop-files/pbid_files_get.png)
 3. Найдите свой файл. Файлы Power BI Desktop имеют расширение PBIX.
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![Снимок экрана: четыре плитки для поиска файла — "Локальный файл", "OneDrive бизнес", "OneDrive — персональный" и "SharePoint"](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Публикация файла из Power BI Desktop на сайт Power BI
 Функция публикации из Power BI Desktop подобна получению данных в Power BI в плане исходного импорта данных файла с локального диска или подключения к ним в OneDrive. Но есть отличия: при отправке с локального диска необходимо часто обновлять данные, чтобы обеспечить их актуальность и согласованность в сети и локальных копиях. 
@@ -53,12 +53,12 @@ ms.locfileid: "85236695"
 
 1. В Power BI Desktop последовательно выберите **Файл** > **Опубликовать** > **Опубликовать в Power BI** или щелкните **Опубликовать** на ленте.
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![Снимок экрана: элемент "Публикация" на ленте, показывающий, как выполнить публикацию из Power BI Desktop](media/service-desktop-files/pbid_publish.png)
 2. Войдите в Power BI. Это необходимо будет сделать только при первом входе.
    
    По завершении вы получите ссылку, с помощью которой сможете открыть отчет на сайте Power BI.
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![Снимок экрана: диалоговое окно подтверждения входа, показывающее, что вы успешно выполнили вход с использованием ссылки для открытия отчета](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 **Изучите данные**. После передачи данных и отчетов из файла в Power BI пришло время для их изучения. Если файл уже содержит отчеты, они отображаются на панели навигации в разделе **Отчеты**. Если файл содержит только данные, вы можете создавать новые отчеты. Просто щелкните правой кнопкой мыши новый набор данных и выберите команду **Просмотреть**.

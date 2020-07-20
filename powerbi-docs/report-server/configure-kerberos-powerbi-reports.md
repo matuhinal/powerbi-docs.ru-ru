@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236109"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216498"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Настройка Kerberos для использования отчетов Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,14 @@ ms.locfileid: "85236109"
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 В технических сведениях вы увидите следующее сообщение.
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Снимок экрана: Power BI с сообщением об ошибке, описывающим проблемы при подключении к серверу Analysis Services](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>Настройка ограниченного делегирования Kerberos
 Для работы ограниченного делегирования Kerberos нужно настроить несколько элементов. Эти элементы включают имена субъектов-служб (SPN) и параметры делегирования учетных записей служб.
 
@@ -134,7 +134,7 @@ ms.locfileid: "85236109"
 
 Пример имени субъекта-службы Analysis Services будет выглядеть следующим образом.
 
-| Тип | Форматировать |
+| Тип | Формат |
 | --- | --- |
 | Экземпляр по умолчанию |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | Именованный экземпляр |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -194,7 +194,7 @@ ms.locfileid: "85236109"
 6. В открывшемся диалоговом окне выберите **Пользователи или компьютеры**.
 7. Введите учетную запись службы для Analysis Services и нажмите кнопку **ОК**.
 8. Выберите имя субъекта-службы, которое вы создали. Оно будет начинаться с `MSOLAPSvc.3`. Если вы добавили полное доменное имя и имя субъекта-службы NetBIOS, выберите оба имени. Вы можете увидеть только одно имя.
-9. Нажмите кнопку **ОК**.  Вы должны увидеть имя субъекта-службы в списке.
+9. Выберите **ОК**.  Вы должны увидеть имя субъекта-службы в списке.
 10. При необходимости можно выбрать **Развернуто**, чтобы увидеть в списке имя субъекта-службы NetBIOS и полное доменное имя.
 11. Еще раз нажмите кнопку **Добавить**. Теперь добавьте имя субъекта-службы браузера SQL.
 12. В открывшемся диалоговом окне выберите **Пользователи или компьютеры**.
@@ -202,14 +202,14 @@ ms.locfileid: "85236109"
 14. Выберите имя субъекта-службы, которое вы создали. Оно будет начинаться с `MSOLAPDisco.3`. Если вы добавили полное доменное имя и имя субъекта-службы NetBIOS, выберите оба имени. Вы можете увидеть только одно имя.
 15. Нажмите кнопку **ОК**. Если установлен флажок **Развернуто**, диалоговое окно должно выглядеть следующим образом.
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+    ![Снимок экрана: Power BI с вкладкой "Делегирование" окна свойств](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
 16. Нажмите кнопку **ОК**.
 17. Перезапустите сервер отчетов Power BI.
 
 ## <a name="running-a-power-bi-report"></a>Запуск отчета Power BI
 После выполнения всех приведенных выше настроек отчет должен отображаться правильно. 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![Снимок экрана: отчеты Power BI с примером представления панели мониторинга](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 Хотя эта конфигурация должна работать в большинстве случаев при использовании Kerberos, в зависимости от вашей среды может понадобиться другая конфигурация. Если отчет по-прежнему не будет загружаться, обратитесь к администратору домена, чтобы выяснить причину, или обратитесь в службу поддержки.
 
@@ -217,5 +217,5 @@ ms.locfileid: "85236109"
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

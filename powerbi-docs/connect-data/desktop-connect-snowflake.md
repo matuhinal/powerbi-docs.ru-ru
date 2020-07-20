@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b343136acb22d213c0e2ad2dfcf83fbda805e88a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224140"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214795"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Подключение к хранилищу данных Snowflake Computing из Power BI Desktop
 В Power BI Desktop вы можете подключиться к хранилищу вычислительных ресурсов **Snowflake**, чтобы использовать его так же, как и любой другой источник данных в Power BI Desktop. 
@@ -22,15 +22,15 @@ ms.locfileid: "85224140"
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Подключение к хранилищу вычислительных ресурсов Snowflake
 Для подключения к хранилищу вычислительных ресурсов **Snowflake** на вкладке **Главная** на ленте в Power BI Desktop выберите **Получить данные**. В области слева выберите категорию **База данных**. Отобразится пункт **Snowflake**.
 
-![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
+![Снимок экрана: диалоговое окно "Получить данные", показывающее выбор базы данных Snowflake](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
 В появившемся окне **Snowflake** введите или вставьте в поле имя хранилища вычислительных ресурсов Snowflake и нажмите кнопку **ОК**. Обратите внимание, что можно **импортировать** данные непосредственно в Power BI или использовать **DirectQuery**. Вы можете ознакомиться с дополнительными сведениями об [использовании DirectQuery](desktop-use-directquery.md). Обратите внимание на то, что единый вход AAD поддерживает только DirectQuery.
 
-![](media/desktop-connect-snowflake/connect-snowflake-3.png)
+![Снимок экрана: диалоговое окно Snowflake с выбранным переключателем "Импорт"](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 При появлении запроса укажите имя пользователя и пароль.
 
-![](media/desktop-connect-snowflake/connect-snowflake-4.png)
+![Снимок экрана: запрос учетных данных Snowflake с полями "Имя пользователя" и "Пароль"](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
 > Если указаны имя пользователя и пароль для определенного сервера **Snowflake**, Power BI Desktop будет использовать те же учетные данные при последующих попытках подключения. Эти учетные данные можно изменить, последовательно выбрав элементы **Файл > Параметры и настройки > Параметры источника данных**.

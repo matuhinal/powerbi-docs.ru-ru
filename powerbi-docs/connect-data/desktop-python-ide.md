@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 902b2580dbdd454b5a0eec234ba11e59cc5eb666
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8fdc0ecb4dfa1d35077e773ff7f568106168009c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223417"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215361"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Использование внешней среды Python IDE с Power BI
 В **Power BI Desktop** можно использовать внешнюю среду Python IDE (интегрированная среда разработки) для создания и редактирования сценариев на языке Python, которые затем будут использоваться в Power BI.
 
-![](media/desktop-python-ide/python-ide-1.png)
+![Снимок экрана: диалоговое окно "Параметры", где в поле "Обнаруженные среды IDE Python" указано "Visual Studio Code"](media/desktop-python-ide/python-ide-1.png)
 
 ## <a name="enable-an-external-python-ide"></a>Включение внешней среды Python IDE
 Можно запускать внешнюю среду Python IDE из **Power BI Desktop**, при этом с импортом, и отображение данных в Python IDE будет происходить автоматически. Вы можете изменять сценарии во внешней среде Python IDE, а затем снова добавлять их в **Power BI Desktop** для создания визуальных элементов и отчетов Power BI.
@@ -34,11 +34,11 @@ ms.locfileid: "85223417"
 * Можно также установить другую среду Python IDE и настроить запуск этой **Python IDE** из **Power BI Desktop** посредством одного из следующих вариантов.
   
   * Можно связать файлы **.PY** с внешней средой IDE, которая должна запускаться с помощью **Power BI Desktop**.
-  * Вы можете указать файл EXE, который должно запустить приложение **Power BI Desktop**. Для этого в диалоговом окне *Options* (Параметры) в разделе **Python Script Options** (Параметры сценария Python) выберите **Other** (Другие). Чтобы открыть диалоговое окно **Options** (Параметры), последовательно выбрав элементы **File > Options and settings > Options** (Файл > Параметры и настройки > Параметры).
+  * Вы можете указать файл EXE, который должно запустить приложение **Power BI Desktop**. Для этого в диалоговом окне **Options** (Параметры) в разделе **Python Script Options** (Параметры сценария Python) выберите *Other* (Другие). Чтобы открыть диалоговое окно **Options** (Параметры), последовательно выбрав элементы **File > Options and settings > Options** (Файл > Параметры и настройки > Параметры).
     
-    ![](media/desktop-python-ide/python-ide-2.png)
+    ![Снимок экрана: диалоговое окно "Параметры", где в поле "Обнаруженные среды IDE Python" указано "Другое"](media/desktop-python-ide/python-ide-2.png)
 
-Если вы установили несколько сред Python IDE, вы можете указать, какую из них следует запустить. Для этого в диалоговом окне *Options* (Параметры) выберите ее в раскрывающемся списке **Detected Python IDEs** (Обнаруженные среды Python IDE).
+Если вы установили несколько сред Python IDE, вы можете указать, какую из них следует запустить. Для этого в диалоговом окне **Options** (Параметры) выберите ее в раскрывающемся списке *Detected Python IDEs* (Обнаруженные среды Python IDE).
 
 По умолчанию приложение **Power BI Desktop** запустит **Visual Studio Code** в качестве внешней Python IDE, если она установлена на локальном компьютере. Если **Visual Studio Code** не установлена, но установлена **Visual Studio**, будет запущена последняя. Если не установлена ни одна из указанных сред Python IDE, запустится приложение, сопоставленное с файлами **.PY**.
 
@@ -50,24 +50,24 @@ ms.locfileid: "85223417"
 1. Загрузите данные в **Power BI Desktop**.
 2. В области **Поля** выберите поля, с которыми вы собираетесь работать. Если вы еще не включили визуальные элементы скрипта, вам будет предложено сделать это.
    
-   ![](media/desktop-python-ide/python-ide-3.png)
+   ![Снимок экрана: диалоговое окно "Включить визуальные элементы сценария" с предложением включить эту функцию](media/desktop-python-ide/python-ide-3.png)
 3. Если визуальные элементы сценария включены, вы можете выбрать визуальный элемент Python в области **Визуализации**. Будет создан пустой визуальный элемент Python, готовый для отображения результатов сценария. Также отобразится область **Редактор сценариев Python**.
    
-   ![](media/desktop-python-ide/python-ide-4.png)
+   ![Снимок экрана: панель "Визуализации" с пустым визуальным элементом Python](media/desktop-python-ide/python-ide-4.png)
 4. Теперь вы можете выбрать поля, которые будут использоваться в сценарии Python. Когда вы выберете поля, **Редактор сценариев Python** автоматически создаст код сценария с учетом этого выбора. Вы можете создать (или вставить) сценарий Python непосредственно в область **Редактор Python-скриптов** либо же оставить этот элемент пустым.
    
-   ![](media/desktop-python-ide/python-ide-5.png)
+   ![Снимок экрана: панель "Визуализации" с пустым визуальным элементом Python с кодами сценариев в редакторе сценариев](media/desktop-python-ide/python-ide-5.png)
    
    > [!NOTE]
-   > По умолчанию для визуальных элементов Python используется тип агрегирования *Не суммировать*.
+   > По умолчанию для визуальных элементов Python используется тип агрегирования *не суммировать*.
    > 
    > 
 5. Теперь можно запускать среду Python IDE непосредственно из **Power BI Desktop**. Нажмите кнопку **Запуск Python IDE** (справа от заголовка окна **Редактор сценариев Python**, как показано ниже).
    
-   ![](media/desktop-python-ide/python-ide-6.png)
+   ![Снимок экрана редактора сценариев Python, где показано, как запустить Python IDE](media/desktop-python-ide/python-ide-6.png)
 6. Выбранная среда Python IDE будет запущена службой Power BI Desktop, как показано на следующем рисунке (здесь в качестве среды Python IDE по умолчанию используется **Visual Studio Code**).
    
-   ![](media/desktop-python-ide/python-ide-7.png)
+   ![Снимок экрана: Python IDE в Visual Studio Code](media/desktop-python-ide/python-ide-7.png)
    
    > [!NOTE]
    > **Power BI Desktop** добавляет первые три строки скрипта, обеспечивая возможность импорта данных из **Power BI Desktop** после запуска скрипта.

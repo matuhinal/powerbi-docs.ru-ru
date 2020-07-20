@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223320"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214603"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Подключение к данным Project Online через Power BI Desktop
 К данным в Project Online можно подключиться с помощью Power BI Desktop.
@@ -37,7 +37,7 @@ ms.locfileid: "85223320"
 
 5. Power BI Desktop предложит вам пройти проверку подлинности рабочей или учебной учетной записи. Выберите учетную запись организации и введите свои учетные данные.
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![Снимок экрана: Power BI Desktop с запросом учетных данных для подключения](media/desktop-project-online-connect-to-data/image.png)
 
 Учетная запись, используемая для подключения к каналу OData, должна иметь на сайте Project Web App уровень доступа не ниже Portfolio Viewer (Просмотр портфеля проектов). 
 

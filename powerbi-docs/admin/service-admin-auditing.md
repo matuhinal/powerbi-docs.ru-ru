@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782416"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161728"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Отслеживание действий пользователей в Power BI
 
@@ -145,7 +145,7 @@ $activities[0]
 
 2. Выберите в нем пункт **Действия Power BI**.
 
-   ![Снимок экрана поиска по журналу аудита с выделенными действиями Power BI.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Снимок экрана: поиск по журналу аудита с выделенными действиями Power BI](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. Щелкните в любом месте за пределами поля выбора, чтобы закрыть его.
 
@@ -157,13 +157,13 @@ $activities[0]
 
 Если выбранный диапазон дат превышает 90 дней, отобразится сообщение об ошибке. Если используется максимальный диапазон в 90 дней, выберите текущее время для поля **Дата начала**. В противном случае отобразится сообщение об ошибке, предупреждающее, что дата начала предшествует дате окончания. Если функция аудита была включена в течение последних 90 дней, начало диапазона дат не может предшествовать дате включения этой функции.
 
-![Снимок экрана поиска по журналу аудита с выделенными параметрами "Дата начала" и "Дата окончания".](media/service-admin-auditing/search-audit-log-by-date.png)
+![Снимок экрана: поиск по журналу аудита с выделенными параметрами "Дата начала" и "Дата окончания"](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Поиск журналов аудита по пользователям
 
 В записях журнала аудита можно искать действия, выполненные конкретными пользователями. Введите одно или несколько имен пользователей в поле **Пользователи**. Имя пользователя имеет форму адреса электронной почты. Это учетная запись, которую пользователи используют для входа в Power BI. Чтобы поиск вернул записи для всех пользователей (и учетных записей служб) в организации, оставьте это поле пустым.
 
-![Поиск по пользователям](media/service-admin-auditing/search-audit-log-by-user.png)
+![Снимок экрана: поиск по журналу аудита с выделенным элементом "Пользователи"](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Просмотр результатов поиска
 
@@ -179,8 +179,8 @@ $activities[0]
 | IP-адрес |IP-адрес устройства, которое используется для зарегистрированного действия. IP-адрес отображается в приложении в формате IPv4 или IPv6. |
 | Пользователь |Пользователь (или учетная запись службы), выполнивший действие, которое вызвало событие. |
 | Действие |Действие, выполненное пользователем. Это значение соответствует действиям, выбранным в раскрывающемся списке **Действия**. Для события из журнала аудита администратора Exchange значением в этом столбце является командлет Exchange. |
-| Item |Объект, который был создан или изменен из-за соответствующего действия. Например, просмотренный или измененный файл либо обновленная учетная запись пользователя. Значения в этом столбце отображаются не для всех действий. |
-| Описание |Дополнительные сведения о действии. Аналогичным образом значения в этом столбце отображаются не для всех действий. |
+| Элемент |Объект, который был создан или изменен из-за соответствующего действия. Например, просмотренный или измененный файл либо обновленная учетная запись пользователя. Значения в этом столбце отображаются не для всех действий. |
+| Сведения |Дополнительные сведения о действии. Аналогичным образом значения в этом столбце отображаются не для всех действий. |
 
 #### <a name="view-the-details-for-an-event"></a>Просмотр сведений о событии
 
@@ -198,7 +198,7 @@ $activities[0]
 
 1. Выберите пункт **Save loaded results** (Сохранить загруженные результаты) или **Download all results** (Загрузить все результаты).
 
-    ![Снимок экрана с параметром "Экспорт результатов".](media/service-admin-auditing/export-auditing-results.png)
+    ![Снимок экрана: параметр "Экспортировать результаты" с выделенным элементом "Скачать все результаты"](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Поиск в журналах аудита с помощью PowerShell
 
@@ -241,9 +241,9 @@ Remove-PSSession $Session
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
 | Доступ к связанным с Power BI таблицам в Excel | AnalyzedByExternalApplication |    |
 | Добавлен источник данных в шлюз Power BI             | AddDatasourceToGateway                      |                                          |
-| Добавлен доступ к папке Power BI                      | AddFolderAccess                             | В настоящее время не используется.                       |
+| Добавлен доступ к папке Power BI                      | AddFolderAccess                             | Сейчас не используется                       |
 | Добавлены участники группы Power BI                      | AddGroupMembers                             |                                          |
-| Администратор подключил к клиенту учетную запись хранения для потоков данных | AdminAttachedDataflowStorageAccountToTenant | В настоящее время не используется.                       |
+| Администратор подключил к клиенту учетную запись хранения для потоков данных | AdminAttachedDataflowStorageAccountToTenant | Сейчас не используется                       |
 | Анализируемый набор данных Power BI                         | AnalyzedByExternalApplication               | Создается, когда пользователи взаимодействуют со службой.                                         |
 | Проанализирован отчет Power BI                          | AnalyzeInExcel                              |                                          |
 | Назначена рабочая область для конвейера развертывания                          | AssignWorkspaceToPipeline                              |                                          |
@@ -269,19 +269,19 @@ Remove-PSSession $Session
 | Создан отчет Power BI                           | CreateReport <sup>1</sup>                                |                                          |
 | Пользовательский визуальный элемент запросил маркер доступа Azure AD                           | GenerateCustomVisualAADAccessToken                                |                                          |
 | Пользовательский визуальный элемент запросил маркер доступа к веб-приложениям Office                           | GenerateCustomVisualWACAccessToken                                |                                          |
-| Поток данных перенесен во внешнюю учетную запись хранения     | DataflowMigratedToExternalStorageAccount    | В настоящее время не используется.                       |
-| Добавлены разрешения для потока данных                        | DataflowPermissionsAdded                    | В настоящее время не используется.                       |
-| Удалены разрешения для потока данных                      | DataflowPermissionsRemoved                  | В настоящее время не используется.                       |
+| Поток данных перенесен во внешнюю учетную запись хранения     | DataflowMigratedToExternalStorageAccount    | Сейчас не используется                       |
+| Добавлены разрешения для потока данных                        | DataflowPermissionsAdded                    | Сейчас не используется                       |
+| Удалены разрешения для потока данных                      | DataflowPermissionsRemoved                  | Сейчас не используется                       |
 | Удален пользовательский визуальный элемент организации     | DeleteOrganizationalGalleryItem                                |                                          |
 | Удален конвейер развертывания      | DeleteAlmPipeline                                |                                          |
 | Удален пакет содержимого организации Power BI      | DeleteOrgApp                                |                                          |
 | Удален комментарий Power BI                          | DeleteComment                               |                                          |
-| Удалена панель мониторинга Power BI                        | DeleteDashboard                             | В настоящее время не используется.                       |
-| Удален поток данных Power BI                         | DeleteDataflow                              | В настоящее время не используется.                       |
+| Удалена панель мониторинга Power BI                        | DeleteDashboard                             | Сейчас не используется                       |
+| Удален поток данных Power BI                         | DeleteDataflow                              | Сейчас не используется                       |
 | Удален набор данных Power BI                          | DeleteDataset                               |                                          |
 | Удалена подписка на Power BI по электронной почте               | DeleteEmailSubscription                     |                                          |
 | Удалена папка Power BI                           | DeleteFolder                                |                                          |
-| Удален доступ к папке Power BI                    | DeleteFolderAccess                          | В настоящее время не используется.                       |
+| Удален доступ к папке Power BI                    | DeleteFolderAccess                          | Сейчас не используется                       |
 | Удаление шлюза Power BI                          | DeleteGateway                               |                                          |
 | Удалена группа Power BI                            | DeleteGroup                                 |                                          |
 | Удален отчет Power BI                           | DeleteReport                                |                                          |
@@ -289,16 +289,16 @@ Remove-PSSession $Session
 | Обнаружены источники набора данных Power BI          | GetDatasources                              |                                          |
 | Скачанный отчет Power BI                        | DownloadReport                              |                                          |
 | Изменены свойства потока данных                        | EditDataflowProperties                      |                                          |
-| Изменено разрешение сертификации Power BI          | EditCertificationPermission                 | В настоящее время не используется.                       |
-| Изменена панель мониторинга Power BI                         | EditDashboard                               | В настоящее время не используется.                       |
+| Изменено разрешение сертификации Power BI          | EditCertificationPermission                 | Сейчас не используется                       |
+| Изменена панель мониторинга Power BI                         | EditDashboard                               | Сейчас не используется                       |
 | Изменен набор данных Power BI                           | EditDataset                                 |                                          |
-| Изменены свойства набора данных Power BI                | EditDatasetProperties                       | В настоящее время не используется.                       |
+| Изменены свойства набора данных Power BI                | EditDatasetProperties                       | Сейчас не используется                       |
 | Изменен отчет Power BI                            | EditReport                                  |                                          |
 | Экспортирован поток данных Power BI                        | ExportDataflow                              |                                          |
 | Экспортированы данные визуальных элементов отчета Power BI              | ExportReport                                |                                          |
 | Экспортированы данные плиток Power BI                       | ExportTile                                  |                                          |
-| Не удалось добавить разрешения для потока данных                | FailedToAddDataflowPermissions              | В настоящее время не используется.                       |
-| Не удалось удалить разрешения для потока данных             | FailedToRemoveDataflowPermissions           | В настоящее время не используется.                       |
+| Не удалось добавить разрешения для потока данных                | FailedToAddDataflowPermissions              | Сейчас не используется                       |
+| Не удалось удалить разрешения для потока данных             | FailedToRemoveDataflowPermissions           | Сейчас не используется                       |
 | Создан маркер SAS потока данных Power BI             | GenerateDataflowSasToken                    |                                          |
 | Создан токен внедрения Power BI                    | GenerateEmbedToken                          |                                          |
 | Импортирован файл в Power BI                         | Импорт                                      |                                          |
@@ -315,7 +315,7 @@ Remove-PSSession $Session
 | Удалены участники группы Power BI                    | DeleteGroupMembers                          |                                          |
 | Рабочая область удалена из емкости                 | RemoveWorkspacesFromCapacity                |                                          |
 | Переименована панель мониторинга Power BI                        | RenameDashboard                             |                                          |
-| Запрошено обновление потока данных Power BI               | RequestDataflowRefresh                      | В настоящее время не используется.                       |
+| Запрошено обновление потока данных Power BI               | RequestDataflowRefresh                      | Сейчас не используется                       |
 | Запрошено обновление набора данных Power BI                | RefreshDataset                              |                                          |
 | Получены рабочие области Power BI                     | GetWorkspaces                               |                                          |
 | Задано расположение хранилища потоков данных для рабочей области     | SetDataflowStorageLocationForWorkspace      |                                          |
@@ -323,7 +323,7 @@ Remove-PSSession $Session
 | Задано запланированное обновление набора данных Power BI         | SetScheduledRefresh                         |                                          |
 | Предоставлен общий доступ к панели мониторинга Power BI                         | ShareDashboard                              |                                          |
 | Предоставлен общий доступ к отчету Power BI                            | ShareReport                                 |                                          |
-| Начало работы в расширенной пробной версии Power BI                   | OptInForExtendedProTrial                    | В настоящее время не используется.                       |
+| Начало работы в расширенной пробной версии Power BI                   | OptInForExtendedProTrial                    | Сейчас не используется                       |
 | Запущена пробная версия Power BI                            | OptInForProTrial                            |                                          |
 | Принято управление источником данных Power BI                   | TakeOverDatasource                          |                                          |
 | Принято управление набором данных Power BI                        | TakeOverDataset                             |                                          |
@@ -364,4 +364,4 @@ Remove-PSSession $Session
 
 [Портал администрирования Power BI](service-admin-portal.md)  
 
-Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

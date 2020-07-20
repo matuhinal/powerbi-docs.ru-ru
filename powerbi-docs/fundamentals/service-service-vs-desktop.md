@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349225"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214024"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Сравнение Power BI Desktop и службы Power BI
 
 На представленной ниже диаграмме Венна область в середине показывает, в чем пересекаются возможности Power BI Desktop и службы Power BI. Некоторые задачи можно выполнять как в Power BI Desktop, так и в службе. На непересекающихся частях диаграммы представлены уникальные возможности приложения и службы.  
 
-![Диаграмма Венна возможностей Power BI Desktop и службы](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![Диаграмма Венна, показывающая связь между Power BI Desktop и службой Power BI.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop** — это полнофункциональное средство для анализа данных и создания отчетов, которое можно установить как бесплатное приложение на локальном компьютере. Оно включает в себя редактор запросов, который позволяет подключаться к разным источникам данных, а также объединять их в модели данных (этот процесс называется моделированием). На основе этих моделей данных затем разрабатываются отчеты. В [руководстве по началу работы с Power BI Desktop](desktop-getting-started.md) приводятся пошаговые инструкции.
 
@@ -33,7 +33,7 @@ ms.locfileid: "83349225"
 
 Как в приложении, так и в службе можно создавать и редактировать *отчеты*. Отчет может иметь одну или несколько страниц с визуальными элементами и их коллекциями. Добавляйте закладки, кнопки, фильтры и детализации, чтобы упростить навигацию по отчетам.
 
-![Редактирование отчета в Power BI Desktop или в службе](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![Снимки экрана: Power BI Desktop и службы Power BI с пронумерованными разделами](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 Редакторы в Power BI Desktop и в службе аналогичны. Они состоят из трех разделов:  
 

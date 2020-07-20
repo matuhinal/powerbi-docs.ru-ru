@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 88b5c6c377588003a02f571c29ef8baef5540ae3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220225"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264803"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Сканирование штрихкода с помощью мобильного приложения Power BI
 Вы можете сканировать штрихкоды в реальном мире и сразу же переходить непосредственно к отфильтрованной соответствующим образом информации в мобильном приложении Power BI.
@@ -27,14 +27,14 @@ ms.locfileid: "85220225"
 
 Предположим, коллега [указал, что поле в отчете Power BI Desktop содержит штрихкоды](../../transform-model/desktop-mobile-barcodes.md), и поделился этим отчетом с вами. 
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+![Снимок экрана: сканирование штрихкода — сканер над штрихкодом на бутылке с цветным напитком](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
 Вы можете отсканировать штрихкод на изделии с помощью сканера в приложении Power BI на устройстве и сразу же перейти к отчету (или списку отчетов), которые его содержат. Этот отчет откроется и будет отфильтрован по данному штрихкоду.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Сканирование штрихкода с помощью сканера Power BI
 1. На панели навигации вверху выберите **Дополнительные параметры** (...), а затем — пункт **Сканер**.
 
-    ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
+    ![Снимок экрана: элемент "Дополнительные параметры" в области навигации с выбором сканера](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
 2. Если камера не включена, разрешите приложению Power BI ее использовать. Это нужно сделать один раз. 
 4. Наведите сканер на штрихкод на изделии. Вы увидите список отчетов, которые с ним связаны.
@@ -43,8 +43,8 @@ ms.locfileid: "85220225"
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Фильтрация отчета по другому штрихкоду
 Просматривая на устройстве отчет, отфильтрованный по определенному штрихкоду, вы можете решить выбрать другой код.
 
-* Если на значке штрихкода изображен фильтр ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), то отчет уже отфильтрован по штрикходу. 
-* Если на значке штрихкода нет фильтра ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), то данный фильтр неактивен и отчет не отфильтрован по штрихкоду. 
+* Если на значке штрихкода изображен фильтр ![значок наличия фильтрации](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), то отчет уже отфильтрован по штрихкоду. 
+* Если на значке штрихкода нет фильтра ![значок отсутствия фильтрации](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), то данный фильтр неактивен и отчет не отфильтрован по штрихкоду. 
 
 В обоих случаях нажмите на значок, чтобы открыть небольшое меню со сканером.
 

@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e86aeaf8f7254e2b28b266135ccc4a0005e927b6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 870e3dbdc4b18422b0565834764b996d3f096ebf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236667"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264429"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Получение данных из файлов книг Excel
-![](media/service-excel-workbook-files/excel_icon.png)
+![Значок Excel](media/service-excel-workbook-files/excel_icon.png)
 
 Microsoft Excel является одним из наиболее широко используемых бизнес-приложений. Оно также является одним из наиболее распространенных способов получения данных в Power BI.
 
@@ -61,9 +61,9 @@ Power BI поддерживает следующие типы данных: це
 ## <a name="one-excel-workbook--two-ways-to-use-it"></a>Одна книга Excel — два способа ее использования
 Если сохранить файлы книг в **OneDrive**, вы сможете использовать несколько способов просмотра данных в Power BI.
 
-![](media/service-excel-workbook-files/excel_import_connect.png)
+![Снимок экрана: OneDrive для бизнеса с параметром импорта данных Excel или подключения к ним](media/service-excel-workbook-files/excel_import_connect.png)
 
-### <a name="import-excel-data-into-power-bi"></a>Импорт данных Excel в Power BI
+### <a name="import-excel-data-into-power-bi"></a>Импортировать данные Excel в Power BI
 Если выбрать **Импорт**, все поддерживаемые данные в таблицах и (или) в модели данных будут импортированы в новый набор данных в Power BI. Если у вас есть листы Power View, они будут созданы повторно в Power BI как отчеты.
 
 Вы можете продолжить редактирование в книге. При сохранении изменений они будут синхронизированы с набором данных в Power BI, обычно в течение часа. Если вам требуется более быстрый результат, можно просто повторно щелкнуть "Опубликовать", и ваши изменения сразу экспортируются. При этом также будут обновлены все визуализации в отчетах и на информационных панелях.
@@ -84,31 +84,31 @@ Power BI поддерживает следующие типы данных: це
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Импорт или подключение к книге Excel из Power BI
 1. В Power BI в области навигации щелкните **Получить данные**.
    
-   ![](media/service-excel-workbook-files/excel_get_data_button.png)
+   ![Снимок экрана: элемент "Получить данные" с кнопкой в области навигации](media/service-excel-workbook-files/excel_get_data_button.png)
 2. В разделе "Файлы" щелкните **Получить**.
    
-   ![](media/service-excel-workbook-files/excel_files_get.png)
+   ![Снимок экрана: диалоговое окно "Файлы" с кнопкой "Получить"](media/service-excel-workbook-files/excel_files_get.png)
 3. Найдите свой файл.
    
-   ![](media/service-excel-workbook-files/excel_find_your_file.png)
+   ![Снимок экрана: четыре плитки для поиска файла — "Локальный файл", "OneDrive бизнес", "OneDrive — персональный" и "SharePoint"](media/service-excel-workbook-files/excel_find_your_file.png)
 4. Если файл книги находится в OneDrive или на сайтах рабочих групп SharePoint, выберите **Импорт** или **Подключить**.
 
 ## <a name="local-excel-workbooks"></a>Локальные книги Excel
 Можно также использовать локальный файл Excel и загрузить его в Power BI. Просто выберите **Локальный файл** в предыдущем меню, а затем перейдите в расположение, где сохранены нужные книги Excel.
 
-![](media/service-excel-workbook-files/excel_import_6.png)
+![Снимок экрана с плиткой "Локальный файл", на котором показано, как выбрать книги Excel](media/service-excel-workbook-files/excel_import_6.png)
 
 Выбрав книгу, отправьте файл в Power BI.
 
-![](media/service-excel-workbook-files/excel_import_7.png)
+![Снимок экрана: диалоговое окно "Локальный файл", в котором выбран параметр отправки файла Excel в Power BI](media/service-excel-workbook-files/excel_import_7.png)
 
 После загрузки книги вы получаете уведомление о ее готовности.
 
-![](media/service-excel-workbook-files/excel_import_8.png)
+![Снимок экрана: уведомление о том, что книга готова](media/service-excel-workbook-files/excel_import_8.png)
 
 Когда книга будет готова к использованию, ее можно найти в разделе **Отчеты** Power BI.
 
-![](media/service-excel-workbook-files/excel_import_9.png)
+![Снимок экрана: раздел "Отчеты", показывающий выбранный отчет с данными Excel](media/service-excel-workbook-files/excel_import_9.png)
 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>Публикация из Excel 2016 на сайт Power BI
 Функция **Публикация в Power BI** в Excel 2016 позволяет выполнить импорт или подключиться к файлу так же, как с помощью функции **получения данных** в Power BI. Не будем сейчас углубляться в подробности, но дополнительные сведения доступны в разделе [Публикация в Power BI из Excel 2016](service-publish-from-excel.md).

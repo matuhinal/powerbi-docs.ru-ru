@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220892"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216353"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Обновление набора данных, созданного из книги Excel на локальном диске
 ## <a name="whats-supported"></a>Что поддерживается?
@@ -47,13 +47,13 @@ ms.locfileid: "85220892"
 > 
 
 В окне **Навигатор** щелкните **Загрузить в…** .  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+    ![Снимок экрана: выбор элемента "Загрузить в" в навигаторе](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
 Или, если щелкнуть элемент **Изменить** в навигаторе, открывается редактор запросов. В нем можно щелкнуть **Закрыть и загрузить в…** .  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+    ![Снимок экрана: вкладка "Главная" в навигаторе с выбором значения "Закрыть и загрузить в"](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 Затем в окне **Load To**(Загрузить в) необходимо выбрать параметр **Добавить эти данные в модель данных**.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+    ![Снимок экрана: диалоговое окно "Загрузить в" с установленным флажком "Добавить эти сведения в модель данных"](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Что будет, если использовать получение внешних данных в Power Pivot?
 Это не проблема. Каждый раз, когда вы используете Power Pivot для подключения и запроса данных из локального источника данных или источника данных в сети, данные автоматически загружаются в модель данных.
@@ -76,7 +76,7 @@ ms.locfileid: "85220892"
 
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)
 
-[Устранение неполадок со шлюзом Power BI — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
+[Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 62beab136dce53c7a3412eb5e2a4ec6470d14ec2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2144cc7460ea2eff84bbcc1e93f02c99d650b35
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220915"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216380"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Обновление набора данных, хранимого в OneDrive или SharePoint Online
 Импорт файлов из OneDrive или SharePoint Online в службу Power BI — отличный способ обеспечить синхронизацию вашей работы в Power BI Desktop со службой Power BI.
@@ -25,11 +25,11 @@ ms.locfileid: "85220915"
 
 Вы можете выполнить однократное ручное обновление прямо в Power BI Desktop, нажав кнопку **Обновить** на вкладке ленты **Главная**. При нажатии этой кнопки **Обновить** данные в модели файла обновляются измененными данными из исходного источника данных. Такого рода обновление полностью происходит из самого приложения Power BI Desktop. Оно отличается от ручного или запланированного обновления в Power BI, поэтому важно уметь различать их.
 
-![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
+![Снимок экрана: лента "Главная" в Power BI Desktop с выбранным параметром "Обновить"](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
 При импорте файла Power BI Desktop из OneDrive или SharePoint Online вы загружаете информационную модель и данные в набор данных в Power BI. Необходимо обновлять набор данных в службе Power BI, потому что именно на этом основаны ваши отчеты. Так как источники данных являются внешними, вы можете вручную обновить набор данных с помощью функции **Обновить сейчас** или настроить **Расписание обновления**. 
 
-![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
+![Снимок экрана: набор данных в Power BI Desktop с выбранным параметром "Запланировать обновление"](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
 
 При обновлении набора данных служба Power BI не подключается к файлу в OneDrive или SharePoint Online для запроса обновленных данных. Она использует данные в наборе данных для подключения непосредственно к источникам данных и получения обновленных данных. Затем она загружает эти данные в набор данных. Эти обновленные данные в наборе данных не синхронизированы с файлом в OneDrive или SharePoint Online.
 
@@ -52,13 +52,13 @@ ms.locfileid: "85220915"
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive или OneDrive для бизнеса. В чем разница?
-При наличии личного OneDrive и OneDrive для бизнеса необходимо хранить все файлы, которые нужно импортировать в Power BI, в OneDrive для бизнеса. И вот почему. Скорее всего, для доступа к этим хранилищам вы используете две учетные записи.
+При наличии личного OneDrive и OneDrive для бизнеса необходимо хранить все файлы, которые нужно импортировать в Power BI, в OneDrive для бизнеса. Почему? Скорее всего, для доступа к этим хранилищам вы используете разные учетные записи.
 
 При подключении к OneDrive для бизнеса в Power BI подключение становится простым, поскольку ваша учетная запись Power BI часто совпадает с учетной записью OneDrive для бизнеса. В личное хранилище OneDrive вы обычно входите с помощью другой [учетной записи Майкрософт](https://account.microsoft.com).
 
-При выполнении входа с использованием учетной записи Майкрософт обязательно установите флажок **Оставаться в системе**. После этого Power BI сможет синхронизировать все обновления, внесенные в файл в Power BI Desktop, с наборами данных в Power BI.
+При выполнении входа с использованием учетной записи Майкрософт обязательно установите флажок **Оставаться в системе**. После этого Power BI сможет синхронизировать все обновления, внесенные в файл в Power BI Desktop, с наборами данных в Power BI.
 
-![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+![Снимок экрана: диалоговое окно входа с установленным флажком "Оставаться в системе"](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Если вы изменили свои учетные данные Microsoft, то не сможете синхронизировать изменения между файлом в OneDrive и набором данных в Power BI. Необходимо подключиться и снова импортировать файл из OneDrive.
 
@@ -79,6 +79,6 @@ ms.locfileid: "85220915"
 
 [Устранение неполадок локального шлюза данных](service-gateway-onprem-tshoot.md)
 
-[Устранение неполадок со шлюзом Power BI — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
+[Устранение неполадок с Power BI Gateway — Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-У вас имеются и другие вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
+Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).

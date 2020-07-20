@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320085"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264419"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Источники данных для службы Power BI
 Данные находятся в основе Power BI. Предположим, что вы изучаете данные. Для этого вы можете создавать диаграммы и панели мониторинга или задавать вопросы в функции **Вопросы и ответы**. Отображаемые визуализации и ответы основаны на наборе данных. Этот набор извлекается из источника данных.
@@ -23,14 +23,14 @@ ms.locfileid: "83320085"
 
 Чтобы получить информацию из любого из этих источников, в Power BI нужно выбрать **Получить данные** в нижнем левом углу страницы.
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![Снимок экрана: элемент "Получить данные" в левом нижнем углу экрана службы Power BI](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 После выбора элемента **Получить данные** можно выбрать данные, к которым требуется получить доступ.
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![Снимок экрана: варианты получения данных для выбора данных, к которым вы хотите получить доступ](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>Поиск содержимого
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![Снимок экрана: раздел "Поиск содержимого" с логотипами партнеров](media/service-get-data/pbi-getdata-discovercontent.png)
 
 Раздел **Поиск содержимого** содержит все необходимые данные и отчеты, уже готовые к работе. В Power BI существует два типа пакетов содержимого: организации и служб. 
 
@@ -43,7 +43,7 @@ ms.locfileid: "83320085"
 Раздел **Создание содержимого** содержит параметры для самостоятельного создания и импорта содержимого. В Power BI создавать или импортировать собственное содержимое можно двумя способами: с помощью файлов и баз данных. 
 
 ### <a name="files"></a>Файлы
-![](media/service-get-data/pbi_getdata_files.png)
+![Значок Excel, Power BI Desktop и CSV](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** (*XLSX*, *XLSM*). В Excel книга может содержать различные типы данных. Например, она может включать данные, которые вы ввели на листах самостоятельно. Она также может содержать данные, которые вы запросили и загрузили из внешних источников данных с помощью Power Query. Надстройка Power Query доступна посредством функции **Скачать и преобразовать** в Excel 2016 или Power Pivot. Вы можете импортировать данные из таблиц на листах или из модели данных. Дополнительные сведения см. в статье [Получение данных из файлов в Power BI](service-get-data-from-files.md).
 
@@ -56,7 +56,7 @@ ms.locfileid: "83320085"
 Многое также зависит от того, где хранятся файлы. Служба OneDrive для бизнеса обеспечивает высокую степень гибкости и интеграции с Power BI. Можно хранить файлы на локальном диске. Однако если вам нужно обновить данные, необходим ряд дополнительных действий. Дополнительные сведения см. по указанным ниже ссылкам на статьи.
 
 ### <a name="databases"></a>Базы данных
-![](media/service-get-data/pbi_getdata_databases.png)
+![Снимок экрана: базы данных в логотипах облака](media/service-get-data/pbi_getdata_databases.png)
 
 **Базы данных в облаке** — из службы Power BI можно оперативно подключитесь к следующим расположениям:
 

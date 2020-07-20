@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 396c760a97911a35d7fdc0c608fc35de1cf6586d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565978"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216827"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Методы уменьшения объема данных для моделирования импорта
 
@@ -84,7 +84,7 @@ ms.locfileid: "83565978"
 
 Запросы Power Query, предназначенные для поддержки интеграции данных с другими запросами, не должны загружаться в модель. Чтобы избежать загрузки запроса в модель, отключите загрузку запросов в таких ситуациях.
 
-![Отключение загрузки для запроса Power Query](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+![Снимок экрана: Power Query с параметром "Включить загрузку"](media/import-modeling-data-reduction/power-query-disable-query-load.png)
 
 ## <a name="disable-auto-datetime"></a>Отключение параметра "Автоматические дата и время"
 

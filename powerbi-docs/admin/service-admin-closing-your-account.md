@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5a84d46743522a9070c4cd9b16f7a540e3c103df
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228648"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161245"
 ---
 # <a name="close-your-power-bi-account"></a>Закрытие учетной записи Power BI
 
@@ -34,7 +34,7 @@ ms.locfileid: "85228648"
 
 1. Выберите причину закрытия учетной записи (1). Вы также можете указать дополнительные сведения (2). После этого выберите **Закрыть учетную запись**.
 
-    ![Снимок экрана диалогового окна закрытия учетной записи с выделенным параметром закрытия учетной записи.](media/service-admin-closing-your-account/close-account-settings-3.png)
+    ![Снимок экрана: диалоговое окно "Закрытие учетной записи" с полями для предоставления дополнительных сведений для закрытия учетной записи](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. Подтвердите, что вы хотите закрыть свою учетную запись.
 
@@ -42,12 +42,12 @@ ms.locfileid: "85228648"
 
     Вы увидите подтверждение того, что Power BI закрыл учетную запись. При необходимости здесь можно повторно открыть учетную запись.
 
-    ![Снимок экрана диалогового окна с сообщением о закрытии учетной записи.](media/service-admin-closing-your-account/close-account-settings-5.png)
+    ![Снимок экрана: диалоговое окно с подтверждением закрытия вашей учетной записи](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>Пользователи управляемого клиента
 
 Если ваша организация зарегистрировала вас для использования Power BI, обратитесь к администратору клиента Попросите его отменить назначение лицензии для вашей учетной записи.
 
-![Управляемые закрытием учетной записи](media/service-admin-closing-your-account/close-account-managed.png)
+![Снимок экрана: закрытие учетной записи](media/service-admin-closing-your-account/close-account-managed.png)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

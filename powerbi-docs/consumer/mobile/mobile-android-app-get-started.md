@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: a12f4d81e2cae913ddddd26ca3bd9c820ad716ca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233041"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263012"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -80,7 +80,7 @@ Power BI можно запускать на разных устройствах 
 Коснитесь значка лупы в заголовке, чтобы начать поиск содержимого Power BI.
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>Просмотр избранных панелей мониторинга и отчетов
-Коснитесь элемента **Избранное** (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) на панели навигации, чтобы открыть страницу "Избранное". 
+Коснитесь элемента **Избранное** (![значок избранного](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) на панели навигации, чтобы открыть страницу "Избранное". 
 
 Дополнительные сведения об избранном в мобильных приложениях Power BI см. [здесь](mobile-apps-favorites.md).
 

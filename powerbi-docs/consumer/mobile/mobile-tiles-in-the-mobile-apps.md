@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 7f04a57b64256f83b485a79fe2fd949994b023a4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7a08b41f7307881a75573cadbeca984840300032
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221702"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264876"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Просмотр плиток в мобильном приложении Power BI
 Применяется к:
@@ -33,53 +33,53 @@ ms.locfileid: "85221702"
    
    Коснитесь графика, линейчатой диаграммы или гистограммы для просмотра значений конкретных фрагментов визуализации.
    
-    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
+    ![Снимок экрана: график, показывающий выбранные значения для показателей продаж за текущий и прошлый годы](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
    *Например, на этом графике выбранные значения соответствуют показателям **продаж за текущий** и **прошлый годы** в **августе**.*  
    
    Коснитесь сегмента круговой диаграммы, чтобы отобразить его значения над диаграммой.  
    
-   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. На карте коснитесь значка **Центрирование карты**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png), чтобы центрировать карту относительно вашего текущего расположения.
+   ![Снимок экрана: круговая диаграмма, показывающая значение параметра "Число возможностей"](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
+3. На карте коснитесь значка **Центрировать карту** ![значок "Центрировать карту"](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png), чтобы центрировать карту относительно своего текущего расположения.
 
-   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+   ![Снимок экрана: карта, отцентрированная на вашем текущем расположении в Алабаме](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
 
-4. Коснитесь значка карандаша ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png), чтобы [добавить заметку к плитке](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual), а затем значка общего доступа ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png), чтобы [предоставить доступ к ней другим пользователям](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
+4. Коснитесь значка карандаша ![значок карандаша](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png), чтобы [добавить заметку к плитке](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual), а затем значка общего доступа ![значок общего доступа](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png), чтобы [предоставить доступ к ней другим пользователям](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
 
 5. [Добавьте оповещение на плитку](mobile-set-data-alerts-in-the-mobile-apps.md). Если значения выйдут за установленные пределы, Power BI сообщит вам об этом.
 
-6. Иногда создатели панелей мониторинга добавляют ссылки в плитки. В этом случае на плитке в режиме фокусировки отображается значок ссылки ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+6. Иногда создатели панелей мониторинга добавляют ссылки в плитки. В этом случае на плитке в режиме фокусировки отображается значок ссылки ![значок ссылки](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) .
    
-    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
+    ![Снимок экрана: панель мониторинга со значком ссылки в режиме фокусировки](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
     Ссылки могут вести на другие панели мониторинга Power BI или внешние ресурсы. Вы можете [нажать на ссылку](../../create-reports/service-dashboard-edit-tile.md#hyperlink), чтобы открыть ее в приложении Power BI. Если ссылка указывает на внешний сайт, Power BI запросит разрешение на переход к нему.
    
-    ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
+    ![Снимок экрана: диалоговое окно "Разрешить Power BI открывать ссылки во внутреннем браузере"](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Открыв ссылку в приложении Power BI, вы можете скопировать ее и открыть в браузере.
-7. [Откройте отчет](mobile-reports-in-the-mobile-apps.md) ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), на котором основана плитка.
+7. [Откройте отчет](mobile-reports-in-the-mobile-apps.md) ![значок "Открыть отчет"](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), на котором основана плитка.
 8. Чтобы выйти из режима фокусировки плитки, коснитесь имени плитки, а затем выберите имя панели мониторинга или **Моя рабочая область**.
    
-    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
+    ![Снимок экрана: панель мониторинга со стрелками, указывающими элементы "Моя рабочая область" и "Анализ возможностей — пример"](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
 ## <a name="tiles-in-the-mobile-app-for-android-phones-and-tablets"></a>Плитки в мобильных приложениях для телефонов и планшетов с Android
 1. Откройте [информационную панель в мобильном приложении Power BI](mobile-apps-view-dashboard.md).
 2. Коснитесь плитки, чтобы открыть ее в режиме фокусировки, в котором проще просматривать и изучать представленные на ней данные.
    
-   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-tile.png)
+   ![Снимок экрана: график, показывающий выбранные значения для показателей продаж за текущий и прошлый годы](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-tile.png)
    
     В режиме фокусировки можно выполнять следующие задачи.
    
    * Коснитесь диаграммы, чтобы переместить линию на графике, линейчатой диаграмме, гистограмме или пузырьковой диаграмме для просмотра значений для определенной точки в визуализации.  
-   * Коснитесь значка карандаша ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png), чтобы [добавить заметку к плитке](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual), а затем значка общего доступа к моментальному снимку ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png), чтобы [предоставить доступ к ней](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) другим пользователям.
-   * Коснитесь значка "Открыть отчет" ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png), чтобы [просмотреть отчет](mobile-reports-in-the-mobile-apps.md) в мобильном приложении.
-3. Иногда создатели панелей мониторинга добавляют ссылки в плитки. В этом случае при нажатии кнопки с вертикальным многоточием ( **...** ) вы увидите команду **Открыть ссылку** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+   * Коснитесь значка карандаша ![значок карандаша](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png), чтобы [добавить заметку к плитке](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual), а затем значка "Поделиться снимком" ![значок "Поделиться снимком"](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png), чтобы [предоставить доступ другим пользователям](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
+   * Коснитесь значка "Открыть отчет" ![значок "Открыть отчет"](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png), чтобы [просмотреть отчет](mobile-reports-in-the-mobile-apps.md) в мобильном приложении.
+3. Иногда создатели панелей мониторинга добавляют ссылки в плитки. В этом случае при нажатии кнопки с вертикальным многоточием ( **...** ) вы увидите команду **Открыть ссылку** ![значок ссылки](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png).
    
-    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
+    ![Снимок экрана: панель мониторинга с вертикальным многоточием и стрелкой, указывающей на команду "Открыть ссылку"](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
     Ссылки могут вести на другие панели мониторинга Power BI или внешние ресурсы. Вы можете [нажать на ссылку](../../create-reports/service-dashboard-edit-tile.md#hyperlink), чтобы открыть ее в приложении Power BI. Если ссылка указывает на внешний сайт, Power BI запросит разрешение на переход к нему.
    
-    ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
+    ![Снимок экрана: диалоговое окно "Разрешить Power BI открывать ссылки во внутреннем браузере"](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Открыв ссылку в приложении Power BI, вы можете скопировать ее и открыть в браузере.
 4. Коснитесь стрелки в левом верхнем углу, чтобы закрыть плитку и вернуться на информационную панель.
@@ -92,39 +92,39 @@ ms.locfileid: "85221702"
 1. Откройте [информационную панель в мобильном приложении Power BI](mobile-apps-view-dashboard.md) для Windows 10.
 2. Коснуться вертикального многоточия на плитке. Здесь можно выполнять следующие действия. 
    
-    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
+    ![Снимок экрана: плитка с вертикальным многоточием и командой "Открыть ссылку"](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
     [Совместно использовать моментальный снимок плитки](mobile-windows-10-phone-app-get-started.md).
    
-    Коснуться значка **Открыть отчет** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) для [просмотра базового отчета](mobile-reports-in-the-mobile-apps.md).
+    Коснуться значка **Открыть отчет** ![значок "Открыть отчет"](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) для [просмотра базового отчета](mobile-reports-in-the-mobile-apps.md).
    
     [Открыть ссылку](../../create-reports/service-dashboard-edit-tile.md#hyperlink), если она имеется. Ссылки могут вести на панели мониторинга Power BI или внешние ресурсы.
-3. Коснуться пункта **Развернуть плитку** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Она откроется в режиме фокусировки, в котором проще просматривать и изучать представленные на ней данные. В этом режиме можно выполнять следующие задачи.
+3. Коснуться значка **Развернуть плитку** ![значок "Развернуть плитку"](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Она откроется в режиме фокусировки, в котором проще просматривать и изучать представленные на ней данные. В этом режиме можно выполнять следующие задачи.
    
    Поверните круговую диаграмму, чтобы отобразить значения фрагмента, расположенного в верхней части диаграммы.  
    
-   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-pie-focus-mode.png)
+   ![Снимок экрана: круговая диаграмма, показывающая значения для параметра "Число возможностей"](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-pie-focus-mode.png)
    
    Коснитесь диаграммы, чтобы переместить линию на графике, линейчатой диаграмме, гистограмме или пузырьковой диаграмме для просмотра значений для определенной точки в визуализации.  
    
-   ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
+   ![Снимок экрана: линейчатая диаграмма, показывающая значения для панели декора](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
    *На этой линейчатой диаграмме значения столбца **Decor** (Декор) показаны над диаграммой.*
    
-   Коснитесь значка **Во весь экран**![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png), чтобы открыть плитку в полноэкранном режиме без панели навигации и меню.
+   Коснитесь значка **Во весь экран** ![значок "Во весь экран"](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png), чтобы открыть плитку в полноэкранном режиме без панели навигации и меню.
    
    > [!NOTE]
    > Вы также можете [просматривать панели мониторинга и отчеты в полноэкранном режиме](mobile-windows-10-app-presentation-mode.md) в мобильном приложении Power BI для Windows 10.
    > 
    > 
    
-   На карте коснитесь значка **Центрирование карты**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png), чтобы центрировать карту относительно вашего текущего расположения.
+   На карте коснитесь значка **Центрировать карту** ![значок "Центрировать карту"](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png), чтобы центрировать карту относительно своего текущего расположения.
    
-   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
+   ![Снимок экрана: карта, отцентрированная на вашем текущем расположении в Кентукки](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   Коснитесь значка "Поделиться снимком" ![](./media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), чтобы [поделиться плиткой](mobile-windows-10-phone-app-get-started.md) с другими пользователями.   
+   Коснитесь значка "Поделиться снимком" ![значок "Поделиться снимком"](./media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), чтобы [поделиться плиткой](mobile-windows-10-phone-app-get-started.md) с другими пользователями.   
    
-   Коснитесь значка "Открыть отчет" ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), чтобы [просмотреть отчет](mobile-reports-in-the-mobile-apps.md), на котором основана плитка. 
+   Коснитесь значка "Открыть отчет" ![значок "Открыть отчет"](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), чтобы [просмотреть отчет](mobile-reports-in-the-mobile-apps.md), на котором основана плитка. 
 4. Коснитесь черной стрелки или черной кнопки, чтобы закрыть плитку и вернуться на панель мониторинга.
 
 ## <a name="next-steps"></a>Дальнейшие действия

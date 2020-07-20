@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219190"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263061"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Закрепление плитки на информационной панели из подсистемы вопросов и ответов
 ## <a name="how-to-pin-a-tile-from-qa"></a>Закрепление плитки из вопросов и ответов
@@ -32,7 +32,7 @@ ms.locfileid: "85219190"
    ![ввод вопроса](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    в поле вопроса отображаются рекомендации.
-4. Чтобы добавить диаграмму на панель мониторинга как плитку, щелкните значок закрепления ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) справа вверху на холсте. Если доступ к панели мониторинга вам предоставил другой пользователь, вы не сможете закрепить на ней визуализацию.
+4. Чтобы добавить диаграмму на панель мониторинга как плитку, щелкните значок закрепления ![Значок закрепления](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) справа вверху на холсте. Если доступ к панели мониторинга вам предоставил другой пользователь, вы не сможете закрепить на ней визуализацию.
 
 5. Закрепите плитку на существующей или новой панели мониторинга.
 

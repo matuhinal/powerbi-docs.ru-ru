@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 1f71c2c835c729f3a0afe824835deaee719568c2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219995"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264771"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Начало работы с мобильным приложением Power BI на устройствах iOS
 Приложение Microsoft Power BI для iOS на устройствах iPhone и iPad позволяет работать со службой Power BI, Сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. Отслеживайте актуальные данные на своих часах [Apple Watch](mobile-apple-watch.md).  
@@ -66,7 +66,7 @@ ms.locfileid: "85219995"
 Коснитесь значка лупы в заголовке, чтобы начать поиск содержимого Power BI.
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>Просмотр избранных панелей мониторинга и отчетов
-Коснитесь элемента **Избранное** (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) на панели навигации, чтобы открыть страницу "Избранное". 
+Коснитесь элемента **Избранное** (![значок избранного](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) на панели навигации, чтобы открыть страницу "Избранное". 
 
 Дополнительные сведения об избранном в мобильных приложениях Power BI см. [здесь](mobile-apps-favorites.md).
 

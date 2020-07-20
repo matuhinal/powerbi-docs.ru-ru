@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278682"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214884"
 ---
 # <a name="referencing-power-query-queries"></a>Ссылки на запросы Power Query
 
@@ -23,13 +23,13 @@ ms.locfileid: "83278682"
 
 Рассмотрим сценарий использования нескольких запросов. **Query1** получает данные из веб-службы, и их загрузка отключена. Все запросы **Query2**, **Query3** и **Query4** ссылаются на запрос **Query1**, и их выходные данные загружаются в модель данных.
 
-![Представление зависимостей запросов с отображением запросов, описанных в предыдущем абзаце.](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![Схема, показывающая представление зависимостей запросов с отображением запросов, описанных в предыдущем абзаце](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 Считается, что при обновлении модели данных Power Query извлекает результат выполнения запроса **Query1**, повторно используемого другими запросами, на которые указывают ссылки. Но все происходит иначе. Фактически Power Query выполняет запросы **Query2**, **Query3** и **Query4** по-отдельности.
 
 Иными словами, запрос **Query2** будет содержать все внедренные действия **Query1**. То же справедливо и для запросов **Query3** и **Query4**. Ниже представлена схема выполнения запросов.
 
-![Измененная версия представления зависимостей запросов с отображением запросов Query2, Query3 и Query4. Каждый из трех запросов содержит внедренный запрос Query1.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![Схема, показывающая измененную версию представления зависимостей запросов с отображением запросов Query2, Query3 и Query4](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 Запрос **Query1** выполняется три раза. Множественное выполнение может приводить к задержкам при обновлении данных и негативно влиять на их источник.
 

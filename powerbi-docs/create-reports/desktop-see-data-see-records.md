@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238630"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264740"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Использование визуальной таблицы и таблицы точек данных в Power BI Desktop
 В **Power BI Desktop** можно детализировать данные любого визуального элемента и отобразить текстовое представление данных или отдельных записей данных выбранного визуального элемента. Иногда эти возможности называют *переходами*, *детализацией* или *детализацией данных*.
@@ -30,7 +30,7 @@ ms.locfileid: "85238630"
 >  - Кольцевой график
 >  - Картограмма
 >  - Воронкообразная диаграмма
->  - Схема
+>  - Карта
 >  - Круговая диаграмма
 >  - Диаграмма-дерево
 
@@ -74,7 +74,7 @@ ms.locfileid: "85238630"
 
 Когда вы выбираете **Таблица точек данных** для элемента данных, на холсте Power BI Desktop отображаются все данные, связанные с выбранным элементом. 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![Снимок экрана: холст со всеми данными, связанными с выбранным элементом, при выборе таблицы точек данных](media/desktop-see-data-see-records/visual-table-09.png)
 
 Чтобы вернуться к отчету, нажмите кнопку **< Назад к отчету** в левом верхнем углу холста.
 

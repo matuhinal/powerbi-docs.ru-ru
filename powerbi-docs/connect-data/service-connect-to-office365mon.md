@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 422782c3036f94c1ea764f46135200116092d70c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229895"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216231"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Подключение к Office365Mon с помощью Power BI
 С функциями Power BI и приложения-шаблона Office365Mon вам будет легко анализировать данные о перебоях в работе и состоянии служб Office 365. Power BI извлекает данные, в том числе сведения о сбоях в работе и проверках работоспособности, затем создает стандартную панель мониторинга и формирует на основе этой информации отчеты.
@@ -27,23 +27,23 @@ ms.locfileid: "85229895"
 ## <a name="how-to-connect"></a>Способы подключения
 1. В нижней части области навигации выберите **Получить данные**.
    
-   ![](media/service-connect-to-office365mon/pbi_getdata.png)
+   ![Снимок экрана: кнопка "Получить данные" в области навигации](media/service-connect-to-office365mon/pbi_getdata.png)
 2. В поле **Службы** выберите **Получить**.
    
-   ![](media/service-connect-to-office365mon/pbi_getservices.png) 
+   ![Снимок экрана: диалоговое окно "Службы" с кнопкой "Получить"](media/service-connect-to-office365mon/pbi_getservices.png) 
 3. Выберите **Office365Mon** \> **Получить**.
    
-   ![](media/service-connect-to-office365mon/o365mon.png)
+   ![Снимок экрана: диалоговое окно "Office365Mon" со ссылкой "Получить"](media/service-connect-to-office365mon/o365mon.png)
 4. В качестве метода проверки подлинности выберите **oAuth2** \> **Вход**.
    
    При появлении запроса введите учетные данные администратора Office365Mon и пройдите проверку подлинности.
    
-   ![](media/service-connect-to-office365mon/creds.png)
+   ![Снимок экрана: диалоговое окно "Подключение к Office365Mon" со значением oAuth2 в поле метода проверки подлинности](media/service-connect-to-office365mon/creds.png)
    
-   ![](media/service-connect-to-office365mon/creds2.png)
+   ![Снимок экрана: вход в Office365Mon с запросом учетных данных](media/service-connect-to-office365mon/creds2.png)
 5. После импорта данных в Power BI в области навигации слева появятся новая панель мониторинга, отчеты и набора данных. Новые элементы будут отмечены желтой звездочкой (\*). Выберите Office365Mon.
    
-   ![](media/service-connect-to-office365mon/dashboard4.png)
+   ![Снимок экрана: область навигации в Power BI с панелью мониторинга, отчетом и набором данных](media/service-connect-to-office365mon/dashboard4.png)
 
 **Дальнейшие действия**
 

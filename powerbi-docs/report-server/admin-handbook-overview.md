@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73860229"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213811"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Общие сведения об администрировании Сервера отчетов Power BI
 В этой статье описано, как администрировать Сервер отчетов Power BI — локальное расположение для хранения и администрирования ваших отчетов Power BI, мобильных отчетов и отчетов с разбивкой на страницы. В этом руководстве описаны концепции планирования, развертывания и администрирования Сервера отчетов Power BI и приведены ссылки на дополнительные материалы.
 
-![](media/admin-handbook-overview/admin-handbook.png)
-
+![Снимок экрана сервера отчетов Power BI с параметрами входа](media/admin-handbook-overview/admin-handbook.png)
+ 
 ## <a name="installing-and-migration"></a>Установка и миграция
 Чтобы начать использовать Сервер отчетов Power BI, его нужно установить. Выполнение этой задачи описывается в ряде статей.
 
@@ -48,7 +48,7 @@ ms.locfileid: "73860229"
 [Поиск ключа продукта сервера отчетов](find-product-key.md)  
 [Установка приложения Power BI Desktop, оптимизированного для сервера отчетов Power BI](install-powerbi-desktop.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Скачать SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Download SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3247e718e5e98536ddce3a253f8e78e5ff615614
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec290ce53155f24a9213a4849ecb82abd6cfc592
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234457"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263662"
 ---
 # <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>Используйте соединитель Google Analytics для Power BI Desktop
 > [!NOTE]
@@ -27,21 +27,21 @@ ms.locfileid: "85234457"
 2. В окне **Получение данных** в списке категорий в области слева выберите **Веб-службы**.
 3. В списке в области справа выберите **Google Analytics** .
 4. В нижней части окна выберите **Подключить**.  
-   ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)
+   ![Снимок экрана: вкладка "Главная"с лентой "Получение данных" с выбранной службой Google Analytics и кнопкой "Подключить"](media/service-google-analytics-connector/tps_googleanalytics_1.png)
 
 Откроется диалоговое окно, в котором сообщается, что соединитель является сторонней службой, и предупреждается о возможности изменения функций и доступности с течением времени, а также содержатся другие уточнения.  
-![](media/service-google-analytics-connector/tps_googleanalytics_2.png)
+![Снимок экрана: диалоговое окно подключения с предупреждением о том, что соединитель использует службу стороннего производителя](media/service-google-analytics-connector/tps_googleanalytics_2.png)
 
 После нажатия кнопки **Продолжить** вам будет предложено войти в службу Google Analytics.  
-![](media/service-google-analytics-connector/tps_googleanalytics_3.png)
+![Снимок экрана: запрос Google Analytics,указывающий на то, что вам нужно войти в систему для подключения](media/service-google-analytics-connector/tps_googleanalytics_3.png)
 
 При вводе учетных данных вам будет предложено выбрать доступ к Power BI в автономном режиме. Таким образом **Power BI Desktop** используется для доступа к данным Google Analytics.  
 
 После принятия предложения в **Power BI Desktop** будет отображено уведомление о том, что вход выполнен.  
-![](media/service-google-analytics-connector/tps_googleanalytics_5.png)
+![Снимок экрана: запрос Google Analytics,указывающий на то, что вы вошли в систему](media/service-google-analytics-connector/tps_googleanalytics_5.png)
 
 Выберите **Подключить**, после чего данные Google Analytics будут подключены к **Power BI Desktop** и загружены.  
-![](media/service-google-analytics-connector/tps_googleanalytics_6.png)
+![Снимок экрана: диалоговое окно "Загрузка", в котором указывается, что данные Google Analytics подключены и загружаются](media/service-google-analytics-connector/tps_googleanalytics_6.png)
 
 ## <a name="changes-to-the-api"></a>Изменения API-интерфейса
 Несмотря на попытки выпуска обновлений в соответствии с любыми изменениями, API-интерфейс может измениться так, что изменения повлияют на результаты формируемых запросов. В некоторых случаях поддержка определенных запросов может отсутствовать. В связи с этой зависимостью мы не гарантируем наличие и правильность результатов запросов при использовании этого соединителя.

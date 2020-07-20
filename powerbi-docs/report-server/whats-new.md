@@ -7,24 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/06/2020
-ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/08/2020
+ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034044"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214376"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
-Узнайте о новых возможностях сервера отчетов Power BI и оптимизированной для сервера отчетов версии Power BI Desktop. В этой статье приводятся сведения об основных функциях. Материалы обновляются по мере появления новых выпусков.
+Узнайте о новых возможностях сервера отчетов Power BI и оптимизированной для сервера отчетов версии Power BI Desktop. В этой статье приводятся сведения об основных функциях. Материалы обновляются по мере появления новых выпусков. Дополнительные сведения о новых возможностях Сервера отчетов Power BI см. в статье [Журнал изменений для Сервера отчетов Power BI](changelog.md).
 
 Скачайте [сервер отчетов Power BI и оптимизированную для него версию Power BI Desktop](https://powerbi.microsoft.com/report-server/).
-
-См. дополнительные сведения о новых функциях и возможностях Power BI:
-
-- [Новые возможности службы Power BI](../fundamentals/service-whats-new.md)
-- [Новые возможности Power BI Desktop](../fundamentals/desktop-latest-update.md)
 
 ## <a name="may-2020"></a>Май 2020 г.
 

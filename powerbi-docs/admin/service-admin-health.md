@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228527"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161176"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Отслеживание работоспособности службы Power BI в Microsoft 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "85228527"
 
 1. Чтобы просмотреть дополнительные сведения, выберите **Показать подробности** для нужного элемента. На снимке экрана ниже представлена панель дополнительных сведений с актуальными обновлениями состояния.
 
-    ![Снимок экрана с подробными сведениями о рекомендациях.](media/service-admin-health/advisory-details.png)
+    ![Снимок экрана с подробными сведениями о рекомендациях, показывающий дополнительную информацию](media/service-admin-health/advisory-details.png)
 
     Прокрутите вниз, чтобы просмотреть другие сведения, а затем закройте эту панель.
 

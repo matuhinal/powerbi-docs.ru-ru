@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782536"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215744"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Навигация для потребителей Power BI: глобальный поиск
 
@@ -29,7 +29,7 @@ ms.locfileid: "85782536"
 ## <a name="searching-for-content"></a>Поиск содержимого
  Поиск можно выполнять практически из любого места службы Power BI. Просто найдите поле поиска или значок поиска ![значок лупы](./media/end-user-search-sort/power-bi-search-icon.png).
 
- Начните вводить название панели мониторинга, отчета, книги, приложения или имя владельца в поле поиска. Поиск нужного содержимого в службе Power BI будет выполняться автоматически. 
+ Начните вводить название панели мониторинга, отчета, книги, рабочей области, приложения или имя владельца в поле поиска. Поиск нужного содержимого в службе Power BI будет выполняться автоматически. 
 
  ![Поиск отчета](./media/end-user-search-sort/power-bi-search-field.png) 
 
@@ -63,4 +63,4 @@ ms.locfileid: "85782536"
 
 [Сортировка данных в визуальных элементах](end-user-change-sort.md)
 
-Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

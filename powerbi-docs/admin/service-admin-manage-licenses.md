@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228460"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161360"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Просмотр пользовательских лицензий Power BI и управление ими
 
@@ -35,7 +35,7 @@ ms.locfileid: "85228460"
 
 Активные подписки Power BI приводятся в списке вместе с другими имеющимися подписками. Иногда в списке может быть непредвиденная бесплатная подписка Power BI, как показано на иллюстрации.
 
-  ![Бесплатная подписка Power BI, активированная пользователем](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![Снимок экрана подписки Power BI, на котором приведена бесплатная подписка](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 Такая подписка создается, когда пользователи прибегают к самостоятельной регистрации. Дополнительные сведения см. в статье [Power BI в организации](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 

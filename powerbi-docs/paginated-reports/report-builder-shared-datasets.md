@@ -1,18 +1,18 @@
 ---
 title: Создание отчета с разбивкой на страницы с помощью общего набора данных Power BI — построитель отчетов Power BI
 description: Создание отчета с разбивкой на страницы в построителе отчетов Power BI на основе общего набора данных Power BI.
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239803"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216776"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Создание отчета с разбивкой на страницы на основе общего набора данных Power BI
 
@@ -104,6 +104,9 @@ ms.locfileid: "85239803"
     ![Конструктор запросов построителя отчетов](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. В верхней области вставьте запрос, скопированный из Power BI Desktop.
+
+    > [!NOTE]
+    > Если запрос содержит функцию TOPN, удалите ее оттуда.
 
 1. Выберите **Выполнить запрос** (красный восклицательный знак — !), чтобы убедиться, что запрос работает. 
 

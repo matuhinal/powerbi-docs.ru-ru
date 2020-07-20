@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69cc3e21befb2c3becca737f853947e869bd681c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b832e96b795b38133939296a15dcab6ece3996be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224192"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214904"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Подключение к базе данных Amazon Redshift в Power BI Desktop
 В **Power BI Desktop** вы можете подключиться к базе данных **Amazon Redshift** и использовать ее так же, как и любой другой источник данных в Power BI Desktop.
@@ -22,19 +22,19 @@ ms.locfileid: "85224192"
 ## <a name="connect-to-an-amazon-redshift-database"></a>Подключение к базе данных Amazon Redshift
 Для подключения к базе данных **Amazon Redshift** на вкладке **Главная** на ленте в Power BI Desktop выберите **Получение данных**. Слева выберите категорию **База данных**. Отобразится пункт **Amazon Redshift**.
 
-![](media/desktop-connect-redshift/connect_redshift_3.png)
+![Снимок экрана: диалоговое окно "Получить данные", показывающее выбор базы данных Amazon Redshift](media/desktop-connect-redshift/connect_redshift_3.png)
 
-В открывшемся окне **Amazon Redshift** введите или вставьте имя сервера и базы данных **Amazon Redshift** в соответствующие поля. В качестве части поля *Сервер* пользователи могут указать порт в следующем формате: *URL-адреса_сервера:порт*.
+В открывшемся окне **Amazon Redshift** введите или вставьте имя сервера и базы данных **Amazon Redshift** в соответствующие поля. В качестве части поля *Сервер* пользователи могут указать порт в следующем формате: *URL-адрес_сервера:порт*.
 
-![](media/desktop-connect-redshift/connect_redshift_4.png)
+![Снимок экрана: диалоговое окно Amazon Redshift, показывающее поля сервера и базы данных](media/desktop-connect-redshift/connect_redshift_4.png)
 
 При появлении запроса укажите имя пользователя и пароль. Во избежание ошибок следует использовать имя сервера, которое в точности соответствует SSL-сертификату. 
 
-![](media/desktop-connect-redshift/connect_redshift_5.png)
+![Снимок экрана: запрос учетных данных Amazon Redshift с полями "Имя пользователя" и "Пароль"](media/desktop-connect-redshift/connect_redshift_5.png)
 
 После успешного подключения откроется окно **Навигатор**, содержащее данные, доступные на сервере. Из них вы можете выбрать один или несколько элементов для импорта и использования в **Power BI Desktop**.
 
-![](media/desktop-connect-redshift/connect_redshift_6.png)
+![Снимок экрана: диалоговое окно "Навигатор", показывающее доступные данные на сервере](media/desktop-connect-redshift/connect_redshift_6.png)
 
 Выбрав необходимые элементы в окне **Навигатор**, вы можете либо **загрузить**, либо **изменить** данные.
 
@@ -45,7 +45,7 @@ ms.locfileid: "85224192"
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
 * [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

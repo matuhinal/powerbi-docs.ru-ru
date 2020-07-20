@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234492"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264930"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 
@@ -49,40 +49,40 @@ ms.locfileid: "85234492"
 3. Введите **show**, в списке предложений выберите **sales** (продажи) и коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Показать продажи](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. Выберите **by** (по) из ключевых слов, затем выберите **item** (элемент) в списке предложений и коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+4. Выберите **by** (по) из ключевых слов, затем выберите **item** (элемент) в списке предложений и коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Продажи по элементам](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Выберите **as** (как) из ключевых слов, коснитесь значка гистограммы ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png), а затем коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Выберите **as** (как) из ключевых слов, коснитесь значка гистограммы ![значок гистограммы](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png), а затем коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Нажмите и удерживайте полученную гистограмму, а затем нажмите кнопку **Expand** (Развернуть).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![Снимок экрана: гистограмма со стрелкой, указывающей на элемент "Развернуть"](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     Гистограмма откроется в приложении в режиме фокусировки.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![Снимок экрана: гистограмма с режимом фокусировки](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Нажмите кнопку со стрелкой в верхнем левом углу, чтобы вернуться в окно чата виртуального аналитика "Вопросы и ответы".
 8. Нажмите кнопку X справа от текстового поля, чтобы удалить текст и начать заново.
-9. Попробуйте отправить новый вопрос. Выберите **top** из ключевых слов, а затем выберите **sale by avg $/unit ly** (Сред. стоимость единицы (прошлый год), долл.)  >  **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Попробуйте отправить новый вопрос. Выберите **top** из ключевых слов, а затем выберите **sale by avg $/unit ly (Сред. стоимость единицы (прошлый год), долл.)**  > **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. Выберите **by** (по) из ключевых слов, затем выберите **time** (время) из списка предложений в верхней части и коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+    ![Снимок экрана: вопрос, показывающий наибольшую сумму продаж по средней стоимости единицы](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. Выберите **by** (по) из ключевых слов, затем выберите **time** (время) из списка предложений в верхней части и коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Введите **as** (как), выберите значок графика ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) из списка предложений и коснитесь значка **Send** (Отправить) ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+     ![Снимок экрана: диаграмма, показывающая наибольшую сумму продаж по средней стоимости единицы в зависимости от времени](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. Введите **as** (как), выберите значок графика ![значок графика](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) в списке предложений и значок **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![Снимок экрана: гистограмма и график со стрелкой от столбца к графику](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>Попробуйте задать вопрос с помощью голосового ввода
 Теперь вы можете задавать вопросы о данных в мобильном приложении Power BI не только с помощью текста, но и речи.
 
 1. Коснитесь значка виртуального аналитика "Вопросы и ответы" ![Значок виртуального аналитика "Вопросы и ответы"](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) в меню действий в нижней части страницы (на iPad — в верхней части страницы).
-2. Коснитесь значка микрофона ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
+2. Коснитесь значка микрофона ![значок микрофона](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![Снимок экрана: вопрос, показывающий, активен ли микрофон](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. Когда значок микрофона станет активным, начните говорить. Например, скажите "средняя цена за единицу по времени", а затем коснитесь значка **Отправить** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+1. Когда значок микрофона станет активным, начните говорить. Например, скажите "средняя цена за единицу по времени", а затем коснитесь значка **Отправить** ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![Снимок экрана: вопрос, показывающий, что речь закончена](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>Вопросы о конфиденциальности при использовании голосового ввода
 См. раздел с описанием [новых возможностей iOS](https://go.microsoft.com/fwlink/?linkid=845624), посвященный распознаванию речи, в руководстве для разработчиков Apple iOS.
@@ -91,7 +91,7 @@ ms.locfileid: "85234492"
 * Требуется помощь? Введите слово Hi (Привет) или Help (Справка), и вы получите помощь и сможете задать новый вопрос.
 * Хотите поделиться своим мнением о результатах? Щелкните и удерживайте диаграмму или другой результат, а затем коснитесь значка в виде улыбающегося или хмурого лица.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![Снимок экрана: гистограмма со стрелкой, указывающей на улыбающееся лицо](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     Ваши отзывы анонимны. Они помогают нам лучше отвечать на ваши вопросы.
 

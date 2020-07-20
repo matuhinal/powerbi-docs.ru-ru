@@ -9,45 +9,45 @@ ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 3559b330cef803b5bc9bf2c3d22313ba59acf4cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a1697bfce1db1ca92d50bfb83210d21b2820fdae
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235740"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263695"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Как обновить учетные данные для пакета содержимого Xero в случае сбоя обновления
 Если вы используете пакет содержимого Xero Power BI, то у вас могли возникнуть некоторые проблемы с ежедневным обновлением пакета содержимого из-за недавнего инцидента со службой Power BI.
 
 Чтобы увидеть, удалось ли выполнить обновление пакета содержимого, можно проверить состояние последнего обновления для набора данных Xero, как показано на снимке экрана ниже.
 
-![](media/service-refresh-xero-credentials/powerbi-xero-refresh-failed.png)
+![Снимок экрана: диалоговое окно Xero с состоянием обновления для набора данных Xero](media/service-refresh-xero-credentials/powerbi-xero-refresh-failed.png)
 
 Если вы видите, что обновление завершилось сбоем, как показано выше, то выполните следующие действия, чтобы обновить учетные данные пакета содержимого.
 
 1. Нажмите **Дополнительные параметры** (...) рядом с набором данных Xero, а затем выберите команду **Запланировать обновление**. Откроется страница параметров пакета содержимого Xero.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
+    ![Снимок экрана: диалоговое окно Xero с выбранным параметром "Запланировать обновление"](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. На странице **Settings for Xero** (Параметры Xero) выберите **Учетные данные источников данных** > **Изменить учетные данные**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
+    ![Снимок экрана: диалоговое окно параметров Xero, в котором выбран параметр "Изменить учетные данные"](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
 3. Введите название организации > **Далее**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
+    ![Снимок экрана: диалоговое окно настройки Xero, в котором отображается название организации](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
 4. Войдите, используя учетную запись Xero.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
+    ![Снимок экрана: диалоговое окно входа в Xero, в котором показано, как войти в учетную запись Xero](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
 5. Теперь, когда учетные данные обновлены, давайте убедимся, что запланированное обновление будет запускаться ежедневно. Для этого нажмите кнопку **Дополнительные параметры** (...) рядом с набором данных Xero, а затем снова выберите команду **Запланировать обновление**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
+    ![Снимок экрана: диалоговое окно расписания обновлений с указанием частоты обновления и часового пояса](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
 6. Также можно обновить набор данных немедленно. Нажмите **Дополнительные параметры** (...) рядом с набором данных Xero, а затем выберите команду **Обновить**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
+    ![Снимок экрана: диалоговое окно Xero с выбранным параметром "Обновить"](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
 Если у вас по-прежнему возникают проблемы с обновлением, свяжитесь с нами через сайт [https://support.powerbi.com](https://support.powerbi.com) 
 
 Чтобы ознакомиться с дополнительными сведениями о пакете содержимого Xero для Power BI, посетите страницу справки [Пакет содержимого Xero для Power BI](service-connect-to-xero.md).
 
 ### <a name="next-steps"></a>Дальнейшие действия
-* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

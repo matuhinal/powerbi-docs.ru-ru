@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3b0a330793abf4242d43c1546dd0362b75683f2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: da1ec0ec3a10adbd9771e13a97bcb17dcdf73273
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361136"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216888"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Поддерживаемые языки и страны (регионы) для Power BI
 
@@ -82,7 +82,7 @@ Power BI переводит меню, кнопки, сообщения и дру
 Следите за обновлениями, поскольку мы работаем над переводом еще не локализованных компонентов на другие языки. 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Выбор языка в службе Power BI
-1. В службе Power BI щелкните значок **Параметры**![значок "Параметры"](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Параметры**.
+1. В службе Power BI щелкните значок **Параметры** ![снимок экрана службы Power BI со значком "Параметры"](media/supported-languages-countries-regions/pbi_settings_icon.png). > **Параметры**.
 2. На вкладке **Общие** выберите **Язык**.
 3. Выберите язык и нажмите **Применить**.
 
@@ -92,25 +92,25 @@ Power BI определяет ваш язык на основе параметр
 #### <a name="internet-explorer-version-11"></a>Internet Explorer (версия 11)
 1. Нажмите кнопку **Сервис** в правом верхнем углу окна браузера:
    
-   ![Кнопка "Сервис" в Internet Explorer](media/supported-languages-countries-regions/languages1.png)
+   ![Снимок экрана: Internet Explorer с кнопкой "Сервис"](media/supported-languages-countries-regions/languages1.png)
 2. Щелкните **Свойства браузера**.
 3. В диалоговом окне "Свойства браузера" на вкладке "Общие" в разделе "Представление" нажмите кнопку **Языки**.
 
 #### <a name="google-chrome-version-42"></a>Google Chrome (версия 42)
 1. Нажмите кнопку в правом верхнем углу окна браузера:
    
-   ![Кнопка меню в Chrome](media/supported-languages-countries-regions/languages2.png)
+   ![Снимок экрана: Google Chrome с кнопкой меню](media/supported-languages-countries-regions/languages2.png)
 2. Щелкните **Настройки**.
 3. Щелкните **Показать дополнительные настройки**.
 4. В разделе "Языки" нажмите кнопку **Изменить языковые настройки**.
 5. Щелкните **Добавить**, выберите язык и нажмите кнопку **ОК**.
    
-   ![Список языков в Chrome](media/supported-languages-countries-regions/pbi_langs_enus.png)
+   ![Снимок экрана: Google Chrome со списком языков](media/supported-languages-countries-regions/pbi_langs_enus.png)
    
    Новый язык появится в конце списка. 
 6. Перетащите его в начало и нажмите кнопку **Отображать Google Chrome на этом языке**.
    
-   ![Отображать Google Chrome на этом языке](media/supported-languages-countries-regions/pbi_langs_eses.png)
+   ![Снимок экрана: Google Chrome с языком интерфейса](media/supported-languages-countries-regions/pbi_langs_eses.png)
    
    Чтобы увидеть изменение, может потребоваться закрыть и снова открыть браузер.
 
@@ -130,10 +130,10 @@ Power BI определяет ваш язык на основе параметр
 
 3. В меню **Параметры Windows** выберите **Время и язык**.
    
-     ![Диалоговое окно "Параметры Windows"](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+     ![Снимок экрана: Power BI Desktop с диалоговым окном "Параметры Windows"](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 4. Щелкните **Язык** и выберите язык. Выберите **Добавить язык интерфейса Windows в Microsoft Store** при необходимости.
    
-     ![Диалоговое окно языковых параметров Windows](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
+     ![Снимок экрана: Power BI Desktop с диалоговым окном параметров языка для Windows](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
      При следующем запуске Power BI Desktop будет использоваться язык, установленный как основной. 
 
@@ -152,7 +152,7 @@ Power BI Desktop получает форматирование чисел и д
 
 2. В меню **Параметры Windows** выберите **Время и язык**.
    
-     ![Диалоговое окно "Параметры Windows"](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+     ![Снимок экрана: Power BI Desktop с диалоговым окном "Параметры Windows"](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 
 3. Выберите **Регион** > **Дополнительные даты, время и региональные параметры**.
 
@@ -173,7 +173,7 @@ Power BI Desktop получает форматирование чисел и д
 2. Под заголовком **Текущий файл** выберите **Региональные параметры**.
 3. В поле **Языковой стандарт для импорта** выберите другой языковой стандарт. 
    
-   ![Диалоговое окно "Параметры" в Power BI Desktop](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
+   ![Снимок экрана: Power BI Desktop с диалоговым окном "Параметры"](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
 4. Выберите **ОК**.
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Выбор языка для модели в Power BI Desktop
@@ -194,7 +194,7 @@ Power BI Desktop получает форматирование чисел и д
 2. В разделе **Глобальные** выберите **Региональные настройки**.
 3. В поле **Язык модели** выберите другой язык. 
 
-    ![Выбор языка модели в Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+    ![Снимок экрана Power BI, показывающий, как задать язык модели](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
 > [!NOTE]
 > Язык созданной модели Power BI изменить нельзя.

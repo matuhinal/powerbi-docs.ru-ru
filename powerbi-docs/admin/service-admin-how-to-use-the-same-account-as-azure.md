@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4f1f8947827500ec89d189e17f8ab2189caaff93
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fe93fa3f41cf1c340b31ce3c6f817f842f3039ff
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138991"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161659"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Использование одних и тех же учетных данных для входа в Power BI и Azure
 
@@ -32,7 +32,7 @@ ms.locfileid: "83138991"
 
 1. В области навигации щелкните **Управление доступом (IAM)** , **Добавить** \> **Добавить соадминистратора**.
 
-    ![Добавление соадминистратора на портале Azure](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
+    ![Снимок экрана: окно управления доступом с выноской "Добавить соадминистратора"](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
 1. Введите адрес электронной почты, связанный с вашей учетной записью в организации, и выберите **Добавить**.
 

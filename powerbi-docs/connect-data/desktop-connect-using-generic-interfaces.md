@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6a0170d40413cd2833f7e31bb3bc7c5704a1f5cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 106b2e4f9b829190cff8269342c3239429b41f24
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224040"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214746"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Подключение к данным через универсальные интерфейсы Power BI Desktop 
 
 В **Power BI Desktop** можно подключаться к множеству различных источников данных, используя встроенные соединители, которые отображаются в окне **Получение данных**, — от **баз данных Access** до ресурсов **Zendesk**. Вы также можете подключаться к *другим* источникам данных различных типов с помощью универсальных интерфейсов (например, **ODBC** или **REST API**), встроенных в **Power BI Desktop**. Это дополнительно расширяет возможности подключения.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
+![Снимок экрана: диалоговое окно "Получить данные", показывающее выбор базы данных ODBC](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Интерфейсы данных в Power BI Desktop
 Средство **Power BI Desktop** включает постоянно расширяющуюся коллекцию соединителей данных, созданных для подключения к определенному источнику данных. Например, в соединителе данных **Список SharePoint** в процессе подключения отображаются специальные поля и вспомогательные сведения, предназначенные для **списков SharePoint**. Точно так же происходит и с другими источниками данных, перечисленных в окне, которое появляется при выборе элементов **Получить данные > Дополнительные сведения...** (см. рисунок выше).
@@ -29,7 +29,7 @@ ms.locfileid: "85224040"
 
 * **ODBC**;
 * **OLE DB**;
-* **OData**
+* **OData**;
 * **REST API**;
 * **R-скрипты**.
 
@@ -42,7 +42,7 @@ ms.locfileid: "85224040"
 ## <a name="data-sources-accessible-through-odbc"></a>Источники данных, доступные через ODBC
 Соединитель **ODBC** в **Power BI Desktop** позволяет импортировать данные из любого стороннего драйвера ODBC, просто указав **имя источника данных (DSN)** или *строку подключения*. В качестве альтернативного варианта можно также указать инструкцию SQL, которую следует применить к драйверу ODBC.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
+![Снимок экрана: диалоговое окно соединителя ODBC с параметрами DNS и расширенными параметрами](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
 
 В списке ниже приведено несколько примеров источников данных, к которым можно подключиться из **Power BI Desktop** с помощью универсального интерфейса **ODBC**.
 
@@ -62,7 +62,7 @@ ms.locfileid: "85224040"
 ## <a name="data-sources-accessible-through-ole-db"></a>Источники данных, доступные через OLE DB
 Соединитель **OLE DB** в **Power BI Desktop** позволяет импортировать данные из любого стороннего драйвера OLE DB, просто указав *строку подключения*. В качестве альтернативного варианта можно также указать инструкцию SQL, которую следует применить к драйверу OLE DB.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
+![Снимок экрана: диалоговое окно соединителя OLEDB с параметрами строки подключения и расширенными параметрами](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
 
 В списке ниже приведено несколько примеров источников данных, к которым можно подключиться из **Power BI Desktop** с помощью универсального интерфейса **OLE DB**.
 
@@ -74,7 +74,7 @@ ms.locfileid: "85224040"
 ## <a name="data-sources-accessible-through-odata"></a>Источники данных, доступные через OData
 Соединитель **OData** в **Power BI Desktop** позволяет импортировать данные с любых URL-адресов **OData**. Для этого достаточно ввести или вставить URL-адрес **OData**. Вы можете добавлять различные части URL-адреса, вводя или вставляя соответствующие ссылки в текстовые поля в окне **Канал OData**.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_4.png)
+![Снимок экрана: диалоговое окно "Канал OData" с частями URL-адреса и полем предварительного просмотра](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_4.png)
 
 В списке ниже приведено несколько примеров источников данных, к которым можно подключиться из **Power BI Desktop** с помощью универсального интерфейса **OData**.
 
@@ -85,7 +85,7 @@ ms.locfileid: "85224040"
 ## <a name="data-sources-accessible-through-rest-apis"></a>Источники данных, доступные через REST API
 Вы можете подключаться к источникам данных с помощью **интерфейсов REST API** и таким образом использовать данные из всех типов источников данных, поддерживающих **REST**.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_5.png)
+![Снимок экрана: диалоговое окно запроса, в котором показаны источники данных](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_5.png)
 
 В списке ниже приведено несколько примеров источников данных, к которым можно подключиться из **Power BI Desktop** с помощью универсального интерфейса **REST API**.
 
@@ -96,7 +96,7 @@ ms.locfileid: "85224040"
 ## <a name="data-sources-accessible-through-r-script"></a>Источники данных, доступные через R-скрипт
 Вы можете подключаться к источникам данных с помощью **R-скриптов** и использовать эти данные в **Power BI Desktop**.
 
-![](media/desktop-connect-using-generic-interfaces/r-scripts-2.png)
+![Снимок экрана: диалоговое окно скрипта R, в котором отображается скрипт выполнения](media/desktop-connect-using-generic-interfaces/r-scripts-2.png)
 
 В списке ниже приведено несколько примеров источников данных, к которым можно подключиться из **Power BI Desktop** с помощью универсального интерфейса **R-скриптов**.
 
@@ -110,7 +110,7 @@ ms.locfileid: "85224040"
 В **Power BI Desktop** можно подключаться к источникам данных самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
 * [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

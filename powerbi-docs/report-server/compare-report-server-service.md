@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565587"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216541"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -50,7 +50,8 @@ ms.locfileid: "83565587"
 | Безопасность на уровне строк (RLS) | Да | Да | Доступно в режимах DirectQuery (источник данных) и импорта <br><br>Безопасность на уровне строк в [службе Power BI](../admin/service-admin-rls.md) <br><br>Безопасность на уровне строк на [Сервере отчетов Power BI](row-level-security-report-server.md) |
 | Полноэкранный режим | Нет | Да | [Полноэкранный режим](../consumer/end-user-focus.md) в службе Power BI |
 | Расширенная совместная работа Microsoft 365 | Нет | Да | [Совместная работа в рабочей области](../collaborate-share/service-collaborate-power-bi-workspace.md) с Microsoft 365 |
-| Визуальные элементы R | Нет | Да | [Создание визуальных элементов R](../create-reports/desktop-r-visuals.md) в Power BI Desktop и публикация их в службе Power BI. Отчеты Power BI с визуальными элементами R не поддерживают сохранение на сервере отчетов Power BI.  |
+| Визуальные элементы и сценарии R | Нет | Да | [Создание визуальных элементов R](../create-reports/desktop-r-visuals.md) и запуск сценариев R в Power BI Desktop и публикация их в службе Power BI. Отчеты Power BI с визуальными элементами или сценариями R не поддерживают сохранение на Сервере отчетов Power BI.  |
+| Визуальные элементы и сценарии Python | Нет | Да | [Создание визуальных элементов](../connect-data/desktop-python-scripts.md) и сценариев Python в Power BI Desktop и публикация их в службе Power BI. Отчеты Power BI с визуальными элементами или сценариями Python не поддерживают сохранение на Сервере отчетов Power BI. |
 | Предварительная версия функций | Нет | Да | [Включение предварительных версий функций Power BI](../consumer/end-user-preview-features.md) |
 | Визуальные элементы Power BI | Да | Да | [Визуальные элементы Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | Составные модели | Нет | Да |

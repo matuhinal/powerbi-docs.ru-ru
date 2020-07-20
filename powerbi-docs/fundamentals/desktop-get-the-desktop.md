@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a043e230ba74432254248ee70db495bc75a3d28b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3038463a9e3447ee9b38ae3cb178f3486d21bc80
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232496"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215099"
 ---
 # <a name="get-power-bi-desktop"></a>Получение Power BI Desktop
 Power BI Desktop дает возможность создавать расширенные запросы, модели и отчеты, визуализирующие данные. С помощью Power BI Desktop можно создавать модели данных, отчеты и совместно использовать данные, публикуя их в службе Power BI. Power BI Desktop можно скачать бесплатно.
@@ -35,13 +35,13 @@ Power BI Desktop дает возможность создавать расшир
 
     - В [службе Power BI](https://docs.microsoft.com/power-bi/service-get-started) щелкните значок **Скачать** в правом верхнем углу и выберите **Power BI Desktop**.
 
-      ![Скачивание Power BI Desktop из службы Power BI](media/desktop-get-the-desktop/getpbid_downloads.png)
+      ![Снимок экрана: Microsoft Store с параметром скачивания Power BI Desktop](media/desktop-get-the-desktop/getpbid_downloads.png)
 
    - Перейдите на [страницу продукта Power BI Desktop](https://powerbi.microsoft.com/desktop/) и нажмите кнопку **Скачать бесплатно**.
   
 2. Когда вы окажетесь на странице **Power BI Desktop** в Microsoft Store, нажмите кнопку **Установить**.
 
-     ![Получение Power BI Desktop из Microsoft Store](media/desktop-get-the-desktop/getpbid_04.png)
+     ![Снимок экрана: Microsoft Store с параметром установки Power BI Desktop](media/desktop-get-the-desktop/getpbid_04.png)
 
 У приложения Power BI Desktop из Microsoft Store есть ряд преимуществ:
 
@@ -66,7 +66,7 @@ Power BI Desktop дает возможность создавать расшир
   
   Чтобы скачать исполняемый файл Power BI Desktop из Центра загрузки, на [странице Центра загрузки](https://www.microsoft.com/download/details.aspx?id=58494) нажмите кнопку **Скачать**. Затем выберите 32- или 64-разрядный файл установки для скачивания.
 
-  ![Указание файла установки Power BI Desktop](media/desktop-get-the-desktop/download-desktop-exe.png)
+  ![Снимок экрана: центр загрузки с флажком для скачивания 64-разрядной версии Power BI Desktop](media/desktop-get-the-desktop/download-desktop-exe.png)
 
 ### <a name="install-power-bi-desktop-after-downloading-it"></a>Установка Power BI Desktop после скачивания
 После скачивания файла установки появится запрос на его запуск.
@@ -75,7 +75,7 @@ Power BI Desktop дает возможность создавать расшир
 
 После запуска пакета установки Power BI Desktop устанавливается как приложение и запускается на компьютере.
 
-![Запуск программы установки Power BI Desktop](media/desktop-get-the-desktop/designer_gsg_install.png)
+![Снимок экрана: установка Power BI Desktop — мастер установки](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
 > Установка скачанной версии Power BI Desktop (пакет MSI, не рекомендуется) и версии из Microsoft Store на одном и том же компьютере (так называемая *параллельная* установка) не поддерживается. Вручную удалите приложение Power BI Desktop, прежде чем скачивать его из Microsoft Store.
@@ -84,7 +84,7 @@ Power BI Desktop дает возможность создавать расшир
 ## <a name="using-power-bi-desktop"></a>Использование Power BI Desktop
 При запуске Power BI Desktop отобразится экран приветствия.
 
-![Экран приветствия Power BI Desktop](media/desktop-get-the-desktop/getpbid_05.png)
+![Снимок экрана: установка Power BI Desktop — экран приветствия](media/desktop-get-the-desktop/getpbid_05.png)
 
 Если вы используете Power BI Desktop впервые (то есть выполняете установку, а не обновление), вам будет предложено заполнить форму либо войти в службу Power BI для продолжения работы.
 

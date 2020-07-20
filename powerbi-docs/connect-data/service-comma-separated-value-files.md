@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4827049ee8eff86b2ce71ee9befd3d01760c0840
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20c289648dc6e9b9784335c0d92f6725328dfffc
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230481"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216331"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Получение данных из файлов с разделителями-запятыми (CSV-файлов)
-![](media/service-comma-separated-value-files/csv_icon.png)
+![Значок CSV](media/service-comma-separated-value-files/csv_icon.png)
 
 Файлы с разделителями-запятыми, нередко известные как CSV-файлы, являются простыми текстовыми файлами, содержащими строки данных, в которых каждое значение отделяется запятой. Файлы этого типа могут содержать очень большие объемы данных при относительно небольшом размере файла, что делает их источником данных, идеально подходящим для Power BI. Вы можете скачать пример CSV-файла [отсюда](https://go.microsoft.com/fwlink/?LinkID=619356).
 
@@ -41,13 +41,13 @@ ms.locfileid: "85230481"
 
 1. В Power BI в области навигатора щелкните **Получение данных**.
    
-   ![](media/service-comma-separated-value-files/csv_get_data_button.png)
+   ![Снимок экрана: элемент "Получить данные" в Power BI Desktop с кнопкой на панели навигатора](media/service-comma-separated-value-files/csv_get_data_button.png)
 2. В разделе **Файлы** щелкните **Получить**.
    
-   ![](media/service-comma-separated-value-files/csv_files_get.png)
+   ![Снимок экрана: диалоговое окно "Файлы" с кнопкой "Получить"](media/service-comma-separated-value-files/csv_files_get.png)
 3. Найдите свой файл.
    
-   ![](media/service-comma-separated-value-files/csv_find_your_file.png)
+   ![Снимок экрана: четыре плитки для поиска файла с вариантами для выбора "Локальный файл", "OneDrive бизнес", "OneDrive — персональный" и "SharePoint"](media/service-comma-separated-value-files/csv_find_your_file.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 **Изучите данные**. После передачи данных из файла в Power BI пришло время для их изучения. Просто щелкните правой кнопкой мыши новый набор данных и выберите команду **Просмотреть**.

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/29/2020
-ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.date: 07/08/2020
+ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427570"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216669"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -162,7 +162,7 @@ ms.locfileid: "84427570"
 
 Да, отчеты с разбивкой на страницы поддерживаются для развертывания с приложениями из рабочих областей v1 и v2. 
 
-### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Будут ли работать для отчетов с разбивкой на страницы другие функции отчетов в Power BI, например закрепление плиток на панелях мониторинга?
+### <a name="will-other-report-specific-features-in-power-bi-like-pinning-report-tiles-to-dashboards-work-with-paginated-reports"></a>Будут ли работать для отчетов с разбивкой на страницы другие функции отчетов в Power BI, например закрепление плиток на панелях мониторинга?
 
 Мы планируем обеспечить для отчетов максимально возможную поддержку всех основных сценариев работы службы.  В идеале должно быть так, чтобы пользователь воспринимал эти отчеты так же, как и другие элементы в списке отчетов на портале, несмотря на использование другого средства для их создания. Пользователю не важно, как создан отчет, ему лишь нужно выполнить свою задачу.  Хорошим примером равенства функций можно считать запланированную поддержку комментариев. Эта функция будет работать немного по-разному для отчетов разных типов, но вы сможете использовать комментарии для обоих типов.
 

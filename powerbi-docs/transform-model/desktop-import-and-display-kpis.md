@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 41289fbfb76dc2453ccb871f93cf1cb4e18de7f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b12cc24c7ddddd0bc866a3bbeb23e0c7097711db
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237094"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215245"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Импорт и отображение ключевых показателей эффективности в Power BI
 С помощью **Power BI Desktop** можно импортировать и отображать ключевые показатели эффективности в таблицах, матрицах и на картах.
@@ -27,10 +27,10 @@ ms.locfileid: "85237094"
 
 1. Импортированный в Power BI ключевой показатель эффективности будет отображаться на панели **Поля**, отмеченный значком ![светофора](media/desktop-import-and-display-kpis/traffic.png). Чтобы использовать ключевой показатель эффективности в отчете, разверните его содержимое и поля **Значение**, **Цель** и **Состояние**.
 
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
-
+    ![Снимок экрана: Power BI Desktop с параметром "Дельта КПЭ"в области "Поля"](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
+ 
 1. Импортированные ключевые показатели эффективности лучше всего использовать в стандартных визуализациях, например **табличного** типа. Power BI также включает тип визуализации **ключевого показателя эффективности**, который должен использоваться только для создания новых показателей.
    
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
+    ![Снимок экрана: Power BI Desktop с полями "Таблица 1"в области "Поля"](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
 
 Вот, собственно, и все. Ключевые показатели эффективности можно использовать для демонстрации тенденций, хода выполнения или других важных индикаторов.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/02/2020
+ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee3919be08cfb2af2ad0e82e9f0f35b5d13147c6
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943162"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162397"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Руководство. Начало работы со службой Power BI
 В этом руководстве содержатся вводные сведения о некоторых функциях *службы Power BI*. Здесь вы выполните такие действия, как подключение к данным, создание отчета и панели мониторинга, а также зададите вопросы к данным. Служба Power BI позволяет выполнять гораздо больше задач. Это руководство предназначено только для того, чтобы привлечь ваш интерес. Чтобы получить представление о том, как служба Power BI связана с другими предложениями Power BI, рекомендуется ознакомиться со статьей [Что такое Power BI](power-bi-overview.md).
@@ -224,4 +224,7 @@ ms.locfileid: "85943162"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Сделать панель мониторинга еще лучше можно, если добавить еще больше плиток визуализаций, а также [переименовать и связать плитки или изменить их размер и положение](../create-reports/service-dashboard-edit-tile.md).
+Изучите следующие подборки материалов Microsoft Learn для Power BI.
+
+- [Изучение Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk)
+- [Как стать аналитиком данных Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228900"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161199"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Поиск пользователей Power BI, выполнивших вход
 
@@ -29,7 +29,7 @@ ms.locfileid: "85228900"
 
 * У клиента должна быть лицензия Azure Active Directory Premium.
 
-* У вас должна быть одна их следующих ролей: глобальный администратор, администратор безопасности или читатель сведений о безопасности.
+* У вас должна быть одна их следующих ролей: глобальный администратор, администратор системы безопасности или читатель сведений о безопасности.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Просмотр событий входа с помощью портала Azure
 
@@ -51,7 +51,7 @@ ms.locfileid: "85228900"
 
 Вы можете [скачать отчет о входах](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) в двух форматах: CSV или JSON.
 
-![Снимок экрана с кнопкой скачивания.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![Снимок экрана экспорта данных с выделенным параметром скачивания](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 В верхней части отчета **Входы** выберите **Скачать** и один из следующих вариантов.
 
@@ -67,4 +67,4 @@ ms.locfileid: "85228900"
 
 [Применение функции аудита в своей организации](service-admin-auditing.md)
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
