@@ -83,7 +83,7 @@ ms.locfileid: "86264617"
 
 1. Выберите только что созданный набор данных и нажмите кнопку **Далее**.
 
-    :::image type="content" source="media/paginated-reports-enter-data/paginated-choose-dataset.png" alt-text="Снимок экрана: диалоговое окно "Выбор набора данных"":::
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-choose-dataset.png" alt-text="Снимок экрана: диалоговое окно Выбор набора данных":::
 
 2.  На странице "Размещение полей" перетащите поля, по которым хотите выполнить группирование, из раздела **Доступные поля** в раздел **Группы строк**. В этом примере:
 
@@ -111,13 +111,13 @@ ms.locfileid: "86264617"
 
 1. Выберите **Запуск** на ленте **Главная**.
 
-    :::image type="content" source="media/paginated-reports-enter-data/paginated-run-report.png" alt-text="Снимок экрана: выбор команды "Запуск" на ленте "Главная"":::
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-run-report.png" alt-text="Снимок экрана: выбор команды Запуск на ленте Главная":::
 
     Здесь вы увидите все значения. Матрица содержит больше строк, чем отображалось в представлении конструирования.  Можно либо отформатировать страницу, либо использовать параметры по умолчанию перед сохранением на локальном компьютере или публикацией в службе.
 
 1. Чтобы увидеть, как отчет будет выглядеть при печати, выберите **Разметка страницы**.
 
-    :::image type="content" source="media/paginated-reports-enter-data/paginated-select-print.png" alt-text="Снимок экрана: выбор параметра "Разметка страницы"":::
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-select-print.png" alt-text="Снимок экрана: выбор параметра Разметка страницы":::
 
     Теперь он отображается в том виде, в котором будет распечатан на странице.
 
