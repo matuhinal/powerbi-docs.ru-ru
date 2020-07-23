@@ -62,7 +62,7 @@
           href: desktop-connect-to-data.md
         - name: Подключение к данным
           items:
-            - name: подключение к источникам данных.
+            - name: Подключение к источникам данных
               href: desktop-data-sources.md
             - name: "Создание отчета на базе списка\_SharePoint"
               href: desktop-sharepoint-online-list.md
@@ -94,7 +94,7 @@
                   href: desktop-python-visuals.md
                 - name: 'Узнайте, какие пакеты Python поддерживаются'
                   href: service-python-packages-support.md
-            - name: Выполнение скрипта R
+            - name: Запуск сценариев R
               href: desktop-r-scripts.md
             - name: Использование языка R в редакторе запросов
               href: desktop-r-in-query-editor.md
@@ -156,8 +156,6 @@
           items:
             - name: Получение данных из файлов
               href: service-get-data-from-files.md
-            - name: От книги Excel до потрясающего отчета
-              href: service-from-excel-to-stunning-report.md
             - name: Получение данных из файлов книг Excel
               href: service-excel-workbook-files.md
             - name: Получение данных из файлов Power BI Desktop
@@ -206,7 +204,7 @@
               href: sql-server-analysis-services-tabular-data.md
         - name: Обновить данные
           items:
-            - name: Обновление данных в Power BI
+            - name: "Обновление данных в Power\_BI"
               href: refresh-data.md
             - name: Настройка запланированного обновления
               href: refresh-scheduled-refresh.md
@@ -340,7 +338,7 @@
               href: desktop-error-launching-desktop.md
             - name: "Устранение неполадок с разработкой моделей\_DirectQuery"
               href: desktop-directquery-troubleshoot.md
-    - name: Справка
+    - name: Справочник
       items:
         - name: Типы данных в Power BI Desktop
           href: desktop-data-types.md
