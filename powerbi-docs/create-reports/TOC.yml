@@ -11,6 +11,10 @@
     - name: Учебники
       expanded: true
       items:
+        - name: "Power BI Desktop: создание отчета из книги\_Excel"
+          href: desktop-excel-stunning-report.md
+        - name: "Служба Power\_BI: создание отчета из книги\_Excel"
+          href: service-from-excel-to-stunning-report.md
         - name: 'Онлайн-курс: Отчеты с разбивкой на страницы'
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: Создание и отправка отчета с разбивкой на страницы
