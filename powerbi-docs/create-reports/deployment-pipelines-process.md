@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034297"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557217"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Общие сведения о процессе развертывания (предварительная версия)
 
@@ -152,11 +152,11 @@ ms.locfileid: "86034297"
 
 Создайте приложение для каждого этапа конвейера развертывания, чтобы можно было протестировать каждое обновление приложения с точки зрения пользователя. Конвейер развертывания позволяет легко управлять этим процессом. Используйте кнопку "Опубликовать" или "Просмотреть" на карте рабочей области, чтобы опубликовать или просмотреть приложение на определенном этапе конвейера.
 
-[![Публикация приложения](media/deployment-pipelines-process/publish.png "Публикация приложения")](media/deployment-pipelines-process/publish.png#lightbox)
+[![Снимок экрана с выделенной кнопкой "Опубликовать приложение" в нижнем правом углу этапа развертывания для производства.](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 На рабочем этапе главная кнопка действия в нижнем левом углу открывает страницу обновления приложения в Power BI, чтобы обновления содержимого стали доступны пользователям приложений.
 
-[![Обновление приложения](media/deployment-pipelines-process/update-app.png "Обновить приложение")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![Снимок экрана с выделенной кнопкой "Обновить приложение" в нижнем правом углу этапа развертывания для производства.](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >Процесс развертывания не включает в себя обновление содержимого или параметров приложения. Чтобы применить изменения к содержимому или параметрам, необходимо вручную обновить приложение на требуемом этапе конвейера.

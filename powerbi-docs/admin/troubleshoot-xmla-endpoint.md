@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 06/16/2020
+ms.date: 07/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: be55180f57fec683b8da426e6c73bb95d6365d2f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485537"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459676"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -88,7 +89,7 @@ We cannot connect to the dataset due to incomplete account information. For serv
 
 Рекомендуется для табличных моделей указать уровень совместимости 1500 (или выше). Этот уровень совместимости поддерживает большинство возможностей и типов источников данных. Более поздние уровни совместимости имеют обратную совместимость с предыдущими уровнями.
 
-### <a name="unsupported-data-providers"></a>Неподдерживаемые типы данных
+### <a name="supported-data-providers"></a>Поддерживаемые поставщики данных
 
 При уровне совместимости 1500 Power BI поддерживает следующие типы данных:
 

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354738"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557263"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>Начало работы с конвейерами развертывания (предварительная версия)
 
@@ -31,7 +31,7 @@ ms.locfileid: "85354738"
 >[!NOTE]
 > Вы также увидите кнопку конвейеров развертывания, если ранее вы создали конвейер или вам предоставили доступ к конвейеру.
 
-![целевая страница конвейеров развертывания](media/deployment-pipelines-get-started/creating-pipeline.png)
+![Снимок экрана целевой страницы конвейеров развертывания.](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>Шаг 1. Создание конвейера развертывания
 
@@ -84,7 +84,7 @@ ms.locfileid: "85354738"
 
 Выберите этап для развертывания и нажмите кнопку развертывания. В процессе развертывания создается дубликат рабочей области на целевом этапе. Эта рабочая область содержит все содержимое, существующее на текущем этапе.
 
-[![Развертывание](media/deployment-pipelines-get-started/deploy.png "Развертывание всего содержимого")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![Снимок экрана с кнопкой развертывания для этапов развертывания для разработки или тестового развертывания в конвейере развертывания.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Выборочное развертывание
 
@@ -92,7 +92,7 @@ ms.locfileid: "85354738"
 
 Так как панели мониторинга, отчеты и наборы данных связаны и имеют зависимости, можно нажать кнопку "Выбрать связанные", чтобы выбрать все зависимые элементы. Например, если вы хотите развернуть отчет на следующем этапе, при нажатии кнопки "Выбрать связанные" будет отмечен набор данных, к которому подключен отчет, так что оба они будут развернуты одновременно и отчет не будет прерываться.
 
-[![Выборочное развертывание](media/deployment-pipelines-get-started/selective-deploy.png "Выборочное развертывание")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![Снимок экрана с вариантом выборочного развертывания в конвейерах развертывания, доступный после выбора параметра "Показать больше".](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * Вы не можете развернуть отчет или панель мониторинга на следующем этапе, если элементы, от которых он зависит, не существуют на этапе, в который выполняется развертывание.
@@ -104,7 +104,7 @@ ms.locfileid: "85354738"
 
 Развертывание на предыдущем этапе работает только в том случае, если на предыдущем этапе нет содержимого. При развертывании на предыдущем этапе нельзя выбрать лишь некоторые элементы. Развернуто будет все содержимое на этом этапе.
 
-[![Обратное развертывание](media/deployment-pipelines-get-started/deploy-back.png "Обратное развертывание")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![Снимок экрана с кнопкой развертывания на предыдущем этапе, которая доступна в меню этапов тестового или рабочего развертывания.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>Шаг 4. Создание правил набора данных
 
@@ -121,15 +121,15 @@ ms.locfileid: "85354738"
 
 1. На этапе конвейера, для которого необходимо создать правило набора данных, щелкните **Параметры развертывания**.
 
-    ![параметры развертывания](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![Снимок экрана с кнопкой параметров развертывания, которая расположена в правом верхнем углу каждой страницы конвейера развертывания.](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. В области "Параметры развертывания" выберите набор данных, для которого нужно создать правило.
 
-    [![Правила для набора данных](media/deployment-pipelines-get-started/dataset-rules.png "Выбор набора данных")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![Снимок экрана с выбором набора данных для создания правила наборов данных.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. Выберите тип правила, которое необходимо создать, разверните список и щелкните **Создать правило**.
 
-     [![Добавление правила](media/deployment-pipelines-get-started/add-rule.png "Добавление правила")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![Снимок экрана с выбором правила источников данных и щелчком на варианте "Добавить правило".](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>Типы правил наборов данных
 
@@ -152,6 +152,8 @@ ms.locfileid: "85354738"
 * При удалении элемента его правила также удаляются. Восстановить эти правила невозможно.
 
 * Если источник данных или параметры, определенные в правиле, изменяются или удаляются из исходного набора данных, правило будет недействительным, а развертывание завершится ошибкой.
+
+* Правила параметров нельзя определить для параметров типа *Любой* или *Двоичный*. Дополнительные сведения см. в статье об [ограничениях параметров обновления наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters).
 
 * Правила источников данных могут быть определены только для следующих источников данных:
     * Azure Analysis Services
@@ -180,7 +182,7 @@ ms.locfileid: "85354738"
 
 При наличии у содержимого на двух последовательных этапах содержимое сравнивается на основе метаданных элементов содержимого. В этом сравнении не учитываются данные или время обновления между этапами.
 
- [![Процесс развертывания](media/deployment-pipelines-get-started/deployment-flow.png "Сравнение этапов")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![Снимок экрана с конвейером развертывания с индикаторами сравнения.](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 Чтобы дать наглядное представление о различиях между двумя последовательными этапами, между ними отображается значок индикатора сравнения. Индикатор сравнения имеет два состояния:
 
@@ -201,13 +203,13 @@ ms.locfileid: "85354738"
     >[!NOTE]
     >Развертывание не повлияет на элементы с меткой *Отсутствует в*.
 
- [![Сравнение](media/deployment-pipelines-get-started/compare.png "Представление сравнения")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![Снимок экрана с вариантом сравнения, который разворачивает представление сравнения и позволяет сравнивать элементы из разных этапов конвейера развертывания.](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>Переопределение содержимого
 
 При развертывании после внесения изменений в содержимое на исходном этапе, содержимое, измененное на целевом этапе, будет перезаписано. После нажатия кнопки *Развернуть* вы получите предупреждение с перечнем элементов, которые будут перезаписаны.
 
-![предупреждение о замене содержимого](media/deployment-pipelines-get-started/replaced-content.png)
+![Снимок экрана с предупреждением о замещенном содержимом, отображающимся, если развертывание приведет к изменению элементов на этапе, в который вы выполняете развертывание.](media/deployment-pipelines-get-started/replaced-content.png)
 
 Узнать больше о том, [какие элементы копируются на следующий этап](deployment-pipelines-process.md#deployed-items), а [какие элементы не копируются](deployment-pipelines-process.md#unsupported-items), можно в разделе [Ознакомление с процессом развертывания](deployment-pipelines-process.md).
 

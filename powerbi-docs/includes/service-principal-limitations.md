@@ -7,12 +7,12 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 06/06/2020
 ms.custom: include file
-ms.openlocfilehash: 8e50a529bfd398a4075ebf049ee4aec1bcf48b4d
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 569d7dfe251183962a14de1c42d85ee2e58950af
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315849"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86401679"
 ---
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
@@ -25,3 +25,4 @@ ms.locfileid: "84315849"
 * Управление [потоками данных](../transform-model/service-dataflows-overview.md) не поддерживается.
 * Сейчас субъект-служба не поддерживает никакие API администратора.
 * При использовании субъекта-службы с источником данных [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) сам субъект-служба должен иметь разрешения экземпляра Azure Analysis Services. Использовать для этой цели группу безопасности, содержащую субъект-службу, нельзя.
+* Субъект-служба в настоящее время не может получить доступ к источникам данных в шлюзе. То есть вы не можете добавить субъект-службу в качестве пользователя источника данных в шлюзе.

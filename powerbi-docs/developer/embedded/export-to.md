@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034504"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557111"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Экспорт отчета Power BI в файл (предварительная версия)
 
@@ -117,9 +117,10 @@ API является асинхронным. При вызове API [exportToFi
 
 При создании задания экспорта необходимо выполнить три шага:
 
-1. отправка запроса на экспорт;
-2. опрос;
-3. получение файлов.
+1. [Отправка запроса на экспорт.](#step-1---sending-an-export-request)
+2. [Опрос](#step-2---polling).
+3. [Получение файлов](#step-3---getting-the-file).
+4. [Использование файлового потока.](#step-4---using-the-file-stream)
 
 В этом разделе приводятся примеры для каждого шага.
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>Шаг 4. Использование файлового потока
+
+При наличии файлового потока его можно обработать оптимальным для вас способом. Например, вы можете отправить его по электронной почте или воспользоваться им для скачивания экспортированных отчетов.
 
 ### <a name="end-to-end-example"></a>Комплексный пример
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218546"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409520"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Использование среза и фильтра относительного времени в Power BI
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218546"
 
 В связи с новыми сценариями быстрого обновления возможность фильтрации по меньшему периоду времени может быть очень полезной. Срез относительного времени или фильтр относительного времени позволяют применять фильтры с учетом времени для любого столбца даты в модели данных. Например, можно использовать срез относительного времени для отображения только представлений видео в течение последней минуты или часа. 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Пример относительного времени":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Снимок экрана с примером относительного времени.":::
 
 Использовать эту функцию в сочетании с [функцией автоматического обновления страниц](../create-reports/desktop-automatic-page-refresh.md) не требуется. Однако многие относительные временные сценарии полезно использовать вместе с функцией автоматического обновления страниц.  
 
 > [!NOTE]
 > При применении среза или фильтра относительного времени на странице или на уровне отчета все визуальные элементы на этой странице или отчете фильтруются по одному и тому же диапазону времени с использованием общей временной *привязки*. Так как визуальные элементы могут немного отличаться по времени выполнения, эта общая временная привязка обеспечивает синхронизацию визуальных элементов на странице или в отчете. Дополнительные сведения о [временной привязке](#understanding-anchor-time) см. в этой статье.
-
-## <a name="turn-on-relative-time-preview"></a>Включить предварительный просмотр относительного времени
-
-Фильтр относительного времени находится на этапе предварительной версии, поэтому необходимо включить переключатель функции. Последовательно выберите пункты **Файл**  >  **Параметры и настройки**  >  **Параметры**. В разделе **Глобальные параметры** > **Предварительные версии функций** установите флажок **Относительный фильтр времени**.
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="Установка параметра предварительной версии относительного времени":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>Создание среза или фильтра относительного времени
 
@@ -45,7 +39,7 @@ ms.locfileid: "85218546"
 
 2. Выберите тип визуализации **Срез**.
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Создайте временной срез":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Снимок экрана с процессом создания временного среза.":::
 
 ### <a name="create-a-filter"></a>Создание фильтра
  
@@ -55,27 +49,27 @@ ms.locfileid: "85218546"
 
 Затем измените тип фильтра на **Относительное время**.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Изменить на относительное время":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Снимок экрана с изменением на относительное время.":::
  
 Вот как он выглядит в срезе:
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Срез относительного времени":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Снимок экрана с относительным временем в срезе.":::
 
 Вот как он выглядит в фильтре: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Фильтр относительного времени":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Снимок экрана с относительным временем в фильтре.":::
  
-С помощью этого нового типа фильтра можно отфильтровать на основе **последнего**, **следующего** или **этого периода времени**. 
+С помощью этого нового типа фильтра можно отфильтровать на основе **последнего**, **следующего** или **этого периода времени**: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Выберите последний, следующий или этот период времени":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Снимок экрана с выбором последнего, следующего или этого периода времени.":::
  
 Окно времени указывается с помощью целого числа и единицы измерения времени: **минуты** или **часы**.
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Выберите минуты или часы":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Снимок экрана с выбором минут или часов.":::
 
 Если необходимо сэкономить место на холсте, можно также создать относительный фильтр времени в качестве карточки фильтра на панели "Фильтры".
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Задайте вместо этого фильтр относительного времени":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Снимок экрана с настройкой относительного времени в фильтре.":::
  
 ## <a name="understanding-anchor-time"></a>Общие сведения о временной привязке
 
@@ -101,7 +95,7 @@ ms.locfileid: "85218546"
     - Он не поддерживается через Embed API.
     - Он не поддерживается для публикации в Интернете.
 
-- **Кэширование запросов**. Мы используем кэш клиента. Поэтому предположим, что вы указали "последнюю 1 минуту", затем "последние 5 минут", а затем вернулись к "последней 1 минуте". На этом этапе вы увидите те же результаты, что и при первом запуске, если не обновить страницу или страница не будет автоматически обновлена.
+- **Кэширование запросов**. Мы используем кэш клиента. Предположим, что вы указали "последнюю 1 минуту", затем "последние 5 минут", а затем вернулись к "последней 1 минуте". На этом этапе вы увидите те же результаты, что и при первом запуске, если не обновить страницу или страница не будет автоматически обновлена.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

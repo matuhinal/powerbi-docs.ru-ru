@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: aa8277a8d0ddea43aff356ced32c9edad8710c93
+ms.sourcegitcommit: a4e06e401abc67dffab52f34e268467def42a97e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485905"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "86875056"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Подписка на отчеты или панели мониторинга в службе Power BI 
 
@@ -25,7 +25,7 @@ ms.locfileid: "85485905"
 
 Теперь получать актуальные версии важных панелей мониторинга и отчетов стало проще, чем когда-либо. Подпишитесь на страницы наиболее важных отчетов и панели мониторинга, и Power BI будет отправлять вам моментальные снимки по электронной почте. Вы можете указать, с какой частотой это нужно делать: ежедневно, еженедельно или при обновлении данных. Можно даже задать конкретное время отправки сообщений электронной почты службой Power BI или отправить их немедленно.  В целом можно настроить до 24 разных подписок для каждого отчета или панели мониторинга.
 
-Для электронной почты и моментальных снимков будет использоваться язык, заданный в параметрах Power BI (см. статью [Поддерживаемые языки и страны (регионы) для Power BI](../fundamentals/supported-languages-countries-regions.md)). Если язык не задан, в Power BI используется язык, установленный в текущем браузере. Чтобы просмотреть или настроить предпочитаемый язык, выберите значок шестеренки ![значок шестеренки](./media/end-user-subscribe/power-bi-settings-icon.png) > **Параметры > Общие > Язык**. 
+Для электронной почты и моментальных снимков будет использоваться язык, заданный в параметрах Power BI (см. статью [Поддерживаемые языки и страны (регионы) для Power BI](../fundamentals/supported-languages-countries-regions.md)). Если язык не определен, Power BI использует английский язык. Чтобы просмотреть или настроить предпочитаемый язык, выберите значок шестеренки ![значок шестеренки](./media/end-user-subscribe/power-bi-settings-icon.png) > **Параметры > Общие > Язык**. 
 
 ![Раскрывающийся список выбора языка](./media/end-user-subscribe/power-bi-language.png)
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238980"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437222"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Публикация визуализаций Power BI в Центре партнеров
 
@@ -23,7 +23,7 @@ ms.locfileid: "85238980"
 
 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) — это место, где можно найти приложения SaaS, а также надстройки для продуктов и служб Майкрософт.
 
-![Магазин Office](media/office-store/appsource-01.png)
+![Снимок экрана с визуальными элементами Power BI в AppSource.](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Подготовка к отправке визуализации Power BI
 
@@ -61,7 +61,7 @@ ms.locfileid: "85238980"
 
 ## <a name="submitting-to-appsource"></a>Отправка в AppSource
 
-Чтобы отправить визуализацию Power BI в AppSource, необходимо получить пакет приложения от команды Power BI, а затем отправить его в Центр партнеров. 
+Чтобы отправить визуализацию Power BI в AppSource, необходимо получить пакет приложения от команды Power BI, а затем отправить его в Центр партнеров.
 
 ### <a name="getting-the-app-package"></a>Получение пакета приложения
 
@@ -73,6 +73,11 @@ ms.locfileid: "85238980"
 
 Чтобы отправить визуализацию Power BI в Центр партнеров, требуется регистрация. Если вы еще не зарегистрировались, [откройте учетную запись разработчика в Центре партнеров](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
+>[!NOTE]
+>**Отдельные издатели** могут использовать один из таких методов для отправки визуального элемента Power BI:
+>* Если у вас старая учетная запись с панелью мониторинга продавца, вы можете продолжить использовать ее учетные данные для входа в Центр партнеров.
+>* Если у вас нет старой учетной записи с панелью мониторинга продавца и вы не зарегистрированы в Центре партнеров, вам необходимо [создать учетную запись разработчика в Центре партнеров](https://docs.microsoft.com/office/dev/store/open-a-developer-account) с помощью рабочего адреса электронной почты.
+
 Чтобы отправить визуализацию Power BI в Центр партнеров, сделайте следующее. Дополнительные сведения о процессе отправки см. в статье [Отправка решений Office в AppSource через Центр партнеров](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
 
 1. Войдите в **Центр партнеров**.
@@ -83,7 +88,7 @@ ms.locfileid: "85238980"
 
 4. Выберите **Создать** и в раскрывающемся меню щелкните **Визуализация Power BI**.
 
-    ![Магазин Office](media/office-store/power-bi-visual.png)
+    ![Снимок экрана с процессом создания визуального элемента Power BI на вкладке "Магазин Office" в Центре партнеров.](media/office-store/power-bi-visual.png)
 
 5. В окне **Создание визуализации Power BI** введите имя визуализации Power BI и щелкните **Создать**.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224143"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459630"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>Подключение к PDF-файлам в Power BI Desktop
 С помощью Power BI Desktop вы можете подключиться к **PDF-файлу** и использовать данные из него аналогично любому другому источнику данных в Power BI Desktop.
@@ -40,12 +40,16 @@ ms.locfileid: "85224143"
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
+## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
+
+Если вы попытаетесь задействовать соединитель PDF для наборов данных в емкости Premium, соединитель PDF не будет устанавливать соединение надлежащим образом. Чтобы разрешить соединителю PDF работать с набором данных в емкости Premium, настройте такой набор данных для использования шлюза и убедитесь, что соединение к такому набору данных проходит через шлюз.  
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 В Power BI Desktop можно подключаться к данным самых разных видов. Дополнительные сведения об источниках данных см. в перечисленных ниже статьях.
 
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Источники данных в Power BI Desktop](desktop-data-sources.md)
-* [Формирование и объединение данных с Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Источники данных в Power BI Desktop](desktop-data-sources.md)
+* [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
 * [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

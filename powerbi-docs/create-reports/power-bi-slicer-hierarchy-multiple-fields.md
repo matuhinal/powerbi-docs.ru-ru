@@ -6,14 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/11/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b9c4a8f4695f8d701eba535180194d29dd8bdec
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5fbaeaafb14fc935e26b4a2d13acf9dc09ea188f
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238192"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409585"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>Добавление нескольких полей в иерархический срез
 
@@ -21,22 +22,41 @@ ms.locfileid: "85238192"
 
 Если вы хотите отфильтровать несколько связанных полей в одном срезе, создайте так называемый *иерархический* срез. Эти срезы можно создать либо в Power BI Desktop, либо в службе Power BI.
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Иерархический срез в Power BI":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Снимок экрана с иерархическим срезом в Power BI.":::
 
 При добавлении нескольких полей в срез рядом с элементами, которые можно развернуть для отображения элементов на следующем уровне, по умолчанию отображается стрелка или *шеврон*.
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-arrow.png" alt-text="Раскрывающееся меню иерархического среза в Power BI":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-arrow.png" alt-text="Снимок экрана с раскрывающимся меню иерархического среза в Power BI.":::
  
  
 При выборе одного или нескольких дочерних элементов для элемента верхнего уровня появится круг, обозначающий частичный выбор.
  
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-semi-selected.png" alt-text="Иерархический срез с одиночным выбором в Power BI":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-semi-selected.png" alt-text="Снимок экрана с иерархическим срезом с одиночным выбором в Power BI.":::
 
 ## <a name="format-the-slicer"></a>Форматирование среза
 
 Поведение среза не изменилось. Вы также можете использовать для среза стиль на свое усмотрение. Например, использовать режим одиночного выбора либо простой или раскрывающийся список. 
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-dropdown.png" alt-text="Иерархический срез в формате раскрывающегося среза":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-dropdown.png" alt-text="Снимок экрана с иерархическим срезом в формате раскрывающегося среза.":::
+
+Вы также можете вносить следующие изменения в формат.
+
+### <a name="change-the-title"></a>изменить заголовок;
+
+Вы можете изменить заголовок для любого среза, что особенно удобно для иерархических срезов. По умолчанию имя иерархического среза представляет собой список имен полей в иерархии.
+
+В этом примере в заголовке среза указано три поля в иерархии: "Тип", "Платформа" и "Имя".
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-title.png" alt-text="Снимок экрана с иерархическим срезом с полями "Тип", "Платформа" и "Имя".":::
+
+Чтобы изменить имя, выберите срез, а затем выберите область **Формат**. В разделе **Заголовок среза** вы увидите текущее имя среза в поле **Текст заголовка**.
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-edit-title.png" alt-text="Снимок экрана с областью "Формат" с текущим заголовком.":::
+
+Выберите текст и добавьте новое имя.
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-new-title.png" alt-text="Снимок экрана с новым заголовком для иерархического среза.":::
+
 
 ### <a name="change-the-expandcollapse-icon"></a>Изменение значка "Развернуть/свернуть"
 
@@ -46,7 +66,7 @@ ms.locfileid: "85238192"
 1. Разверните пункт **Элементы** и выберите **значок "Развернуть/свернуть"** .
 1. Выберите **Шеврон**, **Плюс/минус** или **Курсор**.
  
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="Выбор значка Развернуть/свернуть для иерархического среза":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="Снимок экрана с выбором значка "Развернуть/свернуть" для иерархического среза.":::
  
 ### <a name="change-the-indentation"></a>Изменение отступа
 
@@ -55,7 +75,7 @@ ms.locfileid: "85238192"
 1. Выберите срез, а затем — **Формат**.
 1. Разверните пункт **Элементы**, а затем увеличьте или уменьшите значение параметра **Макет с пошаговым отступом**. Кроме того, вы можете просто ввести цифру в поле.
 
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="Задание отступа для иерархического среза":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="Снимок экрана с заданием отступа для иерархического среза.":::
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

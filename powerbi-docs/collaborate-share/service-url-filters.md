@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dc71bff7cd27ec369899a02cc9da0f916a043af1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225233"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437279"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
 Когда вы открываете отчет в службе Power BI, можно заметить, что каждая страница отчета имеет собственный уникальный URL-адрес. Для фильтрации этой страницы отчета можно использовать область "Фильтры" на холсте отчета.  Также для предварительной фильтрации отчета можно добавить параметры строки запроса в URL-адрес. Возможно, у вас есть отчет, который вы хотите показать коллегам и который для этого необходимо предварительно отфильтровать. Это можно сделать, добавив параметры фильтрации к заданному по умолчанию URL-адресу отчета и затем отправив новый URL-адрес коллегам по электронной почте.
 
-![Отчет Power BI в службе](media/service-url-filters/power-bi-report2.png)
+В статье используется пример отчета "Анализ розничной торговли". Если вы хотите продолжить, [скачайте пример отчета](../create-reports/sample-retail-analysis.md#get-the-sample).
+
+![Снимок экрана с отчетом Power BI в службе.](media/service-url-filters/power-bi-retail-analysis-sample.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Использование параметров строки запроса
 
@@ -35,18 +37,10 @@ ms.locfileid: "85225233"
 
 *URL*?filter=*Таблица*/*Поле* eq '*значение*'
 
-![URL-адрес с фильтром](media/service-url-filters/power-bi-filter-urls7b.png)
+![Снимок экрана с URL-адресом с фильтром.](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * Имена переменных **Таблица** и **Поле** чувствительны к регистру, а **значение** — нет.
 * Поля отчета, которые являются скрытыми для просмотра, также можно отфильтровать.
-
-### <a name="reports-in-apps"></a>Отчеты в приложениях
-
-Если вы хотите добавить фильтр URL-адреса в отчет в приложении, форматирование будет немного отличаться. Ссылки на отчеты в приложении имеют параметр запроса (ctid), который добавляется к URL-адресу. Разделяйте параметры запроса амперсандом (&). Сохраните "?filter=" и переместите параметр ctid в конец URL-адреса, поставив перед ним амперсанд (&). 
-
-как в следующем примере:
-
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>Типы полей
 
@@ -62,27 +56,19 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 Предположим, URL-адрес нашего отчета выглядит так:
 
-![начало URL-адреса](media/service-url-filters/power-bi-filter-urls6.png)
+![Снимок экрана начального URL-адреса.](media/service-url-filters/power-bi-filter-urls6.png)
 
-Как видно на визуализации карты (см. выше) у нас есть магазины в Северной Каролине.
+Как видно на визуализации карты (см. выше) у нас есть магазины в Северной Каролине. *NC* — это значение для штата Северная Каролина в поле **Territory** (Территория) в таблице **Store** (Магазин). Чтобы отфильтровать отчет для отображения данных, связанных только с магазинами в Северной Каролине, добавьте следующую строку в URL-адрес:
 
->[!NOTE]
->В этом руководстве используется [образец "Анализ розничной торговли"](../create-reports/sample-datasets.md).
-> 
-
-Чтобы отфильтровать отчет для отображения данных, связанных только с магазинами в Северной Каролине (значение NC), добавьте в URL-адрес следующий текст:
-
+```
 ?filter=Store/Territory eq 'NC'
+```
 
-![URL-адрес с фильтром](media/service-url-filters/power-bi-filter-urls7.png)
+![Снимок экрана с URL-адресом с фильтром.](media/service-url-filters/power-bi-filter-urls7.png)
 
->[!NOTE]
->*NC* — это значение, которое хранится в поле **Territory** в таблице **Store**.
-> 
+Отчет теперь отфильтрован по Северной Каролине, следовательно, все визуализации в отчете показывают данные только по Северной Каролине.
 
-Отчет отфильтрован по Северной Каролине, следовательно, все визуализации на странице отчета показывают данные только по Северной Каролине.
-
-![Отчет, отфильтрованный по Северной Каролине](media/service-url-filters/power-bi-report4.png)
+![Снимок экрана с отчетом, отфильтрованным по Северной Каролине.](media/service-url-filters/power-bi-url-filter-nc.png)
 
 ## <a name="filter-on-more-than-one-value-in-a-field"></a>Фильтрация по нескольким значениям в поле
 
@@ -92,7 +78,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 Используя тот же пример, добавьте в URL-адрес следующий текст, чтобы отфильтровать отчет для отображения данных, связанных только с магазинами в Северной Каролине (значение NC) или Теннесси (TN).
 
+```
 ?filter=Store/Territory in ('NC', 'TN')
+```
 
 Список других полезных операторов см. в таблице [Операторы](#operators) далее в этой статье.
 
@@ -116,14 +104,14 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 |Оператор  | Определение | строка  | число | Дата |  Пример|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | и |  да      | да |  да|  product/price le 200 and price gt 3.5 |
-|**eq**     | равно |  да      | да   |  да       | Address/City eq 'Redmond' |
-|**ne**     | не равно |   да      | да  | да        |  Address/City ne 'London' |
+|**and**     | и |  да      | Да |  Да|  product/price le 200 and price gt 3.5 |
+|**eq**     | равно |  да      | Да   |  да       | Address/City eq 'Redmond' |
+|**ne**     | не равно |   да      | Да  | да        |  Address/City ne 'London' |
 |**ge**     |  больше или равно       | нет | да |да |  product/price ge 10
-|**gt**     | больше чем        |нет | да | да  | product/price gt 20
-|**le**     |   меньше или равно      | нет | да | да  | product/price le 100
-|**lt**     |  меньше чем       | нет | да | да |  product/price lt 20
-|**in\*\***     |  включая       | да | да |  да | Student/Age in (27, 29)
+|**gt**     | больше чем        |нет | да | Да  | product/price gt 20
+|**le**     |   меньше или равно      | нет | да | Да  | product/price le 100
+|**lt**     |  меньше чем       | нет | да | Да |  product/price lt 20
+|**in\*\***     |  включая       | да | Да |  Да | Student/Age in (27, 29)
 
 
 \*\* При использовании **in** значением справа от **in** может быть разделенный запятыми список, заключенный в круглые скобки, или одно выражение, которое возвращает коллекцию.
@@ -167,10 +155,10 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 |**[Столбец]**     |  [ — 0x005B, ] — 0x005D       |  _x005B_Column_x005D_       |
 |**Столбец+Plus**     | + — 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![табличный визуальный элемент, отображающий специальные символы](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Снимок экрана с табличным визуальным элементом, отображающим специальные символы.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![табличный визуальный элемент, отображающий специальные символы](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Снимок экрана с табличным визуальным элементом, отображающим специальные символы.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Специальные символы в значениях
 
@@ -200,7 +188,9 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 Опубликуйте отчет в службе Power BI, а затем используйте строку запроса в URL-адресе для фильтрации и отображения данных, связанных только с магазинами Lindseys в Северной Каролине.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
+https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Закрепление плитки на основе отфильтрованного отчета
 
@@ -216,6 +206,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 * Сервер отчетов Power BI также поддерживает возможность указывать дополнительные фильтры с помощью параметра URL-адреса "filter". Например, URL-адрес в решении "Сервер отчетов Power BI" может выглядеть следующим образом: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Фильтры URL-адреса могут содержать не более 10 выражений (10 фильтров, соединенных AND).
 * Из-за ограничений JavaScript тип данных long равен (2^53-1).
+* Power BI не ограничивает число символов в строках запроса URL-адреса. Разные браузеры имеют разные ограничения по длине.
 
 Фильтры URL-адресов поддерживаются в некоторых сценариях внедрения, но не поддерживаются в других.
 

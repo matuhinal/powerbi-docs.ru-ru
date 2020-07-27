@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237775"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459653"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Использование потоков данных с локальными источниками данных
 
@@ -69,9 +69,10 @@ ms.locfileid: "85237775"
 * Изменение шлюза повлияет на работу всего потока данных.
 * Если необходимо использовать несколько шлюзов, мы рекомендуем создать несколько потоков данных (по одному на каждый шлюз) и использовать вычисляемые или сопоставленные сущности для объединения данных.
 * Потоки данных можно использовать только через корпоративные шлюзы. Личные шлюзы не предоставляются для выбора в раскрывающихся списках и на экранах параметров.
+* Локальные источники данных, настроенные с параметром [Использовать единый вход через Kerberos для запросов DirectQuery и Import](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) не поддерживаются в потоках данных.
 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 В этой статье предоставлены сведения об использовании локального источника данных для потоков данных, а также об использовании и настройке шлюзов для доступа к этим данным. Следующие статьи также содержат полезные сведения на эти темы.
 

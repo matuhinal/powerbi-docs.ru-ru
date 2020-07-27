@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 02/21/2020
+ms.date: 07/16/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236634"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459561"
 ---
 # <a name="manage-data-sources"></a>Управление источниками данных
 
@@ -102,6 +102,9 @@ Power BI поддерживают многие [локальные источн
 
 Также вы можете предоставить пользователям и группам безопасности административный доступ к шлюзу.
 
+> [!NOTE]
+> Пользователи с доступом к источнику данных могут связать наборы данных с источником данных и выполнить подключение на основе параметров безопасности (сохраненных учетных данных или единого входа), выбранных при создании источника данных.
+
 ### <a name="add-users-to-a-data-source"></a>Добавление пользователей к источнику данных
 
 1. В службе Power BI в правом верхнем углу экрана щелкните значок шестеренки ![Значок параметров](media/service-gateway-data-sources/icon-gear.png) > **Управление шлюзами**.
@@ -141,4 +144,4 @@ Power BI поддерживают многие [локальные источн
 * [Управление источником данных — импорт или запланированное обновление](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Руководство по развертыванию шлюза данных](service-gateway-deployment-guidance.md)
 
-У вас имеются и другие вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
+Остались вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
