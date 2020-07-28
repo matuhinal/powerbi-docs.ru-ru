@@ -47,11 +47,11 @@ ms.locfileid: "86409585"
 
 В этом примере в заголовке среза указано три поля в иерархии: "Тип", "Платформа" и "Имя".
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-title.png" alt-text="Снимок экрана с иерархическим срезом с полями "Тип", "Платформа" и "Имя".":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-title.png" alt-text="Снимок экрана с иерархическим срезом с полями Тип, Платформа и Имя.":::
 
 Чтобы изменить имя, выберите срез, а затем выберите область **Формат**. В разделе **Заголовок среза** вы увидите текущее имя среза в поле **Текст заголовка**.
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-edit-title.png" alt-text="Снимок экрана с областью "Формат" с текущим заголовком.":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-edit-title.png" alt-text="Снимок экрана с областью Формат с текущим заголовком.":::
 
 Выберите текст и добавьте новое имя.
 
@@ -66,7 +66,7 @@ ms.locfileid: "86409585"
 1. Разверните пункт **Элементы** и выберите **значок "Развернуть/свернуть"** .
 1. Выберите **Шеврон**, **Плюс/минус** или **Курсор**.
  
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="Снимок экрана с выбором значка "Развернуть/свернуть" для иерархического среза.":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="Снимок экрана с выбором значка Развернуть/свернуть для иерархического среза.":::
  
 ### <a name="change-the-indentation"></a>Изменение отступа
 
