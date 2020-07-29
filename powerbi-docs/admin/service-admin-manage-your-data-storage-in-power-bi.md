@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/27/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214248"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252114"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Управление хранилищем данных в рабочих областях Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "86214248"
 ### <a name="shared-capacity-limits"></a>Ограничение общей емкости
 Рабочие области в общей емкости 
 
-- Размер хранилища для каждой рабочей области составляет 100 ГБ.
+- Размер хранилища для каждой рабочей области составляет 10 ГБ.
 - Для рабочих областей приложений общий объем не может превышать ограничение для хранилища арендатора в 10 ГБ, умноженные на число лицензий Pro в арендаторе.
 
 ### <a name="premium-capacity-limits"></a>Ограничения емкости уровня "Премиум"

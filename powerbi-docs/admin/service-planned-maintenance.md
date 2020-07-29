@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: cc9364129159b5527d309f125d42e661d0b4c206
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120574"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252045"
 ---
 # <a name="power-bi-planned-maintenance"></a>Плановое обслуживание Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "85120574"
 * Пользователи приложений Power BI Mobile должны убедиться, что они используют новейшую версию, выйти из нее, а затем войти снова. Проверьте магазин приложений на телефоне или посетите страницу [Power BI Mobile](https://powerbi.microsoft.com/mobile/).
 * Клиенты, активно редактирующие или публикующие отчеты с визуальными элементами организации (локально или в OneDrive и SharePoint), должны либо повторно импортировать эти элементы с помощью хранилища визуальных элементов организации, либо загрузить обновленный PBIX-файл перед повторной публикацией. Дополнительные сведения см. в статье о [визуальных элементах организации](service-admin-portal.md#organization-visuals).
 * Если книги Excel, в которых используется функция "Анализ в Excel", не обновляются, возможно, потребуется обновить строку подключения или повторно скачать ODC-файл подключения для этого набора данных. Дополнительные сведения см. в статье о функции [Анализ в Excel](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data).
-* После завершения обслуживания ссылки на Power BI, внедренные в содержимое, могут не работать. Например, при попытке перейти по внедренной ссылке в SharePoint или Teams у пользователя может произойти ошибка. Чтобы устранить эту проблему, необходимо повторно создать внедренную ссылку в Power BI, а затем обновить расположения, в которых она используются. Дополнительные сведения о внедренных ссылках см. в статьях [Внедрение веб-части отчетов в SharePoint Online](../collaborate-share/service-embed-report-spo.md) и [Совместная работа в Microsoft Teams с использованием Power BI](../collaborate-share/service-embed-report-microsoft-teams.md).
+* После завершения обслуживания ссылки на Power BI, внедренные в содержимое, могут не работать. Например, при попытке перейти по внедренной ссылке в SharePoint или Teams у пользователя может произойти ошибка. Чтобы устранить эту проблему, необходимо повторно создать внедренную ссылку в Power BI, а затем обновить расположения, в которых она используются. Дополнительные сведения о внедренных ссылках см. в статьях [Внедрение веб-части отчетов в SharePoint Online](../collaborate-share/service-embed-report-spo.md) и [Совместная работа в Microsoft Teams с использованием Power BI](../collaborate-share/service-collaborate-microsoft-teams.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
