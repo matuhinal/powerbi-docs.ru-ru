@@ -37,6 +37,8 @@
               href: service-data-lineage.md
             - name: Анализ влияния на наборы данных
               href: service-dataset-impact-analysis.md
+            - name: Анализ влияния на источники данных
+              href: service-data-source-impact-analysis.md
             - name: Применение меток конфиденциальности данных
               href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Подключение к файлам в OneDrive вашей группы
@@ -45,6 +47,16 @@
               href: service-collaborate-power-bi-workspace.md
             - name: Управление группой в Power BI и Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Power BI в Teams
+          items:
+            - name: Совместная работа в Teams
+              href: service-collaborate-microsoft-teams.md
+            - name: Встраивание отчетов в Teams
+              href: service-embed-report-microsoft-teams.md
+            - name: Предоставление общего доступа непосредственно в Teams
+              href: service-share-report-teams.md
+            - name: Предварительный просмотр ссылки в Teams
+              href: service-teams-link-preview.md
         - name: Публикация и совместный доступ
           items:
             - name: Совместное использование информационных панелей и отчетов
@@ -61,8 +73,6 @@
               href: service-report-subscribe.md
             - name: Рекомендация содержимого на главной странице
               href: service-featured-content.md
-            - name: "Внедрение отчета в Microsoft\_Teams"
-              href: service-embed-report-microsoft-teams.md
             - name: Встраивание отчета в SharePoint Online
               href: service-embed-report-spo.md
             - name: Внедрение отчета на защищенный портал или веб-сайт
@@ -71,20 +81,22 @@
               href: service-publish-to-web.md
             - name: Общая панель мониторинга со ссылкой на книгу Excel в OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: Расширение Power BI
+        - name: Power BI в Excel
           items:
             - name: Анализ в Excel
               href: service-analyze-in-excel.md
-            - name: Связанные с Power BI таблицы в Excel
+            - name: Использование рекомендуемых таблиц Power BI в Excel
               href: service-excel-featured-tables.md
+            - name: Настройка рекомендуемых таблиц
+              href: service-create-excel-featured-tables.md
             - name: Устранение неполадок с анализом в Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: Ошибка. Нам не удалось найти данные в книге Excel
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-            - name: "Power Automate и Power\_BI"
-              href: service-flow-integration.md
-            - name: Использование сторонних приложений
-              href: service-power-bi-get-started-third-party-apps.md
+        - name: "Power Automate и Power\_BI"
+          href: service-flow-integration.md
+        - name: Использование сторонних приложений
+          href: service-power-bi-get-started-third-party-apps.md
         - name: Пакеты содержимого организации
           items:
             - name: Знакомство с пакетами содержимого организации
