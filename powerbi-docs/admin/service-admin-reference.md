@@ -1,5 +1,5 @@
 ---
-title: Командлеты PowerShell, REST API и пакет SDK .NET для администраторов
+title: Командлеты PowerShell, REST API и клиентские библиотеки .NET для администраторов
 description: Сведения о способах администрирования Power BI с помощью сценариев и API-интерфейсов программирования.
 author: kfollis
 ms.reviewer: ''
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136300"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952623"
 ---
-# <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Командлеты PowerShell, REST API и пакет SDK .NET для администрирования Power BI
-Power BI позволяет администраторам создавать сценарии для типовых задач с помощью командлетов PowerShell. Кроме того, это решение предоставляет интерфейсы REST API и пакет SDK .NET для разработки административных решений. В этом разделе приводится список командлетов и соответствующих методов пакета SDK и конечных точек REST API. Для получения дополнительной информации см.
+# <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Командлеты PowerShell, REST API и клиентская библиотека .NET для администрирования Power BI
+Power BI позволяет администраторам создавать сценарии для типовых задач с помощью командлетов PowerShell. Кроме того, это решение предоставляет интерфейсы REST API и клиентскую библиотеку .NET для разработки административных решений. В этом разделе приводится список командлетов и соответствующих API и REST API конечных точек. Для получения дополнительной информации см.
 
 - PowerShell: [загрузка](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) и [документация](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - [Документация](https://docs.microsoft.com/rest/api/power-bi/admin) по REST API
-- [Загрузка](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) пакета SDK .NET
+- [Загрузка](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) клиентской библиотеки .NET
 
 > Приведенные ниже командлеты должны выполняться с использованием `-Scope Organization` для работы в клиенте для администрирования.
 
-| **Имя командлета** | **Псевдонимы** | **Метод пакета SDK** | **Конечная точка REST API** | **Description;** |
+| **Имя командлета** | **Псевдонимы** | **API** | **Конечная точка REST API** | **Description;** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | Н/Д | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | Получает источники данных для заданного набора данных. |
 | `Get-PowerBIDataset` | Н/Д | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | Получает полный список наборов данных в клиенте Power BI. |

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 03/13/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215588"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252804"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Начало работы с Power BI Desktop
 Добро пожаловать в руководство по началу работы с Power BI Desktop. Этот обзор знакомит вас с принципами работы и возможностями Power BI Desktop. В нем также показано, как создавать надежные модели данных и потрясающие отчеты, чтобы повысить эффективность бизнес-аналитики.
@@ -24,6 +24,11 @@ ms.locfileid: "86215588"
 ![Снимок экрана: Power BI Desktop с примером рабочего элемента](media/desktop-getting-started/hero-02.png)
 
 Вы также можете просмотреть видео по [началу работы с Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) и скачать книгу Excel с [образцом финансовых данных](https://go.microsoft.com/fwlink/?LinkID=521962), на которую можно опираться в процессе просмотра видео.
+
+
+> [!IMPORTANT]
+> Обновление и выпуск Power BI Desktop осуществляется на ежемесячной основе, включая отзывы клиентов и новые функции. Поддерживается только самая последняя версия Power BI Desktop; клиентам, которые обращаются в службу поддержки Power BI Desktop, будет предложено выполнить обновление до последней версии. Вы можете получить последнюю версию Power BI Desktop из [Магазина Windows](https://aka.ms/pbidesktopstore) или в виде одного исполняемого файла, содержащего все поддерживаемые языки для [загрузки](https://www.microsoft.com/download/details.aspx?id=58494) и установки на компьютер.
+
 
 ## <a name="how-power-bi-desktop-works"></a>Принципы работы Power BI Desktop
 С Power BI Desktop доступны следующие возможности.

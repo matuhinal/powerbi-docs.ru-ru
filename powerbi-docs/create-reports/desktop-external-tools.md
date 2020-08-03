@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411899"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252896"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Использование внешних инструментов в Power BI Desktop (предварительная версия)
 
@@ -23,6 +23,13 @@ ms.locfileid: "86411899"
 Лента **External Tools** (Внешние инструменты) в Power BI Desktop содержит кнопки для внешних инструментов, установленных на компьютере и зарегистрированных в Power BI Desktop. Внешние инструменты, запускаемые из Power BI Desktop, автоматически подключаются к подсистеме Analysis Services, работающей в составе Power BI Desktop. Это обеспечивает удобство работы пользователей.
 
 ![Лента External Tools (Внешние инструменты) в Power BI Desktop](media/desktop-external-tools/desktop-external-tools-01.png)
+
+В число этих внешних инструментов входят следующие (со ссылками на расположение установки). Поддержка всех внешних инструментов осуществляется их соответствующими авторами:
+
+* [Tabular Editor](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [Набор средств ALM](http://alm-toolkit.com)
+
 
 В следующих разделах описаны операции, поддерживаемые внешними инструментами, а также приведен список избранных инструментов, которые входят в состав Power BI Desktop, и инструкции по регистрации дополнительных инструментов.
 
@@ -43,7 +50,7 @@ ms.locfileid: "86411899"
 
 ## <a name="featured-external-tools"></a>Избранные внешние инструменты
 
-С Power BI Desktop работают указанные ниже инструменты с открытым кодом, разработанные сообществом. Установщик каждого инструмента регистрирует его в Power BI Desktop после установки.
+С Power BI Desktop работают указанные ниже инструменты с открытым кодом, разработанные сообществом. Их поддержка осуществляется соответствующими авторами инструментов. Установщик каждого инструмента регистрирует его в Power BI Desktop после установки.
 
 * Tabular Editor.
 * DAX Studio.
@@ -122,6 +129,18 @@ ALM Toolkit — это инструмент сравнения схем с от
 * **Program Files (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools**.
 
 Файлы с расширением **.pbitool.json** в указанном расположении загружаются при запуске Power BI Desktop.
+
+## <a name="disabling-external-tools-using-the-registry"></a>Отключение внешних инструментов с помощью реестра
+
+Внешние инструменты можно отключить с помощью **групповых политик** или путем редактирования реестра, что аналогично процессу отключения **настраиваемых визуальных элементов**.
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+Значение 1 (десятичное) позволяет использовать внешние инструменты в Power BI, что является значением по умолчанию.
+
+Значение 0 (десятичное) запрещает использовать внешние инструменты в Power BI.
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

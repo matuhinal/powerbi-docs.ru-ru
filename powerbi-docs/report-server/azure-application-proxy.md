@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239524"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364084"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Настройка Сервера отчетов Power BI с помощью Azure Application Proxy
 
@@ -110,7 +110,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 3. Необходимо настроить ограниченное делегирование с транзитом протокола. При использовании ограниченного делегирования необходимо явно указать службы, для которых настраивается делегирование.
 4. Щелкните правой кнопкой мыши **учетную запись службы Сервера отчетов** и выберите **Свойства**.
 5. Выберите вкладку **Делегирование**.
-6. Выберите параметр **Доверять компьютеру делегирование указанных служб**.
+6. Установка параметра **Доверять этому пользователю делегирование только определенных служб**
 7. Выберите **Использовать любой протокол проверки подлинности**.
 8. В разделе **Службы, с которыми эта учетная запись может использовать делегированные учетные данные:** нажмите кнопку **Добавить**.
 9. В открывшемся диалоговом окне выберите **Пользователи или компьютеры**.

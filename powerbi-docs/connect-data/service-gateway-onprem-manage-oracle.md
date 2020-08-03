@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237595"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364015"
 ---
 # <a name="manage-your-data-source---oracle"></a>Управление своим источником данных — Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237595"
 
 После [установки локального шлюза данных](/data-integration/gateway/service-gateway-install) нужно [добавить источники данных](service-gateway-data-sources.md#add-a-data-source), которые можно будет с ним использовать. В этой статье рассмотрены способы работы со шлюзами и источниками данных Oracle, которые используются для запланированного обновления или DirectQuery.
 
+## <a name="connect-to-an-oracle-database"></a>Подключение к базе данных Oracle
+Для подключения к базе данных Oracle с помощью локального шлюза данных необходимо установить правильное клиентское программное обеспечение Oracle на компьютере, где выполняется шлюз. Используемое клиентское программное обеспечение Oracle зависит от версии сервера Oracle, но всегда будет соответствовать 64-разрядному шлюзу.
+
+Поддерживаемые версии Oracle: 
+- Oracle Server 9 и более поздних версий
+- Клиент доступа к данным Oracle (ODAC) — программное обеспечение версии 11.2 и более поздней
+
 ## <a name="install-the-oracle-client"></a>Установка клиента Oracle
+- [Скачайте и установите 64-разрядную версию клиента Oracle](https://www.oracle.com/database/technologies/odac-downloads.html).
 
-Чтобы установить подключение между шлюзом и сервером Oracle, установите и настройте поставщик данных Oracle для .NET (ODP.NET). ODP.NET — это часть Oracle Data Access Components (ODAC).
-
-Для 32-разрядной версии Power BI Desktop используйте следующую ссылку, чтобы скачать и установить 32-разрядный клиент Oracle:
-
-* [32-разрядная версия Oracle Data Access Components (ODAC) с Oracle Developer Tools для Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-Если вы используете 64-разрядную версию Power BI Desktop или локальный шлюз данных, перейдите по следующей ссылке, чтобы скачать и установить 64-разрядный клиент Oracle:
-
-* [64-разрядная версия ODAC 12.2c, выпуск 1 (12.2.0.1.0) для 64-разрядных версий Windows](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-После установки клиента укажите в файле tnsnames.ora нужную информацию для своей базы данных. При настройке подключения для Power BI Desktop и шлюза используется имя net_service_name, которое задано в файле tnsnames.ora. Если net_service_name не настроен, подключиться не удастся. По умолчанию используется такой путь к файлу tnsnames.ora: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Дополнительные сведения о том, как настраивать файлы tnsnames.ora, см. в статье [Local Локальные параметры именования (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
-
-### <a name="example-tnsnamesora-file-entry"></a>Пример записи в файле tnsnames.ora
-
-Ниже приведен основной формат записи в файле tnsname.ora:
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-Ниже приведен пример с введенными данными о порте и сервере:
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> Выберите версию клиента доступа к данным Oracle (ODAC), совместимую с сервером Oracle. Например, ODAC 12.x не всегда поддерживает Oracle Server версии 9.
+> Выберите установщик Windows для клиента Oracle.
+> Во время установки клиента Oracle обязательно включите *Настройка поставщиков ODP.NET и Oracle для ASP.NET на уровне компьютера*, установив соответствующий флажок во время работы мастера установки. Некоторые версии мастера клиента Oracle по умолчанию выбирают флажок, а другие — нет. Убедитесь, что установлен флажок, чтобы Power BI мог подключаться к базе данных Oracle.
+ 
+После установки клиента и настройки ODAC рекомендуется использовать Power BI Desktop или другой тестовый клиент для проверки правильности установки и настройки на шлюзе.
 
 ## <a name="add-a-data-source"></a>Добавление источника данных
 
@@ -111,7 +89,7 @@ CONTOSO =
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-В Oracle может возникнуть несколько ошибок, если синтаксис именования содержит ошибку или неправильно настроен:
+В Oracle может возникнуть любая из нескольких ошибок, если синтаксис именования содержит ошибку или неправильно настроен:
 
 * ORA-12154: TNS: не удалось разрешить указанный идентификатор подключения.
 * ORA-12514: прослушивателю TNS неизвестна служба, запрошенная в дескрипторе подключения.
@@ -121,8 +99,9 @@ CONTOSO =
 
 Эти ошибки могут произойти, если клиент Oracle не установлен или неправильно настроен. Если он установлен, нужно проверить, правильно ли настроен файл tnsnames.ora и используется ли нужное имя net_service_name. Кроме того, нужно задать одно и то же имя net_service_name на компьютере, на котором выполняется Power BI Desktop, и компьютере, на котором запущен шлюз. Дополнительные сведения см. в статье [Установка клиента Oracle](#install-the-oracle-client).
 
-> [!NOTE]
-> Ошибка может также возникать из-за несовместимости между версиями сервера и клиента Oracle. Как правило, версии должны совпадать.
+Ошибка может также возникать из-за несовместимости между версиями сервера и клиента ODAC. Как правило, необходимо, чтобы эти версии совпадали, так как некоторые сочетания несовместимы. Например, ODAC 12.x не поддерживает Oracle Server версии 9.
+
+Для диагностики проблем с подключением между сервером источника данных и компьютером шлюза рекомендуется установить клиент (например, Power BI Desktop или Oracle ODBC Test) на компьютер шлюза. Клиент можно использовать для проверки возможности подключения к серверу источника данных.
 
 См. дополнительные сведения об [устранении неполадок локального шлюза данных](/data-integration/gateway/service-gateway-tshoot).
 
@@ -131,4 +110,4 @@ CONTOSO =
 * [Устранение неполадок со шлюзами — Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](../admin/service-premium-what-is.md)
 
-Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
+Остались вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).

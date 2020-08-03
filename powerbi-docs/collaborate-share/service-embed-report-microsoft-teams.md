@@ -1,70 +1,49 @@
 ---
-title: Совместная работа в Microsoft Teams с использованием Power BI
-description: С помощью вкладки Power BI для Microsoft Teams можно легко внедрять интерактивные отчеты в каналы и чаты.
-author: LukaszPawlowski-MS
-ms.author: lukaszp
+title: Внедрение отчетов Power BI в Microsoft Teams
+description: Можно с легкостью внедрять интерактивные отчеты Power BI в каналы и чаты Microsoft Teams. .
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 06/05/2020
-ms.openlocfilehash: aedc65b1d13c25068d4bc19026e1475081336e77
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/22/2020
+ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226383"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252574"
 ---
-# <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Совместная работа в Microsoft Teams с использованием Power BI
+# <a name="embed-power-bi-content-in-microsoft-teams"></a>Внедрение содержимого Power BI в Microsoft Teams
 
-С помощью вкладки **Power BI** для Microsoft Teams можно легко внедрять интерактивные отчеты в каналы и чаты Microsoft Teams. Используйте вкладку **Power BI** для Microsoft Teams, чтобы помочь своим коллегам находить данные, над которыми вы работаете, и обсуждать их в каналах команды. При вставке ссылок на отчеты, панели мониторинга и приложения в поле сообщения Microsoft Teams отображаются краткие сведения об этих ссылках. С помощью кнопки **Поделиться в Teams** можно быстро начать беседу при просмотре отчетов и панелей мониторинга в Power BI.
+Можно с легкостью внедрять интерактивные отчеты Power BI в каналы и чаты Microsoft Teams. 
 
-## <a name="requirements"></a>Требования
+Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-embed-report-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Teams работают вместе, включая требования, которые необходимо выполнить.
 
-Для использования вкладки **Power BI** для Microsoft Teams должны выполняться указанные ниже условия.
-
-- У пользователей должна быть лицензия Power BI Pro, либо отчет должен находиться в [емкости Power BI Premium (номер SKU EM или P)](../admin/service-premium-what-is.md) с лицензией Power BI.
-- В Microsoft Teams должна быть вкладка **Power BI**.
-- Пользователи выполнили вход в службу Power BI и активировали свою лицензию Power BI Для работы с отчетом.
-- Чтобы добавить отчет в Microsoft Teams на вкладке **Power BI**, необходимо иметь по крайней мере роль "Читатель" в рабочей области, в которой размещается отчет. Сведения о различных ролях см. в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
-- Чтобы просмотреть отчет на вкладке **Power BI** в Microsoft Teams, пользователи должны иметь разрешение на просмотр отчета.
-- Пользователи должны быть пользователями Microsoft Teams с доступом к каналам и чатам.
-
-Для предварительного просмотра ссылок должны выполняться указанные ниже условия.
-
-- Пользователи должны соответствовать требованиям для использования вкладки **Power BI** для Microsoft Teams.
-- Пользователи должны войти в Power BI.
-
-Для надлежащей работы кнопки **Поделиться в Teams** должны выполняться указанные ниже условия.
-
-- Пользователи должны соответствовать требованиям для использования вкладки **Power BI** для Microsoft Teams.
-- Пользователи должны войти в Power BI.
-- Администраторы Power BI не отключили для клиента параметр **Поделиться в Teams**.
-
-
-## <a name="embed-your-report"></a>Внедрение отчета
+## <a name="embed-a-report-in-teams"></a>Внедрение отчета в Teams
 
 Чтобы внедрить отчет в канал или чат Microsoft Teams, выполните указанные ниже действия.
 
 1. Откройте канал или чат в Microsoft Teams и щелкните значок **+** .
 
-    ![Добавление вкладки в канал или чат](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-add.png)
+    ![Снимок экрана: добавление вкладки в канал или чат.](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-add.png)
 
 1. Выберите вкладку **Power BI**.
 
-    ![Список вкладок Microsoft Teams с вкладкой Power BI](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab.png)
+    ![Снимок экрана: список вкладок Microsoft Teams с вкладкой Power BI.](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab.png)
 
 1. Выберите необходимый отчет среди доступных в рабочей области или приложении Power BI.
 
-    ![Параметры вкладки Power BI для Microsoft Teams](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab-settings.png)
+    ![Снимок экрана: параметры вкладки Power BI для Microsoft Teams.](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab-settings.png)
 
 1. Имя вкладки обновляется автоматически в соответствии с именем отчета, но его можно изменить.
 
 1. Щелкните **Сохранить**.
 
-## <a name="supported-reports-for-embedding-the-power-bi-tab"></a>Поддерживаемые отчеты для внедрения вкладки Power BI
+### <a name="reports-you-can-embed-on-the-power-bi-tab"></a>Отчеты, которые можно внедрить на вкладке Power BI
 
 На вкладке **Power BI** можно внедрять отчеты следующих типов:
 
@@ -72,117 +51,28 @@ ms.locfileid: "85226383"
 - отчеты из раздела **Моя рабочая область**, нового интерфейса рабочих областей и классических рабочих областей;
 - отчеты из приложений Power BI.
 
-## <a name="get-a-link-preview"></a>Предварительный просмотр ссылки
-
-Чтобы обеспечить предварительный просмотр содержимого, на которое ведет ссылка, в службе Power BI, выполните указанные ниже действия.
-
-1. Скопируйте ссылку на отчет, панель мониторинга или приложение в службе Power BI. Например, скопируйте ссылку из адресной строки браузера.
-
-1. Вставьте ссылку в поле сообщения Microsoft Teams. Если будет предложено, войдите в службу предварительного просмотра ссылок. Загрузка содержимого для предварительного просмотра может занять несколько секунд.
-
-    ![Вход в бот Power BI](media/service-embed-report-microsoft-teams/service-teams-link-preview-sign-in-needed.png)
-
-1. После успешного входа отображается базовое содержимое для предварительного просмотра ссылки.
-
-    ![Базовый предварительный просмотр ссылки](media/service-embed-report-microsoft-teams/service-teams-link-preview-basic.png)
-
-1. Чтобы открыть карточку расширенного предварительного просмотра, щелкните значок **Развернуть**.
-
-    ![Значок развертывания](media/service-embed-report-microsoft-teams/service-teams-link-preview-expand-icon.png)
-
-1. На карточке расширенного предварительного просмотра отображаются ссылка и кнопки действий.
-
-    ![Карточка расширенного предварительного просмотра](media/service-embed-report-microsoft-teams/service-teams-link-preview-nice-card.png)
-
-1. Отправьте сообщение.
-
-## <a name="share-to-teams-buttons-in-the-power-bi-service"></a>Кнопки "Поделиться в Teams" в службе Power BI
-
-Выполните следующие действия, чтобы поделиться ссылками на каналы и чаты Microsoft Teams при просмотре отчетов или панелей мониторинга в службе Power BI.
-
-1. Вы можете использовать кнопки **Поделиться в Teams** на панели действий или в контекстном меню определенного визуального элемента.
-
-   * Кнопка **Поделиться в Teams** на панели действий:
-
-       ![Кнопка "Поделиться в Teams" на панели действий](media/service-embed-report-microsoft-teams/service-teams-share-to-teams-action-bar-button.png)
-    
-   * Кнопка **Поделиться в Teams** в контекстном меню визуального элемента:
-    
-      ![Кнопка "Поделиться в Teams" в контекстном меню визуального элемента](media/service-embed-report-microsoft-teams/service-teams-share-to-teams-visual-context-menu.png)
-
-1. В диалоговом окне **Предоставление общего доступа в Microsoft Teams** выберите канал или людей, которым нужно отправить ссылку. При необходимости можно ввести сообщение. Возможно, вам будет предложено сначала войти в Microsoft Teams.
-
-    ![Диалоговое окно "Предоставление общего доступа в Microsoft Teams" с информацией и сообщением](media/service-embed-report-microsoft-teams/service-teams-share-to-teams-dialog.png)
-
-1. Выберите **Поделиться**, чтобы отправить ссылку.
-    
-1. Ссылка будет добавлена к существующим беседам или будет инициировать создание нового чата.
-
-    ![Беседа в Microsoft Teams со ссылкой на элемент Power BI](media/service-embed-report-microsoft-teams/service-teams-share-to-teams-deep-link.png)
-
-1. Щелкните ссылку, чтобы открыть элемент в службе Power BI.
-
-1. Если для определенного визуального элемента использовалось контекстное меню, он выделяется при открытии отчета.
-
-    ![Открыт отчет Power BI с выделенным визуальным элементом](media/service-embed-report-microsoft-teams/service-teams-share-to-teams-spotlight-visual.png)
-    
-
-## <a name="grant-access-to-reports"></a>Предоставление доступа к отчетам
-
-При внедрении отчета в Microsoft Teams или отправке ссылки на элемент разрешение на просмотр отчета не предоставляется пользователям автоматически. Вам нужно [разрешить пользователям просматривать отчет в Power BI](service-share-dashboards.md). Чтобы упростить эту задачу, можно воспользоваться группой Microsoft 365.
-
-> [!IMPORTANT]
-> Обязательно проверьте, кто может просматривать отчет в службе Power BI, и предоставьте доступ пользователям, которых нет в списке.
-
-Один из способов обеспечить доступ всех членов команды к отчетам — поместить эти отчеты в одну рабочую область и предоставить доступ к ней группе Microsoft 365 вашей команды.
-
-## <a name="link-previews"></a>Предварительный просмотр ссылок
-
-Предварительный просмотр ссылок доступен в Power BI для следующих элементов:
-- Отчеты
-- Панели мониторинга
-- Приложения
-
-Пользователи должны выполнить вход в службу предварительного просмотра ссылок. Чтобы выйти из нее, щелкните значок **Power BI** в нижней части поля сообщения. Затем выберите **Выход**.
-
 ## <a name="start-a-conversation"></a>Начало общения
 
 При добавлении вкладки отчета Power BI в Microsoft Teams в этой службе автоматически создается беседа для обсуждения отчета.
 
 - В правом верхнем углу выберите значок **Показать беседу во вкладке**.
 
-    ![Значок "Показать беседу во вкладке"](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+    ![Снимок экрана: значок "Показать беседу во вкладке".](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
 
     Первый комментарий является ссылкой на отчет. Каждый в этом канале Microsoft Teams может просматривать и обсуждать отчет в беседе.
 
-    ![Беседа во вкладке](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
-    
-## <a name="share-to-teams-tenant-setting"></a>Параметр "Поделиться в Teams" для клиента
-
-Параметр **Поделиться в Teams** для клиента на портале администрирования Power BI позволяет организациям скрывать кнопки **Поделиться в Teams**. Если этот параметр отключен, пользователи не увидят кнопки **Поделиться в Teams** на панели действий или в контекстных меню при просмотре отчетов и панелей мониторинга в службе Power BI.
-
-![Параметр "Поделиться в Teams" на портале администрирования Power BI](media/service-embed-report-microsoft-teams/service-teams-share-to-teams-tenant-setting.png)
+    ![Снимок экрана: беседа во вкладке.](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
 ## <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
 
-- Power BI не поддерживает те же языки с локализацией, что и Microsoft Teams. В результате внедренный отчет может быть не локализован должным образом.
 - Панели мониторинга Power BI невозможно внедрить на вкладку **Power BI** для Microsoft Teams.
-- Пользователи, у которых нет лицензии Power BI или разрешения на доступ к отчету, видят сообщение "Содержимое недоступно".
-- При использовании Internet Explorer 10 могут возникнуть проблемы. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [Фильтры URL-адресов](service-url-filters.md) не поддерживаются на вкладке **Power BI** для Microsoft Teams.
 - В национальных облаках новая вкладка **Power BI** недоступна. Может быть доступна прежняя версия, которая не поддерживает новые возможности рабочих областей и отчеты в приложениях Power BI.
 - После сохранения вкладки ее имя невозможно изменить в параметрах вкладки. Чтобы изменить его, используйте команду **Переименовать**.
-- Единый вход не поддерживается для службы предварительного просмотра ссылок.
-- Предварительный просмотр ссылок не работает в чате собрания и в частных каналах.
-- Кнопки **Поделиться в Teams** могут не работать, если в браузере используются ограниченные параметры конфиденциальности. Воспользуйтесь параметром **Не получается? Попробуйте открыть в новом окне**, если диалоговое окно не открывается правильно.
-- Для функции **Поделиться в Teams** не предусмотрен предварительный просмотр ссылок.
-- Предварительный просмотр ссылок и функция **Поделиться в Teams** не дают пользователям разрешений на просмотр элемента. Разрешения следует настроить отдельно.
-- Кнопка **Поделиться в Teams** недоступна в контекстных меню визуальных элементов, когда автор отчета задает в разделе **Дополнительно** значение *Выкл.* для визуального элемента.
+- Другие проблемы см. в разделе [Известные проблемы и ограничения](service-collaborate-microsoft-teams.md#known-issues-and-limitations) статьи "Совместная работа в Microsoft Teams".
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Предоставление общего доступа к панели мониторинга и отчетам коллегам и другим пользователям](service-share-dashboards.md)
-- [Создание и распространение приложения в Power BI](service-create-distribute-apps.md)
-- [What is Power BI Premium?](../admin/service-premium-what-is.md) (Что собой представляет Power BI Premium)
+- [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md)
 
 Остались вопросы? [Попробуйте задать вопрос в Сообществе Power BI](https://community.powerbi.com/).

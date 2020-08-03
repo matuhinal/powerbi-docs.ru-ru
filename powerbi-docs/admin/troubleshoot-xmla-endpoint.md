@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/16/2020
+ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459676"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363969"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -135,6 +135,10 @@ Power BI возвращает указанную ниже ошибку, если
 В Power BI при запуске запланированного обновления или обновления по запросу обычно обновляется весь набор данных. Во многих случаях более эффективно выполнять обновление выборочно. Вы можете выполнять задачи детализированной обработки в SQL Server Management Studio (SSMS), как показано ниже, или с помощью средств или сценариев сторонних разработчиков.
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Обработка таблиц в SSMS":::
+
+### <a name="overrides-in-refresh-tmsl-command"></a>Переопределения в команде Refresh TMSL
+
+Переопределения в [команде Refresh (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) позволяют пользователям выбрать другое определение запроса секции или определение источника данных для операции обновления. В настоящее время **переопределения не поддерживаются** в Power BI Premium. Отображается ошибка: "В Power BI Premium не допускается использование внешней привязки. Дополнительные сведения см. в разделе «Поддержка чтения/записи XMLA» в документации по продукту". .
 
 ## <a name="see-also"></a>См. также раздел
 

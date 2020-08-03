@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238833"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952646"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>Использование отчетов Power BI с помощью средств специальных возможностей
 В Power BI предусмотрено множество встроенных функций, упрощающих использование отчетов Power BI и работу с ними для людей с ограниченными возможностями. Благодаря этим средствам пользователи смогут получать из отчетов тот же объем информации, что и без применения специальных возможностей.
@@ -114,5 +114,3 @@ ms.locfileid: "85238833"
 * [Специальные возможности для создания отчетов Power BI](desktop-accessibility-creating-tools.md)
 * [Сочетания клавиш для специальных возможностей в отчетах Power BI](desktop-accessibility-keyboard-shortcuts.md)
 * [Контрольный список специальных возможностей для работы с отчетами](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
-
-

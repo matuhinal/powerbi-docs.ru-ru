@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/08/2020
-ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.date: 07/27/2020
+ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216541"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252873"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Сравнение решения "Сервер отчетов Power BI" и службы Power BI
 
@@ -48,13 +48,14 @@ ms.locfileid: "86216541"
 | Подписки по электронной почте на отчеты с разбивкой на страницы | Да | Да | [Создание подписки на отчет с разбивкой на страницы в службе Power BI для себя и других пользователей](../consumer/paginated-reports-subscriptions.md)<br><br>[Доставка электронной почты в Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | Оповещения о данных | Нет | Да | [Оповещения о данных](../create-reports/service-set-data-alerts.md) в службе Power BI
 | Безопасность на уровне строк (RLS) | Да | Да | Доступно в режимах DirectQuery (источник данных) и импорта <br><br>Безопасность на уровне строк в [службе Power BI](../admin/service-admin-rls.md) <br><br>Безопасность на уровне строк на [Сервере отчетов Power BI](row-level-security-report-server.md) |
+| Детализация между отчетами | Нет | Да | [Использование детализации между отчетами](../create-reports/desktop-cross-report-drill-through.md) |
 | Полноэкранный режим | Нет | Да | [Полноэкранный режим](../consumer/end-user-focus.md) в службе Power BI |
 | Расширенная совместная работа Microsoft 365 | Нет | Да | [Совместная работа в рабочей области](../collaborate-share/service-collaborate-power-bi-workspace.md) с Microsoft 365 |
-| Визуальные элементы и сценарии R | Нет | Да | [Создание визуальных элементов R](../create-reports/desktop-r-visuals.md) и запуск сценариев R в Power BI Desktop и публикация их в службе Power BI. Отчеты Power BI с визуальными элементами или сценариями R не поддерживают сохранение на Сервере отчетов Power BI.  |
+| Визуальные элементы и сценарии R | Нет | да | [Создание визуальных элементов R](../create-reports/desktop-r-visuals.md) и запуск сценариев R в Power BI Desktop и публикация их в службе Power BI. Отчеты Power BI с визуальными элементами или сценариями R не поддерживают сохранение на Сервере отчетов Power BI.  |
 | Визуальные элементы и сценарии Python | Нет | Да | [Создание визуальных элементов](../connect-data/desktop-python-scripts.md) и сценариев Python в Power BI Desktop и публикация их в службе Power BI. Отчеты Power BI с визуальными элементами или сценариями Python не поддерживают сохранение на Сервере отчетов Power BI. |
 | Предварительная версия функций | Нет | Да | [Включение предварительных версий функций Power BI](../consumer/end-user-preview-features.md) |
 | Визуальные элементы Power BI | Да | Да | [Визуальные элементы Power BI](../developer/visuals/power-bi-custom-visuals.md) |
-| Составные модели | Нет | Да |
+| Составные модели | Нет | да |
 | Power BI Desktop | Версия, оптимизированная для сервера отчетов, доступна для скачивания вместе с сервером отчетов | Версия, оптимизированная для службы Power BI, доступна в Windows Store | [Power BI Desktop для сервера отчетов](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop для службы Power BI](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Дальнейшие действия

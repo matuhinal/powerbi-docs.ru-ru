@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/28/2020
-ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.date: 07/27/2020
+ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83279165"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252850"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -29,7 +29,7 @@ ms.locfileid: "83279165"
 | Управляемый экземпляр базы данных SQL Azure | Базовый | через общедоступную или частную конечную точку (частная конечная точка должна маршрутизироваться через корпоративный шлюз)  |
 | Azure Analysis Services | SSO, OAuth2 | Брандмауэр AAS должен быть отключен или настроен для разрешения всех диапазонов IP-адресов.|
 | Набор данных Power BI | Единый вход | Наборы данных Power BI Premium и отличные от них. Требуется разрешение на чтение |
-| Набор данных Premium Power BI (XMLA) | Единый вход |   |
+| Набор данных Premium Power BI (XMLA) | Единый вход | Наборы данных Power BI не поддерживаются в качестве источников для внедренных отчетов с разбивкой на страницы.  |
 | Введите данные | Н/Д | Данные внедряются в отчет. |
 
 Все источники данных, кроме базы данных SQL Azure, готовы к использованию после отправки отчета в службу Power BI. Источники данных по умолчанию используют единый вход (SSO), где это применимо. Для Azure Analysis Services можно изменить тип проверки подлинности на OAuth2. Но, как только тип проверки подлинности для этого источника данных изменится на OAuth2, вернуться к использованию единого входа станет невозможно.  Кроме того, это изменение коснется всех отчетов, которые используют этот источник, то есть всех рабочих областей этого клиента.  Безопасность на уровне строк в отчетах с разбивкой на страницы не будет работать, если для проверки подлинности пользователь не выбрал единый вход.
@@ -42,7 +42,7 @@ ms.locfileid: "83279165"
 
 - SQL Server
 - Службы SQL Server Analysis Services
-- Oracle
+- Oracle;
 - Teradata
 
 Для отчетов с разбивкой на страницы доступ к базе данных SQL Azure и Azure Analysis Services через шлюз данных Power BI сейчас невозможен.
@@ -73,5 +73,5 @@ ms.locfileid: "83279165"
 
 [Просмотр отчета с разбивкой на страницы в службе Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3022c43f4c1af3098b24148ccb0bdadf6e0da521
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263026"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363992"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Получение данных из файлов Power BI Desktop
 ![Значок файла Power BI Desktop](media/service-desktop-files/pbid_file_icon.png)
@@ -30,7 +30,7 @@ ms.locfileid: "86263026"
 
 **OneDrive — персональный**. Если вы сохраняете файлы в свою учетную запись OneDrive, то получите многие преимущества, доступные для OneDrive для бизнеса. Главное отличие — при первом подключении к файлу (щелкнув "Получить данные" > "Файлы" > "OneDrive — персональный") необходимо войти в OneDrive с учетной записью Майкрософт, которая обычно отличается от учетной записи, используемой для входа в Power BI. При входе в OneDrive с учетной записью Майкрософт убедитесь, что установлен флажок "Оставаться в системе". Тогда Power BI сможет примерно раз в час подключаться к вашему файлу и синхронизировать его с набором данных в Power BI.
 
-**Сайты рабочих групп SharePoint**. Сохранение файлов Power BI Desktop на сайтах рабочих групп SharePoint очень похоже на сохранение файлов в OneDrive для бизнеса. Главное отличие состоит в подключении к файлу из Power BI. Можно указать URL-адрес или подключаться к корневой папке.
+**Сайты рабочих групп SharePoint**. Сохранение файлов Power BI Desktop на сайтах рабочих групп SharePoint очень похоже на сохранение файлов в OneDrive для бизнеса. Главное отличие состоит в подключении к файлу из Power BI. Можно указать URL-адрес или подключаться к корневой папке. Можно также <a href="https://support.microsoft.com/office/sync-sharepoint-and-teams-files-with-the-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88">настроить папку синхронизации</a>, указывающую на папку SharePoint. Файлы будут синхронизированы с главной копией в SharePoint.
 
 ## <a name="import-or-connect-to-a-power-bi-desktop-file-from-power-bi"></a>Импорт или подключение к файлу Power BI Desktop из Power BI
 >[!IMPORTANT]

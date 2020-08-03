@@ -1,5 +1,5 @@
 ---
-title: Подключение к базе данных Oracle
+title: Подключение к базе данных Oracle с помощью Power BI Desktop
 description: Процедура и загружаемые файлы, необходимые для подключения Oracle к Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e74ff0bf54b263df65af7e7497eb57f3e5c2adb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224343"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252068"
 ---
-# <a name="connect-to-an-oracle-database"></a>Подключение к базе данных Oracle
-Для подключения к базе данных Oracle с помощью Power BI Desktop необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили: 32-разрядную или 64-разрядную.
+# <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Подключение к базе данных Oracle с помощью Power BI Desktop
+Для подключения к базе данных Oracle с помощью Power BI Desktop необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили: 32-разрядную или 64-разрядную. Это также зависит от версии сервера Oracle.
 
 Поддерживаемые версии Oracle: 
-- Oracle 9 и более поздней версии
-- Клиентское программное обеспечение Oracle 8.1.7 и более поздней версии
+- Oracle Server 9 и более поздних версий
+- Клиент доступа к данным Oracle (ODAC) — программное обеспечение версии 11.2 и более поздней
 
 > [!NOTE]
 > Если вы настраиваете базу данных Oracle для сервера отчетов Power BI Desktop, локальный шлюз данных или сервер отчетов Power BI, см. статью [Тип соединения Oracle (построитель отчетов и сервер отчетов Power BI)](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15). 
@@ -32,12 +32,14 @@ ms.locfileid: "85224343"
 
 ![Версия Power BI Desktop](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
-## <a name="installing-the-oracle-client"></a>Установка клиента Oracle
+## <a name="install-the-oracle-client"></a>Установка клиента Oracle
 - Для 32-разрядной версии Power BI Desktop [скачайте и установите 32-разрядный клиент Oracle](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html).
 
 - Для 64-разрядной версии Power BI Desktop [скачайте и установите 64-разрядный клиент Oracle](https://www.oracle.com/database/technologies/odac-downloads.html).
 
 > [!NOTE]
+> Выберите версию клиента доступа к данным Oracle (ODAC), совместимую с сервером Oracle. Например, ODAC 12.x не всегда поддерживает Oracle Server версии 9.
+> Выберите установщик Windows для клиента Oracle.
 > Во время установки клиента Oracle обязательно включите *Настройка поставщиков ODP.NET и Oracle для ASP.NET на уровне компьютера*, установив соответствующий флажок во время работы мастера установки. Некоторые версии мастера клиента Oracle по умолчанию выбирают флажок, а другие — нет. Убедитесь, что установлен флажок, чтобы Power BI мог подключаться к базе данных Oracle.
 
 ## <a name="connect-to-an-oracle-database"></a>Подключение к базе данных Oracle
@@ -53,9 +55,7 @@ ms.locfileid: "85224343"
 
    ![Ввод имени сервера Oracle](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
-   > [!TIP]
-   > При возникновении проблем с подключением на этом шаге используйте следующий формат в поле **Сервер**: *(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=имя_узла)(PORT=номер_порта))(CONNECT_DATA=(SERVICE_NAME=имя_службы)))*
-   
+      
 3. Если вы хотите импортировать данные с помощью собственного запроса к базе данных, запрос можно поместить в поле **Инструкция SQL**, которое появляется при развертывании раздела **Дополнительные параметры** диалогового окна **База данных Oracle**.
    
    ![Развертывание раздела "Дополнительные параметры"](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
@@ -64,6 +64,18 @@ ms.locfileid: "85224343"
 
 
 ## <a name="troubleshooting"></a>Устранение неполадок
+
+В Oracle может возникнуть любая из нескольких ошибок, если синтаксис именования содержит ошибку или неправильно настроен:
+
+* ORA-12154: TNS: не удалось разрешить указанный идентификатор подключения.
+* ORA-12514: прослушивателю TNS неизвестна служба, запрошенная в дескрипторе подключения.
+* ORA-12541: TNS: нет прослушивателя.
+* ORA-12170: TNS: время ожидания подключения истекло.
+* ORA-12504: TNS: прослушиватель не получил имя SERVICE_NAME в параметре CONNECT_DATA.
+
+Эти ошибки могут произойти, если клиент Oracle не установлен или неправильно настроен. Если он установлен, нужно проверить, правильно ли настроен файл tnsnames.ora и используется ли нужное имя net_service_name. Кроме того, нужно задать одно и то же имя net_service_name на компьютере, на котором выполняется Power BI Desktop, и компьютере, на котором запущен шлюз. Дополнительные сведения см. в статье [Установка клиента Oracle](#install-the-oracle-client).
+
+Ошибка может также возникать из-за несовместимости между версиями сервера и клиента ODAC. Как правило, необходимо, чтобы эти версии совпадали, так как некоторые сочетания несовместимы. Например, ODAC 12.x не поддерживает Oracle Server версии 9.
 
 Если вы скачали Power BI Desktop из Microsoft Store, может возникнуть проблема с подключением к базам данных Oracle из-за проблемы с драйвером Oracle. Если вы столкнетесь с этой проблемой, появится следующее сообщение об ошибке: *Ссылка на объект не задана*. Чтобы устранить эту проблему, выполните одно из следующих действий:
 

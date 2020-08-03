@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227660"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252091"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Регистрация в Power BI с новой пробной версией Microsoft 365
 
@@ -25,7 +25,7 @@ ms.locfileid: "85227660"
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Регистрация для использования пробной версии Office Microsoft 365
 
-Зарегистрируйтесь в [пробной версии Microsoft 365 на веб-сайте Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Если у вас еще нет учетной записи, Майкрософт поможет вам создать ее. Поскольку коммерческие учетные записи электронной почты (например, Hotmail и Gmail) не поддерживаются Microsoft 365, вы создадите новую учетную запись, которая поддерживается.  Эта учетная запись электронной почты будет выглядеть примерно так: *zalan@onmicrosoft.com* .
+Зарегистрируйтесь в [пробной версии Microsoft 365 на веб-сайте Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Если у вас еще нет учетной записи, Майкрософт поможет вам создать ее. Поскольку коммерческие учетные записи электронной почты (например, Hotmail и Gmail) не поддерживаются Microsoft 365, вы создадите новую учетную запись, которая поддерживается.  Эта учетная запись электронной почты будет выглядеть примерно так: *zalan\@onmicrosoft.com*.
 
 ![Выберите "Попробовать бесплатно"](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 

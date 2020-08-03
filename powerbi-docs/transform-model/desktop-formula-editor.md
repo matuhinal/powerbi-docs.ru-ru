@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 835feb7c7535a50a10c736464d8366f1f7bf910a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 8cbc5d3018f16cecd5013dab2d4da01b0a69ef9f
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565886"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363946"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Редактор формул в Power BI Desktop
 
@@ -61,5 +61,5 @@ ms.locfileid: "83565886"
 Следующие статьи содержат дополнительные сведения о формулах и DAX в Power BI Desktop.
 
 * [DAX basics in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) (Основные сведения о DAX в Power BI Desktop)
-* [Введение в DAX](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
+* [DAX в Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/) — курс обучения Microsoft Learn
 * [Справочник по DAX](/dax/)
