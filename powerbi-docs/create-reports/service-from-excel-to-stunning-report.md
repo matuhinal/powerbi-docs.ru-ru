@@ -57,14 +57,14 @@ ms.locfileid: "87251792"
 1. Чтобы начать работу, войдите в службу Power BI. Если вы еще не зарегистрировались, [это можно сделать бесплатно](https://powerbi.com).
 1. В разделе **Моя рабочая область** выберите **Создать** > **Отправить файл**.
 
-    :::image type="content" source="media/service-from-excel-to-stunning-report/power-bi-new-upload.png" alt-text="Снимок экрана: параметр "Отправить файл".":::
+    :::image type="content" source="media/service-from-excel-to-stunning-report/power-bi-new-upload.png" alt-text="Снимок экрана: параметр Отправить файл.":::
 
 1. Выберите **Локальный файл**, перейдите к месту, где сохранен файл Excel с примером финансовых данных, и выберите **Открыть**.
 7. На странице **Локальный файл** выберите **Импорт**.
 
     Теперь у вас есть пример набора финансовых данных. Power BI также автоматически создать пустую панель мониторинга. Если панель мониторинга не отображается, обновите браузер.
 
-    :::image type="content" source="media/service-from-excel-to-stunning-report/power-bi-financial-dataset.png" alt-text="Снимок экрана: "Моя рабочая область" с примером набора финансовых данных.":::
+    :::image type="content" source="media/service-from-excel-to-stunning-report/power-bi-financial-dataset.png" alt-text="Снимок экрана: Моя рабочая область с примером набора финансовых данных.":::
 
 2. Необходимо создать отчет. В разделе **Моя рабочая область** выберите **Создать** > **Отчет**.
 
@@ -138,7 +138,7 @@ ms.locfileid: "87251792"
 
 Внесите следующие изменения на вкладке **Формат** в области "Визуализации".
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Снимок экрана: вкладка "Формат" в области "Визуализации".":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Снимок экрана: вкладка Формат в области Визуализации.":::
 
 1. Выберите гистограмму **Прибыль по дате**. В разделе **Заголовок** измените значение параметра **Размер текста** на **16 пт**. Установите переключатель **Тень** в положение **Вкл.** . 
 
@@ -196,7 +196,7 @@ ms.locfileid: "87251792"
 
 2. В Power BI откроется диалоговое окно **Поделиться в Teams**. Введите имя пользователя, группы или канала и выберите **Поделиться**. 
    
-    :::image type="content" source="media/service-from-excel-to-stunning-report/power-bi-share-teams-dialog.png" alt-text="Снимок экрана: диалоговое окно "Поделиться в Teams"":::
+    :::image type="content" source="media/service-from-excel-to-stunning-report/power-bi-share-teams-dialog.png" alt-text="Снимок экрана: диалоговое окно Поделиться в Teams":::
 
 3. Ссылка отобразится в разделе **Записи** для этого пользователя, группы или канала.
 

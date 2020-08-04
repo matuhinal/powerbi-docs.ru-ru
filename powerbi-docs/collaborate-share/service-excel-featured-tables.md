@@ -26,16 +26,16 @@ ms.locfileid: "87251651"
 
 > [!NOTE]
 > В Excel можно получить данные из любого набора данных, доступного в Power BI. На ленте **Данные** выберите **Получить данные** > **Из Power BI (Майкрософт)** .
-> :::image type="content" source="media/service-excel-featured-tables/excel-get-data-power-bi.png" alt-text="Снимок экрана: параметр "Получить данные из Power BI" на ленте "Данные".":::
+> :::image type="content" source="media/service-excel-featured-tables/excel-get-data-power-bi.png" alt-text="Снимок экрана: параметр Получить данные из Power BI на ленте Данные.":::
 
 ## <a name="the-excel-data-types-gallery"></a>Коллекция "Типы данных" в Excel
 Рекомендуемые таблицы в наборах данных Power BI отображаются в Excel на вкладке **Данные** в коллекции **Типы данных** как *типы данных*.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Снимок экрана: коллекция "Типы данных" на ленте "Данные" в Excel.":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Снимок экрана: коллекция Типы данных на ленте Данные в Excel.":::
 
 При развертывании в коллекции отображаются универсальные типы данных, такие как **Акции** и **География**, а также первые 10 типов данных **Организация** —рекомендуемые таблицы из наборов данных Power BI.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Снимок экрана: коллекция "Типы данных" в Excel.":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Снимок экрана: коллекция Типы данных в Excel.":::
 
 ## <a name="format-a-range-of-cells-as-a-table-optional"></a>Форматирование диапазона ячеек в виде таблицы (необязательно)
 
@@ -55,7 +55,7 @@ ms.locfileid: "87251651"
  
 Если вы знаете, какая рекомендуемая таблица вам требуется, выберите в коллекции **Из вашей организации (предварительная версия)** и выберите требуемую таблицу.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data-table.png" alt-text="Снимок экрана: "Организационные данные" в Excel, таблица типов данных "Поставщики".":::
+:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data-table.png" alt-text="Снимок экрана: Организационные данные в Excel, таблица типов данных Поставщики.":::
  
 Если при поиске в Excel найдена совпадающая с высокой достоверностью строка, ячейка связывается непосредственно с этой строкой. Значок связанного элемента указывает на то, что ячейки связаны со строкой в Power BI.
 
@@ -101,7 +101,7 @@ ms.locfileid: "87251651"
 
 Используйте на ленте вкладки **Данные** кнопку **Обновить все**, чтобы обновить данные в связанных ячейках. 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="Снимок экрана: кнопка "Обновить все".":::
+:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="Снимок экрана: кнопка Обновить все.":::
  
 Можно также обновить отдельные ячейки. Щелкните правой кнопкой мыши ячейку и выберите **Типы данных** > **Обновить**.
 
@@ -114,7 +114,7 @@ ms.locfileid: "87251651"
 - **Изменить**.
 - **Преобразовать в текст**
 
-:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="Снимок экрана: контекстное меню, пункт "Преобразовать в текст".":::
+:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="Снимок экрана: контекстное меню, пункт Преобразовать в текст.":::
  
 Команда **Преобразовать в текст** удаляет ссылку на строку в рекомендуемой таблице Power BI. Важно, что текст в ячейке будет значением метки строки для связанной ячейки. Если ячейка связана не с той строкой, в Excel выберите **Отменить**, чтобы восстановить начальные значения ячеек.
 

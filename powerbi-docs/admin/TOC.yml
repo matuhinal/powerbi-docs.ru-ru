@@ -62,6 +62,8 @@
               href: service-admin-syndication-partner.md
         - name: Использование портала администрирования
           href: service-admin-portal.md
+        - name: Управление параметрами администратора визуальных элементов Power BI
+          href: organizational-visuals.md
         - name: 'Поиск пользователей, выполнивших вход'
           href: service-admin-access-usage.md
         - name: Отслеживание действий пользователей

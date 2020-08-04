@@ -24,9 +24,9 @@
           href: funnel-plot-from-r.md
     - name: Основные понятия
       items:
-        - name: "Структура проекта визуального элемента Power\_BI"
+        - name: "Структура проекта визуальных элементов Power\_BI"
           href: visual-project-structure.md
-        - name: Основные понятия визуализаций
+        - name: ' Интеграция системы визуальных элементов Power BI'
           href: power-bi-visuals-concept.md
         - name: "Визуальные элементы для организаций в Power\_BI"
           href: power-bi-custom-visuals-organization.md

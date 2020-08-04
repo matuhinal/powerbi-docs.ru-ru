@@ -80,7 +80,7 @@ ms.locfileid: "86973384"
 
      Нам известно, что продукт Монтана был снят с продажи в прошлом месяце, поэтому нам нужно отфильтровать эти данные из нашего отчета, чтобы избежать путаницы. 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Снимок экрана: удаление значений "Монтана".":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Снимок экрана: удаление значений Монтана.":::
 
 1. Вы увидите, что каждое преобразование добавлено в список в подразделе **Параметры запроса** раздела **Примененные шаги**.
 
@@ -215,13 +215,13 @@ ms.locfileid: "86973384"
 
 - На ленте **Вид** измените тему на **Executive**.  
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Снимок экрана: выбор темы "Executive"."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Снимок экрана: выбор темы Executive."::: 
 
 **Изменение визуальных элементов** 
 
 Внесите следующие изменения на вкладке **Формат** в области "Визуализации".
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Снимок экрана: вкладка "Формат" в области "Визуализации".":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Снимок экрана: вкладка Формат в области Визуализации.":::
 
 1. Выберите визуальный элемент 2. В разделе **Заголовок** измените **Текст заголовка** на "Прибыль по месяцам и годам", а **Размер текста** — на **16 пт**. Установите переключатель **Тень** в положение **Вкл.** . 
 
@@ -237,7 +237,7 @@ ms.locfileid: "86973384"
 1. В области **Формат фигуры** в разделе **Линия** измените значение параметра **Прозрачность** на **100%** . 
 1. В разделе **Заливка** измените **Цвет заливки** на **Цвет темы 5 #6B91C9** (синий). 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Снимок экрана: "Цвет темы 5".":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Снимок экрана: Цвет темы 5.":::
 
 1. На вкладке **Формат** выберите **Переместите назад** > **На задний план**. 
 1. Выберите текст в визуальном элементе 1, в заголовке, и измените цвет шрифта на **Белый**. 

@@ -40,7 +40,7 @@ ms.locfileid: "87254224"
  
 2. Выберите таблицу и задайте для параметра **Is featured table** (Рекомендуемая таблица) значение **Да**.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Для параметра Is featured table (Рекомендуемая таблица) задано значение "Да"":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Для параметра Is featured table (Рекомендуемая таблица) задано значение Да":::
 
 4. В окне **Set up this featured table** (Настройка этой рекомендуемой таблицы) заполните обязательные поля:
 
