@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252896"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411964"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Использование внешних инструментов в Power BI Desktop (предварительная версия)
 
@@ -42,8 +42,6 @@ ms.locfileid: "87252896"
 * [Перспективы](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) для определения специализированных представлений метаданных набора данных для конкретных областей бизнеса.
 
 Управление переводами метаданных с помощью внешних инструментов возможно, но эта предварительная версия пока не поддерживает такую функцию. Если языковой стандарт текущего пользователя задан для перевода, редактирование объектов в списке полей с помощью текущей версии Power BI Desktop не будет работать правильно. 
-
-Есть известная проблема, которая возникает при создании отчетов по моделям, для которых определены группы вычислений. Если группа вычислений определяет динамическое форматирование в зависимости от выбранного вычисления или меры, такое форматирование сейчас доступно только в визуальных элементах таблиц, матриц и карточек.
 
 Все метаданные набора данных [табличной модели объектов](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) доступны только для чтения. Экземпляре Power BI Desktop Analysis Services по ка не поддерживает редактирование объектов, не включенных в список, который приведен в статье [Табличная модель объектов (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
 
@@ -134,9 +132,9 @@ ALM Toolkit — это инструмент сравнения схем с от
 
 Внешние инструменты можно отключить с помощью **групповых политик** или путем редактирования реестра, что аналогично процессу отключения **настраиваемых визуальных элементов**.
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 Значение 1 (десятичное) позволяет использовать внешние инструменты в Power BI, что является значением по умолчанию.
 
