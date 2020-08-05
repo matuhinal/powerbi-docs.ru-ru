@@ -2,19 +2,19 @@
 title: Копирование и вставка визуализации в службу Power BI
 description: Копирование и вставка визуализации в службу Power BI
 author: mihart
-ms.reviewer: maggie tsang
+ms.reviewer: maggie.tsang
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4ff249002248b438b189b59defffd3c61d981b70
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: dc5cba8953a527e87768815759a14dd8f2cf7ee1
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85398321"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537856"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>Копирование визуального элемента в качестве изображения в буфер обмена
 
