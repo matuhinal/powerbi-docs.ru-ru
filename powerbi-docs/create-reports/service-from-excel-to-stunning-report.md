@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251792"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478137"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Руководство. Превращение книги Excel в отчет службе Power BI для Microsoft Teams
 Ваш руководитель требует отчет по последним показателям продаж и прибыли к концу дня. При этом последние данные хранятся в различных сторонних системах и в файлах на вашем ноутбуке. Раньше создание визуальных элементов и форматирование отчета занимало несколько часов и заставляло понервничать.
@@ -204,8 +204,6 @@ ms.locfileid: "87251792"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Приступая к работе со службой Power BI](../fundamentals/service-get-started.md)
-* [Начало работы с Power BI Desktop](../fundamentals/desktop-getting-started.md)
-* [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)
+* Теперь, когда вы создали простейший отчет в службе Power BI, возможно, вы захотите создать отчет в Power BI Desktop. Ознакомьтесь с учебником [Превращение книги Excel в привлекательный отчет в Power BI Desktop](desktop-excel-stunning-report.md).
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223913"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411987"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 
@@ -73,7 +73,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * База данных Access
 * База данных SQL Server Analysis Services
 * База данных Oracle
-* База данных IBM DB2
+* База данных IBM DB2
 * База данных IBM Informix (бета-версия)
 * IBM Netezza
 * База данных MySQL
@@ -116,7 +116,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Наборы данных Power BI
 * Потоки данных Power BI
 * Common Data Service
-* Потоки данных Power Platform
+* Потоки данных Power Platform (бета-версия)
 
 На следующем рисунке показано окно **Получение данных** для **Power Platform**.
 
@@ -133,7 +133,8 @@ Power BI Desktop позволяет подключаться к данным и�
 * Хранилище BLOB-объектов Azure
 * Хранилище таблиц Azure
 * Azure Cosmos DB
-* Azure Data Lake Storage 2-го поколения
+* Azure Data Explorer (Kusto)
+* Azure Data Lake Storage 2-го поколения
 * Azure Data Lake Storage 1-го поколения
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
@@ -171,21 +172,19 @@ Power BI Desktop позволяет подключаться к данным и�
 * Merketo (бета-версия)
 * Mixpanel (бета-версия)
 * Planview Enterprise One — PRM (бета-версия)
-* Planview Projectplace (бета-версия)
 * QuickBooks Online (бета-версия)
 * Smartsheet (бета-версия)
 * SparkPost (бета-версия)
 * SweetIQ (бета-версия)
 * Planview Enterprise One — CTM (бета-версия)
 * Twilio (бета-версия)
-* tyGraph (бета-версия)
-* Webtrends (бета-версия)
 * ZenDesk (бета-версия)
 * Asana (бета-версия)
 * Dynamics 365 Customer Insights (бета-версия)
 * Источник данных Emigo
 * Entersoft Business Suite (бета-версия)
-* FactSet Analytics (бета-версия)
+* FactSet Analytics
+* Palantir Foundry
 * Industrial App Store
 * Хранилище данных Intune (бета-версия)
 * Microsoft Graph Security (бета-версия)
@@ -218,7 +217,10 @@ Power BI Desktop позволяет подключаться к данным и�
 * Скрипт Python
 * ODBC
 * OLE DB
+* Acterys: автоматизация и планирование моделей (бета-версия)
+* Automation Anywhere (бета-версия)
 * Solver
+* Cherwell (бета-версия)
 * Cognite Data Fusion (бета-версия)
 * FHIR
 * Information Grid (бета-версия)
@@ -233,6 +235,7 @@ Power BI Desktop позволяет подключаться к данным и�
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (бета-версия)
 * Vena (бета-версия)
+* Vessel Insight (бета-версия)
 * Workforce Dimensions (бета-версия)
 * Zucchetti HR Infinity (бета-версия)
 * Пустой запрос

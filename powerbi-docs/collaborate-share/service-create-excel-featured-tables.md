@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254224"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478091"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Настройка рекомендуемых таблиц в Power BI Desktop (предварительная версия)
 
 В Excel в коллекции типов данных находятся данные из *рекомендуемых таблиц* в наборах данных Power BI. В этой статье рассказывается, как настроить таблицы как *рекомендуемые* в наборах данных. Эти теги облегчают пользователям добавление корпоративных данных на свои листы Excel. Ниже приведены основные шаги по настройке и совместному использованию рекомендуемых таблиц.
 
-1. [Повысьте или сертифицируйте наборы данных в Power BI](../connect-data/service-datasets-promote.md). 
 1. Определите рекомендуемые таблицы в наборах данных в Power BI Desktop (в этой статье)
 1. Сохраните эти наборы данных с рекомендуемыми таблицами в одной из новых рабочих областей. Создатели отчетов могут создавать отчеты с этими рекомендуемыми таблицами. 
 1. Остальные пользователи организации могут подключаться к этим рекомендуемым таблицам, называемым *типами данных* в Excel, для получения актуальных и обновляемых данных. В статье [Доступ к рекомендуемым таблицам Power BI в Excel (предварительная версия)](service-excel-featured-tables.md) описывается использование этих рекомендуемых таблиц в Excel.
+
+> [!NOTE]
+> Вы можете [повышать уровень наборов данных в Power BI или сертифицировать их](../connect-data/service-datasets-promote.md). Это называется *подтверждением*. Таблицы из подтвержденных наборов данных приводятся в коллекции "Типы данных" в первую очередь. В Excel сначала приводятся рекомендованные таблицы из сертифицированных наборов данных, а затем таблицы из наборов данных с повышенным уровнем. После этого в Excel приводятся рекомендованные таблицы из неподтвержденных наборов данных. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>Включение предварительной версии рекомендуемых таблиц
 
@@ -31,6 +33,8 @@ ms.locfileid: "87254224"
 2. Установите флажок **Featured tables** (Рекомендуемые таблицы).
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
+
+3. Перезапустите Power BI Desktop.
 
 ## <a name="select-a-table"></a>Выбор таблицы
 

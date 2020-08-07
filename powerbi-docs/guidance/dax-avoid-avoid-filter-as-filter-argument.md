@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5120b1ec0ce1acbe746dabe2b11b5653a34a4603
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76161439"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537603"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Предотвращение использования FILTER в качестве аргумента фильтра
 
@@ -103,4 +103,6 @@ CALCULATE(
 
 - [Руководство по выражениям анализа данных (DAX)](/dax/)
 - [Функции фильтрации (DAX)](/dax/filter-function-dax)
+- Схема обучения: [Использование DAX в Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+- У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)

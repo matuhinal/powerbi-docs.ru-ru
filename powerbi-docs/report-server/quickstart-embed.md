@@ -3,17 +3,17 @@ title: По внедрению отчета решения "Сервер отч�
 description: Эта статья описывает внедрение отчета Сервера отчетов Power BI с помощью iFrame в SharePoint Server.
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 08/12/2019
+ms.date: 07/28/2020
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762607"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412010"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>По внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
 
@@ -24,7 +24,7 @@ ms.locfileid: "75762607"
 ## <a name="prerequisites"></a>Предварительные требования
 * Установленный и настроенный [Сервер отчетов Power BI](https://powerbi.microsoft.com/report-server/).
 * Установленное [приложение Power BI Desktop, оптимизированное для Сервера отчетов Power BI](install-powerbi-desktop.md).
-* Установленная и настроенная среда [SharePoint](https://docs.microsoft.com/sharepoint/install/install).
+* Установленная и настроенная [среда SharePoint 2013, 2016 или 2019](https://docs.microsoft.com/sharepoint/install/install).
 * Internet Explorer 11 поддерживается, только если для режима документа установлен режим IE11 (Microsoft Edge) или при использовании SharePoint Online. Вы можете использовать другие поддерживаемые браузеры в локальной среде SharePoint и в SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Создание URL-адреса отчета Power BI

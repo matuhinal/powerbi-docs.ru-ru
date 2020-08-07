@@ -9,19 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 6305a41188c4416b62d5432823bb30946e5e524d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254083"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478068"
 ---
 # <a name="share-directly-to-teams-from-the-power-bi-service"></a>Предоставление общего доступа непосредственно в Teams из службы Power BI
 
 Вы можете предоставлять доступ к панелям мониторинга, отчетам и визуальным элементам Power BI непосредственно в Microsoft Teams из службы Power BI. С помощью функции **Поделиться в Teams** можно быстро начать беседу при просмотре отчетов и панелей мониторинга в службе Power BI.
 
-Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Teams работают вместе, включая требования, которые необходимо выполнить.
+## <a name="requirements"></a>Требования
+
+Чтобы воспользоваться функцией **Поделиться в Teams** в Power BI, убедитесь в следующем:
+
+- Администраторы Power BI не отключили для клиента параметр **Поделиться в Teams** на портале администрирования Power BI. Этот параметр позволяет организациям скрывать кнопку **Поделиться в Teams**. Дополнительные сведения см. в статье [Портал администрирования Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting).
+
+Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Teams работают вместе, включая прочие требования.
 
 ## <a name="share-power-bi-content-to-teams"></a>Совместное использование содержимого Power BI в Teams
 

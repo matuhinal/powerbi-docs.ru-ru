@@ -1,6 +1,6 @@
 ---
 title: Визуальные элементы в Power BI
-description: Пользовательские визуализации в Power BI
+description: В этой статье описываются пользовательские визуальные элементы Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561646"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538017"
 ---
 # <a name="visuals-in-power-bi"></a>Визуальные элементы в Power BI
 
 В состав Power BI входит множеством готовых визуальных элементов Power BI. Эти визуальные элементы доступны на панели визуализации как в [Power BI Desktop](https://powerbi.microsoft.com/desktop/), так и в [службе Power BI](https://app.powerbi.com). Их можно использовать для создания и редактирования содержимого Power BI.
 
-![визуализации](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Снимок экрана области визуализации Power BI, отображаемой в Power BI Desktop и службе Power BI.](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 В Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) и в Power BI также доступно множество других визуальных элементов Power BI. Эти визуальные элементы создаются корпорацией Майкрософт и ее партнерами, а затем тестируются и проверяются командой проверки AppSource.
 
@@ -38,6 +38,11 @@ ms.locfileid: "83561646"
 ## <a name="appsource-power-bi-visuals"></a>Визуальные элементы Power BI из магазина AppSource
 
 Члены сообщества и специалисты Майкрософт создают свои визуальные элементы Power BI и публикуют их в магазине [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), чтобы любой мог воспользоваться ими. Эти визуальные элементы можно скачать и добавлять в отчеты Power BI. Эти визуальные элементы протестированы на предмет функциональности и качества и утверждены корпорацией Майкрософт.
+
+>[!NOTE]
+>* Используя визуальные элементы Power BI, созданные с помощью нашего пакета SDK, вы можете импортировать данные из сторонних служб или передавать данные в сторонние службы, расположенные за пределами географического региона, границ обеспечения соответствия требованиям или национального облачного экземпляра вашего клиента Power BI.
+>* Сертифицированные визуальные элементы Power BI — это визуальные элементы в AppSource, которые прошли дополнительную проверку того, что они не обращаются к внешним службам или ресурсам.
+>* После импорта визуальных элементов Power BI из AppSource они могут обновляться автоматически без дополнительного уведомления.
 
 ### <a name="what-is-appsource"></a>Что такое AppSource?
 
@@ -74,10 +79,17 @@ ms.locfileid: "83561646"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* Если вы являетесь разработчиком, начните с руководства по [разработке визуальных элементов Power BI](custom-visual-develop-tutorial.md).
+>[!div class="nextstepaction"]
+>[Руководство. Разработка визуального элемента Power BI](custom-visual-develop-tutorial.md)
 
-* Узнайте о [структуре проекта по созданию визуального элемента Power BI](visual-project-structure.md).
+>[!div class="nextstepaction"]
+>[Структура проекта визуальных элементов Power BI](visual-project-structure.md)
 
-* Изучите [рекомендации по визуальным элементам Power BI](guidelines-powerbi-visuals.md).
+>[!div class="nextstepaction"]
+>[Рекомендации по визуальным элементам Power BI](guidelines-powerbi-visuals.md)
 
-Появились дополнительные вопросы? Ознакомьтесь с [вопросами и ответами о визуальных элементах Power BI](power-bi-custom-visuals-faq.md) или обратитесь за помощью к участникам [сообщества Power BI](https://community.powerbi.com/).
+>[!div class="nextstepaction"]
+>[Часто задаваемые вопросы](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Сообщество Power BI](https://community.powerbi.com/)

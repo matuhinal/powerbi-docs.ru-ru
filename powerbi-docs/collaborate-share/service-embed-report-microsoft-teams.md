@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252574"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478022"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Внедрение содержимого Power BI в Microsoft Teams
 
 Можно с легкостью внедрять интерактивные отчеты Power BI в каналы и чаты Microsoft Teams. 
 
-Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-embed-report-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Teams работают вместе, включая требования, которые необходимо выполнить.
+## <a name="requirements"></a>Требования
+
+Чтобы использовать вкладку **Power BI** в Microsoft Teams, необходимо обеспечить следующее:
+
+- В Microsoft Teams должна быть вкладка **Power BI**.
+- Чтобы добавить отчет в Microsoft Teams на вкладке **Power BI**, необходимо иметь по крайней мере роль "Читатель" в рабочей области, в которой размещается отчет. Сведения о различных ролях см. в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
+- Чтобы просмотреть отчет на вкладке **Power BI** в Microsoft Teams, пользователи должны иметь разрешение на просмотр отчета.
+- Пользователи должны быть пользователями Microsoft Teams с доступом к каналам и чатам.
+
+Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-embed-report-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Teams работают вместе, включая прочие требования.
 
 ## <a name="embed-a-report-in-teams"></a>Внедрение отчета в Teams
 

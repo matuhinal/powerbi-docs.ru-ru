@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254215"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478045"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Совместная работа в Microsoft Teams с использованием Power BI
 
-Существует несколько вариантов предоставления общего доступа к интерактивному содержимому Power BI и совместной работы с ним посредством каналов и обсуждений Microsoft Teams. 
+По мере того как распределенная и удаленная работа становится нормой, все больше организаций используют Microsoft Teams для синхронизации усилий сотрудников. Power BI предлагает несколько вариантов предоставления общего доступа к интерактивному содержимому Power BI и совместной работы с ним посредством каналов и чатов Microsoft Teams. 
 
 - С помощью вкладки **Power BI** для Microsoft Teams можно [внедрять интерактивные отчеты в каналы и чаты Microsoft Teams](service-embed-report-microsoft-teams.md). На вкладке **Power BI** ваши коллеги могут найти данные вашей команды и обсуждать данные в каналах команд. 
 - Создайте [предварительный просмотр ссылок](service-teams-link-preview.md) при вставке ссылок на отчеты, панели мониторинга и приложения в поле сообщения Microsoft Teams, в которых отображаются сведения о ссылке. 
@@ -34,17 +34,6 @@ ms.locfileid: "87254215"
 - У пользователей должна быть лицензия Power BI Pro, либо отчет должен находиться в [емкости Power BI Premium (номер SKU EM или P)](../admin/service-premium-what-is.md) с лицензией Power BI.
 - Пользователи выполнили вход в службу Power BI и активировали свою лицензию Power BI.
 - Пользователи должны соответствовать требованиям для использования вкладки **Power BI** в Microsoft Teams.
-
-Чтобы использовать вкладку **Power BI** в Microsoft Teams, необходимо обеспечить следующее:
-
-- В Microsoft Teams должна быть вкладка **Power BI**.
-- Чтобы добавить отчет в Microsoft Teams на вкладке **Power BI**, необходимо иметь по крайней мере роль "Читатель" в рабочей области, в которой размещается отчет. Сведения о различных ролях см. в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
-- Чтобы просмотреть отчет на вкладке **Power BI** в Microsoft Teams, пользователи должны иметь разрешение на просмотр отчета.
-- Пользователи должны быть пользователями Microsoft Teams с доступом к каналам и чатам.
-
-Чтобы воспользоваться функцией **Поделиться в Teams** в Power BI, убедитесь в следующем:
-
-- Администраторы Power BI не отключили для клиента параметр **Поделиться в Teams** на портале администрирования Power BI. Этот параметр позволяет организациям скрывать кнопку **Поделиться в Teams**. Дополнительные сведения см. в статье [Портал администрирования Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting).
 
 ## <a name="grant-access-to-reports"></a>Предоставление доступа к отчетам
 

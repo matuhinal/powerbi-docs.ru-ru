@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 08/03/2020
 ms.author: kfollis
-ms.openlocfilehash: 34c46f97128d1229f46eeed254bdecee58a32aaf
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409474"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768408"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 [//]: # "Татевик Татеро (Tatevik Tatero) (tatevik.teroyan@simple-concepts.com) — это поставщик, работающий с Чонси Фрилс (Chauncy Freels) и помогающий вести этот список вебинаров"
@@ -27,6 +27,10 @@ ms.locfileid: "86409474"
 ## <a name="featured-webinars"></a>Популярные вебинары
 
 Начало работы с популярными вебинарами по запросу
+
+**Повышение удовлетворенности пользователей с помощью рекомендаций по управлению содержимым бизнес-аналитики**  
+Автор: Нимрод Шалит (Nimrod Shalit)  
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
 
 **От аналитики к действиям. Управление культурой данных с помощью Power BI**  
 Авторы: Арун Улагаратчаган (Arun Ulagaratchagan) и Амир Нетц (Amir Netz)  
