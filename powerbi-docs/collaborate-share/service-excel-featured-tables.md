@@ -39,11 +39,11 @@ ms.locfileid: "87768899"
 
 Чтобы найти данные в таблице Power BI, выберите ячейку или диапазон на листе Excel, содержащий значение, совпадающее со значением в основной таблице. Рядом с коллекцией типов данных щелкните стрелку **Дополнительно**.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Снимок экрана: значок "Дополнительно" в коллекции "Типы данных" в Excel.":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Снимок экрана: значок Дополнительно в коллекции Типы данных в Excel.":::
 
 Если вы видите таблицу, которую ищете, выберите ее. В противном случае щелкните **Еще из вашей организации**. Excel выполняет поиск всех рекомендуемых таблиц, к которым у вас есть доступ, и ищет совпадение.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="Снимок экрана: выбор элемента "Из вашей организации (предварительная версия)".":::
+:::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="Снимок экрана: выбор элемента Из вашей организации (предварительная версия).":::
  
 В Excel будут показаны все возможные таблицы. В области **Выбор данных** заполните поле **Фильтр**, чтобы уточнить параметры. Выберите соответствующую таблицу.
 
