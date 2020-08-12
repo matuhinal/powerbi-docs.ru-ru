@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286367"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878316"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Безопасность на уровне строк в табличной модели Analysis Services
 
@@ -64,7 +64,7 @@ ms.locfileid: "83286367"
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Задача 2. Создание табличной модели с таблицами фактов и измерений
 
-Создав реляционное хранилище данных, нужно определить табличную модель. Для создания модели можно использовать инструментарий [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT). Дополнительные сведения см. в статье [Создание проекта табличной модели](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project).
+Создав реляционное хранилище данных, нужно определить табличную модель. Для создания модели можно использовать инструментарий [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT). Дополнительные сведения см. в статье [Создание проекта табличной модели](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project).
 
 1. Импортируем в модель все необходимые таблицы, как показано ниже.
 
@@ -101,7 +101,7 @@ ms.locfileid: "83286367"
 
     Она указывает, что все столбцы разрешаются в `false`, поэтому столбцы таблицы `DimUserSecurity` не используются в запросе.
 
-Теперь нужно обработать и развернуть модель. Для получения дополнительных сведений см. раздел [Развертывание](/sql/analysis-services/lesson-13-deploy).
+Теперь нужно обработать и развернуть модель. Для получения дополнительных сведений см. раздел [Развертывание](/analysis-services/tutorial-tabular-1200/lesson-13-deploy).
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>Задача 3. Добавление источников данных в локальном шлюзе данных
 
@@ -164,9 +164,9 @@ ms.locfileid: "83286367"
 При выполнении этой задачи предполагается, что вы знакомы с приложением [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler), так как вам нужно выполнить трассировку обмена данными с SQL Server в локальном табличном экземпляре SSAS.
 
 Сеанс создается в момент, когда пользователь (Рита) обращается к панели мониторинга в службе Power BI. Мы видим, что роль **salesterritoryusers** сразу же применяется для действующего имени пользователя **<EffectiveUserName>rita@contoso.com</EffectiveUserName>** .
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 Используя запрос действующего имени пользователя, службы Analysis Services преобразуют его в учетные данные `contoso\rita` после отправки запроса в каталог Active Directory. После того как службы Analysis Services получают реальные учетные данные, они возвращают те данные, на работу с которыми у пользователя есть разрешение.
 
 Если на панели мониторинга будет выполнено еще какое-то действие, в SQL Profiler отразится соответствующий запрос, который направляется в табличную модель Analysis Services в виде запроса DAX. Например, если Рита переходит из панели мониторинга в базовый отчет, происходит следующий запрос.

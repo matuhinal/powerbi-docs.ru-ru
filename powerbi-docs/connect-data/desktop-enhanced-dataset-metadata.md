@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739260"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878458"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Использование расширенных метаданных набора данных (предварительная версия)
 
 Когда Power BI Desktop создает отчеты, он также создает метаданные набора данных в соответствующих файлах PBIX и PBIT. Ранее метаданные хранились в формате, характерном для Power BI Desktop. В нем использовались выражения M и источники данных в кодировке Base-64, а также предположения о том, как были сохранены метаданные.
 
-С выпуском функции **расширенных метаданных набора данных** многие из этих ограничений исключаются. При включенной функции **расширенных метаданных набора данных** метаданные, созданные Power BI Desktop, используют формат, аналогичный тому, что используется для табличных моделей Analysis Services, основанных на [табличной модели объектов](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
+С выпуском функции **расширенных метаданных набора данных** многие из этих ограничений исключаются. При включенной функции **расширенных метаданных набора данных** метаданные, созданные Power BI Desktop, используют формат, аналогичный тому, что используется для табличных моделей Analysis Services, основанных на [табличной модели объектов](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
 
 
 Функция **расширенных метаданных набора данных** является стратегической и базовой, поскольку в будущем функциональные возможности Power BI будут создаваться на основе метаданных. Некоторые дополнительные возможности, в которых могут использоваться преимущества расширенных метаданных набора данных, включают [чтение и запись XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) для управления наборами данных Power BI, а также миграцию рабочих нагрузок Analysis Services в Power BI для использования преимуществ функций следующего поколения.

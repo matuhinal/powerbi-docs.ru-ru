@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354485"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878705"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Руководство по Создание визуального элемента R с воронкообразной диаграммой из скрипта R
 В этой статье показано, как пошагово создать воронкообразную диаграмму с помощью скрипта R в визуальном элементе R.
@@ -75,7 +75,7 @@ ms.locfileid: "85354485"
 1. Заново упакуйте визуальный элемент с помощью команды `pbiviz package` и попытайтесь импортировать его в Power BI.
 
 > [!NOTE]
-> Чтобы скачать нужные файлы, перейдите на страницу [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) и [исходного кода](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/).
+> Чтобы скачать нужные файлы, перейдите на страницу [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) и [исходного кода](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/).
 
 ## <a name="make-r-based-visual-improvements"></a>Улучшение визуальных элементов на основе R
 
@@ -274,7 +274,7 @@ ms.locfileid: "85354485"
 
 * Каждый визуальный элемент R применяет оператор `unique` к своей входной таблице. Чтобы избежать удаления одинаковых строк, попробуйте добавить дополнительное поле ввода с уникальным идентификатором и проигнорировать его в коде R.   
 
-* Если у вас есть учетная запись Power BI, используйте службу Power BI для разработки визуального элемента [на лету](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual), без повторной упаковки с помощью команды `pbiviz package`.
+* Если у вас есть учетная запись Power BI, используйте службу Power BI для разработки визуального элемента [на лету](/power-bi/developer/visuals/custom-visual-develop-tutorial/), без повторной упаковки с помощью команды `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Коллекция мини-приложений HTML
 Изучите визуальные элементы в [коллекции мини-приложений HTML](http://gallery.htmlwidgets.org/) для использования в следующем визуальном элементе. Чтобы упростить процесс, мы создали [репозиторий проектов](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) с более чем 20 интерактивными визуальным и элементами HTML.

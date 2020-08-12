@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739191"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878568"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Журнал изменений API визуальных элементов Power BI
 На этой странице содержится краткий обзор версий API. Перечисленные здесь версии считаются стабильными, в них изменений не будет.
@@ -91,7 +91,7 @@ ms.locfileid: "84739191"
 
 ## <a name="api-v162"></a>API версии 1.6.2
 * Поддерживает **[режим редактирования](./advanced-edit-mode.md)** для визуального элемента.
-* Поддерживает **[интерактивные (HTML) визуальные элементы R в Power BI](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** на основе HTML.
+* Поддерживает **[интерактивные (HTML) визуальные элементы R в Power BI](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** на основе HTML.
 
 ## <a name="api-v150"></a>API версии 1.5.0
 * Поддерживает функцию **[разрешения взаимодействий](./visuals-interactions.md)** для взаимодействия визуальных элементов.
@@ -105,7 +105,7 @@ ms.locfileid: "84739191"
 ## <a name="api-v120"></a>API версии 1.2.0
 * Добавляет **colorPalette** для управления цветами, используемыми в визуальном элементе.
 * Поддерживает **выбор нескольких элементов**. selectionManager может принимать массив `SelectionId`.
-* Поддерживает **[визуальные элементы R](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** с помощью скриптов R.
+* Поддерживает **[визуальные элементы R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** с помощью скриптов R.
 
 ## <a name="api-v110"></a>API версии 1.1.0
 * Поддерживает визуальный элемент отладки в iFrame.

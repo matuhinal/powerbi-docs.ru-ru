@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380532"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878594"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Добавление поддержки закладок для визуальных элементов Power BI
 
@@ -49,9 +49,9 @@ ms.locfileid: "79380532"
 
 Если ваш визуальный элемент взаимодействует с другими визуальными элементами посредством [выбора](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), вы можете добавить закладки любым из двух способов:
 
-* Если визуальный элемент еще не использовал [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md), вы можете использовать метод `FilterManager.restoreSelectionIds`.
+* Если визуальный элемент еще не использовал [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts), вы можете использовать метод `FilterManager.restoreSelectionIds`.
 
-* Если визуальный элемент уже использует [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) для управления выбранными фрагментами, следует использовать метод `applySelectionFromFilter` в экземпляре `InteractivityService`.
+* Если визуальный элемент уже использует [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) для управления выбранными фрагментами, следует использовать метод `applySelectionFromFilter` в экземпляре `InteractivityService`.
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>Использование ISelectionManager.registerOnSelectCallback
 

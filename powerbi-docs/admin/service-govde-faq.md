@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fb67243b14fc5a89de0efc6f8248aa2b37fb2bbf
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034090"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878368"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Часто задаваемые вопросы о Power BI в облаке для пользователей из Германии
 **Служба Power BI** имеет версию, доступную для пользователей из ЕС и ЕАСТ, так называемую Microsoft Cloud Deutschland (MCD). Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из ЕС и ЕАСТ и отличается от коммерческой версии **службы Power BI** и службы Power BI для клиентов из государственных организаций.
@@ -64,7 +64,7 @@ ms.locfileid: "86034090"
 | API службы |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | Портал Office для управления лицензиями пользователей, отслеживания состояния службы работоспособности и поддержки запросов администраторами |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
 | Универсальный код ресурса (URI) центра AAD |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
-| Универсальный код ресурса (URI) службы Power BI |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
+| Универсальный код ресурса (URI) службы Power BI |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | Библиотека визуальных элементов Power BI |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Регистрация приложения Power BI (для Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
 | Портал Azure (для Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |

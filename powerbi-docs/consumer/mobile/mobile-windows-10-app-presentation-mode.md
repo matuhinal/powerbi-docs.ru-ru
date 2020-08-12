@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 06/28/2020
+ms.date: 08/11/2020
 ms.author: painbar
-ms.openlocfilehash: 436ef20a54312f2e169c428cf1d2914bc47eafb0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782631"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091699"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Просмотр отчетов и панели мониторинга в режиме презентации на устройствах Surface Hub и Windows 10
 Можно использовать режим презентации для отображения отчетов и панели мониторинга в полноэкранном режиме на устройствах Windows 10 и Surface Hub. Режим презентации удобно использовать для показа Power BI на собраниях или конференциях, показа в офисе через специальный проектор или просто для увеличения места на небольшом экране.
@@ -73,4 +73,3 @@ ms.locfileid: "85782631"
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Отображение панелей мониторинга и отчетов в полноэкранном режиме (ТВ-режим)](../end-user-focus.md)
 * Вопросы? [Задайте их в сообществе Power BI](https://community.powerbi.com/).
-
