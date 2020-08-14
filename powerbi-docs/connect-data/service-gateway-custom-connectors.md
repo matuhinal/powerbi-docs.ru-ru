@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236614"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988697"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Использование пользовательских соединителей данных с локальным шлюзом данных
 
@@ -47,6 +47,7 @@ ms.locfileid: "85236614"
 * Убедитесь, что созданная папка доступна в фоновой службе шлюза. Обычно папки, расположенные в пользовательской папке Windows, а также системные папки недоступны. Если папка недоступна, в приложении локального шлюза данных отображается сообщение. Эта инструкция не применяется для локального шлюза данных (персональный режим).
 * Для использования пользовательских соединителей с локальным шлюзом данных необходима реализация ими раздела "TestConnection" в коде пользовательского соединителя. Это раздел не обязателен при использовании пользовательских соединителей с Power BI Desktop. По этой причине необходимо использовать соединители с Power BI Desktop, а не со шлюзом. Дополнительные сведения о реализации раздела TestConnection см. в [этой документации](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
 * Сейчас использовать OAuth для настраиваемых соединителей через шлюзы могут только администраторов шлюзов, но не другие пользователи источника данных.
+* Если ваш настраиваемый соединитель находится на сетевом диске, укажите полный путь к приложению локального шлюза данных.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -58,4 +59,4 @@ ms.locfileid: "85236614"
 * [Настройка параметров прокси-сервера для локального шлюза данных](/data-integration/gateway/service-gateway-proxy)
 * [Использование Kerberos для единого входа из Power BI в локальные источники данных](service-gateway-sso-kerberos.md)  
 
-У вас имеются и другие вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).
+Появились дополнительные вопросы? Попробуйте задать вопрос в [сообществе Power BI](https://community.powerbi.com/).

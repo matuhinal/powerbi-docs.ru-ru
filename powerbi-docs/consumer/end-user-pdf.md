@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768810"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837504"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Экспорт отчетов из Power BI в формат PDF
 
@@ -52,6 +52,7 @@ ms.locfileid: "87768810"
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
 При работе с функцией **Экспорт в PDF** следует учитывать ряд рекомендаций и ограничений.
 
+* Файл PDF будет включать данные и визуализации, отображаемые только на вашем холсте Power BI. Если визуальный элемент включает полосы прокрутки, файл PDF будет включать визуальный элемент в состоянии без прокрутки по умолчанию.  
 * Визуальные элементы R и Python пока не поддерживаются. В файле PDF эти элементы будут пустыми, и будет выведено сообщение об ошибке. 
 * Визуальные элементы Power BI, которые прошли сертификацию, поддерживаются. Дополнительные сведения о сертифицированных визуальных элементах Power BI, включая способы получения сертификации, см. в статье [Получение сертификации для визуального элемента Power BI](../developer/visuals/power-bi-custom-visuals-certified.md). Визуальные элементы Power BI, которые не прошли сертификацию, не поддерживаются. В файле PDF вместо них будет выведено сообщение об ошибке.
 * Визуальный элемент ESRI не поддерживается.

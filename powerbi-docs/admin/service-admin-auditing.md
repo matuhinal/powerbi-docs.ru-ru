@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161728"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091625"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Отслеживание действий пользователей в Power BI
 
@@ -318,6 +318,9 @@ Remove-PSSession $Session
 | Запрошено обновление потока данных Power BI               | RequestDataflowRefresh                      | Сейчас не используется                       |
 | Запрошено обновление набора данных Power BI                | RefreshDataset                              |                                          |
 | Получены рабочие области Power BI                     | GetWorkspaces                               |                                          |
+| Метка конфиденциальности применена                         | SensitivityLabelApplied                     |                                          |
+| Метка конфиденциальности изменена                         | SensitivityLabelChanged                     |                                          |
+| Метка конфиденциальности удалена                         | SensitivityLabelRemoved                     |                                          |
 | Задано расположение хранилища потоков данных для рабочей области     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Задано запланированное обновление потока данных Power BI        | SetScheduledRefreshOnDataflow               |                                          |
 | Задано запланированное обновление набора данных Power BI         | SetScheduledRefresh                         |                                          |

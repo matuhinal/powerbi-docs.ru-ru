@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: Использование собственных ключей шифрования
               href: service-encryption-byok.md
+            - name: 'Использование ключей, управляемых клиентом'
+              href: service-encryption-customer-managed-keys.md
             - name: Перезагрузка емкости Premium
               href: service-admin-premium-restart.md
             - name: Возможность подключения к набору данных с помощью конечной точки XMLA

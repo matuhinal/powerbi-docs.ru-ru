@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681866"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837573"
 ---
 # <a name="power-bi-data-sources"></a>Источники данных Power BI
 
@@ -94,7 +94,7 @@ ms.locfileid: "84681866"
 | ODBC | Да | Да | Нет | Да | Да |
 | OleDb | Да | Да | Нет | Да | Да |
 | Oracle; | Да | Да | Да | Да | Да |
-| Paxata | Да | Да | Нет | Да | Нет |
+| Paxata <sup>8</sup> | Да | Да | Нет | Да | Нет |
 | PDF | Да | Да | Нет | Да | Нет <sup>4</sup> |
 | Planview Enterprise One — CTM | Да | Да | Нет | Нет | Нет |
 | Planview Enterprise One — PRM | Да | Да | Нет | Нет | Нет |
@@ -155,6 +155,8 @@ ms.locfileid: "84681866"
 
 <sup>7</sup> Служба Power BI не поддерживает каналы OData, требующие проверки подлинности.
 
+<sup>8</sup> Paxata поддерживается в версии Power BI Desktop, оптимизированной для сервера отчетов Power BI. Это решение не поддерживается в отчетах Power BI, опубликованных на сервере отчетов Power BI. Список поддерживаемых источников данных см. в статье [Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"](../report-server/data-sources.md).
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Единый вход для источников DirectQuery
 
 Если включен параметр единого входа и пользователям предоставлен доступ к отчетам на основе источника данных, Power BI отправляет их учетные данные для проверки подлинности Azure AD в запросах к базовому источнику данных. Это позволяет Power BI использовать параметры безопасности, настроенные на уровне источника данных.
@@ -180,3 +182,4 @@ ms.locfileid: "84681866"
 [Использование DirectQuery в Power BI](desktop-directquery-about.md)  
 [Динамические данные служб SQL Server Analysis Services в Power BI](sql-server-analysis-services-tabular-data.md)  
 [Что такое локальный шлюз данных?](service-gateway-onprem.md)  
+[Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"](../report-server/data-sources.md)

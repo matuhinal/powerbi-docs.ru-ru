@@ -12,14 +12,14 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/17/2020
+ms.date: 08/10/2020
 ms.author: mihart
-ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537258"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049743"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Краткое руководство: сведения о возможностях Power BI для *потребителей*
 
@@ -102,7 +102,7 @@ Power BI — это коллекция программных служб, пр
 ![Плитка, карточка, ключевой показатель эффективности](media/end-user-alerts/card-gauge-kpi.png)
 
 Как только значение выйдет за пределы установленного диапазона или порогового значения, служба Power BI автоматически направит вам сообщение электронной почты.  
-![Оповещение по электронной почте](media/end-user-alerts/power-bi-alert-email.png)
+![Оповещение по электронной почте](media/end-user-alerts/power-bi-email.png)
 
 Дополнительные сведения об [оповещениях Power BI](end-user-alerts.md)
 

@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034343"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049191"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Активация меток конфиденциальности в Power BI
 
@@ -24,7 +24,20 @@ ms.locfileid: "86034343"
 * Определенные пользователи и группы безопасности в организации могут классифицировать метки конфиденциальности и [применять их](./service-security-apply-data-sensitivity-labels.md) к своим панелям мониторинга, отчетам, наборам данных и потокам данных Power BI.
 * Все члены организации могут просматривать эти метки.
 
-Для активации меток конфиденциальности требуется лицензия Azure Information Protection. Дополнительные сведения см. в разделе [Лицензирование](service-security-sensitivity-label-overview.md#licensing).
+Для активации меток конфиденциальности требуется лицензия Azure Information Protection. Дополнительные сведения см. в разделе [Лицензирование и требования](#licensing-and-requirements).
+
+## <a name="licensing-and-requirements"></a>Лицензирование и требования
+
+* Для применения и просмотра меток конфиденциальности Microsoft Information Protection в Power BI требуется лицензия Azure Information Protection Premium P1 или Premium P2. Средство Azure Information Protection можно приобрести как отдельно, так и в составе одного из наборов лицензирования Майкрософт. Дополнительные сведения см. в статье [Цены на Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/).
+
+* Чтобы применять метки к содержимому Power BI, в дополнение к указанным выше лицензиям Azure Information Protection пользователям потребуется лицензия Power BI Pro.
+
+* Приложения Office имеют отдельные [требования к лицензированию для просмотра и применения меток конфиденциальности]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ).
+
+* Перед включением меток конфиденциальности для арендатора убедитесь, что метки конфиденциальности определены и опубликованы для соответствующих пользователей и групп. Дополнительные сведения см. в статье [Создание и настройка меток конфиденциальности и соответствующих политик](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
+
+>[!NOTE]
+> Если в организации используются метки конфиденциальности Azure Information Protection, их необходимо перенести на платформу унифицированных меток Microsoft Information Protection, чтобы их можно было использовать в Power BI. [Узнайте больше о переносе меток конфиденциальности.](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
 ## <a name="enable-sensitivity-labels"></a>Активация меток конфиденциальности
 
@@ -52,9 +65,9 @@ ms.locfileid: "86034343"
 
 В Power BI используются метки конфиденциальности Microsoft Information Protection. Если при попытке активировать метки конфиденциальности появляется сообщение об ошибке, это может быть вызвано одной из следующих причин:
 
-* У вас нет [лицензии](service-security-sensitivity-label-overview.md#licensing) Azure Information Protection.
-* Не был выполнен перенос меток конфиденциальности в версию Microsoft Information Protection, поддерживаемую Power BI. Дополнительные сведения о [переносе меток конфиденциальности](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
-* В организации не определены метки конфиденциальности Microsoft Information Protection. Учтите, что использовать можно только те метки, которые включены в опубликованную политику. Дополнительные сведения о метках конфиденциальности можно найти в [этой статье](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels). Чтобы узнать больше об определении меток и публикации политик для организации, вы также можете посетить [центр безопасности и соответствия требованиям Майкрософт](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels).
+* У вас нет [лицензии](#licensing-and-requirements) Azure Information Protection.
+* Метки конфиденциальности не [перенесены](#enable-sensitivity-labels) в версию Microsoft Information Protection, поддерживаемую Power BI.
+* [В организации не определены](#enable-sensitivity-labels) метки конфиденциальности Microsoft Information Protection.
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 

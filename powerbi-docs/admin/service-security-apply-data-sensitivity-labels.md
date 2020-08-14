@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035151"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049214"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Применение меток конфиденциальности в Power BI
 
@@ -21,8 +21,8 @@ ms.locfileid: "86035151"
 
 Для применения меток конфиденциальности в Power BI
 * У вас должны быть лицензия Power BI Pro и разрешения на редактирование содержимого, к которым требуется добавлять метки.
-* Вы должны входить в группу безопасности, которой назначены разрешения на применение меток конфиденциальности, как описывается в статье [Активация меток конфиденциальности в Power BI](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels).
-* Все [предварительные требования](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi) и [требования к лицензированию](./service-security-data-protection-overview.md#licensing) должны быть выполнены.
+* Вы должны входить в группу безопасности, которой назначены разрешения на применение меток конфиденциальности, как описывается в статье [Активация меток конфиденциальности в Power BI](./service-security-enable-data-sensitivity-labels.md).
+* Необходимо выполнить все [требования, в том числе к лицензированию](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements).
 
 Дополнительные сведения о метках конфиденциальности в Power BI см. в статье [Метки конфиденциальности в Power BI](service-security-sensitivity-label-overview.md).
 
