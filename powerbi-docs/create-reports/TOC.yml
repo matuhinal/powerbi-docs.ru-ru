@@ -119,7 +119,7 @@
       items:
         - name: Отчеты Power BI
           items:
-            - name: Включение автоматического обновления страниц (предварительная версия)
+            - name: Включение автоматического обновления страниц
               href: desktop-automatic-page-refresh.md
             - name: Проверка элементов отчета с помощью Анализатора производительности
               href: desktop-performance-analyzer.md
