@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3707399d21d15b16236e0e33da6c264fb6e364b4
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768979"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160425"
 ---
 # <a name="export-reports-to-powerpoint"></a>Экспорт отчетов в PowerPoint
 
@@ -102,7 +102,6 @@ ms.locfileid: "87768979"
    - Фоновые изображения будут обрезаны по ограничивающей области диаграммы. Рекомендуем удалить фоновые рисунки перед экспортом в PowerPoint.
 
 * Некоторые отчеты невозможно экспортировать. К ним относятся:
-    - Отчеты, принадлежащие пользователям вне домена клиента Power BI (например, отчет, принадлежащий пользователю не из вашей организации, к которому он предоставил вам доступ).
     - Если вы совместно используете панель мониторинга с кем-либо не из вашей организации (то есть этот пользователь находится вне клиента Power BI), этот пользователь не сможет экспортировать отчеты, связанные с общей панелью мониторинга, в PowerPoint. Например, если вы aaron@contoso.com, вы сможете предоставить общий доступ david@cohowinery.com. Но david@cohowinery.com не может экспортировать связанные отчеты в PowerPoint.
     - Отчеты, содержащие более 50 страниц. Будут экспортированы только первые 50 страниц.
     - Отчеты, экспортируемые в более старые версии PowerPoint.

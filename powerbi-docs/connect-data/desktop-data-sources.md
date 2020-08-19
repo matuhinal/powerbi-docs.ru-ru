@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/28/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411987"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160402"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Источники данных в Power BI Desktop
 
@@ -217,28 +217,31 @@ Power BI Desktop позволяет подключаться к данным и�
 * Скрипт Python
 * ODBC
 * OLE DB
-* Acterys: автоматизация и планирование моделей (бета-версия)
-* Automation Anywhere (бета-версия)
 * Solver
-* Cherwell (бета-версия)
-* Cognite Data Fusion (бета-версия)
 * FHIR
 * Information Grid (бета-версия)
 * Jamf Pro (бета-версия)
-* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (бета-версия)
 * Roamler (бета-версия)
 * Сочетания клавиш для бизнес-аналитики (бета-версия)
 * Siteimprove
-* SurveyMonkey (бета-версия)
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (бета-версия)
-* Vena (бета-версия)
 * Vessel Insight (бета-версия)
 * Workforce Dimensions (бета-версия)
 * Zucchetti HR Infinity (бета-версия)
+* Cognite Data Fusion (бета-версия)
+* MicroStrategy for Power BI
+* SurveyMonkey (бета-версия)
+* Vena (бета-версия)
+* Acterys: автоматизация и планирование моделей (бета-версия)
+* Automation Anywhere (бета-версия)
+* Cherwell (бета-версия)
 * Пустой запрос
+
+
+
 
 На следующем рисунке показано окно **Получение данных** для категории **Другие**.
 
