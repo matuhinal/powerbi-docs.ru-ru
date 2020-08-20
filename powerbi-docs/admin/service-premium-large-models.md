@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227261"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204331"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Большие модели в Power BI Premium (Предварительная версия)
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 При использовании больших моделей учитывайте следующие ограничения.
 
-- **Перенос собственного ключа шифрования BYOK.** Наборы данных, включенные для файлов уровня "Премиум", не шифруются [BYOK](service-encryption-byok.md).
 - **Поддержка нескольких регионов.** Для наборов данных, включенных для файлов уровня "Премиум", не будет работать емкость, в которой также включен пункт [несколько регионов](service-admin-premium-multi-geo.md).
 
 - **Скачивание Power BI Desktop.** Если набор данных хранится в файлах уровня "Премиум", [скачивание в виде PBIX-файла](../create-reports/service-export-to-pbix.md) завершится сбоем.
@@ -131,23 +130,23 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 |Регион Azure  |Сокращенное название региона Azure  |
 |---------|---------|
 |Восточная Австралия     | australiaeast        |
-|Юго-Восточная Австралия     | australiasoutheast        |
+|Australia Southeast     | australiasoutheast        |
 |Центральная часть США     | centralus        |
 |Восточная Азия     | eastasia        |
 |Восточная часть США     | eastus        |
-|Восточная часть США 2     | eastus2        |
-|Восточная Япония     | japaneast        |
+|восточная часть США 2     | eastus2        |
+|Japan East     | japaneast        |
 |Западная Япония     | japanwest        |
-|Центральная Корея, центральный регион     | koreacentral        |
+|Республика Корея, центральный регион     | koreacentral        |
 |Республика Корея, южный регион     | koreasouth        |
 |Центрально-северная часть США     | northcentralus        |
 |Северная Европа     | northeurope        |
 |Центрально-южная часть США     | southcentralus        |
-|Юго-Восточная Азия     | southeastasia        |
-|Южная часть Соединенного Королевства     | uksouth        |
-|Западная часть Соединенного Королевства     | ukwest        |
+|Southeast Asia     | southeastasia        |
+|южная часть Соединенного Королевства     | uksouth        |
+|западная часть Соединенного Королевства     | ukwest        |
 |Западная Европа     | westeurope        |
-|Западная часть США     | westus        |
+|западная часть США     | westus        |
 |Западная часть США 2     | westus2        |
 
 
