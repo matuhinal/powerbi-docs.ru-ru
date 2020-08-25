@@ -15,6 +15,8 @@
           href: service-service-vs-desktop.md
     - name: Учебники
       items:
+        - name: Начало работы с Power BI Desktop
+          href: desktop-getting-started.md
         - name: "Приступая к работе со службой Power\_BI"
           href: service-get-started.md
     - name: Основные понятия
@@ -41,8 +43,6 @@
       items:
         - name: Получение Power BI Desktop
           href: desktop-get-the-desktop.md
-        - name: Начало работы с Power BI Desktop
-          href: desktop-getting-started.md
     - name: Справка
       items:
         - name: "Поддерживаемые языки и страны\_(регионы)"
