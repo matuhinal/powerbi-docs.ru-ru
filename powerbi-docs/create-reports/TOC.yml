@@ -71,6 +71,8 @@
               items:
                 - name: '"Вопросы и ответы": введение'
                   href: ../natural-language/q-and-a-intro.md
+                - name: 'Вопросы и ответы: источники данных'
+                  href: ../natural-language/q-and-a-data-sources.md
                 - name: 'Функция "Вопросы и ответы": введение'
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: 'Функция "Вопросы и ответы": расширенные возможности'
