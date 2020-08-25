@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435888"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204910"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Рекомендации по визуальным элементам Power BI
 Перед [публикацией](office-store.md) вашего визуального элемента Power BI для других пользователей в Microsoft AppSource, обязательно выполните рекомендации, чтобы сделать его поиск и использование максимально удобными.
@@ -59,6 +59,9 @@ ms.locfileid: "79435888"
 Все визуальные элементы Power BI должны использовать контекстное меню для обеспечения единого интерфейса.
 Обратитесь к [этой статье](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md), чтобы узнать, как добавить контекстное меню.
 
+>[!div class="mx-imgBorder"]
+>![Снимок экрана: контекстное меню визуального элемента Power BI.](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>Коммерческий логотип
 В этом разделе приведены требования к добавлению коммерческих логотипов в визуальные элементы Power BI. Коммерческие логотипы не являются обязательными. В случае добавления они должны соответствовать этим рекомендациям.
 
@@ -74,15 +77,15 @@ ms.locfileid: "79435888"
 Существует три типа коммерческих логотипов:
 * **Логотип** — состоит из двух связанных элементов: значка и названия организации.
 
-    ![Логотип корпорации Майкрософт](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Снимок экрана: логотип Майкрософт.](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **Символ** — значок без какого-либо текста.
 
-    ![Символ Майкрософт](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Снимок экрана: символ Майкрософт.](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **Текстовый логотип** — логотип без значка, содержащий только текст.
 
-    ![Символ Майкрософт](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![Снимок экрана: логотип Майкрософт без значка.](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>Цвет коммерческого логотипа
 
@@ -90,15 +93,15 @@ ms.locfileid: "79435888"
 
 * **Логотип**
 
-    ![Символ Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![Снимок экрана: логотип Майкрософт в оттенках серого.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **Символ** — значок без какого-либо текста.
 
-    ![Символ Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![Снимок экрана: символ Майкрософт в оттенках серого.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **Текстовый логотип** — логотип без значка, содержащий только текст.
 
-    ![Символ Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![Снимок экрана: логотип Майкрософт без значка в оттенках серого.](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * Если ваш визуальный элемент Power BI содержит графику, попробуйте добавить к логотипу белый фон (с полями по 10 пикселей).
@@ -110,13 +113,13 @@ ms.locfileid: "79435888"
 
 В следующей таблице приводятся рекомендации по выбору размера для визуальных элементов Power BI.
 
-|  |Малый визуальный элемент Power BI  |Крупный визуальный элемент Power BI  |
+|Параметры  |Малый визуальный элемент Power BI  |Крупный визуальный элемент Power BI  |
 |---------|---------|---------|
 |*Ширина логотипа*    |До 240 пикселей         |Более 240 пикселей         |
 |*Высота логотипа*     |До 160 пикселей         |Более 160 пикселей         |
 |*Размер ограничивающего прямоугольника*     |40 x 15 пикселей         |101 x 30 пикселей         |
-|*Пример коммерческого логотипа*     |![Символ Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Логотип корпорации Майкрософт](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|*Пример ограничивающего прямоугольника*    |![пример малого логотипа](media/guidelines-powerbi-visuals/small-logo-box.png)         |![пример крупного логотипа](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|*Пример коммерческого логотипа*     |![Снимок экрана: небольшая версия коммерческого логотипа Майкрософт.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Снимок экрана: коммерческий логотип Майкрософт.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Пример ограничивающего прямоугольника*    |![Снимок экрана: размеры мелкого логотипа.](media/guidelines-powerbi-visuals/small-logo-box.png)         |![Снимок экрана: размеры крупного логотипа.](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>Действие коммерческого логотипа
@@ -140,13 +143,13 @@ ms.locfileid: "79435888"
 
 * Старайтесь не использовать цветной или черный коммерческий логотип. Коммерческий логотип должен быть серого цвета (шестнадцатеричный цвет #C8C8C8).
 
-    ![Неразрешенный цветной логотип](media/guidelines-powerbi-visuals/no-color-logo.png) ![Неразрешенный черный логотип](media/guidelines-powerbi-visuals/black-logo.png)
+    ![Снимок экрана: неавторизованный цветной логотип Майкрософт.](media/guidelines-powerbi-visuals/no-color-logo.png) ![Снимок экрана: неавторизованный черный логотип Майкрософт](media/guidelines-powerbi-visuals/black-logo.png)
 
 * Коммерческий логотип с эффектами, например градиентом или резкими тенями.
 
-    ![Неразрешенный стиль логотипа](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![Снимок экрана: пример стиля неавторизованного логотипа Майкрософт.](media/guidelines-powerbi-visuals/no-style-logo.png)
 
-## <a name="best-practices"></a>Советы и рекомендации
+## <a name="best-practices"></a>Рекомендации
 
 При публикации визуального элемента Power BI примите во внимание следующие рекомендации для большего удобства ваших пользователей.
 
@@ -164,4 +167,7 @@ ms.locfileid: "79435888"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Узнайте, как опубликовать свой визуальный элемент Power BI для других пользователей в [Microsoft AppSource](office-store.md).
+Узнайте, как опубликовать свой визуальный элемент Power BI для других пользователей в Microsoft AppSource.
+
+>[!div class="nextstepaction"]
+>[Публикация визуальных элементов Power BI](office-store.md)

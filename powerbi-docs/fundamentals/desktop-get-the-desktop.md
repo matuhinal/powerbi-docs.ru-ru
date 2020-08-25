@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/23/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252643"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160218"
 ---
 # <a name="get-power-bi-desktop"></a>Получение Power BI Desktop
 Power BI Desktop дает возможность создавать расширенные запросы, модели и отчеты, визуализирующие данные. С помощью Power BI Desktop можно создавать модели данных, отчеты и совместно использовать данные, публикуя их в службе Power BI. Power BI Desktop можно скачать бесплатно.
@@ -97,6 +97,9 @@ Power BI Desktop дает возможность создавать расшир
 
 ## <a name="minimum-requirements"></a>Минимальные требования
 Минимальные требования для запуска Power BI Desktop:
+
+> [!IMPORTANT]
+> Power BI Desktop больше не будет поддерживаться в Windows 7 после 31 января 2021 г. После этой даты Power BI Desktop будет поддерживаться в Windows 8 или более поздних версиях Windows, (только для последнего выпуска Power BI Desktop). 
 
 * Windows 7, Windows Server 2008 R2 или более поздние версии
 * .NET 4.5

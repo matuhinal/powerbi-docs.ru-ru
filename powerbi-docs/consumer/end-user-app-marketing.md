@@ -6,59 +6,58 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/09/2020
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f2e97a5b1ba8fc62581244cf26cd069ce5c2586
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162259"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88205120"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Установка и использование образца приложения "Маркетинг и продажи" в службе Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-После знакомства с [общими принципами получения содержимого Power BI](end-user-app-view.md) вы уже представляете, как получить приложение "Маркетинг и продажи" с веб-сайта Microsoft AppSource (appsource.com). 
+После знакомства с [общими принципами получения содержимого Power BI](end-user-app-view.md) давайте получим приложение "Маркетинг и продажи" с использованием Microsoft AppSource. 
 
 
-## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Получение приложения из Marketplace для приложений Power BI
+## <a name="get-the-app-from-microsoft-appsource"></a>Получение приложения из Microsoft AppSource
 
-1. [Войдите в службу Power BI](./end-user-sign-in.md) (если вы еще не сделали этого). 
+1. Откройте [https://appsource.microsoft.com](https://appsource.microsoft.com).
 
-1. В Power BI выберите **Приложения > Получить приложения**. 
+   ![открытие сайта AppSource  ](./media/end-user-app-marketing/power-bi-appsource.png)
 
-    ![Получить приложения  ](./media/end-user-app-marketing/power-bi-get-apps.png)
+1. В поле поиска введите **Маркетинг** и установите флажок рядом с параметром **Уточнить по продукту > Приложения Power BI**. 
 
-1. Откроется Marketplace для приложений Power BI. Найдите приложение "Продажи и маркетинг". Если вы не видите его, попробуйте ввести "Продажи" в поле поиска.
+    ![Получить приложения  ](./media/end-user-app-marketing/power-bi-search-appsource.png)
 
-    ![Marketplace для приложений Power BI  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-1. Щелкните плитку приложения. Откроется предложение приложения в AppSource. Щелкните **ПОЛУЧИТЬ**.
+1. Выберите плитку приложения **Пример Майкрософт — продажи и маркетинг**. При необходимости изучите общие сведения и обзоры и просмотрите изображения.  Затем нажмите кнопку **Получить**.
 
-   ![Предложение приложения в AppSource](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
+   ![Предложение приложения в AppSource](./media/end-user-app-marketing/power-bi-app-offering.png)
 
 1. Подтвердите, что хотите установить это приложение.
 
-   ![Установить это приложение?](./media/end-user-app-marketing/power-bi-app-install.png)
+   ![Установить это приложение?](./media/end-user-app-marketing/power-bi-installs.png)
 
 5. После установки приложения в службе Power BI появится сообщение о ее успешном выполнении. Выберите **Перейти к приложению**, чтобы открыть приложение. В зависимости от того, как разработчик создал приложение, появится либо панель мониторинга приложения, либо отчет о приложении.
 
     ![Приложение установлено ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
-    Приложение можно открыть непосредственно из списка содержимого приложений, выбрав пункт **Приложения**, а затем — **Продажи и маркетинг**.
+    Приложение можно открыть непосредственно из списка содержимого приложений, выбрав пункт **Приложения**, а затем — плитку приложения **Продажи и маркетинг**.
 
-    ![Приложения в Power BI](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
+    ![Приложения в Power BI](./media/end-user-app-marketing/power-bi-sales-marketing.png)
 
 
-6. Выберите, что вы хотите сделать: исследовать или настроить новое приложение и предоставить к нему общий доступ. Так как мы выбрали пример приложения Майкрософт, начнем с его изучения. 
+6. Выберите, следует ли подключить собственные данные, исследовать их с помощью демонстрационных данных либо настроить новое приложение и поделиться им. Так как мы выбрали пример приложения Майкрософт, начнем с его изучения. 
 
-    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-explore.png)
+    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  Откроется новое приложение с панелью мониторинга. *Разработчик* приложений также мог настроить открытие приложения с отчетом.  
 
-    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-new-app.png)
+    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 
@@ -70,6 +69,6 @@ ms.locfileid: "86162259"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Общие сведения о приложениях](end-user-apps.md)
-* [Просмотр отчета Power BI](end-user-report-open.md)
+* [Общие сведения о приложениях](end-user-apps.md)    
+* [Просмотр отчета Power BI](end-user-report-open.md)    
 * [Другие способы предоставления общего доступа к содержимому](end-user-shared-with-me.md)

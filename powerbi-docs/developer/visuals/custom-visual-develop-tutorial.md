@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739352"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512938"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Руководство. Разработка визуального элемента Power BI
 
@@ -130,7 +130,7 @@ ms.locfileid: "84739352"
 4. Закройте все открытые браузеры.
 
 > [!NOTE]
-> Если сертификат не удается распознать, может потребоваться перезагрузить компьютер.
+> Если сертификат не удается распознать, может потребоваться перезагрузить компьютер. Для некоторых браузеров, например Firefox, требуется доверять самозаверяющему сертификату. Для этого перейдите на страницу сервера webpack (https://localhost:8080/webpack-dev-server) и примите риск.
 
 ## <a name="creating-a-custom-visual"></a>Создание пользовательского визуального элемента
 
@@ -256,7 +256,7 @@ ms.locfileid: "84739352"
 
 6. Обратите внимание, что наш визуальный элемент появился на холсте отчета.
 
-    ![Новый визуальный элемент](media/custom-visual-develop-tutorial/new-visual-in-report.png)
+    ![Создать визуальный элемент](media/custom-visual-develop-tutorial/new-visual-in-report.png)
 
     > [!Note]
     > Это очень простой визуальный элемент, который отображает число вызовов метода update. На этом этапе визуальный элемент еще не может извлекать данные.
@@ -537,7 +537,7 @@ ms.locfileid: "84739352"
 
 Определите роли данных и сопоставления представлений данных, а затем измените логику пользовательского визуального элемента, чтобы он отображал имя и значение меры.
 
-### <a name="configuring-the-capabilities"></a>Настройка возможностей
+### <a name="configuring-the-capabilities"></a>Настройка функциональных возможностей
 
 В файле **capabilities.json** определите роли данных и сопоставления представлений данных.
 
