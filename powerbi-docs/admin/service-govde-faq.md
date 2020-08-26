@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878368"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702635"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Часто задаваемые вопросы о Power BI в облаке для пользователей из Германии
 **Служба Power BI** имеет версию, доступную для пользователей из ЕС и ЕАСТ, так называемую Microsoft Cloud Deutschland (MCD). Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из ЕС и ЕАСТ и отличается от коммерческой версии **службы Power BI** и службы Power BI для клиентов из государственных организаций.
@@ -53,6 +53,8 @@ ms.locfileid: "87878368"
    * Публикация в Интернете
    * Карты ArcGIS компании ESRI.
    * Служба Power BI Embedded (отдельный тарифный план лицензирования независимого поставщика программного обеспечения будет предоставляться для [Microsoft Azure для Германии](https://azure.microsoft.com/overview/clouds/germany/) в будущем).
+   * Журнал активности
+
 7. **Где найти сведения о конфигурации службы Power BI для пользователей облака для Германии для интеграции и использования с моими приложениями?**
    
    Мы обновили сведения о конфигурации в [примерах внедрения SaaS](https://github.com/Microsoft/PowerBI-Developer-Samples) для облака для Германии и других облаков Power BI. Сведения о конфигурации конечных точек для облака см. в примерах в папке **Cloud Configs**. В следующей таблице перечислены различные конфигурации конечных точек для службы Power BI для пользователей облака для Германии (и общедоступного облака для перекрестной ссылки).

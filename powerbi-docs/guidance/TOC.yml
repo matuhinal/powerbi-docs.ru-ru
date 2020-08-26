@@ -118,6 +118,24 @@
               href: report-performance-troubleshoot.md
             - name: Рекомендации по конвейерам развертывания
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: "Миграция в Power\_BI"
+      items:
+        - name: Общие сведения о переносе
+          href: powerbi-migration-overview.md
+        - name: Подготовка к миграции
+          href: powerbi-migration-pre-migration-steps.md
+        - name: Сбор требований
+          href: powerbi-migration-requirements.md
+        - name: Планирование развертывания
+          href: powerbi-migration-planning.md
+        - name: Проведение подтверждения концепции
+          href: powerbi-migration-proof-of-concept.md
+        - name: Создание содержимого
+          href: powerbi-migration-create-validate-content.md
+        - name: "Развертывание в Power\_BI"
+          href: powerbi-migration-deploy-support-monitor.md
+        - name: "Знакомство с пользовательскими миграциями в Power\_BI"
+          href: powerbi-migration-learn-from-customers.md
     - name: Центр компетенции
       items:
         - name: Преобразование бизнес-аналитики с Майкрософт
