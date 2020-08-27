@@ -7,7 +7,7 @@
       items:
         - name: "Источники данных в Power\_BI"
           href: service-get-data.md
-        - name: Что такое локальный шлюз данных?
+        - name: Общие сведения о локальном шлюзе данных
           href: service-gateway-onprem.md
     - name: Краткие руководства
       expanded: true
@@ -28,8 +28,6 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Подключение к примеру в GitHub
           href: service-tutorial-connect-to-github.md
-        - name: Использование "Анализа в Excel"
-          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: "Использование Cognitive\_Services"
           href: service-tutorial-use-cognitive-services.md
         - name: Интеграция Машинного обучения
@@ -58,7 +56,7 @@
               href: service-gateway-power-bi-faq.md
     - name: Практические руководства
       items:
-        - name: подключение к источникам данных.
+        - name: Подключение к источникам данных
           href: desktop-connect-to-data.md
         - name: Подключение к данным
           items:
@@ -202,7 +200,7 @@
               href: service-azure-sql-database-with-direct-connect.md
             - name: Динамические данные служб SQL Server Analysis в Power BI
               href: sql-server-analysis-services-tabular-data.md
-        - name: Обновить данные
+        - name: Обновление данных
           items:
             - name: "Обновление данных в Power\_BI"
               href: refresh-data.md
@@ -238,7 +236,7 @@
               href: service-template-update-delete-extract.md
             - name: Примеры приложений-шаблонов
               href: service-template-apps-samples.md
-        - name: Устранение неполадок
+        - name: Диагностика
           items:
             - name: Устранение неполадок в сценариях обновления
               href: refresh-troubleshooting-refresh-scenarios.md
@@ -330,7 +328,7 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Использование настраиваемых соединителей
               href: service-gateway-custom-connectors.md
-        - name: Устранение неполадок
+        - name: Диагностика
           items:
             - name: "Устранение неполадок с импортом XLS-файлов Excel и\_Access"
               href: desktop-access-database-errors.md
