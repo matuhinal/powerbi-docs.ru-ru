@@ -1,22 +1,23 @@
 ---
-title: Глоссарий для пользователей Power BI
-description: В Power BI введено много новых терминов, а также новых смыслов знакомых терминов. Используйте наш глоссарий для удобства работы с терминологией Power BI.
+title: Глоссарий для бизнес-пользователей Power BI
+description: В Power BI введено много новых терминов, а также новых смыслов знакомых терминов. Используйте наш глоссарий для удобства работы с терминологией службы Power BI.
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215604"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803050"
 ---
-# <a name="glossary-for-power-bi-service"></a>Глоссарий для службы Power BI    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Глоссарий для бизнес-пользователей службы Power BI    
 В службе Power BI может использоваться незнакомая или непонятная терминология. Глоссарий — удобное место для поиска терминов; можно даже использовать закладки. Другой полезный ресурс для изучения стандартных блоков, входящих в состав службы Power BI — [Основные концепции](end-user-basic-concepts.md). В этой статье дается общий обзор *частей* Power BI, а также показывается, как они связаны.
 
 Данный глоссарий — плод усилий сообщества.  Не нашли нужное слово? Предложите нам добавить его (можно воспользоваться кнопкой отзыва о документации внизу этой статьи).

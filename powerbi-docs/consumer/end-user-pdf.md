@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837504"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702681"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Экспорт отчетов из Power BI в формат PDF
 
@@ -68,6 +68,7 @@ ms.locfileid: "87837504"
 * Отчеты с нестандартными настраиваемыми размерами страниц могут вызывать проблемы при экспорте. Для получения наилучших результатов рекомендуется переключиться на стандартный размер страницы для отчета.
 * При экспорте в PDF в отчетах, в которых применяются темы с пользовательскими шрифтами, пользовательские шрифты заменяются шрифтом по умолчанию.
 * Хотя мы стремимся обеспечить согласованность, мы не можем гарантировать, что PDF-файл, экспортированный из службы Power BI, всегда будет соответствовать PDF-файлу, экспортированному из локального файла Power BI Desktop.
+* При экспорте в PDF мы не можем гарантировать идеальную пиксельную точность для отчетов PBIX.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Печать отчета](end-user-print.md)

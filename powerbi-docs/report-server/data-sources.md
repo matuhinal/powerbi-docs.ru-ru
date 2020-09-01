@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
+ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837619"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88857803"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
 Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services. Некоторые источники данных, поддерживаемые в Power BI Desktop, оптимизированы для сервера отчетов Power BI, но не оптимизированы для отчетов Power BI, публикуемых на сервере отчетов Power BI. Список источников данных, которые поддерживаются в обоих случаях, см. ниже.
@@ -209,6 +209,8 @@ ms.locfileid: "87837619"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Источники данных для отчетов Power BI[(../connect-data/power-bi-data-sources.md) в службе Power BI Теперь, когда вы подключились к источнику данных, [создайте отчет Power BI](quickstart-create-powerbi-report.md), используя данные из такого источника.
+[Источники данных для отчетов Power BI](../connect-data/power-bi-data-sources.md) в службе Power BI
+
+Подключившись к источнику данных, воспользуйтесь содержащимися в нем данными, чтобы [создать отчет Power BI](quickstart-create-powerbi-report.md).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: e737d8747f7d6d9b69eda2035df06abdddd9569f
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578077"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803096"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Установка и использование приложений с информационными панелями и отчетами в Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "88578077"
 
 ## <a name="ways-to-get-a-new-app"></a>Получение нового приложения
 Новое приложение можно получить несколькими способами.
-* Вы можете получить его из Marketplace для приложений Power BI.
+* Его можно получить в магазине приложений Power BI в службе Power BI.
 * Вы можете использовать прямую ссылку на приложение, полученную от его автора. 
 * Конструктор приложений организации может автоматически установить приложение в вашу учетную запись Power BI.
 
@@ -37,6 +37,8 @@ ms.locfileid: "88578077"
 Не все пользователи Power BI могут просматривать приложения и взаимодействовать с ними. 
 - Если у вас бесплатная лицензия, вы можете открывать приложения, которые хранятся в емкости Premium и к которым вам предоставлен доступ.  
 - Если у вас есть лицензия Pro, вы можете открывать приложения, к которым вам предоставлен доступ.
+
+Поэтому, если вы не можете открыть приложения, обратитесь к администратору или в службу поддержки. Сведения о лицензировании см. в разделе [Лицензирование Power BI](end-user-license.md).
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Получение приложения из Marketplace для приложений Power BI
 
