@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 669f05c03bd7a42d5b44f6ca2fa1b4d58680f71b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237756"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937385"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Использование DirectQuery с потоками данных в Power BI (предварительная версия)
 
@@ -48,8 +48,6 @@ DirectQuery можно использовать для прямого подкл
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 
 Существует несколько известных ограничений для DirectQuery и потоков данных, которые описаны в следующем списке.
-
-* DirectQuery для потоков данных не работает с включенной **предварительной версией функции расширенных метаданных**. Это исключение должно быть удалено в предстоящем ежемесячном выпуске Power BI Desktop.
 
 * Пока данная функция доступна в предварительной версии, некоторые клиенты могут столкнуться с задержками или снижением производительности при использовании DirectQuery с потоками данных. Такие проблемы активно устраняются в течение этого периода предварительной версии.
 

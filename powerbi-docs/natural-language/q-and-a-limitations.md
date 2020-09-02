@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866778"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937592"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Ограничения модуля "Вопросы и ответы" в Power BI
 
@@ -75,7 +75,6 @@ ms.locfileid: "82866778"
 
 ### <a name="statements-not-supported"></a>Неподдерживаемые инструкции
 
-- Использование мер в условиях в настоящее время не поддерживается. Преобразуйте меры в вычисляемые столбцы.
 - Использование нескольких условий не поддерживается. Чтобы обойти это ограничение, создайте вычисляемый столбец DAX, который вычисляет инструкцию с несколькими условиями как логическую, и используйте это поле.
 - Если не указать условие фильтра, когда модуль "Вопросы и ответы" запрашивает подмножество данных, сохранить определение будет невозможно, даже если в инструкции нет слов, подчеркнутых красным.
 

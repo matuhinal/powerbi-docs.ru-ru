@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2ef73377728703926ac6bc51f847a54451e1321e
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878716"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092413"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Руководство. Анализ данных о продажах из Excel и канала OData
 
@@ -272,7 +272,7 @@ Power BI Desktop не требует объединения запросов д�
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Прочитайте другие руководства по Power BI Desktop.](/power-bi/guided-learning/)
+* [Microsoft Learn для Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Посмотрите видеоматериалы по Power BI Desktop.](/power-bi/fundamentals/desktop-videos)
 * [Посетите форум Power BI.](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Прочитайте блог, посвященный Power BI.](https://go.microsoft.com/fwlink/?LinkID=519327)
