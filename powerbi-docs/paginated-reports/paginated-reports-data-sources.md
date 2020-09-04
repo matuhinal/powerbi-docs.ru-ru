@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: d82026ddb3ae12d95aed94fc6f96f45b4861ec48
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: fda04d3241db68f1ca8da66d999bfca6cef9e8cf
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168427"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937454"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "88168427"
 | --- | --- | --- |
 | База данных SQL Azure <br>Хранилище данных SQL Azure | Базовый, единый вход, OAuth2 | Вы можете использовать корпоративный шлюз с базой данных SQL Azure. Однако вы не можете использовать SSO или oAuth2 для проверки подлинности в этих сценариях.   |
 | Управляемый экземпляр базы данных SQL Azure | Базовый | через общедоступную или частную конечную точку (частная конечная точка должна маршрутизироваться через корпоративный шлюз)  |
-| Azure Analysis Services | SSO, OAuth2 | Брандмауэр AAS должен быть отключен или настроен для разрешения всех диапазонов IP-адресов в регионе BlackForest. Это относится только к региону BlackForest. |
+| Azure Analysis Services | SSO, OAuth2 | Брандмауэр AAS должен быть отключен или настроен для разрешения всех диапазонов IP-адресов в регионе BlackForest. Это относится только к региону BlackForest.  Единый вход из внешнего клиента не поддерживается. |
 | Набор данных Power BI | Единый вход | Наборы данных Power BI Premium и отличные от них. Требуется разрешение на чтение |
 | Набор данных Premium Power BI (XMLA) | Единый вход | Наборы данных Power BI не поддерживаются в качестве источников для внедренных отчетов с разбивкой на страницы.  |
 | Введите данные | Н/Д | Данные внедряются в отчет. |

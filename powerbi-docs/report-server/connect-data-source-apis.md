@@ -6,24 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/21/2020
+ms.date: 09/01/2020
 ms.author: maggies
-ms.openlocfilehash: bb769937e99cd3e936d7f5f3967e8f17b939242c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236056"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286735"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Изменение строк подключения к источникам данных в отчетах Power BI с помощью PowerShell — сервер отчетов Microsoft Power BI
 
 
-Строки подключения к источникам данных в отчетах Power BI на сервере отчетов Power BI можно изменять с помощью интерфейсов API в PowerShell. 
+Для взаимодействия с необходимыми API вы можете изменить строки подключения к источнику данных отчетов Power BI, размещенных на Сервере отчетов Power BI, с помощью PowerShell. 
 
 > [!NOTE]
 > Сейчас эта функция работает только для DirectQuery. Поддержка импорта и обновления данных ожидается в ближайшее время.
 
 1. Установите командлеты PowerShell для сервера отчетов Power BI. Командлеты и инструкции по установке см. на странице [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
+
+    Установите модуль `ReportingServicesTools` прямо из [коллекции PowerShell](https://www.powershellgallery.com/packages/ReportingServicesTools/), используя следующую команду.
+
+    ```powershell
+    Install-Module ReportingServicesTools
+    ```
 
 2. Получите сведения о существующем источнике данных для файла Power BI с помощью командлетов PowerShell:
 
@@ -70,4 +76,4 @@ ms.locfileid: "85236056"
 
 [Источники данных для отчетов с разбивкой на страницы в решении "Сервер отчетов Power BI"](connect-data-sources.md) 
 
-У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
+Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229959"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937638"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Подключение к Power BI Premium Capacity Metrics
 Отслеживание емкостей очень важно для принятия обоснованных решений в отношении оптимального использования ресурсов емкости Premium. Приложение Power BI Premium Capacity Metrics предоставляет наиболее полные сведения об эффективности использования емкостей.
@@ -63,6 +63,7 @@ ms.locfileid: "85229959"
 1. В появившемся диалоговом окне задайте смещение от UTC, то есть разницу в часах между временем в формате UTC и временем в вашем расположении. Нажмите кнопку **Next** (Далее).
   
    ![Диалоговое окно задания смещения от UTC в приложении Power BI Premium Capacity Metrics](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   **Примечание. Для указания половины часа следует использовать десятичные числа (например, 5,5, 2,5 и т. д.).**
 
 1. В следующем появившемся диалоговом окне не требуется выполнять никаких действий. Просто выберите **Войти**.
 

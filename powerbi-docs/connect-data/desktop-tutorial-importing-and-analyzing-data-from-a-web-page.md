@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348627"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092367"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Руководство. Анализ данных веб-страницы с помощью Power BI Desktop
 
@@ -169,7 +169,7 @@ ms.locfileid: "83348627"
 
 1. Выберите визуализацию и щелкните значок **Формат**, а затем выберите **Цвета данных**, чтобы развернуть параметры цветов данных.
 
-   ![Форматирование цветов данных](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![Выбор значка "Формат" и элемента "Цвета данных"](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. Для параметра **Показать все** выберите значение **Включено**, а затем выберите значок раскрывающегося списка рядом с элементом **Западная Германия** и выберите для него желтый цвет.
 
@@ -179,7 +179,7 @@ ms.locfileid: "83348627"
 
 1. Укажите для параметра **Цвет шрифта** значение "Красный", затем установите для параметра **Размер текста** значение **12** и измените **семейство шрифтов** на **Segoe (Bold)** (Segoe (полужирный)).
 
-   ![Форматирование цветов данных](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![Семейство шрифтов, размер и цвет шрифта](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 Теперь визуализация карты выглядит примерно так:
 
@@ -201,7 +201,7 @@ Power BI Desktop предоставляет удобные возможност�
 
 ## <a name="see-also"></a>См. также:
 
-* [Прочитайте другие руководства по Power BI Desktop.](/power-bi/guided-learning/)
+* [Microsoft Learn для Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Посмотрите видеоматериалы по Power BI Desktop.](../fundamentals/desktop-videos.md)
 * [Посетите форум Power BI.](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Прочитайте блог, посвященный Power BI.](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215893"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286781"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Список функций Power BI для *потребителей* и других пользователей с бесплатными лицензиями
 
@@ -49,7 +49,7 @@ ms.locfileid: "86215893"
 
 - **Бесплатная лицензия** обычно назначается *потребителям* в организации (см. первый рисунок ниже). Также назначается любому пользователю, который подписывается на службу Power BI в качестве отдельного пользователя и хочет опробовать [службу Power BI в автономном режиме](../fundamentals/service-self-service-signup-for-power-bi.md) (см. второй рисунок ниже). 
 
-    ![экран с бесплатным пользователем](media/end-user-features/power-bi-free-organization.png)
+    ![Снимок экрана, на котором показаны данные пользователя, использующего емкость Premium](media/end-user-features/power-bi-free-organization.png)
 
     Бесплатные пользователи, которые являются членами организации с емкостью Premium, обладают очень широкими возможностями. Если ваши коллеги с лицензией Pro используют рабочие области емкости Premium для обмена содержимым, бесплатные пользователи могут просматривать это содержимое и совместно работать с этими коллегами с лицензией Pro.  **Таким образом бесплатный пользователь становится *потребителем* Power BI с возможностью получения и совместного использования содержимого для принятия бизнес-решений.** 
  
@@ -87,7 +87,7 @@ ms.locfileid: "86215893"
 |Добавить в избранное | ![оранжевый x](media/end-user-features/orange-x.png) | ![зеленая точка](media/end-user-license/power-bi-green-dot.png)  |
  |Изменение, обновление, повторное предоставление общего доступа, повторная публикация |![оранжевый x](media/end-user-features/orange-x.png)  |![оранжевый x](media/end-user-features/orange-x.png)   |
  |Создание приложения |![оранжевый x](media/end-user-features/orange-x.png)  |![оранжевый x](media/end-user-features/orange-x.png)   |
- |AppSource: загрузка и открытие | ![оранжевый x](media/end-user-features/orange-x.png)  |![оранжевый x](media/end-user-features/orange-x.png) | 
+ |AppSource: скачивание и открытие | ![оранжевый x](media/end-user-features/orange-x.png)  |![оранжевый x](media/end-user-features/orange-x.png) | 
 |Хранилище организации: загрузка и открытие|![оранжевый x](media/end-user-features/orange-x.png)  |![зеленая точка](media/end-user-license/power-bi-green-dot.png)  |
  |**Рабочие области приложений**
 | Создание, изменение или удаление рабочей области или содержимого  | ![оранжевый x](media/end-user-features/orange-x.png)  |![оранжевый x](media/end-user-features/orange-x.png) |
@@ -129,7 +129,7 @@ ms.locfileid: "86215893"
 | Просмотр закладок, созданных другими пользователями, и добавление собственных закладок  | ![оранжевый x](media/end-user-features/orange-x.png)|![зеленая точка](media/end-user-license/power-bi-green-dot.png)  |
 | Просмотр комментариев от других и ответ на них: добавление новых комментариев  | ![оранжевый x](media/end-user-features/orange-x.png)|![зеленая точка](media/end-user-license/power-bi-green-dot.png)  |
 |Изменение размеров отображения   | ![зеленое обозначение myw](media/end-user-features/green-mwo.png) | ![зеленая точка](media/end-user-license/power-bi-green-dot.png)  | 
-| Сохранить копию |![оранжевый x](media/end-user-features/orange-x.png) |![зеленая точка](media/end-user-license/power-bi-green-dot.png)*  
+| Сохранить копию |![оранжевый x](media/end-user-features/orange-x.png) |![оранжевый x](media/end-user-features/orange-x.png)  
 |Копирование визуального элемента как изображения * |
 | Визуальные элементы отчета с перекрестным выделением и перекрестной фильтрацией   |![зеленое обозначение myw](media/end-user-features/green-mwo.png) |![зеленая точка](media/end-user-license/power-bi-green-dot.png)  |
 |  Детализация   |![зеленое обозначение myw](media/end-user-features/green-mwo.png)  |![зеленая точка](media/end-user-license/power-bi-green-dot.png)  |

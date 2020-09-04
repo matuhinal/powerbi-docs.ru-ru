@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
-ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
+ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88857803"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937569"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Источники данных отчетов Power BI в решении "Сервер отчетов Power BI"
-Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services. Некоторые источники данных, поддерживаемые в Power BI Desktop, оптимизированы для сервера отчетов Power BI, но не оптимизированы для отчетов Power BI, публикуемых на сервере отчетов Power BI. Список источников данных, которые поддерживаются в обоих случаях, см. ниже.
+Отчеты Power BI можно подключать к разным источникам данных. В зависимости от способа использования данных доступны различные источники данных. Данные можно импортировать или запрашивать напрямую с помощью DirectQuery или активного подключения к службам SQL Server Analysis Services. Некоторые источники данных, доступные в Power BI Desktop, оптимизированы для сервера отчетов Power BI, но не поддерживаются для публикации на сервере отчетов Power BI.
 
 Эти источники данных относятся к отчетам Power BI, которые используются в решении "Сервер отчетов Power BI" Сведения об источниках данных, которые поддерживаются для отчетов с разбивкой на страницы (RDL), см. в разделе [Источники данных, поддерживаемые службами Reporting Services (SSRS)](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
@@ -47,7 +47,7 @@ ms.locfileid: "88857803"
 | Google Analytics |Да |Нет |Нет |
 | Файл Hadoop (HDFS) |Да |Нет |Нет |
 | База данных IBM DB2 |Да |Да |Нет |
-| Impala |Да |Нет |нет |
+| Impala |Да |Нет |Нет |
 | JSON |Да |Да |Нет |
 | Microsoft Exchange |Да |Нет |Нет |
 | Microsoft Exchange Online |Да |Нет |Нет |
@@ -121,7 +121,7 @@ ms.locfileid: "88857803"
 | Интернет |Да |Нет |Да |Да |
 | База данных SQL Azure |Нет |Нет |Да |Нет |
 | Хранилище данных SQL Azure |Нет |Нет |Да |Нет |
-| Active Directory |нет |Нет |Да |Да |
+| Active Directory |нет |нет |Да |Да |
 | Amazon Redshift |Нет |Нет |Нет |Нет |
 | хранилище BLOB-объектов Azure |Да |Да |Нет |Нет |
 | Хранилище озера данных Azure |Нет |Нет |Нет |Нет |

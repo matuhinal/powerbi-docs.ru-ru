@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/02/2020
+ms.date: 08/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939506"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092321"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Использование DirectQuery в Power BI Desktop
 При подключении к источнику данных в *Power BI Desktop* всегда можно импортировать копию данных в Power BI Desktop. Для некоторых источников данных доступен альтернативный подход: прямое подключение к источнику данных с помощью DirectQuery.
@@ -50,6 +50,8 @@ ms.locfileid: "85939506"
 - Если запрос в **редакторе запросов** слишком сложный, произойдет ошибка. Чтобы устранить ошибку, удалите проблемный шаг в **редакторе запросов** или *импортируйте данные* вместо использования DirectQuery. Для многомерных источников, таких как SAP Business Warehouse, нет **редактора запросов**.
 
 - Логика операций со временем недоступна в DirectQuery. Например, в режиме DirectQuery специальная обработка столбцов даты (например, год, квартал, месяц, день и т. д.) не поддерживается.
+
+- Вычисляемые таблицы и вычисляемые столбцы, которые ссылаются на таблицу DirectQuery из источника данных с использованием проверки подлинности в рамках единого входа, не поддерживаются в службе Power BI.
 
 - На выражения DAX, разрешенные в мерах, накладываются ограничения, чтобы обеспечить приемлемую производительность запросов, отправляемых в базовый источник данных.
 

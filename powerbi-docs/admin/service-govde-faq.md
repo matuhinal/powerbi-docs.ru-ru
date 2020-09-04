@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 9c5c430c09550ba9739c038aabb0dece5d88b1e1
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702635"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092344"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Часто задаваемые вопросы о Power BI в облаке для пользователей из Германии
 **Служба Power BI** имеет версию, доступную для пользователей из ЕС и ЕАСТ, так называемую Microsoft Cloud Deutschland (MCD). Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из ЕС и ЕАСТ и отличается от коммерческой версии **службы Power BI** и службы Power BI для клиентов из государственных организаций.
@@ -65,7 +65,7 @@ ms.locfileid: "88702635"
 | Прямой вход в службу Power BI |[https://app.powerbi.de/?noSignUpCheck=1](https://app.powerbi.de/?noSignUpCheck=1) |[https://app.powerbi.com/?noSignUpCheck=1](https://app.powerbi.com/?noSignUpCheck=1) |
 | API службы |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | Портал Office для управления лицензиями пользователей, отслеживания состояния службы работоспособности и поддержки запросов администраторами |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
-| Универсальный код ресурса (URI) центра AAD |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
+| URI центра Azure Active Directory |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | Универсальный код ресурса (URI) службы Power BI |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | Библиотека визуальных элементов Power BI |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Регистрация приложения Power BI (для Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
@@ -75,6 +75,6 @@ ms.locfileid: "88702635"
 ## <a name="next-steps"></a>Дальнейшие действия
 Служба Power BI предоставляет широкие возможности. Дополнительные сведения и руководства, включая статью с инструкциями по регистрации в службе, см. по следующим ссылкам:
 
-* [Интерактивное обучение работе с Power BI](../guided-learning/index.yml)
+* [Интерактивное обучение работе с Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Приступая к работе со службой Power BI](../fundamentals/service-get-started.md)
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fbbda6edde0028a6d7ca21081f582ace7cb0cc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216199"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286821"
 ---
 # <a name="view-a-dashboard"></a>Просмотр панели мониторинга
 
@@ -22,9 +22,9 @@ ms.locfileid: "86216199"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-*Пользователи* Power BI тратят много времени на просмотр панелей мониторинга. Панели мониторинга разработаны так, чтобы обращать внимание на определенные сведения из исходных отчетов и наборов данных. Пользователи Power BI применяют эти сведения для отслеживания, мониторинга, тестирования, получения ответов и т. п., а затем на этой основе принимают бизнес-решения.
+*Бизнес-пользователи* Power BI тратят много времени на просмотр панелей мониторинга. Панели мониторинга разработаны так, чтобы обращать внимание на определенные сведения из исходных отчетов и наборов данных. Бизнес-пользователи Power BI применяют эти сведения для отслеживания, мониторинга, тестирования, получения ответов и т. д., а затем на этой основе принимают бизнес-решения.
 
-![панель мониторинга](media/end-user-dashboard-open/power-bi-new-dash-new.png)
+![панель мониторинга](media/end-user-dashboard-open/power-bi-new-dashboard.png)
 
 
 Для совместного использования панели мониторинга и просмотра общей панели мониторинга нужна лицензия Power BI Pro или Premium. [Какая у меня лицензия?](end-user-license.md) 
@@ -35,14 +35,14 @@ ms.locfileid: "86216199"
 
 |              |         |
 |------------|--------------------------------|
-|![Значок панели мониторинга](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Панели мониторинга можно открыть в службе Power BI из нескольких расположений. <br> Просто найдите этот значок панели мониторинга. После определения <br>панели мониторинга открыть ее просто: выберите ее, и она заполнит холст Power BI. |
+|![Значок панели мониторинга](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Панели мониторинга можно открыть в службе Power BI из нескольких расположений. <br> Просто найдите этот значок панели мониторинга. После определения <br>панели мониторинга откройте ее, выбрав ее имя, и она заполнит холст Power BI. |
 |                    |          |
 
 
 
 Панели мониторинга могут размещаться в любых контейнерах в области навигации слева. 
 
-![Значок панели мониторинга](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
+![Видео, на котором показаны все расположения, где можно найти панели мониторинга](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **Главная** 
 - **Избранное** — если вы уже [отметили избранную панель мониторинга](end-user-favorite.md).
@@ -54,5 +54,7 @@ ms.locfileid: "86216199"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
+* Вернитесь к статье с [общими сведениями о панели мониторинга](end-user-dashboards.md).
+
 * Ознакомьтесь с обзорными сведениями об использовании на примере одной из наших [панелей мониторинга](../create-reports/sample-tutorial-connect-to-the-samples.md).    
 * Узнайте, что такое [плитки панели мониторинга](end-user-tiles.md) и что произойдет, если выбрать одну из них.
