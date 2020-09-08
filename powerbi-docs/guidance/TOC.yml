@@ -118,6 +118,8 @@
               href: report-performance-troubleshoot.md
             - name: Рекомендации по конвейерам развертывания
               href: ../create-reports/deployment-pipelines-best-practices.md
+            - name: "Доступ к журналу действий Power\_BI"
+              href: admin-activity-log.md
     - name: "Миграция в Power\_BI"
       items:
         - name: Общие сведения о переносе
