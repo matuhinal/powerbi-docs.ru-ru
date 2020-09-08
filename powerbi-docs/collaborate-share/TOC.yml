@@ -27,7 +27,7 @@
               href: service-workspaces-new-look.md
             - name: Обновление классических рабочих областей
               href: ../collaborate-share/service-upgrade-workspaces.md
-            - name: Создание рабочих областей
+            - name: Создание классических рабочих областей
               href: service-create-workspaces.md
             - name: Публикация приложений из рабочих областей
               href: service-create-distribute-apps.md
