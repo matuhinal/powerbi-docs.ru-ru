@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278820"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401963"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Визуальные элементы организации в Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "83278820"
 
 ## <a name="administer-organizational-power-bi-visuals"></a>Администрирование визуальных элементов Power BI организации
 
-Дополнительные сведения об администрировании, развертывании визуальных элементов Power BI организации и управлении ими см. в статье о [развертывании и администрировании визуальных элементов Power BI организации](https://go.microsoft.com/fwlink/?linkid=866790).
+Дополнительные сведения об администрировании, развертывании визуальных элементов Power BI организации и управлении ими см. в статье о [развертывании и администрировании визуальных элементов Power BI организации](../../admin/organizational-visuals.md).
 
 > [!WARNING]
 > Полученный из файла визуальный элемент Power BI может содержать код, подвергающий риску безопасность или конфиденциальность. Прежде чем помещать такой файл в репозиторий организации, убедитесь в надежности его автора и источника.
