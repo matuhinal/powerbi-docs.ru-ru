@@ -1,6 +1,6 @@
 ---
-title: Использование SAP HANA в Power BI Desktop
-description: Использование SAP HANA в Power BI Desktop
+title: Использование SAP HANA в Power BI
+description: Использование SAP HANA в Power BI
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,14 +10,14 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3d78ded05d199676708c0000cab043226a47b166
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69019abf60f2633bcb764b11c0ac3310911fab62
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222786"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401940"
 ---
-# <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>Подключение к базам данных SAP HANA в Power BI Desktop
+# <a name="connect-to-sap-hana-databases-in-power-bi"></a>Подключение к базам данных SAP HANA в Power BI
 
 Теперь с помощью Power BI Desktop вы можете получить доступ к базе данных *SAP HANA* . Для использования SAP HANA на локальном клиентском компьютере нужно установить драйвер ODBC SAP HANA, чтобы подключение к данным SAP HANA в Power BI Desktop работало правильно. Клиентские средства SAP HANA с необходимым драйвером ODBC можно скачать на странице [средств разработки SAP](https://tools.hana.ondemand.com/#hanatools). Кроме того, драйвер можно получить в [центре скачивания программного обеспечения SAP](https://support.sap.com/en/my-support/software-downloads.html). Найдите на портале программного обеспечения клиент *SAP HANA CLIENT* для компьютеров Windows. В связи с частым изменением структуры Центра скачивания программного обеспечения SAP более конкретные рекомендации по навигации по этому сайту недоступны.
 
@@ -61,6 +61,7 @@ ms.locfileid: "85222786"
 * SMALLDECIMAL не поддерживается.
 * VARBINARY не поддерживается.
 * Допустимый диапазон дат — с 30.12.1899 до 31.12.9999.
+* Обновление SAP HANA с единым входом сейчас не поддерживается для обновлений книги Excel. Чтобы обновить данные в Power BI, можно использовать отчет Power BI с единым входом для SAP HANA.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

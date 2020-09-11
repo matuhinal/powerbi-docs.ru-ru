@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260223"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512789"
 ---
 |Функция   | Административный  | Участник  | Участник  | Зритель |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260223"
 | Просмотр элемента и взаимодействие с ним<sup>5</sup> |  ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | Читать данные, хранящиеся в потоках данных рабочей области. | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Флажок "Да"](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> Участники могут обновлять метаданные приложения, но не публиковать новое приложение или изменять права доступа других пользователей к приложению, если [администратор рабочей области делегировал такие права участникам](../collaborate-share/service-create-the-new-workspaces.md#security-settings).
+<sup>1</sup> Участники могут [обновлять приложение, связанное с рабочей областью](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app), если администратор рабочей области делегирует им это разрешение. Однако они не могут публиковать новое приложение или изменять пользователей, имеющих права доступа к нему.
 
 <sup>2</sup> Участники и читатели также могут совместно использовать элементы в рабочей области, если у них есть разрешения на передачу прав доступа другим пользователям.
 

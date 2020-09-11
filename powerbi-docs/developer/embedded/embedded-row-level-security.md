@@ -1,5 +1,5 @@
 ---
-title: Использование безопасности на уровне строк во встроенном содержимом Power BI
+title: Использование безопасности на уровне строк во внедренном содержимом Power BI
 description: Узнайте, какие действия необходимо выполнить для внедрения содержимого Power BI в приложение.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
-ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84795146"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402055"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -66,11 +66,11 @@ ms.locfileid: "84795146"
 3. В таблице **Округ** введите такое выражение DAX: **[District Manager] = USERNAME()** .
 
     ![Инструкция DAX для правила RLS](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Чтобы убедиться, что правила работают, на вкладке **Моделирование** выберите **Просмотреть как роли**, а затем созданную роль **Менеджер** вместе с ролью **Другие пользователи**. Введите имя **AndrewMa** для пользователя.
+4. Чтобы убедиться, что правила работают, на вкладке **Моделирование** выберите **Просмотреть как роли**, а затем созданную роль **Менеджер** вместе с ролью **Другие пользователи**. Введите имя **Andrew Ma** для пользователя.
 
     ![Диалоговое окно "Просмотреть как роли"](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
-    Теперь в отчете отображаются данные, как если бы вы выполнили вход как **AndrewMa**.
+    Теперь в отчете отображаются данные, как если бы вы выполнили вход как **Andrew Ma**.
 
 В случае применения такого фильтра будут отфильтрованы все записи в таблицах **Район**, **Хранилище** и **Продажи**. Однако из-за направления фильтра в отношениях между таблицами **Продажи** и **Время**, **Продажи** и **Позиция**, а также **Позиция** и **Время** эти таблицы не будут отфильтрованы. Дополнительные сведения о двунаправленной перекрестной фильтрации см. в техническом документе [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Двунаправленная перекрестная фильтрация в службах SQL Server Analysis Services 2016 и Power BI Desktop).
 

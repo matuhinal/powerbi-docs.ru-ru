@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227202"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490360"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб
 
@@ -63,11 +63,11 @@ ms.locfileid: "85227202"
 
 1. В службе Power BI для рабочей области выберите **Дополнительно** > **Доступ к рабочей области**.
 
-    ![Параметры рабочей области](media/service-premium-service-principal/workspace-access.png)
+    ![Параметры доступа к рабочей области](media/service-premium-service-principal/workspace-access.png)
 
 2. Выполните поиск приложения по имени, добавьте субъект-службу как **Администратор** или **Участник** в эту рабочую область.
 
-    ![Администратор рабочей области](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
+    ![Диалоговое окно доступа](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
 
 ## <a name="connection-strings-for-the-xmla-endpoint"></a>Строки подключения для конечной точки XMLA
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>Объекты AMO и ADOMD
 
-При подключении к клиентским приложениям и веб-приложениям устанавливаемые пакеты от NuGet [клиентских библиотек AMO и ADOMD](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) версии 15.0.2 и выше поддерживают субъекты-службы в строках подключения с помощью следующего синтаксиса: `app:AppID` и пароль или `cert:thumbprint`.
+При подключении к клиентским приложениям и веб-приложениям устанавливаемые пакеты от NuGet [клиентских библиотек AMO и ADOMD](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) версии 15.1.42.26 (июнь 2020 г.) и выше поддерживают субъекты-службы в строках подключения с помощью следующего синтаксиса: `app:AppID` и пароль или `cert:thumbprint`.
 
 В следующем примере `appID` и `password` используются для выполнения операции обновления шаблона базы данных:
 
