@@ -56,11 +56,11 @@
               href: service-gateway-power-bi-faq.md
     - name: Практические руководства
       items:
-        - name: Подключение к источникам данных
+        - name: подключение к источникам данных.
           href: desktop-connect-to-data.md
         - name: Подключение к данным
           items:
-            - name: Подключение к источникам данных
+            - name: подключение к источникам данных.
               href: desktop-data-sources.md
             - name: "Создание отчета на базе списка\_SharePoint"
               href: desktop-sharepoint-online-list.md
@@ -270,8 +270,6 @@
               href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: Project Online
               href: service-connect-to-project-online.md
-            - name: QuickBooks Online
-              href: service-connect-to-quickbooks-online.md
             - name: Панель мониторинга реагирования на чрезвычайные ситуации в регионе
               href: service-connect-to-regional-emergency-response.md
             - name: Salesforce
