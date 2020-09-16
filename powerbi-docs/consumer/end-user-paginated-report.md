@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f0f2d57b1a60307cef2d848854355715dd74a412
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537994"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008912"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Отчеты с разбивкой на страницы в службе Power BI
 
@@ -97,5 +97,5 @@ ms.locfileid: "87537994"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 - [Отчеты Power BI](end-user-reports.md)
-- Появились дополнительные вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).
-
+- [Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы](../paginated-reports/paginated-reports-faq.md)
+- Остались вопросы? Ответы на них см. в [сообществе Power BI](https://community.powerbi.com/).

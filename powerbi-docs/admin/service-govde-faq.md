@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c5c430c09550ba9739c038aabb0dece5d88b1e1
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 0d1ecee28e1364e3d5d0356bc2f23f2f865ce1c4
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092344"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008544"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Часто задаваемые вопросы о Power BI в облаке для пользователей из Германии
 **Служба Power BI** имеет версию, доступную для пользователей из ЕС и ЕАСТ, так называемую Microsoft Cloud Deutschland (MCD). Версия **службы Power BI**, описанная в этой статье, специально предназначена для клиентов из ЕС и ЕАСТ и отличается от коммерческой версии **службы Power BI** и службы Power BI для клиентов из государственных организаций.
@@ -75,6 +75,6 @@ ms.locfileid: "89092344"
 ## <a name="next-steps"></a>Дальнейшие действия
 Служба Power BI предоставляет широкие возможности. Дополнительные сведения и руководства, включая статью с инструкциями по регистрации в службе, см. по следующим ссылкам:
 
-* [Интерактивное обучение работе с Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Microsoft Learn для Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Приступая к работе со службой Power BI](../fundamentals/service-get-started.md)
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
