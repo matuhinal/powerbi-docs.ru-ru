@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 09/03/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 022ce2c28ef41636c4530f93e7c2765784c24ff0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3cbd8acd2f32ea5fa0ccbb0fa3f91e45629cc079
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215856"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642458"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Основные панели мониторинга в службе Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "86215856"
 ## <a name="create-a-featured-dashboard"></a>Создание основной панели мониторинга
 Если указать панель мониторинга как *основную*, она будет отображаться при каждом открытии службы Power BI. 
 
-![Значок указания в качестве основной](./media/end-user-featured/power-bi-dropdown.png)
+![Значок указания в качестве основной](./media/end-user-featured/power-bi-dropbox.png)
 
 Вы также можете выбрать несколько панелей мониторинга и включить их в избранные. См. раздел [Добавление панелей мониторинга в "Избранное"](end-user-favorite.md).
 
@@ -37,19 +37,19 @@ ms.locfileid: "86215856"
 1. Откройте панель мониторинга, которую необходимо задать как основную. 
 2. В верхней строке меню щелкните **Дополнительные параметры** (...) и выберите команду **Указать в качестве основной**. 
    
-    ![Значок указания в качестве основной](./media/end-user-featured/power-bi-dropdown.png)
+    ![Снимок экрана: раскрывающийся список с параметром "Указать в качестве основной".](./media/end-user-featured/power-bi-set-as-featured.png)
 3. Подтвердите выбор.
    
     ![Установка основной панели мониторинга](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>Изменение основной панели мониторинга
-Разумеется, в дальнейшем вы можете задать другую панель мониторинга в качестве основной.
+Разумеется, в дальнейшем вы можете задать другую панель мониторинга в качестве основной. Отключение основной панели мониторинга не приводит к ее удалению из Power BI. 
 
 1. Выполните предыдущие шаги 1 и 2.
    
-2. Выберите **Установить в качестве основной панели мониторинга**. Отключение основной панели мониторинга не приводит к ее удалению из Power BI. 
+2. Выберите **Установить в качестве основной панели мониторинга**. 
    
-    ![Сообщение об успешном импорте](./media/end-user-featured/power-bi-unfeature-new.png)
+    ![Сообщение об успешном импорте](./media/end-user-featured/power-bi-unfeatured.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Удаление основной панели мониторинга
 Если вы больше не нуждаетесь в какой-либо панели мониторинга как в основной, ниже приведены действия по ее отключению.

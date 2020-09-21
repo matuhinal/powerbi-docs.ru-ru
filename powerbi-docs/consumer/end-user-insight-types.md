@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44b66c2c8245b7f9629ad36879e6f13a5e720687
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537764"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008841"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Типы аналитики, поддерживаемые в Power BI
 
@@ -27,7 +27,7 @@ Power BI может находить интересные тенденции и
 ![набор элементов с аналитическими сведениями](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>Как выполняется аналитика?
-Power BI обеспечивает быстрый поиск различных подмножеств в вашем наборе данных. При поиске Power BI применяет набор оптимизированных алгоритмов для выявления потенциально полезных аналитических сведений. *Пользователи* Power BI могут использовать аналитику на плитках панели мониторинга.
+Power BI обеспечивает быстрый поиск различных подмножеств в вашем наборе данных. При поиске Power BI применяет набор оптимизированных алгоритмов для выявления потенциально полезных аналитических сведений. *Бизнес-пользователи* Power BI могут использовать аналитику на плитках панели мониторинга.
 
 ## <a name="some-terminology"></a>Терминология
 Для получения аналитических сведений в Power BI используются статистические алгоритмы. Эти алгоритмы перечислены и описаны в следующем разделе данной статьи. Но прежде чем переходить к ним, следует ознакомиться с определениями ряда терминов, которые могут незнакомы вам. 
@@ -44,49 +44,49 @@ Power BI обеспечивает быстрый поиск различных 
 ### <a name="category-outliers-topbottom"></a>Провалы или всплески значений
 Выделяет случаи, когда значения одной или двух категорий намного превышают значения остальных.  
 
-![Пример выбросов по категориям](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
+![Пример выбросов по категориям](./media/end-user-insight-types/pbi-auto-insight-type-category-outliers.png)
 
 ### <a name="change-points-in-a-time-series"></a>Точки изменений во временных рядах
 Выделяет существенные изменения в тенденциях, наблюдаемых во временном ряде данных.
 
-![Пример точек изменений во временных рядах](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
+![Пример точек изменений во временных рядах](./media/end-user-insight-types/pbi-auto-insight-type-changepoint.png)
 
 ### <a name="correlation"></a>Correlation
 Выявляет случаи, когда несколько мер проявляют схожие закономерности или тенденции при нанесении на график в зависимости от какой-либо категории или значения в наборе данных.
 
-![Пример корреляции](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
+![Пример корреляции](./media/end-user-insight-types/pbi-auto-insight-type-correlation.png)
 
 ### <a name="low-variance"></a>Низкая вариативность
 Выявляет случаи, когда точки данных для измерения близки к среднему значению, то есть дисперсия невелика. Предположим, что у вас есть мера "Sales" и измерение "Region" (Регион). Просматривая этот регион, вы замечаете очень малые различия между значениями точек данных и средним значением (по всем точкам данных). Триггер по этим аналитическим сведениям срабатывает, когда дисперсия продаж по всем регионам не превышает порогового значения. Иными словами, когда продажи во всех регионах примерно на одном уровне.
 
-![Пример низкой вариативности](./media/end-user-insight-types/power-bi-low-variance.png)
+![Пример низкой вариативности](./media/end-user-insight-types/power-bi-insights-low-variance.png)
 
 ### <a name="majority-major-factors"></a>Большинство (основные факторы)
 Находит случаи, когда большую часть общего значения можно свести к одному фактору, выполнив детализацию по другому параметру.  
 
-![Пример основных факторов](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
+![Пример основных факторов](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
 ### <a name="overall-trends-in-time-series"></a>Общие тенденции во временных рядах
 Определяет восходящие и нисходящие тенденция в данных временных рядов.
 
-![Пример общих тенденций во временных рядах](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
+![Пример общих тенденций во временных рядах](./media/end-user-insight-types/pbi-auto-insight-type-trend.png)
 
 ### <a name="seasonality-in-time-series"></a>Сезонность во временных рядах
 Находит повторяющийся рисунок в данных временных рядов, такие как недельная, месячная или годовая сезонность.
 
-![Пример сезонности](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
+![Пример сезонности](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>Постоянная доля
 Выделяет случаи иерархической корреляции между долей дочернего значения и суммарным значением родительского элемента в непрерывной переменной. Аналитические сведения об устойчивой доле относятся к контексту меры, измерения и другого измерения даты и времени. Триггер по этим аналитическим сведениям срабатывает, когда для определенного значения измерения, например "северо-восточный регион", регистрируется стабильная доля от общих продаж по соответствующему измерению даты и времени.
 
 Аналитические сведения об устойчивой доле аналогичны сведениям о низкой дисперсии, так как оба отражают недостаточно различающиеся во времени значения. Но при этом аналитические сведения об устойчивой доле оценивают отсутствие дисперсии **в процентах от общего количества** по времени, а аналитические сведения о низкой дисперсии оценивают низкую вариативность абсолютных значений меры по измерению.
 
-![Пример постоянной доли](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
+![Пример постоянной доли](./media/end-user-insight-types/pbi-auto-insight-type-steadyshare.png)
 
 ### <a name="time-series-outliers"></a>Выбросы временных рядов
 Определяет, есть ли во временном ряде значения даты или времени, которые существенно отличаются от остальных значений даты и времени.
 
-![Пример выбросов временных рядов](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
+![Пример выбросов временных рядов](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Аналитика Power BI](end-user-insights.md)

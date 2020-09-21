@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237638"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642291"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Управление своим источником данных — службы Analysis Services
 
@@ -36,7 +36,7 @@ ms.locfileid: "85237638"
 Заполните сведения об источнике данных, включая значения **Сервер** и **База данных**. Указанные вами **имя пользователя** и **пароль** будут использоваться шлюзом для подключения к экземпляру служб Analysis Services.
 
 > [!NOTE]
-> У указанной вами учетной записи Windows должны быть права администратора сервера для экземпляра, к которому вы подключаетесь. Если для пароля задано истечение срока действия и он не был обновлен для источника данных, у пользователей может возникнуть ошибка подключения. Дополнительные сведения о хранении учетных данных см. в статье [Хранение зашифрованных учетных данных в облаке](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
+> Введенная учетная запись Windows должна быть членом роли администратора сервера на экземпляре Analysis Services, к которому вы подключаетесь. Если для пароля задано истечение срока действия и он не был обновлен для источника данных, у пользователей может возникнуть ошибка подключения. Дополнительные сведения о хранении учетных данных см. в статье [Хранение зашифрованных учетных данных в облаке](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Задание параметров источников данных](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 

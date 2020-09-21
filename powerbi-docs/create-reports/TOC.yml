@@ -347,6 +347,8 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: "Создание отчета с помощью общего набора данных Power\_BI"
               href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: Загрузка RDL-файла для отчета с разбивкой на страницы
+              href: ../paginated-reports/paginated-reports-download-rdl.md
             - name: Создание параметров
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: Настройка представлений отчета

@@ -11,12 +11,12 @@ ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238969"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008935"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Экспорт данных, использованных для создания визуализации
 
@@ -268,7 +268,9 @@ ms.locfileid: "85238969"
   
   1. Перейдите к локальной папке, где хранится файл, и выберите файл *CSV*.
 
-- При экспорте в *.csv* некоторые символы будут экранированы с **'** в начале.
+- При экспорте в формат *CSV* некоторые символы будут экранированы с символом **'** в начале, чтобы предотвратить выполнение скрипта при открытии в Excel. Это происходит в следующих случаях:
+  - Столбец определен как тип "Текст" в модели данных **_и_**
+  - Первый символ в тексте является одним из следующих: **=, @, +,-**
 
 - Администраторы Power BI могут отключить экспорт данных.
 

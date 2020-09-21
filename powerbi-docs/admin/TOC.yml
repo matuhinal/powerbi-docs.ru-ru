@@ -80,7 +80,9 @@
           href: desktop-admin-sign-in-form.md
         - name: Защита данных
           items:
-            - name: "Метки конфиденциальности в Power\_BI"
+            - name: "Защита данных в Power\_BI"
+              href: service-security-data-protection-overview.md
+            - name: Обзор меток конфиденциальности
               href: service-security-sensitivity-label-overview.md
             - name: Активация меток конфиденциальности
               href: service-security-enable-data-sensitivity-labels.md

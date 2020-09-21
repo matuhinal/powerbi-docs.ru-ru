@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 05/01/2020
-ms.openlocfilehash: 36c14ec0da3c7818a6c938e0fd47f4a6476470f6
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.date: 09/09/2020
+ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562428"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642395"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Параметры URL-адреса в отчетах с разбивкой на страницы в Power BI
 
@@ -91,9 +91,9 @@ URL-адрес веб-службы клиента Power BI. Например:
     - "interactive" (по умолчанию): загружает отчет в интерактивном режиме.
     - "pageView": загружает отчет в режиме представления страницы.
 
-**Состояние панели параметров** определяет, будет ли панель параметров закрыта, открыта или полностью скрыта при загрузке отчета.
+**Панель параметров** определяет, будет ли панель параметров закрыта, открыта или полностью скрыта при загрузке отчета.
 
--   rdl:parameterPanelState
+-   rdl:parameterPanel
 
     - collapsed — при загрузке отчета панель параметров закрыта. Пользователи могут развернуть панель, нажав кнопку.
     - hidden — при загрузке отчета панель параметров закрыта и кнопка неактивна.

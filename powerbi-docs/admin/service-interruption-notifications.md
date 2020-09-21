@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 09/09/2020
 ms.author: kfollis
-ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485491"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642288"
 ---
 # <a name="service-interruption-notifications"></a>Уведомления о перебое в работе служб
 
@@ -40,7 +40,7 @@ ms.locfileid: "85485491"
 
 * идентификатор соответствующего набора данных;
 * Operation type (Тип операции)
-* время ЦП, связанное с активным использованием ресурсов.
+* Время ЦП, связанное с активным использованием ресурсов. Ниже приведено [определение времени ЦП](https://wikipedia.org/wiki/CPU_time) в Википедии.
 
 Power BI также отправляет уведомления по электронной почте при обнаружении перегрузки в емкости Power BI Premium. В сообщении указываются вероятная причина перегрузки, операции, которые создавали нагрузку последние 10 минут, а также уровень нагрузки, создаваемой каждой операцией. 
 

@@ -5,14 +5,14 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/21/2020
+ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937592"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642340"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Ограничения модуля "Вопросы и ответы" в Power BI
 
@@ -31,12 +31,17 @@ ms.locfileid: "88937592"
 
 В каждой из этих конфигураций также поддерживается безопасность на уровне строк.
 
+**Поддержка DirectQuery для модуля "Вопросы и ответы"** (предварительная версия)
+
+Модуль "Вопросы и ответы" теперь поддерживает источники DirectQuery SQL, в том числе SQL Server 2019, базу данных SQL Azure и Azure Synapse Analytics. С помощью этого модуля можно задавать вопросы на естественном языке по отношению к этим источникам данных. Существует одно небольшое изменение в поведении модуля, когда он находится в режиме DirectQuery: после ввода вопроса следует нажать кнопку **Отправить**. Это изменение предотвращает перегрузку источника DirectQuery с ненужными запросами при вводе.
+
+Другие источники DirectQuery не поддерживаются для модуля "Вопросы и ответы". Если в наборе данных есть другие источники DirectQuery, мы не блокируем модуль "Вопросы и ответы", но на некоторые вопросы могут быть неправильно получены ответы или возвращаться ошибки.
+
 ### <a name="data-sources-not-supported"></a>Неподдерживаемые источники данных
 
 Модуль "Вопросы и ответы" в Power BI не поддерживает следующие конфигурации:
 
 - безопасность на уровне объектов с источником данных любого типа;
-- DirectQuery для любого источника; Чтобы обойти эту проблему, используйте динамическое подключение к Azure Analysis Services, которое предполагает использование DirectQuery.
 - Составные модели
 - Reporting Services 
 

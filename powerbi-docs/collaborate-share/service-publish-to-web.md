@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216559"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642653"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -180,7 +180,7 @@ ms.locfileid: "86216559"
 - [Общие и сертифицированные наборы данных](../connect-data/service-datasets-share.md).
 - Отчеты, к которым вам предоставлен доступ непосредственно или через пакет содержимого организации.
 - Отчеты в рабочей области, в которой вы не являетесь участником с правами редактирования.
-- В настоящее время в отчетах для функции **Опубликовать в Интернете** не поддерживаются визуальные элементы R.
+- В настоящее время в отчетах для функции **Опубликовать в Интернете** не поддерживаются визуальные элементы R и Python.
 - Экспорт данных из визуальных элементов в отчете, опубликованном в Интернете.
 - Визуальные элементы ArcGIS Maps for Power BI.
 - Отчеты, содержащие меры уровня отчета DAX.

@@ -5,14 +5,14 @@ services: ''
 author: mihart
 ms.service: powerbi
 ms.topic: include
-ms.date: 02/11/2020
+ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: include file
-ms.openlocfilehash: 8ddbcb940d78a15f129f3c322485ae7ff316127d
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 10f33bde07c7f6bce40b8bcea587446792e61cee
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865185"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88639013"
 ---
 <Token>**ОБЛАСТЬ ПРИМЕНЕНИЯ:** ![нет](media/no.png)Служба Power BI для ***потребителей*** ![да](media/yes.png)Служба Power BI для проектировщиков и разработчиков ![да](media/yes.png)Power BI Desktop ![нет](media/no.png)Требуется лицензия Pro или Premium </Token>
