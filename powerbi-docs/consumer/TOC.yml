@@ -128,7 +128,7 @@
               href: end-user-preview-features.md
             - name: "Получение уведомлений в службе Power\_BI"
               href: end-user-notification-center.md
-        - name: Получить данные
+        - name: Получение данных
           items:
             - name: "Рабочие области в Power\_BI"
               href: end-user-workspaces.md
@@ -137,7 +137,7 @@
             - name: Установка и использование приложений
               href: end-user-app-view.md
             - name: Подключение к службам
-              href: end-user-connect-to-services.md
+              href: ../connect-data/service-connect-to-services.md
             - name: Работа с примером приложения из Marketplace
               href: end-user-app-marketing.md
         - name: Задать вопросы о данных
@@ -153,6 +153,6 @@
         - name: Часто задаваемые вопросы
           href: end-user-faq.md
         - name: Поддерживаемые браузеры
-          href: end-user-browsers.md
+          href: ../fundamentals/power-bi-browsers.md
         - name: Типы краткой аналитики
           href: end-user-insight-types.md

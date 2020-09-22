@@ -133,7 +133,7 @@
         - name: 'PowerShell, REST API и пакет SDK для .NET'
           href: service-admin-reference.md
         - name: Командлеты Power BI для PowerShell
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          href: /powershell/power-bi/
           maintainContext: true
         - name: Справочник по URL-адресу службы
           href: power-bi-whitelist-urls.md
