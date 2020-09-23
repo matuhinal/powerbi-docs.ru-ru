@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
-ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710213"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861252"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Функция Always Encrypted на Сервере отчетов Power BI
 
-В этой статье описывается поддержка функции Always Encrypted на Сервере отчетов Power BI при использовании Microsoft SQL Server и Базы данных SQL Microsoft Azure в качестве источников данных. Дополнительные сведения о возможностях Always Encrypted в SQL Server см. в статье [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine).
+В этой статье описывается поддержка функции Always Encrypted на Сервере отчетов Power BI при использовании Microsoft SQL Server и Базы данных SQL Microsoft Azure в качестве источников данных. Дополнительные сведения о возможностях Always Encrypted в SQL Server см. в статье [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine).
 
 ## <a name="always-encrypted-user-isolation"></a>Изоляция пользователей Always Encrypted
 
@@ -37,8 +37,8 @@ ms.locfileid: "76710213"
 
 Доступ к сертификату требуется учетной записи службы. Сертификат должен храниться в хранилище сертификатов на локальном компьютере. Для получения дополнительной информации см.
 
-- [Настройка учетной записи службы сервера отчетов](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (диспетчер конфигурации)
-- Раздел [Предоставление приложениям и пользователям доступа к сертификатам](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) в статье по SQL Server "Создание и хранение главных ключей столбцов для Always Encrypted".
+- [Настройка учетной записи службы сервера отчетов](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (диспетчер конфигурации)
+- Раздел [Предоставление приложениям и пользователям доступа к сертификатам](/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) в статье по SQL Server "Создание и хранение главных ключей столбцов для Always Encrypted".
 
 ### <a name="column-encryption-strategy"></a>Стратегия шифрования столбцов
 
@@ -51,7 +51,7 @@ ms.locfileid: "76710213"
 |Может использоваться как статистическое поле, кроме функций COUNT и DISTINCT. | Нет, кроме функций COUNT и DISTINCT | Нет |
 |Может использоваться как параметр отчета | Yes | Нет |
 
-См. дополнительные сведения о [детерминированном и случайном шифровании](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
+См. дополнительные сведения о [детерминированном и случайном шифровании](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
 
 ### <a name="parameter-usage"></a>Использование параметров
 
@@ -73,7 +73,7 @@ ms.locfileid: "76710213"
 | --- | --- | --- | --- | --- | --- |
 | int | Yes | Yes | COUNT, DISTINCT | Да, как Integer |   |
 | FLOAT | Yes | Yes | COUNT, DISTINCT | Да, как Float |   |
-| nvarchar | Yes | Yes | COUNT, DISTINCT | Да, как Text | При использовании детерминированного шифрования необходимо указать порядок сортировки binary2 в параметрах сортировки для символьных столбцов. Подробные сведения см. в статье по SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).  |
+| nvarchar | Yes | Yes | COUNT, DISTINCT | Да, как Text | При использовании детерминированного шифрования необходимо указать порядок сортировки binary2 в параметрах сортировки для символьных столбцов. Подробные сведения см. в статье по SQL Server [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).  |
 | varchar | Yes | Yes | COUNT, DISTINCT | Нет |   |
 | Decimal | Yes | Yes | COUNT, DISTINCT | Нет |   |
 | NUMERIC | Yes | Yes | COUNT, DISTINCT | Нет |   |
@@ -86,11 +86,10 @@ ms.locfileid: "76710213"
 
 ## <a name="always-encrypted-in-connection-strings"></a>Always Encrypted в строках подключения
 
-Функцию Always Encrypted необходимо включить в строке подключения к источнику данных SQL Server. См. дополнительные сведения о включении [Always Encrypted для запросов приложений](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
+Функцию Always Encrypted необходимо включить в строке подключения к источнику данных SQL Server. См. дополнительные сведения о включении [Always Encrypted для запросов приложений](/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) в SQL Server и Базе данных SQL Azure
+[Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) в SQL Server и Базе данных SQL Azure
 
 У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

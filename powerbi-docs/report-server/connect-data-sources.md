@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: fcf0a286487922fcfc217b4d293aa731ad1564a6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485399"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861229"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Источники данных для отчетов с разбивкой на страницы в решении "Сервер отчетов Power BI"
-Отчеты Reporting Services с разбивкой на страницы в решении "Сервер отчетов Power BI" поддерживают те же источники данных, которые используются в SQL Server Reporting Services. См. дополнительные сведения об [источниках данных, поддерживаемых службами Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Отчеты Reporting Services с разбивкой на страницы в решении "Сервер отчетов Power BI" поддерживают те же источники данных, которые используются в SQL Server Reporting Services. См. дополнительные сведения об [источниках данных, поддерживаемых службами Reporting Services](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 ## <a name="connect-to-oracle-data-sources-with-useinstalleduiculture"></a>Подключение к источникам данных Oracle с помощью UseInstalledUICulture
 

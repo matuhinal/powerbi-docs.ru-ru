@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d53721b6a759410b873cc04deb919dd37ebc5b07
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240266"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861643"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Создание и использование картограмм (хороплетов) в Power BI
 
@@ -129,12 +129,10 @@ Power BI позволяет контролировать внешний вид �
 
 Если доступа к сведениям о широте и долготе нет, но есть доступ на редактирование для набора данных, [выполните эти действия для обновления набора данных](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
-Дополнительные сведения о визуализации карт см. в разделе [Tips and tricks for map visualizations](../power-bi-map-tips-and-tricks.md).
+Дополнительные сведения о визуализации карт см. в разделе [Tips and tricks for map visualizations](./power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Сопоставление фигур](desktop-shape-map.md)
 
 [Типы визуализаций в Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-

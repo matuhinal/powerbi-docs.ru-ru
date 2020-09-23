@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685325"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856169"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Краткое руководство. Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 В этом кратком руководстве приводится краткий обзор приложения Power BI Mobile и рассматриваются примеры панели мониторинга и отчета. Демонстрируется приложение Power BI для iOS, но можно использовать и другие устройства.
@@ -25,7 +25,7 @@ ms.locfileid: "84685325"
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Панель мониторинга — это портал к жизнедеятельности и рабочим процессам вашей компании. Она представляет общую картину и служит единой точкой контроля текущего состояния бизнеса. Отчет — это интерактивное представление данных с визуальными элементами, которые отображают разные данные и связанные аналитические сведения. 
 
@@ -112,4 +112,3 @@ ms.locfileid: "84685325"
 
 > [!div class="nextstepaction"]
 > [Краткое руководство. Навигация в службе Power BI](../end-user-experience.md)
-

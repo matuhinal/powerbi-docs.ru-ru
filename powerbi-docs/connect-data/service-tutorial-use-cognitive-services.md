@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4c19965def178d4260527032820c4109c4fe235f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281583"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861045"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Руководство. Использование Cognitive Services в Power BI
 
-Power BI предоставляет доступ к набору функций Azure Cognitive Services, которые дополняют ваши данные при самостоятельной подготовке данных для потоков данных. Сейчас поддерживаются службы [анализа тональности](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [извлечения ключевых фраз](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [распознавания языка](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) и [добавления тегов к изображению](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). Преобразования выполняются в службе Power BI, для чего не требуется подписка на Azure Cognitive Services. Эта функция доступна в Power BI Premium.
+Power BI предоставляет доступ к набору функций Azure Cognitive Services, которые дополняют ваши данные при самостоятельной подготовке данных для потоков данных. Сейчас поддерживаются службы [анализа тональности](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [извлечения ключевых фраз](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [распознавания языка](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) и [добавления тегов к изображению](/azure/cognitive-services/computer-vision/concept-tagging-images). Преобразования выполняются в службе Power BI, для чего не требуется подписка на Azure Cognitive Services. Эта функция доступна в Power BI Premium.
 
 Выполняемые Cognitive Services преобразования поддерживаются при [самостоятельной подготовке данных для потоков данных](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/). Воспользуйтесь пошаговыми примерами для текстовой аналитики и добавления тегов к изображениям ниже, чтобы начать работу.
 
@@ -174,7 +174,7 @@ in
 
 В этом руководстве вы применили функции оценки тональности и добавления тегов к изображениям для потока данных Power BI. Подробнее о Cognitive Services в Power BI можно узнать в следующих статьях:
 
-* [Документация по службам Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/).
+* [Документация по службам Azure Cognitive Services](/azure/cognitive-services/).
 * Начало работы [с самостоятельной подготовкой данных для потоков данных](../transform-model/service-dataflows-overview.md).
 * Дополнительные сведения о [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/).
 

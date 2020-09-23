@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 76c42c52ba877b3e6477a2baee11aef4a531161c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937385"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861574"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Использование DirectQuery с потоками данных в Power BI (предварительная версия)
 
@@ -70,7 +70,7 @@ DirectQuery можно использовать для прямого подкл
 * [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)
 * [Дополнительные сведения о схеме модели общих данных и сущностях на сайте GitHub](https://github.com/Microsoft/CDM)
 
 Связанные статьи о Power BI Desktop:

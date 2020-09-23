@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411964"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855295"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Использование внешних инструментов в Power BI Desktop (предварительная версия)
 
@@ -37,13 +37,13 @@ ms.locfileid: "87411964"
 
 Внешние инструменты могут подключаться к набору данных Power BI Desktop (модель Analysis Services) для редактирования указанных ниже объектов. Редактирование файла шаблона Power BI Desktop (PBIT) не поддерживается.
 
-* [Меры](https://docs.microsoft.com/analysis-services/tabular-models/measures-ssas-tabular) для вычислений.
-* [Группы вычислений](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups), обеспечивающие повторное использование вычислений в сложных моделях.
-* [Перспективы](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) для определения специализированных представлений метаданных набора данных для конкретных областей бизнеса.
+* [Меры](/analysis-services/tabular-models/measures-ssas-tabular) для вычислений.
+* [Группы вычислений](/analysis-services/tabular-models/calculation-groups), обеспечивающие повторное использование вычислений в сложных моделях.
+* [Перспективы](/analysis-services/tabular-models/perspectives-ssas-tabular) для определения специализированных представлений метаданных набора данных для конкретных областей бизнеса.
 
 Управление переводами метаданных с помощью внешних инструментов возможно, но эта предварительная версия пока не поддерживает такую функцию. Если языковой стандарт текущего пользователя задан для перевода, редактирование объектов в списке полей с помощью текущей версии Power BI Desktop не будет работать правильно. 
 
-Все метаданные набора данных [табличной модели объектов](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) доступны только для чтения. Экземпляре Power BI Desktop Analysis Services по ка не поддерживает редактирование объектов, не включенных в список, который приведен в статье [Табличная модель объектов (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
+Все метаданные набора данных [табличной модели объектов](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) доступны только для чтения. Экземпляре Power BI Desktop Analysis Services по ка не поддерживает редактирование объектов, не включенных в список, который приведен в статье [Табличная модель объектов (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
 
 
 ## <a name="featured-external-tools"></a>Избранные внешние инструменты
@@ -147,5 +147,3 @@ ALM Toolkit — это инструмент сравнения схем с от
 
 * [Использование детализации между отчетами в отчетах Power BI](desktop-cross-report-drill-through.md)
 * [Использование срезов в Power BI Desktop](../visuals/power-bi-visualization-slicers.md)
-
-

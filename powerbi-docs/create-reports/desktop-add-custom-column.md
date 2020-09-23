@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18d94702cad6f770aaf078f1d692c96d48ce50ac
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229039"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855410"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Добавление пользовательского столбца в Power BI Desktop
 
-Вы можете легко добавить новый пользовательский столбец данных в модель с помощью редактора запросов в Power BI Desktop. С помощью редактора запросов вы создаете и переименовываете свой столбец, создавая [запросы формул PowerQuery M](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language) для определения столбца. Для запросов формул PowerQuery M доступен [полный набор справочных материалов по функциям](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
+Вы можете легко добавить новый пользовательский столбец данных в модель с помощью редактора запросов в Power BI Desktop. С помощью редактора запросов вы создаете и переименовываете свой столбец, создавая [запросы формул PowerQuery M](/powerquery-m/quick-tour-of-the-power-query-m-formula-language) для определения столбца. Для запросов формул PowerQuery M доступен [полный набор справочных материалов по функциям](/powerquery-m/power-query-m-function-reference). 
 
 При создании пользовательского столбца в редакторе запросов Power BI Desktop добавляет его в качестве **примененного действия** в **Параметры запроса**. Его можно поменять, переместить или изменить в любое время.
 
@@ -49,7 +49,7 @@ ms.locfileid: "85229039"
 
 - Начальное имя пользовательского столбца в поле **Имя нового столбца**. Столбец можно переименовать.
 
-- [Запросы формул PowerQuery M](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) в поле **Настраиваемая формула столбца**. Эти запросы создаются путем создания формулы, которой определяется новый столбец. 
+- [Запросы формул PowerQuery M](/powerquery-m/power-query-m-function-reference) в поле **Настраиваемая формула столбца**. Эти запросы создаются путем создания формулы, которой определяется новый столбец. 
 
    ![Страница "Добавить пользовательский столбец"](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -95,4 +95,3 @@ ms.locfileid: "85229039"
 - Существуют другие способы создания пользовательских столбцов, например на основе примеров, предоставленных редактору запросов. Дополнительные сведения см. в разделе [Добавление столбца из примера в Power BI Desktop](desktop-add-column-from-example.md).
 
 - Справочные сведения о Power Query M см. в разделе [Справочник по функциям Power Query M](/powerquery-m/power-query-m-function-reference).
-

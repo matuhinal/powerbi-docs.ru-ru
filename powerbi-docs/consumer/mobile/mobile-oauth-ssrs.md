@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.openlocfilehash: 1e45e3292499d0eb827b6b03c63ab839a520da97
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9d54df0369b28eafc08a0e4f84599aac66c299e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220271"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856100"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Использование OAuth для подключения к серверу отчетов Power BI и SSRS
 
@@ -72,7 +72,7 @@ https://fs.contoso.com
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Настройка служб федерации Active Directory (AD FS)
 
-Вам необходимо настроить ADFS на сервере Windows 2016 в вашей среде. Для этой настройки, в диспетчере серверов в разделе "Управление" выберите "Добавить роли и компоненты". Дополнительные сведения см. в документации [служб федерации Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
+Вам необходимо настроить ADFS на сервере Windows 2016 в вашей среде. Для этой настройки, в диспетчере серверов в разделе "Управление" выберите "Добавить роли и компоненты". Дополнительные сведения см. в документации [служб федерации Active Directory](/windows-server/identity/active-directory-federation-services).
 
 ### <a name="create-an-application-group"></a>Создание группы приложений
 
@@ -136,7 +136,7 @@ https://fs.contoso.com
 
 ## <a name="web-application-proxy-wap-configuration"></a>Настройка прокси-службы веб-приложения (WAP)
 
-Вам понадобится включить роль Windows прокси-службы веб-приложения (роль) на сервере в вашей среде. Эта роль должна быть включена на сервере Windows 2016. Дополнительные сведения см. в статье о [прокси-службе веб-приложения в Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) и в разделе о [публикации приложений с помощью предварительной проверки подлинности AD FS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
+Вам понадобится включить роль Windows прокси-службы веб-приложения (роль) на сервере в вашей среде. Эта роль должна быть включена на сервере Windows 2016. Дополнительные сведения см. в статье о [прокси-службе веб-приложения в Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) и в разделе о [публикации приложений с помощью предварительной проверки подлинности AD FS](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
 
 ### <a name="constrained-delegation-configuration"></a>Настройка ограниченного делегирования
 
@@ -228,7 +228,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="multi-factor-authentication"></a>Многофакторная проверка подлинности
 
-Вы можете включить многофакторную проверку подлинности, чтобы повысить уровень безопасности среды. Дополнительные сведения см. в статье о [настройке AD FS 2016 и Многофакторной идентификации Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
+Вы можете включить многофакторную проверку подлинности, чтобы повысить уровень безопасности среды. Дополнительные сведения см. в статье о [настройке AD FS 2016 и Многофакторной идентификации Azure](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
@@ -245,8 +245,8 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 [Регистрация имени субъекта-службы (SPN) для сервера отчетов](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [Изменение файла конфигурации служб Reporting Services](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
 [Настройка проверки подлинности Windows на сервере отчетов](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
-[Службы федерации Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
-[Прокси-служба веб-приложения в Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
-[Публикация приложений с помощью предварительной проверки подлинности AD FS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[Настройка AD FS 2016 и Многофакторной идентификации Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Службы федерации Active Directory](/windows-server/identity/active-directory-federation-services)  
+[Прокси-служба веб-приложения в Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)  
+[Публикация приложений с помощью предварительной проверки подлинности AD FS](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
+[Настройка AD FS 2016 и Многофакторной идентификации Azure](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)  
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

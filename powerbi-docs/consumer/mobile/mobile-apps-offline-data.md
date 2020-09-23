@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 3b7f578040a49438ccca89fd9112a3ca5079a20a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034251"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856031"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Просмотр данных в автономном режиме в мобильных приложениях Power BI
 Применяется к:
@@ -23,7 +23,7 @@ ms.locfileid: "86034251"
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Одним из преимуществ мобильного приложения Power BI в сравнении с браузером на мобильном устройстве является возможность данных даже при отсутствии подключения к сети. 
 

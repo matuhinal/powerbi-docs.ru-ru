@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d40bda8ef6469e5dc826d36db3cc21cfe72f0da6
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: eeda30e5a075166af3718084c2c9f7737f876cbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092390"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861114"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Руководство. Начало работы со службой Power BI
 В этом руководстве содержатся вводные сведения о некоторых функциях *службы Power BI*. Здесь вы выполните такие действия, как подключение к данным, создание отчета и панели мониторинга, а также зададите вопросы к данным. Служба Power BI позволяет выполнять гораздо больше задач. Это руководство предназначено только для того, чтобы привлечь ваш интерес. Чтобы получить представление о том, как служба Power BI связана с другими предложениями Power BI, рекомендуется ознакомиться со статьей [Что такое Power BI](power-bi-overview.md).
@@ -226,5 +226,5 @@ ms.locfileid: "89092390"
 
 Изучите следующие подборки материалов Microsoft Learn для Power BI.
 
-- [Изучение Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-- [Как стать аналитиком данных Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)
+- [Изучение Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+- [Как стать аналитиком данных Power BI](/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

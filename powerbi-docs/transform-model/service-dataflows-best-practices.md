@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f80c683e3e9134bff8d3c24d4f64d43da405aa36
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d4b23039d8516375e98233254c92b2f7bbeb648d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83307458"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861620"
 ---
 # <a name="dataflows-best-practice"></a>Рекомендации по потокам данных
 
@@ -74,9 +74,9 @@ ms.locfileid: "83307458"
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
 
 Руководства и информационные материалы о разработке CDM:
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)
+* [Папки CDM](/common-data-model/data-lake)
+* [The metadata file (model.json) for the Common Data Model](/common-data-model/model-json) (Файл метаданных (model.json) для модели общих данных)
 
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:

@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220867"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855566"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>Советы и рекомендации по конвейерам развертывания (предварительная версия)
+# <a name="deployment-pipelines-best-practices"></a>Рекомендации по конвейерам развертывания
 
 В этой статье приводятся советы и рекомендации для создателей бизнес-аналитики, которые управляют содержимым в течение всего его жизненного цикла. Она посвящена использованию конвейеров развертывания в качестве средства управления жизненным циклом содержимого бизнес-аналитики.
 
@@ -79,7 +79,7 @@ ms.locfileid: "89220867"
 
 ### <a name="use-parameters-in-your-model"></a>Использование параметров в модели
 
-Так как вы не можете редактировать источники данных в службе Power BI, рекомендуется использовать [параметры](https://docs.microsoft.com/power-query/power-query-query-parameters) для хранения сведений о соединении, таких как имена экземпляров и имена баз данных, вместо использования статической строки подключения. Это позволяет на более поздней стадии управлять подключениями через веб-портал службы Power BI или [с помощью API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup).
+Так как вы не можете редактировать источники данных в службе Power BI, рекомендуется использовать [параметры](/power-query/power-query-query-parameters) для хранения сведений о соединении, таких как имена экземпляров и имена баз данных, вместо использования статической строки подключения. Это позволяет на более поздней стадии управлять подключениями через веб-портал службы Power BI или [с помощью API](/rest/api/power-bi/datasets/updateparametersingroup).
 
 В конвейерах развертывания можно настроить правила параметров, чтобы задать определенные значения для этапов разработки, тестирования и рабочем этапе.
 

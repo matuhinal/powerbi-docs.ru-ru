@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227724"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855088"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Приложение Power BI Premium Metrics
 
@@ -342,10 +342,9 @@ ms.locfileid: "85227724"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 * [Что такое Power BI Premium?](service-premium-what-is.md)
-* [Заметки о выпуске Power BI Premium](../service-premium-release-notes.md)
 * [Технический документ по Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Технический документ по планированию развертывания Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
-* [Активация расширенной пробной версии Power BI Pro](../service-extended-pro-trial.md)
+* [Активация расширенной пробной версии Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Часто задаваемые вопросы о Power BI Embedded](../developer/embedded/embedded-faq.md)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

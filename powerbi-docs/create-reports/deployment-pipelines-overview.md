@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/09/2020
-ms.openlocfilehash: 3994a5cdad4d80c87d4153ffe57af685d7a21d36
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008590"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855502"
 ---
-# <a name="introduction-to-deployment-pipelines-preview"></a>Общие сведения о конвейерах развертывания (предварительная версия)
+# <a name="introduction-to-deployment-pipelines"></a>Общие сведения о конвейерах развертывания
 
 В современном мире аналитика является важной частью принятия решений практически во всех организациях. Возрастающее использование Power BI в качестве аналитического инструмента требует от него использования большего количества данных, привлекательного вида и удобства в использовании. Кроме того, служба Power BI должна быть всегда доступной и надежной. Для удовлетворения этих требований создатели бизнес-аналитики должны эффективно выполнять совместную работу.
 

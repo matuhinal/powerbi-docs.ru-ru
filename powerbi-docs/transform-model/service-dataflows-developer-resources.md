@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2987d17510d8bbe5681c78df7d86d839c45b5ef9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3fea12fcc9d87c796f3da7bb0df040211db90f70
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240040"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861551"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Ресурсы для разработчиков потоков данных Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "85240040"
 
 | Ресурс потока данных | Описание |
 | --- | --- |
-| [Справочник по REST API для потоков данных Power BI](https://go.microsoft.com/fwlink/?linkid=2047629)    | Полное руководство по использованию REST API для потоков данных.|
+| [Справочник по REST API для потоков данных Power BI](/rest/api/power-bi/dataflows)    | Полное руководство по использованию REST API для потоков данных.|
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
@@ -41,9 +41,9 @@ ms.locfileid: "85240040"
 * [Использование потоков данных с локальными источниками данных](service-dataflows-on-premises-gateways.md)
 
 Руководства и информационные материалы о разработке CDM:
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)
+* [Папки CDM](/common-data-model/data-lake)
+* [The metadata file (model.json) for the Common Data Model](/common-data-model/model-json) (Файл метаданных (model.json) для модели общих данных)
 
 
 Дополнительные сведения о Power Query и обновлении по расписанию содержатся в следующих статьях:

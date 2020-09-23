@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220294"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856156"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Просмотр отчетов Power BI, оптимизированных для телефона
 
@@ -115,7 +115,7 @@ ms.locfileid: "85220294"
 
 ## <a name="drill-through-from-a-value"></a>Детализация из значения
 Детализация соединяет значения на одной странице отчета с другими страницами отчета. При детализации из точки данных на другую страницу отчета значения точек данных используются для фильтрации детализируемой страницы либо обработка осуществляется в контексте выбранных данных.
-Авторы отчетов могут [определять детализацию](https://docs.microsoft.com/power-bi/desktop-drillthrough) при создании отчета.
+Авторы отчетов могут [определять детализацию](../../create-reports/desktop-drillthrough.md) при создании отчета.
 
 1. Длительно коснитесь (нажмите и удерживайте) точки данных в визуальном элементе.
 2. Отобразится подсказка, и если детализация определена, то в нижнем колонтитуле подсказки будет отображаться стрелка детализации.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443336"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855025"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Добавочное обновление в Power BI
 
@@ -112,7 +112,7 @@ ms.locfileid: "89443336"
 
 #### <a name="current-date"></a>Текущая дата
 
-*Текущая дата* зависит от системной даты на момент обновления. Если для набора данных в службе Power BI включено запланированное обновление, то при определении текущей даты учитывается указанный часовой пояс. Как вызванные вручную, так и запланированные обновления через службу Power BI учитывают часовой пояс (если он доступен). Например, обновление, которое выполняется в 20 часов по тихоокеанскому времени (США и Канада) с заданным часовым поясом, определяет текущую дату по тихоокеанскому времени, а не по Гринвичу (в противном случае это будет следующий день). Операции обновления, которые не были вызваны через службу Power BI, например [команда обновления TMSL](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), не учитывают часовой пояс запланированного обновления.
+*Текущая дата* зависит от системной даты на момент обновления. Если для набора данных в службе Power BI включено запланированное обновление, то при определении текущей даты учитывается указанный часовой пояс. Как вызванные вручную, так и запланированные обновления через службу Power BI учитывают часовой пояс (если он доступен). Например, обновление, которое выполняется в 20 часов по тихоокеанскому времени (США и Канада) с заданным часовым поясом, определяет текущую дату по тихоокеанскому времени, а не по Гринвичу (в противном случае это будет следующий день). Операции обновления, которые не были вызваны через службу Power BI, например [команда обновления TMSL](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), не учитывают часовой пояс запланированного обновления.
 
 ![Часовой пояс](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -153,7 +153,7 @@ ms.locfileid: "89443336"
 
 ## <a name="query-timeouts"></a>Истечение времени ожидания запроса
 
-В статье, посвященной [устранению неполадок](../connect-data/refresh-troubleshooting-refresh-scenarios.md), объясняется, что при операциях обновления в службе Power BI может истекать время ожидания. В отношении запросов также может действовать время ожидания по умолчанию, настроенное для источника данных. Большинство реляционных источников позволяют переопределять время ожидания в выражении M. Например, в приведенном ниже выражении с помощью [функции доступа к данным SQL Server](https://docs.microsoft.com/powerquery-m/sql-database) оно задается равным двум часам. Для каждого периода, определенного в диапазонах политики, запрос выполняется с учетом времени ожидания команды.
+В статье, посвященной [устранению неполадок](../connect-data/refresh-troubleshooting-refresh-scenarios.md), объясняется, что при операциях обновления в службе Power BI может истекать время ожидания. В отношении запросов также может действовать время ожидания по умолчанию, настроенное для источника данных. Большинство реляционных источников позволяют переопределять время ожидания в выражении M. Например, в приведенном ниже выражении с помощью [функции доступа к данным SQL Server](/powerquery-m/sql-database) оно задается равным двум часам. Для каждого периода, определенного в диапазонах политики, запрос выполняется с учетом времени ожидания команды.
 
 ```powerquery-m
 let
@@ -176,7 +176,7 @@ in
 
 #### <a name="override-incremental-refresh-behavior"></a>Переопределение поведения при добавочном обновлении
 
-С помощью SSMS вы также можете получить более полный контроль над процессом вызова добавочных обновлений с помощью [языка сценариев табличной модели (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) и [модели табличных объектов (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). Например, в SSMS в обозревателе объектов щелкните правой кнопкой мыши таблицу и пункт меню **Обработать таблицу**. Затем нажмите кнопку **Сценарий**, чтобы создать команду обновления TMSL.
+С помощью SSMS вы также можете получить более полный контроль над процессом вызова добавочных обновлений с помощью [языка сценариев табличной модели (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) и [модели табличных объектов (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). Например, в SSMS в обозревателе объектов щелкните правой кнопкой мыши таблицу и пункт меню **Обработать таблицу**. Затем нажмите кнопку **Сценарий**, чтобы создать команду обновления TMSL.
 
 ![Кнопка "Сценарий" в диалоговом окне "Обработка таблиц"](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -204,7 +204,7 @@ in
 }
 ```
 
-Дополнительные сведения о переопределении поведения добавочного обновления по умолчанию см. в статье [Команда обновления](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
+Дополнительные сведения о переопределении поведения добавочного обновления по умолчанию см. в статье [Команда обновления](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Пользовательские запросы для обнаружения изменений данных
 
@@ -247,4 +247,4 @@ in
 ## <a name="see-also"></a>См. также раздел
 
 [Возможность подключения к набору данных с помощью конечной точки XMLA](service-premium-connect-tools.md)   
-[Troubleshooting refresh scenarios](../connect-data/refresh-troubleshooting-refresh-scenarios.md) (Устранение неполадок в сценариях обновления)   
+[Troubleshooting refresh scenarios](../connect-data/refresh-troubleshooting-refresh-scenarios.md) (Устранение неполадок в сценариях обновления)

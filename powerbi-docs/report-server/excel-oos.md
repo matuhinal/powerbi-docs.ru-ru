@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 03197d7d6b976615f13d9f482c1ba4d4c1ae2abd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90061cec87bae4b65d347617dacc2863052a07ce
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239458"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861160"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Настройка сервера отчетов для размещения книг Excel с использованием Office Online Server (OOS)
 
-Кроме просмотра отчетов Power BI на веб-портале в решении "Сервер отчетов Microsoft Power BI" можно размещать книги Excel с помощью [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Сервер отчетов можно использовать как единое расположение для публикации и просмотра самостоятельного содержимого Microsoft BI.
+Кроме просмотра отчетов Power BI на веб-портале в решении "Сервер отчетов Microsoft Power BI" можно размещать книги Excel с помощью [Office Online Server](/officeonlineserver/office-online-server-overview) (OOS). Сервер отчетов можно использовать как единое расположение для публикации и просмотра самостоятельного содержимого Microsoft BI.
 
 ![Просмотр отчетов Excel на веб-портале сервера отчетов](media/excel-oos/excel-in-pbirs.png)
 
@@ -187,6 +187,6 @@ URL-адрес обнаружения Office Online Server отображает�
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
+[Download SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) (Скачивание SQL Server Data Tools (SSDT))
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

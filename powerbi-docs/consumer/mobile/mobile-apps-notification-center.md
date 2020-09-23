@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2c12a2eb919dcef3b9decde9a15f799d78dc18e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 492b41192f3ab423ff8dacf73aac9ff49b9d15d9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220478"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856238"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Получение уведомлений в мобильных приложениях Power BI
 Применяется к:
@@ -23,7 +23,7 @@ ms.locfileid: "85220478"
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Благодаря уведомлениям вы получаете информацию, связанную с вашей работой в Power BI, в службе Power BI или непосредственно на своем мобильном устройстве. При открытии страницы "Уведомления" вы видите последовательность сообщений для [установленных вами оповещений](mobile-set-data-alerts-in-the-mobile-apps.md) о новых информационных панелях, к которым вам предоставлен доступ, об изменениях в вашей рабочей области группы, сведения о мероприятиях и встречах, связанных с Power BI, и многое другое.
 

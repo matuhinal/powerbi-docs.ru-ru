@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cb41d7d9d1e85957ebf02ce2742d3e32670d0cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281721"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861022"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Руководство. Вызов модели Студии машинного обучения (классической) в Power BI (предварительная версия)
 
@@ -31,11 +31,11 @@ ms.locfileid: "83281721"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Создание и публикация модели Azure ML
 
-Выполните инструкции из статьи [Руководство 1. Создание рабочей области Студии машинного обучения (классической)](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace), чтобы создать рабочую область **Машинного обучения**.
+Выполните инструкции из статьи [Руководство 1. Создание рабочей области Студии машинного обучения (классической)](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace), чтобы создать рабочую область **Машинного обучения**.
 
-Инструкции из этого руководства можно выполнять с любой готовой моделью Azure ML или набором данных. Если у вас нет опубликованной модели, можно быстро создать ее с помощью инструкций, приведенных в руководстве [Создание первого эксперимента по обработке и анализу данных в Студии машинного обучения Azure (классической)](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment). В нем описано создание модели машинного обучения Azure для прогнозирования цен на автомобили.
+Инструкции из этого руководства можно выполнять с любой готовой моделью Azure ML или набором данных. Если у вас нет опубликованной модели, можно быстро создать ее с помощью инструкций, приведенных в руководстве [Создание первого эксперимента по обработке и анализу данных в Студии машинного обучения Azure (классической)](/azure/machine-learning/studio/create-experiment). В нем описано создание модели машинного обучения Azure для прогнозирования цен на автомобили.
 
-Чтобы опубликовать модель машинного обучения Azure как веб-службу, выполните инструкции по [развертыванию веб-службы Студии машинного обучения Azure (классической)](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy).
+Чтобы опубликовать модель машинного обучения Azure как веб-службу, выполните инструкции по [развертыванию веб-службы Студии машинного обучения Azure (классической)](/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy).
 
 ## <a name="grant-a-power-bi-user-access"></a>Предоставление доступа пользователю Power BI
 
