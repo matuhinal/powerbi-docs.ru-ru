@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921155"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859528"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Примеры выражений в построителе отчетов Power BI
 Выражения часто используются в отчетах с разбивкой на страницы в Power BI Report Builder для управления содержимым и внешним видом отчета. Выражения записываются на языке Microsoft Visual Basic, и в них можно использовать встроенные функции, пользовательский код, переменные отчета, групповые переменные и определяемые пользователем переменные. Выражения начинаются со знака равенства (=).   
@@ -38,7 +38,7 @@ ms.locfileid: "78921155"
  Многие выражения в отчете содержат функции. Они позволяют форматировать данные, применять логику и обращаться к метаданным отчета. В выражениях можно использовать функции из библиотеки времени выполнения Microsoft Visual Basic, а также из пространств имен `xref:System.Convert` и `xref:System.Math`. Можно добавить ссылки на функции в пользовательском коде. Кроме того, можно использовать классы из Microsoft .NET Framework, в том числе `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Функции языка Visual Basic  
- Функции языка Visual Basic позволяют управлять данными, отображаемыми в текстовых полях или используемыми для параметров, свойств и в других областях отчета. В этом разделе приведены примеры применения некоторых из этих функций. Дополнительные сведения см. в разделе [Компоненты библиотеки времени выполнения Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) в MSDN.  
+ Функции языка Visual Basic позволяют управлять данными, отображаемыми в текстовых полях или используемыми для параметров, свойств и в других областях отчета. В этом разделе приведены примеры применения некоторых из этих функций. Дополнительные сведения см. в разделе [Компоненты библиотеки времени выполнения Visual Basic](/dotnet/visual-basic/language-reference/runtime-library-members) в MSDN.  
   
  Платформа .NET Framework предоставляет множество параметров пользовательских форматов, например для конкретных форматов даты. Дополнительные сведения см. в статье [Типы форматирования](/dotnet/standard/base-types/formatting-types).  
   
@@ -517,4 +517,3 @@ ms.locfileid: "78921155"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Сведения об отчетах с разбивкой на страницы в Power BI Premium](paginated-reports-report-builder-power-bi.md)
-  

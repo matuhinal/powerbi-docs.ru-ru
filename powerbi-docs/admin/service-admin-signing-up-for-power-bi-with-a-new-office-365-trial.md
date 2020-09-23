@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252091"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857089"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Регистрация в Power BI с новой пробной версией Microsoft 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "87252091"
 
     ![Выберите, чтобы зарегистрировать новую учетную запись](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
-4. Да, уже все.  Теперь у вас есть адрес электронной почты, который можно использовать для регистрации в Power BI. Перейдите к статье [Регистрация учетной записи отдельного пользователя в Power BI](../service-self-service-signup-for-power-bi.md)
+4. Да, уже все.  Теперь у вас есть адрес электронной почты, который можно использовать для регистрации в Power BI. Перейдите к статье [Регистрация учетной записи отдельного пользователя в Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)
 
      ![введите контактные данные](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-thank.png)
 

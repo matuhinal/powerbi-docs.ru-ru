@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: b414457c15155053ff6d316d1147536ec9ca5a8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393801"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856652"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Создание ссылки на определенное расположение в мобильных приложениях Power BI
 Вы можете использовать ссылки для прямого доступа к определенным элементам в Power BI: отчету, панели мониторинга и плитке.
@@ -100,7 +100,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 
 Ссылки внутри Power BI работают в мобильных приложениях точно так же, как и в службе Power BI.
 
-Если вы хотите добавить ссылку на отчет, указывающий на другой элемент Power BI, можно просто скопировать URL-адрес этого элемента из адресной строки браузера. См. дополнительные сведения о [добавлении гиперссылки в текстовое поле в отчете](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
+Если вы хотите добавить ссылку на отчет, указывающий на другой элемент Power BI, можно просто скопировать URL-адрес этого элемента из адресной строки браузера. См. дополнительные сведения о [добавлении гиперссылки в текстовое поле в отчете](../../create-reports/service-add-hyperlink-to-text-box.md).
 
 ## <a name="use-report-url-with-filter"></a>Использование URL-адреса отчета с фильтром
 Как и в службе Power BI, приложения Power BI Mobile также поддерживают URL-адрес отчета, содержащий параметр запроса фильтра. Вы можете открыть отчет в приложении Power BI Mobile и отфильтровать его до определенного состояния. Например, этот URL-адрес открывает отчет о продажах и фильтрует его по территориям
@@ -109,7 +109,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-См. дополнительные сведения о [создании параметра запроса для фильтрации отчетов](https://docs.microsoft.com/power-bi/service-url-filters).
+См. дополнительные сведения о [создании параметра запроса для фильтрации отчетов](../../collaborate-share/service-url-filters.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Ваши отзывы помогают нам решить, что следует добавить в следующие выпуски, поэтому не забудьте проголосовать за функции, которые хотели бы увидеть в мобильных приложениях Power BI. 
@@ -118,4 +118,3 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 * Подпишитесь на страницу @MSPowerBI в Twitter
 * Присоединяйтесь к обсуждению в [сообществе Power BI](https://community.powerbi.com/).
 * [Что такое Power BI?](../../fundamentals/power-bi-overview.md)
-

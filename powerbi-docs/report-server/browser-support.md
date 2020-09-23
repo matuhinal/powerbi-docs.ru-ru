@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874306"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859281"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Поддержка браузера для сервера отчетов Power BI
 Узнайте о том, какие версии браузера поддерживаются для просмотра и администрирования сервера отчетов Power BI и элементов управления средства просмотра отчетов.
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  При просмотре отчета без поддержки выполнения скриптов отчет готовится к просмотру в формате HTML без таких средств просмотра отчетов, как панель инструментов отчета и схема документа.
 
 > [!NOTE]
-> Панель инструментов отчета является частью компонента «Средство просмотра HTML-страниц». По умолчанию панель инструментов появляется в верхней части каждого отчета, который отображается в окне браузера. Средство просмотра отчетов позволяет искать данные в отчете, прокручивать страницы и настраивать размер страниц для просмотра. Дополнительные сведения о панели инструментов отчета и средстве просмотра HTML-страниц см. в разделе [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar).
+> Панель инструментов отчета является частью компонента «Средство просмотра HTML-страниц». По умолчанию панель инструментов появляется в верхней части каждого отчета, который отображается в окне браузера. Средство просмотра отчетов позволяет искать данные в отчете, прокручивать страницы и настраивать размер страниц для просмотра. Дополнительные сведения о панели инструментов отчета и средстве просмотра HTML-страниц см. в разделе [HTML Viewer and the Report Toolbar](/sql/reporting-services/html-viewer-and-the-report-toolbar).
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Поддержка браузеров для элементов управления веб-сервера средства просмотра отчетов в Visual Studio
-Элементы управления веб-сервера средства просмотра отчетов используются для внедрения функций отчета в веб-приложение ASP.NET. См. дополнительные сведения о том, как получить элемент управления средства просмотра отчетов в ходе [интеграции служб Reporting Services с помощью элементов управления средства просмотра отчетов](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
+Элементы управления веб-сервера средства просмотра отчетов используются для внедрения функций отчета в веб-приложение ASP.NET. См. дополнительные сведения о том, как получить элемент управления средства просмотра отчетов в ходе [интеграции служб Reporting Services с помощью элементов управления средства просмотра отчетов](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 Используйте браузер, в котором включена поддержка скриптов. Если браузер не может выполнять скрипты, просмотр отчета невозможен.
 
@@ -114,7 +114,6 @@ Your browser does not support scripts or has been configured to not allow script
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Скачать SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Скачать SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

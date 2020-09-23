@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238903"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861712"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Добавление папки CDM в Power BI в виде потока данных (предварительная версия)
 
@@ -26,7 +26,7 @@ ms.locfileid: "85238903"
 
 * Администратор должен связать учетную запись хранения ADLS 2-го поколения в Power BI, прежде чем ее можно будет использовать. Инструкции см. в статье [Подключение Azure Data Lake Storage 2-го поколения для хранения потоков данных](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 * Создание потоков данных из папок CDM доступно *только* в [новом интерфейсе рабочей области](../collaborate-share/service-create-the-new-workspaces.md). 
-* Для добавления папки CDM в Power BI пользователю необходимо добавить папку, чтобы получить [авторизацию для папки CDM и ее файлов](https://go.microsoft.com/fwlink/?linkid=2029121).
+* Для добавления папки CDM в Power BI пользователю необходимо добавить папку, чтобы получить [авторизацию для папки CDM и ее файлов](./service-dataflows-azure-data-lake-integration.md).
 * Вам необходимо иметь разрешения на чтение и выполнение для всех файлов и папок в папке CDM, чтобы добавить их в Power BI.
 
 В следующих разделах описывается создание потока данных из папки CDM.
@@ -86,7 +86,7 @@ Power BI Desktop:
 
   ![При попытке использовать поток данных возникла ошибка](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Чтобы устранить эту проблему, Бену необходимо предоставить разрешения читателя в папке CDM и ее файлах. Дополнительные сведения о том, как предоставить доступ к папке CDM, см. в [этой статье](https://go.microsoft.com/fwlink/?linkid=2029121).
+Чтобы устранить эту проблему, Бену необходимо предоставить разрешения читателя в папке CDM и ее файлах. Дополнительные сведения о том, как предоставить доступ к папке CDM, см. в [этой статье](./service-dataflows-azure-data-lake-integration.md).
 
 
 ## <a name="next-steps"></a>Следующие шаги
@@ -107,13 +107,13 @@ Power BI Desktop:
 * [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о службе хранилища Azure см. в следующих статьях:
-* [Руководство по безопасности службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Руководство по безопасности службы хранилища Azure](/azure/storage/common/storage-security-guide)
 * [Настройка запланированного обновления](../connect-data/refresh-scheduled-refresh.md)
 * [CDM folders and Azure Data Services integration](https://aka.ms/cdmadstutorial) (Интеграция папок CDM и служб данных Azure)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)
+* [Папки CDM](/common-data-model/data-lake)
+* [The metadata file (model.json) for the Common Data Model](/common-data-model/model-json) (Файл метаданных (model.json) для модели общих данных)
 
 Вы всегда можете [задать вопросы в Сообществе Power BI](https://community.powerbi.com/).

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2b1570176138a38e9856691af7d81f201b055db1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238516"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861942"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Создание шаблонов отчетов для Power BI Desktop
 
@@ -70,7 +70,7 @@ ms.locfileid: "85238516"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Возможно, вас также интересует изучение **параметров запроса**:
-* [Использование параметров запроса в Power BI Desktop](https://docs.microsoft.com/power-query/power-query-query-parameters)
+* [Использование параметров запроса в Power BI Desktop](/power-query/power-query-query-parameters)
 
 Кроме того, Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
 
@@ -78,4 +78,4 @@ ms.locfileid: "85238516"
 * [Обзор запросов в Power BI Desktop](../transform-model/desktop-query-overview.md)
 * [Типы данных в Power BI Desktop](../connect-data/desktop-data-types.md)
 * [Формирование и объединение данных с Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Общие задачи с запросами в Power BI Desktop](../transform-model/desktop-common-query-tasks.md)    
+* [Общие задачи с запросами в Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

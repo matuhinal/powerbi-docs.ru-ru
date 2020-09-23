@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216498"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859182"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Настройка Kerberos для использования отчетов Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -71,7 +71,7 @@ ms.locfileid: "86216498"
 
 Если вам потребовалось изменить файл конфигурации, необходимо остановиться и запустить сервер отчетов, чтобы проверить, вступили ли в силу изменения.
 
-Дополнительные сведения см. в статье, посвященной [настройке проверки подлинности Windows на сервере отчетов](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
+Дополнительные сведения см. в статье, посвященной [настройке проверки подлинности Windows на сервере отчетов](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="spns-for-the-report-server-service-account"></a>Имена субъектов-служб для учетной записи службы сервера отчетов
 Теперь нужно убедиться, что для сервера отчетов есть доступные допустимые имена субъектов-служб. Это зависит от учетной записи службы, настроенной для сервера отчетов.
@@ -218,4 +218,3 @@ ms.locfileid: "86216498"
 [Установка сервера отчетов Power BI](install-report-server.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

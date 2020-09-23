@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204584"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856838"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Использование собственных ключей шифрования для Power BI
 
@@ -39,7 +39,7 @@ BYOK применяется только к наборам данных. Наб�
 ```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
 
 > [!NOTE]
-> Для этого командлета требуется модуль управления Power BI версии 1.0.840. Узнать, какая версия у вас, можно с помощью команды Get-InstalledModule -Name MicrosoftPowerBIMgmt. Чтобы установить последнюю версию, выполните команду Install-Module -Name MicrosoftPowerBIMgmt. Дополнительные сведения об этом командлете Power BI и его параметрах см. в описании [модуля командлетов Power BI для PowerShell](https://docs.microsoft.com/powershell/power-bi/overview).
+> Для этого командлета требуется модуль управления Power BI версии 1.0.840. Узнать, какая версия у вас, можно с помощью команды Get-InstalledModule -Name MicrosoftPowerBIMgmt. Чтобы установить последнюю версию, выполните команду Install-Module -Name MicrosoftPowerBIMgmt. Дополнительные сведения об этом командлете Power BI и его параметрах см. в описании [модуля командлетов Power BI для PowerShell](/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Настройка Azure Key Vault
 
@@ -193,7 +193,7 @@ Power BI предоставляет дополнительные командл�
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Модуль командлетов PowerShell для Power BI](https://docs.microsoft.com/powershell/power-bi/overview) 
+* [Модуль командлетов PowerShell для Power BI](/powershell/power-bi/overview) 
 
 * [Способы совместного использования работы в Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 
@@ -202,4 +202,3 @@ Power BI предоставляет дополнительные командл�
 * [Внедрение с помощью веб-части отчетов в SharePoint Online](../collaborate-share/service-embed-report-spo.md)
 
 * [Публикация в Интернете из Power BI](../collaborate-share/service-publish-to-web.md)
-

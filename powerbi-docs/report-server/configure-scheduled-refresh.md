@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236087"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859044"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Как настроить запланированное обновление отчета Power BI
 Для обновления данных в отчете Power BI на сервере отчетов Power BI необходимо создать расписание обновления. Чтобы создать такой план, перейдите в область *Управление* отчета Power BI на сервере отчетов.
@@ -21,7 +21,7 @@ ms.locfileid: "85236087"
 ![Успешное запланированное обновление отчета Power BI](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>Настройка учетных данных для источника данных
-Вам нужны определенные разрешения для создания расписания обновления. Разрешения задаются в определениях ролей для сервера отчетов. Подробные сведения см. статье [Определения ролей — предварительно определенные роли](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles) документации по службам SQL Server Reporting Services.
+Вам нужны определенные разрешения для создания расписания обновления. Разрешения задаются в определениях ролей для сервера отчетов. Подробные сведения см. статье [Определения ролей — предварительно определенные роли](/sql/reporting-services/security/role-definitions-predefined-roles) документации по службам SQL Server Reporting Services.
 
 Прежде чем создать расписание обновления данных, необходимо задать учетные данные для **каждого источника данных**, используемого в отчете Power BI.
 
@@ -86,9 +86,8 @@ ms.locfileid: "85236087"
 Чтобы узнать текущее состояние, необходимо обновить веб-страницу. Состояние не изменится автоматически.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Дополнительные сведения о создании и изменении расписаний см. в руководстве по [созданию, изменению и удалению расписаний](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
+Дополнительные сведения о создании и изменении расписаний см. в руководстве по [созданию, изменению и удалению расписаний](/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
 
 Сведения об устранении неполадок с запланированным обновлением см. в статье [Troubleshoot scheduled refresh in Power BI Report Server](scheduled-refresh-troubleshoot.md) (Устранение неполадок с запланированным обновлением в сервере отчетов Power BI).
 
 Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

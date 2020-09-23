@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698700"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861804"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Устранение неполадок запланированного обновления в решении "Сервер отчетов Power BI"
 Ресурсы для устранения неполадок запланированного обновления в решении "Сервер отчетов Power BI".
@@ -35,9 +35,9 @@ ms.locfileid: "74698700"
 
 При систематической нехватке памяти проверьте развертывание сервера отчетов, чтобы распределить нагрузку на ресурсы. Также нужно определить, используется ли сервер отчетов для обновления данных с параметром `IsDataModelRefreshService` в файле rsreportserver.config. С помощью этого параметра можно назначить один сервер (или несколько серверов) сервером переднего плана для обработки в отчетов по запросу, а другой набор серверов можно использовать только для запланированного обновления.
 
-Сведения о мониторинге экземпляра Analysis Services см. в статье [Наблюдение за экземпляром служб Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
+Сведения о мониторинге экземпляра Analysis Services см. в статье [Наблюдение за экземпляром служб Analysis Services](/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
-Сведения о параметрах памяти служб Analysis Services см. в статье [Свойства памяти](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
+Сведения о параметрах памяти служб Analysis Services см. в статье [Свойства памяти](/sql/analysis-services/server-properties/memory-properties).
 
 ### <a name="kerberos-configuration"></a>Конфигурация Kerberos
 Чтобы подключиться к источнику данных с помощью учетных данных Windows, может потребоваться настроить ограниченное делегирование Kerberos. Дополнительные сведения о настройке ограниченного делегирования Kerberos см. в статье [Настройка Kerberos для использования отчетов Power BI](configure-kerberos-powerbi-reports.md).
@@ -180,7 +180,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 ### <a name="profiling-the-local-analysis-services-process"></a>Профилирование локального процесса Analysis Services
 Для локального процесса Analysis Services в целях диагностики можно выполнить трассировку SQL Profiler. Чтобы подключиться к локальному экземпляру Analysis Services, выполните описанные ниже действия.
 
-Трассировка SQL Server Profiler включена в файл [загрузки SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
+Трассировка SQL Server Profiler включена в файл [загрузки SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).
 
 1. Запустите **SQL Server Profiler** от имени администратора.
 2. Нажмите кнопку **Создать трассировку**.
@@ -188,7 +188,6 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 4. В диалоговом окне **Свойства трассировки** выберите события для записи и нажмите кнопку **Выполнить**.
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>Право доступа Windows "Блокировка страниц в памяти"
-Если отчет Power BI не отображается, назначьте право доступа **блокировка страниц в памяти** для учетной записи служб, с которой работает решение "Сервер отчетов Power BI". Дополнительные сведения о настройке **блокировки страниц в памяти** см. в разделе [Права доступа Windows, назначенные учетной записи служб Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv).
+Если отчет Power BI не отображается, назначьте право доступа **блокировка страниц в памяти** для учетной записи служб, с которой работает решение "Сервер отчетов Power BI". Дополнительные сведения о настройке **блокировки страниц в памяти** см. в разделе [Права доступа Windows, назначенные учетной записи служб Analysis Services](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv).
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

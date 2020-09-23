@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034167"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857066"
 ---
 # <a name="power-bi-security"></a>Безопасность Power BI
 
@@ -61,10 +61,10 @@ ms.locfileid: "86034167"
 
 ## <a name="enforcing-tls-version-usage"></a>Принудительное использование версии TLS
 
-Администраторы сетей и ИТ-администраторы могут применить требование использовать текущую версию протокола TLS для любого защищенного обмена данных в своей сети. В Windows реализована [поддержка версий TLS в поставщике Microsoft Schannel](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
+Администраторы сетей и ИТ-администраторы могут применить требование использовать текущую версию протокола TLS для любого защищенного обмена данных в своей сети. В Windows реализована [поддержка версий TLS в поставщике Microsoft Schannel](/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
 
-Это требование может быть применено путем административной настройки разделов реестра. См. сведения об [управлении протоколами SSL в AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
+Это требование может быть применено путем административной настройки разделов реестра. См. сведения об [управлении протоколами SSL в AD FS](/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
 
 **Power BI Desktop** поддерживает описанные в этих статьях параметры разделов реестра, создавая подключения с только с помощью версий TLS, которые разрешены в этих параметрах.
 
-См. сведения о [параметрах раздела реестра, разрешающих версии TLS](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
+См. сведения о [параметрах раздела реестра, разрешающих версии TLS](/windows-server/security/tls/tls-registry-settings).

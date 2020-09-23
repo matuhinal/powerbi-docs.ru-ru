@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642395"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859412"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Параметры URL-адреса в отчетах с разбивкой на страницы в Power BI
 
@@ -170,7 +170,7 @@ XML:
 - rdl:Encoding=строка
 - rdl:Schema=true/false
 
-**Открыть гиперссылку в том же окне браузера** Добавьте "rdl:targetSameWindow=true" в URL-адрес гиперссылки в отчете, чтобы служба Power BI открывала эту гиперссылку в том же окне браузера. Сведения о добавлении гиперссылок в отчет см. в статье [Добавление гиперссылки на URL-адрес](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) в документации по SQL Server Reporting Services.
+**Открыть гиперссылку в том же окне браузера** Добавьте "rdl:targetSameWindow=true" в URL-адрес гиперссылки в отчете, чтобы служба Power BI открывала эту гиперссылку в том же окне браузера. Сведения о добавлении гиперссылок в отчет см. в статье [Добавление гиперссылки на URL-адрес](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) в документации по SQL Server Reporting Services.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

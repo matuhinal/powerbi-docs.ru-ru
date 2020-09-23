@@ -8,19 +8,19 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937638"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861965"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Подключение к Power BI Premium Capacity Metrics
 Отслеживание емкостей очень важно для принятия обоснованных решений в отношении оптимального использования ресурсов емкости Premium. Приложение Power BI Premium Capacity Metrics предоставляет наиболее полные сведения об эффективности использования емкостей.
 
 ![Отчет о приложении Power BI Premium Capacity Metrics](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
 
-В этой статье рассказывается, как установить приложение и подключиться к источникам данных. Сведения о содержимом отчета и его использовании см. в разделе [Мониторинг емкостей Premium в приложении](../service-admin-premium-monitor-capacity.md), а также в [записи блога о приложении Premium Capacity Metrics](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/).
+В этой статье рассказывается, как установить приложение и подключиться к источникам данных. Сведения о содержимом отчета и его использовании см. в разделе [Мониторинг емкостей Premium в приложении](../admin/service-admin-premium-monitor-capacity.md), а также в [записи блога о приложении Premium Capacity Metrics](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/).
 
 После установки приложения и подключения к источникам данных можно настроить отчет в соответствии с вашими потребностями. Затем им можно поделиться с коллегами в организации.
 

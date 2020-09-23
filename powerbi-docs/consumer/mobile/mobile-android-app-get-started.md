@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 941bd2adc63a06089ddf4fb79752557b8c688f71
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263012"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856813"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Начало работы с мобильным приложением Power BI на устройствах под управлением Android
 Приложение Android для Microsoft Power BI позволяет работать со службой Power BI, сервером отчетов Power BI и службами Reporting Services на мобильных устройствах. Благодаря возможностям динамического мобильного доступа с поддержкой сенсорного ввода вы можете легко просматривать и использовать корпоративные панели мониторинга как в локальной, так и облачной среде. Просматривайте данные на панелях мониторинга и используйте их совместно с коллегами в электронных и текстовых сообщениях. 
@@ -112,7 +112,7 @@ Microsoft Intune позволяет управлять такими элемен
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Отчеты и ключевые показатели эффективности на веб-портале сервера отчетов Power BI и служб Reporting Services
 * [Просматривайте отчеты и ключевые показатели эффективности на веб-портале](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) в мобильном приложении Power BI для устройств Android.
-* Создавайте [ключевые показатели эффективности на веб-портале](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services).
+* Создавайте [ключевые показатели эффективности на веб-портале](/sql/reporting-services/working-with-kpis-in-reporting-services).
 * Создавайте [отчеты в Power BI Desktop и публикуйте их на веб-портале сервера отчетов Power BI](../../report-server/quickstart-create-powerbi-report.md).
 
 ### <a name="see-also"></a>См. также:

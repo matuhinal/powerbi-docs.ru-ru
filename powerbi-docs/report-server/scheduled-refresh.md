@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75837618"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861781"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Запланированное обновление отчета Power BI в решении "Сервер отчетов Power BI"
 Запланированное обновление дает возможность использовать актуальные данные для отчетов Power BI.
@@ -57,9 +57,9 @@ ms.locfileid: "75837618"
 ### <a name="memory-limits"></a>Ограничения памяти
 Рабочая нагрузка для сервера отчетов всегда была аналогична нагрузке веб-приложения. Возможность загрузки отчетов с помощью импорта данных или DirectQuery и запланированного обновления зависит от экземпляра служб Analysis Services, размещенного вместе с сервером отчетов. Это может привести к непредвиденной нехватке памяти на сервере. Планируя развертывание сервера учитывайте то, что служба Analysis Services может использовать память наряду с сервером отчетов.
 
-Сведения о мониторинге экземпляра Analysis Services см. в статье [Наблюдение за экземпляром служб Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
+Сведения о мониторинге экземпляра Analysis Services см. в статье [Наблюдение за экземпляром служб Analysis Services](/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
-Сведения о параметрах памяти служб Analysis Services см. в статье [Свойства памяти](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
+Сведения о параметрах памяти служб Analysis Services см. в статье [Свойства памяти](/sql/analysis-services/server-properties/memory-properties).
 
 ### <a name="data-model-size-limit"></a>Ограничение размера модели данных
 Модель данных, загруженная во внутренний обработчик Analysis Services во время запланированного обновления, имеет максимальный размер 2000 МБ (2 ГБ). Этот максимальный размер не может быть настроен. Если размер модели данных превышает 2 ГБ, будет получена ошибка обновления "Длина результата превышает предельную длину (2 ГБ) целевого большого типа". В этом случае рекомендуется размещать модель в экземпляре Analysis Services и использовать активное подключение к модели в отчете.

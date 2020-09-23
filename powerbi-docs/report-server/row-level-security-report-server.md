@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/22/2019
-ms.openlocfilehash: ba0cf6b450720e0564b5d476f57d91a4f070391c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238060"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861850"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Безопасность на уровне строк (RLS) на сервере отчетов Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "85238060"
 
     ![Применение фильтра безопасности](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Установите этот флажок при реализации [динамической безопасности на уровне строк](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) на основе имени пользователя или имени для входа. 
+Установите этот флажок при реализации [динамической безопасности на уровне строк](/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) на основе имени пользователя или имени для входа. 
 
 Дополнительные сведения см. в статье [Двунаправленная перекрестная фильтрация при работе с DirectQuery в Power BI Desktop](../transform-model/desktop-bidirectional-filtering.md) и техническом документе по [обеспечению безопасности в табличной семантической модели бизнес-аналитики](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
@@ -122,4 +122,3 @@ ms.locfileid: "85238060"
 [Руководство для администратора](admin-handbook-overview.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87412010"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861873"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>По внедрению отчета решения "Сервер отчетов Power BI" с помощью iFrame в SharePoint Server
 
@@ -24,7 +24,7 @@ ms.locfileid: "87412010"
 ## <a name="prerequisites"></a>Предварительные требования
 * Установленный и настроенный [Сервер отчетов Power BI](https://powerbi.microsoft.com/report-server/).
 * Установленное [приложение Power BI Desktop, оптимизированное для Сервера отчетов Power BI](install-powerbi-desktop.md).
-* Установленная и настроенная [среда SharePoint 2013, 2016 или 2019](https://docs.microsoft.com/sharepoint/install/install).
+* Установленная и настроенная [среда SharePoint 2013, 2016 или 2019](/sharepoint/install/install).
 * Internet Explorer 11 поддерживается, только если для режима документа установлен режим IE11 (Microsoft Edge) или при использовании SharePoint Online. Вы можете использовать другие поддерживаемые браузеры в локальной среде SharePoint и в SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Создание URL-адреса отчета Power BI
@@ -101,4 +101,4 @@ ms.locfileid: "87412010"
 - [Создание отчета Power BI для Сервера отчетов Power BI](quickstart-create-powerbi-report.md).  
 - [Создание отчета с разбивкой на страницы для Сервера отчетов Power BI](quickstart-create-paginated-report.md).  
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/). 
+Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI](https://community.powerbi.com/).

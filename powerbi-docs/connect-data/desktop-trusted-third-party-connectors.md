@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285976"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859619"
 ---
 # <a name="trusted-third-party-connectors"></a>Доверенные сторонние соединители
 
@@ -24,7 +24,7 @@ ms.locfileid: "83285976"
 
 Разработчик данного соединителя может подписать его с помощью сертификата и предоставить вам информацию, необходимую для безопасной загрузки без снижения настроек безопасности.
 
-Дополнительные сведения о параметрах безопасности см. [здесь](https://docs.microsoft.com/power-bi/desktop-connector-extensibility).
+Дополнительные сведения о параметрах безопасности см. [здесь](./desktop-connector-extensibility.md).
 
 ## <a name="using-the-registry-to-trust-third-party-connectors"></a>Использование реестра для обеспечения доверия к сторонним соединителям
 
@@ -46,4 +46,4 @@ ms.locfileid: "83285976"
 
 ## <a name="how-to-sign-connectors"></a>Как подписать Соединители
 
-Если у вас есть соединитель, который вы или разработчик должны подписать, вы можете ознакомится с дополнительными сведениями в документации Power Query [здесь](https://docs.microsoft.com/power-query/handlingconnectorsigning).
+Если у вас есть соединитель, который вы или разработчик должны подписать, вы можете ознакомится с дополнительными сведениями в документации Power Query [здесь](/power-query/handlingconnectorsigning).

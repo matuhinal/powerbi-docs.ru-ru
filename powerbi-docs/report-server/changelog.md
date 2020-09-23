@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459607"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859251"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Журнал изменений для сервера отчетов Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "86459607"
             - Исправлена проблема, из-за которой не удавалось выполнить обновление, если для слияния запросов использовалось нечеткое соответствие.
     - *Версия: 1.8.7450.37410 (сборка 15.0.1103.227), дата выпуска: 27 мая 2020 г.*
          - Функции
-            -  Добавлена поддержка настраиваемого размера пула подключений к каталогу (дополнительные сведения см. в статье о [параметре MaxCatalogConnectionPoolSizePerProcess](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)).
+            -  Добавлена поддержка настраиваемого размера пула подключений к каталогу (дополнительные сведения см. в статье о [параметре MaxCatalogConnectionPoolSizePerProcess](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service)).
             -  Улучшена процедура просмотра отчета во время операции обновления.
         - Обновления для системы безопасности
         - Исправленные ошибки
@@ -65,7 +65,7 @@ ms.locfileid: "86459607"
            -  Исправлена проблема, из-за которой не удавалось отправить отчеты Power BI для определенных источников данных.
            -  Исправлено расположение для скачивания Сервера отчетов Power BI версии для настольного компьютера с портала по ссылке.
            -  Исправление DynamicImageDPI для подготовки отчетов Excel к просмотру.
-           -  Исправлена проблема, из-за которой при подключении к Oracle использовались неверные региональные параметры потоков в некоторых сценариях с несколькими пользователями (дополнительные сведения см. в [документации по UseInstalledUICulture](https://docs.microsoft.com/power-bi/report-server/connect-data-sources)).
+           -  Исправлена проблема, из-за которой при подключении к Oracle использовались неверные региональные параметры потоков в некоторых сценариях с несколькими пользователями (дополнительные сведения см. в [документации по UseInstalledUICulture](./connect-data-sources.md)).
            -  Исправлено значение по умолчанию для CustomHeaders, из-за которого возникал сбой при внедрении отчетов.
            -  Исправлена проблема, из-за которой в определенных случаях неправильно формировались имена параметров SQL.
     - *Версия: 1.6.7327.3007 (сборка 15.0.1102.759), дата выпуска: 23 января 2020 г.*
@@ -351,7 +351,7 @@ ms.locfileid: "86459607"
 
     - *Сборка 14.0.600.305, дата выпуска: 19 сентября 2017 г.*  
         - Исправленные ошибки
-            - Обновление до последней версии [веб-элемента управления Картами Bing](https://msdn.microsoft.com/library/mt712542.aspx)
+            - Обновление до последней версии [веб-элемента управления Картами Bing](/bingmaps/v8-web-control/)
 
     - *Сборка 14.0.600.301, дата выпуска: 11 июля 2017 г.*
         - Исправленные ошибки
@@ -373,6 +373,6 @@ ms.locfileid: "86459607"
 [Обзор функций администратора](admin-handbook-overview.md)  
 [Установка сервера отчетов Power BI](install-report-server.md)  
 [Загрузка построителя отчетов](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714) (Скачивание SQL Server Data Tools (SSDT))
+[Download SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) (Скачивание SQL Server Data Tools (SSDT))
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
