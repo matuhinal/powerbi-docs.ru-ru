@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239761"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857917"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Настройка параметров потоков данных рабочей области (предварительная версия)
 
@@ -128,13 +128,13 @@ ms.locfileid: "85239761"
 
 Дополнительные сведения о службе хранилища Azure см. в следующих статьях:
 
-* [Руководство по безопасности службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Руководство по безопасности службы хранилища Azure](/azure/storage/common/storage-security-guide)
 * [CDM folders and Azure Data Services integration](https://aka.ms/cdmadstutorial) (Интеграция папок CDM и служб данных Azure)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
 
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)
+* [Папки CDM](/common-data-model/data-lake)
+* [The metadata file (model.json) for the Common Data Model](/common-data-model/model-json) (Файл метаданных (model.json) для модели общих данных)
 
 Вы всегда можете [задать вопросы в Сообществе Power BI](https://community.powerbi.com/).

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240145"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857733"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Применение ограничений точек данных и стратегии по шаблону визуализации
 
@@ -41,7 +41,7 @@ ms.locfileid: "85240145"
 ## <a name="statistics"></a>Статистика
 Некоторые модели предоставляют статистику о количестве значений в определенных столбцах. При наличии таких сведений мы используем их, чтобы улучшить балансировку между несколькими иерархиями, если визуальный элемент явным образом не переопределяет число значений для стратегии.
 
-Дополнительные сведения см. в статье [What's New in Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) (Новые возможности Analysis Services).
+Дополнительные сведения см. в статье [What's New in Analysis Services](/sql/analysis-services/what-s-new-in-analysis-services) (Новые возможности Analysis Services).
 
 ## <a name="dynamic-limits"></a>Динамические ограничения
 Помимо вышеописанных стратегий визуальные элементы с двумя иерархиями группирования столбцов (ось и легенда или категория и серия) используют одну дополнительную стратегию, которая называется *динамические ограничения*.  Динамические ограничения предназначены для оптимальной балансировки точек данных. 
@@ -50,7 +50,7 @@ ms.locfileid: "85240145"
 
 Динамические ограничения применяются автоматически, если сервер настроен так, как показано ниже:
 
-* В Power BI Desktop с локальной службой SQL Server Analysis Services версии 2016 или более поздней [используются серверные возможности SuperDax](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/).
+* В Power BI Desktop с локальной службой SQL Server Analysis Services версии 2016 или более поздней [используются серверные возможности SuperDax](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3).
 
 * В Desktop и службе Power BI при использовании импортированной модели, прямых запросов, прямого подключения к службе или к AS PaaS. 
 
@@ -132,7 +132,7 @@ ms.locfileid: "85240145"
 - Значения: виртуализация окна, которое отображает 200 строк
 
 ### <a name="scatter-chart-high-density"></a>Точечные диаграммы с высокой плотностью
-Ознакомьтесь со статьей о [точечных диаграммах с высокой плотностью](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
+Ознакомьтесь со статьей о [точечных диаграммах с высокой плотностью](./desktop-high-density-scatter-charts.md)
 
 ### <a name="pie"></a>Круговая
 - Максимальное количество точек: 3500

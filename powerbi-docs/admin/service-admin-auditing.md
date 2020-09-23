@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512063"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857710"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Отслеживание действий пользователей в Power BI
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > Отображение всех событий может занять до 24 часов, хотя обычно они становятся доступны гораздо раньше.
 >
 >
-Дополнительные сведения об использовании REST API Power BI, включая примеры получения событий аудита, см. в разделе [Администрирование — получение событий действий](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) справочной документации по REST API Power BI.
+Дополнительные сведения об использовании REST API Power BI, включая примеры получения событий аудита, см. в разделе [Администрирование — получение событий действий](/rest/api/power-bi/admin/getactivityevents) справочной документации по REST API Power BI.
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Командлет Get-PowerBIActivityEvent
 
@@ -122,7 +122,7 @@ $activities[0]
 
 Чтобы получить доступ к журналам аудита, вам нужно выполнить следующие требования:
 
-- Для доступа к журналам аудита вы должны быть глобальным администратором или вам должна быть назначена роль журналов аудита или журналов аудита в режиме просмотра в Exchange Online. По умолчанию группы ролей управления соответствием и управления организацией назначены на странице **Разрешения** в центре администрирования Exchange. Дополнительные сведения о ролях, которые могут просматривать журналы аудита, см. в разделе [Требования для поиска в журнале аудита](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Для доступа к журналам аудита вы должны быть глобальным администратором или вам должна быть назначена роль журналов аудита или журналов аудита в режиме просмотра в Exchange Online. По умолчанию группы ролей управления соответствием и управления организацией назначены на странице **Разрешения** в центре администрирования Exchange. Дополнительные сведения о ролях, которые могут просматривать журналы аудита, см. в разделе [Требования для поиска в журнале аудита](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
 
     Чтобы предоставить учетным записям без прав администратора доступ к журналу аудита, сделайте пользователя участником одной из этих групп ролей. Если вы хотите сделать это другим способом, вы можете создать пользовательскую группу ролей в центре администрирования Exchange, назначить упомянутые выше роли, связанные с журналом аудита, этой группе, а затем включить учетную запись без прав администратора в новую группу ролей. См. дополнительные сведения об [управлении группами ролей в Exchange Online](/Exchange/permissions-exo/role-groups).
 

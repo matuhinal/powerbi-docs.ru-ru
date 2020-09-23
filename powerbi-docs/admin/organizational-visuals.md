@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544840"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857756"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Управление параметрами администратора визуальных элементов Power BI
 
@@ -64,7 +64,7 @@ ms.locfileid: "87544840"
 
 ![визуальные элементы из файла или из AppSource](media/organizational-visuals/tenant-settings.png)
 
-Изменения параметров клиента в пользовательском интерфейсе влияют только на службу Power BI. Чтобы разрешить пользователям в организации отправлять файлы PBIVIZ и добавлять визуальные элементы из AppSource в область визуализации в Power BI Desktop, используйте [групповую политику Azure AD](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+Изменения параметров клиента в пользовательском интерфейсе влияют только на службу Power BI. Чтобы разрешить пользователям в организации отправлять файлы PBIVIZ и добавлять визуальные элементы из AppSource в область визуализации в Power BI Desktop, используйте [групповую политику Azure AD](/azure/active-directory-domain-services/manage-group-policy).
 
 |Ключ  |Имя значения  |Значение  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ ms.locfileid: "87544840"
 
 ![сертифицированные визуальные элементы](media/organizational-visuals/certified-visuals.png)
 
-Изменения параметров клиента в пользовательском интерфейсе влияют только на службу Power BI. Чтобы управлять параметрами клиента для сертифицированных визуальных элементов в Power BI Desktop, используйте [групповую политику Azure AD](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+Изменения параметров клиента в пользовательском интерфейсе влияют только на службу Power BI. Чтобы управлять параметрами клиента для сертифицированных визуальных элементов в Power BI Desktop, используйте [групповую политику Azure AD](/azure/active-directory-domain-services/manage-group-policy).
 
 |Ключ  |Имя значения  |Значение  |
 |---------|---------|---------|

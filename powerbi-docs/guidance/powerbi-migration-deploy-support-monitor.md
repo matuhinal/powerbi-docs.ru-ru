@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402009"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965003"
 ---
 # <a name="deploy-to-power-bi"></a>Развертывание в Power BI
 
@@ -100,7 +100,7 @@ ms.locfileid: "89402009"
 - **Параметры отчетов и панелей мониторинга.** Обновите и проверьте параметры для всех отчетов и панелей мониторинга. Ниже перечислены наиболее важные параметры.
   - Описание
   - Контактное лицо или группа
-  - [Метка конфиденциальности](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [Метка конфиденциальности](../admin/service-security-apply-data-sensitivity-labels.md)
   - [Рекомендуемое содержимое](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **Подписки.** При необходимости настройте подписки на отчеты.
 
@@ -136,7 +136,7 @@ ms.locfileid: "89402009"
 
 ## <a name="monitor-the-solution"></a>Мониторинг решения
 
-События из [журнала действий Power BI](../admin/service-admin-auditing.md) помогают понять варианты использования нового решения (или из [журнала выполнения](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15) для содержимого, развернутого на Сервере отчетов Power BI). Анализ журнала действий позволит определить, отличается ли реальное использование от ожидаемого. Кроме того, с его помощью можно проверить, поддерживается ли решение должным образом.
+События из [журнала действий Power BI](../admin/service-admin-auditing.md) помогают понять варианты использования нового решения (или из [журнала выполнения](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view) для содержимого, развернутого на Сервере отчетов Power BI). Анализ журнала действий позволит определить, отличается ли реальное использование от ожидаемого. Кроме того, с его помощью можно проверить, поддерживается ли решение должным образом.
 
 Ниже приведены некоторые вопросы, ответы на которые можно получить, просмотрев журнал действий.
 

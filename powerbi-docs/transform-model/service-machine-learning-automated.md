@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: a3d3e5daa05b60a64186b133c21f84ff98bfae54
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878623"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858055"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Автоматизированное машинное обучение в Power BI
 
@@ -32,7 +32,7 @@ AutoML в Power BI позволяет аналитикам данных созд
 
 AutoML поддерживает создание моделей **двоичного прогнозирования**, **классификации** и **регрессии** для потоков данных. Это контролируемые типы моделей машинного обучения, то есть они используют известные результаты прошлых наблюдений для прогнозирования результатов других наблюдений. Входной набор данных для обучения модели AutoML содержит набор записей **с информацией** об известных результатах.
 
-AutoML в Power BI применяет [автоматизированное машинное обучение](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) из службы [Машинное обучение Azure](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) для создания моделей машинного обучения. Но для использования AutoML в Power BI не требуется подписка Azure. Процесс обучения и размещения моделей машинного обучения полностью управляется службой Power BI.
+AutoML в Power BI применяет [автоматизированное машинное обучение](/azure/machine-learning/service/concept-automated-ml) из службы [Машинное обучение Azure](/azure/machine-learning/service/overview-what-is-azure-ml) для создания моделей машинного обучения. Но для использования AutoML в Power BI не требуется подписка Azure. Процесс обучения и размещения моделей машинного обучения полностью управляется службой Power BI.
 
 После обучения модели машинного обучения AutoML автоматически создает отчет Power BI с информацией о предполагаемой эффективности полученной модели машинного обучения. AutoML уделяет особое внимание объяснению причин, выделяя из входных данных ключевые факторы, влияющие на возвращаемые моделью прогнозы. Отчет также содержит ключевые метрики модели.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: b77543a7601cf4f8522c333137802e71ce41a41c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091602"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858377"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Подключение к базе данных Oracle с помощью Power BI Desktop
 Для подключения к базе данных Oracle с помощью Power BI Desktop необходимо установить правильное программное обеспечение клиента Oracle на компьютере, где выполняется Power BI Desktop. Используемое клиентское программное обеспечение Oracle зависит от того, какую версию Power BI Desktop вы установили: 32-разрядную или 64-разрядную. Это также зависит от версии сервера Oracle.
@@ -24,7 +24,7 @@ ms.locfileid: "88091602"
 - Клиент доступа к данным Oracle (ODAC) — программное обеспечение версии 11.2 и более поздней
 
 > [!NOTE]
-> Если вы настраиваете базу данных Oracle для сервера отчетов Power BI Desktop, локальный шлюз данных или сервер отчетов Power BI, см. статью [Тип соединения Oracle (построитель отчетов и сервер отчетов Power BI)](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15). 
+> Если вы настраиваете базу данных Oracle для сервера отчетов Power BI Desktop, локальный шлюз данных или сервер отчетов Power BI, см. статью [Тип соединения Oracle (построитель отчетов и сервер отчетов Power BI)](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15). 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Определение установленной версии Power BI Desktop
@@ -89,4 +89,4 @@ ms.locfileid: "88091602"
 
 Если при подключении к базе данных Oracle в Power BI Gateway отображается сообщение об ошибке *Ссылка на объект не задана*, выполните инструкции в разделе [Управление своим источником данных — Oracle](service-gateway-onprem-manage-oracle.md).
 
-Если вы используете Сервер отчетов Power BI, см. сведения о [типе соединения Oracle](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15).
+Если вы используете Сервер отчетов Power BI, см. сведения о [типе соединения Oracle](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15).

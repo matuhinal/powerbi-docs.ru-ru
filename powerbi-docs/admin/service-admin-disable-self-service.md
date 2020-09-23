@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 216be5b7a72d32e78933c7b6ceb879ccfbb4dd92
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 966699f20e83a7ea34140486f97f4491c4ba35e2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228484"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857457"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>Включение и отключение самостоятельной регистрации и приобретения
 
@@ -44,9 +44,9 @@ ms.locfileid: "85228484"
 
 ### <a name="before-you-begin"></a>Подготовка
 
-В этих инструкциях для изменения значения параметра **AllowAdHocSubscriptions** используются команды PowerShell для Azure Active Directory. Чтобы они стали доступны, необходимо установить модуль PowerShell для Azure AD. Дополнительные сведения об использовании PowerShell см. в статье [Начало работы с Windows PowerShell](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
+В этих инструкциях для изменения значения параметра **AllowAdHocSubscriptions** используются команды PowerShell для Azure Active Directory. Чтобы они стали доступны, необходимо установить модуль PowerShell для Azure AD. Дополнительные сведения об использовании PowerShell см. в статье [Начало работы с Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
 
-Чтобы установить модуль Azure AD, запустите Windows PowerShell от имени администратора. Убедитесь в том, что локальная политика выполнения позволяет выполнять скрипты. Если возникли проблемы, см. раздел [Политики выполнения PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies), чтобы узнать, как изменить локальную политику.
+Чтобы установить модуль Azure AD, запустите Windows PowerShell от имени администратора. Убедитесь в том, что локальная политика выполнения позволяет выполнять скрипты. Если возникли проблемы, см. раздел [Политики выполнения PowerShell](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies), чтобы узнать, как изменить локальную политику.
 
 Чтобы установить модуль Azure AD, выполните следующую команду.
 
@@ -90,9 +90,9 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $false
 
 ### <a name="before-you-begin"></a>Подготовка
 
-В этих инструкциях для изменения значения параметра **AllowSelfServicePurchase** используются команды MSCommerce в PowerShell. Чтобы они стали доступны, необходимо установить модуль MSCommerce PowerShell. Дополнительные сведения об использовании PowerShell см. в статье [Начало работы с Windows PowerShell](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
+В этих инструкциях для изменения значения параметра **AllowSelfServicePurchase** используются команды MSCommerce в PowerShell. Чтобы они стали доступны, необходимо установить модуль MSCommerce PowerShell. Дополнительные сведения об использовании PowerShell см. в статье [Начало работы с Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
 
-Чтобы установить модуль MSCommerce, запустите Windows PowerShell от имени администратора. Убедитесь в том, что локальная политика выполнения позволяет выполнять скрипты. Если возникли проблемы, см. раздел [Политики выполнения PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies), чтобы узнать, как изменить локальную политику.
+Чтобы установить модуль MSCommerce, запустите Windows PowerShell от имени администратора. Убедитесь в том, что локальная политика выполнения позволяет выполнять скрипты. Если возникли проблемы, см. раздел [Политики выполнения PowerShell](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies), чтобы узнать, как изменить локальную политику.
 
 Чтобы установить модуль MSCommerce, выполните следующую команду:
 
@@ -128,5 +128,5 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ
 
 Дополнительные сведения о самостоятельном приобретении лицензий на Power BI и другие службы Power Platform см. в следующих статьях:
 
-- [Вопросы и ответы по самостоятельной покупке](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
-- [Использование параметра AllowSelfServicePurchase для модуля MSCommerce PowerShell](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)
+- [Вопросы и ответы по самостоятельной покупке](/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
+- [Использование параметра AllowSelfServicePurchase для модуля MSCommerce PowerShell](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)

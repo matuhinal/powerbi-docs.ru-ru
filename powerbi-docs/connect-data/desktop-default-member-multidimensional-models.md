@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 75c1d76d5fbdfc0d844e69ef0f76ced7cd2e302d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 75753886930a4b9c2e109f36b5cc01ccbaec49e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292945"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858331"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Работа с многомерными моделями в Power BI
 
 Power BI позволяет подключаться к многомерным моделям и создавать отчеты для визуализации всех видов данных в модели. При работе с многомерными моделями в Power BI применяются правила обработки данных с учетом того, какой столбец определен как *элемент по умолчанию*. 
 
-Также Power BI обрабатывает данные из модели с учетом того, где используется столбец, который содержит атрибут **DefaultMember**. Атрибут *DefaultMember* настаивается с помощью CSDL для определенного столбца в многомерной модели. Дополнительные сведения об элементе по умолчанию см. в описании [свойств атрибута](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017). При выполнении запроса DAX указанный в модели элемент по умолчанию применяется автоматически.
+Также Power BI обрабатывает данные из модели с учетом того, где используется столбец, который содержит атрибут **DefaultMember**. Атрибут *DefaultMember* настаивается с помощью CSDL для определенного столбца в многомерной модели. Дополнительные сведения об элементе по умолчанию см. в описании [свойств атрибута](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017). При выполнении запроса DAX указанный в модели элемент по умолчанию применяется автоматически.
 
 В статье описаны особенности использования Power BI при работе с многомерными моделями с учетом того, где находится *элемент по умолчанию*. 
 

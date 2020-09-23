@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 91b0bba3b8e3fc221a05e6ccb2de1ec9b888d1ef
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349317"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858400"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Руководство. Создание собственных мер в Power BI Desktop
 С помощью мер можно создать некоторые эффективные решения для анализа данных в Power BI Desktop. Меры полезны тем, что они выполняют вычисления с вашими данными, когда вы работаете с отчетами. В этом руководстве объясняется, что такое меры, и как создать несколько собственных базовых мер в Power BI Desktop.
@@ -245,4 +245,4 @@ ms.locfileid: "83349317"
   
 - Чтобы более подробно изучить формулы DAX и создавать более сложные меры, см. статью [Основные сведения о DAX в Power BI Desktop](desktop-quickstart-learn-dax-basics.md). В этой статье описываются основные понятия языка DAX, такие как синтаксис, функции, и дается более глубокое объяснение контекста.
   
-- Рекомендуется добавить в избранное [справочник по языку выражений анализа данных (DAX)](https://docs.microsoft.com/dax/index). В нем можно найти подробные сведения о синтаксисе DAX, операторах и более чем о 200 функциях DAX.
+- Рекомендуется добавить в избранное [справочник по языку выражений анализа данных (DAX)](/dax/index). В нем можно найти подробные сведения о синтаксисе DAX, операторах и более чем о 200 функциях DAX.
