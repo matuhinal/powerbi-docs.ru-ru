@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286160"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965343"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Руководство. Анализ данных Facebook с помощью Power BI Desktop
 
@@ -114,7 +114,7 @@ ms.locfileid: "83286160"
    ![Примененные шаги](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >В основе **примененных шагов** — формулы, написанные на [языке формул Power Query M](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Чтобы просмотреть и изменить формулы, выберите **Расширенный редактор** в группе **Запрос** на вкладке **Главная** на ленте. 
+   >В основе **примененных шагов** — формулы, написанные на [языке формул Power Query M](/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Чтобы просмотреть и изменить формулы, выберите **Расширенный редактор** в группе **Запрос** на вкладке **Главная** на ленте. 
 
 ### <a name="import-the-transformed-data"></a>Импорт преобразованных данных
 
@@ -251,7 +251,6 @@ ms.locfileid: "83286160"
 Power BI Desktop предоставляет удобные возможности для получения данных из разнообразных источников и их обработки для анализа и визуализации в интерактивном режиме. Готовый отчет можно [отправить в Power BI](../create-reports/desktop-upload-desktop-files.md), создать на его основе панели мониторинга и предоставить к ним общий доступ другим пользователям Power BI.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Прочитайте другие руководства по Power BI Desktop.](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [Посмотрите видеоматериалы по Power BI Desktop.](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Microsoft Learn для Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Посетите форум Power BI.](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Прочитайте блог, посвященный Power BI.](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239810"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853304"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Потоки данных и интеграция Azure Data Lake (предварительная версия)
 
@@ -45,7 +45,7 @@ ms.locfileid: "85239810"
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI упорядочивает папки CDM в озере данных
 
-С помощью потоков данных Power BI и их интеграции с ADLS 2-го поколения Power BI может создавать данные в озере данных. В качестве поставщика данных служба Power BI должна создать папку CDM для каждого потока данных, содержащую файл model.json и связанные с ним файлы данных. Power BI хранит свои данные изолированно от других поставщиков данных в озере данных с помощью *файловых систем*. Подробные сведения о файловой системе Azure Data Lake Storage 2-го поколения и иерархическом пространстве имен см. в [этой статье](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace).
+С помощью потоков данных Power BI и их интеграции с ADLS 2-го поколения Power BI может создавать данные в озере данных. В качестве поставщика данных служба Power BI должна создать папку CDM для каждого потока данных, содержащую файл model.json и связанные с ним файлы данных. Power BI хранит свои данные изолированно от других поставщиков данных в озере данных с помощью *файловых систем*. Подробные сведения о файловой системе Azure Data Lake Storage 2-го поколения и иерархическом пространстве имен см. в [этой статье](/azure/storage/data-lake-storage/namespace).
 
 Power BI использует вложенные папки для устранения неоднозначности и обеспечения улучшенной организации данных при представлении в **службе Power BI**. Имена и структура папок представляют собой рабочие пространства (папки) и потоки данных (папки CDM). На следующей схеме показано, как можно структурировать озеро данных, совместно используемое службой Power BI и другими поставщиками данных. Каждая служба, в данном случае Dynamics 365, Microsoft Dynamics 365 for Finance and Operation и Power BI, создает и поддерживает собственную файловую систему. В зависимости от интерфейса в каждой службе создаются вложенные папки для лучшей организации папок CDM в файловой системе. 
 
@@ -61,12 +61,12 @@ Power BI использует маркеры *носителя OAuth Active Dire
 
 Предоставление общего доступа к папкам CDM потребителям данных, таким как пользователи или службы, которым необходимо считывать данные, можно упростить с помощью маркеров носителя OAuth Active Directory и POSIX ACL. Это дает администраторам возможность определять, кто получил доступ к папке CDM. Единственное, что требуется, — предоставить выбранному объекту Active Directory (например, группе пользователей или службе) доступ к папке CDM. Мы рекомендуем, чтобы доступ к папке CDM для любой сущности, кроме поставщика данных, был предоставлен только на чтение. Это защитит целостность данных, созданных поставщиком.
 
-Чтобы добавить папки CDM в Power BI, пользователь, добавляющий папку CDM, должен иметь ACL с доступом *на чтение* как для самой папки CDM, так и для любых файлов или папок в ней. Кроме того, ACL с доступом на *выполнение* как для самой папки CDM, так и любых папок в ней. Дополнительные сведения см. в разделе о [списках управления доступом для файлов и каталогов](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) и в статье [Best practices for using Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) (Рекомендации по использованию Azure Data Lake Storage 2-го поколения).
+Чтобы добавить папки CDM в Power BI, пользователь, добавляющий папку CDM, должен иметь ACL с доступом *на чтение* как для самой папки CDM, так и для любых файлов или папок в ней. Кроме того, ACL с доступом на *выполнение* как для самой папки CDM, так и любых папок в ней. Дополнительные сведения см. в разделе о [списках управления доступом для файлов и каталогов](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) и в статье [Best practices for using Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-best-practices) (Рекомендации по использованию Azure Data Lake Storage 2-го поколения).
 
 
 ### <a name="alternative-forms-of-authorization"></a>Альтернативные формы авторизации
 
-Пользователи или службы за пределами Power BI могут использовать альтернативные формы авторизации. Эти альтернативы предоставляют владельцам ключа доступ ко *всем* ресурсам в учетной записи, полный доступ ко всем ресурсам в озере. Кроме того, они не могут быть ограничены файловыми системами или папками CDM. Этими альтернативами могут быть простые способы предоставления доступа, но они ограничивают возможность совместного использования определенных ресурсов в озере данных и не предоставляют пользователям возможность определения того, кто получил доступ к хранилищу. Дополнительные сведения о доступных схемах авторизации см. в статье [Access control in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Пользователи или службы за пределами Power BI могут использовать альтернативные формы авторизации. Эти альтернативы предоставляют владельцам ключа доступ ко *всем* ресурсам в учетной записи, полный доступ ко всем ресурсам в озере. Кроме того, они не могут быть ограничены файловыми системами или папками CDM. Этими альтернативами могут быть простые способы предоставления доступа, но они ограничивают возможность совместного использования определенных ресурсов в озере данных и не предоставляют пользователям возможность определения того, кто получил доступ к хранилищу. Дополнительные сведения о доступных схемах авторизации см. в статье [Access control in Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-access-control
 ) (Управление доступом в Azure Data Lake Storage 2-го поколения).
 
 
@@ -88,12 +88,12 @@ Power BI использует маркеры *носителя OAuth Active Dire
 * [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о службе хранилища Azure см. в следующих статьях:
-* [Руководство по безопасности службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Руководство по безопасности службы хранилища Azure](/azure/storage/common/storage-security-guide)
 * [CDM folders and Azure Data Services integration](https://aka.ms/cdmadstutorial) (Интеграция папок CDM и служб данных Azure)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)
+* [Папки CDM](/common-data-model/data-lake)
+* [The metadata file (model.json) for the Common Data Model](/common-data-model/model-json) (Файл метаданных (model.json) для модели общих данных)
 
 Вы всегда можете [задать вопросы в Сообществе Power BI](https://community.powerbi.com/).

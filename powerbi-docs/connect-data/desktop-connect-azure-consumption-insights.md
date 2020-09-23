@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034435"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858632"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Подключение к данным Azure Consumption Insights в Power BI Desktop
 
@@ -178,7 +178,7 @@ Azure Consumption Insights позволяет подключиться к уче
 В Azure также доступен [**API Azure Consumption Insights (ACI)** ](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Вы можете создавать собственные пользовательские решения для сбора, создания отчетов и визуализации сведений об использовании служб Azure с помощью ACI.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Сопоставление имен и сведений об использовании между порталом, соединителем и API
-Столбцы и имена сведений на портале Azure похожи на столбцы и имена в API и соединителе, но не всегда совпадают. Чтобы вы могли увидеть разницу, см. сопоставление в следующей таблице. Также в таблице указано, является ли столбец устаревшим. Дополнительные сведения и определения терминов см. в статье [Словарь данных по выставлению счетов в Azure](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
+Столбцы и имена сведений на портале Azure похожи на столбцы и имена в API и соединителе, но не всегда совпадают. Чтобы вы могли увидеть разницу, см. сопоставление в следующей таблице. Также в таблице указано, является ли столбец устаревшим. Дополнительные сведения и определения терминов см. в статье [Словарь данных по выставлению счетов в Azure](/azure/billing/billing-enterprise-api-usage-detail).
 
 | Соединитель ACI/Имя столбца пакета содержимого | Имя столбца API ACI | Имя столбца EA | Устаревший/представлен для обеспечения обратной совместимости |
 | --- | --- | --- | --- |
@@ -238,4 +238,4 @@ Azure Consumption Insights позволяет подключиться к уче
 * [Источники данных в Power BI Desktop](desktop-data-sources.md)
 * [Формирование и объединение данных в Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Подключение к данным Excel в Power BI Desktop](desktop-connect-excel.md)   
-* [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
+* [Ввод данных непосредственно в Power BI Desktop](desktop-enter-data-directly-into-desktop.md)

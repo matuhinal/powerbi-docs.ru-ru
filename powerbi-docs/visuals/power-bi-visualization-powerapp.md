@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233224"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858929"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Руководство. Внедрение визуального элемента Power Apps в отчет Power BI
 
@@ -32,8 +32,8 @@ ms.locfileid: "85233224"
 ## <a name="prerequisites"></a>Предварительные требования
 
 * Браузер [Google Chrome](https://www.google.com/chrome/browser/) или [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
-* [Подписка на Power BI](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi) с установленным [примером "Анализ возможностей"](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)
-* Умение [создавать приложения в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) и [изменять отчеты Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* [Подписка на Power BI](../fundamentals/service-self-service-signup-for-power-bi.md) с установленным [примером "Анализ возможностей"](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample)
+* Умение [создавать приложения в Power Apps](/powerapps/maker/canvas-apps/data-platform-create-app-scratch) и [изменять отчеты Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
 
 
 
@@ -105,8 +105,8 @@ ms.locfileid: "85233224"
 Если пример "Анализ возможностей" больше не нужен, можно удалить панель мониторинга, отчет и набор данных.
 
 ## <a name="limitations-and-considerations"></a>Рекомендации и ограничения
-Сведения об устранении неполадок см. в статье [Визуальный элемент Power Apps для Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual).
+Сведения об устранении неполадок см. в статье [Визуальный элемент Power Apps для Power BI](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 ["Вопросы и ответы": визуальный элемент](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[Руководство. Внедрение визуального элемента Power Apps в отчет Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[Руководство. Внедрение визуального элемента Power Apps в отчет Power BI](/powerapps/maker/canvas-apps/powerapps-custom-visual)

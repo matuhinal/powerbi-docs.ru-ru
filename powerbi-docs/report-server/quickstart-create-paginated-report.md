@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236320"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853547"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Создание отчета с разбивкой на страницы BI для Сервера отчетов Power BI
 В этой статье вы создадите отчет c разбивкой на страницы Power BI для сервера отчетов Power BI за несколько простых шагов.
@@ -60,7 +60,7 @@ ms.locfileid: "85236320"
    
     ![Мастер диаграмм: Выбор набора данных](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     Необходимо создать набор данных? См. статью о [создании общего или внедренного набора данных](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
+     Необходимо создать набор данных? См. статью о [создании общего или внедренного набора данных](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Выберите тип диаграммы (в нашем случае это линейчатая диаграмма).
    
     ![Мастер диаграмм: тип диаграммы](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ ms.locfileid: "85236320"
 
 Теперь можно изменить созданную диаграмму, изменив макет, значения или условные обозначения — то есть практические любые параметры.
 
-Вы даже можете добавить любые визуализации: датчики, таблицы, матрицы, таблицы, схемы и т. д. Можно добавить верхние и нижние колонтитулы для нескольких страниц. См. [руководства по построителю отчетов](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials), чтобы попробовать все возможности.
+Вы даже можете добавить любые визуализации: датчики, таблицы, матрицы, таблицы, схемы и т. д. Можно добавить верхние и нижние колонтитулы для нескольких страниц. См. [руководства по построителю отчетов](/sql/reporting-services/report-builder-tutorials), чтобы попробовать все возможности.
 
 ![Представление построителя отчетов](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ ms.locfileid: "85236320"
 ## <a name="next-steps"></a>Дальнейшие действия
 Есть много отличных ресурсов, которые помогут вам создавать отчеты в построителе и в конструкторе отчетов в SQL Server Data Tools. Стоит начать с руководств по построителю отчетов.
 
-* [Руководства по построителю отчетов](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [Руководства по построителю отчетов](/sql/reporting-services/report-builder-tutorials)
 * [Что такое Сервер отчетов Power BI?](get-started.md)  
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

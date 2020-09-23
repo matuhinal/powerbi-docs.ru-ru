@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a98ee3ff33d21dd599ddfb11166a6870ad30e6e5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: d3a7c39d659dacb8a44728518e239cd481ba951d
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537580"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965247"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: ссылки на столбцы и меры
 
@@ -67,6 +67,6 @@ Profit = Orders[Sales] - Orders[Cost]
 Дополнительные сведения по этим вопросам см. в следующих ресурсах.
 
 - [Руководство по выражениям анализа данных (DAX)](/dax/)
-- Схема обучения: [Использование DAX в Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- Схема обучения: [Использование DAX в Power BI Desktop](/learn/paths/dax-power-bi/)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)

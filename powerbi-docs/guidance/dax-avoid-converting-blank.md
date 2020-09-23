@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac5eb41aa248eeebf2cbfb6d53e327e2a3e83fdd
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0717ad71d3065043a3bff8305c051cdce40e7329
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537626"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965080"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Не рекомендуется: преобразование BLANK в значения
 
@@ -79,6 +79,6 @@ DIVIDE([Profit], [Sales])
 Дополнительные сведения по этим вопросам см. в следующих ресурсах.
 
 - [Руководство по выражениям анализа данных (DAX)](/dax/)
-- Схема обучения: [Использование DAX в Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- Схема обучения: [Использование DAX в Power BI Desktop](/learn/paths/dax-power-bi/)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 - У вас есть предложения? [Идеи по улучшению Power BI](https://ideas.powerbi.com)

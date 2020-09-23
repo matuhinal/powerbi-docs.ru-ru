@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: f752544b48a8ba2fdce703475749e1a731089e7d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: bfbdbeb08f67a979a5f14c8b45ef7ca269c2d03d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878434"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857366"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Вопросы и ответы об администрировании Power BI
 
@@ -265,4 +265,4 @@ Power BI предоставляет портал администрирован�
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 
-[1]: https://docs.microsoft.com/powershell/scripting/overview
+[1]: /powershell/scripting/overview

@@ -7,15 +7,15 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537971"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763916"
 ---
 # <a name="view-power-bi-notifications"></a>Просмотр уведомлений в Power BI
 
@@ -35,13 +35,13 @@ ms.locfileid: "87537971"
 ## <a name="view-your-notifications"></a>Просмотр уведомлений
 1. При входе в Power BI новые уведомления, отправленные вам в ходе автономной работы, добавляются в ваш веб-канал. При наличии новых уведомлений в Power BI отображается желтый пузырек с количеством новых сообщений.
    
-   ![значок нового уведомления](./media/end-user-notification-center/power-bi-new-notification.png)
+   ![значок нового уведомления](./media/end-user-notification-center/power-bi-new-notifications.png)
 2. В строке меню Power BI выберите значок **Уведомления**.
    
-   ![Верхняя строка меню с выбранным значком уведомлений](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![Верхняя строка меню с выбранным значком уведомлений](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. Новые уведомления отображаются вверху списка, а непрочитанные сообщения выделяются. Уведомления хранятся в течение 90 дней, если вы их не удалите раньше или их количество не достигнет максимума (100 штук).
    
-   ![Центр уведомлений](./media/end-user-notification-center/power-bi-notification-center.png)
+   ![Центр уведомлений](./media/end-user-notification-center/power-bi-notifications-center.png)
 4. Чтобы закрыть уведомление, нажмите значок "X".
 
 ## <a name="next-steps"></a>Дальнейшие действия

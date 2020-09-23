@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6eb123ec9a9549c54e311682fdccce451d8552a9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161360"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857273"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Просмотр пользовательских лицензий Power BI и управление ими
 
@@ -37,11 +37,11 @@ ms.locfileid: "86161360"
 
   ![Снимок экрана подписки Power BI, на котором приведена бесплатная подписка](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-Такая подписка создается, когда пользователи прибегают к самостоятельной регистрации. Дополнительные сведения см. в статье [Power BI в организации](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Такая подписка создается, когда пользователи прибегают к самостоятельной регистрации. Дополнительные сведения см. в статье [Power BI в организации](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>Управление пользовательскими лицензиями в Microsoft 365
 
-Сведения об использовании центра администрирования Microsoft 365 для управления пользовательскими лицензиями см. в [документации по бизнес-подпискам и выставлению счетов](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide).
+Сведения об использовании центра администрирования Microsoft 365 для управления пользовательскими лицензиями см. в [документации по бизнес-подпискам и выставлению счетов](/microsoft-365/commerce/?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>Управление пользовательскими лицензиями на портале Azure
 

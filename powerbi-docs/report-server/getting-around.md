@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 35cbfd905db3d6d8464add0fe0e67060c41c9d0a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a42ffc2610021ec1f9b77fb5e950253ff8196e61
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239405"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858791"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Управление содержимым на веб-портале 
 Веб-портал сервера отчетов Power BI — это локальное расположение для просмотра и хранения отчетов Power BI, мобильных отчетов, отчетов с разбивкой на страницы, ключевых показателей эффективности, а также управления ими.
@@ -63,10 +63,9 @@ ms.locfileid: "85239405"
     ![Выбор свойства](media/getting-around/report-server-web-portal-manage-properties.png)
 3. Нажмите кнопку **Применить**.
 
-См. дополнительные сведения о [работе с подписками на веб-портале](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
+См. дополнительные сведения о [работе с подписками на веб-портале](/sql/reporting-services/working-with-subscriptions-web-portal).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что такое Сервер отчетов Power BI?](get-started.md)
 
 У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

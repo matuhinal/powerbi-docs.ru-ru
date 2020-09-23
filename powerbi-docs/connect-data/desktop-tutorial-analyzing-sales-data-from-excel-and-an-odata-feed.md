@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092413"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853754"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Руководство. Анализ данных о продажах из Excel и канала OData
 
@@ -172,7 +172,7 @@ ms.locfileid: "89092413"
 ![Примененные действия для запроса по таблице Products](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/products-query-applied-steps.png) &nbsp;&nbsp; ![Примененные действия для запроса по таблице Orders](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orders-query-applied-steps.png)
 
 >[!TIP]
->В основе примененных действий — формулы, написанные на *языке Power Query*, который также известен как [язык M](https://docs.microsoft.com/powerquery-m/power-query-m-reference). Чтобы просмотреть и изменить формулы, выберите **Расширенный редактор** в группе **Запрос** на вкладке **Главная** на ленте.
+>В основе примененных действий — формулы, написанные на *языке Power Query*, который также известен как [язык M](/powerquery-m/power-query-m-reference). Чтобы просмотреть и изменить формулы, выберите **Расширенный редактор** в группе **Запрос** на вкладке **Главная** на ленте.
 
 ## <a name="import-the-transformed-queries"></a>Импорт преобразованных запросов
 
@@ -272,7 +272,7 @@ Power BI Desktop не требует объединения запросов д�
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Microsoft Learn для Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-* [Посмотрите видеоматериалы по Power BI Desktop.](/power-bi/fundamentals/desktop-videos)
+* [Microsoft Learn для Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Посмотрите видеоматериалы по Power BI Desktop.](../fundamentals/desktop-videos.md)
 * [Посетите форум Power BI.](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Прочитайте блог, посвященный Power BI.](https://go.microsoft.com/fwlink/?LinkID=519327)
