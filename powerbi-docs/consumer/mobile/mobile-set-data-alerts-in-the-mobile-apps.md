@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264902"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860608"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Настройка оповещений о данных в мобильных приложениях Power BI
 Применяется к:
@@ -105,7 +105,7 @@ ms.locfileid: "86264902"
 ## <a name="data-alerts-on-a-windows-device"></a>Оповещения о данных на устройстве с Windows
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Настройка оповещений о данных на устройстве с Windows
 1. Коснитесь плитки или датчика с числом на панели мониторинга, чтобы открыть ее.  

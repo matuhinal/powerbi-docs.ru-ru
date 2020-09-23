@@ -8,27 +8,27 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230124"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854237"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Подключение к панели поддержки принятия решений по неотложной медицинской помощи
 Шаблон приложения "Панель поддержки принятия решений по неотложной медицинской помощи" — это компонент для создания отчетов в составе [решения Microsoft Power Platform для реагирования на чрезвычайные медицинские ситуации](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). На панели мониторинга приводятся сводные данные по системе здравоохранения, которые помогают специалистам по управлению в чрезвычайных ситуациях своевременно принимать правильные решения.
 
 ![Отчет в приложении "Панель поддержки принятия решений по неотложной медицинской помощи"](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-report.png)
 
-В этой статье рассказывается, как установить приложение и как подключиться к источникам данных. Сведения об использовании отчета в этом приложении см. в [документации по панели поддержки принятия решений по неотложной медицинской помощи](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
+В этой статье рассказывается, как установить приложение и как подключиться к источникам данных. Сведения об использовании отчета в этом приложении см. в [документации по панели поддержки принятия решений по неотложной медицинской помощи](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
 
 После установки шаблона приложения и подключения к источникам данных можно настроить отчет в соответствии с вашими потребностями. Затем его можно распространить в виде приложения среди коллег в организации.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-Перед установкой этого шаблона приложения необходимо установить и настроить [решение Power Platform для реагирования на чрезвычайные медицинские ситуации](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure). При установке этого решения создаются ссылки на источники данных, необходимые для заполнения приложения данными.
+Перед установкой этого шаблона приложения необходимо установить и настроить [решение Power Platform для реагирования на чрезвычайные медицинские ситуации](/powerapps/sample-apps/emergency-response/deploy-configure). При установке этого решения создаются ссылки на источники данных, необходимые для заполнения приложения данными.
 
-При установке решения Power Platform для реагирования на чрезвычайные медицинские ситуации запишите [URL-адрес экземпляра среды Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Он понадобится для подключения шаблона приложения к данным.
+При установке решения Power Platform для реагирования на чрезвычайные медицинские ситуации запишите [URL-адрес экземпляра среды Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Он понадобится для подключения шаблона приложения к данным.
 
 ## <a name="install-the-app"></a>Установка приложения
 
@@ -66,7 +66,7 @@ ms.locfileid: "85230124"
 
 1. В диалоговом окне выполните указанные ниже действия.
    1. В поле названия организации введите название вашей организации, например "Системы здравоохранения Contoso". Это поле является необязательным. Это имя отображается в левом верхнем углу панели мониторинга.
-   1. В поле CDS_base_solution введите [URL-адрес экземпляра среды Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Пример: https://[myenv].crm.dynamics.com. По завершении нажмите кнопку **Далее**.
+   1. В поле CDS_base_solution введите [URL-адрес экземпляра среды Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Пример: https://[myenv].crm.dynamics.com. По завершении нажмите кнопку **Далее**.
 
    ![Диалоговое окно для ввода URL-адреса в приложении "Панель поддержки принятия решений по неотложной медицинской помощи"](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
@@ -99,8 +99,8 @@ ms.locfileid: "85230124"
 Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](../create-reports/sample-covid-19-us.md#disclaimers).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Сведения об отчете "Реагирование на чрезвычайные медицинские ситуации"](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
-* [Настройка и дополнительные сведения о шаблоне "Антикризисные коммуникации" в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Сведения об отчете "Реагирование на чрезвычайные медицинские ситуации"](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
+* [Настройка и дополнительные сведения о шаблоне "Антикризисные коммуникации" в Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 * [Что такое приложения-шаблоны Power BI?](../connect-data/service-template-apps-overview.md)
 * [Установка и распространение приложений-шаблонов в организации](../connect-data/service-template-apps-install-distribute.md)

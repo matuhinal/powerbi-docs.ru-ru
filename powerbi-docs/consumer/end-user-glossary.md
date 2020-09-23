@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803050"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860861"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Глоссарий для бизнес-пользователей службы Power BI    
 В службе Power BI может использоваться незнакомая или непонятная терминология. Глоссарий — удобное место для поиска терминов; можно даже использовать закладки. Другой полезный ресурс для изучения стандартных блоков, входящих в состав службы Power BI — [Основные концепции](end-user-basic-concepts.md). В этой статье дается общий обзор *частей* Power BI, а также показывается, как они связаны.
@@ -97,7 +97,7 @@ ArcGIS — это платформа сопоставления и аналит
 Индекс содержимого для приложения.
 
 **content pack**   (пакет содержимого).  
- Коллекция предварительно упакованных наборов данных, отчетов и панелей мониторинга. Они заменяются **приложениями**. Получите сведения [о новых рабочих областях](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+ Коллекция предварительно упакованных наборов данных, отчетов и панелей мониторинга. Они заменяются **приложениями**. Получите сведения [о новых рабочих областях](../collaborate-share/service-create-the-new-workspaces.md). 
 
 **content view** (представление содержимого)
 

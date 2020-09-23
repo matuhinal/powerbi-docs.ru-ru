@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235545"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860286"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Советы по созданию приложений-шаблонов в Power BI
 
@@ -124,15 +124,15 @@ ms.locfileid: "85235545"
 Приложения-шаблоны можно опубликовать в AppSource, следуя рекомендациям ниже перед отправкой приложения в AppSource.
 
 * Убедитесь, что вы создаете приложение-шаблон с помощью образцов данных, которые могут помочь установщику понять, что приложение должно делать (пустой отчет и панель мониторинга не будут одобрены).
-Приложения-шаблоны поддерживают только приложения с примерами данных, обязательно установите флажок статического приложения. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+Приложения-шаблоны поддерживают только приложения с примерами данных, обязательно установите флажок статического приложения. [Дополнительные сведения](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * Используйте инструкции для команды проверки, которые содержат учетные данные и параметры, необходимые для подключения к данным.
-* Приложение должно содержать значок приложения в Power BI и в вашем предложении на портале Cloud Partner. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Теперь целевая страница настроена. [Дополнительные сведения](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Убедитесь в том, что вы следуете документации по [предложению приложения Power BI в центре для партнеров](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+* Приложение должно содержать значок приложения в Power BI и в вашем предложении на портале Cloud Partner. [Дополнительные сведения](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* Теперь целевая страница настроена. [Дополнительные сведения](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* Убедитесь в том, что вы следуете документации по [предложению приложения Power BI в центре для партнеров](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 * Если панель мониторинга является частью приложения, убедитесь, что она не пуста.
 * Установите приложение, используя ссылку приложения перед его отправкой, убедитесь, что можно подключить набор данных и взаимодействие с приложением происходит надлежащим образом.
 * Перед отправкой PBIX в рабочую область шаблона убедитесь в том, что все ненужные подключения выгружены.
-* Следуйте[рекомендациям по проектированию отчетов и визуальных элементов](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) в Power BI, чтобы добиться максимального влияния на пользователей и получить одобрение для распространения приложения.
+* Следуйте[рекомендациям по проектированию отчетов и визуальных элементов](../visuals/power-bi-report-visualizations.md) в Power BI, чтобы добиться максимального влияния на пользователей и получить одобрение для распространения приложения.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>Создание ссылки для скачивания приложения

@@ -6,20 +6,20 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0452dabef54cc899abf7a6cbbd6ab718bf22524e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ea4aa1772712fbfff67ab749a379638ba698f554
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034320"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854513"
 ---
 # <a name="data-protection-metrics-report"></a>Отчет о метриках защиты данных
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>Что такое отчет о метриках защиты данных?
-Отчет о метриках защиты данных — это специальный отчет, с помощью которого [администраторы Power BI](../service-admin-role.md) могут отслеживать использование и принятие меток конфиденциальности в клиенте.
+Отчет о метриках защиты данных — это специальный отчет, с помощью которого [администраторы Power BI](./service-admin-role.md) могут отслеживать использование и принятие меток конфиденциальности в клиенте.
 
 ![Отчет о метриках защиты данных](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
@@ -32,7 +32,7 @@ ms.locfileid: "86034320"
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>Просмотр отчета о метриках защиты данных
 
-Для открытия и просмотра отчета необходима роль [администратора Power BI](../service-admin-role.md).
+Для открытия и просмотра отчета необходима роль [администратора Power BI](./service-admin-role.md).
 Чтобы просмотреть отчет, перейдите на страницу **Параметры > Портал администрирования** и выберите **Метрики защиты**.
 
 ![метрики защиты на портале администрирования](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
@@ -48,10 +48,10 @@ ms.locfileid: "86034320"
 Периодически выпускаются усовершенствованные версии отчета о метриках защиты данных. Если доступна новая версия, при открытии отчета вам будет предложено открыть ее. Если вы ответите "Да", новая версия загрузится и перезапишет старую. Все изменения, внесенные в старую версию отчета и набора данных, будут утеряны. Вы можете не открывать новую версию, но в этом случае вы не получите преимущества новой версии. 
 ## <a name="notes-and-considerations"></a>Замечания и рекомендации
 * Для успешного создания отчета о метриках защиты данных в клиенте должна быть включена [защита информации](./service-security-enable-data-sensitivity-labels.md) и [применены метки конфиденциальности](./service-security-apply-data-sensitivity-labels.md). 
-* Для доступа к данным Cloud App Security у вашей организации должна быть соответствующая [лицензия Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing).
+* Для доступа к данным Cloud App Security у вашей организации должна быть соответствующая [лицензия Cloud App Security](./service-security-using-microsoft-cloud-app-security-controls.md#cloud-app-security-licensing).
 * Если вы хотите поделиться сведениями из отчета о метриках защиты данных с пользователем, который не является администратором Power BI, учтите, что этот отчет содержит конфиденциальные сведения о вашей организации.
 * Отчет о метриках защиты данных — это отчет особого типа, который не отображается в списках "Мне предоставлен доступ", "Последние" и "Избранное".
-* Отчет о метриках защиты данных недоступен для [внешних пользователей (гостевых пользователей B2B Azure Active Directory)](../service-admin-azure-ad-b2b.md).
+* Отчет о метриках защиты данных недоступен для [внешних пользователей (гостевых пользователей B2B Azure Active Directory)](./service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Метки конфиденциальности в Power BI](./service-security-sensitivity-label-overview.md)
 * [Использование элементов управления Microsoft Cloud App Security в Power BI](service-security-using-microsoft-cloud-app-security-controls.md)

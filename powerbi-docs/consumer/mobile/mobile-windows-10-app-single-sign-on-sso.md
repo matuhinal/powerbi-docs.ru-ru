@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f62237e0aa0ac31d63fee4b980db2991206ddf4d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4202d2c7e4c87f8085a04af9922cf7cc6c55fbfd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240325"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860194"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Единый вход в Power BI для мобильных приложений, поддерживающих Windows
 
@@ -24,7 +24,7 @@ ms.locfileid: "85240325"
 SSO доступно только для устройств с Windows под управлением Windows Azure Active Directory.
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="sign-in-with-sso"></a>Вход с SSO
 
@@ -38,4 +38,3 @@ SSO доступно только для устройств с Windows под у
 
 - [Начало работы с мобильным приложением Power BI для Windows 10](mobile-windows-10-phone-app-get-started.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-

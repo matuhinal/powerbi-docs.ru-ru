@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd3a0a8974636d6962fe23a7ffe272e47e487754
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230416"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860309"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Подключение к отчету о присутствии для антикризисных коммуникаций
 
@@ -23,15 +23,15 @@ ms.locfileid: "85230416"
 
 На панели мониторинга приводятся сводные данные по системе здравоохранения, которые помогают специалистам по управлению в чрезвычайных ситуациях своевременно принимать правильные решения.
 
-В этой статье рассказывается, как установить приложение и как подключиться к источникам данных. Дополнительные сведения о приложении для коммуникации в кризисных ситуациях см. в разделе [Настройка и изучение примера шаблона "Антикризисные коммуникации" в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app).
+В этой статье рассказывается, как установить приложение и как подключиться к источникам данных. Дополнительные сведения о приложении для коммуникации в кризисных ситуациях см. в разделе [Настройка и изучение примера шаблона "Антикризисные коммуникации" в Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app).
 
 После установки шаблона приложения и подключения к источникам данных можно настроить отчет в соответствии с вашими потребностями. Затем его можно распространить в виде приложения среди коллег в организации.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-Перед установкой этого шаблона приложения необходимо установить и настроить [образец "Антикризисные коммуникации"](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app). При установке этого решения создаются ссылки на источники данных, необходимые для заполнения приложения данными.
+Перед установкой этого шаблона приложения необходимо установить и настроить [образец "Антикризисные коммуникации"](/powerapps/maker/canvas-apps/sample-crisis-communication-app). При установке этого решения создаются ссылки на источники данных, необходимые для заполнения приложения данными.
 
-При установке образца "Антикризисные коммуникации" запишите [путь к папке со списком SharePoint "CI_Employee Status" и идентификатор этого списка](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
+При установке образца "Антикризисные коммуникации" запишите [путь к папке со списком SharePoint "CI_Employee Status" и идентификатор этого списка](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
 
 ## <a name="install-the-app"></a>Установка приложения
 
@@ -68,7 +68,7 @@ ms.locfileid: "85230416"
    ![Ссылка "Подключите свои данные" в приложении "Отчет о присутствии для антикризисных коммуникаций"](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-connect-data.png)
 
 1. В диалоговом окне выполните указанные ниже действия.
-   1. В поле SharePoint_Folder введите [путь к списку SharePoint "CI_Employee Status"](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
+   1. В поле SharePoint_Folder введите [путь к списку SharePoint "CI_Employee Status"](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
    1. В поле List_ID введите идентификатор списка, полученный в параметрах списка. По завершении нажмите кнопку **Далее**.
 
    ![Диалоговое окно для ввода URL-адреса в приложении "Отчет о присутствии для антикризисных коммуникаций"](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
@@ -102,7 +102,7 @@ ms.locfileid: "85230416"
 Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](../create-reports/sample-covid-19-us.md#disclaimers).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Настройка и дополнительные сведения о шаблоне "Антикризисные коммуникации" в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Настройка и дополнительные сведения о шаблоне "Антикризисные коммуникации" в Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 * [Что такое приложения-шаблоны Power BI?](../connect-data/service-template-apps-overview.md)
 * [Установка и распространение приложений-шаблонов в организации](../connect-data/service-template-apps-install-distribute.md)

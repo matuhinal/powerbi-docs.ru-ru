@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f095eb351797c228bb5f6e9b70c741ca078e7f67
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221679"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859918"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Использование настраиваемых строк форматирования в Power BI Desktop
 
@@ -68,7 +68,7 @@ ms.locfileid: "85221679"
 | _ss_ | 00–59 (секунды с нолем в начале) |
 
 
-Вы можете увидеть [пример](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) форматирования строк пользовательских значений.
+Вы можете увидеть [пример](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) форматирования строк пользовательских значений.
 
 Пользовательское выражение формата для чисел может содержать от одного до трех разделов, разделенных точкой с запятой. Если вы добавите точки с запятыми, между которыми ничего нет, отсутствующий раздел не будет отображен (будет показано &quot;&quot;). Если точка с запятой не указана, будет использоваться положительный формат.
 
@@ -151,7 +151,7 @@ ms.locfileid: "85221679"
 ## <a name="next-steps"></a>Дальнейшие действия
 Рекомендуем также ознакомиться со следующими материалами:
 
-* [Format function](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) (Функция форматирования)
+* [Format function](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) (Функция форматирования)
 * [Меры в Power BI Desktop](../transform-model/desktop-measures.md)
 * [Типы данных в Power BI Desktop](../connect-data/desktop-data-types.md)
 * [Условное форматирование в таблицах](desktop-conditional-table-formatting.md)

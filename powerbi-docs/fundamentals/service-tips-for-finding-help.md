@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 695663ad6f3a9fbdce88e56b5db01b09e83c9384
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 2500ba94a6ad387e9944fb29f865b391ea4c0711
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092275"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860953"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Десять советов по получению справки по Power BI
 Случались ли ситуации, когда вы не могли получить ответы на вопросы о Power BI в нужный момент (т. е. получить своевременную помощь)? 
@@ -44,7 +44,7 @@ ms.locfileid: "89092275"
 ## <a name="6-attend-training"></a>6\. Пройдите обучение
 Вам доступно практически бесконечное число вариантов обучения: от самостоятельного практического обучения до коротких видеороликов.
 
-*[Microsoft Learn для Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+*[Microsoft Learn для Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Бесплатные вебинары по Power BI](webinars.md) в прямом эфире или по запросу на сайте Power BI.
 
 Вы можете найти дополнительные варианты в Интернете, например:

@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219574"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859849"
 ---
 # <a name="what-is-power-bi-report-server"></a>Что такое Сервер отчетов Power BI?
 
@@ -38,9 +38,9 @@ ms.locfileid: "84219574"
 
 ![Веб-портал сервера отчетов Power BI](media/get-started/web-portal.png)
 
-Вы можете управлять содержимым веб-портала в зависимости от предоставленных вам разрешений. Вы можете планировать обработку отчетов, открывать отчет по требованию и (или) подписываться на регулярно публикуемые отчеты. Также вы можете применять к веб-порталу оформление с [фирменной символикой](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal). 
+Вы можете управлять содержимым веб-портала в зависимости от предоставленных вам разрешений. Вы можете планировать обработку отчетов, открывать отчет по требованию и (или) подписываться на регулярно публикуемые отчеты. Также вы можете применять к веб-порталу оформление с [фирменной символикой](/sql/reporting-services/branding-the-web-portal). 
 
-См. дополнительные сведения о [веб-портале (основной режим служб SSRS)](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+См. дополнительные сведения о [веб-портале (основной режим служб SSRS)](/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Отчеты Power BI
 Версия Power BI Desktop, оптимизированная для сервера отчетов, позволяет создавать отчеты Power BI (PBIX). Вы можете опубликовать и просматривать их на веб-портале в созданной вами среде.
@@ -56,17 +56,17 @@ ms.locfileid: "84219574"
 
 ![Отчеты с разбивкой на страницы на Сервере отчетов Power BI](media/get-started/paginated-reports.png)
 
-Для создания этих отчетов с разбиением на страницы используется [построитель отчетов](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) или конструктор отчетов в [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
+Для создания этих отчетов с разбиением на страницы используется [построитель отчетов](/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) или конструктор отчетов в [SQL Server Data Tools (SSDT)](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
 ## <a name="reporting-services-mobile-reports"></a>Мобильные отчеты Reporting Services
 Мобильные отчеты подключаются к локальным источникам данных и имеют удобный макет, который адаптируется к разным типам, форматам и ориентациям устройств. Для создания таких отчетов применяется издатель мобильных отчетов для SQL Server.
 
-См. дополнительные сведения о [мобильных отчетах Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+См. дополнительные сведения о [мобильных отчетах Reporting Services](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
 
 ## <a name="report-server-programming-features"></a>Функции программирования сервера отчетов
 Воспользуйтесь преимуществами функций программирования сервера отчетов Power BI, чтобы расширять и настраивать отчеты с помощью API-интерфейсов для интеграции или расширения данных и обработки отчетов в пользовательских приложениях.
 
-См. дополнительные сведения в [документации разработчика сервера отчетов](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
+См. дополнительные сведения в [документации разработчика сервера отчетов](/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Установка сервера отчетов Power BI](install-report-server.md)  

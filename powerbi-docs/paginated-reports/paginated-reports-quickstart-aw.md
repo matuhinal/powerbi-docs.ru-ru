@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427730"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853984"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Руководство. Создание отчета с разбивкой на страницы и его отправка в службу Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "84427730"
 
 - Установите [построитель отчетов Power BI из Центра загрузки Майкрософт](https://aka.ms/pbireportbuilder). 
 
-- Выполните краткое руководство [по созданию тестовой базы данных Azure SQL на портале Azure](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Скопируйте и сохраните значение из поля **Имя сервера** на вкладке **Обзор**. Запомните имя пользователя и пароль, созданные в Azure.
+- Выполните краткое руководство [по созданию тестовой базы данных Azure SQL на портале Azure](/azure/sql-database/sql-database-get-started-portal). Скопируйте и сохраните значение из поля **Имя сервера** на вкладке **Обзор**. Запомните имя пользователя и пароль, созданные в Azure.
 
 Ниже приведены предварительные требования для отправки отчета с разбивкой на страницы в службу Power BI.
 

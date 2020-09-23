@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d3ffa51cfc991f7cd51c0c465d67d238998958cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219765"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854054"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Общий доступ к панели мониторинга или отчету из мобильных приложений Power BI
 Применяется к:
@@ -23,7 +23,7 @@ ms.locfileid: "85219765"
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 При наличии [лицензии Power BI Pro](../../fundamentals/service-features-license-type.md) вы можете приглашать других пользователей просматривать панели мониторинга и отчеты, отправляя им ссылки из мобильных приложений Power BI. Вы можете делиться данными с другими пользователями, как в вашей организации, так и за ее пределами, независимо от наличия у них корпоративной учетной записи почты. Им также не требуются лицензии Power BI Pro, а содержимое может не находиться в [емкости Premium](../../admin/service-premium-what-is.md).
 

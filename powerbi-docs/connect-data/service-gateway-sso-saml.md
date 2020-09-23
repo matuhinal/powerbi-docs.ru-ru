@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 772a9c0d171c2391a137f2e8a97f262f59df5cfe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231371"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859780"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Использование SAML для единого входа из Power BI в локальные источники данных
 
@@ -26,7 +26,7 @@ ms.locfileid: "85231371"
 
 Мы поддерживаем набор дополнительных источников данных (включая SAP HANA) с помощью [Kerberos](service-gateway-sso-kerberos.md).
 
-Для SAP HANA рекомендуется включить шифрование, прежде чем устанавливать подключение единого входа SAML. Чтобы включить шифрование, настройте на сервере HANA прием зашифрованных подключений и настройте на шлюзе шифрование для взаимодействия с сервером HANA. Так как драйвер ODBC для HANA не шифрует утверждения SAML по умолчанию, то, если не включить шифрование, подписанные утверждения SAML будут отправляться со шлюза на сервер HANA *в открытом виде* и могут быть перехвачены и повторно использованы третьими лицами. Инструкции по включению шифрования для SAP HANA с использованием библиотеки OpenSSL см. в [этом разделе](/power-bi/desktop-sap-hana-encryption).
+Для SAP HANA рекомендуется включить шифрование, прежде чем устанавливать подключение единого входа SAML. Чтобы включить шифрование, настройте на сервере HANA прием зашифрованных подключений и настройте на шлюзе шифрование для взаимодействия с сервером HANA. Так как драйвер ODBC для HANA не шифрует утверждения SAML по умолчанию, то, если не включить шифрование, подписанные утверждения SAML будут отправляться со шлюза на сервер HANA *в открытом виде* и могут быть перехвачены и повторно использованы третьими лицами. Инструкции по включению шифрования для SAP HANA с использованием библиотеки OpenSSL см. в [этом разделе](./desktop-sap-hana-encryption.md).
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Настройка шлюза и источника данных
 

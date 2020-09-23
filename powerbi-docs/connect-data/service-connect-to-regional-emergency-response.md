@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229671"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860746"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Подключение к панели мониторинга реагирования на чрезвычайные ситуации в регионе
-Панель мониторинга реагирования на чрезвычайные ситуации в регионе — это компонент для создания отчетов в составе [решения Microsoft Power Platform для реагирования на чрезвычайные ситуации в регионе](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Администраторы региональной организации могут просматривать панель мониторинга в клиенте Power BI. Это позволяет им быстро просматривать важные данные и метрики, которые помогут принимать эффективные решения.
+Панель мониторинга реагирования на чрезвычайные ситуации в регионе — это компонент для создания отчетов в составе [решения Microsoft Power Platform для реагирования на чрезвычайные ситуации в регионе](/powerapps/sample-apps/regional-emergency-response/overview). Администраторы региональной организации могут просматривать панель мониторинга в клиенте Power BI. Это позволяет им быстро просматривать важные данные и метрики, которые помогут принимать эффективные решения.
 
 ![Отчет в приложении панели мониторинга реагирования на чрезвычайные ситуации в регионе](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 В этой статье описывается, как установить приложение аварийного реагирования на чрезвычайные ситуации в регионе с помощью приложения-шаблона "Панель мониторинга реагирования на чрезвычайные ситуации в регионе" и подключиться к источникам данных.
 
-Дополнительные сведения о компонентах панели мониторинга см. в разделе [Аналитические сведения](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
+Дополнительные сведения о компонентах панели мониторинга см. в разделе [Аналитические сведения](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
 
 После установки шаблона приложения и подключения к источникам данных можно настроить отчет в соответствии с вашими потребностями. Затем его можно распространить в виде приложения среди коллег в организации.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-Перед установкой этого приложения-шаблона необходимо установить и настроить [решение для реагирования на чрезвычайные ситуации в регионе](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy). При установке этого решения создаются ссылки на источники данных, необходимые для заполнения приложения данными.
+Перед установкой этого приложения-шаблона необходимо установить и настроить [решение для реагирования на чрезвычайные ситуации в регионе](/powerapps/sample-apps/regional-emergency-response/deploy). При установке этого решения создаются ссылки на источники данных, необходимые для заполнения приложения данными.
 
-При установке решения для реагирования на чрезвычайные ситуации в регионе запишите [URL-адрес экземпляра среды Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). Он понадобится для подключения шаблона приложения к данным.
+При установке решения для реагирования на чрезвычайные ситуации в регионе запишите [URL-адрес экземпляра среды Common Data Service](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). Он понадобится для подключения шаблона приложения к данным.
 
 ## <a name="install-the-app"></a>Установка приложения
 
@@ -62,7 +62,7 @@ ms.locfileid: "85229671"
 
    ![Ссылка "Подключите свои данные" в приложении "Панель мониторинга реагирования на чрезвычайные ситуации в регионе"](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. В появившемся диалоговом окне введите [URL-адрес экземпляра среды Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Пример: https://[myenv].crm.dynamics.com. По завершении нажмите кнопку **Далее**.
+1. В появившемся диалоговом окне введите [URL-адрес экземпляра среды Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Пример: https://[myenv].crm.dynamics.com. По завершении нажмите кнопку **Далее**.
 
    ![Диалоговое окно URL-адреса приложения "Панель мониторинга реагирования на чрезвычайные ситуации в регионе"](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ ms.locfileid: "85229671"
 
 ## <a name="customize-and-share"></a>Настройка и общий доступ
 
-Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer).
+Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Перед публикацией или распространением приложения обязательно ознакомьтесь с [предостережениями](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Сведения о панели мониторинга реагирования на чрезвычайные ситуации в регионе](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [Настройка и дополнительные сведения о шаблоне "Антикризисные коммуникации" в Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Сведения о панели мониторинга реагирования на чрезвычайные ситуации в регионе](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [Настройка и дополнительные сведения о шаблоне "Антикризисные коммуникации" в Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
 * [Что такое приложения-шаблоны Power BI?](../connect-data/service-template-apps-overview.md)
 * [Установка и распространение приложений-шаблонов в организации](../connect-data/service-template-apps-install-distribute.md)

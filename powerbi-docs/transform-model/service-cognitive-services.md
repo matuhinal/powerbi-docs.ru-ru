@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 7d4b2e40e543bdd30c9bfa954f2623598b915545
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 1c598b29a28ad775f6a707596c4a4188c86e7375
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878789"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860079"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Использование Cognitive Services в Power BI 
 
 С помощью Cognitive Services в Power BI можно применять различные алгоритмы из [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/), чтобы дополнить данные при самостоятельной подготовке данных для потоков данных.
 
-Сейчас поддерживаются службы [анализа тональности](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [извлечения ключевых фраз](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [распознавания языка](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) и [добавления тегов к изображению](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). Преобразования выполняются в службе Power BI, для чего не требуется подписка на Azure Cognitive Services. Эта функция доступна в Power BI Premium.
+Сейчас поддерживаются службы [анализа тональности](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [извлечения ключевых фраз](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [распознавания языка](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) и [добавления тегов к изображению](/azure/cognitive-services/computer-vision/concept-tagging-images). Преобразования выполняются в службе Power BI, для чего не требуется подписка на Azure Cognitive Services. Эта функция доступна в Power BI Premium.
 
 ## <a name="enabling-ai-features"></a>**Включение функций искусственного интеллекта**
 
@@ -64,7 +64,7 @@ ms.locfileid: "87878789"
 
 Функция определения языка оценивает введенный текст и для каждого поля возвращает название языка и его код ISO. Эту функция удобно использовать для столбцов данных с произвольным текстом, язык которого неизвестен. Входные данные функции должны быть в текстовом формате.
 
-API анализа текста распознает до 120 языков. Дополнительные сведения см. в статье [Поддержка языков и регионов в API анализа текста](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+API анализа текста распознает до 120 языков. Дополнительные сведения см. в статье [Поддержка языков и регионов в API анализа текста](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 ### <a name="extract-key-phrases"></a>**Извлечение ключевых фраз**
 
@@ -80,7 +80,7 @@ API анализа текста использует алгоритм машин
 
 Анализ тональности выполняется над всеми входными данными, в отличие от извлечения тональности в отношении конкретной сущности в тексте. Как подтверждает практика, точность оценки повышается, когда документ содержит одно или два предложения, а не большие блоки текста. В ходе оценки объективности модель определяет, является ли заданный текст описательным или он содержит тональности. Над описательным по большей части текстом анализ тональности не выполняется. Он получает оценку 0,50 и больше не обрабатывается. На следующем этапе тексту, который далее обрабатывается в конвейере, присваивается оценка выше или ниже 0,50 в зависимости от обнаруженной тональности.
 
-API анализа тональности сейчас поддерживает английский, немецкий, испанский и французский языки. Для других языков функция доступна в предварительной версии. Дополнительные сведения см. в статье [Поддержка языков и регионов в API анализа текста](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+API анализа тональности сейчас поддерживает английский, немецкий, испанский и французский языки. Для других языков функция доступна в предварительной версии. Дополнительные сведения см. в статье [Поддержка языков и регионов в API анализа текста](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 ### <a name="tag-images"></a>**Добавление тегов к изображениям**
 
@@ -88,7 +88,7 @@ API анализа тональности сейчас поддерживает 
 
 После загрузки изображения или указания его URL-адреса, алгоритмы компьютерного вывода добавляют к нему теги, распознавая на нем объекты, живые существа и действия. Теги добавляются не только к основному субъекту, например человеку на переднем плане, но и к окружению (интерьеру или экстерьеру), например предметам мебели, инструментам, растениям, животным, аксессуарам, устройствам и т. д.
 
-Для работы этой функции в качестве входных данных требуется наличие URL-адреса изображения или текст в формате Base64. Сейчас функция добавления тегов к изображениям поддерживает английский, испанский, японский, португальский и упрощенный китайский язык. Дополнительные сведения см. в разделе о [поддержке языков](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
+Для работы этой функции в качестве входных данных требуется наличие URL-адреса изображения или текст в формате Base64. Сейчас функция добавления тегов к изображениям поддерживает английский, испанский, японский, португальский и упрощенный китайский язык. Дополнительные сведения см. в разделе о [поддержке языков](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
 
 ## <a name="next-steps"></a>Следующие шаги
 

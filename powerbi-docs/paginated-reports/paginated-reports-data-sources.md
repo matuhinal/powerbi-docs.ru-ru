@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: cdce9ead296a25aad95ab504d6da38f06f681b72
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008636"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859872"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Поддерживаемые источники данных для отчетов с разбивкой на страницы Power BI
 
@@ -67,11 +67,10 @@ ms.locfileid: "90008636"
 - Единый вход
 - OAuth2 (сохраненный токен AAD)
 
-Для правильной работы единого входа и OAuth2 на сервере базы данных SQL Azure, к которому подключается источник данных, должна быть включена [поддержка проверки подлинности AAD](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure). Для метода проверки подлинности OAuth2 AAD создает токен и сохраняет его для будущего обращения к источнику данных. Чтобы вместо этого использовать [метод проверки подлинности на базе единого входа](https://docs.microsoft.com/power-bi/service-azure-sql-database-with-direct-connect#single-sign-on), выберите расположенный ниже параметр единого входа **Конечные пользователи используют свои учетные данные OAuth2 при доступе к этому источнику данных через DirectQuery**.
+Для правильной работы единого входа и OAuth2 на сервере базы данных SQL Azure, к которому подключается источник данных, должна быть включена [поддержка проверки подлинности AAD](/azure/sql-database/sql-database-aad-authentication-configure). Для метода проверки подлинности OAuth2 AAD создает токен и сохраняет его для будущего обращения к источнику данных. Чтобы вместо этого использовать [метод проверки подлинности на базе единого входа](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on), выберите расположенный ниже параметр единого входа **Конечные пользователи используют свои учетные данные OAuth2 при доступе к этому источнику данных через DirectQuery**.
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Просмотр отчета с разбивкой на страницы в службе Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 
 Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
-

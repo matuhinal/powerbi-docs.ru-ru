@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: ee24e4aaa54fdbc60c631dc319caf6b1465aed28
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385959"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859826"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Подключение Azure Data Lake Storage 2-го поколения для хранения потоков данных
 
@@ -46,13 +46,13 @@ ms.locfileid: "86385959"
 2. Учетная запись хранения должна быть создана в том же клиенте AAD, что и ваш клиент Power BI.
 3. Учетная запись хранения должна быть создана в том же регионе, что и ваш клиент Power BI. Сведения об определении расположения клиента Power BI см. в [этой статье](../admin/service-admin-where-is-my-tenant-located.md).
 4. Для учетной запись хранения необходимо включить функцию *Иерархическое пространство имен*.
-5. Если учетная запись хранения не создана текущим пользователем, убедитесь, что текущему пользователю были назначены разрешения [Владелец данных BLOB-объектов хранилища](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) и [Владелец](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner). (Так как у владельца нет разрешения на уровне данных, требуется владелец данных BLOB-объектов.)
+5. Если учетная запись хранения не создана текущим пользователем, убедитесь, что текущему пользователю были назначены разрешения [Владелец данных BLOB-объектов хранилища](/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) и [Владелец](/azure/role-based-access-control/built-in-roles#owner). (Так как у владельца нет разрешения на уровне данных, требуется владелец данных BLOB-объектов.)
 
 В следующих разделах подробно описаны шаги настройки учетной записи Azure Data Lake Storage 2-го поколения.
 
 ### <a name="create-the-storage-account"></a>Создание учетной записи хранения
 
-Выполните действия, описанные в [этой статье](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account).
+Выполните действия, описанные в [этой статье](/azure/storage/blobs/data-lake-storage-quickstart-create-account).
 
 1. Убедитесь, что вы выбрали расположение своего клиента Power BI, и в качестве хранилища укажите **StorageV2 (общего назначения версии 2)** .
 2. Включите функцию иерархического пространства имен.
@@ -62,7 +62,7 @@ ms.locfileid: "86385959"
 
 Далее необходимо предоставить службе Power BI роли читателя и доступа к данным в созданной учетной записи хранения. Обе эти роли встроенные, поэтому процедура проста. 
 
-Выполните действия, описанные в руководстве по [назначению встроенной роли RBAC](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
+Выполните действия, описанные в руководстве по [назначению встроенной роли RBAC](/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
 В окне **Добавление назначения ролей** выберите роль **Модуль чтения и доступ к данным**. Затем с помощью поиска найдите приложение **Служба Power BI**.
 Повторите те же действия для роли **Владелец данных BLOB-объектов хранилища** и назначьте ее как приложению **Служба Power BI**, так и приложению **Power BI Premium**.
@@ -155,11 +155,11 @@ ms.locfileid: "86385959"
 * [Ресурсы для разработчиков потоков данных Power BI](service-dataflows-developer-resources.md)
 
 Дополнительные сведения о службе хранилища Azure см. в следующих статьях:
-* [Руководство по безопасности службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Руководство по безопасности службы хранилища Azure](/azure/storage/common/storage-security-guide)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Папки CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [The metadata file (model.json) for the Common Data Model](https://go.microsoft.com/fwlink/?linkid=2045521) (Файл метаданных (model.json) для модели общих данных)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)
+* [Папки CDM](/common-data-model/data-lake)
+* [The metadata file (model.json) for the Common Data Model](/common-data-model/model-json) (Файл метаданных (model.json) для модели общих данных)
 
 Вы всегда можете [задать вопросы в Сообществе Power BI](https://community.powerbi.com/).

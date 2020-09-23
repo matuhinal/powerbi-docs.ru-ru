@@ -1,6 +1,6 @@
 ---
 title: Новые возможности сервера отчетов Power BI
-description: Узнайте о новых возможностях сервера отчетов Power BI. В этой статье приводятся сведения об основных функциях. Материалы обновляются по мере выпуска новых элементов.
+description: Узнайте о новых возможностях сервера отчетов Power BI. Эта статья охватывает основные функциональные аспекты и обновляется по мере выпуска новых элементов.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214376"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859987"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Новые возможности сервера отчетов Power BI
 
@@ -206,7 +206,7 @@ ms.locfileid: "86214376"
 
 #### <a name="azure-active-directory-application-proxy-support"></a>Поддержка Azure Active Directory Application Proxy
 
-Благодаря Azure Active Directory Application Proxy вам больше не нужно управлять собственной прокси-службой веб-приложения, чтобы обеспечить безопасный доступ через мобильные или веб-приложения. Дополнительные сведения см. в статье [Remote access to on-premises applications through Azure Active Directory's Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) (Удаленный доступ к локально размещенным приложениям через Azure Active Directory Application Proxy).
+Благодаря Azure Active Directory Application Proxy вам больше не нужно управлять собственной прокси-службой веб-приложения, чтобы обеспечить безопасный доступ через мобильные или веб-приложения. Дополнительные сведения см. в статье [Remote access to on-premises applications through Azure Active Directory's Application Proxy](/azure/active-directory/manage-apps/application-proxy) (Удаленный доступ к локально размещенным приложениям через Azure Active Directory Application Proxy).
 
 #### <a name="custom-headers"></a>Настраиваемые заголовки
 
@@ -256,7 +256,7 @@ ms.locfileid: "86214376"
 - Классы цветов и текста в темах
 - Новые темы по умолчанию
 
-### <a name="analytics"></a>Аналитика
+### <a name="analytics"></a>Analytics
 
 - Пользовательские строки форматирования
 - Обновления условного форматирования для параметров форматирования
@@ -279,7 +279,7 @@ ms.locfileid: "86214376"
 - Копирование в буфер обмена из окон профилирования данных
 
 
-## <a name="may-2019"></a>Май 2019 г.
+## <a name="may-2019"></a>Май 2019 г.
 
 ### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop для Сервера отчетов Power BI
 
@@ -332,7 +332,7 @@ ms.locfileid: "86214376"
 - Управление положением меток для данных в строке
 - Управление размером текста для визуального индикатора КПЭ
 
-#### <a name="analytics"></a>Аналитика
+#### <a name="analytics"></a>Analytics
 
 - Общедоступная версия отображения дат в иерархическом виде  
 
@@ -465,7 +465,7 @@ ms.locfileid: "86214376"
 - [Пересмотр среза](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicer)
 - [Всплывающие подсказки на странице отчета](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#reportPageTooltips)
 
-### <a name="analytics"></a>Аналитика
+### <a name="analytics"></a>Analytics
 
 - [Новая функция DAX: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [Детализация меры](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
@@ -479,7 +479,7 @@ ms.locfileid: "86214376"
 - [Категории данных для мер](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#dataCategory)
 - [Статистические функции DAX](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#dax)
 
-## <a name="may-2018"></a>Май 2018
+## <a name="may-2018"></a>Май 2018 г.
 
 ### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Удаленная настройка доступа мобильных приложений Power BI для iOS к серверам отчетов
 
@@ -494,7 +494,7 @@ ms.locfileid: "86214376"
 - [Аналитика](#analytics)
 - [Производительность](#performance)
 - [Сервер отчетов](#report-server)
-- [Другие](#other-improvements)
+- [Прочие](#other-improvements)
 
 ### <a name="highlights-of-the-march-2018-release"></a>Основные особенности выпуска в марте 2018 г.
 
@@ -554,7 +554,7 @@ ms.locfileid: "86214376"
 - [Поиск по панели форматирования и аналитики](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Панель свойств поля и описания поля](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Аналитика
+### <a name="analytics"></a>Analytics
 
 - [UTCNOW() и UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Пометка таблицы настраиваемой даты](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -572,7 +572,7 @@ ms.locfileid: "86214376"
 
 #### <a name="export-to-accessible-pdf"></a>Экспорт в доступный PDF
 
-При экспорте отчета с разбивкой на страницы (язык определения отчетов) в формат PDF теперь можно получить доступный/помеченный тегами PDF-файл. Он больше по размеру, но упрощает чтение и навигацию для средств чтения с экрана и других специальных возможностей. Чтобы включить доступный PDF, задайте для параметра **AccessiblePDF** в сведениях об устройстве значение **True**. См. разделы [Параметры сведений об устройстве для PDF](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) и [Изменение параметров сведений об устройстве ](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
+При экспорте отчета с разбивкой на страницы (язык определения отчетов) в формат PDF теперь можно получить доступный/помеченный тегами PDF-файл. Он больше по размеру, но упрощает чтение и навигацию для средств чтения с экрана и других специальных возможностей. Чтобы включить доступный PDF, задайте для параметра **AccessiblePDF** в сведениях об устройстве значение **True**. См. разделы [Параметры сведений об устройстве для PDF](/sql/reporting-services/pdf-device-information-settings) и [Изменение параметров сведений об устройстве ](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
 
 ### <a name="other-improvements"></a>Другие усовершенствования
 
@@ -639,7 +639,7 @@ ms.locfileid: "86214376"
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) и используемый решением "Сервер отчетов Power BI" объем памяти
 
-SSAS размещаются в решении "Сервер отчетов Power BI". Это связано не только с возможностью запланированного обновления. Размещение SSAS позволяет значительно увеличить объем памяти сервера отчетов. Файл конфигурации AS.ini доступен на узлах сервера. Поэтому, если вы работали со службами SSAS, вы можете обновить настройки, включая ограничение максимального объема памяти, кэширование диска и т. д. Дополнительные сведения см. в статье [Server properties in Analysis Services](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services) (Свойства сервера в службах Analysis Services).
+SSAS размещаются в решении "Сервер отчетов Power BI". Это связано не только с возможностью запланированного обновления. Размещение SSAS позволяет значительно увеличить объем памяти сервера отчетов. Файл конфигурации AS.ini доступен на узлах сервера. Поэтому, если вы работали со службами SSAS, вы можете обновить настройки, включая ограничение максимального объема памяти, кэширование диска и т. д. Дополнительные сведения см. в статье [Server properties in Analysis Services](/sql/analysis-services/server-properties/server-properties-in-analysis-services) (Свойства сервера в службах Analysis Services).
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>Просмотр книг Excel и работа с ними
 

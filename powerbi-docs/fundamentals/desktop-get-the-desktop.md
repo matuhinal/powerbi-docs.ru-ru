@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160218"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860217"
 ---
 # <a name="get-power-bi-desktop"></a>Получение Power BI Desktop
 Power BI Desktop дает возможность создавать расширенные запросы, модели и отчеты, визуализирующие данные. С помощью Power BI Desktop можно создавать модели данных, отчеты и совместно использовать данные, публикуя их в службе Power BI. Power BI Desktop можно скачать бесплатно.
@@ -38,7 +38,7 @@ Power BI Desktop дает возможность создавать расшир
 
    - Откройте браузер и перейдите непосредственно на [страницу Power BI Desktop](https://aka.ms/pbidesktopstore) в Microsoft Store.
 
-    - В [службе Power BI](https://docs.microsoft.com/power-bi/service-get-started) щелкните значок **Скачать** в правом верхнем углу и выберите **Power BI Desktop**.
+    - В [службе Power BI](./service-get-started.md) щелкните значок **Скачать** в правом верхнем углу и выберите **Power BI Desktop**.
 
       ![Снимок экрана: Microsoft Store с параметром скачивания Power BI Desktop](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -203,4 +203,4 @@ Power BI Desktop дает возможность создавать расшир
 * [Источники данных в Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Подключение к данным в Power BI Desktop](../connect-data/desktop-connect-to-data.md)
 * [Формирование и объединение данных в Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Общие задачи с запросами в Power BI Desktop](../transform-model/desktop-common-query-tasks.md)   
+* [Общие задачи с запросами в Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

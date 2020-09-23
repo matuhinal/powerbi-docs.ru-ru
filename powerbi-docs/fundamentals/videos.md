@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: 6bb0039c873dccec318fa9d16c7cf0c96e44b34e
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 7848ac9539b324dd4b572445877297294dbe8236
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092229"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860056"
 ---
 # <a name="power-bi-videos"></a>Видео о службе Power BI
 У нас есть канал YouTube для Power BI! Вы можете заглянуть на [наш канал](https://www.youtube.com/user/mspowerbi/videos), а если вы еще не знакомы с Power BI, рекомендуем вам начать со [списка видео, посвященного анализу и визуализации данных с помощью Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -42,7 +42,7 @@ ms.locfileid: "89092229"
 ## <a name="more-videos"></a>Другие видео
 Предлагаем вам следующую подборку видеоматериалов.
 
-* [[Microsoft Learn для Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [[Microsoft Learn для Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Что такое Power BI?](power-bi-overview.md)

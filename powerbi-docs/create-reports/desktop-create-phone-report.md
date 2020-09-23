@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221761"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853800"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Оптимизация отчетов Power BI для мобильных приложений
 Пользователи мобильных устройств могут просматривать любую страницу отчета Power BI в альбомной ориентации. Однако авторы отчетов могут создать дополнительное представление, оптимизированное для мобильных устройств и дисплеев с книжной ориентацией. Этот вариант дизайна доступен как в службе Power BI Desktop, так и в службе Power BI. Он позволяет авторам выбирать и переупорядочивать только те визуальные элементы, которые необходимы для пользователей мобильных устройств, работающих вне офиса.
@@ -120,5 +120,5 @@ Power BI предоставляет ряд функций, помогающих 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание представления панели мониторинга для телефонов в Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Просмотр отчетов Power BI, оптимизированных для телефона](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Создание отчетов и панелей мониторинга в Power BI — документация](https://docs.microsoft.com/power-bi/create-reports/).
+* [Создание отчетов и панелей мониторинга в Power BI — документация](./index.yml).
 * Остались вопросы? [Попробуйте задать вопрос в Сообществе Power BI](https://community.powerbi.com/).

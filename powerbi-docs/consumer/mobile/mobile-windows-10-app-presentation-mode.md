@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c01169a514b1231f93df21a23dc8992e92353070
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 978a257ccd5916f14bc3dfa6916f9315b755c12e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937615"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860263"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Просмотр отчетов и панели мониторинга в режиме презентации на устройствах Surface Hub и Windows 10
 Можно использовать режим презентации для отображения отчетов и панели мониторинга в полноэкранном режиме на устройствах Windows 10 и Surface Hub. Режим презентации удобно использовать для показа Power BI на собраниях или конференциях, показа в офисе через специальный проектор или просто для увеличения места на небольшом экране.
@@ -26,7 +26,7 @@ ms.locfileid: "88937615"
 * Вы сможете воспроизвести слайд-шоу, в котором автоматически и циклически отображаются страницы, закладки или страницы и закладки.
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>Использование режима презентации
 Чтобы перейти в полноэкранный режим, в мобильном приложении Power BI нажмите на значок **Во весь экран**.

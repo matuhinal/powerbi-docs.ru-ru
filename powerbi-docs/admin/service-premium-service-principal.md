@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490360"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854628"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб
 
@@ -40,14 +40,14 @@ ms.locfileid: "89490360"
 
 Субъекты-службы можно создать в качестве регистрации приложения на портале Azure или с помощью PowerShell. При создании субъекта-службы обязательно скопируйте и сохраните отдельно имя приложения, идентификатор приложения (клиента), идентификатор каталога (клиента) и секрет клиента. Сведения о порядке создания субъекта-службы см. в следующих разделах.
 
-[Создание приложения Azure Active Directory и субъекта-службы с доступом к ресурсам с помощью портала](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[Создание субъекта-службы с помощью PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[Создание приложения Azure Active Directory и субъекта-службы с доступом к ресурсам с помощью портала](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[Создание субъекта-службы с помощью PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>Создание группы безопасности Azure AD
 
 По умолчанию субъекты-службы имеют доступ ко всем параметрам клиента, для которых они включены. В зависимости от параметров администратора такой доступ может включать определенную группу безопасности или всю организацию.
 
-Чтобы ограничить доступ субъекта-службы к параметрам определенного клиента, можно разрешить доступ только к определенным группам безопасности. Кроме того, можно создать выделенную группу безопасности для субъектов-служб и исключить ее из параметров нужного клиента. Инструкции по созданию группы безопасности и добавлению субъекта-службы см. в разделе [Создание простой группы и добавление в нее участников с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+Чтобы ограничить доступ субъекта-службы к параметрам определенного клиента, можно разрешить доступ только к определенным группам безопасности. Кроме того, можно создать выделенную группу безопасности для субъектов-служб и исключить ее из параметров нужного клиента. Инструкции по созданию группы безопасности и добавлению субъекта-службы см. в разделе [Создание простой группы и добавление в нее участников с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## <a name="enable-service-principals"></a>Включение субъектов-служб
 
@@ -59,7 +59,7 @@ ms.locfileid: "89490360"
 
 ## <a name="workspace-access"></a>Доступ к рабочей области
 
-Чтобы субъект-служба имела необходимые разрешения на выполнение операций с рабочей областью Premium и наборами данных, необходимо добавить эту субъект-службу в качестве участника или администратора рабочей области. Использование доступа к рабочей области в службе Power BI описывается в данном разделе, однако также можно обратиться к разделу [REST API для добавления пользователя в группу](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser).
+Чтобы субъект-служба имела необходимые разрешения на выполнение операций с рабочей областью Premium и наборами данных, необходимо добавить эту субъект-службу в качестве участника или администратора рабочей области. Использование доступа к рабочей области в службе Power BI описывается в данном разделе, однако также можно обратиться к разделу [REST API для добавления пользователя в группу](/rest/api/power-bi/groups/addgroupuser).
 
 1. В службе Power BI для рабочей области выберите **Дополнительно** > **Доступ к рабочей области**.
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>Объекты AMO и ADOMD
 
-При подключении к клиентским приложениям и веб-приложениям устанавливаемые пакеты от NuGet [клиентских библиотек AMO и ADOMD](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) версии 15.1.42.26 (июнь 2020 г.) и выше поддерживают субъекты-службы в строках подключения с помощью следующего синтаксиса: `app:AppID` и пароль или `cert:thumbprint`.
+При подключении к клиентским приложениям и веб-приложениям устанавливаемые пакеты от NuGet [клиентских библиотек AMO и ADOMD](/azure/analysis-services/analysis-services-data-providers) версии 15.1.42.26 (июнь 2020 г.) и выше поддерживают субъекты-службы в строках подключения с помощью следующего синтаксиса: `app:AppID` и пароль или `cert:thumbprint`.
 
 В следующем примере `appID` и `password` используются для выполнения операции обновления шаблона базы данных:
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Возможность подключения к набору данных с помощью конечной точки XMLA](service-premium-connect-tools.md)  
-[Служба автоматизации Azure](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+[Служба автоматизации Azure](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[REST API в Power BI](/rest/api/power-bi/)

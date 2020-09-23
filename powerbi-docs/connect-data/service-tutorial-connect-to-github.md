@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332321"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860562"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Руководство. Подключение к репозиторию в GitHub с помощью Power BI
 В этом учебнике вы подключитесь к реальным данным в службе GitHub с помощью Power BI, после чего служба Power BI автоматически создаст панели мониторинга и отчеты. Подключившись к общедоступному *репозиторию* содержимого Power BI, можно знать ответы на подобные вопросы: сколько людей участвует в создании общедоступного содержимого Power BI; кто вносит наибольший вклад; в какой день недели содержимое добавляется наиболее активно; И другие вопросы. 
@@ -39,7 +39,7 @@ ms.locfileid: "83332321"
 
 Для прохождения этого учебника требуется учетная запись GitHub. 
 
-- [Зарегистрируйте учетную запись GitHub](https://docs.microsoft.com/contribute/get-started-setup-github).
+- [Зарегистрируйте учетную запись GitHub](/contribute/get-started-setup-github).
 
 
 ## <a name="how-to-connect"></a>Способы подключения
@@ -139,5 +139,3 @@ ms.locfileid: "83332321"
  
 > [!div class="nextstepaction"]
 > [Подключение к используемым веб-службам](service-connect-to-services.md)
-
-

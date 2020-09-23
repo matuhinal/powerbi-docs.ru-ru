@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235647"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860585"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Что такое приложения-шаблоны Power BI?
 
@@ -49,7 +49,7 @@ ms.locfileid: "85235647"
 
 Для создания приложения-шаблона требуются соответствующие разрешения. Дополнительные сведения см. в статье о портале администрирования Power BI в разделе "Параметры приложений-шаблонов". 
 
-Чтобы опубликовать приложение-шаблон в службе Power BI и AppSource, необходимо [зарегистрироваться в качестве издателя в центре для партнеров](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Чтобы опубликовать приложение-шаблон в службе Power BI и AppSource, необходимо [зарегистрироваться в качестве издателя в центре для партнеров](/azure/marketplace/become-publisher).
  
 ## <a name="high-level-steps"></a>Основные действия
 
@@ -67,7 +67,7 @@ ms.locfileid: "85235647"
 
 6. Повысьте уровень тестового приложения до предварительного, чтобы отправить приложение на проверку в AppSource и протестировать его вне своего клиента. 
 
-7. Отправьте содержимое в [центр для партнеров](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) для публикации. 
+7. Отправьте содержимое в [центр для партнеров](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) для публикации. 
 
 8. Сделайте предложение доступным в AppSource и перенесите его в рабочую среду в Power BI.
 
@@ -77,9 +77,9 @@ ms.locfileid: "85235647"
 
 Для создания приложения-шаблона требуются соответствующие разрешения. Дополнительные сведения см. в [разделе "Параметры приложений-шаблонов" статьи о портале администрирования](../admin/service-admin-portal.md#template-apps-settings) Power BI.
 
-Чтобы опубликовать приложение-шаблон в службе Power BI и AppSource, необходимо [зарегистрироваться в качестве издателя в центре для партнеров](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Чтобы опубликовать приложение-шаблон в службе Power BI и AppSource, необходимо [зарегистрироваться в качестве издателя в центре для партнеров](/azure/marketplace/become-publisher).
  > [!NOTE] 
- > Управление отправкой приложений-шаблонов осуществляется в [центре для партнеров](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Для входа используйте ту же учетную запись регистрации Центра разработчиков Майкрософт. Для всех предложений в AppSource нужно использовать одну и ту же учетную запись Майкрософт. Не следует использовать разные учетные записи для отдельных служб или приложений.
+ > Управление отправкой приложений-шаблонов осуществляется в [центре для партнеров](/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Для входа используйте ту же учетную запись регистрации Центра разработчиков Майкрософт. Для всех предложений в AppSource нужно использовать одну и ту же учетную запись Майкрософт. Не следует использовать разные учетные записи для отдельных служб или приложений.
 
 ## <a name="tips"></a>Советы 
 

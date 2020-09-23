@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 019a881b384fafa51a8b1886b450f18f72bf640e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459653"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859964"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Использование потоков данных с локальными источниками данных
 
@@ -86,4 +86,4 @@ ms.locfileid: "86459653"
 * [Настройка запланированного обновления](../connect-data/refresh-scheduled-refresh.md)
 
 Дополнительные сведения о модели общих данных вы найдете в этой обзорной статье:
-* [Что такое модель общих данных?](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Что такое модель общих данных?](/powerapps/common-data-model/overview)

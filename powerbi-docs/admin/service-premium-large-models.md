@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204331"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854674"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Большие модели в Power BI Premium (Предварительная версия)
 
@@ -94,7 +94,7 @@ Power BI использует управление динамической п�
 
 ## <a name="checking-dataset-size"></a>Проверка размера набора данных
 
-После загрузки исторических данных вы можете использовать [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) с помощью [конечной точки XML для аналитики](service-premium-connect-tools.md), чтобы проверить оценочный размер набора данных в окне "Свойства модели".
+После загрузки исторических данных вы можете использовать [SSMS](/sql/ssms/download-sql-server-management-studio-ssms) с помощью [конечной точки XML для аналитики](service-premium-connect-tools.md), чтобы проверить оценочный размер набора данных в окне "Свойства модели".
 
 ![Примерный размер набора данных](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>Доступность по регионам
 
-Большие модели в Power BI доступны только в тех регионах Azure, в которых поддерживается [хранилище файлов Azure класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
+Большие модели в Power BI доступны только в тех регионах Azure, в которых поддерживается [хранилище файлов Azure класса "Премиум"](/azure/storage/files/storage-files-planning#storage-tiers).
 
 В следующем списке перечислены регионы, в которых доступны большие модели Power BI. В регионах, которые не вошли в этот список, большие модели не поддерживаются.
 
@@ -155,7 +155,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 Следующие ссылки дадут вам полезную информацию для работы с большими моделями.
 
-* [Хранилище файлов Azure класса "Премиум"](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
+* [Хранилище файлов Azure класса "Премиум"](/azure/storage/files/storage-files-planning#storage-tiers)
 * [Настройка поддержки нескольких регионов для Power BI Premium](service-admin-premium-multi-geo.md)
 * [Использование собственных ключей шифрования для Power BI](service-encryption-byok.md)
 * [Принцип функционирования емкостей](service-premium-what-is.md#how-capacities-function)

@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363969"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854088"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Устранение неполадок с подключением конечных точек XMLA
 
@@ -138,11 +138,11 @@ Power BI возвращает указанную ниже ошибку, если
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Переопределения в команде Refresh TMSL
 
-Переопределения в [команде Refresh (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) позволяют пользователям выбрать другое определение запроса секции или определение источника данных для операции обновления. В настоящее время **переопределения не поддерживаются** в Power BI Premium. Отображается ошибка: "В Power BI Premium не допускается использование внешней привязки. Дополнительные сведения см. в разделе «Поддержка чтения/записи XMLA» в документации по продукту". .
+Переопределения в [команде Refresh (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) позволяют пользователям выбрать другое определение запроса секции или определение источника данных для операции обновления. В настоящее время **переопределения не поддерживаются** в Power BI Premium. Отображается ошибка: "В Power BI Premium не допускается использование внешней привязки. Дополнительные сведения см. в разделе «Поддержка чтения/записи XMLA» в документации по продукту". .
 
 ## <a name="see-also"></a>См. также раздел
 
 [Возможность подключения к набору данных с помощью конечной точки XMLA](service-premium-connect-tools.md)   
 [Автоматизация задач по управлению рабочими областями Premium и наборами данных с помощью субъектов-служб](service-premium-service-principal.md)   
 [Устранение неполадок с анализом в Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Развертывание решений табличной модели](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[Развертывание решений табличной модели](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)

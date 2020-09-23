@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: cea54821c7a2a31d8ee362559e29a3f79fa40b6c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 598b41362cb510f8e5bbc60c7ca263c57fa0403e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231524"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859803"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Настройка единого входа на основе Kerberos из службы Power BI в локальные источники данных
 
@@ -59,7 +59,7 @@ ms.locfileid: "85231524"
 
 4. Если в диалоговом окне **Свойства** отображается вкладка **Делегирование**, значит, имя субъекта-службы уже создано и вы можете перейти к шагу [Выбор типа ограниченного делегирования Kerberos для использования](#decide-on-the-type-of-kerberos-constrained-delegation-to-use).
 
-5. Если в диалоговом окне **Свойства** не отображается вкладка **Делегирование**, можно вручную создать имя субъекта-службы для этой учетной записи. Используйте [средство setspn](https://technet.microsoft.com/library/cc731241.aspx), входящее в состав Windows (для создания имени субъекта-службы нужны права администратора домена).
+5. Если в диалоговом окне **Свойства** не отображается вкладка **Делегирование**, можно вручную создать имя субъекта-службы для этой учетной записи. Используйте [средство setspn](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11)), входящее в состав Windows (для создания имени субъекта-службы нужны права администратора домена).
 
    Предположим, что используется учетная запись службы шлюза **Contoso\GatewaySvc**, а шлюз работает на компьютере **MyGatewayMachine**. Чтобы задать имя субъекта-службы для этой учетной записи службы шлюза, выполните следующую команду:
 

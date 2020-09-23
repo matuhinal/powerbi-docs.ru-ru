@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24f507a2457793590b6b123c0f4c9cb68dea4102
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161751"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860976"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Служба Power BI для потребителей
 
@@ -62,6 +62,5 @@ Power BI упрощает выполнение ваших задач и повы
 ## <a name="next-steps"></a>Дальнейшие действия
 
 [Take a tour of the Power BI service for consumers](end-user-reading-view.md)   (Краткое руководство. Сведения о возможностях Power BI для потребителей)  
-[Power BI service training for consumers](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)   (Обучение потребителей работе со службой Power BI)  
-[Терминология и основные понятия для *потребителей* Power BI](end-user-basic-concepts.md)    
-
+[Power BI service training for consumers](/learn/paths/consume-data-with-power-bi/)   (Обучение потребителей работе со службой Power BI)  
+[Терминология и основные понятия для *потребителей* Power BI](end-user-basic-concepts.md)

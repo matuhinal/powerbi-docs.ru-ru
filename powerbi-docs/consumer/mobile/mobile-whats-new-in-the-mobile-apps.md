@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204860"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860240"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Новые возможности мобильных приложений для Power BI
 Соответствующие сведения о новых функциях и возможностях см. в следующей статье:
@@ -23,7 +23,7 @@ ms.locfileid: "88204860"
 * [Новые возможности службы Power BI](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>Август 2020 г.
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>Усовершенствован переход между содержимым (iOS и Android)
@@ -153,19 +153,19 @@ ms.locfileid: "88204860"
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>Поддержка Android для удаленной настройки параметров доступа к серверу отчетов
 
-Добавлена поддержка Android для удаленной настройки параметров доступа мобильного приложения Power BI к серверу отчетов. ИТ-администраторы теперь могут использовать средство MDM своей организации для удаленной настройки этих параметров на устройствах iOS и Android. Подробные сведения см. в статье [Удаленная настройка доступа мобильных приложений Power BI к серверу отчетов](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote).
+Добавлена поддержка Android для удаленной настройки параметров доступа мобильного приложения Power BI к серверу отчетов. ИТ-администраторы теперь могут использовать средство MDM своей организации для удаленной настройки этих параметров на устройствах iOS и Android. Подробные сведения см. в статье [Удаленная настройка доступа мобильных приложений Power BI к серверу отчетов](../../report-server/configure-powerbi-mobile-apps-remote.md).
 
 ### <a name="cross-report-drillthrough"></a>Детализация между отчетами
 
 В этом месяце мы добавили поддержку детализации между отчетами. Теперь можно коснуться точки данных для детализации, чтобы получить доступ к другим отчетам и страницам отчетов. При переходе на целевую страницу содержимое этой страницы фильтруется на основе параметров детализации.
 
 > [!NOTE]
-> Детализация между отчетами доступна только в том случае, если она была включена во время создания отчета. [Дополнительные сведения о детализации между отчетами](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through).
+> Детализация между отчетами доступна только в том случае, если она была включена во время создания отчета. [Дополнительные сведения о детализации между отчетами](../../create-reports/desktop-cross-report-drill-through.md).
 
 
 ### <a name="data-sensitivity-labels"></a>Метки конфиденциальности данных
 
-Теперь вы можете видеть метки конфиденциальности, которые владельцы содержимого задали для отчетов, панелей мониторинга, наборов данных и потоков данных, чтобы классифицировать их конфиденциальность. Метки конфиденциальности определяют, какую часть содержимого можно сделать доступной для других пользователей. [Дополнительные сведения о метках конфиденциальности в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview).
+Теперь вы можете видеть метки конфиденциальности, которые владельцы содержимого задали для отчетов, панелей мониторинга, наборов данных и потоков данных, чтобы классифицировать их конфиденциальность. Метки конфиденциальности определяют, какую часть содержимого можно сделать доступной для других пользователей. [Дополнительные сведения о метках конфиденциальности в Power BI](../../admin/service-security-data-protection-overview.md).
 
 ### <a name="support-for-custom-app-navigation-windows"></a>Поддержка навигации в пользовательских приложениях (Windows)
 
@@ -190,7 +190,7 @@ ms.locfileid: "88204860"
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Безопасный доступ с помощью Azure Active Directory (AD) Application Proxy (iOS и Android)
 
-Вместе с группой Azure Active Directory мы реализовали интеграцию мобильных приложений Power BI с Application Proxy Azure Active Directory (Azure AD). Вы можете подключаться к серверу отчетов, размещенному в сети предприятия, из приложения Power BI Mobile без настройки сложной локальной конфигурации. Дополнительные сведения см. в записи блога, посвященной [интеграции мобильных приложений Power BI и Azure AD Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Узнайте, [как настроить Azure AD Application Proxy и Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
+Вместе с группой Azure Active Directory мы реализовали интеграцию мобильных приложений Power BI с Application Proxy Azure Active Directory (Azure AD). Вы можете подключаться к серверу отчетов, размещенному в сети предприятия, из приложения Power BI Mobile без настройки сложной локальной конфигурации. Дополнительные сведения см. в записи блога, посвященной [интеграции мобильных приложений Power BI и Azure AD Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Узнайте, [как настроить Azure AD Application Proxy и Power BI](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Июль 2019 г.
 
@@ -228,11 +228,11 @@ ms.locfileid: "88204860"
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>Улучшенная защита условного доступа (iOS, Android)
 
-Мы интегрировали с Azure AD [новую возможность условного доступа на основе защиты приложения](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) для повышения безопасности путем ограничения доступа к Power BI перед применением политики приложения.
+Мы интегрировали с Azure AD [новую возможность условного доступа на основе защиты приложения](/azure/active-directory/conditional-access/app-protection-based-conditional-access) для повышения безопасности путем ограничения доступа к Power BI перед применением политики приложения.
 
 ### <a name="device-protection-ios"></a>Защита устройств (iOS)
 
-Пользователи могут использовать встроенную защиту устройств для защиты Power BI, запрашивая Face ID, Touch ID или секретный код для доступа к Power BI. Этой функцией может управлять пользователь с помощью параметров приложения, а также администратор с помощью Intune или другого средства MDM. [Подробнее](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+Пользователи могут использовать встроенную защиту устройств для защиты Power BI, запрашивая Face ID, Touch ID или секретный код для доступа к Power BI. Этой функцией может управлять пользователь с помощью параметров приложения, а также администратор с помощью Intune или другого средства MDM. [Подробнее](./mobile-native-secure-access.md).
 
 ### <a name="one-page-report-slideshow-windows"></a>Слайд-шоу из одностраничных отчетов (Windows)
 
@@ -274,7 +274,7 @@ ms.locfileid: "88204860"
 ![Взаимодействие одиночным касанием](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Существующим пользователям потребуется включить эту функцию в параметрах приложения. Дополнительные сведения см. в статье [Настройка взаимодействия в отчете одиночным касанием](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap).
+> Существующим пользователям потребуется включить эту функцию в параметрах приложения. Дополнительные сведения см. в статье [Настройка взаимодействия в отчете одиночным касанием](./mobile-app-interaction-settings.md).
 
 ## <a name="january---february-2019"></a>Январь–февраль 2019 г.
  
@@ -304,11 +304,11 @@ ms.locfileid: "88204860"
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Книжная ориентация макета отчетов на планшетах (iOS и Android)
 
-Теперь для отображения отчетов на планшете в книжной ориентации используется макет отчета телефона (если он есть). Дополнительные сведения о [создании макета телефона в службе Power BI или в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-phone-report/).
+Теперь для отображения отчетов на планшете в книжной ориентации используется макет отчета телефона (если он есть). Дополнительные сведения о [создании макета телефона в службе Power BI или в Power BI Desktop](/power-bi/desktop-create-phone-report/).
 
 ### <a name="supporting-report-query-string"></a>Вспомогательная строка запроса отчета 
 
-Ссылка на отчет, включающая строку запроса, теперь будет открываться в мобильном приложении и предварительно фильтроваться на основе условий, заданных в строке запроса. Дополнительные сведения о [создании URL-адреса отчета с помощью строки запроса](https://docs.microsoft.com/power-bi/service-url-filters/).  
+Ссылка на отчет, включающая строку запроса, теперь будет открываться в мобильном приложении и предварительно фильтроваться на основе условий, заданных в строке запроса. Дополнительные сведения о [создании URL-адреса отчета с помощью строки запроса](/power-bi/service-url-filters/).  
 
 ### <a name="shared-credentials-now-in-android"></a>Общие учетные данные (теперь на Android)
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a56fecdadc8eddba3fa755497a4ebc978496b7a1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 98f528e13bd92692bd76afc42aaac43828f7f586
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231362"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860907"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Просмотр локальных отчетов и КПЭ в приложении Power BI для Windows
 Приложение Power BI для Windows 10 обеспечивает доступ в режиме реального времени к важнейшей бизнес-информации в Reporting Services SQL Server 2016. 
@@ -28,7 +28,7 @@ ms.locfileid: "85231362"
 > Ваше устройство должно работать под управлением Windows 10. Лучше всего приложение работает на устройствах, где доступно не менее 1 ГБ ОЗУ и 8 ГБ внутренней памяти.
 
 >[!NOTE]
->Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Поддержка мобильного приложения Power BI для **телефонов под управлением Windows 10 Mobile** будет прекращена 16 марта 2021 г. [Дополнительные сведения](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>Изучение примеров без сервера SQL Server 2016 Reporting Services
 Ознакомиться с функциями мобильных отчетов Reporting Services можно даже в отсутствие доступа к веб-порталу Reporting Services.

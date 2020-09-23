@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 5705b0eaa861b01c7f04f4da9f85985af5f3934e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235637"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860539"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Обновление, удаление и извлечение приложения-шаблона
 
@@ -46,7 +46,7 @@ ms.locfileid: "85235637"
 
    Теперь ваша ссылка активна. **Обратите внимание, что кнопка "Повысить уровень приложения" на этапе подготовки к работе неактивна**. Это необходимо для предотвращения случайной перезаписи активной рабочей ссылки на текущую версию приложения до того, как портал Cloud Partner проверит и утвердит новую версию приложения.
 
-1. Еще раз отправьте ссылку на портал Cloud Partner, следуя инструкциям в разделе [Обновление предложения приложения Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer). На портале Cloud Partner необходимо повторно **опубликовать**  предложение, а также повторно его проверить и утвердить.
+1. Еще раз отправьте ссылку на портал Cloud Partner, следуя инструкциям в разделе [Обновление предложения приложения Power BI](/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer). На портале Cloud Partner необходимо повторно **опубликовать**  предложение, а также повторно его проверить и утвердить.
 
    Когда предложение будет утверждено, кнопка "Повысить уровень приложения" станет активной. 
 1. Повысьте уровень приложения до рабочей среды.
@@ -84,4 +84,4 @@ ms.locfileid: "85235637"
 
 Сведения о том, как с вашим приложением-шаблоном взаимодействуют пользователи, см. в разделе [Установка, настройка и распространение приложений-шаблонов в организации](service-template-apps-install-distribute.md).
 
-Дополнительные сведения о распространении приложения: [Предложение приложения Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Дополнительные сведения о распространении приложения: [Предложение приложения Power BI](/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
