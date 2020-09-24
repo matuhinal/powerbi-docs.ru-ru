@@ -28,6 +28,8 @@
           href: embedded-capacity.md
         - name: Планирование емкостей
           href: embedded-capacity-planning.md
+        - name: Что учитывать при создании токена внедрения
+          href: generate-embed-token.md
         - name: Рекомендации по производительности
           href: embedded-performance-best-practices.md
         - name: Защита на уровне строк
