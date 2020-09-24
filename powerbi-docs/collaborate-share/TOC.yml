@@ -51,7 +51,9 @@
           items:
             - name: Совместная работа в Teams
               href: service-collaborate-microsoft-teams.md
-            - name: Встраивание отчетов в Teams
+            - name: Добавление приложения Power BI в Teams
+              href: service-microsoft-teams-app.md
+            - name: Встраивание отчетов во вкладки Teams
               href: service-embed-report-microsoft-teams.md
             - name: Предоставление общего доступа непосредственно в Teams
               href: service-share-report-teams.md

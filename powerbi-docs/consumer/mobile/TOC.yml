@@ -28,7 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: Просмотр данных в автономном режиме в мобильных приложениях
           href: mobile-apps-offline-data.md
-        - name: Приложение Power BI для смешанной реальности (предварительная версия)
+        - name: Power BI для HoloLens 2
+          href: mobile-hololens2-app.md
+        - name: Power BI для HoloLens (поколение 1)
           href: mobile-mixed-reality-app.md
     - name: Практическое руководство
       items:
