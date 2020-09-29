@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084037"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854375"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Приватные каналы для доступа к Power BI
 
@@ -158,7 +158,7 @@ ms.locfileid: "90084037"
     |Размер | Оставьте значение по умолчанию **Standard DS1 v2**. |
     |УЧЕТНАЯ ЗАПИСЬ АДМИНИСТРАТОРА ||
     |Имя пользователя |Введите выбранное имя пользователя. |
-    |Пароль | Введите выбранный пароль. Пароль должен содержать минимум 12 символов и [соответствовать определенным требованиям к сложности](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm). |
+    |Пароль | Введите выбранный пароль. Пароль должен содержать минимум 12 символов и [соответствовать определенным требованиям к сложности](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm). |
     |Подтверждение пароля | Введите пароль еще раз. |
     |ПРАВИЛА ВХОДЯЩЕГО ПОРТА ||
     |Общедоступные входящие порты | Оставьте значение по умолчанию **Отсутствует**. |
@@ -284,6 +284,7 @@ ms.locfileid: "90084037"
 * Использование внешних изображений или тем недоступно при использовании среды с приватными каналами и может повлиять на пользовательские визуальные элементы.
 * Экспорт служб, например экспорт в PDF, экспорт в Excel из отчета и другие службы экспорта, не работают при использовании среды с приватным каналом
 * Отчеты SQL Server Reporting Services, обычно известные как RDL-файлы (файлы в формате RDL), не отображаются в средах с приватными каналами
+* Если доступ к Интернету отсутствует и набор данных или поток данных подключается к базе данных или потоку данных Power BI в качестве источника данных, подключение будет неуспешным.
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

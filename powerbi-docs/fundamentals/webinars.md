@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768408"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020028"
 ---
 # <a name="power-bi-webinars"></a>Вебинары о Power BI
 [//]: # "Татевик Татеро (Tatevik Tatero) (tatevik.teroyan@simple-concepts.com) — это поставщик, работающий с Чонси Фрилс (Chauncy Freels) и помогающий вести этот список вебинаров"
@@ -22,11 +22,23 @@ ms.locfileid: "87768408"
 
 ## <a name="upcoming-webinars"></a>Предстоящие вебинары
 
+**Быстрое начало работы с Power BI**  
+Автор: Мигель Мартинес (Miguel Martinez), Майкрософт  
+[Зарегистрироваться для просмотра 5 ноября 2020 г. с 10:00 до 11:00 (по Тихоокеанскому времени)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Предстоящие вебинары сообщества Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Популярные вебинары
 
 Начало работы с популярными вебинарами по запросу
+
+**Отслеживание данных в реальном времени с помощью Microsoft Power BI**  
+Авторы: Мигель Мартинес (Miguel Martinez) и Питер Майерс (Peter Myers)  
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Создание масштабируемых решений бизнес-аналитики с помощью Power BI и Snowflake**  
+Авторы: Крис Уэбб (Chris Webb), Крейг Колье (Craig Collier) и Крис Холлидей (Chris Holliday)  
+[Смотреть сейчас](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **Повышение удовлетворенности пользователей с помощью рекомендаций по управлению содержимым бизнес-аналитики**  
 Автор: Нимрод Шалит (Nimrod Shalit)  

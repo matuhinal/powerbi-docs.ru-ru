@@ -1,5 +1,5 @@
 ---
-title: Предоставление общего доступа непосредственно в Teams из службы Power BI
+title: Представление общего доступа непосредственно в Microsoft Teams из службы Power BI
 description: Вы можете предоставлять доступ к панелям мониторинга Power BI и отчетам непосредственно в Microsoft Teams из службы Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478068"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964814"
 ---
-# <a name="share-directly-to-teams-from-the-power-bi-service"></a>Предоставление общего доступа непосредственно в Teams из службы Power BI
+# <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Представление общего доступа непосредственно в Microsoft Teams из службы Power BI
 
 Вы можете предоставлять доступ к панелям мониторинга, отчетам и визуальным элементам Power BI непосредственно в Microsoft Teams из службы Power BI. С помощью функции **Поделиться в Teams** можно быстро начать беседу при просмотре отчетов и панелей мониторинга в службе Power BI.
 
@@ -27,9 +27,9 @@ ms.locfileid: "87478068"
 
 - Администраторы Power BI не отключили для клиента параметр **Поделиться в Teams** на портале администрирования Power BI. Этот параметр позволяет организациям скрывать кнопку **Поделиться в Teams**. Дополнительные сведения см. в статье [Портал администрирования Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting).
 
-Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Teams работают вместе, включая прочие требования.
+Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Microsoft Teams работают вместе, включая прочие требования.
 
-## <a name="share-power-bi-content-to-teams"></a>Совместное использование содержимого Power BI в Teams
+## <a name="share-power-bi-content-to-microsoft-teams"></a>Предоставление общего доступа к содержимому Power BI в Microsoft Teams
 
 Выполните следующие действия, чтобы поделиться ссылками на отчеты, информационные панели и визуальные элементы в службе Power BI в каналах и чатах Microsoft Teams.
 

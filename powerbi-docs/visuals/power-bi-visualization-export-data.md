@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008935"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861597"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Экспорт данных, использованных для создания визуализации
 
@@ -228,7 +228,7 @@ ms.locfileid: "90008935"
 ## <a name="limitations-and-considerations"></a>Ограничения и рекомендации
 Эти ограничения и рекомендации применяются к Power BI Desktop и службе Power BI, включая Power BI Pro и Premium.
 
-- Чтобы экспортировать данные из визуального элемента, вам нужно иметь [разрешение на сборку для базового набора данных](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
+- Чтобы экспортировать данные из визуального элемента, вам нужно иметь [разрешение на сборку для базового набора данных](../connect-data/service-datasets-build-permissions.md).
 
 -  Максимальное число строк, которые **Power BI Desktop** и **служба Power BI** могут экспортировать из **отчета режима импорта** в файл *CSV*, составляет 30 000.
 
@@ -269,7 +269,7 @@ ms.locfileid: "90008935"
   1. Перейдите к локальной папке, где хранится файл, и выберите файл *CSV*.
 
 - При экспорте в формат *CSV* некоторые символы будут экранированы с символом **'** в начале, чтобы предотвратить выполнение скрипта при открытии в Excel. Это происходит в следующих случаях:
-  - Столбец определен как тип "Текст" в модели данных **_и_**
+  - Столбец определен как тип "Текст" в модели данных **_и_**.
   - Первый символ в тексте является одним из следующих: **=, @, +,-**
 
 - Администраторы Power BI могут отключить экспорт данных.

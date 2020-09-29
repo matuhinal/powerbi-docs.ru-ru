@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937500"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020074"
 ---
 # <a name="analyze-in-excel"></a>Анализ в Excel
 С помощью компонента **Анализ в Excel** можно перенести наборы данных Power BI в Excel, а затем просматривать их и взаимодействовать с ними с помощью сводных таблиц, диаграмм, срезов и других функций Excel. Чтобы использовать **Анализ в Excel**, необходимо сначала скачать соответствующий компонент из Power BI, установить его, а затем выбрать один или несколько наборов данных для использования в Excel. 
@@ -92,6 +92,15 @@ ms.locfileid: "88937500"
     >![Снимок экрана: редактирование в режиме защищенного просмотра](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![Снимок экрана: включение содержимого доверенного документа](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+При использовании Excel для анализа Power BI с помощью PivotTable решение Power BI применяет наследование метки конфиденциальности к Excel. Метка конфиденциальности, применяемая к набору данных Power BI, автоматически применяется к файлу Excel, если вы создаете таблицу PivotTable в Excel. 
+
+Если затем метка для набора данных меняется на более строгую, применяемая к файлу Excel метка будет автоматически заменена при обновлении данных в Excel. Если набор данных становится менее строгим, наследование или обновление метки не выполняется.
+
+Заданные вручную метки конфиденциальности в Excel не будут автоматически перезаписаны меткой набора данных. Если файл Excel имеет заданную вручную метку конфиденциальности, отобразится совет политики с рекомендацией обновить метку. 
+
+Дополнительные сведения см. в статье о [применении меток конфиденциальности в Power BI](../admin/service-security-apply-data-sensitivity-labels.md).
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>Использование Excel для анализа данных
 
@@ -177,4 +186,4 @@ ms.locfileid: "88937500"
 * [Использование срезов в Power BI Desktop](../visuals/power-bi-visualization-slicers.md)
 * [Устранение неполадок с анализом в Excel](desktop-troubleshooting-analyze-in-excel.md)
 * [Доступ к рекомендуемым таблицам Power BI в Excel (предварительная версия)](service-excel-featured-tables.md)
-
+* [Применение меток конфиденциальности в Power BI](../admin/service-security-apply-data-sensitivity-labels.md)

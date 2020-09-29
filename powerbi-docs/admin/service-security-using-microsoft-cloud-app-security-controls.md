@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ab3b250734e2c2c2b4d97d952357669761da9095
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034228"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854170"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Использование элементов управления Microsoft Cloud App Security в Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "86034228"
 
 ![Использование области элементов управления Cloud App Security](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
-Cloud App Security можно настраивать не только для Power BI, но и для самых разных приложений и служб. Чтобы использовать преимущества этой службы для защиты данных и результатов аналитики в Power BI, необходимо настроить Cloud App Security. Дополнительные сведения об этой службе, в том числе описание принципов ее работы, панели мониторинга и оценок рисков для приложений см. в документации по [Cloud App Security](https://docs.microsoft.com/cloud-app-security/).
+Cloud App Security можно настраивать не только для Power BI, но и для самых разных приложений и служб. Чтобы использовать преимущества этой службы для защиты данных и результатов аналитики в Power BI, необходимо настроить Cloud App Security. Дополнительные сведения об этой службе, в том числе описание принципов ее работы, панели мониторинга и оценок рисков для приложений см. в документации по [Cloud App Security](/cloud-app-security/).
 
 
 ## <a name="using-cloud-app-security-with-power-bi"></a>Использование Microsoft Cloud App Security в Power BI
@@ -41,17 +41,17 @@ Cloud App Security можно настраивать не только для Po
 ### <a name="set-session-policies-in-azure-ad-required"></a>Настройка политик сеансов в Azure AD (обязательно)
 Действия по настройке элементов управления сеансами выполняются на порталах Azure AD и Cloud App Security. На портале Azure AD вы создаете политику условного доступа для Power BI и перенаправляете сеансы, используемые в Power BI, через службу Cloud App Security. 
 
-Служба Cloud App Security работает на основе архитектуры обратного прокси-сервера и интегрируется с инфраструктурой условного доступа Azure AD, позволяя отслеживать действия пользователя Power BI в реальном времени. Ниже приводится общее описание процесса. Подробные инструкции можно найти по ссылкам, которые приводятся для каждого из рассматриваемых шагов. Кроме того, общее описание можно найти в этой [статье, посвященной Cloud App Security](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad).
+Служба Cloud App Security работает на основе архитектуры обратного прокси-сервера и интегрируется с инфраструктурой условного доступа Azure AD, позволяя отслеживать действия пользователя Power BI в реальном времени. Ниже приводится общее описание процесса. Подробные инструкции можно найти по ссылкам, которые приводятся для каждого из рассматриваемых шагов. Кроме того, общее описание можно найти в этой [статье, посвященной Cloud App Security](/cloud-app-security/proxy-deployment-aad).
 
-1.  [Создание политики тестирования условного доступа Azure AD](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#add-azure-ad)
-2.  [Вход в каждое приложение под именем пользователя, входящего в область действия политики](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
-3.  [Проверка конфигурации приложений для использования элементов управления доступом и сеансами](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#portal)
-4.  [Тестирование развертывания](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
+1.  [Создание политики тестирования условного доступа Azure AD](/cloud-app-security/proxy-deployment-aad#add-azure-ad)
+2.  [Вход в каждое приложение под именем пользователя, входящего в область действия политики](/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
+3.  [Проверка конфигурации приложений для использования элементов управления доступом и сеансами](/cloud-app-security/proxy-deployment-aad#portal)
+4.  [Тестирование развертывания](/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
 
-Процесс настройки политик сеансов подробно описывается в [этой статье](https://docs.microsoft.com/cloud-app-security/session-policy-aad). 
+Процесс настройки политик сеансов подробно описывается в [этой статье](/cloud-app-security/session-policy-aad). 
 
 ### <a name="set-anomaly-detection-policies-to-monitor-power-bi-activities-recommended"></a>Настройка политик обнаружения аномалий для отслеживания действий Power BI (рекомендуется)
-Вы можете определить политики обнаружения аномалий в Power BI с независимо задаваемой областью действия, при необходимости включая и исключая пользователей и группы, на которых они будут распространяться. [Дополнительные сведения](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies).
+Вы можете определить политики обнаружения аномалий в Power BI с независимо задаваемой областью действия, при необходимости включая и исключая пользователей и группы, на которых они будут распространяться. [Дополнительные сведения](/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies).
 
 В Cloud App Security также предусмотрены два специализированных обнаружения для Power BI. [Дополнительные сведения см. далее в этом документе](#built-in-cloud-app-security-detections-for-power-bi).
 
@@ -69,7 +69,7 @@ Cloud App Security можно настраивать не только для Po
 
 * **Массовое предоставление общего доступа к отчетам** — определяет, когда пользователь предоставляет общий доступ к большому числу отчетов в рамках одного сеанса.
 
-Настройка этих обнаружений осуществляется на портале Cloud App Security. [Дополнительные сведения](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user). 
+Настройка этих обнаружений осуществляется на портале Cloud App Security. [Дополнительные сведения](/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user). 
 
 ## <a name="power-bi-admin-role-in-cloud-app-security"></a>Роль администратора Power BI в Cloud App Security
 
@@ -80,10 +80,9 @@ Cloud App Security можно настраивать не только для Po
 
 * Cloud App Security поддерживает работу только с файлами в форматах Excel, PowerPoint и PDF.
 * Если вы планируете использовать возможности меток конфиденциальности в политиках сеансов для Power BI, вам потребуется лицензия Azure Information Protection Premium P1 или Premium P2. Средство Microsoft Azure Information Protection можно приобрести как отдельно, так и в составе одного из наборов лицензирования Майкрософт. Дополнительные сведения см. в статье [Цены на Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/). Кроме того, вам необходимо применить метки конфиденциальности к своим ресурсам Power BI.
-* Управление сеансами доступно для любого браузера на любой основной платформе в любой операционной системе. Мы рекомендуем использовать Internet Explorer 11, Microsoft Edge (последней версии), Google Chrome (последней версии), Mozilla Firefox (последней версии) или Apple Safari (последней версии). Вызовы общедоступных API-интерфейсов Power BI и другие сеансы не на основе браузера не поддерживаются в рамках управления сеансами Cloud App Security. [См. дополнительные сведения](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
+* Управление сеансами доступно для любого браузера на любой основной платформе в любой операционной системе. Мы рекомендуем использовать Internet Explorer 11, Microsoft Edge (последней версии), Google Chrome (последней версии), Mozilla Firefox (последней версии) или Apple Safari (последней версии). Вызовы общедоступных API-интерфейсов Power BI и другие сеансы не на основе браузера не поддерживаются в рамках управления сеансами Cloud App Security. [См. дополнительные сведения](/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
 
 > [!CAUTION]
-> * В данный момент Power BI не поддерживает политику *проверки содержимого* Cloud App Security при применении файла политики в формате Excel, в связи с чем не следует задавать эту политику для Power BI.
 > * Функция защиты в части действия политики сеанса будет работать только в том случае, если для элемента не определена метка. Если метка уже определена, действие защиты не применяется. Это связано с тем, что переопределение существующей метки, примененной к элементу в Power BI, не допускается.
 
 ## <a name="example"></a>Пример
@@ -110,7 +109,7 @@ Cloud App Security можно настраивать не только для Po
 
       В разделе **Источник активности** выберите соответствующие политики блокировки. Мы рекомендуем блокировать неуправляемые и не соответствующие требованиям устройства. Выберите этот параметр, чтобы блокировать скачивание файлов, если сеанс проходит в Power BI.
 
-        ![Создание политики сеанса](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
+        ![Создание политики сеанса — блокировка скачивания.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
 
         Выполните прокрутку вниз, чтобы просмотреть дополнительные параметры. Эти параметры с рядом примеров показаны на следующем рисунке. 
 
@@ -119,28 +118,25 @@ Cloud App Security можно настраивать не только для Po
   6. В разделе **Блокировать** выберите нужный параметр.
   7. Убедитесь, что для этого действия создано оповещение.
 
-        ![Выбор параметров политики сеанса](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
+        ![Выбор параметров политики сеанса.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
 
         
 
   8. На заключительном шаге нажмите кнопку **Создать**, чтобы создать политику сеанса.
 
-        ![Создание политики сеанса](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
-
-> [!CAUTION]
-> Убедитесь, что вы не создаете политику **проверки содержимого** для файлов Excel в Power BI. В этом состоит известное ограничение данной возможности.
+        ![Создание политики сеанса.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 В этой статье описывается защита данных и содержимого в Power BI с использованием Cloud App Security. Также вы можете ознакомиться со следующими статьями, в которых рассматриваются вопросы защиты данных в Power BI, и с дополнительными материалами по службам Azure, которые обеспечивают эти возможности.
 
 * [Общие сведения о метках конфиденциальности в Power BI](service-security-sensitivity-label-overview.md)
 * [Активация меток конфиденциальности в Power BI](service-security-enable-data-sensitivity-labels.md)
-* [Применение меток конфиденциальности в Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Применение меток конфиденциальности в Power BI](service-security-apply-data-sensitivity-labels.md)
 
 Рекомендуем также ознакомиться со следующими материалами по Azure и обеспечению безопасности:
 
-* [Защита приложений с использованием Microsoft Cloud App Security — элемент управления условным доступом к приложению](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
-* [Развертывание элемента управления условным доступом к популярным приложениям](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
-* [Политики сеансов](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
-* [Общие сведения о метках конфиденциальности](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [Защита приложений с использованием Microsoft Cloud App Security — элемент управления условным доступом к приложению](/cloud-app-security/proxy-intro-aad)
+* [Развертывание элемента управления условным доступом к популярным приложениям](/cloud-app-security/proxy-deployment-aad)
+* [Политики сеансов](/cloud-app-security/session-policy-aad)
+* [Общие сведения о метках конфиденциальности](/microsoft-365/compliance/sensitivity-labels)
 * [Отчет о метриках защиты данных](service-security-data-protection-metrics-report.md)

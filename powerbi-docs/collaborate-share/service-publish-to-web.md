@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642653"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858860"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -183,6 +183,7 @@ ms.locfileid: "89642653"
 - В настоящее время в отчетах для функции **Опубликовать в Интернете** не поддерживаются визуальные элементы R и Python.
 - Экспорт данных из визуальных элементов в отчете, опубликованном в Интернете.
 - Визуальные элементы ArcGIS Maps for Power BI.
+- Вопросы и ответы по визуальным элементам Power BI.
 - Отчеты, содержащие меры уровня отчета DAX.
 - Модели запросов данных единого входа.
 - Безопасность конфиденциальной или защищаемой информации.

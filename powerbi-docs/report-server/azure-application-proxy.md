@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364084"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861298"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Настройка Сервера отчетов Power BI с помощью Azure Application Proxy
 
-В этой статье описывается, как использовать Azure Active Directory Application Proxy для подключения к Серверу отчетов Power BI и SQL Server Reporting Services (SSRS) 2016 и более поздних версий. Благодаря этой интеграции пользователи, которые находятся вне корпоративной сети, могут получать доступ к своим отчетам на Сервере отчетов Power BI и в службах Reporting Services со своих клиентских браузеров и использовать защиту Azure Active Directory (AD). Узнайте больше об удаленном доступе к локальным приложениям через [Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+В этой статье описывается, как использовать Azure Active Directory Application Proxy для подключения к Серверу отчетов Power BI и SQL Server Reporting Services (SSRS) 2016 и более поздних версий. Благодаря этой интеграции пользователи, которые находятся вне корпоративной сети, могут получать доступ к своим отчетам на Сервере отчетов Power BI и в службах Reporting Services со своих клиентских браузеров и использовать защиту Azure Active Directory (AD). Узнайте больше об удаленном доступе к локальным приложениям через [Azure Active Directory Application Proxy](/azure/active-directory/manage-apps/application-proxy).
 
 ## <a name="environment-details"></a>Сведения о среде
 
@@ -125,7 +125,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ## <a name="configure-azure-application-proxy-connector"></a>Настройка соединителя Azure Application Proxy
 
-Ознакомьтесь со статьей о [конфигурации, связанной с соединителем Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad).
+Ознакомьтесь со статьей о [конфигурации, связанной с соединителем Application Proxy](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad).
 
 Мы установили соединитель Application Proxy на Сервер отчетов Power BI, но его можно настроить на отдельном сервере и убедиться, что делегирование настроено должным образом.
 
@@ -150,14 +150,14 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 Теперь все готово к настройке Azure AD Application Proxy.
 
-Опубликуйте Сервер отчетов Power BI через Application Proxy, указав следующие параметры. Пошаговые инструкции по публикации приложения с помощью Application Proxy приведены в статье [Публикация приложений с помощью Azure AD Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad).
+Опубликуйте Сервер отчетов Power BI через Application Proxy, указав следующие параметры. Пошаговые инструкции по публикации приложения с помощью Application Proxy приведены в статье [Публикация приложений с помощью Azure AD Application Proxy](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad).
 
 - **Внутренний URL-адрес**. Введите URL-адрес Сервера отчетов, к которому соединитель может подключиться в корпоративной сети. Убедитесь, что этот URL-адрес доступен с сервера, на котором установлен соединитель. Рекомендуется использовать домен верхнего уровня, например `https://servername/`, чтобы избежать проблем с вложенными путями, опубликованными через Application Proxy. Например, рекомендуется использовать `https://servername/`, но не `https://servername/reports/` или `https://servername/reportserver/`. Для нашей среды мы настроили `https://pbirsazureapp.eastus.cloudapp.azure.com/`.
 
     > [!NOTE]
-    > Рекомендуется использовать безопасное HTTPS-подключение к Серверу отчетов. Дополнительные практические рекомендации доступны в разделе [Настройка соединений SSL для сервера отчетов, работающего в собственном режиме](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017).
+    > Рекомендуется использовать безопасное HTTPS-подключение к Серверу отчетов. Дополнительные практические рекомендации см. в статье [Настройка TLS-соединений на сервере отчетов, работающем в собственном режиме](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server).
 
-- **Внешний URL-адрес**. Введите общедоступный URL-адрес, к которому будет подключаться мобильное приложение Power BI. Например, он может иметь вид `https://reports.contoso.com`, если используется личный домен. Чтобы использовать личный домен, передайте сертификат для домена и добавьте домен msappproxy.net по умолчанию в запись DNS для своего приложения. Подробные инструкции доступны в разделе [Работа с пользовательскими доменами в прокси приложения Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-custom-domain).
+- **Внешний URL-адрес**. Введите общедоступный URL-адрес, к которому будет подключаться мобильное приложение Power BI. Например, он может иметь вид `https://reports.contoso.com`, если используется личный домен. Чтобы использовать личный домен, передайте сертификат для домена и добавьте домен msappproxy.net по умолчанию в запись DNS для своего приложения. Подробные инструкции доступны в разделе [Работа с пользовательскими доменами в прокси приложения Azure AD](/azure/active-directory/manage-apps/application-proxy-configure-custom-domain).
 
 Для нашей среды мы настроили внешний URL-адрес `https://pbirsazureapp-umacontoso2410.msappproxy.net/`.
 
@@ -184,7 +184,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - Попробуйте создать отчет или выполнить тестовое подключение к источнику данных, чтобы создать билет Kerberos.
     - После успешного выполнения отчета или тестового подключения откройте командную строку и выполните команду `klist`. В разделе результатов вы увидите билет с именем субъекта-службы `http/`. Если оно совпадает с именем субъекта-службы, настроенным для Сервера отчетов Power BI, используйте это имя субъекта-службы в данном разделе.
 
-1. Выберите **делегированную идентификацию для входа**, которую соединитель сможет использовать от имени пользователей. Прочитайте дополнительные сведения о [реализации единого входа в приложения с помощью прокси приложения](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities).
+1. Выберите **делегированную идентификацию для входа**, которую соединитель сможет использовать от имени пользователей. Прочитайте дополнительные сведения о [реализации единого входа в приложения с помощью прокси приложения](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities).
 
     Рекомендуется использовать имя субъекта-пользователя. В нашем примере мы настроили параметр **Имя субъекта-пользователя**.
 
@@ -216,7 +216,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 1. Сначала необходимо настроить личный домен, который мы планируем использовать в имени для входа, а затем следует его проверить.
 2. В этом случае мы приобрели домен umacontoso.com и настроили зону DNS с помощью записей. Вы можете также попробовать использовать домен `onmicrosoft.com` и синхронизировать его с локальной службой AD.
 
-    Ознакомьтесь со статьей [Руководство. Сопоставление существующего настраиваемого DNS-имени со Службой приложений Azure](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain), чтобы узнать больше.
+    Ознакомьтесь со статьей [Руководство. Сопоставление существующего настраиваемого DNS-имени со Службой приложений Azure](/Azure/app-service/app-service-web-tutorial-custom-domain), чтобы узнать больше.
 
 1. После успешной проверки записи DNS для личного домена для него на портале должно отображаться состояние **Проверено**.
 
@@ -295,8 +295,6 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Обеспечение удаленного доступа к Power BI Mobile с помощью Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+[Обеспечение удаленного доступа к Power BI Mobile с помощью Azure Active Directory Application Proxy](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
 Появились дополнительные вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
-
-                

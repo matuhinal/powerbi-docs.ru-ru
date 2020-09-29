@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537373"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763972"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Перекрестная фильтрация визуальных элементов в отчете Power BI
 
@@ -52,7 +52,7 @@ ms.locfileid: "87537373"
     
 - Фильтры на уровне визуального элемента сохраняются при перекрестной фильтрации и перекрестном выделении других визуальных элементов на странице отчета. Таким образом, если вы или разработчик отчета применили фильтры уровня визуального элемента к элементу VisualA и вы используете элемент visualA для взаимодействия с элементом visualB, фильтры уровня визуального элемента, примененные к элементу visualA, будут применяться к элементу visualB.
 
-    ![Страница отчета после выбора сегмента "Умеренность" кольцевой диаграммы](media/end-user-interactions/power-bi-visual-filters.png)
+    ![Страница отчетов с уже заданными фильтрами](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Использование фильтров отчетов](../consumer/end-user-report-filter.md)

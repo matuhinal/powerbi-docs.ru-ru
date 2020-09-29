@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238442"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019941"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Публикация наборов данных и отчетов из Power BI Desktop
 При публикации файла Power BI Desktop в службе Power BI вы публикуете данные в модели в рабочей области Power BI. Это относится и ко всем отчетам, созданным в представлении **Отчеты**. Новый набор данных с тем же именем и все отчеты появятся в навигаторе рабочей области.
@@ -30,8 +30,8 @@ ms.locfileid: "85238442"
    ![Кнопка "Опубликовать"](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 
-2. Войдите в Power BI.
-3. Выберите место назначения.
+2. Войдите в Power BI (если вы еще не сделали этого).
+3. Выберите место назначения. В выпуске за сентябрь 2020 г. вам станет доступна возможность поиска рабочей области, в которой вы хотите выполнить публикацию, в списке доступных рабочих областей. Поле поиска также поддерживает фильтрацию рабочих областей. Выберите рабочую область и нажмите кнопку **Выбрать**, чтобы выполнить публикацию.
 
    ![Выбор места публикации](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
 
@@ -58,3 +58,13 @@ ms.locfileid: "85238442"
 > [!NOTE]
 > Некоторые подключения к данным в отчетах Power BI могут включать ссылки на данные, а не данные из набора данных, импортированного в службу Power BI. Например, подключения DirectQuery при обновлениях или взаимодействиях ссылаются на данные, а не импортируют сами данные. Если связанные источники данных в отчете находятся в локальной среде, для доступа к этим данным из Power BI может потребоваться шлюз. Дополнительную информацию см. в разделе [Что такое локальный шлюз данных?](../connect-data/service-gateway-onprem.md)
 > 
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Power BI Desktop предоставляет широкие возможности. Дополнительные сведения об этих возможностях см. в следующих ресурсах.
+
+* [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
+* [Об использовании Редактора запросов в Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Типы данных в Power BI Desktop](../connect-data/desktop-data-types.md)
+* [Руководство. Формирование и объединение данных в Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Общие задачи с запросами в Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

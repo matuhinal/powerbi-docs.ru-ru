@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 06bd8271904b9c44de6c71e287f0560c54f6d031
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254059"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964768"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>Получение предварительного просмотра ссылок Power BI в Microsoft Teams
 
@@ -27,7 +27,7 @@ ms.locfileid: "87254059"
 
 Пользователи должны выполнить вход в службу предварительного просмотра ссылок. Чтобы выйти из нее, щелкните значок **Power BI** в нижней части поля сообщения. Затем выберите **Выход**.
 
-Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Teams работают вместе, включая требования, которые необходимо выполнить.
+Ознакомьтесь со статьей [Совместная работа в Microsoft Teams с использованием Power BI](service-collaborate-microsoft-teams.md), чтобы получить базовое понимание того, как Power BI и Microsoft Teams работают вместе, включая требования, которые необходимо выполнить.
 
 ## <a name="get-a-link-preview"></a>Предварительный просмотр ссылки
 

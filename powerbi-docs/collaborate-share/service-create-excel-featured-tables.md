@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478091"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811858"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Настройка рекомендуемых таблиц в Power BI Desktop (предварительная версия)
 
@@ -40,11 +40,11 @@ ms.locfileid: "87478091"
 
 1. В Power BI Desktop перейдите в представление модели.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Представление модели":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
  
 2. Выберите таблицу и задайте для параметра **Is featured table** (Рекомендуемая таблица) значение **Да**.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Для параметра Is featured table (Рекомендуемая таблица) задано значение Да":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
 
 4. В окне **Set up this featured table** (Настройка этой рекомендуемой таблицы) заполните обязательные поля:
 
@@ -54,7 +54,7 @@ ms.locfileid: "87478091"
     - Значение поля **Метка строки** используется в Excel, чтобы пользователи могли легко опознать эту строку. Он отображается как значение связанной ячейки, в области **Выбор данных** и на карточке **Информация**. 
     - Значение поля **Ключевой столбец** содержит уникальный идентификатор строки. Это значение позволяет Excel связать ячейку с определенной строкой в таблице.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Настройка рекомендуемой таблицы":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Параметр предварительной версии рекомендуемых таблиц":::
 
 1. После публикации или импорта набора данных в службе Power BI рекомендуемая таблица отображается в Excel в коллекции "Типы данных". Вы и другие создатели отчетов также могут создавать отчеты, основанные на этом наборе данных.
 
@@ -66,19 +66,13 @@ ms.locfileid: "87478091"
 
 Ниже приведены ограничения для первоначальной предварительной версии.
 
-- В Excel не отображаются рекомендуемые таблицы из наборов данных Power BI, которые используют следующие возможности: 
+- В Excel не отображаются рекомендуемые таблицы из наборов данных Power BI, которые используют следующие возможности:
 
-    - безопасность на уровне строк;
-    - Microsoft Information Protection;
     - DirectQuery;
     - активное подключение.
 
-- В Excel отображаются только данные в столбцах и вычисляемых столбцах рекомендуемой таблицы. В первоначальной предварительной версии не предоставляются следующие данные:
-
-    - меры, определенные в рекомендуемой таблице;
-    - меры, определенные в связанных таблицах, и неявные меры, вычисленные на основе связей.
-
-- В Excel отображаются только рекомендуемые таблицы, которые хранятся в новых рабочих областях Power BI. Рекомендуемые таблицы, хранящиеся в классических рабочих областях или в области "Моя рабочая область", не отображаются в Excel в виде типов данных. Вы можете [обновить классические рабочие области до новой версии](service-upgrade-workspaces.md) в Power BI.
+- В Excel отображаются только данные в столбцах и вычисляемых столбцах рекомендуемой таблицы. Меры, определенные в связанных таблицах, и неявные меры, вычисленные на основе связей, не предоставляются в первоначальной предварительной версии.
+- В Excel отображаются только рекомендуемые таблицы, которые хранятся в новых рабочих областях Power BI. Рекомендуемые таблицы, хранящиеся в классических рабочих областях, не отображаются в Excel в виде типов данных. Вы можете [обновить классические рабочие области до новой версии](service-upgrade-workspaces.md) в Power BI.
 - См. [Рекомендации и ограничения](service-excel-featured-tables.md#considerations-and-limitations) в статье "Доступ к рекомендуемым таблицам Power BI в Excel", чтобы ознакомиться с другими моментами, касающимися Excel.
 
 ## <a name="next-steps"></a>Дальнейшие действия

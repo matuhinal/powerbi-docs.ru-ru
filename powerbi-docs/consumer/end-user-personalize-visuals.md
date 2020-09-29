@@ -1,28 +1,28 @@
 ---
-title: Персонализация визуальных элементов в отчете
+title: Персонализация визуальных элементов в отчете (предварительная версия)
 description: Создание собственного представления отчета без изменения.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a731feb822fcda8fd6478094f8393faa34b6b2bf
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 8fc61a1aee263b40afb8ae95f365477b4104ca71
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537350"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763351"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Персонализация визуальных элементов в отчете
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Трудно создать один визуальный элемент, который удовлетворяет всем требованиям. Но когда коллега предоставляет вам общий доступ к отчету, вы, может, захотите самостоятельно внести изменения в визуальные элементы. 
 
-Возможно, вам нужно поменять значение на оси, изменить тип визуального элемента или добавить что-либо в подсказку. Используя функцию **Personalize this visual** (Персонализировать этот визуальный элемент), внесите изменения самостоятельно, а затем сохраните его как закладку, чтобы позже вернуться к нему. Вам даже не требуется разрешение на изменение отчета.
+Возможно, вам нужно поменять значение на оси, изменить тип визуального элемента или добавить что-либо в подсказку. С помощью функции **Персонализировать этот визуальный элемент** внесите изменения самостоятельно, а затем сохраните его как [закладку](end-user-bookmarks.md), чтобы позже вернуться к нему. Вам даже не требуется разрешение на изменение отчета.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize.png" alt-text="Персонализация представления":::
  
@@ -44,10 +44,12 @@ ms.locfileid: "87537350"
 - сбросьте все изменения визуального элемента.
 - Очистка последних изменений
 
+> [!IMPORTANT]
+> Возможность персонализации визуального элемента предоставляется в виде предварительной версии функции и должна быть включена *разработчиком отчета*. Если вы не видите значок **Персонализировать этот визуальный элемент** ![значок "Персонализировать этот визуальный элемент"](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png), разработчик отчета не включил эту функцию для текущего отчета. 
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Персонализация визуальных элементов в службе Power BI
 
-Благодаря персонализации визуального элемента вы можете просматривать данные различными способами, не выходя из режима чтения отчетов. В следующих примерах показаны различные способы изменения визуализации для удовлетворения ваших потребностей. 
+Благодаря персонализации визуального элемента вы можете просматривать данные различными способами, не выходя из [режима чтения отчетов](end-user-reading-view.md). В следующих примерах показаны различные способы изменения визуализации для удовлетворения ваших потребностей. 
 
 1. Откройте отчет в режиме чтения или правки в службе Power BI.
 
@@ -59,57 +61,57 @@ ms.locfileid: "87537350"
 
 Вы считаете, что данные будут лучше отображаться в виде гистограммы с накоплением? Измените **Тип визуализации**.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Изменение типа визуализации":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Персонализация представления":::
  
 ### <a name="swap-out-a-measure-or-dimension"></a>Замена единицы меры или измерения
 Замените поле, используемое для оси X, выбрав поле, которое необходимо заменить, а затем выбрав другое поле.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Изменение оси":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Персонализация представления":::
  
 ### <a name="add-or-remove-a-legend"></a>Добавление или удаление подписи
 Добавляя условные обозначения, можно цветом выделить категорию визуального элемента. В этом примере мы используем цветовое кодирование на основе названия компании. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Добавление или удаление подписи":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Персонализация представления":::
 
 ### <a name="compare-two-or-more-different-measures"></a>Сравнение двух и более единиц измерения
 Сравните и противопоставьте значения для различных мер, используя значок "+" для добавления нескольких единиц измерения для визуального элемента. Чтобы удалить меру, щелкните **More options (...)** (Дополнительные параметры (...)) и выберите **Удалить поле**.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Сравнение единиц измерения":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Персонализация представления":::
 
 ### <a name="change-aggregations"></a>Изменение агрегаций
 Измените способ вычисления меры, поменяв агрегат в области **Персонализация**. Щелкните **More options (...)** (Дополнительные параметры (...)) и выберите агрегат для использования.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Изменение агрегаций":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Персонализация представления":::
 
 ### <a name="capture-changes"></a>Фиксация изменений 
 Используя личные закладки, запишите свои изменения, чтобы вы могли вернуться к персонализированному представлению. Выберите **Закладки** > **Личные закладки** и присвойте закладке имя. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Создание закладки":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Персонализация представления":::
  
 Вы также можете сделать закладку представлением по умолчанию.
 
 ### <a name="share-changes"></a>Общий доступ к изменениям 
 Если у вас есть разрешения на чтение и повторное предоставление общего доступа, то при совместном использовании отчета можно выбрать включение изменений.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Общий доступ к изменениям":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Персонализация представления":::
  
 ### <a name="reset-all-your-changes-to-a-report"></a>Сброс всех изменений отчета
 
 В правом верхнем углу холста отчета выберите **Вернуться к значениям по умолчанию**. Эта функция удаляет все изменения в отчете и возвращает к последнему сохраненному представлению автора отчета.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Сброс всех изменений":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Персонализация представления":::
  
 ### <a name="reset-all-your-changes-to-a-visual"></a>Сброс всех изменений визуального элемента
 
 В строке меню для визуального элемента выберите **Reset this visual** (Сброс параметров визуального элемента), чтобы удалить все изменения в визуальном элементе и вернуться к последнему сохраненному представлению автора визуального элемента.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Сброс всех изменений визуального элемента":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Персонализация представления":::
  
 ### <a name="clear-recent-changes"></a>Очистить недавние изменения
 
 Щелкните значок ластика, чтобы очистить все последние изменения, внесенные после открытия панели **Персонализация**.  
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Вернуть недавние изменения":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Персонализация представления":::
 
 ## <a name="limitations-and-known-issues"></a>Ограничения и известные проблемы
 
@@ -117,7 +119,7 @@ ms.locfileid: "87537350"
 
 - Функцию **Personalize this visual** (Персонализировать этот визуальный элемент) можно отключить для всего отчета или для конкретного визуального элемента. Если у вас нет возможности персонализировать визуальный элемент, обратитесь к администратору клиента или владельцу отчета. Чтобы отобразить контактные данные владельца отчета, выберите имя отчета в строке меню Power BI.
 - Исследования пользователей не сохраняются автоматически. Чтобы записать изменения, необходимо сохранить представление в виде личной закладки.
-- Эту функцию поддерживают мобильные приложения Power BI для планшетов iOS и Android и приложение Power BI для Windows. Ее не поддерживают мобильные приложения Power BI для телефонов. Но любые изменения визуального элемента, сохраняемые в личной закладке в службе Power BI, учитываются во всех мобильных приложениях Power BI.
+- Эта функция поддерживается в мобильных приложениях Power BI для планшетов iOS и Android и в приложении Power BI для Windows. Она не поддерживается в мобильных приложениях Power BI для телефонов. Однако любые изменения визуального элемента, сохраняемые в личной закладке в службе Power BI, учитываются во всех мобильных приложениях Power BI.
 
 Существуют также некоторые известные проблемы, с которыми мы работаем.
 

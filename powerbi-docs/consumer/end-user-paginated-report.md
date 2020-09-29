@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008912"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860332"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Отчеты с разбивкой на страницы в службе Power BI
 
@@ -36,7 +36,7 @@ ms.locfileid: "90008912"
 
 ![Простой отчет с одним параметром](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-По сравнению с отчетами с разбивкой на страницы отчеты Power BI являются гораздо более интерактивными. Отчеты Power BI поддерживают автоматизацию и гораздо больше типов визуальных элементов, в том числе визуальные элементы Power BI.
+По сравнению с отчетами с разбивкой на страницы отчеты Power BI являются гораздо более интерактивными. Отчеты Power BI поддерживают автоматизацию и гораздо больше типов визуальных элементов, в том числе пользовательские.
 
 ## <a name="identify-a-paginated-report"></a>Определение отчета с разбивкой на страницы
 
@@ -78,7 +78,7 @@ ms.locfileid: "90008912"
 ### <a name="export-the-paginated-report"></a>Экспорт отчета с разбивкой на страницы
 Экспортировать отчеты с разбивкой на страницы можно в разные форматы, включая PDF, Word, XML, PowerPoint, Excel и другие. При экспорте форматирование по возможности сохраняется. Например, в отчетах с разбивкой на страницы, экспортируемых в Excel, Word, PowerPoint, MHTML и PDF, форматирование сохраняется "с точностью до пикселя". 
 
-![новый заказ на продажу](./media/end-user-paginated-report/power-bi-exporting.png)
+![Снимок экрана: экспортированный отчет с разбивкой на страницы.](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![четыре разных типа экспорта](./media/end-user-paginated-report/power-bi-four.png)
 

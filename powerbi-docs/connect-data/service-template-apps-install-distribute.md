@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235699"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763782"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Установка и распространение приложений-шаблонов в организации
 
@@ -75,13 +75,9 @@ ms.locfileid: "85235699"
 
    ![Ссылка "Подключите свои данные" в приложении GitHub](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    Она открывает диалоговое окно параметров, в котором вы можете изменить источник данных на свой собственный (см. сведения об [известных ограничениях](service-template-apps-overview.md#known-limitations)), а после — диалоговое окно способа проверки подлинности. Возможно, вам потребуется переопределить значения в этих диалоговых окнах. Дополнительные сведения см. в документации по конкретному приложению-шаблону, которое вы устанавливаете.
 
-    
-    Откроется диалоговое окно или серия диалоговых окон, в которых вы измените источник данных из образца данных на собственный источник данных. Обычно это подразумевает переопределение параметров набора данных и учетных данных источника. См. раздел [Известные ограничения](service-template-apps-overview.md#known-limitations).
-    
-    В примере ниже подключение к данным включает два диалоговых окна.
-
-   ![Диалоговые окна подключения к источнику данных](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![Снимок экрана: диалоговые окна подключения к данным.](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     По завершении ввода данных в диалоговых окнах подключения начинается процесс подключения. Баннер информирует о том, что данные обновляются и в это время вы просматриваете демонстрационные данные.
 
@@ -110,11 +106,11 @@ ms.locfileid: "85235699"
 
 Если вы первоначально загрузили приложение из AppSource, то при появлении новой версии приложения шаблона вы получите уведомления двумя способами.
 * В службе Power BI появится баннер обновления с сообщением о том, что доступна новая версия приложения.
-  ![Уведомление об обновлении приложения-шаблона](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![Баннер с уведомлением об обновлении приложения-шаблона](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * Вы получаете уведомление в области уведомлений Power BI.
 
 
-  ![Уведомление об обновлении приложения-шаблона](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![Область с уведомлением об обновлении приложения-шаблона](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Если изначально приложение было получено посредством прямой ссылки, а не через AppSource, единственный способ узнать, имеется ли новая версия, это обратиться к создателю приложения-шаблона.
