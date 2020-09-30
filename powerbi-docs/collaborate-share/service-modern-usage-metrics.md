@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 467061dfe7ee3cdf62c08dd60c4325eee96d431c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763650"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136104"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Мониторинг метрик использования в интерфейсе новой рабочей области (предварительная версия)
 
@@ -363,7 +363,7 @@ Power BI доступен в отдельных национальных обл�
 
     ![URL-адрес набора данных из метрик использования](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. В браузере перейдите к [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup)и нажмите кнопку **Тестирование**.
+1. В браузере перейдите к [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](/rest/api/power-bi/datasets/deletedatasetingroup)и нажмите кнопку **Тестирование**.
 
     ![Удаление набора данных "Тестирование"](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 
