@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965376"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528397"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Распространение содержимого Power BI для сторонних гостевых пользователей с помощью Azure Active Directory B2B
 
@@ -535,7 +535,7 @@ Contoso может разрешить внешним пользователям 
 
 ### <a name="control-guest-invites"></a>Управление гостевыми приглашениями
 
-Администраторы Power BI могут управлять сторонним доступом только для Power BI на портале администрирования Power BI. Но администраторы клиента также могут управлять сторонним общим доступом с помощью различных политик Azure AD.  Эти политики позволяют администраторам клиентов делать следующее:
+Администраторы Power BI могут управлять сторонним доступом только для Power BI на портале администрирования Power BI. Но администраторы также могут управлять внешним общим доступом с помощью различных политик Azure AD.  Эти политики позволяют администраторам:
 
 - Отключать возможность приглашения для конечных пользователей.
 - приглашать могут только администраторы и пользователи с ролью Guest Inviter;
