@@ -108,7 +108,7 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: Администрирование и развертывание
           items:
-            - name: Параметры администрирования клиента
+            - name: Параметры клиента
               href: admin-tenant-settings.md
             - name: Размеры для локальных шлюзов данных
               href: gateway-onprem-sizing.md
