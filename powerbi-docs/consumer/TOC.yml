@@ -80,7 +80,7 @@
               href: end-user-analyze-visuals.md
             - name: Отчеты с разбивкой на страницы в Power BI
               items:
-                - name: Отчеты с разбивкой на страницы
+                - name: Отчеты с разбиением на страницы
                   href: end-user-paginated-report.md
                 - name: Просмотр отчета с разбивкой на страницы
                   href: paginated-reports-view-power-bi-service.md
@@ -100,8 +100,6 @@
               href: end-user-copy-paste.md
             - name: Детализация в визуальном элементе
               href: end-user-drill.md
-            - name: Взаимодействие с картами ArcGIS
-              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Стандартные задачи
           items:
             - name: "Экспорт данных в\_Excel"
