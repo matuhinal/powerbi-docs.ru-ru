@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 79ab3a38a6f1df97b445c06adf13a4b53af30d87
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 412da06f6188ec4d8c0e8e027475d99872a21ecf
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858032"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528328"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Использование вычисляемых сущностей в Power BI Premium
 
@@ -56,11 +56,11 @@ ms.locfileid: "90858032"
 
 Сначала вам следует агрегировать данные из ServiceCalls, чтобы вычислить число обращений в службу поддержки, которые выполнялись для каждой учетной записи в течение последнего года. 
 
-![Пример вычисляемой сущности в Power BI Premium](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
+![Снимок экрана: страница "Изменение запросов" с диалоговым окном "Группировка по идентификатору учетной записи".](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
 После этого следует объединить сущность *Account* с сущностью *ServiceCallsAggregated*, чтобы вычислить дополненную таблицу **Account**.
 
-![Пример вычисляемой сущности в Power BI Premium](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
+![Снимок экрана: страница "Изменение запросов" с диалоговым окном "Объединение".](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 
 После этого вы увидите результаты, представленные на следующем рисунке как *EnrichedAccount*.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857756"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524795"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Управление параметрами администратора визуальных элементов Power BI
 
@@ -148,11 +148,11 @@ ms.locfileid: "90857756"
 
 1. В строке визуального элемента, который требуется добавить, щелкните **Параметры**.
 
-    ![область организации](media/organizational-visuals/organizational-pane.png)область организации
+    ![Снимок экрана: портал администрирования с выбранными визуальными элементами организации и значком параметров.](media/organizational-visuals/organizational-pane.png)область организации
 
 2. Включите параметр области визуализации и щелкните **Обновить**.
 
-    ![обновление области организации](media/organizational-visuals/update-organizational-pane.png)
+    ![Снимок экрана: диалоговое окно "Параметры визуальных элементов", в котором можно включить отображение визуального элемента для всей организации.](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>Удаление визуального элемента, переданного из файла
 

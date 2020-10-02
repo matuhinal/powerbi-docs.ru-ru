@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204833"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528374"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Создание емкости Power BI Embedded на портале Azure
 
@@ -46,7 +46,7 @@ ms.locfileid: "88204833"
 
 4. Укажите необходимые сведения и нажмите **Просмотр и создание**.
 
-    ![Снимок экрана: поля для заполнения с целью создания емкости на портале Azure](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    ![Снимок экрана: вкладка "Основные" на странице Power B I Embedded для создания емкости на портале Azure.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **Подписка** — подписка, в которой вы хотите создать емкость.
 
@@ -219,7 +219,7 @@ az powerbi embedded-capacity delete --name
 
 2. Укажите необходимые сведения и нажмите **Просмотр и создание**.
 
-    ![Снимок экрана: поля для заполнения с целью создания емкости на портале Azure](media/azure-pbie-create-capacity/arm-template.png)
+    ![Снимок экрана: вкладка "Основные" на странице "Создание емкости Power B I Embedded" для создания емкости на портале Azure.](media/azure-pbie-create-capacity/arm-template.png)
 
     * **Подписка** — подписка, в которой вы хотите создать емкость.
 

@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 05/29/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bd003bd8662a60a67b2bc13f228d165859b38e5c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857595"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374667"
 ---
 # <a name="what-is-power-bi-administration"></a>Что такое администрирование Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "90857595"
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Роли администратора, связанные с Power BI
 
-Для администрирования Power BI в организации используются несколько ролей, которые работают вместе. Большинство ролей администратора назначаются в центре администрирования Microsoft 365 или с помощью PowerShell. Роли администратора емкости Power BI Premium и Power BI Embedded назначаются при создании емкости. Дополнительные сведения о каждой из ролей администратора см. в статье [О ролях администратора](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide). Сведения о назначении ролей администратора см. в статье [Назначение ролей администратора](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Для администрирования Power BI в организации используются несколько ролей, которые работают вместе. Большинство ролей администратора назначаются в центре администрирования Microsoft 365 или с помощью PowerShell. Роли администратора емкости Power BI Premium и Power BI Embedded назначаются при создании емкости. Дополнительные сведения о каждой из ролей администратора см. в статье [О ролях администратора](/microsoft-365/admin/add-users/about-admin-roles). Сведения о назначении ролей администратора см. в статье [Назначение ролей администратора](/microsoft-365/admin/add-users/assign-admin-roles).
 
 | **Тип администратора** | **Область ответственности администратора** | **Задачи Power BI** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ ms.locfileid: "90857595"
 | | Классификация и отслеживание данных |
 | | Политики защиты от потери данных |
 | | Управление информацией |
-| [Azure Active Directory (AAD) на портале Azure](https://aad.portal.azure.com) | Настройка условного доступа к ресурсам Power BI |
+| [Azure Active Directory на портале Azure](https://aad.portal.azure.com) | Настройка условного доступа к ресурсам Power BI |
 | | Подготовка емкости Power BI Embedded |
 | [Командлеты PowerShell](/powershell/power-bi/overview) | Управление рабочими областями и другими аспектами Power BI с помощью скриптов |
 | [Административные API и пакеты SDK](service-admin-reference.md) | Создание пользовательских средств администрирования. Например, в Power BI Desktop эти API можно использовать для создания отчетов на основе данных, связанных с администрированием. |
@@ -78,7 +78,7 @@ ms.locfileid: "90857595"
 Теперь, когда вы знакомы с основами администрирования Power BI, обратитесь за дополнительной информацией к следующим статьям.
 
 - [Портал администрирования Power BI](service-admin-portal.md)
-- [Руководство по параметрам администрирования клиента](../guidance/admin-tenant-settings.md)
+- [Руководство по параметрам клиента](../guidance/admin-tenant-settings.md)
 - [Использование командлетов PowerShell](/powershell/power-bi/overview)
 - [Administering Power BI — frequently asked questions (FAQ)](service-admin-faq.md) (Часто задаваемые вопросы об администрировании Power BI)
 - [Лицензирование службы Power BI для пользователей в организации](service-admin-licensing-organization.md)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764294"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527449"
 ---
 # <a name="export-reports-to-powerpoint"></a>Экспорт отчетов в PowerPoint
 
@@ -110,7 +110,7 @@ ms.locfileid: "90764294"
     - Отчеты, обработка которых занимает больше часа. 
     - Страницы отчета, загрузка которых занимает больше 6 минут. 
 
-* Если в службе Power BI в меню нет пункта **Экспорт в PowerPoint**, вероятно, эта функция отключена администратором арендатора или владельцем отчета. Обратитесь к администратору арендатора или владельцу за подробными сведениями.
+* Если в службе Power BI в меню нет пункта **Экспорт в PowerPoint**, вероятно, эта функция отключена администратором Power BI или владельцем отчета. Обратитесь к администратору или владельцу, чтобы узнать подробности.
 * Служба Power BI использует параметр языка Power BI в качестве языка для экспорта в PowerPoint. Чтобы просмотреть или настроить параметры языка, в браузере щелкните ![значок шестеренки](media/end-user-powerpoint/power-bi-settings-icon.png) > **Параметры** > **Общие** > **Язык**.
 
 

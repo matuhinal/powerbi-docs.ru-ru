@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232813"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527776"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Руководство по Создание визуальных элементов Power BI с использованием языка R
 
@@ -78,7 +78,7 @@ ms.locfileid: "85232813"
 
 1. В Power BI Desktop выберите **Визуальный элемент скрипта R**.
 
-   ![Визуальный элемент R в области визуализации](./media/create-r-based-power-bi-desktop/r-script-icon.png)
+   ![Снимок экрана: визуальный элемент управления R-скрипта в Power BI Desktop.](./media/create-r-based-power-bi-desktop/r-script-icon.png)
 
 1. Вставьте этот код R в **редактор R-скриптов**.
 
@@ -94,7 +94,7 @@ ms.locfileid: "85232813"
 
 1. Чтобы увидеть результат, щелкните значок **Запуск скрипта**.
 
-    ![Визуальный элемент R в области визуализации](./media/create-r-based-power-bi-desktop/run-r-script.png)
+    ![Снимок экрана: результат выполнения скрипта — линейный график.](./media/create-r-based-power-bi-desktop/run-r-script.png)
 
 1. Когда скрипт R будет готов, скопируйте его в файл `script.r` в проекте визуального элемента, созданном на одном из предыдущих шагов.
 
@@ -176,7 +176,7 @@ ms.locfileid: "85232813"
 
 Результат использования пакета `corrplot` выглядит так же, как и в следующем примере:
 
-![Визуальный элемент R в области визуализации](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
+![Снимок экрана: панель визуализации с четырьмя овалами, созданными функцией corrplot.](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
 
 ## <a name="adding-a-static-property-to-the-property-pane"></a>Добавление статического свойства в область свойств
 

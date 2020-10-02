@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 608389e10e225517d6e50c14058732cf5fedb16f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2c627e728af5cbe20594c712d6fd3d3733e30777
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861068"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527730"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Связывание сущностей из разных потоков данных в Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "90861068"
 
 Настроив связывание сущностей между потоками данных, вы сможете повторно использовать сущности, которые уже приняты, очищены и преобразованы другими пользователями для других потоков данных, не тратя дополнительных сил на обслуживание этих данных. Связанные сущности просто ссылаются на другие сущности из других потоков данных, но *не* копируют и не дублируют данные из них.
 
-![Связанные сущности в Power BI](media/service-dataflows-linked-entities/linked-entities_00.png)
+![Снимок экрана: диалоговое окно "Добавление сущностей для создания потока данных".](media/service-dataflows-linked-entities/linked-entities_00.png)
 
 Связанные сущности доступны **только для чтения**. Если вы хотите создавать преобразования для связанной сущности, следует создать новую вычисляемую сущность со ссылкой на связанную сущность.
 
@@ -42,11 +42,11 @@ ms.locfileid: "90861068"
 
 В Power BI есть несколько способов связать сущности из разных потоков данных. Вы можете выбрать команду **Добавить связанные сущности** в средстве разработки потоков данных, как показано на приведенном ниже рисунке. 
 
-![Связанные сущности в Power BI](media/service-dataflows-linked-entities/linked-entities_00.png)
+![Снимок экрана: диалоговое окно "Добавление сущностей для создания потока данных", в котором можно выбрать команду "Добавить связанные сущности".](media/service-dataflows-linked-entities/linked-entities_00.png)
 
 Также вы можете выбрать действие **Добавить связанные сущности** из пункта меню **Добавить сущности** в службе Power BI.
 
-![Связанные сущности в Power BI](media/service-dataflows-linked-entities/linked-entities_01.png)
+![Снимок экрана: пункт "Добавить связанные сущности" в меню "Добавить сущности" в службе Power BI.](media/service-dataflows-linked-entities/linked-entities_01.png)
 
 Для связывания сущностей следует войти с учетными данными Power BI.
 

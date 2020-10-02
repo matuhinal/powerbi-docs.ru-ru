@@ -8,14 +8,15 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861965"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375242"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Подключение к Power BI Premium Capacity Metrics
+
 Отслеживание емкостей очень важно для принятия обоснованных решений в отношении оптимального использования ресурсов емкости Premium. Приложение Power BI Premium Capacity Metrics предоставляет наиболее полные сведения об эффективности использования емкостей.
 
 ![Отчет о приложении Power BI Premium Capacity Metrics](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
@@ -25,7 +26,7 @@ ms.locfileid: "90861965"
 После установки приложения и подключения к источникам данных можно настроить отчет в соответствии с вашими потребностями. Затем им можно поделиться с коллегами в организации.
 
 > [!NOTE]
-> Для установки приложений-шаблонов требуются определенные [разрешения](./service-template-apps-install-distribute.md#prerequisites). Обратитесь к администратору клиента, если вы обнаружите, что у вас нет необходимых разрешений.
+> Для установки приложений-шаблонов требуются определенные [разрешения](./service-template-apps-install-distribute.md#prerequisites). Обратитесь к администратору Power BI, если вы обнаружите, что у вас нет необходимых разрешений.
 
 ## <a name="install-the-app"></a>Установка приложения
 
@@ -83,7 +84,7 @@ ms.locfileid: "90861965"
 
 Чтобы приступить к настройке приложения, щелкните значок карандаша в правом верхнем углу.
 
- ![Экран входа Майкрософт](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
+ ![Значок "Изменить"](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
 
 Подробные сведения см. в статье [Настройка приложения и общий доступ к нему](./service-template-apps-install-distribute.md#customize-and-share-the-app).
 

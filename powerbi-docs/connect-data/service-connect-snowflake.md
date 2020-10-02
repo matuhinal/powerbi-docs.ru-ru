@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485787"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375219"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>Подключение к Snowflake в службе Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "85485787"
 1. В меню заголовка страницы выберите **Параметры**, а затем выберите **Портал администрирования**.
 1. Выберите **Параметры клиента**, а затем прокрутите экран, чтобы перейти к группе **Параметры интеграции**.
 
-   ![Настройка единого входа в Snowflake администратором клиента](media/service-connect-snowflake/snowflake-sso-tenant.png)
+   ![Параметр клиента для единого входа в Snowflake](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
 4. Разверните **Единый вход в Snowflake**, переключите параметр в положение **Включено**, а затем нажмите кнопку **Применить**.
 

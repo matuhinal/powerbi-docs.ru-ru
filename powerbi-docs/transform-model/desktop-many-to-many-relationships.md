@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5bcc2123c5e22cb5b0ff91122a30ce3d7beb51fe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325582"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528052"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Применение связей "многие ко многим" в Power BI Desktop
 
@@ -93,7 +93,7 @@ ms.locfileid: "83325582"
 
 Визуальный элемент с отображением поля **State** (из таблицы **CityData**) вместе с общей численностью населения (**Population**) и общим объемом продаж (**Sales**) будет выглядеть следующим образом.
 
-![Таблицы штата, населения и продаж, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
+![Снимок экрана: таблица с данными о штате, численности населения и продажах.](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
 > При заданном использовании штата из таблицы **CityData** в решении в этой таблице перечисляются только соответствующие штаты (таким образом, штат Техас исключается). Кроме того, в отличие от связей *многие к одному*, хотя итоговая строка содержит весь **Объем продаж** (включая штат Техас), в подробные сведения не включается пустая строка, отвечающая за такие несовпадающие строки. Аналогично, не будет пустой строки, соответствующей каким-либо **продажам**, которым соответствует значение NULL поля **Штат**.

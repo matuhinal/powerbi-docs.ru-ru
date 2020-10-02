@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216669"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526681"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Отчеты с разбивкой на страницы в Power BI: Часто задаваемые вопросы 
 
@@ -76,7 +76,7 @@ ms.locfileid: "86216669"
 - **P2/A5**. По умолчанию 20 %; не менее 5 %
 - **P3/A6**. По умолчанию 20 %; не менее 2,5 %
 
-Администраторы клиента Power BI могут изменять максимальный процент памяти по умолчанию на портале администрирования. Перейдите в раздел рабочей нагрузки **Отчеты с разбивкой на страницы** на вкладке **Параметры емкости** страницы **Power BI Premium**.
+Администраторы Power BI могут изменять максимальный процент памяти по умолчанию на портале администрирования. Перейдите в раздел рабочей нагрузки **Отчеты с разбивкой на страницы** на вкладке **Параметры емкости** страницы **Power BI Premium**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Раздел Отчеты с разбивкой на страницы на вкладке Параметры емкости":::
 

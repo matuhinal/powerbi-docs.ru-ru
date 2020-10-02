@@ -6,15 +6,15 @@ ms.reviewer: Mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8784de7e13932d8cd9c33d706a0c49d6f6cc024c
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537235"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375288"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Советы по запросам в функцию "Вопросы и ответы" в Power BI
 
@@ -67,7 +67,7 @@ ms.locfileid: "87537235"
 |  |  |
 |**N значений по порядку**     |     (порядок и ранжирование): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Типы визуальных элементов**     |  Все типы визуальных элементов, поддерживаемые Power BI.  Если соответствующий параметр есть в области "Визуализации", его можно использовать в вопросе.  Исключением из этого правила являются [визуальные элементы Power BI](../developer/visuals/power-bi-custom-visuals.md), которые вы добавили в область визуализации вручную.  |
+|**Типы визуальных элементов**     |  Все типы визуальных элементов, поддерживаемые Power BI.  Если соответствующий параметр есть в области "Визуализации", его можно использовать в вопросе.  Исключением из этого правила являются [пользовательские визуальные элементы Power BI](../developer/visuals/power-bi-custom-visuals.md), которые вы добавили в область визуализации вручную.  |
 |  |  Пример: show districts by month and sales total as bar chart (показать районы по месяцам и общие продажи как линейчатую диаграмму)               |
 |        |         |
 |**Вопросы (отношения и качества)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

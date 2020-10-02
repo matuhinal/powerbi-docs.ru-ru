@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7f08d75ecc9386dc2329c6564448023dfbfb3b9b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858538"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374966"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Подключайтесь к API Microsoft Graph Security в Power BI Desktop
 
-Используйте соединитель Microsoft Graph Security в Power BI Desktop для подключения к API [Microsoft Graph Security](/graph/security-concept-overview). Это позволит создавать панели мониторинга и отчеты, с помощью которых можно получить аналитическую информацию, связанную с [оповещениями](/graph/api/resources/alert?view=graph-rest-1.0) безопасности и [оценками безопасности](/graph/api/resources/securescores?view=graph-rest-beta).
+Используйте соединитель Microsoft Graph Security в Power BI Desktop для подключения к API [Microsoft Graph Security](/graph/security-concept-overview). Это позволит создавать панели мониторинга и отчеты, с помощью которых можно получить аналитическую информацию, связанную с [оповещениями](/graph/api/resources/alert) безопасности и [оценками безопасности](/graph/api/resources/securescores).
 
 API Microsoft Graph Security объединяет [несколько решений по безопасности](/graph/api/resources/security-api-overview#alerts) от корпорации Майкрософт и ее партнеров, что позволяет упростить связывание оповещений. Это сочетание обеспечивает доступ к ценной контекстной информации и упрощает автоматизацию. Оно позволяет организациям быстро получать аналитические сведения и принимать решения для нескольких продуктов безопасности, а также сократить затраты и уменьшить сложность.
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Предварительные требования для использования соединителя Microsoft Graph Security
 
-Чтобы использовать соединитель Microsoft Graph Security, необходимо *явным образом* получить согласие от администратора клиента Azure Active Directory (Azure AD). Дополнительные сведения см. в разделе [Требования к проверке подлинности Microsoft Graph Security](/graph/security-authorization).
+Чтобы использовать соединитель Microsoft Graph Security, необходимо *явным образом* получить согласие от глобального администратора Azure Active Directory (Azure AD). Дополнительные сведения см. в разделе [Требования к проверке подлинности Microsoft Graph Security](/graph/security-authorization).
 При получении согласия необходимо указать идентификатор и имя приложения соединителя, которые указаны здесь и доступны на [портале Azure](https://portal.azure.com):
 
 | Свойство | Значение |
@@ -35,7 +35,7 @@ API Microsoft Graph Security объединяет [несколько решен
 | **URI перенаправления** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
-Чтобы дать согласие для соединителя, администратор клиента Azure AD может воспользоваться любым из этих методов:
+Чтобы дать согласие для соединителя, администратор Azure AD может воспользоваться любым из этих методов.
 
 * [Предоставление согласия для приложений Azure AD](/azure/active-directory/develop/v2-permissions-and-consent)
 
@@ -61,7 +61,7 @@ API Microsoft Graph Security объединяет [несколько решен
 
     ![Войти](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. Если вы являетесь администратором клиента *и* еще не предоставили согласие для соединителя (приложения) Microsoft Graph Security для Power BI, то вы увидите следующее диалоговое окно. Выберите **Согласие от имени вашей организации**.
+6. Если вы являетесь администратором *и* еще не предоставили согласие для соединителя (приложения) Microsoft Graph Security для Power BI, то вы увидите следующее диалоговое окно. Выберите **Согласие от имени вашей организации**.
 
     ![Диалоговое окно согласия администратора](media/desktop-connect-graph-security/AdminConsent.PNG)
     

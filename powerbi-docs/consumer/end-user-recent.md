@@ -7,23 +7,45 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/24/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7f7aaf150a4b182ec1939820f92f4988ad373b3b
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 39904a0fc577ca11ae73c5bb9840232b4345e47b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537189"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527360"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>**Недавнее** содержимое в службе Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-Недавнее содержимое — это последние элементы, которые вы просматривали в службе Power BI, но оно включает не более 20 элементов.  Например, это панели мониторинга, отчеты, приложения и книги.
+**Недавнее** содержимое — это последние элементы, которые вы просматривали в службе Power BI. Это панели мониторинга, отчеты, приложения и книги. При выборе элемента **Последние** на панели навигации Power BI отображает это содержимое в порядке убывания даты.  Чтобы изменить порядок сортировки, выберите один из заголовков и выберите сортировку по возрастанию или по убыванию.
 
-![Окно недавнего содержимого](./media/end-user-recent/power-bi-recent.png)
+
+![Окно недавнего содержимого](./media/end-user-recent/power-bi-recents.png)
+
+Обратите внимание, что два элемента являются [избранными](end-user-favorite.md), так как у них есть значок звезды. И один элемент (Рентабельность клиента — пример) хранится в [емкости Premium](end-user-license.md).
+
+## <a name="see-your-five-most-recents"></a>Отображение пяти последних просмотренных элементов
+
+Чтобы отобразить только один из пяти недавно просмотренных элементов, в области навигации щелкните стрелку справа от элемента **Последние**.  В списке выберите содержимое, чтобы открыть его. 
+
+![Всплывающий элемент недавнего содержимого](./media/end-user-recent/power-bi-recent-fly-out.png)
+
+## <a name="see-all-of-your-recent-content"></a>Отображение всего недавнего содержимого
+
+Если у вас более пяти недавно просмотренных элементов, выберите **Просмотреть все**, чтобы открыть экран **Последние**. Как это было сделано в начале статьи, вы можете пропустить всплывающий элемент и открыть окно **Последние**, выбрав в области навигации слово **Последние**или значок ![Последние](./media/end-user-recent/power-bi-icon.png).
+
+![отображение всего недавно просмотренного содержимого](./media/end-user-recent/power-bi-admin-recent.png)
+
+
+## <a name="search-and-sort-your-list-of-recent-content"></a>Поиск и сортировка списка недавнего содержимого
+
+Если список длинный, [выполните поиск требуемых элементов с помощью поля поиска и сортировки](end-user-search-sort.md). Чтобы узнать, можно ли отсортировать столбец, наведите на него указатель мыши, чтобы увидеть, отображается ли стрелка. В этом примере при наведении указателя мыши на поле **Тип** отображается стрелка. Последнее содержимое можно отсортировать в алфавитном порядке по типу. 
+
+![Снимок экрана: поле поиска и стрелка сортировки](./media/end-user-recent/power-bi-recent-sort-search.png)
 
 Посмотрите, как Аманда заполняет списки **Недавнего** содержимого в службе Power BI, а затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео.
 
@@ -32,28 +54,20 @@ ms.locfileid: "87537189"
 > [!NOTE]
 > В этом видео используется более старая версия службы Power BI.
 
-## <a name="display-recent-content"></a>Отображение недавно просмотренного содержимого
-Чтобы увидеть пять недавно использованных элементов, в области навигации щелкните стрелку справа от элемента **Недавнее**.  Отсюда можно выбрать недавно использованное содержимое, чтобы открыть его. Здесь перечислено 5 недавно использованных элементов.
+<!--
+## Actions available from the **Recent** content list
+The actions available to you will depend on the settings assigned by the content *designer*. Some of your options may include:
+* Select the star icon to [favorite a dashboard, report, or app](end-user-favorite.md) ![star icon](./media/end-user-shared-with-me/power-bi-star-icon.png).
+* Some dashboards and reports can be re-shared  ![share icon](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
+* [Open the report in Excel](end-user-export.md) ![export to Excel icon](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [View insights](end-user-insights.md) that Power BI finds in the data ![insights icon](./media/end-user-shared-with-me/power-bi-insights.png). -->
 
-![Всплывающий элемент недавнего содержимого](./media/end-user-recent/power-bi-recent-flyout.png)
 
-Если у вас есть более пяти недавно использованных элементов, выберите **Просмотреть все**, чтобы открыть экран "Недавнее". Вы также можете выбрать **Недавнее** или щелкнуть соответствующий значок ![значок "Недавнее"](./media/end-user-recent/power-bi-icon.png) в панели навигации.
 
-![отображение всего недавно просмотренного содержимого](./media/end-user-recent/power-bi-recent.png)
-
-## <a name="actions-available-from-the-recent-content-list"></a>Действия, доступные в списке содержимого **Недавнее**.
-Доступные действия будут зависеть от параметров, назначенных *автором* содержимого. Некоторые из параметров могут включать следующее.
-* Щелкните значок звездочки для [добавления панели мониторинга, приложения или отчета в избранное](end-user-favorite.md) ![Значок звездочки](./media/end-user-shared-with-me/power-bi-star-icon.png).
-* Повторное предоставление доступа к некоторым панелям мониторинга и отчетам  ![значок предоставления общего доступа](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [Открытие отчета в Excel](end-user-export.md) ![Значок экспорта в Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
-* [Просмотр аналитических сведений](end-user-insights.md), которые Power BI находит в данных ![Значок аналитических сведений](./media/end-user-shared-with-me/power-bi-insights.png).
-* [Поиск требуемых элементов с помощью поля поиска и сортировки](end-user-search-sort.md), если список длинный. Чтобы узнать, можно ли отсортировать столбец, наведите на него указатель мыши, чтобы увидеть, отображается ли стрелка. В этом примере при наведении указателя мыши на поле **Последнее обращение** отображается стрелка. Последнее содержимое можно отсортировать по дате доступа. 
-
-    ![Сортировка всего недавно просмотренного содержимого](./media/end-user-recent/power-bi-recent-sort.png)
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Приложения службы Power BI](end-user-apps.md)
 
-У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 
