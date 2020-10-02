@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965322"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635707"
 ---
 # <a name="power-bi-security-whitepaper"></a>Технический документ по обеспечению безопасности в Power BI
 
@@ -171,12 +171,11 @@ Power BI предоставляется в определенных регион
 
 Следующая таблица описывает данные Power BI с учетом типа используемого запроса. **X** указывает на наличие данных Power BI при использовании соответствующего типа запроса.
 
-
-|  |Используя режим Import  |DirectQuery  |Live Connect  |
-|---------|---------|---------|---------|
-|Схема     |     X    |    X     |         |
-|Данные строк     |    X     |         |         |
-|Кэширование данных визуальных элементов     |    X     |     X    |    X     |
+|                         | Используя режим Import   | DirectQuery | Live Connect  |
+|-------------------------|----------|-------------|---------------|
+|**Схема**               | X        | X           |               |
+|**Данные строк**             | X        |             |               |
+|**Кэширование данных визуальных элементов** | X        | X           | X             |
 
 Различие между DirectQuery и другими запросами определяет, как служба Power BI обрабатывает неактивные данные и шифруется ли сам запрос. Следующие разделы описывают неактивные и перемещаемые данные, шифрование, расположение и процедуру обработки данных.
 
