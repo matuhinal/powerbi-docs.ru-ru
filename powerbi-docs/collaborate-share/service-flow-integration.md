@@ -1,114 +1,97 @@
 ---
-title: Интеграция Power BI с Power Automate
+title: Интеграция оповещений о данных с Power Automate
 description: Сведения о том, как создавать потоки Power Automate, которые активируются оповещениями о данных Power BI.
 author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 09/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 85d3ab05359094fbc0bd05b0fdb70fb73e4acec8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: da5940a6ff4e8b05d7548f21b6b048d3adbe05b0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226184"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526573"
 ---
-# <a name="power-automate-and-power-bi"></a>Power Automate и Power BI
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Интеграция оповещений о данных Power BI с Power Automate
 
-[Power Automate](https://docs.microsoft.com/power-automate/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS, которые используют бизнес-пользователи. Power Automate позволяет автоматизировать задачи путем интеграции избранных приложений и служб (включая Power BI) для получения уведомлений, синхронизации файлов, сбора данных и т. п. Выполнение повторяющихся задач существенно упрощается благодаря автоматизации рабочих процессов.
+[Power Automate](/power-automate/getting-started) — это предложение SaaS для автоматизации рабочих процессов в различных приложениях и службах SaaS. Вы можете автоматизировать задачи путем интеграции избранных приложений и служб, включая Power BI, для получения уведомлений, синхронизации файлов, сбора данных и т. п. В этой статье описывается, как автоматизировать создание сообщений электронной почты на основе оповещений о данных Power BI.
 
-[Приступая к работе с Power Automate](https://docs.microsoft.com/power-automate/getting-started).
+[Приступая к работе с Power Automate](/power-automate/getting-started).
 
-Посмотрите видео, где Power Automate создает поток, который отправляет подробное сообщение по электронной почте коллегам при активации оповещения Power BI. Затем сделайте то же самое, выполнив пошаговые инструкции, приведенные под видео.
+## <a name="prerequisites"></a>Предварительные требования
+В этой статье показано, как создать два разных потока — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](../create-reports/service-set-data-alerts.md) и [зарегистрируйтесь в Power Automate](https://flow.microsoft.com/#home-signup). Бесплатная версия!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
-
-## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Создание потока, который активируется оповещением о данных Power BI
-
-### <a name="prerequisites"></a>Технические условия
-В этом руководстве показано, как создать два разных потока — на основе шаблона и с нуля. Для дальнейшей работы [создайте оповещение о данных в Power BI](../create-reports/service-set-data-alerts.md), создайте бесплатную учетную запись Slack и [зарегистрируйтесь в Power Automate](https://flow.microsoft.com/#home-signup) (это бесплатно).
-
-## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Создание потока, использующего Power BI, на основе шаблона
+## <a name="create-a-flow-from-a-template"></a>Создание потока из шаблона
 В этой задаче мы создаем на основе шаблона простой поток, который активируется с помощью оповещения о данных (уведомления) Power BI.
 
 1. Войдите в Power Automate (flow.microsoft.com).
-2. Выберите **Мои потоки**.
+2. Выберите **Шаблоны** и найдите шаблон **Power BI** > **Отправка электронного письма кому угодно при активации оповещения о данных Power BI**.
    
-   ![Панель меню Power Automate](media/service-flow-integration/power-bi-my-flows.png)
-3. Выберите **Создать из шаблона**.
-   
-    ![Панель меню "Мои потоки"](media/service-flow-integration/power-bi-template.png)
-4. С помощью поля поиска найдите шаблоны Power BI и выберите **Отправка электронного письма кому угодно при активации оповещения о данных Power BI > Продолжить**.
-   
-    ![результаты поиска](media/service-flow-integration/power-bi-flow-alert.png)
-
+    :::image type="content" source="media/service-flow-integration/power-automate-templates.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::
 
 ### <a name="build-the-flow"></a>Создание потока
-Этот шаблон содержит один триггер (оповещение о данных Power BI для новых олимпийских медалей сборной Ирландии) и одно действие (отправка сообщения электронной почты). При выборе поля Power Automate отобразит динамическое содержимое, которое можно использовать.  В этом примере мы включили в текст сообщения значение и URL-адрес плитки.
+Этот шаблон содержит один триггер, оповещение о данных Power BI и одно действие для отправки сообщения электронной почты. При выборе поля Power Automate отобразит динамическое содержимое, которое можно использовать.  В этом примере мы включили в текст сообщения значение и URL-адрес плитки.
 
-![Шаблон потока](media/service-flow-integration/power-bi-template1.png)
+1. Выберите **Continue** (Продолжить).
 
-1. В раскрывающемся списке триггера выберите оповещение о данных Power BI. Выберите **New medal for Ireland** (Новая медаль для Ирландии). Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](../create-reports/service-set-data-alerts.md).
+    :::image type="content" source="media/service-flow-integration/power-automate-power-bi-mail.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::
+
+1. В поле **Идентификатор оповещения** выберите оповещение о данных Power BI. Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](../create-reports/service-set-data-alerts.md).
    
-   ![раскрывающийся список оповещений](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Введите один или несколько допустимых адресов электронной почты, а затем выберите **Изменить** (см. ниже) или **Добавить динамическое содержимое**. 
-   
-   ![Экран отправки электронных сообщений](media/service-flow-integration/power-bi-flow-email.png)
+    :::image type="content" source="media/service-flow-integration/power-automate-select-alert-id.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::
+2. Укажите один или несколько действительных адресов электронной почты.
 
-3. Power Automate создаст заголовок и сообщение, которые можно сохранить или изменить. Вы можете использовать все значения, заданные при создании оповещения в Power BI: просто поместите курсор и выберите нужный элемент в серой выделенной области. 
+3. Power Automate автоматически создаст **тему** и **текст** сообщения, которые можно сохранить или изменить. В тексте сообщения применяется HTML-форматирование.
 
-   ![Экран отправки электронных сообщений](media/service-flow-integration/power-bi-flow-email-default.png)
+    :::image type="content" source="media/service-flow-integration/power-automate-autogenerated-email.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::
 
-1.  Например, если в Power BI вы создали заголовок оповещения **We won another medal** (Мы получили еще одну медаль), можно выбрать **Заголовок оповещения**, чтобы добавить этот текст в поле темы своего сообщения электронной почты.
-
-    ![создание текста электронного сообщения](media/service-flow-integration/power-bi-flow-message.png)
-
-    Вы также можете использовать текст сообщения по умолчанию или создать собственный. В примере выше приводится несколько изменений в сообщении.
-
-1. Когда все будет готово, выберите **Создать поток** или **Сохранить поток**.  Поток будет создан и проанализирован.  При обнаружении ошибок Power Automate отображает соответствующие сообщения.
+1. Завершив работу с сообщением, выберите **Следующий шаг** или **Сохранить**.  Поток будет создан и проанализирован.  При обнаружении ошибок Power Automate отображает соответствующие сообщения.
 2. Если будут обнаружены ошибки, выберите **Изменить поток** для их исправления. В противном случае выберите **Готово**, чтобы выполнить новую последовательность.
    
-   ![сообщение об успехе](media/service-flow-integration/power-bi-flow-running.png)
-5. Когда оповещение о данных активируется, на указанные вами адреса будут отправлены сообщения электронной почты.  
+   ![Снимок экрана: сообщение Power Automate об успешном выполнении.](media/service-flow-integration/power-bi-flow-running.png)
+5. Когда оповещение о данных активируется, Power Automate отправляет сообщения электронной почты на указанные вами адреса.  
    
-   ![оповещение по электронной почте](media/service-flow-integration/power-bi-flow-email2.png)
+   ![Снимок экрана: оповещение Power Automate, отправляемое по электронной почте.](media/service-flow-integration/power-bi-flow-email2.png)
 
-## <a name="create-a-power-automate-that-uses-power-bi---from-scratch-blank"></a>Создание пустого (с нуля) потока Power Automate, который использует Power BI
+## <a name="create-a-flow-from-scratch"></a>Создание потока с нуля
 В этой задаче мы создаем с нуля простой поток, который активируется с помощью оповещения о данных (уведомления) Power BI.
 
-1. Войдите в Power Automate.
-2. Выберите **Мои потоки** > **Создать с нуля**.
-   
-   ![Верхняя панель меню Power Automate](media/service-flow-integration/power-bi-my-flows.png)
-3. С помощью поля поиска найдите триггер Power BI и выберите **Power BI — When a data driven alert is triggered** (Power BI — при активации оповещения о данных).
+1. Войдите в Power Automate (flow.microsoft.com).
+2. Выберите **Создать** > **Автоматизированный поток**.
+
+    :::image type="content" source="media/service-flow-integration/power-automate-create-automated-flow.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::   
+3. В окне **Создать автоматизированный поток** присвойте потоку имя.
+1. В поле **Выберите триггер потока** выполните поиск по фразе **Power BI**.
+1. Последовательно выберите **Power BI — при активации оповещения на основе данных** > **Создать**.
+
+    :::image type="content" source="media/service-flow-integration/power-automate-build-automated-flow.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::
 
 ### <a name="build-your-flow"></a>Создание потока
-1. В раскрывающемся списке выберите имя оповещения.  Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](../create-reports/service-set-data-alerts.md).
+1. В поле **Идентификатор оповещения** выберите имя оповещения. Чтобы узнать, как создать оповещение, см. статью [Оповещения о данных в службе Power BI](../create-reports/service-set-data-alerts.md).
+
+    :::image type="content" source="media/service-flow-integration/power-automate-select-alert-id-scratch.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::   
+
+2. Выберите **Новый шаг**.
    
-    ![выбор имени оповещения](media/service-flow-integration/power-bi-totalstores2.png)
-2. Выберите **Новый шаг** > **Добавить действие**.
-   
-   ![добавление нового шага](media/service-flow-integration/power-bi-new-step.png)
-3. С помощью поиска найдите **Outlook** и выберите **Создать событие**.
-   
-   ![Создание потока](media/service-flow-integration/power-bi-create-event.png)
+3. В поле **Выберите действие** с помощью поля поиска найдите **Outlook** > **Создать событие**.
+
+    :::image type="content" source="media/service-flow-integration/power-automate-choose-action-create-event.png" alt-text="Снимок экрана: шаблон Power Automate &quot;Отправка электронного письма кому угодно при активации оповещения о данных Power BI&quot;.":::   
 4. Заполните поля в событии. При выборе поля Power Automate отобразит динамическое содержимое, которое можно использовать.
    
-   ![Продолжение создания потока](media/service-flow-integration/power-bi-flow-event.png)
+   ![Снимок экрана: продолжение создания потока.](media/service-flow-integration/power-bi-flow-event.png)
 5. Когда все будет готово, выберите **Создать поток**.  Power Automate сохранит и проанализирует поток. Если ошибок нет, выберите **Готово**, чтобы запустить поток.  Новая последовательность будет добавлена на страницу **Мои потоки**.
    
-   ![Завершение потока](media/service-flow-integration/power-bi-flow-running.png)
+   ![Снимок экрана: завершение создания потока.](media/service-flow-integration/power-bi-flow-running.png)
 6. Если поток активируется с помощью оповещения о данных Power BI, вы получите в Outlook примерно следующее уведомление о событии.
    
-    ![Power Automate запускает уведомление Outlook](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Снимок экрана: Power Automate активирует уведомление в Outlook.](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Начало работы с Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
+* [Начало работы с Power Automate](/power-automate/getting-started/)
 * [Настройка оповещений о данных в службе Power BI](../create-reports/service-set-data-alerts.md)
 * [Настройка оповещений о данных на устройстве iPhone](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Настройка оповещений о данных в мобильном приложении Power BI для Windows 10](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

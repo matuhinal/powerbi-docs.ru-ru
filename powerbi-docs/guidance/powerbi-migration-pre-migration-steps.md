@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803384"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525807"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Подготовка к миграции в Power BI
 
@@ -73,7 +73,7 @@ ms.locfileid: "88803384"
 
 Ниже приведены несколько критически важных элементов, которые необходимо решить на ранних этапах реализации Power BI.
 
-- Решения по [параметрам администрирования Power BI](admin-tenant-settings.md), которые необходимо задокументировать.
+- Решения по [параметрам клиента Power BI](admin-tenant-settings.md), которые необходимо задокументировать.
 - Решения по [управлению рабочей областью](../collaborate-share/service-new-workspaces.md), которые необходимо задокументировать.
 - Рекомендации и предпочтения, связанные с данными и [методами распространения содержимого](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md), такими как приложения, рабочие области, общий доступ, подписки и внедрение содержимого.
 - Параметры, связанные с [режимами наборов данных](../connect-data/service-dataset-modes-understand.md), например использование режима импорта, режим DirectQuery или комбинирование двух режимов в [составной модели](composite-model-guidance.md).
@@ -96,7 +96,7 @@ ms.locfileid: "88803384"
 - Настройка клиента Power BI и интеграция с Azure Active Directory.
 - Назначение [администраторов Power BI](../admin/service-admin-role.md).
 - Приобретение и назначение начальных [пользовательских лицензий](../admin/service-admin-licensing-organization.md).
-- Настройка и проверка [параметров администратора клиента Power BI](admin-tenant-settings.md).
+- Настройка и проверка [параметров клиента Power BI](admin-tenant-settings.md).
 - Настройка [ролей рабочей области](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) и назначение доступа группам безопасности и пользователям Azure Active Directory.
 - Настройка начального кластера [шлюза данных](../connect-data/service-gateway-deployment-guidance.md) с планом регулярного обновления.
 - Получение начальной [лицензии емкости Premium](../admin/service-admin-premium-purchase.md) (если применимо).
