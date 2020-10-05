@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: "Работа с многомерными моделями в Power\_BI"
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: Потоки данных
+      items:
+        - name: Вводные сведения о потоках данных
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: создание потока данных;
+          href: dataflows/dataflows-create.md
+        - name: Настройка и использование потока данных
+          href: dataflows/dataflows-configure-consume.md
+        - name: Потоки данных и Azure Data Lake 2-го поколения
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: Функции потоков данных уровня "Премиум"
+          href: dataflows/dataflows-premium-features.md
+        - name: Использование Машинного обучения и Cognitive Services с потоками данных
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: 'Рекомендации и ограничения, касающиеся потоков данных'
+          href: dataflows/dataflows-features-limitations.md
     - name: Практические руководства
       items:
         - name: Общие задачи по работе с запросами
