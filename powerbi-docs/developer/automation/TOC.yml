@@ -5,7 +5,7 @@
     - name: Обзор
       expanded: true
       items:
-        - name: Что можно сделать с помощью API Power BI?
+        - name: "Что можно сделать с помощью API Power\_BI?"
           href: overview-of-power-bi-rest-api.md
     - name: Учебники
       expanded: true
@@ -39,14 +39,14 @@
     - name: Справочник
       items:
         - name: Интерфейсы REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi'
+          href: /rest/api/power-bi
         - name: Справочник по REST API Power BI
           href: rest-api-reference.md
         - name: Полный листинг кода
           href: walkthrough-push-data-complete-code.md
     - name: Ресурсы
       items:
-        - name: Центр разработчиков
+        - name: Центр разработки
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: "Репозиторий Git для C# и Power\_BI"
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
