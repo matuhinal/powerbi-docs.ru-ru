@@ -91,9 +91,9 @@
         - name: API-интерфейсы
           items:
             - name: "REST\_API для управления ресурсами\_Azure"
-              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+              href: /rest/api/power-bi-embedded/
             - name: "REST\_API в Power\_BI"
-              href: 'https://docs.microsoft.com/rest/api/power-bi/'
+              href: /rest/api/power-bi/
         - name: Библиотеки Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Внедрение пользовательских макетов в приложение

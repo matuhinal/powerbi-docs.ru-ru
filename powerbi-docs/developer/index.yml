@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
-  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+  ms.openlocfilehash: a4ff9cfe0cb12dbbbd6df79a69f5637609957920
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 06/16/2020
-  ms.locfileid: "84795054"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91748501"
 highlightedContent:
   items:
   - title: Использование встроенной аналитики с Power BI
@@ -83,13 +83,13 @@ additionalContent:
   - items:
     - title: REST API в Power BI
       summary: Интерфейсы REST API Power BI предоставляют конечные точки служб для внедрения, администрирования и работы с пользовательскими ресурсами.
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - title: REST API Azure Resource Manager
       summary: API, предоставляющий набор веб-служб RESTful, позволяющий создавать, извлекать, обновлять и удалять выделенные емкости Power BI.
-      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+      url: /rest/api/power-bi-embedded/
     - title: Документация по Microsoft Power Platform
       summary: Сведения о том, как решения Power BI, Power Apps, Power Automate и Power Virtual Agents работают вместе и дополняют друг друга.
-      url: https://docs.microsoft.com/power-platform/
+      url: /power-platform/
     - title: Центр Power BI для разработчиков
       summary: Разработка с Power BI.
       url: https://powerbi.microsoft.com/developers/
