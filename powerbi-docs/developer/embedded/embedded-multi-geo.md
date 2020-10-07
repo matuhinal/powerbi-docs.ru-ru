@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23e71d08b344fc27edca26372b7781b9e0d3d6d1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238773"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749122"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Поддержка нескольких регионов в Power BI Embedded
 
@@ -65,11 +65,11 @@ ms.locfileid: "85238773"
 
 Для поддержки управления емкостями с помощью функции поддержки нескольких регионов через API мы внесли некоторые изменения в имеющиеся API:
 
-1. **[Получение емкостей](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** — API возвращает пользователю список доступных емкостей. Теперь ответ включает в себя дополнительное свойство region, которое определяет расположение емкости.
+1. **[Получение емкостей](/rest/api/power-bi/capacities/getcapacities)** — API возвращает пользователю список доступных емкостей. Теперь ответ включает в себя дополнительное свойство region, которое определяет расположение емкости.
 
-2. **[Назначение емкости](https://docs.microsoft.com/rest/api/power-bi/capacities)** — API позволяет назначить емкости заданную рабочую область. Эта операция не позволяет вам назначать емкости рабочие области за пределами домашнего региона или перемещать рабочие области между емкостями в разных регионах. Для выполнения этой операции пользователю или [субъекту-службе](embed-service-principal.md) по-прежнему нужны разрешения на администрирование в рабочей области, а также разрешения на администрирование или назначение в целевой емкости.
+2. **[Назначение емкости](/rest/api/power-bi/capacities)** — API позволяет назначить емкости заданную рабочую область. Эта операция не позволяет вам назначать емкости рабочие области за пределами домашнего региона или перемещать рабочие области между емкостями в разных регионах. Для выполнения этой операции пользователю или [субъекту-службе](embed-service-principal.md) по-прежнему нужны разрешения на администрирование в рабочей области, а также разрешения на администрирование или назначение в целевой емкости.
 
-3. **[API Azure Resource Manager](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** — все операции API Azure Resource Manager, включая *создание* и *удаление*, поддерживают использование нескольких регионов.
+3. **[API Azure Resource Manager](/rest/api/power-bi-embedded/capacities)** — все операции API Azure Resource Manager, включая *создание* и *удаление*, поддерживают использование нескольких регионов.
 
 ## <a name="limitations-and-considerations"></a>Ограничения и рекомендации
 

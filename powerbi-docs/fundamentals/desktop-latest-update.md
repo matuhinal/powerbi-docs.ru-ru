@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/05/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 7460967e12ee13f5aff03c8058c318741c26aa86
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224194"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780109"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Новые возможности Power BI Desktop
 
@@ -46,45 +46,38 @@ ms.locfileid: "91224194"
 
 Ниже перечислены обновления, добавленные в приложение Power BI Desktop в этом месяце.
 
-https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
-
-
-https://www.youtube.com/watch?v=gPGy18Yo0Go
-
-https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
-
 ### <a name="analytics"></a>Analytics
-* Визуальные элементы с автоописанием (предварительная версия) [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
-* Модель "Вопросы и ответы" теперь поддерживает арифметические операции [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333)[[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+* Визуальные элементы с автоописанием (предварительная версия) [[видео]](https://youtu.be/gPGy18Yo0Go?t=51)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* Модель "Вопросы и ответы" теперь поддерживает арифметические операции [[видео]](https://youtu.be/gPGy18Yo0Go?t=333)[[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
 
 
 ### <a name="reporting"></a>Отчеты
-* Выделение прямоугольников точки данных для дополнительных диаграмм [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
-* Добавлен общий визуальный элемент для упорядочения слоев [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
-* Поиск рабочей области во время публикации [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
-* Определение общего количества меток визуальных элементов с накоплением [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
-* Улучшения мобильной разработки [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+* Выделение прямоугольников точки данных для дополнительных диаграмм [[видео]](https://youtu.be/gPGy18Yo0Go?t=370)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* Добавлен общий визуальный элемент для упорядочения слоев [[видео]](https://youtu.be/gPGy18Yo0Go?t=405)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* Поиск рабочей области во время публикации [[видео]](https://youtu.be/gPGy18Yo0Go?t=615)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* Определение общего количества меток визуальных элементов с накоплением [[видео]](https://youtu.be/gPGy18Yo0Go?t=630)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* Улучшения мобильной разработки [[видео]](https://youtu.be/gPGy18Yo0Go?t=786)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
 
 
 ### <a name="modeling"></a>Моделирование
-* Расширенные метаданные набора данных теперь являются общедоступными [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
-* Повышение производительности статистических выражений, включающих столбцы денежного типа данных [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+* Расширенные метаданные набора данных теперь являются общедоступными [[видео]](https://youtu.be/gPGy18Yo0Go?t=1200)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* Повышение производительности статистических выражений, включающих столбцы денежного типа данных [[видео]](https://youtu.be/gPGy18Yo0Go?t=1220)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
 
 
 ### <a name="data-connectivity"></a>Подключение к данным
-* Azure Databricks [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
-* MariaDB [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
-* Интеллектуальный API Hexagon PPM [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
-* Другие обновления для подключения к данным [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
+* Azure Databricks [[видео]](https://youtu.be/gPGy18Yo0Go?t=1342)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[видео]](https://youtu.be/gPGy18Yo0Go?t=1365)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Интеллектуальный API Hexagon PPM [[видео]](https://youtu.be/gPGy18Yo0Go?t=1386)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* Другие обновления для подключения к данным [[видео]](https://youtu.be/gPGy18Yo0Go?t=1411)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
 
 
 ### <a name="visuals"></a>Визуальные элементы
-* Новые визуальные элементы из различных поставщиков [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
+* Новые визуальные элементы из различных поставщиков [[видео]](https://youtu.be/gPGy18Yo0Go?t=1228)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
 
 
 ### <a name="template-apps"></a>Приложения-шаблоны
-* Панель мониторинга многоканальной атрибуции [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
-* Панель мониторинга аналитики рабочей области [[видео]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
+* Панель мониторинга многоканальной атрибуции [[видео]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* Панель мониторинга аналитики рабочей области [[видео]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
 
 
 Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/).

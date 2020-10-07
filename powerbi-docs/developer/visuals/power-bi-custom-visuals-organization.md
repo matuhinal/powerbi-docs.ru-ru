@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401963"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749237"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Визуальные элементы организации в Power BI
 
@@ -49,7 +49,7 @@ ms.locfileid: "89401963"
 
 Пользователь
 
-* Визуальные элементы Power BI организации закрыты для внешних пользователей. Они импортируются из репозитория организации. Как и любой другой закрытый элемент, их нельзя [экспортировать в PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) или отображать в сообщениях электронной почты по [подписке на страницы отчетов](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe). Эти возможности поддерживаются только для [сертифицированных визуальных элементов Power BI](power-bi-custom-visuals-certified.md), импортируемых напрямую из Marketplace.
+* Визуальные элементы Power BI организации закрыты для внешних пользователей. Они импортируются из репозитория организации. Как и любой другой закрытый элемент, их нельзя [экспортировать в PowerPoint](../../consumer/end-user-powerpoint.md) или отображать в сообщениях электронной почты по [подписке на страницы отчетов](../../consumer/end-user-subscribe.md). Эти возможности поддерживаются только для [сертифицированных визуальных элементов Power BI](power-bi-custom-visuals-certified.md), импортируемых напрямую из Marketplace.
 
 * Визуальные элементы Visio, PowerApps и GlobeMap из магазина AppSource не будут отображаться, если они развернуты в репозитории организации.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034067"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748961"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Программная настройка учетных данных для Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "86034067"
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Обновление потока учетных данных для источников данных
 
-1. Вызовите интерфейс [получения источников данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasourcesingroup), чтобы обнаружить источники данных для набора данных. Текст ответа для каждого источника данных содержит тип, сведения о подключении, шлюз и идентификатор источника данных.
+1. Вызовите интерфейс [получения источников данных](/rest/api/power-bi/datasets/getdatasourcesingroup), чтобы обнаружить источники данных для набора данных. Текст ответа для каждого источника данных содержит тип, сведения о подключении, шлюз и идентификатор источника данных.
 
     ```csharp
     // Select a datasource
@@ -33,7 +33,7 @@ ms.locfileid: "86034067"
     var datasource = datasources.First();
     ```
 
-2. Создайте строку учетных данных в соответствии с [примерами обновления источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) в зависимости от типа учетных данных.
+2. Создайте строку учетных данных в соответствии с [примерами обновления источника данных](/rest/api/power-bi/gateways/updatedatasource) в зависимости от типа учетных данных.
 
     # <a name="net-sdk-v3"></a>[Пакет SDK версии 3 для .NET](#tab/sdk3)
 
@@ -50,9 +50,9 @@ ms.locfileid: "86034067"
     ---
 
     >[!NOTE]
-    >Если вы используете облачные источники данных, не выполняйте дальнейшие действия в этом разделе. Задайте учетные данные, использовав идентификаторы шлюза и источника данных из шага 1 и вызвав команду [Обновить источник данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource). 
+    >Если вы используете облачные источники данных, не выполняйте дальнейшие действия в этом разделе. Задайте учетные данные, использовав идентификаторы шлюза и источника данных из шага 1 и вызвав команду [Обновить источник данных](/rest/api/power-bi/gateways/updatedatasource). 
 
-3. Вызовите интерфейс [получения шлюза](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) для извлечения открытого ключа шлюза.
+3. Вызовите интерфейс [получения шлюза](/rest/api/power-bi/gateways/getgateways) для извлечения открытого ключа шлюза.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
@@ -104,7 +104,7 @@ ms.locfileid: "86034067"
 
     ---
 
-6. Вызовите интерфейс [обновления источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) для задания учетных данных.
+6. Вызовите интерфейс [обновления источника данных](/rest/api/power-bi/gateways/updatedatasource) для задания учетных данных.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
@@ -114,7 +114,7 @@ ms.locfileid: "86034067"
 
 1. Установите [локальный шлюз данных](https://powerbi.microsoft.com/gateway/) на своем компьютере.
 
-2. Вызовите интерфейс [получения шлюза](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) для извлечения открытого ключа и идентификатора шлюза.
+2. Вызовите интерфейс [получения шлюза](/rest/api/power-bi/gateways/getgateways) для извлечения открытого ключа и идентификатора шлюза.
 
     ```csharp
     // Select a gateway
@@ -134,7 +134,7 @@ ms.locfileid: "86034067"
             dataSourceName: "my sql datasource");
     ```
 
-5. Вызовите API [создания источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource).
+5. Вызовите API [создания источника данных](/rest/api/power-bi/gateways/createdatasource).
 
     ```csharp
     pbiClient.Gateways.CreateDatasource(gateway.Id, request);
@@ -142,7 +142,7 @@ ms.locfileid: "86034067"
 
 ## <a name="credential-types"></a>Типы учетных данных
 
-При отправке запроса на [создание источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) или [обновление источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) для **корпоративного локального шлюза** с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) учетные данные должны шифроваться с использованием открытого ключа шлюза.
+При отправке запроса на [создание источника данных](/rest/api/power-bi/gateways/createdatasource) или [обновление источника данных](/rest/api/power-bi/gateways/updatedatasource) для **корпоративного локального шлюза** с помощью [REST API Power BI](/rest/api/power-bi/) учетные данные должны шифроваться с использованием открытого ключа шлюза.
 
 >[!NOTE]
 >Пакет SDK для .NET версии 3 также может выполнять примеры пакета SDK для .NET версии 2, перечисленные ниже.
@@ -233,6 +233,6 @@ var credentials = "{\"credentialData\":\"\"}";
 
 После создания набора данных создается автоматическая привязка между ним и подходящим шлюзом, содержащим соответствующие источники данных для всех подключений. Если подходящие шлюзы отсутствуют или их несколько, автоматическая привязка завершается сбоем.
 
-Если вы используете локальные наборы данных, создайте отсутствующие локальные источники данных и привяжите набор данных к шлюзу вручную с помощью интерфейса [привязки к шлюзу](https://docs.microsoft.com/rest/api/power-bi/datasets/bindtogateway).
+Если вы используете локальные наборы данных, создайте отсутствующие локальные источники данных и привяжите набор данных к шлюзу вручную с помощью интерфейса [привязки к шлюзу](/rest/api/power-bi/datasets/bindtogateway).
 
-Чтобы обнаружить доступные для привязки шлюзы, используйте интерфейс [обнаружения шлюзов](https://docs.microsoft.com/rest/api/power-bi/datasets/discovergateways).
+Чтобы обнаружить доступные для привязки шлюзы, используйте интерфейс [обнаружения шлюзов](/rest/api/power-bi/datasets/discovergateways).

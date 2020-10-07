@@ -8,23 +8,23 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d782ee1d7a3fd137624054ee9e2bca0247ddb5ea
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354991"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748892"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Шаг 3. Создание набора данных в Power BI
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
-На **шаге 2** ([Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)) руководства по отправке данных в набор данных вы получили маркер для проверки подлинности в **Azure AD**. На этом шаге вы будете использовать этот маркер для вызова операции [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
+На **шаге 2** ([Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)) руководства по отправке данных в набор данных вы получили маркер для проверки подлинности в **Azure AD**. На этом шаге вы будете использовать этот маркер для вызова операции [PostDataset](/rest/api/power-bi/pushdatasets).
 
 Чтобы вызвать ресурс REST, используйте URL-адрес, который указывает на ресурс, а затем отправьте строку JavaScript Object Notation (JSON), которая описывает набор данных, в ресурс службы Power BI. Ресурс REST определяет часть службы Power BI, с которой вы будете работать. Для принудительной отправки данных в набор данных в качестве целевого ресурса используется **набор данных**. `https://api.PowerBI.com/v1.0/myorg/datasets` — это URL-адрес, определяющий набор данных. Если данные отправляются в рамках группы, используется URL-адрес `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`.
 
 Для проверки подлинности в ходе операции REST Power BI добавьте в заголовок запроса маркер, полученный на шаге [Получение маркера доступа для проверки подлинности](walkthrough-push-data-get-token.md).
 
-При вызове операции [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) создается набор данных. 
+При вызове операции [PostDataset](/rest/api/power-bi/pushdatasets) создается набор данных. 
 
 ![Создание набора данных](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -229,11 +229,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)  
 * [Получение токена доступа для проверки подлинности](walkthrough-push-data-get-token.md)  
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 * [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 * [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
-* [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Справочник по REST API Power BI](/rest/api/power-bi/)  
 
 Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
-

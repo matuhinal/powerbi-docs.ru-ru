@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 76947b1e311bbd1a21e09ce39461a70bed61d926
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8ab94bd33aa2f0674f6dc45a93da0d2f42b1647
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079607"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749307"
 ---
 # <a name="data-model-versioning"></a>Управление версиями в модели данных
 
@@ -39,4 +39,4 @@ ms.locfileid: "79079607"
 Дополнительную информацию о стандартах моделей данных OData см. в разделе [OData версии 4.0, часть 1, "Протокол и корректировочный список 02"](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
   
 ## <a name="see-also"></a>См. также
-[Обзор интерфейса REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+[Обзор интерфейса REST API Power BI](/rest/api/power-bi/)

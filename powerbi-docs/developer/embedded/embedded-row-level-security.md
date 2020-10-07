@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402055"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748915"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Безопасность на уровне строк в Power BI Embedded
 
@@ -78,7 +78,7 @@ ms.locfileid: "89402055"
 
 После настройки ролей Power BI Desktop нужно выполнить ряд действий в приложении, чтобы воспользоваться этими ролями.
 
-Пользователи проходят проверку подлинности и авторизацию с помощью приложения. Маркеры внедрения используются для предоставления им доступа к конкретным отчетам Power BI Embedded. Power BI Embedded не имеет каких-либо конкретных данных о пользователе. Для работы RLS необходимо передать некоторый дополнительный контекст в токене внедрения в форме удостоверений. Можно передать удостоверения с помощью API [токена внедрения](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Пользователи проходят проверку подлинности и авторизацию с помощью приложения. Маркеры внедрения используются для предоставления им доступа к конкретным отчетам Power BI Embedded. Power BI Embedded не имеет каких-либо конкретных данных о пользователе. Для работы RLS необходимо передать некоторый дополнительный контекст в токене внедрения в форме удостоверений. Можно передать удостоверения с помощью API [токена внедрения](/rest/api/power-bi/embedtoken).
 
 Он принимает список удостоверений с указанием соответствующих наборов данных. Для работы RLS необходимо передать приведенные ниже элементы как часть удостоверения.
 
@@ -134,7 +134,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 Действующее удостоверение, предоставленное для свойства имени пользователя, должно предназначаться для пользователя Windows с разрешениями на сервере служб Analysis Services.
 
 >[!NOTE]
-> При использовании субъекта-службы с источником данных [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) сам субъект-служба должен иметь разрешения экземпляра Azure Analysis Services. Использовать для этой цели группу безопасности, содержащую субъект-службу, нельзя.
+> При использовании субъекта-службы с источником данных [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) сам субъект-служба должен иметь разрешения экземпляра Azure Analysis Services. Использовать для этой цели группу безопасности, содержащую субъект-службу, нельзя.
 
 ### <a name="on-premises-data-gateway-configuration"></a>Настройка локального шлюза данных
 
@@ -195,7 +195,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 Ниже приведены действия для настройки функции CustomData() с помощью приложения Power BI Embedded.
 
-1. Создайте базу данных Azure Analysis Services. Войдите на сервер Azure Analysis Services с помощью [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+1. Создайте базу данных Azure Analysis Services. Войдите на сервер Azure Analysis Services с помощью [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
     ![Создание базы данных Azure Analysis Services](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -245,7 +245,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 * Настройка ролей в отчете Power BI, как это сделать см. [здесь](../../create-reports/desktop-rls.md).
 * Настройка ролей на уровне источника данных (только динамическое подключение Analysis Services).
-* Программным образом с помощью [токена внедрения](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup), используя `EffectiveIdentity`. При использовании токена внедрения: фактический фильтр проходит через токен внедрения во время конкретного сеанса.
+* Программным образом с помощью [токена внедрения](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup), используя `EffectiveIdentity`. При использовании токена внедрения: фактический фильтр проходит через токен внедрения во время конкретного сеанса.
 
 [Фильтры JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) используются, чтобы пользователь мог получать уменьшенное, масштабированное или отфильтрованное представление данных. Тем не менее у пользователя по-прежнему есть доступ к таблицам модели схемы, столбцов и мер и потенциально может получать доступ к любым существующим там данным. Ограниченный доступ к данным может применяться только с использованием RLS, а не фильтрации API, осуществляемой клиентом.
 
@@ -261,7 +261,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 Действующее удостоверение применяется к правилам RLS непосредственно на сервере Azure SQL. В Power BI Embedded при запросе на получение данных с Azure SQL Server используется предоставленный маркер доступа. Имя участника-пользователя (для которого был предоставлен маркер доступа) можно получить в результате выполнения функции SQL USER_NAME().
 
-Удостоверение на основе токена работает только для моделей DirectQuery с выделенной емкостью, которые подключаются к Базе данных SQL Azure, настроенной для использования проверки подлинности Microsoft Azure Active Directory ([см. сведения о проверке подлинности AAD для Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). Настройте источник набора данных так, чтобы использовать учетные данные OAuth2 пользователей и удостоверение на основе токена.
+Удостоверение на основе токена работает только для моделей DirectQuery с выделенной емкостью, которые подключаются к Базе данных SQL Azure, настроенной для использования проверки подлинности Microsoft Azure Active Directory ([см. сведения о проверке подлинности AAD для Базы данных SQL Azure](/azure/sql-database/sql-database-manage-logins)). Настройте источник набора данных так, чтобы использовать учетные данные OAuth2 пользователей и удостоверение на основе токена.
 
    ![Настройка Azure SQL Server](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -322,11 +322,11 @@ public IdentityBlob(string value);
 
 Клиенты, настроившие безопасность на уровне строк (RLS), используя в качестве источника данных активное подключение к локальным службам SQL Server Analysis Services (SSAS), получают возможность применять [субъект-службу](embed-service-principal.md) для управления пользователями и их доступом к данным в службах SSAS при интеграции с **Power BI Embedded**.
 
-Интерфейсы [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) позволяют указать действующее удостоверение для активных подключений к локальным службам SSAS на основе токена внедрения с помощью [объекта субъекта-службы](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+Интерфейсы [REST API Power BI](/rest/api/power-bi/) позволяют указать действующее удостоверение для активных подключений к локальным службам SSAS на основе токена внедрения с помощью [объекта субъекта-службы](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 
 Ранее для указания действующего удостоверения для активного подключения к локальным службам SSAS главный пользователь, создающий токен внедрения, должен был быть администратором шлюза. Теперь администратор шлюза может предоставить пользователю специальное разрешение на доступ к источнику данных, позволяющее ему переопределить действующее удостоверение при создании токена внедрения. Эта новая возможность позволяет выполнять внедрение с помощью субъекта-службы для активного подключения к службам SSAS.
 
-Для этого администратор шлюза использует [REST API добавления пользователя источника данных](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser), чтобы предоставить субъекту-службе разрешение *ReadOverrideEffectiveIdentity* в Power BI Embedded.
+Для этого администратор шлюза использует [REST API добавления пользователя источника данных](/rest/api/power-bi/gateways/adddatasourceuser), чтобы предоставить субъекту-службе разрешение *ReadOverrideEffectiveIdentity* в Power BI Embedded.
 
 Предоставить это разрешение через портал администрирования нельзя. Оно задается только с помощью API. На портале администрирования пользователи и субъекты-службы, имеющие это разрешение, обозначены особым образом.
 

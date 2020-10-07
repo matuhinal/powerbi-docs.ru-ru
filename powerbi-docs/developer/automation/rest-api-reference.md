@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
-ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9624195458c965a652b889089ce7ef8521281c95
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079377"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748938"
 ---
 # <a name="power-bi-rest-api-reference"></a>Справочник по REST API Power BI
 
@@ -30,6 +30,6 @@ Power BI — это облачная служба, которую можно и�
 * Операции со строками: добавление и удаление строк.
 * Операции с группами: получение групп.
 
-Дополнительные сведения о REST API для Power BI см. в документации по [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
+Дополнительные сведения о REST API для Power BI см. в документации по [REST API Power BI](/rest/api/power-bi/).
 
 У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

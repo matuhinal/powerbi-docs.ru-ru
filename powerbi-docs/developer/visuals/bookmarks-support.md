@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878594"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749007"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Добавление поддержки закладок для визуальных элементов Power BI
 
 С помощью закладок в отчете Power BI можно зафиксировать настроенное представление страницы отчета, состояние выбора и состояние фильтрации визуального элемента. Но для поддержки закладок и правильного реагирования на изменения визуальные элементы Power BI требуют некоторой доработки.
 
-Дополнительные сведения о закладках см. в статье [Использование закладок для обмена аналитическими сведениями и создания историй в Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
+Дополнительные сведения о закладках см. в статье [Использование закладок для обмена аналитическими сведениями и создания историй в Power BI](../../create-reports/desktop-bookmarks.md).
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Поддержка закладок отчетов в визуальном элементе
 

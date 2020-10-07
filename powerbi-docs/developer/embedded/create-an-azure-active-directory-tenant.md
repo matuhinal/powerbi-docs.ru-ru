@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354945"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748777"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Создание клиента Azure Active Directory для использования с Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "85354945"
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Создание клиента Azure Active Directory
 
-Для интеграции Power BI в пользовательское приложение нужно определить приложение в Azure AD, для чего нужен каталог Azure AD. Этот каталог является вашим *клиентом*. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Microsoft 365, [нужно настроить среду разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ее также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации, что позволяет обеспечить изоляцию. Или можно просто создать клиент для тестирования.
+Для интеграции Power BI в пользовательское приложение нужно определить приложение в Azure AD, для чего нужен каталог Azure AD. Этот каталог является вашим *клиентом*. Если у вашей организации еще нет клиента, так как вы не используете Power BI или Microsoft 365, [нужно настроить среду разработки](/azure/active-directory/develop/active-directory-howto-tenant). Ее также может потребоваться создать, если вы не хотите использовать приложение совместно с клиентом вашей организации, что позволяет обеспечить изоляцию. Или можно просто создать клиент для тестирования.
 
 Чтобы создать клиент Azure AD, сделайте следующее:
 
@@ -93,8 +93,8 @@ ms.locfileid: "85354945"
 
 Теперь, когда у вас есть клиент Azure AD, вы можете использовать его для тестирования элементов в Power BI. Кроме того, вы можете внедрять панели мониторинга и отчеты Power BI в приложение. Дополнительные сведения см. в статье [Как внедрять панели мониторинга, отчеты и плитки Power BI](embed-sample-for-customers.md).
 
-[Что такое Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+[Что такое Azure Active Directory?](/azure/active-directory/active-directory-whatis) 
  
-[Краткое руководство. Настройка среды разработки](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Краткое руководство. Настройка среды разработки](/azure/active-directory/develop/active-directory-howto-tenant)  
 
 Остались вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

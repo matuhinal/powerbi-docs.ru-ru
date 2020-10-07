@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488439"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748984"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Какие возможности API Power BI предоставляет разработчикам?
 
@@ -26,7 +26,7 @@ ms.locfileid: "79488439"
 | **Интересующие темы** | **Справочные материалы** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | Внедрение отчетов, панелей мониторинга и плиток для пользователей Power BI и других программ. | [Как внедрять панели мониторинга, отчеты и плитки Power BI](../embedded/embed-sample-for-customers.md) |
-| Выполняйте задачи управления объектами Power BI. | [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Выполняйте задачи управления объектами Power BI. | [Справочник по REST API Power BI](/rest/api/power-bi/) |
 | Расширение существующего рабочего бизнес-процесса для принудительной отправки ключевых данных в панель мониторинга Power BI. | [Принудительная отправка данных на панель мониторинга](walkthrough-push-data.md) |
 | Аутентификация в Power BI. | [Аутентификация в Power BI](../embedded/get-azuread-access-token.md) |
 
@@ -35,10 +35,10 @@ ms.locfileid: "79488439"
 
 ## <a name="api-developer-tools"></a>Инструменты API для разработчика
 
-| Инструменты | Описание |  |  |
-|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Инструмент "Тестовая площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo) | Воспользуйтесь полным примером использования API-интерфейсов JavaScript в Power BI. Этот инструмент также позволит быстро познакомиться с разными примерами Power BI Embedded. |  |  |
-| [Вики-сайт по JavaScript для Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Дополнительные сведения об API-интерфейсах JavaScript в Power BI. |  |  |
+| Инструменты | Описание |
+|---------|-------------|
+| [Инструмент "Тестовая площадка"](https://microsoft.github.io/PowerBI-JavaScript/demo) | Воспользуйтесь полным примером использования API-интерфейсов JavaScript в Power BI. Этот инструмент также позволит быстро познакомиться с разными примерами Power BI Embedded. |
+| [Вики-сайт по JavaScript для Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Дополнительные сведения об API-интерфейсах JavaScript в Power BI. |
 | [Postman](https://www.getpostman.com/) | Выполнение запросов, тестирование, отладка, мониторинг, запуск автоматических тестов и многое другое. |
 
 ## <a name="push-data-into-power-bi"></a>Принудительная отправка данных в Power BI
@@ -58,6 +58,6 @@ ms.locfileid: "79488439"
 * [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)
 * [Разработка визуального элемента Power BI](../visuals/custom-visual-develop-tutorial.md)
 * [Справочник по REST API Power BI](rest-api-reference.md)
-* [REST API в Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+* [REST API в Power BI](/rest/api/power-bi/)
 
 У вас имеются и другие вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)

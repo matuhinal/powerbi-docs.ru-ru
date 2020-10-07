@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495810"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748800"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Ведение журнала диагностики для Power BI Embedded в Azure
 
-[Журналы диагностики ресурсов Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) позволяют регистрировать множество событий из емкости, передавать их в средства аналитики и получать полезные сведения о поведении ресурса.
+[Журналы диагностики ресурсов Azure](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) позволяют регистрировать множество событий из емкости, передавать их в средства аналитики и получать полезные сведения о поведении ресурса.
 
 Использование диагностики используется в некоторых сценариях, например:
 
@@ -36,12 +36,12 @@ ms.locfileid: "79495810"
 
     * **Имя** — введите имя для создаваемого параметра диагностики.
 
-    * **Архивировать в учетной записи хранения** — чтобы использовать этот параметр, необходимо подключиться к существующей учетной записи хранения. См. инструкции по [созданию учетных записей хранения Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account). Затем вернитесь на эту страницу портала и выберите учетную запись хранения. Может пройти несколько минут, прежде чем только что созданная учетная запись хранения отобразится в раскрывающемся меню. Хранилище файлов журнала имеет формат JSON.
-    * **Передать в концентратор событий** — чтобы использовать этот параметр, необходимо подключиться к существующему концентратору событий и его пространству имен. См. инструкции по [созданию пространства имен центров событий и центра событий с помощью портала Azure](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).
-    * **Отправить в Log Analytics** — чтобы использовать этот параметр, выберите существующую или [создайте новую рабочую область](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) Log Analytics. Для этого используется служба [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview), которая предоставляет встроенные возможности анализа, панель мониторинга и уведомления. Log Analytics можно использовать, чтобы подключить дополнительные источники данных из других ресурсов и получить полное представление данных по ресурсам вашего приложения. Эту службу также можно подключить к [Power BI одним щелчком](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi).
-    Дополнительные сведения о просмотре журналов в Log Analytics см. в статье [Сбор и анализ журналов действий Azure в Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity).
+    * **Архивировать в учетной записи хранения** — чтобы использовать этот параметр, необходимо подключиться к существующей учетной записи хранения. См. инструкции по [созданию учетных записей хранения Azure](/azure/storage/common/storage-create-storage-account). Затем вернитесь на эту страницу портала и выберите учетную запись хранения. Может пройти несколько минут, прежде чем только что созданная учетная запись хранения отобразится в раскрывающемся меню. Хранилище файлов журнала имеет формат JSON.
+    * **Передать в концентратор событий** — чтобы использовать этот параметр, необходимо подключиться к существующему концентратору событий и его пространству имен. См. инструкции по [созданию пространства имен центров событий и центра событий с помощью портала Azure](/azure/event-hubs/event-hubs-create).
+    * **Отправить в Log Analytics** — чтобы использовать этот параметр, выберите существующую или [создайте новую рабочую область](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) Log Analytics. Для этого используется служба [Azure Log Analytics](/azure/log-analytics/log-analytics-overview), которая предоставляет встроенные возможности анализа, панель мониторинга и уведомления. Log Analytics можно использовать, чтобы подключить дополнительные источники данных из других ресурсов и получить полное представление данных по ресурсам вашего приложения. Эту службу также можно подключить к [Power BI одним щелчком](/azure/log-analytics/log-analytics-powerbi).
+    Дополнительные сведения о просмотре журналов в Log Analytics см. в статье [Сбор и анализ журналов действий Azure в Log Analytics](/azure/log-analytics/log-analytics-activity).
     * **Подсистема** — выберите этот параметр, чтобы записывать [ряд событий](#whats-logged) подсистемы, которые приводятся ниже.
-    * **AllMetrics** — выберите этот параметр, чтобы сохранять подробные данные в разделе [Метрики](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics). Если выполняется архивация в учетную запись хранения, можно выбрать период удержания для журналов диагностики. По истечении этого срока журналы будут удалены автоматически.
+    * **AllMetrics** — выберите этот параметр, чтобы сохранять подробные данные в разделе [Метрики](/azure/analysis-services/analysis-services-monitor#server-metrics). Если выполняется архивация в учетную запись хранения, можно выбрать период удержания для журналов диагностики. По истечении этого срока журналы будут удалены автоматически.
 
 3. Щелкните **Сохранить**.
 
@@ -87,11 +87,11 @@ ms.locfileid: "79495810"
 
 ### <a name="rest-api"></a>API-интерфейсы REST
 
-Узнайте, как [изменить параметры диагностики с помощью REST API Azure Monitor](https://docs.microsoft.com/rest/api/monitor/). 
+Узнайте, как [изменить параметры диагностики с помощью REST API Azure Monitor](/rest/api/monitor/). 
 
 ### <a name="resource-manager-template"></a>Шаблон Resource Manager
 
-Узнайте, как [включить параметры диагностики при создании ресурса с помощью шаблона Resource Manager](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
+Узнайте, как [включить параметры диагностики при создании ресурса с помощью шаблона Resource Manager](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
 
 ## <a name="whats-logged"></a>Какие данные регистрируются?
 
@@ -174,11 +174,11 @@ ms.locfileid: "79495810"
 
 Выберите **EventClass\_s** или одно из имен событий, и Log Analytics продолжит создание запроса. Не забудьте сохранить запросы для последующего использования.
 
-Обязательно ознакомьтесь со службой [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), которая предоставляет веб-сайт с расширенными возможностями создания запросов, панелей мониторинга и оповещений на основе собранных данных.
+Обязательно ознакомьтесь со службой [Log Analytics](/azure/log-analytics/), которая предоставляет веб-сайт с расширенными возможностями создания запросов, панелей мониторинга и оповещений на основе собранных данных.
 
 ### <a name="queries"></a>Запросы
 
-Вы можете использовать сотни запросов. Ниже приведено несколько запросов для ознакомления. Дополнительные сведения об использовании нового языка запросов поиска по журналам см. в статье [Основные сведения о поисках по журналам в Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
+Вы можете использовать сотни запросов. Ниже приведено несколько запросов для ознакомления. Дополнительные сведения об использовании нового языка запросов поиска по журналам см. в статье [Основные сведения о поисках по журналам в Log Analytics](/azure/log-analytics/log-analytics-log-search).
 
 * Результаты запроса, на выполнение которого потребовалось менее пяти минут (300 000 миллисекунд).
 
@@ -206,7 +206,7 @@ ms.locfileid: "79495810"
 Дополнительные сведения о ведении журналов диагностики ресурсов Azure:
 
 > [!div class="nextstepaction"]
-> [Ведение журналов диагностики ресурсов Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Ведение журналов диагностики ресурсов Azure](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)

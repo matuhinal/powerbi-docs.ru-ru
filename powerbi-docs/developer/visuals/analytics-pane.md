@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239903"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749030"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Панель аналитики в визуальных элементах Power BI
 
-**Панель аналитики** была представлена для [собственных визуальных элементов](https://docs.microsoft.com/power-bi/desktop-analytics-pane) в ноябре 2018 г.
+**Панель аналитики** была представлена для [собственных визуальных элементов](../../transform-model/desktop-analytics-pane.md) в ноябре 2018 г.
 В этой статье описывается, каким образом пользовательские визуальные элементы с API версии 2.5.0 могут предоставлять свои свойства и управлять ими на **панели аналитики**.
 
 ![Панель "Аналитика"](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>Управление панелью "Аналитика"
 
-Как и в случае со свойствами в [панели **Формат**](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), для управления панелью **Аналитика** необходимо определить объект в файле *capabilities.json* визуального элемента.
+Как и в случае со свойствами в [панели **Формат**](./custom-visual-develop-tutorial-format-options.md), для управления панелью **Аналитика** необходимо определить объект в файле *capabilities.json* визуального элемента.
 
 Отличия в случае с панелью **Аналитика** заключаются в следующем:
 

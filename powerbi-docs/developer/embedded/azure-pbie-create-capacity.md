@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528374"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748869"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Создание емкости Power BI Embedded на портале Azure
 
@@ -26,11 +26,11 @@ ms.locfileid: "91528374"
 
 * **Подписка Azure.** Посетите страницу [бесплатной пробной версии Azure](https://azure.microsoft.com/free/), чтобы создать учетную запись.
 
-* **Azure Active Directory.** Ваша подписка должна быть связана с клиентом Azure Active Directory (Azure AD). Кроме того, ***вам необходимо войти в Azure с учетной записью в этом клиенте***. Учетные записи Майкрософт не поддерживаются. Дополнительные сведения см. в разделе [Проверка подлинности и разрешения пользователей](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users).
+* **Azure Active Directory.** Ваша подписка должна быть связана с клиентом Azure Active Directory (Azure AD). Кроме того, ***вам необходимо войти в Azure с учетной записью в этом клиенте***. Учетные записи Майкрософт не поддерживаются. Дополнительные сведения см. в разделе [Проверка подлинности и разрешения пользователей](/azure/analysis-services/analysis-services-manage-users).
 
 * **Клиент Power BI.** По крайней мере одна учетная запись в клиенте Azure AD должна быть зарегистрирована в Power BI.
 
-* **Группа ресурсов.** Используйте существующую группу ресурсов или [создайте новую](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+* **Группа ресурсов.** Используйте существующую группу ресурсов или [создайте новую](/azure/azure-resource-manager/resource-group-overview).
 
 ## <a name="create-a-capacity"></a>Создание емкости
 
@@ -50,13 +50,13 @@ ms.locfileid: "91528374"
 
     * **Подписка** — подписка, в которой вы хотите создать емкость.
 
-    * **Группа ресурсов** — группа ресурсов, содержащая новую емкость. Выберите существующую группу ресурсов или создайте новую. Дополнительные сведения см. в [обзоре Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+    * **Группа ресурсов** — группа ресурсов, содержащая новую емкость. Выберите существующую группу ресурсов или создайте новую. Дополнительные сведения см. в [обзоре Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview).
 
     * **Имя ресурса** — имя ресурса емкости.
 
     * **Расположение** — расположение, где размещается Power BI для вашего клиента. Расположение по умолчанию — ваш домашний регион, но можно изменить расположение, используя [параметры поддержки нескольких регионов](embedded-multi-geo.md).
 
-    * **Размер** — требуемый номер [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Дополнительные сведения см. в разделе [Память и вычислительные ресурсы SKU](/power-bi/developer/embedded/embedded-capacity).
+    * **Размер** — требуемый номер [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Дополнительные сведения см. в разделе [Память и вычислительные ресурсы SKU](./embedded-capacity.md).
 
     * **Администратор емкости Power BI** — администратор емкости.
         >[!NOTE]
@@ -114,7 +114,7 @@ ms.locfileid: "91528374"
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Создание емкости с помощью Azure CLI
 
-Чтобы создать емкость, используйте команду [az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create).
+Чтобы создать емкость, используйте команду [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create).
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Удаление емкости с помощью Azure CLI
 
-Чтобы удалить емкость с помощью Azure CLI, используйте команду [az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
+Чтобы удалить емкость с помощью Azure CLI, используйте команду [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Управление емкостью с помощью Azure CLI
 
-Просмотреть все команды Azure CLI для Power BI Embedded можно в разделе [az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest).
+Просмотреть все команды Azure CLI для Power BI Embedded можно в разделе [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest).
 
 # <a name="arm-template"></a>[Шаблон ARM](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>Использование шаблона Resource Manager
 
-[Шаблон Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview) является файлом нотации объектов JavaScript (JSON), определяющими инфраструктуру и конфигурацию вашего проекта. Шаблон использует декларативный синтаксис, который позволяет указать объект, который вы собираетесь развернуть. При этом, для развертывания объекта, не нужно писать последовательность команд. Дополнительные сведения о разработке шаблонов Resource Manager см. в разделе [Документация по Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/) и в [справочнике по шаблонам](https://docs.microsoft.com/azure/templates/).
+[Шаблон Resource Manager](/azure/azure-resource-manager/templates/overview) является файлом нотации объектов JavaScript (JSON), определяющими инфраструктуру и конфигурацию вашего проекта. Шаблон использует декларативный синтаксис, который позволяет указать объект, который вы собираетесь развернуть. При этом, для развертывания объекта, не нужно писать последовательность команд. Дополнительные сведения о разработке шаблонов Resource Manager см. в разделе [Документация по Azure Resource Manager](/azure/azure-resource-manager/) и в [справочнике по шаблонам](/azure/templates/).
 
 Если у вас еще нет подписки Azure, создайте [бесплатную](https://azure.microsoft.com/free/) учетную запись Azure, прежде чем начинать работу.
 
@@ -209,7 +209,7 @@ az powerbi embedded-capacity delete --name
 }
 ```
 
-В шаблоне определен один ресурс Azure, [Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions), который создает емкость Power BI Embedded.
+В шаблоне определен один ресурс Azure, [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions), который создает емкость Power BI Embedded.
 
 ### <a name="deploy-the-template"></a>Развертывание шаблона
 
@@ -223,16 +223,16 @@ az powerbi embedded-capacity delete --name
 
     * **Подписка** — подписка, в которой вы хотите создать емкость.
 
-    * **Группа ресурсов** — группа ресурсов, содержащая новую емкость. Выберите существующую группу ресурсов или создайте новую. Дополнительные сведения см. в [обзоре Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+    * **Группа ресурсов** — группа ресурсов, содержащая новую емкость. Выберите существующую группу ресурсов или создайте новую. Дополнительные сведения см. в [обзоре Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview).
 
     * **Регион** — регион, к которому будет относиться емкость.
 
     * **Имя** — имя емкости.
 
-    * **Расположение** — расположение, где размещается Power BI для вашего клиента. Расположение по умолчанию — ваш домашний регион, но можно изменить расположение, используя [параметры поддержки нескольких регионов](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * **Расположение** — расположение, где размещается Power BI для вашего клиента. Расположение по умолчанию — ваш домашний регион, но можно изменить расположение, используя [параметры поддержки нескольких регионов](./embedded-multi-geo.md
 ).
 
-    * **Номер SKU** — требуемый номер [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Дополнительные сведения см. в разделе [Память и вычислительные ресурсы SKU](/power-bi/developer/embedded/embedded-capacity).
+    * **Номер SKU** — требуемый номер [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Дополнительные сведения см. в разделе [Память и вычислительные ресурсы SKU](./embedded-capacity.md).
 
     * **Администратор** — администратор емкости.
         >[!NOTE]
