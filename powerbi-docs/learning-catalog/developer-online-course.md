@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467040"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527891"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Курс по разработке в Power BI за один день
 
@@ -85,7 +85,7 @@ ms.locfileid: "84467040"
 
 - Последняя версия [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md).
 - Visual Studio 2015 или более поздней версии. Рекомендуем использовать [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/). Вы можете использовать бесплатный выпуск **Community**, который подходит для учебных сценариев. Для него должна быть установлена рабочая нагрузка **веб-разработки и ASP.NET**.
-- Веб-браузер, [поддерживаемый Power BI](../power-bi-browsers.md). Мы рекомендуем использовать Microsoft Edge.
+- Веб-браузер, [поддерживаемый Power BI](../fundamentals/power-bi-browsers.md). Мы рекомендуем использовать Microsoft Edge.
 
 Для настройки выполните следующие действия:
 
@@ -106,7 +106,7 @@ ms.locfileid: "84467040"
 Когда будете готовы приступить к первому занятию, откройте файл **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf**. В этом документе описывается, как войти в службу Power BI и подготовить отчет Power BI.
 
 > [!NOTE]
-> У вас должна быть учетная запись Power BI. Если у вас ее еще нет, см. статью [Регистрация учетной записи отдельного пользователя в Power BI](../service-self-service-signup-for-power-bi.md).
+> У вас должна быть учетная запись Power BI. Если у вас ее еще нет, см. статью [Регистрация учетной записи отдельного пользователя в Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > У вашей учетной записи должна быть лицензия на Power BI Pro. Вы также можете принять лицензию на пробную версию Power BI Pro (этим предложением можно воспользоваться только один раз). Кроме того, для вашей учетной записи не должен быть израсходован резерв бесплатных маркеров внедрения, доступных для лицензии на Power BI Pro.
 >

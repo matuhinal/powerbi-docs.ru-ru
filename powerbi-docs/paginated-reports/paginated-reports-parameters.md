@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526359"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600494"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Создание параметров для отчетов с разбивкой на страницы в службе Power BI
 
@@ -62,11 +62,6 @@ ms.locfileid: "91526359"
   
 9. Щелкните **ОК**. 
 
-## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
-
-- Если в качестве источника данных используется набор данных Power BI или модель Analysis Services, в одном запросе нельзя передать более 1000 значений параметров. DAX ограничивает количество значений параметров до 1000. 
-
- 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 В статье [View parameters for paginated reports in the Power BI service](../consumer/paginated-reports-view-parameters.md) (Просмотр параметров для отчетов с разбивкой на страницы в службе Power BI) объясняется, как отображаются параметры в службе Power BI.

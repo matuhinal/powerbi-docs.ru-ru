@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b2263a1eddfdbc51f0e345443f7bbb75b11da6e7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264477"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632739"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Удаление содержимого в службе Power BI
 В этой статье показано, как удалять панели мониторинга, отчеты, книги, наборы данных, приложения, визуализации и рабочие области в службе Power BI.
@@ -28,7 +28,7 @@ ms.locfileid: "86264477"
 
 ### <a name="to-delete-a-dashboard"></a>Удаление информационной панели
 1. В рабочей области перейдите на вкладку **Информационные панели**.
-2. Найдите информационную панель, которую необходимо удалить, и щелкните значок удаления ![значок удаления](media/service-delete/power-bi-delete-icon.png).
+2. Найдите информационную панель, которую необходимо удалить, и щелкните значок удаления :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.
 
     ![видео](media/service-delete/power-bi-delete-dash.gif)
 
@@ -37,7 +37,7 @@ ms.locfileid: "86264477"
 
 ### <a name="to-delete-a-report"></a>Удаление отчета
 1. В рабочей области перейдите на вкладку **Отчеты**.
-2. Найдите отчет, который необходимо удалить, и щелкните значок удаления   ![значок удаления](media/service-delete/power-bi-delete-icon.png).   
+2. Найдите отчет, который необходимо удалить, и щелкните значок удаления :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.   
 
     ![вкладка "Отчеты" рабочей области](media/service-delete/power-bi-delete-reportnew.png)
 3. Подтвердите удаление.
@@ -56,7 +56,7 @@ ms.locfileid: "86264477"
 
 ### <a name="to-delete-a-workbook"></a>Удаление книги
 1. В рабочей области перейдите на вкладку **Книги**.
-2. Найдите книгу, которую необходимо удалить, и щелкните значок удаления ![значок удаления](media/service-delete/power-bi-delete-report2.png) .
+2. Найдите книгу, которую необходимо удалить, и щелкните значок удаления :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
 
     ![Вкладка "Книги"](media/service-delete/power-bi-delete-workbooknew.png)
 3. Подтвердите удаление.
@@ -111,7 +111,7 @@ ms.locfileid: "86264477"
 
 2. В правом верхнем углу щелкните **Дополнительные параметры** (...) и выберите команды **Выйти из рабочей области** > **Выйти**.
 
-      ![выход из рабочей области](media/service-delete/power-bi-leave-workspace.png)
+      :::image type="icon" source="media/service-delete/power-bi-leave-workspace.png" border="false":::
 
    > [!NOTE]
    > Параметры, доступные в раскрывающемся списке, зависят от того, являетесь ли вы администратором или участником рабочей области.
@@ -125,7 +125,7 @@ ms.locfileid: "86264477"
 Удаление приложения из страницы со списком приложений не влияет на остальных участников.
 
 1. В области навигации выберите **Приложения**, чтобы открыть страницу со списком приложений.
-2. Наведите указатель мыши на название приложения, которое необходимо удалить, и щелкните значок удаления ![значок корзины для мусора](media/service-delete/power-bi-delete-report2.png)  .
+2. Наведите указатель мыши на название приложения, которое необходимо удалить, и щелкните значок удаления :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
 
    ![выбор страницы "Приложения"](media/service-delete/power-bi-delete-app.png)
 

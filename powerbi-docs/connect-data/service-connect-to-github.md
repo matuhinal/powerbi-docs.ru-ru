@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2e482c6efd60352721e1788a7929128af1b8cf89
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782431"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633637"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Подключение к GitHub с помощью Power BI
 Эта статья описывает извлечение данных из учетной записи GitHub с помощью приложения-шаблона Power BI. Приложение-шаблон создает рабочую область с панелью мониторинга, набор отчетов и набор данных, которые позволяют анализировать ваши данные GitHub. Приложение GitHub для Power BI позволяет анализировать данные в репозитории GitHub, используя информацию о вкладах пользователей, проблемах, запросах на вытягивание и активных пользователях.
@@ -125,7 +125,9 @@ ms.locfileid: "85782431"
 
 Первая часть, "Azure", — это владелец, а вторая часть, "azure-sdk-for-php", — это сам репозиторий.  Эти же два элемента можно увидеть в URL-адресе репозитория:
 
-    <https://github.com/Azure/azure-sdk-for-php> .
+```console
+<https://github.com/Azure/azure-sdk-for-php> .
+```
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 При необходимости вы можете проверить учетные данные GitHub.  
