@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092246"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746638"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Руководство. Внедрение содержимого Power BI в приложение для клиентов
 
@@ -46,7 +46,7 @@ ms.locfileid: "86092246"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Регистрация приложения в Azure Active Directory
 
-[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему [разрешения на доступ к ресурсам REST Power BI](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Способ регистрации приложения зависит от того, используете ли вы главную учетную запись или [субъект-службу](embed-service-principal.md).
+[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему [разрешения на доступ к ресурсам REST Power BI](/azure/active-directory/develop/v2-permissions-and-consent). Способ регистрации приложения зависит от того, используете ли вы главную учетную запись или [субъект-службу](embed-service-principal.md).
 
 Выбранный метод влияет на тип приложения, регистрируемого в Azure.
 
@@ -62,7 +62,7 @@ ms.locfileid: "86092246"
 
 ### <a name="create-and-publish-your-reports"></a>Создание и публикация отчетов
 
-Вы можете создавать отчеты и наборы данных с помощью Power BI Desktop, а затем публиковать эти отчеты в рабочей области. Эту задачу можно выполнять двумя способами. Конечный пользователь может публиковать отчеты в традиционной рабочей области с помощью главной учетной записи (с лицензией Power BI Pro). Если вы используете субъект-службу, то можете публиковать отчеты в новых рабочих областях с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+Вы можете создавать отчеты и наборы данных с помощью Power BI Desktop, а затем публиковать эти отчеты в рабочей области. Эту задачу можно выполнять двумя способами. Конечный пользователь может публиковать отчеты в традиционной рабочей области с помощью главной учетной записи (с лицензией Power BI Pro). Если вы используете субъект-службу, то можете публиковать отчеты в новых рабочих областях с помощью [REST API Power BI](/rest/api/power-bi/imports/postimportingroup).
 
 Ниже приведены пошаговые инструкции по публикации отчета PBIX в рабочей области Power BI.
 
@@ -224,11 +224,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-content-within-your-application"></a>Внедрение содержимого в приложении
 
-Несмотря на то, что шаги по внедрению содержимого выполняются с помощью [интерфейсов REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью **пакета SDK для .NET**.
+Несмотря на то, что шаги по внедрению содержимого выполняются с помощью [интерфейсов REST API Power BI](/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью **пакета SDK для .NET**.
 
-Чтобы внедрять содержимое для клиентов в приложении, вам нужно получить **маркер доступа** для главной учетной записи или [субъекта-службы](embed-service-principal.md) из **Azure AD**. [Маркер доступа Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI необходимо получить, прежде чем выполнять вызовы [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
+Чтобы внедрять содержимое для клиентов в приложении, вам нужно получить **маркер доступа** для главной учетной записи или [субъекта-службы](embed-service-principal.md) из **Azure AD**. [Маркер доступа Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI необходимо получить, прежде чем выполнять вызовы [REST API Power BI](/rest/api/power-bi/).
 
-Для создания клиента Power BI с помощью **маркера доступа** потребуется создать объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект ***Microsoft.Rest.TokenCredentials***.
+Для создания клиента Power BI с помощью **маркера доступа** потребуется создать объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ Report report = reports.Value.FirstOrDefault();
 **Интерфейсы API для создания токена внедрения для определенного элемента**
 
 Токен внедрения, созданный этими API, будет связан только с внедряемым элементом. При каждом внедрении элемента Power BI (такого как отчет, панель мониторинга или плитка) при помощи этих API необходимо создать для него новый токен внедрения.
-* [Панели мониторинга: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [Наборы данных: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [Отчеты: GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [Отчеты: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [Плитки: GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [Панели мониторинга: GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Наборы данных: GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Отчеты: GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Отчеты: GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Плитки: GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 Примеры создания токена внедрения для отчета, панели мониторинга или плитки доступны в следующих файлах [примеров приложений](https://github.com/Microsoft/PowerBI-Developer-Samples).
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 **API для создания и внедрения токена для нескольких элементов**<a id="multiEmbedToken"></a>
 
-API [создания токена](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) внедрения создает токен, который можно использовать для внедрения нескольких элементов.
+API [создания токена](/rest/api/power-bi/embedtoken/generatetoken) внедрения создает токен, который можно использовать для внедрения нескольких элементов.
 
 Он также допускает динамический выбор набора данных при внедрении отчета. Дополнительные сведения о таком использовании API см. в разделе [Динамическая привязка](embed-dynamic-binding.md).
 
@@ -414,7 +414,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 > [!NOTE]
 > С номерами SKU A вы не можете получить доступ к содержимому Power BI с бесплатной лицензией Power BI.
 
-В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
+В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](./embedded-faq.md#which-solution-should-i-choose).
 
 | Узлы емкости | Число виртуальных ядер | Серверные виртуальные ядра | ОЗУ (ГБ) | Интерфейсные виртуальные ядра | Подключения DirectQuery и активные подключения (в секунду) | Параллелизм обновления модели |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 Для тестирования в процессе разработки можно использовать токены внедрения пробной версии с лицензией Pro. Для внедрения в рабочей среде используйте выделенную емкость.
 
-Число токенов внедрения пробной версии, которые можно создать в субъекте-службе или основной учетной записи Power BI, ограниченно. Используйте API [доступных компонентов](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), чтобы просмотреть текущий объем использования сценариев внедрения в процентном соотношении. Объем использования приводится для отдельного субъекта-службы или главной учетной записи.
+Число токенов внедрения пробной версии, которые можно создать в субъекте-службе или основной учетной записи Power BI, ограниченно. Используйте API [доступных компонентов](/rest/api/power-bi/availablefeatures/getavailablefeatures), чтобы просмотреть текущий объем использования сценариев внедрения в процентном соотношении. Объем использования приводится для отдельного субъекта-службы или главной учетной записи.
 
 Если во время тестирования токены внедрения закончились, необходимо приобрести [емкость](embedded-capacity.md) Power BI Embedded или Premium. В этом случае не будет ограничения на количество создаваемых токенов.
 
@@ -441,7 +441,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 Все рабочие области, которые содержат ресурсы Power BI, связанные с внедренным содержимым (включая наборы данных, отчеты и панели мониторинга), должны быть назначены выделенным емкостям. Например, если внедренный отчет и связанный с ним набор данных размещаются в разных рабочих областях, обе эти рабочие области должны быть назначены выделенным емкостям.
 
-Чтобы назначить выделенную емкость рабочей области с помощью [субъекта-службы](embed-service-principal.md), используйте [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Если применяется REST API Power BI, необходимо использовать [идентификатор объекта субъекта-службы](embed-service-principal.md).
+Чтобы назначить выделенную емкость рабочей области с помощью [субъекта-службы](embed-service-principal.md), используйте [REST API Power BI](/rest/api/power-bi/capacities/groups_assigntocapacity). Если применяется REST API Power BI, необходимо использовать [идентификатор объекта субъекта-службы](embed-service-principal.md).
 
 Чтобы назначить выделенную емкость рабочей области с помощью **главной учетной записи**, выполните указанные ниже действия.
 

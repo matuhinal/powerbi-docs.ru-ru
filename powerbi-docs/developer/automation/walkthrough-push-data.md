@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488207"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746707"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Принудительная отправка данных набор данных Power BI
 
@@ -33,14 +33,14 @@ API Power BI позволяет принудительно отправлять
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Операции API Power BI для отправки данных
 
-REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, данные на плитках панели мониторинга обновляются автоматически. Принудительная отправка данных выполняется с помощью операций [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) и [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Для поиска набора данных используйте операцию [Получить наборы данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Для всех этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получить группы](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups).
+REST API Power BI позволяет принудительно отправлять источники данных в панель мониторинга Power BI. Когда приложение добавляет строки в набор данных, данные на плитках панели мониторинга обновляются автоматически. Принудительная отправка данных выполняется с помощью операций [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset) и [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows). Для поиска набора данных используйте операцию [Получить наборы данных](/rest/api/power-bi/datasets/getdatasets). Для всех этих операций можно передать идентификатор группы для работы с группой. Чтобы получить список идентификаторов групп, используйте операцию [Получить группы](/rest/api/power-bi/groups/getgroups).
 
 Ниже перечислены операции по отправке данных в набор данных.
 
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
-* [Отправка строк](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
-* [Получение групп](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Получение наборов данных](/rest/api/power-bi/datasets/getdatasets)
+* [Отправка строк](/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Получение групп](/rest/api/power-bi/groups/getgroups)
 
 Набор данных в Power BI создается путем передачи строки JavaScript Object Notation (JSON) в службу Power BI. Дополнительную информацию о JSON см. в статье [Введение в JSON](https://json.org/).
 
@@ -48,54 +48,58 @@ REST API Power BI позволяет принудительно отправля
 
 **Объект JSON набора данных Power BI**
 
-    {"name": "dataset_name", "tables":
-        [{"name": "", "columns":
-            [{ "name": "column_name1", "dataType": "data_type"},
-             { "name": "column_name2", "dataType": "data_type"},
-             { ... }
-            ]
-          }
+```json
+{"name": "dataset_name", "tables":
+    [{"name": "", "columns":
+        [{ "name": "column_name1", "dataType": "data_type"},
+         { "name": "column_name2", "dataType": "data_type"},
+         { ... }
         ]
-    }
+      }
+    ]
+}
+```
 
 Таким образом, в нашем примере с набором данных по продажам и маркетингу нужно передать строку JSON, как показано ниже. В этом примере **SalesMarketing** — это имя набора данных, а **Product** — имя таблицы. После определения таблицы следует определить схему таблицы. В случае с набором данных **SalesMarketing** схема таблицы содержит следующие столбцы: ProductID, Manufacturer, Category, Segment, Product и IsCompete.
 
 **Пример объекта JSON набора данных**
 
-    {
-        "name": "SalesMarketing",
-        "tables": [
+```json
+{
+    "name": "SalesMarketing",
+    "tables": [
+        {
+            "name": "Product",
+            "columns": [
+            {
+                "name": "ProductID",
+                "dataType": "int"
+            },
+            {
+                "name": "Manufacturer",
+                "dataType": "string"
+            },
+            {
+                "name": "Category",
+                "dataType": "string"
+            },
+            {
+                "name": "Segment",
+                "dataType": "string"
+            },
             {
                 "name": "Product",
-                "columns": [
-                {
-                    "name": "ProductID",
-                    "dataType": "int"
-                },
-                {
-                    "name": "Manufacturer",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Category",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Segment",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Product",
-                    "dataType": "string"
-                },
-                {
-                    "name": "IsCompete",
-                    "dataType": "bool"
-                }
-                ]
+                "dataType": "string"
+            },
+            {
+                "name": "IsCompete",
+                "dataType": "bool"
             }
-        ]
-    }
+            ]
+        }
+    ]
+}
+```
 
 Для схемы таблицы Power BI можно использовать следующие типы данных.
 

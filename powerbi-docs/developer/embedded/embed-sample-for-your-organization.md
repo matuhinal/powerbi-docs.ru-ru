@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273030"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746408"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Руководство. Внедрение содержимого Power BI в приложение для организации
 
@@ -50,7 +50,7 @@ ms.locfileid: "84273030"
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Регистрация приложения в Azure Active Directory
 
-[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
+[Зарегистрируйте приложение](register-app.md) в Azure Active Directory, чтобы предоставить ему доступ к [REST API Power BI](/rest/api/power-bi/). Регистрация приложения позволит создать удостоверение для приложения и предоставить ему разрешения на доступ к ресурсам REST Power BI.
 
 Вам нужно зарегистрировать **веб-приложение на стороне сервера**, чтобы создать секрет приложения.
 
@@ -190,9 +190,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-your-content-within-your-application"></a>Внедрение содержимого в приложении
 
-Несмотря на то, что шаги по внедрению содержимого можно выполнить с помощью [интерфейсов REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью пакета SDK для .NET.
+Несмотря на то, что шаги по внедрению содержимого можно выполнить с помощью [интерфейсов REST API Power BI](/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью пакета SDK для .NET.
 
-Чтобы интегрировать отчет в веб-приложение, используйте REST API Power BI или пакет SDK Power BI C#. Можно также использовать маркер доступа Azure Active Directory для получения отчета. Затем вы загружаете отчет, используя тот же токен доступа. REST API Power BI обеспечивает программный доступ к определенным ресурсам Power BI. Дополнительные сведения см. в документации по [интерфейсу REST API для Power BI](https://docs.microsoft.com/rest/api/power-bi/) и [интерфейсу API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Чтобы интегрировать отчет в веб-приложение, используйте REST API Power BI или пакет SDK Power BI C#. Можно также использовать маркер доступа Azure Active Directory для получения отчета. Затем вы загружаете отчет, используя тот же токен доступа. REST API Power BI обеспечивает программный доступ к определенным ресурсам Power BI. Дополнительные сведения см. в документации по [интерфейсу REST API для Power BI](/rest/api/power-bi/) и [интерфейсу API JavaScript для Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ### <a name="get-an-access-token-from-azure-ad"></a>Получение токена доступа из Azure AD
 
@@ -200,11 +200,11 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>Получение отчета
 
-Для получения отчета Power BI или отчета с разбивкой на страницы используется операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports), возвращающая список отчетов Power BI и отчетов с разбивкой на страницы. В списке отчетов можно получить идентификатор отчета.
+Для получения отчета Power BI или отчета с разбивкой на страницы используется операция [Получение отчетов](/rest/api/power-bi/reports/getreports), возвращающая список отчетов Power BI и отчетов с разбивкой на страницы. В списке отчетов можно получить идентификатор отчета.
 
 ### <a name="get-reports-by-using-an-access-token"></a>Получение отчетов с помощью маркера доступа
 
-Операция [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
+Операция [Получение отчетов](/rest/api/power-bi/reports/getreports) возвращает список отчетов. Можно получить один отчет в списке отчетов.
 
 Для вызова REST API необходимо включить заголовок *авторизации* в формате *Носитель {маркер доступа}* .
 

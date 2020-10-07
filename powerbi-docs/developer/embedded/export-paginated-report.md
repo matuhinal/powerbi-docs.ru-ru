@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86556895"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748179"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Экспорт отчета с разбивкой на страницы в файл (предварительная версия)
 
@@ -38,9 +38,9 @@ API `exportToFile` позволяет экспортировать отчет Po
 
 ## <a name="using-the-api"></a>Использование API
 
-API является асинхронным. При вызове API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) запускает задание экспорта. После запуска задания экспорта используйте [опрос](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) для отслеживания задания, пока оно не будет завершено.
+API является асинхронным. При вызове API [exportToFile](/rest/api/power-bi/reports/exporttofile) запускает задание экспорта. После запуска задания экспорта используйте [опрос](/rest/api/power-bi/reports/getexporttofilestatus) для отслеживания задания, пока оно не будет завершено.
 
-После завершения экспорта вызов API опроса возвращает [URL-адрес Power BI](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) для получения файла. URL-адрес будет доступен в течение 24 часов.
+После завершения экспорта вызов API опроса возвращает [URL-адрес Power BI](/rest/api/power-bi/reports/getfileofexporttofile) для получения файла. URL-адрес будет доступен в течение 24 часов.
 
 ## <a name="supported-features"></a>Поддерживаемые функции
 

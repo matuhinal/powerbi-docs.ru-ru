@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487840"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746224"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Использование встроенной аналитики с Power BI
 
@@ -43,7 +43,7 @@ ms.locfileid: "80487840"
  
 - Внедрение для пользователей и клиентов, которым не требуются лицензии Power BI. 
 
-[REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/) поддерживает оба сценария.
+[REST API Power BI](/rest/api/power-bi/) поддерживает оба сценария.
 
 Для пользователей и клиентов, у которых нет лицензий Power BI, вы можете внедрить панели мониторинга и отчеты в настраиваемое приложение, используя один API для обслуживания организации и клиентов. Клиенты видят данные, которыми управляет приложение. Кроме того, пользователям Power BI в организации доступны дополнительные возможности для просмотра *их данных* прямо в Power BI или в контексте внедренного приложения. При внедрении содержимого вы можете воспользоваться всеми преимуществами JavaScript и REST API.
 
@@ -53,7 +53,7 @@ ms.locfileid: "80487840"
 
 **Внедрение для организации** позволяет расширить возможности службы Power BI. Этот тип внедрения требует, чтобы пользователи вашего приложения вошли в службу Power BI для просмотра содержимого. Когда сотрудник организации войдет в приложение, он получит доступ только к своим панелям мониторинга и отчетам или панелям мониторинга и отчетам, предоставленным ему в службе Power BI.
 
-Примеры внедрения для организации включают внутренние приложения, например [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [интеграцию с Microsoft Teams (у вас должны быть права администратора)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) и [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
+Примеры внедрения для организации включают внутренние приложения, например [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [интеграцию с Microsoft Teams (у вас должны быть права администратора)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) и [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
 
 Чтобы выполнить внедрение для организации, см. [Руководство. Внедрение содержимого Power BI в приложение для организации](embed-sample-for-your-organization.md).
 

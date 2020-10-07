@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e0092003cbf019bcf720eeb7aa32e8a9e800f143
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561508"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747305"
 ---
 # <a name="dataset-properties"></a>Свойства набора данных
 
 В текущей версии 1 API набора данных можно создать только набор данных с именем и коллекцией таблиц. У каждой таблицы есть имя и коллекция объектов столбцов. У каждого столбца есть имя и тип данных. Мы существенно расширяем возможности соответствующих свойств главным образом за счет поддержки мер и связей между таблицами. Ниже приведен полный список свойств, поддерживаемых в этом выпуске.
 
 > [!IMPORTANT]
-> Он доступен на странице [Группы операций наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets).
+> Он доступен на странице [Группы операций наборов данных](/rest/api/power-bi/datasets).
 
 ## <a name="dataset"></a>Набор данных
 

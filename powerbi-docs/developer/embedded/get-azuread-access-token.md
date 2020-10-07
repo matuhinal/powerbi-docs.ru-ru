@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: e32b33a7e913772215fad63ddea7987d199420fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355060"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746615"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Получение маркера доступа Azure AD для приложения Power BI
 
-Эта статья описывает, как проверить подлинность пользователей в приложении Power BI и получить маркер доступа для использования с [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
+Эта статья описывает, как проверить подлинность пользователей в приложении Power BI и получить маркер доступа для использования с [REST API Power BI](/rest/api/power-bi/).
 
-Прежде чем приложение вызовет REST API, нужно получить **маркер доступа для проверки подлинности** Azure Active Directory (Azure AD). Ваше приложение использует этот маркер, чтобы обращаться к панелям мониторинга, плиткам и отчетам Power BI. Дополнительные сведения см. в разделе [Авторизация доступа к веб-приложениям Azure Active Directory с помощью потока предоставления кода OAuth 2.0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
+Прежде чем приложение вызовет REST API, нужно получить **маркер доступа для проверки подлинности** Azure Active Directory (Azure AD). Ваше приложение использует этот маркер, чтобы обращаться к панелям мониторинга, плиткам и отчетам Power BI. Дополнительные сведения см. в разделе [Авторизация доступа к веб-приложениям Azure Active Directory с помощью потока предоставления кода OAuth 2.0](/azure/active-directory/develop/v1-protocols-oauth-code).
 
 Способ получения маркера доступа зависит от того, каким образом внедряется содержимое. Эта статья описывает два разных подхода.
 
@@ -55,7 +55,7 @@ var @params = new NameValueCollection
 
 После создания строки запроса выполните перенаправление в **Azure AD** для получения **кода авторизации**.  Ниже приведен полный метод C# для создания строки запроса **кода авторизации** и перенаправления в **Azure AD**. После этого воспользуйтесь **кодом авторизации** для получения **маркера доступа**.
 
-В redirect.aspx.cs выполняется вызов [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) для создания маркера.
+В redirect.aspx.cs выполняется вызов [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) для создания маркера.
 
 #### <a name="get-authorization-code"></a>Получение кода авторизации
 

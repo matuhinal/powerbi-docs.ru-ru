@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878568"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748478"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Журнал изменений API визуальных элементов Power BI
 На этой странице содержится краткий обзор версий API. Перечисленные здесь версии считаются стабильными, в них изменений не будет.
@@ -62,7 +62,7 @@ ms.locfileid: "87878568"
 * Свойство `proto` больше не сохраняет скрытые метаданные и данные в dataView. Визуальные элементы, которые получают доступ к свойствам через `proto`, могут быть отключены в рамках этого обновления.
 
 ## <a name="api-v1130"></a>API версии 1.13.0
-* Поддерживает **[Синхронизацию срезов](./enable-sync-slicers.md)** . Обратите внимание, что эта функция применима только для отдельных срезов полей из-за текущего состояния кода PBI. Дополнительную информацию см. [здесь](/power-bi/desktop-slicers).
+* Поддерживает **[Синхронизацию срезов](./enable-sync-slicers.md)** . Обратите внимание, что эта функция применима только для отдельных срезов полей из-за текущего состояния кода PBI. Дополнительную информацию см. [здесь](../../visuals/power-bi-visualization-slicers.md).
 * Специальные возможности. [Поддержка высокой контрастности](./high-contrast-support.md) 
 * Специальные возможности. Флажок Allow Keyboard Focus (Разрешить фокус клавиатуры)
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 3ff04b476cba281ef484fc6a1bfd73be94af563e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512938"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746661"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Руководство. Разработка визуального элемента Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "88512938"
 
 * Если вы не зарегистрированы в **Power BI**, перед началом работы [пройдите бесплатную регистрацию](https://powerbi.microsoft.com/pricing/).
 * У вас должен быть установлен редактор [Visual Studio Code](https://www.visualstudio.com/).
-* Вам потребуется [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) версии 4 или более поздней для пользователей Windows либо [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
+* Вам потребуется [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) версии 4 или более поздней для пользователей Windows либо [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
 
 ## <a name="setting-up-the-developer-environment"></a>Настройка среды разработки
 

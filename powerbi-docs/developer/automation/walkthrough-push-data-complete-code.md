@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488299"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746500"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Полный листинг кода для отправки данных в набор данных
 
@@ -230,7 +230,7 @@ ms.locfileid: "79488299"
 * [Создание набора данных в панели мониторинга Power BI](walkthrough-push-data-create-dataset.md)  
 * [Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)  
 * [Добавление строк в таблицу Power BI](walkthrough-push-data-add-rows.md)  
-* [Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Справочник по REST API Power BI](/rest/api/power-bi/)  
 * [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
 
 У вас имеются и другие вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

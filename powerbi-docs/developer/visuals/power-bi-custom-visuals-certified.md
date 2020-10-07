@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: ee79a2f74714322e6ff7b4ec965060b7c9291060
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237443"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748133"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -84,7 +84,7 @@ ms.locfileid: "85237443"
 
 ### <a name="source-code-requirements"></a>Требования к исходному коду
 
-Убедитесь, что вы следуете перечню политик [дополнительной сертификации визуальных элементов Power BI](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification). Если отправка не будет соответствовать этим рекомендациям, сообщение из Центра партнеров об отклонении отправки будет содержать номера политик, перечисленные по этой ссылке.
+Убедитесь, что вы следуете перечню политик [дополнительной сертификации визуальных элементов Power BI](/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification). Если отправка не будет соответствовать этим рекомендациям, сообщение из Центра партнеров об отклонении отправки будет содержать номера политик, перечисленные по этой ссылке.
 
 Выполните приведенные ниже требования к коду, чтобы код соответствовал политикам сертификации Power BI.  
 

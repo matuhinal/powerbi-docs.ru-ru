@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355037"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748386"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Шаг 5. Добавление строк в таблицу Power BI
 
 Эта статья является частью пошагового руководства по [принудительной отправке данных в набор данных](walkthrough-push-data.md).
 
-На **шаге 4** ([Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)) руководства по принудительной отправке данных в набор данных вы использовали операцию [Получение наборов данных](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) и пакет Newtonsoft.Json, чтобы получить идентификатор набора данных. На этом шаге используется идентификатор набора данных с операцией [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) для добавления строк в набор данных **Power BI**. 
+На **шаге 4** ([Получение набора данных для добавления строк в таблицу Power BI](walkthrough-push-data-get-datasets.md)) руководства по принудительной отправке данных в набор данных вы использовали операцию [Получение наборов данных](/rest/api/power-bi/datasets/getdatasets) и пакет Newtonsoft.Json, чтобы получить идентификатор набора данных. На этом шаге используется идентификатор набора данных с операцией [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) для добавления строк в набор данных **Power BI**. 
 
-При вызове операции [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) строки добавляются в набор данных.
+При вызове операции [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) строки добавляются в набор данных.
 
 ![Добавление строк](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -105,9 +105,7 @@ ms.locfileid: "85355037"
     #endregion
 ```
 
-Ниже приведен [полный листинг кода](#code).
-
-<a name="code"/>
+Ниже приведен полный листинг кода.
 
 ## <a name="complete-code-listing"></a>Полный листинг кода
 
@@ -315,5 +313,5 @@ ms.locfileid: "85355037"
 ## <a name="next-steps"></a>Дальнейшие действия
 [Принудительная отправка данных в панель мониторинга Power BI](walkthrough-push-data.md)  
 [Обзор интерфейса REST API Power BI](overview-of-power-bi-rest-api.md)  
-[Справочник по REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+[Справочник по REST API Power BI](/rest/api/power-bi/)  
 Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

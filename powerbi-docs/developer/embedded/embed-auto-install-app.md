@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236925"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748662"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Автоматическая установка приложений Power BI при внедрении для организации
 
@@ -29,7 +29,7 @@ ms.locfileid: "85236925"
 
 ![Регистрация приложения с разрешением на создание содержимого](media/embed-auto-install-app/register-app-create-content.png)
 
-Далее вам нужно указать идентификатор приложения в URL-адресе внедрения. Чтобы предоставить идентификатор приложения, автору приложения нужно сначала установить приложение, а затем воспользоваться одним из поддерживаемых вызовов [Rest API Power BI](https://docs.microsoft.com/rest/api/power-bi/) — [Получение отчетов](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) или [Получение панелей мониторинга](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Затем автору приложения нужно использовать URL-адрес внедрения из ответа REST API. Идентификатор приложения отображается в URL-адресе, если содержимое получено из приложения.  После получения URL-адреса внедрения его можно использовать для систематического внедрения.
+Далее вам нужно указать идентификатор приложения в URL-адресе внедрения. Чтобы предоставить идентификатор приложения, автору приложения нужно сначала установить приложение, а затем воспользоваться одним из поддерживаемых вызовов [Rest API Power BI](/rest/api/power-bi/) — [Получение отчетов](/rest/api/power-bi/reports/getreports) или [Получение панелей мониторинга](/rest/api/power-bi/dashboards/getdashboards). Затем автору приложения нужно использовать URL-адрес внедрения из ответа REST API. Идентификатор приложения отображается в URL-адресе, если содержимое получено из приложения.  После получения URL-адреса внедрения его можно использовать для систематического внедрения.
 
 ## <a name="secure-embed"></a>Безопасное внедрение
 

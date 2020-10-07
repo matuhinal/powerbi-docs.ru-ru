@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 2b1b28608799616f4bc75837f82521ae345cf186
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148855"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746270"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Руководство. Создание визуального элемента на основе React
 
@@ -36,7 +36,7 @@ ms.locfileid: "83148855"
 
 * Учетная запись **Power BI Pro**. [Зарегистрируйтесь для получения бесплатной пробной версии](https://powerbi.microsoft.com/pricing/) перед началом работы.
 * [Visual Studio Code](https://www.visualstudio.com/).
-* [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) версии 4 или более поздней для пользователей Windows ИЛИ [терминал](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) версии 4 или более поздней для пользователей Windows ИЛИ [терминал](https://macpaw.com/how-to/use-terminal-on-mac) для пользователей OSX.
 * Среда, описанная в разделе о [настройке среды разработчика](custom-visual-develop-tutorial.md#setting-up-the-developer-environment).
 
 ## <a name="getting-started"></a>Начало работы

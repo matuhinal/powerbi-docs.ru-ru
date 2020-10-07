@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145128"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746753"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Планирование ресурсов в аналитике Power BI Embedded
 
@@ -42,7 +42,7 @@ ms.locfileid: "83145128"
 Ниже приведены примеры использования средства планирования.
 
 * Администраторы ресурсов могут получить более полное представление о том, сколько пользователей могут обслуживать их ресурсы в течение заданного периода времени.
-* Авторы отчетов могут понять результаты пользовательской нагрузки, оцененной с помощью [анализатора производительности](https://docs.microsoft.com/power-bi/desktop-performance-analyzer) Power BI Desktop.
+* Авторы отчетов могут понять результаты пользовательской нагрузки, оцененной с помощью [анализатора производительности](../../create-reports/desktop-performance-analyzer.md) Power BI Desktop.
 * Вы можете видеть в браузере, что происходит в режиме реального времени.
 * С помощью SQL Server Profiler можно [подключиться к конечным точкам XMLA](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) измеряемых ресурсов, чтобы увидеть выполняемые запросы.
 * Эффекты нагрузочного теста отображаются на странице "Наборы данных" приложения метрик емкости Premium. Администраторы ресурсов могут использовать это средство, чтобы создать нагрузку и просмотреть результаты.
