@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859182"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634971"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Настройка Kerberos для использования отчетов Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ ms.locfileid: "90859182"
 ## <a name="error-running-report"></a>Ошибка при выполнении отчета
 Если сервер отчетов настроен неправильно, может появиться следующая ошибка.
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 В технических сведениях вы увидите следующее сообщение.
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Снимок экрана: Power BI с сообщением об ошибке, описывающим проблемы при подключении к серверу Analysis Services](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ ms.locfileid: "90859182"
 
 Рекомендуется создать два имени SPN. Одно — с именем NetBIOS и другое — с полным доменным именем (FQDN). Ниже приведен формат имени субъекта-службы.
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 Сервер отчетов Power BI будет использовать службу HTTP. Для имен субъектов-служб HTTP порт не будет отображаться. Здесь нас интересует служба HTTP. Узел имени субъекта-службы — это имя, которое вы используете в URL-адресе. Как правило, это имя компьютера. При наличии подсистемы балансировки нагрузки это может быть виртуальное имя.
 
@@ -119,13 +125,17 @@ ms.locfileid: "90859182"
 
 Размещение имени субъекта-службы в учетной записи компьютера (обоих имен: имени субъекта-службы NetBIOS и полного доменного имени) будет выглядеть, как в примере ниже, если использовать виртуальный URL-адрес contosoreports.
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 Размещение имени субъекта-службы в учетной записи пользователя домена (обоих имен: имени субъекта-службы NetBIOS и полного доменного имени) будет выглядеть, как в примере ниже, если использовать имя компьютера в качестве узла имени субъекта-службы.
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>Имена субъектов-служб для службы Analysis Services
 Настройка имен субъектов-служб для служб Analysis Services похожа на процедуру, которую вы выполняли для сервера отчетов Power BI. Формат имени субъекта-службы немного отличается, если вы используете именованный экземпляр.
@@ -146,13 +156,17 @@ ms.locfileid: "90859182"
 
 Размещение имени субъекта-службы в учетной записи компьютера (обоих имен: имени субъекта-службы NetBIOS и полного доменного имени) будет выглядеть, как в примере ниже.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 Размещение имени субъекта-службы в учетной пользователя домена (обоих имен: имени субъекта-службы NetBIOS и полного доменного имени) будет выглядеть, как в примере ниже.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>Имена субъектов-служб для службы браузера SQL
 Если вы используете именованный экземпляр служб Analysis Services, убедитесь, что у вас есть имя субъекта-службы для службы браузера. Это имя должно быть уникальным для Analysis Services.
@@ -164,8 +178,10 @@ ms.locfileid: "90859182"
 
 Пример имени субъекта-службы Analysis Services будет выглядеть следующим образом.
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 Размещение имени субъекта-службы также похоже на процедуру размещения для сервера отчетов Power BI. Единственная разница — браузер SQL выполняется под учетной записью локальной системы. Это означает, что имена SPN всегда будут указываться в учетной записи компьютера. 
 
@@ -174,8 +190,10 @@ ms.locfileid: "90859182"
 
 Размещение имени субъекта-службы в учетной записи компьютера (обоих имен: имени субъекта-службы NetBIOS и полного доменного имени) будет выглядеть, как в примере ниже.
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 Дополнительные сведения см. в статье об [обязательном имени субъекта-службы для службы браузера SQL Server](https://support.microsoft.com/kb/950599).
 

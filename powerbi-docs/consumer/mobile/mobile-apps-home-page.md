@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565176"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635316"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Краткий обзор домашней страницы мобильного приложения
 В этом обзоре вы ознакомитесь с домашней страницей мобильного приложения Power BI и доступными на ней элементами навигации для быстрого доступа.
@@ -52,7 +52,7 @@ ms.locfileid: "83565176"
 
 В нижней части страницы находится панель мониторинга.
 
-![Веб-канал активности](./media/mobile-apps-home-page/powerbi-mobile-app-navbar.png)
+![Панель переходов](./media/mobile-apps-home-page/powerbi-mobile-app-navbar.png)
 
 Панель навигации обеспечивает быстрый доступ к следующим компонентам:
 

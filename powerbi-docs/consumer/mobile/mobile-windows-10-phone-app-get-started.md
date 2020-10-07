@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: ba582003008e1355156b189b5753f4e4c0a8353c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5ef68bac75daf25e48cbd4d24279627d4b494764
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861482"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634373"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Начало работы с мобильным приложением Power BI для Windows 10
 Мобильное приложение Power BI для Windows 10 позволяет использовать Power BI на планшете или телефоне. Вы получаете доступ к самой актуальной бизнес-информации с сенсорного экрана. Просматривайте информационные панели компании и взаимодействуйте с ними откуда угодно прямо на [начальном экране Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -106,7 +106,7 @@ ms.locfileid: "90861482"
 
 Дополнительные сведения об избранном в мобильных приложениях Power BI см. [здесь](mobile-apps-favorites.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="other-tasks"></a>Другие задачи
 Ниже перечислены дополнительные функции и возможности при работе с панелями мониторинга и отчетами в приложении Power BI для Windows 10, а также мобильными отчетами и ключевыми показателями эффективности Reporting Services на веб-портале Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Панели мониторинга и отчеты Power BI

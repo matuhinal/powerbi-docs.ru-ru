@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813630"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635224"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Емкость и номера SKU в аналитике Power BI Embedded
 
@@ -68,10 +68,9 @@ Power BI Embedded поставляется с номером SKU [*A*.](../../a
 
 В этой таблице пользовательским приложением считается веб-приложение на основе встроенной аналитики. Внедрение в пользовательское веб-приложение (с помощью REST API или пакетов SDK для JavaScript или .NET) позволяет разработчику управлять пользовательским интерфейсом и настраивать его. Эта возможность недоступна при использовании других вариантов внедрения, таких как служба Power BI и Power BI Mobile.
 
-
-|         |         |         |
-|---------|---------|---------|
-|**Сценарий**</br><p></p>|**Azure**</br>(Ценовая категория A)|**Office**</br>(Ценовые категории P и EM)|
+| Сценарий | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (Ценовая категория A) | (Ценовые категории P и EM) |
 |[Внедрение для клиентов](embed-sample-for-customers.md)</br>(данные принадлежат приложению)     |✔        |✔        |
 |[Внедрение для организации](embed-sample-for-your-organization.md)</br>(данные принадлежат пользователю)     |✖        |✔         |
 |Приложения Microsoft 365</br>(ранее назывались приложениями Office 365)<ul><li>[Внедрение в Teams](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[Внедрение в SharePoint](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196567"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746085"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Как создать высокопроизводительный визуальный элемент Power BI
 В этой статье рассматриваются методы, позволяющие разработчикам добиться высокой производительности при отрисовке визуальных элементов. 
@@ -104,7 +104,7 @@ ms.locfileid: "82196567"
 ### <a name="use-canvas-or-webgl"></a>Использование холста или WebGL 
 Для многократного использования анимаций рекомендуется вместо SVG использовать **холст** или **WebGL**. В отличие от SVG, при использовании этих параметров производительность определяется по размеру, а не по содержимому. 
 
-Дополнительные сведения об их различиях см. в статье [о выборе между SVG и Canvas](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx). 
+Дополнительные сведения об их различиях см. в статье [о выборе между SVG и Canvas](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85)). 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>Использование requestAnimationFrame вместо setTimeout 
 Если вы используете [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) для обновления анимаций на экране, функции анимации вызываются **перед тем**, как браузер вызовет другой метод обновления.
@@ -113,4 +113,4 @@ ms.locfileid: "82196567"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные сведения о методах оптимизации Power BI см. в [этой статье](/power-bi/guidance/power-bi-optimization).
+Дополнительные сведения о методах оптимизации Power BI см. в [этой статье](../../guidance/power-bi-optimization.md).

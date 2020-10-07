@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160379"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746132"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Экспорт отчета Power BI в файл (предварительная версия)
 
@@ -22,7 +22,7 @@ ms.locfileid: "88160379"
 * **PNG**
     * При экспорте в PNG отчет с несколькими страницами сжимается в ZIP-файл.
     * Каждый ZIP-файл в PNG представляет страницу отчета.
-    * Имена страниц совпадают с возвращаемыми значениями API [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) (Получить страницы) или [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) (Получить страницы в группе).
+    * Имена страниц совпадают с возвращаемыми значениями API [Get Pages](/rest/api/power-bi/reports/getpages) (Получить страницы) или [Get Pages in Group](/rest/api/power-bi/reports/getpagesingroup) (Получить страницы в группе).
 
 ## <a name="usage-examples"></a>Примеры использования
 
@@ -38,17 +38,17 @@ ms.locfileid: "88160379"
 * **Экспорт отчетов в презентации PowerPoint или PDF-документы**. Включен по умолчанию.
 * **Экспорт отчетов в файлы изображений**. Требуется только для *PNG* и отключен по умолчанию.
 
-API является асинхронным. При вызове API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) запускает задание экспорта. После запуска задания экспорта используйте [опрос](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) для отслеживания задания, пока оно не будет завершено.
+API является асинхронным. При вызове API [exportToFile](/rest/api/power-bi/reports/exporttofile) запускает задание экспорта. После запуска задания экспорта используйте [опрос](/rest/api/power-bi/reports/getexporttofilestatus) для отслеживания задания, пока оно не будет завершено.
 
 Во время опроса API возвращает число, представляющее объем выполненной работы. Работа в каждом задании экспорта вычисляется на основе количества страниц отчета. Все страницы имеют одинаковый вес. Если, например, вы экспортируете отчет с 10 страницами, а опрос возвращает 70, это означает, что API обработал семь страниц из 10 в задании экспорта.
 
-После завершения экспорта вызов API опроса возвращает [URL-адрес Power BI](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) для получения файла. URL-адрес будет доступен в течение 24 часов.
+После завершения экспорта вызов API опроса возвращает [URL-адрес Power BI](/rest/api/power-bi/reports/getfileofexporttofile) для получения файла. URL-адрес будет доступен в течение 24 часов.
 
 ## <a name="supported-features"></a>Поддерживаемые функции
 
 ### <a name="selecting-which-pages-to-print"></a>Выбор страниц для печати
 
-Укажите страницы, которые нужно напечатать в соответствии с возвращаемым значением [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) (Получить страницы) или [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) (Получить страницы в группе). Можно также указать порядок экспортируемых страниц.
+Укажите страницы, которые нужно напечатать в соответствии с возвращаемым значением [Get Pages](/rest/api/power-bi/reports/getpages) (Получить страницы) или [Get Pages in Group](/rest/api/power-bi/reports/getpagesingroup) (Получить страницы в группе). Можно также указать порядок экспортируемых страниц.
 
 ### <a name="bookmarks"></a>Закладки
 

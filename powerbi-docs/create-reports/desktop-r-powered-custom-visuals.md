@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229381"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634994"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Использование визуализаций Power BI на основе R в Power BI
 
@@ -125,20 +125,25 @@ ms.locfileid: "85229381"
 
 3. Установите пакеты R вручную с помощью любой консоли R. Ниже описано, как это сделать.
 
-   а.  Загрузите сценарий установки визуальных элементов на основе R и сохраните этот файл на локальный жесткий диск.
+   а. Загрузите сценарий установки визуальных элементов на основе R и сохраните этот файл на локальный жесткий диск.
 
-   б.  Из консоли R выполните следующую команду:
+   б. Из консоли R выполните следующую команду:
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    Обычные расположения установки по умолчанию:
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. Если предыдущие действия неэффективны, сделайте следующее:
 
    а. В **R Studio** выполните действия, описанные в разделе 3б выше (выполните строку скрипта из консоли R).

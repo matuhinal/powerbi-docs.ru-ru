@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 978a257ccd5916f14bc3dfa6916f9315b755c12e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860263"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634810"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Просмотр отчетов и панели мониторинга в режиме презентации на устройствах Surface Hub и Windows 10
 Можно использовать режим презентации для отображения отчетов и панели мониторинга в полноэкранном режиме на устройствах Windows 10 и Surface Hub. Режим презентации удобно использовать для показа Power BI на собраниях или конференциях, показа в офисе через специальный проектор или просто для увеличения места на небольшом экране.
@@ -36,8 +36,8 @@ ms.locfileid: "90860263"
 
 С помощью прикосновений к панели инструментов можно выполнять приведенные ниже действия.
 
-|||
-|-|-|
+| Значок | Действие |
+|------|--------|
 |![Значок "Назад"](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|**Вернуться** к предыдущей странице Долгое касание значка приводит к появлению окна навигации, с помощью которого можно перейти к папке, содержащей отчет или панель мониторинга.|
 |![Значок разбиения текста на страницы](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|**Переключение между страницами** в отчете во время презентации.|
 |![Значок закладки](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**Закладка** позволяет перейти к определенному представлению данных, на которые ссылается закладка. Вы можете применять личные закладки и закладки отчета.|

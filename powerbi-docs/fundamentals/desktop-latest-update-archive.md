@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d718b83e5c6ee5966bb882bcbf37feb58657f7cb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525407"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600537"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
@@ -1392,7 +1392,7 @@ ms.locfileid: "91525407"
 ### <a name="reporting"></a>Отчеты
 
 * Смарт-направляющие для выравнивания объектов на странице [[видео]](https://youtu.be/AHNlkjRFdYI?t=11) [[статья]](../create-reports/power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* Обновления ArcGIS Maps для Power BI [[видео]](https://youtu.be/AHNlkjRFdYI?t=84) [[статья]](../visuals/power-bi-visualization-arcgis.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* Обновления ArcGIS Maps для Power BI [[видео]](https://youtu.be/AHNlkjRFdYI?t=84) [[статья]](../visuals/power-bi-visualizations-arcgis.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * Поддержка специальных возможностей списка полей [[видео]](https://youtu.be/AHNlkjRFdYI?t=464) [[статья]](../create-reports/desktop-report-view.md#copy-and-paste-between-reports) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * Установление порядка вкладок для объектов на странице [[видео]](https://youtu.be/AHNlkjRFdYI?t=643) [[статья]](../create-reports/power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * Подсказки для кнопок с визуальными элементами [[видео]](https://youtu.be/AHNlkjRFdYI?t=884) [[статья]](../create-reports/desktop-accessibility-overview.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
