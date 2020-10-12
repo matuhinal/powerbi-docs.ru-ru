@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878705"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747719"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Руководство по Создание визуального элемента R с воронкообразной диаграммой из скрипта R
 В этой статье показано, как пошагово создать воронкообразную диаграмму с помощью скрипта R в визуальном элементе R.
@@ -66,11 +66,11 @@ ms.locfileid: "87878705"
 
 1. Измените файл *capabilities.json* и замените строку `Values` на `dataset`. Это позволит изменить название Role (Роль) в шаблоне на название из кода R.
 
-   ![До и после](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![Снимок экрана: сравнение различий после изменения в JSON-файле.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. *(Необязательно)* Измените файл *dependencies.json* и добавьте раздел для каждого пакета R, который требуется скрипту R. Так Power BI сможет автоматически импортировать такие пакеты при первой загрузке визуального элемента.
 
-   ![До и после](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![Снимок экрана: сравнение различий после добавления содержимого в элементы cranPackages.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. Заново упакуйте визуальный элемент с помощью команды `pbiviz package` и попытайтесь импортировать его в Power BI.
 
@@ -119,7 +119,7 @@ ms.locfileid: "87878705"
 
 1. Добавьте возможность управлять цветами и размером визуальных элементов, в том числе внутренними параметрами, из пользовательского интерфейса.
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![Снимок экрана: две версии панели инструментов с параметрами, добавленными в версию справа.](./media/funnel-plot/diagram-two.PNG)
 
 1. Измените файл *capabilities.json* и обновите раздел `objects`. Здесь мы определим имена, подсказки и типы каждого параметра, а также зададим разбиение параметров на группы (три группы в этом случае).
 
@@ -274,7 +274,7 @@ ms.locfileid: "87878705"
 
 * Каждый визуальный элемент R применяет оператор `unique` к своей входной таблице. Чтобы избежать удаления одинаковых строк, попробуйте добавить дополнительное поле ввода с уникальным идентификатором и проигнорировать его в коде R.   
 
-* Если у вас есть учетная запись Power BI, используйте службу Power BI для разработки визуального элемента [на лету](/power-bi/developer/visuals/custom-visual-develop-tutorial/), без повторной упаковки с помощью команды `pbiviz package`.
+* Если у вас есть учетная запись Power BI, используйте службу Power BI для разработки визуального элемента [на лету](./custom-visual-develop-tutorial.md), без повторной упаковки с помощью команды `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Коллекция мини-приложений HTML
 Изучите визуальные элементы в [коллекции мини-приложений HTML](http://gallery.htmlwidgets.org/) для использования в следующем визуальном элементе. Чтобы упростить процесс, мы создали [репозиторий проектов](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) с более чем 20 интерактивными визуальным и элементами HTML.
@@ -291,15 +291,15 @@ ms.locfileid: "87878705"
 1. Измените метаданные в файле *pbiviz.json* и, что самое важное, поле `guid`.
 1. Заново создайте пакет и продолжите изменение визуального элемента. 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![Снимок экрана: шесть мини-приложений, обсуждаемых ранее в этой статье.](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![Снимок экрана: шесть дополнительных мини-приложений, обсуждаемых ранее в этой статье.](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > Служба поддерживает не все мини-приложения в этом проекте.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Ознакомьтесь с дополнительными руководствами по [визуальным элементам Power BI](./custom-visual-develop-tutorial.md) и [визуальным элементам R](/power-bi/visuals/service-r-visuals).
+Ознакомьтесь с дополнительными руководствами по [визуальным элементам Power BI](./custom-visual-develop-tutorial.md) и [визуальным элементам R](../../visuals/service-r-visuals.md).
 
 Узнайте, как [разрабатывать и размещать визуальные элементы](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) в [Магазине Office (коллекция)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI), или воспользуйтесь примерами из [демонстрации скрипта R](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals).

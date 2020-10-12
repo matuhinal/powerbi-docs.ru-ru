@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860700"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634649"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Устранение неполадок со шлюзами — Power BI
 
@@ -34,7 +34,9 @@ ms.locfileid: "90860700"
 
 В разделе **Показать сведения** появится сообщение об ошибке, полученное из источника данных. В случае с SQL Server оно будет выглядеть следующим образом:
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 Убедитесь, что имя пользователя и пароль указаны правильно. Также убедитесь, что эти учетные данные позволяют подключиться к источнику данных. Убедитесь, что учетная запись соответствует методу проверки подлинности.
 
@@ -44,7 +46,9 @@ ms.locfileid: "90860700"
 
 В разделе **Показать сведения** появится сообщение об ошибке, полученное из источника данных. В случае с SQL Server оно будет выглядеть следующим образом:
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Ошибка: Не удается установить подключение. Сведения. "Неизвестная ошибка в шлюзе данных"
 
@@ -62,11 +66,15 @@ ms.locfileid: "90860700"
 
 Если базовое сообщение об ошибке аналогично следующему, это означает, что учетная запись, которую вы используете для источника данных, не имеет прав администратора сервера для этого экземпляра служб Analysis Services. Дополнительные сведения см. в статье [Предоставление прав администратора сервера экземпляру служб Analysis Services](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance).
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 Если базовое сообщение об ошибке аналогично следующему, это может означать, что в учетной записи службы для Analysis Services отсутствует атрибут каталога [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU).
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 В доменах с поддержкой доступа на базе технологий, предшествующих версии Windows 2000, атрибут TGGAU включен. В большинстве новых доменов он по умолчанию отключен. Дополнительные сведения см. в статье [Некоторым приложениям и API требуется доступ к сведениям об авторизации объектов учетной записи](https://support.microsoft.com/kb/331951).
 
@@ -75,13 +83,17 @@ ms.locfileid: "90860700"
 1. Подключитесь к компьютеру со службами Analysis Services из приложения SQL Server Management Studio. В дополнительных свойствах соединения укажите параметр EffectiveUserName для соответствующего пользователя и посмотрите, повторится ли ошибка.
 2. Проверить, указан ли этот атрибут, можно с помощью программы dsacls для Active Directory. Эта программа есть на контроллере домена. Вам потребуется передать в эту программу различающееся имя домена для учетной записи.
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     Результаты должны содержать что-то наподобие этого:
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 Чтобы устранить эту проблему, необходимо включить атрибут TGGAU для учетной записи, которую использует служба Windows Analysis Services.
 
@@ -139,7 +151,9 @@ ms.locfileid: "90860700"
 1. Найдите действующее имя пользователя в [журналах шлюза](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
 2. Обнаружив значение, которое передается, проверьте его правильность. Если это ваш пользователь, вы можете уточнить его имя участника-пользователя с помощью следующей команды в командной строке. Имя имеет форму адреса электронной почты.
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 Вы также можете посмотреть, что именно Power BI получает из каталога Azure Active Directory.
 
@@ -147,10 +161,13 @@ ms.locfileid: "90860700"
 2. Выберите **Войти** в правом верхнем углу.
 3. Выполните следующий запрос. Вы увидите довольно большой ответ в формате JSON.
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. Найдите атрибут **userPrincipalName**.
 
-Если имя участника-пользователя Azure Active Directory не совпадает с аналогичным значением в локальном каталоге Active Directory, вы можете заменить его действительным значением с помощью функции [сопоставления имен пользователей](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources). Вы также можете попросить администратора своего клиента или локального каталога Active Directory изменить имя участника-пользователя.
+Если имя участника-пользователя Azure Active Directory не совпадает с аналогичным значением в локальном каталоге Active Directory, вы можете заменить его действительным значением с помощью функции [сопоставления имен пользователей](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources). Вы также можете попросить администратора Power BI или локального каталога Active Directory изменить имя участника-пользователя.
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +209,11 @@ ms.locfileid: "90860700"
 
 * Для SAP HANA требуется, чтобы олицетворенный пользователь применил атрибут sAMAccountName в Active Directory (псевдоним пользователя). Если этот атрибут неверен, появится ошибка 1033.
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![Редактор атрибутов](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * В журналах будет отображаться не имя субъекта-пользователя, а sAMAccountName (псевдоним), после которого указан домен (alias@doimain.com).
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![Сведения об учетной записи в журналах](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965343"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600471"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Руководство. Анализ данных Facebook с помощью Power BI Desktop
 
@@ -128,7 +128,7 @@ ms.locfileid: "90965343"
    
    После того как данные загрузятся, они отобразятся в представлении **Отчет** в виде нового запроса в области **Поля**.
    
-   ![Новый запрос](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![Снимок экрана: доступные поля для запроса с именем Query1.](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>Использование данных в визуализациях отчета 
 
@@ -138,7 +138,7 @@ ms.locfileid: "90965343"
 
 1. В представлении **Отчет** Power BI Desktop выберите столбец **message** из области **Поля** или перетащите его на холст отчета. На полотне отобразится таблица со всеми сообщениями записи. 
    
-   ![Новый запрос](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![Снимок экрана: представление "Отчет" со списком сообщений.](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. Выбрав эту таблицу, выберите столбец **Number of comments** (Число столбцов) из области **Поля** или перетащите его в таблицу. 
    

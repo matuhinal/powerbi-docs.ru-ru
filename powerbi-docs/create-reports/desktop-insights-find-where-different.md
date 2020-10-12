@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239143"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632533"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Применение аналитических данных в Power BI Desktop для сравнения распределений (предварительная версия)
 
@@ -110,18 +110,20 @@ ms.locfileid: "85239143"
 
 Необязательно все столбцы в модели будут проверены в доступное время, так что нет гарантии, что отобразятся самые важные столбцы и значения. Тем не менее будут использоваться различные эвристические правила, чтобы первыми проверялись столбцы, где вероятнее всего существуют различия. Предположим, например, что после проверки всех столбцов выяснилось, что следующие столбцы и значения сильнее всего влияют на распределение, по степени влияния:
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 Вы получите выходные данные со следующим порядком столбцов.
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* Подкатегория: туристические велосипеды, горные велосипеды, дорожные велосипеды (приведены только три подкатегории с текстом "...среди прочих", указывающим, что значительное влияние оказывают более трех подкатегорий) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Канал = прямой (приводится только этот канал, если его уровень влияния гораздо выше, чем у канала "Магазин")
 
 ## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
 В следующем списке представлена подборка сценариев, которые сейчас не поддерживаются для **аналитики**:
@@ -144,7 +146,7 @@ ms.locfileid: "85239143"
 
 * [Что такое Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
 * [Обзор запросов в Power BI Desktop](../transform-model/desktop-query-overview.md)
-* [Источники данных в Power BI Desktop](../connect-data/desktop-data-sources.md)
+* [Источники данных в Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Подключение к данным в Power BI Desktop](../connect-data/desktop-connect-to-data.md)
-* [Формирование и объединение данных с Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Общие задачи с запросами в Power BI Desktop](../transform-model/desktop-common-query-tasks.md)   
+* [Формирование и объединение данных в Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Общие задачи с запросами в Power BI Desktop](../transform-model/desktop-common-query-tasks.md)   

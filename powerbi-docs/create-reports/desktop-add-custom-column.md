@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855410"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598906"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Добавление пользовательского столбца в Power BI Desktop
 
@@ -22,7 +22,7 @@ ms.locfileid: "90855410"
 
 При создании пользовательского столбца в редакторе запросов Power BI Desktop добавляет его в качестве **примененного действия** в **Параметры запроса**. Его можно поменять, переместить или изменить в любое время.
 
-![Страница "Добавить пользовательский столбец"](media/desktop-add-custom-column/add-custom-column_01.png)
+![Снимок экрана: диалоговое окно "Добавление пользовательского столбца".](media/desktop-add-custom-column/add-custom-column_01.png)
 
 ## <a name="use-query-editor-to-add-a-custom-column"></a>Добавление пользовательского столбца с помощью редактора запросов
 
@@ -51,7 +51,7 @@ ms.locfileid: "90855410"
 
 - [Запросы формул PowerQuery M](/powerquery-m/power-query-m-function-reference) в поле **Настраиваемая формула столбца**. Эти запросы создаются путем создания формулы, которой определяется новый столбец. 
 
-   ![Страница "Добавить пользовательский столбец"](media/desktop-add-custom-column/add-custom-column_03.png)
+   ![Снимок экрана: диалоговое окно "Добавление пользовательского столбца", которое содержит доступные столбцы для выбора.](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>Создание формул для пользовательского столбца
 

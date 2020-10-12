@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034366"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599905"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Применение параметра "Предполагать целостность данных" в Power BI Desktop
 При подключении к источнику данных с помощью **DirectQuery** можно установить флажок **Предполагать целостность данных**, что позволит создавать более эффективные запросы к источнику. У этой функции есть некоторые требования к базовым данным, и она доступна только при использовании **DirectQuery**.
@@ -39,7 +39,7 @@ ms.locfileid: "86034366"
    ![Снимок экрана: таблицы "Заказы" и "Товары"](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. На рисунке ниже целостность данных между столбцами **Заказы[КодСклада]** и **Склады[КодСклада]** не существует, так как в столбце **КодСклада** для некоторых *заказов* указано значение *Null*. Поэтому флажок **Предполагать целостность данных** устанавливать *не* нужно.
    
-   ![Снимок экрана: таблицы "Заказы" и "Товары"](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Снимок экрана: таблицы "Заказы" и "Склады".](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. На рисунке ниже целостность данных не существует между столбцами **Заказы[КодКлиента]** и **Клиенты[КодКлиента]** : в столбце **КодКлиента** есть значения (в данном случае — *КлиентX*), которых нет в таблице *Клиенты*. Поэтому флажок **Предполагать целостность данных** устанавливать *не* нужно.
    
    ![Снимок экрана: таблицы "Заказы" и "Клиенты"](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

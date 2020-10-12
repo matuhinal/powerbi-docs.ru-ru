@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218730"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635086"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Оповещения о данных в службе Power BI
 
@@ -46,7 +46,7 @@ ms.locfileid: "85218730"
 
 1. Для начала щелкните **+ Добавить правило оповещения**, переместите переключатель **Активно** в положение **Вкл.** и укажите название оповещения. Заголовки позволяют легко распознать оповещения.
 
-   ![Окно управления оповещениями](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Снимок экрана: окно "Управление оповещениями" с выделенным элементом "Добавить правило генерации оповещений" и заголовком оповещения "Оповещение об общем числе магазинов".](media/service-set-data-alerts/powerbi-alert-title.png)
 
 1. Прокрутите содержимое вниз и введите параметры оповещения.  В этом примере вы создадите оповещение, которое один раз в сутки уведомляет вас о превышении общим количеством магазинов порога в 100 штук.
 
@@ -93,7 +93,7 @@ ms.locfileid: "85218730"
 
     Power BI отображает оповещения, заданные вами для этой плитки.
 
-    ![Окно управления оповещениями](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![Снимок экрана: окно "Управление оповещениями".](media/service-set-data-alerts/powerbi-see-alerts.png)
 
 1. Чтобы изменить оповещение, нажмите на стрелку рядом с его названием.
 

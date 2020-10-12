@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b18d803ce70c74688fe90f93b4d5143eb7b24f30
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136173"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600328"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Использование агрегатов в Power BI Desktop
 
@@ -53,7 +53,7 @@ ms.locfileid: "91136173"
 - Sum
 - Подсчитать строки таблицы
 
-![Диалоговое окно "Управление агрегатами"](media/desktop-aggregations/aggregations_07.jpg)
+![Снимок экрана: диалоговое окно "Управление агрегатами".](media/desktop-aggregations/aggregations_07.jpg)
 
 В этом примере агрегата на основе связей записи GroupBy являются необязательными. За исключением DISTINCTCOUNT, они не влияют на поведение агрегата и в основном предназначены для удобства чтения. Без записей GroupBy агрегаты по-прежнему будут получать обращения на основе связей. Это поведение отличается от [примера больших данных](#aggregation-based-on-groupby-columns) далее в этой статье, в котором записи GroupBy обязательны.
 
@@ -244,11 +244,11 @@ ms.locfileid: "91136173"
 
 Приведенный ниже запрос не достигнет агрегата, так как столбец **CalendarDay** не охватывается таблицей агрегирования.
 
-![Пример запроса, не достигающего агрегата](media/desktop-aggregations/aggregations-code_10.jpg)
+![Снимок экрана: текст запроса, содержащий CalendarDay.](media/desktop-aggregations/aggregations-code_10.jpg)
 
 Приведенный ниже запрос логики операций со временем не достигнет агрегата, так как функция DATESYTD создает таблицу со значениями из столбца **CalendarDay**, но таблица агрегирования не охватывает **CalendarDay**.
 
-![Пример запроса, не достигающего агрегата](media/desktop-aggregations/aggregations-code_11.jpg)
+![Снимок экрана: текст запроса, содержащий функцию DATESYTD.](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>Приоритет агрегирования
 
@@ -271,7 +271,7 @@ ms.locfileid: "91136173"
 
 Таблица, указанная в столбце **Detail Table**, — **Driver Activity**, а не **Driver Activity Agg**, так как цепочки агрегатов запрещены.
 
-![Диалоговое окно "Управление агрегатами"](media/desktop-aggregations/aggregations_14.jpg)
+![Снимок экрана: диалоговое окно "Управление агрегатами" с выделенным элементом "Приоритет".](media/desktop-aggregations/aggregations_14.jpg)
 
 В следующей таблице показаны агрегаты для таблицы **Driver Activity Agg2**.
 

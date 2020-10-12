@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224071"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632464"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Получение данных с веб-страниц по примерам
 
@@ -36,7 +36,9 @@ ms.locfileid: "85224071"
 
 Если вы хотите параллельно выполнять эти операции самостоятельно, скопируйте [URL-адрес хранилища Microsoft](https://www.microsoft.com/store/top-paid/games/xbox?category=classics), который мы используем в этой статье:
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Диалоговое окно "Интернет"](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ ms.locfileid: "85224071"
 
 В нашем примере мы извлекаем *имя* и *цену* для каждой игры на странице. Достаточно указать для каждого столбца пару примеров значений, представленных на странице. При вводе примеров *Power Query* извлекает данные, соответствующие шаблону примеров записей, используя интеллектуальные алгоритмы извлечения данных.
 
-![Данные по образцу](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![Снимок экрана: данные из Интернета.](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > Предложения значений включают только значения, длина которых не превышает 128 символов.
 
 Когда вы будете довольны данными, извлеченными с веб-страницы, выберите **ОК**, чтобы открыть редактор Power Query. Можно применить дополнительные преобразования или сформировать данные, например объединить эти данные с другими источниками данных.
 
-![Данные по образцу](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![Снимок экрана: данные, извлеченные из Интернета, в редакторе Power Query.](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 Теперь вы можете создать на основе этих данных визуальные элементы или иначе использовать их в отчетах Power BI Desktop.
 

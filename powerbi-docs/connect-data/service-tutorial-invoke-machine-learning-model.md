@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861022"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600409"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Руководство. Вызов модели Студии машинного обучения (классической) в Power BI (предварительная версия)
 
@@ -45,7 +45,7 @@ ms.locfileid: "90861022"
 
 Войдите на [портал Azure](https://portal.azure.com) и перейдите на страницу **Подписки**, найти которую можно с помощью списка **Все службы** в меню области навигации.
 
-![Портал Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![Снимок экрана: портал Azure с выбранным элементом "Подписки".](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 Выберите подписку Azure, которая использовалась для публикации модели, и выберите **Управление доступом (IAM)** . Затем щелкните **Добавить назначение ролей**, выберите роль **Читатель** и выберите пользователя Power BI. После завершения щелкните **Сохранить**. На приведенном ниже изображении показано, как выбрать эти элементы.
 
@@ -95,7 +95,7 @@ ms.locfileid: "90861022"
 
 В редакторе Power Query отобразятся данные из CSV-файла в режиме предварительного просмотра. На ленте команд выберите **Преобразовать таблицу**, а затем щелкните **Использовать первую строку в качестве заголовков**.  После этого на панель **Примененные шаги** справа будет добавлен шаг выполнения запроса _Повышенные заголовки_. На этой панели можно изменить имя запроса на более понятное, назвав его, например _Цены на автомобили_.
 
-![Портал Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![Снимок экрана: редактор Power Query в отображением данных в режиме предварительного просмотра.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 В нашем исходном наборе данных есть неизвестные значения "?".  Замените "?" на "0", чтобы избежать ошибок впоследствии.  Для этого выберите столбцы *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* и *price*, щелкнув их заголовки. Нажмите "Преобразовать столбцы" и выберите "Заменить значения".  Замените "?" на "0".
 

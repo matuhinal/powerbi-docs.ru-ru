@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236801"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633215"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Копирование отчетов из других рабочих областей
 
@@ -82,7 +82,7 @@ ms.locfileid: "85236801"
 
 1. В представлении списка отчетов выберите **Просмотреть похожие**.
 
-    ![значок просмотра связанных элементов](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![Снимок экрана: значок "Просмотреть связанные" в разделе "Действия".](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. В диалоговом окне **Связанное содержимое** отображаются все связанные элементы. В этом списке набор данных выглядит подобно любому другому. Вы не можете определить, что он находится в другой рабочей области. Это известная проблема.
  
@@ -98,7 +98,7 @@ ms.locfileid: "85236801"
 
 2. В списке наборов данных видно, что для общих наборов данных не доступны значки **удаления**. Обновите страницу или перейдите на другую, а затем вернитесь. Теперь набор данных исчез. Если это не так, проверьте раздел **Просмотреть похожие**. Возможно, он связан с другой таблицей в рабочей области.
 
-    ![значок просмотра связанных элементов](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![Снимок экрана: набор данных с параметром "Просмотреть связанные" для поиска связанных таблиц.](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > При удалении общего набора данных в этой рабочей области не удаляется сам набор данных. Здесь удаляется только ссылка на него.

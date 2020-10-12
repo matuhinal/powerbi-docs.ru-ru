@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861091"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668466"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Подключение к данным, созданным потоками данных Power Platform в Power BI Desktop
 С помощью **Power BI Desktop** вы можете подключаться к данным, созданным **потоками данных Power Platform** и использовать их так же, как и любой другой источник данных в Power BI Desktop.
@@ -37,7 +37,7 @@ ms.locfileid: "90861091"
 
 Благодаря такому подходу обработка больших объемов данных выполняется в облачных потоках данных, а не на локально запущенном экземпляре с **Power BI Desktop**. Power BI Desktop будет принимать меньше данных и сохранит хорошую скорость и отзывчивость интерфейса взаимодействия с потоками данных.
 
-## <a name="considerations-and-limitations"></a>Рекомендации и ограничения
+## <a name="additional-considerations"></a>Дополнительные сведения
 
 Большинство потоков данных находятся в клиенте службы Power BI. Однако у пользователей **Power BI Desktop** нет доступа к потокам данных, которые хранятся в учетной записи Azure Data Lake Storage 2-го поколения, если они не являются владельцами потока данных, или им явно не разрешен доступ к папке CDM потока данных. Рассмотрим следующую ситуацию:
 
@@ -45,28 +45,21 @@ ms.locfileid: "90861091"
 2.  Бен, который также является членом рабочей области, которую создала Анна, хочет с помощью Power BI Desktop и соединителя потока данных получить данные из потока данных, созданного Анной.
 3.  У Бена возникает ошибка, потому что его не добавили как авторизованного пользователя в папку CDM потока данных в Data Lake.
 
-    ![При попытке использовать поток данных возникла ошибка](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
-
-Чтобы устранить эту проблему, Бену необходимо предоставить разрешения читателя в папке CDM и ее файлах. Дополнительные сведения о том, как предоставить доступ к папке CDM, см. в [этой статье](./service-dataflows-azure-data-lake-integration.md).
+Чтобы устранить эту проблему, Бену необходимо предоставить разрешения читателя в папке CDM и ее файлах. Дополнительные сведения о том, как предоставить доступ к папке CDM, см. в статье о [настройке и использовании потока данных](dataflows/dataflows-configure-consume.md).
 
 
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-С помощью потоков данных Power Platform можно выполнять много интересных действий. Дополнительные сведения см. на следующих страницах.
+С помощью потоков данных можно выполнять много интересных действий. Дополнительные сведения см. на следующих страницах.
 
-* [Self-service data prep in Power BI (Preview)](service-dataflows-overview.md) (Самостоятельная подготовка данных в Power BI (предварительная версия))
-* [Creating and using dataflows in Power BI (Preview)](service-dataflows-create-use.md) (Создание и использование потоков данных в Power BI (предварительная версия))
-* [Использование вычисляемых сущностей в Power BI Premium (предварительная версия)](service-dataflows-computed-entities-premium.md)
-* [Использование потоков данных с локальными источниками данных (предварительная версия)](service-dataflows-on-premises-gateways.md)
-* [Ресурсы для разработчиков потоков данных Power Platform (предварительная версия)](service-dataflows-developer-resources.md)
+* [Вводные сведения о потоках данных и самостоятельной подготовке данных](dataflows/dataflows-introduction-self-service.md)
+* [Создание потока данных](dataflows/dataflows-create.md)
+* [Настройка и использование потока данных](dataflows/dataflows-configure-consume.md)
+* [Настройка хранилища потоков данных для использования Azure Data Lake 2-го поколения](dataflows/dataflows-azure-data-lake-storage-integration.md)
+* [Функции потоков данных уровня "Премиум"](dataflows/dataflows-premium-features.md)
+* [ИИ с потоками данных](dataflows/dataflows-machine-learning-integration.md)
 
-Дополнительные сведения об интеграции с Azure Data Lake Storage 2-го поколения см. в следующих статьях:
-
-* [Потоки данных и интеграция Azure Data Lake (предварительная версия)](service-dataflows-azure-data-lake-integration.md)
-* [Настройка параметров потоков данных рабочей области (предварительная версия)](service-dataflows-configure-workspace-storage-settings.md)
-* [Добавление папки CDM в Power BI в виде потока данных (предварительная версия)](service-dataflows-add-cdm-folder.md)
-* [Подключение Azure Data Lake Storage 2-го поколения для хранения потока данных (предварительная версия)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Также вам могут оказаться полезны статьи о **Power BI Desktop**.
 

@@ -1,6 +1,6 @@
 ---
 title: Создание QR-кода для плитки для использования в мобильных приложениях Power BI
-description: QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI в мобильном приложении; навигация или поиск не требуются.
+description: QR-коды на плитках Power BI могут связывать любой физический предмет с соответствующей информацией BI в мобильном приложении; навигация или поиск не требуются.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 95e966a7056926c70802a4502be497c2d2b268e5
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264465"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746776"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Создание QR-кода для плитки в Power BI для использования в мобильных приложениях
 QR-коды в Power BI могут связывать любой физический предмет с соответствующей информацией BI &#151; навигация или поиск не требуются.

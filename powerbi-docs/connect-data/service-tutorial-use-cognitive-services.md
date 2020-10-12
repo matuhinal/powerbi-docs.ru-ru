@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861045"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600361"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Руководство. Использование Cognitive Services в Power BI
 
@@ -46,39 +46,39 @@ Power BI предоставляет доступ к набору функций
 
 Чтобы начать работу, перейдите в рабочую область Power BI с емкостью Premium и создайте поток данных с помощью кнопки **Создать** в верхнем правом углу экрана.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
+![Снимок экрана: рабочая область Power BI с кнопкой "Создать" и выбранным элементом "Панель мониторинга".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
 В диалоговом окне потока данных доступны несколько вариантов создания потока данных. Выберите **Добавить новые сущности**. Затем выберите **Текст/CSV** из меню источников данных.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
+![Снимок экрана: панель выбора источника данных с источником "Текст/CSV".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
 Вставьте этот URL-адрес в поле URL-адреса: [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) и нажмите кнопку **Далее**.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
+![Снимок экрана: страница "Подключение к источнику данных", на которой вводится URL-адрес.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
 Данные теперь готовы для текстовой аналитики, и мы можем применить функции оценки тональности и извлечения ключевых фраз к столбцу с комментариями клиентов.
 
 В редакторе Power Query выберите **Аналитика ИИ**
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
+![Снимок экрана: страница "Изменение запросов" с выделенным элементом "Вся аналитика".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
 Разверните папку **Cognitive Services** и выберите нужную функцию. В этом примере используется оценка тональности в столбце комментариев, но вы можете выполнить эти же шаги, чтобы запустить распознавание языка и извлечение ключевых фраз.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
+![Снимок экрана: страница "Вызов функции" с выбранной функцией.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
 
 После выбора функции отобразятся обязательные и необязательные поля. Чтобы оценить тональность в примерах отзывов, выберите столбец с отзывами в качестве текстовых входных данных. Язык и региональные параметры (в формате ISO) указывать необязательно. Например, введите en, если нужно, чтобы язык текст распознавался как английский. Если поле оставлено пустым, Power BI определит язык входного значения, прежде чем начинать оценку тональности.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
+![Снимок экрана: диалоговое окно "Вызов функции" с раскрывающимся меню "текст".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
 Теперь нажмите **Вызвать**, чтобы выполнить функцию. В таблицу будет добавлен новый столбец с оценкой тональности для каждой строки. Вы можете вернуться к **Аналитике ИИ**, чтобы аналогичным способом извлечь ключевые фразы из текста отзывов.
 
 После завершения преобразований измените имя запроса на "Комментарии клиентов" и нажмите **Готово**.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
+![Снимок экрана: страница "Изменение запросов" с выделенным элементом "Имя".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
 Затем нажмите **Сохранить**, чтобы сохранить поток данных, и присвойте ему имя Fabrikam. Нажмите кнопку **Обновить сейчас**, которая отобразилась после сохранения потока данных.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
+![Снимок экрана: кнопка "Сохранить".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
 Сохранив и обновив поток данных, вы можете использовать его в отчете Power BI.
 
@@ -88,15 +88,15 @@ Power BI предоставляет доступ к набору функций
 
 Перейдите к пункту **Потоки данных Power BI (бета-версия**) в разделе Power BI и выберите **Подключить**.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
+![Снимок экрана: панель "Получение данных" с выбранным элементом "Потоки данных Power BI".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
 Так как это предварительная версия функции, соединитель отобразит запрос на принятие соответствующих условий. Примите условия и войдите с помощью учетной записи своей организации.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
+![Снимок экрана: сообщение входа для вашей учетной записи организации.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
 Выберите поток данных, который вы только что создали. Перейдите к таблице "Комментарии клиентов" и щелкните **Загрузить**.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
+![Снимок экрана: страница "Навигатор" с выбранной таблицей "Комментарии клиентов".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
 После загрузки данных вы можете приступить к созданию отчета.
 
@@ -104,15 +104,15 @@ Power BI предоставляет доступ к набору функций
 
 Перейдите в рабочую область Power BI с емкостью Premium. Создайте поток данных с помощью кнопки **Создать** в правом верхнем углу экрана.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
+![Снимок экрана: рабочая область Power BI с кнопкой "Создать" и выбранным элементом "Поток данных".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
 
 Выберите **Добавить новые сущности**.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
+![Снимок экрана: параметр добавления новых сущностей для начала создания рабочего процесса.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
 Когда вам будет предложено выбрать источник данных, выберите **Пустой запрос**.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
+![Снимок экрана: панель выбора источника данных с источником "Пустой запрос".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
 Скопируйте запрос ниже в редактор запросов и нажмите кнопку "Далее". Вы можете заменить пути URL-адресов ниже другими изображениями или добавить дополнительные строки. Функция *Web.Contents* импортирует изображение по указанному URL-адресу в двоичном виде. Если вам доступен источник данных с изображениями, которые хранятся в двоичном виде, вы можете использовать их напрямую.
 
@@ -126,43 +126,43 @@ in
   Source
 ```
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
+![Снимок экрана: страница "Подключение к источнику данных" с запросом и кнопкой "Далее".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
 При запросе учетных данных выберите *анонимный вход*.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
+![Снимок экрана: страница "Изменение запросов", на которой можно указать учетные данные.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
 Отобразится следующее изображение.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_17.png)
+![Снимок экрана: диалоговое окно ввода учетных данных, в котором можно указать тип проверки подлинности.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_17.png)
 
 Запрос учетных данных будет отображаться для каждой отдельной веб-страницы.
 
 Выберите **Аналитика ИИ** в редакторе запросов.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
+![Снимок экрана: страница "Изменение запросов" с выделенным элементом "Вся аналитика" и одним отображаемым предупреждением.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
 Затем войдите с помощью своей **учетной записи в организации**.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
+![Снимок экрана: диалоговое окно ввода учетных данных, в котором можно указать учетную запись в организации.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
 Выберите функцию "Добавление тегов к изображению", введите _[Двоичный]_ в поле столбца и _en_ в поле языка и региональных параметров. 
 
 > [!NOTE]
 > Сейчас вы не сможете выбрать столбец в раскрывающемся списке. Такая возможность будет в ближайшем будущем добавлена в закрытой предварительной версии.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
+![Снимок экрана: страница "Вызов функции" с выбранной функцией "TagImages".](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
 
 В редакторе функций удалите кавычки, в которые заключено имя столбца. 
 
 > [!NOTE]
 > Удаление кавычек — это временное решение. Полноценная функциональность будет в ближайшем будущем добавлена в предварительной версии.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_21.png)
+![Снимок экрана: редактор функций с выделенным фрагментом Image без кавычек.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_21.png)
 
 Эта функция возвращает запись в формате разделенных запятыми списка тегов и в виде записи json. Нажмите кнопку "Развернуть", чтобы добавить в таблицу одну или обе этих записи в виде столбцов.
 
-![Создание потока данных](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
+![Снимок экрана: кнопка "Развернуть" с двумя стрелками, направленными в противоположные стороны.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
 
 Нажмите **Готово** и сохраните поток данных. Обновив первый поток данных, вы можете подключить его из Power BI Desktop с помощью соединителей потоков данных. (См. шаги на стр. 5 этого документа.)
 

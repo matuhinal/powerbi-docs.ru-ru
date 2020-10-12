@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 076a1a65e275d58b54e340e30083d1c2a19ebbbf
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161245"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374448"
 ---
 # <a name="close-your-power-bi-account"></a>Закрытие учетной записи Power BI
 
-Если вы больше не планируете пользоваться Power BI, закройте свою учетную запись.  Закрыв учетную запись, вы не сможете войти в Power BI. Кроме того, все данные клиента, переданные или созданные в Power BI, будут удалены в соответствии с политикой хранения данных, изложенной в условиях использования Power BI. Они не сохраняются.
+Если вы больше не планируете пользоваться Power BI, закройте свою учетную запись.  Закрыв учетную запись, вы не сможете войти в Power BI. Кроме того, все данные клиента, переданные или созданные в Power BI, будут удалены в соответствии с политикой хранения данных, изложенной в [соглашении об обслуживании Power BI](https://azure.microsoft.com/support/legal/subscription-agreement/).
 
 ## <a name="individual-power-bi-users"></a>Отдельные пользователи Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "86161245"
 
 1. В Power BI в правом верхнем углу экрана щелкните значок шестеренки и выберите **Параметры**.
 
-    ![Снимок экрана правого верхнего угла пользовательского интерфейса со значком шестеренки и выделенным пунктом "Параметры".](media/service-admin-closing-your-account/close-account-settings.png)
+    ![Снимок экрана: правый верхний угол пользовательского интерфейса со значком шестеренки и выделенным пунктом "Параметры".](media/service-admin-closing-your-account/close-account-settings.png)
 
 1. На вкладке **Общие** выберите **Закрыть учетную запись**.
 
@@ -44,9 +44,9 @@ ms.locfileid: "86161245"
 
     ![Снимок экрана: диалоговое окно с подтверждением закрытия вашей учетной записи](media/service-admin-closing-your-account/close-account-settings-5.png)
 
-## <a name="managed-tenant-users"></a>Пользователи управляемого клиента
+## <a name="managed-users"></a>Управляемые пользователи
 
-Если ваша организация зарегистрировала вас для использования Power BI, обратитесь к администратору клиента Попросите его отменить назначение лицензии для вашей учетной записи.
+Если ваша организация зарегистрировала вас для использования Power BI, обратитесь к администратору. Попросите его отменить назначение лицензии для вашей учетной записи.
 
 ![Снимок экрана: закрытие учетной записи](media/service-admin-closing-your-account/close-account-managed.png)
 

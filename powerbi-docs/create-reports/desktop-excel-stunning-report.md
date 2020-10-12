@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/21/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: b628502ad5658388065a197c1c722a59dd9ad2b4
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 275a83c8588bb9489361d467c6c6ab458abc86b2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86973384"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635339"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>Руководство. Превращение книги Excel в привлекательный отчет в Power BI Desktop
 
@@ -58,39 +58,39 @@ ms.locfileid: "86973384"
 
 1. Выберите таблицу **Финансы** и выберите **Преобразовать данные**. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="Снимок экрана: навигатор Power BI с примером финансовых данных."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI."::: 
 
 1. Выберите столбец **Единиц продано**. На вкладке **Главная** выберите **Тип данных**, а затем выберите **Целое число**. Выберите **Заменить текущее**, чтобы изменить тип столбца. 
 
     Наиболее часто при выполнении шагов по очистке данных пользователи изменяют типы данных. В этом случае единицы продаются в десятичной форме. Нет смысла иметь 0,2 или 0,5 проданного товара, верно? Так что давайте изменим его на целое число. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="Снимок экрана: изменение десятичного числа на целое число."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI."::: 
 
 1. Выберите столбец **Сегмент**. На вкладке **Преобразование** выберите **Формат**, а затем выберите **ПРОПИСНЫЕ**.
 
     Кроме того, мы хотим сделать эти сегменты более удобными для просмотра на диаграмме. Теперь отформатируйте столбец "Сегмент". 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="Снимок экрана с изменением нижнего регистра на заголовки в верхнем регистре.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. Сократите имя столбца с **Название месяца** до **Месяц**. Дважды щелкните столбец **Название месяца** и переименуйте его в **Месяц**.  
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="Снимок экрана с укороченным именем столбца.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. В столбце **Продукт** выберите раскрывающийся список и снимите флажок **Монтана**. 
 
      Нам известно, что продукт Монтана был снят с продажи в прошлом месяце, поэтому нам нужно отфильтровать эти данные из нашего отчета, чтобы избежать путаницы. 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Снимок экрана: удаление значений Монтана.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. Вы увидите, что каждое преобразование добавлено в список в подразделе **Параметры запроса** раздела **Примененные шаги**.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="Снимок экрана: список примененных шагов.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. На вкладке **Главная** выберите **Закрыть и применить**. Данные почти готовы к созданию отчета. 
 
     Отображается ли в списке полей символ сигмы? Служба Power BI обнаружила, что эти поля являются числовыми. Power BI также указывает поле даты с символом календаря.
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="Снимок экрана: список полей с числовыми полями и полем даты.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 ### <a name="extra-credit-write-a-measure-in-dax"></a>Дополнительные возможности. написание меры в DAX
 
@@ -98,27 +98,23 @@ ms.locfileid: "86973384"
 
 1. Выберите **представление данных** слева. 
  
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="Снимок экрана: значок представления данных.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. На ленте **Главная** выберите **Новая таблица**. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="Снимок экрана: значок новой таблицы.":::
-
-1. Введите эту меру, чтобы создать таблицу "Календарь" со всеми датами в промежутке времени между 1 января 2013 г. и 31 декабря 2014 г.  
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI." со всеми датами в промежутке времени между 1 января 2013 г. и 31 декабря 2014 г.  
 
     `Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))` 
 
 2. Щелкните зеленый флажок, чтобы зафиксировать изменения.
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="Снимок экрана выражения DAX.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. Теперь выберите **представление модели** слева. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="Снимок экрана со значком представления модели.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI." в поле **Дата** в таблице "Календарь", чтобы соединить таблицы и создать *связь* между ними.  
 
-1. Перетащите поле **Дата** из таблицы "Финансы" в поле **Дата** в таблице "Календарь", чтобы соединить таблицы и создать *связь* между ними.  
-
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="Снимок экрана связи между полями дат.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 ## <a name="build-your-report"></a>Создание отчета 
 
@@ -126,16 +122,14 @@ ms.locfileid: "86973384"
 
 Давайте создадим окончательный отчет, по одному визуальному элементу за раз. 
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="Снимок экрана всех элементов отчета, обозначенных номерами.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 ### <a name="visual-1-add-a-title"></a>Визуальный элемент 1. Добавить заголовок 
 
 1. На ленте **Вставка** выберите элемент **Текстовое поле**. Введите "Краткий обзор — финансовый отчет". 
 1. Выберите набранный текст. Задайте размер шрифта равным 20 и выберите полужирное начертание. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="Снимок экрана с форматированием заголовка.":::
-
-1. В области "Визуализации" установите переключатель **Фон** в положение **Выкл**. 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI." установите переключатель **Фон** в положение **Выкл**. 
 1. Измените размер поля, чтобы оно поместилось на одной строке. 
 
 ### <a name="visual-2-profit-by-date"></a>Визуальный элемент 2. Прибыль по дате 
@@ -145,19 +139,15 @@ ms.locfileid: "86973384"
 1. В области "Поля" перетащите поле **Прибыль** на пустую область холста отчета. По умолчанию в Power BI отображается гистограмма с одним столбцом, "Прибыль". 
 1. Перетащите поле **Дата** на тот же визуальный элемент. Power BI обновит гистограмму и покажет прибыль по датам.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="Снимок экрана: гистограмма с данными о прибыли.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI." выберите в раскрывающемся списке значение **Ось**. Измените **Дата** с **Иерархия дат** на **Дата**.
 
-1. В разделе **Поля** панели "Визуализации" выберите в раскрывающемся списке значение **Ось**. Измените **Дата** с **Иерархия дат** на **Дата**.
-
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="Снимок экрана: изменение иерархии дат на дату.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
     Power BI обновит гистограмму и покажет прибыль по каждому месяцу.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="Снимок экрана: гистограмма с данными по месяцам.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI." измените тип визуализации на **График**. 
 
-1. В области "Визуализации" измените тип визуализации на **График**. 
-
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="Снимок экрана: изменение гистограммы на график.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
     Теперь можно с легкостью увидеть, что в декабре 2014 г. прибыль была наибольшей.
 
@@ -170,7 +160,7 @@ ms.locfileid: "86973384"
 
     Power BI создаст визуализацию карты с пузырьками, представляющими относительную прибыль в каждом регионе. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="Снимок экрана: создание диаграммы с картой.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
     Похоже, что прибыль в Европе больше, чем в Северной Америке. 
 
@@ -187,7 +177,7 @@ ms.locfileid: "86973384"
 
 1. Перетащите диаграмму так, чтобы она была достаточно широкой для заполнения места под двумя верхними диаграммами.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="Снимок экрана: гистограмма с группировкой.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
     Похоже, компания должна продолжать инвестировать в продукт Paseo и ориентироваться на сегменты предприятий малого бизнеса и государственных организаций.  
 
@@ -199,11 +189,11 @@ ms.locfileid: "86973384"
 2. В области "Визуализации" выберите пункт **Срез**. 
 3. В разделе "Поля" панели "Визуализации" выберите раскрывающийся список **Поля**. Удалите "Квартал" и "День", чтобы остались только "Год" и "Месяц". 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="Снимок экрана изменения иерархии дат.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 4. Разверните каждый год и измените размер визуального элемента, чтобы отображались все месяцы.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Снимок экрана: срез иерархии дат.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 Теперь, если руководителю потребуются только данные за 2013 год, можно воспользоваться срезом для переключения между годами или конкретными месяцами каждого года. 
 
@@ -215,13 +205,13 @@ ms.locfileid: "86973384"
 
 - На ленте **Вид** измените тему на **Executive**.  
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Снимок экрана: выбор темы Executive."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI."::: 
 
 **Изменение визуальных элементов** 
 
 Внесите следующие изменения на вкладке **Формат** в области "Визуализации".
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Снимок экрана: вкладка Формат в области Визуализации.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. Выберите визуальный элемент 2. В разделе **Заголовок** измените **Текст заголовка** на "Прибыль по месяцам и годам", а **Размер текста** — на **16 пт**. Установите переключатель **Тень** в положение **Вкл.** . 
 
@@ -237,7 +227,7 @@ ms.locfileid: "86973384"
 1. В области **Формат фигуры** в разделе **Линия** измените значение параметра **Прозрачность** на **100%** . 
 1. В разделе **Заливка** измените **Цвет заливки** на **Цвет темы 5 #6B91C9** (синий). 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Снимок экрана: Цвет темы 5.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 1. На вкладке **Формат** выберите **Переместите назад** > **На задний план**. 
 1. Выберите текст в визуальном элементе 1, в заголовке, и измените цвет шрифта на **Белый**. 
@@ -252,7 +242,7 @@ ms.locfileid: "86973384"
 
 Вот как будет выглядеть окончательный отчет:  
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Снимок экрана: окончательный формат отчета.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 Данный отчет позволяет руководителю получить ответы на все его вопросы: 
 
@@ -283,7 +273,7 @@ ms.locfileid: "86973384"
 1. Выберите назначение, например, **Моя рабочая область**, в службе Power BI > **Выбрать**.
 1. Выберите **Открыть "имя_файла" в Power BI**.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Снимок экрана: открытие отчета в службе Power BI.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
     Готовый отчет откроется в браузере.
 
@@ -291,7 +281,7 @@ ms.locfileid: "86973384"
 
 1. Выберите **Поделиться** в верхней части отчета, чтобы поделиться отчетом с другими пользователями.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Снимок экрана: предоставление общего доступа к отчету из службы Power BI.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Снимок экрана с отчетом Power BI в службе Power BI.":::
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

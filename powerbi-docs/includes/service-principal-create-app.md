@@ -7,12 +7,12 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 05/20/2020
 ms.custom: include file
-ms.openlocfilehash: 0fe3e1743cb8853d6626b59b748d70bfcc292dbd
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 80886eab6de6c125d0361b326f5d31d2b3bb35e5
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315842"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524536"
 ---
 1. Выполните вход в [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
@@ -33,4 +33,4 @@ ms.locfileid: "84315842"
 
 6. После регистрации на вкладке **Обзор** доступен *Идентификатор приложения*. Скопируйте и сохраните *Идентификатор приложения* для последующего использования.
 
-    ![идентификатор приложения](media/embedded-service-principal/application-id.png)
+    ![Снимок экрана: получение ИД приложения на вкладке "Обзор".](media/embedded-service-principal/application-id.png)

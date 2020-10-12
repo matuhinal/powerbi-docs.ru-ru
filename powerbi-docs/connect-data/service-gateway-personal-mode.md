@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236151"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632579"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Использование персональных шлюзов в Power BI
 
@@ -31,13 +31,13 @@ ms.locfileid: "85236151"
 
 |   |Локальный шлюз данных | Локальный шлюз данных (персональный режим) |
 | ---- | ---- | ---- |
-|Поддерживаемые облачные службы |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, потоки данных |Power BI |
-|Запуски |Согласно настройке пользователя, имеющего доступ к шлюзу |Согласно проверке подлинности Windows и настройке для других типов проверки подлинности |
-|Можно устанавливать только в качестве администратора компьютера |Да |Нет |
-|Централизованное управление шлюзами и источниками данных |Да |Нет |
-|Импорт данных и планирование обновления |Да |Да |
-|Поддержка DirectQuery |Да |Нет |
-|Поддержка LiveConnect для Analysis Services |Да |Нет |
+|**Поддерживаемые облачные службы** |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, потоки данных |Power BI |
+|**Запуски** |Согласно настройке пользователя, имеющего доступ к шлюзу |Согласно проверке подлинности Windows и настройке для других типов проверки подлинности |
+|**Можно устанавливать только в качестве администратора компьютера** |Да |Нет |
+|**Централизованное управление шлюзами и источниками данных** |Да |Нет |
+|**Импорт данных и планирование обновления** |Да |Да |
+|**Поддержка DirectQuery** |Да |Нет |
+|**Поддержка LiveConnect для Analysis Services** |Да |Нет |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>Установка локального шлюза данных (персональный режим)
 

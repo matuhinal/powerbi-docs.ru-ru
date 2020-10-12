@@ -1,6 +1,6 @@
 ---
 title: Внедрение отчетов Power BI с разбивкой на страницы в приложении для организации
-description: Узнайте, как интегрировать (внедрить) отчет Power BI с разбивкой на страницы в приложение с помощью API-интерфейсов Power BI.
+description: В этом руководстве содержатся сведения о том, как интегрировать (внедрить) отчет Power BI с разбивкой на страницы в приложение с помощью API-интерфейсов Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878735"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747627"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Руководство по Внедрение отчетов Power BI с разбивкой на страницы в приложение для организации
 
 В **Power BI** в приложение для вашей организации можно внедрить отчеты с разбивкой на страницы, используя сценарий *данных, принадлежащих пользователю*.
 
 Отчеты с разбивкой на страницы — это отчеты, предназначенные для высококачественной печати. Обычно эти отчеты содержат большой объем данных, отображаемых таким образом, чтобы они соответствовали печатным страницам.
-Дополнительные сведения о том, как Power BI поддерживает отчеты с разбивкой на страницы, см. в разделе [Сведения об отчетах с разбивкой на страницы в Power BI Premium](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
+Дополнительные сведения о том, как Power BI поддерживает отчеты с разбивкой на страницы, см. в разделе [Сведения об отчетах с разбивкой на страницы в Power BI Premium](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
 **Принадлежащие пользователю данные** для приложения расширяют возможности службы Power BI, позволяя использовать встроенную аналитику. В этом руководстве показано, как интегрировать отчет с разбивкой на страницы в приложение.
 

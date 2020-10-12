@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437279"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633008"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Фильтрация отчета с помощью параметров строки запроса в URL-адресе
 
@@ -37,7 +37,7 @@ ms.locfileid: "86437279"
 
 *URL*?filter=*Таблица*/*Поле* eq '*значение*'
 
-![Снимок экрана с URL-адресом с фильтром.](media/service-url-filters/power-bi-filter-urls7b.png)
+![Снимок экрана: URL-адрес с фильтром.](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * Имена переменных **Таблица** и **Поле** чувствительны к регистру, а **значение** — нет.
 * Поля отчета, которые являются скрытыми для просмотра, также можно отфильтровать.
@@ -64,7 +64,7 @@ ms.locfileid: "86437279"
 ?filter=Store/Territory eq 'NC'
 ```
 
-![Снимок экрана с URL-адресом с фильтром.](media/service-url-filters/power-bi-filter-urls7.png)
+![Снимок экрана: URL-адрес с фильтром по Северной Каролине.](media/service-url-filters/power-bi-filter-urls7.png)
 
 Отчет теперь отфильтрован по Северной Каролине, следовательно, все визуализации в отчете показывают данные только по Северной Каролине.
 
@@ -155,10 +155,10 @@ ms.locfileid: "86437279"
 |**[Столбец]**     |  [ — 0x005B, ] — 0x005D       |  _x005B_Column_x005D_       |
 |**Столбец+Plus**     | + — 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![Снимок экрана с табличным визуальным элементом, отображающим специальные символы.](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Снимок экрана: табличный визуальный элемент, отображающий специальные символы Юникода.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Снимок экрана с табличным визуальным элементом, отображающим специальные символы.](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Снимок экрана: табличный визуальный элемент, отображающим специальные символы для кодировки в Power BI.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Специальные символы в значениях
 
@@ -172,11 +172,11 @@ Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Снимок 
 
 - `?filter=Table/Name eq 'Lee''s Summit'` превращается в:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Имя — O'Brien":::
 
 - Оператор `in` также поддерживает такое экранирование: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` становится:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit или O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Имя — O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>Использование DAX для фильтрации по нескольким значениям
 

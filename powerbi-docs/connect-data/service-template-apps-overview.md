@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c647f376502e2575b9eef46e9e2a72d5d76e8053
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860585"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635178"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Что такое приложения-шаблоны Power BI?
 
@@ -29,29 +29,39 @@ ms.locfileid: "90860585"
 
 Приложения-шаблоны Power BI позволяют пользователям Power BI Pro и Power BI Premium получать оперативные сведения через предустановленные панели мониторинга и отчеты, которые можно подключать к источникам данных в реальном времени. Многие приложения Power BI уже доступны в [Marketplace для приложений Power BI](https://app.powerbi.com/getdata/services).
 
-|  |
-|     :---:      |
-| [![Веб-приложение Microsoft Project](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Веб-приложение "Аналитика использования" Microsoft 365](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Веб-приложение Dynamic 365 Business Central — Sales](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Веб-приложение Microsoft Forms Pro Customer Satisfaction](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
-|  |
+:::row:::
+    :::column:::
+        [![Веб-приложение Microsoft Project](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp)
+    :::column-end:::
+    :::column:::
+        [![Веб-приложение аналитики использования в Microsoft 365](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
+    :::column-end:::
+    :::column:::
+        [![Веб-приложение "Продажи" Dynamic 365 Business Central](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales)
+    :::column-end:::
+    :::column:::
+        [![Веб-приложение "Удовлетворенность клиентов" Microsoft Forms Pro](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction)
+    :::column-end:::
+:::row-end:::
 
 ## <a name="process"></a>Процесс
 Общий процесс разработки и отправки приложения-шаблона включает несколько стадий. Некоторые стадии могут включать сразу несколько действий.
 
 
-| Этап | Power BI Desktop |  |Служба Power BI  |  |Центр для партнеров  |
+| Этап | Power BI Desktop |  |Служба Power BI  |  |Центр партнеров  |
 |---|--------|--|---------|---------|---------|
-| **Первый** | Создание модели данных и отчета в PBIX-файле |  | Создание рабочей области. Импорт PBIX-файла. Создание дополнительной панели мониторинга.  |  | Регистрация в качестве партнера |
+| **Первый** | Создание модели данных и отчета в PBIX-файле |  | Создайте рабочую область. Импорт PBIX-файла. Создание дополнительной панели мониторинга.  |  | Регистрация в качестве партнера |
 | **Второй** |  |  | Создание тестового пакета и запуск внутренней проверки.        |  | |
 | **Третий** | |  | Повышение уровня тестового пакета до подготовительного для проверки его работы вне среды клиента Power BI, а затем отправка пакета в AppSource.  |  | Создание предложения приложения-шаблона Power BI с помощью подготовительного пакета и запуск процесса проверки |
-| **Четвертый** | |  | Повышение уровня подготовительного пакета до рабочего. |  | Ввод в эксплуатацию |
+| **Четвертый** | |  | Повышение уровня подготовительного пакета до рабочего. |  | Запуск |
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Подготовка к работе
 
 Для создания приложения-шаблона требуются соответствующие разрешения. Дополнительные сведения см. в статье о портале администрирования Power BI в разделе "Параметры приложений-шаблонов". 
 
 Чтобы опубликовать приложение-шаблон в службе Power BI и AppSource, необходимо [зарегистрироваться в качестве издателя в центре для партнеров](/azure/marketplace/become-publisher).
  
-## <a name="high-level-steps"></a>Основные действия
+## <a name="high-level-steps"></a>Пошаговые действия
 
 Ниже приведены основные действия. 
 
@@ -79,7 +89,7 @@ ms.locfileid: "90860585"
 
 Чтобы опубликовать приложение-шаблон в службе Power BI и AppSource, необходимо [зарегистрироваться в качестве издателя в центре для партнеров](/azure/marketplace/become-publisher).
  > [!NOTE] 
- > Управление отправкой приложений-шаблонов осуществляется в [центре для партнеров](/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Для входа используйте ту же учетную запись регистрации Центра разработчиков Майкрософт. Для всех предложений в AppSource нужно использовать одну и ту же учетную запись Майкрософт. Не следует использовать разные учетные записи для отдельных служб или приложений.
+ > Управление отправкой приложений-шаблонов осуществляется в [центре для партнеров](/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Для входа используйте ту же учетную запись регистрации Центра разработчиков Майкрософт. У вас должна быть только одна учетная запись Майкрософт для публикации предложений в AppSource. Не следует использовать разные учетные записи для отдельных служб или приложений.
 
 ## <a name="tips"></a>Советы 
 
@@ -93,13 +103,13 @@ ms.locfileid: "90860585"
 
 ## <a name="known-limitations"></a>Известные ограничения
 
-| Признак | Известные ограничения |
+| Функция | Известные ограничения |
 |---------|---------|
 |Содержимое:  Наборы данных   | Должен присутствовать строго один набор данных. Разрешены только наборы данных, созданные в Power BI Desktop (PBIX-файлы). <br>Не поддерживаются: наборы данных из других приложений-шаблонов, наборы данных для нескольких рабочих областей, отчеты с разбивкой на страницы (RDL-файлы), книги Excel. |
 |Содержимое: Панели мониторинга | Плитки в режиме реального времени недопустимы (другими словами, не поддерживаются принудительная отправка или трансляция наборов данных) |
 |Содержимое: Потоки данных | Не поддерживаются: Потоки данных |
 |Содержимое из файлов | Разрешены только PBIX-файлы. <br>Не поддерживаются: RDL-файлы (отчеты с разбивкой на страницы), книги Excel.   |
-| Источники данных | Разрешены источники данных, поддерживаемые для обновления данных по расписанию в облаке. <br>Не поддерживаются: <li> DirectQuery</li><li>Активные подключения (не Azure AS)</li> <li>Локальные источники данных (личный и корпоративный шлюзы не поддерживаются)</li> <li>Режим реального времени (не поддерживается принудительная отправка наборов данных)</li> <li>Составные модели</li></ul> |
+| Источники данных | Разрешены источники данных, поддерживаемые для обновления данных по расписанию в облаке. <br>Не поддерживается: <li> DirectQuery</li><li>Активные подключения (не Azure AS)</li> <li>Локальные источники данных (личный и корпоративный шлюзы не поддерживаются)</li> <li>Режим реального времени (не поддерживается принудительная отправка наборов данных)</li> <li>Составные модели</li></ul> |
 | Набор данных: для нескольких рабочих областей | Наборы данных для нескольких рабочих областей недопустимы.  |
 | Параметры запроса | Не поддерживаются: параметры типа Any или Binary блокируют операцию обновления набора данных. |
 | Визуальные элементы Power BI | Поддерживаются только общедоступные визуальные элементы Power BI. [Визуальные элементы Power BI для организации](../developer/visuals/power-bi-custom-visuals-organization.md) не поддерживаются |

@@ -1,6 +1,6 @@
 ---
 title: Вложенные отчеты в отчетах Power BI с разбивкой на страницы
-description: В этой статье вы узнаете о поддерживаемых источниках данных для отчетов с разбивкой на страницы в службе Power BI и о подключении к источникам данных базы данных SQL Azure.
+description: В этой статье содержатся сведения о поддерживаемых источниках данных для отчетов с разбивкой на страницы в службе Power BI.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861390"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746592"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Вложенные отчеты в отчетах Power BI с разбивкой на страницы
 
@@ -33,7 +33,7 @@ Power BI Report Builder может работать с отчетами с ра
 
 После входа вы увидите вариант **Службы Power BI**  в Power BI Report Builder для пунктов меню **Открыть** и **Сохранить как** в меню **Файл**. При выборе параметра **Power BI Service**  для сохранения отчета создается активное подключение между Power BI Report Builder и службой Power BI. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Открытие из службы Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Войдите в Power BI":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Сохраните локальный отчет в службе Power BI
 
@@ -48,7 +48,7 @@ Power BI Report Builder может работать с отчетами с ра
 
 3. В диалоговом окне **Сохранить как** выберите рабочую область Power BI Premium, в которой можно хранить отчеты с разбивкой на страницы.  Такие рабочие области отмечены значком в виде бриллианта ![значок в виде бриллианта Premium](media/subreports/report-builder-premium-diamond.png) рядом с именем рабочей области.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Сохранить как в службу Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Войдите в Power BI":::
 
 4. Нажмите кнопку **Сохранить**.
 
@@ -58,7 +58,7 @@ Power BI Report Builder может работать с отчетами с ра
 
 1. На ленте **Вставить** нажмите кнопку **Вложенный отчет** или щелкните правой кнопкой мыши холст отчета и выберите **Вставить** > **Вложенный отчет**.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Вставка вложенного отчета в отчет":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Войдите в Power BI":::
 
     Откроется диалоговое окно **Свойства вложенного отчета**.  
 

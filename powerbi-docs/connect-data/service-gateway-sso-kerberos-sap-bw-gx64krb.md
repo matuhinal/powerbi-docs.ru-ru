@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: d6f43b3ef48946b9206343107767d2a4cb8cdc28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237665"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374253"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Единый вход Kerberos в SAP BW с использованием gx64krb5
 
 В этой статье описывается, как настроить источник данных SAP BW для включения единого входа из службы Power BI с использованием gx64krb5.
 
+> [!IMPORTANT]
+> SAP больше не поддерживает gx64krb5, и в результате корпорация Майкрософт также прекратила поддержку gx64krb5. Существующие и новые подключения продолжат работать должным образом до конца 2020 г., но не будут работать с января 2021 г. Вместо этой библиотеки следует использовать CommonCryptoLib. 
+
 > [!NOTE]
-> Чтобы включить обновление отчетов на основе сервера приложений SAP BW, использующих единый вход в службе Power BI, можно выполнить действия, описанные в этой статье, в дополнение к действиям, приведенным в статье [Настройка единого входа на основе Kerberos](service-gateway-sso-kerberos.md). Тем не менее корпорация Майкрософт рекомендует использовать CommonCryptoLib в качестве библиотеки SNC вместо gx64krb5. SAP больше не поддерживает библиотеку gx64krb5, а действия по ее настройке для шлюза значительно сложнее по сравнению с CommonCryptoLib. Сведения о настройке единого входа с помощью CommonCryptoLib см. в статье [Настройка единого входа для SAP BW с использованием CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). В качестве библиотеки SNC следует использовать CommonCryptoLib _или_ gx64krb5. Не выполняйте настройку обеих библиотек.
+> Чтобы включить обновление отчетов на основе сервера приложений SAP BW, использующих единый вход в службе Power BI, можно выполнить действия, описанные в этой статье, в дополнение к действиям, приведенным в статье [Настройка единого входа на основе Kerberos](service-gateway-sso-kerberos.md). Тем не менее корпорация Майкрософт рекомендует использовать CommonCryptoLib в качестве библиотеки SNC вместо gx64krb5. SAP больше не поддерживает библиотеку gx64krb5, а действия по ее настройке для шлюза значительно сложнее по сравнению с CommonCryptoLib. Сведения о настройке единого входа с помощью CommonCryptoLib см. в статье [Настройка единого входа для SAP BW с использованием CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). В качестве библиотеки SNC следует использовать CommonCryptoLib *или* gx64krb5, но не обе эти библиотеки. Не выполняйте настройку обеих библиотек.
 
 Это полное руководство. Если вы уже выполнили часть описываемых действий, их можно пропустить. Возможно, вы уже настроили сервер SAP BW для реализации единого входа с использованием gx64krb5.
 

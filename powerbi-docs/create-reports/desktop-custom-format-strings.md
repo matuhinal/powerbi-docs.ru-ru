@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859918"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600564"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Использование настраиваемых строк форматирования в Power BI Desktop
 
 С помощью настраиваемых строк форматирования в **Power BI Desktop** вы можете настроить внешний вид полей в визуальных элементах и убедиться, что отчеты выглядят именно так, как вы хотите.
 
-![Использование настраиваемых строк форматирования](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![Снимок экрана: Power BI Desktop с выбранным пользовательским форматом. ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>Как использовать настраиваемые строки форматирования
@@ -31,7 +31,7 @@ ms.locfileid: "90859918"
 
 После того как вы выбрали вариант **Настраиваемое** в раскрывающемся списке **Формат**, вы можете выбрать из списка часто используемых строк форматирования. 
 
-![Использование настраиваемых строк форматирования](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![Снимок экрана: сведения о пользовательском формате.](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
 ## <a name="supported-custom-format-syntax"></a>Поддерживаемый синтаксис настраиваемого форматирования

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858860"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375173"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Публикация в Интернете из Power BI
 
@@ -161,14 +161,14 @@ ms.locfileid: "90858860"
 
 На портале администрирования Power BI есть параметры для управления тем, кто может публиковать содержимое в Интернете. Изменить [параметры публикации в Интернете для клиента](../admin/service-admin-portal.md#publish-to-web) можно только совместно с [администратором Power BI](../admin/service-admin-role.md).
 
-У небольших организаций или частных лиц, которые зарегистрировались для работы с Power BI, возможно, еще нет администратора Power BI. В таком случае выполните наши [инструкции по получению прав администратора клиента](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover). Когда у вас будет администратор Power BI, он сможет включить для вас создание кодов внедрения.
+У небольших организаций или частных лиц, которые зарегистрировались для работы с Power BI, возможно, еще нет администратора Power BI. В таком случае выполните наши [инструкции по получению прав администратора](/azure/active-directory/users-groups-roles/domains-admin-takeover). Когда у вас будет администратор Power BI, он сможет включить для вас создание кодов внедрения.
 
 У давно сформированных организаций, как правило, уже есть администратор Power BI. Администратором Power BI может быть сотрудник с любой из следующих ролей:
 
 - Глобальные администраторы
 - пользователь с ролью администратора службы Power BI в Azure Active Directory.
 
-Вам необходимо [найти одного из этих сотрудников](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) в своей организации и попросить его изменить [параметры публикации в Интернете для клиента](../admin/service-admin-portal.md#publish-to-web) на портале администрирования.
+Вам необходимо [найти одного из этих сотрудников](/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) в своей организации и попросить его изменить [параметры публикации в Интернете для клиента](../admin/service-admin-portal.md#publish-to-web) на портале администрирования.
 
 ## <a name="limitations"></a>Ограничения
 
@@ -196,5 +196,3 @@ ms.locfileid: "90858860"
 - [Embed a report in a secure portal or website](service-embed-secure.md) (Внедрение отчета на защищенный портал или сайт)
 
 Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
-
-

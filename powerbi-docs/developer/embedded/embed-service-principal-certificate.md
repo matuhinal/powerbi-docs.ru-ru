@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231838"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749191"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Внедрение содержимого Power BI с помощью субъект-службы и сертификата
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->Рекомендуем защищать серверные службы с помощью сертификатов, а не секретных ключей. [Дополнительные сведения о получении маркеров доступа из Azure AD с помощью секретных ключей или сертификатов](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>Рекомендуем защищать серверные службы с помощью сертификатов, а не секретных ключей. [Дополнительные сведения о получении маркеров доступа из Azure AD с помощью секретных ключей или сертификатов](/azure/architecture/multitenant-identity/client-assertion).
 
 ## <a name="certificate-based-authentication"></a>Аутентификация на основе сертификата
 
-Аутентификация на основе сертификата позволяет Azure Active Directory (Azure AD) выполнять аутентификацию с помощью сертификата клиента, который находится на устройстве Windows, Android или iOS или хранится в [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts).
+Аутентификация на основе сертификата позволяет Azure Active Directory (Azure AD) выполнять аутентификацию с помощью сертификата клиента, который находится на устройстве Windows, Android или iOS или хранится в [Azure Key Vault](/azure/key-vault/basic-concepts).
 
 Этот метод проверки подлинности позволяет управлять сертификатами (менять их или отзывать) из одного места, используя ЦС.
 
@@ -49,7 +49,7 @@ ms.locfileid: "85231838"
 
 Сертификат можно получить из доверенного *центра сертификации* или создать самостоятельно.
 
-В этом разделе описывается создание сертификата с помощью [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/create-certificate) и скачивания *CER*-файла, содержащего открытый ключ.
+В этом разделе описывается создание сертификата с помощью [Azure Key Vault](/azure/key-vault/create-certificate) и скачивания *CER*-файла, содержащего открытый ключ.
 
 1. Выполните вход в [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
@@ -63,11 +63,11 @@ ms.locfileid: "85231838"
 
 4. Щелкните **Сертификаты**.
 
-    ![certificates](media/embed-service-principal-certificate/certificates.png)
+    ![Снимок экрана: страница "Хранилища ключей" с выделенным элементом "Сертификаты".](media/embed-service-principal-certificate/certificates.png)
 
 5. Щелкните **Создать или импортировать**.
 
-    ![generate](media/embed-service-principal-certificate/generate.png)
+    ![Снимок экрана: панель "Сертификаты" с выделенной кнопкой "Создать или импортировать".](media/embed-service-principal-certificate/generate.png)
 
 6. Настройте поля в окне **Создание сертификата** следующим образом.
 
@@ -107,7 +107,7 @@ ms.locfileid: "85231838"
 
 1. В приложении Azure AD откройте вкладку **Сертификаты и секреты**.
 
-     ![идентификатор приложения](media/embed-service-principal/certificates-and-secrets.png)
+     ![Снимок экрана: панель "Сертификаты и секреты" для приложения на портале Azure.](media/embed-service-principal/certificates-and-secrets.png)
 
 2. Щелкните **Отправить сертификат** и отправьте *CER*-файл, созданный и скачанный при выполнении [первого шага](#step-1---create-a-certificate) этого учебника. В *CER*-файле содержится открытый ключ.
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>Настройка Visual Studio для использования MSI
 
-При создании внедренного решения может быть полезно настроить Visual Studio для использования управляемого удостоверения службы (MSI). [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) — это функция, с помощью которой вы сможете управлять своим удостоверением Azure AD. После настройки она позволит Visual Studio пройти проверку подлинности в Azure Key Vault.
+При создании внедренного решения может быть полезно настроить Visual Studio для использования управляемого удостоверения службы (MSI). [MSI](/azure/active-directory/managed-identities-azure-resources/overview) — это функция, с помощью которой вы сможете управлять своим удостоверением Azure AD. После настройки она позволит Visual Studio пройти проверку подлинности в Azure Key Vault.
 
 1. Откройте проект в Visual Studio.
 
@@ -200,7 +200,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 >[Power BI Embedded для клиентов](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Объекты приложения и субъекта-службы в Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219742"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633384"
 ---
 # <a name="data-refresh-in-power-bi"></a>Обновление данных в Power BI
 
@@ -284,7 +284,8 @@ in
  
 Чтобы определить, можно ли обновить динамический источник данных, откройте диалоговое окно **Параметры источника данных** в **Редакторе Power Query**, а затем выберите **Источники данных в текущем файле**. В появившемся окне найдите следующее предупреждение, как показано на следующем изображении:
  
-    Some data sources may not be listed because of hand-authored queries.
+> [!NOTE]
+> Некоторые источники данных могут быть не указаны из-за созданных вручную запросов.
 
 ![Индикатор динамического источника данных](media/refresh-data/dynamic-data-source.png)
 

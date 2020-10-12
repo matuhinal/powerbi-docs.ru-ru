@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364107"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634741"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Использование тем отчетов в Power BI Desktop
 
@@ -53,11 +53,11 @@ ms.locfileid: "87364107"
 
 1. Откройте раскрывающееся меню **Темы**, нажав кнопку **Переключить тему** на ленте **Представление**.
 
-   ![Выбор темы отчета](media/desktop-report-themes/report-themes-02.png)
+   ![Снимок экрана: элемент "Вид" на ленте с несколькими темами.](media/desktop-report-themes/report-themes-02.png)
 
 2. Выберите одну из включенных тем в открывшемся раскрывающемся меню.
 
-   ![Выбор темы отчета](media/desktop-report-themes/report-themes-03.png)
+   ![Снимок экрана: развернутые для выбора темы Power BI.](media/desktop-report-themes/report-themes-03.png)
 
    Теперь эта тема отчета будет применена к отчету.
 
@@ -600,7 +600,9 @@ Power BI отслеживает цвет динамического ряда и
 
 Цвета используют следующий формат, в котором пользовательский шестнадцатеричный код заменяет "FFFFFF" в следующем примере:
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 Перечисление, чаще всего используемое для вариантов форматирования в раскрывающемся списке, означает, что его можно задать любому из параметров, отображаемых на панели, например "RightCenter" для позиции условных обозначений или "Значение даты, процент от общего числа" для метки данных в круговой диаграмме. Параметры перечисления отображаются под списком свойств.
 
