@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286821"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633959"
 ---
 # <a name="view-a-dashboard"></a>Просмотр панели мониторинга
 
@@ -31,14 +31,11 @@ ms.locfileid: "89286821"
 
 ## <a name="open-a-dashboard"></a>Открытие панели мониторинга
 
+Панели мониторинга можно открыть в службе Power BI из нескольких расположений.
 
+![Значок панели мониторинга](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![Значок панели мониторинга](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Панели мониторинга можно открыть в службе Power BI из нескольких расположений. <br> Просто найдите этот значок панели мониторинга. После определения <br>панели мониторинга откройте ее, выбрав ее имя, и она заполнит холст Power BI. |
-|                    |          |
-
-
+Просто найдите этот значок панели мониторинга. Определив панель мониторинга, откройте ее, выбрав ее имя, и она заполнит холст Power BI.
 
 Панели мониторинга могут размещаться в любых контейнерах в области навигации слева. 
 

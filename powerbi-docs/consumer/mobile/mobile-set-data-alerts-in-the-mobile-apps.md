@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71fb659ba102e139c7a1679b0c58c07c47a38bf0
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860608"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668673"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Настройка оповещений о данных в мобильных приложениях Power BI
 Применяется к:
 
-| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Планшет Android](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Телефон Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Планшет Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Устройство с Windows 10](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Телефоны под управлением Android |Планшеты Android |Устройства под управлением Windows 10 |
 
@@ -38,7 +38,7 @@ ms.locfileid: "90860608"
 1. Коснитесь плитки или датчика с числом на панели мониторинга, чтобы открыть ее в режиме фокусировки.  
    
    ![Снимок экрана: панель мониторинга с плиткой датчика в режиме фокусировки](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. Нажмите значок колокольчика ![Значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) , чтобы добавить оповещение.  
+2. Коснитесь значка колокольчика :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png" border="false":::, чтобы добавить оповещение.  
 3. Нажмите **Добавить правило оповещения**.
    
    ![Снимок экрана: правило оповещения, в котором не заданы оповещения](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
@@ -62,9 +62,9 @@ ms.locfileid: "90860608"
 
 1. На панели мониторинга нажмите на плитку числа или датчика, на которой есть оповещение.  
    
-   ![Снимок экрана: панель мониторинга с плиткой числа, на которой есть оповещение](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![Снимок экрана: панель мониторинга на устройстве iPhone или iPad с плиткой числа, на которой есть оповещение](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. Нажмите значок колокольчика ![Значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
+2. Нажмите на значок звонка :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png" border="false":::.  
 3. Коснитесь имени оповещения, чтобы изменить его, коснитесь ползунка, чтобы отключить оповещения по электронной почте, или коснитесь значка корзины для удаления оповещения.
    
     ![Снимок экрана: оповещение с указанием имени оповещения, значком корзины для удаления оповещения, а также ползунком для отключения оповещения](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
@@ -72,9 +72,9 @@ ms.locfileid: "90860608"
 ## <a name="data-alerts-on-an-android-device"></a>Оповещения о данных на устройстве Android
 ### <a name="set-an-alert-on-an-android-device"></a>Настройка оповещений на устройстве Android
 1. На панели мониторинга в Power BI коснитесь плитки с датчиком или числом, чтобы открыть ее.  
-2. Нажмите значок колокольчика ![Значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) , чтобы добавить оповещение.  
+2. Коснитесь значка колокольчика :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png" border="false":::, чтобы добавить оповещение.  
    
-   ![Снимок экрана: панель мониторинга с плиткой числа, на которой есть оповещение](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![Снимок экрана: панель мониторинга на устройстве Android с плиткой числа, на которой есть оповещение](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. Нажмите на значок плюса (+).
    
    ![Снимок экрана: раздел "Управление оповещениями" с указателем на значке плюса](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
@@ -95,7 +95,7 @@ ms.locfileid: "90860608"
 Вы можете управлять отдельными оповещениями в мобильном приложении Power BI, а также [всеми своими оповещениями в службе Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. На панели мониторинга нажмите на плитку карточки или датчика, на которой есть оповещение.  
-2. Коснитесь значка колокольчика ![Значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
+2. Коснитесь значка колокольчика :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png" border="false":::.  
 3. Нажмите на оповещение, чтобы изменить значение или отключить его.
    
     ![Снимок экрана: плитка "Управление оповещениями" с указателем на значке плюса для добавления оповещения](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
@@ -109,9 +109,9 @@ ms.locfileid: "90860608"
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Настройка оповещений о данных на устройстве с Windows
 1. Коснитесь плитки или датчика с числом на панели мониторинга, чтобы открыть ее.  
-2. Нажмите значок колокольчика ![Значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) , чтобы добавить оповещение.  
+2. Коснитесь значка колокольчика :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png" border="false":::, чтобы добавить оповещение.  
    
-   ![Снимок экрана: панель мониторинга с плиткой числа, на которой есть оповещение](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![Снимок экрана: панель мониторинга на устройстве Windows с плиткой числа, на которой есть оповещение](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. Нажмите на значок плюса (+).
    
    ![Снимок экрана: раздел "Управление оповещениями", в котором нет заданных оповещений](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
@@ -134,7 +134,7 @@ ms.locfileid: "90860608"
 Вы можете управлять отдельными оповещениями в мобильном приложении Power BI, а также [всеми своими оповещениями в службе Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. На панели мониторинга нажмите на плитку карточки или датчика, на которой есть оповещение.  
-2. Нажмите значок колокольчика ![Значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
+2. Нажмите на значок звонка :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png" border="false":::.  
    
    ![Снимок экрана: панель мониторинга с плиткой числа, на которой есть оповещение](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. Нажмите на оповещение, чтобы изменить значение или отключить его.
@@ -153,10 +153,10 @@ ms.locfileid: "90860608"
 2. Если вы включили отправку оповещений на электронную почту, в ваш ящик придет примерно такое сообщение:
    
    ![Снимок экрана: уведомления по электронной почте с оповещением](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI добавляет сообщение в ваш [центр уведомлений](mobile-apps-notification-center.md), а также желтую точку к значку колокольчика ![значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) в строке заголовка (iOS и Android) или к кнопке глобальной структуры навигации ![кнопка глобальной структуры навигации](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (устройства Windows 10).
+3. Power BI добавляет сообщение в ваш [центр уведомлений](mobile-apps-notification-center.md), а также желтую точку на значок колокольчика :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: в строке заголовка (устройства iOS и Android) или на кнопку глобальной структуры навигации ![кнопка глобальной структуры навигации](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (устройства Windows 10).
 
 
-4. Коснитесь значка колокольчика ![значок колокольчика](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) или кнопки глобальной структуры навигации ![кнопка глобальной структуры навигации](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png), чтобы [открыть **центр уведомлений**](mobile-apps-notification-center.md) и просмотреть сведения об оповещении.
+4. Коснитесь значка колокольчика :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: или кнопки глобальной структуры навигации ![кнопка глобальной структуры навигации](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png), чтобы [открыть **центр уведомлений**](mobile-apps-notification-center.md) и просмотреть сведения об оповещении.
    
      
 

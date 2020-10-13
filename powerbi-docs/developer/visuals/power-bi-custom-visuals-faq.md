@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537810"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747926"
 ---
 # <a name="power-bi-visuals-faq"></a>Визуальные элементы Power BI: вопросы и ответы
 
@@ -32,9 +32,9 @@ ms.locfileid: "87537810"
 
 Пользователи могут найти визуализации Power BI для организации во встроенном хранилище организации в Power BI Desktop или службе Power BI. Для этого нужно перейти на вкладку *Моя организация*. 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Будет ли визуализация Power BI, переданная администратором из общедоступного магазина в хранилище организации, обновляться автоматически при обновлении версии визуализации в общедоступном магазине marketplace?
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Будет ли визуализация Power BI, переданная администратором из общедоступного магазина в хранилище организации (*Добавить визуальный элемент > Из AppSource*), обновляться автоматически при обновлении версии визуализации в общедоступном магазине Marketplace?
 
-Нет, автоматическое обновление из общедоступного магазина Marketplace не выполняется. Администратору следует самостоятельно обновлять версии визуализаций Power BI для организации.
+Да, визуальный элемент автоматически обновляется из общедоступного магазина Marketplace. Если визуальный элемент сертифицирован, сертификация сохраняется, включая дополнительные возможности, такие как экспорт в PDF или PowerPoint.
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>Можно ли отключить хранилище организации?
 
@@ -135,7 +135,7 @@ ms.locfileid: "87537810"
 
 ### <a name="what-is-changing-in-the-submission-process"></a>Что изменяется в процессе отправки?
 
-Процесс отправки визуализаций Power BI с функцией IAP в marketplace такой же, как и для бесплатных визуализаций Power BI. Отправить визуализацию Power BI на сертификацию можно с помощью [Центра партнеров](https://docs.microsoft.com/partner-center/).
+Процесс отправки визуализаций Power BI с функцией IAP в marketplace такой же, как и для бесплатных визуализаций Power BI. Отправить визуализацию Power BI на сертификацию можно с помощью [Центра партнеров](/partner-center/).
 
 
 При регистрации визуализации Power BI перейдите на вкладку *Настройка продукта* и установите флажок *Для моего продукта требуется приобрести службу*.

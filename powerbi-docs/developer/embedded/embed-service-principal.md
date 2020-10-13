@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 05/12/2020
-ms.openlocfilehash: e7b1e33322e0c1174b05a4e7b3617b5d3f7a18e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231229"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746799"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения
 
@@ -24,21 +24,21 @@ ms.locfileid: "85231229"
 
 >[!NOTE]
 >Рекомендуем защищать серверные службы с помощью сертификатов, а не секретных ключей.
->* [Дополнительные сведения о получении маркеров доступа из Azure AD с помощью секретных ключей или сертификатов](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Дополнительные сведения о получении маркеров доступа из Azure AD с помощью секретных ключей или сертификатов](/azure/architecture/multitenant-identity/client-assertion).
 >* [Внедрение содержимого Power BI с помощью субъекта-службы и сертификата](embed-service-principal-certificate.md)
 
 ## <a name="method"></a>Метод
 
 Чтобы использовать субъект-службу и идентификатор приложения со встроенной аналитикой, выполните следующие действия.
 
-1. Создайте [приложение Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management).
+1. Создайте [приложение Azure AD](/azure/active-directory/manage-apps/what-is-application-management).
 
     1. Создайте секрет приложения Azure AD.
     
     2. Получите *Идентификатор приложения* и *Секрет приложения*.
 
     >[!NOTE]
-    >Эти действия описаны в **шаге 1**. Дополнительные сведения о создании приложения Azure AD см. в статье [Создание приложения Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
+    >Эти действия описаны в **шаге 1**. Дополнительные сведения о создании приложения Azure AD см. в статье [Создание приложения Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 2. Создайте группу безопасности Azure AD.
 
@@ -55,7 +55,7 @@ ms.locfileid: "85231229"
 
 Создайте приложение Azure AD одним из методов, перечисленных ниже.
 * Создать приложение на [портале Microsoft Azure](https://portal.azure.com/#allservices)
-* Создать приложение с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
+* Создать приложение с помощью [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Создание приложения Azure AD на портале Microsoft Azure
 
@@ -63,7 +63,7 @@ ms.locfileid: "85231229"
 
 7. Перейдите на вкладку **Сертификаты и секреты**.
 
-     ![идентификатор приложения](media/embed-service-principal/certificates-and-secrets.png)
+     ![Снимок экрана: панель "Сертификаты и секреты" для приложения на портале Azure.](media/embed-service-principal/certificates-and-secrets.png)
 
 
 8. Щелкните **Создать секрет клиента**.
@@ -81,7 +81,7 @@ ms.locfileid: "85231229"
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>Создание приложения Azure AD с помощью PowerShell
 
-В этом разделе содержится пример скрипта для создания нового приложения Azure AD с помощью [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+В этом разделе содержится пример скрипта для создания нового приложения Azure AD с помощью [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
 ```powershell
 # The app ID - $app.appid
@@ -111,7 +111,7 @@ $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 
 ### <a name="create-a-security-group-manually"></a>Создание группы безопасности вручную
 
-Чтобы создать группу безопасности Azure вручную, следуйте инструкциям в статье [Создание простой группы и добавление в нее участников с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
+Чтобы создать группу безопасности Azure вручную, следуйте инструкциям в статье [Создание простой группы и добавление в нее участников с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
 ### <a name="create-a-security-group-using-powershell"></a>Создание группы безопасности с помощью PowerShell
 
@@ -121,7 +121,7 @@ $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 >Если вы хотите включить доступ субъекта-службы для всей организации, пропустите этот шаг.
 
 ```powershell
-# Required to sign in as a tenant admin
+# Required to sign in as admin
 Connect-AzureAD
 
 # Create an Azure AD security group
@@ -149,7 +149,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 Чтобы включить артефакты доступа к приложению Azure AD, такие как отчеты, панели мониторинга и наборы данных в службу Power BI, добавьте сущность субъекта-службы в качестве участника или администратора в рабочую область.
 
 >[!NOTE]
->В этом разделе содержатся инструкции для пользовательского интерфейса. Вы также можете добавить субъект-службу в рабочую область, используя команду [Groups — add group user API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) (Группы — добавление API-интерфейса пользователя группы).
+>В этом разделе содержатся инструкции для пользовательского интерфейса. Вы также можете добавить субъект-службу в рабочую область, используя команду [Groups — add group user API](/rest/api/power-bi/groups/addgroupuser) (Группы — добавление API-интерфейса пользователя группы).
 
 1. Перейдите к рабочей области, для которой требуется включить доступ, а затем в меню **Еще** выберите команду **Доступ к рабочей области**.
 
@@ -179,7 +179,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 >[Power BI Embedded для клиентов](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Объекты приложения и субъекта-службы в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Объекты приложения и субъекта-службы в Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Безопасность на уровне строк с использованием локального шлюза данных с субъектом-службой](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

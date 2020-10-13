@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091710"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668650"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Просмотрите панели мониторинга в мобильных приложениях Power BI
 Применяется к:
@@ -44,12 +44,12 @@ ms.locfileid: "88091710"
    
     ![Выбор панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
-   * Желтые звездочки ![Звездочки избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
-   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
+   * Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
+   * Нотация под названием каждой панели мониторинга (в этом случае — MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: показывает, как в каждой панели мониторинга классифицируются данные. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
    
    По умолчанию панели мониторинга Power BI на iPhone выглядят немного иначе. Все плитки отображаются в том же размере, но идут одна за другой сверху вниз.
    
-    ![Книжная ориентация панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
+    ![На снимке экрана показан iPhone с несколькими плитками Power BI, которые имеют одинаковый размер.](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
    > Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../create-reports/service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
@@ -62,12 +62,12 @@ ms.locfileid: "88091710"
 3. Смахните экран вверх, чтобы увидеть все плитки на панели мониторинга. Вы можете выбрать один из следующих вариантов.
    
    * [Коснитесь плитки](mobile-tiles-in-the-mobile-apps.md), чтобы открыть ее в режиме фокусировки и начать с ней работу.
-   * Коснитесь значка звездочки ![Звездочка избранного](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png), чтобы [добавить ее в избранное](mobile-apps-favorites.md).
+   * Коснитесь значка звездочки ![Звездочка, не добавленная в избранное](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png), чтобы [добавить ее в избранное](mobile-apps-favorites.md).
    * Коснитесь значка **Пригласить** ![Значок "Пригласить"](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png), чтобы [пригласить коллегу](mobile-share-dashboard-from-the-mobile-apps.md) к просмотру панели мониторинга.
    * [Синхронизировать панель мониторинга с устройством Apple Watch](mobile-apple-watch.md).
 4. Чтобы вернуться к списку панелей мониторинга, коснитесь стрелки рядом с заголовком панели мониторинга, а затем выберите **Моя рабочая область**.
    
-   ![Путь навигации](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
+   ![На снимке экрана показана панель мониторинга Power BI с плитками различных размеров, упорядоченными соответствующим образом.](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Просмотр панелей мониторинга в альбомном режиме на телефонах iPhone
 Просто поверните свой телефон набок, чтобы увидеть их в альбомной ориентации. Макет панели мониторинга изменится — вместо ряда плиток появится представление всей панели мониторинга, где все плитки будут расположены так же, как в службе Power BI.
@@ -82,13 +82,13 @@ ms.locfileid: "88091710"
    Сначала хотите [скачать приложение для iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) из Apple App Store?
 2. Нажмите **Панели мониторинга** вверху приложения.  
    
-   ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
+   ![На снимке экрана показан экран iPad с выбранными элементами "Панели мониторинга" и "Моя рабочая область".](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
-   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
+   * Нотация под названием каждой панели мониторинга (в этом случае — MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: показывает, как в каждой панели мониторинга классифицируются данные. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
 3. Вы можете предоставить доступ к панели мониторинга из своего рабочего пространства. Нажмите кнопку с многоточием ( **...** ) в правом нижнем углу плитки информационной панели и выберите **Пригласить других**.
    
-   ![Значок "Пригласить"](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
+   ![На снимке экрана показан выбранный элемент управления "многоточие", который показывает пункт "Пригласить других".](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. Вы также можете нажать на панель мониторинга, чтобы открыть ее и увидеть содержащиеся в ней плитки. На панели мониторинга можно выполнять с ней перечисленные ниже действия.
    
    * [Нажимать на плитки](mobile-tiles-in-the-mobile-apps.md), чтобы выполнять с ними различные операции.
@@ -97,7 +97,7 @@ ms.locfileid: "88091710"
    * [Возможность добавить заметки и поделиться моментальным снимком](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) плитки.
 5. Чтобы вернуться на страницу "Моя рабочая область", коснитесь имени панели мониторинга в верхнем левом углу, а затем выберите **Моя рабочая область**.
    
-   ![Путь навигации](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
+   ![На снимке экрана показано меню навигации на iPad с вызываемым пунктом "Моя рабочая область".](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
 ## <a name="view-dashboards-on-your-android-phone"></a>Просмотр панелей мониторинга на устройстве Android
 1. Откройте приложение Power BI на устройстве Android и выполните вход.
@@ -105,15 +105,15 @@ ms.locfileid: "88091710"
    Сначала требуется [скачать приложение Android](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Коснитесь панели мониторинга, которую нужно открыть.   
    
-   ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
+   ![На снимке экрана показан экран телефона Android с выбранными элементами "Панели мониторинга" и "Моя рабочая область".](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
     Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
 
-    Нотация под названием панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
+    Нотация под названием панели мониторинга (в этом случае — MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: показывает, как в каждой панели мониторинга классифицируются данные. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
 
     Панели мониторинга Power BI на устройстве Android выглядят немного иначе. Все плитки отображаются с той же шириной, но идут одна за другой сверху вниз.
 
-    ![Книжная ориентация панели мониторинга](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
+    ![На снимке экрана показан телефон Android с несколькими плитками, которые имеют одинаковый размер.](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
     Если панель мониторинга принадлежит вам, то в службе Power BI вы [сможете создать представление панели мониторинга специально для телефонов](../../create-reports/service-create-dashboard-mobile-phone-view.md) для просмотра в книжной ориентации. 
 
@@ -129,10 +129,10 @@ ms.locfileid: "88091710"
    Сначала требуется [скачать приложение Android](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Коснитесь панели мониторинга, которую нужно открыть.   
    
-   ![Домашняя страница панели мониторинга](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
+   ![На снимке экрана показан экран планшета Android с выбранными элементами "Панели мониторинга" и "Моя рабочая область".](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Желтые звездочки ![Звездочка избранного](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) показывают избранные панели мониторинга. 
-   * Нотация под названием каждой панели мониторинга (в этом примере — MBI) ![Классификация данных](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) показывает, как классифицируются данные на каждой панели мониторинга. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
+   * Нотация под названием каждой панели мониторинга (в этом случае — MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: показывает, как в каждой панели мониторинга классифицируются данные. Узнайте подробнее о [классификации данных в Power BI](../../create-reports/service-data-classification.md).
 3. На панели мониторинга вы можете коснуться вертикальной кнопки **Дополнительные параметры** (...) рядом с именем, чтобы пригласить коллегу, обновить сведения или получить сведения о панели мониторинга.
    
    ![Меню с многоточием](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -141,7 +141,7 @@ ms.locfileid: "88091710"
    Для увеличения и уменьшения масштаба различных областей панели мониторинга или панорамирования можно использовать жест сжатия или разведения двумя пальцами. Чтобы открыть плитку в режиме фокусировки и работать с данными, также можно [коснуться плитки](mobile-tiles-in-the-mobile-apps.md).
 5. Для возврата на домашнюю страницу панелей мониторинга коснитесь имени панели мониторинга, чтобы открыть путь навигации, а затем выберите **Моя рабочая область**:
    
-    ![Путь навигации](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
+    ![На снимке экрана показано меню навигации на планшете Android с вызываемым элементом "Моя рабочая область".](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Для увеличения и уменьшения масштаба различных областей панели мониторинга или панорамирования можно использовать жест сжатия или разведения двумя пальцами. Чтобы открыть плитку в режиме фокусировки и работать с данными, также можно [коснуться плитки](mobile-tiles-in-the-mobile-apps.md).
 

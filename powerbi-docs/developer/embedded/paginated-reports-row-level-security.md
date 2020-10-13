@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 4066911e90090fe770ca0d33f7e0d9a18d9dde71
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427854"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746316"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>Реализация безопасности на уровне строк во внедренных отчетах с разбивкой на страницы
 
@@ -28,7 +28,7 @@ ms.locfileid: "84427854"
 
 При применении безопасности на уровне строк к отчету Power BI с разбивкой на страницы необходимо присвоить [параметр](../../paginated-reports/report-builder-parameters.md) атрибуту **UserID**. Перед внедрением отчета этот параметр ограничит данные, извлеченные из набора данных.
 
-После назначения параметра **UserID** используйте API [Отчеты GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup), чтобы получить маркер внедрения.
+После назначения параметра **UserID** используйте API [Отчеты GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup), чтобы получить маркер внедрения.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Использование UserID в качестве фильтра на уровне отчета или запроса
 
@@ -42,7 +42,7 @@ ms.locfileid: "84427854"
 
 2. В раскрывающемся меню **Выражение** выберите параметр, который нужно использовать для фильтрации данных.
 
-     ![Выражение в построителе отчетов Power BI](media/paginated-reports-row-level-security/expression.png)
+     ![Снимок экрана: значение Color, выбранное в меню "Выражение".](media/paginated-reports-row-level-security/expression.png)
 
 3. Нажмите кнопку функции **Значение**. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "84427854"
 
 4. В окне **Выражение** в списке **Категория** выберите **Встроенные поля**.
 
-    ![Выражение в построителе отчетов Power BI](media/paginated-reports-row-level-security/built-in-fields.png)
+    ![Снимок экрана: окно "Выражение" с категорией "Встроенные поля" и элементом ExecutionTime.](media/paginated-reports-row-level-security/built-in-fields.png)
 
 5. В списке **Элемент** выберите **UserID** и нажмите **ОК**.
 
@@ -78,7 +78,7 @@ ms.locfileid: "84427854"
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>Передача настроенного параметра с помощью маркера внедрения
 
-Чтобы при внедрении для клиентов отчета с разбивкой на страницы получить маркер внедрения, используется API [Отчеты GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup). Этот маркер также можно использовать для фильтрации некоторых данных, извлекаемых из отчета с разбивкой на страницы.
+Чтобы при внедрении для клиентов отчета с разбивкой на страницы получить маркер внедрения, используется API [Отчеты GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup). Этот маркер также можно использовать для фильтрации некоторых данных, извлекаемых из отчета с разбивкой на страницы.
 
 Чтобы предоставить только часть данных, назначьте поле `username` с информацией, которую необходимо отобразить. Например, в отчете с разбивкой на страницы, имеющем параметр цвета, при вводе *зеленый* в поле `username` маркер внедрения ограничит внедренные данные, чтобы отображались только данные, которые имеют значение *зеленый* в столбце "Цвет".
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354623"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633844"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Советы и рекомендации по форматированию цветом в Power BI
 
@@ -130,15 +130,15 @@ ms.locfileid: "85354623"
 ## <a name="add-color-to-table-rows"></a>Добавление цвета в строки таблицы
 Таблицы и матрицы допускают множество вариантов форматирования цвета. 
 
-![таблица по умолчанию](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![Снимок экрана: таблица с чередованием белых и серых строк.](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 Один из самых быстрых способов применения цвета к таблице или матрице — открыть вкладку "Форматирование" и выбрать **Стиль**.  На приведенном ниже рисунке выбраны **Полужирный заголовок, броские строки**.
 
-![таблица по умолчанию](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![Снимок экрана: параметр стиля"Полужирный заголовок, броские строки", который делает строку заголовка черной, а другие строки — светло- и темно-зелеными.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 Поэкспериментируйте с другими цветовыми вариантами форматирования. На этом изображении изменился цвет фона в области **Заголовки столбцов** и изменился **Цвет фона** и **Дополнительный цвет фона** для области **Значения** (строки).
 
-![таблица по умолчанию](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![Снимок экрана: селекторы значений для цвета фона и дополнительного цвета фона.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Отмена действий в Power BI
 Как и многие другие службы и программное обеспечение Майкрософт, Power BI обеспечивает простой способ отмены последней команды. Предположим, вы изменили цвет точки данных или ряда точек данных и вам не понравился цвет, когда он появился в визуализации. Вы не помните точно, какой цвет использовался раньше, но уверены, что его нужно вернуть.
@@ -149,7 +149,7 @@ ms.locfileid: "85354623"
 
 ![Карточка "Форматирование", на которой показан возврат к значениям по умолчанию в нижней части](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Отзывы
+## <a name="give-us-your-feedback"></a>Поделитесь своим мнением
 У вас есть совет, которым вы хотели бы поделиться? Отправьте его нам, и, возможно, мы добавим его в эту статью.
 
 ## <a name="next-steps"></a>Дальнейшие действия

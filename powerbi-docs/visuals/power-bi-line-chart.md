@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274197"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634603"
 ---
 # <a name="line-charts-in-power-bi"></a>Графики в Power BI
 
@@ -67,11 +67,11 @@ ms.locfileid: "83274197"
 ### <a name="use-two-y-axes"></a>Используйте две оси Y
 Что необходимо делать, если вы захотите посмотреть общие продажи и общее количество единиц на одном графике? Номера продаж намного выше, чем номера единиц, что делает график непригодным для использования. На самом деле красная линия для общего количества единиц отображается как нуль.
 
-   ![сильно расходящиеся значения](media/power-bi-line-charts/power-bi-diverging.png)
+   ![Снимок экрана: использование одной оси Y для отображения общего числа единиц в виде бесполезного сравнения с показателями продаж.](media/power-bi-line-charts/power-bi-diverging.png)
 
 Чтобы отобразить сильно расходящиеся значения на одном графике, используйте комбинированную диаграмму. Вы можете узнать все о комбинированных диаграммах, прочитав раздел [Комбинированные диаграммы в Power BI](power-bi-visualization-combo-chart.md). В примере ниже можно отобразить продажи и общее количество единиц на одном графике, добавив вторую ось Y. 
 
-   ![сильно расходящиеся значения](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![Снимок экрана: значения продаж в виде линейчатой диаграммы с осью Y слева и общими единицами в виде линии с осью Y справа.](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Выделение и перекрестная фильтрация
 Сведения об использовании области "Фильтры" см. в разделе [Добавление фильтра в отчет](../create-reports/power-bi-report-add-filter.md).

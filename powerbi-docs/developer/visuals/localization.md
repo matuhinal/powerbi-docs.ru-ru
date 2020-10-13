@@ -1,6 +1,6 @@
 ---
-title: Общие сведения о сопоставлениях представлений данных в визуальных элементах Power BI
-description: В этой статье описывается, каким образом служба Power BI преобразует данные, прежде чем передавать их в визуальные элементы.
+title: Добавление языкового стандарта в Power BI для визуальных элементов Power BI
+description: Узнайте, как визуальные элементы могут определять языковой стандарт Power BI для локализации содержимого на соответствующем языке.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349294"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746063"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Добавление языкового стандарта в Power BI для визуальных элементов Power BI
 
@@ -45,7 +45,7 @@ this.locale = options.host.locale;
 
 Поддерживаемые языковые стандарты
 
-Строка языкового стандарта | Language
+Строка языкового стандарта | Язык
 --------------|----------------------
 ar-SA | العربية (арабский)
 bg-BG | български (болгарский)
@@ -151,7 +151,7 @@ zh-TW | 中國 (китайский, традиционное письмо)
 > [!NOTE]
 > В настоящее время локализация не поддерживается при отладке разрабатываемого визуального элемента.
 
-## <a name="setup-environment"></a>Настройка среды
+## <a name="setup-environment"></a>Настраиваете среду.
 
 ### <a name="desktop"></a>Рабочий стол
 

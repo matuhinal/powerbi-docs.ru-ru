@@ -1,17 +1,17 @@
 ---
 title: Каталог обучения для потребителей
-description: Найдите все варианты обучения для Power BI
+description: Найдите все варианты обучения работе с Power BI для потребителей, использующих отчеты и панели мониторинга, — от самых простых до самых сложных.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 51ccaa55eba6a03aa7b41780aaf859f134d2ddae
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532748"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749421"
 ---
 # <a name="consumers-learning-catalog"></a>Каталог обучения для потребителей
 
@@ -22,6 +22,6 @@ ms.locfileid: "84532748"
 ## <a name="get-started"></a>Начало работы<a name="get-started"></a>
 | Содержимое  | Описание  | Форматировать| Длина  |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------|
-| [Использование данных с помощью Power BI](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/) | Вы хотите принимать бизнес-решения, основанные на данных? Узнайте, как это сделать в Power BI. Научитесь работать в Power BI, чтобы просматривать это содержимое и взаимодействовать с ним для принятия бизнес-решений. | Бесплатная интерактивная схема для обучения в произвольном темпе | 2 ч 9 мин  |
+| [Использование данных с помощью Power BI](/learn/paths/consume-data-with-power-bi/) | Вы хотите принимать бизнес-решения, основанные на данных? Узнайте, как это сделать в Power BI. Научитесь работать в Power BI, чтобы просматривать это содержимое и взаимодействовать с ним для принятия бизнес-решений. | Бесплатная интерактивная схема для обучения в произвольном темпе | 2 ч 9 мин  |
 | [Microsoft Power BI (канал YouTube)](https://www.youtube.com/user/mspowerbi/videos) | Канал YouTube с материалами от группы по Power BI корпорации Майкрософт  | Видео  |            |
-| [Что такое Power BI?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview) | Обзор Power BI | Веб-сайт  | Время чтения: 3 мин |
+| [Что такое Power BI?](../fundamentals/power-bi-overview.md) | Обзор Power BI | Веб-сайт  | Время чтения: 3 мин |

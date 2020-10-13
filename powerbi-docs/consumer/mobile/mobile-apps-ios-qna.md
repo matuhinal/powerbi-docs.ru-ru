@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264930"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634419"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Виртуальный аналитик "Вопросы и ответы" в приложениях iOS (Power BI)
 
@@ -52,7 +52,7 @@ ms.locfileid: "86264930"
 4. Выберите **by** (по) из ключевых слов, затем выберите **item** (элемент) в списке предложений и коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Продажи по элементам](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Выберите **as** (как) из ключевых слов, коснитесь значка гистограммы ![значок гистограммы](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png), а затем коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Выберите **as** (как) из ключевых слов, коснитесь значка гистограммы :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false":::, а затем коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Нажмите и удерживайте полученную гистограмму, а затем нажмите кнопку **Expand** (Развернуть).
 
     ![Снимок экрана: гистограмма со стрелкой, указывающей на элемент "Развернуть"](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ ms.locfileid: "86264930"
 10. Выберите **by** (по) из ключевых слов, затем выберите **time** (время) из списка предложений в верхней части и коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
      ![Снимок экрана: диаграмма, показывающая наибольшую сумму продаж по средней стоимости единицы в зависимости от времени](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Введите **as** (как), выберите значок графика ![значок графика](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) в списке предложений и значок **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+11. Введите **as** (как), выберите значок графика :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: в списке предложений и коснитесь значка **Send** (Отправить) ![значок отправки](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Снимок экрана: гистограмма и график со стрелкой от столбца к графику](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

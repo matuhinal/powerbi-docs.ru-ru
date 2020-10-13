@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237297"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634028"
 ---
 # <a name="collaborate-in-workspaces"></a>Совместная работа в рабочих областях
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237297"
 
  Просмотреть рабочие области можно на **главной странице** Power BI или выбрав раздел **Рабочая область** или **Моя рабочая область** на панели навигации слева.
 
- ![область навигации с двумя типами рабочих областей](media/end-user-workspaces/power-bi-home.png)
+ ![Снимок экрана: область навигации с двумя типами рабочих областей.](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>Типы рабочих областей
 **Моя рабочая область** хранит все содержимое, которое вы создали и которое принадлежит вам. Это своего рода личная песочница или рабочая область для хранения личного содержимого. У многих *потребителей* службы Power BI **Моя рабочая область** остается пустой, поскольку выполняемые ими задачи не предусматривают создание нового содержимого. Исходя из определения, *потребители* используют создаваемые другими данные для принятия бизнес-решений. Если вам предстоит самостоятельно создавать содержимое, мы рекомендуем ознакомиться со [статьями о службе Power BI для ](../create-reports/index.yml)разработчиков.
@@ -34,7 +34,7 @@ ms.locfileid: "85237297"
 
 В рабочей области с данными по продаже инжира содержится три отчета и одна панель мониторинга. 
 
-![область навигации с двумя типами рабочих областей](media/end-user-workspaces/power-bi-app-workspace.png)
+![Снимок экрана: рабочая область в меню "Рабочие области" и содержит отчеты и панель мониторинга.](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>Роли в рабочих областях
 

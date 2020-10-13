@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219788"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635684"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Настройка свойств осей X и Y
 
@@ -75,7 +75,7 @@ ms.locfileid: "85219788"
 
 3. Переместите ползунок **Ось X** в положение **Вкл.**
 
-    ![Снимок экрана ползунка "Вкл."](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+    ![Снимок экрана: ползунок для оси Х в положении "Вкл.".](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
     Этот ползунок может понадобиться переместить в положение **Выкл.** по таким причинам: если визуализация понятна без меток или если имеется переполненная страница отчета и требуется освободить место для отображения дополнительных данных.
 
@@ -139,7 +139,7 @@ ms.locfileid: "85219788"
 
 1. Переместите ползунок **Ось Y** в положение **Вкл.**  
 
-    ![Снимок экрана ползунка "Вкл."](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
+    ![Снимок экрана: ползунок для оси Y в положении "Вкл.".](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     Одна из причин, по которым может понадобиться отключить ось Y, — освобождение пространства для других данных.
 

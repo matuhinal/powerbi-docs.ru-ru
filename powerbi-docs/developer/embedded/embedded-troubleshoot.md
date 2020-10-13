@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485698"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749076"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Устранение неполадок внедренного приложения
 
@@ -75,27 +75,27 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 Для дальнейшего анализа может потребоваться захватить трафик с помощью Fiddler. Ошибка 403 может возникнуть по нескольким причинам.
 
-* Пользователь превысил количество внедренных токенов, которые можно создать в общей емкости. Для создания внедренных токенов и назначения рабочей области в этой емкости, приобретите емкости Azure. См. раздел [Создание емкости Power BI Embedded на портале Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
+* Пользователь превысил количество внедренных токенов, которые можно создать в общей емкости. Для создания внедренных токенов и назначения рабочей области в этой емкости, приобретите емкости Azure. См. раздел [Создание емкости Power BI Embedded на портале Azure](/azure/power-bi-embedded/create-capacity).
 * Истек срок действия токена аутентификации Azure AD.
 * Пользователь, прошедший проверку подлинности, не входит в группу (рабочую область).
 * Пользователь, прошедший проверку подлинности, не является администратором группы (рабочей области).
-* У прошедшего проверку подлинности пользователя нет разрешений. Разрешения можно обновить с помощью [API refreshUserPermissions](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)
+* У прошедшего проверку подлинности пользователя нет разрешений. Разрешения можно обновить с помощью [API refreshUserPermissions](/rest/api/power-bi/users/refreshuserpermissions)
 * Заголовок авторизации может быть указан неправильно. Убедитесь, что он не содержит опечаток.
 
 Возможно, понадобится обновить токен аутентификации в серверной части приложения, прежде чем вызывать GenerateToken.
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>Authentication
 
@@ -113,13 +113,13 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 Работая с Power BI Embedded и используя проверку подлинности Azure AD Direct, при входе будете получать такие сообщения, как ***error:unauthorized_client, error_description:AADSTS70002: ошибка проверки учетных данных. AADSTS50053: слишком много попыток входа с неправильным идентификатором пользователя или паролем***, это потому, что прямая проверка подлинности больше не используется с 14 июня 2018 года по умолчанию.
 
-Эту функцию можно включить снова с помощью [Политики Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которая применяется к организации или [субъект-службе](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Эту функцию можно включить снова с помощью [Политики Azure AD](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), которая применяется к организации или [субъект-службе](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Рекомендуется включать эту политику только для отдельных приложений.
 
 Чтобы создать эту политику, вы должны быть **глобальным администратором** для каталога, в котором создается и назначается политика. Ниже приведен пример сценария для создания политики и ее назначения пакету обновления для этого приложения:
 
-1. Установите [модуль PowerShell предварительной версии Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Установите [модуль PowerShell предварительной версии Azure AD](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Выполните следующие команды PowerShell, строку за строкой (убедившись, что для переменной $sp в качестве результата не выводится несколько приложений).
 
@@ -153,7 +153,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Выполните приведенные ниже шаги, чтобы узнать причину ошибки.
 
-* Выполните операцию [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets). Для свойства IsEffectiveIdentityRequired указано значение true?
+* Выполните операцию [get dataset](/rest/api/power-bi/datasets). Для свойства IsEffectiveIdentityRequired указано значение true?
 * Имя пользователя является обязательным для любого свойства EffectiveIdentity.
 * Если IsEffectiveIdentityRolesRequired имеет значение true, нужно указать роль.
 * DatasetId является обязательным для любого свойства EffectiveIdentity.
@@ -270,41 +270,47 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 При выборе варианта **Предоставление разрешений** (этап "Предоставление разрешений"), возникает следующая ошибка:
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 Нужно закрыть всплывающее окно, подождать несколько секунд и повторить попытку. Это действие может потребоваться выполнить несколько раз. Проблема возникает из-за того, что с момента завершения регистрации приложения до момента, когда оно становится доступным для внешних интерфейсов API, проходит некоторое время.
 
 При запуске образца приложения появляется следующее сообщение об ошибке:
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 Эта ошибка возникает по той причине, что единственным значением, которое не вносится в пример приложения, является ваш пароль пользователя. Откройте файл Web.config в решении и заполните поле pbiPassword своим паролем.
 
 Если возникает ошибка AADSTS50079, пользователь должен использовать многофакторную проверку подлинности.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+Необходимо использовать учетную запись AAD, для которой не включена поддержка MFA.
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>Использование образца приложения "Внедрение для организации"
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Использование средства внедрения для примера приложения организации
 
 Если вы работаете с решением **Внедрение для организации**, сохраните и распакуйте файл *PowerBI-Developer-Samples.zip*. Затем откройте папку *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* и запустите файл *pbi-saas-embed-report.sln*.
 
 При запуске образца приложения **Внедрение для организации** возникает следующая ошибка:
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 Причина в том, что URL-адрес перенаправления, указанный для приложения веб-сервера, отличается от URL-адреса примера. Чтобы зарегистрировать образец приложения, используйте `https://localhost:13526/` в качестве URL-адреса перенаправления.
 
-Если необходимо изменить зарегистрированное приложение, узнайте, как обновить [зарегистрированное в Azure AD приложение](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), чтобы оно могло предоставлять доступ к веб-API.
+Если необходимо изменить зарегистрированное приложение, узнайте, как обновить [зарегистрированное в Azure AD приложение](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), чтобы оно могло предоставлять доступ к веб-API.
 
-Если необходимо изменить профиль пользователя или данные Power BI, ознакомьтесь с [соответствующей процедурой](https://docs.microsoft.com/power-bi/service-basic-concepts).
+Если необходимо изменить профиль пользователя или данные Power BI, ознакомьтесь с [соответствующей процедурой](../../fundamentals/service-basic-concepts.md).
 
-Если возникает ошибка AADSTS50079, пользователь должен использовать многофакторную проверку подлинности.
+Если возникает ошибка "AADSTS50079: пользователь должен использовать многофакторную проверку подлинности".
 
-    Need to use an AAD account that doesn't have MFA enabled.
+Необходимо использовать учетную запись AAD, для которой не включена поддержка MFA.
 
 Дополнительные сведения см. в разделе с [вопросами и ответами о Power BI Embedded](embedded-faq.md).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
 
 Если вам требуется дополнительная помощь, обратитесь в [Службу поддержки](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) или отправьте запрос в службу поддержки через [Портал Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) и укажите сообщение об ошибке, которое вы получили.
 
@@ -312,4 +318,4 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Для получения дополнительных сведений см. статью [Часто задаваемые вопросы о Power BI Embedded](embedded-faq.md).
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

@@ -1,20 +1,20 @@
 ---
-title: Возможности и свойства визуальных элементов Power BI
-description: В этой статье описываются возможности и свойства визуальных элементов Power BI.
+title: Добавление контекстного меню к визуальному элементу Power BI
+description: Узнайте, как добавить контекстное меню в визуальный элемент Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 7d24ea77fd73ca6a83176d1b8560c88fa98a8d6b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380762"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748087"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>Добавление контекстного меню к визуальному элементу Power BI
 

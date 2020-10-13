@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226027"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374943"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Добавление содержимого в подборку на главной странице Power BI коллег
 
@@ -24,7 +24,7 @@ ms.locfileid: "85226027"
 
 ## <a name="who-can-feature-content"></a>Кто может добавить содержимое в подборку
 
-Возможность добавлять содержимое в подборку в клиенте может включить администратор клиента Power BI. Администратор также выбирает тех, кому разрешено добавлять содержимое в подборку. Дополнительные сведения см. в статье [Портал администрирования](../admin/service-admin-portal.md#featured-content).
+Возможность добавлять содержимое в подборку в арендаторе может включить администратор Power BI. Администратор также выбирает тех, кому разрешено добавлять содержимое в подборку. Дополнительные сведения см. в статье [Портал администрирования](../admin/service-admin-portal.md#featured-content).
 
 Если вы входите в одну из групп в организации, которые ответственны за выбор содержимого для добавления в подборку, вам потребуется лицензия Power BI Pro. Для добавления панелей мониторинга и отчетов в подборку требуется роль администратора, члена или участника в рабочей области. Чтобы рекомендовать приложение самому себе, требуется роль администратора или члена в рабочей области. Дополнительные сведения см. в разделе [Роли в новых рабочих областях](service-new-workspaces.md#roles-in-the-new-workspaces).
 
@@ -38,13 +38,13 @@ ms.locfileid: "85226027"
 
 1. В списке **Панели мониторинга** или **Отчеты** для рабочей области выберите **Параметры**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Значок параметров отчетов":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Рекомендуемое содержимое на главной странице Power BI":::
 
 2. В области **Параметры** проверьте или измените имя. Добавьте **описание** и отправьте **снимок**, если требуется. Они полезны, поскольку помогают пользователям найти содержимое.
 
 3. Выберите **Подборка**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Настройки рекомендуемого содержимого":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Рекомендуемое содержимое на главной странице Power BI":::
 
 4. Нажмите кнопку **Сохранить**.
 

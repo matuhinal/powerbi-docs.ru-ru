@@ -11,12 +11,12 @@ ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763949"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527955"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>Лицензии и подписки для *бизнес-пользователей*
 
@@ -36,7 +36,7 @@ ms.locfileid: "90763949"
 
 ## <a name="licenses"></a>Лицензии
 
-Каждый пользователь службы Power BI имеет *бесплатную* лицензию или лицензию *Pro*. Если вы являетесь *бизнес-пользователем* Power BI, вы, вероятно, используете лицензию, управляемую администратором арендатора Power BI.
+Каждый пользователь службы Power BI имеет *бесплатную* лицензию или лицензию *Pro*. Если вы являетесь *бизнес-пользователем* Power BI, вы, вероятно, используете лицензию, управляемую администратором Power BI.
 
 Одновременно можно иметь несколько лицензий.  Возможности в службе всегда соответствуют лицензии с разрешениями самого высокого уровня.
 

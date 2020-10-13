@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276382"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747558"
 ---
 # <a name="create-an-ssl-certificate"></a>Создание SSL-сертификата
 
 В этой статье описывается создание и установка SSL-сертификатов для визуальных элементов Power BI.
 
-Для выполнения процедур в Windows, macOS X и Linux необходимо установить пакет **pbiviz** визуальных средств Power BI. Дополнительные сведения см. в разделе о [настройке среды разработчика](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment). 
+Для выполнения процедур в Windows, macOS X и Linux необходимо установить пакет **pbiviz** визуальных средств Power BI. Дополнительные сведения см. в разделе о [настройке среды разработчика](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment). 
 
 ## <a name="create-a-certificate-on-windows"></a>Создание сертификата в Windows
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 Для использования средства `pbiviz` в Windows 7 требуется, чтобы служебная программа OpenSSL была доступна из командной строки. Инструкции по установке OpenSSL см. на странице [OpenSSL](https://www.openssl.org) или [Двоичные файлы OpenSSL](https://wiki.openssl.org/index.php/Binaries).
 
-Дополнительные сведения и инструкции по установке сертификата см. в разделе о [создании и установке сертификата для Windows](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows).
+Дополнительные сведения и инструкции по установке сертификата см. в разделе о [создании и установке сертификата для Windows](./custom-visual-develop-tutorial.md#windows).
 
 ## <a name="create-a-certificate-on-macos-x"></a>Создание сертификата в macOS X
 
@@ -58,7 +58,7 @@ pbiviz --install-cert
 pbiviz --install-cert
 ```
 
-Дополнительные сведения и инструкции см. в [этом разделе](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx).
+Дополнительные сведения и инструкции см. в [этом разделе](./custom-visual-develop-tutorial.md#osx).
 
 ## <a name="create-a-certificate-on-linux"></a>Создание сертификата в Linux
 

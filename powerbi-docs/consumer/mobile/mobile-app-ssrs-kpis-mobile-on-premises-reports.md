@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 2f6d02d6128a2896a19d87f30f46f26f101385f6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: e9f3b41e9c8435008f732d215ae022d6a023574d
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860999"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668581"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Просмотр локальных отчетов на сервере отчетов и ключевых показателей эффективности в мобильных приложениях Power BI
 
@@ -94,7 +94,7 @@ ms.locfileid: "90860999"
 
 3. Введите пароль, чтобы пройти проверку подлинности, а затем коснитесь элемента **Вход**. 
 
-    ![Заполненные сведения о сервере отчетов](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+    ![Снимок экрана: поле для ввода пароля и кнопка входа.](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
 
 Теперь вы можете просматривать ключевые показатели эффективности и отчеты Power BI, хранящиеся на сервере отчетов, и взаимодействовать с ними.
 

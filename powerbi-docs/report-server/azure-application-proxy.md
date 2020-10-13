@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861298"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634235"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Настройка Сервера отчетов Power BI с помощью Azure Application Proxy
 
@@ -201,7 +201,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - Создайте URL-адрес перенаправления и настройте его, выбрав **Тип** = **Интернет** и **URI перенаправления** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/`.
     - В разделе **Дополнительные параметры** задайте для параметра **URL-адрес выхода** значение `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`.
 
-    ![Параметры проверки подлинности](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![Снимок экрана: панель аутентификации PBIRS с URI перенаправления и дополнительными параметрами.](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. Продолжайте настройку раздела **Аутентификация** для регистрации приложения Сервера отчетов Power BI, как показано ниже, задав параметры **Неявное предоставление**, **Тип клиента по умолчанию** и **Поддерживаемые типы учетных записей**.
 
@@ -209,7 +209,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - Для параметра **Тип клиента по умолчанию** задайте значение **Нет**.
     - Для параметра **Поддерживаемые типы учетных записей** задайте значение **Учетные записи только в этом каталоге организации (только UmaContoso — один клиент)** .
 
-    ![Параметры проверки подлинности](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![Снимок экрана: панель аутентификации PBIRS с описанными параметрами.](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. После настройки единого входа и проверки работоспособности URL-адреса `https://pbirsazureapp-umacontoso2410.msappproxy.net` необходимо убедиться, что учетная запись, с которой выполняется вход, синхронизирована с учетной записью, которой предоставляются разрешения на Сервере отчетов Power BI.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215150"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668627"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Руководство по двунаправленным связям
 
@@ -77,7 +77,7 @@ ms.locfileid: "86215150"
 
 В срезе **Продукт** теперь отображается один элемент: футболка. Этот элемент представляет собой единственный продукт, проданный клиентам в Австралии.
 
-![Схема со страницей отчета, содержащей три визуальных элемента Подробное описание приводится в следующем абзаце.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Схема: страница отчета, содержащая три визуальных элемента с выбранным пунктом "Продукт". Подробное описание приводится в следующем абзаце.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 Мы рекомендуем тщательно продумать, подходит ли этот проект для пользователей отчетов. Для некоторых пользователей такое взаимодействие может быть непонятным. Они могут не понять, почему элементы среза динамически отображаются или исчезают при взаимодействии с другими срезами.
 

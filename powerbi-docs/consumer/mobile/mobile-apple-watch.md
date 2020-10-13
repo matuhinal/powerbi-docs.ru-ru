@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239187"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633270"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Просмотр данных в мобильном приложении Power BI на устройстве Apple Watch
 С помощью приложения Power BI для Apple Watch можно просматривать ключевые показатели эффективности и плитки типа "карточка" на информационных панелях Power BI прямо на своих часах. Ключевые показатели эффективности и плитки типа "карточка" лучше всего подходят для измерения пульса на небольшом экране. Панель мониторинга можно обновить непосредственно на устройстве iPhone или в часах Apple Watch.
@@ -24,16 +24,16 @@ ms.locfileid: "85239187"
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Использование приложения Power BI в Apple Watch
 Открыть приложение Power BI на Apple Watch можно из списка установленных приложений или с помощью мини-приложения Power BI (если настроено) на циферблате часов.
 
-![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
+![Фото: Apple Watch с приложением Power BI.](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
 
 Приложение Power BI для Apple Watch состоит из двух частей.
 
 * **Экран индекса** позволяет быстро просмотреть все ключевые показатели эффективности и плитки типа "карточка" из синхронизированной информационной панели.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
+  ![Фото: Apple Watch с экраном индекса.](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **Плитка в фокусе**: щелкните плитку на экране индекса, чтобы подробнее изучить ее.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
+  ![Фото: Apple Watch с плиткой.](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>Обновление панели мониторинга в часах Apple Watch
 Вы можете обновлять синхронизированные панели мониторинга непосредственно в часах.
@@ -75,7 +75,7 @@ Power BI показывает индикатор, указывающий, что
 
 * На телефоне iPhone откройте управляющее приложение Apple Watch, выберите Power BI, перейдите в поле имени мини-приложения и введите новое имя.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
+  ![Фото: устройство iPhone с открытым приложением "Мои часы" и значком Power BI.](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
 
 > [!NOTE]
 > Если этого не сделать, мини-приложение Power BI сократит имя до того количества символов, которое поместится на небольшом циферблате часов. 

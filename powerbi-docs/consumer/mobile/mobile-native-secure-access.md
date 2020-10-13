@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a32ac9b1631a23502d9752ed9f96355fa36b90da
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220018"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668604"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Защита приложения Power BI с помощью Face ID, Touch ID, секретного кода или биометрических данных 
 
@@ -48,7 +48,7 @@ ms.locfileid: "85220018"
 
 На рисунке ниже показан экран проверки подлинности с помощью Fingerprint ID.
 
-![Face ID в Power BI для iOS](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
+![Снимок экрана: сообщение "Требуется дополнительная идентификация" на телефоне Android.](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
 
 >[!NOTE]
 >Чтобы иметь возможность использовать параметр "Требовать биометрическую проверку подлинности" в мобильном приложении, необходимо сначала настроить биометрию на устройстве Android. Если устройство не поддерживает биометрию, вы не сможете защитить доступ к данным Power BI с помощью этого параметра в мобильном приложении.

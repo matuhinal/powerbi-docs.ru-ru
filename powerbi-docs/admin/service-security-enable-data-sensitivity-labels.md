@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: afe81469bc3ce67979602eedbf49b00cf7a3f1e6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 96e51d41c39ccc11d4e3816883193132531bb730
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854320"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374322"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Активация меток конфиденциальности в Power BI
 
-Чтобы использовать [метки конфиденциальности Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels) в Power BI, их необходимо активировать в клиенте. В этой статье приводятся действия по активации, выполняемые администраторами клиента Power BI. Общие сведения о метках конфиденциальности в Power BI см. в статье [Метки конфиденциальности в Power BI](service-security-sensitivity-label-overview.md). Сведения о применении меток конфиденциальности в Power BI см. в статье [Применение меток конфиденциальности данных в Power BI.](./service-security-apply-data-sensitivity-labels.md) 
+Чтобы использовать [метки конфиденциальности Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels) в Power BI, их необходимо активировать в клиенте. В этой статье описаны действия, выполняемые администраторами Power BI. Общие сведения о метках конфиденциальности в Power BI см. в статье [Метки конфиденциальности в Power BI](service-security-sensitivity-label-overview.md). Сведения о применении меток конфиденциальности в Power BI см. в статье [Применение меток конфиденциальности данных в Power BI.](./service-security-apply-data-sensitivity-labels.md) 
 
 Активация меток конфиденциальности дает следующие возможности.
 
@@ -34,7 +34,7 @@ ms.locfileid: "90854320"
 
 * Приложения Office имеют отдельные [требования к лицензированию для просмотра и применения меток конфиденциальности]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ).
 
-* Перед включением меток конфиденциальности для арендатора убедитесь, что метки конфиденциальности определены и опубликованы для соответствующих пользователей и групп. Дополнительные сведения см. в статье [Создание и настройка меток конфиденциальности и соответствующих политик](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
+* Перед включением меток конфиденциальности для арендатора убедитесь, что метки конфиденциальности определены и опубликованы для соответствующих пользователей и групп. Дополнительные сведения см. в статье [Создание и настройка меток конфиденциальности и соответствующих политик](/microsoft-365/compliance/create-sensitivity-labels).
 
 >[!NOTE]
 > Если в организации используются метки конфиденциальности Azure Information Protection, их необходимо перенести на платформу унифицированных меток Microsoft Information Protection, чтобы их можно было использовать в Power BI. [Узнайте больше о переносе меток конфиденциальности.](/azure/information-protection/configure-policy-migrate-labels)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237780"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635730"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Каскадные диаграммы в Power BI
 
@@ -96,7 +96,7 @@ ms.locfileid: "85237780"
 
 1.  Выберите **Магазин** > **Территория**, чтобы добавить **территорию** в контейнер **Распределение**.
 
-    ![Элемент "Магазин" отображается в контейнере "Распределение"](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Снимок экрана: добавление элемента "Территория" в область "Распределение".](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
     Power BI использует значение из контейнера **Распределение** для добавления дополнительных данных в визуализацию. Добавляются пять основных факторов, влияющих на увеличение или уменьшение объема продаж в каждом финансовом месяце. Это означает, что, например, в феврале теперь шесть точек данных, а не всего одна.  
 

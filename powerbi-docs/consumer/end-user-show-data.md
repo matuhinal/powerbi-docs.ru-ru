@@ -1,20 +1,20 @@
 ---
-title: Отображение данных, использованных для создания визуализации
-description: В этом документе объясняется, как пользователи Power BI могут "видеть" данные, используемые для создания визуализации.
+title: Отображение данных, использованных для создания визуального элемента отчета
+description: В этом документе объясняется, как бизнес-пользователи Power BI могут просматривать данные, используемые для создания визуального элемента отчета.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536246"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780228"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Демонстрация данных с помощью отчетов Power BI
 
@@ -37,7 +37,11 @@ ms.locfileid: "87536246"
 
 4. Чтобы изменить ориентацию, выберите вертикальную ориентацию ![Значок ориентации](media/end-user-show-data/power-bi-vertical-icon-new.png) в правом верхнем углу визуализации.
    
-   ![горизонтальное отображение визуального элемента и данных](./media/end-user-show-data/power-bi-horizontal.png)
+   ![горизонтальное отображение визуального элемента и данных](./media/end-user-show-data/power-bi-show-horizontal.png)
+
+Чтобы вернуться к отчету, щелкните **Назад к отчету** в верхнем левом углу. 
+
+   ![Снимок экрана: ссылка для возврата к отчету.](./media/end-user-show-data/power-bi-back.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Визуализации в отчетах Power BI](../visuals/power-bi-report-visualizations.md)    

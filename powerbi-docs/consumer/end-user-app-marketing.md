@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205120"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635822"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Установка и использование образца приложения "Маркетинг и продажи" в службе Power BI
 
@@ -53,11 +53,11 @@ ms.locfileid: "88205120"
 
 6. Выберите, следует ли подключить собственные данные, исследовать их с помощью демонстрационных данных либо настроить новое приложение и поделиться им. Так как мы выбрали пример приложения Майкрософт, начнем с его изучения. 
 
-    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![Снимок экрана: экран "Начало работы с новым приложением" с выбранным вариантом "Исследование с использованием примеров данных".](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  Откроется новое приложение с панелью мониторинга. *Разработчик* приложений также мог настроить открытие приложения с отчетом.  
 
-    ![Исследование с использованием примеров данных](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![Снимок экрана: панель мониторинга для приложения.](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240429"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635799"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Рекомендации по оптимизации функции "Вопросы и ответы" в Power BI
 Эффективный обработчик позволяет задавать вопросы о данных с помощью обычных фраз и естественного языка. Еще больше впечатляет, когда от данных поступает ответ. Именно эту возможность предоставляет функция "Вопросы и ответы" в Power BI.
@@ -116,11 +116,11 @@ ms.locfileid: "85240429"
 
 **Нужно настроить**
 
-![Используйте несколько таблиц для функции "Вопросы и ответы"](media/q-and-a-best-practices/desktop-qna-09.png)
+![Снимок экрана: таблица "Поставщики", которая содержит контактные данные.](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **Готова для работы с обработчиком "Вопросы и ответы"**
 
-![Используйте несколько таблиц для функции "Вопросы и ответы"](media/q-and-a-best-practices/desktop-qna-10.png)
+![Снимок экрана: две таблицы — одна для поставщиков и одна для контактов.](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>Сведение для исключения контейнеров свойств
 
@@ -134,7 +134,7 @@ ms.locfileid: "85240429"
 
 **Готова для работы с обработчиком "Вопросы и ответы"**
 
-![Используйте несколько таблиц для функции "Вопросы и ответы"](media/q-and-a-best-practices/desktop-qna-12.png)
+![Снимок экрана: четыре столбца со свойствами свойства Age, MartialStatus, City и Gender в качестве столбцов со значениями для разных клиентов.](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>Объединение в избежание секционирования
 
@@ -148,7 +148,7 @@ ms.locfileid: "85240429"
 
 **Готова для работы с обработчиком "Вопросы и ответы"**
 
-![Используйте несколько таблиц для функции "Вопросы и ответы"](media/q-and-a-best-practices/desktop-qna-14.png)
+![Снимок экрана: две таблицы, связанных с экскурсиями — одна с информацией о книге и авторе, а другая с городами.](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>Разделение форматированных столбцов
 
@@ -160,7 +160,7 @@ ms.locfileid: "85240429"
 
 **Готова для работы с обработчиком "Вопросы и ответы"**
 
-![Используйте несколько таблиц для функции "Вопросы и ответы"](media/q-and-a-best-practices/desktop-qna-16.png)
+![Снимок экрана: таблица с клиентами и строкой с полным адресом и тремя строками, которые разбивают адрес на улицы, город и страну.](media/q-and-a-best-practices/desktop-qna-16.png)
 
 Точно так же, если есть столбец "ФИО" для пользователя, может потребоваться добавить столбцы **Имя** и **Фамилия** на случай, если кто-то захочет отправить запрос с использованием имени или фамилии. 
 
@@ -175,7 +175,7 @@ ms.locfileid: "85240429"
 
 **Готова для работы с обработчиком "Вопросы и ответы"**
 
-![Используйте несколько таблиц для функции "Вопросы и ответы"](media/q-and-a-best-practices/desktop-qna-18.png)
+![Снимок экрана: две таблицы — одна с именем и жанром, а другая с композитором.](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Денормализация во избежание неактивных связей
 

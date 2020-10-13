@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856169"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668512"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Краткое руководство. Просмотр панелей мониторинга и отчетов в мобильных приложениях Power BI
 В этом кратком руководстве приводится краткий обзор приложения Power BI Mobile и рассматриваются примеры панели мониторинга и отчета. Демонстрируется приложение Power BI для iOS, но можно использовать и другие устройства.
@@ -68,7 +68,7 @@ ms.locfileid: "90856169"
 
 10. Проведите пальцем вверх, чтобы открыть внизу панель инструментов, и коснитесь элемента **Дополнительные параметры (...)** .
 
-    ![Значок с изображением карандаша](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
+    ![Снимок экрана: расположение элемента управления "Дополнительные параметры" в правом нижнем углу.](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
 
 11. Прокрутите список вниз и выберите элемент **Добавить заметку**.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237505"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526837"
 ---
 # <a name="create-card-visualizations"></a>Визуализации в виде карточек
 
@@ -102,7 +102,8 @@ ms.locfileid: "85237505"
 5. Продолжайте изучать параметры форматирования, пока вы не измените свою карту так, как вам нужно. 
 
 ## <a name="considerations-and-troubleshooting"></a>Рекомендации и устранение неполадок
-Если поле для вопроса не отображается, обратитесь к системному администратору или администратору клиента.    
+
+Если поле для вопроса не отображается, обратитесь к администратору Power BI.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Комбинированная диаграмма в Power BI](power-bi-visualization-combo-chart.md)

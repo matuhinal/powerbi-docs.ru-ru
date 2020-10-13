@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237539"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634718"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Таблицы в отчетах и на панелях мониторинга Power BI
 
@@ -157,7 +157,7 @@ ms.locfileid: "85237539"
 
 1. выберите **Копировать** > **Копировать значение**.
 
-    ![Варианты копирования](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![Снимок экрана: выбранный пункт "Копировать" с параметром "Копировать значение".](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     Значение ячейки без формата помещается в буфер обмена, откуда его можно вставить в другое приложение.
 
@@ -169,7 +169,7 @@ ms.locfileid: "85237539"
 
 1. Выберите **Копировать** > **Копировать выбранное**.
 
-    ![Варианты копирования](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![Снимок экрана: выбранный пункт "Копировать" с параметром "Копировать выбранное".](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Изменение ширины столбца в таблице
 

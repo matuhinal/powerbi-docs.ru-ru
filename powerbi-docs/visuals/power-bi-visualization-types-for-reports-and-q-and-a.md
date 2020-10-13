@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814021"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600511"
 ---
 # <a name="visualization-types-in-power-bi"></a>Типы визуализаций в Power BI
 ## <a name="power-bi-visualizations"></a>Визуализации Power BI
@@ -113,7 +113,7 @@ ms.locfileid: "83814021"
 ### <a name="maps-arcgis-maps"></a>Карты: карты ArcGIS;
 ![Карта ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Дополнительные сведения см. в статье[ Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](power-bi-visualization-arcgis.md).
+Дополнительные сведения см. в статье[ Карты ArcGIS от ESRI в службе Power BI и Power BI Desktop](power-bi-visualizations-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Карты: фоновые картограммы
 ![картограмма](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,7 +133,7 @@ ms.locfileid: "83814021"
 
 
 ### <a name="matrix"></a>Матрица
-![матрица](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![Снимок экрана: визуальный элемент "Матрица"](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >Таблица поддерживает два измерения, но матрица упрощает содержательное отображение данных по нескольким измерениям благодаря поддержке ступенчатого макета. Матрица автоматически агрегирует данные и обеспечивает их детализацию. 
@@ -232,7 +232,7 @@ ms.locfileid: "83814021"
 
 "***продажи по штатам в виде плоского дерева***"
 
-Если на панели мониторинга нет поля "Вопросы и ответы", возможно, что его отключил администратор клиента. 
+Если на панели мониторинга нет поля "Вопросы и ответы", возможно, его отключил администратор Power BI. 
 
 ![Поле "Вопросы и ответы" с указанным типом визуализации](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

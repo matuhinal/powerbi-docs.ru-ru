@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 492b41192f3ab423ff8dacf73aac9ff49b9d15d9
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: b3b447b315befef11f342f537d4ab3ad8c837f03
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856238"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668489"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Получение уведомлений в мобильных приложениях Power BI
 Применяется к:
@@ -61,15 +61,15 @@ ms.locfileid: "90856238"
    
     **На устройстве iPhone**
    
-    ![Выбор уведомлений](./media/mobile-apps-notification-center/power-bi-notifications-iphone-settings.png)
+    ![Снимок экрана: экран устройства iPhone с названием Power BI, где можно разрешать уведомления и управлять ими.](./media/mobile-apps-notification-center/power-bi-notifications-iphone-settings.png)
    
     **На телефоне с Android**
    
-    ![Выбор уведомлений](./media/mobile-apps-notification-center/power-bi-notifications-android-settings.png)
+    ![Снимок экрана: экран устройства Android с названием Power BI, где можно разрешать уведомлениям и управлять ими.](./media/mobile-apps-notification-center/power-bi-notifications-android-settings.png)
 
     **На устройстве Windows 10**
 
-    ![Выбор уведомлений](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
+    ![Снимок экрана: экран устройства Windows 10, где можно разрешать уведомления Power BI и управлять ими.](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Оповещения о данных в службе Power BI](../../create-reports/service-set-data-alerts.md)

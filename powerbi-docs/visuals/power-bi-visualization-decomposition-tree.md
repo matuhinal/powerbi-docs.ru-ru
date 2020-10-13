@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239849"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632832"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Создание и просмотр визуальных элементов дерева декомпозиции в Power BI
 
@@ -53,7 +53,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 Далее требуется выбрать одно или несколько измерений, для которых необходимо выполнить детализацию. Добавьте эти поля в контейнер **Объяснение по**. Обратите внимание, что рядом с корневым узлом отображается знак "плюс". С помощью знака "плюс" можно выбрать, для какого поля нужно выполнить детализацию (вы можете детализировать поля в любом порядке).
 
-![Меню дерева декомпозиции](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![Снимок экрана: выбранный знак "плюс" для отображения параметров в списке "Объяснение по".](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 Щелкните **Forecast bias** (Смещение прогноза), чтобы развернуть дерево и разбить меры по значениям в столбце. Этот процесс можно повторить, выбрав другой узел для детализации.
 
@@ -61,7 +61,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 Если выбрать узел из последнего уровня, будет выполнена перекрестная фильтрация данных. Выбор узла на более раннем уровне приведет к изменению пути.
 
-![Меню дерева декомпозиции](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![Анимация: выбор узла на более раннем уровне и изменение отображения дочерних узлов.](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 При взаимодействии с другими визуальными элементами осуществляется перекрестная фильтрация дерева декомпозиции. В результате порядок узлов в уровнях может измениться.
 В приведенном ниже примере выполнена перекрестная фильтрация дерева по критерию Ubisoft. Путь обновляется, и продажи Xbox перемещаются с первого на второе место, уступая первенство PlayStation. 
@@ -70,7 +70,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 Несмотря на то что путь не отображается, существующие уровни (в нашем случае игровой жанр) остаются закрепленными в дереве. Таким образом, при выборе узла Nintendo дерево автоматически развертывается до уровня игрового жанра.
 
-![Меню дерева декомпозиции](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![Анимация: выбор перекрестных фильтров, которые влияют на отображаемые узлы.](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>Разбиение ИИ
@@ -132,11 +132,11 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 Уровни ИИ также пересчитываются при перекрестной фильтрации дерева декомпозиции по другим визуальным элементам. В приведенном ниже примере мы видим, что наш процент дозаказа является наивысшим для фабрики #0477.
 
-![Перекрестная фильтрация в дереве декомпозиции](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![Снимок экрана: визуальный элемент "Анализ основных причин" со всеми выбранными месяцами.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 Но если выбрать **Апрель** на линейчатой диаграмме, то наиболее высокие изменения будут для типа продукта **Advanced Surgical** (Перспективное хирургическое оборудование). В этом случае были переупорядочены не только узлы, но и был выбран совершенно другой столбец. 
 
-![Перекрестная фильтрация в дереве декомпозиции](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![Снимок экрана: визуальный элемент "Анализ основных причин" с выбранным пунктом "Апрель".](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 Если мы хотим, чтобы уровни с использованием ИИ вели себя как уровни без ИИ, выберите лампочку, чтобы вернуть поведение по умолчанию. 
 

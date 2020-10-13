@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337126"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748846"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Руководство. Внедрение отчетов Power BI с разбивкой на страницы в приложение для клиентов
 
@@ -57,7 +57,7 @@ ms.locfileid: "84337126"
 * **Power BI Premium** — для внедрения отчета с разбиением на страницы требуется емкость SKU *P*. При внедрении содержимого Power BI это решение называется *внедрением Power BI*. Дополнительные сведения об этой подписке см. в разделе [Что такое Power BI Premium?](../../admin/service-premium-what-is.md).
 * **Azure Power BI Embedded** — вы можете приобрести выделенную емкость на [портале Microsoft Azure](https://portal.azure.com). Эта подписка использует номера SKU *A*. Для внедрения отчетов с разбивкой на страницы требуется по крайней мере подписка *A4*. Дополнительные сведения о создании емкости Power BI Embedded см. в статье [Создание емкости Power BI Embedded на портале Azure](azure-pbie-create-capacity.md).
 
-В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
+В следующей таблице описаны ресурсы и ограничения для каждого SKU. Чтобы определить, какая емкость лучше соответствует вашим потребностям, ознакомьтесь с таблицей [Какой номер SKU следует приобрести для моего сценария](./embedded-faq.md#which-solution-should-i-choose).
 
 | Узлы емкости | Число виртуальных ядер | Серверные виртуальные ядра | ОЗУ (ГБ) | Интерфейсные виртуальные ядра | 
 | --- | --- | --- | --- | --- |
@@ -70,13 +70,13 @@ ms.locfileid: "84337126"
 
 После создания выделенной емкости ей можно назначить рабочую область приложения.
 
-Чтобы назначить выделенную емкость рабочей области с помощью [субъекта-службы](embed-service-principal.md), используйте [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Если применяется REST API Power BI, необходимо использовать [идентификатор объекта субъекта-службы](embed-service-principal.md).
+Чтобы назначить выделенную емкость рабочей области с помощью [субъекта-службы](embed-service-principal.md), используйте [REST API Power BI](/rest/api/power-bi/capacities/groups_assigntocapacity). Если применяется REST API Power BI, необходимо использовать [идентификатор объекта субъекта-службы](embed-service-principal.md).
 
 ### <a name="create-and-upload-your-paginated-reports"></a>Создание и передача отчетов с разбивкой на страницы
 
 Отчет с разбивкой на страницы можно создать с помощью [построителя отчетов Power BI](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder), а затем [передать отчет в службу](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service).
 
-Отчеты с разбивкой на страницы можно импортировать в новые рабочие области с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+Отчеты с разбивкой на страницы можно импортировать в новые рабочие области с помощью [REST API Power BI](/rest/api/power-bi/imports/postimportingroup).
 
 ## <a name="embed-content-using-the-sample-application"></a>Внедрение содержимого с помощью примера приложения
 
@@ -119,7 +119,7 @@ ms.locfileid: "84337126"
 
 3. Выберите приложение, для которого требуется **applicationId**.
 
-    ![Выбор приложения](media/embed-paginated-reports-for-customers/display-name.png)
+    ![Снимок экрана: отображаемые имена приложений с одним выбранным приложением, для которого требуется идентификатор приложения.](media/embed-paginated-reports-for-customers/display-name.png)
 
 4. В поле **Идентификатор приложения** указан GUID. Используйте этот **идентификатор приложения** как значение параметра **applicationId** приложения.
 
@@ -171,7 +171,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 3. Выберите приложение, для которого нужно использовать **ApplicationSecret**.
 
-    ![Выбор приложения](media/embed-paginated-reports-for-customers/display-name-2.png)
+    ![Снимок экрана: отображаемые имена приложений с одним выбранным приложением, для которого требуется секрет приложения.](media/embed-paginated-reports-for-customers/display-name-2.png)
 
 4. Выберите **Сертификаты и секреты** в разделе **Управление**.
 
@@ -201,11 +201,11 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>Внедрение отчетов Power BI с разбивкой на страницы в приложении
 
-Несмотря на то, что шаги по внедрению отчетов Power BI с разбивкой на страницы выполняются с помощью [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью **пакета SDK для .NET**.
+Несмотря на то, что шаги по внедрению отчетов Power BI с разбивкой на страницы выполняются с помощью [REST API Power BI](/rest/api/power-bi/), примеры кода, описанные в этой статье, созданы с помощью **пакета SDK для .NET**.
 
-При внедрении отчетов Power BI с разбивкой на страницы для ваших клиентов в приложении в **Azure AD** необходимо иметь [субъект-службу](embed-service-principal.md) и получить [маркер доступа Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI, прежде чем выполнять вызовы к [интерфейсам REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/).
+При внедрении отчетов Power BI с разбивкой на страницы для ваших клиентов в приложении в **Azure AD** необходимо иметь [субъект-службу](embed-service-principal.md) и получить [маркер доступа Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) для приложения Power BI, прежде чем выполнять вызовы к [интерфейсам REST API Power BI](/rest/api/power-bi/).
 
-Для создания клиента Power BI с помощью **маркера доступа** создайте объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](https://docs.microsoft.com/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект ***Microsoft.Rest.TokenCredentials***.
+Для создания клиента Power BI с помощью **маркера доступа** создайте объект клиента Power BI, что позволит работать с интерфейсами [REST API Power BI](/rest/api/power-bi/). Для создания объекта клиента Power BI маркер **AccessToken** упаковывается в объект ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Создание маркера внедрения
 
-Создайте маркер внедрения, который можно использовать из API JavaScript. Чтобы создать маркер внедрения для внедрения отчетов Power BI с разбивкой на страницы, используйте API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup).
+Создайте маркер внедрения, который можно использовать из API JavaScript. Чтобы создать маркер внедрения для внедрения отчетов Power BI с разбивкой на страницы, используйте API [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup).
 
 Пример создания токена внедрения можно найти в файле  *Services\EmbedService.cs* в [примере приложения](https://github.com/Microsoft/PowerBI-Developer-Samples).
 

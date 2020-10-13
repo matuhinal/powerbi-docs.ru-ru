@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240099"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635937"
 ---
 # <a name="add-drill-down-support"></a>Добавление поддержки детализации
 
@@ -26,7 +26,9 @@ ms.locfileid: "85240099"
 
 Чтобы в визуальном элементе поддерживалась детализация, добавьте в файл `capabilities.json` новое поле с именем drill-down, которое имеет одно свойство:
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > Роль данных детализации должна иметь тип `Grouping`.
@@ -222,11 +224,11 @@ button {
 
 Создайте иерархию в Power BI Desktop:
 
-![Создание иерархии](media/drill-down-support/create-new-hierarchy.png)
+![Снимок экрана: Power BI Desktop с пунктом "Новая иерархия", выбранным в контекстном меню.](media/drill-down-support/create-new-hierarchy.png)
 
 Включить в новую иерархию все столбцы категорий (H1, H2, H3):
 
-![Создание иерархии](media/drill-down-support/new-hierarchy.png)
+![Снимок экрана: столбцы категорий, которые можно добавить в новую иерархию.](media/drill-down-support/new-hierarchy.png)
 
 После выполнения этих действий должен получиться следующий визуальный элемент:
 
@@ -305,11 +307,11 @@ export class Visual implements IVisual {
 
 Примените данные к визуальному элементу:
 
-![Визуальный элемент с данными](media/drill-down-support/dev-visual-drilldown-data.png)
+![Снимок экрана: иерархия с выбранным пунктом H2.](media/drill-down-support/dev-visual-drilldown-data.png)
 
 В итоге должен получиться визуальный элемент с элементами выбора и контекстным меню:
 
-![Визуальный элемент с поддержкой детализации](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![Анимация: выбор пунктов "Детализация углублением" и "Детализация обобщением" в визуальном контекстном меню.](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Добавление поддержки детализации для сопоставления представления матричных данных
 
@@ -389,7 +391,7 @@ export class Visual implements IVisual {
 
 Примените данные к визуальному элементу:
 
-![Визуальный элемент с данными](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![Снимок экрана: MatrixHierarchy с иерархией столбцов и строк, а также выбранных элементов.](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Импортируйте необходимые интерфейсы для обработки сопоставлений представлений матричных данных:
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 В итоге должен получиться визуальный элемент с контекстным меню:
 
-![Визуальный элемент с поддержкой детализации](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![Анимация: контекстное меню для визуального элемента с параметрами для детализации углублением или обобщением.](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

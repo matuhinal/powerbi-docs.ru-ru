@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354715"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635868"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Создание визуализаций матрицы в Power BI
 
@@ -207,7 +207,7 @@ ms.locfileid: "85354715"
 
 Если у вас есть столбец или мера, содержащие URL-адреса веб-сайтов, вы можете применить условное форматирование, чтобы отображать эти URL-адреса как активные ссылки. Этот параметр можно найти в разделе **Условное форматирование** в области "Форматирование".
 
-![Карточка фильтров с выбранными строками](media/desktop-matrix-visual/power-bi-web-url.png)
+![Снимок экрана: значок форматирования, связанный с URL-адресом.](media/desktop-matrix-visual/power-bi-web-url.png)
 
 Включите параметр **URL-адрес** и выберите поле, которое будет использоваться в качестве URL-адреса для столбца. После применения значения в этом поле (столбце) становятся активными ссылками. Наведите указатель мыши, чтобы увидеть ссылку, и щелкните ее, перейдя к этой странице. 
 

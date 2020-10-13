@@ -7,67 +7,70 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 50f52058e43c1e59ce0a6894ff83d67528acc291
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: f27cea554cd9d4e1a68fa300c5d39d70e1eefb48
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536292"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527281"
 ---
-# <a name="view-related-content-in-the-power-bi-service"></a>Просмотр связанного содержимого в службе Power BI
+# <a name="see-related-content-in-the-power-bi-service"></a>Просмотр связанного содержимого в службе Power BI
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 В области **Связанное содержимое** вы можете видеть, как связано между собой содержимое службы Power BI: панели мониторинга, отчеты и наборы данных. Область **Связанное содержимое** выполняет роль панели запуска для выполнения действий. Здесь можно открывать панель мониторинга или отчет, создавать аналитические сведения, анализировать данные в Excel и многое другое.  
 
-В Power BI отчеты создаются на основе наборов данных, визуализации отчетов закрепляются на панелях мониторинга и связываются с созданными отчетами. Но как узнать, на каких панелях мониторинга размещаются визуализации из отчета по маркетингу? И как найти эти панели мониторинга? Есть ли на панели мониторинга с анализом закупок визуализации на основе нескольких наборов данных? Если отображаются, как они называются и как их можно открыть и отредактировать? Используется ли набор данных по кадрам в каких-либо отчетах или панелях мониторинга? Или же его можно перемещать, не рискуя нарушить связи? Область **Связанное содержимое** предоставит вам ответы на все эти вопросы.  Здесь не только отображается связанное содержимое. Эта область позволяет выполнять действия с содержимым и переходить к соответствующему содержимому.
+В службе Power BI отчеты создаются на основе наборов данных, визуализации отчетов закрепляются на панелях мониторинга и связываются с созданными отчетами. Но как узнать, на каких панелях мониторинга размещаются визуализации из отчета по маркетингу? И как найти эти панели мониторинга? Есть ли на панели мониторинга с анализом закупок визуализации на основе нескольких наборов данных? Если отображаются, как они называются и как их можно открыть и отредактировать? Используется ли набор данных по кадрам в каких-либо отчетах или панелях мониторинга? Или же его можно перемещать, не рискуя нарушить связи? Область **Связанное содержимое** предоставит вам ответы на все эти вопросы.  Здесь не только отображается связанное содержимое. Эта область позволяет выполнять действия с содержимым и переходить к соответствующему содержимому.
 
-![связанное содержимое](./media/end-user-related/power-bi-list.png)
+![связанное содержимое](./media/end-user-related/power-bi-see-related-pane.png)
 
 > [!NOTE]
 > Функция связанного содержимого не поддерживается для наборов данных при потоковой передаче.
 > 
 > 
 
-## <a name="view-related-content-for-a-dashboard-or-report"></a>Просмотр связанного содержимого для панели мониторинга или отчета
-Просмотрите описание связанного содержимого на панели мониторинга. Затем сделайте то же самое в соответствии с пошаговыми инструкциями, приведенными под видео, используя набор данных "Анализ закупок — пример".
+## <a name="see-related-content-for-a-dashboard-or-report"></a>Просмотр связанного содержимого для панели мониторинга или отчета
+Просмотрите описание связанного содержимого на панели мониторинга. Затем сделайте то же самое в соответствии с пошаговыми инструкциями, приведенными под видео, используя пример "Анализ закупок".
+
+> [!NOTE]
+> Это видео основано на более старой версии службы Power BI. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-Откройте панель мониторинга или отчет и щелкните **Дополнительные параметры** (...) в строке меню, а затем выберите в раскрывающемся списке **Просмотреть похожие**.
+Откройте панель мониторинга или отчет и щелкните **Дополнительные параметры** (…) в строке меню, а затем выберите в раскрывающемся списке **See related content** (Просмотреть связанное содержимое).
 
-![Раскрывающийся список с многоточием](./media/end-user-related/power-bi-dropdown.png)
+![Раскрывающийся список с многоточием](./media/end-user-related/power-bi-see-related.png)
 
-Откроется область **Связанное содержимое**. Для панели мониторинга отображаются все отчеты, которые содержат закрепленные на панели мониторинга визуализации, а также связанные наборы данных. На этой панели мониторинга закреплены визуализации, связанные только с одним отчетом, который, в свою очередь, основан только на одном наборе данных. 
+Откроется область **Связанное содержимое**. Для панели мониторинга отображаются все отчеты, которые содержат закрепленные на панели мониторинга визуализации, а также связанные наборы данных. На этой панели мониторинга закреплены визуализации, связанные только с одним отчетом, который, в свою очередь, основан только на одном наборе данных. Если вы посмотрите на изображение в начале этой статьи, вы увидите связанное содержимое для панели мониторинга, на которой закреплены визуализации из четырех отчетов и двух наборов данных.
 
 ![Область связанного содержимого](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-Здесь вы можете выполнять разные действия со связанным содержимым.  Например, вы можете выбрать имя отчета или панели мониторинга, чтобы открыть их.  Для работы с отображенным отчетом щелкните значок [анализа в Excel](../collaborate-share/service-analyze-in-excel.md) или [получения аналитики](end-user-insights.md). Для набора данных можно просмотреть дату и время последнего обновления, [выполнить анализ в Excel](../collaborate-share/service-analyze-in-excel.md) и [получить аналитические сведения](end-user-insights.md).  
+Здесь вы можете выполнять разные действия со связанным содержимым в зависимости от разрешений.  Например, вы можете выбрать имя отчета или панели мониторинга, чтобы открыть их.  Для отображенного отчета выберите значок, чтобы открыть и изменить параметры отчета, [получить аналитические данные](end-user-insights.md) и т. д. Для набора данных можно просмотреть дату и время последнего обновления, [выполнить анализ в Excel](../collaborate-share/service-analyze-in-excel.md), [получить аналитические сведения](end-user-insights.md), обновить и т. д.  
 
 
 
-## <a name="view-related-content-for-a-dataset"></a>Просмотр содержимого, связанного с набором данных
-Чтобы открыть область **связанного содержимого**, вам нужны по крайней мере разрешения на *просмотр* набора данных. В этом сценарии мы используем пример [Анализ закупок](../create-reports/sample-procurement.md).
+<!-- ## See related content for a dataset
+You'll need at least *view* permissions to a dataset to open the **Related content** pane. In this example, we're using the [Procurement Analysis sample](../create-reports/sample-procurement.md).
 
-В области навигации найдите заголовок **Рабочие области** и выберите нужную область в списке. Если у вас есть содержимое в рабочей области, оно будет отображаться на холсте справа. 
+From the nav pane, locate the **Workspaces** heading and select a workspace from the list. If you have content in a workspace, it will display in the canvas to the right. 
 
-![Рабочие области в области навигации](./media/end-user-related/power-bi-workspace.png)
+![workspaces in nav pane](./media/end-user-related/power-bi-workspace.png)
 
 
-В рабочей области перейдите на вкладку **Наборы данных** и найдите значок **просмотра связанных элементов**![значок просмотра связанных элементов](./media/end-user-related/power-bi-view-related-icon-new.png).
+In a workspace, select the **Datasets** tab and locate the **See related** icon ![See related icon](./media/end-user-related/power-bi-view-related-icon-new.png).
 
-![вкладка "Наборы данных"](./media/end-user-related/power-bi-related-dataset.png)
+![Datasets tab](./media/end-user-related/power-bi-related-dataset.png)
 
-Щелкните значок, чтобы открыть область **Связанное содержимое**.
+Select the icon to open the **Related content** pane.
 
-![Область связанного содержимого, открытая поверх представления содержимого Power BI](media/end-user-related/power-bi-dataset.png)
+![Related content pane opens on top of Power BI content view](media/end-user-related/power-bi-dataset.png)
 
-Здесь вы можете выполнять разные действия со связанным содержимым. Например, вы можете выбрать имя панели мониторинга или отчета, чтобы открыть эти элементы.  Вы можете щелкнуть соответствующий значок, чтобы [предоставить другим пользователям совместный доступ к любой панели мониторинга в списке](../collaborate-share/service-share-dashboards.md) или открыть для нее окно **Параметры**. Для работы с отчетами можно щелкнуть значок [анализа в Excel](../collaborate-share/service-analyze-in-excel.md), [переименования](../create-reports/service-rename.md) или [получения данных](end-user-insights.md).  
+From here, you can take direct action on the related content. For example, select a dashboard or report name to open it.  For any dashboard in the list, select an icon to [share the dashboard with others](../collaborate-share/service-share-dashboards.md) or to open the **Settings** window for the dashboard. For a report, select an icon to [analyze in Excel](../collaborate-share/service-analyze-in-excel.md), [rename](../create-reports/service-rename.md), or [get insights](end-user-insights.md).  -->
 
 ## <a name="limitations-and-troubleshooting"></a>Ограничения и устранение неполадок
 * Если вы не видите ссылку для просмотра связанных элементов, найдите этот значок: ![значок просмотра связанных элементов](./media/end-user-related/power-bi-view-related-icon-new.png). Щелкните значок, чтобы открыть область **Связанное содержимое**.

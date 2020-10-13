@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238152"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632901"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Точечные и пузырьковые диаграммы в Power BI
 
@@ -143,7 +143,7 @@ ms.locfileid: "85238152"
 
         а. Измените значение в поле **Общее отклонение продаж, %** на **% валовой прибыли за прошлый год**
 
-        ![Снимок экрана: пузырьковая диаграмма с добавленной линией медианы.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![Снимок экрана: вкладка "Сведения" с выделенным пунктом "% валовой прибыли за прошлый год".](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         б. На панели "Аналитика" добавьте **Симметричное затенение**. Для этого затенения видно, что Hosiery (зеленый пузырь в розовой затененной области) является единственной категорией, которая учитывает валовую прибыль, а не продажи по площади магазина. 
 
@@ -151,7 +151,7 @@ ms.locfileid: "85238152"
 
     - Продолжайте изучать панель "Аналитика", чтобы получить важные сведения о данных. 
 
-        ![Снимок экрана: пузырьковая диаграмма с добавленным симметричным затенением.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![Снимок экрана: панель "Аналитика".](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Создание точечного графика
 

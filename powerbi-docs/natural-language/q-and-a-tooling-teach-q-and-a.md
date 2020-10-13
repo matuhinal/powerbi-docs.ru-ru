@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239935"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635247"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Обучение модуля "Вопросы и ответы" пониманию вопросов и терминов — "Вопросы и ответы" в Power BI
 
@@ -61,7 +61,7 @@ ms.locfileid: "85239935"
 
 В поле необходимо указать термин из данных.
 
-![Запрос синонима в разделе "Вопросы и ответы: обучение"](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![Снимок экрана: часть поля вопросов и ответов со словом "Доход" и запросом "Доход — это" рядом с текстовым полем.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Если указать слово или фразу, которые не являются именем поля в модели данных, результаты могут быть непредсказуемыми.
 
@@ -73,7 +73,7 @@ ms.locfileid: "85239935"
 
 В поле необходимо указать условие.
 
-![Запрос синонима в разделе "Вопросы и ответы: обучение"](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![Снимок экрана: часть поля вопросов и ответов со словами "Отличные издатели" и запросом "Издатели с ... являются отличными" рядом с текстовым полем.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Вот некоторые примеры условий:
 
