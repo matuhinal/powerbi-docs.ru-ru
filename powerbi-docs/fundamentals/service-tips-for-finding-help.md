@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2500ba94a6ad387e9944fb29f865b391ea4c0711
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860953"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525628"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Десять советов по получению справки по Power BI
 Случались ли ситуации, когда вы не могли получить ответы на вопросы о Power BI в нужный момент (т. е. получить своевременную помощь)? 
@@ -49,7 +49,7 @@ ms.locfileid: "90860953"
 
 Вы можете найти дополнительные варианты в Интернете, например:
 
-* На сайте **edX.org** предлагается бесплатный курс обучения по [анализу и визуализации данных с помощью Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4).
+* На сайте **edX.org** предлагается бесплатный курс обучения по [анализу и визуализации данных с помощью Power BI](https://www.edx.org/course/data-analysis-in-power-bi).
 * Сайт **Lynda.com** предоставляет такой курс обучения, как [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html).
 * Практические учебные занятия в рамках плана обучения **Информационная панель за день**.
 

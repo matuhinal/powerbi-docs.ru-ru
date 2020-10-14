@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981534"
 ---
 # <a name="service-interruption-notifications"></a>Уведомления о перебое в работе служб
 
@@ -70,7 +70,7 @@ Power BI также отправляет уведомления по элект
 
 ## <a name="service-health-in-microsoft-365"></a>Работоспособность службы в Microsoft 365
 
-В этой статье описывается, как получать уведомления службы с помощью Power BI. Вы также можете отслеживать работоспособность службы Power BI с помощью Microsoft 365. Выберите вариант получения уведомлений о работоспособности службы от Microsoft 365 по электронной почте. Дополнительные сведения см. в статье [Проверка работоспособности службы Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health).
+В этой статье описывается, как получать уведомления службы с помощью Power BI. Вы также можете отслеживать работоспособность службы Power BI с помощью Microsoft 365. Выберите вариант получения уведомлений о работоспособности службы от Microsoft 365 по электронной почте. Дополнительные сведения см. в статье [Проверка работоспособности службы Microsoft 365](/microsoft-365/enterprise/view-service-health).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
