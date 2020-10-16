@@ -10,8 +10,8 @@
     - name: Учебники
       expanded: true
       items:
-        - name: "Разработка визуального элемента Power\_BI"
-          href: custom-visual-develop-tutorial.md
+        - name: "Руководство. Разработка визуального элемента Power\_BI \"Круглая визитка\""
+          href: develop-circle-card.md
         - name: "Создание визуальных элементов на основе\_React"
           href: create-react-visual.md
         - name: Создание линейчатой диаграммы
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Публикация визуальных элементов Power BI в AppSource
           href: office-store.md
+        - name: "Настройка среды для разработки визуального элемента Power\_BI"
+          href: environment-setup.md
         - name: "Создание визуальных элементов на базе\_R"
           href: create-r-based-power-bi-desktop.md
         - name: "Тестирование визуального элемента Power\_BI"
