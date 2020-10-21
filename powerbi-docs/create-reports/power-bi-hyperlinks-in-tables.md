@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/29/2020
+ms.date: 10/15/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87bb15829936c452999872f95f49f35c2b60af77
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 824dc74d2461f9bbf6350694a48b00a327f3f13d
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116599"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Добавление гиперссылок (URL-адресов) в таблицу или матрицу
 Из этого раздела вы узнаете, как добавлять гиперссылки (URL-адреса) в таблицу. Power BI Desktop можно использовать для добавления гиперссылок (URL-адресов) в набор данных. Созданные гиперссылки можно добавить в таблицы и матрицы отчета для Power BI Desktop или службы Power BI. Затем URL-адрес или значок ссылки можно отобразить или отформатировать другой столбец как текст ссылки.
@@ -135,7 +135,7 @@ ms.locfileid: "91525664"
 Значение URL-адреса может начинаться со следующих последовательностей:
 - http
 - HTTP
-- -mailto
+- mailto
 - ftp
 - news
 - telnet
@@ -149,4 +149,4 @@ ms.locfileid: "91525664"
 
 [Основные понятия для разработчиков в службе Power BI](../fundamentals/service-basic-concepts.md)
 
-Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

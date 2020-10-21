@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bfbdbeb08f67a979a5f14c8b45ef7ca269c2d03d
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3aa42394bb12078fb2abcf6574d04b8109a9c40c
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857366"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981603"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Вопросы и ответы об администрировании Power BI
 
@@ -55,7 +55,7 @@ ms.locfileid: "90857366"
 
 ### <a name="using-powershell"></a>Регистрация с помощью PowerShell
 
-Для некоторых процедур, описанных в этом разделе, нужно использовать скрипты Windows PowerShell. Если вы не знакомы с PowerShell, рекомендуем прочесть статью [Начало работы с Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814). Для выполнения скриптов необходимо установить последнюю 64-разрядную версию [Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/overview).
+Для некоторых процедур, описанных в этом разделе, нужно использовать скрипты Windows PowerShell. Если вы не знакомы с PowerShell, рекомендуем прочесть статью [Начало работы с Windows PowerShell](/powershell/scripting/overview). Для выполнения скриптов необходимо установить последнюю 64-разрядную версию [Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/overview).
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Как пользователям зарегистрироваться в службе Power BI?
 

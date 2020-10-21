@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d53e7a3205d8e1915f8dd0969fe35d5c32d25cf5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136150"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256404"
 ---
 # <a name="get-power-bi-desktop"></a>Получение Power BI Desktop
 Power BI Desktop дает возможность создавать расширенные запросы, модели и отчеты, визуализирующие данные. С помощью Power BI Desktop можно создавать модели данных, отчеты и совместно использовать данные, публикуя их в службе Power BI. Power BI Desktop можно скачать бесплатно.
@@ -80,7 +80,7 @@ Power BI Desktop дает возможность создавать расшир
 
 После запуска пакета установки Power BI Desktop устанавливается как приложение и запускается на компьютере.
 
-![Снимок экрана: установка Power BI Desktop — мастер установки](media/desktop-get-the-desktop/designer_gsg_install.png)
+![Снимок экрана: установка Power BI Desktop — мастер установки](media/desktop-get-the-desktop/desktop-install-01.png)
 
 > [!NOTE]
 > Установка скачанной версии Power BI Desktop (пакет MSI, не рекомендуется) и версии из Microsoft Store на одном и том же компьютере (так называемая *параллельная* установка) не поддерживается. Вручную удалите приложение Power BI Desktop, прежде чем скачивать его из Microsoft Store.
@@ -89,7 +89,7 @@ Power BI Desktop дает возможность создавать расшир
 ## <a name="using-power-bi-desktop"></a>Использование Power BI Desktop
 При запуске Power BI Desktop отобразится экран приветствия.
 
-![Снимок экрана: установка Power BI Desktop — экран приветствия](media/desktop-get-the-desktop/getpbid_05.png)
+![Снимок экрана: установка Power BI Desktop — экран приветствия](media/desktop-get-the-desktop/desktop-splash-screen.png)
 
 Если вы используете Power BI Desktop впервые (то есть выполняете установку, а не обновление), вам будет предложено заполнить форму либо войти в службу Power BI для продолжения работы.
 

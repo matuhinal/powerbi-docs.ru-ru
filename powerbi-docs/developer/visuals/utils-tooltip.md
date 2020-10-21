@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379175"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197640"
 ---
 # <a name="tooltip-utils"></a>Подсказки по служебным программам
 Эта статья поможет вам установить, импортировать и использовать подсказки по служебным программам. Эта служебная программа полезна для любых настроек всплывающих подсказок в визуальных элементах Power BI.
@@ -29,7 +29,7 @@ ms.locfileid: "79379175"
 Чтобы установить пакет, выполните следующую команду в каталоге с текущим визуальным элементом:
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 Эта команда устанавливает пакет и добавляет его в качестве зависимости в ```package.json```
 
