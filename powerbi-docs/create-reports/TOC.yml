@@ -217,7 +217,7 @@
               href: service-aggregates.md
             - name: Создание QR-кода для отчета
               href: service-create-qr-code-for-report.md
-            - name: Изменение визуальных элементов пользователями (предварительная версия)
+            - name: Разрешение пользователям настраивать визуальные элементы
               href: power-bi-personalize-visuals.md
             - name: "Экспорт отчета в Power\_BI Desktop (предварительная версия)"
               href: service-export-to-pbix.md

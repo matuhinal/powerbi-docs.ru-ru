@@ -62,6 +62,8 @@
           items:
             - name: подключение к источникам данных.
               href: desktop-data-sources.md
+            - name: "Использование динамических параметров запроса\_M"
+              href: desktop-dynamic-m-query-parameters.md
             - name: "Создание отчета на базе списка\_SharePoint"
               href: desktop-sharepoint-online-list.md
             - name: "Подключение к LinkedIn Sales\_Navigator"
@@ -236,7 +238,7 @@
               href: service-template-update-delete-extract.md
             - name: Примеры приложений-шаблонов
               href: service-template-apps-samples.md
-        - name: Диагностика
+        - name: Устранение неполадок
           items:
             - name: Устранение неполадок в сценариях обновления
               href: refresh-troubleshooting-refresh-scenarios.md
@@ -326,7 +328,7 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Использование настраиваемых соединителей
               href: service-gateway-custom-connectors.md
-        - name: Диагностика
+        - name: Устранение неполадок
           items:
             - name: "Устранение неполадок с импортом XLS-файлов Excel и\_Access"
               href: desktop-access-database-errors.md
