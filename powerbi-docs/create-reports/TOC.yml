@@ -121,6 +121,8 @@
       items:
         - name: Отчеты Power BI
           items:
+            - name: Создание отчета в службе
+              href: service-report-create-new.md
             - name: Включение автоматического обновления страниц
               href: desktop-automatic-page-refresh.md
             - name: Проверка элементов отчета с помощью Анализатора производительности
@@ -205,8 +207,12 @@
               href: desktop-grouping-visuals.md
             - name: Создание шаблонов отчетов
               href: desktop-templates.md
-            - name: Создание отчета из набора данных
-              href: service-report-create-new.md
+            - name: Изменение параметров отчета
+              href: power-bi-report-settings.md
+            - name: Рекомендуемые отчеты на домашних страницах других пользователей
+              href: ../collaborate-share/service-featured-content.md
+            - name: Изменение визуальных элементов пользователями (предварительная версия)
+              href: power-bi-personalize-visuals.md
             - name: Сохранение отчета
               href: service-report-save.md
             - name: Взаимодействие с отчетом в режиме правки
