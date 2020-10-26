@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 2978401c7ec949c8c8df7c813395b3d84db18b72
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232652"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525554"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Отладка визуальных элементов Power BI
 
@@ -74,20 +74,20 @@ public update(options: VisualUpdateOptions) {
 ### <a name="edge"></a>Microsoft Edge
 
 1. Откройте средства разработчика (F12).
-2. Перейдите на вкладку **Отладчик**.
+2. Перейдите на вкладку **Отладчик** .
 3. Щелкните значок **останавливать на исключениях** (шестиугольник со значком паузы).
-4. Выберите **Останавливать при любых исключениях**.
+4. Выберите **Останавливать при любых исключениях** .
 
-![Поля ролей данных](media/visuals-how-to-debug/how-to-debug-edge.png)
+![Снимок экрана: вкладка "Отладчик" с выбранным элементом "Останавливать при любых исключениях".](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
 1. Откройте средства разработчика (F12).
-2. Перейдите на вкладку **Источники**.
+2. Перейдите на вкладку **Источники** .
 3. Щелкните значок **останавливать на исключениях** (шестиугольник со значком останова).
 4. Установите флажок **Pause On Caught Exceptions** (Приостановить на перехваченных исключениях).
 
-![Поля ролей данных](media/visuals-how-to-debug/how-to-debug-chrome.png)
+![Снимок экрана: вкладка "Источники" с выбранным элементом Pause On Caught Exceptions (Приостановить при перехваченных исключениях).](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Устранение неполадок с визуальными элементами Power BI](power-bi-custom-visuals-troubleshoot.md)

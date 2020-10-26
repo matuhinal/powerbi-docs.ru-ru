@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 05/12/2020
-ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 6f6a13f239d1bcfa7731361f4efcd129da7e2031
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746799"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197750"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Внедрение содержимого Power BI с помощью субъект-службы и секрета приложения
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-В этой статье описывается проверка подлинности субъекта-службы с помощью *идентификатора приложения* и *секрета приложения*.
+В этой статье описывается проверка подлинности субъекта-службы с помощью *идентификатора приложения* и *секрета приложения* .
 
 >[!NOTE]
 >Рекомендуем защищать серверные службы с помощью сертификатов, а не секретных ключей.
@@ -35,10 +35,10 @@ ms.locfileid: "91746799"
 
     1. Создайте секрет приложения Azure AD.
     
-    2. Получите *Идентификатор приложения* и *Секрет приложения*.
+    2. Получите *Идентификатор приложения* и *Секрет приложения* .
 
     >[!NOTE]
-    >Эти действия описаны в **шаге 1**. Дополнительные сведения о создании приложения Azure AD см. в статье [Создание приложения Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal).
+    >Эти действия описаны в **шаге 1** . Дополнительные сведения о создании приложения Azure AD см. в статье [Создание приложения Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 2. Создайте группу безопасности Azure AD.
 
@@ -54,34 +54,36 @@ ms.locfileid: "91746799"
 ## <a name="step-1---create-an-azure-ad-app"></a>Шаг 1. Создание приложения Azure AD
 
 Создайте приложение Azure AD одним из методов, перечисленных ниже.
+
 * Создать приложение на [портале Microsoft Azure](https://portal.azure.com/#allservices)
-* Создать приложение с помощью [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
+
+* Создать приложение с помощью [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Создание приложения Azure AD на портале Microsoft Azure
 
 [!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
-7. Перейдите на вкладку **Сертификаты и секреты**.
+7. Перейдите на вкладку **Сертификаты и секреты** .
 
      ![Снимок экрана: панель "Сертификаты и секреты" для приложения на портале Azure.](media/embed-service-principal/certificates-and-secrets.png)
 
 
-8. Щелкните **Создать секрет клиента**.
+8. Щелкните **Создать секрет клиента** .
 
-    ![секрет нового клиента](media/embed-service-principal/new-client-secret.png)
+    ![Снимок экрана: кнопка "Создать секрет клиента" на панели "Сертификаты и секреты".](media/embed-service-principal/new-client-secret.png)
 
-9. В окне *Добавление секрета клиента* введите описание, укажите, когда должен истечь срок действия секрета клиента, и нажмите кнопку **Добавить**.
+9. В окне *Добавление секрета клиента* введите описание, укажите, когда должен истечь срок действия секрета клиента, и нажмите кнопку **Добавить** .
 
-10. Скопируйте и сохраните значение *Секрет клиента*.
+10. Скопируйте и сохраните значение *Секрет клиента* .
 
-    ![значение секрета клиента](media/embed-service-principal/client-secret-value.png)
+    ![Снимок экрана: размытое значение секрета на панели "Сертификаты и секреты".](media/embed-service-principal/client-secret-value.png)
 
     >[!NOTE]
     >После закрытия этого окна значение секрета клиента будет скрыто, и вы не сможете снова просмотреть или скопировать его.
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>Создание приложения Azure AD с помощью PowerShell
 
-В этом разделе содержится пример скрипта для создания нового приложения Azure AD с помощью [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+В этом разделе содержится пример скрипта для создания нового приложения Azure AD с помощью [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
 
 ```powershell
 # The app ID - $app.appid
@@ -100,64 +102,7 @@ $sp = New-AzureADServicePrincipal -AppId $app.AppId
 # Get the service principal key
 $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 ```
-
-## <a name="step-2---create-an-azure-ad-security-group"></a>Шаг 2. Создание группы безопасности Azure AD
-
-У субъекта-службы нет доступа к любому содержимому и API-интерфейсам Power BI. Чтобы предоставить субъекту-службе доступ, создайте группу безопасности в Azure AD и добавьте созданный субъект-службу в эту группу безопасности.
-
-Существует два способа создания группы безопасности Azure AD.
-* Вручную (в Azure)
-* Регистрация с помощью PowerShell
-
-### <a name="create-a-security-group-manually"></a>Создание группы безопасности вручную
-
-Чтобы создать группу безопасности Azure вручную, следуйте инструкциям в статье [Создание простой группы и добавление в нее участников с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
-
-### <a name="create-a-security-group-using-powershell"></a>Создание группы безопасности с помощью PowerShell
-
-Ниже приведен пример скрипта для создания новой группы безопасности и добавления приложения в эту группу безопасности.
-
->[!NOTE]
->Если вы хотите включить доступ субъекта-службы для всей организации, пропустите этот шаг.
-
-```powershell
-# Required to sign in as admin
-Connect-AzureAD
-
-# Create an Azure AD security group
-$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
-
-# Add the service principal to the group
-Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-```
-
-## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>Шаг 3. Включение параметров администрирования службы Power BI
-
-Чтобы приложение Azure AD могло получить доступ к содержимому и API-интерфейсам Power BI, администратор Power BI должен включить доступ субъекта-службы на портале администрирования Power BI.
-
-Добавьте группу безопасности, созданную в Azure AD, в раздел отдельных групп безопасности на странице **Параметры разработчика**.
-
->[!IMPORTANT]
->Субъекты-службы имеют доступ ко всем параметрам клиента, для которых они включены. В зависимости от параметров администратора, это может быть определенная группа безопасности или вся организация.
->
->Чтобы ограничить доступ субъекта-службы к параметрам определенного клиента, разрешите доступ только к определенным группам безопасности. Кроме того, можно создать выделенную группу безопасности для субъектов-служб и исключить ее из параметров нужного клиента.
-
-![Портал администрирования](media/embed-service-principal/admin-portal.png)
-
-## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Шаг 4. Добавление субъект-службы в рабочую область
-
-Чтобы включить артефакты доступа к приложению Azure AD, такие как отчеты, панели мониторинга и наборы данных в службу Power BI, добавьте сущность субъекта-службы в качестве участника или администратора в рабочую область.
-
->[!NOTE]
->В этом разделе содержатся инструкции для пользовательского интерфейса. Вы также можете добавить субъект-службу в рабочую область, используя команду [Groups — add group user API](/rest/api/power-bi/groups/addgroupuser) (Группы — добавление API-интерфейса пользователя группы).
-
-1. Перейдите к рабочей области, для которой требуется включить доступ, а затем в меню **Еще** выберите команду **Доступ к рабочей области**.
-
-    ![Параметры рабочей области](media/embed-service-principal/workspace-access.png)
-
-2. Добавьте субъект-службу как **Администратор** или **Участник** в эту рабочую область.
-
-    ![Администратор рабочей области](media/embed-service-principal/add-service-principal-in-the-UI.png)
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
 
 ## <a name="step-5---embed-your-content"></a>Шаг 5. Внедрение содержимого
 

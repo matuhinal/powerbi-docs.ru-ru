@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747558"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048793"
 ---
 # <a name="create-an-ssl-certificate"></a>Создание SSL-сертификата
 
 В этой статье описывается создание и установка SSL-сертификатов для визуальных элементов Power BI.
 
-Для выполнения процедур в Windows, macOS X и Linux необходимо установить пакет **pbiviz** визуальных средств Power BI. Дополнительные сведения см. в разделе о [настройке среды разработчика](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment). 
+Для выполнения процедур в Windows, macOS X и Linux необходимо установить пакет **pbiviz** визуальных средств Power BI. Дополнительные сведения см. в статье [Настройка среды для разработки визуального элемента Power BI](./environment-setup.md). 
 
 ## <a name="create-a-certificate-on-windows"></a>Создание сертификата в Windows
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 Для использования средства `pbiviz` в Windows 7 требуется, чтобы служебная программа OpenSSL была доступна из командной строки. Инструкции по установке OpenSSL см. на странице [OpenSSL](https://www.openssl.org) или [Двоичные файлы OpenSSL](https://wiki.openssl.org/index.php/Binaries).
 
-Дополнительные сведения и инструкции по установке сертификата см. в разделе о [создании и установке сертификата для Windows](./custom-visual-develop-tutorial.md#windows).
+Дополнительные сведения и инструкции по установке сертификата см. в разделе о [создании и установке сертификата для Windows](./environment-setup.md#create-and-install-a-certificate).
 
 ## <a name="create-a-certificate-on-macos-x"></a>Создание сертификата в macOS X
 
@@ -39,14 +39,14 @@ pbiviz --install-cert
 
 Для установки служебной программы OpenSSL также можно выполнить любую из следующих команд:
 
-- Из диспетчера пакетов *Brew*:
+- Из диспетчера пакетов *Brew* :
   
   ```cmd
   brew install openssl
   brew link openssl --force
   ```
 
-- С помощью *MacPorts*:
+- С помощью *MacPorts* :
   
   ```cmd
   sudo port install openssl
@@ -58,7 +58,7 @@ pbiviz --install-cert
 pbiviz --install-cert
 ```
 
-Дополнительные сведения и инструкции см. в [этом разделе](./custom-visual-develop-tutorial.md#osx).
+Дополнительные сведения и инструкции см. на вкладке OSX в разделе [Создание и установка сертификата](./environment-setup.md#create-and-install-a-certificate).
 
 ## <a name="create-a-certificate-on-linux"></a>Создание сертификата в Linux
 
@@ -75,7 +75,7 @@ which certutil
 
 ### <a name="create-the-ssl-configuration-file"></a>Создание файла конфигурации SSL
 
-Создайте файл с именем */tmp/openssl.cnf*, содержащий следующий текст:
+Создайте файл с именем */tmp/openssl.cnf* , содержащий следующий текст:
 
 ```
 authorityKeyIdentifier=keyid,issuer
@@ -99,7 +99,7 @@ openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 
 ### <a name="generate-a-certificate-for-localhost"></a>Создайте сертификат для localhost 
 
-Чтобы создать сертификат для `localhost` с помощью созданного ЦС и *openssl.cnf*, выполните следующие команды:
+Чтобы создать сертификат для `localhost` с помощью созданного ЦС и *openssl.cnf* , выполните следующие команды:
 
 ```sh
 PBIVIZ=`which pbiviz`
@@ -170,11 +170,11 @@ openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out Po
 
 ### <a name="pem-format"></a>Формат PEM
 
-При использовании формата сертификата Privacy Enhanced Mail (PEM) сохраните файл сертификата как *PowerBIVisualTest_public.crt* и сохраните закрытый ключ как *PowerBIVisualTest_private. key*.
+При использовании формата сертификата Privacy Enhanced Mail (PEM) сохраните файл сертификата как *PowerBIVisualTest_public.crt* и сохраните закрытый ключ как *PowerBIVisualTest_private. key* .
 
 ### <a name="pfx-format"></a>Формат PFX
 
-При использовании формата сертификата Personal Information Exchange (PFX) сохраните файл сертификата как *PowerBIVisualTest_public.pfx*.
+При использовании формата сертификата Personal Information Exchange (PFX) сохраните файл сертификата как *PowerBIVisualTest_public.pfx* .
 
 Если для файла сертификата PFX требуется парольная фраза, выполните следующие действия:
 
@@ -199,6 +199,6 @@ openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out Po
     ```
 
 ## <a name="next-steps"></a>Дальнейшие действия
-- [Руководство. Разработка визуального элемента Power BI](custom-visual-develop-tutorial.md)
+- [Разработка визуального элемента "Круговая карточка" в Power BI](develop-circle-card.md)
 - [Примеры визуальных элементов Power BI](samples.md)
 - [Публикация визуализаций Power BI в Центре партнеров](office-store.md)

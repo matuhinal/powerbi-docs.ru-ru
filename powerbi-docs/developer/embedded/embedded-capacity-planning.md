@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746753"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983052"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Планирование ресурсов в аналитике Power BI Embedded
 
@@ -27,11 +27,11 @@ ms.locfileid: "91746753"
 * частота обновления данных;
 * дополнительные шаблоны использования, которые трудно прогнозировать.
 
-Эта статья призвана облегчить планирование ресурсов для аналитики Power BI Embedded с помощью [средства оценки нагрузки для выделенной емкости Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), созданного для автоматизации нагрузочного тестирования ресурсов аналитики Power BI Embedded (номера SKU *A*, *EM* и *P*).
+Эта статья поможет вам облегчить планирование ресурсов для аналитики Power BI Embedded с помощью [средства оценки нагрузки для емкости Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), созданного для автоматизации нагрузочного тестирования ресурсов аналитики Power BI Embedded (номера SKU *A* , *EM* и *P* ).
 
 ## <a name="planning-tool"></a>Средство планирования
 
- [Средство оценки нагрузки для выделенной емкости Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) поможет вам понять, на какую пользовательскую нагрузку рассчитаны ваши ресурсы. Оно использует PowerShell для создания автоматических нагрузочных тестов для ресурсов и позволяет выбрать, для каких отчетов следует выполнить тестирование и сколько одновременных пользователей нужно имитировать.
+ [Средство оценки нагрузки для емкости Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) поможет вам понять, на какую пользовательскую нагрузку рассчитаны ваши ресурсы. Оно использует PowerShell для создания автоматических нагрузочных тестов для ресурсов и позволяет выбрать, для каких отчетов следует выполнить тестирование и сколько одновременных пользователей нужно имитировать.
 
 Это средство создает нагрузку на ресурсы, постоянно отображая в отчетах новые значения фильтров (чтобы предотвратить нереалистичную хорошую производительность из-за кэширования отчета), пока не истечет срок действия маркера, необходимого для аутентификации средства в службе.
 
@@ -52,7 +52,7 @@ ms.locfileid: "91746753"
 Чтобы увидеть результаты нагрузочного теста в приложении метрик после выполнения этого теста, следуйте приведенным ниже инструкциям. Нагрузка начнет отображаться в метриках примерно через 15 минут после того, как тест начнет создавать нагрузку.
 
 1. Разверните вкладку **Наборы данных** на [целевой странице](../../admin/service-admin-premium-monitor-capacity.md) приложения метрик.
-2. Выполните обновление по запросу, нажав кнопку **Обновить сейчас**. Это должны делать администраторы.
+2. Выполните обновление по запросу, нажав кнопку **Обновить сейчас** . Это должны делать администраторы.
 
     ![Метрики емкости Power BI Premium](media/embedded-capacity-planning/embedded-capacity-planning.png)
 

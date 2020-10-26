@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 6ad986308fb82f8191829d29654bb96b55d0fbd0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272702"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049414"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>Использование функции supportsMultiVisualSelection
 
@@ -21,7 +21,7 @@ ms.locfileid: "83272702"
 
 ## <a name="example"></a>Пример
 
-В отчете, состоящем более чем с одного визуального элемента, выберите два значения, чтобы эти значения применялись к другим визуальным элементам. Например, в [примере анализа розничной торговли](../../create-reports/sample-retail-analysis.md) выберите **Fashions Direct** в одном визуальном элементе. Нажмите клавишу "CTRL" и выберите **Jan** в другом визуальном элементе. Параметры выбора в отчете применяются к другим визуальным элементам, поддерживающим использование этой функции. Другие визуальные элементы теперь применяются в **Fashions Direct** и **Jan**.
+В отчете, состоящем более чем с одного визуального элемента, выберите два значения, чтобы эти значения применялись к другим визуальным элементам. Например, в [примере анализа розничной торговли](../../create-reports/sample-retail-analysis.md) выберите **Fashions Direct** в одном визуальном элементе. Нажмите клавишу "CTRL" и выберите **Jan** в другом визуальном элементе. Параметры выбора в отчете применяются к другим визуальным элементам, поддерживающим использование этой функции. Другие визуальные элементы теперь применяются в **Fashions Direct** и **Jan** .
 
 ## <a name="requirements"></a>Требования
 
@@ -45,4 +45,4 @@ ms.locfileid: "83272702"
 
 Дополнительные сведения о концепциях Power BI см. в статье [Визуальные элементы в Power BI](power-bi-visuals-concept.md).
 
-Чтобы испытать разработку Power BI, см. статью [Руководство. Разработка визуального элемента Power BI](custom-visual-develop-tutorial.md).
+Чтобы испытать разработку в Power BI, см. статью [Разработка круговой карточки в Power BI](develop-circle-card.md).

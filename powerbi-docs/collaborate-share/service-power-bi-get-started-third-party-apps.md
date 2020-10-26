@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: d845cde571679355fd50560a154358885f981db0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9e83d8689564471365666f9b4adfe2c3b9d1c05e
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225520"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526750"
 ---
 # <a name="get-started-with-third-party-apps"></a>Начало работы со сторонними приложениями
 
@@ -56,6 +56,6 @@ ms.locfileid: "85225520"
 
 2. На странице **Мои приложения** найдите стороннее приложение.
 
-3. Наведите указатель мыши на название приложения, нажмите кнопку **(...)** и выберите **Удалить**.
+3. Наведите указатель мыши на название приложения, нажмите кнопку **(...)** и выберите **Удалить** .
 
-   ![Remove](media/service-power-bi-get-started-third-party-apps/remove.png)
+   ![Снимок экрана, на котором показан пункт "Удалить" для отзыва разрешений для стороннего приложения.](media/service-power-bi-get-started-third-party-apps/remove.png)

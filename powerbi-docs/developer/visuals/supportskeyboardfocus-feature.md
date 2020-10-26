@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: c8cf0f4e896b8a44764d1c363c597182f55d30b3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1e5a4cf8c80d8123d39fd2ab76898abc0c439ad9
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276520"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049391"
 ---
 # <a name="use-the-supportskeyboardfocus-feature"></a>Использование функции supportsKeyboardFocus
 
@@ -52,4 +52,4 @@ ms.locfileid: "83276520"
 
 Дополнительные сведения о специальных возможностях см. в статье [Создание отчетов со специальными возможностями Power BI](../../create-reports/desktop-accessibility-creating-reports.md).
 
-Чтобы испытать разработку Power BI, см. статью [Руководство. Разработка визуального элемента Power BI](custom-visual-develop-tutorial.md).
+Чтобы испытать разработку в Power BI, см. руководство [Разработка визуализации "Круговая карточка" в Power BI](develop-circle-card.md).

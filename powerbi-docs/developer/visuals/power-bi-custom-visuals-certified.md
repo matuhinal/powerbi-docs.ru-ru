@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748133"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049184"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Получите сертификацию для визуального элемента Power BI
 
@@ -56,10 +56,10 @@ ms.locfileid: "91748133"
 Используйте последнюю версию API для создания визуального элемента Power BI.
 
 Репозиторий должен содержать следующие файлы:
-* **GITIGNORE**-файл — добавьте в него `node_modules`, `.tmp` и `dist`. Код не может содержать папки *node_modules*, *.tmp* или *dist*.
-* **capabilities.json** — если вы отправляете новую версию визуального элемента Power BI с изменениями в свойствах этого файла, убедитесь, что они не нарушают отчеты для существующих пользователей.
+* **GITIGNORE** -файл — добавьте в него `node_modules`, `.tmp` и `dist`. Код не может содержать папки *node_modules* , *.tmp* или *dist* .
+* **capabilities.json**  — если вы отправляете новую версию визуального элемента Power BI с изменениями в свойствах этого файла, убедитесь, что они не нарушают отчеты для существующих пользователей.
 * **pbiviz.json** 
-* **package.json**. Для визуального элемента должны быть установлены следующие пакеты:
+* **package.json** . Для визуального элемента должны быть установлены следующие пакеты:
    * [tslint](https://www.npmjs.com/package/tslint) версии 5.18.0 или выше;
    * [typescript](https://www.npmjs.com/package/typescript) версии 3.0.0 или выше;
    * [tslint-microsoftcontrib](https://www.npmjs.com/package/tslint-microsoft-contrib) версии 6.2.0 или выше.
@@ -111,8 +111,8 @@ ms.locfileid: "91748133"
 Чтобы подать заявку на сертификацию визуализацию Power BI, сделайте следующее:
 
 1. Войдите в Центр партнеров.
-2. На странице **Обзор** выберите визуализацию Power BI и перейдите на страницу **настройки продукта**.
-3. Установите флажок **Запросите сертификацию Power BI**.
+2. На странице **Обзор** выберите визуализацию Power BI и перейдите на страницу **настройки продукта** .
+3. Установите флажок **Запросите сертификацию Power BI** .
 4. На странице **Проверка и публикация** в текстовом поле **Примечания о сертификации** укажите ссылку на исходный код и учетные данные, требуемые для получения доступа.
 
 ### <a name="private-repository-submission-process"></a>Процесс отправки частного репозитория
@@ -147,7 +147,7 @@ ms.locfileid: "91748133"
 
     ![Сертифицированный визуальный элемент Power BI в интерфейсе Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
-* Можно отобразить только сертифицированные визуальные элементы Power BI, выбрав параметр фильтра *Сертифицированные Power BI*.
+* Можно отобразить только сертифицированные визуальные элементы Power BI, выбрав параметр фильтра *Сертифицированные Power BI* .
 
 ## <a name="publication-timeline"></a>Временная шкала приложения
 
@@ -170,11 +170,9 @@ ms.locfileid: "91748133"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* Если вы как веб-разработчик заинтересованы в создании собственных визуализаций Power BI и их добавлении в  [Microsoft AppSource](https://appsource.microsoft.com), начните с руководства по  [разработке визуализаций Power BI](custom-visual-develop-tutorial.md).
+* Если вы как веб-разработчик заинтересованы в создании собственных визуальных элементов Power BI и их добавлении в  [Microsoft AppSource](https://appsource.microsoft.com), начните с руководства по  [разработке визуального элемента "Круговая карточка" в Power BI](develop-circle-card.md).
 
 * Дополнительные сведения о визуальных элементах см. в разделе [Часто задаваемые вопросы о сертифицированных визуальных элементах](power-bi-custom-visuals-faq.md#certified-power-bi-visuals).
-
-* [Разработка визуального элемента Power BI](custom-visual-develop-tutorial.md)
 
 * [Список видео Майкрософт, посвященных визуальным элементам Power BI, на сайте YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)
 
@@ -182,4 +180,4 @@ ms.locfileid: "91748133"
 
 * [Публикация визуальных элементов Power BI в Microsoft AppSource](office-store.md)
 
-* Появились дополнительные вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)
+* Остались вопросы? [Ответы на них см. в сообществе Power BI.](https://community.powerbi.com/)

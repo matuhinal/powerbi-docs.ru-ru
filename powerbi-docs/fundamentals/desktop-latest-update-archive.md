@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/30/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: bab09647b324e9be8b1de6f27865511b4f2b1a02
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600537"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256346"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Предыдущие ежемесячные обновления для Power BI Desktop
 
-В этой статье описываются предыдущие обновления для **Power BI Desktop**. Чтобы найти выпуск за текущий месяц, см. последние обновления для [**Power BI Desktop**](desktop-latest-update.md).
+В этой статье описываются предыдущие обновления для **Power BI Desktop** . Чтобы найти выпуск за текущий месяц, см. последние обновления для [**Power BI Desktop**](desktop-latest-update.md).
 
 Скачать последнюю версию Power BI Desktop можно из [Центра загрузки](https://www.microsoft.com/download/details.aspx?id=58494). Если вы используете Windows 10, Power BI Desktop также можно получить в магазине Microsoft Store в этой операционной системе. Независимо от способа установки Power BI Desktop, эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться. Дополнительные сведения о скачивании и установке Power BI Desktop см. в разделе [Получение Power BI Desktop](desktop-get-the-desktop.md). 
 
@@ -37,6 +37,93 @@ ms.locfileid: "91600537"
 Вы можете просмотреть с самого начала видео **Последние обновления** в этой статье. Для этого щелкните значок **Воспроизведение** на изображении видео под списком обновлений.
 
 В следующих разделах описываются обновления для **Power BI Desktop** за предыдущие месяцы.
+
+
+## <a name="september-2020-update-2852840"></a>Обновление за сентябрь 2020 г. (2.85.284.0)
+
+Наши обновления Power BI Desktop за сентябрь являются настолько ожидаемыми, как и приход осени. 
+
+Кроме того, в ежемесячных обновлениях блога и видео для Power BI Desktop теперь также содержатся сведения об обновленных функциях для Power BI Mobile и службы Power BI. В этой статье рассматриваются обновления для Power BI Desktop. Чтобы получить дополнительные сведения об обновлениях для Power BI Mobile и службы Power BI, ознакомьтесь с соответствующими статьями о новых возможностях.
+
+* [Новые возможности службы Power BI](service-whats-new.md)
+* [Новые возможности мобильных приложений для Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+Скачать последнюю версию Power BI Desktop можно из [Центра загрузки](https://www.microsoft.com/download/details.aspx?id=58494). Если вы используете Windows 10, Power BI Desktop также можно получить в [Microsoft Store](https://aka.ms/pbidesktopstore). Независимо от способа установки Power BI Desktop, эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться. Дополнительные сведения о скачивании и установке Power BI Desktop см. в разделе [Получение Power BI Desktop](desktop-get-the-desktop.md). 
+
+> [!IMPORTANT]
+> Обновление и выпуск Power BI Desktop осуществляется на ежемесячной основе, включая отзывы клиентов и новые функции. Поддерживается только самая последняя версия Power BI Desktop; клиентам, которые обращаются в службу поддержки Power BI Desktop, будет предложено выполнить обновление до последней версии. Вы можете получить последнюю версию Power BI Desktop из [Магазина Windows](https://aka.ms/pbidesktopstore) или в виде одного исполняемого файла, содержащего все поддерживаемые языки для [загрузки](https://www.microsoft.com/download/details.aspx?id=58494) и установки на компьютер.
+
+Ссылки, которые приводятся для каждого компонента списке обновлений Power BI Desktop, интерпретируются следующим образом:
+
+* \[Блог\]. Большинство функций рассматриваются в разделе ежемесячных публикаций об обновлениях в записи блога.
+* \[Видео\]. Для некоторых функций предоставлен фрагмент видео, в котором идет речь об этой функции. Фрагмент воспроизводится на новой вкладке браузера.
+* \[Статья\]. Некоторые функции описаны в статьях с дополнительными сведениями.
+* Названия оставшихся функций говорят сами за себя, поэтому для них не требуются отдельные статьи или видео.
+
+Также вы можете ознакомиться с полным [видео, посвященным ежемесячному обновлению Power BI](#power-bi-desktop-monthly-update-video).
+
+> [!IMPORTANT]
+> Power BI Desktop больше не будет поддерживаться в Windows 7 после 31 января 2021 г. После этой даты Power BI Desktop будет поддерживаться в Windows 8 или более поздних версиях Windows, (только для последнего выпуска Power BI Desktop). 
+
+Ниже перечислены обновления, добавленные в приложение Power BI Desktop в этом месяце.
+
+### <a name="analytics"></a>Analytics
+* Визуальные элементы с автоописанием (предварительная версия) [[видео]](https://youtu.be/gPGy18Yo0Go?t=51)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* Модель "Вопросы и ответы" теперь поддерживает арифметические операции [[видео]](https://youtu.be/gPGy18Yo0Go?t=333)[[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+
+
+### <a name="reporting"></a>Отчеты
+* Выделение прямоугольников точки данных для дополнительных диаграмм [[видео]](https://youtu.be/gPGy18Yo0Go?t=370)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* Добавлен общий визуальный элемент для упорядочения слоев [[видео]](https://youtu.be/gPGy18Yo0Go?t=405)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* Поиск рабочей области во время публикации [[видео]](https://youtu.be/gPGy18Yo0Go?t=615)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* Определение общего количества меток визуальных элементов с накоплением [[видео]](https://youtu.be/gPGy18Yo0Go?t=630)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* Улучшения мобильной разработки [[видео]](https://youtu.be/gPGy18Yo0Go?t=786)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+
+
+### <a name="modeling"></a>Моделирование
+* Расширенные метаданные набора данных теперь являются общедоступными [[видео]](https://youtu.be/gPGy18Yo0Go?t=1200)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* Повышение производительности статистических выражений, включающих столбцы денежного типа данных [[видео]](https://youtu.be/gPGy18Yo0Go?t=1220)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+
+
+### <a name="data-connectivity"></a>Подключение к данным
+* Azure Databricks [[видео]](https://youtu.be/gPGy18Yo0Go?t=1342)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[видео]](https://youtu.be/gPGy18Yo0Go?t=1365)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Интеллектуальный API Hexagon PPM [[видео]](https://youtu.be/gPGy18Yo0Go?t=1386)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* Другие обновления для подключения к данным [[видео]](https://youtu.be/gPGy18Yo0Go?t=1411)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
+
+
+### <a name="visuals"></a>Визуальные элементы
+* Новые визуальные элементы из различных поставщиков [[видео]](https://youtu.be/gPGy18Yo0Go?t=1228)  [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
+
+
+### <a name="template-apps"></a>Приложения-шаблоны
+* Панель мониторинга многоканальной атрибуции [[видео]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* Панель мониторинга аналитики рабочей области [[видео]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[блог]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
+
+
+Дополнительные сведения о каждой из этих новых функций см. в записи блога [Обзор возможностей Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/).
+
+
+> [!NOTE]
+> См. раздел [источники данных, доступные для Power BI Desktop](../connect-data/desktop-data-sources.md). Мы постоянно дополняем этот список, так что не забывайте регулярно знакомиться с ним.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Видео, посвященное ежемесячному обновлению Power BI Desktop
+Все эти обновления описываются в следующем видео. Это видео можно также посмотреть в записи блога:
+
+> [!VIDEO https://www.youtube.com/embed/gPGy18Yo0Go]
+
+Можно скачать предыдущие версии Power BI Desktop, если это требуется для вашей организации. Мы рекомендуем всегда использовать самую последнюю версию Power BI Desktop, а не предыдущие версии. Все предыдущие версии имеют следующие ограничения:
+
+* Предыдущие выпуски Power BI Desktop не обслуживаются. Вам следует всегда использовать последний выпуск, в которых доступны новейшие функции и обновления.
+* В предыдущих версиях Power BI Desktop могут не открываться файлы, созданные или сохраненные в последующих версиях программы. 
+* Если при загрузке отчета, сохраненного в новой версии Power BI Desktop, отображается предупреждение, сохраните отчет в старой версии. Но при этом будут потеряны все данные, связанные с новыми возможностями.
+* В архиве доступны версии Power BI Desktop только на английском языке.
+
+Старые версии доступны по этим ссылкам: 
+
+* [32-разрядная версия Power BI Desktop, выпущенная в сентябре 2020 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-09.exe)
+* [64-разрядная версия Power BI Desktop, выпущенная в сентябре 2020 г.](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-09_x64.exe)
 
 
 
@@ -318,7 +405,7 @@ ms.locfileid: "91600537"
 * Поддержка отбрасывания теней визуальными элементами [[видео]](https://youtu.be/JtuHIslowxk?t=1561) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_shadow) 
 * Перенос панели фильтрации [[видео]](https://youtu.be/JtuHIslowxk?t=1688) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_migration) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Дерево декомпозиции реализовано в общедоступной версии [[видео]](https://youtu.be/JtuHIslowxk?t=1701) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Decomp_tree) 
 
 
@@ -409,7 +496,7 @@ ms.locfileid: "91600537"
 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Поддержка DirectQuery для визуальных элементов AI [[видео]](https://youtu.be/q2Hfn_Rhb3E?t=1498) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Direct_Query_AI) 
 * Дерево декомпозиции теперь поддерживает подсказки [[видео]](https://youtu.be/q2Hfn_Rhb3E?t=1550) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Decomp_tree_tooltips) 
 * Обновления вопросов и ответов [[видео]](https://youtu.be/q2Hfn_Rhb3E?t=1606) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_QA_updates) 
@@ -649,7 +736,7 @@ ms.locfileid: "91600537"
 * Сведения о запросе на автоматическое обновление страницы [[видео]](https://youtu.be/eCEwgZsVUOs?t=717) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Загрузка дополнительных данных для анализа аналитических сведений [[видео]](https://youtu.be/eCEwgZsVUOs?t=831) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
 * Новые функции DAX: Квартал [[видео]](https://youtu.be/eCEwgZsVUOs?t=855) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
 
@@ -717,7 +804,7 @@ ms.locfileid: "91600537"
 * Дерево декомпозиции визуального элемента (предварительная версия) [[видео]](https://youtu.be/kVli3Vm_kDo?t=464) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#decompTree) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Условное форматирование кнопки формата [[видео]](https://youtu.be/kVli3Vm_kDo?t=834) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#button) 
 
 
@@ -761,7 +848,7 @@ ms.locfileid: "91600537"
 
 Наши обновления за октябрь так же интересны, как и увлекательная игра, и более захватывающие, чем полуночная прогулка по особняку с привидениями. 
 
-Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop), которая теперь предоставляется в виде отдельного EXE-файла, содержащего все поддерживаемые языки. Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop), которая теперь предоставляется в виде отдельного EXE-файла, содержащего все поддерживаемые языки. Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 > [!IMPORTANT]
 > Начиная с выпуска за сентябрь 2019 г., Power BI Desktop доступен только в виде отдельного исполняемого файла, содержащего все поддерживаемые языки. Выпуски теперь не будут доступны в формате MSI.
@@ -782,7 +869,7 @@ ms.locfileid: "91600537"
 * Автоматическое обновление страницы для DirectQuery [[видео]](https://youtu.be/A8A9baUQsXQ?t=12) [[статья]](../create-reports/desktop-automatic-page-refresh.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Новый визуальный элемент вопросов и ответов [[видео]](https://youtu.be/A8A9baUQsXQ?t=144) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
 * Улучшенный пользовательский интерфейс для вопросов и ответов [[видео]](https://youtu.be/A8A9baUQsXQ?t=144) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience) 
     * Улучшенный элемент управления "Раскрывающийся список".
@@ -816,7 +903,7 @@ ms.locfileid: "91600537"
 ### <a name="template-apps"></a>Приложения-шаблоны
 * Приложение Project Web App [[видео]](https://youtu.be/A8A9baUQsXQ?t=850) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 * Новый формат файла — PBIDS [[видео]](https://youtu.be/A8A9baUQsXQ?t=2455) [[статья]](../connect-data/desktop-data-sources.md#pbids-file-examples) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
 * Повышение производительности для операций моделирования [[видео]](https://youtu.be/A8A9baUQsXQ?t=2583) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
 
@@ -839,7 +926,7 @@ ms.locfileid: "91600537"
 
 Наши сентябрьские обновления — это как долгожданный поход в школу после летних каникул: новые предметы, старые товарищи и радужные перспективы. 
 
-Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop), которая теперь предоставляется в виде отдельного EXE-файла, содержащего все поддерживаемые языки. Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop), которая теперь предоставляется в виде отдельного EXE-файла, содержащего все поддерживаемые языки. Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 > [!IMPORTANT]
 > Начиная с выпуска за сентябрь 2019 г., Power BI Desktop доступен только в виде отдельного исполняемого файла, содержащего все поддерживаемые языки. Выпуски теперь не будут доступны в формате MSI.
@@ -862,7 +949,7 @@ ms.locfileid: "91600537"
 * Улучшения персонализированной области визуализации (предварительная версия) [[видео]](https://youtu.be/neq0THnRJzo?t=601) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Пользовательские строки форматирования [[видео]](https://youtu.be/neq0THnRJzo?t=731) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
 * Условное форматирования для расширения возможностей визуального форматирования [[видео]](https://youtu.be/neq0THnRJzo?t=813) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
 * Улучшение детализированного обнаружения [[видео]](https://youtu.be/neq0THnRJzo?t=959) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
@@ -883,7 +970,7 @@ ms.locfileid: "91600537"
 ### <a name="template-apps"></a>Приложения-шаблоны
 * Отчет Google Analytics [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 * Повышение производительности многомерных моделей [[видео]](https://youtu.be/neq0THnRJzo?t=1208) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
 * Повышение производительности запросов у моделей DirectQuery [[видео]](https://youtu.be/neq0THnRJzo?t=1272) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
 
@@ -904,7 +991,7 @@ ms.locfileid: "91600537"
 
 Обновления за август улучшают возможности создания отчетов в Power BI Desktop. 
 
-Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop), которая теперь предоставляется в виде отдельного EXE-файла, содержащего все поддерживаемые языки. Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop), которая теперь предоставляется в виде отдельного EXE-файла, содержащего все поддерживаемые языки. Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -924,7 +1011,7 @@ ms.locfileid: "91600537"
 * Предупреждения условного форматирования [[видео]](https://youtu.be/sf4n7VXoQHY?t=621) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#conditionalFormatting)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Улучшенный визуальный элемент "Ключевые факторы влияния" (общедоступная версия) [[видео]](https://youtu.be/sf4n7VXoQHY?t=801) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
 
 
@@ -967,7 +1054,7 @@ ms.locfileid: "91600537"
 
 Наши обновления за июль предоставили новые возможности и функции для Power BI Desktop. 
 
-Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -988,7 +1075,7 @@ ms.locfileid: "91600537"
 * Повышение производительности при использовании относительных дат и раскрывающихся срезов [[видео]](https://youtu.be/l7OMRUF9UYg?t=669) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Счетчики для визуального элемента "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/l7OMRUF9UYg?t=760) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
 * Улучшения агрегатов [[видео]](https://youtu.be/l7OMRUF9UYg?t=870) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
 
@@ -1032,7 +1119,7 @@ ms.locfileid: "91600537"
 
 Наши июньские обновления для отчетов предоставляют новую яркую цветовую схему для Power BI Desktop, а также множество других улучшений. 
 
-Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -1056,7 +1143,7 @@ ms.locfileid: "91600537"
 * Согласованные размеры шрифтов для визуальных элементов [[видео]](https://youtu.be/7k-nP38uHyQ?t=962) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Обновления для визуального элемента "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/7k-nP38uHyQ?t=1064) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
     * Ключевые факторы влияния с активным подключением к наборам данных Power BI
     * Специальные возможности для ключевых факторов влияния
@@ -1103,7 +1190,7 @@ ms.locfileid: "91600537"
 
 Наши обновления за май привнесли в ваши отчеты новые захватывающие возможности, а также яркие и привлекательные визуальные элементы. 
 
-Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -1124,7 +1211,7 @@ ms.locfileid: "91600537"
 * Управление размером текста для визуального индикатора КПЭ [[видео]](https://youtu.be/O8GlHDz8xUQ?t=664) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#kpi)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Улучшенный визуальный элемент "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/O8GlHDz8xUQ?t=717) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#keyInfluencers) 
     * Поддержка группирования 
     * Параметры форматирования
@@ -1148,7 +1235,7 @@ ms.locfileid: "91600537"
 * Соединитель Roamler [[видео]](https://youtu.be/O8GlHDz8xUQ?t=2596) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#roamler) 
 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 * Автоматическая отмена запросов для Power BI Desktop [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#queryCancellation) 
 
 > [!NOTE]
@@ -1168,7 +1255,7 @@ ms.locfileid: "91600537"
 
 Наши апрельские обновления были наполнены новыми возможностями, пропитанными весенним настроением. 
 
-Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -1187,7 +1274,7 @@ ms.locfileid: "91600537"
 * Условное форматирование для действий URL-адресов для кнопок, фигур и изображений [[видео]](https://youtu.be/vih35kSrEHU?t=439) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Детализация по отчетам [[видео]](https://youtu.be/vih35kSrEHU?t=567) [[статья]](../create-reports/desktop-cross-report-drill-through.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
 * Визуальный элемент "Ключевые факторы влияния" теперь поддерживает непрерывный анализ для числовых целей [[видео]](https://youtu.be/vih35kSrEHU?t=753) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
 * Отсутствие общедоступной поддержки Python [[видео]](https://youtu.be/vih35kSrEHU?t=889) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
@@ -1217,7 +1304,7 @@ ms.locfileid: "91600537"
 * Улучшенное и общедоступное нечеткое слияние [[видео]](https://youtu.be/vih35kSrEHU?t=1447) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
 * M Intellisense поддерживается в строке формул и диалоговом окне пользовательских столбцов и является общедоступным [[видео]](https://youtu.be/vih35kSrEHU?t=1491) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 * Power BI Report Builder [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
 
 
@@ -1240,7 +1327,7 @@ ms.locfileid: "91600537"
 
 Наши обновления за март включали новые интересные и полезные функции. Надеемся, что они помогут вам! 
 
-Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -1266,7 +1353,7 @@ ms.locfileid: "91600537"
 * Доступное визуальное взаимодействие [[видео]](https://youtu.be/rBPGH6eYlT0?t=310) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#accessibility)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Рекомендации для вопросов и ответов в целях улучшения результатов [[видео]](https://youtu.be/rBPGH6eYlT0?t=357) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#QA) 
 * Общедоступная версия отображения дат в иерархическом виде [[видео]](https://youtu.be/rBPGH6eYlT0?t=397) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#dateHierarchy) 
 
@@ -1308,7 +1395,7 @@ ms.locfileid: "91600537"
 Февральские обновления включают новые соединители данных, функции и усовершенствования аналитики. Не знаете, чего ожидать от февральского обновления? Можем сказать с уверенностью: вам понравится все. 
 
 
-Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
@@ -1329,7 +1416,7 @@ ms.locfileid: "91600537"
 * Обновление визуального взаимодействия по умолчанию для перекрестной фильтрации [[видео]](https://youtu.be/dMD25wfElLg?t=358) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#crossFilter)
 * Скругленные углы границ визуальных элементов [[видео]](https://youtu.be/dMD25wfElLg?t=526) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#roundedCorners)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 * Визуальный элемент "Ключевые факторы влияния" (предварительная версия) [[видео]](https://youtu.be/dMD25wfElLg?t=608) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#keyInfluencers) 
 * Вопросы Insights в вопросах и ответах [[видео]](https://youtu.be/dMD25wfElLg?t=1121) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#insights) 
 * Автоматическое создание предлагаемых вопросов для обозревателя вопросов и ответов [[видео]](https://youtu.be/dMD25wfElLg?t=1121) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
@@ -1350,7 +1437,7 @@ ms.locfileid: "91600537"
 * Sagra Emigo [[видео]](https://youtu.be/dMD25wfElLg?t=2909) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#emigo) 
 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 * Улучшенные сообщения об ошибках Live Connect и DirectQuery [[видео]](https://youtu.be/dMD25wfElLg?t=2926) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
 
 > [!NOTE]
@@ -1376,7 +1463,7 @@ ms.locfileid: "91600537"
 
 Наши обновления за декабрь вскружат вашим клиентам голову или хотя бы оставят в памяти впечатляющие визуальные элементы на основе данных. 
 
-Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop**. Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
+Теперь вы можете [скачать последнюю версию Power BI Desktop](https://powerbi.microsoft.com/desktop). Если вы используете Windows 10, **Power BI Desktop** также можно получить в магазине Windows. Эти две версии текущего месяца одинаковы, хотя их нумерация может отличаться, так что вы можете выбрать любой способ установки **Power BI Desktop** . Дополнительные сведения см. в [этой статье](desktop-get-the-desktop.md). 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -1400,7 +1487,7 @@ ms.locfileid: "91600537"
 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Поддержка подключения в реальном времени для обработчика "Вопросы и ответы" (предварительная версия) [[видео]](https://youtu.be/AHNlkjRFdYI?t=1037) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
@@ -1426,7 +1513,7 @@ ms.locfileid: "91600537"
 * Нечеткое слияние — поддержка наилучших соответствий ведущих N [[видео]](https://youtu.be/AHNlkjRFdYI?t=1480) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 * Поддержка высокой контрастности всех панелей и колонтитула отчета [[видео]](https://youtu.be/AHNlkjRFdYI?t=1631) [[статья]](../connect-data/desktop-connect-pdf.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
 * Обновленное диалоговое окно сочетания клавиш [[видео]](https://youtu.be/AHNlkjRFdYI?t=1654) [[статья]](../create-reports/desktop-accessibility-overview.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
 
@@ -1450,7 +1537,7 @@ ms.locfileid: "91600537"
 
 Наши обновления за ноябрь включают множество новых возможностей и функций. Ниже представлены сведения о них, полезные для специалистов по данным и аналитике. 
 
-В ноябре появились следующие обновления для **Power BI Desktop**.
+В ноябре появились следующие обновления для **Power BI Desktop** .
 
 ### <a name="reporting"></a>Отчеты
 
@@ -1459,7 +1546,7 @@ ms.locfileid: "91600537"
 * Обновление функций фильтров (предварительная версия) [[видео]](https://youtu.be/1xsXXoyTxfk?t=410) [[статья]](../create-reports/power-bi-reports-filters-and-highlighting.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
 * Улучшения доступности отчетов [[видео]](https://youtu.be/1xsXXoyTxfk?t=1036) [[статья]](../create-reports/desktop-accessibility-overview.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Насыщенность цвета визуальных элементах обновлен для использования условного форматирования [[видео]](https://youtu.be/1xsXXoyTxfk?t=1224) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
 * Дальнейшие вопросы в диалоговом окне вопросов и ответов в Explorer [[видео]](https://youtu.be/1xsXXoyTxfk?t=1429) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
@@ -1514,7 +1601,7 @@ ms.locfileid: "91600537"
 
 * Улучшения для редактора DAX [[видео]](https://youtu.be/GO1dhDJhSDY) [[статья]](../transform-model/desktop-formula-editor.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Поддержка составных моделей и статистической обработки в службе Power BI (предварительная версия) [[видео]](https://youtu.be/8E6UokaDtc0) [[статья по использованию агрегатов]](../transform-model/desktop-aggregations.md) [[статья по составным моделям]](../transform-model/desktop-composite-models.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
 * Объяснение роста для неаддитивных мер [[видео]](https://youtu.be/8E6UokaDtc0?t=107) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
@@ -1623,7 +1710,7 @@ ms.locfileid: "91600537"
 * Настройка тем в общедоступной версии [[видео]](https://youtu.be/dgv5HhHxxe8?t=7m9s) [[статья]](../create-reports/desktop-report-themes.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
 * Пересмотр среза [[видео]](https://youtu.be/dgv5HhHxxe8?t=22m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Условное форматирование по значениям [[видео]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[статья]](../create-reports/desktop-conditional-table-formatting.md#color-by-color-values) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
 * Интеграция с Python [[видео]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
@@ -1679,7 +1766,7 @@ ms.locfileid: "91600537"
 * Отключение меток данных на комбинированной диаграмме для отдельных рядов [[видео]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
 * Улучшение процесса сортировки [[видео]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Аналитические сведения о факторах распределения [[видео]](https://youtu.be/Mtig3rmIUe0?t=37m) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
@@ -1740,7 +1827,7 @@ ms.locfileid: "91600537"
 * Усовершенствования соединителя OData V4 [[видео]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
 * Улучшения соединителя ODBC (поддержка свертывания для верхних строк, возможность фильтрации навигации по каталогу DSN) [[видео]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 * Выбор национального облака [[видео]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
@@ -1772,7 +1859,7 @@ ms.locfileid: "91600537"
 * Параметры метки данных для воронкообразной диаграммы [[видео]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Установка нулевой толщины обводки [[видео]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Детализация меры [[видео]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[статья]](../create-reports/desktop-drillthrough.md#pass-all-filters-in-drill-through) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
@@ -1862,7 +1949,7 @@ ms.locfileid: "91600537"
 
 ## <a name="march-2018-update-"></a>Обновление за апрель 2018 г.
 
-Мы считаем, что нам очень повезло с мартовскими обновлениями **Power BI Desktop**. В марте 2017 г. для приложения **Power BI Desktop** появились такие обновления:
+Мы считаем, что нам очень повезло с мартовскими обновлениями **Power BI Desktop** . В марте 2017 г. для приложения **Power BI Desktop** появились такие обновления:
 
 ### <a name="reporting"></a>Отчеты
 
@@ -1885,7 +1972,7 @@ ms.locfileid: "91600537"
 * Функция SAP BW DirectQuery реализована в общедоступной версии [[видео]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[статья]](../connect-data/desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * Соединитель Azure Analysis Services реализован в общедоступной версии [[видео]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[статья]](../connect-data/desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 * Улучшенные отчеты об ошибках [[видео]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[статья]](../connect-data/desktop-directquery-about.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Просмотр возникших ранее ошибок [[видео]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -1936,7 +2023,7 @@ ms.locfileid: "91600537"
 * Визуальные элементы Power BI организации (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[статья]](../developer/visuals/power-bi-custom-visuals-organization.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 * Настройка пользовательской таблицы данных [[видео]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[статья]](../transform-model/desktop-date-tables.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * Быстрые меры реализованы в общедоступной версии [[видео]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[статья]](../transform-model/desktop-quick-measures.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -1945,7 +2032,7 @@ ms.locfileid: "91600537"
 
 * Усовершенствования для DirectQuery в SAP HANA (предварительная версия) [[видео]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[статья]](../connect-data/desktop-directquery-sap-hana.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 * Повышение производительности DirectQuery [[видео]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[статья]](../connect-data/desktop-directquery-about.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Повышение производительности при сохранении и открытии [[видео]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -1971,7 +2058,7 @@ ms.locfileid: "91600537"
 
 ## <a name="january-2018-update-2544970761"></a>Обновление за январь 2018 г. (2.54.4970.761)
 
-Мы начинаем новый год с коллекцией обновлений для **Power BI Desktop**, и наше новогоднее желание — продолжать их регулярно выпускать.
+Мы начинаем новый год с коллекцией обновлений для **Power BI Desktop** , и наше новогоднее желание — продолжать их регулярно выпускать.
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -1995,7 +2082,7 @@ ms.locfileid: "91600537"
 -   Выбор первых N-элементов в вопросах и ответах [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   Много новых визуальных элементов Power BI [[видео]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Быстрая мера коэффициента корреляции [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -2021,7 +2108,7 @@ ms.locfileid: "91600537"
 
 ## <a name="december-2017-update-2534954481"></a>Обновление за декабрь 2017 г. (2.53.4954.481)
 
-Декабрь принес мешок обновлений для **Power BI Desktop**, полный подарков для детей и взрослых, которые хорошо себя ведут и занимаются бизнес-аналитикой.
+Декабрь принес мешок обновлений для **Power BI Desktop** , полный подарков для детей и взрослых, которые хорошо себя ведут и занимаются бизнес-аналитикой.
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -2046,7 +2133,7 @@ ms.locfileid: "91600537"
 -   Недавно выпущенные визуальные элементы Power BI [[видео]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Детализирующие фильтры для других визуальных элементов [[видео]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
@@ -2076,7 +2163,7 @@ ms.locfileid: "91600537"
 
 ## <a name="november-2017-update-2524921202"></a>Обновление за ноябрь 2017 года (2.52.4921.202)
 
-В ноябре мы собрали настоящий урожай обновлений для **Power BI Desktop**. 
+В ноябре мы собрали настоящий урожай обновлений для **Power BI Desktop** . 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -2101,7 +2188,7 @@ ms.locfileid: "91600537"
 -   Недавно выпущенные визуальные элементы Power BI [[видео]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Форматирование на уровне ячейки для многомерных моделей AS для многострочной карточки [[видео]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 
@@ -2111,7 +2198,7 @@ ms.locfileid: "91600537"
 -   Соединитель Impala: поддержка проверки подлинности Windows [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Другое
+### <a name="other"></a>Другие
 
 -   Редактирование запросов: улучшение добавления столбца из примера [[видео]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 
@@ -2135,7 +2222,7 @@ ms.locfileid: "91600537"
 
 ## <a name="october-2017-update-2514885543"></a>Обновление за октябрь 2017 года (2.51.4885.543)
 
-В октябре вышел ряд чрезвычайно полезных обновлений для **Power BI Desktop**. 
+В октябре вышел ряд чрезвычайно полезных обновлений для **Power BI Desktop** . 
 
 Ссылки рядом с каждым обновлением обозначают следующее.
 
@@ -2525,7 +2612,7 @@ ms.locfileid: "91600537"
     -   Соединители ODBC и OLE DB — поддержка параметра *Выбор связанных таблиц* [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#relatedTables)
     -   Соединитель Enhanced Folder — поддержка объединения двоичных файлов в диалоговом окне предварительного просмотра [[видео]](https://youtu.be/mn75-LOPxMA?t=10m1s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#folder)
     -   Соединители Unified Text и CSV [[видео]](https://youtu.be/mn75-LOPxMA?t=11m9s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#textConnector)
-    -   **Новинка** — соединитель PowerApps Common Data Service: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#cds).
+    -   **Новинка**  — соединитель PowerApps Common Data Service: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#cds).
 
 
 ### <a name="query-editing-improvements"></a>Оптимизация редактирования запросов
@@ -2604,10 +2691,10 @@ ms.locfileid: "91600537"
 -   Прокручивание мобильных отчетов [[видео]](https://youtu.be/kERJ_WOLuLk?t=7m7s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#mobileReports)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Кластеризация (предварительная версия) [[видео]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
--   Прогнозирование (теперь и в **службе Power BI**): [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
+-   Прогнозирование (теперь и в **службе Power BI** ): [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
 -   Группы (теперь на ленте) [[видео]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
 
 
@@ -2655,7 +2742,7 @@ ms.locfileid: "91600537"
 -   Оптимизация форматирования диапазона оси дат [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateAxisRange)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Группирование [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#grouping) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=9m42s)
 -   Разделение на ячейки [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#binning) [[видео]](https://youtu.be/UXEYSvgvMaQ?t=12m17s)
@@ -2704,7 +2791,7 @@ ms.locfileid: "91600537"
 -   Обновленное поведение детализации [[статья]](../create-reports/desktop-inline-hierarchy-labels.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=5m6s)
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Прогнозирование (предварительная версия) [[статья]](../transform-model/desktop-analytics-pane.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=6m6s)
 -   Использование собственного интерфейса IDE на языке R [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=6m56s)
@@ -2717,7 +2804,7 @@ ms.locfileid: "91600537"
     -   Соединитель ProjectPlace [[статья]](../connect-data/desktop-connect-impala.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   Улучшения существующих соединителей:
     -   Соединитель Oracle — улучшенная работа предварительных версий навигатора: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
-    -   Соединитель OData — поддержка параметра *Выбор связанных таблиц*: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
+    -   Соединитель OData — поддержка параметра *Выбор связанных таблиц* : [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/).
     -   SAP Business Warehouse и соединители SAP HANA — усовершенствования в интерфейсе для ввода параметров [[статья]](../connect-data/desktop-sap-bw-connector.md) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
     -   Веб-соединитель — поддержка указания заголовков HTTP-запросов в диалоговом окне [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[видео]](https://youtu.be/pcUr6E8g_KI?t=8m5s)
 
@@ -2924,7 +3011,7 @@ ms.locfileid: "91600537"
 -   Загрузка дополнительных данных при прокрутке диаграмм [[видео]](https://youtu.be/KnDs4amt9-c?t=426) [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   Сдвиг клавиатуры для отображения визуальных элементов [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Аналитика
 
 -   Быстрые вычисления — % от общей суммы [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 
@@ -2943,8 +3030,8 @@ ms.locfileid: "91600537"
 -   Встроенные элементы управления вводом для вызова функции в **редакторе запросов** [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   Параметры запроса: [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
     -   Возможность преобразовывать запросы в параметры (и наоборот).
-    -   Поддержка параметризации URL-адресов и составных URL-адресов в **веб**-соединителе.
-    -   Поддержка параметризации в диалоговом окне **Условные столбцы**.
+    -   Поддержка параметризации URL-адресов и составных URL-адресов в **веб** -соединителе.
+    -   Поддержка параметризации в диалоговом окне **Условные столбцы** .
 -   Возможность **сохранения как** шаблона Power BI [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 -   Поддержка изменения порядка этапов запроса путем перетаскивания [[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
 -   Поддержка выбора даты в полях ввода даты в диалоговом окне **Условные столбцы**[[блог]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/).
@@ -2974,7 +3061,7 @@ ms.locfileid: "91600537"
 
 -   Дополнительные стили для таблиц, матриц и многострочных карточек.
 -   Линии тренда в отдельных визуальных элементах.
--   Новое действие детализации — **Просмотр записей**.
+-   Новое действие детализации — **Просмотр записей** .
 -   Сопоставление автоматического масштабирования при детализации и фильтрации.
 -   Встроенные метки иерархии для развернутого представления (предварительная версия — [см. статью](../create-reports/desktop-inline-hierarchy-labels.md)).
 
@@ -3046,13 +3133,13 @@ ms.locfileid: "91600537"
     -   преобразование значений длительности в годы;
     -   сохранение повторяющихся значений.
 -   Поддержка пробелов и переводов строки в предварительной версии редактора запросов.
--   Добавлены советы для *примеров входных значений* в диалоговом окне **Изменение типа по локали**.
--   Усовершенствования окна **Навигатор**:
+-   Добавлены советы для *примеров входных значений* в диалоговом окне **Изменение типа по локали** .
+-   Усовершенствования окна **Навигатор** :
     -   добавление данных схемы в иерархию навигации для источников ODBC;
-    -   возможность отключения предварительного просмотра из окна **Навигатор**;
+    -   возможность отключения предварительного просмотра из окна **Навигатор** ;
     -   поддержка технических имен.
 -   Загрузка: автоматическое устранение неоднозначности при конфликте имен столбцов (сравнение без учета регистра)
--   Теперь можно переименовать запросы непосредственно в области **Запросы**.
+-   Теперь можно переименовать запросы непосредственно в области **Запросы** .
 
 
 Нужна дополнительная информация об этих обновлениях? Ознакомьтесь с [этой записью блога](https://powerbi.microsoft.com/blog/power-bi-desktop-march-update-feature-summary/), содержащей более подробные сведения о каждой из этих новых функций.
@@ -3076,14 +3163,14 @@ ms.locfileid: "91600537"
 
 ### <a name="report-view"></a>Представление отчетов
 
--   Доступ к данным, лежащим в основе визуального элемента (включая функцию *экспорта данных в CSV-файл*)
+-   Доступ к данным, лежащим в основе визуального элемента (включая функцию *экспорта данных в CSV-файл* )
 -   Улучшения карт: построение карт только по широте/долготе
 -   Поддержка использования КПЭ (включая поддержку иерархии навигации и тенденций КПЭ для многомерных моделей SSAS)
 -   Режим изучения SSAS: поддержка папок **Отображение** в области **Поля**
 -   Улучшения макета ленты: контекстная вкладка на ленте для **Средства создания отчетов**
 -   Новый визуальный элемент КПЭ
 -   Открытие отчетов на странице, которая отображалась при их сохранении
--   Параметр **Изменить запрос** в контекстном меню таблицы в области полей (представления **Отчет** & **Данные**).
+-   Параметр **Изменить запрос** в контекстном меню таблицы в области полей (представления **Отчет** & **Данные** ).
 -   **Дублирование страницы** с ленты
 
 
@@ -3095,7 +3182,7 @@ ms.locfileid: "91600537"
 ### <a name="data-connectivity"></a>Подключение к данным
 
 -   Поддержка **DirectQuery** для Oracle и Teradata
--   **DirectQuery**: возможность создания вычисляемых столбцов
+-   **DirectQuery** : возможность создания вычисляемых столбцов
 -   Поддержка публикации интерактивных отчетов служб Analysis Services
 -   Соединитель JSON-файлов
 -   Соединитель SQL Sentry
@@ -3104,7 +3191,7 @@ ms.locfileid: "91600537"
 -   Соединитель списков SharePoint: проверка URL-адресов
 -   Соединители базы данных: возможность отключать столбцы навигации в режиме предварительного просмотра запросов (оптимизация производительности)
 -   Веб-соединитель: точная настройка области действия учетных данных
--   Улучшения интерфейса диалогового окна **ввода данных**.
+-   Улучшения интерфейса диалогового окна **ввода данных** .
 -   SAP HANA: поддержка единого входа с использованием проверки подлинности Windows (только для Power BI Desktop)
 -   SAP HANA: поддержка меток **полей**
 -   Сортировка столбцов по алфавиту в построителе **Выбор столбцов**
@@ -3203,7 +3290,7 @@ ms.locfileid: "91600537"
 -   [Поддержка многомерных моделей SSAS — поддержка иерархий](../connect-data/desktop-ssas-multidimensional.md)
 -   Соединитель Stripe
 -   Соединитель Smartsheet
--   **Ввод данных**: вставка или ввод данных при создании таблицы
+-   **Ввод данных** : вставка или ввод данных при создании таблицы
 -   Улучшения DirectQuery: поддержка всех типов данных T-SQL и SAP HANA, что позволяет повысить производительность
 -   Соединитель ODBC: поддержка возможности выбора пользовательских и системных имен DSN
 -   Соединитель CSV: возможность задать разделитель столбцов в диалоговом окне «Источник»
@@ -3434,11 +3521,11 @@ ms.locfileid: "91600537"
 
 В это обновление добавлены следующие функции.
 
--   **Новые соединители данных**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio и SweetIQ.
+-   **Новые соединители данных** : appFigures, Quickbooks Online, Zendesk, GitHub, Twilio и SweetIQ.
 
--   **Новые преобразования**: извлечение первого или последнего диапазона символов из текстового столбца; параметр, позволяющий указать тип соединения в диалоговом окне слияния запросов; возможность настроить стиль кавычек в диалоговом окне "Разделить столбец по разделителю".
+-   **Новые преобразования** : извлечение первого или последнего диапазона символов из текстового столбца; параметр, позволяющий указать тип соединения в диалоговом окне слияния запросов; возможность настроить стиль кавычек в диалоговом окне "Разделить столбец по разделителю".
 
--   **Усовершенствования в области создания отчетов**: новые визуализации (диаграмма с областями, каскадная диаграмма, кольцевая диаграмма и матрица); новые параметры визуального форматирования и настройки (подписи, заголовки, фон, условные обозначения, цвета и т. д.); вставка текстового поля и изображения в отчет; поддержка гиперссылок в отчетах и таблицах отчетов; действия "Откат" и "Повтор".
+-   **Усовершенствования в области создания отчетов** : новые визуализации (диаграмма с областями, каскадная диаграмма, кольцевая диаграмма и матрица); новые параметры визуального форматирования и настройки (подписи, заголовки, фон, условные обозначения, цвета и т. д.); вставка текстового поля и изображения в отчет; поддержка гиперссылок в отчетах и таблицах отчетов; действия "Откат" и "Повтор".
 
 -   **Изучение прямых подчиненных** с использованием табличных моделей служб анализа
 
@@ -3537,7 +3624,7 @@ ms.locfileid: "91600537"
 
 В это обновление добавлены следующие функции.
 
--   Соединитель **Google Analytics**.
+-   Соединитель **Google Analytics** .
 
 -   Дополнительные операторы для **фильтрации дат в представлении запросов**
 

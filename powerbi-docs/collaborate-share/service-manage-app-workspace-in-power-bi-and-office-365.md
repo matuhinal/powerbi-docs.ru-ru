@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63acae99f0abd4fc91f4ae51b33786a3e01093ea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226006"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526727"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Управление рабочей областью в Power BI и Microsoft 365
 
@@ -40,9 +40,9 @@ ms.locfileid: "85226006"
 
 ## <a name="edit-your-workspace-in-power-bi"></a>Изменение рабочей области в Power BI
 
-1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области**, выберите **Дополнительные параметры** (…) рядом с именем рабочей области, а затем — **Изменение этой рабочей области**.
+1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области** , выберите **Дополнительные параметры** (…) рядом с именем рабочей области, а затем — **Изменение этой рабочей области** .
 
-   ![Изменение рабочих областей в Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Снимок экрана: главная страница Power BI с выбранным элементом "Рабочие области" и выбранным пунктом для изменения в меню "Дополнительные параметры".](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
    > [!NOTE]
    > Элемент **Изменение этой рабочей области** отображается только для администраторов рабочих областей.
@@ -51,7 +51,7 @@ ms.locfileid: "85226006"
 
    ![Диалоговое окно "Изменение рабочей области"](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 
-1. Выберите **Сохранить** или **Отменить**.
+1. Выберите **Сохранить** или **Отменить** .
 
 ## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Изменение свойств рабочей области Power BI в Microsoft 365
 
@@ -59,28 +59,28 @@ ms.locfileid: "85226006"
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>Изменение членов группы рабочей области
 
-1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области** и выберите **Дополнительные параметры** (…) рядом с именем рабочей области, а затем — **Члены**.
+1. В службе Power BI щелкните стрелку рядом с элементом **Рабочие области** и выберите **Дополнительные параметры** (…) рядом с именем рабочей области, а затем — **Члены** .
 
-   ![Изменение рабочих областей в Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
+   ![Снимок экрана: главная страница Power BI с выбранным элементом "Рабочие области" и выбранным пунктом "Члены" в меню "Дополнительные параметры".](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
    Откроется представление Outlook для группы Microsoft 365 для рабочей области. Возможно, вам потребуется войти в свою корпоративную учетную запись.
 
-1. Чтобы сделать пользователя **членом** или **владельцем**, выберите роль рядом с его именем. Выберите **X**, чтобы удалить пользователя из группы.
+1. Чтобы сделать пользователя **членом** или **владельцем** , выберите роль рядом с его именем. Выберите **X** , чтобы удалить пользователя из группы.
 
    ![Изменение группы в Microsoft 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Добавление изображения и задание других свойств рабочей области
 
-При распространении приложения из рабочей области изображение, которое вы добавляете, является изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в рабочую область Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) статьи **Создание рабочих областей**.
+При распространении приложения из рабочей области изображение, которое вы добавляете, является изображением вашего приложения. Ознакомьтесь с разделом [Добавление изображения в рабочую область Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) статьи **Создание рабочих областей** .
 
-1. В представлении Outlook для Microsoft 365 своей рабочей области откройте вкладку **О программе** и выберите **Изменить**.
+1. В представлении Outlook для Microsoft 365 своей рабочей области откройте вкладку **О программе** и выберите **Изменить** .
 
     ![Значок "Изменить группу"](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. Вы можете изменить имя, описание и язык для уведомлений, связанных с группой. Кроме того, здесь можно добавить изображение и задать другие свойства.
 
    ![Диалоговое окно "Изменить группу"](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 
-1. Выберите **Сохранить** или **Отменить**.
+1. Выберите **Сохранить** или **Отменить** .
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

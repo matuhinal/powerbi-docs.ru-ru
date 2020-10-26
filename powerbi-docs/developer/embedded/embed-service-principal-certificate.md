@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 06/01/2020
-ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749191"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197778"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Внедрение содержимого Power BI с помощью субъект-службы и сертификата
 
@@ -35,85 +35,112 @@ ms.locfileid: "91749191"
 
 Чтобы использовать субъект-службу и сертификат со встроенной аналитикой, выполните следующие действия.
 
-1. Создание сертификата.
+1. Создайте приложение Azure AD.
 
-2. Создайте приложение Azure AD.
+2. Создайте группу безопасности Azure AD.
 
-3. Настройте проверку подлинности сертификата.
+3. Включите параметры администрирования службы Power BI.
 
-4. Получите сертификат из Azure Key Vault.
+4. Добавьте субъект-службу в рабочую область.
 
-5. Выполните проверку подлинности, используя субъект-службу и сертификат.
+5. Создание сертификата.
 
-## <a name="step-1---create-a-certificate"></a>Шаг 1. Создание сертификата
+6. Настройте проверку подлинности сертификата.
 
-Сертификат можно получить из доверенного *центра сертификации* или создать самостоятельно.
+7. Получите сертификат из Azure Key Vault.
 
-В этом разделе описывается создание сертификата с помощью [Azure Key Vault](/azure/key-vault/create-certificate) и скачивания *CER*-файла, содержащего открытый ключ.
+8. Выполните проверку подлинности, используя субъект-службу и сертификат.
 
-1. Выполните вход в [Microsoft Azure](https://ms.portal.azure.com/#allservices).
-
-2. Найдите **Хранилища ключей** и щелкните ссылку **Хранилища ключей**.
-
-    ![хранилище ключей](media/embed-service-principal-certificate/key-vault.png)
-
-3. Щелкните хранилище ключей, в которое нужно добавить сертификат.
-
-    ![Выбор хранилище ключей](media/embed-service-principal-certificate/select-key-vault.png)
-
-4. Щелкните **Сертификаты**.
-
-    ![Снимок экрана: страница "Хранилища ключей" с выделенным элементом "Сертификаты".](media/embed-service-principal-certificate/certificates.png)
-
-5. Щелкните **Создать или импортировать**.
-
-    ![Снимок экрана: панель "Сертификаты" с выделенной кнопкой "Создать или импортировать".](media/embed-service-principal-certificate/generate.png)
-
-6. Настройте поля в окне **Создание сертификата** следующим образом.
-
-    * **Метод создания сертификата**: общий.
-
-    * **Имя сертификата**: введите имя своего сертификата.
-
-    * **Тип центра сертификации (ЦС)** : самозаверяющий сертификат
-
-    * **Тема**: различающееся имя [X.500](https://wikipedia.org/wiki/X.500)
-
-    * **Имена DNS**: 0 имен DNS
-
-    * **Срок действия (в месяцах)** : введите срок действия сертификата
-
-    * **Тип содержимого**: PKCS #12
-
-    * **Тип действия времени существования**: автоматически продлить по прошествии указанного процента от времени существования
-
-    * **Процент от времени существования**: 80
-
-    * **Расширенная настройка политик**: не настроено
-
-7. Нажмите кнопку **Создать**. Созданный сертификат будет по умолчанию отключен. Активация может занять до пяти минут.
-
-8. Выберите созданный сертификат.
-
-9. Щелкните **Скачать в формате CER**. Загруженный файл будет содержать открытый ключ.
-
-    ![скачать как CER-файл](media/embed-service-principal-certificate/download-cer.png)
-
-## <a name="step-2---create-an-azure-ad-application"></a>Шаг 2. Создание приложения Azure AD
+## <a name="step-1---create-an-azure-ad-application"></a>Шаг 1. Создание приложения Azure AD
 
 [!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
 
-## <a name="step-3---set-up-certificate-authentication"></a>Шаг 3. Настройка проверки подлинности сертификата
+### <a name="creating-an-azure-ad-app-using-powershell"></a>Создание приложения Azure AD с помощью PowerShell
 
-1. В приложении Azure AD откройте вкладку **Сертификаты и секреты**.
+В этом разделе содержится пример скрипта для создания нового приложения Azure AD с помощью [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
 
-     ![Снимок экрана: панель "Сертификаты и секреты" для приложения на портале Azure.](media/embed-service-principal/certificates-and-secrets.png)
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-2. Щелкните **Отправить сертификат** и отправьте *CER*-файл, созданный и скачанный при выполнении [первого шага](#step-1---create-a-certificate) этого учебника. В *CER*-файле содержится открытый ключ.
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>Шаг 4. Получение сертификата из Azure Key Vault
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-Для получения сертификата из Azure Key Vault используйте управляемое удостоверение службы (MSI). Этот процесс включает получение сертификата *PFX*, который содержит как открытый, так и закрытый ключи.
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
+```
+
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
+
+## <a name="step-5---create-a-certificate"></a>Шаг 5. Создание сертификата
+
+Сертификат можно получить из доверенного *центра сертификации* или создать самостоятельно.
+
+В этом разделе описывается создание сертификата с помощью [Azure Key Vault](/azure/key-vault/create-certificate) и скачивания *CER* -файла, содержащего открытый ключ.
+
+1. Выполните вход в [Microsoft Azure](https://ms.portal.azure.com/#allservices).
+
+2. Найдите **Хранилища ключей** и щелкните ссылку **Хранилища ключей** .
+
+    ![Снимок экрана: ссылка на хранилище ключей на портале Azure](media/embed-service-principal-certificate/key-vault.png)
+
+3. Щелкните хранилище ключей, в которое нужно добавить сертификат.
+
+    ![Снимок экрана: список хранилищ ключей на портале Azure (размыто)](media/embed-service-principal-certificate/select-key-vault.png)
+
+4. Щелкните **Сертификаты** .
+
+    ![Снимок экрана: страница "Хранилища ключей" с выделенным пунктом "Сертификаты"](media/embed-service-principal-certificate/certificates.png)
+
+5. Щелкните **Создать или импортировать** .
+
+    ![Снимок экрана: панель "Сертификаты" с выделенным пунктом "Создать или импортировать"](media/embed-service-principal-certificate/generate.png)
+
+6. Настройте поля в окне **Создание сертификата** следующим образом.
+
+    * **Метод создания сертификата** : общий.
+
+    * **Имя сертификата** : введите имя своего сертификата.
+
+    * **Тип центра сертификации (ЦС)** : самозаверяющий сертификат
+
+    * **Тема** : различающееся имя [X.500](https://wikipedia.org/wiki/X.500)
+
+    * **Имена DNS** : 0 имен DNS
+
+    * **Срок действия (в месяцах)** : введите срок действия сертификата
+
+    * **Тип содержимого** : PKCS #12
+
+    * **Тип действия времени существования** : автоматически продлить по прошествии указанного процента от времени существования
+
+    * **Процент от времени существования** : 80
+
+    * **Расширенная настройка политик** : не настроено
+
+7. Нажмите кнопку **Создать** . Созданный сертификат будет по умолчанию отключен. Активация может занять до пяти минут.
+
+8. Выберите созданный сертификат.
+
+9. Щелкните **Скачать в формате CER** . Загруженный файл будет содержать открытый ключ.
+
+    ![Снимок экрана: пункт "Скачать в формате CER"](media/embed-service-principal-certificate/download-cer.png)
+
+## <a name="step-6---set-up-certificate-authentication"></a>Шаг 6. Настройка проверки подлинности сертификата
+
+1. В приложении Azure AD откройте вкладку **Сертификаты и секреты** .
+
+     ![Снимок экрана: панель "Сертификаты и секреты" для приложения на портале Azure](media/embed-service-principal/certificates-and-secrets.png)
+
+2. Щелкните **Отправить сертификат** и отправьте *CER* -файл, созданный и скачанный при выполнении [первого шага](#step-5---create-a-certificate) этого учебника. В *CER* -файле содержится открытый ключ.
+
+## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>Шаг 7. Получение сертификата из Azure Key Vault
+
+Для получения сертификата из Azure Key Vault используйте управляемое удостоверение службы (MSI). Этот процесс включает получение сертификата *PFX* , который содержит как открытый, так и закрытый ключи.
 
 См. пример кода чтения сертификата из Azure Key Vault. Если вы хотите использовать Visual Studio, см. статью [Настройка Visual Studio для использования MSI](#configure-visual-studio-to-use-msi).
 
@@ -138,14 +165,14 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>Шаг 5. Проверка подлинности с помощью субъект-службы и сертификата
+## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>Шаг 8. Проверка подлинности с помощью субъекта-службы и сертификата
 
 Чтобы проверить подлинность приложения, можно использовать субъект-службу и сертификат, хранящийся в Azure Key Vault, подключившись к Azure Key Vault.
 
 Пример подключения и чтения сертификата из Azure Key Vault см. в приведенном ниже коде.
 
 >[!NOTE]
->Если у вас уже есть сертификат, созданный вашей организацией, отправьте *PFX*-файл в Azure Key Vault.
+>Если у вас уже есть сертификат, созданный вашей организацией, отправьте *PFX* -файл в Azure Key Vault.
 
 ```csharp
 // Preparing needed variables
@@ -179,13 +206,13 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 1. Откройте проект в Visual Studio.
 
-2. Щелкните **Средства**  >  **Параметры**.
+2. Щелкните **Средства**  >  **Параметры** .
 
-     ![Параметры Visual Studio](media/embed-service-principal-certificate/visual-studio-options.png)
+     ![Снимок экрана: пункт "Параметры" в меню "Сервис" в Visual Studio](media/embed-service-principal-certificate/visual-studio-options.png)
 
-3. Найдите **Выбор учетной записи** и щелкните **Выбор учетной записи**.
+3. Найдите **Выбор учетной записи** и щелкните **Выбор учетной записи** .
 
-    ![выбор учетной записи](media/embed-service-principal-certificate/account-selection.png)
+    ![Снимок экрана: выбор учетной записи в окне параметров Visual Studio](media/embed-service-principal-certificate/account-selection.png)
 
 4. Добавьте учетную запись, имеющую доступ к Azure Key Vault.
 
