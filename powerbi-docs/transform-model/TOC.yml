@@ -43,6 +43,8 @@
           href: dataflows/dataflows-create.md
         - name: Настройка и использование потока данных
           href: dataflows/dataflows-configure-consume.md
+        - name: Настройка рабочих нагрузок потока данных Power BI Premium
+          href: dataflows/dataflows-premium-workload-configuration.md
         - name: Потоки данных и Azure Data Lake 2-го поколения
           href: dataflows/dataflows-azure-data-lake-storage-integration.md
         - name: Функции потоков данных уровня "Премиум"
