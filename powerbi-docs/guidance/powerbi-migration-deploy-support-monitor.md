@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965003"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681013"
 ---
 # <a name="deploy-to-power-bi"></a>Развертывание в Power BI
 
-В этой статье описывается **стадия 5**, на которой происходит развертывание, поддержка и мониторинг содержимого при миграции в Power BI.
+В этой статье описывается **стадия 5** , на которой происходит развертывание, поддержка и мониторинг содержимого при миграции в Power BI.
 
 :::image type="content" source="media/powerbi-migration-deploy-support-monitor/migrate-to-powerbi-stage-5.png" alt-text="Изображение стадий миграции в Power BI. Для вопросов, рассматриваемых в этой статье, выделена стадия 5.":::
 
@@ -93,7 +93,7 @@ ms.locfileid: "90965003"
 - **Приложение.** Если приложения являются частью стратегии распространения содержимого, опубликуйте [приложение](../consumer/end-user-apps.md), используя содержимое из производственной рабочей области.
 - **Безопасность.** Обновите и проверьте [роли рабочей области](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) в зависимости от стратегии распространения содержимого и совместной работы.
 - **Параметры наборов данных.** Обновите и проверьте параметры для всех наборов данных, включая:
-  - [подтверждение](../connect-data/service-datasets-certify.md) (например, сертифицированный или с повышенным уровнем);
+  - [подтверждение](../collaborate-share/service-endorse-content.md) (например, сертифицированный или с повышенным уровнем);
   - подключение к шлюзу или учетные данные источника данных.
   - Запланированное обновление
   - [Популярные вопросы в разделе "Вопросы и ответы"](../create-reports/service-q-and-a-create-featured-questions.md)

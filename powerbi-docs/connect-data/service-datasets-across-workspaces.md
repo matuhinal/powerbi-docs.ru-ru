@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374276"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681158"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>Общие сведения об использовании наборов данных в рабочих областях
 
@@ -22,7 +22,7 @@ ms.locfileid: "91374276"
 
 ![Выбор общего набора данных](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-В Power BI создатели наборов данных могут управлять доступом к данным с помощью [разрешения на сборку](service-datasets-build-permissions.md). Создатели наборов данных могут также *сертифицировать* наборы данных или *повышать уровень*, чтобы другие пользователи могли их обнаружить. Благодаря этому авторы отчетов смогут определять качественные и официальные наборы данных, чтобы использовать именно их при создании отчетов в Power BI. Администраторам доступен новый параметр клиента, позволяющий [регулировать использование наборов данных в рабочих областях](service-datasets-admin-across-workspaces.md).
+В Power BI создатели наборов данных могут управлять доступом к данным с помощью [разрешения на сборку](service-datasets-build-permissions.md). Создатели наборов данных могут также *сертифицировать* наборы данных или *повышать уровень* , чтобы другие пользователи могли их обнаружить. Благодаря этому авторы отчетов смогут определять качественные и официальные наборы данных, чтобы использовать именно их при создании отчетов в Power BI. Администраторам доступен новый параметр клиента, позволяющий [регулировать использование наборов данных в рабочих областях](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Общий доступ к наборам данных и новый интерфейс рабочих областей
 
@@ -47,7 +47,7 @@ ms.locfileid: "91374276"
 
 ## <a name="promotion-and-certification"></a>Повышение уровня и сертификация
 
-Создав набор данных, который может пригодиться другим пользователям, можно упростить поиск этого набора, [повысив его уровень](service-datasets-promote.md). Можно также попросить экспертов в вашей организации [сертифицировать ваш набор данных](service-datasets-certify.md).
+Создав набор данных, который может пригодиться другим пользователям, можно упростить поиск этого набора, [повысив его уровень](../collaborate-share/service-endorse-content.md#promote-content). Можно также попросить экспертов в вашей организации [сертифицировать ваш набор данных](../collaborate-share/service-endorse-content.md#request-content-certification).
 
 ## <a name="licensing"></a>Лицензирование
 
@@ -69,7 +69,8 @@ ms.locfileid: "91374276"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Повышение уровня наборов данных](service-datasets-promote.md)
-- [Сертификация наборов данных](service-datasets-certify.md)
+- [Повышение уровня наборов данных](../collaborate-share/service-endorse-content.md#promote-content)
+- [Сертификация наборов данных](../collaborate-share/service-endorse-content.md#certify-content)
+- [Запрос сертификации набора данных](../collaborate-share/service-endorse-content.md#request-content-certification)
 - [Регулирование использования наборов данных в рабочих областях](service-datasets-admin-across-workspaces.md)
 - У вас появились вопросы? [Попробуйте задать вопрос в сообществе Power BI.](https://community.powerbi.com/)
