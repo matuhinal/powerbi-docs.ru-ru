@@ -99,8 +99,6 @@
           items:
             - name: Создание и использование потоков данных
               href: service-dataflows-create-use.md
-            - name: Повышение уровня или сертификация потоков данных
-              href: service-dataflows-promote-certify.md
             - name: Использование DirectQuery с потоками данных в Power BI (предварительная версия)
               href: service-dataflows-directquery.md
             - name: Использование расширенного ядра вычислений для потоков данных

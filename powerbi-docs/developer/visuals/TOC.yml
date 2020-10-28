@@ -134,8 +134,6 @@
               href: utils-test.md
             - name: Подсказки по служебным программам
               href: utils-tooltip.md
-            - name: "Инструменты для\_DataView"
-              href: utils-dataview.md
     - name: Ресурсы
       items:
         - name: Центр разработки

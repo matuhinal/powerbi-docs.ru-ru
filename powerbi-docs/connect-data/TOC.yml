@@ -42,7 +42,7 @@
           href: power-bi-data-sources.md
         - name: Предварительные требования к источникам данных Power BI
           href: desktop-data-source-prerequisites.md
-        - name: "Расширенные метаданные набора данных в Power\_BI\_Desktop (предварительная версия)"
+        - name: "Использование расширенных метаданных набора данных в Power\_BI\_Desktop"
           href: desktop-enhanced-dataset-metadata.md
         - name: "Работа с многомерными моделями в Power\_BI"
           href: desktop-default-member-multidimensional-models.md
@@ -184,12 +184,6 @@
               href: service-datasets-copy-reports.md
             - name: Управление использованием наборов данных
               href: service-datasets-admin-across-workspaces.md
-        - name: Одобрение наборов данных
-          items:
-            - name: Повышение уровня наборов данных
-              href: service-datasets-promote.md
-            - name: Сертификация наборов данных
-              href: service-datasets-certify.md
         - name: Получение данных из баз данных
           items:
             - name: Azure и Power BI
@@ -238,7 +232,7 @@
               href: service-template-update-delete-extract.md
             - name: Примеры приложений-шаблонов
               href: service-template-apps-samples.md
-        - name: Устранение неполадок
+        - name: Диагностика
           items:
             - name: Устранение неполадок в сценариях обновления
               href: refresh-troubleshooting-refresh-scenarios.md
@@ -328,7 +322,7 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Использование настраиваемых соединителей
               href: service-gateway-custom-connectors.md
-        - name: Устранение неполадок
+        - name: Диагностика
           items:
             - name: "Устранение неполадок с импортом XLS-файлов Excel и\_Access"
               href: desktop-access-database-errors.md
