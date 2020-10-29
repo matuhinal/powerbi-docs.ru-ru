@@ -94,7 +94,7 @@
               href: service-security-data-protection-metrics-report.md
         - name: Защита на уровне строк
           href: service-admin-rls.md
-        - name: Настройка сертификации наборов и потоков данных
+        - name: Реализация сертификации содержимого
           href: service-admin-setup-certification.md
         - name: Настройка мобильных приложений в Intune
           href: service-admin-mobile-intune.md

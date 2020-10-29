@@ -16,6 +16,8 @@
           href: service-usage-metrics.md
         - name: Мониторинг потребления в новых рабочих областях
           href: service-modern-usage-metrics.md
+        - name: Подтверждение содержимого
+          href: service-endorsement-overview.md
     - name: Практические руководства
       expanded: true
       items:
@@ -73,6 +75,8 @@
               href: service-url-filters.md
             - name: Подписка себя и других пользователей
               href: service-report-subscribe.md
+            - name: Подтверждение своего содержимого
+              href: service-endorse-content.md
             - name: Рекомендация содержимого на главной странице
               href: service-featured-content.md
             - name: Встраивание отчета в SharePoint Online
